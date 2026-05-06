@@ -1,0 +1,16 @@
+# Node / frontend
+client/node_modules/
+client/dist/
+
+# .NET build output
+server/**/bin/
+server/**/obj/
+
+# Logs and temp files
+*.log
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

@@ -1,0 +1,6 @@
+@JPLearn.Api_HostAddress = http://localhost:5160
+
+GET {{JPLearn.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="JPLearn.Api/JPLearn.Api.csproj" />
+  <Project Path="JPLearn.Core/JPLearn.Core.csproj" />
+  <Project Path="JPLearn.Infrastructure/JPLearn.Infrastructure.csproj" />
+</Solution>
