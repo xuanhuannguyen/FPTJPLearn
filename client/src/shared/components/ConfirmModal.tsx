@@ -48,10 +48,10 @@ export const ConfirmModal: FC<ConfirmModalProps> = ({
       aria-modal="true"
       aria-labelledby="confirm-modal-title"
     >
-      <div className="bg-bg-secondary w-full max-w-sm rounded-2xl shadow-card flex flex-col border border-border overflow-hidden animate-modal-in">
+      <div className="clay-modal max-w-sm animate-modal-in">
         <div className="p-6">
           <div className="flex items-center gap-3 mb-4">
-            <div className={`p-3 rounded-full ${isDestructive ? 'bg-accent-danger/10 text-accent-danger' : 'bg-accent-primary/10 text-accent-primary'}`}>
+            <div className={`icon-badge h-12 w-12 ${isDestructive ? 'bg-accent-danger/10 text-accent-danger' : 'bg-accent-primary/10 text-accent-primary'}`}>
               <AlertTriangle size={24} />
             </div>
             <h2 id="confirm-modal-title" className="text-xl font-bold text-text-primary">{title}</h2>
@@ -64,18 +64,18 @@ export const ConfirmModal: FC<ConfirmModalProps> = ({
           )}
         </div>
         
-        <div className="p-4 bg-bg-primary/50 border-t border-border flex justify-end gap-3">
+        <div className="clay-modal-footer">
           <button 
             onClick={onCancel}
             disabled={isProcessing}
-            className="px-4 py-2 rounded-xl font-medium text-text-secondary hover:bg-bg-tertiary transition-colors disabled:cursor-not-allowed disabled:opacity-50"
+            className="btn-secondary min-h-10 px-4 py-2 disabled:cursor-not-allowed disabled:opacity-50"
           >
             {cancelText}
           </button>
           <button 
             onClick={handleConfirm}
             disabled={isProcessing}
-            className={`px-4 py-2 rounded-xl font-medium text-white transition-all shadow-glow hover:-translate-y-0.5 disabled:cursor-not-allowed disabled:opacity-60 disabled:hover:translate-y-0 ${
+            className={`rounded-xl border-2 border-border px-4 py-2 font-extrabold text-white transition-all shadow-pop hover:-translate-y-0.5 disabled:cursor-not-allowed disabled:opacity-60 disabled:hover:translate-y-0 ${
               isDestructive ? 'bg-accent-danger hover:bg-red-600' : 'bg-accent-primary hover:bg-accent-hover'
             }`}
           >

@@ -1,13 +1,19 @@
 import React, { useState } from 'react';
+import { isAxiosError } from 'axios';
 import { X, Loader2 } from 'lucide-react';
 import { vocabularyApi } from '../api/vocabularyApi';
+import type { VocabularyItem } from '../api/vocabularyApi';
 
 interface AddWordModalProps {
   isOpen: boolean;
   listId: string;
   onClose: () => void;
-  onSuccess: (newItem: any) => void;
+  onSuccess: (newItem: VocabularyItem) => void;
 }
+
+type ApiErrorResponse = {
+  title?: string;
+};
 
 export const AddWordModal: React.FC<AddWordModalProps> = ({ isOpen, listId, onClose, onSuccess }) => {
   const [formData, setFormData] = useState({
@@ -55,8 +61,9 @@ export const AddWordModal: React.FC<AddWordModalProps> = ({ isOpen, listId, onCl
       setFormData({
         word: '', reading: '', type: 'Danh từ', meaning: '', example: '', exampleMeaning: ''
       });
-    } catch (err: any) {
-      setError(err.response?.data?.title || 'Failed to add word.');
+    } catch (err: unknown) {
+      const apiTitle = isAxiosError<ApiErrorResponse>(err) ? err.response?.data?.title : undefined;
+      setError(apiTitle || 'Failed to add word.');
     } finally {
       setIsSubmitting(false);
     }
@@ -66,9 +73,9 @@ export const AddWordModal: React.FC<AddWordModalProps> = ({ isOpen, listId, onCl
 
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-text-primary/20 backdrop-blur-sm animate-fade-in">
-      <div className="bg-bg-secondary w-full max-w-md rounded-2xl shadow-card flex flex-col border border-border">
+      <div className="clay-modal max-w-md">
         {/* Header */}
-        <div className="flex items-center justify-between p-6 border-b border-border bg-bg-primary/50">
+        <div className="clay-modal-header">
           <h2 className="text-xl font-bold text-text-primary">Add New Word</h2>
           <button onClick={onClose} className="p-2 rounded-full text-text-secondary hover:bg-bg-tertiary">
             <X size={20} />
@@ -81,44 +88,48 @@ export const AddWordModal: React.FC<AddWordModalProps> = ({ isOpen, listId, onCl
           
           <div className="grid grid-cols-2 gap-4">
             <div>
-              <label className="block text-sm font-medium text-text-secondary mb-1">Word *</label>
+              <label htmlFor="add-word-word" className="block text-sm font-bold text-text-secondary mb-1">Word *</label>
               <input 
+                id="add-word-word"
                 type="text" 
                 value={formData.word}
                 onChange={e => setFormData({...formData, word: e.target.value})}
                 placeholder="e.g. 食べる"
-                className="w-full p-2.5 rounded-xl border border-border bg-bg-primary text-text-primary focus:outline-none focus:border-accent-primary"
+                className="form-control py-2.5"
               />
             </div>
             <div>
-              <label className="block text-sm font-medium text-text-secondary mb-1">Reading *</label>
+              <label htmlFor="add-word-reading" className="block text-sm font-bold text-text-secondary mb-1">Reading *</label>
               <input 
+                id="add-word-reading"
                 type="text" 
                 value={formData.reading}
                 onChange={e => setFormData({...formData, reading: e.target.value})}
                 placeholder="e.g. たべる"
-                className="w-full p-2.5 rounded-xl border border-border bg-bg-primary text-text-primary focus:outline-none focus:border-accent-primary"
+                className="form-control py-2.5"
               />
             </div>
           </div>
 
           <div className="grid grid-cols-2 gap-4">
             <div>
-              <label className="block text-sm font-medium text-text-secondary mb-1">Meaning *</label>
+              <label htmlFor="add-word-meaning" className="block text-sm font-bold text-text-secondary mb-1">Meaning *</label>
               <input 
+                id="add-word-meaning"
                 type="text" 
                 value={formData.meaning}
                 onChange={e => setFormData({...formData, meaning: e.target.value})}
                 placeholder="e.g. Ăn"
-                className="w-full p-2.5 rounded-xl border border-border bg-bg-primary text-text-primary focus:outline-none focus:border-accent-primary"
+                className="form-control py-2.5"
               />
             </div>
             <div>
-              <label className="block text-sm font-medium text-text-secondary mb-1">Type *</label>
+              <label htmlFor="add-word-type" className="block text-sm font-bold text-text-secondary mb-1">Type *</label>
               <select 
+                id="add-word-type"
                 value={formData.type}
                 onChange={e => setFormData({...formData, type: e.target.value})}
-                className="w-full p-2.5 rounded-xl border border-border bg-bg-primary text-text-primary focus:outline-none focus:border-accent-primary"
+                className="form-control py-2.5"
               >
                 {wordTypes.map(t => <option key={t} value={t}>{t}</option>)}
               </select>
@@ -126,20 +137,23 @@ export const AddWordModal: React.FC<AddWordModalProps> = ({ isOpen, listId, onCl
           </div>
 
           <div>
-            <label className="block text-sm font-medium text-text-secondary mb-1">Example Sentence</label>
+            <label htmlFor="add-word-example" className="block text-sm font-bold text-text-secondary mb-1">Example Sentence</label>
             <input 
+              id="add-word-example"
               type="text" 
               value={formData.example}
               onChange={e => setFormData({...formData, example: e.target.value})}
               placeholder="e.g. 私はりんごを食べる。"
-              className="w-full p-2.5 rounded-xl border border-border bg-bg-primary text-text-primary focus:outline-none focus:border-accent-primary mb-2"
+              className="form-control mb-2 py-2.5"
             />
+            <label htmlFor="add-word-example-meaning" className="sr-only">Example meaning</label>
             <input 
+              id="add-word-example-meaning"
               type="text" 
               value={formData.exampleMeaning}
               onChange={e => setFormData({...formData, exampleMeaning: e.target.value})}
               placeholder="e.g. Tôi ăn táo."
-              className="w-full p-2.5 rounded-xl border border-border bg-bg-primary text-text-primary focus:outline-none focus:border-accent-primary"
+              className="form-control py-2.5"
             />
           </div>
 

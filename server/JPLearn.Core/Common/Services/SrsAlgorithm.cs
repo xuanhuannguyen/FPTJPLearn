@@ -32,7 +32,7 @@ public static class SrsAlgorithm
         DateTime nowUtc)
     {
         var normalizedQuality = NormalizeQuality(quality);
-        var currentLevel = Math.Clamp(level, 0, 5);
+        var currentLevel = Math.Clamp(level, ReviewLevels.Min, ReviewLevels.Max);
         var normalizedStatus = NormalizeStatus(currentStatus);
         var updatedEaseFactor = CalculateEaseFactor(easeFactor, normalizedQuality);
 
@@ -53,25 +53,19 @@ public static class SrsAlgorithm
         int lapseCount,
         DateTime nowUtc)
     {
-        var newLevel = Math.Min(5, level + 1);
+        var newLevel = Math.Min(ReviewLevels.Max, level + 1);
         var newStatus = DetermineStatus(newLevel, currentStatus == ReviewStates.Relearning);
-        var newRepetitions = newLevel >= 3 ? Math.Max(1, repetitions + 1) : repetitions;
+        var newRepetitions = newLevel >= ReviewLevels.Review ? Math.Max(1, repetitions + 1) : repetitions;
 
         if (newLevel <= 1)
         {
             return BuildStepResult(newLevel, newStatus, newRepetitions, easeFactor, 0, 0, lapseCount, nowUtc, LearningStepOne);
         }
 
-        if (newLevel == 2)
-        {
-            return BuildStepResult(newLevel, newStatus, newRepetitions, easeFactor, 0, 1, lapseCount, nowUtc, LearningStepTwo);
-        }
-
         var newInterval = newLevel switch
         {
-            3 => 1,
-            4 => Math.Max(3, intervalDays > 0 ? Math.Max(intervalDays + 1, (int)Math.Ceiling(intervalDays * 1.5)) : 3),
-            5 when level < 5 => Math.Max(7, intervalDays > 0 ? Math.Max(intervalDays + 1, (int)Math.Round(intervalDays * 2.0)) : 7),
+            ReviewLevels.Review => 1,
+            ReviewLevels.Mastered when level < ReviewLevels.Mastered => Math.Max(7, intervalDays > 0 ? Math.Max(intervalDays + 1, (int)Math.Round(intervalDays * 2.0)) : 7),
             _ => Math.Max(intervalDays + 1, (int)Math.Round(Math.Max(1, intervalDays) * Math.Max(1.4, easeFactor)))
         };
 
@@ -102,19 +96,17 @@ public static class SrsAlgorithm
             return BuildStepResult(1, ReviewStates.Learning, repetitions, easeFactor, 0, 0, lapseCount, nowUtc, LearningStepTwo);
         }
 
-        if (level <= 2)
+        if (level < ReviewLevels.Review)
         {
-            var learningStepIndex = level == 1 ? 0 : 1;
-            return BuildStepResult(level, ReviewStates.Learning, repetitions, easeFactor, 0, learningStepIndex, lapseCount, nowUtc, LearningStepTwo);
+            return BuildStepResult(level, ReviewStates.Learning, repetitions, easeFactor, 0, 0, lapseCount, nowUtc, LearningStepTwo);
         }
 
-        var newStatus = level >= 5 ? ReviewStates.Mastered : ReviewStates.Review;
+        var newStatus = level >= ReviewLevels.Mastered ? ReviewStates.Mastered : ReviewStates.Review;
         var newInterval = intervalDays > 0
             ? Math.Max(1, (int)Math.Ceiling(intervalDays * 0.6))
             : level switch
             {
-                3 => 1,
-                4 => 3,
+                ReviewLevels.Review => 1,
                 _ => 7
             };
 
@@ -144,18 +136,17 @@ public static class SrsAlgorithm
             return BuildStepResult(0, ReviewStates.New, 0, easeFactor, 0, 0, lapseCount, nowUtc, LearningStepOne);
         }
 
-        if (level <= 2)
+        if (level < ReviewLevels.Review)
         {
             var newLevel = Math.Max(0, level - 1);
             var status = newLevel == 0 ? ReviewStates.New : ReviewStates.Learning;
-            return BuildStepResult(newLevel, status, 0, easeFactor, 0, newLevel == 2 ? 1 : 0, lapseCount, nowUtc, LearningStepOne);
+            return BuildStepResult(newLevel, status, 0, easeFactor, 0, 0, lapseCount, nowUtc, LearningStepOne);
         }
 
         var demotedLevel = level switch
         {
-            3 => 2,
-            4 => 2,
-            _ => 3
+            ReviewLevels.Review => 1,
+            _ => ReviewLevels.Review
         };
 
         return new SrsResult(
@@ -202,12 +193,12 @@ public static class SrsAlgorithm
             return ReviewStates.New;
         }
 
-        if (level <= 2)
+        if (level < ReviewLevels.Review)
         {
             return ReviewStates.Learning;
         }
 
-        if (level == 5)
+        if (level >= ReviewLevels.Mastered)
         {
             return ReviewStates.Mastered;
         }

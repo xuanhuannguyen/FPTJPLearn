@@ -1,44 +1,48 @@
 import { NavLink } from 'react-router-dom';
-import { BookOpen, LayoutDashboard, Settings } from 'lucide-react';
+import { 
+  Castle, 
+  Crown, 
+  Brain, 
+  BrainCircuit,
+} from 'lucide-react';
 
 export const Sidebar = () => {
   const navItems = [
-    { name: 'Dashboard', path: '/dashboard', icon: <LayoutDashboard size={20} /> },
-    { name: 'Vocabulary', path: '/vocabulary', icon: <BookOpen size={20} /> },
+    { name: 'Hán tự', path: '/kanji', icon: <Castle size={24} /> },
+    { name: 'Từ vựng', path: '/vocabulary', icon: <Crown size={24} /> },
+    { name: 'Ngữ pháp', path: '/grammar', icon: <Brain size={24} /> },
+    { name: 'Ghi nhớ', path: '/memory', icon: <BrainCircuit size={24} /> },
   ];
 
   return (
-    <aside className="w-64 flex-shrink-0 bg-bg-secondary border-r border-border h-full flex flex-col hidden md:flex">
-      <div className="h-16 flex items-center px-6 border-b border-border">
-        <h1 className="text-xl font-bold text-accent-primary tracking-wide">
-          JPLearn
-        </h1>
+    <aside className="hidden h-full w-[78px] flex-shrink-0 overflow-hidden bg-white md:flex">
+      <div className="flex h-full w-full flex-col items-center overflow-hidden border-r border-slate-100 bg-white">
+      <div className="flex h-16 w-full items-center justify-center border-b border-slate-100">
+        <div className="flex h-11 w-11 items-center justify-center rounded-xl bg-accent-primary text-white shadow-pop">
+          <span className="font-heading text-xl font-black leading-none">JP</span>
+        </div>
       </div>
-      
-      <nav className="flex-1 overflow-y-auto py-6 px-3 space-y-1">
+
+      <nav className="w-full space-y-2 overflow-hidden px-1 py-4">
         {navItems.map((item) => (
           <NavLink
             key={item.path}
             to={item.path}
             className={({ isActive }) =>
-              `flex items-center gap-3 px-3 py-2.5 rounded-lg transition-colors duration-200 cursor-pointer ${
+              `mx-auto flex h-[68px] w-[68px] cursor-pointer flex-col items-center justify-center gap-1.5 rounded-lg text-center transition-colors duration-200 ${
                 isActive 
-                  ? 'bg-accent-primary/10 text-accent-primary font-medium' 
-                  : 'text-text-secondary hover:bg-bg-tertiary hover:text-text-primary'
+                  ? 'bg-slate-100 text-text-primary' 
+                  : 'text-slate-500 hover:bg-slate-50 hover:text-text-primary'
               }`
             }
           >
-            {item.icon}
-            <span>{item.name}</span>
+            <div className="flex h-7 w-7 items-center justify-center">
+              {item.icon}
+            </div>
+            <span className="text-[11px] font-extrabold leading-tight">{item.name}</span>
           </NavLink>
         ))}
       </nav>
-
-      <div className="p-4 border-t border-border">
-        <button className="flex items-center gap-3 px-3 py-2.5 w-full text-left rounded-lg text-text-secondary hover:bg-bg-tertiary hover:text-text-primary transition-colors cursor-pointer">
-          <Settings size={20} />
-          <span>Settings</span>
-        </button>
       </div>
     </aside>
   );

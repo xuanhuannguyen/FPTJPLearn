@@ -70,7 +70,7 @@ public class VocabularyService : IVocabularyService
                 MasteredCount = _db.UserWordProgress
                     .Count(p => p.UserId == userId
                         && p.VocabularyItem.ListId == l.Id
-                        && p.Level >= 5),
+                        && p.Level >= ReviewLevels.Mastered),
                 DueCount = _db.UserWordProgress
                     .Count(p => p.UserId == userId
                         && p.VocabularyItem.ListId == l.Id
@@ -102,7 +102,7 @@ public class VocabularyService : IVocabularyService
                 OrderIndex = i.OrderIndex,
                 Level = _db.UserWordProgress
                     .Where(p => p.UserId == userId && p.VocabularyItemId == i.Id)
-                    .Select(p => p.Level)
+                    .Select(p => p.Level < ReviewLevels.Min ? ReviewLevels.Min : p.Level > ReviewLevels.Max ? ReviewLevels.Max : p.Level)
                     .FirstOrDefault(),
                 Status = _db.UserWordProgress
                     .Where(p => p.UserId == userId && p.VocabularyItemId == i.Id)

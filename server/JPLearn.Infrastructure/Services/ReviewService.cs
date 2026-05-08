@@ -50,8 +50,8 @@ public class ReviewService : IReviewService
 
         query = normalizedScope switch
         {
-            ReviewScopes.Mastered => query.Where(progress => progress.Level >= 5),
-            ReviewScopes.Reviewed => query.Where(progress => progress.Level >= 3),
+            ReviewScopes.Mastered => query.Where(progress => progress.Level >= ReviewLevels.Mastered),
+            ReviewScopes.Reviewed => query.Where(progress => progress.Level >= ReviewLevels.Review),
             _ => query.Where(progress => progress.Level >= 1)
         };
 
@@ -65,17 +65,21 @@ public class ReviewService : IReviewService
 
     public async Task<CardsResponseDto> GetCardsByLevelAsync(Guid userId, Guid listId, int minLevel, int maxLevel)
     {
-        var fromLevel = Math.Clamp(minLevel, 0, 5);
-        var toLevel = Math.Clamp(maxLevel, fromLevel, 5);
+        var fromLevel = Math.Clamp(minLevel, ReviewLevels.Min, ReviewLevels.Max);
+        var toLevel = Math.Clamp(maxLevel, fromLevel, ReviewLevels.Max);
 
-        var cards = await _db.UserWordProgress
+        var query = _db.UserWordProgress
             .Include(progress => progress.VocabularyItem)
             .ThenInclude(item => item.List)
             .Where(progress => progress.UserId == userId
                 && progress.VocabularyItem.ListId == listId
-                && progress.VocabularyItem.List.UserId == userId
-                && progress.Level >= fromLevel
-                && progress.Level <= toLevel)
+                && progress.VocabularyItem.List.UserId == userId);
+
+        query = toLevel >= ReviewLevels.Max
+            ? query.Where(progress => progress.Level >= fromLevel)
+            : query.Where(progress => progress.Level >= fromLevel && progress.Level <= toLevel);
+
+        var cards = await query
             .OrderBy(progress => progress.Level)
             .ThenBy(progress => progress.VocabularyItem.OrderIndex)
             .ToListAsync();
@@ -195,7 +199,7 @@ public class ReviewService : IReviewService
 
         if (normalizedResetType == ReviewResetTypes.Mastered)
         {
-            query = query.Where(progress => progress.Level >= 5);
+            query = query.Where(progress => progress.Level >= ReviewLevels.Mastered);
         }
         else if (normalizedResetType == ReviewResetTypes.Selected)
         {
@@ -266,7 +270,7 @@ public class ReviewService : IReviewService
             Meaning = progress.VocabularyItem.Meaning,
             ExampleSentence = progress.VocabularyItem.ExampleSentence,
             ExampleMeaning = progress.VocabularyItem.ExampleMeaning,
-            Level = progress.Level,
+            Level = Math.Clamp(progress.Level, ReviewLevels.Min, ReviewLevels.Max),
             Status = progress.Status,
             NextReviewAt = progress.NextReviewAt,
             IntervalDays = progress.IntervalDays,

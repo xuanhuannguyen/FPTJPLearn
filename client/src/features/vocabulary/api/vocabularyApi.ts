@@ -1,5 +1,32 @@
 import { apiClient } from '../../../shared/api/axios';
 
+export interface VocabularyList {
+  id: string;
+  name: string;
+  description: string;
+  wordCount: number;
+  masteredCount: number;
+  dueCount: number;
+  createdAt: string;
+}
+
+export interface VocabularyItem {
+  id: string;
+  word: string;
+  reading: string;
+  wordType: string;
+  meaning: string;
+  exampleSentence?: string;
+  exampleMeaning?: string;
+  orderIndex: number;
+  level: number;
+  status: string;
+}
+
+export interface VocabularyListDetail extends VocabularyList {
+  items: VocabularyItem[];
+}
+
 export interface ImportVocabularyDto {
   name: string;
   description?: string;
@@ -13,6 +40,19 @@ export interface ImportVocabularyDto {
   }[];
 }
 
+export interface AddVocabularyItemDto {
+  word: string;
+  reading: string;
+  type: string;
+  meaning: string;
+  example: string;
+  exampleMeaning: string;
+}
+
+interface AddVocabularyItemResponse {
+  itemId: string;
+}
+
 export const vocabularyApi = {
   importJSON: async (data: ImportVocabularyDto) => {
     const response = await apiClient.post('/vocabulary/lists/import', data);
@@ -20,12 +60,12 @@ export const vocabularyApi = {
   },
   
   getLists: async () => {
-    const response = await apiClient.get('/vocabulary/lists');
+    const response = await apiClient.get<VocabularyList[]>('/vocabulary/lists');
     return response.data;
   },
 
   getListById: async (id: string) => {
-    const response = await apiClient.get(`/vocabulary/lists/${id}`);
+    const response = await apiClient.get<VocabularyListDetail>(`/vocabulary/lists/${id}`);
     return response.data;
   },
 
@@ -39,8 +79,8 @@ export const vocabularyApi = {
     return response.data;
   },
 
-  addItem: async (listId: string, wordData: any) => {
-    const response = await apiClient.post(`/vocabulary/lists/${listId}/items`, wordData);
+  addItem: async (listId: string, wordData: AddVocabularyItemDto) => {
+    const response = await apiClient.post<AddVocabularyItemResponse>(`/vocabulary/lists/${listId}/items`, wordData);
     return response.data;
   }
 };

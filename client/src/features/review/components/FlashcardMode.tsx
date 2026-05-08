@@ -1,138 +1,274 @@
-import { useEffect, useState } from 'react';
+import { useCallback, useEffect, useState } from 'react';
+import { Check, ChevronLeft, ChevronRight, RotateCcw, Shuffle, Star, X } from 'lucide-react';
 import type { ReviewCard } from '../types';
+import { VocabularyAudioControl } from './VocabularyAudioControl';
 
 interface FlashcardModeProps {
   card: ReviewCard;
   direction: 'jp_to_vi' | 'vi_to_jp';
+  currentIndex: number;
+  totalCards: number;
+  isShuffleEnabled: boolean;
   onAnswer: (quality: number, correct: boolean, message: string) => void;
   revealBack: boolean;
   onReveal: () => void;
   answered: boolean;
   onNext: () => void;
+  onToggleDirection: () => void;
+  onToggleShuffle: () => void;
 }
 
 export const FlashcardMode = ({
   card,
   direction,
+  currentIndex,
+  totalCards,
+  isShuffleEnabled,
   onAnswer,
   revealBack,
   onReveal,
   answered,
   onNext,
+  onToggleDirection,
+  onToggleShuffle,
 }: FlashcardModeProps) => {
   const isJpToVi = direction === 'jp_to_vi';
-  const [isFlipped, setIsFlipped] = useState(false);
+  const [flipState, setFlipState] = useState({
+    cardId: card.itemId,
+    isFlipped: false,
+    syncedRevealBack: revealBack,
+  });
+  const [motionState, setMotionState] = useState({
+    cardId: card.itemId,
+    phase: 'idle' as 'enter' | 'idle' | 'exit-correct' | 'exit-wrong',
+  });
+  const isSameCard = flipState.cardId === card.itemId;
+  const isFlipped = isSameCard && flipState.syncedRevealBack === revealBack
+    ? flipState.isFlipped
+    : revealBack;
+  const isNewCard = motionState.cardId !== card.itemId;
+  const motionPhase = isNewCard ? 'enter' : motionState.phase;
+
+  const handleFlip = useCallback(() => {
+    if (!isFlipped && !revealBack) {
+      onReveal();
+    }
+    setFlipState({
+      cardId: card.itemId,
+      isFlipped: !isFlipped,
+      syncedRevealBack: !isFlipped ? true : revealBack,
+    });
+  }, [card.itemId, isFlipped, onReveal, revealBack]);
+
+  const handleAnswer = useCallback((quality: number, correct: boolean, message: string) => {
+    if (answered) {
+      return;
+    }
+
+    setMotionState({
+      cardId: card.itemId,
+      phase: correct ? 'exit-correct' : 'exit-wrong',
+    });
+    onAnswer(quality, correct, message);
+  }, [answered, card.itemId, onAnswer]);
 
   // Auto advance after answering
   useEffect(() => {
     if (answered) {
       const timer = setTimeout(() => {
         onNext();
-      }, 200);
+      }, 360);
       return () => clearTimeout(timer);
     }
   }, [answered, onNext]);
 
-  // Sync with parent's revealBack (e.g. when moving to next card)
   useEffect(() => {
-    setIsFlipped(revealBack);
-  }, [revealBack]);
-
-  const handleFlip = () => {
-    if (!revealBack) {
-      onReveal();
+    if (!isNewCard && motionState.phase !== 'enter') {
+      return;
     }
-    setIsFlipped(!isFlipped);
-  };
+
+    let secondFrame = 0;
+    const firstFrame = window.requestAnimationFrame(() => {
+      secondFrame = window.requestAnimationFrame(() => {
+        setMotionState({
+          cardId: card.itemId,
+          phase: 'idle',
+        });
+      });
+    });
+
+    return () => {
+      window.cancelAnimationFrame(firstFrame);
+      window.cancelAnimationFrame(secondFrame);
+    };
+  }, [card.itemId, isNewCard, motionState.phase]);
+
+  useEffect(() => {
+    const handleKeyDown = (event: KeyboardEvent) => {
+      if (event.target instanceof HTMLInputElement || event.target instanceof HTMLTextAreaElement) {
+        return;
+      }
+
+      if (event.code === 'Space') {
+        event.preventDefault();
+        handleFlip();
+      }
+
+      if (answered) {
+        return;
+      }
+
+      if (event.key.toLowerCase() === 'x') {
+        handleAnswer(1, false, 'Chưa biết - Học lại');
+      }
+
+      if (event.key.toLowerCase() === 'z') {
+        handleAnswer(5, true, 'Biết - Tăng level');
+      }
+    };
+
+    window.addEventListener('keydown', handleKeyDown);
+    return () => window.removeEventListener('keydown', handleKeyDown);
+  }, [answered, handleAnswer, handleFlip]);
+
+  const promptText = isJpToVi ? card.word : card.meaning;
+  const answerText = isJpToVi ? card.meaning : `${card.word} (${card.reading})`;
+  const exampleText = isJpToVi ? card.exampleSentence : card.exampleMeaning;
+  const directionLabel = isJpToVi ? 'JP→VI' : 'VI→JP';
+  const motionClass = {
+    enter: 'translate-x-8 scale-[0.985] opacity-0',
+    idle: 'translate-x-0 scale-100 opacity-100',
+    'exit-correct': '-translate-x-12 scale-[0.985] opacity-0 rotate-1',
+    'exit-wrong': 'translate-x-12 scale-[0.985] opacity-0 -rotate-1',
+  }[motionPhase];
 
   return (
-    <div className="w-full max-w-2xl mx-auto flex flex-col items-center">
-      {/* 3D Flip Container */}
-      <div 
-        className="relative w-full aspect-[16/8] md:aspect-[3/1] perspective-1000"
-        onClick={handleFlip}
-      >
-        <div 
-          className={`w-full h-full transition-all duration-500 transform-style-3d cursor-pointer ${
-            isFlipped ? 'rotate-y-180' : ''
-          }`}
-        >
-          {/* FRONT FACE */}
-          <div className="absolute w-full h-full rounded-[2rem] shadow-2xl backface-hidden flex flex-col items-center justify-center p-6 bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 text-white overflow-hidden border border-white/10">
-            {/* Background pattern */}
-            <div className="absolute inset-0 opacity-10 bg-[radial-gradient(circle_at_center,_var(--tw-gradient-from)_0%,_transparent_70%)]" />
-            
-            <span className="absolute top-5 left-8 text-[10px] font-black uppercase tracking-[0.2em] text-accent-primary">
-              {card.wordType}
-            </span>
-            
-            <div className="relative text-4xl md:text-6xl font-jp font-black tracking-tight drop-shadow-2xl">
-              {isJpToVi ? card.word : card.meaning}
+    <div className={`mx-auto w-full max-w-4xl transform-gpu transition-all duration-700 ease-[cubic-bezier(0.22,1,0.36,1)] motion-reduce:transform-none motion-reduce:transition-none ${motionClass}`}>
+      <div className="overflow-hidden rounded-[18px] bg-[#1b2239] shadow-[0_6px_0_rgba(15,23,42,0.92)]">
+        <div className="relative min-h-[300px] bg-[#303b5d] md:min-h-[360px]">
+          <button
+            type="button"
+            className="absolute left-3 top-1/2 flex h-10 w-10 -translate-y-1/2 items-center justify-center rounded-full bg-white/5 text-white/35 transition-colors hover:bg-white/10 hover:text-white/70"
+            aria-label="Previous card"
+          >
+            <ChevronLeft size={24} />
+          </button>
+
+          <button
+            type="button"
+            onClick={onNext}
+            className="absolute right-3 top-1/2 flex h-10 w-10 -translate-y-1/2 items-center justify-center rounded-full bg-white/10 text-white/55 transition-colors hover:bg-white/15 hover:text-white"
+            aria-label="Next card"
+          >
+            <ChevronRight size={24} />
+          </button>
+
+          <button
+            type="button"
+            className="absolute right-5 top-5 text-white/35 transition-colors hover:text-yellow-200"
+            aria-label="Mark favorite"
+          >
+            <Star size={20} />
+          </button>
+
+          <div className="absolute left-5 top-5">
+            <VocabularyAudioControl card={card} compact tone="dark" />
+          </div>
+
+          <button
+            type="button"
+            onClick={handleFlip}
+            className="flex min-h-[300px] w-full cursor-pointer flex-col items-center justify-center px-10 py-10 text-center md:min-h-[360px]"
+          >
+            <div className="font-jp text-4xl font-medium leading-none tracking-wide text-white md:text-5xl">
+              {isFlipped ? answerText : promptText}
             </div>
-            
-            {isJpToVi && (
-              <div className="mt-3 text-lg md:text-xl font-jp font-medium text-slate-400">
+
+            {!isFlipped && isJpToVi && card.reading && (
+              <div className="mt-4 font-jp text-lg font-medium text-white/45">
                 {card.reading}
               </div>
             )}
-            
-            <div className="absolute bottom-5 text-slate-500 text-[10px] font-bold uppercase tracking-widest animate-pulse">
-              Click to reveal
-            </div>
-          </div>
 
-          {/* BACK FACE */}
-          <div className="absolute w-full h-full rounded-[2rem] shadow-2xl backface-hidden rotate-y-180 flex flex-col items-center justify-center p-6 bg-bg-secondary border-2 border-accent-primary/30">
-            <span className="absolute top-5 left-8 text-[10px] font-black uppercase tracking-[0.2em] text-accent-primary">
-              Result
-            </span>
-            
-            <div className="text-2xl md:text-4xl font-black text-text-primary text-center tracking-tight">
-              {isJpToVi ? card.meaning : `${card.word} (${card.reading})`}
-            </div>
-            
-            {(isJpToVi ? card.exampleSentence : card.exampleMeaning) && (
-              <div className="mt-4 text-center max-w-lg px-4">
-                <div className="text-sm md:text-base text-text-secondary font-jp italic mb-1 line-clamp-1">
-                  "{card.exampleSentence}"
-                </div>
-                <div className="text-[10px] md:text-xs text-text-tertiary font-medium">
-                  {card.exampleMeaning}
-                </div>
+            {isFlipped && exampleText && (
+              <div className="mt-5 max-w-xl text-xs font-semibold leading-5 text-white/55 md:text-sm">
+                {card.exampleSentence && <p className="font-jp">{card.exampleSentence}</p>}
+                {card.exampleMeaning && <p>{card.exampleMeaning}</p>}
               </div>
             )}
+          </button>
+        </div>
 
-            <div className="absolute bottom-5 text-accent-primary/40 text-[10px] font-bold uppercase tracking-widest">
-              Click to flip back
-            </div>
+        <div className="flex min-h-10 items-center justify-center bg-[#465174] px-4 text-[11px] font-semibold text-slate-300/75">
+          <div className="flex flex-wrap items-center justify-center gap-2">
+            <span>Phím tắt:</span>
+            <kbd className="rounded bg-slate-500/55 px-2 py-0.5 text-[10px] text-white/80">Space</kbd>
+            <span>lật</span>
+            <kbd className="rounded bg-slate-500/55 px-2 py-0.5 text-[10px] text-white/80">Z</kbd>
+            <span>biết</span>
+            <kbd className="rounded bg-slate-500/55 px-2 py-0.5 text-[10px] text-white/80">X</kbd>
+            <span>chưa biết</span>
           </div>
         </div>
-      </div>
 
-      {/* Action Buttons */}
-      <div className="mt-6 w-full">
-        <div className={`grid grid-cols-3 gap-3 transition-opacity duration-300 ${answered ? 'opacity-50 pointer-events-none' : 'opacity-100'}`}>
-          <button
-            onClick={() => onAnswer(1, false, 'Quên - Học lại')}
-            disabled={answered}
-            className="py-3 md:py-4 rounded-2xl bg-rose-500 hover:bg-rose-600 text-white font-bold text-base md:text-lg shadow-[0_4px_0_rgb(190,18,60)] hover:shadow-[0_2px_0_rgb(190,18,60)] hover:translate-y-[2px] transition-all disabled:hover:translate-y-0 disabled:hover:shadow-[0_4px_0_rgb(190,18,60)]"
-          >
-            Quên
-          </button>
-          <button
-            onClick={() => onAnswer(3, true, 'Khó - Ôn lại sớm')}
-            disabled={answered}
-            className="py-3 md:py-4 rounded-2xl bg-amber-500 hover:bg-amber-600 text-white font-bold text-base md:text-lg shadow-[0_4px_0_rgb(180,83,9)] hover:shadow-[0_2px_0_rgb(180,83,9)] hover:translate-y-[2px] transition-all disabled:hover:translate-y-0 disabled:hover:shadow-[0_4px_0_rgb(180,83,9)]"
-          >
-            Khó
-          </button>
-          <button
-            onClick={() => onAnswer(5, true, 'Nhớ - Tăng level')}
-            disabled={answered}
-            className="py-3 md:py-4 rounded-2xl bg-emerald-500 hover:bg-emerald-600 text-white font-bold text-base md:text-lg shadow-[0_4px_0_rgb(4,120,87)] hover:shadow-[0_2px_0_rgb(4,120,87)] hover:translate-y-[2px] transition-all disabled:hover:translate-y-0 disabled:hover:shadow-[0_4px_0_rgb(4,120,87)]"
-          >
-            Nhớ
-          </button>
+        <div className="grid min-h-[76px] grid-cols-[1fr_auto_1fr] items-center gap-4 bg-[#171d33] px-5 py-3 text-white">
+          <div className="flex items-center gap-3">
+            <div className="inline-flex rounded-full bg-white/10 p-0.5">
+              <button className="rounded-full bg-blue-600 px-4 py-1.5 text-xs font-bold text-white shadow-[0_2px_0_rgba(0,0,0,0.35)]">
+                Từ đơn
+              </button>
+              <button className="rounded-full px-4 py-1.5 text-xs font-bold text-slate-300">
+                Ví dụ
+              </button>
+            </div>
+          </div>
+
+          <div className="flex items-center gap-6">
+            <button
+              onClick={() => handleAnswer(1, false, 'Chưa biết - Học lại')}
+              disabled={answered}
+              className="flex h-12 w-12 items-center justify-center rounded-full bg-rose-600/35 text-rose-400 transition-all hover:bg-rose-600/50 disabled:pointer-events-none disabled:opacity-50"
+              aria-label="Chưa biết"
+            >
+              <X size={24} />
+            </button>
+
+            <div className="min-w-[60px] text-center text-lg font-bold">
+              {currentIndex + 1} / {totalCards}
+            </div>
+
+            <button
+              onClick={() => handleAnswer(5, true, 'Biết - Tăng level')}
+              disabled={answered}
+              className="flex h-12 w-12 items-center justify-center rounded-full bg-emerald-600/35 text-emerald-400 transition-all hover:bg-emerald-600/50 disabled:pointer-events-none disabled:opacity-50"
+              aria-label="Biết"
+            >
+              <Check size={26} />
+            </button>
+          </div>
+
+          <div className="flex items-center justify-end gap-4 text-slate-300/75">
+            <button
+              onClick={onToggleDirection}
+              className="inline-flex items-center rounded-full bg-white/10 px-3 py-1.5 text-xs font-bold transition-colors hover:bg-white/15 hover:text-white"
+            >
+              ↔ {directionLabel}
+            </button>
+            <button
+              onClick={handleFlip}
+              className="transition-colors hover:text-white"
+              aria-label="Flip card"
+            >
+              <RotateCcw size={20} />
+            </button>
+            <button
+              onClick={onToggleShuffle}
+              className={`transition-colors hover:text-white ${isShuffleEnabled ? 'text-accent-primary' : ''}`}
+              aria-label="Toggle shuffle"
+            >
+              <Shuffle size={20} />
+            </button>
+          </div>
         </div>
       </div>
     </div>

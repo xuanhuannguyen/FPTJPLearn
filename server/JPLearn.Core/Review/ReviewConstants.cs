@@ -9,6 +9,14 @@ public static class ReviewStates
     public const string Relearning = "relearning";
 }
 
+public static class ReviewLevels
+{
+    public const int Min = 0;
+    public const int Max = 3;
+    public const int Review = 2;
+    public const int Mastered = 3;
+}
+
 public static class ReviewSessionTypes
 {
     public const string Due = "due";

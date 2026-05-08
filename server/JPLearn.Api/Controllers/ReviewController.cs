@@ -40,7 +40,7 @@ public class ReviewController : ControllerBase
     /// Get cards in a list filtered by level range
     /// </summary>
     [HttpGet("{listId}/levels")]
-    public async Task<IActionResult> GetCardsByLevel(Guid listId, [FromQuery] int minLevel = 0, [FromQuery] int maxLevel = 5)
+    public async Task<IActionResult> GetCardsByLevel(Guid listId, [FromQuery] int minLevel = ReviewLevels.Min, [FromQuery] int maxLevel = ReviewLevels.Max)
     {
         var result = await _service.GetCardsByLevelAsync(DevUserId, listId, minLevel, maxLevel);
         return Ok(result);

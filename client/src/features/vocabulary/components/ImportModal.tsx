@@ -1,12 +1,19 @@
 import React, { useState } from 'react';
+import { isAxiosError } from 'axios';
 import { X, CheckCircle2, AlertCircle, Loader2 } from 'lucide-react';
 import { vocabularyApi } from '../api/vocabularyApi';
+import type { ImportVocabularyDto } from '../api/vocabularyApi';
 
 interface ImportModalProps {
   isOpen: boolean;
   onClose: () => void;
   onSuccess: () => void;
 }
+
+type ApiValidationErrorResponse = {
+  title?: string;
+  errors?: Record<string, string[]>;
+};
 
 export const ImportModal: React.FC<ImportModalProps> = ({ isOpen, onClose, onSuccess }) => {
   const [jsonInput, setJsonInput] = useState('');
@@ -20,14 +27,14 @@ export const ImportModal: React.FC<ImportModalProps> = ({ isOpen, onClose, onSuc
       setStatus('loading');
       setErrorMessage('');
       
-      const parsedData = JSON.parse(jsonInput);
+      const parsedData = JSON.parse(jsonInput) as Partial<ImportVocabularyDto>;
       
       // Basic validation
       if (!parsedData.name || !parsedData.words || !Array.isArray(parsedData.words)) {
         throw new Error('Invalid format. JSON must include "name" and a "words" array.');
       }
 
-      await vocabularyApi.importJSON(parsedData);
+      await vocabularyApi.importJSON(parsedData as ImportVocabularyDto);
       
       setStatus('success');
       setTimeout(() => {
@@ -37,14 +44,14 @@ export const ImportModal: React.FC<ImportModalProps> = ({ isOpen, onClose, onSuc
         setStatus('idle');
       }, 1500);
       
-    } catch (err: any) {
+    } catch (err: unknown) {
       setStatus('error');
       // Parse ASP.NET Core validation errors
-      let errorMsg = err.message || 'Failed to parse JSON or import to server.';
-      if (err.response?.data?.errors) {
+      let errorMsg = err instanceof Error ? err.message : 'Failed to parse JSON or import to server.';
+      if (isAxiosError<ApiValidationErrorResponse>(err) && err.response?.data?.errors) {
         const validationErrors = Object.values(err.response.data.errors).flat().join(', ');
         errorMsg = `Validation failed: ${validationErrors}`;
-      } else if (err.response?.data?.title) {
+      } else if (isAxiosError<ApiValidationErrorResponse>(err) && err.response?.data?.title) {
         errorMsg = err.response.data.title;
       }
       setErrorMessage(errorMsg);
@@ -53,9 +60,9 @@ export const ImportModal: React.FC<ImportModalProps> = ({ isOpen, onClose, onSuc
 
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-text-primary/20 backdrop-blur-sm animate-fade-in">
-      <div className="bg-bg-secondary w-full max-w-2xl rounded-2xl shadow-card flex flex-col max-h-[90vh] overflow-hidden border border-border">
+      <div className="clay-modal max-h-[90vh] max-w-2xl">
         {/* Header */}
-        <div className="flex items-center justify-between p-6 border-b border-border bg-bg-primary/50">
+        <div className="clay-modal-header">
           <div>
             <h2 className="text-xl font-bold text-text-primary">Import JSON</h2>
             <p className="text-sm text-text-secondary mt-1">Paste your vocabulary JSON array below.</p>
@@ -70,11 +77,15 @@ export const ImportModal: React.FC<ImportModalProps> = ({ isOpen, onClose, onSuc
 
         {/* Body */}
         <div className="p-6 flex-1 overflow-y-auto">
+          <label htmlFor="import-json-input" className="mb-2 block text-sm font-extrabold text-text-secondary">
+            Vocabulary JSON
+          </label>
           <textarea
+            id="import-json-input"
             value={jsonInput}
             onChange={(e) => setJsonInput(e.target.value)}
             placeholder={`{\n  "name": "N4_Bài 1",\n  "description": "Từ vựng Minna no Nihongo",\n  "words": [\n    {\n      "word": "行きます",\n      "reading": "いきます",\n      "type": "Động từ nhóm 1",\n      "meaning": "Đi"\n    }\n  ]\n}`}
-            className="w-full h-64 p-4 rounded-xl border border-border bg-bg-primary text-text-primary font-mono text-sm focus:outline-none focus:border-accent-primary focus:ring-1 focus:ring-accent-primary transition-all resize-none placeholder:text-text-muted"
+            className="form-control h-64 resize-none font-mono text-sm"
           />
 
           {status === 'error' && (
@@ -93,10 +104,10 @@ export const ImportModal: React.FC<ImportModalProps> = ({ isOpen, onClose, onSuc
         </div>
 
         {/* Footer */}
-        <div className="p-6 border-t border-border flex justify-end gap-3 bg-bg-primary/50">
+        <div className="clay-modal-footer p-6">
           <button 
             onClick={onClose}
-            className="px-5 py-2.5 rounded-xl font-medium text-text-secondary hover:bg-bg-tertiary transition-colors"
+            className="btn-secondary"
           >
             Cancel
           </button>
