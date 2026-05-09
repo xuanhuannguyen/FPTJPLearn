@@ -21,6 +21,7 @@ export interface MemorySummary {
 export interface MemoryCard {
   id: string;
   itemType: MemoryItemType;
+  sourceGrammarPatternId?: string | null;
   frontPrimary: string;
   frontSecondary?: string;
   frontMeta?: string;
@@ -68,4 +69,9 @@ export interface MemoryAnswerResult {
   requeueInSession: boolean;
   requeueAfterSeconds?: number;
   message: string;
+}
+
+export interface ResetMemoryResult {
+  success: boolean;
+  count: number;
 }

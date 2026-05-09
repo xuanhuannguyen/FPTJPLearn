@@ -38,6 +38,35 @@ public class UserMemoryGrammarItemConfiguration : IEntityTypeConfiguration<UserM
     }
 }
 
+public class UserMemoryKanjiItemConfiguration : IEntityTypeConfiguration<UserMemoryKanjiItem>
+{
+    public void Configure(EntityTypeBuilder<UserMemoryKanjiItem> builder)
+    {
+        builder.ToTable("user_memory_kanji_items");
+        builder.HasKey(x => x.Id);
+
+        builder.Property(x => x.Character).IsRequired().HasMaxLength(10);
+        builder.Property(x => x.HanViet).IsRequired().HasMaxLength(100);
+        builder.Property(x => x.Meaning).IsRequired().HasMaxLength(500);
+        builder.Property(x => x.KunReading).HasMaxLength(200);
+        builder.Property(x => x.OnReading).HasMaxLength(200);
+        builder.Property(x => x.Mnemonic).HasMaxLength(2000);
+        builder.Property(x => x.KanjiLevel).HasMaxLength(10);
+        builder.Property(x => x.Level).HasDefaultValue(0);
+        builder.Property(x => x.Status).IsRequired().HasMaxLength(20).HasDefaultValue("new");
+        builder.Property(x => x.EaseFactor).HasDefaultValue(2.5);
+        builder.Property(x => x.IntervalMinutes).HasDefaultValue(0);
+        builder.Property(x => x.IntervalDays).HasDefaultValue(0);
+        builder.Property(x => x.LapseCount).HasDefaultValue(0);
+        builder.Property(x => x.LearningStepIndex).HasDefaultValue(0);
+        builder.Property(x => x.IsActive).HasDefaultValue(true);
+
+        builder.HasIndex(x => new { x.UserId, x.SourceKanjiItemId }).IsUnique();
+        builder.HasIndex(x => new { x.UserId, x.IsActive, x.NextReviewAt });
+        builder.HasIndex(x => new { x.UserId, x.Level });
+    }
+}
+
 public class MemoryReviewSessionConfiguration : IEntityTypeConfiguration<MemoryReviewSession>
 {
     public void Configure(EntityTypeBuilder<MemoryReviewSession> builder)

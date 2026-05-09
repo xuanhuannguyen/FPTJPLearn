@@ -1,5 +1,6 @@
 using Microsoft.EntityFrameworkCore;
 using JPLearn.Core.Grammar.Entities;
+using JPLearn.Core.Kanji.Entities;
 using JPLearn.Core.Memory.Entities;
 using JPLearn.Core.Vocabulary.Entities;
 using JPLearn.Core.Review.Entities;
@@ -20,7 +21,12 @@ public class AppDbContext : DbContext
     public DbSet<GrammarExercise> GrammarExercises => Set<GrammarExercise>();
     public DbSet<UserGrammarProgress> UserGrammarProgress => Set<UserGrammarProgress>();
     public DbSet<GrammarExerciseAttempt> GrammarExerciseAttempts => Set<GrammarExerciseAttempt>();
+    public DbSet<KanjiLesson> KanjiLessons => Set<KanjiLesson>();
+    public DbSet<KanjiItem> KanjiItems => Set<KanjiItem>();
+    public DbSet<KanjiVocabulary> KanjiVocabularyItems => Set<KanjiVocabulary>();
+    public DbSet<UserKanjiProgress> UserKanjiProgress => Set<UserKanjiProgress>();
     public DbSet<UserMemoryGrammarItem> UserMemoryGrammarItems => Set<UserMemoryGrammarItem>();
+    public DbSet<UserMemoryKanjiItem> UserMemoryKanjiItems => Set<UserMemoryKanjiItem>();
     public DbSet<MemoryReviewSession> MemoryReviewSessions => Set<MemoryReviewSession>();
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)

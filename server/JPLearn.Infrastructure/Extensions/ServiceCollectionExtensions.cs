@@ -1,5 +1,6 @@
 using JPLearn.Core.Review;
 using JPLearn.Core.Grammar;
+using JPLearn.Core.Kanji;
 using JPLearn.Core.Memory;
 using JPLearn.Core.Vocabulary;
 using JPLearn.Infrastructure.Data;
@@ -24,8 +25,10 @@ public static class ServiceCollectionExtensions
         services.AddScoped<IGrammarService, GrammarService>();
         services.AddScoped<IGrammarReviewService, GrammarReviewService>();
         services.AddScoped<IGrammarExerciseService, GrammarExerciseService>();
+        services.AddScoped<IKanjiService, KanjiService>();
         services.AddScoped<IMemoryService, MemoryService>();
         services.AddScoped<IMemoryGrammarService, MemoryGrammarService>();
+        services.AddScoped<IMemoryKanjiService, MemoryKanjiService>();
         services.AddScoped<IMemorySrsService, MemorySrsService>();
 
         return services;

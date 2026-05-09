@@ -1,5 +1,8 @@
 using JPLearn.Api.Extensions;
+using JPLearn.Infrastructure.Data;
+using JPLearn.Infrastructure.Data.Seed;
 using JPLearn.Infrastructure.Extensions;
+using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -22,5 +25,13 @@ if (app.Environment.IsDevelopment())
 
 app.UseCors("AllowFrontend");
 app.MapControllers();
+
+if (app.Environment.IsDevelopment())
+{
+    using var scope = app.Services.CreateScope();
+    var db = scope.ServiceProvider.GetRequiredService<AppDbContext>();
+    await db.Database.MigrateAsync();
+    await KanjiSeedData.SeedAsync(db);
+}
 
 app.Run();

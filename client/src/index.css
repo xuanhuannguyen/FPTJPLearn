@@ -10,13 +10,13 @@
     --bg-primary: #e4f0ff;
     --bg-secondary: #ffffff;
     --bg-tertiary: #eaf4ff;
-    
+
     /* Text */
     --text-primary: #111827;
     --text-secondary: #334155;
     --text-muted: #64748b;
     --text-tertiary: #7c8aa0;
-    
+
     /* Accent */
     --accent-primary: #2563eb;
     --accent-hover: #1d4ed8;
@@ -25,7 +25,7 @@
     --accent-warning: #f59e0b;
     --accent-cta: #ea580c;
     --accent-info: #0284c7;
-    
+
     /* Border */
     --border-color: #111827;
 
@@ -52,8 +52,13 @@
       linear-gradient(180deg, #eaf4ff 0%, var(--bg-primary) 100%);
     background-size: 28px 28px, 28px 28px, auto, auto, auto;
   }
-  
-  h1, h2, h3, h4, h5, h6 {
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
     @apply font-heading;
   }
 }
@@ -180,12 +185,15 @@
   .perspective-1000 {
     perspective: 1000px;
   }
+
   .transform-style-3d {
     transform-style: preserve-3d;
   }
+
   .backface-hidden {
     backface-visibility: hidden;
   }
+
   .rotate-y-180 {
     transform: rotateY(180deg);
   }
@@ -193,23 +201,49 @@
 
 /* Animations */
 @keyframes fadeIn {
-  from { opacity: 0; transform: translateY(10px); }
-  to { opacity: 1; transform: translateY(0); }
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 @keyframes fadeOnly {
-  from { opacity: 0; }
-  to { opacity: 1; }
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
 }
 
 @keyframes modalIn {
-  from { opacity: 0; transform: translateY(8px) scale(0.98); }
-  to { opacity: 1; transform: translateY(0) scale(1); }
+  from {
+    opacity: 0;
+    transform: translateY(8px) scale(0.98);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
 }
 
 @keyframes float {
-  0%, 100% { transform: translateY(0); }
-  50% { transform: translateY(-4px); }
+
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-4px);
+  }
 }
 
 .animate-fade-in {
@@ -230,7 +264,7 @@
 
 .blue-grid {
   background-color: #f8fbff;
-  background-image: 
+  background-image:
     linear-gradient(#e2eefe 1px, transparent 1px),
     linear-gradient(90deg, #e2eefe 1px, transparent 1px);
   background-size: 32px 32px;
