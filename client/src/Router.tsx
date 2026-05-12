@@ -12,6 +12,9 @@ import { speakingRoutes } from './features/speaking/speaking.routes';
 import { Layout } from './shared/components/Layout';
 import { ProtectedRoute } from './shared/components/ProtectedRoute';
 import { LoginPage } from './features/auth/pages/LoginPage';
+import { PricingPage } from './features/payment/pages/PricingPage';
+import { PaymentSuccessPage } from './features/payment/pages/PaymentSuccessPage';
+import { PaymentCancelPage } from './features/payment/pages/PaymentCancelPage';
 
 export const AppRouter = () => (
   <BrowserRouter>
@@ -38,6 +41,9 @@ export const AppRouter = () => (
           ))}
         </Route>
         {reviewRoutes}
+        <Route path="pricing" element={<PricingPage />} />
+        <Route path="payment/success" element={<PaymentSuccessPage />} />
+        <Route path="payment/cancel" element={<PaymentCancelPage />} />
       </Route>
       {adminRoutes}
     </Routes>

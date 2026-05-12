@@ -13,6 +13,9 @@ using JPLearn.Infrastructure.Services;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using JPLearn.Core.Orders;
+using JPLearn.Infrastructure.Services.Payments;
+
 
 namespace JPLearn.Infrastructure.Extensions;
 
@@ -41,6 +44,11 @@ public static class ServiceCollectionExtensions
         services.AddScoped<IExamPracticeService, ExamPracticeService>();
         services.AddScoped<IAdminExamQuestionService, AdminExamQuestionService>();
         services.AddScoped<ISpeakingService, SpeakingService>();
+        
+        // Payment Providers
+        services.AddScoped<IPaymentProvider, SePayProvider>();
+        services.AddScoped<IPaymentProvider, PayOSProvider>();
+
 
         return services;
     }
