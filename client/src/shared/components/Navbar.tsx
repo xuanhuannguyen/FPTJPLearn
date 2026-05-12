@@ -1,12 +1,26 @@
-import { useMemo } from 'react';
+import { useMemo, useState, useRef, useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
-import { Bell, Search, User } from 'lucide-react';
+import { Bell, Search, LogOut } from 'lucide-react';
 import { useSearchStore } from '../stores/searchStore';
+import { useAuthStore } from '../stores/authStore';
 
 export const Navbar = () => {
   const location = useLocation();
   const query = useSearchStore((state) => state.query);
   const setQuery = useSearchStore((state) => state.setQuery);
+  const { user, logout } = useAuthStore();
+  const [showMenu, setShowMenu] = useState(false);
+  const menuRef = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    const handleClickOutside = (e: MouseEvent) => {
+      if (menuRef.current && !menuRef.current.contains(e.target as Node)) {
+        setShowMenu(false);
+      }
+    };
+    document.addEventListener('mousedown', handleClickOutside);
+    return () => document.removeEventListener('mousedown', handleClickOutside);
+  }, []);
 
   const searchConfig = useMemo(() => {
     if (location.pathname === '/folders') {
@@ -45,10 +59,38 @@ export const Navbar = () => {
           <span className="absolute right-1.5 top-1.5 h-1 w-1 rounded-full bg-accent-danger"></span>
         </button>
         
-        <div className="flex h-8 w-8 cursor-pointer items-center justify-center rounded-lg border-2 border-border bg-bg-tertiary text-text-secondary shadow-pop transition-all hover:-translate-y-0.5 hover:bg-white">
-          <User size={12} />
+        <div className="relative" ref={menuRef}>
+          <button
+            onClick={() => setShowMenu(!showMenu)}
+            className="flex h-8 w-8 cursor-pointer items-center justify-center rounded-lg border-2 border-border overflow-hidden shadow-pop transition-all hover:-translate-y-0.5"
+          >
+            {user?.photoURL ? (
+              <img src={user.photoURL} alt="" className="h-full w-full object-cover" referrerPolicy="no-referrer" />
+            ) : (
+              <span className="text-xs font-bold text-text-secondary">
+                {user?.displayName?.[0] || '?'}
+              </span>
+            )}
+          </button>
+          
+          {showMenu && (
+            <div className="absolute right-0 top-full mt-2 w-56 rounded-xl border-2 border-border bg-white shadow-lg overflow-hidden z-50">
+              <div className="px-4 py-3 border-b border-border">
+                <p className="text-sm font-semibold text-text-primary truncate">{user?.displayName}</p>
+                <p className="text-xs text-text-muted truncate">{user?.email}</p>
+              </div>
+              <button
+                onClick={() => { setShowMenu(false); logout(); }}
+                className="flex w-full items-center gap-2 px-4 py-2.5 text-sm text-accent-danger hover:bg-red-50 transition-colors cursor-pointer"
+              >
+                <LogOut size={14} />
+                Đăng xuất
+              </button>
+            </div>
+          )}
         </div>
       </div>
     </header>
   );
 };
+

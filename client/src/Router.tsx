@@ -10,11 +10,14 @@ import { staticVocabularyRoutes } from './features/vocabulary/vocabulary.routes'
 import { kanjiRoutes } from './features/kanji/kanji.routes';
 import { speakingRoutes } from './features/speaking/speaking.routes';
 import { Layout } from './shared/components/Layout';
+import { ProtectedRoute } from './shared/components/ProtectedRoute';
+import { LoginPage } from './features/auth/pages/LoginPage';
 
 export const AppRouter = () => (
   <BrowserRouter>
     <Routes>
-      <Route path="/" element={<Layout />}>
+      <Route path="/login" element={<LoginPage />} />
+      <Route path="/" element={<ProtectedRoute><Layout /></ProtectedRoute>}>
         <Route index element={<Navigate to="/dashboard" replace />} />
         {dashboardRoutes}
         {activeVocabularyRoutes}

@@ -1,3 +1,5 @@
+using FirebaseAdmin;
+using Google.Apis.Auth.OAuth2;
 using JPLearn.Api.Extensions;
 using JPLearn.Api.Infrastructure.Auth;
 using JPLearn.Core.Common.Services;
@@ -11,7 +13,25 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddJPLearnInfrastructure(builder.Configuration);
 builder.Services.AddFrontendCors(builder.Configuration, builder.Environment.IsDevelopment());
 builder.Services.AddHttpContextAccessor();
-builder.Services.AddScoped<ICurrentUserContext, DevelopmentCurrentUserContext>();
+
+// Firebase Auth — use FirebaseCurrentUserContext in prod, DevelopmentCurrentUserContext as fallback
+if (builder.Environment.IsDevelopment())
+{
+    builder.Services.AddScoped<ICurrentUserContext, DevelopmentCurrentUserContext>();
+}
+else
+{
+    builder.Services.AddScoped<ICurrentUserContext, FirebaseCurrentUserContext>();
+}
+
+// Initialize Firebase Admin SDK (no service account needed for token verification only)
+if (FirebaseApp.DefaultInstance == null)
+{
+    FirebaseApp.Create(new AppOptions
+    {
+        ProjectId = "jpd-eacda"
+    });
+}
 
 // === Controllers + Swagger ===
 builder.Services.AddControllers();
@@ -28,6 +48,10 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseCors("AllowFrontend");
+
+// Firebase auth middleware — runs before controllers
+app.UseMiddleware<FirebaseAuthMiddleware>();
+
 app.MapControllers();
 
 if (app.Environment.IsDevelopment())
