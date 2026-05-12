@@ -1463,7 +1463,6 @@ namespace JPLearn.Infrastructure.Migrations
                     b.ToTable("user_memory_kanji_items", (string)null);
                 });
 
-<<<<<<< HEAD
             modelBuilder.Entity("JPLearn.Core.Memory.Entities.UserMemoryVocabularyItem", b =>
                 {
                     b.Property<Guid>("Id")
@@ -1583,8 +1582,6 @@ namespace JPLearn.Infrastructure.Migrations
                     b.ToTable("user_memory_vocabulary_items", (string)null);
                 });
 
-=======
->>>>>>> 86b7c57576a19ea16bf7bfdd03579c7aef23e5bf
             modelBuilder.Entity("JPLearn.Core.Review.Entities.ReviewSession", b =>
                 {
                     b.Property<Guid>("Id")
@@ -2419,7 +2416,6 @@ namespace JPLearn.Infrastructure.Migrations
                     b.Navigation("KanjiItem");
                 });
 
-<<<<<<< HEAD
             modelBuilder.Entity("JPLearn.Core.Speaking.Entities.SpeakingLesson", b =>
                 {
                     b.HasOne("JPLearn.Core.Speaking.Entities.SpeakingCourse", "Course")
@@ -2475,8 +2471,6 @@ namespace JPLearn.Infrastructure.Migrations
                     b.Navigation("Course");
                 });
 
-=======
->>>>>>> 86b7c57576a19ea16bf7bfdd03579c7aef23e5bf
             modelBuilder.Entity("JPLearn.Core.Vocabulary.Entities.UserWordProgress", b =>
                 {
                     b.HasOne("JPLearn.Core.Vocabulary.Entities.VocabularyItem", "VocabularyItem")
@@ -2570,7 +2564,6 @@ namespace JPLearn.Infrastructure.Migrations
                     b.Navigation("VocabularyItems");
                 });
 
-<<<<<<< HEAD
             modelBuilder.Entity("JPLearn.Core.Speaking.Entities.SpeakingCourse", b =>
                 {
                     b.Navigation("Lessons");
@@ -2596,8 +2589,6 @@ namespace JPLearn.Infrastructure.Migrations
                     b.Navigation("Items");
                 });
 
-=======
->>>>>>> 86b7c57576a19ea16bf7bfdd03579c7aef23e5bf
             modelBuilder.Entity("JPLearn.Core.Vocabulary.Entities.VocabularyItem", b =>
                 {
                     b.Navigation("ProgressRecords");

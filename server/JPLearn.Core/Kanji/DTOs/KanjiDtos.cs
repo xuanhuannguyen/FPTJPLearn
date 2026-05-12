@@ -52,22 +52,13 @@ public class KanjiItemDto
     public int WritingPracticeCount { get; set; }
     public int FlashcardPracticeCount { get; set; }
     public int OrderIndex { get; set; }
-<<<<<<< HEAD
     public string? StrokeSvg { get; set; }
     public string? StrokeDataJson { get; set; }
     public string? ComponentMapJson { get; set; }
-=======
->>>>>>> 86b7c57576a19ea16bf7bfdd03579c7aef23e5bf
 }
 
 public class KanjiDetailDto : KanjiItemDto
 {
-<<<<<<< HEAD
-=======
-    public string? StrokeSvg { get; set; }
-    public string? StrokeDataJson { get; set; }
-    public string? ComponentMapJson { get; set; }
->>>>>>> 86b7c57576a19ea16bf7bfdd03579c7aef23e5bf
     public List<KanjiVocabularyDto> VocabularyItems { get; set; } = [];
 }
 

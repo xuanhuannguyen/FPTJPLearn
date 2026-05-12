@@ -48,11 +48,7 @@ export const KanjiLevelPage = () => {
           <ArrowLeft size={16} />
         </Link>
         <span className="border border-black bg-accent-primary px-4 py-1 text-2xl font-black uppercase tracking-tight text-white shadow-[2px_2px_0px_#0F172A]">
-<<<<<<< HEAD
           {level === 'N5' ? 'JPD113' : level === 'N3' ? 'JPD123' : level}
-=======
-          {level}
->>>>>>> 86b7c57576a19ea16bf7bfdd03579c7aef23e5bf
         </span>
         <span className="border border-black bg-white px-3 py-1.5 text-xs font-black uppercase text-text-primary shadow-[2px_2px_0px_#0F172A]">
           {lessons.length} LESSONS

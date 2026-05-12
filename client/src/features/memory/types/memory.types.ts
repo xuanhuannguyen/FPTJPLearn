@@ -21,13 +21,9 @@ export interface MemorySummary {
 export interface MemoryCard {
   id: string;
   itemType: MemoryItemType;
-<<<<<<< HEAD
   sourceKanjiItemId?: string | null;
   sourceGrammarPatternId?: string | null;
   sourceVocabularyItemId?: string | null;
-=======
-  sourceGrammarPatternId?: string | null;
->>>>>>> 86b7c57576a19ea16bf7bfdd03579c7aef23e5bf
   frontPrimary: string;
   frontSecondary?: string;
   frontMeta?: string;
