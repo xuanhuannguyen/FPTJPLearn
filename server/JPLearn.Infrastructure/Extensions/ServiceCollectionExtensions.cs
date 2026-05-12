@@ -35,7 +35,10 @@ public static class ServiceCollectionExtensions
         services.AddScoped<IMemoryService, MemoryService>();
         services.AddScoped<IMemoryGrammarService, MemoryGrammarService>();
         services.AddScoped<IMemoryKanjiService, MemoryKanjiService>();
+<<<<<<< HEAD
         services.AddScoped<IMemoryVocabularyService, MemoryVocabularyService>();
+=======
+>>>>>>> 86b7c57576a19ea16bf7bfdd03579c7aef23e5bf
         services.AddScoped<IMemorySrsService, MemorySrsService>();
         services.AddScoped<IPaymentAccessService, PaymentAccessService>();
         services.AddScoped<IExamPracticeService, ExamPracticeService>();

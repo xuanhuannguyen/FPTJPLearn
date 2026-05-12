@@ -1,7 +1,10 @@
 using JPLearn.Core.Kanji;
 using JPLearn.Core.Kanji.DTOs;
 using JPLearn.Core.Kanji.Entities;
+<<<<<<< HEAD
 using JPLearn.Core.Payments;
+=======
+>>>>>>> 86b7c57576a19ea16bf7bfdd03579c7aef23e5bf
 using JPLearn.Infrastructure.Data;
 using Microsoft.EntityFrameworkCore;
 
@@ -10,22 +13,35 @@ namespace JPLearn.Infrastructure.Services;
 public class KanjiService : IKanjiService
 {
     private readonly AppDbContext _db;
+<<<<<<< HEAD
     private readonly IPaymentAccessService _paymentAccess;
 
     public KanjiService(AppDbContext db, IPaymentAccessService paymentAccess)
     {
         _db = db;
         _paymentAccess = paymentAccess;
+=======
+
+    public KanjiService(AppDbContext db)
+    {
+        _db = db;
+>>>>>>> 86b7c57576a19ea16bf7bfdd03579c7aef23e5bf
     }
 
     public async Task<List<KanjiLevelDto>> GetLevelsAsync(Guid userId)
     {
         var lessons = await _db.KanjiLessons
+<<<<<<< HEAD
             .AsNoTracking()
             .Include(lesson => lesson.KanjiItems)
             .ThenInclude(item => item.ProgressRecords.Where(progress => progress.UserId == userId))
             .Include(lesson => lesson.VocabularyItems)
             .AsSplitQuery()
+=======
+            .Include(lesson => lesson.KanjiItems)
+            .ThenInclude(item => item.ProgressRecords.Where(progress => progress.UserId == userId))
+            .Include(lesson => lesson.VocabularyItems)
+>>>>>>> 86b7c57576a19ea16bf7bfdd03579c7aef23e5bf
             .ToListAsync();
 
         return KanjiLevels.All
@@ -63,27 +79,42 @@ public class KanjiService : IKanjiService
 
         var normalizedLevel = KanjiLevels.Normalize(level);
         var lessons = await _db.KanjiLessons
+<<<<<<< HEAD
             .AsNoTracking()
+=======
+>>>>>>> 86b7c57576a19ea16bf7bfdd03579c7aef23e5bf
             .Include(lesson => lesson.KanjiItems)
             .ThenInclude(item => item.ProgressRecords.Where(progress => progress.UserId == userId))
             .Include(lesson => lesson.VocabularyItems)
             .Where(lesson => lesson.Level == normalizedLevel)
             .OrderBy(lesson => lesson.OrderIndex)
             .ThenBy(lesson => lesson.LessonNumber)
+<<<<<<< HEAD
             .AsSplitQuery()
             .ToListAsync();
 
         return lessons.Select(lesson => MapLesson(userId, lesson)).ToList();
+=======
+            .ToListAsync();
+
+        return lessons.Select(MapLesson).ToList();
+>>>>>>> 86b7c57576a19ea16bf7bfdd03579c7aef23e5bf
     }
 
     public async Task<KanjiLessonDetailDto?> GetLessonDetailAsync(Guid userId, Guid lessonId)
     {
         var lesson = await _db.KanjiLessons
+<<<<<<< HEAD
             .AsNoTracking()
             .Include(item => item.KanjiItems.OrderBy(kanji => kanji.OrderIndex))
             .ThenInclude(kanji => kanji.ProgressRecords.Where(progress => progress.UserId == userId))
             .Include(item => item.VocabularyItems.OrderBy(vocabulary => vocabulary.OrderIndex))
             .AsSplitQuery()
+=======
+            .Include(item => item.KanjiItems.OrderBy(kanji => kanji.OrderIndex))
+            .ThenInclude(kanji => kanji.ProgressRecords.Where(progress => progress.UserId == userId))
+            .Include(item => item.VocabularyItems.OrderBy(vocabulary => vocabulary.OrderIndex))
+>>>>>>> 86b7c57576a19ea16bf7bfdd03579c7aef23e5bf
             .FirstOrDefaultAsync(item => item.Id == lessonId);
 
         if (lesson == null)
@@ -93,10 +124,17 @@ public class KanjiService : IKanjiService
 
         return new KanjiLessonDetailDto
         {
+<<<<<<< HEAD
             Lesson = MapLesson(userId, lesson),
             KanjiItems = lesson.KanjiItems
                 .OrderBy(item => item.OrderIndex)
                 .Select(item => MapKanjiItem(userId, item))
+=======
+            Lesson = MapLesson(lesson),
+            KanjiItems = lesson.KanjiItems
+                .OrderBy(item => item.OrderIndex)
+                .Select(MapKanjiItem)
+>>>>>>> 86b7c57576a19ea16bf7bfdd03579c7aef23e5bf
                 .ToList(),
             VocabularyItems = lesson.VocabularyItems
                 .OrderBy(item => item.OrderIndex)
@@ -108,6 +146,7 @@ public class KanjiService : IKanjiService
     public async Task<KanjiDetailDto?> GetKanjiDetailAsync(Guid userId, Guid kanjiItemId)
     {
         var item = await _db.KanjiItems
+<<<<<<< HEAD
             .AsNoTracking()
             .Include(kanji => kanji.Lesson)
             .Include(kanji => kanji.ProgressRecords.Where(progress => progress.UserId == userId))
@@ -116,6 +155,14 @@ public class KanjiService : IKanjiService
             .FirstOrDefaultAsync(kanji => kanji.Id == kanjiItemId);
 
         return item == null ? null : MapKanjiDetail(userId, item);
+=======
+            .Include(kanji => kanji.Lesson)
+            .Include(kanji => kanji.ProgressRecords.Where(progress => progress.UserId == userId))
+            .Include(kanji => kanji.VocabularyItems.OrderBy(vocabulary => vocabulary.OrderIndex))
+            .FirstOrDefaultAsync(kanji => kanji.Id == kanjiItemId);
+
+        return item == null ? null : MapKanjiDetail(item);
+>>>>>>> 86b7c57576a19ea16bf7bfdd03579c7aef23e5bf
     }
 
     public async Task<List<KanjiItemDto>> SearchAsync(Guid userId, string query)
@@ -141,7 +188,11 @@ public class KanjiService : IKanjiService
             .Take(50)
             .ToListAsync();
 
+<<<<<<< HEAD
         return items.Select(item => MapKanjiItem(userId, item)).ToList();
+=======
+        return items.Select(MapKanjiItem).ToList();
+>>>>>>> 86b7c57576a19ea16bf7bfdd03579c7aef23e5bf
     }
 
     public Task<KanjiProgressDto?> RecordViewAsync(Guid userId, Guid kanjiItemId)
@@ -206,7 +257,11 @@ public class KanjiService : IKanjiService
         return MapProgress(progress);
     }
 
+<<<<<<< HEAD
     private KanjiLessonDto MapLesson(Guid userId, KanjiLesson lesson)
+=======
+    private static KanjiLessonDto MapLesson(KanjiLesson lesson)
+>>>>>>> 86b7c57576a19ea16bf7bfdd03579c7aef23e5bf
     {
         var progress = lesson.KanjiItems
             .SelectMany(item => item.ProgressRecords)
@@ -221,7 +276,11 @@ public class KanjiService : IKanjiService
             Description = lesson.Description,
             AccessTier = lesson.AccessTier,
             PackageCode = lesson.PackageCode,
+<<<<<<< HEAD
             IsLocked = _paymentAccess.IsContentLocked(userId, lesson.AccessTier, lesson.PackageCode),
+=======
+            IsLocked = false,
+>>>>>>> 86b7c57576a19ea16bf7bfdd03579c7aef23e5bf
             KanjiCount = lesson.KanjiItems.Count,
             VocabularyCount = lesson.VocabularyItems.Count,
             LearnedCount = progress.Count(item => item.IsLearned),
@@ -229,11 +288,17 @@ public class KanjiService : IKanjiService
         };
     }
 
+<<<<<<< HEAD
     private KanjiItemDto MapKanjiItem(Guid userId, KanjiItem item)
     {
         var progress = item.ProgressRecords.FirstOrDefault();
         var accessTier = ResolveAccessTier(item);
         var packageCode = ResolvePackageCode(item);
+=======
+    private static KanjiItemDto MapKanjiItem(KanjiItem item)
+    {
+        var progress = item.ProgressRecords.FirstOrDefault();
+>>>>>>> 86b7c57576a19ea16bf7bfdd03579c7aef23e5bf
 
         return new KanjiItemDto
         {
@@ -247,6 +312,7 @@ public class KanjiService : IKanjiService
             KunReading = item.KunReading,
             OnReading = item.OnReading,
             Mnemonic = item.Mnemonic,
+<<<<<<< HEAD
             AccessTier = accessTier,
             PackageCode = packageCode,
             IsLocked = _paymentAccess.IsContentLocked(userId, accessTier, packageCode),
@@ -263,6 +329,21 @@ public class KanjiService : IKanjiService
     private KanjiDetailDto MapKanjiDetail(Guid userId, KanjiItem item)
     {
         var baseDto = MapKanjiItem(userId, item);
+=======
+            AccessTier = ResolveAccessTier(item),
+            PackageCode = ResolvePackageCode(item),
+            IsLocked = false,
+            IsLearned = progress?.IsLearned == true,
+            WritingPracticeCount = progress?.WritingPracticeCount ?? 0,
+            FlashcardPracticeCount = progress?.FlashcardPracticeCount ?? 0,
+            OrderIndex = item.OrderIndex
+        };
+    }
+
+    private static KanjiDetailDto MapKanjiDetail(KanjiItem item)
+    {
+        var baseDto = MapKanjiItem(item);
+>>>>>>> 86b7c57576a19ea16bf7bfdd03579c7aef23e5bf
 
         return new KanjiDetailDto
         {
@@ -283,9 +364,15 @@ public class KanjiService : IKanjiService
             WritingPracticeCount = baseDto.WritingPracticeCount,
             FlashcardPracticeCount = baseDto.FlashcardPracticeCount,
             OrderIndex = baseDto.OrderIndex,
+<<<<<<< HEAD
             StrokeSvg = baseDto.StrokeSvg,
             StrokeDataJson = baseDto.StrokeDataJson,
             ComponentMapJson = baseDto.ComponentMapJson,
+=======
+            StrokeSvg = item.StrokeSvg,
+            StrokeDataJson = item.StrokeDataJson,
+            ComponentMapJson = item.ComponentMapJson,
+>>>>>>> 86b7c57576a19ea16bf7bfdd03579c7aef23e5bf
             VocabularyItems = item.VocabularyItems
                 .OrderBy(vocabulary => vocabulary.OrderIndex)
                 .Select(MapVocabulary)

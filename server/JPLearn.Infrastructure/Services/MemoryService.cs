@@ -21,7 +21,11 @@ public class MemoryService : IMemoryService
         {
             Grammar = await GetGrammarSummaryAsync(userId),
             Kanji = await GetKanjiSummaryAsync(userId),
+<<<<<<< HEAD
             Vocabulary = await GetVocabularySummaryAsync(userId)
+=======
+            Vocabulary = new MemoryTypeSummaryDto()
+>>>>>>> 86b7c57576a19ea16bf7bfdd03579c7aef23e5bf
         };
     }
 
@@ -43,6 +47,7 @@ public class MemoryService : IMemoryService
         return BuildKanjiSummary(items);
     }
 
+<<<<<<< HEAD
     private async Task<MemoryTypeSummaryDto> GetVocabularySummaryAsync(Guid userId)
     {
         var items = await _db.UserMemoryVocabularyItems
@@ -52,6 +57,8 @@ public class MemoryService : IMemoryService
         return BuildVocabularySummary(items);
     }
 
+=======
+>>>>>>> 86b7c57576a19ea16bf7bfdd03579c7aef23e5bf
     private static MemoryTypeSummaryDto BuildGrammarSummary(List<UserMemoryGrammarItem> items)
     {
         var now = DateTime.UtcNow;
@@ -68,6 +75,7 @@ public class MemoryService : IMemoryService
     }
 
     private static MemoryTypeSummaryDto BuildKanjiSummary(List<UserMemoryKanjiItem> items)
+<<<<<<< HEAD
     {
         var now = DateTime.UtcNow;
         return new MemoryTypeSummaryDto
@@ -83,6 +91,8 @@ public class MemoryService : IMemoryService
     }
 
     private static MemoryTypeSummaryDto BuildVocabularySummary(List<UserMemoryVocabularyItem> items)
+=======
+>>>>>>> 86b7c57576a19ea16bf7bfdd03579c7aef23e5bf
     {
         var now = DateTime.UtcNow;
         return new MemoryTypeSummaryDto

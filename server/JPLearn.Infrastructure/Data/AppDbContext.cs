@@ -1,6 +1,9 @@
 using Microsoft.EntityFrameworkCore;
 using JPLearn.Core.Grammar.Entities;
+<<<<<<< HEAD
 using JPLearn.Core.ExamPractice.Entities;
+=======
+>>>>>>> 86b7c57576a19ea16bf7bfdd03579c7aef23e5bf
 using JPLearn.Core.Kanji.Entities;
 using JPLearn.Core.Memory.Entities;
 using JPLearn.Core.Speaking.Entities;
@@ -30,7 +33,10 @@ public class AppDbContext : DbContext
     public DbSet<UserKanjiProgress> UserKanjiProgress => Set<UserKanjiProgress>();
     public DbSet<UserMemoryGrammarItem> UserMemoryGrammarItems => Set<UserMemoryGrammarItem>();
     public DbSet<UserMemoryKanjiItem> UserMemoryKanjiItems => Set<UserMemoryKanjiItem>();
+<<<<<<< HEAD
     public DbSet<UserMemoryVocabularyItem> UserMemoryVocabularyItems => Set<UserMemoryVocabularyItem>();
+=======
+>>>>>>> 86b7c57576a19ea16bf7bfdd03579c7aef23e5bf
     public DbSet<MemoryReviewSession> MemoryReviewSessions => Set<MemoryReviewSession>();
     public DbSet<VocabularyCourse> VocabularyCourses => Set<VocabularyCourse>();
     public DbSet<VocabularyLesson> StaticVocabularyLessons => Set<VocabularyLesson>();

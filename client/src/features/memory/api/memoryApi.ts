@@ -62,6 +62,7 @@ export const memoryApi = {
     return response.data;
   },
 
+<<<<<<< HEAD
   removeVocabularyItem: async (memoryItemId: string): Promise<{ success: boolean }> => {
     const response = await apiClient.delete(`/memory/vocabulary/${memoryItemId}`);
     return response.data;
@@ -72,6 +73,8 @@ export const memoryApi = {
     return response.data;
   },
 
+=======
+>>>>>>> 86b7c57576a19ea16bf7bfdd03579c7aef23e5bf
   getCards: async (type: MemoryItemType, scope: MemoryScope = 'due'): Promise<MemoryCardsResponse> => {
     const response = await apiClient.get(`/memory/${memoryPathByType[type]}/cards`, { params: { scope } });
     return response.data;

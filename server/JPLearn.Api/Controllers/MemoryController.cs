@@ -10,6 +10,7 @@ public class MemoryController : ApiControllerBase
     private readonly IMemoryService _memoryService;
     private readonly IMemoryGrammarService _grammarService;
     private readonly IMemoryKanjiService _kanjiService;
+<<<<<<< HEAD
     private readonly IMemoryVocabularyService _vocabularyService;
 
     public MemoryController(
@@ -17,11 +18,19 @@ public class MemoryController : ApiControllerBase
         IMemoryGrammarService grammarService,
         IMemoryKanjiService kanjiService,
         IMemoryVocabularyService vocabularyService)
+=======
+    private static readonly Guid DevUserId = Guid.Parse("00000000-0000-0000-0000-000000000001");
+
+    public MemoryController(IMemoryService memoryService, IMemoryGrammarService grammarService, IMemoryKanjiService kanjiService)
+>>>>>>> 86b7c57576a19ea16bf7bfdd03579c7aef23e5bf
     {
         _memoryService = memoryService;
         _grammarService = grammarService;
         _kanjiService = kanjiService;
+<<<<<<< HEAD
         _vocabularyService = vocabularyService;
+=======
+>>>>>>> 86b7c57576a19ea16bf7bfdd03579c7aef23e5bf
     }
 
     [HttpGet("summary")]
@@ -212,6 +221,65 @@ public class MemoryController : ApiControllerBase
     public async Task<IActionResult> ResetVocabulary([FromBody] ResetMemoryItemsDto dto)
     {
         var count = await _vocabularyService.ResetAsync(CurrentUserId, dto);
+        return Ok(new { success = true, count });
+    }
+
+    // ─── Kanji ─────────────────────────────────────────
+
+    [HttpPost("kanji/from-item/{kanjiItemId}")]
+    public async Task<IActionResult> AddKanjiFromItem(Guid kanjiItemId)
+    {
+        var result = await _kanjiService.AddFromItemAsync(DevUserId, kanjiItemId);
+        if (result == null)
+        {
+            return NotFound(new { message = "Kanji item not found" });
+        }
+
+        return Ok(result);
+    }
+
+    [HttpGet("kanji/from-item/{kanjiItemId}/status")]
+    public async Task<IActionResult> GetKanjiItemMemoryStatus(Guid kanjiItemId)
+    {
+        var result = await _kanjiService.GetItemStatusAsync(DevUserId, kanjiItemId);
+        return Ok(result);
+    }
+
+    [HttpGet("kanji/cards")]
+    public async Task<IActionResult> GetKanjiCards([FromQuery] string scope = MemoryScopes.Due)
+    {
+        var result = await _kanjiService.GetCardsAsync(DevUserId, scope);
+        return Ok(result);
+    }
+
+    [HttpPost("kanji/answer")]
+    public async Task<IActionResult> SubmitKanjiAnswer([FromBody] SubmitMemoryAnswerDto dto)
+    {
+        var result = await _kanjiService.SubmitAnswerAsync(DevUserId, dto);
+        if (result == null)
+        {
+            return NotFound(new { message = "Memory kanji item not found" });
+        }
+
+        return Ok(result);
+    }
+
+    [HttpDelete("kanji/{memoryItemId}")]
+    public async Task<IActionResult> RemoveKanjiItem(Guid memoryItemId)
+    {
+        var removed = await _kanjiService.RemoveAsync(DevUserId, memoryItemId);
+        if (!removed)
+        {
+            return NotFound(new { message = "Memory kanji item not found" });
+        }
+
+        return Ok(new { success = true });
+    }
+
+    [HttpPost("kanji/reset")]
+    public async Task<IActionResult> ResetKanji([FromBody] ResetMemoryItemsDto dto)
+    {
+        var count = await _kanjiService.ResetAsync(DevUserId, dto);
         return Ok(new { success = true, count });
     }
 }

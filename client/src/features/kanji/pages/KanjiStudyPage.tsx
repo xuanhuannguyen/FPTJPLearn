@@ -7,6 +7,7 @@ import type { KanjiLesson, KanjiItem } from '../types/kanji.types';
 // @ts-ignore
 import HanziWriter from 'hanzi-writer';
 
+<<<<<<< HEAD
 const RADICAL_HANVIET: Record<string, string> = {
   '一': 'Nhất', '二': 'Nhị', '十': 'Thập', '人': 'Nhân', '亻': 'Nhân',
   '日': 'Nhật', '月': 'Nguyệt', '木': 'Mộc', '水': 'Thủy', '氵': 'Thủy',
@@ -52,6 +53,8 @@ const RADICAL_HANVIET: Record<string, string> = {
   '龠': 'Dược', '㐅': 'Nghệ', '乂': 'Nghệ', '亠': 'Đầu'
 };
 
+=======
+>>>>>>> 86b7c57576a19ea16bf7bfdd03579c7aef23e5bf
 export const KanjiStudyPage = () => {
   const { level, lessonId } = useParams<{ level: string; lessonId: string }>();
   const navigate = useNavigate();
@@ -76,7 +79,10 @@ export const KanjiStudyPage = () => {
   const [quizStrokeNum, setQuizStrokeNum] = useState(1);
   const [isQuizComplete, setIsQuizComplete] = useState(false);
   const [freehandMode, setFreehandMode] = useState(false);
+<<<<<<< HEAD
   const [hoveredComponent, setHoveredComponent] = useState<number | null>(null);
+=======
+>>>>>>> 86b7c57576a19ea16bf7bfdd03579c7aef23e5bf
 
   useEffect(() => {
     const fetchData = async () => {
@@ -543,6 +549,7 @@ export const KanjiStudyPage = () => {
                               );
                             })}
 
+<<<<<<< HEAD
                             {/* Component nodes (Orange) - clickable */}
                             {components.map((comp, i) => {
                               const hanVietLabel = RADICAL_HANVIET[comp.character] || comp.name.split(' ')[0];
@@ -553,11 +560,20 @@ export const KanjiStudyPage = () => {
                                 filter="url(#nodeShadow)"
                                 className="cursor-pointer transition-transform hover:scale-[1.03]"
                                 style={{ transformOrigin: `${positions[i].x}px ${positions[i].y}px` }}
+=======
+                            {/* Component nodes (Teal) - clickable */}
+                            {components.map((comp, i) => (
+                              <g
+                                key={`comp-${i}`}
+                                filter="url(#nodeShadow)"
+                                className="cursor-pointer"
+>>>>>>> 86b7c57576a19ea16bf7bfdd03579c7aef23e5bf
                                 onClick={() => {
                                   if (comp.kanjiId) {
                                     window.open(`/kanji/${currentKanji.level}/lessons/${currentKanji.lessonId}/study?kanjiId=${comp.kanjiId}`, '_blank');
                                   }
                                 }}
+<<<<<<< HEAD
                                 onMouseEnter={() => setHoveredComponent(i)}
                                 onMouseLeave={() => setHoveredComponent(null)}
                               >
@@ -596,6 +612,23 @@ export const KanjiStudyPage = () => {
                             {/* Main Kanji node (center, Blue) */}
                             <g filter="url(#nodeShadow)">
                               <circle cx={centerX} cy={centerY} r="28" fill="#3B82F6" stroke="#1D4ED8" strokeWidth="2.5" />
+=======
+                              >
+                                <circle cx={positions[i].x} cy={positions[i].y} r="24" fill="#14B8A6" stroke="#0F766E" strokeWidth="2.5" />
+                                <text x={positions[i].x} y={positions[i].y + 6} textAnchor="middle" fill="#fff" fontSize="18" fontWeight="bold" style={{ fontFamily: '"Noto Serif JP", serif' }}>
+                                  {comp.character}
+                                </text>
+                                {/* Tooltip label below */}
+                                <text x={positions[i].x} y={positions[i].y + 40} textAnchor="middle" fill="#64748b" fontSize="10" fontWeight="600" fontFamily="'Comic Neue', cursive">
+                                  {comp.name}
+                                </text>
+                              </g>
+                            ))}
+
+                            {/* Main Kanji node (center, Rose) */}
+                            <g filter="url(#nodeShadow)">
+                              <circle cx={centerX} cy={centerY} r="28" fill="#E11D48" stroke="#9F1239" strokeWidth="2.5" />
+>>>>>>> 86b7c57576a19ea16bf7bfdd03579c7aef23e5bf
                               <text x={centerX} y={centerY + 8} textAnchor="middle" fill="#fff" fontSize="22" fontWeight="bold" style={{ fontFamily: '"Noto Serif JP", serif' }}>
                                 {currentKanji.character}
                               </text>

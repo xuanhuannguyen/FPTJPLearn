@@ -1,6 +1,10 @@
 import { useEffect, useMemo, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
+<<<<<<< HEAD
 import { ListChecks, Loader2, RotateCcw, Sparkles } from 'lucide-react';
+=======
+import { Loader2, RotateCcw, Sparkles } from 'lucide-react';
+>>>>>>> 86b7c57576a19ea16bf7bfdd03579c7aef23e5bf
 import { memoryApi } from '../api/memoryApi';
 import { MemoryStatsBar } from '../components/MemoryStatsBar';
 import { ConfirmModal } from '../../../shared/components/ConfirmModal';
@@ -63,8 +67,14 @@ export const MemoryDashboardPage = () => {
   const loadSummary = async () => {
     const data = await memoryApi.getSummary();
     setSummary(data);
+<<<<<<< HEAD
     const dueType = memoryTypeOrder.find((type) => data[type].due > 0);
     if (dueType) setActiveType(dueType);
+=======
+    if (data.grammar.due > 0) {
+      setActiveType('grammar');
+    }
+>>>>>>> 86b7c57576a19ea16bf7bfdd03579c7aef23e5bf
   };
 
   useEffect(() => {
@@ -199,6 +209,7 @@ export const MemoryDashboardPage = () => {
             {/* Header row */}
             <div className="flex items-center justify-between mb-4">
                <p className="text-[11px] font-black uppercase tracking-wider opacity-90">{activeConfig.summaryLabel} cần ôn hôm nay</p>
+<<<<<<< HEAD
                <div className="flex flex-wrap justify-end gap-2">
                  <button
                    type="button"
@@ -223,6 +234,22 @@ export const MemoryDashboardPage = () => {
                     </button>
                  ) : null}
                </div>
+=======
+               {activeConfig.canResetProgress ? (
+                  <button
+                    type="button"
+                    disabled={isResettingGrammar}
+                    onClick={() => {
+                      setResetError('');
+                      setIsResetModalOpen(true);
+                    }}
+                    className="inline-flex items-center gap-1.5 rounded-full bg-white/20 backdrop-blur-md px-2.5 py-1 text-[10px] font-black text-white border border-white/30 transition-all hover:bg-white/30 disabled:pointer-events-none disabled:opacity-60"
+                  >
+                    {isResettingGrammar ? <Loader2 size={10} className="animate-spin" /> : <RotateCcw size={10} strokeWidth={3} />}
+                    {isResettingGrammar ? 'Đang reset' : 'Học lại từ đầu'}
+                  </button>
+               ) : null}
+>>>>>>> 86b7c57576a19ea16bf7bfdd03579c7aef23e5bf
             </div>
 
             <p className="text-6xl font-black drop-shadow-md">{activeSummary.due}</p>
