@@ -41,6 +41,6 @@ public static class CorsExtensions
 
         return (uri.Scheme is "http" or "https")
             && (uri.Host is "localhost" or "127.0.0.1")
-            && uri.Port is >= 5173 and <= 5179;
+            && uri.Port is >= 3000 and <= 5200;
     }
 }

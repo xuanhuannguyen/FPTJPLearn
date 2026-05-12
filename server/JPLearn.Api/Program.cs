@@ -24,13 +24,17 @@ else
     builder.Services.AddScoped<ICurrentUserContext, FirebaseCurrentUserContext>();
 }
 
-// Initialize Firebase Admin SDK (no service account needed for token verification only)
+// Initialize Firebase Admin SDK (Chỉ chạy khi không phải tool EF)
 if (FirebaseApp.DefaultInstance == null)
 {
-    FirebaseApp.Create(new AppOptions
+    try 
     {
-        ProjectId = "jpd-eacda"
-    });
+        FirebaseApp.Create(new AppOptions
+        {
+            ProjectId = "jpd-eacda"
+        });
+    }
+    catch (Exception) { /* Bỏ qua lỗi nếu thiếu credential khi chạy tool */ }
 }
 
 // === Controllers + Swagger ===
@@ -56,14 +60,13 @@ app.MapControllers();
 
 if (app.Environment.IsDevelopment())
 {
+    /*
     using var scope = app.Services.CreateScope();
     var db = scope.ServiceProvider.GetRequiredService<AppDbContext>();
     await db.Database.MigrateAsync();
-    await KanjiSeedData.SeedAsync(db);
-    await VocabularySeedData.SeedAsync(db);
-    await GrammarSeedData.SeedAsync(db);
-    await ExamPracticeSeedData.SeedAsync(db);
-    await SpeakingSeedData.SeedAsync(db);
+    */
 }
+
+
 
 app.Run();

@@ -6,7 +6,8 @@ import {
   BrainCircuit,
   BookText,
   FileQuestion,
-  Mic2
+  Mic2,
+  Sparkles
 } from 'lucide-react';
 
 export const Sidebar = () => {
@@ -49,6 +50,17 @@ export const Sidebar = () => {
           </NavLink>
         ))}
       </nav>
+
+        {/* Premium CTA */}
+        <div className="mt-auto w-full px-2 pb-4">
+          <NavLink
+            to="/pricing"
+            className="flex flex-col items-center justify-center gap-1 rounded-xl bg-gradient-to-b from-blue-500 to-blue-700 px-2 py-3 text-white shadow-lg transition-transform hover:scale-105"
+          >
+            <Sparkles size={20} />
+            <span className="text-[10px] font-black uppercase leading-tight">Nâng cấp</span>
+          </NavLink>
+        </div>
       </div>
     </aside>
   );
