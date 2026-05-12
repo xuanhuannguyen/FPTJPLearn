@@ -8,6 +8,7 @@ interface ConfirmModalProps {
   message: string;
   confirmText?: string;
   cancelText?: string;
+  processingText?: string;
   onConfirm: () => void | Promise<void>;
   onCancel: () => void;
   isDestructive?: boolean;
@@ -20,6 +21,7 @@ export const ConfirmModal: FC<ConfirmModalProps> = ({
   message,
   confirmText = 'Confirm',
   cancelText = 'Cancel',
+  processingText = 'Đang xử lý...',
   onConfirm,
   onCancel,
   isDestructive = true,
@@ -79,7 +81,7 @@ export const ConfirmModal: FC<ConfirmModalProps> = ({
               isDestructive ? 'bg-accent-danger hover:bg-red-600' : 'bg-accent-primary hover:bg-accent-hover'
             }`}
           >
-            {isProcessing ? 'Deleting...' : confirmText}
+            {isProcessing ? processingText : confirmText}
           </button>
         </div>
       </div>

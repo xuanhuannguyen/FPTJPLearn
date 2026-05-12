@@ -1,0 +1,450 @@
+[
+    {
+        "level":  "N5",
+        "lessonNumber":  4,
+        "lessonTitle":  "Địa điểm và Phương hướng",
+        "kanjiItems":  [
+                           {
+                               "character":  "東",
+                               "hanViet":  "ĐÔNG",
+                               "meaning":  "Phía Đông",
+                               "strokeCount":  8,
+                               "onReading":  "トウ",
+                               "kunReading":  "ひがし",
+                               "mnemonic":  "Mặt trời (日) ló sau cây (木) ở phía đông (東).",
+                               "orderIndex":  1
+                           },
+                           {
+                               "character":  "京",
+                               "hanViet":  "KINH",
+                               "meaning":  "Kinh đô, thủ đô",
+                               "strokeCount":  8,
+                               "onReading":  "キョウ、ケイ",
+                               "kunReading":  "みやこ",
+                               "mnemonic":  "Khu dân cư (口) dưới mái che (亠) tạo thành kinh đô (京).",
+                               "orderIndex":  2
+                           },
+                           {
+                               "character":  "名",
+                               "hanViet":  "DANH",
+                               "meaning":  "Tên gọi",
+                               "strokeCount":  6,
+                               "onReading":  "メイ、ミョウ",
+                               "kunReading":  "な",
+                               "mnemonic":  "Buổi tối (夕) dùng miệng (口) gọi tên nhau thành danh (名).",
+                               "orderIndex":  3
+                           },
+                           {
+                               "character":  "前",
+                               "hanViet":  "TIỀN",
+                               "meaning":  "Phía trước",
+                               "strokeCount":  9,
+                               "onReading":  "ゼン",
+                               "kunReading":  "まえ",
+                               "mnemonic":  "Cầm dao (刂) hướng về phía trước cơ thể (月) tạo thành trước mặt (前).",
+                               "orderIndex":  4
+                           },
+                           {
+                               "character":  "国",
+                               "hanViet":  "QUỐC",
+                               "meaning":  "Quốc gia",
+                               "strokeCount":  8,
+                               "onReading":  "コク",
+                               "kunReading":  "くに",
+                               "mnemonic":  "Vua (王) nằm trong lãnh thổ bao quanh (囗) tạo thành quốc gia (国).",
+                               "orderIndex":  5
+                           },
+                           {
+                               "character":  "南",
+                               "hanViet":  "NAM",
+                               "meaning":  "Phía Nam",
+                               "strokeCount":  9,
+                               "onReading":  "ナン",
+                               "kunReading":  "みなみ",
+                               "mnemonic":  "Vùng đất bao quanh (冂) phía nam (南) có nhiều người tụ họp dưới chữ mười (十).",
+                               "orderIndex":  6
+                           },
+                           {
+                               "character":  "女",
+                               "hanViet":  "NỮ",
+                               "meaning":  "Phụ nữ",
+                               "strokeCount":  3,
+                               "onReading":  "ジョ、ニョ",
+                               "kunReading":  "おんな",
+                               "mnemonic":  "Hình dáng người phụ nữ quỳ tạo thành chữ nữ (女).",
+                               "orderIndex":  7
+                           },
+                           {
+                               "character":  "男",
+                               "hanViet":  "NAM",
+                               "meaning":  "Nam giới",
+                               "strokeCount":  7,
+                               "onReading":  "ダン、ナン",
+                               "kunReading":  "おとこ",
+                               "mnemonic":  "Dùng sức mạnh (力) làm ruộng (田) là đàn ông (男).",
+                               "orderIndex":  8
+                           },
+                           {
+                               "character":  "区",
+                               "hanViet":  "KHU",
+                               "meaning":  "Khu vực",
+                               "strokeCount":  4,
+                               "onReading":  "ク",
+                               "kunReading":  "",
+                               "mnemonic":  "Không gian được chia (㐅) trong khung (匚) thành khu vực (区).",
+                               "orderIndex":  9
+                           },
+                           {
+                               "character":  "市",
+                               "hanViet":  "THỊ",
+                               "meaning":  "Thành phố / chợ",
+                               "strokeCount":  5,
+                               "onReading":  "シ",
+                               "kunReading":  "いち",
+                               "mnemonic":  "Những tấm vải (巾) dưới mái che (亠) tạo nên khu chợ, thành thị (市).",
+                               "orderIndex":  10
+                           }
+                       ]
+    },
+    {
+        "level":  "N5",
+        "lessonNumber":  5,
+        "lessonTitle":  "Hành động và Nghỉ ngơi",
+        "kanjiItems":  [
+                           {
+                               "character":  "先",
+                               "hanViet":  "TIÊN",
+                               "meaning":  "Trước, đầu tiên",
+                               "strokeCount":  6,
+                               "onReading":  "セン",
+                               "kunReading":  "さき",
+                               "mnemonic":  "Con trâu (⺧) mọc hai đôi chân người (儿) chạy vượt lên trước tiên.",
+                               "orderIndex":  1
+                           },
+                           {
+                               "character":  "週",
+                               "hanViet":  "CHU",
+                               "meaning":  "Tuần lễ",
+                               "strokeCount":  11,
+                               "onReading":  "シュウ",
+                               "kunReading":  "",
+                               "mnemonic":  "Bước đi (⻌) trọn vẹn một vòng chu kỳ (周) là kết thúc một tuần lễ.",
+                               "orderIndex":  2
+                           },
+                           {
+                               "character":  "毎",
+                               "hanViet":  "MỖI",
+                               "meaning":  "Mỗi, mọi",
+                               "strokeCount":  7,
+                               "onReading":  "マイ",
+                               "kunReading":  "ごと",
+                               "mnemonic":  "Người (𠂉) mẹ (毋) đội nón làm việc vất vả mỗi ngày.",
+                               "orderIndex":  3
+                           },
+                           {
+                               "character":  "午",
+                               "hanViet":  "NGỌ",
+                               "meaning":  "Buổi trưa, giờ Ngọ",
+                               "strokeCount":  4,
+                               "onReading":  "ゴ",
+                               "kunReading":  "",
+                               "mnemonic":  "Đúng mười (十) giờ sáng có một tia nắng chói chang (ノ) chiếu xuống báo hiệu sắp đến giờ Ngọ (trưa).",
+                               "orderIndex":  4
+                           },
+                           {
+                               "character":  "後",
+                               "hanViet":  "HẬU",
+                               "meaning":  "Phía sau, sau này",
+                               "strokeCount":  9,
+                               "onReading":  "ゴ、コウ",
+                               "kunReading":  "あと、うしろ、のち",
+                               "mnemonic":  "Bước chân (彳) đi chậm chạp (夂) lùi lại phía sau, nhường đường cho đứa nhỏ (幺).",
+                               "orderIndex":  5
+                           },
+                           {
+                               "character":  "見",
+                               "hanViet":  "KIẾN",
+                               "meaning":  "Nhìn, thấy",
+                               "strokeCount":  7,
+                               "onReading":  "ケン",
+                               "kunReading":  "みる、みえる",
+                               "mnemonic":  "Con mắt (目) mọc thêm hai cái chân (儿) chạy lon ton đi nhìn ngắm khắp nơi.",
+                               "orderIndex":  6
+                           },
+                           {
+                               "character":  "食",
+                               "hanViet":  "THỰC",
+                               "meaning":  "Ăn, thức ăn",
+                               "strokeCount":  9,
+                               "onReading":  "ショク、ジキ",
+                               "kunReading":  "たべる",
+                               "mnemonic":  "Người (人) được dọn cho đồ ăn ngon (良) sẽ có một bữa thực (ăn) thịnh soạn.",
+                               "orderIndex":  7
+                           },
+                           {
+                               "character":  "飲",
+                               "hanViet":  "ẨM",
+                               "meaning":  "Uống",
+                               "strokeCount":  12,
+                               "onReading":  "イン",
+                               "kunReading":  "のむ",
+                               "mnemonic":  "Khi cơ thể cảm thấy thiếu (欠) thốn, phải há miệng nạp ngay đồ ăn thức uống (飠).",
+                               "orderIndex":  8
+                           },
+                           {
+                               "character":  "買",
+                               "hanViet":  "MÃI",
+                               "meaning":  "Mua",
+                               "strokeCount":  12,
+                               "onReading":  "バイ",
+                               "kunReading":  "かう",
+                               "mnemonic":  "Giăng tấm lưới (罒) lớn gom thật nhiều tiền (貝) để đi mua sắm.",
+                               "orderIndex":  9
+                           },
+                           {
+                               "character":  "物",
+                               "hanViet":  "VẬT",
+                               "meaning":  "Đồ vật",
+                               "strokeCount":  8,
+                               "onReading":  "ブツ、モツ",
+                               "kunReading":  "もの",
+                               "mnemonic":  "Xin đừng (勿) đối xử với con bò (牛) như một món đồ vật vô tri.",
+                               "orderIndex":  10
+                           },
+                           {
+                               "character":  "行",
+                               "hanViet":  "HÀNH",
+                               "meaning":  "Đi, thực hiện",
+                               "strokeCount":  6,
+                               "onReading":  "コウ、ギョウ",
+                               "kunReading":  "いく、ゆく、おこなう",
+                               "mnemonic":  "Bước chân trái (彳) và bước chân phải (亍) cùng phối hợp tiến lên để đi.",
+                               "orderIndex":  11
+                           },
+                           {
+                               "character":  "休",
+                               "hanViet":  "HƯU",
+                               "meaning":  "Nghỉ ngơi",
+                               "strokeCount":  6,
+                               "onReading":  "キュウ",
+                               "kunReading":  "やすむ",
+                               "mnemonic":  "Người (亻) tựa lưng vào gốc cây (木) để nghỉ ngơi.",
+                               "orderIndex":  12
+                           }
+                       ]
+    },
+    {
+        "level":  "N5",
+        "lessonNumber":  6,
+        "lessonTitle":  "Giao tiếp và Sinh hoạt",
+        "kanjiItems":  [
+                           {
+                               "character":  "今",
+                               "hanViet":  "KIM",
+                               "meaning":  "Bây giờ, hiện tại",
+                               "strokeCount":  4,
+                               "onReading":  "コン、キン",
+                               "kunReading":  "いま",
+                               "mnemonic":  "Người (𠆢) vội vã chạy (ラ) về nhà ngay bây giờ (今).",
+                               "orderIndex":  1
+                           },
+                           {
+                               "character":  "来",
+                               "hanViet":  "LAI",
+                               "meaning":  "Đến",
+                               "strokeCount":  7,
+                               "onReading":  "ライ",
+                               "kunReading":  "く.る、き.たる",
+                               "mnemonic":  "Mang theo hai (丷) hạt giống đến (来) gộp thành một (一) đống dưới gốc cây (木).",
+                               "orderIndex":  2
+                           },
+                           {
+                               "character":  "帰",
+                               "hanViet":  "QUY",
+                               "meaning":  "Trở về",
+                               "strokeCount":  10,
+                               "onReading":  "キ",
+                               "kunReading":  "かえ.る",
+                               "mnemonic":  "Cầm đao (刂) quét chổi (ヨ) dọn dẹp, sau đó trùm khăn (冖) che đồ lại để trở về (帰) nhà.",
+                               "orderIndex":  3
+                           },
+                           {
+                               "character":  "会",
+                               "hanViet":  "HỘI",
+                               "meaning":  "Gặp gỡ, hội họp",
+                               "strokeCount":  6,
+                               "onReading":  "カイ、エ",
+                               "kunReading":  "あ.う",
+                               "mnemonic":  "Hai (二) người (𠆢) lén lút gặp gỡ ở nơi riêng tư (厶) để bàn chuyện đại hội (会).",
+                               "orderIndex":  4
+                           },
+                           {
+                               "character":  "社",
+                               "hanViet":  "XÃ",
+                               "meaning":  "Xã hội, công ty, đền thờ",
+                               "strokeCount":  7,
+                               "onReading":  "シャ",
+                               "kunReading":  "やしろ",
+                               "mnemonic":  "Lập bàn thờ thần (礻) trên bãi đất (土) rộng để cúng tế cho cả xã hội (社).",
+                               "orderIndex":  5
+                           },
+                           {
+                               "character":  "聞",
+                               "hanViet":  "VĂN",
+                               "meaning":  "Nghe, hỏi",
+                               "strokeCount":  14,
+                               "onReading":  "ブン、モン",
+                               "kunReading":  "き.く、き.こえる",
+                               "mnemonic":  "Ghé sát tai (耳) vào cổng (門) để nghe ngóng và hỏi thăm tin tức.",
+                               "orderIndex":  6
+                           },
+                           {
+                               "character":  "読",
+                               "hanViet":  "ĐỘC",
+                               "meaning":  "Đọc",
+                               "strokeCount":  14,
+                               "onReading":  "ドク、トク",
+                               "kunReading":  "よ.む",
+                               "mnemonic":  "Dùng ngôn từ (言) để rao bán (売) cuốn sách mà mình đang đọc (読).",
+                               "orderIndex":  7
+                           },
+                           {
+                               "character":  "書",
+                               "hanViet":  "THƯ",
+                               "meaning":  "Viết, sách",
+                               "strokeCount":  10,
+                               "onReading":  "ショ",
+                               "kunReading":  "か.く",
+                               "mnemonic":  "Cầm cây bút (聿) mải mê viết sách (書) suốt cả một ngày (日) dài.",
+                               "orderIndex":  8
+                           },
+                           {
+                               "character":  "話",
+                               "hanViet":  "THOẠI",
+                               "meaning":  "Trò chuyện, câu chuyện",
+                               "strokeCount":  13,
+                               "onReading":  "ワ",
+                               "kunReading":  "はな.す、はなし",
+                               "mnemonic":  "Kết hợp ngôn từ (言) khéo léo và uốn cái lưỡi (舌) để trò chuyện (話) với mọi người.",
+                               "orderIndex":  9
+                           }
+                       ]
+    },
+    {
+        "level":  "N5",
+        "lessonNumber":  7,
+        "lessonTitle":  "Tự nhiên và Cơ bản",
+        "kanjiItems":  [
+                           {
+                               "character":  "寺",
+                               "hanViet":  "TỰ",
+                               "meaning":  "Chùa",
+                               "strokeCount":  6,
+                               "onReading":  "ジ",
+                               "kunReading":  "てら",
+                               "mnemonic":  "Dùng tay (寸) đắp từng tấc đất (土) để xây dựng ngôi chùa (寺).",
+                               "orderIndex":  1
+                           },
+                           {
+                               "character":  "言",
+                               "hanViet":  "NGÔN",
+                               "meaning":  "Nói, ngôn từ",
+                               "strokeCount":  7,
+                               "onReading":  "ゴン、ゲン",
+                               "kunReading":  "い.う、こと",
+                               "mnemonic":  "Kẻ cầm đầu (亠) có đến hai (二) cái miệng (口) để thay đổi ngôn từ lắt léo.",
+                               "orderIndex":  2
+                           },
+                           {
+                               "character":  "貝",
+                               "hanViet":  "BỐI",
+                               "meaning":  "Vỏ sò, tiền tệ",
+                               "strokeCount":  7,
+                               "onReading":  "バイ",
+                               "kunReading":  "かい",
+                               "mnemonic":  "Con sò (貝) mở mắt (目) to và thò hai cái chân (ハ) ra ngoài để đi tìm tiền.",
+                               "orderIndex":  3
+                           },
+                           {
+                               "character":  "田",
+                               "hanViet":  "ĐIỀN",
+                               "meaning":  "Ruộng",
+                               "strokeCount":  5,
+                               "onReading":  "デン",
+                               "kunReading":  "た",
+                               "mnemonic":  "Khu đất (囗) được chia thành hình chữ thập (十) để làm bờ ruộng (田).",
+                               "orderIndex":  4
+                           },
+                           {
+                               "character":  "力",
+                               "hanViet":  "LỰC",
+                               "meaning":  "Sức lực",
+                               "strokeCount":  2,
+                               "onReading":  "リョク、リキ",
+                               "kunReading":  "ちから",
+                               "mnemonic":  "Chữ này nhìn giống hệt hình ảnh cánh tay đang gồng lên cuộn bắp chuột để khoe sức lực (力).",
+                               "orderIndex":  5
+                           },
+                           {
+                               "character":  "門",
+                               "hanViet":  "MÔN",
+                               "meaning":  "Cửa, cổng",
+                               "strokeCount":  8,
+                               "onReading":  "モン",
+                               "kunReading":  "かど",
+                               "mnemonic":  "Hình ảnh hai cánh cổng (門) lớn đang được mở tung ra hai bên.",
+                               "orderIndex":  6
+                           },
+                           {
+                               "character":  "肉",
+                               "hanViet":  "NHỤC",
+                               "meaning":  "Thịt",
+                               "strokeCount":  6,
+                               "onReading":  "ニク",
+                               "kunReading":  "",
+                               "mnemonic":  "Hai người (人) lén lút trốn vào trong kho lạnh (冂) để lén ăn thịt (肉).",
+                               "orderIndex":  7
+                           },
+                           {
+                               "character":  "料",
+                               "hanViet":  "LIỄU",
+                               "meaning":  "Nguyên liệu, tài liệu, phí",
+                               "strokeCount":  10,
+                               "onReading":  "リョウ",
+                               "kunReading":  "",
+                               "mnemonic":  "Dùng cái đấu (斗) để đong lường gạo (米) làm nguyên liệu (料) nấu ăn.",
+                               "orderIndex":  8
+                           },
+                           {
+                               "character":  "理",
+                               "hanViet":  "LÝ",
+                               "meaning":  "Lý lẽ, logic, địa lý",
+                               "strokeCount":  11,
+                               "onReading":  "リ",
+                               "kunReading":  "",
+                               "mnemonic":  "Vị Vua (王) cai quản các ngôi làng (里) bằng lý (理) lẽ vô cùng công bằng.",
+                               "orderIndex":  9
+                           },
+                           {
+                               "character":  "野",
+                               "hanViet":  "DÃ",
+                               "meaning":  "Cánh đồng, hoang dã",
+                               "strokeCount":  11,
+                               "onReading":  "ヤ",
+                               "kunReading":  "の",
+                               "mnemonic":  "Người trong làng (里) đã dự (予) đoán trước được sẽ có thú hoang dã (野) chạy ra cánh đồng.",
+                               "orderIndex":  10
+                           },
+                           {
+                               "character":  "半",
+                               "hanViet":  "BÁN",
+                               "meaning":  "Một nửa",
+                               "strokeCount":  5,
+                               "onReading":  "ハン",
+                               "kunReading":  "なか.ba",
+                               "mnemonic":  "Dùng một nhát chém (丨) chia rẽ (丷) mọi thứ ra thành hai (二) phần, tức là chia một nửa (半).",
+                               "orderIndex":  11
+                           }
+                       ]
+    }
+]

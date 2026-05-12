@@ -1,0 +1,1303 @@
+{
+  "courseCode": "jpd123",
+  "accessTier": "premium",
+  "packageCode": "speaking_jpd123",
+  "lessons": [
+    {
+      "id": 1,
+      "topic": "Đại học",
+      "title": "ワットさんと さくら大学",
+      "subtitle": "Giới thiệu trường, công việc và bữa trưa ở căn tin.",
+      "summary": "Thầy Watt dạy ở đại học Sakura, đi làm bằng ô tô và thường ăn trưa ở căn tin của trường.",
+      "sentences": [
+        {
+          "jp": "ワットさんは [[さくら大学|さくらだいがく]] の えい[[語|ご]] の [[先生|せんせい]] です。",
+          "vi": "Ông Watt là giáo viên tiếng Anh ở đại học Sakura."
+        },
+        {
+          "jp": "[[毎日|まいにち]] あかい くるまで [[大学|だいがく]] へ [[行|い]]きます。",
+          "vi": "Mỗi ngày ông ấy đi ô tô màu đỏ đến trường đại học."
+        },
+        {
+          "jp": "さくら[[大学|だいがく]] は [[大|おお]]きい [[大学|だいがく]] ではありませんが、いい [[大学|だいがく]] です。",
+          "vi": "Đại học Sakura không phải là một trường lớn, nhưng là một trường tốt."
+        },
+        {
+          "jp": "ワットさんは いつも しょくどうで ひるごはんを [[食|た]]べます。",
+          "vi": "Ông Watt luôn ăn cơm trưa ở nhà ăn."
+        },
+        {
+          "jp": "しょくどうは [[12時|じゅうにじ]] から [[1時|いちじ]] まで とても にぎやかです。",
+          "vi": "Nhà ăn rất nhộn nhịp từ 12 giờ đến 1 giờ."
+        },
+        {
+          "jp": "しょくどうの [[食|た]]べ[[物|もの]] は おいしいです。",
+          "vi": "Đồ ăn ở nhà ăn rất ngon."
+        },
+        {
+          "jp": "そして、[[安|やす]]いです。",
+          "vi": "Hơn nữa còn rẻ."
+        },
+        {
+          "jp": "[[大学|だいがく]] の しごとは いそがしいですが、たのしいです。",
+          "vi": "Công việc ở trường đại học tuy bận nhưng rất vui."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "topic": "Cuối tuần",
+      "title": "土曜日と日曜日",
+      "subtitle": "Lịch cuối tuần với thư viện, sách du lịch và quà sinh nhật.",
+      "summary": "Người kể chuyện đi thư viện, mượn sách du lịch và dự định mua hoa làm quà sinh nhật cho mẹ.",
+      "sentences": [
+        {
+          "jp": "けさ としょかんへ [[行|い]]きました。",
+          "vi": "Sáng nay tôi đã đi thư viện."
+        },
+        {
+          "jp": "としょかんで たろうちゃんに [[会|あ]]いました。",
+          "vi": "Ở thư viện tôi đã gặp Tarou."
+        },
+        {
+          "jp": "たろうちゃんと いっしょに ビデオを [[見|み]]ました。",
+          "vi": "Tôi đã xem video cùng với Tarou."
+        },
+        {
+          "jp": "[[私|わたし]] は りょ[[行|こう]] の [[本|ほん]] を かりました。",
+          "vi": "Tôi đã mượn một quyển sách du lịch."
+        },
+        {
+          "jp": "あしたは [[日曜日|にちようび]] です。",
+          "vi": "Ngày mai là Chủ nhật."
+        },
+        {
+          "jp": "あさ りょ[[行|こう]] の [[本|ほん]] を [[読|よ]]みます。",
+          "vi": "Buổi sáng tôi sẽ đọc sách du lịch."
+        },
+        {
+          "jp": "[[午後|ごご]] デパートへ [[行|い]]きます。",
+          "vi": "Buổi chiều tôi sẽ đi cửa hàng bách hóa."
+        },
+        {
+          "jp": "はなを [[買|か]]います。",
+          "vi": "Tôi sẽ mua hoa."
+        },
+        {
+          "jp": "ははの たん[[生日|じょうび]] の プレゼントです。",
+          "vi": "Đó là quà sinh nhật của mẹ tôi."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "topic": "Sinh hoạt hằng ngày",
+      "title": "ミラーさんの 一日",
+      "subtitle": "Thói quen đi làm trong tuần và nghỉ ngơi cuối tuần.",
+      "summary": "Bài đọc mô tả lịch sinh hoạt hằng ngày của anh Miller và cách anh dành thời gian vào thứ bảy, chủ nhật.",
+      "sentences": [
+        {
+          "jp": "ミラーさんは まいあさ [[七時|しちじ]] に おきます。",
+          "vi": "Mỗi sáng anh Miller thức dậy lúc 7 giờ."
+        },
+        {
+          "jp": "あさごはんは いつも パンと コーヒーです。",
+          "vi": "Bữa sáng của anh ấy luôn là bánh mì và cà phê."
+        },
+        {
+          "jp": "でんしゃで [[会社|かいしゃ]] へ [[行|い]]きます。",
+          "vi": "Anh ấy đi tàu điện đến công ty."
+        },
+        {
+          "jp": "[[会社|かいしゃ]] は [[九時|くじ]] から [[五時|ごじ]] まで です。",
+          "vi": "Công ty làm việc từ 9 giờ đến 5 giờ."
+        },
+        {
+          "jp": "[[七時|しちじ]] に うちへ [[帰|かえ]]ります。",
+          "vi": "Lúc 7 giờ anh ấy về nhà."
+        },
+        {
+          "jp": "[[七時半|しちじはん]] に ばんごはんを [[食|た]]べます。",
+          "vi": "Lúc 7 giờ rưỡi anh ấy ăn tối."
+        },
+        {
+          "jp": "それから テレビを [[見|み]]ます。",
+          "vi": "Sau đó anh ấy xem tivi."
+        },
+        {
+          "jp": "えい[[語|ご]] の [[新聞|しんぶん]] を [[読|よ]]みます。",
+          "vi": "Anh ấy đọc báo tiếng Anh."
+        },
+        {
+          "jp": "よる [[十二時|じゅうにじ]] に [[寝|ね]]ます。",
+          "vi": "Ban đêm anh ấy đi ngủ lúc 12 giờ."
+        },
+        {
+          "jp": "[[土曜日|どようび]] と [[日曜日|にちようび]]、[[会社|かいしゃ]] は [[休|やす]]みです。",
+          "vi": "Vào thứ bảy và chủ nhật công ty nghỉ."
+        },
+        {
+          "jp": "[[土曜日|どようび]] の あさ、としょかんへ [[行|い]]きます。",
+          "vi": "Sáng thứ bảy anh ấy đi thư viện."
+        },
+        {
+          "jp": "[[午後|ごご]]、テニスを します。",
+          "vi": "Buổi chiều anh ấy chơi tennis."
+        },
+        {
+          "jp": "[[日曜日|にちようび]] は どこも [[行|い]]きません。",
+          "vi": "Chủ nhật anh ấy không đi đâu cả."
+        },
+        {
+          "jp": "[[休|やす]]みます。",
+          "vi": "Anh ấy nghỉ ngơi."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "topic": "Nhà ở",
+      "title": "あたらしい うち",
+      "subtitle": "Khu phố yên tĩnh với công viên, thư viện và quán cà phê.",
+      "summary": "Ngôi nhà mới nằm ở nơi yên tĩnh, gần công viên, thư viện, quán cà phê và nhiều tiện ích khác.",
+      "sentences": [
+        {
+          "jp": "[[私|わたし]] の あたらしい うちは しずかな ところに あります。",
+          "vi": "Ngôi nhà mới của tôi nằm ở một nơi yên tĩnh."
+        },
+        {
+          "jp": "うちの となりに きれいな こうえんが あります。",
+          "vi": "Bên cạnh nhà có một công viên đẹp."
+        },
+        {
+          "jp": "こうえんの [[前|まえ]] に としょかんと きっさてんが あります。",
+          "vi": "Phía trước công viên có thư viện và quán cà phê."
+        },
+        {
+          "jp": "[[私|わたし]] は としょかんで [[本|ほん]] を かります。",
+          "vi": "Tôi mượn sách ở thư viện."
+        },
+        {
+          "jp": "そして、こうえんで [[読|よ]]みます。",
+          "vi": "Sau đó tôi đọc sách ở công viên."
+        },
+        {
+          "jp": "ときどき きっさてんで [[読|よ]]みます。",
+          "vi": "Thỉnh thoảng tôi cũng đọc ở quán cà phê."
+        },
+        {
+          "jp": "きっさてんの コーヒーは おいしいです。",
+          "vi": "Cà phê ở quán rất ngon."
+        },
+        {
+          "jp": "うちの ちかくに ゆうびんきょくと ぎんこうが あります。",
+          "vi": "Gần nhà có bưu điện và ngân hàng."
+        },
+        {
+          "jp": "ゆうびんきょくと ぎんこうの あいだに スーパーが あります。",
+          "vi": "Giữa bưu điện và ngân hàng có một siêu thị."
+        },
+        {
+          "jp": "スーパーの なかに はなやや おいしい パンやが あります。",
+          "vi": "Trong siêu thị có tiệm hoa và tiệm bánh mì ngon."
+        },
+        {
+          "jp": "とても べんりです。",
+          "vi": "Rất tiện lợi."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "topic": "Mua sắm",
+      "title": "スーパーを くらべる",
+      "subtitle": "So sánh ba siêu thị gần nhà về giá cả và hàng hóa.",
+      "summary": "Người kể chuyện so sánh ba cửa hàng gần nhà và thích ABC Store nhất vì giá rẻ, đồ ăn ngon và nhiều lựa chọn.",
+      "sentences": [
+        {
+          "jp": "[[私|わたし]] の うちの ちかくに スーパーが [[3つ|みっつ]] あります。",
+          "vi": "Gần nhà tôi có ba siêu thị."
+        },
+        {
+          "jp": "「まいにちや」と「ABCストア」と「ジャパン」です。",
+          "vi": "Đó là Mainichiya, ABC Store và Japan."
+        },
+        {
+          "jp": "「まいにちや」は いちばん [[小|ちい]]さい みせですが、ちかいです。",
+          "vi": "Mainichiya là cửa hàng nhỏ nhất nhưng gần nhà."
+        },
+        {
+          "jp": "うちから あるいて [[五分|ごふん]] です。",
+          "vi": "Đi bộ từ nhà đến đó mất 5 phút."
+        },
+        {
+          "jp": "あたらしい さかなが おおいです。",
+          "vi": "Ở đó có nhiều cá tươi."
+        },
+        {
+          "jp": "[[野菜|やさい]] や [[果物|くだもの]] も おおいです。",
+          "vi": "Cũng có nhiều rau và trái cây."
+        },
+        {
+          "jp": "「ABCストア」は うちから あるいて [[十五分|じゅうごふん]] かかります。",
+          "vi": "Đi bộ từ nhà đến ABC Store mất 15 phút."
+        },
+        {
+          "jp": "[[肉|にく]] が おおいです。",
+          "vi": "Ở đó có nhiều thịt."
+        },
+        {
+          "jp": "いちばん やすい みせです。",
+          "vi": "Đó là cửa hàng rẻ nhất."
+        },
+        {
+          "jp": "[[外国|がいこく]] の [[物|もの]] も ありますが、「ジャパン」より すくないです。",
+          "vi": "Cũng có hàng nước ngoài nhưng ít hơn cửa hàng Japan."
+        },
+        {
+          "jp": "おいしい パンが あります。",
+          "vi": "Có bánh mì ngon."
+        },
+        {
+          "jp": "「ジャパン」は いちばん とおいです。",
+          "vi": "Japan là cửa hàng xa nhất."
+        },
+        {
+          "jp": "さかなは あまり おおくないですが、[[肉|にく]] が たくさん あります。",
+          "vi": "Cá không nhiều lắm nhưng có rất nhiều thịt."
+        },
+        {
+          "jp": "[[外国|がいこく]] の [[物|もの]] が おおいです。",
+          "vi": "Có nhiều hàng hóa nước ngoài."
+        },
+        {
+          "jp": "とても [[大|おお]]きい みせです。",
+          "vi": "Đó là một cửa hàng rất lớn."
+        },
+        {
+          "jp": "「ABCストア」より [[大|おお]]きいです。",
+          "vi": "Nó còn lớn hơn cả ABC Store."
+        },
+        {
+          "jp": "[[三つ|みっつ]] の みせの なかで [[私|わたし]] は 「ABCストア」が いちばん すきです。",
+          "vi": "Trong ba cửa hàng, tôi thích ABC Store nhất."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "topic": "Thú cưng",
+      "title": "いぬと ねこ",
+      "subtitle": "Số người nuôi mèo ở Nhật đã tăng lên.",
+      "summary": "Bài đọc nói về số người nuôi chó và mèo ở Nhật Bản, đặc biệt là việc mèo đã vượt chó vào năm 2017.",
+      "sentences": [
+        {
+          "jp": "[[日本|にほん]] には いぬや ねこを [[飼|か]]う [[人|ひと]] が たくさん います。",
+          "vi": "Ở Nhật có rất nhiều người nuôi chó và mèo."
+        },
+        {
+          "jp": "さいきん ねこを [[飼|か]]う [[人|ひと]] が ふえて いました。",
+          "vi": "Gần đây số người nuôi mèo đã tăng lên."
+        },
+        {
+          "jp": "[[2017年|にせんじゅうしちねん]] には ねこが [[九百五十三万|きゅうひゃくごじゅうさんまん]] びき、いぬが [[八百九十二万|はっぴゃくきゅうじゅうにまん]] びきに なって、はじめて ねこの ほうが おおく なりました。",
+          "vi": "Đến năm 2017, số mèo là 9,53 triệu con và số chó là 8,92 triệu con, lần đầu tiên mèo nhiều hơn chó."
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "topic": "Quà sinh nhật",
+      "title": "ははの プレゼント",
+      "subtitle": "Tính toán tiền mua ví, hoa và bánh cho mẹ.",
+      "summary": "Ba người góp tiền mua quà và bánh cho mẹ, đồng thời cân nhắc mức giá và lượng calo của món ăn.",
+      "sentences": [
+        {
+          "jp": "[[三人|さんにん]] で [[一人|ひとり]] [[5000円|ごせんえん]] だして、ははに [[1万円|いちまんえん]] の さいふと はなを [[買|か]]います。",
+          "vi": "Ba người sẽ góp mỗi người 5.000 yên để mua cho mẹ một chiếc ví 10.000 yên và hoa."
+        },
+        {
+          "jp": "ケーキは [[一人|ひとり]] に [[一つ|ひとつ]] [[買|か]]って、ははと [[食|た]]べたいです。",
+          "vi": "Mỗi người muốn mua một chiếc bánh để cùng ăn với mẹ."
+        },
+        {
+          "jp": "[[1200円|せんにひゃくえん]] いかで、なるべく カロリーが ひくい [[食|た]]べ[[物|もの]] が [[食|た]]べたいです。",
+          "vi": "Tôi muốn ăn món gì đó giá không quá 1.200 yên và có lượng calo càng thấp càng tốt."
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "topic": "Tự giới thiệu",
+      "title": "メイ・スミスです",
+      "subtitle": "Giới thiệu bản thân, công việc và sở thích.",
+      "summary": "Mei Smith là người Canada, đang sống ở Nhật Bản, làm giáo viên tiếng Anh và thích du lịch, đọc sách.",
+      "sentences": [
+        {
+          "jp": "[[私|わたし]] は メイ・スミス です。",
+          "vi": "Tôi là Mei Smith."
+        },
+        {
+          "jp": "[[私|わたし]] は カナダ[[人|じん]] です。",
+          "vi": "Tôi là người Canada."
+        },
+        {
+          "jp": "いま、[[日本|にほん]] に すんでいます。",
+          "vi": "Hiện tại tôi đang sống ở Nhật Bản."
+        },
+        {
+          "jp": "しごとは えい[[語|ご]] の [[先生|せんせい]] です。",
+          "vi": "Công việc của tôi là giáo viên tiếng Anh."
+        },
+        {
+          "jp": "しゅみは りょ[[行|こう]] と [[本|ほん]] を [[読|よ]]む ことです。",
+          "vi": "Sở thích của tôi là đi du lịch và đọc sách."
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "topic": "Gia đình",
+      "title": "おじいさんに 会う",
+      "subtitle": "Tình cảm với ông và quãng đường từ Tokyo đến Kyoto.",
+      "summary": "Người kể chuyện rất quý ông mình và mỗi năm đều về Kyoto thăm ông vào dịp nghỉ hè và năm mới.",
+      "sentences": [
+        {
+          "jp": "[[私|わたし]] の おじいさんは、[[今年|ことし]] [[81才|はちじゅういっさい]] です。",
+          "vi": "Năm nay ông tôi 81 tuổi."
+        },
+        {
+          "jp": "[[京都|きょうと]] に すんでいます。",
+          "vi": "Ông đang sống ở Kyoto."
+        },
+        {
+          "jp": "おじいさんは いつも やさしいです。",
+          "vi": "Ông lúc nào cũng hiền từ."
+        },
+        {
+          "jp": "そして、いつも おもしろい [[話|はなし]] を します。",
+          "vi": "Và ông luôn kể những câu chuyện thú vị."
+        },
+        {
+          "jp": "[[私|わたし]] は おじいさんが だいすきです。",
+          "vi": "Tôi rất yêu quý ông."
+        },
+        {
+          "jp": "[[私|わたし]] は いま、[[東京|とうきょう]] に すんでいます。",
+          "vi": "Hiện tại tôi sống ở Tokyo."
+        },
+        {
+          "jp": "[[京都|きょうと]] から [[東京|とうきょう]] まで、しんかんせんで [[2時間|にじかん]] です。",
+          "vi": "Từ Kyoto đến Tokyo mất 2 giờ đi shinkansen."
+        },
+        {
+          "jp": "[[毎年|まいとし]]、なつ[[休|やす]]み と [[お正月|おしょうがつ]] に おじいさんに [[会|あ]]います。",
+          "vi": "Mỗi năm vào kỳ nghỉ hè và dịp năm mới, tôi đều gặp ông."
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "topic": "Mua sắm hằng ngày",
+      "title": "コーヒーと タバコ",
+      "subtitle": "Một thói quen hằng ngày ở cửa hàng tiện lợi.",
+      "summary": "Người kể chuyện hay mua cà phê ở combini, trong khi bạn mình mua thuốc lá nhưng bản thân lại không hút.",
+      "sentences": [
+        {
+          "jp": "[[私|わたし]] は [[毎日|まいにち]] コーヒーを [[飲|の]]みます。",
+          "vi": "Tôi uống cà phê mỗi ngày."
+        },
+        {
+          "jp": "コーヒーは [[毎朝|まいあさ]] コンビニで [[買|か]]います。",
+          "vi": "Mỗi sáng tôi mua cà phê ở cửa hàng tiện lợi."
+        },
+        {
+          "jp": "[[一つ|ひとつ]] [[100円|ひゃくえん]] です。",
+          "vi": "Một cốc có giá 100 yên."
+        },
+        {
+          "jp": "とても [[安|やす]]いです。",
+          "vi": "Rất rẻ."
+        },
+        {
+          "jp": "でも、おいしいです。",
+          "vi": "Nhưng vẫn rất ngon."
+        },
+        {
+          "jp": "[[私|わたし]] の ともだちは、タバコを すいます。",
+          "vi": "Bạn của tôi thì hút thuốc lá."
+        },
+        {
+          "jp": "かれも コンビニで タバコを [[買|か]]います。",
+          "vi": "Anh ấy cũng mua thuốc lá ở combini."
+        },
+        {
+          "jp": "しかし、[[私|わたし]] は タバコを すいません。",
+          "vi": "Tuy nhiên tôi không hút thuốc."
+        },
+        {
+          "jp": "あたまが いたく なりますから。",
+          "vi": "Vì nếu hút thì tôi sẽ bị đau đầu."
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "topic": "Bữa tối",
+      "title": "ぎゅうどんが ありませんでした",
+      "subtitle": "Một bữa tối hụt món yêu thích ở combini.",
+      "summary": "Sau giờ học, người kể chuyện đi mua cơm tối nhưng cửa hàng tiện lợi không còn gyudon nên phải đổi sang món khác.",
+      "sentences": [
+        {
+          "jp": "[[今日|きょう]]、[[大学|だいがく]] の あとで、コンビニに ばんごはんを [[買|か]]いに [[行|い]]きました。",
+          "vi": "Hôm nay sau giờ học đại học, tôi đã đi combini mua bữa tối."
+        },
+        {
+          "jp": "[[私|わたし]] は いつも ぎゅうどんを [[買|か]]います。",
+          "vi": "Tôi lúc nào cũng mua gyudon."
+        },
+        {
+          "jp": "ぎゅうどんは [[牛肉|ぎゅうにく]] の [[料理|りょうり]] です。",
+          "vi": "Gyudon là món ăn làm từ thịt bò."
+        },
+        {
+          "jp": "でも、[[今日|きょう]] は ぎゅうどんが ありませんでした。",
+          "vi": "Nhưng hôm nay lại không có gyudon."
+        },
+        {
+          "jp": "とても ざんねんでした。",
+          "vi": "Tôi rất tiếc."
+        },
+        {
+          "jp": "だから、おにぎりと ミルクを [[買|か]]いました。",
+          "vi": "Vì vậy tôi đã mua cơm nắm và sữa."
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "topic": "Thể thao",
+      "title": "テニスを 見るのが すきです",
+      "subtitle": "Không giỏi chơi tennis nhưng rất thích đi xem thi đấu.",
+      "summary": "Người kể chuyện không thích tự chơi tennis nhưng rất thích xem ở sân vận động, nhất là khi tuyển thủ yêu thích chiến thắng.",
+      "sentences": [
+        {
+          "jp": "[[今日|きょう]] は [[五月十三日|ごがつじゅうさんにち]] です。",
+          "vi": "Hôm nay là ngày 13 tháng 5."
+        },
+        {
+          "jp": "テニスを [[見|み]]に [[行|い]]きました。",
+          "vi": "Tôi đã đi xem tennis."
+        },
+        {
+          "jp": "[[私|わたし]] は テニスを するのが すきじゃありません。",
+          "vi": "Tôi không thích chơi tennis."
+        },
+        {
+          "jp": "うんどうが じょうずじゃありませんから。",
+          "vi": "Vì tôi không giỏi thể thao."
+        },
+        {
+          "jp": "でも、[[見|み]]るのが だいすきです。",
+          "vi": "Nhưng tôi lại rất thích xem."
+        },
+        {
+          "jp": "まい[[日曜日|にちようび]] ともだちと スタジアムに いって、テニスを [[見|み]]ます。",
+          "vi": "Mỗi chủ nhật tôi đi sân vận động cùng bạn để xem tennis."
+        },
+        {
+          "jp": "[[今日|きょう]] は、[[私|わたし]] の すきな せんしゅが かちました。",
+          "vi": "Hôm nay vận động viên tôi yêu thích đã thắng."
+        },
+        {
+          "jp": "うれしかったです。",
+          "vi": "Tôi đã rất vui."
+        },
+        {
+          "jp": "[[来週|らいしゅう]] も もう いっかい [[見|み]]に [[行|い]]く つもりです。",
+          "vi": "Tuần sau tôi cũng định đi xem thêm một lần nữa."
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "topic": "Ôn tập",
+      "title": "ワットさんの しごと",
+      "subtitle": "Phiên bản ôn lại bài về thầy Watt với nhiều chữ kanji hơn.",
+      "summary": "Bài ôn tập lặp lại nội dung về thầy Watt và đại học Sakura, lần này dùng nhiều chữ kanji hơn ở các từ quen thuộc.",
+      "sentences": [
+        {
+          "jp": "ワットさんは [[さくら大学|さくらだいがく]] の [[英語|えいご]] の [[先生|せんせい]] です。",
+          "vi": "Ông Watt là giáo viên tiếng Anh ở đại học Sakura."
+        },
+        {
+          "jp": "[[毎日|まいにち]] あかい くるまで [[大学|だいがく]] へ [[行|い]]きます。",
+          "vi": "Mỗi ngày ông ấy đi ô tô màu đỏ đến trường đại học."
+        },
+        {
+          "jp": "さくら[[大学|だいがく]] は [[大|おお]]きい [[大学|だいがく]] では ありませんが、いい [[大学|だいがく]] です。",
+          "vi": "Đại học Sakura không phải là một trường lớn, nhưng là một trường tốt."
+        },
+        {
+          "jp": "ワットさんは いつも しょくどうで ひるごはんを [[食|た]]べます。",
+          "vi": "Ông Watt lúc nào cũng ăn trưa ở nhà ăn."
+        },
+        {
+          "jp": "しょくどうは [[12時|じゅうにじ]] から [[1時|いちじ]] まで とても にぎやかです。",
+          "vi": "Nhà ăn rất nhộn nhịp từ 12 giờ đến 1 giờ."
+        },
+        {
+          "jp": "しょくどうの [[食|た]]べ[[物|もの]] は おいしいです。",
+          "vi": "Đồ ăn ở nhà ăn rất ngon."
+        },
+        {
+          "jp": "そして、[[安|やす]]いです。",
+          "vi": "Và còn rẻ nữa."
+        },
+        {
+          "jp": "[[大学|だいがく]] の しごとは いそがしいですが、たのしいです。",
+          "vi": "Công việc ở trường đại học bận rộn nhưng vui."
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "topic": "Thành phố",
+      "title": "おおさかと ちかくの まち",
+      "subtitle": "Osaka, Kobe, Kyoto và Nara có nét hấp dẫn khác nhau.",
+      "summary": "Bài đọc so sánh Osaka với các thành phố gần đó, nhấn mạnh đồ ăn ngon, di tích cổ và cảnh quan đẹp.",
+      "sentences": [
+        {
+          "jp": "おおさかは [[大|おお]]きくて、にぎやかな まちです。",
+          "vi": "Osaka là một thành phố lớn và nhộn nhịp."
+        },
+        {
+          "jp": "おもしろい [[人|ひと]] が おおくて、[[食|た]]べ[[物|もの]] が おいしいです。",
+          "vi": "Có nhiều người thú vị và đồ ăn rất ngon."
+        },
+        {
+          "jp": "こうべと [[京都|きょうと]] と ならは おおさかから ちかいです。",
+          "vi": "Kobe, Kyoto và Nara đều gần Osaka."
+        },
+        {
+          "jp": "[[四つ|よっつ]] の まちの [[中|なか]] で ならが いちばん ふるいです。",
+          "vi": "Trong bốn thành phố thì Nara là thành phố cổ nhất."
+        },
+        {
+          "jp": "ならと [[京都|きょうと]] は [[古|ふる]]い お[[寺|てら]] や じんじゃが [[多|おお]]いですから、[[外国人|がいこくじん]] が あそびに [[来|き]]ます。",
+          "vi": "Vì Nara và Kyoto có nhiều chùa và đền cổ nên có nhiều người nước ngoài đến tham quan."
+        },
+        {
+          "jp": "こうべは すてきな まちです。",
+          "vi": "Kobe là một thành phố rất đẹp."
+        },
+        {
+          "jp": "[[前|まえ]] に うみが あって、うしろに [[山|やま]] が あります。",
+          "vi": "Phía trước có biển, phía sau có núi."
+        },
+        {
+          "jp": "わかい [[人|ひと]] は こうべが すきです。",
+          "vi": "Người trẻ thích Kobe."
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "topic": "Điều ước",
+      "title": "いちばん ほしい 物",
+      "subtitle": "Nhiều người chia sẻ điều mình muốn có nhất.",
+      "summary": "Bài đọc tập hợp những câu trả lời khác nhau về thứ mà mỗi người mong muốn nhất trong cuộc sống.",
+      "sentences": [
+        {
+          "jp": "いろいろな [[人|ひと]] に いちばん ほしい [[物|もの]] を [[聞|き]]きました。",
+          "vi": "Tôi đã hỏi nhiều người về món đồ hay điều họ muốn có nhất."
+        },
+        {
+          "jp": "①「[[時間|じかん]]」です。",
+          "vi": "1. “Thời gian.”"
+        },
+        {
+          "jp": "[[会社|かいしゃ]] へ [[行|い]]って、はたらいて、うちへ [[帰|かえ]]ったら、[[1日|いちにち]] が おわります。",
+          "vi": "Tôi đi làm ở công ty, làm việc rồi về nhà là một ngày kết thúc."
+        },
+        {
+          "jp": "[[1日|いちにち]] が みじかいです。",
+          "vi": "Một ngày quá ngắn."
+        },
+        {
+          "jp": "[[1日|いちにち]] [[36時間|さんじゅうろくじかん]] ぐらい ほしいです。",
+          "vi": "Tôi muốn một ngày dài khoảng 36 tiếng."
+        },
+        {
+          "jp": "②「ぼくの ぎんこう」が ほしいです。",
+          "vi": "2. “Tôi muốn có ngân hàng của riêng mình.”"
+        },
+        {
+          "jp": "ぎんこうを もっていたら、すきな とき、[[お金|おかね]] を おろして、すきな [[物|もの]] を [[買|か]]う ことが できます。",
+          "vi": "Nếu có ngân hàng riêng thì lúc nào cũng có thể rút tiền và mua thứ mình thích."
+        },
+        {
+          "jp": "③「わかくなる くすり」です。",
+          "vi": "3. “Thuốc giúp trẻ lại.”"
+        },
+        {
+          "jp": "[[私|わたし]] は わかい とき、あまり べんきょうしませんでした。",
+          "vi": "Khi còn trẻ tôi đã không học nhiều."
+        },
+        {
+          "jp": "もう いちど わかく なったら、べんきょうして、いい しごとを したいです。",
+          "vi": "Nếu được trẻ lại một lần nữa, tôi muốn học hành và làm một công việc tốt."
+        },
+        {
+          "jp": "④「ユーモア」が ほしいです。",
+          "vi": "4. “Tôi muốn có khiếu hài hước.”"
+        },
+        {
+          "jp": "[[私|わたし]] が [[話|はなし]] を すると、つまは すぐ「あしたも いそがしいでしょう。 はやく [[寝|ね]]て ください。」と [[言|い]]います。",
+          "vi": "Khi tôi nói chuyện, vợ tôi liền bảo: “Ngày mai anh còn bận mà, ngủ sớm đi.”"
+        },
+        {
+          "jp": "[[子|こ]]どもは「お[[父|とう]]さん、もう [[3回|さんかい]] ぐらい [[聞|き]]いたよ。」と [[言|い]]います。",
+          "vi": "Bọn trẻ thì nói: “Bố ơi, chuyện đó con nghe khoảng 3 lần rồi.”"
+        },
+        {
+          "jp": "[[私|わたし]] は おもしろい [[人|ひと]] に なりたいです。",
+          "vi": "Tôi muốn trở thành một người thú vị."
+        },
+        {
+          "jp": "([[男|おとこ]] の [[人|ひと]]、[[43才|よんじゅうさんさい]])",
+          "vi": "(Nam, 43 tuổi)"
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "topic": "Bà ngoại",
+      "title": "ぼくの おばあちゃん",
+      "subtitle": "Một người bà khỏe mạnh và làm cho căn nhà thêm rộn ràng.",
+      "summary": "Người kể chuyện yêu quý bà mình vì bà khỏe mạnh, kể chuyện hay và thường làm bánh cho cả nhà.",
+      "sentences": [
+        {
+          "jp": "ぼくの おばあちゃんは [[72才|ななじゅうにさい]] で、げんきです。",
+          "vi": "Bà của tôi 72 tuổi và vẫn rất khỏe."
+        },
+        {
+          "jp": "[[一人|ひとり]] で すんでいます。",
+          "vi": "Bà sống một mình."
+        },
+        {
+          "jp": "てんきが いい とき、おばあちゃんは びょういんへ ともだちに [[会|あ]]いに [[行|い]]きます。",
+          "vi": "Khi thời tiết đẹp, bà đi bệnh viện thăm bạn."
+        },
+        {
+          "jp": "びょういんに ともだちが たくさん いますから。",
+          "vi": "Vì ở bệnh viện có rất nhiều bạn của bà."
+        },
+        {
+          "jp": "てんきが わるい とき、あしの ちょうしが よくないですから、[[出|で]]かけません。",
+          "vi": "Khi thời tiết xấu, do chân không khỏe nên bà không ra ngoài."
+        },
+        {
+          "jp": "おばあちゃんが ぼくの うちへ [[来|き]]た とき、ぼくは [[学校|がっこう]] で ならった うたを うたって あげます。",
+          "vi": "Khi bà đến nhà tôi, tôi hát cho bà nghe bài hát học ở trường."
+        },
+        {
+          "jp": "おばあちゃんは ぼくに [[古|ふる]]い [[日本|にほん]] の お[[話|はなし]] を してくれます。",
+          "vi": "Bà kể cho tôi nghe những câu chuyện cổ của Nhật Bản."
+        },
+        {
+          "jp": "そして、パンや おかしを [[作|つく]]って くれます。",
+          "vi": "Và bà còn làm bánh mì và bánh ngọt cho tôi."
+        },
+        {
+          "jp": "おばあちゃんが うちへ [[来|く]]ると、うちの [[中|なか]] が とても にぎやかに なります。",
+          "vi": "Mỗi khi bà đến nhà, cả ngôi nhà trở nên rất rộn ràng."
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "topic": "Động vật",
+      "title": "カンガルーの 名前",
+      "subtitle": "Câu chuyện thú vị về nguồn gốc tên gọi kangaroo.",
+      "summary": "Bài đọc kể lại một câu chuyện nổi tiếng về việc thuyền trưởng Cook nghe và hiểu tên của con kangaroo ra sao.",
+      "sentences": [
+        {
+          "jp": "この どうぶつの [[名前|なまえ]] を しっていますか。",
+          "vi": "Bạn có biết tên của con vật này không?"
+        },
+        {
+          "jp": "「カンガルー」です。",
+          "vi": "Đó là “kangaroo”."
+        },
+        {
+          "jp": "カンガルーの [[名前|なまえ]] について おもしろい [[話|はなし]] が あります。",
+          "vi": "Có một câu chuyện thú vị về tên gọi của kangaroo."
+        },
+        {
+          "jp": "[[1770年|せんななひゃくななじゅうねん]] に イギリスの キャプテン・クックは ふねで オーストラリアへ [[行|い]]きました。",
+          "vi": "Năm 1770, thuyền trưởng Cook người Anh đã đi tàu đến Australia."
+        },
+        {
+          "jp": "そして、はじめて この どうぶつを [[見|み]]ました。",
+          "vi": "Và lần đầu tiên ông ấy nhìn thấy con vật này."
+        },
+        {
+          "jp": "クックは オーストラリアの [[人|ひと]] に この どうぶつの [[名前|なまえ]] を しりたいと [[言|い]]いました。",
+          "vi": "Cook đã nói với người Australia rằng ông muốn biết tên của con vật này."
+        },
+        {
+          "jp": "オーストラリアの [[人|ひと]] は オーストラリアの ことばで「カンガルー」と [[言|い]]いました。",
+          "vi": "Người Australia đã nói “kangaroo” bằng ngôn ngữ của họ."
+        },
+        {
+          "jp": "ですから、クックは この どうぶつの [[名前|なまえ]] は 「カンガルー」だと おもいました。",
+          "vi": "Vì vậy Cook đã nghĩ rằng tên con vật này là “kangaroo”."
+        },
+        {
+          "jp": "それから この どうぶつの [[名前|なまえ]] は 「カンガルー」に なりました。",
+          "vi": "Từ đó tên của con vật này trở thành “kangaroo”."
+        },
+        {
+          "jp": "おもしろいです ね。",
+          "vi": "Thú vị nhỉ."
+        },
+        {
+          "jp": "ほんとうだと おもいますか。",
+          "vi": "Bạn có nghĩ là chuyện đó là thật không?"
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "topic": "Nhật ký",
+      "title": "1月1日の 日記",
+      "subtitle": "Một ngày đầu năm ở Kyoto cùng bạn bè.",
+      "summary": "Bài nhật ký kể lại chuyến đi đền ở Kyoto vào ngày đầu năm, sau đó là lúc trở về nhà và gọi điện cho gia đình ở Mỹ.",
+      "sentences": [
+        {
+          "jp": "[[1月1日|いちがつついたち]] [[金曜日|きんようび]] くもり。",
+          "vi": "Ngày 1 tháng 1, thứ sáu, trời nhiều mây."
+        },
+        {
+          "jp": "たなかくん、たかはしくんと いっしょに [[京都|きょうと]] の じんじゃへ [[行|い]]った。",
+          "vi": "Tôi đã cùng Tanaka và Takahashi đến một ngôi đền ở Kyoto."
+        },
+        {
+          "jp": "[[古|ふる]]くて、[[大|おお]]きい じんじゃだった。",
+          "vi": "Đó là một ngôi đền cổ và rất lớn."
+        },
+        {
+          "jp": "[[人|ひと]] が [[多|おお]]くて、にぎやかだった。",
+          "vi": "Rất đông người nên không khí rất nhộn nhịp."
+        },
+        {
+          "jp": "きものの [[女|おんな]] の [[人|ひと]] が たくさん いた。",
+          "vi": "Có rất nhiều phụ nữ mặc kimono."
+        },
+        {
+          "jp": "とても きれいだった。",
+          "vi": "Trông họ rất đẹp."
+        },
+        {
+          "jp": "たなかくんと たかはしくんは じんじゃの [[前|まえ]] の はこに [[お金|おかね]] を [[入|い]]れた。",
+          "vi": "Tanaka và Takahashi đã bỏ tiền vào chiếc hòm trước đền."
+        },
+        {
+          "jp": "それから みんなで しゃしんを とったり、おみやげを [[買|か]]ったり した。",
+          "vi": "Sau đó mọi người cùng chụp ảnh và mua quà lưu niệm."
+        },
+        {
+          "jp": "てんきは あまり よくなかったが、あたたかかった。",
+          "vi": "Thời tiết không được đẹp lắm nhưng vẫn ấm."
+        },
+        {
+          "jp": "うちへ [[帰|かえ]]ってから、アメリカの かぞくに [[電話|でんわ]] を かけた。",
+          "vi": "Sau khi về nhà, tôi đã gọi điện cho gia đình ở Mỹ."
+        },
+        {
+          "jp": "みんな げんきだった。",
+          "vi": "Mọi người đều khỏe."
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "topic": "Học tập",
+      "title": "としょかんと カフェの 一日",
+      "subtitle": "Một ngày đọc sách, đi cà phê và chuẩn bị cho kỳ thi.",
+      "summary": "Sinh viên đại học thường đi thư viện với bạn, đọc sách, mua sắm và chuẩn bị cho bài kiểm tra tuần sau.",
+      "sentences": [
+        {
+          "jp": "わたしは だいがくの [[学生|がくせい]] です。",
+          "vi": "Tôi là sinh viên đại học."
+        },
+        {
+          "jp": "[[毎週|まいしゅう]]、ともだちと としょかんへ [[行|い]]きます。",
+          "vi": "Mỗi tuần tôi đi thư viện cùng bạn."
+        },
+        {
+          "jp": "としょかんで [[本|ほん]] を [[読|よ]]みます。",
+          "vi": "Tôi đọc sách ở thư viện."
+        },
+        {
+          "jp": "わたしは どくしょが すきですから、[[時間|じかん]] が ある とき、よく [[行|い]]きます。",
+          "vi": "Vì tôi thích đọc sách nên khi có thời gian tôi thường đến đó."
+        },
+        {
+          "jp": "[[先週|せんしゅう]]、あたらしい [[本|ほん]] を さんさつ [[読|よ]]みました。",
+          "vi": "Tuần trước tôi đã đọc ba quyển sách mới."
+        },
+        {
+          "jp": "その [[本|ほん]] は とても おもしろかったです。",
+          "vi": "Những quyển sách đó rất thú vị."
+        },
+        {
+          "jp": "としょかんの あとで、ともだちと カフェへ [[行|い]]きました。",
+          "vi": "Sau thư viện, tôi đã đi quán cà phê với bạn."
+        },
+        {
+          "jp": "コーヒーと ケーキを [[食|た]]べました。",
+          "vi": "Chúng tôi đã dùng cà phê và bánh ngọt."
+        },
+        {
+          "jp": "カフェの おんがくは とても しずかで、いい じかんでした。",
+          "vi": "Nhạc ở quán rất nhẹ nhàng nên đó là khoảng thời gian rất dễ chịu."
+        },
+        {
+          "jp": "そして、スーパーで [[買い物|かいもの]] も しました。",
+          "vi": "Sau đó chúng tôi cũng đi mua sắm ở siêu thị."
+        },
+        {
+          "jp": "のみものと パンを [[買|か]]いました。",
+          "vi": "Tôi đã mua đồ uống và bánh mì."
+        },
+        {
+          "jp": "らいしゅうは テストが ありますから、こんしゅうは [[毎日|まいにち]] べんきょうします。",
+          "vi": "Vì tuần sau có bài kiểm tra nên tuần này tôi học mỗi ngày."
+        },
+        {
+          "jp": "でも、すこし [[休|やす]]みも [[大切|たいせつ]] だと おもいます。",
+          "vi": "Nhưng tôi nghĩ nghỉ ngơi một chút cũng rất quan trọng."
+        },
+        {
+          "jp": "だから、アニメを [[見|み]]て、リラックスします。",
+          "vi": "Vì vậy tôi xem anime để thư giãn."
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "topic": "Trường học",
+      "title": "にほんごの じゅぎょう",
+      "subtitle": "Học tiếng Nhật, xem phim và đi ăn sau giờ học.",
+      "summary": "Một sinh viên tiếng Nhật đi học, nói chuyện với giáo viên, xem phim với bạn và dành ngày mai để vừa chơi vừa học.",
+      "sentences": [
+        {
+          "jp": "わたしは にほんごの がくせいです。",
+          "vi": "Tôi là học viên tiếng Nhật."
+        },
+        {
+          "jp": "きょうは [[学校|がっこう]] へ [[行|い]]きます。",
+          "vi": "Hôm nay tôi đi đến trường."
+        },
+        {
+          "jp": "[[学校|がっこう]] で [[先生|せんせい]] と はなします。",
+          "vi": "Ở trường tôi nói chuyện với giáo viên."
+        },
+        {
+          "jp": "にほんごの じゅぎょうは とても たのしいです。",
+          "vi": "Giờ học tiếng Nhật rất vui."
+        },
+        {
+          "jp": "きのう、ともだちと えいがを [[見|み]]ました。",
+          "vi": "Hôm qua tôi đã xem phim với bạn."
+        },
+        {
+          "jp": "れんしゅうも しました。",
+          "vi": "Tôi cũng đã luyện tập."
+        },
+        {
+          "jp": "その えいがは すこし むずかしかったですが、おもしろかったです。",
+          "vi": "Bộ phim đó hơi khó nhưng rất thú vị."
+        },
+        {
+          "jp": "じゅぎょうの [[後|あと]] で、ともだちと レストランへ [[行|い]]きました。",
+          "vi": "Sau giờ học, tôi đã đi nhà hàng với bạn."
+        },
+        {
+          "jp": "ハンバーガーと ジュースを [[飲|の]]みました。",
+          "vi": "Tôi đã dùng hamburger và nước trái cây."
+        },
+        {
+          "jp": "レストランの りょうりは やすくて おいしかったです。",
+          "vi": "Đồ ăn ở nhà hàng vừa rẻ vừa ngon."
+        },
+        {
+          "jp": "そして、いえに [[帰|かえ]]りました。",
+          "vi": "Sau đó tôi về nhà."
+        },
+        {
+          "jp": "いえで おんがくを ききました。",
+          "vi": "Ở nhà tôi nghe nhạc."
+        },
+        {
+          "jp": "あしたは やすみの [[日|ひ]] ですから、ともだちと あそびます。",
+          "vi": "Vì ngày mai là ngày nghỉ nên tôi sẽ đi chơi với bạn."
+        },
+        {
+          "jp": "でも、すこし べんきょうも します。",
+          "vi": "Nhưng tôi cũng sẽ học một chút."
+        },
+        {
+          "jp": "にほんごは まだ むずかしいですが、[[毎日|まいにち]] がんばります。",
+          "vi": "Tiếng Nhật vẫn còn khó nhưng tôi cố gắng mỗi ngày."
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "topic": "Công việc",
+      "title": "しごとの あとの 時間",
+      "subtitle": "Một ngày làm việc với combini, sách và nghỉ ngơi buổi tối.",
+      "summary": "Sau giờ làm việc, người kể chuyện gặp bạn, đọc sách, ghé combini rồi về nhà xem tivi nghỉ ngơi.",
+      "sentences": [
+        {
+          "jp": "わたしは [[会社|かいしゃ]] で はたらきます。",
+          "vi": "Tôi làm việc ở công ty."
+        },
+        {
+          "jp": "きょう、ともだちと [[会|あ]]います。",
+          "vi": "Hôm nay tôi gặp bạn."
+        },
+        {
+          "jp": "しごとの あとで、[[本|ほん]] を [[読|よ]]みます。",
+          "vi": "Sau giờ làm tôi sẽ đọc sách."
+        },
+        {
+          "jp": "まだ へたですが、[[毎日|まいにち]] れんしゅうしています。",
+          "vi": "Tôi vẫn còn chưa giỏi nhưng ngày nào cũng luyện tập."
+        },
+        {
+          "jp": "ゆうがた、コンビニへ [[行|い]]きました。",
+          "vi": "Chiều tối tôi đã đi combini."
+        },
+        {
+          "jp": "パンと ミルクを [[買|か]]いました。",
+          "vi": "Tôi đã mua bánh mì và sữa."
+        },
+        {
+          "jp": "コンビニは べんりで、よく [[行|い]]きます。",
+          "vi": "Combini rất tiện nên tôi thường đến đó."
+        },
+        {
+          "jp": "よる、いえに [[帰|かえ]]りました。",
+          "vi": "Buổi tối tôi đã về nhà."
+        },
+        {
+          "jp": "テレビを [[見|み]]て、すこし [[休|やす]]みました。",
+          "vi": "Tôi xem tivi và nghỉ ngơi một chút."
+        },
+        {
+          "jp": "つかれましたが、いい いちにちでした。",
+          "vi": "Dù mệt nhưng đó là một ngày tốt đẹp."
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "topic": "Đại học",
+      "title": "大学と カラオケ",
+      "subtitle": "Học ở đại học, đi mua áo và hát karaoke với bạn.",
+      "summary": "Người kể chuyện học ở đại học, ghi chép từ vựng hằng ngày, đón bạn đến nhà học chung rồi đi mua sắm và hát karaoke.",
+      "sentences": [
+        {
+          "jp": "わたしは [[大学|だいがく]] で べんきょうしています。",
+          "vi": "Tôi đang học ở đại học."
+        },
+        {
+          "jp": "[[大学|だいがく]] は とても [[大|おお]]きいです。",
+          "vi": "Trường đại học rất lớn."
+        },
+        {
+          "jp": "ともだちと にほんごで [[話|はな]]します。",
+          "vi": "Tôi nói chuyện với bạn bằng tiếng Nhật."
+        },
+        {
+          "jp": "[[毎日|まいにち]] ノートに ことばを [[書|か]]いて、れんしゅうを しています。",
+          "vi": "Mỗi ngày tôi viết từ vựng vào vở để luyện tập."
+        },
+        {
+          "jp": "[[今日|きょう]]、ともだちが うちに [[来|き]]ました。",
+          "vi": "Hôm nay bạn tôi đã đến nhà."
+        },
+        {
+          "jp": "いっしょに べんきょうして、わからない ところを おしえました。",
+          "vi": "Chúng tôi cùng học và giải thích những chỗ chưa hiểu."
+        },
+        {
+          "jp": "とても たのしかったです。",
+          "vi": "Rất vui."
+        },
+        {
+          "jp": "その あと、デパートへ [[行|い]]きました。",
+          "vi": "Sau đó chúng tôi đã đi cửa hàng bách hóa."
+        },
+        {
+          "jp": "シャツを [[見|み]]て、いちまい [[買|か]]いました。",
+          "vi": "Tôi xem áo sơ mi và mua một chiếc."
+        },
+        {
+          "jp": "よるは カラオケで うたって、いい じかんを すごしました。",
+          "vi": "Buổi tối chúng tôi hát karaoke và trải qua khoảng thời gian rất vui."
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "topic": "Ẩm thực",
+      "title": "うちで 料理",
+      "subtitle": "Nấu ăn ở nhà rồi ăn cùng bạn bè.",
+      "summary": "Người kể chuyện nấu nhiều món ở nhà, ăn cùng bạn, trò chuyện và nghỉ ngơi thư thả.",
+      "sentences": [
+        {
+          "jp": "わたしは [[家|いえ]] で ごはんを つくります。",
+          "vi": "Tôi nấu cơm ở nhà."
+        },
+        {
+          "jp": "きょうは [[食|た]]べ[[物|もの]] を たくさん つくりました。",
+          "vi": "Hôm nay tôi đã làm rất nhiều món ăn."
+        },
+        {
+          "jp": "やさいと にくを つかって、かんたんな りょうりを しました。",
+          "vi": "Tôi dùng rau và thịt để nấu những món đơn giản."
+        },
+        {
+          "jp": "ともだちと いっしょに [[食|た]]べました。",
+          "vi": "Tôi đã ăn cùng bạn."
+        },
+        {
+          "jp": "とても おいしかったです。",
+          "vi": "Món ăn rất ngon."
+        },
+        {
+          "jp": "あとで、[[飲み物|のみもの]] を [[飲|の]]みながら いろいろな はなしを しました。",
+          "vi": "Sau đó chúng tôi vừa uống nước vừa trò chuyện đủ thứ."
+        },
+        {
+          "jp": "スーパーで チョコを [[買|か]]って、すこし [[食|た]]べました。",
+          "vi": "Tôi mua sô-cô-la ở siêu thị rồi ăn một ít."
+        },
+        {
+          "jp": "ゆっくり やすむ じかんも [[大切|たいせつ]] だと おもいます。",
+          "vi": "Tôi nghĩ thời gian nghỉ ngơi thong thả cũng rất quan trọng."
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "topic": "Kế hoạch",
+      "title": "にほんへ 行きたいです",
+      "subtitle": "Bận rộn vì bài kiểm tra nhưng vẫn có thời gian đi ăn với bạn.",
+      "summary": "Người kể chuyện muốn sang Nhật vào năm sau, đang bận học cho kỳ thi và có một buổi ăn ở nhà hàng khách sạn với bạn.",
+      "sentences": [
+        {
+          "jp": "わたしは [[来年|らいねん]] にほんへ [[行|い]]きたいです。",
+          "vi": "Năm sau tôi muốn đi Nhật Bản."
+        },
+        {
+          "jp": "[[来月|らいげつ]]、テストが ありますから、いま とても いそがしいです。",
+          "vi": "Vì tháng sau có bài kiểm tra nên bây giờ tôi rất bận."
+        },
+        {
+          "jp": "[[来週|らいしゅう]] も べんきょうの よていが あります。",
+          "vi": "Tuần sau tôi cũng có kế hoạch học tập."
+        },
+        {
+          "jp": "きょう、ともだちと [[会|あ]]いました。",
+          "vi": "Hôm nay tôi đã gặp bạn."
+        },
+        {
+          "jp": "いっしょに ホテルの レストランへ [[行|い]]きました。",
+          "vi": "Chúng tôi đã cùng đi đến nhà hàng trong khách sạn."
+        },
+        {
+          "jp": "パスタと サラダを [[食|た]]べて、たのしい じかんを すごしました。",
+          "vi": "Chúng tôi ăn pasta và salad rồi trải qua một khoảng thời gian vui vẻ."
+        },
+        {
+          "jp": "ホテルは とても きれいで、しずかでした。",
+          "vi": "Khách sạn rất đẹp và yên tĩnh."
+        },
+        {
+          "jp": "すこし たかいですが、また [[行|い]]きたいと おもいます。",
+          "vi": "Dù hơi đắt nhưng tôi vẫn muốn quay lại lần nữa."
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "topic": "Du lịch",
+      "title": "東京へ 行った とき",
+      "subtitle": "Một chuyến đi Tokyo với Akihabara, cửa hàng bách hóa và quán cà phê nổi tiếng.",
+      "summary": "Bài đọc kể lại chuyến đi Tokyo vào tháng ba năm ngoái, mua sắm ở Akihabara và ăn ở quán cà phê nổi tiếng.",
+      "sentences": [
+        {
+          "jp": "きょねんの [[3月|さんがつ]]、[[東京|とうきょう]] へ [[行|い]]きました。",
+          "vi": "Vào tháng 3 năm ngoái, tôi đã đi Tokyo."
+        },
+        {
+          "jp": "[[東京|とうきょう]] は [[大|おお]]きい まちでした。",
+          "vi": "Tokyo là một thành phố lớn."
+        },
+        {
+          "jp": "たかい ビルや ホテルが たくさん ありました。",
+          "vi": "Có rất nhiều tòa nhà cao tầng và khách sạn."
+        },
+        {
+          "jp": "そして、[[人|ひと]] が おおかったです。",
+          "vi": "Hơn nữa còn có rất đông người."
+        },
+        {
+          "jp": "みどりは あまり なかったですが、まちは とても きれいでした。",
+          "vi": "Cây xanh không nhiều lắm nhưng thành phố rất sạch đẹp."
+        },
+        {
+          "jp": "あきはばらの デパートで [[買い物|かいもの]] しました。",
+          "vi": "Tôi đã mua sắm ở cửa hàng bách hóa tại Akihabara."
+        },
+        {
+          "jp": "それから、にんきの カフェで ごはんを [[食|た]]べました。",
+          "vi": "Sau đó tôi ăn ở một quán cà phê nổi tiếng."
+        },
+        {
+          "jp": "とても おいしかったです。",
+          "vi": "Món ăn rất ngon."
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "topic": "Du lịch",
+      "title": "ベトナムの りょこう",
+      "subtitle": "Đi Đà Nẵng, thăm chùa nổi tiếng và muốn đến Huế lần sau.",
+      "summary": "Người kể chuyện sang Việt Nam vào tháng chín, gặp bạn ở Đà Nẵng và muốn đến Huế trong chuyến sau.",
+      "sentences": [
+        {
+          "jp": "わたしは [[今年|ことし]] の [[9月|くがつ]] に ベトナムへ [[行|い]]きました。",
+          "vi": "Năm nay vào tháng 9 tôi đã đi Việt Nam."
+        },
+        {
+          "jp": "ダナンで ともだちに [[会|あ]]いました。",
+          "vi": "Tôi đã gặp bạn ở Đà Nẵng."
+        },
+        {
+          "jp": "それから、いっしょに ゆうめいな おてらへ [[行|い]]きました。",
+          "vi": "Sau đó chúng tôi cùng đi đến một ngôi chùa nổi tiếng."
+        },
+        {
+          "jp": "とても きれいでした。",
+          "vi": "Nơi đó rất đẹp."
+        },
+        {
+          "jp": "おいしい [[食|た]]べ[[物|もの]] も たくさん [[食|た]]べました。",
+          "vi": "Tôi cũng đã ăn rất nhiều món ngon."
+        },
+        {
+          "jp": "[[時間|じかん]] が あまり ありませんでしたから、フエへ [[行|い]]きませんでした。",
+          "vi": "Vì không có nhiều thời gian nên tôi đã không đi Huế."
+        },
+        {
+          "jp": "こんど フエへ [[行|い]]きたいです。",
+          "vi": "Lần tới tôi muốn đến Huế."
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "topic": "Sự kiện",
+      "title": "学校の パーティー",
+      "subtitle": "Một bữa tiệc nhộn nhịp với nhiều món ăn quốc tế.",
+      "summary": "Bài đọc nói về bữa tiệc ở trường với sinh viên từ đại học gần đó và nhiều món ăn của các nước khác nhau.",
+      "sentences": [
+        {
+          "jp": "[[先週|せんしゅう]] の [[日曜日|にちようび]]、[[学校|がっこう]] で パーティーが ありました。",
+          "vi": "Chủ nhật tuần trước, ở trường đã có một bữa tiệc."
+        },
+        {
+          "jp": "とても にぎやかでした。",
+          "vi": "Không khí rất nhộn nhịp."
+        },
+        {
+          "jp": "[[人|ひと]] が おおかったです。",
+          "vi": "Có rất đông người."
+        },
+        {
+          "jp": "ちかくの [[大学|だいがく]] の [[学生|がくせい]] も あそびに [[来|き]]ました。",
+          "vi": "Sinh viên của trường đại học gần đó cũng đến chơi."
+        },
+        {
+          "jp": "いろいろな [[国|くに]] の りょうりが ありました。",
+          "vi": "Có các món ăn của nhiều quốc gia khác nhau."
+        },
+        {
+          "jp": "[[日本|にほん]] の ラーメンや タイの トムヤム など です。",
+          "vi": "Ví dụ như ramen của Nhật và tom yum của Thái."
+        },
+        {
+          "jp": "わたしは おこのみやきを [[食|た]]べました。",
+          "vi": "Tôi đã ăn okonomiyaki."
+        },
+        {
+          "jp": "ジュースも [[飲|の]]みました。",
+          "vi": "Tôi cũng đã uống nước trái cây."
+        },
+        {
+          "jp": "とても おいしかったです。",
+          "vi": "Rất ngon."
+        },
+        {
+          "jp": "たのしい [[一日|いちにち]] でした。",
+          "vi": "Đó là một ngày rất vui."
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "topic": "Gia đình",
+      "title": "週末の えいが",
+      "subtitle": "Đi xem phim với gia đình rồi ghé quán cà phê và mua sắm.",
+      "summary": "Cuối tuần, người kể chuyện đi xem phim cùng gia đình, uống cà phê và mua sắm sau buổi chiếu.",
+      "sentences": [
+        {
+          "jp": "[[週末|しゅうまつ]]、かぞくと えいがを [[見|み]]ました。",
+          "vi": "Cuối tuần tôi đã xem phim cùng gia đình."
+        },
+        {
+          "jp": "あさ、[[10時半|じゅうじはん]] に えいがかんへ [[行|い]]きました。",
+          "vi": "Buổi sáng, lúc 10 giờ rưỡi tôi đã đi đến rạp chiếu phim."
+        },
+        {
+          "jp": "わたしは ホラーえいがが すきですが、『スパイダーマン』を [[見|み]]ました。",
+          "vi": "Tôi thích phim kinh dị nhưng hôm đó đã xem Spider-Man."
+        },
+        {
+          "jp": "えいがは とても おもしろかったです。",
+          "vi": "Bộ phim rất thú vị."
+        },
+        {
+          "jp": "それから カフェで コーヒーを [[飲|の]]みました。",
+          "vi": "Sau đó tôi uống cà phê ở quán."
+        },
+        {
+          "jp": "[[買い物|かいもの]] も しました。",
+          "vi": "Tôi cũng đi mua sắm."
+        },
+        {
+          "jp": "とても たのしい [[一日|いちにち]] でした。",
+          "vi": "Đó là một ngày rất vui."
+        }
+      ]
+    }
+  ]
+}

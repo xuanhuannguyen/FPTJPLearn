@@ -1,11 +1,19 @@
 type GrammarStructureProps = {
   structure?: string;
   small?: boolean;
+  tone?: 'light' | 'dark';
 };
 
-const tokenPattern = /(\b(?:N\d*|V\d*|Ai?\d*|Aな\d*|S\d*|Noun\d*|Verb\d*|Adj\d*|Adjective\d*|Thể-TT)\b)/g;
+const tokenPattern = /(\b(?:V stem|Verb stem|N\d*|V\d*|Ai?\d*|Aな\d*|S\d*|Noun\d*|Verb\d*|Adj\d*|Adjective\d*|Thể-TT)\b)/g;
 
 const getTokenMeta = (part: string) => {
+  if (/^(?:V stem|Verb stem)$/.test(part)) {
+    return {
+      className: 'bg-emerald-50 text-emerald-600 border-emerald-200 px-2',
+      label: 'V stem',
+    };
+  }
+
   if (/^(?:N\d*|Noun\d*)$/.test(part)) {
     return {
       className: 'bg-blue-50 text-blue-600 border-blue-200',
@@ -62,7 +70,7 @@ const getTokenMeta = (part: string) => {
   return null;
 };
 
-export const GrammarStructure = ({ structure, small = false }: GrammarStructureProps) => {
+export const GrammarStructure = ({ structure, small = false, tone = 'light' }: GrammarStructureProps) => {
   if (!structure) {
     return null;
   }
@@ -79,7 +87,11 @@ export const GrammarStructure = ({ structure, small = false }: GrammarStructureP
           return (
             <span
               key={`${part}-${index}`}
-              className={small ? 'text-sm font-bold text-text-secondary' : 'text-2xl font-black text-text-primary'}
+              className={
+                small
+                  ? `text-sm font-bold ${tone === 'dark' ? 'text-slate-300' : 'text-text-secondary'}`
+                  : `text-2xl font-black ${tone === 'dark' ? 'text-white' : 'text-text-primary'}`
+              }
             >
               {part}
             </span>

@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 export const apiClient = axios.create({
-  baseURL: 'http://localhost:5000/api', // .NET API URL
+  baseURL: import.meta.env.VITE_API_BASE_URL ?? '/api',
   headers: {
     'Content-Type': 'application/json',
   },
@@ -14,6 +14,10 @@ apiClient.interceptors.request.use(
     // if (token) {
     //   config.headers.Authorization = `Bearer ${token}`;
     // }
+    const adminKey = localStorage.getItem('jplearn_admin_key');
+    if (adminKey) {
+      config.headers['X-Admin-Key'] = adminKey;
+    }
     return config;
   },
   (error) => Promise.reject(error)

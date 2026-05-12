@@ -1,0 +1,510 @@
+[
+  {
+    "lessonNumber": 1,
+    "lessonTitle": "Giới thiệu bản thân và Trường học",
+    "vocabulary": [
+      {
+        "word": "私",
+        "reading": "わたし",
+        "meaning": "tôi"
+      },
+      {
+        "word": "人",
+        "reading": "ひと",
+        "meaning": "Con người"
+      },
+      {
+        "word": "あの人",
+        "reading": "あのひと",
+        "meaning": "Người kia"
+      },
+      {
+        "word": "2才",
+        "reading": "にさい",
+        "meaning": "2 tuổi"
+      },
+      {
+        "word": "8才",
+        "reading": "はっさい",
+        "meaning": "8 tuổi"
+      },
+      {
+        "word": "何才",
+        "reading": "なんさい",
+        "meaning": "Mấy tuổi"
+      },
+      {
+        "word": "大学",
+        "reading": "だいがく",
+        "meaning": "Đại học"
+      },
+      {
+        "word": "学生",
+        "reading": "がくせい",
+        "meaning": "Học sinh"
+      },
+      {
+        "word": "先生",
+        "reading": "せんせい",
+        "meaning": "Thầy/cô giáo"
+      },
+      {
+        "word": "学校",
+        "reading": "がっこう",
+        "meaning": "Trường học"
+      },
+      {
+        "word": "10日",
+        "reading": "とおか",
+        "meaning": "Mùng 10"
+      },
+      {
+        "word": "日曜日",
+        "reading": "にちようび",
+        "meaning": "Chủ nhật"
+      },
+      {
+        "word": "日",
+        "reading": "ひ",
+        "meaning": "Ngày"
+      },
+      {
+        "word": "休日",
+        "reading": "きゅうじつ",
+        "meaning": "Ngày nghỉ"
+      },
+      {
+        "word": "本",
+        "reading": "ほん",
+        "meaning": "sách"
+      },
+      {
+        "word": "日本",
+        "reading": "にほん",
+        "meaning": "Nhật Bản"
+      },
+      {
+        "word": "日本人",
+        "reading": "にほんじん",
+        "meaning": "Người Nhật Bản"
+      },
+      {
+        "word": "日本語",
+        "reading": "にほんご",
+        "meaning": "Tiếng Nhật"
+      },
+      {
+        "word": "ベトナム語",
+        "reading": "ベトナムご",
+        "meaning": "Tiếng Việt"
+      },
+      {
+        "word": "～人",
+        "reading": "〜じん",
+        "meaning": "người (nước ~)"
+      }
+    ]
+  },
+  {
+    "lessonNumber": 2,
+    "lessonTitle": "Số đếm và Đơn vị tiền tệ",
+    "vocabulary": [
+      {
+        "word": "一日",
+        "reading": "ついたち",
+        "meaning": "Ngày mồng 1"
+      },
+      {
+        "word": "一月",
+        "reading": "いちがつ",
+        "meaning": "tháng 1"
+      },
+      {
+        "word": "一人",
+        "reading": "ひとり",
+        "meaning": "1 người"
+      },
+      {
+        "word": "一つ",
+        "reading": "ひとつ",
+        "meaning": "1 chiếc"
+      },
+      {
+        "word": "一",
+        "reading": "いち",
+        "meaning": "Số 1"
+      },
+      {
+        "word": "二日",
+        "reading": "ふつか",
+        "meaning": "Ngày mồng 2"
+      },
+      {
+        "word": "二月",
+        "reading": "にがつ",
+        "meaning": "Tháng 2"
+      },
+      {
+        "word": "二つ",
+        "reading": "ふたつ",
+        "meaning": "2 cái"
+      },
+      {
+        "word": "二",
+        "reading": "に",
+        "meaning": "Số 2"
+      },
+      {
+        "word": "三日",
+        "reading": "みっか",
+        "meaning": "Ngày mồng 3"
+      },
+      {
+        "word": "三月",
+        "reading": "さんがつ",
+        "meaning": "tháng 3"
+      },
+      {
+        "word": "三人",
+        "reading": "さんにん",
+        "meaning": "3 người"
+      },
+      {
+        "word": "三",
+        "reading": "さん",
+        "meaning": "Số 3"
+      },
+      {
+        "word": "四日",
+        "reading": "よっか",
+        "meaning": "Ngày mồng 4"
+      },
+      {
+        "word": "四月",
+        "reading": "しがつ",
+        "meaning": "tháng 4"
+      },
+      {
+        "word": "四人",
+        "reading": "よにん",
+        "meaning": "4 người"
+      },
+      {
+        "word": "四",
+        "reading": "よん",
+        "meaning": "Số 4"
+      },
+      {
+        "word": "五日",
+        "reading": "いつか",
+        "meaning": "Ngày mồng 5"
+      },
+      {
+        "word": "五月",
+        "reading": "ごがつ",
+        "meaning": "tháng 5"
+      },
+      {
+        "word": "五つ",
+        "reading": "いつつ",
+        "meaning": "5 cái"
+      },
+      {
+        "word": "五",
+        "reading": "ご",
+        "meaning": "Số 5"
+      },
+      {
+        "word": "六日",
+        "reading": "むいか",
+        "meaning": "Ngày mồng 6"
+      },
+      {
+        "word": "六月",
+        "reading": "ろくがつ",
+        "meaning": "tháng 6"
+      },
+      {
+        "word": "六つ",
+        "reading": "むっつ",
+        "meaning": "6 cái"
+      },
+      {
+        "word": "六",
+        "reading": "ろく",
+        "meaning": "Số 6"
+      },
+      {
+        "word": "七日",
+        "reading": "なのか",
+        "meaning": "Ngày mồng 7"
+      },
+      {
+        "word": "七月",
+        "reading": "しちがつ",
+        "meaning": "tháng 7"
+      },
+      {
+        "word": "七つ",
+        "reading": "ななつ",
+        "meaning": "7 cái"
+      },
+      {
+        "word": "七",
+        "reading": "なな/しち",
+        "meaning": "Số 7"
+      },
+      {
+        "word": "八日",
+        "reading": "ようか",
+        "meaning": "Ngày mồng 8"
+      },
+      {
+        "word": "八月",
+        "reading": "はちがつ",
+        "meaning": "Tháng 8"
+      },
+      {
+        "word": "八つ",
+        "reading": "やっつ",
+        "meaning": "8 cái"
+      },
+      {
+        "word": "八",
+        "reading": "はち",
+        "meaning": "Số 8"
+      },
+      {
+        "word": "九日",
+        "reading": "ここのか",
+        "meaning": "Ngày mồng 9"
+      },
+      {
+        "word": "九月",
+        "reading": "くがつ",
+        "meaning": "tháng 9"
+      },
+      {
+        "word": "九つ",
+        "reading": "ここのつ",
+        "meaning": "9 cái"
+      },
+      {
+        "word": "九",
+        "reading": "きゅう",
+        "meaning": "Số 9"
+      },
+      {
+        "word": "十日",
+        "reading": "とおka",
+        "meaning": "Ngày mồng 10"
+      },
+      {
+        "word": "十月",
+        "reading": "じゅうがつ",
+        "meaning": "tháng 10"
+      },
+      {
+        "word": "十",
+        "reading": "じゅう",
+        "meaning": "Số 10"
+      },
+      {
+        "word": "二百",
+        "reading": "にひゃく",
+        "meaning": "200"
+      },
+      {
+        "word": "三百",
+        "reading": "さんびゃく",
+        "meaning": "300"
+      },
+      {
+        "word": "六百",
+        "reading": "ろっぴゃく",
+        "meaning": "600"
+      },
+      {
+        "word": "八百",
+        "reading": "はっぴゃく",
+        "meaning": "800"
+      },
+      {
+        "word": "千",
+        "reading": "せん",
+        "meaning": "1000"
+      },
+      {
+        "word": "三千",
+        "reading": "さんぜん",
+        "meaning": "3000"
+      },
+      {
+        "word": "八千",
+        "reading": "はっせん",
+        "meaning": "8000"
+      },
+      {
+        "word": "一万",
+        "reading": "いちまん",
+        "meaning": "10.000"
+      },
+      {
+        "word": "百円",
+        "reading": "ひゃくえん",
+        "meaning": "100Yên"
+      },
+      {
+        "word": "一万円",
+        "reading": "いちまんえん",
+        "meaning": "10.000Yên"
+      }
+    ]
+  },
+  {
+    "lessonNumber": 3,
+    "lessonTitle": "Thời gian và Ngày trong tuần",
+    "vocabulary": [
+      {
+        "word": "月",
+        "reading": "つき",
+        "meaning": "mặt trăng"
+      },
+      {
+        "word": "一月",
+        "reading": "いちがつ",
+        "meaning": "Tháng 1"
+      },
+      {
+        "word": "十二月",
+        "reading": "じゅうにがつ",
+        "meaning": "Tháng 12"
+      },
+      {
+        "word": "月曜日",
+        "reading": "げつようび",
+        "meaning": "Thứ 2"
+      },
+      {
+        "word": "花火",
+        "reading": "はなび",
+        "meaning": "pháo hoa"
+      },
+      {
+        "word": "火",
+        "reading": "ひ",
+        "meaning": "lửa"
+      },
+      {
+        "word": "火曜日",
+        "reading": "かようび",
+        "meaning": "Thứ 3"
+      },
+      {
+        "word": "水",
+        "reading": "みず",
+        "meaning": "nước"
+      },
+      {
+        "word": "水曜日",
+        "reading": "すいようび",
+        "meaning": "Thứ 4"
+      },
+      {
+        "word": "木",
+        "reading": "き",
+        "meaning": "Cây"
+      },
+      {
+        "word": "木曜日",
+        "reading": "もくようび",
+        "meaning": "Thứ 5"
+      },
+      {
+        "word": "お金",
+        "reading": "おかね",
+        "meaning": "tiền"
+      },
+      {
+        "word": "金曜日",
+        "reading": "きんようび",
+        "meaning": "Thứ 6"
+      },
+      {
+        "word": "土",
+        "reading": "つち",
+        "meaning": "Đất"
+      },
+      {
+        "word": "土曜日",
+        "reading": "どようび",
+        "meaning": "Thứ 7"
+      },
+      {
+        "word": "何",
+        "reading": "なん/なに",
+        "meaning": "Cái gì"
+      },
+      {
+        "word": "何月",
+        "reading": "なんがつ",
+        "meaning": "tháng mấy"
+      },
+      {
+        "word": "何人",
+        "reading": "なんにん",
+        "meaning": "mấy người"
+      },
+      {
+        "word": "何曜日",
+        "reading": "なんようび",
+        "meaning": "Thứ mấy"
+      },
+      {
+        "word": "何年",
+        "reading": "なんねん",
+        "meaning": "Năm bao nhiêu"
+      },
+      {
+        "word": "今年",
+        "reading": "ことし",
+        "meaning": "Năm nay"
+      },
+      {
+        "word": "九時",
+        "reading": "くじ",
+        "meaning": "9 giờ"
+      },
+      {
+        "word": "何時",
+        "reading": "なんじ",
+        "meaning": "Mấy giờ"
+      },
+      {
+        "word": "時間",
+        "reading": "じかん",
+        "meaning": "Thời gian"
+      },
+      {
+        "word": "何時間",
+        "reading": "なんじかん",
+        "meaning": "Mấy tiếng"
+      },
+      {
+        "word": "分かります",
+        "reading": "わかります",
+        "meaning": "Hiểu"
+      },
+      {
+        "word": "半分",
+        "reading": "はんぶん",
+        "meaning": "1/2"
+      },
+      {
+        "word": "六分",
+        "reading": "ろっぷん",
+        "meaning": "6 phút"
+      }
+    ]
+  }
+]

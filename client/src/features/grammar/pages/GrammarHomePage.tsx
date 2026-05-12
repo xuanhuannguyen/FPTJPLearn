@@ -3,45 +3,23 @@ import { Link } from 'react-router-dom';
 import { grammarApi } from '../api/grammarApi';
 import type { GrammarLevelSummary, GrammarLevel } from '../types/grammar.types';
 
-const levels: { level: GrammarLevel; title: string; jpTitle: string; subtitle: string; colorTop: string; colorBottom: string }[] = [
+const courses: { courseCode: string; level: GrammarLevel; title: string; jpTitle: string; subtitle: string; colorTop: string; colorBottom: string }[] = [
   { 
+    courseCode: 'jpd113',
     level: 'N5', 
-    jpTitle: 'みんなの日本語 初級I 第2版',
-    title: 'N5', 
-    subtitle: 'Minna no Nihongo Sơ cấp 1 – Ngữ pháp',
+    jpTitle: 'JPD113 - Japanese 1',
+    title: 'JPD113', 
+    subtitle: 'Minna no Nihongo Sơ cấp 1 – Ngữ pháp (N5)',
     colorTop: 'bg-[#e5e1da]',
     colorBottom: 'bg-[#2d9a56]'
   },
   { 
-    level: 'N4', 
-    jpTitle: 'みんなの日本語 初級II 第2版',
-    title: 'N4', 
-    subtitle: 'Minna no Nihongo Sơ cấp 2 – Ngữ pháp',
-    colorTop: 'bg-[#94bfa7]',
-    colorBottom: 'bg-[#2d9a56]'
-  },
-  { 
-    level: 'N3', 
-    jpTitle: 'みんなの日本語 中級I 第2版',
-    title: 'N3', 
-    subtitle: 'Minna no Nihongo Trung cấp 1 – Ngữ pháp',
+    courseCode: 'jpd123',
+    level: 'N5', 
+    jpTitle: 'JPD123 - Japanese 2',
+    title: 'JPD123', 
+    subtitle: 'N5 Nâng cao – Ngữ pháp (N5)',
     colorTop: 'bg-[#b8d4e3]',
-    colorBottom: 'bg-[#2d9a56]'
-  },
-  { 
-    level: 'N2', 
-    jpTitle: 'みんなの日本語 中級II 第2版',
-    title: 'N2', 
-    subtitle: 'Minna no Nihongo Trung cấp 2 – Ngữ pháp',
-    colorTop: 'bg-[#d6cbd3]',
-    colorBottom: 'bg-[#2d9a56]'
-  },
-  { 
-    level: 'N1', 
-    jpTitle: '上級で学ぶ日本語',
-    title: 'N1', 
-    subtitle: 'Tiếng Nhật Thượng cấp – Ngữ pháp',
-    colorTop: 'bg-[#cbd5e1]',
     colorBottom: 'bg-[#2d9a56]'
   }
 ];
@@ -113,13 +91,13 @@ export const GrammarHomePage = () => {
 
       {/* Levels Grid */}
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-3">
-        {levels.map((item) => {
-          const summary = summaries.find(s => s.level === item.level);
+        {courses.map((item) => {
+          const summary = summaries.find(s => s.courseCode.toLowerCase() === item.courseCode.toLowerCase());
 
           return (
             <Link 
-              key={item.level}
-              to={`/grammar/${item.level}`}
+              key={item.courseCode}
+              to={`/grammar/${item.level}?course=${item.courseCode}`}
               className="group overflow-hidden rounded-xl border-2 border-border/10 shadow-sm transition-all hover:-translate-y-0.5 hover:shadow-md"
             >
               {/* Top Section */}
@@ -128,7 +106,7 @@ export const GrammarHomePage = () => {
                   {item.jpTitle}
                 </span>
                 <span className="text-3xl font-black text-text-primary tracking-tighter">
-                  {item.level}
+                  {item.title}
                 </span>
               </div>
 

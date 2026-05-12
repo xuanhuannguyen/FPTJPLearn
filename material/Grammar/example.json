@@ -1,0 +1,32 @@
+{
+    "level": "N5", // Cấp độ (N5, N4...)
+    "lessonNumber": 1,
+    "lessonTitle": "Trợ từ cơ bản và Câu danh từ",
+    "patterns": [
+        {
+            "pattern": "～は～です", // Mẫu ngữ pháp gốc
+            "title": "Cấu trúc khẳng định với です", // Tiêu đề ngắn gọn
+            "meaning": "Là...", // Nghĩa tiếng Việt
+            "structure": "N1 は N2 です", // Cấu trúc tổng quát
+            "formation": "Danh từ + は + Danh từ + です", // Cách hình thành/chia
+            "usageScope": "Dùng trong câu khẳng định, giới thiệu tên, nghề nghiệp...", // Phạm vi sử dụng
+            "notes": "Trợ từ は đọc là 'wa'", // Ghi chú quan trọng
+            "orderIndex": 1,
+            "examples": [
+                {
+                    "japanese": "私は学生です。", // Câu ví dụ bằng tiếng Nhật
+                    "reading": "わたしはがくせいです。", // Cách đọc Hiragana
+                    "meaning": "Tôi là sinh viên.", // Nghĩa tiếng Việt
+                    "note": "Giới thiệu bản thân", // Ghi chú cho ví dụ (tùy chọn)
+                    "orderIndex": 1
+                },
+                {
+                    "japanese": "彼は日本人です。",
+                    "reading": "かれはにほんじんです。",
+                    "meaning": "Anh ấy là người Nhật.",
+                    "orderIndex": 2
+                }
+            ]
+        }
+    ]
+}

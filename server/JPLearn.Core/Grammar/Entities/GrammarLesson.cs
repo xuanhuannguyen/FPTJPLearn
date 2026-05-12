@@ -10,6 +10,7 @@ public class GrammarLesson : BaseEntity
     public string? Description { get; set; }
     public string AccessTier { get; set; } = GrammarAccessTiers.Free;
     public string? PackageCode { get; set; }
+    public string CourseCode { get; set; } = string.Empty;
     public int OrderIndex { get; set; }
 
     public ICollection<GrammarPattern> Patterns { get; set; } = new List<GrammarPattern>();

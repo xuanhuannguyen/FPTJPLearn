@@ -21,6 +21,9 @@ export interface MemorySummary {
 export interface MemoryCard {
   id: string;
   itemType: MemoryItemType;
+  sourceKanjiItemId?: string | null;
+  sourceGrammarPatternId?: string | null;
+  sourceVocabularyItemId?: string | null;
   frontPrimary: string;
   frontSecondary?: string;
   frontMeta?: string;
@@ -68,4 +71,9 @@ export interface MemoryAnswerResult {
   requeueInSession: boolean;
   requeueAfterSeconds?: number;
   message: string;
+}
+
+export interface ResetMemoryResult {
+  success: boolean;
+  count: number;
 }

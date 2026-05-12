@@ -1,6 +1,7 @@
 using JPLearn.Core.Grammar;
 using JPLearn.Core.Grammar.DTOs;
 using JPLearn.Core.Grammar.Entities;
+using JPLearn.Core.Payments;
 using JPLearn.Core.Review;
 using JPLearn.Infrastructure.Data;
 using Microsoft.EntityFrameworkCore;
@@ -11,10 +12,12 @@ namespace JPLearn.Infrastructure.Services;
 public class GrammarService : IGrammarService
 {
     private readonly AppDbContext _db;
+    private readonly IPaymentAccessService _paymentAccess;
 
-    public GrammarService(AppDbContext db)
+    public GrammarService(AppDbContext db, IPaymentAccessService paymentAccess)
     {
         _db = db;
+        _paymentAccess = paymentAccess;
     }
 
     public async Task<List<GrammarLevelDto>> GetLevelsAsync(Guid userId)
@@ -24,12 +27,12 @@ public class GrammarService : IGrammarService
             .ThenInclude(pattern => pattern.ProgressRecords.Where(progress => progress.UserId == userId))
             .ToListAsync();
 
-        return GrammarLevels.All
-            .Select(level =>
+        return lessons
+            .GroupBy(l => l.CourseCode)
+            .Select(group =>
             {
-                var levelLessons = lessons
-                    .Where(lesson => lesson.Level == level)
-                    .ToList();
+                var levelLessons = group.ToList();
+                var firstLesson = levelLessons.First();
                 var patterns = levelLessons
                     .SelectMany(lesson => lesson.Patterns)
                     .ToList();
@@ -40,7 +43,8 @@ public class GrammarService : IGrammarService
 
                 return new GrammarLevelDto
                 {
-                    Level = level,
+                    Level = firstLesson.Level,
+                    CourseCode = group.Key,
                     LessonCount = levelLessons.Count,
                     PatternCount = patterns.Count,
                     FreeCount = patterns.Count(pattern => ResolveAccessTier(pattern) == GrammarAccessTiers.Free),
@@ -50,10 +54,12 @@ public class GrammarService : IGrammarService
                     DueCount = progress.Count(item => item.NextReviewAt <= DateTime.UtcNow)
                 };
             })
+            .OrderBy(dto => dto.Level)
+            .ThenBy(dto => dto.CourseCode)
             .ToList();
     }
 
-    public async Task<List<GrammarLessonDto>?> GetLessonsByLevelAsync(Guid userId, string level)
+    public async Task<List<GrammarLessonDto>?> GetLessonsByLevelAsync(Guid userId, string level, string? courseCode = null)
     {
         if (!GrammarLevels.IsValid(level))
         {
@@ -61,15 +67,23 @@ public class GrammarService : IGrammarService
         }
 
         var normalizedLevel = GrammarLevels.Normalize(level);
-        var lessons = await _db.GrammarLessons
+        var query = _db.GrammarLessons
             .Include(lesson => lesson.Patterns)
             .ThenInclude(pattern => pattern.ProgressRecords.Where(progress => progress.UserId == userId))
-            .Where(lesson => lesson.Level == normalizedLevel)
+            .Where(lesson => lesson.Level == normalizedLevel);
+
+        if (!string.IsNullOrWhiteSpace(courseCode))
+        {
+            var normalizedCourse = courseCode.Trim().ToLowerInvariant();
+            query = query.Where(lesson => lesson.CourseCode.ToLower() == normalizedCourse);
+        }
+
+        var lessons = await query
             .OrderBy(lesson => lesson.OrderIndex)
             .ThenBy(lesson => lesson.LessonNumber)
             .ToListAsync();
 
-        return lessons.Select(MapLesson).ToList();
+        return lessons.Select(lesson => MapLesson(userId, lesson)).ToList();
     }
 
     public async Task<GrammarLessonDto?> GetLessonAsync(Guid userId, Guid lessonId)
@@ -79,7 +93,7 @@ public class GrammarService : IGrammarService
             .ThenInclude(pattern => pattern.ProgressRecords.Where(progress => progress.UserId == userId))
             .FirstOrDefaultAsync(item => item.Id == lessonId);
 
-        return lesson == null ? null : MapLesson(lesson);
+        return lesson == null ? null : MapLesson(userId, lesson);
     }
 
     public async Task<List<GrammarPatternDto>?> GetLessonPatternsAsync(Guid userId, Guid lessonId)
@@ -138,7 +152,7 @@ public class GrammarService : IGrammarService
         return patterns.Select(pattern => MapPattern(pattern, userId)).ToList();
     }
 
-    private static GrammarLessonDto MapLesson(GrammarLesson lesson)
+    private GrammarLessonDto MapLesson(Guid userId, GrammarLesson lesson)
     {
         var progress = lesson.Patterns
             .SelectMany(pattern => pattern.ProgressRecords)
@@ -154,7 +168,8 @@ public class GrammarService : IGrammarService
             Description = lesson.Description,
             AccessTier = lesson.AccessTier,
             PackageCode = lesson.PackageCode,
-            IsLocked = false,
+            CourseCode = lesson.CourseCode,
+            IsLocked = _paymentAccess.IsContentLocked(userId, lesson.AccessTier, lesson.PackageCode),
             PatternCount = lesson.Patterns.Count,
             InStudyCount = progress.Count,
             MasteredCount = progress.Count(item => item.Level >= ReviewLevels.Mastered),
@@ -162,27 +177,31 @@ public class GrammarService : IGrammarService
         };
     }
 
-    private static GrammarPatternDto MapPattern(GrammarPattern pattern, Guid userId)
+    private GrammarPatternDto MapPattern(GrammarPattern pattern, Guid userId)
     {
         var progress = pattern.ProgressRecords.FirstOrDefault(item => item.UserId == userId && item.IsActive);
+        var accessTier = ResolveAccessTier(pattern);
+        var packageCode = ResolvePackageCode(pattern);
+
         return new GrammarPatternDto
         {
             Id = pattern.Id,
             LessonId = pattern.LessonId,
             Level = pattern.Level,
+            CourseCode = pattern.Lesson.CourseCode,
             Pattern = pattern.Pattern,
             Title = pattern.Title,
             Meaning = pattern.Meaning,
             Structure = pattern.Structure,
-            AccessTier = ResolveAccessTier(pattern),
-            PackageCode = ResolvePackageCode(pattern),
-            IsLocked = false,
+            AccessTier = accessTier,
+            PackageCode = packageCode,
+            IsLocked = _paymentAccess.IsContentLocked(userId, accessTier, packageCode),
             IsInStudy = progress?.IsActive == true,
             Progress = progress == null ? null : MapProgress(progress)
         };
     }
 
-    private static GrammarPatternDetailDto MapPatternDetail(GrammarPattern pattern, Guid userId)
+    private GrammarPatternDetailDto MapPatternDetail(GrammarPattern pattern, Guid userId)
     {
         var baseDto = MapPattern(pattern, userId);
         return new GrammarPatternDetailDto

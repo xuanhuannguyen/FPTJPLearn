@@ -1,0 +1,373 @@
+[
+    {
+        "level":  "N5",
+        "lessonNumber":  1,
+        "lessonTitle":  "Giới thiệu bản thân và Trường học",
+        "kanjiItems":  [
+                           {
+                               "character":  "私",
+                               "hanViet":  "TƯ",
+                               "meaning":  "Tôi, riêng tư",
+                               "strokeCount":  7,
+                               "onReading":  "シ",
+                               "kunReading":  "わたし、わたくし",
+                               "mnemonic":  "Giữ bó lúa (禾) cho riêng mình (厶) tạo thành chữ tôi (私).",
+                               "orderIndex":  1
+                           },
+                           {
+                               "character":  "日",
+                               "hanViet":  "NHẬT",
+                               "meaning":  "Mặt trời, ngày",
+                               "strokeCount":  4,
+                               "onReading":  "ニチ、ジツ",
+                               "kunReading":  "ひ、か",
+                               "mnemonic":  "Hình vuông có tia sáng bên trong tượng trưng cho mặt trời (日).",
+                               "orderIndex":  2
+                           },
+                           {
+                               "character":  "本",
+                               "hanViet":  "BẢN",
+                               "meaning":  "Gốc, sách, căn bản",
+                               "strokeCount":  5,
+                               "onReading":  "ホン",
+                               "kunReading":  "もと",
+                               "mnemonic":  "Nét ngang (一) chỉ vào gốc của cây (木) tạo thành chữ gốc, căn bản (本).",
+                               "orderIndex":  3
+                           },
+                           {
+                               "character":  "大",
+                               "hanViet":  "ĐẠI",
+                               "meaning":  "To, lớn",
+                               "strokeCount":  3,
+                               "onReading":  "ダイ、タイ",
+                               "kunReading":  "おおきい",
+                               "mnemonic":  "Người dang rộng tay chân thể hiện sự to lớn (大).",
+                               "orderIndex":  4
+                           },
+                           {
+                               "character":  "学",
+                               "hanViet":  "HỌC",
+                               "meaning":  "Học tập",
+                               "strokeCount":  8,
+                               "onReading":  "ガク",
+                               "kunReading":  "まなぶ",
+                               "mnemonic":  "Đứa trẻ (子) ngồi học dưới mái che (冖) tạo thành học tập (学).",
+                               "orderIndex":  5
+                           },
+                           {
+                               "character":  "語",
+                               "hanViet":  "NGỮ",
+                               "meaning":  "Ngôn ngữ, tiếng nói",
+                               "strokeCount":  14,
+                               "onReading":  "ゴ",
+                               "kunReading":  "かたる",
+                               "mnemonic":  "Dùng lời nói (言) của bản thân (吾) để tạo thành ngôn ngữ (語).",
+                               "orderIndex":  6
+                           },
+                           {
+                               "character":  "校",
+                               "hanViet":  "HIỆU",
+                               "meaning":  "Trường học",
+                               "strokeCount":  10,
+                               "onReading":  "コウ",
+                               "kunReading":  "",
+                               "mnemonic":  "Nơi mọi người gặp gỡ (交) dưới sân trường có cây (木) tạo thành trường học (校).",
+                               "orderIndex":  7
+                           },
+                           {
+                               "character":  "生",
+                               "hanViet":  "SINH",
+                               "meaning":  "Sinh sống, sinh ra",
+                               "strokeCount":  5,
+                               "onReading":  "セイ、ショウ",
+                               "kunReading":  "いきる、うまれる、なま",
+                               "mnemonic":  "Mầm cây mọc lên từ đất tạo thành sự sống (生).",
+                               "orderIndex":  8
+                           },
+                           {
+                               "character":  "人",
+                               "hanViet":  "NHÂN",
+                               "meaning":  "Người",
+                               "strokeCount":  2,
+                               "onReading":  "ジン、ニン",
+                               "kunReading":  "ひと",
+                               "mnemonic":  "Hai nét giống dáng người đang bước đi tạo thành chữ người (人).",
+                               "orderIndex":  9
+                           },
+                           {
+                               "character":  "才",
+                               "hanViet":  "TÀI",
+                               "meaning":  "Tuổi, tài năng",
+                               "strokeCount":  3,
+                               "onReading":  "サイ",
+                               "kunReading":  "",
+                               "mnemonic":  "Mỗi năm thêm một dấu mốc trưởng thành tạo thành tuổi tác, tài năng (才).",
+                               "orderIndex":  10
+                           }
+                       ]
+    },
+    {
+        "level":  "N5",
+        "lessonNumber":  2,
+        "lessonTitle":  "Số đếm và Đơn vị tiền tệ",
+        "kanjiItems":  [
+                           {
+                               "character":  "一",
+                               "hanViet":  "NHẤT",
+                               "meaning":  "Số một",
+                               "strokeCount":  1,
+                               "onReading":  "イチ、イツ",
+                               "kunReading":  "ひと.つ",
+                               "mnemonic":  "Chỉ một nét ngang đơn giản, biểu thị số một (一).",
+                               "orderIndex":  1
+                           },
+                           {
+                               "character":  "二",
+                               "hanViet":  "NHỊ",
+                               "meaning":  "Số hai",
+                               "strokeCount":  2,
+                               "onReading":  "ニ",
+                               "kunReading":  "ふた.つ",
+                               "mnemonic":  "Hai nét ngang song song xếp chồng lên nhau, biểu thị số hai (二).",
+                               "orderIndex":  2
+                           },
+                           {
+                               "character":  "三",
+                               "hanViet":  "TAM",
+                               "meaning":  "Số ba",
+                               "strokeCount":  3,
+                               "onReading":  "サン",
+                               "kunReading":  "みっ.つ",
+                               "mnemonic":  "Ba nét ngang kích thước khác nhau xếp chồng lên nhau, biểu thị số ba (三).",
+                               "orderIndex":  3
+                           },
+                           {
+                               "character":  "四",
+                               "hanViet":  "TỨ",
+                               "meaning":  "Số bốn",
+                               "strokeCount":  5,
+                               "onReading":  "シ",
+                               "kunReading":  "よん、よっ.つ",
+                               "mnemonic":  "Trong một khu vực kín (囗), con số bốn (四) như có hai cái chân (儿) đang tung tăng nhảy múa.",
+                               "orderIndex":  4
+                           },
+                           {
+                               "character":  "五",
+                               "hanViet":  "NGŨ",
+                               "meaning":  "Số năm",
+                               "strokeCount":  4,
+                               "onReading":  "ゴ",
+                               "kunReading":  "いつ.つ",
+                               "mnemonic":  "Trông giống như một cái nắp hộp bị méo mó, biến dạng tạo thành hình số năm (五).",
+                               "orderIndex":  5
+                           },
+                           {
+                               "character":  "六",
+                               "hanViet":  "LỤC",
+                               "meaning":  "Số sáu",
+                               "strokeCount":  4,
+                               "onReading":  "ロク",
+                               "kunReading":  "むっ.つ",
+                               "mnemonic":  "Một cái đầu (亠) to nhưng chỉ mọc lơ thơ có tám (ハ) trừ hai bằng sáu (六) sợi tóc.",
+                               "orderIndex":  6
+                           },
+                           {
+                               "character":  "七",
+                               "hanViet":  "THẤT",
+                               "meaning":  "Số bảy",
+                               "strokeCount":  2,
+                               "onReading":  "シチ",
+                               "kunReading":  "なな、なな.つ",
+                               "mnemonic":  "Chữ này nhìn y hệt con số 7 nhưng bị lật ngược lại.",
+                               "orderIndex":  7
+                           },
+                           {
+                               "character":  "八",
+                               "hanViet":  "BÁT",
+                               "meaning":  "Số tám",
+                               "strokeCount":  2,
+                               "onReading":  "ハチ",
+                               "kunReading":  "やって.つ",
+                               "mnemonic":  "Hai nét phẩy xòe rộng tách chẻ ra hai bên, giống như đang chia đều chiếc bánh ra thành tám (八) phần.",
+                               "orderIndex":  8
+                           },
+                           {
+                               "character":  "九",
+                               "hanViet":  "CỬU",
+                               "meaning":  "Số chín",
+                               "strokeCount":  2,
+                               "onReading":  "キュウ、ク",
+                               "kunReading":  "ここの.つ",
+                               "mnemonic":  "Một người đang hít đất và gập cong người lại, tạo thành hình số chín (九).",
+                               "orderIndex":  9
+                           },
+                           {
+                               "character":  "十",
+                               "hanViet":  "THẬP",
+                               "meaning":  "Số mười",
+                               "strokeCount":  2,
+                               "onReading":  "ジュウ",
+                               "kunReading":  "とお",
+                               "mnemonic":  "Hai nét gạch chéo tạo thành hình chữ thập, biểu thị sự trọn vẹn, đầy đủ của số mười (十).",
+                               "orderIndex":  10
+                           },
+                           {
+                               "character":  "百",
+                               "hanViet":  "BÁCH",
+                               "meaning":  "Một trăm",
+                               "strokeCount":  6,
+                               "onReading":  "ヒャク",
+                               "kunReading":  "",
+                               "mnemonic":  "Đạt được một (一) tờ giấy trắng (白) tinh khôi không tì vết là biểu tượng của một trăm (百) điểm tuyệt đối.",
+                               "orderIndex":  11
+                           },
+                           {
+                               "character":  "千",
+                               "hanViet":  "THIÊN",
+                               "meaning":  "Một nghìn",
+                               "strokeCount":  3,
+                               "onReading":  "セン",
+                               "kunReading":  "ち",
+                               "mnemonic":  "Chỉ cần thêm một nét phẩy (ノ) vào trên đầu số mười (十), giá trị lập tức tăng lên gấp trăm lần thành một nghìn (千).",
+                               "orderIndex":  12
+                           },
+                           {
+                               "character":  "万",
+                               "hanViet":  "VẠN",
+                               "meaning":  "Mười nghìn",
+                               "strokeCount":  3,
+                               "onReading":  "マン、バン",
+                               "kunReading":  "",
+                               "mnemonic":  "Một (一) vòng tay dang rộng bao bọc lấy hàng vạn (万) sinh linh bé nhỏ.",
+                               "orderIndex":  13
+                           },
+                           {
+                               "character":  "円",
+                               "hanViet":  "VIÊN",
+                               "meaning":  "Hình tròn, đồng Yên",
+                               "strokeCount":  4,
+                               "onReading":  "エン",
+                               "kunReading":  "まる.い",
+                               "mnemonic":  "Nhìn qua cái khung cửa sổ (冂), thấy bên trong có những thanh vàng xếp ngang dọc để đổi thành đồng Yên (円) Nhật.",
+                               "orderIndex":  14
+                           }
+                       ]
+    },
+    {
+        "level":  "N5",
+        "lessonNumber":  3,
+        "lessonTitle":  "Thời gian và Ngày trong tuần",
+        "kanjiItems":  [
+                           {
+                               "character":  "月",
+                               "hanViet":  "NGUYỆT",
+                               "meaning":  "Mặt trăng, tháng, thứ Hai",
+                               "strokeCount":  4,
+                               "onReading":  "ゲツ、ガツ",
+                               "kunReading":  "つき",
+                               "mnemonic":  "Hình ảnh mặt trăng (月) khuyết mỏng manh chênh chếch trên bầu trời, có hai đám mây trôi ngang qua ở giữa.",
+                               "orderIndex":  1
+                           },
+                           {
+                               "character":  "火",
+                               "hanViet":  "HỎA",
+                               "meaning":  "Lửa, thứ Ba",
+                               "strokeCount":  4,
+                               "onReading":  "カ",
+                               "kunReading":  "ひ、び、ほ",
+                               "mnemonic":  "Người (人) vung hai tay mạnh mẽ tạo ra những tia lửa (火) bùng cháy rực rỡ.",
+                               "orderIndex":  2
+                           },
+                           {
+                               "character":  "水",
+                               "hanViet":  "THỦY",
+                               "meaning":  "Nước, thứ Tư",
+                               "strokeCount":  4,
+                               "onReading":  "スイ",
+                               "kunReading":  "みず",
+                               "mnemonic":  "Dòng thác chảy thẳng tắp ở giữa (亅) đập vào đá làm nước (水) bắn tung tóe ra hai bên.",
+                               "orderIndex":  3
+                           },
+                           {
+                               "character":  "木",
+                               "hanViet":  "MỘC",
+                               "meaning":  "Cây, thứ Năm",
+                               "strokeCount":  4,
+                               "onReading":  "モク、ボク",
+                               "kunReading":  "き、こ",
+                               "mnemonic":  "Cành và thân cây dang ra như hình chữ thập (十), bên dưới là rễ cắm sâu xuống đất tạo thành cái cây (木).",
+                               "orderIndex":  4
+                           },
+                           {
+                               "character":  "金",
+                               "hanViet":  "KIM",
+                               "meaning":  "Tiền, vàng, thứ Sáu",
+                               "strokeCount":  8,
+                               "onReading":  "キン、コン",
+                               "kunReading":  "かね、かな",
+                               "mnemonic":  "Được giấu kín dưới mái nhà (𠆢) của nhà vua (王) chính là hai thỏi vàng (ハ) vô giá (金).",
+                               "orderIndex":  5
+                           },
+                           {
+                               "character":  "土",
+                               "hanViet":  "THỔ",
+                               "meaning":  "Đất, thứ Bảy",
+                               "strokeCount":  3,
+                               "onReading":  "ド、ト",
+                               "kunReading":  "つち",
+                               "mnemonic":  "Cắm một cây thập tự giá (十) sâu xuống mặt đất (一) bằng phẳng (土).",
+                               "orderIndex":  6
+                           },
+                           {
+                               "character":  "何",
+                               "hanViet":  "HÀ",
+                               "meaning":  "Cái gì",
+                               "strokeCount":  7,
+                               "onReading":  "カ",
+                               "kunReading":  "なに、なん",
+                               "mnemonic":  "Một người (亻) luôn tò mò hỏi xem bản thân có thể (可) làm được cái gì (何).",
+                               "orderIndex":  7
+                           },
+                           {
+                               "character":  "年",
+                               "hanViet":  "NIÊN",
+                               "meaning":  "Năm",
+                               "strokeCount":  6,
+                               "onReading":  "ネン",
+                               "kunReading":  "とし",
+                               "mnemonic":  "Người (𠂉) nông dân làm việc vất vả thu hoạch được một (一) chục (十) vụ mùa là trôi qua hết một năm (年).",
+                               "orderIndex":  8
+                           },
+                           {
+                               "character":  "時",
+                               "hanViet":  "THỜI",
+                               "meaning":  "Thời gian, giờ",
+                               "strokeCount":  10,
+                               "onReading":  "ジ",
+                               "kunReading":  "とき",
+                               "mnemonic":  "Ngày xưa người ta nhìn mặt trời (日) mọc trên đỉnh nóc chùa (寺) để biết thời gian (時) và giờ giấc.",
+                               "orderIndex":  9
+                           },
+                           {
+                               "character":  "間",
+                               "hanViet":  "GIAN",
+                               "meaning":  "Khoảng trống, ở giữa, trong~, gian phòng",
+                               "strokeCount":  12,
+                               "onReading":  "カン、ケン",
+                               "kunReading":  "あいだ、ま",
+                               "mnemonic":  "Ánh mặt trời (日) len lỏi chiếu qua khe hở ở giữa hai cánh cổng (門) lớn tạo ra một không gian (間) rực sáng.",
+                               "orderIndex":  10
+                           },
+                           {
+                               "character":  "分",
+                               "hanViet":  "PHÂN",
+                               "meaning":  "Phân chia, hiểu, phút",
+                               "strokeCount":  4,
+                               "onReading":  "ブン、フン、ブ",
+                               "kunReading":  "わ.ける、わ.かる",
+                               "mnemonic":  "Dùng con dao (刀) sắc bén để chia đồ vật ra làm tám (ハ) phần (分).",
+                               "orderIndex":  11
+                           }
+                       ]
+    }
+]

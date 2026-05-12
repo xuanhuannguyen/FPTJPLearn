@@ -8,7 +8,7 @@ public class VocabularyListConfiguration : IEntityTypeConfiguration<VocabularyLi
 {
     public void Configure(EntityTypeBuilder<VocabularyList> builder)
     {
-        builder.ToTable("vocabulary_lists");
+        builder.ToTable("active_vocabulary_lists");
         builder.HasKey(x => x.Id);
         builder.Property(x => x.Name).IsRequired().HasMaxLength(100);
         builder.Property(x => x.Description).HasMaxLength(500);
@@ -25,7 +25,7 @@ public class VocabularyItemConfiguration : IEntityTypeConfiguration<VocabularyIt
 {
     public void Configure(EntityTypeBuilder<VocabularyItem> builder)
     {
-        builder.ToTable("vocabulary_items");
+        builder.ToTable("active_vocabulary_items");
         builder.HasKey(x => x.Id);
         builder.Property(x => x.Word).IsRequired().HasMaxLength(100);
         builder.Property(x => x.Reading).IsRequired().HasMaxLength(100);
@@ -39,7 +39,7 @@ public class UserWordProgressConfiguration : IEntityTypeConfiguration<UserWordPr
 {
     public void Configure(EntityTypeBuilder<UserWordProgress> builder)
     {
-        builder.ToTable("user_word_progress");
+        builder.ToTable("user_active_word_progress");
         builder.HasKey(x => x.Id);
         builder.Property(x => x.Level).HasDefaultValue(0);
         builder.Property(x => x.Status).HasMaxLength(20).HasDefaultValue("new");

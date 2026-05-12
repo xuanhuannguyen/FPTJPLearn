@@ -5,6 +5,7 @@ namespace JPLearn.Core.Grammar.DTOs;
 public class GrammarLevelDto
 {
     public string Level { get; set; } = string.Empty;
+    public string CourseCode { get; set; } = string.Empty;
     public int LessonCount { get; set; }
     public int PatternCount { get; set; }
     public int FreeCount { get; set; }
@@ -18,6 +19,7 @@ public class GrammarLessonDto
 {
     public Guid Id { get; set; }
     public string Level { get; set; } = string.Empty;
+    public string CourseCode { get; set; } = string.Empty;
     public int LessonNumber { get; set; }
     public string Title { get; set; } = string.Empty;
     public string? Description { get; set; }
@@ -35,6 +37,7 @@ public class GrammarPatternDto
     public Guid Id { get; set; }
     public Guid LessonId { get; set; }
     public string Level { get; set; } = string.Empty;
+    public string CourseCode { get; set; } = string.Empty;
     public string Pattern { get; set; } = string.Empty;
     public string Title { get; set; } = string.Empty;
     public string Meaning { get; set; } = string.Empty;

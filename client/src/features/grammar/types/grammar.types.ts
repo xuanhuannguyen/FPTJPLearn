@@ -2,6 +2,7 @@ export type GrammarLevel = 'N5' | 'N4' | 'N3' | 'N2' | 'N1';
 
 export interface GrammarLevelSummary {
   level: GrammarLevel;
+  courseCode: string;
   lessonCount: number;
   patternCount: number;
   freeCount: number;
@@ -14,6 +15,7 @@ export interface GrammarLevelSummary {
 export interface GrammarLesson {
   id: string;
   level: GrammarLevel;
+  courseCode: string;
   lessonNumber: number;
   title: string;
   description?: string;
@@ -30,6 +32,7 @@ export interface GrammarPattern {
   id: string;
   lessonId: string;
   level: GrammarLevel;
+  courseCode: string;
   pattern: string;
   title: string;
   meaning: string;

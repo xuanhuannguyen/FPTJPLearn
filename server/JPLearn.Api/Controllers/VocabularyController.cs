@@ -4,17 +4,12 @@ using JPLearn.Core.Vocabulary.DTOs;
 
 namespace JPLearn.Api.Controllers;
 
-[ApiController]
-[Route("api/vocabulary")]
-public class VocabularyController : ControllerBase
+[Route("api/active-vocabulary")]
+public class ActiveVocabularyController : ApiControllerBase
 {
     private readonly IVocabularyService _service;
 
-    // Hardcoded userId cho development (chưa có Auth)
-    // Sau khi implement Auth → lấy từ JWT claims
-    private static readonly Guid DevUserId = Guid.Parse("00000000-0000-0000-0000-000000000001");
-
-    public VocabularyController(IVocabularyService service)
+    public ActiveVocabularyController(IVocabularyService service)
     {
         _service = service;
     }
@@ -25,7 +20,7 @@ public class VocabularyController : ControllerBase
     [HttpPost("lists/import")]
     public async Task<IActionResult> Import([FromBody] ImportVocabularyDto dto)
     {
-        var listId = await _service.ImportAsync(DevUserId, dto);
+        var listId = await _service.ImportAsync(CurrentUserId, dto);
         return Ok(new { listId, wordCount = dto.Words.Count });
     }
 
@@ -35,7 +30,7 @@ public class VocabularyController : ControllerBase
     [HttpGet("lists")]
     public async Task<IActionResult> GetAll()
     {
-        var lists = await _service.GetListsAsync(DevUserId);
+        var lists = await _service.GetListsAsync(CurrentUserId);
         return Ok(lists);
     }
 
@@ -45,7 +40,7 @@ public class VocabularyController : ControllerBase
     [HttpGet("lists/{id}")]
     public async Task<IActionResult> GetById(Guid id)
     {
-        var list = await _service.GetByIdAsync(DevUserId, id);
+        var list = await _service.GetByIdAsync(CurrentUserId, id);
         if (list == null) return NotFound();
         return Ok(list);
     }
@@ -56,7 +51,7 @@ public class VocabularyController : ControllerBase
     [HttpPut("lists/{id}")]
     public async Task<IActionResult> Update(Guid id, [FromBody] UpdateListDto dto)
     {
-        var result = await _service.UpdateAsync(DevUserId, id, dto.Name, dto.Description);
+        var result = await _service.UpdateAsync(CurrentUserId, id, dto.Name, dto.Description);
         if (!result) return NotFound();
         return Ok(new { success = true });
     }
@@ -67,7 +62,7 @@ public class VocabularyController : ControllerBase
     [HttpDelete("lists/{id}")]
     public async Task<IActionResult> DeleteList(Guid id)
     {
-        var result = await _service.DeleteListAsync(DevUserId, id);
+        var result = await _service.DeleteListAsync(CurrentUserId, id);
         if (!result) return NotFound();
         return Ok(new { success = true });
     }
@@ -78,7 +73,7 @@ public class VocabularyController : ControllerBase
     [HttpDelete("items/{id}")]
     public async Task<IActionResult> DeleteItem(Guid id)
     {
-        var result = await _service.DeleteItemAsync(DevUserId, id);
+        var result = await _service.DeleteItemAsync(CurrentUserId, id);
         if (!result) return NotFound();
         return Ok(new { success = true });
     }
@@ -91,7 +86,7 @@ public class VocabularyController : ControllerBase
     {
         try
         {
-            var itemId = await _service.AddItemAsync(DevUserId, listId, dto);
+            var itemId = await _service.AddItemAsync(CurrentUserId, listId, dto);
             return Ok(new { itemId });
         }
         catch (UnauthorizedAccessException)

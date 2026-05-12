@@ -248,6 +248,7 @@ public class MemoryGrammarService : IMemoryGrammarService
         {
             Id = item.Id,
             ItemType = MemoryItemTypes.Grammar,
+            SourceGrammarPatternId = item.SourceGrammarPatternId,
             FrontPrimary = item.Pattern,
             FrontSecondary = item.Structure,
             FrontMeta = item.Meaning,

@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { useParams, Link } from 'react-router-dom';
+import { useParams, Link, useLocation } from 'react-router-dom';
 import {
   BookText,
   ChevronRight,
@@ -11,6 +11,10 @@ import type { GrammarLevel, GrammarLesson } from '../types/grammar.types';
 
 export const GrammarLevelPage = () => {
   const { level } = useParams<{ level: string }>();
+  const location = useLocation();
+  const queryParams = new URLSearchParams(location.search);
+  const courseCode = queryParams.get('course');
+  
   const [lessons, setLessons] = useState<GrammarLesson[]>([]);
   const [isLoading, setIsLoading] = useState(true);
 
@@ -18,7 +22,7 @@ export const GrammarLevelPage = () => {
     const fetchLessons = async () => {
       if (!level) return;
       try {
-        const data = await grammarApi.getLessonsByLevel(level as GrammarLevel);
+        const data = await grammarApi.getLessonsByLevel(level as GrammarLevel, courseCode || undefined);
         setLessons(data);
       } catch (error) {
         console.error('Failed to fetch lessons:', error);
@@ -27,7 +31,7 @@ export const GrammarLevelPage = () => {
       }
     };
     fetchLessons();
-  }, [level]);
+  }, [level, courseCode]);
 
   if (isLoading) {
     return (
@@ -48,7 +52,7 @@ export const GrammarLevelPage = () => {
           <ArrowLeft size={14} />
         </Link>
         <span className="rounded-2xl border border-emerald-100 bg-emerald-50 px-5 py-2 text-[32px] font-black uppercase leading-none text-emerald-600 shadow-sm">
-          {level}
+          {courseCode ? courseCode.toUpperCase() : level}
         </span>
         <span className="rounded-xl border border-border/10 bg-white px-3 py-1.5 text-sm font-black leading-none text-text-secondary shadow-sm">
           {lessons.length} bài học
@@ -60,7 +64,7 @@ export const GrammarLevelPage = () => {
         {lessons.map((lesson) => (
           <Link
             key={lesson.id}
-            to={lesson.isLocked ? '#' : `/grammar/${level}/lessons/${lesson.id}`}
+            to={lesson.isLocked ? '#' : `/grammar/${level}/lessons/${lesson.id}${courseCode ? `?course=${courseCode}` : ''}`}
             className={`group relative flex min-h-[58px] items-center gap-3 rounded-xl border bg-white px-4 py-2.5 transition-colors duration-200 ${
               lesson.isLocked 
                 ? 'border-border/5 bg-slate-50/50 cursor-not-allowed opacity-60'

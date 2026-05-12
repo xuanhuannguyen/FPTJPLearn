@@ -4,12 +4,10 @@ using JPLearn.Core.Review.DTOs;
 
 namespace JPLearn.Api.Controllers;
 
-[ApiController]
 [Route("api/review")]
-public class ReviewController : ControllerBase
+public class ReviewController : ApiControllerBase
 {
     private readonly IReviewService _service;
-    private static readonly Guid DevUserId = Guid.Parse("00000000-0000-0000-0000-000000000001");
 
     public ReviewController(IReviewService service)
     {
@@ -22,7 +20,7 @@ public class ReviewController : ControllerBase
     [HttpGet("{listId}/due")]
     public async Task<IActionResult> GetDueCards(Guid listId)
     {
-        var result = await _service.GetDueCardsAsync(DevUserId, listId);
+        var result = await _service.GetDueCardsAsync(CurrentUserId, listId);
         return Ok(result);
     }
 
@@ -32,7 +30,7 @@ public class ReviewController : ControllerBase
     [HttpGet("{listId}/learned")]
     public async Task<IActionResult> GetLearnedCards(Guid listId, [FromQuery] string scope = ReviewScopes.All)
     {
-        var result = await _service.GetLearnedCardsAsync(DevUserId, listId, scope);
+        var result = await _service.GetLearnedCardsAsync(CurrentUserId, listId, scope);
         return Ok(result);
     }
 
@@ -42,7 +40,7 @@ public class ReviewController : ControllerBase
     [HttpGet("{listId}/levels")]
     public async Task<IActionResult> GetCardsByLevel(Guid listId, [FromQuery] int minLevel = ReviewLevels.Min, [FromQuery] int maxLevel = ReviewLevels.Max)
     {
-        var result = await _service.GetCardsByLevelAsync(DevUserId, listId, minLevel, maxLevel);
+        var result = await _service.GetCardsByLevelAsync(CurrentUserId, listId, minLevel, maxLevel);
         return Ok(result);
     }
 
@@ -52,7 +50,7 @@ public class ReviewController : ControllerBase
     [HttpGet("{listId}/all")]
     public async Task<IActionResult> GetAllCards(Guid listId)
     {
-        var cards = await _service.GetAllCardsAsync(DevUserId, listId);
+        var cards = await _service.GetAllCardsAsync(CurrentUserId, listId);
         return Ok(cards);
     }
 
@@ -62,7 +60,7 @@ public class ReviewController : ControllerBase
     [HttpPost("answer")]
     public async Task<IActionResult> SubmitAnswer([FromBody] ReviewAnswerDto dto)
     {
-        var result = await _service.SubmitAnswerAsync(DevUserId, dto);
+        var result = await _service.SubmitAnswerAsync(CurrentUserId, dto);
         if (result == null) return NotFound(new { message = "Card progress not found" });
         return Ok(result);
     }
@@ -73,7 +71,7 @@ public class ReviewController : ControllerBase
     [HttpPost("session")]
     public async Task<IActionResult> SaveSession([FromBody] SaveSessionDto dto)
     {
-        var sessionId = await _service.SaveSessionAsync(DevUserId, dto);
+        var sessionId = await _service.SaveSessionAsync(CurrentUserId, dto);
         return Ok(new { sessionId });
     }
 
@@ -83,7 +81,7 @@ public class ReviewController : ControllerBase
     [HttpPost("{listId}/reset")]
     public async Task<IActionResult> ResetProgress(Guid listId, [FromBody] ResetListProgressDto dto)
     {
-        var result = await _service.ResetListProgressAsync(DevUserId, listId, dto);
+        var result = await _service.ResetListProgressAsync(CurrentUserId, listId, dto);
         return Ok(result);
     }
 }

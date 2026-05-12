@@ -4,14 +4,20 @@ import {
   Crown, 
   Brain, 
   BrainCircuit,
+  BookText,
+  FileQuestion,
+  Mic2
 } from 'lucide-react';
 
 export const Sidebar = () => {
   const navItems = [
     { name: 'Hán tự', path: '/kanji', icon: <Castle size={24} /> },
-    { name: 'Từ vựng', path: '/vocabulary', icon: <Crown size={24} /> },
+    { name: 'Từ vựng', path: '/vocabulary', icon: <BookText size={24} /> },
     { name: 'Ngữ pháp', path: '/grammar', icon: <Brain size={24} /> },
     { name: 'Ghi nhớ', path: '/memory', icon: <BrainCircuit size={24} /> },
+    { name: 'Từ vựng\nChủ động', path: '/active-vocabulary', icon: <Crown size={24} /> },
+    { name: 'Luyện nói', path: '/speaking', icon: <Mic2 size={24} /> },
+    { name: 'Luyện thi', path: '/exam', icon: <FileQuestion size={24} /> },
   ];
 
   return (
@@ -39,7 +45,7 @@ export const Sidebar = () => {
             <div className="flex h-7 w-7 items-center justify-center">
               {item.icon}
             </div>
-            <span className="text-[11px] font-extrabold leading-tight">{item.name}</span>
+            <span className="whitespace-pre-line text-[11px] font-extrabold leading-tight">{item.name}</span>
           </NavLink>
         ))}
       </nav>

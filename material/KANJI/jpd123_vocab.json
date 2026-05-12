@@ -1,0 +1,576 @@
+[
+  {
+    "lessonNumber": 4,
+    "lessonTitle": "Địa điểm và Phương hướng",
+    "vocabulary": [
+      {
+        "word": "東",
+        "reading": "ひがし",
+        "meaning": "phía đông"
+      },
+      {
+        "word": "東京",
+        "reading": "とうきょう",
+        "meaning": "Tokyo"
+      },
+      {
+        "word": "午前",
+        "reading": "ごぜん",
+        "meaning": "a.m"
+      },
+      {
+        "word": "前日",
+        "reading": "ぜんじつ",
+        "meaning": "ngày trước đó"
+      },
+      {
+        "word": "名前",
+        "reading": "なまえ",
+        "meaning": "tên"
+      },
+      {
+        "word": "国",
+        "reading": "くに",
+        "meaning": "đất nước, quốc gia"
+      },
+      {
+        "word": "外国",
+        "reading": "がいこく",
+        "meaning": "nước ngoài"
+      },
+      {
+        "word": "男の人",
+        "reading": "おとこのひと",
+        "meaning": "người đàn ông"
+      },
+      {
+        "word": "女の人",
+        "reading": "おんなのひと",
+        "meaning": "người phụ nữ"
+      },
+      {
+        "word": "～区",
+        "reading": "〜く",
+        "meaning": "quận ~"
+      },
+      {
+        "word": "～市",
+        "reading": "〜し",
+        "meaning": "Thành phố ~"
+      },
+      {
+        "word": "前",
+        "reading": "まえ",
+        "meaning": "phía trước"
+      },
+      {
+        "word": "京都",
+        "reading": "きょうと",
+        "meaning": "Kyoto"
+      },
+      {
+        "word": "外国人",
+        "reading": "がいこくじん",
+        "meaning": "người nước ngoài"
+      },
+      {
+        "word": "男女",
+        "reading": "だんじょ",
+        "meaning": "nam nữ"
+      }
+    ]
+  },
+  {
+    "lessonNumber": 5,
+    "lessonTitle": "Hành động và Nghỉ ngơi",
+    "vocabulary": [
+      {
+        "word": "先生",
+        "reading": "せんせい",
+        "meaning": "thầy/cô giáo"
+      },
+      {
+        "word": "先日",
+        "reading": "せんじつ",
+        "meaning": "vài ngày trước"
+      },
+      {
+        "word": "先月",
+        "reading": "せんげつ",
+        "meaning": "tháng trước"
+      },
+      {
+        "word": "先週",
+        "reading": "せんしゅう",
+        "meaning": "tuần trước"
+      },
+      {
+        "word": "一週間",
+        "reading": "いっしゅうかん",
+        "meaning": "1 tuần"
+      },
+      {
+        "word": "毎日",
+        "reading": "まいにち",
+        "meaning": "mỗi ngày"
+      },
+      {
+        "word": "毎週",
+        "reading": "まいしゅう",
+        "meaning": "mỗi tuần"
+      },
+      {
+        "word": "毎年",
+        "reading": "まいとし/まいねん",
+        "meaning": "mỗi năm"
+      },
+      {
+        "word": "毎月",
+        "reading": "まいつき",
+        "meaning": "mỗi tháng"
+      },
+      {
+        "word": "後ろ",
+        "reading": "うしろ",
+        "meaning": "phía sau"
+      },
+      {
+        "word": "後",
+        "reading": "あと",
+        "meaning": "sau đó"
+      },
+      {
+        "word": "午後",
+        "reading": "ごご",
+        "meaning": "p.m"
+      },
+      {
+        "word": "前後",
+        "reading": "ぜんご",
+        "meaning": "trước sau"
+      },
+      {
+        "word": "見ます",
+        "reading": "みます",
+        "meaning": "nhìn"
+      },
+      {
+        "word": "見学",
+        "reading": "けんがく",
+        "meaning": "tham quan kiến tập"
+      },
+      {
+        "word": "食べます",
+        "reading": "たべます",
+        "meaning": "ăn"
+      },
+      {
+        "word": "食事",
+        "reading": "しょくじ",
+        "meaning": "ăn, bữa ăn"
+      },
+      {
+        "word": "飲みます",
+        "reading": "のみます",
+        "meaning": "uống"
+      },
+      {
+        "word": "飲食",
+        "reading": "いんしょく",
+        "meaning": "ẩm thực"
+      },
+      {
+        "word": "飲み水",
+        "reading": "のみみず",
+        "meaning": "nước uống"
+      },
+      {
+        "word": "休みます",
+        "reading": "やすみます",
+        "meaning": "nghỉ"
+      },
+      {
+        "word": "休みの日",
+        "reading": "やすみのひ",
+        "meaning": "ngày nghỉ"
+      },
+      {
+        "word": "休日",
+        "reading": "きゅうじつ",
+        "meaning": "ngày nghỉ"
+      },
+      {
+        "word": "買います",
+        "reading": "かいます",
+        "meaning": "mua"
+      },
+      {
+        "word": "物",
+        "reading": "もの",
+        "meaning": "đồ vật"
+      },
+      {
+        "word": "買い物",
+        "reading": "かいもの",
+        "meaning": "mua sắm"
+      },
+      {
+        "word": "食べ物",
+        "reading": "たべもの",
+        "meaning": "đồ ăn"
+      },
+      {
+        "word": "飲み物",
+        "reading": "のみもの",
+        "meaning": "đồ uống"
+      },
+      {
+        "word": "人物",
+        "reading": "じんぶつ",
+        "meaning": "nhân vật"
+      },
+      {
+        "word": "見物",
+        "reading": "けんぶつ",
+        "meaning": "tham quan"
+      },
+      {
+        "word": "行きます",
+        "reading": "いきます",
+        "meaning": "đi"
+      }
+    ]
+  },
+  {
+    "lessonNumber": 6,
+    "lessonTitle": "Giao tiếp và Sinh hoạt",
+    "vocabulary": [
+      {
+        "word": "今年",
+        "reading": "ことし",
+        "meaning": "năm nay"
+      },
+      {
+        "word": "今日",
+        "reading": "きょう",
+        "meaning": "hôm nay"
+      },
+      {
+        "word": "今月",
+        "reading": "こんげつ",
+        "meaning": "tháng này"
+      },
+      {
+        "word": "今週",
+        "reading": "こんしゅう",
+        "meaning": "tuần này"
+      },
+      {
+        "word": "来ます",
+        "reading": "きます",
+        "meaning": "đến"
+      },
+      {
+        "word": "来週",
+        "reading": "らいしゅう",
+        "meaning": "tuần sau"
+      },
+      {
+        "word": "来月",
+        "reading": "らいげつ",
+        "meaning": "tháng sau"
+      },
+      {
+        "word": "来年",
+        "reading": "らいねん",
+        "meaning": "năm sau"
+      },
+      {
+        "word": "来日",
+        "reading": "らいにち",
+        "meaning": "đến Nhật Bản"
+      },
+      {
+        "word": "帰ります",
+        "reading": "かえります",
+        "meaning": "về"
+      },
+      {
+        "word": "日帰り",
+        "reading": "ひがえり",
+        "meaning": "đi về trong ngày"
+      },
+      {
+        "word": "帰国",
+        "reading": "きこく",
+        "meaning": "về nước"
+      },
+      {
+        "word": "会います",
+        "reading": "あいます",
+        "meaning": "gặp"
+      },
+      {
+        "word": "飲み会",
+        "reading": "のみかい",
+        "meaning": "nhậu"
+      },
+      {
+        "word": "国会",
+        "reading": "こっかい",
+        "meaning": "quốc hội"
+      },
+      {
+        "word": "会見",
+        "reading": "かいけん",
+        "meaning": "họp báo"
+      },
+      {
+        "word": "会社",
+        "reading": "かいしゃ",
+        "meaning": "công ty"
+      },
+      {
+        "word": "社会",
+        "reading": "しゃかい",
+        "meaning": "xã hội"
+      },
+      {
+        "word": "聞きます",
+        "reading": "ききます",
+        "meaning": "nghe"
+      },
+      {
+        "word": "新聞",
+        "reading": "しんぶん",
+        "meaning": "báo"
+      },
+      {
+        "word": "読みます",
+        "reading": "よみます",
+        "meaning": "đọc"
+      },
+      {
+        "word": "読み物",
+        "reading": "よみもの",
+        "meaning": "tài liệu đọc"
+      },
+      {
+        "word": "書きます",
+        "reading": "かきます",
+        "meaning": "viết"
+      },
+      {
+        "word": "読書",
+        "reading": "どくしょ",
+        "meaning": "đọc sách"
+      },
+      {
+        "word": "話します",
+        "reading": "はなします",
+        "meaning": "nói chuyện"
+      },
+      {
+        "word": "話",
+        "reading": "はなし",
+        "meaning": "câu chuyện"
+      },
+      {
+        "word": "会話",
+        "reading": "かいわ",
+        "meaning": "hội thoại"
+      },
+      {
+        "word": "電話",
+        "reading": "でんわ",
+        "meaning": "điện thoại"
+      },
+      {
+        "word": "今",
+        "reading": "いま",
+        "meaning": "bây giờ"
+      },
+      {
+        "word": "辞書",
+        "reading": "じしょ",
+        "meaning": "từ điển"
+      },
+      {
+        "word": "書き物",
+        "reading": "かきもの",
+        "meaning": "tài liệu viết"
+      },
+      {
+        "word": "お寺",
+        "reading": "おてら",
+        "meaning": "chùa"
+      },
+      {
+        "word": "言います",
+        "reading": "いいます",
+        "meaning": "nói"
+      },
+      {
+        "word": "言語",
+        "reading": "げんご",
+        "meaning": "ngôn ngữ"
+      },
+      {
+        "word": "言葉",
+        "reading": "ことば",
+        "meaning": "từ vựng"
+      },
+      {
+        "word": "貝",
+        "reading": "かい",
+        "meaning": "con sò"
+      },
+      {
+        "word": "田んぼ",
+        "reading": "たんぼ",
+        "meaning": "cánh đồng"
+      },
+      {
+        "word": "水田",
+        "reading": "すいでん",
+        "meaning": "cánh đồng lúa nước"
+      },
+      {
+        "word": "力",
+        "reading": "ちから",
+        "meaning": "sức lực"
+      },
+      {
+        "word": "水力",
+        "reading": "すいりょく",
+        "meaning": "sức nước"
+      },
+      {
+        "word": "火力",
+        "reading": "かりょく",
+        "meaning": "công suất nhiệt, hỏa lực"
+      },
+      {
+        "word": "門",
+        "reading": "もん",
+        "meaning": "cổng, cửa"
+      }
+    ]
+  },
+  {
+    "lessonNumber": 7,
+    "lessonTitle": "Tự nhiên và Cơ bản",
+    "vocabulary": [
+      {
+        "word": "肉",
+        "reading": "にく",
+        "meaning": "thịt"
+      },
+      {
+        "word": "牛肉",
+        "reading": "ぎゅうにく",
+        "meaning": "thịt bò"
+      },
+      {
+        "word": "豚肉",
+        "reading": "ぶたにく",
+        "meaning": "thịt heo"
+      },
+      {
+        "word": "鶏肉",
+        "reading": "とりにく",
+        "meaning": "thịt gà"
+      },
+      {
+        "word": "料金",
+        "reading": "りょうきん",
+        "meaning": "tiền phí"
+      },
+      {
+        "word": "料理",
+        "reading": "りょうり",
+        "meaning": "món ăn"
+      },
+      {
+        "word": "野菜",
+        "reading": "やさい",
+        "meaning": "rau"
+      },
+      {
+        "word": "半年",
+        "reading": "はんとし/はんねん",
+        "meaning": "nửa năm"
+      },
+      {
+        "word": "半分",
+        "reading": "はんぶん",
+        "meaning": "Một nửa"
+      },
+      {
+        "word": "半日",
+        "reading": "はんじつ/はんにち",
+        "meaning": "Nửa ngày"
+      },
+      {
+        "word": "半月",
+        "reading": "はんつき",
+        "meaning": "Nửa tháng"
+      },
+      {
+        "word": "七時半",
+        "reading": "しちじはん",
+        "meaning": "7h30"
+      },
+      {
+        "word": "大きい",
+        "reading": "おおきい",
+        "meaning": "to"
+      },
+      {
+        "word": "大学生",
+        "reading": "だいがくせい",
+        "meaning": "Sinh viên đại học"
+      },
+      {
+        "word": "大人",
+        "reading": "おとな",
+        "meaning": "Người lớn"
+      },
+      {
+        "word": "大会",
+        "reading": "たいかい",
+        "meaning": "đại hội"
+      },
+      {
+        "word": "大半",
+        "reading": "たいはん",
+        "meaning": "Phần lớn"
+      },
+      {
+        "word": "大学",
+        "reading": "だいがく",
+        "meaning": "đại học"
+      },
+      {
+        "word": "小さい",
+        "reading": "ちいさい",
+        "meaning": "bé, nhỏ"
+      },
+      {
+        "word": "小学校",
+        "reading": "しょうがっこう",
+        "meaning": "Trường tiểu học"
+      },
+      {
+        "word": "小学生",
+        "reading": "しょうがくせい",
+        "meaning": "học sinh tiểu học"
+      },
+      {
+        "word": "小人",
+        "reading": "こびと",
+        "meaning": "đứa trẻ, người tí hon"
+      }
+    ]
+  }
+]

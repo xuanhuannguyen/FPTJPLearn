@@ -1,0 +1,35 @@
+{
+  "courseCode": "JPD113", // Mã khóa học (vd: JPD113, JPD123)
+  "courseTitle": "Tiếng Nhật Sơ Cấp 1",
+  "lessons": [
+    {
+      "lessonNumber": 1,
+      "title": "Lời chào và Giới thiệu",
+      "description": "Học các từ vựng cơ bản về chào hỏi",
+      "vocabularyItems": [
+        {
+          "word": "行きます",       // Từ vựng (Kanji/Kana)
+          "reading": "いきます",    // Cách đọc (Hiragana)
+          "wordType": "Động từ",    // Loại từ (Danh từ, Động từ nhóm 1...)
+          "meaning": "Đi",         // Nghĩa tiếng Việt
+          "exampleJapanese": "学校へ行きます。", // Ví dụ tiếng Nhật
+          "exampleReading": "がっこうへいきます。", // Cách đọc ví dụ
+          "exampleMeaning": "Tôi đi đến trường.", // Nghĩa ví dụ
+          "notes": "Đi kèm trợ từ へ hoặc に",   // Ghi chú thêm
+          "orderIndex": 1           // Thứ tự hiển thị
+        },
+        {
+          "word": "食べる",
+          "reading": "たべる",
+          "wordType": "Động từ",
+          "meaning": "Ăn",
+          "exampleJapanese": "ご飯を食べます。",
+          "exampleReading": "ごはんをたべます。",
+          "exampleMeaning": "Tôi ăn cơm.",
+          "notes": "",
+          "orderIndex": 2
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,418 @@
+{
+  "courseCode": "jpd113",
+  "accessTier": "free",
+  "packageCode": "speaking_jpd113",
+  "lessons": [
+    {
+      "id": 1,
+      "topic": "Giới thiệu bản thân",
+      "title": "アンさん",
+      "subtitle": "Giới thiệu về tên, nghề nghiệp, tuổi và sở thích.",
+      "summary": "An là giáo viên người Việt Nam, 30 tuổi, thích nấu ăn và xem phim.",
+      "sentences": [
+        { "jp": "こんにちは！[[私|わたし]]は アンです。", "vi": "Xin chào! Tôi là An." },
+        { "jp": "[[ベトナム人|ベトナムじん]]です。", "vi": "Tôi là người Việt Nam." },
+        { "jp": "[[私|わたし]]は ABC[[だい学|だいがく]]の [[きょうし|きょうし]]です。", "vi": "Tôi là giáo viên của trường đại học ABC." },
+        { "jp": "[[私|わたし]]は [[30才|さんじゅっさい]]です。", "vi": "Tôi 30 tuổi." },
+        { "jp": "たん[[生目|じょうび]]は [[6月15日|ろくがつじゅうごにch]]です。", "vi": "Sinh nhật của tôi là ngày 15 tháng 6." },
+        { "jp": "[[しゅみ|しゅみ]]は [[りょうり|りょうり]]と [[えいが|えいが]]です。", "vi": "Sở thích của tôi là nấu ăn và xem phim." },
+        { "jp": "よろしく [[おねがい|おねがい]]します。", "vi": "Rất mong được giúp đỡ." }
+      ]
+    },
+    {
+      "id": 2,
+      "topic": "Giới thiệu bản thân",
+      "title": "さくらさん",
+      "subtitle": "Giới thiệu về kỹ sư người Nhật.",
+      "summary": "Sakura là kỹ sư người Nhật, 25 tuổi, thích đọc sách và âm nhạc.",
+      "sentences": [
+        { "jp": "こんにちは！[[私|わたし]]は さくらです。", "vi": "Xin chào! Tôi là Sakura." },
+        { "jp": "[[日本人|にほんじん]]です。", "vi": "Tôi là người Nhật." },
+        { "jp": "[[私|わたし]]の [[しごと|しごと]]は エンジニアです。", "vi": "Công việc của tôi là kỹ sư." },
+        { "jp": "[[私|わたし]]は [[25才|にじゅうごさい]]です。", "vi": "Tôi 25 tuổi." },
+        { "jp": "たん[[生目|じょうび]]は [[9月20日|くがつはつか]]です。", "vi": "Sinh nhật của tôi là ngày 20 tháng 9." },
+        { "jp": "[[しゅみ|しゅみ]]は [[どくしょ|どくしょ]]と [[おんがく|おんがく]]です。", "vi": "Sở thích của tôi là đọc sách và âm nhạc." },
+        { "jp": "よろしく[[おねがい|おねがい]]します。", "vi": "Rất mong được giúp đỡ." }
+      ]
+    },
+    {
+      "id": 3,
+      "topic": "Giới thiệu bản thân",
+      "title": "ワンさん",
+      "subtitle": "Giới thiệu về sinh viên người Trung Quốc.",
+      "summary": "Wang là sinh viên người Trung Quốc, 18 tuổi, thích chạy bộ.",
+      "sentences": [
+        { "jp": "はじめまして。[[私|わたし]]は ワンです。", "vi": "Rất vui được làm quen. Tôi là Wang." },
+        { "jp": "[[ちゅうごく人|ちゅうごくじん]]です。", "vi": "Tôi là người Trung Quốc." },
+        { "jp": "[[私|わたし]]は [[学生|がくせい]]です。", "vi": "Tôi là sinh viên." },
+        { "jp": "[[私|わたし]]は [[18才|じゅうはっさい]]です。", "vi": "Tôi 18 tuổi." },
+        { "jp": "たん[[生目|じょうび]]は [[4月10日|しがつとおか]]です。", "vi": "Sinh nhật của tôi là ngày 10 tháng 4." },
+        { "jp": "[[しゅみ|しゅみ]]は ジョギングです。", "vi": "Sở thích của tôi là chạy bộ." },
+        { "jp": "よろしく[[おねがい|おねがい]]します。", "vi": "Rất mong được giúp đỡ." }
+      ]
+    },
+    {
+      "id": 4,
+      "topic": "Giới thiệu bản thân",
+      "title": "ミンジさん",
+      "subtitle": "Giới thiệu về nhân viên công ty người Hàn.",
+      "summary": "Minji là nhân viên công ty người Hàn, 28 tuổi, thích vẽ tranh.",
+      "sentences": [
+        { "jp": "はじめまして。[[私|わたし]]は ミンジです。", "vi": "Rất vui được làm quen. Tôi là Minji." },
+        { "jp": "[[かんこく人|かんこくじん]]です。", "vi": "Tôi là người Hàn Quốc." },
+        { "jp": "[[私|わたし]]は [[かいしゃいん|かいしゃいん]]です。", "vi": "Tôi là nhân viên công ty." },
+        { "jp": "[[私|わたし]]は [[28才|にじゅうはっさい]]です。", "vi": "Tôi 28 tuổi." },
+        { "jp": "たん[[生目|じょうび]]は [[11月5日|じゅういちがついつか]]です。", "vi": "Sinh nhật của tôi là ngày 5 tháng 11." },
+        { "jp": "[[しゅみ|しゅみ]]は [[え|え]]です。", "vi": "Sở thích của tôi là vẽ tranh." },
+        { "jp": "よろしく [[おねがい|おねがい]]します。", "vi": "Rất mong được giúp đỡ." }
+      ]
+    },
+    {
+      "id": 5,
+      "topic": "Đồ vật",
+      "title": "アイフォーン",
+      "subtitle": "Giới thiệu về chiếc điện thoại di động.",
+      "summary": "Mô tả về chiếc iPhone của tôi, giá cả và tính tiện dụng.",
+      "sentences": [
+        { "jp": "これは 「アイフォーン」です。", "vi": "Đây là iPhone." },
+        { "jp": "[[私|わたし]]の [[けいたいでんわ|けいたいでんわ]]です。", "vi": "Đây là điện thoại di động của tôi." },
+        { "jp": "[[三千五百円|さんぜんごひゃくえん]]です。", "vi": "Giá là 3.500 yên." },
+        { "jp": "アメリカの [[けいたいでんわ|けいたいでんわ]]です。", "vi": "Đây là điện thoại di động của Mỹ." },
+        { "jp": "とても つかいやすいです。", "vi": "Rất dễ sử dụng." }
+      ]
+    },
+    {
+      "id": 6,
+      "topic": "Món ăn",
+      "title": "とんかつ",
+      "subtitle": "Giới thiệu về món Tonkatsu yêu thích.",
+      "summary": "Tonkatsu là món ăn Nhật Bản yêu thích, thường đi ăn cùng gia đình.",
+      "sentences": [
+        { "jp": "これは 「とんかつ」です。", "vi": "Đây là món Tonkatsu (thịt heo chiên xù)." },
+        { "jp": "[[私|わたし]]の [[す|す]]きな [[りょうり|りょうり]]です。", "vi": "Đây là món ăn yêu thích của tôi." },
+        { "jp": "[[千二百円|せんにひゃくえん]]です。", "vi": "Giá là 1.200 yên." },
+        { "jp": "[[日本|にほん]]の [[りょうり|りょうり]]です。", "vi": "Đây là món ăn của Nhật Bản." },
+        { "jp": "エーオンレストランの とんかつは とても おいしいです。", "vi": "Món Tonkatsu ở nhà hàng Aeon rất ngon." },
+        { "jp": "よく [[かぞく|かぞく]]と このレストランへ [[た|た]]べに [[行|い]]きます。", "vi": "Tôi thường cùng gia đình đến nhà hàng này để ăn." }
+      ]
+    },
+    {
+      "id": 7,
+      "topic": "Địa điểm",
+      "title": "FPTだいがくの きっさてん",
+      "subtitle": "Giới thiệu về quán cà phê trong trường đại học FPT.",
+      "summary": "Quán cà phê mở cửa từ 6 giờ sáng đến 10 giờ tối, cà phê ở đây rất ngon.",
+      "sentences": [
+        { "jp": "ここは FPT[[だい学|だいがく]]の [[きっさてん|きっさてん]]です。", "vi": "Đây là quán cà phê của trường đại học FPT." },
+        { "jp": "[[ごぜん|ごぜん]] [[六時|ろくじ]]から [[ごご|ごご]] [[10時|じゅうじ]]までです。", "vi": "Mở cửa từ 6 giờ sáng đến 10 giờ tối." },
+        { "jp": "[[やすみ|やすみ]]は [[日曜日|にちようび]]の あさです。", "vi": "Nghỉ vào sáng chủ nhật." },
+        { "jp": "[[まい日|まいにち]]、ここで コーヒーを [[の|の]]みます。", "vi": "Mỗi ngày tôi đều uống cà phê ở đây." },
+        { "jp": "たのしいです。", "vi": "Rất vui." },
+        { "jp": "ここの コーヒーは おいしいです。", "vi": "Cà phê ở đây ngon." }
+      ]
+    },
+    {
+      "id": 8,
+      "topic": "Mua sắm",
+      "title": "ニコニコスーパー",
+      "subtitle": "Giới thiệu về siêu thị Niconico.",
+      "summary": "Siêu thị mở cửa đến 11 giờ đêm, trái cây ở đây rất rẻ.",
+      "sentences": [
+        { "jp": "ここは ニコニコスーパーです。", "vi": "Đây là siêu thị Niconico." },
+        { "jp": "[[ごぜん|ごぜん]] [[六時|ろくじ]]から [[ごご|ごご]][[十一時|じゅういちじ]]までです。", "vi": "Mở cửa từ 6 giờ sáng đến 11 giờ đêm." },
+        { "jp": "[[やすみ|やすみ]]は [[土曜日|どようび]]の ひるです。", "vi": "Nghỉ vào trưa thứ bảy." },
+        { "jp": "[[まいあさ|まいあさ]]、ここで [[くだもの|くだもの]]を [[か|か]]います。", "vi": "Mỗi sáng tôi đều mua trái cây ở đây." },
+        { "jp": "ここの [[くだもの|くだもの]]は [[やす|やす]]いです。", "vi": "Trái cây ở đây rẻ." }
+      ]
+    },
+    {
+      "id": 9,
+      "topic": "Học tập",
+      "title": "日本語学校の がくせい",
+      "subtitle": "Lịch học tiếng Nhật hàng ngày.",
+      "summary": "Học tiếng Nhật từ thứ hai đến thứ sáu, từ 9 giờ đến 12 giờ rưỡi.",
+      "sentences": [
+        { "jp": "[[私|わたし]]は [[日本語学校|にほんごがっこう]]の [[がくせい|がくせい]]です。", "vi": "Tôi là sinh viên trường tiếng Nhật." },
+        { "jp": "[[月曜日|げつようび]]から [[金曜日|きんようび]]まで、[[学校|がっこう]]へ [[行|い]]きます。", "vi": "Tôi đi học từ thứ hai đến thứ sáu." },
+        { "jp": "[[あさ|あさ]][[九時|くじ]]から [[十二時はん|じゅうにじはん]]まで [[学校|がっこう]]で [[日本語|にほんご]]を [[べんきょう|べんきょう]]します。", "vi": "Tôi học tiếng Nhật ở trường từ 9 giờ sáng đến 12 giờ rưỡi." }
+      ]
+    },
+    {
+      "id": 10,
+      "topic": "Học tập",
+      "title": "FPTだいがくの としょかん",
+      "subtitle": "Làm bài tập ở thư viện trường đại học FPT.",
+      "summary": "Thư viện ở tầng 1, là nơi làm bài tập cùng bạn bè.",
+      "sentences": [
+        { "jp": "ここは FPT[[だい学|だいがく]]の [[としょかん|としょかん]]です。", "vi": "Đây là thư viện của trường đại học FPT." },
+        { "jp": "[[１かい|いっかい]]です。", "vi": "Ở tầng 1." },
+        { "jp": "[[まい日|まいにち]]、ここで [[べんきょう|べんきょう]]します。", "vi": "Mỗi ngày tôi đều học ở đây." },
+        { "jp": "[[きょう|きょう]] [[ひる|ひる]]まで [[ともだち|ともだち]]と [[しゅくだい|しゅくだい]]を します。", "vi": "Hôm nay tôi làm bài tập cùng bạn đến trưa." },
+        { "jp": "[[しゅくだい|しゅくだい]]は [[むずか|むずか]]しいです。", "vi": "Bài tập khó." }
+      ]
+    },
+    {
+      "id": 11,
+      "topic": "Sinh hoạt",
+      "title": "しゅうまつの よてい",
+      "subtitle": "Lịch trình cuối tuần và việc làm thêm.",
+      "summary": "Đọc sách ở thư viện và làm thêm tại cửa hàng tiện lợi.",
+      "sentences": [
+        { "jp": "[[しゅうまつ|しゅうまつ]]、[[としょかん|としょかん]]へ [[行|い]]きます。", "vi": "Cuối tuần tôi đi thư viện." },
+        { "jp": "[[としょかん|としょかん]]で [[本|ほん]]を [[よ|よ]]みます。", "vi": "Tôi đọc sách ở thư viện." },
+        { "jp": "[[水曜日|すいようび]]と [[土曜日|どようび]]、コンビニで アルバイトを します。", "vi": "Thứ tư và thứ bảy tôi làm thêm ở cửa hàng tiện lợi." },
+        { "jp": "[[4じ|よじ]]から [[8じ|はちじ]]まで [[はたら|はたら]]きます。", "vi": "Tôi làm việc từ 4 giờ đến 8 giờ." }
+      ]
+    },
+    {
+      "id": 12,
+      "topic": "Công việc",
+      "title": "ABEの しゃいん",
+      "subtitle": "Công việc hàng ngày tại công ty ABE.",
+      "summary": "Làm việc tại công ty từ 8 giờ sáng đến 11 giờ rưỡi sáng.",
+      "sentences": [
+        { "jp": "[[私|わたし]]は ABEの [[しゃいん|しゃいん]]です。", "vi": "Tôi là nhân viên công ty ABE." },
+        { "jp": "[[月曜日|げつようび]]から [[金曜日|きんようび]]まで [[かいしゃ|かいしゃ]]へ [[行|い]]きます。", "vi": "Tôi đi làm từ thứ hai đến thứ sáu." },
+        { "jp": "[[あさ|あさ]][[八時|はちじ]]から [[十一時はん|じゅういちじはん]]まで [[かいしゃ|かいしゃ]]で [[はたら|はたら]]きます。", "vi": "Tôi làm việc ở công ty từ 8 giờ sáng đến 11 giờ rưỡi sáng." }
+      ]
+    },
+    {
+      "id": 13,
+      "topic": "Sinh hoạt",
+      "title": "こうえんと カフェ",
+      "subtitle": "Đi dạo ở công viên và làm thêm tại quán cà phê.",
+      "summary": "Đi dạo công viên cuối tuần và làm thêm vào thứ hai, thứ năm.",
+      "sentences": [
+        { "jp": "[[しゅうまつ|しゅうまつ]]、[[こうえん|こうえん]]へ [[行|い]]きます。", "vi": "Cuối tuần tôi đi công viên." },
+        { "jp": "[[こうえん|こうえん]]で さんぽを します。", "vi": "Tôi đi dạo ở công viên." },
+        { "jp": "[[月曜日|げつようび]]と [[木曜日|もくようび]]、カフェで アルバイトを します。", "vi": "Thứ hai và thứ năm tôi làm thêm ở quán cà phê." },
+        { "jp": "[[三時|さんじ]]から [[七時|しちじ]]まで [[はたら|はたら]]きます。", "vi": "Tôi làm việc từ 3 giờ đến 7 giờ." }
+      ]
+    },
+    {
+      "id": 14,
+      "topic": "Sinh hoạt",
+      "title": "だい学での べんきょう",
+      "subtitle": "Mua đồ ăn sáng và học tiếng Nhật tại trường.",
+      "summary": "Mua đồ ăn ở cửa hàng tiện lợi và học tiếng Nhật tại trường từ 7 giờ.",
+      "sentences": [
+        { "jp": "[[まいあさ|まいあさ]]、[[私|わたし]]は [[いえ|いえ]]で [[あさごはん|あさごはん]]を [[た|た]]べません。", "vi": "Mỗi sáng tôi không ăn sáng ở nhà." },
+        { "jp": "[[六時はん|ろくじはん]]ごろ コンビニで サラダや パンなどを [[か|か]]います。", "vi": "Khoảng 6 giờ rưỡi tôi mua salad, bánh mì ở cửa hàng tiện lợi." },
+        { "jp": "[[七時|しちじ]]に [[だい学|だいがく]]で [[た|た]]べます。", "vi": "Tôi ăn tại trường lúc 7 giờ." },
+        { "jp": "それから [[日本語|にほんご]]を [[べんきょう|べんきょう]]します。", "vi": "Sau đó tôi học tiếng Nhật." }
+      ]
+    },
+    {
+      "id": 15,
+      "topic": "Sinh hoạt",
+      "title": "おべんとうを かう",
+      "subtitle": "Mua cơm hộp và học tập tại trường đại học.",
+      "summary": "Thức dậy lúc 6 giờ, học tại trường từ 7 giờ 10 đến 12 giờ.",
+      "sentences": [
+        { "jp": "[[まいあさ|まいあさ]]、 [[私|わたし]]は [[六時|ろくじ]]に [[お|お]]きます。", "vi": "Mỗi sáng tôi thức dậy lúc 6 giờ." },
+        { "jp": "コンビニで おべんとうや ぎゅうにゅう などを [[か|か]]います。", "vi": "Tôi mua cơm hộp, sữa ở cửa hàng tiện lợi." },
+        { "jp": "[[7時10分|しちじじゅっぷん]]から [[12時|じゅうにじ]]まで [[だい学|だいがく]]で [[べんきょう|べんきょう]]します。", "vi": "Tôi học ở trường từ 7 giờ 10 đến 12 giờ." }
+      ]
+    },
+    {
+      "id": 16,
+      "topic": "Sinh hoạt",
+      "title": "ごごの よてい",
+      "subtitle": "Nghỉ ngơi và học tập buổi chiều tại nhà.",
+      "summary": "Về nhà ăn trưa, ngủ trưa và học tiếng Nhật buổi chiều.",
+      "sentences": [
+        { "jp": "[[ひる|ひる]]、[[いえ|いえ]]へ [[かえ|かえ]]ります。", "vi": "Buổi trưa tôi về nhà." },
+        { "jp": "[[ひるごはん|ひるごはん]]を [[た|た]]べます。", "vi": "Tôi ăn cơm trưa." },
+        { "jp": "[[ごご|ごご]] [[12時半|じゅうにじはん]]に [[ね|ね]]ます。", "vi": "12 giờ rưỡi trưa tôi đi ngủ." },
+        { "jp": "[[ごご|ごご]] どこも [[行|い]]きません。", "vi": "Buổi chiều tôi không đi đâu cả." },
+        { "jp": "[[いえ|いえ]]で [[日本語|にほんご]]を [[べんきょう|べんきょう]]します。", "vi": "Tôi học tiếng Nhật ở nhà." }
+      ]
+    },
+    {
+      "id": 17,
+      "topic": "Học tập",
+      "title": "マリアさん",
+      "subtitle": "Lịch học bơi buổi sáng của Maria.",
+      "summary": "Maria là người Pháp, học bơi lúc 7 giờ sáng từ tháng 4 đến tháng 9.",
+      "sentences": [
+        { "jp": "[[私|わたし]]は マリアです。", "vi": "Tôi là Maria." },
+        { "jp": "フランス[[人|じん]]です。", "vi": "Tôi là người Pháp." },
+        { "jp": "[[火曜日|かようび]]から [[金曜日|きんようび]]まで、スクールへ [[行|い]]きます。", "vi": "Tôi đi học từ thứ ba đến thứ sáu." },
+        { "jp": "[[四月|しがつ]]から [[九月|くがつ]]まで、[[まいあさ|まいあさ]] [[七時|しちじ]]に プールで すいえいを [[べんきょう|べんきょう]]します。", "vi": "Từ tháng 4 đến tháng 9, mỗi sáng tôi học bơi ở hồ bơi lúc 7 giờ." }
+      ]
+    },
+    {
+      "id": 18,
+      "topic": "Học tập",
+      "title": "カリナさん",
+      "subtitle": "Lịch học tiếng Đức và làm thêm của Karina.",
+      "summary": "Karina là người Hàn Quốc, học tiếng Đức ở thư viện và làm thêm vào thứ tư.",
+      "sentences": [
+        { "jp": "[[私|わたし]]は カリナです。", "vi": "Tôi là Karina." },
+        { "jp": "かんこく[[人|じん]]です。", "vi": "Tôi là người Hàn Quốc." },
+        { "jp": "[[木曜日|もくようび]]に、[[大学|だいがく]]へ [[行|い]]きます。", "vi": "Tôi đến trường đại học vào thứ năm." },
+        { "jp": "[[一時|いちじ]]から [[四時|よじ]]まで、 [[としょかん|としょかん]]で ドイツ[[ご|ご]]を [[べんきょう|べんきょう]]します。", "vi": "Từ 1 giờ đến 4 giờ, tôi học tiếng Đức ở thư viện." },
+        { "jp": "[[水曜日|すいようび]]は スーパーで アルバイトを します。", "vi": "Thứ tư tôi làm thêm ở siêu thị." },
+        { "jp": "[[やすみ|やすみ]]の [[ひ|ひ]]、 テニスを します。", "vi": "Vào ngày nghỉ, tôi chơi tennis." }
+      ]
+    },
+    {
+      "id": 19,
+      "topic": "Học tập",
+      "title": "アンアさん",
+      "subtitle": "Lịch trình học tập của Anna.",
+      "summary": "Anna là người Việt Nam, thức dậy lúc 6 giờ và đi học bằng xe buýt.",
+      "sentences": [
+        { "jp": "[[私|わたし]]は アンアです。", "vi": "Tôi là Anna." },
+        { "jp": "[[ベトナムじん|ベトナムじん]] です。", "vi": "Tôi là người Việt Nam." },
+        { "jp": "[[まいあさ|まいあさ]] [[六時|ろくじ]]に [[お|お]]きます。", "vi": "Mỗi sáng tôi thức dậy lúc 6 giờ." },
+        { "jp": "[[七時|しちじ]]に バスで [[だい学|だいがく]]へ [[行|い]]きます。", "vi": "Lúc 7 giờ tôi đi xe buýt đến trường đại học." },
+        { "jp": "[[九時|くじ]]から [[三時|さんじ]]まで [[べんきょう|べんきょう]]します。", "vi": "Tôi học từ 9 giờ đến 3 giờ chiều." }
+      ]
+    },
+    {
+      "id": 20,
+      "topic": "Du lịch",
+      "title": "日本へ 行く",
+      "subtitle": "Chuẩn bị cho chuyến đi Nhật Bản.",
+      "summary": "Đi Nhật từ ngày 20 tháng 10, đặt khách sạn giá rẻ và mua sô cô la.",
+      "sentences": [
+        { "jp": "[[私|わたし]]は [[十月二十日|じゅうがつはつか]]から [[日本|にほん]]へ [[行|い]]きます。", "vi": "Tôi đi Nhật từ ngày 20 tháng 10." },
+        { "jp": "[[学生|がくせい]]なので、 [[八千円|はっせんえん]]で [[ちい|ちい]]さい ホテルを よやく しました。", "vi": "Vì là sinh viên nên tôi đã đặt một khách sạn nhỏ với giá 8.000 yên." },
+        { "jp": "[[日本|にほん]]の デパートで チョコレートを たくさん [[か|か]]いました。", "vi": "Tôi đã mua rất nhiều sô cô la ở cửa hàng bách hóa Nhật Bản." }
+      ]
+    },
+    {
+      "id": 21,
+      "topic": "Vui chơi",
+      "title": "ディズニーランド",
+      "subtitle": "Gặp bạn và đi chơi ở Disneyland.",
+      "summary": "Gặp bạn người Nhật vào thứ bảy, ăn tối ở tiệm Ramen và đi Disneyland.",
+      "sentences": [
+        { "jp": "[[らいしゅう|らいしゅう]]の [[土曜日|どようび]]、[[日本人|にほんじん]]の [[ともだち|ともだち]]と [[あ|あ]]います。", "vi": "Thứ bảy tuần sau, tôi sẽ gặp một người bạn Nhật Bản." },
+        { "jp": "[[ごぜん|ごぜん]][[六時|ろくじ]]に ラーメンやで ばんごはんを [[た|た]]べます。", "vi": "Lúc 6 giờ sáng (?) tôi ăn cơm tối ở tiệm Ramen." },
+        { "jp": "それから、 [[ごご|ごご]][[十二時|じゅうにじ]]に ディズニーランドへ [[行|い]]きます。", "vi": "Sau đó, lúc 12 giờ trưa tôi đi Disneyland." },
+        { "jp": "ここで [[しゃしん|しゃしん]]を たくさん [[と|と]]りたいです。", "vi": "Tôi muốn chụp thật nhiều ảnh ở đây." }
+      ]
+    },
+    {
+      "id": 22,
+      "topic": "Kỷ niệm",
+      "title": "たんじょうびの おいわい",
+      "subtitle": "Tổ chức tiệc sinh nhật cùng bạn bè.",
+      "summary": "Sinh nhật ngày 8 tháng 10, ăn Ramen ở nhà hàng và mua bánh ở siêu thị.",
+      "sentences": [
+        { "jp": "[[わたし|わたし]]の [[たんじょうび|たんじょうび]]は [[十月八日|じゅうがつようか]]です。", "vi": "Sinh nhật của tôi là ngày 8 tháng 10." },
+        { "jp": "ことしは [[日曜日|にちようび]]だったので、[[三人|さんにん]]の [[ともだち|ともだち]]と おいわいを しました。", "vi": "Năm nay vì là chủ nhật nên tôi đã tổ chức tiệc cùng 3 người bạn." },
+        { "jp": "レストランで ラーメンを [[た|た]]べました。", "vi": "Chúng tôi đã ăn Ramen ở nhà hàng." },
+        { "jp": "それから、スーパーで [[千円|せんえん]]の ケーキを [[か|か]]いました。", "vi": "Sau đó, tôi đã mua một chiếc bánh kem 1.000 yên ở siêu thị." }
+      ]
+    },
+    {
+      "id": 23,
+      "topic": "Kỷ niệm",
+      "title": "おめでとう",
+      "subtitle": "Lời chúc và quà tặng từ bạn bè.",
+      "summary": "Nhận được lời chúc mừng và quà tặng từ những người bạn thời sinh viên.",
+      "sentences": [
+        { "jp": "[[わたし|わたし]]の [[たんじょうび|たんじょうび]]に [[ともだち|ともだち]]は [[日本語|にほんご]]で \"おめでとう\"と [[い|い]]ってくれました。", "vi": "Vào ngày sinh nhật của tôi, bạn bè đã nói \"Chúc mừng\" bằng tiếng Nhật." },
+        { "jp": "[[学生|がくせい]]じだいの [[ともだち|ともだち]]から [[本|ほん]]や プレゼントなどを [[もら|もら]]いました。", "vi": "Tôi đã nhận được sách và quà từ những người bạn thời sinh viên." },
+        { "jp": "[[たの|たの]]しい [[一日|いちにち]]でした。", "vi": "Đó là một ngày vui vẻ." }
+      ]
+    },
+    {
+      "id": 24,
+      "topic": "Vui chơi",
+      "title": "はなみ",
+      "subtitle": "Chuyến đi ngắm hoa vào kỳ nghỉ xuân.",
+      "summary": "Đi du lịch bằng xe buýt đến công viên Ookiwa để ngắm hoa.",
+      "sentences": [
+        { "jp": "はるやすみは [[2月15日|にがつじゅうごにち]]からです。", "vi": "Kỳ nghỉ xuân bắt đầu từ ngày 15 tháng 2." },
+        { "jp": "[[2月20日|にがつはつか]]は バスりょこうで オオキワ[[こうえん|こうえん]]へ [[行|い]]きます。", "vi": "Ngày 20 tháng 2 tôi đi du lịch xe buýt đến công viên Ookiwa." },
+        { "jp": "6じに [[学校|がっこう]]で [[ともだち|ともだち]]と [[あつ|あつ]]まります。", "vi": "Lúc 6 giờ chúng tôi tập trung ở trường cùng bạn bè." },
+        { "jp": "[[こうえん|こうえん]]で [[はなみ|はなみ]]を します。", "vi": "Chúng tôi sẽ ngắm hoa ở công viên." }
+      ]
+    },
+    {
+      "id": 25,
+      "topic": "Món ăn",
+      "title": "オヤコドン",
+      "subtitle": "Thưởng thức món cơm Oyakodon.",
+      "summary": "Ăn Oyakodon tại nhà hàng và đi dạo ở công viên Business.",
+      "sentences": [
+        { "jp": "[[土曜日|どようび]]、レストランへ [[行|い]]きます。", "vi": "Thứ bảy tôi đi nhà hàng." },
+        { "jp": "オヤコドンを [[た|た]]べます。", "vi": "Tôi ăn món Oyakodon (cơm gà trứng)." },
+        { "jp": "オヤコドンは [[とりにく|とりにく]]と [[たまご|たまご]]の [[日本りょうり|にほんりょうり]] です。", "vi": "Oyakodon là món ăn Nhật Bản làm từ thịt gà và trứng." },
+        { "jp": "[[た|た]]べたあと、ビジネン[[こうえん|こうえん]]で さんぽ します。", "vi": "Sau khi ăn xong, tôi đi dạo ở công viên Business." },
+        { "jp": "[[六時|ろくじ]]に [[うち|うち]]へ [[かえ|かえ]]ります。", "vi": "Lúc 6 giờ tôi về nhà." }
+      ]
+    },
+    {
+      "id": 26,
+      "topic": "Sinh hoạt",
+      "title": "日曜日の よてい",
+      "subtitle": "Học tiếng Ý và ăn Ramen vào chủ nhật.",
+      "summary": "Thức dậy lúc 8 giờ, học tiếng Ý và đi ăn Ramen ở nhà hàng.",
+      "sentences": [
+        { "jp": "[[日曜日|にちようび]]、[[八時|はちじ]]に [[お|お]]きます。", "vi": "Chủ nhật tôi thức dậy lúc 8 giờ." },
+        { "jp": "[[あさごはん|あさごはん]]を [[た|た]]べません。", "vi": "Tôi không ăn sáng." },
+        { "jp": "[[うち|うち]]で イタリア[[語|ご]]を [[べんきょう|べんきょう]]します。", "vi": "Tôi học tiếng Ý ở nhà." },
+        { "jp": "[[ひるごはん|ひるごはん]] レストランで ラーメンを [[た|た]]べます。", "vi": "Bữa trưa tôi ăn Ramen ở nhà hàng." }
+      ]
+    },
+    {
+      "id": 27,
+      "topic": "Sinh hoạt",
+      "title": "ホームステイ",
+      "subtitle": "Trải nghiệm homestay tại nhà người Nhật.",
+      "summary": "Ở nhà host family, ăn sáng lúc 7 giờ và xem TV cùng nhau buổi tối.",
+      "sentences": [
+        { "jp": "[[私|わたし]]は [[十月一日|じゅうがつついたち]]から ホームステイを します。", "vi": "Tôi bắt đầu ở homestay từ ngày 1 tháng 10." },
+        { "jp": "[[日本人|にほんじん]]の ホストファミリーの [[いえ|いえ]]は [[えき|えき]]から [[十分|じゅっぷん]]です。", "vi": "Nhà của gia đình host người Nhật cách nhà ga 10 phút." },
+        { "jp": "[[あさ|あさ]] [[七時|しちじ]]に [[あさごはん|あさごはん]]を [[た|た]]べます。", "vi": "7 giờ sáng ăn bữa sáng." },
+        { "jp": "[[よる|よる]] [[いっしょ|いっしょ]]に テレビを [[み|み]]ます。", "vi": "Buổi tối cùng nhau xem tivi." },
+        { "jp": "[[十日|とおか]]に [[いえ|いえ]]へ [[かえ|かえ]]ります。", "vi": "Ngày 10 tôi về nhà." }
+      ]
+    },
+    {
+      "id": 28,
+      "topic": "Sở thích",
+      "title": "グップタさんの しゅみ",
+      "subtitle": "Sở thích thể thao của anh Gupta.",
+      "summary": "Chơi bóng đá ở phòng thể dục và bơi lội vào thứ bảy.",
+      "sentences": [
+        { "jp": "グップタさんの [[しゅみ|しゅみ]]は スポーツです。", "vi": "Sở thích của anh Gupta là thể thao." },
+        { "jp": "[[まいにち|まいにち]]、 [[大学|だいがく]]の [[たいいくかん|たいいくかん]]で サッカーなどを します。", "vi": "Mỗi ngày anh ấy chơi đá bóng ở phòng thể dục của trường." },
+        { "jp": "[[土曜日|どようび]]は プールで [[すいえい|すいえい]]を します。", "vi": "Thứ bảy anh ấy đi bơi ở hồ bơi." },
+        { "jp": "[[三時間|さんじかん]] [[れんしゅう|れんしゅう]]した [[あと|あと]]、[[三百円|さんびゃくえん]]の スポーツドリンクを [[の|の]]みます。", "vi": "Sau khi luyện tập 3 tiếng, anh ấy uống đồ uống thể thao giá 300 yên." }
+      ]
+    },
+    {
+      "id": 29,
+      "topic": "Sở thích",
+      "title": "バスケットボール",
+      "subtitle": "Chơi bóng rổ và nghỉ ngơi buổi tối.",
+      "summary": "Chơi bóng rổ đến 6 giờ, tắm rửa và ăn tối sớm.",
+      "sentences": [
+        { "jp": "[[木曜日|もくようび]]、[[ともだち|ともだち]]と [[六時|ろくじ]]まで バスケットボールを します。", "vi": "Thứ năm tôi chơi bóng rổ cùng bạn đến 6 giờ." },
+        { "jp": "[[いえ|いえ]]へ [[かえ|かえ]]って、テレビで スポーツの [[しあい|しあい]]を [[み|み]]ます。", "vi": "Về nhà tôi xem trận đấu thể thao trên tivi." },
+        { "jp": "[[八時|はちじ]]に [[おふろ|おふろ]]に [[はい|はい]]ります。", "vi": "8 giờ tôi vào bồn tắm." },
+        { "jp": "[[九時|くじ]]に [[ばんごはん|ばんごはん]]を [[た|た]]べて、すぐに [[ね|ね]]ます。", "vi": "9 giờ ăn tối rồi đi ngủ ngay." }
+      ]
+    },
+    {
+      "id": 30,
+      "topic": "Du lịch",
+      "title": "ゴールデンウィーク",
+      "subtitle": "Về quê và ngắm pháo hoa ở Đà Nẵng.",
+      "summary": "Về thăm gia đình vào tuần lễ vàng và ngắm pháo hoa đẹp ở Đà Nẵng.",
+      "sentences": [
+        { "jp": "ゴールデンウィークは [[金曜日|きんようび]]からです。", "vi": "Tuần lễ vàng bắt đầu từ thứ sáu." },
+        { "jp": "[[くに|くに]]へ [[かえ|かえ]]ります。", "vi": "Tôi về nước." },
+        { "jp": "[[かぞく|かぞく]]と [[だなん|だなん]]へ [[行|い]]きます。", "vi": "Tôi cùng gia đình đi Đà Nẵng." },
+        { "jp": "ダナンで [[はなび|はなび]]を [[み|み]]ます。", "vi": "Tôi ngắm pháo hoa ở Đà Nẵng." },
+        { "jp": "ダナンの [[はなび|はなび]]は とても キレイです。", "vi": "Pháo hoa ở Đà Nẵng rất đẹp." }
+      ]
+    }
+  ]
+}

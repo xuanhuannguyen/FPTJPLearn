@@ -1,8 +1,10 @@
 import { useEffect, useMemo, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { BrainCircuit, Castle, Crown, Loader2, RotateCcw, Sparkles } from 'lucide-react';
+import { ListChecks, Loader2, RotateCcw, Sparkles } from 'lucide-react';
 import { memoryApi } from '../api/memoryApi';
 import { MemoryStatsBar } from '../components/MemoryStatsBar';
+import { ConfirmModal } from '../../../shared/components/ConfirmModal';
+import { getMemoryTypeConfig, memoryTypeConfigs, memoryTypeOrder } from '../memory.config';
 import type { MemoryItemType, MemorySummary } from '../types/memory.types';
 
 const emptySummary = {
@@ -13,24 +15,6 @@ const emptySummary = {
   longTerm: 0,
   totalStudied: 0,
   nextReviewAt: null,
-};
-
-const tabOptions: Array<{ type: MemoryItemType; label: string; icon: typeof BrainCircuit }> = [
-  { type: 'kanji', label: 'Kanji', icon: Castle },
-  { type: 'vocabulary', label: 'Từ vựng', icon: Crown },
-  { type: 'grammar', label: 'Ngữ pháp', icon: BrainCircuit },
-];
-
-const labels: Record<MemoryItemType, string> = {
-  kanji: 'Kanji',
-  vocabulary: 'Từ vựng',
-  grammar: 'Thẻ ngữ pháp',
-};
-
-const emptyText: Record<MemoryItemType, string> = {
-  kanji: 'Kanji trong Ghi nhớ sẽ được thêm sau khi Kanji module sẵn sàng.',
-  vocabulary: 'Từ vựng trong Ghi nhớ sẽ dùng source riêng, không dùng Vocabulary hiện tại.',
-  grammar: 'Hãy mở một mẫu ngữ pháp và bấm "Thêm vào ghi nhớ".',
 };
 
 const formatCountdown = (target?: string | null) => {
@@ -69,8 +53,19 @@ export const MemoryDashboardPage = () => {
   const [summary, setSummary] = useState<MemorySummary | null>(null);
   const [activeType, setActiveType] = useState<MemoryItemType>('grammar');
   const [isLoading, setIsLoading] = useState(true);
+  const [isResetModalOpen, setIsResetModalOpen] = useState(false);
+  const [isResettingGrammar, setIsResettingGrammar] = useState(false);
   const [error, setError] = useState('');
-  const [nowTick, setNowTick] = useState(Date.now());
+  const [resetError, setResetError] = useState('');
+  const [nowTick, setNowTick] = useState(() => Date.now());
+  const activeConfig = getMemoryTypeConfig(activeType);
+
+  const loadSummary = async () => {
+    const data = await memoryApi.getSummary();
+    setSummary(data);
+    const dueType = memoryTypeOrder.find((type) => data[type].due > 0);
+    if (dueType) setActiveType(dueType);
+  };
 
   useEffect(() => {
     let cancelled = false;
@@ -82,9 +77,8 @@ export const MemoryDashboardPage = () => {
         const data = await memoryApi.getSummary();
         if (!cancelled) {
           setSummary(data);
-          if (data.grammar.due > 0) {
-            setActiveType('grammar');
-          }
+          const dueType = memoryTypeOrder.find((type) => data[type].due > 0);
+          if (dueType) setActiveType(dueType);
         }
       } catch (err) {
         console.error(err);
@@ -124,6 +118,22 @@ export const MemoryDashboardPage = () => {
     : '';
   void nowTick;
 
+  const resetGrammarProgress = async () => {
+    try {
+      setIsResettingGrammar(true);
+      setResetError('');
+      await memoryApi.resetProgress(activeType);
+      await loadSummary();
+      setIsResetModalOpen(false);
+    } catch (err) {
+      console.error(err);
+      setResetError('Không thể reset tiến độ ngữ pháp. Hãy thử lại.');
+      throw err;
+    } finally {
+      setIsResettingGrammar(false);
+    }
+  };
+
   if (isLoading) {
     return (
       <div className="flex h-64 flex-col items-center justify-center text-text-secondary">
@@ -142,34 +152,35 @@ export const MemoryDashboardPage = () => {
   }
 
   return (
-    <div className="mx-auto max-w-7xl space-y-8 px-4 pb-20 pt-4">
-      <header>
-        <h1 className="text-4xl font-black tracking-normal text-text-primary">Thống kê học tập</h1>
-        <p className="mt-2 max-w-4xl text-lg font-bold leading-8 text-text-secondary">
+    <div className="mx-auto max-w-6xl space-y-6 px-4 pb-20 pt-4 animate-fade-in">
+      <header className="mb-4">
+        <h1 className="text-3xl font-black tracking-normal text-text-primary">Thống kê học tập</h1>
+        <p className="mt-1 max-w-2xl text-sm font-bold text-text-muted leading-relaxed">
           Theo dõi tiến độ và kế hoạch ôn tập của bạn, theo các báo cáo 21 ngày ôn tập kiến thức sẽ được nạp vào trí nhớ dài hạn
         </p>
       </header>
 
-      <section className="grid gap-3 rounded-2xl bg-white p-2 shadow-sm md:grid-cols-3">
-        {tabOptions.map((tab) => {
-          const Icon = tab.icon;
-          const due = summary?.[tab.type]?.due ?? 0;
-          const isActive = tab.type === activeType;
+      {/* Tabs - Centered */}
+      <section className="flex gap-2 rounded-xl border border-slate-200 bg-white p-1 shadow-sm max-w-2xl mx-auto">
+        {memoryTypeOrder.map((type) => {
+          const config = memoryTypeConfigs[type];
+          const Icon = config.icon;
+          const due = summary?.[type]?.due ?? 0;
+          const isActive = type === activeType;
           return (
             <button
-              key={tab.type}
+              key={type}
               type="button"
-              onClick={() => setActiveType(tab.type)}
-              className={`flex min-h-[54px] items-center justify-center gap-3 rounded-xl px-4 font-black transition-all ${
-                isActive
-                  ? 'bg-violet-500 text-white shadow-pop'
-                  : 'text-text-secondary hover:bg-slate-50'
-              }`}
+              onClick={() => setActiveType(type)}
+              className={`flex flex-1 min-h-[44px] items-center justify-center gap-2 rounded-lg px-4 text-xs font-black transition-all ${isActive
+                  ? 'bg-violet-600 text-white shadow-md'
+                  : 'text-text-muted hover:bg-slate-50'
+                }`}
             >
-              <Icon size={20} />
-              <span>{tab.label}</span>
+              <Icon size={16} />
+              <span>{config.label}</span>
               {due > 0 ? (
-                <span className={`rounded-full px-2 py-0.5 text-xs font-black ${isActive ? 'bg-white/20 text-white' : 'bg-orange-100 text-orange-500'}`}>
+                <span className={`ml-1 rounded-full px-1.5 py-0.5 text-[9px] font-black ${isActive ? 'bg-white/20 text-white' : 'bg-orange-100 text-orange-500'}`}>
                   {due}
                 </span>
               ) : null}
@@ -178,50 +189,83 @@ export const MemoryDashboardPage = () => {
         })}
       </section>
 
+      {/* Stats Bar */}
       <MemoryStatsBar summary={activeSummary} />
 
-      <section className="grid gap-5 lg:grid-cols-2">
-        <div className="rounded-2xl bg-violet-300/80 p-8 text-white shadow-sm">
-          <div className="flex items-start justify-between gap-4">
-            <div>
-              <p className="text-lg font-bold">{labels[activeType]} cần ôn hôm nay</p>
-              <p className="mt-4 text-6xl font-black">{activeSummary.due}</p>
+      {/* Summary Panels - Reduced size by 20% and centered */}
+      <div className="max-w-5xl mx-auto">
+        <section className="grid gap-4 lg:grid-cols-2">
+          <div className={`relative rounded-[28px] border-2 border-white/50 ${activeConfig.accentClassName} p-5 text-white shadow-lg overflow-hidden`}>
+            {/* Header row */}
+            <div className="flex items-center justify-between mb-4">
+               <p className="text-[11px] font-black uppercase tracking-wider opacity-90">{activeConfig.summaryLabel} cần ôn hôm nay</p>
+               <div className="flex flex-wrap justify-end gap-2">
+                 <button
+                   type="button"
+                   onClick={() => navigate(activeConfig.listPath)}
+                   className="inline-flex items-center gap-1.5 rounded-full border border-white/30 bg-white/20 px-2.5 py-1 text-[10px] font-black text-white backdrop-blur-md transition-all hover:bg-white/30"
+                 >
+                   <ListChecks size={10} strokeWidth={3} />
+                   Xem danh sách
+                 </button>
+                 {activeConfig.canResetProgress ? (
+                    <button
+                      type="button"
+                      disabled={isResettingGrammar}
+                      onClick={() => {
+                        setResetError('');
+                        setIsResetModalOpen(true);
+                      }}
+                      className="inline-flex items-center gap-1.5 rounded-full bg-white/20 backdrop-blur-md px-2.5 py-1 text-[10px] font-black text-white border border-white/30 transition-all hover:bg-white/30 disabled:pointer-events-none disabled:opacity-60"
+                    >
+                      {isResettingGrammar ? <Loader2 size={10} className="animate-spin" /> : <RotateCcw size={10} strokeWidth={3} />}
+                      {isResettingGrammar ? 'Đang reset' : 'Học lại từ đầu'}
+                    </button>
+                 ) : null}
+               </div>
             </div>
-            {activeType === 'grammar' ? (
-              <button
-                type="button"
-                onClick={() => navigate('/memory/grammar/review')}
-                className="rounded-2xl bg-white px-4 py-2 text-sm font-black text-violet-600 transition-all hover:-translate-y-0.5"
-              >
-                <RotateCcw size={16} className="mr-1 inline" />
-                Ôn lại từ đầu
-              </button>
+
+            <p className="text-6xl font-black drop-shadow-md">{activeSummary.due}</p>
+
+            <div className="mt-6">
+              {activeSummary.due > 0 ? (
+                <button
+                  type="button"
+                  onClick={() => navigate(activeConfig.reviewPath)}
+                  className="rounded-xl bg-white px-6 py-2 text-sm font-black text-violet-600 shadow-md transition-all hover:scale-105 active:scale-95"
+                >
+                  Ôn tập ngay
+                </button>
+              ) : (
+                <p className="max-w-md rounded-xl bg-white/10 backdrop-blur-sm border border-white/20 p-4 text-xs font-bold text-white/90">{activeConfig.emptyText}</p>
+              )}
+            </div>
+          </div>
+
+          <div className="rounded-[28px] border-2 border-white/50 bg-blue-500 p-5 text-white shadow-lg">
+            <div className="flex items-center gap-2 mb-4">
+               <Sparkles size={16} className="text-yellow-200" />
+              <p className="text-[11px] font-black uppercase tracking-wider opacity-90">Lượt ôn tập tiếp theo</p>
+            </div>
+            <p className="text-4xl font-black tracking-tight mt-6 drop-shadow-md">{nextReviewText}</p>
+            {nextReviewTimeText && activeSummary.due === 0 ? (
+              <p className="mt-3 inline-block rounded-lg bg-black/10 px-2 py-1 text-[10px] font-black text-white/80">{nextReviewTimeText}</p>
             ) : null}
           </div>
-          {activeSummary.due > 0 ? (
-            <button
-              type="button"
-              onClick={() => navigate(`/memory/${activeType}/review`)}
-              className="mt-5 rounded-xl bg-white px-5 py-3 font-black text-violet-700 transition-all hover:-translate-y-0.5"
-            >
-              Ôn tập ngay
-            </button>
-          ) : (
-            <p className="mt-5 max-w-md rounded-xl bg-white/20 p-4 font-bold text-white">{emptyText[activeType]}</p>
-          )}
-        </div>
+        </section>
+      </div>
 
-        <div className="rounded-2xl bg-blue-400/90 p-8 text-white shadow-sm">
-          <div className="flex items-center gap-2">
-            <Sparkles size={20} />
-            <p className="text-lg font-bold">Lượt ôn tập tiếp theo</p>
-          </div>
-          <p className="mt-8 text-3xl font-black tracking-wide">{nextReviewText}</p>
-          {nextReviewTimeText && activeSummary.due === 0 ? (
-            <p className="mt-3 text-sm font-bold text-white/80">{nextReviewTimeText}</p>
-          ) : null}
-        </div>
-      </section>
+      <ConfirmModal
+        isOpen={isResetModalOpen}
+        title={`Học lại ${activeConfig.label.toLowerCase()} từ đầu?`}
+        message={`Toàn bộ tiến độ ôn ${activeConfig.label.toLowerCase()} trong Ghi nhớ sẽ về trạng thái mới, số lần ôn và lịch ôn sẽ được reset. Các mục đã thêm vẫn được giữ lại.`}
+        confirmText="Reset tiến độ"
+        cancelText="Hủy"
+        processingText="Đang reset..."
+        onConfirm={resetGrammarProgress}
+        onCancel={() => setIsResetModalOpen(false)}
+        errorMessage={resetError}
+      />
     </div>
   );
 };

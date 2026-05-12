@@ -1,0 +1,390 @@
+{
+  "courseCode": "jpd113",
+  "level": "N5",
+  "lessons": [
+    {
+      "lessonNumber": 1,
+      "title": "Trợ từ cơ bản và Câu danh từ",
+      "description": "Học cách dùng các trợ từ cơ bản は、の、も、と và cấu trúc câu danh từ với です.",
+      "accessTier": "free",
+      "orderIndex": 1,
+      "patterns": [
+        {
+          "pattern": "N1 は N2 です。",
+          "title": "Câu khẳng định với です",
+          "meaning": "N1 là N2",
+          "structure": "N1 は N2 です",
+          "formation": "Danh từ 1 + は + Danh từ 2 + です",
+          "usageScope": "Dùng để giới thiệu tên, nghề nghiệp, quốc tịch, tuổi tác...",
+          "notes": "Trợ từ は phát âm là 'wa'. です thể hiện sự lịch sự.",
+          "orderIndex": 1,
+          "examples": [
+            { "japanese": "Aさんは学生です。", "reading": "Aさんはがくせいです。", "meaning": "Bạn A là sinh viên.", "orderIndex": 1 },
+            { "japanese": "私は日本人です。", "reading": "わたしはにほんじんです。", "meaning": "Tôi là người Nhật.", "orderIndex": 2 },
+            { "japanese": "田中さんは先生です。", "reading": "たなかさんはせんせいです。", "meaning": "Anh Tanaka là giáo viên.", "orderIndex": 3 },
+            { "japanese": "私は医者です。", "reading": "わたしはいしゃです。", "meaning": "Tôi là bác sĩ.", "orderIndex": 4 },
+            { "japanese": "マリアさんはブラジル人です。", "reading": "マリアさんはブラジルじんです。", "meaning": "Bạn Maria là người Brazil.", "orderIndex": 5 }
+          ]
+        },
+        {
+          "pattern": "N1 は N2 の N3 です。",
+          "title": "Câu khẳng định mở rộng với trợ từ の (thuộc về)",
+          "meaning": "N1 là N3 của N2",
+          "structure": "N1 は N2 の N3 です",
+          "formation": "N1 + は + N2 (tổ chức/nhóm) + の + N3 (vị trí/nghề nghiệp) + です",
+          "usageScope": "Nói rõ một cá nhân thuộc về một tổ chức hoặc vị trí nào đó.",
+          "notes": "Trợ từ の nối hai danh từ.",
+          "orderIndex": 2,
+          "examples": [
+            { "japanese": "やまださんはFPTの社員です。", "reading": "やまださんはFPTのしゃいんです。", "meaning": "Anh Yamada là nhân viên của FPT.", "orderIndex": 1 },
+            { "japanese": "アンさんは東京大学の学生です。", "reading": "アンさんはとうきょうだいがくのがくせいです。", "meaning": "Bạn An là sinh viên của trường đại học Tokyo.", "orderIndex": 2 },
+            { "japanese": "佐藤さんはABCのエンジニアです。", "reading": "さとうさんはABCのエンジニアです。", "meaning": "Anh Sato là kỹ sư của công ty ABC.", "orderIndex": 3 },
+            { "japanese": "ミラーさんはIMCの社員です。", "reading": "ミラーさんはIMCのしゃいんです。", "meaning": "Anh Miller là nhân viên của IMC.", "orderIndex": 4 },
+            { "japanese": "私は日本語センターの先生です。", "reading": "わたしはにほんごセンターのせんせいです。", "meaning": "Tôi là giáo viên của trung tâm tiếng Nhật.", "orderIndex": 5 }
+          ]
+        },
+        {
+          "pattern": "N1 の N2 は N3 です。",
+          "title": "Câu khẳng định mở rộng với trợ từ の (sở hữu/chi tiết)",
+          "meaning": "N2 của N1 là N3",
+          "structure": "N1 の N2 は N3 です",
+          "formation": "N1 + の + N2 + は + N3 + です",
+          "usageScope": "Xác định thông tin cụ thể của chủ ngữ.",
+          "notes": "Nhấn mạnh vào thông tin N3.",
+          "orderIndex": 3,
+          "examples": [
+            { "japanese": "私の趣味は映画です。", "reading": "わたしのしゅみはえいがです。", "meaning": "Sở thích của tôi là phim ảnh.", "orderIndex": 1 },
+            { "japanese": "アンさんの誕生日は６月です。", "reading": "アンさんのたんじょうびはろくがつです。", "meaning": "Sinh nhật của bạn An là tháng 6.", "orderIndex": 2 },
+            { "japanese": "私の電話番号は123です。", "reading": "わたしのでんわばんごうは123です。", "meaning": "Số điện thoại của tôi là 123.", "orderIndex": 3 },
+            { "japanese": "田中さんの専門はコンピューターです。", "reading": "たなかさんのせんもんはコンピューターです。", "meaning": "Chuyên môn của anh Tanaka là máy tính.", "orderIndex": 4 },
+            { "japanese": "私の父の職業は公務員です。", "reading": "わたしのちちのしょくぎょうはこうむいんです。", "meaning": "Nghề nghiệp của bố tôi là công chức.", "orderIndex": 5 }
+          ]
+        },
+        {
+          "pattern": "N1 も N2 です。",
+          "title": "Trợ từ も (Cũng là)",
+          "meaning": "N1 cũng là N2",
+          "structure": "N1 も N2 です",
+          "formation": "N1 + も + N2 + です",
+          "usageScope": "Dùng khi N1 có cùng đặc điểm/thông tin với đối tượng đã nhắc trước đó.",
+          "notes": "Trợ từ も thay thế cho は.",
+          "orderIndex": 4,
+          "examples": [
+            { "japanese": "私は二十歳です。Bさんも二十歳です。", "reading": "わたしははたちです。Bさんもはたちです。", "meaning": "Tôi 20 tuổi. Bạn B cũng 20 tuổi.", "orderIndex": 1 },
+            { "japanese": "私も学生です。", "reading": "わたしもがくせいです。", "meaning": "Tôi cũng là sinh viên.", "orderIndex": 2 },
+            { "japanese": "田中さんは日本人です。佐藤さんも日本人です。", "reading": "たなかさんはにほんじんです.さとうさんもにほんじんです.", "meaning": "Anh Tanaka là người Nhật. Anh Sato cũng là người Nhật.", "orderIndex": 3 },
+            { "japanese": "この本は五百円です。その本も五百円です。", "reading": "このほんはごひゃくえんです.そのほんもごひゃくえんです.", "meaning": "Quyển sách này 500 yên. Quyển sách đó cũng 500 yên.", "orderIndex": 4 },
+            { "japanese": "マリアさんは主婦です。アンさんも主婦です。", "reading": "マリアさんはしゅふです.アンさんもしゅふです.", "meaning": "Chị Maria là nội trợ. Bạn An cũng là nội trợ.", "orderIndex": 5 }
+          ]
+        },
+        {
+          "pattern": "N1 は N2 じゃありません。",
+          "title": "Câu phủ định của danh từ",
+          "meaning": "N1 không phải là N2",
+          "structure": "N1 は N2 じゃありません / ではありません",
+          "formation": "N1 + は + N2 + じゃありません / ではありません",
+          "usageScope": "Dùng để phủ định thông tin về N1.",
+          "notes": "じゃありません dùng trong văn nói, ではありません dùng trong văn viết hoặc trang trọng.",
+          "orderIndex": 5,
+          "examples": [
+            { "japanese": "さとさんは日本人じゃありません。", "reading": "さとさんはにほんじんじゃありません。", "meaning": "Bạn Sato không phải là người Nhật.", "orderIndex": 1 },
+            { "japanese": "私は学生じゃありません。", "reading": "わたしはgあくせいじゃありません。", "meaning": "Tôi không phải là sinh viên.", "orderIndex": 2 },
+            { "japanese": "ミラーさんはアメリカ人じゃありません。", "reading": "ミラーさんはアメリカじんじゃありません。", "meaning": "Anh Miller không phải là người Mỹ.", "orderIndex": 3 },
+            { "japanese": "ここは食堂じゃありません。", "reading": "ここはしょくどうじゃありません。", "meaning": "Ở đây không phải là nhà ăn.", "orderIndex": 4 },
+            { "japanese": "今日は日曜日じゃありません。", "reading": "きょうはにちようびじゃありません。", "meaning": "Hôm nay không phải là chủ nhật.", "orderIndex": 5 }
+          ]
+        },
+        {
+          "pattern": "N1 と N2",
+          "title": "Trợ từ と (Và)",
+          "meaning": "N1 và N2",
+          "structure": "N1 と N2",
+          "formation": "Danh từ 1 + と + Danh từ 2",
+          "usageScope": "Dùng để nối hai danh từ cùng vai vế.",
+          "notes": "Chỉ dùng để nối danh từ.",
+          "orderIndex": 6,
+          "examples": [
+            { "japanese": "私の趣味は旅行と料理です。", "reading": "わたしのしゅみはりょこうとりょうりです。", "meaning": "Sở thích của tôi là du lịch và nấu ăn.", "orderIndex": 1 },
+            { "japanese": "アンさんとワンさんは友達です。", "reading": "アンさんとワンさんはともだちです。", "meaning": "Bạn An và bạn Wan là bạn bè.", "orderIndex": 2 },
+            { "japanese": "机の上に本と雑誌があります。", "reading": "つくえのうえにほんとざっしがあります。", "meaning": "Trên bàn có sách và tạp chí.", "orderIndex": 3 },
+            { "japanese": "朝ごはんはパンと卵です。", "reading": "あさごはんはおぱんとたまごです。", "meaning": "Bữa sáng là bánh mì và trứng.", "orderIndex": 4 },
+            { "japanese": "お土産は時計とカメラです。", "reading": "おみやげはとけいとかめらです。", "meaning": "Quà lưu niệm là đồng hồ và máy ảnh.", "orderIndex": 5 }
+          ]
+        },
+        {
+          "pattern": "N は [Từ hỏi] ですか。",
+          "title": "Câu hỏi có từ để hỏi",
+          "meaning": "N là [gì/đâu/ai]?",
+          "structure": "N は + Từ hỏi + ですか",
+          "formation": "Chủ ngữ + は + (なん/どこ/だれ/どちら...) + ですか",
+          "usageScope": "Dùng để hỏi thông tin cụ thể.",
+          "notes": "Cuối câu thêm trợ từ か và lên giọng.",
+          "orderIndex": 7,
+          "examples": [
+            { "japanese": "Bさんの国はどちらですか。", "reading": "Bさんのくにはどちらですか。", "meaning": "Đất nước của bạn B là ở đâu?", "orderIndex": 1 },
+            { "japanese": "お名前は何ですか。", "reading": "おなまえはなんですか。", "meaning": "Tên bạn là gì?", "orderIndex": 2 },
+            { "japanese": "あの方はどなたですか。", "reading": "あのかたはどなたですか。", "meaning": "Vị kia là ai vậy?", "orderIndex": 3 },
+            { "japanese": "大学の電話番号は何番ですか。", "reading": "だいがくのでんわばんごうはなんばんですか。", "meaning": "Số điện thoại của trường đại học là số mấy?", "orderIndex": 4 },
+            { "japanese": "お手洗いはどこですか。", "reading": "おてあらいはどこですか。", "meaning": "Nhà vệ sinh ở đâu vậy?", "orderIndex": 5 }
+          ]
+        },
+        {
+          "pattern": "N1 は N2 ですか。",
+          "title": "Câu hỏi Yes/No",
+          "meaning": "N1 có phải là N2 không?",
+          "structure": "N1 は N2 ですか",
+          "formation": "N1 + は + N2 + ですか",
+          "usageScope": "Dùng để xác nhận thông tin đúng hay sai.",
+          "notes": "Trả lời bằng はい hoặc いいえ.",
+          "orderIndex": 8,
+          "examples": [
+            { "japanese": "Aさんの誕生日は五月ですか。", "reading": "Aさんのたんじょうびはごがつですか。", "meaning": "Sinh nhật của bạn A là tháng 5 à?", "orderIndex": 1 },
+            { "japanese": "あなたは日本人ですか。", "reading": "あなたはにほんじんですか。", "meaning": "Bạn là người Nhật có phải không?", "orderIndex": 2 },
+            { "japanese": "佐藤さんは学生ですか。", "reading": "さとうさんはがくせいですか。", "meaning": "Anh Sato là sinh viên phải không?", "orderIndex": 3 },
+            { "japanese": "これはあなたの傘ですか。", "reading": "これはあなたのかさですか。", "meaning": "Đây là ô của bạn phải không?", "orderIndex": 4 },
+            { "japanese": "お仕事は会社員ですか。", "reading": "おしごとはかいしゃいんですか。", "meaning": "Công việc của bạn là nhân viên công ty phải không?", "orderIndex": 5 }
+          ]
+        }
+      ]
+    },
+    {
+      "lessonNumber": 2,
+      "title": "Vị trí, Giá cả và Xuất xứ",
+      "description": "Học cách hỏi vị trí, số tầng, giá tiền, nội dung, xuất xứ và sở hữu.",
+      "accessTier": "free",
+      "orderIndex": 2,
+      "patterns": [
+        {
+          "pattern": "～は どこですか / どちらですか。",
+          "title": "Hỏi vị trí",
+          "meaning": "~ ở đâu?",
+          "structure": "N は どこ/どちら ですか",
+          "formation": "Danh từ + は + どこ (thông thường) / どちら (lịch sự) + ですか",
+          "usageScope": "Hỏi vị trí của địa điểm, đồ vật hoặc người.",
+          "notes": "どちら còn dùng để hỏi phương hướng.",
+          "orderIndex": 1,
+          "examples": [
+            { "japanese": "トイレはどこですか。", "reading": "トイレはどこですか。", "meaning": "Nhà vệ sinh ở đâu?", "orderIndex": 1 },
+            { "japanese": "エレベーターはどちらですか。", "reading": "エレベーターはどちらですか。", "meaning": "Thang máy ở đâu (hướng nào)?", "orderIndex": 2 },
+            { "japanese": "事務所はどこですか。", "reading": "じむしょはどこですか。", "meaning": "Văn phòng ở đâu vậy?", "orderIndex": 3 },
+            { "japanese": "あなたの国はどちらですか。", "reading": "あなたのくにはどちらですか。", "meaning": "Đất nước của bạn là ở đâu (phía nào)?", "orderIndex": 4 },
+            { "japanese": "受付はどこですか。", "reading": "うけつけはどこですか。", "meaning": "Quầy tiếp tân ở đâu?", "orderIndex": 5 }
+          ]
+        },
+        {
+          "pattern": "～は なんかいですか。",
+          "title": "Hỏi số tầng",
+          "meaning": "~ ở tầng mấy?",
+          "structure": "N は なんかい ですか",
+          "formation": "Danh từ + は + なんかい + ですか",
+          "usageScope": "Hỏi vị trí tầng của một địa điểm trong tòa nhà.",
+          "notes": "Trả lời bằng số tầng + かい/がい.",
+          "orderIndex": 2,
+          "examples": [
+            { "japanese": "レストランは何階ですか。", "reading": "レストランはなんかいですか。", "meaning": "Nhà hàng ở tầng mấy?", "orderIndex": 1 },
+            { "japanese": "会議室は何階ですか。", "reading": "かいぎしつはなんかいですか。", "meaning": "Phòng họp ở tầng mấy?", "orderIndex": 2 },
+            { "japanese": "売り場は何階ですか。", "reading": "うりばはなんかいですか。", "meaning": "Quầy bán hàng ở tầng mấy?", "orderIndex": 3 },
+            { "japanese": "パソコン売り場は何階ですか。", "reading": "パソコンうりばはなんかいですか。", "meaning": "Quầy bán máy tính ở tầng mấy?", "orderIndex": 4 },
+            { "japanese": "私の部屋は三階です。", "reading": "わたしのへやはさんがいです。", "meaning": "Phòng của tôi ở tầng 3.", "orderIndex": 5 }
+          ]
+        },
+        {
+          "pattern": "N を ください。",
+          "title": "Yêu cầu/Gọi món",
+          "meaning": "Cho tôi N / Lấy cho tôi N",
+          "structure": "N を ください",
+          "formation": "Danh từ + を + ください",
+          "usageScope": "Dùng khi mua hàng hoặc gọi món trong nhà hàng.",
+          "notes": "Có thể thêm số lượng vào trước ください.",
+          "orderIndex": 3,
+          "examples": [
+            { "japanese": "そのTシャツをください。", "reading": "そのTシャツをください。", "meaning": "Cho tôi cái áo thun đó.", "orderIndex": 1 },
+            { "japanese": "りんごを三つください。", "reading": "りんごをみっつください。", "meaning": "Cho tôi 3 quả táo.", "orderIndex": 2 },
+            { "japanese": "このペンをください。", "reading": "このぺんをください。", "meaning": "Lấy cho tôi cái bút này.", "orderIndex": 3 },
+            { "japanese": "コーヒーを二つください。", "reading": "コーヒーをふたつください。", "meaning": "Cho tôi 2 ly cà phê.", "orderIndex": 4 },
+            { "japanese": "水をください。", "reading": "みずをください。", "meaning": "Cho tôi xin nước.", "orderIndex": 5 }
+          ]
+        },
+        {
+          "pattern": "～は いくらですか。",
+          "title": "Hỏi giá cả",
+          "meaning": "~ bao nhiêu tiền?",
+          "structure": "N は いくら ですか",
+          "formation": "Danh từ + は + いくら + ですか",
+          "usageScope": "Hỏi giá của món đồ.",
+          "notes": "いくら là từ hỏi về giá cả.",
+          "orderIndex": 4,
+          "examples": [
+            { "japanese": "これはいくらですか。", "reading": "これはいくらですか。", "meaning": "Cái này bao nhiêu tiền?", "orderIndex": 1 },
+            { "japanese": "その靴はいくらですか。", "reading": "そのくつはいくらですか。", "meaning": "Đôi giày đó bao nhiêu tiền?", "orderIndex": 2 },
+            { "japanese": "このカメラはいくらですか。", "reading": "このかめらはいくらですか。", "meaning": "Máy ảnh này bao nhiêu tiền?", "orderIndex": 3 },
+            { "japanese": "そのリンゴは一ついくらですか。", "reading": "そのリンゴはひとついくらですか。", "meaning": "Quả táo đó bao nhiêu tiền một quả?", "orderIndex": 4 },
+            { "japanese": "お勘定はいくらですか。", "reading": "おかんじょうはいくらですか。", "meaning": "Thanh toán hết bao nhiêu tiền vậy?", "orderIndex": 5 }
+          ]
+        },
+        {
+          "pattern": "～は どこの N ですか。",
+          "title": "Hỏi về xuất xứ/nơi sản xuất",
+          "meaning": "N của nước nào/hãng nào?",
+          "structure": "N1 は どこの N2 ですか",
+          "formation": "N1 + は + どこの + N2 + ですか",
+          "usageScope": "Hỏi về nguồn gốc, nơi sản xuất của đồ vật.",
+          "notes": "どこの trả lời bằng tên quốc gia hoặc tên công ty.",
+          "orderIndex": 5,
+          "examples": [
+            { "japanese": "これはどこのビールですか。", "reading": "これはどこのビールですか。", "meaning": "Đây là bia của nước nào?", "orderIndex": 1 },
+            { "japanese": "これはどこのカメラですか。", "reading": "これはどこのカメラですか。", "meaning": "Đây là máy ảnh của hãng nào (nước nào)?", "orderIndex": 2 },
+            { "japanese": "それはどこの車ですか。", "reading": "それはどこのくるまですか。", "meaning": "Đó là xe ô tô của hãng nào?", "orderIndex": 3 },
+            { "japanese": "これはどこのワインですか。", "reading": "これはどこのワインですか。", "meaning": "Đây là rượu vang của nước nào?", "orderIndex": 4 },
+            { "japanese": "このネクタイはどこのですか。", "reading": "このねくたいはどこのですか。", "meaning": "Cái cà vạt này là của hãng nào?", "orderIndex": 5 }
+          ]
+        },
+        {
+          "pattern": "～は だれの N ですか。",
+          "title": "Hỏi về sở hữu",
+          "meaning": "N của ai?",
+          "structure": "N1 は だれの N2 ですか",
+          "formation": "N1 + は + だれの + N2 + ですか",
+          "usageScope": "Hỏi món đồ thuộc về ai.",
+          "notes": "だれ là từ hỏi về người.",
+          "orderIndex": 6,
+          "examples": [
+            { "japanese": "これはだれの財布ですか。", "reading": "これはだれのさいふですか。", "meaning": "Cái ví này của ai?", "orderIndex": 1 },
+            { "japanese": "これは誰の傘ですか。", "reading": "これはだれのかさですか。", "meaning": "Cái ô này của ai?", "orderIndex": 2 },
+            { "japanese": "そのノートは誰のですか。", "reading": "そののーとはだれのですか。", "meaning": "Quyển vở đó là của ai?", "orderIndex": 3 },
+            { "japanese": "この鍵は誰のですか。", "reading": "このかぎはだれのですか。", "meaning": "Chìa khóa này là của ai?", "orderIndex": 4 },
+            { "japanese": "あのかばんは誰のですか。", "reading": "あのかばんはだれのですか。", "meaning": "Cái cặp kia là của ai?", "orderIndex": 5 }
+          ]
+        }
+      ]
+    },
+    {
+      "lessonNumber": 3,
+      "title": "Hành động, Thời gian và Địa điểm",
+      "description": "Học về động từ thể ます, các trợ từ chỉ hành động, thời gian, địa điểm và cách liệt kê.",
+      "accessTier": "free",
+      "orderIndex": 3,
+      "patterns": [
+        {
+          "pattern": "Vます / Vません",
+          "title": "Thể khẳng định và phủ định của động từ",
+          "meaning": "Làm V / Không làm V",
+          "structure": "V ます / V ません",
+          "formation": "Động từ chia thể ます hoặc ません",
+          "usageScope": "Diễn tả hành động trong tương lai hoặc thói quen hiện tại.",
+          "notes": "Dùng để nói về bản thân hoặc hỏi người khác lịch sự.",
+          "orderIndex": 1,
+          "examples": [
+            { "japanese": "毎日、朝ごはんを食べます。", "reading": "まいにち、あさごはんをたべます。", "meaning": "Mỗi ngày tôi đều ăn sáng.", "orderIndex": 1 },
+            { "japanese": "日曜日は働きません。", "reading": "にちようびははたらきません。", "meaning": "Chủ nhật tôi không làm việc.", "orderIndex": 2 },
+            { "japanese": "明日は学校へ行きます。", "reading": "あしたはがっこうへいきます。", "meaning": "Ngày mai tôi sẽ đến trường.", "orderIndex": 3 },
+            { "japanese": "お酒を飲みません。", "reading": "おさけをのみません。", "meaning": "Tôi không uống rượu.", "orderIndex": 4 },
+            { "japanese": "毎晩、日本語を勉強します。", "reading": "まいばん、にほんごをべんきょうします。", "meaning": "Mỗi tối tôi đều học tiếng Nhật.", "orderIndex": 5 }
+          ]
+        },
+        {
+          "pattern": "N (Địa điểm) へ いきます/きます/かえります",
+          "title": "Di chuyển tới một địa điểm",
+          "meaning": "Đi / Đến / Về địa điểm N",
+          "structure": "N へ 行きます/来ます/帰ります",
+          "formation": "Danh từ địa điểm + へ + động từ di chuyển",
+          "usageScope": "Diễn tả hướng di chuyển của chủ ngữ.",
+          "notes": "Trợ từ へ phát âm là 'e'.",
+          "orderIndex": 2,
+          "examples": [
+            { "japanese": "私は日曜日、図書館へ行きます。", "reading": "わたしはにちようび、としょかんへいきます。", "meaning": "Chủ nhật tôi đi đến thư viện.", "orderIndex": 1 },
+            { "japanese": "明日、東京へ行きます。", "reading": "あした、とうきょうへいきます。", "meaning": "Ngày mai tôi sẽ đi Tokyo.", "orderIndex": 2 },
+            { "japanese": "五時に家へ帰ります。", "reading": "ごじにうちへかえります。", "meaning": "Tôi về nhà lúc 5 giờ.", "orderIndex": 3 },
+            { "japanese": "来週、日本へ来ます。", "reading": "らいしゅう、にほんへきます。", "meaning": "Tuần sau tôi sẽ đến Nhật Bản.", "orderIndex": 4 },
+            { "japanese": "スーパーへ行きます。", "reading": "スーパーへいきます。", "meaning": "Tôi đi siêu thị.", "orderIndex": 5 }
+          ]
+        },
+        {
+          "pattern": "N を Vます",
+          "title": "Tác động lên tân ngữ",
+          "meaning": "Làm V cái N",
+          "structure": "N を V ます",
+          "formation": "Danh từ + を + Động từ",
+          "usageScope": "Diễn tả hành động tác động trực tiếp lên một đối tượng.",
+          "notes": "Trợ từ を phát âm là 'o'.",
+          "orderIndex": 3,
+          "examples": [
+            { "japanese": "私は毎日、コーヒーを飲みます。", "reading": "わたしはまいにち、コーヒーをのみます。", "meaning": "Mỗi sáng tôi uống cà phê.", "orderIndex": 1 },
+            { "japanese": "毎晩、テレビを見ます。", "reading": "まいばん、テレビをみます。", "meaning": "Mỗi tối tôi đều xem tivi.", "orderIndex": 2 },
+            { "japanese": "リンゴを食べます。", "reading": "りんごをたべます。", "meaning": "Tôi ăn táo.", "orderIndex": 3 },
+            { "japanese": "音楽を聞きます。", "reading": "おんがくをききます。", "meaning": "Tôi nghe nhạc.", "orderIndex": 4 },
+            { "japanese": "手紙を書きます。", "reading": "てがみをかきます。", "meaning": "Tôi viết thư.", "orderIndex": 5 }
+          ]
+        },
+        {
+          "pattern": "N (Thời gian) に Vます",
+          "title": "Hành động vào thời điểm cụ thể",
+          "meaning": "Làm V vào lúc N",
+          "structure": "N に V ます",
+          "formation": "Danh từ thời gian (có số) + に + Động từ",
+          "usageScope": "Xác định thời điểm chính xác xảy ra hành động.",
+          "notes": "Chỉ dùng に với thời gian có con số cụ thể.",
+          "orderIndex": 4,
+          "examples": [
+            { "japanese": "私は八時に起きます。", "reading": "わたしははちじにおきます。", "meaning": "Tôi thức dậy lúc 8 giờ.", "orderIndex": 1 },
+            { "japanese": "夜十一時に寝ます。", "reading": "よるじゅういちじにねます。", "meaning": "Tôi đi ngủ lúc 11 giờ đêm.", "orderIndex": 2 },
+            { "japanese": "土曜日に働きます。", "reading": "どようびにはたらきます。", "meaning": "Tôi làm việc vào thứ bảy.", "orderIndex": 3 },
+            { "japanese": "七月一日に日本へ行きます。", "reading": "しちがつついたちににほんへいきます。", "meaning": "Tôi đi Nhật vào ngày 1 tháng 7.", "orderIndex": 4 },
+            { "japanese": "十時に休みます。", "reading": "じゅうじにやすみます。", "meaning": "Tôi nghỉ ngơi lúc 10 giờ.", "orderIndex": 5 }
+          ]
+        },
+        {
+          "pattern": "N (Địa điểm) で Vます",
+          "title": "Hành động tại một địa điểm",
+          "meaning": "Làm V ở địa điểm N",
+          "structure": "N で V ます",
+          "formation": "Danh từ địa điểm + で + Động từ",
+          "usageScope": "Diễn tả nơi diễn ra hành động.",
+          "notes": "Phân biệt với trợ từ へ (hướng đến).",
+          "orderIndex": 5,
+          "examples": [
+            { "japanese": "私は北海道でスキーをします。", "reading": "わたしはほっかいどうでスキーをします。", "meaning": "Tôi trượt tuyết ở Hokkaido.", "orderIndex": 1 },
+            { "japanese": "学校で日本語を勉強します。", "reading": "がっこうでにほんごをべんきょうします。", "meaning": "Tôi học tiếng Nhật ở trường.", "orderIndex": 2 },
+            { "japanese": "食堂で昼ごはんを食べます。", "reading": "しょくどうでひるごはんをたべます。", "meaning": "Tôi ăn trưa ở nhà ăn.", "orderIndex": 3 },
+            { "japanese": "部屋で本を読みます。", "reading": "へやでほんをよみます。", "meaning": "Tôi đọc sách ở trong phòng.", "orderIndex": 4 },
+            { "japanese": "駅で新聞を買います。", "reading": "えきでしんぶんをかいます。", "meaning": "Tôi mua báo ở nhà ga.", "orderIndex": 5 }
+          ]
+        },
+        {
+          "pattern": "N1 から N2 まで",
+          "title": "Khoảng thời gian/địa điểm",
+          "meaning": "Từ N1 đến N2",
+          "structure": "N1 から N2 まで",
+          "formation": "N1 (Bắt đầu) + から + N2 (Kết thúc) + まで",
+          "usageScope": "Diễn tả phạm vi thời gian hoặc không gian.",
+          "notes": "Có thể dùng lẻ から hoặc まで.",
+          "orderIndex": 6,
+          "examples": [
+            { "japanese": "郵便局は九時から五時までです。", "reading": "ゆうびんきょくはくじからごじまでです。", "meaning": "Bưu điện mở cửa từ 9 giờ đến 5 giờ.", "orderIndex": 1 },
+            { "japanese": "東京から大阪まで三時間かかります。", "reading": "とうきょうからおおさかまでさんじかんかかります。", "meaning": "Từ Tokyo đến Osaka mất 3 tiếng đồng hồ.", "orderIndex": 2 },
+            { "japanese": "月曜日から金曜日まで働きます。", "reading": "げつようびからきんようびまではたらきます。", "meaning": "Tôi làm việc từ thứ hai đến thứ sáu.", "orderIndex": 3 },
+            { "japanese": "昼休みは十二時から一時までです。", "reading": "ひるやすみはじゅうにじからいちじまでです。", "meaning": "Nghỉ trưa từ 12 giờ đến 1 giờ.", "orderIndex": 4 },
+            { "japanese": "家から駅まで歩きます。", "reading": "うちからえきまであるきます。", "meaning": "Tôi đi bộ từ nhà đến ga.", "orderIndex": 5 }
+          ]
+        },
+        {
+          "pattern": "N1 や N2 など",
+          "title": "Liệt kê không đầy đủ",
+          "meaning": "N1 và N2, v.v...",
+          "structure": "N1 や N2 など",
+          "formation": "N1 + や + N2 + など",
+          "usageScope": "Dùng khi muốn liệt kê một vài ví dụ tiêu biểu.",
+          "notes": "Khác với と (liệt kê toàn bộ).",
+          "orderIndex": 7,
+          "examples": [
+            { "japanese": "私は朝、パンやサラダなどを食べます。", "reading": "わたしはあさ、パンやサラダなどをたべます。", "meaning": "Buổi sáng tôi ăn bánh mì, salad, v.v...", "orderIndex": 1 },
+            { "japanese": "鞄の中に本やノートなどがあります。", "reading": "かばんのなかにほんやノートなどがあります。", "meaning": "Trong túi xách có sách, vở, v.v...", "orderIndex": 2 },
+            { "japanese": "店に飲み物や食べ物などがあります。", "reading": "みせにのみものやたべものなどがあります。", "meaning": "Ở cửa hàng có đồ uống, đồ ăn, v.v...", "orderIndex": 3 },
+            { "japanese": "休みに旅行やスポーツなどをします。", "reading": "やすみにりょこうやすぽーつなどをします。", "meaning": "Vào kỳ nghỉ tôi đi du lịch, chơi thể thao, v.v...", "orderIndex": 4 },
+            { "japanese": "箱の中に写真や手紙などがあります。", "reading": "はこのなかにしゃしんやてがみなどがあります。", "meaning": "Trong hộp có ảnh, thư, v.v...", "orderIndex": 5 }
+          ]
+        }
+      ]
+    }
+  ]
+}

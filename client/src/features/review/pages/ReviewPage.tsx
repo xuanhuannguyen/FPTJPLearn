@@ -4,8 +4,8 @@ export const ReviewPage = () => {
   const { listId } = useParams();
 
   if (!listId) {
-    return <Navigate to="/vocabulary" replace />;
+    return <Navigate to="/active-vocabulary" replace />;
   }
 
-  return <Navigate to={`/vocabulary/${listId}?study=1`} replace />;
+  return <Navigate to={`/active-vocabulary/${listId}?study=1`} replace />;
 };

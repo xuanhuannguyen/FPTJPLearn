@@ -22,6 +22,508 @@ namespace JPLearn.Infrastructure.Migrations
 
             NpgsqlModelBuilderExtensions.UseIdentityByDefaultColumns(modelBuilder);
 
+            modelBuilder.Entity("JPLearn.Core.ExamPractice.Entities.ExamAttempt", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uuid");
+
+                    b.Property<Guid?>("BlueprintId")
+                        .HasColumnType("uuid");
+
+                    b.Property<int>("CorrectCount")
+                        .HasColumnType("integer");
+
+                    b.Property<string>("CourseCode")
+                        .IsRequired()
+                        .ValueGeneratedOnAdd()
+                        .HasMaxLength(30)
+                        .HasColumnType("character varying(30)")
+                        .HasDefaultValue("jpd113");
+
+                    b.Property<DateTime>("CreatedAt")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.Property<int>("DurationMinutes")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("integer")
+                        .HasDefaultValue(30);
+
+                    b.Property<DateTime>("ExpiresAt")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.Property<string>("Mode")
+                        .IsRequired()
+                        .ValueGeneratedOnAdd()
+                        .HasMaxLength(30)
+                        .HasColumnType("character varying(30)")
+                        .HasDefaultValue("practice");
+
+                    b.Property<double>("ScorePercent")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("double precision")
+                        .HasDefaultValue(0.0);
+
+                    b.Property<DateTime>("StartedAt")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("timestamp with time zone")
+                        .HasDefaultValueSql("NOW()");
+
+                    b.Property<string>("Status")
+                        .IsRequired()
+                        .HasMaxLength(30)
+                        .HasColumnType("character varying(30)");
+
+                    b.Property<DateTime?>("SubmittedAt")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.Property<int>("TotalQuestions")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("integer")
+                        .HasDefaultValue(30);
+
+                    b.Property<DateTime>("UpdatedAt")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.Property<Guid>("UserId")
+                        .HasColumnType("uuid");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("BlueprintId");
+
+                    b.HasIndex("CourseCode");
+
+                    b.HasIndex("ExpiresAt");
+
+                    b.HasIndex("UserId", "StartedAt");
+
+                    b.HasIndex("UserId", "CourseCode", "Status");
+
+                    b.ToTable("exam_attempts", (string)null);
+                });
+
+            modelBuilder.Entity("JPLearn.Core.ExamPractice.Entities.ExamAttemptAnswer", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uuid");
+
+                    b.Property<DateTime?>("AnsweredAt")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.Property<Guid>("AttemptId")
+                        .HasColumnType("uuid");
+
+                    b.Property<DateTime>("CreatedAt")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.Property<bool?>("IsCorrect")
+                        .HasColumnType("boolean");
+
+                    b.Property<Guid>("QuestionId")
+                        .HasColumnType("uuid");
+
+                    b.Property<Guid?>("SelectedOptionId")
+                        .HasColumnType("uuid");
+
+                    b.Property<int>("SequenceNumber")
+                        .HasColumnType("integer");
+
+                    b.Property<DateTime>("UpdatedAt")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("QuestionId");
+
+                    b.HasIndex("SelectedOptionId");
+
+                    b.HasIndex("AttemptId", "QuestionId")
+                        .IsUnique();
+
+                    b.HasIndex("AttemptId", "SequenceNumber");
+
+                    b.ToTable("exam_attempt_answers", (string)null);
+                });
+
+            modelBuilder.Entity("JPLearn.Core.ExamPractice.Entities.ExamBlueprint", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uuid");
+
+                    b.Property<string>("CourseCode")
+                        .IsRequired()
+                        .HasMaxLength(30)
+                        .HasColumnType("character varying(30)");
+
+                    b.Property<DateTime>("CreatedAt")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.Property<bool>("IsActive")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("boolean")
+                        .HasDefaultValue(true);
+
+                    b.Property<int>("TimeLimitMinutes")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("integer")
+                        .HasDefaultValue(30);
+
+                    b.Property<string>("Title")
+                        .IsRequired()
+                        .HasMaxLength(200)
+                        .HasColumnType("character varying(200)");
+
+                    b.Property<DateTime>("UpdatedAt")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("CourseCode", "IsActive");
+
+                    b.ToTable("exam_blueprints", (string)null);
+                });
+
+            modelBuilder.Entity("JPLearn.Core.ExamPractice.Entities.ExamBlueprintRule", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uuid");
+
+                    b.Property<Guid>("BlueprintId")
+                        .HasColumnType("uuid");
+
+                    b.Property<DateTime>("CreatedAt")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.Property<int>("QuestionCount")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("integer")
+                        .HasDefaultValue(0);
+
+                    b.Property<string>("Topic")
+                        .IsRequired()
+                        .HasMaxLength(50)
+                        .HasColumnType("character varying(50)");
+
+                    b.Property<DateTime>("UpdatedAt")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("BlueprintId");
+
+                    b.ToTable("exam_blueprint_rules", (string)null);
+                });
+
+            modelBuilder.Entity("JPLearn.Core.ExamPractice.Entities.ExamCourse", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uuid");
+
+                    b.Property<string>("AccessTier")
+                        .IsRequired()
+                        .ValueGeneratedOnAdd()
+                        .HasMaxLength(30)
+                        .HasColumnType("character varying(30)")
+                        .HasDefaultValue("free");
+
+                    b.Property<string>("Code")
+                        .IsRequired()
+                        .HasMaxLength(30)
+                        .HasColumnType("character varying(30)");
+
+                    b.Property<DateTime>("CreatedAt")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.Property<string>("Description")
+                        .HasMaxLength(1000)
+                        .HasColumnType("character varying(1000)");
+
+                    b.Property<bool>("IsActive")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("boolean")
+                        .HasDefaultValue(true);
+
+                    b.Property<int>("OrderIndex")
+                        .HasColumnType("integer");
+
+                    b.Property<string>("PackageCode")
+                        .HasMaxLength(100)
+                        .HasColumnType("character varying(100)");
+
+                    b.Property<string>("Title")
+                        .IsRequired()
+                        .HasMaxLength(200)
+                        .HasColumnType("character varying(200)");
+
+                    b.Property<DateTime>("UpdatedAt")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("Code")
+                        .IsUnique();
+
+                    b.HasIndex("IsActive", "OrderIndex");
+
+                    b.ToTable("exam_courses", (string)null);
+                });
+
+            modelBuilder.Entity("JPLearn.Core.ExamPractice.Entities.ExamPassage", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uuid");
+
+                    b.Property<string>("Content")
+                        .IsRequired()
+                        .HasMaxLength(5000)
+                        .HasColumnType("character varying(5000)");
+
+                    b.Property<string>("CourseCode")
+                        .IsRequired()
+                        .ValueGeneratedOnAdd()
+                        .HasMaxLength(30)
+                        .HasColumnType("character varying(30)")
+                        .HasDefaultValue("jpd113");
+
+                    b.Property<DateTime>("CreatedAt")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.Property<bool>("IsActive")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("boolean")
+                        .HasDefaultValue(true);
+
+                    b.Property<string>("Level")
+                        .IsRequired()
+                        .HasMaxLength(10)
+                        .HasColumnType("character varying(10)");
+
+                    b.Property<int>("OrderIndex")
+                        .HasColumnType("integer");
+
+                    b.Property<string>("Title")
+                        .IsRequired()
+                        .HasMaxLength(200)
+                        .HasColumnType("character varying(200)");
+
+                    b.Property<string>("Topic")
+                        .IsRequired()
+                        .HasMaxLength(50)
+                        .HasColumnType("character varying(50)");
+
+                    b.Property<DateTime>("UpdatedAt")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("OrderIndex");
+
+                    b.HasIndex("CourseCode", "Topic");
+
+                    b.HasIndex("CourseCode", "Level", "Topic", "IsActive");
+
+                    b.ToTable("exam_passages", (string)null);
+                });
+
+            modelBuilder.Entity("JPLearn.Core.ExamPractice.Entities.ExamPracticeProgress", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uuid");
+
+                    b.Property<string>("CourseCode")
+                        .IsRequired()
+                        .HasMaxLength(30)
+                        .HasColumnType("character varying(30)");
+
+                    b.Property<DateTime>("CreatedAt")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.Property<string>("Topic")
+                        .IsRequired()
+                        .HasMaxLength(50)
+                        .HasColumnType("character varying(50)");
+
+                    b.Property<int>("TotalCompleted")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("integer")
+                        .HasDefaultValue(0);
+
+                    b.Property<DateTime>("UpdatedAt")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.Property<Guid>("UserId")
+                        .HasColumnType("uuid");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("UserId", "CourseCode", "Topic")
+                        .IsUnique();
+
+                    b.ToTable("exam_practice_progress", (string)null);
+                });
+
+            modelBuilder.Entity("JPLearn.Core.ExamPractice.Entities.ExamQuestion", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uuid");
+
+                    b.Property<string>("CourseCode")
+                        .IsRequired()
+                        .ValueGeneratedOnAdd()
+                        .HasMaxLength(30)
+                        .HasColumnType("character varying(30)")
+                        .HasDefaultValue("jpd113");
+
+                    b.Property<DateTime>("CreatedAt")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.Property<string>("Explanation")
+                        .IsRequired()
+                        .HasMaxLength(3000)
+                        .HasColumnType("character varying(3000)");
+
+                    b.Property<bool>("IsActive")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("boolean")
+                        .HasDefaultValue(true);
+
+                    b.Property<string>("Level")
+                        .IsRequired()
+                        .HasMaxLength(10)
+                        .HasColumnType("character varying(10)");
+
+                    b.Property<int>("OrderIndex")
+                        .HasColumnType("integer");
+
+                    b.Property<Guid?>("PassageId")
+                        .HasColumnType("uuid");
+
+                    b.Property<string>("QuestionText")
+                        .IsRequired()
+                        .HasMaxLength(2000)
+                        .HasColumnType("character varying(2000)");
+
+                    b.Property<string>("QuestionType")
+                        .IsRequired()
+                        .HasMaxLength(30)
+                        .HasColumnType("character varying(30)");
+
+                    b.Property<string>("Topic")
+                        .IsRequired()
+                        .HasMaxLength(50)
+                        .HasColumnType("character varying(50)");
+
+                    b.Property<DateTime>("UpdatedAt")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("PassageId");
+
+                    b.HasIndex("CourseCode", "Level", "OrderIndex");
+
+                    b.HasIndex("CourseCode", "Topic", "Level", "IsActive");
+
+                    b.ToTable("exam_questions", (string)null);
+                });
+
+            modelBuilder.Entity("JPLearn.Core.ExamPractice.Entities.ExamQuestionOption", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uuid");
+
+                    b.Property<DateTime>("CreatedAt")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.Property<bool>("IsCorrect")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("boolean")
+                        .HasDefaultValue(false);
+
+                    b.Property<string>("Label")
+                        .IsRequired()
+                        .HasMaxLength(10)
+                        .HasColumnType("character varying(10)");
+
+                    b.Property<int>("OrderIndex")
+                        .HasColumnType("integer");
+
+                    b.Property<Guid>("QuestionId")
+                        .HasColumnType("uuid");
+
+                    b.Property<string>("Text")
+                        .IsRequired()
+                        .HasMaxLength(1000)
+                        .HasColumnType("character varying(1000)");
+
+                    b.Property<DateTime>("UpdatedAt")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("QuestionId");
+
+                    b.HasIndex("QuestionId", "Label")
+                        .IsUnique();
+
+                    b.ToTable("exam_question_options", (string)null);
+                });
+
+            modelBuilder.Entity("JPLearn.Core.ExamPractice.Entities.ExamTopic", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uuid");
+
+                    b.Property<string>("Code")
+                        .IsRequired()
+                        .HasMaxLength(50)
+                        .HasColumnType("character varying(50)");
+
+                    b.Property<string>("CourseCode")
+                        .IsRequired()
+                        .ValueGeneratedOnAdd()
+                        .HasMaxLength(30)
+                        .HasColumnType("character varying(30)")
+                        .HasDefaultValue("jpd113");
+
+                    b.Property<DateTime>("CreatedAt")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.Property<bool>("IsActive")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("boolean")
+                        .HasDefaultValue(true);
+
+                    b.Property<string>("Label")
+                        .IsRequired()
+                        .HasMaxLength(200)
+                        .HasColumnType("character varying(200)");
+
+                    b.Property<int>("OrderIndex")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("integer")
+                        .HasDefaultValue(0);
+
+                    b.Property<DateTime>("UpdatedAt")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("CourseCode", "IsActive", "OrderIndex");
+
+                    b.ToTable("exam_topics", (string)null);
+                });
+
             modelBuilder.Entity("JPLearn.Core.Grammar.Entities.GrammarExample", b =>
                 {
                     b.Property<Guid>("Id")
@@ -200,6 +702,10 @@ namespace JPLearn.Infrastructure.Migrations
                         .HasMaxLength(20)
                         .HasColumnType("character varying(20)")
                         .HasDefaultValue("free");
+
+                    b.Property<string>("CourseCode")
+                        .IsRequired()
+                        .HasColumnType("text");
 
                     b.Property<DateTime>("CreatedAt")
                         .HasColumnType("timestamp with time zone");
@@ -396,6 +902,258 @@ namespace JPLearn.Infrastructure.Migrations
                     b.ToTable("user_grammar_progress", (string)null);
                 });
 
+            modelBuilder.Entity("JPLearn.Core.Kanji.Entities.KanjiItem", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uuid");
+
+                    b.Property<string>("AccessTierOverride")
+                        .HasMaxLength(20)
+                        .HasColumnType("character varying(20)");
+
+                    b.Property<string>("Character")
+                        .IsRequired()
+                        .HasMaxLength(8)
+                        .HasColumnType("character varying(8)");
+
+                    b.Property<string>("ComponentMapJson")
+                        .HasColumnType("text");
+
+                    b.Property<DateTime>("CreatedAt")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.Property<string>("HanViet")
+                        .IsRequired()
+                        .HasMaxLength(100)
+                        .HasColumnType("character varying(100)");
+
+                    b.Property<string>("KunReading")
+                        .HasMaxLength(300)
+                        .HasColumnType("character varying(300)");
+
+                    b.Property<Guid>("LessonId")
+                        .HasColumnType("uuid");
+
+                    b.Property<string>("Level")
+                        .IsRequired()
+                        .HasMaxLength(2)
+                        .HasColumnType("character varying(2)");
+
+                    b.Property<string>("Meaning")
+                        .IsRequired()
+                        .HasMaxLength(300)
+                        .HasColumnType("character varying(300)");
+
+                    b.Property<string>("Mnemonic")
+                        .HasMaxLength(1000)
+                        .HasColumnType("character varying(1000)");
+
+                    b.Property<string>("OnReading")
+                        .HasMaxLength(300)
+                        .HasColumnType("character varying(300)");
+
+                    b.Property<int>("OrderIndex")
+                        .HasColumnType("integer");
+
+                    b.Property<string>("PackageCodeOverride")
+                        .HasMaxLength(100)
+                        .HasColumnType("character varying(100)");
+
+                    b.Property<int>("StrokeCount")
+                        .HasColumnType("integer");
+
+                    b.Property<string>("StrokeDataJson")
+                        .HasColumnType("text");
+
+                    b.Property<string>("StrokeSvg")
+                        .HasColumnType("text");
+
+                    b.Property<DateTime>("UpdatedAt")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("Character")
+                        .IsUnique();
+
+                    b.HasIndex("LessonId");
+
+                    b.HasIndex("Level", "OrderIndex");
+
+                    b.ToTable("kanji_items", (string)null);
+                });
+
+            modelBuilder.Entity("JPLearn.Core.Kanji.Entities.KanjiLesson", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uuid");
+
+                    b.Property<string>("AccessTier")
+                        .IsRequired()
+                        .ValueGeneratedOnAdd()
+                        .HasMaxLength(20)
+                        .HasColumnType("character varying(20)")
+                        .HasDefaultValue("free");
+
+                    b.Property<DateTime>("CreatedAt")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.Property<string>("Description")
+                        .HasMaxLength(1000)
+                        .HasColumnType("character varying(1000)");
+
+                    b.Property<int>("LessonNumber")
+                        .HasColumnType("integer");
+
+                    b.Property<string>("Level")
+                        .IsRequired()
+                        .HasMaxLength(2)
+                        .HasColumnType("character varying(2)");
+
+                    b.Property<int>("OrderIndex")
+                        .HasColumnType("integer");
+
+                    b.Property<string>("PackageCode")
+                        .HasMaxLength(100)
+                        .HasColumnType("character varying(100)");
+
+                    b.Property<string>("Title")
+                        .IsRequired()
+                        .HasMaxLength(200)
+                        .HasColumnType("character varying(200)");
+
+                    b.Property<DateTime>("UpdatedAt")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("Level", "LessonNumber")
+                        .IsUnique();
+
+                    b.HasIndex("Level", "OrderIndex");
+
+                    b.ToTable("kanji_lessons", (string)null);
+                });
+
+            modelBuilder.Entity("JPLearn.Core.Kanji.Entities.KanjiVocabulary", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uuid");
+
+                    b.Property<DateTime>("CreatedAt")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.Property<string>("ExampleJapanese")
+                        .HasMaxLength(1000)
+                        .HasColumnType("character varying(1000)");
+
+                    b.Property<string>("ExampleMeaning")
+                        .HasMaxLength(1000)
+                        .HasColumnType("character varying(1000)");
+
+                    b.Property<string>("ExampleReading")
+                        .HasMaxLength(1000)
+                        .HasColumnType("character varying(1000)");
+
+                    b.Property<Guid?>("KanjiItemId")
+                        .HasColumnType("uuid");
+
+                    b.Property<Guid>("LessonId")
+                        .HasColumnType("uuid");
+
+                    b.Property<string>("Level")
+                        .IsRequired()
+                        .HasMaxLength(2)
+                        .HasColumnType("character varying(2)");
+
+                    b.Property<string>("Meaning")
+                        .IsRequired()
+                        .HasMaxLength(500)
+                        .HasColumnType("character varying(500)");
+
+                    b.Property<int>("OrderIndex")
+                        .HasColumnType("integer");
+
+                    b.Property<string>("Reading")
+                        .IsRequired()
+                        .HasMaxLength(200)
+                        .HasColumnType("character varying(200)");
+
+                    b.Property<DateTime>("UpdatedAt")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.Property<string>("Word")
+                        .IsRequired()
+                        .HasMaxLength(100)
+                        .HasColumnType("character varying(100)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("KanjiItemId");
+
+                    b.HasIndex("LessonId");
+
+                    b.HasIndex("LessonId", "Word")
+                        .IsUnique();
+
+                    b.HasIndex("Level", "OrderIndex");
+
+                    b.ToTable("kanji_vocabulary", (string)null);
+                });
+
+            modelBuilder.Entity("JPLearn.Core.Kanji.Entities.UserKanjiProgress", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uuid");
+
+                    b.Property<DateTime>("CreatedAt")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.Property<int>("FlashcardPracticeCount")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("integer")
+                        .HasDefaultValue(0);
+
+                    b.Property<bool>("IsLearned")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("boolean")
+                        .HasDefaultValue(false);
+
+                    b.Property<Guid>("KanjiItemId")
+                        .HasColumnType("uuid");
+
+                    b.Property<DateTime?>("LastViewedAt")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.Property<DateTime>("UpdatedAt")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.Property<Guid>("UserId")
+                        .HasColumnType("uuid");
+
+                    b.Property<int>("WritingPracticeCount")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("integer")
+                        .HasDefaultValue(0);
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("KanjiItemId");
+
+                    b.HasIndex("UserId", "IsLearned");
+
+                    b.HasIndex("UserId", "KanjiItemId")
+                        .IsUnique();
+
+                    b.HasIndex("UserId", "LastViewedAt");
+
+                    b.ToTable("user_kanji_progress", (string)null);
+                });
+
             modelBuilder.Entity("JPLearn.Core.Memory.Entities.MemoryReviewSession", b =>
                 {
                     b.Property<Guid>("Id")
@@ -587,6 +1345,243 @@ namespace JPLearn.Infrastructure.Migrations
                     b.ToTable("user_memory_grammar_items", (string)null);
                 });
 
+            modelBuilder.Entity("JPLearn.Core.Memory.Entities.UserMemoryKanjiItem", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uuid");
+
+                    b.Property<DateTime>("AddedAt")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.Property<string>("Character")
+                        .IsRequired()
+                        .HasMaxLength(10)
+                        .HasColumnType("character varying(10)");
+
+                    b.Property<DateTime>("CreatedAt")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.Property<double>("EaseFactor")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("double precision")
+                        .HasDefaultValue(2.5);
+
+                    b.Property<string>("HanViet")
+                        .IsRequired()
+                        .HasMaxLength(100)
+                        .HasColumnType("character varying(100)");
+
+                    b.Property<int>("IntervalDays")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("integer")
+                        .HasDefaultValue(0);
+
+                    b.Property<int>("IntervalMinutes")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("integer")
+                        .HasDefaultValue(0);
+
+                    b.Property<bool>("IsActive")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("boolean")
+                        .HasDefaultValue(true);
+
+                    b.Property<string>("KanjiLevel")
+                        .HasMaxLength(10)
+                        .HasColumnType("character varying(10)");
+
+                    b.Property<string>("KunReading")
+                        .HasMaxLength(200)
+                        .HasColumnType("character varying(200)");
+
+                    b.Property<int>("LapseCount")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("integer")
+                        .HasDefaultValue(0);
+
+                    b.Property<DateTime?>("LastReviewedAt")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.Property<int>("LearningStepIndex")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("integer")
+                        .HasDefaultValue(0);
+
+                    b.Property<int>("Level")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("integer")
+                        .HasDefaultValue(0);
+
+                    b.Property<string>("Meaning")
+                        .IsRequired()
+                        .HasMaxLength(500)
+                        .HasColumnType("character varying(500)");
+
+                    b.Property<string>("Mnemonic")
+                        .HasMaxLength(2000)
+                        .HasColumnType("character varying(2000)");
+
+                    b.Property<DateTime>("NextReviewAt")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.Property<string>("OnReading")
+                        .HasMaxLength(200)
+                        .HasColumnType("character varying(200)");
+
+                    b.Property<int>("Repetitions")
+                        .HasColumnType("integer");
+
+                    b.Property<Guid?>("SourceKanjiItemId")
+                        .HasColumnType("uuid");
+
+                    b.Property<string>("Status")
+                        .IsRequired()
+                        .ValueGeneratedOnAdd()
+                        .HasMaxLength(20)
+                        .HasColumnType("character varying(20)")
+                        .HasDefaultValue("new");
+
+                    b.Property<int>("StrokeCount")
+                        .HasColumnType("integer");
+
+                    b.Property<DateTime>("UpdatedAt")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.Property<Guid>("UserId")
+                        .HasColumnType("uuid");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("UserId", "Level");
+
+                    b.HasIndex("UserId", "SourceKanjiItemId")
+                        .IsUnique();
+
+                    b.HasIndex("UserId", "IsActive", "NextReviewAt");
+
+                    b.ToTable("user_memory_kanji_items", (string)null);
+                });
+
+            modelBuilder.Entity("JPLearn.Core.Memory.Entities.UserMemoryVocabularyItem", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uuid");
+
+                    b.Property<DateTime>("AddedAt")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("timestamp with time zone")
+                        .HasDefaultValueSql("NOW()");
+
+                    b.Property<string>("CourseCode")
+                        .HasMaxLength(20)
+                        .HasColumnType("character varying(20)");
+
+                    b.Property<DateTime>("CreatedAt")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.Property<double>("EaseFactor")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("double precision")
+                        .HasDefaultValue(2.5);
+
+                    b.Property<string>("ExampleJapanese")
+                        .HasMaxLength(1000)
+                        .HasColumnType("character varying(1000)");
+
+                    b.Property<string>("ExampleMeaning")
+                        .HasMaxLength(1000)
+                        .HasColumnType("character varying(1000)");
+
+                    b.Property<string>("ExampleReading")
+                        .HasMaxLength(1000)
+                        .HasColumnType("character varying(1000)");
+
+                    b.Property<int>("IntervalDays")
+                        .HasColumnType("integer");
+
+                    b.Property<int>("IntervalMinutes")
+                        .HasColumnType("integer");
+
+                    b.Property<bool>("IsActive")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("boolean")
+                        .HasDefaultValue(true);
+
+                    b.Property<int>("LapseCount")
+                        .HasColumnType("integer");
+
+                    b.Property<DateTime?>("LastReviewedAt")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.Property<int>("LearningStepIndex")
+                        .HasColumnType("integer");
+
+                    b.Property<int?>("LessonNumber")
+                        .HasColumnType("integer");
+
+                    b.Property<int>("Level")
+                        .HasColumnType("integer");
+
+                    b.Property<string>("Meaning")
+                        .IsRequired()
+                        .HasMaxLength(500)
+                        .HasColumnType("character varying(500)");
+
+                    b.Property<DateTime>("NextReviewAt")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.Property<string>("Notes")
+                        .HasMaxLength(1000)
+                        .HasColumnType("character varying(1000)");
+
+                    b.Property<string>("Reading")
+                        .IsRequired()
+                        .HasMaxLength(200)
+                        .HasColumnType("character varying(200)");
+
+                    b.Property<int>("Repetitions")
+                        .HasColumnType("integer");
+
+                    b.Property<Guid?>("SourceVocabularyItemId")
+                        .HasColumnType("uuid");
+
+                    b.Property<string>("Status")
+                        .IsRequired()
+                        .ValueGeneratedOnAdd()
+                        .HasMaxLength(20)
+                        .HasColumnType("character varying(20)")
+                        .HasDefaultValue("new");
+
+                    b.Property<DateTime>("UpdatedAt")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.Property<Guid>("UserId")
+                        .HasColumnType("uuid");
+
+                    b.Property<string>("Word")
+                        .IsRequired()
+                        .HasMaxLength(100)
+                        .HasColumnType("character varying(100)");
+
+                    b.Property<string>("WordType")
+                        .IsRequired()
+                        .HasMaxLength(100)
+                        .HasColumnType("character varying(100)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("UserId", "SourceVocabularyItemId")
+                        .IsUnique();
+
+                    b.HasIndex("UserId", "Status");
+
+                    b.HasIndex("UserId", "IsActive", "NextReviewAt");
+
+                    b.ToTable("user_memory_vocabulary_items", (string)null);
+                });
+
             modelBuilder.Entity("JPLearn.Core.Review.Entities.ReviewSession", b =>
                 {
                     b.Property<Guid>("Id")
@@ -630,6 +1625,406 @@ namespace JPLearn.Infrastructure.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("ReviewSessions");
+                });
+
+            modelBuilder.Entity("JPLearn.Core.Speaking.Entities.SpeakingCourse", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uuid");
+
+                    b.Property<string>("AccessTier")
+                        .IsRequired()
+                        .ValueGeneratedOnAdd()
+                        .HasMaxLength(30)
+                        .HasColumnType("character varying(30)")
+                        .HasDefaultValue("free");
+
+                    b.Property<string>("Code")
+                        .IsRequired()
+                        .HasMaxLength(30)
+                        .HasColumnType("character varying(30)");
+
+                    b.Property<DateTime>("CreatedAt")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.Property<string>("Description")
+                        .HasMaxLength(1000)
+                        .HasColumnType("character varying(1000)");
+
+                    b.Property<bool>("IsActive")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("boolean")
+                        .HasDefaultValue(true);
+
+                    b.Property<int>("OrderIndex")
+                        .HasColumnType("integer");
+
+                    b.Property<string>("PackageCode")
+                        .HasMaxLength(100)
+                        .HasColumnType("character varying(100)");
+
+                    b.Property<string>("Title")
+                        .IsRequired()
+                        .HasMaxLength(200)
+                        .HasColumnType("character varying(200)");
+
+                    b.Property<DateTime>("UpdatedAt")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("Code")
+                        .IsUnique();
+
+                    b.HasIndex("IsActive", "OrderIndex");
+
+                    b.ToTable("speaking_courses", (string)null);
+                });
+
+            modelBuilder.Entity("JPLearn.Core.Speaking.Entities.SpeakingLesson", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uuid");
+
+                    b.Property<string>("AccessTier")
+                        .IsRequired()
+                        .ValueGeneratedOnAdd()
+                        .HasMaxLength(30)
+                        .HasColumnType("character varying(30)")
+                        .HasDefaultValue("free");
+
+                    b.Property<string>("CourseCode")
+                        .IsRequired()
+                        .HasMaxLength(30)
+                        .HasColumnType("character varying(30)");
+
+                    b.Property<Guid>("CourseId")
+                        .HasColumnType("uuid");
+
+                    b.Property<DateTime>("CreatedAt")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.Property<string>("Description")
+                        .HasMaxLength(1000)
+                        .HasColumnType("character varying(1000)");
+
+                    b.Property<bool>("IsActive")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("boolean")
+                        .HasDefaultValue(true);
+
+                    b.Property<int>("LessonNumber")
+                        .HasColumnType("integer");
+
+                    b.Property<int>("OrderIndex")
+                        .HasColumnType("integer");
+
+                    b.Property<string>("PackageCode")
+                        .HasMaxLength(100)
+                        .HasColumnType("character varying(100)");
+
+                    b.Property<string>("Title")
+                        .IsRequired()
+                        .HasMaxLength(200)
+                        .HasColumnType("character varying(200)");
+
+                    b.Property<DateTime>("UpdatedAt")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("CourseId");
+
+                    b.HasIndex("CourseCode", "LessonNumber")
+                        .IsUnique();
+
+                    b.HasIndex("CourseCode", "OrderIndex");
+
+                    b.ToTable("speaking_lessons", (string)null);
+                });
+
+            modelBuilder.Entity("JPLearn.Core.Speaking.Entities.SpeakingSentence", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uuid");
+
+                    b.Property<string>("ContentHtml")
+                        .IsRequired()
+                        .HasMaxLength(5000)
+                        .HasColumnType("character varying(5000)");
+
+                    b.Property<DateTime>("CreatedAt")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.Property<bool>("IsActive")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("boolean")
+                        .HasDefaultValue(true);
+
+                    b.Property<Guid>("LessonId")
+                        .HasColumnType("uuid");
+
+                    b.Property<string>("MeaningVi")
+                        .IsRequired()
+                        .HasMaxLength(2000)
+                        .HasColumnType("character varying(2000)");
+
+                    b.Property<int>("OrderIndex")
+                        .HasColumnType("integer");
+
+                    b.Property<string>("PlainText")
+                        .IsRequired()
+                        .HasMaxLength(2000)
+                        .HasColumnType("character varying(2000)");
+
+                    b.Property<int>("SentenceNumber")
+                        .HasColumnType("integer");
+
+                    b.Property<DateTime>("UpdatedAt")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("LessonId", "OrderIndex");
+
+                    b.HasIndex("LessonId", "SentenceNumber")
+                        .IsUnique();
+
+                    b.ToTable("speaking_sentences", (string)null);
+                });
+
+            modelBuilder.Entity("JPLearn.Core.StaticVocabulary.Entities.StaticVocabularyItem", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uuid");
+
+                    b.Property<string>("AccessTierOverride")
+                        .HasMaxLength(20)
+                        .HasColumnType("character varying(20)");
+
+                    b.Property<string>("CourseCode")
+                        .IsRequired()
+                        .HasMaxLength(20)
+                        .HasColumnType("character varying(20)");
+
+                    b.Property<DateTime>("CreatedAt")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.Property<string>("ExampleJapanese")
+                        .HasMaxLength(1000)
+                        .HasColumnType("character varying(1000)");
+
+                    b.Property<string>("ExampleMeaning")
+                        .HasMaxLength(1000)
+                        .HasColumnType("character varying(1000)");
+
+                    b.Property<string>("ExampleReading")
+                        .HasMaxLength(1000)
+                        .HasColumnType("character varying(1000)");
+
+                    b.Property<Guid>("LessonId")
+                        .HasColumnType("uuid");
+
+                    b.Property<string>("Meaning")
+                        .IsRequired()
+                        .HasMaxLength(500)
+                        .HasColumnType("character varying(500)");
+
+                    b.Property<string>("Notes")
+                        .HasMaxLength(1000)
+                        .HasColumnType("character varying(1000)");
+
+                    b.Property<int>("OrderIndex")
+                        .HasColumnType("integer");
+
+                    b.Property<string>("PackageCodeOverride")
+                        .HasMaxLength(100)
+                        .HasColumnType("character varying(100)");
+
+                    b.Property<string>("Reading")
+                        .IsRequired()
+                        .HasMaxLength(200)
+                        .HasColumnType("character varying(200)");
+
+                    b.Property<DateTime>("UpdatedAt")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.Property<string>("Word")
+                        .IsRequired()
+                        .HasMaxLength(100)
+                        .HasColumnType("character varying(100)");
+
+                    b.Property<string>("WordType")
+                        .IsRequired()
+                        .HasMaxLength(100)
+                        .HasColumnType("character varying(100)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("LessonId");
+
+                    b.HasIndex("CourseCode", "OrderIndex");
+
+                    b.HasIndex("LessonId", "Word")
+                        .IsUnique();
+
+                    b.ToTable("vocabulary_items", (string)null);
+                });
+
+            modelBuilder.Entity("JPLearn.Core.StaticVocabulary.Entities.UserVocabularyProgress", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uuid");
+
+                    b.Property<DateTime>("CreatedAt")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.Property<int>("FlashcardPracticeCount")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("integer")
+                        .HasDefaultValue(0);
+
+                    b.Property<bool>("IsLearned")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("boolean")
+                        .HasDefaultValue(false);
+
+                    b.Property<DateTime?>("LastViewedAt")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.Property<int>("MultipleChoicePracticeCount")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("integer")
+                        .HasDefaultValue(0);
+
+                    b.Property<int>("TypingPracticeCount")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("integer")
+                        .HasDefaultValue(0);
+
+                    b.Property<DateTime>("UpdatedAt")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.Property<Guid>("UserId")
+                        .HasColumnType("uuid");
+
+                    b.Property<Guid>("VocabularyItemId")
+                        .HasColumnType("uuid");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("VocabularyItemId");
+
+                    b.HasIndex("UserId", "IsLearned");
+
+                    b.HasIndex("UserId", "LastViewedAt");
+
+                    b.HasIndex("UserId", "VocabularyItemId")
+                        .IsUnique();
+
+                    b.ToTable("user_vocabulary_progress", (string)null);
+                });
+
+            modelBuilder.Entity("JPLearn.Core.StaticVocabulary.Entities.VocabularyCourse", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uuid");
+
+                    b.Property<string>("Code")
+                        .IsRequired()
+                        .HasMaxLength(20)
+                        .HasColumnType("character varying(20)");
+
+                    b.Property<DateTime>("CreatedAt")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.Property<string>("Description")
+                        .HasMaxLength(1000)
+                        .HasColumnType("character varying(1000)");
+
+                    b.Property<int>("OrderIndex")
+                        .HasColumnType("integer");
+
+                    b.Property<string>("Title")
+                        .IsRequired()
+                        .HasMaxLength(200)
+                        .HasColumnType("character varying(200)");
+
+                    b.Property<DateTime>("UpdatedAt")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("Code")
+                        .IsUnique();
+
+                    b.HasIndex("OrderIndex");
+
+                    b.ToTable("vocabulary_courses", (string)null);
+                });
+
+            modelBuilder.Entity("JPLearn.Core.StaticVocabulary.Entities.VocabularyLesson", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uuid");
+
+                    b.Property<string>("AccessTier")
+                        .IsRequired()
+                        .ValueGeneratedOnAdd()
+                        .HasMaxLength(20)
+                        .HasColumnType("character varying(20)")
+                        .HasDefaultValue("free");
+
+                    b.Property<string>("CourseCode")
+                        .IsRequired()
+                        .HasMaxLength(20)
+                        .HasColumnType("character varying(20)");
+
+                    b.Property<Guid>("CourseId")
+                        .HasColumnType("uuid");
+
+                    b.Property<DateTime>("CreatedAt")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.Property<string>("Description")
+                        .HasMaxLength(1000)
+                        .HasColumnType("character varying(1000)");
+
+                    b.Property<int>("LessonNumber")
+                        .HasColumnType("integer");
+
+                    b.Property<int>("OrderIndex")
+                        .HasColumnType("integer");
+
+                    b.Property<string>("PackageCode")
+                        .HasMaxLength(100)
+                        .HasColumnType("character varying(100)");
+
+                    b.Property<string>("Title")
+                        .IsRequired()
+                        .HasMaxLength(200)
+                        .HasColumnType("character varying(200)");
+
+                    b.Property<DateTime>("UpdatedAt")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("CourseId");
+
+                    b.HasIndex("CourseCode", "LessonNumber")
+                        .IsUnique();
+
+                    b.HasIndex("CourseCode", "OrderIndex");
+
+                    b.ToTable("vocabulary_lessons", (string)null);
                 });
 
             modelBuilder.Entity("JPLearn.Core.Vocabulary.Entities.UserWordProgress", b =>
@@ -698,7 +2093,7 @@ namespace JPLearn.Infrastructure.Migrations
                     b.HasIndex("UserId", "VocabularyItemId")
                         .IsUnique();
 
-                    b.ToTable("user_word_progress", (string)null);
+                    b.ToTable("user_active_word_progress", (string)null);
                 });
 
             modelBuilder.Entity("JPLearn.Core.Vocabulary.Entities.VocabularyItem", b =>
@@ -749,7 +2144,7 @@ namespace JPLearn.Infrastructure.Migrations
 
                     b.HasIndex("ListId");
 
-                    b.ToTable("vocabulary_items", (string)null);
+                    b.ToTable("active_vocabulary_items", (string)null);
                 });
 
             modelBuilder.Entity("JPLearn.Core.Vocabulary.Entities.VocabularyList", b =>
@@ -783,7 +2178,147 @@ namespace JPLearn.Infrastructure.Migrations
 
                     b.HasIndex("UserId");
 
-                    b.ToTable("vocabulary_lists", (string)null);
+                    b.ToTable("active_vocabulary_lists", (string)null);
+                });
+
+            modelBuilder.Entity("JPLearn.Core.ExamPractice.Entities.ExamAttempt", b =>
+                {
+                    b.HasOne("JPLearn.Core.ExamPractice.Entities.ExamBlueprint", "Blueprint")
+                        .WithMany()
+                        .HasForeignKey("BlueprintId")
+                        .OnDelete(DeleteBehavior.SetNull);
+
+                    b.HasOne("JPLearn.Core.ExamPractice.Entities.ExamCourse", "Course")
+                        .WithMany("Attempts")
+                        .HasForeignKey("CourseCode")
+                        .HasPrincipalKey("Code")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired();
+
+                    b.Navigation("Blueprint");
+
+                    b.Navigation("Course");
+                });
+
+            modelBuilder.Entity("JPLearn.Core.ExamPractice.Entities.ExamAttemptAnswer", b =>
+                {
+                    b.HasOne("JPLearn.Core.ExamPractice.Entities.ExamAttempt", "Attempt")
+                        .WithMany("Answers")
+                        .HasForeignKey("AttemptId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("JPLearn.Core.ExamPractice.Entities.ExamQuestion", "Question")
+                        .WithMany("AttemptAnswers")
+                        .HasForeignKey("QuestionId")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired();
+
+                    b.HasOne("JPLearn.Core.ExamPractice.Entities.ExamQuestionOption", "SelectedOption")
+                        .WithMany()
+                        .HasForeignKey("SelectedOptionId")
+                        .OnDelete(DeleteBehavior.Restrict);
+
+                    b.Navigation("Attempt");
+
+                    b.Navigation("Question");
+
+                    b.Navigation("SelectedOption");
+                });
+
+            modelBuilder.Entity("JPLearn.Core.ExamPractice.Entities.ExamBlueprint", b =>
+                {
+                    b.HasOne("JPLearn.Core.ExamPractice.Entities.ExamCourse", "Course")
+                        .WithMany()
+                        .HasForeignKey("CourseCode")
+                        .HasPrincipalKey("Code")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired();
+
+                    b.Navigation("Course");
+                });
+
+            modelBuilder.Entity("JPLearn.Core.ExamPractice.Entities.ExamBlueprintRule", b =>
+                {
+                    b.HasOne("JPLearn.Core.ExamPractice.Entities.ExamBlueprint", "Blueprint")
+                        .WithMany("Rules")
+                        .HasForeignKey("BlueprintId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Blueprint");
+                });
+
+            modelBuilder.Entity("JPLearn.Core.ExamPractice.Entities.ExamPassage", b =>
+                {
+                    b.HasOne("JPLearn.Core.ExamPractice.Entities.ExamCourse", "Course")
+                        .WithMany("Passages")
+                        .HasForeignKey("CourseCode")
+                        .HasPrincipalKey("Code")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired();
+
+                    b.HasOne("JPLearn.Core.ExamPractice.Entities.ExamTopic", "TopicDefinition")
+                        .WithMany("Passages")
+                        .HasForeignKey("CourseCode", "Topic")
+                        .HasPrincipalKey("CourseCode", "Code")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired();
+
+                    b.Navigation("Course");
+
+                    b.Navigation("TopicDefinition");
+                });
+
+            modelBuilder.Entity("JPLearn.Core.ExamPractice.Entities.ExamQuestion", b =>
+                {
+                    b.HasOne("JPLearn.Core.ExamPractice.Entities.ExamCourse", "Course")
+                        .WithMany("Questions")
+                        .HasForeignKey("CourseCode")
+                        .HasPrincipalKey("Code")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired();
+
+                    b.HasOne("JPLearn.Core.ExamPractice.Entities.ExamPassage", "Passage")
+                        .WithMany("Questions")
+                        .HasForeignKey("PassageId")
+                        .OnDelete(DeleteBehavior.SetNull);
+
+                    b.HasOne("JPLearn.Core.ExamPractice.Entities.ExamTopic", "TopicDefinition")
+                        .WithMany("Questions")
+                        .HasForeignKey("CourseCode", "Topic")
+                        .HasPrincipalKey("CourseCode", "Code")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired();
+
+                    b.Navigation("Course");
+
+                    b.Navigation("Passage");
+
+                    b.Navigation("TopicDefinition");
+                });
+
+            modelBuilder.Entity("JPLearn.Core.ExamPractice.Entities.ExamQuestionOption", b =>
+                {
+                    b.HasOne("JPLearn.Core.ExamPractice.Entities.ExamQuestion", "Question")
+                        .WithMany("Options")
+                        .HasForeignKey("QuestionId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Question");
+                });
+
+            modelBuilder.Entity("JPLearn.Core.ExamPractice.Entities.ExamTopic", b =>
+                {
+                    b.HasOne("JPLearn.Core.ExamPractice.Entities.ExamCourse", "Course")
+                        .WithMany()
+                        .HasForeignKey("CourseCode")
+                        .HasPrincipalKey("Code")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired();
+
+                    b.Navigation("Course");
                 });
 
             modelBuilder.Entity("JPLearn.Core.Grammar.Entities.GrammarExample", b =>
@@ -841,6 +2376,101 @@ namespace JPLearn.Infrastructure.Migrations
                     b.Navigation("GrammarPattern");
                 });
 
+            modelBuilder.Entity("JPLearn.Core.Kanji.Entities.KanjiItem", b =>
+                {
+                    b.HasOne("JPLearn.Core.Kanji.Entities.KanjiLesson", "Lesson")
+                        .WithMany("KanjiItems")
+                        .HasForeignKey("LessonId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Lesson");
+                });
+
+            modelBuilder.Entity("JPLearn.Core.Kanji.Entities.KanjiVocabulary", b =>
+                {
+                    b.HasOne("JPLearn.Core.Kanji.Entities.KanjiItem", "KanjiItem")
+                        .WithMany("VocabularyItems")
+                        .HasForeignKey("KanjiItemId")
+                        .OnDelete(DeleteBehavior.SetNull);
+
+                    b.HasOne("JPLearn.Core.Kanji.Entities.KanjiLesson", "Lesson")
+                        .WithMany("VocabularyItems")
+                        .HasForeignKey("LessonId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("KanjiItem");
+
+                    b.Navigation("Lesson");
+                });
+
+            modelBuilder.Entity("JPLearn.Core.Kanji.Entities.UserKanjiProgress", b =>
+                {
+                    b.HasOne("JPLearn.Core.Kanji.Entities.KanjiItem", "KanjiItem")
+                        .WithMany("ProgressRecords")
+                        .HasForeignKey("KanjiItemId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("KanjiItem");
+                });
+
+            modelBuilder.Entity("JPLearn.Core.Speaking.Entities.SpeakingLesson", b =>
+                {
+                    b.HasOne("JPLearn.Core.Speaking.Entities.SpeakingCourse", "Course")
+                        .WithMany("Lessons")
+                        .HasForeignKey("CourseId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Course");
+                });
+
+            modelBuilder.Entity("JPLearn.Core.Speaking.Entities.SpeakingSentence", b =>
+                {
+                    b.HasOne("JPLearn.Core.Speaking.Entities.SpeakingLesson", "Lesson")
+                        .WithMany("Sentences")
+                        .HasForeignKey("LessonId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Lesson");
+                });
+
+            modelBuilder.Entity("JPLearn.Core.StaticVocabulary.Entities.StaticVocabularyItem", b =>
+                {
+                    b.HasOne("JPLearn.Core.StaticVocabulary.Entities.VocabularyLesson", "Lesson")
+                        .WithMany("Items")
+                        .HasForeignKey("LessonId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Lesson");
+                });
+
+            modelBuilder.Entity("JPLearn.Core.StaticVocabulary.Entities.UserVocabularyProgress", b =>
+                {
+                    b.HasOne("JPLearn.Core.StaticVocabulary.Entities.StaticVocabularyItem", "VocabularyItem")
+                        .WithMany("ProgressRecords")
+                        .HasForeignKey("VocabularyItemId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("VocabularyItem");
+                });
+
+            modelBuilder.Entity("JPLearn.Core.StaticVocabulary.Entities.VocabularyLesson", b =>
+                {
+                    b.HasOne("JPLearn.Core.StaticVocabulary.Entities.VocabularyCourse", "Course")
+                        .WithMany("Lessons")
+                        .HasForeignKey("CourseId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Course");
+                });
+
             modelBuilder.Entity("JPLearn.Core.Vocabulary.Entities.UserWordProgress", b =>
                 {
                     b.HasOne("JPLearn.Core.Vocabulary.Entities.VocabularyItem", "VocabularyItem")
@@ -863,6 +2493,44 @@ namespace JPLearn.Infrastructure.Migrations
                     b.Navigation("List");
                 });
 
+            modelBuilder.Entity("JPLearn.Core.ExamPractice.Entities.ExamAttempt", b =>
+                {
+                    b.Navigation("Answers");
+                });
+
+            modelBuilder.Entity("JPLearn.Core.ExamPractice.Entities.ExamBlueprint", b =>
+                {
+                    b.Navigation("Rules");
+                });
+
+            modelBuilder.Entity("JPLearn.Core.ExamPractice.Entities.ExamCourse", b =>
+                {
+                    b.Navigation("Attempts");
+
+                    b.Navigation("Passages");
+
+                    b.Navigation("Questions");
+                });
+
+            modelBuilder.Entity("JPLearn.Core.ExamPractice.Entities.ExamPassage", b =>
+                {
+                    b.Navigation("Questions");
+                });
+
+            modelBuilder.Entity("JPLearn.Core.ExamPractice.Entities.ExamQuestion", b =>
+                {
+                    b.Navigation("AttemptAnswers");
+
+                    b.Navigation("Options");
+                });
+
+            modelBuilder.Entity("JPLearn.Core.ExamPractice.Entities.ExamTopic", b =>
+                {
+                    b.Navigation("Passages");
+
+                    b.Navigation("Questions");
+                });
+
             modelBuilder.Entity("JPLearn.Core.Grammar.Entities.GrammarExercise", b =>
                 {
                     b.Navigation("Attempts");
@@ -880,6 +2548,45 @@ namespace JPLearn.Infrastructure.Migrations
                     b.Navigation("Exercises");
 
                     b.Navigation("ProgressRecords");
+                });
+
+            modelBuilder.Entity("JPLearn.Core.Kanji.Entities.KanjiItem", b =>
+                {
+                    b.Navigation("ProgressRecords");
+
+                    b.Navigation("VocabularyItems");
+                });
+
+            modelBuilder.Entity("JPLearn.Core.Kanji.Entities.KanjiLesson", b =>
+                {
+                    b.Navigation("KanjiItems");
+
+                    b.Navigation("VocabularyItems");
+                });
+
+            modelBuilder.Entity("JPLearn.Core.Speaking.Entities.SpeakingCourse", b =>
+                {
+                    b.Navigation("Lessons");
+                });
+
+            modelBuilder.Entity("JPLearn.Core.Speaking.Entities.SpeakingLesson", b =>
+                {
+                    b.Navigation("Sentences");
+                });
+
+            modelBuilder.Entity("JPLearn.Core.StaticVocabulary.Entities.StaticVocabularyItem", b =>
+                {
+                    b.Navigation("ProgressRecords");
+                });
+
+            modelBuilder.Entity("JPLearn.Core.StaticVocabulary.Entities.VocabularyCourse", b =>
+                {
+                    b.Navigation("Lessons");
+                });
+
+            modelBuilder.Entity("JPLearn.Core.StaticVocabulary.Entities.VocabularyLesson", b =>
+                {
+                    b.Navigation("Items");
                 });
 
             modelBuilder.Entity("JPLearn.Core.Vocabulary.Entities.VocabularyItem", b =>

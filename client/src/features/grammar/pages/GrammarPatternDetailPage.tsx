@@ -144,7 +144,7 @@ export const GrammarPatternDetailPage = () => {
       <div className="mb-12 space-y-4">
         {/* Navigation */}
         <button
-          onClick={() => navigate(`/grammar/${pattern.level}/lessons/${pattern.lessonId}`)}
+          onClick={() => navigate(`/grammar/${pattern.level}/lessons/${pattern.lessonId}?course=${pattern.courseCode}`)}
           className="flex items-center gap-2 text-sm font-bold text-accent-primary hover:opacity-70 transition-all active:scale-95"
         >
           <ArrowLeft size={16} />

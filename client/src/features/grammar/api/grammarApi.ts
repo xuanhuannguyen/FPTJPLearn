@@ -19,8 +19,8 @@ export const grammarApi = {
     return response.data;
   },
 
-  getLessonsByLevel: async (level: GrammarLevel): Promise<GrammarLesson[]> => {
-    const response = await apiClient.get(`/grammar/${level}/lessons`);
+  getLessonsByLevel: async (level: GrammarLevel, courseCode?: string): Promise<GrammarLesson[]> => {
+    const response = await apiClient.get(`/grammar/${level}/lessons`, { params: { course: courseCode } });
     return response.data.lessons;
   },
 

@@ -1,8 +1,10 @@
 import { Route } from 'react-router-dom';
-import { VocabularyDetailPage } from './pages/VocabularyDetailPage';
-import { VocabularyPage } from './pages/VocabularyPage';
+import { VocabularyDashboardPage } from './pages/VocabularyDashboardPage';
+import { VocabularyCoursePage } from './pages/VocabularyCoursePage';
+import { VocabularyLessonPage } from './pages/VocabularyLessonPage';
 
-export const vocabularyRoutes = [
-  <Route key="vocabulary" path="vocabulary" element={<VocabularyPage />} />,
-  <Route key="vocabulary-detail" path="vocabulary/:id" element={<VocabularyDetailPage />} />,
+export const staticVocabularyRoutes = [
+  <Route key="static-vocabulary-dashboard" path="vocabulary" element={<VocabularyDashboardPage />} />,
+  <Route key="static-vocabulary-course" path="vocabulary/:courseCode" element={<VocabularyCoursePage />} />,
+  <Route key="static-vocabulary-lesson" path="vocabulary/:courseCode/lessons/:lessonId" element={<VocabularyLessonPage />} />,
 ];

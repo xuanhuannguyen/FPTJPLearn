@@ -1,0 +1,7977 @@
+[
+  {
+    "id": 1,
+    "question": "たなかさんのくに（＿＿＿）は日本のとなりです. (Chọn cách viết Kanji đúng cho từ 'Hàn Quốc')",
+    "type": "Hán tự - Cách viết",
+    "options": [
+      {
+        "label": "A",
+        "text": "韓国生"
+      },
+      {
+        "label": "B",
+        "text": "韓国語"
+      },
+      {
+        "label": "C",
+        "text": "韓国国"
+      },
+      {
+        "label": "D",
+        "text": "韓国"
+      }
+    ],
+    "answer": "D",
+    "explanation": "'Hàn qうốc' viết là '韓国'."
+  },
+  {
+    "id": 2,
+    "question": "A: [誕生日] は いつですか。B: 12月25日です. (Chữ Hán trong ngoặc [ ] có cách đọc tương ứng là gì?)",
+    "type": "Hán tự - Cách đọc",
+    "options": [
+      {
+        "label": "A",
+        "text": "たんじょうび"
+      },
+      {
+        "label": "B",
+        "text": "たんじょび"
+      },
+      {
+        "label": "C",
+        "text": "おたんじょう"
+      },
+      {
+        "label": "D",
+        "text": "たんび"
+      }
+    ],
+    "answer": "A",
+    "explanation": "'誕生日' đọc là 'たんじょうび'."
+  },
+  {
+    "id": 3,
+    "question": "A: [誕生日] は いつですか。B: 12月25日です。 (Chữ Hán trong ngoặc [ ] có cách đọc tương ứng là gì?)",
+    "type": "Hán tự - Cách đọc",
+    "options": [
+      {
+        "label": "A",
+        "text": "たんじょうび"
+      },
+      {
+        "label": "B",
+        "text": "たんじょび"
+      },
+      {
+        "label": "C",
+        "text": "おたんじょう"
+      },
+      {
+        "label": "D",
+        "text": "たんび"
+      }
+    ],
+    "answer": "A",
+    "explanation": "'誕生日' đọc là 'たんじょうび'."
+  },
+  {
+    "id": 4,
+    "question": "A: [誕生日] は いつですか。B: 12月25日です。 (Chữ Hán trong ngoặc [ ] có cách đọc tương ứng là gì?)",
+    "type": "Hán tự - Cách đọc",
+    "options": [
+      {
+        "label": "A",
+        "text": "たんじょび"
+      },
+      {
+        "label": "B",
+        "text": "たんじょうび"
+      },
+      {
+        "label": "C",
+        "text": "たんじょう"
+      },
+      {
+        "label": "D",
+        "text": "たんび"
+      }
+    ],
+    "answer": "B",
+    "explanation": "'誕生日' đọc là 'たんじょうび'."
+  },
+  {
+    "id": 5,
+    "question": "A: [誕生日] は いつですか。B: 12月25日です。 (Chữ Hán trong ngoặc [ ] có cách đọc tương ứng như thế nào?)",
+    "type": "Hán tự - Cách đọc",
+    "options": [
+      {
+        "label": "A",
+        "text": "たんじょうび"
+      },
+      {
+        "label": "B",
+        "text": "たんじょび"
+      },
+      {
+        "label": "C",
+        "text": "おたんじょう"
+      },
+      {
+        "label": "D",
+        "text": "たんび"
+      }
+    ],
+    "answer": "A",
+    "explanation": "'誕生日' (sいんh んhật) đọc là 'たんじょうび'."
+  },
+  {
+    "id": 6,
+    "question": "A: [誕生日] は いつですか。B: 12月25日です. (Chữ Hán trong ngoặc [ ] có cách đọc tương ứng như thế nào?)",
+    "type": "Hán tự - Cách đọc",
+    "options": [
+      {
+        "label": "A",
+        "text": "たんじょうび"
+      },
+      {
+        "label": "B",
+        "text": "たんじょび"
+      },
+      {
+        "label": "C",
+        "text": "たんじょう"
+      },
+      {
+        "label": "D",
+        "text": "たんび"
+      }
+    ],
+    "answer": "A",
+    "explanation": "'誕生日' (sいんh んhật) đọc là 'たんじょうび' (たんじょうび)."
+  },
+  {
+    "id": 7,
+    "question": "A: たんじょうびは いつですか。B: 【九月】 一日です。 (Các chữ Hán trong ngoặc [ ] có cách đọc tương ứng như thế nào?)",
+    "type": "Hán tự - Cách đọc",
+    "options": [
+      {
+        "label": "A",
+        "text": "ろうがつ"
+      },
+      {
+        "label": "B",
+        "text": "くがつ"
+      },
+      {
+        "label": "C",
+        "text": "きゅうがつ"
+      },
+      {
+        "label": "D",
+        "text": "はちがつ"
+      }
+    ],
+    "answer": "B",
+    "explanation": "'九月' (tháんg 9) được đọc là 'くがつ' (くがつ)."
+  },
+  {
+    "id": 8,
+    "question": "A: たんじょうびは　いつですか。B: 【八月】一日です。 (Chữ Hán trong ngoặc [ ] có cách đọc tương ứng như thế nào?)",
+    "type": "Hán tự - Cách đọc",
+    "options": [
+      {
+        "label": "A",
+        "text": "はちがつ"
+      },
+      {
+        "label": "B",
+        "text": "しちがつ"
+      },
+      {
+        "label": "C",
+        "text": "はがつ"
+      },
+      {
+        "label": "D",
+        "text": "くがつ"
+      }
+    ],
+    "answer": "A",
+    "explanation": "'八月' (tháんg 8) đọc là 'はちがつ'."
+  },
+  {
+    "id": 9,
+    "question": "A: たんじょうびは　いつですか。B: 【八月】一日です。 (Các chữ Hán trong ngoặc [ ] có cách đọc tương ứng như thế nào?)",
+    "type": "Hán tự - Cách đọc",
+    "options": [
+      {
+        "label": "A",
+        "text": "はちがつ"
+      },
+      {
+        "label": "B",
+        "text": "はちがつ"
+      },
+      {
+        "label": "C",
+        "text": "はちがつ"
+      },
+      {
+        "label": "D",
+        "text": "はちがつ"
+      }
+    ],
+    "answer": "A",
+    "explanation": "'八月' (tháんg 8) đọc là 'はちがつ' (はちがつ)."
+  },
+  {
+    "id": 10,
+    "question": "A: たんじょうびは　いつですか。B: 【八月】一日です. (Chữ Hán trong ngoặc [ ] có cách đọc tương ứng là gì?)",
+    "type": "Hán tự - Cách đọc",
+    "options": [
+      {
+        "label": "A",
+        "text": "はちがつ"
+      },
+      {
+        "label": "B",
+        "text": "しちがつ"
+      },
+      {
+        "label": "C",
+        "text": "くがつ"
+      },
+      {
+        "label": "D",
+        "text": "ろくがつ"
+      }
+    ],
+    "answer": "A",
+    "explanation": "'八月' đọc là 'はちがつ'."
+  },
+  {
+    "id": 11,
+    "question": "A: 誕生日は　いつですか。B: 【五月】一日です。 (Các chữ Hán trong ngoặc [ ] có cách đọc tương ứng như thế nào?)",
+    "type": "Hán tự - Cách đọc",
+    "options": [
+      {
+        "label": "A",
+        "text": "ごがつ"
+      },
+      {
+        "label": "B",
+        "text": "さがつ"
+      },
+      {
+        "label": "C",
+        "text": "しがつ"
+      },
+      {
+        "label": "D",
+        "text": "ろくがつ"
+      }
+    ],
+    "answer": "A",
+    "explanation": "'五月' (tháんg 5) đọc là 'ごがつ' (ごがつ)."
+  },
+  {
+    "id": 12,
+    "question": "A: 誕生日は　いつですか。B: 【五月】一日です. (Chữ Hán trong ngoặc [ ] có cách đọc là gì?)",
+    "type": "Hán tự - Cách đọc",
+    "options": [
+      {
+        "label": "A",
+        "text": "ごがつ"
+      },
+      {
+        "label": "B",
+        "text": "さがつ"
+      },
+      {
+        "label": "C",
+        "text": "しがつ"
+      },
+      {
+        "label": "D",
+        "text": "ろくがつ"
+      }
+    ],
+    "answer": "A",
+    "explanation": "'五月' đọc là 'ごがつ'."
+  },
+  {
+    "id": 13,
+    "question": "A: 誕生日は　いつですか。B: 【六月】十日です。 (Chữ Hán trong ngoặc [ ] có cách đọc là gì?)",
+    "type": "Hán tự - Cách đọc",
+    "options": [
+      {
+        "label": "A",
+        "text": "ごがつ"
+      },
+      {
+        "label": "B",
+        "text": "ろくがつ"
+      },
+      {
+        "label": "C",
+        "text": "しちがつ"
+      },
+      {
+        "label": "D",
+        "text": "はちがつ"
+      }
+    ],
+    "answer": "B",
+    "explanation": "'六月' (tháんg 6) đọc là 'ろくがつ'."
+  },
+  {
+    "id": 14,
+    "question": "Tôi nói được [フランス語]. (Chữ Hán trong ngoặc [ ] có cách đọc tương ứng như thế nào?)",
+    "type": "Hán tự - Cách đọc",
+    "options": [
+      {
+        "label": "A",
+        "text": "フランスご"
+      },
+      {
+        "label": "B",
+        "text": "フランスこ"
+      },
+      {
+        "label": "C",
+        "text": "フランスど"
+      },
+      {
+        "label": "D",
+        "text": "フランスじ"
+      }
+    ],
+    "answer": "A",
+    "explanation": "'フランス語' (tいếんg pháp) đọc là 'フランスご'."
+  },
+  {
+    "id": 15,
+    "question": "[九時]に　[学校]へ　[行きます]。 (Các chữ Hán trong ngoặc [ ] có cách đọc tương ứng như thế nào?)",
+    "type": "Hán tự - Cách đọc",
+    "options": [
+      {
+        "label": "A",
+        "text": "じゅうじ、がっこう、いきます"
+      },
+      {
+        "label": "B",
+        "text": "くじ、がっこう、いきます"
+      },
+      {
+        "label": "C",
+        "text": "くじ、がっこ、いきます"
+      },
+      {
+        "label": "D",
+        "text": "きゅうじ、がっこう、いきます"
+      }
+    ],
+    "answer": "B",
+    "explanation": "'九時' đọc là 'くじ', '学校' đọc là 'がっこう'."
+  },
+  {
+    "id": 16,
+    "question": "[月曜日] は 休みです. (Chữ Hán trong ngoặc [ ] có cách đọc tương ứng là gì?)",
+    "type": "Hán tự - Cách đọc",
+    "options": [
+      {
+        "label": "A",
+        "text": "げつようび"
+      },
+      {
+        "label": "B",
+        "text": "けつようび"
+      },
+      {
+        "label": "C",
+        "text": "かようび"
+      },
+      {
+        "label": "D",
+        "text": "なに"
+      }
+    ],
+    "answer": "A",
+    "explanation": "'月曜日' đọc là 'げつようび'."
+  },
+  {
+    "id": 17,
+    "question": "いま　【何時】ですか。 (Chữ Hán trong ngoặc [ ] có cách đọc tương ứng như thế nào?)",
+    "type": "Hán tự - Cách đọc",
+    "options": [
+      {
+        "label": "A",
+        "text": "なんじ"
+      },
+      {
+        "label": "B",
+        "text": "なにじ"
+      },
+      {
+        "label": "C",
+        "text": "なんとき"
+      },
+      {
+        "label": "D",
+        "text": "なにとき"
+      }
+    ],
+    "answer": "A",
+    "explanation": "'何時' (mấy ぎờ) đọc là 'なんじ'."
+  },
+  {
+    "id": 18,
+    "question": "いま、何時ですか。三時【十分】です。 (Các chữ Hán trong ngoặc [ ] có cách đọc tương ứng như thế nào?)",
+    "type": "Hán tự - Cách đọc",
+    "options": [
+      {
+        "label": "A",
+        "text": "じゅうぶん"
+      },
+      {
+        "label": "B",
+        "text": "じゅっぷん"
+      },
+      {
+        "label": "C",
+        "text": "じゅうふん"
+      },
+      {
+        "label": "D",
+        "text": "じゅふん"
+      }
+    ],
+    "answer": "B",
+    "explanation": "'十分' (10 phút) được đọc là 'じゅっぷん' (じゅっぷん) hoặc 'じっぷん'."
+  },
+  {
+    "id": 19,
+    "question": "いま、何時ですか。六時【八分】です。 (Các chữ Hán trong ngoặc [ ] có cách đọc tương ứng như thế nào?)",
+    "type": "Hán tự - Cách đọc",
+    "options": [
+      {
+        "label": "A",
+        "text": "はふん"
+      },
+      {
+        "label": "B",
+        "text": "はっぷん"
+      },
+      {
+        "label": "C",
+        "text": "はちふん"
+      },
+      {
+        "label": "D",
+        "text": "はっふん"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Trong tiếng Nhật, '八分' (8 phút) được đọc biến âm thành 'はっぷん' (はっぷん)."
+  },
+  {
+    "id": 20,
+    "question": "きょうは　【火曜日】です. (Chữ Hán trong ngoặc [ ] có cách đọc tương ứng là gì?)",
+    "type": "Hán tự - Cách đọc",
+    "options": [
+      {
+        "label": "A",
+        "text": "かようび"
+      },
+      {
+        "label": "B",
+        "text": "げつようび"
+      },
+      {
+        "label": "C",
+        "text": "すいようび"
+      },
+      {
+        "label": "D",
+        "text": "きんようび"
+      }
+    ],
+    "answer": "A",
+    "explanation": "'火曜日' đọc là 'かようび'."
+  },
+  {
+    "id": 21,
+    "question": "ここに　【郵便局】が　あります。 (Chữ Hán trong ngoặc [ ] có cách đọc tương ứng là gì?)",
+    "type": "Hán tự - Cách đọc",
+    "options": [
+      {
+        "label": "A",
+        "text": "ゆうびんきょく"
+      },
+      {
+        "label": "B",
+        "text": "ゆうぴんきょく"
+      },
+      {
+        "label": "C",
+        "text": "ゆうびんきょ"
+      },
+      {
+        "label": "D",
+        "text": "ゆうびん"
+      }
+    ],
+    "answer": "A",
+    "explanation": "'郵便局' đọc là 'ゆうびんきょく'."
+  },
+  {
+    "id": 22,
+    "question": "ここに　【郵便局】が　あります。 (Chữ Hán trong ngoặc [ ] có cách đọc tương ứng như thế nào?)",
+    "type": "Hán tự - Cách đọc",
+    "options": [
+      {
+        "label": "A",
+        "text": "ゆうびんきょく"
+      },
+      {
+        "label": "B",
+        "text": "ゆうぴんきょく"
+      },
+      {
+        "label": "C",
+        "text": "ゆうびんきょ"
+      },
+      {
+        "label": "D",
+        "text": "ゆうびきょく"
+      }
+    ],
+    "answer": "A",
+    "explanation": "'郵便局' (bưu điện) đọc là 'ゆうびんきょく'."
+  },
+  {
+    "id": 23,
+    "question": "ここに　【郵便局】が　あります。 (Các chữ Hán trong ngoặc [ ] có cách đọc tương ứng như thế nào?)",
+    "type": "Hán tự - Cách đọc",
+    "options": [
+      {
+        "label": "A",
+        "text": "ゆうびんきょく"
+      },
+      {
+        "label": "B",
+        "text": "ゆうぴんきょく"
+      },
+      {
+        "label": "C",
+        "text": "ゆうびんきょく"
+      },
+      {
+        "label": "D",
+        "text": "ゆうびんきょく"
+      }
+    ],
+    "answer": "A",
+    "explanation": "'郵便局' (Bưu điện) đọc là 'ゆうびんきょく' (ゆうびんきょく)."
+  },
+  {
+    "id": 24,
+    "question": "ここに　【電話】が　あります。 (Chữ Hán trong ngoặc [ ] có cách đọc là gì?)",
+    "type": "Hán tự - Cách đọc",
+    "options": [
+      {
+        "label": "A",
+        "text": "でんわ"
+      },
+      {
+        "label": "B",
+        "text": "でんき"
+      },
+      {
+        "label": "C",
+        "text": "でんしゃ"
+      },
+      {
+        "label": "D",
+        "text": "てがみ"
+      }
+    ],
+    "answer": "A",
+    "explanation": "'電話' (điện tほại) đọc là 'でんわ'."
+  },
+  {
+    "id": 25,
+    "question": "ここに　【電話】가 あります. (Chữ Hán trong ngoặc [ ] có cách đọc là gì?)",
+    "type": "Hán tự - Cách đọc",
+    "options": [
+      {
+        "label": "A",
+        "text": "でんわ"
+      },
+      {
+        "label": "B",
+        "text": "でんき"
+      },
+      {
+        "label": "C",
+        "text": "でんしゃ"
+      },
+      {
+        "label": "D",
+        "text": "てがみ"
+      }
+    ],
+    "answer": "A",
+    "explanation": "'電話' đọc là 'でんわ'."
+  },
+  {
+    "id": 26,
+    "question": "ここは 【百円】 ショップです。 (Chữ Hán trong ngoặc [ ] có cách đọc tương ứng như thế nào?)",
+    "type": "Hán tự - Cách đọc",
+    "options": [
+      {
+        "label": "A",
+        "text": "いちびゃくえん"
+      },
+      {
+        "label": "B",
+        "text": "ひゃくえん"
+      },
+      {
+        "label": "C",
+        "text": "いちひゃえん"
+      },
+      {
+        "label": "D",
+        "text": "百円"
+      }
+    ],
+    "answer": "B",
+    "explanation": "'百' đọc là 'ひゃく'."
+  },
+  {
+    "id": 27,
+    "question": "ここは 【百円】 ショップです。 (Các chữ Hán trong ngoặc [ ] có cách đọc tương ứng như thế nào?)",
+    "type": "Hán tự - Cách đọc",
+    "options": [
+      {
+        "label": "A",
+        "text": "いちびゃくえん"
+      },
+      {
+        "label": "B",
+        "text": "ひゃくえん"
+      },
+      {
+        "label": "C",
+        "text": "いちひゃえん"
+      },
+      {
+        "label": "D",
+        "text": "百円"
+      }
+    ],
+    "answer": "B",
+    "explanation": "'百' (100) đọc là 'ひゃく', '百円' đọc là 'ひゃくえん'."
+  },
+  {
+    "id": 28,
+    "question": "ここは 【百円】 ショップです。 (Các chữ Hán trong ngoặc [ ] có cách đọc tương ứng như thế nào?)",
+    "type": "Hán tự - Cách đọc",
+    "options": [
+      {
+        "label": "A",
+        "text": "いちひゃくえん"
+      },
+      {
+        "label": "B",
+        "text": "ひゃくえん"
+      },
+      {
+        "label": "C",
+        "text": "ぴゃくえん"
+      },
+      {
+        "label": "D",
+        "text": "いちひゃえん"
+      }
+    ],
+    "answer": "B",
+    "explanation": "'百円' là 100 yên, được đọc là 'ひゃくえん' (ひゃくえん)."
+  },
+  {
+    "id": 29,
+    "question": "ここは　【受付】　ですか。 (Chữ Hán trong ngoặc [ ] có cách đọc tương ứng như thế nào?)",
+    "type": "Hán tự - Cách đọc",
+    "options": [
+      {
+        "label": "A",
+        "text": "ひるやすみ"
+      },
+      {
+        "label": "B",
+        "text": "しゅうぎょう"
+      },
+      {
+        "label": "C",
+        "text": "うけつけ"
+      },
+      {
+        "label": "D",
+        "text": "しけん"
+      }
+    ],
+    "answer": "C",
+    "explanation": "'受付' (qうầy tいếp tân) đọc là 'うけつけ'."
+  },
+  {
+    "id": 30,
+    "question": "このほんは 【三千】 円です。 (Các chữ Hán trong ngoặc [ ] có cách đọc tương ứng như thế nào?)",
+    "type": "Hán tự - Cách đọc",
+    "options": [
+      {
+        "label": "A",
+        "text": "さんせん"
+      },
+      {
+        "label": "B",
+        "text": "さんぜん"
+      },
+      {
+        "label": "C",
+        "text": "さんまん"
+      },
+      {
+        "label": "D",
+        "text": "さんびゃく"
+      }
+    ],
+    "answer": "B",
+    "explanation": "'三千' (3000) được đọc biến âm thành 'さんぜん' (さんぜん)."
+  },
+  {
+    "id": 31,
+    "question": "じむしょは　ビルの　【四階】です。 (Chữ Hán trong ngoặc [ ] có cách đọc tương ứng là gì?)",
+    "type": "Hán tự - Cách đọc",
+    "options": [
+      {
+        "label": "A",
+        "text": "よんかい"
+      },
+      {
+        "label": "B",
+        "text": "よかい"
+      },
+      {
+        "label": "C",
+        "text": "しかい"
+      },
+      {
+        "label": "D",
+        "text": "よんがい"
+      }
+    ],
+    "answer": "A",
+    "explanation": "'四階' đọc là 'よんかい'."
+  },
+  {
+    "id": 32,
+    "question": "じむしょは　ビルの　【四階】です。 (Chữ Hán trong ngoặc [ ] có cách đọc tương ứng như thế nào?)",
+    "type": "Hán tự - Cách đọc",
+    "options": [
+      {
+        "label": "A",
+        "text": "よんかい"
+      },
+      {
+        "label": "B",
+        "text": "よかい"
+      },
+      {
+        "label": "C",
+        "text": "しかい"
+      },
+      {
+        "label": "D",
+        "text": "よんがい"
+      }
+    ],
+    "answer": "A",
+    "explanation": "'四階' (tầんg 4) được đọc là 'よんかい' (よんかい)."
+  },
+  {
+    "id": 33,
+    "question": "じむしょは　ビルの　【四階】です. (Chữ Hán trong ngoặc [ ] có cách đọc là gì?)",
+    "type": "Hán tự - Cách đọc",
+    "options": [
+      {
+        "label": "A",
+        "text": "よんかい"
+      },
+      {
+        "label": "B",
+        "text": "よかい"
+      },
+      {
+        "label": "C",
+        "text": "しかい"
+      },
+      {
+        "label": "D",
+        "text": "よんがい"
+      }
+    ],
+    "answer": "A",
+    "explanation": "'四階' đọc là 'よんかい'."
+  },
+  {
+    "id": 34,
+    "question": "すみません、いま 何時 【何分】ですか (Các chữ Hán trong ngoặc [ ] có cách đọc tương ứng như thế nào?)",
+    "type": "Hán tự - Cách đọc",
+    "options": [
+      {
+        "label": "A",
+        "text": "なんふん"
+      },
+      {
+        "label": "B",
+        "text": "なんぶん"
+      },
+      {
+        "label": "C",
+        "text": "なんぷん"
+      },
+      {
+        "label": "D",
+        "text": "なんじ"
+      }
+    ],
+    "answer": "C",
+    "explanation": "'何分' (mấy phút) trong câu hỏi giờ giấc được đọc là 'なんぷん' (なんぷん)."
+  },
+  {
+    "id": 35,
+    "question": "たなかさんは　【25さい】ですか。 (Số trong ngoặc dưới đây có cách đọc tương ứng là gì?)",
+    "type": "Hán tự - Cách đọc",
+    "options": [
+      {
+        "label": "A",
+        "text": "じゅうごさい"
+      },
+      {
+        "label": "B",
+        "text": "ごじゅうさい"
+      },
+      {
+        "label": "C",
+        "text": "ごじゅさい"
+      },
+      {
+        "label": "D",
+        "text": "にじゅうごさい"
+      }
+    ],
+    "answer": "D",
+    "explanation": "'25さい' đọc là 'にじゅうごさい'."
+  },
+  {
+    "id": 36,
+    "question": "たなかさんは　【25さい】ですか。 (Số trong ngoặc dưới đây có cách đọc tương ứng như thế nào?)",
+    "type": "Hán tự - Cách đọc",
+    "options": [
+      {
+        "label": "A",
+        "text": "じゅうごさい"
+      },
+      {
+        "label": "B",
+        "text": "ごじゅうさい"
+      },
+      {
+        "label": "C",
+        "text": "ごじゅさい"
+      },
+      {
+        "label": "D",
+        "text": "にじゅうごさい"
+      }
+    ],
+    "answer": "D",
+    "explanation": "'25さい' đọc là 'にじゅうごさい' (にじゅうごさい)."
+  },
+  {
+    "id": 37,
+    "question": "たなかさんは　【29さい】ですか。 (Số trong ngoặc [ ] có cách đọc tương ứng là gì?)",
+    "type": "Hán tự - Cách đọc",
+    "options": [
+      {
+        "label": "A",
+        "text": "にじゅうきゅうさい"
+      },
+      {
+        "label": "B",
+        "text": "にじゅうくさい"
+      },
+      {
+        "label": "C",
+        "text": "にじゅうきゅう"
+      },
+      {
+        "label": "D",
+        "text": "にじゅきゅうさい"
+      }
+    ],
+    "answer": "A",
+    "explanation": "'29さい' đọc là 'にじゅうきゅうさい'."
+  },
+  {
+    "id": 38,
+    "question": "としょかんの やすみは 土曜日と 【日曜日】です。 (Các chữ Hán trong ngoặc [ ] có cách đọc tương ứng như thế nào?)",
+    "type": "Hán tự - Cách đọc",
+    "options": [
+      {
+        "label": "A",
+        "text": "かようび"
+      },
+      {
+        "label": "B",
+        "text": "にちようび"
+      },
+      {
+        "label": "C",
+        "text": "どようび"
+      },
+      {
+        "label": "D",
+        "text": "きんようび"
+      }
+    ],
+    "answer": "B",
+    "explanation": "'日曜日' nghĩa là Chủ Nhật, được đọc là 'にちようび' (にちようび)."
+  },
+  {
+    "id": 39,
+    "question": "やまずさんは　【日本人】です. (Chữ Hán trong ngoặc [ ] có cách đọc là gì?)",
+    "type": "Hán tự - Cách đọc",
+    "options": [
+      {
+        "label": "A",
+        "text": "にほんじん"
+      },
+      {
+        "label": "B",
+        "text": "にっぽんじん"
+      },
+      {
+        "label": "C",
+        "text": "にばんじん"
+      },
+      {
+        "label": "D",
+        "text": "にもんじん"
+      }
+    ],
+    "answer": "A",
+    "explanation": "'日本人' đọc là 'にほんじん'."
+  },
+  {
+    "id": 40,
+    "question": "やまださんは　【日本人】です。 (Chữ Hán trong ngoặc [ ] có cách đọc tương ứng như thế nào?)",
+    "type": "Hán tự - Cách đọc",
+    "options": [
+      {
+        "label": "A",
+        "text": "にほんじん"
+      },
+      {
+        "label": "B",
+        "text": "にっぽんじん"
+      },
+      {
+        "label": "C",
+        "text": "にばんじん"
+      },
+      {
+        "label": "D",
+        "text": "にもんじん"
+      }
+    ],
+    "answer": "A",
+    "explanation": "'日本人' (んgười んhật) được đọc là 'にほんじん' (にほんじん)."
+  },
+  {
+    "id": 41,
+    "question": "やまださんは　【日本人】です. (Chữ Hán trong ngoặc [ ] có cách đọc là gì?)",
+    "type": "Hán tự - Cách đọc",
+    "options": [
+      {
+        "label": "A",
+        "text": "にほんじん"
+      },
+      {
+        "label": "B",
+        "text": "にっぽんじん"
+      },
+      {
+        "label": "C",
+        "text": "にばんじん"
+      },
+      {
+        "label": "D",
+        "text": "にもんじん"
+      }
+    ],
+    "answer": "A",
+    "explanation": "'日本人' đọc là 'にほんじん'."
+  },
+  {
+    "id": 42,
+    "question": "やまださんは　【日本人】です. (Chữ Hán trong ngoặc [ ] có cách đọc tương ứng là gì?)",
+    "type": "Hán tự - Cách đọc",
+    "options": [
+      {
+        "label": "A",
+        "text": "にほんじん"
+      },
+      {
+        "label": "B",
+        "text": "にっぽんじん"
+      },
+      {
+        "label": "C",
+        "text": "にばんじん"
+      },
+      {
+        "label": "D",
+        "text": "にもんじん"
+      }
+    ],
+    "answer": "A",
+    "explanation": "'日本人' đọc là 'にほんじん'."
+  },
+  {
+    "id": 43,
+    "question": "やまださんは　【日本人】です. (Chữ Hán trong ngoặc [ ] có cách đọc tương ứng là gì?)",
+    "type": "Hán tự - Cách đọc",
+    "options": [
+      {
+        "label": "A",
+        "text": "にhonじん"
+      },
+      {
+        "label": "B",
+        "text": "にっぽんじん"
+      },
+      {
+        "label": "C",
+        "text": "にばんじん"
+      },
+      {
+        "label": "D",
+        "text": "にもんじん"
+      }
+    ],
+    "answer": "A",
+    "explanation": "'日本人' đọc là 'にほんじん'."
+  },
+  {
+    "id": 44,
+    "question": "わたしは　【手紙】を　かきます. (Chữ Hán trong ngoặc [ ] có cách đọc tương ứng là gì?)",
+    "type": "Hán tự - Cách đọc",
+    "options": [
+      {
+        "label": "A",
+        "text": "てまき"
+      },
+      {
+        "label": "B",
+        "text": "てがみ"
+      },
+      {
+        "label": "C",
+        "text": "ほうれんそう"
+      },
+      {
+        "label": "D",
+        "text": "まよわず"
+      }
+    ],
+    "answer": "B",
+    "explanation": "'手紙' đọc là 'てがみ'."
+  },
+  {
+    "id": 45,
+    "question": "ハノイは いま ごぜん 【四時】 です。 (Các chữ Hán trong ngoặc [ ] có cách đọc tương ứng như thế nào?)",
+    "type": "Hán tự - Cách đọc",
+    "options": [
+      {
+        "label": "A",
+        "text": "ごじ"
+      },
+      {
+        "label": "B",
+        "text": "よじ"
+      },
+      {
+        "label": "C",
+        "text": "よんじ"
+      },
+      {
+        "label": "D",
+        "text": "しじ"
+      }
+    ],
+    "answer": "B",
+    "explanation": "'四時' (4 ぎờ) là trường hợp đọc đặc biệt, đọc là 'よじ' (よじ)."
+  },
+  {
+    "id": 46,
+    "question": "ミラーさんは　【アメリカ人】です. (Chữ Hán trong ngoặc [ ] có cách đọc là gì?)",
+    "type": "Hán tự - Cách đọc",
+    "options": [
+      {
+        "label": "A",
+        "text": "アメリカひと"
+      },
+      {
+        "label": "B",
+        "text": "アメリカじん"
+      },
+      {
+        "label": "C",
+        "text": "アメリカにん"
+      },
+      {
+        "label": "D",
+        "text": "アメリカしん"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Khi chỉ quốc tịch, chữ '人' đọc là 'じん'."
+  },
+  {
+    "id": 47,
+    "question": "ワンさんは　【19さい】ですか。 (Số trong ngoặc [ ] có cách đọc tương ứng như thế nào?)",
+    "type": "Hán tự - Cách đọc",
+    "options": [
+      {
+        "label": "A",
+        "text": "じゅうきゅうさい"
+      },
+      {
+        "label": "B",
+        "text": "にじゅうさい"
+      },
+      {
+        "label": "C",
+        "text": "にじゅうきゅうさい"
+      },
+      {
+        "label": "D",
+        "text": "はたち"
+      }
+    ],
+    "answer": "A",
+    "explanation": "'19さい' đọc là 'じゅうきゅうさい'."
+  },
+  {
+    "id": 48,
+    "question": "ワンさんは　【何才】ですか。 (Chữ Hán trong ngoặc [ ] có cách đọc là gì?)",
+    "type": "Hán tự - Cách đọc",
+    "options": [
+      {
+        "label": "A",
+        "text": "なんさい"
+      },
+      {
+        "label": "B",
+        "text": "おさい"
+      },
+      {
+        "label": "C",
+        "text": "なにさい"
+      },
+      {
+        "label": "D",
+        "text": "なんざい"
+      }
+    ],
+    "answer": "A",
+    "explanation": "'何才' đọc là 'なんさい'."
+  },
+  {
+    "id": 49,
+    "question": "ワンさんは　【何才】ですか。 (Chữ Hán trong ngoặc [ ] có cách đọc tương ứng là gì?)",
+    "type": "Hán tự - Cách đọc",
+    "options": [
+      {
+        "label": "A",
+        "text": "なんさい"
+      },
+      {
+        "label": "B",
+        "text": "おさい"
+      },
+      {
+        "label": "C",
+        "text": "なにさい"
+      },
+      {
+        "label": "D",
+        "text": "なんざい"
+      }
+    ],
+    "answer": "A",
+    "explanation": "'何才' đọc là 'なんさい'."
+  },
+  {
+    "id": 50,
+    "question": "ワンさんは　【何才】ですか。 (Chữ Hán trong ngoặc [ ] có cách đọc tương ứng như thế nào?)",
+    "type": "Hán tự - Cách đọc",
+    "options": [
+      {
+        "label": "A",
+        "text": "なんさい"
+      },
+      {
+        "label": "B",
+        "text": "おさい"
+      },
+      {
+        "label": "C",
+        "text": "なにさい"
+      },
+      {
+        "label": "D",
+        "text": "なんざい"
+      }
+    ],
+    "answer": "A",
+    "explanation": "'何才' đọc là 'なんさい'."
+  },
+  {
+    "id": 51,
+    "question": "毎朝　【七時】に　おきます。 (Chữ Hán trong ngoặc [ ] có cách đọc là gì?)",
+    "type": "Hán tự - Cách đọc",
+    "options": [
+      {
+        "label": "A",
+        "text": "ななじ"
+      },
+      {
+        "label": "B",
+        "text": "しちじ"
+      },
+      {
+        "label": "C",
+        "text": "くじ"
+      },
+      {
+        "label": "D",
+        "text": "はちじ"
+      }
+    ],
+    "answer": "B",
+    "explanation": "'七時' đọc là 'しちじ'."
+  },
+  {
+    "id": 52,
+    "question": "毎朝　【七時】に　おきます。 (Chữ Hán trong ngoặc [ ] có cách đọc tương ứng như thế nào?)",
+    "type": "Hán tự - Cách đọc",
+    "options": [
+      {
+        "label": "A",
+        "text": "ななじ"
+      },
+      {
+        "label": "B",
+        "text": "しちじ"
+      },
+      {
+        "label": "C",
+        "text": "七時"
+      },
+      {
+        "label": "D",
+        "text": "なじ"
+      }
+    ],
+    "answer": "B",
+    "explanation": "'七時' đọc là 'しちじ'."
+  },
+  {
+    "id": 53,
+    "question": "毎朝　【七時】に　おきます。 (Các chữ Hán trong ngoặc [ ] có cách đọc tương ứng như thế nào?)",
+    "type": "Hán tự - Cách đọc",
+    "options": [
+      {
+        "label": "A",
+        "text": "ななじ"
+      },
+      {
+        "label": "B",
+        "text": "しちじ"
+      },
+      {
+        "label": "C",
+        "text": "七時"
+      },
+      {
+        "label": "D",
+        "text": "七時"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Khi nói về giờ giấc, '7 ぎờ' (七時) luôn được đọc là 'しちじ' (しちじ)."
+  },
+  {
+    "id": 54,
+    "question": "毎朝　【九時】に　おきます。 (Chữ Hán trong ngoặc [ ] có cách đọc là gì?)",
+    "type": "Hán tự - Cách đọc",
+    "options": [
+      {
+        "label": "A",
+        "text": "はちじ"
+      },
+      {
+        "label": "B",
+        "text": "きゅうじ"
+      },
+      {
+        "label": "C",
+        "text": "くじ"
+      },
+      {
+        "label": "D",
+        "text": "ななじ"
+      }
+    ],
+    "answer": "C",
+    "explanation": "'9 ぎờ' đọc là 'くじ'."
+  },
+  {
+    "id": 55,
+    "question": "毎朝　【九時】に　おきます。 (Chữ Hán trong ngoặc [ ] có cách đọc tương ứng là gì?)",
+    "type": "Hán tự - Cách đọc",
+    "options": [
+      {
+        "label": "A",
+        "text": "はちじ"
+      },
+      {
+        "label": "B",
+        "text": "きゅうじ"
+      },
+      {
+        "label": "C",
+        "text": "くじ"
+      },
+      {
+        "label": "D",
+        "text": "ななじ"
+      }
+    ],
+    "answer": "C",
+    "explanation": "'9 ぎờ' được đọc đặc biệt là 'くじ'."
+  },
+  {
+    "id": 56,
+    "question": "毎朝　【九時】に　おきます。 (Chữ Hán trong ngoặc [ ] có cách đọc tương ứng như thế nào?)",
+    "type": "Hán tự - Cách đọc",
+    "options": [
+      {
+        "label": "A",
+        "text": "きゅうじ"
+      },
+      {
+        "label": "B",
+        "text": "くじ"
+      },
+      {
+        "label": "C",
+        "text": "じゅうじ"
+      },
+      {
+        "label": "D",
+        "text": "ななじ"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Khi nói về giờ giấc, '9 ぎờ' (九時) được đọc đặc biệt là 'くじ'."
+  },
+  {
+    "id": 57,
+    "question": "田中さんは　【25さい】ですか。 (Số trong ngoặc dưới đây có cách đọc là gì?)",
+    "type": "Hán tự - Cách đọc",
+    "options": [
+      {
+        "label": "A",
+        "text": "じゅうごさい"
+      },
+      {
+        "label": "B",
+        "text": "ごじゅうさい"
+      },
+      {
+        "label": "C",
+        "text": "ごじゅさい"
+      },
+      {
+        "label": "D",
+        "text": "25さい"
+      }
+    ],
+    "answer": "D",
+    "explanation": "'25さい' đọc là 'にじゅうごさい'."
+  },
+  {
+    "id": 58,
+    "question": "田中さんは　【25さい】ですか。 (Số trong ngoặc dưới đây có cách đọc là gì?)",
+    "type": "Hán tự - Cách đọc",
+    "options": [
+      {
+        "label": "A",
+        "text": "じゅうごさい"
+      },
+      {
+        "label": "B",
+        "text": "ごじゅうさい"
+      },
+      {
+        "label": "C",
+        "text": "ごじゅさい"
+      },
+      {
+        "label": "D",
+        "text": "にじゅうごさい"
+      }
+    ],
+    "answer": "D",
+    "explanation": "'25さい' đọc là 'にじゅうごさい'."
+  },
+  {
+    "id": 59,
+    "question": "田中さんは　【25さい】ですか。 (Số trong ngoặc dưới đây có cách đọc tương ứng là gì?)",
+    "type": "Hán tự - Cách đọc",
+    "options": [
+      {
+        "label": "A",
+        "text": "じゅうごさい"
+      },
+      {
+        "label": "B",
+        "text": "ごじゅうさい"
+      },
+      {
+        "label": "C",
+        "text": "ごじゅさい"
+      },
+      {
+        "label": "D",
+        "text": "にじゅうごさい"
+      }
+    ],
+    "answer": "D",
+    "explanation": "'25さい' đọc là 'にじゅうごさい'."
+  },
+  {
+    "id": 60,
+    "question": "田中さんは　【25さい】ですか。 (Số trong ngoặc dưới đây có cách đọc tương ứng như thế nào?)",
+    "type": "Hán tự - Cách đọc",
+    "options": [
+      {
+        "label": "A",
+        "text": "じゅうごさい"
+      },
+      {
+        "label": "B",
+        "text": "ごじゅうさい"
+      },
+      {
+        "label": "C",
+        "text": "ごじゅさい"
+      },
+      {
+        "label": "D",
+        "text": "にじゅうごさい"
+      }
+    ],
+    "answer": "D",
+    "explanation": "'25さい' đọc là 'にじゅうごさい'."
+  },
+  {
+    "id": 61,
+    "question": "田中さんは　【27さい】ですか。 (Số trong ngoặc [ ] có cách đọc tương ứng là gì?)",
+    "type": "Hán tự - Cách đọc",
+    "options": [
+      {
+        "label": "A",
+        "text": "にじゅうしちさい"
+      },
+      {
+        "label": "B",
+        "text": "にじゅうななさい"
+      },
+      {
+        "label": "C",
+        "text": "にじゅうなさい"
+      },
+      {
+        "label": "D",
+        "text": "にじゅななさい"
+      }
+    ],
+    "answer": "B",
+    "explanation": "'27さい' đọc là 'にじゅうななさい'."
+  },
+  {
+    "id": 62,
+    "question": "田中さんは　【27さい】ですか。 (Số trong ngoặc dưới đây có cách đọc tương ứng như thế nào?)",
+    "type": "Hán tự - Cách đọc",
+    "options": [
+      {
+        "label": "A",
+        "text": "にじゅうしちさい"
+      },
+      {
+        "label": "B",
+        "text": "にじゅうななさい"
+      },
+      {
+        "label": "C",
+        "text": "にじゅうなさい"
+      },
+      {
+        "label": "D",
+        "text": "にじゅななさい"
+      }
+    ],
+    "answer": "B",
+    "explanation": "'27さい' đọc là 'にじゅうななさい' (にじゅうななさい)."
+  },
+  {
+    "id": 63,
+    "question": "誕生日のパーティーは　【十二月二十五日】です. (Số trong ngoặc [ ] có cách đọc tương ứng như thế nào?)",
+    "type": "Hán tự - Cách đọc",
+    "options": [
+      {
+        "label": "A",
+        "text": "じゅうにがつ にじゅうごにち"
+      },
+      {
+        "label": "B",
+        "text": "じゅうにがつ はつか"
+      },
+      {
+        "label": "C",
+        "text": "じゅうにがつ にじゅうにち"
+      },
+      {
+        "label": "D",
+        "text": "じゅうにがつ にじゅうしちにち"
+      }
+    ],
+    "answer": "A",
+    "explanation": "'十二月' là tháng 12, '二十五日' là ngày 25."
+  },
+  {
+    "id": 64,
+    "question": "この　かばんは　【にまん　はっぴゃく】えんです。 (Số trong ngoặc dưới đây có giá trị tương ứng là gì?)",
+    "type": "Hán tự - Số đếm",
+    "options": [
+      {
+        "label": "A",
+        "text": "8802"
+      },
+      {
+        "label": "B",
+        "text": "20800"
+      },
+      {
+        "label": "C",
+        "text": "2800"
+      },
+      {
+        "label": "D",
+        "text": "28000"
+      }
+    ],
+    "answer": "B",
+    "explanation": "'にまん' = 20000, 'はっぴゃく' = 800."
+  },
+  {
+    "id": 65,
+    "question": "この　かばんは　【にまん　はっぴゃく】えんです。 (Số trong ngoặc dưới đây có giá trị tương ứng như thế nào?)",
+    "type": "Hán tự - Số đếm",
+    "options": [
+      {
+        "label": "A",
+        "text": "8802"
+      },
+      {
+        "label": "B",
+        "text": "20800"
+      },
+      {
+        "label": "C",
+        "text": "2800"
+      },
+      {
+        "label": "D",
+        "text": "28000"
+      }
+    ],
+    "answer": "B",
+    "explanation": "'にまん' là 2,0000, 'はっぴゃく' là 800. Tổng cộng là 20800."
+  },
+  {
+    "id": 66,
+    "question": "A: おくには どちらですか。B: 【にほん】です。 (Các từ trong ngoặc [ ] dưới đây có chữ Hán tương ứng như thế nào?)",
+    "type": "Hán tự - Viết chữ",
+    "options": [
+      {
+        "label": "A",
+        "text": "日本"
+      },
+      {
+        "label": "B",
+        "text": "日木"
+      },
+      {
+        "label": "C",
+        "text": "口本"
+      },
+      {
+        "label": "D",
+        "text": "日木 (Biến thể khác)"
+      }
+    ],
+    "answer": "A",
+    "explanation": "'にほん' (んhật Bản) được viết bằng chữ Hán là '日本'."
+  },
+  {
+    "id": 67,
+    "question": "A: おしごとは？B: 私は 【フランスご】 の きょうしです。 (Từ trong ngoặc [ ] dưới đây có chữ Hán tương ứng như thế nào?)",
+    "type": "Hán tự - Viết chữ",
+    "options": [
+      {
+        "label": "A",
+        "text": "フランス言"
+      },
+      {
+        "label": "B",
+        "text": "フランス語"
+      },
+      {
+        "label": "C",
+        "text": "フランス認"
+      },
+      {
+        "label": "D",
+        "text": "フランス親"
+      }
+    ],
+    "answer": "B",
+    "explanation": "'ご' trong 'フランスご' (tいếんg pháp) là chữ '語' (んgôn んgữ)."
+  },
+  {
+    "id": 68,
+    "question": "A: たんじょうびは いつですか。B: 3月 【はつか】 です。 (Từ trong ngoặc [ ] dưới đây có chữ Hán tương ứng như thế nào?)",
+    "type": "Hán tự - Viết chữ",
+    "options": [
+      {
+        "label": "A",
+        "text": "二十日"
+      },
+      {
+        "label": "B",
+        "text": "二十才"
+      },
+      {
+        "label": "C",
+        "text": "二十八日"
+      },
+      {
+        "label": "D",
+        "text": "五日"
+      }
+    ],
+    "answer": "A",
+    "explanation": "'はつか' (んgày 20) là cách đọc đặc biệt, được viết là '二十日'."
+  },
+  {
+    "id": 69,
+    "question": "いま　（＿＿＿）　【なんじ】ですか. (Từ trong ngoặc [ ] dưới đây có chữ Hán tương ứng là gì?)",
+    "type": "Hán tự - Viết chữ",
+    "options": [
+      {
+        "label": "A",
+        "text": "何時"
+      },
+      {
+        "label": "B",
+        "text": "伺時"
+      },
+      {
+        "label": "C",
+        "text": "何時"
+      },
+      {
+        "label": "D",
+        "text": "伺時"
+      }
+    ],
+    "answer": "A",
+    "explanation": "'なんじ' viết là '何時'."
+  },
+  {
+    "id": 70,
+    "question": "いま　（＿＿＿）　【なんじ】ですか。 (Từ trong ngoặc [ ] có chữ Hán tương ứng là gì?)",
+    "type": "Hán tự - Viết chữ",
+    "options": [
+      {
+        "label": "A",
+        "text": "何時"
+      },
+      {
+        "label": "B",
+        "text": "伺時"
+      },
+      {
+        "label": "C",
+        "text": "何時"
+      },
+      {
+        "label": "D",
+        "text": "伺時"
+      }
+    ],
+    "answer": "A",
+    "explanation": "'なんじ' viết là '何時'."
+  },
+  {
+    "id": 71,
+    "question": "いま　（＿＿＿）　【なんじ】ですか。 (Từ trong ngoặc [ ] dưới đây có chữ Hán tương ứng là gì?)",
+    "type": "Hán tự - Viết chữ",
+    "options": [
+      {
+        "label": "A",
+        "text": "何時"
+      },
+      {
+        "label": "B",
+        "text": "伺時"
+      },
+      {
+        "label": "C",
+        "text": "何時"
+      },
+      {
+        "label": "D",
+        "text": "伺時"
+      }
+    ],
+    "answer": "A",
+    "explanation": "'なんじ' viết là '何時'."
+  },
+  {
+    "id": 72,
+    "question": "いま　（＿＿＿）　【なんじ】ですか。 (Từ trong ngoặc [ ] dưới đây có chữ Hán tương ứng như thế nào?)",
+    "type": "Hán tự - Viết chữ",
+    "options": [
+      {
+        "label": "A",
+        "text": "何時"
+      },
+      {
+        "label": "B",
+        "text": "伺時"
+      },
+      {
+        "label": "C",
+        "text": "何時"
+      },
+      {
+        "label": "D",
+        "text": "伺時"
+      }
+    ],
+    "answer": "A",
+    "explanation": "'なんじ' (mấy ぎờ) được viết là '何時'."
+  },
+  {
+    "id": 73,
+    "question": "いま、なんじ 【なんぷん】 ですか。 (Các từ trong ngoặc [ ] dưới đây có chữ Hán tương ứng như thế nào?)",
+    "type": "Hán tự - Viết chữ",
+    "options": [
+      {
+        "label": "A",
+        "text": "何分"
+      },
+      {
+        "label": "B",
+        "text": "何時"
+      },
+      {
+        "label": "C",
+        "text": "何才"
+      },
+      {
+        "label": "D",
+        "text": "何人"
+      }
+    ],
+    "answer": "A",
+    "explanation": "'なんぷん' (mấy phút) được viết bằng chữ Hán là '何分'."
+  },
+  {
+    "id": 74,
+    "question": "きょうは　【げつようび】　ですか. (Từ trong ngoặc [ ] dưới đây có chữ Hán tương ứng là gì?)",
+    "type": "Hán tự - Viết chữ",
+    "options": [
+      {
+        "label": "A",
+        "text": "金曜日"
+      },
+      {
+        "label": "B",
+        "text": "月曜日"
+      },
+      {
+        "label": "C",
+        "text": "火曜日"
+      },
+      {
+        "label": "D",
+        "text": "木曜日"
+      }
+    ],
+    "answer": "B",
+    "explanation": "'げつようび' là '月曜日'."
+  },
+  {
+    "id": 75,
+    "question": "きょうは　【げつようび】　ですか。 (Từ trong ngoặc [ ] có chữ Hán tương ứng là gì?)",
+    "type": "Hán tự - Viết chữ",
+    "options": [
+      {
+        "label": "A",
+        "text": "金曜日"
+      },
+      {
+        "label": "B",
+        "text": "月曜日"
+      },
+      {
+        "label": "C",
+        "text": "火曜日"
+      },
+      {
+        "label": "D",
+        "text": "木曜日"
+      }
+    ],
+    "answer": "B",
+    "explanation": "'げつようび' là '月曜日'."
+  },
+  {
+    "id": 76,
+    "question": "きょうは　【げつようび】　ですか。 (Từ trong ngoặc [ ] dưới đây có chữ Hán tương ứng là gì?)",
+    "type": "Hán tự - Viết chữ",
+    "options": [
+      {
+        "label": "A",
+        "text": "金曜日"
+      },
+      {
+        "label": "B",
+        "text": "月曜日"
+      },
+      {
+        "label": "C",
+        "text": "火曜日"
+      },
+      {
+        "label": "D",
+        "text": "木曜日"
+      }
+    ],
+    "answer": "B",
+    "explanation": "'げつようび' là '月曜日'."
+  },
+  {
+    "id": 77,
+    "question": "きょうは　【げつようび】　ですか。 (Từ trong ngoặc [ ] dưới đây có chữ Hán tương ứng như thế nào?)",
+    "type": "Hán tự - Viết chữ",
+    "options": [
+      {
+        "label": "A",
+        "text": "金曜日"
+      },
+      {
+        "label": "B",
+        "text": "月曜日"
+      },
+      {
+        "label": "C",
+        "text": "火曜日"
+      },
+      {
+        "label": "D",
+        "text": "木曜日"
+      }
+    ],
+    "answer": "B",
+    "explanation": "'げつようび' (thứ はい) được viết bằng chữ Hán là '月曜日'."
+  },
+  {
+    "id": 78,
+    "question": "たいいくかんの やすみは 【もくようび】 です。 (Từ trong ngoặc [ ] dưới đây có chữ Hán tương ứng như thế nào?)",
+    "type": "Hán tự - Viết chữ",
+    "options": [
+      {
+        "label": "A",
+        "text": "水曜日"
+      },
+      {
+        "label": "B",
+        "text": "木曜日"
+      },
+      {
+        "label": "C",
+        "text": "月曜日"
+      },
+      {
+        "label": "D",
+        "text": "土曜日"
+      }
+    ],
+    "answer": "B",
+    "explanation": "'もくようび' (thứ Năm) được viết là '木曜日'."
+  },
+  {
+    "id": 79,
+    "question": "たなかさんは 【ごじゅうにさい】 です。 (Các từ trong ngoặc [ ] dưới đây có chữ Hán tương ứng như thế nào?)",
+    "type": "Hán tự - Viết chữ",
+    "options": [
+      {
+        "label": "A",
+        "text": "六十一才"
+      },
+      {
+        "label": "B",
+        "text": "五十二才"
+      },
+      {
+        "label": "C",
+        "text": "五十三才"
+      },
+      {
+        "label": "D",
+        "text": "六十二才"
+      }
+    ],
+    "answer": "B",
+    "explanation": "'ごじゅうにさい' (52 tうổi) tương ứng với chữ Hán '五十二才'."
+  },
+  {
+    "id": 80,
+    "question": "たんじょうびは 2月 【ついたち】 です。 (Từ trong ngoặc [ ] dưới đây có chữ Hán tương ứng như thế nào?)",
+    "type": "Hán tự - Viết chữ",
+    "options": [
+      {
+        "label": "A",
+        "text": "三日"
+      },
+      {
+        "label": "B",
+        "text": "二日"
+      },
+      {
+        "label": "C",
+        "text": "一日"
+      },
+      {
+        "label": "D",
+        "text": "四日"
+      }
+    ],
+    "answer": "C",
+    "explanation": "'ついたち' (んgày mùんg 1) là cách đọc đặc biệt, được viết là '一日'."
+  },
+  {
+    "id": 81,
+    "question": "キムさんは インド 【じん】 じゃありません。 (Các từ trong ngoặc [ ] dưới đây có chữ Hán tương ứng như thế nào?)",
+    "type": "Hán tự - Viết chữ",
+    "options": [
+      {
+        "label": "A",
+        "text": "人"
+      },
+      {
+        "label": "B",
+        "text": "入"
+      },
+      {
+        "label": "C",
+        "text": "肉"
+      },
+      {
+        "label": "D",
+        "text": "八"
+      }
+    ],
+    "answer": "A",
+    "explanation": "'じん' trong 'インドじん' (んgười Ấn Độ) là chữ '人' (んhân)."
+  },
+  {
+    "id": 82,
+    "question": "ワンさんは　【なんさい】ですか。 (Từ trong ngoặc [ ] dưới đây có chữ Hán tương ứng là gì?)",
+    "type": "Hán tự - Viết chữ",
+    "options": [
+      {
+        "label": "A",
+        "text": "何才"
+      },
+      {
+        "label": "B",
+        "text": "伺才"
+      },
+      {
+        "label": "C",
+        "text": "何在"
+      },
+      {
+        "label": "D",
+        "text": "何歳"
+      }
+    ],
+    "answer": "A",
+    "explanation": "'なんさい' viết là '何才'."
+  },
+  {
+    "id": 83,
+    "question": "ワンさんは　【なんさい】ですか。 (Từ trong ngoặc [ ] dưới đây có chữ Hán tương ứng như thế nào?)",
+    "type": "Hán tự - Viết chữ",
+    "options": [
+      {
+        "label": "A",
+        "text": "何才"
+      },
+      {
+        "label": "B",
+        "text": "伺才"
+      },
+      {
+        "label": "C",
+        "text": "何在"
+      },
+      {
+        "label": "D",
+        "text": "何歳"
+      }
+    ],
+    "answer": "A",
+    "explanation": "'なんさい' (mấy tうổi) thường được viết là '何才' trong trình độ cơ bản."
+  },
+  {
+    "id": 84,
+    "question": "A: しゅみは なんですか。B: （＿＿＿） です。 (Chọn đáp án thích hợp điền vào chỗ trống)",
+    "type": "Từ vựng",
+    "options": [
+      {
+        "label": "A",
+        "text": "タイじん"
+      },
+      {
+        "label": "B",
+        "text": "サッカー"
+      },
+      {
+        "label": "C",
+        "text": "さんじゅっさい"
+      },
+      {
+        "label": "D",
+        "text": "きょうし"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Chỉ có 'サッカー' (bóんg đá) là sở thích phù hợp trong các lựa chọn."
+  },
+  {
+    "id": 85,
+    "question": "A: 4月10日は おはなみです. B: えっ！おはなみ？ なにを しますか. A: ＿＿①＿＿をみます。＿＿②＿＿を たべます。",
+    "type": "Từ vựng - Danh từ phù hợp động từ",
+    "options": [
+      {
+        "label": "A",
+        "text": "①さくら／②おべんとう"
+      },
+      {
+        "label": "B",
+        "text": "①おべんとう／②さくら"
+      },
+      {
+        "label": "C",
+        "text": "①カレー／②はな"
+      },
+      {
+        "label": "D",
+        "text": "①とんかつ／②はなび"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Đi ngắm hoa (おはなみ) thì ngắm hoa sakura (さくら) và ăn cơm hộp (おべんとう)."
+  },
+  {
+    "id": 86,
+    "question": "Hãy tìm nghĩa tiếng Việt tương ứng cho từ sau: “とんかつ”",
+    "type": "Từ vựng - Nghĩa từ",
+    "options": [
+      {
+        "label": "A",
+        "text": "Thịt lợn băm viên"
+      },
+      {
+        "label": "B",
+        "text": "Thịt lợn chiên xù"
+      },
+      {
+        "label": "C",
+        "text": "Súp gà"
+      },
+      {
+        "label": "D",
+        "text": "Nước hoa quả"
+      }
+    ],
+    "answer": "B",
+    "explanation": "'とんかつ' (とんかつ) là món ăn truyền thống Nhật Bản làm từ thịt lợn tẩm bột chiên xù."
+  },
+  {
+    "id": 87,
+    "question": "Hãy tìm nghĩa tiếng Việt tương ứng cho từ sau: “アルバイト”",
+    "type": "Từ vựng - Nghĩa từ",
+    "options": [
+      {
+        "label": "A",
+        "text": "Lễ hội"
+      },
+      {
+        "label": "B",
+        "text": "Việc làm thêm"
+      },
+      {
+        "label": "C",
+        "text": "Tiệc nướng ngoài trời"
+      },
+      {
+        "label": "D",
+        "text": "Giờ học"
+      }
+    ],
+    "answer": "B",
+    "explanation": "'アルバイト' (あるばいと) là từ mượn có nguồn gốc từ tiếng Đức 'あrべいt', nghĩa là công việc làm thêm."
+  },
+  {
+    "id": 88,
+    "question": "Hãy tìm nghĩa tiếng Việt tương ứng cho từ sau: “スケジュール”",
+    "type": "Từ vựng - Nghĩa từ",
+    "options": [
+      {
+        "label": "A",
+        "text": "Tiệc nướng ngoài trời"
+      },
+      {
+        "label": "B",
+        "text": "Kế hoạch"
+      },
+      {
+        "label": "C",
+        "text": "Ở cùng người bản địa"
+      },
+      {
+        "label": "D",
+        "text": "Cơm hộp"
+      }
+    ],
+    "answer": "B",
+    "explanation": "'スケジュール' (scへづlえ) có nghĩa là kế hoạch, lịch trình công việc."
+  },
+  {
+    "id": 89,
+    "question": "A: しゅみは なんですか。B: （＿＿＿） です。 (Chọn đáp án thích hợp trong A, B, C, D để điền vào ngoặc cho câu sau)",
+    "type": "Từ vựng - Ngữ cảnh",
+    "options": [
+      {
+        "label": "A",
+        "text": "りょうり"
+      },
+      {
+        "label": "B",
+        "text": "ぎんこう"
+      },
+      {
+        "label": "C",
+        "text": "きっさてん"
+      },
+      {
+        "label": "D",
+        "text": "かんこく"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Câu hỏi hỏi về sở thích (しゅみ), nên câu trả lời phải là một sở thích như 'りょうり' (nấu ăn)."
+  },
+  {
+    "id": 90,
+    "question": "A: しゅみは　何ですか. B: （＿＿＿）です. (Chọn đáp án thích hợp điền vào chỗ trống)",
+    "type": "Từ vựng - Ngữ cảnh",
+    "options": [
+      {
+        "label": "A",
+        "text": "きる"
+      },
+      {
+        "label": "B",
+        "text": "しゃしん"
+      },
+      {
+        "label": "C",
+        "text": "しゃしんです"
+      },
+      {
+        "label": "D",
+        "text": "きれいです"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Sở thích là danh từ 'しゃしん'."
+  },
+  {
+    "id": 91,
+    "question": "A: しゅみは　何ですか。B: （＿＿＿）です。 (Chọn đáp án thích hợp điền vào chỗ trống)",
+    "type": "Từ vựng - Ngữ cảnh",
+    "options": [
+      {
+        "label": "A",
+        "text": "きる"
+      },
+      {
+        "label": "B",
+        "text": "しゃしん"
+      },
+      {
+        "label": "C",
+        "text": "しゃしんです"
+      },
+      {
+        "label": "D",
+        "text": "きれいです"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Câu hỏi về sở thích (しゅみ) yêu cầu câu trả lời là một danh từ chỉ sở thích (しゃしん - んひếp ảんh)."
+  },
+  {
+    "id": 92,
+    "question": "A: りんごは （＿＿＿）で なんですか。B: 「Táo」です。 (Chọn đáp án thích hợp trong A, B, C, D để điền vào ngoặc cho câu sau)",
+    "type": "Từ vựng - Ngữ cảnh",
+    "options": [
+      {
+        "label": "A",
+        "text": "タイ語"
+      },
+      {
+        "label": "B",
+        "text": "フランス語"
+      },
+      {
+        "label": "C",
+        "text": "日本語"
+      },
+      {
+        "label": "D",
+        "text": "ベトナム語"
+      }
+    ],
+    "answer": "D",
+    "explanation": "'Táo' là từ tiếng Việt, nên câu hỏi hỏi về tên gọi trong tiếng Việt (ベトナム語)."
+  },
+  {
+    "id": 93,
+    "question": "A: 昨日は　（＿＿＿）でしたか。B: いいえ、休みませんでした。 (Chọn đáp án thích hợp điền vào chỗ trống)",
+    "type": "Từ vựng - Ngữ cảnh",
+    "options": [
+      {
+        "label": "A",
+        "text": "やすみ"
+      },
+      {
+        "label": "B",
+        "text": "あめ"
+      },
+      {
+        "label": "C",
+        "text": "ひま"
+      },
+      {
+        "label": "D",
+        "text": "ゆうめい"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Dựa vào câu trả lời liên quan đến việc nghỉ."
+  },
+  {
+    "id": 94,
+    "question": "A: 昨日は　（＿＿＿）でしたか。B: いいえ、休みませんでした。 (Chọn đáp án thích hợp điền vào chỗ trống)",
+    "type": "Từ vựng - Ngữ cảnh",
+    "options": [
+      {
+        "label": "A",
+        "text": "やすみ"
+      },
+      {
+        "label": "B",
+        "text": "あめ"
+      },
+      {
+        "label": "C",
+        "text": "暇"
+      },
+      {
+        "label": "D",
+        "text": "ゆうめい"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Dựa vào câu trả lời '休みませんでした' (đã khôんg んghỉ), câu hỏi phải hỏi về việc nghỉ (やすみ)."
+  },
+  {
+    "id": 95,
+    "question": "A: 昨日は　（＿＿＿）でしたか。B: はい、休みでした。 (Chọn đáp án thích hợp điền vào chỗ trống)",
+    "type": "Từ vựng - Ngữ cảnh",
+    "options": [
+      {
+        "label": "A",
+        "text": "やすみ"
+      },
+      {
+        "label": "B",
+        "text": "あめ"
+      },
+      {
+        "label": "C",
+        "text": "ひま"
+      },
+      {
+        "label": "D",
+        "text": "ゆうめい"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Hỏi về việc nghỉ ngơi ngày hôm qua."
+  },
+  {
+    "id": 96,
+    "question": "A: 昨日は　（＿＿＿）でしたか。B: はい、休みでした。 (Chọn đáp án thích hợp điền vào chỗ trống)",
+    "type": "Từ vựng - Ngữ cảnh",
+    "options": [
+      {
+        "label": "A",
+        "text": "やすみ"
+      },
+      {
+        "label": "B",
+        "text": "あめ"
+      },
+      {
+        "label": "C",
+        "text": "暇"
+      },
+      {
+        "label": "D",
+        "text": "ゆうめい"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Dựa vào câu trả lời '休みでした', câu hỏi phải hỏi về việc nghỉ (やすみ)."
+  },
+  {
+    "id": 97,
+    "question": "B: としょかんへ いきます。としょかんで ＿＿＿＿＿を べんきょうします。 (Chọn đáp án thích hợp điền vào chỗ trống)",
+    "type": "Từ vựng - Ngữ cảnh",
+    "options": [
+      {
+        "label": "A",
+        "text": "日本語"
+      },
+      {
+        "label": "B",
+        "text": "日本"
+      },
+      {
+        "label": "C",
+        "text": "しんぶん"
+      },
+      {
+        "label": "D",
+        "text": "かいしゃ"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Tại thư viện thường thực hiện hành động học một môn học như '日本語' (tいếんg んhật)."
+  },
+  {
+    "id": 98,
+    "question": "きのうの　（＿＿＿）は　ひるの12時でした. (Chọn đáp án thích hợp điền vào chỗ trống)",
+    "type": "Từ vựng - Ngữ cảnh",
+    "options": [
+      {
+        "label": "A",
+        "text": "となり"
+      },
+      {
+        "label": "B",
+        "text": "やすみ"
+      },
+      {
+        "label": "C",
+        "text": "おわり"
+      },
+      {
+        "label": "D",
+        "text": "ゆうべ"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Giờ nghỉ trưa."
+  },
+  {
+    "id": 99,
+    "question": "きのうの　（＿＿＿）は　ひるの12時でした。 (Chọn đáp án thích hợp điền vào chỗ trống)",
+    "type": "Từ vựng - Ngữ cảnh",
+    "options": [
+      {
+        "label": "A",
+        "text": "となり"
+      },
+      {
+        "label": "B",
+        "text": "やすみ"
+      },
+      {
+        "label": "C",
+        "text": "おわり"
+      },
+      {
+        "label": "D",
+        "text": "ゆうべ"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Nói về giờ nghỉ trưa."
+  },
+  {
+    "id": 100,
+    "question": "きのうは　（＿＿＿）でした. (Chọn đáp án thích hợp điền vào chỗ trống)",
+    "type": "Từ vựng - Ngữ cảnh",
+    "options": [
+      {
+        "label": "A",
+        "text": "やすみ"
+      },
+      {
+        "label": "B",
+        "text": "あめ"
+      },
+      {
+        "label": "C",
+        "text": "ひま"
+      },
+      {
+        "label": "D",
+        "text": "ゆうめい"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Nói về việc ngày nghỉ hôm qua."
+  },
+  {
+    "id": 101,
+    "question": "きのうは　（＿＿＿）でした。 (Chọn đáp án thích hợp điền vào chỗ trống)",
+    "type": "Từ vựng - Ngữ cảnh",
+    "options": [
+      {
+        "label": "A",
+        "text": "やすみ"
+      },
+      {
+        "label": "B",
+        "text": "あめ"
+      },
+      {
+        "label": "C",
+        "text": "ひま"
+      },
+      {
+        "label": "D",
+        "text": "ゆうめい"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Câu khẳng định trạng thái trong quá khứ."
+  },
+  {
+    "id": 102,
+    "question": "きのうは　（＿＿＿）でした。 (Chọn đáp án thích hợp điền vào chỗ trống)",
+    "type": "Từ vựng - Ngữ cảnh",
+    "options": [
+      {
+        "label": "A",
+        "text": "やすみ"
+      },
+      {
+        "label": "B",
+        "text": "あめ"
+      },
+      {
+        "label": "C",
+        "text": "暇"
+      },
+      {
+        "label": "D",
+        "text": "ゆうめい"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Trong các kỳ thi, 'やすみ' (んghỉ) là trạng thái phổ biến nhất được dùng để kiểm tra cấu trúc quá khứ của danh từ."
+  },
+  {
+    "id": 103,
+    "question": "レストランで　（＿＿＿）を　します。 (Chọn đáp án thích hợp điền vào chỗ trống)",
+    "type": "Từ vựng - Ngữ cảnh",
+    "options": [
+      {
+        "label": "A",
+        "text": "ゴールデンウィーク"
+      },
+      {
+        "label": "B",
+        "text": "スケジュール"
+      },
+      {
+        "label": "C",
+        "text": "スキー"
+      },
+      {
+        "label": "D",
+        "text": "アルバイト"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Tại nhà hàng thường thực hiện hoạt động làm thêm (アルバイト)."
+  },
+  {
+    "id": 104,
+    "question": "私は　スーパーで　（＿＿＿）を　かいます。 (Chọn đáp án thích hợp điền vào chỗ trống)",
+    "type": "Từ vựng - Ngữ cảnh",
+    "options": [
+      {
+        "label": "A",
+        "text": "ぎんこう"
+      },
+      {
+        "label": "B",
+        "text": "たべもの"
+      },
+      {
+        "label": "C",
+        "text": "ひと"
+      },
+      {
+        "label": "D",
+        "text": "ゆうびんきょく"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Tại siêu thị (スーパー) thường mua 'たべもの' (đồ ăn)."
+  },
+  {
+    "id": 105,
+    "question": "飲み物(のみもの)は （＿＿＿）。 (Chọn đáp án thích hợp điền vào chỗ trống)",
+    "type": "Từ vựng - Ngữ cảnh",
+    "options": [
+      {
+        "label": "A",
+        "text": "じゅうすです"
+      },
+      {
+        "label": "B",
+        "text": "お茶"
+      },
+      {
+        "label": "C",
+        "text": "お酒"
+      },
+      {
+        "label": "D",
+        "text": "水"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Kết thúc câu với vị ngữ hoàn chỉnh."
+  },
+  {
+    "id": 106,
+    "question": "（＿＿＿）は　ベトナム人です。 (Chọn đáp án thích hợp điền vào chỗ trống)",
+    "type": "Từ vựng - Ngữ cảnh",
+    "options": [
+      {
+        "label": "A",
+        "text": "たなかさん"
+      },
+      {
+        "label": "B",
+        "text": "どこ"
+      },
+      {
+        "label": "C",
+        "text": "どれ"
+      },
+      {
+        "label": "D",
+        "text": "なん"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Chủ ngữ của câu là một người (んgười vいệt なm) nên chọn danh từ chỉ người 'たなかさん'."
+  },
+  {
+    "id": 107,
+    "question": "（＿＿＿）は　ベトナム人です. (Chọn đáp án thích hợp điền vào chỗ trống)",
+    "type": "Từ vựng - Ngữ cảnh",
+    "options": [
+      {
+        "label": "A",
+        "text": "たなかさん"
+      },
+      {
+        "label": "B",
+        "text": "どこ"
+      },
+      {
+        "label": "C",
+        "text": "どれ"
+      },
+      {
+        "label": "D",
+        "text": "なん"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Chủ ngữ là người phù hợp với vị ngữ quốc tịch."
+  },
+  {
+    "id": 108,
+    "question": "Hãy chọn từ KHÔNG CÙNG NHÓM với các từ còn lại:",
+    "type": "Từ vựng - Phân loại",
+    "options": [
+      {
+        "label": "A",
+        "text": "スキー"
+      },
+      {
+        "label": "B",
+        "text": "ダンス"
+      },
+      {
+        "label": "C",
+        "text": "サッカー"
+      },
+      {
+        "label": "D",
+        "text": "バーベキュー"
+      }
+    ],
+    "answer": "D",
+    "explanation": "'バーベキュー' (tいệc nướんg) là một hoạt động ăn uống, các từ khác là các môn thể thao/vận động."
+  },
+  {
+    "id": 109,
+    "question": "Hãy chọn từ KHÔNG CÙNG NHÓM với các từ còn lại:",
+    "type": "Từ vựng - Phân loại",
+    "options": [
+      {
+        "label": "A",
+        "text": "たんじょうび"
+      },
+      {
+        "label": "B",
+        "text": "ズボン"
+      },
+      {
+        "label": "C",
+        "text": "パン"
+      },
+      {
+        "label": "D",
+        "text": "めがね"
+      }
+    ],
+    "answer": "C",
+    "explanation": "'パン' là đồ ăn, các từ còn lại liên quan đến đồ dùng cá nhân hoặc sự kiện con người."
+  },
+  {
+    "id": 110,
+    "question": "Hãy chọn từ có ý nghĩa KHÔNG CÙNG NHÓM với các từ còn lại:",
+    "type": "Từ vựng - Phân loại",
+    "options": [
+      {
+        "label": "A",
+        "text": "ぎんこう"
+      },
+      {
+        "label": "B",
+        "text": "びょういん"
+      },
+      {
+        "label": "C",
+        "text": "まど"
+      },
+      {
+        "label": "D",
+        "text": "ゆうびんきょく"
+      }
+    ],
+    "answer": "C",
+    "explanation": "'まど' (cửa sổ) là vật dụng, các từ còn lại là địa điểm công cộng."
+  },
+  {
+    "id": 111,
+    "question": "Hãy chọn từ khác loại với các từ còn lại:",
+    "type": "Từ vựng - Phân loại",
+    "options": [
+      {
+        "label": "A",
+        "text": "きのう"
+      },
+      {
+        "label": "B",
+        "text": "きょう"
+      },
+      {
+        "label": "C",
+        "text": "あした"
+      },
+      {
+        "label": "D",
+        "text": "さかな"
+      }
+    ],
+    "answer": "D",
+    "explanation": "'さかな' là danh từ chỉ vật, các từ còn lại chỉ thời gian."
+  },
+  {
+    "id": 112,
+    "question": "飲み物は　（＿＿＿）　ですか。 (Chọn đáp án thích hợp điền vào chỗ trống)",
+    "type": "Từ vựng - Phân loại",
+    "options": [
+      {
+        "label": "A",
+        "text": "イチゴ"
+      },
+      {
+        "label": "B",
+        "text": "ケーキ"
+      },
+      {
+        "label": "C",
+        "text": "カレー"
+      },
+      {
+        "label": "D",
+        "text": "ジュース"
+      }
+    ],
+    "answer": "D",
+    "explanation": "'ジュース' là đồ uống."
+  },
+  {
+    "id": 113,
+    "question": "飲み物は　（＿＿＿）　ですか。 (Chọn đáp án thích hợp điền vào chỗ trống)",
+    "type": "Từ vựng - Phân loại",
+    "options": [
+      {
+        "label": "A",
+        "text": "くだもの"
+      },
+      {
+        "label": "B",
+        "text": "たべもの"
+      },
+      {
+        "label": "C",
+        "text": "じゅうす"
+      },
+      {
+        "label": "D",
+        "text": "りんご"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Trong các lựa chọn, 'じゅうす' (nước ほあ qうả) là đồ uống duy nhất."
+  },
+  {
+    "id": 114,
+    "question": "A: しゅみは　何ですか。B: （＿＿＿）です。 (Chọn đáp án thích hợp điền vào chỗ trống)",
+    "type": "Từ vựng - Sở thích",
+    "options": [
+      {
+        "label": "A",
+        "text": "すんでいます"
+      },
+      {
+        "label": "B",
+        "text": "しゃしんです"
+      },
+      {
+        "label": "C",
+        "text": "わかい"
+      },
+      {
+        "label": "D",
+        "text": "たべて　います"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Câu hỏi về sở thích (しゅみ) trả lời bằng một danh từ chỉ hoạt động hoặc lĩnh vực yêu thích."
+  },
+  {
+    "id": 115,
+    "question": "A: 昨日は　（＿＿＿）でしたか。B: はい、とても　よかったです。 (Chọn đáp án thích hợp điền vào chỗ trống)",
+    "type": "Từ vựng - Thời tiết",
+    "options": [
+      {
+        "label": "A",
+        "text": "いいおてんき"
+      },
+      {
+        "label": "B",
+        "text": "ひま"
+      },
+      {
+        "label": "C",
+        "text": "ゆうめい"
+      },
+      {
+        "label": "D",
+        "text": "かんたん"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Hỏi về tình trạng thời tiết hôm qua."
+  },
+  {
+    "id": 116,
+    "question": "A: 昨日は　（＿＿＿）でしたか。B: はい、とても　よかったです。 (Chọn đáp án thích hợp điền vào chỗ trống)",
+    "type": "Từ vựng - Thời tiết",
+    "options": [
+      {
+        "label": "A",
+        "text": "いいおてんき"
+      },
+      {
+        "label": "B",
+        "text": "暇"
+      },
+      {
+        "label": "C",
+        "text": "ゆうめい"
+      },
+      {
+        "label": "D",
+        "text": "かんたん"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Câu trả lời về chất lượng/trạng thái (よかったです) phù hợp với câu hỏi về thời tiết (いいおてんき)."
+  },
+  {
+    "id": 117,
+    "question": "【上着】 có nghĩa là gì? (Chọn từ tương ứng)",
+    "type": "Từ vựng - Ý nghĩa",
+    "options": [
+      {
+        "label": "A",
+        "text": "うわぎ"
+      },
+      {
+        "label": "B",
+        "text": "したぎ"
+      },
+      {
+        "label": "C",
+        "text": "ズボン"
+      },
+      {
+        "label": "D",
+        "text": "くつした"
+      }
+    ],
+    "answer": "A",
+    "explanation": "'上着' (đọc là うわぎ) có nghĩa là áo khoác, áo ngoài."
+  },
+  {
+    "id": 118,
+    "question": "【下着】 có nghĩa là gì? (Chọn từ tương ứng)",
+    "type": "Từ vựng - Ý nghĩa",
+    "options": [
+      {
+        "label": "A",
+        "text": "うわぎ"
+      },
+      {
+        "label": "B",
+        "text": "したぎ"
+      },
+      {
+        "label": "C",
+        "text": "パジャマ"
+      },
+      {
+        "label": "D",
+        "text": "ワイシャツ"
+      }
+    ],
+    "answer": "B",
+    "explanation": "'下着' (đọc là したぎ) có nghĩa là quần áo lót."
+  },
+  {
+    "id": 119,
+    "question": "【出張します】 có nghĩa là gì? (Chọn từ tương ứng)",
+    "type": "Từ vựng - Ý nghĩa",
+    "options": [
+      {
+        "label": "A",
+        "text": "ざんぎょうします"
+      },
+      {
+        "label": "B",
+        "text": "さんぽします"
+      },
+      {
+        "label": "C",
+        "text": "しゅっちょうします"
+      },
+      {
+        "label": "D",
+        "text": "けっこんします"
+      }
+    ],
+    "answer": "C",
+    "explanation": "'出張します' (đọc là しゅっちょうします) có nghĩa là đi công tác."
+  },
+  {
+    "id": 120,
+    "question": "【危ない】 có nghĩa là gì? (Chọn từ tương ứng)",
+    "type": "Từ vựng - Ý nghĩa",
+    "options": [
+      {
+        "label": "A",
+        "text": "あぶない"
+      },
+      {
+        "label": "B",
+        "text": "あぶい"
+      },
+      {
+        "label": "C",
+        "text": "きけん"
+      },
+      {
+        "label": "D",
+        "text": "こわい"
+      }
+    ],
+    "answer": "A",
+    "explanation": "'危ない' (đọc là あぶない) có nghĩa là nguy hiểm."
+  },
+  {
+    "id": 121,
+    "question": "【大丈夫（な）】 có nghĩa là gì? (Chọn từ tương ứng)",
+    "type": "Từ vựng - Ý nghĩa",
+    "options": [
+      {
+        "label": "A",
+        "text": "だいじょうぶ（な）"
+      },
+      {
+        "label": "B",
+        "text": "たいせつ（な）"
+      },
+      {
+        "label": "C",
+        "text": "へん（な）"
+      },
+      {
+        "label": "D",
+        "text": "むり（な）"
+      }
+    ],
+    "answer": "A",
+    "explanation": "'大丈夫（な）' (đọc là だいじょうぶ) có nghĩa là không sao, ổn."
+  },
+  {
+    "id": 122,
+    "question": "【大切（な）】 có nghĩa là gì? (Chọn từ tương ứng)",
+    "type": "Từ vựng - Ý nghĩa",
+    "options": [
+      {
+        "label": "A",
+        "text": "だいじょうぶ（な）"
+      },
+      {
+        "label": "B",
+        "text": "たいせつ（な）"
+      },
+      {
+        "label": "C",
+        "text": "ひま（な）"
+      },
+      {
+        "label": "D",
+        "text": "にぎやか（な）"
+      }
+    ],
+    "answer": "B",
+    "explanation": "'大切（な）' (đọc là たいせつ) có nghĩa là quan trọng, quý giá."
+  },
+  {
+    "id": 123,
+    "question": "【心配します】 có nghĩa là gì? (Chọn từ tương ứng)",
+    "type": "Từ vựng - Ý nghĩa",
+    "options": [
+      {
+        "label": "A",
+        "text": "あんしんします"
+      },
+      {
+        "label": "B",
+        "text": "びっくりします"
+      },
+      {
+        "label": "C",
+        "text": "しんぱいします"
+      },
+      {
+        "label": "D",
+        "text": "がっかりします"
+      }
+    ],
+    "answer": "C",
+    "explanation": "'心配します' (đọc là しんぱいします) có nghĩa là lo lắng."
+  },
+  {
+    "id": 124,
+    "question": "【忘れます】 có nghĩa là gì? (Chọn từ tương ứng)",
+    "type": "Từ vựng - Ý nghĩa",
+    "options": [
+      {
+        "label": "A",
+        "text": "かえします"
+      },
+      {
+        "label": "B",
+        "text": "いれます"
+      },
+      {
+        "label": "C",
+        "text": "おぼえます"
+      },
+      {
+        "label": "D",
+        "text": "わすれます"
+      }
+    ],
+    "answer": "D",
+    "explanation": "'忘れます' (đọc là わすれます) có nghĩa là quên."
+  },
+  {
+    "id": 125,
+    "question": "【払います】 có nghĩa là gì? (Chọn từ tương ứng)",
+    "type": "Từ vựng - Ý nghĩa",
+    "options": [
+      {
+        "label": "A",
+        "text": "はらいます"
+      },
+      {
+        "label": "B",
+        "text": "もらいます"
+      },
+      {
+        "label": "C",
+        "text": "かいます"
+      },
+      {
+        "label": "D",
+        "text": "うります"
+      }
+    ],
+    "answer": "A",
+    "explanation": "'払います' (đọc là はらいます) có nghĩa là trả tiền, thanh toán."
+  },
+  {
+    "id": 126,
+    "question": "【持って来ます】 có nghĩa là gì? (Chọn từ tương ứng)",
+    "type": "Từ vựng - Ý nghĩa",
+    "options": [
+      {
+        "label": "A",
+        "text": "もってきます"
+      },
+      {
+        "label": "B",
+        "text": "もっていきます"
+      },
+      {
+        "label": "C",
+        "text": "つれてきます"
+      },
+      {
+        "label": "D",
+        "text": "つれていきます"
+      }
+    ],
+    "answer": "A",
+    "explanation": "'持って来ます' (đọc là もってきます) có nghĩa là mang đến."
+  },
+  {
+    "id": 127,
+    "question": "【持って行きます】 có nghĩa là gì? (Chọn từ tương ứng)",
+    "type": "Từ vựng - Ý nghĩa",
+    "options": [
+      {
+        "label": "A",
+        "text": "もってきます"
+      },
+      {
+        "label": "B",
+        "text": "もっていきます"
+      },
+      {
+        "label": "C",
+        "text": "つれてきます"
+      },
+      {
+        "label": "D",
+        "text": "つれていきます"
+      }
+    ],
+    "answer": "B",
+    "explanation": "'持って行きます' (đọc là もっていきます) có nghĩa là mang đi."
+  },
+  {
+    "id": 128,
+    "question": "【残業します】 có nghĩa là gì? (Chọn từ tương ứng)",
+    "type": "Từ vựng - Ý nghĩa",
+    "options": [
+      {
+        "label": "A",
+        "text": "しゅっちょうします"
+      },
+      {
+        "label": "B",
+        "text": "ざんぎょうします"
+      },
+      {
+        "label": "C",
+        "text": "べんきょうします"
+      },
+      {
+        "label": "D",
+        "text": "さんぽします"
+      }
+    ],
+    "answer": "B",
+    "explanation": "'残業します' (đọc là ざんぎょうします) có nghĩa là làm thêm giờ."
+  },
+  {
+    "id": 129,
+    "question": "【熱】 có nghĩa là gì? (Chọn từ tương ứng)",
+    "type": "Từ vựng - Ý nghĩa",
+    "options": [
+      {
+        "label": "A",
+        "text": "ねつ"
+      },
+      {
+        "label": "B",
+        "text": "かぜ"
+      },
+      {
+        "label": "C",
+        "text": "びょうき"
+      },
+      {
+        "label": "D",
+        "text": "せき"
+      }
+    ],
+    "answer": "A",
+    "explanation": "'熱' (đọc là ねつ) có nghĩa là sốt."
+  },
+  {
+    "id": 130,
+    "question": "【病気】 có nghĩa là gì? (Chọn từ tương ứng)",
+    "type": "Từ vựng - Ý nghĩa",
+    "options": [
+      {
+        "label": "A",
+        "text": "びょうき"
+      },
+      {
+        "label": "B",
+        "text": "びんき"
+      },
+      {
+        "label": "C",
+        "text": "びゅうき"
+      },
+      {
+        "label": "D",
+        "text": "びょうきい"
+      }
+    ],
+    "answer": "A",
+    "explanation": "'病気' (đọc là びょうき) có nghĩa là bệnh tật, ốm."
+  },
+  {
+    "id": 131,
+    "question": "【禁煙】 có nghĩa là gì? (Chọn từ tương ứng)",
+    "type": "Từ vựng - Ý nghĩa",
+    "options": [
+      {
+        "label": "A",
+        "text": "きんえん"
+      },
+      {
+        "label": "B",
+        "text": "きつえん"
+      },
+      {
+        "label": "C",
+        "text": "きんし"
+      },
+      {
+        "label": "D",
+        "text": "ちゅうしゃ"
+      }
+    ],
+    "answer": "A",
+    "explanation": "'禁煙' (đọc là きんえん) có nghĩa là cấm hút thuốc."
+  },
+  {
+    "id": 132,
+    "question": "【脱ぎます】 có nghĩa là gì? (Chọn từ tương ứng)",
+    "type": "Từ vựng - Ý nghĩa",
+    "options": [
+      {
+        "label": "A",
+        "text": "はきます"
+      },
+      {
+        "label": "B",
+        "text": "ぬぎます"
+      },
+      {
+        "label": "C",
+        "text": "きます"
+      },
+      {
+        "label": "D",
+        "text": "かぶります"
+      }
+    ],
+    "answer": "B",
+    "explanation": "'脱ぎます' (đọc là ぬぎます) có nghĩa là cởi (qうần áo, ぎày dép)."
+  },
+  {
+    "id": 133,
+    "question": "【薬】 có nghĩa là gì? (Chọn từ tương ứng)",
+    "type": "Từ vựng - Ý nghĩa",
+    "options": [
+      {
+        "label": "A",
+        "text": "くすり"
+      },
+      {
+        "label": "B",
+        "text": "おちゃ"
+      },
+      {
+        "label": "C",
+        "text": "ごはん"
+      },
+      {
+        "label": "D",
+        "text": "みず"
+      }
+    ],
+    "answer": "A",
+    "explanation": "'薬' (đọc là くすり) có nghĩa là thuốc."
+  },
+  {
+    "id": 134,
+    "question": "【覚えます】 có nghĩa là gì? (Chọn từ tương ứng)",
+    "type": "Từ vựng - Ý nghĩa",
+    "options": [
+      {
+        "label": "A",
+        "text": "いれます"
+      },
+      {
+        "label": "B",
+        "text": "だします"
+      },
+      {
+        "label": "C",
+        "text": "おぼえます"
+      },
+      {
+        "label": "D",
+        "text": "わすれます"
+      }
+    ],
+    "answer": "C",
+    "explanation": "'覚えます' (đọc là おぼえます) có nghĩa là nhớ, ghi nhớ."
+  },
+  {
+    "id": 135,
+    "question": "【（お）風呂】 có nghĩa là gì? (Chọn từ tương ứng)",
+    "type": "Từ vựng - Ý nghĩa",
+    "options": [
+      {
+        "label": "A",
+        "text": "ふろ"
+      },
+      {
+        "label": "B",
+        "text": "トイレ"
+      },
+      {
+        "label": "C",
+        "text": "シャワー"
+      },
+      {
+        "label": "D",
+        "text": "だいどころ"
+      }
+    ],
+    "answer": "A",
+    "explanation": "'風呂' (đọc là ふろ) có nghĩa là bồn tắm, việc tắm bồn."
+  },
+  {
+    "id": 136,
+    "question": "【（健康）保険証】 có nghĩa là gì? (Chọn từ tương ứng)",
+    "type": "Từ vựng - Ý nghĩa",
+    "options": [
+      {
+        "label": "A",
+        "text": "めんきょしょう"
+      },
+      {
+        "label": "B",
+        "text": "ほけんしょう"
+      },
+      {
+        "label": "C",
+        "text": "がくせいしょう"
+      },
+      {
+        "label": "D",
+        "text": "きっぷ"
+      }
+    ],
+    "answer": "B",
+    "explanation": "'保険証' (đọc là ほけんしょう) có nghĩa là thẻ bảo hiểm."
+  },
+  {
+    "id": 137,
+    "question": "たなかさんは　【エンジニア】ですか。 (Từ trong ngoặc [ ] có nghĩa là gì?)",
+    "type": "Từ vựng - Ý nghĩa",
+    "options": [
+      {
+        "label": "A",
+        "text": "きんこういん"
+      },
+      {
+        "label": "B",
+        "text": "きょうし"
+      },
+      {
+        "label": "C",
+        "text": "エンジニア"
+      },
+      {
+        "label": "D",
+        "text": "かいしゃいん"
+      }
+    ],
+    "answer": "C",
+    "explanation": "'エンジニア' nghĩa là kỹ sư."
+  },
+  {
+    "id": 138,
+    "question": "A: あさ、何時に ＿＿＿＿＿へ きますか。B: 8時に きます。 (Chọn đáp án thích hợp để điền vào chỗ trống)",
+    "type": "Từ vựng - Địa điểm",
+    "options": [
+      {
+        "label": "A",
+        "text": "はる"
+      },
+      {
+        "label": "B",
+        "text": "学校"
+      },
+      {
+        "label": "C",
+        "text": "くだもの"
+      },
+      {
+        "label": "D",
+        "text": "しんぶん"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Động từ 'きます' (đến) thường đi với một địa điểm như '学校' (trườんg học)."
+  },
+  {
+    "id": 139,
+    "question": "A: これは　どこですか。B: （＿＿＿）です。 (Chọn đáp án thích hợp điền vào chỗ trống)",
+    "type": "Từ vựng - Địa điểm",
+    "options": [
+      {
+        "label": "A",
+        "text": "じむしょ"
+      },
+      {
+        "label": "B",
+        "text": "だれ"
+      },
+      {
+        "label": "C",
+        "text": "なん"
+      },
+      {
+        "label": "D",
+        "text": "いつ"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Câu hỏi 'đây là đâu' trả lời bằng danh từ địa điểm."
+  },
+  {
+    "id": 140,
+    "question": "A: すmません、（＿＿＿）は　どこですか。B: 1階です。 (Chọn đáp án thích hợp điền vào chỗ trống)",
+    "type": "Từ vựng - Địa điểm",
+    "options": [
+      {
+        "label": "A",
+        "text": "じむしょ"
+      },
+      {
+        "label": "B",
+        "text": "だれ"
+      },
+      {
+        "label": "C",
+        "text": "なん"
+      },
+      {
+        "label": "D",
+        "text": "いつ"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Hỏi địa điểm trong tòa nhà."
+  },
+  {
+    "id": 141,
+    "question": "A: すみません、（＿＿＿）は　どこですか。B: 1階です。 (Chọn đáp án thích hợp điền vào chỗ trống)",
+    "type": "Từ vựng - Địa điểm",
+    "options": [
+      {
+        "label": "A",
+        "text": "じむしょ"
+      },
+      {
+        "label": "B",
+        "text": "だれ"
+      },
+      {
+        "label": "C",
+        "text": "なん"
+      },
+      {
+        "label": "D",
+        "text": "いつ"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Trả lời vị trí (1階) nên câu hỏi là về một địa điểm (じむしょ)."
+  },
+  {
+    "id": 142,
+    "question": "A: すみません、（＿＿＿）は　どちらですか. B: 1階です. (Chọn đáp án thích hợp điền vào chỗ trống)",
+    "type": "Từ vựng - Địa điểm",
+    "options": [
+      {
+        "label": "A",
+        "text": "きょうしつ"
+      },
+      {
+        "label": "B",
+        "text": "かいぎしつ"
+      },
+      {
+        "label": "C",
+        "text": "じむしょ"
+      },
+      {
+        "label": "D",
+        "text": "しょくどう"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Hỏi vị trí của văn phòng."
+  },
+  {
+    "id": 143,
+    "question": "A: すみません、（＿＿＿）は　どちらですか. B: あちらです. (Chọn đáp án thích hợp điền vào chỗ trống)",
+    "type": "Từ vựng - Địa điểm",
+    "options": [
+      {
+        "label": "A",
+        "text": "きょうしつ"
+      },
+      {
+        "label": "B",
+        "text": "かいぎしつ"
+      },
+      {
+        "label": "C",
+        "text": "じむしょ"
+      },
+      {
+        "label": "D",
+        "text": "しょくどう"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Hỏi vị trí nhà ăn."
+  },
+  {
+    "id": 144,
+    "question": "A: すみません、（＿＿＿）は　どちらですか。B: 1階です。 (Chọn đáp án thích hợp điền vào chỗ trống)",
+    "type": "Từ vựng - Địa điểm",
+    "options": [
+      {
+        "label": "A",
+        "text": "きょうしつ"
+      },
+      {
+        "label": "B",
+        "text": "かいぎしつ"
+      },
+      {
+        "label": "C",
+        "text": "じむしょ"
+      },
+      {
+        "label": "D",
+        "text": "しょくどう"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Trong ngữ cảnh văn phòng/trường học, 'じむしょ' (phòんg văn phòんg) thường ở tầng 1."
+  },
+  {
+    "id": 145,
+    "question": "A: すみません、（＿＿＿）は　どちらですか。B: あちらです。 (Chọn đáp án thích hợp điền vào chỗ trống)",
+    "type": "Từ vựng - Địa điểm",
+    "options": [
+      {
+        "label": "A",
+        "text": "きょうしつ"
+      },
+      {
+        "label": "B",
+        "text": "かいぎしつ"
+      },
+      {
+        "label": "C",
+        "text": "じむしょ"
+      },
+      {
+        "label": "D",
+        "text": "しょくどう"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Hỏi về vị trí các phòng chức năng trong tòa nhà, 'しょくどう' (んhà ăn) là một lựa chọn phổ biến."
+  },
+  {
+    "id": 146,
+    "question": "＿＿＿＿＿で くだものを かいます。 (Chọn đáp án thích hợp điền vào chỗ trống)",
+    "type": "Từ vựng - Địa điểm",
+    "options": [
+      {
+        "label": "A",
+        "text": "スーパー"
+      },
+      {
+        "label": "B",
+        "text": "じゅぎょう"
+      },
+      {
+        "label": "C",
+        "text": "やすみ"
+      },
+      {
+        "label": "D",
+        "text": "テスト"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Hoa quả thường được mua tại siêu thị (スーパー)."
+  },
+  {
+    "id": 147,
+    "question": "飲み物は　（＿＿＿）　ですか。 (Chọn đáp án thích hợp điền vào chỗ trống)",
+    "type": "Từ vựng - Đồ uống",
+    "options": [
+      {
+        "label": "A",
+        "text": "イチゴ"
+      },
+      {
+        "label": "B",
+        "text": "ケーキ"
+      },
+      {
+        "label": "C",
+        "text": "カレー"
+      },
+      {
+        "label": "D",
+        "text": "ジュース"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Trong các lựa chọn, chỉ có 'ジュース' (nước ほあ qうả) là đồ uống."
+  },
+  {
+    "id": 148,
+    "question": "これは （＿＿＿） です。 (Chọn đáp án thích hợp điền vào chỗ trống)",
+    "type": "Từ vựng - Đồ vật",
+    "options": [
+      {
+        "label": "A",
+        "text": "さいふ"
+      },
+      {
+        "label": "B",
+        "text": "スーパー"
+      },
+      {
+        "label": "C",
+        "text": "びょういん"
+      },
+      {
+        "label": "D",
+        "text": "トイレ"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Thông thường đây là câu giới thiệu đồ vật, 'さいふ' (ví) là đồ vật duy nhất trong các lựa chọn."
+  },
+  {
+    "id": 149,
+    "question": "あきやすみ、アルバイトを ＿＿＿＿＿。 (Chọn đáp án thích hợp điền vào chỗ trống)",
+    "type": "Từ vựng - Động từ",
+    "options": [
+      {
+        "label": "A",
+        "text": "たべますか"
+      },
+      {
+        "label": "B",
+        "text": "しますか"
+      },
+      {
+        "label": "C",
+        "text": "みますか"
+      },
+      {
+        "label": "D",
+        "text": "よみますか"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Cụm từ 'アルバイトをします' có nghĩa là làm thêm."
+  },
+  {
+    "id": 150,
+    "question": "なつやすみ、くにへ ＿＿＿＿＿。 (Chọn đáp án thích hợp điền vào chỗ trống)",
+    "type": "Từ vựng - Động từ",
+    "options": [
+      {
+        "label": "A",
+        "text": "たべますか"
+      },
+      {
+        "label": "B",
+        "text": "かえりますか"
+      },
+      {
+        "label": "C",
+        "text": "いきまますか"
+      },
+      {
+        "label": "D",
+        "text": "よみますか"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Cụm từ 'くにへかえります' có nghĩa là trở về quê hương/đất nước."
+  },
+  {
+    "id": 151,
+    "question": "ふゆやすみ、りょこうを ＿＿＿＿＿。 (Chọn đáp án thích hợp điền vào chỗ trống)",
+    "type": "Từ vựng - Động từ",
+    "options": [
+      {
+        "label": "A",
+        "text": "ききますか"
+      },
+      {
+        "label": "B",
+        "text": "しますか"
+      },
+      {
+        "label": "C",
+        "text": "みますか"
+      },
+      {
+        "label": "D",
+        "text": "よみますか"
+      }
+    ],
+    "answer": "B",
+    "explanation": "'りょこうをします' là cụm từ cố định nghĩa là đi du lịch."
+  },
+  {
+    "id": 152,
+    "question": "パーティーで、＿＿＿＿＿をのみます。 (Chọn đáp án thích hợp điền vào chỗ trống)",
+    "type": "Từ vựng - Động từ",
+    "options": [
+      {
+        "label": "A",
+        "text": "おさけ"
+      },
+      {
+        "label": "B",
+        "text": "カレー"
+      },
+      {
+        "label": "C",
+        "text": "チーズ"
+      },
+      {
+        "label": "D",
+        "text": "おすし"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Động từ 'のみます' (uốんg) đi kèm với tân ngữ là đồ uống (rượu - おさけ)."
+  },
+  {
+    "id": 153,
+    "question": "A: すみません、（＿＿＿） Tシャツは いくらですか。てんいん: 5000円です。 (Chọn đáp án thích hợp điền vào chỗ trống)",
+    "type": "Ngữ pháp - Chỉ định từ",
+    "options": [
+      {
+        "label": "A",
+        "text": "この"
+      },
+      {
+        "label": "B",
+        "text": "これ"
+      },
+      {
+        "label": "C",
+        "text": "ここ"
+      },
+      {
+        "label": "D",
+        "text": "あれ"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Chỉ định từ 'この' đứng trước danh từ để xác định đối tượng cụ thể."
+  },
+  {
+    "id": 154,
+    "question": "A: （＿＿＿） B: はい、今日は　やすみでした. (Chọn đáp án thích hợp điền vào chỗ trống)",
+    "type": "Ngữ pháp - Câu hỏi",
+    "options": [
+      {
+        "label": "A",
+        "text": "きょうは　やすみでしたか"
+      },
+      {
+        "label": "B",
+        "text": "きょうは　やすみでした"
+      },
+      {
+        "label": "C",
+        "text": "きょうは　やすみですか"
+      },
+      {
+        "label": "D",
+        "text": "きょうは　やすみますか"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Câu hỏi trạng thái quá khứ."
+  },
+  {
+    "id": 155,
+    "question": "A: （＿＿＿） B: はい、今日は　やすみでした。 (Chọn đáp án thích hợp điền vào chỗ trống)",
+    "type": "Ngữ pháp - Câu hỏi",
+    "options": [
+      {
+        "label": "A",
+        "text": "きょうは　やすみでしたか"
+      },
+      {
+        "label": "B",
+        "text": "きょうは　やすみでした"
+      },
+      {
+        "label": "C",
+        "text": "きょうは　やすみですか"
+      },
+      {
+        "label": "D",
+        "text": "きょうは　やすみますか"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Câu hỏi xác nhận sự việc quá khứ."
+  },
+  {
+    "id": 156,
+    "question": "（＿＿＿）は　タイ人です。 (Chọn đáp án thích hợp điền vào chỗ trống)",
+    "type": "Ngữ pháp - Danh từ",
+    "options": [
+      {
+        "label": "A",
+        "text": "だれ"
+      },
+      {
+        "label": "B",
+        "text": "なん"
+      },
+      {
+        "label": "C",
+        "text": "どこ"
+      },
+      {
+        "label": "D",
+        "text": "ワン"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Chọn danh từ riêng làm chủ ngữ."
+  },
+  {
+    "id": 157,
+    "question": "（＿＿＿）は　タイ人です. (Chọn đáp án thích hợp điền vào chỗ trống)",
+    "type": "Ngữ pháp - Danh từ",
+    "options": [
+      {
+        "label": "A",
+        "text": "だれ"
+      },
+      {
+        "label": "B",
+        "text": "なん"
+      },
+      {
+        "label": "C",
+        "text": "どこ"
+      },
+      {
+        "label": "D",
+        "text": "ワン"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Chủ ngữ chỉ người."
+  },
+  {
+    "id": 158,
+    "question": "わたしの　しゅみは （＿＿＿） です。 (Chọn đáp án thích hợp điền vào chỗ trống)",
+    "type": "Ngữ pháp - Danh từ hóa động từ",
+    "options": [
+      {
+        "label": "A",
+        "text": "とります"
+      },
+      {
+        "label": "B",
+        "text": "撮ること"
+      },
+      {
+        "label": "C",
+        "text": "撮る"
+      },
+      {
+        "label": "D",
+        "text": "とること"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Cấu trúc 'Sở thích của tôi là...' dùng 'V-る + こと' để danh từ hóa hành động."
+  },
+  {
+    "id": 159,
+    "question": "A: 昨日は　休みでしたか. B: （＿＿＿）、休みでした. (Chọn đáp án thích hợp điền vào chỗ trống)",
+    "type": "Ngữ pháp - Khẳng định",
+    "options": [
+      {
+        "label": "A",
+        "text": "はい"
+      },
+      {
+        "label": "B",
+        "text": "いいえ"
+      },
+      {
+        "label": "C",
+        "text": "やすみでした"
+      },
+      {
+        "label": "D",
+        "text": "やすみ"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Trả lời khẳng định."
+  },
+  {
+    "id": 160,
+    "question": "A: 昨日は　休みでしたか。B: （＿＿＿）、休みでした。 (Chọn đáp án thích hợp điền vào chỗ trống)",
+    "type": "Ngữ pháp - Khẳng định",
+    "options": [
+      {
+        "label": "A",
+        "text": "はい"
+      },
+      {
+        "label": "B",
+        "text": "いいえ"
+      },
+      {
+        "label": "C",
+        "text": "休み"
+      },
+      {
+        "label": "D",
+        "text": "でした"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Trả lời khẳng định chiょ câu hỏi Có/Không dùng 'はい'."
+  },
+  {
+    "id": 161,
+    "question": "A: 昨日は　休みでしたか。B: （＿＿＿）、休みでした。 (Chọn đáp án thích hợp điền vào chỗ trống)",
+    "type": "Ngữ pháp - Khẳng định",
+    "options": [
+      {
+        "label": "A",
+        "text": "はい"
+      },
+      {
+        "label": "B",
+        "text": "いいえ"
+      },
+      {
+        "label": "C",
+        "text": "やすみでした"
+      },
+      {
+        "label": "D",
+        "text": "やすみ"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Trả lời khẳng định."
+  },
+  {
+    "id": 162,
+    "question": "A: きのうは やすみでしたか。B: はい、（＿＿＿）。 (Chọn đáp án thích hợp điền vào chỗ trống)",
+    "type": "Ngữ pháp - Khẳng định quá khứ",
+    "options": [
+      {
+        "label": "A",
+        "text": "やすみでした"
+      },
+      {
+        "label": "B",
+        "text": "やすみでしたか"
+      },
+      {
+        "label": "C",
+        "text": "やすみですか"
+      },
+      {
+        "label": "D",
+        "text": "やすみますか"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Câu hỏi ở thì quá khứ (でしたか) nên câu trả lời khẳng định cũng phải ở thì quá khứ (でした)."
+  },
+  {
+    "id": 163,
+    "question": "A: 昨日は　休みでしたか。B: （＿＿＿）、休みでした。 (Chọn đáp án thích hợp điền vào chỗ trống)",
+    "type": "Ngữ pháp - Khẳng định quá khứ",
+    "options": [
+      {
+        "label": "A",
+        "text": "はい"
+      },
+      {
+        "label": "B",
+        "text": "いいえ"
+      },
+      {
+        "label": "C",
+        "text": "やすみでした"
+      },
+      {
+        "label": "D",
+        "text": "やすみ"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Câu trả lời khẳng định lại nội dung câu hỏi nên dùng 'はい'."
+  },
+  {
+    "id": 164,
+    "question": "カレーを　（＿＿＿）、コーヒーを　のみました。 (Chọn đáp án thích hợp điền vào chỗ trống)",
+    "type": "Ngữ pháp - Liên kết",
+    "options": [
+      {
+        "label": "A",
+        "text": "たべて"
+      },
+      {
+        "label": "B",
+        "text": "たべました"
+      },
+      {
+        "label": "C",
+        "text": "たべます"
+      },
+      {
+        "label": "D",
+        "text": "たべる"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Dùng thể te để nối hai hành động xảy ra liên tiếp."
+  },
+  {
+    "id": 165,
+    "question": "カレーを　（＿＿＿）、コーヒーを　のみました。 (Chọn đáp án thích hợp điền vào chỗ trống)",
+    "type": "Ngữ pháp - Liên kết hành động",
+    "options": [
+      {
+        "label": "A",
+        "text": "たべて"
+      },
+      {
+        "label": "B",
+        "text": "たべました"
+      },
+      {
+        "label": "C",
+        "text": "たべます"
+      },
+      {
+        "label": "D",
+        "text": "たべる"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Để nối hai hành động xảy ra tuần tự, ta dùng thể te (たべて)."
+  },
+  {
+    "id": 166,
+    "question": "A: [誕生日] は （＿＿＿） ですか。B: 12月25日です。 (Chọn đáp án thích hợp điền vào chỗ trống)",
+    "type": "Ngữ pháp - Nghi vấn từ",
+    "options": [
+      {
+        "label": "A",
+        "text": "いつ"
+      },
+      {
+        "label": "B",
+        "text": "どれ"
+      },
+      {
+        "label": "C",
+        "text": "どこ"
+      },
+      {
+        "label": "D",
+        "text": "なんじ"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Hỏi về mốc thời gian (kひ nào) dùng 'いつ'."
+  },
+  {
+    "id": 167,
+    "question": "A: [誕生日] は （＿＿＿） ですか。B: 12月25日です. (Chọn đáp án thích hợp điền vào chỗ trống)",
+    "type": "Ngữ pháp - Nghi vấn từ",
+    "options": [
+      {
+        "label": "A",
+        "text": "なに"
+      },
+      {
+        "label": "B",
+        "text": "いつ"
+      },
+      {
+        "label": "C",
+        "text": "どれから"
+      },
+      {
+        "label": "D",
+        "text": "なにから"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Hỏi về thời gian dùng 'いつ'."
+  },
+  {
+    "id": 168,
+    "question": "A: いくらですか。B: （＿＿＿） (Chọn đáp án thích hợp điền vào chỗ trống)",
+    "type": "Ngữ pháp - Nghi vấn từ",
+    "options": [
+      {
+        "label": "A",
+        "text": "100円です"
+      },
+      {
+        "label": "B",
+        "text": "いらっしゃいませ"
+      },
+      {
+        "label": "C",
+        "text": "おねがいします"
+      },
+      {
+        "label": "D",
+        "text": "いいえ"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Hỏi giá tiền trả lời bằng đơn vị tiền tệ."
+  },
+  {
+    "id": 169,
+    "question": "A: いくらですか。B: （＿＿＿） (Chọn đáp án thích hợp điền vào chỗ trống)",
+    "type": "Ngữ pháp - Nghi vấn từ",
+    "options": [
+      {
+        "label": "A",
+        "text": "いっさいです"
+      },
+      {
+        "label": "B",
+        "text": "いらっしゃいませ"
+      },
+      {
+        "label": "C",
+        "text": "100円です"
+      },
+      {
+        "label": "D",
+        "text": "おねがいします"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Hỏi giá tiền (いくら) trả lời bằng đơn vị tiền tệ (100円)."
+  },
+  {
+    "id": 170,
+    "question": "A: いま （＿＿＿）ですか。B: 3時です。 (Chọn đáp án thích hợp điền vào chỗ trống)",
+    "type": "Ngữ pháp - Nghi vấn từ",
+    "options": [
+      {
+        "label": "A",
+        "text": "いつ"
+      },
+      {
+        "label": "B",
+        "text": "どれ"
+      },
+      {
+        "label": "C",
+        "text": "どこ"
+      },
+      {
+        "label": "D",
+        "text": "なんじ"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Câu trả lời về giờ giấc (3時) yêu cầu nghi vấn từ hỏi giờ 'なんじ'."
+  },
+  {
+    "id": 171,
+    "question": "A: いま （＿＿＿）ですか。B: 3時です. (Chọn đáp án thích hợp điền vào chỗ trống)",
+    "type": "Ngữ pháp - Nghi vấn từ",
+    "options": [
+      {
+        "label": "A",
+        "text": "いつ"
+      },
+      {
+        "label": "B",
+        "text": "どれ"
+      },
+      {
+        "label": "C",
+        "text": "どこ"
+      },
+      {
+        "label": "D",
+        "text": "なんじ"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Hỏi giờ."
+  },
+  {
+    "id": 172,
+    "question": "A: いま （＿＿＿）ですか。B: 9時です。 (Chọn đáp án thích hợp điền vào chỗ trống)",
+    "type": "Ngữ pháp - Nghi vấn từ",
+    "options": [
+      {
+        "label": "A",
+        "text": "なんじ"
+      },
+      {
+        "label": "B",
+        "text": "どこ"
+      },
+      {
+        "label": "C",
+        "text": "いつ"
+      },
+      {
+        "label": "D",
+        "text": "だれ"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Hỏi giờ dùng 'なんじ'."
+  },
+  {
+    "id": 173,
+    "question": "A: おくに （＿＿＿）？B: アメリカです。 (Chọn đáp án thích hợp điền vào chỗ trống)",
+    "type": "Ngữ pháp - Nghi vấn từ",
+    "options": [
+      {
+        "label": "A",
+        "text": "なん"
+      },
+      {
+        "label": "B",
+        "text": "どこ"
+      },
+      {
+        "label": "C",
+        "text": "どちら"
+      },
+      {
+        "label": "D",
+        "text": "なに"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Hỏi quốc tịch lịch sự."
+  },
+  {
+    "id": 174,
+    "question": "A: おくに （＿＿＿）？B: アメリカです. (Chọn đáp án thích hợp điền vào chỗ trống)",
+    "type": "Ngữ pháp - Nghi vấn từ",
+    "options": [
+      {
+        "label": "A",
+        "text": "なん"
+      },
+      {
+        "label": "B",
+        "text": "どこ"
+      },
+      {
+        "label": "C",
+        "text": "どちら"
+      },
+      {
+        "label": "D",
+        "text": "なに"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Hỏi quốc tịch lịch sự."
+  },
+  {
+    "id": 175,
+    "question": "A: おくには　（＿＿＿）ですか。B: ベトナムです。 (Chọn đáp án thích hợp điền vào chỗ trống)",
+    "type": "Ngữ pháp - Nghi vấn từ",
+    "options": [
+      {
+        "label": "A",
+        "text": "どこ"
+      },
+      {
+        "label": "B",
+        "text": "どちら"
+      },
+      {
+        "label": "C",
+        "text": "なん"
+      },
+      {
+        "label": "D",
+        "text": "だれ"
+      }
+    ],
+    "answer": "B",
+    "explanation": "'どちら' là cách hỏi lịch sự về quốc gia."
+  },
+  {
+    "id": 176,
+    "question": "A: お仕事は　（＿＿＿）ですか。B: 銀行員です。 (Chọn đáp án thích hợp điền vào chỗ trống)",
+    "type": "Ngữ pháp - Nghi vấn từ",
+    "options": [
+      {
+        "label": "A",
+        "text": "なん"
+      },
+      {
+        "label": "B",
+        "text": "どこ"
+      },
+      {
+        "label": "C",
+        "text": "どちら"
+      },
+      {
+        "label": "D",
+        "text": "だれ"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Hỏi về nghề nghiệp (お仕事) dùng 'なん' (cái gì/là gì)."
+  },
+  {
+    "id": 177,
+    "question": "A: これ （＿＿＿） の　ノートですか。B: わたしの　ノートです. (Chọn đáp án thích hợp điền vào chỗ trống)",
+    "type": "Ngữ pháp - Nghi vấn từ",
+    "options": [
+      {
+        "label": "A",
+        "text": "なん"
+      },
+      {
+        "label": "B",
+        "text": "どこ"
+      },
+      {
+        "label": "C",
+        "text": "だれ"
+      },
+      {
+        "label": "D",
+        "text": "どちら"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Hỏi chủ sở hữu."
+  },
+  {
+    "id": 178,
+    "question": "A: これは （＿＿＿） の こうちゃですか。てんいん: ベトナムの こうちゃです。 (Chọn đáp án thích hợp điền vào chỗ trống)",
+    "type": "Ngữ pháp - Nghi vấn từ",
+    "options": [
+      {
+        "label": "A",
+        "text": "なん"
+      },
+      {
+        "label": "B",
+        "text": "どこ"
+      },
+      {
+        "label": "C",
+        "text": "いつ"
+      },
+      {
+        "label": "D",
+        "text": "だれ"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Trả lời là 'vいえtなm' (địa だんh) nên câu hỏi là 'Ở đâu' (どこ)."
+  },
+  {
+    "id": 179,
+    "question": "A: これは （＿＿＿） の　ノートですか。B: わたしの　ノートです. (Chọn đáp án thích hợp điền vào chỗ trống)",
+    "type": "Ngữ pháp - Nghi vấn từ",
+    "options": [
+      {
+        "label": "A",
+        "text": "なん"
+      },
+      {
+        "label": "B",
+        "text": "どこ"
+      },
+      {
+        "label": "C",
+        "text": "だれ"
+      },
+      {
+        "label": "D",
+        "text": "どちら"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Hỏi chủ sở hữu."
+  },
+  {
+    "id": 180,
+    "question": "A: これは （＿＿＿） の　ノートですか。B: わたしの　ノートです。 (Chọn đáp án thích hợp điền vào chỗ trống)",
+    "type": "Ngữ pháp - Nghi vấn từ",
+    "options": [
+      {
+        "label": "A",
+        "text": "なん"
+      },
+      {
+        "label": "B",
+        "text": "どこ"
+      },
+      {
+        "label": "C",
+        "text": "だれ"
+      },
+      {
+        "label": "D",
+        "text": "どちら"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Hỏi chủ sở hữu."
+  },
+  {
+    "id": 181,
+    "question": "A: これは　（＿＿＿）ですか. B: 100円です. (Chọn đáp án thích hợp điền vào chỗ trống)",
+    "type": "Ngữ pháp - Nghi vấn từ",
+    "options": [
+      {
+        "label": "A",
+        "text": "いくら"
+      },
+      {
+        "label": "B",
+        "text": "どこ"
+      },
+      {
+        "label": "C",
+        "text": "いつ"
+      },
+      {
+        "label": "D",
+        "text": "なん"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Hỏi giá tiền dùng 'いくら'."
+  },
+  {
+    "id": 182,
+    "question": "A: これは　（＿＿＿）ですか。B: 100円です。 (Chọn đáp án thích hợp điền vào chỗ trống)",
+    "type": "Ngữ pháp - Nghi vấn từ",
+    "options": [
+      {
+        "label": "A",
+        "text": "いくら"
+      },
+      {
+        "label": "B",
+        "text": "どこ"
+      },
+      {
+        "label": "C",
+        "text": "いつ"
+      },
+      {
+        "label": "D",
+        "text": "なん"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Trả lời là giá tiền (100円) nên câu hỏi phải dùng 'いくら' (ばお んひêu tいền)."
+  },
+  {
+    "id": 183,
+    "question": "A: じむしょの （＿＿＿）？B: 8時からです. (Chọn đáp án thích hợp điền vào chỗ trống)",
+    "type": "Ngữ pháp - Nghi vấn từ",
+    "options": [
+      {
+        "label": "A",
+        "text": "どちら"
+      },
+      {
+        "label": "B",
+        "text": "どこから"
+      },
+      {
+        "label": "C",
+        "text": "なんじ"
+      },
+      {
+        "label": "D",
+        "text": "なに"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Câu trả lời chỉ mốc thời gian bắt đầu (8時) nên cần nghi vấn từ 'mấy ぎờ' (なんじ)."
+  },
+  {
+    "id": 184,
+    "question": "A: じむしょの （＿＿＿）？B: 8時からです。 (Chọn đáp án thích hợp điền vào chỗ trống)",
+    "type": "Ngữ pháp - Nghi vấn từ",
+    "options": [
+      {
+        "label": "A",
+        "text": "なに"
+      },
+      {
+        "label": "B",
+        "text": "どこ"
+      },
+      {
+        "label": "C",
+        "text": "どちら"
+      },
+      {
+        "label": "D",
+        "text": "なんじ"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Câu trả lời về giờ giấc yêu cầu nghi vấn từ 'mấy ぎờ' (なんじ)."
+  },
+  {
+    "id": 185,
+    "question": "A: じむしょの （＿＿＿）？B: 8時からです。 (Chọn đáp án thích hợp điền vào chỗ trống)",
+    "type": "Ngữ pháp - Nghi vấn từ",
+    "options": [
+      {
+        "label": "A",
+        "text": "どちら"
+      },
+      {
+        "label": "B",
+        "text": "どこから"
+      },
+      {
+        "label": "C",
+        "text": "なんじ"
+      },
+      {
+        "label": "D",
+        "text": "なに"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Trả lời giờ giấc yêu cầu nghi vấn từ 'mấy ぎờ' (なんじ)."
+  },
+  {
+    "id": 186,
+    "question": "A: じむしょは （＿＿＿） ですか。B: 2階です。 (Chọn đáp án thích hợp điền vào chỗ trống)",
+    "type": "Ngữ pháp - Nghi vấn từ",
+    "options": [
+      {
+        "label": "A",
+        "text": "しゃいん"
+      },
+      {
+        "label": "B",
+        "text": "なに"
+      },
+      {
+        "label": "C",
+        "text": "どこ"
+      },
+      {
+        "label": "D",
+        "text": "に"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Hỏi về vị trí địa điểm (tầんg 2) dùng nghi vấn từ 'ở đâu' (どこ)."
+  },
+  {
+    "id": 187,
+    "question": "A: じむしょは （＿＿＿） ですか。B: 2階です. (Chọn đáp án thích hợp điền vào chỗ trống)",
+    "type": "Ngữ pháp - Nghi vấn từ",
+    "options": [
+      {
+        "label": "A",
+        "text": "しゃいん"
+      },
+      {
+        "label": "B",
+        "text": "なに"
+      },
+      {
+        "label": "C",
+        "text": "どこ"
+      },
+      {
+        "label": "D",
+        "text": "に"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Hỏi vị trí địa điểm."
+  },
+  {
+    "id": 188,
+    "question": "A: じむしょは （＿＿＿） ですか。B: 2階です. (Chọn đáp án thích hợp điền vào chỗ trống)",
+    "type": "Ngữ pháp - Nghi vấn từ",
+    "options": [
+      {
+        "label": "A",
+        "text": "どっち"
+      },
+      {
+        "label": "B",
+        "text": "どこ"
+      },
+      {
+        "label": "C",
+        "text": "どちら"
+      },
+      {
+        "label": "D",
+        "text": "どれ"
+      }
+    ],
+    "answer": "C",
+    "explanation": "'どちら' là cách hỏi vị trí lịch sự, phù hợp khi hỏi về tầng trong tòa nhà."
+  },
+  {
+    "id": 189,
+    "question": "A: じむしょは　ビルの （＿＿＿）ですか。B: 2階です. (Chọn đáp án thích hợp điền vào chỗ trống)",
+    "type": "Ngữ pháp - Nghi vấn từ",
+    "options": [
+      {
+        "label": "A",
+        "text": "どっち"
+      },
+      {
+        "label": "B",
+        "text": "どこ"
+      },
+      {
+        "label": "C",
+        "text": "どちら"
+      },
+      {
+        "label": "D",
+        "text": "どれ"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Hỏi vị trí lịch sự dùng 'どちら'."
+  },
+  {
+    "id": 190,
+    "question": "A: すみません、カメラは いくらですか。てんいん: （＿＿＿）。 (Chọn đáp án thích hợp điền vào chỗ trống)",
+    "type": "Ngữ pháp - Nghi vấn từ",
+    "options": [
+      {
+        "label": "A",
+        "text": "二階(にかい)です。"
+      },
+      {
+        "label": "B",
+        "text": "2800円です。"
+      },
+      {
+        "label": "C",
+        "text": "こちらです。"
+      },
+      {
+        "label": "D",
+        "text": "あそこです。"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Hỏi giá tiền (いくら) nên đáp án phải là đơn vị tiền tệ (2800円)."
+  },
+  {
+    "id": 191,
+    "question": "A: すみません、（＿＿＿）は　どこですか。B: 1階です。 (Chọn đáp án thích hợp điền vào chỗ trống)",
+    "type": "Ngữ pháp - Nghi vấn từ",
+    "options": [
+      {
+        "label": "A",
+        "text": "じむしょ"
+      },
+      {
+        "label": "B",
+        "text": "だれ"
+      },
+      {
+        "label": "C",
+        "text": "なん"
+      },
+      {
+        "label": "D",
+        "text": "いつ"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Trả lời về vị trí (1階 - tầんg 1) nên câu hỏi phải hỏi về một địa điểm (じむしょ - văn phòんg)."
+  },
+  {
+    "id": 192,
+    "question": "A: それは （＿＿＿） ですか. B: 日本語です. (Chọn đáp án thích hợp điền vào chỗ trống)",
+    "type": "Ngữ pháp - Nghi vấn từ",
+    "options": [
+      {
+        "label": "A",
+        "text": "なん"
+      },
+      {
+        "label": "B",
+        "text": "なんじ"
+      },
+      {
+        "label": "C",
+        "text": "いつの"
+      },
+      {
+        "label": "D",
+        "text": "いつ"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Hỏi vật đó là gì."
+  },
+  {
+    "id": 193,
+    "question": "A: それは （＿＿＿） ですか。B: 日本語です. (Chọn đáp án thích hợp điền vào chỗ trống)",
+    "type": "Ngữ pháp - Nghi vấn từ",
+    "options": [
+      {
+        "label": "A",
+        "text": "なん"
+      },
+      {
+        "label": "B",
+        "text": "なんじ"
+      },
+      {
+        "label": "C",
+        "text": "いつの"
+      },
+      {
+        "label": "D",
+        "text": "いつ"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Hỏi về nội dung/vật thể dùng 'なん'."
+  },
+  {
+    "id": 194,
+    "question": "A: それは （＿＿＿） ですか。B: 日本語です。 (Chọn đáp án thích hợp điền vào chỗ trống)",
+    "type": "Ngữ pháp - Nghi vấn từ",
+    "options": [
+      {
+        "label": "A",
+        "text": "なん"
+      },
+      {
+        "label": "B",
+        "text": "なんじ"
+      },
+      {
+        "label": "C",
+        "text": "いつの"
+      },
+      {
+        "label": "D",
+        "text": "いつ"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Câu trả lời chỉ đồ vật/ngôn ngữ (tいếんg んhật) yêu cầu nghi vấn từ 'cái gì' (なん)."
+  },
+  {
+    "id": 195,
+    "question": "A: 毎日、 （＿＿＿）に　学校へ　来ますか。B: 8時に　来ます。 (Chọn đáp án thích hợp điền vào chỗ trống)",
+    "type": "Ngữ pháp - Nghi vấn từ",
+    "options": [
+      {
+        "label": "A",
+        "text": "いつ"
+      },
+      {
+        "label": "B",
+        "text": "何日"
+      },
+      {
+        "label": "C",
+        "text": "何分"
+      },
+      {
+        "label": "D",
+        "text": "何時"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Câu trả lời chỉ mốc thời gian cụ thể (8時), nên câu hỏi dùng nghi vấn từ 'mấy ぎờ' (何時)."
+  },
+  {
+    "id": 196,
+    "question": "A: （＿＿＿）は　どちらですか。B: ベトナムです。 (Chọn đáp án thích hợp điền vào chỗ trống)",
+    "type": "Ngữ pháp - Nghi vấn từ",
+    "options": [
+      {
+        "label": "A",
+        "text": "おくに"
+      },
+      {
+        "label": "B",
+        "text": "おなまえ"
+      },
+      {
+        "label": "C",
+        "text": "おしごと"
+      },
+      {
+        "label": "D",
+        "text": "いつ"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Hỏi quốc gia lịch sự dùng 'おくに'."
+  },
+  {
+    "id": 197,
+    "question": "A: （＿＿＿）は　何時ですか。B: 8時です。 (Chọn đáp án thích hợp điền vào chỗ trống)",
+    "type": "Ngữ pháp - Nghi vấn từ",
+    "options": [
+      {
+        "label": "A",
+        "text": "じゅうじ"
+      },
+      {
+        "label": "B",
+        "text": "おなまえは"
+      },
+      {
+        "label": "C",
+        "text": "これ"
+      },
+      {
+        "label": "D",
+        "text": "いま"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Hỏi giờ hiện tại dùng 'いま'."
+  },
+  {
+    "id": 198,
+    "question": "A: （＿＿＿）は　何時ですか。B: 8時です. (Chọn đáp án thích hợp điền vào chỗ trống)",
+    "type": "Ngữ pháp - Nghi vấn từ",
+    "options": [
+      {
+        "label": "A",
+        "text": "じゅうじ"
+      },
+      {
+        "label": "B",
+        "text": "おなまえは"
+      },
+      {
+        "label": "C",
+        "text": "これ"
+      },
+      {
+        "label": "D",
+        "text": "いま"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Dùng 'いま' (bây ぎờ) để hỏi giờ hiện tại."
+  },
+  {
+    "id": 199,
+    "question": "A:これは （＿＿＿） の さいふですか。B:あ、それは 私の さいふです。 (Chọn đáp án thích hợp điền vào chỗ trống)",
+    "type": "Ngữ pháp - Nghi vấn từ",
+    "options": [
+      {
+        "label": "A",
+        "text": "なん"
+      },
+      {
+        "label": "B",
+        "text": "だれ"
+      },
+      {
+        "label": "C",
+        "text": "どこ"
+      },
+      {
+        "label": "D",
+        "text": "いつ"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Câu trả lời là 'của tôi' (私の) nên câu hỏi phải dùng 'của あい' (だれの)."
+  },
+  {
+    "id": 200,
+    "question": "あさって （＿＿＿）で　たべますか。 (Chọn đáp án thích hợp điền vào chỗ trống)",
+    "type": "Ngữ pháp - Nghi vấn từ",
+    "options": [
+      {
+        "label": "A",
+        "text": "じゅうじ"
+      },
+      {
+        "label": "B",
+        "text": "どこ"
+      },
+      {
+        "label": "C",
+        "text": "いつ"
+      },
+      {
+        "label": "D",
+        "text": "なん"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Dựa vào trợ từ 'で' chỉ địa điểm."
+  },
+  {
+    "id": 201,
+    "question": "あさって （＿＿＿）に　おきますか. (Chọn đáp án thích hợp điền vào chỗ trống)",
+    "type": "Ngữ pháp - Nghi vấn từ",
+    "options": [
+      {
+        "label": "A",
+        "text": "なん"
+      },
+      {
+        "label": "B",
+        "text": "なんじ"
+      },
+      {
+        "label": "C",
+        "text": "いつ"
+      },
+      {
+        "label": "D",
+        "text": "どこ"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Hỏi giờ thức dậy."
+  },
+  {
+    "id": 202,
+    "question": "あさって （＿＿＿）に　おきますか。 (Chọn đáp án thích hợp điền vào chỗ trống)",
+    "type": "Ngữ pháp - Nghi vấn từ",
+    "options": [
+      {
+        "label": "A",
+        "text": "なん"
+      },
+      {
+        "label": "B",
+        "text": "なんじ"
+      },
+      {
+        "label": "C",
+        "text": "いつ"
+      },
+      {
+        "label": "D",
+        "text": "どこ"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Hỏi giờ thức dậy."
+  },
+  {
+    "id": 203,
+    "question": "田中さんは　（＿＿＿）　ですか。B: いいえ、ワンさんです。 (Chọn đáp án thích hợp điền vào chỗ trống)",
+    "type": "Ngữ pháp - Nghi vấn từ",
+    "options": [
+      {
+        "label": "A",
+        "text": "だれ"
+      },
+      {
+        "label": "B",
+        "text": "どなた"
+      },
+      {
+        "label": "C",
+        "text": "なに"
+      },
+      {
+        "label": "D",
+        "text": "どこ"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Câu hỏi xác nhận danh tính một người, 'どなた' là cách hỏi lịch sự."
+  },
+  {
+    "id": 204,
+    "question": "A: 4月10日は おはなみです。B: えっ！おはなみ？ （＿＿＿）。A: さくらをみます. おべんとうを たべます。 (Chọn đáp án thích hợp điền vào chỗ trống)",
+    "type": "Ngữ pháp - Ngữ cảnh",
+    "options": [
+      {
+        "label": "A",
+        "text": "どこで しますか"
+      },
+      {
+        "label": "B",
+        "text": "なにを しますか"
+      },
+      {
+        "label": "C",
+        "text": "どこへ いきますか"
+      },
+      {
+        "label": "D",
+        "text": "いつ しますか"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Câu trả lời mô tả hành động (んgắm ほあ, ăn cơm hộp) nên câu hỏi phù hợp là 'Làm cái gì?'."
+  },
+  {
+    "id": 205,
+    "question": "あまり　（＿＿＿）　テレビを　みません。 (Chọn đáp án thích hợp điền vào chỗ trống)",
+    "type": "Ngữ pháp - Phó từ",
+    "options": [
+      {
+        "label": "A",
+        "text": "いきません"
+      },
+      {
+        "label": "B",
+        "text": "いま"
+      },
+      {
+        "label": "C",
+        "text": "ときどき"
+      },
+      {
+        "label": "D",
+        "text": "ぜんぜん"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Cấu trúc 'ぜんぜん ... ません' nghĩa là hoàn toàn không làm gì đó."
+  },
+  {
+    "id": 206,
+    "question": "A: きのう、やすみましたか。B: （＿＿＿）、やすみませんでした。 (Chọn đáp án thích hợp điền vào chỗ trống)",
+    "type": "Ngữ pháp - Phủ định",
+    "options": [
+      {
+        "label": "A",
+        "text": "はい、やすみました"
+      },
+      {
+        "label": "B",
+        "text": "いいえ、やすみました"
+      },
+      {
+        "label": "C",
+        "text": "はい、やすみませんでした"
+      },
+      {
+        "label": "D",
+        "text": "いいえ、やすみませんでした"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Khi phủ định một hành động trong câu hỏi Có/Không, ta dùng 'いいえ' kết hợp với động từ thể phủ định."
+  },
+  {
+    "id": 207,
+    "question": "A: キムさんは かいしゃいんですか。キム: いいえ、（＿＿＿）。 (Chọn đáp án thích hợp điền vào chỗ trống)",
+    "type": "Ngữ pháp - Phủ định",
+    "options": [
+      {
+        "label": "A",
+        "text": "かいしゃいんです"
+      },
+      {
+        "label": "B",
+        "text": "かいしゃいんじゃありません"
+      },
+      {
+        "label": "C",
+        "text": "そうです"
+      },
+      {
+        "label": "D",
+        "text": "しゃいんではありあません"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Phủ định của danh từ 'かいしゃいん' (んhân vいên côんg ty) là 'かいしゃいんじゃありません'."
+  },
+  {
+    "id": 208,
+    "question": "A: 昨日は　休みでしたか。B: （＿＿＿）、休みませんでした。 (Chọn đáp án thích hợp điền vào chỗ trống)",
+    "type": "Ngữ pháp - Phủ định",
+    "options": [
+      {
+        "label": "A",
+        "text": "はい、休みでした"
+      },
+      {
+        "label": "B",
+        "text": "いいえ、休みでした"
+      },
+      {
+        "label": "C",
+        "text": "はい、休みませんでした"
+      },
+      {
+        "label": "D",
+        "text": "いいえ、休みませんでした"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Câu trả lời phủ định hành động trong quá khứ: 'いいえ' + 'Vませんでした'."
+  },
+  {
+    "id": 209,
+    "question": "A: まいにち、あさごはんを たべますか。B: いいえ、私は、あさ、＿＿＿＿＿。 (Chọn đáp án thích hợp điền vào chỗ trống)",
+    "type": "Ngữ pháp - Phủ định hoàn toàn",
+    "options": [
+      {
+        "label": "A",
+        "text": "たべます"
+      },
+      {
+        "label": "B",
+        "text": "なにも たべません"
+      },
+      {
+        "label": "C",
+        "text": "なにを たべますか"
+      },
+      {
+        "label": "D",
+        "text": "なにも たべます"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Khi trả lời phủ định hoàn toàn chiょ câu hỏi 'có ăn khôんg', ta dùng cấu trúc 'んgひ vấn từ +  mo + phủ địんh'."
+  },
+  {
+    "id": 210,
+    "question": "A: 「昨日休みでしたか」 B: （＿＿＿） (Chọn đáp án thích hợp điền vào chỗ trống)",
+    "type": "Ngữ pháp - Phủ định quá khứ",
+    "options": [
+      {
+        "label": "A",
+        "text": "いいえ、休みでした"
+      },
+      {
+        "label": "B",
+        "text": "はい、休みじゃありません"
+      },
+      {
+        "label": "C",
+        "text": "いいえ、休みじゃありませんでした"
+      },
+      {
+        "label": "D",
+        "text": "いいえ、休みです"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Trả lời phủ định chiょ câu hỏi về trạng thái trong quá khứ."
+  },
+  {
+    "id": 211,
+    "question": "A: きのう、やすみましたか。B: いいえ、（＿＿＿）。 (Chọn đáp án thích hợp điền vào chỗ trống)",
+    "type": "Ngữ pháp - Phủ định quá khứ",
+    "options": [
+      {
+        "label": "A",
+        "text": "やすみませんでした"
+      },
+      {
+        "label": "B",
+        "text": "やすみません"
+      },
+      {
+        "label": "C",
+        "text": "やすみました"
+      },
+      {
+        "label": "D",
+        "text": "やすみでした"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Phủ định của động từ quá khứ là '～ませんでした'."
+  },
+  {
+    "id": 212,
+    "question": "A: 昨日は　休みでしたか. B: いいえ、（＿＿＿）。 (Chọn đáp án thích hợp điền vào chỗ trống)",
+    "type": "Ngữ pháp - Phủ định quá khứ",
+    "options": [
+      {
+        "label": "A",
+        "text": "休みませんでした"
+      },
+      {
+        "label": "B",
+        "text": "休みじゃありませんでした"
+      },
+      {
+        "label": "C",
+        "text": "休みだ"
+      },
+      {
+        "label": "D",
+        "text": "休みじゃありません"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Phủ định quá khứ danh từ."
+  },
+  {
+    "id": 213,
+    "question": "A: 昨日は　休みでしたか。B: いいえ、（＿＿＿）。 (Chọn đáp án thích hợp điền vào chỗ trống)",
+    "type": "Ngữ pháp - Phủ định quá khứ",
+    "options": [
+      {
+        "label": "A",
+        "text": "休みませんでした"
+      },
+      {
+        "label": "B",
+        "text": "休みじゃありませんでした"
+      },
+      {
+        "label": "C",
+        "text": "休みだ"
+      },
+      {
+        "label": "D",
+        "text": "休みじゃありません"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Phủ định quá khứ chiょ danh từ."
+  },
+  {
+    "id": 214,
+    "question": "A: 昨日は　休みでしたか。B: （＿＿＿） (Chọn đáp án thích hợp điền vào chỗ trống)",
+    "type": "Ngữ pháp - Phủ định quá khứ",
+    "options": [
+      {
+        "label": "A",
+        "text": "いいえ"
+      },
+      {
+        "label": "B",
+        "text": "はい"
+      },
+      {
+        "label": "C",
+        "text": "いいえ、休みじゃありませんでした"
+      },
+      {
+        "label": "D",
+        "text": "はい、休みでした"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Trả lời phủ định chiょ một trạng thái trong quá khứ."
+  },
+  {
+    "id": 215,
+    "question": "A: おととい、なにを　しましたか. B: （＿＿＿）。 (Chọn đáp án thích hợp điền vào chỗ trống)",
+    "type": "Ngữ pháp - Quá khứ",
+    "options": [
+      {
+        "label": "A",
+        "text": "なにもしません"
+      },
+      {
+        "label": "B",
+        "text": "なにもしませんでした"
+      },
+      {
+        "label": "C",
+        "text": "なにをしません"
+      },
+      {
+        "label": "D",
+        "text": "なにをしませんでした"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Phủ định quá khứ."
+  },
+  {
+    "id": 216,
+    "question": "A: おととい、なにを　しましたか。B: （＿＿＿）。 (Chọn đáp án thích hợp điền vào chỗ trống)",
+    "type": "Ngữ pháp - Quá khứ",
+    "options": [
+      {
+        "label": "A",
+        "text": "なにもしません"
+      },
+      {
+        "label": "B",
+        "text": "なにもしませんでした"
+      },
+      {
+        "label": "C",
+        "text": "なにをしません"
+      },
+      {
+        "label": "D",
+        "text": "なにをしませんでした"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Phủ định quá khứ hoàn toàn."
+  },
+  {
+    "id": 217,
+    "question": "A: おととい、なにを　しましたか。B: （＿＿＿）。 (Chọn đáp án thích hợp điền vào chỗ trống)",
+    "type": "Ngữ pháp - Quá khứ",
+    "options": [
+      {
+        "label": "A",
+        "text": "なにもしません"
+      },
+      {
+        "label": "B",
+        "text": "なにもしませんでした"
+      },
+      {
+        "label": "C",
+        "text": "なに를しません"
+      },
+      {
+        "label": "D",
+        "text": "なに를しませんでした"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Phủ định quá khứ hoàn toàn."
+  },
+  {
+    "id": 218,
+    "question": "A: きのう、なにを　しましたか。B: （＿＿＿）。 (Chọn đáp án thích hợp điền vào chỗ trống)",
+    "type": "Ngữ pháp - Quá khứ",
+    "options": [
+      {
+        "label": "A",
+        "text": "なにもしません"
+      },
+      {
+        "label": "B",
+        "text": "なにもしませんでした"
+      },
+      {
+        "label": "C",
+        "text": "なにをしません"
+      },
+      {
+        "label": "D",
+        "text": "なにをしませんでした"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Phủ định hoàn toàn trong quá khứ."
+  },
+  {
+    "id": 219,
+    "question": "A: 昨日は どこへ （＿＿＿）か。B: どこへも　いきませんでした. (Chọn đáp án thích hợp điền vào chỗ trống)",
+    "type": "Ngữ pháp - Quá khứ",
+    "options": [
+      {
+        "label": "A",
+        "text": "いきます"
+      },
+      {
+        "label": "B",
+        "text": "いきません"
+      },
+      {
+        "label": "C",
+        "text": "いきました"
+      },
+      {
+        "label": "D",
+        "text": "いきませんでした"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Câu hỏi hành động quá khứ."
+  },
+  {
+    "id": 220,
+    "question": "A: 昨日は どこへ （＿＿＿）か。B: どこへも　いきませんでした。 (Chọn đáp án thích hợp điền vào chỗ trống)",
+    "type": "Ngữ pháp - Quá khứ",
+    "options": [
+      {
+        "label": "A",
+        "text": "いきます"
+      },
+      {
+        "label": "B",
+        "text": "いきません"
+      },
+      {
+        "label": "C",
+        "text": "いきました"
+      },
+      {
+        "label": "D",
+        "text": "いきませんでした"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Câu hỏi hành động quá khứ."
+  },
+  {
+    "id": 221,
+    "question": "昨日　どこへ　（＿＿＿）か。 (Chọn đáp án thích hợp điền vào chỗ trống)",
+    "type": "Ngữ pháp - Quá khứ",
+    "options": [
+      {
+        "label": "A",
+        "text": "いきました"
+      },
+      {
+        "label": "B",
+        "text": "いきます"
+      },
+      {
+        "label": "C",
+        "text": "いかない"
+      },
+      {
+        "label": "D",
+        "text": "いって"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Câu hỏi về hành động trong quá khứ (昨日) dùng thể 'ましたか'."
+  },
+  {
+    "id": 222,
+    "question": "ベトナムは　タイより　（＿＿＿）　ですか。 (Chọn trợ từ thích hợp điền vào chỗ trống)",
+    "type": "Ngữ pháp - So sánh",
+    "options": [
+      {
+        "label": "A",
+        "text": "に"
+      },
+      {
+        "label": "B",
+        "text": "の"
+      },
+      {
+        "label": "C",
+        "text": "が"
+      },
+      {
+        "label": "D",
+        "text": "を"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Cấu trúc so sánh hơn."
+  },
+  {
+    "id": 223,
+    "question": "A: 家族(かぞく)の中で、だれが　一番(いちばん)　背(せ)が高いですか。B: （＿＿＿）が　一番　背が高いです。 (Chọn đáp án thích hợp điền vào chỗ trống)",
+    "type": "Ngữ pháp - So sánh nhất",
+    "options": [
+      {
+        "label": "A",
+        "text": "弟"
+      },
+      {
+        "label": "B",
+        "text": "父"
+      },
+      {
+        "label": "C",
+        "text": "母"
+      },
+      {
+        "label": "D",
+        "text": "兄"
+      }
+    ],
+    "answer": "B",
+    "explanation": "So sánh trong gia đình."
+  },
+  {
+    "id": 224,
+    "question": "A: これは　だれの　カメラですか。B: （＿＿＿）のです。 (Chọn đáp án thích hợp điền vào chỗ trống)",
+    "type": "Ngữ pháp - Sở hữu",
+    "options": [
+      {
+        "label": "A",
+        "text": "わたし"
+      },
+      {
+        "label": "B",
+        "text": "わたしの"
+      },
+      {
+        "label": "C",
+        "text": "これ"
+      },
+      {
+        "label": "D",
+        "text": "だれ"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Vì đã có 'の' phía sau nên chỉ cần điền danh từ 'わたし'."
+  },
+  {
+    "id": 225,
+    "question": "A: その　ペンは　だれの　ですか。B: （＿＿＿） です。 (Chọn đáp án thích hợp điền vào chỗ trống)",
+    "type": "Ngữ pháp - Sở hữu",
+    "options": [
+      {
+        "label": "A",
+        "text": "はい、そうです"
+      },
+      {
+        "label": "B",
+        "text": "わたしのじゃありません"
+      },
+      {
+        "label": "C",
+        "text": "だれ"
+      },
+      {
+        "label": "D",
+        "text": "わたしの"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Câu hỏi 'của あい' trả lời bằng đại từ sở hữu 'của tôi' (わたしの)."
+  },
+  {
+    "id": 226,
+    "question": "A: その　ペンは　だれの　ですか。B: （＿＿＿）。 (Chọn đáp án thích hợp điền vào chỗ trống)",
+    "type": "Ngữ pháp - Sở hữu",
+    "options": [
+      {
+        "label": "A",
+        "text": "わたしのです"
+      },
+      {
+        "label": "B",
+        "text": "これ"
+      },
+      {
+        "label": "C",
+        "text": "しゃいん"
+      },
+      {
+        "label": "D",
+        "text": "わたしのじゃありません"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Câu hỏi 'của あい' (だれの) trả lời bằng đại từ sở hữu 'của tôi' (わたしのです)."
+  },
+  {
+    "id": 227,
+    "question": "A: 昨日は　いいおてんきでしたか. B: （＿＿＿）. (Chọn đáp án thích hợp điền vào chỗ trống)",
+    "type": "Ngữ pháp - Trả lời",
+    "options": [
+      {
+        "label": "A",
+        "text": "はい、よかったです。"
+      },
+      {
+        "label": "B",
+        "text": "いいえ、よくなかったです。"
+      },
+      {
+        "label": "C",
+        "text": "はい"
+      },
+      {
+        "label": "D",
+        "text": "いいえ"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Trả lời khẳng định về tính chất quá khứ."
+  },
+  {
+    "id": 228,
+    "question": "A: 昨日は　いいおてんきでしたか。B: （＿＿＿）。 (Chọn đáp án thích hợp điền vào chỗ trống)",
+    "type": "Ngữ pháp - Trả lời",
+    "options": [
+      {
+        "label": "A",
+        "text": "はい、よかったです。"
+      },
+      {
+        "label": "B",
+        "text": "いいえ、よくなかったです。"
+      },
+      {
+        "label": "C",
+        "text": "はい"
+      },
+      {
+        "label": "D",
+        "text": "いいえ"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Câu trả lời khẳng định về tính chất trong quá khứ."
+  },
+  {
+    "id": 229,
+    "question": "A: 昨日は　いいおてんきでしたか。B: （＿＿＿）。 (Chọn đáp án thích hợp điền vào chỗ trống)",
+    "type": "Ngữ pháp - Trả lời khẳng định",
+    "options": [
+      {
+        "label": "A",
+        "text": "はい、よかったです。"
+      },
+      {
+        "label": "B",
+        "text": "いいえ、よくなかったです。"
+      },
+      {
+        "label": "C",
+        "text": "はい"
+      },
+      {
+        "label": "D",
+        "text": "いいえ"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Câu hỏi về tính từ đuôi 'i' trong quá khứ (でしたか), trả lời khẳng định dùng 'はい, [tíんh từ] + かったです'."
+  },
+  {
+    "id": 230,
+    "question": "A: [辞書] は いくらですか。B: 300円です。 (Trợ từ nào phù hợp điền vào sau từ trong ngoặc [ ]?)",
+    "type": "Ngữ pháp - Trợ từ",
+    "options": [
+      {
+        "label": "A",
+        "text": "も"
+      },
+      {
+        "label": "B",
+        "text": "で"
+      },
+      {
+        "label": "C",
+        "text": "は"
+      },
+      {
+        "label": "D",
+        "text": "へ"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Trợ từ 'は' dùng để xác định chủ đề của câu hỏi."
+  },
+  {
+    "id": 231,
+    "question": "A: [辞書] は （＿＿＿） ありません。 (Trợ từ nào phù hợp điền vào chỗ trống?)",
+    "type": "Ngữ pháp - Trợ từ",
+    "options": [
+      {
+        "label": "A",
+        "text": "も"
+      },
+      {
+        "label": "B",
+        "text": "で"
+      },
+      {
+        "label": "C",
+        "text": "は"
+      },
+      {
+        "label": "D",
+        "text": "へ"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Dùng trợ từ 'は' để nhấn mạnh chủ đề phủ định (khôんg có từ điển)."
+  },
+  {
+    "id": 232,
+    "question": "A: あの人は　だれですか。B: あの人は　IMC （＿＿＿）　ミラーさんです. (Chọn trợ từ thích hợp điền vào chỗ trống)",
+    "type": "Ngữ pháp - Trợ từ",
+    "options": [
+      {
+        "label": "A",
+        "text": "の"
+      },
+      {
+        "label": "B",
+        "text": "は"
+      },
+      {
+        "label": "C",
+        "text": "も"
+      },
+      {
+        "label": "D",
+        "text": "と"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Trợ từ 'の' dùng để nối hai danh từ, chỉ sự thuộc về (みっlえr của côんg ty いmc)."
+  },
+  {
+    "id": 233,
+    "question": "A: さかなは えいご （＿＿＿） なんですか。B: 「fish」です。 (Chọn đáp án thích hợp điền vào chỗ trống)",
+    "type": "Ngữ pháp - Trợ từ",
+    "options": [
+      {
+        "label": "A",
+        "text": "も"
+      },
+      {
+        "label": "B",
+        "text": "で"
+      },
+      {
+        "label": "C",
+        "text": "は"
+      },
+      {
+        "label": "D",
+        "text": "へ"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Trợ từ 'で' dùng để chỉ phương thức, ngôn ngữ (bằんg tいếんg あんh)."
+  },
+  {
+    "id": 234,
+    "question": "A: レストラン （＿＿＿） どこです （＿＿＿）。 (Chọn đáp án thích hợp điền vào chỗ trống)",
+    "type": "Ngữ pháp - Trợ từ",
+    "options": [
+      {
+        "label": "A",
+        "text": "X／X"
+      },
+      {
+        "label": "B",
+        "text": "は／か"
+      },
+      {
+        "label": "C",
+        "text": "か／は"
+      },
+      {
+        "label": "D",
+        "text": "も／か"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Cấu trúc câu hỏi vị trí: 'だんh từ + は + どこ + ですか'."
+  },
+  {
+    "id": 235,
+    "question": "あさ、何時 （＿＿＿） 大学(だいがく)へ きますか。 (Chọn đáp án thích hợp điền vào chỗ trống)",
+    "type": "Ngữ pháp - Trợ từ",
+    "options": [
+      {
+        "label": "A",
+        "text": "へ"
+      },
+      {
+        "label": "B",
+        "text": "に"
+      },
+      {
+        "label": "C",
+        "text": "X"
+      },
+      {
+        "label": "D",
+        "text": "も"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Trợ từ 'に' đứng sau danh từ chỉ thời gian xác định để chỉ thời điểm thực hiện hành động."
+  },
+  {
+    "id": 236,
+    "question": "これは オーストラリア （＿＿＿） りんごです。 (Chọn đáp án thích hợp điền vào chỗ trống)",
+    "type": "Ngữ pháp - Trợ từ",
+    "options": [
+      {
+        "label": "A",
+        "text": "が"
+      },
+      {
+        "label": "B",
+        "text": "の"
+      },
+      {
+        "label": "C",
+        "text": "も"
+      },
+      {
+        "label": "D",
+        "text": "で"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Sử dụng trợ từ 'の' để nối hai danh từ, chỉ nguồn gốc (táo của Úc)."
+  },
+  {
+    "id": 237,
+    "question": "しゅみ （＿＿＿） スポーツ （＿＿＿） りょこうです。 (Chọn đáp án thích hợp điền vào chỗ trống)",
+    "type": "Ngữ pháp - Trợ từ",
+    "options": [
+      {
+        "label": "A",
+        "text": "と／は"
+      },
+      {
+        "label": "B",
+        "text": "も／も"
+      },
+      {
+        "label": "C",
+        "text": "は／と"
+      },
+      {
+        "label": "D",
+        "text": "と／も"
+      }
+    ],
+    "answer": "C",
+    "explanation": "'Sở thích của tôi là A và B' -> 'しゅみは A と B です'."
+  },
+  {
+    "id": 238,
+    "question": "としょかん （＿＿＿） いきます. (Chọn trợ từ thích hợp điền vào chỗ trống)",
+    "type": "Ngữ pháp - Trợ từ",
+    "options": [
+      {
+        "label": "A",
+        "text": "へ"
+      },
+      {
+        "label": "B",
+        "text": "で"
+      },
+      {
+        "label": "C",
+        "text": "を"
+      },
+      {
+        "label": "D",
+        "text": "に"
+      }
+    ],
+    "answer": "A",
+    "explanation": "'へ' chỉ hướng đi."
+  },
+  {
+    "id": 239,
+    "question": "としょかん （＿＿＿） いきます. としょかん （＿＿＿） 日本語を　べんきょうします. (Chọn trợ từ thích hợp điền vào chỗ trống)",
+    "type": "Ngữ pháp - Trợ từ",
+    "options": [
+      {
+        "label": "A",
+        "text": "へ／で"
+      },
+      {
+        "label": "B",
+        "text": "で／へ"
+      },
+      {
+        "label": "C",
+        "text": "を／へ"
+      },
+      {
+        "label": "D",
+        "text": "へ／を"
+      }
+    ],
+    "answer": "A",
+    "explanation": "'へ' chỉ hướng, 'で' chỉ nơi hành động xảy ra."
+  },
+  {
+    "id": 240,
+    "question": "としょかん （＿＿＿） いきます。 (Chọn trợ từ thích hợp điền vào chỗ trống)",
+    "type": "Ngữ pháp - Trợ từ",
+    "options": [
+      {
+        "label": "A",
+        "text": "へ"
+      },
+      {
+        "label": "B",
+        "text": "で"
+      },
+      {
+        "label": "C",
+        "text": "を"
+      },
+      {
+        "label": "D",
+        "text": "に"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Trợ từ 'へ' chỉ phương hướng chuyển động."
+  },
+  {
+    "id": 241,
+    "question": "としょかん （＿＿＿） いきます。としょかん （＿＿＿） 日本語を　べんきょうします。 (Chọn trợ từ thích hợp điền vào chỗ trống)",
+    "type": "Ngữ pháp - Trợ từ",
+    "options": [
+      {
+        "label": "A",
+        "text": "へ／で"
+      },
+      {
+        "label": "B",
+        "text": "で／へ"
+      },
+      {
+        "label": "C",
+        "text": "を／へ"
+      },
+      {
+        "label": "D",
+        "text": "へ／を"
+      }
+    ],
+    "answer": "A",
+    "explanation": "'へ' chỉ hướng, 'で' chỉ nơi hành động xảy ra."
+  },
+  {
+    "id": 242,
+    "question": "まいにち、何時 （＿＿＿） 何時 （＿＿＿） べんきょうしますか。 (Chọn đáp án thích hợp điền vào chỗ trống)",
+    "type": "Ngữ pháp - Trợ từ",
+    "options": [
+      {
+        "label": "A",
+        "text": "まで／から"
+      },
+      {
+        "label": "B",
+        "text": "から／まで"
+      },
+      {
+        "label": "C",
+        "text": "に／まで"
+      },
+      {
+        "label": "D",
+        "text": "から／に"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Cấu trúc 'から...まで' nghĩa là 'từ... đến...'."
+  },
+  {
+    "id": 243,
+    "question": "サントスさんは　ブラジル （＿＿＿） きました。 (Chọn trợ từ thích hợp điền vào chỗ trống)",
+    "type": "Ngữ pháp - Trợ từ",
+    "options": [
+      {
+        "label": "A",
+        "text": "から"
+      },
+      {
+        "label": "B",
+        "text": "まで"
+      },
+      {
+        "label": "C",
+        "text": "に"
+      },
+      {
+        "label": "D",
+        "text": "へ"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Trợ từ 'から' chỉ điểm xuất phát (đến từ)."
+  },
+  {
+    "id": 244,
+    "question": "マリアさんは　20歳 （＿＿＿） 21歳ですか。 (Chọn trợ từ thích hợp điền vào chỗ trống)",
+    "type": "Ngữ pháp - Trợ từ",
+    "options": [
+      {
+        "label": "A",
+        "text": "は"
+      },
+      {
+        "label": "B",
+        "text": "と"
+      },
+      {
+        "label": "C",
+        "text": "も"
+      },
+      {
+        "label": "D",
+        "text": "か"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Trợ từ 'か' dùng trong câu hỏi lựa chọn (A はy là B)."
+  },
+  {
+    "id": 245,
+    "question": "ミラーさんは　アメリカ人です. サントスさん （＿＿＿） アメリカ人です. (Chọn trợ từ thích hợp điền vào chỗ trống)",
+    "type": "Ngữ pháp - Trợ từ",
+    "options": [
+      {
+        "label": "A",
+        "text": "と"
+      },
+      {
+        "label": "B",
+        "text": "は"
+      },
+      {
+        "label": "C",
+        "text": "の"
+      },
+      {
+        "label": "D",
+        "text": "も"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Trợ từ 'も' (cũんg)."
+  },
+  {
+    "id": 246,
+    "question": "ミラーさんは　アメリカ人です。サントスさん （＿＿＿） アメリカ人です. (Chọn trợ từ thích hợp điền vào chỗ trống)",
+    "type": "Ngữ pháp - Trợ từ",
+    "options": [
+      {
+        "label": "A",
+        "text": "と"
+      },
+      {
+        "label": "B",
+        "text": "は"
+      },
+      {
+        "label": "C",
+        "text": "の"
+      },
+      {
+        "label": "D",
+        "text": "も"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Trợ từ 'も' biểu thị sự tương đồng."
+  },
+  {
+    "id": 247,
+    "question": "ミラーさんは　アメリカ人です。サントスさん （＿＿＿） アメリカ人です。 (Chọn trợ từ thích hợp điền vào chỗ trống)",
+    "type": "Ngữ pháp - Trợ từ",
+    "options": [
+      {
+        "label": "A",
+        "text": "と"
+      },
+      {
+        "label": "B",
+        "text": "は"
+      },
+      {
+        "label": "C",
+        "text": "の"
+      },
+      {
+        "label": "D",
+        "text": "も"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Trợ từ 'も' dùng để chỉ sự tương đồng."
+  },
+  {
+    "id": 248,
+    "question": "ミラーさんは　学生です。サントスさん （＿＿＿） 学生です。 (Chọn trợ từ thích hợp điền vào chỗ trống)",
+    "type": "Ngữ pháp - Trợ từ",
+    "options": [
+      {
+        "label": "A",
+        "text": "と"
+      },
+      {
+        "label": "B",
+        "text": "は"
+      },
+      {
+        "label": "C",
+        "text": "の"
+      },
+      {
+        "label": "D",
+        "text": "も"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Trợ từ 'も' dùng để biểu thị sự tương đồng (cũんg là)."
+  },
+  {
+    "id": 249,
+    "question": "ミラーさんは　学生です。サントスさん （＿＿＿） 学生です. (Chọn trợ từ thích hợp điền vào chỗ trống)",
+    "type": "Ngữ pháp - Trợ từ",
+    "options": [
+      {
+        "label": "A",
+        "text": "と"
+      },
+      {
+        "label": "B",
+        "text": "は"
+      },
+      {
+        "label": "C",
+        "text": "の"
+      },
+      {
+        "label": "D",
+        "text": "も"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Trợ từ 'も' biểu thị sự tương đồng."
+  },
+  {
+    "id": 250,
+    "question": "私は、まいあさ （＿＿＿） 6時 （＿＿＿） おきます。 (Chọn đáp án thích hợp điền vào chỗ trống)",
+    "type": "Ngữ pháp - Trợ từ",
+    "options": [
+      {
+        "label": "A",
+        "text": "に／X"
+      },
+      {
+        "label": "B",
+        "text": "X／に"
+      },
+      {
+        "label": "C",
+        "text": "も／に"
+      },
+      {
+        "label": "D",
+        "text": "に／に"
+      }
+    ],
+    "answer": "B",
+    "explanation": "'まいあさ' (mỗi sáんg) không đi kèm trợ từ 'に', trong khi '6時' là thời gian xác định nên cần trợ từ 'に'."
+  },
+  {
+    "id": 251,
+    "question": "日曜日、うち （＿＿＿） おんがくを （＿＿＿）。 (Chọn đáp án thích hợp điền vào chỗ trống)",
+    "type": "Ngữ pháp - Trợ từ & Động từ",
+    "options": [
+      {
+        "label": "A",
+        "text": "で／はたらきます"
+      },
+      {
+        "label": "B",
+        "text": "で／ききます"
+      },
+      {
+        "label": "C",
+        "text": "に／かいます"
+      },
+      {
+        "label": "D",
+        "text": "に／よみます"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Dùng trợ từ 'で' để chỉ nơi chốn xảy ra hành động (tại んhà) và động từ 'ききます' (んgへ んhạc)."
+  },
+  {
+    "id": 252,
+    "question": "A: はる （＿＿＿） なつ （＿＿＿） どちらが　すきですか。 (Chọn trợ từ thích hợp điền vào chỗ trống)",
+    "type": "Ngữ pháp - Trợ từ so sánh",
+    "options": [
+      {
+        "label": "A",
+        "text": "と／と"
+      },
+      {
+        "label": "B",
+        "text": "X／X"
+      },
+      {
+        "label": "C",
+        "text": "に／に"
+      },
+      {
+        "label": "D",
+        "text": "を／を"
+      }
+    ],
+    "answer": "A",
+    "explanation": "So sánh lựa chọn giữa mùa xuân và mùa hạ."
+  },
+  {
+    "id": 253,
+    "question": "A: はる （＿＿＿） なつ （＿＿＿） どちらが　すきですか。 (Chọn trợ từ thích hợp điền vào chỗ trống)",
+    "type": "Ngữ pháp - Trợ từ so sánh",
+    "options": [
+      {
+        "label": "A",
+        "text": "と／と"
+      },
+      {
+        "label": "B",
+        "text": "は／は"
+      },
+      {
+        "label": "C",
+        "text": "に／に"
+      },
+      {
+        "label": "D",
+        "text": "を／を"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Cấu trúc so sánh lựa chọn giữa hai danh từ dùng trợ từ 'と' sau mỗi đối tượng."
+  },
+  {
+    "id": 254,
+    "question": "A: はる （＿＿＿） なつ （＿＿＿） どちらが　すきですか。B: なつの　ほうが　すきです。 (Chọn trợ từ thích hợp điền vào chỗ trống)",
+    "type": "Ngữ pháp - Trợ từ so sánh",
+    "options": [
+      {
+        "label": "A",
+        "text": "と／と"
+      },
+      {
+        "label": "B",
+        "text": "は／は"
+      },
+      {
+        "label": "C",
+        "text": "に／に"
+      },
+      {
+        "label": "D",
+        "text": "を／を"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Cấu trúc so sánh lựa chọn giữa hai danh từ dùng trợ từ 'と' sau mỗi danh từ."
+  },
+  {
+    "id": 255,
+    "question": "ベトナムは　タイより　（＿＿＿）　ですか。 (Chọn trợ từ thích hợp điền vào chỗ trống)",
+    "type": "Ngữ pháp - Trợ từ so sánh",
+    "options": [
+      {
+        "label": "A",
+        "text": "に"
+      },
+      {
+        "label": "B",
+        "text": "の"
+      },
+      {
+        "label": "C",
+        "text": "が"
+      },
+      {
+        "label": "D",
+        "text": "を"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Câu hỏi so sánh mức độ giữa hai địa danh thường sử dụng cấu trúc 'A は B より ~'."
+  },
+  {
+    "id": 256,
+    "question": "A: すみません、けいたいでんわは どこですか。てんいん: けいたいでんわは （＿＿＿） です。 (Chọn đáp án thích hợp điền vào chỗ trống)",
+    "type": "Ngữ pháp - Từ chỉ phương hướng",
+    "options": [
+      {
+        "label": "A",
+        "text": "これ"
+      },
+      {
+        "label": "B",
+        "text": "こちら"
+      },
+      {
+        "label": "C",
+        "text": "その"
+      },
+      {
+        "label": "D",
+        "text": "それ"
+      }
+    ],
+    "answer": "B",
+    "explanation": "'こちら' dùng để chỉ phương hướng/địa điểm một cách lịch sự trong cửa hàng."
+  },
+  {
+    "id": 257,
+    "question": "A: じむしょは　ビルの （＿＿＿）ですか。B: 2階です。 (Chọn đáp án thích hợp điền vào chỗ trống)",
+    "type": "Ngữ pháp - Vị trí",
+    "options": [
+      {
+        "label": "A",
+        "text": "なにさま"
+      },
+      {
+        "label": "B",
+        "text": "どれ"
+      },
+      {
+        "label": "C",
+        "text": "どちら"
+      },
+      {
+        "label": "D",
+        "text": "山"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Hỏi vị trí lịch sự."
+  },
+  {
+    "id": 258,
+    "question": "A: じむしょは　ビルの （＿＿＿）ですか。B: 2階です. (Chọn đáp án thích hợp điền vào chỗ trống)",
+    "type": "Ngữ pháp - Vị trí",
+    "options": [
+      {
+        "label": "A",
+        "text": "どっち"
+      },
+      {
+        "label": "B",
+        "text": "どこ"
+      },
+      {
+        "label": "C",
+        "text": "どちら"
+      },
+      {
+        "label": "D",
+        "text": "どれ"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Cách hỏi vị trí lịch sự."
+  },
+  {
+    "id": 259,
+    "question": "A: じむしょは　ビルの （＿＿＿）ですか。B: 2階です. (Chọn đáp án thích hợp điền vào chỗ trống)",
+    "type": "Ngữ pháp - Vị trí",
+    "options": [
+      {
+        "label": "A",
+        "text": "なにさま"
+      },
+      {
+        "label": "B",
+        "text": "どれ"
+      },
+      {
+        "label": "C",
+        "text": "どちら"
+      },
+      {
+        "label": "D",
+        "text": "山"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Hỏi vị trí của văn phòng (tầんg mấy) một cách lịch sự dùng 'どちら'."
+  },
+  {
+    "id": 260,
+    "question": "A: じむしょは　ビルの （＿＿＿）ですか。B: 2階です。 (Chọn đáp án thích hợp điền vào chỗ trống)",
+    "type": "Ngữ pháp - Vị trí",
+    "options": [
+      {
+        "label": "A",
+        "text": "どっち"
+      },
+      {
+        "label": "B",
+        "text": "どこ"
+      },
+      {
+        "label": "C",
+        "text": "どちら"
+      },
+      {
+        "label": "D",
+        "text": "どれ"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Cách hỏi vị trí một cách trang trọng."
+  },
+  {
+    "id": 261,
+    "question": "A: じむしょは　ビルの （＿＿＿）？B: 2階です。 (Chọn đáp án thích hợp điền vào chỗ trống)",
+    "type": "Ngữ pháp - Vị trí",
+    "options": [
+      {
+        "label": "A",
+        "text": "どれ"
+      },
+      {
+        "label": "B",
+        "text": "山"
+      },
+      {
+        "label": "C",
+        "text": "どちらですか"
+      },
+      {
+        "label": "D",
+        "text": "なにさま"
+      }
+    ],
+    "answer": "C",
+    "explanation": "'どちらですか' là cách hỏi vị trí lịch sự trong tiếng Nhật."
+  },
+  {
+    "id": 262,
+    "question": "A: すみません、インフォメーションは （＿＿＿）ですか。B: あちらです. (Chọn đáp án thích hợp điền vào chỗ trống)",
+    "type": "Ngữ pháp - Vị trí",
+    "options": [
+      {
+        "label": "A",
+        "text": "どちら"
+      },
+      {
+        "label": "B",
+        "text": "なに"
+      },
+      {
+        "label": "C",
+        "text": "どこ"
+      },
+      {
+        "label": "D",
+        "text": "いつ"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Hỏi vị trí lịch sự."
+  },
+  {
+    "id": 263,
+    "question": "A: すみません、インフォメーションは （＿＿＿）ですか。B: あちらです。 (Chọn đáp án thích hợp điền vào chỗ trống)",
+    "type": "Ngữ pháp - Vị trí",
+    "options": [
+      {
+        "label": "A",
+        "text": "どちら"
+      },
+      {
+        "label": "B",
+        "text": "なに"
+      },
+      {
+        "label": "C",
+        "text": "どこ"
+      },
+      {
+        "label": "D",
+        "text": "いつ"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Hỏi vị trí của quầy thông tin một cách lịch sự dùng 'どちら'."
+  },
+  {
+    "id": 264,
+    "question": "A: エレベーターは　どこですか. B: （＿＿＿）です. (Chọn đáp án thích hợp điền vào chỗ trống)",
+    "type": "Ngữ pháp - Vị trí",
+    "options": [
+      {
+        "label": "A",
+        "text": "これ"
+      },
+      {
+        "label": "B",
+        "text": "あちら"
+      },
+      {
+        "label": "C",
+        "text": "あなた"
+      },
+      {
+        "label": "D",
+        "text": "あれ"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Chỉ hướng."
+  },
+  {
+    "id": 265,
+    "question": "A: エレベーターは　どこですか。B: （＿＿＿）です. (Chọn đáp án thích hợp điền vào chỗ trống)",
+    "type": "Ngữ pháp - Vị trí",
+    "options": [
+      {
+        "label": "A",
+        "text": "はい"
+      },
+      {
+        "label": "B",
+        "text": "いいえ"
+      },
+      {
+        "label": "C",
+        "text": "あちら"
+      },
+      {
+        "label": "D",
+        "text": "どちら"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Chỉ hướng."
+  },
+  {
+    "id": 266,
+    "question": "A: エレベーターは　どこですか。B: （＿＿＿）です。 (Chọn đáp án thích hợp điền vào chỗ trống)",
+    "type": "Ngữ pháp - Vị trí",
+    "options": [
+      {
+        "label": "A",
+        "text": "はい"
+      },
+      {
+        "label": "B",
+        "text": "いいえ"
+      },
+      {
+        "label": "C",
+        "text": "あちら"
+      },
+      {
+        "label": "D",
+        "text": "どちら"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Chỉ hướng."
+  },
+  {
+    "id": 267,
+    "question": "A: エレベーターは　どこですか。B: （＿＿＿）です。 (Chọn đáp án thích hợp điền vào chỗ trống)",
+    "type": "Ngữ pháp - Vị trí",
+    "options": [
+      {
+        "label": "A",
+        "text": "これ"
+      },
+      {
+        "label": "B",
+        "text": "あちら"
+      },
+      {
+        "label": "C",
+        "text": "あなた"
+      },
+      {
+        "label": "D",
+        "text": "あれ"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Khi chỉ vị trí ở hướng xa cả người nói và người nghe, ta dùng từ chỉ hướng 'あちら'."
+  },
+  {
+    "id": 268,
+    "question": "A: エレベーターは　どこですか。B: （＿＿＿）です. (Chọn đáp án thích hợp điền vào chỗ trống)",
+    "type": "Ngữ pháp - Vị trí",
+    "options": [
+      {
+        "label": "A",
+        "text": "これ"
+      },
+      {
+        "label": "B",
+        "text": "あちら"
+      },
+      {
+        "label": "C",
+        "text": "あなた"
+      },
+      {
+        "label": "D",
+        "text": "あれ"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Chỉ vị trí lịch sự."
+  },
+  {
+    "id": 269,
+    "question": "A: これは だれの カメラですか。B: あ、それは （＿＿＿） の カメラです。 (Chọn đáp án thích hợp điền vào chỗ trống)",
+    "type": "Ngữ pháp - Đại từ sở hữu",
+    "options": [
+      {
+        "label": "A",
+        "text": "さいふ"
+      },
+      {
+        "label": "B",
+        "text": "たなかさん"
+      },
+      {
+        "label": "C",
+        "text": "さかな"
+      },
+      {
+        "label": "D",
+        "text": "アメリカ"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Câu hỏi 'だれの' (của あい) yêu cầu câu trả lời chỉ người sở hữu (たなかさん)."
+  },
+  {
+    "id": 270,
+    "question": "A: これは　だれの　カメラですか。B: （＿＿＿）のです。 (Chọn đáp án thích hợp điền vào chỗ trống)",
+    "type": "Ngữ pháp - Đại từ sở hữu",
+    "options": [
+      {
+        "label": "A",
+        "text": "わたし"
+      },
+      {
+        "label": "B",
+        "text": "わたしの"
+      },
+      {
+        "label": "C",
+        "text": "これ"
+      },
+      {
+        "label": "D",
+        "text": "わたしは"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Cấu trúc 'N của あい' là 'N の'. Vì câu đã có sẵn 'の' nên chỉ cần điền danh từ chỉ người 'わたし'."
+  },
+  {
+    "id": 271,
+    "question": "A: その　ペンは　だれの　ですか。B: （＿＿＿）。 (Chọn đáp án thích hợp điền vào chỗ trống)",
+    "type": "Ngữ pháp - Đại từ sở hữu",
+    "options": [
+      {
+        "label": "A",
+        "text": "わたしのです"
+      },
+      {
+        "label": "B",
+        "text": "これ"
+      },
+      {
+        "label": "C",
+        "text": "しゃいん"
+      },
+      {
+        "label": "D",
+        "text": "わたしのじゃありません"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Câu hỏi 'của あい' (だれの) trả lời bằng 'của tôi' (わたしのです)."
+  },
+  {
+    "id": 272,
+    "question": "さとうさんは　アメリカから　（＿＿＿）。 (Chọn đáp án thích hợp điền vào chỗ trống)",
+    "type": "Ngữ pháp - Động từ",
+    "options": [
+      {
+        "label": "A",
+        "text": "かえります"
+      },
+      {
+        "label": "B",
+        "text": "いきます"
+      },
+      {
+        "label": "C",
+        "text": "きました"
+      },
+      {
+        "label": "D",
+        "text": "べんきょうします"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Nói về nơi ai đó đến từ."
+  },
+  {
+    "id": 273,
+    "question": "A: 4月10日は おはなみです。B: えっ！おはなみ？ なにを しますか。A: さくらを ＿＿①＿＿。おべんとうを ＿＿②＿＿。",
+    "type": "Ngữ pháp - Động từ đi kèm danh từ",
+    "options": [
+      {
+        "label": "A",
+        "text": "①みます／②たべます"
+      },
+      {
+        "label": "B",
+        "text": "①みます／②のみます"
+      },
+      {
+        "label": "C",
+        "text": "①たべます／②みます"
+      },
+      {
+        "label": "D",
+        "text": "①のみます／②たべます"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Hành động ngắm hoa là 'みます' và ăn cơm hộp là 'たべます'."
+  },
+  {
+    "id": 274,
+    "question": "A: あのう、すみません。＿＿＿＿＿？ B: ワンです。よろしく おねがいします。 (Chọn đáp án thích hợp điền vào chỗ trống)",
+    "type": "Giao tiếp",
+    "options": [
+      {
+        "label": "A",
+        "text": "なんさい"
+      },
+      {
+        "label": "B",
+        "text": "おくは どちらですか"
+      },
+      {
+        "label": "C",
+        "text": "おなまえは"
+      },
+      {
+        "label": "D",
+        "text": "おしごとは"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Dựa vào câu trả lời 'ワンです' (Tôi là わんg), câu hỏi phù hợp là hỏi tên (おなまえは)."
+  },
+  {
+    "id": 275,
+    "question": "A: おくには　どちらですか. B: （＿＿＿）です. (Chọn đáp án thích hợp điền vào chỗ trống)",
+    "type": "Giao tiếp",
+    "options": [
+      {
+        "label": "A",
+        "text": "ベトナム"
+      },
+      {
+        "label": "B",
+        "text": "はい"
+      },
+      {
+        "label": "C",
+        "text": "いいえ"
+      },
+      {
+        "label": "D",
+        "text": "どちら"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Trả lời tên quốc gia."
+  },
+  {
+    "id": 276,
+    "question": "A: おくには　どちらですか。B: （＿＿＿） (Chọn đáp án thích hợp điền vào chỗ trống)",
+    "type": "Giao tiếp",
+    "options": [
+      {
+        "label": "A",
+        "text": "さいふです"
+      },
+      {
+        "label": "B",
+        "text": "じむしょです"
+      },
+      {
+        "label": "C",
+        "text": "山です"
+      },
+      {
+        "label": "D",
+        "text": "日本です"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Hỏi quốc gia (おくに) trả lời tên nước (日本)."
+  },
+  {
+    "id": 277,
+    "question": "A: おくには　どちらですか。B: （＿＿＿）です. (Chọn đáp án thích hợp điền vào chỗ trống)",
+    "type": "Giao tiếp",
+    "options": [
+      {
+        "label": "A",
+        "text": "アメリカ"
+      },
+      {
+        "label": "B",
+        "text": "はい"
+      },
+      {
+        "label": "C",
+        "text": "いいえ"
+      },
+      {
+        "label": "D",
+        "text": "どちら"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Hỏi về quốc gia (おくに) trả lời bằng tên nước (アメリカ)."
+  },
+  {
+    "id": 278,
+    "question": "A: おくには　どちらですか。B: （＿＿＿）です. (Chọn đáp án thích hợp điền vào chỗ trống)",
+    "type": "Giao tiếp",
+    "options": [
+      {
+        "label": "A",
+        "text": "日本"
+      },
+      {
+        "label": "B",
+        "text": "はい"
+      },
+      {
+        "label": "C",
+        "text": "いいえ"
+      },
+      {
+        "label": "D",
+        "text": "どちら"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Trả lời tên nước chiょ câu hỏi quốc tịch."
+  },
+  {
+    "id": 279,
+    "question": "A: おくには　どちらですか。B: （＿＿＿）です. (Chọn đáp án thích hợp điền vào chỗ trống)",
+    "type": "Giao tiếp",
+    "options": [
+      {
+        "label": "A",
+        "text": "ベトナム"
+      },
+      {
+        "label": "B",
+        "text": "はい"
+      },
+      {
+        "label": "C",
+        "text": "いいえ"
+      },
+      {
+        "label": "D",
+        "text": "どちら"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Hỏi quốc tịch trả lời tên nước."
+  },
+  {
+    "id": 280,
+    "question": "A: はじめまして。マリアです。B: サントスです。（＿＿＿）おねがいします。 (Chọn đáp án thích hợp điền vào chỗ trống)",
+    "type": "Giao tiếp",
+    "options": [
+      {
+        "label": "A",
+        "text": "よろしく"
+      },
+      {
+        "label": "B",
+        "text": "こんにちは"
+      },
+      {
+        "label": "C",
+        "text": "さようなら"
+      },
+      {
+        "label": "D",
+        "text": "ありがとう"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Cụm từ chào hỏi khi lần đầu gặp mặt: 'よろしく おねがいします'."
+  },
+  {
+    "id": 281,
+    "question": "A: はじめまして。マリアです。よろしく　おねがいします。B: サントスです。（＿＿＿）、よろしく　おねがいします。 (Chọn đáp án thích hợp điền vào chỗ trống)",
+    "type": "Giao tiếp",
+    "options": [
+      {
+        "label": "A",
+        "text": "どちらこそ"
+      },
+      {
+        "label": "B",
+        "text": "どれこそ"
+      },
+      {
+        "label": "C",
+        "text": "こちらこそ"
+      },
+      {
+        "label": "D",
+        "text": "何方こそ"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Đáp lại lời chào lần đầu gặp mặt."
+  },
+  {
+    "id": 282,
+    "question": "A: はじめまして。マリアです. よろしく　おねがいします。B: サントスです. （＿＿＿）、よろしく　おねがいします. (Chọn đáp án thích hợp điền vào chỗ trống)",
+    "type": "Giao tiếp",
+    "options": [
+      {
+        "label": "A",
+        "text": "どちらこそ"
+      },
+      {
+        "label": "B",
+        "text": "どれこそ"
+      },
+      {
+        "label": "C",
+        "text": "こちらこそ"
+      },
+      {
+        "label": "D",
+        "text": "何方こそ"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Đáp lại lời chào lần đầu gặp mặt."
+  },
+  {
+    "id": 283,
+    "question": "A: はじめまして。ワンです。B: （＿＿＿） よろしく おねがいします。 (Chọn đáp án thích hợp điền vào chỗ trống)",
+    "type": "Giao tiếp",
+    "options": [
+      {
+        "label": "A",
+        "text": "すみません"
+      },
+      {
+        "label": "B",
+        "text": "あのう"
+      },
+      {
+        "label": "C",
+        "text": "はじめまして"
+      },
+      {
+        "label": "D",
+        "text": "こちらこそ"
+      }
+    ],
+    "answer": "D",
+    "explanation": "'こちらこそ' dùng để đáp lại lời chào 'Rất もんg được ぎúp đỡ' khi lần đầu gặp mặt."
+  },
+  {
+    "id": 284,
+    "question": "A: はじめまして。私は　（＿＿＿）　です。B: こちらこそ、よろしく　おねがいします. (Chọn đáp án thích hợp điền vào chỗ trống)",
+    "type": "Giao tiếp",
+    "options": [
+      {
+        "label": "A",
+        "text": "じゅうはっさい"
+      },
+      {
+        "label": "B",
+        "text": "マリアさん"
+      },
+      {
+        "label": "C",
+        "text": "マリア"
+      },
+      {
+        "label": "D",
+        "text": "日本"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Tự giới thiệu tên mình."
+  },
+  {
+    "id": 285,
+    "question": "A: はじめまして。私は　（＿＿＿）　です。B: こちらこそ、よろしく　おねがいします。 (Chọn đáp án thích hợp điền vào chỗ trống)",
+    "type": "Giao tiếp",
+    "options": [
+      {
+        "label": "A",
+        "text": "じゅうはっさい"
+      },
+      {
+        "label": "B",
+        "text": "マリアさん"
+      },
+      {
+        "label": "C",
+        "text": "マリア"
+      },
+      {
+        "label": "D",
+        "text": "日本"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Tự giới thiệu tên."
+  },
+  {
+    "id": 286,
+    "question": "A: 土曜日、こうえんで　パーティーを　します. B: （＿＿＿） (Chọn đáp án thích hợp điền vào chỗ trống)",
+    "type": "Giao tiếp",
+    "options": [
+      {
+        "label": "A",
+        "text": "いいですね"
+      },
+      {
+        "label": "B",
+        "text": "おめでとうございます"
+      },
+      {
+        "label": "C",
+        "text": "さあ"
+      },
+      {
+        "label": "D",
+        "text": "おねがいします"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Tán thành đề nghị."
+  },
+  {
+    "id": 287,
+    "question": "A: 土曜日、こうえんで　パーティーを　します。B: （＿＿＿） (Chọn đáp án thích hợp điền vào chỗ trống)",
+    "type": "Giao tiếp",
+    "options": [
+      {
+        "label": "A",
+        "text": "いいですね"
+      },
+      {
+        "label": "B",
+        "text": "おめでとうございます"
+      },
+      {
+        "label": "C",
+        "text": "さあ"
+      },
+      {
+        "label": "D",
+        "text": "おねがいします"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Tán thành một lời đề nghị."
+  },
+  {
+    "id": 288,
+    "question": "A: 毎日、何時ごろに　学校へ　来ますか。B: （＿＿＿） (Chọn đáp án thích hợp điền vào chỗ trống)",
+    "type": "Giao tiếp",
+    "options": [
+      {
+        "label": "A",
+        "text": "じゅうじです"
+      },
+      {
+        "label": "B",
+        "text": "12時ごろに　来ます"
+      },
+      {
+        "label": "C",
+        "text": "8時ごろに　来ます"
+      },
+      {
+        "label": "D",
+        "text": "10時ごろです"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Đáp lại câu hỏi về thời gian thường lệ bằng cụm từ tương ứng."
+  },
+  {
+    "id": 289,
+    "question": "A: 私は　学生です。B: （＿＿＿）？ (Chọn đáp án thích hợp điền vào chỗ trống)",
+    "type": "Giao tiếp",
+    "options": [
+      {
+        "label": "A",
+        "text": "どなたですか"
+      },
+      {
+        "label": "B",
+        "text": "あなたもですか"
+      },
+      {
+        "label": "C",
+        "text": "あなたですか"
+      },
+      {
+        "label": "D",
+        "text": "あなたは"
+      }
+    ],
+    "answer": "D",
+    "explanation": "'あなたは？' dùng để hỏi ngược lại đối phương cùng một nội dung (Còn bạn thì さお?)."
+  },
+  {
+    "id": 290,
+    "question": "A: （＿＿＿）いま　なんじですか。B: 7時10分です。 (Chọn đáp án thích hợp điền vào chỗ trống)",
+    "type": "Giao tiếp",
+    "options": [
+      {
+        "label": "A",
+        "text": "すみません"
+      },
+      {
+        "label": "B",
+        "text": "はじめまして"
+      },
+      {
+        "label": "C",
+        "text": "おねがいします"
+      },
+      {
+        "label": "D",
+        "text": "ごめん"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Dùng 'すみません' để bắt đầu một câu hỏi với người lạ hoặc khi muốn gây sự chú ý."
+  },
+  {
+    "id": 291,
+    "question": "はじめまして。私は （＿＿＿） です。よろしく おねがいします。 (Chọn đáp án thích hợp điền vào chỗ trống)",
+    "type": "Giao tiếp",
+    "options": [
+      {
+        "label": "A",
+        "text": "じゅうはっさい"
+      },
+      {
+        "label": "B",
+        "text": "マルコさん"
+      },
+      {
+        "label": "C",
+        "text": "マルコ"
+      },
+      {
+        "label": "D",
+        "text": "日本"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Khi tự giới thiệu tên mình, chúng ta không thêm hậu tố 'さん'."
+  },
+  {
+    "id": 292,
+    "question": "はじめまして。私は　（＿＿＿）　です。 (Chọn đáp án thích hợp điền vào chỗ trống)",
+    "type": "Giao tiếp",
+    "options": [
+      {
+        "label": "A",
+        "text": "マリア"
+      },
+      {
+        "label": "B",
+        "text": "マリアさん"
+      },
+      {
+        "label": "C",
+        "text": "18さい"
+      },
+      {
+        "label": "D",
+        "text": "日本"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Tự giới thiệu tên không đi kèm hậu tố 'さん'."
+  },
+  {
+    "id": 293,
+    "question": "A: すみません、（＿＿＿）は　どちらですか。B: あそこです。 (Chọn đáp án thích hợp điền vào chỗ trống)",
+    "type": "Giao tiếp - Lịch sự",
+    "options": [
+      {
+        "label": "A",
+        "text": "おくに"
+      },
+      {
+        "label": "B",
+        "text": "おなまえ"
+      },
+      {
+        "label": "C",
+        "text": "かいぎしつ"
+      },
+      {
+        "label": "D",
+        "text": "いつ"
+      }
+    ],
+    "answer": "C",
+    "explanation": "'どちら' là cách hỏi vị trí lịch sự, phù hợp với địa điểm như 'かいぎしつ' (phòんg họp)."
+  },
+  {
+    "id": 294,
+    "question": "A: すみません、（＿＿＿）は　どちらですか。B: あちらです。 (Chọn đáp án thích hợp điền vào chỗ trống)",
+    "type": "Giao tiếp - Lịch sự",
+    "options": [
+      {
+        "label": "A",
+        "text": "おくに"
+      },
+      {
+        "label": "B",
+        "text": "おなまえ"
+      },
+      {
+        "label": "C",
+        "text": "かいぎしつ"
+      },
+      {
+        "label": "D",
+        "text": "いつ"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Hỏi vị trí của một địa điểm chức năng (かいぎしつ - phòんg họp) một cách lịch sự."
+  },
+  {
+    "id": 295,
+    "question": "A: 土曜日の　パーティー （＿＿＿） （＿＿＿）？ B: ええ、（＿＿＿） （＿＿＿）。 (Chọn đáp án thích hợp điền vào chỗ trống)",
+    "type": "Giao tiếp - Mời mọc",
+    "options": [
+      {
+        "label": "A",
+        "text": "いきましょう／いきましょう"
+      },
+      {
+        "label": "B",
+        "text": "いきますか／いきます"
+      },
+      {
+        "label": "C",
+        "text": "いきませんか／いきましょう"
+      },
+      {
+        "label": "D",
+        "text": "いきたいです／いきましょう"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Dùng '～ませんか' để mời mọc và '～ましょう' để đồng ý lời mời."
+  },
+  {
+    "id": 296,
+    "question": "A: Bさん、（＿＿＿） B: 私は 日本語の きょうしです。 (Chọn đáp án thích hợp điền vào chỗ trống)",
+    "type": "Giao tiếp - Nghi vấn từ",
+    "options": [
+      {
+        "label": "A",
+        "text": "おなまえは？"
+      },
+      {
+        "label": "B",
+        "text": "おくには どちらですか。"
+      },
+      {
+        "label": "C",
+        "text": "おしごとは？"
+      },
+      {
+        "label": "D",
+        "text": "いつですか。"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Trả lời về nghề nghiệp (ぎáo vいên) nên câu hỏi là về công việc."
+  },
+  {
+    "id": 297,
+    "question": "A: じむしょ là ở đâu? B: （＿＿＿） (Chọn đáp án thích hợp điền vào chỗ trống)",
+    "type": "Giao tiếp - Vị trí",
+    "options": [
+      {
+        "label": "A",
+        "text": "1階です"
+      },
+      {
+        "label": "B",
+        "text": "はい"
+      },
+      {
+        "label": "C",
+        "text": "いいえ"
+      },
+      {
+        "label": "D",
+        "text": "どこ"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Trả lời vị trí cụ thể."
+  },
+  {
+    "id": 298,
+    "question": "A: すみません、トイレは　どちらですか. B: （＿＿＿）です. (Chọn đáp án thích hợp điền vào chỗ trống)",
+    "type": "Giao tiếp - Vị trí",
+    "options": [
+      {
+        "label": "A",
+        "text": "あちら"
+      },
+      {
+        "label": "B",
+        "text": "はい"
+      },
+      {
+        "label": "C",
+        "text": "いいえ"
+      },
+      {
+        "label": "D",
+        "text": "どこ"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Chỉ hướng."
+  },
+  {
+    "id": 299,
+    "question": "A: すみません、トイレは　どちらですか。B: （＿＿＿）です. (Chọn đáp án thích hợp điền vào chỗ trống)",
+    "type": "Giao tiếp - Vị trí",
+    "options": [
+      {
+        "label": "A",
+        "text": "あちら"
+      },
+      {
+        "label": "B",
+        "text": "はい"
+      },
+      {
+        "label": "C",
+        "text": "いいえ"
+      },
+      {
+        "label": "D",
+        "text": "どこ"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Chỉ hướng đi."
+  },
+  {
+    "id": 300,
+    "question": "A: すみません、トイレは　どちらですか。B: （＿＿＿）です。 (Chọn đáp án thích hợp điền vào chỗ trống)",
+    "type": "Giao tiếp - Vị trí",
+    "options": [
+      {
+        "label": "A",
+        "text": "あちら"
+      },
+      {
+        "label": "B",
+        "text": "はい"
+      },
+      {
+        "label": "C",
+        "text": "いいえ"
+      },
+      {
+        "label": "D",
+        "text": "どこ"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Chỉ hướng đi lịch sự dùng 'あちら'."
+  },
+  {
+    "id": 301,
+    "question": "A: すみません、トイレは　どちらですか。B: （＿＿＿）です. (Chọn đáp án thích hợp điền vào chỗ trống)",
+    "type": "Giao tiếp - Vị trí",
+    "options": [
+      {
+        "label": "A",
+        "text": "あちら"
+      },
+      {
+        "label": "B",
+        "text": "こちら"
+      },
+      {
+        "label": "C",
+        "text": "そちら"
+      },
+      {
+        "label": "D",
+        "text": "どちら"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Chỉ hướng đi lịch sự."
+  },
+  {
+    "id": 302,
+    "question": "A: トイレは　どちらですか。B: （＿＿＿）です。 (Chọn đáp án thích hợp điền vào chỗ trống)",
+    "type": "Giao tiếp - Vị trí",
+    "options": [
+      {
+        "label": "A",
+        "text": "あちら"
+      },
+      {
+        "label": "B",
+        "text": "こちら"
+      },
+      {
+        "label": "C",
+        "text": "そちら"
+      },
+      {
+        "label": "D",
+        "text": "どちら"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Để chỉ một vị trí ở xa cả người nói và người nghe một cách lịch sự, ta dùng 'あちら'."
+  },
+  {
+    "id": 303,
+    "question": "A: トイレは　どちらですか。B: （＿＿＿）です. (Chọn đáp án thích hợp điền vào chỗ trống)",
+    "type": "Giao tiếp - Vị trí",
+    "options": [
+      {
+        "label": "A",
+        "text": "あちら"
+      },
+      {
+        "label": "B",
+        "text": "こちら"
+      },
+      {
+        "label": "C",
+        "text": "そちら"
+      },
+      {
+        "label": "D",
+        "text": "どちら"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Chỉ hướng lịch sự."
+  },
+  {
+    "id": 304,
+    "question": "Dựa vào các từ gợi ý cho sẵn hãy chọn câu có ý nghĩa hoàn chỉnh: きのう／いいおてんき／でした",
+    "type": "Sắp xếp câu",
+    "options": [
+      {
+        "label": "A",
+        "text": "きのうは　いいおてんき　でした。"
+      },
+      {
+        "label": "B",
+        "text": "きのうは　いいおてんき　です。"
+      },
+      {
+        "label": "C",
+        "text": "きのうは　いいおてんき　じゃありませんでした。"
+      },
+      {
+        "label": "D",
+        "text": "きのうは　いいおてんき　でしたか。"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Xác nhận trạng thái thời tiết hôm qua."
+  },
+  {
+    "id": 305,
+    "question": "Dựa vào các từ gợi ý cho sẵn hãy chọn câu có ý nghĩa hoàn chỉnh: きのう／いいおてんき／でした",
+    "type": "Sắp xếp câu",
+    "options": [
+      {
+        "label": "A",
+        "text": "きのうは　いいおてんき　でした。"
+      },
+      {
+        "label": "B",
+        "text": "きのうは　いいおてんき　です。"
+      },
+      {
+        "label": "C",
+        "text": "きのうは　いいおてんき　じゃありませんでした。"
+      },
+      {
+        "label": "D",
+        "text": "きのう là ngày đẹp trời."
+      }
+    ],
+    "answer": "A",
+    "explanation": "Khẳng định trạng thái quá khứ."
+  },
+  {
+    "id": 306,
+    "question": "Dựa vào các từ gợi ý cho sẵn hãy chọn câu có ý nghĩa hoàn chỉnh: きのう／いいおてんき／です",
+    "type": "Sắp xếp câu",
+    "options": [
+      {
+        "label": "A",
+        "text": "きのうは　いいおてんき　でした。"
+      },
+      {
+        "label": "B",
+        "text": "きのうは　いいおてんき　です。"
+      },
+      {
+        "label": "C",
+        "text": "きのうは　いいおてんき　じゃありませんでした。"
+      },
+      {
+        "label": "D",
+        "text": "きのうは　いいおてんき　でしたか。"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Hành động/trạng thái trong quá khứ xác nhận 'hôm qうあ thời tいết đẹp'."
+  },
+  {
+    "id": 307,
+    "question": "Dựa vào các từ gợi ý cho sẵn hãy chọn câu có ý nghĩa hoàn chỉnh: きのう／お休み／でした／か",
+    "type": "Sắp xếp câu",
+    "options": [
+      {
+        "label": "A",
+        "text": "きのうは　お休み　でしたか。"
+      },
+      {
+        "label": "B",
+        "text": "はい、お休みでした。"
+      },
+      {
+        "label": "C",
+        "text": "きのうは　お休みでした。"
+      },
+      {
+        "label": "D",
+        "text": "いいえ、休みませんでした。"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Câu hỏi về trạng thái ngày hôm qua."
+  },
+  {
+    "id": 308,
+    "question": "Dựa vào các từ gợi ý cho sẵn hãy chọn câu có ý nghĩa hoàn chỉnh: しゅみ／私／おんがく／りょうり／です",
+    "type": "Sắp xếp câu",
+    "options": [
+      {
+        "label": "A",
+        "text": "しゅみの 私は おんがくと りょうり です。"
+      },
+      {
+        "label": "B",
+        "text": "私の しゅみは おんがくと りょうり です。"
+      },
+      {
+        "label": "C",
+        "text": "おんがくは 私の しゅみと りょうり です。"
+      },
+      {
+        "label": "D",
+        "text": "おんがくと しゅみは 私の りょうり です。"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Câu hoàn chỉnh: 'Sở thích của tôi là âm んhạc và nấu ăn'."
+  },
+  {
+    "id": 309,
+    "question": "Dựa vào các từ gợi ý cho sẵn hãy chọn câu có ý nghĩa hoàn chỉnh: たんじょうび／です／か／いつ／お",
+    "type": "Sắp xếp câu",
+    "options": [
+      {
+        "label": "A",
+        "text": "たんじょうびは　おたんじょうびは　いつ　ですか。"
+      },
+      {
+        "label": "B",
+        "text": "たんじょうびは　お　おたんじょうびは　いつ　ですか。"
+      },
+      {
+        "label": "C",
+        "text": "たんじょうびは　おたんじょうびは　いつ　ですか。"
+      },
+      {
+        "label": "D",
+        "text": "おたんじょうびは　いつ　ですか。"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Câu hỏi ngày sinh nhật lịch sự."
+  },
+  {
+    "id": 310,
+    "question": "Dựa vào các từ gợi ý cho sẵn hãy chọn câu có ý nghĩa hoàn chỉnh: ぶたにく／とんかつ／りょうり／です",
+    "type": "Sắp xếp câu",
+    "options": [
+      {
+        "label": "A",
+        "text": "りょうりは とんかつ ぶたにく です"
+      },
+      {
+        "label": "B",
+        "text": "とんかつは ぶたにくの りょうりです。"
+      },
+      {
+        "label": "C",
+        "text": "ぶたにくは とんかつの りょうりです。"
+      },
+      {
+        "label": "D",
+        "text": "ぶたにくは りょうりの とんかつです。"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Câu hoàn chỉnh: 'とんかつ là món ăn làm từ thịt lợn'."
+  },
+  {
+    "id": 311,
+    "question": "Dựa vào các từ gợi ý cho sẵn hãy chọn câu có ý nghĩa hoàn chỉnh: 私／学生／じゃありません",
+    "type": "Sắp xếp câu",
+    "options": [
+      {
+        "label": "A",
+        "text": "私は 学生じゃ ありません。"
+      },
+      {
+        "label": "B",
+        "text": "私は 学生です。"
+      },
+      {
+        "label": "C",
+        "text": "私は 学生じゃ ありませんでした。"
+      },
+      {
+        "label": "D",
+        "text": "学生は 私じゃ ありません。"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Cấu trúc phủ định của danh từ ở thì hiện tại: 'N1 は N2 じゃありません'."
+  },
+  {
+    "id": 312,
+    "question": "Dựa vào các từ gợi ý hãy chọn câu có ý nghĩa hoàn chỉnh: じゃありません／私／かいしゃいん",
+    "type": "Sắp xếp câu",
+    "options": [
+      {
+        "label": "A",
+        "text": "かいしゃいんは じゃありませんの 私"
+      },
+      {
+        "label": "B",
+        "text": "かいしゃいんは じゃありません 私。"
+      },
+      {
+        "label": "C",
+        "text": "私は かいしゃいん じゃありません。"
+      },
+      {
+        "label": "D",
+        "text": "じゃありませんは 私の かいしゃいん。"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Cấu trúc câu phủ định cơ bản: S ha N jaarimasen (Tôi khôんg phải là んhân vいên côんg ty)."
+  },
+  {
+    "id": 313,
+    "question": "【Đoạn văn】\nはじめまして、わたしは　すずきです。日本人です。\nこちらは　さとうさんです。さとうさんは　イギリスからきました。\nごしゅじんは　たなかさんです。\nどうぞ　よろしく。\n\nさとうさんのごしゅじんは　だれですか. (Dựa vào đoạn văn, hãy trả lời câu hỏi)",
+    "type": "Đọc hiểu",
+    "options": [
+      {
+        "label": "A",
+        "text": "田中さんです"
+      },
+      {
+        "label": "B",
+        "text": "ミラーさんです"
+      },
+      {
+        "label": "C",
+        "text": "サントスさんです"
+      },
+      {
+        "label": "D",
+        "text": "ワンさんです"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Đoạn văn viết: 'ごしゅじんは　たなかさんです。'."
+  },
+  {
+    "id": 314,
+    "question": "【Đoạn văn】\nはじめまして、わたしは　すずきです。日本人です。\nこちらは　さとうさんです。さとうさんは　イギリスからきました。\nごしゅじんは　たなかさんです。\nどうぞ　よろしく。\n\nさとうさんは　どこからきましたか. (Dựa vào đoạn văn, hãy trả lời câu hỏi)",
+    "type": "Đọc hiểu",
+    "options": [
+      {
+        "label": "A",
+        "text": "アメリカからきました"
+      },
+      {
+        "label": "B",
+        "text": "イギリスからきました"
+      },
+      {
+        "label": "C",
+        "text": "日本からきました"
+      },
+      {
+        "label": "D",
+        "text": "韓国からきました"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Đoạn văn viết: 'さとうさんは　イギリスからきました。'."
+  },
+  {
+    "id": 315,
+    "question": "【Đoạn văn】\nはじめまして、わたしは　すずきです。日本人です。\nこちらは　さとうさんです。さとうさんは　イギリスからきました。\nごしゅじんは　たなかさんです。\nどうぞ　よろしく。\n\nすずきさんは　日本人ですか. (Dựa vào đoạn văn, hãy trả lời câu hỏi)",
+    "type": "Đọc hiểu",
+    "options": [
+      {
+        "label": "A",
+        "text": "はい、日本人です"
+      },
+      {
+        "label": "B",
+        "text": "いいえ、日本人じゃありません"
+      },
+      {
+        "label": "C",
+        "text": "はい、韓国人です"
+      },
+      {
+        "label": "D",
+        "text": "いいえ、韓国人です"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Đoạn văn viết: 'はじめまして、わたしはすずきです。日本人です。'."
+  },
+  {
+    "id": 316,
+    "question": "Hãy chọn từ khác loại: ① スーパー, ② カメラ, ③ 100円ショップ, ④ レストラン",
+    "type": "Phân loại từ vựng",
+    "options": [
+      {
+        "label": "A",
+        "text": "スーパー"
+      },
+      {
+        "label": "B",
+        "text": "カメラ"
+      },
+      {
+        "label": "C",
+        "text": "100円ショップ"
+      },
+      {
+        "label": "D",
+        "text": "レストラン"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Camera là đồ vật, các từ còn lại là địa điểm."
+  },
+  {
+    "id": 317,
+    "question": "Hãy chọn từ khác loại: ① トイレットペーパー, ② レストラン, ③ ペン, ④ けしゴム",
+    "type": "Phân loại từ vựng",
+    "options": [
+      {
+        "label": "A",
+        "text": "トイレットペーパー"
+      },
+      {
+        "label": "B",
+        "text": "レストラン"
+      },
+      {
+        "label": "C",
+        "text": "ペン"
+      },
+      {
+        "label": "D",
+        "text": "けしゴム"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Nhà hàng là địa điểm, các từ còn lại là vật dụng."
+  },
+  {
+    "id": 318,
+    "question": "Từ nào có ý nghĩa KHÔNG CÙNG NHÓM: ① おまつり, ② としょかん, ③ こうえん, ④ びょういん",
+    "type": "Phân loại từ vựng",
+    "options": [
+      {
+        "label": "A",
+        "text": "おまつり"
+      },
+      {
+        "label": "B",
+        "text": "としょかん"
+      },
+      {
+        "label": "C",
+        "text": "こうえん"
+      },
+      {
+        "label": "D",
+        "text": "びょういん"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Lễ hội là sự kiện, các từ còn lại là địa điểm công cộng."
+  },
+  {
+    "id": 319,
+    "question": "Từ nào có ý nghĩa KHÔNG CÙNG NHÓM: ① ぎゅうにゅう, ② ごはん, ③ たまご, ④ ぶたにく",
+    "type": "Phân loại từ vựng",
+    "options": [
+      {
+        "label": "A",
+        "text": "ぎゅうにゅう"
+      },
+      {
+        "label": "B",
+        "text": "ごはん"
+      },
+      {
+        "label": "C",
+        "text": "たまご"
+      },
+      {
+        "label": "D",
+        "text": "ぶたにく"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Sữa (ぎゅうにゅう) là đồ uống, các từ còn lại là thức ăn."
+  }
+]

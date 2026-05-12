@@ -1,86 +1,71 @@
 import { apiClient } from '../../../shared/api/axios';
+import type { 
+  VocabularyCourse, 
+  StaticVocabularyLesson, 
+  StaticVocabularyLessonDetail, 
+  StaticVocabularyItem, 
+  VocabularyMemoryStatus,
+  VocabularyPracticeCard 
+} from '../types/vocabulary.types';
 
-export interface VocabularyList {
-  id: string;
-  name: string;
-  description: string;
-  wordCount: number;
-  masteredCount: number;
-  dueCount: number;
-  createdAt: string;
-}
-
-export interface VocabularyItem {
-  id: string;
-  word: string;
-  reading: string;
-  wordType: string;
-  meaning: string;
-  exampleSentence?: string;
-  exampleMeaning?: string;
-  orderIndex: number;
-  level: number;
-  status: string;
-}
-
-export interface VocabularyListDetail extends VocabularyList {
-  items: VocabularyItem[];
-}
-
-export interface ImportVocabularyDto {
-  name: string;
-  description?: string;
-  words: {
-    word: string;
-    reading?: string;
-    type?: string;
-    meaning: string;
-    example?: string;
-    exampleMeaning?: string;
-  }[];
-}
-
-export interface AddVocabularyItemDto {
-  word: string;
-  reading: string;
-  type: string;
-  meaning: string;
-  example: string;
-  exampleMeaning: string;
-}
-
-interface AddVocabularyItemResponse {
-  itemId: string;
-}
-
-export const vocabularyApi = {
-  importJSON: async (data: ImportVocabularyDto) => {
-    const response = await apiClient.post('/vocabulary/lists/import', data);
-    return response.data;
+export const staticVocabularyApi = {
+  getCourses: async (): Promise<VocabularyCourse[]> => {
+    const response = await apiClient.get<{ courses: VocabularyCourse[] }>('/vocabulary/courses');
+    return response.data.courses;
   },
-  
-  getLists: async () => {
-    const response = await apiClient.get<VocabularyList[]>('/vocabulary/lists');
+
+  getLessonsByCourse: async (courseCode: string): Promise<StaticVocabularyLesson[]> => {
+    const response = await apiClient.get<{ lessons: StaticVocabularyLesson[] }>(`/vocabulary/${courseCode}/lessons`);
+    return response.data.lessons;
+  },
+
+  getLessonById: async (lessonId: string): Promise<StaticVocabularyLessonDetail> => {
+    const response = await apiClient.get<StaticVocabularyLessonDetail>(`/vocabulary/lessons/${lessonId}`);
     return response.data;
   },
 
-  getListById: async (id: string) => {
-    const response = await apiClient.get<VocabularyListDetail>(`/vocabulary/lists/${id}`);
+  getPracticeCards: async (lessonId: string, mode: string = 'flashcard'): Promise<{ mode: string; cards: VocabularyPracticeCard[] }> => {
+    const response = await apiClient.get<{ mode: string; cards: VocabularyPracticeCard[] }>(`/vocabulary/lessons/${lessonId}/practice`, { params: { mode } });
     return response.data;
   },
 
-  deleteList: async (id: string) => {
-    const response = await apiClient.delete(`/vocabulary/lists/${id}`);
+  getItemById: async (itemId: string): Promise<StaticVocabularyItem> => {
+    const response = await apiClient.get<StaticVocabularyItem>(`/vocabulary/items/${itemId}`);
     return response.data;
   },
 
-  deleteItem: async (itemId: string) => {
-    const response = await apiClient.delete(`/vocabulary/items/${itemId}`);
+  search: async (query: string, courseCode?: string): Promise<StaticVocabularyItem[]> => {
+    const response = await apiClient.get<{ items: StaticVocabularyItem[] }>('/vocabulary/search', { params: { query, courseCode } });
+    return response.data.items;
+  },
+
+  recordView: async (itemId: string) => {
+    const response = await apiClient.post(`/vocabulary/items/${itemId}/view`);
     return response.data;
   },
 
-  addItem: async (listId: string, wordData: AddVocabularyItemDto) => {
-    const response = await apiClient.post<AddVocabularyItemResponse>(`/vocabulary/lists/${listId}/items`, wordData);
+  recordFlashcardPractice: async (itemId: string) => {
+    const response = await apiClient.post(`/vocabulary/items/${itemId}/flashcard-practice`);
+    return response.data;
+  },
+
+  recordMultipleChoicePractice: async (itemId: string) => {
+    const response = await apiClient.post(`/vocabulary/items/${itemId}/multiple-choice-practice`);
+    return response.data;
+  },
+
+  recordTypingPractice: async (itemId: string) => {
+    const response = await apiClient.post(`/vocabulary/items/${itemId}/typing-practice`);
+    return response.data;
+  },
+
+  addToMemory: async (itemId: string) => {
+    const response = await apiClient.post(`/vocabulary/items/${itemId}/memory`);
+    return response.data;
+  },
+
+  getMemoryStatus: async (itemId: string): Promise<VocabularyMemoryStatus> => {
+    const response = await apiClient.get<VocabularyMemoryStatus>(`/memory/vocabulary/from-item/${itemId}/status`);
     return response.data;
   }
 };

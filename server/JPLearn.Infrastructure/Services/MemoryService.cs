@@ -20,8 +20,8 @@ public class MemoryService : IMemoryService
         return new MemorySummaryDto
         {
             Grammar = await GetGrammarSummaryAsync(userId),
-            Kanji = new MemoryTypeSummaryDto(),
-            Vocabulary = new MemoryTypeSummaryDto()
+            Kanji = await GetKanjiSummaryAsync(userId),
+            Vocabulary = await GetVocabularySummaryAsync(userId)
         };
     }
 
@@ -31,10 +31,58 @@ public class MemoryService : IMemoryService
             .Where(item => item.UserId == userId && item.IsActive)
             .ToListAsync();
 
-        return BuildSummary(items);
+        return BuildGrammarSummary(items);
     }
 
-    private static MemoryTypeSummaryDto BuildSummary(List<UserMemoryGrammarItem> items)
+    private async Task<MemoryTypeSummaryDto> GetKanjiSummaryAsync(Guid userId)
+    {
+        var items = await _db.UserMemoryKanjiItems
+            .Where(item => item.UserId == userId && item.IsActive)
+            .ToListAsync();
+
+        return BuildKanjiSummary(items);
+    }
+
+    private async Task<MemoryTypeSummaryDto> GetVocabularySummaryAsync(Guid userId)
+    {
+        var items = await _db.UserMemoryVocabularyItems
+            .Where(item => item.UserId == userId && item.IsActive)
+            .ToListAsync();
+
+        return BuildVocabularySummary(items);
+    }
+
+    private static MemoryTypeSummaryDto BuildGrammarSummary(List<UserMemoryGrammarItem> items)
+    {
+        var now = DateTime.UtcNow;
+        return new MemoryTypeSummaryDto
+        {
+            Due = items.Count(item => item.NextReviewAt <= now),
+            New = items.Count(item => item.Level == 0),
+            Learning = items.Count(item => item.Level is 1 or 2),
+            ShortTerm = items.Count(item => item.Level is 3 or 4 && item.IntervalDays < 21),
+            LongTerm = items.Count(item => item.Level >= MemoryLevels.Mastered || item.IntervalDays >= 21),
+            TotalStudied = items.Count(item => item.Repetitions > 0),
+            NextReviewAt = items.Count == 0 ? null : items.Min(item => item.NextReviewAt)
+        };
+    }
+
+    private static MemoryTypeSummaryDto BuildKanjiSummary(List<UserMemoryKanjiItem> items)
+    {
+        var now = DateTime.UtcNow;
+        return new MemoryTypeSummaryDto
+        {
+            Due = items.Count(item => item.NextReviewAt <= now),
+            New = items.Count(item => item.Level == 0),
+            Learning = items.Count(item => item.Level is 1 or 2),
+            ShortTerm = items.Count(item => item.Level is 3 or 4 && item.IntervalDays < 21),
+            LongTerm = items.Count(item => item.Level >= MemoryLevels.Mastered || item.IntervalDays >= 21),
+            TotalStudied = items.Count(item => item.Repetitions > 0),
+            NextReviewAt = items.Count == 0 ? null : items.Min(item => item.NextReviewAt)
+        };
+    }
+
+    private static MemoryTypeSummaryDto BuildVocabularySummary(List<UserMemoryVocabularyItem> items)
     {
         var now = DateTime.UtcNow;
         return new MemoryTypeSummaryDto

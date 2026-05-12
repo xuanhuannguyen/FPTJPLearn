@@ -1,0 +1,48 @@
+{
+  "level": "N5", // Cấp độ (N5, N4...)
+  "lessonNumber": 1,
+  "lessonTitle": "Số đếm cơ bản",
+  "kanjiItems": [
+    {
+      "character": "一", // Chữ Kanji
+      "hanViet": "NHẤT", // Nghĩa Hán Việt (VIẾT HOA)
+      "meaning": "Một", // Nghĩa tiếng Việt
+      "strokeCount": 1, // Số nét
+      "onReading": "イチ", // Âm On (thường viết bằng Katakana)
+      "kunReading": "ひと-つ", // Âm Kun (thường viết bằng Hiragana)
+      "mnemonic": "Một gạch ngang là số một.", // Mẹo nhớ/Gợi ý
+      "orderIndex": 1,
+      "vocabulary": [ // Các từ vựng đi kèm chứa Kanji này
+        {
+          "word": "一つ",
+          "reading": "ひとつ",
+          "meaning": "Một cái (đồ vật)",
+          "exampleJapanese": "リンゴを一つください。",
+          "exampleMeaning": "Cho tôi một quả táo."
+        },
+        {
+          "word": "一月",
+          "reading": "いちがつ",
+          "meaning": "Tháng 1"
+        }
+      ]
+    },
+    {
+      "character": "二",
+      "hanViet": "NHỊ",
+      "meaning": "Hai",
+      "strokeCount": 2,
+      "onReading": "ニ",
+      "kunReading": "ふた-つ",
+      "mnemonic": "Hai gạch ngang là số hai.",
+      "orderIndex": 2,
+      "vocabulary": [
+        {
+          "word": "二つ",
+          "reading": "ふたつ",
+          "meaning": "Hai cái"
+        }
+      ]
+    }
+  ]
+}

@@ -22,6 +22,8 @@ public class MemoryCardDto
 {
     public Guid Id { get; set; }
     public string ItemType { get; set; } = string.Empty;
+    public Guid? SourceGrammarPatternId { get; set; }
+    public Guid? SourceVocabularyItemId { get; set; }
     public string FrontPrimary { get; set; } = string.Empty;
     public string? FrontSecondary { get; set; }
     public string? FrontMeta { get; set; }
@@ -50,7 +52,30 @@ public class AddGrammarToMemoryResultDto
     public bool IsActive { get; set; }
 }
 
+public class AddKanjiToMemoryResultDto
+{
+    public Guid MemoryItemId { get; set; }
+    public Guid SourceKanjiItemId { get; set; }
+    public bool AlreadyExists { get; set; }
+    public bool IsActive { get; set; }
+}
+
+public class AddVocabularyToMemoryResultDto
+{
+    public Guid MemoryItemId { get; set; }
+    public Guid SourceVocabularyItemId { get; set; }
+    public bool AlreadyExists { get; set; }
+    public bool IsActive { get; set; }
+}
+
 public class MemoryGrammarStatusDto
+{
+    public bool IsInMemory { get; set; }
+    public Guid? MemoryItemId { get; set; }
+    public bool IsActive { get; set; }
+}
+
+public class MemoryVocabularyStatusDto
 {
     public bool IsInMemory { get; set; }
     public Guid? MemoryItemId { get; set; }

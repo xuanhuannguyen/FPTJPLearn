@@ -23,7 +23,7 @@ import {
   X,
 } from 'lucide-react';
 import type { LucideIcon } from 'lucide-react';
-import { vocabularyApi } from '../../vocabulary/api/vocabularyApi';
+import { vocabularyApi } from '../../active-vocabulary/api/vocabularyApi';
 import { reviewApi } from '../api/reviewApi';
 import type {
   ReviewAnswerResult,
