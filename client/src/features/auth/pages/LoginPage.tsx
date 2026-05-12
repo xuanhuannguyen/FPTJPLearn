@@ -1,5 +1,5 @@
 import { Navigate } from 'react-router-dom';
-import { useAuthStore } from '../../shared/stores/authStore';
+import { useAuthStore } from '../../../shared/stores/authStore';
 import './LoginPage.css';
 
 export function LoginPage() {
