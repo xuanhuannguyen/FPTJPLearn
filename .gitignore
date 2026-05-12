@@ -8,9 +8,21 @@ server/**/obj/
 
 # Logs and temp files
 *.log
+*.err.log
+*.out.log
+
+# Scratch / temp
+scratch/
+server/scratch/
 
 # OS / editor
 .DS_Store
 Thumbs.db
 .idea/
 .vscode/
+
+# AI / agent (keep .agent, exclude brain)
+brain/
+
+# Design system (legacy)
+design-system/
