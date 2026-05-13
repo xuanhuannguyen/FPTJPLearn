@@ -139,16 +139,40 @@ public class SeedController : ControllerBase
     public async Task<IActionResult> SeedKanji()
     {
         if (!IsAdmin()) return Unauthorized();
-        await KanjiSeedData.SeedAsync(_db);
-        return Ok(new { message = "Đã Seed Kanji thành công!" });
+        try 
+        {
+            await KanjiSeedData.SeedAsync(_db);
+            return Ok(new { message = "Đã Seed Kanji thành công!" });
+        }
+        catch (Exception ex)
+        {
+            return StatusCode(500, new 
+            { 
+                error = ex.Message, 
+                inner = ex.InnerException?.Message,
+                stack = ex.StackTrace 
+            });
+        }
     }
 
     [HttpPost("vocab")]
     public async Task<IActionResult> SeedVocab()
     {
         if (!IsAdmin()) return Unauthorized();
-        await VocabularySeedData.SeedAsync(_db);
-        return Ok(new { message = "Đã Seed Vocabulary thành công!" });
+        try 
+        {
+            await VocabularySeedData.SeedAsync(_db);
+            return Ok(new { message = "Đã Seed Vocabulary thành công!" });
+        }
+        catch (Exception ex)
+        {
+            return StatusCode(500, new 
+            { 
+                error = ex.Message, 
+                inner = ex.InnerException?.Message,
+                stack = ex.StackTrace 
+            });
+        }
     }
 
     [HttpPost("grammar")]
