@@ -1,4 +1,4 @@
-using JPLearn.Infrastructure.Data;
+using JPLearn.Infrastructure.Data.Seed;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.RateLimiting;
@@ -132,5 +132,33 @@ public class SeedController : ControllerBase
                 examCount = examCourses.Count
             }
         });
+    }
+    /// <summary>
+    /// Chạy toàn bộ quá trình Seed dữ liệu (Kanji, Vocab, Grammar, Speaking, Exam).
+    /// CẢNH BÁO: Lệnh này sẽ xóa dữ liệu cũ và nạp lại từ đầu!
+    /// Gọi: POST /api/admin/seed/full
+    /// </summary>
+    [HttpPost("full")]
+    public async Task<IActionResult> FullSeed()
+    {
+        if (!IsAdmin()) return Unauthorized();
+
+        try 
+        {
+            await KanjiSeedData.SeedAsync(_db);
+            await VocabularySeedData.SeedAsync(_db);
+            await GrammarSeedData.SeedAsync(_db);
+            await SpeakingSeedData.SeedAsync(_db);
+            await ExamPracticeSeedData.SeedAsync(_db);
+
+            // Sau khi seed xong, tự động chạy enable-premium luôn
+            await EnablePremium();
+
+            return Ok(new { message = "Đã Seed toàn bộ dữ liệu thành công!" });
+        }
+        catch (Exception ex)
+        {
+            return StatusCode(500, new { error = ex.Message, stack = ex.StackTrace });
+        }
     }
 }
