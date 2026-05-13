@@ -157,9 +157,43 @@ public class SeedController : ControllerBase
 
             return Ok(new { message = "Đã Seed toàn bộ dữ liệu thành công!" });
         }
-        catch (Exception ex)
-        {
-            return StatusCode(500, new { error = ex.Message, stack = ex.StackTrace });
-        }
+    [HttpPost("kanji")]
+    public async Task<IActionResult> SeedKanji()
+    {
+        if (!IsAdmin()) return Unauthorized();
+        await KanjiSeedData.SeedAsync(_db);
+        return Ok(new { message = "Đã Seed Kanji thành công!" });
+    }
+
+    [HttpPost("vocab")]
+    public async Task<IActionResult> SeedVocab()
+    {
+        if (!IsAdmin()) return Unauthorized();
+        await VocabularySeedData.SeedAsync(_db);
+        return Ok(new { message = "Đã Seed Vocabulary thành công!" });
+    }
+
+    [HttpPost("grammar")]
+    public async Task<IActionResult> SeedGrammar()
+    {
+        if (!IsAdmin()) return Unauthorized();
+        await GrammarSeedData.SeedAsync(_db);
+        return Ok(new { message = "Đã Seed Grammar thành công!" });
+    }
+
+    [HttpPost("speaking")]
+    public async Task<IActionResult> SeedSpeaking()
+    {
+        if (!IsAdmin()) return Unauthorized();
+        await SpeakingSeedData.SeedAsync(_db);
+        return Ok(new { message = "Đã Seed Speaking thành công!" });
+    }
+
+    [HttpPost("exam")]
+    public async Task<IActionResult> SeedExam()
+    {
+        if (!IsAdmin()) return Unauthorized();
+        await ExamPracticeSeedData.SeedAsync(_db);
+        return Ok(new { message = "Đã Seed Exam thành công!" });
     }
 }
