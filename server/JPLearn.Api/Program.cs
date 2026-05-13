@@ -71,13 +71,18 @@ app.MapControllers();
 // Health check endpoint for Render "Keep-Awake" trick
 app.MapGet("/api/health", () => Results.Ok(new { status = "Healthy", time = DateTime.UtcNow }));
 
-if (app.Environment.IsDevelopment())
+// Auto-migrate database on startup
+using (var scope = app.Services.CreateScope())
 {
-    /*
-    using var scope = app.Services.CreateScope();
     var db = scope.ServiceProvider.GetRequiredService<AppDbContext>();
-    await db.Database.MigrateAsync();
-    */
+    try 
+    {
+        await db.Database.MigrateAsync();
+    }
+    catch (Exception ex)
+    {
+        // Log error if needed
+    }
 }
 
 
