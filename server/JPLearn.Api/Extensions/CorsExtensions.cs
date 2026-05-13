@@ -20,12 +20,10 @@ public static class CorsExtensions
                     return;
                 }
 
-                var allowedOrigins = configuration
-                    .GetSection("Cors:AllowedOrigins")
-                    .Get<string[]>()
-                    ?? ["http://localhost:5173"];
-
-                policy.WithOrigins(allowedOrigins);
+                policy.SetIsOriginAllowed(origin => 
+                    IsLocalFrontendOrigin(origin) || 
+                    origin.Contains(".vercel.app") || 
+                    origin.Contains("fptjplearn.me"));
             });
         });
 
