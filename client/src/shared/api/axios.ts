@@ -1,10 +1,19 @@
 import axios from 'axios';
 import { auth } from '../config/firebase';
 
+const getBaseURL = () => {
+  if (import.meta.env.VITE_API_BASE_URL) return import.meta.env.VITE_API_BASE_URL;
+  
+  // Nếu đang chạy trên tunnel (không phải localhost), ưu tiên dùng origin hiện tại
+  if (typeof window !== 'undefined' && !window.location.hostname.includes('localhost')) {
+    return `${window.location.origin}/api`;
+  }
+  
+  return 'http://localhost:5175/api';
+};
+
 export const apiClient = axios.create({
-  baseURL: import.meta.env.VITE_API_BASE_URL ?? 'http://localhost:5178/api',
-
-
+  baseURL: getBaseURL(),
   headers: {
     'Content-Type': 'application/json',
   },

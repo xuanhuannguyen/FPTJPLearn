@@ -2,6 +2,7 @@ using FirebaseAdmin;
 using Google.Apis.Auth.OAuth2;
 using JPLearn.Api.Extensions;
 using JPLearn.Api.Infrastructure.Auth;
+using JPLearn.Api.Infrastructure.Security;
 using JPLearn.Core.Common.Services;
 using JPLearn.Infrastructure.Data;
 using JPLearn.Infrastructure.Data.Seed;
@@ -12,6 +13,7 @@ var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddJPLearnInfrastructure(builder.Configuration);
 builder.Services.AddFrontendCors(builder.Configuration, builder.Environment.IsDevelopment());
+builder.Services.AddJPLearnRateLimiting();
 builder.Services.AddHttpContextAccessor();
 
 // Firebase Auth — use FirebaseCurrentUserContext in prod, DevelopmentCurrentUserContext as fallback
@@ -45,18 +47,29 @@ builder.Services.AddSwaggerGen();
 var app = builder.Build();
 
 // === Middleware Pipeline ===
+app.UseMiddleware<GlobalExceptionMiddleware>();
+
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
     app.UseSwaggerUI();
 }
 
+// Security Headers (chống XSS, Clickjacking)
+app.UseMiddleware<SecurityHeadersMiddleware>();
+
 app.UseCors("AllowFrontend");
+
+// Rate Limiting (chống brute-force, spam)
+app.UseRateLimiter();
 
 // Firebase auth middleware — runs before controllers
 app.UseMiddleware<FirebaseAuthMiddleware>();
 
 app.MapControllers();
+
+// Health check endpoint for Render "Keep-Awake" trick
+app.MapGet("/api/health", () => Results.Ok(new { status = "Healthy", time = DateTime.UtcNow }));
 
 if (app.Environment.IsDevelopment())
 {

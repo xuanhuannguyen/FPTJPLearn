@@ -16,7 +16,8 @@ public class DevelopmentCurrentUserContext : ICurrentUserContext
 
     public Guid UserId => ResolveUserId();
 
-    public bool IsAuthenticated => _httpContextAccessor.HttpContext?.User.Identity?.IsAuthenticated == true;
+    public bool IsAuthenticated => _httpContextAccessor.HttpContext?.User.Identity?.IsAuthenticated == true
+        || _httpContextAccessor.HttpContext?.Items["FirebaseUserId"] != null;
 
     private Guid ResolveUserId()
     {
@@ -24,6 +25,11 @@ public class DevelopmentCurrentUserContext : ICurrentUserContext
         if (httpContext == null)
         {
             return FallbackUserId;
+        }
+
+        if (httpContext.Items["FirebaseUserId"] is Guid firebaseGuid)
+        {
+            return firebaseGuid;
         }
 
         var claimValue = httpContext.User.FindFirstValue(ClaimTypes.NameIdentifier)

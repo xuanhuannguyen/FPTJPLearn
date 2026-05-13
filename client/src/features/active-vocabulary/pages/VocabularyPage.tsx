@@ -28,12 +28,18 @@ export const VocabularyPage = () => {
   const searchQuery = useSearchStore((state) => state.query);
   const setSearchQuery = useSearchStore((state) => state.setQuery);
 
+  const [quota, setQuota] = useState<any>(null);
+
   const fetchLists = useCallback(async () => {
     try {
       setIsLoading(true);
       setError('');
-      const data = await vocabularyApi.getLists();
+      const [data, quotaData] = await Promise.all([
+        vocabularyApi.getLists(),
+        vocabularyApi.getQuota()
+      ]);
       setLists(data);
+      setQuota(quotaData);
     } catch (err: unknown) {
       setError('Failed to fetch vocabulary lists. Ensure the backend is running.');
       console.error(err);
@@ -56,36 +62,44 @@ export const VocabularyPage = () => {
       return;
     }
 
-    const missingListIds = lists
-      .map((list) => list.id)
-      .filter((listId) => !listSearchIndex[listId]);
-
-    if (missingListIds.length === 0) {
+    // Only fetch the index once if it hasn't been fetched yet
+    if (Object.keys(listSearchIndex).length > 0) {
       return;
     }
 
     let active = true;
 
-    const buildSearchIndex = async () => {
+    const fetchSearchIndex = async () => {
       try {
         setIsSearchIndexLoading(true);
-        const details = await Promise.all(missingListIds.map((listId) => vocabularyApi.getListById(listId)));
+        const allItems = await vocabularyApi.getSearchIndex();
 
         if (!active) {
           return;
         }
 
-        setListSearchIndex((prev) => {
-          const next = { ...prev };
-          details.forEach((detail) => {
-            next[detail.id] = detail.items.map((item) => ({
+        setListSearchIndex(() => {
+          const next: Record<string, SearchableVocabularyItem[]> = {};
+          
+          // Group items by listId
+          allItems.forEach((item) => {
+            if (!next[item.listId]) {
+              next[item.listId] = [];
+            }
+            next[item.listId].push({
               id: item.id,
               word: item.word || '',
               reading: item.reading || '',
               meaning: item.meaning || '',
               wordType: item.wordType || '',
-            }));
+            });
           });
+          
+          // Ensure all lists exist in the index even if empty
+          lists.forEach(list => {
+            if (!next[list.id]) next[list.id] = [];
+          });
+          
           return next;
         });
       } catch (searchIndexError) {
@@ -97,7 +111,7 @@ export const VocabularyPage = () => {
       }
     };
 
-    void buildSearchIndex();
+    void fetchSearchIndex();
 
     return () => {
       active = false;
@@ -155,16 +169,16 @@ export const VocabularyPage = () => {
 
   return (
     <div className="space-y-6 animate-fade-in">
-      <div className="relative rounded-[24px] border-2 border-border bg-white/85 px-5 py-5 shadow-card backdrop-blur-sm md:px-7">
-        <div className="grid gap-5 lg:grid-cols-[minmax(0,1fr)_auto] lg:items-center">
+      <div className="relative rounded-[20px] border-2 border-border bg-white/85 px-4 py-3 shadow-card backdrop-blur-sm md:px-6">
+        <div className="grid gap-4 lg:grid-cols-[minmax(0,1fr)_auto] lg:items-center">
         <div className="min-w-0">
-          <p className="text-xs font-black uppercase leading-none tracking-[0.18em] text-text-secondary">Smart vocabulary</p>
-          <div className="mt-2 inline-flex max-w-full rounded-2xl bg-[#f3d6ff] px-4 py-2">
-            <h1 className="truncate font-heading text-4xl font-black leading-none tracking-tight text-text-primary md:text-5xl">
+          <p className="text-[10px] font-black uppercase leading-none tracking-[0.18em] text-text-secondary">Smart vocabulary</p>
+          <div className="mt-1.5 inline-flex max-w-full rounded-xl bg-[#f3d6ff] px-3 py-1">
+            <h1 className="truncate font-heading text-2xl font-black leading-none tracking-tight text-text-primary md:text-3xl">
               Từ vựng chủ động
             </h1>
           </div>
-          <p className="mt-2 max-w-2xl text-base font-bold leading-5 text-text-secondary">Quản lý bộ từ riêng của bạn, nhập JSON và ôn tập theo SRS.</p>
+          <p className="mt-1.5 max-w-2xl text-xs font-bold leading-relaxed text-text-secondary">Quản lý bộ từ riêng của bạn, nhập JSON và ôn tập theo SRS.</p>
           {searchQuery.trim() && (
             <p className="mt-2 text-sm font-semibold text-text-muted">
               Đang tìm trong tên bộ, mô tả và từ bên trong từng bộ.
@@ -187,13 +201,23 @@ export const VocabularyPage = () => {
             <div className="mt-1 text-xs font-extrabold">Cần ôn</div>
           </div>
         </div>
-        <button 
-          onClick={() => setIsImportOpen(true)}
-          className="btn-primary min-h-11 px-4 py-2"
-        >
-          <BookOpen size={18} />
-          <span>Nhập JSON</span>
-        </button>
+        <div className="flex flex-col items-end gap-1">
+          {quota && (
+            <div className="text-[10px] font-black uppercase tracking-wider text-text-muted">
+              Còn lại: <span className={quota.remainingCount > 0 ? 'text-accent-primary' : 'text-accent-danger'}>
+                {quota.remainingCount} lượt
+              </span>
+              {quota.period === 'daily' && ' (hôm nay)'}
+            </div>
+          )}
+          <button 
+            onClick={() => setIsImportOpen(true)}
+            className="btn-primary min-h-11 px-4 py-2"
+          >
+            <BookOpen size={18} />
+            <span>Nhập JSON</span>
+          </button>
+        </div>
         </div>
       </div>
     </div>

@@ -35,7 +35,7 @@ public class SpeakingService : ISpeakingService
             Description = course.Description,
             AccessTier = course.AccessTier,
             PackageCode = course.PackageCode,
-            IsLocked = _paymentAccess.IsContentLocked(userId, course.AccessTier, course.PackageCode),
+            IsLocked = _paymentAccess.IsContentLocked(userId, course.AccessTier, course.PackageCode ?? course.Code),
             LessonCount = course.Lessons.Count,
             SentenceCount = course.Lessons.SelectMany(lesson => lesson.Sentences).Count()
         }).ToList();
@@ -92,7 +92,7 @@ public class SpeakingService : ISpeakingService
             Description = lesson.Description,
             AccessTier = lesson.AccessTier,
             PackageCode = lesson.PackageCode,
-            IsLocked = _paymentAccess.IsContentLocked(userId, lesson.AccessTier, lesson.PackageCode),
+            IsLocked = _paymentAccess.IsContentLocked(userId, lesson.AccessTier, lesson.PackageCode ?? lesson.CourseCode),
             SentenceCount = lesson.Sentences.Count(sentence => sentence.IsActive)
         };
     }

@@ -18,11 +18,42 @@ public class VocabularyService : IVocabularyService
 
     public async Task<Guid> ImportAsync(Guid userId, ImportVocabularyDto dto)
     {
+        // 1. Kiểm tra quyền Premium (bất kỳ khóa nào còn hạn)
+        var isPremium = await _db.Subscriptions.AnyAsync(s => 
+            s.UserId == userId && s.ExpiresAt > DateTime.UtcNow);
+
+        if (isPremium)
+        {
+            // Premium: 10 lần / ngày
+            var today = DateTime.UtcNow.Date;
+            var countToday = await _db.VocabularyLists.CountAsync(l => 
+                l.UserId == userId && l.CreatedAt >= today);
+
+            if (countToday >= 10)
+            {
+                throw new InvalidOperationException("Bạn đã đạt giới hạn 10 lượt thêm từ vựng/ngày của gói Premium.");
+            }
+        }
+        else
+        {
+            // Free: Tối đa 2 lần tổng cộng
+            var totalCount = await _db.VocabularyLists.CountAsync(l => l.UserId == userId);
+            if (totalCount >= 2)
+            {
+                throw new InvalidOperationException("Tài khoản miễn phí chỉ được thêm tối đa 2 danh sách từ vựng. Vui lòng nâng cấp Premium để thêm 10 danh sách mỗi ngày!");
+            }
+        }
+
+        if (dto.Words.Count > 50)
+        {
+            throw new InvalidOperationException("Mỗi danh sách chỉ được chứa tối đa 50 từ.");
+        }
+
         var list = new VocabularyList
         {
             UserId = userId,
-            Name = dto.Name,
-            Description = dto.Description,
+            Name = dto.Name.Trim(),
+            Description = dto.Description?.Trim(),
             WordCount = dto.Words.Count
         };
 
@@ -58,7 +89,7 @@ public class VocabularyService : IVocabularyService
     public async Task<List<VocabularyListDto>> GetListsAsync(Guid userId)
     {
         return await _db.VocabularyLists
-            .Where(l => l.UserId == userId)
+            .Where(l => l.UserId == userId && !l.IsDeleted)
             .OrderByDescending(l => l.CreatedAt)
             .Select(l => new VocabularyListDto
             {
@@ -82,7 +113,7 @@ public class VocabularyService : IVocabularyService
     public async Task<VocabularyListDetailDto?> GetByIdAsync(Guid userId, Guid listId)
     {
         var list = await _db.VocabularyLists
-            .Where(l => l.Id == listId && l.UserId == userId)
+            .Where(l => l.Id == listId && l.UserId == userId && !l.IsDeleted)
             .FirstOrDefaultAsync();
 
         if (list == null) return null;
@@ -125,7 +156,7 @@ public class VocabularyService : IVocabularyService
     public async Task<bool> UpdateAsync(Guid userId, Guid listId, string name, string? description)
     {
         var list = await _db.VocabularyLists
-            .FirstOrDefaultAsync(l => l.Id == listId && l.UserId == userId);
+            .FirstOrDefaultAsync(l => l.Id == listId && l.UserId == userId && !l.IsDeleted);
 
         if (list == null) return false;
 
@@ -139,11 +170,11 @@ public class VocabularyService : IVocabularyService
     public async Task<bool> DeleteListAsync(Guid userId, Guid listId)
     {
         var list = await _db.VocabularyLists
-            .FirstOrDefaultAsync(l => l.Id == listId && l.UserId == userId);
+            .FirstOrDefaultAsync(l => l.Id == listId && l.UserId == userId && !l.IsDeleted);
 
         if (list == null) return false;
 
-        _db.VocabularyLists.Remove(list); // Cascade deletes items + progress
+        list.IsDeleted = true;
         await _db.SaveChangesAsync();
         return true;
     }
@@ -200,5 +231,56 @@ public class VocabularyService : IVocabularyService
         await _db.SaveChangesAsync();
 
         return item.Id;
+    }
+
+    public async Task<List<VocabularySearchItemDto>> GetSearchIndexAsync(Guid userId)
+    {
+        return await _db.VocabularyItems
+            .Where(i => i.List.UserId == userId && !i.List.IsDeleted)
+            .Select(i => new VocabularySearchItemDto
+            {
+                Id = i.Id,
+                ListId = i.ListId,
+                Word = i.Word,
+                Reading = i.Reading,
+                Meaning = i.Meaning,
+                WordType = i.WordType
+            })
+            .ToListAsync();
+    }
+
+    public async Task<VocabularyQuotaDto> GetQuotaAsync(Guid userId)
+    {
+        var isPremium = await _db.Subscriptions.AnyAsync(s => 
+            s.UserId == userId && s.ExpiresAt > DateTime.UtcNow);
+
+        if (isPremium)
+        {
+            var today = DateTime.UtcNow.Date;
+            var usedToday = await _db.VocabularyLists.CountAsync(l => 
+                l.UserId == userId && l.CreatedAt >= today);
+            
+            return new VocabularyQuotaDto
+            {
+                IsPremium = true,
+                UsedCount = usedToday,
+                MaxCount = 10,
+                RemainingCount = Math.Max(0, 10 - usedToday),
+                Period = "daily"
+            };
+        }
+        else
+        {
+            var totalUsed = await _db.VocabularyLists.CountAsync(l => l.UserId == userId);
+            
+            return new VocabularyQuotaDto
+            {
+                IsPremium = false,
+                UsedCount = totalUsed,
+                MaxCount = 2,
+                RemainingCount = Math.Max(0, 2 - totalUsed),
+                Period = "total"
+            };
+        }
     }
 }

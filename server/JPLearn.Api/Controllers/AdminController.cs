@@ -1,33 +1,80 @@
 using JPLearn.Infrastructure.Data;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using JPLearn.Core.Users.Entities;
+using Microsoft.AspNetCore.RateLimiting;
 
 namespace JPLearn.Api.Controllers;
 
 [ApiController]
 [Route("api/admin")]
+[EnableRateLimiting("admin-strict")]
 public class AdminController : ControllerBase
 {
     private readonly AppDbContext _db;
     private readonly IConfiguration _configuration;
+    private readonly ILogger<AdminController> _logger;
 
-    public AdminController(AppDbContext db, IConfiguration configuration)
+    public AdminController(AppDbContext db, IConfiguration configuration, ILogger<AdminController> logger)
     {
         _db = db;
         _configuration = configuration;
+        _logger = logger;
     }
 
     private bool IsAdmin()
     {
-        var adminKey = Request.Headers["X-Admin-Key"].ToString();
-        return adminKey == _configuration["AdminSettings:SecretKey"];
+        var adminKey = Request.Headers["X-Admin-Key"].ToString().Trim();
+        var secret = _configuration["AdminSettings:SecretKey"]?.Trim();
+        
+        if (string.IsNullOrEmpty(adminKey)) return false;
+        
+        return adminKey == secret;
+    }
+
+    [HttpGet("verify")]
+    public IActionResult VerifyAdmin()
+    {
+        var adminKey = Request.Headers["X-Admin-Key"].ToString().Trim();
+        var secret = _configuration["AdminSettings:SecretKey"]?.Trim();
+
+        _logger.LogInformation("Admin verify attempt from IP: {IP}", 
+            HttpContext.Connection.RemoteIpAddress);
+
+        if (string.IsNullOrEmpty(adminKey)) return Unauthorized("Mã mật định rỗng");
+        
+        if (adminKey != secret)
+        {
+            _logger.LogWarning("Admin verify FAILED from IP: {IP}", 
+                HttpContext.Connection.RemoteIpAddress);
+            return Unauthorized("Mã bí mật không chính xác");
+        }
+
+        return Ok(new { message = "Authorized" });
     }
 
     [HttpGet("users")]
     public async Task<IActionResult> GetUsers()
     {
         if (!IsAdmin()) return Unauthorized();
-        var users = await _db.Users.OrderByDescending(u => u.CreatedAt).ToListAsync();
+        
+        var users = await _db.Users
+            .Select(u => new
+            {
+                u.Id,
+                u.Email,
+                u.DisplayName,
+                u.AvatarUrl,
+                u.CreatedAt,
+                u.ActiveDeviceToken,
+                Subscriptions = _db.Subscriptions
+                    .Where(s => s.UserId == u.Id)
+                    .Select(s => new { s.CourseCode, s.ExpiresAt, IsActive = s.ExpiresAt > DateTime.UtcNow })
+                    .ToList()
+            })
+            .OrderByDescending(u => u.CreatedAt)
+            .ToListAsync();
+            
         return Ok(users);
     }
 
@@ -51,6 +98,59 @@ public class AdminController : ControllerBase
         return Ok(orders);
     }
 
+    [HttpPost("users/{userId}/subscriptions")]
+    public async Task<IActionResult> UpdateSubscription(Guid userId, [FromBody] UpdateSubRequest request)
+    {
+        if (!IsAdmin()) return Unauthorized();
+
+        var user = await _db.Users.FindAsync(userId);
+        if (user == null) return NotFound();
+
+        var courseCode = request.CourseCode.Trim().ToLower();
+        var sub = await _db.Subscriptions
+            .FirstOrDefaultAsync(s => s.UserId == userId && s.CourseCode == courseCode);
+
+        // Nếu ngày hết hạn ở quá khứ -> Thực hiện XÓA (Hủy quyền)
+        if (request.ExpiresAt <= DateTime.UtcNow)
+        {
+            if (sub != null)
+            {
+                _db.Subscriptions.Remove(sub);
+                await _db.SaveChangesAsync();
+            }
+            return Ok(new { message = "Subscription removed" });
+        }
+
+        // Nếu ngày hết hạn ở tương lai -> Thêm hoặc Cập nhật
+        if (sub == null)
+        {
+            sub = new UserSubscription
+            {
+                UserId = userId,
+                CourseCode = courseCode,
+                ExpiresAt = request.ExpiresAt
+            };
+            _db.Subscriptions.Add(sub);
+        }
+        else
+        {
+            sub.ExpiresAt = request.ExpiresAt;
+        }
+
+        await _db.SaveChangesAsync();
+        return Ok(new { message = "Subscription updated" });
+    }
+
+    [HttpPost("orders/clear-pending")]
+    public async Task<IActionResult> ClearPendingOrders()
+    {
+        if (!IsAdmin()) return Unauthorized();
+        var pendingOrders = await _db.Orders.Where(o => o.Status == "pending").ToListAsync();
+        _db.Orders.RemoveRange(pendingOrders);
+        await _db.SaveChangesAsync();
+        return Ok(new { message = $"Deleted {pendingOrders.Count} pending orders" });
+    }
+
     [HttpPost("users/{userId}/reset-device")]
     public async Task<IActionResult> ResetDevice(Guid userId)
     {
@@ -62,4 +162,10 @@ public class AdminController : ControllerBase
         await _db.SaveChangesAsync();
         return Ok(new { message = "Device reset successfully" });
     }
+}
+
+public class UpdateSubRequest
+{
+    public string CourseCode { get; set; } = "";
+    public DateTime ExpiresAt { get; set; }
 }

@@ -18,10 +18,18 @@ public class ActiveVocabularyController : ApiControllerBase
     /// Import vocabulary list from JSON
     /// </summary>
     [HttpPost("lists/import")]
+    [RequestSizeLimit(2 * 1024 * 1024)]
     public async Task<IActionResult> Import([FromBody] ImportVocabularyDto dto)
     {
-        var listId = await _service.ImportAsync(CurrentUserId, dto);
-        return Ok(new { listId, wordCount = dto.Words.Count });
+        try
+        {
+            var listId = await _service.ImportAsync(CurrentUserId, dto);
+            return Ok(new { listId, wordCount = dto.Words.Count });
+        }
+        catch (InvalidOperationException ex)
+        {
+            return BadRequest(new { message = ex.Message });
+        }
     }
 
     /// <summary>
@@ -93,6 +101,26 @@ public class ActiveVocabularyController : ApiControllerBase
         {
             return NotFound(new { message = "List not found" });
         }
+    }
+
+    /// <summary>
+    /// Get all vocabulary items for fast client-side searching
+    /// </summary>
+    [HttpGet("items/search-index")]
+    public async Task<IActionResult> GetSearchIndex()
+    {
+        var items = await _service.GetSearchIndexAsync(CurrentUserId);
+        return Ok(items);
+    }
+
+    /// <summary>
+    /// Get current usage quota for vocabulary imports
+    /// </summary>
+    [HttpGet("quota")]
+    public async Task<IActionResult> GetQuota()
+    {
+        var quota = await _service.GetQuotaAsync(CurrentUserId);
+        return Ok(quota);
     }
 }
 

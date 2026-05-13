@@ -169,7 +169,7 @@ public class GrammarService : IGrammarService
             AccessTier = lesson.AccessTier,
             PackageCode = lesson.PackageCode,
             CourseCode = lesson.CourseCode,
-            IsLocked = _paymentAccess.IsContentLocked(userId, lesson.AccessTier, lesson.PackageCode),
+            IsLocked = _paymentAccess.IsContentLocked(userId, lesson.AccessTier, lesson.PackageCode ?? lesson.CourseCode),
             PatternCount = lesson.Patterns.Count,
             InStudyCount = progress.Count,
             MasteredCount = progress.Count(item => item.Level >= ReviewLevels.Mastered),
@@ -195,7 +195,7 @@ public class GrammarService : IGrammarService
             Structure = pattern.Structure,
             AccessTier = accessTier,
             PackageCode = packageCode,
-            IsLocked = _paymentAccess.IsContentLocked(userId, accessTier, packageCode),
+            IsLocked = _paymentAccess.IsContentLocked(userId, accessTier, packageCode ?? pattern.Lesson.CourseCode),
             IsInStudy = progress?.IsActive == true,
             Progress = progress == null ? null : MapProgress(progress)
         };

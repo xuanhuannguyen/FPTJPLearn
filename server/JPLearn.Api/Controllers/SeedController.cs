@@ -1,12 +1,14 @@
 using JPLearn.Infrastructure.Data;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.RateLimiting;
 
 namespace JPLearn.Api.Controllers;
 
 /// <summary>API hỗ trợ quản trị — chạy một lần để cập nhật AccessTier.</summary>
 [ApiController]
 [Route("api/admin/seed")]
+[EnableRateLimiting("admin-strict")]
 public class SeedController : ControllerBase
 {
     private readonly AppDbContext _db;
@@ -40,7 +42,9 @@ public class SeedController : ControllerBase
         var kanjiLessons = await _db.KanjiLessons.ToListAsync();
         foreach (var lesson in kanjiLessons)
         {
-            var newTier = lesson.LessonNumber <= 1 ? "free" : "premium";
+            // Lesson 1 is free for all. JPD123 Lesson 4 is also free.
+            var isFree = lesson.LessonNumber <= 1 || (lesson.PackageCode == "kanji_jpd123" && lesson.LessonNumber == 4);
+            var newTier = isFree ? "free" : "premium";
             if (lesson.AccessTier != newTier)
             {
                 lesson.AccessTier = newTier;
@@ -52,7 +56,10 @@ public class SeedController : ControllerBase
         var vocabLessons = await _db.StaticVocabularyLessons.ToListAsync();
         foreach (var lesson in vocabLessons)
         {
-            var newTier = lesson.LessonNumber <= 1 ? "free" : "premium";
+            // Lesson 1 is free for all. 
+            // In JPD123, Lesson 4 is split into IDs 1, 2, 3 (labeled 4-1, 4-2, 4-3). All should be free.
+            var isFree = lesson.LessonNumber <= 1 || (lesson.CourseCode == "jpd123" && lesson.LessonNumber <= 3);
+            var newTier = isFree ? "free" : "premium";
             if (lesson.AccessTier != newTier)
             {
                 lesson.AccessTier = newTier;
@@ -64,7 +71,9 @@ public class SeedController : ControllerBase
         var grammarLessons = await _db.GrammarLessons.ToListAsync();
         foreach (var lesson in grammarLessons)
         {
-            var newTier = lesson.LessonNumber <= 1 ? "free" : "premium";
+            // Lesson 1 is free for all. JPD123 Lesson 4 is also free.
+            var isFree = lesson.LessonNumber <= 1 || (lesson.CourseCode == "jpd123" && lesson.LessonNumber == 4);
+            var newTier = isFree ? "free" : "premium";
             if (lesson.AccessTier != newTier)
             {
                 lesson.AccessTier = newTier;
@@ -73,10 +82,23 @@ public class SeedController : ControllerBase
         }
 
         // === SPEAKING ===
+        var speakingCourses = await _db.SpeakingCourses.ToListAsync();
+        foreach (var course in speakingCourses)
+        {
+            // Tất cả khóa speaking đều là premium ở dashboard
+            if (course.AccessTier != "premium")
+            {
+                course.AccessTier = "premium";
+                updated++;
+            }
+        }
+
         var speakingLessons = await _db.SpeakingLessons.ToListAsync();
         foreach (var lesson in speakingLessons)
         {
-            var newTier = lesson.OrderIndex <= 1 ? "free" : "premium";
+            // Lesson 1 của JPD113 vẫn là free để dùng thử nếu user click vào được hoặc admin mở
+            var isFree = lesson.CourseCode == "jpd113" && lesson.OrderIndex <= 1;
+            var newTier = isFree ? "free" : "premium";
             if (lesson.AccessTier != newTier)
             {
                 lesson.AccessTier = newTier;
@@ -88,7 +110,7 @@ public class SeedController : ControllerBase
         var examCourses = await _db.ExamCourses.ToListAsync();
         foreach (var course in examCourses)
         {
-            // Exam luôn premium
+            // Tất cả khóa luyện thi đều là premium
             if (course.AccessTier != "premium")
             {
                 course.AccessTier = "premium";
@@ -98,6 +120,17 @@ public class SeedController : ControllerBase
 
         await _db.SaveChangesAsync();
 
-        return Ok(new { message = $"Đã cập nhật {updated} bài học thành Premium.", updated });
+        return Ok(new
+        {
+            message = $"Đã cập nhật {updated} bản ghi.",
+            details = new
+            {
+                kanjiCount = kanjiLessons.Count,
+                vocabCount = vocabLessons.Count,
+                grammarCount = grammarLessons.Count,
+                speakingCount = speakingLessons.Count,
+                examCount = examCourses.Count
+            }
+        });
     }
 }

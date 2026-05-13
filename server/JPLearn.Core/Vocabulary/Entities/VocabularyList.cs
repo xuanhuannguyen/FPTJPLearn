@@ -8,6 +8,7 @@ public class VocabularyList : BaseEntity
     public string Name { get; set; } = string.Empty;
     public string? Description { get; set; }
     public int WordCount { get; set; }
+    public bool IsDeleted { get; set; } = false;
 
     // Navigation
     public ICollection<VocabularyItem> Items { get; set; } = new List<VocabularyItem>();

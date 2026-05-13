@@ -53,6 +53,14 @@ interface AddVocabularyItemResponse {
   itemId: string;
 }
 
+export interface VocabularyQuota {
+  isPremium: boolean;
+  usedCount: number;
+  maxCount: number;
+  remainingCount: number;
+  period: 'total' | 'daily';
+}
+
 export const vocabularyApi = {
   importJSON: async (data: ImportVocabularyDto) => {
     const response = await apiClient.post('/active-vocabulary/lists/import', data);
@@ -81,6 +89,16 @@ export const vocabularyApi = {
 
   addItem: async (listId: string, wordData: AddVocabularyItemDto) => {
     const response = await apiClient.post<AddVocabularyItemResponse>(`/active-vocabulary/lists/${listId}/items`, wordData);
+    return response.data;
+  },
+
+  getSearchIndex: async () => {
+    const response = await apiClient.get<{id: string; listId: string; word: string; reading: string; meaning: string; wordType: string}[]>('/active-vocabulary/items/search-index');
+    return response.data;
+  },
+
+  getQuota: async () => {
+    const response = await apiClient.get<VocabularyQuota>('/active-vocabulary/quota');
     return response.data;
   }
 };

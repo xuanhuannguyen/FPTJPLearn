@@ -34,9 +34,9 @@ public static class PackageCodes
 
     public static decimal GetPrice(string code) => code switch
     {
-        JPD113 => 80000,
-        JPD123 => 100000,
-        Combo => 150000,
+        JPD113 => 60000,
+        JPD123 => 80000,
+        Combo => 120000,
         _ => 0
     };
 }

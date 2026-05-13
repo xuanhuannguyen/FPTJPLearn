@@ -11,4 +11,6 @@ public interface IVocabularyService
     Task<bool> DeleteListAsync(Guid userId, Guid listId);
     Task<bool> DeleteItemAsync(Guid userId, Guid itemId);
     Task<Guid> AddItemAsync(Guid userId, Guid listId, VocabularyWordDto dto);
+    Task<List<VocabularySearchItemDto>> GetSearchIndexAsync(Guid userId);
+    Task<VocabularyQuotaDto> GetQuotaAsync(Guid userId);
 }

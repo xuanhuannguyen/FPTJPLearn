@@ -1,6 +1,7 @@
 import { useMemo, useState, useRef, useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
-import { Bell, Search, LogOut } from 'lucide-react';
+import { Bell, Search, LogOut, Sparkles } from 'lucide-react';
+import { Link } from 'react-router-dom';
 import { useSearchStore } from '../stores/searchStore';
 import { useAuthStore } from '../stores/authStore';
 
@@ -33,7 +34,7 @@ export const Navbar = () => {
   }, [location.pathname]);
 
   return (
-    <header className="sticky top-0 z-10 flex h-12 flex-shrink-0 items-center justify-between border-b-2 border-border bg-white/70 px-4 backdrop-blur-xl sm:px-6">
+    <header className="sticky top-0 z-40 flex h-12 flex-shrink-0 items-center justify-between border-b-2 border-border bg-white/70 px-4 backdrop-blur-xl sm:px-6">
       <div className="flex-1 max-w-2xl">
         {searchConfig ? (
           <div className="relative">
@@ -54,6 +55,14 @@ export const Navbar = () => {
       </div>
       
       <div className="ml-4 flex items-center gap-2">
+        <Link 
+          to="/pricing"
+          className="mr-2 flex h-8 items-center gap-2 rounded-lg border-2 border-border bg-gradient-to-r from-blue-500 to-blue-600 px-3 text-white shadow-pop transition-all hover:-translate-y-0.5"
+        >
+          <Sparkles size={14} className="fill-current" />
+          <span className="text-[10px] font-black uppercase tracking-wider">Nâng cấp</span>
+        </Link>
+
         <button className="relative flex h-8 w-8 cursor-pointer items-center justify-center rounded-lg border-2 border-border bg-white/95 text-text-secondary shadow-pop transition-all hover:-translate-y-0.5 hover:text-text-primary">
           <Bell size={16} />
           <span className="absolute right-1.5 top-1.5 h-1 w-1 rounded-full bg-accent-danger"></span>

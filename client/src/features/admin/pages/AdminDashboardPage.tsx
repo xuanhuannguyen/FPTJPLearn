@@ -1,25 +1,27 @@
 import { Link } from 'react-router-dom';
 import { FileQuestion, Settings, Users, Wand2 } from 'lucide-react';
 
+const ADMIN_PATH = '/jplearn-manage-xh21';
+
 const cards = [
   {
     title: 'Câu hỏi luyện thi',
     description: 'Tạo, sửa, import nhanh câu hỏi theo từng khóa.',
-    path: '/admin/exam-questions',
+    path: `${ADMIN_PATH}/exam-questions`,
     icon: FileQuestion,
     active: true,
   },
   {
     title: 'Người dùng',
     description: 'Quản lý tài khoản, role, gói premium.',
-    path: '/admin/users',
+    path: `${ADMIN_PATH}/users`,
     icon: Users,
-    active: false,
+    active: true,
   },
   {
     title: 'Thông tin web',
     description: 'Banner, thông báo, cấu hình nội dung.',
-    path: '/admin/site',
+    path: `${ADMIN_PATH}/site`,
     icon: Settings,
     active: false,
   },
@@ -37,7 +39,7 @@ export const AdminDashboardPage = () => (
           </p>
         </div>
         <Link
-          to="/admin/exam-questions"
+          to={`${ADMIN_PATH}/exam-questions`}
           className="inline-flex h-12 items-center justify-center gap-2 rounded-xl bg-blue-600 px-5 text-sm font-black text-white shadow-sm hover:bg-blue-700"
         >
           <Wand2 size={18} />

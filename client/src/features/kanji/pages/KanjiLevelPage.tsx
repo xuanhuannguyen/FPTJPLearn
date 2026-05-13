@@ -10,7 +10,13 @@ import { kanjiApi } from '../api/kanjiApi';
 import type { KanjiLevel, KanjiLesson } from '../types/kanji.types';
 
 export const KanjiLevelPage = () => {
-  const { level } = useParams<{ level: string }>();
+  const { level: paramLevel } = useParams<{ level: string }>();
+  
+  // Map JPD codes back to N5/N3 for API
+  const level = paramLevel?.toLowerCase() === 'jpd113' ? 'N5' : 
+                paramLevel?.toLowerCase() === 'jpd123' ? 'N3' : 
+                paramLevel as KanjiLevel;
+
   const [lessons, setLessons] = useState<KanjiLesson[]>([]);
   const [isLoading, setIsLoading] = useState(true);
 
@@ -48,7 +54,7 @@ export const KanjiLevelPage = () => {
           <ArrowLeft size={16} />
         </Link>
         <span className="border border-black bg-accent-primary px-4 py-1 text-2xl font-black uppercase tracking-tight text-white shadow-[2px_2px_0px_#0F172A]">
-          {level === 'N5' ? 'JPD113' : level === 'N3' ? 'JPD123' : level}
+          {paramLevel?.toUpperCase()}
         </span>
         <span className="border border-black bg-white px-3 py-1.5 text-xs font-black uppercase text-text-primary shadow-[2px_2px_0px_#0F172A]">
           {lessons.length} LESSONS
@@ -60,10 +66,10 @@ export const KanjiLevelPage = () => {
         {lessons.map((lesson) => (
           <Link
             key={lesson.id}
-            to={lesson.isLocked ? '#' : `/kanji/${level}/lessons/${lesson.id}`}
-            className={`group flex items-center justify-between border border-black p-3 transition-all ${
+            to={lesson.isLocked ? '/pricing' : `/kanji/${paramLevel}/lessons/${lesson.id}`}
+            className={`group flex items-center justify-between border border-black p-3 transition-all cursor-pointer ${
               lesson.isLocked 
-                ? 'bg-slate-50 cursor-not-allowed opacity-60'
+                ? 'bg-slate-50 opacity-60 shadow-[2px_2px_0px_#0F172A]'
                 : 'bg-white hover:bg-slate-50 hover:border-accent-primary shadow-[2px_2px_0px_#0F172A] hover:shadow-[1px_1px_0px_#0F172A] hover:translate-x-[1px] hover:translate-y-[1px]'
             }`}
           >

@@ -64,7 +64,7 @@ export const VocabularyCoursePage = () => {
           return (
             <Link
               key={lesson.id}
-              to={`/vocabulary/${courseCode}/lessons/${lesson.id}`}
+              to={lesson.isLocked ? '/pricing' : `/vocabulary/${courseCode}/lessons/${lesson.id}`}
               className="interactive-surface group relative flex min-h-[110px] cursor-pointer gap-4 overflow-hidden rounded-[18px] p-3.5"
             >
               <div className={`absolute left-0 top-0 h-full w-2 ${isComplete ? 'bg-accent-success' : 'bg-accent-primary'}`} />

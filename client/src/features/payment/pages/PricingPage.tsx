@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { apiClient } from '../../../shared/api/axios';
 import { useAuthStore } from '../../../shared/stores/authStore';
@@ -15,15 +15,15 @@ interface Package {
 }
 
 const packages: Package[] = [
-  { code: 'jpd113', name: 'JPD113', price: 80000, duration: '6 tháng' },
-  { code: 'jpd123', name: 'JPD123', price: 100000, duration: '6 tháng' },
-  { code: 'combo', name: 'Combo', price: 150000, originalPrice: 180000, duration: '6 tháng', discount: 'Tiết kiệm 17%' },
+  { code: 'jpd113', name: 'JPD113', price: 60000, duration: '6 tháng' },
+  { code: 'jpd123', name: 'JPD123', price: 80000, duration: '6 tháng' },
+  { code: 'combo', name: 'Combo', price: 120000, originalPrice: 140000, duration: '6 tháng', discount: 'Tiết kiệm 14%' },
 ];
 
 const features: Record<string, string[]> = {
   jpd113: ['Toàn bộ Kanji JPD113', 'Toàn bộ Từ vựng JPD113', 'Toàn bộ Ngữ pháp JPD113', 'Luyện thi JPD113', 'Luyện nói JPD113', 'Sử dụng 6 tháng'],
   jpd123: ['Toàn bộ Kanji JPD123', 'Toàn bộ Từ vựng JPD123', 'Toàn bộ Ngữ pháp JPD123', 'Luyện thi JPD123', 'Luyện nói JPD123', 'Sử dụng 6 tháng'],
-  combo: ['Tất cả nội dung JPD113', 'Tất cả nội dung JPD123', 'Luyện thi cả 2 khóa', 'Luyện nói cả 2 khóa', 'Tiết kiệm 30,000đ', 'Sử dụng 6 tháng'],
+  combo: ['Tất cả nội dung JPD113', 'Tất cả nội dung JPD123', 'Luyện thi cả 2 khóa', 'Luyện nói cả 2 khóa', 'Tiết kiệm 20,000đ', 'Sử dụng 6 tháng'],
 };
 
 const icons: Record<string, React.ReactNode> = {
@@ -34,8 +34,51 @@ const icons: Record<string, React.ReactNode> = {
 
 export function PricingPage() {
   const [loading, setLoading] = useState<string | null>(null);
+  const [paymentData, setPaymentData] = useState<{
+    orderId: string;
+    qrUrl: string;
+    amount: number;
+    description: string;
+    provider: string;
+  } | null>(null);
+  const [timeLeft, setTimeLeft] = useState(300); // 5 minutes in seconds
+  
   const { user } = useAuthStore();
   const navigate = useNavigate();
+
+  // Countdown timer for payment session
+  useEffect(() => {
+    let timer: any;
+    if (paymentData && timeLeft > 0) {
+      timer = setInterval(() => {
+        setTimeLeft(prev => prev - 1);
+      }, 1000);
+    } else if (timeLeft === 0 && paymentData) {
+      alert('Đã hết thời gian thanh toán. Vui lòng tạo đơn hàng mới.');
+      setPaymentData(null);
+    }
+    return () => clearInterval(timer);
+  }, [paymentData, timeLeft]);
+
+  // Polling for payment status
+  useEffect(() => {
+    let interval: any;
+    if (paymentData && paymentData.provider === 'SePay') {
+      interval = setInterval(async () => {
+        try {
+          const res = await apiClient.get(`/orders/${paymentData.orderId}/status`);
+          if (res.data.status === 'paid') {
+            clearInterval(interval);
+            alert('Thanh toán thành công! Hệ thống sẽ tự động tải lại bài học.');
+            window.location.reload();
+          }
+        } catch (err) {
+          console.error('Polling error:', err);
+        }
+      }, 3000); // Poll every 3s
+    }
+    return () => clearInterval(interval);
+  }, [paymentData]);
 
   const handleBuy = async (packageCode: string) => {
     if (!user) {
@@ -45,9 +88,22 @@ export function PricingPage() {
 
     setLoading(packageCode);
     try {
-      const res = await apiClient.post('/orders', { packageCode });
-      const { paymentUrl } = res.data;
-      if (paymentUrl) {
+      const returnUrl = `${window.location.origin}/payment/success`;
+      const cancelUrl = `${window.location.origin}/payment/cancel`;
+      const res = await apiClient.post('/orders', { packageCode, returnUrl, cancelUrl });
+      const { paymentUrl, provider, amount, orderId } = res.data;
+      
+      if (provider === 'SePay') {
+        const shortId = orderId.split('-')[0].toUpperCase();
+        setTimeLeft(300); // Reset countdown
+        setPaymentData({
+          orderId,
+          qrUrl: paymentUrl,
+          amount,
+          description: `JP ${shortId}`,
+          provider
+        });
+      } else {
         window.location.href = paymentUrl;
       }
     } catch (err) {
@@ -116,6 +172,61 @@ export function PricingPage() {
       <p className="pricing-note">
         Thanh toán qua chuyển khoản ngân hàng • Mở khóa tự động trong vài giây
       </p>
+
+      {/* Payment Modal */}
+      {paymentData && (
+        <div className="payment-modal-overlay" onClick={() => setPaymentData(null)}>
+          <div className="payment-modal" onClick={e => e.stopPropagation()}>
+            <div className="payment-modal-header">
+              <h3>Thanh toán qua mã QR</h3>
+              <button className="payment-modal-close" onClick={() => setPaymentData(null)}>×</button>
+            </div>
+            
+            <div className="payment-modal-content">
+              <div className="qr-container">
+                <img src={paymentData.qrUrl} alt="Payment QR" className="qr-image" />
+                <div className="qr-scan-line"></div>
+              </div>
+
+              <div className="payment-instructions">
+                <div className="instruction-item">
+                  <span className="instruction-label">Số tiền:</span>
+                  <span className="instruction-value highlight">{formatPrice(paymentData.amount)}</span>
+                </div>
+                <div className="instruction-item">
+                  <span className="instruction-label">Nội dung chuyển khoản:</span>
+                  <div className="copy-wrapper">
+                    <span className="instruction-value font-mono">{paymentData.description}</span>
+                    <button 
+                      className="copy-btn"
+                      onClick={() => {
+                        navigator.clipboard.writeText(paymentData.description);
+                        alert('Đã sao chép nội dung!');
+                      }}
+                    >
+                      Sao chép
+                    </button>
+                  </div>
+                </div>
+              </div>
+
+              <div className="payment-steps">
+                <p>1. Mở ứng dụng Ngân hàng/Ví điện tử</p>
+                <p>2. Quét mã QR trên hoặc chuyển khoản thủ công</p>
+                <p>3. <strong>Bắt buộc</strong> nhập đúng nội dung chuyển khoản</p>
+                <p>4. Hệ thống sẽ tự động kích hoạt sau khi nhận được tiền (30s - 2p)</p>
+              </div>
+            </div>
+
+            <div className="payment-modal-footer">
+              <div className="waiting-status">
+                <Loader2 size={16} className="spin text-accent-primary" />
+                <span>Đang chờ thanh toán... ({Math.floor(timeLeft / 60)}:{(timeLeft % 60).toString().padStart(2, '0')})</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      )}
     </div>
   );
 }

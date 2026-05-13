@@ -26,22 +26,23 @@ public class PayOSProvider : IPaymentProvider
         _httpClient.DefaultRequestHeaders.Add("x-api-key", _configuration["PaymentSettings:PayOS:ApiKey"]);
     }
 
-    public async Task<PaymentLinkResult> CreatePaymentLinkAsync(Order order)
+    public async Task<PaymentLinkResult> CreatePaymentLinkAsync(Order order, string returnUrl, string cancelUrl)
     {
         try
         {
             long orderCode = Math.Abs(order.Id.GetHashCode());
-            var domain = _configuration["AppSettings:BaseUrl"] ?? "http://localhost:5175";
             var checksumKey = _configuration["PaymentSettings:PayOS:ChecksumKey"] ?? "";
+
+            var description = $"Thanh toan {order.PackageCode.ToUpper()}";
 
             var body = new
             {
                 orderCode,
                 amount = (int)order.Amount,
-                description = $"Thanh toan {order.PackageCode.ToUpper()}",
-                cancelUrl = $"{domain}/payment/cancel",
-                returnUrl = $"{domain}/payment/success",
-                signature = ComputeSignature(orderCode, (int)order.Amount, $"Thanh toan {order.PackageCode.ToUpper()}", checksumKey)
+                description,
+                cancelUrl,
+                returnUrl,
+                signature = ComputeSignature(orderCode, (int)order.Amount, description, cancelUrl, returnUrl, checksumKey)
             };
 
             var response = await _httpClient.PostAsJsonAsync("/v2/payment-requests", body);
@@ -58,6 +59,7 @@ public class PayOSProvider : IPaymentProvider
             }
 
             var errMsg = json.GetProperty("desc").GetString() ?? "Unknown error";
+            Console.WriteLine($"PayOS Error: {errMsg}");
             return new PaymentLinkResult(false, "", "", errMsg);
         }
         catch (Exception ex)
@@ -66,9 +68,10 @@ public class PayOSProvider : IPaymentProvider
         }
     }
 
-    private static string ComputeSignature(long orderCode, int amount, string description, string checksumKey)
+    private static string ComputeSignature(long orderCode, int amount, string description, string cancelUrl, string returnUrl, string checksumKey)
     {
-        var data = $"amount={amount}&cancelUrl=&description={description}&orderCode={orderCode}&returnUrl=";
+        // PayOS requires keys sorted alphabetically: amount, cancelUrl, description, orderCode, returnUrl
+        var data = $"amount={amount}&cancelUrl={cancelUrl}&description={description}&orderCode={orderCode}&returnUrl={returnUrl}";
         using var hmac = new HMACSHA256(Encoding.UTF8.GetBytes(checksumKey));
         var hash = hmac.ComputeHash(Encoding.UTF8.GetBytes(data));
         return BitConverter.ToString(hash).Replace("-", "").ToLower();

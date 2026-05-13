@@ -160,6 +160,23 @@ export const MemoryDashboardPage = () => {
         </p>
       </header>
 
+      {/* Marketing Hook */}
+      <div className="mb-6 max-w-3xl overflow-hidden rounded-2xl border border-violet-100 bg-gradient-to-br from-violet-50/50 to-white p-5 shadow-sm">
+        <div className="flex items-start gap-4">
+          <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-2xl bg-violet-600 text-white shadow-lg shadow-violet-200">
+            <Sparkles size={24} />
+          </div>
+          <div>
+            <h3 className="font-heading text-lg font-black text-slate-900 leading-tight">
+              Cơ chế học tập thông minh (Spaced Repetition)
+            </h3>
+            <p className="mt-1 text-sm font-bold leading-relaxed text-slate-600">
+              Khi học Kanji, Từ vựng, Ngữ pháp các bạn có thể <span className="text-violet-600">Add to Memory</span>. Hệ thống sẽ tự động tính toán thời gian bạn sẽ quên theo các mức độ để nhắc nhở bạn luyện tập đúng lúc, giúp ghi nhớ vĩnh viễn.
+            </p>
+          </div>
+        </div>
+      </div>
+
       {/* Tabs - Centered */}
       <section className="flex gap-2 rounded-xl border border-slate-200 bg-white p-1 shadow-sm max-w-2xl mx-auto">
         {memoryTypeOrder.map((type) => {

@@ -45,7 +45,7 @@ public class ExamPracticeService : IExamPracticeService
             Description = course.Description,
             AccessTier = course.AccessTier,
             PackageCode = course.PackageCode,
-            IsLocked = _paymentAccess.IsContentLocked(userId, course.AccessTier, course.PackageCode),
+            IsLocked = _paymentAccess.IsContentLocked(userId, course.AccessTier, course.PackageCode ?? course.Code),
             QuestionCount = questionCounts.FirstOrDefault(item => item.CourseCode == course.Code)?.Count ?? 0,
             PassageCount = passageCounts.FirstOrDefault(item => item.CourseCode == course.Code)?.Count ?? 0
         }).ToList();

@@ -45,7 +45,7 @@ export const ConfirmModal: FC<ConfirmModalProps> = ({
 
   return createPortal(
     <div
-      className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-text-primary/20 backdrop-blur-sm animate-fade-only"
+      className="fixed inset-0 z-[100] flex items-center justify-center p-4 bg-text-primary/40 backdrop-blur-sm animate-fade-only"
       role="dialog"
       aria-modal="true"
       aria-labelledby="confirm-modal-title"

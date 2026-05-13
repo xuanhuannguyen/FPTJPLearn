@@ -6,8 +6,7 @@ import {
   BrainCircuit,
   BookText,
   FileQuestion,
-  Mic2,
-  Sparkles
+  Mic2
 } from 'lucide-react';
 
 export const Sidebar = () => {
@@ -22,15 +21,15 @@ export const Sidebar = () => {
   ];
 
   return (
-    <aside className="hidden h-full w-[78px] flex-shrink-0 overflow-hidden bg-white md:flex">
-      <div className="flex h-full w-full flex-col items-center overflow-hidden border-r border-slate-100 bg-white">
-      <div className="flex h-16 w-full items-center justify-center border-b border-slate-100">
+    <aside className="hidden h-screen w-[78px] flex-shrink-0 sticky top-0 bg-white md:flex">
+      <div className="flex h-full w-full flex-col items-center border-r border-slate-100 bg-white overflow-y-auto scrollbar-hide">
+      <div className="sticky top-0 z-10 flex h-16 w-full shrink-0 items-center justify-center border-b border-slate-100 bg-white">
         <div className="flex h-11 w-11 items-center justify-center rounded-xl bg-accent-primary text-white shadow-pop">
           <span className="font-heading text-xl font-black leading-none">JP</span>
         </div>
       </div>
 
-      <nav className="w-full space-y-2 overflow-hidden px-1 py-4">
+      <nav className="w-full space-y-2 px-1 py-4">
         {navItems.map((item) => (
           <NavLink
             key={item.path}
@@ -51,16 +50,6 @@ export const Sidebar = () => {
         ))}
       </nav>
 
-        {/* Premium CTA */}
-        <div className="mt-auto w-full px-2 pb-4">
-          <NavLink
-            to="/pricing"
-            className="flex flex-col items-center justify-center gap-1 rounded-xl bg-gradient-to-b from-blue-500 to-blue-700 px-2 py-3 text-white shadow-lg transition-transform hover:scale-105"
-          >
-            <Sparkles size={20} />
-            <span className="text-[10px] font-black uppercase leading-tight">Nâng cấp</span>
-          </NavLink>
-        </div>
       </div>
     </aside>
   );

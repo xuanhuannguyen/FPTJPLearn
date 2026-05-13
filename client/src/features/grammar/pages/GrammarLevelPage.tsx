@@ -10,10 +10,14 @@ import { grammarApi } from '../api/grammarApi';
 import type { GrammarLevel, GrammarLesson } from '../types/grammar.types';
 
 export const GrammarLevelPage = () => {
-  const { level } = useParams<{ level: string }>();
+  const { level: paramLevel } = useParams<{ level: string }>();
   const location = useLocation();
   const queryParams = new URLSearchParams(location.search);
-  const courseCode = queryParams.get('course');
+  
+  // Logic: if paramLevel starts with 'jpd', it's a course level (N5)
+  const isCourseLevel = paramLevel?.toLowerCase().startsWith('jpd');
+  const level = isCourseLevel ? 'N5' : paramLevel;
+  const courseCode = isCourseLevel ? paramLevel : queryParams.get('course');
   
   const [lessons, setLessons] = useState<GrammarLesson[]>([]);
   const [isLoading, setIsLoading] = useState(true);
@@ -64,10 +68,10 @@ export const GrammarLevelPage = () => {
         {lessons.map((lesson) => (
           <Link
             key={lesson.id}
-            to={lesson.isLocked ? '#' : `/grammar/${level}/lessons/${lesson.id}${courseCode ? `?course=${courseCode}` : ''}`}
-            className={`group relative flex min-h-[58px] items-center gap-3 rounded-xl border bg-white px-4 py-2.5 transition-colors duration-200 ${
+            to={lesson.isLocked ? '/pricing' : `/grammar/${paramLevel}/lessons/${lesson.id}`}
+            className={`group relative flex min-h-[58px] items-center gap-3 rounded-xl border bg-white px-4 py-2.5 transition-colors duration-200 cursor-pointer ${
               lesson.isLocked 
-                ? 'border-border/5 bg-slate-50/50 cursor-not-allowed opacity-60'
+                ? 'border-border/5 bg-slate-50/50 opacity-60'
                 : 'border-border/10 bg-white shadow-sm hover:bg-white/90'
             }`}
           >

@@ -5,7 +5,7 @@ namespace JPLearn.Core.Orders;
 public interface IPaymentProvider
 {
     string ProviderName { get; }
-    Task<PaymentLinkResult> CreatePaymentLinkAsync(Order order);
+    Task<PaymentLinkResult> CreatePaymentLinkAsync(Order order, string returnUrl, string cancelUrl);
 }
 
 public record PaymentLinkResult(bool Success, string PaymentUrl, string ExternalId, string Error = "");

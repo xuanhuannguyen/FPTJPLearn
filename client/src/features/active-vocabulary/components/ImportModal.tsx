@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { createPortal } from 'react-dom';
 import { isAxiosError } from 'axios';
 import { X, CheckCircle2, AlertCircle, Loader2 } from 'lucide-react';
 import { vocabularyApi } from '../api/vocabularyApi';
@@ -58,8 +59,8 @@ export const ImportModal: React.FC<ImportModalProps> = ({ isOpen, onClose, onSuc
     }
   };
 
-  return (
-    <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-text-primary/20 backdrop-blur-sm animate-fade-in">
+  return createPortal(
+    <div className="fixed inset-0 z-[999] flex items-center justify-center p-4 bg-text-primary/40 backdrop-blur-sm animate-fade-in">
       <div className="clay-modal max-h-[90vh] max-w-2xl">
         {/* Header */}
         <div className="clay-modal-header">
@@ -121,6 +122,7 @@ export const ImportModal: React.FC<ImportModalProps> = ({ isOpen, onClose, onSuc
           </button>
         </div>
       </div>
-    </div>
+    </div>,
+    document.body
   );
 };

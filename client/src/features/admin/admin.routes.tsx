@@ -6,7 +6,7 @@ import { AdminUserManagerPage } from './pages/AdminUserManagerPage';
 import { AdminOrderManagerPage } from './pages/AdminOrderManagerPage';
 
 export const adminRoutes = [
-  <Route key="admin" path="/admin" element={<AdminLayout />}>
+  <Route key="admin" path="/jplearn-manage-xh21" element={<AdminLayout />}>
     <Route index element={<AdminDashboardPage />} />
     <Route path="exam-questions" element={<AdminExamQuestionsPage />} />
     <Route path="users" element={<AdminUserManagerPage />} />

@@ -46,9 +46,9 @@ public class PaymentAccessService : IPaymentAccessService
         if (string.IsNullOrWhiteSpace(packageCode)) return null;
         var code = packageCode.Trim().ToLowerInvariant();
 
-        if (code.Contains("jpd113") || code == "jpd113") return "jpd113";
-        if (code.Contains("jpd123") || code == "jpd123") return "jpd123";
+        if (code.Contains("jpd113")) return "jpd113";
+        if (code.Contains("jpd123")) return "jpd123";
 
-        return code; // fallback: use as-is
+        return code;
     }
 }

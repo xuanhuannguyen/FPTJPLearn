@@ -31,13 +31,13 @@ export const KanjiDashboardPage = () => {
 
   return (
     <div className="max-w-7xl mx-auto px-4 py-2 animate-fade-in">
-      {/* Brutalist Header */}
+      {/* Header */}
       <div className="mb-4">
         <h1 className="text-[40px] font-black uppercase leading-none tracking-tight text-text-primary font-mono flex items-center gap-2">
-          Kanji <span className="text-accent-primary">漢字</span>
+          Hán tự <span className="text-blue-600">漢字</span>
         </h1>
         <p className="text-sm font-bold text-text-secondary uppercase tracking-widest mt-1">
-          Master the characters
+          JPD113 / JPD123 KANJI MASTERY
         </p>
       </div>
 
@@ -50,20 +50,20 @@ export const KanjiDashboardPage = () => {
             const displayLevel = isN5 ? 'JPD113' : 'JPD123';
             const description = isN5 ? 'Japanese 1' : 'Japanese 2';
             const colorTop = isN5 ? 'bg-[#e5e1da]' : 'bg-[#b8d4e3]';
-            const colorBottom = 'bg-[#2d9a56]';
+            const colorBottom = 'bg-blue-600';
             
             return (
               <Link
                 key={levelStat.level}
-                to={`/kanji/${levelStat.level}`}
+                to={`/kanji/${displayLevel.toLowerCase()}`}
                 className="group overflow-hidden rounded-[24px] border-2 border-border/5 shadow-sm transition-all hover:-translate-y-1 hover:shadow-md"
               >
                 {/* Top Section */}
                 <div className={`${colorTop} py-6 px-5 flex flex-col items-center justify-center text-center`}>
                   <span className="text-[10px] font-bold text-text-secondary/70 mb-1 uppercase tracking-widest">
-                    {displayLevel} - {description}
+                    {displayLevel} - {description.toUpperCase()}
                   </span>
-                  <span className="text-5xl font-black text-[#0f172a] tracking-tighter">
+                  <span className="text-5xl font-black text-[#0f172a] tracking-tighter uppercase">
                     {displayLevel}
                   </span>
                 </div>
@@ -72,21 +72,21 @@ export const KanjiDashboardPage = () => {
                 <div className={`${colorBottom} py-4 px-5 text-center text-white`}>
                   <div className="flex justify-center gap-6 mb-2">
                     <div className="flex flex-col">
-                      <span className="text-[9px] font-bold opacity-80 uppercase">Lessons</span>
+                      <span className="text-[9px] font-bold opacity-80 uppercase">BÀI HỌC</span>
                       <span className="text-base font-black">{levelStat.totalLessons}</span>
                     </div>
                     <div className="flex flex-col">
-                      <span className="text-[9px] font-bold opacity-80 uppercase">Kanji</span>
+                      <span className="text-[9px] font-bold opacity-80 uppercase">HÁN TỰ</span>
                       <span className="text-base font-black">{levelStat.totalKanji}</span>
                     </div>
                     <div className="flex flex-col">
-                      <span className="text-[9px] font-bold opacity-80 uppercase">Vocab</span>
+                      <span className="text-[9px] font-bold opacity-80 uppercase">TỪ VỰNG</span>
                       <span className="text-base font-black">{levelStat.totalVocabulary}</span>
                     </div>
                   </div>
                   
                   <div className="text-[9px] font-bold mt-1 opacity-80 uppercase tracking-widest">
-                    Khám phá lộ trình Hán tự {levelStat.level}
+                    KHÁM PHÁ LỘ TRÌNH HÁN TỰ {levelStat.level}
                   </div>
                 </div>
               </Link>

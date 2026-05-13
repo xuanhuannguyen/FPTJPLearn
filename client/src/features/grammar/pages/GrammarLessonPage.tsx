@@ -92,7 +92,7 @@ export const GrammarLessonPage = () => {
           Dữ liệu bài học không tồn tại hoặc đã có lỗi xảy ra.
         </p>
         <button
-          onClick={() => navigate(`/grammar/${level}?course=${lesson?.courseCode}`)}
+          onClick={() => navigate(`/grammar/${level}`)}
           className="btn-primary px-8 py-3"
         >
           Quay lại danh sách
@@ -109,11 +109,11 @@ export const GrammarLessonPage = () => {
       <div className="mb-10 space-y-4">
         {/* Navigation */}
         <button
-          onClick={() => navigate(`/grammar/${level}?course=${lesson.courseCode}`)}
+          onClick={() => navigate(`/grammar/${level}`)}
           className="flex items-center gap-2 text-sm font-bold text-accent-primary hover:opacity-70 transition-all active:scale-95"
         >
           <ArrowLeft size={16} />
-          <span>第{level} – Bài {lesson.lessonNumber}</span>
+          <span>{level?.toUpperCase()} – Bài {lesson.lessonNumber}</span>
         </button>
 
         {/* Header Content */}

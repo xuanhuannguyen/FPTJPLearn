@@ -43,19 +43,19 @@ export const GrammarHomePage = () => {
   }, []);
 
   return (
-    <div className="max-w-7xl mx-auto px-4 py-8 animate-fade-in">
-      {/* Header Section Simplified */}
-      <div className="mb-10">
-        <h1 className="text-3xl font-black text-text-primary mb-2">
-          Ngữ pháp tiếng Nhật
+    <div className="max-w-7xl mx-auto px-4 py-2 animate-fade-in">
+      {/* Header */}
+      <div className="mb-4">
+        <h1 className="text-[40px] font-black uppercase leading-none tracking-tight text-text-primary font-mono flex items-center gap-2">
+          Ngữ pháp <span className="text-blue-600">文法</span>
         </h1>
-        <p className="text-sm text-text-muted font-bold">
-          Duyệt bài theo JLPT, mở từng mẫu ngữ pháp, làm bài tập và thêm mẫu cần học vào Ghi nhớ.
+        <p className="text-sm font-bold text-text-secondary uppercase tracking-widest mt-1">
+          JPD113 / JPD123 GRAMMAR MASTERY
         </p>
       </div>
 
       {/* Legend / Abbreviations */}
-      <section className="mb-10 rounded-2xl border-2 border-border/10 bg-white/50 p-6 shadow-sm">
+      <section className="mb-8 rounded-2xl border-2 border-border/10 bg-white/50 p-6 shadow-sm">
         <h4 className="text-[10px] font-black uppercase text-text-muted mb-4 tracking-widest px-1">Ký hiệu viết tắt trong cấu trúc</h4>
         <div className="flex flex-wrap gap-x-8 gap-y-4">
           <div className="flex items-center gap-3">
@@ -90,33 +90,38 @@ export const GrammarHomePage = () => {
       </section>
 
       {/* Levels Grid */}
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-3">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-4 max-w-3xl">
         {courses.map((item) => {
           const summary = summaries.find(s => s.courseCode.toLowerCase() === item.courseCode.toLowerCase());
+          const colorBottom = 'bg-blue-600';
 
           return (
             <Link 
               key={item.courseCode}
-              to={`/grammar/${item.level}?course=${item.courseCode}`}
-              className="group overflow-hidden rounded-xl border-2 border-border/10 shadow-sm transition-all hover:-translate-y-0.5 hover:shadow-md"
+              to={`/grammar/${item.courseCode}`}
+              className="group overflow-hidden rounded-[24px] border-2 border-border/5 shadow-sm transition-all hover:-translate-y-1 hover:shadow-md"
             >
               {/* Top Section */}
-              <div className={`${item.colorTop} py-4 px-3 flex flex-col items-center justify-center text-center`}>
-                <span className="text-[9px] font-bold text-text-secondary/70 mb-0.5 font-jp">
-                  {item.jpTitle}
+              <div className={`${item.colorTop} py-6 px-5 flex flex-col items-center justify-center text-center`}>
+                <span className="text-[10px] font-bold text-text-secondary/70 mb-1 uppercase tracking-widest">
+                  {item.jpTitle.toUpperCase()}
                 </span>
-                <span className="text-3xl font-black text-text-primary tracking-tighter">
+                <span className="text-5xl font-black text-[#0f172a] tracking-tighter uppercase">
                   {item.title}
                 </span>
               </div>
 
               {/* Bottom Section */}
-              <div className={`${item.colorBottom} py-2 px-3 text-center text-white`}>
-                <div className="text-sm font-black">
-                  {isLoading ? '...' : (summary?.lessonCount ?? 0)} bài học
+              <div className={`${colorBottom} py-4 px-5 text-center text-white`}>
+                <div className="mb-1 flex justify-center gap-6">
+                  <div className="flex flex-col">
+                    <span className="text-[9px] font-bold opacity-80 uppercase">BÀI HỌC</span>
+                    <span className="text-base font-black">{isLoading ? '...' : (summary?.lessonCount ?? 0)}</span>
+                  </div>
                 </div>
-                <div className="text-[9px] font-bold opacity-90 truncate">
-                  {item.subtitle}
+                
+                <div className="text-[9px] font-bold mt-1 opacity-80 uppercase tracking-widest">
+                  {item.subtitle.toUpperCase()}
                 </div>
               </div>
             </Link>

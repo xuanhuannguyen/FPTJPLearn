@@ -23,6 +23,18 @@ public class OrderController : ApiControllerBase
     [HttpPost]
     public async Task<IActionResult> CreateOrder([FromBody] CreateOrderRequest request)
     {
+        // Xóa các đơn pending quá 5 phút của user này để dọn dẹp DB
+        var expiredTime = DateTime.UtcNow.AddMinutes(-5);
+        var expiredOrders = await _db.Orders
+            .Where(o => o.UserId == CurrentUserId && o.Status == "pending" && o.CreatedAt < expiredTime)
+            .ToListAsync();
+            
+        if (expiredOrders.Any())
+        {
+            _db.Orders.RemoveRange(expiredOrders);
+            await _db.SaveChangesAsync();
+        }
+
         var price = PackageCodes.GetPrice(request.PackageCode);
         if (price == 0) return BadRequest(new { error = "Gói không hợp lệ" });
 
@@ -42,14 +54,14 @@ public class OrderController : ApiControllerBase
         await _db.SaveChangesAsync();
 
         // Tạo link thanh toán
-        var result = await provider.CreatePaymentLinkAsync(order);
+        var result = await provider.CreatePaymentLinkAsync(order, request.ReturnUrl, request.CancelUrl);
         if (!result.Success)
         {
             // Provider chính lỗi → thử provider còn lại
             var fallback = _providers.FirstOrDefault(p => p.ProviderName != provider.ProviderName);
             if (fallback != null)
             {
-                result = await fallback.CreatePaymentLinkAsync(order);
+                result = await fallback.CreatePaymentLinkAsync(order, request.ReturnUrl, request.CancelUrl);
                 order.Provider = fallback.ProviderName;
                 await _db.SaveChangesAsync();
             }
@@ -70,6 +82,16 @@ public class OrderController : ApiControllerBase
             amount = order.Amount,
             packageCode = order.PackageCode
         });
+    }
+
+    [HttpGet("{id}/status")]
+    public async Task<IActionResult> GetOrderStatus(Guid id)
+    {
+        var order = await _db.Orders.FindAsync(id);
+        if (order == null) return NotFound();
+        if (order.UserId != CurrentUserId) return Forbid();
+
+        return Ok(new { status = order.Status });
     }
 
     /// <summary>Lấy danh sách đơn hàng của user</summary>
@@ -117,9 +139,9 @@ public class OrderController : ApiControllerBase
     {
         return Ok(new object[]
         {
-            new { code = PackageCodes.JPD113, name = "JPD113", price = 80000, originalPrice = (int?)null, duration = "6 tháng", discount = (string?)null },
-            new { code = PackageCodes.JPD123, name = "JPD123", price = 100000, originalPrice = (int?)null, duration = "6 tháng", discount = (string?)null },
-            new { code = PackageCodes.Combo, name = "Combo JPD113 + JPD123", price = 150000, originalPrice = (int?)180000, duration = "6 tháng", discount = (string?)"Giảm 17%" }
+            new { code = PackageCodes.JPD113, name = "JPD113", price = 60000, originalPrice = (int?)null, duration = "6 tháng", discount = (string?)null },
+            new { code = PackageCodes.JPD123, name = "JPD123", price = 80000, originalPrice = (int?)null, duration = "6 tháng", discount = (string?)null },
+            new { code = PackageCodes.Combo, name = "Combo JPD113 + JPD123", price = 120000, originalPrice = (int?)140000, duration = "6 tháng", discount = (string?)"Giảm 14%" }
         });
     }
 
@@ -138,4 +160,4 @@ public class OrderController : ApiControllerBase
     }
 }
 
-public record CreateOrderRequest(string PackageCode);
+public record CreateOrderRequest(string PackageCode, string ReturnUrl = "", string CancelUrl = "");
