@@ -1,3 +1,4 @@
+using JPLearn.Infrastructure.Data;
 using JPLearn.Infrastructure.Data.Seed;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
