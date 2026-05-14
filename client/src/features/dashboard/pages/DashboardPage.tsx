@@ -41,20 +41,20 @@ export const DashboardPage = () => {
         </div>
       </section>
 
-      {/* Image Carousel Section (Fade Transition) */}
+      {/* Image Carousel Section (Fade Transition - Auto Fit) */}
       <div className="group relative overflow-hidden rounded-[2rem] border-4 border-white bg-white shadow-2xl">
-        <div className="relative aspect-[21/6] w-full">
+        <div className="relative w-full">
           {IMAGES.map((src, i) => (
             <div 
               key={i} 
-              className={`absolute inset-0 transition-opacity duration-1000 ease-in-out ${
+              className={`transition-opacity duration-1000 ease-in-out ${
                 currentIndex === i ? 'opacity-100 z-10' : 'opacity-0 z-0'
-              }`}
+              } ${i === 0 ? 'relative' : 'absolute inset-0'}`}
             >
               <img 
                 src={src} 
                 alt={`Feature ${i + 1}`} 
-                className="h-full w-full object-contain"
+                className="w-full h-auto object-cover block"
               />
             </div>
           ))}
