@@ -42,7 +42,7 @@ export const DashboardPage = () => {
       </section>
 
       {/* Image Carousel Section (Fade Transition) */}
-      <div className="group relative overflow-hidden rounded-[2rem] border-4 border-white bg-slate-200 shadow-2xl">
+      <div className="group relative overflow-hidden rounded-[2rem] border-4 border-white bg-white shadow-2xl">
         <div className="relative aspect-[21/6] w-full">
           {IMAGES.map((src, i) => (
             <div 
@@ -54,7 +54,7 @@ export const DashboardPage = () => {
               <img 
                 src={src} 
                 alt={`Feature ${i + 1}`} 
-                className="h-full w-full object-cover"
+                className="h-full w-full object-contain"
               />
             </div>
           ))}
