@@ -23,7 +23,7 @@ export const DashboardPage = () => {
   const prev = () => setCurrentIndex((prev) => (prev - 1 + IMAGES.length) % IMAGES.length);
 
   return (
-    <div className="mx-auto max-w-7xl space-y-8 p-4 md:p-8 animate-fade-in">
+    <div className="mx-auto max-w-5xl space-y-8 p-4 md:p-8 animate-fade-in">
       {/* Hero Welcome Section */}
       <section className="flex flex-col gap-6 lg:flex-row lg:items-center lg:justify-between">
         <div className="space-y-2">
