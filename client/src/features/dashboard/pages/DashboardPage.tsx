@@ -1,5 +1,14 @@
 import { useState, useEffect } from 'react';
-import { ChevronLeft, ChevronRight, Sparkles } from 'lucide-react';
+import { Link } from 'react-router-dom';
+import { 
+  ChevronLeft, 
+  ChevronRight, 
+  Sparkles, 
+  Castle, 
+  BookText, 
+  Brain, 
+  FileQuestion 
+} from 'lucide-react';
 
 const IMAGES = [
   '/scoll_1.jpg',
@@ -7,6 +16,13 @@ const IMAGES = [
   '/scoll_3.jpg',
   '/scoll_4.jpg',
   '/scoll_5.jpg',
+];
+
+const QUICK_FEATURES = [
+  { label: 'Hán tự', path: '/kanji', icon: <Castle size={24} /> },
+  { label: 'Từ vựng', path: '/vocabulary', icon: <BookText size={24} /> },
+  { label: 'Ngữ pháp', path: '/grammar', icon: <Brain size={24} /> },
+  { label: 'Luyện thi', path: '/exam', icon: <FileQuestion size={24} /> },
 ];
 
 export const DashboardPage = () => {
@@ -63,19 +79,19 @@ export const DashboardPage = () => {
         {/* Navigation Arrows */}
         <button 
           onClick={prev}
-          className="absolute left-4 top-1/2 -translate-y-1/2 rounded-full bg-white/20 p-3 text-white backdrop-blur-md transition-all hover:bg-white/40 group-hover:left-6"
+          className="absolute left-4 top-1/2 -translate-y-1/2 z-20 rounded-full bg-white/20 p-3 text-white backdrop-blur-md transition-all hover:bg-white/40 group-hover:left-6"
         >
           <ChevronLeft size={24} />
         </button>
         <button 
           onClick={next}
-          className="absolute right-4 top-1/2 -translate-y-1/2 rounded-full bg-white/20 p-3 text-white backdrop-blur-md transition-all hover:bg-white/40 group-hover:right-6"
+          className="absolute right-4 top-1/2 -translate-y-1/2 z-20 rounded-full bg-white/20 p-3 text-white backdrop-blur-md transition-all hover:bg-white/40 group-hover:right-6"
         >
           <ChevronRight size={24} />
         </button>
 
         {/* Indicators */}
-        <div className="absolute bottom-6 left-1/2 flex -translate-x-1/2 gap-2">
+        <div className="absolute bottom-6 left-1/2 z-20 flex -translate-x-1/2 gap-2">
           {IMAGES.map((_, i) => (
             <button
               key={i}
@@ -90,16 +106,21 @@ export const DashboardPage = () => {
 
       {/* Feature Quick Links Grid */}
       <div className="grid grid-cols-2 gap-4 md:grid-cols-4">
-         {['Hán tự', 'Từ vựng', 'Ngữ pháp', 'Luyện thi'].map((label, i) => (
-           <div key={i} className="rounded-3xl border-2 border-slate-100 bg-white p-6 transition-all hover:-translate-y-1 hover:border-blue-200 hover:shadow-xl">
-             <div className="mb-4 h-12 w-12 rounded-2xl bg-blue-50 text-blue-600 flex items-center justify-center">
-               <Sparkles size={24} />
+         {QUICK_FEATURES.map((item, i) => (
+           <Link 
+            key={i} 
+            to={item.path}
+            className="group/card rounded-3xl border-2 border-slate-100 bg-white p-6 transition-all hover:-translate-y-1 hover:border-blue-200 hover:shadow-xl"
+           >
+             <div className="mb-4 h-12 w-12 rounded-2xl bg-blue-50 text-blue-600 flex items-center justify-center transition-colors group-hover/card:bg-blue-600 group-hover/card:text-white">
+               {item.icon}
              </div>
-             <h3 className="font-bold text-slate-900">{label}</h3>
+             <h3 className="font-bold text-slate-900">{item.label}</h3>
              <p className="text-sm text-slate-500">Bắt đầu học ngay</p>
-           </div>
+           </Link>
          ))}
       </div>
     </div>
   );
 };
+
