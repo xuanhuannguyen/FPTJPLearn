@@ -205,9 +205,18 @@
   box-shadow: 0 6px 20px rgba(37, 99, 235, 0.4);
 }
 
-.pricing-card-btn:disabled {
+.pricing-card-btn:disabled:not(.pricing-card-btn--locked) {
   opacity: 0.6;
   cursor: wait;
+}
+
+.pricing-card-btn--locked {
+  background: #f1f5f9 !important;
+  color: #94a3b8 !important;
+  border-color: #e2e8f0 !important;
+  cursor: not-allowed !important;
+  box-shadow: none !important;
+  transform: none !important;
 }
 
 /* Spin animation */

@@ -41,6 +41,8 @@ export function PricingPage() {
     description: string;
     provider: string;
   } | null>(null);
+  const [activeCourses, setActiveCourses] = useState<string[]>([]);
+  const [isSubsLoading, setIsSubsLoading] = useState(false);
   const [timeLeft, setTimeLeft] = useState(300); // 5 minutes in seconds
   
   const { user } = useAuthStore();
@@ -88,6 +90,56 @@ export function PricingPage() {
     }
     return () => clearInterval(interval);
   }, [paymentData]);
+
+  // Fetch active subscriptions
+  useEffect(() => {
+    if (!user) return;
+    
+    const fetchSubscriptions = async () => {
+      try {
+        setIsSubsLoading(true);
+        const res = await apiClient.get('/orders/subscriptions');
+        const active = res.data
+          .filter((s: any) => s.isActive)
+          .map((s: any) => s.courseCode.toLowerCase());
+        setActiveCourses(active);
+      } catch (err) {
+        console.error('Fetch subscriptions error:', err);
+      } finally {
+        setIsSubsLoading(false);
+      }
+    };
+
+    fetchSubscriptions();
+  }, [user]);
+
+  const isPackageLocked = (packageCode: string) => {
+    const code = packageCode.toLowerCase();
+    const has113 = activeCourses.includes('jpd113');
+    const has123 = activeCourses.includes('jpd123');
+
+    if (code === 'jpd113') return has113;
+    if (code === 'jpd123') return has123;
+    if (code === 'combo') return has113 || has123;
+    
+    return false;
+  };
+
+  const getButtonText = (pkg: Package) => {
+    if (loading === pkg.code) return <><Loader2 size={16} className="spin" /> Đang xử lý...</>;
+    
+    const code = pkg.code.toLowerCase();
+    if (activeCourses.includes(code)) return 'Đã sở hữu';
+    
+    if (isPackageLocked(pkg.code)) {
+        if (code === 'combo' && (activeCourses.includes('jpd113') || activeCourses.includes('jpd123'))) {
+            return 'Không khả dụng';
+        }
+        return 'Đã sở hữu';
+    }
+
+    return 'Mua ngay';
+  };
 
   const handleBuy = async (packageCode: string) => {
     if (!user) {
@@ -164,15 +216,11 @@ export function PricingPage() {
             </ul>
 
             <button
-              className={`pricing-card-btn ${pkg.code === 'combo' ? 'pricing-card-btn--featured' : ''}`}
+              className={`pricing-card-btn ${pkg.code === 'combo' ? 'pricing-card-btn--featured' : ''} ${isPackageLocked(pkg.code) ? 'pricing-card-btn--locked' : ''}`}
               onClick={() => handleBuy(pkg.code)}
-              disabled={loading !== null}
+              disabled={loading !== null || isSubsLoading || isPackageLocked(pkg.code)}
             >
-              {loading === pkg.code ? (
-                <><Loader2 size={16} className="spin" /> Đang xử lý...</>
-              ) : (
-                'Mua ngay'
-              )}
+              {getButtonText(pkg)}
             </button>
           </div>
         ))}
