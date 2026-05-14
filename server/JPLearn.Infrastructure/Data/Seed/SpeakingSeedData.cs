@@ -23,10 +23,8 @@ public static partial class SpeakingSeedData
 
     private static async Task EnsureCoursesAsync(AppDbContext db)
     {
-        var existingCodes = await db.SpeakingCourses
-            .Select(course => course.Code)
-            .ToListAsync();
-        var existingSet = existingCodes.ToHashSet();
+        var existingCourses = await db.SpeakingCourses.ToListAsync();
+        var existingSet = existingCourses.Select(course => course.Code).ToHashSet();
 
         var courses = new[]
         {
@@ -55,7 +53,23 @@ public static partial class SpeakingSeedData
             }
         };
 
-        db.SpeakingCourses.AddRange(courses.Where(course => !existingSet.Contains(course.Code)));
+        foreach (var course in courses)
+        {
+            var existing = existingCourses.FirstOrDefault(item => item.Code == course.Code);
+            if (existing == null)
+            {
+                db.SpeakingCourses.Add(course);
+                continue;
+            }
+
+            existing.Title = course.Title;
+            existing.Description = course.Description;
+            existing.AccessTier = course.AccessTier;
+            existing.PackageCode = course.PackageCode;
+            existing.OrderIndex = course.OrderIndex;
+            existing.IsActive = true;
+            existing.UpdatedAt = SeededAt;
+        }
     }
 
     private static async Task EnsureLessonsAsync(AppDbContext db)

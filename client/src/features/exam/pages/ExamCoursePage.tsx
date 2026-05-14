@@ -1,6 +1,6 @@
 import { useEffect, useMemo, useState } from 'react';
 import { Link, useNavigate, useParams } from 'react-router-dom';
-import { ArrowLeft, BookOpenCheck, FileQuestion, Loader2, Play, Timer } from 'lucide-react';
+import { ArrowLeft, BookOpenCheck, Crown, FileQuestion, Loader2, Play, Timer } from 'lucide-react';
 import { examApi } from '../api/examApi';
 import type { ExamCourse, ExamTopic } from '../types/exam.types';
 
@@ -47,6 +47,7 @@ export const ExamCoursePage = () => {
 
   const totalQuestions = useMemo(() => topics.reduce((sum, t) => sum + t.questionCount, 0), [topics]);
   const firstTopic = topics.find((t) => t.questionCount > 0)?.topic;
+  const isLocked = course?.isLocked === true;
 
   const startExam = async () => {
     if (!courseCode) return;
@@ -109,6 +110,24 @@ export const ExamCoursePage = () => {
           <Loader2 size={36} className="mb-4 animate-spin text-accent-primary" />
           <p className="font-bold">Đang tải dữ liệu {courseTitle}...</p>
         </div>
+      ) : isLocked ? (
+        <section className="border-2 border-slate-900 bg-white p-6 text-center shadow-[8px_8px_0_#111827]">
+          <div className="mx-auto grid h-14 w-14 place-items-center rounded-xl bg-blue-100 text-blue-700">
+            <Crown size={28} />
+          </div>
+          <h2 className="mt-4 text-2xl font-black text-slate-900">Cần kích hoạt gói {courseCode?.toUpperCase()}</h2>
+          <p className="mx-auto mt-2 max-w-xl text-sm font-bold text-slate-600">
+            Tài khoản hiện tại chưa có quyền truy cập luyện thi {courseCode?.toUpperCase()}.
+          </p>
+          <button
+            type="button"
+            onClick={() => navigate('/pricing')}
+            className="mt-6 inline-flex h-11 items-center gap-2 border-2 border-slate-900 bg-[#2563EB] px-5 text-sm font-black text-white shadow-[4px_4px_0_#111827]"
+          >
+            <Crown size={17} />
+            Nâng cấp ngay
+          </button>
+        </section>
       ) : (
         <section className="grid gap-6 lg:grid-cols-2">
           {/* Study Mode */}

@@ -33,9 +33,12 @@ public class SpeakingService : ISpeakingService
             Code = course.Code,
             Title = course.Title,
             Description = course.Description,
-            AccessTier = course.AccessTier,
-            PackageCode = course.PackageCode,
-            IsLocked = _paymentAccess.IsContentLocked(userId, course.AccessTier, course.PackageCode ?? course.Code),
+            AccessTier = ResolveAccessTier(course.AccessTier, course.Code),
+            PackageCode = ResolvePackageCode(course.PackageCode, course.Code),
+            IsLocked = _paymentAccess.IsContentLocked(
+                userId,
+                ResolveAccessTier(course.AccessTier, course.Code),
+                ResolvePackageCode(course.PackageCode, course.Code)),
             LessonCount = course.Lessons.Count,
             SentenceCount = course.Lessons.SelectMany(lesson => lesson.Sentences).Count()
         }).ToList();
@@ -70,6 +73,14 @@ public class SpeakingService : ISpeakingService
             return null;
         }
 
+        if (_paymentAccess.IsContentLocked(
+            userId,
+            ResolveAccessTier(lesson.AccessTier, lesson.CourseCode),
+            ResolvePackageCode(lesson.PackageCode, lesson.CourseCode)))
+        {
+            return null;
+        }
+
         return new SpeakingLessonDetailDto
         {
             Lesson = MapLesson(userId, lesson),
@@ -90,11 +101,35 @@ public class SpeakingService : ISpeakingService
             LessonNumber = lesson.LessonNumber,
             Title = lesson.Title,
             Description = lesson.Description,
-            AccessTier = lesson.AccessTier,
-            PackageCode = lesson.PackageCode,
-            IsLocked = _paymentAccess.IsContentLocked(userId, lesson.AccessTier, lesson.PackageCode ?? lesson.CourseCode),
+            AccessTier = ResolveAccessTier(lesson.AccessTier, lesson.CourseCode),
+            PackageCode = ResolvePackageCode(lesson.PackageCode, lesson.CourseCode),
+            IsLocked = _paymentAccess.IsContentLocked(
+                userId,
+                ResolveAccessTier(lesson.AccessTier, lesson.CourseCode),
+                ResolvePackageCode(lesson.PackageCode, lesson.CourseCode)),
             SentenceCount = lesson.Sentences.Count(sentence => sentence.IsActive)
         };
+    }
+
+    private static string ResolveAccessTier(string? accessTier, string courseCode)
+    {
+        return SpeakingCourseCodes.Normalize(courseCode) == SpeakingCourseCodes.JPD123
+            ? SpeakingAccessTiers.Premium
+            : string.IsNullOrWhiteSpace(accessTier)
+                ? SpeakingAccessTiers.Free
+                : accessTier.Trim().ToLowerInvariant();
+    }
+
+    private static string? ResolvePackageCode(string? packageCode, string courseCode)
+    {
+        if (!string.IsNullOrWhiteSpace(packageCode))
+        {
+            return packageCode.Trim().ToLowerInvariant();
+        }
+
+        return SpeakingCourseCodes.Normalize(courseCode) == SpeakingCourseCodes.JPD123
+            ? "speaking_jpd123"
+            : null;
     }
 
     private static SpeakingSentenceDto MapSentence(SpeakingSentence sentence)

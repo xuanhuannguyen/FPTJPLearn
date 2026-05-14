@@ -43,9 +43,9 @@ public class ExamPracticeService : IExamPracticeService
             Code = course.Code,
             Title = course.Title,
             Description = course.Description,
-            AccessTier = course.AccessTier,
-            PackageCode = course.PackageCode,
-            IsLocked = _paymentAccess.IsContentLocked(userId, course.AccessTier, course.PackageCode ?? course.Code),
+            AccessTier = ResolveCourseAccessTier(course),
+            PackageCode = ResolveCoursePackageCode(course),
+            IsLocked = _paymentAccess.IsContentLocked(userId, ResolveCourseAccessTier(course), ResolveCoursePackageCode(course)),
             QuestionCount = questionCounts.FirstOrDefault(item => item.CourseCode == course.Code)?.Count ?? 0,
             PassageCount = passageCounts.FirstOrDefault(item => item.CourseCode == course.Code)?.Count ?? 0
         }).ToList();
@@ -373,16 +373,13 @@ public class ExamPracticeService : IExamPracticeService
     {
         var courses = await _db.ExamCourses
             .Where(course => course.IsActive)
-            .Select(course => new
-            {
-                course.Code,
-                course.AccessTier,
-                course.PackageCode
-            })
             .ToListAsync();
 
         return courses
-            .Where(course => _paymentAccess.HasContentAccess(userId, course.AccessTier, course.PackageCode))
+            .Where(course => _paymentAccess.HasContentAccess(
+                userId,
+                ResolveCourseAccessTier(course),
+                ResolveCoursePackageCode(course)))
             .Select(course => course.Code)
             .ToHashSet(StringComparer.OrdinalIgnoreCase);
     }
@@ -393,7 +390,23 @@ public class ExamPracticeService : IExamPracticeService
         {
             return true;
         }
-        return _paymentAccess.IsContentLocked(userId, course.AccessTier, course.PackageCode);
+        return _paymentAccess.IsContentLocked(userId, ResolveCourseAccessTier(course), ResolveCoursePackageCode(course));
+    }
+
+    private static string ResolveCourseAccessTier(ExamCourse course)
+    {
+        return course.Code == ExamCourseCodes.JPD123
+            ? PaymentAccessTiers.Premium
+            : string.IsNullOrWhiteSpace(course.AccessTier)
+                ? PaymentAccessTiers.Free
+                : course.AccessTier.Trim().ToLowerInvariant();
+    }
+
+    private static string ResolveCoursePackageCode(ExamCourse course)
+    {
+        return string.IsNullOrWhiteSpace(course.PackageCode)
+            ? course.Code
+            : course.PackageCode.Trim().ToLowerInvariant();
     }
 
     private IQueryable<ExamQuestion> BuildAttemptQuestionPool(StartExamAttemptDto dto)

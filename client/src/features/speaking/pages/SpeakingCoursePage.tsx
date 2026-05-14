@@ -72,8 +72,10 @@ export const SpeakingCoursePage = () => {
           {lessons.map((lesson) => (
             <Link
               key={lesson.id}
-              to={`/speaking/${courseCode}/lessons/${lesson.id}`}
-              className="interactive-surface group relative flex min-h-[118px] cursor-pointer gap-4 overflow-hidden rounded-[18px] p-3.5"
+              to={lesson.isLocked ? '/pricing' : `/speaking/${courseCode}/lessons/${lesson.id}`}
+              className={`interactive-surface group relative flex min-h-[118px] cursor-pointer gap-4 overflow-hidden rounded-[18px] p-3.5 ${
+                lesson.isLocked ? 'grayscale-[0.35]' : ''
+              }`}
             >
               <div className="absolute left-0 top-0 h-full w-2 bg-[#8B3A22]" />
 
@@ -98,7 +100,7 @@ export const SpeakingCoursePage = () => {
                     ) : null}
 
                     <p className="mt-2 text-[11px] font-black uppercase tracking-[0.14em] text-[#8B3A22]">
-                      {lesson.sentenceCount} câu đọc
+                      {lesson.isLocked ? 'Cần kích hoạt gói Premium' : `${lesson.sentenceCount} câu đọc`}
                     </p>
                   </div>
 
