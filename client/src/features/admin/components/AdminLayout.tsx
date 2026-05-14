@@ -32,11 +32,17 @@ export const AdminLayout = () => {
       
       if (!savedKey) {
         savedKey = window.prompt('Nhập mã bí mật Admin để tiếp tục:');
-        if (savedKey) {
-          localStorage.setItem('jplearn_admin_key', savedKey);
+        const normalizedKey = savedKey?.trim();
+        if (normalizedKey) {
+          localStorage.setItem('jplearn_admin_key', normalizedKey);
         } else {
           navigate('/');
           return;
+        }
+      } else {
+        const normalizedKey = savedKey.trim();
+        if (normalizedKey !== savedKey) {
+          localStorage.setItem('jplearn_admin_key', normalizedKey);
         }
       }
 

@@ -112,17 +112,18 @@ public class AdminExamQuestionsController : ApiControllerBase
 
     private IActionResult? EnsureAdminAccess()
     {
-        var configuredKey = _configuration.GetValue<string>("Admin:ApiKey");
+        var configuredKey = _configuration["AdminSettings:SecretKey"]
+            ?? _configuration.GetValue<string>("Admin:ApiKey");
         if (string.IsNullOrWhiteSpace(configuredKey))
         {
             return null;
         }
 
         var providedKey = Request.Headers.TryGetValue("X-Admin-Key", out var headerValues)
-            ? headerValues.FirstOrDefault()
+            ? headerValues.FirstOrDefault()?.Trim()
             : null;
 
-        return string.Equals(configuredKey, providedKey, StringComparison.Ordinal)
+        return string.Equals(configuredKey.Trim(), providedKey, StringComparison.Ordinal)
             ? null
             : Unauthorized(new { message = "Admin access is required." });
     }
