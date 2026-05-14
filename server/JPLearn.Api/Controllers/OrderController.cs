@@ -54,15 +54,17 @@ public class OrderController : ApiControllerBase
         _db.Orders.Add(order);
         await _db.SaveChangesAsync();
 
-        // Tạo link thanh toán
-        var result = await provider.CreatePaymentLinkAsync(order, request.ReturnUrl, request.CancelUrl);
+        // Tạo link thanh toán. Gắn orderId vào return/cancel URL để client có thể kiểm tra trạng thái sau khi PayOS redirect.
+        var returnUrl = AppendOrderId(request.ReturnUrl, order.Id);
+        var cancelUrl = AppendOrderId(request.CancelUrl, order.Id);
+        var result = await provider.CreatePaymentLinkAsync(order, returnUrl, cancelUrl);
         if (!result.Success)
         {
             // Provider chính lỗi → thử provider còn lại
             var fallback = _providers.FirstOrDefault(p => p.ProviderName != provider.ProviderName);
             if (fallback != null)
             {
-                result = await fallback.CreatePaymentLinkAsync(order, request.ReturnUrl, request.CancelUrl);
+                result = await fallback.CreatePaymentLinkAsync(order, returnUrl, cancelUrl);
                 order.Provider = fallback.ProviderName;
                 await _db.SaveChangesAsync();
             }
@@ -158,6 +160,17 @@ public class OrderController : ApiControllerBase
 
         // Xoay vòng: đơn chẵn → SePay, đơn lẻ → PayOS
         return providerList[todayOrderCount % providerList.Count];
+    }
+
+    private static string AppendOrderId(string url, Guid orderId)
+    {
+        if (string.IsNullOrWhiteSpace(url))
+        {
+            return url;
+        }
+
+        var separator = url.Contains('?') ? '&' : '?';
+        return $"{url}{separator}orderId={orderId}";
     }
 }
 
