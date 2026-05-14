@@ -41,18 +41,20 @@ export const DashboardPage = () => {
         </div>
       </section>
 
-      {/* Image Carousel Section */}
+      {/* Image Carousel Section (Fade Transition) */}
       <div className="group relative overflow-hidden rounded-[2rem] border-4 border-white bg-slate-200 shadow-2xl">
-        <div 
-          className="flex transition-transform duration-700 ease-in-out"
-          style={{ transform: `translateX(-${currentIndex * 100}%)` }}
-        >
+        <div className="relative aspect-[21/6] w-full">
           {IMAGES.map((src, i) => (
-            <div key={i} className="min-w-full shrink-0">
+            <div 
+              key={i} 
+              className={`absolute inset-0 transition-opacity duration-1000 ease-in-out ${
+                currentIndex === i ? 'opacity-100 z-10' : 'opacity-0 z-0'
+              }`}
+            >
               <img 
                 src={src} 
                 alt={`Feature ${i + 1}`} 
-                className="aspect-[21/6] w-full object-cover"
+                className="h-full w-full object-cover"
               />
             </div>
           ))}
