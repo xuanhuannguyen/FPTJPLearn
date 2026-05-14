@@ -15,13 +15,21 @@ export function useExamTimer(
   const [timeLeft, setTimeLeft] = useState(0);
   const timerRef = useRef<ReturnType<typeof setInterval> | undefined>(undefined);
   const onExpireRef = useRef(onExpire);
-  onExpireRef.current = onExpire;
+
+  useEffect(() => {
+    onExpireRef.current = onExpire;
+  }, [onExpire]);
 
   // Initialize time from attempt
   useEffect(() => {
     if (!attempt) return;
     const expiresAt = new Date(attempt.expiresAt).getTime();
-    setTimeLeft(Math.max(0, Math.floor((expiresAt - Date.now()) / 1000)));
+
+    const timer = window.setTimeout(() => {
+      setTimeLeft(Math.max(0, Math.floor((expiresAt - Date.now()) / 1000)));
+    }, 0);
+
+    return () => window.clearTimeout(timer);
   }, [attempt]);
 
   // Countdown

@@ -1,26 +1,42 @@
-import { useState, useEffect } from 'react';
+import { useCallback, useEffect, useState } from 'react';
 import { apiClient } from '../../../shared/api/axios';
-import { CreditCard, CheckCircle, XCircle, Clock, ExternalLink } from 'lucide-react';
+import { CreditCard, CheckCircle, Clock, Loader2 } from 'lucide-react';
+
+type OrderStatus = 'pending' | 'paid' | 'failed' | 'cancelled' | string;
+
+interface AdminOrder {
+  id: string;
+  userDisplayName: string;
+  userEmail: string;
+  packageCode: string;
+  amount: number;
+  provider: string;
+  status: OrderStatus;
+}
 
 export function AdminOrderManagerPage() {
-  const [orders, setOrders] = useState<any[]>([]);
-  const [loading, setLoading] = useState(true);
+  const [orders, setOrders] = useState<AdminOrder[]>([]);
+  const [isLoading, setIsLoading] = useState(true);
 
-  const fetchOrders = async () => {
-    setLoading(true);
+  const fetchOrders = useCallback(async () => {
+    setIsLoading(true);
     try {
-      const res = await apiClient.get('/admin/orders');
+      const res = await apiClient.get<AdminOrder[]>('/admin/orders');
       setOrders(res.data);
     } catch (err) {
       console.error(err);
     } finally {
-      setLoading(false);
+      setIsLoading(false);
     }
-  };
+  }, []);
 
   useEffect(() => {
-    fetchOrders();
-  }, []);
+    const timer = window.setTimeout(() => {
+      void fetchOrders();
+    }, 0);
+
+    return () => window.clearTimeout(timer);
+  }, [fetchOrders]);
 
   return (
     <div className="p-8 max-w-6xl mx-auto space-y-6">
@@ -46,6 +62,15 @@ export function AdminOrderManagerPage() {
             </tr>
           </thead>
           <tbody>
+            {isLoading ? (
+              <tr>
+                <td className="p-6 text-center text-sm font-bold text-slate-500" colSpan={6}>
+                  <span className="inline-flex items-center gap-2">
+                    <Loader2 size={18} className="animate-spin" /> Đang tải đơn hàng...
+                  </span>
+                </td>
+              </tr>
+            ) : null}
             {orders.map(o => (
               <tr key={o.id} className="border-b border-slate-100 last:border-0 hover:bg-slate-50">
                 <td className="p-4">

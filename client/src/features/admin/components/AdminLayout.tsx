@@ -3,6 +3,7 @@ import { BarChart3, FileQuestion, Home, Settings, Users, ShoppingCart, LogOut, L
 import { useEffect, useState } from 'react';
 import { Footer } from '../../../shared/components/Footer';
 import { apiClient } from '../../../shared/api/axios';
+import type { AxiosError } from 'axios';
 
 const ADMIN_PATH = '/jplearn-manage-xh21';
 
@@ -43,10 +44,11 @@ export const AdminLayout = () => {
         // Thực hiện verify key với server
         await apiClient.get('/admin/verify');
         setIsAuthorized(true);
-      } catch (error: any) {
+      } catch (error: unknown) {
         console.error('Admin verification failed:', error);
-        
-        if (error.response?.status === 401) {
+
+        const status = (error as AxiosError | undefined)?.response?.status;
+        if (status === 401) {
           localStorage.removeItem('jplearn_admin_key');
           alert('Mã bí mật không chính xác! Vui lòng kiểm tra lại.');
         } else {

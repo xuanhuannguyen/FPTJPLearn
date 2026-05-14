@@ -387,8 +387,12 @@ public class ExamPracticeService : IExamPracticeService
             .ToHashSet(StringComparer.OrdinalIgnoreCase);
     }
 
-    private bool IsCourseLocked(Guid userId, ExamCourse course)
+    private bool IsCourseLocked(Guid userId, ExamCourse? course)
     {
+        if (course == null)
+        {
+            return true;
+        }
         return _paymentAccess.IsContentLocked(userId, course.AccessTier, course.PackageCode);
     }
 
@@ -456,7 +460,7 @@ public class ExamPracticeService : IExamPracticeService
             QuestionType = question.QuestionType,
             Topic = question.Topic,
             CourseCode = question.CourseCode,
-            Level = question.Level,
+            Level = question.Level ?? string.Empty,
             QuestionText = question.QuestionText,
             PassageId = question.PassageId
         };
@@ -470,7 +474,7 @@ public class ExamPracticeService : IExamPracticeService
             QuestionType = question.QuestionType,
             Topic = question.Topic,
             CourseCode = question.CourseCode,
-            Level = question.Level,
+            Level = question.Level ?? string.Empty,
             QuestionText = question.QuestionText,
             PassageId = question.PassageId,
             Passage = question.Passage == null ? null : MapPassage(question.Passage),
@@ -504,20 +508,20 @@ public class ExamPracticeService : IExamPracticeService
                     return new ExamAttemptQuestionDto
                     {
                         Id = question.Id,
-                        QuestionType = question.QuestionType,
-                        Topic = question.Topic,
-                        CourseCode = question.CourseCode,
-                        Level = question.Level,
-                        QuestionText = question.QuestionText,
-                        PassageId = question.PassageId,
-                        Passage = question.Passage == null ? null : MapPassage(question.Passage),
-                        Options = question.Options.OrderBy(option => option.OrderIndex).Select(MapOption).ToList(),
-                        AttemptAnswerId = answer.Id,
-                        SelectedOptionId = answer.SelectedOptionId,
-                        IsCorrect = attempt.Status == ExamAttemptStatuses.InProgress ? null : answer.IsCorrect,
-                        SequenceNumber = answer.SequenceNumber
-                    };
-                })
+                         QuestionType = question.QuestionType,
+                         Topic = question.Topic,
+                         CourseCode = question.CourseCode,
+                         Level = question.Level ?? string.Empty,
+                         QuestionText = question.QuestionText,
+                         PassageId = question.PassageId,
+                         Passage = question.Passage == null ? null : MapPassage(question.Passage),
+                         Options = question.Options.OrderBy(option => option.OrderIndex).Select(MapOption).ToList(),
+                         AttemptAnswerId = answer.Id,
+                         SelectedOptionId = answer.SelectedOptionId,
+                         IsCorrect = attempt.Status == ExamAttemptStatuses.InProgress ? null : answer.IsCorrect,
+                         SequenceNumber = answer.SequenceNumber
+                     };
+                 })
                 .ToList()
         };
     }
@@ -544,21 +548,21 @@ public class ExamPracticeService : IExamPracticeService
                     return new ExamAttemptReviewQuestionDto
                     {
                         Id = question.Id,
-                        QuestionType = question.QuestionType,
-                        Topic = question.Topic,
-                        CourseCode = question.CourseCode,
-                        Level = question.Level,
-                        QuestionText = question.QuestionText,
-                        PassageId = question.PassageId,
-                        Passage = question.Passage == null ? null : MapPassage(question.Passage),
-                        Options = question.Options.OrderBy(option => option.OrderIndex).Select(MapReviewOption).ToList(),
-                        SelectedOptionId = answer.SelectedOptionId,
-                        CorrectOptionId = correctOption.Id,
-                        IsCorrect = answer.IsCorrect == true,
-                        Explanation = question.Explanation,
-                        SequenceNumber = answer.SequenceNumber
-                    };
-                })
+                         QuestionType = question.QuestionType,
+                         Topic = question.Topic,
+                         CourseCode = question.CourseCode,
+                         Level = question.Level ?? string.Empty,
+                         QuestionText = question.QuestionText,
+                         PassageId = question.PassageId,
+                         Passage = question.Passage == null ? null : MapPassage(question.Passage),
+                         Options = question.Options.OrderBy(option => option.OrderIndex).Select(MapReviewOption).ToList(),
+                         SelectedOptionId = answer.SelectedOptionId,
+                         CorrectOptionId = correctOption.Id,
+                         IsCorrect = answer.IsCorrect == true,
+                         Explanation = question.Explanation,
+                         SequenceNumber = answer.SequenceNumber
+                     };
+                 })
                 .ToList()
         };
     }

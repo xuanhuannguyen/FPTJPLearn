@@ -50,7 +50,7 @@
           "wordType": "Danh từ",
           "meaning": "Đất nước",
           "exampleJapanese": "国はどこですか。",
-          "exampleReading": "くにわどこですか。",
+          "exampleReading": "くにはどこですか。",
           "exampleMeaning": "Đất nước của bạn ở đâu?",
           "notes": "",
           "orderIndex": 4
@@ -61,7 +61,7 @@
           "wordType": "Danh từ",
           "meaning": "Đất nước (lịch sự)",
           "exampleJapanese": "お国はどちらですか。",
-          "exampleReading": "おくにわどちらですか。",
+          "exampleReading": "お国はどちらですか。",
           "exampleMeaning": "Quý quốc ở đâu ạ?",
           "notes": "",
           "orderIndex": 5
@@ -105,7 +105,7 @@
           "wordType": "Danh từ",
           "meaning": "Mỹ",
           "exampleJapanese": "アメリカ人です。",
-          "exampleReading": "あめりかじんあです。",
+          "exampleReading": "あめりかじんです。",
           "exampleMeaning": "Là người Mỹ.",
           "notes": "",
           "orderIndex": 9
@@ -259,7 +259,7 @@
           "wordType": "Danh từ",
           "meaning": "Giáo viên",
           "exampleJapanese": "私は教師です。",
-          "exampleReading": "わたしわきょうしです。",
+          "exampleReading": "わたしはきょうしです。",
           "exampleMeaning": "Tôi là giáo viên.",
           "notes": "Dùng để nói về nghề nghiệp bản thân",
           "orderIndex": 23
@@ -1258,7 +1258,7 @@
       "id": 4,
       "title": "2-1: Địa điểm mua sắm",
       "description": "Học về các địa điểm và đồ vật trong trung tâm mua sắm",
-      "accessTier": "free",
+      "accessTier": "premium",
       "packageCode": "jpd113",
       "orderIndex": 4,
       "items": [
@@ -1730,7 +1730,7 @@
       "id": 5,
       "title": "2-2: Đồ vật và số đếm",
       "description": "Học về đại từ chỉ vật và số đếm hàng trăm, hàng nghìn",
-      "accessTier": "free",
+      "accessTier": "premium",
       "packageCode": "jpd113",
       "orderIndex": 5,
       "items": [
@@ -2290,7 +2290,7 @@
       "id": 6,
       "title": "2-3: Đồ ăn và gọi món",
       "description": "Học cách gọi món và đếm vật dụng ăn uống",
-      "accessTier": "free",
+      "accessTier": "premium",
       "packageCode": "jpd113",
       "orderIndex": 6,
       "items": [
@@ -2773,7 +2773,7 @@
       "id": 7,
       "title": "3-1: Thời gian và địa điểm",
       "description": "Học về giờ giấc và các địa điểm công cộng",
-      "accessTier": "free",
+      "accessTier": "premium",
       "packageCode": "jpd113",
       "orderIndex": 7,
       "items": [
@@ -3113,7 +3113,7 @@
       "id": 8,
       "title": "3-2: Hoạt động và mùa",
       "description": "Học về các hoạt động giải trí và bốn mùa trong năm",
-      "accessTier": "free",
+      "accessTier": "premium",
       "packageCode": "jpd113",
       "orderIndex": 8,
       "items": [
@@ -3464,7 +3464,7 @@
       "id": 9,
       "title": "3-3: Sinh hoạt hằng ngày",
       "description": "Học về các hoạt động thường nhật và vật dụng sinh hoạt",
-      "accessTier": "free",
+      "accessTier": "premium",
       "packageCode": "jpd113",
       "orderIndex": 9,
       "items": [

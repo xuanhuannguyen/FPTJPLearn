@@ -88,7 +88,7 @@
           "orderIndex": 5,
           "examples": [
             { "japanese": "さとさんは日本人じゃありません。", "reading": "さとさんはにほんじんじゃありません。", "meaning": "Bạn Sato không phải là người Nhật.", "orderIndex": 1 },
-            { "japanese": "私は学生じゃありません。", "reading": "わたしはgあくせいじゃありません。", "meaning": "Tôi không phải là sinh viên.", "orderIndex": 2 },
+            { "japanese": "私は学生じゃありません。", "reading": "わたしはがくせいじゃありません。", "meaning": "Tôi không phải là sinh viên.", "orderIndex": 2 },
             { "japanese": "ミラーさんはアメリカ人じゃありません。", "reading": "ミラーさんはアメリカじんじゃありません。", "meaning": "Anh Miller không phải là người Mỹ.", "orderIndex": 3 },
             { "japanese": "ここは食堂じゃありません。", "reading": "ここはしょくどうじゃありません。", "meaning": "Ở đây không phải là nhà ăn.", "orderIndex": 4 },
             { "japanese": "今日は日曜日じゃありません。", "reading": "きょうはにちようびじゃありません。", "meaning": "Hôm nay không phải là chủ nhật.", "orderIndex": 5 }
@@ -107,7 +107,7 @@
             { "japanese": "私の趣味は旅行と料理です。", "reading": "わたしのしゅみはりょこうとりょうりです。", "meaning": "Sở thích của tôi là du lịch và nấu ăn.", "orderIndex": 1 },
             { "japanese": "アンさんとワンさんは友達です。", "reading": "アンさんとワンさんはともだちです。", "meaning": "Bạn An và bạn Wan là bạn bè.", "orderIndex": 2 },
             { "japanese": "机の上に本と雑誌があります。", "reading": "つくえのうえにほんとざっしがあります。", "meaning": "Trên bàn có sách và tạp chí.", "orderIndex": 3 },
-            { "japanese": "朝ごはんはパンと卵です。", "reading": "あさごはんはおぱんとたまごです。", "meaning": "Bữa sáng là bánh mì và trứng.", "orderIndex": 4 },
+            { "japanese": "朝ごはんはパンと卵です。", "reading": "あさごはんはパンとたまごです。", "meaning": "Bữa sáng là bánh mì và trứng.", "orderIndex": 4 },
             { "japanese": "お土産は時計とカメラです。", "reading": "おみやげはとけいとかめらです。", "meaning": "Quà lưu niệm là đồng hồ và máy ảnh.", "orderIndex": 5 }
           ]
         },
@@ -151,7 +151,7 @@
       "lessonNumber": 2,
       "title": "Vị trí, Giá cả và Xuất xứ",
       "description": "Học cách hỏi vị trí, số tầng, giá tiền, nội dung, xuất xứ và sở hữu.",
-      "accessTier": "free",
+      "accessTier": "premium",
       "orderIndex": 2,
       "patterns": [
         {
@@ -262,7 +262,7 @@
       "lessonNumber": 3,
       "title": "Hành động, Thời gian và Địa điểm",
       "description": "Học về động từ thể ます, các trợ từ chỉ hành động, thời gian, địa điểm và cách liệt kê.",
-      "accessTier": "free",
+      "accessTier": "premium",
       "orderIndex": 3,
       "patterns": [
         {
@@ -309,7 +309,7 @@
           "notes": "Trợ từ を phát âm là 'o'.",
           "orderIndex": 3,
           "examples": [
-            { "japanese": "私は毎日、コーヒーを飲みます。", "reading": "わたしはまいにち、コーヒーをのみます。", "meaning": "Mỗi sáng tôi uống cà phê.", "orderIndex": 1 },
+            { "japanese": "私は毎日、コーヒーを飲みます。", "reading": "わたしはまいにち、コーヒーをのみます。", "meaning": "Mỗi ngày tôi đều uống cà phê.", "orderIndex": 1 },
             { "japanese": "毎晩、テレビを見ます。", "reading": "まいばん、テレビをみます。", "meaning": "Mỗi tối tôi đều xem tivi.", "orderIndex": 2 },
             { "japanese": "リンゴを食べます。", "reading": "りんごをたべます。", "meaning": "Tôi ăn táo.", "orderIndex": 3 },
             { "japanese": "音楽を聞きます。", "reading": "おんがくをききます。", "meaning": "Tôi nghe nhạc.", "orderIndex": 4 },

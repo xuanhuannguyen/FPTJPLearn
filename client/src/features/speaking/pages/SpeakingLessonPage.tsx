@@ -11,6 +11,7 @@ export const SpeakingLessonPage = () => {
   const [lessons, setLessons] = useState<SpeakingLesson[]>([]);
   const [showMeaning, setShowMeaning] = useState(true);
   const [showReading, setShowReading] = useState(true);
+  const [showRomaji, setShowRomaji] = useState(false);
   const [isLoading, setIsLoading] = useState(true);
   const [error, setError] = useState('');
 
@@ -132,6 +133,18 @@ export const SpeakingLessonPage = () => {
             <Eye size={17} />
             Cách đọc Kanji
           </button>
+          <button
+            type="button"
+            onClick={() => setShowRomaji((value) => !value)}
+            className={`inline-flex h-11 items-center gap-2 rounded-full border-2 px-4 text-sm font-black shadow-[3px_3px_0_#111827] transition-all ${
+              showRomaji
+                ? 'border-slate-900 bg-blue-600 text-white'
+                : 'border-slate-300 bg-slate-100 text-slate-500'
+            }`}
+          >
+            <span className="text-xs">Abc</span>
+            Romaji
+          </button>
         </div>
       </header>
 
@@ -163,6 +176,12 @@ export const SpeakingLessonPage = () => {
                 className={`speaking-content ${showReading ? 'speaking-reading-on' : 'speaking-reading-hover'}`}
                 dangerouslySetInnerHTML={{ __html: sentence.contentHtml }}
               />
+
+              {showRomaji && sentence.romaji && (
+                <p className="mt-2 text-sm font-bold tracking-wide text-blue-600/80">
+                  {sentence.romaji}
+                </p>
+              )}
 
               {showMeaning ? (
                 <p className="mt-3 border-t border-dashed border-[#eadfd6] pt-3 text-base font-bold leading-6 text-[#756a62]">

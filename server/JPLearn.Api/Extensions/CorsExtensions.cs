@@ -34,10 +34,8 @@ public static class CorsExtensions
     {
         if (string.IsNullOrEmpty(origin)) return false;
 
-        if (origin.Contains("pinggy-free.link") || origin.Contains("ngrok-free.app") || origin.Contains("run.place"))
-        {
-            return true;
-        }
+        // Remove local tunnels for security
+        // if (origin.Contains("pinggy-free.link") || origin.Contains("ngrok-free.app") || origin.Contains("run.place")) return true;
 
         if (!Uri.TryCreate(origin, UriKind.Absolute, out var uri))
         {

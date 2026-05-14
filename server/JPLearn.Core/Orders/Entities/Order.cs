@@ -5,6 +5,7 @@ namespace JPLearn.Core.Orders.Entities;
 public class Order : BaseEntity
 {
     public Guid UserId { get; set; }
+    public long OrderCode { get; set; } // Numeric code for providers like PayOS
     public string PackageCode { get; set; } = string.Empty; // jpd113, jpd123, combo
     public decimal Amount { get; set; }
     public string Status { get; set; } = OrderStatuses.Pending;

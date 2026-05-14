@@ -1084,7 +1084,7 @@ kvg:type CDATA #IMPLIED >
         var lesson2Id = Guid.Parse("5ef50301-f4f5-5cc9-a8a0-c49fe2168bd8");
         if (!await db.KanjiLessons.AnyAsync(l => l.Id == lesson2Id))
         {
-            db.KanjiLessons.Add(new KanjiLesson { Id = lesson2Id, Level = "N5", LessonNumber = 2, Title = "Số đếm và Đơn vị tiền tệ", Description = "Số đếm và Đơn vị tiền tệ - JPD113 Kanji N5.", AccessTier = "free", PackageCode = "kanji_jpd113", OrderIndex = 2, CreatedAt = SeededAt, UpdatedAt = SeededAt });
+            db.KanjiLessons.Add(new KanjiLesson { Id = lesson2Id, Level = "N5", LessonNumber = 2, Title = "Số đếm và Đơn vị tiền tệ", Description = "Số đếm và Đơn vị tiền tệ - JPD113 Kanji N5.", AccessTier = "premium", PackageCode = "kanji_jpd113", OrderIndex = 2, CreatedAt = SeededAt, UpdatedAt = SeededAt });
         }
 
         var kanjiItems2 = new List<KanjiItem>
@@ -2725,7 +2725,7 @@ kvg:type CDATA #IMPLIED >
         var lesson3Id = Guid.Parse("d7b94290-67f0-5d2c-bb16-88d3b4d23d7e");
         if (!await db.KanjiLessons.AnyAsync(l => l.Id == lesson3Id))
         {
-            db.KanjiLessons.Add(new KanjiLesson { Id = lesson3Id, Level = "N5", LessonNumber = 3, Title = "Thời gian và Ngày trong tuần", Description = "Thời gian và Ngày trong tuần - JPD113 Kanji N5.", AccessTier = "free", PackageCode = "kanji_jpd113", OrderIndex = 3, CreatedAt = SeededAt, UpdatedAt = SeededAt });
+            db.KanjiLessons.Add(new KanjiLesson { Id = lesson3Id, Level = "N5", LessonNumber = 3, Title = "Thời gian và Ngày trong tuần", Description = "Thời gian và Ngày trong tuần - JPD113 Kanji N5.", AccessTier = "premium", PackageCode = "kanji_jpd113", OrderIndex = 3, CreatedAt = SeededAt, UpdatedAt = SeededAt });
         }
 
         var kanjiItems3 = new List<KanjiItem>
@@ -3950,7 +3950,7 @@ kvg:type CDATA #IMPLIED >
         var lesson4Id = Guid.Parse("dbebdd02-f36c-58da-9c3f-8335e2f73e18");
         if (!await db.KanjiLessons.AnyAsync(l => l.Id == lesson4Id))
         {
-            db.KanjiLessons.Add(new KanjiLesson { Id = lesson4Id, Level = "N3", LessonNumber = 4, Title = "Địa điểm và Phương hướng", Description = "Địa điểm và Phương hướng - JPD123 Kanji N3.", AccessTier = "free", PackageCode = "kanji_jpd123", OrderIndex = 4, CreatedAt = SeededAt, UpdatedAt = SeededAt });
+            db.KanjiLessons.Add(new KanjiLesson { Id = lesson4Id, Level = "N3", LessonNumber = 4, Title = "Địa điểm và Phương hướng", Description = "Địa điểm và Phương hướng - JPD123 Kanji N3.", AccessTier = "premium", PackageCode = "kanji_jpd123", OrderIndex = 4, CreatedAt = SeededAt, UpdatedAt = SeededAt });
         }
 
         var kanjiItems4 = new List<KanjiItem>
@@ -4977,7 +4977,7 @@ kvg:type CDATA #IMPLIED >
         var lesson5Id = Guid.Parse("d3096310-4ab4-55d7-9084-720334835ccc");
         if (!await db.KanjiLessons.AnyAsync(l => l.Id == lesson5Id))
         {
-            db.KanjiLessons.Add(new KanjiLesson { Id = lesson5Id, Level = "N3", LessonNumber = 5, Title = "Hành động và Nghỉ ngơi", Description = "Hành động và Nghỉ ngơi - JPD123 Kanji N3.", AccessTier = "free", PackageCode = "kanji_jpd123", OrderIndex = 5, CreatedAt = SeededAt, UpdatedAt = SeededAt });
+            db.KanjiLessons.Add(new KanjiLesson { Id = lesson5Id, Level = "N3", LessonNumber = 5, Title = "Hành động và Nghỉ ngơi", Description = "Hành động và Nghỉ ngơi - JPD123 Kanji N3.", AccessTier = "premium", PackageCode = "kanji_jpd123", OrderIndex = 5, CreatedAt = SeededAt, UpdatedAt = SeededAt });
         }
 
         var kanjiItems5 = new List<KanjiItem>
@@ -6388,7 +6388,7 @@ kvg:type CDATA #IMPLIED >
         var lesson6Id = Guid.Parse("7e64f2ed-a054-568a-8109-16708122f2f3");
         if (!await db.KanjiLessons.AnyAsync(l => l.Id == lesson6Id))
         {
-            db.KanjiLessons.Add(new KanjiLesson { Id = lesson6Id, Level = "N3", LessonNumber = 6, Title = "Giao tiếp và Sinh hoạt", Description = "Giao tiếp và Sinh hoạt - JPD123 Kanji N3.", AccessTier = "free", PackageCode = "kanji_jpd123", OrderIndex = 6, CreatedAt = SeededAt, UpdatedAt = SeededAt });
+            db.KanjiLessons.Add(new KanjiLesson { Id = lesson6Id, Level = "N3", LessonNumber = 6, Title = "Giao tiếp và Sinh hoạt", Description = "Giao tiếp và Sinh hoạt - JPD123 Kanji N3.", AccessTier = "premium", PackageCode = "kanji_jpd123", OrderIndex = 6, CreatedAt = SeededAt, UpdatedAt = SeededAt });
         }
 
         var kanjiItems6 = new List<KanjiItem>
@@ -7723,7 +7723,7 @@ kvg:type CDATA #IMPLIED >
         var lesson7Id = Guid.Parse("870a45b6-b242-5803-a0e5-35effe8ece29");
         if (!await db.KanjiLessons.AnyAsync(l => l.Id == lesson7Id))
         {
-            db.KanjiLessons.Add(new KanjiLesson { Id = lesson7Id, Level = "N3", LessonNumber = 7, Title = "Tự nhiên và Cơ bản", Description = "Tự nhiên và Cơ bản - JPD123 Kanji N3.", AccessTier = "free", PackageCode = "kanji_jpd123", OrderIndex = 7, CreatedAt = SeededAt, UpdatedAt = SeededAt });
+            db.KanjiLessons.Add(new KanjiLesson { Id = lesson7Id, Level = "N3", LessonNumber = 7, Title = "Tự nhiên và Cơ bản", Description = "Tự nhiên và Cơ bản - JPD123 Kanji N3.", AccessTier = "premium", PackageCode = "kanji_jpd123", OrderIndex = 7, CreatedAt = SeededAt, UpdatedAt = SeededAt });
         }
 
         var kanjiItems7 = new List<KanjiItem>

@@ -1,4 +1,4 @@
-import { Phone, User, Globe, MessageSquare, GraduationCap, Link2 } from 'lucide-react';
+import { Phone, Globe, MessageSquare, GraduationCap, Link2 } from 'lucide-react';
 
 export const Footer = () => {
   return (

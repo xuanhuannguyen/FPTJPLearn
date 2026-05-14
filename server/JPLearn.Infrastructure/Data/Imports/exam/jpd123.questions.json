@@ -60,7 +60,7 @@
     {
       "id": 5,
       "title": "Đoạn văn 5",
-      "content": "マルコ：メアリーさん、こんどの 土曜日に しぶやで ジャズの コンサートが あります. いっしょに 行きませんか.\nメアリー：いいですね. コンサートは ( 1 ) からですか.\nマルコ：午後 2時から 4時までです.\nメアリー：じゃあ、1時に 上野駅で 会いましょう.\nマルコ：上野に おいしい おこのみやき屋が ありますよ. そこで 食べましょう.\nメアリー：いいですね. なんで 行きますか.\nマルコ：地下鉄で 行きませんか.\nメアリー：JRno ほうが いいですよ.\nマルコ：じゃあ、JRで 行きます.",
+      "content": "マルコ：メアリーさん、こんどの 土曜日に しぶやで ジャズの コンサートが あります. いっしょに 行きませんか.\nメアリー：いいですね. コンサートは ( 1 ) からですか.\nマルコ：午後 2時から 4時までです.\nメアリー：じゃあ、1時に 上野駅で 会いましょう.\nマルコ：上野に おいしい おこのみやき屋が ありますよ. そこで 食べましょう.\nメアリー：いいですね. なんで 行きますか.\nマルコ：地下鉄で 行きませんか.\nメアリー：JRの ほうが いいですよ.\nマルコ：じゃあ、JRで 行きます.",
       "topic": "reading",
       "level": "N4"
     },
@@ -81,21 +81,21 @@
     {
       "id": 8,
       "title": "Đoạn văn 8",
-      "content": "鈴木さんは わたしの ともだちです. 鈴木さんは 大学で 英語を 勉強しています. 鈴木さんは りょうりが とても すきです. ときどき こうえんへ 行きます. ( ) さんぽします.",
+      "content": "鈴木さんは わたしの ともだちです. 鈴木さんは 大学で 英語を 勉強しています. 鈴木さんは りょうりが とても すきです. ときどき こうえんへ 行きます。 ( ) さんぽします.",
       "topic": "reading",
       "level": "N4"
     },
     {
       "id": 9,
       "title": "Đoạn văn 9",
-      "content": "きのうは てんきが (①) から、どこへも 行きませんでした. 午後、ルームメートと DVDwo (②). DVDha あまり (③). 9時から 10時まで 日本語を (④).",
+      "content": "きのうは てんきが (①) から、どこへも 行きませんでした. 午後、ルームメートと DVDを (②). DVDは あまり (③). 9時から 10時まで 日本語を (④).",
       "topic": "reading",
       "level": "N4"
     },
     {
       "id": 10,
       "title": "Đoạn văn 10",
-      "content": "土曜日、ともだちの うちで パーティーが ありました. ともだちの たんじょうび パーティーでした. とても(1)____. 日本の 料理を たべました. とても おいしかったです. 日曜日、デパートへ (2)____ に 行きました. デパートで くつと Tシャツ को かいました. くつは あまり たかくなかったです.",
+      "content": "土曜日、ともだちの うちで パーティーが ありました. ともだちの たんじょうび パーティーでした. とても(1)____. 日本の 料理を たべました. とても おいしかったです. 日曜日、デパートへ (2)____ に 行きました. デパートで くつと Tシャツ を かいました. くつは あまり たかくなかったです.",
       "topic": "reading",
       "level": "N4"
     }
@@ -204,7 +204,7 @@
       "topic": "kanji",
       "level": "N4",
       "questionText": "【先週】、ほっかいどうへ いきました。(Các chữ Hán trong ngoặc [ ] có cách đọc tương ứng như thế nào?)",
-      "explanation": "Chữ Hán '先週' (tiên ちゅ - tuần trước) có cách đọc là 'せんしゅう'.",
+      "explanation": "Chữ Hán '先週' (tiên chu - tuần trước) có cách đọc là 'せんしゅう'.",
       "orderIndex": 4,
       "options": [
         {
@@ -364,7 +364,7 @@
       "topic": "grammar",
       "level": "N4",
       "questionText": "A: とうきょうから アユタヤまで ( ) ですか。 B: ひこうきで 6時間くらいです。(Chọn đáp án thích hợp để điền vào chỗ trống)",
-      "explanation": "Câu hỏi về thời gian/khoảng cách tiêu tốn ばo lâu dùng 'どのくらい'.",
+      "explanation": "Câu hỏi về thời gian/khoảng cách tiêu tốn bao lâu dùng 'どのくらい'.",
       "orderIndex": 9,
       "options": [
         {
@@ -2891,7 +2891,7 @@
       "type": "standalone",
       "topic": "vocabulary",
       "level": "N4",
-      "questionText": "ナタポンさん( )DVDwoかします。",
+      "questionText": "ナタポンさん( )DVDをかします。",
       "explanation": "Động từ 'かします' (ちょ mượn) đi với trợ từ 'に' để chỉ người mượn (đối tượng nhận hành động).",
       "orderIndex": 91,
       "options": [
@@ -4972,7 +4972,7 @@
       "topic": "vocabulary",
       "level": "N4",
       "questionText": "ハノイ( )ホーチミン( )どちらが 大きいですか。",
-      "explanation": "Cấu trúc so sánh giữa hai đối tượng: A to B to どchira ga... (giữa A và B cái nào... hơn).",
+      "explanation": "Cấu trúc so sánh giữa hai đối tượng: A to B to どchira ga..。 (giữa A và B cái nào... hơn).",
       "orderIndex": 169,
       "options": [
         {
@@ -9568,7 +9568,7 @@
         },
         {
           "label": "D",
-          "text": "問きます",
+          "text": "歩きます",
           "isCorrect": false
         }
       ]
@@ -12555,7 +12555,7 @@
       "type": "reading",
       "topic": "reading",
       "level": "N4",
-      "questionText": "Đọc hiểu 2: Hãy chọn từ thích hợp điền vào ②: 午後、ルームメートと DVDwo (②)。",
+      "questionText": "Đọc hiểu 2: Hãy chọn từ thích hợp điền vào ②: 午後、ルームメートと DVDを (②)。",
       "explanation": "Bài văn đang kể về các sự kiện đã xảy ra ngày hôm qua (きのう) nên dùng thì quá khứ 'みました'.",
       "orderIndex": 454,
       "options": [
@@ -12619,7 +12619,7 @@
       "type": "reading",
       "topic": "reading",
       "level": "N4",
-      "questionText": "Đọc hiểu 2: Hãy chọn từ thích hợp điền vào ③: DVDwo... あまり (③)。",
+      "questionText": "Đọc hiểu 2: Hãy chọn từ thích hợp điền vào ③: DVDを... あまり (③)。",
       "explanation": "Trạng từ 'あまり' đi với thể phủ định. Vì kể chuyện quá khứ nên chọn 'おもしろくなかった です'.",
       "orderIndex": 456,
       "options": [

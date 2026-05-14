@@ -27,6 +27,7 @@ export interface SpeakingSentence {
   lessonId: string;
   sentenceNumber: number;
   plainText: string;
+  romaji: string;
   contentHtml: string;
   meaningVi: string;
   orderIndex: number;

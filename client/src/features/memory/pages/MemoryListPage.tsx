@@ -71,10 +71,7 @@ export const MemoryListPage = () => {
   const config = useMemo(() => (type ? getMemoryTypeConfig(type) : null), [type]);
 
   useEffect(() => {
-    if (!type) {
-      setIsLoading(false);
-      return;
-    }
+    if (!type) return;
 
     let cancelled = false;
 

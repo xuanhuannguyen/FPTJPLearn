@@ -48,21 +48,30 @@ export function PricingPage() {
 
   // Countdown timer for payment session
   useEffect(() => {
-    let timer: any;
+    let timer: ReturnType<typeof window.setInterval> | undefined;
     if (paymentData && timeLeft > 0) {
       timer = setInterval(() => {
         setTimeLeft(prev => prev - 1);
       }, 1000);
-    } else if (timeLeft === 0 && paymentData) {
-      alert('Đã hết thời gian thanh toán. Vui lòng tạo đơn hàng mới.');
-      setPaymentData(null);
     }
     return () => clearInterval(timer);
   }, [paymentData, timeLeft]);
 
+  useEffect(() => {
+    if (!paymentData) return;
+    if (timeLeft !== 0) return;
+
+    const timer = window.setTimeout(() => {
+      alert('Đã hết thời gian thanh toán. Vui lòng tạo đơn hàng mới.');
+      setPaymentData(null);
+    }, 0);
+
+    return () => window.clearTimeout(timer);
+  }, [paymentData, timeLeft]);
+
   // Polling for payment status
   useEffect(() => {
-    let interval: any;
+    let interval: ReturnType<typeof window.setInterval> | undefined;
     if (paymentData && paymentData.provider === 'SePay') {
       interval = setInterval(async () => {
         try {
@@ -104,7 +113,7 @@ export function PricingPage() {
           provider
         });
       } else {
-        window.location.href = paymentUrl;
+        window.location.assign(paymentUrl);
       }
     } catch (err) {
       console.error('Payment error:', err);

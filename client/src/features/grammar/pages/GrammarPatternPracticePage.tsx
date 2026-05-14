@@ -9,11 +9,13 @@ import {
 } from 'lucide-react';
 import { grammarApi } from '../api/grammarApi';
 import {
+  GrammarPracticeCard,
+} from '../components/GrammarPracticeCard';
+import {
   emptyGrammarExerciseState,
   getGrammarExerciseState,
-  GrammarPracticeCard,
   type GrammarExerciseState,
-} from '../components/GrammarPracticeCard';
+} from '../utils/grammarExerciseState';
 import type {
   GrammarExercise,
   GrammarExerciseType,

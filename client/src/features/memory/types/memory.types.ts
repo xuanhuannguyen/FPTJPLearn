@@ -50,6 +50,20 @@ export interface AddGrammarToMemoryResult {
   isActive: boolean;
 }
 
+export interface AddKanjiToMemoryResult {
+  memoryItemId: string;
+  sourceKanjiItemId: string;
+  alreadyExists: boolean;
+  isActive: boolean;
+}
+
+export interface AddVocabularyToMemoryResult {
+  memoryItemId: string;
+  sourceVocabularyItemId: string;
+  alreadyExists: boolean;
+  isActive: boolean;
+}
+
 export interface MemoryGrammarStatus {
   isInMemory: boolean;
   memoryItemId?: string | null;

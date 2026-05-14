@@ -30,7 +30,7 @@ public class PayOSProvider : IPaymentProvider
     {
         try
         {
-            long orderCode = Math.Abs(order.Id.GetHashCode());
+            long orderCode = order.OrderCode;
             var checksumKey = _configuration["PaymentSettings:PayOS:ChecksumKey"] ?? "";
 
             var description = $"Thanh toan {order.PackageCode.ToUpper()}";

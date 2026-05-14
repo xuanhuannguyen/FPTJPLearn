@@ -1,19 +1,12 @@
 import { Check, Eye, Lightbulb, Loader2, RotateCcw, Sparkles, X } from 'lucide-react';
-import type { GrammarExercise, GrammarExerciseCheckResult } from '../types/grammar.types';
+import type { GrammarExercise } from '../types/grammar.types';
+import type { GrammarExerciseState } from '../utils/grammarExerciseState';
 import {
   getAnswerLabel,
   getAnswerPlaceholder,
   getPromptLabel,
   getSelectedOptionOrder,
 } from '../utils/grammarPractice';
-
-export type GrammarExerciseState = {
-  answerText: string;
-  selectedOptionIndexes: number[];
-  result?: GrammarExerciseCheckResult;
-  revealedAnswer?: string;
-  error?: string;
-};
 
 type GrammarPracticeCardProps = {
   exercise: GrammarExercise;
@@ -29,19 +22,6 @@ type GrammarPracticeCardProps = {
   onRevealAnswer: () => void;
   onReset: () => void;
 };
-
-export const emptyGrammarExerciseState: GrammarExerciseState = {
-  answerText: '',
-  selectedOptionIndexes: [],
-};
-
-export const getGrammarExerciseState = (
-  state: Record<string, GrammarExerciseState>,
-  exerciseId: string
-) => ({
-  ...emptyGrammarExerciseState,
-  ...state[exerciseId],
-});
 
 export const GrammarPracticeCard = ({
   exercise,

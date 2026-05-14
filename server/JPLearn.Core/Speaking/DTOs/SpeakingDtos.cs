@@ -38,6 +38,7 @@ public class SpeakingSentenceDto
     public Guid LessonId { get; set; }
     public int SentenceNumber { get; set; }
     public string PlainText { get; set; } = string.Empty;
+    public string Romaji { get; set; } = string.Empty;
     public string ContentHtml { get; set; } = string.Empty;
     public string MeaningVi { get; set; } = string.Empty;
     public int OrderIndex { get; set; }

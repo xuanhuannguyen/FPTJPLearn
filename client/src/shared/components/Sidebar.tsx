@@ -24,8 +24,8 @@ export const Sidebar = () => {
     <aside className="hidden h-screen w-[78px] flex-shrink-0 sticky top-0 bg-white md:flex">
       <div className="flex h-full w-full flex-col items-center border-r border-slate-100 bg-white overflow-y-auto scrollbar-hide">
       <div className="sticky top-0 z-10 flex h-16 w-full shrink-0 items-center justify-center border-b border-slate-100 bg-white">
-        <div className="flex h-11 w-11 items-center justify-center rounded-xl bg-accent-primary text-white shadow-pop">
-          <span className="font-heading text-xl font-black leading-none">JP</span>
+        <div className="flex h-11 w-11 items-center justify-center rounded-xl bg-white shadow-pop overflow-hidden">
+          <img src="/logo.png" alt="JPLearn" className="h-9 w-9 object-contain" />
         </div>
       </div>
 

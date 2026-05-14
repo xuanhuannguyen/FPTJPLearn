@@ -23,7 +23,7 @@
             { "japanese": "この本はおもしろいです。", "reading": "このほんはおもしろいです。", "meaning": "Quyển sách này thú vị.", "orderIndex": 2 },
             { "japanese": "日本の冬は寒いです。", "reading": "にほんのふゆはさむいです。", "meaning": "Mùa đông ở Nhật Bản lạnh.", "orderIndex": 3 },
             { "japanese": "富士山は高いです。", "reading": "ふじさんはたかいです。", "meaning": "Núi Phú Sĩ cao.", "orderIndex": 4 },
-            { "japanese": "この林檎は甘いです。", "reading": "このりんごはあまいいです。", "meaning": "Quả táo này ngọt.", "orderIndex": 5 }
+            { "japanese": "この林檎は甘いです。", "reading": "このりんごはあまいです。", "meaning": "Quả táo này ngọt.", "orderIndex": 5 }
           ]
         },
         {
@@ -134,7 +134,7 @@
       "lessonNumber": 5,
       "title": "Quá khứ, Sở thích và Mong muốn",
       "description": "Học về thì quá khứ của động từ và tính từ, cách diễn tả sở thích và mong muốn.",
-      "accessTier": "free",
+      "accessTier": "premium",
       "orderIndex": 5,
       "patterns": [
         {
@@ -166,7 +166,7 @@
           "examples": [
             { "japanese": "旅行はとても楽しかったです。", "reading": "りょこうはとてもたのしかったです。", "meaning": "Chuyến du lịch đã rất vui.", "orderIndex": 1 },
             { "japanese": "昨日は寒くなかったです。", "reading": "きのうはさむくなかったです。", "meaning": "Hôm qua đã không lạnh.", "orderIndex": 2 },
-            { "japanese": "試験は少し難しかったです。", "reading": "しけんはすこしむずかしくなっかったです。", "meaning": "Kỳ thi đã hơi khó một chút.", "orderIndex": 3 },
+            { "japanese": "試験は少し難しかったです。", "reading": "しけんはすこしむずかしかったです。", "meaning": "Kỳ thi đã hơi khó một chút.", "orderIndex": 3 },
             { "japanese": "天気はよかったです。", "reading": "てんきはよかったです。", "meaning": "Thời tiết đã rất tốt.", "orderIndex": 4 },
             { "japanese": "お祭りはとても賑やかでした。", "reading": "おまつりはとてもにぎやかでした。", "meaning": "Lễ hội đã rất nhộn nhịp.", "orderIndex": 5 }
           ]
@@ -206,7 +206,7 @@
           ]
         },
         {
-          "pattern": "Vますたいです",
+          "pattern": "Vたいです",
           "title": "Mong muốn làm hành động",
           "meaning": "Muốn làm V",
           "structure": "V (bỏ ます) + たいです",
@@ -245,7 +245,7 @@
       "lessonNumber": 6,
       "title": "Rủ rê và So sánh",
       "description": "Học cách mời rủ, đề nghị cùng làm, và so sánh giữa các đối tượng.",
-      "accessTier": "free",
+      "accessTier": "premium",
       "orderIndex": 6,
       "patterns": [
         {
@@ -320,7 +320,7 @@
           "pattern": "N1 と N2 と どちらが A ですか",
           "title": "Câu hỏi so sánh giữa 2 đối tượng",
           "meaning": "N1 và N2, cái nào [tính chất] A hơn?",
-          "structure": "N1 と N2 と どちら가 A ですか",
+          "structure": "N1 と N2 と どちらが A ですか",
           "formation": "N1 + と + N2 + と + どちらが + Tính từ + ですか",
           "usageScope": "Hỏi để lựa chọn một trong hai.",
           "notes": "Trả lời bằng N のほうが A です.",
@@ -339,7 +339,7 @@
       "lessonNumber": 7,
       "title": "Sự hiện diện và Đang thực hiện",
       "description": "Học về sự hiện diện của người/động vật, thể て và thì hiện tại tiếp diễn.",
-      "accessTier": "free",
+      "accessTier": "premium",
       "orderIndex": 7,
       "patterns": [
         {

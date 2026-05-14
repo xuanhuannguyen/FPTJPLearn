@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { Link, useNavigate } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 import { Loader2, Lock, Volume2 } from 'lucide-react';
 import { speakingApi } from '../api/speakingApi';
 import type { SpeakingCourse } from '../types/speaking.types';

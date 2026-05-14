@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState } from 'react';
+import { useCallback, useEffect, useMemo, useState } from 'react';
 import { CheckCircle2, Clipboard, FileJson, FileQuestion, Loader2, Plus, RotateCcw, Save, Search, Trash2, Upload } from 'lucide-react';
 import { adminExamApi } from '../api/adminExamApi';
 import type { AdminExamImportResult, AdminExamQuestion } from '../types/adminExam.types';
@@ -29,7 +29,7 @@ export const AdminExamQuestionsPage = () => {
   const [message, setMessage] = useState('');
   const [error, setError] = useState('');
 
-  const loadQuestions = async () => {
+  const loadQuestions = useCallback(async () => {
     try {
       setIsLoading(true);
       setError('');
@@ -49,12 +49,15 @@ export const AdminExamQuestionsPage = () => {
     } finally {
       setIsLoading(false);
     }
-  };
+  }, [courseFilter, topicFilter, includeInactive, form.id]);
 
   useEffect(() => {
-    void loadQuestions();
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [courseFilter, topicFilter, includeInactive]);
+    const timer = window.setTimeout(() => {
+      void loadQuestions();
+    }, 0);
+
+    return () => window.clearTimeout(timer);
+  }, [loadQuestions]);
 
   const filteredQuestions = useMemo(() => {
     const normalized = query.trim().toLowerCase();

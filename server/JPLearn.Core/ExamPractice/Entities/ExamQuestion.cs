@@ -22,6 +22,6 @@ public class ExamQuestion : BaseEntity
     public int OrderIndex { get; set; }
     public bool IsActive { get; set; } = true;
 
-    public virtual ICollection<ExamQuestionOption>? Options { get; set; } = new List<ExamQuestionOption>();
-    public virtual ICollection<ExamAttemptAnswer>? AttemptAnswers { get; set; } = new List<ExamAttemptAnswer>();
+    public virtual ICollection<ExamQuestionOption> Options { get; set; } = new List<ExamQuestionOption>();
+    public virtual ICollection<ExamAttemptAnswer> AttemptAnswers { get; set; } = new List<ExamAttemptAnswer>();
 }

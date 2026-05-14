@@ -81,7 +81,10 @@ using (var scope = app.Services.CreateScope())
     }
     catch (Exception ex)
     {
-        // Log error if needed
+        var logger = scope.ServiceProvider
+            .GetRequiredService<ILoggerFactory>()
+            .CreateLogger("DatabaseMigration");
+        logger.LogError(ex, "Database migration failed on startup.");
     }
 }
 

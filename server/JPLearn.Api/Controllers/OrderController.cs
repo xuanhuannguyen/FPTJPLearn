@@ -41,6 +41,7 @@ public class OrderController : ApiControllerBase
         var order = new Order
         {
             UserId = CurrentUserId,
+            OrderCode = long.Parse(DateTimeOffset.UtcNow.ToString("yyMMddHHmmssff")), // Unique numeric code
             PackageCode = request.PackageCode,
             Amount = price,
             Description = $"JPLearn {request.PackageCode.ToUpper()}"

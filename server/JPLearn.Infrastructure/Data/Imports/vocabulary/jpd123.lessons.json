@@ -484,7 +484,7 @@
           "orderIndex": 26
         },
         {
-          "word": "그리고",
+          "word": "そして",
           "reading": "そして",
           "wordType": "Liên từ",
           "meaning": "Và",
@@ -720,7 +720,7 @@
           "meaning": "Cay",
           "exampleJapanese": "辛いカレー。",
           "exampleReading": "からいかれー。",
-          "exampleMeaning": "Cà phê cay.",
+          "exampleMeaning": "Món cà ri cay.",
           "notes": "",
           "orderIndex": 20
         },
@@ -774,7 +774,7 @@
       "id": 4,
       "title": "5-1: Thời gian và hoạt động",
       "description": "Học về các mốc thời gian và hoạt động hàng ngày",
-      "accessTier": "free",
+      "accessTier": "premium",
       "packageCode": "jpd123",
       "orderIndex": 4,
       "items": [
@@ -1059,7 +1059,7 @@
       "id": 5,
       "title": "5-2: Thời tiết và cảm xúc",
       "description": "Học về thời tiết và các tính từ chỉ cảm giác, trạng thái",
-      "accessTier": "free",
+      "accessTier": "premium",
       "packageCode": "jpd123",
       "orderIndex": 5,
       "items": [
@@ -1289,7 +1289,7 @@
       "id": 6,
       "title": "5-3: Sở thích",
       "description": "Học về các sở thích và hoạt động giải trí",
-      "accessTier": "free",
+      "accessTier": "premium",
       "packageCode": "jpd123",
       "orderIndex": 6,
       "items": [
@@ -1453,7 +1453,7 @@
       "id": 7,
       "title": "6-1: Kế hoạch và sự kiện",
       "description": "Học về kế hoạch, sự kiện và cách đếm vật mỏng",
-      "accessTier": "free",
+      "accessTier": "premium",
       "packageCode": "jpd123",
       "orderIndex": 7,
       "items": [
@@ -1727,7 +1727,7 @@
       "id": 8,
       "title": "6-2: Ăn uống và giải trí",
       "description": "Học về đồ ăn, thức uống và các hoạt động giải trí",
-      "accessTier": "free",
+      "accessTier": "premium",
       "packageCode": "jpd123",
       "orderIndex": 8,
       "items": [
@@ -1990,7 +1990,7 @@
       "id": 9,
       "title": "6-3: Ẩm thực Nhật",
       "description": "Học về các món ăn đặc trưng của Nhật Bản",
-      "accessTier": "free",
+      "accessTier": "premium",
       "packageCode": "jpd123",
       "orderIndex": 9,
       "items": [
@@ -2088,7 +2088,7 @@
       "id": 10,
       "title": "7-1: Vị trí và địa điểm",
       "description": "Học về các từ chỉ vị trí và địa điểm công cộng",
-      "accessTier": "free",
+      "accessTier": "premium",
       "packageCode": "jpd123",
       "orderIndex": 10,
       "items": [
@@ -2318,7 +2318,7 @@
       "id": 11,
       "title": "7-2: Đồ dùng và hành động",
       "description": "Học về các vật dụng trong nhà và các động từ liên quan",
-      "accessTier": "free",
+      "accessTier": "premium",
       "packageCode": "jpd123",
       "orderIndex": 11,
       "items": [
@@ -2702,7 +2702,7 @@
       "id": 12,
       "title": "7-3: Hoạt động thường ngày",
       "description": "Học về các hoạt động giải trí và sinh hoạt hàng ngày",
-      "accessTier": "free",
+      "accessTier": "premium",
       "packageCode": "jpd123",
       "orderIndex": 12,
       "items": [

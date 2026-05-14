@@ -12,35 +12,43 @@
       "sentences": [
         {
           "jp": "ワットさんは [[さくら大学|さくらだいがく]] の えい[[語|ご]] の [[先生|せんせい]] です。",
-          "vi": "Ông Watt là giáo viên tiếng Anh ở đại học Sakura."
+          "vi": "Ông Watt là giáo viên tiếng Anh ở đại học Sakura.",
+          "romaji": "waッtosan wa sakuradaigaku no eigo no sensei desu."
         },
         {
           "jp": "[[毎日|まいにち]] あかい くるまで [[大学|だいがく]] へ [[行|い]]きます。",
-          "vi": "Mỗi ngày ông ấy đi ô tô màu đỏ đến trường đại học."
+          "vi": "Mỗi ngày ông ấy đi ô tô màu đỏ đến trường đại học.",
+          "romaji": "mainichi akai kurumade daigaku he ikimasu."
         },
         {
           "jp": "さくら[[大学|だいがく]] は [[大|おお]]きい [[大学|だいがく]] ではありませんが、いい [[大学|だいがく]] です。",
-          "vi": "Đại học Sakura không phải là một trường lớn, nhưng là một trường tốt."
+          "vi": "Đại học Sakura không phải là một trường lớn, nhưng là một trường tốt.",
+          "romaji": "sakuradaigaku wa ookii daigaku de wa arimasenga,ii daigaku desu."
         },
         {
           "jp": "ワットさんは いつも しょくどうで ひるごはんを [[食|た]]べます。",
-          "vi": "Ông Watt luôn ăn cơm trưa ở nhà ăn."
+          "vi": "Ông Watt luôn ăn cơm trưa ở nhà ăn.",
+          "romaji": "waッtosan wa itsumo shokudoude hirugo wa nwo tabemasu."
         },
         {
           "jp": "しょくどうは [[12時|じゅうにじ]] から [[1時|いちじ]] まで とても にぎやかです。",
-          "vi": "Nhà ăn rất nhộn nhịp từ 12 giờ đến 1 giờ."
+          "vi": "Nhà ăn rất nhộn nhịp từ 12 giờ đến 1 giờ.",
+          "romaji": "shokudou wa juuniji kara ichiji made totemo nigiyakadesu."
         },
         {
           "jp": "しょくどうの [[食|た]]べ[[物|もの]] は おいしいです。",
-          "vi": "Đồ ăn ở nhà ăn rất ngon."
+          "vi": "Đồ ăn ở nhà ăn rất ngon.",
+          "romaji": "shokudouno tabemono wa oishiidesu."
         },
         {
           "jp": "そして、[[安|やす]]いです。",
-          "vi": "Hơn nữa còn rẻ."
+          "vi": "Hơn nữa còn rẻ.",
+          "romaji": "soshite,yasuidesu."
         },
         {
           "jp": "[[大学|だいがく]] の しごとは いそがしいですが、たのしいです。",
-          "vi": "Công việc ở trường đại học tuy bận nhưng rất vui."
+          "vi": "Công việc ở trường đại học tuy bận nhưng rất vui.",
+          "romaji": "daigaku no shigoto wa isogashiidesuga,tanoshiidesu."
         }
       ]
     },
@@ -53,39 +61,48 @@
       "sentences": [
         {
           "jp": "けさ としょかんへ [[行|い]]きました。",
-          "vi": "Sáng nay tôi đã đi thư viện."
+          "vi": "Sáng nay tôi đã đi thư viện.",
+          "romaji": "kesa toshokanhe ikimashita."
         },
         {
           "jp": "としょかんで たろうちゃんに [[会|あ]]いました。",
-          "vi": "Ở thư viện tôi đã gặp Tarou."
+          "vi": "Ở thư viện tôi đã gặp Tarou.",
+          "romaji": "toshokande tarouc wa nni aimashita."
         },
         {
           "jp": "たろうちゃんと いっしょに ビデオを [[見|み]]ました。",
-          "vi": "Tôi đã xem video cùng với Tarou."
+          "vi": "Tôi đã xem video cùng với Tarou.",
+          "romaji": "tarouc wa nto isshoni bideowo mimashita."
         },
         {
           "jp": "[[私|わたし]] は りょ[[行|こう]] の [[本|ほん]] を かりました。",
-          "vi": "Tôi đã mượn một quyển sách du lịch."
+          "vi": "Tôi đã mượn một quyển sách du lịch.",
+          "romaji": "watashi wa ryokou no hon wo karimashita."
         },
         {
           "jp": "あしたは [[日曜日|にちようび]] です。",
-          "vi": "Ngày mai là Chủ nhật."
+          "vi": "Ngày mai là Chủ nhật.",
+          "romaji": "ashita wa nichiyoubi desu."
         },
         {
           "jp": "あさ りょ[[行|こう]] の [[本|ほん]] を [[読|よ]]みます。",
-          "vi": "Buổi sáng tôi sẽ đọc sách du lịch."
+          "vi": "Buổi sáng tôi sẽ đọc sách du lịch.",
+          "romaji": "asa ryokou no hon wo yomimasu."
         },
         {
           "jp": "[[午後|ごご]] デパートへ [[行|い]]きます。",
-          "vi": "Buổi chiều tôi sẽ đi cửa hàng bách hóa."
+          "vi": "Buổi chiều tôi sẽ đi cửa hàng bách hóa.",
+          "romaji": "gogo depa-tohe ikimasu."
         },
         {
           "jp": "はなを [[買|か]]います。",
-          "vi": "Tôi sẽ mua hoa."
+          "vi": "Tôi sẽ mua hoa.",
+          "romaji": "wa nawo kaimasu."
         },
         {
           "jp": "ははの たん[[生日|じょうび]] の プレゼントです。",
-          "vi": "Đó là quà sinh nhật của mẹ tôi."
+          "vi": "Đó là quà sinh nhật của mẹ tôi.",
+          "romaji": "wa wa no tanjoubi no purezentodesu."
         }
       ]
     },
@@ -98,59 +115,73 @@
       "sentences": [
         {
           "jp": "ミラーさんは まいあさ [[七時|しちじ]] に おきます。",
-          "vi": "Mỗi sáng anh Miller thức dậy lúc 7 giờ."
+          "vi": "Mỗi sáng anh Miller thức dậy lúc 7 giờ.",
+          "romaji": "mira-san wa maiasa shichiji ni okimasu."
         },
         {
           "jp": "あさごはんは いつも パンと コーヒーです。",
-          "vi": "Bữa sáng của anh ấy luôn là bánh mì và cà phê."
+          "vi": "Bữa sáng của anh ấy luôn là bánh mì và cà phê.",
+          "romaji": "asago wa n wa itsumo panto ko-hi-desu."
         },
         {
           "jp": "でんしゃで [[会社|かいしゃ]] へ [[行|い]]きます。",
-          "vi": "Anh ấy đi tàu điện đến công ty."
+          "vi": "Anh ấy đi tàu điện đến công ty.",
+          "romaji": "dens wa de kais wa he ikimasu."
         },
         {
           "jp": "[[会社|かいしゃ]] は [[九時|くじ]] から [[五時|ごじ]] まで です。",
-          "vi": "Công ty làm việc từ 9 giờ đến 5 giờ."
+          "vi": "Công ty làm việc từ 9 giờ đến 5 giờ.",
+          "romaji": "kais wa  wa kuji kara goji made desu."
         },
         {
           "jp": "[[七時|しちじ]] に うちへ [[帰|かえ]]ります。",
-          "vi": "Lúc 7 giờ anh ấy về nhà."
+          "vi": "Lúc 7 giờ anh ấy về nhà.",
+          "romaji": "shichiji ni uchihe kaerimasu."
         },
         {
           "jp": "[[七時半|しちじはん]] に ばんごはんを [[食|た]]べます。",
-          "vi": "Lúc 7 giờ rưỡi anh ấy ăn tối."
+          "vi": "Lúc 7 giờ rưỡi anh ấy ăn tối.",
+          "romaji": "shichiji wa n ni bango wa nwo tabemasu."
         },
         {
           "jp": "それから テレビを [[見|み]]ます。",
-          "vi": "Sau đó anh ấy xem tivi."
+          "vi": "Sau đó anh ấy xem tivi.",
+          "romaji": "sorekara terebiwo mimasu."
         },
         {
           "jp": "えい[[語|ご]] の [[新聞|しんぶん]] を [[読|よ]]みます。",
-          "vi": "Anh ấy đọc báo tiếng Anh."
+          "vi": "Anh ấy đọc báo tiếng Anh.",
+          "romaji": "eigo no shinbun wo yomimasu."
         },
         {
           "jp": "よる [[十二時|じゅうにじ]] に [[寝|ね]]ます。",
-          "vi": "Ban đêm anh ấy đi ngủ lúc 12 giờ."
+          "vi": "Ban đêm anh ấy đi ngủ lúc 12 giờ.",
+          "romaji": "yoru juuniji ni nemasu."
         },
         {
           "jp": "[[土曜日|どようび]] と [[日曜日|にちようび]]、[[会社|かいしゃ]] は [[休|やす]]みです。",
-          "vi": "Vào thứ bảy và chủ nhật công ty nghỉ."
+          "vi": "Vào thứ bảy và chủ nhật công ty nghỉ.",
+          "romaji": "doyoubi to nichiyoubi,kais wa  wa yasumidesu."
         },
         {
           "jp": "[[土曜日|どようび]] の あさ、としょかんへ [[行|い]]きます。",
-          "vi": "Sáng thứ bảy anh ấy đi thư viện."
+          "vi": "Sáng thứ bảy anh ấy đi thư viện.",
+          "romaji": "doyoubi no asa,toshokanhe ikimasu."
         },
         {
           "jp": "[[午後|ごご]]、テニスを します。",
-          "vi": "Buổi chiều anh ấy chơi tennis."
+          "vi": "Buổi chiều anh ấy chơi tennis.",
+          "romaji": "gogo,tenisuwo shimasu."
         },
         {
           "jp": "[[日曜日|にちようび]] は どこも [[行|い]]きません。",
-          "vi": "Chủ nhật anh ấy không đi đâu cả."
+          "vi": "Chủ nhật anh ấy không đi đâu cả.",
+          "romaji": "nichiyoubi wa dokomo ikimasen."
         },
         {
           "jp": "[[休|やす]]みます。",
-          "vi": "Anh ấy nghỉ ngơi."
+          "vi": "Anh ấy nghỉ ngơi.",
+          "romaji": "yasumimasu."
         }
       ]
     },
@@ -163,47 +194,58 @@
       "sentences": [
         {
           "jp": "[[私|わたし]] の あたらしい うちは しずかな ところに あります。",
-          "vi": "Ngôi nhà mới của tôi nằm ở một nơi yên tĩnh."
+          "vi": "Ngôi nhà mới của tôi nằm ở một nơi yên tĩnh.",
+          "romaji": "watashi no atarashii uchi wa shizukana tokoroni arimasu."
         },
         {
           "jp": "うちの となりに きれいな こうえんが あります。",
-          "vi": "Bên cạnh nhà có một công viên đẹp."
+          "vi": "Bên cạnh nhà có một công viên đẹp.",
+          "romaji": "uchino tonarini kireina kouenga arimasu."
         },
         {
           "jp": "こうえんの [[前|まえ]] に としょかんと きっさてんが あります。",
-          "vi": "Phía trước công viên có thư viện và quán cà phê."
+          "vi": "Phía trước công viên có thư viện và quán cà phê.",
+          "romaji": "kouenno mae ni toshokanto kissatenga arimasu."
         },
         {
           "jp": "[[私|わたし]] は としょかんで [[本|ほん]] を かります。",
-          "vi": "Tôi mượn sách ở thư viện."
+          "vi": "Tôi mượn sách ở thư viện.",
+          "romaji": "watashi wa toshokande hon wo karimasu."
         },
         {
           "jp": "そして、こうえんで [[読|よ]]みます。",
-          "vi": "Sau đó tôi đọc sách ở công viên."
+          "vi": "Sau đó tôi đọc sách ở công viên.",
+          "romaji": "soshite,kouende yomimasu."
         },
         {
           "jp": "ときどき きっさてんで [[読|よ]]みます。",
-          "vi": "Thỉnh thoảng tôi cũng đọc ở quán cà phê."
+          "vi": "Thỉnh thoảng tôi cũng đọc ở quán cà phê.",
+          "romaji": "tokidoki kissatende yomimasu."
         },
         {
           "jp": "きっさてんの コーヒーは おいしいです。",
-          "vi": "Cà phê ở quán rất ngon."
+          "vi": "Cà phê ở quán rất ngon.",
+          "romaji": "kissatenno ko-hi- wa oishiidesu."
         },
         {
           "jp": "うちの ちかくに ゆうびんきょくと ぎんこうが あります。",
-          "vi": "Gần nhà có bưu điện và ngân hàng."
+          "vi": "Gần nhà có bưu điện và ngân hàng.",
+          "romaji": "uchino chikakuni yuubinkyokuto ginkouga arimasu."
         },
         {
           "jp": "ゆうびんきょくと ぎんこうの あいだに スーパーが あります。",
-          "vi": "Giữa bưu điện và ngân hàng có một siêu thị."
+          "vi": "Giữa bưu điện và ngân hàng có một siêu thị.",
+          "romaji": "yuubinkyokuto ginkouno aidani su-pa-ga arimasu."
         },
         {
           "jp": "スーパーの なかに はなやや おいしい パンやが あります。",
-          "vi": "Trong siêu thị có tiệm hoa và tiệm bánh mì ngon."
+          "vi": "Trong siêu thị có tiệm hoa và tiệm bánh mì ngon.",
+          "romaji": "su-pa-no nakani wa nayaya oishii panyaga arimasu."
         },
         {
           "jp": "とても べんりです。",
-          "vi": "Rất tiện lợi."
+          "vi": "Rất tiện lợi.",
+          "romaji": "totemo benridesu."
         }
       ]
     },
@@ -216,71 +258,88 @@
       "sentences": [
         {
           "jp": "[[私|わたし]] の うちの ちかくに スーパーが [[3つ|みっつ]] あります。",
-          "vi": "Gần nhà tôi có ba siêu thị."
+          "vi": "Gần nhà tôi có ba siêu thị.",
+          "romaji": "watashi no uchino chikakuni su-pa-ga mittsu arimasu."
         },
         {
           "jp": "「まいにちや」と「ABCストア」と「ジャパン」です。",
-          "vi": "Đó là Mainichiya, ABC Store và Japan."
+          "vi": "Đó là Mainichiya, ABC Store và Japan.",
+          "romaji": "「mainichiya」to「ABCsutoa」to「jiャpan」desu."
         },
         {
           "jp": "「まいにちや」は いちばん [[小|ちい]]さい みせですが、ちかいです。",
-          "vi": "Mainichiya là cửa hàng nhỏ nhất nhưng gần nhà."
+          "vi": "Mainichiya là cửa hàng nhỏ nhất nhưng gần nhà.",
+          "romaji": "「mainichiya」 wa ichiban chiisai misedesuga,chikaidesu."
         },
         {
           "jp": "うちから あるいて [[五分|ごふん]] です。",
-          "vi": "Đi bộ từ nhà đến đó mất 5 phút."
+          "vi": "Đi bộ từ nhà đến đó mất 5 phút.",
+          "romaji": "uchikara aruite gofun desu."
         },
         {
           "jp": "あたらしい さかなが おおいです。",
-          "vi": "Ở đó có nhiều cá tươi."
+          "vi": "Ở đó có nhiều cá tươi.",
+          "romaji": "atarashii sakanaga ooidesu."
         },
         {
           "jp": "[[野菜|やさい]] や [[果物|くだもの]] も おおいです。",
-          "vi": "Cũng có nhiều rau và trái cây."
+          "vi": "Cũng có nhiều rau và trái cây.",
+          "romaji": "yasai ya kudamono mo ooidesu."
         },
         {
           "jp": "「ABCストア」は うちから あるいて [[十五分|じゅうごふん]] かかります。",
-          "vi": "Đi bộ từ nhà đến ABC Store mất 15 phút."
+          "vi": "Đi bộ từ nhà đến ABC Store mất 15 phút.",
+          "romaji": "「ABCsutoa」 wa uchikara aruite juugofun kakarimasu."
         },
         {
           "jp": "[[肉|にく]] が おおいです。",
-          "vi": "Ở đó có nhiều thịt."
+          "vi": "Ở đó có nhiều thịt.",
+          "romaji": "niku ga ooidesu."
         },
         {
           "jp": "いちばん やすい みせです。",
-          "vi": "Đó là cửa hàng rẻ nhất."
+          "vi": "Đó là cửa hàng rẻ nhất.",
+          "romaji": "ichiban yasui misedesu."
         },
         {
           "jp": "[[外国|がいこく]] の [[物|もの]] も ありますが、「ジャパン」より すくないです。",
-          "vi": "Cũng có hàng nước ngoài nhưng ít hơn cửa hàng Japan."
+          "vi": "Cũng có hàng nước ngoài nhưng ít hơn cửa hàng Japan.",
+          "romaji": "gaikoku no mono mo arimasuga,「jiャpan」yori sukunaidesu."
         },
         {
           "jp": "おいしい パンが あります。",
-          "vi": "Có bánh mì ngon."
+          "vi": "Có bánh mì ngon.",
+          "romaji": "oishii panga arimasu."
         },
         {
           "jp": "「ジャパン」は いちばん とおいです。",
-          "vi": "Japan là cửa hàng xa nhất."
+          "vi": "Japan là cửa hàng xa nhất.",
+          "romaji": "「jiャpan」 wa ichiban tooidesu."
         },
         {
           "jp": "さかなは あまり おおくないですが、[[肉|にく]] が たくさん あります。",
-          "vi": "Cá không nhiều lắm nhưng có rất nhiều thịt."
+          "vi": "Cá không nhiều lắm nhưng có rất nhiều thịt.",
+          "romaji": "sakana wa amari ookunaidesuga,niku ga takusan arimasu."
         },
         {
           "jp": "[[外国|がいこく]] の [[物|もの]] が おおいです。",
-          "vi": "Có nhiều hàng hóa nước ngoài."
+          "vi": "Có nhiều hàng hóa nước ngoài.",
+          "romaji": "gaikoku no mono ga ooidesu."
         },
         {
           "jp": "とても [[大|おお]]きい みせです。",
-          "vi": "Đó là một cửa hàng rất lớn."
+          "vi": "Đó là một cửa hàng rất lớn.",
+          "romaji": "totemo ookii misedesu."
         },
         {
           "jp": "「ABCストア」より [[大|おお]]きいです。",
-          "vi": "Nó còn lớn hơn cả ABC Store."
+          "vi": "Nó còn lớn hơn cả ABC Store.",
+          "romaji": "「ABCsutoa」yori ookiidesu."
         },
         {
           "jp": "[[三つ|みっつ]] の みせの なかで [[私|わたし]] は 「ABCストア」が いちばん すきです。",
-          "vi": "Trong ba cửa hàng, tôi thích ABC Store nhất."
+          "vi": "Trong ba cửa hàng, tôi thích ABC Store nhất.",
+          "romaji": "mittsu no miseno nakade watashi wa 「ABCsutoa」ga ichiban sukidesu."
         }
       ]
     },
@@ -293,15 +352,18 @@
       "sentences": [
         {
           "jp": "[[日本|にほん]] には いぬや ねこを [[飼|か]]う [[人|ひと]] が たくさん います。",
-          "vi": "Ở Nhật có rất nhiều người nuôi chó và mèo."
+          "vi": "Ở Nhật có rất nhiều người nuôi chó và mèo.",
+          "romaji": "nihon ni wa inuya nekowo kau hito ga takusan imasu."
         },
         {
           "jp": "さいきん ねこを [[飼|か]]う [[人|ひと]] が ふえて いました。",
-          "vi": "Gần đây số người nuôi mèo đã tăng lên."
+          "vi": "Gần đây số người nuôi mèo đã tăng lên.",
+          "romaji": "saikin nekowo kau hito ga fuete imashita."
         },
         {
           "jp": "[[2017年|にせんじゅうしちねん]] には ねこが [[九百五十三万|きゅうひゃくごじゅうさんまん]] びき、いぬが [[八百九十二万|はっぴゃくきゅうじゅうにまん]] びきに なって、はじめて ねこの ほうが おおく なりました。",
-          "vi": "Đến năm 2017, số mèo là 9,53 triệu con và số chó là 8,92 triệu con, lần đầu tiên mèo nhiều hơn chó."
+          "vi": "Đến năm 2017, số mèo là 9,53 triệu con và số chó là 8,92 triệu con, lần đầu tiên mèo nhiều hơn chó.",
+          "romaji": "nisenjuushichinen ni wa nekoga kyuuhyakugojuusanman biki,inuga wa ppyakukyuujuuniman bikini natte, wa jimete nekono houga ooku narimashita."
         }
       ]
     },
@@ -314,15 +376,18 @@
       "sentences": [
         {
           "jp": "[[三人|さんにん]] で [[一人|ひとり]] [[5000円|ごせんえん]] だして、ははに [[1万円|いちまんえん]] の さいふと はなを [[買|か]]います。",
-          "vi": "Ba người sẽ góp mỗi người 5.000 yên để mua cho mẹ một chiếc ví 10.000 yên và hoa."
+          "vi": "Ba người sẽ góp mỗi người 5.000 yên để mua cho mẹ một chiếc ví 10.000 yên và hoa.",
+          "romaji": "sannin de hitori gosenen dashite, wa wa ni ichimanen no saifuto wa nawo kaimasu."
         },
         {
           "jp": "ケーキは [[一人|ひとり]] に [[一つ|ひとつ]] [[買|か]]って、ははと [[食|た]]べたいです。",
-          "vi": "Mỗi người muốn mua một chiếc bánh để cùng ăn với mẹ."
+          "vi": "Mỗi người muốn mua một chiếc bánh để cùng ăn với mẹ.",
+          "romaji": "ke-ki wa hitori ni hitotsu katte, wa wa to tabetaidesu."
         },
         {
           "jp": "[[1200円|せんにひゃくえん]] いかで、なるべく カロリーが ひくい [[食|た]]べ[[物|もの]] が [[食|た]]べたいです。",
-          "vi": "Tôi muốn ăn món gì đó giá không quá 1.200 yên và có lượng calo càng thấp càng tốt."
+          "vi": "Tôi muốn ăn món gì đó giá không quá 1.200 yên và có lượng calo càng thấp càng tốt.",
+          "romaji": "sennihyakuen ikade,narubeku karori-ga hikui tabemono ga tabetaidesu."
         }
       ]
     },
@@ -335,23 +400,28 @@
       "sentences": [
         {
           "jp": "[[私|わたし]] は メイ・スミス です。",
-          "vi": "Tôi là Mei Smith."
+          "vi": "Tôi là Mei Smith.",
+          "romaji": "watashi wa mei・sumisu desu."
         },
         {
           "jp": "[[私|わたし]] は カナダ[[人|じん]] です。",
-          "vi": "Tôi là người Canada."
+          "vi": "Tôi là người Canada.",
+          "romaji": "watashi wa kanadajin desu."
         },
         {
           "jp": "いま、[[日本|にほん]] に すんでいます。",
-          "vi": "Hiện tại tôi đang sống ở Nhật Bản."
+          "vi": "Hiện tại tôi đang sống ở Nhật Bản.",
+          "romaji": "ima,nihon ni sundeimasu."
         },
         {
           "jp": "しごとは えい[[語|ご]] の [[先生|せんせい]] です。",
-          "vi": "Công việc của tôi là giáo viên tiếng Anh."
+          "vi": "Công việc của tôi là giáo viên tiếng Anh.",
+          "romaji": "shigoto wa eigo no sensei desu."
         },
         {
           "jp": "しゅみは りょ[[行|こう]] と [[本|ほん]] を [[読|よ]]む ことです。",
-          "vi": "Sở thích của tôi là đi du lịch và đọc sách."
+          "vi": "Sở thích của tôi là đi du lịch và đọc sách.",
+          "romaji": "shumi wa ryokou to hon wo yomu kotodesu."
         }
       ]
     },
@@ -364,35 +434,43 @@
       "sentences": [
         {
           "jp": "[[私|わたし]] の おじいさんは、[[今年|ことし]] [[81才|はちじゅういっさい]] です。",
-          "vi": "Năm nay ông tôi 81 tuổi."
+          "vi": "Năm nay ông tôi 81 tuổi.",
+          "romaji": "watashi no ojiisan wa ,kotoshi wa chijuuissai desu."
         },
         {
           "jp": "[[京都|きょうと]] に すんでいます。",
-          "vi": "Ông đang sống ở Kyoto."
+          "vi": "Ông đang sống ở Kyoto.",
+          "romaji": "kyouto ni sundeimasu."
         },
         {
           "jp": "おじいさんは いつも やさしいです。",
-          "vi": "Ông lúc nào cũng hiền từ."
+          "vi": "Ông lúc nào cũng hiền từ.",
+          "romaji": "ojiisan wa itsumo yasashiidesu."
         },
         {
           "jp": "そして、いつも おもしろい [[話|はなし]] を します。",
-          "vi": "Và ông luôn kể những câu chuyện thú vị."
+          "vi": "Và ông luôn kể những câu chuyện thú vị.",
+          "romaji": "soshite,itsumo omoshiroi wa nashi wo shimasu."
         },
         {
           "jp": "[[私|わたし]] は おじいさんが だいすきです。",
-          "vi": "Tôi rất yêu quý ông."
+          "vi": "Tôi rất yêu quý ông.",
+          "romaji": "watashi wa ojiisanga daisukidesu."
         },
         {
           "jp": "[[私|わたし]] は いま、[[東京|とうきょう]] に すんでいます。",
-          "vi": "Hiện tại tôi sống ở Tokyo."
+          "vi": "Hiện tại tôi sống ở Tokyo.",
+          "romaji": "watashi wa ima,toukyou ni sundeimasu."
         },
         {
           "jp": "[[京都|きょうと]] から [[東京|とうきょう]] まで、しんかんせんで [[2時間|にじかん]] です。",
-          "vi": "Từ Kyoto đến Tokyo mất 2 giờ đi shinkansen."
+          "vi": "Từ Kyoto đến Tokyo mất 2 giờ đi shinkansen.",
+          "romaji": "kyouto kara toukyou made,shinkansende nijikan desu."
         },
         {
           "jp": "[[毎年|まいとし]]、なつ[[休|やす]]み と [[お正月|おしょうがつ]] に おじいさんに [[会|あ]]います。",
-          "vi": "Mỗi năm vào kỳ nghỉ hè và dịp năm mới, tôi đều gặp ông."
+          "vi": "Mỗi năm vào kỳ nghỉ hè và dịp năm mới, tôi đều gặp ông.",
+          "romaji": "maitoshi,natsuyasumi to oshougatsu ni ojiisanni aimasu."
         }
       ]
     },
@@ -405,39 +483,48 @@
       "sentences": [
         {
           "jp": "[[私|わたし]] は [[毎日|まいにち]] コーヒーを [[飲|の]]みます。",
-          "vi": "Tôi uống cà phê mỗi ngày."
+          "vi": "Tôi uống cà phê mỗi ngày.",
+          "romaji": "watashi wa mainichi ko-hi-wo nomimasu."
         },
         {
           "jp": "コーヒーは [[毎朝|まいあさ]] コンビニで [[買|か]]います。",
-          "vi": "Mỗi sáng tôi mua cà phê ở cửa hàng tiện lợi."
+          "vi": "Mỗi sáng tôi mua cà phê ở cửa hàng tiện lợi.",
+          "romaji": "ko-hi- wa maiasa konbinide kaimasu."
         },
         {
           "jp": "[[一つ|ひとつ]] [[100円|ひゃくえん]] です。",
-          "vi": "Một cốc có giá 100 yên."
+          "vi": "Một cốc có giá 100 yên.",
+          "romaji": "hitotsu hyakuen desu."
         },
         {
           "jp": "とても [[安|やす]]いです。",
-          "vi": "Rất rẻ."
+          "vi": "Rất rẻ.",
+          "romaji": "totemo yasuidesu."
         },
         {
           "jp": "でも、おいしいです。",
-          "vi": "Nhưng vẫn rất ngon."
+          "vi": "Nhưng vẫn rất ngon.",
+          "romaji": "demo,oishiidesu."
         },
         {
           "jp": "[[私|わたし]] の ともだちは、タバコを すいます。",
-          "vi": "Bạn của tôi thì hút thuốc lá."
+          "vi": "Bạn của tôi thì hút thuốc lá.",
+          "romaji": "watashi no tomodachi wa ,tabakowo suimasu."
         },
         {
           "jp": "かれも コンビニで タバコを [[買|か]]います。",
-          "vi": "Anh ấy cũng mua thuốc lá ở combini."
+          "vi": "Anh ấy cũng mua thuốc lá ở combini.",
+          "romaji": "karemo konbinide tabakowo kaimasu."
         },
         {
           "jp": "しかし、[[私|わたし]] は タバコを すいません。",
-          "vi": "Tuy nhiên tôi không hút thuốc."
+          "vi": "Tuy nhiên tôi không hút thuốc.",
+          "romaji": "shikashi,watashi wa tabakowo suimasen."
         },
         {
           "jp": "あたまが いたく なりますから。",
-          "vi": "Vì nếu hút thì tôi sẽ bị đau đầu."
+          "vi": "Vì nếu hút thì tôi sẽ bị đau đầu.",
+          "romaji": "atamaga itaku narimasukara."
         }
       ]
     },
@@ -450,27 +537,33 @@
       "sentences": [
         {
           "jp": "[[今日|きょう]]、[[大学|だいがく]] の あとで、コンビニに ばんごはんを [[買|か]]いに [[行|い]]きました。",
-          "vi": "Hôm nay sau giờ học đại học, tôi đã đi combini mua bữa tối."
+          "vi": "Hôm nay sau giờ học đại học, tôi đã đi combini mua bữa tối.",
+          "romaji": "kyou,daigaku no atode,konbinini bango wa nwo kaini ikimashita."
         },
         {
           "jp": "[[私|わたし]] は いつも ぎゅうどんを [[買|か]]います。",
-          "vi": "Tôi lúc nào cũng mua gyudon."
+          "vi": "Tôi lúc nào cũng mua gyudon.",
+          "romaji": "watashi wa itsumo gyuudonwo kaimasu."
         },
         {
           "jp": "ぎゅうどんは [[牛肉|ぎゅうにく]] の [[料理|りょうり]] です。",
-          "vi": "Gyudon là món ăn làm từ thịt bò."
+          "vi": "Gyudon là món ăn làm từ thịt bò.",
+          "romaji": "gyuudon wa gyuuniku no ryouri desu."
         },
         {
           "jp": "でも、[[今日|きょう]] は ぎゅうどんが ありませんでした。",
-          "vi": "Nhưng hôm nay lại không có gyudon."
+          "vi": "Nhưng hôm nay lại không có gyudon.",
+          "romaji": "demo,kyou wa gyuudonga arimasendeshita."
         },
         {
           "jp": "とても ざんねんでした。",
-          "vi": "Tôi rất tiếc."
+          "vi": "Tôi rất tiếc.",
+          "romaji": "totemo zannendeshita."
         },
         {
           "jp": "だから、おにぎりと ミルクを [[買|か]]いました。",
-          "vi": "Vì vậy tôi đã mua cơm nắm và sữa."
+          "vi": "Vì vậy tôi đã mua cơm nắm và sữa.",
+          "romaji": "dakara,onigirito mirukuwo kaimashita."
         }
       ]
     },
@@ -483,39 +576,48 @@
       "sentences": [
         {
           "jp": "[[今日|きょう]] は [[五月十三日|ごがつじゅうさんにち]] です。",
-          "vi": "Hôm nay là ngày 13 tháng 5."
+          "vi": "Hôm nay là ngày 13 tháng 5.",
+          "romaji": "kyou wa gogatsujuusannichi desu."
         },
         {
           "jp": "テニスを [[見|み]]に [[行|い]]きました。",
-          "vi": "Tôi đã đi xem tennis."
+          "vi": "Tôi đã đi xem tennis.",
+          "romaji": "tenisuwo mini ikimashita."
         },
         {
           "jp": "[[私|わたし]] は テニスを するのが すきじゃありません。",
-          "vi": "Tôi không thích chơi tennis."
+          "vi": "Tôi không thích chơi tennis.",
+          "romaji": "watashi wa tenisuwo surunoga sukijaarimasen."
         },
         {
           "jp": "うんどうが じょうずじゃありませんから。",
-          "vi": "Vì tôi không giỏi thể thao."
+          "vi": "Vì tôi không giỏi thể thao.",
+          "romaji": "undouga jouzujaarimasenkara."
         },
         {
           "jp": "でも、[[見|み]]るのが だいすきです。",
-          "vi": "Nhưng tôi lại rất thích xem."
+          "vi": "Nhưng tôi lại rất thích xem.",
+          "romaji": "demo,mirunoga daisukidesu."
         },
         {
           "jp": "まい[[日曜日|にちようび]] ともだちと スタジアムに いって、テニスを [[見|み]]ます。",
-          "vi": "Mỗi chủ nhật tôi đi sân vận động cùng bạn để xem tennis."
+          "vi": "Mỗi chủ nhật tôi đi sân vận động cùng bạn để xem tennis.",
+          "romaji": "mainichiyoubi tomodachito sutajiamuni itte,tenisuwo mimasu."
         },
         {
           "jp": "[[今日|きょう]] は、[[私|わたし]] の すきな せんしゅが かちました。",
-          "vi": "Hôm nay vận động viên tôi yêu thích đã thắng."
+          "vi": "Hôm nay vận động viên tôi yêu thích đã thắng.",
+          "romaji": "kyou wa ,watashi no sukina senshuga kachimashita."
         },
         {
           "jp": "うれしかったです。",
-          "vi": "Tôi đã rất vui."
+          "vi": "Tôi đã rất vui.",
+          "romaji": "ureshikattadesu."
         },
         {
           "jp": "[[来週|らいしゅう]] も もう いっかい [[見|み]]に [[行|い]]く つもりです。",
-          "vi": "Tuần sau tôi cũng định đi xem thêm một lần nữa."
+          "vi": "Tuần sau tôi cũng định đi xem thêm một lần nữa.",
+          "romaji": "raishuu mo mou ikkai mini iku tsumoridesu."
         }
       ]
     },
@@ -528,35 +630,43 @@
       "sentences": [
         {
           "jp": "ワットさんは [[さくら大学|さくらだいがく]] の [[英語|えいご]] の [[先生|せんせい]] です。",
-          "vi": "Ông Watt là giáo viên tiếng Anh ở đại học Sakura."
+          "vi": "Ông Watt là giáo viên tiếng Anh ở đại học Sakura.",
+          "romaji": "waッtosan wa sakuradaigaku no eigo no sensei desu."
         },
         {
           "jp": "[[毎日|まいにち]] あかい くるまで [[大学|だいがく]] へ [[行|い]]きます。",
-          "vi": "Mỗi ngày ông ấy đi ô tô màu đỏ đến trường đại học."
+          "vi": "Mỗi ngày ông ấy đi ô tô màu đỏ đến trường đại học.",
+          "romaji": "mainichi akai kurumade daigaku he ikimasu."
         },
         {
           "jp": "さくら[[大学|だいがく]] は [[大|おお]]きい [[大学|だいがく]] では ありませんが、いい [[大学|だいがく]] です。",
-          "vi": "Đại học Sakura không phải là một trường lớn, nhưng là một trường tốt."
+          "vi": "Đại học Sakura không phải là một trường lớn, nhưng là một trường tốt.",
+          "romaji": "sakuradaigaku wa ookii daigaku de wa arimasenga,ii daigaku desu."
         },
         {
           "jp": "ワットさんは いつも しょくどうで ひるごはんを [[食|た]]べます。",
-          "vi": "Ông Watt lúc nào cũng ăn trưa ở nhà ăn."
+          "vi": "Ông Watt lúc nào cũng ăn trưa ở nhà ăn.",
+          "romaji": "waッtosan wa itsumo shokudoude hirugo wa nwo tabemasu."
         },
         {
           "jp": "しょくどうは [[12時|じゅうにじ]] から [[1時|いちじ]] まで とても にぎやかです。",
-          "vi": "Nhà ăn rất nhộn nhịp từ 12 giờ đến 1 giờ."
+          "vi": "Nhà ăn rất nhộn nhịp từ 12 giờ đến 1 giờ.",
+          "romaji": "shokudou wa juuniji kara ichiji made totemo nigiyakadesu."
         },
         {
           "jp": "しょくどうの [[食|た]]べ[[物|もの]] は おいしいです。",
-          "vi": "Đồ ăn ở nhà ăn rất ngon."
+          "vi": "Đồ ăn ở nhà ăn rất ngon.",
+          "romaji": "shokudouno tabemono wa oishiidesu."
         },
         {
           "jp": "そして、[[安|やす]]いです。",
-          "vi": "Và còn rẻ nữa."
+          "vi": "Và còn rẻ nữa.",
+          "romaji": "soshite,yasuidesu."
         },
         {
           "jp": "[[大学|だいがく]] の しごとは いそがしいですが、たのしいです。",
-          "vi": "Công việc ở trường đại học bận rộn nhưng vui."
+          "vi": "Công việc ở trường đại học bận rộn nhưng vui.",
+          "romaji": "daigaku no shigoto wa isogashiidesuga,tanoshiidesu."
         }
       ]
     },
@@ -569,35 +679,43 @@
       "sentences": [
         {
           "jp": "おおさかは [[大|おお]]きくて、にぎやかな まちです。",
-          "vi": "Osaka là một thành phố lớn và nhộn nhịp."
+          "vi": "Osaka là một thành phố lớn và nhộn nhịp.",
+          "romaji": "oosaka wa ookikute,nigiyakana machidesu."
         },
         {
           "jp": "おもしろい [[人|ひと]] が おおくて、[[食|た]]べ[[物|もの]] が おいしいです。",
-          "vi": "Có nhiều người thú vị và đồ ăn rất ngon."
+          "vi": "Có nhiều người thú vị và đồ ăn rất ngon.",
+          "romaji": "omoshiroi hito ga ookute,tabemono ga oishiidesu."
         },
         {
           "jp": "こうべと [[京都|きょうと]] と ならは おおさかから ちかいです。",
-          "vi": "Kobe, Kyoto và Nara đều gần Osaka."
+          "vi": "Kobe, Kyoto và Nara đều gần Osaka.",
+          "romaji": "koubeto kyouto to nara wa oosakakara chikaidesu."
         },
         {
           "jp": "[[四つ|よっつ]] の まちの [[中|なか]] で ならが いちばん ふるいです。",
-          "vi": "Trong bốn thành phố thì Nara là thành phố cổ nhất."
+          "vi": "Trong bốn thành phố thì Nara là thành phố cổ nhất.",
+          "romaji": "yottsu no machino naka de naraga ichiban furuidesu."
         },
         {
           "jp": "ならと [[京都|きょうと]] は [[古|ふる]]い お[[寺|てら]] や じんじゃが [[多|おお]]いですから、[[外国人|がいこくじん]] が あそびに [[来|き]]ます。",
-          "vi": "Vì Nara và Kyoto có nhiều chùa và đền cổ nên có nhiều người nước ngoài đến tham quan."
+          "vi": "Vì Nara và Kyoto có nhiều chùa và đền cổ nên có nhiều người nước ngoài đến tham quan.",
+          "romaji": "narato kyouto wa furui otera ya jinjaga ooidesukara,gaikokujin ga asobini kimasu."
         },
         {
           "jp": "こうべは すてきな まちです。",
-          "vi": "Kobe là một thành phố rất đẹp."
+          "vi": "Kobe là một thành phố rất đẹp.",
+          "romaji": "koube wa sutekina machidesu."
         },
         {
           "jp": "[[前|まえ]] に うみが あって、うしろに [[山|やま]] が あります。",
-          "vi": "Phía trước có biển, phía sau có núi."
+          "vi": "Phía trước có biển, phía sau có núi.",
+          "romaji": "mae ni umiga atte,ushironi yama ga arimasu."
         },
         {
           "jp": "わかい [[人|ひと]] は こうべが すきです。",
-          "vi": "Người trẻ thích Kobe."
+          "vi": "Người trẻ thích Kobe.",
+          "romaji": "wakai hito wa koubega sukidesu."
         }
       ]
     },
@@ -610,63 +728,78 @@
       "sentences": [
         {
           "jp": "いろいろな [[人|ひと]] に いちばん ほしい [[物|もの]] を [[聞|き]]きました。",
-          "vi": "Tôi đã hỏi nhiều người về món đồ hay điều họ muốn có nhất."
+          "vi": "Tôi đã hỏi nhiều người về món đồ hay điều họ muốn có nhất.",
+          "romaji": "iroirona hito ni ichiban hoshii mono wo kikimashita."
         },
         {
           "jp": "①「[[時間|じかん]]」です。",
-          "vi": "1. “Thời gian.”"
+          "vi": "1. “Thời gian.”",
+          "romaji": "①「jikan」desu."
         },
         {
           "jp": "[[会社|かいしゃ]] へ [[行|い]]って、はたらいて、うちへ [[帰|かえ]]ったら、[[1日|いちにち]] が おわります。",
-          "vi": "Tôi đi làm ở công ty, làm việc rồi về nhà là một ngày kết thúc."
+          "vi": "Tôi đi làm ở công ty, làm việc rồi về nhà là một ngày kết thúc.",
+          "romaji": "kais wa he itte, wa taraite,uchihe kaettara,ichinichi ga owarimasu."
         },
         {
           "jp": "[[1日|いちにち]] が みじかいです。",
-          "vi": "Một ngày quá ngắn."
+          "vi": "Một ngày quá ngắn.",
+          "romaji": "ichinichi ga mijikaidesu."
         },
         {
           "jp": "[[1日|いちにち]] [[36時間|さんじゅうろくじかん]] ぐらい ほしいです。",
-          "vi": "Tôi muốn một ngày dài khoảng 36 tiếng."
+          "vi": "Tôi muốn một ngày dài khoảng 36 tiếng.",
+          "romaji": "ichinichi sanjuurokujikan gurai hoshiidesu."
         },
         {
           "jp": "②「ぼくの ぎんこう」が ほしいです。",
-          "vi": "2. “Tôi muốn có ngân hàng của riêng mình.”"
+          "vi": "2. “Tôi muốn có ngân hàng của riêng mình.”",
+          "romaji": "②「bokuno ginkou」ga hoshiidesu."
         },
         {
           "jp": "ぎんこうを もっていたら、すきな とき、[[お金|おかね]] を おろして、すきな [[物|もの]] を [[買|か]]う ことが できます。",
-          "vi": "Nếu có ngân hàng riêng thì lúc nào cũng có thể rút tiền và mua thứ mình thích."
+          "vi": "Nếu có ngân hàng riêng thì lúc nào cũng có thể rút tiền và mua thứ mình thích.",
+          "romaji": "ginkouwo motteitara,sukina toki,okane wo oroshite,sukina mono wo kau kotoga dekimasu."
         },
         {
           "jp": "③「わかくなる くすり」です。",
-          "vi": "3. “Thuốc giúp trẻ lại.”"
+          "vi": "3. “Thuốc giúp trẻ lại.”",
+          "romaji": "③「wakakunaru kusuri」desu."
         },
         {
           "jp": "[[私|わたし]] は わかい とき、あまり べんきょうしませんでした。",
-          "vi": "Khi còn trẻ tôi đã không học nhiều."
+          "vi": "Khi còn trẻ tôi đã không học nhiều.",
+          "romaji": "watashi wa wakai toki,amari benkyoushimasendeshita."
         },
         {
           "jp": "もう いちど わかく なったら、べんきょうして、いい しごとを したいです。",
-          "vi": "Nếu được trẻ lại một lần nữa, tôi muốn học hành và làm một công việc tốt."
+          "vi": "Nếu được trẻ lại một lần nữa, tôi muốn học hành và làm một công việc tốt.",
+          "romaji": "mou ichido wakaku nattara,benkyoushite,ii shigotowo shitaidesu."
         },
         {
           "jp": "④「ユーモア」が ほしいです。",
-          "vi": "4. “Tôi muốn có khiếu hài hước.”"
+          "vi": "4. “Tôi muốn có khiếu hài hước.”",
+          "romaji": "④「yu-moa」ga hoshiidesu."
         },
         {
           "jp": "[[私|わたし]] が [[話|はなし]] を すると、つまは すぐ「あしたも いそがしいでしょう。 はやく [[寝|ね]]て ください。」と [[言|い]]います。",
-          "vi": "Khi tôi nói chuyện, vợ tôi liền bảo: “Ngày mai anh còn bận mà, ngủ sớm đi.”"
+          "vi": "Khi tôi nói chuyện, vợ tôi liền bảo: “Ngày mai anh còn bận mà, ngủ sớm đi.”",
+          "romaji": "watashi ga wa nashi wo suruto,tsuma wa sugu「ashitamo isogashiideshou. wa yaku nete kudasai.」to iimasu."
         },
         {
           "jp": "[[子|こ]]どもは「お[[父|とう]]さん、もう [[3回|さんかい]] ぐらい [[聞|き]]いたよ。」と [[言|い]]います。",
-          "vi": "Bọn trẻ thì nói: “Bố ơi, chuyện đó con nghe khoảng 3 lần rồi.”"
+          "vi": "Bọn trẻ thì nói: “Bố ơi, chuyện đó con nghe khoảng 3 lần rồi.”",
+          "romaji": "kodomo wa 「otousan,mou sankai gurai kiitayo.」to iimasu."
         },
         {
           "jp": "[[私|わたし]] は おもしろい [[人|ひと]] に なりたいです。",
-          "vi": "Tôi muốn trở thành một người thú vị."
+          "vi": "Tôi muốn trở thành một người thú vị.",
+          "romaji": "watashi wa omoshiroi hito ni naritaidesu."
         },
         {
           "jp": "([[男|おとこ]] の [[人|ひと]]、[[43才|よんじゅうさんさい]])",
-          "vi": "(Nam, 43 tuổi)"
+          "vi": "(Nam, 43 tuổi)",
+          "romaji": "(otoko no hito,yonjuusansai)"
         }
       ]
     },
@@ -679,39 +812,48 @@
       "sentences": [
         {
           "jp": "ぼくの おばあちゃんは [[72才|ななじゅうにさい]] で、げんきです。",
-          "vi": "Bà của tôi 72 tuổi và vẫn rất khỏe."
+          "vi": "Bà của tôi 72 tuổi và vẫn rất khỏe.",
+          "romaji": "bokuno obaac wa n wa nanajuunisai de,genkidesu."
         },
         {
           "jp": "[[一人|ひとり]] で すんでいます。",
-          "vi": "Bà sống một mình."
+          "vi": "Bà sống một mình.",
+          "romaji": "hitori de sundeimasu."
         },
         {
           "jp": "てんきが いい とき、おばあちゃんは びょういんへ ともだちに [[会|あ]]いに [[行|い]]きます。",
-          "vi": "Khi thời tiết đẹp, bà đi bệnh viện thăm bạn."
+          "vi": "Khi thời tiết đẹp, bà đi bệnh viện thăm bạn.",
+          "romaji": "tenkiga ii toki,obaac wa n wa byouinhe tomodachini aini ikimasu."
         },
         {
           "jp": "びょういんに ともだちが たくさん いますから。",
-          "vi": "Vì ở bệnh viện có rất nhiều bạn của bà."
+          "vi": "Vì ở bệnh viện có rất nhiều bạn của bà.",
+          "romaji": "byouinni tomodachiga takusan imasukara."
         },
         {
           "jp": "てんきが わるい とき、あしの ちょうしが よくないですから、[[出|で]]かけません。",
-          "vi": "Khi thời tiết xấu, do chân không khỏe nên bà không ra ngoài."
+          "vi": "Khi thời tiết xấu, do chân không khỏe nên bà không ra ngoài.",
+          "romaji": "tenkiga warui toki,ashino choushiga yokunaidesukara,dekakemasen."
         },
         {
           "jp": "おばあちゃんが ぼくの うちへ [[来|き]]た とき、ぼくは [[学校|がっこう]] で ならった うたを うたって あげます。",
-          "vi": "Khi bà đến nhà tôi, tôi hát cho bà nghe bài hát học ở trường."
+          "vi": "Khi bà đến nhà tôi, tôi hát cho bà nghe bài hát học ở trường.",
+          "romaji": "obaac wa nga bokuno uchihe kita toki,boku wa gakkou de naratta utawo utatte agemasu."
         },
         {
           "jp": "おばあちゃんは ぼくに [[古|ふる]]い [[日本|にほん]] の お[[話|はなし]] を してくれます。",
-          "vi": "Bà kể cho tôi nghe những câu chuyện cổ của Nhật Bản."
+          "vi": "Bà kể cho tôi nghe những câu chuyện cổ của Nhật Bản.",
+          "romaji": "obaac wa n wa bokuni furui nihon no o wa nashi wo shitekuremasu."
         },
         {
           "jp": "そして、パンや おかしを [[作|つく]]って くれます。",
-          "vi": "Và bà còn làm bánh mì và bánh ngọt cho tôi."
+          "vi": "Và bà còn làm bánh mì và bánh ngọt cho tôi.",
+          "romaji": "soshite,panya okashiwo tsukutte kuremasu."
         },
         {
           "jp": "おばあちゃんが うちへ [[来|く]]ると、うちの [[中|なか]] が とても にぎやかに なります。",
-          "vi": "Mỗi khi bà đến nhà, cả ngôi nhà trở nên rất rộn ràng."
+          "vi": "Mỗi khi bà đến nhà, cả ngôi nhà trở nên rất rộn ràng.",
+          "romaji": "obaac wa nga uchihe kuruto,uchino naka ga totemo nigiyakani narimasu."
         }
       ]
     },
@@ -724,47 +866,58 @@
       "sentences": [
         {
           "jp": "この どうぶつの [[名前|なまえ]] を しっていますか。",
-          "vi": "Bạn có biết tên của con vật này không?"
+          "vi": "Bạn có biết tên của con vật này không?",
+          "romaji": "kono doubutsuno namae wo shitteimasuka."
         },
         {
           "jp": "「カンガルー」です。",
-          "vi": "Đó là “kangaroo”."
+          "vi": "Đó là “kangaroo”.",
+          "romaji": "「kangaru-」desu."
         },
         {
           "jp": "カンガルーの [[名前|なまえ]] について おもしろい [[話|はなし]] が あります。",
-          "vi": "Có một câu chuyện thú vị về tên gọi của kangaroo."
+          "vi": "Có một câu chuyện thú vị về tên gọi của kangaroo.",
+          "romaji": "kangaru-no namae nitsuite omoshiroi wa nashi ga arimasu."
         },
         {
           "jp": "[[1770年|せんななひゃくななじゅうねん]] に イギリスの キャプテン・クックは ふねで オーストラリアへ [[行|い]]きました。",
-          "vi": "Năm 1770, thuyền trưởng Cook người Anh đã đi tàu đến Australia."
+          "vi": "Năm 1770, thuyền trưởng Cook người Anh đã đi tàu đến Australia.",
+          "romaji": "sennanahyakunanajuunen ni igirisuno kiャputen・kuッku wa funede o-sutorariahe ikimashita."
         },
         {
           "jp": "そして、はじめて この どうぶつを [[見|み]]ました。",
-          "vi": "Và lần đầu tiên ông ấy nhìn thấy con vật này."
+          "vi": "Và lần đầu tiên ông ấy nhìn thấy con vật này.",
+          "romaji": "soshite, wa jimete kono doubutsuwo mimashita."
         },
         {
           "jp": "クックは オーストラリアの [[人|ひと]] に この どうぶつの [[名前|なまえ]] を しりたいと [[言|い]]いました。",
-          "vi": "Cook đã nói với người Australia rằng ông muốn biết tên của con vật này."
+          "vi": "Cook đã nói với người Australia rằng ông muốn biết tên của con vật này.",
+          "romaji": "kuッku wa o-sutorariano hito ni kono doubutsuno namae wo shiritaito iimashita."
         },
         {
           "jp": "オーストラリアの [[人|ひと]] は オーストラリアの ことばで「カンガルー」と [[言|い]]いました。",
-          "vi": "Người Australia đã nói “kangaroo” bằng ngôn ngữ của họ."
+          "vi": "Người Australia đã nói “kangaroo” bằng ngôn ngữ của họ.",
+          "romaji": "o-sutorariano hito wa o-sutorariano kotobade「kangaru-」to iimashita."
         },
         {
           "jp": "ですから、クックは この どうぶつの [[名前|なまえ]] は 「カンガルー」だと おもいました。",
-          "vi": "Vì vậy Cook đã nghĩ rằng tên con vật này là “kangaroo”."
+          "vi": "Vì vậy Cook đã nghĩ rằng tên con vật này là “kangaroo”.",
+          "romaji": "desukara,kuッku wa kono doubutsuno namae wa 「kangaru-」dato omoimashita."
         },
         {
           "jp": "それから この どうぶつの [[名前|なまえ]] は 「カンガルー」に なりました。",
-          "vi": "Từ đó tên của con vật này trở thành “kangaroo”."
+          "vi": "Từ đó tên của con vật này trở thành “kangaroo”.",
+          "romaji": "sorekara kono doubutsuno namae wa 「kangaru-」ni narimashita."
         },
         {
           "jp": "おもしろいです ね。",
-          "vi": "Thú vị nhỉ."
+          "vi": "Thú vị nhỉ.",
+          "romaji": "omoshiroidesu ne."
         },
         {
           "jp": "ほんとうだと おもいますか。",
-          "vi": "Bạn có nghĩ là chuyện đó là thật không?"
+          "vi": "Bạn có nghĩ là chuyện đó là thật không?",
+          "romaji": "hontoudato omoimasuka."
         }
       ]
     },
@@ -777,47 +930,58 @@
       "sentences": [
         {
           "jp": "[[1月1日|いちがつついたち]] [[金曜日|きんようび]] くもり。",
-          "vi": "Ngày 1 tháng 1, thứ sáu, trời nhiều mây."
+          "vi": "Ngày 1 tháng 1, thứ sáu, trời nhiều mây.",
+          "romaji": "ichigatsutsuitachi kinyoubi kumori."
         },
         {
           "jp": "たなかくん、たかはしくんと いっしょに [[京都|きょうと]] の じんじゃへ [[行|い]]った。",
-          "vi": "Tôi đã cùng Tanaka và Takahashi đến một ngôi đền ở Kyoto."
+          "vi": "Tôi đã cùng Tanaka và Takahashi đến một ngôi đền ở Kyoto.",
+          "romaji": "tanakakun,taka wa shikunto isshoni kyouto no jinjahe itta."
         },
         {
           "jp": "[[古|ふる]]くて、[[大|おお]]きい じんじゃだった。",
-          "vi": "Đó là một ngôi đền cổ và rất lớn."
+          "vi": "Đó là một ngôi đền cổ và rất lớn.",
+          "romaji": "furukute,ookii jinjadatta."
         },
         {
           "jp": "[[人|ひと]] が [[多|おお]]くて、にぎやかだった。",
-          "vi": "Rất đông người nên không khí rất nhộn nhịp."
+          "vi": "Rất đông người nên không khí rất nhộn nhịp.",
+          "romaji": "hito ga ookute,nigiyakadatta."
         },
         {
           "jp": "きものの [[女|おんな]] の [[人|ひと]] が たくさん いた。",
-          "vi": "Có rất nhiều phụ nữ mặc kimono."
+          "vi": "Có rất nhiều phụ nữ mặc kimono.",
+          "romaji": "kimonono onna no hito ga takusan ita."
         },
         {
           "jp": "とても きれいだった。",
-          "vi": "Trông họ rất đẹp."
+          "vi": "Trông họ rất đẹp.",
+          "romaji": "totemo kireidatta."
         },
         {
           "jp": "たなかくんと たかはしくんは じんじゃの [[前|まえ]] の はこに [[お金|おかね]] を [[入|い]]れた。",
-          "vi": "Tanaka và Takahashi đã bỏ tiền vào chiếc hòm trước đền."
+          "vi": "Tanaka và Takahashi đã bỏ tiền vào chiếc hòm trước đền.",
+          "romaji": "tanakakunto taka wa shikun wa jinjano mae no wa koni okane wo ireta."
         },
         {
           "jp": "それから みんなで しゃしんを とったり、おみやげを [[買|か]]ったり した。",
-          "vi": "Sau đó mọi người cùng chụp ảnh và mua quà lưu niệm."
+          "vi": "Sau đó mọi người cùng chụp ảnh và mua quà lưu niệm.",
+          "romaji": "sorekara minnade s wa shinwo tottari,omiyagewo kattari shita."
         },
         {
           "jp": "てんきは あまり よくなかったが、あたたかかった。",
-          "vi": "Thời tiết không được đẹp lắm nhưng vẫn ấm."
+          "vi": "Thời tiết không được đẹp lắm nhưng vẫn ấm.",
+          "romaji": "tenki wa amari yokunakattaga,atatakakatta."
         },
         {
           "jp": "うちへ [[帰|かえ]]ってから、アメリカの かぞくに [[電話|でんわ]] を かけた。",
-          "vi": "Sau khi về nhà, tôi đã gọi điện cho gia đình ở Mỹ."
+          "vi": "Sau khi về nhà, tôi đã gọi điện cho gia đình ở Mỹ.",
+          "romaji": "uchihe kaettekara,amerikano kazokuni denwa wo kaketa."
         },
         {
           "jp": "みんな げんきだった。",
-          "vi": "Mọi người đều khỏe."
+          "vi": "Mọi người đều khỏe.",
+          "romaji": "minna genkidatta."
         }
       ]
     },
@@ -830,59 +994,73 @@
       "sentences": [
         {
           "jp": "わたしは だいがくの [[学生|がくせい]] です。",
-          "vi": "Tôi là sinh viên đại học."
+          "vi": "Tôi là sinh viên đại học.",
+          "romaji": "watashi wa daigakuno gakusei desu."
         },
         {
           "jp": "[[毎週|まいしゅう]]、ともだちと としょかんへ [[行|い]]きます。",
-          "vi": "Mỗi tuần tôi đi thư viện cùng bạn."
+          "vi": "Mỗi tuần tôi đi thư viện cùng bạn.",
+          "romaji": "maishuu,tomodachito toshokanhe ikimasu."
         },
         {
           "jp": "としょかんで [[本|ほん]] を [[読|よ]]みます。",
-          "vi": "Tôi đọc sách ở thư viện."
+          "vi": "Tôi đọc sách ở thư viện.",
+          "romaji": "toshokande hon wo yomimasu."
         },
         {
           "jp": "わたしは どくしょが すきですから、[[時間|じかん]] が ある とき、よく [[行|い]]きます。",
-          "vi": "Vì tôi thích đọc sách nên khi có thời gian tôi thường đến đó."
+          "vi": "Vì tôi thích đọc sách nên khi có thời gian tôi thường đến đó.",
+          "romaji": "watashi wa dokushoga sukidesukara,jikan ga aru toki,yoku ikimasu."
         },
         {
           "jp": "[[先週|せんしゅう]]、あたらしい [[本|ほん]] を さんさつ [[読|よ]]みました。",
-          "vi": "Tuần trước tôi đã đọc ba quyển sách mới."
+          "vi": "Tuần trước tôi đã đọc ba quyển sách mới.",
+          "romaji": "senshuu,atarashii hon wo sansatsu yomimashita."
         },
         {
           "jp": "その [[本|ほん]] は とても おもしろかったです。",
-          "vi": "Những quyển sách đó rất thú vị."
+          "vi": "Những quyển sách đó rất thú vị.",
+          "romaji": "sono hon wa totemo omoshirokattadesu."
         },
         {
           "jp": "としょかんの あとで、ともだちと カフェへ [[行|い]]きました。",
-          "vi": "Sau thư viện, tôi đã đi quán cà phê với bạn."
+          "vi": "Sau thư viện, tôi đã đi quán cà phê với bạn.",
+          "romaji": "toshokanno atode,tomodachito kafuェhe ikimashita."
         },
         {
           "jp": "コーヒーと ケーキを [[食|た]]べました。",
-          "vi": "Chúng tôi đã dùng cà phê và bánh ngọt."
+          "vi": "Chúng tôi đã dùng cà phê và bánh ngọt.",
+          "romaji": "ko-hi-to ke-kiwo tabemashita."
         },
         {
           "jp": "カフェの おんがくは とても しずかで、いい じかんでした。",
-          "vi": "Nhạc ở quán rất nhẹ nhàng nên đó là khoảng thời gian rất dễ chịu."
+          "vi": "Nhạc ở quán rất nhẹ nhàng nên đó là khoảng thời gian rất dễ chịu.",
+          "romaji": "kafuェno ongaku wa totemo shizukade,ii jikandeshita."
         },
         {
           "jp": "そして、スーパーで [[買い物|かいもの]] も しました。",
-          "vi": "Sau đó chúng tôi cũng đi mua sắm ở siêu thị."
+          "vi": "Sau đó chúng tôi cũng đi mua sắm ở siêu thị.",
+          "romaji": "soshite,su-pa-de kaimono mo shimashita."
         },
         {
           "jp": "のみものと パンを [[買|か]]いました。",
-          "vi": "Tôi đã mua đồ uống và bánh mì."
+          "vi": "Tôi đã mua đồ uống và bánh mì.",
+          "romaji": "nomimonoto panwo kaimashita."
         },
         {
           "jp": "らいしゅうは テストが ありますから、こんしゅうは [[毎日|まいにち]] べんきょうします。",
-          "vi": "Vì tuần sau có bài kiểm tra nên tuần này tôi học mỗi ngày."
+          "vi": "Vì tuần sau có bài kiểm tra nên tuần này tôi học mỗi ngày.",
+          "romaji": "raishuu wa tesutoga arimasukara,konshuu wa mainichi benkyoushimasu."
         },
         {
           "jp": "でも、すこし [[休|やす]]みも [[大切|たいせつ]] だと おもいます。",
-          "vi": "Nhưng tôi nghĩ nghỉ ngơi một chút cũng rất quan trọng."
+          "vi": "Nhưng tôi nghĩ nghỉ ngơi một chút cũng rất quan trọng.",
+          "romaji": "demo,sukoshi yasumimo taisetsu dato omoimasu."
         },
         {
           "jp": "だから、アニメを [[見|み]]て、リラックスします。",
-          "vi": "Vì vậy tôi xem anime để thư giãn."
+          "vi": "Vì vậy tôi xem anime để thư giãn.",
+          "romaji": "dakara,animewo mite,riraッkusushimasu."
         }
       ]
     },
@@ -895,63 +1073,78 @@
       "sentences": [
         {
           "jp": "わたしは にほんごの がくせいです。",
-          "vi": "Tôi là học viên tiếng Nhật."
+          "vi": "Tôi là học viên tiếng Nhật.",
+          "romaji": "watashi wa nihongono gakuseidesu."
         },
         {
           "jp": "きょうは [[学校|がっこう]] へ [[行|い]]きます。",
-          "vi": "Hôm nay tôi đi đến trường."
+          "vi": "Hôm nay tôi đi đến trường.",
+          "romaji": "kyou wa gakkou he ikimasu."
         },
         {
           "jp": "[[学校|がっこう]] で [[先生|せんせい]] と はなします。",
-          "vi": "Ở trường tôi nói chuyện với giáo viên."
+          "vi": "Ở trường tôi nói chuyện với giáo viên.",
+          "romaji": "gakkou de sensei to wa nashimasu."
         },
         {
           "jp": "にほんごの じゅぎょうは とても たのしいです。",
-          "vi": "Giờ học tiếng Nhật rất vui."
+          "vi": "Giờ học tiếng Nhật rất vui.",
+          "romaji": "nihongono jugyou wa totemo tanoshiidesu."
         },
         {
           "jp": "きのう、ともだちと えいがを [[見|み]]ました。",
-          "vi": "Hôm qua tôi đã xem phim với bạn."
+          "vi": "Hôm qua tôi đã xem phim với bạn.",
+          "romaji": "kinou,tomodachito eigawo mimashita."
         },
         {
           "jp": "れんしゅうも しました。",
-          "vi": "Tôi cũng đã luyện tập."
+          "vi": "Tôi cũng đã luyện tập.",
+          "romaji": "renshuumo shimashita."
         },
         {
           "jp": "その えいがは すこし むずかしかったですが、おもしろかったです。",
-          "vi": "Bộ phim đó hơi khó nhưng rất thú vị."
+          "vi": "Bộ phim đó hơi khó nhưng rất thú vị.",
+          "romaji": "sono eiga wa sukoshi muzukashikattadesuga,omoshirokattadesu."
         },
         {
           "jp": "じゅぎょうの [[後|あと]] で、ともだちと レストランへ [[行|い]]きました。",
-          "vi": "Sau giờ học, tôi đã đi nhà hàng với bạn."
+          "vi": "Sau giờ học, tôi đã đi nhà hàng với bạn.",
+          "romaji": "jugyouno ato de,tomodachito resutoranhe ikimashita."
         },
         {
           "jp": "ハンバーガーと ジュースを [[飲|の]]みました。",
-          "vi": "Tôi đã dùng hamburger và nước trái cây."
+          "vi": "Tôi đã dùng hamburger và nước trái cây.",
+          "romaji": "wa nba-ga-to jiュ-suwo nomimashita."
         },
         {
           "jp": "レストランの りょうりは やすくて おいしかったです。",
-          "vi": "Đồ ăn ở nhà hàng vừa rẻ vừa ngon."
+          "vi": "Đồ ăn ở nhà hàng vừa rẻ vừa ngon.",
+          "romaji": "resutoranno ryouri wa yasukute oishikattadesu."
         },
         {
           "jp": "そして、いえに [[帰|かえ]]りました。",
-          "vi": "Sau đó tôi về nhà."
+          "vi": "Sau đó tôi về nhà.",
+          "romaji": "soshite,ieni kaerimashita."
         },
         {
           "jp": "いえで おんがくを ききました。",
-          "vi": "Ở nhà tôi nghe nhạc."
+          "vi": "Ở nhà tôi nghe nhạc.",
+          "romaji": "iede ongakuwo kikimashita."
         },
         {
           "jp": "あしたは やすみの [[日|ひ]] ですから、ともだちと あそびます。",
-          "vi": "Vì ngày mai là ngày nghỉ nên tôi sẽ đi chơi với bạn."
+          "vi": "Vì ngày mai là ngày nghỉ nên tôi sẽ đi chơi với bạn.",
+          "romaji": "ashita wa yasumino hi desukara,tomodachito asobimasu."
         },
         {
           "jp": "でも、すこし べんきょうも します。",
-          "vi": "Nhưng tôi cũng sẽ học một chút."
+          "vi": "Nhưng tôi cũng sẽ học một chút.",
+          "romaji": "demo,sukoshi benkyoumo shimasu."
         },
         {
           "jp": "にほんごは まだ むずかしいですが、[[毎日|まいにち]] がんばります。",
-          "vi": "Tiếng Nhật vẫn còn khó nhưng tôi cố gắng mỗi ngày."
+          "vi": "Tiếng Nhật vẫn còn khó nhưng tôi cố gắng mỗi ngày.",
+          "romaji": "nihongo wa mada muzukashiidesuga,mainichi ganbarimasu."
         }
       ]
     },
@@ -964,43 +1157,53 @@
       "sentences": [
         {
           "jp": "わたしは [[会社|かいしゃ]] で はたらきます。",
-          "vi": "Tôi làm việc ở công ty."
+          "vi": "Tôi làm việc ở công ty.",
+          "romaji": "watashi wa kais wa de wa tarakimasu."
         },
         {
           "jp": "きょう、ともだちと [[会|あ]]います。",
-          "vi": "Hôm nay tôi gặp bạn."
+          "vi": "Hôm nay tôi gặp bạn.",
+          "romaji": "kyou,tomodachito aimasu."
         },
         {
           "jp": "しごとの あとで、[[本|ほん]] を [[読|よ]]みます。",
-          "vi": "Sau giờ làm tôi sẽ đọc sách."
+          "vi": "Sau giờ làm tôi sẽ đọc sách.",
+          "romaji": "shigotono atode,hon wo yomimasu."
         },
         {
           "jp": "まだ へたですが、[[毎日|まいにち]] れんしゅうしています。",
-          "vi": "Tôi vẫn còn chưa giỏi nhưng ngày nào cũng luyện tập."
+          "vi": "Tôi vẫn còn chưa giỏi nhưng ngày nào cũng luyện tập.",
+          "romaji": "mada hetadesuga,mainichi renshuushiteimasu."
         },
         {
           "jp": "ゆうがた、コンビニへ [[行|い]]きました。",
-          "vi": "Chiều tối tôi đã đi combini."
+          "vi": "Chiều tối tôi đã đi combini.",
+          "romaji": "yuugata,konbinihe ikimashita."
         },
         {
           "jp": "パンと ミルクを [[買|か]]いました。",
-          "vi": "Tôi đã mua bánh mì và sữa."
+          "vi": "Tôi đã mua bánh mì và sữa.",
+          "romaji": "panto mirukuwo kaimashita."
         },
         {
           "jp": "コンビニは べんりで、よく [[行|い]]きます。",
-          "vi": "Combini rất tiện nên tôi thường đến đó."
+          "vi": "Combini rất tiện nên tôi thường đến đó.",
+          "romaji": "konbini wa benride,yoku ikimasu."
         },
         {
           "jp": "よる、いえに [[帰|かえ]]りました。",
-          "vi": "Buổi tối tôi đã về nhà."
+          "vi": "Buổi tối tôi đã về nhà.",
+          "romaji": "yoru,ieni kaerimashita."
         },
         {
           "jp": "テレビを [[見|み]]て、すこし [[休|やす]]みました。",
-          "vi": "Tôi xem tivi và nghỉ ngơi một chút."
+          "vi": "Tôi xem tivi và nghỉ ngơi một chút.",
+          "romaji": "terebiwo mite,sukoshi yasumimashita."
         },
         {
           "jp": "つかれましたが、いい いちにちでした。",
-          "vi": "Dù mệt nhưng đó là một ngày tốt đẹp."
+          "vi": "Dù mệt nhưng đó là một ngày tốt đẹp.",
+          "romaji": "tsukaremashitaga,ii ichinichideshita."
         }
       ]
     },
@@ -1013,43 +1216,53 @@
       "sentences": [
         {
           "jp": "わたしは [[大学|だいがく]] で べんきょうしています。",
-          "vi": "Tôi đang học ở đại học."
+          "vi": "Tôi đang học ở đại học.",
+          "romaji": "watashi wa daigaku de benkyoushiteimasu."
         },
         {
           "jp": "[[大学|だいがく]] は とても [[大|おお]]きいです。",
-          "vi": "Trường đại học rất lớn."
+          "vi": "Trường đại học rất lớn.",
+          "romaji": "daigaku wa totemo ookiidesu."
         },
         {
           "jp": "ともだちと にほんごで [[話|はな]]します。",
-          "vi": "Tôi nói chuyện với bạn bằng tiếng Nhật."
+          "vi": "Tôi nói chuyện với bạn bằng tiếng Nhật.",
+          "romaji": "tomodachito nihongode wa nashimasu."
         },
         {
           "jp": "[[毎日|まいにち]] ノートに ことばを [[書|か]]いて、れんしゅうを しています。",
-          "vi": "Mỗi ngày tôi viết từ vựng vào vở để luyện tập."
+          "vi": "Mỗi ngày tôi viết từ vựng vào vở để luyện tập.",
+          "romaji": "mainichi no-toni kotobawo kaite,renshuuwo shiteimasu."
         },
         {
           "jp": "[[今日|きょう]]、ともだちが うちに [[来|き]]ました。",
-          "vi": "Hôm nay bạn tôi đã đến nhà."
+          "vi": "Hôm nay bạn tôi đã đến nhà.",
+          "romaji": "kyou,tomodachiga uchini kimashita."
         },
         {
           "jp": "いっしょに べんきょうして、わからない ところを おしえました。",
-          "vi": "Chúng tôi cùng học và giải thích những chỗ chưa hiểu."
+          "vi": "Chúng tôi cùng học và giải thích những chỗ chưa hiểu.",
+          "romaji": "isshoni benkyoushite,wakaranai tokorowo oshiemashita."
         },
         {
           "jp": "とても たのしかったです。",
-          "vi": "Rất vui."
+          "vi": "Rất vui.",
+          "romaji": "totemo tanoshikattadesu."
         },
         {
           "jp": "その あと、デパートへ [[行|い]]きました。",
-          "vi": "Sau đó chúng tôi đã đi cửa hàng bách hóa."
+          "vi": "Sau đó chúng tôi đã đi cửa hàng bách hóa.",
+          "romaji": "sono ato,depa-tohe ikimashita."
         },
         {
           "jp": "シャツを [[見|み]]て、いちまい [[買|か]]いました。",
-          "vi": "Tôi xem áo sơ mi và mua một chiếc."
+          "vi": "Tôi xem áo sơ mi và mua một chiếc.",
+          "romaji": "shiャtsuwo mite,ichimai kaimashita."
         },
         {
           "jp": "よるは カラオケで うたって、いい じかんを すごしました。",
-          "vi": "Buổi tối chúng tôi hát karaoke và trải qua khoảng thời gian rất vui."
+          "vi": "Buổi tối chúng tôi hát karaoke và trải qua khoảng thời gian rất vui.",
+          "romaji": "yoru wa karaokede utatte,ii jikanwo sugoshimashita."
         }
       ]
     },
@@ -1062,35 +1275,43 @@
       "sentences": [
         {
           "jp": "わたしは [[家|いえ]] で ごはんを つくります。",
-          "vi": "Tôi nấu cơm ở nhà."
+          "vi": "Tôi nấu cơm ở nhà.",
+          "romaji": "watashi wa ie de go wa nwo tsukurimasu."
         },
         {
           "jp": "きょうは [[食|た]]べ[[物|もの]] を たくさん つくりました。",
-          "vi": "Hôm nay tôi đã làm rất nhiều món ăn."
+          "vi": "Hôm nay tôi đã làm rất nhiều món ăn.",
+          "romaji": "kyou wa tabemono wo takusan tsukurimashita."
         },
         {
           "jp": "やさいと にくを つかって、かんたんな りょうりを しました。",
-          "vi": "Tôi dùng rau và thịt để nấu những món đơn giản."
+          "vi": "Tôi dùng rau và thịt để nấu những món đơn giản.",
+          "romaji": "yasaito nikuwo tsukatte,kantanna ryouriwo shimashita."
         },
         {
           "jp": "ともだちと いっしょに [[食|た]]べました。",
-          "vi": "Tôi đã ăn cùng bạn."
+          "vi": "Tôi đã ăn cùng bạn.",
+          "romaji": "tomodachito isshoni tabemashita."
         },
         {
           "jp": "とても おいしかったです。",
-          "vi": "Món ăn rất ngon."
+          "vi": "Món ăn rất ngon.",
+          "romaji": "totemo oishikattadesu."
         },
         {
           "jp": "あとで、[[飲み物|のみもの]] を [[飲|の]]みながら いろいろな はなしを しました。",
-          "vi": "Sau đó chúng tôi vừa uống nước vừa trò chuyện đủ thứ."
+          "vi": "Sau đó chúng tôi vừa uống nước vừa trò chuyện đủ thứ.",
+          "romaji": "atode,nomimono wo nominagara iroirona wa nashiwo shimashita."
         },
         {
           "jp": "スーパーで チョコを [[買|か]]って、すこし [[食|た]]べました。",
-          "vi": "Tôi mua sô-cô-la ở siêu thị rồi ăn một ít."
+          "vi": "Tôi mua sô-cô-la ở siêu thị rồi ăn một ít.",
+          "romaji": "su-pa-de chiョkowo katte,sukoshi tabemashita."
         },
         {
           "jp": "ゆっくり やすむ じかんも [[大切|たいせつ]] だと おもいます。",
-          "vi": "Tôi nghĩ thời gian nghỉ ngơi thong thả cũng rất quan trọng."
+          "vi": "Tôi nghĩ thời gian nghỉ ngơi thong thả cũng rất quan trọng.",
+          "romaji": "yukkuri yasumu jikanmo taisetsu dato omoimasu."
         }
       ]
     },
@@ -1103,35 +1324,43 @@
       "sentences": [
         {
           "jp": "わたしは [[来年|らいねん]] にほんへ [[行|い]]きたいです。",
-          "vi": "Năm sau tôi muốn đi Nhật Bản."
+          "vi": "Năm sau tôi muốn đi Nhật Bản.",
+          "romaji": "watashi wa rainen nihonhe ikitaidesu."
         },
         {
           "jp": "[[来月|らいげつ]]、テストが ありますから、いま とても いそがしいです。",
-          "vi": "Vì tháng sau có bài kiểm tra nên bây giờ tôi rất bận."
+          "vi": "Vì tháng sau có bài kiểm tra nên bây giờ tôi rất bận.",
+          "romaji": "raigetsu,tesutoga arimasukara,ima totemo isogashiidesu."
         },
         {
           "jp": "[[来週|らいしゅう]] も べんきょうの よていが あります。",
-          "vi": "Tuần sau tôi cũng có kế hoạch học tập."
+          "vi": "Tuần sau tôi cũng có kế hoạch học tập.",
+          "romaji": "raishuu mo benkyouno yoteiga arimasu."
         },
         {
           "jp": "きょう、ともだちと [[会|あ]]いました。",
-          "vi": "Hôm nay tôi đã gặp bạn."
+          "vi": "Hôm nay tôi đã gặp bạn.",
+          "romaji": "kyou,tomodachito aimashita."
         },
         {
           "jp": "いっしょに ホテルの レストランへ [[行|い]]きました。",
-          "vi": "Chúng tôi đã cùng đi đến nhà hàng trong khách sạn."
+          "vi": "Chúng tôi đã cùng đi đến nhà hàng trong khách sạn.",
+          "romaji": "isshoni hoteruno resutoranhe ikimashita."
         },
         {
           "jp": "パスタと サラダを [[食|た]]べて、たのしい じかんを すごしました。",
-          "vi": "Chúng tôi ăn pasta và salad rồi trải qua một khoảng thời gian vui vẻ."
+          "vi": "Chúng tôi ăn pasta và salad rồi trải qua một khoảng thời gian vui vẻ.",
+          "romaji": "pasutato saradawo tabete,tanoshii jikanwo sugoshimashita."
         },
         {
           "jp": "ホテルは とても きれいで、しずかでした。",
-          "vi": "Khách sạn rất đẹp và yên tĩnh."
+          "vi": "Khách sạn rất đẹp và yên tĩnh.",
+          "romaji": "hoteru wa totemo kireide,shizukadeshita."
         },
         {
           "jp": "すこし たかいですが、また [[行|い]]きたいと おもいます。",
-          "vi": "Dù hơi đắt nhưng tôi vẫn muốn quay lại lần nữa."
+          "vi": "Dù hơi đắt nhưng tôi vẫn muốn quay lại lần nữa.",
+          "romaji": "sukoshi takaidesuga,mata ikitaito omoimasu."
         }
       ]
     },
@@ -1144,35 +1373,43 @@
       "sentences": [
         {
           "jp": "きょねんの [[3月|さんがつ]]、[[東京|とうきょう]] へ [[行|い]]きました。",
-          "vi": "Vào tháng 3 năm ngoái, tôi đã đi Tokyo."
+          "vi": "Vào tháng 3 năm ngoái, tôi đã đi Tokyo.",
+          "romaji": "kyonenno sangatsu,toukyou he ikimashita."
         },
         {
           "jp": "[[東京|とうきょう]] は [[大|おお]]きい まちでした。",
-          "vi": "Tokyo là một thành phố lớn."
+          "vi": "Tokyo là một thành phố lớn.",
+          "romaji": "toukyou wa ookii machideshita."
         },
         {
           "jp": "たかい ビルや ホテルが たくさん ありました。",
-          "vi": "Có rất nhiều tòa nhà cao tầng và khách sạn."
+          "vi": "Có rất nhiều tòa nhà cao tầng và khách sạn.",
+          "romaji": "takai biruya hoteruga takusan arimashita."
         },
         {
           "jp": "そして、[[人|ひと]] が おおかったです。",
-          "vi": "Hơn nữa còn có rất đông người."
+          "vi": "Hơn nữa còn có rất đông người.",
+          "romaji": "soshite,hito ga ookattadesu."
         },
         {
           "jp": "みどりは あまり なかったですが、まちは とても きれいでした。",
-          "vi": "Cây xanh không nhiều lắm nhưng thành phố rất sạch đẹp."
+          "vi": "Cây xanh không nhiều lắm nhưng thành phố rất sạch đẹp.",
+          "romaji": "midori wa amari nakattadesuga,machi wa totemo kireideshita."
         },
         {
           "jp": "あきはばらの デパートで [[買い物|かいもの]] しました。",
-          "vi": "Tôi đã mua sắm ở cửa hàng bách hóa tại Akihabara."
+          "vi": "Tôi đã mua sắm ở cửa hàng bách hóa tại Akihabara.",
+          "romaji": "aki wa barano depa-tode kaimono shimashita."
         },
         {
           "jp": "それから、にんきの カフェで ごはんを [[食|た]]べました。",
-          "vi": "Sau đó tôi ăn ở một quán cà phê nổi tiếng."
+          "vi": "Sau đó tôi ăn ở một quán cà phê nổi tiếng.",
+          "romaji": "sorekara,ninkino kafuェde go wa nwo tabemashita."
         },
         {
           "jp": "とても おいしかったです。",
-          "vi": "Món ăn rất ngon."
+          "vi": "Món ăn rất ngon.",
+          "romaji": "totemo oishikattadesu."
         }
       ]
     },
@@ -1185,31 +1422,38 @@
       "sentences": [
         {
           "jp": "わたしは [[今年|ことし]] の [[9月|くがつ]] に ベトナムへ [[行|い]]きました。",
-          "vi": "Năm nay vào tháng 9 tôi đã đi Việt Nam."
+          "vi": "Năm nay vào tháng 9 tôi đã đi Việt Nam.",
+          "romaji": "watashi wa kotoshi no kugatsu ni betonamuhe ikimashita."
         },
         {
           "jp": "ダナンで ともだちに [[会|あ]]いました。",
-          "vi": "Tôi đã gặp bạn ở Đà Nẵng."
+          "vi": "Tôi đã gặp bạn ở Đà Nẵng.",
+          "romaji": "danande tomodachini aimashita."
         },
         {
           "jp": "それから、いっしょに ゆうめいな おてらへ [[行|い]]きました。",
-          "vi": "Sau đó chúng tôi cùng đi đến một ngôi chùa nổi tiếng."
+          "vi": "Sau đó chúng tôi cùng đi đến một ngôi chùa nổi tiếng.",
+          "romaji": "sorekara,isshoni yuumeina oterahe ikimashita."
         },
         {
           "jp": "とても きれいでした。",
-          "vi": "Nơi đó rất đẹp."
+          "vi": "Nơi đó rất đẹp.",
+          "romaji": "totemo kireideshita."
         },
         {
           "jp": "おいしい [[食|た]]べ[[物|もの]] も たくさん [[食|た]]べました。",
-          "vi": "Tôi cũng đã ăn rất nhiều món ngon."
+          "vi": "Tôi cũng đã ăn rất nhiều món ngon.",
+          "romaji": "oishii tabemono mo takusan tabemashita."
         },
         {
           "jp": "[[時間|じかん]] が あまり ありませんでしたから、フエへ [[行|い]]きませんでした。",
-          "vi": "Vì không có nhiều thời gian nên tôi đã không đi Huế."
+          "vi": "Vì không có nhiều thời gian nên tôi đã không đi Huế.",
+          "romaji": "jikan ga amari arimasendeshitakara,fuehe ikimasendeshita."
         },
         {
           "jp": "こんど フエへ [[行|い]]きたいです。",
-          "vi": "Lần tới tôi muốn đến Huế."
+          "vi": "Lần tới tôi muốn đến Huế.",
+          "romaji": "kondo fuehe ikitaidesu."
         }
       ]
     },
@@ -1222,43 +1466,53 @@
       "sentences": [
         {
           "jp": "[[先週|せんしゅう]] の [[日曜日|にちようび]]、[[学校|がっこう]] で パーティーが ありました。",
-          "vi": "Chủ nhật tuần trước, ở trường đã có một bữa tiệc."
+          "vi": "Chủ nhật tuần trước, ở trường đã có một bữa tiệc.",
+          "romaji": "senshuu no nichiyoubi,gakkou de pa-teィ-ga arimashita."
         },
         {
           "jp": "とても にぎやかでした。",
-          "vi": "Không khí rất nhộn nhịp."
+          "vi": "Không khí rất nhộn nhịp.",
+          "romaji": "totemo nigiyakadeshita."
         },
         {
           "jp": "[[人|ひと]] が おおかったです。",
-          "vi": "Có rất đông người."
+          "vi": "Có rất đông người.",
+          "romaji": "hito ga ookattadesu."
         },
         {
           "jp": "ちかくの [[大学|だいがく]] の [[学生|がくせい]] も あそびに [[来|き]]ました。",
-          "vi": "Sinh viên của trường đại học gần đó cũng đến chơi."
+          "vi": "Sinh viên của trường đại học gần đó cũng đến chơi.",
+          "romaji": "chikakuno daigaku no gakusei mo asobini kimashita."
         },
         {
           "jp": "いろいろな [[国|くに]] の りょうりが ありました。",
-          "vi": "Có các món ăn của nhiều quốc gia khác nhau."
+          "vi": "Có các món ăn của nhiều quốc gia khác nhau.",
+          "romaji": "iroirona kuni no ryouriga arimashita."
         },
         {
           "jp": "[[日本|にほん]] の ラーメンや タイの トムヤム など です。",
-          "vi": "Ví dụ như ramen của Nhật và tom yum của Thái."
+          "vi": "Ví dụ như ramen của Nhật và tom yum của Thái.",
+          "romaji": "nihon no ra-menya taino tomuyamu nado desu."
         },
         {
           "jp": "わたしは おこのみやきを [[食|た]]べました。",
-          "vi": "Tôi đã ăn okonomiyaki."
+          "vi": "Tôi đã ăn okonomiyaki.",
+          "romaji": "watashi wa okonomiyakiwo tabemashita."
         },
         {
           "jp": "ジュースも [[飲|の]]みました。",
-          "vi": "Tôi cũng đã uống nước trái cây."
+          "vi": "Tôi cũng đã uống nước trái cây.",
+          "romaji": "jiュ-sumo nomimashita."
         },
         {
           "jp": "とても おいしかったです。",
-          "vi": "Rất ngon."
+          "vi": "Rất ngon.",
+          "romaji": "totemo oishikattadesu."
         },
         {
           "jp": "たのしい [[一日|いちにち]] でした。",
-          "vi": "Đó là một ngày rất vui."
+          "vi": "Đó là một ngày rất vui.",
+          "romaji": "tanoshii ichinichi deshita."
         }
       ]
     },
@@ -1271,31 +1525,38 @@
       "sentences": [
         {
           "jp": "[[週末|しゅうまつ]]、かぞくと えいがを [[見|み]]ました。",
-          "vi": "Cuối tuần tôi đã xem phim cùng gia đình."
+          "vi": "Cuối tuần tôi đã xem phim cùng gia đình.",
+          "romaji": "shuumatsu,kazokuto eigawo mimashita."
         },
         {
           "jp": "あさ、[[10時半|じゅうじはん]] に えいがかんへ [[行|い]]きました。",
-          "vi": "Buổi sáng, lúc 10 giờ rưỡi tôi đã đi đến rạp chiếu phim."
+          "vi": "Buổi sáng, lúc 10 giờ rưỡi tôi đã đi đến rạp chiếu phim.",
+          "romaji": "asa,juuji wa n ni eigakanhe ikimashita."
         },
         {
           "jp": "わたしは ホラーえいがが すきですが、『スパイダーマン』を [[見|み]]ました。",
-          "vi": "Tôi thích phim kinh dị nhưng hôm đó đã xem Spider-Man."
+          "vi": "Tôi thích phim kinh dị nhưng hôm đó đã xem Spider-Man.",
+          "romaji": "watashi wa hora-eigaga sukidesuga,『supaida-man』wo mimashita."
         },
         {
           "jp": "えいがは とても おもしろかったです。",
-          "vi": "Bộ phim rất thú vị."
+          "vi": "Bộ phim rất thú vị.",
+          "romaji": "eiga wa totemo omoshirokattadesu."
         },
         {
           "jp": "それから カフェで コーヒーを [[飲|の]]みました。",
-          "vi": "Sau đó tôi uống cà phê ở quán."
+          "vi": "Sau đó tôi uống cà phê ở quán.",
+          "romaji": "sorekara kafuェde ko-hi-wo nomimashita."
         },
         {
           "jp": "[[買い物|かいもの]] も しました。",
-          "vi": "Tôi cũng đi mua sắm."
+          "vi": "Tôi cũng đi mua sắm.",
+          "romaji": "kaimono mo shimashita."
         },
         {
           "jp": "とても たのしい [[一日|いちにち]] でした。",
-          "vi": "Đó là một ngày rất vui."
+          "vi": "Đó là một ngày rất vui.",
+          "romaji": "totemo tanoshii ichinichi deshita."
         }
       ]
     }

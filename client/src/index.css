@@ -35,6 +35,9 @@
     --shadow-pop: 2px 2px 0 rgba(17, 24, 39, 0.94);
     --shadow-warm: 6px 6px 0 rgba(17, 24, 39, 0.94), 0 16px 36px rgba(234, 88, 12, 0.18);
     --shadow-glow: 0 16px 36px rgba(37, 99, 235, 0.22);
+
+    /* Fonts */
+    --font-japanese: "Noto Sans JP", "Hiragino Kaku Gothic ProN", "Meiryo", sans-serif;
   }
 
   html {
@@ -42,7 +45,8 @@
   }
 
   body {
-    @apply bg-bg-primary text-text-primary font-main antialiased selection:bg-accent-primary selection:text-white;
+    @apply bg-bg-primary text-text-primary antialiased selection:bg-accent-primary selection:text-white;
+    font-family: "Nunito Sans", var(--font-japanese);
     min-width: 320px;
     background:
       linear-gradient(rgba(17, 24, 39, 0.11) 1px, transparent 1px),

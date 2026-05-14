@@ -4,8 +4,35 @@ import { ArrowLeft, ChevronLeft, ChevronRight, BookmarkPlus, BookmarkCheck, Rota
 import { kanjiApi } from '../api/kanjiApi';
 import { memoryApi } from '../../memory/api/memoryApi';
 import type { KanjiLesson, KanjiItem } from '../types/kanji.types';
-// @ts-ignore
+import type { MemoryGrammarStatus } from '../../memory/types/memory.types';
+// @ts-expect-error -- this project doesn't include hanzi-writer types
 import HanziWriter from 'hanzi-writer';
+
+type HanziWriterCharData = {
+  medians?: number[][][];
+  strokes?: string[];
+};
+
+type HanziWriterQuizStrokeData = {
+  strokeNum: number;
+};
+
+type HanziWriterInstance = {
+  showCharacter: () => void;
+  hideCharacter: () => void;
+  animateStroke: (strokeNum: number, options?: { onComplete?: () => void }) => void;
+  quiz: (options: { onCorrectStroke?: (data: HanziWriterQuizStrokeData) => void; onComplete?: () => void }) => void;
+};
+
+type HanziWriterModule = {
+  create: (
+    target: HTMLElement,
+    character: string,
+    options: Record<string, unknown> & { charDataLoader?: (char: string, onComplete: (data: HanziWriterCharData) => void) => void }
+  ) => HanziWriterInstance;
+};
+
+const HanziWriterTyped = HanziWriter as unknown as HanziWriterModule;
 
 const RADICAL_HANVIET: Record<string, string> = {
   '一': 'Nhất', '二': 'Nhị', '十': 'Thập', '人': 'Nhân', '亻': 'Nhân',
@@ -60,7 +87,7 @@ export const KanjiStudyPage = () => {
   const [kanjis, setKanjis] = useState<KanjiItem[]>([]);
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isLoading, setIsLoading] = useState(true);
-  const [memoryStatus, setMemoryStatus] = useState({ isInMemory: false, isActive: false, memoryItemId: null as string | null });
+  const [memoryStatus, setMemoryStatus] = useState<MemoryGrammarStatus>({ isInMemory: false, isActive: false, memoryItemId: null });
   const [isSavingStudy, setIsSavingStudy] = useState(false);
   const [showStrokeOrder, setShowStrokeOrder] = useState(false);
   const [strokeAnimIndex, setStrokeAnimIndex] = useState(-1);
@@ -68,11 +95,11 @@ export const KanjiStudyPage = () => {
   const [kanjiMedians, setKanjiMedians] = useState<number[][][]>([]);
   const [kanjiStrokes, setKanjiStrokes] = useState<string[]>([]);
   const writerContainerRef = useRef<HTMLDivElement>(null);
-  const hwRef = useRef<any>(null);
+  const hwRef = useRef<HanziWriterInstance | null>(null);
 
   // Practice Quiz State
   const quizContainerRef = useRef<HTMLDivElement>(null);
-  const quizWriterRef = useRef<any>(null);
+  const quizWriterRef = useRef<HanziWriterInstance | null>(null);
   const [quizStrokeNum, setQuizStrokeNum] = useState(1);
   const [isQuizComplete, setIsQuizComplete] = useState(false);
   const [freehandMode, setFreehandMode] = useState(false);
@@ -113,9 +140,13 @@ export const KanjiStudyPage = () => {
   }, [lessonId]);
 
   useEffect(() => {
-    setShowStrokeOrder(false);
-    setStrokeAnimIndex(-1);
-    setIsAnimating(false);
+    const timer = window.setTimeout(() => {
+      setShowStrokeOrder(false);
+      setStrokeAnimIndex(-1);
+      setIsAnimating(false);
+    }, 0);
+
+    return () => window.clearTimeout(timer);
   }, [currentIndex]);
 
   const currentKanji = kanjis[currentIndex];
@@ -123,7 +154,7 @@ export const KanjiStudyPage = () => {
   useEffect(() => {
     if (currentKanji) {
       memoryApi.getKanjiItemStatus(currentKanji.id)
-        .then(status => setMemoryStatus(status as any))
+        .then((status) => setMemoryStatus(status))
         .catch(console.error);
     }
   }, [currentKanji]);
@@ -138,7 +169,7 @@ export const KanjiStudyPage = () => {
         await memoryApi.addKanjiFromItem(currentKanji.id);
       }
       const newStatus = await memoryApi.getKanjiItemStatus(currentKanji.id);
-      setMemoryStatus(newStatus as any);
+      setMemoryStatus(newStatus);
     } catch (e) {
       console.error('Failed to toggle memory:', e);
     } finally {
@@ -149,7 +180,7 @@ export const KanjiStudyPage = () => {
   useEffect(() => {
     if (showStrokeOrder && writerContainerRef.current && currentKanji) {
       writerContainerRef.current.innerHTML = '';
-      hwRef.current = HanziWriter.create(writerContainerRef.current, currentKanji.character, {
+      hwRef.current = HanziWriterTyped.create(writerContainerRef.current, currentKanji.character, {
         width: 180,
         height: 180,
         padding: 5,
@@ -157,13 +188,13 @@ export const KanjiStudyPage = () => {
         showOutline: false,
         strokeAnimationSpeed: 1,
         delayBetweenStrokes: 400,
-        charDataLoader: (char: string, onComplete: any) => {
+        charDataLoader: (char: string, onComplete: (data: HanziWriterCharData) => void) => {
           fetch(`https://cdn.jsdelivr.net/npm/hanzi-writer-data-jp@0.1.x/data/${char}.json`)
             .then((res) => {
               if (!res.ok) throw new Error();
               return res.json();
             })
-            .then((data) => {
+            .then((data: HanziWriterCharData) => {
               setKanjiMedians(data.medians || []);
               setKanjiStrokes(data.strokes || []);
               onComplete(data);
@@ -171,7 +202,7 @@ export const KanjiStudyPage = () => {
             .catch(() => {
               fetch(`https://cdn.jsdelivr.net/npm/hanzi-writer-data@2.0/${char}.json`)
                 .then((res) => res.json())
-                .then((data) => {
+                .then((data: HanziWriterCharData) => {
                   setKanjiMedians(data.medians || []);
                   setKanjiStrokes(data.strokes || []);
                   onComplete(data);
@@ -185,65 +216,12 @@ export const KanjiStudyPage = () => {
     }
   }, [showStrokeOrder, currentKanji]);
 
-  // Initialize Practice Quiz
-  useEffect(() => {
-    if (!currentKanji) return;
-    // Reset state immediately when kanji changes
-    setIsQuizComplete(false);
-    setQuizStrokeNum(1);
-
-    // Small delay to ensure DOM is ready after re-render
-    const timer = setTimeout(() => {
-      if (quizContainerRef.current) {
-        quizContainerRef.current.innerHTML = '';
-        quizWriterRef.current = HanziWriter.create(quizContainerRef.current, currentKanji.character, {
-          width: 260,
-          height: 260,
-          padding: 10,
-          showCharacter: false,
-          strokeColor: '#22c55e', // green-500 for completed strokes
-          highlightColor: '#60a5fa', // blue-400 for hint stroke guide
-          outlineColor: '#e2e8f0',
-          showOutline: false, // We render our own custom outline layer
-          showHintAfterMisses: false, // Turn off native hints to use our persistent SVG hint
-          drawingColor: '#3b82f6', // blue-500 while drawing
-          highlightOnComplete: false,
-          strokeHighlightSpeed: 2,
-          charDataLoader: (char: string, onComplete: any) => {
-            fetch(`https://cdn.jsdelivr.net/npm/hanzi-writer-data-jp@0.1.x/data/${char}.json`)
-              .then((res) => {
-                if (!res.ok) throw new Error();
-                return res.json();
-              })
-              .then((data) => {
-                setKanjiMedians(data.medians || []);
-                setKanjiStrokes(data.strokes || []);
-                onComplete(data);
-              })
-              .catch(() => {
-                fetch(`https://cdn.jsdelivr.net/npm/hanzi-writer-data@2.0/${char}.json`)
-                  .then((res) => res.json())
-                  .then((data) => {
-                    setKanjiMedians(data.medians || []);
-                    setKanjiStrokes(data.strokes || []);
-                    onComplete(data);
-                  });
-              });
-          },
-        });
-        initQuiz();
-      }
-    }, 50);
-
-    return () => clearTimeout(timer);
-  }, [currentIndex, kanjis, freehandMode]);
-
   const initQuiz = () => {
     if (!quizWriterRef.current) return;
     setIsQuizComplete(false);
     setQuizStrokeNum(1);
     quizWriterRef.current.quiz({
-      onCorrectStroke: (strokeData: any) => {
+      onCorrectStroke: (strokeData: HanziWriterQuizStrokeData) => {
         setQuizStrokeNum(strokeData.strokeNum + 2);
       },
       onComplete: () => {
@@ -252,11 +230,70 @@ export const KanjiStudyPage = () => {
     });
   };
 
+  // Initialize Practice Quiz
+  useEffect(() => {
+    if (!currentKanji) return;
+
+    const resetTimer = window.setTimeout(() => {
+      setIsQuizComplete(false);
+      setQuizStrokeNum(1);
+    }, 0);
+
+    // Small delay to ensure DOM is ready after re-render
+    const timer = window.setTimeout(() => {
+      if (!quizContainerRef.current) return;
+
+      quizContainerRef.current.innerHTML = '';
+      quizWriterRef.current = HanziWriterTyped.create(quizContainerRef.current, currentKanji.character, {
+        width: 260,
+        height: 260,
+        padding: 10,
+        showCharacter: false,
+        strokeColor: '#22c55e', // green-500 for completed strokes
+        highlightColor: '#60a5fa', // blue-400 for hint stroke guide
+        outlineColor: '#e2e8f0',
+        showOutline: false, // We render our own custom outline layer
+        showHintAfterMisses: false, // Turn off native hints to use our persistent SVG hint
+        drawingColor: '#3b82f6', // blue-500 while drawing
+        highlightOnComplete: false,
+        strokeHighlightSpeed: 2,
+        charDataLoader: (char: string, onComplete: (data: HanziWriterCharData) => void) => {
+          fetch(`https://cdn.jsdelivr.net/npm/hanzi-writer-data-jp@0.1.x/data/${char}.json`)
+            .then((res) => {
+              if (!res.ok) throw new Error();
+              return res.json();
+            })
+            .then((data: HanziWriterCharData) => {
+              setKanjiMedians(data.medians || []);
+              setKanjiStrokes(data.strokes || []);
+              onComplete(data);
+            })
+            .catch(() => {
+              fetch(`https://cdn.jsdelivr.net/npm/hanzi-writer-data@2.0/${char}.json`)
+                .then((res) => res.json())
+                .then((data: HanziWriterCharData) => {
+                  setKanjiMedians(data.medians || []);
+                  setKanjiStrokes(data.strokes || []);
+                  onComplete(data);
+                });
+            });
+        },
+      });
+
+      initQuiz();
+    }, 50);
+
+    return () => {
+      window.clearTimeout(resetTimer);
+      window.clearTimeout(timer);
+    };
+  }, [currentKanji, currentIndex, freehandMode, kanjis.length]);
+
   const startQuiz = () => {
     if (!quizWriterRef.current || !quizContainerRef.current || !currentKanji) return;
     // Rebuild the writer entirely to get a clean state
     quizContainerRef.current.innerHTML = '';
-    quizWriterRef.current = HanziWriter.create(quizContainerRef.current, currentKanji.character, {
+    quizWriterRef.current = HanziWriterTyped.create(quizContainerRef.current, currentKanji.character, {
       width: 260,
       height: 260,
       padding: 10,
@@ -269,13 +306,13 @@ export const KanjiStudyPage = () => {
       drawingColor: '#3b82f6',
       highlightOnComplete: false,
       strokeHighlightSpeed: 2,
-      charDataLoader: (char: string, onComplete: any) => {
+      charDataLoader: (char: string, onComplete: (data: HanziWriterCharData) => void) => {
         fetch(`https://cdn.jsdelivr.net/npm/hanzi-writer-data-jp@0.1.x/data/${char}.json`)
           .then((res) => {
             if (!res.ok) throw new Error();
             return res.json();
           })
-          .then((data) => {
+          .then((data: HanziWriterCharData) => {
             setKanjiMedians(data.medians || []);
             setKanjiStrokes(data.strokes || []);
             onComplete(data);
@@ -283,7 +320,7 @@ export const KanjiStudyPage = () => {
           .catch(() => {
             fetch(`https://cdn.jsdelivr.net/npm/hanzi-writer-data@2.0/${char}.json`)
               .then((res) => res.json())
-              .then((data) => {
+              .then((data: HanziWriterCharData) => {
                 setKanjiMedians(data.medians || []);
                 setKanjiStrokes(data.strokes || []);
                 onComplete(data);

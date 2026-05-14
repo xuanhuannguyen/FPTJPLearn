@@ -38,7 +38,8 @@ public class SeedController : ControllerBase
         var kanjiLessons = await _db.KanjiLessons.ToListAsync();
         foreach (var lesson in kanjiLessons)
         {
-            var isFree = lesson.LessonNumber <= 1 || (lesson.PackageCode == "kanji_jpd123" && lesson.LessonNumber == 4);
+            // Lesson 1 (JPD113) and Lesson 4 (First lesson of JPD123) are free
+            var isFree = lesson.LessonNumber == 1 || lesson.LessonNumber == 4;
             var newTier = isFree ? "free" : "premium";
             if (lesson.AccessTier != newTier)
             {
@@ -51,7 +52,8 @@ public class SeedController : ControllerBase
         var vocabLessons = await _db.StaticVocabularyLessons.ToListAsync();
         foreach (var lesson in vocabLessons)
         {
-            var isFree = lesson.LessonNumber <= 1 || (lesson.CourseCode == "jpd123" && lesson.LessonNumber <= 3);
+            // First 3 sub-lessons (1-1, 1-2, 1-3 for JPD113 or 4-1, 4-2, 4-3 for JPD123) are free
+            var isFree = lesson.LessonNumber <= 3;
             var newTier = isFree ? "free" : "premium";
             if (lesson.AccessTier != newTier)
             {
@@ -64,7 +66,8 @@ public class SeedController : ControllerBase
         var grammarLessons = await _db.GrammarLessons.ToListAsync();
         foreach (var lesson in grammarLessons)
         {
-            var isFree = lesson.LessonNumber <= 1 || (lesson.CourseCode == "jpd123" && lesson.LessonNumber == 4);
+            // First lesson of JPD113 (No. 1) and JPD123 (No. 4) are free
+            var isFree = lesson.LessonNumber == 1 || lesson.LessonNumber == 4;
             var newTier = isFree ? "free" : "premium";
             if (lesson.AccessTier != newTier)
             {
@@ -87,11 +90,10 @@ public class SeedController : ControllerBase
         var speakingLessons = await _db.SpeakingLessons.ToListAsync();
         foreach (var lesson in speakingLessons)
         {
-            var isFree = lesson.CourseCode == "jpd113" && lesson.OrderIndex <= 1;
-            var newTier = isFree ? "free" : "premium";
-            if (lesson.AccessTier != newTier)
+            // All speaking content is premium
+            if (lesson.AccessTier != "premium")
             {
-                lesson.AccessTier = newTier;
+                lesson.AccessTier = "premium";
                 updated++;
             }
         }

@@ -11,6 +11,13 @@ server/**/obj/
 *.err.log
 *.out.log
 
+# Local secrets / environment
+.env
+.env.*
+!.env.example
+server/JPLearn.Api/appsettings.json
+server/JPLearn.Api/appsettings.*.local.json
+
 # Scratch / temp
 scratch/
 server/scratch/

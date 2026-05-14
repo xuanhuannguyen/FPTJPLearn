@@ -22,7 +22,9 @@ export function useExamProctor(
   const [showFullscreenOverlay, setShowFullscreenOverlay] = useState(false);
 
   const onForceSubmitRef = useRef(onForceSubmit);
-  onForceSubmitRef.current = onForceSubmit;
+  useEffect(() => {
+    onForceSubmitRef.current = onForceSubmit;
+  }, [onForceSubmit]);
 
   // Tab visibility — re-fullscreen on return
   useEffect(() => {

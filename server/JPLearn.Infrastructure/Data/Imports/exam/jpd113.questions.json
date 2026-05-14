@@ -44,7 +44,7 @@
       "type": "standalone",
       "topic": "kanji",
       "level": "N5",
-      "questionText": "たなかさんのくに（＿＿＿）は日本のとなりです. (Chọn cách viết Kanji đúng cho từ 'Hàn Quốc')",
+      "questionText": "たなかさんのくに（＿＿＿）は日本のとなりです。 (Chọn cách viết Kanji đúng cho từ 'Hàn Quốc')",
       "explanation": "'Hàn quốc' viết là '韓国'.",
       "orderIndex": 1,
       "options": [
@@ -76,41 +76,9 @@
       "type": "standalone",
       "topic": "kanji",
       "level": "N5",
-      "questionText": "A: [誕生日] は いつですか。B: 12月25日です. (Chữ Hán trong ngoặc [ ] có cách đọc tương ứng là gì?)",
-      "explanation": "'誕生日' đọc là 'たんじょうび'.",
-      "orderIndex": 2,
-      "options": [
-        {
-          "label": "A",
-          "text": "たんじょうび",
-          "isCorrect": true
-        },
-        {
-          "label": "B",
-          "text": "たんじょび",
-          "isCorrect": false
-        },
-        {
-          "label": "C",
-          "text": "おたんじょう",
-          "isCorrect": false
-        },
-        {
-          "label": "D",
-          "text": "たんび",
-          "isCorrect": false
-        }
-      ]
-    },
-    {
-      "id": 3,
-      "passageId": null,
-      "type": "standalone",
-      "topic": "kanji",
-      "level": "N5",
       "questionText": "A: [誕生日] は いつですか。B: 12月25日です。 (Chữ Hán trong ngoặc [ ] có cách đọc tương ứng là gì?)",
       "explanation": "'誕生日' đọc là 'たんじょうび'.",
-      "orderIndex": 3,
+      "orderIndex": 2,
       "options": [
         {
           "label": "A",
@@ -142,7 +110,7 @@
       "level": "N5",
       "questionText": "A: [誕生日] は いつですか。B: 12月25日です。 (Chữ Hán trong ngoặc [ ] có cách đọc tương ứng là gì?)",
       "explanation": "'誕生日' đọc là 'たんじょうび'.",
-      "orderIndex": 4,
+      "orderIndex": 3,
       "options": [
         {
           "label": "A",
@@ -174,7 +142,7 @@
       "level": "N5",
       "questionText": "A: [誕生日] は いつですか。B: 12月25日です。 (Chữ Hán trong ngoặc [ ] có cách đọc tương ứng như thế nào?)",
       "explanation": "'誕生日' (sinh nhật) đọc là 'たんじょうび'.",
-      "orderIndex": 5,
+      "orderIndex": 4,
       "options": [
         {
           "label": "A",
@@ -204,9 +172,9 @@
       "type": "standalone",
       "topic": "kanji",
       "level": "N5",
-      "questionText": "A: [誕生日] は いつですか。B: 12月25日です. (Chữ Hán trong ngoặc [ ] có cách đọc tương ứng như thế nào?)",
+      "questionText": "A: [誕生日] は いつですか。B: 12月25日です。 (Chữ Hán trong ngoặc [ ] có cách đọc tương ứng như thế nào?)",
       "explanation": "'誕生日' (sinh nhật) đọc là 'たんじょうび' (たんじょうび).",
-      "orderIndex": 6,
+      "orderIndex": 5,
       "options": [
         {
           "label": "A",
@@ -238,7 +206,7 @@
       "level": "N5",
       "questionText": "A: たんじょうびは いつですか。B: 【九月】 一日です。 (Các chữ Hán trong ngoặc [ ] có cách đọc tương ứng như thế nào?)",
       "explanation": "'九月' (tháng 9) được đọc là 'くがつ' (くがつ).",
-      "orderIndex": 7,
+      "orderIndex": 6,
       "options": [
         {
           "label": "A",
@@ -270,7 +238,7 @@
       "level": "N5",
       "questionText": "A: たんじょうびは　いつですか。B: 【八月】一日です。 (Chữ Hán trong ngoặc [ ] có cách đọc tương ứng như thế nào?)",
       "explanation": "'八月' (tháng 8) đọc là 'はちがつ'.",
-      "orderIndex": 8,
+      "orderIndex": 7,
       "options": [
         {
           "label": "A",
@@ -302,7 +270,7 @@
       "level": "N5",
       "questionText": "A: たんじょうびは　いつですか。B: 【八月】一日です。 (Các chữ Hán trong ngoặc [ ] có cách đọc tương ứng như thế nào?)",
       "explanation": "'八月' (tháng 8) đọc là 'はちがつ' (はちがつ).",
-      "orderIndex": 9,
+      "orderIndex": 8,
       "options": [
         {
           "label": "A",
@@ -311,17 +279,17 @@
         },
         {
           "label": "B",
-          "text": "はちがつ",
+          "text": "しちがつ",
           "isCorrect": false
         },
         {
           "label": "C",
-          "text": "はちがつ",
+          "text": "くがつ",
           "isCorrect": false
         },
         {
           "label": "D",
-          "text": "はちがつ",
+          "text": "ろくがつ",
           "isCorrect": false
         }
       ]
@@ -332,9 +300,9 @@
       "type": "standalone",
       "topic": "kanji",
       "level": "N5",
-      "questionText": "A: たんじょうびは　いつですか。B: 【八月】一日です. (Chữ Hán trong ngoặc [ ] có cách đọc tương ứng là gì?)",
+      "questionText": "A: たんじょうびは　いつですか。B: 【八月】一日です。 (Chữ Hán trong ngoặc [ ] có cách đọc tương ứng là gì?)",
       "explanation": "'八月' đọc là 'はちがつ'.",
-      "orderIndex": 10,
+      "orderIndex": 9,
       "options": [
         {
           "label": "A",
@@ -366,7 +334,7 @@
       "level": "N5",
       "questionText": "A: 誕生日は　いつですか。B: 【五月】一日です。 (Các chữ Hán trong ngoặc [ ] có cách đọc tương ứng như thế nào?)",
       "explanation": "'五月' (tháng 5) đọc là 'ごがつ' (ごがつ).",
-      "orderIndex": 11,
+      "orderIndex": 10,
       "options": [
         {
           "label": "A",
@@ -396,9 +364,9 @@
       "type": "standalone",
       "topic": "kanji",
       "level": "N5",
-      "questionText": "A: 誕生日は　いつですか。B: 【五月】一日です. (Chữ Hán trong ngoặc [ ] có cách đọc là gì?)",
+      "questionText": "A: 誕生日は　いつですか。B: 【五月】一日です。 (Chữ Hán trong ngoặc [ ] có cách đọc là gì?)",
       "explanation": "'五月' đọc là 'ごがつ'.",
-      "orderIndex": 12,
+      "orderIndex": 11,
       "options": [
         {
           "label": "A",
@@ -430,7 +398,7 @@
       "level": "N5",
       "questionText": "A: 誕生日は　いつですか。B: 【六月】十日です。 (Chữ Hán trong ngoặc [ ] có cách đọc là gì?)",
       "explanation": "'六月' (tháng 6) đọc là 'ろくがつ'.",
-      "orderIndex": 13,
+      "orderIndex": 12,
       "options": [
         {
           "label": "A",
@@ -460,9 +428,9 @@
       "type": "standalone",
       "topic": "kanji",
       "level": "N5",
-      "questionText": "Tôi nói được [フランス語]. (Chữ Hán trong ngoặc [ ] có cách đọc tương ứng như thế nào?)",
+      "questionText": "Tôi nói được [フランス語]。 (Chữ Hán trong ngoặc [ ] có cách đọc tương ứng như thế nào?)",
       "explanation": "'フランス語' (tiếng pháp) đọc là 'フランスご'.",
-      "orderIndex": 14,
+      "orderIndex": 13,
       "options": [
         {
           "label": "A",
@@ -494,7 +462,7 @@
       "level": "N5",
       "questionText": "[九時]に　[学校]へ　[行きます]。 (Các chữ Hán trong ngoặc [ ] có cách đọc tương ứng như thế nào?)",
       "explanation": "'九時' đọc là 'くじ', '学校' đọc là 'がっこう'.",
-      "orderIndex": 15,
+      "orderIndex": 14,
       "options": [
         {
           "label": "A",
@@ -524,9 +492,9 @@
       "type": "standalone",
       "topic": "kanji",
       "level": "N5",
-      "questionText": "[月曜日] は 休みです. (Chữ Hán trong ngoặc [ ] có cách đọc tương ứng là gì?)",
+      "questionText": "[月曜日] は 休みです。 (Chữ Hán trong ngoặc [ ] có cách đọc tương ứng là gì?)",
       "explanation": "'月曜日' đọc là 'げつようび'.",
-      "orderIndex": 16,
+      "orderIndex": 15,
       "options": [
         {
           "label": "A",
@@ -558,7 +526,7 @@
       "level": "N5",
       "questionText": "いま　【何時】ですか。 (Chữ Hán trong ngoặc [ ] có cách đọc tương ứng như thế nào?)",
       "explanation": "'何時' (mấy giờ) đọc là 'なんじ'.",
-      "orderIndex": 17,
+      "orderIndex": 16,
       "options": [
         {
           "label": "A",
@@ -590,7 +558,7 @@
       "level": "N5",
       "questionText": "いま、何時ですか。三時【十分】です。 (Các chữ Hán trong ngoặc [ ] có cách đọc tương ứng như thế nào?)",
       "explanation": "'十分' (10 phút) được đọc là 'じゅっぷん' (じゅっぷん) hoặc 'じっぷん'.",
-      "orderIndex": 18,
+      "orderIndex": 17,
       "options": [
         {
           "label": "A",
@@ -622,7 +590,7 @@
       "level": "N5",
       "questionText": "いま、何時ですか。六時【八分】です。 (Các chữ Hán trong ngoặc [ ] có cách đọc tương ứng như thế nào?)",
       "explanation": "Trong tiếng Nhật, '八分' (8 phút) được đọc biến âm thành 'はっぷん' (はっぷん).",
-      "orderIndex": 19,
+      "orderIndex": 18,
       "options": [
         {
           "label": "A",
@@ -652,9 +620,9 @@
       "type": "standalone",
       "topic": "kanji",
       "level": "N5",
-      "questionText": "きょうは　【火曜日】です. (Chữ Hán trong ngoặc [ ] có cách đọc tương ứng là gì?)",
+      "questionText": "きょうは　【火曜日】です。 (Chữ Hán trong ngoặc [ ] có cách đọc tương ứng là gì?)",
       "explanation": "'火曜日' đọc là 'かようび'.",
-      "orderIndex": 20,
+      "orderIndex": 19,
       "options": [
         {
           "label": "A",
@@ -686,7 +654,7 @@
       "level": "N5",
       "questionText": "ここに　【郵便局】が　あります。 (Chữ Hán trong ngoặc [ ] có cách đọc tương ứng là gì?)",
       "explanation": "'郵便局' đọc là 'ゆうびんきょく'.",
-      "orderIndex": 21,
+      "orderIndex": 20,
       "options": [
         {
           "label": "A",
@@ -718,7 +686,7 @@
       "level": "N5",
       "questionText": "ここに　【郵便局】が　あります。 (Chữ Hán trong ngoặc [ ] có cách đọc tương ứng như thế nào?)",
       "explanation": "'郵便局' (bưu điện) đọc là 'ゆうびんきょく'.",
-      "orderIndex": 22,
+      "orderIndex": 21,
       "options": [
         {
           "label": "A",
@@ -750,7 +718,7 @@
       "level": "N5",
       "questionText": "ここに　【郵便局】が　あります。 (Các chữ Hán trong ngoặc [ ] có cách đọc tương ứng như thế nào?)",
       "explanation": "'郵便局' (Bưu điện) đọc là 'ゆうびんきょく' (ゆうびんきょく).",
-      "orderIndex": 23,
+      "orderIndex": 22,
       "options": [
         {
           "label": "A",
@@ -759,17 +727,17 @@
         },
         {
           "label": "B",
-          "text": "ゆうぴんきょく",
+          "text": "ぎんこう",
           "isCorrect": false
         },
         {
           "label": "C",
-          "text": "ゆうびんきょく",
+          "text": "としょかん",
           "isCorrect": false
         },
         {
           "label": "D",
-          "text": "ゆうびんきょく",
+          "text": "びょういん",
           "isCorrect": false
         }
       ]
@@ -782,7 +750,7 @@
       "level": "N5",
       "questionText": "ここに　【電話】が　あります。 (Chữ Hán trong ngoặc [ ] có cách đọc là gì?)",
       "explanation": "'電話' (điện thoại) đọc là 'でんわ'.",
-      "orderIndex": 24,
+      "orderIndex": 23,
       "options": [
         {
           "label": "A",
@@ -812,9 +780,9 @@
       "type": "standalone",
       "topic": "kanji",
       "level": "N5",
-      "questionText": "ここに　【電話】가 あります. (Chữ Hán trong ngoặc [ ] có cách đọc là gì?)",
+      "questionText": "ここに　【電話】가 あります。 (Chữ Hán trong ngoặc [ ] có cách đọc là gì?)",
       "explanation": "'電話' đọc là 'でんわ'.",
-      "orderIndex": 25,
+      "orderIndex": 24,
       "options": [
         {
           "label": "A",
@@ -846,7 +814,7 @@
       "level": "N5",
       "questionText": "ここは 【百円】 ショップです。 (Chữ Hán trong ngoặc [ ] có cách đọc tương ứng như thế nào?)",
       "explanation": "'百' đọc là 'ひゃく'.",
-      "orderIndex": 26,
+      "orderIndex": 25,
       "options": [
         {
           "label": "A",
@@ -878,7 +846,7 @@
       "level": "N5",
       "questionText": "ここは 【百円】 ショップです。 (Các chữ Hán trong ngoặc [ ] có cách đọc tương ứng như thế nào?)",
       "explanation": "'百' (100) đọc là 'ひゃく', '百円' đọc là 'ひゃくえん'.",
-      "orderIndex": 27,
+      "orderIndex": 26,
       "options": [
         {
           "label": "A",
@@ -910,7 +878,7 @@
       "level": "N5",
       "questionText": "ここは 【百円】 ショップです。 (Các chữ Hán trong ngoặc [ ] có cách đọc tương ứng như thế nào?)",
       "explanation": "'百円' là 100 yên, được đọc là 'ひゃくえん' (ひゃくえん).",
-      "orderIndex": 28,
+      "orderIndex": 27,
       "options": [
         {
           "label": "A",
@@ -942,7 +910,7 @@
       "level": "N5",
       "questionText": "ここは　【受付】　ですか。 (Chữ Hán trong ngoặc [ ] có cách đọc tương ứng như thế nào?)",
       "explanation": "'受付' (quầy tiếp tân) đọc là 'うけつけ'.",
-      "orderIndex": 29,
+      "orderIndex": 28,
       "options": [
         {
           "label": "A",
@@ -974,7 +942,7 @@
       "level": "N5",
       "questionText": "このほんは 【三千】 円です。 (Các chữ Hán trong ngoặc [ ] có cách đọc tương ứng như thế nào?)",
       "explanation": "'三千' (3000) được đọc biến âm thành 'さんぜん' (さんぜん).",
-      "orderIndex": 30,
+      "orderIndex": 29,
       "options": [
         {
           "label": "A",
@@ -1006,7 +974,7 @@
       "level": "N5",
       "questionText": "じむしょは　ビルの　【四階】です。 (Chữ Hán trong ngoặc [ ] có cách đọc tương ứng là gì?)",
       "explanation": "'四階' đọc là 'よんかい'.",
-      "orderIndex": 31,
+      "orderIndex": 30,
       "options": [
         {
           "label": "A",
@@ -1038,7 +1006,7 @@
       "level": "N5",
       "questionText": "じむしょは　ビルの　【四階】です。 (Chữ Hán trong ngoặc [ ] có cách đọc tương ứng như thế nào?)",
       "explanation": "'四階' (tầng 4) được đọc là 'よんかい' (よんかい).",
-      "orderIndex": 32,
+      "orderIndex": 31,
       "options": [
         {
           "label": "A",
@@ -1068,9 +1036,9 @@
       "type": "standalone",
       "topic": "kanji",
       "level": "N5",
-      "questionText": "じむしょは　ビルの　【四階】です. (Chữ Hán trong ngoặc [ ] có cách đọc là gì?)",
+      "questionText": "じむしょは　ビルの　【四階】です。 (Chữ Hán trong ngoặc [ ] có cách đọc là gì?)",
       "explanation": "'四階' đọc là 'よんかい'.",
-      "orderIndex": 33,
+      "orderIndex": 32,
       "options": [
         {
           "label": "A",
@@ -1102,7 +1070,7 @@
       "level": "N5",
       "questionText": "すみません、いま 何時 【何分】ですか (Các chữ Hán trong ngoặc [ ] có cách đọc tương ứng như thế nào?)",
       "explanation": "'何分' (mấy phút) trong câu hỏi giờ giấc được đọc là 'なんぷん' (なんぷん).",
-      "orderIndex": 34,
+      "orderIndex": 33,
       "options": [
         {
           "label": "A",
@@ -1134,7 +1102,7 @@
       "level": "N5",
       "questionText": "たなかさんは　【25さい】ですか。 (Số trong ngoặc dưới đây có cách đọc tương ứng là gì?)",
       "explanation": "'25さい' đọc là 'にじゅうごさい'.",
-      "orderIndex": 35,
+      "orderIndex": 34,
       "options": [
         {
           "label": "A",
@@ -1166,7 +1134,7 @@
       "level": "N5",
       "questionText": "たなかさんは　【25さい】ですか。 (Số trong ngoặc dưới đây có cách đọc tương ứng như thế nào?)",
       "explanation": "'25さい' đọc là 'にじゅうごさい' (にじゅうごさい).",
-      "orderIndex": 36,
+      "orderIndex": 35,
       "options": [
         {
           "label": "A",
@@ -1198,7 +1166,7 @@
       "level": "N5",
       "questionText": "たなかさんは　【29さい】ですか。 (Số trong ngoặc [ ] có cách đọc tương ứng là gì?)",
       "explanation": "'29さい' đọc là 'にじゅうきゅうさい'.",
-      "orderIndex": 37,
+      "orderIndex": 36,
       "options": [
         {
           "label": "A",
@@ -1230,7 +1198,7 @@
       "level": "N5",
       "questionText": "としょかんの やすみは 土曜日と 【日曜日】です。 (Các chữ Hán trong ngoặc [ ] có cách đọc tương ứng như thế nào?)",
       "explanation": "'日曜日' nghĩa là Chủ Nhật, được đọc là 'にちようび' (にちようび).",
-      "orderIndex": 38,
+      "orderIndex": 37,
       "options": [
         {
           "label": "A",
@@ -1260,9 +1228,9 @@
       "type": "standalone",
       "topic": "kanji",
       "level": "N5",
-      "questionText": "やまずさんは　【日本人】です. (Chữ Hán trong ngoặc [ ] có cách đọc là gì?)",
+      "questionText": "やまずさんは　【日本人】です。 (Chữ Hán trong ngoặc [ ] có cách đọc là gì?)",
       "explanation": "'日本人' đọc là 'にほんじん'.",
-      "orderIndex": 39,
+      "orderIndex": 38,
       "options": [
         {
           "label": "A",
@@ -1294,7 +1262,7 @@
       "level": "N5",
       "questionText": "やまださんは　【日本人】です。 (Chữ Hán trong ngoặc [ ] có cách đọc tương ứng như thế nào?)",
       "explanation": "'日本人' (người nhật) được đọc là 'にほんじん' (にほんじん).",
-      "orderIndex": 40,
+      "orderIndex": 39,
       "options": [
         {
           "label": "A",
@@ -1324,9 +1292,9 @@
       "type": "standalone",
       "topic": "kanji",
       "level": "N5",
-      "questionText": "やまださんは　【日本人】です. (Chữ Hán trong ngoặc [ ] có cách đọc là gì?)",
+      "questionText": "やまださんは　【日本人】です。 (Chữ Hán trong ngoặc [ ] có cách đọc là gì?)",
       "explanation": "'日本人' đọc là 'にほんじん'.",
-      "orderIndex": 41,
+      "orderIndex": 40,
       "options": [
         {
           "label": "A",
@@ -1356,9 +1324,9 @@
       "type": "standalone",
       "topic": "kanji",
       "level": "N5",
-      "questionText": "やまださんは　【日本人】です. (Chữ Hán trong ngoặc [ ] có cách đọc tương ứng là gì?)",
+      "questionText": "やまださんは　【日本人】です。 (Chữ Hán trong ngoặc [ ] có cách đọc tương ứng là gì?)",
       "explanation": "'日本人' đọc là 'にほんじん'.",
-      "orderIndex": 42,
+      "orderIndex": 41,
       "options": [
         {
           "label": "A",
@@ -1388,9 +1356,9 @@
       "type": "standalone",
       "topic": "kanji",
       "level": "N5",
-      "questionText": "やまださんは　【日本人】です. (Chữ Hán trong ngoặc [ ] có cách đọc tương ứng là gì?)",
+      "questionText": "やまださんは　【日本人】です。 (Chữ Hán trong ngoặc [ ] có cách đọc tương ứng là gì?)",
       "explanation": "'日本人' đọc là 'にほんじん'.",
-      "orderIndex": 43,
+      "orderIndex": 42,
       "options": [
         {
           "label": "A",
@@ -1420,9 +1388,9 @@
       "type": "standalone",
       "topic": "kanji",
       "level": "N5",
-      "questionText": "わたしは　【手紙】を　かきます. (Chữ Hán trong ngoặc [ ] có cách đọc tương ứng là gì?)",
+      "questionText": "わたしは　【手紙】を　かきます。 (Chữ Hán trong ngoặc [ ] có cách đọc tương ứng là gì?)",
       "explanation": "'手紙' đọc là 'てがみ'.",
-      "orderIndex": 44,
+      "orderIndex": 43,
       "options": [
         {
           "label": "A",
@@ -1454,7 +1422,7 @@
       "level": "N5",
       "questionText": "ハノイは いま ごぜん 【四時】 です。 (Các chữ Hán trong ngoặc [ ] có cách đọc tương ứng như thế nào?)",
       "explanation": "'四時' (4 giờ) là trường hợp đọc đặc biệt, đọc là 'よじ' (よじ).",
-      "orderIndex": 45,
+      "orderIndex": 44,
       "options": [
         {
           "label": "A",
@@ -1484,9 +1452,9 @@
       "type": "standalone",
       "topic": "kanji",
       "level": "N5",
-      "questionText": "ミラーさんは　【アメリカ人】です. (Chữ Hán trong ngoặc [ ] có cách đọc là gì?)",
+      "questionText": "ミラーさんは　【アメリカ人】です。 (Chữ Hán trong ngoặc [ ] có cách đọc là gì?)",
       "explanation": "Khi chỉ quốc tịch, chữ '人' đọc là 'じん'.",
-      "orderIndex": 46,
+      "orderIndex": 45,
       "options": [
         {
           "label": "A",
@@ -1518,7 +1486,7 @@
       "level": "N5",
       "questionText": "ワンさんは　【19さい】ですか。 (Số trong ngoặc [ ] có cách đọc tương ứng như thế nào?)",
       "explanation": "'19さい' đọc là 'じゅうきゅうさい'.",
-      "orderIndex": 47,
+      "orderIndex": 46,
       "options": [
         {
           "label": "A",
@@ -1550,7 +1518,7 @@
       "level": "N5",
       "questionText": "ワンさんは　【何才】ですか。 (Chữ Hán trong ngoặc [ ] có cách đọc là gì?)",
       "explanation": "'何才' đọc là 'なんさい'.",
-      "orderIndex": 48,
+      "orderIndex": 47,
       "options": [
         {
           "label": "A",
@@ -1582,7 +1550,7 @@
       "level": "N5",
       "questionText": "ワンさんは　【何才】ですか。 (Chữ Hán trong ngoặc [ ] có cách đọc tương ứng là gì?)",
       "explanation": "'何才' đọc là 'なんさい'.",
-      "orderIndex": 49,
+      "orderIndex": 48,
       "options": [
         {
           "label": "A",
@@ -1614,7 +1582,7 @@
       "level": "N5",
       "questionText": "ワンさんは　【何才】ですか。 (Chữ Hán trong ngoặc [ ] có cách đọc tương ứng như thế nào?)",
       "explanation": "'何才' đọc là 'なんさい'.",
-      "orderIndex": 50,
+      "orderIndex": 49,
       "options": [
         {
           "label": "A",
@@ -1646,7 +1614,7 @@
       "level": "N5",
       "questionText": "毎朝　【七時】に　おきます。 (Chữ Hán trong ngoặc [ ] có cách đọc là gì?)",
       "explanation": "'七時' đọc là 'しちじ'.",
-      "orderIndex": 51,
+      "orderIndex": 50,
       "options": [
         {
           "label": "A",
@@ -1678,7 +1646,7 @@
       "level": "N5",
       "questionText": "毎朝　【七時】に　おきます。 (Chữ Hán trong ngoặc [ ] có cách đọc tương ứng như thế nào?)",
       "explanation": "'七時' đọc là 'しちじ'.",
-      "orderIndex": 52,
+      "orderIndex": 51,
       "options": [
         {
           "label": "A",
@@ -1710,7 +1678,7 @@
       "level": "N5",
       "questionText": "毎朝　【七時】に　おきます。 (Các chữ Hán trong ngoặc [ ] có cách đọc tương ứng như thế nào?)",
       "explanation": "Khi nói về giờ giấc, '7 giờ' (七時) luôn được đọc là 'しちじ' (しちじ).",
-      "orderIndex": 53,
+      "orderIndex": 52,
       "options": [
         {
           "label": "A",
@@ -1742,7 +1710,7 @@
       "level": "N5",
       "questionText": "毎朝　【九時】に　おきます。 (Chữ Hán trong ngoặc [ ] có cách đọc là gì?)",
       "explanation": "'9 giờ' đọc là 'くじ'.",
-      "orderIndex": 54,
+      "orderIndex": 53,
       "options": [
         {
           "label": "A",
@@ -1774,7 +1742,7 @@
       "level": "N5",
       "questionText": "毎朝　【九時】に　おきます。 (Chữ Hán trong ngoặc [ ] có cách đọc tương ứng là gì?)",
       "explanation": "'9 giờ' được đọc đặc biệt là 'くじ'.",
-      "orderIndex": 55,
+      "orderIndex": 54,
       "options": [
         {
           "label": "A",
@@ -1806,7 +1774,7 @@
       "level": "N5",
       "questionText": "毎朝　【九時】に　おきます。 (Chữ Hán trong ngoặc [ ] có cách đọc tương ứng như thế nào?)",
       "explanation": "Khi nói về giờ giấc, '9 giờ' (九時) được đọc đặc biệt là 'くじ'.",
-      "orderIndex": 56,
+      "orderIndex": 55,
       "options": [
         {
           "label": "A",
@@ -1838,7 +1806,7 @@
       "level": "N5",
       "questionText": "田中さんは　【25さい】ですか。 (Số trong ngoặc dưới đây có cách đọc là gì?)",
       "explanation": "'25さい' đọc là 'にじゅうごさい'.",
-      "orderIndex": 57,
+      "orderIndex": 56,
       "options": [
         {
           "label": "A",
@@ -1870,7 +1838,7 @@
       "level": "N5",
       "questionText": "田中さんは　【25さい】ですか。 (Số trong ngoặc dưới đây có cách đọc là gì?)",
       "explanation": "'25さい' đọc là 'にじゅうごさい'.",
-      "orderIndex": 58,
+      "orderIndex": 57,
       "options": [
         {
           "label": "A",
@@ -1902,7 +1870,7 @@
       "level": "N5",
       "questionText": "田中さんは　【25さい】ですか。 (Số trong ngoặc dưới đây có cách đọc tương ứng là gì?)",
       "explanation": "'25さい' đọc là 'にじゅうごさい'.",
-      "orderIndex": 59,
+      "orderIndex": 58,
       "options": [
         {
           "label": "A",
@@ -1934,7 +1902,7 @@
       "level": "N5",
       "questionText": "田中さんは　【25さい】ですか。 (Số trong ngoặc dưới đây có cách đọc tương ứng như thế nào?)",
       "explanation": "'25さい' đọc là 'にじゅうごさい'.",
-      "orderIndex": 60,
+      "orderIndex": 59,
       "options": [
         {
           "label": "A",
@@ -1966,7 +1934,7 @@
       "level": "N5",
       "questionText": "田中さんは　【27さい】ですか。 (Số trong ngoặc [ ] có cách đọc tương ứng là gì?)",
       "explanation": "'27さい' đọc là 'にじゅうななさい'.",
-      "orderIndex": 61,
+      "orderIndex": 60,
       "options": [
         {
           "label": "A",
@@ -1998,7 +1966,7 @@
       "level": "N5",
       "questionText": "田中さんは　【27さい】ですか。 (Số trong ngoặc dưới đây có cách đọc tương ứng như thế nào?)",
       "explanation": "'27さい' đọc là 'にじゅうななさい' (にじゅうななさい).",
-      "orderIndex": 62,
+      "orderIndex": 61,
       "options": [
         {
           "label": "A",
@@ -2028,9 +1996,9 @@
       "type": "standalone",
       "topic": "kanji",
       "level": "N5",
-      "questionText": "誕生日のパーティーは　【十二月二十五日】です. (Số trong ngoặc [ ] có cách đọc tương ứng như thế nào?)",
+      "questionText": "誕生日のパーティーは　【十二月二十五日】です。 (Số trong ngoặc [ ] có cách đọc tương ứng như thế nào?)",
       "explanation": "'十二月' là tháng 12, '二十五日' là ngày 25.",
-      "orderIndex": 63,
+      "orderIndex": 62,
       "options": [
         {
           "label": "A",
@@ -2062,7 +2030,7 @@
       "level": "N5",
       "questionText": "この　かばんは　【にまん　はっぴゃく】えんです。 (Số trong ngoặc dưới đây có giá trị tương ứng là gì?)",
       "explanation": "'にまん' = 20000, 'はっぴゃく' = 800.",
-      "orderIndex": 64,
+      "orderIndex": 63,
       "options": [
         {
           "label": "A",
@@ -2094,7 +2062,7 @@
       "level": "N5",
       "questionText": "この　かばんは　【にまん　はっぴゃく】えんです。 (Số trong ngoặc dưới đây có giá trị tương ứng như thế nào?)",
       "explanation": "'にまん' là 2,0000, 'はっぴゃく' là 800. Tổng cộng là 20800.",
-      "orderIndex": 65,
+      "orderIndex": 64,
       "options": [
         {
           "label": "A",
@@ -2126,7 +2094,7 @@
       "level": "N5",
       "questionText": "A: おくには どちらですか。B: 【にほん】です。 (Các từ trong ngoặc [ ] dưới đây có chữ Hán tương ứng như thế nào?)",
       "explanation": "'にほん' (nhật Bản) được viết bằng chữ Hán là '日本'.",
-      "orderIndex": 66,
+      "orderIndex": 65,
       "options": [
         {
           "label": "A",
@@ -2158,7 +2126,7 @@
       "level": "N5",
       "questionText": "A: おしごとは？B: 私は 【フランスご】 の きょうしです。 (Từ trong ngoặc [ ] dưới đây có chữ Hán tương ứng như thế nào?)",
       "explanation": "'ご' trong 'フランスご' (tiếng pháp) là chữ '語' (ngôn ngữ).",
-      "orderIndex": 67,
+      "orderIndex": 66,
       "options": [
         {
           "label": "A",
@@ -2190,7 +2158,7 @@
       "level": "N5",
       "questionText": "A: たんじょうびは いつですか。B: 3月 【はつか】 です。 (Từ trong ngoặc [ ] dưới đây có chữ Hán tương ứng như thế nào?)",
       "explanation": "'はつか' (ngày 20) là cách đọc đặc biệt, được viết là '二十日'.",
-      "orderIndex": 68,
+      "orderIndex": 67,
       "options": [
         {
           "label": "A",
@@ -2220,9 +2188,9 @@
       "type": "standalone",
       "topic": "vocabulary",
       "level": "N5",
-      "questionText": "いま　（＿＿＿）　【なんじ】ですか. (Từ trong ngoặc [ ] dưới đây có chữ Hán tương ứng là gì?)",
+      "questionText": "いま　（＿＿＿）　【なんじ】ですか。 (Từ trong ngoặc [ ] dưới đây có chữ Hán tương ứng là gì?)",
       "explanation": "'なんじ' viết là '何時'.",
-      "orderIndex": 69,
+      "orderIndex": 68,
       "options": [
         {
           "label": "A",
@@ -2254,39 +2222,7 @@
       "level": "N5",
       "questionText": "いま　（＿＿＿）　【なんじ】ですか。 (Từ trong ngoặc [ ] có chữ Hán tương ứng là gì?)",
       "explanation": "'なんじ' viết là '何時'.",
-      "orderIndex": 70,
-      "options": [
-        {
-          "label": "A",
-          "text": "何時",
-          "isCorrect": true
-        },
-        {
-          "label": "B",
-          "text": "伺時",
-          "isCorrect": false
-        },
-        {
-          "label": "C",
-          "text": "何時",
-          "isCorrect": false
-        },
-        {
-          "label": "D",
-          "text": "伺時",
-          "isCorrect": false
-        }
-      ]
-    },
-    {
-      "id": 71,
-      "passageId": null,
-      "type": "standalone",
-      "topic": "vocabulary",
-      "level": "N5",
-      "questionText": "いま　（＿＿＿）　【なんじ】ですか。 (Từ trong ngoặc [ ] dưới đây có chữ Hán tương ứng là gì?)",
-      "explanation": "'なんじ' viết là '何時'.",
-      "orderIndex": 71,
+      "orderIndex": 69,
       "options": [
         {
           "label": "A",
@@ -2318,7 +2254,7 @@
       "level": "N5",
       "questionText": "いま　（＿＿＿）　【なんじ】ですか。 (Từ trong ngoặc [ ] dưới đây có chữ Hán tương ứng như thế nào?)",
       "explanation": "'なんじ' (mấy giờ) được viết là '何時'.",
-      "orderIndex": 72,
+      "orderIndex": 70,
       "options": [
         {
           "label": "A",
@@ -2350,7 +2286,7 @@
       "level": "N5",
       "questionText": "いま、なんじ 【なんぷん】 ですか。 (Các từ trong ngoặc [ ] dưới đây có chữ Hán tương ứng như thế nào?)",
       "explanation": "'なんぷん' (mấy phút) được viết bằng chữ Hán là '何分'.",
-      "orderIndex": 73,
+      "orderIndex": 71,
       "options": [
         {
           "label": "A",
@@ -2380,9 +2316,9 @@
       "type": "standalone",
       "topic": "vocabulary",
       "level": "N5",
-      "questionText": "きょうは　【げつようび】　ですか. (Từ trong ngoặc [ ] dưới đây có chữ Hán tương ứng là gì?)",
+      "questionText": "きょうは　【げつようび】　ですか。 (Từ trong ngoặc [ ] dưới đây có chữ Hán tương ứng là gì?)",
       "explanation": "'げつようび' là '月曜日'.",
-      "orderIndex": 74,
+      "orderIndex": 72,
       "options": [
         {
           "label": "A",
@@ -2414,39 +2350,7 @@
       "level": "N5",
       "questionText": "きょうは　【げつようび】　ですか。 (Từ trong ngoặc [ ] có chữ Hán tương ứng là gì?)",
       "explanation": "'げつようび' là '月曜日'.",
-      "orderIndex": 75,
-      "options": [
-        {
-          "label": "A",
-          "text": "金曜日",
-          "isCorrect": false
-        },
-        {
-          "label": "B",
-          "text": "月曜日",
-          "isCorrect": true
-        },
-        {
-          "label": "C",
-          "text": "火曜日",
-          "isCorrect": false
-        },
-        {
-          "label": "D",
-          "text": "木曜日",
-          "isCorrect": false
-        }
-      ]
-    },
-    {
-      "id": 76,
-      "passageId": null,
-      "type": "standalone",
-      "topic": "vocabulary",
-      "level": "N5",
-      "questionText": "きょうは　【げつようび】　ですか。 (Từ trong ngoặc [ ] dưới đây có chữ Hán tương ứng là gì?)",
-      "explanation": "'げつようび' là '月曜日'.",
-      "orderIndex": 76,
+      "orderIndex": 73,
       "options": [
         {
           "label": "A",
@@ -2478,7 +2382,7 @@
       "level": "N5",
       "questionText": "きょうは　【げつようび】　ですか。 (Từ trong ngoặc [ ] dưới đây có chữ Hán tương ứng như thế nào?)",
       "explanation": "'げつようび' (thứ はい) được viết bằng chữ Hán là '月曜日'.",
-      "orderIndex": 77,
+      "orderIndex": 74,
       "options": [
         {
           "label": "A",
@@ -2510,7 +2414,7 @@
       "level": "N5",
       "questionText": "たいいくかんの やすみは 【もくようび】 です。 (Từ trong ngoặc [ ] dưới đây có chữ Hán tương ứng như thế nào?)",
       "explanation": "'もくようび' (thứ Năm) được viết là '木曜日'.",
-      "orderIndex": 78,
+      "orderIndex": 75,
       "options": [
         {
           "label": "A",
@@ -2542,7 +2446,7 @@
       "level": "N5",
       "questionText": "たなかさんは 【ごじゅうにさい】 です。 (Các từ trong ngoặc [ ] dưới đây có chữ Hán tương ứng như thế nào?)",
       "explanation": "'ごじゅうにさい' (52 tuổi) tương ứng với chữ Hán '五十二才'.",
-      "orderIndex": 79,
+      "orderIndex": 76,
       "options": [
         {
           "label": "A",
@@ -2574,7 +2478,7 @@
       "level": "N5",
       "questionText": "たんじょうびは 2月 【ついたち】 です。 (Từ trong ngoặc [ ] dưới đây có chữ Hán tương ứng như thế nào?)",
       "explanation": "'ついたち' (ngày mùng 1) là cách đọc đặc biệt, được viết là '一日'.",
-      "orderIndex": 80,
+      "orderIndex": 77,
       "options": [
         {
           "label": "A",
@@ -2606,7 +2510,7 @@
       "level": "N5",
       "questionText": "キムさんは インド 【じん】 じゃありません。 (Các từ trong ngoặc [ ] dưới đây có chữ Hán tương ứng như thế nào?)",
       "explanation": "'じん' trong 'インドじん' (người Ấn Độ) là chữ '人' (nhân).",
-      "orderIndex": 81,
+      "orderIndex": 78,
       "options": [
         {
           "label": "A",
@@ -2638,7 +2542,7 @@
       "level": "N5",
       "questionText": "ワンさんは　【なんさい】ですか。 (Từ trong ngoặc [ ] dưới đây có chữ Hán tương ứng là gì?)",
       "explanation": "'なんさい' viết là '何才'.",
-      "orderIndex": 82,
+      "orderIndex": 79,
       "options": [
         {
           "label": "A",
@@ -2670,7 +2574,7 @@
       "level": "N5",
       "questionText": "ワンさんは　【なんさい】ですか。 (Từ trong ngoặc [ ] dưới đây có chữ Hán tương ứng như thế nào?)",
       "explanation": "'なんさい' (mấy tuổi) thường được viết là '何才' trong trình độ cơ bản.",
-      "orderIndex": 83,
+      "orderIndex": 80,
       "options": [
         {
           "label": "A",
@@ -2702,7 +2606,7 @@
       "level": "N5",
       "questionText": "A: しゅみは なんですか。B: （＿＿＿） です。 (Chọn đáp án thích hợp điền vào chỗ trống)",
       "explanation": "Chỉ có 'サッカー' (bóng đá) là sở thích phù hợp trong các lựa chọn.",
-      "orderIndex": 84,
+      "orderIndex": 81,
       "options": [
         {
           "label": "A",
@@ -2734,7 +2638,7 @@
       "level": "N5",
       "questionText": "A: 4月10日は おはなみです. B: えっ！おはなみ？ なにを しますか. A: ＿＿①＿＿をみます。＿＿②＿＿を たべます。",
       "explanation": "Đi ngắm hoa (おはなみ) thì ngắm hoa sakura (さくら) và ăn cơm hộp (おべんとう).",
-      "orderIndex": 85,
+      "orderIndex": 82,
       "options": [
         {
           "label": "A",
@@ -2766,7 +2670,7 @@
       "level": "N5",
       "questionText": "Hãy tìm nghĩa tiếng Việt tương ứng cho từ sau: “とんかつ”",
       "explanation": "'とんかつ' (とんかつ) là món ăn truyền thống Nhật Bản làm từ thịt lợn tẩm bột chiên xù.",
-      "orderIndex": 86,
+      "orderIndex": 83,
       "options": [
         {
           "label": "A",
@@ -2798,7 +2702,7 @@
       "level": "N5",
       "questionText": "Hãy tìm nghĩa tiếng Việt tương ứng cho từ sau: “アルバイト”",
       "explanation": "'アルバイト' (あるばいと) là từ mượn có nguồn gốc từ tiếng Đức 'あrべit', nghĩa là công việc làm thêm.",
-      "orderIndex": 87,
+      "orderIndex": 84,
       "options": [
         {
           "label": "A",
@@ -2830,7 +2734,7 @@
       "level": "N5",
       "questionText": "Hãy tìm nghĩa tiếng Việt tương ứng cho từ sau: “スケジュール”",
       "explanation": "'スケジュール' (scheづlえ) có nghĩa là kế hoạch, lịch trình công việc.",
-      "orderIndex": 88,
+      "orderIndex": 85,
       "options": [
         {
           "label": "A",
@@ -2862,7 +2766,7 @@
       "level": "N5",
       "questionText": "A: しゅみは なんですか。B: （＿＿＿） です。 (Chọn đáp án thích hợp trong A, B, C, D để điền vào ngoặc cho câu sau)",
       "explanation": "Câu hỏi hỏi về sở thích (しゅみ), nên câu trả lời phải là một sở thích như 'りょうり' (nấu ăn).",
-      "orderIndex": 89,
+      "orderIndex": 86,
       "options": [
         {
           "label": "A",
@@ -2892,41 +2796,9 @@
       "type": "standalone",
       "topic": "vocabulary",
       "level": "N5",
-      "questionText": "A: しゅみは　何ですか. B: （＿＿＿）です. (Chọn đáp án thích hợp điền vào chỗ trống)",
+      "questionText": "A: しゅみは　何ですか. B: （＿＿＿）です。 (Chọn đáp án thích hợp điền vào chỗ trống)",
       "explanation": "Sở thích là danh từ 'しゃしん'.",
-      "orderIndex": 90,
-      "options": [
-        {
-          "label": "A",
-          "text": "きる",
-          "isCorrect": false
-        },
-        {
-          "label": "B",
-          "text": "しゃしん",
-          "isCorrect": true
-        },
-        {
-          "label": "C",
-          "text": "しゃしんです",
-          "isCorrect": false
-        },
-        {
-          "label": "D",
-          "text": "きれいです",
-          "isCorrect": false
-        }
-      ]
-    },
-    {
-      "id": 91,
-      "passageId": null,
-      "type": "standalone",
-      "topic": "vocabulary",
-      "level": "N5",
-      "questionText": "A: しゅみは　何ですか。B: （＿＿＿）です。 (Chọn đáp án thích hợp điền vào chỗ trống)",
-      "explanation": "Câu hỏi về sở thích (しゅみ) yêu cầu câu trả lời là một danh từ chỉ sở thích (しゃしん - nhiếp ảnh).",
-      "orderIndex": 91,
+      "orderIndex": 87,
       "options": [
         {
           "label": "A",
@@ -2958,7 +2830,7 @@
       "level": "N5",
       "questionText": "A: りんごは （＿＿＿）で なんですか。B: 「Táo」です。 (Chọn đáp án thích hợp trong A, B, C, D để điền vào ngoặc cho câu sau)",
       "explanation": "'Táo' là từ tiếng Việt, nên câu hỏi hỏi về tên gọi trong tiếng Việt (ベトナム語).",
-      "orderIndex": 92,
+      "orderIndex": 88,
       "options": [
         {
           "label": "A",
@@ -2990,7 +2862,7 @@
       "level": "N5",
       "questionText": "A: 昨日は　（＿＿＿）でしたか。B: いいえ、休みませんでした。 (Chọn đáp án thích hợp điền vào chỗ trống)",
       "explanation": "Dựa vào câu trả lời liên quan đến việc nghỉ.",
-      "orderIndex": 93,
+      "orderIndex": 89,
       "options": [
         {
           "label": "A",
@@ -3022,7 +2894,7 @@
       "level": "N5",
       "questionText": "A: 昨日は　（＿＿＿）でしたか。B: いいえ、休みませんでした。 (Chọn đáp án thích hợp điền vào chỗ trống)",
       "explanation": "Dựa vào câu trả lời '休みませんでした' (đã không nghỉ), câu hỏi phải hỏi về việc nghỉ (やすみ).",
-      "orderIndex": 94,
+      "orderIndex": 90,
       "options": [
         {
           "label": "A",
@@ -3054,7 +2926,7 @@
       "level": "N5",
       "questionText": "A: 昨日は　（＿＿＿）でしたか。B: はい、休みでした。 (Chọn đáp án thích hợp điền vào chỗ trống)",
       "explanation": "Hỏi về việc nghỉ ngơi ngày hôm qua.",
-      "orderIndex": 95,
+      "orderIndex": 91,
       "options": [
         {
           "label": "A",
@@ -3086,7 +2958,7 @@
       "level": "N5",
       "questionText": "A: 昨日は　（＿＿＿）でしたか。B: はい、休みでした。 (Chọn đáp án thích hợp điền vào chỗ trống)",
       "explanation": "Dựa vào câu trả lời '休みでした', câu hỏi phải hỏi về việc nghỉ (やすみ).",
-      "orderIndex": 96,
+      "orderIndex": 92,
       "options": [
         {
           "label": "A",
@@ -3118,7 +2990,7 @@
       "level": "N5",
       "questionText": "B: としょかんへ いきます。としょかんで ＿＿＿＿＿を べんきょうします。 (Chọn đáp án thích hợp điền vào chỗ trống)",
       "explanation": "Tại thư viện thường thực hiện hành động học một môn học như '日本語' (tiếng nhật).",
-      "orderIndex": 97,
+      "orderIndex": 93,
       "options": [
         {
           "label": "A",
@@ -3148,41 +3020,9 @@
       "type": "standalone",
       "topic": "vocabulary",
       "level": "N5",
-      "questionText": "きのうの　（＿＿＿）は　ひるの12時でした. (Chọn đáp án thích hợp điền vào chỗ trống)",
-      "explanation": "Giờ nghỉ trưa.",
-      "orderIndex": 98,
-      "options": [
-        {
-          "label": "A",
-          "text": "となり",
-          "isCorrect": false
-        },
-        {
-          "label": "B",
-          "text": "やすみ",
-          "isCorrect": true
-        },
-        {
-          "label": "C",
-          "text": "おわり",
-          "isCorrect": false
-        },
-        {
-          "label": "D",
-          "text": "ゆうべ",
-          "isCorrect": false
-        }
-      ]
-    },
-    {
-      "id": 99,
-      "passageId": null,
-      "type": "standalone",
-      "topic": "vocabulary",
-      "level": "N5",
       "questionText": "きのうの　（＿＿＿）は　ひるの12時でした。 (Chọn đáp án thích hợp điền vào chỗ trống)",
-      "explanation": "Nói về giờ nghỉ trưa.",
-      "orderIndex": 99,
+      "explanation": "Giờ nghỉ trưa.",
+      "orderIndex": 94,
       "options": [
         {
           "label": "A",
@@ -3212,41 +3052,9 @@
       "type": "standalone",
       "topic": "vocabulary",
       "level": "N5",
-      "questionText": "きのうは　（＿＿＿）でした. (Chọn đáp án thích hợp điền vào chỗ trống)",
-      "explanation": "Nói về việc ngày nghỉ hôm qua.",
-      "orderIndex": 100,
-      "options": [
-        {
-          "label": "A",
-          "text": "やすみ",
-          "isCorrect": true
-        },
-        {
-          "label": "B",
-          "text": "あめ",
-          "isCorrect": false
-        },
-        {
-          "label": "C",
-          "text": "ひま",
-          "isCorrect": false
-        },
-        {
-          "label": "D",
-          "text": "ゆうめい",
-          "isCorrect": false
-        }
-      ]
-    },
-    {
-      "id": 101,
-      "passageId": null,
-      "type": "standalone",
-      "topic": "vocabulary",
-      "level": "N5",
       "questionText": "きのうは　（＿＿＿）でした。 (Chọn đáp án thích hợp điền vào chỗ trống)",
-      "explanation": "Câu khẳng định trạng thái trong quá khứ.",
-      "orderIndex": 101,
+      "explanation": "Nói về việc ngày nghỉ hôm qua.",
+      "orderIndex": 95,
       "options": [
         {
           "label": "A",
@@ -3278,7 +3086,7 @@
       "level": "N5",
       "questionText": "きのうは　（＿＿＿）でした。 (Chọn đáp án thích hợp điền vào chỗ trống)",
       "explanation": "Trong các kỳ thi, 'やすみ' (nghỉ) là trạng thái phổ biến nhất được dùng để kiểm tra cấu trúc quá khứ của danh từ.",
-      "orderIndex": 102,
+      "orderIndex": 96,
       "options": [
         {
           "label": "A",
@@ -3310,7 +3118,7 @@
       "level": "N5",
       "questionText": "レストランで　（＿＿＿）を　します。 (Chọn đáp án thích hợp điền vào chỗ trống)",
       "explanation": "Tại nhà hàng thường thực hiện hoạt động làm thêm (アルバイト).",
-      "orderIndex": 103,
+      "orderIndex": 97,
       "options": [
         {
           "label": "A",
@@ -3342,7 +3150,7 @@
       "level": "N5",
       "questionText": "私は　スーパーで　（＿＿＿）を　かいます。 (Chọn đáp án thích hợp điền vào chỗ trống)",
       "explanation": "Tại siêu thị (スーパー) thường mua 'たべもの' (đồ ăn).",
-      "orderIndex": 104,
+      "orderIndex": 98,
       "options": [
         {
           "label": "A",
@@ -3374,7 +3182,7 @@
       "level": "N5",
       "questionText": "飲み物(のみもの)は （＿＿＿）。 (Chọn đáp án thích hợp điền vào chỗ trống)",
       "explanation": "Kết thúc câu với vị ngữ hoàn chỉnh.",
-      "orderIndex": 105,
+      "orderIndex": 99,
       "options": [
         {
           "label": "A",
@@ -3406,39 +3214,7 @@
       "level": "N5",
       "questionText": "（＿＿＿）は　ベトナム人です。 (Chọn đáp án thích hợp điền vào chỗ trống)",
       "explanation": "Chủ ngữ của câu là một người (người việt nam) nên chọn danh từ chỉ người 'たなかさん'.",
-      "orderIndex": 106,
-      "options": [
-        {
-          "label": "A",
-          "text": "たなかさん",
-          "isCorrect": true
-        },
-        {
-          "label": "B",
-          "text": "どこ",
-          "isCorrect": false
-        },
-        {
-          "label": "C",
-          "text": "どれ",
-          "isCorrect": false
-        },
-        {
-          "label": "D",
-          "text": "なん",
-          "isCorrect": false
-        }
-      ]
-    },
-    {
-      "id": 107,
-      "passageId": null,
-      "type": "standalone",
-      "topic": "vocabulary",
-      "level": "N5",
-      "questionText": "（＿＿＿）は　ベトナム人です. (Chọn đáp án thích hợp điền vào chỗ trống)",
-      "explanation": "Chủ ngữ là người phù hợp với vị ngữ quốc tịch.",
-      "orderIndex": 107,
+      "orderIndex": 100,
       "options": [
         {
           "label": "A",
@@ -3470,7 +3246,7 @@
       "level": "N5",
       "questionText": "Hãy chọn từ KHÔNG CÙNG NHÓM với các từ còn lại:",
       "explanation": "'バーベキュー' (tiệc nướng) là một hoạt động ăn uống, các từ khác là các môn thể thao/vận động.",
-      "orderIndex": 108,
+      "orderIndex": 101,
       "options": [
         {
           "label": "A",
@@ -3502,7 +3278,7 @@
       "level": "N5",
       "questionText": "Hãy chọn từ KHÔNG CÙNG NHÓM với các từ còn lại:",
       "explanation": "'パン' là đồ ăn, các từ còn lại liên quan đến đồ dùng cá nhân hoặc sự kiện con người.",
-      "orderIndex": 109,
+      "orderIndex": 102,
       "options": [
         {
           "label": "A",
@@ -3534,7 +3310,7 @@
       "level": "N5",
       "questionText": "Hãy chọn từ có ý nghĩa KHÔNG CÙNG NHÓM với các từ còn lại:",
       "explanation": "'まど' (cửa sổ) là vật dụng, các từ còn lại là địa điểm công cộng.",
-      "orderIndex": 110,
+      "orderIndex": 103,
       "options": [
         {
           "label": "A",
@@ -3566,7 +3342,7 @@
       "level": "N5",
       "questionText": "Hãy chọn từ khác loại với các từ còn lại:",
       "explanation": "'さかな' là danh từ chỉ vật, các từ còn lại chỉ thời gian.",
-      "orderIndex": 111,
+      "orderIndex": 104,
       "options": [
         {
           "label": "A",
@@ -3598,7 +3374,7 @@
       "level": "N5",
       "questionText": "飲み物は　（＿＿＿）　ですか。 (Chọn đáp án thích hợp điền vào chỗ trống)",
       "explanation": "'ジュース' là đồ uống.",
-      "orderIndex": 112,
+      "orderIndex": 105,
       "options": [
         {
           "label": "A",
@@ -3630,7 +3406,7 @@
       "level": "N5",
       "questionText": "飲み物は　（＿＿＿）　ですか。 (Chọn đáp án thích hợp điền vào chỗ trống)",
       "explanation": "Trong các lựa chọn, 'じゅうす' (nước ほあ quả) là đồ uống duy nhất.",
-      "orderIndex": 113,
+      "orderIndex": 106,
       "options": [
         {
           "label": "A",
@@ -3662,7 +3438,7 @@
       "level": "N5",
       "questionText": "A: しゅみは　何ですか。B: （＿＿＿）です。 (Chọn đáp án thích hợp điền vào chỗ trống)",
       "explanation": "Câu hỏi về sở thích (しゅみ) trả lời bằng một danh từ chỉ hoạt động hoặc lĩnh vực yêu thích.",
-      "orderIndex": 114,
+      "orderIndex": 107,
       "options": [
         {
           "label": "A",
@@ -3694,7 +3470,7 @@
       "level": "N5",
       "questionText": "A: 昨日は　（＿＿＿）でしたか。B: はい、とても　よかったです。 (Chọn đáp án thích hợp điền vào chỗ trống)",
       "explanation": "Hỏi về tình trạng thời tiết hôm qua.",
-      "orderIndex": 115,
+      "orderIndex": 108,
       "options": [
         {
           "label": "A",
@@ -3726,7 +3502,7 @@
       "level": "N5",
       "questionText": "A: 昨日は　（＿＿＿）でしたか。B: はい、とても　よかったです。 (Chọn đáp án thích hợp điền vào chỗ trống)",
       "explanation": "Câu trả lời về chất lượng/trạng thái (よかったです) phù hợp với câu hỏi về thời tiết (いいおてんき).",
-      "orderIndex": 116,
+      "orderIndex": 109,
       "options": [
         {
           "label": "A",
@@ -3758,7 +3534,7 @@
       "level": "N5",
       "questionText": "【上着】 có nghĩa là gì? (Chọn từ tương ứng)",
       "explanation": "'上着' (đọc là うわぎ) có nghĩa là áo khoác, áo ngoài.",
-      "orderIndex": 117,
+      "orderIndex": 110,
       "options": [
         {
           "label": "A",
@@ -3790,7 +3566,7 @@
       "level": "N5",
       "questionText": "【下着】 có nghĩa là gì? (Chọn từ tương ứng)",
       "explanation": "'下着' (đọc là したぎ) có nghĩa là quần áo lót.",
-      "orderIndex": 118,
+      "orderIndex": 111,
       "options": [
         {
           "label": "A",
@@ -3822,7 +3598,7 @@
       "level": "N5",
       "questionText": "【出張します】 có nghĩa là gì? (Chọn từ tương ứng)",
       "explanation": "'出張します' (đọc là しゅっちょうします) có nghĩa là đi công tác.",
-      "orderIndex": 119,
+      "orderIndex": 112,
       "options": [
         {
           "label": "A",
@@ -3854,7 +3630,7 @@
       "level": "N5",
       "questionText": "【危ない】 có nghĩa là gì? (Chọn từ tương ứng)",
       "explanation": "'危ない' (đọc là あぶない) có nghĩa là nguy hiểm.",
-      "orderIndex": 120,
+      "orderIndex": 113,
       "options": [
         {
           "label": "A",
@@ -3886,7 +3662,7 @@
       "level": "N5",
       "questionText": "【大丈夫（な）】 có nghĩa là gì? (Chọn từ tương ứng)",
       "explanation": "'大丈夫（な）' (đọc là だいじょうぶ) có nghĩa là không sao, ổn.",
-      "orderIndex": 121,
+      "orderIndex": 114,
       "options": [
         {
           "label": "A",
@@ -3918,7 +3694,7 @@
       "level": "N5",
       "questionText": "【大切（な）】 có nghĩa là gì? (Chọn từ tương ứng)",
       "explanation": "'大切（な）' (đọc là たいせつ) có nghĩa là quan trọng, quý giá.",
-      "orderIndex": 122,
+      "orderIndex": 115,
       "options": [
         {
           "label": "A",
@@ -3950,7 +3726,7 @@
       "level": "N5",
       "questionText": "【心配します】 có nghĩa là gì? (Chọn từ tương ứng)",
       "explanation": "'心配します' (đọc là しんぱいします) có nghĩa là lo lắng.",
-      "orderIndex": 123,
+      "orderIndex": 116,
       "options": [
         {
           "label": "A",
@@ -3982,7 +3758,7 @@
       "level": "N5",
       "questionText": "【忘れます】 có nghĩa là gì? (Chọn từ tương ứng)",
       "explanation": "'忘れます' (đọc là わすれます) có nghĩa là quên.",
-      "orderIndex": 124,
+      "orderIndex": 117,
       "options": [
         {
           "label": "A",
@@ -4014,7 +3790,7 @@
       "level": "N5",
       "questionText": "【払います】 có nghĩa là gì? (Chọn từ tương ứng)",
       "explanation": "'払います' (đọc là はらいます) có nghĩa là trả tiền, thanh toán.",
-      "orderIndex": 125,
+      "orderIndex": 118,
       "options": [
         {
           "label": "A",
@@ -4046,7 +3822,7 @@
       "level": "N5",
       "questionText": "【持って来ます】 có nghĩa là gì? (Chọn từ tương ứng)",
       "explanation": "'持って来ます' (đọc là もってきます) có nghĩa là mang đến.",
-      "orderIndex": 126,
+      "orderIndex": 119,
       "options": [
         {
           "label": "A",
@@ -4078,7 +3854,7 @@
       "level": "N5",
       "questionText": "【持って行きます】 có nghĩa là gì? (Chọn từ tương ứng)",
       "explanation": "'持って行きます' (đọc là もっていきます) có nghĩa là mang đi.",
-      "orderIndex": 127,
+      "orderIndex": 120,
       "options": [
         {
           "label": "A",
@@ -4110,7 +3886,7 @@
       "level": "N5",
       "questionText": "【残業します】 có nghĩa là gì? (Chọn từ tương ứng)",
       "explanation": "'残業します' (đọc là ざんぎょうします) có nghĩa là làm thêm giờ.",
-      "orderIndex": 128,
+      "orderIndex": 121,
       "options": [
         {
           "label": "A",
@@ -4142,7 +3918,7 @@
       "level": "N5",
       "questionText": "【熱】 có nghĩa là gì? (Chọn từ tương ứng)",
       "explanation": "'熱' (đọc là ねつ) có nghĩa là sốt.",
-      "orderIndex": 129,
+      "orderIndex": 122,
       "options": [
         {
           "label": "A",
@@ -4174,7 +3950,7 @@
       "level": "N5",
       "questionText": "【病気】 có nghĩa là gì? (Chọn từ tương ứng)",
       "explanation": "'病気' (đọc là びょうき) có nghĩa là bệnh tật, ốm.",
-      "orderIndex": 130,
+      "orderIndex": 123,
       "options": [
         {
           "label": "A",
@@ -4206,7 +3982,7 @@
       "level": "N5",
       "questionText": "【禁煙】 có nghĩa là gì? (Chọn từ tương ứng)",
       "explanation": "'禁煙' (đọc là きんえん) có nghĩa là cấm hút thuốc.",
-      "orderIndex": 131,
+      "orderIndex": 124,
       "options": [
         {
           "label": "A",
@@ -4238,7 +4014,7 @@
       "level": "N5",
       "questionText": "【脱ぎます】 có nghĩa là gì? (Chọn từ tương ứng)",
       "explanation": "'脱ぎます' (đọc là ぬぎます) có nghĩa là cởi (quần áo, giày dép).",
-      "orderIndex": 132,
+      "orderIndex": 125,
       "options": [
         {
           "label": "A",
@@ -4270,7 +4046,7 @@
       "level": "N5",
       "questionText": "【薬】 có nghĩa là gì? (Chọn từ tương ứng)",
       "explanation": "'薬' (đọc là くすり) có nghĩa là thuốc.",
-      "orderIndex": 133,
+      "orderIndex": 126,
       "options": [
         {
           "label": "A",
@@ -4302,7 +4078,7 @@
       "level": "N5",
       "questionText": "【覚えます】 có nghĩa là gì? (Chọn từ tương ứng)",
       "explanation": "'覚えます' (đọc là おぼえます) có nghĩa là nhớ, ghi nhớ.",
-      "orderIndex": 134,
+      "orderIndex": 127,
       "options": [
         {
           "label": "A",
@@ -4334,7 +4110,7 @@
       "level": "N5",
       "questionText": "【（お）風呂】 có nghĩa là gì? (Chọn từ tương ứng)",
       "explanation": "'風呂' (đọc là ふろ) có nghĩa là bồn tắm, việc tắm bồn.",
-      "orderIndex": 135,
+      "orderIndex": 128,
       "options": [
         {
           "label": "A",
@@ -4366,7 +4142,7 @@
       "level": "N5",
       "questionText": "【（健康）保険証】 có nghĩa là gì? (Chọn từ tương ứng)",
       "explanation": "'保険証' (đọc là ほけんしょう) có nghĩa là thẻ bảo hiểm.",
-      "orderIndex": 136,
+      "orderIndex": 129,
       "options": [
         {
           "label": "A",
@@ -4398,7 +4174,7 @@
       "level": "N5",
       "questionText": "たなかさんは　【エンジニア】ですか。 (Từ trong ngoặc [ ] có nghĩa là gì?)",
       "explanation": "'エンジニア' nghĩa là kỹ sư.",
-      "orderIndex": 137,
+      "orderIndex": 130,
       "options": [
         {
           "label": "A",
@@ -4430,7 +4206,7 @@
       "level": "N5",
       "questionText": "A: あさ、何時に ＿＿＿＿＿へ きますか。B: 8時に きます。 (Chọn đáp án thích hợp để điền vào chỗ trống)",
       "explanation": "Động từ 'きます' (đến) thường đi với một địa điểm như '学校' (trường học).",
-      "orderIndex": 138,
+      "orderIndex": 131,
       "options": [
         {
           "label": "A",
@@ -4462,7 +4238,7 @@
       "level": "N5",
       "questionText": "A: これは　どこですか。B: （＿＿＿）です。 (Chọn đáp án thích hợp điền vào chỗ trống)",
       "explanation": "Câu hỏi 'đây là đâu' trả lời bằng danh từ địa điểm.",
-      "orderIndex": 139,
+      "orderIndex": 132,
       "options": [
         {
           "label": "A",
@@ -4494,7 +4270,7 @@
       "level": "N5",
       "questionText": "A: すmmaせん、（＿＿＿）は　どこですか。B: 1階です。 (Chọn đáp án thích hợp điền vào chỗ trống)",
       "explanation": "Hỏi địa điểm trong tòa nhà.",
-      "orderIndex": 140,
+      "orderIndex": 133,
       "options": [
         {
           "label": "A",
@@ -4526,7 +4302,7 @@
       "level": "N5",
       "questionText": "A: すみません、（＿＿＿）は　どこですか。B: 1階です。 (Chọn đáp án thích hợp điền vào chỗ trống)",
       "explanation": "Trả lời vị trí (1階) nên câu hỏi là về một địa điểm (じむしょ).",
-      "orderIndex": 141,
+      "orderIndex": 134,
       "options": [
         {
           "label": "A",
@@ -4556,9 +4332,9 @@
       "type": "standalone",
       "topic": "vocabulary",
       "level": "N5",
-      "questionText": "A: すみません、（＿＿＿）は　どちらですか. B: 1階です. (Chọn đáp án thích hợp điền vào chỗ trống)",
+      "questionText": "A: すみません、（＿＿＿）は　どちらですか. B: 1階です。 (Chọn đáp án thích hợp điền vào chỗ trống)",
       "explanation": "Hỏi vị trí của văn phòng.",
-      "orderIndex": 142,
+      "orderIndex": 135,
       "options": [
         {
           "label": "A",
@@ -4588,73 +4364,9 @@
       "type": "standalone",
       "topic": "vocabulary",
       "level": "N5",
-      "questionText": "A: すみません、（＿＿＿）は　どちらですか. B: あちらです. (Chọn đáp án thích hợp điền vào chỗ trống)",
+      "questionText": "A: すみません、（＿＿＿）は　どちらですか. B: あちらです。 (Chọn đáp án thích hợp điền vào chỗ trống)",
       "explanation": "Hỏi vị trí nhà ăn.",
-      "orderIndex": 143,
-      "options": [
-        {
-          "label": "A",
-          "text": "きょうしつ",
-          "isCorrect": false
-        },
-        {
-          "label": "B",
-          "text": "かいぎしつ",
-          "isCorrect": false
-        },
-        {
-          "label": "C",
-          "text": "じむしょ",
-          "isCorrect": false
-        },
-        {
-          "label": "D",
-          "text": "しょくどう",
-          "isCorrect": true
-        }
-      ]
-    },
-    {
-      "id": 144,
-      "passageId": null,
-      "type": "standalone",
-      "topic": "vocabulary",
-      "level": "N5",
-      "questionText": "A: すみません、（＿＿＿）は　どちらですか。B: 1階です。 (Chọn đáp án thích hợp điền vào chỗ trống)",
-      "explanation": "Trong ngữ cảnh văn phòng/trường học, 'じむしょ' (phòng văn phòng) thường ở tầng 1.",
-      "orderIndex": 144,
-      "options": [
-        {
-          "label": "A",
-          "text": "きょうしつ",
-          "isCorrect": false
-        },
-        {
-          "label": "B",
-          "text": "かいぎしつ",
-          "isCorrect": false
-        },
-        {
-          "label": "C",
-          "text": "じむしょ",
-          "isCorrect": true
-        },
-        {
-          "label": "D",
-          "text": "しょくどう",
-          "isCorrect": false
-        }
-      ]
-    },
-    {
-      "id": 145,
-      "passageId": null,
-      "type": "standalone",
-      "topic": "vocabulary",
-      "level": "N5",
-      "questionText": "A: すみません、（＿＿＿）は　どちらですか。B: あちらです。 (Chọn đáp án thích hợp điền vào chỗ trống)",
-      "explanation": "Hỏi về vị trí các phòng chức năng trong tòa nhà, 'しょくどう' (nhà ăn) là một lựa chọn phổ biến.",
-      "orderIndex": 145,
+      "orderIndex": 136,
       "options": [
         {
           "label": "A",
@@ -4686,7 +4398,7 @@
       "level": "N5",
       "questionText": "＿＿＿＿＿で くだものを かいます。 (Chọn đáp án thích hợp điền vào chỗ trống)",
       "explanation": "Hoa quả thường được mua tại siêu thị (スーパー).",
-      "orderIndex": 146,
+      "orderIndex": 137,
       "options": [
         {
           "label": "A",
@@ -4711,38 +4423,6 @@
       ]
     },
     {
-      "id": 147,
-      "passageId": null,
-      "type": "standalone",
-      "topic": "vocabulary",
-      "level": "N5",
-      "questionText": "飲み物は　（＿＿＿）　ですか。 (Chọn đáp án thích hợp điền vào chỗ trống)",
-      "explanation": "Trong các lựa chọn, chỉ có 'ジュース' (nước ほあ quả) là đồ uống.",
-      "orderIndex": 147,
-      "options": [
-        {
-          "label": "A",
-          "text": "イチゴ",
-          "isCorrect": false
-        },
-        {
-          "label": "B",
-          "text": "ケーキ",
-          "isCorrect": false
-        },
-        {
-          "label": "C",
-          "text": "カレー",
-          "isCorrect": false
-        },
-        {
-          "label": "D",
-          "text": "ジュース",
-          "isCorrect": true
-        }
-      ]
-    },
-    {
       "id": 148,
       "passageId": null,
       "type": "standalone",
@@ -4750,7 +4430,7 @@
       "level": "N5",
       "questionText": "これは （＿＿＿） です。 (Chọn đáp án thích hợp điền vào chỗ trống)",
       "explanation": "Thông thường đây là câu giới thiệu đồ vật, 'さいふ' (ví) là đồ vật duy nhất trong các lựa chọn.",
-      "orderIndex": 148,
+      "orderIndex": 138,
       "options": [
         {
           "label": "A",
@@ -4782,7 +4462,7 @@
       "level": "N5",
       "questionText": "あきやすみ、アルバイトを ＿＿＿＿＿。 (Chọn đáp án thích hợp điền vào chỗ trống)",
       "explanation": "Cụm từ 'アルバイトをします' có nghĩa là làm thêm.",
-      "orderIndex": 149,
+      "orderIndex": 139,
       "options": [
         {
           "label": "A",
@@ -4814,7 +4494,7 @@
       "level": "N5",
       "questionText": "なつやすみ、くにへ ＿＿＿＿＿。 (Chọn đáp án thích hợp điền vào chỗ trống)",
       "explanation": "Cụm từ 'くにへかえります' có nghĩa là trở về quê hương/đất nước.",
-      "orderIndex": 150,
+      "orderIndex": 140,
       "options": [
         {
           "label": "A",
@@ -4846,7 +4526,7 @@
       "level": "N5",
       "questionText": "ふゆやすみ、りょこうを ＿＿＿＿＿。 (Chọn đáp án thích hợp điền vào chỗ trống)",
       "explanation": "'りょこうをします' là cụm từ cố định nghĩa là đi du lịch.",
-      "orderIndex": 151,
+      "orderIndex": 141,
       "options": [
         {
           "label": "A",
@@ -4878,7 +4558,7 @@
       "level": "N5",
       "questionText": "パーティーで、＿＿＿＿＿をのみます。 (Chọn đáp án thích hợp điền vào chỗ trống)",
       "explanation": "Động từ 'のみます' (uống) đi kèm với tân ngữ là đồ uống (rượu - おさけ).",
-      "orderIndex": 152,
+      "orderIndex": 142,
       "options": [
         {
           "label": "A",
@@ -4910,7 +4590,7 @@
       "level": "N5",
       "questionText": "A: すみません、（＿＿＿） Tシャツは いくらですか。てんいん: 5000円です。 (Chọn đáp án thích hợp điền vào chỗ trống)",
       "explanation": "Chỉ định từ 'この' đứng trước danh từ để xác định đối tượng cụ thể.",
-      "orderIndex": 153,
+      "orderIndex": 143,
       "options": [
         {
           "label": "A",
@@ -4940,41 +4620,9 @@
       "type": "standalone",
       "topic": "vocabulary",
       "level": "N5",
-      "questionText": "A: （＿＿＿） B: はい、今日は　やすみでした. (Chọn đáp án thích hợp điền vào chỗ trống)",
-      "explanation": "Câu hỏi trạng thái quá khứ.",
-      "orderIndex": 154,
-      "options": [
-        {
-          "label": "A",
-          "text": "きょうは　やすみでしたか",
-          "isCorrect": true
-        },
-        {
-          "label": "B",
-          "text": "きょうは　やすみでした",
-          "isCorrect": false
-        },
-        {
-          "label": "C",
-          "text": "きょうは　やすみですか",
-          "isCorrect": false
-        },
-        {
-          "label": "D",
-          "text": "きょうは　やすみますか",
-          "isCorrect": false
-        }
-      ]
-    },
-    {
-      "id": 155,
-      "passageId": null,
-      "type": "standalone",
-      "topic": "vocabulary",
-      "level": "N5",
       "questionText": "A: （＿＿＿） B: はい、今日は　やすみでした。 (Chọn đáp án thích hợp điền vào chỗ trống)",
-      "explanation": "Câu hỏi xác nhận sự việc quá khứ.",
-      "orderIndex": 155,
+      "explanation": "Câu hỏi trạng thái quá khứ.",
+      "orderIndex": 144,
       "options": [
         {
           "label": "A",
@@ -5006,39 +4654,7 @@
       "level": "N5",
       "questionText": "（＿＿＿）は　タイ人です。 (Chọn đáp án thích hợp điền vào chỗ trống)",
       "explanation": "Chọn danh từ riêng làm chủ ngữ.",
-      "orderIndex": 156,
-      "options": [
-        {
-          "label": "A",
-          "text": "だれ",
-          "isCorrect": false
-        },
-        {
-          "label": "B",
-          "text": "なん",
-          "isCorrect": false
-        },
-        {
-          "label": "C",
-          "text": "どこ",
-          "isCorrect": false
-        },
-        {
-          "label": "D",
-          "text": "ワン",
-          "isCorrect": true
-        }
-      ]
-    },
-    {
-      "id": 157,
-      "passageId": null,
-      "type": "standalone",
-      "topic": "vocabulary",
-      "level": "N5",
-      "questionText": "（＿＿＿）は　タイ人です. (Chọn đáp án thích hợp điền vào chỗ trống)",
-      "explanation": "Chủ ngữ chỉ người.",
-      "orderIndex": 157,
+      "orderIndex": 145,
       "options": [
         {
           "label": "A",
@@ -5070,7 +4686,7 @@
       "level": "N5",
       "questionText": "わたしの　しゅみは （＿＿＿） です。 (Chọn đáp án thích hợp điền vào chỗ trống)",
       "explanation": "Cấu trúc 'Sở thích của tôi là...' dùng 'V-る + こと' để danh từ hóa hành động.",
-      "orderIndex": 158,
+      "orderIndex": 146,
       "options": [
         {
           "label": "A",
@@ -5100,9 +4716,9 @@
       "type": "standalone",
       "topic": "vocabulary",
       "level": "N5",
-      "questionText": "A: 昨日は　休みでしたか. B: （＿＿＿）、休みでした. (Chọn đáp án thích hợp điền vào chỗ trống)",
+      "questionText": "A: 昨日は　休みでしたか. B: （＿＿＿）、休みでした。 (Chọn đáp án thích hợp điền vào chỗ trống)",
       "explanation": "Trả lời khẳng định.",
-      "orderIndex": 159,
+      "orderIndex": 147,
       "options": [
         {
           "label": "A",
@@ -5134,7 +4750,7 @@
       "level": "N5",
       "questionText": "A: 昨日は　休みでしたか。B: （＿＿＿）、休みでした。 (Chọn đáp án thích hợp điền vào chỗ trống)",
       "explanation": "Trả lời khẳng định chiょ câu hỏi Có/Không dùng 'はい'.",
-      "orderIndex": 160,
+      "orderIndex": 148,
       "options": [
         {
           "label": "A",
@@ -5159,38 +4775,6 @@
       ]
     },
     {
-      "id": 161,
-      "passageId": null,
-      "type": "standalone",
-      "topic": "vocabulary",
-      "level": "N5",
-      "questionText": "A: 昨日は　休みでしたか。B: （＿＿＿）、休みでした。 (Chọn đáp án thích hợp điền vào chỗ trống)",
-      "explanation": "Trả lời khẳng định.",
-      "orderIndex": 161,
-      "options": [
-        {
-          "label": "A",
-          "text": "はい",
-          "isCorrect": true
-        },
-        {
-          "label": "B",
-          "text": "いいえ",
-          "isCorrect": false
-        },
-        {
-          "label": "C",
-          "text": "やすみでした",
-          "isCorrect": false
-        },
-        {
-          "label": "D",
-          "text": "やすみ",
-          "isCorrect": false
-        }
-      ]
-    },
-    {
       "id": 162,
       "passageId": null,
       "type": "standalone",
@@ -5198,7 +4782,7 @@
       "level": "N5",
       "questionText": "A: きのうは やすみでしたか。B: はい、（＿＿＿）。 (Chọn đáp án thích hợp điền vào chỗ trống)",
       "explanation": "Câu hỏi ở thì quá khứ (でしたか) nên câu trả lời khẳng định cũng phải ở thì quá khứ (でした).",
-      "orderIndex": 162,
+      "orderIndex": 149,
       "options": [
         {
           "label": "A",
@@ -5223,38 +4807,6 @@
       ]
     },
     {
-      "id": 163,
-      "passageId": null,
-      "type": "standalone",
-      "topic": "vocabulary",
-      "level": "N5",
-      "questionText": "A: 昨日は　休みでしたか。B: （＿＿＿）、休みでした。 (Chọn đáp án thích hợp điền vào chỗ trống)",
-      "explanation": "Câu trả lời khẳng định lại nội dung câu hỏi nên dùng 'はい'.",
-      "orderIndex": 163,
-      "options": [
-        {
-          "label": "A",
-          "text": "はい",
-          "isCorrect": true
-        },
-        {
-          "label": "B",
-          "text": "いいえ",
-          "isCorrect": false
-        },
-        {
-          "label": "C",
-          "text": "やすみでした",
-          "isCorrect": false
-        },
-        {
-          "label": "D",
-          "text": "やすみ",
-          "isCorrect": false
-        }
-      ]
-    },
-    {
       "id": 164,
       "passageId": null,
       "type": "standalone",
@@ -5262,39 +4814,7 @@
       "level": "N5",
       "questionText": "カレーを　（＿＿＿）、コーヒーを　のみました。 (Chọn đáp án thích hợp điền vào chỗ trống)",
       "explanation": "Dùng thể te để nối hai hành động xảy ra liên tiếp.",
-      "orderIndex": 164,
-      "options": [
-        {
-          "label": "A",
-          "text": "たべて",
-          "isCorrect": true
-        },
-        {
-          "label": "B",
-          "text": "たべました",
-          "isCorrect": false
-        },
-        {
-          "label": "C",
-          "text": "たべます",
-          "isCorrect": false
-        },
-        {
-          "label": "D",
-          "text": "たべる",
-          "isCorrect": false
-        }
-      ]
-    },
-    {
-      "id": 165,
-      "passageId": null,
-      "type": "standalone",
-      "topic": "vocabulary",
-      "level": "N5",
-      "questionText": "カレーを　（＿＿＿）、コーヒーを　のみました。 (Chọn đáp án thích hợp điền vào chỗ trống)",
-      "explanation": "Để nối hai hành động xảy ra tuần tự, ta dùng thể te (たべて).",
-      "orderIndex": 165,
+      "orderIndex": 150,
       "options": [
         {
           "label": "A",
@@ -5326,7 +4846,7 @@
       "level": "N5",
       "questionText": "A: [誕生日] は （＿＿＿） ですか。B: 12月25日です。 (Chọn đáp án thích hợp điền vào chỗ trống)",
       "explanation": "Hỏi về mốc thời gian (khi nào) dùng 'いつ'.",
-      "orderIndex": 166,
+      "orderIndex": 151,
       "options": [
         {
           "label": "A",
@@ -5356,9 +4876,9 @@
       "type": "standalone",
       "topic": "vocabulary",
       "level": "N5",
-      "questionText": "A: [誕生日] は （＿＿＿） ですか。B: 12月25日です. (Chọn đáp án thích hợp điền vào chỗ trống)",
+      "questionText": "A: [誕生日] は （＿＿＿） ですか。B: 12月25日です。 (Chọn đáp án thích hợp điền vào chỗ trống)",
       "explanation": "Hỏi về thời gian dùng 'いつ'.",
-      "orderIndex": 167,
+      "orderIndex": 152,
       "options": [
         {
           "label": "A",
@@ -5390,7 +4910,7 @@
       "level": "N5",
       "questionText": "A: いくらですか。B: （＿＿＿） (Chọn đáp án thích hợp điền vào chỗ trống)",
       "explanation": "Hỏi giá tiền trả lời bằng đơn vị tiền tệ.",
-      "orderIndex": 168,
+      "orderIndex": 153,
       "options": [
         {
           "label": "A",
@@ -5422,7 +4942,7 @@
       "level": "N5",
       "questionText": "A: いくらですか。B: （＿＿＿） (Chọn đáp án thích hợp điền vào chỗ trống)",
       "explanation": "Hỏi giá tiền (いくら) trả lời bằng đơn vị tiền tệ (100円).",
-      "orderIndex": 169,
+      "orderIndex": 154,
       "options": [
         {
           "label": "A",
@@ -5454,39 +4974,7 @@
       "level": "N5",
       "questionText": "A: いま （＿＿＿）ですか。B: 3時です。 (Chọn đáp án thích hợp điền vào chỗ trống)",
       "explanation": "Câu trả lời về giờ giấc (3時) yêu cầu nghi vấn từ hỏi giờ 'なんじ'.",
-      "orderIndex": 170,
-      "options": [
-        {
-          "label": "A",
-          "text": "いつ",
-          "isCorrect": false
-        },
-        {
-          "label": "B",
-          "text": "どれ",
-          "isCorrect": false
-        },
-        {
-          "label": "C",
-          "text": "どこ",
-          "isCorrect": false
-        },
-        {
-          "label": "D",
-          "text": "なんじ",
-          "isCorrect": true
-        }
-      ]
-    },
-    {
-      "id": 171,
-      "passageId": null,
-      "type": "standalone",
-      "topic": "vocabulary",
-      "level": "N5",
-      "questionText": "A: いま （＿＿＿）ですか。B: 3時です. (Chọn đáp án thích hợp điền vào chỗ trống)",
-      "explanation": "Hỏi giờ.",
-      "orderIndex": 171,
+      "orderIndex": 155,
       "options": [
         {
           "label": "A",
@@ -5518,7 +5006,7 @@
       "level": "N5",
       "questionText": "A: いま （＿＿＿）ですか。B: 9時です。 (Chọn đáp án thích hợp điền vào chỗ trống)",
       "explanation": "Hỏi giờ dùng 'なんじ'.",
-      "orderIndex": 172,
+      "orderIndex": 156,
       "options": [
         {
           "label": "A",
@@ -5550,39 +5038,7 @@
       "level": "N5",
       "questionText": "A: おくに （＿＿＿）？B: アメリカです。 (Chọn đáp án thích hợp điền vào chỗ trống)",
       "explanation": "Hỏi quốc tịch lịch sự.",
-      "orderIndex": 173,
-      "options": [
-        {
-          "label": "A",
-          "text": "なん",
-          "isCorrect": false
-        },
-        {
-          "label": "B",
-          "text": "どこ",
-          "isCorrect": false
-        },
-        {
-          "label": "C",
-          "text": "どちら",
-          "isCorrect": true
-        },
-        {
-          "label": "D",
-          "text": "なに",
-          "isCorrect": false
-        }
-      ]
-    },
-    {
-      "id": 174,
-      "passageId": null,
-      "type": "standalone",
-      "topic": "vocabulary",
-      "level": "N5",
-      "questionText": "A: おくに （＿＿＿）？B: アメリカです. (Chọn đáp án thích hợp điền vào chỗ trống)",
-      "explanation": "Hỏi quốc tịch lịch sự.",
-      "orderIndex": 174,
+      "orderIndex": 157,
       "options": [
         {
           "label": "A",
@@ -5614,7 +5070,7 @@
       "level": "N5",
       "questionText": "A: おくには　（＿＿＿）ですか。B: ベトナムです。 (Chọn đáp án thích hợp điền vào chỗ trống)",
       "explanation": "'どちら' là cách hỏi lịch sự về quốc gia.",
-      "orderIndex": 175,
+      "orderIndex": 158,
       "options": [
         {
           "label": "A",
@@ -5646,7 +5102,7 @@
       "level": "N5",
       "questionText": "A: お仕事は　（＿＿＿）ですか。B: 銀行員です。 (Chọn đáp án thích hợp điền vào chỗ trống)",
       "explanation": "Hỏi về nghề nghiệp (お仕事) dùng 'なん' (cái gì/là gì).",
-      "orderIndex": 176,
+      "orderIndex": 159,
       "options": [
         {
           "label": "A",
@@ -5676,9 +5132,9 @@
       "type": "standalone",
       "topic": "vocabulary",
       "level": "N5",
-      "questionText": "A: これ （＿＿＿） の　ノートですか。B: わたしの　ノートです. (Chọn đáp án thích hợp điền vào chỗ trống)",
+      "questionText": "A: これ （＿＿＿） の　ノートですか。B: わたしの　ノートです。 (Chọn đáp án thích hợp điền vào chỗ trống)",
       "explanation": "Hỏi chủ sở hữu.",
-      "orderIndex": 177,
+      "orderIndex": 160,
       "options": [
         {
           "label": "A",
@@ -5710,7 +5166,7 @@
       "level": "N5",
       "questionText": "A: これは （＿＿＿） の こうちゃですか。てんいん: ベトナムの こうちゃです。 (Chọn đáp án thích hợp điền vào chỗ trống)",
       "explanation": "Trả lời là 'viえtnam' (địa だnh) nên câu hỏi là 'Ở đâu' (どこ).",
-      "orderIndex": 178,
+      "orderIndex": 161,
       "options": [
         {
           "label": "A",
@@ -5740,41 +5196,9 @@
       "type": "standalone",
       "topic": "vocabulary",
       "level": "N5",
-      "questionText": "A: これは （＿＿＿） の　ノートですか。B: わたしの　ノートです. (Chọn đáp án thích hợp điền vào chỗ trống)",
-      "explanation": "Hỏi chủ sở hữu.",
-      "orderIndex": 179,
-      "options": [
-        {
-          "label": "A",
-          "text": "なん",
-          "isCorrect": false
-        },
-        {
-          "label": "B",
-          "text": "どこ",
-          "isCorrect": false
-        },
-        {
-          "label": "C",
-          "text": "だれ",
-          "isCorrect": true
-        },
-        {
-          "label": "D",
-          "text": "どちら",
-          "isCorrect": false
-        }
-      ]
-    },
-    {
-      "id": 180,
-      "passageId": null,
-      "type": "standalone",
-      "topic": "vocabulary",
-      "level": "N5",
       "questionText": "A: これは （＿＿＿） の　ノートですか。B: わたしの　ノートです。 (Chọn đáp án thích hợp điền vào chỗ trống)",
       "explanation": "Hỏi chủ sở hữu.",
-      "orderIndex": 180,
+      "orderIndex": 162,
       "options": [
         {
           "label": "A",
@@ -5804,41 +5228,9 @@
       "type": "standalone",
       "topic": "vocabulary",
       "level": "N5",
-      "questionText": "A: これは　（＿＿＿）ですか. B: 100円です. (Chọn đáp án thích hợp điền vào chỗ trống)",
+      "questionText": "A: これは　（＿＿＿）ですか. B: 100円です。 (Chọn đáp án thích hợp điền vào chỗ trống)",
       "explanation": "Hỏi giá tiền dùng 'いくら'.",
-      "orderIndex": 181,
-      "options": [
-        {
-          "label": "A",
-          "text": "いくら",
-          "isCorrect": true
-        },
-        {
-          "label": "B",
-          "text": "どこ",
-          "isCorrect": false
-        },
-        {
-          "label": "C",
-          "text": "いつ",
-          "isCorrect": false
-        },
-        {
-          "label": "D",
-          "text": "なん",
-          "isCorrect": false
-        }
-      ]
-    },
-    {
-      "id": 182,
-      "passageId": null,
-      "type": "standalone",
-      "topic": "vocabulary",
-      "level": "N5",
-      "questionText": "A: これは　（＿＿＿）ですか。B: 100円です。 (Chọn đáp án thích hợp điền vào chỗ trống)",
-      "explanation": "Trả lời là giá tiền (100円) nên câu hỏi phải dùng 'いくら' (ばお nhiêu tiền).",
-      "orderIndex": 182,
+      "orderIndex": 163,
       "options": [
         {
           "label": "A",
@@ -5868,9 +5260,9 @@
       "type": "standalone",
       "topic": "vocabulary",
       "level": "N5",
-      "questionText": "A: じむしょの （＿＿＿）？B: 8時からです. (Chọn đáp án thích hợp điền vào chỗ trống)",
+      "questionText": "A: じむしょの （＿＿＿）？B: 8時からです。 (Chọn đáp án thích hợp điền vào chỗ trống)",
       "explanation": "Câu trả lời chỉ mốc thời gian bắt đầu (8時) nên cần nghi vấn từ 'mấy giờ' (なんじ).",
-      "orderIndex": 183,
+      "orderIndex": 164,
       "options": [
         {
           "label": "A",
@@ -5902,7 +5294,7 @@
       "level": "N5",
       "questionText": "A: じむしょの （＿＿＿）？B: 8時からです。 (Chọn đáp án thích hợp điền vào chỗ trống)",
       "explanation": "Câu trả lời về giờ giấc yêu cầu nghi vấn từ 'mấy giờ' (なんじ).",
-      "orderIndex": 184,
+      "orderIndex": 165,
       "options": [
         {
           "label": "A",
@@ -5923,38 +5315,6 @@
           "label": "D",
           "text": "なんじ",
           "isCorrect": true
-        }
-      ]
-    },
-    {
-      "id": 185,
-      "passageId": null,
-      "type": "standalone",
-      "topic": "vocabulary",
-      "level": "N5",
-      "questionText": "A: じむしょの （＿＿＿）？B: 8時からです。 (Chọn đáp án thích hợp điền vào chỗ trống)",
-      "explanation": "Trả lời giờ giấc yêu cầu nghi vấn từ 'mấy giờ' (なんじ).",
-      "orderIndex": 185,
-      "options": [
-        {
-          "label": "A",
-          "text": "どちら",
-          "isCorrect": false
-        },
-        {
-          "label": "B",
-          "text": "どこから",
-          "isCorrect": false
-        },
-        {
-          "label": "C",
-          "text": "なんじ",
-          "isCorrect": true
-        },
-        {
-          "label": "D",
-          "text": "なに",
-          "isCorrect": false
         }
       ]
     },
@@ -5966,39 +5326,7 @@
       "level": "N5",
       "questionText": "A: じむしょは （＿＿＿） ですか。B: 2階です。 (Chọn đáp án thích hợp điền vào chỗ trống)",
       "explanation": "Hỏi về vị trí địa điểm (tầng 2) dùng nghi vấn từ 'ở đâu' (どこ).",
-      "orderIndex": 186,
-      "options": [
-        {
-          "label": "A",
-          "text": "しゃいん",
-          "isCorrect": false
-        },
-        {
-          "label": "B",
-          "text": "なに",
-          "isCorrect": false
-        },
-        {
-          "label": "C",
-          "text": "どこ",
-          "isCorrect": true
-        },
-        {
-          "label": "D",
-          "text": "に",
-          "isCorrect": false
-        }
-      ]
-    },
-    {
-      "id": 187,
-      "passageId": null,
-      "type": "standalone",
-      "topic": "vocabulary",
-      "level": "N5",
-      "questionText": "A: じむしょは （＿＿＿） ですか。B: 2階です. (Chọn đáp án thích hợp điền vào chỗ trống)",
-      "explanation": "Hỏi vị trí địa điểm.",
-      "orderIndex": 187,
+      "orderIndex": 166,
       "options": [
         {
           "label": "A",
@@ -6028,9 +5356,9 @@
       "type": "standalone",
       "topic": "vocabulary",
       "level": "N5",
-      "questionText": "A: じむしょは （＿＿＿） ですか。B: 2階です. (Chọn đáp án thích hợp điền vào chỗ trống)",
+      "questionText": "A: じむしょは （＿＿＿） ですか。B: 2階です。 (Chọn đáp án thích hợp điền vào chỗ trống)",
       "explanation": "'どちら' là cách hỏi vị trí lịch sự, phù hợp khi hỏi về tầng trong tòa nhà.",
-      "orderIndex": 188,
+      "orderIndex": 167,
       "options": [
         {
           "label": "A",
@@ -6060,9 +5388,9 @@
       "type": "standalone",
       "topic": "vocabulary",
       "level": "N5",
-      "questionText": "A: じむしょは　ビルの （＿＿＿）ですか。B: 2階です. (Chọn đáp án thích hợp điền vào chỗ trống)",
+      "questionText": "A: じむしょは　ビルの （＿＿＿）ですか。B: 2階です。 (Chọn đáp án thích hợp điền vào chỗ trống)",
       "explanation": "Hỏi vị trí lịch sự dùng 'どちら'.",
-      "orderIndex": 189,
+      "orderIndex": 168,
       "options": [
         {
           "label": "A",
@@ -6094,7 +5422,7 @@
       "level": "N5",
       "questionText": "A: すみません、カメラは いくらですか。てんいん: （＿＿＿）。 (Chọn đáp án thích hợp điền vào chỗ trống)",
       "explanation": "Hỏi giá tiền (いくら) nên đáp án phải là đơn vị tiền tệ (2800円).",
-      "orderIndex": 190,
+      "orderIndex": 169,
       "options": [
         {
           "label": "A",
@@ -6119,110 +5447,14 @@
       ]
     },
     {
-      "id": 191,
-      "passageId": null,
-      "type": "standalone",
-      "topic": "vocabulary",
-      "level": "N5",
-      "questionText": "A: すみません、（＿＿＿）は　どこですか。B: 1階です。 (Chọn đáp án thích hợp điền vào chỗ trống)",
-      "explanation": "Trả lời về vị trí (1階 - tầng 1) nên câu hỏi phải hỏi về một địa điểm (じむしょ - văn phòng).",
-      "orderIndex": 191,
-      "options": [
-        {
-          "label": "A",
-          "text": "じむしょ",
-          "isCorrect": true
-        },
-        {
-          "label": "B",
-          "text": "だれ",
-          "isCorrect": false
-        },
-        {
-          "label": "C",
-          "text": "なん",
-          "isCorrect": false
-        },
-        {
-          "label": "D",
-          "text": "いつ",
-          "isCorrect": false
-        }
-      ]
-    },
-    {
       "id": 192,
       "passageId": null,
       "type": "standalone",
       "topic": "vocabulary",
       "level": "N5",
-      "questionText": "A: それは （＿＿＿） ですか. B: 日本語です. (Chọn đáp án thích hợp điền vào chỗ trống)",
+      "questionText": "A: それは （＿＿＿） ですか. B: 日本語です。 (Chọn đáp án thích hợp điền vào chỗ trống)",
       "explanation": "Hỏi vật đó là gì.",
-      "orderIndex": 192,
-      "options": [
-        {
-          "label": "A",
-          "text": "なん",
-          "isCorrect": true
-        },
-        {
-          "label": "B",
-          "text": "なんじ",
-          "isCorrect": false
-        },
-        {
-          "label": "C",
-          "text": "いつの",
-          "isCorrect": false
-        },
-        {
-          "label": "D",
-          "text": "いつ",
-          "isCorrect": false
-        }
-      ]
-    },
-    {
-      "id": 193,
-      "passageId": null,
-      "type": "standalone",
-      "topic": "vocabulary",
-      "level": "N5",
-      "questionText": "A: それは （＿＿＿） ですか。B: 日本語です. (Chọn đáp án thích hợp điền vào chỗ trống)",
-      "explanation": "Hỏi về nội dung/vật thể dùng 'なん'.",
-      "orderIndex": 193,
-      "options": [
-        {
-          "label": "A",
-          "text": "なん",
-          "isCorrect": true
-        },
-        {
-          "label": "B",
-          "text": "なんじ",
-          "isCorrect": false
-        },
-        {
-          "label": "C",
-          "text": "いつの",
-          "isCorrect": false
-        },
-        {
-          "label": "D",
-          "text": "いつ",
-          "isCorrect": false
-        }
-      ]
-    },
-    {
-      "id": 194,
-      "passageId": null,
-      "type": "standalone",
-      "topic": "vocabulary",
-      "level": "N5",
-      "questionText": "A: それは （＿＿＿） ですか。B: 日本語です。 (Chọn đáp án thích hợp điền vào chỗ trống)",
-      "explanation": "Câu trả lời chỉ đồ vật/ngôn ngữ (tiếng nhật) yêu cầu nghi vấn từ 'cái gì' (なん).",
-      "orderIndex": 194,
+      "orderIndex": 170,
       "options": [
         {
           "label": "A",
@@ -6254,7 +5486,7 @@
       "level": "N5",
       "questionText": "A: 毎日、 （＿＿＿）に　学校へ　来ますか。B: 8時に　来ます。 (Chọn đáp án thích hợp điền vào chỗ trống)",
       "explanation": "Câu trả lời chỉ mốc thời gian cụ thể (8時), nên câu hỏi dùng nghi vấn từ 'mấy giờ' (何時).",
-      "orderIndex": 195,
+      "orderIndex": 171,
       "options": [
         {
           "label": "A",
@@ -6286,7 +5518,7 @@
       "level": "N5",
       "questionText": "A: （＿＿＿）は　どちらですか。B: ベトナムです。 (Chọn đáp án thích hợp điền vào chỗ trống)",
       "explanation": "Hỏi quốc gia lịch sự dùng 'おくに'.",
-      "orderIndex": 196,
+      "orderIndex": 172,
       "options": [
         {
           "label": "A",
@@ -6318,39 +5550,7 @@
       "level": "N5",
       "questionText": "A: （＿＿＿）は　何時ですか。B: 8時です。 (Chọn đáp án thích hợp điền vào chỗ trống)",
       "explanation": "Hỏi giờ hiện tại dùng 'いま'.",
-      "orderIndex": 197,
-      "options": [
-        {
-          "label": "A",
-          "text": "じゅうじ",
-          "isCorrect": false
-        },
-        {
-          "label": "B",
-          "text": "おなまえは",
-          "isCorrect": false
-        },
-        {
-          "label": "C",
-          "text": "これ",
-          "isCorrect": false
-        },
-        {
-          "label": "D",
-          "text": "いま",
-          "isCorrect": true
-        }
-      ]
-    },
-    {
-      "id": 198,
-      "passageId": null,
-      "type": "standalone",
-      "topic": "vocabulary",
-      "level": "N5",
-      "questionText": "A: （＿＿＿）は　何時ですか。B: 8時です. (Chọn đáp án thích hợp điền vào chỗ trống)",
-      "explanation": "Dùng 'いま' (bây giờ) để hỏi giờ hiện tại.",
-      "orderIndex": 198,
+      "orderIndex": 173,
       "options": [
         {
           "label": "A",
@@ -6382,7 +5582,7 @@
       "level": "N5",
       "questionText": "A:これは （＿＿＿） の さいふですか。B:あ、それは 私の さいふです。 (Chọn đáp án thích hợp điền vào chỗ trống)",
       "explanation": "Câu trả lời là 'của tôi' (私の) nên câu hỏi phải dùng 'của あい' (だれの).",
-      "orderIndex": 199,
+      "orderIndex": 174,
       "options": [
         {
           "label": "A",
@@ -6414,7 +5614,7 @@
       "level": "N5",
       "questionText": "あさって （＿＿＿）で　たべますか。 (Chọn đáp án thích hợp điền vào chỗ trống)",
       "explanation": "Dựa vào trợ từ 'で' chỉ địa điểm.",
-      "orderIndex": 200,
+      "orderIndex": 175,
       "options": [
         {
           "label": "A",
@@ -6444,41 +5644,9 @@
       "type": "standalone",
       "topic": "vocabulary",
       "level": "N5",
-      "questionText": "あさって （＿＿＿）に　おきますか. (Chọn đáp án thích hợp điền vào chỗ trống)",
-      "explanation": "Hỏi giờ thức dậy.",
-      "orderIndex": 201,
-      "options": [
-        {
-          "label": "A",
-          "text": "なん",
-          "isCorrect": false
-        },
-        {
-          "label": "B",
-          "text": "なんじ",
-          "isCorrect": true
-        },
-        {
-          "label": "C",
-          "text": "いつ",
-          "isCorrect": false
-        },
-        {
-          "label": "D",
-          "text": "どこ",
-          "isCorrect": false
-        }
-      ]
-    },
-    {
-      "id": 202,
-      "passageId": null,
-      "type": "standalone",
-      "topic": "vocabulary",
-      "level": "N5",
       "questionText": "あさって （＿＿＿）に　おきますか。 (Chọn đáp án thích hợp điền vào chỗ trống)",
       "explanation": "Hỏi giờ thức dậy.",
-      "orderIndex": 202,
+      "orderIndex": 176,
       "options": [
         {
           "label": "A",
@@ -6510,7 +5678,7 @@
       "level": "N5",
       "questionText": "田中さんは　（＿＿＿）　ですか。B: いいえ、ワンさんです。 (Chọn đáp án thích hợp điền vào chỗ trống)",
       "explanation": "Câu hỏi xác nhận danh tính một người, 'どなた' là cách hỏi lịch sự.",
-      "orderIndex": 203,
+      "orderIndex": 177,
       "options": [
         {
           "label": "A",
@@ -6542,7 +5710,7 @@
       "level": "N5",
       "questionText": "A: 4月10日は おはなみです。B: えっ！おはなみ？ （＿＿＿）。A: さくらをみます. おべんとうを たべます。 (Chọn đáp án thích hợp điền vào chỗ trống)",
       "explanation": "Câu trả lời mô tả hành động (ngắm ほあ, ăn cơm hộp) nên câu hỏi phù hợp là 'Làm cái gì?'.",
-      "orderIndex": 204,
+      "orderIndex": 178,
       "options": [
         {
           "label": "A",
@@ -6574,7 +5742,7 @@
       "level": "N5",
       "questionText": "あまり　（＿＿＿）　テレビを　みません。 (Chọn đáp án thích hợp điền vào chỗ trống)",
       "explanation": "Cấu trúc 'ぜんぜん ... ません' nghĩa là hoàn toàn không làm gì đó.",
-      "orderIndex": 205,
+      "orderIndex": 179,
       "options": [
         {
           "label": "A",
@@ -6606,7 +5774,7 @@
       "level": "N5",
       "questionText": "A: きのう、やすみましたか。B: （＿＿＿）、やすみませんでした。 (Chọn đáp án thích hợp điền vào chỗ trống)",
       "explanation": "Khi phủ định một hành động trong câu hỏi Có/Không, ta dùng 'いいえ' kết hợp với động từ thể phủ định.",
-      "orderIndex": 206,
+      "orderIndex": 180,
       "options": [
         {
           "label": "A",
@@ -6638,7 +5806,7 @@
       "level": "N5",
       "questionText": "A: キムさんは かいしゃいんですか。キム: いいえ、（＿＿＿）。 (Chọn đáp án thích hợp điền vào chỗ trống)",
       "explanation": "Phủ định của danh từ 'かいしゃいん' (nhân viên công ty) là 'かいしゃいんじゃありません'.",
-      "orderIndex": 207,
+      "orderIndex": 181,
       "options": [
         {
           "label": "A",
@@ -6670,7 +5838,7 @@
       "level": "N5",
       "questionText": "A: 昨日は　休みでしたか。B: （＿＿＿）、休みませんでした。 (Chọn đáp án thích hợp điền vào chỗ trống)",
       "explanation": "Câu trả lời phủ định hành động trong quá khứ: 'いいえ' + 'Vmaせんでした'.",
-      "orderIndex": 208,
+      "orderIndex": 182,
       "options": [
         {
           "label": "A",
@@ -6702,7 +5870,7 @@
       "level": "N5",
       "questionText": "A: まいにち、あさごはんを たべますか。B: いいえ、私は、あさ、＿＿＿＿＿。 (Chọn đáp án thích hợp điền vào chỗ trống)",
       "explanation": "Khi trả lời phủ định hoàn toàn chiょ câu hỏi 'có ăn không', ta dùng cấu trúc 'nghi vấn từ +  mo + phủ định'.",
-      "orderIndex": 209,
+      "orderIndex": 183,
       "options": [
         {
           "label": "A",
@@ -6734,7 +5902,7 @@
       "level": "N5",
       "questionText": "A: 「昨日休みでしたか」 B: （＿＿＿） (Chọn đáp án thích hợp điền vào chỗ trống)",
       "explanation": "Trả lời phủ định chiょ câu hỏi về trạng thái trong quá khứ.",
-      "orderIndex": 210,
+      "orderIndex": 184,
       "options": [
         {
           "label": "A",
@@ -6766,7 +5934,7 @@
       "level": "N5",
       "questionText": "A: きのう、やすみましたか。B: いいえ、（＿＿＿）。 (Chọn đáp án thích hợp điền vào chỗ trống)",
       "explanation": "Phủ định của động từ quá khứ là '～ませんでした'.",
-      "orderIndex": 211,
+      "orderIndex": 185,
       "options": [
         {
           "label": "A",
@@ -6798,39 +5966,7 @@
       "level": "N5",
       "questionText": "A: 昨日は　休みでしたか. B: いいえ、（＿＿＿）。 (Chọn đáp án thích hợp điền vào chỗ trống)",
       "explanation": "Phủ định quá khứ danh từ.",
-      "orderIndex": 212,
-      "options": [
-        {
-          "label": "A",
-          "text": "休みませんでした",
-          "isCorrect": false
-        },
-        {
-          "label": "B",
-          "text": "休みじゃありませんでした",
-          "isCorrect": true
-        },
-        {
-          "label": "C",
-          "text": "休みだ",
-          "isCorrect": false
-        },
-        {
-          "label": "D",
-          "text": "休みじゃありません",
-          "isCorrect": false
-        }
-      ]
-    },
-    {
-      "id": 213,
-      "passageId": null,
-      "type": "standalone",
-      "topic": "vocabulary",
-      "level": "N5",
-      "questionText": "A: 昨日は　休みでしたか。B: いいえ、（＿＿＿）。 (Chọn đáp án thích hợp điền vào chỗ trống)",
-      "explanation": "Phủ định quá khứ chiょ danh từ.",
-      "orderIndex": 213,
+      "orderIndex": 186,
       "options": [
         {
           "label": "A",
@@ -6862,7 +5998,7 @@
       "level": "N5",
       "questionText": "A: 昨日は　休みでしたか。B: （＿＿＿） (Chọn đáp án thích hợp điền vào chỗ trống)",
       "explanation": "Trả lời phủ định chiょ một trạng thái trong quá khứ.",
-      "orderIndex": 214,
+      "orderIndex": 187,
       "options": [
         {
           "label": "A",
@@ -6894,39 +6030,7 @@
       "level": "N5",
       "questionText": "A: おととい、なにを　しましたか. B: （＿＿＿）。 (Chọn đáp án thích hợp điền vào chỗ trống)",
       "explanation": "Phủ định quá khứ.",
-      "orderIndex": 215,
-      "options": [
-        {
-          "label": "A",
-          "text": "なにもしません",
-          "isCorrect": false
-        },
-        {
-          "label": "B",
-          "text": "なにもしませんでした",
-          "isCorrect": true
-        },
-        {
-          "label": "C",
-          "text": "なにをしません",
-          "isCorrect": false
-        },
-        {
-          "label": "D",
-          "text": "なにをしませんでした",
-          "isCorrect": false
-        }
-      ]
-    },
-    {
-      "id": 216,
-      "passageId": null,
-      "type": "standalone",
-      "topic": "vocabulary",
-      "level": "N5",
-      "questionText": "A: おととい、なにを　しましたか。B: （＿＿＿）。 (Chọn đáp án thích hợp điền vào chỗ trống)",
-      "explanation": "Phủ định quá khứ hoàn toàn.",
-      "orderIndex": 216,
+      "orderIndex": 188,
       "options": [
         {
           "label": "A",
@@ -6958,7 +6062,7 @@
       "level": "N5",
       "questionText": "A: おととい、なにを　しましたか。B: （＿＿＿）。 (Chọn đáp án thích hợp điền vào chỗ trống)",
       "explanation": "Phủ định quá khứ hoàn toàn.",
-      "orderIndex": 217,
+      "orderIndex": 189,
       "options": [
         {
           "label": "A",
@@ -6990,7 +6094,7 @@
       "level": "N5",
       "questionText": "A: きのう、なにを　しましたか。B: （＿＿＿）。 (Chọn đáp án thích hợp điền vào chỗ trống)",
       "explanation": "Phủ định hoàn toàn trong quá khứ.",
-      "orderIndex": 218,
+      "orderIndex": 190,
       "options": [
         {
           "label": "A",
@@ -7020,41 +6124,9 @@
       "type": "standalone",
       "topic": "vocabulary",
       "level": "N5",
-      "questionText": "A: 昨日は どこへ （＿＿＿）か。B: どこへも　いきませんでした. (Chọn đáp án thích hợp điền vào chỗ trống)",
-      "explanation": "Câu hỏi hành động quá khứ.",
-      "orderIndex": 219,
-      "options": [
-        {
-          "label": "A",
-          "text": "いきます",
-          "isCorrect": false
-        },
-        {
-          "label": "B",
-          "text": "いきません",
-          "isCorrect": false
-        },
-        {
-          "label": "C",
-          "text": "いきました",
-          "isCorrect": true
-        },
-        {
-          "label": "D",
-          "text": "いきませんでした",
-          "isCorrect": false
-        }
-      ]
-    },
-    {
-      "id": 220,
-      "passageId": null,
-      "type": "standalone",
-      "topic": "vocabulary",
-      "level": "N5",
       "questionText": "A: 昨日は どこへ （＿＿＿）か。B: どこへも　いきませんでした。 (Chọn đáp án thích hợp điền vào chỗ trống)",
       "explanation": "Câu hỏi hành động quá khứ.",
-      "orderIndex": 220,
+      "orderIndex": 191,
       "options": [
         {
           "label": "A",
@@ -7086,7 +6158,7 @@
       "level": "N5",
       "questionText": "昨日　どこへ　（＿＿＿）か。 (Chọn đáp án thích hợp điền vào chỗ trống)",
       "explanation": "Câu hỏi về hành động trong quá khứ (昨日) dùng thể 'ましたか'.",
-      "orderIndex": 221,
+      "orderIndex": 192,
       "options": [
         {
           "label": "A",
@@ -7118,7 +6190,7 @@
       "level": "N5",
       "questionText": "ベトナムは　タイより　（＿＿＿）　ですか。 (Chọn trợ từ thích hợp điền vào chỗ trống)",
       "explanation": "Cấu trúc so sánh hơn.",
-      "orderIndex": 222,
+      "orderIndex": 193,
       "options": [
         {
           "label": "A",
@@ -7150,7 +6222,7 @@
       "level": "N5",
       "questionText": "A: 家族(かぞく)の中で、だれが　一番(いちばん)　背(せ)が高いですか。B: （＿＿＿）が　一番　背が高いです。 (Chọn đáp án thích hợp điền vào chỗ trống)",
       "explanation": "So sánh trong gia đình.",
-      "orderIndex": 223,
+      "orderIndex": 194,
       "options": [
         {
           "label": "A",
@@ -7182,7 +6254,7 @@
       "level": "N5",
       "questionText": "A: これは　だれの　カメラですか。B: （＿＿＿）のです。 (Chọn đáp án thích hợp điền vào chỗ trống)",
       "explanation": "Vì đã có 'の' phía sau nên chỉ cần điền danh từ 'わたし'.",
-      "orderIndex": 224,
+      "orderIndex": 195,
       "options": [
         {
           "label": "A",
@@ -7214,7 +6286,7 @@
       "level": "N5",
       "questionText": "A: その　ペンは　だれの　ですか。B: （＿＿＿） です。 (Chọn đáp án thích hợp điền vào chỗ trống)",
       "explanation": "Câu hỏi 'của あい' trả lời bằng đại từ sở hữu 'của tôi' (わたしの).",
-      "orderIndex": 225,
+      "orderIndex": 196,
       "options": [
         {
           "label": "A",
@@ -7246,7 +6318,7 @@
       "level": "N5",
       "questionText": "A: その　ペンは　だれの　ですか。B: （＿＿＿）。 (Chọn đáp án thích hợp điền vào chỗ trống)",
       "explanation": "Câu hỏi 'của あい' (だれの) trả lời bằng đại từ sở hữu 'của tôi' (わたしのです).",
-      "orderIndex": 226,
+      "orderIndex": 197,
       "options": [
         {
           "label": "A",
@@ -7276,73 +6348,9 @@
       "type": "standalone",
       "topic": "vocabulary",
       "level": "N5",
-      "questionText": "A: 昨日は　いいおてんきでしたか. B: （＿＿＿）. (Chọn đáp án thích hợp điền vào chỗ trống)",
+      "questionText": "A: 昨日は　いいおてんきでしたか. B: （＿＿＿）。 (Chọn đáp án thích hợp điền vào chỗ trống)",
       "explanation": "Trả lời khẳng định về tính chất quá khứ.",
-      "orderIndex": 227,
-      "options": [
-        {
-          "label": "A",
-          "text": "はい、よかったです。",
-          "isCorrect": true
-        },
-        {
-          "label": "B",
-          "text": "いいえ、よくなかったです。",
-          "isCorrect": false
-        },
-        {
-          "label": "C",
-          "text": "はい",
-          "isCorrect": false
-        },
-        {
-          "label": "D",
-          "text": "いいえ",
-          "isCorrect": false
-        }
-      ]
-    },
-    {
-      "id": 228,
-      "passageId": null,
-      "type": "standalone",
-      "topic": "vocabulary",
-      "level": "N5",
-      "questionText": "A: 昨日は　いいおてんきでしたか。B: （＿＿＿）。 (Chọn đáp án thích hợp điền vào chỗ trống)",
-      "explanation": "Câu trả lời khẳng định về tính chất trong quá khứ.",
-      "orderIndex": 228,
-      "options": [
-        {
-          "label": "A",
-          "text": "はい、よかったです。",
-          "isCorrect": true
-        },
-        {
-          "label": "B",
-          "text": "いいえ、よくなかったです。",
-          "isCorrect": false
-        },
-        {
-          "label": "C",
-          "text": "はい",
-          "isCorrect": false
-        },
-        {
-          "label": "D",
-          "text": "いいえ",
-          "isCorrect": false
-        }
-      ]
-    },
-    {
-      "id": 229,
-      "passageId": null,
-      "type": "standalone",
-      "topic": "vocabulary",
-      "level": "N5",
-      "questionText": "A: 昨日は　いいおてんきでしたか。B: （＿＿＿）。 (Chọn đáp án thích hợp điền vào chỗ trống)",
-      "explanation": "Câu hỏi về tính từ đuôi 'i' trong quá khứ (でしたか), trả lời khẳng định dùng 'はい, [tính từ] + かったです'.",
-      "orderIndex": 229,
+      "orderIndex": 198,
       "options": [
         {
           "label": "A",
@@ -7374,7 +6382,7 @@
       "level": "N5",
       "questionText": "A: [辞書] は いくらですか。B: 300円です。 (Trợ từ nào phù hợp điền vào sau từ trong ngoặc [ ]?)",
       "explanation": "Trợ từ 'は' dùng để xác định chủ đề của câu hỏi.",
-      "orderIndex": 230,
+      "orderIndex": 199,
       "options": [
         {
           "label": "A",
@@ -7406,7 +6414,7 @@
       "level": "N5",
       "questionText": "A: [辞書] は （＿＿＿） ありません。 (Trợ từ nào phù hợp điền vào chỗ trống?)",
       "explanation": "Dùng trợ từ 'は' để nhấn mạnh chủ đề phủ định (không có từ điển).",
-      "orderIndex": 231,
+      "orderIndex": 200,
       "options": [
         {
           "label": "A",
@@ -7436,9 +6444,9 @@
       "type": "standalone",
       "topic": "vocabulary",
       "level": "N5",
-      "questionText": "A: あの人は　だれですか。B: あの人は　IMC （＿＿＿）　ミラーさんです. (Chọn trợ từ thích hợp điền vào chỗ trống)",
+      "questionText": "A: あの人は　だれですか。B: あの人は　IMC （＿＿＿）　ミラーさんです。 (Chọn trợ từ thích hợp điền vào chỗ trống)",
       "explanation": "Trợ từ 'の' dùng để nối hai danh từ, chỉ sự thuộc về (みっlえr của công ty imc).",
-      "orderIndex": 232,
+      "orderIndex": 201,
       "options": [
         {
           "label": "A",
@@ -7470,7 +6478,7 @@
       "level": "N5",
       "questionText": "A: さかなは えいご （＿＿＿） なんですか。B: 「fish」です。 (Chọn đáp án thích hợp điền vào chỗ trống)",
       "explanation": "Trợ từ 'で' dùng để chỉ phương thức, ngôn ngữ (bằng tiếng あnh).",
-      "orderIndex": 233,
+      "orderIndex": 202,
       "options": [
         {
           "label": "A",
@@ -7502,7 +6510,7 @@
       "level": "N5",
       "questionText": "A: レストラン （＿＿＿） どこです （＿＿＿）。 (Chọn đáp án thích hợp điền vào chỗ trống)",
       "explanation": "Cấu trúc câu hỏi vị trí: 'だnh từ + は + どこ + ですか'.",
-      "orderIndex": 234,
+      "orderIndex": 203,
       "options": [
         {
           "label": "A",
@@ -7534,7 +6542,7 @@
       "level": "N5",
       "questionText": "あさ、何時 （＿＿＿） 大学(だいがく)へ きますか。 (Chọn đáp án thích hợp điền vào chỗ trống)",
       "explanation": "Trợ từ 'に' đứng sau danh từ chỉ thời gian xác định để chỉ thời điểm thực hiện hành động.",
-      "orderIndex": 235,
+      "orderIndex": 204,
       "options": [
         {
           "label": "A",
@@ -7566,7 +6574,7 @@
       "level": "N5",
       "questionText": "これは オーストラリア （＿＿＿） りんごです。 (Chọn đáp án thích hợp điền vào chỗ trống)",
       "explanation": "Sử dụng trợ từ 'の' để nối hai danh từ, chỉ nguồn gốc (táo của Úc).",
-      "orderIndex": 236,
+      "orderIndex": 205,
       "options": [
         {
           "label": "A",
@@ -7598,7 +6606,7 @@
       "level": "N5",
       "questionText": "しゅみ （＿＿＿） スポーツ （＿＿＿） りょこうです。 (Chọn đáp án thích hợp điền vào chỗ trống)",
       "explanation": "'Sở thích của tôi là A và B' -> 'しゅみは A と B です'.",
-      "orderIndex": 237,
+      "orderIndex": 206,
       "options": [
         {
           "label": "A",
@@ -7628,9 +6636,9 @@
       "type": "standalone",
       "topic": "vocabulary",
       "level": "N5",
-      "questionText": "としょかん （＿＿＿） いきます. (Chọn trợ từ thích hợp điền vào chỗ trống)",
+      "questionText": "としょかん （＿＿＿） いきます。 (Chọn trợ từ thích hợp điền vào chỗ trống)",
       "explanation": "'へ' chỉ hướng đi.",
-      "orderIndex": 238,
+      "orderIndex": 207,
       "options": [
         {
           "label": "A",
@@ -7660,73 +6668,9 @@
       "type": "standalone",
       "topic": "vocabulary",
       "level": "N5",
-      "questionText": "としょかん （＿＿＿） いきます. としょかん （＿＿＿） 日本語を　べんきょうします. (Chọn trợ từ thích hợp điền vào chỗ trống)",
+      "questionText": "としょかん （＿＿＿） いきます. としょかん （＿＿＿） 日本語を　べんきょうします。 (Chọn trợ từ thích hợp điền vào chỗ trống)",
       "explanation": "'へ' chỉ hướng, 'で' chỉ nơi hành động xảy ra.",
-      "orderIndex": 239,
-      "options": [
-        {
-          "label": "A",
-          "text": "へ／で",
-          "isCorrect": true
-        },
-        {
-          "label": "B",
-          "text": "で／へ",
-          "isCorrect": false
-        },
-        {
-          "label": "C",
-          "text": "を／へ",
-          "isCorrect": false
-        },
-        {
-          "label": "D",
-          "text": "へ／を",
-          "isCorrect": false
-        }
-      ]
-    },
-    {
-      "id": 240,
-      "passageId": null,
-      "type": "standalone",
-      "topic": "vocabulary",
-      "level": "N5",
-      "questionText": "としょかん （＿＿＿） いきます。 (Chọn trợ từ thích hợp điền vào chỗ trống)",
-      "explanation": "Trợ từ 'へ' chỉ phương hướng chuyển động.",
-      "orderIndex": 240,
-      "options": [
-        {
-          "label": "A",
-          "text": "へ",
-          "isCorrect": true
-        },
-        {
-          "label": "B",
-          "text": "で",
-          "isCorrect": false
-        },
-        {
-          "label": "C",
-          "text": "を",
-          "isCorrect": false
-        },
-        {
-          "label": "D",
-          "text": "に",
-          "isCorrect": false
-        }
-      ]
-    },
-    {
-      "id": 241,
-      "passageId": null,
-      "type": "standalone",
-      "topic": "vocabulary",
-      "level": "N5",
-      "questionText": "としょかん （＿＿＿） いきます。としょかん （＿＿＿） 日本語を　べんきょうします。 (Chọn trợ từ thích hợp điền vào chỗ trống)",
-      "explanation": "'へ' chỉ hướng, 'で' chỉ nơi hành động xảy ra.",
-      "orderIndex": 241,
+      "orderIndex": 208,
       "options": [
         {
           "label": "A",
@@ -7758,7 +6702,7 @@
       "level": "N5",
       "questionText": "まいにち、何時 （＿＿＿） 何時 （＿＿＿） べんきょうしますか。 (Chọn đáp án thích hợp điền vào chỗ trống)",
       "explanation": "Cấu trúc 'から...まで' nghĩa là 'từ... đến...'.",
-      "orderIndex": 242,
+      "orderIndex": 209,
       "options": [
         {
           "label": "A",
@@ -7790,7 +6734,7 @@
       "level": "N5",
       "questionText": "サントスさんは　ブラジル （＿＿＿） きました。 (Chọn trợ từ thích hợp điền vào chỗ trống)",
       "explanation": "Trợ từ 'から' chỉ điểm xuất phát (đến từ).",
-      "orderIndex": 243,
+      "orderIndex": 210,
       "options": [
         {
           "label": "A",
@@ -7822,7 +6766,7 @@
       "level": "N5",
       "questionText": "マリアさんは　20歳 （＿＿＿） 21歳ですか。 (Chọn trợ từ thích hợp điền vào chỗ trống)",
       "explanation": "Trợ từ 'か' dùng trong câu hỏi lựa chọn (A hay là B).",
-      "orderIndex": 244,
+      "orderIndex": 211,
       "options": [
         {
           "label": "A",
@@ -7852,73 +6796,9 @@
       "type": "standalone",
       "topic": "vocabulary",
       "level": "N5",
-      "questionText": "ミラーさんは　アメリカ人です. サントスさん （＿＿＿） アメリカ人です. (Chọn trợ từ thích hợp điền vào chỗ trống)",
+      "questionText": "ミラーさんは　アメリカ人です. サントスさん （＿＿＿） アメリカ人です。 (Chọn trợ từ thích hợp điền vào chỗ trống)",
       "explanation": "Trợ từ 'も' (cũng).",
-      "orderIndex": 245,
-      "options": [
-        {
-          "label": "A",
-          "text": "と",
-          "isCorrect": false
-        },
-        {
-          "label": "B",
-          "text": "は",
-          "isCorrect": false
-        },
-        {
-          "label": "C",
-          "text": "の",
-          "isCorrect": false
-        },
-        {
-          "label": "D",
-          "text": "も",
-          "isCorrect": true
-        }
-      ]
-    },
-    {
-      "id": 246,
-      "passageId": null,
-      "type": "standalone",
-      "topic": "vocabulary",
-      "level": "N5",
-      "questionText": "ミラーさんは　アメリカ人です。サントスさん （＿＿＿） アメリカ人です. (Chọn trợ từ thích hợp điền vào chỗ trống)",
-      "explanation": "Trợ từ 'も' biểu thị sự tương đồng.",
-      "orderIndex": 246,
-      "options": [
-        {
-          "label": "A",
-          "text": "と",
-          "isCorrect": false
-        },
-        {
-          "label": "B",
-          "text": "は",
-          "isCorrect": false
-        },
-        {
-          "label": "C",
-          "text": "の",
-          "isCorrect": false
-        },
-        {
-          "label": "D",
-          "text": "も",
-          "isCorrect": true
-        }
-      ]
-    },
-    {
-      "id": 247,
-      "passageId": null,
-      "type": "standalone",
-      "topic": "vocabulary",
-      "level": "N5",
-      "questionText": "ミラーさんは　アメリカ人です。サントスさん （＿＿＿） アメリカ人です。 (Chọn trợ từ thích hợp điền vào chỗ trống)",
-      "explanation": "Trợ từ 'も' dùng để chỉ sự tương đồng.",
-      "orderIndex": 247,
+      "orderIndex": 212,
       "options": [
         {
           "label": "A",
@@ -7950,39 +6830,7 @@
       "level": "N5",
       "questionText": "ミラーさんは　学生です。サントスさん （＿＿＿） 学生です。 (Chọn trợ từ thích hợp điền vào chỗ trống)",
       "explanation": "Trợ từ 'も' dùng để biểu thị sự tương đồng (cũng là).",
-      "orderIndex": 248,
-      "options": [
-        {
-          "label": "A",
-          "text": "と",
-          "isCorrect": false
-        },
-        {
-          "label": "B",
-          "text": "は",
-          "isCorrect": false
-        },
-        {
-          "label": "C",
-          "text": "の",
-          "isCorrect": false
-        },
-        {
-          "label": "D",
-          "text": "も",
-          "isCorrect": true
-        }
-      ]
-    },
-    {
-      "id": 249,
-      "passageId": null,
-      "type": "standalone",
-      "topic": "vocabulary",
-      "level": "N5",
-      "questionText": "ミラーさんは　学生です。サントスさん （＿＿＿） 学生です. (Chọn trợ từ thích hợp điền vào chỗ trống)",
-      "explanation": "Trợ từ 'も' biểu thị sự tương đồng.",
-      "orderIndex": 249,
+      "orderIndex": 213,
       "options": [
         {
           "label": "A",
@@ -8014,7 +6862,7 @@
       "level": "N5",
       "questionText": "私は、まいあさ （＿＿＿） 6時 （＿＿＿） おきます。 (Chọn đáp án thích hợp điền vào chỗ trống)",
       "explanation": "'まいあさ' (mỗi sáng) không đi kèm trợ từ 'に', trong khi '6時' là thời gian xác định nên cần trợ từ 'に'.",
-      "orderIndex": 250,
+      "orderIndex": 214,
       "options": [
         {
           "label": "A",
@@ -8046,7 +6894,7 @@
       "level": "N5",
       "questionText": "日曜日、うち （＿＿＿） おんがくを （＿＿＿）。 (Chọn đáp án thích hợp điền vào chỗ trống)",
       "explanation": "Dùng trợ từ 'で' để chỉ nơi chốn xảy ra hành động (tại nhà) và động từ 'ききます' (nghe nhạc).",
-      "orderIndex": 251,
+      "orderIndex": 215,
       "options": [
         {
           "label": "A",
@@ -8078,7 +6926,7 @@
       "level": "N5",
       "questionText": "A: はる （＿＿＿） なつ （＿＿＿） どちらが　すきですか。 (Chọn trợ từ thích hợp điền vào chỗ trống)",
       "explanation": "So sánh lựa chọn giữa mùa xuân và mùa hạ.",
-      "orderIndex": 252,
+      "orderIndex": 216,
       "options": [
         {
           "label": "A",
@@ -8110,7 +6958,7 @@
       "level": "N5",
       "questionText": "A: はる （＿＿＿） なつ （＿＿＿） どちらが　すきですか。 (Chọn trợ từ thích hợp điền vào chỗ trống)",
       "explanation": "Cấu trúc so sánh lựa chọn giữa hai danh từ dùng trợ từ 'と' sau mỗi đối tượng.",
-      "orderIndex": 253,
+      "orderIndex": 217,
       "options": [
         {
           "label": "A",
@@ -8142,7 +6990,7 @@
       "level": "N5",
       "questionText": "A: はる （＿＿＿） なつ （＿＿＿） どちらが　すきですか。B: なつの　ほうが　すきです。 (Chọn trợ từ thích hợp điền vào chỗ trống)",
       "explanation": "Cấu trúc so sánh lựa chọn giữa hai danh từ dùng trợ từ 'と' sau mỗi danh từ.",
-      "orderIndex": 254,
+      "orderIndex": 218,
       "options": [
         {
           "label": "A",
@@ -8167,38 +7015,6 @@
       ]
     },
     {
-      "id": 255,
-      "passageId": null,
-      "type": "standalone",
-      "topic": "vocabulary",
-      "level": "N5",
-      "questionText": "ベトナムは　タイより　（＿＿＿）　ですか。 (Chọn trợ từ thích hợp điền vào chỗ trống)",
-      "explanation": "Câu hỏi so sánh mức độ giữa hai địa danh thường sử dụng cấu trúc 'A は B より ~'.",
-      "orderIndex": 255,
-      "options": [
-        {
-          "label": "A",
-          "text": "に",
-          "isCorrect": false
-        },
-        {
-          "label": "B",
-          "text": "の",
-          "isCorrect": true
-        },
-        {
-          "label": "C",
-          "text": "が",
-          "isCorrect": false
-        },
-        {
-          "label": "D",
-          "text": "を",
-          "isCorrect": false
-        }
-      ]
-    },
-    {
       "id": 256,
       "passageId": null,
       "type": "standalone",
@@ -8206,7 +7022,7 @@
       "level": "N5",
       "questionText": "A: すみません、けいたいでんわは どこですか。てんいん: けいたいでんわは （＿＿＿） です。 (Chọn đáp án thích hợp điền vào chỗ trống)",
       "explanation": "'こちら' dùng để chỉ phương hướng/địa điểm một cách lịch sự trong cửa hàng.",
-      "orderIndex": 256,
+      "orderIndex": 219,
       "options": [
         {
           "label": "A",
@@ -8238,7 +7054,7 @@
       "level": "N5",
       "questionText": "A: じむしょは　ビルの （＿＿＿）ですか。B: 2階です。 (Chọn đáp án thích hợp điền vào chỗ trống)",
       "explanation": "Hỏi vị trí lịch sự.",
-      "orderIndex": 257,
+      "orderIndex": 220,
       "options": [
         {
           "label": "A",
@@ -8258,102 +7074,6 @@
         {
           "label": "D",
           "text": "山",
-          "isCorrect": false
-        }
-      ]
-    },
-    {
-      "id": 258,
-      "passageId": null,
-      "type": "standalone",
-      "topic": "vocabulary",
-      "level": "N5",
-      "questionText": "A: じむしょは　ビルの （＿＿＿）ですか。B: 2階です. (Chọn đáp án thích hợp điền vào chỗ trống)",
-      "explanation": "Cách hỏi vị trí lịch sự.",
-      "orderIndex": 258,
-      "options": [
-        {
-          "label": "A",
-          "text": "どっち",
-          "isCorrect": false
-        },
-        {
-          "label": "B",
-          "text": "どこ",
-          "isCorrect": false
-        },
-        {
-          "label": "C",
-          "text": "どちら",
-          "isCorrect": true
-        },
-        {
-          "label": "D",
-          "text": "どれ",
-          "isCorrect": false
-        }
-      ]
-    },
-    {
-      "id": 259,
-      "passageId": null,
-      "type": "standalone",
-      "topic": "vocabulary",
-      "level": "N5",
-      "questionText": "A: じむしょは　ビルの （＿＿＿）ですか。B: 2階です. (Chọn đáp án thích hợp điền vào chỗ trống)",
-      "explanation": "Hỏi vị trí của văn phòng (tầng mấy) một cách lịch sự dùng 'どちら'.",
-      "orderIndex": 259,
-      "options": [
-        {
-          "label": "A",
-          "text": "なにさま",
-          "isCorrect": false
-        },
-        {
-          "label": "B",
-          "text": "どれ",
-          "isCorrect": false
-        },
-        {
-          "label": "C",
-          "text": "どちら",
-          "isCorrect": true
-        },
-        {
-          "label": "D",
-          "text": "山",
-          "isCorrect": false
-        }
-      ]
-    },
-    {
-      "id": 260,
-      "passageId": null,
-      "type": "standalone",
-      "topic": "vocabulary",
-      "level": "N5",
-      "questionText": "A: じむしょは　ビルの （＿＿＿）ですか。B: 2階です。 (Chọn đáp án thích hợp điền vào chỗ trống)",
-      "explanation": "Cách hỏi vị trí một cách trang trọng.",
-      "orderIndex": 260,
-      "options": [
-        {
-          "label": "A",
-          "text": "どっち",
-          "isCorrect": false
-        },
-        {
-          "label": "B",
-          "text": "どこ",
-          "isCorrect": false
-        },
-        {
-          "label": "C",
-          "text": "どちら",
-          "isCorrect": true
-        },
-        {
-          "label": "D",
-          "text": "どれ",
           "isCorrect": false
         }
       ]
@@ -8366,7 +7086,7 @@
       "level": "N5",
       "questionText": "A: じむしょは　ビルの （＿＿＿）？B: 2階です。 (Chọn đáp án thích hợp điền vào chỗ trống)",
       "explanation": "'どちらですか' là cách hỏi vị trí lịch sự trong tiếng Nhật.",
-      "orderIndex": 261,
+      "orderIndex": 221,
       "options": [
         {
           "label": "A",
@@ -8396,41 +7116,9 @@
       "type": "standalone",
       "topic": "vocabulary",
       "level": "N5",
-      "questionText": "A: すみません、インフォメーションは （＿＿＿）ですか。B: あちらです. (Chọn đáp án thích hợp điền vào chỗ trống)",
-      "explanation": "Hỏi vị trí lịch sự.",
-      "orderIndex": 262,
-      "options": [
-        {
-          "label": "A",
-          "text": "どちら",
-          "isCorrect": true
-        },
-        {
-          "label": "B",
-          "text": "なに",
-          "isCorrect": false
-        },
-        {
-          "label": "C",
-          "text": "どこ",
-          "isCorrect": false
-        },
-        {
-          "label": "D",
-          "text": "いつ",
-          "isCorrect": false
-        }
-      ]
-    },
-    {
-      "id": 263,
-      "passageId": null,
-      "type": "standalone",
-      "topic": "vocabulary",
-      "level": "N5",
       "questionText": "A: すみません、インフォメーションは （＿＿＿）ですか。B: あちらです。 (Chọn đáp án thích hợp điền vào chỗ trống)",
-      "explanation": "Hỏi vị trí của quầy thông tin một cách lịch sự dùng 'どちら'.",
-      "orderIndex": 263,
+      "explanation": "Hỏi vị trí lịch sự.",
+      "orderIndex": 222,
       "options": [
         {
           "label": "A",
@@ -8460,9 +7148,9 @@
       "type": "standalone",
       "topic": "vocabulary",
       "level": "N5",
-      "questionText": "A: エレベーターは　どこですか. B: （＿＿＿）です. (Chọn đáp án thích hợp điền vào chỗ trống)",
+      "questionText": "A: エレベーターは　どこですか. B: （＿＿＿）です。 (Chọn đáp án thích hợp điền vào chỗ trống)",
       "explanation": "Chỉ hướng.",
-      "orderIndex": 264,
+      "orderIndex": 223,
       "options": [
         {
           "label": "A",
@@ -8492,9 +7180,9 @@
       "type": "standalone",
       "topic": "vocabulary",
       "level": "N5",
-      "questionText": "A: エレベーターは　どこですか。B: （＿＿＿）です. (Chọn đáp án thích hợp điền vào chỗ trống)",
+      "questionText": "A: エレベーターは　どこですか。B: （＿＿＿）です。 (Chọn đáp án thích hợp điền vào chỗ trống)",
       "explanation": "Chỉ hướng.",
-      "orderIndex": 265,
+      "orderIndex": 224,
       "options": [
         {
           "label": "A",
@@ -8514,102 +7202,6 @@
         {
           "label": "D",
           "text": "どちら",
-          "isCorrect": false
-        }
-      ]
-    },
-    {
-      "id": 266,
-      "passageId": null,
-      "type": "standalone",
-      "topic": "vocabulary",
-      "level": "N5",
-      "questionText": "A: エレベーターは　どこですか。B: （＿＿＿）です。 (Chọn đáp án thích hợp điền vào chỗ trống)",
-      "explanation": "Chỉ hướng.",
-      "orderIndex": 266,
-      "options": [
-        {
-          "label": "A",
-          "text": "はい",
-          "isCorrect": false
-        },
-        {
-          "label": "B",
-          "text": "いいえ",
-          "isCorrect": false
-        },
-        {
-          "label": "C",
-          "text": "あちら",
-          "isCorrect": true
-        },
-        {
-          "label": "D",
-          "text": "どちら",
-          "isCorrect": false
-        }
-      ]
-    },
-    {
-      "id": 267,
-      "passageId": null,
-      "type": "standalone",
-      "topic": "vocabulary",
-      "level": "N5",
-      "questionText": "A: エレベーターは　どこですか。B: （＿＿＿）です。 (Chọn đáp án thích hợp điền vào chỗ trống)",
-      "explanation": "Khi chỉ vị trí ở hướng xa cả người nói và người nghe, ta dùng từ chỉ hướng 'あちら'.",
-      "orderIndex": 267,
-      "options": [
-        {
-          "label": "A",
-          "text": "これ",
-          "isCorrect": false
-        },
-        {
-          "label": "B",
-          "text": "あちら",
-          "isCorrect": true
-        },
-        {
-          "label": "C",
-          "text": "あなた",
-          "isCorrect": false
-        },
-        {
-          "label": "D",
-          "text": "あれ",
-          "isCorrect": false
-        }
-      ]
-    },
-    {
-      "id": 268,
-      "passageId": null,
-      "type": "standalone",
-      "topic": "vocabulary",
-      "level": "N5",
-      "questionText": "A: エレベーターは　どこですか。B: （＿＿＿）です. (Chọn đáp án thích hợp điền vào chỗ trống)",
-      "explanation": "Chỉ vị trí lịch sự.",
-      "orderIndex": 268,
-      "options": [
-        {
-          "label": "A",
-          "text": "これ",
-          "isCorrect": false
-        },
-        {
-          "label": "B",
-          "text": "あちら",
-          "isCorrect": true
-        },
-        {
-          "label": "C",
-          "text": "あなた",
-          "isCorrect": false
-        },
-        {
-          "label": "D",
-          "text": "あれ",
           "isCorrect": false
         }
       ]
@@ -8622,7 +7214,7 @@
       "level": "N5",
       "questionText": "A: これは だれの カメラですか。B: あ、それは （＿＿＿） の カメラです。 (Chọn đáp án thích hợp điền vào chỗ trống)",
       "explanation": "Câu hỏi 'だれの' (của あい) yêu cầu câu trả lời chỉ người sở hữu (たなかさん).",
-      "orderIndex": 269,
+      "orderIndex": 225,
       "options": [
         {
           "label": "A",
@@ -8654,7 +7246,7 @@
       "level": "N5",
       "questionText": "A: これは　だれの　カメラですか。B: （＿＿＿）のです。 (Chọn đáp án thích hợp điền vào chỗ trống)",
       "explanation": "Cấu trúc 'N của あい' là 'N の'. Vì câu đã có sẵn 'の' nên chỉ cần điền danh từ chỉ người 'わたし'.",
-      "orderIndex": 270,
+      "orderIndex": 226,
       "options": [
         {
           "label": "A",
@@ -8679,38 +7271,6 @@
       ]
     },
     {
-      "id": 271,
-      "passageId": null,
-      "type": "standalone",
-      "topic": "vocabulary",
-      "level": "N5",
-      "questionText": "A: その　ペンは　だれの　ですか。B: （＿＿＿）。 (Chọn đáp án thích hợp điền vào chỗ trống)",
-      "explanation": "Câu hỏi 'của あい' (だれの) trả lời bằng 'của tôi' (わたしのです).",
-      "orderIndex": 271,
-      "options": [
-        {
-          "label": "A",
-          "text": "わたしのです",
-          "isCorrect": true
-        },
-        {
-          "label": "B",
-          "text": "これ",
-          "isCorrect": false
-        },
-        {
-          "label": "C",
-          "text": "しゃいん",
-          "isCorrect": false
-        },
-        {
-          "label": "D",
-          "text": "わたしのじゃありません",
-          "isCorrect": false
-        }
-      ]
-    },
-    {
       "id": 272,
       "passageId": null,
       "type": "standalone",
@@ -8718,7 +7278,7 @@
       "level": "N5",
       "questionText": "さとうさんは　アメリカから　（＿＿＿）。 (Chọn đáp án thích hợp điền vào chỗ trống)",
       "explanation": "Nói về nơi ai đó đến từ.",
-      "orderIndex": 272,
+      "orderIndex": 227,
       "options": [
         {
           "label": "A",
@@ -8750,7 +7310,7 @@
       "level": "N5",
       "questionText": "A: 4月10日は おはなみです。B: えっ！おはなみ？ なにを しますか。A: さくらを ＿＿①＿＿。おべんとうを ＿＿②＿＿。",
       "explanation": "Hành động ngắm hoa là 'みます' và ăn cơm hộp là 'たべます'.",
-      "orderIndex": 273,
+      "orderIndex": 228,
       "options": [
         {
           "label": "A",
@@ -8782,7 +7342,7 @@
       "level": "N5",
       "questionText": "A: あのう、すみません。＿＿＿＿＿？ B: ワンです。よろしく おねがいします。 (Chọn đáp án thích hợp điền vào chỗ trống)",
       "explanation": "Dựa vào câu trả lời 'ワンです' (Tôi là wang), câu hỏi phù hợp là hỏi tên (おなまえは).",
-      "orderIndex": 274,
+      "orderIndex": 229,
       "options": [
         {
           "label": "A",
@@ -8812,9 +7372,9 @@
       "type": "standalone",
       "topic": "conversation",
       "level": "N5",
-      "questionText": "A: おくには　どちらですか. B: （＿＿＿）です. (Chọn đáp án thích hợp điền vào chỗ trống)",
+      "questionText": "A: おくには　どちらですか. B: （＿＿＿）です。 (Chọn đáp án thích hợp điền vào chỗ trống)",
       "explanation": "Trả lời tên quốc gia.",
-      "orderIndex": 275,
+      "orderIndex": 230,
       "options": [
         {
           "label": "A",
@@ -8846,7 +7406,7 @@
       "level": "N5",
       "questionText": "A: おくには　どちらですか。B: （＿＿＿） (Chọn đáp án thích hợp điền vào chỗ trống)",
       "explanation": "Hỏi quốc gia (おくに) trả lời tên nước (日本).",
-      "orderIndex": 276,
+      "orderIndex": 231,
       "options": [
         {
           "label": "A",
@@ -8876,9 +7436,9 @@
       "type": "standalone",
       "topic": "conversation",
       "level": "N5",
-      "questionText": "A: おくには　どちらですか。B: （＿＿＿）です. (Chọn đáp án thích hợp điền vào chỗ trống)",
+      "questionText": "A: おくには　どちらですか。B: （＿＿＿）です。 (Chọn đáp án thích hợp điền vào chỗ trống)",
       "explanation": "Hỏi về quốc gia (おくに) trả lời bằng tên nước (アメリカ).",
-      "orderIndex": 277,
+      "orderIndex": 232,
       "options": [
         {
           "label": "A",
@@ -8908,45 +7468,13 @@
       "type": "standalone",
       "topic": "conversation",
       "level": "N5",
-      "questionText": "A: おくには　どちらですか。B: （＿＿＿）です. (Chọn đáp án thích hợp điền vào chỗ trống)",
+      "questionText": "A: おくには　どちらですか。B: （＿＿＿）です。 (Chọn đáp án thích hợp điền vào chỗ trống)",
       "explanation": "Trả lời tên nước chiょ câu hỏi quốc tịch.",
-      "orderIndex": 278,
+      "orderIndex": 233,
       "options": [
         {
           "label": "A",
           "text": "日本",
-          "isCorrect": true
-        },
-        {
-          "label": "B",
-          "text": "はい",
-          "isCorrect": false
-        },
-        {
-          "label": "C",
-          "text": "いいえ",
-          "isCorrect": false
-        },
-        {
-          "label": "D",
-          "text": "どちら",
-          "isCorrect": false
-        }
-      ]
-    },
-    {
-      "id": 279,
-      "passageId": null,
-      "type": "standalone",
-      "topic": "conversation",
-      "level": "N5",
-      "questionText": "A: おくには　どちらですか。B: （＿＿＿）です. (Chọn đáp án thích hợp điền vào chỗ trống)",
-      "explanation": "Hỏi quốc tịch trả lời tên nước.",
-      "orderIndex": 279,
-      "options": [
-        {
-          "label": "A",
-          "text": "ベトナム",
           "isCorrect": true
         },
         {
@@ -8974,7 +7502,7 @@
       "level": "N5",
       "questionText": "A: はじめまして。マリアです。B: サントスです。（＿＿＿）おねがいします。 (Chọn đáp án thích hợp điền vào chỗ trống)",
       "explanation": "Cụm từ chào hỏi khi lần đầu gặp mặt: 'よろしく おねがいします'.",
-      "orderIndex": 280,
+      "orderIndex": 234,
       "options": [
         {
           "label": "A",
@@ -9006,39 +7534,7 @@
       "level": "N5",
       "questionText": "A: はじめまして。マリアです。よろしく　おねがいします。B: サントスです。（＿＿＿）、よろしく　おねがいします。 (Chọn đáp án thích hợp điền vào chỗ trống)",
       "explanation": "Đáp lại lời chào lần đầu gặp mặt.",
-      "orderIndex": 281,
-      "options": [
-        {
-          "label": "A",
-          "text": "どちらこそ",
-          "isCorrect": false
-        },
-        {
-          "label": "B",
-          "text": "どれこそ",
-          "isCorrect": false
-        },
-        {
-          "label": "C",
-          "text": "こちらこそ",
-          "isCorrect": true
-        },
-        {
-          "label": "D",
-          "text": "何方こそ",
-          "isCorrect": false
-        }
-      ]
-    },
-    {
-      "id": 282,
-      "passageId": null,
-      "type": "standalone",
-      "topic": "conversation",
-      "level": "N5",
-      "questionText": "A: はじめまして。マリアです. よろしく　おねがいします。B: サントスです. （＿＿＿）、よろしく　おねがいします. (Chọn đáp án thích hợp điền vào chỗ trống)",
-      "explanation": "Đáp lại lời chào lần đầu gặp mặt.",
-      "orderIndex": 282,
+      "orderIndex": 235,
       "options": [
         {
           "label": "A",
@@ -9070,7 +7566,7 @@
       "level": "N5",
       "questionText": "A: はじめまして。ワンです。B: （＿＿＿） よろしく おねがいします。 (Chọn đáp án thích hợp điền vào chỗ trống)",
       "explanation": "'こちらこそ' dùng để đáp lại lời chào 'Rất mong được giúp đỡ' khi lần đầu gặp mặt.",
-      "orderIndex": 283,
+      "orderIndex": 236,
       "options": [
         {
           "label": "A",
@@ -9100,41 +7596,9 @@
       "type": "standalone",
       "topic": "conversation",
       "level": "N5",
-      "questionText": "A: はじめまして。私は　（＿＿＿）　です。B: こちらこそ、よろしく　おねがいします. (Chọn đáp án thích hợp điền vào chỗ trống)",
-      "explanation": "Tự giới thiệu tên mình.",
-      "orderIndex": 284,
-      "options": [
-        {
-          "label": "A",
-          "text": "じゅうはっさい",
-          "isCorrect": false
-        },
-        {
-          "label": "B",
-          "text": "マリアさん",
-          "isCorrect": false
-        },
-        {
-          "label": "C",
-          "text": "マリア",
-          "isCorrect": true
-        },
-        {
-          "label": "D",
-          "text": "日本",
-          "isCorrect": false
-        }
-      ]
-    },
-    {
-      "id": 285,
-      "passageId": null,
-      "type": "standalone",
-      "topic": "conversation",
-      "level": "N5",
       "questionText": "A: はじめまして。私は　（＿＿＿）　です。B: こちらこそ、よろしく　おねがいします。 (Chọn đáp án thích hợp điền vào chỗ trống)",
-      "explanation": "Tự giới thiệu tên.",
-      "orderIndex": 285,
+      "explanation": "Tự giới thiệu tên mình.",
+      "orderIndex": 237,
       "options": [
         {
           "label": "A",
@@ -9166,39 +7630,7 @@
       "level": "N5",
       "questionText": "A: 土曜日、こうえんで　パーティーを　します. B: （＿＿＿） (Chọn đáp án thích hợp điền vào chỗ trống)",
       "explanation": "Tán thành đề nghị.",
-      "orderIndex": 286,
-      "options": [
-        {
-          "label": "A",
-          "text": "いいですね",
-          "isCorrect": true
-        },
-        {
-          "label": "B",
-          "text": "おめでとうございます",
-          "isCorrect": false
-        },
-        {
-          "label": "C",
-          "text": "さあ",
-          "isCorrect": false
-        },
-        {
-          "label": "D",
-          "text": "おねがいします",
-          "isCorrect": false
-        }
-      ]
-    },
-    {
-      "id": 287,
-      "passageId": null,
-      "type": "standalone",
-      "topic": "conversation",
-      "level": "N5",
-      "questionText": "A: 土曜日、こうえんで　パーティーを　します。B: （＿＿＿） (Chọn đáp án thích hợp điền vào chỗ trống)",
-      "explanation": "Tán thành một lời đề nghị.",
-      "orderIndex": 287,
+      "orderIndex": 238,
       "options": [
         {
           "label": "A",
@@ -9230,7 +7662,7 @@
       "level": "N5",
       "questionText": "A: 毎日、何時ごろに　学校へ　来ますか。B: （＿＿＿） (Chọn đáp án thích hợp điền vào chỗ trống)",
       "explanation": "Đáp lại câu hỏi về thời gian thường lệ bằng cụm từ tương ứng.",
-      "orderIndex": 288,
+      "orderIndex": 239,
       "options": [
         {
           "label": "A",
@@ -9262,7 +7694,7 @@
       "level": "N5",
       "questionText": "A: 私は　学生です。B: （＿＿＿）？ (Chọn đáp án thích hợp điền vào chỗ trống)",
       "explanation": "'あなたは？' dùng để hỏi ngược lại đối phương cùng một nội dung (Còn bạn thì さお?).",
-      "orderIndex": 289,
+      "orderIndex": 240,
       "options": [
         {
           "label": "A",
@@ -9294,7 +7726,7 @@
       "level": "N5",
       "questionText": "A: （＿＿＿）いま　なんじですか。B: 7時10分です。 (Chọn đáp án thích hợp điền vào chỗ trống)",
       "explanation": "Dùng 'すみません' để bắt đầu một câu hỏi với người lạ hoặc khi muốn gây sự chú ý.",
-      "orderIndex": 290,
+      "orderIndex": 241,
       "options": [
         {
           "label": "A",
@@ -9326,7 +7758,7 @@
       "level": "N5",
       "questionText": "はじめまして。私は （＿＿＿） です。よろしく おねがいします。 (Chọn đáp án thích hợp điền vào chỗ trống)",
       "explanation": "Khi tự giới thiệu tên mình, chúng ta không thêm hậu tố 'さん'.",
-      "orderIndex": 291,
+      "orderIndex": 242,
       "options": [
         {
           "label": "A",
@@ -9358,7 +7790,7 @@
       "level": "N5",
       "questionText": "はじめまして。私は　（＿＿＿）　です。 (Chọn đáp án thích hợp điền vào chỗ trống)",
       "explanation": "Tự giới thiệu tên không đi kèm hậu tố 'さん'.",
-      "orderIndex": 292,
+      "orderIndex": 243,
       "options": [
         {
           "label": "A",
@@ -9390,7 +7822,7 @@
       "level": "N5",
       "questionText": "A: すみません、（＿＿＿）は　どちらですか。B: あそこです。 (Chọn đáp án thích hợp điền vào chỗ trống)",
       "explanation": "'どちら' là cách hỏi vị trí lịch sự, phù hợp với địa điểm như 'かいぎしつ' (phòng họp).",
-      "orderIndex": 293,
+      "orderIndex": 244,
       "options": [
         {
           "label": "A",
@@ -9422,7 +7854,7 @@
       "level": "N5",
       "questionText": "A: すみません、（＿＿＿）は　どちらですか。B: あちらです。 (Chọn đáp án thích hợp điền vào chỗ trống)",
       "explanation": "Hỏi vị trí của một địa điểm chức năng (かいぎしつ - phòng họp) một cách lịch sự.",
-      "orderIndex": 294,
+      "orderIndex": 245,
       "options": [
         {
           "label": "A",
@@ -9454,7 +7886,7 @@
       "level": "N5",
       "questionText": "A: 土曜日の　パーティー （＿＿＿） （＿＿＿）？ B: ええ、（＿＿＿） （＿＿＿）。 (Chọn đáp án thích hợp điền vào chỗ trống)",
       "explanation": "Dùng '～ませんか' để mời mọc và '～ましょう' để đồng ý lời mời.",
-      "orderIndex": 295,
+      "orderIndex": 246,
       "options": [
         {
           "label": "A",
@@ -9486,7 +7918,7 @@
       "level": "N5",
       "questionText": "A: Bさん、（＿＿＿） B: 私は 日本語の きょうしです。 (Chọn đáp án thích hợp điền vào chỗ trống)",
       "explanation": "Trả lời về nghề nghiệp (giáo viên) nên câu hỏi là về công việc.",
-      "orderIndex": 296,
+      "orderIndex": 247,
       "options": [
         {
           "label": "A",
@@ -9518,7 +7950,7 @@
       "level": "N5",
       "questionText": "A: じむしょ là ở đâu? B: （＿＿＿） (Chọn đáp án thích hợp điền vào chỗ trống)",
       "explanation": "Trả lời vị trí cụ thể.",
-      "orderIndex": 297,
+      "orderIndex": 248,
       "options": [
         {
           "label": "A",
@@ -9548,73 +7980,9 @@
       "type": "standalone",
       "topic": "vocabulary",
       "level": "N5",
-      "questionText": "A: すみません、トイレは　どちらですか. B: （＿＿＿）です. (Chọn đáp án thích hợp điền vào chỗ trống)",
+      "questionText": "A: すみません、トイレは　どちらですか. B: （＿＿＿）です。 (Chọn đáp án thích hợp điền vào chỗ trống)",
       "explanation": "Chỉ hướng.",
-      "orderIndex": 298,
-      "options": [
-        {
-          "label": "A",
-          "text": "あちら",
-          "isCorrect": true
-        },
-        {
-          "label": "B",
-          "text": "はい",
-          "isCorrect": false
-        },
-        {
-          "label": "C",
-          "text": "いいえ",
-          "isCorrect": false
-        },
-        {
-          "label": "D",
-          "text": "どこ",
-          "isCorrect": false
-        }
-      ]
-    },
-    {
-      "id": 299,
-      "passageId": null,
-      "type": "standalone",
-      "topic": "vocabulary",
-      "level": "N5",
-      "questionText": "A: すみません、トイレは　どちらですか。B: （＿＿＿）です. (Chọn đáp án thích hợp điền vào chỗ trống)",
-      "explanation": "Chỉ hướng đi.",
-      "orderIndex": 299,
-      "options": [
-        {
-          "label": "A",
-          "text": "あちら",
-          "isCorrect": true
-        },
-        {
-          "label": "B",
-          "text": "はい",
-          "isCorrect": false
-        },
-        {
-          "label": "C",
-          "text": "いいえ",
-          "isCorrect": false
-        },
-        {
-          "label": "D",
-          "text": "どこ",
-          "isCorrect": false
-        }
-      ]
-    },
-    {
-      "id": 300,
-      "passageId": null,
-      "type": "standalone",
-      "topic": "vocabulary",
-      "level": "N5",
-      "questionText": "A: すみません、トイレは　どちらですか。B: （＿＿＿）です。 (Chọn đáp án thích hợp điền vào chỗ trống)",
-      "explanation": "Chỉ hướng đi lịch sự dùng 'あちら'.",
-      "orderIndex": 300,
+      "orderIndex": 249,
       "options": [
         {
           "label": "A",
@@ -9644,9 +8012,9 @@
       "type": "standalone",
       "topic": "vocabulary",
       "level": "N5",
-      "questionText": "A: すみません、トイレは　どちらですか。B: （＿＿＿）です. (Chọn đáp án thích hợp điền vào chỗ trống)",
+      "questionText": "A: すみません、トイレは　どちらですか。B: （＿＿＿）です。 (Chọn đáp án thích hợp điền vào chỗ trống)",
       "explanation": "Chỉ hướng đi lịch sự.",
-      "orderIndex": 301,
+      "orderIndex": 250,
       "options": [
         {
           "label": "A",
@@ -9678,39 +8046,7 @@
       "level": "N5",
       "questionText": "A: トイレは　どちらですか。B: （＿＿＿）です。 (Chọn đáp án thích hợp điền vào chỗ trống)",
       "explanation": "Để chỉ một vị trí ở xa cả người nói và người nghe một cách lịch sự, ta dùng 'あちら'.",
-      "orderIndex": 302,
-      "options": [
-        {
-          "label": "A",
-          "text": "あちら",
-          "isCorrect": true
-        },
-        {
-          "label": "B",
-          "text": "こちら",
-          "isCorrect": false
-        },
-        {
-          "label": "C",
-          "text": "そちら",
-          "isCorrect": false
-        },
-        {
-          "label": "D",
-          "text": "どちら",
-          "isCorrect": false
-        }
-      ]
-    },
-    {
-      "id": 303,
-      "passageId": null,
-      "type": "standalone",
-      "topic": "vocabulary",
-      "level": "N5",
-      "questionText": "A: トイレは　どちらですか。B: （＿＿＿）です. (Chọn đáp án thích hợp điền vào chỗ trống)",
-      "explanation": "Chỉ hướng lịch sự.",
-      "orderIndex": 303,
+      "orderIndex": 251,
       "options": [
         {
           "label": "A",
@@ -9742,7 +8078,7 @@
       "level": "N5",
       "questionText": "Dựa vào các từ gợi ý cho sẵn hãy chọn câu có ý nghĩa hoàn chỉnh: きのう／いいおてんき／でした",
       "explanation": "Xác nhận trạng thái thời tiết hôm qua.",
-      "orderIndex": 304,
+      "orderIndex": 252,
       "options": [
         {
           "label": "A",
@@ -9774,7 +8110,7 @@
       "level": "N5",
       "questionText": "Dựa vào các từ gợi ý cho sẵn hãy chọn câu có ý nghĩa hoàn chỉnh: きのう／いいおてんき／でした",
       "explanation": "Khẳng định trạng thái quá khứ.",
-      "orderIndex": 305,
+      "orderIndex": 253,
       "options": [
         {
           "label": "A",
@@ -9806,7 +8142,7 @@
       "level": "N5",
       "questionText": "Dựa vào các từ gợi ý cho sẵn hãy chọn câu có ý nghĩa hoàn chỉnh: きのう／いいおてんき／です",
       "explanation": "Hành động/trạng thái trong quá khứ xác nhận 'hôm quあ thời tiết đẹp'.",
-      "orderIndex": 306,
+      "orderIndex": 254,
       "options": [
         {
           "label": "A",
@@ -9838,7 +8174,7 @@
       "level": "N5",
       "questionText": "Dựa vào các từ gợi ý cho sẵn hãy chọn câu có ý nghĩa hoàn chỉnh: きのう／お休み／でした／か",
       "explanation": "Câu hỏi về trạng thái ngày hôm qua.",
-      "orderIndex": 307,
+      "orderIndex": 255,
       "options": [
         {
           "label": "A",
@@ -9870,7 +8206,7 @@
       "level": "N5",
       "questionText": "Dựa vào các từ gợi ý cho sẵn hãy chọn câu có ý nghĩa hoàn chỉnh: しゅみ／私／おんがく／りょうり／です",
       "explanation": "Câu hoàn chỉnh: 'Sở thích của tôi là âm nhạc và nấu ăn'.",
-      "orderIndex": 308,
+      "orderIndex": 256,
       "options": [
         {
           "label": "A",
@@ -9902,7 +8238,7 @@
       "level": "N5",
       "questionText": "Dựa vào các từ gợi ý cho sẵn hãy chọn câu có ý nghĩa hoàn chỉnh: たんじょうび／です／か／いつ／お",
       "explanation": "Câu hỏi ngày sinh nhật lịch sự.",
-      "orderIndex": 309,
+      "orderIndex": 257,
       "options": [
         {
           "label": "A",
@@ -9934,7 +8270,7 @@
       "level": "N5",
       "questionText": "Dựa vào các từ gợi ý cho sẵn hãy chọn câu có ý nghĩa hoàn chỉnh: ぶたにく／とんかつ／りょうり／です",
       "explanation": "Câu hoàn chỉnh: 'とんかつ là món ăn làm từ thịt lợn'.",
-      "orderIndex": 310,
+      "orderIndex": 258,
       "options": [
         {
           "label": "A",
@@ -9966,7 +8302,7 @@
       "level": "N5",
       "questionText": "Dựa vào các từ gợi ý cho sẵn hãy chọn câu có ý nghĩa hoàn chỉnh: 私／学生／じゃありません",
       "explanation": "Cấu trúc phủ định của danh từ ở thì hiện tại: 'N1 は N2 じゃありません'.",
-      "orderIndex": 311,
+      "orderIndex": 259,
       "options": [
         {
           "label": "A",
@@ -9998,7 +8334,7 @@
       "level": "N5",
       "questionText": "Dựa vào các từ gợi ý hãy chọn câu có ý nghĩa hoàn chỉnh: じゃありません／私／かいしゃいん",
       "explanation": "Cấu trúc câu phủ định cơ bản: S ha N jaarimasen (Tôi không phải là nhân viên công ty).",
-      "orderIndex": 312,
+      "orderIndex": 260,
       "options": [
         {
           "label": "A",
@@ -10030,7 +8366,7 @@
       "level": "N5",
       "questionText": "さとうさんのごしゅじんは　だれですか.",
       "explanation": "Đoạn văn viết: 'ごしゅじんは　たなかさんです。'.",
-      "orderIndex": 313,
+      "orderIndex": 261,
       "options": [
         {
           "label": "A",
@@ -10062,7 +8398,7 @@
       "level": "N5",
       "questionText": "さとうさんは　どこからきましたか.",
       "explanation": "Đoạn văn viết: 'さとうさんは　イギリスからきました。'.",
-      "orderIndex": 314,
+      "orderIndex": 262,
       "options": [
         {
           "label": "A",
@@ -10094,7 +8430,7 @@
       "level": "N5",
       "questionText": "すずきさんは　日本人ですか.",
       "explanation": "Đoạn văn viết: 'はじめまして、わたしはすずきです。日本人です。'.",
-      "orderIndex": 315,
+      "orderIndex": 263,
       "options": [
         {
           "label": "A",
@@ -10126,7 +8462,7 @@
       "level": "N5",
       "questionText": "Hãy chọn từ khác loại: ① スーパー, ② カメラ, ③ 100円ショップ, ④ レストラン",
       "explanation": "Camera là đồ vật, các từ còn lại là địa điểm.",
-      "orderIndex": 316,
+      "orderIndex": 264,
       "options": [
         {
           "label": "A",
@@ -10158,7 +8494,7 @@
       "level": "N5",
       "questionText": "Hãy chọn từ khác loại: ① トイレットペーパー, ② レストラン, ③ ペン, ④ けしゴム",
       "explanation": "Nhà hàng là địa điểm, các từ còn lại là vật dụng.",
-      "orderIndex": 317,
+      "orderIndex": 265,
       "options": [
         {
           "label": "A",
@@ -10190,7 +8526,7 @@
       "level": "N5",
       "questionText": "Từ nào có ý nghĩa KHÔNG CÙNG NHÓM: ① おまつり, ② としょかん, ③ こうえん, ④ びょういん",
       "explanation": "Lễ hội là sự kiện, các từ còn lại là địa điểm công cộng.",
-      "orderIndex": 318,
+      "orderIndex": 266,
       "options": [
         {
           "label": "A",
@@ -10222,7 +8558,7 @@
       "level": "N5",
       "questionText": "Từ nào có ý nghĩa KHÔNG CÙNG NHÓM: ① ぎゅうにゅう, ② ごはん, ③ たまご, ④ ぶたにく",
       "explanation": "Sữa (ぎゅうにゅう) là đồ uống, các từ còn lại là thức ăn.",
-      "orderIndex": 319,
+      "orderIndex": 267,
       "options": [
         {
           "label": "A",

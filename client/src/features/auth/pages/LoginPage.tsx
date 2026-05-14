@@ -13,6 +13,7 @@ export function LoginPage() {
     <div className="login-page">
       <div className="login-container">
         <div className="login-header">
+          <img src="/logo.png" alt="JPLearn" className="mx-auto mb-4 h-20 w-20 object-contain drop-shadow-md" />
           <h1 className="login-logo">
             <span className="login-logo-jp">日本語</span>
             <span className="login-logo-text">JPLearn</span>

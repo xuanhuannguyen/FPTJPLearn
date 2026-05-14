@@ -29,7 +29,9 @@ export function useExamAttempt(attemptId: string | undefined): UseExamAttemptRet
   const [error, setError] = useState('');
 
   const phaseRef = useRef(phase);
-  phaseRef.current = phase;
+  useEffect(() => {
+    phaseRef.current = phase;
+  }, [phase]);
 
   useEffect(() => {
     if (!attemptId) return;

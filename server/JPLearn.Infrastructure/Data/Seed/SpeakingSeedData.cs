@@ -132,6 +132,7 @@ public static partial class SpeakingSeedData
             }
 
             existing.PlainText = sentence.PlainText;
+            existing.Romaji = sentence.Romaji;
             existing.ContentHtml = sentence.ContentHtml;
             existing.MeaningVi = sentence.MeaningVi;
             existing.OrderIndex = sentence.OrderIndex;
@@ -157,6 +158,7 @@ public static partial class SpeakingSeedData
                         LessonId(importFile.CourseCode, lesson.Id),
                         sentenceNumber,
                         ToPlainText(sentence.Jp),
+                        sentence.Romaji,
                         ToRubyHtml(sentence.Jp),
                         sentence.Vi,
                         sentenceNumber));
@@ -199,6 +201,7 @@ public static partial class SpeakingSeedData
         Guid lessonId,
         int sentenceNumber,
         string plainText,
+        string romaji,
         string contentHtml,
         string meaningVi,
         int orderIndex)
@@ -209,6 +212,7 @@ public static partial class SpeakingSeedData
             LessonId = lessonId,
             SentenceNumber = sentenceNumber,
             PlainText = plainText,
+            Romaji = romaji,
             ContentHtml = contentHtml,
             MeaningVi = meaningVi,
             OrderIndex = orderIndex,
@@ -283,7 +287,7 @@ public static partial class SpeakingSeedData
         string Summary,
         SpeakingSentenceSeed[] Sentences);
 
-    private sealed record SpeakingSentenceSeed(string Jp, string Vi);
+    private sealed record SpeakingSentenceSeed(string Jp, string Vi, string Romaji);
 
     [GeneratedRegex(@"\[\[(?<text>[^|\]]+)\|(?<reading>[^\]]+)\]\]")]
     private static partial Regex RubyPattern();

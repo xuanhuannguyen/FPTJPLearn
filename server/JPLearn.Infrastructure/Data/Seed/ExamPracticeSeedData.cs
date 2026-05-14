@@ -49,6 +49,8 @@ public static class ExamPracticeSeedData
                     Title = title,
                     Description = desc,
                     OrderIndex = importFile.CourseCode == ExamCourseCodes.JPD113 ? 1 : 2,
+                    AccessTier = "premium", // Tất cả là premium mặc định
+                    PackageCode = importFile.CourseCode, // jpd113 hoặc jpd123
                     IsActive = true,
                     CreatedAt = SeededAt,
                     UpdatedAt = SeededAt

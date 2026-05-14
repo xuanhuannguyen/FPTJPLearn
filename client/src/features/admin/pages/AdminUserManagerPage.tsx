@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+import { useCallback, useEffect, useState } from 'react';
 import { apiClient } from '../../../shared/api/axios';
 import { Shield, ShieldCheck, User as UserIcon, Calendar, Mail, Smartphone } from 'lucide-react';
 
@@ -18,24 +18,31 @@ interface AdminUser {
   subscriptions: UserSubscription[];
 }
 
+const DEFAULT_NOW_MS = Date.now();
+
 export const AdminUserManagerPage = () => {
   const [users, setUsers] = useState<AdminUser[]>([]);
   const [loading, setLoading] = useState(true);
 
-  const fetchUsers = async () => {
+  const fetchUsers = useCallback(async () => {
+    setLoading(true);
     try {
-      const res = await apiClient.get('/admin/users');
+      const res = await apiClient.get<AdminUser[]>('/admin/users');
       setUsers(res.data);
     } catch (err) {
       console.error('Fetch users failed:', err);
     } finally {
       setLoading(false);
     }
-  };
+  }, []);
 
   useEffect(() => {
-    fetchUsers();
-  }, []);
+    const timer = window.setTimeout(() => {
+      void fetchUsers();
+    }, 0);
+
+    return () => window.clearTimeout(timer);
+  }, [fetchUsers]);
 
   const toggleSubscription = async (userId: string, courseCode: string, currentStatus: boolean) => {
     const isAdding = !currentStatus;
@@ -43,8 +50,9 @@ export const AdminUserManagerPage = () => {
     if (!window.confirm(`Bạn có chắc muốn ${actionText} gói ${courseCode.toUpperCase()} cho người dùng này?`)) return;
 
     // Nếu thêm thì mặc định 6 tháng, nếu bỏ thì cho về quá khứ
+    const baseMs = DEFAULT_NOW_MS;
     const expiresAt = isAdding 
-      ? new Date(Date.now() + 180 * 24 * 60 * 60 * 1000).toISOString()
+      ? new Date(baseMs + 180 * 24 * 60 * 60 * 1000).toISOString()
       : new Date(0).toISOString();
 
     try {
@@ -53,7 +61,7 @@ export const AdminUserManagerPage = () => {
         expiresAt
       });
       alert('Cập nhật thành công!');
-      fetchUsers(); // Refresh data
+      void fetchUsers(); // Refresh data
     } catch (err) {
       console.error('Toggle subscription failed:', err);
       alert('Có lỗi xảy ra khi cập nhật gói premium.');
@@ -65,7 +73,7 @@ export const AdminUserManagerPage = () => {
     try {
       await apiClient.post(`/admin/users/${userId}/reset-device`);
       alert('Reset thiết bị thành công.');
-      fetchUsers();
+      void fetchUsers();
     } catch (err) {
       console.error('Reset device failed:', err);
     }

@@ -3,7 +3,7 @@ import { useNavigate } from 'react-router-dom';
 import { useState, useEffect, useMemo, useCallback } from 'react';
 import { ImportModal } from '../components/ImportModal';
 import { vocabularyApi } from '../api/vocabularyApi';
-import type { VocabularyList } from '../api/vocabularyApi';
+import type { VocabularyList, VocabularyQuota } from '../api/vocabularyApi';
 import { ConfirmModal } from '../../../shared/components/ConfirmModal';
 import { useSearchStore } from '../../../shared/stores/searchStore';
 
@@ -28,7 +28,7 @@ export const VocabularyPage = () => {
   const searchQuery = useSearchStore((state) => state.query);
   const setSearchQuery = useSearchStore((state) => state.setQuery);
 
-  const [quota, setQuota] = useState<any>(null);
+  const [quota, setQuota] = useState<VocabularyQuota | null>(null);
 
   const fetchLists = useCallback(async () => {
     try {

@@ -49,11 +49,8 @@ public class PaymentWebhookController : ControllerBase
             var orderCode = data.GetProperty("orderCode").GetInt64();
 
             // 2. Tìm đơn hàng (Sử dụng Idempotency: Chỉ xử lý đơn Pending)
-            var orders = await _db.Orders
-                .Where(o => o.Status == OrderStatuses.Pending && o.Provider == "PayOS")
-                .ToListAsync();
-            
-            var order = orders.FirstOrDefault(o => Math.Abs(o.Id.GetHashCode()) == orderCode);
+            var order = await _db.Orders
+                .FirstOrDefaultAsync(o => o.OrderCode == orderCode && o.Status == OrderStatuses.Pending);
 
             if (order != null)
             {

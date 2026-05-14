@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { Link, useNavigate } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 import { Loader2, Lock, Sparkles } from 'lucide-react';
 import { examApi } from '../api/examApi';
 import type { ExamCourse } from '../types/exam.types';

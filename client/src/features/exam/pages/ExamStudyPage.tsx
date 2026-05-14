@@ -89,10 +89,13 @@ export const ExamStudyPage = () => {
       }
     };
 
-    void loadQuestions();
+    const timer = window.setTimeout(() => {
+      void loadQuestions();
+    }, 0);
 
     return () => {
       cancelled = true;
+      window.clearTimeout(timer);
     };
   }, [courseCode, topic]);
 
@@ -114,12 +117,16 @@ export const ExamStudyPage = () => {
 
   useEffect(() => {
     const question = questions[currentIndex];
-    if (!question) {
-      setCurrentQuestion(null);
-      return;
-    }
+    const timer = window.setTimeout(() => {
+      if (!question) {
+        setCurrentQuestion(null);
+        return;
+      }
 
-    void loadQuestionDetail(question.id);
+      void loadQuestionDetail(question.id);
+    }, 0);
+
+    return () => window.clearTimeout(timer);
   }, [currentIndex, loadQuestionDetail, questions]);
 
   const activeTopic = useMemo(() => topics.find((item) => item.topic === topic), [topic, topics]);
