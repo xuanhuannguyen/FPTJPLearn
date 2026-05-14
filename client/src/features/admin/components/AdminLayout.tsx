@@ -46,25 +46,39 @@ export const AdminLayout = () => {
         }
       }
 
-      try {
-        setIsChecking(true);
-        // Thực hiện verify key với server
-        await apiClient.get('/admin/verify');
-        setIsAuthorized(true);
-      } catch (error: unknown) {
-        console.error('Admin verification failed:', error);
+      let attempts = 0;
+      const maxAttempts = 3;
 
-        const status = (error as AxiosError | undefined)?.response?.status;
-        if (status === 401) {
-          localStorage.removeItem('jplearn_admin_key');
-          alert('Mã bí mật không chính xác! Vui lòng kiểm tra lại.');
-        } else {
-          alert('Lỗi kết nối Server! Vui lòng kiểm tra Tunnel (Pinggy) hoặc Backend có đang chạy không.');
+      while (attempts < maxAttempts) {
+        try {
+          setIsChecking(true);
+          await apiClient.get('/admin/verify');
+          setIsAuthorized(true);
+          return; // Thành công thì thoát
+        } catch (error: any) {
+          attempts++;
+          console.error(`Admin verification attempt ${attempts} failed:`, error);
+
+          const status = error?.response?.status;
+          if (status === 401) {
+            localStorage.removeItem('jplearn_admin_key');
+            alert('Mã bí mật không chính xác! Vui lòng kiểm tra lại.');
+            navigate('/');
+            return;
+          }
+
+          if (attempts >= maxAttempts) {
+            alert('Lỗi kết nối Server! Vui lòng kiểm tra Tunnel (Pinggy) hoặc Backend có đang chạy không.');
+            navigate('/');
+          } else {
+            // Đợi 5 giây trước khi thử lại để server kịp khởi động
+            await new Promise(resolve => setTimeout(resolve, 5000));
+          }
+        } finally {
+          if (attempts >= maxAttempts) {
+            setIsChecking(false);
+          }
         }
-        
-        navigate('/');
-      } finally {
-        setIsChecking(false);
       }
     };
     
@@ -73,9 +87,12 @@ export const AdminLayout = () => {
 
   if (isChecking) {
     return (
-      <div className="flex min-h-screen flex-col items-center justify-center bg-slate-950 text-white">
+      <div className="flex min-h-screen flex-col items-center justify-center bg-slate-950 text-white p-6 text-center">
         <Loader2 className="mb-4 animate-spin text-blue-500" size={40} />
-        <p className="font-bold tracking-widest text-slate-400">ĐANG XÁC THỰC QUYỀN ADMIN...</p>
+        <p className="font-bold tracking-widest text-slate-400 uppercase">Đang xác thực quyền Admin...</p>
+        <p className="mt-2 text-xs text-slate-500 max-w-xs">
+          Nếu server đang nghỉ, quá trình này có thể mất tới 30 giây. Vui lòng kiên nhẫn một chút nhé!
+        </p>
       </div>
     );
   }
