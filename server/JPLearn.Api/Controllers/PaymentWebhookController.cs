@@ -133,14 +133,16 @@ public class PaymentWebhookController : ControllerBase
             .ToListAsync();
 
         var order = pendingOrders.FirstOrDefault(o => 
-            !string.IsNullOrEmpty(o.ExternalId) && contentUpper.Contains(o.ExternalId.ToUpper()));
+            !string.IsNullOrEmpty(o.ExternalId) && 
+            contentUpper.Contains(o.ExternalId.ToUpper()));
 
-        // Nếu không tìm thấy qua ExternalId hoàn chỉnh, thử tìm qua mã ngắn (JP XXXX -> lấy XXXX)
+        // Nếu không tìm thấy qua ExternalId hoàn chỉnh, thử tìm qua mã ngắn (Loại bỏ SEVQR, JP... để lấy ID core)
         if (order == null)
         {
             order = pendingOrders.FirstOrDefault(o => 
                 !string.IsNullOrEmpty(o.ExternalId) && 
-                contentUpper.Contains(o.ExternalId.Replace("JP ", "").Trim().ToUpper()));
+                (contentUpper.Contains(o.ExternalId.Replace("SEVQR", "").Replace("JP", "").Trim().ToUpper()) ||
+                 o.ExternalId.ToUpper().Contains(contentUpper.Replace("SEVQR", "").Replace("JP", "").Trim().ToUpper())));
         }
 
         if (order == null)

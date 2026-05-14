@@ -22,9 +22,9 @@ public class SePayProvider : IPaymentProvider
         var merchantId = _configuration["PaymentSettings:SePay:MerchantId"];
         var bank = _configuration["PaymentSettings:SePay:Bank"] ?? "MBBank"; // Mặc định là MBBank nếu không cấu hình
         
-        // Tạo nội dung chuyển khoản duy nhất để khớp lệnh: JP [ShortGuid]
+        // Tạo nội dung chuyển khoản duy nhất để khớp lệnh: SEVQR JP [ShortGuid]
         var shortId = order.Id.ToString().Split('-')[0].ToUpper();
-        var description = $"JP {shortId}";
+        var description = $"SEVQR JP {shortId}";
         
         // SePay yêu cầu thêm tham số bank để hiện đúng logo ngân hàng
         var qrUrl = $"https://qr.sepay.vn/img?acc={merchantId}&bank={bank}&amount={order.Amount}&des={description}";
