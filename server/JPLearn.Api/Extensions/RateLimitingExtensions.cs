@@ -17,26 +17,26 @@ public static class RateLimitingExtensions
                     "{\"error\":\"TOO_MANY_REQUESTS\",\"message\":\"Bạn đã gửi quá nhiều yêu cầu. Vui lòng thử lại sau.\"}", token);
             };
 
-            // === GLOBAL: 60 requests / phút cho mọi người ===
+            // === GLOBAL: 180 requests / phút cho mỗi IP ===
             options.GlobalLimiter = PartitionedRateLimiter.Create<HttpContext, string>(context =>
             {
                 var ip = context.Connection.RemoteIpAddress?.ToString() ?? "unknown";
                 return RateLimitPartition.GetFixedWindowLimiter(ip, _ => new FixedWindowRateLimiterOptions
                 {
-                    PermitLimit = 60,
+                    PermitLimit = 180,
                     Window = TimeSpan.FromMinutes(1),
                     QueueProcessingOrder = QueueProcessingOrder.OldestFirst,
                     QueueLimit = 0
                 });
             });
 
-            // === ADMIN: Chặn dò mã — chỉ 5 lần / phút ===
+            // === ADMIN: đủ cho thao tác quản trị, vẫn chặn spam/brute-force ===
             options.AddPolicy("admin-strict", context =>
             {
                 var ip = context.Connection.RemoteIpAddress?.ToString() ?? "unknown";
                 return RateLimitPartition.GetFixedWindowLimiter($"admin_{ip}", _ => new FixedWindowRateLimiterOptions
                 {
-                    PermitLimit = 5,
+                    PermitLimit = 60,
                     Window = TimeSpan.FromMinutes(1),
                     QueueProcessingOrder = QueueProcessingOrder.OldestFirst,
                     QueueLimit = 0

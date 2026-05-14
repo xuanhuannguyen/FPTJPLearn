@@ -54,6 +54,7 @@ export const AdminLayout = () => {
           setIsChecking(true);
           await apiClient.get('/admin/verify');
           setIsAuthorized(true);
+          setIsChecking(false);
           return; // Thành công thì thoát
         } catch (error: any) {
           attempts++;
@@ -67,8 +68,14 @@ export const AdminLayout = () => {
             return;
           }
 
+          if (status === 429) {
+            alert('Bạn đang gửi quá nhiều yêu cầu admin. Vui lòng đợi khoảng 1 phút rồi thử lại.');
+            navigate('/');
+            return;
+          }
+
           if (attempts >= maxAttempts) {
-            alert('Lỗi kết nối Server! Vui lòng kiểm tra Tunnel (Pinggy) hoặc Backend có đang chạy không.');
+            alert('Lỗi kết nối Server! Vui lòng kiểm tra Render backend hoặc thử lại sau.');
             navigate('/');
           } else {
             // Đợi 5 giây trước khi thử lại để server kịp khởi động
