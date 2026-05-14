@@ -52,7 +52,7 @@ public class StaticVocabularyController : ApiControllerBase
     [HttpGet("lessons/{lessonId}/practice")]
     public async Task<IActionResult> GetPracticeCards(Guid lessonId, [FromQuery] string mode = VocabularyPracticeModes.Flashcard)
     {
-        var cards = await _vocabularyService.GetLessonPracticeCardsAsync(lessonId, mode);
+        var cards = await _vocabularyService.GetLessonPracticeCardsAsync(CurrentUserId, lessonId, mode);
         if (cards == null)
         {
             return NotFound(new { message = "Vocabulary lesson not found" });

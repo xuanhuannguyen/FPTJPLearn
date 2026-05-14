@@ -2,6 +2,7 @@ using JPLearn.Core.Common.Services;
 using JPLearn.Core.Grammar;
 using JPLearn.Core.Grammar.DTOs;
 using JPLearn.Core.Grammar.Entities;
+using JPLearn.Core.Payments;
 using JPLearn.Core.Review;
 using JPLearn.Infrastructure.Data;
 using Microsoft.EntityFrameworkCore;
@@ -11,16 +12,25 @@ namespace JPLearn.Infrastructure.Services;
 public class GrammarReviewService : IGrammarReviewService
 {
     private readonly AppDbContext _db;
+    private readonly IPaymentAccessService _paymentAccess;
 
-    public GrammarReviewService(AppDbContext db)
+    public GrammarReviewService(AppDbContext db, IPaymentAccessService paymentAccess)
     {
         _db = db;
+        _paymentAccess = paymentAccess;
     }
 
     public async Task<AddGrammarStudyResultDto?> AddToStudyAsync(Guid userId, Guid patternId)
     {
-        var patternExists = await _db.GrammarPatterns.AnyAsync(pattern => pattern.Id == patternId);
-        if (!patternExists)
+        var pattern = await _db.GrammarPatterns
+            .Include(item => item.Lesson)
+            .FirstOrDefaultAsync(item => item.Id == patternId);
+        if (pattern == null)
+        {
+            return null;
+        }
+
+        if (IsPatternLocked(userId, pattern))
         {
             return null;
         }
@@ -97,6 +107,10 @@ public class GrammarReviewService : IGrammarReviewService
             .ThenBy(progress => progress.GrammarPattern.OrderIndex)
             .ToListAsync();
 
+        cards = cards
+            .Where(progress => !IsPatternLocked(userId, progress.GrammarPattern))
+            .ToList();
+
         return new GrammarDueCardsResponse
         {
             DueCount = cards.Count,
@@ -107,11 +121,18 @@ public class GrammarReviewService : IGrammarReviewService
     public async Task<GrammarAnswerResultDto?> SubmitAnswerAsync(Guid userId, SubmitGrammarAnswerDto dto)
     {
         var progress = await _db.UserGrammarProgress
+            .Include(item => item.GrammarPattern)
+            .ThenInclude(pattern => pattern.Lesson)
             .FirstOrDefaultAsync(item => item.UserId == userId
                 && item.GrammarPatternId == dto.PatternId
                 && item.IsActive);
 
         if (progress == null)
+        {
+            return null;
+        }
+
+        if (IsPatternLocked(userId, progress.GrammarPattern))
         {
             return null;
         }
@@ -200,5 +221,12 @@ public class GrammarReviewService : IGrammarReviewService
             IntervalDays = progress.IntervalDays,
             Repetitions = progress.Repetitions
         };
+    }
+
+    private bool IsPatternLocked(Guid userId, GrammarPattern pattern)
+    {
+        var accessTier = GrammarService.ResolveAccessTier(pattern);
+        var packageCode = GrammarService.ResolvePackageCode(pattern) ?? pattern.Lesson.CourseCode;
+        return _paymentAccess.IsContentLocked(userId, accessTier, packageCode);
     }
 }

@@ -77,6 +77,11 @@ public class StaticVocabularyService : IStaticVocabularyService
             return null;
         }
 
+        if (_paymentAccess.IsContentLocked(userId, lesson.AccessTier, lesson.PackageCode))
+        {
+            return null;
+        }
+
         return new StaticVocabularyLessonDetailDto
         {
             Lesson = MapLesson(userId, lesson),
@@ -94,7 +99,14 @@ public class StaticVocabularyService : IStaticVocabularyService
             .Include(vocabulary => vocabulary.ProgressRecords.Where(progress => progress.UserId == userId))
             .FirstOrDefaultAsync(vocabulary => vocabulary.Id == itemId);
 
-        return item == null ? null : MapItem(userId, item);
+        if (item == null)
+        {
+            return null;
+        }
+
+        return _paymentAccess.IsContentLocked(userId, ResolveAccessTier(item), ResolvePackageCode(item))
+            ? null
+            : MapItem(userId, item);
     }
 
     public async Task<List<StaticVocabularyItemDto>> SearchAsync(Guid userId, string query, string? courseCode)
@@ -127,14 +139,22 @@ public class StaticVocabularyService : IStaticVocabularyService
             .Take(50)
             .ToListAsync();
 
-        return items.Select(item => MapItem(userId, item)).ToList();
+        return items
+            .Where(item => !_paymentAccess.IsContentLocked(userId, ResolveAccessTier(item), ResolvePackageCode(item)))
+            .Select(item => MapItem(userId, item))
+            .ToList();
     }
 
-    public async Task<List<VocabularyPracticeCardDto>?> GetLessonPracticeCardsAsync(Guid lessonId, string mode)
+    public async Task<List<VocabularyPracticeCardDto>?> GetLessonPracticeCardsAsync(Guid userId, Guid lessonId, string mode)
     {
         var normalizedMode = VocabularyPracticeModes.Normalize(mode);
-        var lessonExists = await _db.StaticVocabularyLessons.AnyAsync(lesson => lesson.Id == lessonId);
-        if (!lessonExists)
+        var lesson = await _db.StaticVocabularyLessons.FirstOrDefaultAsync(item => item.Id == lessonId);
+        if (lesson == null)
+        {
+            return null;
+        }
+
+        if (_paymentAccess.IsContentLocked(userId, lesson.AccessTier, lesson.PackageCode))
         {
             return null;
         }
@@ -195,8 +215,15 @@ public class StaticVocabularyService : IStaticVocabularyService
 
     private async Task<StaticVocabularyProgressDto?> UpdateProgressAsync(Guid userId, Guid itemId, Action<UserVocabularyProgress> update)
     {
-        var exists = await _db.StaticVocabularyItems.AnyAsync(item => item.Id == itemId);
-        if (!exists)
+        var item = await _db.StaticVocabularyItems
+            .Include(vocabulary => vocabulary.Lesson)
+            .FirstOrDefaultAsync(vocabulary => vocabulary.Id == itemId);
+        if (item == null)
+        {
+            return null;
+        }
+
+        if (_paymentAccess.IsContentLocked(userId, ResolveAccessTier(item), ResolvePackageCode(item)))
         {
             return null;
         }

@@ -34,7 +34,8 @@ public static partial class SpeakingSeedData
                 Code = SpeakingCourseCodes.JPD113,
                 Title = "JPD113",
                 Description = "Bài đọc luyện nói nền tảng cho JPD113.",
-                AccessTier = SpeakingAccessTiers.Free,
+                AccessTier = SpeakingAccessTiers.Premium,
+                PackageCode = "speaking_jpd113",
                 OrderIndex = 1,
                 CreatedAt = SeededAt,
                 UpdatedAt = SeededAt

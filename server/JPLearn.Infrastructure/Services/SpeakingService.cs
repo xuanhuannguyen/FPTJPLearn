@@ -113,7 +113,7 @@ public class SpeakingService : ISpeakingService
 
     private static string ResolveAccessTier(string? accessTier, string courseCode)
     {
-        return SpeakingCourseCodes.Normalize(courseCode) == SpeakingCourseCodes.JPD123
+        return SpeakingCourseCodes.IsValid(courseCode)
             ? SpeakingAccessTiers.Premium
             : string.IsNullOrWhiteSpace(accessTier)
                 ? SpeakingAccessTiers.Free
@@ -127,8 +127,9 @@ public class SpeakingService : ISpeakingService
             return packageCode.Trim().ToLowerInvariant();
         }
 
-        return SpeakingCourseCodes.Normalize(courseCode) == SpeakingCourseCodes.JPD123
-            ? "speaking_jpd123"
+        var normalizedCourse = SpeakingCourseCodes.Normalize(courseCode);
+        return SpeakingCourseCodes.IsValid(normalizedCourse)
+            ? $"speaking_{normalizedCourse}"
             : null;
     }
 
@@ -140,6 +141,7 @@ public class SpeakingService : ISpeakingService
             LessonId = sentence.LessonId,
             SentenceNumber = sentence.SentenceNumber,
             PlainText = sentence.PlainText,
+            Romaji = sentence.Romaji,
             ContentHtml = sentence.ContentHtml,
             MeaningVi = sentence.MeaningVi,
             OrderIndex = sentence.OrderIndex

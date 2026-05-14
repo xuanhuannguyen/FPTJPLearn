@@ -2,6 +2,7 @@ using System.Text.Json;
 using JPLearn.Core.Grammar;
 using JPLearn.Core.Grammar.DTOs;
 using JPLearn.Core.Grammar.Entities;
+using JPLearn.Core.Payments;
 using JPLearn.Infrastructure.Data;
 using Microsoft.EntityFrameworkCore;
 
@@ -10,16 +11,25 @@ namespace JPLearn.Infrastructure.Services;
 public class GrammarExerciseService : IGrammarExerciseService
 {
     private readonly AppDbContext _db;
+    private readonly IPaymentAccessService _paymentAccess;
 
-    public GrammarExerciseService(AppDbContext db)
+    public GrammarExerciseService(AppDbContext db, IPaymentAccessService paymentAccess)
     {
         _db = db;
+        _paymentAccess = paymentAccess;
     }
 
-    public async Task<List<GrammarExerciseDto>?> GetExercisesByPatternAsync(Guid patternId)
+    public async Task<List<GrammarExerciseDto>?> GetExercisesByPatternAsync(Guid userId, Guid patternId)
     {
-        var patternExists = await _db.GrammarPatterns.AnyAsync(pattern => pattern.Id == patternId);
-        if (!patternExists)
+        var pattern = await _db.GrammarPatterns
+            .Include(item => item.Lesson)
+            .FirstOrDefaultAsync(item => item.Id == patternId);
+        if (pattern == null)
+        {
+            return null;
+        }
+
+        if (IsPatternLocked(userId, pattern))
         {
             return null;
         }
@@ -35,8 +45,16 @@ public class GrammarExerciseService : IGrammarExerciseService
 
     public async Task<GrammarExerciseCheckResultDto?> CheckAnswerAsync(Guid userId, Guid exerciseId, CheckGrammarExerciseDto dto)
     {
-        var exercise = await _db.GrammarExercises.FirstOrDefaultAsync(item => item.Id == exerciseId);
+        var exercise = await _db.GrammarExercises
+            .Include(item => item.Pattern)
+            .ThenInclude(pattern => pattern.Lesson)
+            .FirstOrDefaultAsync(item => item.Id == exerciseId);
         if (exercise == null)
+        {
+            return null;
+        }
+
+        if (IsPatternLocked(userId, exercise.Pattern))
         {
             return null;
         }
@@ -71,16 +89,32 @@ public class GrammarExerciseService : IGrammarExerciseService
         };
     }
 
-    public async Task<GrammarExerciseAnswerDto?> RevealAnswerAsync(Guid exerciseId)
+    public async Task<GrammarExerciseAnswerDto?> RevealAnswerAsync(Guid userId, Guid exerciseId)
     {
-        var exercise = await _db.GrammarExercises.FirstOrDefaultAsync(item => item.Id == exerciseId);
+        var exercise = await _db.GrammarExercises
+            .Include(item => item.Pattern)
+            .ThenInclude(pattern => pattern.Lesson)
+            .FirstOrDefaultAsync(item => item.Id == exerciseId);
+        if (exercise != null && IsPatternLocked(userId, exercise.Pattern))
+        {
+            return null;
+        }
+
         return exercise == null ? null : GrammarService.MapExerciseAnswer(exercise);
     }
 
     public async Task<AiGrammarEvaluationResultDto?> EvaluateWithAiAsync(Guid userId, Guid exerciseId, AiEvaluateGrammarExerciseDto dto)
     {
-        var exercise = await _db.GrammarExercises.FirstOrDefaultAsync(item => item.Id == exerciseId);
+        var exercise = await _db.GrammarExercises
+            .Include(item => item.Pattern)
+            .ThenInclude(pattern => pattern.Lesson)
+            .FirstOrDefaultAsync(item => item.Id == exerciseId);
         if (exercise == null)
+        {
+            return null;
+        }
+
+        if (IsPatternLocked(userId, exercise.Pattern))
         {
             return null;
         }
@@ -138,6 +172,13 @@ public class GrammarExerciseService : IGrammarExerciseService
 
         var acceptedAnswers = GetAcceptedAnswers(exercise);
         return acceptedAnswers.Any(expected => NormalizeAnswer(expected) == answer);
+    }
+
+    private bool IsPatternLocked(Guid userId, GrammarPattern pattern)
+    {
+        var accessTier = GrammarService.ResolveAccessTier(pattern);
+        var packageCode = GrammarService.ResolvePackageCode(pattern) ?? pattern.Lesson.CourseCode;
+        return _paymentAccess.IsContentLocked(userId, accessTier, packageCode);
     }
 
     private static bool IsArrangeCorrect(GrammarExercise exercise, List<string>? selectedOptionOrder)

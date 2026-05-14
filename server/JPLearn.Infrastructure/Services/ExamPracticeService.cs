@@ -395,7 +395,7 @@ public class ExamPracticeService : IExamPracticeService
 
     private static string ResolveCourseAccessTier(ExamCourse course)
     {
-        return course.Code == ExamCourseCodes.JPD123
+        return ExamCourseCodes.All.Contains(course.Code)
             ? PaymentAccessTiers.Premium
             : string.IsNullOrWhiteSpace(course.AccessTier)
                 ? PaymentAccessTiers.Free

@@ -91,6 +91,11 @@ public class KanjiService : IKanjiService
             return null;
         }
 
+        if (_paymentAccess.IsContentLocked(userId, lesson.AccessTier, lesson.PackageCode))
+        {
+            return null;
+        }
+
         return new KanjiLessonDetailDto
         {
             Lesson = MapLesson(userId, lesson),
@@ -115,7 +120,14 @@ public class KanjiService : IKanjiService
             .AsSplitQuery()
             .FirstOrDefaultAsync(kanji => kanji.Id == kanjiItemId);
 
-        return item == null ? null : MapKanjiDetail(userId, item);
+        if (item == null)
+        {
+            return null;
+        }
+
+        var accessTier = ResolveAccessTier(item);
+        var packageCode = ResolvePackageCode(item);
+        return _paymentAccess.IsContentLocked(userId, accessTier, packageCode) ? null : MapKanjiDetail(userId, item);
     }
 
     public async Task<List<KanjiItemDto>> SearchAsync(Guid userId, string query)
@@ -141,7 +153,10 @@ public class KanjiService : IKanjiService
             .Take(50)
             .ToListAsync();
 
-        return items.Select(item => MapKanjiItem(userId, item)).ToList();
+        return items
+            .Where(item => !_paymentAccess.IsContentLocked(userId, ResolveAccessTier(item), ResolvePackageCode(item)))
+            .Select(item => MapKanjiItem(userId, item))
+            .ToList();
     }
 
     public Task<KanjiProgressDto?> RecordViewAsync(Guid userId, Guid kanjiItemId)
@@ -181,8 +196,15 @@ public class KanjiService : IKanjiService
 
     private async Task<KanjiProgressDto?> UpdateProgressAsync(Guid userId, Guid kanjiItemId, Action<UserKanjiProgress> update)
     {
-        var exists = await _db.KanjiItems.AnyAsync(item => item.Id == kanjiItemId);
-        if (!exists)
+        var item = await _db.KanjiItems
+            .Include(kanji => kanji.Lesson)
+            .FirstOrDefaultAsync(kanji => kanji.Id == kanjiItemId);
+        if (item == null)
+        {
+            return null;
+        }
+
+        if (_paymentAccess.IsContentLocked(userId, ResolveAccessTier(item), ResolvePackageCode(item)))
         {
             return null;
         }

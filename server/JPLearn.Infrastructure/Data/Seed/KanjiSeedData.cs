@@ -3950,7 +3950,7 @@ kvg:type CDATA #IMPLIED >
         var lesson4Id = Guid.Parse("dbebdd02-f36c-58da-9c3f-8335e2f73e18");
         if (!await db.KanjiLessons.AnyAsync(l => l.Id == lesson4Id))
         {
-            db.KanjiLessons.Add(new KanjiLesson { Id = lesson4Id, Level = "N3", LessonNumber = 4, Title = "Địa điểm và Phương hướng", Description = "Địa điểm và Phương hướng - JPD123 Kanji N3.", AccessTier = "premium", PackageCode = "kanji_jpd123", OrderIndex = 4, CreatedAt = SeededAt, UpdatedAt = SeededAt });
+            db.KanjiLessons.Add(new KanjiLesson { Id = lesson4Id, Level = "N3", LessonNumber = 4, Title = "Địa điểm và Phương hướng", Description = "Địa điểm và Phương hướng - JPD123 Kanji N3.", AccessTier = "free", PackageCode = "kanji_jpd123", OrderIndex = 4, CreatedAt = SeededAt, UpdatedAt = SeededAt });
         }
 
         var kanjiItems4 = new List<KanjiItem>

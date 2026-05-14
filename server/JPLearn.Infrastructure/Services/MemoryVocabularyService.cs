@@ -1,6 +1,7 @@
 using JPLearn.Core.Memory;
 using JPLearn.Core.Memory.DTOs;
 using JPLearn.Core.Memory.Entities;
+using JPLearn.Core.Payments;
 using JPLearn.Infrastructure.Data;
 using Microsoft.EntityFrameworkCore;
 
@@ -10,11 +11,13 @@ public class MemoryVocabularyService : IMemoryVocabularyService
 {
     private readonly AppDbContext _db;
     private readonly IMemorySrsService _srsService;
+    private readonly IPaymentAccessService _paymentAccess;
 
-    public MemoryVocabularyService(AppDbContext db, IMemorySrsService srsService)
+    public MemoryVocabularyService(AppDbContext db, IMemorySrsService srsService, IPaymentAccessService paymentAccess)
     {
         _db = db;
         _srsService = srsService;
+        _paymentAccess = paymentAccess;
     }
 
     public async Task<AddVocabularyToMemoryResultDto?> AddFromItemAsync(Guid userId, Guid vocabularyItemId)
@@ -24,6 +27,18 @@ public class MemoryVocabularyService : IMemoryVocabularyService
             .FirstOrDefaultAsync(item => item.Id == vocabularyItemId);
 
         if (vocabularyItem == null)
+        {
+            return null;
+        }
+
+        var accessTier = string.IsNullOrWhiteSpace(vocabularyItem.AccessTierOverride)
+            ? vocabularyItem.Lesson?.AccessTier
+            : vocabularyItem.AccessTierOverride;
+        var packageCode = string.IsNullOrWhiteSpace(vocabularyItem.PackageCodeOverride)
+            ? vocabularyItem.Lesson?.PackageCode
+            : vocabularyItem.PackageCodeOverride;
+
+        if (_paymentAccess.IsContentLocked(userId, accessTier, packageCode))
         {
             return null;
         }

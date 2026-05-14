@@ -125,7 +125,7 @@ public class GrammarController : ApiControllerBase
     [HttpGet("patterns/{patternId}/exercises")]
     public async Task<IActionResult> GetPatternExercises(Guid patternId)
     {
-        var exercises = await _exerciseService.GetExercisesByPatternAsync(patternId);
+        var exercises = await _exerciseService.GetExercisesByPatternAsync(CurrentUserId, patternId);
         if (exercises == null)
         {
             return NotFound(new { message = "Grammar pattern not found" });
@@ -149,7 +149,7 @@ public class GrammarController : ApiControllerBase
     [HttpGet("exercises/{exerciseId}/answer")]
     public async Task<IActionResult> RevealExerciseAnswer(Guid exerciseId)
     {
-        var result = await _exerciseService.RevealAnswerAsync(exerciseId);
+        var result = await _exerciseService.RevealAnswerAsync(CurrentUserId, exerciseId);
         if (result == null)
         {
             return NotFound(new { message = "Grammar exercise not found" });

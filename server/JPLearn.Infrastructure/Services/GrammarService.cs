@@ -93,13 +93,23 @@ public class GrammarService : IGrammarService
             .ThenInclude(pattern => pattern.ProgressRecords.Where(progress => progress.UserId == userId))
             .FirstOrDefaultAsync(item => item.Id == lessonId);
 
-        return lesson == null ? null : MapLesson(userId, lesson);
+        if (lesson == null)
+        {
+            return null;
+        }
+
+        return IsLessonLocked(userId, lesson) ? null : MapLesson(userId, lesson);
     }
 
     public async Task<List<GrammarPatternDto>?> GetLessonPatternsAsync(Guid userId, Guid lessonId)
     {
-        var exists = await _db.GrammarLessons.AnyAsync(lesson => lesson.Id == lessonId);
-        if (!exists)
+        var lesson = await _db.GrammarLessons.FirstOrDefaultAsync(item => item.Id == lessonId);
+        if (lesson == null)
+        {
+            return null;
+        }
+
+        if (IsLessonLocked(userId, lesson))
         {
             return null;
         }
@@ -111,7 +121,10 @@ public class GrammarService : IGrammarService
             .OrderBy(pattern => pattern.OrderIndex)
             .ToListAsync();
 
-        return patterns.Select(pattern => MapPattern(pattern, userId)).ToList();
+        return patterns
+            .Where(pattern => !IsPatternLocked(userId, pattern))
+            .Select(pattern => MapPattern(pattern, userId))
+            .ToList();
     }
 
     public async Task<GrammarPatternDetailDto?> GetPatternDetailAsync(Guid userId, Guid patternId)
@@ -123,7 +136,12 @@ public class GrammarService : IGrammarService
             .Include(item => item.ProgressRecords.Where(progress => progress.UserId == userId))
             .FirstOrDefaultAsync(item => item.Id == patternId);
 
-        return pattern == null ? null : MapPatternDetail(pattern, userId);
+        if (pattern == null)
+        {
+            return null;
+        }
+
+        return IsPatternLocked(userId, pattern) ? null : MapPatternDetail(pattern, userId);
     }
 
     public async Task<List<GrammarPatternDto>> SearchPatternsAsync(Guid userId, string query)
@@ -175,6 +193,19 @@ public class GrammarService : IGrammarService
             MasteredCount = progress.Count(item => item.Level >= ReviewLevels.Mastered),
             DueCount = progress.Count(item => item.NextReviewAt <= DateTime.UtcNow)
         };
+    }
+
+    private bool IsLessonLocked(Guid userId, GrammarLesson lesson)
+    {
+        return _paymentAccess.IsContentLocked(userId, lesson.AccessTier, lesson.PackageCode ?? lesson.CourseCode);
+    }
+
+    private bool IsPatternLocked(Guid userId, GrammarPattern pattern)
+    {
+        return _paymentAccess.IsContentLocked(
+            userId,
+            ResolveAccessTier(pattern),
+            ResolvePackageCode(pattern) ?? pattern.Lesson.CourseCode);
     }
 
     private GrammarPatternDto MapPattern(GrammarPattern pattern, Guid userId)
