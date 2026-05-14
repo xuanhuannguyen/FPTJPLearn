@@ -10,11 +10,11 @@ export const AppLogo = ({
   alt = 'JPLearn',
 }: AppLogoProps) => {
   return (
-    <span className={`block shrink-0 overflow-hidden bg-slate-950 ${className}`}>
+    <span className={`flex items-center justify-center bg-white overflow-hidden ${className}`}>
       <img
         src="/logo.png"
         alt={alt}
-        className={`h-full w-full object-cover object-center ${imageClassName}`}
+        className={`h-full w-full object-contain ${imageClassName}`}
         draggable={false}
       />
     </span>

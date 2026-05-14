@@ -25,7 +25,7 @@ export const Sidebar = () => {
     <aside className="hidden h-screen w-[78px] flex-shrink-0 sticky top-0 bg-white md:flex">
       <div className="flex h-full w-full flex-col items-center border-r border-slate-100 bg-white overflow-y-auto scrollbar-hide">
       <div className="sticky top-0 z-10 flex h-16 w-full shrink-0 items-center justify-center border-b border-slate-100 bg-white">
-        <AppLogo className="h-10 w-14 rounded-lg border border-slate-200 shadow-pop" />
+        <AppLogo className="h-11 w-11 rounded-xl border border-slate-100 shadow-sm" imageClassName="p-1" />
       </div>
 
       <nav className="w-full space-y-2 px-1 py-4">

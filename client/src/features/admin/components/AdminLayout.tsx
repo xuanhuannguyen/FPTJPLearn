@@ -80,7 +80,7 @@ export const AdminLayout = () => {
     <div className="min-h-screen bg-slate-950 text-slate-100">
       <aside className="fixed inset-y-0 left-0 hidden w-72 border-r border-slate-800 bg-slate-950/95 px-5 py-6 lg:block">
         <Link to={ADMIN_PATH} className="flex items-center gap-3">
-          <AppLogo className="h-11 w-16 rounded-xl border border-slate-700 shadow-[3px_3px_0_#020617]" />
+          <AppLogo className="h-11 w-11 rounded-xl border border-slate-700 shadow-[3px_3px_0_#020617]" />
           <div>
             <p className="font-heading text-xl font-black">JPLearn Admin</p>
             <p className="text-xs font-bold text-slate-400">Content operations</p>
