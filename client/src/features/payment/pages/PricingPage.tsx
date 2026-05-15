@@ -15,9 +15,9 @@ interface Package {
 }
 
 const packages: Package[] = [
-  { code: 'jpd113', name: 'JPD113', price: 60000, duration: '6 tháng' },
-  { code: 'jpd123', name: 'JPD123', price: 80000, duration: '6 tháng' },
-  { code: 'combo', name: 'Combo', price: 120000, originalPrice: 140000, duration: '6 tháng', discount: 'Tiết kiệm 14%' },
+  { code: 'jpd113', name: 'JPD113', price: 50000, duration: '6 tháng' },
+  { code: 'jpd123', name: 'JPD123', price: 50000, duration: '6 tháng' },
+  { code: 'combo', name: 'Combo', price: 80000, originalPrice: 100000, duration: '6 tháng', discount: 'Tiết kiệm 20%' },
 ];
 
 const features: Record<string, string[]> = {
