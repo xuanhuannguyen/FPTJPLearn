@@ -611,9 +611,21 @@ const TypingPracticeWorkspace = ({
   const inputRef = useRef<HTMLInputElement>(null);
   const onCloseRef = useRef(onClose);
   onCloseRef.current = onClose;
+  // flag tránh double-call khi exitFullscreen() trigger fullscreenchange
+  const isExitingRef = useRef(false);
   const [inputState, setInputState] = useState({ cardId: '', value: '' });
   const currentCard = cards[currentIndex];
   const value = currentCard && inputState.cardId === currentCard.itemId ? inputState.value : '';
+
+  // hàm duy nhất để thoát — tránh gọi onClose 2 lần
+  const doExit = () => {
+    if (isExitingRef.current) return;
+    isExitingRef.current = true;
+    if (document.fullscreenElement) {
+      document.exitFullscreen?.().catch(() => undefined);
+    }
+    onCloseRef.current();
+  };
 
   useEffect(() => {
     const root = rootRef.current;
@@ -621,23 +633,25 @@ const TypingPracticeWorkspace = ({
 
     root.requestFullscreen?.().catch(() => undefined);
 
+    // user bấm Escape hoặc API exit fullscreen từ bên ngoài
     const handleFullscreenChange = () => {
       if (document.fullscreenElement !== root) {
-        onCloseRef.current();
+        // nếu isExiting = true thì đang tự thoát, bỏ qua
+        if (!isExitingRef.current) {
+          doExit();
+        }
       }
     };
 
+    // user chuyển tab hoặc minimize
     const handleVisibilityChange = () => {
       if (document.visibilityState === 'hidden') {
-        if (document.fullscreenElement === root) {
-          document.exitFullscreen?.().catch(() => undefined);
-        }
-        onCloseRef.current();
+        doExit();
       }
     };
 
     const handlePageHide = () => {
-      onCloseRef.current();
+      doExit();
     };
 
     document.addEventListener('fullscreenchange', handleFullscreenChange);
@@ -648,6 +662,7 @@ const TypingPracticeWorkspace = ({
       document.removeEventListener('visibilitychange', handleVisibilityChange);
       window.removeEventListener('pagehide', handlePageHide);
     };
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   useEffect(() => {
@@ -668,11 +683,9 @@ const TypingPracticeWorkspace = ({
     onNext();
   };
 
+  // nút "Quay lại danh sách" và "Thoát" đều dùng doExit
   const closeTypingPractice = () => {
-    if (document.fullscreenElement === rootRef.current) {
-      document.exitFullscreen?.().catch(() => undefined);
-    }
-    onClose();
+    doExit();
   };
 
   return (
