@@ -1,8 +1,8 @@
-import { useEffect, useState } from 'react';
+import { useCallback, useEffect, useState } from 'react';
 import { useNavigate, useParams } from 'react-router-dom';
-import { ArrowLeft, ChevronLeft, ChevronRight, Eye, Languages, Loader2 } from 'lucide-react';
+import { ArrowLeft, ChevronLeft, ChevronRight, Eye, Languages, Loader2, Volume2, VolumeX } from 'lucide-react';
 import { speakingApi } from '../api/speakingApi';
-import type { SpeakingLesson, SpeakingLessonDetail } from '../types/speaking.types';
+import type { SpeakingLesson, SpeakingLessonDetail, SpeakingSentence } from '../types/speaking.types';
 
 export const SpeakingLessonPage = () => {
   const { courseCode, lessonId } = useParams<{ courseCode: string; lessonId: string }>();
@@ -64,10 +64,10 @@ export const SpeakingLessonPage = () => {
     ? lessons[currentLessonIndex + 1]
     : null;
 
-  const goToLesson = (targetLesson: SpeakingLesson | null) => {
+  const goToLesson = useCallback((targetLesson: SpeakingLesson | null) => {
     if (!courseCode || !targetLesson) return;
     navigate(`/speaking/${courseCode}/lessons/${targetLesson.id}`);
-  };
+  }, [courseCode, navigate]);
 
   useEffect(() => {
     const handleKeyDown = (event: KeyboardEvent) => {
@@ -86,7 +86,7 @@ export const SpeakingLessonPage = () => {
 
     window.addEventListener('keydown', handleKeyDown);
     return () => window.removeEventListener('keydown', handleKeyDown);
-  }, [courseCode, navigate, nextLesson, previousLesson]);
+  }, [goToLesson, nextLesson, previousLesson]);
 
   return (
     <div className="mx-auto max-w-6xl space-y-5 px-4 pb-20 pt-3 animate-fade-in">
@@ -166,10 +166,11 @@ export const SpeakingLessonPage = () => {
               key={sentence.id}
               className="rounded-[16px] border border-[#eadfd6] bg-white/90 p-4 shadow-[0_12px_30px_rgba(139,58,34,0.06)]"
             >
-              <div className="mb-3 flex items-center gap-2">
+              <div className="mb-3 flex items-center justify-between gap-3">
                 <span className="text-xs font-black uppercase tracking-[0.18em] text-[#8B3A22]">
                   Câu {sentence.sentenceNumber}
                 </span>
+                <SpeakingSentenceAudioButton sentence={sentence} />
               </div>
 
               <div
@@ -219,5 +220,66 @@ export const SpeakingLessonPage = () => {
         </section>
       ) : null}
     </div>
+  );
+};
+
+type SpeakingSentenceAudioButtonProps = {
+  sentence: SpeakingSentence;
+};
+
+const canUseSpeech = () => typeof window !== 'undefined' && 'speechSynthesis' in window;
+
+const SpeakingSentenceAudioButton = ({ sentence }: SpeakingSentenceAudioButtonProps) => {
+  const [isSpeaking, setIsSpeaking] = useState(false);
+  const supported = canUseSpeech();
+  const speechText = sentence.plainText.trim();
+
+  useEffect(() => {
+    return () => {
+      if (canUseSpeech()) {
+        window.speechSynthesis.cancel();
+      }
+    };
+  }, [sentence.id]);
+
+  const speak = useCallback(() => {
+    if (!supported || !speechText) {
+      return;
+    }
+
+    window.speechSynthesis.cancel();
+
+    const utterance = new SpeechSynthesisUtterance(speechText);
+    utterance.lang = 'ja-JP';
+    utterance.rate = 0.82;
+    utterance.pitch = 1;
+    utterance.onstart = () => setIsSpeaking(true);
+    utterance.onend = () => setIsSpeaking(false);
+    utterance.onerror = () => setIsSpeaking(false);
+
+    window.speechSynthesis.speak(utterance);
+  }, [speechText, supported]);
+
+  const stop = () => {
+    if (!supported) {
+      return;
+    }
+
+    window.speechSynthesis.cancel();
+    setIsSpeaking(false);
+  };
+
+  return (
+    <button
+      type="button"
+      onClick={isSpeaking ? stop : speak}
+      disabled={!supported || !speechText}
+      className="inline-flex h-10 shrink-0 items-center justify-center gap-2 rounded-full border-2 border-slate-900 bg-white px-3 text-xs font-black text-[#8B3A22] shadow-[3px_3px_0_#111827] transition-all hover:translate-x-[1px] hover:translate-y-[1px] hover:bg-[#fff7ed] hover:shadow-[2px_2px_0_#111827] disabled:pointer-events-none disabled:opacity-40"
+      aria-label={isSpeaking ? `Dừng đọc câu ${sentence.sentenceNumber}` : `Đọc câu ${sentence.sentenceNumber}`}
+      title={supported ? 'Đọc câu tiếng Nhật' : 'Trình duyệt không hỗ trợ đọc tự động'}
+    >
+      {isSpeaking ? <VolumeX size={17} /> : <Volume2 size={17} />}
+      <span>{isSpeaking ? 'Dừng' : 'Nghe câu'}</span>
+    </button>
   );
 };
