@@ -284,7 +284,7 @@ export const VocabularyLessonPage = () => {
               {detail.lesson.title}
             </h1>
           </div>
-          <div className="flex flex-wrap gap-2">
+          <div className="grid w-full grid-cols-1 gap-2 sm:grid-cols-3 md:w-auto">
             <button
               type="button"
               onClick={() => startPractice('flashcard')}
@@ -295,19 +295,19 @@ export const VocabularyLessonPage = () => {
             </button>
             <button
               type="button"
-              onClick={() => startPractice('multichoice')}
-              className="inline-flex h-11 items-center gap-2 rounded-xl border-2 border-slate-800 bg-accent-cta px-4 text-sm font-black text-white shadow-pop transition-all hover:-translate-y-0.5"
-            >
-              <ListChecks size={18} />
-              Multichoice
-            </button>
-            <button
-              type="button"
               onClick={() => startPractice('typing')}
-              className="inline-flex h-11 items-center gap-2 rounded-xl border-2 border-slate-800 bg-slate-900 px-4 text-sm font-black text-white shadow-pop transition-all hover:-translate-y-0.5"
+              className="inline-flex h-11 items-center justify-center gap-2 rounded-xl border-2 border-slate-800 bg-slate-900 px-4 text-sm font-black text-white shadow-pop transition-all hover:-translate-y-0.5"
             >
               <Keyboard size={18} />
               Gõ
+            </button>
+            <button
+              type="button"
+              onClick={() => startPractice('multichoice')}
+              className="inline-flex h-11 items-center justify-center gap-2 rounded-xl border-2 border-slate-800 bg-accent-cta px-4 text-sm font-black text-white shadow-pop transition-all hover:-translate-y-0.5"
+            >
+              <ListChecks size={18} />
+              Multichoice
             </button>
           </div>
         </div>
