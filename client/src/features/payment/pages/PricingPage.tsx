@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { apiClient } from '../../../shared/api/axios';
 import { useAuthStore } from '../../../shared/stores/authStore';
+import { isFreeExperienceEnabled } from '../../../shared/config/features';
 import { Crown, Zap, Star, Check, Loader2 } from 'lucide-react';
 import './PricingPage.css';
 
@@ -142,6 +143,8 @@ export function PricingPage() {
   };
 
   const handleBuy = async (packageCode: string) => {
+    if (isFreeExperienceEnabled) return;
+
     if (!user) {
       navigate('/login');
       return;
@@ -181,8 +184,14 @@ export function PricingPage() {
   return (
     <div className="pricing-page">
       <div className="pricing-header">
-        <h1 className="pricing-title">Mở khóa toàn bộ nội dung</h1>
-        <p className="pricing-subtitle">Chọn gói phù hợp với bạn để truy cập đầy đủ bài học</p>
+        <h1 className="pricing-title">
+          {isFreeExperienceEnabled ? 'Toàn bộ nội dung đang mở miễn phí' : 'Mở khóa toàn bộ nội dung'}
+        </h1>
+        <p className="pricing-subtitle">
+          {isFreeExperienceEnabled
+            ? 'Tính năng mua Premium đang tạm tắt trong thời gian trải nghiệm.'
+            : 'Chọn gói phù hợp với bạn để truy cập đầy đủ bài học'}
+        </p>
       </div>
 
       <div className="pricing-grid">
@@ -218,16 +227,18 @@ export function PricingPage() {
             <button
               className={`pricing-card-btn ${pkg.code === 'combo' ? 'pricing-card-btn--featured' : ''} ${isPackageLocked(pkg.code) ? 'pricing-card-btn--locked' : ''}`}
               onClick={() => handleBuy(pkg.code)}
-              disabled={loading !== null || isSubsLoading || isPackageLocked(pkg.code)}
+              disabled={isFreeExperienceEnabled || loading !== null || isSubsLoading || isPackageLocked(pkg.code)}
             >
-              {getButtonText(pkg)}
+              {isFreeExperienceEnabled ? 'Đang mở miễn phí' : getButtonText(pkg)}
             </button>
           </div>
         ))}
       </div>
 
       <p className="pricing-note">
-        Thanh toán qua chuyển khoản ngân hàng • Mở khóa tự động trong vài giây
+        {isFreeExperienceEnabled
+          ? 'Bạn có thể học toàn bộ nội dung mà không cần mua gói Premium.'
+          : 'Thanh toán qua chuyển khoản ngân hàng • Mở khóa tự động trong vài giây'}
       </p>
 
       {/* Payment Modal */}

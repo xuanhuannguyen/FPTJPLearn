@@ -1,5 +1,6 @@
 import { Lock, Crown } from 'lucide-react';
 import { useNavigate } from 'react-router-dom';
+import { isFreeExperienceEnabled } from '../config/features';
 import './PremiumLock.css';
 
 interface PremiumLockProps {
@@ -11,6 +12,7 @@ interface PremiumLockProps {
 export function PremiumLock({ isLocked, packageCode, children }: PremiumLockProps) {
   const navigate = useNavigate();
 
+  if (isFreeExperienceEnabled) return <>{children}</>;
   if (!isLocked) return <>{children}</>;
 
   return (

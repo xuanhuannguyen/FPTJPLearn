@@ -4,22 +4,25 @@ using JPLearn.Core.Vocabulary.DTOs;
 using JPLearn.Core.Vocabulary.Entities;
 using JPLearn.Core.Review;
 using JPLearn.Infrastructure.Data;
+using Microsoft.Extensions.Configuration;
 
 namespace JPLearn.Infrastructure.Services;
 
 public class VocabularyService : IVocabularyService
 {
     private readonly AppDbContext _db;
+    private readonly IConfiguration _configuration;
 
-    public VocabularyService(AppDbContext db)
+    public VocabularyService(AppDbContext db, IConfiguration configuration)
     {
         _db = db;
+        _configuration = configuration;
     }
 
     public async Task<Guid> ImportAsync(Guid userId, ImportVocabularyDto dto)
     {
         // 1. Kiểm tra quyền Premium (bất kỳ khóa nào còn hạn)
-        var isPremium = await _db.Subscriptions.AnyAsync(s => 
+        var isPremium = IsFreeExperienceEnabled() || await _db.Subscriptions.AnyAsync(s => 
             s.UserId == userId && s.ExpiresAt > DateTime.UtcNow);
 
         if (isPremium)
@@ -251,7 +254,7 @@ public class VocabularyService : IVocabularyService
 
     public async Task<VocabularyQuotaDto> GetQuotaAsync(Guid userId)
     {
-        var isPremium = await _db.Subscriptions.AnyAsync(s => 
+        var isPremium = IsFreeExperienceEnabled() || await _db.Subscriptions.AnyAsync(s => 
             s.UserId == userId && s.ExpiresAt > DateTime.UtcNow);
 
         if (isPremium)
@@ -282,5 +285,10 @@ public class VocabularyService : IVocabularyService
                 Period = "total"
             };
         }
+    }
+
+    private bool IsFreeExperienceEnabled()
+    {
+        return !bool.TryParse(_configuration["Payments:FreeExperienceEnabled"], out var isEnabled) || isEnabled;
     }
 }

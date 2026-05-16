@@ -1,19 +1,25 @@
 using JPLearn.Core.Payments;
 using JPLearn.Infrastructure.Data;
+using Microsoft.Extensions.Configuration;
 
 namespace JPLearn.Infrastructure.Services;
 
 public class PaymentAccessService : IPaymentAccessService
 {
     private readonly AppDbContext _db;
+    private readonly IConfiguration _configuration;
 
-    public PaymentAccessService(AppDbContext db)
+    public PaymentAccessService(AppDbContext db, IConfiguration configuration)
     {
         _db = db;
+        _configuration = configuration;
     }
 
     public bool HasContentAccess(Guid userId, string? accessTier, string? packageCode)
     {
+        if (IsFreeExperienceEnabled())
+            return true;
+
         var normalizedTier = string.IsNullOrWhiteSpace(accessTier)
             ? PaymentAccessTiers.Free
             : accessTier.Trim().ToLowerInvariant();
@@ -50,5 +56,10 @@ public class PaymentAccessService : IPaymentAccessService
         if (code.Contains("jpd123")) return "jpd123";
 
         return code;
+    }
+
+    private bool IsFreeExperienceEnabled()
+    {
+        return !bool.TryParse(_configuration["Payments:FreeExperienceEnabled"], out var isEnabled) || isEnabled;
     }
 }
