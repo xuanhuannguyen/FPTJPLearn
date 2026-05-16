@@ -609,6 +609,8 @@ const TypingPracticeWorkspace = ({
 }: TypingPracticeWorkspaceProps) => {
   const rootRef = useRef<HTMLDivElement>(null);
   const inputRef = useRef<HTMLInputElement>(null);
+  const onCloseRef = useRef(onClose);
+  onCloseRef.current = onClose;
   const [inputState, setInputState] = useState({ cardId: '', value: '' });
   const currentCard = cards[currentIndex];
   const value = currentCard && inputState.cardId === currentCard.itemId ? inputState.value : '';
@@ -620,21 +622,22 @@ const TypingPracticeWorkspace = ({
     root.requestFullscreen?.().catch(() => undefined);
 
     const handleFullscreenChange = () => {
-      if (document.fullscreenElement !== root && !isCompleted) {
-        onClose();
+      if (document.fullscreenElement !== root) {
+        onCloseRef.current();
       }
     };
 
     const handleVisibilityChange = () => {
-      if (document.visibilityState === 'hidden' && !isCompleted) {
-        onClose();
+      if (document.visibilityState === 'hidden') {
+        if (document.fullscreenElement === root) {
+          document.exitFullscreen?.().catch(() => undefined);
+        }
+        onCloseRef.current();
       }
     };
 
     const handlePageHide = () => {
-      if (!isCompleted) {
-        onClose();
-      }
+      onCloseRef.current();
     };
 
     document.addEventListener('fullscreenchange', handleFullscreenChange);
@@ -645,7 +648,7 @@ const TypingPracticeWorkspace = ({
       document.removeEventListener('visibilitychange', handleVisibilityChange);
       window.removeEventListener('pagehide', handlePageHide);
     };
-  }, [isCompleted, onClose]);
+  }, []);
 
   useEffect(() => {
     inputRef.current?.focus();
