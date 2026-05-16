@@ -1,15 +1,24 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useRef } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
-import { ArrowLeft, Brain, CheckCircle2, CreditCard, ListChecks, Loader2, RotateCcw, X } from 'lucide-react';
+import { ArrowLeft, Brain, CheckCircle2, CreditCard, Keyboard, ListChecks, Loader2, RotateCcw, X } from 'lucide-react';
 import { FlashcardMode } from '../../review/components/FlashcardMode';
 import { MultipleChoiceMode } from '../../review/components/MultipleChoiceMode';
 import type { ReviewCard } from '../../review/types';
 import { staticVocabularyApi } from '../api/vocabularyApi';
 import type { StaticVocabularyLessonDetail, VocabularyPracticeCard } from '../types/vocabulary.types';
 
-type PracticeMode = 'flashcard' | 'multichoice';
+type PracticeMode = 'flashcard' | 'multichoice' | 'typing';
 type PracticeDirection = 'jp_to_vi' | 'vi_to_jp';
 type AnswerState = 'correct' | 'wrong' | null;
+
+type TypingAnswer = {
+  itemId: string;
+  prompt: string;
+  input: string;
+  expected: string;
+  word: string;
+  correct: boolean;
+};
 
 export const VocabularyLessonPage = () => {
   const { courseCode, lessonId } = useParams<{ courseCode: string; lessonId: string }>();
@@ -29,6 +38,7 @@ export const VocabularyLessonPage = () => {
   const [isShuffleEnabled, setIsShuffleEnabled] = useState(false);
   const [answerState, setAnswerState] = useState<AnswerState>(null);
   const [correctCount, setCorrectCount] = useState(0);
+  const [typingAnswers, setTypingAnswers] = useState<TypingAnswer[]>([]);
 
   useEffect(() => {
     const fetchLessonDetail = async () => {
@@ -110,6 +120,7 @@ export const VocabularyLessonPage = () => {
       setIsShuffleEnabled(false);
       setAnswerState(null);
       setCorrectCount(0);
+      setTypingAnswers([]);
       const data = await staticVocabularyApi.getPracticeCards(lessonId, mode);
       setPracticeCards(data.cards);
     } catch (error) {
@@ -129,6 +140,7 @@ export const VocabularyLessonPage = () => {
     setIsShuffleEnabled(false);
     setAnswerState(null);
     setCorrectCount(0);
+    setTypingAnswers([]);
     setPracticeError('');
   };
 
@@ -138,7 +150,43 @@ export const VocabularyLessonPage = () => {
       return;
     }
 
+    if (mode === 'typing') {
+      await staticVocabularyApi.recordTypingPractice(itemId);
+      return;
+    }
+
     await staticVocabularyApi.recordMultipleChoicePractice(itemId);
+  };
+
+  const recordTypingAnswer = async (card: VocabularyPracticeCard, input: string, correct: boolean) => {
+    setTypingAnswers((prev) => [
+      ...prev,
+      {
+        itemId: card.itemId,
+        prompt: card.meaning,
+        input,
+        expected: getTypingAnswer(card),
+        word: card.word,
+        correct,
+      },
+    ]);
+
+    if (correct) {
+      setCorrectCount((prev) => prev + 1);
+    }
+
+    try {
+      setPracticeError('');
+      await staticVocabularyApi.recordTypingPractice(card.itemId);
+    } catch (error) {
+      console.error('Failed to record typing practice:', error);
+      setPracticeError('Không lưu được lượt gõ từ vựng.');
+    }
+  };
+
+  const finishTypingPractice = () => {
+    setPracticeIndex(practiceCards.length);
+    setAnswerState(null);
   };
 
   const goToNextPracticeCard = () => {
@@ -253,6 +301,14 @@ export const VocabularyLessonPage = () => {
               <ListChecks size={18} />
               Multichoice
             </button>
+            <button
+              type="button"
+              onClick={() => startPractice('typing')}
+              className="inline-flex h-11 items-center gap-2 rounded-xl border-2 border-slate-800 bg-slate-900 px-4 text-sm font-black text-white shadow-pop transition-all hover:-translate-y-0.5"
+            >
+              <Keyboard size={18} />
+              Gõ
+            </button>
           </div>
         </div>
       </header>
@@ -274,12 +330,15 @@ export const VocabularyLessonPage = () => {
           correctCount={correctCount}
           direction={practiceDirection}
           isShuffleEnabled={isShuffleEnabled}
+          typingAnswers={typingAnswers}
           onFlip={() => setIsBackVisible((prev) => !prev)}
           onAnswerFlashcard={answerFlashcard}
           onAnswerMultipleChoice={answerMultipleChoice}
+          onAnswerTyping={recordTypingAnswer}
           onNext={goToNextPracticeCard}
           onRestart={() => startPractice(practiceMode)}
           onClose={closePractice}
+          onFinishTyping={finishTypingPractice}
           onToggleDirection={() => setPracticeDirection((prev) => prev === 'jp_to_vi' ? 'vi_to_jp' : 'jp_to_vi')}
           onToggleShuffle={shuffleRemainingCards}
         />
@@ -370,12 +429,15 @@ type PracticeWorkspaceProps = {
   correctCount: number;
   direction: PracticeDirection;
   isShuffleEnabled: boolean;
+  typingAnswers: TypingAnswer[];
   onFlip: () => void;
   onAnswerFlashcard: (quality: number, correct: boolean) => void;
   onAnswerMultipleChoice: (correct: boolean) => void;
+  onAnswerTyping: (card: VocabularyPracticeCard, input: string, correct: boolean) => void;
   onNext: () => void;
   onRestart: () => void;
   onClose: () => void;
+  onFinishTyping: () => void;
   onToggleDirection: () => void;
   onToggleShuffle: () => void;
 };
@@ -390,18 +452,21 @@ const PracticeWorkspace = ({
   correctCount,
   direction,
   isShuffleEnabled,
+  typingAnswers,
   onFlip,
   onAnswerFlashcard,
   onAnswerMultipleChoice,
+  onAnswerTyping,
   onNext,
   onRestart,
   onClose,
+  onFinishTyping,
   onToggleDirection,
   onToggleShuffle,
 }: PracticeWorkspaceProps) => {
   const currentCard = cards[currentIndex];
   const isCompleted = !isLoading && cards.length > 0 && currentIndex >= cards.length;
-  const title = mode === 'flashcard' ? 'Flashcard' : 'Multichoice';
+  const title = mode === 'flashcard' ? 'Flashcard' : mode === 'typing' ? 'Gõ' : 'Multichoice';
   const reviewCard = currentCard ? toReviewCard(currentCard) : null;
   const options = currentCard ? buildOptions(currentCard, cards, direction) : [];
 
@@ -424,6 +489,23 @@ const PracticeWorkspace = ({
           Quay lại danh sách
         </button>
       </div>
+    );
+  }
+
+  if (mode === 'typing') {
+    return (
+      <TypingPracticeWorkspace
+        cards={cards}
+        currentIndex={currentIndex}
+        correctCount={correctCount}
+        answers={typingAnswers}
+        isCompleted={isCompleted}
+        onAnswer={onAnswerTyping}
+        onNext={onNext}
+        onRestart={onRestart}
+        onClose={onClose}
+        onFinish={onFinishTyping}
+      />
     );
   }
 
@@ -511,6 +593,211 @@ const PracticeWorkspace = ({
   );
 };
 
+type TypingPracticeWorkspaceProps = {
+  cards: VocabularyPracticeCard[];
+  currentIndex: number;
+  correctCount: number;
+  answers: TypingAnswer[];
+  isCompleted: boolean;
+  onAnswer: (card: VocabularyPracticeCard, input: string, correct: boolean) => void;
+  onNext: () => void;
+  onRestart: () => void;
+  onClose: () => void;
+  onFinish: () => void;
+};
+
+const TypingPracticeWorkspace = ({
+  cards,
+  currentIndex,
+  correctCount,
+  answers,
+  isCompleted,
+  onAnswer,
+  onNext,
+  onRestart,
+  onClose,
+  onFinish,
+}: TypingPracticeWorkspaceProps) => {
+  const rootRef = useRef<HTMLDivElement>(null);
+  const inputRef = useRef<HTMLInputElement>(null);
+  const [inputState, setInputState] = useState({ cardId: '', value: '' });
+  const currentCard = cards[currentIndex];
+  const value = currentCard && inputState.cardId === currentCard.itemId ? inputState.value : '';
+
+  useEffect(() => {
+    const root = rootRef.current;
+    if (!root) return;
+
+    root.requestFullscreen?.().catch(() => undefined);
+
+    const handleFullscreenChange = () => {
+      if (document.fullscreenElement !== root && !isCompleted) {
+        onFinish();
+      }
+    };
+
+    const handleVisibilityChange = () => {
+      if (document.visibilityState === 'hidden' && !isCompleted) {
+        onFinish();
+      }
+    };
+
+    const handlePageHide = () => {
+      if (!isCompleted) {
+        onFinish();
+      }
+    };
+
+    document.addEventListener('fullscreenchange', handleFullscreenChange);
+    document.addEventListener('visibilitychange', handleVisibilityChange);
+    window.addEventListener('pagehide', handlePageHide);
+    return () => {
+      document.removeEventListener('fullscreenchange', handleFullscreenChange);
+      document.removeEventListener('visibilitychange', handleVisibilityChange);
+      window.removeEventListener('pagehide', handlePageHide);
+    };
+  }, [isCompleted, onFinish]);
+
+  useEffect(() => {
+    inputRef.current?.focus();
+  }, [currentCard?.itemId]);
+
+  const submitAnswer = () => {
+    if (!currentCard) return;
+
+    const typed = value.trim();
+    if (!typed) return;
+
+    const correct = getTypingAcceptedAnswers(currentCard).some((answer) => (
+      normalizeTypingText(answer) === normalizeTypingText(typed)
+    ));
+
+    onAnswer(currentCard, typed, correct);
+    onNext();
+  };
+
+  const closeTypingPractice = () => {
+    if (document.fullscreenElement === rootRef.current) {
+      document.exitFullscreen?.().catch(() => undefined);
+    }
+    onClose();
+  };
+
+  return (
+    <section
+      ref={rootRef}
+      className="fixed inset-0 z-50 flex min-h-screen flex-col overflow-auto bg-slate-950 px-4 py-5 text-white md:px-8"
+    >
+      {isCompleted || !currentCard ? (
+        <div className="mx-auto flex w-full max-w-5xl flex-1 flex-col justify-center">
+          <div className="flex flex-col gap-3 border-b border-white/10 pb-5 md:flex-row md:items-end md:justify-between">
+            <div>
+              <p className="text-xs font-black uppercase tracking-[0.22em] text-emerald-300">Kết quả gõ</p>
+              <h2 className="mt-2 text-4xl font-black tracking-tight md:text-5xl">
+                {correctCount} / {cards.length} câu đúng
+              </h2>
+            </div>
+            <div className="flex gap-2">
+              <button type="button" onClick={onRestart} className="btn-secondary">
+                <RotateCcw size={18} />
+                Gõ lại
+              </button>
+              <button type="button" onClick={closeTypingPractice} className="btn-primary">
+                Quay lại danh sách
+              </button>
+            </div>
+          </div>
+
+          <div className="mt-6 grid gap-3 md:grid-cols-2">
+            {answers.map((answer, index) => (
+              <div
+                key={`${answer.itemId}-${index}`}
+                className={`rounded-2xl border-2 bg-white p-4 text-slate-900 ${
+                  answer.correct ? 'border-emerald-400' : 'border-rose-400'
+                }`}
+              >
+                <div className="flex items-start justify-between gap-3">
+                  <div>
+                    <p className="text-xs font-black uppercase tracking-widest text-slate-500">{answer.prompt}</p>
+                    <p className="mt-2 font-jp text-2xl font-black">{answer.expected}</p>
+                    {answer.word !== answer.expected && (
+                      <p className="mt-1 font-jp text-sm font-bold text-slate-500">{answer.word}</p>
+                    )}
+                  </div>
+                  <span className={`rounded-full px-2.5 py-1 text-xs font-black ${
+                    answer.correct ? 'bg-emerald-100 text-emerald-700' : 'bg-rose-100 text-rose-700'
+                  }`}>
+                    {answer.correct ? 'Đúng' : 'Sai'}
+                  </span>
+                </div>
+                {!answer.correct && (
+                  <p className="mt-3 text-sm font-bold text-slate-600">
+                    Bạn gõ: <span className="font-jp text-rose-600">{answer.input || 'Trống'}</span>
+                  </p>
+                )}
+              </div>
+            ))}
+          </div>
+        </div>
+      ) : (
+      <div className="mx-auto flex w-full max-w-4xl flex-1 flex-col">
+        <header className="flex items-center justify-between gap-4 border-b border-white/10 pb-4">
+          <div>
+            <p className="text-xs font-black uppercase tracking-[0.22em] text-cyan-300">Việt → Nhật</p>
+            <h2 className="text-2xl font-black">{currentIndex + 1} / {cards.length}</h2>
+          </div>
+          <button
+            type="button"
+            onClick={onFinish}
+            className="inline-flex h-10 items-center gap-2 rounded-xl border-2 border-white/20 bg-white/10 px-3 text-sm font-black text-white transition-all hover:bg-white/15"
+          >
+            <X size={16} />
+            Thoát
+          </button>
+        </header>
+
+        <div className="flex flex-1 flex-col items-center justify-center gap-8 py-8">
+          <div className="text-center">
+            <p className="text-sm font-black uppercase tracking-[0.2em] text-slate-400">Nghĩa tiếng Việt</p>
+            <p className="mt-4 text-4xl font-black leading-tight md:text-6xl">{currentCard.meaning}</p>
+            {currentCard.exampleMeaning && (
+              <p className="mt-4 text-lg font-bold text-slate-300">{currentCard.exampleMeaning}</p>
+            )}
+          </div>
+
+          <form
+            className="w-full max-w-2xl"
+            onSubmit={(event) => {
+              event.preventDefault();
+              submitAnswer();
+            }}
+          >
+            <input
+              ref={inputRef}
+              value={value}
+              onChange={(event) => setInputState({ cardId: currentCard.itemId, value: event.target.value })}
+              className="h-20 w-full rounded-2xl border-2 border-white/20 bg-white px-5 text-center font-jp text-3xl font-black text-slate-950 outline-none transition-all focus:border-cyan-300 focus:ring-4 focus:ring-cyan-300/20 md:h-24 md:text-5xl"
+              placeholder="ひらがな / カタカナ"
+              lang="ja"
+              autoCapitalize="none"
+              autoComplete="off"
+              autoCorrect="off"
+              spellCheck={false}
+            />
+            <button
+              type="submit"
+              className="mt-4 flex h-12 w-full items-center justify-center rounded-xl border-2 border-cyan-300 bg-cyan-300 text-sm font-black text-slate-950 transition-all hover:-translate-y-0.5"
+            >
+              Kiểm tra
+            </button>
+          </form>
+        </div>
+      </div>
+      )}
+    </section>
+  );
+};
+
 const toReviewCard = (card: VocabularyPracticeCard): ReviewCard => ({
   id: card.itemId,
   itemId: card.itemId,
@@ -528,6 +815,18 @@ const toReviewCard = (card: VocabularyPracticeCard): ReviewCard => ({
   lapseCount: 0,
   learningStepIndex: 0,
 });
+
+const getTypingAnswer = (card: VocabularyPracticeCard) => (
+  card.reading || card.correctAnswer || card.word
+);
+
+const getTypingAcceptedAnswers = (card: VocabularyPracticeCard) => (
+  Array.from(new Set([card.reading, card.correctAnswer, card.word].filter(Boolean)))
+);
+
+const normalizeTypingText = (value: string) => (
+  value.trim().replace(/\s+/g, '').toLowerCase()
+);
 
 const buildOptions = (
   card: VocabularyPracticeCard,
