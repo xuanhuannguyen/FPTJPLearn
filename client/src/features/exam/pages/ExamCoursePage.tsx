@@ -3,6 +3,7 @@ import { Link, useNavigate, useParams } from 'react-router-dom';
 import { ArrowLeft, BookOpenCheck, Crown, FileQuestion, Loader2, Play, Timer } from 'lucide-react';
 import { examApi } from '../api/examApi';
 import type { ExamCourse, ExamTopic } from '../types/exam.types';
+import { isFreeExperienceEnabled } from '../../../shared/config/features';
 
 export const ExamCoursePage = () => {
   const { courseCode } = useParams<{ courseCode: string }>();
@@ -47,7 +48,7 @@ export const ExamCoursePage = () => {
 
   const totalQuestions = useMemo(() => topics.reduce((sum, t) => sum + t.questionCount, 0), [topics]);
   const firstTopic = topics.find((t) => t.questionCount > 0)?.topic;
-  const isLocked = course?.isLocked === true;
+  const isLocked = !isFreeExperienceEnabled && course?.isLocked === true;
 
   const startExam = async () => {
     if (!courseCode) return;

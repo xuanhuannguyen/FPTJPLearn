@@ -4,6 +4,7 @@ import { Bell, Search, LogOut, Sparkles } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { useSearchStore } from '../stores/searchStore';
 import { useAuthStore } from '../stores/authStore';
+import { isFreeExperienceEnabled } from '../config/features';
 
 export const Navbar = () => {
   const location = useLocation();
@@ -55,13 +56,15 @@ export const Navbar = () => {
       </div>
       
       <div className="ml-4 flex items-center gap-2">
-        <Link 
-          to="/pricing"
-          className="mr-2 flex h-8 items-center gap-2 rounded-lg border-2 border-border bg-gradient-to-r from-blue-500 to-blue-600 px-3 text-white shadow-pop transition-all hover:-translate-y-0.5"
-        >
-          <Sparkles size={14} className="fill-current" />
-          <span className="text-[10px] font-black uppercase tracking-wider">Nâng cấp</span>
-        </Link>
+        {!isFreeExperienceEnabled ? (
+          <Link
+            to="/pricing"
+            className="mr-2 flex h-8 items-center gap-2 rounded-lg border-2 border-border bg-gradient-to-r from-blue-500 to-blue-600 px-3 text-white shadow-pop transition-all hover:-translate-y-0.5"
+          >
+            <Sparkles size={14} className="fill-current" />
+            <span className="text-[10px] font-black uppercase tracking-wider">Nâng cấp</span>
+          </Link>
+        ) : null}
 
         <button className="relative flex h-8 w-8 cursor-pointer items-center justify-center rounded-lg border-2 border-border bg-white/95 text-text-secondary shadow-pop transition-all hover:-translate-y-0.5 hover:text-text-primary">
           <Bell size={16} />
@@ -102,4 +105,3 @@ export const Navbar = () => {
     </header>
   );
 };
-
