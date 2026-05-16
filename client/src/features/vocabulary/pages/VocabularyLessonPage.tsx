@@ -184,11 +184,6 @@ export const VocabularyLessonPage = () => {
     }
   };
 
-  const finishTypingPractice = () => {
-    setPracticeIndex(practiceCards.length);
-    setAnswerState(null);
-  };
-
   const goToNextPracticeCard = () => {
     setPracticeIndex((prev) => prev + 1);
     setIsBackVisible(false);
@@ -338,7 +333,6 @@ export const VocabularyLessonPage = () => {
           onNext={goToNextPracticeCard}
           onRestart={() => startPractice(practiceMode)}
           onClose={closePractice}
-          onFinishTyping={finishTypingPractice}
           onToggleDirection={() => setPracticeDirection((prev) => prev === 'jp_to_vi' ? 'vi_to_jp' : 'jp_to_vi')}
           onToggleShuffle={shuffleRemainingCards}
         />
@@ -437,7 +431,6 @@ type PracticeWorkspaceProps = {
   onNext: () => void;
   onRestart: () => void;
   onClose: () => void;
-  onFinishTyping: () => void;
   onToggleDirection: () => void;
   onToggleShuffle: () => void;
 };
@@ -460,7 +453,6 @@ const PracticeWorkspace = ({
   onNext,
   onRestart,
   onClose,
-  onFinishTyping,
   onToggleDirection,
   onToggleShuffle,
 }: PracticeWorkspaceProps) => {
@@ -504,7 +496,6 @@ const PracticeWorkspace = ({
         onNext={onNext}
         onRestart={onRestart}
         onClose={onClose}
-        onFinish={onFinishTyping}
       />
     );
   }
@@ -603,7 +594,6 @@ type TypingPracticeWorkspaceProps = {
   onNext: () => void;
   onRestart: () => void;
   onClose: () => void;
-  onFinish: () => void;
 };
 
 const TypingPracticeWorkspace = ({
@@ -616,7 +606,6 @@ const TypingPracticeWorkspace = ({
   onNext,
   onRestart,
   onClose,
-  onFinish,
 }: TypingPracticeWorkspaceProps) => {
   const rootRef = useRef<HTMLDivElement>(null);
   const inputRef = useRef<HTMLInputElement>(null);
@@ -632,19 +621,19 @@ const TypingPracticeWorkspace = ({
 
     const handleFullscreenChange = () => {
       if (document.fullscreenElement !== root && !isCompleted) {
-        onFinish();
+        onClose();
       }
     };
 
     const handleVisibilityChange = () => {
       if (document.visibilityState === 'hidden' && !isCompleted) {
-        onFinish();
+        onClose();
       }
     };
 
     const handlePageHide = () => {
       if (!isCompleted) {
-        onFinish();
+        onClose();
       }
     };
 
@@ -656,7 +645,7 @@ const TypingPracticeWorkspace = ({
       document.removeEventListener('visibilitychange', handleVisibilityChange);
       window.removeEventListener('pagehide', handlePageHide);
     };
-  }, [isCompleted, onFinish]);
+  }, [isCompleted, onClose]);
 
   useEffect(() => {
     inputRef.current?.focus();
@@ -748,7 +737,7 @@ const TypingPracticeWorkspace = ({
           </div>
           <button
             type="button"
-            onClick={onFinish}
+            onClick={closeTypingPractice}
             className="inline-flex h-10 items-center gap-2 rounded-xl border-2 border-white/20 bg-white/10 px-3 text-sm font-black text-white transition-all hover:bg-white/15"
           >
             <X size={16} />
@@ -786,10 +775,14 @@ const TypingPracticeWorkspace = ({
             />
             <button
               type="submit"
-              className="mt-4 flex h-12 w-full items-center justify-center rounded-xl border-2 border-cyan-300 bg-cyan-300 text-sm font-black text-slate-950 transition-all hover:-translate-y-0.5"
+              disabled={!value.trim()}
+              className="mt-4 flex h-12 w-full items-center justify-center rounded-xl border-2 border-cyan-300 bg-cyan-300 text-sm font-black text-slate-950 transition-all hover:-translate-y-0.5 disabled:cursor-not-allowed disabled:border-slate-500 disabled:bg-slate-700 disabled:text-slate-300 disabled:hover:translate-y-0"
             >
-              Kiểm tra
+              Đã gõ xong từ
             </button>
+            <p className="mt-3 text-center text-sm font-bold text-slate-400">
+              Nhấn Enter để tiếp tục khi đã gõ xong.
+            </p>
           </form>
         </div>
       </div>
