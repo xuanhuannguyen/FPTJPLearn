@@ -1,4 +1,4 @@
-import { useState, useEffect, useRef } from 'react';
+import { useCallback, useState, useEffect, useRef } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import { ArrowLeft, Brain, CheckCircle2, CreditCard, Keyboard, ListChecks, Loader2, RotateCcw, X } from 'lucide-react';
 import { FlashcardMode } from '../../review/components/FlashcardMode';
@@ -610,22 +610,27 @@ const TypingPracticeWorkspace = ({
   const rootRef = useRef<HTMLDivElement>(null);
   const inputRef = useRef<HTMLInputElement>(null);
   const onCloseRef = useRef(onClose);
-  onCloseRef.current = onClose;
   // flag tránh double-call khi exitFullscreen() trigger fullscreenchange
   const isExitingRef = useRef(false);
   const [inputState, setInputState] = useState({ cardId: '', value: '' });
+  const [resultTime, setResultTime] = useState(() => new Date());
   const currentCard = cards[currentIndex];
   const value = currentCard && inputState.cardId === currentCard.itemId ? inputState.value : '';
+  const timezone = Intl.DateTimeFormat().resolvedOptions().timeZone;
+
+  useEffect(() => {
+    onCloseRef.current = onClose;
+  }, [onClose]);
 
   // hàm duy nhất để thoát — tránh gọi onClose 2 lần
-  const doExit = () => {
+  const doExit = useCallback(() => {
     if (isExitingRef.current) return;
     isExitingRef.current = true;
     if (document.fullscreenElement) {
       document.exitFullscreen?.().catch(() => undefined);
     }
     onCloseRef.current();
-  };
+  }, []);
 
   useEffect(() => {
     const root = rootRef.current;
@@ -662,12 +667,21 @@ const TypingPracticeWorkspace = ({
       document.removeEventListener('visibilitychange', handleVisibilityChange);
       window.removeEventListener('pagehide', handlePageHide);
     };
-  // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, []);
+  }, [doExit]);
 
   useEffect(() => {
     inputRef.current?.focus();
   }, [currentCard?.itemId]);
+
+  useEffect(() => {
+    if (!isCompleted) return;
+
+    const timer = window.setInterval(() => {
+      setResultTime(new Date());
+    }, 1000);
+
+    return () => window.clearInterval(timer);
+  }, [isCompleted]);
 
   const submitAnswer = () => {
     if (!currentCard) return;
@@ -701,6 +715,15 @@ const TypingPracticeWorkspace = ({
               <h2 className="mt-2 text-4xl font-black tracking-tight md:text-5xl">
                 {correctCount} / {cards.length} câu đúng
               </h2>
+              <div className="mt-4 inline-flex flex-col rounded-2xl border border-white/15 bg-white/10 px-4 py-3 text-left shadow-[0_4px_0_0_rgba(255,255,255,0.08)]">
+                <span className="text-[10px] font-black uppercase tracking-[0.22em] text-slate-400">
+                  Thời gian chụp kết quả
+                </span>
+                <time dateTime={resultTime.toISOString()} className="mt-1 font-mono text-2xl font-black text-white md:text-3xl">
+                  {formatResultTime(resultTime)}
+                </time>
+                <span className="mt-1 text-xs font-bold text-slate-400">{timezone}</span>
+              </div>
             </div>
             <div className="flex gap-2">
               <button type="button" onClick={onRestart} className="btn-secondary">
@@ -835,6 +858,18 @@ const getTypingAcceptedAnswers = (card: VocabularyPracticeCard) => (
 
 const normalizeTypingText = (value: string) => (
   value.trim().replace(/\s+/g, '').toLowerCase()
+);
+
+const formatResultTime = (value: Date) => (
+  new Intl.DateTimeFormat('vi-VN', {
+    year: 'numeric',
+    month: '2-digit',
+    day: '2-digit',
+    hour: '2-digit',
+    minute: '2-digit',
+    second: '2-digit',
+    hour12: false,
+  }).format(value)
 );
 
 const buildOptions = (
