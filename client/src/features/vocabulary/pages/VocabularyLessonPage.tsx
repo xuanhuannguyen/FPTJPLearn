@@ -682,6 +682,24 @@ const TypingPracticeWorkspace = ({
     };
   }, [doExit]);
 
+  // Anti-cheat: block DevTools & right-click during typing practice
+  useEffect(() => {
+    const blockKeys = (e: KeyboardEvent) => {
+      if (e.key === 'F12') { e.preventDefault(); e.stopPropagation(); return; }
+      if (e.ctrlKey && e.shiftKey && ['I', 'J', 'C'].includes(e.key.toUpperCase())) { e.preventDefault(); e.stopPropagation(); return; }
+      if (e.ctrlKey && e.key.toUpperCase() === 'U') { e.preventDefault(); e.stopPropagation(); return; }
+    };
+
+    const blockContextMenu = (e: MouseEvent) => e.preventDefault();
+
+    document.addEventListener('keydown', blockKeys, true);
+    document.addEventListener('contextmenu', blockContextMenu, true);
+    return () => {
+      document.removeEventListener('keydown', blockKeys, true);
+      document.removeEventListener('contextmenu', blockContextMenu, true);
+    };
+  }, []);
+
   useEffect(() => {
     inputRef.current?.focus();
   }, [currentCard?.itemId]);
