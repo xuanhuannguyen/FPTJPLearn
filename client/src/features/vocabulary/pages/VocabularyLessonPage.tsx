@@ -828,11 +828,11 @@ const TypingPracticeWorkspace = ({
               </div>
               <div className="mt-3 inline-flex flex-col rounded-2xl border border-cyan-300/25 bg-cyan-300/10 px-4 py-3 text-left shadow-[0_4px_0_0_rgba(103,232,249,0.08)]">
                 <span className="text-[10px] font-black uppercase tracking-[0.22em] text-cyan-200">
-                  Thời gian thực
+                  Bắt đầu gõ lúc
                 </span>
-                <time dateTime={resultTime.toISOString()} className="mt-1 font-mono text-2xl font-black text-white md:text-3xl">
-                  {formatResultTime(resultTime)}
-                </time>
+                <span className="mt-1 font-mono text-2xl font-black text-white md:text-3xl">
+                  {startedAt ? formatResultTime(new Date(startedAt)) : '--:--:--'}
+                </span>
                 <span className="mt-1 text-xs font-bold text-cyan-100/70">{timezone}</span>
               </div>
             </div>
