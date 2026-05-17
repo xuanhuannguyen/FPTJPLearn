@@ -3,6 +3,12 @@ import { useEffect, useRef, useState } from 'react';
 import { Languages } from 'lucide-react';
 import type { ReviewCard } from '../types';
 import { VocabularyAudioControl } from './VocabularyAudioControl';
+import { KanaInputToggle } from '../../../shared/components/KanaInputToggle';
+import {
+  convertRomajiToKana,
+  normalizeKanaAnswer,
+  type KanaInputMode,
+} from '../../../shared/utils/kanaInput';
 
 interface TypingModeProps {
   card: ReviewCard;
@@ -24,8 +30,10 @@ export const TypingMode = ({
   onToggleDirection,
 }: TypingModeProps) => {
   const [inputState, setInputState] = useState({ cardId: card.itemId, value: '' });
+  const [kanaMode, setKanaMode] = useState<KanaInputMode>('off');
   const inputRef = useRef<HTMLInputElement>(null);
   const isJpToVi = direction === 'jp_to_vi';
+  const shouldShowKanaToggle = !isJpToVi;
   const value = inputState.cardId === card.itemId ? inputState.value : '';
   const showWrongFeedback = answered && feedback && !feedback.correct;
 
@@ -54,10 +62,10 @@ export const TypingMode = ({
       return;
     }
 
-    const normalized = value.trim().toLowerCase();
+    const normalized = normalizeKanaAnswer(value, shouldShowKanaToggle ? kanaMode : 'off');
     const isCorrect = isJpToVi
-      ? normalized === card.meaning.toLowerCase()
-      : normalized === card.word.toLowerCase() || normalized === card.reading.toLowerCase();
+      ? normalized === card.meaning.trim().normalize('NFKC').toLowerCase()
+      : normalized === normalizeKanaAnswer(card.word) || normalized === normalizeKanaAnswer(card.reading);
     const message = isCorrect
       ? 'Correct! Level moved up.'
       : isJpToVi
@@ -104,12 +112,25 @@ export const TypingMode = ({
         onSubmit={handleSubmit} 
         className={`w-full bg-white rounded-b-2xl shadow-xl overflow-hidden ${showWrongFeedback ? 'animate-[shake_0.4s_ease-in-out]' : ''}`}
       >
+        {shouldShowKanaToggle ? (
+          <div className="flex items-center justify-between gap-3 border-b border-slate-100 bg-slate-50/70 px-4 py-2">
+            <span className="text-[11px] font-black uppercase tracking-wider text-slate-400">
+              Bộ gõ trong app
+            </span>
+            <KanaInputToggle mode={kanaMode} onModeChange={setKanaMode} disabled={answered} />
+          </div>
+        ) : null}
         <div className="flex relative">
           <input
             ref={inputRef}
             type="text"
             value={value}
-            onChange={(e) => setInputState({ cardId: card.itemId, value: e.target.value })}
+            onChange={(e) =>
+              setInputState({
+                cardId: card.itemId,
+                value: convertRomajiToKana(e.target.value, shouldShowKanaToggle ? kanaMode : 'off'),
+              })
+            }
             disabled={answered}
             placeholder={isJpToVi ? 'Type meaning...' : 'Type Japanese...'}
             className={`w-full p-4 md:p-5 text-xl md:text-2xl font-bold text-center outline-none transition-colors ${

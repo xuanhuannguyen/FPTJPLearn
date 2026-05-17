@@ -150,7 +150,7 @@ export const GrammarPatternPracticePage = () => {
     });
   };
 
-  const checkExercise = async (exercise: GrammarExercise) => {
+  const checkExercise = async (exercise: GrammarExercise, submittedAnswerText?: string) => {
     const currentState = getGrammarExerciseState(exerciseState, exercise.id);
     const isArrange = exercise.exerciseType === 'arrange';
 
@@ -159,7 +159,7 @@ export const GrammarPatternPracticePage = () => {
       updateExerciseState(exercise.id, { error: undefined });
 
       const result = await grammarApi.checkExercise(exercise.id, {
-        answerText: isArrange ? undefined : currentState.answerText.trim(),
+        answerText: isArrange ? undefined : (submittedAnswerText ?? currentState.answerText).trim(),
         selectedOptionOrder: isArrange
           ? getSelectedOptionOrder(exercise, currentState.selectedOptionIndexes)
           : undefined,
@@ -305,7 +305,7 @@ export const GrammarPatternPracticePage = () => {
                 }
                 onToggleHint={(visible) => setShowHint((prev) => ({ ...prev, [exercise.id]: visible }))}
                 onToggleOption={(optionIndex) => toggleSelectedOption(exercise, optionIndex)}
-                onCheck={() => checkExercise(exercise)}
+                onCheck={(submittedAnswerText) => checkExercise(exercise, submittedAnswerText)}
                 onRevealAnswer={() => revealAnswer(exercise)}
                 onReset={() => resetExercise(exercise.id)}
               />

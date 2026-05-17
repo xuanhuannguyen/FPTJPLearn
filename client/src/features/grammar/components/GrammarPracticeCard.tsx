@@ -1,4 +1,7 @@
+import { useState } from 'react';
 import { Check, Eye, Lightbulb, Loader2, RotateCcw, Sparkles, X } from 'lucide-react';
+import { KanaInputToggle } from '../../../shared/components/KanaInputToggle';
+import { convertRomajiToKana, type KanaInputMode } from '../../../shared/utils/kanaInput';
 import type { GrammarExercise } from '../types/grammar.types';
 import type { GrammarExerciseState } from '../utils/grammarExerciseState';
 import {
@@ -18,7 +21,7 @@ type GrammarPracticeCardProps = {
   onAnswerTextChange: (value: string) => void;
   onToggleHint: (visible: boolean) => void;
   onToggleOption: (optionIndex: number) => void;
-  onCheck: () => void;
+  onCheck: (submittedAnswerText?: string) => void;
   onRevealAnswer: () => void;
   onReset: () => void;
 };
@@ -37,9 +40,23 @@ export const GrammarPracticeCard = ({
   onRevealAnswer,
   onReset,
 }: GrammarPracticeCardProps) => {
+  const [kanaMode, setKanaMode] = useState<KanaInputMode>('off');
   const isArrange = exercise.exerciseType === 'arrange';
+  const shouldShowKanaToggle = exercise.exerciseType === 'vi_to_ja';
   const selectedOptionOrder = getSelectedOptionOrder(exercise, state.selectedOptionIndexes);
   const canCheck = isArrange ? selectedOptionOrder.length > 0 : state.answerText.trim().length > 0;
+  const handleCheck = () => {
+    if (!isArrange && shouldShowKanaToggle) {
+      const finalizedAnswer = convertRomajiToKana(state.answerText, kanaMode, { finalize: true });
+      if (finalizedAnswer !== state.answerText) {
+        onAnswerTextChange(finalizedAnswer);
+      }
+      onCheck(finalizedAnswer);
+      return;
+    }
+
+    onCheck();
+  };
 
   return (
     <article className="rounded-2xl border border-border/10 bg-white p-6 shadow-sm">
@@ -123,19 +140,33 @@ export const GrammarPracticeCard = ({
               </div>
             </div>
           ) : (
-            <textarea
-              value={state.answerText}
-              onChange={(event) => onAnswerTextChange(event.target.value)}
-              rows={2}
-              className="w-full rounded-lg border border-border/10 bg-white px-3 py-2.5 font-jp text-sm font-medium text-text-primary transition-colors focus:border-sky-300 focus:outline-none"
-              placeholder={getAnswerPlaceholder(exercise.exerciseType)}
-            />
+            <div className="overflow-hidden rounded-lg border border-border/10 bg-white transition-colors focus-within:border-sky-300">
+              {shouldShowKanaToggle ? (
+                <div className="flex items-center justify-between gap-3 border-b border-slate-100 bg-slate-50/70 px-3 py-2">
+                  <span className="text-[10px] font-black uppercase tracking-wider text-text-muted/50">
+                    Bộ gõ trong app
+                  </span>
+                  <KanaInputToggle mode={kanaMode} onModeChange={setKanaMode} />
+                </div>
+              ) : null}
+              <textarea
+                value={state.answerText}
+                onChange={(event) =>
+                  onAnswerTextChange(
+                    convertRomajiToKana(event.target.value, shouldShowKanaToggle ? kanaMode : 'off')
+                  )
+                }
+                rows={2}
+                className="w-full resize-none bg-white px-3 py-2.5 font-jp text-sm font-medium text-text-primary outline-none"
+                placeholder={getAnswerPlaceholder(exercise.exerciseType)}
+              />
+            </div>
           )}
         </div>
 
         <div className="flex flex-wrap items-center gap-2 pt-1">
           <button
-            onClick={onCheck}
+            onClick={handleCheck}
             disabled={!canCheck || checking}
             className="inline-flex h-9 items-center gap-2 rounded-md bg-[#7dd3fc] px-4 text-xs font-black text-white shadow-sm transition-all hover:bg-sky-400 disabled:opacity-50 disabled:hover:bg-[#7dd3fc] active:scale-95"
           >
