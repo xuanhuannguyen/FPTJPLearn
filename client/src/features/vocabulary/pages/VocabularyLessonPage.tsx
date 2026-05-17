@@ -625,9 +625,11 @@ const TypingPracticeWorkspace = ({
   const [startedAt, setStartedAt] = useState<number | null>(null);
   const [elapsedMs, setElapsedMs] = useState(0);
   const [completedElapsedMs, setCompletedElapsedMs] = useState<number | null>(null);
+  const [resultTime, setResultTime] = useState(() => new Date());
   const [feedback, setFeedback] = useState<TypingFeedback | null>(null);
   const currentCard = cards[currentIndex];
   const value = currentCard && inputState.cardId === currentCard.itemId ? inputState.value : '';
+  const timezone = Intl.DateTimeFormat().resolvedOptions().timeZone;
 
   useEffect(() => {
     onCloseRef.current = onClose;
@@ -693,6 +695,7 @@ const TypingPracticeWorkspace = ({
     setStartedAt(null);
     setElapsedMs(0);
     setCompletedElapsedMs(null);
+    setResultTime(new Date());
     setFeedback(null);
   }, [cards]);
 
@@ -708,6 +711,19 @@ const TypingPracticeWorkspace = ({
 
     return () => window.clearInterval(timer);
   }, [completedElapsedMs, isCompleted, startedAt]);
+
+  useEffect(() => {
+    if (!isCompleted) return;
+
+    const updateResultTime = () => {
+      setResultTime(new Date());
+    };
+
+    updateResultTime();
+    const timer = window.setInterval(updateResultTime, 1000);
+
+    return () => window.clearInterval(timer);
+  }, [isCompleted]);
 
   const handleInputChange = (rawValue: string) => {
     if (feedback) return;
@@ -791,6 +807,15 @@ const TypingPracticeWorkspace = ({
                   {formatDuration(completedElapsedMs ?? elapsedMs)}
                 </span>
                 <span className="mt-1 text-xs font-bold text-slate-400">Tính từ ký tự đầu tiên đến khi hoàn tất.</span>
+              </div>
+              <div className="mt-3 inline-flex flex-col rounded-2xl border border-cyan-300/25 bg-cyan-300/10 px-4 py-3 text-left shadow-[0_4px_0_0_rgba(103,232,249,0.08)]">
+                <span className="text-[10px] font-black uppercase tracking-[0.22em] text-cyan-200">
+                  Thời gian thực
+                </span>
+                <time dateTime={resultTime.toISOString()} className="mt-1 font-mono text-2xl font-black text-white md:text-3xl">
+                  {formatResultTime(resultTime)}
+                </time>
+                <span className="mt-1 text-xs font-bold text-cyan-100/70">{timezone}</span>
               </div>
             </div>
             <div className="flex gap-2">
@@ -993,6 +1018,18 @@ const formatDuration = (durationMs: number) => {
 
   return `${String(minutes).padStart(2, '0')}:${String(seconds).padStart(2, '0')}`;
 };
+
+const formatResultTime = (value: Date) => (
+  new Intl.DateTimeFormat('vi-VN', {
+    year: 'numeric',
+    month: '2-digit',
+    day: '2-digit',
+    hour: '2-digit',
+    minute: '2-digit',
+    second: '2-digit',
+    hour12: false,
+  }).format(value)
+);
 
 const buildOptions = (
   card: VocabularyPracticeCard,

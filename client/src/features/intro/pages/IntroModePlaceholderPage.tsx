@@ -69,6 +69,10 @@ export const IntroModePlaceholderPage = () => {
   const [elapsedMs, setElapsedMs] = useState(0);
   const [completedElapsedMs, setCompletedElapsedMs] = useState<number | null>(null);
 
+  // Anti-cheat: timestamps
+  const [quizStartTime, setQuizStartTime] = useState<string | null>(null);
+  const [quizEndTime, setQuizEndTime] = useState<string | null>(null);
+
   // doExit: single exit point — exit fullscreen + go back to config
   const doExit = useCallback(() => {
     if (isExitingRef.current) return;
@@ -80,6 +84,8 @@ export const IntroModePlaceholderPage = () => {
     setStartedAt(null);
     setElapsedMs(0);
     setCompletedElapsedMs(null);
+    setQuizStartTime(null);
+    setQuizEndTime(null);
     isExitingRef.current = false;
   }, []);
 
@@ -111,6 +117,26 @@ export const IntroModePlaceholderPage = () => {
       document.removeEventListener('visibilitychange', handleVisibilityChange);
     };
   }, [quizStarted, doExit]);
+
+  // Anti-cheat: block DevTools & right-click (only during quiz)
+  useEffect(() => {
+    if (!quizStarted) return;
+
+    const blockKeys = (e: KeyboardEvent) => {
+      if (e.key === 'F12') { e.preventDefault(); e.stopPropagation(); return; }
+      if (e.ctrlKey && e.shiftKey && ['I', 'J', 'C'].includes(e.key.toUpperCase())) { e.preventDefault(); e.stopPropagation(); return; }
+      if (e.ctrlKey && e.key.toUpperCase() === 'U') { e.preventDefault(); e.stopPropagation(); return; }
+    };
+
+    const blockContextMenu = (e: MouseEvent) => e.preventDefault();
+
+    document.addEventListener('keydown', blockKeys, true);
+    document.addEventListener('contextmenu', blockContextMenu, true);
+    return () => {
+      document.removeEventListener('keydown', blockKeys, true);
+      document.removeEventListener('contextmenu', blockContextMenu, true);
+    };
+  }, [quizStarted]);
 
   // Timer tick
   useEffect(() => {
@@ -177,6 +203,8 @@ export const IntroModePlaceholderPage = () => {
     setQuizStarted(true);
     setStartedAt(null);
     setElapsedMs(0);
+    setQuizStartTime(new Date().toLocaleTimeString('vi-VN'));
+    setQuizEndTime(null);
     setCompletedElapsedMs(null);
 
     // Autofocus the very first input box
@@ -220,6 +248,7 @@ export const IntroModePlaceholderPage = () => {
         const total = Date.now() - startedAt;
         setCompletedElapsedMs(total);
         setElapsedMs(total);
+        setQuizEndTime(new Date().toLocaleTimeString('vi-VN'));
       }
 
       // Advance focus to the next unfinished card
@@ -348,6 +377,16 @@ export const IntroModePlaceholderPage = () => {
               <span className="text-[10px] font-black uppercase tracking-[0.22em] text-slate-400">Tổng thời gian gõ</span>
               <span className="mt-1 font-mono text-3xl font-black text-white md:text-4xl">{displayTime}</span>
               <span className="mt-1 text-xs font-bold text-slate-400">Tính từ ký tự đầu tiên đến khi hoàn tất.</span>
+            </div>
+
+            {/* Timestamps */}
+            <div className="mt-4 flex gap-6 text-xs font-bold text-slate-500">
+              {quizStartTime && (
+                <span>🕐 Bắt đầu: <span className="text-slate-300">{quizStartTime}</span></span>
+              )}
+              {quizEndTime && (
+                <span>🏁 Hoàn thành: <span className="text-emerald-400">{quizEndTime}</span></span>
+              )}
             </div>
 
             <div className="mt-8 flex gap-3">
