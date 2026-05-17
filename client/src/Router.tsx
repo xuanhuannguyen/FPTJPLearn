@@ -9,6 +9,7 @@ import { adminRoutes } from './features/admin/admin.routes';
 import { staticVocabularyRoutes } from './features/vocabulary/vocabulary.routes';
 import { kanjiRoutes } from './features/kanji/kanji.routes';
 import { speakingRoutes } from './features/speaking/speaking.routes';
+import { introRoutes } from './features/intro/intro.routes';
 import { Layout } from './shared/components/Layout';
 import { ProtectedRoute } from './shared/components/ProtectedRoute';
 import { LoginPage } from './features/auth/pages/LoginPage';
@@ -25,6 +26,7 @@ export const AppRouter = () => (
         {dashboardRoutes}
         {activeVocabularyRoutes}
         {staticVocabularyRoutes}
+        {introRoutes}
         {examRoutes}
         {speakingRoutes}
         {memoryRoutes}

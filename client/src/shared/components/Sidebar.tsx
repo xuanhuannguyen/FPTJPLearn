@@ -6,12 +6,14 @@ import {
   BrainCircuit,
   BookText,
   FileQuestion,
-  Mic2
+  Mic2,
+  Origami
 } from 'lucide-react';
 import { AppLogo } from './AppLogo';
 
 export const Sidebar = () => {
   const navItems = [
+    { name: 'Nhập\nMôn', path: '/intro', icon: <Origami size={24} /> },
     { name: 'Hán tự', path: '/kanji', icon: <Castle size={24} /> },
     { name: 'Từ vựng', path: '/vocabulary', icon: <BookText size={24} /> },
     { name: 'Ngữ pháp', path: '/grammar', icon: <Brain size={24} /> },
