@@ -4,6 +4,12 @@ import { ArrowLeft, Brain, CheckCircle2, CreditCard, Keyboard, ListChecks, Loade
 import { FlashcardMode } from '../../review/components/FlashcardMode';
 import { MultipleChoiceMode } from '../../review/components/MultipleChoiceMode';
 import type { ReviewCard } from '../../review/types';
+import { KanaInputToggle } from '../../../shared/components/KanaInputToggle';
+import {
+  convertRomajiToKana,
+  normalizeKanaAnswer,
+  type KanaInputMode,
+} from '../../../shared/utils/kanaInput';
 import { staticVocabularyApi } from '../api/vocabularyApi';
 import type { StaticVocabularyLessonDetail, VocabularyPracticeCard } from '../types/vocabulary.types';
 
@@ -19,6 +25,8 @@ type TypingAnswer = {
   word: string;
   correct: boolean;
 };
+
+type TypingFeedback = TypingAnswer;
 
 export const VocabularyLessonPage = () => {
   const { courseCode, lessonId } = useParams<{ courseCode: string; lessonId: string }>();
@@ -613,10 +621,13 @@ const TypingPracticeWorkspace = ({
   // flag tránh double-call khi exitFullscreen() trigger fullscreenchange
   const isExitingRef = useRef(false);
   const [inputState, setInputState] = useState({ cardId: '', value: '' });
-  const [resultTime, setResultTime] = useState(() => new Date());
+  const [kanaMode, setKanaMode] = useState<KanaInputMode>('off');
+  const [startedAt, setStartedAt] = useState<number | null>(null);
+  const [elapsedMs, setElapsedMs] = useState(0);
+  const [completedElapsedMs, setCompletedElapsedMs] = useState<number | null>(null);
+  const [feedback, setFeedback] = useState<TypingFeedback | null>(null);
   const currentCard = cards[currentIndex];
   const value = currentCard && inputState.cardId === currentCard.itemId ? inputState.value : '';
-  const timezone = Intl.DateTimeFormat().resolvedOptions().timeZone;
 
   useEffect(() => {
     onCloseRef.current = onClose;
@@ -674,27 +685,84 @@ const TypingPracticeWorkspace = ({
   }, [currentCard?.itemId]);
 
   useEffect(() => {
-    if (!isCompleted) return;
+    setFeedback(null);
+  }, [currentCard?.itemId]);
 
-    const timer = window.setInterval(() => {
-      setResultTime(new Date());
-    }, 1000);
+  useEffect(() => {
+    setInputState({ cardId: '', value: '' });
+    setStartedAt(null);
+    setElapsedMs(0);
+    setCompletedElapsedMs(null);
+    setFeedback(null);
+  }, [cards]);
+
+  useEffect(() => {
+    if (!startedAt || isCompleted || completedElapsedMs !== null) return;
+
+    const updateElapsed = () => {
+      setElapsedMs(Date.now() - startedAt);
+    };
+
+    updateElapsed();
+    const timer = window.setInterval(updateElapsed, 250);
 
     return () => window.clearInterval(timer);
-  }, [isCompleted]);
+  }, [completedElapsedMs, isCompleted, startedAt]);
+
+  const handleInputChange = (rawValue: string) => {
+    if (feedback) return;
+
+    const nextValue = convertRomajiToKana(rawValue, kanaMode);
+
+    if (!startedAt && nextValue.trim()) {
+      const now = Date.now();
+      setStartedAt(now);
+      setElapsedMs(0);
+    }
+
+    setInputState({ cardId: currentCard?.itemId ?? '', value: nextValue });
+  };
+
+  const continueAfterFeedback = () => {
+    if (!feedback) return;
+
+    setFeedback(null);
+    setInputState({ cardId: '', value: '' });
+    onNext();
+  };
 
   const submitAnswer = () => {
     if (!currentCard) return;
 
-    const typed = value.trim();
+    if (feedback) {
+      continueAfterFeedback();
+      return;
+    }
+
+    const typed = convertRomajiToKana(value, kanaMode, { finalize: true }).trim();
     if (!typed) return;
 
     const correct = getTypingAcceptedAnswers(currentCard).some((answer) => (
-      normalizeTypingText(answer) === normalizeTypingText(typed)
+      normalizeTypingText(answer) === normalizeTypingText(typed, kanaMode)
     ));
 
+    setInputState({ cardId: currentCard.itemId, value: typed });
+    setFeedback({
+      itemId: currentCard.itemId,
+      prompt: currentCard.meaning,
+      input: typed,
+      expected: getTypingAnswer(currentCard),
+      word: currentCard.word,
+      correct,
+    });
+
+    if (currentIndex === cards.length - 1 && startedAt) {
+      const total = Date.now() - startedAt;
+      setCompletedElapsedMs(total);
+      setElapsedMs(total);
+    }
+
     onAnswer(currentCard, typed, correct);
-    onNext();
   };
 
   // nút "Quay lại danh sách" và "Thoát" đều dùng doExit
@@ -717,12 +785,12 @@ const TypingPracticeWorkspace = ({
               </h2>
               <div className="mt-4 inline-flex flex-col rounded-2xl border border-white/15 bg-white/10 px-4 py-3 text-left shadow-[0_4px_0_0_rgba(255,255,255,0.08)]">
                 <span className="text-[10px] font-black uppercase tracking-[0.22em] text-slate-400">
-                  Thời gian chụp kết quả
+                  Tổng thời gian gõ
                 </span>
-                <time dateTime={resultTime.toISOString()} className="mt-1 font-mono text-2xl font-black text-white md:text-3xl">
-                  {formatResultTime(resultTime)}
-                </time>
-                <span className="mt-1 text-xs font-bold text-slate-400">{timezone}</span>
+                <span className="mt-1 font-mono text-2xl font-black text-white md:text-3xl">
+                  {formatDuration(completedElapsedMs ?? elapsedMs)}
+                </span>
+                <span className="mt-1 text-xs font-bold text-slate-400">Tính từ ký tự đầu tiên đến khi hoàn tất.</span>
               </div>
             </div>
             <div className="flex gap-2">
@@ -774,6 +842,12 @@ const TypingPracticeWorkspace = ({
             <p className="text-xs font-black uppercase tracking-[0.22em] text-cyan-300">Việt → Nhật</p>
             <h2 className="text-2xl font-black">{currentIndex + 1} / {cards.length}</h2>
           </div>
+          <div className="hidden text-center sm:block">
+            <p className="text-[10px] font-black uppercase tracking-[0.22em] text-slate-500">Thời gian</p>
+            <p className="mt-1 font-mono text-xl font-black text-white">
+              {startedAt ? formatDuration(completedElapsedMs ?? elapsedMs) : '00:00'}
+            </p>
+          </div>
           <button
             type="button"
             onClick={closeTypingPractice}
@@ -800,10 +874,29 @@ const TypingPracticeWorkspace = ({
               submitAnswer();
             }}
           >
+            <div className="mb-3 flex flex-col gap-2 rounded-2xl border border-white/10 bg-white/5 p-2 sm:flex-row sm:items-center sm:justify-between">
+              <div className="flex items-center justify-between gap-3 sm:justify-start">
+                <span className="text-[11px] font-black uppercase tracking-[0.22em] text-slate-400">
+                  Bộ gõ trong app
+                </span>
+                <KanaInputToggle
+                  mode={kanaMode}
+                  onModeChange={setKanaMode}
+                  className="border-white/10 bg-slate-900"
+                />
+              </div>
+              <div className="text-right sm:hidden">
+                <p className="text-[10px] font-black uppercase tracking-[0.22em] text-slate-500">Thời gian</p>
+                <p className="font-mono text-lg font-black text-white">
+                  {startedAt ? formatDuration(completedElapsedMs ?? elapsedMs) : '00:00'}
+                </p>
+              </div>
+            </div>
             <input
               ref={inputRef}
               value={value}
-              onChange={(event) => setInputState({ cardId: currentCard.itemId, value: event.target.value })}
+              onChange={(event) => handleInputChange(event.target.value)}
+              readOnly={Boolean(feedback)}
               className="h-20 w-full rounded-2xl border-2 border-white/20 bg-white px-5 text-center font-jp text-3xl font-black text-slate-950 outline-none transition-all focus:border-cyan-300 focus:ring-4 focus:ring-cyan-300/20 md:h-24 md:text-5xl"
               placeholder="ひらがな / カタカナ"
               lang="ja"
@@ -812,15 +905,48 @@ const TypingPracticeWorkspace = ({
               autoCorrect="off"
               spellCheck={false}
             />
+            {feedback ? (
+              <div
+                className={`mt-4 rounded-2xl border-2 p-4 text-left ${
+                  feedback.correct
+                    ? 'border-emerald-300 bg-emerald-300/10'
+                    : 'border-rose-300 bg-rose-300/10'
+                }`}
+                aria-live="polite"
+              >
+                <div className="flex flex-wrap items-start justify-between gap-3">
+                  <div>
+                    <p
+                      className={`text-xs font-black uppercase tracking-[0.22em] ${
+                        feedback.correct ? 'text-emerald-300' : 'text-rose-300'
+                      }`}
+                    >
+                      {feedback.correct ? 'Đúng' : 'Sai'}
+                    </p>
+                    <p className="mt-2 text-sm font-bold text-slate-300">Đáp án</p>
+                    <p className="font-jp text-3xl font-black text-white">{feedback.expected}</p>
+                    {feedback.word !== feedback.expected ? (
+                      <p className="mt-1 font-jp text-sm font-bold text-slate-400">{feedback.word}</p>
+                    ) : null}
+                  </div>
+                  {!feedback.correct ? (
+                    <div className="text-right">
+                      <p className="text-sm font-bold text-slate-400">Bạn gõ</p>
+                      <p className="font-jp text-2xl font-black text-rose-200">{feedback.input}</p>
+                    </div>
+                  ) : null}
+                </div>
+              </div>
+            ) : null}
             <button
               type="submit"
               disabled={!value.trim()}
               className="mt-4 flex h-12 w-full items-center justify-center rounded-xl border-2 border-cyan-300 bg-cyan-300 text-sm font-black text-slate-950 transition-all hover:-translate-y-0.5 disabled:cursor-not-allowed disabled:border-slate-500 disabled:bg-slate-700 disabled:text-slate-300 disabled:hover:translate-y-0"
             >
-              Đã gõ xong từ
+              {feedback ? 'Tiếp tục' : 'Đã gõ xong từ'}
             </button>
             <p className="mt-3 text-center text-sm font-bold text-slate-400">
-              Nhấn Enter để tiếp tục khi đã gõ xong.
+              {feedback ? 'Nhấn Enter để sang từ tiếp theo.' : 'Nhấn Enter để kiểm tra từ đã gõ.'}
             </p>
           </form>
         </div>
@@ -856,21 +982,17 @@ const getTypingAcceptedAnswers = (card: VocabularyPracticeCard) => (
   Array.from(new Set([card.reading, card.correctAnswer, card.word].filter(Boolean)))
 );
 
-const normalizeTypingText = (value: string) => (
-  value.trim().replace(/\s+/g, '').toLowerCase()
+const normalizeTypingText = (value: string, mode: KanaInputMode = 'off') => (
+  normalizeKanaAnswer(value, mode).replace(/\s+/g, '')
 );
 
-const formatResultTime = (value: Date) => (
-  new Intl.DateTimeFormat('vi-VN', {
-    year: 'numeric',
-    month: '2-digit',
-    day: '2-digit',
-    hour: '2-digit',
-    minute: '2-digit',
-    second: '2-digit',
-    hour12: false,
-  }).format(value)
-);
+const formatDuration = (durationMs: number) => {
+  const totalSeconds = Math.max(0, Math.floor(durationMs / 1000));
+  const minutes = Math.floor(totalSeconds / 60);
+  const seconds = totalSeconds % 60;
+
+  return `${String(minutes).padStart(2, '0')}:${String(seconds).padStart(2, '0')}`;
+};
 
 const buildOptions = (
   card: VocabularyPracticeCard,
