@@ -690,9 +690,6 @@ const KanjiVocabularyTypingWorkspace = ({
           <div className="text-center">
             <p className="text-sm font-black uppercase tracking-[0.2em] text-slate-400">Kanji</p>
             <p className="mt-4 font-jp text-5xl font-black leading-tight md:text-7xl">{currentVocab.word}</p>
-            {currentVocab.meaning && (
-              <p className="mt-4 text-lg font-bold text-slate-300">{currentVocab.meaning}</p>
-            )}
           </div>
 
           <form
