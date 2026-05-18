@@ -9,6 +9,11 @@ using JPLearn.Infrastructure.Data.Seed;
 using JPLearn.Infrastructure.Extensions;
 using Microsoft.EntityFrameworkCore;
 
+// Disable config reload watchers before the default builder adds JSON config files.
+// Containers don't need runtime config hot-reload, and FileSystemWatcher can exhaust inotify.
+Environment.SetEnvironmentVariable("DOTNET_HOSTBUILDER__RELOADCONFIGONCHANGE", "false");
+Environment.SetEnvironmentVariable("ASPNETCORE_HOSTBUILDER__RELOADCONFIGONCHANGE", "false");
+
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddJPLearnInfrastructure(builder.Configuration);
