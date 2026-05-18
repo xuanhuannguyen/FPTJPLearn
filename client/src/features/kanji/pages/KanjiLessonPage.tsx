@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { useParams, Link } from 'react-router-dom';
-import { ArrowLeft, Play, LayoutGrid } from 'lucide-react';
+import { ArrowLeft, Play, LayoutGrid, Keyboard } from 'lucide-react';
 import { kanjiApi } from '../api/kanjiApi';
 import type { KanjiLesson, KanjiItem, KanjiVocabulary } from '../types/kanji.types';
 import { PremiumLock } from '../../../shared/components/PremiumLock';
@@ -143,6 +143,13 @@ export const KanjiLessonPage = () => {
               >
                 <LayoutGrid size={12} />
                 Flashcard
+              </Link>
+              <Link
+                to={`/kanji/${level}/lessons/${lessonId}/vocabulary-flashcards?mode=typing`}
+                className="flex items-center gap-1.5 border border-black bg-white px-3 py-1.5 text-[11px] font-black uppercase hover:bg-slate-100 transition-all shadow-[1px_1px_0px_#0F172A]"
+              >
+                <Keyboard size={12} />
+                Gõ
               </Link>
             </div>
             

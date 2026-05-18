@@ -271,8 +271,8 @@ async function generateKanji() {
           onReading: item.onReading || '',
           mnemonic: item.mnemonic || '',
           strokeSvg: item.strokeSvg,
-          strokeDataJson: item.strokeDataJson,
-          componentMapJson: item.componentMapJson,
+          strokeDataJson: item.strokeDataJson || seedId?.strokeDataJson,
+          componentMapJson: item.componentMapJson || seedId?.componentMapJson,
           orderIndex: item.orderIndex ?? index + 1,
         };
       });
@@ -490,12 +490,54 @@ async function loadKanjiSeedIds() {
     const start = lessonMatches[index].index ?? 0;
     const end = index + 1 < lessonMatches.length ? lessonMatches[index + 1].index ?? source.length : source.length;
     const section = source.slice(start, end);
-    const kanjiIds = [...section.matchAll(/new KanjiItem\s*\{\s*[\s\S]*?Id = Guid\.Parse\("([^"]+)"\),[\s\S]*?Character = "([^"]+)"/g)]
-      .map((match) => ({ id: match[1], character: match[2] }));
-    idsByLesson.set(lessonNumber, kanjiIds);
+    const kanjiBlocks = section.split(/new KanjiItem\s*\{/).slice(1);
+    const kanjiItems = kanjiBlocks
+      .map((block) => {
+        const id = block.match(/Id = Guid\.Parse\("([^"]+)"\)/)?.[1];
+        const character = block.match(/Character = "([^"]+)"/)?.[1];
+        if (!id || !character) {
+          return null;
+        }
+
+        return {
+          id,
+          character,
+          componentMapJson: extractCSharpVerbatimString(block, 'ComponentMapJson'),
+          strokeDataJson: extractCSharpVerbatimString(block, 'StrokeDataJson'),
+        };
+      })
+      .filter(Boolean);
+    idsByLesson.set(lessonNumber, kanjiItems);
   }
 
   return idsByLesson;
+}
+
+function extractCSharpVerbatimString(source, propertyName) {
+  const marker = `${propertyName} = @"`;
+  const start = source.indexOf(marker);
+  if (start === -1) {
+    return undefined;
+  }
+
+  let value = '';
+  for (let index = start + marker.length; index < source.length; index += 1) {
+    const char = source[index];
+    if (char !== '"') {
+      value += char;
+      continue;
+    }
+
+    if (source[index + 1] === '"') {
+      value += '"';
+      index += 1;
+      continue;
+    }
+
+    return value;
+  }
+
+  return undefined;
 }
 
 async function generateExam() {
