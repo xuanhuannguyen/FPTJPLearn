@@ -6,8 +6,6 @@ import {
   Check,
   X,
   Volume2,
-  Keyboard,
-  LayoutGrid,
   RotateCcw,
 } from 'lucide-react';
 import { KanaInputToggle } from '../../../shared/components/KanaInputToggle';
@@ -35,7 +33,7 @@ const getInitialMode = (value: string | null): PracticeMode => (value === 'typin
 export const KanjiVocabularyFlashcardPage = () => {
   const { level, lessonId } = useParams<{ level: string; lessonId: string }>();
   const navigate = useNavigate();
-  const [searchParams, setSearchParams] = useSearchParams();
+  const [searchParams] = useSearchParams();
 
   const [vocabs, setVocabs] = useState<KanjiVocabulary[]>([]);
   const [lesson, setLesson] = useState<KanjiLesson | null>(null);
@@ -74,11 +72,6 @@ export const KanjiVocabularyFlashcardPage = () => {
     setStats({ known: 0, unknown: 0 });
     setTypingAnswers([]);
   }, []);
-
-  const switchMode = useCallback((nextMode: PracticeMode) => {
-    setSearchParams(nextMode === 'typing' ? { mode: 'typing' } : {});
-    resetSession();
-  }, [resetSession, setSearchParams]);
 
   const speak = useCallback((vocab: KanjiVocabulary) => {
     if (typeof window === 'undefined' || !('speechSynthesis' in window)) {
@@ -211,24 +204,6 @@ export const KanjiVocabularyFlashcardPage = () => {
             </span>
           </div>
           <button
-            onClick={() => switchMode('flashcard')}
-            className={`flex h-8 items-center gap-1.5 border border-black px-2.5 text-[10px] font-black uppercase transition-colors ${
-              mode === 'flashcard' ? 'bg-black text-white' : 'bg-white hover:bg-slate-100'
-            }`}
-          >
-            <LayoutGrid size={13} />
-            Flashcard
-          </button>
-          <button
-            onClick={() => switchMode('typing')}
-            className={`flex h-8 items-center gap-1.5 border border-black px-2.5 text-[10px] font-black uppercase transition-colors ${
-              mode === 'typing' ? 'bg-black text-white' : 'bg-white hover:bg-slate-100'
-            }`}
-          >
-            <Keyboard size={13} />
-            Gõ
-          </button>
-          <button
             onClick={handleShuffle}
             className={`flex h-8 w-8 items-center justify-center border border-black transition-colors ${
               isShuffleEnabled ? 'bg-black text-white' : 'hover:bg-slate-100'
@@ -257,7 +232,7 @@ export const KanjiVocabularyFlashcardPage = () => {
           onAnswer={handleTypingAnswer}
           onNext={handleNext}
           onRestart={resetSession}
-          onClose={() => switchMode('flashcard')}
+          onClose={() => navigate(`/kanji/${level}/lessons/${lessonId}`)}
         />
       ) : (
         <main className="flex-1 flex flex-col items-center justify-center p-4">
@@ -478,6 +453,8 @@ const KanjiVocabularyTypingWorkspace = ({
   }, []);
 
   useEffect(() => {
+    if (isCompleted) return;
+
     const root = rootRef.current;
     if (!root) return;
 
@@ -507,7 +484,7 @@ const KanjiVocabularyTypingWorkspace = ({
       document.removeEventListener('visibilitychange', handleVisibilityChange);
       window.removeEventListener('pagehide', handlePageHide);
     };
-  }, [doExit]);
+  }, [doExit, isCompleted]);
 
   useEffect(() => {
     const blockKeys = (event: KeyboardEvent) => {
@@ -623,8 +600,8 @@ const KanjiVocabularyTypingWorkspace = ({
 
   if (isCompleted || !currentVocab) {
     return (
-      <main className="mx-auto flex w-full max-w-5xl flex-1 flex-col justify-center px-4 py-8 text-slate-950">
-        <div className="rounded-[18px] border-2 border-black bg-white p-6 shadow-[4px_4px_0_#0F172A] md:p-8">
+      <main className="fixed inset-0 z-50 overflow-y-auto blue-grid px-4 py-8 text-slate-950 md:px-8">
+        <div className="mx-auto w-full max-w-5xl rounded-[18px] border-2 border-black bg-white p-6 shadow-[4px_4px_0_#0F172A] md:p-8">
           <div className="flex flex-col gap-4 border-b-2 border-black pb-5 md:flex-row md:items-end md:justify-between">
             <div>
               <p className="text-xs font-black uppercase tracking-[0.22em] text-emerald-600">Kết quả gõ</p>
@@ -642,7 +619,7 @@ const KanjiVocabularyTypingWorkspace = ({
                 Gõ lại
               </button>
               <button type="button" onClick={doExit} className="btn-primary">
-                Quay lại flashcard
+                Quay lại bài học
               </button>
             </div>
           </div>

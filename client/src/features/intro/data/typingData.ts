@@ -350,25 +350,6 @@ export const getTypingCategories = (script: 'hiragana' | 'katakana'): TypingCate
             { kana: 'デュ', romaji: 'dyu' },
           ],
         },
-        {
-          id: 'wi_we_wo',
-          label: 'ウィ/wi',
-          items: [
-            { kana: 'ウィ', romaji: 'wi' },
-            { kana: 'ウェ', romaji: 'we' },
-            { kana: 'ウォ', romaji: 'wo' },
-          ],
-        },
-        {
-          id: 'va_vi_ve_vo',
-          label: 'ヴァ/va',
-          items: [
-            { kana: 'ヴァ', romaji: 'va' },
-            { kana: 'ヴィ', romaji: 'vi' },
-            { kana: 'ヴェ', romaji: 've' },
-            { kana: 'ヴォ', romaji: 'vo' },
-          ],
-        },
       ],
     });
   }
