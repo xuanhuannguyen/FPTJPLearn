@@ -1,0 +1,246 @@
+[
+  {
+    "id": "77777777-1113-0003-0000-000000210001",
+    "patternId": "77777777-1113-0001-0000-000000002001",
+    "exerciseType": "ja_to_vi",
+    "prompt": "トイレはどこですか。",
+    "promptReading": "トイレはどこですか。",
+    "expectedAnswer": "Nhà vệ sinh ở đâu?",
+    "hint": "～は どこですか / どちらですか。",
+    "explanation": "どちら còn dùng để hỏi phương hướng.",
+    "orderIndex": 1
+  },
+  {
+    "id": "77777777-1113-0003-0000-000000220001",
+    "patternId": "77777777-1113-0001-0000-000000002001",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Nhà vệ sinh ở đâu?",
+    "expectedAnswer": "トイレはどこですか。",
+    "acceptableAnswers": [
+      "トイレはどこですか。"
+    ],
+    "hint": "Danh từ + は + どこ (thông thường) / どちら (lịch sự) + ですか",
+    "explanation": "どちら còn dùng để hỏi phương hướng.",
+    "orderIndex": 2
+  },
+  {
+    "id": "77777777-1113-0003-0000-000000230001",
+    "patternId": "77777777-1113-0001-0000-000000002001",
+    "exerciseType": "arrange",
+    "prompt": "Nhà vệ sinh ở đâu?",
+    "expectedAnswer": "トイレはどこですか",
+    "optionsJson": "[\"か\",\"は\",\"どこ\",\"です\",\"トイレ\"]",
+    "options": [
+      "か",
+      "は",
+      "どこ",
+      "です",
+      "トイレ"
+    ],
+    "correctOrderJson": "[\"トイレ\",\"は\",\"どこ\",\"です\",\"か\"]",
+    "correctOrder": [
+      "トイレ",
+      "は",
+      "どこ",
+      "です",
+      "か"
+    ],
+    "orderIndex": 3
+  },
+  {
+    "id": "77777777-1113-0003-0000-000000210002",
+    "patternId": "77777777-1113-0001-0000-000000002001",
+    "exerciseType": "ja_to_vi",
+    "prompt": "エレベーターはどちらですか。",
+    "promptReading": "エレベーターはどちらですか。",
+    "expectedAnswer": "Thang máy ở đâu (hướng nào)?",
+    "hint": "～は どこですか / どちらですか。",
+    "explanation": "どちら còn dùng để hỏi phương hướng.",
+    "orderIndex": 4
+  },
+  {
+    "id": "77777777-1113-0003-0000-000000220002",
+    "patternId": "77777777-1113-0001-0000-000000002001",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Thang máy ở đâu (hướng nào)?",
+    "expectedAnswer": "エレベーターはどちらですか。",
+    "acceptableAnswers": [
+      "エレベーターはどちらですか。"
+    ],
+    "hint": "Danh từ + は + どこ (thông thường) / どちら (lịch sự) + ですか",
+    "explanation": "どちら còn dùng để hỏi phương hướng.",
+    "orderIndex": 5
+  },
+  {
+    "id": "77777777-1113-0003-0000-000000230002",
+    "patternId": "77777777-1113-0001-0000-000000002001",
+    "exerciseType": "arrange",
+    "prompt": "Thang máy ở đâu (hướng nào)?",
+    "expectedAnswer": "エレベーターはどちらですか",
+    "optionsJson": "[\"か\",\"は\",\"です\",\"どちら\",\"エレベーター\"]",
+    "options": [
+      "か",
+      "は",
+      "です",
+      "どちら",
+      "エレベーター"
+    ],
+    "correctOrderJson": "[\"エレベーター\",\"は\",\"どちら\",\"です\",\"か\"]",
+    "correctOrder": [
+      "エレベーター",
+      "は",
+      "どちら",
+      "です",
+      "か"
+    ],
+    "orderIndex": 6
+  },
+  {
+    "id": "77777777-1113-0003-0000-000000210003",
+    "patternId": "77777777-1113-0001-0000-000000002001",
+    "exerciseType": "ja_to_vi",
+    "prompt": "事務所はどこですか。",
+    "promptReading": "じむしょはどこですか。",
+    "expectedAnswer": "Văn phòng ở đâu vậy?",
+    "hint": "～は どこですか / どちらですか。",
+    "explanation": "どちら còn dùng để hỏi phương hướng.",
+    "orderIndex": 7
+  },
+  {
+    "id": "77777777-1113-0003-0000-000000220003",
+    "patternId": "77777777-1113-0001-0000-000000002001",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Văn phòng ở đâu vậy?",
+    "expectedAnswer": "事務所はどこですか。",
+    "acceptableAnswers": [
+      "じむしょはどこですか。"
+    ],
+    "hint": "Danh từ + は + どこ (thông thường) / どちら (lịch sự) + ですか",
+    "explanation": "どちら còn dùng để hỏi phương hướng.",
+    "orderIndex": 8
+  },
+  {
+    "id": "77777777-1113-0003-0000-000000230003",
+    "patternId": "77777777-1113-0001-0000-000000002001",
+    "exerciseType": "arrange",
+    "prompt": "Văn phòng ở đâu vậy?",
+    "expectedAnswer": "事務所 (じむしょ)はどこですか",
+    "optionsJson": "[\"か\",\"は\",\"どこ\",\"です\",\"事務所 (じむしょ)\"]",
+    "options": [
+      "か",
+      "は",
+      "どこ",
+      "です",
+      "事務所 (じむしょ)"
+    ],
+    "correctOrderJson": "[\"事務所 (じむしょ)\",\"は\",\"どこ\",\"です\",\"か\"]",
+    "correctOrder": [
+      "事務所 (じむしょ)",
+      "は",
+      "どこ",
+      "です",
+      "か"
+    ],
+    "orderIndex": 9
+  },
+  {
+    "id": "77777777-1113-0003-0000-000000210004",
+    "patternId": "77777777-1113-0001-0000-000000002001",
+    "exerciseType": "ja_to_vi",
+    "prompt": "あなたの国はどちらですか。",
+    "promptReading": "あなたのくにはどちらですか。",
+    "expectedAnswer": "Đất nước của bạn là ở đâu (phía nào)?",
+    "hint": "～は どこですか / どちらですか。",
+    "explanation": "どちら còn dùng để hỏi phương hướng.",
+    "orderIndex": 10
+  },
+  {
+    "id": "77777777-1113-0003-0000-000000220004",
+    "patternId": "77777777-1113-0001-0000-000000002001",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Đất nước của bạn là ở đâu (phía nào)?",
+    "expectedAnswer": "あなたの国はどちらですか。",
+    "acceptableAnswers": [
+      "あなたのくにはどちらですか。"
+    ],
+    "hint": "Danh từ + は + どこ (thông thường) / どちら (lịch sự) + ですか",
+    "explanation": "どちら còn dùng để hỏi phương hướng.",
+    "orderIndex": 11
+  },
+  {
+    "id": "77777777-1113-0003-0000-000000230004",
+    "patternId": "77777777-1113-0001-0000-000000002001",
+    "exerciseType": "arrange",
+    "prompt": "Đất nước của bạn là ở đâu (phía nào)?",
+    "expectedAnswer": "あなたの国 (くに)はどちらですか",
+    "optionsJson": "[\"か\",\"の\",\"は\",\"です\",\"あなた\",\"どちら\",\"国 (くに)\"]",
+    "options": [
+      "か",
+      "の",
+      "は",
+      "です",
+      "あなた",
+      "どちら",
+      "国 (くに)"
+    ],
+    "correctOrderJson": "[\"あなた\",\"の\",\"国 (くに)\",\"は\",\"どちら\",\"です\",\"か\"]",
+    "correctOrder": [
+      "あなた",
+      "の",
+      "国 (くに)",
+      "は",
+      "どちら",
+      "です",
+      "か"
+    ],
+    "orderIndex": 12
+  },
+  {
+    "id": "77777777-1113-0003-0000-000000210005",
+    "patternId": "77777777-1113-0001-0000-000000002001",
+    "exerciseType": "ja_to_vi",
+    "prompt": "受付はどこですか。",
+    "promptReading": "うけつけはどこですか。",
+    "expectedAnswer": "Quầy tiếp tân ở đâu?",
+    "hint": "～は どこですか / どちらですか。",
+    "explanation": "どちら còn dùng để hỏi phương hướng.",
+    "orderIndex": 13
+  },
+  {
+    "id": "77777777-1113-0003-0000-000000220005",
+    "patternId": "77777777-1113-0001-0000-000000002001",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Quầy tiếp tân ở đâu?",
+    "expectedAnswer": "受付はどこですか。",
+    "acceptableAnswers": [
+      "うけつけはどこですか。"
+    ],
+    "hint": "Danh từ + は + どこ (thông thường) / どちら (lịch sự) + ですか",
+    "explanation": "どちら còn dùng để hỏi phương hướng.",
+    "orderIndex": 14
+  },
+  {
+    "id": "77777777-1113-0003-0000-000000230005",
+    "patternId": "77777777-1113-0001-0000-000000002001",
+    "exerciseType": "arrange",
+    "prompt": "Quầy tiếp tân ở đâu?",
+    "expectedAnswer": "受付 (うけつけ)はどこですか",
+    "optionsJson": "[\"か\",\"は\",\"どこ\",\"です\",\"受付 (うけつけ)\"]",
+    "options": [
+      "か",
+      "は",
+      "どこ",
+      "です",
+      "受付 (うけつけ)"
+    ],
+    "correctOrderJson": "[\"受付 (うけつけ)\",\"は\",\"どこ\",\"です\",\"か\"]",
+    "correctOrder": [
+      "受付 (うけつけ)",
+      "は",
+      "どこ",
+      "です",
+      "か"
+    ],
+    "orderIndex": 15
+  }
+]

@@ -78,6 +78,7 @@ export const ExamDashboardPage = () => {
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4 max-w-3xl">
         {courses.map((course) => {
+          const isLocked = false;
           const isJpd113 = course.code === 'jpd113';
           const colorTop = isJpd113 ? 'bg-[#e5e1da]' : 'bg-[#b8d4e3]';
           const colorBottom = 'bg-[#2563EB]';
@@ -85,9 +86,9 @@ export const ExamDashboardPage = () => {
           return (
             <div
               key={course.code}
-              onClick={() => course.isLocked ? navigate('/pricing') : navigate(`/exam/${course.code}`)}
+              onClick={() => isLocked ? navigate('/pricing') : navigate(`/exam/${course.code}`)}
               className={`group relative overflow-hidden rounded-[24px] border-2 border-border/5 shadow-sm transition-all cursor-pointer hover:-translate-y-1 hover:shadow-md ${
-                course.isLocked ? 'grayscale-[0.3]' : ''
+                isLocked ? 'grayscale-[0.3]' : ''
               }`}
             >
               {/* Top */}
@@ -114,11 +115,11 @@ export const ExamDashboardPage = () => {
                 </div>
 
                 <div className="text-[9px] font-bold mt-1 opacity-80 uppercase tracking-widest">
-                  {course.isLocked ? 'Cần kích hoạt gói Premium' : `Học & Luyện thi ${course.title}`}
+                  {isLocked ? 'Cần kích hoạt gói Premium' : `Học & Luyện thi ${course.title}`}
                 </div>
               </div>
 
-              {course.isLocked && (
+              {isLocked && (
                 <div className="absolute inset-0 z-10 flex items-center justify-center bg-slate-900/10 backdrop-blur-[1px]">
                   <div className="flex h-12 w-12 items-center justify-center rounded-full border-2 border-white bg-slate-900/80 text-white shadow-xl">
                     <Lock size={20} />

@@ -1,0 +1,75 @@
+{
+  "lesson": {
+    "id": "88888888-1113-0000-0000-000000000106",
+    "courseCode": "jpd113",
+    "lessonNumber": 6,
+    "title": "とんかつ",
+    "description": "Món ăn - Giới thiệu về món Tonkatsu yêu thích.",
+    "accessTier": "premium",
+    "packageCode": "speaking_jpd113",
+    "isLocked": true,
+    "sentenceCount": 6
+  },
+  "sentences": [
+    {
+      "id": "88888888-1113-0000-0000-000000006001",
+      "lessonId": "88888888-1113-0000-0000-000000000106",
+      "sentenceNumber": 1,
+      "plainText": "これは「とんかつ」です。",
+      "romaji": "kore wa \"tonkatsu\"desu.",
+      "contentHtml": "これは 「とんかつ」です。",
+      "meaningVi": "Đây là món Tonkatsu (thịt heo chiên xù).",
+      "orderIndex": 1
+    },
+    {
+      "id": "88888888-1113-0000-0000-000000006002",
+      "lessonId": "88888888-1113-0000-0000-000000000106",
+      "sentenceNumber": 2,
+      "plainText": "私のすきなりょうりです。",
+      "romaji": "watashino sukina ryouridesu.",
+      "contentHtml": "<ruby>私<rt>わたし</rt></ruby>の <ruby>す<rt>す</rt></ruby>きな <ruby>りょうり<rt>りょうり</rt></ruby>です。",
+      "meaningVi": "Đây là món ăn yêu thích của tôi.",
+      "orderIndex": 2
+    },
+    {
+      "id": "88888888-1113-0000-0000-000000006003",
+      "lessonId": "88888888-1113-0000-0000-000000000106",
+      "sentenceNumber": 3,
+      "plainText": "千二百円です。",
+      "romaji": "sennihyakuendesu.",
+      "contentHtml": "<ruby>千二百円<rt>せんにひゃくえん</rt></ruby>です。",
+      "meaningVi": "Giá là 1.200 yên.",
+      "orderIndex": 3
+    },
+    {
+      "id": "88888888-1113-0000-0000-000000006004",
+      "lessonId": "88888888-1113-0000-0000-000000000106",
+      "sentenceNumber": 4,
+      "plainText": "日本のりょうりです。",
+      "romaji": "nihonno ryouridesu.",
+      "contentHtml": "<ruby>日本<rt>にほん</rt></ruby>の <ruby>りょうり<rt>りょうり</rt></ruby>です。",
+      "meaningVi": "Đây là món ăn của Nhật Bản.",
+      "orderIndex": 4
+    },
+    {
+      "id": "88888888-1113-0000-0000-000000006005",
+      "lessonId": "88888888-1113-0000-0000-000000000106",
+      "sentenceNumber": 5,
+      "plainText": "エーオンレストランのとんかつはとてもおいしいです。",
+      "romaji": "e-onresutoranno tonkatsu wa totemo oishiidesu.",
+      "contentHtml": "エーオンレストランの とんかつは とても おいしいです。",
+      "meaningVi": "Món Tonkatsu ở nhà hàng Aeon rất ngon.",
+      "orderIndex": 5
+    },
+    {
+      "id": "88888888-1113-0000-0000-000000006006",
+      "lessonId": "88888888-1113-0000-0000-000000000106",
+      "sentenceNumber": 6,
+      "plainText": "よくかぞくとこのレストランへたべに行きます。",
+      "romaji": "yoku kazokuto konoresutoran e tabeni ikimasu.",
+      "contentHtml": "よく <ruby>かぞく<rt>かぞく</rt></ruby>と このレストランへ <ruby>た<rt>た</rt></ruby>べに <ruby>行<rt>い</rt></ruby>きます。",
+      "meaningVi": "Tôi thường cùng gia đình đến nhà hàng này để ăn.",
+      "orderIndex": 6
+    }
+  ]
+}

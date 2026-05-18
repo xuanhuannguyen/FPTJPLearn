@@ -1,0 +1,24 @@
+[
+  {
+    "id": "exam-jpd113",
+    "code": "jpd113",
+    "title": "JPD113",
+    "description": "Ngân hàng câu hỏi luyện thi cho khóa học JPD113",
+    "accessTier": "premium",
+    "packageCode": "jpd113",
+    "isLocked": false,
+    "questionCount": 267,
+    "passageCount": 1
+  },
+  {
+    "id": "exam-jpd123",
+    "code": "jpd123",
+    "title": "JPD123",
+    "description": "Ngân hàng câu hỏi luyện thi cho khóa học JPD123",
+    "accessTier": "premium",
+    "packageCode": "jpd123",
+    "isLocked": false,
+    "questionCount": 492,
+    "passageCount": 10
+  }
+]

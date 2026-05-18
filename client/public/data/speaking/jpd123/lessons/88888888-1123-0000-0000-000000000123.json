@@ -1,0 +1,95 @@
+{
+  "lesson": {
+    "id": "88888888-1123-0000-0000-000000000123",
+    "courseCode": "jpd123",
+    "lessonNumber": 23,
+    "title": "うちで 料理",
+    "description": "Ẩm thực - Nấu ăn ở nhà rồi ăn cùng bạn bè.",
+    "accessTier": "premium",
+    "packageCode": "speaking_jpd123",
+    "isLocked": true,
+    "sentenceCount": 8
+  },
+  "sentences": [
+    {
+      "id": "88888888-1123-0000-0000-000000023001",
+      "lessonId": "88888888-1123-0000-0000-000000000123",
+      "sentenceNumber": 1,
+      "plainText": "わたしは家でごはんをつくります。",
+      "romaji": "watashi wa ie de gohan wo tsukurimasu.",
+      "contentHtml": "わたしは <ruby>家<rt>いえ</rt></ruby> で ごはんを つくります。",
+      "meaningVi": "Tôi nấu cơm ở nhà.",
+      "orderIndex": 1
+    },
+    {
+      "id": "88888888-1123-0000-0000-000000023002",
+      "lessonId": "88888888-1123-0000-0000-000000000123",
+      "sentenceNumber": 2,
+      "plainText": "きょうは食べ物をたくさんつくりました。",
+      "romaji": "kyou wa tabemono wo takusan tsukurimashita.",
+      "contentHtml": "きょうは <ruby>食<rt>た</rt></ruby>べ<ruby>物<rt>もの</rt></ruby> を たくさん つくりました。",
+      "meaningVi": "Hôm nay tôi đã làm rất nhiều món ăn.",
+      "orderIndex": 2
+    },
+    {
+      "id": "88888888-1123-0000-0000-000000023003",
+      "lessonId": "88888888-1123-0000-0000-000000000123",
+      "sentenceNumber": 3,
+      "plainText": "やさいとにくをつかって、かんたんなりょうりをしました。",
+      "romaji": "yasaito niku wo tsukatte,kantanna ryouri wo shimashita.",
+      "contentHtml": "やさいと にくを つかって、かんたんな りょうりを しました。",
+      "meaningVi": "Tôi dùng rau và thịt để nấu những món đơn giản.",
+      "orderIndex": 3
+    },
+    {
+      "id": "88888888-1123-0000-0000-000000023004",
+      "lessonId": "88888888-1123-0000-0000-000000000123",
+      "sentenceNumber": 4,
+      "plainText": "ともだちといっしょに食べました。",
+      "romaji": "tomodachito isshoni tabemashita.",
+      "contentHtml": "ともだちと いっしょに <ruby>食<rt>た</rt></ruby>べました。",
+      "meaningVi": "Tôi đã ăn cùng bạn.",
+      "orderIndex": 4
+    },
+    {
+      "id": "88888888-1123-0000-0000-000000023005",
+      "lessonId": "88888888-1123-0000-0000-000000000123",
+      "sentenceNumber": 5,
+      "plainText": "とてもおいしかったです。",
+      "romaji": "totemo oishikattadesu.",
+      "contentHtml": "とても おいしかったです。",
+      "meaningVi": "Món ăn rất ngon.",
+      "orderIndex": 5
+    },
+    {
+      "id": "88888888-1123-0000-0000-000000023006",
+      "lessonId": "88888888-1123-0000-0000-000000000123",
+      "sentenceNumber": 6,
+      "plainText": "あとで、飲み物を飲みながらいろいろなはなしをしました。",
+      "romaji": "atode,nomimono wo nominagara iroirona hanashi wo shimashita.",
+      "contentHtml": "あとで、<ruby>飲み物<rt>のみもの</rt></ruby> を <ruby>飲<rt>の</rt></ruby>みながら いろいろな はなしを しました。",
+      "meaningVi": "Sau đó chúng tôi vừa uống nước vừa trò chuyện đủ thứ.",
+      "orderIndex": 6
+    },
+    {
+      "id": "88888888-1123-0000-0000-000000023007",
+      "lessonId": "88888888-1123-0000-0000-000000000123",
+      "sentenceNumber": 7,
+      "plainText": "スーパーでチョコを買って、すこし食べました。",
+      "romaji": "su-pa-de choko wo katte,sukoshi tabemashita.",
+      "contentHtml": "スーパーで チョコを <ruby>買<rt>か</rt></ruby>って、すこし <ruby>食<rt>た</rt></ruby>べました。",
+      "meaningVi": "Tôi mua sô-cô-la ở siêu thị rồi ăn một ít.",
+      "orderIndex": 7
+    },
+    {
+      "id": "88888888-1123-0000-0000-000000023008",
+      "lessonId": "88888888-1123-0000-0000-000000000123",
+      "sentenceNumber": 8,
+      "plainText": "ゆっくりやすむじかんも大切だとおもいます。",
+      "romaji": "yukkuri yasumu jikanmo taisetsu dato omoimasu.",
+      "contentHtml": "ゆっくり やすむ じかんも <ruby>大切<rt>たいせつ</rt></ruby> だと おもいます。",
+      "meaningVi": "Tôi nghĩ thời gian nghỉ ngơi thong thả cũng rất quan trọng.",
+      "orderIndex": 8
+    }
+  ]
+}

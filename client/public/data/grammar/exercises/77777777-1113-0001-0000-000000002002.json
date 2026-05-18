@@ -1,0 +1,244 @@
+[
+  {
+    "id": "77777777-1113-0003-0000-000000211001",
+    "patternId": "77777777-1113-0001-0000-000000002002",
+    "exerciseType": "ja_to_vi",
+    "prompt": "レストランは何階ですか。",
+    "promptReading": "レストランはなんかいですか。",
+    "expectedAnswer": "Nhà hàng ở tầng mấy?",
+    "hint": "～は なんかいですか。",
+    "explanation": "Trả lời bằng số tầng + かい/がい.",
+    "orderIndex": 1
+  },
+  {
+    "id": "77777777-1113-0003-0000-000000221001",
+    "patternId": "77777777-1113-0001-0000-000000002002",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Nhà hàng ở tầng mấy?",
+    "expectedAnswer": "レストランは何階ですか。",
+    "acceptableAnswers": [
+      "レストランはなんかいですか。"
+    ],
+    "hint": "Danh từ + は + なんかい + ですか",
+    "explanation": "Trả lời bằng số tầng + かい/がい.",
+    "orderIndex": 2
+  },
+  {
+    "id": "77777777-1113-0003-0000-000000231001",
+    "patternId": "77777777-1113-0001-0000-000000002002",
+    "exerciseType": "arrange",
+    "prompt": "Nhà hàng ở tầng mấy?",
+    "expectedAnswer": "レストランは何階 (なんかい)ですか",
+    "optionsJson": "[\"か\",\"は\",\"です\",\"レストラン\",\"何階 (なんかい)\"]",
+    "options": [
+      "か",
+      "は",
+      "です",
+      "レストラン",
+      "何階 (なんかい)"
+    ],
+    "correctOrderJson": "[\"レストラン\",\"は\",\"何階 (なんかい)\",\"です\",\"か\"]",
+    "correctOrder": [
+      "レストラン",
+      "は",
+      "何階 (なんかい)",
+      "です",
+      "か"
+    ],
+    "orderIndex": 3
+  },
+  {
+    "id": "77777777-1113-0003-0000-000000211002",
+    "patternId": "77777777-1113-0001-0000-000000002002",
+    "exerciseType": "ja_to_vi",
+    "prompt": "会議室は何階ですか。",
+    "promptReading": "かいぎしつはなんかいですか。",
+    "expectedAnswer": "Phòng họp ở tầng mấy?",
+    "hint": "～は なんかいですか。",
+    "explanation": "Trả lời bằng số tầng + かい/がい.",
+    "orderIndex": 4
+  },
+  {
+    "id": "77777777-1113-0003-0000-000000221002",
+    "patternId": "77777777-1113-0001-0000-000000002002",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Phòng họp ở tầng mấy?",
+    "expectedAnswer": "会議室は何階ですか。",
+    "acceptableAnswers": [
+      "かいぎしつはなんかいですか。"
+    ],
+    "hint": "Danh từ + は + なんかい + ですか",
+    "explanation": "Trả lời bằng số tầng + かい/がい.",
+    "orderIndex": 5
+  },
+  {
+    "id": "77777777-1113-0003-0000-000000231002",
+    "patternId": "77777777-1113-0001-0000-000000002002",
+    "exerciseType": "arrange",
+    "prompt": "Phòng họp ở tầng mấy?",
+    "expectedAnswer": "会議室 (かいぎしつ)は何階 (なんかい)ですか",
+    "optionsJson": "[\"か\",\"は\",\"です\",\"何階 (なんかい)\",\"会議室 (かいぎしつ)\"]",
+    "options": [
+      "か",
+      "は",
+      "です",
+      "何階 (なんかい)",
+      "会議室 (かいぎしつ)"
+    ],
+    "correctOrderJson": "[\"会議室 (かいぎしつ)\",\"は\",\"何階 (なんかい)\",\"です\",\"か\"]",
+    "correctOrder": [
+      "会議室 (かいぎしつ)",
+      "は",
+      "何階 (なんかい)",
+      "です",
+      "か"
+    ],
+    "orderIndex": 6
+  },
+  {
+    "id": "77777777-1113-0003-0000-000000211003",
+    "patternId": "77777777-1113-0001-0000-000000002002",
+    "exerciseType": "ja_to_vi",
+    "prompt": "売り場は何階ですか。",
+    "promptReading": "うりばはなんかいですか。",
+    "expectedAnswer": "Quầy bán hàng ở tầng mấy?",
+    "hint": "～は なんかいですか。",
+    "explanation": "Trả lời bằng số tầng + かい/がい.",
+    "orderIndex": 7
+  },
+  {
+    "id": "77777777-1113-0003-0000-000000221003",
+    "patternId": "77777777-1113-0001-0000-000000002002",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Quầy bán hàng ở tầng mấy?",
+    "expectedAnswer": "売り場は何階ですか。",
+    "acceptableAnswers": [
+      "うりばはなんかいですか。"
+    ],
+    "hint": "Danh từ + は + なんかい + ですか",
+    "explanation": "Trả lời bằng số tầng + かい/がい.",
+    "orderIndex": 8
+  },
+  {
+    "id": "77777777-1113-0003-0000-000000231003",
+    "patternId": "77777777-1113-0001-0000-000000002002",
+    "exerciseType": "arrange",
+    "prompt": "Quầy bán hàng ở tầng mấy?",
+    "expectedAnswer": "売り場 (うりば)は何階 (なんかい)ですか",
+    "optionsJson": "[\"か\",\"は\",\"です\",\"売り場 (うりば)\",\"何階 (なんかい)\"]",
+    "options": [
+      "か",
+      "は",
+      "です",
+      "売り場 (うりば)",
+      "何階 (なんかい)"
+    ],
+    "correctOrderJson": "[\"売り場 (うりば)\",\"は\",\"何階 (なんかい)\",\"です\",\"か\"]",
+    "correctOrder": [
+      "売り場 (うりば)",
+      "は",
+      "何階 (なんかい)",
+      "です",
+      "か"
+    ],
+    "orderIndex": 9
+  },
+  {
+    "id": "77777777-1113-0003-0000-000000211004",
+    "patternId": "77777777-1113-0001-0000-000000002002",
+    "exerciseType": "ja_to_vi",
+    "prompt": "パソコン売り場は何階ですか。",
+    "promptReading": "パソコンうりばはなんかいですか。",
+    "expectedAnswer": "Quầy bán máy tính ở tầng mấy?",
+    "hint": "～は なんかいですか。",
+    "explanation": "Trả lời bằng số tầng + かい/がい.",
+    "orderIndex": 10
+  },
+  {
+    "id": "77777777-1113-0003-0000-000000221004",
+    "patternId": "77777777-1113-0001-0000-000000002002",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Quầy bán máy tính ở tầng mấy?",
+    "expectedAnswer": "パソコン売り場は何階ですか。",
+    "acceptableAnswers": [
+      "パソコンうりばはなんかいですか。"
+    ],
+    "hint": "Danh từ + は + なんかい + ですか",
+    "explanation": "Trả lời bằng số tầng + かい/がい.",
+    "orderIndex": 11
+  },
+  {
+    "id": "77777777-1113-0003-0000-000000231004",
+    "patternId": "77777777-1113-0001-0000-000000002002",
+    "exerciseType": "arrange",
+    "prompt": "Quầy bán máy tính ở tầng mấy?",
+    "expectedAnswer": "パソコン売り場 (パソコンうりば)は何階 (なんかい)ですか",
+    "optionsJson": "[\"か\",\"は\",\"です\",\"何階 (なんかい)\",\"パソコン売り場 (パソコンうりば)\"]",
+    "options": [
+      "か",
+      "は",
+      "です",
+      "何階 (なんかい)",
+      "パソコン売り場 (パソコンうりば)"
+    ],
+    "correctOrderJson": "[\"パソコン売り場 (パソコンうりば)\",\"は\",\"何階 (なんかい)\",\"です\",\"か\"]",
+    "correctOrder": [
+      "パソコン売り場 (パソコンうりば)",
+      "は",
+      "何階 (なんかい)",
+      "です",
+      "か"
+    ],
+    "orderIndex": 12
+  },
+  {
+    "id": "77777777-1113-0003-0000-000000211005",
+    "patternId": "77777777-1113-0001-0000-000000002002",
+    "exerciseType": "ja_to_vi",
+    "prompt": "私の部屋は三階です。",
+    "promptReading": "わたしのへやはさんがいです。",
+    "expectedAnswer": "Phòng của tôi ở tầng 3.",
+    "hint": "～は なんかいですか。",
+    "explanation": "Trả lời bằng số tầng + かい/がい.",
+    "orderIndex": 13
+  },
+  {
+    "id": "77777777-1113-0003-0000-000000221005",
+    "patternId": "77777777-1113-0001-0000-000000002002",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Phòng của tôi ở tầng 3.",
+    "expectedAnswer": "私の部屋は三階です。",
+    "acceptableAnswers": [
+      "わたしのへやはさんがいです。"
+    ],
+    "hint": "Danh từ + は + なんかい + ですか",
+    "explanation": "Trả lời bằng số tầng + かい/がい.",
+    "orderIndex": 14
+  },
+  {
+    "id": "77777777-1113-0003-0000-000000231005",
+    "patternId": "77777777-1113-0001-0000-000000002002",
+    "exerciseType": "arrange",
+    "prompt": "Phòng của tôi ở tầng 3.",
+    "expectedAnswer": "私 (わたし)の部屋 (へや)は三階 (さんがい)です",
+    "optionsJson": "[\"の\",\"は\",\"です\",\"私 (わたし)\",\"部屋 (へや)\",\"三階 (さんがい)\"]",
+    "options": [
+      "の",
+      "は",
+      "です",
+      "私 (わたし)",
+      "部屋 (へや)",
+      "三階 (さんがい)"
+    ],
+    "correctOrderJson": "[\"私 (わたし)\",\"の\",\"部屋 (へや)\",\"は\",\"三階 (さんがい)\",\"です\"]",
+    "correctOrder": [
+      "私 (わたし)",
+      "の",
+      "部屋 (へや)",
+      "は",
+      "三階 (さんがい)",
+      "です"
+    ],
+    "orderIndex": 15
+  }
+]

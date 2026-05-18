@@ -1,0 +1,386 @@
+{
+  "lesson": {
+    "id": "kanji-jpd113-n5-3",
+    "level": "N5",
+    "lessonNumber": 3,
+    "title": "Thời gian và Ngày trong tuần",
+    "description": "Thời gian và Ngày trong tuần - JPD113 Kanji N5.",
+    "accessTier": "premium",
+    "packageCode": "kanji_jpd113",
+    "orderIndex": 3,
+    "kanjiCount": 11,
+    "vocabularyCount": 28,
+    "isLocked": true
+  },
+  "kanjiItems": [
+    {
+      "id": "d01bd13d-d6ae-5471-9ee2-0345fb64c34f",
+      "lessonId": "kanji-jpd113-n5-3",
+      "level": "N5",
+      "character": "月",
+      "hanViet": "NGUYỆT",
+      "meaning": "Mặt trăng, tháng, thứ Hai",
+      "strokeCount": 4,
+      "kunReading": "つき",
+      "onReading": "ゲツ、ガツ",
+      "mnemonic": "Hình ảnh mặt trăng (月) khuyết mỏng manh chênh chếch trên bầu trời, có hai đám mây trôi ngang qua ở giữa.",
+      "orderIndex": 1
+    },
+    {
+      "id": "26528581-0a3a-5beb-a4e1-4bb8802c74fa",
+      "lessonId": "kanji-jpd113-n5-3",
+      "level": "N5",
+      "character": "火",
+      "hanViet": "HỎA",
+      "meaning": "Lửa, thứ Ba",
+      "strokeCount": 4,
+      "kunReading": "ひ、び、ほ",
+      "onReading": "カ",
+      "mnemonic": "Người (人) vung hai tay mạnh mẽ tạo ra những tia lửa (火) bùng cháy rực rỡ.",
+      "orderIndex": 2
+    },
+    {
+      "id": "bff300d8-ac44-5fef-853d-f2c449f59b34",
+      "lessonId": "kanji-jpd113-n5-3",
+      "level": "N5",
+      "character": "水",
+      "hanViet": "THỦY",
+      "meaning": "Nước, thứ Tư",
+      "strokeCount": 4,
+      "kunReading": "みず",
+      "onReading": "スイ",
+      "mnemonic": "Dòng thác chảy thẳng tắp ở giữa (亅) đập vào đá làm nước (水) bắn tung tóe ra hai bên.",
+      "orderIndex": 3
+    },
+    {
+      "id": "37abdf45-fc81-5dda-8566-2c993fdac3d1",
+      "lessonId": "kanji-jpd113-n5-3",
+      "level": "N5",
+      "character": "木",
+      "hanViet": "MỘC",
+      "meaning": "Cây, thứ Năm",
+      "strokeCount": 4,
+      "kunReading": "き、こ",
+      "onReading": "モク、ボク",
+      "mnemonic": "Cành và thân cây dang ra như hình chữ thập (十), bên dưới là rễ cắm sâu xuống đất tạo thành cái cây (木).",
+      "orderIndex": 4
+    },
+    {
+      "id": "576b6447-5b94-5a7a-957b-aac336483316",
+      "lessonId": "kanji-jpd113-n5-3",
+      "level": "N5",
+      "character": "金",
+      "hanViet": "KIM",
+      "meaning": "Tiền, vàng, thứ Sáu",
+      "strokeCount": 8,
+      "kunReading": "かね、かな",
+      "onReading": "キン、コン",
+      "mnemonic": "Được giấu kín dưới mái nhà (𠆢) của nhà vua (王) chính là hai thỏi vàng (ハ) vô giá (金).",
+      "orderIndex": 5
+    },
+    {
+      "id": "118222bb-2f95-564f-8ff5-beb7c16e97e8",
+      "lessonId": "kanji-jpd113-n5-3",
+      "level": "N5",
+      "character": "土",
+      "hanViet": "THỔ",
+      "meaning": "Đất, thứ Bảy",
+      "strokeCount": 3,
+      "kunReading": "つち",
+      "onReading": "ド、ト",
+      "mnemonic": "Cắm một cây thập tự giá (十) sâu xuống mặt đất (一) bằng phẳng (土).",
+      "orderIndex": 6
+    },
+    {
+      "id": "54a45487-e51f-53bd-9c70-87529905cd36",
+      "lessonId": "kanji-jpd113-n5-3",
+      "level": "N5",
+      "character": "何",
+      "hanViet": "HÀ",
+      "meaning": "Cái gì",
+      "strokeCount": 7,
+      "kunReading": "なに、なん",
+      "onReading": "カ",
+      "mnemonic": "Một người (亻) luôn tò mò hỏi xem bản thân có thể (可) làm được cái gì (何).",
+      "orderIndex": 7
+    },
+    {
+      "id": "2473b071-dd7a-561b-9b5a-67dabe649765",
+      "lessonId": "kanji-jpd113-n5-3",
+      "level": "N5",
+      "character": "年",
+      "hanViet": "NIÊN",
+      "meaning": "Năm",
+      "strokeCount": 6,
+      "kunReading": "とし",
+      "onReading": "ネン",
+      "mnemonic": "Người (𠂉) nông dân làm việc vất vả thu hoạch được một (一) chục (十) vụ mùa là trôi qua hết một năm (年).",
+      "orderIndex": 8
+    },
+    {
+      "id": "eff056fa-5214-5e6d-b2a3-c677dc8655fc",
+      "lessonId": "kanji-jpd113-n5-3",
+      "level": "N5",
+      "character": "時",
+      "hanViet": "THỜI",
+      "meaning": "Thời gian, giờ",
+      "strokeCount": 10,
+      "kunReading": "とき",
+      "onReading": "ジ",
+      "mnemonic": "Ngày xưa người ta nhìn mặt trời (日) mọc trên đỉnh nóc chùa (寺) để biết thời gian (時) và giờ giấc.",
+      "orderIndex": 9
+    },
+    {
+      "id": "53df3cf0-0b28-5b80-bb4d-07a39190aabd",
+      "lessonId": "kanji-jpd113-n5-3",
+      "level": "N5",
+      "character": "間",
+      "hanViet": "GIAN",
+      "meaning": "Khoảng trống, ở giữa, trong~, gian phòng",
+      "strokeCount": 12,
+      "kunReading": "あいだ、ま",
+      "onReading": "カン、ケン",
+      "mnemonic": "Ánh mặt trời (日) len lỏi chiếu qua khe hở ở giữa hai cánh cổng (門) lớn tạo ra một không gian (間) rực sáng.",
+      "orderIndex": 10
+    },
+    {
+      "id": "77624de6-8922-5e86-aa9a-824acd663ed6",
+      "lessonId": "kanji-jpd113-n5-3",
+      "level": "N5",
+      "character": "分",
+      "hanViet": "PHÂN",
+      "meaning": "Phân chia, hiểu, phút",
+      "strokeCount": 4,
+      "kunReading": "わ.ける、わ.かる",
+      "onReading": "ブン、フン、ブ",
+      "mnemonic": "Dùng con dao (刀) sắc bén để chia đồ vật ra làm tám (ハ) phần (分).",
+      "orderIndex": 11
+    }
+  ],
+  "vocabularyItems": [
+    {
+      "id": "kanji-jpd113-n5-3-vocab-1",
+      "lessonId": "kanji-jpd113-n5-3",
+      "level": "N5",
+      "word": "月",
+      "reading": "つき",
+      "meaning": "mặt trăng"
+    },
+    {
+      "id": "kanji-jpd113-n5-3-vocab-2",
+      "lessonId": "kanji-jpd113-n5-3",
+      "level": "N5",
+      "word": "一月",
+      "reading": "いちがつ",
+      "meaning": "Tháng 1"
+    },
+    {
+      "id": "kanji-jpd113-n5-3-vocab-3",
+      "lessonId": "kanji-jpd113-n5-3",
+      "level": "N5",
+      "word": "十二月",
+      "reading": "じゅうにがつ",
+      "meaning": "Tháng 12"
+    },
+    {
+      "id": "kanji-jpd113-n5-3-vocab-4",
+      "lessonId": "kanji-jpd113-n5-3",
+      "level": "N5",
+      "word": "月曜日",
+      "reading": "げつようび",
+      "meaning": "Thứ 2"
+    },
+    {
+      "id": "kanji-jpd113-n5-3-vocab-5",
+      "lessonId": "kanji-jpd113-n5-3",
+      "level": "N5",
+      "word": "花火",
+      "reading": "はなび",
+      "meaning": "pháo hoa"
+    },
+    {
+      "id": "kanji-jpd113-n5-3-vocab-6",
+      "lessonId": "kanji-jpd113-n5-3",
+      "level": "N5",
+      "word": "火",
+      "reading": "ひ",
+      "meaning": "lửa"
+    },
+    {
+      "id": "kanji-jpd113-n5-3-vocab-7",
+      "lessonId": "kanji-jpd113-n5-3",
+      "level": "N5",
+      "word": "火曜日",
+      "reading": "かようび",
+      "meaning": "Thứ 3"
+    },
+    {
+      "id": "kanji-jpd113-n5-3-vocab-8",
+      "lessonId": "kanji-jpd113-n5-3",
+      "level": "N5",
+      "word": "水",
+      "reading": "みず",
+      "meaning": "nước"
+    },
+    {
+      "id": "kanji-jpd113-n5-3-vocab-9",
+      "lessonId": "kanji-jpd113-n5-3",
+      "level": "N5",
+      "word": "水曜日",
+      "reading": "すいようび",
+      "meaning": "Thứ 4"
+    },
+    {
+      "id": "kanji-jpd113-n5-3-vocab-10",
+      "lessonId": "kanji-jpd113-n5-3",
+      "level": "N5",
+      "word": "木",
+      "reading": "き",
+      "meaning": "Cây"
+    },
+    {
+      "id": "kanji-jpd113-n5-3-vocab-11",
+      "lessonId": "kanji-jpd113-n5-3",
+      "level": "N5",
+      "word": "木曜日",
+      "reading": "もくようび",
+      "meaning": "Thứ 5"
+    },
+    {
+      "id": "kanji-jpd113-n5-3-vocab-12",
+      "lessonId": "kanji-jpd113-n5-3",
+      "level": "N5",
+      "word": "お金",
+      "reading": "おかね",
+      "meaning": "tiền"
+    },
+    {
+      "id": "kanji-jpd113-n5-3-vocab-13",
+      "lessonId": "kanji-jpd113-n5-3",
+      "level": "N5",
+      "word": "金曜日",
+      "reading": "きんようび",
+      "meaning": "Thứ 6"
+    },
+    {
+      "id": "kanji-jpd113-n5-3-vocab-14",
+      "lessonId": "kanji-jpd113-n5-3",
+      "level": "N5",
+      "word": "土",
+      "reading": "つち",
+      "meaning": "Đất"
+    },
+    {
+      "id": "kanji-jpd113-n5-3-vocab-15",
+      "lessonId": "kanji-jpd113-n5-3",
+      "level": "N5",
+      "word": "土曜日",
+      "reading": "どようび",
+      "meaning": "Thứ 7"
+    },
+    {
+      "id": "kanji-jpd113-n5-3-vocab-16",
+      "lessonId": "kanji-jpd113-n5-3",
+      "level": "N5",
+      "word": "何",
+      "reading": "なん/なに",
+      "meaning": "Cái gì"
+    },
+    {
+      "id": "kanji-jpd113-n5-3-vocab-17",
+      "lessonId": "kanji-jpd113-n5-3",
+      "level": "N5",
+      "word": "何月",
+      "reading": "なんがつ",
+      "meaning": "tháng mấy"
+    },
+    {
+      "id": "kanji-jpd113-n5-3-vocab-18",
+      "lessonId": "kanji-jpd113-n5-3",
+      "level": "N5",
+      "word": "何人",
+      "reading": "なんにん",
+      "meaning": "mấy người"
+    },
+    {
+      "id": "kanji-jpd113-n5-3-vocab-19",
+      "lessonId": "kanji-jpd113-n5-3",
+      "level": "N5",
+      "word": "何曜日",
+      "reading": "なんようび",
+      "meaning": "Thứ mấy"
+    },
+    {
+      "id": "kanji-jpd113-n5-3-vocab-20",
+      "lessonId": "kanji-jpd113-n5-3",
+      "level": "N5",
+      "word": "何年",
+      "reading": "なんねん",
+      "meaning": "Năm bao nhiêu"
+    },
+    {
+      "id": "kanji-jpd113-n5-3-vocab-21",
+      "lessonId": "kanji-jpd113-n5-3",
+      "level": "N5",
+      "word": "今年",
+      "reading": "ことし",
+      "meaning": "Năm nay"
+    },
+    {
+      "id": "kanji-jpd113-n5-3-vocab-22",
+      "lessonId": "kanji-jpd113-n5-3",
+      "level": "N5",
+      "word": "九時",
+      "reading": "くじ",
+      "meaning": "9 giờ"
+    },
+    {
+      "id": "kanji-jpd113-n5-3-vocab-23",
+      "lessonId": "kanji-jpd113-n5-3",
+      "level": "N5",
+      "word": "何時",
+      "reading": "なんじ",
+      "meaning": "Mấy giờ"
+    },
+    {
+      "id": "kanji-jpd113-n5-3-vocab-24",
+      "lessonId": "kanji-jpd113-n5-3",
+      "level": "N5",
+      "word": "時間",
+      "reading": "じかん",
+      "meaning": "Thời gian"
+    },
+    {
+      "id": "kanji-jpd113-n5-3-vocab-25",
+      "lessonId": "kanji-jpd113-n5-3",
+      "level": "N5",
+      "word": "何時間",
+      "reading": "なんじかん",
+      "meaning": "Mấy tiếng"
+    },
+    {
+      "id": "kanji-jpd113-n5-3-vocab-26",
+      "lessonId": "kanji-jpd113-n5-3",
+      "level": "N5",
+      "word": "分かります",
+      "reading": "わかります",
+      "meaning": "Hiểu"
+    },
+    {
+      "id": "kanji-jpd113-n5-3-vocab-27",
+      "lessonId": "kanji-jpd113-n5-3",
+      "level": "N5",
+      "word": "半分",
+      "reading": "はんぶん",
+      "meaning": "1/2"
+    },
+    {
+      "id": "kanji-jpd113-n5-3-vocab-28",
+      "lessonId": "kanji-jpd113-n5-3",
+      "level": "N5",
+      "word": "六分",
+      "reading": "ろっぷん",
+      "meaning": "6 phút"
+    }
+  ]
+}

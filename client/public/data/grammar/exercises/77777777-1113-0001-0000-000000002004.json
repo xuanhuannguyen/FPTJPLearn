@@ -1,0 +1,254 @@
+[
+  {
+    "id": "77777777-1113-0003-0000-000000213001",
+    "patternId": "77777777-1113-0001-0000-000000002004",
+    "exerciseType": "ja_to_vi",
+    "prompt": "これはいくらですか。",
+    "promptReading": "これはいくらですか。",
+    "expectedAnswer": "Cái này bao nhiêu tiền?",
+    "hint": "～は いくらですか。",
+    "explanation": "いくら là từ hỏi về giá cả.",
+    "orderIndex": 1
+  },
+  {
+    "id": "77777777-1113-0003-0000-000000223001",
+    "patternId": "77777777-1113-0001-0000-000000002004",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Cái này bao nhiêu tiền?",
+    "expectedAnswer": "これはいくらですか。",
+    "acceptableAnswers": [
+      "これはいくらですか。"
+    ],
+    "hint": "Danh từ + は + いくら + ですか",
+    "explanation": "いくら là từ hỏi về giá cả.",
+    "orderIndex": 2
+  },
+  {
+    "id": "77777777-1113-0003-0000-000000233001",
+    "patternId": "77777777-1113-0001-0000-000000002004",
+    "exerciseType": "arrange",
+    "prompt": "Cái này bao nhiêu tiền?",
+    "expectedAnswer": "これはいくらですか",
+    "optionsJson": "[\"か\",\"は\",\"です\",\"これ\",\"いくら\"]",
+    "options": [
+      "か",
+      "は",
+      "です",
+      "これ",
+      "いくら"
+    ],
+    "correctOrderJson": "[\"これ\",\"は\",\"いくら\",\"です\",\"か\"]",
+    "correctOrder": [
+      "これ",
+      "は",
+      "いくら",
+      "です",
+      "か"
+    ],
+    "orderIndex": 3
+  },
+  {
+    "id": "77777777-1113-0003-0000-000000213002",
+    "patternId": "77777777-1113-0001-0000-000000002004",
+    "exerciseType": "ja_to_vi",
+    "prompt": "その靴はいくらですか。",
+    "promptReading": "そのくつはいくらですか。",
+    "expectedAnswer": "Đôi giày đó bao nhiêu tiền?",
+    "hint": "～は いくらですか。",
+    "explanation": "いくら là từ hỏi về giá cả.",
+    "orderIndex": 4
+  },
+  {
+    "id": "77777777-1113-0003-0000-000000223002",
+    "patternId": "77777777-1113-0001-0000-000000002004",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Đôi giày đó bao nhiêu tiền?",
+    "expectedAnswer": "その靴はいくらですか。",
+    "acceptableAnswers": [
+      "そのくつはいくらですか。"
+    ],
+    "hint": "Danh từ + は + いくら + ですか",
+    "explanation": "いくら là từ hỏi về giá cả.",
+    "orderIndex": 5
+  },
+  {
+    "id": "77777777-1113-0003-0000-000000233002",
+    "patternId": "77777777-1113-0001-0000-000000002004",
+    "exerciseType": "arrange",
+    "prompt": "Đôi giày đó bao nhiêu tiền?",
+    "expectedAnswer": "その靴 (くつ)はいくらですか",
+    "optionsJson": "[\"か\",\"そ\",\"の\",\"は\",\"です\",\"いくら\",\"靴 (くつ)\"]",
+    "options": [
+      "か",
+      "そ",
+      "の",
+      "は",
+      "です",
+      "いくら",
+      "靴 (くつ)"
+    ],
+    "correctOrderJson": "[\"そ\",\"の\",\"靴 (くつ)\",\"は\",\"いくら\",\"です\",\"か\"]",
+    "correctOrder": [
+      "そ",
+      "の",
+      "靴 (くつ)",
+      "は",
+      "いくら",
+      "です",
+      "か"
+    ],
+    "orderIndex": 6
+  },
+  {
+    "id": "77777777-1113-0003-0000-000000213003",
+    "patternId": "77777777-1113-0001-0000-000000002004",
+    "exerciseType": "ja_to_vi",
+    "prompt": "このカメラはいくらですか。",
+    "promptReading": "このかめらはいくらですか。",
+    "expectedAnswer": "Máy ảnh này bao nhiêu tiền?",
+    "hint": "～は いくらですか。",
+    "explanation": "いくら là từ hỏi về giá cả.",
+    "orderIndex": 7
+  },
+  {
+    "id": "77777777-1113-0003-0000-000000223003",
+    "patternId": "77777777-1113-0001-0000-000000002004",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Máy ảnh này bao nhiêu tiền?",
+    "expectedAnswer": "このカメラはいくらですか。",
+    "acceptableAnswers": [
+      "このかめらはいくらですか。"
+    ],
+    "hint": "Danh từ + は + いくら + ですか",
+    "explanation": "いくら là từ hỏi về giá cả.",
+    "orderIndex": 8
+  },
+  {
+    "id": "77777777-1113-0003-0000-000000233003",
+    "patternId": "77777777-1113-0001-0000-000000002004",
+    "exerciseType": "arrange",
+    "prompt": "Máy ảnh này bao nhiêu tiền?",
+    "expectedAnswer": "このカメラはいくらですか",
+    "optionsJson": "[\"か\",\"こ\",\"の\",\"は\",\"です\",\"いくら\",\"カメラ\"]",
+    "options": [
+      "か",
+      "こ",
+      "の",
+      "は",
+      "です",
+      "いくら",
+      "カメラ"
+    ],
+    "correctOrderJson": "[\"こ\",\"の\",\"カメラ\",\"は\",\"いくら\",\"です\",\"か\"]",
+    "correctOrder": [
+      "こ",
+      "の",
+      "カメラ",
+      "は",
+      "いくら",
+      "です",
+      "か"
+    ],
+    "orderIndex": 9
+  },
+  {
+    "id": "77777777-1113-0003-0000-000000213004",
+    "patternId": "77777777-1113-0001-0000-000000002004",
+    "exerciseType": "ja_to_vi",
+    "prompt": "そのリンゴは一ついくらですか。",
+    "promptReading": "そのリンゴはひとついくらですか。",
+    "expectedAnswer": "Quả táo đó bao nhiêu tiền một quả?",
+    "hint": "～は いくらですか。",
+    "explanation": "いくら là từ hỏi về giá cả.",
+    "orderIndex": 10
+  },
+  {
+    "id": "77777777-1113-0003-0000-000000223004",
+    "patternId": "77777777-1113-0001-0000-000000002004",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Quả táo đó bao nhiêu tiền một quả?",
+    "expectedAnswer": "そのリンゴは一ついくらですか。",
+    "acceptableAnswers": [
+      "そのリンゴはひとついくらですか。"
+    ],
+    "hint": "Danh từ + は + いくら + ですか",
+    "explanation": "いくら là từ hỏi về giá cả.",
+    "orderIndex": 11
+  },
+  {
+    "id": "77777777-1113-0003-0000-000000233004",
+    "patternId": "77777777-1113-0001-0000-000000002004",
+    "exerciseType": "arrange",
+    "prompt": "Quả táo đó bao nhiêu tiền một quả?",
+    "expectedAnswer": "そのリンゴは一ついくら (ひとついくら)ですか",
+    "optionsJson": "[\"か\",\"そ\",\"の\",\"は\",\"です\",\"リンゴ\",\"一ついくら (ひとついくら)\"]",
+    "options": [
+      "か",
+      "そ",
+      "の",
+      "は",
+      "です",
+      "リンゴ",
+      "一ついくら (ひとついくら)"
+    ],
+    "correctOrderJson": "[\"そ\",\"の\",\"リンゴ\",\"は\",\"一ついくら (ひとついくら)\",\"です\",\"か\"]",
+    "correctOrder": [
+      "そ",
+      "の",
+      "リンゴ",
+      "は",
+      "一ついくら (ひとついくら)",
+      "です",
+      "か"
+    ],
+    "orderIndex": 12
+  },
+  {
+    "id": "77777777-1113-0003-0000-000000213005",
+    "patternId": "77777777-1113-0001-0000-000000002004",
+    "exerciseType": "ja_to_vi",
+    "prompt": "お勘定はいくらですか。",
+    "promptReading": "おかんじょうはいくらですか。",
+    "expectedAnswer": "Thanh toán hết bao nhiêu tiền vậy?",
+    "hint": "～は いくらですか。",
+    "explanation": "いくら là từ hỏi về giá cả.",
+    "orderIndex": 13
+  },
+  {
+    "id": "77777777-1113-0003-0000-000000223005",
+    "patternId": "77777777-1113-0001-0000-000000002004",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Thanh toán hết bao nhiêu tiền vậy?",
+    "expectedAnswer": "お勘定はいくらですか。",
+    "acceptableAnswers": [
+      "おかんじょうはいくらですか。"
+    ],
+    "hint": "Danh từ + は + いくら + ですか",
+    "explanation": "いくら là từ hỏi về giá cả.",
+    "orderIndex": 14
+  },
+  {
+    "id": "77777777-1113-0003-0000-000000233005",
+    "patternId": "77777777-1113-0001-0000-000000002004",
+    "exerciseType": "arrange",
+    "prompt": "Thanh toán hết bao nhiêu tiền vậy?",
+    "expectedAnswer": "お勘定 (おかんじょう)はいくらですか",
+    "optionsJson": "[\"か\",\"は\",\"です\",\"いくら\",\"お勘定 (おかんじょう)\"]",
+    "options": [
+      "か",
+      "は",
+      "です",
+      "いくら",
+      "お勘定 (おかんじょう)"
+    ],
+    "correctOrderJson": "[\"お勘定 (おかんじょう)\",\"は\",\"いくら\",\"です\",\"か\"]",
+    "correctOrder": [
+      "お勘定 (おかんじょう)",
+      "は",
+      "いくら",
+      "です",
+      "か"
+    ],
+    "orderIndex": 15
+  }
+]

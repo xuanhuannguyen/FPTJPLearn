@@ -1,0 +1,254 @@
+[
+  {
+    "id": "77777777-1113-0003-0000-000000116001",
+    "patternId": "77777777-1113-0001-0000-000000001007",
+    "exerciseType": "ja_to_vi",
+    "prompt": "Bさんの国はどちらですか。",
+    "promptReading": "Bさんのくにはどちらですか。",
+    "expectedAnswer": "Đất nước của bạn B là ở đâu?",
+    "hint": "N は [Từ hỏi] ですか。",
+    "explanation": "Cuối câu thêm trợ từ か và lên giọng.",
+    "orderIndex": 1
+  },
+  {
+    "id": "77777777-1113-0003-0000-000000126001",
+    "patternId": "77777777-1113-0001-0000-000000001007",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Đất nước của bạn B là ở đâu?",
+    "expectedAnswer": "Bさんの国はどちらですか。",
+    "acceptableAnswers": [
+      "Bさんのくにはどちらですか。"
+    ],
+    "hint": "Chủ ngữ + は + (なん/どこ/だれ/どちら...) + ですか",
+    "explanation": "Cuối câu thêm trợ từ か và lên giọng.",
+    "orderIndex": 2
+  },
+  {
+    "id": "77777777-1113-0003-0000-000000136001",
+    "patternId": "77777777-1113-0001-0000-000000001007",
+    "exerciseType": "arrange",
+    "prompt": "Đất nước của bạn B là ở đâu?",
+    "expectedAnswer": "Bさんの国 (くに)はどちらですか",
+    "optionsJson": "[\"か\",\"の\",\"は\",\"です\",\"Bさん\",\"どちら\",\"国 (くに)\"]",
+    "options": [
+      "か",
+      "の",
+      "は",
+      "です",
+      "Bさん",
+      "どちら",
+      "国 (くに)"
+    ],
+    "correctOrderJson": "[\"Bさん\",\"の\",\"国 (くに)\",\"は\",\"どちら\",\"です\",\"か\"]",
+    "correctOrder": [
+      "Bさん",
+      "の",
+      "国 (くに)",
+      "は",
+      "どちら",
+      "です",
+      "か"
+    ],
+    "orderIndex": 3
+  },
+  {
+    "id": "77777777-1113-0003-0000-000000116002",
+    "patternId": "77777777-1113-0001-0000-000000001007",
+    "exerciseType": "ja_to_vi",
+    "prompt": "お名前は何ですか。",
+    "promptReading": "おなまえはなんですか。",
+    "expectedAnswer": "Tên bạn là gì?",
+    "hint": "N は [Từ hỏi] ですか。",
+    "explanation": "Cuối câu thêm trợ từ か và lên giọng.",
+    "orderIndex": 4
+  },
+  {
+    "id": "77777777-1113-0003-0000-000000126002",
+    "patternId": "77777777-1113-0001-0000-000000001007",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Tên bạn là gì?",
+    "expectedAnswer": "お名前は何ですか。",
+    "acceptableAnswers": [
+      "おなまえはなんですか。"
+    ],
+    "hint": "Chủ ngữ + は + (なん/どこ/だれ/どちら...) + ですか",
+    "explanation": "Cuối câu thêm trợ từ か và lên giọng.",
+    "orderIndex": 5
+  },
+  {
+    "id": "77777777-1113-0003-0000-000000136002",
+    "patternId": "77777777-1113-0001-0000-000000001007",
+    "exerciseType": "arrange",
+    "prompt": "Tên bạn là gì?",
+    "expectedAnswer": "お名前 (おなまえ)は何 (なん)ですか",
+    "optionsJson": "[\"か\",\"は\",\"です\",\"何 (なん)\",\"お名前 (おなまえ)\"]",
+    "options": [
+      "か",
+      "は",
+      "です",
+      "何 (なん)",
+      "お名前 (おなまえ)"
+    ],
+    "correctOrderJson": "[\"お名前 (おなまえ)\",\"は\",\"何 (なん)\",\"です\",\"か\"]",
+    "correctOrder": [
+      "お名前 (おなまえ)",
+      "は",
+      "何 (なん)",
+      "です",
+      "か"
+    ],
+    "orderIndex": 6
+  },
+  {
+    "id": "77777777-1113-0003-0000-000000116003",
+    "patternId": "77777777-1113-0001-0000-000000001007",
+    "exerciseType": "ja_to_vi",
+    "prompt": "あの方はどなたですか。",
+    "promptReading": "あのかたはどなたですか。",
+    "expectedAnswer": "Vị kia là ai vậy?",
+    "hint": "N は [Từ hỏi] ですか。",
+    "explanation": "Cuối câu thêm trợ từ か và lên giọng.",
+    "orderIndex": 7
+  },
+  {
+    "id": "77777777-1113-0003-0000-000000126003",
+    "patternId": "77777777-1113-0001-0000-000000001007",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Vị kia là ai vậy?",
+    "expectedAnswer": "あの方はどなたですか。",
+    "acceptableAnswers": [
+      "あのかたはどなたですか。"
+    ],
+    "hint": "Chủ ngữ + は + (なん/どこ/だれ/どちら...) + ですか",
+    "explanation": "Cuối câu thêm trợ từ か và lên giọng.",
+    "orderIndex": 8
+  },
+  {
+    "id": "77777777-1113-0003-0000-000000136003",
+    "patternId": "77777777-1113-0001-0000-000000001007",
+    "exerciseType": "arrange",
+    "prompt": "Vị kia là ai vậy?",
+    "expectedAnswer": "あの方 (かた)はどなたですか",
+    "optionsJson": "[\"あ\",\"か\",\"の\",\"は\",\"です\",\"どなた\",\"方 (かた)\"]",
+    "options": [
+      "あ",
+      "か",
+      "の",
+      "は",
+      "です",
+      "どなた",
+      "方 (かた)"
+    ],
+    "correctOrderJson": "[\"あ\",\"の\",\"方 (かた)\",\"は\",\"どなた\",\"です\",\"か\"]",
+    "correctOrder": [
+      "あ",
+      "の",
+      "方 (かた)",
+      "は",
+      "どなた",
+      "です",
+      "か"
+    ],
+    "orderIndex": 9
+  },
+  {
+    "id": "77777777-1113-0003-0000-000000116004",
+    "patternId": "77777777-1113-0001-0000-000000001007",
+    "exerciseType": "ja_to_vi",
+    "prompt": "大学の電話番号は何番ですか。",
+    "promptReading": "だいがくのでんわばんごうはなんばんですか。",
+    "expectedAnswer": "Số điện thoại của trường đại học là số mấy?",
+    "hint": "N は [Từ hỏi] ですか。",
+    "explanation": "Cuối câu thêm trợ từ か và lên giọng.",
+    "orderIndex": 10
+  },
+  {
+    "id": "77777777-1113-0003-0000-000000126004",
+    "patternId": "77777777-1113-0001-0000-000000001007",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Số điện thoại của trường đại học là số mấy?",
+    "expectedAnswer": "大学の電話番号は何番ですか。",
+    "acceptableAnswers": [
+      "だいがくのでんわばんごうはなんばんですか。"
+    ],
+    "hint": "Chủ ngữ + は + (なん/どこ/だれ/どちら...) + ですか",
+    "explanation": "Cuối câu thêm trợ từ か và lên giọng.",
+    "orderIndex": 11
+  },
+  {
+    "id": "77777777-1113-0003-0000-000000136004",
+    "patternId": "77777777-1113-0001-0000-000000001007",
+    "exerciseType": "arrange",
+    "prompt": "Số điện thoại của trường đại học là số mấy?",
+    "expectedAnswer": "大学 (だいがく)の電話番号 (でんわばんごう)は何番 (なんばん)ですか",
+    "optionsJson": "[\"か\",\"の\",\"は\",\"です\",\"大学 (だいがく)\",\"何番 (なんばん)\",\"電話番号 (でんわばんごう)\"]",
+    "options": [
+      "か",
+      "の",
+      "は",
+      "です",
+      "大学 (だいがく)",
+      "何番 (なんばん)",
+      "電話番号 (でんわばんごう)"
+    ],
+    "correctOrderJson": "[\"大学 (だいがく)\",\"の\",\"電話番号 (でんわばんごう)\",\"は\",\"何番 (なんばん)\",\"です\",\"か\"]",
+    "correctOrder": [
+      "大学 (だいがく)",
+      "の",
+      "電話番号 (でんわばんごう)",
+      "は",
+      "何番 (なんばん)",
+      "です",
+      "か"
+    ],
+    "orderIndex": 12
+  },
+  {
+    "id": "77777777-1113-0003-0000-000000116005",
+    "patternId": "77777777-1113-0001-0000-000000001007",
+    "exerciseType": "ja_to_vi",
+    "prompt": "お手洗いはどこですか。",
+    "promptReading": "おてあらいはどこですか。",
+    "expectedAnswer": "Nhà vệ sinh ở đâu vậy?",
+    "hint": "N は [Từ hỏi] ですか。",
+    "explanation": "Cuối câu thêm trợ từ か và lên giọng.",
+    "orderIndex": 13
+  },
+  {
+    "id": "77777777-1113-0003-0000-000000126005",
+    "patternId": "77777777-1113-0001-0000-000000001007",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Nhà vệ sinh ở đâu vậy?",
+    "expectedAnswer": "お手洗いはどこですか。",
+    "acceptableAnswers": [
+      "おてあらいはどこですか。"
+    ],
+    "hint": "Chủ ngữ + は + (なん/どこ/だれ/どちら...) + ですか",
+    "explanation": "Cuối câu thêm trợ từ か và lên giọng.",
+    "orderIndex": 14
+  },
+  {
+    "id": "77777777-1113-0003-0000-000000136005",
+    "patternId": "77777777-1113-0001-0000-000000001007",
+    "exerciseType": "arrange",
+    "prompt": "Nhà vệ sinh ở đâu vậy?",
+    "expectedAnswer": "お手洗い (おてあらい)はどこですか",
+    "optionsJson": "[\"か\",\"は\",\"どこ\",\"です\",\"お手洗い (おてあらい)\"]",
+    "options": [
+      "か",
+      "は",
+      "どこ",
+      "です",
+      "お手洗い (おてあらい)"
+    ],
+    "correctOrderJson": "[\"お手洗い (おてあらい)\",\"は\",\"どこ\",\"です\",\"か\"]",
+    "correctOrder": [
+      "お手洗い (おてあらい)",
+      "は",
+      "どこ",
+      "です",
+      "か"
+    ],
+    "orderIndex": 15
+  }
+]

@@ -25,8 +25,13 @@ export const GrammarPatternDetailPage = () => {
 
     const data = await grammarApi.getPatternById(patternId);
     setPattern(data);
-    const status = await memoryApi.getGrammarPatternStatus(patternId);
-    setMemoryStatus(status);
+    try {
+      const status = await memoryApi.getGrammarPatternStatus(patternId);
+      setMemoryStatus(status);
+    } catch (error) {
+      console.warn('Grammar memory status unavailable, using static fallback.', error);
+      setMemoryStatus({ isInMemory: false, isActive: false });
+    }
 
     // Fetch lesson patterns to find next/prev
     if (data.lessonId) {

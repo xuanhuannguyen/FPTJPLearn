@@ -1,4 +1,5 @@
 import { apiClient } from '../../../shared/api/axios';
+import { fetchStatic } from '../../../shared/services/staticDataService';
 import type { 
   VocabularyCourse, 
   StaticVocabularyLesson, 
@@ -10,57 +11,77 @@ import type {
 
 export const staticVocabularyApi = {
   getCourses: async (): Promise<VocabularyCourse[]> => {
-    const response = await apiClient.get<{ courses: VocabularyCourse[] }>('/vocabulary/courses');
-    return response.data.courses;
+    return fetchStatic<VocabularyCourse[]>('vocabulary/courses.json');
   },
 
   getLessonsByCourse: async (courseCode: string): Promise<StaticVocabularyLesson[]> => {
-    const response = await apiClient.get<{ lessons: StaticVocabularyLesson[] }>(`/vocabulary/${courseCode}/lessons`);
-    return response.data.lessons;
+    return fetchStatic<StaticVocabularyLesson[]>(`vocabulary/${courseCode}/lessons.json`);
   },
 
   getLessonById: async (lessonId: string): Promise<StaticVocabularyLessonDetail> => {
-    const response = await apiClient.get<StaticVocabularyLessonDetail>(`/vocabulary/lessons/${lessonId}`);
-    return response.data;
+    const courseCode = lessonId.includes('1113') ? 'jpd113' : 'jpd123';
+    return fetchStatic<StaticVocabularyLessonDetail>(`vocabulary/${courseCode}/lessons/${lessonId}.json`);
   },
 
   getPracticeCards: async (lessonId: string, mode: string = 'flashcard'): Promise<{ mode: string; cards: VocabularyPracticeCard[] }> => {
-    const response = await apiClient.get<{ mode: string; cards: VocabularyPracticeCard[] }>(`/vocabulary/lessons/${lessonId}/practice`, { params: { mode } });
-    return response.data;
+    const detail = await staticVocabularyApi.getLessonById(lessonId);
+    const cards = detail.items.map((item, index) => ({
+      itemId: item.id,
+      mode,
+      prompt: mode === 'typing' ? item.meaning : item.word,
+      promptReading: item.reading,
+      correctAnswer: mode === 'typing' ? item.word : item.meaning,
+      options: buildOptions(detail.items, item.meaning, index),
+      word: item.word,
+      reading: item.reading,
+      meaning: item.meaning,
+      exampleJapanese: item.exampleJapanese,
+      exampleMeaning: item.exampleMeaning,
+    }));
+    return { mode, cards };
   },
 
   getItemById: async (itemId: string): Promise<StaticVocabularyItem> => {
-    const response = await apiClient.get<StaticVocabularyItem>(`/vocabulary/items/${itemId}`);
-    return response.data;
+    const items = await fetchStatic<StaticVocabularyItem[]>('vocabulary/items.json');
+    const item = items.find((candidate) => candidate.id === itemId);
+    if (!item) throw new Error(`Vocabulary item not found: ${itemId}`);
+    return item;
   },
 
   search: async (query: string, courseCode?: string): Promise<StaticVocabularyItem[]> => {
-    const response = await apiClient.get<{ items: StaticVocabularyItem[] }>('/vocabulary/search', { params: { query, courseCode } });
-    return response.data.items;
+    const normalizedQuery = query.trim().toLowerCase();
+    if (!normalizedQuery) return [];
+    const items = await fetchStatic<StaticVocabularyItem[]>('vocabulary/items.json');
+    return items
+      .filter((item) => !courseCode || item.courseCode === courseCode)
+      .filter((item) =>
+        [item.word, item.reading, item.meaning, item.wordType]
+          .some((value) => value?.toLowerCase().includes(normalizedQuery))
+      );
   },
 
   recordView: async (itemId: string) => {
-    const response = await apiClient.post(`/vocabulary/items/${itemId}/view`);
-    return response.data;
+    void itemId;
+    return { success: true };
   },
 
   recordFlashcardPractice: async (itemId: string) => {
-    const response = await apiClient.post(`/vocabulary/items/${itemId}/flashcard-practice`);
-    return response.data;
+    void itemId;
+    return { success: true };
   },
 
   recordMultipleChoicePractice: async (itemId: string) => {
-    const response = await apiClient.post(`/vocabulary/items/${itemId}/multiple-choice-practice`);
-    return response.data;
+    void itemId;
+    return { success: true };
   },
 
   recordTypingPractice: async (itemId: string) => {
-    const response = await apiClient.post(`/vocabulary/items/${itemId}/typing-practice`);
-    return response.data;
+    void itemId;
+    return { success: true };
   },
 
   addToMemory: async (itemId: string) => {
-    const response = await apiClient.post(`/vocabulary/items/${itemId}/memory`);
+    const response = await apiClient.post(`/memory/vocabulary/from-item/${itemId}`);
     return response.data;
   },
 
@@ -69,3 +90,14 @@ export const staticVocabularyApi = {
     return response.data;
   }
 };
+
+function buildOptions(items: StaticVocabularyItem[], correctAnswer: string, index: number): string[] {
+  const distractors = items
+    .filter((item) => item.meaning !== correctAnswer)
+    .slice(index + 1)
+    .concat(items.slice(0, index))
+    .map((item) => item.meaning)
+    .slice(0, 3);
+
+  return [correctAnswer, ...distractors].sort((a, b) => a.localeCompare(b));
+}

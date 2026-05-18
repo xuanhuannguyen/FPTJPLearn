@@ -1,0 +1,85 @@
+{
+  "lesson": {
+    "id": "88888888-1123-0000-0000-000000000128",
+    "courseCode": "jpd123",
+    "lessonNumber": 28,
+    "title": "週末の えいが",
+    "description": "Gia đình - Đi xem phim với gia đình rồi ghé quán cà phê và mua sắm.",
+    "accessTier": "premium",
+    "packageCode": "speaking_jpd123",
+    "isLocked": true,
+    "sentenceCount": 7
+  },
+  "sentences": [
+    {
+      "id": "88888888-1123-0000-0000-000000028001",
+      "lessonId": "88888888-1123-0000-0000-000000000128",
+      "sentenceNumber": 1,
+      "plainText": "週末、かぞくとえいがを見ました。",
+      "romaji": "shuumatsu,kazokuto eiga wo mimashita.",
+      "contentHtml": "<ruby>週末<rt>しゅうまつ</rt></ruby>、かぞくと えいがを <ruby>見<rt>み</rt></ruby>ました。",
+      "meaningVi": "Cuối tuần tôi đã xem phim cùng gia đình.",
+      "orderIndex": 1
+    },
+    {
+      "id": "88888888-1123-0000-0000-000000028002",
+      "lessonId": "88888888-1123-0000-0000-000000000128",
+      "sentenceNumber": 2,
+      "plainText": "あさ、10時半にえいがかんへ行きました。",
+      "romaji": "asa,juujihan ni eigakan e ikimashita.",
+      "contentHtml": "あさ、<ruby>10時半<rt>じゅうじはん</rt></ruby> に えいがかんへ <ruby>行<rt>い</rt></ruby>きました。",
+      "meaningVi": "Buổi sáng, lúc 10 giờ rưỡi tôi đã đi đến rạp chiếu phim.",
+      "orderIndex": 2
+    },
+    {
+      "id": "88888888-1123-0000-0000-000000028003",
+      "lessonId": "88888888-1123-0000-0000-000000000128",
+      "sentenceNumber": 3,
+      "plainText": "わたしはホラーえいががすきですが、『スパイダーマン』を見ました。",
+      "romaji": "watashi wa hora-eigaga sukidesuga,\"supaida-man\" wo mimashita.",
+      "contentHtml": "わたしは ホラーえいがが すきですが、『スパイダーマン』を <ruby>見<rt>み</rt></ruby>ました。",
+      "meaningVi": "Tôi thích phim kinh dị nhưng hôm đó đã xem Spider-Man.",
+      "orderIndex": 3
+    },
+    {
+      "id": "88888888-1123-0000-0000-000000028004",
+      "lessonId": "88888888-1123-0000-0000-000000000128",
+      "sentenceNumber": 4,
+      "plainText": "えいがはとてもおもしろかったです。",
+      "romaji": "eiga wa totemo omoshirokattadesu.",
+      "contentHtml": "えいがは とても おもしろかったです。",
+      "meaningVi": "Bộ phim rất thú vị.",
+      "orderIndex": 4
+    },
+    {
+      "id": "88888888-1123-0000-0000-000000028005",
+      "lessonId": "88888888-1123-0000-0000-000000000128",
+      "sentenceNumber": 5,
+      "plainText": "それからカフェでコーヒーを飲みました。",
+      "romaji": "sorekara kafede ko-hi- wo nomimashita.",
+      "contentHtml": "それから カフェで コーヒーを <ruby>飲<rt>の</rt></ruby>みました。",
+      "meaningVi": "Sau đó tôi uống cà phê ở quán.",
+      "orderIndex": 5
+    },
+    {
+      "id": "88888888-1123-0000-0000-000000028006",
+      "lessonId": "88888888-1123-0000-0000-000000000128",
+      "sentenceNumber": 6,
+      "plainText": "買い物もしました。",
+      "romaji": "kaimono mo shimashita.",
+      "contentHtml": "<ruby>買い物<rt>かいもの</rt></ruby> も しました。",
+      "meaningVi": "Tôi cũng đi mua sắm.",
+      "orderIndex": 6
+    },
+    {
+      "id": "88888888-1123-0000-0000-000000028007",
+      "lessonId": "88888888-1123-0000-0000-000000000128",
+      "sentenceNumber": 7,
+      "plainText": "とてもたのしい一日でした。",
+      "romaji": "totemo tanoshii ichinichi deshita.",
+      "contentHtml": "とても たのしい <ruby>一日<rt>いちにち</rt></ruby> でした。",
+      "meaningVi": "Đó là một ngày rất vui.",
+      "orderIndex": 7
+    }
+  ]
+}

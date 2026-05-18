@@ -1,0 +1,105 @@
+{
+  "lesson": {
+    "id": "88888888-1123-0000-0000-000000000110",
+    "courseCode": "jpd123",
+    "lessonNumber": 10,
+    "title": "コーヒーと タバコ",
+    "description": "Mua sắm hằng ngày - Một thói quen hằng ngày ở cửa hàng tiện lợi.",
+    "accessTier": "premium",
+    "packageCode": "speaking_jpd123",
+    "isLocked": true,
+    "sentenceCount": 9
+  },
+  "sentences": [
+    {
+      "id": "88888888-1123-0000-0000-000000010001",
+      "lessonId": "88888888-1123-0000-0000-000000000110",
+      "sentenceNumber": 1,
+      "plainText": "私は毎日コーヒーを飲みます。",
+      "romaji": "watashi wa mainichi ko-hi- wo nomimasu.",
+      "contentHtml": "<ruby>私<rt>わたし</rt></ruby> は <ruby>毎日<rt>まいにち</rt></ruby> コーヒーを <ruby>飲<rt>の</rt></ruby>みます。",
+      "meaningVi": "Tôi uống cà phê mỗi ngày.",
+      "orderIndex": 1
+    },
+    {
+      "id": "88888888-1123-0000-0000-000000010002",
+      "lessonId": "88888888-1123-0000-0000-000000000110",
+      "sentenceNumber": 2,
+      "plainText": "コーヒーは毎朝コンビニで買います。",
+      "romaji": "ko-hi- wa maiasa konbinide kaimasu.",
+      "contentHtml": "コーヒーは <ruby>毎朝<rt>まいあさ</rt></ruby> コンビニで <ruby>買<rt>か</rt></ruby>います。",
+      "meaningVi": "Mỗi sáng tôi mua cà phê ở cửa hàng tiện lợi.",
+      "orderIndex": 2
+    },
+    {
+      "id": "88888888-1123-0000-0000-000000010003",
+      "lessonId": "88888888-1123-0000-0000-000000000110",
+      "sentenceNumber": 3,
+      "plainText": "一つ100円です。",
+      "romaji": "hitotsu hyakuen desu.",
+      "contentHtml": "<ruby>一つ<rt>ひとつ</rt></ruby> <ruby>100円<rt>ひゃくえん</rt></ruby> です。",
+      "meaningVi": "Một cốc có giá 100 yên.",
+      "orderIndex": 3
+    },
+    {
+      "id": "88888888-1123-0000-0000-000000010004",
+      "lessonId": "88888888-1123-0000-0000-000000000110",
+      "sentenceNumber": 4,
+      "plainText": "とても安いです。",
+      "romaji": "totemo yasuidesu.",
+      "contentHtml": "とても <ruby>安<rt>やす</rt></ruby>いです。",
+      "meaningVi": "Rất rẻ.",
+      "orderIndex": 4
+    },
+    {
+      "id": "88888888-1123-0000-0000-000000010005",
+      "lessonId": "88888888-1123-0000-0000-000000000110",
+      "sentenceNumber": 5,
+      "plainText": "でも、おいしいです。",
+      "romaji": "demo,oishiidesu.",
+      "contentHtml": "でも、おいしいです。",
+      "meaningVi": "Nhưng vẫn rất ngon.",
+      "orderIndex": 5
+    },
+    {
+      "id": "88888888-1123-0000-0000-000000010006",
+      "lessonId": "88888888-1123-0000-0000-000000000110",
+      "sentenceNumber": 6,
+      "plainText": "私のともだちは、タバコをすいます。",
+      "romaji": "watashi no tomodachi wa,tabako wo suimasu.",
+      "contentHtml": "<ruby>私<rt>わたし</rt></ruby> の ともだちは、タバコを すいます。",
+      "meaningVi": "Bạn của tôi thì hút thuốc lá.",
+      "orderIndex": 6
+    },
+    {
+      "id": "88888888-1123-0000-0000-000000010007",
+      "lessonId": "88888888-1123-0000-0000-000000000110",
+      "sentenceNumber": 7,
+      "plainText": "かれもコンビニでタバコを買います。",
+      "romaji": "karemo konbinide tabako wo kaimasu.",
+      "contentHtml": "かれも コンビニで タバコを <ruby>買<rt>か</rt></ruby>います。",
+      "meaningVi": "Anh ấy cũng mua thuốc lá ở combini.",
+      "orderIndex": 7
+    },
+    {
+      "id": "88888888-1123-0000-0000-000000010008",
+      "lessonId": "88888888-1123-0000-0000-000000000110",
+      "sentenceNumber": 8,
+      "plainText": "しかし、私はタバコをすいません。",
+      "romaji": "shikashi,watashi wa tabako wo suimasen.",
+      "contentHtml": "しかし、<ruby>私<rt>わたし</rt></ruby> は タバコを すいません。",
+      "meaningVi": "Tuy nhiên tôi không hút thuốc.",
+      "orderIndex": 8
+    },
+    {
+      "id": "88888888-1123-0000-0000-000000010009",
+      "lessonId": "88888888-1123-0000-0000-000000000110",
+      "sentenceNumber": 9,
+      "plainText": "あたまがいたくなりますから。",
+      "romaji": "atamaga itaku narimasukara.",
+      "contentHtml": "あたまが いたく なりますから。",
+      "meaningVi": "Vì nếu hút thì tôi sẽ bị đau đầu.",
+      "orderIndex": 9
+    }
+  ]
+}

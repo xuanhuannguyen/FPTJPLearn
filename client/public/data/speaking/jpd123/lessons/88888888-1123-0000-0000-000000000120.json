@@ -1,0 +1,165 @@
+{
+  "lesson": {
+    "id": "88888888-1123-0000-0000-000000000120",
+    "courseCode": "jpd123",
+    "lessonNumber": 20,
+    "title": "にほんごの じゅぎょう",
+    "description": "Trường học - Học tiếng Nhật, xem phim và đi ăn sau giờ học.",
+    "accessTier": "premium",
+    "packageCode": "speaking_jpd123",
+    "isLocked": true,
+    "sentenceCount": 15
+  },
+  "sentences": [
+    {
+      "id": "88888888-1123-0000-0000-000000020001",
+      "lessonId": "88888888-1123-0000-0000-000000000120",
+      "sentenceNumber": 1,
+      "plainText": "わたしはにほんごのがくせいです。",
+      "romaji": "watashi wa nihongono gakuseidesu.",
+      "contentHtml": "わたしは にほんごの がくせいです。",
+      "meaningVi": "Tôi là học viên tiếng Nhật.",
+      "orderIndex": 1
+    },
+    {
+      "id": "88888888-1123-0000-0000-000000020002",
+      "lessonId": "88888888-1123-0000-0000-000000000120",
+      "sentenceNumber": 2,
+      "plainText": "きょうは学校へ行きます。",
+      "romaji": "kyou wa gakkou e ikimasu.",
+      "contentHtml": "きょうは <ruby>学校<rt>がっこう</rt></ruby> へ <ruby>行<rt>い</rt></ruby>きます。",
+      "meaningVi": "Hôm nay tôi đi đến trường.",
+      "orderIndex": 2
+    },
+    {
+      "id": "88888888-1123-0000-0000-000000020003",
+      "lessonId": "88888888-1123-0000-0000-000000000120",
+      "sentenceNumber": 3,
+      "plainText": "学校で先生とはなします。",
+      "romaji": "gakkou de sensei to hanashimasu.",
+      "contentHtml": "<ruby>学校<rt>がっこう</rt></ruby> で <ruby>先生<rt>せんせい</rt></ruby> と はなします。",
+      "meaningVi": "Ở trường tôi nói chuyện với giáo viên.",
+      "orderIndex": 3
+    },
+    {
+      "id": "88888888-1123-0000-0000-000000020004",
+      "lessonId": "88888888-1123-0000-0000-000000000120",
+      "sentenceNumber": 4,
+      "plainText": "にほんごのじゅぎょうはとてもたのしいです。",
+      "romaji": "nihongono jugyou wa totemo tanoshiidesu.",
+      "contentHtml": "にほんごの じゅぎょうは とても たのしいです。",
+      "meaningVi": "Giờ học tiếng Nhật rất vui.",
+      "orderIndex": 4
+    },
+    {
+      "id": "88888888-1123-0000-0000-000000020005",
+      "lessonId": "88888888-1123-0000-0000-000000000120",
+      "sentenceNumber": 5,
+      "plainText": "きのう、ともだちとえいがを見ました。",
+      "romaji": "kinou,tomodachito eiga wo mimashita.",
+      "contentHtml": "きのう、ともだちと えいがを <ruby>見<rt>み</rt></ruby>ました。",
+      "meaningVi": "Hôm qua tôi đã xem phim với bạn.",
+      "orderIndex": 5
+    },
+    {
+      "id": "88888888-1123-0000-0000-000000020006",
+      "lessonId": "88888888-1123-0000-0000-000000000120",
+      "sentenceNumber": 6,
+      "plainText": "れんしゅうもしました。",
+      "romaji": "renshuumo shimashita.",
+      "contentHtml": "れんしゅうも しました。",
+      "meaningVi": "Tôi cũng đã luyện tập.",
+      "orderIndex": 6
+    },
+    {
+      "id": "88888888-1123-0000-0000-000000020007",
+      "lessonId": "88888888-1123-0000-0000-000000000120",
+      "sentenceNumber": 7,
+      "plainText": "そのえいがはすこしむずかしかったですが、おもしろかったです。",
+      "romaji": "sono eiga wa sukoshi muzukashikattadesuga,omoshirokattadesu.",
+      "contentHtml": "その えいがは すこし むずかしかったですが、おもしろかったです。",
+      "meaningVi": "Bộ phim đó hơi khó nhưng rất thú vị.",
+      "orderIndex": 7
+    },
+    {
+      "id": "88888888-1123-0000-0000-000000020008",
+      "lessonId": "88888888-1123-0000-0000-000000000120",
+      "sentenceNumber": 8,
+      "plainText": "じゅぎょうの後で、ともだちとレストランへ行きました。",
+      "romaji": "jugyouno ato de,tomodachito resutoran e ikimashita.",
+      "contentHtml": "じゅぎょうの <ruby>後<rt>あと</rt></ruby> で、ともだちと レストランへ <ruby>行<rt>い</rt></ruby>きました。",
+      "meaningVi": "Sau giờ học, tôi đã đi nhà hàng với bạn.",
+      "orderIndex": 8
+    },
+    {
+      "id": "88888888-1123-0000-0000-000000020009",
+      "lessonId": "88888888-1123-0000-0000-000000000120",
+      "sentenceNumber": 9,
+      "plainText": "ハンバーガーとジュースを飲みました。",
+      "romaji": "hanba-ga-to ju-su wo nomimashita.",
+      "contentHtml": "ハンバーガーと ジュースを <ruby>飲<rt>の</rt></ruby>みました。",
+      "meaningVi": "Tôi đã dùng hamburger và nước trái cây.",
+      "orderIndex": 9
+    },
+    {
+      "id": "88888888-1123-0000-0000-000000020010",
+      "lessonId": "88888888-1123-0000-0000-000000000120",
+      "sentenceNumber": 10,
+      "plainText": "レストランのりょうりはやすくておいしかったです。",
+      "romaji": "resutoranno ryouri wa yasukute oishikattadesu.",
+      "contentHtml": "レストランの りょうりは やすくて おいしかったです。",
+      "meaningVi": "Đồ ăn ở nhà hàng vừa rẻ vừa ngon.",
+      "orderIndex": 10
+    },
+    {
+      "id": "88888888-1123-0000-0000-000000020011",
+      "lessonId": "88888888-1123-0000-0000-000000000120",
+      "sentenceNumber": 11,
+      "plainText": "そして、いえに帰りました。",
+      "romaji": "soshite,ieni kaerimashita.",
+      "contentHtml": "そして、いえに <ruby>帰<rt>かえ</rt></ruby>りました。",
+      "meaningVi": "Sau đó tôi về nhà.",
+      "orderIndex": 11
+    },
+    {
+      "id": "88888888-1123-0000-0000-000000020012",
+      "lessonId": "88888888-1123-0000-0000-000000000120",
+      "sentenceNumber": 12,
+      "plainText": "いえでおんがくをききました。",
+      "romaji": "iede ongaku wo kikimashita.",
+      "contentHtml": "いえで おんがくを ききました。",
+      "meaningVi": "Ở nhà tôi nghe nhạc.",
+      "orderIndex": 12
+    },
+    {
+      "id": "88888888-1123-0000-0000-000000020013",
+      "lessonId": "88888888-1123-0000-0000-000000000120",
+      "sentenceNumber": 13,
+      "plainText": "あしたはやすみの日ですから、ともだちとあそびます。",
+      "romaji": "ashita wa yasumino hi desukara,tomodachito asobimasu.",
+      "contentHtml": "あしたは やすみの <ruby>日<rt>ひ</rt></ruby> ですから、ともだちと あそびます。",
+      "meaningVi": "Vì ngày mai là ngày nghỉ nên tôi sẽ đi chơi với bạn.",
+      "orderIndex": 13
+    },
+    {
+      "id": "88888888-1123-0000-0000-000000020014",
+      "lessonId": "88888888-1123-0000-0000-000000000120",
+      "sentenceNumber": 14,
+      "plainText": "でも、すこしべんきょうもします。",
+      "romaji": "demo,sukoshi benkyoumo shimasu.",
+      "contentHtml": "でも、すこし べんきょうも します。",
+      "meaningVi": "Nhưng tôi cũng sẽ học một chút.",
+      "orderIndex": 14
+    },
+    {
+      "id": "88888888-1123-0000-0000-000000020015",
+      "lessonId": "88888888-1123-0000-0000-000000000120",
+      "sentenceNumber": 15,
+      "plainText": "にほんごはまだむずかしいですが、毎日がんばります。",
+      "romaji": "nihongo wa mada muzukashiidesuga,mainichi ganbarimasu.",
+      "contentHtml": "にほんごは まだ むずかしいですが、<ruby>毎日<rt>まいにち</rt></ruby> がんばります。",
+      "meaningVi": "Tiếng Nhật vẫn còn khó nhưng tôi cố gắng mỗi ngày.",
+      "orderIndex": 15
+    }
+  ]
+}

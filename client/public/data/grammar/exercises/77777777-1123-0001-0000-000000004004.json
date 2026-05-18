@@ -1,0 +1,248 @@
+[
+  {
+    "id": "77777777-1123-0003-0000-000000413001",
+    "patternId": "77777777-1123-0001-0000-000000004004",
+    "exerciseType": "ja_to_vi",
+    "prompt": "この車はきれいじゃありません。",
+    "promptReading": "このくるまはきれいじゃありません。",
+    "expectedAnswer": "Cái ô tô này không đẹp.",
+    "hint": "N は Aじゃありません。",
+    "explanation": "Giống với cách phủ định danh từ.",
+    "orderIndex": 1
+  },
+  {
+    "id": "77777777-1123-0003-0000-000000423001",
+    "patternId": "77777777-1123-0001-0000-000000004004",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Cái ô tô này không đẹp.",
+    "expectedAnswer": "この車はきれいじゃありません。",
+    "acceptableAnswers": [
+      "このくるまはきれいじゃありません。"
+    ],
+    "hint": "Bỏ な thêm じゃありません / ではありません",
+    "explanation": "Giống với cách phủ định danh từ.",
+    "orderIndex": 2
+  },
+  {
+    "id": "77777777-1123-0003-0000-000000433001",
+    "patternId": "77777777-1123-0001-0000-000000004004",
+    "exerciseType": "arrange",
+    "prompt": "Cái ô tô này không đẹp.",
+    "expectedAnswer": "この車 (くるま)はきれいじゃありません",
+    "optionsJson": "[\"こ\",\"の\",\"は\",\"きれい\",\"車 (くるま)\",\"じゃありません\"]",
+    "options": [
+      "こ",
+      "の",
+      "は",
+      "きれい",
+      "車 (くるま)",
+      "じゃありません"
+    ],
+    "correctOrderJson": "[\"こ\",\"の\",\"車 (くるま)\",\"は\",\"きれい\",\"じゃありません\"]",
+    "correctOrder": [
+      "こ",
+      "の",
+      "車 (くるま)",
+      "は",
+      "きれい",
+      "じゃありません"
+    ],
+    "orderIndex": 3
+  },
+  {
+    "id": "77777777-1123-0003-0000-000000413002",
+    "patternId": "77777777-1123-0001-0000-000000004004",
+    "exerciseType": "ja_to_vi",
+    "prompt": "今日は暇じゃありません。",
+    "promptReading": "きょうはひまじゃありません。",
+    "expectedAnswer": "Hôm nay tôi không rảnh rỗi.",
+    "hint": "N は Aじゃありません。",
+    "explanation": "Giống với cách phủ định danh từ.",
+    "orderIndex": 4
+  },
+  {
+    "id": "77777777-1123-0003-0000-000000423002",
+    "patternId": "77777777-1123-0001-0000-000000004004",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Hôm nay tôi không rảnh rỗi.",
+    "expectedAnswer": "今日は暇じゃありません。",
+    "acceptableAnswers": [
+      "きょうはひまじゃありません。"
+    ],
+    "hint": "Bỏ な thêm じゃありません / ではありません",
+    "explanation": "Giống với cách phủ định danh từ.",
+    "orderIndex": 5
+  },
+  {
+    "id": "77777777-1123-0003-0000-000000433002",
+    "patternId": "77777777-1123-0001-0000-000000004004",
+    "exerciseType": "arrange",
+    "prompt": "Hôm nay tôi không rảnh rỗi.",
+    "expectedAnswer": "今日 (きょう)は暇 (ひま)じゃありません",
+    "optionsJson": "[\"は\",\"暇 (ひま)\",\"今日 (きょう)\",\"じゃありません\"]",
+    "options": [
+      "は",
+      "暇 (ひま)",
+      "今日 (きょう)",
+      "じゃありません"
+    ],
+    "correctOrderJson": "[\"今日 (きょう)\",\"は\",\"暇 (ひま)\",\"じゃありません\"]",
+    "correctOrder": [
+      "今日 (きょう)",
+      "は",
+      "暇 (ひま)",
+      "じゃありません"
+    ],
+    "orderIndex": 6
+  },
+  {
+    "id": "77777777-1123-0003-0000-000000413003",
+    "patternId": "77777777-1123-0001-0000-000000004004",
+    "exerciseType": "ja_to_vi",
+    "prompt": "この町は便利じゃありません。",
+    "promptReading": "このまちはべんりじゃありません。",
+    "expectedAnswer": "Thành phố này không tiện lợi lắm.",
+    "hint": "N は Aじゃありません。",
+    "explanation": "Giống với cách phủ định danh từ.",
+    "orderIndex": 7
+  },
+  {
+    "id": "77777777-1123-0003-0000-000000423003",
+    "patternId": "77777777-1123-0001-0000-000000004004",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Thành phố này không tiện lợi lắm.",
+    "expectedAnswer": "この町は便利じゃありません。",
+    "acceptableAnswers": [
+      "このまちはべんりじゃありません。"
+    ],
+    "hint": "Bỏ な thêm じゃありません / ではありません",
+    "explanation": "Giống với cách phủ định danh từ.",
+    "orderIndex": 8
+  },
+  {
+    "id": "77777777-1123-0003-0000-000000433003",
+    "patternId": "77777777-1123-0001-0000-000000004004",
+    "exerciseType": "arrange",
+    "prompt": "Thành phố này không tiện lợi lắm.",
+    "expectedAnswer": "この町 (まち)は便利 (べんり)じゃありません",
+    "optionsJson": "[\"こ\",\"の\",\"は\",\"町 (まち)\",\"便利 (べんり)\",\"じゃありません\"]",
+    "options": [
+      "こ",
+      "の",
+      "は",
+      "町 (まち)",
+      "便利 (べんり)",
+      "じゃありません"
+    ],
+    "correctOrderJson": "[\"こ\",\"の\",\"町 (まち)\",\"は\",\"便利 (べんり)\",\"じゃありません\"]",
+    "correctOrder": [
+      "こ",
+      "の",
+      "町 (まち)",
+      "は",
+      "便利 (べんり)",
+      "じゃありません"
+    ],
+    "orderIndex": 9
+  },
+  {
+    "id": "77777777-1123-0003-0000-000000413004",
+    "patternId": "77777777-1123-0001-0000-000000004004",
+    "exerciseType": "ja_to_vi",
+    "prompt": "あの人は親切じゃありません。",
+    "promptReading": "あのひともしんせつじゃありません。",
+    "expectedAnswer": "Người kia không thân thiện.",
+    "hint": "N は Aじゃありません。",
+    "explanation": "Giống với cách phủ định danh từ.",
+    "orderIndex": 10
+  },
+  {
+    "id": "77777777-1123-0003-0000-000000423004",
+    "patternId": "77777777-1123-0001-0000-000000004004",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Người kia không thân thiện.",
+    "expectedAnswer": "あの人は親切じゃありません。",
+    "acceptableAnswers": [
+      "あのひともしんせつじゃありません。"
+    ],
+    "hint": "Bỏ な thêm じゃありません / ではありません",
+    "explanation": "Giống với cách phủ định danh từ.",
+    "orderIndex": 11
+  },
+  {
+    "id": "77777777-1123-0003-0000-000000433004",
+    "patternId": "77777777-1123-0001-0000-000000004004",
+    "exerciseType": "arrange",
+    "prompt": "Người kia không thân thiện.",
+    "expectedAnswer": "あの人は親切 (ひともしんせつ)じゃありません",
+    "optionsJson": "[\"あ\",\"の\",\"は\",\"人\",\"じゃありません\",\"親切 (ひともしんせつ)\"]",
+    "options": [
+      "あ",
+      "の",
+      "は",
+      "人",
+      "じゃありません",
+      "親切 (ひともしんせつ)"
+    ],
+    "correctOrderJson": "[\"あ\",\"の\",\"人\",\"は\",\"親切 (ひともしんせつ)\",\"じゃありません\"]",
+    "correctOrder": [
+      "あ",
+      "の",
+      "人",
+      "は",
+      "親切 (ひともしんせつ)",
+      "じゃありません"
+    ],
+    "orderIndex": 12
+  },
+  {
+    "id": "77777777-1123-0003-0000-000000413005",
+    "patternId": "77777777-1123-0001-0000-000000004004",
+    "exerciseType": "ja_to_vi",
+    "prompt": "この料理は有名じゃありません。",
+    "promptReading": "このりょうりはゆうめいじゃありません。",
+    "expectedAnswer": "Món ăn này không nổi tiếng.",
+    "hint": "N は Aじゃありません。",
+    "explanation": "Giống với cách phủ định danh từ.",
+    "orderIndex": 13
+  },
+  {
+    "id": "77777777-1123-0003-0000-000000423005",
+    "patternId": "77777777-1123-0001-0000-000000004004",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Món ăn này không nổi tiếng.",
+    "expectedAnswer": "この料理は有名じゃありません。",
+    "acceptableAnswers": [
+      "このりょうりはゆうめいじゃありません。"
+    ],
+    "hint": "Bỏ な thêm じゃありません / ではありません",
+    "explanation": "Giống với cách phủ định danh từ.",
+    "orderIndex": 14
+  },
+  {
+    "id": "77777777-1123-0003-0000-000000433005",
+    "patternId": "77777777-1123-0001-0000-000000004004",
+    "exerciseType": "arrange",
+    "prompt": "Món ăn này không nổi tiếng.",
+    "expectedAnswer": "この料理 (りょうり)は有名 (ゆうめい)じゃありません",
+    "optionsJson": "[\"こ\",\"の\",\"は\",\"じゃありません\",\"有名 (ゆうめい)\",\"料理 (りょうり)\"]",
+    "options": [
+      "こ",
+      "の",
+      "は",
+      "じゃありません",
+      "有名 (ゆうめい)",
+      "料理 (りょうり)"
+    ],
+    "correctOrderJson": "[\"こ\",\"の\",\"料理 (りょうり)\",\"は\",\"有名 (ゆうめい)\",\"じゃありません\"]",
+    "correctOrder": [
+      "こ",
+      "の",
+      "料理 (りょうり)",
+      "は",
+      "有名 (ゆうめい)",
+      "じゃありません"
+    ],
+    "orderIndex": 15
+  }
+]

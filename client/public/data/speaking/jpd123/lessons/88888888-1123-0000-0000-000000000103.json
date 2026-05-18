@@ -1,0 +1,155 @@
+{
+  "lesson": {
+    "id": "88888888-1123-0000-0000-000000000103",
+    "courseCode": "jpd123",
+    "lessonNumber": 3,
+    "title": "ミラーさんの 一日",
+    "description": "Sinh hoạt hằng ngày - Thói quen đi làm trong tuần và nghỉ ngơi cuối tuần.",
+    "accessTier": "premium",
+    "packageCode": "speaking_jpd123",
+    "isLocked": true,
+    "sentenceCount": 14
+  },
+  "sentences": [
+    {
+      "id": "88888888-1123-0000-0000-000000003001",
+      "lessonId": "88888888-1123-0000-0000-000000000103",
+      "sentenceNumber": 1,
+      "plainText": "ミラーさんはまいあさ七時におきます。",
+      "romaji": "mira-san wa maiasa shichiji ni okimasu.",
+      "contentHtml": "ミラーさんは まいあさ <ruby>七時<rt>しちじ</rt></ruby> に おきます。",
+      "meaningVi": "Mỗi sáng anh Miller thức dậy lúc 7 giờ.",
+      "orderIndex": 1
+    },
+    {
+      "id": "88888888-1123-0000-0000-000000003002",
+      "lessonId": "88888888-1123-0000-0000-000000000103",
+      "sentenceNumber": 2,
+      "plainText": "あさごはんはいつもパンとコーヒーです。",
+      "romaji": "asagohan wa itsumo panto ko-hi-desu.",
+      "contentHtml": "あさごはんは いつも パンと コーヒーです。",
+      "meaningVi": "Bữa sáng của anh ấy luôn là bánh mì và cà phê.",
+      "orderIndex": 2
+    },
+    {
+      "id": "88888888-1123-0000-0000-000000003003",
+      "lessonId": "88888888-1123-0000-0000-000000000103",
+      "sentenceNumber": 3,
+      "plainText": "でんしゃで会社へ行きます。",
+      "romaji": "denshade kaisha e ikimasu.",
+      "contentHtml": "でんしゃで <ruby>会社<rt>かいしゃ</rt></ruby> へ <ruby>行<rt>い</rt></ruby>きます。",
+      "meaningVi": "Anh ấy đi tàu điện đến công ty.",
+      "orderIndex": 3
+    },
+    {
+      "id": "88888888-1123-0000-0000-000000003004",
+      "lessonId": "88888888-1123-0000-0000-000000000103",
+      "sentenceNumber": 4,
+      "plainText": "会社は九時から五時までです。",
+      "romaji": "kaisha wa kuji kara goji made desu.",
+      "contentHtml": "<ruby>会社<rt>かいしゃ</rt></ruby> は <ruby>九時<rt>くじ</rt></ruby> から <ruby>五時<rt>ごじ</rt></ruby> まで です。",
+      "meaningVi": "Công ty làm việc từ 9 giờ đến 5 giờ.",
+      "orderIndex": 4
+    },
+    {
+      "id": "88888888-1123-0000-0000-000000003005",
+      "lessonId": "88888888-1123-0000-0000-000000000103",
+      "sentenceNumber": 5,
+      "plainText": "七時にうちへ帰ります。",
+      "romaji": "shichiji ni uchi e kaerimasu.",
+      "contentHtml": "<ruby>七時<rt>しちじ</rt></ruby> に うちへ <ruby>帰<rt>かえ</rt></ruby>ります。",
+      "meaningVi": "Lúc 7 giờ anh ấy về nhà.",
+      "orderIndex": 5
+    },
+    {
+      "id": "88888888-1123-0000-0000-000000003006",
+      "lessonId": "88888888-1123-0000-0000-000000000103",
+      "sentenceNumber": 6,
+      "plainText": "七時半にばんごはんを食べます。",
+      "romaji": "shichijihan ni bangohan wo tabemasu.",
+      "contentHtml": "<ruby>七時半<rt>しちじはん</rt></ruby> に ばんごはんを <ruby>食<rt>た</rt></ruby>べます。",
+      "meaningVi": "Lúc 7 giờ rưỡi anh ấy ăn tối.",
+      "orderIndex": 6
+    },
+    {
+      "id": "88888888-1123-0000-0000-000000003007",
+      "lessonId": "88888888-1123-0000-0000-000000000103",
+      "sentenceNumber": 7,
+      "plainText": "それからテレビを見ます。",
+      "romaji": "sorekara terebi wo mimasu.",
+      "contentHtml": "それから テレビを <ruby>見<rt>み</rt></ruby>ます。",
+      "meaningVi": "Sau đó anh ấy xem tivi.",
+      "orderIndex": 7
+    },
+    {
+      "id": "88888888-1123-0000-0000-000000003008",
+      "lessonId": "88888888-1123-0000-0000-000000000103",
+      "sentenceNumber": 8,
+      "plainText": "えい語の新聞を読みます。",
+      "romaji": "eigo no shinbun wo yomimasu.",
+      "contentHtml": "えい<ruby>語<rt>ご</rt></ruby> の <ruby>新聞<rt>しんぶん</rt></ruby> を <ruby>読<rt>よ</rt></ruby>みます。",
+      "meaningVi": "Anh ấy đọc báo tiếng Anh.",
+      "orderIndex": 8
+    },
+    {
+      "id": "88888888-1123-0000-0000-000000003009",
+      "lessonId": "88888888-1123-0000-0000-000000000103",
+      "sentenceNumber": 9,
+      "plainText": "よる十二時に寝ます。",
+      "romaji": "yoru juuniji ni nemasu.",
+      "contentHtml": "よる <ruby>十二時<rt>じゅうにじ</rt></ruby> に <ruby>寝<rt>ね</rt></ruby>ます。",
+      "meaningVi": "Ban đêm anh ấy đi ngủ lúc 12 giờ.",
+      "orderIndex": 9
+    },
+    {
+      "id": "88888888-1123-0000-0000-000000003010",
+      "lessonId": "88888888-1123-0000-0000-000000000103",
+      "sentenceNumber": 10,
+      "plainText": "土曜日と日曜日、会社は休みです。",
+      "romaji": "doyoubi to nichiyoubi,kaisha wa yasumidesu.",
+      "contentHtml": "<ruby>土曜日<rt>どようび</rt></ruby> と <ruby>日曜日<rt>にちようび</rt></ruby>、<ruby>会社<rt>かいしゃ</rt></ruby> は <ruby>休<rt>やす</rt></ruby>みです。",
+      "meaningVi": "Vào thứ bảy và chủ nhật công ty nghỉ.",
+      "orderIndex": 10
+    },
+    {
+      "id": "88888888-1123-0000-0000-000000003011",
+      "lessonId": "88888888-1123-0000-0000-000000000103",
+      "sentenceNumber": 11,
+      "plainText": "土曜日のあさ、としょかんへ行きます。",
+      "romaji": "doyoubi no asa,toshokan e ikimasu.",
+      "contentHtml": "<ruby>土曜日<rt>どようび</rt></ruby> の あさ、としょかんへ <ruby>行<rt>い</rt></ruby>きます。",
+      "meaningVi": "Sáng thứ bảy anh ấy đi thư viện.",
+      "orderIndex": 11
+    },
+    {
+      "id": "88888888-1123-0000-0000-000000003012",
+      "lessonId": "88888888-1123-0000-0000-000000000103",
+      "sentenceNumber": 12,
+      "plainText": "午後、テニスをします。",
+      "romaji": "gogo,tenisu wo shimasu.",
+      "contentHtml": "<ruby>午後<rt>ごご</rt></ruby>、テニスを します。",
+      "meaningVi": "Buổi chiều anh ấy chơi tennis.",
+      "orderIndex": 12
+    },
+    {
+      "id": "88888888-1123-0000-0000-000000003013",
+      "lessonId": "88888888-1123-0000-0000-000000000103",
+      "sentenceNumber": 13,
+      "plainText": "日曜日はどこも行きません。",
+      "romaji": "nichiyoubi wa dokomo ikimasen.",
+      "contentHtml": "<ruby>日曜日<rt>にちようび</rt></ruby> は どこも <ruby>行<rt>い</rt></ruby>きません。",
+      "meaningVi": "Chủ nhật anh ấy không đi đâu cả.",
+      "orderIndex": 13
+    },
+    {
+      "id": "88888888-1123-0000-0000-000000003014",
+      "lessonId": "88888888-1123-0000-0000-000000000103",
+      "sentenceNumber": 14,
+      "plainText": "休みます。",
+      "romaji": "yasumimasu.",
+      "contentHtml": "<ruby>休<rt>やす</rt></ruby>みます。",
+      "meaningVi": "Anh ấy nghỉ ngơi.",
+      "orderIndex": 14
+    }
+  ]
+}

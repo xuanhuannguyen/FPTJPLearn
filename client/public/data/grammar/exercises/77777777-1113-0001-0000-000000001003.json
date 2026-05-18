@@ -1,0 +1,256 @@
+[
+  {
+    "id": "77777777-1113-0003-0000-000000112001",
+    "patternId": "77777777-1113-0001-0000-000000001003",
+    "exerciseType": "ja_to_vi",
+    "prompt": "私の趣味は映画です。",
+    "promptReading": "わたしのしゅみはえいがです。",
+    "expectedAnswer": "Sở thích của tôi là phim ảnh.",
+    "hint": "N1 の N2 は N3 です。",
+    "explanation": "Nhấn mạnh vào thông tin N3.",
+    "orderIndex": 1
+  },
+  {
+    "id": "77777777-1113-0003-0000-000000122001",
+    "patternId": "77777777-1113-0001-0000-000000001003",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Sở thích của tôi là phim ảnh.",
+    "expectedAnswer": "私の趣味は映画です。",
+    "acceptableAnswers": [
+      "わたしのしゅみはえいがです。"
+    ],
+    "hint": "N1 + の + N2 + は + N3 + です",
+    "explanation": "Nhấn mạnh vào thông tin N3.",
+    "orderIndex": 2
+  },
+  {
+    "id": "77777777-1113-0003-0000-000000132001",
+    "patternId": "77777777-1113-0001-0000-000000001003",
+    "exerciseType": "arrange",
+    "prompt": "Sở thích của tôi là phim ảnh.",
+    "expectedAnswer": "私 (わたし)の趣味 (しゅみ)は映画 (えいが)です",
+    "optionsJson": "[\"の\",\"は\",\"です\",\"私 (わたし)\",\"映画 (えいが)\",\"趣味 (しゅみ)\"]",
+    "options": [
+      "の",
+      "は",
+      "です",
+      "私 (わたし)",
+      "映画 (えいが)",
+      "趣味 (しゅみ)"
+    ],
+    "correctOrderJson": "[\"私 (わたし)\",\"の\",\"趣味 (しゅみ)\",\"は\",\"映画 (えいが)\",\"です\"]",
+    "correctOrder": [
+      "私 (わたし)",
+      "の",
+      "趣味 (しゅみ)",
+      "は",
+      "映画 (えいが)",
+      "です"
+    ],
+    "orderIndex": 3
+  },
+  {
+    "id": "77777777-1113-0003-0000-000000112002",
+    "patternId": "77777777-1113-0001-0000-000000001003",
+    "exerciseType": "ja_to_vi",
+    "prompt": "アンさんの誕生日は６月です。",
+    "promptReading": "アンさんのたんじょうびはろくがつです。",
+    "expectedAnswer": "Sinh nhật của bạn An là tháng 6.",
+    "hint": "N1 の N2 は N3 です。",
+    "explanation": "Nhấn mạnh vào thông tin N3.",
+    "orderIndex": 4
+  },
+  {
+    "id": "77777777-1113-0003-0000-000000122002",
+    "patternId": "77777777-1113-0001-0000-000000001003",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Sinh nhật của bạn An là tháng 6.",
+    "expectedAnswer": "アンさんの誕生日は６月です。",
+    "acceptableAnswers": [
+      "アンさんのたんじょうびはろくがつです。"
+    ],
+    "hint": "N1 + の + N2 + は + N3 + です",
+    "explanation": "Nhấn mạnh vào thông tin N3.",
+    "orderIndex": 5
+  },
+  {
+    "id": "77777777-1113-0003-0000-000000132002",
+    "patternId": "77777777-1113-0001-0000-000000001003",
+    "exerciseType": "arrange",
+    "prompt": "Sinh nhật của bạn An là tháng 6.",
+    "expectedAnswer": "アンさんの誕生日 (たんじょうび)は６月 (ろくがつ)です",
+    "optionsJson": "[\"の\",\"は\",\"です\",\"アンさん\",\"６月 (ろくがつ)\",\"誕生日 (たんじょうび)\"]",
+    "options": [
+      "の",
+      "は",
+      "です",
+      "アンさん",
+      "６月 (ろくがつ)",
+      "誕生日 (たんじょうび)"
+    ],
+    "correctOrderJson": "[\"アンさん\",\"の\",\"誕生日 (たんじょうび)\",\"は\",\"６月 (ろくがつ)\",\"です\"]",
+    "correctOrder": [
+      "アンさん",
+      "の",
+      "誕生日 (たんじょうび)",
+      "は",
+      "６月 (ろくがつ)",
+      "です"
+    ],
+    "orderIndex": 6
+  },
+  {
+    "id": "77777777-1113-0003-0000-000000112003",
+    "patternId": "77777777-1113-0001-0000-000000001003",
+    "exerciseType": "ja_to_vi",
+    "prompt": "私の電話番号は123です。",
+    "promptReading": "わたしのでんわばんごうは123です。",
+    "expectedAnswer": "Số điện thoại của tôi là 123.",
+    "hint": "N1 の N2 は N3 です。",
+    "explanation": "Nhấn mạnh vào thông tin N3.",
+    "orderIndex": 7
+  },
+  {
+    "id": "77777777-1113-0003-0000-000000122003",
+    "patternId": "77777777-1113-0001-0000-000000001003",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Số điện thoại của tôi là 123.",
+    "expectedAnswer": "私の電話番号は123です。",
+    "acceptableAnswers": [
+      "わたしのでんわばんごうは123です。"
+    ],
+    "hint": "N1 + の + N2 + は + N3 + です",
+    "explanation": "Nhấn mạnh vào thông tin N3.",
+    "orderIndex": 8
+  },
+  {
+    "id": "77777777-1113-0003-0000-000000132003",
+    "patternId": "77777777-1113-0001-0000-000000001003",
+    "exerciseType": "arrange",
+    "prompt": "Số điện thoại của tôi là 123.",
+    "expectedAnswer": "私 (わたし)の電話番号 (でんわばんごう)は123です",
+    "optionsJson": "[\"123\",\"の\",\"は\",\"です\",\"私 (わたし)\",\"電話番号 (でんわばんごう)\"]",
+    "options": [
+      "123",
+      "の",
+      "は",
+      "です",
+      "私 (わたし)",
+      "電話番号 (でんわばんごう)"
+    ],
+    "correctOrderJson": "[\"私 (わたし)\",\"の\",\"電話番号 (でんわばんごう)\",\"は\",\"123\",\"です\"]",
+    "correctOrder": [
+      "私 (わたし)",
+      "の",
+      "電話番号 (でんわばんごう)",
+      "は",
+      "123",
+      "です"
+    ],
+    "orderIndex": 9
+  },
+  {
+    "id": "77777777-1113-0003-0000-000000112004",
+    "patternId": "77777777-1113-0001-0000-000000001003",
+    "exerciseType": "ja_to_vi",
+    "prompt": "田中さんの専門はコンピューターです。",
+    "promptReading": "たなかさんのせんもんはコンピューターです。",
+    "expectedAnswer": "Chuyên môn của anh Tanaka là máy tính.",
+    "hint": "N1 の N2 は N3 です。",
+    "explanation": "Nhấn mạnh vào thông tin N3.",
+    "orderIndex": 10
+  },
+  {
+    "id": "77777777-1113-0003-0000-000000122004",
+    "patternId": "77777777-1113-0001-0000-000000001003",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Chuyên môn của anh Tanaka là máy tính.",
+    "expectedAnswer": "田中さんの専門はコンピューターです。",
+    "acceptableAnswers": [
+      "たなかさんのせんもんはコンピューターです。"
+    ],
+    "hint": "N1 + の + N2 + は + N3 + です",
+    "explanation": "Nhấn mạnh vào thông tin N3.",
+    "orderIndex": 11
+  },
+  {
+    "id": "77777777-1113-0003-0000-000000132004",
+    "patternId": "77777777-1113-0001-0000-000000001003",
+    "exerciseType": "arrange",
+    "prompt": "Chuyên môn của anh Tanaka là máy tính.",
+    "expectedAnswer": "田中さん (たなかさん)の専門 (せんもん)はコンピューターです",
+    "optionsJson": "[\"の\",\"は\",\"です\",\"コンピューター\",\"専門 (せんもん)\",\"田中さん (たなかさん)\"]",
+    "options": [
+      "の",
+      "は",
+      "です",
+      "コンピューター",
+      "専門 (せんもん)",
+      "田中さん (たなかさん)"
+    ],
+    "correctOrderJson": "[\"田中さん (たなかさん)\",\"の\",\"専門 (せんもん)\",\"は\",\"コンピューター\",\"です\"]",
+    "correctOrder": [
+      "田中さん (たなかさん)",
+      "の",
+      "専門 (せんもん)",
+      "は",
+      "コンピューター",
+      "です"
+    ],
+    "orderIndex": 12
+  },
+  {
+    "id": "77777777-1113-0003-0000-000000112005",
+    "patternId": "77777777-1113-0001-0000-000000001003",
+    "exerciseType": "ja_to_vi",
+    "prompt": "私の父の職業は公務員です。",
+    "promptReading": "わたしのちちのしょくぎょうはこうむいんです。",
+    "expectedAnswer": "Nghề nghiệp của bố tôi là công chức.",
+    "hint": "N1 の N2 は N3 です。",
+    "explanation": "Nhấn mạnh vào thông tin N3.",
+    "orderIndex": 13
+  },
+  {
+    "id": "77777777-1113-0003-0000-000000122005",
+    "patternId": "77777777-1113-0001-0000-000000001003",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Nghề nghiệp của bố tôi là công chức.",
+    "expectedAnswer": "私の父の職業は公務員です。",
+    "acceptableAnswers": [
+      "わたしのちちのしょくぎょうはこうむいんです。"
+    ],
+    "hint": "N1 + の + N2 + は + N3 + です",
+    "explanation": "Nhấn mạnh vào thông tin N3.",
+    "orderIndex": 14
+  },
+  {
+    "id": "77777777-1113-0003-0000-000000132005",
+    "patternId": "77777777-1113-0001-0000-000000001003",
+    "exerciseType": "arrange",
+    "prompt": "Nghề nghiệp của bố tôi là công chức.",
+    "expectedAnswer": "私 (わたし)の父 (ちち)の職業 (しょくぎょう)は公務員 (こうむいん)です",
+    "optionsJson": "[\"の\",\"の\",\"は\",\"です\",\"父 (ちち)\",\"私 (わたし)\",\"公務員 (こうむいん)\",\"職業 (しょくぎょう)\"]",
+    "options": [
+      "の",
+      "の",
+      "は",
+      "です",
+      "父 (ちち)",
+      "私 (わたし)",
+      "公務員 (こうむいん)",
+      "職業 (しょくぎょう)"
+    ],
+    "correctOrderJson": "[\"私 (わたし)\",\"の\",\"父 (ちち)\",\"の\",\"職業 (しょくぎょう)\",\"は\",\"公務員 (こうむいん)\",\"です\"]",
+    "correctOrder": [
+      "私 (わたし)",
+      "の",
+      "父 (ちち)",
+      "の",
+      "職業 (しょくぎょう)",
+      "は",
+      "公務員 (こうむいん)",
+      "です"
+    ],
+    "orderIndex": 15
+  }
+]

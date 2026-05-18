@@ -1,0 +1,95 @@
+{
+  "lesson": {
+    "id": "88888888-1123-0000-0000-000000000109",
+    "courseCode": "jpd123",
+    "lessonNumber": 9,
+    "title": "おじいさんに 会う",
+    "description": "Gia đình - Tình cảm với ông và quãng đường từ Tokyo đến Kyoto.",
+    "accessTier": "premium",
+    "packageCode": "speaking_jpd123",
+    "isLocked": true,
+    "sentenceCount": 8
+  },
+  "sentences": [
+    {
+      "id": "88888888-1123-0000-0000-000000009001",
+      "lessonId": "88888888-1123-0000-0000-000000000109",
+      "sentenceNumber": 1,
+      "plainText": "私のおじいさんは、今年81才です。",
+      "romaji": "watashi no ojiisan wa,kotoshi hachijuuissai desu.",
+      "contentHtml": "<ruby>私<rt>わたし</rt></ruby> の おじいさんは、<ruby>今年<rt>ことし</rt></ruby> <ruby>81才<rt>はちじゅういっさい</rt></ruby> です。",
+      "meaningVi": "Năm nay ông tôi 81 tuổi.",
+      "orderIndex": 1
+    },
+    {
+      "id": "88888888-1123-0000-0000-000000009002",
+      "lessonId": "88888888-1123-0000-0000-000000000109",
+      "sentenceNumber": 2,
+      "plainText": "京都にすんでいます。",
+      "romaji": "kyouto ni sundeimasu.",
+      "contentHtml": "<ruby>京都<rt>きょうと</rt></ruby> に すんでいます。",
+      "meaningVi": "Ông đang sống ở Kyoto.",
+      "orderIndex": 2
+    },
+    {
+      "id": "88888888-1123-0000-0000-000000009003",
+      "lessonId": "88888888-1123-0000-0000-000000000109",
+      "sentenceNumber": 3,
+      "plainText": "おじいさんはいつもやさしいです。",
+      "romaji": "ojiisan wa itsumo yasashiidesu.",
+      "contentHtml": "おじいさんは いつも やさしいです。",
+      "meaningVi": "Ông lúc nào cũng hiền từ.",
+      "orderIndex": 3
+    },
+    {
+      "id": "88888888-1123-0000-0000-000000009004",
+      "lessonId": "88888888-1123-0000-0000-000000000109",
+      "sentenceNumber": 4,
+      "plainText": "そして、いつもおもしろい話をします。",
+      "romaji": "soshite,itsumo omoshiroi hanashi wo shimasu.",
+      "contentHtml": "そして、いつも おもしろい <ruby>話<rt>はなし</rt></ruby> を します。",
+      "meaningVi": "Và ông luôn kể những câu chuyện thú vị.",
+      "orderIndex": 4
+    },
+    {
+      "id": "88888888-1123-0000-0000-000000009005",
+      "lessonId": "88888888-1123-0000-0000-000000000109",
+      "sentenceNumber": 5,
+      "plainText": "私はおじいさんがだいすきです。",
+      "romaji": "watashi wa ojiisanga daisukidesu.",
+      "contentHtml": "<ruby>私<rt>わたし</rt></ruby> は おじいさんが だいすきです。",
+      "meaningVi": "Tôi rất yêu quý ông.",
+      "orderIndex": 5
+    },
+    {
+      "id": "88888888-1123-0000-0000-000000009006",
+      "lessonId": "88888888-1123-0000-0000-000000000109",
+      "sentenceNumber": 6,
+      "plainText": "私はいま、東京にすんでいます。",
+      "romaji": "watashi wa ima,toukyou ni sundeimasu.",
+      "contentHtml": "<ruby>私<rt>わたし</rt></ruby> は いま、<ruby>東京<rt>とうきょう</rt></ruby> に すんでいます。",
+      "meaningVi": "Hiện tại tôi sống ở Tokyo.",
+      "orderIndex": 6
+    },
+    {
+      "id": "88888888-1123-0000-0000-000000009007",
+      "lessonId": "88888888-1123-0000-0000-000000000109",
+      "sentenceNumber": 7,
+      "plainText": "京都から東京まで、しんかんせんで2時間です。",
+      "romaji": "kyouto kara toukyou made,shinkansende nijikan desu.",
+      "contentHtml": "<ruby>京都<rt>きょうと</rt></ruby> から <ruby>東京<rt>とうきょう</rt></ruby> まで、しんかんせんで <ruby>2時間<rt>にじかん</rt></ruby> です。",
+      "meaningVi": "Từ Kyoto đến Tokyo mất 2 giờ đi shinkansen.",
+      "orderIndex": 7
+    },
+    {
+      "id": "88888888-1123-0000-0000-000000009008",
+      "lessonId": "88888888-1123-0000-0000-000000000109",
+      "sentenceNumber": 8,
+      "plainText": "毎年、なつ休みとお正月におじいさんに会います。",
+      "romaji": "maitoshi,natsuyasumi to oshougatsu ni ojiisanni aimasu.",
+      "contentHtml": "<ruby>毎年<rt>まいとし</rt></ruby>、なつ<ruby>休<rt>やす</rt></ruby>み と <ruby>お正月<rt>おしょうがつ</rt></ruby> に おじいさんに <ruby>会<rt>あ</rt></ruby>います。",
+      "meaningVi": "Mỗi năm vào kỳ nghỉ hè và dịp năm mới, tôi đều gặp ông.",
+      "orderIndex": 8
+    }
+  ]
+}

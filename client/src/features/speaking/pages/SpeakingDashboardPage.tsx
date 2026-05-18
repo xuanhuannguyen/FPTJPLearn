@@ -3,12 +3,14 @@ import { useNavigate } from 'react-router-dom';
 import { Loader2, Lock, Volume2 } from 'lucide-react';
 import { speakingApi } from '../api/speakingApi';
 import type { SpeakingCourse } from '../types/speaking.types';
+import { useUserAccess } from '../../../shared/hooks/useUserAccess';
 
 export const SpeakingDashboardPage = () => {
   const navigate = useNavigate();
   const [courses, setCourses] = useState<SpeakingCourse[]>([]);
   const [isLoading, setIsLoading] = useState(true);
   const [error, setError] = useState('');
+  const { isContentLocked } = useUserAccess();
 
   useEffect(() => {
     let cancelled = false;
@@ -75,6 +77,7 @@ export const SpeakingDashboardPage = () => {
       ) : (
         <div className="grid max-w-3xl grid-cols-1 gap-4 md:grid-cols-2">
           {courses.map((course) => {
+            const isLocked = isContentLocked(course);
             const isJpd113 = course.code === 'jpd113';
             const colorTop = isJpd113 ? 'bg-[#f4e8dc]' : 'bg-[#dbeafe]';
             const colorBottom = 'bg-blue-600';
@@ -82,9 +85,9 @@ export const SpeakingDashboardPage = () => {
             return (
               <div
                 key={course.id}
-                onClick={() => course.isLocked ? navigate('/pricing') : navigate(`/speaking/${course.code}`)}
+                onClick={() => isLocked ? navigate('/pricing') : navigate(`/speaking/${course.code}`)}
                 className={`group relative overflow-hidden rounded-[24px] border-2 border-border/5 shadow-sm transition-all cursor-pointer hover:-translate-y-1 hover:shadow-md ${
-                  course.isLocked ? 'grayscale-[0.3]' : ''
+                  isLocked ? 'grayscale-[0.3]' : ''
                 }`}
               >
                 <div className={`${colorTop} flex flex-col items-center justify-center px-5 py-6 text-center`}>
@@ -109,11 +112,11 @@ export const SpeakingDashboardPage = () => {
                   </div>
 
                   <div className="mt-1 text-[9px] font-bold uppercase tracking-widest opacity-80">
-                    {course.isLocked ? 'Cần kích hoạt gói Premium' : `Đọc và luyện nói ${course.title}`}
+                    {isLocked ? 'Cần kích hoạt gói Premium' : `Đọc và luyện nói ${course.title}`}
                   </div>
                 </div>
 
-                {course.isLocked && (
+                {isLocked && (
                   <div className="absolute inset-0 z-10 flex items-center justify-center bg-slate-900/10 backdrop-blur-[1px]">
                     <div className="flex h-12 w-12 items-center justify-center rounded-full border-2 border-white bg-slate-900/80 text-white shadow-xl">
                       <Lock size={20} />

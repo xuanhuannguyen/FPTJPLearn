@@ -1,0 +1,254 @@
+[
+  {
+    "id": "77777777-1123-0003-0000-000000512001",
+    "patternId": "77777777-1123-0001-0000-000000005003",
+    "exerciseType": "ja_to_vi",
+    "prompt": "私は日本のアニメが好きです。",
+    "promptReading": "わたしはにほんのアニメがすきです。",
+    "expectedAnswer": "Tôi thích phim hoạt hình Nhật Bản.",
+    "hint": "N が すきです / きらいです",
+    "explanation": "Trợ từ sử dụng là が, không phải を.",
+    "orderIndex": 1
+  },
+  {
+    "id": "77777777-1123-0003-0000-000000522001",
+    "patternId": "77777777-1123-0001-0000-000000005003",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Tôi thích phim hoạt hình Nhật Bản.",
+    "expectedAnswer": "私は日本のアニメが好きです。",
+    "acceptableAnswers": [
+      "わたしはにほんのアニメがすきです。"
+    ],
+    "hint": "Danh từ + が + すき/きらい + です",
+    "explanation": "Trợ từ sử dụng là が, không phải を.",
+    "orderIndex": 2
+  },
+  {
+    "id": "77777777-1123-0003-0000-000000532001",
+    "patternId": "77777777-1123-0001-0000-000000005003",
+    "exerciseType": "arrange",
+    "prompt": "Tôi thích phim hoạt hình Nhật Bản.",
+    "expectedAnswer": "私 (わたし)は日本 (にほん)のアニメが好き (すき)です",
+    "optionsJson": "[\"が\",\"の\",\"は\",\"です\",\"アニメ\",\"好き (すき)\",\"私 (わたし)\",\"日本 (にほん)\"]",
+    "options": [
+      "が",
+      "の",
+      "は",
+      "です",
+      "アニメ",
+      "好き (すき)",
+      "私 (わたし)",
+      "日本 (にほん)"
+    ],
+    "correctOrderJson": "[\"私 (わたし)\",\"は\",\"日本 (にほん)\",\"の\",\"アニメ\",\"が\",\"好き (すき)\",\"です\"]",
+    "correctOrder": [
+      "私 (わたし)",
+      "は",
+      "日本 (にほん)",
+      "の",
+      "アニメ",
+      "が",
+      "好き (すき)",
+      "です"
+    ],
+    "orderIndex": 3
+  },
+  {
+    "id": "77777777-1123-0003-0000-000000512002",
+    "patternId": "77777777-1123-0001-0000-000000005003",
+    "exerciseType": "ja_to_vi",
+    "prompt": "私は納豆が嫌いです。",
+    "promptReading": "わたしはなっとうがきらいです。",
+    "expectedAnswer": "Tôi ghét món Natto.",
+    "hint": "N が すきです / きらいです",
+    "explanation": "Trợ từ sử dụng là が, không phải を.",
+    "orderIndex": 4
+  },
+  {
+    "id": "77777777-1123-0003-0000-000000522002",
+    "patternId": "77777777-1123-0001-0000-000000005003",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Tôi ghét món Natto.",
+    "expectedAnswer": "私は納豆が嫌いです。",
+    "acceptableAnswers": [
+      "わたしはなっとうがきらいです。"
+    ],
+    "hint": "Danh từ + が + すき/きらい + です",
+    "explanation": "Trợ từ sử dụng là が, không phải を.",
+    "orderIndex": 5
+  },
+  {
+    "id": "77777777-1123-0003-0000-000000532002",
+    "patternId": "77777777-1123-0001-0000-000000005003",
+    "exerciseType": "arrange",
+    "prompt": "Tôi ghét món Natto.",
+    "expectedAnswer": "私 (わたし)は納豆 (なっとう)が嫌い (きらい)です",
+    "optionsJson": "[\"が\",\"は\",\"です\",\"私 (わたし)\",\"嫌い (きらい)\",\"納豆 (なっとう)\"]",
+    "options": [
+      "が",
+      "は",
+      "です",
+      "私 (わたし)",
+      "嫌い (きらい)",
+      "納豆 (なっとう)"
+    ],
+    "correctOrderJson": "[\"私 (わたし)\",\"は\",\"納豆 (なっとう)\",\"が\",\"嫌い (きらい)\",\"です\"]",
+    "correctOrder": [
+      "私 (わたし)",
+      "は",
+      "納豆 (なっとう)",
+      "が",
+      "嫌い (きらい)",
+      "です"
+    ],
+    "orderIndex": 6
+  },
+  {
+    "id": "77777777-1123-0003-0000-000000512003",
+    "patternId": "77777777-1123-0001-0000-000000005003",
+    "exerciseType": "ja_to_vi",
+    "prompt": "田中さんはサッカーが好きです。",
+    "promptReading": "たなかさんはサッカーがすきです。",
+    "expectedAnswer": "Anh Tanaka thích bóng đá.",
+    "hint": "N が すきです / きらいです",
+    "explanation": "Trợ từ sử dụng là が, không phải を.",
+    "orderIndex": 7
+  },
+  {
+    "id": "77777777-1123-0003-0000-000000522003",
+    "patternId": "77777777-1123-0001-0000-000000005003",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Anh Tanaka thích bóng đá.",
+    "expectedAnswer": "田中さんはサッカーが好きです。",
+    "acceptableAnswers": [
+      "たなかさんはサッカーがすきです。"
+    ],
+    "hint": "Danh từ + が + すき/きらい + です",
+    "explanation": "Trợ từ sử dụng là が, không phải を.",
+    "orderIndex": 8
+  },
+  {
+    "id": "77777777-1123-0003-0000-000000532003",
+    "patternId": "77777777-1123-0001-0000-000000005003",
+    "exerciseType": "arrange",
+    "prompt": "Anh Tanaka thích bóng đá.",
+    "expectedAnswer": "田中さん (たなかさん)はサッカーが好き (すき)です",
+    "optionsJson": "[\"が\",\"は\",\"です\",\"サッカー\",\"好き (すき)\",\"田中さん (たなかさん)\"]",
+    "options": [
+      "が",
+      "は",
+      "です",
+      "サッカー",
+      "好き (すき)",
+      "田中さん (たなかさん)"
+    ],
+    "correctOrderJson": "[\"田中さん (たなかさん)\",\"は\",\"サッカー\",\"が\",\"好き (すき)\",\"です\"]",
+    "correctOrder": [
+      "田中さん (たなかさん)",
+      "は",
+      "サッカー",
+      "が",
+      "好き (すき)",
+      "です"
+    ],
+    "orderIndex": 9
+  },
+  {
+    "id": "77777777-1123-0003-0000-000000512004",
+    "patternId": "77777777-1123-0001-0000-000000005003",
+    "exerciseType": "ja_to_vi",
+    "prompt": "私は甘い料理が嫌いです。",
+    "promptReading": "わたしはあまいりょうりがきらいです。",
+    "expectedAnswer": "Tôi ghét các món ăn ngọt.",
+    "hint": "N が すきです / きらいです",
+    "explanation": "Trợ từ sử dụng là が, không phải を.",
+    "orderIndex": 10
+  },
+  {
+    "id": "77777777-1123-0003-0000-000000522004",
+    "patternId": "77777777-1123-0001-0000-000000005003",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Tôi ghét các món ăn ngọt.",
+    "expectedAnswer": "私は甘い料理が嫌いです。",
+    "acceptableAnswers": [
+      "わたしはあまいりょうりがきらいです。"
+    ],
+    "hint": "Danh từ + が + すき/きらい + です",
+    "explanation": "Trợ từ sử dụng là が, không phải を.",
+    "orderIndex": 11
+  },
+  {
+    "id": "77777777-1123-0003-0000-000000532004",
+    "patternId": "77777777-1123-0001-0000-000000005003",
+    "exerciseType": "arrange",
+    "prompt": "Tôi ghét các món ăn ngọt.",
+    "expectedAnswer": "私 (わたし)は甘い料理 (あまいりょうり)が嫌い (きらい)です",
+    "optionsJson": "[\"が\",\"は\",\"です\",\"私 (わたし)\",\"嫌い (きらい)\",\"甘い料理 (あまいりょうり)\"]",
+    "options": [
+      "が",
+      "は",
+      "です",
+      "私 (わたし)",
+      "嫌い (きらい)",
+      "甘い料理 (あまいりょうり)"
+    ],
+    "correctOrderJson": "[\"私 (わたし)\",\"は\",\"甘い料理 (あまいりょうり)\",\"が\",\"嫌い (きらい)\",\"です\"]",
+    "correctOrder": [
+      "私 (わたし)",
+      "は",
+      "甘い料理 (あまいりょうり)",
+      "が",
+      "嫌い (きらい)",
+      "です"
+    ],
+    "orderIndex": 12
+  },
+  {
+    "id": "77777777-1123-0003-0000-000000512005",
+    "patternId": "77777777-1123-0001-0000-000000005003",
+    "exerciseType": "ja_to_vi",
+    "prompt": "どんな音楽が好きですか。",
+    "promptReading": "どんなおんがくがすきですか。",
+    "expectedAnswer": "Bạn thích loại nhạc nào?",
+    "hint": "N が すきです / きらいです",
+    "explanation": "Trợ từ sử dụng là が, không phải を.",
+    "orderIndex": 13
+  },
+  {
+    "id": "77777777-1123-0003-0000-000000522005",
+    "patternId": "77777777-1123-0001-0000-000000005003",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Bạn thích loại nhạc nào?",
+    "expectedAnswer": "どんな音楽が好きですか。",
+    "acceptableAnswers": [
+      "どんなおんがくがすきですか。"
+    ],
+    "hint": "Danh từ + が + すき/きらい + です",
+    "explanation": "Trợ từ sử dụng là が, không phải を.",
+    "orderIndex": 14
+  },
+  {
+    "id": "77777777-1123-0003-0000-000000532005",
+    "patternId": "77777777-1123-0001-0000-000000005003",
+    "exerciseType": "arrange",
+    "prompt": "Bạn thích loại nhạc nào?",
+    "expectedAnswer": "どんな音楽 (どんなおん)が好き (くがすき)ですか",
+    "optionsJson": "[\"か\",\"が\",\"です\",\"好き (くがすき)\",\"どんな音楽 (どんなおん)\"]",
+    "options": [
+      "か",
+      "が",
+      "です",
+      "好き (くがすき)",
+      "どんな音楽 (どんなおん)"
+    ],
+    "correctOrderJson": "[\"どんな音楽 (どんなおん)\",\"が\",\"好き (くがすき)\",\"です\",\"か\"]",
+    "correctOrder": [
+      "どんな音楽 (どんなおん)",
+      "が",
+      "好き (くがすき)",
+      "です",
+      "か"
+    ],
+    "orderIndex": 15
+  }
+]

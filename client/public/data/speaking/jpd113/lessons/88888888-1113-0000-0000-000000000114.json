@@ -1,0 +1,55 @@
+{
+  "lesson": {
+    "id": "88888888-1113-0000-0000-000000000114",
+    "courseCode": "jpd113",
+    "lessonNumber": 14,
+    "title": "だい学での べんきょう",
+    "description": "Sinh hoạt - Mua đồ ăn sáng và học tiếng Nhật tại trường.",
+    "accessTier": "premium",
+    "packageCode": "speaking_jpd113",
+    "isLocked": true,
+    "sentenceCount": 4
+  },
+  "sentences": [
+    {
+      "id": "88888888-1113-0000-0000-000000014001",
+      "lessonId": "88888888-1113-0000-0000-000000000114",
+      "sentenceNumber": 1,
+      "plainText": "まいあさ、私はいえであさごはんをたべません。",
+      "romaji": "maiasa,watashi wa iede asagohan wo tabemasen.",
+      "contentHtml": "<ruby>まいあさ<rt>まいあさ</rt></ruby>、<ruby>私<rt>わたし</rt></ruby>は <ruby>いえ<rt>いえ</rt></ruby>で <ruby>あさごはん<rt>あさごはん</rt></ruby>を <ruby>た<rt>た</rt></ruby>べません。",
+      "meaningVi": "Mỗi sáng tôi không ăn sáng ở nhà.",
+      "orderIndex": 1
+    },
+    {
+      "id": "88888888-1113-0000-0000-000000014002",
+      "lessonId": "88888888-1113-0000-0000-000000000114",
+      "sentenceNumber": 2,
+      "plainText": "六時はんごろコンビニでサラダやパンなどをかいます。",
+      "romaji": "rokujihangoro konbinide saradaya pannado wo kaimasu.",
+      "contentHtml": "<ruby>六時はん<rt>ろくじはん</rt></ruby>ごろ コンビニで サラダや パンなどを <ruby>か<rt>か</rt></ruby>います。",
+      "meaningVi": "Khoảng 6 giờ rưỡi tôi mua salad, bánh mì ở cửa hàng tiện lợi.",
+      "orderIndex": 2
+    },
+    {
+      "id": "88888888-1113-0000-0000-000000014003",
+      "lessonId": "88888888-1113-0000-0000-000000000114",
+      "sentenceNumber": 3,
+      "plainText": "七時にだい学でたべます。",
+      "romaji": "shichijini daigakude tabemasu.",
+      "contentHtml": "<ruby>七時<rt>しちじ</rt></ruby>に <ruby>だい学<rt>だいがく</rt></ruby>で <ruby>た<rt>た</rt></ruby>べます。",
+      "meaningVi": "Tôi ăn tại trường lúc 7 giờ.",
+      "orderIndex": 3
+    },
+    {
+      "id": "88888888-1113-0000-0000-000000014004",
+      "lessonId": "88888888-1113-0000-0000-000000000114",
+      "sentenceNumber": 4,
+      "plainText": "それから日本語をべんきょうします。",
+      "romaji": "sorekara nihongo wo benkyoushimasu.",
+      "contentHtml": "それから <ruby>日本語<rt>にほんご</rt></ruby>を <ruby>べんきょう<rt>べんきょう</rt></ruby>します。",
+      "meaningVi": "Sau đó tôi học tiếng Nhật.",
+      "orderIndex": 4
+    }
+  ]
+}

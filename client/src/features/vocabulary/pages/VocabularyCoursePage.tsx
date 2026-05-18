@@ -3,12 +3,14 @@ import { useParams, Link, useNavigate } from 'react-router-dom';
 import { ArrowLeft, CheckCircle, Play } from 'lucide-react';
 import { staticVocabularyApi } from '../api/vocabularyApi';
 import type { StaticVocabularyLesson } from '../types/vocabulary.types';
+import { useUserAccess } from '../../../shared/hooks/useUserAccess';
 
 export const VocabularyCoursePage = () => {
   const { courseCode } = useParams<{ courseCode: string }>();
   const navigate = useNavigate();
   const [lessons, setLessons] = useState<StaticVocabularyLesson[]>([]);
   const [isLoading, setIsLoading] = useState(true);
+  const { isContentLocked } = useUserAccess();
 
   useEffect(() => {
     const fetchLessons = async () => {
@@ -56,6 +58,7 @@ export const VocabularyCoursePage = () => {
 
       <div className="grid grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-3">
         {lessons.map((lesson) => {
+          const isLocked = isContentLocked(lesson);
           const progressPercent = lesson.wordCount > 0
             ? Math.round((lesson.learnedCount / lesson.wordCount) * 100)
             : 0;
@@ -64,7 +67,7 @@ export const VocabularyCoursePage = () => {
           return (
             <Link
               key={lesson.id}
-              to={lesson.isLocked ? '/pricing' : `/vocabulary/${courseCode}/lessons/${lesson.id}`}
+              to={isLocked ? '/pricing' : `/vocabulary/${courseCode}/lessons/${lesson.id}`}
               className="interactive-surface group relative flex min-h-[110px] cursor-pointer gap-4 overflow-hidden rounded-[18px] p-3.5"
             >
               <div className={`absolute left-0 top-0 h-full w-2 ${isComplete ? 'bg-accent-success' : 'bg-accent-primary'}`} />
@@ -96,7 +99,7 @@ export const VocabularyCoursePage = () => {
                   </div>
 
                   <div className="flex shrink-0 items-center gap-1">
-                    {lesson.isLocked ? (
+                    {isLocked ? (
                       <span className="rounded-lg border border-border bg-bg-tertiary px-2 py-1 text-[10px] font-black uppercase text-text-muted">
                         Locked
                       </span>

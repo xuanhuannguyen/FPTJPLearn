@@ -1,0 +1,55 @@
+{
+  "lesson": {
+    "id": "88888888-1113-0000-0000-000000000126",
+    "courseCode": "jpd113",
+    "lessonNumber": 26,
+    "title": "日曜日の よてい",
+    "description": "Sinh hoạt - Học tiếng Ý và ăn Ramen vào chủ nhật.",
+    "accessTier": "premium",
+    "packageCode": "speaking_jpd113",
+    "isLocked": true,
+    "sentenceCount": 4
+  },
+  "sentences": [
+    {
+      "id": "88888888-1113-0000-0000-000000026001",
+      "lessonId": "88888888-1113-0000-0000-000000000126",
+      "sentenceNumber": 1,
+      "plainText": "日曜日、八時におきます。",
+      "romaji": "nichiyoubi,hachijini okimasu.",
+      "contentHtml": "<ruby>日曜日<rt>にちようび</rt></ruby>、<ruby>八時<rt>はちじ</rt></ruby>に <ruby>お<rt>お</rt></ruby>きます。",
+      "meaningVi": "Chủ nhật tôi thức dậy lúc 8 giờ.",
+      "orderIndex": 1
+    },
+    {
+      "id": "88888888-1113-0000-0000-000000026002",
+      "lessonId": "88888888-1113-0000-0000-000000000126",
+      "sentenceNumber": 2,
+      "plainText": "あさごはんをたべません。",
+      "romaji": "asagohan wo tabemasen.",
+      "contentHtml": "<ruby>あさごはん<rt>あさごはん</rt></ruby>を <ruby>た<rt>た</rt></ruby>べません。",
+      "meaningVi": "Tôi không ăn sáng.",
+      "orderIndex": 2
+    },
+    {
+      "id": "88888888-1113-0000-0000-000000026003",
+      "lessonId": "88888888-1113-0000-0000-000000000126",
+      "sentenceNumber": 3,
+      "plainText": "うちでイタリア語をべんきょうします。",
+      "romaji": "uchide itariago wo benkyoushimasu.",
+      "contentHtml": "<ruby>うち<rt>うち</rt></ruby>で イタリア<ruby>語<rt>ご</rt></ruby>を <ruby>べんきょう<rt>べんきょう</rt></ruby>します。",
+      "meaningVi": "Tôi học tiếng Ý ở nhà.",
+      "orderIndex": 3
+    },
+    {
+      "id": "88888888-1113-0000-0000-000000026004",
+      "lessonId": "88888888-1113-0000-0000-000000000126",
+      "sentenceNumber": 4,
+      "plainText": "ひるごはんレストランでラーメンをたべます。",
+      "romaji": "hirugohan resutorande ra-men wo tabemasu.",
+      "contentHtml": "<ruby>ひるごはん<rt>ひるごはん</rt></ruby> レストランで ラーメンを <ruby>た<rt>た</rt></ruby>べます。",
+      "meaningVi": "Bữa trưa tôi ăn Ramen ở nhà hàng.",
+      "orderIndex": 4
+    }
+  ]
+}

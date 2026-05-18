@@ -4,6 +4,7 @@ import { ArrowLeft, Play, LayoutGrid } from 'lucide-react';
 import { kanjiApi } from '../api/kanjiApi';
 import type { KanjiLesson, KanjiItem, KanjiVocabulary } from '../types/kanji.types';
 import { PremiumLock } from '../../../shared/components/PremiumLock';
+import { useUserAccess } from '../../../shared/hooks/useUserAccess';
 
 
 export const KanjiLessonPage = () => {
@@ -12,6 +13,7 @@ export const KanjiLessonPage = () => {
   const [kanjis, setKanjis] = useState<KanjiItem[]>([]);
   const [vocabularies, setVocabularies] = useState<KanjiVocabulary[]>([]);
   const [isLoading, setIsLoading] = useState(true);
+  const { isContentLocked } = useUserAccess();
 
   useEffect(() => {
     const fetchData = async () => {
@@ -48,7 +50,7 @@ export const KanjiLessonPage = () => {
 
   return (
     <div className="max-w-7xl mx-auto px-4 py-4 animate-fade-in space-y-6">
-      <PremiumLock isLocked={lesson.isLocked} packageCode={lesson.packageCode}>
+      <PremiumLock isLocked={isContentLocked(lesson)} packageCode={lesson.packageCode}>
         {/* Header Panel */}
         <div className="flex flex-col md:flex-row md:items-end justify-between border-b-2 border-black pb-4 gap-4">
           <div>

@@ -1,0 +1,125 @@
+{
+  "lesson": {
+    "id": "88888888-1123-0000-0000-000000000117",
+    "courseCode": "jpd123",
+    "lessonNumber": 17,
+    "title": "カンガルーの 名前",
+    "description": "Động vật - Câu chuyện thú vị về nguồn gốc tên gọi kangaroo.",
+    "accessTier": "premium",
+    "packageCode": "speaking_jpd123",
+    "isLocked": true,
+    "sentenceCount": 11
+  },
+  "sentences": [
+    {
+      "id": "88888888-1123-0000-0000-000000017001",
+      "lessonId": "88888888-1123-0000-0000-000000000117",
+      "sentenceNumber": 1,
+      "plainText": "このどうぶつの名前をしっていますか。",
+      "romaji": "kono doubutsuno namae wo shitteimasuka.",
+      "contentHtml": "この どうぶつの <ruby>名前<rt>なまえ</rt></ruby> を しっていますか。",
+      "meaningVi": "Bạn có biết tên của con vật này không?",
+      "orderIndex": 1
+    },
+    {
+      "id": "88888888-1123-0000-0000-000000017002",
+      "lessonId": "88888888-1123-0000-0000-000000000117",
+      "sentenceNumber": 2,
+      "plainText": "「カンガルー」です。",
+      "romaji": "\"kangaru-\"desu.",
+      "contentHtml": "「カンガルー」です。",
+      "meaningVi": "Đó là “kangaroo”.",
+      "orderIndex": 2
+    },
+    {
+      "id": "88888888-1123-0000-0000-000000017003",
+      "lessonId": "88888888-1123-0000-0000-000000000117",
+      "sentenceNumber": 3,
+      "plainText": "カンガルーの名前についておもしろい話があります。",
+      "romaji": "kangaru-no namae nitsuite omoshiroi hanashi ga arimasu.",
+      "contentHtml": "カンガルーの <ruby>名前<rt>なまえ</rt></ruby> について おもしろい <ruby>話<rt>はなし</rt></ruby> が あります。",
+      "meaningVi": "Có một câu chuyện thú vị về tên gọi của kangaroo.",
+      "orderIndex": 3
+    },
+    {
+      "id": "88888888-1123-0000-0000-000000017004",
+      "lessonId": "88888888-1123-0000-0000-000000000117",
+      "sentenceNumber": 4,
+      "plainText": "1770年にイギリスのキャプテン・クックはふねでオーストラリアへ行きました。",
+      "romaji": "sennanahyakunanajuunen ni igirisuno kyaputen kukku wa funede o-sutoraria e ikimashita.",
+      "contentHtml": "<ruby>1770年<rt>せんななひゃくななじゅうねん</rt></ruby> に イギリスの キャプテン・クックは ふねで オーストラリアへ <ruby>行<rt>い</rt></ruby>きました。",
+      "meaningVi": "Năm 1770, thuyền trưởng Cook người Anh đã đi tàu đến Australia.",
+      "orderIndex": 4
+    },
+    {
+      "id": "88888888-1123-0000-0000-000000017005",
+      "lessonId": "88888888-1123-0000-0000-000000000117",
+      "sentenceNumber": 5,
+      "plainText": "そして、はじめてこのどうぶつを見ました。",
+      "romaji": "soshite,hajimete kono doubutsu wo mimashita.",
+      "contentHtml": "そして、はじめて この どうぶつを <ruby>見<rt>み</rt></ruby>ました。",
+      "meaningVi": "Và lần đầu tiên ông ấy nhìn thấy con vật này.",
+      "orderIndex": 5
+    },
+    {
+      "id": "88888888-1123-0000-0000-000000017006",
+      "lessonId": "88888888-1123-0000-0000-000000000117",
+      "sentenceNumber": 6,
+      "plainText": "クックはオーストラリアの人にこのどうぶつの名前をしりたいと言いました。",
+      "romaji": "kukku wa o-sutorariano hito ni kono doubutsuno namae wo shiritaito iimashita.",
+      "contentHtml": "クックは オーストラリアの <ruby>人<rt>ひと</rt></ruby> に この どうぶつの <ruby>名前<rt>なまえ</rt></ruby> を しりたいと <ruby>言<rt>い</rt></ruby>いました。",
+      "meaningVi": "Cook đã nói với người Australia rằng ông muốn biết tên của con vật này.",
+      "orderIndex": 6
+    },
+    {
+      "id": "88888888-1123-0000-0000-000000017007",
+      "lessonId": "88888888-1123-0000-0000-000000000117",
+      "sentenceNumber": 7,
+      "plainText": "オーストラリアの人はオーストラリアのことばで「カンガルー」と言いました。",
+      "romaji": "o-sutorariano hito wa o-sutorariano kotobade\"kangaru-\"to iimashita.",
+      "contentHtml": "オーストラリアの <ruby>人<rt>ひと</rt></ruby> は オーストラリアの ことばで「カンガルー」と <ruby>言<rt>い</rt></ruby>いました。",
+      "meaningVi": "Người Australia đã nói “kangaroo” bằng ngôn ngữ của họ.",
+      "orderIndex": 7
+    },
+    {
+      "id": "88888888-1123-0000-0000-000000017008",
+      "lessonId": "88888888-1123-0000-0000-000000000117",
+      "sentenceNumber": 8,
+      "plainText": "ですから、クックはこのどうぶつの名前は「カンガルー」だとおもいました。",
+      "romaji": "desukara,kukku wa kono doubutsuno namae wa \"kangaru-\"dato omoimashita.",
+      "contentHtml": "ですから、クックは この どうぶつの <ruby>名前<rt>なまえ</rt></ruby> は 「カンガルー」だと おもいました。",
+      "meaningVi": "Vì vậy Cook đã nghĩ rằng tên con vật này là “kangaroo”.",
+      "orderIndex": 8
+    },
+    {
+      "id": "88888888-1123-0000-0000-000000017009",
+      "lessonId": "88888888-1123-0000-0000-000000000117",
+      "sentenceNumber": 9,
+      "plainText": "それからこのどうぶつの名前は「カンガルー」になりました。",
+      "romaji": "sorekara kono doubutsuno namae wa \"kangaru-\"ni narimashita.",
+      "contentHtml": "それから この どうぶつの <ruby>名前<rt>なまえ</rt></ruby> は 「カンガルー」に なりました。",
+      "meaningVi": "Từ đó tên của con vật này trở thành “kangaroo”.",
+      "orderIndex": 9
+    },
+    {
+      "id": "88888888-1123-0000-0000-000000017010",
+      "lessonId": "88888888-1123-0000-0000-000000000117",
+      "sentenceNumber": 10,
+      "plainText": "おもしろいですね。",
+      "romaji": "omoshiroidesu ne.",
+      "contentHtml": "おもしろいです ね。",
+      "meaningVi": "Thú vị nhỉ.",
+      "orderIndex": 10
+    },
+    {
+      "id": "88888888-1123-0000-0000-000000017011",
+      "lessonId": "88888888-1123-0000-0000-000000000117",
+      "sentenceNumber": 11,
+      "plainText": "ほんとうだとおもいますか。",
+      "romaji": "hontoudato omoimasuka.",
+      "contentHtml": "ほんとうだと おもいますか。",
+      "meaningVi": "Bạn có nghĩ là chuyện đó là thật không?",
+      "orderIndex": 11
+    }
+  ]
+}

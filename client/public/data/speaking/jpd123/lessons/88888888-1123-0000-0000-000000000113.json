@@ -1,0 +1,95 @@
+{
+  "lesson": {
+    "id": "88888888-1123-0000-0000-000000000113",
+    "courseCode": "jpd123",
+    "lessonNumber": 13,
+    "title": "ワットさんの しごと",
+    "description": "Ôn tập - Phiên bản ôn lại bài về thầy Watt với nhiều chữ kanji hơn.",
+    "accessTier": "premium",
+    "packageCode": "speaking_jpd123",
+    "isLocked": true,
+    "sentenceCount": 8
+  },
+  "sentences": [
+    {
+      "id": "88888888-1123-0000-0000-000000013001",
+      "lessonId": "88888888-1123-0000-0000-000000000113",
+      "sentenceNumber": 1,
+      "plainText": "ワットさんはさくら大学の英語の先生です。",
+      "romaji": "wattosan wa sakuradaigaku no eigo no sensei desu.",
+      "contentHtml": "ワットさんは <ruby>さくら大学<rt>さくらだいがく</rt></ruby> の <ruby>英語<rt>えいご</rt></ruby> の <ruby>先生<rt>せんせい</rt></ruby> です。",
+      "meaningVi": "Ông Watt là giáo viên tiếng Anh ở đại học Sakura.",
+      "orderIndex": 1
+    },
+    {
+      "id": "88888888-1123-0000-0000-000000013002",
+      "lessonId": "88888888-1123-0000-0000-000000000113",
+      "sentenceNumber": 2,
+      "plainText": "毎日あかいくるまで大学へ行きます。",
+      "romaji": "mainichi akai kurumade daigaku e ikimasu.",
+      "contentHtml": "<ruby>毎日<rt>まいにち</rt></ruby> あかい くるまで <ruby>大学<rt>だいがく</rt></ruby> へ <ruby>行<rt>い</rt></ruby>きます。",
+      "meaningVi": "Mỗi ngày ông ấy đi ô tô màu đỏ đến trường đại học.",
+      "orderIndex": 2
+    },
+    {
+      "id": "88888888-1123-0000-0000-000000013003",
+      "lessonId": "88888888-1123-0000-0000-000000000113",
+      "sentenceNumber": 3,
+      "plainText": "さくら大学は大きい大学ではありませんが、いい大学です。",
+      "romaji": "sakuradaigaku wa ookii daigaku de wa arimasenga,ii daigaku desu.",
+      "contentHtml": "さくら<ruby>大学<rt>だいがく</rt></ruby> は <ruby>大<rt>おお</rt></ruby>きい <ruby>大学<rt>だいがく</rt></ruby> では ありませんが、いい <ruby>大学<rt>だいがく</rt></ruby> です。",
+      "meaningVi": "Đại học Sakura không phải là một trường lớn, nhưng là một trường tốt.",
+      "orderIndex": 3
+    },
+    {
+      "id": "88888888-1123-0000-0000-000000013004",
+      "lessonId": "88888888-1123-0000-0000-000000000113",
+      "sentenceNumber": 4,
+      "plainText": "ワットさんはいつもしょくどうでひるごはんを食べます。",
+      "romaji": "wattosan wa itsumo shokudoude hirugohan wo tabemasu.",
+      "contentHtml": "ワットさんは いつも しょくどうで ひるごはんを <ruby>食<rt>た</rt></ruby>べます。",
+      "meaningVi": "Ông Watt lúc nào cũng ăn trưa ở nhà ăn.",
+      "orderIndex": 4
+    },
+    {
+      "id": "88888888-1123-0000-0000-000000013005",
+      "lessonId": "88888888-1123-0000-0000-000000000113",
+      "sentenceNumber": 5,
+      "plainText": "しょくどうは12時から1時までとてもにぎやかです。",
+      "romaji": "shokudou wa juuniji kara ichiji made totemo nigiyakadesu.",
+      "contentHtml": "しょくどうは <ruby>12時<rt>じゅうにじ</rt></ruby> から <ruby>1時<rt>いちじ</rt></ruby> まで とても にぎやかです。",
+      "meaningVi": "Nhà ăn rất nhộn nhịp từ 12 giờ đến 1 giờ.",
+      "orderIndex": 5
+    },
+    {
+      "id": "88888888-1123-0000-0000-000000013006",
+      "lessonId": "88888888-1123-0000-0000-000000000113",
+      "sentenceNumber": 6,
+      "plainText": "しょくどうの食べ物はおいしいです。",
+      "romaji": "shokudouno tabemono wa oishiidesu.",
+      "contentHtml": "しょくどうの <ruby>食<rt>た</rt></ruby>べ<ruby>物<rt>もの</rt></ruby> は おいしいです。",
+      "meaningVi": "Đồ ăn ở nhà ăn rất ngon.",
+      "orderIndex": 6
+    },
+    {
+      "id": "88888888-1123-0000-0000-000000013007",
+      "lessonId": "88888888-1123-0000-0000-000000000113",
+      "sentenceNumber": 7,
+      "plainText": "そして、安いです。",
+      "romaji": "soshite,yasuidesu.",
+      "contentHtml": "そして、<ruby>安<rt>やす</rt></ruby>いです。",
+      "meaningVi": "Và còn rẻ nữa.",
+      "orderIndex": 7
+    },
+    {
+      "id": "88888888-1123-0000-0000-000000013008",
+      "lessonId": "88888888-1123-0000-0000-000000000113",
+      "sentenceNumber": 8,
+      "plainText": "大学のしごとはいそがしいですが、たのしいです。",
+      "romaji": "daigaku no shigoto wa isogashiidesuga,tanoshiidesu.",
+      "contentHtml": "<ruby>大学<rt>だいがく</rt></ruby> の しごとは いそがしいですが、たのしいです。",
+      "meaningVi": "Công việc ở trường đại học bận rộn nhưng vui.",
+      "orderIndex": 8
+    }
+  ]
+}

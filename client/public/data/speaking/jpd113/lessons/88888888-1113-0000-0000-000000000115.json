@@ -1,0 +1,45 @@
+{
+  "lesson": {
+    "id": "88888888-1113-0000-0000-000000000115",
+    "courseCode": "jpd113",
+    "lessonNumber": 15,
+    "title": "おべんとうを かう",
+    "description": "Sinh hoạt - Mua cơm hộp và học tập tại trường đại học.",
+    "accessTier": "premium",
+    "packageCode": "speaking_jpd113",
+    "isLocked": true,
+    "sentenceCount": 3
+  },
+  "sentences": [
+    {
+      "id": "88888888-1113-0000-0000-000000015001",
+      "lessonId": "88888888-1113-0000-0000-000000000115",
+      "sentenceNumber": 1,
+      "plainText": "まいあさ、私は六時におきます。",
+      "romaji": "maiasa, watashi wa rokujini okimasu.",
+      "contentHtml": "<ruby>まいあさ<rt>まいあさ</rt></ruby>、 <ruby>私<rt>わたし</rt></ruby>は <ruby>六時<rt>ろくじ</rt></ruby>に <ruby>お<rt>お</rt></ruby>きます。",
+      "meaningVi": "Mỗi sáng tôi thức dậy lúc 6 giờ.",
+      "orderIndex": 1
+    },
+    {
+      "id": "88888888-1113-0000-0000-000000015002",
+      "lessonId": "88888888-1113-0000-0000-000000000115",
+      "sentenceNumber": 2,
+      "plainText": "コンビニでおべんとうやぎゅうにゅうなどをかいます。",
+      "romaji": "konbinide obentouya gyuunyuu nado wo kaimasu.",
+      "contentHtml": "コンビニで おべんとうや ぎゅうにゅう などを <ruby>か<rt>か</rt></ruby>います。",
+      "meaningVi": "Tôi mua cơm hộp, sữa ở cửa hàng tiện lợi.",
+      "orderIndex": 2
+    },
+    {
+      "id": "88888888-1113-0000-0000-000000015003",
+      "lessonId": "88888888-1113-0000-0000-000000000115",
+      "sentenceNumber": 3,
+      "plainText": "7時10分から12時までだい学でべんきょうします。",
+      "romaji": "shichijijuppunkara juunijimade daigakude benkyoushimasu.",
+      "contentHtml": "<ruby>7時10分<rt>しちじじゅっぷん</rt></ruby>から <ruby>12時<rt>じゅうにじ</rt></ruby>まで <ruby>だい学<rt>だいがく</rt></ruby>で <ruby>べんきょう<rt>べんきょう</rt></ruby>します。",
+      "meaningVi": "Tôi học ở trường từ 7 giờ 10 đến 12 giờ.",
+      "orderIndex": 3
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 import { useState, useRef, useEffect, useCallback } from 'react';
 import { Link, Navigate, useParams } from 'react-router-dom';
-import { ArrowLeft, ArrowRight, ArrowDown, BookOpenText, Keyboard, Play, Volume2, CheckCircle2, RefreshCw, X } from 'lucide-react';
+import { ArrowLeft, ArrowRight, ArrowDown, BookOpenText, Keyboard, Play, Volume2, RefreshCw, X } from 'lucide-react';
 import { getKanaRows } from '../data/kana';
 import { getTypingCategories } from '../data/typingData';
 import type { TypingCategory, TypingItem } from '../data/typingData';
@@ -238,7 +238,7 @@ export const IntroModePlaceholderPage = () => {
   const handleInputChange = (index: number, val: string) => {
     // Start timer on first keystroke
     if (!startedAt && val.trim()) {
-      setStartedAt(Date.now());
+      setStartedAt(new Date().getTime());
     }
     setQuizAnswers(prev => {
       const next = [...prev];
@@ -271,7 +271,7 @@ export const IntroModePlaceholderPage = () => {
       // Check if this was the last card to complete the quiz
       const remainingIncorrect = quizAnswers.filter((ans, idx) => idx !== index && !ans.isCorrect).length;
       if (remainingIncorrect === 0 && startedAt) {
-        const total = Date.now() - startedAt;
+        const total = new Date().getTime() - startedAt;
         setCompletedElapsedMs(total);
         setElapsedMs(total);
         setQuizEndTime(new Date().toLocaleTimeString('vi-VN'));

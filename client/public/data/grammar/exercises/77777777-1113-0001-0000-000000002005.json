@@ -1,0 +1,264 @@
+[
+  {
+    "id": "77777777-1113-0003-0000-000000214001",
+    "patternId": "77777777-1113-0001-0000-000000002005",
+    "exerciseType": "ja_to_vi",
+    "prompt": "これはどこのビールですか。",
+    "promptReading": "これはどこのビールですか。",
+    "expectedAnswer": "Đây là bia của nước nào?",
+    "hint": "～は どこの N ですか。",
+    "explanation": "どこの trả lời bằng tên quốc gia hoặc tên công ty.",
+    "orderIndex": 1
+  },
+  {
+    "id": "77777777-1113-0003-0000-000000224001",
+    "patternId": "77777777-1113-0001-0000-000000002005",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Đây là bia của nước nào?",
+    "expectedAnswer": "これはどこのビールですか。",
+    "acceptableAnswers": [
+      "これはどこのビールですか。"
+    ],
+    "hint": "N1 + は + どこの + N2 + ですか",
+    "explanation": "どこの trả lời bằng tên quốc gia hoặc tên công ty.",
+    "orderIndex": 2
+  },
+  {
+    "id": "77777777-1113-0003-0000-000000234001",
+    "patternId": "77777777-1113-0001-0000-000000002005",
+    "exerciseType": "arrange",
+    "prompt": "Đây là bia của nước nào?",
+    "expectedAnswer": "これはどこのビールですか",
+    "optionsJson": "[\"か\",\"の\",\"は\",\"どこ\",\"です\",\"これ\",\"ビール\"]",
+    "options": [
+      "か",
+      "の",
+      "は",
+      "どこ",
+      "です",
+      "これ",
+      "ビール"
+    ],
+    "correctOrderJson": "[\"これ\",\"は\",\"どこ\",\"の\",\"ビール\",\"です\",\"か\"]",
+    "correctOrder": [
+      "これ",
+      "は",
+      "どこ",
+      "の",
+      "ビール",
+      "です",
+      "か"
+    ],
+    "orderIndex": 3
+  },
+  {
+    "id": "77777777-1113-0003-0000-000000214002",
+    "patternId": "77777777-1113-0001-0000-000000002005",
+    "exerciseType": "ja_to_vi",
+    "prompt": "これはどこのカメラですか。",
+    "promptReading": "これはどこのカメラですか。",
+    "expectedAnswer": "Đây là máy ảnh của hãng nào (nước nào)?",
+    "hint": "～は どこの N ですか。",
+    "explanation": "どこの trả lời bằng tên quốc gia hoặc tên công ty.",
+    "orderIndex": 4
+  },
+  {
+    "id": "77777777-1113-0003-0000-000000224002",
+    "patternId": "77777777-1113-0001-0000-000000002005",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Đây là máy ảnh của hãng nào (nước nào)?",
+    "expectedAnswer": "これはどこのカメラですか。",
+    "acceptableAnswers": [
+      "これはどこのカメラですか。"
+    ],
+    "hint": "N1 + は + どこの + N2 + ですか",
+    "explanation": "どこの trả lời bằng tên quốc gia hoặc tên công ty.",
+    "orderIndex": 5
+  },
+  {
+    "id": "77777777-1113-0003-0000-000000234002",
+    "patternId": "77777777-1113-0001-0000-000000002005",
+    "exerciseType": "arrange",
+    "prompt": "Đây là máy ảnh của hãng nào (nước nào)?",
+    "expectedAnswer": "これはどこのカメラですか",
+    "optionsJson": "[\"か\",\"の\",\"は\",\"どこ\",\"です\",\"これ\",\"カメラ\"]",
+    "options": [
+      "か",
+      "の",
+      "は",
+      "どこ",
+      "です",
+      "これ",
+      "カメラ"
+    ],
+    "correctOrderJson": "[\"これ\",\"は\",\"どこ\",\"の\",\"カメラ\",\"です\",\"か\"]",
+    "correctOrder": [
+      "これ",
+      "は",
+      "どこ",
+      "の",
+      "カメラ",
+      "です",
+      "か"
+    ],
+    "orderIndex": 6
+  },
+  {
+    "id": "77777777-1113-0003-0000-000000214003",
+    "patternId": "77777777-1113-0001-0000-000000002005",
+    "exerciseType": "ja_to_vi",
+    "prompt": "それはどこの車ですか。",
+    "promptReading": "それはどこのくるまですか。",
+    "expectedAnswer": "Đó là xe ô tô của hãng nào?",
+    "hint": "～は どこの N ですか。",
+    "explanation": "どこの trả lời bằng tên quốc gia hoặc tên công ty.",
+    "orderIndex": 7
+  },
+  {
+    "id": "77777777-1113-0003-0000-000000224003",
+    "patternId": "77777777-1113-0001-0000-000000002005",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Đó là xe ô tô của hãng nào?",
+    "expectedAnswer": "それはどこの車ですか。",
+    "acceptableAnswers": [
+      "それはどこのくるまですか。"
+    ],
+    "hint": "N1 + は + どこの + N2 + ですか",
+    "explanation": "どこの trả lời bằng tên quốc gia hoặc tên công ty.",
+    "orderIndex": 8
+  },
+  {
+    "id": "77777777-1113-0003-0000-000000234003",
+    "patternId": "77777777-1113-0001-0000-000000002005",
+    "exerciseType": "arrange",
+    "prompt": "Đó là xe ô tô của hãng nào?",
+    "expectedAnswer": "それはどこの車 (くるま)ですか",
+    "optionsJson": "[\"か\",\"の\",\"は\",\"どこ\",\"です\",\"それ\",\"車 (くるま)\"]",
+    "options": [
+      "か",
+      "の",
+      "は",
+      "どこ",
+      "です",
+      "それ",
+      "車 (くるま)"
+    ],
+    "correctOrderJson": "[\"それ\",\"は\",\"どこ\",\"の\",\"車 (くるま)\",\"です\",\"か\"]",
+    "correctOrder": [
+      "それ",
+      "は",
+      "どこ",
+      "の",
+      "車 (くるま)",
+      "です",
+      "か"
+    ],
+    "orderIndex": 9
+  },
+  {
+    "id": "77777777-1113-0003-0000-000000214004",
+    "patternId": "77777777-1113-0001-0000-000000002005",
+    "exerciseType": "ja_to_vi",
+    "prompt": "これはどこのワインですか。",
+    "promptReading": "これはどこのワインですか。",
+    "expectedAnswer": "Đây là rượu vang của nước nào?",
+    "hint": "～は どこの N ですか。",
+    "explanation": "どこの trả lời bằng tên quốc gia hoặc tên công ty.",
+    "orderIndex": 10
+  },
+  {
+    "id": "77777777-1113-0003-0000-000000224004",
+    "patternId": "77777777-1113-0001-0000-000000002005",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Đây là rượu vang của nước nào?",
+    "expectedAnswer": "これはどこのワインですか。",
+    "acceptableAnswers": [
+      "これはどこのワインですか。"
+    ],
+    "hint": "N1 + は + どこの + N2 + ですか",
+    "explanation": "どこの trả lời bằng tên quốc gia hoặc tên công ty.",
+    "orderIndex": 11
+  },
+  {
+    "id": "77777777-1113-0003-0000-000000234004",
+    "patternId": "77777777-1113-0001-0000-000000002005",
+    "exerciseType": "arrange",
+    "prompt": "Đây là rượu vang của nước nào?",
+    "expectedAnswer": "これはどこのワインですか",
+    "optionsJson": "[\"か\",\"の\",\"は\",\"どこ\",\"です\",\"これ\",\"ワイン\"]",
+    "options": [
+      "か",
+      "の",
+      "は",
+      "どこ",
+      "です",
+      "これ",
+      "ワイン"
+    ],
+    "correctOrderJson": "[\"これ\",\"は\",\"どこ\",\"の\",\"ワイン\",\"です\",\"か\"]",
+    "correctOrder": [
+      "これ",
+      "は",
+      "どこ",
+      "の",
+      "ワイン",
+      "です",
+      "か"
+    ],
+    "orderIndex": 12
+  },
+  {
+    "id": "77777777-1113-0003-0000-000000214005",
+    "patternId": "77777777-1113-0001-0000-000000002005",
+    "exerciseType": "ja_to_vi",
+    "prompt": "このネクタイはどこのですか。",
+    "promptReading": "このねくたいはどこのですか。",
+    "expectedAnswer": "Cái cà vạt này là của hãng nào?",
+    "hint": "～は どこの N ですか。",
+    "explanation": "どこの trả lời bằng tên quốc gia hoặc tên công ty.",
+    "orderIndex": 13
+  },
+  {
+    "id": "77777777-1113-0003-0000-000000224005",
+    "patternId": "77777777-1113-0001-0000-000000002005",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Cái cà vạt này là của hãng nào?",
+    "expectedAnswer": "このネクタイはどこのですか。",
+    "acceptableAnswers": [
+      "このねくたいはどこのですか。"
+    ],
+    "hint": "N1 + は + どこの + N2 + ですか",
+    "explanation": "どこの trả lời bằng tên quốc gia hoặc tên công ty.",
+    "orderIndex": 14
+  },
+  {
+    "id": "77777777-1113-0003-0000-000000234005",
+    "patternId": "77777777-1113-0001-0000-000000002005",
+    "exerciseType": "arrange",
+    "prompt": "Cái cà vạt này là của hãng nào?",
+    "expectedAnswer": "このネクタイはどこのですか",
+    "optionsJson": "[\"か\",\"こ\",\"の\",\"の\",\"は\",\"どこ\",\"です\",\"ネクタイ\"]",
+    "options": [
+      "か",
+      "こ",
+      "の",
+      "の",
+      "は",
+      "どこ",
+      "です",
+      "ネクタイ"
+    ],
+    "correctOrderJson": "[\"こ\",\"の\",\"ネクタイ\",\"は\",\"どこ\",\"の\",\"です\",\"か\"]",
+    "correctOrder": [
+      "こ",
+      "の",
+      "ネクタイ",
+      "は",
+      "どこ",
+      "の",
+      "です",
+      "か"
+    ],
+    "orderIndex": 15
+  }
+]

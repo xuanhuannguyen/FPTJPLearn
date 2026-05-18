@@ -1,0 +1,65 @@
+{
+  "lesson": {
+    "id": "88888888-1113-0000-0000-000000000110",
+    "courseCode": "jpd113",
+    "lessonNumber": 10,
+    "title": "FPTだいがくの としょかん",
+    "description": "Học tập - Làm bài tập ở thư viện trường đại học FPT.",
+    "accessTier": "premium",
+    "packageCode": "speaking_jpd113",
+    "isLocked": true,
+    "sentenceCount": 5
+  },
+  "sentences": [
+    {
+      "id": "88888888-1113-0000-0000-000000010001",
+      "lessonId": "88888888-1113-0000-0000-000000000110",
+      "sentenceNumber": 1,
+      "plainText": "ここはFPTだい学のとしょかんです。",
+      "romaji": "koko wa FPTdaigakuno toshokandesu.",
+      "contentHtml": "ここは FPT<ruby>だい学<rt>だいがく</rt></ruby>の <ruby>としょかん<rt>としょかん</rt></ruby>です。",
+      "meaningVi": "Đây là thư viện của trường đại học FPT.",
+      "orderIndex": 1
+    },
+    {
+      "id": "88888888-1113-0000-0000-000000010002",
+      "lessonId": "88888888-1113-0000-0000-000000000110",
+      "sentenceNumber": 2,
+      "plainText": "１かいです。",
+      "romaji": "ikkaidesu.",
+      "contentHtml": "<ruby>１かい<rt>いっかい</rt></ruby>です。",
+      "meaningVi": "Ở tầng 1.",
+      "orderIndex": 2
+    },
+    {
+      "id": "88888888-1113-0000-0000-000000010003",
+      "lessonId": "88888888-1113-0000-0000-000000000110",
+      "sentenceNumber": 3,
+      "plainText": "まい日、ここでべんきょうします。",
+      "romaji": "mainichi,kokode benkyoushimasu.",
+      "contentHtml": "<ruby>まい日<rt>まいにち</rt></ruby>、ここで <ruby>べんきょう<rt>べんきょう</rt></ruby>します。",
+      "meaningVi": "Mỗi ngày tôi đều học ở đây.",
+      "orderIndex": 3
+    },
+    {
+      "id": "88888888-1113-0000-0000-000000010004",
+      "lessonId": "88888888-1113-0000-0000-000000000110",
+      "sentenceNumber": 4,
+      "plainText": "きょうひるまでともだちとしゅくだいをします。",
+      "romaji": "kyou hirumade tomodachito shukudai wo shimasu.",
+      "contentHtml": "<ruby>きょう<rt>きょう</rt></ruby> <ruby>ひる<rt>ひる</rt></ruby>まで <ruby>ともだち<rt>ともだち</rt></ruby>と <ruby>しゅくだい<rt>しゅくだい</rt></ruby>を します。",
+      "meaningVi": "Hôm nay tôi làm bài tập cùng bạn đến trưa.",
+      "orderIndex": 4
+    },
+    {
+      "id": "88888888-1113-0000-0000-000000010005",
+      "lessonId": "88888888-1113-0000-0000-000000000110",
+      "sentenceNumber": 5,
+      "plainText": "しゅくだいはむずかしいです。",
+      "romaji": "shukudai wa muzukashiidesu.",
+      "contentHtml": "<ruby>しゅくだい<rt>しゅくだい</rt></ruby>は <ruby>むずか<rt>むずか</rt></ruby>しいです。",
+      "meaningVi": "Bài tập khó.",
+      "orderIndex": 5
+    }
+  ]
+}

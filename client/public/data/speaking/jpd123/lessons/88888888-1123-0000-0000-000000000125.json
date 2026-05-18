@@ -1,0 +1,95 @@
+{
+  "lesson": {
+    "id": "88888888-1123-0000-0000-000000000125",
+    "courseCode": "jpd123",
+    "lessonNumber": 25,
+    "title": "東京へ 行った とき",
+    "description": "Du lịch - Một chuyến đi Tokyo với Akihabara, cửa hàng bách hóa và quán cà phê nổi tiếng.",
+    "accessTier": "premium",
+    "packageCode": "speaking_jpd123",
+    "isLocked": true,
+    "sentenceCount": 8
+  },
+  "sentences": [
+    {
+      "id": "88888888-1123-0000-0000-000000025001",
+      "lessonId": "88888888-1123-0000-0000-000000000125",
+      "sentenceNumber": 1,
+      "plainText": "きょねんの3月、東京へ行きました。",
+      "romaji": "kyonenno sangatsu,toukyou e ikimashita.",
+      "contentHtml": "きょねんの <ruby>3月<rt>さんがつ</rt></ruby>、<ruby>東京<rt>とうきょう</rt></ruby> へ <ruby>行<rt>い</rt></ruby>きました。",
+      "meaningVi": "Vào tháng 3 năm ngoái, tôi đã đi Tokyo.",
+      "orderIndex": 1
+    },
+    {
+      "id": "88888888-1123-0000-0000-000000025002",
+      "lessonId": "88888888-1123-0000-0000-000000000125",
+      "sentenceNumber": 2,
+      "plainText": "東京は大きいまちでした。",
+      "romaji": "toukyou wa ookii machideshita.",
+      "contentHtml": "<ruby>東京<rt>とうきょう</rt></ruby> は <ruby>大<rt>おお</rt></ruby>きい まちでした。",
+      "meaningVi": "Tokyo là một thành phố lớn.",
+      "orderIndex": 2
+    },
+    {
+      "id": "88888888-1123-0000-0000-000000025003",
+      "lessonId": "88888888-1123-0000-0000-000000000125",
+      "sentenceNumber": 3,
+      "plainText": "たかいビルやホテルがたくさんありました。",
+      "romaji": "takai biruya hoteruga takusan arimashita.",
+      "contentHtml": "たかい ビルや ホテルが たくさん ありました。",
+      "meaningVi": "Có rất nhiều tòa nhà cao tầng và khách sạn.",
+      "orderIndex": 3
+    },
+    {
+      "id": "88888888-1123-0000-0000-000000025004",
+      "lessonId": "88888888-1123-0000-0000-000000000125",
+      "sentenceNumber": 4,
+      "plainText": "そして、人がおおかったです。",
+      "romaji": "soshite,hito ga ookattadesu.",
+      "contentHtml": "そして、<ruby>人<rt>ひと</rt></ruby> が おおかったです。",
+      "meaningVi": "Hơn nữa còn có rất đông người.",
+      "orderIndex": 4
+    },
+    {
+      "id": "88888888-1123-0000-0000-000000025005",
+      "lessonId": "88888888-1123-0000-0000-000000000125",
+      "sentenceNumber": 5,
+      "plainText": "みどりはあまりなかったですが、まちはとてもきれいでした。",
+      "romaji": "midori wa amari nakattadesuga,machi wa totemo kireideshita.",
+      "contentHtml": "みどりは あまり なかったですが、まちは とても きれいでした。",
+      "meaningVi": "Cây xanh không nhiều lắm nhưng thành phố rất sạch đẹp.",
+      "orderIndex": 5
+    },
+    {
+      "id": "88888888-1123-0000-0000-000000025006",
+      "lessonId": "88888888-1123-0000-0000-000000000125",
+      "sentenceNumber": 6,
+      "plainText": "あきはばらのデパートで買い物しました。",
+      "romaji": "akihabarano depa-tode kaimono shimashita.",
+      "contentHtml": "あきはばらの デパートで <ruby>買い物<rt>かいもの</rt></ruby> しました。",
+      "meaningVi": "Tôi đã mua sắm ở cửa hàng bách hóa tại Akihabara.",
+      "orderIndex": 6
+    },
+    {
+      "id": "88888888-1123-0000-0000-000000025007",
+      "lessonId": "88888888-1123-0000-0000-000000000125",
+      "sentenceNumber": 7,
+      "plainText": "それから、にんきのカフェでごはんを食べました。",
+      "romaji": "sorekara,ninkino kafede gohan wo tabemashita.",
+      "contentHtml": "それから、にんきの カフェで ごはんを <ruby>食<rt>た</rt></ruby>べました。",
+      "meaningVi": "Sau đó tôi ăn ở một quán cà phê nổi tiếng.",
+      "orderIndex": 7
+    },
+    {
+      "id": "88888888-1123-0000-0000-000000025008",
+      "lessonId": "88888888-1123-0000-0000-000000000125",
+      "sentenceNumber": 8,
+      "plainText": "とてもおいしかったです。",
+      "romaji": "totemo oishikattadesu.",
+      "contentHtml": "とても おいしかったです。",
+      "meaningVi": "Món ăn rất ngon.",
+      "orderIndex": 8
+    }
+  ]
+}

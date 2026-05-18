@@ -12,6 +12,8 @@ import {
 } from '../../../shared/utils/kanaInput';
 import { staticVocabularyApi } from '../api/vocabularyApi';
 import type { StaticVocabularyLessonDetail, VocabularyPracticeCard } from '../types/vocabulary.types';
+import { PremiumLock } from '../../../shared/components/PremiumLock';
+import { useUserAccess } from '../../../shared/hooks/useUserAccess';
 
 type PracticeMode = 'flashcard' | 'multichoice' | 'typing';
 type PracticeDirection = 'jp_to_vi' | 'vi_to_jp';
@@ -47,6 +49,7 @@ export const VocabularyLessonPage = () => {
   const [answerState, setAnswerState] = useState<AnswerState>(null);
   const [correctCount, setCorrectCount] = useState(0);
   const [typingAnswers, setTypingAnswers] = useState<TypingAnswer[]>([]);
+  const { isContentLocked } = useUserAccess();
 
   useEffect(() => {
     const fetchLessonDetail = async () => {
@@ -330,6 +333,7 @@ export const VocabularyLessonPage = () => {
         </div>
       )}
 
+      <PremiumLock isLocked={isContentLocked(detail.lesson)} packageCode={detail.lesson.packageCode}>
       {practiceMode ? (
         <PracticeWorkspace
           mode={practiceMode}
@@ -425,6 +429,7 @@ export const VocabularyLessonPage = () => {
         </div>
       </div>
       )}
+      </PremiumLock>
     </div>
   );
 };
@@ -633,7 +638,6 @@ const TypingPracticeWorkspace = ({
   const [startedAt, setStartedAt] = useState<number | null>(null);
   const [elapsedMs, setElapsedMs] = useState(0);
   const [completedElapsedMs, setCompletedElapsedMs] = useState<number | null>(null);
-  const [resultTime, setResultTime] = useState(() => new Date());
   const [feedback, setFeedback] = useState<TypingFeedback | null>(null);
   const currentCard = cards[currentIndex];
   const value = currentCard && inputState.cardId === currentCard.itemId ? inputState.value : '';
@@ -713,15 +717,16 @@ const TypingPracticeWorkspace = ({
   }, [currentCard?.itemId]);
 
   useEffect(() => {
+    // eslint-disable-next-line react-hooks/set-state-in-effect
     setFeedback(null);
   }, [currentCard?.itemId]);
 
   useEffect(() => {
+    // eslint-disable-next-line react-hooks/set-state-in-effect
     setInputState({ cardId: '', value: '' });
     setStartedAt(null);
     setElapsedMs(0);
     setCompletedElapsedMs(null);
-    setResultTime(new Date());
     setFeedback(null);
   }, [cards]);
 
@@ -741,14 +746,7 @@ const TypingPracticeWorkspace = ({
   useEffect(() => {
     if (!isCompleted) return;
 
-    const updateResultTime = () => {
-      setResultTime(new Date());
-    };
-
-    updateResultTime();
-    const timer = window.setInterval(updateResultTime, 1000);
-
-    return () => window.clearInterval(timer);
+    return undefined;
   }, [isCompleted]);
 
   const handleInputChange = (rawValue: string) => {

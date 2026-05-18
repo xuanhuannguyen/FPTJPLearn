@@ -1,0 +1,230 @@
+[
+  {
+    "id": "77777777-1113-0003-0000-000000311001",
+    "patternId": "77777777-1113-0001-0000-000000003002",
+    "exerciseType": "ja_to_vi",
+    "prompt": "私は日曜日、図書館へ行きます。",
+    "promptReading": "わたしはにちようび、としょかんへいきます。",
+    "expectedAnswer": "Chủ nhật tôi đi đến thư viện.",
+    "hint": "N (Địa điểm) へ いきます/きます/かえります",
+    "explanation": "Trợ từ へ phát âm là 'e'.",
+    "orderIndex": 1
+  },
+  {
+    "id": "77777777-1113-0003-0000-000000321001",
+    "patternId": "77777777-1113-0001-0000-000000003002",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Chủ nhật tôi đi đến thư viện.",
+    "expectedAnswer": "私は日曜日、図書館へ行きます。",
+    "acceptableAnswers": [
+      "わたしはにちようび、としょかんへいきます。"
+    ],
+    "hint": "Danh từ địa điểm + へ + động từ di chuyển",
+    "explanation": "Trợ từ へ phát âm là 'e'.",
+    "orderIndex": 2
+  },
+  {
+    "id": "77777777-1113-0003-0000-000000331001",
+    "patternId": "77777777-1113-0001-0000-000000003002",
+    "exerciseType": "arrange",
+    "prompt": "Chủ nhật tôi đi đến thư viện.",
+    "expectedAnswer": "私 (わたし)は日曜日、図書館 (にちようび、としょかん)へ行きます (いきます)",
+    "optionsJson": "[\"は\",\"へ\",\"私 (わたし)\",\"行きます (いきます)\",\"日曜日、図書館 (にちようび、としょかん)\"]",
+    "options": [
+      "は",
+      "へ",
+      "私 (わたし)",
+      "行きます (いきます)",
+      "日曜日、図書館 (にちようび、としょかん)"
+    ],
+    "correctOrderJson": "[\"私 (わたし)\",\"は\",\"日曜日、図書館 (にちようび、としょかん)\",\"へ\",\"行きます (いきます)\"]",
+    "correctOrder": [
+      "私 (わたし)",
+      "は",
+      "日曜日、図書館 (にちようび、としょかん)",
+      "へ",
+      "行きます (いきます)"
+    ],
+    "orderIndex": 3
+  },
+  {
+    "id": "77777777-1113-0003-0000-000000311002",
+    "patternId": "77777777-1113-0001-0000-000000003002",
+    "exerciseType": "ja_to_vi",
+    "prompt": "明日、東京へ行きます。",
+    "promptReading": "あした、とうきょうへいきます。",
+    "expectedAnswer": "Ngày mai tôi sẽ đi Tokyo.",
+    "hint": "N (Địa điểm) へ いきます/きます/かえります",
+    "explanation": "Trợ từ へ phát âm là 'e'.",
+    "orderIndex": 4
+  },
+  {
+    "id": "77777777-1113-0003-0000-000000321002",
+    "patternId": "77777777-1113-0001-0000-000000003002",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Ngày mai tôi sẽ đi Tokyo.",
+    "expectedAnswer": "明日、東京へ行きます。",
+    "acceptableAnswers": [
+      "あした、とうきょうへいきます。"
+    ],
+    "hint": "Danh từ địa điểm + へ + động từ di chuyển",
+    "explanation": "Trợ từ へ phát âm là 'e'.",
+    "orderIndex": 5
+  },
+  {
+    "id": "77777777-1113-0003-0000-000000331002",
+    "patternId": "77777777-1113-0001-0000-000000003002",
+    "exerciseType": "arrange",
+    "prompt": "Ngày mai tôi sẽ đi Tokyo.",
+    "expectedAnswer": "明日、東京 (あした、とうきょう)へ行きます (いきます)",
+    "optionsJson": "[\"へ\",\"行きます (いきます)\",\"明日、東京 (あした、とうきょう)\"]",
+    "options": [
+      "へ",
+      "行きます (いきます)",
+      "明日、東京 (あした、とうきょう)"
+    ],
+    "correctOrderJson": "[\"明日、東京 (あした、とうきょう)\",\"へ\",\"行きます (いきます)\"]",
+    "correctOrder": [
+      "明日、東京 (あした、とうきょう)",
+      "へ",
+      "行きます (いきます)"
+    ],
+    "orderIndex": 6
+  },
+  {
+    "id": "77777777-1113-0003-0000-000000311003",
+    "patternId": "77777777-1113-0001-0000-000000003002",
+    "exerciseType": "ja_to_vi",
+    "prompt": "五時に家へ帰ります。",
+    "promptReading": "ごじにうちへかえります。",
+    "expectedAnswer": "Tôi về nhà lúc 5 giờ.",
+    "hint": "N (Địa điểm) へ いきます/きます/かえります",
+    "explanation": "Trợ từ へ phát âm là 'e'.",
+    "orderIndex": 7
+  },
+  {
+    "id": "77777777-1113-0003-0000-000000321003",
+    "patternId": "77777777-1113-0001-0000-000000003002",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Tôi về nhà lúc 5 giờ.",
+    "expectedAnswer": "五時に家へ帰ります。",
+    "acceptableAnswers": [
+      "ごじにうちへかえります。"
+    ],
+    "hint": "Danh từ địa điểm + へ + động từ di chuyển",
+    "explanation": "Trợ từ へ phát âm là 'e'.",
+    "orderIndex": 8
+  },
+  {
+    "id": "77777777-1113-0003-0000-000000331003",
+    "patternId": "77777777-1113-0001-0000-000000003002",
+    "exerciseType": "arrange",
+    "prompt": "Tôi về nhà lúc 5 giờ.",
+    "expectedAnswer": "五時 (ごじ)に家 (うち)へ帰ります (かえります)",
+    "optionsJson": "[\"に\",\"へ\",\"家 (うち)\",\"五時 (ごじ)\",\"帰ります (かえります)\"]",
+    "options": [
+      "に",
+      "へ",
+      "家 (うち)",
+      "五時 (ごじ)",
+      "帰ります (かえります)"
+    ],
+    "correctOrderJson": "[\"五時 (ごじ)\",\"に\",\"家 (うち)\",\"へ\",\"帰ります (かえります)\"]",
+    "correctOrder": [
+      "五時 (ごじ)",
+      "に",
+      "家 (うち)",
+      "へ",
+      "帰ります (かえります)"
+    ],
+    "orderIndex": 9
+  },
+  {
+    "id": "77777777-1113-0003-0000-000000311004",
+    "patternId": "77777777-1113-0001-0000-000000003002",
+    "exerciseType": "ja_to_vi",
+    "prompt": "来週、日本へ来ます。",
+    "promptReading": "らいしゅう、にほんへきます。",
+    "expectedAnswer": "Tuần sau tôi sẽ đến Nhật Bản.",
+    "hint": "N (Địa điểm) へ いきます/きます/かえります",
+    "explanation": "Trợ từ へ phát âm là 'e'.",
+    "orderIndex": 10
+  },
+  {
+    "id": "77777777-1113-0003-0000-000000321004",
+    "patternId": "77777777-1113-0001-0000-000000003002",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Tuần sau tôi sẽ đến Nhật Bản.",
+    "expectedAnswer": "来週、日本へ来ます。",
+    "acceptableAnswers": [
+      "らいしゅう、にほんへきます。"
+    ],
+    "hint": "Danh từ địa điểm + へ + động từ di chuyển",
+    "explanation": "Trợ từ へ phát âm là 'e'.",
+    "orderIndex": 11
+  },
+  {
+    "id": "77777777-1113-0003-0000-000000331004",
+    "patternId": "77777777-1113-0001-0000-000000003002",
+    "exerciseType": "arrange",
+    "prompt": "Tuần sau tôi sẽ đến Nhật Bản.",
+    "expectedAnswer": "来週、日本 (らいしゅう、にほん)へ来ます (きます)",
+    "optionsJson": "[\"へ\",\"来ます (きます)\",\"来週、日本 (らいしゅう、にほん)\"]",
+    "options": [
+      "へ",
+      "来ます (きます)",
+      "来週、日本 (らいしゅう、にほん)"
+    ],
+    "correctOrderJson": "[\"来週、日本 (らいしゅう、にほん)\",\"へ\",\"来ます (きます)\"]",
+    "correctOrder": [
+      "来週、日本 (らいしゅう、にほん)",
+      "へ",
+      "来ます (きます)"
+    ],
+    "orderIndex": 12
+  },
+  {
+    "id": "77777777-1113-0003-0000-000000311005",
+    "patternId": "77777777-1113-0001-0000-000000003002",
+    "exerciseType": "ja_to_vi",
+    "prompt": "スーパーへ行きます。",
+    "promptReading": "スーパーへいきます。",
+    "expectedAnswer": "Tôi đi siêu thị.",
+    "hint": "N (Địa điểm) へ いきます/きます/かえります",
+    "explanation": "Trợ từ へ phát âm là 'e'.",
+    "orderIndex": 13
+  },
+  {
+    "id": "77777777-1113-0003-0000-000000321005",
+    "patternId": "77777777-1113-0001-0000-000000003002",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Tôi đi siêu thị.",
+    "expectedAnswer": "スーパーへ行きます。",
+    "acceptableAnswers": [
+      "スーパーへいきます。"
+    ],
+    "hint": "Danh từ địa điểm + へ + động từ di chuyển",
+    "explanation": "Trợ từ へ phát âm là 'e'.",
+    "orderIndex": 14
+  },
+  {
+    "id": "77777777-1113-0003-0000-000000331005",
+    "patternId": "77777777-1113-0001-0000-000000003002",
+    "exerciseType": "arrange",
+    "prompt": "Tôi đi siêu thị.",
+    "expectedAnswer": "スーパーへ行きます (いきます)",
+    "optionsJson": "[\"へ\",\"スーパー\",\"行きます (いきます)\"]",
+    "options": [
+      "へ",
+      "スーパー",
+      "行きます (いきます)"
+    ],
+    "correctOrderJson": "[\"スーパー\",\"へ\",\"行きます (いきます)\"]",
+    "correctOrder": [
+      "スーパー",
+      "へ",
+      "行きます (いきます)"
+    ],
+    "orderIndex": 15
+  }
+]

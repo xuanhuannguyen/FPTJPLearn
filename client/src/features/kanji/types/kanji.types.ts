@@ -53,6 +53,7 @@ export interface KanjiVocabulary {
 
 export interface KanjiLevelStats {
   level: KanjiLevel;
+  courseCode?: string;
   totalLessons: number;
   totalKanji: number;
   totalVocabulary: number;

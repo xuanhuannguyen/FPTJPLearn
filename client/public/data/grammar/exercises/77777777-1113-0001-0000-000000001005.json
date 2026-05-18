@@ -1,0 +1,236 @@
+[
+  {
+    "id": "77777777-1113-0003-0000-000000114001",
+    "patternId": "77777777-1113-0001-0000-000000001005",
+    "exerciseType": "ja_to_vi",
+    "prompt": "さとさんは日本人じゃありません。",
+    "promptReading": "さとさんはにほんじんじゃありません。",
+    "expectedAnswer": "Bạn Sato không phải là người Nhật.",
+    "hint": "N1 は N2 じゃありません。",
+    "explanation": "じゃありません dùng trong văn nói, ではありません dùng trong văn viết hoặc trang trọng.",
+    "orderIndex": 1
+  },
+  {
+    "id": "77777777-1113-0003-0000-000000124001",
+    "patternId": "77777777-1113-0001-0000-000000001005",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Bạn Sato không phải là người Nhật.",
+    "expectedAnswer": "さとさんは日本人じゃありません。",
+    "acceptableAnswers": [
+      "さとさんはにほんじんじゃありません。"
+    ],
+    "hint": "N1 + は + N2 + じゃありません / ではありません",
+    "explanation": "じゃありません dùng trong văn nói, ではありません dùng trong văn viết hoặc trang trọng.",
+    "orderIndex": 2
+  },
+  {
+    "id": "77777777-1113-0003-0000-000000134001",
+    "patternId": "77777777-1113-0001-0000-000000001005",
+    "exerciseType": "arrange",
+    "prompt": "Bạn Sato không phải là người Nhật.",
+    "expectedAnswer": "さとさんは日本人 (にほんじん)じゃありません",
+    "optionsJson": "[\"さ\",\"と\",\"は\",\"さん\",\"じゃありません\",\"日本人 (にほんじん)\"]",
+    "options": [
+      "さ",
+      "と",
+      "は",
+      "さん",
+      "じゃありません",
+      "日本人 (にほんじん)"
+    ],
+    "correctOrderJson": "[\"さ\",\"と\",\"さん\",\"は\",\"日本人 (にほんじん)\",\"じゃありません\"]",
+    "correctOrder": [
+      "さ",
+      "と",
+      "さん",
+      "は",
+      "日本人 (にほんじん)",
+      "じゃありません"
+    ],
+    "orderIndex": 3
+  },
+  {
+    "id": "77777777-1113-0003-0000-000000114002",
+    "patternId": "77777777-1113-0001-0000-000000001005",
+    "exerciseType": "ja_to_vi",
+    "prompt": "私は学生じゃありません。",
+    "promptReading": "わたしはがくせいじゃありません。",
+    "expectedAnswer": "Tôi không phải là sinh viên.",
+    "hint": "N1 は N2 じゃありません。",
+    "explanation": "じゃありません dùng trong văn nói, ではありません dùng trong văn viết hoặc trang trọng.",
+    "orderIndex": 4
+  },
+  {
+    "id": "77777777-1113-0003-0000-000000124002",
+    "patternId": "77777777-1113-0001-0000-000000001005",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Tôi không phải là sinh viên.",
+    "expectedAnswer": "私は学生じゃありません。",
+    "acceptableAnswers": [
+      "わたしはがくせいじゃありません。"
+    ],
+    "hint": "N1 + は + N2 + じゃありません / ではありません",
+    "explanation": "じゃありません dùng trong văn nói, ではありません dùng trong văn viết hoặc trang trọng.",
+    "orderIndex": 5
+  },
+  {
+    "id": "77777777-1113-0003-0000-000000134002",
+    "patternId": "77777777-1113-0001-0000-000000001005",
+    "exerciseType": "arrange",
+    "prompt": "Tôi không phải là sinh viên.",
+    "expectedAnswer": "私 (わたし)は学生 (がくせい)じゃありません",
+    "optionsJson": "[\"は\",\"私 (わたし)\",\"じゃありません\",\"学生 (がくせい)\"]",
+    "options": [
+      "は",
+      "私 (わたし)",
+      "じゃありません",
+      "学生 (がくせい)"
+    ],
+    "correctOrderJson": "[\"私 (わたし)\",\"は\",\"学生 (がくせい)\",\"じゃありません\"]",
+    "correctOrder": [
+      "私 (わたし)",
+      "は",
+      "学生 (がくせい)",
+      "じゃありません"
+    ],
+    "orderIndex": 6
+  },
+  {
+    "id": "77777777-1113-0003-0000-000000114003",
+    "patternId": "77777777-1113-0001-0000-000000001005",
+    "exerciseType": "ja_to_vi",
+    "prompt": "ミラーさんはアメリカ人じゃありません。",
+    "promptReading": "ミラーさんはアメリカじんじゃありません。",
+    "expectedAnswer": "Anh Miller không phải là người Mỹ.",
+    "hint": "N1 は N2 じゃありません。",
+    "explanation": "じゃありません dùng trong văn nói, ではありません dùng trong văn viết hoặc trang trọng.",
+    "orderIndex": 7
+  },
+  {
+    "id": "77777777-1113-0003-0000-000000124003",
+    "patternId": "77777777-1113-0001-0000-000000001005",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Anh Miller không phải là người Mỹ.",
+    "expectedAnswer": "ミラーさんはアメリカ人じゃありません。",
+    "acceptableAnswers": [
+      "ミラーさんはアメリカじんじゃありません。"
+    ],
+    "hint": "N1 + は + N2 + じゃありません / ではありません",
+    "explanation": "じゃありません dùng trong văn nói, ではありません dùng trong văn viết hoặc trang trọng.",
+    "orderIndex": 8
+  },
+  {
+    "id": "77777777-1113-0003-0000-000000134003",
+    "patternId": "77777777-1113-0001-0000-000000001005",
+    "exerciseType": "arrange",
+    "prompt": "Anh Miller không phải là người Mỹ.",
+    "expectedAnswer": "ミラーさんはアメリカ人 (アメリカじん)じゃありません",
+    "optionsJson": "[\"は\",\"ミラーさん\",\"じゃありません\",\"アメリカ人 (アメリカじん)\"]",
+    "options": [
+      "は",
+      "ミラーさん",
+      "じゃありません",
+      "アメリカ人 (アメリカじん)"
+    ],
+    "correctOrderJson": "[\"ミラーさん\",\"は\",\"アメリカ人 (アメリカじん)\",\"じゃありません\"]",
+    "correctOrder": [
+      "ミラーさん",
+      "は",
+      "アメリカ人 (アメリカじん)",
+      "じゃありません"
+    ],
+    "orderIndex": 9
+  },
+  {
+    "id": "77777777-1113-0003-0000-000000114004",
+    "patternId": "77777777-1113-0001-0000-000000001005",
+    "exerciseType": "ja_to_vi",
+    "prompt": "ここは食堂じゃありません。",
+    "promptReading": "ここはしょくどうじゃありません。",
+    "expectedAnswer": "Ở đây không phải là nhà ăn.",
+    "hint": "N1 は N2 じゃありません。",
+    "explanation": "じゃありません dùng trong văn nói, ではありません dùng trong văn viết hoặc trang trọng.",
+    "orderIndex": 10
+  },
+  {
+    "id": "77777777-1113-0003-0000-000000124004",
+    "patternId": "77777777-1113-0001-0000-000000001005",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Ở đây không phải là nhà ăn.",
+    "expectedAnswer": "ここは食堂じゃありません。",
+    "acceptableAnswers": [
+      "ここはしょくどうじゃありません。"
+    ],
+    "hint": "N1 + は + N2 + じゃありません / ではありません",
+    "explanation": "じゃありません dùng trong văn nói, ではありません dùng trong văn viết hoặc trang trọng.",
+    "orderIndex": 11
+  },
+  {
+    "id": "77777777-1113-0003-0000-000000134004",
+    "patternId": "77777777-1113-0001-0000-000000001005",
+    "exerciseType": "arrange",
+    "prompt": "Ở đây không phải là nhà ăn.",
+    "expectedAnswer": "ここは食堂 (しょくどう)じゃありません",
+    "optionsJson": "[\"は\",\"ここ\",\"じゃありません\",\"食堂 (しょくどう)\"]",
+    "options": [
+      "は",
+      "ここ",
+      "じゃありません",
+      "食堂 (しょくどう)"
+    ],
+    "correctOrderJson": "[\"ここ\",\"は\",\"食堂 (しょくどう)\",\"じゃありません\"]",
+    "correctOrder": [
+      "ここ",
+      "は",
+      "食堂 (しょくどう)",
+      "じゃありません"
+    ],
+    "orderIndex": 12
+  },
+  {
+    "id": "77777777-1113-0003-0000-000000114005",
+    "patternId": "77777777-1113-0001-0000-000000001005",
+    "exerciseType": "ja_to_vi",
+    "prompt": "今日は日曜日じゃありません。",
+    "promptReading": "きょうはにちようびじゃありません。",
+    "expectedAnswer": "Hôm nay không phải là chủ nhật.",
+    "hint": "N1 は N2 じゃありません。",
+    "explanation": "じゃありません dùng trong văn nói, ではありません dùng trong văn viết hoặc trang trọng.",
+    "orderIndex": 13
+  },
+  {
+    "id": "77777777-1113-0003-0000-000000124005",
+    "patternId": "77777777-1113-0001-0000-000000001005",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Hôm nay không phải là chủ nhật.",
+    "expectedAnswer": "今日は日曜日じゃありません。",
+    "acceptableAnswers": [
+      "きょうはにちようびじゃありません。"
+    ],
+    "hint": "N1 + は + N2 + じゃありません / ではありません",
+    "explanation": "じゃありません dùng trong văn nói, ではありません dùng trong văn viết hoặc trang trọng.",
+    "orderIndex": 14
+  },
+  {
+    "id": "77777777-1113-0003-0000-000000134005",
+    "patternId": "77777777-1113-0001-0000-000000001005",
+    "exerciseType": "arrange",
+    "prompt": "Hôm nay không phải là chủ nhật.",
+    "expectedAnswer": "今日 (きょう)は日曜日 (にちようび)じゃありません",
+    "optionsJson": "[\"は\",\"今日 (きょう)\",\"じゃありません\",\"日曜日 (にちようび)\"]",
+    "options": [
+      "は",
+      "今日 (きょう)",
+      "じゃありません",
+      "日曜日 (にちようび)"
+    ],
+    "correctOrderJson": "[\"今日 (きょう)\",\"は\",\"日曜日 (にちようび)\",\"じゃありません\"]",
+    "correctOrder": [
+      "今日 (きょう)",
+      "は",
+      "日曜日 (にちようび)",
+      "じゃありません"
+    ],
+    "orderIndex": 15
+  }
+]

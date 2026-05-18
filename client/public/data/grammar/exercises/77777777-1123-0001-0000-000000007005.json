@@ -1,0 +1,250 @@
+[
+  {
+    "id": "77777777-1123-0003-0000-000000714001",
+    "patternId": "77777777-1123-0001-0000-000000007005",
+    "exerciseType": "ja_to_vi",
+    "prompt": "料理の作り方を教えてください。",
+    "promptReading": "りょうりのつくりかたをおしえてください。",
+    "expectedAnswer": "Xin hãy chỉ cho tôi cách nấu ăn.",
+    "hint": "Vます かた",
+    "explanation": "Biến động từ thành một danh từ.",
+    "orderIndex": 1
+  },
+  {
+    "id": "77777777-1123-0003-0000-000000724001",
+    "patternId": "77777777-1123-0001-0000-000000007005",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Xin hãy chỉ cho tôi cách nấu ăn.",
+    "expectedAnswer": "料理の作り方を教えてください。",
+    "acceptableAnswers": [
+      "りょうりのつくりかたをおしえてください。"
+    ],
+    "hint": "Động từ bỏ ます thêm かた",
+    "explanation": "Biến động từ thành một danh từ.",
+    "orderIndex": 2
+  },
+  {
+    "id": "77777777-1123-0003-0000-000000734001",
+    "patternId": "77777777-1123-0001-0000-000000007005",
+    "exerciseType": "arrange",
+    "prompt": "Xin hãy chỉ cho tôi cách nấu ăn.",
+    "expectedAnswer": "料理 (りょうり)の作り方 (つくりかた)を教えてください (おしえてください)",
+    "optionsJson": "[\"の\",\"を\",\"料理 (りょうり)\",\"作り方 (つくりかた)\",\"教えてください (おしえてください)\"]",
+    "options": [
+      "の",
+      "を",
+      "料理 (りょうり)",
+      "作り方 (つくりかた)",
+      "教えてください (おしえてください)"
+    ],
+    "correctOrderJson": "[\"料理 (りょうり)\",\"の\",\"作り方 (つくりかた)\",\"を\",\"教えてください (おしえてください)\"]",
+    "correctOrder": [
+      "料理 (りょうり)",
+      "の",
+      "作り方 (つくりかた)",
+      "を",
+      "教えてください (おしえてください)"
+    ],
+    "orderIndex": 3
+  },
+  {
+    "id": "77777777-1123-0003-0000-000000714002",
+    "patternId": "77777777-1123-0001-0000-000000007005",
+    "exerciseType": "ja_to_vi",
+    "prompt": "この漢字の読み方を教えてください。",
+    "promptReading": "このかんじのよみかたをおしえてください。",
+    "expectedAnswer": "Xin hãy chỉ cho tôi cách đọc chữ Kanji này.",
+    "hint": "Vます かた",
+    "explanation": "Biến động từ thành một danh từ.",
+    "orderIndex": 4
+  },
+  {
+    "id": "77777777-1123-0003-0000-000000724002",
+    "patternId": "77777777-1123-0001-0000-000000007005",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Xin hãy chỉ cho tôi cách đọc chữ Kanji này.",
+    "expectedAnswer": "この漢字の読み方を教えてください。",
+    "acceptableAnswers": [
+      "このかんじのよみかたをおしえてください。"
+    ],
+    "hint": "Động từ bỏ ます thêm かた",
+    "explanation": "Biến động từ thành một danh từ.",
+    "orderIndex": 5
+  },
+  {
+    "id": "77777777-1123-0003-0000-000000734002",
+    "patternId": "77777777-1123-0001-0000-000000007005",
+    "exerciseType": "arrange",
+    "prompt": "Xin hãy chỉ cho tôi cách đọc chữ Kanji này.",
+    "expectedAnswer": "この漢字 (かんじ)の読み方 (よみかた)を教えてください (おしえてください)",
+    "optionsJson": "[\"こ\",\"の\",\"の\",\"を\",\"漢字 (かんじ)\",\"読み方 (よみかた)\",\"教えてください (おしえてください)\"]",
+    "options": [
+      "こ",
+      "の",
+      "の",
+      "を",
+      "漢字 (かんじ)",
+      "読み方 (よみかた)",
+      "教えてください (おしえてください)"
+    ],
+    "correctOrderJson": "[\"こ\",\"の\",\"漢字 (かんじ)\",\"の\",\"読み方 (よみかた)\",\"を\",\"教えてください (おしえてください)\"]",
+    "correctOrder": [
+      "こ",
+      "の",
+      "漢字 (かんじ)",
+      "の",
+      "読み方 (よみかた)",
+      "を",
+      "教えてください (おしえてください)"
+    ],
+    "orderIndex": 6
+  },
+  {
+    "id": "77777777-1123-0003-0000-000000714003",
+    "patternId": "77777777-1123-0001-0000-000000007005",
+    "exerciseType": "ja_to_vi",
+    "prompt": "お箸の使い方を知っていますか。",
+    "promptReading": "おはしのつかいかたをしっていますか。",
+    "expectedAnswer": "Bạn có biết cách dùng đũa không?",
+    "hint": "Vます かた",
+    "explanation": "Biến động từ thành một danh từ.",
+    "orderIndex": 7
+  },
+  {
+    "id": "77777777-1123-0003-0000-000000724003",
+    "patternId": "77777777-1123-0001-0000-000000007005",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Bạn có biết cách dùng đũa không?",
+    "expectedAnswer": "お箸の使い方を知っていますか。",
+    "acceptableAnswers": [
+      "おはしのつかいかたをしっていますか。"
+    ],
+    "hint": "Động từ bỏ ます thêm かた",
+    "explanation": "Biến động từ thành một danh từ.",
+    "orderIndex": 8
+  },
+  {
+    "id": "77777777-1123-0003-0000-000000734003",
+    "patternId": "77777777-1123-0001-0000-000000007005",
+    "exerciseType": "arrange",
+    "prompt": "Bạn có biết cách dùng đũa không?",
+    "expectedAnswer": "お箸 (おはし)の使い方 (つかいかた)を知っていますか (しっていますか)",
+    "optionsJson": "[\"の\",\"を\",\"お箸 (おはし)\",\"使い方 (つかいかた)\",\"知っていますか (しっていますか)\"]",
+    "options": [
+      "の",
+      "を",
+      "お箸 (おはし)",
+      "使い方 (つかいかた)",
+      "知っていますか (しっていますか)"
+    ],
+    "correctOrderJson": "[\"お箸 (おはし)\",\"の\",\"使い方 (つかいかた)\",\"を\",\"知っていますか (しっていますか)\"]",
+    "correctOrder": [
+      "お箸 (おはし)",
+      "の",
+      "使い方 (つかいかた)",
+      "を",
+      "知っていますか (しっていますか)"
+    ],
+    "orderIndex": 9
+  },
+  {
+    "id": "77777777-1123-0003-0000-000000714004",
+    "patternId": "77777777-1123-0001-0000-000000007005",
+    "exerciseType": "ja_to_vi",
+    "prompt": "パソコンの使い方を習いました。",
+    "promptReading": "パソコンのつかいかたをならいました。",
+    "expectedAnswer": "Tôi đã học cách sử dụng máy tính.",
+    "hint": "Vます かた",
+    "explanation": "Biến động từ thành một danh từ.",
+    "orderIndex": 10
+  },
+  {
+    "id": "77777777-1123-0003-0000-000000724004",
+    "patternId": "77777777-1123-0001-0000-000000007005",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Tôi đã học cách sử dụng máy tính.",
+    "expectedAnswer": "パソコンの使い方を習いました。",
+    "acceptableAnswers": [
+      "パソコンのつかいかたをならいました。"
+    ],
+    "hint": "Động từ bỏ ます thêm かた",
+    "explanation": "Biến động từ thành một danh từ.",
+    "orderIndex": 11
+  },
+  {
+    "id": "77777777-1123-0003-0000-000000734004",
+    "patternId": "77777777-1123-0001-0000-000000007005",
+    "exerciseType": "arrange",
+    "prompt": "Tôi đã học cách sử dụng máy tính.",
+    "expectedAnswer": "パソコンの使い方 (つかいかた)を習いました (ならいました)",
+    "optionsJson": "[\"の\",\"を\",\"パソコン\",\"使い方 (つかいかた)\",\"習いました (ならいました)\"]",
+    "options": [
+      "の",
+      "を",
+      "パソコン",
+      "使い方 (つかいかた)",
+      "習いました (ならいました)"
+    ],
+    "correctOrderJson": "[\"パソコン\",\"の\",\"使い方 (つかいかた)\",\"を\",\"習いました (ならいました)\"]",
+    "correctOrder": [
+      "パソコン",
+      "の",
+      "使い方 (つかいかた)",
+      "を",
+      "習いました (ならいました)"
+    ],
+    "orderIndex": 12
+  },
+  {
+    "id": "77777777-1123-0003-0000-000000714005",
+    "patternId": "77777777-1123-0001-0000-000000007005",
+    "exerciseType": "ja_to_vi",
+    "prompt": "この言葉の意味を教えてください。",
+    "promptReading": "このことばのいみをおしえてください。",
+    "expectedAnswer": "Hãy chỉ cho tôi ý nghĩa của từ này.",
+    "hint": "Vます かた",
+    "explanation": "Biến động từ thành một danh từ.",
+    "orderIndex": 13
+  },
+  {
+    "id": "77777777-1123-0003-0000-000000724005",
+    "patternId": "77777777-1123-0001-0000-000000007005",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Hãy chỉ cho tôi ý nghĩa của từ này.",
+    "expectedAnswer": "この言葉の意味を教えてください。",
+    "acceptableAnswers": [
+      "このことばのいみをおしえてください。"
+    ],
+    "hint": "Động từ bỏ ます thêm かた",
+    "explanation": "Biến động từ thành một danh từ.",
+    "orderIndex": 14
+  },
+  {
+    "id": "77777777-1123-0003-0000-000000734005",
+    "patternId": "77777777-1123-0001-0000-000000007005",
+    "exerciseType": "arrange",
+    "prompt": "Hãy chỉ cho tôi ý nghĩa của từ này.",
+    "expectedAnswer": "この言葉 (ことば)の意味 (いみ)を教えてください (おしえてください)",
+    "optionsJson": "[\"こ\",\"の\",\"の\",\"を\",\"意味 (いみ)\",\"言葉 (ことば)\",\"教えてください (おしえてください)\"]",
+    "options": [
+      "こ",
+      "の",
+      "の",
+      "を",
+      "意味 (いみ)",
+      "言葉 (ことば)",
+      "教えてください (おしえてください)"
+    ],
+    "correctOrderJson": "[\"こ\",\"の\",\"言葉 (ことば)\",\"の\",\"意味 (いみ)\",\"を\",\"教えてください (おしえてください)\"]",
+    "correctOrder": [
+      "こ",
+      "の",
+      "言葉 (ことば)",
+      "の",
+      "意味 (いみ)",
+      "を",
+      "教えてください (おしえてください)"
+    ],
+    "orderIndex": 15
+  }
+]

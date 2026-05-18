@@ -1,0 +1,41 @@
+[
+  {
+    "id": "kanji-jpd113-n5-1",
+    "level": "N5",
+    "lessonNumber": 1,
+    "title": "Giới thiệu bản thân và Trường học",
+    "description": "Giới thiệu bản thân và Trường học - JPD113 Kanji N5.",
+    "accessTier": "free",
+    "packageCode": "kanji_jpd113",
+    "orderIndex": 1,
+    "kanjiCount": 10,
+    "vocabularyCount": 20,
+    "isLocked": false
+  },
+  {
+    "id": "kanji-jpd113-n5-2",
+    "level": "N5",
+    "lessonNumber": 2,
+    "title": "Số đếm và Đơn vị tiền tệ",
+    "description": "Số đếm và Đơn vị tiền tệ - JPD113 Kanji N5.",
+    "accessTier": "premium",
+    "packageCode": "kanji_jpd113",
+    "orderIndex": 2,
+    "kanjiCount": 14,
+    "vocabularyCount": 50,
+    "isLocked": true
+  },
+  {
+    "id": "kanji-jpd113-n5-3",
+    "level": "N5",
+    "lessonNumber": 3,
+    "title": "Thời gian và Ngày trong tuần",
+    "description": "Thời gian và Ngày trong tuần - JPD113 Kanji N5.",
+    "accessTier": "premium",
+    "packageCode": "kanji_jpd113",
+    "orderIndex": 3,
+    "kanjiCount": 11,
+    "vocabularyCount": 28,
+    "isLocked": true
+  }
+]

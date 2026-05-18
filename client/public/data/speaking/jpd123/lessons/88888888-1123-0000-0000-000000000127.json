@@ -1,0 +1,115 @@
+{
+  "lesson": {
+    "id": "88888888-1123-0000-0000-000000000127",
+    "courseCode": "jpd123",
+    "lessonNumber": 27,
+    "title": "学校の パーティー",
+    "description": "Sự kiện - Một bữa tiệc nhộn nhịp với nhiều món ăn quốc tế.",
+    "accessTier": "premium",
+    "packageCode": "speaking_jpd123",
+    "isLocked": true,
+    "sentenceCount": 10
+  },
+  "sentences": [
+    {
+      "id": "88888888-1123-0000-0000-000000027001",
+      "lessonId": "88888888-1123-0000-0000-000000000127",
+      "sentenceNumber": 1,
+      "plainText": "先週の日曜日、学校でパーティーがありました。",
+      "romaji": "senshuu no nichiyoubi,gakkou de pa-ti-ga arimashita.",
+      "contentHtml": "<ruby>先週<rt>せんしゅう</rt></ruby> の <ruby>日曜日<rt>にちようび</rt></ruby>、<ruby>学校<rt>がっこう</rt></ruby> で パーティーが ありました。",
+      "meaningVi": "Chủ nhật tuần trước, ở trường đã có một bữa tiệc.",
+      "orderIndex": 1
+    },
+    {
+      "id": "88888888-1123-0000-0000-000000027002",
+      "lessonId": "88888888-1123-0000-0000-000000000127",
+      "sentenceNumber": 2,
+      "plainText": "とてもにぎやかでした。",
+      "romaji": "totemo nigiyakadeshita.",
+      "contentHtml": "とても にぎやかでした。",
+      "meaningVi": "Không khí rất nhộn nhịp.",
+      "orderIndex": 2
+    },
+    {
+      "id": "88888888-1123-0000-0000-000000027003",
+      "lessonId": "88888888-1123-0000-0000-000000000127",
+      "sentenceNumber": 3,
+      "plainText": "人がおおかったです。",
+      "romaji": "hito ga ookattadesu.",
+      "contentHtml": "<ruby>人<rt>ひと</rt></ruby> が おおかったです。",
+      "meaningVi": "Có rất đông người.",
+      "orderIndex": 3
+    },
+    {
+      "id": "88888888-1123-0000-0000-000000027004",
+      "lessonId": "88888888-1123-0000-0000-000000000127",
+      "sentenceNumber": 4,
+      "plainText": "ちかくの大学の学生もあそびに来ました。",
+      "romaji": "chikakuno daigaku no gakusei mo asobini kimashita.",
+      "contentHtml": "ちかくの <ruby>大学<rt>だいがく</rt></ruby> の <ruby>学生<rt>がくせい</rt></ruby> も あそびに <ruby>来<rt>き</rt></ruby>ました。",
+      "meaningVi": "Sinh viên của trường đại học gần đó cũng đến chơi.",
+      "orderIndex": 4
+    },
+    {
+      "id": "88888888-1123-0000-0000-000000027005",
+      "lessonId": "88888888-1123-0000-0000-000000000127",
+      "sentenceNumber": 5,
+      "plainText": "いろいろな国のりょうりがありました。",
+      "romaji": "iroirona kuni no ryouriga arimashita.",
+      "contentHtml": "いろいろな <ruby>国<rt>くに</rt></ruby> の りょうりが ありました。",
+      "meaningVi": "Có các món ăn của nhiều quốc gia khác nhau.",
+      "orderIndex": 5
+    },
+    {
+      "id": "88888888-1123-0000-0000-000000027006",
+      "lessonId": "88888888-1123-0000-0000-000000000127",
+      "sentenceNumber": 6,
+      "plainText": "日本のラーメンやタイのトムヤムなどです。",
+      "romaji": "nihon no ra-menya taino tomuyamu nado desu.",
+      "contentHtml": "<ruby>日本<rt>にほん</rt></ruby> の ラーメンや タイの トムヤム など です。",
+      "meaningVi": "Ví dụ như ramen của Nhật và tom yum của Thái.",
+      "orderIndex": 6
+    },
+    {
+      "id": "88888888-1123-0000-0000-000000027007",
+      "lessonId": "88888888-1123-0000-0000-000000000127",
+      "sentenceNumber": 7,
+      "plainText": "わたしはおこのみやきを食べました。",
+      "romaji": "watashi wa okonomiyaki wo tabemashita.",
+      "contentHtml": "わたしは おこのみやきを <ruby>食<rt>た</rt></ruby>べました。",
+      "meaningVi": "Tôi đã ăn okonomiyaki.",
+      "orderIndex": 7
+    },
+    {
+      "id": "88888888-1123-0000-0000-000000027008",
+      "lessonId": "88888888-1123-0000-0000-000000000127",
+      "sentenceNumber": 8,
+      "plainText": "ジュースも飲みました。",
+      "romaji": "ju-sumo nomimashita.",
+      "contentHtml": "ジュースも <ruby>飲<rt>の</rt></ruby>みました。",
+      "meaningVi": "Tôi cũng đã uống nước trái cây.",
+      "orderIndex": 8
+    },
+    {
+      "id": "88888888-1123-0000-0000-000000027009",
+      "lessonId": "88888888-1123-0000-0000-000000000127",
+      "sentenceNumber": 9,
+      "plainText": "とてもおいしかったです。",
+      "romaji": "totemo oishikattadesu.",
+      "contentHtml": "とても おいしかったです。",
+      "meaningVi": "Rất ngon.",
+      "orderIndex": 9
+    },
+    {
+      "id": "88888888-1123-0000-0000-000000027010",
+      "lessonId": "88888888-1123-0000-0000-000000000127",
+      "sentenceNumber": 10,
+      "plainText": "たのしい一日でした。",
+      "romaji": "tanoshii ichinichi deshita.",
+      "contentHtml": "たのしい <ruby>一日<rt>いちにち</rt></ruby> でした。",
+      "meaningVi": "Đó là một ngày rất vui.",
+      "orderIndex": 10
+    }
+  ]
+}

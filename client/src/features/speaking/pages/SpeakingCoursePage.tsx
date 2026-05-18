@@ -3,6 +3,7 @@ import { Link, useNavigate, useParams } from 'react-router-dom';
 import { ArrowLeft, Loader2, Lock, Play, Volume2 } from 'lucide-react';
 import { speakingApi } from '../api/speakingApi';
 import type { SpeakingLesson } from '../types/speaking.types';
+import { useUserAccess } from '../../../shared/hooks/useUserAccess';
 
 export const SpeakingCoursePage = () => {
   const { courseCode } = useParams<{ courseCode: string }>();
@@ -10,6 +11,7 @@ export const SpeakingCoursePage = () => {
   const [lessons, setLessons] = useState<SpeakingLesson[]>([]);
   const [isLoading, setIsLoading] = useState(true);
   const [error, setError] = useState('');
+  const { isContentLocked } = useUserAccess();
 
   useEffect(() => {
     if (!courseCode) return;
@@ -69,12 +71,14 @@ export const SpeakingCoursePage = () => {
         </div>
       ) : (
         <div className="grid grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-3">
-          {lessons.map((lesson) => (
+          {lessons.map((lesson) => {
+            const isLocked = isContentLocked(lesson);
+            return (
             <Link
               key={lesson.id}
-              to={lesson.isLocked ? '/pricing' : `/speaking/${courseCode}/lessons/${lesson.id}`}
+              to={isLocked ? '/pricing' : `/speaking/${courseCode}/lessons/${lesson.id}`}
               className={`interactive-surface group relative flex min-h-[118px] cursor-pointer gap-4 overflow-hidden rounded-[18px] p-3.5 ${
-                lesson.isLocked ? 'grayscale-[0.35]' : ''
+                isLocked ? 'grayscale-[0.35]' : ''
               }`}
             >
               <div className="absolute left-0 top-0 h-full w-2 bg-[#8B3A22]" />
@@ -100,11 +104,11 @@ export const SpeakingCoursePage = () => {
                     ) : null}
 
                     <p className="mt-2 text-[11px] font-black uppercase tracking-[0.14em] text-[#8B3A22]">
-                      {lesson.isLocked ? 'Cần kích hoạt gói Premium' : `${lesson.sentenceCount} câu đọc`}
+                      {isLocked ? 'Cần kích hoạt gói Premium' : `${lesson.sentenceCount} câu đọc`}
                     </p>
                   </div>
 
-                  {lesson.isLocked ? (
+                  {isLocked ? (
                     <span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg border-2 border-border bg-bg-tertiary text-text-muted">
                       <Lock size={16} />
                     </span>
@@ -116,7 +120,8 @@ export const SpeakingCoursePage = () => {
                 </div>
               </div>
             </Link>
-          ))}
+            );
+          })}
         </div>
       )}
     </div>

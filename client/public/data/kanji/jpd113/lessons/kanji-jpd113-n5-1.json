@@ -1,0 +1,309 @@
+{
+  "lesson": {
+    "id": "kanji-jpd113-n5-1",
+    "level": "N5",
+    "lessonNumber": 1,
+    "title": "Giới thiệu bản thân và Trường học",
+    "description": "Giới thiệu bản thân và Trường học - JPD113 Kanji N5.",
+    "accessTier": "free",
+    "packageCode": "kanji_jpd113",
+    "orderIndex": 1,
+    "kanjiCount": 10,
+    "vocabularyCount": 20,
+    "isLocked": false
+  },
+  "kanjiItems": [
+    {
+      "id": "28bf8b0c-7514-5252-b44f-4cae34d664a9",
+      "lessonId": "kanji-jpd113-n5-1",
+      "level": "N5",
+      "character": "私",
+      "hanViet": "TƯ",
+      "meaning": "Tôi, riêng tư",
+      "strokeCount": 7,
+      "kunReading": "わたし、わたくし",
+      "onReading": "シ",
+      "mnemonic": "Giữ bó lúa (禾) cho riêng mình (厶) tạo thành chữ tôi (私).",
+      "orderIndex": 1
+    },
+    {
+      "id": "f8dcba6a-1d53-5a46-a209-39b9596b2a11",
+      "lessonId": "kanji-jpd113-n5-1",
+      "level": "N5",
+      "character": "日",
+      "hanViet": "NHẬT",
+      "meaning": "Mặt trời, ngày",
+      "strokeCount": 4,
+      "kunReading": "ひ、か",
+      "onReading": "ニチ、ジツ",
+      "mnemonic": "Hình vuông có tia sáng bên trong tượng trưng cho mặt trời (日).",
+      "orderIndex": 2
+    },
+    {
+      "id": "5653afa6-d7a0-5c1f-b172-e8808f8fb825",
+      "lessonId": "kanji-jpd113-n5-1",
+      "level": "N5",
+      "character": "本",
+      "hanViet": "BẢN",
+      "meaning": "Gốc, sách, căn bản",
+      "strokeCount": 5,
+      "kunReading": "もと",
+      "onReading": "ホン",
+      "mnemonic": "Nét ngang (一) chỉ vào gốc của cây (木) tạo thành chữ gốc, căn bản (本).",
+      "orderIndex": 3
+    },
+    {
+      "id": "beac45f0-e750-5dfd-8226-a870eb4cbd24",
+      "lessonId": "kanji-jpd113-n5-1",
+      "level": "N5",
+      "character": "大",
+      "hanViet": "ĐẠI",
+      "meaning": "To, lớn",
+      "strokeCount": 3,
+      "kunReading": "おおきい",
+      "onReading": "ダイ、タイ",
+      "mnemonic": "Người dang rộng tay chân thể hiện sự to lớn (大).",
+      "orderIndex": 4
+    },
+    {
+      "id": "8e5758ae-b26b-57b7-a0d9-bdd56ffc6104",
+      "lessonId": "kanji-jpd113-n5-1",
+      "level": "N5",
+      "character": "学",
+      "hanViet": "HỌC",
+      "meaning": "Học tập",
+      "strokeCount": 8,
+      "kunReading": "まなぶ",
+      "onReading": "ガク",
+      "mnemonic": "Đứa trẻ (子) ngồi học dưới mái che (冖) tạo thành học tập (学).",
+      "orderIndex": 5
+    },
+    {
+      "id": "64d836b9-4fd7-50ac-81f8-6da9defab802",
+      "lessonId": "kanji-jpd113-n5-1",
+      "level": "N5",
+      "character": "語",
+      "hanViet": "NGỮ",
+      "meaning": "Ngôn ngữ, tiếng nói",
+      "strokeCount": 14,
+      "kunReading": "かたる",
+      "onReading": "ゴ",
+      "mnemonic": "Dùng lời nói (言) của bản thân (吾) để tạo thành ngôn ngữ (語).",
+      "orderIndex": 6
+    },
+    {
+      "id": "e095aca4-eeea-553a-bf95-716527c4e6b0",
+      "lessonId": "kanji-jpd113-n5-1",
+      "level": "N5",
+      "character": "校",
+      "hanViet": "HIỆU",
+      "meaning": "Trường học",
+      "strokeCount": 10,
+      "kunReading": "",
+      "onReading": "コウ",
+      "mnemonic": "Nơi mọi người gặp gỡ (交) dưới sân trường có cây (木) tạo thành trường học (校).",
+      "orderIndex": 7
+    },
+    {
+      "id": "aabacd7a-7cf8-5318-a09f-7db6bd98ca00",
+      "lessonId": "kanji-jpd113-n5-1",
+      "level": "N5",
+      "character": "生",
+      "hanViet": "SINH",
+      "meaning": "Sinh sống, sinh ra",
+      "strokeCount": 5,
+      "kunReading": "いきる、うまれる、なま",
+      "onReading": "セイ、ショウ",
+      "mnemonic": "Mầm cây mọc lên từ đất tạo thành sự sống (生).",
+      "orderIndex": 8
+    },
+    {
+      "id": "22d23b80-2c89-5e0b-8b0d-0789864c4909",
+      "lessonId": "kanji-jpd113-n5-1",
+      "level": "N5",
+      "character": "人",
+      "hanViet": "NHÂN",
+      "meaning": "Người",
+      "strokeCount": 2,
+      "kunReading": "ひと",
+      "onReading": "ジン、ニン",
+      "mnemonic": "Hai nét giống dáng người đang bước đi tạo thành chữ người (人).",
+      "orderIndex": 9
+    },
+    {
+      "id": "b72ae3b6-8a3a-58a9-a43e-e73f8d0f3c3d",
+      "lessonId": "kanji-jpd113-n5-1",
+      "level": "N5",
+      "character": "才",
+      "hanViet": "TÀI",
+      "meaning": "Tuổi, tài năng",
+      "strokeCount": 3,
+      "kunReading": "",
+      "onReading": "サイ",
+      "mnemonic": "Mỗi năm thêm một dấu mốc trưởng thành tạo thành tuổi tác, tài năng (才).",
+      "orderIndex": 10
+    }
+  ],
+  "vocabularyItems": [
+    {
+      "id": "kanji-jpd113-n5-1-vocab-1",
+      "lessonId": "kanji-jpd113-n5-1",
+      "level": "N5",
+      "word": "私",
+      "reading": "わたし",
+      "meaning": "tôi"
+    },
+    {
+      "id": "kanji-jpd113-n5-1-vocab-2",
+      "lessonId": "kanji-jpd113-n5-1",
+      "level": "N5",
+      "word": "人",
+      "reading": "ひと",
+      "meaning": "Con người"
+    },
+    {
+      "id": "kanji-jpd113-n5-1-vocab-3",
+      "lessonId": "kanji-jpd113-n5-1",
+      "level": "N5",
+      "word": "あの人",
+      "reading": "あのひと",
+      "meaning": "Người kia"
+    },
+    {
+      "id": "kanji-jpd113-n5-1-vocab-4",
+      "lessonId": "kanji-jpd113-n5-1",
+      "level": "N5",
+      "word": "2才",
+      "reading": "にさい",
+      "meaning": "2 tuổi"
+    },
+    {
+      "id": "kanji-jpd113-n5-1-vocab-5",
+      "lessonId": "kanji-jpd113-n5-1",
+      "level": "N5",
+      "word": "8才",
+      "reading": "はっさい",
+      "meaning": "8 tuổi"
+    },
+    {
+      "id": "kanji-jpd113-n5-1-vocab-6",
+      "lessonId": "kanji-jpd113-n5-1",
+      "level": "N5",
+      "word": "何才",
+      "reading": "なんさい",
+      "meaning": "Mấy tuổi"
+    },
+    {
+      "id": "kanji-jpd113-n5-1-vocab-7",
+      "lessonId": "kanji-jpd113-n5-1",
+      "level": "N5",
+      "word": "大学",
+      "reading": "だいがく",
+      "meaning": "Đại học"
+    },
+    {
+      "id": "kanji-jpd113-n5-1-vocab-8",
+      "lessonId": "kanji-jpd113-n5-1",
+      "level": "N5",
+      "word": "学生",
+      "reading": "がくせい",
+      "meaning": "Học sinh"
+    },
+    {
+      "id": "kanji-jpd113-n5-1-vocab-9",
+      "lessonId": "kanji-jpd113-n5-1",
+      "level": "N5",
+      "word": "先生",
+      "reading": "せんせい",
+      "meaning": "Thầy/cô giáo"
+    },
+    {
+      "id": "kanji-jpd113-n5-1-vocab-10",
+      "lessonId": "kanji-jpd113-n5-1",
+      "level": "N5",
+      "word": "学校",
+      "reading": "がっこう",
+      "meaning": "Trường học"
+    },
+    {
+      "id": "kanji-jpd113-n5-1-vocab-11",
+      "lessonId": "kanji-jpd113-n5-1",
+      "level": "N5",
+      "word": "10日",
+      "reading": "とおか",
+      "meaning": "Mùng 10"
+    },
+    {
+      "id": "kanji-jpd113-n5-1-vocab-12",
+      "lessonId": "kanji-jpd113-n5-1",
+      "level": "N5",
+      "word": "日曜日",
+      "reading": "にちようび",
+      "meaning": "Chủ nhật"
+    },
+    {
+      "id": "kanji-jpd113-n5-1-vocab-13",
+      "lessonId": "kanji-jpd113-n5-1",
+      "level": "N5",
+      "word": "日",
+      "reading": "ひ",
+      "meaning": "Ngày"
+    },
+    {
+      "id": "kanji-jpd113-n5-1-vocab-14",
+      "lessonId": "kanji-jpd113-n5-1",
+      "level": "N5",
+      "word": "休日",
+      "reading": "きゅうじつ",
+      "meaning": "Ngày nghỉ"
+    },
+    {
+      "id": "kanji-jpd113-n5-1-vocab-15",
+      "lessonId": "kanji-jpd113-n5-1",
+      "level": "N5",
+      "word": "本",
+      "reading": "ほん",
+      "meaning": "sách"
+    },
+    {
+      "id": "kanji-jpd113-n5-1-vocab-16",
+      "lessonId": "kanji-jpd113-n5-1",
+      "level": "N5",
+      "word": "日本",
+      "reading": "にほん",
+      "meaning": "Nhật Bản"
+    },
+    {
+      "id": "kanji-jpd113-n5-1-vocab-17",
+      "lessonId": "kanji-jpd113-n5-1",
+      "level": "N5",
+      "word": "日本人",
+      "reading": "にほんじん",
+      "meaning": "Người Nhật Bản"
+    },
+    {
+      "id": "kanji-jpd113-n5-1-vocab-18",
+      "lessonId": "kanji-jpd113-n5-1",
+      "level": "N5",
+      "word": "日本語",
+      "reading": "にほんご",
+      "meaning": "Tiếng Nhật"
+    },
+    {
+      "id": "kanji-jpd113-n5-1-vocab-19",
+      "lessonId": "kanji-jpd113-n5-1",
+      "level": "N5",
+      "word": "ベトナム語",
+      "reading": "ベトナムご",
+      "meaning": "Tiếng Việt"
+    },
+    {
+      "id": "kanji-jpd113-n5-1-vocab-20",
+      "lessonId": "kanji-jpd113-n5-1",
+      "level": "N5",
+      "word": "～人",
+      "reading": "〜じん",
+      "meaning": "người (nước ~)"
+    }
+  ]
+}

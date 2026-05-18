@@ -1,0 +1,24 @@
+[
+  {
+    "level": "N5",
+    "courseCode": "jpd113",
+    "lessonCount": 3,
+    "patternCount": 21,
+    "freeCount": 8,
+    "premiumCount": 13,
+    "inStudyCount": 0,
+    "masteredCount": 0,
+    "dueCount": 0
+  },
+  {
+    "level": "N5",
+    "courseCode": "jpd123",
+    "lessonCount": 4,
+    "patternCount": 23,
+    "freeCount": 7,
+    "premiumCount": 16,
+    "inStudyCount": 0,
+    "masteredCount": 0,
+    "dueCount": 0
+  }
+]

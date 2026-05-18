@@ -1,0 +1,472 @@
+{
+  "lesson": {
+    "id": "kanji-jpd123-n5-6",
+    "level": "N5",
+    "lessonNumber": 6,
+    "title": "Giao tiếp và Sinh hoạt",
+    "description": "Giao tiếp và Sinh hoạt - JPD123 Kanji N5.",
+    "accessTier": "premium",
+    "packageCode": "kanji_jpd123",
+    "orderIndex": 6,
+    "kanjiCount": 9,
+    "vocabularyCount": 42,
+    "isLocked": true
+  },
+  "kanjiItems": [
+    {
+      "id": "f0bb2995-c00a-5312-bf0c-dad7fdc550e7",
+      "lessonId": "kanji-jpd123-n5-6",
+      "level": "N5",
+      "character": "今",
+      "hanViet": "KIM",
+      "meaning": "Bây giờ, hiện tại",
+      "strokeCount": 4,
+      "kunReading": "いま",
+      "onReading": "コン、キン",
+      "mnemonic": "Người (𠆢) vội vã chạy (ラ) về nhà ngay bây giờ (今).",
+      "orderIndex": 1
+    },
+    {
+      "id": "e2ddd4ff-b156-54da-b717-94b9ea0625bc",
+      "lessonId": "kanji-jpd123-n5-6",
+      "level": "N5",
+      "character": "来",
+      "hanViet": "LAI",
+      "meaning": "Đến",
+      "strokeCount": 7,
+      "kunReading": "く.る、き.たる",
+      "onReading": "ライ",
+      "mnemonic": "Mang theo hai (丷) hạt giống đến (来) gộp thành một (一) đống dưới gốc cây (木).",
+      "orderIndex": 2
+    },
+    {
+      "id": "ccd5f9fb-158b-58ea-9717-1806bf5c0d89",
+      "lessonId": "kanji-jpd123-n5-6",
+      "level": "N5",
+      "character": "帰",
+      "hanViet": "QUY",
+      "meaning": "Trở về",
+      "strokeCount": 10,
+      "kunReading": "かえ.る",
+      "onReading": "キ",
+      "mnemonic": "Cầm đao (刂) quét chổi (ヨ) dọn dẹp, sau đó trùm khăn (冖) che đồ lại để trở về (帰) nhà.",
+      "orderIndex": 3
+    },
+    {
+      "id": "354fb615-4b3c-5370-bd15-bcaa1c1b81bc",
+      "lessonId": "kanji-jpd123-n5-6",
+      "level": "N5",
+      "character": "会",
+      "hanViet": "HỘI",
+      "meaning": "Gặp gỡ, hội họp",
+      "strokeCount": 6,
+      "kunReading": "あ.う",
+      "onReading": "カイ、エ",
+      "mnemonic": "Hai (二) người (𠆢) lén lút gặp gỡ ở nơi riêng tư (厶) để bàn chuyện đại hội (会).",
+      "orderIndex": 4
+    },
+    {
+      "id": "dcacdd9c-da20-511a-a01c-3ab61322d652",
+      "lessonId": "kanji-jpd123-n5-6",
+      "level": "N5",
+      "character": "社",
+      "hanViet": "XÃ",
+      "meaning": "Xã hội, công ty, đền thờ",
+      "strokeCount": 7,
+      "kunReading": "やしろ",
+      "onReading": "シャ",
+      "mnemonic": "Lập bàn thờ thần (礻) trên bãi đất (土) rộng để cúng tế cho cả xã hội (社).",
+      "orderIndex": 5
+    },
+    {
+      "id": "825fb13d-2b5f-5a47-aefc-0fe1c0c3c290",
+      "lessonId": "kanji-jpd123-n5-6",
+      "level": "N5",
+      "character": "聞",
+      "hanViet": "VĂN",
+      "meaning": "Nghe, hỏi",
+      "strokeCount": 14,
+      "kunReading": "き.く、き.こえる",
+      "onReading": "ブン、モン",
+      "mnemonic": "Ghé sát tai (耳) vào cổng (門) để nghe ngóng và hỏi thăm tin tức.",
+      "orderIndex": 6
+    },
+    {
+      "id": "2d9ed815-cb0f-5465-9d86-9c9c69412804",
+      "lessonId": "kanji-jpd123-n5-6",
+      "level": "N5",
+      "character": "読",
+      "hanViet": "ĐỘC",
+      "meaning": "Đọc",
+      "strokeCount": 14,
+      "kunReading": "よ.む",
+      "onReading": "ドク、トク",
+      "mnemonic": "Dùng ngôn từ (言) để rao bán (売) cuốn sách mà mình đang đọc (読).",
+      "orderIndex": 7
+    },
+    {
+      "id": "af7bb69e-c0ff-5d82-b2fc-ace3112451cb",
+      "lessonId": "kanji-jpd123-n5-6",
+      "level": "N5",
+      "character": "書",
+      "hanViet": "THƯ",
+      "meaning": "Viết, sách",
+      "strokeCount": 10,
+      "kunReading": "か.く",
+      "onReading": "ショ",
+      "mnemonic": "Cầm cây bút (聿) mải mê viết sách (書) suốt cả một ngày (日) dài.",
+      "orderIndex": 8
+    },
+    {
+      "id": "823b9d3b-c02f-5bab-bba7-12f8c7751748",
+      "lessonId": "kanji-jpd123-n5-6",
+      "level": "N5",
+      "character": "話",
+      "hanViet": "THOẠI",
+      "meaning": "Trò chuyện, câu chuyện",
+      "strokeCount": 13,
+      "kunReading": "はな.す、はなし",
+      "onReading": "ワ",
+      "mnemonic": "Kết hợp ngôn từ (言) khéo léo và uốn cái lưỡi (舌) để trò chuyện (話) với mọi người.",
+      "orderIndex": 9
+    }
+  ],
+  "vocabularyItems": [
+    {
+      "id": "kanji-jpd123-n5-6-vocab-1",
+      "lessonId": "kanji-jpd123-n5-6",
+      "level": "N5",
+      "word": "今年",
+      "reading": "ことし",
+      "meaning": "năm nay"
+    },
+    {
+      "id": "kanji-jpd123-n5-6-vocab-2",
+      "lessonId": "kanji-jpd123-n5-6",
+      "level": "N5",
+      "word": "今日",
+      "reading": "きょう",
+      "meaning": "hôm nay"
+    },
+    {
+      "id": "kanji-jpd123-n5-6-vocab-3",
+      "lessonId": "kanji-jpd123-n5-6",
+      "level": "N5",
+      "word": "今月",
+      "reading": "こんげつ",
+      "meaning": "tháng này"
+    },
+    {
+      "id": "kanji-jpd123-n5-6-vocab-4",
+      "lessonId": "kanji-jpd123-n5-6",
+      "level": "N5",
+      "word": "今週",
+      "reading": "こんしゅう",
+      "meaning": "tuần này"
+    },
+    {
+      "id": "kanji-jpd123-n5-6-vocab-5",
+      "lessonId": "kanji-jpd123-n5-6",
+      "level": "N5",
+      "word": "来ます",
+      "reading": "きます",
+      "meaning": "đến"
+    },
+    {
+      "id": "kanji-jpd123-n5-6-vocab-6",
+      "lessonId": "kanji-jpd123-n5-6",
+      "level": "N5",
+      "word": "来週",
+      "reading": "らいしゅう",
+      "meaning": "tuần sau"
+    },
+    {
+      "id": "kanji-jpd123-n5-6-vocab-7",
+      "lessonId": "kanji-jpd123-n5-6",
+      "level": "N5",
+      "word": "来月",
+      "reading": "らいげつ",
+      "meaning": "tháng sau"
+    },
+    {
+      "id": "kanji-jpd123-n5-6-vocab-8",
+      "lessonId": "kanji-jpd123-n5-6",
+      "level": "N5",
+      "word": "来年",
+      "reading": "らいねん",
+      "meaning": "năm sau"
+    },
+    {
+      "id": "kanji-jpd123-n5-6-vocab-9",
+      "lessonId": "kanji-jpd123-n5-6",
+      "level": "N5",
+      "word": "来日",
+      "reading": "らいにち",
+      "meaning": "đến Nhật Bản"
+    },
+    {
+      "id": "kanji-jpd123-n5-6-vocab-10",
+      "lessonId": "kanji-jpd123-n5-6",
+      "level": "N5",
+      "word": "帰ります",
+      "reading": "かえります",
+      "meaning": "về"
+    },
+    {
+      "id": "kanji-jpd123-n5-6-vocab-11",
+      "lessonId": "kanji-jpd123-n5-6",
+      "level": "N5",
+      "word": "日帰り",
+      "reading": "ひがえり",
+      "meaning": "đi về trong ngày"
+    },
+    {
+      "id": "kanji-jpd123-n5-6-vocab-12",
+      "lessonId": "kanji-jpd123-n5-6",
+      "level": "N5",
+      "word": "帰国",
+      "reading": "きこく",
+      "meaning": "về nước"
+    },
+    {
+      "id": "kanji-jpd123-n5-6-vocab-13",
+      "lessonId": "kanji-jpd123-n5-6",
+      "level": "N5",
+      "word": "会います",
+      "reading": "あいます",
+      "meaning": "gặp"
+    },
+    {
+      "id": "kanji-jpd123-n5-6-vocab-14",
+      "lessonId": "kanji-jpd123-n5-6",
+      "level": "N5",
+      "word": "飲み会",
+      "reading": "のみかい",
+      "meaning": "nhậu"
+    },
+    {
+      "id": "kanji-jpd123-n5-6-vocab-15",
+      "lessonId": "kanji-jpd123-n5-6",
+      "level": "N5",
+      "word": "国会",
+      "reading": "こっかい",
+      "meaning": "quốc hội"
+    },
+    {
+      "id": "kanji-jpd123-n5-6-vocab-16",
+      "lessonId": "kanji-jpd123-n5-6",
+      "level": "N5",
+      "word": "会見",
+      "reading": "かいけん",
+      "meaning": "họp báo"
+    },
+    {
+      "id": "kanji-jpd123-n5-6-vocab-17",
+      "lessonId": "kanji-jpd123-n5-6",
+      "level": "N5",
+      "word": "会社",
+      "reading": "かいしゃ",
+      "meaning": "công ty"
+    },
+    {
+      "id": "kanji-jpd123-n5-6-vocab-18",
+      "lessonId": "kanji-jpd123-n5-6",
+      "level": "N5",
+      "word": "社会",
+      "reading": "しゃかい",
+      "meaning": "xã hội"
+    },
+    {
+      "id": "kanji-jpd123-n5-6-vocab-19",
+      "lessonId": "kanji-jpd123-n5-6",
+      "level": "N5",
+      "word": "聞きます",
+      "reading": "ききます",
+      "meaning": "nghe"
+    },
+    {
+      "id": "kanji-jpd123-n5-6-vocab-20",
+      "lessonId": "kanji-jpd123-n5-6",
+      "level": "N5",
+      "word": "新聞",
+      "reading": "しんぶん",
+      "meaning": "báo"
+    },
+    {
+      "id": "kanji-jpd123-n5-6-vocab-21",
+      "lessonId": "kanji-jpd123-n5-6",
+      "level": "N5",
+      "word": "読みます",
+      "reading": "よみます",
+      "meaning": "đọc"
+    },
+    {
+      "id": "kanji-jpd123-n5-6-vocab-22",
+      "lessonId": "kanji-jpd123-n5-6",
+      "level": "N5",
+      "word": "読み物",
+      "reading": "よみもの",
+      "meaning": "tài liệu đọc"
+    },
+    {
+      "id": "kanji-jpd123-n5-6-vocab-23",
+      "lessonId": "kanji-jpd123-n5-6",
+      "level": "N5",
+      "word": "書きます",
+      "reading": "かきます",
+      "meaning": "viết"
+    },
+    {
+      "id": "kanji-jpd123-n5-6-vocab-24",
+      "lessonId": "kanji-jpd123-n5-6",
+      "level": "N5",
+      "word": "読書",
+      "reading": "どくしょ",
+      "meaning": "đọc sách"
+    },
+    {
+      "id": "kanji-jpd123-n5-6-vocab-25",
+      "lessonId": "kanji-jpd123-n5-6",
+      "level": "N5",
+      "word": "話します",
+      "reading": "はなします",
+      "meaning": "nói chuyện"
+    },
+    {
+      "id": "kanji-jpd123-n5-6-vocab-26",
+      "lessonId": "kanji-jpd123-n5-6",
+      "level": "N5",
+      "word": "話",
+      "reading": "はなし",
+      "meaning": "câu chuyện"
+    },
+    {
+      "id": "kanji-jpd123-n5-6-vocab-27",
+      "lessonId": "kanji-jpd123-n5-6",
+      "level": "N5",
+      "word": "会話",
+      "reading": "かいわ",
+      "meaning": "hội thoại"
+    },
+    {
+      "id": "kanji-jpd123-n5-6-vocab-28",
+      "lessonId": "kanji-jpd123-n5-6",
+      "level": "N5",
+      "word": "電話",
+      "reading": "でんわ",
+      "meaning": "điện thoại"
+    },
+    {
+      "id": "kanji-jpd123-n5-6-vocab-29",
+      "lessonId": "kanji-jpd123-n5-6",
+      "level": "N5",
+      "word": "今",
+      "reading": "いま",
+      "meaning": "bây giờ"
+    },
+    {
+      "id": "kanji-jpd123-n5-6-vocab-30",
+      "lessonId": "kanji-jpd123-n5-6",
+      "level": "N5",
+      "word": "辞書",
+      "reading": "じしょ",
+      "meaning": "từ điển"
+    },
+    {
+      "id": "kanji-jpd123-n5-6-vocab-31",
+      "lessonId": "kanji-jpd123-n5-6",
+      "level": "N5",
+      "word": "書き物",
+      "reading": "かきもの",
+      "meaning": "tài liệu viết"
+    },
+    {
+      "id": "kanji-jpd123-n5-6-vocab-32",
+      "lessonId": "kanji-jpd123-n5-6",
+      "level": "N5",
+      "word": "お寺",
+      "reading": "おてら",
+      "meaning": "chùa"
+    },
+    {
+      "id": "kanji-jpd123-n5-6-vocab-33",
+      "lessonId": "kanji-jpd123-n5-6",
+      "level": "N5",
+      "word": "言います",
+      "reading": "いいます",
+      "meaning": "nói"
+    },
+    {
+      "id": "kanji-jpd123-n5-6-vocab-34",
+      "lessonId": "kanji-jpd123-n5-6",
+      "level": "N5",
+      "word": "言語",
+      "reading": "げんご",
+      "meaning": "ngôn ngữ"
+    },
+    {
+      "id": "kanji-jpd123-n5-6-vocab-35",
+      "lessonId": "kanji-jpd123-n5-6",
+      "level": "N5",
+      "word": "言葉",
+      "reading": "ことば",
+      "meaning": "từ vựng"
+    },
+    {
+      "id": "kanji-jpd123-n5-6-vocab-36",
+      "lessonId": "kanji-jpd123-n5-6",
+      "level": "N5",
+      "word": "貝",
+      "reading": "かい",
+      "meaning": "con sò"
+    },
+    {
+      "id": "kanji-jpd123-n5-6-vocab-37",
+      "lessonId": "kanji-jpd123-n5-6",
+      "level": "N5",
+      "word": "田んぼ",
+      "reading": "たんぼ",
+      "meaning": "cánh đồng"
+    },
+    {
+      "id": "kanji-jpd123-n5-6-vocab-38",
+      "lessonId": "kanji-jpd123-n5-6",
+      "level": "N5",
+      "word": "水田",
+      "reading": "すいでん",
+      "meaning": "cánh đồng lúa nước"
+    },
+    {
+      "id": "kanji-jpd123-n5-6-vocab-39",
+      "lessonId": "kanji-jpd123-n5-6",
+      "level": "N5",
+      "word": "力",
+      "reading": "ちから",
+      "meaning": "sức lực"
+    },
+    {
+      "id": "kanji-jpd123-n5-6-vocab-40",
+      "lessonId": "kanji-jpd123-n5-6",
+      "level": "N5",
+      "word": "水力",
+      "reading": "すいりょく",
+      "meaning": "sức nước"
+    },
+    {
+      "id": "kanji-jpd123-n5-6-vocab-41",
+      "lessonId": "kanji-jpd123-n5-6",
+      "level": "N5",
+      "word": "火力",
+      "reading": "かりょく",
+      "meaning": "công suất nhiệt, hỏa lực"
+    },
+    {
+      "id": "kanji-jpd123-n5-6-vocab-42",
+      "lessonId": "kanji-jpd123-n5-6",
+      "level": "N5",
+      "word": "門",
+      "reading": "もん",
+      "meaning": "cổng, cửa"
+    }
+  ]
+}

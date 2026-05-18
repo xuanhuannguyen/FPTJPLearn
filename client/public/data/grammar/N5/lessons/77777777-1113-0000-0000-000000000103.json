@@ -1,0 +1,2042 @@
+{
+  "lesson": {
+    "id": "77777777-1113-0000-0000-000000000103",
+    "level": "N5",
+    "courseCode": "jpd113",
+    "lessonNumber": 3,
+    "title": "Hành động, Thời gian và Địa điểm",
+    "description": "Học về động từ thể ます, các trợ từ chỉ hành động, thời gian, địa điểm và cách liệt kê.",
+    "patternCount": 7,
+    "accessTier": "premium",
+    "isLocked": true,
+    "inStudyCount": 0,
+    "masteredCount": 0,
+    "dueCount": 0
+  },
+  "patterns": [
+    {
+      "id": "77777777-1113-0001-0000-000000003001",
+      "lessonId": "77777777-1113-0000-0000-000000000103",
+      "level": "N5",
+      "courseCode": "jpd113",
+      "pattern": "Vます / Vません",
+      "title": "Thể khẳng định và phủ định của động từ",
+      "meaning": "Làm V / Không làm V",
+      "structure": "V ます / V ません",
+      "accessTier": "premium",
+      "isLocked": true,
+      "isInStudy": false,
+      "progress": null,
+      "usageScope": "Diễn tả hành động trong tương lai hoặc thói quen hiện tại.",
+      "formation": "Động từ chia thể ます hoặc ません",
+      "notes": "Dùng để nói về bản thân hoặc hỏi người khác lịch sự.",
+      "examples": [
+        {
+          "id": "77777777-1113-0002-0000-000000300001",
+          "japanese": "毎日、朝ごはんを食べます。",
+          "reading": "まいにち、あさごはんをたべます。",
+          "meaning": "Mỗi ngày tôi đều ăn sáng.",
+          "orderIndex": 1
+        },
+        {
+          "id": "77777777-1113-0002-0000-000000300002",
+          "japanese": "日曜日は働きません。",
+          "reading": "にちようびははたらきません。",
+          "meaning": "Chủ nhật tôi không làm việc.",
+          "orderIndex": 2
+        },
+        {
+          "id": "77777777-1113-0002-0000-000000300003",
+          "japanese": "明日は学校へ行きます。",
+          "reading": "あしたはがっこうへいきます。",
+          "meaning": "Ngày mai tôi sẽ đến trường.",
+          "orderIndex": 3
+        },
+        {
+          "id": "77777777-1113-0002-0000-000000300004",
+          "japanese": "お酒を飲みません。",
+          "reading": "おさけをのみません。",
+          "meaning": "Tôi không uống rượu.",
+          "orderIndex": 4
+        },
+        {
+          "id": "77777777-1113-0002-0000-000000300005",
+          "japanese": "毎晩、日本語を勉強します。",
+          "reading": "まいばん、にほんごをべんきょうします。",
+          "meaning": "Mỗi tối tôi đều học tiếng Nhật.",
+          "orderIndex": 5
+        }
+      ],
+      "exercises": [
+        {
+          "id": "77777777-1113-0003-0000-000000310001",
+          "patternId": "77777777-1113-0001-0000-000000003001",
+          "exerciseType": "ja_to_vi",
+          "prompt": "毎日、朝ごはんを食べます。",
+          "promptReading": "まいにち、あさごはんをたべます。",
+          "expectedAnswer": "Mỗi ngày tôi đều ăn sáng.",
+          "hint": "Vます / Vません",
+          "explanation": "Dùng để nói về bản thân hoặc hỏi người khác lịch sự.",
+          "orderIndex": 1
+        },
+        {
+          "id": "77777777-1113-0003-0000-000000320001",
+          "patternId": "77777777-1113-0001-0000-000000003001",
+          "exerciseType": "vi_to_ja",
+          "prompt": "Mỗi ngày tôi đều ăn sáng.",
+          "expectedAnswer": "毎日、朝ごはんを食べます。",
+          "acceptableAnswers": [
+            "まいにち、あさごはんをたべます。"
+          ],
+          "hint": "Động từ chia thể ます hoặc ません",
+          "explanation": "Dùng để nói về bản thân hoặc hỏi người khác lịch sự.",
+          "orderIndex": 2
+        },
+        {
+          "id": "77777777-1113-0003-0000-000000330001",
+          "patternId": "77777777-1113-0001-0000-000000003001",
+          "exerciseType": "arrange",
+          "prompt": "Mỗi ngày tôi đều ăn sáng.",
+          "expectedAnswer": "毎日、朝ご (まいにち、あさご)はんを食べます (たべます)",
+          "optionsJson": "[\"は\",\"を\",\"ん\",\"食べます (たべます)\",\"毎日、朝ご (まいにち、あさご)\"]",
+          "options": [
+            "は",
+            "を",
+            "ん",
+            "食べます (たべます)",
+            "毎日、朝ご (まいにち、あさご)"
+          ],
+          "correctOrderJson": "[\"毎日、朝ご (まいにち、あさご)\",\"は\",\"ん\",\"を\",\"食べます (たべます)\"]",
+          "correctOrder": [
+            "毎日、朝ご (まいにち、あさご)",
+            "は",
+            "ん",
+            "を",
+            "食べます (たべます)"
+          ],
+          "orderIndex": 3
+        },
+        {
+          "id": "77777777-1113-0003-0000-000000310002",
+          "patternId": "77777777-1113-0001-0000-000000003001",
+          "exerciseType": "ja_to_vi",
+          "prompt": "日曜日は働きません。",
+          "promptReading": "にちようびははたらきません。",
+          "expectedAnswer": "Chủ nhật tôi không làm việc.",
+          "hint": "Vます / Vません",
+          "explanation": "Dùng để nói về bản thân hoặc hỏi người khác lịch sự.",
+          "orderIndex": 4
+        },
+        {
+          "id": "77777777-1113-0003-0000-000000320002",
+          "patternId": "77777777-1113-0001-0000-000000003001",
+          "exerciseType": "vi_to_ja",
+          "prompt": "Chủ nhật tôi không làm việc.",
+          "expectedAnswer": "日曜日は働きません。",
+          "acceptableAnswers": [
+            "にちようびははたらきません。"
+          ],
+          "hint": "Động từ chia thể ます hoặc ません",
+          "explanation": "Dùng để nói về bản thân hoặc hỏi người khác lịch sự.",
+          "orderIndex": 5
+        },
+        {
+          "id": "77777777-1113-0003-0000-000000330002",
+          "patternId": "77777777-1113-0001-0000-000000003001",
+          "exerciseType": "arrange",
+          "prompt": "Chủ nhật tôi không làm việc.",
+          "expectedAnswer": "日曜日 (にちようび)は働きません (はたらきません)",
+          "optionsJson": "[\"は\",\"日曜日 (にちようび)\",\"働きません (はたらきません)\"]",
+          "options": [
+            "は",
+            "日曜日 (にちようび)",
+            "働きません (はたらきません)"
+          ],
+          "correctOrderJson": "[\"日曜日 (にちようび)\",\"は\",\"働きません (はたらきません)\"]",
+          "correctOrder": [
+            "日曜日 (にちようび)",
+            "は",
+            "働きません (はたらきません)"
+          ],
+          "orderIndex": 6
+        },
+        {
+          "id": "77777777-1113-0003-0000-000000310003",
+          "patternId": "77777777-1113-0001-0000-000000003001",
+          "exerciseType": "ja_to_vi",
+          "prompt": "明日は学校へ行きます。",
+          "promptReading": "あしたはがっこうへいきます。",
+          "expectedAnswer": "Ngày mai tôi sẽ đến trường.",
+          "hint": "Vます / Vません",
+          "explanation": "Dùng để nói về bản thân hoặc hỏi người khác lịch sự.",
+          "orderIndex": 7
+        },
+        {
+          "id": "77777777-1113-0003-0000-000000320003",
+          "patternId": "77777777-1113-0001-0000-000000003001",
+          "exerciseType": "vi_to_ja",
+          "prompt": "Ngày mai tôi sẽ đến trường.",
+          "expectedAnswer": "明日は学校へ行きます。",
+          "acceptableAnswers": [
+            "あしたはがっこうへいきます。"
+          ],
+          "hint": "Động từ chia thể ます hoặc ません",
+          "explanation": "Dùng để nói về bản thân hoặc hỏi người khác lịch sự.",
+          "orderIndex": 8
+        },
+        {
+          "id": "77777777-1113-0003-0000-000000330003",
+          "patternId": "77777777-1113-0001-0000-000000003001",
+          "exerciseType": "arrange",
+          "prompt": "Ngày mai tôi sẽ đến trường.",
+          "expectedAnswer": "明日 (あした)は学校 (がっこう)へ行きます (いきます)",
+          "optionsJson": "[\"は\",\"へ\",\"明日 (あした)\",\"学校 (がっこう)\",\"行きます (いきます)\"]",
+          "options": [
+            "は",
+            "へ",
+            "明日 (あした)",
+            "学校 (がっこう)",
+            "行きます (いきます)"
+          ],
+          "correctOrderJson": "[\"明日 (あした)\",\"は\",\"学校 (がっこう)\",\"へ\",\"行きます (いきます)\"]",
+          "correctOrder": [
+            "明日 (あした)",
+            "は",
+            "学校 (がっこう)",
+            "へ",
+            "行きます (いきます)"
+          ],
+          "orderIndex": 9
+        },
+        {
+          "id": "77777777-1113-0003-0000-000000310004",
+          "patternId": "77777777-1113-0001-0000-000000003001",
+          "exerciseType": "ja_to_vi",
+          "prompt": "お酒を飲みません。",
+          "promptReading": "おさけをのみません。",
+          "expectedAnswer": "Tôi không uống rượu.",
+          "hint": "Vます / Vません",
+          "explanation": "Dùng để nói về bản thân hoặc hỏi người khác lịch sự.",
+          "orderIndex": 10
+        },
+        {
+          "id": "77777777-1113-0003-0000-000000320004",
+          "patternId": "77777777-1113-0001-0000-000000003001",
+          "exerciseType": "vi_to_ja",
+          "prompt": "Tôi không uống rượu.",
+          "expectedAnswer": "お酒を飲みません。",
+          "acceptableAnswers": [
+            "おさけをのみません。"
+          ],
+          "hint": "Động từ chia thể ます hoặc ません",
+          "explanation": "Dùng để nói về bản thân hoặc hỏi người khác lịch sự.",
+          "orderIndex": 11
+        },
+        {
+          "id": "77777777-1113-0003-0000-000000330004",
+          "patternId": "77777777-1113-0001-0000-000000003001",
+          "exerciseType": "arrange",
+          "prompt": "Tôi không uống rượu.",
+          "expectedAnswer": "お酒 (おさけ)を飲みません (のみません)",
+          "optionsJson": "[\"を\",\"お酒 (おさけ)\",\"飲みません (のみません)\"]",
+          "options": [
+            "を",
+            "お酒 (おさけ)",
+            "飲みません (のみません)"
+          ],
+          "correctOrderJson": "[\"お酒 (おさけ)\",\"を\",\"飲みません (のみません)\"]",
+          "correctOrder": [
+            "お酒 (おさけ)",
+            "を",
+            "飲みません (のみません)"
+          ],
+          "orderIndex": 12
+        },
+        {
+          "id": "77777777-1113-0003-0000-000000310005",
+          "patternId": "77777777-1113-0001-0000-000000003001",
+          "exerciseType": "ja_to_vi",
+          "prompt": "毎晩、日本語を勉強します。",
+          "promptReading": "まいばん、にほんごをべんきょうします。",
+          "expectedAnswer": "Mỗi tối tôi đều học tiếng Nhật.",
+          "hint": "Vます / Vません",
+          "explanation": "Dùng để nói về bản thân hoặc hỏi người khác lịch sự.",
+          "orderIndex": 13
+        },
+        {
+          "id": "77777777-1113-0003-0000-000000320005",
+          "patternId": "77777777-1113-0001-0000-000000003001",
+          "exerciseType": "vi_to_ja",
+          "prompt": "Mỗi tối tôi đều học tiếng Nhật.",
+          "expectedAnswer": "毎晩、日本語を勉強します。",
+          "acceptableAnswers": [
+            "まいばん、にほんごをべんきょうします。"
+          ],
+          "hint": "Động từ chia thể ます hoặc ません",
+          "explanation": "Dùng để nói về bản thân hoặc hỏi người khác lịch sự.",
+          "orderIndex": 14
+        },
+        {
+          "id": "77777777-1113-0003-0000-000000330005",
+          "patternId": "77777777-1113-0001-0000-000000003001",
+          "exerciseType": "arrange",
+          "prompt": "Mỗi tối tôi đều học tiếng Nhật.",
+          "expectedAnswer": "毎晩、日本語 (まいばん、にほんご)を勉強します (べんきょうします)",
+          "optionsJson": "[\"を\",\"勉強します (べんきょうします)\",\"毎晩、日本語 (まいばん、にほんご)\"]",
+          "options": [
+            "を",
+            "勉強します (べんきょうします)",
+            "毎晩、日本語 (まいばん、にほんご)"
+          ],
+          "correctOrderJson": "[\"毎晩、日本語 (まいばん、にほんご)\",\"を\",\"勉強します (べんきょうします)\"]",
+          "correctOrder": [
+            "毎晩、日本語 (まいばん、にほんご)",
+            "を",
+            "勉強します (べんきょうします)"
+          ],
+          "orderIndex": 15
+        }
+      ]
+    },
+    {
+      "id": "77777777-1113-0001-0000-000000003002",
+      "lessonId": "77777777-1113-0000-0000-000000000103",
+      "level": "N5",
+      "courseCode": "jpd113",
+      "pattern": "N (Địa điểm) へ いきます/きます/かえります",
+      "title": "Di chuyển tới một địa điểm",
+      "meaning": "Đi / Đến / Về địa điểm N",
+      "structure": "N へ 行きます/来ます/帰ります",
+      "accessTier": "premium",
+      "isLocked": true,
+      "isInStudy": false,
+      "progress": null,
+      "usageScope": "Diễn tả hướng di chuyển của chủ ngữ.",
+      "formation": "Danh từ địa điểm + へ + động từ di chuyển",
+      "notes": "Trợ từ へ phát âm là 'e'.",
+      "examples": [
+        {
+          "id": "77777777-1113-0002-0000-000000301001",
+          "japanese": "私は日曜日、図書館へ行きます。",
+          "reading": "わたしはにちようび、としょかんへいきます。",
+          "meaning": "Chủ nhật tôi đi đến thư viện.",
+          "orderIndex": 1
+        },
+        {
+          "id": "77777777-1113-0002-0000-000000301002",
+          "japanese": "明日、東京へ行きます。",
+          "reading": "あした、とうきょうへいきます。",
+          "meaning": "Ngày mai tôi sẽ đi Tokyo.",
+          "orderIndex": 2
+        },
+        {
+          "id": "77777777-1113-0002-0000-000000301003",
+          "japanese": "五時に家へ帰ります。",
+          "reading": "ごじにうちへかえります。",
+          "meaning": "Tôi về nhà lúc 5 giờ.",
+          "orderIndex": 3
+        },
+        {
+          "id": "77777777-1113-0002-0000-000000301004",
+          "japanese": "来週、日本へ来ます。",
+          "reading": "らいしゅう、にほんへきます。",
+          "meaning": "Tuần sau tôi sẽ đến Nhật Bản.",
+          "orderIndex": 4
+        },
+        {
+          "id": "77777777-1113-0002-0000-000000301005",
+          "japanese": "スーパーへ行きます。",
+          "reading": "スーパーへいきます。",
+          "meaning": "Tôi đi siêu thị.",
+          "orderIndex": 5
+        }
+      ],
+      "exercises": [
+        {
+          "id": "77777777-1113-0003-0000-000000311001",
+          "patternId": "77777777-1113-0001-0000-000000003002",
+          "exerciseType": "ja_to_vi",
+          "prompt": "私は日曜日、図書館へ行きます。",
+          "promptReading": "わたしはにちようび、としょかんへいきます。",
+          "expectedAnswer": "Chủ nhật tôi đi đến thư viện.",
+          "hint": "N (Địa điểm) へ いきます/きます/かえります",
+          "explanation": "Trợ từ へ phát âm là 'e'.",
+          "orderIndex": 1
+        },
+        {
+          "id": "77777777-1113-0003-0000-000000321001",
+          "patternId": "77777777-1113-0001-0000-000000003002",
+          "exerciseType": "vi_to_ja",
+          "prompt": "Chủ nhật tôi đi đến thư viện.",
+          "expectedAnswer": "私は日曜日、図書館へ行きます。",
+          "acceptableAnswers": [
+            "わたしはにちようび、としょかんへいきます。"
+          ],
+          "hint": "Danh từ địa điểm + へ + động từ di chuyển",
+          "explanation": "Trợ từ へ phát âm là 'e'.",
+          "orderIndex": 2
+        },
+        {
+          "id": "77777777-1113-0003-0000-000000331001",
+          "patternId": "77777777-1113-0001-0000-000000003002",
+          "exerciseType": "arrange",
+          "prompt": "Chủ nhật tôi đi đến thư viện.",
+          "expectedAnswer": "私 (わたし)は日曜日、図書館 (にちようび、としょかん)へ行きます (いきます)",
+          "optionsJson": "[\"は\",\"へ\",\"私 (わたし)\",\"行きます (いきます)\",\"日曜日、図書館 (にちようび、としょかん)\"]",
+          "options": [
+            "は",
+            "へ",
+            "私 (わたし)",
+            "行きます (いきます)",
+            "日曜日、図書館 (にちようび、としょかん)"
+          ],
+          "correctOrderJson": "[\"私 (わたし)\",\"は\",\"日曜日、図書館 (にちようび、としょかん)\",\"へ\",\"行きます (いきます)\"]",
+          "correctOrder": [
+            "私 (わたし)",
+            "は",
+            "日曜日、図書館 (にちようび、としょかん)",
+            "へ",
+            "行きます (いきます)"
+          ],
+          "orderIndex": 3
+        },
+        {
+          "id": "77777777-1113-0003-0000-000000311002",
+          "patternId": "77777777-1113-0001-0000-000000003002",
+          "exerciseType": "ja_to_vi",
+          "prompt": "明日、東京へ行きます。",
+          "promptReading": "あした、とうきょうへいきます。",
+          "expectedAnswer": "Ngày mai tôi sẽ đi Tokyo.",
+          "hint": "N (Địa điểm) へ いきます/きます/かえります",
+          "explanation": "Trợ từ へ phát âm là 'e'.",
+          "orderIndex": 4
+        },
+        {
+          "id": "77777777-1113-0003-0000-000000321002",
+          "patternId": "77777777-1113-0001-0000-000000003002",
+          "exerciseType": "vi_to_ja",
+          "prompt": "Ngày mai tôi sẽ đi Tokyo.",
+          "expectedAnswer": "明日、東京へ行きます。",
+          "acceptableAnswers": [
+            "あした、とうきょうへいきます。"
+          ],
+          "hint": "Danh từ địa điểm + へ + động từ di chuyển",
+          "explanation": "Trợ từ へ phát âm là 'e'.",
+          "orderIndex": 5
+        },
+        {
+          "id": "77777777-1113-0003-0000-000000331002",
+          "patternId": "77777777-1113-0001-0000-000000003002",
+          "exerciseType": "arrange",
+          "prompt": "Ngày mai tôi sẽ đi Tokyo.",
+          "expectedAnswer": "明日、東京 (あした、とうきょう)へ行きます (いきます)",
+          "optionsJson": "[\"へ\",\"行きます (いきます)\",\"明日、東京 (あした、とうきょう)\"]",
+          "options": [
+            "へ",
+            "行きます (いきます)",
+            "明日、東京 (あした、とうきょう)"
+          ],
+          "correctOrderJson": "[\"明日、東京 (あした、とうきょう)\",\"へ\",\"行きます (いきます)\"]",
+          "correctOrder": [
+            "明日、東京 (あした、とうきょう)",
+            "へ",
+            "行きます (いきます)"
+          ],
+          "orderIndex": 6
+        },
+        {
+          "id": "77777777-1113-0003-0000-000000311003",
+          "patternId": "77777777-1113-0001-0000-000000003002",
+          "exerciseType": "ja_to_vi",
+          "prompt": "五時に家へ帰ります。",
+          "promptReading": "ごじにうちへかえります。",
+          "expectedAnswer": "Tôi về nhà lúc 5 giờ.",
+          "hint": "N (Địa điểm) へ いきます/きます/かえります",
+          "explanation": "Trợ từ へ phát âm là 'e'.",
+          "orderIndex": 7
+        },
+        {
+          "id": "77777777-1113-0003-0000-000000321003",
+          "patternId": "77777777-1113-0001-0000-000000003002",
+          "exerciseType": "vi_to_ja",
+          "prompt": "Tôi về nhà lúc 5 giờ.",
+          "expectedAnswer": "五時に家へ帰ります。",
+          "acceptableAnswers": [
+            "ごじにうちへかえります。"
+          ],
+          "hint": "Danh từ địa điểm + へ + động từ di chuyển",
+          "explanation": "Trợ từ へ phát âm là 'e'.",
+          "orderIndex": 8
+        },
+        {
+          "id": "77777777-1113-0003-0000-000000331003",
+          "patternId": "77777777-1113-0001-0000-000000003002",
+          "exerciseType": "arrange",
+          "prompt": "Tôi về nhà lúc 5 giờ.",
+          "expectedAnswer": "五時 (ごじ)に家 (うち)へ帰ります (かえります)",
+          "optionsJson": "[\"に\",\"へ\",\"家 (うち)\",\"五時 (ごじ)\",\"帰ります (かえります)\"]",
+          "options": [
+            "に",
+            "へ",
+            "家 (うち)",
+            "五時 (ごじ)",
+            "帰ります (かえります)"
+          ],
+          "correctOrderJson": "[\"五時 (ごじ)\",\"に\",\"家 (うち)\",\"へ\",\"帰ります (かえります)\"]",
+          "correctOrder": [
+            "五時 (ごじ)",
+            "に",
+            "家 (うち)",
+            "へ",
+            "帰ります (かえります)"
+          ],
+          "orderIndex": 9
+        },
+        {
+          "id": "77777777-1113-0003-0000-000000311004",
+          "patternId": "77777777-1113-0001-0000-000000003002",
+          "exerciseType": "ja_to_vi",
+          "prompt": "来週、日本へ来ます。",
+          "promptReading": "らいしゅう、にほんへきます。",
+          "expectedAnswer": "Tuần sau tôi sẽ đến Nhật Bản.",
+          "hint": "N (Địa điểm) へ いきます/きます/かえります",
+          "explanation": "Trợ từ へ phát âm là 'e'.",
+          "orderIndex": 10
+        },
+        {
+          "id": "77777777-1113-0003-0000-000000321004",
+          "patternId": "77777777-1113-0001-0000-000000003002",
+          "exerciseType": "vi_to_ja",
+          "prompt": "Tuần sau tôi sẽ đến Nhật Bản.",
+          "expectedAnswer": "来週、日本へ来ます。",
+          "acceptableAnswers": [
+            "らいしゅう、にほんへきます。"
+          ],
+          "hint": "Danh từ địa điểm + へ + động từ di chuyển",
+          "explanation": "Trợ từ へ phát âm là 'e'.",
+          "orderIndex": 11
+        },
+        {
+          "id": "77777777-1113-0003-0000-000000331004",
+          "patternId": "77777777-1113-0001-0000-000000003002",
+          "exerciseType": "arrange",
+          "prompt": "Tuần sau tôi sẽ đến Nhật Bản.",
+          "expectedAnswer": "来週、日本 (らいしゅう、にほん)へ来ます (きます)",
+          "optionsJson": "[\"へ\",\"来ます (きます)\",\"来週、日本 (らいしゅう、にほん)\"]",
+          "options": [
+            "へ",
+            "来ます (きます)",
+            "来週、日本 (らいしゅう、にほん)"
+          ],
+          "correctOrderJson": "[\"来週、日本 (らいしゅう、にほん)\",\"へ\",\"来ます (きます)\"]",
+          "correctOrder": [
+            "来週、日本 (らいしゅう、にほん)",
+            "へ",
+            "来ます (きます)"
+          ],
+          "orderIndex": 12
+        },
+        {
+          "id": "77777777-1113-0003-0000-000000311005",
+          "patternId": "77777777-1113-0001-0000-000000003002",
+          "exerciseType": "ja_to_vi",
+          "prompt": "スーパーへ行きます。",
+          "promptReading": "スーパーへいきます。",
+          "expectedAnswer": "Tôi đi siêu thị.",
+          "hint": "N (Địa điểm) へ いきます/きます/かえります",
+          "explanation": "Trợ từ へ phát âm là 'e'.",
+          "orderIndex": 13
+        },
+        {
+          "id": "77777777-1113-0003-0000-000000321005",
+          "patternId": "77777777-1113-0001-0000-000000003002",
+          "exerciseType": "vi_to_ja",
+          "prompt": "Tôi đi siêu thị.",
+          "expectedAnswer": "スーパーへ行きます。",
+          "acceptableAnswers": [
+            "スーパーへいきます。"
+          ],
+          "hint": "Danh từ địa điểm + へ + động từ di chuyển",
+          "explanation": "Trợ từ へ phát âm là 'e'.",
+          "orderIndex": 14
+        },
+        {
+          "id": "77777777-1113-0003-0000-000000331005",
+          "patternId": "77777777-1113-0001-0000-000000003002",
+          "exerciseType": "arrange",
+          "prompt": "Tôi đi siêu thị.",
+          "expectedAnswer": "スーパーへ行きます (いきます)",
+          "optionsJson": "[\"へ\",\"スーパー\",\"行きます (いきます)\"]",
+          "options": [
+            "へ",
+            "スーパー",
+            "行きます (いきます)"
+          ],
+          "correctOrderJson": "[\"スーパー\",\"へ\",\"行きます (いきます)\"]",
+          "correctOrder": [
+            "スーパー",
+            "へ",
+            "行きます (いきます)"
+          ],
+          "orderIndex": 15
+        }
+      ]
+    },
+    {
+      "id": "77777777-1113-0001-0000-000000003003",
+      "lessonId": "77777777-1113-0000-0000-000000000103",
+      "level": "N5",
+      "courseCode": "jpd113",
+      "pattern": "N を Vます",
+      "title": "Tác động lên tân ngữ",
+      "meaning": "Làm V cái N",
+      "structure": "N を V ます",
+      "accessTier": "premium",
+      "isLocked": true,
+      "isInStudy": false,
+      "progress": null,
+      "usageScope": "Diễn tả hành động tác động trực tiếp lên một đối tượng.",
+      "formation": "Danh từ + を + Động từ",
+      "notes": "Trợ từ を phát âm là 'o'.",
+      "examples": [
+        {
+          "id": "77777777-1113-0002-0000-000000302001",
+          "japanese": "私は毎日、コーヒーを飲みます。",
+          "reading": "わたしはまいにち、コーヒーをのみます。",
+          "meaning": "Mỗi ngày tôi đều uống cà phê.",
+          "orderIndex": 1
+        },
+        {
+          "id": "77777777-1113-0002-0000-000000302002",
+          "japanese": "毎晩、テレビを見ます。",
+          "reading": "まいばん、テレビをみます。",
+          "meaning": "Mỗi tối tôi đều xem tivi.",
+          "orderIndex": 2
+        },
+        {
+          "id": "77777777-1113-0002-0000-000000302003",
+          "japanese": "リンゴを食べます。",
+          "reading": "りんごをたべます。",
+          "meaning": "Tôi ăn táo.",
+          "orderIndex": 3
+        },
+        {
+          "id": "77777777-1113-0002-0000-000000302004",
+          "japanese": "音楽を聞きます。",
+          "reading": "おんがくをききます。",
+          "meaning": "Tôi nghe nhạc.",
+          "orderIndex": 4
+        },
+        {
+          "id": "77777777-1113-0002-0000-000000302005",
+          "japanese": "手紙を書きます。",
+          "reading": "てがみをかきます。",
+          "meaning": "Tôi viết thư.",
+          "orderIndex": 5
+        }
+      ],
+      "exercises": [
+        {
+          "id": "77777777-1113-0003-0000-000000312001",
+          "patternId": "77777777-1113-0001-0000-000000003003",
+          "exerciseType": "ja_to_vi",
+          "prompt": "私は毎日、コーヒーを飲みます。",
+          "promptReading": "わたしはまいにち、コーヒーをのみます。",
+          "expectedAnswer": "Mỗi ngày tôi đều uống cà phê.",
+          "hint": "N を Vます",
+          "explanation": "Trợ từ を phát âm là 'o'.",
+          "orderIndex": 1
+        },
+        {
+          "id": "77777777-1113-0003-0000-000000322001",
+          "patternId": "77777777-1113-0001-0000-000000003003",
+          "exerciseType": "vi_to_ja",
+          "prompt": "Mỗi ngày tôi đều uống cà phê.",
+          "expectedAnswer": "私は毎日、コーヒーを飲みます。",
+          "acceptableAnswers": [
+            "わたしはまいにち、コーヒーをのみます。"
+          ],
+          "hint": "Danh từ + を + Động từ",
+          "explanation": "Trợ từ を phát âm là 'o'.",
+          "orderIndex": 2
+        },
+        {
+          "id": "77777777-1113-0003-0000-000000332001",
+          "patternId": "77777777-1113-0001-0000-000000003003",
+          "exerciseType": "arrange",
+          "prompt": "Mỗi ngày tôi đều uống cà phê.",
+          "expectedAnswer": "私 (わたし)は毎日、コーヒー (まいにち、コーヒー)を飲みます (のみます)",
+          "optionsJson": "[\"は\",\"を\",\"私 (わたし)\",\"飲みます (のみます)\",\"毎日、コーヒー (まいにち、コーヒー)\"]",
+          "options": [
+            "は",
+            "を",
+            "私 (わたし)",
+            "飲みます (のみます)",
+            "毎日、コーヒー (まいにち、コーヒー)"
+          ],
+          "correctOrderJson": "[\"私 (わたし)\",\"は\",\"毎日、コーヒー (まいにち、コーヒー)\",\"を\",\"飲みます (のみます)\"]",
+          "correctOrder": [
+            "私 (わたし)",
+            "は",
+            "毎日、コーヒー (まいにち、コーヒー)",
+            "を",
+            "飲みます (のみます)"
+          ],
+          "orderIndex": 3
+        },
+        {
+          "id": "77777777-1113-0003-0000-000000312002",
+          "patternId": "77777777-1113-0001-0000-000000003003",
+          "exerciseType": "ja_to_vi",
+          "prompt": "毎晩、テレビを見ます。",
+          "promptReading": "まいばん、テレビをみます。",
+          "expectedAnswer": "Mỗi tối tôi đều xem tivi.",
+          "hint": "N を Vます",
+          "explanation": "Trợ từ を phát âm là 'o'.",
+          "orderIndex": 4
+        },
+        {
+          "id": "77777777-1113-0003-0000-000000322002",
+          "patternId": "77777777-1113-0001-0000-000000003003",
+          "exerciseType": "vi_to_ja",
+          "prompt": "Mỗi tối tôi đều xem tivi.",
+          "expectedAnswer": "毎晩、テレビを見ます。",
+          "acceptableAnswers": [
+            "まいばん、テレビをみます。"
+          ],
+          "hint": "Danh từ + を + Động từ",
+          "explanation": "Trợ từ を phát âm là 'o'.",
+          "orderIndex": 5
+        },
+        {
+          "id": "77777777-1113-0003-0000-000000332002",
+          "patternId": "77777777-1113-0001-0000-000000003003",
+          "exerciseType": "arrange",
+          "prompt": "Mỗi tối tôi đều xem tivi.",
+          "expectedAnswer": "毎晩、テレビ (まいばん、テレビ)を見ます (みます)",
+          "optionsJson": "[\"を\",\"見ます (みます)\",\"毎晩、テレビ (まいばん、テレビ)\"]",
+          "options": [
+            "を",
+            "見ます (みます)",
+            "毎晩、テレビ (まいばん、テレビ)"
+          ],
+          "correctOrderJson": "[\"毎晩、テレビ (まいばん、テレビ)\",\"を\",\"見ます (みます)\"]",
+          "correctOrder": [
+            "毎晩、テレビ (まいばん、テレビ)",
+            "を",
+            "見ます (みます)"
+          ],
+          "orderIndex": 6
+        },
+        {
+          "id": "77777777-1113-0003-0000-000000312003",
+          "patternId": "77777777-1113-0001-0000-000000003003",
+          "exerciseType": "ja_to_vi",
+          "prompt": "リンゴを食べます。",
+          "promptReading": "りんごをたべます。",
+          "expectedAnswer": "Tôi ăn táo.",
+          "hint": "N を Vます",
+          "explanation": "Trợ từ を phát âm là 'o'.",
+          "orderIndex": 7
+        },
+        {
+          "id": "77777777-1113-0003-0000-000000322003",
+          "patternId": "77777777-1113-0001-0000-000000003003",
+          "exerciseType": "vi_to_ja",
+          "prompt": "Tôi ăn táo.",
+          "expectedAnswer": "リンゴを食べます。",
+          "acceptableAnswers": [
+            "りんごをたべます。"
+          ],
+          "hint": "Danh từ + を + Động từ",
+          "explanation": "Trợ từ を phát âm là 'o'.",
+          "orderIndex": 8
+        },
+        {
+          "id": "77777777-1113-0003-0000-000000332003",
+          "patternId": "77777777-1113-0001-0000-000000003003",
+          "exerciseType": "arrange",
+          "prompt": "Tôi ăn táo.",
+          "expectedAnswer": "リンゴを食べます (たべます)",
+          "optionsJson": "[\"を\",\"リンゴ\",\"食べます (たべます)\"]",
+          "options": [
+            "を",
+            "リンゴ",
+            "食べます (たべます)"
+          ],
+          "correctOrderJson": "[\"リンゴ\",\"を\",\"食べます (たべます)\"]",
+          "correctOrder": [
+            "リンゴ",
+            "を",
+            "食べます (たべます)"
+          ],
+          "orderIndex": 9
+        },
+        {
+          "id": "77777777-1113-0003-0000-000000312004",
+          "patternId": "77777777-1113-0001-0000-000000003003",
+          "exerciseType": "ja_to_vi",
+          "prompt": "音楽を聞きます。",
+          "promptReading": "おんがくをききます。",
+          "expectedAnswer": "Tôi nghe nhạc.",
+          "hint": "N を Vます",
+          "explanation": "Trợ từ を phát âm là 'o'.",
+          "orderIndex": 10
+        },
+        {
+          "id": "77777777-1113-0003-0000-000000322004",
+          "patternId": "77777777-1113-0001-0000-000000003003",
+          "exerciseType": "vi_to_ja",
+          "prompt": "Tôi nghe nhạc.",
+          "expectedAnswer": "音楽を聞きます。",
+          "acceptableAnswers": [
+            "おんがくをききます。"
+          ],
+          "hint": "Danh từ + を + Động từ",
+          "explanation": "Trợ từ を phát âm là 'o'.",
+          "orderIndex": 11
+        },
+        {
+          "id": "77777777-1113-0003-0000-000000332004",
+          "patternId": "77777777-1113-0001-0000-000000003003",
+          "exerciseType": "arrange",
+          "prompt": "Tôi nghe nhạc.",
+          "expectedAnswer": "音楽 (おんがく)を聞きます (ききます)",
+          "optionsJson": "[\"を\",\"音楽 (おんがく)\",\"聞きます (ききます)\"]",
+          "options": [
+            "を",
+            "音楽 (おんがく)",
+            "聞きます (ききます)"
+          ],
+          "correctOrderJson": "[\"音楽 (おんがく)\",\"を\",\"聞きます (ききます)\"]",
+          "correctOrder": [
+            "音楽 (おんがく)",
+            "を",
+            "聞きます (ききます)"
+          ],
+          "orderIndex": 12
+        },
+        {
+          "id": "77777777-1113-0003-0000-000000312005",
+          "patternId": "77777777-1113-0001-0000-000000003003",
+          "exerciseType": "ja_to_vi",
+          "prompt": "手紙を書きます。",
+          "promptReading": "てがみをかきます。",
+          "expectedAnswer": "Tôi viết thư.",
+          "hint": "N を Vます",
+          "explanation": "Trợ từ を phát âm là 'o'.",
+          "orderIndex": 13
+        },
+        {
+          "id": "77777777-1113-0003-0000-000000322005",
+          "patternId": "77777777-1113-0001-0000-000000003003",
+          "exerciseType": "vi_to_ja",
+          "prompt": "Tôi viết thư.",
+          "expectedAnswer": "手紙を書きます。",
+          "acceptableAnswers": [
+            "てがみをかきます。"
+          ],
+          "hint": "Danh từ + を + Động từ",
+          "explanation": "Trợ từ を phát âm là 'o'.",
+          "orderIndex": 14
+        },
+        {
+          "id": "77777777-1113-0003-0000-000000332005",
+          "patternId": "77777777-1113-0001-0000-000000003003",
+          "exerciseType": "arrange",
+          "prompt": "Tôi viết thư.",
+          "expectedAnswer": "手紙 (てがみ)を書きます (かきます)",
+          "optionsJson": "[\"を\",\"手紙 (てがみ)\",\"書きます (かきます)\"]",
+          "options": [
+            "を",
+            "手紙 (てがみ)",
+            "書きます (かきます)"
+          ],
+          "correctOrderJson": "[\"手紙 (てがみ)\",\"を\",\"書きます (かきます)\"]",
+          "correctOrder": [
+            "手紙 (てがみ)",
+            "を",
+            "書きます (かきます)"
+          ],
+          "orderIndex": 15
+        }
+      ]
+    },
+    {
+      "id": "77777777-1113-0001-0000-000000003004",
+      "lessonId": "77777777-1113-0000-0000-000000000103",
+      "level": "N5",
+      "courseCode": "jpd113",
+      "pattern": "N (Thời gian) に Vます",
+      "title": "Hành động vào thời điểm cụ thể",
+      "meaning": "Làm V vào lúc N",
+      "structure": "N に V ます",
+      "accessTier": "premium",
+      "isLocked": true,
+      "isInStudy": false,
+      "progress": null,
+      "usageScope": "Xác định thời điểm chính xác xảy ra hành động.",
+      "formation": "Danh từ thời gian (có số) + に + Động từ",
+      "notes": "Chỉ dùng に với thời gian có con số cụ thể.",
+      "examples": [
+        {
+          "id": "77777777-1113-0002-0000-000000303001",
+          "japanese": "私は八時に起きます。",
+          "reading": "わたしははちじにおきます。",
+          "meaning": "Tôi thức dậy lúc 8 giờ.",
+          "orderIndex": 1
+        },
+        {
+          "id": "77777777-1113-0002-0000-000000303002",
+          "japanese": "夜十一時に寝ます。",
+          "reading": "よるじゅういちじにねます。",
+          "meaning": "Tôi đi ngủ lúc 11 giờ đêm.",
+          "orderIndex": 2
+        },
+        {
+          "id": "77777777-1113-0002-0000-000000303003",
+          "japanese": "土曜日に働きます。",
+          "reading": "どようびにはたらきます。",
+          "meaning": "Tôi làm việc vào thứ bảy.",
+          "orderIndex": 3
+        },
+        {
+          "id": "77777777-1113-0002-0000-000000303004",
+          "japanese": "七月一日に日本へ行きます。",
+          "reading": "しちがつついたちににほんへいきます。",
+          "meaning": "Tôi đi Nhật vào ngày 1 tháng 7.",
+          "orderIndex": 4
+        },
+        {
+          "id": "77777777-1113-0002-0000-000000303005",
+          "japanese": "十時に休みます。",
+          "reading": "じゅうじにやすみます。",
+          "meaning": "Tôi nghỉ ngơi lúc 10 giờ.",
+          "orderIndex": 5
+        }
+      ],
+      "exercises": [
+        {
+          "id": "77777777-1113-0003-0000-000000313001",
+          "patternId": "77777777-1113-0001-0000-000000003004",
+          "exerciseType": "ja_to_vi",
+          "prompt": "私は八時に起きます。",
+          "promptReading": "わたしははちじにおきます。",
+          "expectedAnswer": "Tôi thức dậy lúc 8 giờ.",
+          "hint": "N (Thời gian) に Vます",
+          "explanation": "Chỉ dùng に với thời gian có con số cụ thể.",
+          "orderIndex": 1
+        },
+        {
+          "id": "77777777-1113-0003-0000-000000323001",
+          "patternId": "77777777-1113-0001-0000-000000003004",
+          "exerciseType": "vi_to_ja",
+          "prompt": "Tôi thức dậy lúc 8 giờ.",
+          "expectedAnswer": "私は八時に起きます。",
+          "acceptableAnswers": [
+            "わたしははちじにおきます。"
+          ],
+          "hint": "Danh từ thời gian (có số) + に + Động từ",
+          "explanation": "Chỉ dùng に với thời gian có con số cụ thể.",
+          "orderIndex": 2
+        },
+        {
+          "id": "77777777-1113-0003-0000-000000333001",
+          "patternId": "77777777-1113-0001-0000-000000003004",
+          "exerciseType": "arrange",
+          "prompt": "Tôi thức dậy lúc 8 giờ.",
+          "expectedAnswer": "私 (わたし)は八時 (はちじ)に起きます (おきます)",
+          "optionsJson": "[\"に\",\"は\",\"私 (わたし)\",\"八時 (はちじ)\",\"起きます (おきます)\"]",
+          "options": [
+            "に",
+            "は",
+            "私 (わたし)",
+            "八時 (はちじ)",
+            "起きます (おきます)"
+          ],
+          "correctOrderJson": "[\"私 (わたし)\",\"は\",\"八時 (はちじ)\",\"に\",\"起きます (おきます)\"]",
+          "correctOrder": [
+            "私 (わたし)",
+            "は",
+            "八時 (はちじ)",
+            "に",
+            "起きます (おきます)"
+          ],
+          "orderIndex": 3
+        },
+        {
+          "id": "77777777-1113-0003-0000-000000313002",
+          "patternId": "77777777-1113-0001-0000-000000003004",
+          "exerciseType": "ja_to_vi",
+          "prompt": "夜十一時に寝ます。",
+          "promptReading": "よるじゅういちじにねます。",
+          "expectedAnswer": "Tôi đi ngủ lúc 11 giờ đêm.",
+          "hint": "N (Thời gian) に Vます",
+          "explanation": "Chỉ dùng に với thời gian có con số cụ thể.",
+          "orderIndex": 4
+        },
+        {
+          "id": "77777777-1113-0003-0000-000000323002",
+          "patternId": "77777777-1113-0001-0000-000000003004",
+          "exerciseType": "vi_to_ja",
+          "prompt": "Tôi đi ngủ lúc 11 giờ đêm.",
+          "expectedAnswer": "夜十一時に寝ます。",
+          "acceptableAnswers": [
+            "よるじゅういちじにねます。"
+          ],
+          "hint": "Danh từ thời gian (có số) + に + Động từ",
+          "explanation": "Chỉ dùng に với thời gian có con số cụ thể.",
+          "orderIndex": 5
+        },
+        {
+          "id": "77777777-1113-0003-0000-000000333002",
+          "patternId": "77777777-1113-0001-0000-000000003004",
+          "exerciseType": "arrange",
+          "prompt": "Tôi đi ngủ lúc 11 giờ đêm.",
+          "expectedAnswer": "夜十一時 (よるじゅういちじ)に寝ます (ねます)",
+          "optionsJson": "[\"に\",\"寝ます (ねます)\",\"夜十一時 (よるじゅういちじ)\"]",
+          "options": [
+            "に",
+            "寝ます (ねます)",
+            "夜十一時 (よるじゅういちじ)"
+          ],
+          "correctOrderJson": "[\"夜十一時 (よるじゅういちじ)\",\"に\",\"寝ます (ねます)\"]",
+          "correctOrder": [
+            "夜十一時 (よるじゅういちじ)",
+            "に",
+            "寝ます (ねます)"
+          ],
+          "orderIndex": 6
+        },
+        {
+          "id": "77777777-1113-0003-0000-000000313003",
+          "patternId": "77777777-1113-0001-0000-000000003004",
+          "exerciseType": "ja_to_vi",
+          "prompt": "土曜日に働きます。",
+          "promptReading": "どようびにはたらきます。",
+          "expectedAnswer": "Tôi làm việc vào thứ bảy.",
+          "hint": "N (Thời gian) に Vます",
+          "explanation": "Chỉ dùng に với thời gian có con số cụ thể.",
+          "orderIndex": 7
+        },
+        {
+          "id": "77777777-1113-0003-0000-000000323003",
+          "patternId": "77777777-1113-0001-0000-000000003004",
+          "exerciseType": "vi_to_ja",
+          "prompt": "Tôi làm việc vào thứ bảy.",
+          "expectedAnswer": "土曜日に働きます。",
+          "acceptableAnswers": [
+            "どようびにはたらきます。"
+          ],
+          "hint": "Danh từ thời gian (có số) + に + Động từ",
+          "explanation": "Chỉ dùng に với thời gian có con số cụ thể.",
+          "orderIndex": 8
+        },
+        {
+          "id": "77777777-1113-0003-0000-000000333003",
+          "patternId": "77777777-1113-0001-0000-000000003004",
+          "exerciseType": "arrange",
+          "prompt": "Tôi làm việc vào thứ bảy.",
+          "expectedAnswer": "土曜日 (どようび)に働きます (はたらきます)",
+          "optionsJson": "[\"に\",\"土曜日 (どようび)\",\"働きます (はたらきます)\"]",
+          "options": [
+            "に",
+            "土曜日 (どようび)",
+            "働きます (はたらきます)"
+          ],
+          "correctOrderJson": "[\"土曜日 (どようび)\",\"に\",\"働きます (はたらきます)\"]",
+          "correctOrder": [
+            "土曜日 (どようび)",
+            "に",
+            "働きます (はたらきます)"
+          ],
+          "orderIndex": 9
+        },
+        {
+          "id": "77777777-1113-0003-0000-000000313004",
+          "patternId": "77777777-1113-0001-0000-000000003004",
+          "exerciseType": "ja_to_vi",
+          "prompt": "七月一日に日本へ行きます。",
+          "promptReading": "しちがつついたちににほんへいきます。",
+          "expectedAnswer": "Tôi đi Nhật vào ngày 1 tháng 7.",
+          "hint": "N (Thời gian) に Vます",
+          "explanation": "Chỉ dùng に với thời gian có con số cụ thể.",
+          "orderIndex": 10
+        },
+        {
+          "id": "77777777-1113-0003-0000-000000323004",
+          "patternId": "77777777-1113-0001-0000-000000003004",
+          "exerciseType": "vi_to_ja",
+          "prompt": "Tôi đi Nhật vào ngày 1 tháng 7.",
+          "expectedAnswer": "七月一日に日本へ行きます。",
+          "acceptableAnswers": [
+            "しちがつついたちににほんへいきます。"
+          ],
+          "hint": "Danh từ thời gian (có số) + に + Động từ",
+          "explanation": "Chỉ dùng に với thời gian có con số cụ thể.",
+          "orderIndex": 11
+        },
+        {
+          "id": "77777777-1113-0003-0000-000000333004",
+          "patternId": "77777777-1113-0001-0000-000000003004",
+          "exerciseType": "arrange",
+          "prompt": "Tôi đi Nhật vào ngày 1 tháng 7.",
+          "expectedAnswer": "七月一日 (しちがつついたち)に日本 (にほん)へ行きます (いきます)",
+          "optionsJson": "[\"に\",\"へ\",\"日本 (にほん)\",\"行きます (いきます)\",\"七月一日 (しちがつついたち)\"]",
+          "options": [
+            "に",
+            "へ",
+            "日本 (にほん)",
+            "行きます (いきます)",
+            "七月一日 (しちがつついたち)"
+          ],
+          "correctOrderJson": "[\"七月一日 (しちがつついたち)\",\"に\",\"日本 (にほん)\",\"へ\",\"行きます (いきます)\"]",
+          "correctOrder": [
+            "七月一日 (しちがつついたち)",
+            "に",
+            "日本 (にほん)",
+            "へ",
+            "行きます (いきます)"
+          ],
+          "orderIndex": 12
+        },
+        {
+          "id": "77777777-1113-0003-0000-000000313005",
+          "patternId": "77777777-1113-0001-0000-000000003004",
+          "exerciseType": "ja_to_vi",
+          "prompt": "十時に休みます。",
+          "promptReading": "じゅうじにやすみます。",
+          "expectedAnswer": "Tôi nghỉ ngơi lúc 10 giờ.",
+          "hint": "N (Thời gian) に Vます",
+          "explanation": "Chỉ dùng に với thời gian có con số cụ thể.",
+          "orderIndex": 13
+        },
+        {
+          "id": "77777777-1113-0003-0000-000000323005",
+          "patternId": "77777777-1113-0001-0000-000000003004",
+          "exerciseType": "vi_to_ja",
+          "prompt": "Tôi nghỉ ngơi lúc 10 giờ.",
+          "expectedAnswer": "十時に休みます。",
+          "acceptableAnswers": [
+            "じゅうじにやすみます。"
+          ],
+          "hint": "Danh từ thời gian (có số) + に + Động từ",
+          "explanation": "Chỉ dùng に với thời gian có con số cụ thể.",
+          "orderIndex": 14
+        },
+        {
+          "id": "77777777-1113-0003-0000-000000333005",
+          "patternId": "77777777-1113-0001-0000-000000003004",
+          "exerciseType": "arrange",
+          "prompt": "Tôi nghỉ ngơi lúc 10 giờ.",
+          "expectedAnswer": "十時 (じゅうじ)に休みます (やすみます)",
+          "optionsJson": "[\"に\",\"十時 (じゅうじ)\",\"休みます (やすみます)\"]",
+          "options": [
+            "に",
+            "十時 (じゅうじ)",
+            "休みます (やすみます)"
+          ],
+          "correctOrderJson": "[\"十時 (じゅうじ)\",\"に\",\"休みます (やすみます)\"]",
+          "correctOrder": [
+            "十時 (じゅうじ)",
+            "に",
+            "休みます (やすみます)"
+          ],
+          "orderIndex": 15
+        }
+      ]
+    },
+    {
+      "id": "77777777-1113-0001-0000-000000003005",
+      "lessonId": "77777777-1113-0000-0000-000000000103",
+      "level": "N5",
+      "courseCode": "jpd113",
+      "pattern": "N (Địa điểm) で Vます",
+      "title": "Hành động tại một địa điểm",
+      "meaning": "Làm V ở địa điểm N",
+      "structure": "N で V ます",
+      "accessTier": "premium",
+      "isLocked": true,
+      "isInStudy": false,
+      "progress": null,
+      "usageScope": "Diễn tả nơi diễn ra hành động.",
+      "formation": "Danh từ địa điểm + で + Động từ",
+      "notes": "Phân biệt với trợ từ へ (hướng đến).",
+      "examples": [
+        {
+          "id": "77777777-1113-0002-0000-000000304001",
+          "japanese": "私は北海道でスキーをします。",
+          "reading": "わたしはほっかいどうでスキーをします。",
+          "meaning": "Tôi trượt tuyết ở Hokkaido.",
+          "orderIndex": 1
+        },
+        {
+          "id": "77777777-1113-0002-0000-000000304002",
+          "japanese": "学校で日本語を勉強します。",
+          "reading": "がっこうでにほんごをべんきょうします。",
+          "meaning": "Tôi học tiếng Nhật ở trường.",
+          "orderIndex": 2
+        },
+        {
+          "id": "77777777-1113-0002-0000-000000304003",
+          "japanese": "食堂で昼ごはんを食べます。",
+          "reading": "しょくどうでひるごはんをたべます。",
+          "meaning": "Tôi ăn trưa ở nhà ăn.",
+          "orderIndex": 3
+        },
+        {
+          "id": "77777777-1113-0002-0000-000000304004",
+          "japanese": "部屋で本を読みます。",
+          "reading": "へやでほんをよみます。",
+          "meaning": "Tôi đọc sách ở trong phòng.",
+          "orderIndex": 4
+        },
+        {
+          "id": "77777777-1113-0002-0000-000000304005",
+          "japanese": "駅で新聞を買います。",
+          "reading": "えきでしんぶんをかいます。",
+          "meaning": "Tôi mua báo ở nhà ga.",
+          "orderIndex": 5
+        }
+      ],
+      "exercises": [
+        {
+          "id": "77777777-1113-0003-0000-000000314001",
+          "patternId": "77777777-1113-0001-0000-000000003005",
+          "exerciseType": "ja_to_vi",
+          "prompt": "私は北海道でスキーをします。",
+          "promptReading": "わたしはほっかいどうでスキーをします。",
+          "expectedAnswer": "Tôi trượt tuyết ở Hokkaido.",
+          "hint": "N (Địa điểm) で Vます",
+          "explanation": "Phân biệt với trợ từ へ (hướng đến).",
+          "orderIndex": 1
+        },
+        {
+          "id": "77777777-1113-0003-0000-000000324001",
+          "patternId": "77777777-1113-0001-0000-000000003005",
+          "exerciseType": "vi_to_ja",
+          "prompt": "Tôi trượt tuyết ở Hokkaido.",
+          "expectedAnswer": "私は北海道でスキーをします。",
+          "acceptableAnswers": [
+            "わたしはほっかいどうでスキーをします。"
+          ],
+          "hint": "Danh từ địa điểm + で + Động từ",
+          "explanation": "Phân biệt với trợ từ へ (hướng đến).",
+          "orderIndex": 2
+        },
+        {
+          "id": "77777777-1113-0003-0000-000000334001",
+          "patternId": "77777777-1113-0001-0000-000000003005",
+          "exerciseType": "arrange",
+          "prompt": "Tôi trượt tuyết ở Hokkaido.",
+          "expectedAnswer": "私 (わたし)は北海道でスキー (ほっかいどうでスキー)をします",
+          "optionsJson": "[\"は\",\"を\",\"します\",\"私 (わたし)\",\"北海道でスキー (ほっかいどうでスキー)\"]",
+          "options": [
+            "は",
+            "を",
+            "します",
+            "私 (わたし)",
+            "北海道でスキー (ほっかいどうでスキー)"
+          ],
+          "correctOrderJson": "[\"私 (わたし)\",\"は\",\"北海道でスキー (ほっかいどうでスキー)\",\"を\",\"します\"]",
+          "correctOrder": [
+            "私 (わたし)",
+            "は",
+            "北海道でスキー (ほっかいどうでスキー)",
+            "を",
+            "します"
+          ],
+          "orderIndex": 3
+        },
+        {
+          "id": "77777777-1113-0003-0000-000000314002",
+          "patternId": "77777777-1113-0001-0000-000000003005",
+          "exerciseType": "ja_to_vi",
+          "prompt": "学校で日本語を勉強します。",
+          "promptReading": "がっこうでにほんごをべんきょうします。",
+          "expectedAnswer": "Tôi học tiếng Nhật ở trường.",
+          "hint": "N (Địa điểm) で Vます",
+          "explanation": "Phân biệt với trợ từ へ (hướng đến).",
+          "orderIndex": 4
+        },
+        {
+          "id": "77777777-1113-0003-0000-000000324002",
+          "patternId": "77777777-1113-0001-0000-000000003005",
+          "exerciseType": "vi_to_ja",
+          "prompt": "Tôi học tiếng Nhật ở trường.",
+          "expectedAnswer": "学校で日本語を勉強します。",
+          "acceptableAnswers": [
+            "がっこうでにほんごをべんきょうします。"
+          ],
+          "hint": "Danh từ địa điểm + で + Động từ",
+          "explanation": "Phân biệt với trợ từ へ (hướng đến).",
+          "orderIndex": 5
+        },
+        {
+          "id": "77777777-1113-0003-0000-000000334002",
+          "patternId": "77777777-1113-0001-0000-000000003005",
+          "exerciseType": "arrange",
+          "prompt": "Tôi học tiếng Nhật ở trường.",
+          "expectedAnswer": "学校で日本語 (がっこうでにほんご)を勉強します (べんきょうします)",
+          "optionsJson": "[\"を\",\"勉強します (べんきょうします)\",\"学校で日本語 (がっこうでにほんご)\"]",
+          "options": [
+            "を",
+            "勉強します (べんきょうします)",
+            "学校で日本語 (がっこうでにほんご)"
+          ],
+          "correctOrderJson": "[\"学校で日本語 (がっこうでにほんご)\",\"を\",\"勉強します (べんきょうします)\"]",
+          "correctOrder": [
+            "学校で日本語 (がっこうでにほんご)",
+            "を",
+            "勉強します (べんきょうします)"
+          ],
+          "orderIndex": 6
+        },
+        {
+          "id": "77777777-1113-0003-0000-000000314003",
+          "patternId": "77777777-1113-0001-0000-000000003005",
+          "exerciseType": "ja_to_vi",
+          "prompt": "食堂で昼ごはんを食べます。",
+          "promptReading": "しょくどうでひるごはんをたべます。",
+          "expectedAnswer": "Tôi ăn trưa ở nhà ăn.",
+          "hint": "N (Địa điểm) で Vます",
+          "explanation": "Phân biệt với trợ từ へ (hướng đến).",
+          "orderIndex": 7
+        },
+        {
+          "id": "77777777-1113-0003-0000-000000324003",
+          "patternId": "77777777-1113-0001-0000-000000003005",
+          "exerciseType": "vi_to_ja",
+          "prompt": "Tôi ăn trưa ở nhà ăn.",
+          "expectedAnswer": "食堂で昼ごはんを食べます。",
+          "acceptableAnswers": [
+            "しょくどうでひるごはんをたべます。"
+          ],
+          "hint": "Danh từ địa điểm + で + Động từ",
+          "explanation": "Phân biệt với trợ từ へ (hướng đến).",
+          "orderIndex": 8
+        },
+        {
+          "id": "77777777-1113-0003-0000-000000334003",
+          "patternId": "77777777-1113-0001-0000-000000003005",
+          "exerciseType": "arrange",
+          "prompt": "Tôi ăn trưa ở nhà ăn.",
+          "expectedAnswer": "食堂で昼ご (しょくどうでひるご)はんを食べます (たべます)",
+          "optionsJson": "[\"は\",\"を\",\"ん\",\"食べます (たべます)\",\"食堂で昼ご (しょくどうでひるご)\"]",
+          "options": [
+            "は",
+            "を",
+            "ん",
+            "食べます (たべます)",
+            "食堂で昼ご (しょくどうでひるご)"
+          ],
+          "correctOrderJson": "[\"食堂で昼ご (しょくどうでひるご)\",\"は\",\"ん\",\"を\",\"食べます (たべます)\"]",
+          "correctOrder": [
+            "食堂で昼ご (しょくどうでひるご)",
+            "は",
+            "ん",
+            "を",
+            "食べます (たべます)"
+          ],
+          "orderIndex": 9
+        },
+        {
+          "id": "77777777-1113-0003-0000-000000314004",
+          "patternId": "77777777-1113-0001-0000-000000003005",
+          "exerciseType": "ja_to_vi",
+          "prompt": "部屋で本を読みます。",
+          "promptReading": "へやでほんをよみます。",
+          "expectedAnswer": "Tôi đọc sách ở trong phòng.",
+          "hint": "N (Địa điểm) で Vます",
+          "explanation": "Phân biệt với trợ từ へ (hướng đến).",
+          "orderIndex": 10
+        },
+        {
+          "id": "77777777-1113-0003-0000-000000324004",
+          "patternId": "77777777-1113-0001-0000-000000003005",
+          "exerciseType": "vi_to_ja",
+          "prompt": "Tôi đọc sách ở trong phòng.",
+          "expectedAnswer": "部屋で本を読みます。",
+          "acceptableAnswers": [
+            "へやでほんをよみます。"
+          ],
+          "hint": "Danh từ địa điểm + で + Động từ",
+          "explanation": "Phân biệt với trợ từ へ (hướng đến).",
+          "orderIndex": 11
+        },
+        {
+          "id": "77777777-1113-0003-0000-000000334004",
+          "patternId": "77777777-1113-0001-0000-000000003005",
+          "exerciseType": "arrange",
+          "prompt": "Tôi đọc sách ở trong phòng.",
+          "expectedAnswer": "部屋で本 (へやでほん)を読みます (よみます)",
+          "optionsJson": "[\"を\",\"読みます (よみます)\",\"部屋で本 (へやでほん)\"]",
+          "options": [
+            "を",
+            "読みます (よみます)",
+            "部屋で本 (へやでほん)"
+          ],
+          "correctOrderJson": "[\"部屋で本 (へやでほん)\",\"を\",\"読みます (よみます)\"]",
+          "correctOrder": [
+            "部屋で本 (へやでほん)",
+            "を",
+            "読みます (よみます)"
+          ],
+          "orderIndex": 12
+        },
+        {
+          "id": "77777777-1113-0003-0000-000000314005",
+          "patternId": "77777777-1113-0001-0000-000000003005",
+          "exerciseType": "ja_to_vi",
+          "prompt": "駅で新聞を買います。",
+          "promptReading": "えきでしんぶんをかいます。",
+          "expectedAnswer": "Tôi mua báo ở nhà ga.",
+          "hint": "N (Địa điểm) で Vます",
+          "explanation": "Phân biệt với trợ từ へ (hướng đến).",
+          "orderIndex": 13
+        },
+        {
+          "id": "77777777-1113-0003-0000-000000324005",
+          "patternId": "77777777-1113-0001-0000-000000003005",
+          "exerciseType": "vi_to_ja",
+          "prompt": "Tôi mua báo ở nhà ga.",
+          "expectedAnswer": "駅で新聞を買います。",
+          "acceptableAnswers": [
+            "えきでしんぶんをかいます。"
+          ],
+          "hint": "Danh từ địa điểm + で + Động từ",
+          "explanation": "Phân biệt với trợ từ へ (hướng đến).",
+          "orderIndex": 14
+        },
+        {
+          "id": "77777777-1113-0003-0000-000000334005",
+          "patternId": "77777777-1113-0001-0000-000000003005",
+          "exerciseType": "arrange",
+          "prompt": "Tôi mua báo ở nhà ga.",
+          "expectedAnswer": "駅で新聞 (えきでしんぶん)を買います (かいます)",
+          "optionsJson": "[\"を\",\"買います (かいます)\",\"駅で新聞 (えきでしんぶん)\"]",
+          "options": [
+            "を",
+            "買います (かいます)",
+            "駅で新聞 (えきでしんぶん)"
+          ],
+          "correctOrderJson": "[\"駅で新聞 (えきでしんぶん)\",\"を\",\"買います (かいます)\"]",
+          "correctOrder": [
+            "駅で新聞 (えきでしんぶん)",
+            "を",
+            "買います (かいます)"
+          ],
+          "orderIndex": 15
+        }
+      ]
+    },
+    {
+      "id": "77777777-1113-0001-0000-000000003006",
+      "lessonId": "77777777-1113-0000-0000-000000000103",
+      "level": "N5",
+      "courseCode": "jpd113",
+      "pattern": "N1 から N2 まで",
+      "title": "Khoảng thời gian/địa điểm",
+      "meaning": "Từ N1 đến N2",
+      "structure": "N1 から N2 まで",
+      "accessTier": "premium",
+      "isLocked": true,
+      "isInStudy": false,
+      "progress": null,
+      "usageScope": "Diễn tả phạm vi thời gian hoặc không gian.",
+      "formation": "N1 (Bắt đầu) + から + N2 (Kết thúc) + まで",
+      "notes": "Có thể dùng lẻ から hoặc まで.",
+      "examples": [
+        {
+          "id": "77777777-1113-0002-0000-000000305001",
+          "japanese": "郵便局は九時から五時までです。",
+          "reading": "ゆうびんきょくはくじからごじまでです。",
+          "meaning": "Bưu điện mở cửa từ 9 giờ đến 5 giờ.",
+          "orderIndex": 1
+        },
+        {
+          "id": "77777777-1113-0002-0000-000000305002",
+          "japanese": "東京から大阪まで三時間かかります。",
+          "reading": "とうきょうからおおさかまでさんじかんかかります。",
+          "meaning": "Từ Tokyo đến Osaka mất 3 tiếng đồng hồ.",
+          "orderIndex": 2
+        },
+        {
+          "id": "77777777-1113-0002-0000-000000305003",
+          "japanese": "月曜日から金曜日まで働きます。",
+          "reading": "げつようびからきんようびまではたらきます。",
+          "meaning": "Tôi làm việc từ thứ hai đến thứ sáu.",
+          "orderIndex": 3
+        },
+        {
+          "id": "77777777-1113-0002-0000-000000305004",
+          "japanese": "昼休みは十二時から一時までです。",
+          "reading": "ひるやすみはじゅうにじからいちじまでです。",
+          "meaning": "Nghỉ trưa từ 12 giờ đến 1 giờ.",
+          "orderIndex": 4
+        },
+        {
+          "id": "77777777-1113-0002-0000-000000305005",
+          "japanese": "家から駅まで歩きます。",
+          "reading": "うちからえきまであるきます。",
+          "meaning": "Tôi đi bộ từ nhà đến ga.",
+          "orderIndex": 5
+        }
+      ],
+      "exercises": [
+        {
+          "id": "77777777-1113-0003-0000-000000315001",
+          "patternId": "77777777-1113-0001-0000-000000003006",
+          "exerciseType": "ja_to_vi",
+          "prompt": "郵便局は九時から五時までです。",
+          "promptReading": "ゆうびんきょくはくじからごじまでです。",
+          "expectedAnswer": "Bưu điện mở cửa từ 9 giờ đến 5 giờ.",
+          "hint": "N1 から N2 まで",
+          "explanation": "Có thể dùng lẻ から hoặc まで.",
+          "orderIndex": 1
+        },
+        {
+          "id": "77777777-1113-0003-0000-000000325001",
+          "patternId": "77777777-1113-0001-0000-000000003006",
+          "exerciseType": "vi_to_ja",
+          "prompt": "Bưu điện mở cửa từ 9 giờ đến 5 giờ.",
+          "expectedAnswer": "郵便局は九時から五時までです。",
+          "acceptableAnswers": [
+            "ゆうびんきょくはくじからごじまでです。"
+          ],
+          "hint": "N1 (Bắt đầu) + から + N2 (Kết thúc) + まで",
+          "explanation": "Có thể dùng lẻ から hoặc まで.",
+          "orderIndex": 2
+        },
+        {
+          "id": "77777777-1113-0003-0000-000000335001",
+          "patternId": "77777777-1113-0001-0000-000000003006",
+          "exerciseType": "arrange",
+          "prompt": "Bưu điện mở cửa từ 9 giờ đến 5 giờ.",
+          "expectedAnswer": "郵便局 (ゆうびんきょく)は九時 (くじ)から五時 (ごじ)までです",
+          "optionsJson": "[\"は\",\"です\",\"から\",\"まで\",\"九時 (くじ)\",\"五時 (ごじ)\",\"郵便局 (ゆうびんきょく)\"]",
+          "options": [
+            "は",
+            "です",
+            "から",
+            "まで",
+            "九時 (くじ)",
+            "五時 (ごじ)",
+            "郵便局 (ゆうびんきょく)"
+          ],
+          "correctOrderJson": "[\"郵便局 (ゆうびんきょく)\",\"は\",\"九時 (くじ)\",\"から\",\"五時 (ごじ)\",\"まで\",\"です\"]",
+          "correctOrder": [
+            "郵便局 (ゆうびんきょく)",
+            "は",
+            "九時 (くじ)",
+            "から",
+            "五時 (ごじ)",
+            "まで",
+            "です"
+          ],
+          "orderIndex": 3
+        },
+        {
+          "id": "77777777-1113-0003-0000-000000315002",
+          "patternId": "77777777-1113-0001-0000-000000003006",
+          "exerciseType": "ja_to_vi",
+          "prompt": "東京から大阪まで三時間かかります。",
+          "promptReading": "とうきょうからおおさかまでさんじかんかかります。",
+          "expectedAnswer": "Từ Tokyo đến Osaka mất 3 tiếng đồng hồ.",
+          "hint": "N1 から N2 まで",
+          "explanation": "Có thể dùng lẻ から hoặc まで.",
+          "orderIndex": 4
+        },
+        {
+          "id": "77777777-1113-0003-0000-000000325002",
+          "patternId": "77777777-1113-0001-0000-000000003006",
+          "exerciseType": "vi_to_ja",
+          "prompt": "Từ Tokyo đến Osaka mất 3 tiếng đồng hồ.",
+          "expectedAnswer": "東京から大阪まで三時間かかります。",
+          "acceptableAnswers": [
+            "とうきょうからおおさかまでさんじかんかかります。"
+          ],
+          "hint": "N1 (Bắt đầu) + から + N2 (Kết thúc) + まで",
+          "explanation": "Có thể dùng lẻ から hoặc まで.",
+          "orderIndex": 5
+        },
+        {
+          "id": "77777777-1113-0003-0000-000000335002",
+          "patternId": "77777777-1113-0001-0000-000000003006",
+          "exerciseType": "arrange",
+          "prompt": "Từ Tokyo đến Osaka mất 3 tiếng đồng hồ.",
+          "expectedAnswer": "東京 (とうきょう)から大阪 (おおさか)まで三時間かかります (さんじかんかかります)",
+          "optionsJson": "[\"から\",\"まで\",\"東京 (とうきょう)\",\"大阪 (おおさか)\",\"三時間かかります (さんじかんかかります)\"]",
+          "options": [
+            "から",
+            "まで",
+            "東京 (とうきょう)",
+            "大阪 (おおさか)",
+            "三時間かかります (さんじかんかかります)"
+          ],
+          "correctOrderJson": "[\"東京 (とうきょう)\",\"から\",\"大阪 (おおさか)\",\"まで\",\"三時間かかります (さんじかんかかります)\"]",
+          "correctOrder": [
+            "東京 (とうきょう)",
+            "から",
+            "大阪 (おおさか)",
+            "まで",
+            "三時間かかります (さんじかんかかります)"
+          ],
+          "orderIndex": 6
+        },
+        {
+          "id": "77777777-1113-0003-0000-000000315003",
+          "patternId": "77777777-1113-0001-0000-000000003006",
+          "exerciseType": "ja_to_vi",
+          "prompt": "月曜日から金曜日まで働きます。",
+          "promptReading": "げつようびからきんようびまではたらきます。",
+          "expectedAnswer": "Tôi làm việc từ thứ hai đến thứ sáu.",
+          "hint": "N1 から N2 まで",
+          "explanation": "Có thể dùng lẻ から hoặc まで.",
+          "orderIndex": 7
+        },
+        {
+          "id": "77777777-1113-0003-0000-000000325003",
+          "patternId": "77777777-1113-0001-0000-000000003006",
+          "exerciseType": "vi_to_ja",
+          "prompt": "Tôi làm việc từ thứ hai đến thứ sáu.",
+          "expectedAnswer": "月曜日から金曜日まで働きます。",
+          "acceptableAnswers": [
+            "げつようびからきんようびまではたらきます。"
+          ],
+          "hint": "N1 (Bắt đầu) + から + N2 (Kết thúc) + まで",
+          "explanation": "Có thể dùng lẻ から hoặc まで.",
+          "orderIndex": 8
+        },
+        {
+          "id": "77777777-1113-0003-0000-000000335003",
+          "patternId": "77777777-1113-0001-0000-000000003006",
+          "exerciseType": "arrange",
+          "prompt": "Tôi làm việc từ thứ hai đến thứ sáu.",
+          "expectedAnswer": "月曜日 (げつようび)から金曜日 (きんようび)まで働きます (はたらきます)",
+          "optionsJson": "[\"から\",\"まで\",\"働きます (はたらきます)\",\"月曜日 (げつようび)\",\"金曜日 (きんようび)\"]",
+          "options": [
+            "から",
+            "まで",
+            "働きます (はたらきます)",
+            "月曜日 (げつようび)",
+            "金曜日 (きんようび)"
+          ],
+          "correctOrderJson": "[\"月曜日 (げつようび)\",\"から\",\"金曜日 (きんようび)\",\"まで\",\"働きます (はたらきます)\"]",
+          "correctOrder": [
+            "月曜日 (げつようび)",
+            "から",
+            "金曜日 (きんようび)",
+            "まで",
+            "働きます (はたらきます)"
+          ],
+          "orderIndex": 9
+        },
+        {
+          "id": "77777777-1113-0003-0000-000000315004",
+          "patternId": "77777777-1113-0001-0000-000000003006",
+          "exerciseType": "ja_to_vi",
+          "prompt": "昼休みは十二時から一時までです。",
+          "promptReading": "ひるやすみはじゅうにじからいちじまでです。",
+          "expectedAnswer": "Nghỉ trưa từ 12 giờ đến 1 giờ.",
+          "hint": "N1 から N2 まで",
+          "explanation": "Có thể dùng lẻ から hoặc まで.",
+          "orderIndex": 10
+        },
+        {
+          "id": "77777777-1113-0003-0000-000000325004",
+          "patternId": "77777777-1113-0001-0000-000000003006",
+          "exerciseType": "vi_to_ja",
+          "prompt": "Nghỉ trưa từ 12 giờ đến 1 giờ.",
+          "expectedAnswer": "昼休みは十二時から一時までです。",
+          "acceptableAnswers": [
+            "ひるやすみはじゅうにじからいちじまでです。"
+          ],
+          "hint": "N1 (Bắt đầu) + から + N2 (Kết thúc) + まで",
+          "explanation": "Có thể dùng lẻ から hoặc まで.",
+          "orderIndex": 11
+        },
+        {
+          "id": "77777777-1113-0003-0000-000000335004",
+          "patternId": "77777777-1113-0001-0000-000000003006",
+          "exerciseType": "arrange",
+          "prompt": "Nghỉ trưa từ 12 giờ đến 1 giờ.",
+          "expectedAnswer": "昼休み (ひるやすみ)は十二時 (じゅうにじ)から一時 (いちじ)までです",
+          "optionsJson": "[\"は\",\"です\",\"から\",\"まで\",\"一時 (いちじ)\",\"昼休み (ひるやすみ)\",\"十二時 (じゅうにじ)\"]",
+          "options": [
+            "は",
+            "です",
+            "から",
+            "まで",
+            "一時 (いちじ)",
+            "昼休み (ひるやすみ)",
+            "十二時 (じゅうにじ)"
+          ],
+          "correctOrderJson": "[\"昼休み (ひるやすみ)\",\"は\",\"十二時 (じゅうにじ)\",\"から\",\"一時 (いちじ)\",\"まで\",\"です\"]",
+          "correctOrder": [
+            "昼休み (ひるやすみ)",
+            "は",
+            "十二時 (じゅうにじ)",
+            "から",
+            "一時 (いちじ)",
+            "まで",
+            "です"
+          ],
+          "orderIndex": 12
+        },
+        {
+          "id": "77777777-1113-0003-0000-000000315005",
+          "patternId": "77777777-1113-0001-0000-000000003006",
+          "exerciseType": "ja_to_vi",
+          "prompt": "家から駅まで歩きます。",
+          "promptReading": "うちからえきまであるきます。",
+          "expectedAnswer": "Tôi đi bộ từ nhà đến ga.",
+          "hint": "N1 から N2 まで",
+          "explanation": "Có thể dùng lẻ から hoặc まで.",
+          "orderIndex": 13
+        },
+        {
+          "id": "77777777-1113-0003-0000-000000325005",
+          "patternId": "77777777-1113-0001-0000-000000003006",
+          "exerciseType": "vi_to_ja",
+          "prompt": "Tôi đi bộ từ nhà đến ga.",
+          "expectedAnswer": "家から駅まで歩きます。",
+          "acceptableAnswers": [
+            "うちからえきまであるきます。"
+          ],
+          "hint": "N1 (Bắt đầu) + から + N2 (Kết thúc) + まで",
+          "explanation": "Có thể dùng lẻ から hoặc まで.",
+          "orderIndex": 14
+        },
+        {
+          "id": "77777777-1113-0003-0000-000000335005",
+          "patternId": "77777777-1113-0001-0000-000000003006",
+          "exerciseType": "arrange",
+          "prompt": "Tôi đi bộ từ nhà đến ga.",
+          "expectedAnswer": "家 (うち)から駅 (えき)まで歩きます (あるきます)",
+          "optionsJson": "[\"から\",\"まで\",\"家 (うち)\",\"駅 (えき)\",\"歩きます (あるきます)\"]",
+          "options": [
+            "から",
+            "まで",
+            "家 (うち)",
+            "駅 (えき)",
+            "歩きます (あるきます)"
+          ],
+          "correctOrderJson": "[\"家 (うち)\",\"から\",\"駅 (えき)\",\"まで\",\"歩きます (あるきます)\"]",
+          "correctOrder": [
+            "家 (うち)",
+            "から",
+            "駅 (えき)",
+            "まで",
+            "歩きます (あるきます)"
+          ],
+          "orderIndex": 15
+        }
+      ]
+    },
+    {
+      "id": "77777777-1113-0001-0000-000000003007",
+      "lessonId": "77777777-1113-0000-0000-000000000103",
+      "level": "N5",
+      "courseCode": "jpd113",
+      "pattern": "N1 や N2 など",
+      "title": "Liệt kê không đầy đủ",
+      "meaning": "N1 và N2, v.v...",
+      "structure": "N1 や N2 など",
+      "accessTier": "premium",
+      "isLocked": true,
+      "isInStudy": false,
+      "progress": null,
+      "usageScope": "Dùng khi muốn liệt kê một vài ví dụ tiêu biểu.",
+      "formation": "N1 + や + N2 + など",
+      "notes": "Khác với と (liệt kê toàn bộ).",
+      "examples": [
+        {
+          "id": "77777777-1113-0002-0000-000000306001",
+          "japanese": "私は朝、パンやサラダなどを食べます。",
+          "reading": "わたしはあさ、パンやサラダなどをたべます。",
+          "meaning": "Buổi sáng tôi ăn bánh mì, salad, v.v...",
+          "orderIndex": 1
+        },
+        {
+          "id": "77777777-1113-0002-0000-000000306002",
+          "japanese": "鞄の中に本やノートなどがあります。",
+          "reading": "かばんのなかにほんやノートなどがあります。",
+          "meaning": "Trong túi xách có sách, vở, v.v...",
+          "orderIndex": 2
+        },
+        {
+          "id": "77777777-1113-0002-0000-000000306003",
+          "japanese": "店に飲み物や食べ物などがあります。",
+          "reading": "みせにのみものやたべものなどがあります。",
+          "meaning": "Ở cửa hàng có đồ uống, đồ ăn, v.v...",
+          "orderIndex": 3
+        },
+        {
+          "id": "77777777-1113-0002-0000-000000306004",
+          "japanese": "休みに旅行やスポーツなどをします。",
+          "reading": "やすみにりょこうやすぽーつなどをします。",
+          "meaning": "Vào kỳ nghỉ tôi đi du lịch, chơi thể thao, v.v...",
+          "orderIndex": 4
+        },
+        {
+          "id": "77777777-1113-0002-0000-000000306005",
+          "japanese": "箱の中に写真や手紙などがあります。",
+          "reading": "はこのなかにしゃしんやてがみなどがあります。",
+          "meaning": "Trong hộp có ảnh, thư, v.v...",
+          "orderIndex": 5
+        }
+      ],
+      "exercises": [
+        {
+          "id": "77777777-1113-0003-0000-000000316001",
+          "patternId": "77777777-1113-0001-0000-000000003007",
+          "exerciseType": "ja_to_vi",
+          "prompt": "私は朝、パンやサラダなどを食べます。",
+          "promptReading": "わたしはあさ、パンやサラダなどをたべます。",
+          "expectedAnswer": "Buổi sáng tôi ăn bánh mì, salad, v.v...",
+          "hint": "N1 や N2 など",
+          "explanation": "Khác với と (liệt kê toàn bộ).",
+          "orderIndex": 1
+        },
+        {
+          "id": "77777777-1113-0003-0000-000000326001",
+          "patternId": "77777777-1113-0001-0000-000000003007",
+          "exerciseType": "vi_to_ja",
+          "prompt": "Buổi sáng tôi ăn bánh mì, salad, v.v...",
+          "expectedAnswer": "私は朝、パンやサラダなどを食べます。",
+          "acceptableAnswers": [
+            "わたしはあさ、パンやサラダなどをたべます。"
+          ],
+          "hint": "N1 + や + N2 + など",
+          "explanation": "Khác với と (liệt kê toàn bộ).",
+          "orderIndex": 2
+        },
+        {
+          "id": "77777777-1113-0003-0000-000000336001",
+          "patternId": "77777777-1113-0001-0000-000000003007",
+          "exerciseType": "arrange",
+          "prompt": "Buổi sáng tôi ăn bánh mì, salad, v.v...",
+          "expectedAnswer": "私 (わたし)は朝、パンやサラダなど (あさ、パンやサラダなど)を食べます (たべます)",
+          "optionsJson": "[\"は\",\"を\",\"私 (わたし)\",\"食べます (たべます)\",\"朝、パンやサラダなど (あさ、パンやサラダなど)\"]",
+          "options": [
+            "は",
+            "を",
+            "私 (わたし)",
+            "食べます (たべます)",
+            "朝、パンやサラダなど (あさ、パンやサラダなど)"
+          ],
+          "correctOrderJson": "[\"私 (わたし)\",\"は\",\"朝、パンやサラダなど (あさ、パンやサラダなど)\",\"を\",\"食べます (たべます)\"]",
+          "correctOrder": [
+            "私 (わたし)",
+            "は",
+            "朝、パンやサラダなど (あさ、パンやサラダなど)",
+            "を",
+            "食べます (たべます)"
+          ],
+          "orderIndex": 3
+        },
+        {
+          "id": "77777777-1113-0003-0000-000000316002",
+          "patternId": "77777777-1113-0001-0000-000000003007",
+          "exerciseType": "ja_to_vi",
+          "prompt": "鞄の中に本やノートなどがあります。",
+          "promptReading": "かばんのなかにほんやノートなどがあります。",
+          "expectedAnswer": "Trong túi xách có sách, vở, v.v...",
+          "hint": "N1 や N2 など",
+          "explanation": "Khác với と (liệt kê toàn bộ).",
+          "orderIndex": 4
+        },
+        {
+          "id": "77777777-1113-0003-0000-000000326002",
+          "patternId": "77777777-1113-0001-0000-000000003007",
+          "exerciseType": "vi_to_ja",
+          "prompt": "Trong túi xách có sách, vở, v.v...",
+          "expectedAnswer": "鞄の中に本やノートなどがあります。",
+          "acceptableAnswers": [
+            "かばんのなかにほんやノートなどがあります。"
+          ],
+          "hint": "N1 + や + N2 + など",
+          "explanation": "Khác với と (liệt kê toàn bộ).",
+          "orderIndex": 5
+        },
+        {
+          "id": "77777777-1113-0003-0000-000000336002",
+          "patternId": "77777777-1113-0001-0000-000000003007",
+          "exerciseType": "arrange",
+          "prompt": "Trong túi xách có sách, vở, v.v...",
+          "expectedAnswer": "鞄 (かばん)の中 (なか)に本やノートなど (ほんやノートなど)があります",
+          "optionsJson": "[\"が\",\"に\",\"の\",\"中 (なか)\",\"あります\",\"鞄 (かばん)\",\"本やノートなど (ほんやノートなど)\"]",
+          "options": [
+            "が",
+            "に",
+            "の",
+            "中 (なか)",
+            "あります",
+            "鞄 (かばん)",
+            "本やノートなど (ほんやノートなど)"
+          ],
+          "correctOrderJson": "[\"鞄 (かばん)\",\"の\",\"中 (なか)\",\"に\",\"本やノートなど (ほんやノートなど)\",\"が\",\"あります\"]",
+          "correctOrder": [
+            "鞄 (かばん)",
+            "の",
+            "中 (なか)",
+            "に",
+            "本やノートなど (ほんやノートなど)",
+            "が",
+            "あります"
+          ],
+          "orderIndex": 6
+        },
+        {
+          "id": "77777777-1113-0003-0000-000000316003",
+          "patternId": "77777777-1113-0001-0000-000000003007",
+          "exerciseType": "ja_to_vi",
+          "prompt": "店に飲み物や食べ物などがあります。",
+          "promptReading": "みせにのみものやたべものなどがあります。",
+          "expectedAnswer": "Ở cửa hàng có đồ uống, đồ ăn, v.v...",
+          "hint": "N1 や N2 など",
+          "explanation": "Khác với と (liệt kê toàn bộ).",
+          "orderIndex": 7
+        },
+        {
+          "id": "77777777-1113-0003-0000-000000326003",
+          "patternId": "77777777-1113-0001-0000-000000003007",
+          "exerciseType": "vi_to_ja",
+          "prompt": "Ở cửa hàng có đồ uống, đồ ăn, v.v...",
+          "expectedAnswer": "店に飲み物や食べ物などがあります。",
+          "acceptableAnswers": [
+            "みせにのみものやたべものなどがあります。"
+          ],
+          "hint": "N1 + や + N2 + など",
+          "explanation": "Khác với と (liệt kê toàn bộ).",
+          "orderIndex": 8
+        },
+        {
+          "id": "77777777-1113-0003-0000-000000336003",
+          "patternId": "77777777-1113-0001-0000-000000003007",
+          "exerciseType": "arrange",
+          "prompt": "Ở cửa hàng có đồ uống, đồ ăn, v.v...",
+          "expectedAnswer": "店 (みせ)に飲み物や食べ物など (のみものやたべものなど)があります",
+          "optionsJson": "[\"が\",\"に\",\"店 (みせ)\",\"あります\",\"飲み物や食べ物など (のみものやたべものなど)\"]",
+          "options": [
+            "が",
+            "に",
+            "店 (みせ)",
+            "あります",
+            "飲み物や食べ物など (のみものやたべものなど)"
+          ],
+          "correctOrderJson": "[\"店 (みせ)\",\"に\",\"飲み物や食べ物など (のみものやたべものなど)\",\"が\",\"あります\"]",
+          "correctOrder": [
+            "店 (みせ)",
+            "に",
+            "飲み物や食べ物など (のみものやたべものなど)",
+            "が",
+            "あります"
+          ],
+          "orderIndex": 9
+        },
+        {
+          "id": "77777777-1113-0003-0000-000000316004",
+          "patternId": "77777777-1113-0001-0000-000000003007",
+          "exerciseType": "ja_to_vi",
+          "prompt": "休みに旅行やスポーツなどをします。",
+          "promptReading": "やすみにりょこうやすぽーつなどをします。",
+          "expectedAnswer": "Vào kỳ nghỉ tôi đi du lịch, chơi thể thao, v.v...",
+          "hint": "N1 や N2 など",
+          "explanation": "Khác với と (liệt kê toàn bộ).",
+          "orderIndex": 10
+        },
+        {
+          "id": "77777777-1113-0003-0000-000000326004",
+          "patternId": "77777777-1113-0001-0000-000000003007",
+          "exerciseType": "vi_to_ja",
+          "prompt": "Vào kỳ nghỉ tôi đi du lịch, chơi thể thao, v.v...",
+          "expectedAnswer": "休みに旅行やスポーツなどをします。",
+          "acceptableAnswers": [
+            "やすみにりょこうやすぽーつなどをします。"
+          ],
+          "hint": "N1 + や + N2 + など",
+          "explanation": "Khác với と (liệt kê toàn bộ).",
+          "orderIndex": 11
+        },
+        {
+          "id": "77777777-1113-0003-0000-000000336004",
+          "patternId": "77777777-1113-0001-0000-000000003007",
+          "exerciseType": "arrange",
+          "prompt": "Vào kỳ nghỉ tôi đi du lịch, chơi thể thao, v.v...",
+          "expectedAnswer": "休み (やすみ)に旅行やスポーツなど (りょこうやすぽーつなど)をします",
+          "optionsJson": "[\"に\",\"を\",\"します\",\"休み (やすみ)\",\"旅行やスポーツなど (りょこうやすぽーつなど)\"]",
+          "options": [
+            "に",
+            "を",
+            "します",
+            "休み (やすみ)",
+            "旅行やスポーツなど (りょこうやすぽーつなど)"
+          ],
+          "correctOrderJson": "[\"休み (やすみ)\",\"に\",\"旅行やスポーツなど (りょこうやすぽーつなど)\",\"を\",\"します\"]",
+          "correctOrder": [
+            "休み (やすみ)",
+            "に",
+            "旅行やスポーツなど (りょこうやすぽーつなど)",
+            "を",
+            "します"
+          ],
+          "orderIndex": 12
+        },
+        {
+          "id": "77777777-1113-0003-0000-000000316005",
+          "patternId": "77777777-1113-0001-0000-000000003007",
+          "exerciseType": "ja_to_vi",
+          "prompt": "箱の中に写真や手紙などがあります。",
+          "promptReading": "はこのなかにしゃしんやてがみなどがあります。",
+          "expectedAnswer": "Trong hộp có ảnh, thư, v.v...",
+          "hint": "N1 や N2 など",
+          "explanation": "Khác với と (liệt kê toàn bộ).",
+          "orderIndex": 13
+        },
+        {
+          "id": "77777777-1113-0003-0000-000000326005",
+          "patternId": "77777777-1113-0001-0000-000000003007",
+          "exerciseType": "vi_to_ja",
+          "prompt": "Trong hộp có ảnh, thư, v.v...",
+          "expectedAnswer": "箱の中に写真や手紙などがあります。",
+          "acceptableAnswers": [
+            "はこのなかにしゃしんやてがみなどがあります。"
+          ],
+          "hint": "N1 + や + N2 + など",
+          "explanation": "Khác với と (liệt kê toàn bộ).",
+          "orderIndex": 14
+        },
+        {
+          "id": "77777777-1113-0003-0000-000000336005",
+          "patternId": "77777777-1113-0001-0000-000000003007",
+          "exerciseType": "arrange",
+          "prompt": "Trong hộp có ảnh, thư, v.v...",
+          "expectedAnswer": "箱 (はこ)の中 (なか)に写真や手紙など (しゃしんやて)があります",
+          "optionsJson": "[\"が\",\"に\",\"の\",\"中 (なか)\",\"あります\",\"箱 (はこ)\",\"写真や手紙など (しゃしんやて)\"]",
+          "options": [
+            "が",
+            "に",
+            "の",
+            "中 (なか)",
+            "あります",
+            "箱 (はこ)",
+            "写真や手紙など (しゃしんやて)"
+          ],
+          "correctOrderJson": "[\"箱 (はこ)\",\"の\",\"中 (なか)\",\"に\",\"写真や手紙など (しゃしんやて)\",\"が\",\"あります\"]",
+          "correctOrder": [
+            "箱 (はこ)",
+            "の",
+            "中 (なか)",
+            "に",
+            "写真や手紙など (しゃしんやて)",
+            "が",
+            "あります"
+          ],
+          "orderIndex": 15
+        }
+      ]
+    }
+  ]
+}

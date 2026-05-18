@@ -1,0 +1,155 @@
+{
+  "lesson": {
+    "id": "88888888-1123-0000-0000-000000000119",
+    "courseCode": "jpd123",
+    "lessonNumber": 19,
+    "title": "としょかんと カフェの 一日",
+    "description": "Học tập - Một ngày đọc sách, đi cà phê và chuẩn bị cho kỳ thi.",
+    "accessTier": "premium",
+    "packageCode": "speaking_jpd123",
+    "isLocked": true,
+    "sentenceCount": 14
+  },
+  "sentences": [
+    {
+      "id": "88888888-1123-0000-0000-000000019001",
+      "lessonId": "88888888-1123-0000-0000-000000000119",
+      "sentenceNumber": 1,
+      "plainText": "わたしはだいがくの学生です。",
+      "romaji": "watashi wa daigakuno gakusei desu.",
+      "contentHtml": "わたしは だいがくの <ruby>学生<rt>がくせい</rt></ruby> です。",
+      "meaningVi": "Tôi là sinh viên đại học.",
+      "orderIndex": 1
+    },
+    {
+      "id": "88888888-1123-0000-0000-000000019002",
+      "lessonId": "88888888-1123-0000-0000-000000000119",
+      "sentenceNumber": 2,
+      "plainText": "毎週、ともだちととしょかんへ行きます。",
+      "romaji": "maishuu,tomodachito toshokan e ikimasu.",
+      "contentHtml": "<ruby>毎週<rt>まいしゅう</rt></ruby>、ともだちと としょかんへ <ruby>行<rt>い</rt></ruby>きます。",
+      "meaningVi": "Mỗi tuần tôi đi thư viện cùng bạn.",
+      "orderIndex": 2
+    },
+    {
+      "id": "88888888-1123-0000-0000-000000019003",
+      "lessonId": "88888888-1123-0000-0000-000000000119",
+      "sentenceNumber": 3,
+      "plainText": "としょかんで本を読みます。",
+      "romaji": "toshokande hon wo yomimasu.",
+      "contentHtml": "としょかんで <ruby>本<rt>ほん</rt></ruby> を <ruby>読<rt>よ</rt></ruby>みます。",
+      "meaningVi": "Tôi đọc sách ở thư viện.",
+      "orderIndex": 3
+    },
+    {
+      "id": "88888888-1123-0000-0000-000000019004",
+      "lessonId": "88888888-1123-0000-0000-000000000119",
+      "sentenceNumber": 4,
+      "plainText": "わたしはどくしょがすきですから、時間があるとき、よく行きます。",
+      "romaji": "watashi wa dokushoga sukidesukara,jikan ga aru toki,yoku ikimasu.",
+      "contentHtml": "わたしは どくしょが すきですから、<ruby>時間<rt>じかん</rt></ruby> が ある とき、よく <ruby>行<rt>い</rt></ruby>きます。",
+      "meaningVi": "Vì tôi thích đọc sách nên khi có thời gian tôi thường đến đó.",
+      "orderIndex": 4
+    },
+    {
+      "id": "88888888-1123-0000-0000-000000019005",
+      "lessonId": "88888888-1123-0000-0000-000000000119",
+      "sentenceNumber": 5,
+      "plainText": "先週、あたらしい本をさんさつ読みました。",
+      "romaji": "senshuu,atarashii hon wo sansatsu yomimashita.",
+      "contentHtml": "<ruby>先週<rt>せんしゅう</rt></ruby>、あたらしい <ruby>本<rt>ほん</rt></ruby> を さんさつ <ruby>読<rt>よ</rt></ruby>みました。",
+      "meaningVi": "Tuần trước tôi đã đọc ba quyển sách mới.",
+      "orderIndex": 5
+    },
+    {
+      "id": "88888888-1123-0000-0000-000000019006",
+      "lessonId": "88888888-1123-0000-0000-000000000119",
+      "sentenceNumber": 6,
+      "plainText": "その本はとてもおもしろかったです。",
+      "romaji": "sono hon wa totemo omoshirokattadesu.",
+      "contentHtml": "その <ruby>本<rt>ほん</rt></ruby> は とても おもしろかったです。",
+      "meaningVi": "Những quyển sách đó rất thú vị.",
+      "orderIndex": 6
+    },
+    {
+      "id": "88888888-1123-0000-0000-000000019007",
+      "lessonId": "88888888-1123-0000-0000-000000000119",
+      "sentenceNumber": 7,
+      "plainText": "としょかんのあとで、ともだちとカフェへ行きました。",
+      "romaji": "toshokanno atode,tomodachito kafe e ikimashita.",
+      "contentHtml": "としょかんの あとで、ともだちと カフェへ <ruby>行<rt>い</rt></ruby>きました。",
+      "meaningVi": "Sau thư viện, tôi đã đi quán cà phê với bạn.",
+      "orderIndex": 7
+    },
+    {
+      "id": "88888888-1123-0000-0000-000000019008",
+      "lessonId": "88888888-1123-0000-0000-000000000119",
+      "sentenceNumber": 8,
+      "plainText": "コーヒーとケーキを食べました。",
+      "romaji": "ko-hi-to ke-ki wo tabemashita.",
+      "contentHtml": "コーヒーと ケーキを <ruby>食<rt>た</rt></ruby>べました。",
+      "meaningVi": "Chúng tôi đã dùng cà phê và bánh ngọt.",
+      "orderIndex": 8
+    },
+    {
+      "id": "88888888-1123-0000-0000-000000019009",
+      "lessonId": "88888888-1123-0000-0000-000000000119",
+      "sentenceNumber": 9,
+      "plainText": "カフェのおんがくはとてもしずかで、いいじかんでした。",
+      "romaji": "kafeno ongaku wa totemo shizukade,ii jikandeshita.",
+      "contentHtml": "カフェの おんがくは とても しずかで、いい じかんでした。",
+      "meaningVi": "Nhạc ở quán rất nhẹ nhàng nên đó là khoảng thời gian rất dễ chịu.",
+      "orderIndex": 9
+    },
+    {
+      "id": "88888888-1123-0000-0000-000000019010",
+      "lessonId": "88888888-1123-0000-0000-000000000119",
+      "sentenceNumber": 10,
+      "plainText": "そして、スーパーで買い物もしました。",
+      "romaji": "soshite,su-pa-de kaimono mo shimashita.",
+      "contentHtml": "そして、スーパーで <ruby>買い物<rt>かいもの</rt></ruby> も しました。",
+      "meaningVi": "Sau đó chúng tôi cũng đi mua sắm ở siêu thị.",
+      "orderIndex": 10
+    },
+    {
+      "id": "88888888-1123-0000-0000-000000019011",
+      "lessonId": "88888888-1123-0000-0000-000000000119",
+      "sentenceNumber": 11,
+      "plainText": "のみものとパンを買いました。",
+      "romaji": "nomimonoto pan wo kaimashita.",
+      "contentHtml": "のみものと パンを <ruby>買<rt>か</rt></ruby>いました。",
+      "meaningVi": "Tôi đã mua đồ uống và bánh mì.",
+      "orderIndex": 11
+    },
+    {
+      "id": "88888888-1123-0000-0000-000000019012",
+      "lessonId": "88888888-1123-0000-0000-000000000119",
+      "sentenceNumber": 12,
+      "plainText": "らいしゅうはテストがありますから、こんしゅうは毎日べんきょうします。",
+      "romaji": "raishuu wa tesutoga arimasukara,konshuu wa mainichi benkyoushimasu.",
+      "contentHtml": "らいしゅうは テストが ありますから、こんしゅうは <ruby>毎日<rt>まいにち</rt></ruby> べんきょうします。",
+      "meaningVi": "Vì tuần sau có bài kiểm tra nên tuần này tôi học mỗi ngày.",
+      "orderIndex": 12
+    },
+    {
+      "id": "88888888-1123-0000-0000-000000019013",
+      "lessonId": "88888888-1123-0000-0000-000000000119",
+      "sentenceNumber": 13,
+      "plainText": "でも、すこし休みも大切だとおもいます。",
+      "romaji": "demo,sukoshi yasumimo taisetsu dato omoimasu.",
+      "contentHtml": "でも、すこし <ruby>休<rt>やす</rt></ruby>みも <ruby>大切<rt>たいせつ</rt></ruby> だと おもいます。",
+      "meaningVi": "Nhưng tôi nghĩ nghỉ ngơi một chút cũng rất quan trọng.",
+      "orderIndex": 13
+    },
+    {
+      "id": "88888888-1123-0000-0000-000000019014",
+      "lessonId": "88888888-1123-0000-0000-000000000119",
+      "sentenceNumber": 14,
+      "plainText": "だから、アニメを見て、リラックスします。",
+      "romaji": "dakara,anime wo mite,rirakkusushimasu.",
+      "contentHtml": "だから、アニメを <ruby>見<rt>み</rt></ruby>て、リラックスします。",
+      "meaningVi": "Vì vậy tôi xem anime để thư giãn.",
+      "orderIndex": 14
+    }
+  ]
+}

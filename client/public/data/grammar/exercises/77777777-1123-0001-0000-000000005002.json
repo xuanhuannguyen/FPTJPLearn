@@ -1,0 +1,244 @@
+[
+  {
+    "id": "77777777-1123-0003-0000-000000511001",
+    "patternId": "77777777-1123-0001-0000-000000005002",
+    "exerciseType": "ja_to_vi",
+    "prompt": "旅行はとても楽しかったです。",
+    "promptReading": "りょこうはとてもたのしかったです。",
+    "expectedAnswer": "Chuyến du lịch đã rất vui.",
+    "hint": "A かったです / かったくないです",
+    "explanation": "Rất quan trọng với tính từ đuôi い.",
+    "orderIndex": 1
+  },
+  {
+    "id": "77777777-1123-0003-0000-000000521001",
+    "patternId": "77777777-1123-0001-0000-000000005002",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Chuyến du lịch đã rất vui.",
+    "expectedAnswer": "旅行はとても楽しかったです。",
+    "acceptableAnswers": [
+      "りょこうはとてもたのしかったです。"
+    ],
+    "hint": "i-adj: かったです / くなかったです; na-adj: でした / じゃありませんでした",
+    "explanation": "Rất quan trọng với tính từ đuôi い.",
+    "orderIndex": 2
+  },
+  {
+    "id": "77777777-1123-0003-0000-000000531001",
+    "patternId": "77777777-1123-0001-0000-000000005002",
+    "exerciseType": "arrange",
+    "prompt": "Chuyến du lịch đã rất vui.",
+    "expectedAnswer": "旅行 (りょこう)はとても楽しかった (たのしかった)です",
+    "optionsJson": "[\"て\",\"と\",\"は\",\"も\",\"です\",\"旅行 (りょこう)\",\"楽しかった (たのしかった)\"]",
+    "options": [
+      "て",
+      "と",
+      "は",
+      "も",
+      "です",
+      "旅行 (りょこう)",
+      "楽しかった (たのしかった)"
+    ],
+    "correctOrderJson": "[\"旅行 (りょこう)\",\"は\",\"と\",\"て\",\"も\",\"楽しかった (たのしかった)\",\"です\"]",
+    "correctOrder": [
+      "旅行 (りょこう)",
+      "は",
+      "と",
+      "て",
+      "も",
+      "楽しかった (たのしかった)",
+      "です"
+    ],
+    "orderIndex": 3
+  },
+  {
+    "id": "77777777-1123-0003-0000-000000511002",
+    "patternId": "77777777-1123-0001-0000-000000005002",
+    "exerciseType": "ja_to_vi",
+    "prompt": "昨日は寒くなかったです。",
+    "promptReading": "きのうはさむくなかったです。",
+    "expectedAnswer": "Hôm qua đã không lạnh.",
+    "hint": "A かったです / かったくないです",
+    "explanation": "Rất quan trọng với tính từ đuôi い.",
+    "orderIndex": 4
+  },
+  {
+    "id": "77777777-1123-0003-0000-000000521002",
+    "patternId": "77777777-1123-0001-0000-000000005002",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Hôm qua đã không lạnh.",
+    "expectedAnswer": "昨日は寒くなかったです。",
+    "acceptableAnswers": [
+      "きのうはさむくなかったです。"
+    ],
+    "hint": "i-adj: かったです / くなかったです; na-adj: でした / じゃありませんでした",
+    "explanation": "Rất quan trọng với tính từ đuôi い.",
+    "orderIndex": 5
+  },
+  {
+    "id": "77777777-1123-0003-0000-000000531002",
+    "patternId": "77777777-1123-0001-0000-000000005002",
+    "exerciseType": "arrange",
+    "prompt": "Hôm qua đã không lạnh.",
+    "expectedAnswer": "昨日 (きのう)は寒くなかった (さむくなかった)です",
+    "optionsJson": "[\"は\",\"です\",\"昨日 (きのう)\",\"寒くなかった (さむくなかった)\"]",
+    "options": [
+      "は",
+      "です",
+      "昨日 (きのう)",
+      "寒くなかった (さむくなかった)"
+    ],
+    "correctOrderJson": "[\"昨日 (きのう)\",\"は\",\"寒くなかった (さむくなかった)\",\"です\"]",
+    "correctOrder": [
+      "昨日 (きのう)",
+      "は",
+      "寒くなかった (さむくなかった)",
+      "です"
+    ],
+    "orderIndex": 6
+  },
+  {
+    "id": "77777777-1123-0003-0000-000000511003",
+    "patternId": "77777777-1123-0001-0000-000000005002",
+    "exerciseType": "ja_to_vi",
+    "prompt": "試験は少し難しかったです。",
+    "promptReading": "しけんはすこしむずかしかったです。",
+    "expectedAnswer": "Kỳ thi đã hơi khó một chút.",
+    "hint": "A かったです / かったくないです",
+    "explanation": "Rất quan trọng với tính từ đuôi い.",
+    "orderIndex": 7
+  },
+  {
+    "id": "77777777-1123-0003-0000-000000521003",
+    "patternId": "77777777-1123-0001-0000-000000005002",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Kỳ thi đã hơi khó một chút.",
+    "expectedAnswer": "試験は少し難しかったです。",
+    "acceptableAnswers": [
+      "しけんはすこしむずかしかったです。"
+    ],
+    "hint": "i-adj: かったです / くなかったです; na-adj: でした / じゃありませんでした",
+    "explanation": "Rất quan trọng với tính từ đuôi い.",
+    "orderIndex": 8
+  },
+  {
+    "id": "77777777-1123-0003-0000-000000531003",
+    "patternId": "77777777-1123-0001-0000-000000005002",
+    "exerciseType": "arrange",
+    "prompt": "Kỳ thi đã hơi khó một chút.",
+    "expectedAnswer": "試験 (しけん)は少し難しかった (すこしむずかしかった)です",
+    "optionsJson": "[\"は\",\"です\",\"試験 (しけん)\",\"少し難しかった (すこしむずかしかった)\"]",
+    "options": [
+      "は",
+      "です",
+      "試験 (しけん)",
+      "少し難しかった (すこしむずかしかった)"
+    ],
+    "correctOrderJson": "[\"試験 (しけん)\",\"は\",\"少し難しかった (すこしむずかしかった)\",\"です\"]",
+    "correctOrder": [
+      "試験 (しけん)",
+      "は",
+      "少し難しかった (すこしむずかしかった)",
+      "です"
+    ],
+    "orderIndex": 9
+  },
+  {
+    "id": "77777777-1123-0003-0000-000000511004",
+    "patternId": "77777777-1123-0001-0000-000000005002",
+    "exerciseType": "ja_to_vi",
+    "prompt": "天気はよかったです。",
+    "promptReading": "てんきはよかったです。",
+    "expectedAnswer": "Thời tiết đã rất tốt.",
+    "hint": "A かったです / かったくないです",
+    "explanation": "Rất quan trọng với tính từ đuôi い.",
+    "orderIndex": 10
+  },
+  {
+    "id": "77777777-1123-0003-0000-000000521004",
+    "patternId": "77777777-1123-0001-0000-000000005002",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Thời tiết đã rất tốt.",
+    "expectedAnswer": "天気はよかったです。",
+    "acceptableAnswers": [
+      "てんきはよかったです。"
+    ],
+    "hint": "i-adj: かったです / くなかったです; na-adj: でした / じゃありませんでした",
+    "explanation": "Rất quan trọng với tính từ đuôi い.",
+    "orderIndex": 11
+  },
+  {
+    "id": "77777777-1123-0003-0000-000000531004",
+    "patternId": "77777777-1123-0001-0000-000000005002",
+    "exerciseType": "arrange",
+    "prompt": "Thời tiết đã rất tốt.",
+    "expectedAnswer": "天気 (てんき)はよかったです",
+    "optionsJson": "[\"は\",\"です\",\"よかった\",\"天気 (てんき)\"]",
+    "options": [
+      "は",
+      "です",
+      "よかった",
+      "天気 (てんき)"
+    ],
+    "correctOrderJson": "[\"天気 (てんき)\",\"は\",\"よかった\",\"です\"]",
+    "correctOrder": [
+      "天気 (てんき)",
+      "は",
+      "よかった",
+      "です"
+    ],
+    "orderIndex": 12
+  },
+  {
+    "id": "77777777-1123-0003-0000-000000511005",
+    "patternId": "77777777-1123-0001-0000-000000005002",
+    "exerciseType": "ja_to_vi",
+    "prompt": "お祭りはとても賑やかでした。",
+    "promptReading": "おまつりはとてもにぎやかでした。",
+    "expectedAnswer": "Lễ hội đã rất nhộn nhịp.",
+    "hint": "A かったです / かったくないです",
+    "explanation": "Rất quan trọng với tính từ đuôi い.",
+    "orderIndex": 13
+  },
+  {
+    "id": "77777777-1123-0003-0000-000000521005",
+    "patternId": "77777777-1123-0001-0000-000000005002",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Lễ hội đã rất nhộn nhịp.",
+    "expectedAnswer": "お祭りはとても賑やかでした。",
+    "acceptableAnswers": [
+      "おまつりはとてもにぎやかでした。"
+    ],
+    "hint": "i-adj: かったです / くなかったです; na-adj: でした / じゃありませんでした",
+    "explanation": "Rất quan trọng với tính từ đuôi い.",
+    "orderIndex": 14
+  },
+  {
+    "id": "77777777-1123-0003-0000-000000531005",
+    "patternId": "77777777-1123-0001-0000-000000005002",
+    "exerciseType": "arrange",
+    "prompt": "Lễ hội đã rất nhộn nhịp.",
+    "expectedAnswer": "お祭り (おまつり)はとても賑やか (にぎやか)でした",
+    "optionsJson": "[\"て\",\"と\",\"は\",\"も\",\"でした\",\"お祭り (おまつり)\",\"賑やか (にぎやか)\"]",
+    "options": [
+      "て",
+      "と",
+      "は",
+      "も",
+      "でした",
+      "お祭り (おまつり)",
+      "賑やか (にぎやか)"
+    ],
+    "correctOrderJson": "[\"お祭り (おまつり)\",\"は\",\"と\",\"て\",\"も\",\"賑やか (にぎやか)\",\"でした\"]",
+    "correctOrder": [
+      "お祭り (おまつり)",
+      "は",
+      "と",
+      "て",
+      "も",
+      "賑やか (にぎやか)",
+      "でした"
+    ],
+    "orderIndex": 15
+  }
+]

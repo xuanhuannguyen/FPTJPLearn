@@ -1,0 +1,264 @@
+[
+  {
+    "id": "77777777-1123-0003-0000-000000414001",
+    "patternId": "77777777-1123-0001-0000-000000004005",
+    "exerciseType": "ja_to_vi",
+    "prompt": "ハノイは今とても寒いです。",
+    "promptReading": "ハノイはいまとてもさむいです。",
+    "expectedAnswer": "Hà Nội bây giờ rất lạnh.",
+    "hint": "とても / すこし + A",
+    "explanation": "Dùng trong câu khẳng định.",
+    "orderIndex": 1
+  },
+  {
+    "id": "77777777-1123-0003-0000-000000424001",
+    "patternId": "77777777-1123-0001-0000-000000004005",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Hà Nội bây giờ rất lạnh.",
+    "expectedAnswer": "ハノイは今とても寒いです。",
+    "acceptableAnswers": [
+      "ハノイはいまとてもさむいです。"
+    ],
+    "hint": "Đứng trước tính từ.",
+    "explanation": "Dùng trong câu khẳng định.",
+    "orderIndex": 2
+  },
+  {
+    "id": "77777777-1123-0003-0000-000000434001",
+    "patternId": "77777777-1123-0001-0000-000000004005",
+    "exerciseType": "arrange",
+    "prompt": "Hà Nội bây giờ rất lạnh.",
+    "expectedAnswer": "ハノイは今 (いま)とても寒い (さむい)です",
+    "optionsJson": "[\"て\",\"と\",\"は\",\"も\",\"です\",\"ハノイ\",\"今 (いま)\",\"寒い (さむい)\"]",
+    "options": [
+      "て",
+      "と",
+      "は",
+      "も",
+      "です",
+      "ハノイ",
+      "今 (いま)",
+      "寒い (さむい)"
+    ],
+    "correctOrderJson": "[\"ハノイ\",\"は\",\"今 (いま)\",\"と\",\"て\",\"も\",\"寒い (さむい)\",\"です\"]",
+    "correctOrder": [
+      "ハノイ",
+      "は",
+      "今 (いま)",
+      "と",
+      "て",
+      "も",
+      "寒い (さむい)",
+      "です"
+    ],
+    "orderIndex": 3
+  },
+  {
+    "id": "77777777-1123-0003-0000-000000414002",
+    "patternId": "77777777-1123-0001-0000-000000004005",
+    "exerciseType": "ja_to_vi",
+    "prompt": "この辞書は少し高いです。",
+    "promptReading": "このじしょはすこしたかいです。",
+    "expectedAnswer": "Cuốn từ điển này hơi đắt.",
+    "hint": "とても / すこし + A",
+    "explanation": "Dùng trong câu khẳng định.",
+    "orderIndex": 4
+  },
+  {
+    "id": "77777777-1123-0003-0000-000000424002",
+    "patternId": "77777777-1123-0001-0000-000000004005",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Cuốn từ điển này hơi đắt.",
+    "expectedAnswer": "この辞書は少し高いです。",
+    "acceptableAnswers": [
+      "このじしょはすこしたかいです。"
+    ],
+    "hint": "Đứng trước tính từ.",
+    "explanation": "Dùng trong câu khẳng định.",
+    "orderIndex": 5
+  },
+  {
+    "id": "77777777-1123-0003-0000-000000434002",
+    "patternId": "77777777-1123-0001-0000-000000004005",
+    "exerciseType": "arrange",
+    "prompt": "Cuốn từ điển này hơi đắt.",
+    "expectedAnswer": "この辞書 (じしょ)は少し高い (すこしたかい)です",
+    "optionsJson": "[\"こ\",\"の\",\"は\",\"です\",\"辞書 (じしょ)\",\"少し高い (すこしたかい)\"]",
+    "options": [
+      "こ",
+      "の",
+      "は",
+      "です",
+      "辞書 (じしょ)",
+      "少し高い (すこしたかい)"
+    ],
+    "correctOrderJson": "[\"こ\",\"の\",\"辞書 (じしょ)\",\"は\",\"少し高い (すこしたかい)\",\"です\"]",
+    "correctOrder": [
+      "こ",
+      "の",
+      "辞書 (じしょ)",
+      "は",
+      "少し高い (すこしたかい)",
+      "です"
+    ],
+    "orderIndex": 6
+  },
+  {
+    "id": "77777777-1123-0003-0000-000000414003",
+    "patternId": "77777777-1123-0001-0000-000000004005",
+    "exerciseType": "ja_to_vi",
+    "prompt": "日本語はとてもおもしろいです。",
+    "promptReading": "にほんごはとてもおもしろいです。",
+    "expectedAnswer": "Tiếng Nhật rất thú vị.",
+    "hint": "とても / すこし + A",
+    "explanation": "Dùng trong câu khẳng định.",
+    "orderIndex": 7
+  },
+  {
+    "id": "77777777-1123-0003-0000-000000424003",
+    "patternId": "77777777-1123-0001-0000-000000004005",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Tiếng Nhật rất thú vị.",
+    "expectedAnswer": "日本語はとてもおもしろいです。",
+    "acceptableAnswers": [
+      "にほんごはとてもおもしろいです。"
+    ],
+    "hint": "Đứng trước tính từ.",
+    "explanation": "Dùng trong câu khẳng định.",
+    "orderIndex": 8
+  },
+  {
+    "id": "77777777-1123-0003-0000-000000434003",
+    "patternId": "77777777-1123-0001-0000-000000004005",
+    "exerciseType": "arrange",
+    "prompt": "Tiếng Nhật rất thú vị.",
+    "expectedAnswer": "日本語 (にほんご)はとてもおもしろいです",
+    "optionsJson": "[\"お\",\"て\",\"と\",\"は\",\"も\",\"も\",\"です\",\"しろい\",\"日本語 (にほんご)\"]",
+    "options": [
+      "お",
+      "て",
+      "と",
+      "は",
+      "も",
+      "も",
+      "です",
+      "しろい",
+      "日本語 (にほんご)"
+    ],
+    "correctOrderJson": "[\"日本語 (にほんご)\",\"は\",\"と\",\"て\",\"も\",\"お\",\"も\",\"しろい\",\"です\"]",
+    "correctOrder": [
+      "日本語 (にほんご)",
+      "は",
+      "と",
+      "て",
+      "も",
+      "お",
+      "も",
+      "しろい",
+      "です"
+    ],
+    "orderIndex": 9
+  },
+  {
+    "id": "77777777-1123-0003-0000-000000414004",
+    "patternId": "77777777-1123-0001-0000-000000004005",
+    "exerciseType": "ja_to_vi",
+    "prompt": "この部屋は少し狭いです。",
+    "promptReading": "このへやはすこしせまいです。",
+    "expectedAnswer": "Căn phòng này hơi hẹp.",
+    "hint": "とても / すこし + A",
+    "explanation": "Dùng trong câu khẳng định.",
+    "orderIndex": 10
+  },
+  {
+    "id": "77777777-1123-0003-0000-000000424004",
+    "patternId": "77777777-1123-0001-0000-000000004005",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Căn phòng này hơi hẹp.",
+    "expectedAnswer": "この部屋は少し狭いです。",
+    "acceptableAnswers": [
+      "このへやはすこしせまいです。"
+    ],
+    "hint": "Đứng trước tính từ.",
+    "explanation": "Dùng trong câu khẳng định.",
+    "orderIndex": 11
+  },
+  {
+    "id": "77777777-1123-0003-0000-000000434004",
+    "patternId": "77777777-1123-0001-0000-000000004005",
+    "exerciseType": "arrange",
+    "prompt": "Căn phòng này hơi hẹp.",
+    "expectedAnswer": "この部屋 (へや)は少し狭い (すこしせまい)です",
+    "optionsJson": "[\"こ\",\"の\",\"は\",\"です\",\"部屋 (へや)\",\"少し狭い (すこしせまい)\"]",
+    "options": [
+      "こ",
+      "の",
+      "は",
+      "です",
+      "部屋 (へや)",
+      "少し狭い (すこしせまい)"
+    ],
+    "correctOrderJson": "[\"こ\",\"の\",\"部屋 (へや)\",\"は\",\"少し狭い (すこしせまい)\",\"です\"]",
+    "correctOrder": [
+      "こ",
+      "の",
+      "部屋 (へや)",
+      "は",
+      "少し狭い (すこしせまい)",
+      "です"
+    ],
+    "orderIndex": 12
+  },
+  {
+    "id": "77777777-1123-0003-0000-000000414005",
+    "patternId": "77777777-1123-0001-0000-000000004005",
+    "exerciseType": "ja_to_vi",
+    "prompt": "昨日はとても暇でした。",
+    "promptReading": "きのうはとてもひまでした。",
+    "expectedAnswer": "Hôm qua tôi đã rất rảnh rỗi.",
+    "hint": "とても / すこし + A",
+    "explanation": "Dùng trong câu khẳng định.",
+    "orderIndex": 13
+  },
+  {
+    "id": "77777777-1123-0003-0000-000000424005",
+    "patternId": "77777777-1123-0001-0000-000000004005",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Hôm qua tôi đã rất rảnh rỗi.",
+    "expectedAnswer": "昨日はとても暇でした。",
+    "acceptableAnswers": [
+      "きのうはとてもひまでした。"
+    ],
+    "hint": "Đứng trước tính từ.",
+    "explanation": "Dùng trong câu khẳng định.",
+    "orderIndex": 14
+  },
+  {
+    "id": "77777777-1123-0003-0000-000000434005",
+    "patternId": "77777777-1123-0001-0000-000000004005",
+    "exerciseType": "arrange",
+    "prompt": "Hôm qua tôi đã rất rảnh rỗi.",
+    "expectedAnswer": "昨日 (きのう)はとても暇 (ひま)でした",
+    "optionsJson": "[\"て\",\"と\",\"は\",\"も\",\"でした\",\"暇 (ひま)\",\"昨日 (きのう)\"]",
+    "options": [
+      "て",
+      "と",
+      "は",
+      "も",
+      "でした",
+      "暇 (ひま)",
+      "昨日 (きのう)"
+    ],
+    "correctOrderJson": "[\"昨日 (きのう)\",\"は\",\"と\",\"て\",\"も\",\"暇 (ひま)\",\"でした\"]",
+    "correctOrder": [
+      "昨日 (きのう)",
+      "は",
+      "と",
+      "て",
+      "も",
+      "暇 (ひま)",
+      "でした"
+    ],
+    "orderIndex": 15
+  }
+]

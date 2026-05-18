@@ -1,0 +1,55 @@
+{
+  "lesson": {
+    "id": "88888888-1113-0000-0000-000000000121",
+    "courseCode": "jpd113",
+    "lessonNumber": 21,
+    "title": "ディズニーランド",
+    "description": "Vui chơi - Gặp bạn và đi chơi ở Disneyland.",
+    "accessTier": "premium",
+    "packageCode": "speaking_jpd113",
+    "isLocked": true,
+    "sentenceCount": 4
+  },
+  "sentences": [
+    {
+      "id": "88888888-1113-0000-0000-000000021001",
+      "lessonId": "88888888-1113-0000-0000-000000000121",
+      "sentenceNumber": 1,
+      "plainText": "らいしゅうの土曜日、日本人のともだちとあいます。",
+      "romaji": "raishuuno doyoubi,nihonjinno tomodachito aimasu.",
+      "contentHtml": "<ruby>らいしゅう<rt>らいしゅう</rt></ruby>の <ruby>土曜日<rt>どようび</rt></ruby>、<ruby>日本人<rt>にほんじん</rt></ruby>の <ruby>ともだち<rt>ともだち</rt></ruby>と <ruby>あ<rt>あ</rt></ruby>います。",
+      "meaningVi": "Thứ bảy tuần sau, tôi sẽ gặp một người bạn Nhật Bản.",
+      "orderIndex": 1
+    },
+    {
+      "id": "88888888-1113-0000-0000-000000021002",
+      "lessonId": "88888888-1113-0000-0000-000000000121",
+      "sentenceNumber": 2,
+      "plainText": "ごぜん六時にラーメンやでばんごはんをたべます。",
+      "romaji": "gozenrokujini ra-menyade bangohan wo tabemasu.",
+      "contentHtml": "<ruby>ごぜん<rt>ごぜん</rt></ruby><ruby>六時<rt>ろくじ</rt></ruby>に ラーメンやで ばんごはんを <ruby>た<rt>た</rt></ruby>べます。",
+      "meaningVi": "Lúc 6 giờ sáng (?) tôi ăn cơm tối ở tiệm Ramen.",
+      "orderIndex": 2
+    },
+    {
+      "id": "88888888-1113-0000-0000-000000021003",
+      "lessonId": "88888888-1113-0000-0000-000000000121",
+      "sentenceNumber": 3,
+      "plainText": "それから、ごご十二時にディズニーランドへ行きます。",
+      "romaji": "sorekara, gogojuunijini dizuni-rando e ikimasu.",
+      "contentHtml": "それから、 <ruby>ごご<rt>ごご</rt></ruby><ruby>十二時<rt>じゅうにじ</rt></ruby>に ディズニーランドへ <ruby>行<rt>い</rt></ruby>きます。",
+      "meaningVi": "Sau đó, lúc 12 giờ trưa tôi đi Disneyland.",
+      "orderIndex": 3
+    },
+    {
+      "id": "88888888-1113-0000-0000-000000021004",
+      "lessonId": "88888888-1113-0000-0000-000000000121",
+      "sentenceNumber": 4,
+      "plainText": "ここでしゃしんをたくさんとりたいです。",
+      "romaji": "kokode shashin wo takusan toritaidesu.",
+      "contentHtml": "ここで <ruby>しゃしん<rt>しゃしん</rt></ruby>を たくさん <ruby>と<rt>と</rt></ruby>りたいです。",
+      "meaningVi": "Tôi muốn chụp thật nhiều ảnh ở đây.",
+      "orderIndex": 4
+    }
+  ]
+}

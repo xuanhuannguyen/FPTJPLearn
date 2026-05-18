@@ -1,0 +1,105 @@
+{
+  "lesson": {
+    "id": "88888888-1123-0000-0000-000000000112",
+    "courseCode": "jpd123",
+    "lessonNumber": 12,
+    "title": "テニスを 見るのが すきです",
+    "description": "Thể thao - Không giỏi chơi tennis nhưng rất thích đi xem thi đấu.",
+    "accessTier": "premium",
+    "packageCode": "speaking_jpd123",
+    "isLocked": true,
+    "sentenceCount": 9
+  },
+  "sentences": [
+    {
+      "id": "88888888-1123-0000-0000-000000012001",
+      "lessonId": "88888888-1123-0000-0000-000000000112",
+      "sentenceNumber": 1,
+      "plainText": "今日は五月十三日です。",
+      "romaji": "kyou wa gogatsujuusannichi desu.",
+      "contentHtml": "<ruby>今日<rt>きょう</rt></ruby> は <ruby>五月十三日<rt>ごがつじゅうさんにち</rt></ruby> です。",
+      "meaningVi": "Hôm nay là ngày 13 tháng 5.",
+      "orderIndex": 1
+    },
+    {
+      "id": "88888888-1123-0000-0000-000000012002",
+      "lessonId": "88888888-1123-0000-0000-000000000112",
+      "sentenceNumber": 2,
+      "plainText": "テニスを見に行きました。",
+      "romaji": "tenisu wo mini ikimashita.",
+      "contentHtml": "テニスを <ruby>見<rt>み</rt></ruby>に <ruby>行<rt>い</rt></ruby>きました。",
+      "meaningVi": "Tôi đã đi xem tennis.",
+      "orderIndex": 2
+    },
+    {
+      "id": "88888888-1123-0000-0000-000000012003",
+      "lessonId": "88888888-1123-0000-0000-000000000112",
+      "sentenceNumber": 3,
+      "plainText": "私はテニスをするのがすきじゃありません。",
+      "romaji": "watashi wa tenisu wo surunoga sukijaarimasen.",
+      "contentHtml": "<ruby>私<rt>わたし</rt></ruby> は テニスを するのが すきじゃありません。",
+      "meaningVi": "Tôi không thích chơi tennis.",
+      "orderIndex": 3
+    },
+    {
+      "id": "88888888-1123-0000-0000-000000012004",
+      "lessonId": "88888888-1123-0000-0000-000000000112",
+      "sentenceNumber": 4,
+      "plainText": "うんどうがじょうずじゃありませんから。",
+      "romaji": "undouga jouzujaarimasenkara.",
+      "contentHtml": "うんどうが じょうずじゃありませんから。",
+      "meaningVi": "Vì tôi không giỏi thể thao.",
+      "orderIndex": 4
+    },
+    {
+      "id": "88888888-1123-0000-0000-000000012005",
+      "lessonId": "88888888-1123-0000-0000-000000000112",
+      "sentenceNumber": 5,
+      "plainText": "でも、見るのがだいすきです。",
+      "romaji": "demo,mirunoga daisukidesu.",
+      "contentHtml": "でも、<ruby>見<rt>み</rt></ruby>るのが だいすきです。",
+      "meaningVi": "Nhưng tôi lại rất thích xem.",
+      "orderIndex": 5
+    },
+    {
+      "id": "88888888-1123-0000-0000-000000012006",
+      "lessonId": "88888888-1123-0000-0000-000000000112",
+      "sentenceNumber": 6,
+      "plainText": "まい日曜日ともだちとスタジアムにいって、テニスを見ます。",
+      "romaji": "mainichiyoubi tomodachito sutajiamuni itte,tenisu wo mimasu.",
+      "contentHtml": "まい<ruby>日曜日<rt>にちようび</rt></ruby> ともだちと スタジアムに いって、テニスを <ruby>見<rt>み</rt></ruby>ます。",
+      "meaningVi": "Mỗi chủ nhật tôi đi sân vận động cùng bạn để xem tennis.",
+      "orderIndex": 6
+    },
+    {
+      "id": "88888888-1123-0000-0000-000000012007",
+      "lessonId": "88888888-1123-0000-0000-000000000112",
+      "sentenceNumber": 7,
+      "plainText": "今日は、私のすきなせんしゅがかちました。",
+      "romaji": "kyou wa,watashi no sukina senshuga kachimashita.",
+      "contentHtml": "<ruby>今日<rt>きょう</rt></ruby> は、<ruby>私<rt>わたし</rt></ruby> の すきな せんしゅが かちました。",
+      "meaningVi": "Hôm nay vận động viên tôi yêu thích đã thắng.",
+      "orderIndex": 7
+    },
+    {
+      "id": "88888888-1123-0000-0000-000000012008",
+      "lessonId": "88888888-1123-0000-0000-000000000112",
+      "sentenceNumber": 8,
+      "plainText": "うれしかったです。",
+      "romaji": "ureshikattadesu.",
+      "contentHtml": "うれしかったです。",
+      "meaningVi": "Tôi đã rất vui.",
+      "orderIndex": 8
+    },
+    {
+      "id": "88888888-1123-0000-0000-000000012009",
+      "lessonId": "88888888-1123-0000-0000-000000000112",
+      "sentenceNumber": 9,
+      "plainText": "来週ももういっかい見に行くつもりです。",
+      "romaji": "raishuu mo mou ikkai mini iku tsumoridesu.",
+      "contentHtml": "<ruby>来週<rt>らいしゅう</rt></ruby> も もう いっかい <ruby>見<rt>み</rt></ruby>に <ruby>行<rt>い</rt></ruby>く つもりです。",
+      "meaningVi": "Tuần sau tôi cũng định đi xem thêm một lần nữa.",
+      "orderIndex": 9
+    }
+  ]
+}

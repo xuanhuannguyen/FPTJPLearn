@@ -1,0 +1,95 @@
+{
+  "lesson": {
+    "id": "88888888-1123-0000-0000-000000000124",
+    "courseCode": "jpd123",
+    "lessonNumber": 24,
+    "title": "にほんへ 行きたいです",
+    "description": "Kế hoạch - Bận rộn vì bài kiểm tra nhưng vẫn có thời gian đi ăn với bạn.",
+    "accessTier": "premium",
+    "packageCode": "speaking_jpd123",
+    "isLocked": true,
+    "sentenceCount": 8
+  },
+  "sentences": [
+    {
+      "id": "88888888-1123-0000-0000-000000024001",
+      "lessonId": "88888888-1123-0000-0000-000000000124",
+      "sentenceNumber": 1,
+      "plainText": "わたしは来年にほんへ行きたいです。",
+      "romaji": "watashi wa rainen nihon e ikitaidesu.",
+      "contentHtml": "わたしは <ruby>来年<rt>らいねん</rt></ruby> にほんへ <ruby>行<rt>い</rt></ruby>きたいです。",
+      "meaningVi": "Năm sau tôi muốn đi Nhật Bản.",
+      "orderIndex": 1
+    },
+    {
+      "id": "88888888-1123-0000-0000-000000024002",
+      "lessonId": "88888888-1123-0000-0000-000000000124",
+      "sentenceNumber": 2,
+      "plainText": "来月、テストがありますから、いまとてもいそがしいです。",
+      "romaji": "raigetsu,tesutoga arimasukara,ima totemo isogashiidesu.",
+      "contentHtml": "<ruby>来月<rt>らいげつ</rt></ruby>、テストが ありますから、いま とても いそがしいです。",
+      "meaningVi": "Vì tháng sau có bài kiểm tra nên bây giờ tôi rất bận.",
+      "orderIndex": 2
+    },
+    {
+      "id": "88888888-1123-0000-0000-000000024003",
+      "lessonId": "88888888-1123-0000-0000-000000000124",
+      "sentenceNumber": 3,
+      "plainText": "来週もべんきょうのよていがあります。",
+      "romaji": "raishuu mo benkyouno yoteiga arimasu.",
+      "contentHtml": "<ruby>来週<rt>らいしゅう</rt></ruby> も べんきょうの よていが あります。",
+      "meaningVi": "Tuần sau tôi cũng có kế hoạch học tập.",
+      "orderIndex": 3
+    },
+    {
+      "id": "88888888-1123-0000-0000-000000024004",
+      "lessonId": "88888888-1123-0000-0000-000000000124",
+      "sentenceNumber": 4,
+      "plainText": "きょう、ともだちと会いました。",
+      "romaji": "kyou,tomodachito aimashita.",
+      "contentHtml": "きょう、ともだちと <ruby>会<rt>あ</rt></ruby>いました。",
+      "meaningVi": "Hôm nay tôi đã gặp bạn.",
+      "orderIndex": 4
+    },
+    {
+      "id": "88888888-1123-0000-0000-000000024005",
+      "lessonId": "88888888-1123-0000-0000-000000000124",
+      "sentenceNumber": 5,
+      "plainText": "いっしょにホテルのレストランへ行きました。",
+      "romaji": "isshoni hoteruno resutoran e ikimashita.",
+      "contentHtml": "いっしょに ホテルの レストランへ <ruby>行<rt>い</rt></ruby>きました。",
+      "meaningVi": "Chúng tôi đã cùng đi đến nhà hàng trong khách sạn.",
+      "orderIndex": 5
+    },
+    {
+      "id": "88888888-1123-0000-0000-000000024006",
+      "lessonId": "88888888-1123-0000-0000-000000000124",
+      "sentenceNumber": 6,
+      "plainText": "パスタとサラダを食べて、たのしいじかんをすごしました。",
+      "romaji": "pasutato sarada wo tabete,tanoshii jikan wo sugoshimashita.",
+      "contentHtml": "パスタと サラダを <ruby>食<rt>た</rt></ruby>べて、たのしい じかんを すごしました。",
+      "meaningVi": "Chúng tôi ăn pasta và salad rồi trải qua một khoảng thời gian vui vẻ.",
+      "orderIndex": 6
+    },
+    {
+      "id": "88888888-1123-0000-0000-000000024007",
+      "lessonId": "88888888-1123-0000-0000-000000000124",
+      "sentenceNumber": 7,
+      "plainText": "ホテルはとてもきれいで、しずかでした。",
+      "romaji": "hoteru wa totemo kireide,shizukadeshita.",
+      "contentHtml": "ホテルは とても きれいで、しずかでした。",
+      "meaningVi": "Khách sạn rất đẹp và yên tĩnh.",
+      "orderIndex": 7
+    },
+    {
+      "id": "88888888-1123-0000-0000-000000024008",
+      "lessonId": "88888888-1123-0000-0000-000000000124",
+      "sentenceNumber": 8,
+      "plainText": "すこしたかいですが、また行きたいとおもいます。",
+      "romaji": "sukoshi takaidesuga,mata ikitaito omoimasu.",
+      "contentHtml": "すこし たかいですが、また <ruby>行<rt>い</rt></ruby>きたいと おもいます。",
+      "meaningVi": "Dù hơi đắt nhưng tôi vẫn muốn quay lại lần nữa.",
+      "orderIndex": 8
+    }
+  ]
+}

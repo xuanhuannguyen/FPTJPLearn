@@ -1,0 +1,65 @@
+{
+  "lesson": {
+    "id": "88888888-1113-0000-0000-000000000119",
+    "courseCode": "jpd113",
+    "lessonNumber": 19,
+    "title": "アンナさん",
+    "description": "Học tập - Lịch trình học tập của Anna.",
+    "accessTier": "premium",
+    "packageCode": "speaking_jpd113",
+    "isLocked": true,
+    "sentenceCount": 5
+  },
+  "sentences": [
+    {
+      "id": "88888888-1113-0000-0000-000000019001",
+      "lessonId": "88888888-1113-0000-0000-000000000119",
+      "sentenceNumber": 1,
+      "plainText": "私はアンナです。",
+      "romaji": "watashi wa annadesu.",
+      "contentHtml": "<ruby>私<rt>わたし</rt></ruby>は アンナです。",
+      "meaningVi": "Tôi là Anna.",
+      "orderIndex": 1
+    },
+    {
+      "id": "88888888-1113-0000-0000-000000019002",
+      "lessonId": "88888888-1113-0000-0000-000000000119",
+      "sentenceNumber": 2,
+      "plainText": "ベトナムじんです。",
+      "romaji": "betonamujin desu.",
+      "contentHtml": "<ruby>ベトナムじん<rt>ベトナムじん</rt></ruby> です。",
+      "meaningVi": "Tôi là người Việt Nam.",
+      "orderIndex": 2
+    },
+    {
+      "id": "88888888-1113-0000-0000-000000019003",
+      "lessonId": "88888888-1113-0000-0000-000000000119",
+      "sentenceNumber": 3,
+      "plainText": "まいあさ六時におきます。",
+      "romaji": "maiasa rokujini okimasu.",
+      "contentHtml": "<ruby>まいあさ<rt>まいあさ</rt></ruby> <ruby>六時<rt>ろくじ</rt></ruby>に <ruby>お<rt>お</rt></ruby>きます。",
+      "meaningVi": "Mỗi sáng tôi thức dậy lúc 6 giờ.",
+      "orderIndex": 3
+    },
+    {
+      "id": "88888888-1113-0000-0000-000000019004",
+      "lessonId": "88888888-1113-0000-0000-000000000119",
+      "sentenceNumber": 4,
+      "plainText": "七時にバスでだい学へ行きます。",
+      "romaji": "shichijini basude daigaku e ikimasu.",
+      "contentHtml": "<ruby>七時<rt>しちじ</rt></ruby>に バスで <ruby>だい学<rt>だいがく</rt></ruby>へ <ruby>行<rt>い</rt></ruby>きます。",
+      "meaningVi": "Lúc 7 giờ tôi đi xe buýt đến trường đại học.",
+      "orderIndex": 4
+    },
+    {
+      "id": "88888888-1113-0000-0000-000000019005",
+      "lessonId": "88888888-1113-0000-0000-000000000119",
+      "sentenceNumber": 5,
+      "plainText": "九時から三時までべんきょうします。",
+      "romaji": "kujikara sanjimade benkyoushimasu.",
+      "contentHtml": "<ruby>九時<rt>くじ</rt></ruby>から <ruby>三時<rt>さんじ</rt></ruby>まで <ruby>べんきょう<rt>べんきょう</rt></ruby>します。",
+      "meaningVi": "Tôi học từ 9 giờ đến 3 giờ chiều.",
+      "orderIndex": 5
+    }
+  ]
+}

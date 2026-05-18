@@ -1,0 +1,125 @@
+{
+  "lesson": {
+    "id": "88888888-1123-0000-0000-000000000104",
+    "courseCode": "jpd123",
+    "lessonNumber": 4,
+    "title": "あたらしい うち",
+    "description": "Nhà ở - Khu phố yên tĩnh với công viên, thư viện và quán cà phê.",
+    "accessTier": "premium",
+    "packageCode": "speaking_jpd123",
+    "isLocked": true,
+    "sentenceCount": 11
+  },
+  "sentences": [
+    {
+      "id": "88888888-1123-0000-0000-000000004001",
+      "lessonId": "88888888-1123-0000-0000-000000000104",
+      "sentenceNumber": 1,
+      "plainText": "私のあたらしいうちはしずかなところにあります。",
+      "romaji": "watashi no atarashii uchi wa shizukana tokoroni arimasu.",
+      "contentHtml": "<ruby>私<rt>わたし</rt></ruby> の あたらしい うちは しずかな ところに あります。",
+      "meaningVi": "Ngôi nhà mới của tôi nằm ở một nơi yên tĩnh.",
+      "orderIndex": 1
+    },
+    {
+      "id": "88888888-1123-0000-0000-000000004002",
+      "lessonId": "88888888-1123-0000-0000-000000000104",
+      "sentenceNumber": 2,
+      "plainText": "うちのとなりにきれいなこうえんがあります。",
+      "romaji": "uchino tonarini kireina kouenga arimasu.",
+      "contentHtml": "うちの となりに きれいな こうえんが あります。",
+      "meaningVi": "Bên cạnh nhà có một công viên đẹp.",
+      "orderIndex": 2
+    },
+    {
+      "id": "88888888-1123-0000-0000-000000004003",
+      "lessonId": "88888888-1123-0000-0000-000000000104",
+      "sentenceNumber": 3,
+      "plainText": "こうえんの前にとしょかんときっさてんがあります。",
+      "romaji": "kouenno mae ni toshokanto kissatenga arimasu.",
+      "contentHtml": "こうえんの <ruby>前<rt>まえ</rt></ruby> に としょかんと きっさてんが あります。",
+      "meaningVi": "Phía trước công viên có thư viện và quán cà phê.",
+      "orderIndex": 3
+    },
+    {
+      "id": "88888888-1123-0000-0000-000000004004",
+      "lessonId": "88888888-1123-0000-0000-000000000104",
+      "sentenceNumber": 4,
+      "plainText": "私はとしょかんで本をかります。",
+      "romaji": "watashi wa toshokande hon wo karimasu.",
+      "contentHtml": "<ruby>私<rt>わたし</rt></ruby> は としょかんで <ruby>本<rt>ほん</rt></ruby> を かります。",
+      "meaningVi": "Tôi mượn sách ở thư viện.",
+      "orderIndex": 4
+    },
+    {
+      "id": "88888888-1123-0000-0000-000000004005",
+      "lessonId": "88888888-1123-0000-0000-000000000104",
+      "sentenceNumber": 5,
+      "plainText": "そして、こうえんで読みます。",
+      "romaji": "soshite,kouende yomimasu.",
+      "contentHtml": "そして、こうえんで <ruby>読<rt>よ</rt></ruby>みます。",
+      "meaningVi": "Sau đó tôi đọc sách ở công viên.",
+      "orderIndex": 5
+    },
+    {
+      "id": "88888888-1123-0000-0000-000000004006",
+      "lessonId": "88888888-1123-0000-0000-000000000104",
+      "sentenceNumber": 6,
+      "plainText": "ときどききっさてんで読みます。",
+      "romaji": "tokidoki kissatende yomimasu.",
+      "contentHtml": "ときどき きっさてんで <ruby>読<rt>よ</rt></ruby>みます。",
+      "meaningVi": "Thỉnh thoảng tôi cũng đọc ở quán cà phê.",
+      "orderIndex": 6
+    },
+    {
+      "id": "88888888-1123-0000-0000-000000004007",
+      "lessonId": "88888888-1123-0000-0000-000000000104",
+      "sentenceNumber": 7,
+      "plainText": "きっさてんのコーヒーはおいしいです。",
+      "romaji": "kissatenno ko-hi- wa oishiidesu.",
+      "contentHtml": "きっさてんの コーヒーは おいしいです。",
+      "meaningVi": "Cà phê ở quán rất ngon.",
+      "orderIndex": 7
+    },
+    {
+      "id": "88888888-1123-0000-0000-000000004008",
+      "lessonId": "88888888-1123-0000-0000-000000000104",
+      "sentenceNumber": 8,
+      "plainText": "うちのちかくにゆうびんきょくとぎんこうがあります。",
+      "romaji": "uchino chikakuni yuubinkyokuto ginkouga arimasu.",
+      "contentHtml": "うちの ちかくに ゆうびんきょくと ぎんこうが あります。",
+      "meaningVi": "Gần nhà có bưu điện và ngân hàng.",
+      "orderIndex": 8
+    },
+    {
+      "id": "88888888-1123-0000-0000-000000004009",
+      "lessonId": "88888888-1123-0000-0000-000000000104",
+      "sentenceNumber": 9,
+      "plainText": "ゆうびんきょくとぎんこうのあいだにスーパーがあります。",
+      "romaji": "yuubinkyokuto ginkouno aidani su-pa-ga arimasu.",
+      "contentHtml": "ゆうびんきょくと ぎんこうの あいだに スーパーが あります。",
+      "meaningVi": "Giữa bưu điện và ngân hàng có một siêu thị.",
+      "orderIndex": 9
+    },
+    {
+      "id": "88888888-1123-0000-0000-000000004010",
+      "lessonId": "88888888-1123-0000-0000-000000000104",
+      "sentenceNumber": 10,
+      "plainText": "スーパーのなかにはなややおいしいパンやがあります。",
+      "romaji": "su-pa-no nakani hanayaya oishii panyaga arimasu.",
+      "contentHtml": "スーパーの なかに はなやや おいしい パンやが あります。",
+      "meaningVi": "Trong siêu thị có tiệm hoa và tiệm bánh mì ngon.",
+      "orderIndex": 10
+    },
+    {
+      "id": "88888888-1123-0000-0000-000000004011",
+      "lessonId": "88888888-1123-0000-0000-000000000104",
+      "sentenceNumber": 11,
+      "plainText": "とてもべんりです。",
+      "romaji": "totemo benridesu.",
+      "contentHtml": "とても べんりです。",
+      "meaningVi": "Rất tiện lợi.",
+      "orderIndex": 11
+    }
+  ]
+}

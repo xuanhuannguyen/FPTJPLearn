@@ -1,0 +1,185 @@
+{
+  "lesson": {
+    "id": "88888888-1123-0000-0000-000000000105",
+    "courseCode": "jpd123",
+    "lessonNumber": 5,
+    "title": "スーパーを くらべる",
+    "description": "Mua sắm - So sánh ba siêu thị gần nhà về giá cả và hàng hóa.",
+    "accessTier": "premium",
+    "packageCode": "speaking_jpd123",
+    "isLocked": true,
+    "sentenceCount": 17
+  },
+  "sentences": [
+    {
+      "id": "88888888-1123-0000-0000-000000005001",
+      "lessonId": "88888888-1123-0000-0000-000000000105",
+      "sentenceNumber": 1,
+      "plainText": "私のうちのちかくにスーパーが3つあります。",
+      "romaji": "watashi no uchino chikakuni su-pa-ga mittsu arimasu.",
+      "contentHtml": "<ruby>私<rt>わたし</rt></ruby> の うちの ちかくに スーパーが <ruby>3つ<rt>みっつ</rt></ruby> あります。",
+      "meaningVi": "Gần nhà tôi có ba siêu thị.",
+      "orderIndex": 1
+    },
+    {
+      "id": "88888888-1123-0000-0000-000000005002",
+      "lessonId": "88888888-1123-0000-0000-000000000105",
+      "sentenceNumber": 2,
+      "plainText": "「まいにちや」と「ABCストア」と「ジャパン」です。",
+      "romaji": "\"mainichiya\"to\"ABCsutoa\"to\"japan\"desu.",
+      "contentHtml": "「まいにちや」と「ABCストア」と「ジャパン」です。",
+      "meaningVi": "Đó là Mainichiya, ABC Store và Japan.",
+      "orderIndex": 2
+    },
+    {
+      "id": "88888888-1123-0000-0000-000000005003",
+      "lessonId": "88888888-1123-0000-0000-000000000105",
+      "sentenceNumber": 3,
+      "plainText": "「まいにちや」はいちばん小さいみせですが、ちかいです。",
+      "romaji": "\"mainichiya\" wa ichiban chiisai misedesuga,chikaidesu.",
+      "contentHtml": "「まいにちや」は いちばん <ruby>小<rt>ちい</rt></ruby>さい みせですが、ちかいです。",
+      "meaningVi": "Mainichiya là cửa hàng nhỏ nhất nhưng gần nhà.",
+      "orderIndex": 3
+    },
+    {
+      "id": "88888888-1123-0000-0000-000000005004",
+      "lessonId": "88888888-1123-0000-0000-000000000105",
+      "sentenceNumber": 4,
+      "plainText": "うちからあるいて五分です。",
+      "romaji": "uchikara aruite gofun desu.",
+      "contentHtml": "うちから あるいて <ruby>五分<rt>ごふん</rt></ruby> です。",
+      "meaningVi": "Đi bộ từ nhà đến đó mất 5 phút.",
+      "orderIndex": 4
+    },
+    {
+      "id": "88888888-1123-0000-0000-000000005005",
+      "lessonId": "88888888-1123-0000-0000-000000000105",
+      "sentenceNumber": 5,
+      "plainText": "あたらしいさかながおおいです。",
+      "romaji": "atarashii sakanaga ooidesu.",
+      "contentHtml": "あたらしい さかなが おおいです。",
+      "meaningVi": "Ở đó có nhiều cá tươi.",
+      "orderIndex": 5
+    },
+    {
+      "id": "88888888-1123-0000-0000-000000005006",
+      "lessonId": "88888888-1123-0000-0000-000000000105",
+      "sentenceNumber": 6,
+      "plainText": "野菜や果物もおおいです。",
+      "romaji": "yasai ya kudamono mo ooidesu.",
+      "contentHtml": "<ruby>野菜<rt>やさい</rt></ruby> や <ruby>果物<rt>くだもの</rt></ruby> も おおいです。",
+      "meaningVi": "Cũng có nhiều rau và trái cây.",
+      "orderIndex": 6
+    },
+    {
+      "id": "88888888-1123-0000-0000-000000005007",
+      "lessonId": "88888888-1123-0000-0000-000000000105",
+      "sentenceNumber": 7,
+      "plainText": "「ABCストア」はうちからあるいて十五分かかります。",
+      "romaji": "\"ABCsutoa\" wa uchikara aruite juugofun kakarimasu.",
+      "contentHtml": "「ABCストア」は うちから あるいて <ruby>十五分<rt>じゅうごふん</rt></ruby> かかります。",
+      "meaningVi": "Đi bộ từ nhà đến ABC Store mất 15 phút.",
+      "orderIndex": 7
+    },
+    {
+      "id": "88888888-1123-0000-0000-000000005008",
+      "lessonId": "88888888-1123-0000-0000-000000000105",
+      "sentenceNumber": 8,
+      "plainText": "肉がおおいです。",
+      "romaji": "niku ga ooidesu.",
+      "contentHtml": "<ruby>肉<rt>にく</rt></ruby> が おおいです。",
+      "meaningVi": "Ở đó có nhiều thịt.",
+      "orderIndex": 8
+    },
+    {
+      "id": "88888888-1123-0000-0000-000000005009",
+      "lessonId": "88888888-1123-0000-0000-000000000105",
+      "sentenceNumber": 9,
+      "plainText": "いちばんやすいみせです。",
+      "romaji": "ichiban yasui misedesu.",
+      "contentHtml": "いちばん やすい みせです。",
+      "meaningVi": "Đó là cửa hàng rẻ nhất.",
+      "orderIndex": 9
+    },
+    {
+      "id": "88888888-1123-0000-0000-000000005010",
+      "lessonId": "88888888-1123-0000-0000-000000000105",
+      "sentenceNumber": 10,
+      "plainText": "外国の物もありますが、「ジャパン」よりすくないです。",
+      "romaji": "gaikoku no mono mo arimasuga,\"japan\"yori sukunaidesu.",
+      "contentHtml": "<ruby>外国<rt>がいこく</rt></ruby> の <ruby>物<rt>もの</rt></ruby> も ありますが、「ジャパン」より すくないです。",
+      "meaningVi": "Cũng có hàng nước ngoài nhưng ít hơn cửa hàng Japan.",
+      "orderIndex": 10
+    },
+    {
+      "id": "88888888-1123-0000-0000-000000005011",
+      "lessonId": "88888888-1123-0000-0000-000000000105",
+      "sentenceNumber": 11,
+      "plainText": "おいしいパンがあります。",
+      "romaji": "oishii panga arimasu.",
+      "contentHtml": "おいしい パンが あります。",
+      "meaningVi": "Có bánh mì ngon.",
+      "orderIndex": 11
+    },
+    {
+      "id": "88888888-1123-0000-0000-000000005012",
+      "lessonId": "88888888-1123-0000-0000-000000000105",
+      "sentenceNumber": 12,
+      "plainText": "「ジャパン」はいちばんとおいです。",
+      "romaji": "\"japan\" wa ichiban tooidesu.",
+      "contentHtml": "「ジャパン」は いちばん とおいです。",
+      "meaningVi": "Japan là cửa hàng xa nhất.",
+      "orderIndex": 12
+    },
+    {
+      "id": "88888888-1123-0000-0000-000000005013",
+      "lessonId": "88888888-1123-0000-0000-000000000105",
+      "sentenceNumber": 13,
+      "plainText": "さかなはあまりおおくないですが、肉がたくさんあります。",
+      "romaji": "sakana wa amari ookunaidesuga,niku ga takusan arimasu.",
+      "contentHtml": "さかなは あまり おおくないですが、<ruby>肉<rt>にく</rt></ruby> が たくさん あります。",
+      "meaningVi": "Cá không nhiều lắm nhưng có rất nhiều thịt.",
+      "orderIndex": 13
+    },
+    {
+      "id": "88888888-1123-0000-0000-000000005014",
+      "lessonId": "88888888-1123-0000-0000-000000000105",
+      "sentenceNumber": 14,
+      "plainText": "外国の物がおおいです。",
+      "romaji": "gaikoku no mono ga ooidesu.",
+      "contentHtml": "<ruby>外国<rt>がいこく</rt></ruby> の <ruby>物<rt>もの</rt></ruby> が おおいです。",
+      "meaningVi": "Có nhiều hàng hóa nước ngoài.",
+      "orderIndex": 14
+    },
+    {
+      "id": "88888888-1123-0000-0000-000000005015",
+      "lessonId": "88888888-1123-0000-0000-000000000105",
+      "sentenceNumber": 15,
+      "plainText": "とても大きいみせです。",
+      "romaji": "totemo ookii misedesu.",
+      "contentHtml": "とても <ruby>大<rt>おお</rt></ruby>きい みせです。",
+      "meaningVi": "Đó là một cửa hàng rất lớn.",
+      "orderIndex": 15
+    },
+    {
+      "id": "88888888-1123-0000-0000-000000005016",
+      "lessonId": "88888888-1123-0000-0000-000000000105",
+      "sentenceNumber": 16,
+      "plainText": "「ABCストア」より大きいです。",
+      "romaji": "\"ABCsutoa\"yori ookiidesu.",
+      "contentHtml": "「ABCストア」より <ruby>大<rt>おお</rt></ruby>きいです。",
+      "meaningVi": "Nó còn lớn hơn cả ABC Store.",
+      "orderIndex": 16
+    },
+    {
+      "id": "88888888-1123-0000-0000-000000005017",
+      "lessonId": "88888888-1123-0000-0000-000000000105",
+      "sentenceNumber": 17,
+      "plainText": "三つのみせのなかで私は「ABCストア」がいちばんすきです。",
+      "romaji": "mittsu no miseno nakade watashi wa \"ABCsutoa\"ga ichiban sukidesu.",
+      "contentHtml": "<ruby>三つ<rt>みっつ</rt></ruby> の みせの なかで <ruby>私<rt>わたし</rt></ruby> は 「ABCストア」が いちばん すきです。",
+      "meaningVi": "Trong ba cửa hàng, tôi thích ABC Store nhất.",
+      "orderIndex": 17
+    }
+  ]
+}

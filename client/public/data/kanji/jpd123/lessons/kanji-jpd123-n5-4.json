@@ -1,0 +1,269 @@
+{
+  "lesson": {
+    "id": "kanji-jpd123-n5-4",
+    "level": "N5",
+    "lessonNumber": 4,
+    "title": "Địa điểm và Phương hướng",
+    "description": "Địa điểm và Phương hướng - JPD123 Kanji N5.",
+    "accessTier": "premium",
+    "packageCode": "kanji_jpd123",
+    "orderIndex": 4,
+    "kanjiCount": 10,
+    "vocabularyCount": 15,
+    "isLocked": true
+  },
+  "kanjiItems": [
+    {
+      "id": "ad4d2793-71e4-556e-a0f3-0ebaf4447021",
+      "lessonId": "kanji-jpd123-n5-4",
+      "level": "N5",
+      "character": "東",
+      "hanViet": "ĐÔNG",
+      "meaning": "Phía Đông",
+      "strokeCount": 8,
+      "kunReading": "ひがし",
+      "onReading": "トウ",
+      "mnemonic": "Mặt trời (日) ló sau cây (木) ở phía đông (東).",
+      "orderIndex": 1
+    },
+    {
+      "id": "64d8c3c5-11f7-5719-aca2-6028ab33b401",
+      "lessonId": "kanji-jpd123-n5-4",
+      "level": "N5",
+      "character": "京",
+      "hanViet": "KINH",
+      "meaning": "Kinh đô, thủ đô",
+      "strokeCount": 8,
+      "kunReading": "みやこ",
+      "onReading": "キョウ、ケイ",
+      "mnemonic": "Khu dân cư (口) dưới mái che (亠) tạo thành kinh đô (京).",
+      "orderIndex": 2
+    },
+    {
+      "id": "2daea2c1-2fc4-51dd-8d60-20539c5ed6b2",
+      "lessonId": "kanji-jpd123-n5-4",
+      "level": "N5",
+      "character": "名",
+      "hanViet": "DANH",
+      "meaning": "Tên gọi",
+      "strokeCount": 6,
+      "kunReading": "な",
+      "onReading": "メイ、ミョウ",
+      "mnemonic": "Buổi tối (夕) dùng miệng (口) gọi tên nhau thành danh (名).",
+      "orderIndex": 3
+    },
+    {
+      "id": "65a224f0-0273-56ce-a540-8f4458b7304a",
+      "lessonId": "kanji-jpd123-n5-4",
+      "level": "N5",
+      "character": "前",
+      "hanViet": "TIỀN",
+      "meaning": "Phía trước",
+      "strokeCount": 9,
+      "kunReading": "まえ",
+      "onReading": "ゼン",
+      "mnemonic": "Cầm dao (刂) hướng về phía trước cơ thể (月) tạo thành trước mặt (前).",
+      "orderIndex": 4
+    },
+    {
+      "id": "cf563118-7293-503e-b9b2-1828e82103ee",
+      "lessonId": "kanji-jpd123-n5-4",
+      "level": "N5",
+      "character": "国",
+      "hanViet": "QUỐC",
+      "meaning": "Quốc gia",
+      "strokeCount": 8,
+      "kunReading": "くに",
+      "onReading": "コク",
+      "mnemonic": "Vua (王) nằm trong lãnh thổ bao quanh (囗) tạo thành quốc gia (国).",
+      "orderIndex": 5
+    },
+    {
+      "id": "56840c05-f8d1-5b3d-bcdc-7284a7d660ef",
+      "lessonId": "kanji-jpd123-n5-4",
+      "level": "N5",
+      "character": "南",
+      "hanViet": "NAM",
+      "meaning": "Phía Nam",
+      "strokeCount": 9,
+      "kunReading": "みなみ",
+      "onReading": "ナン",
+      "mnemonic": "Vùng đất bao quanh (冂) phía nam (南) có nhiều người tụ họp dưới chữ mười (十).",
+      "orderIndex": 6
+    },
+    {
+      "id": "a44d56c2-f6a7-5d8b-826c-059016900958",
+      "lessonId": "kanji-jpd123-n5-4",
+      "level": "N5",
+      "character": "女",
+      "hanViet": "NỮ",
+      "meaning": "Phụ nữ",
+      "strokeCount": 3,
+      "kunReading": "おんな",
+      "onReading": "ジョ、ニョ",
+      "mnemonic": "Hình dáng người phụ nữ quỳ tạo thành chữ nữ (女).",
+      "orderIndex": 7
+    },
+    {
+      "id": "1828b3e7-255d-54ee-80d6-b2972cf5b7a5",
+      "lessonId": "kanji-jpd123-n5-4",
+      "level": "N5",
+      "character": "男",
+      "hanViet": "NAM",
+      "meaning": "Nam giới",
+      "strokeCount": 7,
+      "kunReading": "おとこ",
+      "onReading": "ダン、ナン",
+      "mnemonic": "Dùng sức mạnh (力) làm ruộng (田) là đàn ông (男).",
+      "orderIndex": 8
+    },
+    {
+      "id": "eab57142-b7f2-5ae2-86b2-142856a3c4a0",
+      "lessonId": "kanji-jpd123-n5-4",
+      "level": "N5",
+      "character": "区",
+      "hanViet": "KHU",
+      "meaning": "Khu vực",
+      "strokeCount": 4,
+      "kunReading": "",
+      "onReading": "ク",
+      "mnemonic": "Không gian được chia (㐅) trong khung (匚) thành khu vực (区).",
+      "orderIndex": 9
+    },
+    {
+      "id": "53a1dfd9-c926-58fc-b1fe-b56a4e64375e",
+      "lessonId": "kanji-jpd123-n5-4",
+      "level": "N5",
+      "character": "市",
+      "hanViet": "THỊ",
+      "meaning": "Thành phố / chợ",
+      "strokeCount": 5,
+      "kunReading": "いち",
+      "onReading": "シ",
+      "mnemonic": "Những tấm vải (巾) dưới mái che (亠) tạo nên khu chợ, thành thị (市).",
+      "orderIndex": 10
+    }
+  ],
+  "vocabularyItems": [
+    {
+      "id": "kanji-jpd123-n5-4-vocab-1",
+      "lessonId": "kanji-jpd123-n5-4",
+      "level": "N5",
+      "word": "東",
+      "reading": "ひがし",
+      "meaning": "phía đông"
+    },
+    {
+      "id": "kanji-jpd123-n5-4-vocab-2",
+      "lessonId": "kanji-jpd123-n5-4",
+      "level": "N5",
+      "word": "東京",
+      "reading": "とうきょう",
+      "meaning": "Tokyo"
+    },
+    {
+      "id": "kanji-jpd123-n5-4-vocab-3",
+      "lessonId": "kanji-jpd123-n5-4",
+      "level": "N5",
+      "word": "午前",
+      "reading": "ごぜん",
+      "meaning": "a.m"
+    },
+    {
+      "id": "kanji-jpd123-n5-4-vocab-4",
+      "lessonId": "kanji-jpd123-n5-4",
+      "level": "N5",
+      "word": "前日",
+      "reading": "ぜんじつ",
+      "meaning": "ngày trước đó"
+    },
+    {
+      "id": "kanji-jpd123-n5-4-vocab-5",
+      "lessonId": "kanji-jpd123-n5-4",
+      "level": "N5",
+      "word": "名前",
+      "reading": "なまえ",
+      "meaning": "tên"
+    },
+    {
+      "id": "kanji-jpd123-n5-4-vocab-6",
+      "lessonId": "kanji-jpd123-n5-4",
+      "level": "N5",
+      "word": "国",
+      "reading": "くに",
+      "meaning": "đất nước, quốc gia"
+    },
+    {
+      "id": "kanji-jpd123-n5-4-vocab-7",
+      "lessonId": "kanji-jpd123-n5-4",
+      "level": "N5",
+      "word": "外国",
+      "reading": "がいこく",
+      "meaning": "nước ngoài"
+    },
+    {
+      "id": "kanji-jpd123-n5-4-vocab-8",
+      "lessonId": "kanji-jpd123-n5-4",
+      "level": "N5",
+      "word": "男の人",
+      "reading": "おとこのひと",
+      "meaning": "người đàn ông"
+    },
+    {
+      "id": "kanji-jpd123-n5-4-vocab-9",
+      "lessonId": "kanji-jpd123-n5-4",
+      "level": "N5",
+      "word": "女の人",
+      "reading": "おんなのひと",
+      "meaning": "người phụ nữ"
+    },
+    {
+      "id": "kanji-jpd123-n5-4-vocab-10",
+      "lessonId": "kanji-jpd123-n5-4",
+      "level": "N5",
+      "word": "～区",
+      "reading": "〜く",
+      "meaning": "quận ~"
+    },
+    {
+      "id": "kanji-jpd123-n5-4-vocab-11",
+      "lessonId": "kanji-jpd123-n5-4",
+      "level": "N5",
+      "word": "～市",
+      "reading": "〜し",
+      "meaning": "Thành phố ~"
+    },
+    {
+      "id": "kanji-jpd123-n5-4-vocab-12",
+      "lessonId": "kanji-jpd123-n5-4",
+      "level": "N5",
+      "word": "前",
+      "reading": "まえ",
+      "meaning": "phía trước"
+    },
+    {
+      "id": "kanji-jpd123-n5-4-vocab-13",
+      "lessonId": "kanji-jpd123-n5-4",
+      "level": "N5",
+      "word": "京都",
+      "reading": "きょうと",
+      "meaning": "Kyoto"
+    },
+    {
+      "id": "kanji-jpd123-n5-4-vocab-14",
+      "lessonId": "kanji-jpd123-n5-4",
+      "level": "N5",
+      "word": "外国人",
+      "reading": "がいこくじん",
+      "meaning": "người nước ngoài"
+    },
+    {
+      "id": "kanji-jpd123-n5-4-vocab-15",
+      "lessonId": "kanji-jpd123-n5-4",
+      "level": "N5",
+      "word": "男女",
+      "reading": "だんじょ",
+      "meaning": "nam nữ"
+    }
+  ]
+}

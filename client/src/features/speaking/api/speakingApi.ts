@@ -1,19 +1,17 @@
-import { apiClient } from '../../../shared/api/axios';
+import { fetchStatic } from '../../../shared/services/staticDataService';
 import type { SpeakingCourse, SpeakingLesson, SpeakingLessonDetail } from '../types/speaking.types';
 
 export const speakingApi = {
   getCourses: async (): Promise<SpeakingCourse[]> => {
-    const response = await apiClient.get<{ courses: SpeakingCourse[] }>('/speaking/courses');
-    return response.data.courses;
+    return fetchStatic<SpeakingCourse[]>('speaking/courses.json');
   },
 
   getLessonsByCourse: async (courseCode: string): Promise<SpeakingLesson[]> => {
-    const response = await apiClient.get<{ lessons: SpeakingLesson[] }>(`/speaking/${courseCode}/lessons`);
-    return response.data.lessons;
+    return fetchStatic<SpeakingLesson[]>(`speaking/${courseCode}/lessons.json`);
   },
 
   getLesson: async (lessonId: string): Promise<SpeakingLessonDetail> => {
-    const response = await apiClient.get<SpeakingLessonDetail>(`/speaking/lessons/${lessonId}`);
-    return response.data;
+    const courseCode = lessonId.includes('1113') ? 'jpd113' : 'jpd123';
+    return fetchStatic<SpeakingLessonDetail>(`speaking/${courseCode}/lessons/${lessonId}.json`);
   },
 };

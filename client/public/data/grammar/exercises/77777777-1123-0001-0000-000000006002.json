@@ -1,0 +1,162 @@
+[
+  {
+    "id": "77777777-1123-0003-0000-000000611001",
+    "patternId": "77777777-1123-0001-0000-000000006002",
+    "exerciseType": "ja_to_vi",
+    "prompt": "行きましょう。",
+    "promptReading": "いきましょう。",
+    "expectedAnswer": "Cùng đi nào!",
+    "hint": "Vましょう",
+    "explanation": "Mạnh mẽ hơn ませんか.",
+    "orderIndex": 1
+  },
+  {
+    "id": "77777777-1123-0003-0000-000000621001",
+    "patternId": "77777777-1123-0001-0000-000000006002",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Cùng đi nào!",
+    "expectedAnswer": "行きましょう。",
+    "acceptableAnswers": [
+      "いきましょう。"
+    ],
+    "hint": "Bỏ ます thêm ましょう",
+    "explanation": "Mạnh mẽ hơn ませんか.",
+    "orderIndex": 2
+  },
+  {
+    "id": "77777777-1123-0003-0000-000000611002",
+    "patternId": "77777777-1123-0001-0000-000000006002",
+    "exerciseType": "ja_to_vi",
+    "prompt": "ちょっと休みましょう。",
+    "promptReading": "ちょっとやすみましょう。",
+    "expectedAnswer": "Chúng ta cùng nghỉ một lát nhé.",
+    "hint": "Vましょう",
+    "explanation": "Mạnh mẽ hơn ませんか.",
+    "orderIndex": 3
+  },
+  {
+    "id": "77777777-1123-0003-0000-000000621002",
+    "patternId": "77777777-1123-0001-0000-000000006002",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Chúng ta cùng nghỉ một lát nhé.",
+    "expectedAnswer": "ちょっと休みましょう。",
+    "acceptableAnswers": [
+      "ちょっとやすみましょう。"
+    ],
+    "hint": "Bỏ ます thêm ましょう",
+    "explanation": "Mạnh mẽ hơn ませんか.",
+    "orderIndex": 4
+  },
+  {
+    "id": "77777777-1123-0003-0000-000000631002",
+    "patternId": "77777777-1123-0001-0000-000000006002",
+    "exerciseType": "arrange",
+    "prompt": "Chúng ta cùng nghỉ một lát nhé.",
+    "expectedAnswer": "ちょっと休みましょう (やすみましょう)",
+    "optionsJson": "[\"と\",\"ちょっ\",\"休みましょう (やすみましょう)\"]",
+    "options": [
+      "と",
+      "ちょっ",
+      "休みましょう (やすみましょう)"
+    ],
+    "correctOrderJson": "[\"ちょっ\",\"と\",\"休みましょう (やすみましょう)\"]",
+    "correctOrder": [
+      "ちょっ",
+      "と",
+      "休みましょう (やすみましょう)"
+    ],
+    "orderIndex": 5
+  },
+  {
+    "id": "77777777-1123-0003-0000-000000611003",
+    "patternId": "77777777-1123-0001-0000-000000006002",
+    "exerciseType": "ja_to_vi",
+    "prompt": "食べましょう。",
+    "promptReading": "たべましょう。",
+    "expectedAnswer": "Cùng ăn nào!",
+    "hint": "Vましょう",
+    "explanation": "Mạnh mẽ hơn ませんか.",
+    "orderIndex": 6
+  },
+  {
+    "id": "77777777-1123-0003-0000-000000621003",
+    "patternId": "77777777-1123-0001-0000-000000006002",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Cùng ăn nào!",
+    "expectedAnswer": "食べましょう。",
+    "acceptableAnswers": [
+      "たべましょう。"
+    ],
+    "hint": "Bỏ ます thêm ましょう",
+    "explanation": "Mạnh mẽ hơn ませんか.",
+    "orderIndex": 7
+  },
+  {
+    "id": "77777777-1123-0003-0000-000000611004",
+    "patternId": "77777777-1123-0001-0000-000000006002",
+    "exerciseType": "ja_to_vi",
+    "prompt": "始めましょう。",
+    "promptReading": "はじめましょう。",
+    "expectedAnswer": "Cùng bắt đầu nào!",
+    "hint": "Vましょう",
+    "explanation": "Mạnh mẽ hơn ませんか.",
+    "orderIndex": 8
+  },
+  {
+    "id": "77777777-1123-0003-0000-000000621004",
+    "patternId": "77777777-1123-0001-0000-000000006002",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Cùng bắt đầu nào!",
+    "expectedAnswer": "始めましょう。",
+    "acceptableAnswers": [
+      "はじめましょう。"
+    ],
+    "hint": "Bỏ ます thêm ましょう",
+    "explanation": "Mạnh mẽ hơn ませんか.",
+    "orderIndex": 9
+  },
+  {
+    "id": "77777777-1123-0003-0000-000000611005",
+    "patternId": "77777777-1123-0001-0000-000000006002",
+    "exerciseType": "ja_to_vi",
+    "prompt": "明日も会いましょう。",
+    "promptReading": "あしたもあいましょう。",
+    "expectedAnswer": "Ngày mai lại gặp nhé.",
+    "hint": "Vましょう",
+    "explanation": "Mạnh mẽ hơn ませんか.",
+    "orderIndex": 10
+  },
+  {
+    "id": "77777777-1123-0003-0000-000000621005",
+    "patternId": "77777777-1123-0001-0000-000000006002",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Ngày mai lại gặp nhé.",
+    "expectedAnswer": "明日も会いましょう。",
+    "acceptableAnswers": [
+      "あしたもあいましょう。"
+    ],
+    "hint": "Bỏ ます thêm ましょう",
+    "explanation": "Mạnh mẽ hơn ませんか.",
+    "orderIndex": 11
+  },
+  {
+    "id": "77777777-1123-0003-0000-000000631005",
+    "patternId": "77777777-1123-0001-0000-000000006002",
+    "exerciseType": "arrange",
+    "prompt": "Ngày mai lại gặp nhé.",
+    "expectedAnswer": "明日 (あした)も会いましょう (あいましょう)",
+    "optionsJson": "[\"も\",\"明日 (あした)\",\"会いましょう (あいましょう)\"]",
+    "options": [
+      "も",
+      "明日 (あした)",
+      "会いましょう (あいましょう)"
+    ],
+    "correctOrderJson": "[\"明日 (あした)\",\"も\",\"会いましょう (あいましょう)\"]",
+    "correctOrder": [
+      "明日 (あした)",
+      "も",
+      "会いましょう (あいましょう)"
+    ],
+    "orderIndex": 12
+  }
+]

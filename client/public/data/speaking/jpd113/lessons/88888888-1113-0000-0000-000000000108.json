@@ -1,0 +1,65 @@
+{
+  "lesson": {
+    "id": "88888888-1113-0000-0000-000000000108",
+    "courseCode": "jpd113",
+    "lessonNumber": 8,
+    "title": "ニコニコスーパー",
+    "description": "Mua sắm - Giới thiệu về siêu thị Niconico.",
+    "accessTier": "premium",
+    "packageCode": "speaking_jpd113",
+    "isLocked": true,
+    "sentenceCount": 5
+  },
+  "sentences": [
+    {
+      "id": "88888888-1113-0000-0000-000000008001",
+      "lessonId": "88888888-1113-0000-0000-000000000108",
+      "sentenceNumber": 1,
+      "plainText": "ここはニコニコスーパーです。",
+      "romaji": "koko wa nikonikosu-pa-desu.",
+      "contentHtml": "ここは ニコニコスーパーです。",
+      "meaningVi": "Đây là siêu thị Niconico.",
+      "orderIndex": 1
+    },
+    {
+      "id": "88888888-1113-0000-0000-000000008002",
+      "lessonId": "88888888-1113-0000-0000-000000000108",
+      "sentenceNumber": 2,
+      "plainText": "ごぜん六時からごご十一時までです。",
+      "romaji": "gozen rokujikara gogojuuichijimadedesu.",
+      "contentHtml": "<ruby>ごぜん<rt>ごぜん</rt></ruby> <ruby>六時<rt>ろくじ</rt></ruby>から <ruby>ごご<rt>ごご</rt></ruby><ruby>十一時<rt>じゅういちじ</rt></ruby>までです。",
+      "meaningVi": "Mở cửa từ 6 giờ sáng đến 11 giờ đêm.",
+      "orderIndex": 2
+    },
+    {
+      "id": "88888888-1113-0000-0000-000000008003",
+      "lessonId": "88888888-1113-0000-0000-000000000108",
+      "sentenceNumber": 3,
+      "plainText": "やすみは土曜日のひるです。",
+      "romaji": "yasumi wa doyoubino hirudesu.",
+      "contentHtml": "<ruby>やすみ<rt>やすみ</rt></ruby>は <ruby>土曜日<rt>どようび</rt></ruby>の ひるです。",
+      "meaningVi": "Nghỉ vào trưa thứ bảy.",
+      "orderIndex": 3
+    },
+    {
+      "id": "88888888-1113-0000-0000-000000008004",
+      "lessonId": "88888888-1113-0000-0000-000000000108",
+      "sentenceNumber": 4,
+      "plainText": "まいあさ、ここでくだものをかいます。",
+      "romaji": "maiasa,kokode kudamono wo kaimasu.",
+      "contentHtml": "<ruby>まいあさ<rt>まいあさ</rt></ruby>、ここで <ruby>くだもの<rt>くだもの</rt></ruby>を <ruby>か<rt>か</rt></ruby>います。",
+      "meaningVi": "Mỗi sáng tôi đều mua trái cây ở đây.",
+      "orderIndex": 4
+    },
+    {
+      "id": "88888888-1113-0000-0000-000000008005",
+      "lessonId": "88888888-1113-0000-0000-000000000108",
+      "sentenceNumber": 5,
+      "plainText": "ここのくだものはやすいです。",
+      "romaji": "kokono kudamono wa yasuidesu.",
+      "contentHtml": "ここの <ruby>くだもの<rt>くだもの</rt></ruby>は <ruby>やす<rt>やす</rt></ruby>いです。",
+      "meaningVi": "Trái cây ở đây rẻ.",
+      "orderIndex": 5
+    }
+  ]
+}

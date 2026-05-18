@@ -1,0 +1,2138 @@
+{
+  "lesson": {
+    "id": "77777777-1123-0000-0000-000000000104",
+    "level": "N5",
+    "courseCode": "jpd123",
+    "lessonNumber": 4,
+    "title": "Tính từ và Sự tồn tại",
+    "description": "Học về tính từ đuôi い và な, phó từ mức độ, và cách diễn tả sự tồn tại với あります.",
+    "patternCount": 7,
+    "accessTier": "free",
+    "isLocked": false,
+    "inStudyCount": 0,
+    "masteredCount": 0,
+    "dueCount": 0
+  },
+  "patterns": [
+    {
+      "id": "77777777-1123-0001-0000-000000004001",
+      "lessonId": "77777777-1123-0000-0000-000000000104",
+      "level": "N5",
+      "courseCode": "jpd123",
+      "pattern": "N は Aい です。",
+      "title": "Tính từ đuôi い (Khẳng định)",
+      "meaning": "N thì [tính chất] A",
+      "structure": "N は Aい です",
+      "accessTier": "free",
+      "isLocked": false,
+      "isInStudy": false,
+      "progress": null,
+      "usageScope": "Miêu tả tính chất của sự vật hiện tượng.",
+      "formation": "Danh từ + は + Tính từ đuôi い + です",
+      "notes": "Giữ nguyên い khi đi với です.",
+      "examples": [
+        {
+          "id": "77777777-1123-0002-0000-000000400001",
+          "japanese": "この料理は辛いです。",
+          "reading": "このりょうりはからいです。",
+          "meaning": "Món ăn này cay.",
+          "orderIndex": 1
+        },
+        {
+          "id": "77777777-1123-0002-0000-000000400002",
+          "japanese": "この本はおもしろいです。",
+          "reading": "このほんはおもしろいです。",
+          "meaning": "Quyển sách này thú vị.",
+          "orderIndex": 2
+        },
+        {
+          "id": "77777777-1123-0002-0000-000000400003",
+          "japanese": "日本の冬は寒いです。",
+          "reading": "にほんのふゆはさむいです。",
+          "meaning": "Mùa đông ở Nhật Bản lạnh.",
+          "orderIndex": 3
+        },
+        {
+          "id": "77777777-1123-0002-0000-000000400004",
+          "japanese": "富士山は高いです。",
+          "reading": "ふじさんはたかいです。",
+          "meaning": "Núi Phú Sĩ cao.",
+          "orderIndex": 4
+        },
+        {
+          "id": "77777777-1123-0002-0000-000000400005",
+          "japanese": "この林檎は甘いです。",
+          "reading": "このりんごはあまいです。",
+          "meaning": "Quả táo này ngọt.",
+          "orderIndex": 5
+        }
+      ],
+      "exercises": [
+        {
+          "id": "77777777-1123-0003-0000-000000410001",
+          "patternId": "77777777-1123-0001-0000-000000004001",
+          "exerciseType": "ja_to_vi",
+          "prompt": "この料理は辛いです。",
+          "promptReading": "このりょうりはからいです。",
+          "expectedAnswer": "Món ăn này cay.",
+          "hint": "N は Aい です。",
+          "explanation": "Giữ nguyên い khi đi với です.",
+          "orderIndex": 1
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000420001",
+          "patternId": "77777777-1123-0001-0000-000000004001",
+          "exerciseType": "vi_to_ja",
+          "prompt": "Món ăn này cay.",
+          "expectedAnswer": "この料理は辛いです。",
+          "acceptableAnswers": [
+            "このりょうりはからいです。"
+          ],
+          "hint": "Danh từ + は + Tính từ đuôi い + です",
+          "explanation": "Giữ nguyên い khi đi với です.",
+          "orderIndex": 2
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000430001",
+          "patternId": "77777777-1123-0001-0000-000000004001",
+          "exerciseType": "arrange",
+          "prompt": "Món ăn này cay.",
+          "expectedAnswer": "この料理 (りょうり)は辛い (からい)です",
+          "optionsJson": "[\"こ\",\"の\",\"は\",\"です\",\"辛い (からい)\",\"料理 (りょうり)\"]",
+          "options": [
+            "こ",
+            "の",
+            "は",
+            "です",
+            "辛い (からい)",
+            "料理 (りょうり)"
+          ],
+          "correctOrderJson": "[\"こ\",\"の\",\"料理 (りょうり)\",\"は\",\"辛い (からい)\",\"です\"]",
+          "correctOrder": [
+            "こ",
+            "の",
+            "料理 (りょうり)",
+            "は",
+            "辛い (からい)",
+            "です"
+          ],
+          "orderIndex": 3
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000410002",
+          "patternId": "77777777-1123-0001-0000-000000004001",
+          "exerciseType": "ja_to_vi",
+          "prompt": "この本はおもしろいです。",
+          "promptReading": "このほんはおもしろいです。",
+          "expectedAnswer": "Quyển sách này thú vị.",
+          "hint": "N は Aい です。",
+          "explanation": "Giữ nguyên い khi đi với です.",
+          "orderIndex": 4
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000420002",
+          "patternId": "77777777-1123-0001-0000-000000004001",
+          "exerciseType": "vi_to_ja",
+          "prompt": "Quyển sách này thú vị.",
+          "expectedAnswer": "この本はおもしろいです。",
+          "acceptableAnswers": [
+            "このほんはおもしろいです。"
+          ],
+          "hint": "Danh từ + は + Tính từ đuôi い + です",
+          "explanation": "Giữ nguyên い khi đi với です.",
+          "orderIndex": 5
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000430002",
+          "patternId": "77777777-1123-0001-0000-000000004001",
+          "exerciseType": "arrange",
+          "prompt": "Quyển sách này thú vị.",
+          "expectedAnswer": "この本 (ほん)はおもしろいです",
+          "optionsJson": "[\"お\",\"こ\",\"の\",\"は\",\"も\",\"です\",\"しろい\",\"本 (ほん)\"]",
+          "options": [
+            "お",
+            "こ",
+            "の",
+            "は",
+            "も",
+            "です",
+            "しろい",
+            "本 (ほん)"
+          ],
+          "correctOrderJson": "[\"こ\",\"の\",\"本 (ほん)\",\"は\",\"お\",\"も\",\"しろい\",\"です\"]",
+          "correctOrder": [
+            "こ",
+            "の",
+            "本 (ほん)",
+            "は",
+            "お",
+            "も",
+            "しろい",
+            "です"
+          ],
+          "orderIndex": 6
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000410003",
+          "patternId": "77777777-1123-0001-0000-000000004001",
+          "exerciseType": "ja_to_vi",
+          "prompt": "日本の冬は寒いです。",
+          "promptReading": "にほんのふゆはさむいです。",
+          "expectedAnswer": "Mùa đông ở Nhật Bản lạnh.",
+          "hint": "N は Aい です。",
+          "explanation": "Giữ nguyên い khi đi với です.",
+          "orderIndex": 7
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000420003",
+          "patternId": "77777777-1123-0001-0000-000000004001",
+          "exerciseType": "vi_to_ja",
+          "prompt": "Mùa đông ở Nhật Bản lạnh.",
+          "expectedAnswer": "日本の冬は寒いです。",
+          "acceptableAnswers": [
+            "にほんのふゆはさむいです。"
+          ],
+          "hint": "Danh từ + は + Tính từ đuôi い + です",
+          "explanation": "Giữ nguyên い khi đi với です.",
+          "orderIndex": 8
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000430003",
+          "patternId": "77777777-1123-0001-0000-000000004001",
+          "exerciseType": "arrange",
+          "prompt": "Mùa đông ở Nhật Bản lạnh.",
+          "expectedAnswer": "日本 (にほん)の冬 (ふゆ)は寒い (さむい)です",
+          "optionsJson": "[\"の\",\"は\",\"です\",\"冬 (ふゆ)\",\"寒い (さむい)\",\"日本 (にほん)\"]",
+          "options": [
+            "の",
+            "は",
+            "です",
+            "冬 (ふゆ)",
+            "寒い (さむい)",
+            "日本 (にほん)"
+          ],
+          "correctOrderJson": "[\"日本 (にほん)\",\"の\",\"冬 (ふゆ)\",\"は\",\"寒い (さむい)\",\"です\"]",
+          "correctOrder": [
+            "日本 (にほん)",
+            "の",
+            "冬 (ふゆ)",
+            "は",
+            "寒い (さむい)",
+            "です"
+          ],
+          "orderIndex": 9
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000410004",
+          "patternId": "77777777-1123-0001-0000-000000004001",
+          "exerciseType": "ja_to_vi",
+          "prompt": "富士山は高いです。",
+          "promptReading": "ふじさんはたかいです。",
+          "expectedAnswer": "Núi Phú Sĩ cao.",
+          "hint": "N は Aい です。",
+          "explanation": "Giữ nguyên い khi đi với です.",
+          "orderIndex": 10
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000420004",
+          "patternId": "77777777-1123-0001-0000-000000004001",
+          "exerciseType": "vi_to_ja",
+          "prompt": "Núi Phú Sĩ cao.",
+          "expectedAnswer": "富士山は高いです。",
+          "acceptableAnswers": [
+            "ふじさんはたかいです。"
+          ],
+          "hint": "Danh từ + は + Tính từ đuôi い + です",
+          "explanation": "Giữ nguyên い khi đi với です.",
+          "orderIndex": 11
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000430004",
+          "patternId": "77777777-1123-0001-0000-000000004001",
+          "exerciseType": "arrange",
+          "prompt": "Núi Phú Sĩ cao.",
+          "expectedAnswer": "富士山 (ふじさん)は高い (たかい)です",
+          "optionsJson": "[\"は\",\"です\",\"高い (たかい)\",\"富士山 (ふじさん)\"]",
+          "options": [
+            "は",
+            "です",
+            "高い (たかい)",
+            "富士山 (ふじさん)"
+          ],
+          "correctOrderJson": "[\"富士山 (ふじさん)\",\"は\",\"高い (たかい)\",\"です\"]",
+          "correctOrder": [
+            "富士山 (ふじさん)",
+            "は",
+            "高い (たかい)",
+            "です"
+          ],
+          "orderIndex": 12
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000410005",
+          "patternId": "77777777-1123-0001-0000-000000004001",
+          "exerciseType": "ja_to_vi",
+          "prompt": "この林檎は甘いです。",
+          "promptReading": "このりんごはあまいです。",
+          "expectedAnswer": "Quả táo này ngọt.",
+          "hint": "N は Aい です。",
+          "explanation": "Giữ nguyên い khi đi với です.",
+          "orderIndex": 13
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000420005",
+          "patternId": "77777777-1123-0001-0000-000000004001",
+          "exerciseType": "vi_to_ja",
+          "prompt": "Quả táo này ngọt.",
+          "expectedAnswer": "この林檎は甘いです。",
+          "acceptableAnswers": [
+            "このりんごはあまいです。"
+          ],
+          "hint": "Danh từ + は + Tính từ đuôi い + です",
+          "explanation": "Giữ nguyên い khi đi với です.",
+          "orderIndex": 14
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000430005",
+          "patternId": "77777777-1123-0001-0000-000000004001",
+          "exerciseType": "arrange",
+          "prompt": "Quả táo này ngọt.",
+          "expectedAnswer": "この林檎 (りんご)は甘い (あまい)です",
+          "optionsJson": "[\"こ\",\"の\",\"は\",\"です\",\"甘い (あまい)\",\"林檎 (りんご)\"]",
+          "options": [
+            "こ",
+            "の",
+            "は",
+            "です",
+            "甘い (あまい)",
+            "林檎 (りんご)"
+          ],
+          "correctOrderJson": "[\"こ\",\"の\",\"林檎 (りんご)\",\"は\",\"甘い (あまい)\",\"です\"]",
+          "correctOrder": [
+            "こ",
+            "の",
+            "林檎 (りんご)",
+            "は",
+            "甘い (あまい)",
+            "です"
+          ],
+          "orderIndex": 15
+        }
+      ]
+    },
+    {
+      "id": "77777777-1123-0001-0000-000000004002",
+      "lessonId": "77777777-1123-0000-0000-000000000104",
+      "level": "N5",
+      "courseCode": "jpd123",
+      "pattern": "N は Aくない です。",
+      "title": "Tính từ đuôi い (Phủ định)",
+      "meaning": "N không [tính chất] A",
+      "structure": "N は Aくない です",
+      "accessTier": "free",
+      "isLocked": false,
+      "isInStudy": false,
+      "progress": null,
+      "usageScope": "Phủ định tính chất của sự vật.",
+      "formation": "Bỏ い thêm くない",
+      "notes": "Ngoại lệ: いい (tốt) -> よくない.",
+      "examples": [
+        {
+          "id": "77777777-1123-0002-0000-000000401001",
+          "japanese": "このレモンは酸っぱくないです。",
+          "reading": "このレモンはすっぱくないです。",
+          "meaning": "Quả chanh này không chua.",
+          "orderIndex": 1
+        },
+        {
+          "id": "77777777-1123-0002-0000-000000401002",
+          "japanese": "このお茶は熱くないです。",
+          "reading": "このおちゃはあつくないです。",
+          "meaning": "Trà này không nóng.",
+          "orderIndex": 2
+        },
+        {
+          "id": "77777777-1123-0002-0000-000000401003",
+          "japanese": "今日は忙しくないです。",
+          "reading": "きょうはいそがしくないです。",
+          "meaning": "Hôm nay tôi không bận.",
+          "orderIndex": 3
+        },
+        {
+          "id": "77777777-1123-0002-0000-000000401004",
+          "japanese": "この試験は難しくないです。",
+          "reading": "このしけんはむずかしくないです。",
+          "meaning": "Kỳ thi này không khó.",
+          "orderIndex": 4
+        },
+        {
+          "id": "77777777-1123-0002-0000-000000401005",
+          "japanese": "天気はよくないです。",
+          "reading": "てんきはよくないです。",
+          "meaning": "Thời tiết không tốt.",
+          "orderIndex": 5
+        }
+      ],
+      "exercises": [
+        {
+          "id": "77777777-1123-0003-0000-000000411001",
+          "patternId": "77777777-1123-0001-0000-000000004002",
+          "exerciseType": "ja_to_vi",
+          "prompt": "このレモンは酸っぱくないです。",
+          "promptReading": "このレモンはすっぱくないです。",
+          "expectedAnswer": "Quả chanh này không chua.",
+          "hint": "N は Aくない です。",
+          "explanation": "Ngoại lệ: いい (tốt) -> よくない.",
+          "orderIndex": 1
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000421001",
+          "patternId": "77777777-1123-0001-0000-000000004002",
+          "exerciseType": "vi_to_ja",
+          "prompt": "Quả chanh này không chua.",
+          "expectedAnswer": "このレモンは酸っぱくないです。",
+          "acceptableAnswers": [
+            "このレモンはすっぱくないです。"
+          ],
+          "hint": "Bỏ い thêm くない",
+          "explanation": "Ngoại lệ: いい (tốt) -> よくない.",
+          "orderIndex": 2
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000431001",
+          "patternId": "77777777-1123-0001-0000-000000004002",
+          "exerciseType": "arrange",
+          "prompt": "Quả chanh này không chua.",
+          "expectedAnswer": "このレモンは酸っぱくない (すっぱくない)です",
+          "optionsJson": "[\"こ\",\"の\",\"は\",\"です\",\"レモン\",\"酸っぱくない (すっぱくない)\"]",
+          "options": [
+            "こ",
+            "の",
+            "は",
+            "です",
+            "レモン",
+            "酸っぱくない (すっぱくない)"
+          ],
+          "correctOrderJson": "[\"こ\",\"の\",\"レモン\",\"は\",\"酸っぱくない (すっぱくない)\",\"です\"]",
+          "correctOrder": [
+            "こ",
+            "の",
+            "レモン",
+            "は",
+            "酸っぱくない (すっぱくない)",
+            "です"
+          ],
+          "orderIndex": 3
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000411002",
+          "patternId": "77777777-1123-0001-0000-000000004002",
+          "exerciseType": "ja_to_vi",
+          "prompt": "このお茶は熱くないです。",
+          "promptReading": "このおちゃはあつくないです。",
+          "expectedAnswer": "Trà này không nóng.",
+          "hint": "N は Aくない です。",
+          "explanation": "Ngoại lệ: いい (tốt) -> よくない.",
+          "orderIndex": 4
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000421002",
+          "patternId": "77777777-1123-0001-0000-000000004002",
+          "exerciseType": "vi_to_ja",
+          "prompt": "Trà này không nóng.",
+          "expectedAnswer": "このお茶は熱くないです。",
+          "acceptableAnswers": [
+            "このおちゃはあつくないです。"
+          ],
+          "hint": "Bỏ い thêm くない",
+          "explanation": "Ngoại lệ: いい (tốt) -> よくない.",
+          "orderIndex": 5
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000431002",
+          "patternId": "77777777-1123-0001-0000-000000004002",
+          "exerciseType": "arrange",
+          "prompt": "Trà này không nóng.",
+          "expectedAnswer": "このお茶 (おちゃ)は熱くない (あつくない)です",
+          "optionsJson": "[\"こ\",\"の\",\"は\",\"です\",\"お茶 (おちゃ)\",\"熱くない (あつくない)\"]",
+          "options": [
+            "こ",
+            "の",
+            "は",
+            "です",
+            "お茶 (おちゃ)",
+            "熱くない (あつくない)"
+          ],
+          "correctOrderJson": "[\"こ\",\"の\",\"お茶 (おちゃ)\",\"は\",\"熱くない (あつくない)\",\"です\"]",
+          "correctOrder": [
+            "こ",
+            "の",
+            "お茶 (おちゃ)",
+            "は",
+            "熱くない (あつくない)",
+            "です"
+          ],
+          "orderIndex": 6
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000411003",
+          "patternId": "77777777-1123-0001-0000-000000004002",
+          "exerciseType": "ja_to_vi",
+          "prompt": "今日は忙しくないです。",
+          "promptReading": "きょうはいそがしくないです。",
+          "expectedAnswer": "Hôm nay tôi không bận.",
+          "hint": "N は Aくない です。",
+          "explanation": "Ngoại lệ: いい (tốt) -> よくない.",
+          "orderIndex": 7
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000421003",
+          "patternId": "77777777-1123-0001-0000-000000004002",
+          "exerciseType": "vi_to_ja",
+          "prompt": "Hôm nay tôi không bận.",
+          "expectedAnswer": "今日は忙しくないです。",
+          "acceptableAnswers": [
+            "きょうはいそがしくないです。"
+          ],
+          "hint": "Bỏ い thêm くない",
+          "explanation": "Ngoại lệ: いい (tốt) -> よくない.",
+          "orderIndex": 8
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000431003",
+          "patternId": "77777777-1123-0001-0000-000000004002",
+          "exerciseType": "arrange",
+          "prompt": "Hôm nay tôi không bận.",
+          "expectedAnswer": "今日 (きょう)は忙しくない (いそがしくない)です",
+          "optionsJson": "[\"は\",\"です\",\"今日 (きょう)\",\"忙しくない (いそがしくない)\"]",
+          "options": [
+            "は",
+            "です",
+            "今日 (きょう)",
+            "忙しくない (いそがしくない)"
+          ],
+          "correctOrderJson": "[\"今日 (きょう)\",\"は\",\"忙しくない (いそがしくない)\",\"です\"]",
+          "correctOrder": [
+            "今日 (きょう)",
+            "は",
+            "忙しくない (いそがしくない)",
+            "です"
+          ],
+          "orderIndex": 9
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000411004",
+          "patternId": "77777777-1123-0001-0000-000000004002",
+          "exerciseType": "ja_to_vi",
+          "prompt": "この試験は難しくないです。",
+          "promptReading": "このしけんはむずかしくないです。",
+          "expectedAnswer": "Kỳ thi này không khó.",
+          "hint": "N は Aくない です。",
+          "explanation": "Ngoại lệ: いい (tốt) -> よくない.",
+          "orderIndex": 10
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000421004",
+          "patternId": "77777777-1123-0001-0000-000000004002",
+          "exerciseType": "vi_to_ja",
+          "prompt": "Kỳ thi này không khó.",
+          "expectedAnswer": "この試験は難しくないです。",
+          "acceptableAnswers": [
+            "このしけんはむずかしくないです。"
+          ],
+          "hint": "Bỏ い thêm くない",
+          "explanation": "Ngoại lệ: いい (tốt) -> よくない.",
+          "orderIndex": 11
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000431004",
+          "patternId": "77777777-1123-0001-0000-000000004002",
+          "exerciseType": "arrange",
+          "prompt": "Kỳ thi này không khó.",
+          "expectedAnswer": "この試験 (しけん)は難しくない (むずかしくない)です",
+          "optionsJson": "[\"こ\",\"の\",\"は\",\"です\",\"試験 (しけん)\",\"難しくない (むずかしくない)\"]",
+          "options": [
+            "こ",
+            "の",
+            "は",
+            "です",
+            "試験 (しけん)",
+            "難しくない (むずかしくない)"
+          ],
+          "correctOrderJson": "[\"こ\",\"の\",\"試験 (しけん)\",\"は\",\"難しくない (むずかしくない)\",\"です\"]",
+          "correctOrder": [
+            "こ",
+            "の",
+            "試験 (しけん)",
+            "は",
+            "難しくない (むずかしくない)",
+            "です"
+          ],
+          "orderIndex": 12
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000411005",
+          "patternId": "77777777-1123-0001-0000-000000004002",
+          "exerciseType": "ja_to_vi",
+          "prompt": "天気はよくないです。",
+          "promptReading": "てんきはよくないです。",
+          "expectedAnswer": "Thời tiết không tốt.",
+          "hint": "N は Aくない です。",
+          "explanation": "Ngoại lệ: いい (tốt) -> よくない.",
+          "orderIndex": 13
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000421005",
+          "patternId": "77777777-1123-0001-0000-000000004002",
+          "exerciseType": "vi_to_ja",
+          "prompt": "Thời tiết không tốt.",
+          "expectedAnswer": "天気はよくないです。",
+          "acceptableAnswers": [
+            "てんきはよくないです。"
+          ],
+          "hint": "Bỏ い thêm くない",
+          "explanation": "Ngoại lệ: いい (tốt) -> よくない.",
+          "orderIndex": 14
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000431005",
+          "patternId": "77777777-1123-0001-0000-000000004002",
+          "exerciseType": "arrange",
+          "prompt": "Thời tiết không tốt.",
+          "expectedAnswer": "天気 (てんき)はよくないです",
+          "optionsJson": "[\"は\",\"です\",\"よくない\",\"天気 (てんき)\"]",
+          "options": [
+            "は",
+            "です",
+            "よくない",
+            "天気 (てんき)"
+          ],
+          "correctOrderJson": "[\"天気 (てんき)\",\"は\",\"よくない\",\"です\"]",
+          "correctOrder": [
+            "天気 (てんき)",
+            "は",
+            "よくない",
+            "です"
+          ],
+          "orderIndex": 15
+        }
+      ]
+    },
+    {
+      "id": "77777777-1123-0001-0000-000000004003",
+      "lessonId": "77777777-1123-0000-0000-000000000104",
+      "level": "N5",
+      "courseCode": "jpd123",
+      "pattern": "N は Aな です。",
+      "title": "Tính từ đuôi な (Khẳng định)",
+      "meaning": "N thì [tính chất] A",
+      "structure": "N は Aな (bỏ na) です",
+      "accessTier": "free",
+      "isLocked": false,
+      "isInStudy": false,
+      "progress": null,
+      "usageScope": "Miêu tả tính chất bằng tính từ đuôi な.",
+      "formation": "Danh từ + は + Tính từ đuôi な (không có な) + です",
+      "notes": "Cần lưu ý các từ như きれい, ゆうめい là tính từ đuôi な.",
+      "examples": [
+        {
+          "id": "77777777-1123-0002-0000-000000402001",
+          "japanese": "佐藤先生は有名です。",
+          "reading": "さとうせんせいはゆうめいです。",
+          "meaning": "Thầy Sato nổi tiếng.",
+          "orderIndex": 1
+        },
+        {
+          "id": "77777777-1123-0002-0000-000000402002",
+          "japanese": "この公園は静かです。",
+          "reading": "このこうえんはしずかです。",
+          "meaning": "Công viên này yên tĩnh.",
+          "orderIndex": 2
+        },
+        {
+          "id": "77777777-1123-0002-0000-000000402003",
+          "japanese": "この部屋はきれいです。",
+          "reading": "このへやはきれいです。",
+          "meaning": "Căn phòng này sạch đẹp.",
+          "orderIndex": 3
+        },
+        {
+          "id": "77777777-1123-0002-0000-000000402004",
+          "japanese": "ハノイは賑やかです。",
+          "reading": "ハノイはにぎやかです。",
+          "meaning": "Hà Nội thì nhộn nhịp.",
+          "orderIndex": 4
+        },
+        {
+          "id": "77777777-1123-0002-0000-000000402005",
+          "japanese": "彼は親切です。",
+          "reading": "かれはしんせつです。",
+          "meaning": "Anh ấy rất tốt bụng.",
+          "orderIndex": 5
+        }
+      ],
+      "exercises": [
+        {
+          "id": "77777777-1123-0003-0000-000000412001",
+          "patternId": "77777777-1123-0001-0000-000000004003",
+          "exerciseType": "ja_to_vi",
+          "prompt": "佐藤先生は有名です。",
+          "promptReading": "さとうせんせいはゆうめいです。",
+          "expectedAnswer": "Thầy Sato nổi tiếng.",
+          "hint": "N は Aな です。",
+          "explanation": "Cần lưu ý các từ như きれい, ゆうめい là tính từ đuôi な.",
+          "orderIndex": 1
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000422001",
+          "patternId": "77777777-1123-0001-0000-000000004003",
+          "exerciseType": "vi_to_ja",
+          "prompt": "Thầy Sato nổi tiếng.",
+          "expectedAnswer": "佐藤先生は有名です。",
+          "acceptableAnswers": [
+            "さとうせんせいはゆうめいです。"
+          ],
+          "hint": "Danh từ + は + Tính từ đuôi な (không có な) + です",
+          "explanation": "Cần lưu ý các từ như きれい, ゆうめい là tính từ đuôi な.",
+          "orderIndex": 2
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000432001",
+          "patternId": "77777777-1123-0001-0000-000000004003",
+          "exerciseType": "arrange",
+          "prompt": "Thầy Sato nổi tiếng.",
+          "expectedAnswer": "佐藤先生 (さとうせんせい)は有名 (ゆうめい)です",
+          "optionsJson": "[\"は\",\"です\",\"有名 (ゆうめい)\",\"佐藤先生 (さとうせんせい)\"]",
+          "options": [
+            "は",
+            "です",
+            "有名 (ゆうめい)",
+            "佐藤先生 (さとうせんせい)"
+          ],
+          "correctOrderJson": "[\"佐藤先生 (さとうせんせい)\",\"は\",\"有名 (ゆうめい)\",\"です\"]",
+          "correctOrder": [
+            "佐藤先生 (さとうせんせい)",
+            "は",
+            "有名 (ゆうめい)",
+            "です"
+          ],
+          "orderIndex": 3
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000412002",
+          "patternId": "77777777-1123-0001-0000-000000004003",
+          "exerciseType": "ja_to_vi",
+          "prompt": "この公園は静かです。",
+          "promptReading": "このこうえんはしずかです。",
+          "expectedAnswer": "Công viên này yên tĩnh.",
+          "hint": "N は Aな です。",
+          "explanation": "Cần lưu ý các từ như きれい, ゆうめい là tính từ đuôi な.",
+          "orderIndex": 4
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000422002",
+          "patternId": "77777777-1123-0001-0000-000000004003",
+          "exerciseType": "vi_to_ja",
+          "prompt": "Công viên này yên tĩnh.",
+          "expectedAnswer": "この公園は静かです。",
+          "acceptableAnswers": [
+            "このこうえんはしずかです。"
+          ],
+          "hint": "Danh từ + は + Tính từ đuôi な (không có な) + です",
+          "explanation": "Cần lưu ý các từ như きれい, ゆうめい là tính từ đuôi な.",
+          "orderIndex": 5
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000432002",
+          "patternId": "77777777-1123-0001-0000-000000004003",
+          "exerciseType": "arrange",
+          "prompt": "Công viên này yên tĩnh.",
+          "expectedAnswer": "この公園 (こうえん)は静か (しずか)です",
+          "optionsJson": "[\"こ\",\"の\",\"は\",\"です\",\"静か (しずか)\",\"公園 (こうえん)\"]",
+          "options": [
+            "こ",
+            "の",
+            "は",
+            "です",
+            "静か (しずか)",
+            "公園 (こうえん)"
+          ],
+          "correctOrderJson": "[\"こ\",\"の\",\"公園 (こうえん)\",\"は\",\"静か (しずか)\",\"です\"]",
+          "correctOrder": [
+            "こ",
+            "の",
+            "公園 (こうえん)",
+            "は",
+            "静か (しずか)",
+            "です"
+          ],
+          "orderIndex": 6
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000412003",
+          "patternId": "77777777-1123-0001-0000-000000004003",
+          "exerciseType": "ja_to_vi",
+          "prompt": "この部屋はきれいです。",
+          "promptReading": "このへやはきれいです。",
+          "expectedAnswer": "Căn phòng này sạch đẹp.",
+          "hint": "N は Aな です。",
+          "explanation": "Cần lưu ý các từ như きれい, ゆうめい là tính từ đuôi な.",
+          "orderIndex": 7
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000422003",
+          "patternId": "77777777-1123-0001-0000-000000004003",
+          "exerciseType": "vi_to_ja",
+          "prompt": "Căn phòng này sạch đẹp.",
+          "expectedAnswer": "この部屋はきれいです。",
+          "acceptableAnswers": [
+            "このへやはきれいです。"
+          ],
+          "hint": "Danh từ + は + Tính từ đuôi な (không có な) + です",
+          "explanation": "Cần lưu ý các từ như きれい, ゆうめい là tính từ đuôi な.",
+          "orderIndex": 8
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000432003",
+          "patternId": "77777777-1123-0001-0000-000000004003",
+          "exerciseType": "arrange",
+          "prompt": "Căn phòng này sạch đẹp.",
+          "expectedAnswer": "この部屋 (へや)はきれいです",
+          "optionsJson": "[\"こ\",\"の\",\"は\",\"です\",\"きれい\",\"部屋 (へや)\"]",
+          "options": [
+            "こ",
+            "の",
+            "は",
+            "です",
+            "きれい",
+            "部屋 (へや)"
+          ],
+          "correctOrderJson": "[\"こ\",\"の\",\"部屋 (へや)\",\"は\",\"きれい\",\"です\"]",
+          "correctOrder": [
+            "こ",
+            "の",
+            "部屋 (へや)",
+            "は",
+            "きれい",
+            "です"
+          ],
+          "orderIndex": 9
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000412004",
+          "patternId": "77777777-1123-0001-0000-000000004003",
+          "exerciseType": "ja_to_vi",
+          "prompt": "ハノイは賑やかです。",
+          "promptReading": "ハノイはにぎやかです。",
+          "expectedAnswer": "Hà Nội thì nhộn nhịp.",
+          "hint": "N は Aな です。",
+          "explanation": "Cần lưu ý các từ như きれい, ゆうめい là tính từ đuôi な.",
+          "orderIndex": 10
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000422004",
+          "patternId": "77777777-1123-0001-0000-000000004003",
+          "exerciseType": "vi_to_ja",
+          "prompt": "Hà Nội thì nhộn nhịp.",
+          "expectedAnswer": "ハノイは賑やかです。",
+          "acceptableAnswers": [
+            "ハノイはにぎやかです。"
+          ],
+          "hint": "Danh từ + は + Tính từ đuôi な (không có な) + です",
+          "explanation": "Cần lưu ý các từ như きれい, ゆうめい là tính từ đuôi な.",
+          "orderIndex": 11
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000432004",
+          "patternId": "77777777-1123-0001-0000-000000004003",
+          "exerciseType": "arrange",
+          "prompt": "Hà Nội thì nhộn nhịp.",
+          "expectedAnswer": "ハノイは賑やか (にぎやか)です",
+          "optionsJson": "[\"は\",\"です\",\"ハノイ\",\"賑やか (にぎやか)\"]",
+          "options": [
+            "は",
+            "です",
+            "ハノイ",
+            "賑やか (にぎやか)"
+          ],
+          "correctOrderJson": "[\"ハノイ\",\"は\",\"賑やか (にぎやか)\",\"です\"]",
+          "correctOrder": [
+            "ハノイ",
+            "は",
+            "賑やか (にぎやか)",
+            "です"
+          ],
+          "orderIndex": 12
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000412005",
+          "patternId": "77777777-1123-0001-0000-000000004003",
+          "exerciseType": "ja_to_vi",
+          "prompt": "彼は親切です。",
+          "promptReading": "かれはしんせつです。",
+          "expectedAnswer": "Anh ấy rất tốt bụng.",
+          "hint": "N は Aな です。",
+          "explanation": "Cần lưu ý các từ như きれい, ゆうめい là tính từ đuôi な.",
+          "orderIndex": 13
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000422005",
+          "patternId": "77777777-1123-0001-0000-000000004003",
+          "exerciseType": "vi_to_ja",
+          "prompt": "Anh ấy rất tốt bụng.",
+          "expectedAnswer": "彼は親切です。",
+          "acceptableAnswers": [
+            "かれはしんせつです。"
+          ],
+          "hint": "Danh từ + は + Tính từ đuôi な (không có な) + です",
+          "explanation": "Cần lưu ý các từ như きれい, ゆうめい là tính từ đuôi な.",
+          "orderIndex": 14
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000432005",
+          "patternId": "77777777-1123-0001-0000-000000004003",
+          "exerciseType": "arrange",
+          "prompt": "Anh ấy rất tốt bụng.",
+          "expectedAnswer": "彼 (かれ)は親切 (しんせつ)です",
+          "optionsJson": "[\"は\",\"です\",\"彼 (かれ)\",\"親切 (しんせつ)\"]",
+          "options": [
+            "は",
+            "です",
+            "彼 (かれ)",
+            "親切 (しんせつ)"
+          ],
+          "correctOrderJson": "[\"彼 (かれ)\",\"は\",\"親切 (しんせつ)\",\"です\"]",
+          "correctOrder": [
+            "彼 (かれ)",
+            "は",
+            "親切 (しんせつ)",
+            "です"
+          ],
+          "orderIndex": 15
+        }
+      ]
+    },
+    {
+      "id": "77777777-1123-0001-0000-000000004004",
+      "lessonId": "77777777-1123-0000-0000-000000000104",
+      "level": "N5",
+      "courseCode": "jpd123",
+      "pattern": "N は Aじゃありません。",
+      "title": "Tính từ đuôi な (Phủ định)",
+      "meaning": "N không [tính chất] A",
+      "structure": "N は A-na じゃありません",
+      "accessTier": "free",
+      "isLocked": false,
+      "isInStudy": false,
+      "progress": null,
+      "usageScope": "Phủ định tính chất với tính từ đuôi な.",
+      "formation": "Bỏ な thêm じゃありません / ではありません",
+      "notes": "Giống với cách phủ định danh từ.",
+      "examples": [
+        {
+          "id": "77777777-1123-0002-0000-000000403001",
+          "japanese": "この車はきれいじゃありません。",
+          "reading": "このくるまはきれいじゃありません。",
+          "meaning": "Cái ô tô này không đẹp.",
+          "orderIndex": 1
+        },
+        {
+          "id": "77777777-1123-0002-0000-000000403002",
+          "japanese": "今日は暇じゃありません。",
+          "reading": "きょうはひまじゃありません。",
+          "meaning": "Hôm nay tôi không rảnh rỗi.",
+          "orderIndex": 2
+        },
+        {
+          "id": "77777777-1123-0002-0000-000000403003",
+          "japanese": "この町は便利じゃありません。",
+          "reading": "このまちはべんりじゃありません。",
+          "meaning": "Thành phố này không tiện lợi lắm.",
+          "orderIndex": 3
+        },
+        {
+          "id": "77777777-1123-0002-0000-000000403004",
+          "japanese": "あの人は親切じゃありません。",
+          "reading": "あのひともしんせつじゃありません。",
+          "meaning": "Người kia không thân thiện.",
+          "orderIndex": 4
+        },
+        {
+          "id": "77777777-1123-0002-0000-000000403005",
+          "japanese": "この料理は有名じゃありません。",
+          "reading": "このりょうりはゆうめいじゃありません。",
+          "meaning": "Món ăn này không nổi tiếng.",
+          "orderIndex": 5
+        }
+      ],
+      "exercises": [
+        {
+          "id": "77777777-1123-0003-0000-000000413001",
+          "patternId": "77777777-1123-0001-0000-000000004004",
+          "exerciseType": "ja_to_vi",
+          "prompt": "この車はきれいじゃありません。",
+          "promptReading": "このくるまはきれいじゃありません。",
+          "expectedAnswer": "Cái ô tô này không đẹp.",
+          "hint": "N は Aじゃありません。",
+          "explanation": "Giống với cách phủ định danh từ.",
+          "orderIndex": 1
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000423001",
+          "patternId": "77777777-1123-0001-0000-000000004004",
+          "exerciseType": "vi_to_ja",
+          "prompt": "Cái ô tô này không đẹp.",
+          "expectedAnswer": "この車はきれいじゃありません。",
+          "acceptableAnswers": [
+            "このくるまはきれいじゃありません。"
+          ],
+          "hint": "Bỏ な thêm じゃありません / ではありません",
+          "explanation": "Giống với cách phủ định danh từ.",
+          "orderIndex": 2
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000433001",
+          "patternId": "77777777-1123-0001-0000-000000004004",
+          "exerciseType": "arrange",
+          "prompt": "Cái ô tô này không đẹp.",
+          "expectedAnswer": "この車 (くるま)はきれいじゃありません",
+          "optionsJson": "[\"こ\",\"の\",\"は\",\"きれい\",\"車 (くるま)\",\"じゃありません\"]",
+          "options": [
+            "こ",
+            "の",
+            "は",
+            "きれい",
+            "車 (くるま)",
+            "じゃありません"
+          ],
+          "correctOrderJson": "[\"こ\",\"の\",\"車 (くるま)\",\"は\",\"きれい\",\"じゃありません\"]",
+          "correctOrder": [
+            "こ",
+            "の",
+            "車 (くるま)",
+            "は",
+            "きれい",
+            "じゃありません"
+          ],
+          "orderIndex": 3
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000413002",
+          "patternId": "77777777-1123-0001-0000-000000004004",
+          "exerciseType": "ja_to_vi",
+          "prompt": "今日は暇じゃありません。",
+          "promptReading": "きょうはひまじゃありません。",
+          "expectedAnswer": "Hôm nay tôi không rảnh rỗi.",
+          "hint": "N は Aじゃありません。",
+          "explanation": "Giống với cách phủ định danh từ.",
+          "orderIndex": 4
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000423002",
+          "patternId": "77777777-1123-0001-0000-000000004004",
+          "exerciseType": "vi_to_ja",
+          "prompt": "Hôm nay tôi không rảnh rỗi.",
+          "expectedAnswer": "今日は暇じゃありません。",
+          "acceptableAnswers": [
+            "きょうはひまじゃありません。"
+          ],
+          "hint": "Bỏ な thêm じゃありません / ではありません",
+          "explanation": "Giống với cách phủ định danh từ.",
+          "orderIndex": 5
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000433002",
+          "patternId": "77777777-1123-0001-0000-000000004004",
+          "exerciseType": "arrange",
+          "prompt": "Hôm nay tôi không rảnh rỗi.",
+          "expectedAnswer": "今日 (きょう)は暇 (ひま)じゃありません",
+          "optionsJson": "[\"は\",\"暇 (ひま)\",\"今日 (きょう)\",\"じゃありません\"]",
+          "options": [
+            "は",
+            "暇 (ひま)",
+            "今日 (きょう)",
+            "じゃありません"
+          ],
+          "correctOrderJson": "[\"今日 (きょう)\",\"は\",\"暇 (ひま)\",\"じゃありません\"]",
+          "correctOrder": [
+            "今日 (きょう)",
+            "は",
+            "暇 (ひま)",
+            "じゃありません"
+          ],
+          "orderIndex": 6
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000413003",
+          "patternId": "77777777-1123-0001-0000-000000004004",
+          "exerciseType": "ja_to_vi",
+          "prompt": "この町は便利じゃありません。",
+          "promptReading": "このまちはべんりじゃありません。",
+          "expectedAnswer": "Thành phố này không tiện lợi lắm.",
+          "hint": "N は Aじゃありません。",
+          "explanation": "Giống với cách phủ định danh từ.",
+          "orderIndex": 7
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000423003",
+          "patternId": "77777777-1123-0001-0000-000000004004",
+          "exerciseType": "vi_to_ja",
+          "prompt": "Thành phố này không tiện lợi lắm.",
+          "expectedAnswer": "この町は便利じゃありません。",
+          "acceptableAnswers": [
+            "このまちはべんりじゃありません。"
+          ],
+          "hint": "Bỏ な thêm じゃありません / ではありません",
+          "explanation": "Giống với cách phủ định danh từ.",
+          "orderIndex": 8
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000433003",
+          "patternId": "77777777-1123-0001-0000-000000004004",
+          "exerciseType": "arrange",
+          "prompt": "Thành phố này không tiện lợi lắm.",
+          "expectedAnswer": "この町 (まち)は便利 (べんり)じゃありません",
+          "optionsJson": "[\"こ\",\"の\",\"は\",\"町 (まち)\",\"便利 (べんり)\",\"じゃありません\"]",
+          "options": [
+            "こ",
+            "の",
+            "は",
+            "町 (まち)",
+            "便利 (べんり)",
+            "じゃありません"
+          ],
+          "correctOrderJson": "[\"こ\",\"の\",\"町 (まち)\",\"は\",\"便利 (べんり)\",\"じゃありません\"]",
+          "correctOrder": [
+            "こ",
+            "の",
+            "町 (まち)",
+            "は",
+            "便利 (べんり)",
+            "じゃありません"
+          ],
+          "orderIndex": 9
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000413004",
+          "patternId": "77777777-1123-0001-0000-000000004004",
+          "exerciseType": "ja_to_vi",
+          "prompt": "あの人は親切じゃありません。",
+          "promptReading": "あのひともしんせつじゃありません。",
+          "expectedAnswer": "Người kia không thân thiện.",
+          "hint": "N は Aじゃありません。",
+          "explanation": "Giống với cách phủ định danh từ.",
+          "orderIndex": 10
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000423004",
+          "patternId": "77777777-1123-0001-0000-000000004004",
+          "exerciseType": "vi_to_ja",
+          "prompt": "Người kia không thân thiện.",
+          "expectedAnswer": "あの人は親切じゃありません。",
+          "acceptableAnswers": [
+            "あのひともしんせつじゃありません。"
+          ],
+          "hint": "Bỏ な thêm じゃありません / ではありません",
+          "explanation": "Giống với cách phủ định danh từ.",
+          "orderIndex": 11
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000433004",
+          "patternId": "77777777-1123-0001-0000-000000004004",
+          "exerciseType": "arrange",
+          "prompt": "Người kia không thân thiện.",
+          "expectedAnswer": "あの人は親切 (ひともしんせつ)じゃありません",
+          "optionsJson": "[\"あ\",\"の\",\"は\",\"人\",\"じゃありません\",\"親切 (ひともしんせつ)\"]",
+          "options": [
+            "あ",
+            "の",
+            "は",
+            "人",
+            "じゃありません",
+            "親切 (ひともしんせつ)"
+          ],
+          "correctOrderJson": "[\"あ\",\"の\",\"人\",\"は\",\"親切 (ひともしんせつ)\",\"じゃありません\"]",
+          "correctOrder": [
+            "あ",
+            "の",
+            "人",
+            "は",
+            "親切 (ひともしんせつ)",
+            "じゃありません"
+          ],
+          "orderIndex": 12
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000413005",
+          "patternId": "77777777-1123-0001-0000-000000004004",
+          "exerciseType": "ja_to_vi",
+          "prompt": "この料理は有名じゃありません。",
+          "promptReading": "このりょうりはゆうめいじゃありません。",
+          "expectedAnswer": "Món ăn này không nổi tiếng.",
+          "hint": "N は Aじゃありません。",
+          "explanation": "Giống với cách phủ định danh từ.",
+          "orderIndex": 13
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000423005",
+          "patternId": "77777777-1123-0001-0000-000000004004",
+          "exerciseType": "vi_to_ja",
+          "prompt": "Món ăn này không nổi tiếng.",
+          "expectedAnswer": "この料理は有名じゃありません。",
+          "acceptableAnswers": [
+            "このりょうりはゆうめいじゃありません。"
+          ],
+          "hint": "Bỏ な thêm じゃありません / ではありません",
+          "explanation": "Giống với cách phủ định danh từ.",
+          "orderIndex": 14
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000433005",
+          "patternId": "77777777-1123-0001-0000-000000004004",
+          "exerciseType": "arrange",
+          "prompt": "Món ăn này không nổi tiếng.",
+          "expectedAnswer": "この料理 (りょうり)は有名 (ゆうめい)じゃありません",
+          "optionsJson": "[\"こ\",\"の\",\"は\",\"じゃありません\",\"有名 (ゆうめい)\",\"料理 (りょうり)\"]",
+          "options": [
+            "こ",
+            "の",
+            "は",
+            "じゃありません",
+            "有名 (ゆうめい)",
+            "料理 (りょうり)"
+          ],
+          "correctOrderJson": "[\"こ\",\"の\",\"料理 (りょうり)\",\"は\",\"有名 (ゆうめい)\",\"じゃありません\"]",
+          "correctOrder": [
+            "こ",
+            "の",
+            "料理 (りょうり)",
+            "は",
+            "有名 (ゆうめい)",
+            "じゃありません"
+          ],
+          "orderIndex": 15
+        }
+      ]
+    },
+    {
+      "id": "77777777-1123-0001-0000-000000004005",
+      "lessonId": "77777777-1123-0000-0000-000000000104",
+      "level": "N5",
+      "courseCode": "jpd123",
+      "pattern": "とても / すこし + A",
+      "title": "Phó từ mức độ",
+      "meaning": "Rất / Một chút",
+      "structure": "とても/すこし + A",
+      "accessTier": "free",
+      "isLocked": false,
+      "isInStudy": false,
+      "progress": null,
+      "usageScope": "Nhấn mạnh hoặc giảm mức độ của tính chất.",
+      "formation": "Đứng trước tính từ.",
+      "notes": "Dùng trong câu khẳng định.",
+      "examples": [
+        {
+          "id": "77777777-1123-0002-0000-000000404001",
+          "japanese": "ハノイは今とても寒いです。",
+          "reading": "ハノイはいまとてもさむいです。",
+          "meaning": "Hà Nội bây giờ rất lạnh.",
+          "orderIndex": 1
+        },
+        {
+          "id": "77777777-1123-0002-0000-000000404002",
+          "japanese": "この辞書は少し高いです。",
+          "reading": "このじしょはすこしたかいです。",
+          "meaning": "Cuốn từ điển này hơi đắt.",
+          "orderIndex": 2
+        },
+        {
+          "id": "77777777-1123-0002-0000-000000404003",
+          "japanese": "日本語はとてもおもしろいです。",
+          "reading": "にほんごはとてもおもしろいです。",
+          "meaning": "Tiếng Nhật rất thú vị.",
+          "orderIndex": 3
+        },
+        {
+          "id": "77777777-1123-0002-0000-000000404004",
+          "japanese": "この部屋は少し狭いです。",
+          "reading": "このへやはすこしせまいです。",
+          "meaning": "Căn phòng này hơi hẹp.",
+          "orderIndex": 4
+        },
+        {
+          "id": "77777777-1123-0002-0000-000000404005",
+          "japanese": "昨日はとても暇でした。",
+          "reading": "きのうはとてもひまでした。",
+          "meaning": "Hôm qua tôi đã rất rảnh rỗi.",
+          "orderIndex": 5
+        }
+      ],
+      "exercises": [
+        {
+          "id": "77777777-1123-0003-0000-000000414001",
+          "patternId": "77777777-1123-0001-0000-000000004005",
+          "exerciseType": "ja_to_vi",
+          "prompt": "ハノイは今とても寒いです。",
+          "promptReading": "ハノイはいまとてもさむいです。",
+          "expectedAnswer": "Hà Nội bây giờ rất lạnh.",
+          "hint": "とても / すこし + A",
+          "explanation": "Dùng trong câu khẳng định.",
+          "orderIndex": 1
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000424001",
+          "patternId": "77777777-1123-0001-0000-000000004005",
+          "exerciseType": "vi_to_ja",
+          "prompt": "Hà Nội bây giờ rất lạnh.",
+          "expectedAnswer": "ハノイは今とても寒いです。",
+          "acceptableAnswers": [
+            "ハノイはいまとてもさむいです。"
+          ],
+          "hint": "Đứng trước tính từ.",
+          "explanation": "Dùng trong câu khẳng định.",
+          "orderIndex": 2
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000434001",
+          "patternId": "77777777-1123-0001-0000-000000004005",
+          "exerciseType": "arrange",
+          "prompt": "Hà Nội bây giờ rất lạnh.",
+          "expectedAnswer": "ハノイは今 (いま)とても寒い (さむい)です",
+          "optionsJson": "[\"て\",\"と\",\"は\",\"も\",\"です\",\"ハノイ\",\"今 (いま)\",\"寒い (さむい)\"]",
+          "options": [
+            "て",
+            "と",
+            "は",
+            "も",
+            "です",
+            "ハノイ",
+            "今 (いま)",
+            "寒い (さむい)"
+          ],
+          "correctOrderJson": "[\"ハノイ\",\"は\",\"今 (いま)\",\"と\",\"て\",\"も\",\"寒い (さむい)\",\"です\"]",
+          "correctOrder": [
+            "ハノイ",
+            "は",
+            "今 (いま)",
+            "と",
+            "て",
+            "も",
+            "寒い (さむい)",
+            "です"
+          ],
+          "orderIndex": 3
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000414002",
+          "patternId": "77777777-1123-0001-0000-000000004005",
+          "exerciseType": "ja_to_vi",
+          "prompt": "この辞書は少し高いです。",
+          "promptReading": "このじしょはすこしたかいです。",
+          "expectedAnswer": "Cuốn từ điển này hơi đắt.",
+          "hint": "とても / すこし + A",
+          "explanation": "Dùng trong câu khẳng định.",
+          "orderIndex": 4
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000424002",
+          "patternId": "77777777-1123-0001-0000-000000004005",
+          "exerciseType": "vi_to_ja",
+          "prompt": "Cuốn từ điển này hơi đắt.",
+          "expectedAnswer": "この辞書は少し高いです。",
+          "acceptableAnswers": [
+            "このじしょはすこしたかいです。"
+          ],
+          "hint": "Đứng trước tính từ.",
+          "explanation": "Dùng trong câu khẳng định.",
+          "orderIndex": 5
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000434002",
+          "patternId": "77777777-1123-0001-0000-000000004005",
+          "exerciseType": "arrange",
+          "prompt": "Cuốn từ điển này hơi đắt.",
+          "expectedAnswer": "この辞書 (じしょ)は少し高い (すこしたかい)です",
+          "optionsJson": "[\"こ\",\"の\",\"は\",\"です\",\"辞書 (じしょ)\",\"少し高い (すこしたかい)\"]",
+          "options": [
+            "こ",
+            "の",
+            "は",
+            "です",
+            "辞書 (じしょ)",
+            "少し高い (すこしたかい)"
+          ],
+          "correctOrderJson": "[\"こ\",\"の\",\"辞書 (じしょ)\",\"は\",\"少し高い (すこしたかい)\",\"です\"]",
+          "correctOrder": [
+            "こ",
+            "の",
+            "辞書 (じしょ)",
+            "は",
+            "少し高い (すこしたかい)",
+            "です"
+          ],
+          "orderIndex": 6
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000414003",
+          "patternId": "77777777-1123-0001-0000-000000004005",
+          "exerciseType": "ja_to_vi",
+          "prompt": "日本語はとてもおもしろいです。",
+          "promptReading": "にほんごはとてもおもしろいです。",
+          "expectedAnswer": "Tiếng Nhật rất thú vị.",
+          "hint": "とても / すこし + A",
+          "explanation": "Dùng trong câu khẳng định.",
+          "orderIndex": 7
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000424003",
+          "patternId": "77777777-1123-0001-0000-000000004005",
+          "exerciseType": "vi_to_ja",
+          "prompt": "Tiếng Nhật rất thú vị.",
+          "expectedAnswer": "日本語はとてもおもしろいです。",
+          "acceptableAnswers": [
+            "にほんごはとてもおもしろいです。"
+          ],
+          "hint": "Đứng trước tính từ.",
+          "explanation": "Dùng trong câu khẳng định.",
+          "orderIndex": 8
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000434003",
+          "patternId": "77777777-1123-0001-0000-000000004005",
+          "exerciseType": "arrange",
+          "prompt": "Tiếng Nhật rất thú vị.",
+          "expectedAnswer": "日本語 (にほんご)はとてもおもしろいです",
+          "optionsJson": "[\"お\",\"て\",\"と\",\"は\",\"も\",\"も\",\"です\",\"しろい\",\"日本語 (にほんご)\"]",
+          "options": [
+            "お",
+            "て",
+            "と",
+            "は",
+            "も",
+            "も",
+            "です",
+            "しろい",
+            "日本語 (にほんご)"
+          ],
+          "correctOrderJson": "[\"日本語 (にほんご)\",\"は\",\"と\",\"て\",\"も\",\"お\",\"も\",\"しろい\",\"です\"]",
+          "correctOrder": [
+            "日本語 (にほんご)",
+            "は",
+            "と",
+            "て",
+            "も",
+            "お",
+            "も",
+            "しろい",
+            "です"
+          ],
+          "orderIndex": 9
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000414004",
+          "patternId": "77777777-1123-0001-0000-000000004005",
+          "exerciseType": "ja_to_vi",
+          "prompt": "この部屋は少し狭いです。",
+          "promptReading": "このへやはすこしせまいです。",
+          "expectedAnswer": "Căn phòng này hơi hẹp.",
+          "hint": "とても / すこし + A",
+          "explanation": "Dùng trong câu khẳng định.",
+          "orderIndex": 10
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000424004",
+          "patternId": "77777777-1123-0001-0000-000000004005",
+          "exerciseType": "vi_to_ja",
+          "prompt": "Căn phòng này hơi hẹp.",
+          "expectedAnswer": "この部屋は少し狭いです。",
+          "acceptableAnswers": [
+            "このへやはすこしせまいです。"
+          ],
+          "hint": "Đứng trước tính từ.",
+          "explanation": "Dùng trong câu khẳng định.",
+          "orderIndex": 11
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000434004",
+          "patternId": "77777777-1123-0001-0000-000000004005",
+          "exerciseType": "arrange",
+          "prompt": "Căn phòng này hơi hẹp.",
+          "expectedAnswer": "この部屋 (へや)は少し狭い (すこしせまい)です",
+          "optionsJson": "[\"こ\",\"の\",\"は\",\"です\",\"部屋 (へや)\",\"少し狭い (すこしせまい)\"]",
+          "options": [
+            "こ",
+            "の",
+            "は",
+            "です",
+            "部屋 (へや)",
+            "少し狭い (すこしせまい)"
+          ],
+          "correctOrderJson": "[\"こ\",\"の\",\"部屋 (へや)\",\"は\",\"少し狭い (すこしせまい)\",\"です\"]",
+          "correctOrder": [
+            "こ",
+            "の",
+            "部屋 (へや)",
+            "は",
+            "少し狭い (すこしせまい)",
+            "です"
+          ],
+          "orderIndex": 12
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000414005",
+          "patternId": "77777777-1123-0001-0000-000000004005",
+          "exerciseType": "ja_to_vi",
+          "prompt": "昨日はとても暇でした。",
+          "promptReading": "きのうはとてもひまでした。",
+          "expectedAnswer": "Hôm qua tôi đã rất rảnh rỗi.",
+          "hint": "とても / すこし + A",
+          "explanation": "Dùng trong câu khẳng định.",
+          "orderIndex": 13
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000424005",
+          "patternId": "77777777-1123-0001-0000-000000004005",
+          "exerciseType": "vi_to_ja",
+          "prompt": "Hôm qua tôi đã rất rảnh rỗi.",
+          "expectedAnswer": "昨日はとても暇でした。",
+          "acceptableAnswers": [
+            "きのうはとてもひまでした。"
+          ],
+          "hint": "Đứng trước tính từ.",
+          "explanation": "Dùng trong câu khẳng định.",
+          "orderIndex": 14
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000434005",
+          "patternId": "77777777-1123-0001-0000-000000004005",
+          "exerciseType": "arrange",
+          "prompt": "Hôm qua tôi đã rất rảnh rỗi.",
+          "expectedAnswer": "昨日 (きのう)はとても暇 (ひま)でした",
+          "optionsJson": "[\"て\",\"と\",\"は\",\"も\",\"でした\",\"暇 (ひま)\",\"昨日 (きのう)\"]",
+          "options": [
+            "て",
+            "と",
+            "は",
+            "も",
+            "でした",
+            "暇 (ひま)",
+            "昨日 (きのう)"
+          ],
+          "correctOrderJson": "[\"昨日 (きのう)\",\"は\",\"と\",\"て\",\"も\",\"暇 (ひま)\",\"でした\"]",
+          "correctOrder": [
+            "昨日 (きのう)",
+            "は",
+            "と",
+            "て",
+            "も",
+            "暇 (ひま)",
+            "でした"
+          ],
+          "orderIndex": 15
+        }
+      ]
+    },
+    {
+      "id": "77777777-1123-0001-0000-000000004006",
+      "lessonId": "77777777-1123-0000-0000-000000000104",
+      "level": "N5",
+      "courseCode": "jpd123",
+      "pattern": "あまり + Aくない",
+      "title": "Phó từ 'Không... lắm'",
+      "meaning": "Không ... lắm",
+      "structure": "あまり + A phủ định",
+      "accessTier": "free",
+      "isLocked": false,
+      "isInStudy": false,
+      "progress": null,
+      "usageScope": "Diễn tả mức độ thấp của một tính chất.",
+      "formation": "Đứng trước tính từ phủ định.",
+      "notes": "Luôn đi kèm với đuôi phủ định.",
+      "examples": [
+        {
+          "id": "77777777-1123-0002-0000-000000405001",
+          "japanese": "この公園はあまり大きくないです。",
+          "reading": "このこうえんはあまりおおきくないです。",
+          "meaning": "Công viên này không lớn lắm.",
+          "orderIndex": 1
+        },
+        {
+          "id": "77777777-1123-0002-0000-000000405002",
+          "japanese": "日本語はあまり難しくないです。",
+          "reading": "にほんごはあまりむずかしくないです。",
+          "meaning": "Tiếng Nhật không khó lắm.",
+          "orderIndex": 2
+        },
+        {
+          "id": "77777777-1123-0002-0000-000000405003",
+          "japanese": "昨日はあまり寒くなかったです。",
+          "reading": "きのうはあまりさむくなかったです。",
+          "meaning": "Hôm qua không lạnh lắm.",
+          "orderIndex": 3
+        },
+        {
+          "id": "77777777-1123-0002-0000-000000405004",
+          "japanese": "この映画はあまりおもしろくないです。",
+          "reading": "このえいがはあまりおもしろくないです。",
+          "meaning": "Bộ phim này không hay lắm.",
+          "orderIndex": 4
+        },
+        {
+          "id": "77777777-1123-0002-0000-000000405005",
+          "japanese": "あのレストランはあまり有名じゃありません。",
+          "reading": "あのレストランはあまりゆうめいじゃありません。",
+          "meaning": "Nhà hàng kia không nổi tiếng lắm.",
+          "orderIndex": 5
+        }
+      ],
+      "exercises": [
+        {
+          "id": "77777777-1123-0003-0000-000000415001",
+          "patternId": "77777777-1123-0001-0000-000000004006",
+          "exerciseType": "ja_to_vi",
+          "prompt": "この公園はあまり大きくないです。",
+          "promptReading": "このこうえんはあまりおおきくないです。",
+          "expectedAnswer": "Công viên này không lớn lắm.",
+          "hint": "あまり + Aくない",
+          "explanation": "Luôn đi kèm với đuôi phủ định.",
+          "orderIndex": 1
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000425001",
+          "patternId": "77777777-1123-0001-0000-000000004006",
+          "exerciseType": "vi_to_ja",
+          "prompt": "Công viên này không lớn lắm.",
+          "expectedAnswer": "この公園はあまり大きくないです。",
+          "acceptableAnswers": [
+            "このこうえんはあまりおおきくないです。"
+          ],
+          "hint": "Đứng trước tính từ phủ định.",
+          "explanation": "Luôn đi kèm với đuôi phủ định.",
+          "orderIndex": 2
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000435001",
+          "patternId": "77777777-1123-0001-0000-000000004006",
+          "exerciseType": "arrange",
+          "prompt": "Công viên này không lớn lắm.",
+          "expectedAnswer": "この公園 (こうえん)はあまり大きくない (あまりおおきくない)です",
+          "optionsJson": "[\"こ\",\"の\",\"は\",\"です\",\"公園 (こうえん)\",\"あまり大きくない (あまりおおきくない)\"]",
+          "options": [
+            "こ",
+            "の",
+            "は",
+            "です",
+            "公園 (こうえん)",
+            "あまり大きくない (あまりおおきくない)"
+          ],
+          "correctOrderJson": "[\"こ\",\"の\",\"公園 (こうえん)\",\"は\",\"あまり大きくない (あまりおおきくない)\",\"です\"]",
+          "correctOrder": [
+            "こ",
+            "の",
+            "公園 (こうえん)",
+            "は",
+            "あまり大きくない (あまりおおきくない)",
+            "です"
+          ],
+          "orderIndex": 3
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000415002",
+          "patternId": "77777777-1123-0001-0000-000000004006",
+          "exerciseType": "ja_to_vi",
+          "prompt": "日本語はあまり難しくないです。",
+          "promptReading": "にほんごはあまりむずかしくないです。",
+          "expectedAnswer": "Tiếng Nhật không khó lắm.",
+          "hint": "あまり + Aくない",
+          "explanation": "Luôn đi kèm với đuôi phủ định.",
+          "orderIndex": 4
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000425002",
+          "patternId": "77777777-1123-0001-0000-000000004006",
+          "exerciseType": "vi_to_ja",
+          "prompt": "Tiếng Nhật không khó lắm.",
+          "expectedAnswer": "日本語はあまり難しくないです。",
+          "acceptableAnswers": [
+            "にほんごはあまりむずかしくないです。"
+          ],
+          "hint": "Đứng trước tính từ phủ định.",
+          "explanation": "Luôn đi kèm với đuôi phủ định.",
+          "orderIndex": 5
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000435002",
+          "patternId": "77777777-1123-0001-0000-000000004006",
+          "exerciseType": "arrange",
+          "prompt": "Tiếng Nhật không khó lắm.",
+          "expectedAnswer": "日本語 (にほんご)はあまり難しくない (あまりむずかしくない)です",
+          "optionsJson": "[\"は\",\"です\",\"日本語 (にほんご)\",\"あまり難しくない (あまりむずかしくない)\"]",
+          "options": [
+            "は",
+            "です",
+            "日本語 (にほんご)",
+            "あまり難しくない (あまりむずかしくない)"
+          ],
+          "correctOrderJson": "[\"日本語 (にほんご)\",\"は\",\"あまり難しくない (あまりむずかしくない)\",\"です\"]",
+          "correctOrder": [
+            "日本語 (にほんご)",
+            "は",
+            "あまり難しくない (あまりむずかしくない)",
+            "です"
+          ],
+          "orderIndex": 6
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000415003",
+          "patternId": "77777777-1123-0001-0000-000000004006",
+          "exerciseType": "ja_to_vi",
+          "prompt": "昨日はあまり寒くなかったです。",
+          "promptReading": "きのうはあまりさむくなかったです。",
+          "expectedAnswer": "Hôm qua không lạnh lắm.",
+          "hint": "あまり + Aくない",
+          "explanation": "Luôn đi kèm với đuôi phủ định.",
+          "orderIndex": 7
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000425003",
+          "patternId": "77777777-1123-0001-0000-000000004006",
+          "exerciseType": "vi_to_ja",
+          "prompt": "Hôm qua không lạnh lắm.",
+          "expectedAnswer": "昨日はあまり寒くなかったです。",
+          "acceptableAnswers": [
+            "きのうはあまりさむくなかったです。"
+          ],
+          "hint": "Đứng trước tính từ phủ định.",
+          "explanation": "Luôn đi kèm với đuôi phủ định.",
+          "orderIndex": 8
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000435003",
+          "patternId": "77777777-1123-0001-0000-000000004006",
+          "exerciseType": "arrange",
+          "prompt": "Hôm qua không lạnh lắm.",
+          "expectedAnswer": "昨日 (きのう)はあまり寒くなかった (あまりさむくなかった)です",
+          "optionsJson": "[\"は\",\"です\",\"昨日 (きのう)\",\"あまり寒くなかった (あまりさむくなかった)\"]",
+          "options": [
+            "は",
+            "です",
+            "昨日 (きのう)",
+            "あまり寒くなかった (あまりさむくなかった)"
+          ],
+          "correctOrderJson": "[\"昨日 (きのう)\",\"は\",\"あまり寒くなかった (あまりさむくなかった)\",\"です\"]",
+          "correctOrder": [
+            "昨日 (きのう)",
+            "は",
+            "あまり寒くなかった (あまりさむくなかった)",
+            "です"
+          ],
+          "orderIndex": 9
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000415004",
+          "patternId": "77777777-1123-0001-0000-000000004006",
+          "exerciseType": "ja_to_vi",
+          "prompt": "この映画はあまりおもしろくないです。",
+          "promptReading": "このえいがはあまりおもしろくないです。",
+          "expectedAnswer": "Bộ phim này không hay lắm.",
+          "hint": "あまり + Aくない",
+          "explanation": "Luôn đi kèm với đuôi phủ định.",
+          "orderIndex": 10
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000425004",
+          "patternId": "77777777-1123-0001-0000-000000004006",
+          "exerciseType": "vi_to_ja",
+          "prompt": "Bộ phim này không hay lắm.",
+          "expectedAnswer": "この映画はあまりおもしろくないです。",
+          "acceptableAnswers": [
+            "このえいがはあまりおもしろくないです。"
+          ],
+          "hint": "Đứng trước tính từ phủ định.",
+          "explanation": "Luôn đi kèm với đuôi phủ định.",
+          "orderIndex": 11
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000435004",
+          "patternId": "77777777-1123-0001-0000-000000004006",
+          "exerciseType": "arrange",
+          "prompt": "Bộ phim này không hay lắm.",
+          "expectedAnswer": "この映画 (えいが)はあまりおもしろくないです",
+          "optionsJson": "[\"こ\",\"の\",\"は\",\"も\",\"です\",\"あまりお\",\"しろくない\",\"映画 (えいが)\"]",
+          "options": [
+            "こ",
+            "の",
+            "は",
+            "も",
+            "です",
+            "あまりお",
+            "しろくない",
+            "映画 (えいが)"
+          ],
+          "correctOrderJson": "[\"こ\",\"の\",\"映画 (えいが)\",\"は\",\"あまりお\",\"も\",\"しろくない\",\"です\"]",
+          "correctOrder": [
+            "こ",
+            "の",
+            "映画 (えいが)",
+            "は",
+            "あまりお",
+            "も",
+            "しろくない",
+            "です"
+          ],
+          "orderIndex": 12
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000415005",
+          "patternId": "77777777-1123-0001-0000-000000004006",
+          "exerciseType": "ja_to_vi",
+          "prompt": "あのレストランはあまり有名じゃありません。",
+          "promptReading": "あのレストランはあまりゆうめいじゃありません。",
+          "expectedAnswer": "Nhà hàng kia không nổi tiếng lắm.",
+          "hint": "あまり + Aくない",
+          "explanation": "Luôn đi kèm với đuôi phủ định.",
+          "orderIndex": 13
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000425005",
+          "patternId": "77777777-1123-0001-0000-000000004006",
+          "exerciseType": "vi_to_ja",
+          "prompt": "Nhà hàng kia không nổi tiếng lắm.",
+          "expectedAnswer": "あのレストランはあまり有名じゃありません。",
+          "acceptableAnswers": [
+            "あのレストランはあまりゆうめいじゃありません。"
+          ],
+          "hint": "Đứng trước tính từ phủ định.",
+          "explanation": "Luôn đi kèm với đuôi phủ định.",
+          "orderIndex": 14
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000435005",
+          "patternId": "77777777-1123-0001-0000-000000004006",
+          "exerciseType": "arrange",
+          "prompt": "Nhà hàng kia không nổi tiếng lắm.",
+          "expectedAnswer": "あのレストランはあまり有名 (あまりゆうめい)じゃありません",
+          "optionsJson": "[\"あ\",\"の\",\"は\",\"レストラン\",\"じゃありません\",\"あまり有名 (あまりゆうめい)\"]",
+          "options": [
+            "あ",
+            "の",
+            "は",
+            "レストラン",
+            "じゃありません",
+            "あまり有名 (あまりゆうめい)"
+          ],
+          "correctOrderJson": "[\"あ\",\"の\",\"レストラン\",\"は\",\"あまり有名 (あまりゆうめい)\",\"じゃありません\"]",
+          "correctOrder": [
+            "あ",
+            "の",
+            "レストラン",
+            "は",
+            "あまり有名 (あまりゆうめい)",
+            "じゃありません"
+          ],
+          "orderIndex": 15
+        }
+      ]
+    },
+    {
+      "id": "77777777-1123-0001-0000-000000004007",
+      "lessonId": "77777777-1123-0000-0000-000000000104",
+      "level": "N5",
+      "courseCode": "jpd123",
+      "pattern": "N1 に N2 が あります。",
+      "title": "Sự hiện hữu (Vật)",
+      "meaning": "Ở N1 có N2",
+      "structure": "Địa điểm に Vật が あります",
+      "accessTier": "free",
+      "isLocked": false,
+      "isInStudy": false,
+      "progress": null,
+      "usageScope": "Diễn tả sự tồn tại của đồ vật, cây cối, địa điểm.",
+      "formation": "N địa điểm + に + N vật + が + あります",
+      "notes": "あります dùng cho vật không tự di chuyển được.",
+      "examples": [
+        {
+          "id": "77777777-1123-0002-0000-000000406001",
+          "japanese": "ハノイに山がありますか。",
+          "reading": "ハノイにやまがありますか。",
+          "meaning": "Ở Hà Nội có núi không?",
+          "orderIndex": 1
+        },
+        {
+          "id": "77777777-1123-0002-0000-000000406002",
+          "japanese": "机の上に本があります。",
+          "reading": "つくえのうえにほんがあります。",
+          "meaning": "Có quyển sách ở trên bàn.",
+          "orderIndex": 2
+        },
+        {
+          "id": "77777777-1123-0002-0000-000000406003",
+          "japanese": "教室にテレビがあります。",
+          "reading": "きょうしつにテレビがあります。",
+          "meaning": "Trong lớp học có tivi.",
+          "orderIndex": 3
+        },
+        {
+          "id": "77777777-1123-0002-0000-000000406004",
+          "japanese": "公園に大きな木があります。",
+          "reading": "こうえんにおおきなきがあります。",
+          "meaning": "Trong công viên có cái cây lớn.",
+          "orderIndex": 4
+        },
+        {
+          "id": "77777777-1123-0002-0000-000000406005",
+          "japanese": "地下に駐車場があります。",
+          "reading": "ちかにちゅうしゃじょうがあります。",
+          "meaning": "Dưới hầm có bãi đỗ xe.",
+          "orderIndex": 5
+        }
+      ],
+      "exercises": [
+        {
+          "id": "77777777-1123-0003-0000-000000416001",
+          "patternId": "77777777-1123-0001-0000-000000004007",
+          "exerciseType": "ja_to_vi",
+          "prompt": "ハノイに山がありますか。",
+          "promptReading": "ハノイにやまがありますか。",
+          "expectedAnswer": "Ở Hà Nội có núi không?",
+          "hint": "N1 に N2 が あります。",
+          "explanation": "あります dùng cho vật không tự di chuyển được.",
+          "orderIndex": 1
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000426001",
+          "patternId": "77777777-1123-0001-0000-000000004007",
+          "exerciseType": "vi_to_ja",
+          "prompt": "Ở Hà Nội có núi không?",
+          "expectedAnswer": "ハノイに山がありますか。",
+          "acceptableAnswers": [
+            "ハノイにやまがありますか。"
+          ],
+          "hint": "N địa điểm + に + N vật + が + あります",
+          "explanation": "あります dùng cho vật không tự di chuyển được.",
+          "orderIndex": 2
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000436001",
+          "patternId": "77777777-1123-0001-0000-000000004007",
+          "exerciseType": "arrange",
+          "prompt": "Ở Hà Nội có núi không?",
+          "expectedAnswer": "ハノイに山 (やま)がありますか",
+          "optionsJson": "[\"が\",\"に\",\"ハノイ\",\"山 (やま)\",\"ありますか\"]",
+          "options": [
+            "が",
+            "に",
+            "ハノイ",
+            "山 (やま)",
+            "ありますか"
+          ],
+          "correctOrderJson": "[\"ハノイ\",\"に\",\"山 (やま)\",\"が\",\"ありますか\"]",
+          "correctOrder": [
+            "ハノイ",
+            "に",
+            "山 (やま)",
+            "が",
+            "ありますか"
+          ],
+          "orderIndex": 3
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000416002",
+          "patternId": "77777777-1123-0001-0000-000000004007",
+          "exerciseType": "ja_to_vi",
+          "prompt": "机の上に本があります。",
+          "promptReading": "つくえのうえにほんがあります。",
+          "expectedAnswer": "Có quyển sách ở trên bàn.",
+          "hint": "N1 に N2 が あります。",
+          "explanation": "あります dùng cho vật không tự di chuyển được.",
+          "orderIndex": 4
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000426002",
+          "patternId": "77777777-1123-0001-0000-000000004007",
+          "exerciseType": "vi_to_ja",
+          "prompt": "Có quyển sách ở trên bàn.",
+          "expectedAnswer": "机の上に本があります。",
+          "acceptableAnswers": [
+            "つくえのうえにほんがあります。"
+          ],
+          "hint": "N địa điểm + に + N vật + が + あります",
+          "explanation": "あります dùng cho vật không tự di chuyển được.",
+          "orderIndex": 5
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000436002",
+          "patternId": "77777777-1123-0001-0000-000000004007",
+          "exerciseType": "arrange",
+          "prompt": "Có quyển sách ở trên bàn.",
+          "expectedAnswer": "机 (つくえ)の上 (うえ)に本 (ほん)があります",
+          "optionsJson": "[\"が\",\"に\",\"の\",\"上 (うえ)\",\"あります\",\"本 (ほん)\",\"机 (つくえ)\"]",
+          "options": [
+            "が",
+            "に",
+            "の",
+            "上 (うえ)",
+            "あります",
+            "本 (ほん)",
+            "机 (つくえ)"
+          ],
+          "correctOrderJson": "[\"机 (つくえ)\",\"の\",\"上 (うえ)\",\"に\",\"本 (ほん)\",\"が\",\"あります\"]",
+          "correctOrder": [
+            "机 (つくえ)",
+            "の",
+            "上 (うえ)",
+            "に",
+            "本 (ほん)",
+            "が",
+            "あります"
+          ],
+          "orderIndex": 6
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000416003",
+          "patternId": "77777777-1123-0001-0000-000000004007",
+          "exerciseType": "ja_to_vi",
+          "prompt": "教室にテレビがあります。",
+          "promptReading": "きょうしつにテレビがあります。",
+          "expectedAnswer": "Trong lớp học có tivi.",
+          "hint": "N1 に N2 が あります。",
+          "explanation": "あります dùng cho vật không tự di chuyển được.",
+          "orderIndex": 7
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000426003",
+          "patternId": "77777777-1123-0001-0000-000000004007",
+          "exerciseType": "vi_to_ja",
+          "prompt": "Trong lớp học có tivi.",
+          "expectedAnswer": "教室にテレビがあります。",
+          "acceptableAnswers": [
+            "きょうしつにテレビがあります。"
+          ],
+          "hint": "N địa điểm + に + N vật + が + あります",
+          "explanation": "あります dùng cho vật không tự di chuyển được.",
+          "orderIndex": 8
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000436003",
+          "patternId": "77777777-1123-0001-0000-000000004007",
+          "exerciseType": "arrange",
+          "prompt": "Trong lớp học có tivi.",
+          "expectedAnswer": "教室 (きょうしつ)にテレビがあります",
+          "optionsJson": "[\"が\",\"に\",\"テレビ\",\"あります\",\"教室 (きょうしつ)\"]",
+          "options": [
+            "が",
+            "に",
+            "テレビ",
+            "あります",
+            "教室 (きょうしつ)"
+          ],
+          "correctOrderJson": "[\"教室 (きょうしつ)\",\"に\",\"テレビ\",\"が\",\"あります\"]",
+          "correctOrder": [
+            "教室 (きょうしつ)",
+            "に",
+            "テレビ",
+            "が",
+            "あります"
+          ],
+          "orderIndex": 9
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000416004",
+          "patternId": "77777777-1123-0001-0000-000000004007",
+          "exerciseType": "ja_to_vi",
+          "prompt": "公園に大きな木があります。",
+          "promptReading": "こうえんにおおきなきがあります。",
+          "expectedAnswer": "Trong công viên có cái cây lớn.",
+          "hint": "N1 に N2 が あります。",
+          "explanation": "あります dùng cho vật không tự di chuyển được.",
+          "orderIndex": 10
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000426004",
+          "patternId": "77777777-1123-0001-0000-000000004007",
+          "exerciseType": "vi_to_ja",
+          "prompt": "Trong công viên có cái cây lớn.",
+          "expectedAnswer": "公園に大きな木があります。",
+          "acceptableAnswers": [
+            "こうえんにおおきなきがあります。"
+          ],
+          "hint": "N địa điểm + に + N vật + が + あります",
+          "explanation": "あります dùng cho vật không tự di chuyển được.",
+          "orderIndex": 11
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000436004",
+          "patternId": "77777777-1123-0001-0000-000000004007",
+          "exerciseType": "arrange",
+          "prompt": "Trong công viên có cái cây lớn.",
+          "expectedAnswer": "公園 (こうえん)に大きな木 (おおきなき)があります",
+          "optionsJson": "[\"が\",\"に\",\"あります\",\"公園 (こうえん)\",\"大きな木 (おおきなき)\"]",
+          "options": [
+            "が",
+            "に",
+            "あります",
+            "公園 (こうえん)",
+            "大きな木 (おおきなき)"
+          ],
+          "correctOrderJson": "[\"公園 (こうえん)\",\"に\",\"大きな木 (おおきなき)\",\"が\",\"あります\"]",
+          "correctOrder": [
+            "公園 (こうえん)",
+            "に",
+            "大きな木 (おおきなき)",
+            "が",
+            "あります"
+          ],
+          "orderIndex": 12
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000416005",
+          "patternId": "77777777-1123-0001-0000-000000004007",
+          "exerciseType": "ja_to_vi",
+          "prompt": "地下に駐車場があります。",
+          "promptReading": "ちかにちゅうしゃじょうがあります。",
+          "expectedAnswer": "Dưới hầm có bãi đỗ xe.",
+          "hint": "N1 に N2 が あります。",
+          "explanation": "あります dùng cho vật không tự di chuyển được.",
+          "orderIndex": 13
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000426005",
+          "patternId": "77777777-1123-0001-0000-000000004007",
+          "exerciseType": "vi_to_ja",
+          "prompt": "Dưới hầm có bãi đỗ xe.",
+          "expectedAnswer": "地下に駐車場があります。",
+          "acceptableAnswers": [
+            "ちかにちゅうしゃじょうがあります。"
+          ],
+          "hint": "N địa điểm + に + N vật + が + あります",
+          "explanation": "あります dùng cho vật không tự di chuyển được.",
+          "orderIndex": 14
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000436005",
+          "patternId": "77777777-1123-0001-0000-000000004007",
+          "exerciseType": "arrange",
+          "prompt": "Dưới hầm có bãi đỗ xe.",
+          "expectedAnswer": "地下 (ちか)に駐車場 (ちゅうしゃじょう)があります",
+          "optionsJson": "[\"が\",\"に\",\"あります\",\"地下 (ちか)\",\"駐車場 (ちゅうしゃじょう)\"]",
+          "options": [
+            "が",
+            "に",
+            "あります",
+            "地下 (ちか)",
+            "駐車場 (ちゅうしゃじょう)"
+          ],
+          "correctOrderJson": "[\"地下 (ちか)\",\"に\",\"駐車場 (ちゅうしゃじょう)\",\"が\",\"あります\"]",
+          "correctOrder": [
+            "地下 (ちか)",
+            "に",
+            "駐車場 (ちゅうしゃじょう)",
+            "が",
+            "あります"
+          ],
+          "orderIndex": 15
+        }
+      ]
+    }
+  ]
+}

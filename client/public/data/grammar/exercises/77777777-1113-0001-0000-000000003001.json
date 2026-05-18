@@ -1,0 +1,230 @@
+[
+  {
+    "id": "77777777-1113-0003-0000-000000310001",
+    "patternId": "77777777-1113-0001-0000-000000003001",
+    "exerciseType": "ja_to_vi",
+    "prompt": "毎日、朝ごはんを食べます。",
+    "promptReading": "まいにち、あさごはんをたべます。",
+    "expectedAnswer": "Mỗi ngày tôi đều ăn sáng.",
+    "hint": "Vます / Vません",
+    "explanation": "Dùng để nói về bản thân hoặc hỏi người khác lịch sự.",
+    "orderIndex": 1
+  },
+  {
+    "id": "77777777-1113-0003-0000-000000320001",
+    "patternId": "77777777-1113-0001-0000-000000003001",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Mỗi ngày tôi đều ăn sáng.",
+    "expectedAnswer": "毎日、朝ごはんを食べます。",
+    "acceptableAnswers": [
+      "まいにち、あさごはんをたべます。"
+    ],
+    "hint": "Động từ chia thể ます hoặc ません",
+    "explanation": "Dùng để nói về bản thân hoặc hỏi người khác lịch sự.",
+    "orderIndex": 2
+  },
+  {
+    "id": "77777777-1113-0003-0000-000000330001",
+    "patternId": "77777777-1113-0001-0000-000000003001",
+    "exerciseType": "arrange",
+    "prompt": "Mỗi ngày tôi đều ăn sáng.",
+    "expectedAnswer": "毎日、朝ご (まいにち、あさご)はんを食べます (たべます)",
+    "optionsJson": "[\"は\",\"を\",\"ん\",\"食べます (たべます)\",\"毎日、朝ご (まいにち、あさご)\"]",
+    "options": [
+      "は",
+      "を",
+      "ん",
+      "食べます (たべます)",
+      "毎日、朝ご (まいにち、あさご)"
+    ],
+    "correctOrderJson": "[\"毎日、朝ご (まいにち、あさご)\",\"は\",\"ん\",\"を\",\"食べます (たべます)\"]",
+    "correctOrder": [
+      "毎日、朝ご (まいにち、あさご)",
+      "は",
+      "ん",
+      "を",
+      "食べます (たべます)"
+    ],
+    "orderIndex": 3
+  },
+  {
+    "id": "77777777-1113-0003-0000-000000310002",
+    "patternId": "77777777-1113-0001-0000-000000003001",
+    "exerciseType": "ja_to_vi",
+    "prompt": "日曜日は働きません。",
+    "promptReading": "にちようびははたらきません。",
+    "expectedAnswer": "Chủ nhật tôi không làm việc.",
+    "hint": "Vます / Vません",
+    "explanation": "Dùng để nói về bản thân hoặc hỏi người khác lịch sự.",
+    "orderIndex": 4
+  },
+  {
+    "id": "77777777-1113-0003-0000-000000320002",
+    "patternId": "77777777-1113-0001-0000-000000003001",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Chủ nhật tôi không làm việc.",
+    "expectedAnswer": "日曜日は働きません。",
+    "acceptableAnswers": [
+      "にちようびははたらきません。"
+    ],
+    "hint": "Động từ chia thể ます hoặc ません",
+    "explanation": "Dùng để nói về bản thân hoặc hỏi người khác lịch sự.",
+    "orderIndex": 5
+  },
+  {
+    "id": "77777777-1113-0003-0000-000000330002",
+    "patternId": "77777777-1113-0001-0000-000000003001",
+    "exerciseType": "arrange",
+    "prompt": "Chủ nhật tôi không làm việc.",
+    "expectedAnswer": "日曜日 (にちようび)は働きません (はたらきません)",
+    "optionsJson": "[\"は\",\"日曜日 (にちようび)\",\"働きません (はたらきません)\"]",
+    "options": [
+      "は",
+      "日曜日 (にちようび)",
+      "働きません (はたらきません)"
+    ],
+    "correctOrderJson": "[\"日曜日 (にちようび)\",\"は\",\"働きません (はたらきません)\"]",
+    "correctOrder": [
+      "日曜日 (にちようび)",
+      "は",
+      "働きません (はたらきません)"
+    ],
+    "orderIndex": 6
+  },
+  {
+    "id": "77777777-1113-0003-0000-000000310003",
+    "patternId": "77777777-1113-0001-0000-000000003001",
+    "exerciseType": "ja_to_vi",
+    "prompt": "明日は学校へ行きます。",
+    "promptReading": "あしたはがっこうへいきます。",
+    "expectedAnswer": "Ngày mai tôi sẽ đến trường.",
+    "hint": "Vます / Vません",
+    "explanation": "Dùng để nói về bản thân hoặc hỏi người khác lịch sự.",
+    "orderIndex": 7
+  },
+  {
+    "id": "77777777-1113-0003-0000-000000320003",
+    "patternId": "77777777-1113-0001-0000-000000003001",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Ngày mai tôi sẽ đến trường.",
+    "expectedAnswer": "明日は学校へ行きます。",
+    "acceptableAnswers": [
+      "あしたはがっこうへいきます。"
+    ],
+    "hint": "Động từ chia thể ます hoặc ません",
+    "explanation": "Dùng để nói về bản thân hoặc hỏi người khác lịch sự.",
+    "orderIndex": 8
+  },
+  {
+    "id": "77777777-1113-0003-0000-000000330003",
+    "patternId": "77777777-1113-0001-0000-000000003001",
+    "exerciseType": "arrange",
+    "prompt": "Ngày mai tôi sẽ đến trường.",
+    "expectedAnswer": "明日 (あした)は学校 (がっこう)へ行きます (いきます)",
+    "optionsJson": "[\"は\",\"へ\",\"明日 (あした)\",\"学校 (がっこう)\",\"行きます (いきます)\"]",
+    "options": [
+      "は",
+      "へ",
+      "明日 (あした)",
+      "学校 (がっこう)",
+      "行きます (いきます)"
+    ],
+    "correctOrderJson": "[\"明日 (あした)\",\"は\",\"学校 (がっこう)\",\"へ\",\"行きます (いきます)\"]",
+    "correctOrder": [
+      "明日 (あした)",
+      "は",
+      "学校 (がっこう)",
+      "へ",
+      "行きます (いきます)"
+    ],
+    "orderIndex": 9
+  },
+  {
+    "id": "77777777-1113-0003-0000-000000310004",
+    "patternId": "77777777-1113-0001-0000-000000003001",
+    "exerciseType": "ja_to_vi",
+    "prompt": "お酒を飲みません。",
+    "promptReading": "おさけをのみません。",
+    "expectedAnswer": "Tôi không uống rượu.",
+    "hint": "Vます / Vません",
+    "explanation": "Dùng để nói về bản thân hoặc hỏi người khác lịch sự.",
+    "orderIndex": 10
+  },
+  {
+    "id": "77777777-1113-0003-0000-000000320004",
+    "patternId": "77777777-1113-0001-0000-000000003001",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Tôi không uống rượu.",
+    "expectedAnswer": "お酒を飲みません。",
+    "acceptableAnswers": [
+      "おさけをのみません。"
+    ],
+    "hint": "Động từ chia thể ます hoặc ません",
+    "explanation": "Dùng để nói về bản thân hoặc hỏi người khác lịch sự.",
+    "orderIndex": 11
+  },
+  {
+    "id": "77777777-1113-0003-0000-000000330004",
+    "patternId": "77777777-1113-0001-0000-000000003001",
+    "exerciseType": "arrange",
+    "prompt": "Tôi không uống rượu.",
+    "expectedAnswer": "お酒 (おさけ)を飲みません (のみません)",
+    "optionsJson": "[\"を\",\"お酒 (おさけ)\",\"飲みません (のみません)\"]",
+    "options": [
+      "を",
+      "お酒 (おさけ)",
+      "飲みません (のみません)"
+    ],
+    "correctOrderJson": "[\"お酒 (おさけ)\",\"を\",\"飲みません (のみません)\"]",
+    "correctOrder": [
+      "お酒 (おさけ)",
+      "を",
+      "飲みません (のみません)"
+    ],
+    "orderIndex": 12
+  },
+  {
+    "id": "77777777-1113-0003-0000-000000310005",
+    "patternId": "77777777-1113-0001-0000-000000003001",
+    "exerciseType": "ja_to_vi",
+    "prompt": "毎晩、日本語を勉強します。",
+    "promptReading": "まいばん、にほんごをべんきょうします。",
+    "expectedAnswer": "Mỗi tối tôi đều học tiếng Nhật.",
+    "hint": "Vます / Vません",
+    "explanation": "Dùng để nói về bản thân hoặc hỏi người khác lịch sự.",
+    "orderIndex": 13
+  },
+  {
+    "id": "77777777-1113-0003-0000-000000320005",
+    "patternId": "77777777-1113-0001-0000-000000003001",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Mỗi tối tôi đều học tiếng Nhật.",
+    "expectedAnswer": "毎晩、日本語を勉強します。",
+    "acceptableAnswers": [
+      "まいばん、にほんごをべんきょうします。"
+    ],
+    "hint": "Động từ chia thể ます hoặc ません",
+    "explanation": "Dùng để nói về bản thân hoặc hỏi người khác lịch sự.",
+    "orderIndex": 14
+  },
+  {
+    "id": "77777777-1113-0003-0000-000000330005",
+    "patternId": "77777777-1113-0001-0000-000000003001",
+    "exerciseType": "arrange",
+    "prompt": "Mỗi tối tôi đều học tiếng Nhật.",
+    "expectedAnswer": "毎晩、日本語 (まいばん、にほんご)を勉強します (べんきょうします)",
+    "optionsJson": "[\"を\",\"勉強します (べんきょうします)\",\"毎晩、日本語 (まいばん、にほんご)\"]",
+    "options": [
+      "を",
+      "勉強します (べんきょうします)",
+      "毎晩、日本語 (まいばん、にほんご)"
+    ],
+    "correctOrderJson": "[\"毎晩、日本語 (まいばん、にほんご)\",\"を\",\"勉強します (べんきょうします)\"]",
+    "correctOrder": [
+      "毎晩、日本語 (まいばん、にほんご)",
+      "を",
+      "勉強します (べんきょうします)"
+    ],
+    "orderIndex": 15
+  }
+]

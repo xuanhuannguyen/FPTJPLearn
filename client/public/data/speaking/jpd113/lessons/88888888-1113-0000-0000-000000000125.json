@@ -1,0 +1,65 @@
+{
+  "lesson": {
+    "id": "88888888-1113-0000-0000-000000000125",
+    "courseCode": "jpd113",
+    "lessonNumber": 25,
+    "title": "オヤコドン",
+    "description": "Món ăn - Thưởng thức món cơm Oyakodon.",
+    "accessTier": "premium",
+    "packageCode": "speaking_jpd113",
+    "isLocked": true,
+    "sentenceCount": 5
+  },
+  "sentences": [
+    {
+      "id": "88888888-1113-0000-0000-000000025001",
+      "lessonId": "88888888-1113-0000-0000-000000000125",
+      "sentenceNumber": 1,
+      "plainText": "土曜日、レストランへ行きます。",
+      "romaji": "doyoubi,resutoran e ikimasu.",
+      "contentHtml": "<ruby>土曜日<rt>どようび</rt></ruby>、レストランへ <ruby>行<rt>い</rt></ruby>きます。",
+      "meaningVi": "Thứ bảy tôi đi nhà hàng.",
+      "orderIndex": 1
+    },
+    {
+      "id": "88888888-1113-0000-0000-000000025002",
+      "lessonId": "88888888-1113-0000-0000-000000000125",
+      "sentenceNumber": 2,
+      "plainText": "オヤコドンをたべます。",
+      "romaji": "oyakodon wo tabemasu.",
+      "contentHtml": "オヤコドンを <ruby>た<rt>た</rt></ruby>べます。",
+      "meaningVi": "Tôi ăn món Oyakodon (cơm gà trứng).",
+      "orderIndex": 2
+    },
+    {
+      "id": "88888888-1113-0000-0000-000000025003",
+      "lessonId": "88888888-1113-0000-0000-000000000125",
+      "sentenceNumber": 3,
+      "plainText": "オヤコドンはとりにくとたまごの日本りょうりです。",
+      "romaji": "oyakodon wa torinikuto tamagono nihonryouri desu.",
+      "contentHtml": "オヤコドンは <ruby>とりにく<rt>とりにく</rt></ruby>と <ruby>たまご<rt>たまご</rt></ruby>の <ruby>日本りょうり<rt>にほんりょうり</rt></ruby> です。",
+      "meaningVi": "Oyakodon là món ăn Nhật Bản làm từ thịt gà và trứng.",
+      "orderIndex": 3
+    },
+    {
+      "id": "88888888-1113-0000-0000-000000025004",
+      "lessonId": "88888888-1113-0000-0000-000000000125",
+      "sentenceNumber": 4,
+      "plainText": "たべたあと、ビジネンこうえんでさんぽします。",
+      "romaji": "tabetaato,bijinenkouende sanpo shimasu.",
+      "contentHtml": "<ruby>た<rt>た</rt></ruby>べたあと、ビジネン<ruby>こうえん<rt>こうえん</rt></ruby>で さんぽ します。",
+      "meaningVi": "Sau khi ăn xong, tôi đi dạo ở công viên Business.",
+      "orderIndex": 4
+    },
+    {
+      "id": "88888888-1113-0000-0000-000000025005",
+      "lessonId": "88888888-1113-0000-0000-000000000125",
+      "sentenceNumber": 5,
+      "plainText": "六時にうちへかえります。",
+      "romaji": "rokujini uchi e kaerimasu.",
+      "contentHtml": "<ruby>六時<rt>ろくじ</rt></ruby>に <ruby>うち<rt>うち</rt></ruby>へ <ruby>かえ<rt>かえ</rt></ruby>ります。",
+      "meaningVi": "Lúc 6 giờ tôi về nhà.",
+      "orderIndex": 5
+    }
+  ]
+}

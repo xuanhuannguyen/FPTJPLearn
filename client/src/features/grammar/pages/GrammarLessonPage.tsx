@@ -11,6 +11,8 @@ import {
 import { grammarApi } from '../api/grammarApi';
 import { memoryApi } from '../../memory/api/memoryApi';
 import type { GrammarLesson, GrammarPattern } from '../types/grammar.types';
+import { PremiumLock } from '../../../shared/components/PremiumLock';
+import { useUserAccess } from '../../../shared/hooks/useUserAccess';
 
 export const GrammarLessonPage = () => {
   const { level, lessonId } = useParams();
@@ -21,6 +23,7 @@ export const GrammarLessonPage = () => {
   const [error, setError] = useState<string | null>(null);
   const [addingId, setAddingId] = useState<string | null>(null);
   const [memoryPatternIds, setMemoryPatternIds] = useState<Set<string>>(new Set());
+  const { isContentLocked } = useUserAccess();
 
   const loadLesson = async () => {
     if (!lessonId) return;
@@ -28,13 +31,16 @@ export const GrammarLessonPage = () => {
     setLesson(data.lesson);
     setPatterns(data.patterns);
 
-    const statuses = await Promise.all(
+    const statuses = await Promise.allSettled(
       data.patterns.map(async (pattern) => {
         const status = await memoryApi.getGrammarPatternStatus(pattern.id);
         return { patternId: pattern.id, isInMemory: status.isInMemory };
       })
     );
-    setMemoryPatternIds(new Set(statuses.filter((status) => status.isInMemory).map((status) => status.patternId)));
+    setMemoryPatternIds(new Set(statuses
+      .filter((status): status is PromiseFulfilledResult<{ patternId: string; isInMemory: boolean }> => status.status === 'fulfilled')
+      .filter((status) => status.value.isInMemory)
+      .map((status) => status.value.patternId)));
   };
 
   useEffect(() => {
@@ -133,6 +139,7 @@ export const GrammarLessonPage = () => {
         </div>
       </div>
 
+      <PremiumLock isLocked={isContentLocked(lesson)} packageCode={lesson.packageCode}>
       {/* Patterns Grid - 2 Columns Compact Layout */}
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
         {patterns.map((pattern, idx) => (
@@ -191,6 +198,7 @@ export const GrammarLessonPage = () => {
           </Link>
         ))}
       </div>
+      </PremiumLock>
     </div>
   );
 };

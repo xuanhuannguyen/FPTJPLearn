@@ -1,0 +1,75 @@
+{
+  "lesson": {
+    "id": "88888888-1113-0000-0000-000000000107",
+    "courseCode": "jpd113",
+    "lessonNumber": 7,
+    "title": "FPTだいがくの きっさてん",
+    "description": "Địa điểm - Giới thiệu về quán cà phê trong trường đại học FPT.",
+    "accessTier": "premium",
+    "packageCode": "speaking_jpd113",
+    "isLocked": true,
+    "sentenceCount": 6
+  },
+  "sentences": [
+    {
+      "id": "88888888-1113-0000-0000-000000007001",
+      "lessonId": "88888888-1113-0000-0000-000000000107",
+      "sentenceNumber": 1,
+      "plainText": "ここはFPTだい学のきっさてんです。",
+      "romaji": "koko wa FPTdaigakuno kissatendesu.",
+      "contentHtml": "ここは FPT<ruby>だい学<rt>だいがく</rt></ruby>の <ruby>きっさてん<rt>きっさてん</rt></ruby>です。",
+      "meaningVi": "Đây là quán cà phê của trường đại học FPT.",
+      "orderIndex": 1
+    },
+    {
+      "id": "88888888-1113-0000-0000-000000007002",
+      "lessonId": "88888888-1113-0000-0000-000000000107",
+      "sentenceNumber": 2,
+      "plainText": "ごぜん六時からごご10時までです。",
+      "romaji": "gozen rokujikara gogo juujimadedesu.",
+      "contentHtml": "<ruby>ごぜん<rt>ごぜん</rt></ruby> <ruby>六時<rt>ろくじ</rt></ruby>から <ruby>ごご<rt>ごご</rt></ruby> <ruby>10時<rt>じゅうじ</rt></ruby>までです。",
+      "meaningVi": "Mở cửa từ 6 giờ sáng đến 10 giờ tối.",
+      "orderIndex": 2
+    },
+    {
+      "id": "88888888-1113-0000-0000-000000007003",
+      "lessonId": "88888888-1113-0000-0000-000000000107",
+      "sentenceNumber": 3,
+      "plainText": "やすみは日曜日のあさです。",
+      "romaji": "yasumi wa nichiyoubino asadesu.",
+      "contentHtml": "<ruby>やすみ<rt>やすみ</rt></ruby>は <ruby>日曜日<rt>にちようび</rt></ruby>の あさです。",
+      "meaningVi": "Nghỉ vào sáng chủ nhật.",
+      "orderIndex": 3
+    },
+    {
+      "id": "88888888-1113-0000-0000-000000007004",
+      "lessonId": "88888888-1113-0000-0000-000000000107",
+      "sentenceNumber": 4,
+      "plainText": "まい日、ここでコーヒーをのみます。",
+      "romaji": "mainichi,kokode ko-hi- wo nomimasu.",
+      "contentHtml": "<ruby>まい日<rt>まいにち</rt></ruby>、ここで コーヒーを <ruby>の<rt>の</rt></ruby>みます。",
+      "meaningVi": "Mỗi ngày tôi đều uống cà phê ở đây.",
+      "orderIndex": 4
+    },
+    {
+      "id": "88888888-1113-0000-0000-000000007005",
+      "lessonId": "88888888-1113-0000-0000-000000000107",
+      "sentenceNumber": 5,
+      "plainText": "たのしいです。",
+      "romaji": "tanoshiidesu.",
+      "contentHtml": "たのしいです。",
+      "meaningVi": "Rất vui.",
+      "orderIndex": 5
+    },
+    {
+      "id": "88888888-1113-0000-0000-000000007006",
+      "lessonId": "88888888-1113-0000-0000-000000000107",
+      "sentenceNumber": 6,
+      "plainText": "ここのコーヒーはおいしいです。",
+      "romaji": "kokono ko-hi- wa oishiidesu.",
+      "contentHtml": "ここの コーヒーは おいしいです。",
+      "meaningVi": "Cà phê ở đây ngon.",
+      "orderIndex": 6
+    }
+  ]
+}

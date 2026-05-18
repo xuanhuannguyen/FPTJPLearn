@@ -1,0 +1,238 @@
+[
+  {
+    "id": "77777777-1123-0003-0000-000000610001",
+    "patternId": "77777777-1123-0001-0000-000000006001",
+    "exerciseType": "ja_to_vi",
+    "prompt": "晩ごはんを一緒に食べに行きませんか。",
+    "promptReading": "ばんごはんをいっしょにたべにいきませんか。",
+    "expectedAnswer": "Tối nay cùng đi ăn tối không?",
+    "hint": "Vませんか",
+    "explanation": "Thường trả lời bằng いいですね (Được đấy).",
+    "orderIndex": 1
+  },
+  {
+    "id": "77777777-1123-0003-0000-000000620001",
+    "patternId": "77777777-1123-0001-0000-000000006001",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Tối nay cùng đi ăn tối không?",
+    "expectedAnswer": "晩ごはんを一緒に食べに行きませんか。",
+    "acceptableAnswers": [
+      "ばんごはんをいっしょにたべにいきませんか。"
+    ],
+    "hint": "Động từ chia thể phủ định + か",
+    "explanation": "Thường trả lời bằng いいですね (Được đấy).",
+    "orderIndex": 2
+  },
+  {
+    "id": "77777777-1123-0003-0000-000000630001",
+    "patternId": "77777777-1123-0001-0000-000000006001",
+    "exerciseType": "arrange",
+    "prompt": "Tối nay cùng đi ăn tối không?",
+    "expectedAnswer": "晩ご (ばんご)はんを一緒 (いっしょ)に食べ (たべ)に行きませんか (いきませんか)",
+    "optionsJson": "[\"に\",\"に\",\"は\",\"を\",\"ん\",\"晩ご (ばんご)\",\"食べ (たべ)\",\"一緒 (いっしょ)\",\"行きませんか (いきませんか)\"]",
+    "options": [
+      "に",
+      "に",
+      "は",
+      "を",
+      "ん",
+      "晩ご (ばんご)",
+      "食べ (たべ)",
+      "一緒 (いっしょ)",
+      "行きませんか (いきませんか)"
+    ],
+    "correctOrderJson": "[\"晩ご (ばんご)\",\"は\",\"ん\",\"を\",\"一緒 (いっしょ)\",\"に\",\"食べ (たべ)\",\"に\",\"行きませんか (いきませんか)\"]",
+    "correctOrder": [
+      "晩ご (ばんご)",
+      "は",
+      "ん",
+      "を",
+      "一緒 (いっしょ)",
+      "に",
+      "食べ (たべ)",
+      "に",
+      "行きませんか (いきませんか)"
+    ],
+    "orderIndex": 3
+  },
+  {
+    "id": "77777777-1123-0003-0000-000000610002",
+    "patternId": "77777777-1123-0001-0000-000000006001",
+    "exerciseType": "ja_to_vi",
+    "prompt": "テニスをしませんか。",
+    "promptReading": "テニスをしませんか。",
+    "expectedAnswer": "Cùng chơi tennis không?",
+    "hint": "Vませんか",
+    "explanation": "Thường trả lời bằng いいですね (Được đấy).",
+    "orderIndex": 4
+  },
+  {
+    "id": "77777777-1123-0003-0000-000000620002",
+    "patternId": "77777777-1123-0001-0000-000000006001",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Cùng chơi tennis không?",
+    "expectedAnswer": "テニスをしませんか。",
+    "acceptableAnswers": [
+      "テニスをしませんか。"
+    ],
+    "hint": "Động từ chia thể phủ định + か",
+    "explanation": "Thường trả lời bằng いいですね (Được đấy).",
+    "orderIndex": 5
+  },
+  {
+    "id": "77777777-1123-0003-0000-000000630002",
+    "patternId": "77777777-1123-0001-0000-000000006001",
+    "exerciseType": "arrange",
+    "prompt": "Cùng chơi tennis không?",
+    "expectedAnswer": "テニスをしませんか",
+    "optionsJson": "[\"を\",\"テニス\",\"しませんか\"]",
+    "options": [
+      "を",
+      "テニス",
+      "しませんか"
+    ],
+    "correctOrderJson": "[\"テニス\",\"を\",\"しませんか\"]",
+    "correctOrder": [
+      "テニス",
+      "を",
+      "しませんか"
+    ],
+    "orderIndex": 6
+  },
+  {
+    "id": "77777777-1123-0003-0000-000000610003",
+    "patternId": "77777777-1123-0001-0000-000000006001",
+    "exerciseType": "ja_to_vi",
+    "prompt": "明日、映画を見に行きませんか。",
+    "promptReading": "あした、えいがをみにいきませんか。",
+    "expectedAnswer": "Ngày mai cùng đi xem phim không?",
+    "hint": "Vませんか",
+    "explanation": "Thường trả lời bằng いいですね (Được đấy).",
+    "orderIndex": 7
+  },
+  {
+    "id": "77777777-1123-0003-0000-000000620003",
+    "patternId": "77777777-1123-0001-0000-000000006001",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Ngày mai cùng đi xem phim không?",
+    "expectedAnswer": "明日、映画を見に行きませんか。",
+    "acceptableAnswers": [
+      "あした、えいがをみにいきませんか。"
+    ],
+    "hint": "Động từ chia thể phủ định + か",
+    "explanation": "Thường trả lời bằng いいですね (Được đấy).",
+    "orderIndex": 8
+  },
+  {
+    "id": "77777777-1123-0003-0000-000000630003",
+    "patternId": "77777777-1123-0001-0000-000000006001",
+    "exerciseType": "arrange",
+    "prompt": "Ngày mai cùng đi xem phim không?",
+    "expectedAnswer": "明日、映画 (あした、えいが)を見 (み)に行きませんか (いきませんか)",
+    "optionsJson": "[\"に\",\"を\",\"見 (み)\",\"行きませんか (いきませんか)\",\"明日、映画 (あした、えいが)\"]",
+    "options": [
+      "に",
+      "を",
+      "見 (み)",
+      "行きませんか (いきませんか)",
+      "明日、映画 (あした、えいが)"
+    ],
+    "correctOrderJson": "[\"明日、映画 (あした、えいが)\",\"を\",\"見 (み)\",\"に\",\"行きませんか (いきませんか)\"]",
+    "correctOrder": [
+      "明日、映画 (あした、えいが)",
+      "を",
+      "見 (み)",
+      "に",
+      "行きませんか (いきませんか)"
+    ],
+    "orderIndex": 9
+  },
+  {
+    "id": "77777777-1123-0003-0000-000000610004",
+    "patternId": "77777777-1123-0001-0000-000000006001",
+    "exerciseType": "ja_to_vi",
+    "prompt": "ちょっと休みませんか。",
+    "promptReading": "ちょっとやすみませんか。",
+    "expectedAnswer": "Nghỉ ngơi một lát không?",
+    "hint": "Vませんか",
+    "explanation": "Thường trả lời bằng いいですね (Được đấy).",
+    "orderIndex": 10
+  },
+  {
+    "id": "77777777-1123-0003-0000-000000620004",
+    "patternId": "77777777-1123-0001-0000-000000006001",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Nghỉ ngơi một lát không?",
+    "expectedAnswer": "ちょっと休みませんか。",
+    "acceptableAnswers": [
+      "ちょっとやすみませんか。"
+    ],
+    "hint": "Động từ chia thể phủ định + か",
+    "explanation": "Thường trả lời bằng いいですね (Được đấy).",
+    "orderIndex": 11
+  },
+  {
+    "id": "77777777-1123-0003-0000-000000630004",
+    "patternId": "77777777-1123-0001-0000-000000006001",
+    "exerciseType": "arrange",
+    "prompt": "Nghỉ ngơi một lát không?",
+    "expectedAnswer": "ちょっと休みませんか (やすみませんか)",
+    "optionsJson": "[\"と\",\"ちょっ\",\"休みませんか (やすみませんか)\"]",
+    "options": [
+      "と",
+      "ちょっ",
+      "休みませんか (やすみませんか)"
+    ],
+    "correctOrderJson": "[\"ちょっ\",\"と\",\"休みませんか (やすみませんか)\"]",
+    "correctOrder": [
+      "ちょっ",
+      "と",
+      "休みませんか (やすみませんか)"
+    ],
+    "orderIndex": 12
+  },
+  {
+    "id": "77777777-1123-0003-0000-000000610005",
+    "patternId": "77777777-1123-0001-0000-000000006001",
+    "exerciseType": "ja_to_vi",
+    "prompt": "お茶を飲みませんか。",
+    "promptReading": "おちゃをのみませんか。",
+    "expectedAnswer": "Uống trà nhé?",
+    "hint": "Vませんか",
+    "explanation": "Thường trả lời bằng いいですね (Được đấy).",
+    "orderIndex": 13
+  },
+  {
+    "id": "77777777-1123-0003-0000-000000620005",
+    "patternId": "77777777-1123-0001-0000-000000006001",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Uống trà nhé?",
+    "expectedAnswer": "お茶を飲みませんか。",
+    "acceptableAnswers": [
+      "おちゃをのみませんか。"
+    ],
+    "hint": "Động từ chia thể phủ định + か",
+    "explanation": "Thường trả lời bằng いいですね (Được đấy).",
+    "orderIndex": 14
+  },
+  {
+    "id": "77777777-1123-0003-0000-000000630005",
+    "patternId": "77777777-1123-0001-0000-000000006001",
+    "exerciseType": "arrange",
+    "prompt": "Uống trà nhé?",
+    "expectedAnswer": "お茶 (おちゃ)を飲みませんか (のみませんか)",
+    "optionsJson": "[\"を\",\"お茶 (おちゃ)\",\"飲みませんか (のみませんか)\"]",
+    "options": [
+      "を",
+      "お茶 (おちゃ)",
+      "飲みませんか (のみませんか)"
+    ],
+    "correctOrderJson": "[\"お茶 (おちゃ)\",\"を\",\"飲みませんか (のみませんか)\"]",
+    "correctOrder": [
+      "お茶 (おちゃ)",
+      "を",
+      "飲みませんか (のみませんか)"
+    ],
+    "orderIndex": 15
+  }
+]

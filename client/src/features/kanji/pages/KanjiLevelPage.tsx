@@ -8,17 +8,18 @@ import {
 } from 'lucide-react';
 import { kanjiApi } from '../api/kanjiApi';
 import type { KanjiLevel, KanjiLesson } from '../types/kanji.types';
+import { useUserAccess } from '../../../shared/hooks/useUserAccess';
 
 export const KanjiLevelPage = () => {
   const { level: paramLevel } = useParams<{ level: string }>();
   
-  // Map JPD codes back to N5/N3 for API
-  const level = paramLevel?.toLowerCase() === 'jpd113' ? 'N5' : 
-                paramLevel?.toLowerCase() === 'jpd123' ? 'N3' : 
-                paramLevel as KanjiLevel;
+  const level = paramLevel?.toLowerCase().startsWith('jpd')
+    ? paramLevel.toLowerCase()
+    : paramLevel as KanjiLevel;
 
   const [lessons, setLessons] = useState<KanjiLesson[]>([]);
   const [isLoading, setIsLoading] = useState(true);
+  const { isContentLocked } = useUserAccess();
 
   useEffect(() => {
     const fetchLessons = async () => {
@@ -63,35 +64,37 @@ export const KanjiLevelPage = () => {
 
       {/* Dense Lessons Grid */}
       <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
-        {lessons.map((lesson) => (
+        {lessons.map((lesson) => {
+          const isLocked = isContentLocked(lesson);
+          return (
           <Link
             key={lesson.id}
-            to={lesson.isLocked ? '/pricing' : `/kanji/${paramLevel}/lessons/${lesson.id}`}
+            to={isLocked ? '/pricing' : `/kanji/${paramLevel}/lessons/${lesson.id}`}
             className={`group flex items-center justify-between border border-black p-3 transition-all cursor-pointer ${
-              lesson.isLocked 
+              isLocked
                 ? 'bg-slate-50 opacity-60 shadow-[2px_2px_0px_#0F172A]'
                 : 'bg-white hover:bg-slate-50 hover:border-accent-primary shadow-[2px_2px_0px_#0F172A] hover:shadow-[1px_1px_0px_#0F172A] hover:translate-x-[1px] hover:translate-y-[1px]'
             }`}
           >
             <div className="flex items-center gap-3">
               <div className={`flex h-10 w-10 shrink-0 items-center justify-center border border-black ${
-                lesson.isLocked ? 'bg-slate-200' : 'bg-blue-50 text-accent-primary'
+                isLocked ? 'bg-slate-200' : 'bg-blue-50 text-accent-primary'
               }`}>
-                {lesson.isLocked ? <Lock size={16} /> : <BookOpen size={16} />}
+                {isLocked ? <Lock size={16} /> : <BookOpen size={16} />}
               </div>
               
               <div className="flex flex-col">
                 <span className="text-[10px] font-black uppercase font-mono text-text-tertiary">
                   Lesson {lesson.lessonNumber}
                 </span>
-                <span className={`text-base font-bold leading-tight ${lesson.isLocked ? 'text-text-secondary' : 'text-text-primary'}`}>
+                <span className={`text-base font-bold leading-tight ${isLocked ? 'text-text-secondary' : 'text-text-primary'}`}>
                   {lesson.title}
                 </span>
               </div>
             </div>
 
             <div className="flex flex-col items-end gap-1">
-              {lesson.isLocked ? (
+              {isLocked ? (
                 <span className="border border-black bg-slate-200 px-2 py-0.5 text-[10px] font-black uppercase">
                   PRO
                 </span>
@@ -106,7 +109,8 @@ export const KanjiLevelPage = () => {
               )}
             </div>
           </Link>
-        ))}
+          );
+        })}
       </div>
       
       {lessons.length === 0 && (

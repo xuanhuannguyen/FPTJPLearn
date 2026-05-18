@@ -1,0 +1,250 @@
+[
+  {
+    "id": "77777777-1113-0003-0000-000000117001",
+    "patternId": "77777777-1113-0001-0000-000000001008",
+    "exerciseType": "ja_to_vi",
+    "prompt": "Aさんの誕生日は五月ですか。",
+    "promptReading": "Aさんのたんじょうびはごがつですか。",
+    "expectedAnswer": "Sinh nhật của bạn A là tháng 5 à?",
+    "hint": "N1 は N2 ですか。",
+    "explanation": "Trả lời bằng はい hoặc いいえ.",
+    "orderIndex": 1
+  },
+  {
+    "id": "77777777-1113-0003-0000-000000127001",
+    "patternId": "77777777-1113-0001-0000-000000001008",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Sinh nhật của bạn A là tháng 5 à?",
+    "expectedAnswer": "Aさんの誕生日は五月ですか。",
+    "acceptableAnswers": [
+      "Aさんのたんじょうびはごがつですか。"
+    ],
+    "hint": "N1 + は + N2 + ですか",
+    "explanation": "Trả lời bằng はい hoặc いいえ.",
+    "orderIndex": 2
+  },
+  {
+    "id": "77777777-1113-0003-0000-000000137001",
+    "patternId": "77777777-1113-0001-0000-000000001008",
+    "exerciseType": "arrange",
+    "prompt": "Sinh nhật của bạn A là tháng 5 à?",
+    "expectedAnswer": "Aさんの誕生日 (たんじょうび)は五月 (ごがつ)ですか",
+    "optionsJson": "[\"か\",\"の\",\"は\",\"です\",\"Aさん\",\"五月 (ごがつ)\",\"誕生日 (たんじょうび)\"]",
+    "options": [
+      "か",
+      "の",
+      "は",
+      "です",
+      "Aさん",
+      "五月 (ごがつ)",
+      "誕生日 (たんじょうび)"
+    ],
+    "correctOrderJson": "[\"Aさん\",\"の\",\"誕生日 (たんじょうび)\",\"は\",\"五月 (ごがつ)\",\"です\",\"か\"]",
+    "correctOrder": [
+      "Aさん",
+      "の",
+      "誕生日 (たんじょうび)",
+      "は",
+      "五月 (ごがつ)",
+      "です",
+      "か"
+    ],
+    "orderIndex": 3
+  },
+  {
+    "id": "77777777-1113-0003-0000-000000117002",
+    "patternId": "77777777-1113-0001-0000-000000001008",
+    "exerciseType": "ja_to_vi",
+    "prompt": "あなたは日本人ですか。",
+    "promptReading": "あなたはにほんじんですか。",
+    "expectedAnswer": "Bạn là người Nhật có phải không?",
+    "hint": "N1 は N2 ですか。",
+    "explanation": "Trả lời bằng はい hoặc いいえ.",
+    "orderIndex": 4
+  },
+  {
+    "id": "77777777-1113-0003-0000-000000127002",
+    "patternId": "77777777-1113-0001-0000-000000001008",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Bạn là người Nhật có phải không?",
+    "expectedAnswer": "あなたは日本人ですか。",
+    "acceptableAnswers": [
+      "あなたはにほんじんですか。"
+    ],
+    "hint": "N1 + は + N2 + ですか",
+    "explanation": "Trả lời bằng はい hoặc いいえ.",
+    "orderIndex": 5
+  },
+  {
+    "id": "77777777-1113-0003-0000-000000137002",
+    "patternId": "77777777-1113-0001-0000-000000001008",
+    "exerciseType": "arrange",
+    "prompt": "Bạn là người Nhật có phải không?",
+    "expectedAnswer": "あなたは日本人 (にほんじん)ですか",
+    "optionsJson": "[\"か\",\"は\",\"です\",\"あなた\",\"日本人 (にほんじん)\"]",
+    "options": [
+      "か",
+      "は",
+      "です",
+      "あなた",
+      "日本人 (にほんじん)"
+    ],
+    "correctOrderJson": "[\"あなた\",\"は\",\"日本人 (にほんじん)\",\"です\",\"か\"]",
+    "correctOrder": [
+      "あなた",
+      "は",
+      "日本人 (にほんじん)",
+      "です",
+      "か"
+    ],
+    "orderIndex": 6
+  },
+  {
+    "id": "77777777-1113-0003-0000-000000117003",
+    "patternId": "77777777-1113-0001-0000-000000001008",
+    "exerciseType": "ja_to_vi",
+    "prompt": "佐藤さんは学生ですか。",
+    "promptReading": "さとうさんはがくせいですか。",
+    "expectedAnswer": "Anh Sato là sinh viên phải không?",
+    "hint": "N1 は N2 ですか。",
+    "explanation": "Trả lời bằng はい hoặc いいえ.",
+    "orderIndex": 7
+  },
+  {
+    "id": "77777777-1113-0003-0000-000000127003",
+    "patternId": "77777777-1113-0001-0000-000000001008",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Anh Sato là sinh viên phải không?",
+    "expectedAnswer": "佐藤さんは学生ですか。",
+    "acceptableAnswers": [
+      "さとうさんはがくせいですか。"
+    ],
+    "hint": "N1 + は + N2 + ですか",
+    "explanation": "Trả lời bằng はい hoặc いいえ.",
+    "orderIndex": 8
+  },
+  {
+    "id": "77777777-1113-0003-0000-000000137003",
+    "patternId": "77777777-1113-0001-0000-000000001008",
+    "exerciseType": "arrange",
+    "prompt": "Anh Sato là sinh viên phải không?",
+    "expectedAnswer": "佐藤さん (さとうさん)は学生 (がくせい)ですか",
+    "optionsJson": "[\"か\",\"は\",\"です\",\"学生 (がくせい)\",\"佐藤さん (さとうさん)\"]",
+    "options": [
+      "か",
+      "は",
+      "です",
+      "学生 (がくせい)",
+      "佐藤さん (さとうさん)"
+    ],
+    "correctOrderJson": "[\"佐藤さん (さとうさん)\",\"は\",\"学生 (がくせい)\",\"です\",\"か\"]",
+    "correctOrder": [
+      "佐藤さん (さとうさん)",
+      "は",
+      "学生 (がくせい)",
+      "です",
+      "か"
+    ],
+    "orderIndex": 9
+  },
+  {
+    "id": "77777777-1113-0003-0000-000000117004",
+    "patternId": "77777777-1113-0001-0000-000000001008",
+    "exerciseType": "ja_to_vi",
+    "prompt": "これはあなたの傘ですか。",
+    "promptReading": "これはあなたのかさですか。",
+    "expectedAnswer": "Đây là ô của bạn phải không?",
+    "hint": "N1 は N2 ですか。",
+    "explanation": "Trả lời bằng はい hoặc いいえ.",
+    "orderIndex": 10
+  },
+  {
+    "id": "77777777-1113-0003-0000-000000127004",
+    "patternId": "77777777-1113-0001-0000-000000001008",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Đây là ô của bạn phải không?",
+    "expectedAnswer": "これはあなたの傘ですか。",
+    "acceptableAnswers": [
+      "これはあなたのかさですか。"
+    ],
+    "hint": "N1 + は + N2 + ですか",
+    "explanation": "Trả lời bằng はい hoặc いいえ.",
+    "orderIndex": 11
+  },
+  {
+    "id": "77777777-1113-0003-0000-000000137004",
+    "patternId": "77777777-1113-0001-0000-000000001008",
+    "exerciseType": "arrange",
+    "prompt": "Đây là ô của bạn phải không?",
+    "expectedAnswer": "これはあなたの傘 (かさ)ですか",
+    "optionsJson": "[\"か\",\"の\",\"は\",\"です\",\"これ\",\"あなた\",\"傘 (かさ)\"]",
+    "options": [
+      "か",
+      "の",
+      "は",
+      "です",
+      "これ",
+      "あなた",
+      "傘 (かさ)"
+    ],
+    "correctOrderJson": "[\"これ\",\"は\",\"あなた\",\"の\",\"傘 (かさ)\",\"です\",\"か\"]",
+    "correctOrder": [
+      "これ",
+      "は",
+      "あなた",
+      "の",
+      "傘 (かさ)",
+      "です",
+      "か"
+    ],
+    "orderIndex": 12
+  },
+  {
+    "id": "77777777-1113-0003-0000-000000117005",
+    "patternId": "77777777-1113-0001-0000-000000001008",
+    "exerciseType": "ja_to_vi",
+    "prompt": "お仕事は会社員ですか。",
+    "promptReading": "おしごとはかいしゃいんですか。",
+    "expectedAnswer": "Công việc của bạn là nhân viên công ty phải không?",
+    "hint": "N1 は N2 ですか。",
+    "explanation": "Trả lời bằng はい hoặc いいえ.",
+    "orderIndex": 13
+  },
+  {
+    "id": "77777777-1113-0003-0000-000000127005",
+    "patternId": "77777777-1113-0001-0000-000000001008",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Công việc của bạn là nhân viên công ty phải không?",
+    "expectedAnswer": "お仕事は会社員ですか。",
+    "acceptableAnswers": [
+      "おしごとはかいしゃいんですか。"
+    ],
+    "hint": "N1 + は + N2 + ですか",
+    "explanation": "Trả lời bằng はい hoặc いいえ.",
+    "orderIndex": 14
+  },
+  {
+    "id": "77777777-1113-0003-0000-000000137005",
+    "patternId": "77777777-1113-0001-0000-000000001008",
+    "exerciseType": "arrange",
+    "prompt": "Công việc của bạn là nhân viên công ty phải không?",
+    "expectedAnswer": "お仕事 (おしごと)は会社員 (かいしゃいん)ですか",
+    "optionsJson": "[\"か\",\"は\",\"です\",\"お仕事 (おしごと)\",\"会社員 (かいしゃいん)\"]",
+    "options": [
+      "か",
+      "は",
+      "です",
+      "お仕事 (おしごと)",
+      "会社員 (かいしゃいん)"
+    ],
+    "correctOrderJson": "[\"お仕事 (おしごと)\",\"は\",\"会社員 (かいしゃいん)\",\"です\",\"か\"]",
+    "correctOrder": [
+      "お仕事 (おしごと)",
+      "は",
+      "会社員 (かいしゃいん)",
+      "です",
+      "か"
+    ],
+    "orderIndex": 15
+  }
+]

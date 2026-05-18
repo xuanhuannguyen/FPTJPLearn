@@ -1,0 +1,24 @@
+[
+  {
+    "id": "88888888-1113-0000-0000-000000000001",
+    "code": "jpd113",
+    "title": "JPD113",
+    "description": "Bài đọc luyện nói JPD113.",
+    "accessTier": "premium",
+    "packageCode": "speaking_jpd113",
+    "isLocked": true,
+    "lessonCount": 30,
+    "sentenceCount": 141
+  },
+  {
+    "id": "88888888-1123-0000-0000-000000000001",
+    "code": "jpd123",
+    "title": "JPD123",
+    "description": "Bài đọc luyện nói JPD123.",
+    "accessTier": "premium",
+    "packageCode": "speaking_jpd123",
+    "isLocked": true,
+    "lessonCount": 28,
+    "sentenceCount": 261
+  }
+]

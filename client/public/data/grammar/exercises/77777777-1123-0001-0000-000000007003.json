@@ -1,0 +1,230 @@
+[
+  {
+    "id": "77777777-1123-0003-0000-000000712001",
+    "patternId": "77777777-1123-0001-0000-000000007003",
+    "exerciseType": "ja_to_vi",
+    "prompt": "パクさんは電話をかけています。",
+    "promptReading": "パクさんはでんわをかけています。",
+    "expectedAnswer": "Anh Park đang gọi điện thoại.",
+    "hint": "Vて います",
+    "explanation": "Cũng dùng để diễn tả trạng thái.",
+    "orderIndex": 1
+  },
+  {
+    "id": "77777777-1123-0003-0000-000000722001",
+    "patternId": "77777777-1123-0001-0000-000000007003",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Anh Park đang gọi điện thoại.",
+    "expectedAnswer": "パクさんは電話をかけています。",
+    "acceptableAnswers": [
+      "パクさんはでんわをかけています。"
+    ],
+    "hint": "Động từ chia thể て + います",
+    "explanation": "Cũng dùng để diễn tả trạng thái.",
+    "orderIndex": 2
+  },
+  {
+    "id": "77777777-1123-0003-0000-000000732001",
+    "patternId": "77777777-1123-0001-0000-000000007003",
+    "exerciseType": "arrange",
+    "prompt": "Anh Park đang gọi điện thoại.",
+    "expectedAnswer": "パクさんは電話 (でんわ)をかけています",
+    "optionsJson": "[\"は\",\"を\",\"パクさん\",\"かけています\",\"電話 (でんわ)\"]",
+    "options": [
+      "は",
+      "を",
+      "パクさん",
+      "かけています",
+      "電話 (でんわ)"
+    ],
+    "correctOrderJson": "[\"パクさん\",\"は\",\"電話 (でんわ)\",\"を\",\"かけています\"]",
+    "correctOrder": [
+      "パクさん",
+      "は",
+      "電話 (でんわ)",
+      "を",
+      "かけています"
+    ],
+    "orderIndex": 3
+  },
+  {
+    "id": "77777777-1123-0003-0000-000000712002",
+    "patternId": "77777777-1123-0001-0000-000000007003",
+    "exerciseType": "ja_to_vi",
+    "prompt": "今、雨が降っています。",
+    "promptReading": "いま、あめがふっています。",
+    "expectedAnswer": "Bây giờ trời đang mưa.",
+    "hint": "Vて います",
+    "explanation": "Cũng dùng để diễn tả trạng thái.",
+    "orderIndex": 4
+  },
+  {
+    "id": "77777777-1123-0003-0000-000000722002",
+    "patternId": "77777777-1123-0001-0000-000000007003",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Bây giờ trời đang mưa.",
+    "expectedAnswer": "今、雨が降っています。",
+    "acceptableAnswers": [
+      "いま、あめがふっています。"
+    ],
+    "hint": "Động từ chia thể て + います",
+    "explanation": "Cũng dùng để diễn tả trạng thái.",
+    "orderIndex": 5
+  },
+  {
+    "id": "77777777-1123-0003-0000-000000732002",
+    "patternId": "77777777-1123-0001-0000-000000007003",
+    "exerciseType": "arrange",
+    "prompt": "Bây giờ trời đang mưa.",
+    "expectedAnswer": "今、雨 (いま、あめ)が降っています (ふっています)",
+    "optionsJson": "[\"が\",\"今、雨 (いま、あめ)\",\"降っています (ふっています)\"]",
+    "options": [
+      "が",
+      "今、雨 (いま、あめ)",
+      "降っています (ふっています)"
+    ],
+    "correctOrderJson": "[\"今、雨 (いま、あめ)\",\"が\",\"降っています (ふっています)\"]",
+    "correctOrder": [
+      "今、雨 (いま、あめ)",
+      "が",
+      "降っています (ふっています)"
+    ],
+    "orderIndex": 6
+  },
+  {
+    "id": "77777777-1123-0003-0000-000000712003",
+    "patternId": "77777777-1123-0001-0000-000000007003",
+    "exerciseType": "ja_to_vi",
+    "prompt": "子供たちは公園で遊んでいます。",
+    "promptReading": "こどもたちはこうえんであそんでいます。",
+    "expectedAnswer": "Lũ trẻ đang chơi ở công viên.",
+    "hint": "Vて います",
+    "explanation": "Cũng dùng để diễn tả trạng thái.",
+    "orderIndex": 7
+  },
+  {
+    "id": "77777777-1123-0003-0000-000000722003",
+    "patternId": "77777777-1123-0001-0000-000000007003",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Lũ trẻ đang chơi ở công viên.",
+    "expectedAnswer": "子供たちは公園で遊んでいます。",
+    "acceptableAnswers": [
+      "こどもたちはこうえんであそんでいます。"
+    ],
+    "hint": "Động từ chia thể て + います",
+    "explanation": "Cũng dùng để diễn tả trạng thái.",
+    "orderIndex": 8
+  },
+  {
+    "id": "77777777-1123-0003-0000-000000732003",
+    "patternId": "77777777-1123-0001-0000-000000007003",
+    "exerciseType": "arrange",
+    "prompt": "Lũ trẻ đang chơi ở công viên.",
+    "expectedAnswer": "子供たち (こどもたち)は公園で遊んでいます (こうえんであそんでいます)",
+    "optionsJson": "[\"は\",\"子供たち (こどもたち)\",\"公園で遊んでいます (こうえんであそんでいます)\"]",
+    "options": [
+      "は",
+      "子供たち (こどもたち)",
+      "公園で遊んでいます (こうえんであそんでいます)"
+    ],
+    "correctOrderJson": "[\"子供たち (こどもたち)\",\"は\",\"公園で遊んでいます (こうえんであそんでいます)\"]",
+    "correctOrder": [
+      "子供たち (こどもたち)",
+      "は",
+      "公園で遊んでいます (こうえんであそんでいます)"
+    ],
+    "orderIndex": 9
+  },
+  {
+    "id": "77777777-1123-0003-0000-000000712004",
+    "patternId": "77777777-1123-0001-0000-000000007003",
+    "exerciseType": "ja_to_vi",
+    "prompt": "私は日本語を勉強しています。",
+    "promptReading": "わたしはにほんごをべんきょうしています。",
+    "expectedAnswer": "Tôi đang học tiếng Nhật.",
+    "hint": "Vて います",
+    "explanation": "Cũng dùng để diễn tả trạng thái.",
+    "orderIndex": 10
+  },
+  {
+    "id": "77777777-1123-0003-0000-000000722004",
+    "patternId": "77777777-1123-0001-0000-000000007003",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Tôi đang học tiếng Nhật.",
+    "expectedAnswer": "私は日本語を勉強しています。",
+    "acceptableAnswers": [
+      "わたしはにほんごをべんきょうしています。"
+    ],
+    "hint": "Động từ chia thể て + います",
+    "explanation": "Cũng dùng để diễn tả trạng thái.",
+    "orderIndex": 11
+  },
+  {
+    "id": "77777777-1123-0003-0000-000000732004",
+    "patternId": "77777777-1123-0001-0000-000000007003",
+    "exerciseType": "arrange",
+    "prompt": "Tôi đang học tiếng Nhật.",
+    "expectedAnswer": "私 (わたし)は日本語 (にほんご)を勉強しています (べんきょうしています)",
+    "optionsJson": "[\"は\",\"を\",\"私 (わたし)\",\"日本語 (にほんご)\",\"勉強しています (べんきょうしています)\"]",
+    "options": [
+      "は",
+      "を",
+      "私 (わたし)",
+      "日本語 (にほんご)",
+      "勉強しています (べんきょうしています)"
+    ],
+    "correctOrderJson": "[\"私 (わたし)\",\"は\",\"日本語 (にほんご)\",\"を\",\"勉強しています (べんきょうしています)\"]",
+    "correctOrder": [
+      "私 (わたし)",
+      "は",
+      "日本語 (にほんご)",
+      "を",
+      "勉強しています (べんきょうしています)"
+    ],
+    "orderIndex": 12
+  },
+  {
+    "id": "77777777-1123-0003-0000-000000712005",
+    "patternId": "77777777-1123-0001-0000-000000007003",
+    "exerciseType": "ja_to_vi",
+    "prompt": "料理を作っています。",
+    "promptReading": "りょうりをつくっています。",
+    "expectedAnswer": "Tôi đang nấu ăn.",
+    "hint": "Vて います",
+    "explanation": "Cũng dùng để diễn tả trạng thái.",
+    "orderIndex": 13
+  },
+  {
+    "id": "77777777-1123-0003-0000-000000722005",
+    "patternId": "77777777-1123-0001-0000-000000007003",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Tôi đang nấu ăn.",
+    "expectedAnswer": "料理を作っています。",
+    "acceptableAnswers": [
+      "りょうりをつくっています。"
+    ],
+    "hint": "Động từ chia thể て + います",
+    "explanation": "Cũng dùng để diễn tả trạng thái.",
+    "orderIndex": 14
+  },
+  {
+    "id": "77777777-1123-0003-0000-000000732005",
+    "patternId": "77777777-1123-0001-0000-000000007003",
+    "exerciseType": "arrange",
+    "prompt": "Tôi đang nấu ăn.",
+    "expectedAnswer": "料理 (りょうり)を作っています (つくっています)",
+    "optionsJson": "[\"を\",\"料理 (りょうり)\",\"作っています (つくっています)\"]",
+    "options": [
+      "を",
+      "料理 (りょうり)",
+      "作っています (つくっています)"
+    ],
+    "correctOrderJson": "[\"料理 (りょうり)\",\"を\",\"作っています (つくっています)\"]",
+    "correctOrder": [
+      "料理 (りょうり)",
+      "を",
+      "作っています (つくっています)"
+    ],
+    "orderIndex": 15
+  }
+]

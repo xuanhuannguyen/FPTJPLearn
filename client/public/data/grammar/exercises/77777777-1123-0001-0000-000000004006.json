@@ -1,0 +1,248 @@
+[
+  {
+    "id": "77777777-1123-0003-0000-000000415001",
+    "patternId": "77777777-1123-0001-0000-000000004006",
+    "exerciseType": "ja_to_vi",
+    "prompt": "この公園はあまり大きくないです。",
+    "promptReading": "このこうえんはあまりおおきくないです。",
+    "expectedAnswer": "Công viên này không lớn lắm.",
+    "hint": "あまり + Aくない",
+    "explanation": "Luôn đi kèm với đuôi phủ định.",
+    "orderIndex": 1
+  },
+  {
+    "id": "77777777-1123-0003-0000-000000425001",
+    "patternId": "77777777-1123-0001-0000-000000004006",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Công viên này không lớn lắm.",
+    "expectedAnswer": "この公園はあまり大きくないです。",
+    "acceptableAnswers": [
+      "このこうえんはあまりおおきくないです。"
+    ],
+    "hint": "Đứng trước tính từ phủ định.",
+    "explanation": "Luôn đi kèm với đuôi phủ định.",
+    "orderIndex": 2
+  },
+  {
+    "id": "77777777-1123-0003-0000-000000435001",
+    "patternId": "77777777-1123-0001-0000-000000004006",
+    "exerciseType": "arrange",
+    "prompt": "Công viên này không lớn lắm.",
+    "expectedAnswer": "この公園 (こうえん)はあまり大きくない (あまりおおきくない)です",
+    "optionsJson": "[\"こ\",\"の\",\"は\",\"です\",\"公園 (こうえん)\",\"あまり大きくない (あまりおおきくない)\"]",
+    "options": [
+      "こ",
+      "の",
+      "は",
+      "です",
+      "公園 (こうえん)",
+      "あまり大きくない (あまりおおきくない)"
+    ],
+    "correctOrderJson": "[\"こ\",\"の\",\"公園 (こうえん)\",\"は\",\"あまり大きくない (あまりおおきくない)\",\"です\"]",
+    "correctOrder": [
+      "こ",
+      "の",
+      "公園 (こうえん)",
+      "は",
+      "あまり大きくない (あまりおおきくない)",
+      "です"
+    ],
+    "orderIndex": 3
+  },
+  {
+    "id": "77777777-1123-0003-0000-000000415002",
+    "patternId": "77777777-1123-0001-0000-000000004006",
+    "exerciseType": "ja_to_vi",
+    "prompt": "日本語はあまり難しくないです。",
+    "promptReading": "にほんごはあまりむずかしくないです。",
+    "expectedAnswer": "Tiếng Nhật không khó lắm.",
+    "hint": "あまり + Aくない",
+    "explanation": "Luôn đi kèm với đuôi phủ định.",
+    "orderIndex": 4
+  },
+  {
+    "id": "77777777-1123-0003-0000-000000425002",
+    "patternId": "77777777-1123-0001-0000-000000004006",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Tiếng Nhật không khó lắm.",
+    "expectedAnswer": "日本語はあまり難しくないです。",
+    "acceptableAnswers": [
+      "にほんごはあまりむずかしくないです。"
+    ],
+    "hint": "Đứng trước tính từ phủ định.",
+    "explanation": "Luôn đi kèm với đuôi phủ định.",
+    "orderIndex": 5
+  },
+  {
+    "id": "77777777-1123-0003-0000-000000435002",
+    "patternId": "77777777-1123-0001-0000-000000004006",
+    "exerciseType": "arrange",
+    "prompt": "Tiếng Nhật không khó lắm.",
+    "expectedAnswer": "日本語 (にほんご)はあまり難しくない (あまりむずかしくない)です",
+    "optionsJson": "[\"は\",\"です\",\"日本語 (にほんご)\",\"あまり難しくない (あまりむずかしくない)\"]",
+    "options": [
+      "は",
+      "です",
+      "日本語 (にほんご)",
+      "あまり難しくない (あまりむずかしくない)"
+    ],
+    "correctOrderJson": "[\"日本語 (にほんご)\",\"は\",\"あまり難しくない (あまりむずかしくない)\",\"です\"]",
+    "correctOrder": [
+      "日本語 (にほんご)",
+      "は",
+      "あまり難しくない (あまりむずかしくない)",
+      "です"
+    ],
+    "orderIndex": 6
+  },
+  {
+    "id": "77777777-1123-0003-0000-000000415003",
+    "patternId": "77777777-1123-0001-0000-000000004006",
+    "exerciseType": "ja_to_vi",
+    "prompt": "昨日はあまり寒くなかったです。",
+    "promptReading": "きのうはあまりさむくなかったです。",
+    "expectedAnswer": "Hôm qua không lạnh lắm.",
+    "hint": "あまり + Aくない",
+    "explanation": "Luôn đi kèm với đuôi phủ định.",
+    "orderIndex": 7
+  },
+  {
+    "id": "77777777-1123-0003-0000-000000425003",
+    "patternId": "77777777-1123-0001-0000-000000004006",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Hôm qua không lạnh lắm.",
+    "expectedAnswer": "昨日はあまり寒くなかったです。",
+    "acceptableAnswers": [
+      "きのうはあまりさむくなかったです。"
+    ],
+    "hint": "Đứng trước tính từ phủ định.",
+    "explanation": "Luôn đi kèm với đuôi phủ định.",
+    "orderIndex": 8
+  },
+  {
+    "id": "77777777-1123-0003-0000-000000435003",
+    "patternId": "77777777-1123-0001-0000-000000004006",
+    "exerciseType": "arrange",
+    "prompt": "Hôm qua không lạnh lắm.",
+    "expectedAnswer": "昨日 (きのう)はあまり寒くなかった (あまりさむくなかった)です",
+    "optionsJson": "[\"は\",\"です\",\"昨日 (きのう)\",\"あまり寒くなかった (あまりさむくなかった)\"]",
+    "options": [
+      "は",
+      "です",
+      "昨日 (きのう)",
+      "あまり寒くなかった (あまりさむくなかった)"
+    ],
+    "correctOrderJson": "[\"昨日 (きのう)\",\"は\",\"あまり寒くなかった (あまりさむくなかった)\",\"です\"]",
+    "correctOrder": [
+      "昨日 (きのう)",
+      "は",
+      "あまり寒くなかった (あまりさむくなかった)",
+      "です"
+    ],
+    "orderIndex": 9
+  },
+  {
+    "id": "77777777-1123-0003-0000-000000415004",
+    "patternId": "77777777-1123-0001-0000-000000004006",
+    "exerciseType": "ja_to_vi",
+    "prompt": "この映画はあまりおもしろくないです。",
+    "promptReading": "このえいがはあまりおもしろくないです。",
+    "expectedAnswer": "Bộ phim này không hay lắm.",
+    "hint": "あまり + Aくない",
+    "explanation": "Luôn đi kèm với đuôi phủ định.",
+    "orderIndex": 10
+  },
+  {
+    "id": "77777777-1123-0003-0000-000000425004",
+    "patternId": "77777777-1123-0001-0000-000000004006",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Bộ phim này không hay lắm.",
+    "expectedAnswer": "この映画はあまりおもしろくないです。",
+    "acceptableAnswers": [
+      "このえいがはあまりおもしろくないです。"
+    ],
+    "hint": "Đứng trước tính từ phủ định.",
+    "explanation": "Luôn đi kèm với đuôi phủ định.",
+    "orderIndex": 11
+  },
+  {
+    "id": "77777777-1123-0003-0000-000000435004",
+    "patternId": "77777777-1123-0001-0000-000000004006",
+    "exerciseType": "arrange",
+    "prompt": "Bộ phim này không hay lắm.",
+    "expectedAnswer": "この映画 (えいが)はあまりおもしろくないです",
+    "optionsJson": "[\"こ\",\"の\",\"は\",\"も\",\"です\",\"あまりお\",\"しろくない\",\"映画 (えいが)\"]",
+    "options": [
+      "こ",
+      "の",
+      "は",
+      "も",
+      "です",
+      "あまりお",
+      "しろくない",
+      "映画 (えいが)"
+    ],
+    "correctOrderJson": "[\"こ\",\"の\",\"映画 (えいが)\",\"は\",\"あまりお\",\"も\",\"しろくない\",\"です\"]",
+    "correctOrder": [
+      "こ",
+      "の",
+      "映画 (えいが)",
+      "は",
+      "あまりお",
+      "も",
+      "しろくない",
+      "です"
+    ],
+    "orderIndex": 12
+  },
+  {
+    "id": "77777777-1123-0003-0000-000000415005",
+    "patternId": "77777777-1123-0001-0000-000000004006",
+    "exerciseType": "ja_to_vi",
+    "prompt": "あのレストランはあまり有名じゃありません。",
+    "promptReading": "あのレストランはあまりゆうめいじゃありません。",
+    "expectedAnswer": "Nhà hàng kia không nổi tiếng lắm.",
+    "hint": "あまり + Aくない",
+    "explanation": "Luôn đi kèm với đuôi phủ định.",
+    "orderIndex": 13
+  },
+  {
+    "id": "77777777-1123-0003-0000-000000425005",
+    "patternId": "77777777-1123-0001-0000-000000004006",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Nhà hàng kia không nổi tiếng lắm.",
+    "expectedAnswer": "あのレストランはあまり有名じゃありません。",
+    "acceptableAnswers": [
+      "あのレストランはあまりゆうめいじゃありません。"
+    ],
+    "hint": "Đứng trước tính từ phủ định.",
+    "explanation": "Luôn đi kèm với đuôi phủ định.",
+    "orderIndex": 14
+  },
+  {
+    "id": "77777777-1123-0003-0000-000000435005",
+    "patternId": "77777777-1123-0001-0000-000000004006",
+    "exerciseType": "arrange",
+    "prompt": "Nhà hàng kia không nổi tiếng lắm.",
+    "expectedAnswer": "あのレストランはあまり有名 (あまりゆうめい)じゃありません",
+    "optionsJson": "[\"あ\",\"の\",\"は\",\"レストラン\",\"じゃありません\",\"あまり有名 (あまりゆうめい)\"]",
+    "options": [
+      "あ",
+      "の",
+      "は",
+      "レストラン",
+      "じゃありません",
+      "あまり有名 (あまりゆうめい)"
+    ],
+    "correctOrderJson": "[\"あ\",\"の\",\"レストラン\",\"は\",\"あまり有名 (あまりゆうめい)\",\"じゃありません\"]",
+    "correctOrder": [
+      "あ",
+      "の",
+      "レストラン",
+      "は",
+      "あまり有名 (あまりゆうめい)",
+      "じゃありません"
+    ],
+    "orderIndex": 15
+  }
+]

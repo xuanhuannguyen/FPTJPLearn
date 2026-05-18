@@ -1,0 +1,4430 @@
+[
+  {
+    "id": "exam-jpd123-question-1",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "kanji",
+    "level": "N4",
+    "questionText": "モスクワは ロシアの 【東】です。(Các chữ Hán trong ngoặc [ ] có cách đọc tương ứng như thế nào?)",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-2",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "kanji",
+    "level": "N4",
+    "questionText": "来週 【お寺】へ いきます。(Các chữ Hán trong ngoặc [ ] có cách đọc tương ứng như thế nào?)",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-3",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "kanji",
+    "level": "N4",
+    "questionText": "午前、としょかんへ 【行きます】。(Các chữ Hán trong ngoặc [ ] có cách đọc tương ứng như thế nào?)",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-4",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "kanji",
+    "level": "N4",
+    "questionText": "【先週】、ほっかいどうへ いきました。(Các chữ Hán trong ngoặc [ ] có cách đọc tương ứng như thế nào?)",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-5",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "kanji",
+    "level": "N4",
+    "questionText": "【こんげつ】しんじゅくへ 行きます。(Các từ trong ngoặc [ ] dưới đây có chữ Hán tương ứng như thế nào?)",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-6",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "kanji",
+    "level": "N4",
+    "questionText": "【ことし】さくらまつりが あります。(Các từ trong ngoặc [ ] dưới đây có chữ Hán tương ứng như thế nào?)",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-7",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "kanji",
+    "level": "N4",
+    "questionText": "私の まちに 【おおきい】おしろが あります。(Các từ trong ngoặc [ ] dưới đây có chữ Hán tương ứng như thế nào?)",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-8",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "grammar",
+    "level": "N4",
+    "questionText": "あついですから、まどを ( )。(Chọn đáp án thích hợp để điền vào chỗ trống)",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-9",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "grammar",
+    "level": "N4",
+    "questionText": "A: とうきょうから アユタヤまで ( ) ですか。 B: ひこうきで 6時間くらいです。(Chọn đáp án thích hợp để điền vào chỗ trống)",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-10",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "vocabulary",
+    "level": "N4",
+    "questionText": "( ) へ かばんを 買いに 行きます。(Chọn đáp án thích hợp để điền vào chỗ trống)",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-11",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "grammar",
+    "level": "N4",
+    "questionText": "私の くには ちいさいです ( )、人が おおいです。(Chọn đáp án thích hợp để điền vào chỗ trống)",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-12",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "grammar",
+    "level": "N4",
+    "questionText": "しゅうまつ、いっしょに サッカーを ( ) か。(Chọn đáp án thích hợp để điền vào chỗ trống)",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-13",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "grammar",
+    "level": "N4",
+    "questionText": "Dựa vào các từ gợi ý cho sẵn hãy chọn câu có ý nghĩa hoàn chỉnh: こうえん／まち／おおきい／あります／私",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-14",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "grammar",
+    "level": "N4",
+    "questionText": "Hãy chọn dạng phủ định của từ dưới đây: 「にぎやか」",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-15",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "grammar",
+    "level": "N4",
+    "questionText": "きのうの よる、私は ( ) ゲームを しました。(Chọn đáp án thích hợp để điền vào chỗ trống)",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-16",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "vocabulary",
+    "level": "N4",
+    "questionText": "今年の ふゆ、( ) へ スキーを しに 行きます。(Chọn đáp án thích hợp để điền vào chỗ trống)",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-17",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "grammar",
+    "level": "N4",
+    "questionText": "なつやすみ、日本で アルバイトを しますから、( )。(Chọn đáp án thích hợp để điền vào chỗ trống)",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-18",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "grammar",
+    "level": "N4",
+    "questionText": "肉が きらいですから、( )。(Chọn đáp án thích hợp để điền vào chỗ trống)",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-19",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "grammar",
+    "level": "N4",
+    "questionText": "A: きのうの パーティーは たのしかったですか。 B: いいえ、( ) です。(Chọn đáp án thích hợp để điền vào chỗ trống)",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-20",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "grammar",
+    "level": "N4",
+    "questionText": "Dựa vào các từ gợi ý cho sẵn hãy chọn câu có ý nghĩa hoàn chỉnh: さむい／とても／1月／私／まち／です",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-21",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "vocabulary",
+    "level": "N4",
+    "questionText": "Chọn nghĩa tiếng Việt tương ứng của từ sau: “てんきが わるい”",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-22",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "vocabulary",
+    "level": "N4",
+    "questionText": "この ほんや は えきから ( ) です。(Chọn đáp án thích hợp để điền vào chỗ trống)",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-23",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "vocabulary",
+    "level": "N4",
+    "questionText": "Chọn từ KHÔNG CÙNG NHÓM trong các từ sau: ① みず, ② パン, ③ こうちゃ, ④ ジュース",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-24",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "vocabulary",
+    "level": "N4",
+    "questionText": "Chọn từ khác loại trong số các từ sau: ① すっぱい, ② ふるい, ③ にがい, ④ からい",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-25",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "vocabulary",
+    "level": "N4",
+    "questionText": "Chọn nghĩa tiếng Việt tương ứng của từ sau: “きょうかい”",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-26",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "vocabulary",
+    "level": "N4",
+    "questionText": "私の まちは とても ( ) です。(Chọn đáp án thích hợp để điền vào chỗ trống)",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-27",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "vocabulary",
+    "level": "N4",
+    "questionText": "Từ nào có ý nghĩa KHÔNG CÙNG NHÓM với các từ còn lại: ① バス, ② ビル, ③ くるま, ④ ひこうき",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-28",
+    "courseCode": "jpd123",
+    "questionType": "passage",
+    "topic": "reading",
+    "level": "N4",
+    "questionText": "Hãy chọn từ thích hợp điền vào (1) trong đoạn văn.",
+    "passageId": "exam-jpd123-passage-1"
+  },
+  {
+    "id": "exam-jpd123-question-29",
+    "courseCode": "jpd123",
+    "questionType": "passage",
+    "topic": "reading",
+    "level": "N4",
+    "questionText": "Hãy chọn từ thích hợp điền vào (2) trong đoạn văn.",
+    "passageId": "exam-jpd123-passage-1"
+  },
+  {
+    "id": "exam-jpd123-question-30",
+    "courseCode": "jpd123",
+    "questionType": "passage",
+    "topic": "reading",
+    "level": "N4",
+    "questionText": "やまからの けしきは どうでしたか。",
+    "passageId": "exam-jpd123-passage-1"
+  },
+  {
+    "id": "exam-jpd123-question-31",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "kanji",
+    "level": "N4",
+    "questionText": "午前 【十時半】 ともだちと レストランで しょくじします。(Các chữ Hán trong ngoặc [ ] có cách đọc tương ứng như thế nào?)",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-32",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "kanji",
+    "level": "N4",
+    "questionText": "私は 【会社】 で はたらきます。(Các chữ Hán trong ngoặc [ ] có cách đọc tương ứng như thế nào?)",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-33",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "kanji",
+    "level": "N4",
+    "questionText": "コンビニの 【後ろ】 に こうえんが あります。(Các chữ Hán trong ngoặc [ ] có cách đọc tương ứng như thế nào?)",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-34",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "kanji",
+    "level": "N4",
+    "questionText": "来年、よこはまへ 【行きます】。(Các từ trong ngoặc [ ] dưới đây có chữ Hán tương ứng như thế nào?)",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-35",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "kanji",
+    "level": "N4",
+    "questionText": "スーパーで 【かいもの】 します。(Các từ trong ngoặc [ ] dưới đây có chữ Hán tương ứng như thế nào?)",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-36",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "vocabulary",
+    "level": "N4",
+    "questionText": "山田（やまだ）さんは、いま、先生 ( ) はなしています。(Chọn đáp án thích hợp để điền vào chỗ trống)",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-37",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "vocabulary",
+    "level": "N4",
+    "questionText": "ハノイから ホーチミンまで くるま ( ) 30時間半 くらいです。(Chọn đáp án thích hợp để điền vào chỗ trống)",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-38",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "grammar",
+    "level": "N4",
+    "questionText": "ともだち ( ) おかね ( ) かりました。(Chọn đáp án thích hợp để điền vào chỗ trống)",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-39",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "vocabulary",
+    "level": "N4",
+    "questionText": "コンサートの チケット ( ) 2枚 ( ) あります。(Chọn đáp án thích hợp để điền vào chỗ trống)",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-40",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "grammar",
+    "level": "N4",
+    "questionText": "きのうの えいがは ( )。(Chọn đáp án thích hợp để điền vào chỗ trống)",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-41",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "vocabulary",
+    "level": "N4",
+    "questionText": "きれいな しゃしんですね。だれ ( ) とりましたか。(Chọn đáp án thích hợp để điền vào chỗ trống)",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-42",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "grammar",
+    "level": "N4",
+    "questionText": "ランさん、この りょうりの ( ) かた を おしえてください。(Chọn đáp án thích hợp để điền vào chỗ trống)",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-43",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "grammar",
+    "level": "N4",
+    "questionText": "Hãy chọn dạng phủ định của từ dưới đây: 「きもちが いい」",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-44",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "vocabulary",
+    "level": "N4",
+    "questionText": "Chọn từ khác loại trong những từ sau: ① たいへん, ② ひま, ③ きれい, ④ やすい",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-45",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "vocabulary",
+    "level": "N4",
+    "questionText": "ロサンゼルス（Los angeles）は アメリカの ( ) です。(Chọn đáp án thích hợp để điền vào chỗ trống)",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-46",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "vocabulary",
+    "level": "N4",
+    "questionText": "おんせんは ( ) です。(Chọn đáp án thích hợp để điền vào chỗ trống)",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-47",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "vocabulary",
+    "level": "N4",
+    "questionText": "Chọn từ KHÔNG CÙNG NHÓM trong các từ sau: ① しんかんせん, ② まんなか, ③ でんしゃ, ④ ひこうき",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-48",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "kanji",
+    "level": "N4",
+    "questionText": "ゆうびんきょくの 【やすみ】 は 何曜日ですか。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-49",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "kanji",
+    "level": "N4",
+    "questionText": "まいにち、本を【よみます】。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-50",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "kanji",
+    "level": "N4",
+    "questionText": "来年、くにへ 【かえります】 。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-51",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "grammar",
+    "level": "N4",
+    "questionText": "ラーメンは いちばん( )たべものです。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-52",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "vocabulary",
+    "level": "N4",
+    "questionText": "A: カレーと すしと どちらが すきですか。 B: ( ) すきです。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-53",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "vocabulary",
+    "level": "N4",
+    "questionText": "A: マルコさん、やさいを ( )。 B: はい、わかりました。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-54",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "vocabulary",
+    "level": "N4",
+    "questionText": "にちようび、やま ( ) のぼります。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-57",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "vocabulary",
+    "level": "N4",
+    "questionText": "あの町(まち)は あまり ( )。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-58",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "vocabulary",
+    "level": "N4",
+    "questionText": "田中：明日(あした)、いっしょに えいがを 見に 行きませんか。 ミラー： ( )。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-59",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "vocabulary",
+    "level": "N4",
+    "questionText": "私の くに は1月、とても さむいです。パクさんの くには ( )。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-60",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "vocabulary",
+    "level": "N4",
+    "questionText": "A: いっしょに おまつりに いきませんか。 B: ぜひ ( )。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-61",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "vocabulary",
+    "level": "N4",
+    "questionText": "Chọn nghĩa tiếng Việt tương ứng của từ sau: きょうかい",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-62",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "vocabulary",
+    "level": "N4",
+    "questionText": "Chọn nghĩa tiếng Việt tương ứng của từ sau: じんじゃ",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-64",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "vocabulary",
+    "level": "N4",
+    "questionText": "Hãy chọn từ khác loại trong các từ sau: ① おもしろい ② むずかしい ③ いそがしい ④ きらい",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-65",
+    "courseCode": "jpd123",
+    "questionType": "passage",
+    "topic": "reading",
+    "level": "N4",
+    "questionText": "Chọn từ thích hợp điền vào (1): みなさん、来週の日曜日、私の いえで パーティーを (1)。",
+    "passageId": "exam-jpd123-passage-2"
+  },
+  {
+    "id": "exam-jpd123-question-66",
+    "courseCode": "jpd123",
+    "questionType": "passage",
+    "topic": "reading",
+    "level": "N4",
+    "questionText": "Chọn từ thích hợp điền vào (2): おいしい おさけも (2)。",
+    "passageId": "exam-jpd123-passage-2"
+  },
+  {
+    "id": "exam-jpd123-question-67",
+    "courseCode": "jpd123",
+    "questionType": "passage",
+    "topic": "reading",
+    "level": "N4",
+    "questionText": "Chọn đáp án đúng cho câu hỏi sau: 「私」の いえは どこに ありますか。",
+    "passageId": "exam-jpd123-passage-2"
+  },
+  {
+    "id": "exam-jpd123-question-68",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "kanji",
+    "level": "N4",
+    "questionText": "きのう【来日】しました。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-69",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "vocabulary",
+    "level": "N4",
+    "questionText": "日本は 1月( )とても さむいです。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-70",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "vocabulary",
+    "level": "N4",
+    "questionText": "A: ハノイから 日本まで ( ) ですか. B: 五時間ぐらいです。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-71",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "vocabulary",
+    "level": "N4",
+    "questionText": "スープに( )を いれます。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-72",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "kanji",
+    "level": "N4",
+    "questionText": "スーパーで 何を【かいます】か。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-73",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "kanji",
+    "level": "N4",
+    "questionText": "毎日 日本語の CDwo 【ききます】。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-74",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "vocabulary",
+    "level": "N4",
+    "questionText": "しゅうまつ どこ ( ) 行きたいですね。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-75",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "vocabulary",
+    "level": "N4",
+    "questionText": "毎日( )を あらいます。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-76",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "vocabulary",
+    "level": "N4",
+    "questionText": "( )と りょうりを つくります。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-77",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "vocabulary",
+    "level": "N4",
+    "questionText": "サッカーの チケットが( )あります。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-78",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "kanji",
+    "level": "N4",
+    "questionText": "へやに【小さい】ねこが います。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-79",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "kanji",
+    "level": "N4",
+    "questionText": "【前日】りょこうに 行きました。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-80",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "vocabulary",
+    "level": "N4",
+    "questionText": "A: ビールは まだ ありますか. B: いいえ、( ) ありません。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-81",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "grammar",
+    "level": "N4",
+    "questionText": "キム：きのう của パーティーは ( )。 ラン：とても たのしかったです。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-82",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "vocabulary",
+    "level": "N4",
+    "questionText": "ハノイ( ) 大きい きょうかい( ) あります。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-83",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "grammar",
+    "level": "N4",
+    "questionText": "きのうは てんきが( )。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-84",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "vocabulary",
+    "level": "N4",
+    "questionText": "ともだちと( )があります から、あしたの パーティーに いきません。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-85",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "kanji",
+    "level": "N4",
+    "questionText": "アニメの【人物】が すきです。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-86",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "vocabulary",
+    "level": "N4",
+    "questionText": "コーヒーに さとうを( )。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-87",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "vocabulary",
+    "level": "N4",
+    "questionText": "( ) が ありませんから、うみへ 行きません。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-88",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "vocabulary",
+    "level": "N4",
+    "questionText": "このケーキは あまいです。( )、おいしいです。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-89",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "grammar",
+    "level": "N4",
+    "questionText": "Hong Kongha( )ところです。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-90",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "vocabulary",
+    "level": "N4",
+    "questionText": "A: いっしょに バーベキューを しませんか。 B: ええ、いいですね。( )。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-91",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "vocabulary",
+    "level": "N4",
+    "questionText": "ナタポンさん( )DVDをかします。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-92",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "vocabulary",
+    "level": "N4",
+    "questionText": "A: 一年で ( ) が いちばん てんきが いいですか. B: 10月が いいです。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-93",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "vocabulary",
+    "level": "N4",
+    "questionText": "デパートの ( ) で かばんを かいました。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-94",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "vocabulary",
+    "level": "N4",
+    "questionText": "A: きのう どこかへ 行きましたか。 B: ( )、どこも 行きませんでした。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-95",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "vocabulary",
+    "level": "N4",
+    "questionText": "A: ( ) べんきょうしましたか。 B: 2じかん べんきょうしました。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-96",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "vocabulary",
+    "level": "N4",
+    "questionText": "A: その かばんは ( ) ですか。 B: 3000えん です。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-97",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "vocabulary",
+    "level": "N4",
+    "questionText": "田中「明日(あした)、いっしょに えいがを 見に 行きませんか。」 ミラー「( )。」",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-98",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "grammar",
+    "level": "N4",
+    "questionText": "えきまで ともだち( )むかえに 行きます。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-99",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "kanji",
+    "level": "N4",
+    "questionText": "この かばんは 【大きい】 ですね。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-100",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "vocabulary",
+    "level": "N4",
+    "questionText": "りょうり ( ) 何が いちばん すきですか。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-101",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "vocabulary",
+    "level": "N4",
+    "questionText": "こんばん( )があります。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-102",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "grammar",
+    "level": "N4",
+    "questionText": "きのう、風邪(かぜ)でしたから、( )。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-103",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "kanji",
+    "level": "N4",
+    "questionText": "どんな【りょうり】が すきですか",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-104",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "vocabulary",
+    "level": "N4",
+    "questionText": "わたしの 大学(だいがく)は あまり おおきくないです ( )、いい大学です。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-105",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "vocabulary",
+    "level": "N4",
+    "questionText": "ほうりゅうじは ( ) おてらです。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-106",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "grammar",
+    "level": "N4",
+    "questionText": "もう、くすりを ( ) か。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-107",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "grammar",
+    "level": "N4",
+    "questionText": "日本の 食べ物で すしが ( )すきです。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-108",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "kanji",
+    "level": "N4",
+    "questionText": "【らいげつ】 どうきょうで おはなびが あります。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-109",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "vocabulary",
+    "level": "N4",
+    "questionText": "やきゅうを( )。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-110",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "vocabulary",
+    "level": "N4",
+    "questionText": "まいばん、おさらを ( )。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-111",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "kanji",
+    "level": "N4",
+    "questionText": "モスクワは ロシア의 【東】 です。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-112",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "vocabulary",
+    "level": "N4",
+    "questionText": "おかねが ありませんから、ともだちに おかねを ( )。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-113",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "grammar",
+    "level": "N4",
+    "questionText": "名前を( )ください。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-116",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "grammar",
+    "level": "N4",
+    "questionText": "今 ギターを ( ) います。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-117",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "kanji",
+    "level": "N4",
+    "questionText": "【毎月】バーベキューをします。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-118",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "kanji",
+    "level": "N4",
+    "questionText": "お【くに】は どちらですか。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-119",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "grammar",
+    "level": "N4",
+    "questionText": "A: どうして かいませんでしたか。 B: ( )。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-120",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "grammar",
+    "level": "N4",
+    "questionText": "先週 ともだちの いえへ( )。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-121",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "vocabulary",
+    "level": "N4",
+    "questionText": "えいごと 日本語と ( ) が むずかしいですか。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-122",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "vocabulary",
+    "level": "N4",
+    "questionText": "今 từ (Sau đây) ともだちの いえへ ケーキを ( )。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-123",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "vocabulary",
+    "level": "N4",
+    "questionText": "アリさんは れいぞうこ( )ビールを いれます。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-124",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "vocabulary",
+    "level": "N4",
+    "questionText": "ともだち( )本を かります。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-125",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "kanji",
+    "level": "N4",
+    "questionText": "コンビニの【後ろ】に こうえんが あります。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-126",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "kanji",
+    "level": "N4",
+    "questionText": "【食べ物】で なにが いちばん すきですか。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-129",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "vocabulary",
+    "level": "N4",
+    "questionText": "おおさかから とうきょうまで ひこうきで ( ) ですか。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-132",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "vocabulary",
+    "level": "N4",
+    "questionText": "( ) へ ほんを かりに 行きます。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-133",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "vocabulary",
+    "level": "N4",
+    "questionText": "Từ nào có ý nghĩa KHÔNG CÙNG NHÓM với các từ còn lại: 1.きた, 2.くるま, 3.にし, 4.みなみ",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-134",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "vocabulary",
+    "level": "N4",
+    "questionText": "Từ nào có ý nghĩa KHÔNG CÙNG NHÓM với các từ còn lại: 1.バス, 2.ビル, 3.くるま, 4.ひこうき",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-135",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "vocabulary",
+    "level": "N4",
+    "questionText": "Chọn nghĩa tiếng Việt tương ứng của từ sau: おしろ",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-136",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "vocabulary",
+    "level": "N4",
+    "questionText": "Chọn từ khác loại trong những từ sau: 1.たいへん, 2.ひま, 3.きれい, 4.やすい",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-137",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "vocabulary",
+    "level": "N4",
+    "questionText": "おんせんは ( )が いいです。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-138",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "kanji",
+    "level": "N4",
+    "questionText": "来年、よこはまへ【いきます】。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-139",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "kanji",
+    "level": "N4",
+    "questionText": "【今日】、ともだちと サッカーを します。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-140",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "kanji",
+    "level": "N4",
+    "questionText": "日本に【半年】います。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-141",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "kanji",
+    "level": "N4",
+    "questionText": "【こっかい】は 何ですか。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-142",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "vocabulary",
+    "level": "N4",
+    "questionText": "きょう、てんきが あまり( )ですね。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-143",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "vocabulary",
+    "level": "N4",
+    "questionText": "Yamada: 「5時に えきで 会いましょう。」 - Kim: 「5時に えきです ( )。わかりました。」",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-144",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "grammar",
+    "level": "N4",
+    "questionText": "バスは でんしゃ( )やすいです。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-145",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "vocabulary",
+    "level": "N4",
+    "questionText": "Tanaka: 「明日 いっしょに えいがを 見に 行きませんか。」 - Miller: 「( )。」",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-146",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "vocabulary",
+    "level": "N4",
+    "questionText": "A: 日本で ( ) が いちばん さむいですか。 - B: 北海道が いちばん さむいです。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-147",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "vocabulary",
+    "level": "N4",
+    "questionText": "A: ハノイから 日本まで( )ですか。 - B: 五時間くらいです。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-148",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "vocabulary",
+    "level": "N4",
+    "questionText": "このくだものは ( ) です。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-149",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "vocabulary",
+    "level": "N4",
+    "questionText": "日曜日 かぞく ( ) スーパーへ 行きます。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-150",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "kanji",
+    "level": "N4",
+    "questionText": "こんばん、ともだちと【話します】。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-152",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "kanji",
+    "level": "N4",
+    "questionText": "【せんしゅう】、Da Lathe いきました。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-153",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "kanji",
+    "level": "N4",
+    "questionText": "きっさてんで コーヒーを 【のみます】。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-160",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "grammar",
+    "level": "N4",
+    "questionText": "A: かばんを ( )か。 - B: ありがとうございます。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-161",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "kanji",
+    "level": "N4",
+    "questionText": "【らいねん】オーストラリアへ りょこうに 行きます。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-162",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "kanji",
+    "level": "N4",
+    "questionText": "【にく】と さなかと どちらが すきですか。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-163",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "kanji",
+    "level": "N4",
+    "questionText": "【午後】としょかんで ほんを よみます。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-164",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "kanji",
+    "level": "N4",
+    "questionText": "きょう、ともだちに【会いました】。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-165",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "vocabulary",
+    "level": "N4",
+    "questionText": "あした 大学で ともだち( )会います。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-166",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "grammar",
+    "level": "N4",
+    "questionText": "すみません、今日、ようじが あります( )、先に かえります。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-167",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "grammar",
+    "level": "N4",
+    "questionText": "ねこは へや( )なか( )います。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-168",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "vocabulary",
+    "level": "N4",
+    "questionText": "れいぞうこ( )ビールを だします。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-169",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "grammar",
+    "level": "N4",
+    "questionText": "ハノイ( )ホーチミン( )どちらが 大きいですか。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-170",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "vocabulary",
+    "level": "N4",
+    "questionText": "私は まいばん、ともだちに でんわを( )。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-171",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "vocabulary",
+    "level": "N4",
+    "questionText": "きょうは( )あついです。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-172",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "vocabulary",
+    "level": "N4",
+    "questionText": "あしたは ( )ですから、ひるまで ねたいです。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-173",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "vocabulary",
+    "level": "N4",
+    "questionText": "しゅうまつ( )の コンサートが あります。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-174",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "vocabulary",
+    "level": "N4",
+    "questionText": "A: 先週の 週末(しゅうまつ)、( )行きましたか。 - B: いいえ、どこも 行きませんでした。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-177",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "kanji",
+    "level": "N4",
+    "questionText": "大学の【休日】は いつですか。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-178",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "kanji",
+    "level": "N4",
+    "questionText": "【ごご】アルバイトを します。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-179",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "vocabulary",
+    "level": "N4",
+    "questionText": "A: しゅうまつ、何を たべますか。 - B: ( )。 - A: いいですね。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-181",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "vocabulary",
+    "level": "N4",
+    "questionText": "えいごと 日本語と( )すきです。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-182",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "grammar",
+    "level": "N4",
+    "questionText": "A: サラダを( )。 - B: あ、ありがとうございます。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-183",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "vocabulary",
+    "level": "N4",
+    "questionText": "A: ( )パーティーに 行きませんか。 - B: いそがしいですから。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-184",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "vocabulary",
+    "level": "N4",
+    "questionText": "さとうさんは ギターを( )。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-185",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "grammar",
+    "level": "N4",
+    "questionText": "今 あたらしい パソコン( )ほしいです。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-186",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "vocabulary",
+    "level": "N4",
+    "questionText": "今度(こんど)の やすみに、東京(とうきょう)( )しゃしんを とり( )行きたいです。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-187",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "kanji",
+    "level": "N4",
+    "questionText": "食べ物で【肉】が いちばん すきです。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-188",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "kanji",
+    "level": "N4",
+    "questionText": "このペンで なまえを【かいてください】。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-189",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "kanji",
+    "level": "N4",
+    "questionText": "あのひとの【なまえ】は なん ですか",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-190",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "vocabulary",
+    "level": "N4",
+    "questionText": "テーブルのうえ( )、くだもの( )おいてください。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-191",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "vocabulary",
+    "level": "N4",
+    "questionText": "日本語( )わかりません。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-192",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "grammar",
+    "level": "N4",
+    "questionText": "北海道(ほっかいどう)は みどりが( )ところです。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-193",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "grammar",
+    "level": "N4",
+    "questionText": "Sắp xếp câu: さむい／とても／1月／私／まち／です",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-194",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "vocabulary",
+    "level": "N4",
+    "questionText": "( )へ しょくじに 行きます。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-195",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "vocabulary",
+    "level": "N4",
+    "questionText": "パソコンが ほしいですから、( )へ 行きます。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-196",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "vocabulary",
+    "level": "N4",
+    "questionText": "ソウル(Thủ đô Hàn Quốc)は かんこくの( )です。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-197",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "vocabulary",
+    "level": "N4",
+    "questionText": "Từ nào có ý nghĩa KHÔNG CÙNG NHÓM: ①おいしい ②ゆうめい ③あまい ④からい",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-198",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "vocabulary",
+    "level": "N4",
+    "questionText": "Từ nào KHÁC LOẠI: ①おもしろい ②むずかしい ③いそがしい ④きらい",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-199",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "vocabulary",
+    "level": "N4",
+    "questionText": "( )は とても にぎやかです。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-200",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "vocabulary",
+    "level": "N4",
+    "questionText": "( )うちへ あそびに 来てください。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-202",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "grammar",
+    "level": "N4",
+    "questionText": "キム: きのうの パーティーは( )。 - ラン: とても たのしかったです。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-203",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "kanji",
+    "level": "N4",
+    "questionText": "いま、ハノイは【七時半】です。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-204",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "vocabulary",
+    "level": "N4",
+    "questionText": "あした、ハノイで サッカーの( )が あります。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-205",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "vocabulary",
+    "level": "N4",
+    "questionText": "毎日、アルバイトを します。( )です。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-206",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "kanji",
+    "level": "N4",
+    "questionText": "あした ABCかいしゃで【けんがく】します。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-207",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "kanji",
+    "level": "N4",
+    "questionText": "きのう【帰国】しました。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-208",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "kanji",
+    "level": "N4",
+    "questionText": "としょかんに【男】の ひとが います。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-209",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "grammar",
+    "level": "N4",
+    "questionText": "Sắp xếp câu: おおい / みどり / ほっかいどう / ところ / です",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-210",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "grammar",
+    "level": "N4",
+    "questionText": "やさいを ( )ください。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-211",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "kanji",
+    "level": "N4",
+    "questionText": "ワンさんが いま、ミラーさんと【はなしています】。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-212",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "kanji",
+    "level": "N4",
+    "questionText": "まいあさ、8時に 学校へ【来ます】。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-213",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "vocabulary",
+    "level": "N4",
+    "questionText": "デパートの( )に いきました。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-214",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "vocabulary",
+    "level": "N4",
+    "questionText": "このけいたいでんわは とても( )です。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-215",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "vocabulary",
+    "level": "N4",
+    "questionText": "Chọn từ KHÁC LOẠI: ①しずか ②ひま ③きれい ④やすい",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-217",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "kanji",
+    "level": "N4",
+    "questionText": "私の まちに ゆうめいな【おてら】が あります。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-218",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "vocabulary",
+    "level": "N4",
+    "questionText": "まいばん、ゲームをします。ゲームは( )です。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-220",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "vocabulary",
+    "level": "N4",
+    "questionText": "このまちは あまり( )。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-221",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "vocabulary",
+    "level": "N4",
+    "questionText": "ロシアの ふゆは( )です。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-222",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "vocabulary",
+    "level": "N4",
+    "questionText": "A: いっしょに えいがを 見に 行きませんか。 - B: ( )。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-223",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "vocabulary",
+    "level": "N4",
+    "questionText": "A: 日本で( )が いちばん いいですか。 - B: とうきょうが いちばん いいです。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-225",
+    "courseCode": "jpd123",
+    "questionType": "passage",
+    "topic": "reading",
+    "level": "N4",
+    "questionText": "1) おこのみやきの ソースは どうですか。\n2) Điền vào ①\n3) Điền vào ②",
+    "passageId": "exam-jpd123-passage-3"
+  },
+  {
+    "id": "exam-jpd123-question-226",
+    "courseCode": "jpd123",
+    "questionType": "passage",
+    "topic": "reading",
+    "level": "N4",
+    "questionText": "1) Điền vào ①\n2) やまからの けしきは どうでしたか。\n3) Điền vào ②",
+    "passageId": "exam-jpd123-passage-1"
+  },
+  {
+    "id": "exam-jpd123-question-227",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "vocabulary",
+    "level": "N4",
+    "questionText": "毎日、りょうりを ( )。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-228",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "vocabulary",
+    "level": "N4",
+    "questionText": "A: 土曜日 どこ( ) 行きますか。 - B: はい、こうえんへ 行きます。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-229",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "kanji",
+    "level": "N4",
+    "questionText": "【先日】の かんじの よみかたは なんですか。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-230",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "vocabulary",
+    "level": "N4",
+    "questionText": "Hãy chọn dạng phủ định của từ: 「にぎやか」",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-231",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "vocabulary",
+    "level": "N4",
+    "questionText": "A: ハノイは( )ところですか。 - B: おおきい ところです。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-232",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "grammar",
+    "level": "N4",
+    "questionText": "( )あさごはんを たべました。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-233",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "kanji",
+    "level": "N4",
+    "questionText": "私は おおさかから【きました】。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-234",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "grammar",
+    "level": "N4",
+    "questionText": "リンさん：「パクさんは どこに いますか。」 - キムさん：「となりの へやで ワンさんと( )。」",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-235",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "vocabulary",
+    "level": "N4",
+    "questionText": "ロサンゼルス(Los Angeles)は アメリカの( )です。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-236",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "vocabulary",
+    "level": "N4",
+    "questionText": "( )で とんかつが ichiban すきです。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-237",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "grammar",
+    "level": "N4",
+    "questionText": "なに( )ほしくないです。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-238",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "vocabulary",
+    "level": "N4",
+    "questionText": "ここは 有名(ゆうめい) じゃありません( )、いいまちです。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-239",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "grammar",
+    "level": "N4",
+    "questionText": "iPhoneno けいたいでんわが( )です。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-240",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "vocabulary",
+    "level": "N4",
+    "questionText": "ヤマダ：「5時に えきで 会いましょう。」 - キム：「5時に えきです( )。わかりました。」",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-241",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "grammar",
+    "level": "N4",
+    "questionText": "やまへ しゃしんを( )に 行きます。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-243",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "grammar",
+    "level": "N4",
+    "questionText": "カレーの( )を おしえます。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-244",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "vocabulary",
+    "level": "N4",
+    "questionText": "えきまで とまおだち( )むかえに 行きます。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-245",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "kanji",
+    "level": "N4",
+    "questionText": "パースは オーストラリアの【ひがし】です。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-246",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "kanji",
+    "level": "N4",
+    "questionText": "ぎんこうの 【まえ】に スーパーが あります。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-247",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "vocabulary",
+    "level": "N4",
+    "questionText": "りんごを( )ください。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-248",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "vocabulary",
+    "level": "N4",
+    "questionText": "田中：明日(あした)、いっしょに えいがを 見に 行きませんか。 - ミラー：( )。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-249",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "vocabulary",
+    "level": "N4",
+    "questionText": "A: もう あさごはんを 食べましたか。 - B: いいえ、( )。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-250",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "vocabulary",
+    "level": "N4",
+    "questionText": "A: ビールは まだ ありますか。 - B: いいえ、( )ありません。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-251",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "vocabulary",
+    "level": "N4",
+    "questionText": "まどを( )から、すずしいです。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-252",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "vocabulary",
+    "level": "N4",
+    "questionText": "ヤマダ：5時に えきで 会いましょう。 - キム：5時に えきです( )。わかりました。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-253",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "vocabulary",
+    "level": "N4",
+    "questionText": "ここは 有名(ゆうめい)じゃありません( )、いい町(まち)です。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-254",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "kanji",
+    "level": "N4",
+    "questionText": "Namさんは【料理】が じょうずです。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-255",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "kanji",
+    "level": "N4",
+    "questionText": "あの【おとこ】の 人は だれですか。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-256",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "grammar",
+    "level": "N4",
+    "questionText": "今 うちの なかに 女の人が( )。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-257",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "vocabulary",
+    "level": "N4",
+    "questionText": "A: だれ( )このケーキを つくりましたか。 - B: わかりません。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-258",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "vocabulary",
+    "level": "N4",
+    "questionText": "A: 一年で( )が いちばん てんきが いいですか。 - B: 10月が いいです。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-259",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "grammar",
+    "level": "N4",
+    "questionText": "けさ、10時に おきましたから、( )。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-260",
+    "courseCode": "jpd123",
+    "questionType": "passage",
+    "topic": "reading",
+    "level": "N4",
+    "questionText": "Dựa trên đoạn văn sau, hãy chọn câu có nội dung ĐÚNG:\n「私は 日曜日、しんじゅくへ くつを 買いに 行きました。しんじゅくは 人が おおかったです。レストランで (1) 。あまり (2) 。来週、ともだちと しぶやへ えいがを 見に 行きます。おもしろい えいがを 見たいです。」",
+    "passageId": "exam-jpd123-passage-4"
+  },
+  {
+    "id": "exam-jpd123-question-261",
+    "courseCode": "jpd123",
+    "questionType": "passage",
+    "topic": "reading",
+    "level": "N4",
+    "questionText": "Chọn từ thích hợp điền vào chỗ trống (2) trong đoạn văn.",
+    "passageId": "exam-jpd123-passage-4"
+  },
+  {
+    "id": "exam-jpd123-question-262",
+    "courseCode": "jpd123",
+    "questionType": "passage",
+    "topic": "reading",
+    "level": "N4",
+    "questionText": "Chọn từ thích hợp điền vào chỗ trống (1) trong đoạn văn.",
+    "passageId": "exam-jpd123-passage-4"
+  },
+  {
+    "id": "exam-jpd123-question-263",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "grammar",
+    "level": "N4",
+    "questionText": "A: しゅうまつ、なにを しましたか。 - B: りょこうを しました。りょこうは ___________です。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-264",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "kanji",
+    "level": "N4",
+    "questionText": "なまえを 【いってください】。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-265",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "vocabulary",
+    "level": "N4",
+    "questionText": "Chọn từ KHÁC LOẠI trong số các từ sau:\n(1) すっぱい (2) ふるい (3) にがい (4) からい",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-266",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "vocabulary",
+    "level": "N4",
+    "questionText": "へやの なかに( )も いいません。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-268",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "kanji",
+    "level": "N4",
+    "questionText": "ゆうびんきょくに【女】の ひとが います。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-269",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "grammar",
+    "level": "N4",
+    "questionText": "Hãy chọn dạng phủ định của từ dưới đây: 「いそがしい」",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-270",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "kanji",
+    "level": "N4",
+    "questionText": "田中さんは あおぞら【かいしゃ】で はたらきます。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-271",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "vocabulary",
+    "level": "N4",
+    "questionText": "A: 先週の 週末(しゅうまつ)、( )行きましたか。 B: いいえ、どこも 行きませんでした。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-272",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "grammar",
+    "level": "N4",
+    "questionText": "A: あの やまは たかいですか。 B: いいえ、___________。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-273",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "vocabulary",
+    "level": "N4",
+    "questionText": "私の くには ちいさいです ___________、人が おおいです。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-275",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "vocabulary",
+    "level": "N4",
+    "questionText": "けさ、10時に おきましたから、___________。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-276",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "vocabulary",
+    "level": "N4",
+    "questionText": "先生(せんせい)の時計(とけい)は( ) 時計(とけい)ですか。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-278",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "kanji",
+    "level": "N4",
+    "questionText": "【今月】日本へ 行きました。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-280",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "vocabulary",
+    "level": "N4",
+    "questionText": "日本の たべもので、( )が いちばん すきです。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-282",
+    "courseCode": "jpd123",
+    "questionType": "passage",
+    "topic": "reading",
+    "level": "N4",
+    "questionText": "Đọc đoạn văn và chọn từ thích hợp điền vào (1): コンサートは ( 1 ) からですか。",
+    "passageId": "exam-jpd123-passage-5"
+  },
+  {
+    "id": "exam-jpd123-question-283",
+    "courseCode": "jpd123",
+    "questionType": "passage",
+    "topic": "reading",
+    "level": "N4",
+    "questionText": "Đọc đoạn văn và chọn câu có nội dung KHÔNG ĐÚNG:",
+    "passageId": "exam-jpd123-passage-5"
+  },
+  {
+    "id": "exam-jpd123-question-284",
+    "courseCode": "jpd123",
+    "questionType": "passage",
+    "topic": "reading",
+    "level": "N4",
+    "questionText": "メアリーさんと マルコさんは どこで 何を 食べますか。",
+    "passageId": "exam-jpd123-passage-5"
+  },
+  {
+    "id": "exam-jpd123-question-285",
+    "courseCode": "jpd123",
+    "questionType": "passage",
+    "topic": "reading",
+    "level": "N4",
+    "questionText": "メアリーさんと マルコさんは なんで コンサートへ 行きますか。",
+    "passageId": "exam-jpd123-passage-5"
+  },
+  {
+    "id": "exam-jpd123-question-286",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "kanji",
+    "level": "N4",
+    "questionText": "【来月】ホームステイに いきます。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-288",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "kanji",
+    "level": "N4",
+    "questionText": "Namさんは【東京】へ いきます。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-289",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "kanji",
+    "level": "N4",
+    "questionText": "【のみもの】で ななにが いちばん すきですか。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-290",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "vocabulary",
+    "level": "N4",
+    "questionText": "山田さんは、いま、先生( )はなしています。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-291",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "grammar",
+    "level": "N4",
+    "questionText": "ともだち( )おかね( ) かりました。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-292",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "vocabulary",
+    "level": "N4",
+    "questionText": "きのう、ともだちと おんせん( )はいりました。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-294",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "grammar",
+    "level": "N4",
+    "questionText": "わたしは 日本料理(りょうり)( )すきです。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-295",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "grammar",
+    "level": "N4",
+    "questionText": "Hãy chọn dạng quá khứ của từ dưới đây: 「やすみ」",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-296",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "vocabulary",
+    "level": "N4",
+    "questionText": "うちから がっこうまで_________10ぷんです。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-297",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "grammar",
+    "level": "N4",
+    "questionText": "コンサートの チケット_________2枚(まい)_________あります。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-298",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "grammar",
+    "level": "N4",
+    "questionText": "A: しゅうかつ、なにを しましたか。 B: りょこうを しました。りょこうは _________です。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-300",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "vocabulary",
+    "level": "N4",
+    "questionText": "とうきょうは 3月、すこし_________。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-304",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "vocabulary",
+    "level": "N4",
+    "questionText": "バンコクから アユタヤまで_________で 6時間くらいです",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-305",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "vocabulary",
+    "level": "N4",
+    "questionText": "田中: いっしょに かいものに 行きませんか。 ミラー: _________。行きましょう。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-306",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "vocabulary",
+    "level": "N4",
+    "questionText": "Chọn nghĩa tiếng Việt tương ứng của từ sau: 「てんきが わるい」",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-311",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "vocabulary",
+    "level": "N4",
+    "questionText": "ケーキは _________です。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-315",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "vocabulary",
+    "level": "N4",
+    "questionText": "Chọn từ khác loại trong số các từ sau: 1.すっぱい, 2.ふるい, 3.にがい, 4.からい",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-316",
+    "courseCode": "jpd123",
+    "questionType": "passage",
+    "topic": "reading",
+    "level": "N4",
+    "questionText": "(Đọc đoạn văn về Nagano) ながのに きれいな やまが ありますから、やまに (1)_________。",
+    "passageId": "exam-jpd123-passage-6"
+  },
+  {
+    "id": "exam-jpd123-question-317",
+    "courseCode": "jpd123",
+    "questionType": "passage",
+    "topic": "reading",
+    "level": "N4",
+    "questionText": "(Đọc đoạn văn về Nagano) やまの しゃしんも (2)_________。",
+    "passageId": "exam-jpd123-passage-6"
+  },
+  {
+    "id": "exam-jpd123-question-318",
+    "courseCode": "jpd123",
+    "questionType": "passage",
+    "topic": "reading",
+    "level": "N4",
+    "questionText": "(Đọc đoạn văn về Nagano) やまの けしきは どうでしたか。",
+    "passageId": "exam-jpd123-passage-6"
+  },
+  {
+    "id": "exam-jpd123-question-319",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "kanji",
+    "level": "N4",
+    "questionText": "Cách đọc Hán tự của từ trong ngoặc: 【毎月】バーベキューを します。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-320",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "kanji",
+    "level": "N4",
+    "questionText": "Cách đọc Hán tự của từ trong ngoặc: Namさんは 【料理】が じょうずです。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-321",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "kanji",
+    "level": "N4",
+    "questionText": "Hán tự tương ứng của từ trong ngoặc: お【くに】は どちらですか。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-322",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "kanji",
+    "level": "N4",
+    "questionText": "Hán tự tương ứng của từ trong ngoặc: 【こっかい】は 何ですか。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-324",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "grammar",
+    "level": "N4",
+    "questionText": "今から ともだちの いえへ ケーキを( )。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-325",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "vocabulary",
+    "level": "N4",
+    "questionText": "まいばん こいびと( )でんわを かけます。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-326",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "kanji",
+    "level": "N4",
+    "questionText": "Cách đọc Hán tự của từ trong ngoặc: Namさんは 【東京】へ いきます。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-327",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "kanji",
+    "level": "N4",
+    "questionText": "Cách đọc Hán tự của từ trong ngoặc: 【飲み物】で なにが いちばん すきですか。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-328",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "kanji",
+    "level": "N4",
+    "questionText": "Cách đọc Hán tự của từ trong ngoặc: 午後、コーヒーを【飲みます】。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-329",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "kanji",
+    "level": "N4",
+    "questionText": "Cách đọc Hán tự của từ trong ngoặc: ゆうびんきょくに【女】の ひとが います。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-330",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "kanji",
+    "level": "N4",
+    "questionText": "Cách đọc Hán tự của từ trong ngoặc: 【毎日】ジュースを のみます。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-331",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "kanji",
+    "level": "N4",
+    "questionText": "Hán tự tương ứng của từ trong ngoặc: このペンで なまえを【かいてください】。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-332",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "kanji",
+    "level": "N4",
+    "questionText": "Hán tự tương ứng của từ trong ngoặc: 【こんしゅう】ともだちと おおさかで パーティーを します。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-333",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "kanji",
+    "level": "N4",
+    "questionText": "Hán tự tương ứng của từ trong ngoặc: 私は おおさかから 【きました】。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-334",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "kanji",
+    "level": "N4",
+    "questionText": "Hán tự tương ứng của từ trong ngoặc: 【らいねん】オーストラリアへ りょこうに 行きます。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-335",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "kanji",
+    "level": "N4",
+    "questionText": "Hán tự tương ứng của từ trong ngoặc: ゆうびんきょくの【やすみ】は 何曜日ですか。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-336",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "grammar",
+    "level": "N4",
+    "questionText": "Dựa vào các từ gợi ý hãy chọn câu có ý nghĩa hoàn chỉnh: さむい / とても / 1月 / 私 / まち / です",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-338",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "kanji",
+    "level": "N4",
+    "questionText": "Cách đọc Hán tự của từ trong ngoặc: 【先日】りょこうに 行きました。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-339",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "kanji",
+    "level": "N4",
+    "questionText": "Cách đọc Hán tự của từ trong ngoặc: 【今日】、ともだちと サッカーを します。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-340",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "kanji",
+    "level": "N4",
+    "questionText": "Hán tự tương ứng của từ trong ngoặc: 毎日 日本語の CDwo【ききます】。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-341",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "kanji",
+    "level": "N4",
+    "questionText": "Hán tự tương ứng của từ trong ngoặc: どんな【りょうり】が すきですか",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-344",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "grammar",
+    "level": "N4",
+    "questionText": "リンさん: パクさんは どこに いますか。 キムさん: となりの へやで ワンさんと( )。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-347",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "grammar",
+    "level": "N4",
+    "questionText": "へやの なかに( )も いません。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-348",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "vocabulary",
+    "level": "N4",
+    "questionText": "A: 私の 本を とってください。 B: ( )ほんですか。 A: その本です。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-349",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "vocabulary",
+    "level": "N4",
+    "questionText": "あした やまに( )。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-350",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "kanji",
+    "level": "N4",
+    "questionText": "Cách đọc đúng của Hán tự trong ngoặc: まいあさ、ほんを【読みます】。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-351",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "vocabulary",
+    "level": "N4",
+    "questionText": "Chọn từ KHÔNG CÙNG NHÓM trong các từ sau: (1) みず, (2) パン, (3) こうちゃ, (4) ジュース",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-352",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "vocabulary",
+    "level": "N4",
+    "questionText": "きのうの テストは( )でした。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-354",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "vocabulary",
+    "level": "N4",
+    "questionText": "Nghĩa tiếng Việt tương ứng của từ sau: “てんきが わるい”",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-355",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "grammar",
+    "level": "N4",
+    "questionText": "Dạng quá khứ của từ: 「やすみ」",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-356",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "grammar",
+    "level": "N4",
+    "questionText": "A: しゅうます、なにを しましたか。 B: りょこうを しました。りょこうは ( )です。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-357",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "kanji",
+    "level": "N4",
+    "questionText": "Hán tự tương ứng của từ trong ngoặc: 【たべもの】で なにが いちばん すきですか。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-358",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "vocabulary",
+    "level": "N4",
+    "questionText": "ねこの しゃしんを ( )。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-359",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "kanji",
+    "level": "N4",
+    "questionText": "Hán tự tương ứng của từ trong ngoặc: 私は【小さい】カメラが ほしいです。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-360",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "kanji",
+    "level": "N4",
+    "questionText": "Hán tự tương ứng của từ trong ngoặc: あそこに【おんな】の ひとが います。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-361",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "kanji",
+    "level": "N4",
+    "questionText": "Hán tự tương ứng của từ trong ngoặc: 【とうきょう】は 1月 とても さむいです。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-362",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "vocabulary",
+    "level": "N4",
+    "questionText": "土曜日、どこへも 行きません。( )です。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-363",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "grammar",
+    "level": "N4",
+    "questionText": "A: あの やまは たかいですか。 B: いいえ、( )。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-364",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "kanji",
+    "level": "N4",
+    "questionText": "Cách đọc đúng của Hán tự trong ngoặc: Namさんは 【東京】へ いきます。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-365",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "kanji",
+    "level": "N4",
+    "questionText": "Hán tự tương ứng của từ trong ngoặc: パースは オーストラリアの【ひがし】です。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-366",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "vocabulary",
+    "level": "N4",
+    "questionText": "Chọn từ KHÔNG CÙNG NHÓM trong các từ sau: (1) しんかんせん, (2) まんなか, (3) でんしゃ, (4) ひこうき",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-367",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "kanji",
+    "level": "N4",
+    "questionText": "Cách đọc đúng của Hán tự trong ngoặc: 【毎日】ジュースを のみます。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-368",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "vocabulary",
+    "level": "N4",
+    "questionText": "Nghĩa tiếng Việt tương ứng của từ sau: “じんじゃ”",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-369",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "kanji",
+    "level": "N4",
+    "questionText": "Hán tự tương ứng của từ trong ngoặc: 【まいしゅう】こうえんで サッカーを します。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-370",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "kanji",
+    "level": "N4",
+    "questionText": "Cách đọc đúng của Hán tự trong ngoặc: ゆうびんきょくに【女】の ひとが います。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-371",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "vocabulary",
+    "level": "N4",
+    "questionText": "来月、Da Nang( ) 日本の おまつり( )あります。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-372",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "grammar",
+    "level": "N4",
+    "questionText": "A: きのうの パーティーは たたのしかったですか。 B: いいえ、( )です。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-373",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "vocabulary",
+    "level": "N4",
+    "questionText": "このケーキは ( )おいしくないです。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-374",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "vocabulary",
+    "level": "N4",
+    "questionText": "Chọn từ KHÔNG CÙNG NHÓM trong các từ sau: (1) しずか, (2) ひま, (3) きれい, (4) やすい",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-376",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "vocabulary",
+    "level": "N4",
+    "questionText": "Từ nào có ý nghĩa KHÔNG CÙNG NHÓM với các từ còn lại: (1) バス, (2) ビル, (3) くるま, (4) ひこうき",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-377",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "vocabulary",
+    "level": "N4",
+    "questionText": "Hãy chọn dạng phủ định của từ: 「いそがしい」",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-378",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "vocabulary",
+    "level": "N4",
+    "questionText": "ベトナムの 歌手(かしゅ)で ( )が いちばん すきですか。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-379",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "grammar",
+    "level": "N4",
+    "questionText": "A: なにを 食(た)べたいですか。 B: なにも ( )。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-380",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "vocabulary",
+    "level": "N4",
+    "questionText": "A: Bさんの まちは しずかですか。 B: いいえ、( )。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-381",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "vocabulary",
+    "level": "N4",
+    "questionText": "Hãy chọn từ khác loại trong các từ sau: (1) おもしろい, (2) むずかしい, (3) いそがしい, (4) きらい",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-384",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "vocabulary",
+    "level": "N4",
+    "questionText": "コーヒーは ( )です。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-385",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "vocabulary",
+    "level": "N4",
+    "questionText": "日本の たべもので、( )が いちばん すきですか。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-386",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "vocabulary",
+    "level": "N4",
+    "questionText": "A: ( ) ゲームを しましたか。 B: 4時間 しました。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-387",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "kanji",
+    "level": "N4",
+    "questionText": "Cách đọc Hán tự tương ứng: こんばん、ともだちと【話します】。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-388",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "grammar",
+    "level": "N4",
+    "questionText": "Dựa vào các từ gợi ý: [こうえん / まち / おおきい / あります / 私], hãy chọn câu đúng:",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-389",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "kanji",
+    "level": "N4",
+    "questionText": "Hán tự tương ứng: あそこに【おんな】の ひとが います。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-390",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "grammar",
+    "level": "N4",
+    "questionText": "Dựa vào các từ gợi ý: [さむい / とても / 1月 / 私 / まち / です], hãy chọn câu đúng:",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-391",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "kanji",
+    "level": "N4",
+    "questionText": "Hán tự tương ứng của từ trong ngoặc: きっさてんで コーヒーを【のみます】。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-392",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "vocabulary",
+    "level": "N4",
+    "questionText": "あさ7時から よる 10時まで はたらきます。とても ( )です。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-393",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "vocabulary",
+    "level": "N4",
+    "questionText": "れいぞうこ( )ビール( )出(だ)してください。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-394",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "grammar",
+    "level": "N4",
+    "questionText": "Dựa vào các từ gợi ý: [おおい / みどり / ほっかいどう / ところ / です], hãy chọn câu đúng:",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-395",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "kanji",
+    "level": "N4",
+    "questionText": "Hán tự tương ứng của từ trong ngoặc: 【まいとし】ホーチミン市へ いきます。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-396",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "kanji",
+    "level": "N4",
+    "questionText": "Cách đọc Hán tự tương ứng: 午前【十時半】ともだちと レストランで しょくじします。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-398",
+    "courseCode": "jpd123",
+    "questionType": "passage",
+    "topic": "reading",
+    "level": "N4",
+    "questionText": "[Đọc hiểu] Chọn câu đúng với nội dung bài đọc về Mary và thành phố Firenze:",
+    "passageId": "exam-jpd123-passage-7"
+  },
+  {
+    "id": "exam-jpd123-question-399",
+    "courseCode": "jpd123",
+    "questionType": "passage",
+    "topic": "reading",
+    "level": "N4",
+    "questionText": "[Đọc hiểu] Chọn từ điền vào chỗ trống (2): 2月に チョコレートの 祭り が (2)。",
+    "passageId": "exam-jpd123-passage-7"
+  },
+  {
+    "id": "exam-jpd123-question-400",
+    "courseCode": "jpd123",
+    "questionType": "passage",
+    "topic": "reading",
+    "level": "N4",
+    "questionText": "[Đọc hiểu] Chọn từ điền vào chỗ trống (1): フィレンシェは (1) にぎやかなところです。",
+    "passageId": "exam-jpd123-passage-7"
+  },
+  {
+    "id": "exam-jpd123-question-401",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "kanji",
+    "level": "N4",
+    "questionText": "Hán tự tương ứng của từ trong ngoặc: 【らいしゅう】、どうぶつえんで ともだちに あいます。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-402",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "vocabulary",
+    "level": "N4",
+    "questionText": "ヤマダ「5時に えきで 会いましょう。」 キム「5時に えきです( )。わかりました。」",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-403",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "grammar",
+    "level": "N4",
+    "questionText": "リンさん「パクさんは どこに いますか。」\nキムさん「となりの へやで ワンさんと( )。」",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-404",
+    "courseCode": "jpd123",
+    "questionType": "passage",
+    "topic": "reading",
+    "level": "N4",
+    "questionText": "[Đọc hiểu] Chọn từ điền vào chỗ trống ( ) trong bài nói về Suzuki-san: ときどき こうえんへ 行きます。( ) さんぽします。",
+    "passageId": "exam-jpd123-passage-8"
+  },
+  {
+    "id": "exam-jpd123-question-405",
+    "courseCode": "jpd123",
+    "questionType": "passage",
+    "topic": "reading",
+    "level": "N4",
+    "questionText": "[Đọc hiểu] Suzuki-san là người như thế nào?",
+    "passageId": "exam-jpd123-passage-8"
+  },
+  {
+    "id": "exam-jpd123-question-406",
+    "courseCode": "jpd123",
+    "questionType": "passage",
+    "topic": "reading",
+    "level": "N4",
+    "questionText": "[Đọc hiểu] Suzuki-san làm gì ở trường đại học?",
+    "passageId": "exam-jpd123-passage-8"
+  },
+  {
+    "id": "exam-jpd123-question-407",
+    "courseCode": "jpd123",
+    "questionType": "passage",
+    "topic": "reading",
+    "level": "N4",
+    "questionText": "[Đọc hiểu] Phong cảnh từ trên núi như thế nào?",
+    "passageId": "exam-jpd123-passage-1"
+  },
+  {
+    "id": "exam-jpd123-question-408",
+    "courseCode": "jpd123",
+    "questionType": "passage",
+    "topic": "reading",
+    "level": "N4",
+    "questionText": "[Đọc hiểu] Chọn từ điền vào chỗ trống (1): ともだちと ちかくの やまに (1)。",
+    "passageId": "exam-jpd123-passage-1"
+  },
+  {
+    "id": "exam-jpd123-question-409",
+    "courseCode": "jpd123",
+    "questionType": "passage",
+    "topic": "reading",
+    "level": "N4",
+    "questionText": "[Đọc hiểu] Chọn từ điền vào chỗ trống (2): やまで、おべんとうを (2)。",
+    "passageId": "exam-jpd123-passage-1"
+  },
+  {
+    "id": "exam-jpd123-question-411",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "kanji",
+    "level": "N4",
+    "questionText": "Hán tự tương ứng của từ trong ngoặc: スーパーで 何を【かいます】か。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-412",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "kanji",
+    "level": "N4",
+    "questionText": "Cách đọc Hán tự tương ứng: Namさんは 【料理】 が じょうずです。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-413",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "kanji",
+    "level": "N4",
+    "questionText": "Hán tự tương ứng của từ trong ngoặc: あした ABCかいしゃで 【けんがく】します。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-414",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "kanji",
+    "level": "N4",
+    "questionText": "Hán tự tương ứng của từ trong ngoặc: あの【おとこ】の人は だれですか。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-415",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "kanji",
+    "level": "N4",
+    "questionText": "Cách đọc Hán tự tương ứng: 日本に【半年】 います。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-416",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "vocabulary",
+    "level": "N4",
+    "questionText": "ハノイ( )サッカーの しあいが あります。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-417",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "kanji",
+    "level": "N4",
+    "questionText": "Cách đọc Hán tự tương ứng: 【毎月】バーベキューをします。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-418",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "vocabulary",
+    "level": "N4",
+    "questionText": "私は まいばん ともだちに でんわを( )。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-419",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "vocabulary",
+    "level": "N4",
+    "questionText": "A:ハノイから 日本まで( )ですか。 B:五時間くらいです。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-420",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "kanji",
+    "level": "N4",
+    "questionText": "Cách đọc Hán tự tương ứng: アニメの 【人物】が すきです。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-422",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "kanji",
+    "level": "N4",
+    "questionText": "Cách đọc Hán tự tương ứng: 大学の 【休日】はいつですか。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-426",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "kanji",
+    "level": "N4",
+    "questionText": "Hán tự tương ứng của 【らいしゅう】: 【らいしゅう】、どうぶつえんで ともだちに あいます。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-427",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "kanji",
+    "level": "N4",
+    "questionText": "Hán tự tương ứng của 【けんがく】: あした ABCかいしゃで 【けんがく】します。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-428",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "kanji",
+    "level": "N4",
+    "questionText": "Hán tự tương ứng của 【料理】: Namさんは 【料理】が じょうずです。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-429",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "vocabulary",
+    "level": "N4",
+    "questionText": "Chọn từ KHÔNG CÙNG NHÓM trong các từ sau:",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-430",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "kanji",
+    "level": "N4",
+    "questionText": "Hán tự tương ứng của 【帰ります】: 来年、日本へ【帰ります】。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-432",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "kanji",
+    "level": "N4",
+    "questionText": "Hán tự tương ứng của 【ろくじはん】: 【ろくじはん】に 学校へ いきます。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-434",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "kanji",
+    "level": "N4",
+    "questionText": "Hán tự tương ứng của 【おてら】: 私の まちに ゆうめいな【おてら】が あります。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-435",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "kanji",
+    "level": "N4",
+    "questionText": "Cách đọc Hán tự của 【後ろ】: コンビニの【後ろ】に こうえんが あります。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-436",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "kanji",
+    "level": "N4",
+    "questionText": "Cách đọc Hán tự của 【東京】: Namさんは 【東京】へ いきます。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-437",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "kanji",
+    "level": "N4",
+    "questionText": "Hán tự tương ứng của 【かいしゃ】: 田中さんは あおぞら【かいしゃ】で はたらきます。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-438",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "vocabulary",
+    "level": "N4",
+    "questionText": "Chọn nghĩa tiếng Việt tương ứng của cụm từ: 'てんきが わるい'",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-439",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "kanji",
+    "level": "N4",
+    "questionText": "Cách đọc Hán tự của 【食べ物】: 【食べ物】で なにが いちばん すきですか。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-440",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "kanji",
+    "level": "N4",
+    "questionText": "Hán tự tương ứng của 【ことし】: 【ことし】さくらまつりが あります。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-441",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "vocabulary",
+    "level": "N4",
+    "questionText": "ペン( )なまえを かいてください。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-442",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "kanji",
+    "level": "N4",
+    "questionText": "Hán tự tương ứng của 【はなしています】: ワンさんが いま、ミラーさんと【はなしています】。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-443",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "kanji",
+    "level": "N4",
+    "questionText": "Cách đọc Hán tự của 【女】: ゆうびんきょくに【女】の ひとが います。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-445",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "grammar",
+    "level": "N4",
+    "questionText": "私は あたらしい カメラ_____ほしいです。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-446",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "vocabulary",
+    "level": "N4",
+    "questionText": "Chọn từ KHÔNG CÙNG NHÓM: ① メロン (Melon), ② アニメ (Anime), ③ りんご (Táo), ④ いちご (Dâu tây)",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-448",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "kanji",
+    "level": "N4",
+    "questionText": "Hán tự tương ứng của 【いきます】: 来年、よこはまへ 【いきます】。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-451",
+    "courseCode": "jpd123",
+    "questionType": "passage",
+    "topic": "reading",
+    "level": "N4",
+    "questionText": "Đọc hiểu: Chọn đáp án thích hợp điền vào ( ): ...ときどきこうえんへ行きます。( ) さんぽします。",
+    "passageId": "exam-jpd123-passage-8"
+  },
+  {
+    "id": "exam-jpd123-question-452",
+    "courseCode": "jpd123",
+    "questionType": "passage",
+    "topic": "reading",
+    "level": "N4",
+    "questionText": "Đọc hiểu: 鈴木さんは どんな人ですか。",
+    "passageId": "exam-jpd123-passage-8"
+  },
+  {
+    "id": "exam-jpd123-question-453",
+    "courseCode": "jpd123",
+    "questionType": "passage",
+    "topic": "reading",
+    "level": "N4",
+    "questionText": "Đọc hiểu: 鈴木さんは大学で何をしていますか。",
+    "passageId": "exam-jpd123-passage-8"
+  },
+  {
+    "id": "exam-jpd123-question-454",
+    "courseCode": "jpd123",
+    "questionType": "passage",
+    "topic": "reading",
+    "level": "N4",
+    "questionText": "Đọc hiểu 2: Hãy chọn từ thích hợp điền vào ②: 午後、ルームメートと DVDを (②)。",
+    "passageId": "exam-jpd123-passage-9"
+  },
+  {
+    "id": "exam-jpd123-question-455",
+    "courseCode": "jpd123",
+    "questionType": "passage",
+    "topic": "reading",
+    "level": "N4",
+    "questionText": "Đọc hiểu 2: Hãy chọn từ thích hợp điền vào ④: 9時から10時まで 日本語を (④)。",
+    "passageId": "exam-jpd123-passage-9"
+  },
+  {
+    "id": "exam-jpd123-question-456",
+    "courseCode": "jpd123",
+    "questionType": "passage",
+    "topic": "reading",
+    "level": "N4",
+    "questionText": "Đọc hiểu 2: Hãy chọn từ thích hợp điền vào ③: DVDを... あまり (③)。",
+    "passageId": "exam-jpd123-passage-9"
+  },
+  {
+    "id": "exam-jpd123-question-457",
+    "courseCode": "jpd123",
+    "questionType": "passage",
+    "topic": "reading",
+    "level": "N4",
+    "questionText": "Đọc hiểu 2: Hãy chọn từ thích hợp điền vào ①: てんきが (①) から、どこへも 行きませんでした。",
+    "passageId": "exam-jpd123-passage-9"
+  },
+  {
+    "id": "exam-jpd123-question-459",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "grammar",
+    "level": "N4",
+    "questionText": "Dựa vào các từ gợi ý hãy chọn câu có ý nghĩa hoàn chỉnh: おおい / みどり / ほっかいどう / ところ / です",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-460",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "vocabulary",
+    "level": "N4",
+    "questionText": "こいびとと レストランで __________。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-461",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "vocabulary",
+    "level": "N4",
+    "questionText": "この こうえんは あまり__________。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-462",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "vocabulary",
+    "level": "N4",
+    "questionText": "田中: 日本で __________ が いちばん いいですか。 ミラー: とうきょうが いちばん いいです。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-463",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "kanji",
+    "level": "N4",
+    "questionText": "Cách đọc Hán tự của 【買い物】: にちようび、こいびとと 【買い物】しました。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-465",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "vocabulary",
+    "level": "N4",
+    "questionText": "Từ nào KHÔNG CÙNG NHÓM: ① バス (Bus), ② ビル (Building), ③ くるま (Car), ④ ひこうき (Airplane)",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-466",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "kanji",
+    "level": "N4",
+    "questionText": "Hán tự tương ứng của 【こんしゅう】: 【こんしゅう】ともだちと おおさかで パーティーを します。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-467",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "vocabulary",
+    "level": "N4",
+    "questionText": "Từ nào KHÔNG CÙNG NHÓM: ① きた (North), ② くるま (Car), ③ にし (West), ④ みなみ (South)",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-468",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "vocabulary",
+    "level": "N4",
+    "questionText": "A: 日曜日、なにを しましたか。 B: かぞく_________はこねへ 行きました。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-470",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "kanji",
+    "level": "N4",
+    "questionText": "Hán tự tương ứng của 【なまえ】: あのひとの【なまえ】は なん ですか",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-472",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "vocabulary",
+    "level": "N4",
+    "questionText": "コンサートの チケット __________ 2枚(まい) __________ あります。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-475",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "kanji",
+    "level": "N4",
+    "questionText": "Cách đọc Hán tự của 【書きます】: 毎日、かんじを【書きます】。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-476",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "kanji",
+    "level": "N4",
+    "questionText": "Hán tự tương ứng của 【たべもの】: 【たべもの】で なにが いちばん すきですか。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-479",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "kanji",
+    "level": "N4",
+    "questionText": "Cách đọc Hán tự của 【行きます】: 午前、としょかんへ【行きます】。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-481",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "vocabulary",
+    "level": "N4",
+    "questionText": "Hãy chọn dạng phủ định của từ sau: 「いそがしい」",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-484",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "vocabulary",
+    "level": "N4",
+    "questionText": "Từ nào KHÔNG CÙNG NHÓM: ① おいしい (Delicious), ② ゆうめい (Famous), ③ あまい (Sweet), ④ からい (Spicy)",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-485",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "kanji",
+    "level": "N4",
+    "questionText": "Cách đọc Hán tự của 【毎日】: 【毎日】ジュースを のみます。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-486",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "vocabulary",
+    "level": "N4",
+    "questionText": "A: きのう、( )行(い)きましたか。 B: いいえ、どこも 行きませんでした。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-487",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "vocabulary",
+    "level": "N4",
+    "questionText": "ヤマダ: 5時に えきで 会いましょう。 キム: 5時に えきです__________。わかりました。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-489",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "kanji",
+    "level": "N4",
+    "questionText": "Hán tự tương ứng của 【かえります】: 来年、くにへ 【かえります】。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-490",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "grammar",
+    "level": "N4",
+    "questionText": "A: いっしょに おまつりに いきませんか。 B: ぜひ__________",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-491",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "kanji",
+    "level": "N4",
+    "questionText": "Hán tự tương ứng của 【かいます】: スーパーで 何を【かいます】か。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-492",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "kanji",
+    "level": "N4",
+    "questionText": "Cách đọc Hán tự của 【今日】: 【今日】、ともだちと サッカーを します。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-493",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "kanji",
+    "level": "N4",
+    "questionText": "Cách đọc Hán tự của 【半年】: 日本に【半年】います。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-494",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "vocabulary",
+    "level": "N4",
+    "questionText": "この 居酒屋(いざかや)は えきに( )です。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-495",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "grammar",
+    "level": "N4",
+    "questionText": "A「サラダを( )。」 B「あ、ありがとうございます。」",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-496",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "kanji",
+    "level": "N4",
+    "questionText": "Hán tự tương ứng của 【ごご】: 【ごご】アルバイトを します。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-497",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "kanji",
+    "level": "N4",
+    "questionText": "Hán tự tương ứng của 【ごぜん】: ぎんこうは 【ごぜん】 9時からです。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-498",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "kanji",
+    "level": "N4",
+    "questionText": "Cách đọc Hán tự của 【前日】: 【前日】りょこうに 行きました。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-499",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "kanji",
+    "level": "N4",
+    "questionText": "Cách đọc Hán tự của 【帰国】: きのう 【帰国】しました。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-501",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "kanji",
+    "level": "N4",
+    "questionText": "Cách đọc Hán tự của 【人物】: アニメの 【人物】が すきです。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-502",
+    "courseCode": "jpd123",
+    "questionType": "passage",
+    "topic": "reading",
+    "level": "N4",
+    "questionText": "Đọc đoạn văn và chọn từ thích hợp điền vào (1): ...ともだちの たんじょうび パーティーでした。とても(1)____。",
+    "passageId": "exam-jpd123-passage-10"
+  },
+  {
+    "id": "exam-jpd123-question-503",
+    "courseCode": "jpd123",
+    "questionType": "passage",
+    "topic": "reading",
+    "level": "N4",
+    "questionText": "Dựa trên đoạn văn, câu nào sau đây ĐÚNG?",
+    "passageId": "exam-jpd123-passage-10"
+  },
+  {
+    "id": "exam-jpd123-question-504",
+    "courseCode": "jpd123",
+    "questionType": "passage",
+    "topic": "reading",
+    "level": "N4",
+    "questionText": "Đọc đoạn văn và chọn từ thích hợp điền vào (2): 日曜日、デパートへ (2)____ に 行きました。",
+    "passageId": "exam-jpd123-passage-10"
+  },
+  {
+    "id": "exam-jpd123-question-505",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "vocabulary",
+    "level": "N4",
+    "questionText": "きのう、わたしは ひとり( )えいがを 見に 行きました。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-506",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "conversation",
+    "level": "N4",
+    "questionText": "A:「日曜日、何(なに)をしましたか。」 B:「友達(ともだち)の家(いえ)へ行きました。」 A:「( )。」",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-507",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "kanji",
+    "level": "N4",
+    "questionText": "Cách đọc Hán tự của 【国】: 私の【国】は8月、とてもあついです。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-508",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "grammar",
+    "level": "N4",
+    "questionText": "来月、日本へ 日本語の( )に 行きます。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-509",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "vocabulary",
+    "level": "N4",
+    "questionText": "ここの おんせんは( )ですね。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-510",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "kanji",
+    "level": "N4",
+    "questionText": "Chữ Hán tương ứng của 【やすみ】: FPT大学の【やすみ】は土曜日と日曜日です。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-511",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "vocabulary",
+    "level": "N4",
+    "questionText": "今週の日曜日、ともだちと やまに( )。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-512",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "grammar",
+    "level": "N4",
+    "questionText": "Dịch sang tiếng Nhật: 'Vì hôm qua bị cảm cúm nên tôi đã chẳng đi đâu cả.'",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-513",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "conversation",
+    "level": "N4",
+    "questionText": "A:「Bさん、新(あたら)しい しごとは( )ですか。」 B:「おもしろいです。」",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-514",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "vocabulary",
+    "level": "N4",
+    "questionText": "ロシアのふゆは とても( )です。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-515",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "grammar",
+    "level": "N4",
+    "questionText": "A:「しゅうまつ 何をしますか。」 B:「まだ わかりません。どこかへ( )です。」",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-516",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "vocabulary",
+    "level": "N4",
+    "questionText": "このおかしは( )おいしくありません。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-517",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "vocabulary",
+    "level": "N4",
+    "questionText": "来週(らいしゅう)の土曜日、おんせん( )はいります。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-518",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "vocabulary",
+    "level": "N4",
+    "questionText": "きのう、ハンバーグを食べ( )行きました。レストランは人( )多(おお)かったですよ。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-519",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "vocabulary",
+    "level": "N4",
+    "questionText": "Dịch sang tiếng Nhật: 'Sáng ngày kia, tôi sẽ đi siêu thị mua đồ.'",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-520",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "kanji",
+    "level": "N4",
+    "questionText": "Chữ Hán tương ứng của 【かいもの】: 日曜日、しんじゅくで【かいもの】をします。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-521",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "vocabulary",
+    "level": "N4",
+    "questionText": "私の町(まち)に ふるい( )があります。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-522",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "conversation",
+    "level": "N4",
+    "questionText": "A:「毎日、9時まで 会社(かいしゃ)で はたらいています。」 B:「( )。」",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-523",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "kanji",
+    "level": "N4",
+    "questionText": "Cách đọc Hán tự của 【行きません】: きのう どこへも【行きません】でした。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-524",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "vocabulary",
+    "level": "N4",
+    "questionText": "おととい、( )へ 買い物に 行きました。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-525",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "grammar",
+    "level": "N4",
+    "questionText": "ふじさんは( )やまですね。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-526",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "grammar",
+    "level": "N4",
+    "questionText": "12月は いそがしいですが、1月は( )です。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-527",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "kanji",
+    "level": "N4",
+    "questionText": "Chữ Hán tương ứng của 【なまえ】: あのう、すみません。お【なまえ】は？",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-528",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "kanji",
+    "level": "N4",
+    "questionText": "Cách đọc Hán tự của 【今年】: 【今年】のふゆは あたたかかったです。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-529",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "kanji",
+    "level": "N4",
+    "questionText": "Chữ Hán tương ứng của 【とうきょう】: 【とうきょう】のともだちから てがみが来ました。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-530",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "vocabulary",
+    "level": "N4",
+    "questionText": "A:「けさ、何( )食べましたか。」 B:「いいえ、なにも 食べませんでした。」",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-531",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "vocabulary",
+    "level": "N4",
+    "questionText": "毎日、学校まで( )行きます。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-532",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "grammar",
+    "level": "N4",
+    "questionText": "私は新(あたら)しい車(くるま)( )ほしいです。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-533",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "conversation",
+    "level": "N4",
+    "questionText": "A:「( )でんしじしょを買いませんでしたか。」 B:「たかかったですから、買いませんでした。」",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-534",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "conversation",
+    "level": "N4",
+    "questionText": "A:「きのうのパーティーは( )か。」 B:「とてもたのしかったです。」",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-535",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "vocabulary",
+    "level": "N4",
+    "questionText": "れいぞうこから( )コーヒーをだしてください。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-536",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "grammar",
+    "level": "N4",
+    "questionText": "天気(てんき)が( )ですが、とても気持(きも)ちが( )です。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-537",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "grammar",
+    "level": "N4",
+    "questionText": "きのうのテストはあまり( )。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-538",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "vocabulary",
+    "level": "N4",
+    "questionText": "わたしは ぎゅうにゅうが( )、毎日 飲みます。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-539",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "kanji",
+    "level": "N4",
+    "questionText": "Cách đọc Hán tự của 【午前】: あしたの【午前】、えいがを見に行きませんか。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-540",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "kanji",
+    "level": "N4",
+    "questionText": "Cách đọc Hán tự của 【東】: 北京(ペキン)は 中国(ちゅうごく)の【東】です。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-541",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "grammar",
+    "level": "N4",
+    "questionText": "わたしは きのう コーヒーを飲みに( )です。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-542",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "vocabulary",
+    "level": "N4",
+    "questionText": "うちに ピアノがあります( )、だれもひきません。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-543",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "kanji",
+    "level": "N4",
+    "questionText": "Chữ Hán tương ứng của 【みました】: おととい 友達(ともだち)と映画(えいが)を【みました】。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-544",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "grammar",
+    "level": "N4",
+    "questionText": "Dịch sang tiếng Nhật: 'Bây giờ, tôi chẳng muốn thứ gì cả.'",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-545",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "vocabulary",
+    "level": "N4",
+    "questionText": "タイは 雨(あめ)が( )です。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-546",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "kanji",
+    "level": "N4",
+    "questionText": "Cách đọc Hán tự của 【毎月】: 【毎月】バーベキューをします。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-547",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "kanji",
+    "level": "N4",
+    "questionText": "Chữ Hán tương ứng của 【おとこ】: あの【おとこ】の人は だれですか。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-548",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "kanji",
+    "level": "N4",
+    "questionText": "Chữ Hán tương ứng của 【かいます】: スーパーで 何を【かいます】か。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-549",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "vocabulary",
+    "level": "N4",
+    "questionText": "A:「ハノイから 日本まで( )ですか。」 B:「五時間くらいです。」",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-550",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "vocabulary",
+    "level": "N4",
+    "questionText": "先週の週末(しゅうまつ)、( )行きましたか。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-551",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "kanji",
+    "level": "N4",
+    "questionText": "Cách đọc Hán tự của 【休日】: 大学の【休日】は いつですか。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-552",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "kanji",
+    "level": "N4",
+    "questionText": "Chữ Hán tương ứng của 【らいしゅう】: 【らいしゅう】、どうぶつえんで ともだちに あいます。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-553",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "vocabulary",
+    "level": "N4",
+    "questionText": "A:「( )パーティーに 行きませんか。」 B:「いそがしいですから。」",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-554",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "vocabulary",
+    "level": "N4",
+    "questionText": "A:「ハノイは( )ところですか。」 B:「おおきい ところです。」",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-555",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "kanji",
+    "level": "N4",
+    "questionText": "Chữ Hán tương ứng của 【ききます】: 毎日 日本語の CDwo【ききます】。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-556",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "vocabulary",
+    "level": "N4",
+    "questionText": "A:「ビールは まだ ありますか。」 B:「いいえ、( )ありません。」",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-557",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "kanji",
+    "level": "N4",
+    "questionText": "Cách đọc Hán tự của 【料理】: Namさんは【料理】が じょうずです。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-558",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "vocabulary",
+    "level": "N4",
+    "questionText": "まいばん、おざらを( )。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-559",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "kanji",
+    "level": "N4",
+    "questionText": "Chữ Hán tương ứng of 【けんがく】: あした ABCかいしゃで【けんがく】します。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-560",
+    "courseCode": "jpd123",
+    "questionType": "passage",
+    "topic": "reading",
+    "level": "N4",
+    "questionText": "Hãy chọn từ thích hợp điền vào ___①___ trong đoạn văn sau:\n日曜日、ともだちと ちかくの やまに___①___。",
+    "passageId": "exam-jpd123-passage-1"
+  },
+  {
+    "id": "exam-jpd123-question-561",
+    "courseCode": "jpd123",
+    "questionType": "passage",
+    "topic": "reading",
+    "level": "N4",
+    "questionText": "Hãy chọn từ thích hợp điền vào ___②___ trong đoạn văn sau:\nてんきが よかったですから、とても きもちが よかったです。やまで、おべんとうを ___②___。",
+    "passageId": "exam-jpd123-passage-1"
+  },
+  {
+    "id": "exam-jpd123-question-563",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "kanji",
+    "level": "N4",
+    "questionText": "Chữ Hán tương ứng của 【こっかい】: 【こっかい】は 何ですか。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-564",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "conversation",
+    "level": "N4",
+    "questionText": "A「しゅうまつ、何を たべますか。」 B「( )。」 A「いいですね。」",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-565",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "vocabulary",
+    "level": "N4",
+    "questionText": "A:日本で( )が いちばん さむいですか. B:北海道(ほっかいどう)が いちばん さむいです。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-568",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "grammar",
+    "level": "N4",
+    "questionText": "今 うちの なかに おんなのひとが( )。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-569",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "kanji",
+    "level": "N4",
+    "questionText": "Chữ Hán tương ứng của 【男】: あの【男】の人は だれですか。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-570",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "kanji",
+    "level": "N4",
+    "questionText": "Cách đọc Hán tự của 【来日】: きのう【来日】しました。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-571",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "conversation",
+    "level": "N4",
+    "questionText": "A「もう、あさごはんを 食べましたか。」 B「いいえ、( )。」",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd123-question-572",
+    "courseCode": "jpd123",
+    "questionType": "standalone",
+    "topic": "conversation",
+    "level": "N4",
+    "questionText": "田中「明日 いっしょに えいがを 見に 行きませんか。」 ミラー「( )。」",
+    "passageId": null
+  }
+]

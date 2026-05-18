@@ -1,0 +1,248 @@
+[
+  {
+    "id": "77777777-1123-0003-0000-000000513001",
+    "patternId": "77777777-1123-0001-0000-000000005004",
+    "exerciseType": "ja_to_vi",
+    "prompt": "私はパソコンがほしいです。",
+    "promptReading": "わたしはパソコンがほしいです。",
+    "expectedAnswer": "Tôi muốn có một cái máy tính.",
+    "hint": "N が ほしいです",
+    "explanation": "ほしい là một tính từ đuôi い.",
+    "orderIndex": 1
+  },
+  {
+    "id": "77777777-1123-0003-0000-000000523001",
+    "patternId": "77777777-1123-0001-0000-000000005004",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Tôi muốn có một cái máy tính.",
+    "expectedAnswer": "私はパソコンがほしいです。",
+    "acceptableAnswers": [
+      "わたしはパソコンがほしいです。"
+    ],
+    "hint": "Danh từ + が + ほしい + です",
+    "explanation": "ほしい là một tính từ đuôi い.",
+    "orderIndex": 2
+  },
+  {
+    "id": "77777777-1123-0003-0000-000000533001",
+    "patternId": "77777777-1123-0001-0000-000000005004",
+    "exerciseType": "arrange",
+    "prompt": "Tôi muốn có một cái máy tính.",
+    "expectedAnswer": "私 (わたし)はパソコンがほしいです",
+    "optionsJson": "[\"が\",\"は\",\"です\",\"ほしい\",\"パソコン\",\"私 (わたし)\"]",
+    "options": [
+      "が",
+      "は",
+      "です",
+      "ほしい",
+      "パソコン",
+      "私 (わたし)"
+    ],
+    "correctOrderJson": "[\"私 (わたし)\",\"は\",\"パソコン\",\"が\",\"ほしい\",\"です\"]",
+    "correctOrder": [
+      "私 (わたし)",
+      "は",
+      "パソコン",
+      "が",
+      "ほしい",
+      "です"
+    ],
+    "orderIndex": 3
+  },
+  {
+    "id": "77777777-1123-0003-0000-000000513002",
+    "patternId": "77777777-1123-0001-0000-000000005004",
+    "exerciseType": "ja_to_vi",
+    "prompt": "新しい靴が欲しいです。",
+    "promptReading": "あたらしいくつがほしいです。",
+    "expectedAnswer": "Tôi muốn có đôi giày mới.",
+    "hint": "N が ほしいです",
+    "explanation": "ほしい là một tính từ đuôi い.",
+    "orderIndex": 4
+  },
+  {
+    "id": "77777777-1123-0003-0000-000000523002",
+    "patternId": "77777777-1123-0001-0000-000000005004",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Tôi muốn có đôi giày mới.",
+    "expectedAnswer": "新しい靴が欲しいです。",
+    "acceptableAnswers": [
+      "あたらしいくつがほしいです。"
+    ],
+    "hint": "Danh từ + が + ほしい + です",
+    "explanation": "ほしい là một tính từ đuôi い.",
+    "orderIndex": 5
+  },
+  {
+    "id": "77777777-1123-0003-0000-000000533002",
+    "patternId": "77777777-1123-0001-0000-000000005004",
+    "exerciseType": "arrange",
+    "prompt": "Tôi muốn có đôi giày mới.",
+    "expectedAnswer": "新しい靴 (あたらしいくつ)が欲しい (ほしい)です",
+    "optionsJson": "[\"が\",\"です\",\"欲しい (ほしい)\",\"新しい靴 (あたらしいくつ)\"]",
+    "options": [
+      "が",
+      "です",
+      "欲しい (ほしい)",
+      "新しい靴 (あたらしいくつ)"
+    ],
+    "correctOrderJson": "[\"新しい靴 (あたらしいくつ)\",\"が\",\"欲しい (ほしい)\",\"です\"]",
+    "correctOrder": [
+      "新しい靴 (あたらしいくつ)",
+      "が",
+      "欲しい (ほしい)",
+      "です"
+    ],
+    "orderIndex": 6
+  },
+  {
+    "id": "77777777-1123-0003-0000-000000513003",
+    "patternId": "77777777-1123-0001-0000-000000005004",
+    "exerciseType": "ja_to_vi",
+    "prompt": "誕生日にお金がほしいです。",
+    "promptReading": "たんじょうびにおかねがほしいです。",
+    "expectedAnswer": "Vào ngày sinh nhật tôi muốn có tiền.",
+    "hint": "N が ほしいです",
+    "explanation": "ほしい là một tính từ đuôi い.",
+    "orderIndex": 7
+  },
+  {
+    "id": "77777777-1123-0003-0000-000000523003",
+    "patternId": "77777777-1123-0001-0000-000000005004",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Vào ngày sinh nhật tôi muốn có tiền.",
+    "expectedAnswer": "誕生日にお金がほしいです。",
+    "acceptableAnswers": [
+      "たんじょうびにおかねがほしいです。"
+    ],
+    "hint": "Danh từ + が + ほしい + です",
+    "explanation": "ほしい là một tính từ đuôi い.",
+    "orderIndex": 8
+  },
+  {
+    "id": "77777777-1123-0003-0000-000000533003",
+    "patternId": "77777777-1123-0001-0000-000000005004",
+    "exerciseType": "arrange",
+    "prompt": "Vào ngày sinh nhật tôi muốn có tiền.",
+    "expectedAnswer": "誕生日 (たんじょうび)にお金 (おかね)がほしいです",
+    "optionsJson": "[\"が\",\"に\",\"です\",\"ほしい\",\"お金 (おかね)\",\"誕生日 (たんじょうび)\"]",
+    "options": [
+      "が",
+      "に",
+      "です",
+      "ほしい",
+      "お金 (おかね)",
+      "誕生日 (たんじょうび)"
+    ],
+    "correctOrderJson": "[\"誕生日 (たんじょうび)\",\"に\",\"お金 (おかね)\",\"が\",\"ほしい\",\"です\"]",
+    "correctOrder": [
+      "誕生日 (たんじょうび)",
+      "に",
+      "お金 (おかね)",
+      "が",
+      "ほしい",
+      "です"
+    ],
+    "orderIndex": 9
+  },
+  {
+    "id": "77777777-1123-0003-0000-000000513004",
+    "patternId": "77777777-1123-0001-0000-000000005004",
+    "exerciseType": "ja_to_vi",
+    "prompt": "私は広い家がほしいです。",
+    "promptReading": "わたしはひろいうちがほしいです。",
+    "expectedAnswer": "Tôi muốn có một ngôi nhà rộng.",
+    "hint": "N が ほしいです",
+    "explanation": "ほしい là một tính từ đuôi い.",
+    "orderIndex": 10
+  },
+  {
+    "id": "77777777-1123-0003-0000-000000523004",
+    "patternId": "77777777-1123-0001-0000-000000005004",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Tôi muốn có một ngôi nhà rộng.",
+    "expectedAnswer": "私は広い家がほしいです。",
+    "acceptableAnswers": [
+      "わたしはひろいうちがほしいです。"
+    ],
+    "hint": "Danh từ + が + ほしい + です",
+    "explanation": "ほしい là một tính từ đuôi い.",
+    "orderIndex": 11
+  },
+  {
+    "id": "77777777-1123-0003-0000-000000533004",
+    "patternId": "77777777-1123-0001-0000-000000005004",
+    "exerciseType": "arrange",
+    "prompt": "Tôi muốn có một ngôi nhà rộng.",
+    "expectedAnswer": "私 (わたし)は広い家 (ひろいうち)がほしいです",
+    "optionsJson": "[\"が\",\"は\",\"です\",\"ほしい\",\"私 (わたし)\",\"広い家 (ひろいうち)\"]",
+    "options": [
+      "が",
+      "は",
+      "です",
+      "ほしい",
+      "私 (わたし)",
+      "広い家 (ひろいうち)"
+    ],
+    "correctOrderJson": "[\"私 (わたし)\",\"は\",\"広い家 (ひろいうち)\",\"が\",\"ほしい\",\"です\"]",
+    "correctOrder": [
+      "私 (わたし)",
+      "は",
+      "広い家 (ひろいうち)",
+      "が",
+      "ほしい",
+      "です"
+    ],
+    "orderIndex": 12
+  },
+  {
+    "id": "77777777-1123-0003-0000-000000513005",
+    "patternId": "77777777-1123-0001-0000-000000005004",
+    "exerciseType": "ja_to_vi",
+    "prompt": "今は何も欲しくないです。",
+    "promptReading": "いまはなにもほしくないです。",
+    "expectedAnswer": "Bây giờ tôi không muốn gì cả.",
+    "hint": "N が ほしいです",
+    "explanation": "ほしい là một tính từ đuôi い.",
+    "orderIndex": 13
+  },
+  {
+    "id": "77777777-1123-0003-0000-000000523005",
+    "patternId": "77777777-1123-0001-0000-000000005004",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Bây giờ tôi không muốn gì cả.",
+    "expectedAnswer": "今は何も欲しくないです。",
+    "acceptableAnswers": [
+      "いまはなにもほしくないです。"
+    ],
+    "hint": "Danh từ + が + ほしい + です",
+    "explanation": "ほしい là một tính từ đuôi い.",
+    "orderIndex": 14
+  },
+  {
+    "id": "77777777-1123-0003-0000-000000533005",
+    "patternId": "77777777-1123-0001-0000-000000005004",
+    "exerciseType": "arrange",
+    "prompt": "Bây giờ tôi không muốn gì cả.",
+    "expectedAnswer": "今 (いま)は何 (なに)も欲しくない (ほしくない)です",
+    "optionsJson": "[\"は\",\"も\",\"です\",\"今 (いま)\",\"何 (なに)\",\"欲しくない (ほしくない)\"]",
+    "options": [
+      "は",
+      "も",
+      "です",
+      "今 (いま)",
+      "何 (なに)",
+      "欲しくない (ほしくない)"
+    ],
+    "correctOrderJson": "[\"今 (いま)\",\"は\",\"何 (なに)\",\"も\",\"欲しくない (ほしくない)\",\"です\"]",
+    "correctOrder": [
+      "今 (いま)",
+      "は",
+      "何 (なに)",
+      "も",
+      "欲しくない (ほしくない)",
+      "です"
+    ],
+    "orderIndex": 15
+  }
+]

@@ -1,0 +1,244 @@
+[
+  {
+    "id": "77777777-1123-0003-0000-000000411001",
+    "patternId": "77777777-1123-0001-0000-000000004002",
+    "exerciseType": "ja_to_vi",
+    "prompt": "このレモンは酸っぱくないです。",
+    "promptReading": "このレモンはすっぱくないです。",
+    "expectedAnswer": "Quả chanh này không chua.",
+    "hint": "N は Aくない です。",
+    "explanation": "Ngoại lệ: いい (tốt) -> よくない.",
+    "orderIndex": 1
+  },
+  {
+    "id": "77777777-1123-0003-0000-000000421001",
+    "patternId": "77777777-1123-0001-0000-000000004002",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Quả chanh này không chua.",
+    "expectedAnswer": "このレモンは酸っぱくないです。",
+    "acceptableAnswers": [
+      "このレモンはすっぱくないです。"
+    ],
+    "hint": "Bỏ い thêm くない",
+    "explanation": "Ngoại lệ: いい (tốt) -> よくない.",
+    "orderIndex": 2
+  },
+  {
+    "id": "77777777-1123-0003-0000-000000431001",
+    "patternId": "77777777-1123-0001-0000-000000004002",
+    "exerciseType": "arrange",
+    "prompt": "Quả chanh này không chua.",
+    "expectedAnswer": "このレモンは酸っぱくない (すっぱくない)です",
+    "optionsJson": "[\"こ\",\"の\",\"は\",\"です\",\"レモン\",\"酸っぱくない (すっぱくない)\"]",
+    "options": [
+      "こ",
+      "の",
+      "は",
+      "です",
+      "レモン",
+      "酸っぱくない (すっぱくない)"
+    ],
+    "correctOrderJson": "[\"こ\",\"の\",\"レモン\",\"は\",\"酸っぱくない (すっぱくない)\",\"です\"]",
+    "correctOrder": [
+      "こ",
+      "の",
+      "レモン",
+      "は",
+      "酸っぱくない (すっぱくない)",
+      "です"
+    ],
+    "orderIndex": 3
+  },
+  {
+    "id": "77777777-1123-0003-0000-000000411002",
+    "patternId": "77777777-1123-0001-0000-000000004002",
+    "exerciseType": "ja_to_vi",
+    "prompt": "このお茶は熱くないです。",
+    "promptReading": "このおちゃはあつくないです。",
+    "expectedAnswer": "Trà này không nóng.",
+    "hint": "N は Aくない です。",
+    "explanation": "Ngoại lệ: いい (tốt) -> よくない.",
+    "orderIndex": 4
+  },
+  {
+    "id": "77777777-1123-0003-0000-000000421002",
+    "patternId": "77777777-1123-0001-0000-000000004002",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Trà này không nóng.",
+    "expectedAnswer": "このお茶は熱くないです。",
+    "acceptableAnswers": [
+      "このおちゃはあつくないです。"
+    ],
+    "hint": "Bỏ い thêm くない",
+    "explanation": "Ngoại lệ: いい (tốt) -> よくない.",
+    "orderIndex": 5
+  },
+  {
+    "id": "77777777-1123-0003-0000-000000431002",
+    "patternId": "77777777-1123-0001-0000-000000004002",
+    "exerciseType": "arrange",
+    "prompt": "Trà này không nóng.",
+    "expectedAnswer": "このお茶 (おちゃ)は熱くない (あつくない)です",
+    "optionsJson": "[\"こ\",\"の\",\"は\",\"です\",\"お茶 (おちゃ)\",\"熱くない (あつくない)\"]",
+    "options": [
+      "こ",
+      "の",
+      "は",
+      "です",
+      "お茶 (おちゃ)",
+      "熱くない (あつくない)"
+    ],
+    "correctOrderJson": "[\"こ\",\"の\",\"お茶 (おちゃ)\",\"は\",\"熱くない (あつくない)\",\"です\"]",
+    "correctOrder": [
+      "こ",
+      "の",
+      "お茶 (おちゃ)",
+      "は",
+      "熱くない (あつくない)",
+      "です"
+    ],
+    "orderIndex": 6
+  },
+  {
+    "id": "77777777-1123-0003-0000-000000411003",
+    "patternId": "77777777-1123-0001-0000-000000004002",
+    "exerciseType": "ja_to_vi",
+    "prompt": "今日は忙しくないです。",
+    "promptReading": "きょうはいそがしくないです。",
+    "expectedAnswer": "Hôm nay tôi không bận.",
+    "hint": "N は Aくない です。",
+    "explanation": "Ngoại lệ: いい (tốt) -> よくない.",
+    "orderIndex": 7
+  },
+  {
+    "id": "77777777-1123-0003-0000-000000421003",
+    "patternId": "77777777-1123-0001-0000-000000004002",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Hôm nay tôi không bận.",
+    "expectedAnswer": "今日は忙しくないです。",
+    "acceptableAnswers": [
+      "きょうはいそがしくないです。"
+    ],
+    "hint": "Bỏ い thêm くない",
+    "explanation": "Ngoại lệ: いい (tốt) -> よくない.",
+    "orderIndex": 8
+  },
+  {
+    "id": "77777777-1123-0003-0000-000000431003",
+    "patternId": "77777777-1123-0001-0000-000000004002",
+    "exerciseType": "arrange",
+    "prompt": "Hôm nay tôi không bận.",
+    "expectedAnswer": "今日 (きょう)は忙しくない (いそがしくない)です",
+    "optionsJson": "[\"は\",\"です\",\"今日 (きょう)\",\"忙しくない (いそがしくない)\"]",
+    "options": [
+      "は",
+      "です",
+      "今日 (きょう)",
+      "忙しくない (いそがしくない)"
+    ],
+    "correctOrderJson": "[\"今日 (きょう)\",\"は\",\"忙しくない (いそがしくない)\",\"です\"]",
+    "correctOrder": [
+      "今日 (きょう)",
+      "は",
+      "忙しくない (いそがしくない)",
+      "です"
+    ],
+    "orderIndex": 9
+  },
+  {
+    "id": "77777777-1123-0003-0000-000000411004",
+    "patternId": "77777777-1123-0001-0000-000000004002",
+    "exerciseType": "ja_to_vi",
+    "prompt": "この試験は難しくないです。",
+    "promptReading": "このしけんはむずかしくないです。",
+    "expectedAnswer": "Kỳ thi này không khó.",
+    "hint": "N は Aくない です。",
+    "explanation": "Ngoại lệ: いい (tốt) -> よくない.",
+    "orderIndex": 10
+  },
+  {
+    "id": "77777777-1123-0003-0000-000000421004",
+    "patternId": "77777777-1123-0001-0000-000000004002",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Kỳ thi này không khó.",
+    "expectedAnswer": "この試験は難しくないです。",
+    "acceptableAnswers": [
+      "このしけんはむずかしくないです。"
+    ],
+    "hint": "Bỏ い thêm くない",
+    "explanation": "Ngoại lệ: いい (tốt) -> よくない.",
+    "orderIndex": 11
+  },
+  {
+    "id": "77777777-1123-0003-0000-000000431004",
+    "patternId": "77777777-1123-0001-0000-000000004002",
+    "exerciseType": "arrange",
+    "prompt": "Kỳ thi này không khó.",
+    "expectedAnswer": "この試験 (しけん)は難しくない (むずかしくない)です",
+    "optionsJson": "[\"こ\",\"の\",\"は\",\"です\",\"試験 (しけん)\",\"難しくない (むずかしくない)\"]",
+    "options": [
+      "こ",
+      "の",
+      "は",
+      "です",
+      "試験 (しけん)",
+      "難しくない (むずかしくない)"
+    ],
+    "correctOrderJson": "[\"こ\",\"の\",\"試験 (しけん)\",\"は\",\"難しくない (むずかしくない)\",\"です\"]",
+    "correctOrder": [
+      "こ",
+      "の",
+      "試験 (しけん)",
+      "は",
+      "難しくない (むずかしくない)",
+      "です"
+    ],
+    "orderIndex": 12
+  },
+  {
+    "id": "77777777-1123-0003-0000-000000411005",
+    "patternId": "77777777-1123-0001-0000-000000004002",
+    "exerciseType": "ja_to_vi",
+    "prompt": "天気はよくないです。",
+    "promptReading": "てんきはよくないです。",
+    "expectedAnswer": "Thời tiết không tốt.",
+    "hint": "N は Aくない です。",
+    "explanation": "Ngoại lệ: いい (tốt) -> よくない.",
+    "orderIndex": 13
+  },
+  {
+    "id": "77777777-1123-0003-0000-000000421005",
+    "patternId": "77777777-1123-0001-0000-000000004002",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Thời tiết không tốt.",
+    "expectedAnswer": "天気はよくないです。",
+    "acceptableAnswers": [
+      "てんきはよくないです。"
+    ],
+    "hint": "Bỏ い thêm くない",
+    "explanation": "Ngoại lệ: いい (tốt) -> よくない.",
+    "orderIndex": 14
+  },
+  {
+    "id": "77777777-1123-0003-0000-000000431005",
+    "patternId": "77777777-1123-0001-0000-000000004002",
+    "exerciseType": "arrange",
+    "prompt": "Thời tiết không tốt.",
+    "expectedAnswer": "天気 (てんき)はよくないです",
+    "optionsJson": "[\"は\",\"です\",\"よくない\",\"天気 (てんき)\"]",
+    "options": [
+      "は",
+      "です",
+      "よくない",
+      "天気 (てんき)"
+    ],
+    "correctOrderJson": "[\"天気 (てんき)\",\"は\",\"よくない\",\"です\"]",
+    "correctOrder": [
+      "天気 (てんき)",
+      "は",
+      "よくない",
+      "です"
+    ],
+    "orderIndex": 15
+  }
+]

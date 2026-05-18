@@ -1,0 +1,246 @@
+[
+  {
+    "id": "77777777-1123-0003-0000-000000612001",
+    "patternId": "77777777-1123-0001-0000-000000006003",
+    "exerciseType": "ja_to_vi",
+    "prompt": "スポーツで野球がいちばんおもしろいです。",
+    "promptReading": "スポーツでやきゅうがいちばんおもしろいです。",
+    "expectedAnswer": "Trong các môn thể thao, bóng chày là thú vị nhất.",
+    "hint": "N1 で N2 が いちばん A です",
+    "explanation": "いちばん nghĩa là số 1 / nhất.",
+    "orderIndex": 1
+  },
+  {
+    "id": "77777777-1123-0003-0000-000000622001",
+    "patternId": "77777777-1123-0001-0000-000000006003",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Trong các môn thể thao, bóng chày là thú vị nhất.",
+    "expectedAnswer": "スポーツで野球がいちばんおもしろいです。",
+    "acceptableAnswers": [
+      "スポーツでやきゅうがいちばんおもしろいです。"
+    ],
+    "hint": "Phạm vi + で + Đối tượng + が + いちばん + Tính từ + です",
+    "explanation": "いちばん nghĩa là số 1 / nhất.",
+    "orderIndex": 2
+  },
+  {
+    "id": "77777777-1123-0003-0000-000000632001",
+    "patternId": "77777777-1123-0001-0000-000000006003",
+    "exerciseType": "arrange",
+    "prompt": "Trong các môn thể thao, bóng chày là thú vị nhất.",
+    "expectedAnswer": "スポーツで野球 (スポーツでやきゅう)がいちばんおもしろいです",
+    "optionsJson": "[\"が\",\"も\",\"です\",\"しろい\",\"いちばんお\",\"スポーツで野球 (スポーツでやきゅう)\"]",
+    "options": [
+      "が",
+      "も",
+      "です",
+      "しろい",
+      "いちばんお",
+      "スポーツで野球 (スポーツでやきゅう)"
+    ],
+    "correctOrderJson": "[\"スポーツで野球 (スポーツでやきゅう)\",\"が\",\"いちばんお\",\"も\",\"しろい\",\"です\"]",
+    "correctOrder": [
+      "スポーツで野球 (スポーツでやきゅう)",
+      "が",
+      "いちばんお",
+      "も",
+      "しろい",
+      "です"
+    ],
+    "orderIndex": 3
+  },
+  {
+    "id": "77777777-1123-0003-0000-000000612002",
+    "patternId": "77777777-1123-0001-0000-000000006003",
+    "exerciseType": "ja_to_vi",
+    "prompt": "クラスで誰が一番背が高いですか。",
+    "promptReading": "クラスでだれがいちばんせがたかいですか。",
+    "expectedAnswer": "Trong lớp ai là người cao nhất?",
+    "hint": "N1 で N2 が いちばん A です",
+    "explanation": "いちばん nghĩa là số 1 / nhất.",
+    "orderIndex": 4
+  },
+  {
+    "id": "77777777-1123-0003-0000-000000622002",
+    "patternId": "77777777-1123-0001-0000-000000006003",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Trong lớp ai là người cao nhất?",
+    "expectedAnswer": "クラスで誰が一番背が高いですか。",
+    "acceptableAnswers": [
+      "クラスでだれがいちばんせがたかいですか。"
+    ],
+    "hint": "Phạm vi + で + Đối tượng + が + いちばん + Tính từ + です",
+    "explanation": "いちばん nghĩa là số 1 / nhất.",
+    "orderIndex": 5
+  },
+  {
+    "id": "77777777-1123-0003-0000-000000632002",
+    "patternId": "77777777-1123-0001-0000-000000006003",
+    "exerciseType": "arrange",
+    "prompt": "Trong lớp ai là người cao nhất?",
+    "expectedAnswer": "クラスで誰 (クラスでだれ)が一番背 (いちばんせ)が高い (たかい)ですか",
+    "optionsJson": "[\"か\",\"が\",\"が\",\"です\",\"高い (たかい)\",\"一番背 (いちばんせ)\",\"クラスで誰 (クラスでだれ)\"]",
+    "options": [
+      "か",
+      "が",
+      "が",
+      "です",
+      "高い (たかい)",
+      "一番背 (いちばんせ)",
+      "クラスで誰 (クラスでだれ)"
+    ],
+    "correctOrderJson": "[\"クラスで誰 (クラスでだれ)\",\"が\",\"一番背 (いちばんせ)\",\"が\",\"高い (たかい)\",\"です\",\"か\"]",
+    "correctOrder": [
+      "クラスで誰 (クラスでだれ)",
+      "が",
+      "一番背 (いちばんせ)",
+      "が",
+      "高い (たかい)",
+      "です",
+      "か"
+    ],
+    "orderIndex": 6
+  },
+  {
+    "id": "77777777-1123-0003-0000-000000612003",
+    "patternId": "77777777-1123-0001-0000-000000006003",
+    "exerciseType": "ja_to_vi",
+    "prompt": "一年でいつがいちばん暑いですか。",
+    "promptReading": "いちねんでいつがいちばんあついですか。",
+    "expectedAnswer": "Trong một năm, khi nào là nóng nhất?",
+    "hint": "N1 で N2 が いちばん A です",
+    "explanation": "いちばん nghĩa là số 1 / nhất.",
+    "orderIndex": 7
+  },
+  {
+    "id": "77777777-1123-0003-0000-000000622003",
+    "patternId": "77777777-1123-0001-0000-000000006003",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Trong một năm, khi nào là nóng nhất?",
+    "expectedAnswer": "一年でいつがいちばん暑いですか。",
+    "acceptableAnswers": [
+      "いちねんでいつがいちばんあついですか。"
+    ],
+    "hint": "Phạm vi + で + Đối tượng + が + いちばん + Tính từ + です",
+    "explanation": "いちばん nghĩa là số 1 / nhất.",
+    "orderIndex": 8
+  },
+  {
+    "id": "77777777-1123-0003-0000-000000632003",
+    "patternId": "77777777-1123-0001-0000-000000006003",
+    "exerciseType": "arrange",
+    "prompt": "Trong một năm, khi nào là nóng nhất?",
+    "expectedAnswer": "一年でいつ (いちねんでいつ)がいちばん暑い (いちばんあつい)ですか",
+    "optionsJson": "[\"か\",\"が\",\"です\",\"一年でいつ (いちねんでいつ)\",\"いちばん暑い (いちばんあつい)\"]",
+    "options": [
+      "か",
+      "が",
+      "です",
+      "一年でいつ (いちねんでいつ)",
+      "いちばん暑い (いちばんあつい)"
+    ],
+    "correctOrderJson": "[\"一年でいつ (いちねんでいつ)\",\"が\",\"いちばん暑い (いちばんあつい)\",\"です\",\"か\"]",
+    "correctOrder": [
+      "一年でいつ (いちねんでいつ)",
+      "が",
+      "いちばん暑い (いちばんあつい)",
+      "です",
+      "か"
+    ],
+    "orderIndex": 9
+  },
+  {
+    "id": "77777777-1123-0003-0000-000000612004",
+    "patternId": "77777777-1123-0001-0000-000000006003",
+    "exerciseType": "ja_to_vi",
+    "prompt": "果物でリンゴがいちばん好きです。",
+    "promptReading": "くだものでりんごがいちばんすきです。",
+    "expectedAnswer": "Trong các loại quả, tôi thích táo nhất.",
+    "hint": "N1 で N2 が いちばん A です",
+    "explanation": "いちばん nghĩa là số 1 / nhất.",
+    "orderIndex": 10
+  },
+  {
+    "id": "77777777-1123-0003-0000-000000622004",
+    "patternId": "77777777-1123-0001-0000-000000006003",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Trong các loại quả, tôi thích táo nhất.",
+    "expectedAnswer": "果物でリンゴがいちばん好きです。",
+    "acceptableAnswers": [
+      "くだものでりんごがいちばんすきです。"
+    ],
+    "hint": "Phạm vi + で + Đối tượng + が + いちばん + Tính từ + です",
+    "explanation": "いちばん nghĩa là số 1 / nhất.",
+    "orderIndex": 11
+  },
+  {
+    "id": "77777777-1123-0003-0000-000000632004",
+    "patternId": "77777777-1123-0001-0000-000000006003",
+    "exerciseType": "arrange",
+    "prompt": "Trong các loại quả, tôi thích táo nhất.",
+    "expectedAnswer": "果物でリンゴ (くだものでりんご)がいちばん好き (いちばんすき)です",
+    "optionsJson": "[\"が\",\"です\",\"いちばん好き (いちばんすき)\",\"果物でリンゴ (くだものでりんご)\"]",
+    "options": [
+      "が",
+      "です",
+      "いちばん好き (いちばんすき)",
+      "果物でリンゴ (くだものでりんご)"
+    ],
+    "correctOrderJson": "[\"果物でリンゴ (くだものでりんご)\",\"が\",\"いちばん好き (いちばんすき)\",\"です\"]",
+    "correctOrder": [
+      "果物でリンゴ (くだものでりんご)",
+      "が",
+      "いちばん好き (いちばんすき)",
+      "です"
+    ],
+    "orderIndex": 12
+  },
+  {
+    "id": "77777777-1123-0003-0000-000000612005",
+    "patternId": "77777777-1123-0001-0000-000000006003",
+    "exerciseType": "ja_to_vi",
+    "prompt": "世界でどこがいちばんきれいですか。",
+    "promptReading": "せかいでどこがいちばんきれいですか。",
+    "expectedAnswer": "Trên thế giới, nơi nào là đẹp nhất?",
+    "hint": "N1 で N2 が いちばん A です",
+    "explanation": "いちばん nghĩa là số 1 / nhất.",
+    "orderIndex": 13
+  },
+  {
+    "id": "77777777-1123-0003-0000-000000622005",
+    "patternId": "77777777-1123-0001-0000-000000006003",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Trên thế giới, nơi nào là đẹp nhất?",
+    "expectedAnswer": "世界でどこがいちばんきれいですか。",
+    "acceptableAnswers": [
+      "せかいでどこがいちばんきれいですか。"
+    ],
+    "hint": "Phạm vi + で + Đối tượng + が + いちばん + Tính từ + です",
+    "explanation": "いちばん nghĩa là số 1 / nhất.",
+    "orderIndex": 14
+  },
+  {
+    "id": "77777777-1123-0003-0000-000000632005",
+    "patternId": "77777777-1123-0001-0000-000000006003",
+    "exerciseType": "arrange",
+    "prompt": "Trên thế giới, nơi nào là đẹp nhất?",
+    "expectedAnswer": "世界でどこ (せかいでどこ)がいちばんきれいですか",
+    "optionsJson": "[\"か\",\"が\",\"です\",\"いちばんきれい\",\"世界でどこ (せかいでどこ)\"]",
+    "options": [
+      "か",
+      "が",
+      "です",
+      "いちばんきれい",
+      "世界でどこ (せかいでどこ)"
+    ],
+    "correctOrderJson": "[\"世界でどこ (せかいでどこ)\",\"が\",\"いちばんきれい\",\"です\",\"か\"]",
+    "correctOrder": [
+      "世界でどこ (せかいでどこ)",
+      "が",
+      "いちばんきれい",
+      "です",
+      "か"
+    ],
+    "orderIndex": 15
+  }
+]

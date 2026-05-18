@@ -1,0 +1,1848 @@
+{
+  "lesson": {
+    "id": "77777777-1113-0000-0000-000000000102",
+    "level": "N5",
+    "courseCode": "jpd113",
+    "lessonNumber": 2,
+    "title": "Vị trí, Giá cả và Xuất xứ",
+    "description": "Học cách hỏi vị trí, số tầng, giá tiền, nội dung, xuất xứ và sở hữu.",
+    "patternCount": 6,
+    "accessTier": "premium",
+    "isLocked": true,
+    "inStudyCount": 0,
+    "masteredCount": 0,
+    "dueCount": 0
+  },
+  "patterns": [
+    {
+      "id": "77777777-1113-0001-0000-000000002001",
+      "lessonId": "77777777-1113-0000-0000-000000000102",
+      "level": "N5",
+      "courseCode": "jpd113",
+      "pattern": "～は どこですか / どちらですか。",
+      "title": "Hỏi vị trí",
+      "meaning": "~ ở đâu?",
+      "structure": "N は どこ/どちら ですか",
+      "accessTier": "premium",
+      "isLocked": true,
+      "isInStudy": false,
+      "progress": null,
+      "usageScope": "Hỏi vị trí của địa điểm, đồ vật hoặc người.",
+      "formation": "Danh từ + は + どこ (thông thường) / どちら (lịch sự) + ですか",
+      "notes": "どちら còn dùng để hỏi phương hướng.",
+      "examples": [
+        {
+          "id": "77777777-1113-0002-0000-000000200001",
+          "japanese": "トイレはどこですか。",
+          "reading": "トイレはどこですか。",
+          "meaning": "Nhà vệ sinh ở đâu?",
+          "orderIndex": 1
+        },
+        {
+          "id": "77777777-1113-0002-0000-000000200002",
+          "japanese": "エレベーターはどちらですか。",
+          "reading": "エレベーターはどちらですか。",
+          "meaning": "Thang máy ở đâu (hướng nào)?",
+          "orderIndex": 2
+        },
+        {
+          "id": "77777777-1113-0002-0000-000000200003",
+          "japanese": "事務所はどこですか。",
+          "reading": "じむしょはどこですか。",
+          "meaning": "Văn phòng ở đâu vậy?",
+          "orderIndex": 3
+        },
+        {
+          "id": "77777777-1113-0002-0000-000000200004",
+          "japanese": "あなたの国はどちらですか。",
+          "reading": "あなたのくにはどちらですか。",
+          "meaning": "Đất nước của bạn là ở đâu (phía nào)?",
+          "orderIndex": 4
+        },
+        {
+          "id": "77777777-1113-0002-0000-000000200005",
+          "japanese": "受付はどこですか。",
+          "reading": "うけつけはどこですか。",
+          "meaning": "Quầy tiếp tân ở đâu?",
+          "orderIndex": 5
+        }
+      ],
+      "exercises": [
+        {
+          "id": "77777777-1113-0003-0000-000000210001",
+          "patternId": "77777777-1113-0001-0000-000000002001",
+          "exerciseType": "ja_to_vi",
+          "prompt": "トイレはどこですか。",
+          "promptReading": "トイレはどこですか。",
+          "expectedAnswer": "Nhà vệ sinh ở đâu?",
+          "hint": "～は どこですか / どちらですか。",
+          "explanation": "どちら còn dùng để hỏi phương hướng.",
+          "orderIndex": 1
+        },
+        {
+          "id": "77777777-1113-0003-0000-000000220001",
+          "patternId": "77777777-1113-0001-0000-000000002001",
+          "exerciseType": "vi_to_ja",
+          "prompt": "Nhà vệ sinh ở đâu?",
+          "expectedAnswer": "トイレはどこですか。",
+          "acceptableAnswers": [
+            "トイレはどこですか。"
+          ],
+          "hint": "Danh từ + は + どこ (thông thường) / どちら (lịch sự) + ですか",
+          "explanation": "どちら còn dùng để hỏi phương hướng.",
+          "orderIndex": 2
+        },
+        {
+          "id": "77777777-1113-0003-0000-000000230001",
+          "patternId": "77777777-1113-0001-0000-000000002001",
+          "exerciseType": "arrange",
+          "prompt": "Nhà vệ sinh ở đâu?",
+          "expectedAnswer": "トイレはどこですか",
+          "optionsJson": "[\"か\",\"は\",\"どこ\",\"です\",\"トイレ\"]",
+          "options": [
+            "か",
+            "は",
+            "どこ",
+            "です",
+            "トイレ"
+          ],
+          "correctOrderJson": "[\"トイレ\",\"は\",\"どこ\",\"です\",\"か\"]",
+          "correctOrder": [
+            "トイレ",
+            "は",
+            "どこ",
+            "です",
+            "か"
+          ],
+          "orderIndex": 3
+        },
+        {
+          "id": "77777777-1113-0003-0000-000000210002",
+          "patternId": "77777777-1113-0001-0000-000000002001",
+          "exerciseType": "ja_to_vi",
+          "prompt": "エレベーターはどちらですか。",
+          "promptReading": "エレベーターはどちらですか。",
+          "expectedAnswer": "Thang máy ở đâu (hướng nào)?",
+          "hint": "～は どこですか / どちらですか。",
+          "explanation": "どちら còn dùng để hỏi phương hướng.",
+          "orderIndex": 4
+        },
+        {
+          "id": "77777777-1113-0003-0000-000000220002",
+          "patternId": "77777777-1113-0001-0000-000000002001",
+          "exerciseType": "vi_to_ja",
+          "prompt": "Thang máy ở đâu (hướng nào)?",
+          "expectedAnswer": "エレベーターはどちらですか。",
+          "acceptableAnswers": [
+            "エレベーターはどちらですか。"
+          ],
+          "hint": "Danh từ + は + どこ (thông thường) / どちら (lịch sự) + ですか",
+          "explanation": "どちら còn dùng để hỏi phương hướng.",
+          "orderIndex": 5
+        },
+        {
+          "id": "77777777-1113-0003-0000-000000230002",
+          "patternId": "77777777-1113-0001-0000-000000002001",
+          "exerciseType": "arrange",
+          "prompt": "Thang máy ở đâu (hướng nào)?",
+          "expectedAnswer": "エレベーターはどちらですか",
+          "optionsJson": "[\"か\",\"は\",\"です\",\"どちら\",\"エレベーター\"]",
+          "options": [
+            "か",
+            "は",
+            "です",
+            "どちら",
+            "エレベーター"
+          ],
+          "correctOrderJson": "[\"エレベーター\",\"は\",\"どちら\",\"です\",\"か\"]",
+          "correctOrder": [
+            "エレベーター",
+            "は",
+            "どちら",
+            "です",
+            "か"
+          ],
+          "orderIndex": 6
+        },
+        {
+          "id": "77777777-1113-0003-0000-000000210003",
+          "patternId": "77777777-1113-0001-0000-000000002001",
+          "exerciseType": "ja_to_vi",
+          "prompt": "事務所はどこですか。",
+          "promptReading": "じむしょはどこですか。",
+          "expectedAnswer": "Văn phòng ở đâu vậy?",
+          "hint": "～は どこですか / どちらですか。",
+          "explanation": "どちら còn dùng để hỏi phương hướng.",
+          "orderIndex": 7
+        },
+        {
+          "id": "77777777-1113-0003-0000-000000220003",
+          "patternId": "77777777-1113-0001-0000-000000002001",
+          "exerciseType": "vi_to_ja",
+          "prompt": "Văn phòng ở đâu vậy?",
+          "expectedAnswer": "事務所はどこですか。",
+          "acceptableAnswers": [
+            "じむしょはどこですか。"
+          ],
+          "hint": "Danh từ + は + どこ (thông thường) / どちら (lịch sự) + ですか",
+          "explanation": "どちら còn dùng để hỏi phương hướng.",
+          "orderIndex": 8
+        },
+        {
+          "id": "77777777-1113-0003-0000-000000230003",
+          "patternId": "77777777-1113-0001-0000-000000002001",
+          "exerciseType": "arrange",
+          "prompt": "Văn phòng ở đâu vậy?",
+          "expectedAnswer": "事務所 (じむしょ)はどこですか",
+          "optionsJson": "[\"か\",\"は\",\"どこ\",\"です\",\"事務所 (じむしょ)\"]",
+          "options": [
+            "か",
+            "は",
+            "どこ",
+            "です",
+            "事務所 (じむしょ)"
+          ],
+          "correctOrderJson": "[\"事務所 (じむしょ)\",\"は\",\"どこ\",\"です\",\"か\"]",
+          "correctOrder": [
+            "事務所 (じむしょ)",
+            "は",
+            "どこ",
+            "です",
+            "か"
+          ],
+          "orderIndex": 9
+        },
+        {
+          "id": "77777777-1113-0003-0000-000000210004",
+          "patternId": "77777777-1113-0001-0000-000000002001",
+          "exerciseType": "ja_to_vi",
+          "prompt": "あなたの国はどちらですか。",
+          "promptReading": "あなたのくにはどちらですか。",
+          "expectedAnswer": "Đất nước của bạn là ở đâu (phía nào)?",
+          "hint": "～は どこですか / どちらですか。",
+          "explanation": "どちら còn dùng để hỏi phương hướng.",
+          "orderIndex": 10
+        },
+        {
+          "id": "77777777-1113-0003-0000-000000220004",
+          "patternId": "77777777-1113-0001-0000-000000002001",
+          "exerciseType": "vi_to_ja",
+          "prompt": "Đất nước của bạn là ở đâu (phía nào)?",
+          "expectedAnswer": "あなたの国はどちらですか。",
+          "acceptableAnswers": [
+            "あなたのくにはどちらですか。"
+          ],
+          "hint": "Danh từ + は + どこ (thông thường) / どちら (lịch sự) + ですか",
+          "explanation": "どちら còn dùng để hỏi phương hướng.",
+          "orderIndex": 11
+        },
+        {
+          "id": "77777777-1113-0003-0000-000000230004",
+          "patternId": "77777777-1113-0001-0000-000000002001",
+          "exerciseType": "arrange",
+          "prompt": "Đất nước của bạn là ở đâu (phía nào)?",
+          "expectedAnswer": "あなたの国 (くに)はどちらですか",
+          "optionsJson": "[\"か\",\"の\",\"は\",\"です\",\"あなた\",\"どちら\",\"国 (くに)\"]",
+          "options": [
+            "か",
+            "の",
+            "は",
+            "です",
+            "あなた",
+            "どちら",
+            "国 (くに)"
+          ],
+          "correctOrderJson": "[\"あなた\",\"の\",\"国 (くに)\",\"は\",\"どちら\",\"です\",\"か\"]",
+          "correctOrder": [
+            "あなた",
+            "の",
+            "国 (くに)",
+            "は",
+            "どちら",
+            "です",
+            "か"
+          ],
+          "orderIndex": 12
+        },
+        {
+          "id": "77777777-1113-0003-0000-000000210005",
+          "patternId": "77777777-1113-0001-0000-000000002001",
+          "exerciseType": "ja_to_vi",
+          "prompt": "受付はどこですか。",
+          "promptReading": "うけつけはどこですか。",
+          "expectedAnswer": "Quầy tiếp tân ở đâu?",
+          "hint": "～は どこですか / どちらですか。",
+          "explanation": "どちら còn dùng để hỏi phương hướng.",
+          "orderIndex": 13
+        },
+        {
+          "id": "77777777-1113-0003-0000-000000220005",
+          "patternId": "77777777-1113-0001-0000-000000002001",
+          "exerciseType": "vi_to_ja",
+          "prompt": "Quầy tiếp tân ở đâu?",
+          "expectedAnswer": "受付はどこですか。",
+          "acceptableAnswers": [
+            "うけつけはどこですか。"
+          ],
+          "hint": "Danh từ + は + どこ (thông thường) / どちら (lịch sự) + ですか",
+          "explanation": "どちら còn dùng để hỏi phương hướng.",
+          "orderIndex": 14
+        },
+        {
+          "id": "77777777-1113-0003-0000-000000230005",
+          "patternId": "77777777-1113-0001-0000-000000002001",
+          "exerciseType": "arrange",
+          "prompt": "Quầy tiếp tân ở đâu?",
+          "expectedAnswer": "受付 (うけつけ)はどこですか",
+          "optionsJson": "[\"か\",\"は\",\"どこ\",\"です\",\"受付 (うけつけ)\"]",
+          "options": [
+            "か",
+            "は",
+            "どこ",
+            "です",
+            "受付 (うけつけ)"
+          ],
+          "correctOrderJson": "[\"受付 (うけつけ)\",\"は\",\"どこ\",\"です\",\"か\"]",
+          "correctOrder": [
+            "受付 (うけつけ)",
+            "は",
+            "どこ",
+            "です",
+            "か"
+          ],
+          "orderIndex": 15
+        }
+      ]
+    },
+    {
+      "id": "77777777-1113-0001-0000-000000002002",
+      "lessonId": "77777777-1113-0000-0000-000000000102",
+      "level": "N5",
+      "courseCode": "jpd113",
+      "pattern": "～は なんかいですか。",
+      "title": "Hỏi số tầng",
+      "meaning": "~ ở tầng mấy?",
+      "structure": "N は なんかい ですか",
+      "accessTier": "premium",
+      "isLocked": true,
+      "isInStudy": false,
+      "progress": null,
+      "usageScope": "Hỏi vị trí tầng của một địa điểm trong tòa nhà.",
+      "formation": "Danh từ + は + なんかい + ですか",
+      "notes": "Trả lời bằng số tầng + かい/がい.",
+      "examples": [
+        {
+          "id": "77777777-1113-0002-0000-000000201001",
+          "japanese": "レストランは何階ですか。",
+          "reading": "レストランはなんかいですか。",
+          "meaning": "Nhà hàng ở tầng mấy?",
+          "orderIndex": 1
+        },
+        {
+          "id": "77777777-1113-0002-0000-000000201002",
+          "japanese": "会議室は何階ですか。",
+          "reading": "かいぎしつはなんかいですか。",
+          "meaning": "Phòng họp ở tầng mấy?",
+          "orderIndex": 2
+        },
+        {
+          "id": "77777777-1113-0002-0000-000000201003",
+          "japanese": "売り場は何階ですか。",
+          "reading": "うりばはなんかいですか。",
+          "meaning": "Quầy bán hàng ở tầng mấy?",
+          "orderIndex": 3
+        },
+        {
+          "id": "77777777-1113-0002-0000-000000201004",
+          "japanese": "パソコン売り場は何階ですか。",
+          "reading": "パソコンうりばはなんかいですか。",
+          "meaning": "Quầy bán máy tính ở tầng mấy?",
+          "orderIndex": 4
+        },
+        {
+          "id": "77777777-1113-0002-0000-000000201005",
+          "japanese": "私の部屋は三階です。",
+          "reading": "わたしのへやはさんがいです。",
+          "meaning": "Phòng của tôi ở tầng 3.",
+          "orderIndex": 5
+        }
+      ],
+      "exercises": [
+        {
+          "id": "77777777-1113-0003-0000-000000211001",
+          "patternId": "77777777-1113-0001-0000-000000002002",
+          "exerciseType": "ja_to_vi",
+          "prompt": "レストランは何階ですか。",
+          "promptReading": "レストランはなんかいですか。",
+          "expectedAnswer": "Nhà hàng ở tầng mấy?",
+          "hint": "～は なんかいですか。",
+          "explanation": "Trả lời bằng số tầng + かい/がい.",
+          "orderIndex": 1
+        },
+        {
+          "id": "77777777-1113-0003-0000-000000221001",
+          "patternId": "77777777-1113-0001-0000-000000002002",
+          "exerciseType": "vi_to_ja",
+          "prompt": "Nhà hàng ở tầng mấy?",
+          "expectedAnswer": "レストランは何階ですか。",
+          "acceptableAnswers": [
+            "レストランはなんかいですか。"
+          ],
+          "hint": "Danh từ + は + なんかい + ですか",
+          "explanation": "Trả lời bằng số tầng + かい/がい.",
+          "orderIndex": 2
+        },
+        {
+          "id": "77777777-1113-0003-0000-000000231001",
+          "patternId": "77777777-1113-0001-0000-000000002002",
+          "exerciseType": "arrange",
+          "prompt": "Nhà hàng ở tầng mấy?",
+          "expectedAnswer": "レストランは何階 (なんかい)ですか",
+          "optionsJson": "[\"か\",\"は\",\"です\",\"レストラン\",\"何階 (なんかい)\"]",
+          "options": [
+            "か",
+            "は",
+            "です",
+            "レストラン",
+            "何階 (なんかい)"
+          ],
+          "correctOrderJson": "[\"レストラン\",\"は\",\"何階 (なんかい)\",\"です\",\"か\"]",
+          "correctOrder": [
+            "レストラン",
+            "は",
+            "何階 (なんかい)",
+            "です",
+            "か"
+          ],
+          "orderIndex": 3
+        },
+        {
+          "id": "77777777-1113-0003-0000-000000211002",
+          "patternId": "77777777-1113-0001-0000-000000002002",
+          "exerciseType": "ja_to_vi",
+          "prompt": "会議室は何階ですか。",
+          "promptReading": "かいぎしつはなんかいですか。",
+          "expectedAnswer": "Phòng họp ở tầng mấy?",
+          "hint": "～は なんかいですか。",
+          "explanation": "Trả lời bằng số tầng + かい/がい.",
+          "orderIndex": 4
+        },
+        {
+          "id": "77777777-1113-0003-0000-000000221002",
+          "patternId": "77777777-1113-0001-0000-000000002002",
+          "exerciseType": "vi_to_ja",
+          "prompt": "Phòng họp ở tầng mấy?",
+          "expectedAnswer": "会議室は何階ですか。",
+          "acceptableAnswers": [
+            "かいぎしつはなんかいですか。"
+          ],
+          "hint": "Danh từ + は + なんかい + ですか",
+          "explanation": "Trả lời bằng số tầng + かい/がい.",
+          "orderIndex": 5
+        },
+        {
+          "id": "77777777-1113-0003-0000-000000231002",
+          "patternId": "77777777-1113-0001-0000-000000002002",
+          "exerciseType": "arrange",
+          "prompt": "Phòng họp ở tầng mấy?",
+          "expectedAnswer": "会議室 (かいぎしつ)は何階 (なんかい)ですか",
+          "optionsJson": "[\"か\",\"は\",\"です\",\"何階 (なんかい)\",\"会議室 (かいぎしつ)\"]",
+          "options": [
+            "か",
+            "は",
+            "です",
+            "何階 (なんかい)",
+            "会議室 (かいぎしつ)"
+          ],
+          "correctOrderJson": "[\"会議室 (かいぎしつ)\",\"は\",\"何階 (なんかい)\",\"です\",\"か\"]",
+          "correctOrder": [
+            "会議室 (かいぎしつ)",
+            "は",
+            "何階 (なんかい)",
+            "です",
+            "か"
+          ],
+          "orderIndex": 6
+        },
+        {
+          "id": "77777777-1113-0003-0000-000000211003",
+          "patternId": "77777777-1113-0001-0000-000000002002",
+          "exerciseType": "ja_to_vi",
+          "prompt": "売り場は何階ですか。",
+          "promptReading": "うりばはなんかいですか。",
+          "expectedAnswer": "Quầy bán hàng ở tầng mấy?",
+          "hint": "～は なんかいですか。",
+          "explanation": "Trả lời bằng số tầng + かい/がい.",
+          "orderIndex": 7
+        },
+        {
+          "id": "77777777-1113-0003-0000-000000221003",
+          "patternId": "77777777-1113-0001-0000-000000002002",
+          "exerciseType": "vi_to_ja",
+          "prompt": "Quầy bán hàng ở tầng mấy?",
+          "expectedAnswer": "売り場は何階ですか。",
+          "acceptableAnswers": [
+            "うりばはなんかいですか。"
+          ],
+          "hint": "Danh từ + は + なんかい + ですか",
+          "explanation": "Trả lời bằng số tầng + かい/がい.",
+          "orderIndex": 8
+        },
+        {
+          "id": "77777777-1113-0003-0000-000000231003",
+          "patternId": "77777777-1113-0001-0000-000000002002",
+          "exerciseType": "arrange",
+          "prompt": "Quầy bán hàng ở tầng mấy?",
+          "expectedAnswer": "売り場 (うりば)は何階 (なんかい)ですか",
+          "optionsJson": "[\"か\",\"は\",\"です\",\"売り場 (うりば)\",\"何階 (なんかい)\"]",
+          "options": [
+            "か",
+            "は",
+            "です",
+            "売り場 (うりば)",
+            "何階 (なんかい)"
+          ],
+          "correctOrderJson": "[\"売り場 (うりば)\",\"は\",\"何階 (なんかい)\",\"です\",\"か\"]",
+          "correctOrder": [
+            "売り場 (うりば)",
+            "は",
+            "何階 (なんかい)",
+            "です",
+            "か"
+          ],
+          "orderIndex": 9
+        },
+        {
+          "id": "77777777-1113-0003-0000-000000211004",
+          "patternId": "77777777-1113-0001-0000-000000002002",
+          "exerciseType": "ja_to_vi",
+          "prompt": "パソコン売り場は何階ですか。",
+          "promptReading": "パソコンうりばはなんかいですか。",
+          "expectedAnswer": "Quầy bán máy tính ở tầng mấy?",
+          "hint": "～は なんかいですか。",
+          "explanation": "Trả lời bằng số tầng + かい/がい.",
+          "orderIndex": 10
+        },
+        {
+          "id": "77777777-1113-0003-0000-000000221004",
+          "patternId": "77777777-1113-0001-0000-000000002002",
+          "exerciseType": "vi_to_ja",
+          "prompt": "Quầy bán máy tính ở tầng mấy?",
+          "expectedAnswer": "パソコン売り場は何階ですか。",
+          "acceptableAnswers": [
+            "パソコンうりばはなんかいですか。"
+          ],
+          "hint": "Danh từ + は + なんかい + ですか",
+          "explanation": "Trả lời bằng số tầng + かい/がい.",
+          "orderIndex": 11
+        },
+        {
+          "id": "77777777-1113-0003-0000-000000231004",
+          "patternId": "77777777-1113-0001-0000-000000002002",
+          "exerciseType": "arrange",
+          "prompt": "Quầy bán máy tính ở tầng mấy?",
+          "expectedAnswer": "パソコン売り場 (パソコンうりば)は何階 (なんかい)ですか",
+          "optionsJson": "[\"か\",\"は\",\"です\",\"何階 (なんかい)\",\"パソコン売り場 (パソコンうりば)\"]",
+          "options": [
+            "か",
+            "は",
+            "です",
+            "何階 (なんかい)",
+            "パソコン売り場 (パソコンうりば)"
+          ],
+          "correctOrderJson": "[\"パソコン売り場 (パソコンうりば)\",\"は\",\"何階 (なんかい)\",\"です\",\"か\"]",
+          "correctOrder": [
+            "パソコン売り場 (パソコンうりば)",
+            "は",
+            "何階 (なんかい)",
+            "です",
+            "か"
+          ],
+          "orderIndex": 12
+        },
+        {
+          "id": "77777777-1113-0003-0000-000000211005",
+          "patternId": "77777777-1113-0001-0000-000000002002",
+          "exerciseType": "ja_to_vi",
+          "prompt": "私の部屋は三階です。",
+          "promptReading": "わたしのへやはさんがいです。",
+          "expectedAnswer": "Phòng của tôi ở tầng 3.",
+          "hint": "～は なんかいですか。",
+          "explanation": "Trả lời bằng số tầng + かい/がい.",
+          "orderIndex": 13
+        },
+        {
+          "id": "77777777-1113-0003-0000-000000221005",
+          "patternId": "77777777-1113-0001-0000-000000002002",
+          "exerciseType": "vi_to_ja",
+          "prompt": "Phòng của tôi ở tầng 3.",
+          "expectedAnswer": "私の部屋は三階です。",
+          "acceptableAnswers": [
+            "わたしのへやはさんがいです。"
+          ],
+          "hint": "Danh từ + は + なんかい + ですか",
+          "explanation": "Trả lời bằng số tầng + かい/がい.",
+          "orderIndex": 14
+        },
+        {
+          "id": "77777777-1113-0003-0000-000000231005",
+          "patternId": "77777777-1113-0001-0000-000000002002",
+          "exerciseType": "arrange",
+          "prompt": "Phòng của tôi ở tầng 3.",
+          "expectedAnswer": "私 (わたし)の部屋 (へや)は三階 (さんがい)です",
+          "optionsJson": "[\"の\",\"は\",\"です\",\"私 (わたし)\",\"部屋 (へや)\",\"三階 (さんがい)\"]",
+          "options": [
+            "の",
+            "は",
+            "です",
+            "私 (わたし)",
+            "部屋 (へや)",
+            "三階 (さんがい)"
+          ],
+          "correctOrderJson": "[\"私 (わたし)\",\"の\",\"部屋 (へや)\",\"は\",\"三階 (さんがい)\",\"です\"]",
+          "correctOrder": [
+            "私 (わたし)",
+            "の",
+            "部屋 (へや)",
+            "は",
+            "三階 (さんがい)",
+            "です"
+          ],
+          "orderIndex": 15
+        }
+      ]
+    },
+    {
+      "id": "77777777-1113-0001-0000-000000002003",
+      "lessonId": "77777777-1113-0000-0000-000000000102",
+      "level": "N5",
+      "courseCode": "jpd113",
+      "pattern": "N を ください。",
+      "title": "Yêu cầu/Gọi món",
+      "meaning": "Cho tôi N / Lấy cho tôi N",
+      "structure": "N を ください",
+      "accessTier": "premium",
+      "isLocked": true,
+      "isInStudy": false,
+      "progress": null,
+      "usageScope": "Dùng khi mua hàng hoặc gọi món trong nhà hàng.",
+      "formation": "Danh từ + を + ください",
+      "notes": "Có thể thêm số lượng vào trước ください.",
+      "examples": [
+        {
+          "id": "77777777-1113-0002-0000-000000202001",
+          "japanese": "そのTシャツをください。",
+          "reading": "そのTシャツをください。",
+          "meaning": "Cho tôi cái áo thun đó.",
+          "orderIndex": 1
+        },
+        {
+          "id": "77777777-1113-0002-0000-000000202002",
+          "japanese": "りんごを三つください。",
+          "reading": "りんごをみっつください。",
+          "meaning": "Cho tôi 3 quả táo.",
+          "orderIndex": 2
+        },
+        {
+          "id": "77777777-1113-0002-0000-000000202003",
+          "japanese": "このペンをください。",
+          "reading": "このぺんをください。",
+          "meaning": "Lấy cho tôi cái bút này.",
+          "orderIndex": 3
+        },
+        {
+          "id": "77777777-1113-0002-0000-000000202004",
+          "japanese": "コーヒーを二つください。",
+          "reading": "コーヒーをふたつください。",
+          "meaning": "Cho tôi 2 ly cà phê.",
+          "orderIndex": 4
+        },
+        {
+          "id": "77777777-1113-0002-0000-000000202005",
+          "japanese": "水をください。",
+          "reading": "みずをください。",
+          "meaning": "Cho tôi xin nước.",
+          "orderIndex": 5
+        }
+      ],
+      "exercises": [
+        {
+          "id": "77777777-1113-0003-0000-000000212001",
+          "patternId": "77777777-1113-0001-0000-000000002003",
+          "exerciseType": "ja_to_vi",
+          "prompt": "そのTシャツをください。",
+          "promptReading": "そのTシャツをください。",
+          "expectedAnswer": "Cho tôi cái áo thun đó.",
+          "hint": "N を ください。",
+          "explanation": "Có thể thêm số lượng vào trước ください.",
+          "orderIndex": 1
+        },
+        {
+          "id": "77777777-1113-0003-0000-000000222001",
+          "patternId": "77777777-1113-0001-0000-000000002003",
+          "exerciseType": "vi_to_ja",
+          "prompt": "Cho tôi cái áo thun đó.",
+          "expectedAnswer": "そのTシャツをください。",
+          "acceptableAnswers": [
+            "そのTシャツをください。"
+          ],
+          "hint": "Danh từ + を + ください",
+          "explanation": "Có thể thêm số lượng vào trước ください.",
+          "orderIndex": 2
+        },
+        {
+          "id": "77777777-1113-0003-0000-000000232001",
+          "patternId": "77777777-1113-0001-0000-000000002003",
+          "exerciseType": "arrange",
+          "prompt": "Cho tôi cái áo thun đó.",
+          "expectedAnswer": "そのTシャツをください",
+          "optionsJson": "[\"そ\",\"の\",\"を\",\"Tシャツ\",\"ください\"]",
+          "options": [
+            "そ",
+            "の",
+            "を",
+            "Tシャツ",
+            "ください"
+          ],
+          "correctOrderJson": "[\"そ\",\"の\",\"Tシャツ\",\"を\",\"ください\"]",
+          "correctOrder": [
+            "そ",
+            "の",
+            "Tシャツ",
+            "を",
+            "ください"
+          ],
+          "orderIndex": 3
+        },
+        {
+          "id": "77777777-1113-0003-0000-000000212002",
+          "patternId": "77777777-1113-0001-0000-000000002003",
+          "exerciseType": "ja_to_vi",
+          "prompt": "りんごを三つください。",
+          "promptReading": "りんごをみっつください。",
+          "expectedAnswer": "Cho tôi 3 quả táo.",
+          "hint": "N を ください。",
+          "explanation": "Có thể thêm số lượng vào trước ください.",
+          "orderIndex": 4
+        },
+        {
+          "id": "77777777-1113-0003-0000-000000222002",
+          "patternId": "77777777-1113-0001-0000-000000002003",
+          "exerciseType": "vi_to_ja",
+          "prompt": "Cho tôi 3 quả táo.",
+          "expectedAnswer": "りんごを三つください。",
+          "acceptableAnswers": [
+            "りんごをみっつください。"
+          ],
+          "hint": "Danh từ + を + ください",
+          "explanation": "Có thể thêm số lượng vào trước ください.",
+          "orderIndex": 5
+        },
+        {
+          "id": "77777777-1113-0003-0000-000000232002",
+          "patternId": "77777777-1113-0001-0000-000000002003",
+          "exerciseType": "arrange",
+          "prompt": "Cho tôi 3 quả táo.",
+          "expectedAnswer": "りんごを三つください (みっつください)",
+          "optionsJson": "[\"を\",\"りんご\",\"三つください (みっつください)\"]",
+          "options": [
+            "を",
+            "りんご",
+            "三つください (みっつください)"
+          ],
+          "correctOrderJson": "[\"りんご\",\"を\",\"三つください (みっつください)\"]",
+          "correctOrder": [
+            "りんご",
+            "を",
+            "三つください (みっつください)"
+          ],
+          "orderIndex": 6
+        },
+        {
+          "id": "77777777-1113-0003-0000-000000212003",
+          "patternId": "77777777-1113-0001-0000-000000002003",
+          "exerciseType": "ja_to_vi",
+          "prompt": "このペンをください。",
+          "promptReading": "このぺんをください。",
+          "expectedAnswer": "Lấy cho tôi cái bút này.",
+          "hint": "N を ください。",
+          "explanation": "Có thể thêm số lượng vào trước ください.",
+          "orderIndex": 7
+        },
+        {
+          "id": "77777777-1113-0003-0000-000000222003",
+          "patternId": "77777777-1113-0001-0000-000000002003",
+          "exerciseType": "vi_to_ja",
+          "prompt": "Lấy cho tôi cái bút này.",
+          "expectedAnswer": "このペンをください。",
+          "acceptableAnswers": [
+            "このぺんをください。"
+          ],
+          "hint": "Danh từ + を + ください",
+          "explanation": "Có thể thêm số lượng vào trước ください.",
+          "orderIndex": 8
+        },
+        {
+          "id": "77777777-1113-0003-0000-000000232003",
+          "patternId": "77777777-1113-0001-0000-000000002003",
+          "exerciseType": "arrange",
+          "prompt": "Lấy cho tôi cái bút này.",
+          "expectedAnswer": "このペンをください",
+          "optionsJson": "[\"こ\",\"の\",\"を\",\"ペン\",\"ください\"]",
+          "options": [
+            "こ",
+            "の",
+            "を",
+            "ペン",
+            "ください"
+          ],
+          "correctOrderJson": "[\"こ\",\"の\",\"ペン\",\"を\",\"ください\"]",
+          "correctOrder": [
+            "こ",
+            "の",
+            "ペン",
+            "を",
+            "ください"
+          ],
+          "orderIndex": 9
+        },
+        {
+          "id": "77777777-1113-0003-0000-000000212004",
+          "patternId": "77777777-1113-0001-0000-000000002003",
+          "exerciseType": "ja_to_vi",
+          "prompt": "コーヒーを二つください。",
+          "promptReading": "コーヒーをふたつください。",
+          "expectedAnswer": "Cho tôi 2 ly cà phê.",
+          "hint": "N を ください。",
+          "explanation": "Có thể thêm số lượng vào trước ください.",
+          "orderIndex": 10
+        },
+        {
+          "id": "77777777-1113-0003-0000-000000222004",
+          "patternId": "77777777-1113-0001-0000-000000002003",
+          "exerciseType": "vi_to_ja",
+          "prompt": "Cho tôi 2 ly cà phê.",
+          "expectedAnswer": "コーヒーを二つください。",
+          "acceptableAnswers": [
+            "コーヒーをふたつください。"
+          ],
+          "hint": "Danh từ + を + ください",
+          "explanation": "Có thể thêm số lượng vào trước ください.",
+          "orderIndex": 11
+        },
+        {
+          "id": "77777777-1113-0003-0000-000000232004",
+          "patternId": "77777777-1113-0001-0000-000000002003",
+          "exerciseType": "arrange",
+          "prompt": "Cho tôi 2 ly cà phê.",
+          "expectedAnswer": "コーヒーを二つください (ふたつください)",
+          "optionsJson": "[\"を\",\"コーヒー\",\"二つください (ふたつください)\"]",
+          "options": [
+            "を",
+            "コーヒー",
+            "二つください (ふたつください)"
+          ],
+          "correctOrderJson": "[\"コーヒー\",\"を\",\"二つください (ふたつください)\"]",
+          "correctOrder": [
+            "コーヒー",
+            "を",
+            "二つください (ふたつください)"
+          ],
+          "orderIndex": 12
+        },
+        {
+          "id": "77777777-1113-0003-0000-000000212005",
+          "patternId": "77777777-1113-0001-0000-000000002003",
+          "exerciseType": "ja_to_vi",
+          "prompt": "水をください。",
+          "promptReading": "みずをください。",
+          "expectedAnswer": "Cho tôi xin nước.",
+          "hint": "N を ください。",
+          "explanation": "Có thể thêm số lượng vào trước ください.",
+          "orderIndex": 13
+        },
+        {
+          "id": "77777777-1113-0003-0000-000000222005",
+          "patternId": "77777777-1113-0001-0000-000000002003",
+          "exerciseType": "vi_to_ja",
+          "prompt": "Cho tôi xin nước.",
+          "expectedAnswer": "水をください。",
+          "acceptableAnswers": [
+            "みずをください。"
+          ],
+          "hint": "Danh từ + を + ください",
+          "explanation": "Có thể thêm số lượng vào trước ください.",
+          "orderIndex": 14
+        },
+        {
+          "id": "77777777-1113-0003-0000-000000232005",
+          "patternId": "77777777-1113-0001-0000-000000002003",
+          "exerciseType": "arrange",
+          "prompt": "Cho tôi xin nước.",
+          "expectedAnswer": "水 (みず)をください",
+          "optionsJson": "[\"を\",\"ください\",\"水 (みず)\"]",
+          "options": [
+            "を",
+            "ください",
+            "水 (みず)"
+          ],
+          "correctOrderJson": "[\"水 (みず)\",\"を\",\"ください\"]",
+          "correctOrder": [
+            "水 (みず)",
+            "を",
+            "ください"
+          ],
+          "orderIndex": 15
+        }
+      ]
+    },
+    {
+      "id": "77777777-1113-0001-0000-000000002004",
+      "lessonId": "77777777-1113-0000-0000-000000000102",
+      "level": "N5",
+      "courseCode": "jpd113",
+      "pattern": "～は いくらですか。",
+      "title": "Hỏi giá cả",
+      "meaning": "~ bao nhiêu tiền?",
+      "structure": "N は いくら ですか",
+      "accessTier": "premium",
+      "isLocked": true,
+      "isInStudy": false,
+      "progress": null,
+      "usageScope": "Hỏi giá của món đồ.",
+      "formation": "Danh từ + は + いくら + ですか",
+      "notes": "いくら là từ hỏi về giá cả.",
+      "examples": [
+        {
+          "id": "77777777-1113-0002-0000-000000203001",
+          "japanese": "これはいくらですか。",
+          "reading": "これはいくらですか。",
+          "meaning": "Cái này bao nhiêu tiền?",
+          "orderIndex": 1
+        },
+        {
+          "id": "77777777-1113-0002-0000-000000203002",
+          "japanese": "その靴はいくらですか。",
+          "reading": "そのくつはいくらですか。",
+          "meaning": "Đôi giày đó bao nhiêu tiền?",
+          "orderIndex": 2
+        },
+        {
+          "id": "77777777-1113-0002-0000-000000203003",
+          "japanese": "このカメラはいくらですか。",
+          "reading": "このかめらはいくらですか。",
+          "meaning": "Máy ảnh này bao nhiêu tiền?",
+          "orderIndex": 3
+        },
+        {
+          "id": "77777777-1113-0002-0000-000000203004",
+          "japanese": "そのリンゴは一ついくらですか。",
+          "reading": "そのリンゴはひとついくらですか。",
+          "meaning": "Quả táo đó bao nhiêu tiền một quả?",
+          "orderIndex": 4
+        },
+        {
+          "id": "77777777-1113-0002-0000-000000203005",
+          "japanese": "お勘定はいくらですか。",
+          "reading": "おかんじょうはいくらですか。",
+          "meaning": "Thanh toán hết bao nhiêu tiền vậy?",
+          "orderIndex": 5
+        }
+      ],
+      "exercises": [
+        {
+          "id": "77777777-1113-0003-0000-000000213001",
+          "patternId": "77777777-1113-0001-0000-000000002004",
+          "exerciseType": "ja_to_vi",
+          "prompt": "これはいくらですか。",
+          "promptReading": "これはいくらですか。",
+          "expectedAnswer": "Cái này bao nhiêu tiền?",
+          "hint": "～は いくらですか。",
+          "explanation": "いくら là từ hỏi về giá cả.",
+          "orderIndex": 1
+        },
+        {
+          "id": "77777777-1113-0003-0000-000000223001",
+          "patternId": "77777777-1113-0001-0000-000000002004",
+          "exerciseType": "vi_to_ja",
+          "prompt": "Cái này bao nhiêu tiền?",
+          "expectedAnswer": "これはいくらですか。",
+          "acceptableAnswers": [
+            "これはいくらですか。"
+          ],
+          "hint": "Danh từ + は + いくら + ですか",
+          "explanation": "いくら là từ hỏi về giá cả.",
+          "orderIndex": 2
+        },
+        {
+          "id": "77777777-1113-0003-0000-000000233001",
+          "patternId": "77777777-1113-0001-0000-000000002004",
+          "exerciseType": "arrange",
+          "prompt": "Cái này bao nhiêu tiền?",
+          "expectedAnswer": "これはいくらですか",
+          "optionsJson": "[\"か\",\"は\",\"です\",\"これ\",\"いくら\"]",
+          "options": [
+            "か",
+            "は",
+            "です",
+            "これ",
+            "いくら"
+          ],
+          "correctOrderJson": "[\"これ\",\"は\",\"いくら\",\"です\",\"か\"]",
+          "correctOrder": [
+            "これ",
+            "は",
+            "いくら",
+            "です",
+            "か"
+          ],
+          "orderIndex": 3
+        },
+        {
+          "id": "77777777-1113-0003-0000-000000213002",
+          "patternId": "77777777-1113-0001-0000-000000002004",
+          "exerciseType": "ja_to_vi",
+          "prompt": "その靴はいくらですか。",
+          "promptReading": "そのくつはいくらですか。",
+          "expectedAnswer": "Đôi giày đó bao nhiêu tiền?",
+          "hint": "～は いくらですか。",
+          "explanation": "いくら là từ hỏi về giá cả.",
+          "orderIndex": 4
+        },
+        {
+          "id": "77777777-1113-0003-0000-000000223002",
+          "patternId": "77777777-1113-0001-0000-000000002004",
+          "exerciseType": "vi_to_ja",
+          "prompt": "Đôi giày đó bao nhiêu tiền?",
+          "expectedAnswer": "その靴はいくらですか。",
+          "acceptableAnswers": [
+            "そのくつはいくらですか。"
+          ],
+          "hint": "Danh từ + は + いくら + ですか",
+          "explanation": "いくら là từ hỏi về giá cả.",
+          "orderIndex": 5
+        },
+        {
+          "id": "77777777-1113-0003-0000-000000233002",
+          "patternId": "77777777-1113-0001-0000-000000002004",
+          "exerciseType": "arrange",
+          "prompt": "Đôi giày đó bao nhiêu tiền?",
+          "expectedAnswer": "その靴 (くつ)はいくらですか",
+          "optionsJson": "[\"か\",\"そ\",\"の\",\"は\",\"です\",\"いくら\",\"靴 (くつ)\"]",
+          "options": [
+            "か",
+            "そ",
+            "の",
+            "は",
+            "です",
+            "いくら",
+            "靴 (くつ)"
+          ],
+          "correctOrderJson": "[\"そ\",\"の\",\"靴 (くつ)\",\"は\",\"いくら\",\"です\",\"か\"]",
+          "correctOrder": [
+            "そ",
+            "の",
+            "靴 (くつ)",
+            "は",
+            "いくら",
+            "です",
+            "か"
+          ],
+          "orderIndex": 6
+        },
+        {
+          "id": "77777777-1113-0003-0000-000000213003",
+          "patternId": "77777777-1113-0001-0000-000000002004",
+          "exerciseType": "ja_to_vi",
+          "prompt": "このカメラはいくらですか。",
+          "promptReading": "このかめらはいくらですか。",
+          "expectedAnswer": "Máy ảnh này bao nhiêu tiền?",
+          "hint": "～は いくらですか。",
+          "explanation": "いくら là từ hỏi về giá cả.",
+          "orderIndex": 7
+        },
+        {
+          "id": "77777777-1113-0003-0000-000000223003",
+          "patternId": "77777777-1113-0001-0000-000000002004",
+          "exerciseType": "vi_to_ja",
+          "prompt": "Máy ảnh này bao nhiêu tiền?",
+          "expectedAnswer": "このカメラはいくらですか。",
+          "acceptableAnswers": [
+            "このかめらはいくらですか。"
+          ],
+          "hint": "Danh từ + は + いくら + ですか",
+          "explanation": "いくら là từ hỏi về giá cả.",
+          "orderIndex": 8
+        },
+        {
+          "id": "77777777-1113-0003-0000-000000233003",
+          "patternId": "77777777-1113-0001-0000-000000002004",
+          "exerciseType": "arrange",
+          "prompt": "Máy ảnh này bao nhiêu tiền?",
+          "expectedAnswer": "このカメラはいくらですか",
+          "optionsJson": "[\"か\",\"こ\",\"の\",\"は\",\"です\",\"いくら\",\"カメラ\"]",
+          "options": [
+            "か",
+            "こ",
+            "の",
+            "は",
+            "です",
+            "いくら",
+            "カメラ"
+          ],
+          "correctOrderJson": "[\"こ\",\"の\",\"カメラ\",\"は\",\"いくら\",\"です\",\"か\"]",
+          "correctOrder": [
+            "こ",
+            "の",
+            "カメラ",
+            "は",
+            "いくら",
+            "です",
+            "か"
+          ],
+          "orderIndex": 9
+        },
+        {
+          "id": "77777777-1113-0003-0000-000000213004",
+          "patternId": "77777777-1113-0001-0000-000000002004",
+          "exerciseType": "ja_to_vi",
+          "prompt": "そのリンゴは一ついくらですか。",
+          "promptReading": "そのリンゴはひとついくらですか。",
+          "expectedAnswer": "Quả táo đó bao nhiêu tiền một quả?",
+          "hint": "～は いくらですか。",
+          "explanation": "いくら là từ hỏi về giá cả.",
+          "orderIndex": 10
+        },
+        {
+          "id": "77777777-1113-0003-0000-000000223004",
+          "patternId": "77777777-1113-0001-0000-000000002004",
+          "exerciseType": "vi_to_ja",
+          "prompt": "Quả táo đó bao nhiêu tiền một quả?",
+          "expectedAnswer": "そのリンゴは一ついくらですか。",
+          "acceptableAnswers": [
+            "そのリンゴはひとついくらですか。"
+          ],
+          "hint": "Danh từ + は + いくら + ですか",
+          "explanation": "いくら là từ hỏi về giá cả.",
+          "orderIndex": 11
+        },
+        {
+          "id": "77777777-1113-0003-0000-000000233004",
+          "patternId": "77777777-1113-0001-0000-000000002004",
+          "exerciseType": "arrange",
+          "prompt": "Quả táo đó bao nhiêu tiền một quả?",
+          "expectedAnswer": "そのリンゴは一ついくら (ひとついくら)ですか",
+          "optionsJson": "[\"か\",\"そ\",\"の\",\"は\",\"です\",\"リンゴ\",\"一ついくら (ひとついくら)\"]",
+          "options": [
+            "か",
+            "そ",
+            "の",
+            "は",
+            "です",
+            "リンゴ",
+            "一ついくら (ひとついくら)"
+          ],
+          "correctOrderJson": "[\"そ\",\"の\",\"リンゴ\",\"は\",\"一ついくら (ひとついくら)\",\"です\",\"か\"]",
+          "correctOrder": [
+            "そ",
+            "の",
+            "リンゴ",
+            "は",
+            "一ついくら (ひとついくら)",
+            "です",
+            "か"
+          ],
+          "orderIndex": 12
+        },
+        {
+          "id": "77777777-1113-0003-0000-000000213005",
+          "patternId": "77777777-1113-0001-0000-000000002004",
+          "exerciseType": "ja_to_vi",
+          "prompt": "お勘定はいくらですか。",
+          "promptReading": "おかんじょうはいくらですか。",
+          "expectedAnswer": "Thanh toán hết bao nhiêu tiền vậy?",
+          "hint": "～は いくらですか。",
+          "explanation": "いくら là từ hỏi về giá cả.",
+          "orderIndex": 13
+        },
+        {
+          "id": "77777777-1113-0003-0000-000000223005",
+          "patternId": "77777777-1113-0001-0000-000000002004",
+          "exerciseType": "vi_to_ja",
+          "prompt": "Thanh toán hết bao nhiêu tiền vậy?",
+          "expectedAnswer": "お勘定はいくらですか。",
+          "acceptableAnswers": [
+            "おかんじょうはいくらですか。"
+          ],
+          "hint": "Danh từ + は + いくら + ですか",
+          "explanation": "いくら là từ hỏi về giá cả.",
+          "orderIndex": 14
+        },
+        {
+          "id": "77777777-1113-0003-0000-000000233005",
+          "patternId": "77777777-1113-0001-0000-000000002004",
+          "exerciseType": "arrange",
+          "prompt": "Thanh toán hết bao nhiêu tiền vậy?",
+          "expectedAnswer": "お勘定 (おかんじょう)はいくらですか",
+          "optionsJson": "[\"か\",\"は\",\"です\",\"いくら\",\"お勘定 (おかんじょう)\"]",
+          "options": [
+            "か",
+            "は",
+            "です",
+            "いくら",
+            "お勘定 (おかんじょう)"
+          ],
+          "correctOrderJson": "[\"お勘定 (おかんじょう)\",\"は\",\"いくら\",\"です\",\"か\"]",
+          "correctOrder": [
+            "お勘定 (おかんじょう)",
+            "は",
+            "いくら",
+            "です",
+            "か"
+          ],
+          "orderIndex": 15
+        }
+      ]
+    },
+    {
+      "id": "77777777-1113-0001-0000-000000002005",
+      "lessonId": "77777777-1113-0000-0000-000000000102",
+      "level": "N5",
+      "courseCode": "jpd113",
+      "pattern": "～は どこの N ですか。",
+      "title": "Hỏi về xuất xứ/nơi sản xuất",
+      "meaning": "N của nước nào/hãng nào?",
+      "structure": "N1 は どこの N2 ですか",
+      "accessTier": "premium",
+      "isLocked": true,
+      "isInStudy": false,
+      "progress": null,
+      "usageScope": "Hỏi về nguồn gốc, nơi sản xuất của đồ vật.",
+      "formation": "N1 + は + どこの + N2 + ですか",
+      "notes": "どこの trả lời bằng tên quốc gia hoặc tên công ty.",
+      "examples": [
+        {
+          "id": "77777777-1113-0002-0000-000000204001",
+          "japanese": "これはどこのビールですか。",
+          "reading": "これはどこのビールですか。",
+          "meaning": "Đây là bia của nước nào?",
+          "orderIndex": 1
+        },
+        {
+          "id": "77777777-1113-0002-0000-000000204002",
+          "japanese": "これはどこのカメラですか。",
+          "reading": "これはどこのカメラですか。",
+          "meaning": "Đây là máy ảnh của hãng nào (nước nào)?",
+          "orderIndex": 2
+        },
+        {
+          "id": "77777777-1113-0002-0000-000000204003",
+          "japanese": "それはどこの車ですか。",
+          "reading": "それはどこのくるまですか。",
+          "meaning": "Đó là xe ô tô của hãng nào?",
+          "orderIndex": 3
+        },
+        {
+          "id": "77777777-1113-0002-0000-000000204004",
+          "japanese": "これはどこのワインですか。",
+          "reading": "これはどこのワインですか。",
+          "meaning": "Đây là rượu vang của nước nào?",
+          "orderIndex": 4
+        },
+        {
+          "id": "77777777-1113-0002-0000-000000204005",
+          "japanese": "このネクタイはどこのですか。",
+          "reading": "このねくたいはどこのですか。",
+          "meaning": "Cái cà vạt này là của hãng nào?",
+          "orderIndex": 5
+        }
+      ],
+      "exercises": [
+        {
+          "id": "77777777-1113-0003-0000-000000214001",
+          "patternId": "77777777-1113-0001-0000-000000002005",
+          "exerciseType": "ja_to_vi",
+          "prompt": "これはどこのビールですか。",
+          "promptReading": "これはどこのビールですか。",
+          "expectedAnswer": "Đây là bia của nước nào?",
+          "hint": "～は どこの N ですか。",
+          "explanation": "どこの trả lời bằng tên quốc gia hoặc tên công ty.",
+          "orderIndex": 1
+        },
+        {
+          "id": "77777777-1113-0003-0000-000000224001",
+          "patternId": "77777777-1113-0001-0000-000000002005",
+          "exerciseType": "vi_to_ja",
+          "prompt": "Đây là bia của nước nào?",
+          "expectedAnswer": "これはどこのビールですか。",
+          "acceptableAnswers": [
+            "これはどこのビールですか。"
+          ],
+          "hint": "N1 + は + どこの + N2 + ですか",
+          "explanation": "どこの trả lời bằng tên quốc gia hoặc tên công ty.",
+          "orderIndex": 2
+        },
+        {
+          "id": "77777777-1113-0003-0000-000000234001",
+          "patternId": "77777777-1113-0001-0000-000000002005",
+          "exerciseType": "arrange",
+          "prompt": "Đây là bia của nước nào?",
+          "expectedAnswer": "これはどこのビールですか",
+          "optionsJson": "[\"か\",\"の\",\"は\",\"どこ\",\"です\",\"これ\",\"ビール\"]",
+          "options": [
+            "か",
+            "の",
+            "は",
+            "どこ",
+            "です",
+            "これ",
+            "ビール"
+          ],
+          "correctOrderJson": "[\"これ\",\"は\",\"どこ\",\"の\",\"ビール\",\"です\",\"か\"]",
+          "correctOrder": [
+            "これ",
+            "は",
+            "どこ",
+            "の",
+            "ビール",
+            "です",
+            "か"
+          ],
+          "orderIndex": 3
+        },
+        {
+          "id": "77777777-1113-0003-0000-000000214002",
+          "patternId": "77777777-1113-0001-0000-000000002005",
+          "exerciseType": "ja_to_vi",
+          "prompt": "これはどこのカメラですか。",
+          "promptReading": "これはどこのカメラですか。",
+          "expectedAnswer": "Đây là máy ảnh của hãng nào (nước nào)?",
+          "hint": "～は どこの N ですか。",
+          "explanation": "どこの trả lời bằng tên quốc gia hoặc tên công ty.",
+          "orderIndex": 4
+        },
+        {
+          "id": "77777777-1113-0003-0000-000000224002",
+          "patternId": "77777777-1113-0001-0000-000000002005",
+          "exerciseType": "vi_to_ja",
+          "prompt": "Đây là máy ảnh của hãng nào (nước nào)?",
+          "expectedAnswer": "これはどこのカメラですか。",
+          "acceptableAnswers": [
+            "これはどこのカメラですか。"
+          ],
+          "hint": "N1 + は + どこの + N2 + ですか",
+          "explanation": "どこの trả lời bằng tên quốc gia hoặc tên công ty.",
+          "orderIndex": 5
+        },
+        {
+          "id": "77777777-1113-0003-0000-000000234002",
+          "patternId": "77777777-1113-0001-0000-000000002005",
+          "exerciseType": "arrange",
+          "prompt": "Đây là máy ảnh của hãng nào (nước nào)?",
+          "expectedAnswer": "これはどこのカメラですか",
+          "optionsJson": "[\"か\",\"の\",\"は\",\"どこ\",\"です\",\"これ\",\"カメラ\"]",
+          "options": [
+            "か",
+            "の",
+            "は",
+            "どこ",
+            "です",
+            "これ",
+            "カメラ"
+          ],
+          "correctOrderJson": "[\"これ\",\"は\",\"どこ\",\"の\",\"カメラ\",\"です\",\"か\"]",
+          "correctOrder": [
+            "これ",
+            "は",
+            "どこ",
+            "の",
+            "カメラ",
+            "です",
+            "か"
+          ],
+          "orderIndex": 6
+        },
+        {
+          "id": "77777777-1113-0003-0000-000000214003",
+          "patternId": "77777777-1113-0001-0000-000000002005",
+          "exerciseType": "ja_to_vi",
+          "prompt": "それはどこの車ですか。",
+          "promptReading": "それはどこのくるまですか。",
+          "expectedAnswer": "Đó là xe ô tô của hãng nào?",
+          "hint": "～は どこの N ですか。",
+          "explanation": "どこの trả lời bằng tên quốc gia hoặc tên công ty.",
+          "orderIndex": 7
+        },
+        {
+          "id": "77777777-1113-0003-0000-000000224003",
+          "patternId": "77777777-1113-0001-0000-000000002005",
+          "exerciseType": "vi_to_ja",
+          "prompt": "Đó là xe ô tô của hãng nào?",
+          "expectedAnswer": "それはどこの車ですか。",
+          "acceptableAnswers": [
+            "それはどこのくるまですか。"
+          ],
+          "hint": "N1 + は + どこの + N2 + ですか",
+          "explanation": "どこの trả lời bằng tên quốc gia hoặc tên công ty.",
+          "orderIndex": 8
+        },
+        {
+          "id": "77777777-1113-0003-0000-000000234003",
+          "patternId": "77777777-1113-0001-0000-000000002005",
+          "exerciseType": "arrange",
+          "prompt": "Đó là xe ô tô của hãng nào?",
+          "expectedAnswer": "それはどこの車 (くるま)ですか",
+          "optionsJson": "[\"か\",\"の\",\"は\",\"どこ\",\"です\",\"それ\",\"車 (くるま)\"]",
+          "options": [
+            "か",
+            "の",
+            "は",
+            "どこ",
+            "です",
+            "それ",
+            "車 (くるま)"
+          ],
+          "correctOrderJson": "[\"それ\",\"は\",\"どこ\",\"の\",\"車 (くるま)\",\"です\",\"か\"]",
+          "correctOrder": [
+            "それ",
+            "は",
+            "どこ",
+            "の",
+            "車 (くるま)",
+            "です",
+            "か"
+          ],
+          "orderIndex": 9
+        },
+        {
+          "id": "77777777-1113-0003-0000-000000214004",
+          "patternId": "77777777-1113-0001-0000-000000002005",
+          "exerciseType": "ja_to_vi",
+          "prompt": "これはどこのワインですか。",
+          "promptReading": "これはどこのワインですか。",
+          "expectedAnswer": "Đây là rượu vang của nước nào?",
+          "hint": "～は どこの N ですか。",
+          "explanation": "どこの trả lời bằng tên quốc gia hoặc tên công ty.",
+          "orderIndex": 10
+        },
+        {
+          "id": "77777777-1113-0003-0000-000000224004",
+          "patternId": "77777777-1113-0001-0000-000000002005",
+          "exerciseType": "vi_to_ja",
+          "prompt": "Đây là rượu vang của nước nào?",
+          "expectedAnswer": "これはどこのワインですか。",
+          "acceptableAnswers": [
+            "これはどこのワインですか。"
+          ],
+          "hint": "N1 + は + どこの + N2 + ですか",
+          "explanation": "どこの trả lời bằng tên quốc gia hoặc tên công ty.",
+          "orderIndex": 11
+        },
+        {
+          "id": "77777777-1113-0003-0000-000000234004",
+          "patternId": "77777777-1113-0001-0000-000000002005",
+          "exerciseType": "arrange",
+          "prompt": "Đây là rượu vang của nước nào?",
+          "expectedAnswer": "これはどこのワインですか",
+          "optionsJson": "[\"か\",\"の\",\"は\",\"どこ\",\"です\",\"これ\",\"ワイン\"]",
+          "options": [
+            "か",
+            "の",
+            "は",
+            "どこ",
+            "です",
+            "これ",
+            "ワイン"
+          ],
+          "correctOrderJson": "[\"これ\",\"は\",\"どこ\",\"の\",\"ワイン\",\"です\",\"か\"]",
+          "correctOrder": [
+            "これ",
+            "は",
+            "どこ",
+            "の",
+            "ワイン",
+            "です",
+            "か"
+          ],
+          "orderIndex": 12
+        },
+        {
+          "id": "77777777-1113-0003-0000-000000214005",
+          "patternId": "77777777-1113-0001-0000-000000002005",
+          "exerciseType": "ja_to_vi",
+          "prompt": "このネクタイはどこのですか。",
+          "promptReading": "このねくたいはどこのですか。",
+          "expectedAnswer": "Cái cà vạt này là của hãng nào?",
+          "hint": "～は どこの N ですか。",
+          "explanation": "どこの trả lời bằng tên quốc gia hoặc tên công ty.",
+          "orderIndex": 13
+        },
+        {
+          "id": "77777777-1113-0003-0000-000000224005",
+          "patternId": "77777777-1113-0001-0000-000000002005",
+          "exerciseType": "vi_to_ja",
+          "prompt": "Cái cà vạt này là của hãng nào?",
+          "expectedAnswer": "このネクタイはどこのですか。",
+          "acceptableAnswers": [
+            "このねくたいはどこのですか。"
+          ],
+          "hint": "N1 + は + どこの + N2 + ですか",
+          "explanation": "どこの trả lời bằng tên quốc gia hoặc tên công ty.",
+          "orderIndex": 14
+        },
+        {
+          "id": "77777777-1113-0003-0000-000000234005",
+          "patternId": "77777777-1113-0001-0000-000000002005",
+          "exerciseType": "arrange",
+          "prompt": "Cái cà vạt này là của hãng nào?",
+          "expectedAnswer": "このネクタイはどこのですか",
+          "optionsJson": "[\"か\",\"こ\",\"の\",\"の\",\"は\",\"どこ\",\"です\",\"ネクタイ\"]",
+          "options": [
+            "か",
+            "こ",
+            "の",
+            "の",
+            "は",
+            "どこ",
+            "です",
+            "ネクタイ"
+          ],
+          "correctOrderJson": "[\"こ\",\"の\",\"ネクタイ\",\"は\",\"どこ\",\"の\",\"です\",\"か\"]",
+          "correctOrder": [
+            "こ",
+            "の",
+            "ネクタイ",
+            "は",
+            "どこ",
+            "の",
+            "です",
+            "か"
+          ],
+          "orderIndex": 15
+        }
+      ]
+    },
+    {
+      "id": "77777777-1113-0001-0000-000000002006",
+      "lessonId": "77777777-1113-0000-0000-000000000102",
+      "level": "N5",
+      "courseCode": "jpd113",
+      "pattern": "～は だれの N ですか。",
+      "title": "Hỏi về sở hữu",
+      "meaning": "N của ai?",
+      "structure": "N1 は だれの N2 ですか",
+      "accessTier": "premium",
+      "isLocked": true,
+      "isInStudy": false,
+      "progress": null,
+      "usageScope": "Hỏi món đồ thuộc về ai.",
+      "formation": "N1 + は + だれの + N2 + ですか",
+      "notes": "だれ là từ hỏi về người.",
+      "examples": [
+        {
+          "id": "77777777-1113-0002-0000-000000205001",
+          "japanese": "これはだれの財布ですか。",
+          "reading": "これはだれのさいふですか。",
+          "meaning": "Cái ví này của ai?",
+          "orderIndex": 1
+        },
+        {
+          "id": "77777777-1113-0002-0000-000000205002",
+          "japanese": "これは誰の傘ですか。",
+          "reading": "これはだれのかさですか。",
+          "meaning": "Cái ô này của ai?",
+          "orderIndex": 2
+        },
+        {
+          "id": "77777777-1113-0002-0000-000000205003",
+          "japanese": "そのノートは誰のですか。",
+          "reading": "そののーとはだれのですか。",
+          "meaning": "Quyển vở đó là của ai?",
+          "orderIndex": 3
+        },
+        {
+          "id": "77777777-1113-0002-0000-000000205004",
+          "japanese": "この鍵は誰のですか。",
+          "reading": "このかぎはだれのですか。",
+          "meaning": "Chìa khóa này là của ai?",
+          "orderIndex": 4
+        },
+        {
+          "id": "77777777-1113-0002-0000-000000205005",
+          "japanese": "あのかばんは誰のですか。",
+          "reading": "あのかばんはだれのですか。",
+          "meaning": "Cái cặp kia là của ai?",
+          "orderIndex": 5
+        }
+      ],
+      "exercises": [
+        {
+          "id": "77777777-1113-0003-0000-000000215001",
+          "patternId": "77777777-1113-0001-0000-000000002006",
+          "exerciseType": "ja_to_vi",
+          "prompt": "これはだれの財布ですか。",
+          "promptReading": "これはだれのさいふですか。",
+          "expectedAnswer": "Cái ví này của ai?",
+          "hint": "～は だれの N ですか。",
+          "explanation": "だれ là từ hỏi về người.",
+          "orderIndex": 1
+        },
+        {
+          "id": "77777777-1113-0003-0000-000000225001",
+          "patternId": "77777777-1113-0001-0000-000000002006",
+          "exerciseType": "vi_to_ja",
+          "prompt": "Cái ví này của ai?",
+          "expectedAnswer": "これはだれの財布ですか。",
+          "acceptableAnswers": [
+            "これはだれのさいふですか。"
+          ],
+          "hint": "N1 + は + だれの + N2 + ですか",
+          "explanation": "だれ là từ hỏi về người.",
+          "orderIndex": 2
+        },
+        {
+          "id": "77777777-1113-0003-0000-000000235001",
+          "patternId": "77777777-1113-0001-0000-000000002006",
+          "exerciseType": "arrange",
+          "prompt": "Cái ví này của ai?",
+          "expectedAnswer": "これはだれの財布 (さいふ)ですか",
+          "optionsJson": "[\"か\",\"の\",\"は\",\"です\",\"これ\",\"だれ\",\"財布 (さいふ)\"]",
+          "options": [
+            "か",
+            "の",
+            "は",
+            "です",
+            "これ",
+            "だれ",
+            "財布 (さいふ)"
+          ],
+          "correctOrderJson": "[\"これ\",\"は\",\"だれ\",\"の\",\"財布 (さいふ)\",\"です\",\"か\"]",
+          "correctOrder": [
+            "これ",
+            "は",
+            "だれ",
+            "の",
+            "財布 (さいふ)",
+            "です",
+            "か"
+          ],
+          "orderIndex": 3
+        },
+        {
+          "id": "77777777-1113-0003-0000-000000215002",
+          "patternId": "77777777-1113-0001-0000-000000002006",
+          "exerciseType": "ja_to_vi",
+          "prompt": "これは誰の傘ですか。",
+          "promptReading": "これはだれのかさですか。",
+          "expectedAnswer": "Cái ô này của ai?",
+          "hint": "～は だれの N ですか。",
+          "explanation": "だれ là từ hỏi về người.",
+          "orderIndex": 4
+        },
+        {
+          "id": "77777777-1113-0003-0000-000000225002",
+          "patternId": "77777777-1113-0001-0000-000000002006",
+          "exerciseType": "vi_to_ja",
+          "prompt": "Cái ô này của ai?",
+          "expectedAnswer": "これは誰の傘ですか。",
+          "acceptableAnswers": [
+            "これはだれのかさですか。"
+          ],
+          "hint": "N1 + は + だれの + N2 + ですか",
+          "explanation": "だれ là từ hỏi về người.",
+          "orderIndex": 5
+        },
+        {
+          "id": "77777777-1113-0003-0000-000000235002",
+          "patternId": "77777777-1113-0001-0000-000000002006",
+          "exerciseType": "arrange",
+          "prompt": "Cái ô này của ai?",
+          "expectedAnswer": "これは誰 (だれ)の傘 (かさ)ですか",
+          "optionsJson": "[\"か\",\"の\",\"は\",\"です\",\"これ\",\"傘 (かさ)\",\"誰 (だれ)\"]",
+          "options": [
+            "か",
+            "の",
+            "は",
+            "です",
+            "これ",
+            "傘 (かさ)",
+            "誰 (だれ)"
+          ],
+          "correctOrderJson": "[\"これ\",\"は\",\"誰 (だれ)\",\"の\",\"傘 (かさ)\",\"です\",\"か\"]",
+          "correctOrder": [
+            "これ",
+            "は",
+            "誰 (だれ)",
+            "の",
+            "傘 (かさ)",
+            "です",
+            "か"
+          ],
+          "orderIndex": 6
+        },
+        {
+          "id": "77777777-1113-0003-0000-000000215003",
+          "patternId": "77777777-1113-0001-0000-000000002006",
+          "exerciseType": "ja_to_vi",
+          "prompt": "そのノートは誰のですか。",
+          "promptReading": "そののーとはだれのですか。",
+          "expectedAnswer": "Quyển vở đó là của ai?",
+          "hint": "～は だれの N ですか。",
+          "explanation": "だれ là từ hỏi về người.",
+          "orderIndex": 7
+        },
+        {
+          "id": "77777777-1113-0003-0000-000000225003",
+          "patternId": "77777777-1113-0001-0000-000000002006",
+          "exerciseType": "vi_to_ja",
+          "prompt": "Quyển vở đó là của ai?",
+          "expectedAnswer": "そのノートは誰のですか。",
+          "acceptableAnswers": [
+            "そののーとはだれのですか。"
+          ],
+          "hint": "N1 + は + だれの + N2 + ですか",
+          "explanation": "だれ là từ hỏi về người.",
+          "orderIndex": 8
+        },
+        {
+          "id": "77777777-1113-0003-0000-000000235003",
+          "patternId": "77777777-1113-0001-0000-000000002006",
+          "exerciseType": "arrange",
+          "prompt": "Quyển vở đó là của ai?",
+          "expectedAnswer": "そのノートは誰 (だれ)のですか",
+          "optionsJson": "[\"か\",\"そ\",\"の\",\"の\",\"は\",\"です\",\"ノート\",\"誰 (だれ)\"]",
+          "options": [
+            "か",
+            "そ",
+            "の",
+            "の",
+            "は",
+            "です",
+            "ノート",
+            "誰 (だれ)"
+          ],
+          "correctOrderJson": "[\"そ\",\"の\",\"ノート\",\"は\",\"誰 (だれ)\",\"の\",\"です\",\"か\"]",
+          "correctOrder": [
+            "そ",
+            "の",
+            "ノート",
+            "は",
+            "誰 (だれ)",
+            "の",
+            "です",
+            "か"
+          ],
+          "orderIndex": 9
+        },
+        {
+          "id": "77777777-1113-0003-0000-000000215004",
+          "patternId": "77777777-1113-0001-0000-000000002006",
+          "exerciseType": "ja_to_vi",
+          "prompt": "この鍵は誰のですか。",
+          "promptReading": "このかぎはだれのですか。",
+          "expectedAnswer": "Chìa khóa này là của ai?",
+          "hint": "～は だれの N ですか。",
+          "explanation": "だれ là từ hỏi về người.",
+          "orderIndex": 10
+        },
+        {
+          "id": "77777777-1113-0003-0000-000000225004",
+          "patternId": "77777777-1113-0001-0000-000000002006",
+          "exerciseType": "vi_to_ja",
+          "prompt": "Chìa khóa này là của ai?",
+          "expectedAnswer": "この鍵は誰のですか。",
+          "acceptableAnswers": [
+            "このかぎはだれのですか。"
+          ],
+          "hint": "N1 + は + だれの + N2 + ですか",
+          "explanation": "だれ là từ hỏi về người.",
+          "orderIndex": 11
+        },
+        {
+          "id": "77777777-1113-0003-0000-000000235004",
+          "patternId": "77777777-1113-0001-0000-000000002006",
+          "exerciseType": "arrange",
+          "prompt": "Chìa khóa này là của ai?",
+          "expectedAnswer": "この鍵 (かぎ)は誰 (だれ)のですか",
+          "optionsJson": "[\"か\",\"こ\",\"の\",\"の\",\"は\",\"です\",\"誰 (だれ)\",\"鍵 (かぎ)\"]",
+          "options": [
+            "か",
+            "こ",
+            "の",
+            "の",
+            "は",
+            "です",
+            "誰 (だれ)",
+            "鍵 (かぎ)"
+          ],
+          "correctOrderJson": "[\"こ\",\"の\",\"鍵 (かぎ)\",\"は\",\"誰 (だれ)\",\"の\",\"です\",\"か\"]",
+          "correctOrder": [
+            "こ",
+            "の",
+            "鍵 (かぎ)",
+            "は",
+            "誰 (だれ)",
+            "の",
+            "です",
+            "か"
+          ],
+          "orderIndex": 12
+        },
+        {
+          "id": "77777777-1113-0003-0000-000000215005",
+          "patternId": "77777777-1113-0001-0000-000000002006",
+          "exerciseType": "ja_to_vi",
+          "prompt": "あのかばんは誰のですか。",
+          "promptReading": "あのかばんはだれのですか。",
+          "expectedAnswer": "Cái cặp kia là của ai?",
+          "hint": "～は だれの N ですか。",
+          "explanation": "だれ là từ hỏi về người.",
+          "orderIndex": 13
+        },
+        {
+          "id": "77777777-1113-0003-0000-000000225005",
+          "patternId": "77777777-1113-0001-0000-000000002006",
+          "exerciseType": "vi_to_ja",
+          "prompt": "Cái cặp kia là của ai?",
+          "expectedAnswer": "あのかばんは誰のですか。",
+          "acceptableAnswers": [
+            "あのかばんはだれのですか。"
+          ],
+          "hint": "N1 + は + だれの + N2 + ですか",
+          "explanation": "だれ là từ hỏi về người.",
+          "orderIndex": 14
+        },
+        {
+          "id": "77777777-1113-0003-0000-000000235005",
+          "patternId": "77777777-1113-0001-0000-000000002006",
+          "exerciseType": "arrange",
+          "prompt": "Cái cặp kia là của ai?",
+          "expectedAnswer": "あのかばんは誰 (だれ)のですか",
+          "optionsJson": "[\"あ\",\"か\",\"の\",\"の\",\"は\",\"です\",\"かばん\",\"誰 (だれ)\"]",
+          "options": [
+            "あ",
+            "か",
+            "の",
+            "の",
+            "は",
+            "です",
+            "かばん",
+            "誰 (だれ)"
+          ],
+          "correctOrderJson": "[\"あ\",\"の\",\"かばん\",\"は\",\"誰 (だれ)\",\"の\",\"です\",\"か\"]",
+          "correctOrder": [
+            "あ",
+            "の",
+            "かばん",
+            "は",
+            "誰 (だれ)",
+            "の",
+            "です",
+            "か"
+          ],
+          "orderIndex": 15
+        }
+      ]
+    }
+  ]
+}

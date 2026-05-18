@@ -3,6 +3,8 @@ import { useNavigate, useParams } from 'react-router-dom';
 import { ArrowLeft, ChevronLeft, ChevronRight, Eye, Languages, Loader2, Volume2, VolumeX } from 'lucide-react';
 import { speakingApi } from '../api/speakingApi';
 import type { SpeakingLesson, SpeakingLessonDetail, SpeakingSentence } from '../types/speaking.types';
+import { PremiumLock } from '../../../shared/components/PremiumLock';
+import { useUserAccess } from '../../../shared/hooks/useUserAccess';
 
 export const SpeakingLessonPage = () => {
   const { courseCode, lessonId } = useParams<{ courseCode: string; lessonId: string }>();
@@ -14,6 +16,7 @@ export const SpeakingLessonPage = () => {
   const [showRomaji, setShowRomaji] = useState(false);
   const [isLoading, setIsLoading] = useState(true);
   const [error, setError] = useState('');
+  const { isContentLocked } = useUserAccess();
 
   useEffect(() => {
     if (!lessonId) return;
@@ -160,6 +163,7 @@ export const SpeakingLessonPage = () => {
           <p className="font-bold">Đang tải bài đọc...</p>
         </div>
       ) : detail ? (
+        <PremiumLock isLocked={isContentLocked(detail.lesson)} packageCode={detail.lesson.packageCode}>
         <section className="space-y-6">
           {detail.sentences.map((sentence) => (
             <article
@@ -218,6 +222,7 @@ export const SpeakingLessonPage = () => {
             </button>
           </div>
         </section>
+        </PremiumLock>
       ) : null}
     </div>
   );

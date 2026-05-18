@@ -1,0 +1,248 @@
+[
+  {
+    "id": "77777777-1123-0003-0000-000000613001",
+    "patternId": "77777777-1123-0001-0000-000000006004",
+    "exerciseType": "ja_to_vi",
+    "prompt": "七月は八月より雨が多いです。",
+    "promptReading": "しちがつははちがつよりあめがおおいです。",
+    "expectedAnswer": "Tháng 7 mưa nhiều hơn tháng 8.",
+    "hint": "N1 は N2 より A です",
+    "explanation": "Đối tượng sau より là đối tượng làm chuẩn so sánh.",
+    "orderIndex": 1
+  },
+  {
+    "id": "77777777-1123-0003-0000-000000623001",
+    "patternId": "77777777-1123-0001-0000-000000006004",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Tháng 7 mưa nhiều hơn tháng 8.",
+    "expectedAnswer": "七月は八月より雨が多いです。",
+    "acceptableAnswers": [
+      "しちがつははちがつよりあめがおおいです。"
+    ],
+    "hint": "N1 + は + N2 + より + Tính từ + です",
+    "explanation": "Đối tượng sau より là đối tượng làm chuẩn so sánh.",
+    "orderIndex": 2
+  },
+  {
+    "id": "77777777-1123-0003-0000-000000633001",
+    "patternId": "77777777-1123-0001-0000-000000006004",
+    "exerciseType": "arrange",
+    "prompt": "Tháng 7 mưa nhiều hơn tháng 8.",
+    "expectedAnswer": "七月 (しちがつ)は八月より雨 (はち)が多い (つよりあめがおおい)です",
+    "optionsJson": "[\"が\",\"は\",\"です\",\"七月 (しちがつ)\",\"八月より雨 (はち)\",\"多い (つよりあめがおおい)\"]",
+    "options": [
+      "が",
+      "は",
+      "です",
+      "七月 (しちがつ)",
+      "八月より雨 (はち)",
+      "多い (つよりあめがおおい)"
+    ],
+    "correctOrderJson": "[\"七月 (しちがつ)\",\"は\",\"八月より雨 (はち)\",\"が\",\"多い (つよりあめがおおい)\",\"です\"]",
+    "correctOrder": [
+      "七月 (しちがつ)",
+      "は",
+      "八月より雨 (はち)",
+      "が",
+      "多い (つよりあめがおおい)",
+      "です"
+    ],
+    "orderIndex": 3
+  },
+  {
+    "id": "77777777-1123-0003-0000-000000613002",
+    "patternId": "77777777-1123-0001-0000-000000006004",
+    "exerciseType": "ja_to_vi",
+    "prompt": "この鞄はその鞄より重いです。",
+    "promptReading": "このかばんはそのかばんよりおもいです。",
+    "expectedAnswer": "Cái túi này nặng hơn cái túi đó.",
+    "hint": "N1 は N2 より A です",
+    "explanation": "Đối tượng sau より là đối tượng làm chuẩn so sánh.",
+    "orderIndex": 4
+  },
+  {
+    "id": "77777777-1123-0003-0000-000000623002",
+    "patternId": "77777777-1123-0001-0000-000000006004",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Cái túi này nặng hơn cái túi đó.",
+    "expectedAnswer": "この鞄はその鞄より重いです。",
+    "acceptableAnswers": [
+      "このかばんはそのかばんよりおもいです。"
+    ],
+    "hint": "N1 + は + N2 + より + Tính từ + です",
+    "explanation": "Đối tượng sau より là đối tượng làm chuẩn so sánh.",
+    "orderIndex": 5
+  },
+  {
+    "id": "77777777-1123-0003-0000-000000633002",
+    "patternId": "77777777-1123-0001-0000-000000006004",
+    "exerciseType": "arrange",
+    "prompt": "Cái túi này nặng hơn cái túi đó.",
+    "expectedAnswer": "この鞄 (かばん)はその鞄より重い (かばんよりおもい)です",
+    "optionsJson": "[\"こ\",\"そ\",\"の\",\"の\",\"は\",\"です\",\"鞄 (かばん)\",\"鞄より重い (かばんよりおもい)\"]",
+    "options": [
+      "こ",
+      "そ",
+      "の",
+      "の",
+      "は",
+      "です",
+      "鞄 (かばん)",
+      "鞄より重い (かばんよりおもい)"
+    ],
+    "correctOrderJson": "[\"こ\",\"の\",\"鞄 (かばん)\",\"は\",\"そ\",\"の\",\"鞄より重い (かばんよりおもい)\",\"です\"]",
+    "correctOrder": [
+      "こ",
+      "の",
+      "鞄 (かばん)",
+      "は",
+      "そ",
+      "の",
+      "鞄より重い (かばんよりおもい)",
+      "です"
+    ],
+    "orderIndex": 6
+  },
+  {
+    "id": "77777777-1123-0003-0000-000000613003",
+    "patternId": "77777777-1123-0001-0000-000000006004",
+    "exerciseType": "ja_to_vi",
+    "prompt": "新幹線は電車より速いです。",
+    "promptReading": "しんかんせんはでんしゃよりはやいです。",
+    "expectedAnswer": "Tàu Shinkansen nhanh hơn tàu thường.",
+    "hint": "N1 は N2 より A です",
+    "explanation": "Đối tượng sau より là đối tượng làm chuẩn so sánh.",
+    "orderIndex": 7
+  },
+  {
+    "id": "77777777-1123-0003-0000-000000623003",
+    "patternId": "77777777-1123-0001-0000-000000006004",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Tàu Shinkansen nhanh hơn tàu thường.",
+    "expectedAnswer": "新幹線は電車より速いです。",
+    "acceptableAnswers": [
+      "しんかんせんはでんしゃよりはやいです。"
+    ],
+    "hint": "N1 + は + N2 + より + Tính từ + です",
+    "explanation": "Đối tượng sau より là đối tượng làm chuẩn so sánh.",
+    "orderIndex": 8
+  },
+  {
+    "id": "77777777-1123-0003-0000-000000633003",
+    "patternId": "77777777-1123-0001-0000-000000006004",
+    "exerciseType": "arrange",
+    "prompt": "Tàu Shinkansen nhanh hơn tàu thường.",
+    "expectedAnswer": "新幹線 (しんかんせん)は電車より速い (でんしゃよりはやい)です",
+    "optionsJson": "[\"は\",\"です\",\"新幹線 (しんかんせん)\",\"電車より速い (でんしゃよりはやい)\"]",
+    "options": [
+      "は",
+      "です",
+      "新幹線 (しんかんせん)",
+      "電車より速い (でんしゃよりはやい)"
+    ],
+    "correctOrderJson": "[\"新幹線 (しんかんせん)\",\"は\",\"電車より速い (でんしゃよりはやい)\",\"です\"]",
+    "correctOrder": [
+      "新幹線 (しんかんせん)",
+      "は",
+      "電車より速い (でんしゃよりはやい)",
+      "です"
+    ],
+    "orderIndex": 9
+  },
+  {
+    "id": "77777777-1123-0003-0000-000000613004",
+    "patternId": "77777777-1123-0001-0000-000000006004",
+    "exerciseType": "ja_to_vi",
+    "prompt": "北海道は大阪より寒いです。",
+    "promptReading": "ほっかいどうはおおさかよりさむいです。",
+    "expectedAnswer": "Hokkaido lạnh hơn Osaka.",
+    "hint": "N1 は N2 より A です",
+    "explanation": "Đối tượng sau より là đối tượng làm chuẩn so sánh.",
+    "orderIndex": 10
+  },
+  {
+    "id": "77777777-1123-0003-0000-000000623004",
+    "patternId": "77777777-1123-0001-0000-000000006004",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Hokkaido lạnh hơn Osaka.",
+    "expectedAnswer": "北海道は大阪より寒いです。",
+    "acceptableAnswers": [
+      "ほっかいどうはおおさかよりさむいです。"
+    ],
+    "hint": "N1 + は + N2 + より + Tính từ + です",
+    "explanation": "Đối tượng sau より là đối tượng làm chuẩn so sánh.",
+    "orderIndex": 11
+  },
+  {
+    "id": "77777777-1123-0003-0000-000000633004",
+    "patternId": "77777777-1123-0001-0000-000000006004",
+    "exerciseType": "arrange",
+    "prompt": "Hokkaido lạnh hơn Osaka.",
+    "expectedAnswer": "北海道 (ほっかいどう)は大阪より寒い (おおさかよりさむい)です",
+    "optionsJson": "[\"は\",\"です\",\"北海道 (ほっかいどう)\",\"大阪より寒い (おおさかよりさむい)\"]",
+    "options": [
+      "は",
+      "です",
+      "北海道 (ほっかいどう)",
+      "大阪より寒い (おおさかよりさむい)"
+    ],
+    "correctOrderJson": "[\"北海道 (ほっかいどう)\",\"は\",\"大阪より寒い (おおさかよりさむい)\",\"です\"]",
+    "correctOrder": [
+      "北海道 (ほっかいどう)",
+      "は",
+      "大阪より寒い (おおさかよりさむい)",
+      "です"
+    ],
+    "orderIndex": 12
+  },
+  {
+    "id": "77777777-1123-0003-0000-000000613005",
+    "patternId": "77777777-1123-0001-0000-000000006004",
+    "exerciseType": "ja_to_vi",
+    "prompt": "私は弟より背が高いです。",
+    "promptReading": "わたしはおとうとよりせがたかいです。",
+    "expectedAnswer": "Tôi cao hơn em trai.",
+    "hint": "N1 は N2 より A です",
+    "explanation": "Đối tượng sau より là đối tượng làm chuẩn so sánh.",
+    "orderIndex": 13
+  },
+  {
+    "id": "77777777-1123-0003-0000-000000623005",
+    "patternId": "77777777-1123-0001-0000-000000006004",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Tôi cao hơn em trai.",
+    "expectedAnswer": "私は弟より背が高いです。",
+    "acceptableAnswers": [
+      "わたしはおとうとよりせがたかいです。"
+    ],
+    "hint": "N1 + は + N2 + より + Tính từ + です",
+    "explanation": "Đối tượng sau より là đối tượng làm chuẩn so sánh.",
+    "orderIndex": 14
+  },
+  {
+    "id": "77777777-1123-0003-0000-000000633005",
+    "patternId": "77777777-1123-0001-0000-000000006004",
+    "exerciseType": "arrange",
+    "prompt": "Tôi cao hơn em trai.",
+    "expectedAnswer": "私 (わたし)は弟より背 (おとうとよりせ)が高い (たかい)です",
+    "optionsJson": "[\"が\",\"は\",\"です\",\"私 (わたし)\",\"高い (たかい)\",\"弟より背 (おとうとよりせ)\"]",
+    "options": [
+      "が",
+      "は",
+      "です",
+      "私 (わたし)",
+      "高い (たかい)",
+      "弟より背 (おとうとよりせ)"
+    ],
+    "correctOrderJson": "[\"私 (わたし)\",\"は\",\"弟より背 (おとうとよりせ)\",\"が\",\"高い (たかい)\",\"です\"]",
+    "correctOrder": [
+      "私 (わたし)",
+      "は",
+      "弟より背 (おとうとよりせ)",
+      "が",
+      "高い (たかい)",
+      "です"
+    ],
+    "orderIndex": 15
+  }
+]

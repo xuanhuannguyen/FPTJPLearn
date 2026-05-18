@@ -1,0 +1,54 @@
+[
+  {
+    "id": "kanji-jpd123-n5-4",
+    "level": "N5",
+    "lessonNumber": 4,
+    "title": "Địa điểm và Phương hướng",
+    "description": "Địa điểm và Phương hướng - JPD123 Kanji N5.",
+    "accessTier": "premium",
+    "packageCode": "kanji_jpd123",
+    "orderIndex": 4,
+    "kanjiCount": 10,
+    "vocabularyCount": 15,
+    "isLocked": true
+  },
+  {
+    "id": "kanji-jpd123-n5-5",
+    "level": "N5",
+    "lessonNumber": 5,
+    "title": "Hành động và Nghỉ ngơi",
+    "description": "Hành động và Nghỉ ngơi - JPD123 Kanji N5.",
+    "accessTier": "premium",
+    "packageCode": "kanji_jpd123",
+    "orderIndex": 5,
+    "kanjiCount": 12,
+    "vocabularyCount": 31,
+    "isLocked": true
+  },
+  {
+    "id": "kanji-jpd123-n5-6",
+    "level": "N5",
+    "lessonNumber": 6,
+    "title": "Giao tiếp và Sinh hoạt",
+    "description": "Giao tiếp và Sinh hoạt - JPD123 Kanji N5.",
+    "accessTier": "premium",
+    "packageCode": "kanji_jpd123",
+    "orderIndex": 6,
+    "kanjiCount": 9,
+    "vocabularyCount": 42,
+    "isLocked": true
+  },
+  {
+    "id": "kanji-jpd123-n5-7",
+    "level": "N5",
+    "lessonNumber": 7,
+    "title": "Tự nhiên và Cơ bản",
+    "description": "Tự nhiên và Cơ bản - JPD123 Kanji N5.",
+    "accessTier": "premium",
+    "packageCode": "kanji_jpd123",
+    "orderIndex": 7,
+    "kanjiCount": 11,
+    "vocabularyCount": 22,
+    "isLocked": true
+  }
+]

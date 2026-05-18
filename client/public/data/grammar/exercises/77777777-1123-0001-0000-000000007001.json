@@ -1,0 +1,242 @@
+[
+  {
+    "id": "77777777-1123-0003-0000-000000710001",
+    "patternId": "77777777-1123-0001-0000-000000007001",
+    "exerciseType": "ja_to_vi",
+    "prompt": "あそこにパクさんがいます。",
+    "promptReading": "あそこにパクさんがいます。",
+    "expectedAnswer": "Anh Park ở đằng kia.",
+    "hint": "N1 に N2 (Người/Động vật) が います",
+    "explanation": "います dùng cho sinh vật sống tự di chuyển được.",
+    "orderIndex": 1
+  },
+  {
+    "id": "77777777-1123-0003-0000-000000720001",
+    "patternId": "77777777-1123-0001-0000-000000007001",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Anh Park ở đằng kia.",
+    "expectedAnswer": "あそこにパクさんがいます。",
+    "acceptableAnswers": [
+      "あそこにパクさんがいます。"
+    ],
+    "hint": "N địa điểm + に + N người + が + います",
+    "explanation": "います dùng cho sinh vật sống tự di chuyển được.",
+    "orderIndex": 2
+  },
+  {
+    "id": "77777777-1123-0003-0000-000000730001",
+    "patternId": "77777777-1123-0001-0000-000000007001",
+    "exerciseType": "arrange",
+    "prompt": "Anh Park ở đằng kia.",
+    "expectedAnswer": "あそこにパクさんがいます",
+    "optionsJson": "[\"が\",\"に\",\"あそこ\",\"います\",\"パクさん\"]",
+    "options": [
+      "が",
+      "に",
+      "あそこ",
+      "います",
+      "パクさん"
+    ],
+    "correctOrderJson": "[\"あそこ\",\"に\",\"パクさん\",\"が\",\"います\"]",
+    "correctOrder": [
+      "あそこ",
+      "に",
+      "パクさん",
+      "が",
+      "います"
+    ],
+    "orderIndex": 3
+  },
+  {
+    "id": "77777777-1123-0003-0000-000000710002",
+    "patternId": "77777777-1123-0001-0000-000000007001",
+    "exerciseType": "ja_to_vi",
+    "prompt": "部屋に猫がいます。",
+    "promptReading": "へやにねこがいます。",
+    "expectedAnswer": "Có con mèo ở trong phòng.",
+    "hint": "N1 に N2 (Người/Động vật) が います",
+    "explanation": "います dùng cho sinh vật sống tự di chuyển được.",
+    "orderIndex": 4
+  },
+  {
+    "id": "77777777-1123-0003-0000-000000720002",
+    "patternId": "77777777-1123-0001-0000-000000007001",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Có con mèo ở trong phòng.",
+    "expectedAnswer": "部屋に猫がいます。",
+    "acceptableAnswers": [
+      "へやにねこがいます。"
+    ],
+    "hint": "N địa điểm + に + N người + が + います",
+    "explanation": "います dùng cho sinh vật sống tự di chuyển được.",
+    "orderIndex": 5
+  },
+  {
+    "id": "77777777-1123-0003-0000-000000730002",
+    "patternId": "77777777-1123-0001-0000-000000007001",
+    "exerciseType": "arrange",
+    "prompt": "Có con mèo ở trong phòng.",
+    "expectedAnswer": "部屋 (へや)に猫 (ねこ)がいます",
+    "optionsJson": "[\"が\",\"に\",\"います\",\"猫 (ねこ)\",\"部屋 (へや)\"]",
+    "options": [
+      "が",
+      "に",
+      "います",
+      "猫 (ねこ)",
+      "部屋 (へや)"
+    ],
+    "correctOrderJson": "[\"部屋 (へや)\",\"に\",\"猫 (ねこ)\",\"が\",\"います\"]",
+    "correctOrder": [
+      "部屋 (へや)",
+      "に",
+      "猫 (ねこ)",
+      "が",
+      "います"
+    ],
+    "orderIndex": 6
+  },
+  {
+    "id": "77777777-1123-0003-0000-000000710003",
+    "patternId": "77777777-1123-0001-0000-000000007001",
+    "exerciseType": "ja_to_vi",
+    "prompt": "公園に子供がいます。",
+    "promptReading": "こうえんにこどもがいます。",
+    "expectedAnswer": "Trong công viên có trẻ con.",
+    "hint": "N1 に N2 (Người/Động vật) が います",
+    "explanation": "います dùng cho sinh vật sống tự di chuyển được.",
+    "orderIndex": 7
+  },
+  {
+    "id": "77777777-1123-0003-0000-000000720003",
+    "patternId": "77777777-1123-0001-0000-000000007001",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Trong công viên có trẻ con.",
+    "expectedAnswer": "公園に子供がいます。",
+    "acceptableAnswers": [
+      "こうえんにこどもがいます。"
+    ],
+    "hint": "N địa điểm + に + N người + が + います",
+    "explanation": "います dùng cho sinh vật sống tự di chuyển được.",
+    "orderIndex": 8
+  },
+  {
+    "id": "77777777-1123-0003-0000-000000730003",
+    "patternId": "77777777-1123-0001-0000-000000007001",
+    "exerciseType": "arrange",
+    "prompt": "Trong công viên có trẻ con.",
+    "expectedAnswer": "公園 (こうえん)に子供 (こども)がいます",
+    "optionsJson": "[\"が\",\"に\",\"います\",\"子供 (こども)\",\"公園 (こうえん)\"]",
+    "options": [
+      "が",
+      "に",
+      "います",
+      "子供 (こども)",
+      "公園 (こうえん)"
+    ],
+    "correctOrderJson": "[\"公園 (こうえん)\",\"に\",\"子供 (こども)\",\"が\",\"います\"]",
+    "correctOrder": [
+      "公園 (こうえん)",
+      "に",
+      "子供 (こども)",
+      "が",
+      "います"
+    ],
+    "orderIndex": 9
+  },
+  {
+    "id": "77777777-1123-0003-0000-000000710004",
+    "patternId": "77777777-1123-0001-0000-000000007001",
+    "exerciseType": "ja_to_vi",
+    "prompt": "庭に犬が二匹います。",
+    "promptReading": "にわにいぬがにひきいます。",
+    "expectedAnswer": "Trong sân có 2 con chó.",
+    "hint": "N1 に N2 (Người/Động vật) が います",
+    "explanation": "います dùng cho sinh vật sống tự di chuyển được.",
+    "orderIndex": 10
+  },
+  {
+    "id": "77777777-1123-0003-0000-000000720004",
+    "patternId": "77777777-1123-0001-0000-000000007001",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Trong sân có 2 con chó.",
+    "expectedAnswer": "庭に犬が二匹います。",
+    "acceptableAnswers": [
+      "にわにいぬがにひきいます。"
+    ],
+    "hint": "N địa điểm + に + N người + が + います",
+    "explanation": "います dùng cho sinh vật sống tự di chuyển được.",
+    "orderIndex": 11
+  },
+  {
+    "id": "77777777-1123-0003-0000-000000730004",
+    "patternId": "77777777-1123-0001-0000-000000007001",
+    "exerciseType": "arrange",
+    "prompt": "Trong sân có 2 con chó.",
+    "expectedAnswer": "庭に犬 (わにいぬ)が二匹います (にひきいます)",
+    "optionsJson": "[\"が\",\"に\",\"庭\",\"犬 (わにいぬ)\",\"二匹います (にひきいます)\"]",
+    "options": [
+      "が",
+      "に",
+      "庭",
+      "犬 (わにいぬ)",
+      "二匹います (にひきいます)"
+    ],
+    "correctOrderJson": "[\"庭\",\"に\",\"犬 (わにいぬ)\",\"が\",\"二匹います (にひきいます)\"]",
+    "correctOrder": [
+      "庭",
+      "に",
+      "犬 (わにいぬ)",
+      "が",
+      "二匹います (にひきいます)"
+    ],
+    "orderIndex": 12
+  },
+  {
+    "id": "77777777-1123-0003-0000-000000710005",
+    "patternId": "77777777-1123-0001-0000-000000007001",
+    "exerciseType": "ja_to_vi",
+    "prompt": "事務所に田中さんがいますか。",
+    "promptReading": "じむしょにたなかさんがいますか。",
+    "expectedAnswer": "Anh Tanaka có ở văn phòng không?",
+    "hint": "N1 に N2 (Người/Động vật) が います",
+    "explanation": "います dùng cho sinh vật sống tự di chuyển được.",
+    "orderIndex": 13
+  },
+  {
+    "id": "77777777-1123-0003-0000-000000720005",
+    "patternId": "77777777-1123-0001-0000-000000007001",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Anh Tanaka có ở văn phòng không?",
+    "expectedAnswer": "事務所に田中さんがいますか。",
+    "acceptableAnswers": [
+      "じむしょにたなかさんがいますか。"
+    ],
+    "hint": "N địa điểm + に + N người + が + います",
+    "explanation": "います dùng cho sinh vật sống tự di chuyển được.",
+    "orderIndex": 14
+  },
+  {
+    "id": "77777777-1123-0003-0000-000000730005",
+    "patternId": "77777777-1123-0001-0000-000000007001",
+    "exerciseType": "arrange",
+    "prompt": "Anh Tanaka có ở văn phòng không?",
+    "expectedAnswer": "事務所 (じむしょ)に田中さん (たなかさん)がいますか",
+    "optionsJson": "[\"が\",\"に\",\"いますか\",\"事務所 (じむしょ)\",\"田中さん (たなかさん)\"]",
+    "options": [
+      "が",
+      "に",
+      "いますか",
+      "事務所 (じむしょ)",
+      "田中さん (たなかさん)"
+    ],
+    "correctOrderJson": "[\"事務所 (じむしょ)\",\"に\",\"田中さん (たなかさん)\",\"が\",\"いますか\"]",
+    "correctOrder": [
+      "事務所 (じむしょ)",
+      "に",
+      "田中さん (たなかさん)",
+      "が",
+      "いますか"
+    ],
+    "orderIndex": 15
+  }
+]

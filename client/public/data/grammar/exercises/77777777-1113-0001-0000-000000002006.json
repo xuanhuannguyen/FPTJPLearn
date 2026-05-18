@@ -1,0 +1,268 @@
+[
+  {
+    "id": "77777777-1113-0003-0000-000000215001",
+    "patternId": "77777777-1113-0001-0000-000000002006",
+    "exerciseType": "ja_to_vi",
+    "prompt": "これはだれの財布ですか。",
+    "promptReading": "これはだれのさいふですか。",
+    "expectedAnswer": "Cái ví này của ai?",
+    "hint": "～は だれの N ですか。",
+    "explanation": "だれ là từ hỏi về người.",
+    "orderIndex": 1
+  },
+  {
+    "id": "77777777-1113-0003-0000-000000225001",
+    "patternId": "77777777-1113-0001-0000-000000002006",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Cái ví này của ai?",
+    "expectedAnswer": "これはだれの財布ですか。",
+    "acceptableAnswers": [
+      "これはだれのさいふですか。"
+    ],
+    "hint": "N1 + は + だれの + N2 + ですか",
+    "explanation": "だれ là từ hỏi về người.",
+    "orderIndex": 2
+  },
+  {
+    "id": "77777777-1113-0003-0000-000000235001",
+    "patternId": "77777777-1113-0001-0000-000000002006",
+    "exerciseType": "arrange",
+    "prompt": "Cái ví này của ai?",
+    "expectedAnswer": "これはだれの財布 (さいふ)ですか",
+    "optionsJson": "[\"か\",\"の\",\"は\",\"です\",\"これ\",\"だれ\",\"財布 (さいふ)\"]",
+    "options": [
+      "か",
+      "の",
+      "は",
+      "です",
+      "これ",
+      "だれ",
+      "財布 (さいふ)"
+    ],
+    "correctOrderJson": "[\"これ\",\"は\",\"だれ\",\"の\",\"財布 (さいふ)\",\"です\",\"か\"]",
+    "correctOrder": [
+      "これ",
+      "は",
+      "だれ",
+      "の",
+      "財布 (さいふ)",
+      "です",
+      "か"
+    ],
+    "orderIndex": 3
+  },
+  {
+    "id": "77777777-1113-0003-0000-000000215002",
+    "patternId": "77777777-1113-0001-0000-000000002006",
+    "exerciseType": "ja_to_vi",
+    "prompt": "これは誰の傘ですか。",
+    "promptReading": "これはだれのかさですか。",
+    "expectedAnswer": "Cái ô này của ai?",
+    "hint": "～は だれの N ですか。",
+    "explanation": "だれ là từ hỏi về người.",
+    "orderIndex": 4
+  },
+  {
+    "id": "77777777-1113-0003-0000-000000225002",
+    "patternId": "77777777-1113-0001-0000-000000002006",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Cái ô này của ai?",
+    "expectedAnswer": "これは誰の傘ですか。",
+    "acceptableAnswers": [
+      "これはだれのかさですか。"
+    ],
+    "hint": "N1 + は + だれの + N2 + ですか",
+    "explanation": "だれ là từ hỏi về người.",
+    "orderIndex": 5
+  },
+  {
+    "id": "77777777-1113-0003-0000-000000235002",
+    "patternId": "77777777-1113-0001-0000-000000002006",
+    "exerciseType": "arrange",
+    "prompt": "Cái ô này của ai?",
+    "expectedAnswer": "これは誰 (だれ)の傘 (かさ)ですか",
+    "optionsJson": "[\"か\",\"の\",\"は\",\"です\",\"これ\",\"傘 (かさ)\",\"誰 (だれ)\"]",
+    "options": [
+      "か",
+      "の",
+      "は",
+      "です",
+      "これ",
+      "傘 (かさ)",
+      "誰 (だれ)"
+    ],
+    "correctOrderJson": "[\"これ\",\"は\",\"誰 (だれ)\",\"の\",\"傘 (かさ)\",\"です\",\"か\"]",
+    "correctOrder": [
+      "これ",
+      "は",
+      "誰 (だれ)",
+      "の",
+      "傘 (かさ)",
+      "です",
+      "か"
+    ],
+    "orderIndex": 6
+  },
+  {
+    "id": "77777777-1113-0003-0000-000000215003",
+    "patternId": "77777777-1113-0001-0000-000000002006",
+    "exerciseType": "ja_to_vi",
+    "prompt": "そのノートは誰のですか。",
+    "promptReading": "そののーとはだれのですか。",
+    "expectedAnswer": "Quyển vở đó là của ai?",
+    "hint": "～は だれの N ですか。",
+    "explanation": "だれ là từ hỏi về người.",
+    "orderIndex": 7
+  },
+  {
+    "id": "77777777-1113-0003-0000-000000225003",
+    "patternId": "77777777-1113-0001-0000-000000002006",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Quyển vở đó là của ai?",
+    "expectedAnswer": "そのノートは誰のですか。",
+    "acceptableAnswers": [
+      "そののーとはだれのですか。"
+    ],
+    "hint": "N1 + は + だれの + N2 + ですか",
+    "explanation": "だれ là từ hỏi về người.",
+    "orderIndex": 8
+  },
+  {
+    "id": "77777777-1113-0003-0000-000000235003",
+    "patternId": "77777777-1113-0001-0000-000000002006",
+    "exerciseType": "arrange",
+    "prompt": "Quyển vở đó là của ai?",
+    "expectedAnswer": "そのノートは誰 (だれ)のですか",
+    "optionsJson": "[\"か\",\"そ\",\"の\",\"の\",\"は\",\"です\",\"ノート\",\"誰 (だれ)\"]",
+    "options": [
+      "か",
+      "そ",
+      "の",
+      "の",
+      "は",
+      "です",
+      "ノート",
+      "誰 (だれ)"
+    ],
+    "correctOrderJson": "[\"そ\",\"の\",\"ノート\",\"は\",\"誰 (だれ)\",\"の\",\"です\",\"か\"]",
+    "correctOrder": [
+      "そ",
+      "の",
+      "ノート",
+      "は",
+      "誰 (だれ)",
+      "の",
+      "です",
+      "か"
+    ],
+    "orderIndex": 9
+  },
+  {
+    "id": "77777777-1113-0003-0000-000000215004",
+    "patternId": "77777777-1113-0001-0000-000000002006",
+    "exerciseType": "ja_to_vi",
+    "prompt": "この鍵は誰のですか。",
+    "promptReading": "このかぎはだれのですか。",
+    "expectedAnswer": "Chìa khóa này là của ai?",
+    "hint": "～は だれの N ですか。",
+    "explanation": "だれ là từ hỏi về người.",
+    "orderIndex": 10
+  },
+  {
+    "id": "77777777-1113-0003-0000-000000225004",
+    "patternId": "77777777-1113-0001-0000-000000002006",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Chìa khóa này là của ai?",
+    "expectedAnswer": "この鍵は誰のですか。",
+    "acceptableAnswers": [
+      "このかぎはだれのですか。"
+    ],
+    "hint": "N1 + は + だれの + N2 + ですか",
+    "explanation": "だれ là từ hỏi về người.",
+    "orderIndex": 11
+  },
+  {
+    "id": "77777777-1113-0003-0000-000000235004",
+    "patternId": "77777777-1113-0001-0000-000000002006",
+    "exerciseType": "arrange",
+    "prompt": "Chìa khóa này là của ai?",
+    "expectedAnswer": "この鍵 (かぎ)は誰 (だれ)のですか",
+    "optionsJson": "[\"か\",\"こ\",\"の\",\"の\",\"は\",\"です\",\"誰 (だれ)\",\"鍵 (かぎ)\"]",
+    "options": [
+      "か",
+      "こ",
+      "の",
+      "の",
+      "は",
+      "です",
+      "誰 (だれ)",
+      "鍵 (かぎ)"
+    ],
+    "correctOrderJson": "[\"こ\",\"の\",\"鍵 (かぎ)\",\"は\",\"誰 (だれ)\",\"の\",\"です\",\"か\"]",
+    "correctOrder": [
+      "こ",
+      "の",
+      "鍵 (かぎ)",
+      "は",
+      "誰 (だれ)",
+      "の",
+      "です",
+      "か"
+    ],
+    "orderIndex": 12
+  },
+  {
+    "id": "77777777-1113-0003-0000-000000215005",
+    "patternId": "77777777-1113-0001-0000-000000002006",
+    "exerciseType": "ja_to_vi",
+    "prompt": "あのかばんは誰のですか。",
+    "promptReading": "あのかばんはだれのですか。",
+    "expectedAnswer": "Cái cặp kia là của ai?",
+    "hint": "～は だれの N ですか。",
+    "explanation": "だれ là từ hỏi về người.",
+    "orderIndex": 13
+  },
+  {
+    "id": "77777777-1113-0003-0000-000000225005",
+    "patternId": "77777777-1113-0001-0000-000000002006",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Cái cặp kia là của ai?",
+    "expectedAnswer": "あのかばんは誰のですか。",
+    "acceptableAnswers": [
+      "あのかばんはだれのですか。"
+    ],
+    "hint": "N1 + は + だれの + N2 + ですか",
+    "explanation": "だれ là từ hỏi về người.",
+    "orderIndex": 14
+  },
+  {
+    "id": "77777777-1113-0003-0000-000000235005",
+    "patternId": "77777777-1113-0001-0000-000000002006",
+    "exerciseType": "arrange",
+    "prompt": "Cái cặp kia là của ai?",
+    "expectedAnswer": "あのかばんは誰 (だれ)のですか",
+    "optionsJson": "[\"あ\",\"か\",\"の\",\"の\",\"は\",\"です\",\"かばん\",\"誰 (だれ)\"]",
+    "options": [
+      "あ",
+      "か",
+      "の",
+      "の",
+      "は",
+      "です",
+      "かばん",
+      "誰 (だれ)"
+    ],
+    "correctOrderJson": "[\"あ\",\"の\",\"かばん\",\"は\",\"誰 (だれ)\",\"の\",\"です\",\"か\"]",
+    "correctOrder": [
+      "あ",
+      "の",
+      "かばん",
+      "は",
+      "誰 (だれ)",
+      "の",
+      "です",
+      "か"
+    ],
+    "orderIndex": 15
+  }
+]

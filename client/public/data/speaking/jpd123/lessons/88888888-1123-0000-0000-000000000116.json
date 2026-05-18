@@ -1,0 +1,105 @@
+{
+  "lesson": {
+    "id": "88888888-1123-0000-0000-000000000116",
+    "courseCode": "jpd123",
+    "lessonNumber": 16,
+    "title": "ぼくの おばあちゃん",
+    "description": "Bà ngoại - Một người bà khỏe mạnh và làm cho căn nhà thêm rộn ràng.",
+    "accessTier": "premium",
+    "packageCode": "speaking_jpd123",
+    "isLocked": true,
+    "sentenceCount": 9
+  },
+  "sentences": [
+    {
+      "id": "88888888-1123-0000-0000-000000016001",
+      "lessonId": "88888888-1123-0000-0000-000000000116",
+      "sentenceNumber": 1,
+      "plainText": "ぼくのおばあちゃんは72才で、げんきです。",
+      "romaji": "bokuno obaachan wa nanajuunisai de,genkidesu.",
+      "contentHtml": "ぼくの おばあちゃんは <ruby>72才<rt>ななじゅうにさい</rt></ruby> で、げんきです。",
+      "meaningVi": "Bà của tôi 72 tuổi và vẫn rất khỏe.",
+      "orderIndex": 1
+    },
+    {
+      "id": "88888888-1123-0000-0000-000000016002",
+      "lessonId": "88888888-1123-0000-0000-000000000116",
+      "sentenceNumber": 2,
+      "plainText": "一人ですんでいます。",
+      "romaji": "hitori de sundeimasu.",
+      "contentHtml": "<ruby>一人<rt>ひとり</rt></ruby> で すんでいます。",
+      "meaningVi": "Bà sống một mình.",
+      "orderIndex": 2
+    },
+    {
+      "id": "88888888-1123-0000-0000-000000016003",
+      "lessonId": "88888888-1123-0000-0000-000000000116",
+      "sentenceNumber": 3,
+      "plainText": "てんきがいいとき、おばあちゃんはびょういんへともだちに会いに行きます。",
+      "romaji": "tenkiga ii toki,obaachan wa byouin e tomodachini aini ikimasu.",
+      "contentHtml": "てんきが いい とき、おばあちゃんは びょういんへ ともだちに <ruby>会<rt>あ</rt></ruby>いに <ruby>行<rt>い</rt></ruby>きます。",
+      "meaningVi": "Khi thời tiết đẹp, bà đi bệnh viện thăm bạn.",
+      "orderIndex": 3
+    },
+    {
+      "id": "88888888-1123-0000-0000-000000016004",
+      "lessonId": "88888888-1123-0000-0000-000000000116",
+      "sentenceNumber": 4,
+      "plainText": "びょういんにともだちがたくさんいますから。",
+      "romaji": "byouinni tomodachiga takusan imasukara.",
+      "contentHtml": "びょういんに ともだちが たくさん いますから。",
+      "meaningVi": "Vì ở bệnh viện có rất nhiều bạn của bà.",
+      "orderIndex": 4
+    },
+    {
+      "id": "88888888-1123-0000-0000-000000016005",
+      "lessonId": "88888888-1123-0000-0000-000000000116",
+      "sentenceNumber": 5,
+      "plainText": "てんきがわるいとき、あしのちょうしがよくないですから、出かけません。",
+      "romaji": "tenkiga warui toki,ashino choushiga yokunaidesukara,dekakemasen.",
+      "contentHtml": "てんきが わるい とき、あしの ちょうしが よくないですから、<ruby>出<rt>で</rt></ruby>かけません。",
+      "meaningVi": "Khi thời tiết xấu, do chân không khỏe nên bà không ra ngoài.",
+      "orderIndex": 5
+    },
+    {
+      "id": "88888888-1123-0000-0000-000000016006",
+      "lessonId": "88888888-1123-0000-0000-000000000116",
+      "sentenceNumber": 6,
+      "plainText": "おばあちゃんがぼくのうちへ来たとき、ぼくは学校でならったうたをうたってあげます。",
+      "romaji": "obaachanga bokuno uchi e kita toki,boku wa gakkou de naratta uta wo utatte agemasu.",
+      "contentHtml": "おばあちゃんが ぼくの うちへ <ruby>来<rt>き</rt></ruby>た とき、ぼくは <ruby>学校<rt>がっこう</rt></ruby> で ならった うたを うたって あげます。",
+      "meaningVi": "Khi bà đến nhà tôi, tôi hát cho bà nghe bài hát học ở trường.",
+      "orderIndex": 6
+    },
+    {
+      "id": "88888888-1123-0000-0000-000000016007",
+      "lessonId": "88888888-1123-0000-0000-000000000116",
+      "sentenceNumber": 7,
+      "plainText": "おばあちゃんはぼくに古い日本のお話をしてくれます。",
+      "romaji": "obaachan wa bokuni furui nihon no ohanashi wo shitekuremasu.",
+      "contentHtml": "おばあちゃんは ぼくに <ruby>古<rt>ふる</rt></ruby>い <ruby>日本<rt>にほん</rt></ruby> の お<ruby>話<rt>はなし</rt></ruby> を してくれます。",
+      "meaningVi": "Bà kể cho tôi nghe những câu chuyện cổ của Nhật Bản.",
+      "orderIndex": 7
+    },
+    {
+      "id": "88888888-1123-0000-0000-000000016008",
+      "lessonId": "88888888-1123-0000-0000-000000000116",
+      "sentenceNumber": 8,
+      "plainText": "そして、パンやおかしを作ってくれます。",
+      "romaji": "soshite,panya okashi wo tsukutte kuremasu.",
+      "contentHtml": "そして、パンや おかしを <ruby>作<rt>つく</rt></ruby>って くれます。",
+      "meaningVi": "Và bà còn làm bánh mì và bánh ngọt cho tôi.",
+      "orderIndex": 8
+    },
+    {
+      "id": "88888888-1123-0000-0000-000000016009",
+      "lessonId": "88888888-1123-0000-0000-000000000116",
+      "sentenceNumber": 9,
+      "plainText": "おばあちゃんがうちへ来ると、うちの中がとてもにぎやかになります。",
+      "romaji": "obaachanga uchi e kuruto,uchino naka ga totemo nigiyakani narimasu.",
+      "contentHtml": "おばあちゃんが うちへ <ruby>来<rt>く</rt></ruby>ると、うちの <ruby>中<rt>なか</rt></ruby> が とても にぎやかに なります。",
+      "meaningVi": "Mỗi khi bà đến nhà, cả ngôi nhà trở nên rất rộn ràng.",
+      "orderIndex": 9
+    }
+  ]
+}

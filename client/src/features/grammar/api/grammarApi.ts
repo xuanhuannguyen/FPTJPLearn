@@ -1,4 +1,5 @@
 import { apiClient } from '../../../shared/api/axios';
+import { fetchStatic } from '../../../shared/services/staticDataService';
 import type {
   AddGrammarStudyResult,
   GrammarAnswerResult,
@@ -15,28 +16,34 @@ import type {
 
 export const grammarApi = {
   getLevels: async (): Promise<GrammarLevelSummary[]> => {
-    const response = await apiClient.get('/grammar/levels');
-    return response.data;
+    return fetchStatic<GrammarLevelSummary[]>('grammar/levels.json');
   },
 
   getLessonsByLevel: async (level: GrammarLevel, courseCode?: string): Promise<GrammarLesson[]> => {
-    const response = await apiClient.get(`/grammar/${level}/lessons`, { params: { course: courseCode } });
-    return response.data.lessons;
+    const lessons = await fetchStatic<GrammarLesson[]>(`grammar/${level}/lessons.json`);
+    return courseCode ? lessons.filter((lesson) => lesson.courseCode === courseCode) : lessons;
   },
 
   getLessonById: async (lessonId: string): Promise<{ lesson: GrammarLesson; patterns: GrammarPattern[] }> => {
-    const response = await apiClient.get(`/grammar/lessons/${lessonId}`);
-    return response.data;
+    const level = await findLessonLevel(lessonId);
+    return fetchStatic<{ lesson: GrammarLesson; patterns: GrammarPattern[] }>(`grammar/${level}/lessons/${lessonId}.json`);
   },
 
   getPatternById: async (patternId: string): Promise<GrammarPattern> => {
-    const response = await apiClient.get(`/grammar/patterns/${patternId}`);
-    return response.data;
+    const patterns = await fetchStatic<GrammarPattern[]>('grammar/patterns.json');
+    const pattern = patterns.find((candidate) => candidate.id === patternId);
+    if (!pattern) throw new Error(`Grammar pattern not found: ${patternId}`);
+    return pattern;
   },
 
   searchPatterns: async (query: string): Promise<GrammarPattern[]> => {
-    const response = await apiClient.get('/grammar/search', { params: { query } });
-    return response.data.patterns;
+    const normalizedQuery = query.trim().toLowerCase();
+    if (!normalizedQuery) return [];
+    const patterns = await fetchStatic<GrammarPattern[]>('grammar/patterns.json');
+    return patterns.filter((pattern) =>
+      [pattern.pattern, pattern.title, pattern.meaning, pattern.structure, pattern.notes]
+        .some((value) => value?.toLowerCase().includes(normalizedQuery))
+    );
   },
 
   addToStudy: async (patternId: string): Promise<AddGrammarStudyResult> => {
@@ -65,20 +72,86 @@ export const grammarApi = {
   },
 
   getPatternExercises: async (patternId: string): Promise<GrammarExercise[]> => {
-    const response = await apiClient.get(`/grammar/patterns/${patternId}/exercises`);
-    return response.data.exercises;
+    return fetchStatic<GrammarExercise[]>(`grammar/exercises/${patternId}.json`);
   },
 
   checkExercise: async (
     exerciseId: string,
     payload: { answerText?: string; selectedOptionOrder?: string[] }
   ): Promise<GrammarExerciseCheckResult> => {
-    const response = await apiClient.post(`/grammar/exercises/${exerciseId}/check`, payload);
-    return response.data;
+    const exercise = await findExercise(exerciseId);
+    const expectedAnswers = [
+      exercise.expectedAnswer,
+      ...parseJsonArray((exercise as GrammarExerciseAnswer).acceptableAnswersJson),
+      ...((exercise as GrammarExerciseAnswer).acceptableAnswers || []),
+    ].filter(Boolean);
+    const answer = exercise.exerciseType === 'arrange'
+      ? (payload.selectedOptionOrder || []).join('')
+      : payload.answerText || '';
+    const isCorrect = expectedAnswers.some((expected) => normalizeAnswer(expected) === normalizeAnswer(answer));
+
+    return {
+      exerciseId,
+      isCorrect,
+      score: isCorrect ? 100 : 0,
+      feedback: isCorrect ? 'Chính xác.' : 'Chưa đúng, hãy xem lại đáp án mẫu.',
+      expectedAnswer: exercise.expectedAnswer || '',
+      correctOrderJson: (exercise as GrammarExerciseAnswer).correctOrderJson,
+      starAnswer: (exercise as GrammarExerciseAnswer).starAnswer,
+      attemptId: `static-${exerciseId}`,
+    };
   },
 
   revealExerciseAnswer: async (exerciseId: string): Promise<GrammarExerciseAnswer> => {
-    const response = await apiClient.get(`/grammar/exercises/${exerciseId}/answer`);
-    return response.data;
+    const exercise = await findExercise(exerciseId);
+    return {
+      ...exercise,
+      expectedAnswer: exercise.expectedAnswer || '',
+      acceptableAnswers: [
+        ...parseJsonArray((exercise as GrammarExerciseAnswer).acceptableAnswersJson),
+        ...((exercise as GrammarExerciseAnswer).acceptableAnswers || []),
+      ],
+      correctOrder: [
+        ...parseJsonArray((exercise as GrammarExerciseAnswer).correctOrderJson),
+        ...((exercise as GrammarExerciseAnswer).correctOrder || []),
+      ],
+    };
   },
 };
+
+async function findLessonLevel(lessonId: string): Promise<GrammarLevel> {
+  const levels = await fetchStatic<GrammarLevelSummary[]>('grammar/levels.json');
+  for (const level of [...new Set(levels.map((item) => item.level))]) {
+    const lessons = await fetchStatic<GrammarLesson[]>(`grammar/${level}/lessons.json`);
+    if (lessons.some((lesson) => lesson.id === lessonId)) return level;
+  }
+  throw new Error(`Grammar lesson not found: ${lessonId}`);
+}
+
+async function findExercise(exerciseId: string): Promise<GrammarExercise> {
+  const patterns = await fetchStatic<GrammarPattern[]>('grammar/patterns.json');
+  for (const pattern of patterns) {
+    const exercises = await fetchStatic<GrammarExercise[]>(`grammar/exercises/${pattern.id}.json`);
+    const exercise = exercises.find((candidate) => candidate.id === exerciseId);
+    if (exercise) return exercise;
+  }
+  throw new Error(`Grammar exercise not found: ${exerciseId}`);
+}
+
+function parseJsonArray(value?: string): string[] {
+  if (!value) return [];
+  try {
+    const parsed = JSON.parse(value);
+    return Array.isArray(parsed) ? parsed.map(String) : [];
+  } catch {
+    return [];
+  }
+}
+
+function normalizeAnswer(value: string): string {
+  return value
+    .trim()
+    .toLowerCase()
+    .replace(/\s+/g, '')
+    .replace(/[。！？!?.,，、]/g, '');
+}

@@ -1,0 +1,95 @@
+{
+  "lesson": {
+    "id": "88888888-1123-0000-0000-000000000114",
+    "courseCode": "jpd123",
+    "lessonNumber": 14,
+    "title": "おおさかと ちかくの まち",
+    "description": "Thành phố - Osaka, Kobe, Kyoto và Nara có nét hấp dẫn khác nhau.",
+    "accessTier": "premium",
+    "packageCode": "speaking_jpd123",
+    "isLocked": true,
+    "sentenceCount": 8
+  },
+  "sentences": [
+    {
+      "id": "88888888-1123-0000-0000-000000014001",
+      "lessonId": "88888888-1123-0000-0000-000000000114",
+      "sentenceNumber": 1,
+      "plainText": "おおさかは大きくて、にぎやかなまちです。",
+      "romaji": "oosaka wa ookikute,nigiyakana machidesu.",
+      "contentHtml": "おおさかは <ruby>大<rt>おお</rt></ruby>きくて、にぎやかな まちです。",
+      "meaningVi": "Osaka là một thành phố lớn và nhộn nhịp.",
+      "orderIndex": 1
+    },
+    {
+      "id": "88888888-1123-0000-0000-000000014002",
+      "lessonId": "88888888-1123-0000-0000-000000000114",
+      "sentenceNumber": 2,
+      "plainText": "おもしろい人がおおくて、食べ物がおいしいです。",
+      "romaji": "omoshiroi hito ga ookute,tabemono ga oishiidesu.",
+      "contentHtml": "おもしろい <ruby>人<rt>ひと</rt></ruby> が おおくて、<ruby>食<rt>た</rt></ruby>べ<ruby>物<rt>もの</rt></ruby> が おいしいです。",
+      "meaningVi": "Có nhiều người thú vị và đồ ăn rất ngon.",
+      "orderIndex": 2
+    },
+    {
+      "id": "88888888-1123-0000-0000-000000014003",
+      "lessonId": "88888888-1123-0000-0000-000000000114",
+      "sentenceNumber": 3,
+      "plainText": "こうべと京都とならはおおさかからちかいです。",
+      "romaji": "koubeto kyouto to nara wa oosakakara chikaidesu.",
+      "contentHtml": "こうべと <ruby>京都<rt>きょうと</rt></ruby> と ならは おおさかから ちかいです。",
+      "meaningVi": "Kobe, Kyoto và Nara đều gần Osaka.",
+      "orderIndex": 3
+    },
+    {
+      "id": "88888888-1123-0000-0000-000000014004",
+      "lessonId": "88888888-1123-0000-0000-000000000114",
+      "sentenceNumber": 4,
+      "plainText": "四つのまちの中でならがいちばんふるいです。",
+      "romaji": "yottsu no machino naka de naraga ichiban furuidesu.",
+      "contentHtml": "<ruby>四つ<rt>よっつ</rt></ruby> の まちの <ruby>中<rt>なか</rt></ruby> で ならが いちばん ふるいです。",
+      "meaningVi": "Trong bốn thành phố thì Nara là thành phố cổ nhất.",
+      "orderIndex": 4
+    },
+    {
+      "id": "88888888-1123-0000-0000-000000014005",
+      "lessonId": "88888888-1123-0000-0000-000000000114",
+      "sentenceNumber": 5,
+      "plainText": "ならと京都は古いお寺やじんじゃが多いですから、外国人があそびに来ます。",
+      "romaji": "narato kyouto wa furui otera ya jinjaga ooidesukara,gaikokujin ga asobini kimasu.",
+      "contentHtml": "ならと <ruby>京都<rt>きょうと</rt></ruby> は <ruby>古<rt>ふる</rt></ruby>い お<ruby>寺<rt>てら</rt></ruby> や じんじゃが <ruby>多<rt>おお</rt></ruby>いですから、<ruby>外国人<rt>がいこくじん</rt></ruby> が あそびに <ruby>来<rt>き</rt></ruby>ます。",
+      "meaningVi": "Vì Nara và Kyoto có nhiều chùa và đền cổ nên có nhiều người nước ngoài đến tham quan.",
+      "orderIndex": 5
+    },
+    {
+      "id": "88888888-1123-0000-0000-000000014006",
+      "lessonId": "88888888-1123-0000-0000-000000000114",
+      "sentenceNumber": 6,
+      "plainText": "こうべはすてきなまちです。",
+      "romaji": "koube wa sutekina machidesu.",
+      "contentHtml": "こうべは すてきな まちです。",
+      "meaningVi": "Kobe là một thành phố rất đẹp.",
+      "orderIndex": 6
+    },
+    {
+      "id": "88888888-1123-0000-0000-000000014007",
+      "lessonId": "88888888-1123-0000-0000-000000000114",
+      "sentenceNumber": 7,
+      "plainText": "前にうみがあって、うしろに山があります。",
+      "romaji": "mae ni umiga atte,ushironi yama ga arimasu.",
+      "contentHtml": "<ruby>前<rt>まえ</rt></ruby> に うみが あって、うしろに <ruby>山<rt>やま</rt></ruby> が あります。",
+      "meaningVi": "Phía trước có biển, phía sau có núi.",
+      "orderIndex": 7
+    },
+    {
+      "id": "88888888-1123-0000-0000-000000014008",
+      "lessonId": "88888888-1123-0000-0000-000000000114",
+      "sentenceNumber": 8,
+      "plainText": "わかい人はこうべがすきです。",
+      "romaji": "wakai hito wa koubega sukidesu.",
+      "contentHtml": "わかい <ruby>人<rt>ひと</rt></ruby> は こうべが すきです。",
+      "meaningVi": "Người trẻ thích Kobe.",
+      "orderIndex": 8
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "lesson": {
+    "id": "88888888-1113-0000-0000-000000000124",
+    "courseCode": "jpd113",
+    "lessonNumber": 24,
+    "title": "はなみ",
+    "description": "Vui chơi - Chuyến đi ngắm hoa vào kỳ nghỉ xuân.",
+    "accessTier": "premium",
+    "packageCode": "speaking_jpd113",
+    "isLocked": true,
+    "sentenceCount": 4
+  },
+  "sentences": [
+    {
+      "id": "88888888-1113-0000-0000-000000024001",
+      "lessonId": "88888888-1113-0000-0000-000000000124",
+      "sentenceNumber": 1,
+      "plainText": "はるやすみは2月15日からです。",
+      "romaji": "haruyasumi wa nigatsujuugonichikaradesu.",
+      "contentHtml": "はるやすみは <ruby>2月15日<rt>にがつじゅうごにち</rt></ruby>からです。",
+      "meaningVi": "Kỳ nghỉ xuân bắt đầu từ ngày 15 tháng 2.",
+      "orderIndex": 1
+    },
+    {
+      "id": "88888888-1113-0000-0000-000000024002",
+      "lessonId": "88888888-1113-0000-0000-000000000124",
+      "sentenceNumber": 2,
+      "plainText": "2月20日はバスりょこうでオオキワこうえんへ行きます。",
+      "romaji": "nigatsuhatsuka wa basuryokoude ookiwakouen e ikimasu.",
+      "contentHtml": "<ruby>2月20日<rt>にがつはつか</rt></ruby>は バスりょこうで オオキワ<ruby>こうえん<rt>こうえん</rt></ruby>へ <ruby>行<rt>い</rt></ruby>きます。",
+      "meaningVi": "Ngày 20 tháng 2 tôi đi du lịch xe buýt đến công viên Ookiwa.",
+      "orderIndex": 2
+    },
+    {
+      "id": "88888888-1113-0000-0000-000000024003",
+      "lessonId": "88888888-1113-0000-0000-000000000124",
+      "sentenceNumber": 3,
+      "plainText": "6じに学校でともだちとあつまります。",
+      "romaji": "6jini gakkoude tomodachito atsumarimasu.",
+      "contentHtml": "6じに <ruby>学校<rt>がっこう</rt></ruby>で <ruby>ともだち<rt>ともだち</rt></ruby>と <ruby>あつ<rt>あつ</rt></ruby>まります。",
+      "meaningVi": "Lúc 6 giờ chúng tôi tập trung ở trường cùng bạn bè.",
+      "orderIndex": 3
+    },
+    {
+      "id": "88888888-1113-0000-0000-000000024004",
+      "lessonId": "88888888-1113-0000-0000-000000000124",
+      "sentenceNumber": 4,
+      "plainText": "こうえんではなみをします。",
+      "romaji": "kouende hanami wo shimasu.",
+      "contentHtml": "<ruby>こうえん<rt>こうえん</rt></ruby>で <ruby>はなみ<rt>はなみ</rt></ruby>を します。",
+      "meaningVi": "Chúng tôi sẽ ngắm hoa ở công viên.",
+      "orderIndex": 4
+    }
+  ]
+}

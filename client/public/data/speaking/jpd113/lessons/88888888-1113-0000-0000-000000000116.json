@@ -1,0 +1,65 @@
+{
+  "lesson": {
+    "id": "88888888-1113-0000-0000-000000000116",
+    "courseCode": "jpd113",
+    "lessonNumber": 16,
+    "title": "ごごの よてい",
+    "description": "Sinh hoạt - Nghỉ ngơi và học tập buổi chiều tại nhà.",
+    "accessTier": "premium",
+    "packageCode": "speaking_jpd113",
+    "isLocked": true,
+    "sentenceCount": 5
+  },
+  "sentences": [
+    {
+      "id": "88888888-1113-0000-0000-000000016001",
+      "lessonId": "88888888-1113-0000-0000-000000000116",
+      "sentenceNumber": 1,
+      "plainText": "ひる、いえへかえります。",
+      "romaji": "hiru,ie e kaerimasu.",
+      "contentHtml": "<ruby>ひる<rt>ひる</rt></ruby>、<ruby>いえ<rt>いえ</rt></ruby>へ <ruby>かえ<rt>かえ</rt></ruby>ります。",
+      "meaningVi": "Buổi trưa tôi về nhà.",
+      "orderIndex": 1
+    },
+    {
+      "id": "88888888-1113-0000-0000-000000016002",
+      "lessonId": "88888888-1113-0000-0000-000000000116",
+      "sentenceNumber": 2,
+      "plainText": "ひるごはんをたべます。",
+      "romaji": "hirugohan wo tabemasu.",
+      "contentHtml": "<ruby>ひるごはん<rt>ひるごはん</rt></ruby>を <ruby>た<rt>た</rt></ruby>べます。",
+      "meaningVi": "Tôi ăn cơm trưa.",
+      "orderIndex": 2
+    },
+    {
+      "id": "88888888-1113-0000-0000-000000016003",
+      "lessonId": "88888888-1113-0000-0000-000000000116",
+      "sentenceNumber": 3,
+      "plainText": "ごご12時半にねます。",
+      "romaji": "gogo juunijihanni nemasu.",
+      "contentHtml": "<ruby>ごご<rt>ごご</rt></ruby> <ruby>12時半<rt>じゅうにじはん</rt></ruby>に <ruby>ね<rt>ね</rt></ruby>ます。",
+      "meaningVi": "12 giờ rưỡi trưa tôi đi ngủ.",
+      "orderIndex": 3
+    },
+    {
+      "id": "88888888-1113-0000-0000-000000016004",
+      "lessonId": "88888888-1113-0000-0000-000000000116",
+      "sentenceNumber": 4,
+      "plainText": "ごごどこも行きません。",
+      "romaji": "gogo dokomo ikimasen.",
+      "contentHtml": "<ruby>ごご<rt>ごご</rt></ruby> どこも <ruby>行<rt>い</rt></ruby>きません。",
+      "meaningVi": "Buổi chiều tôi không đi đâu cả.",
+      "orderIndex": 4
+    },
+    {
+      "id": "88888888-1113-0000-0000-000000016005",
+      "lessonId": "88888888-1113-0000-0000-000000000116",
+      "sentenceNumber": 5,
+      "plainText": "いえで日本語をべんきょうします。",
+      "romaji": "iede nihongo wo benkyoushimasu.",
+      "contentHtml": "<ruby>いえ<rt>いえ</rt></ruby>で <ruby>日本語<rt>にほんご</rt></ruby>を <ruby>べんきょう<rt>べんきょう</rt></ruby>します。",
+      "meaningVi": "Tôi học tiếng Nhật ở nhà.",
+      "orderIndex": 5
+    }
+  ]
+}

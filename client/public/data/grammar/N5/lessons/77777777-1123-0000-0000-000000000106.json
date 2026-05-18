@@ -1,0 +1,1472 @@
+{
+  "lesson": {
+    "id": "77777777-1123-0000-0000-000000000106",
+    "level": "N5",
+    "courseCode": "jpd123",
+    "lessonNumber": 6,
+    "title": "Rủ rê và So sánh",
+    "description": "Học cách mời rủ, đề nghị cùng làm, và so sánh giữa các đối tượng.",
+    "patternCount": 5,
+    "accessTier": "premium",
+    "isLocked": true,
+    "inStudyCount": 0,
+    "masteredCount": 0,
+    "dueCount": 0
+  },
+  "patterns": [
+    {
+      "id": "77777777-1123-0001-0000-000000006001",
+      "lessonId": "77777777-1123-0000-0000-000000000106",
+      "level": "N5",
+      "courseCode": "jpd123",
+      "pattern": "Vませんか",
+      "title": "Lời mời / Rủ rê",
+      "meaning": "Cùng làm V nhé?",
+      "structure": "V ませんか",
+      "accessTier": "premium",
+      "isLocked": true,
+      "isInStudy": false,
+      "progress": null,
+      "usageScope": "Dùng để mời mọc đối phương làm gì đó một cách lịch sự.",
+      "formation": "Động từ chia thể phủ định + か",
+      "notes": "Thường trả lời bằng いいですね (Được đấy).",
+      "examples": [
+        {
+          "id": "77777777-1123-0002-0000-000000600001",
+          "japanese": "晩ごはんを一緒に食べに行きませんか。",
+          "reading": "ばんごはんをいっしょにたべにいきませんか。",
+          "meaning": "Tối nay cùng đi ăn tối không?",
+          "orderIndex": 1
+        },
+        {
+          "id": "77777777-1123-0002-0000-000000600002",
+          "japanese": "テニスをしませんか。",
+          "reading": "テニスをしませんか。",
+          "meaning": "Cùng chơi tennis không?",
+          "orderIndex": 2
+        },
+        {
+          "id": "77777777-1123-0002-0000-000000600003",
+          "japanese": "明日、映画を見に行きませんか。",
+          "reading": "あした、えいがをみにいきませんか。",
+          "meaning": "Ngày mai cùng đi xem phim không?",
+          "orderIndex": 3
+        },
+        {
+          "id": "77777777-1123-0002-0000-000000600004",
+          "japanese": "ちょっと休みませんか。",
+          "reading": "ちょっとやすみませんか。",
+          "meaning": "Nghỉ ngơi một lát không?",
+          "orderIndex": 4
+        },
+        {
+          "id": "77777777-1123-0002-0000-000000600005",
+          "japanese": "お茶を飲みませんか。",
+          "reading": "おちゃをのみませんか。",
+          "meaning": "Uống trà nhé?",
+          "orderIndex": 5
+        }
+      ],
+      "exercises": [
+        {
+          "id": "77777777-1123-0003-0000-000000610001",
+          "patternId": "77777777-1123-0001-0000-000000006001",
+          "exerciseType": "ja_to_vi",
+          "prompt": "晩ごはんを一緒に食べに行きませんか。",
+          "promptReading": "ばんごはんをいっしょにたべにいきませんか。",
+          "expectedAnswer": "Tối nay cùng đi ăn tối không?",
+          "hint": "Vませんか",
+          "explanation": "Thường trả lời bằng いいですね (Được đấy).",
+          "orderIndex": 1
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000620001",
+          "patternId": "77777777-1123-0001-0000-000000006001",
+          "exerciseType": "vi_to_ja",
+          "prompt": "Tối nay cùng đi ăn tối không?",
+          "expectedAnswer": "晩ごはんを一緒に食べに行きませんか。",
+          "acceptableAnswers": [
+            "ばんごはんをいっしょにたべにいきませんか。"
+          ],
+          "hint": "Động từ chia thể phủ định + か",
+          "explanation": "Thường trả lời bằng いいですね (Được đấy).",
+          "orderIndex": 2
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000630001",
+          "patternId": "77777777-1123-0001-0000-000000006001",
+          "exerciseType": "arrange",
+          "prompt": "Tối nay cùng đi ăn tối không?",
+          "expectedAnswer": "晩ご (ばんご)はんを一緒 (いっしょ)に食べ (たべ)に行きませんか (いきませんか)",
+          "optionsJson": "[\"に\",\"に\",\"は\",\"を\",\"ん\",\"晩ご (ばんご)\",\"食べ (たべ)\",\"一緒 (いっしょ)\",\"行きませんか (いきませんか)\"]",
+          "options": [
+            "に",
+            "に",
+            "は",
+            "を",
+            "ん",
+            "晩ご (ばんご)",
+            "食べ (たべ)",
+            "一緒 (いっしょ)",
+            "行きませんか (いきませんか)"
+          ],
+          "correctOrderJson": "[\"晩ご (ばんご)\",\"は\",\"ん\",\"を\",\"一緒 (いっしょ)\",\"に\",\"食べ (たべ)\",\"に\",\"行きませんか (いきませんか)\"]",
+          "correctOrder": [
+            "晩ご (ばんご)",
+            "は",
+            "ん",
+            "を",
+            "一緒 (いっしょ)",
+            "に",
+            "食べ (たべ)",
+            "に",
+            "行きませんか (いきませんか)"
+          ],
+          "orderIndex": 3
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000610002",
+          "patternId": "77777777-1123-0001-0000-000000006001",
+          "exerciseType": "ja_to_vi",
+          "prompt": "テニスをしませんか。",
+          "promptReading": "テニスをしませんか。",
+          "expectedAnswer": "Cùng chơi tennis không?",
+          "hint": "Vませんか",
+          "explanation": "Thường trả lời bằng いいですね (Được đấy).",
+          "orderIndex": 4
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000620002",
+          "patternId": "77777777-1123-0001-0000-000000006001",
+          "exerciseType": "vi_to_ja",
+          "prompt": "Cùng chơi tennis không?",
+          "expectedAnswer": "テニスをしませんか。",
+          "acceptableAnswers": [
+            "テニスをしませんか。"
+          ],
+          "hint": "Động từ chia thể phủ định + か",
+          "explanation": "Thường trả lời bằng いいですね (Được đấy).",
+          "orderIndex": 5
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000630002",
+          "patternId": "77777777-1123-0001-0000-000000006001",
+          "exerciseType": "arrange",
+          "prompt": "Cùng chơi tennis không?",
+          "expectedAnswer": "テニスをしませんか",
+          "optionsJson": "[\"を\",\"テニス\",\"しませんか\"]",
+          "options": [
+            "を",
+            "テニス",
+            "しませんか"
+          ],
+          "correctOrderJson": "[\"テニス\",\"を\",\"しませんか\"]",
+          "correctOrder": [
+            "テニス",
+            "を",
+            "しませんか"
+          ],
+          "orderIndex": 6
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000610003",
+          "patternId": "77777777-1123-0001-0000-000000006001",
+          "exerciseType": "ja_to_vi",
+          "prompt": "明日、映画を見に行きませんか。",
+          "promptReading": "あした、えいがをみにいきませんか。",
+          "expectedAnswer": "Ngày mai cùng đi xem phim không?",
+          "hint": "Vませんか",
+          "explanation": "Thường trả lời bằng いいですね (Được đấy).",
+          "orderIndex": 7
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000620003",
+          "patternId": "77777777-1123-0001-0000-000000006001",
+          "exerciseType": "vi_to_ja",
+          "prompt": "Ngày mai cùng đi xem phim không?",
+          "expectedAnswer": "明日、映画を見に行きませんか。",
+          "acceptableAnswers": [
+            "あした、えいがをみにいきませんか。"
+          ],
+          "hint": "Động từ chia thể phủ định + か",
+          "explanation": "Thường trả lời bằng いいですね (Được đấy).",
+          "orderIndex": 8
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000630003",
+          "patternId": "77777777-1123-0001-0000-000000006001",
+          "exerciseType": "arrange",
+          "prompt": "Ngày mai cùng đi xem phim không?",
+          "expectedAnswer": "明日、映画 (あした、えいが)を見 (み)に行きませんか (いきませんか)",
+          "optionsJson": "[\"に\",\"を\",\"見 (み)\",\"行きませんか (いきませんか)\",\"明日、映画 (あした、えいが)\"]",
+          "options": [
+            "に",
+            "を",
+            "見 (み)",
+            "行きませんか (いきませんか)",
+            "明日、映画 (あした、えいが)"
+          ],
+          "correctOrderJson": "[\"明日、映画 (あした、えいが)\",\"を\",\"見 (み)\",\"に\",\"行きませんか (いきませんか)\"]",
+          "correctOrder": [
+            "明日、映画 (あした、えいが)",
+            "を",
+            "見 (み)",
+            "に",
+            "行きませんか (いきませんか)"
+          ],
+          "orderIndex": 9
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000610004",
+          "patternId": "77777777-1123-0001-0000-000000006001",
+          "exerciseType": "ja_to_vi",
+          "prompt": "ちょっと休みませんか。",
+          "promptReading": "ちょっとやすみませんか。",
+          "expectedAnswer": "Nghỉ ngơi một lát không?",
+          "hint": "Vませんか",
+          "explanation": "Thường trả lời bằng いいですね (Được đấy).",
+          "orderIndex": 10
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000620004",
+          "patternId": "77777777-1123-0001-0000-000000006001",
+          "exerciseType": "vi_to_ja",
+          "prompt": "Nghỉ ngơi một lát không?",
+          "expectedAnswer": "ちょっと休みませんか。",
+          "acceptableAnswers": [
+            "ちょっとやすみませんか。"
+          ],
+          "hint": "Động từ chia thể phủ định + か",
+          "explanation": "Thường trả lời bằng いいですね (Được đấy).",
+          "orderIndex": 11
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000630004",
+          "patternId": "77777777-1123-0001-0000-000000006001",
+          "exerciseType": "arrange",
+          "prompt": "Nghỉ ngơi một lát không?",
+          "expectedAnswer": "ちょっと休みませんか (やすみませんか)",
+          "optionsJson": "[\"と\",\"ちょっ\",\"休みませんか (やすみませんか)\"]",
+          "options": [
+            "と",
+            "ちょっ",
+            "休みませんか (やすみませんか)"
+          ],
+          "correctOrderJson": "[\"ちょっ\",\"と\",\"休みませんか (やすみませんか)\"]",
+          "correctOrder": [
+            "ちょっ",
+            "と",
+            "休みませんか (やすみませんか)"
+          ],
+          "orderIndex": 12
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000610005",
+          "patternId": "77777777-1123-0001-0000-000000006001",
+          "exerciseType": "ja_to_vi",
+          "prompt": "お茶を飲みませんか。",
+          "promptReading": "おちゃをのみませんか。",
+          "expectedAnswer": "Uống trà nhé?",
+          "hint": "Vませんか",
+          "explanation": "Thường trả lời bằng いいですね (Được đấy).",
+          "orderIndex": 13
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000620005",
+          "patternId": "77777777-1123-0001-0000-000000006001",
+          "exerciseType": "vi_to_ja",
+          "prompt": "Uống trà nhé?",
+          "expectedAnswer": "お茶を飲みませんか。",
+          "acceptableAnswers": [
+            "おちゃをのみませんか。"
+          ],
+          "hint": "Động từ chia thể phủ định + か",
+          "explanation": "Thường trả lời bằng いいですね (Được đấy).",
+          "orderIndex": 14
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000630005",
+          "patternId": "77777777-1123-0001-0000-000000006001",
+          "exerciseType": "arrange",
+          "prompt": "Uống trà nhé?",
+          "expectedAnswer": "お茶 (おちゃ)を飲みませんか (のみませんか)",
+          "optionsJson": "[\"を\",\"お茶 (おちゃ)\",\"飲みませんか (のみませんか)\"]",
+          "options": [
+            "を",
+            "お茶 (おちゃ)",
+            "飲みませんか (のみませんか)"
+          ],
+          "correctOrderJson": "[\"お茶 (おちゃ)\",\"を\",\"飲みませんか (のみませんか)\"]",
+          "correctOrder": [
+            "お茶 (おちゃ)",
+            "を",
+            "飲みませんか (のみませんか)"
+          ],
+          "orderIndex": 15
+        }
+      ]
+    },
+    {
+      "id": "77777777-1123-0001-0000-000000006002",
+      "lessonId": "77777777-1123-0000-0000-000000000106",
+      "level": "N5",
+      "courseCode": "jpd123",
+      "pattern": "Vましょう",
+      "title": "Lời đề nghị / Cùng làm",
+      "meaning": "Cùng làm V nào! (Let's...)",
+      "structure": "V ましょう",
+      "accessTier": "premium",
+      "isLocked": true,
+      "isInStudy": false,
+      "progress": null,
+      "usageScope": "Dùng để kêu gọi hoặc đồng ý với lời mời.",
+      "formation": "Bỏ ます thêm ましょう",
+      "notes": "Mạnh mẽ hơn ませんか.",
+      "examples": [
+        {
+          "id": "77777777-1123-0002-0000-000000601001",
+          "japanese": "行きましょう。",
+          "reading": "いきましょう。",
+          "meaning": "Cùng đi nào!",
+          "orderIndex": 1
+        },
+        {
+          "id": "77777777-1123-0002-0000-000000601002",
+          "japanese": "ちょっと休みましょう。",
+          "reading": "ちょっとやすみましょう。",
+          "meaning": "Chúng ta cùng nghỉ một lát nhé.",
+          "orderIndex": 2
+        },
+        {
+          "id": "77777777-1123-0002-0000-000000601003",
+          "japanese": "食べましょう。",
+          "reading": "たべましょう。",
+          "meaning": "Cùng ăn nào!",
+          "orderIndex": 3
+        },
+        {
+          "id": "77777777-1123-0002-0000-000000601004",
+          "japanese": "始めましょう。",
+          "reading": "はじめましょう。",
+          "meaning": "Cùng bắt đầu nào!",
+          "orderIndex": 4
+        },
+        {
+          "id": "77777777-1123-0002-0000-000000601005",
+          "japanese": "明日も会いましょう。",
+          "reading": "あしたもあいましょう。",
+          "meaning": "Ngày mai lại gặp nhé.",
+          "orderIndex": 5
+        }
+      ],
+      "exercises": [
+        {
+          "id": "77777777-1123-0003-0000-000000611001",
+          "patternId": "77777777-1123-0001-0000-000000006002",
+          "exerciseType": "ja_to_vi",
+          "prompt": "行きましょう。",
+          "promptReading": "いきましょう。",
+          "expectedAnswer": "Cùng đi nào!",
+          "hint": "Vましょう",
+          "explanation": "Mạnh mẽ hơn ませんか.",
+          "orderIndex": 1
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000621001",
+          "patternId": "77777777-1123-0001-0000-000000006002",
+          "exerciseType": "vi_to_ja",
+          "prompt": "Cùng đi nào!",
+          "expectedAnswer": "行きましょう。",
+          "acceptableAnswers": [
+            "いきましょう。"
+          ],
+          "hint": "Bỏ ます thêm ましょう",
+          "explanation": "Mạnh mẽ hơn ませんか.",
+          "orderIndex": 2
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000611002",
+          "patternId": "77777777-1123-0001-0000-000000006002",
+          "exerciseType": "ja_to_vi",
+          "prompt": "ちょっと休みましょう。",
+          "promptReading": "ちょっとやすみましょう。",
+          "expectedAnswer": "Chúng ta cùng nghỉ một lát nhé.",
+          "hint": "Vましょう",
+          "explanation": "Mạnh mẽ hơn ませんか.",
+          "orderIndex": 3
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000621002",
+          "patternId": "77777777-1123-0001-0000-000000006002",
+          "exerciseType": "vi_to_ja",
+          "prompt": "Chúng ta cùng nghỉ một lát nhé.",
+          "expectedAnswer": "ちょっと休みましょう。",
+          "acceptableAnswers": [
+            "ちょっとやすみましょう。"
+          ],
+          "hint": "Bỏ ます thêm ましょう",
+          "explanation": "Mạnh mẽ hơn ませんか.",
+          "orderIndex": 4
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000631002",
+          "patternId": "77777777-1123-0001-0000-000000006002",
+          "exerciseType": "arrange",
+          "prompt": "Chúng ta cùng nghỉ một lát nhé.",
+          "expectedAnswer": "ちょっと休みましょう (やすみましょう)",
+          "optionsJson": "[\"と\",\"ちょっ\",\"休みましょう (やすみましょう)\"]",
+          "options": [
+            "と",
+            "ちょっ",
+            "休みましょう (やすみましょう)"
+          ],
+          "correctOrderJson": "[\"ちょっ\",\"と\",\"休みましょう (やすみましょう)\"]",
+          "correctOrder": [
+            "ちょっ",
+            "と",
+            "休みましょう (やすみましょう)"
+          ],
+          "orderIndex": 5
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000611003",
+          "patternId": "77777777-1123-0001-0000-000000006002",
+          "exerciseType": "ja_to_vi",
+          "prompt": "食べましょう。",
+          "promptReading": "たべましょう。",
+          "expectedAnswer": "Cùng ăn nào!",
+          "hint": "Vましょう",
+          "explanation": "Mạnh mẽ hơn ませんか.",
+          "orderIndex": 6
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000621003",
+          "patternId": "77777777-1123-0001-0000-000000006002",
+          "exerciseType": "vi_to_ja",
+          "prompt": "Cùng ăn nào!",
+          "expectedAnswer": "食べましょう。",
+          "acceptableAnswers": [
+            "たべましょう。"
+          ],
+          "hint": "Bỏ ます thêm ましょう",
+          "explanation": "Mạnh mẽ hơn ませんか.",
+          "orderIndex": 7
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000611004",
+          "patternId": "77777777-1123-0001-0000-000000006002",
+          "exerciseType": "ja_to_vi",
+          "prompt": "始めましょう。",
+          "promptReading": "はじめましょう。",
+          "expectedAnswer": "Cùng bắt đầu nào!",
+          "hint": "Vましょう",
+          "explanation": "Mạnh mẽ hơn ませんか.",
+          "orderIndex": 8
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000621004",
+          "patternId": "77777777-1123-0001-0000-000000006002",
+          "exerciseType": "vi_to_ja",
+          "prompt": "Cùng bắt đầu nào!",
+          "expectedAnswer": "始めましょう。",
+          "acceptableAnswers": [
+            "はじめましょう。"
+          ],
+          "hint": "Bỏ ます thêm ましょう",
+          "explanation": "Mạnh mẽ hơn ませんか.",
+          "orderIndex": 9
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000611005",
+          "patternId": "77777777-1123-0001-0000-000000006002",
+          "exerciseType": "ja_to_vi",
+          "prompt": "明日も会いましょう。",
+          "promptReading": "あしたもあいましょう。",
+          "expectedAnswer": "Ngày mai lại gặp nhé.",
+          "hint": "Vましょう",
+          "explanation": "Mạnh mẽ hơn ませんか.",
+          "orderIndex": 10
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000621005",
+          "patternId": "77777777-1123-0001-0000-000000006002",
+          "exerciseType": "vi_to_ja",
+          "prompt": "Ngày mai lại gặp nhé.",
+          "expectedAnswer": "明日も会いましょう。",
+          "acceptableAnswers": [
+            "あしたもあいましょう。"
+          ],
+          "hint": "Bỏ ます thêm ましょう",
+          "explanation": "Mạnh mẽ hơn ませんか.",
+          "orderIndex": 11
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000631005",
+          "patternId": "77777777-1123-0001-0000-000000006002",
+          "exerciseType": "arrange",
+          "prompt": "Ngày mai lại gặp nhé.",
+          "expectedAnswer": "明日 (あした)も会いましょう (あいましょう)",
+          "optionsJson": "[\"も\",\"明日 (あした)\",\"会いましょう (あいましょう)\"]",
+          "options": [
+            "も",
+            "明日 (あした)",
+            "会いましょう (あいましょう)"
+          ],
+          "correctOrderJson": "[\"明日 (あした)\",\"も\",\"会いましょう (あいましょう)\"]",
+          "correctOrder": [
+            "明日 (あした)",
+            "も",
+            "会いましょう (あいましょう)"
+          ],
+          "orderIndex": 12
+        }
+      ]
+    },
+    {
+      "id": "77777777-1123-0001-0000-000000006003",
+      "lessonId": "77777777-1123-0000-0000-000000000106",
+      "level": "N5",
+      "courseCode": "jpd123",
+      "pattern": "N1 で N2 が いちばん A です",
+      "title": "So sánh nhất",
+      "meaning": "Trong phạm vi N1 thì N2 là [tính chất] A nhất",
+      "structure": "N1 で N2 が いちばん A です",
+      "accessTier": "premium",
+      "isLocked": true,
+      "isInStudy": false,
+      "progress": null,
+      "usageScope": "Diễn tả cái gì đó là nhất trong một nhóm.",
+      "formation": "Phạm vi + で + Đối tượng + が + いちばん + Tính từ + です",
+      "notes": "いちばん nghĩa là số 1 / nhất.",
+      "examples": [
+        {
+          "id": "77777777-1123-0002-0000-000000602001",
+          "japanese": "スポーツで野球がいちばんおもしろいです。",
+          "reading": "スポーツでやきゅうがいちばんおもしろいです。",
+          "meaning": "Trong các môn thể thao, bóng chày là thú vị nhất.",
+          "orderIndex": 1
+        },
+        {
+          "id": "77777777-1123-0002-0000-000000602002",
+          "japanese": "クラスで誰が一番背が高いですか。",
+          "reading": "クラスでだれがいちばんせがたかいですか。",
+          "meaning": "Trong lớp ai là người cao nhất?",
+          "orderIndex": 2
+        },
+        {
+          "id": "77777777-1123-0002-0000-000000602003",
+          "japanese": "一年でいつがいちばん暑いですか。",
+          "reading": "いちねんでいつがいちばんあついですか。",
+          "meaning": "Trong một năm, khi nào là nóng nhất?",
+          "orderIndex": 3
+        },
+        {
+          "id": "77777777-1123-0002-0000-000000602004",
+          "japanese": "果物でリンゴがいちばん好きです。",
+          "reading": "くだものでりんごがいちばんすきです。",
+          "meaning": "Trong các loại quả, tôi thích táo nhất.",
+          "orderIndex": 4
+        },
+        {
+          "id": "77777777-1123-0002-0000-000000602005",
+          "japanese": "世界でどこがいちばんきれいですか。",
+          "reading": "せかいでどこがいちばんきれいですか。",
+          "meaning": "Trên thế giới, nơi nào là đẹp nhất?",
+          "orderIndex": 5
+        }
+      ],
+      "exercises": [
+        {
+          "id": "77777777-1123-0003-0000-000000612001",
+          "patternId": "77777777-1123-0001-0000-000000006003",
+          "exerciseType": "ja_to_vi",
+          "prompt": "スポーツで野球がいちばんおもしろいです。",
+          "promptReading": "スポーツでやきゅうがいちばんおもしろいです。",
+          "expectedAnswer": "Trong các môn thể thao, bóng chày là thú vị nhất.",
+          "hint": "N1 で N2 が いちばん A です",
+          "explanation": "いちばん nghĩa là số 1 / nhất.",
+          "orderIndex": 1
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000622001",
+          "patternId": "77777777-1123-0001-0000-000000006003",
+          "exerciseType": "vi_to_ja",
+          "prompt": "Trong các môn thể thao, bóng chày là thú vị nhất.",
+          "expectedAnswer": "スポーツで野球がいちばんおもしろいです。",
+          "acceptableAnswers": [
+            "スポーツでやきゅうがいちばんおもしろいです。"
+          ],
+          "hint": "Phạm vi + で + Đối tượng + が + いちばん + Tính từ + です",
+          "explanation": "いちばん nghĩa là số 1 / nhất.",
+          "orderIndex": 2
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000632001",
+          "patternId": "77777777-1123-0001-0000-000000006003",
+          "exerciseType": "arrange",
+          "prompt": "Trong các môn thể thao, bóng chày là thú vị nhất.",
+          "expectedAnswer": "スポーツで野球 (スポーツでやきゅう)がいちばんおもしろいです",
+          "optionsJson": "[\"が\",\"も\",\"です\",\"しろい\",\"いちばんお\",\"スポーツで野球 (スポーツでやきゅう)\"]",
+          "options": [
+            "が",
+            "も",
+            "です",
+            "しろい",
+            "いちばんお",
+            "スポーツで野球 (スポーツでやきゅう)"
+          ],
+          "correctOrderJson": "[\"スポーツで野球 (スポーツでやきゅう)\",\"が\",\"いちばんお\",\"も\",\"しろい\",\"です\"]",
+          "correctOrder": [
+            "スポーツで野球 (スポーツでやきゅう)",
+            "が",
+            "いちばんお",
+            "も",
+            "しろい",
+            "です"
+          ],
+          "orderIndex": 3
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000612002",
+          "patternId": "77777777-1123-0001-0000-000000006003",
+          "exerciseType": "ja_to_vi",
+          "prompt": "クラスで誰が一番背が高いですか。",
+          "promptReading": "クラスでだれがいちばんせがたかいですか。",
+          "expectedAnswer": "Trong lớp ai là người cao nhất?",
+          "hint": "N1 で N2 が いちばん A です",
+          "explanation": "いちばん nghĩa là số 1 / nhất.",
+          "orderIndex": 4
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000622002",
+          "patternId": "77777777-1123-0001-0000-000000006003",
+          "exerciseType": "vi_to_ja",
+          "prompt": "Trong lớp ai là người cao nhất?",
+          "expectedAnswer": "クラスで誰が一番背が高いですか。",
+          "acceptableAnswers": [
+            "クラスでだれがいちばんせがたかいですか。"
+          ],
+          "hint": "Phạm vi + で + Đối tượng + が + いちばん + Tính từ + です",
+          "explanation": "いちばん nghĩa là số 1 / nhất.",
+          "orderIndex": 5
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000632002",
+          "patternId": "77777777-1123-0001-0000-000000006003",
+          "exerciseType": "arrange",
+          "prompt": "Trong lớp ai là người cao nhất?",
+          "expectedAnswer": "クラスで誰 (クラスでだれ)が一番背 (いちばんせ)が高い (たかい)ですか",
+          "optionsJson": "[\"か\",\"が\",\"が\",\"です\",\"高い (たかい)\",\"一番背 (いちばんせ)\",\"クラスで誰 (クラスでだれ)\"]",
+          "options": [
+            "か",
+            "が",
+            "が",
+            "です",
+            "高い (たかい)",
+            "一番背 (いちばんせ)",
+            "クラスで誰 (クラスでだれ)"
+          ],
+          "correctOrderJson": "[\"クラスで誰 (クラスでだれ)\",\"が\",\"一番背 (いちばんせ)\",\"が\",\"高い (たかい)\",\"です\",\"か\"]",
+          "correctOrder": [
+            "クラスで誰 (クラスでだれ)",
+            "が",
+            "一番背 (いちばんせ)",
+            "が",
+            "高い (たかい)",
+            "です",
+            "か"
+          ],
+          "orderIndex": 6
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000612003",
+          "patternId": "77777777-1123-0001-0000-000000006003",
+          "exerciseType": "ja_to_vi",
+          "prompt": "一年でいつがいちばん暑いですか。",
+          "promptReading": "いちねんでいつがいちばんあついですか。",
+          "expectedAnswer": "Trong một năm, khi nào là nóng nhất?",
+          "hint": "N1 で N2 が いちばん A です",
+          "explanation": "いちばん nghĩa là số 1 / nhất.",
+          "orderIndex": 7
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000622003",
+          "patternId": "77777777-1123-0001-0000-000000006003",
+          "exerciseType": "vi_to_ja",
+          "prompt": "Trong một năm, khi nào là nóng nhất?",
+          "expectedAnswer": "一年でいつがいちばん暑いですか。",
+          "acceptableAnswers": [
+            "いちねんでいつがいちばんあついですか。"
+          ],
+          "hint": "Phạm vi + で + Đối tượng + が + いちばん + Tính từ + です",
+          "explanation": "いちばん nghĩa là số 1 / nhất.",
+          "orderIndex": 8
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000632003",
+          "patternId": "77777777-1123-0001-0000-000000006003",
+          "exerciseType": "arrange",
+          "prompt": "Trong một năm, khi nào là nóng nhất?",
+          "expectedAnswer": "一年でいつ (いちねんでいつ)がいちばん暑い (いちばんあつい)ですか",
+          "optionsJson": "[\"か\",\"が\",\"です\",\"一年でいつ (いちねんでいつ)\",\"いちばん暑い (いちばんあつい)\"]",
+          "options": [
+            "か",
+            "が",
+            "です",
+            "一年でいつ (いちねんでいつ)",
+            "いちばん暑い (いちばんあつい)"
+          ],
+          "correctOrderJson": "[\"一年でいつ (いちねんでいつ)\",\"が\",\"いちばん暑い (いちばんあつい)\",\"です\",\"か\"]",
+          "correctOrder": [
+            "一年でいつ (いちねんでいつ)",
+            "が",
+            "いちばん暑い (いちばんあつい)",
+            "です",
+            "か"
+          ],
+          "orderIndex": 9
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000612004",
+          "patternId": "77777777-1123-0001-0000-000000006003",
+          "exerciseType": "ja_to_vi",
+          "prompt": "果物でリンゴがいちばん好きです。",
+          "promptReading": "くだものでりんごがいちばんすきです。",
+          "expectedAnswer": "Trong các loại quả, tôi thích táo nhất.",
+          "hint": "N1 で N2 が いちばん A です",
+          "explanation": "いちばん nghĩa là số 1 / nhất.",
+          "orderIndex": 10
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000622004",
+          "patternId": "77777777-1123-0001-0000-000000006003",
+          "exerciseType": "vi_to_ja",
+          "prompt": "Trong các loại quả, tôi thích táo nhất.",
+          "expectedAnswer": "果物でリンゴがいちばん好きです。",
+          "acceptableAnswers": [
+            "くだものでりんごがいちばんすきです。"
+          ],
+          "hint": "Phạm vi + で + Đối tượng + が + いちばん + Tính từ + です",
+          "explanation": "いちばん nghĩa là số 1 / nhất.",
+          "orderIndex": 11
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000632004",
+          "patternId": "77777777-1123-0001-0000-000000006003",
+          "exerciseType": "arrange",
+          "prompt": "Trong các loại quả, tôi thích táo nhất.",
+          "expectedAnswer": "果物でリンゴ (くだものでりんご)がいちばん好き (いちばんすき)です",
+          "optionsJson": "[\"が\",\"です\",\"いちばん好き (いちばんすき)\",\"果物でリンゴ (くだものでりんご)\"]",
+          "options": [
+            "が",
+            "です",
+            "いちばん好き (いちばんすき)",
+            "果物でリンゴ (くだものでりんご)"
+          ],
+          "correctOrderJson": "[\"果物でリンゴ (くだものでりんご)\",\"が\",\"いちばん好き (いちばんすき)\",\"です\"]",
+          "correctOrder": [
+            "果物でリンゴ (くだものでりんご)",
+            "が",
+            "いちばん好き (いちばんすき)",
+            "です"
+          ],
+          "orderIndex": 12
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000612005",
+          "patternId": "77777777-1123-0001-0000-000000006003",
+          "exerciseType": "ja_to_vi",
+          "prompt": "世界でどこがいちばんきれいですか。",
+          "promptReading": "せかいでどこがいちばんきれいですか。",
+          "expectedAnswer": "Trên thế giới, nơi nào là đẹp nhất?",
+          "hint": "N1 で N2 が いちばん A です",
+          "explanation": "いちばん nghĩa là số 1 / nhất.",
+          "orderIndex": 13
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000622005",
+          "patternId": "77777777-1123-0001-0000-000000006003",
+          "exerciseType": "vi_to_ja",
+          "prompt": "Trên thế giới, nơi nào là đẹp nhất?",
+          "expectedAnswer": "世界でどこがいちばんきれいですか。",
+          "acceptableAnswers": [
+            "せかいでどこがいちばんきれいですか。"
+          ],
+          "hint": "Phạm vi + で + Đối tượng + が + いちばん + Tính từ + です",
+          "explanation": "いちばん nghĩa là số 1 / nhất.",
+          "orderIndex": 14
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000632005",
+          "patternId": "77777777-1123-0001-0000-000000006003",
+          "exerciseType": "arrange",
+          "prompt": "Trên thế giới, nơi nào là đẹp nhất?",
+          "expectedAnswer": "世界でどこ (せかいでどこ)がいちばんきれいですか",
+          "optionsJson": "[\"か\",\"が\",\"です\",\"いちばんきれい\",\"世界でどこ (せかいでどこ)\"]",
+          "options": [
+            "か",
+            "が",
+            "です",
+            "いちばんきれい",
+            "世界でどこ (せかいでどこ)"
+          ],
+          "correctOrderJson": "[\"世界でどこ (せかいでどこ)\",\"が\",\"いちばんきれい\",\"です\",\"か\"]",
+          "correctOrder": [
+            "世界でどこ (せかいでどこ)",
+            "が",
+            "いちばんきれい",
+            "です",
+            "か"
+          ],
+          "orderIndex": 15
+        }
+      ]
+    },
+    {
+      "id": "77777777-1123-0001-0000-000000006004",
+      "lessonId": "77777777-1123-0000-0000-000000000106",
+      "level": "N5",
+      "courseCode": "jpd123",
+      "pattern": "N1 は N2 より A です",
+      "title": "So sánh hơn",
+      "meaning": "N1 thì [tính chất] A hơn N2",
+      "structure": "N1 は N2 より A です",
+      "accessTier": "premium",
+      "isLocked": true,
+      "isInStudy": false,
+      "progress": null,
+      "usageScope": "So sánh hai đối tượng với nhau.",
+      "formation": "N1 + は + N2 + より + Tính từ + です",
+      "notes": "Đối tượng sau より là đối tượng làm chuẩn so sánh.",
+      "examples": [
+        {
+          "id": "77777777-1123-0002-0000-000000603001",
+          "japanese": "七月は八月より雨が多いです。",
+          "reading": "しちがつははちがつよりあめがおおいです。",
+          "meaning": "Tháng 7 mưa nhiều hơn tháng 8.",
+          "orderIndex": 1
+        },
+        {
+          "id": "77777777-1123-0002-0000-000000603002",
+          "japanese": "この鞄はその鞄より重いです。",
+          "reading": "このかばんはそのかばんよりおもいです。",
+          "meaning": "Cái túi này nặng hơn cái túi đó.",
+          "orderIndex": 2
+        },
+        {
+          "id": "77777777-1123-0002-0000-000000603003",
+          "japanese": "新幹線は電車より速いです。",
+          "reading": "しんかんせんはでんしゃよりはやいです。",
+          "meaning": "Tàu Shinkansen nhanh hơn tàu thường.",
+          "orderIndex": 3
+        },
+        {
+          "id": "77777777-1123-0002-0000-000000603004",
+          "japanese": "北海道は大阪より寒いです。",
+          "reading": "ほっかいどうはおおさかよりさむいです。",
+          "meaning": "Hokkaido lạnh hơn Osaka.",
+          "orderIndex": 4
+        },
+        {
+          "id": "77777777-1123-0002-0000-000000603005",
+          "japanese": "私は弟より背が高いです。",
+          "reading": "わたしはおとうとよりせがたかいです。",
+          "meaning": "Tôi cao hơn em trai.",
+          "orderIndex": 5
+        }
+      ],
+      "exercises": [
+        {
+          "id": "77777777-1123-0003-0000-000000613001",
+          "patternId": "77777777-1123-0001-0000-000000006004",
+          "exerciseType": "ja_to_vi",
+          "prompt": "七月は八月より雨が多いです。",
+          "promptReading": "しちがつははちがつよりあめがおおいです。",
+          "expectedAnswer": "Tháng 7 mưa nhiều hơn tháng 8.",
+          "hint": "N1 は N2 より A です",
+          "explanation": "Đối tượng sau より là đối tượng làm chuẩn so sánh.",
+          "orderIndex": 1
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000623001",
+          "patternId": "77777777-1123-0001-0000-000000006004",
+          "exerciseType": "vi_to_ja",
+          "prompt": "Tháng 7 mưa nhiều hơn tháng 8.",
+          "expectedAnswer": "七月は八月より雨が多いです。",
+          "acceptableAnswers": [
+            "しちがつははちがつよりあめがおおいです。"
+          ],
+          "hint": "N1 + は + N2 + より + Tính từ + です",
+          "explanation": "Đối tượng sau より là đối tượng làm chuẩn so sánh.",
+          "orderIndex": 2
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000633001",
+          "patternId": "77777777-1123-0001-0000-000000006004",
+          "exerciseType": "arrange",
+          "prompt": "Tháng 7 mưa nhiều hơn tháng 8.",
+          "expectedAnswer": "七月 (しちがつ)は八月より雨 (はち)が多い (つよりあめがおおい)です",
+          "optionsJson": "[\"が\",\"は\",\"です\",\"七月 (しちがつ)\",\"八月より雨 (はち)\",\"多い (つよりあめがおおい)\"]",
+          "options": [
+            "が",
+            "は",
+            "です",
+            "七月 (しちがつ)",
+            "八月より雨 (はち)",
+            "多い (つよりあめがおおい)"
+          ],
+          "correctOrderJson": "[\"七月 (しちがつ)\",\"は\",\"八月より雨 (はち)\",\"が\",\"多い (つよりあめがおおい)\",\"です\"]",
+          "correctOrder": [
+            "七月 (しちがつ)",
+            "は",
+            "八月より雨 (はち)",
+            "が",
+            "多い (つよりあめがおおい)",
+            "です"
+          ],
+          "orderIndex": 3
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000613002",
+          "patternId": "77777777-1123-0001-0000-000000006004",
+          "exerciseType": "ja_to_vi",
+          "prompt": "この鞄はその鞄より重いです。",
+          "promptReading": "このかばんはそのかばんよりおもいです。",
+          "expectedAnswer": "Cái túi này nặng hơn cái túi đó.",
+          "hint": "N1 は N2 より A です",
+          "explanation": "Đối tượng sau より là đối tượng làm chuẩn so sánh.",
+          "orderIndex": 4
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000623002",
+          "patternId": "77777777-1123-0001-0000-000000006004",
+          "exerciseType": "vi_to_ja",
+          "prompt": "Cái túi này nặng hơn cái túi đó.",
+          "expectedAnswer": "この鞄はその鞄より重いです。",
+          "acceptableAnswers": [
+            "このかばんはそのかばんよりおもいです。"
+          ],
+          "hint": "N1 + は + N2 + より + Tính từ + です",
+          "explanation": "Đối tượng sau より là đối tượng làm chuẩn so sánh.",
+          "orderIndex": 5
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000633002",
+          "patternId": "77777777-1123-0001-0000-000000006004",
+          "exerciseType": "arrange",
+          "prompt": "Cái túi này nặng hơn cái túi đó.",
+          "expectedAnswer": "この鞄 (かばん)はその鞄より重い (かばんよりおもい)です",
+          "optionsJson": "[\"こ\",\"そ\",\"の\",\"の\",\"は\",\"です\",\"鞄 (かばん)\",\"鞄より重い (かばんよりおもい)\"]",
+          "options": [
+            "こ",
+            "そ",
+            "の",
+            "の",
+            "は",
+            "です",
+            "鞄 (かばん)",
+            "鞄より重い (かばんよりおもい)"
+          ],
+          "correctOrderJson": "[\"こ\",\"の\",\"鞄 (かばん)\",\"は\",\"そ\",\"の\",\"鞄より重い (かばんよりおもい)\",\"です\"]",
+          "correctOrder": [
+            "こ",
+            "の",
+            "鞄 (かばん)",
+            "は",
+            "そ",
+            "の",
+            "鞄より重い (かばんよりおもい)",
+            "です"
+          ],
+          "orderIndex": 6
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000613003",
+          "patternId": "77777777-1123-0001-0000-000000006004",
+          "exerciseType": "ja_to_vi",
+          "prompt": "新幹線は電車より速いです。",
+          "promptReading": "しんかんせんはでんしゃよりはやいです。",
+          "expectedAnswer": "Tàu Shinkansen nhanh hơn tàu thường.",
+          "hint": "N1 は N2 より A です",
+          "explanation": "Đối tượng sau より là đối tượng làm chuẩn so sánh.",
+          "orderIndex": 7
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000623003",
+          "patternId": "77777777-1123-0001-0000-000000006004",
+          "exerciseType": "vi_to_ja",
+          "prompt": "Tàu Shinkansen nhanh hơn tàu thường.",
+          "expectedAnswer": "新幹線は電車より速いです。",
+          "acceptableAnswers": [
+            "しんかんせんはでんしゃよりはやいです。"
+          ],
+          "hint": "N1 + は + N2 + より + Tính từ + です",
+          "explanation": "Đối tượng sau より là đối tượng làm chuẩn so sánh.",
+          "orderIndex": 8
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000633003",
+          "patternId": "77777777-1123-0001-0000-000000006004",
+          "exerciseType": "arrange",
+          "prompt": "Tàu Shinkansen nhanh hơn tàu thường.",
+          "expectedAnswer": "新幹線 (しんかんせん)は電車より速い (でんしゃよりはやい)です",
+          "optionsJson": "[\"は\",\"です\",\"新幹線 (しんかんせん)\",\"電車より速い (でんしゃよりはやい)\"]",
+          "options": [
+            "は",
+            "です",
+            "新幹線 (しんかんせん)",
+            "電車より速い (でんしゃよりはやい)"
+          ],
+          "correctOrderJson": "[\"新幹線 (しんかんせん)\",\"は\",\"電車より速い (でんしゃよりはやい)\",\"です\"]",
+          "correctOrder": [
+            "新幹線 (しんかんせん)",
+            "は",
+            "電車より速い (でんしゃよりはやい)",
+            "です"
+          ],
+          "orderIndex": 9
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000613004",
+          "patternId": "77777777-1123-0001-0000-000000006004",
+          "exerciseType": "ja_to_vi",
+          "prompt": "北海道は大阪より寒いです。",
+          "promptReading": "ほっかいどうはおおさかよりさむいです。",
+          "expectedAnswer": "Hokkaido lạnh hơn Osaka.",
+          "hint": "N1 は N2 より A です",
+          "explanation": "Đối tượng sau より là đối tượng làm chuẩn so sánh.",
+          "orderIndex": 10
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000623004",
+          "patternId": "77777777-1123-0001-0000-000000006004",
+          "exerciseType": "vi_to_ja",
+          "prompt": "Hokkaido lạnh hơn Osaka.",
+          "expectedAnswer": "北海道は大阪より寒いです。",
+          "acceptableAnswers": [
+            "ほっかいどうはおおさかよりさむいです。"
+          ],
+          "hint": "N1 + は + N2 + より + Tính từ + です",
+          "explanation": "Đối tượng sau より là đối tượng làm chuẩn so sánh.",
+          "orderIndex": 11
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000633004",
+          "patternId": "77777777-1123-0001-0000-000000006004",
+          "exerciseType": "arrange",
+          "prompt": "Hokkaido lạnh hơn Osaka.",
+          "expectedAnswer": "北海道 (ほっかいどう)は大阪より寒い (おおさかよりさむい)です",
+          "optionsJson": "[\"は\",\"です\",\"北海道 (ほっかいどう)\",\"大阪より寒い (おおさかよりさむい)\"]",
+          "options": [
+            "は",
+            "です",
+            "北海道 (ほっかいどう)",
+            "大阪より寒い (おおさかよりさむい)"
+          ],
+          "correctOrderJson": "[\"北海道 (ほっかいどう)\",\"は\",\"大阪より寒い (おおさかよりさむい)\",\"です\"]",
+          "correctOrder": [
+            "北海道 (ほっかいどう)",
+            "は",
+            "大阪より寒い (おおさかよりさむい)",
+            "です"
+          ],
+          "orderIndex": 12
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000613005",
+          "patternId": "77777777-1123-0001-0000-000000006004",
+          "exerciseType": "ja_to_vi",
+          "prompt": "私は弟より背が高いです。",
+          "promptReading": "わたしはおとうとよりせがたかいです。",
+          "expectedAnswer": "Tôi cao hơn em trai.",
+          "hint": "N1 は N2 より A です",
+          "explanation": "Đối tượng sau より là đối tượng làm chuẩn so sánh.",
+          "orderIndex": 13
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000623005",
+          "patternId": "77777777-1123-0001-0000-000000006004",
+          "exerciseType": "vi_to_ja",
+          "prompt": "Tôi cao hơn em trai.",
+          "expectedAnswer": "私は弟より背が高いです。",
+          "acceptableAnswers": [
+            "わたしはおとうとよりせがたかいです。"
+          ],
+          "hint": "N1 + は + N2 + より + Tính từ + です",
+          "explanation": "Đối tượng sau より là đối tượng làm chuẩn so sánh.",
+          "orderIndex": 14
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000633005",
+          "patternId": "77777777-1123-0001-0000-000000006004",
+          "exerciseType": "arrange",
+          "prompt": "Tôi cao hơn em trai.",
+          "expectedAnswer": "私 (わたし)は弟より背 (おとうとよりせ)が高い (たかい)です",
+          "optionsJson": "[\"が\",\"は\",\"です\",\"私 (わたし)\",\"高い (たかい)\",\"弟より背 (おとうとよりせ)\"]",
+          "options": [
+            "が",
+            "は",
+            "です",
+            "私 (わたし)",
+            "高い (たかい)",
+            "弟より背 (おとうとよりせ)"
+          ],
+          "correctOrderJson": "[\"私 (わたし)\",\"は\",\"弟より背 (おとうとよりせ)\",\"が\",\"高い (たかい)\",\"です\"]",
+          "correctOrder": [
+            "私 (わたし)",
+            "は",
+            "弟より背 (おとうとよりせ)",
+            "が",
+            "高い (たかい)",
+            "です"
+          ],
+          "orderIndex": 15
+        }
+      ]
+    },
+    {
+      "id": "77777777-1123-0001-0000-000000006005",
+      "lessonId": "77777777-1123-0000-0000-000000000106",
+      "level": "N5",
+      "courseCode": "jpd123",
+      "pattern": "N1 と N2 と どちらが A ですか",
+      "title": "Câu hỏi so sánh giữa 2 đối tượng",
+      "meaning": "N1 và N2, cái nào [tính chất] A hơn?",
+      "structure": "N1 と N2 と どちらが A ですか",
+      "accessTier": "premium",
+      "isLocked": true,
+      "isInStudy": false,
+      "progress": null,
+      "usageScope": "Hỏi để lựa chọn một trong hai.",
+      "formation": "N1 + と + N2 + と + どちらが + Tính từ + ですか",
+      "notes": "Trả lời bằng N のほうが A です.",
+      "examples": [
+        {
+          "id": "77777777-1123-0002-0000-000000604001",
+          "japanese": "夏と冬とどちらが好きですか。",
+          "reading": "なつとふゆとどちらがすきですか。",
+          "meaning": "Giữa mùa hè và mùa đông, bạn thích mùa nào hơn?",
+          "orderIndex": 1
+        },
+        {
+          "id": "77777777-1123-0002-0000-000000604002",
+          "japanese": "リンゴと蜜柑とどちらが甘いですか。",
+          "reading": "りんごとみかんとどちらがあまいですか。",
+          "meaning": "Táo và quýt, cái nào ngọt hơn?",
+          "orderIndex": 2
+        },
+        {
+          "id": "77777777-1123-0002-0000-000000604003",
+          "japanese": "テニスとサッカーとどちらがおもしろいですか。",
+          "reading": "テニスとサッカーとどちらがおもしろいです。",
+          "meaning": "Tennis và bóng đá, cái nào thú vị hơn?",
+          "orderIndex": 3
+        },
+        {
+          "id": "77777777-1123-0002-0000-000000604004",
+          "japanese": "お父さんとお母さんとどちらが厳しいですか。",
+          "reading": "おとうさんとおかあさんとどちらがきびしいですか。",
+          "meaning": "Bố và mẹ, ai nghiêm khắc hơn?",
+          "orderIndex": 4
+        },
+        {
+          "id": "77777777-1123-0002-0000-000000604005",
+          "japanese": "肉と魚とどちらが健康にいいですか。",
+          "reading": "にくとさかなとどちらがけんこうにいいですか。",
+          "meaning": "Thịt và cá, cái nào tốt cho sức khỏe hơn?",
+          "orderIndex": 5
+        }
+      ],
+      "exercises": [
+        {
+          "id": "77777777-1123-0003-0000-000000614001",
+          "patternId": "77777777-1123-0001-0000-000000006005",
+          "exerciseType": "ja_to_vi",
+          "prompt": "夏と冬とどちらが好きですか。",
+          "promptReading": "なつとふゆとどちらがすきですか。",
+          "expectedAnswer": "Giữa mùa hè và mùa đông, bạn thích mùa nào hơn?",
+          "hint": "N1 と N2 と どちらが A ですか",
+          "explanation": "Trả lời bằng N のほうが A です.",
+          "orderIndex": 1
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000624001",
+          "patternId": "77777777-1123-0001-0000-000000006005",
+          "exerciseType": "vi_to_ja",
+          "prompt": "Giữa mùa hè và mùa đông, bạn thích mùa nào hơn?",
+          "expectedAnswer": "夏と冬とどちらが好きですか。",
+          "acceptableAnswers": [
+            "なつとふゆとどちらがすきですか。"
+          ],
+          "hint": "N1 + と + N2 + と + どちらが + Tính từ + ですか",
+          "explanation": "Trả lời bằng N のほうが A です.",
+          "orderIndex": 2
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000634001",
+          "patternId": "77777777-1123-0001-0000-000000006005",
+          "exerciseType": "arrange",
+          "prompt": "Giữa mùa hè và mùa đông, bạn thích mùa nào hơn?",
+          "expectedAnswer": "夏 (なつ)と冬 (ふゆ)とどちらが好き (すき)ですか",
+          "optionsJson": "[\"か\",\"が\",\"と\",\"と\",\"です\",\"どちら\",\"冬 (ふゆ)\",\"夏 (なつ)\",\"好き (すき)\"]",
+          "options": [
+            "か",
+            "が",
+            "と",
+            "と",
+            "です",
+            "どちら",
+            "冬 (ふゆ)",
+            "夏 (なつ)",
+            "好き (すき)"
+          ],
+          "correctOrderJson": "[\"夏 (なつ)\",\"と\",\"冬 (ふゆ)\",\"と\",\"どちら\",\"が\",\"好き (すき)\",\"です\",\"か\"]",
+          "correctOrder": [
+            "夏 (なつ)",
+            "と",
+            "冬 (ふゆ)",
+            "と",
+            "どちら",
+            "が",
+            "好き (すき)",
+            "です",
+            "か"
+          ],
+          "orderIndex": 3
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000614002",
+          "patternId": "77777777-1123-0001-0000-000000006005",
+          "exerciseType": "ja_to_vi",
+          "prompt": "リンゴと蜜柑とどちらが甘いですか。",
+          "promptReading": "りんごとみかんとどちらがあまいですか。",
+          "expectedAnswer": "Táo và quýt, cái nào ngọt hơn?",
+          "hint": "N1 と N2 と どちらが A ですか",
+          "explanation": "Trả lời bằng N のほうが A です.",
+          "orderIndex": 4
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000624002",
+          "patternId": "77777777-1123-0001-0000-000000006005",
+          "exerciseType": "vi_to_ja",
+          "prompt": "Táo và quýt, cái nào ngọt hơn?",
+          "expectedAnswer": "リンゴと蜜柑とどちらが甘いですか。",
+          "acceptableAnswers": [
+            "りんごとみかんとどちらがあまいですか。"
+          ],
+          "hint": "N1 + と + N2 + と + どちらが + Tính từ + ですか",
+          "explanation": "Trả lời bằng N のほうが A です.",
+          "orderIndex": 5
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000634002",
+          "patternId": "77777777-1123-0001-0000-000000006005",
+          "exerciseType": "arrange",
+          "prompt": "Táo và quýt, cái nào ngọt hơn?",
+          "expectedAnswer": "リンゴと蜜柑 (みかん)とどちらが甘い (あまい)ですか",
+          "optionsJson": "[\"か\",\"が\",\"と\",\"と\",\"です\",\"どちら\",\"リンゴ\",\"甘い (あまい)\",\"蜜柑 (みかん)\"]",
+          "options": [
+            "か",
+            "が",
+            "と",
+            "と",
+            "です",
+            "どちら",
+            "リンゴ",
+            "甘い (あまい)",
+            "蜜柑 (みかん)"
+          ],
+          "correctOrderJson": "[\"リンゴ\",\"と\",\"蜜柑 (みかん)\",\"と\",\"どちら\",\"が\",\"甘い (あまい)\",\"です\",\"か\"]",
+          "correctOrder": [
+            "リンゴ",
+            "と",
+            "蜜柑 (みかん)",
+            "と",
+            "どちら",
+            "が",
+            "甘い (あまい)",
+            "です",
+            "か"
+          ],
+          "orderIndex": 6
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000614003",
+          "patternId": "77777777-1123-0001-0000-000000006005",
+          "exerciseType": "ja_to_vi",
+          "prompt": "テニスとサッカーとどちらがおもしろいですか。",
+          "promptReading": "テニスとサッカーとどちらがおもしろいです。",
+          "expectedAnswer": "Tennis và bóng đá, cái nào thú vị hơn?",
+          "hint": "N1 と N2 と どちらが A ですか",
+          "explanation": "Trả lời bằng N のほうが A です.",
+          "orderIndex": 7
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000624003",
+          "patternId": "77777777-1123-0001-0000-000000006005",
+          "exerciseType": "vi_to_ja",
+          "prompt": "Tennis và bóng đá, cái nào thú vị hơn?",
+          "expectedAnswer": "テニスとサッカーとどちらがおもしろいですか。",
+          "acceptableAnswers": [
+            "テニスとサッカーとどちらがおもしろいです。"
+          ],
+          "hint": "N1 + と + N2 + と + どちらが + Tính từ + ですか",
+          "explanation": "Trả lời bằng N のほうが A です.",
+          "orderIndex": 8
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000634003",
+          "patternId": "77777777-1123-0001-0000-000000006005",
+          "exerciseType": "arrange",
+          "prompt": "Tennis và bóng đá, cái nào thú vị hơn?",
+          "expectedAnswer": "テニスとサッカーとどちらがおもしろいですか",
+          "optionsJson": "[\"お\",\"か\",\"が\",\"と\",\"と\",\"も\",\"です\",\"しろい\",\"どちら\",\"テニス\",\"サッカー\"]",
+          "options": [
+            "お",
+            "か",
+            "が",
+            "と",
+            "と",
+            "も",
+            "です",
+            "しろい",
+            "どちら",
+            "テニス",
+            "サッカー"
+          ],
+          "correctOrderJson": "[\"テニス\",\"と\",\"サッカー\",\"と\",\"どちら\",\"が\",\"お\",\"も\",\"しろい\",\"です\",\"か\"]",
+          "correctOrder": [
+            "テニス",
+            "と",
+            "サッカー",
+            "と",
+            "どちら",
+            "が",
+            "お",
+            "も",
+            "しろい",
+            "です",
+            "か"
+          ],
+          "orderIndex": 9
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000614004",
+          "patternId": "77777777-1123-0001-0000-000000006005",
+          "exerciseType": "ja_to_vi",
+          "prompt": "お父さんとお母さんとどちらが厳しいですか。",
+          "promptReading": "おとうさんとおかあさんとどちらがきびしいですか。",
+          "expectedAnswer": "Bố và mẹ, ai nghiêm khắc hơn?",
+          "hint": "N1 と N2 と どちらが A ですか",
+          "explanation": "Trả lời bằng N のほうが A です.",
+          "orderIndex": 10
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000624004",
+          "patternId": "77777777-1123-0001-0000-000000006005",
+          "exerciseType": "vi_to_ja",
+          "prompt": "Bố và mẹ, ai nghiêm khắc hơn?",
+          "expectedAnswer": "お父さんとお母さんとどちらが厳しいですか。",
+          "acceptableAnswers": [
+            "おとうさんとおかあさんとどちらがきびしいですか。"
+          ],
+          "hint": "N1 + と + N2 + と + どちらが + Tính từ + ですか",
+          "explanation": "Trả lời bằng N のほうが A です.",
+          "orderIndex": 11
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000634004",
+          "patternId": "77777777-1123-0001-0000-000000006005",
+          "exerciseType": "arrange",
+          "prompt": "Bố và mẹ, ai nghiêm khắc hơn?",
+          "expectedAnswer": "お父さん (お)とお母さん (うさん)とどちらが厳しい (きびしい)ですか",
+          "optionsJson": "[\"か\",\"が\",\"と\",\"と\",\"です\",\"どちら\",\"お父さん (お)\",\"厳しい (きびしい)\",\"お母さん (うさん)\"]",
+          "options": [
+            "か",
+            "が",
+            "と",
+            "と",
+            "です",
+            "どちら",
+            "お父さん (お)",
+            "厳しい (きびしい)",
+            "お母さん (うさん)"
+          ],
+          "correctOrderJson": "[\"お父さん (お)\",\"と\",\"お母さん (うさん)\",\"と\",\"どちら\",\"が\",\"厳しい (きびしい)\",\"です\",\"か\"]",
+          "correctOrder": [
+            "お父さん (お)",
+            "と",
+            "お母さん (うさん)",
+            "と",
+            "どちら",
+            "が",
+            "厳しい (きびしい)",
+            "です",
+            "か"
+          ],
+          "orderIndex": 12
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000614005",
+          "patternId": "77777777-1123-0001-0000-000000006005",
+          "exerciseType": "ja_to_vi",
+          "prompt": "肉と魚とどちらが健康にいいですか。",
+          "promptReading": "にくとさかなとどちらがけんこうにいいですか。",
+          "expectedAnswer": "Thịt và cá, cái nào tốt cho sức khỏe hơn?",
+          "hint": "N1 と N2 と どちらが A ですか",
+          "explanation": "Trả lời bằng N のほうが A です.",
+          "orderIndex": 13
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000624005",
+          "patternId": "77777777-1123-0001-0000-000000006005",
+          "exerciseType": "vi_to_ja",
+          "prompt": "Thịt và cá, cái nào tốt cho sức khỏe hơn?",
+          "expectedAnswer": "肉と魚とどちらが健康にいいですか。",
+          "acceptableAnswers": [
+            "にくとさかなとどちらがけんこうにいいですか。"
+          ],
+          "hint": "N1 + と + N2 + と + どちらが + Tính từ + ですか",
+          "explanation": "Trả lời bằng N のほうが A です.",
+          "orderIndex": 14
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000634005",
+          "patternId": "77777777-1123-0001-0000-000000006005",
+          "exerciseType": "arrange",
+          "prompt": "Thịt và cá, cái nào tốt cho sức khỏe hơn?",
+          "expectedAnswer": "肉 (にく)と魚 (さかな)とどちらが健康 (けんこう)にいいですか",
+          "optionsJson": "[\"か\",\"が\",\"と\",\"と\",\"に\",\"いい\",\"です\",\"どちら\",\"肉 (にく)\",\"魚 (さかな)\",\"健康 (けんこう)\"]",
+          "options": [
+            "か",
+            "が",
+            "と",
+            "と",
+            "に",
+            "いい",
+            "です",
+            "どちら",
+            "肉 (にく)",
+            "魚 (さかな)",
+            "健康 (けんこう)"
+          ],
+          "correctOrderJson": "[\"肉 (にく)\",\"と\",\"魚 (さかな)\",\"と\",\"どちら\",\"が\",\"健康 (けんこう)\",\"に\",\"いい\",\"です\",\"か\"]",
+          "correctOrder": [
+            "肉 (にく)",
+            "と",
+            "魚 (さかな)",
+            "と",
+            "どちら",
+            "が",
+            "健康 (けんこう)",
+            "に",
+            "いい",
+            "です",
+            "か"
+          ],
+          "orderIndex": 15
+        }
+      ]
+    }
+  ]
+}

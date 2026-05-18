@@ -1,0 +1,18 @@
+[
+  {
+    "level": "N5",
+    "courseCode": "jpd113",
+    "totalLessons": 3,
+    "totalKanji": 35,
+    "totalVocabulary": 98,
+    "progressPercentage": 0
+  },
+  {
+    "level": "N5",
+    "courseCode": "jpd123",
+    "totalLessons": 4,
+    "totalKanji": 42,
+    "totalVocabulary": 110,
+    "progressPercentage": 0
+  }
+]

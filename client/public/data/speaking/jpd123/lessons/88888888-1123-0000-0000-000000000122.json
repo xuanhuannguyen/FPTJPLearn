@@ -1,0 +1,115 @@
+{
+  "lesson": {
+    "id": "88888888-1123-0000-0000-000000000122",
+    "courseCode": "jpd123",
+    "lessonNumber": 22,
+    "title": "大学と カラオケ",
+    "description": "Đại học - Học ở đại học, đi mua áo và hát karaoke với bạn.",
+    "accessTier": "premium",
+    "packageCode": "speaking_jpd123",
+    "isLocked": true,
+    "sentenceCount": 10
+  },
+  "sentences": [
+    {
+      "id": "88888888-1123-0000-0000-000000022001",
+      "lessonId": "88888888-1123-0000-0000-000000000122",
+      "sentenceNumber": 1,
+      "plainText": "わたしは大学でべんきょうしています。",
+      "romaji": "watashi wa daigaku de benkyoushiteimasu.",
+      "contentHtml": "わたしは <ruby>大学<rt>だいがく</rt></ruby> で べんきょうしています。",
+      "meaningVi": "Tôi đang học ở đại học.",
+      "orderIndex": 1
+    },
+    {
+      "id": "88888888-1123-0000-0000-000000022002",
+      "lessonId": "88888888-1123-0000-0000-000000000122",
+      "sentenceNumber": 2,
+      "plainText": "大学はとても大きいです。",
+      "romaji": "daigaku wa totemo ookiidesu.",
+      "contentHtml": "<ruby>大学<rt>だいがく</rt></ruby> は とても <ruby>大<rt>おお</rt></ruby>きいです。",
+      "meaningVi": "Trường đại học rất lớn.",
+      "orderIndex": 2
+    },
+    {
+      "id": "88888888-1123-0000-0000-000000022003",
+      "lessonId": "88888888-1123-0000-0000-000000000122",
+      "sentenceNumber": 3,
+      "plainText": "ともだちとにほんごで話します。",
+      "romaji": "tomodachito nihongode hanashimasu.",
+      "contentHtml": "ともだちと にほんごで <ruby>話<rt>はな</rt></ruby>します。",
+      "meaningVi": "Tôi nói chuyện với bạn bằng tiếng Nhật.",
+      "orderIndex": 3
+    },
+    {
+      "id": "88888888-1123-0000-0000-000000022004",
+      "lessonId": "88888888-1123-0000-0000-000000000122",
+      "sentenceNumber": 4,
+      "plainText": "毎日ノートにことばを書いて、れんしゅうをしています。",
+      "romaji": "mainichi no-toni kotoba wo kaite,renshuu wo shiteimasu.",
+      "contentHtml": "<ruby>毎日<rt>まいにち</rt></ruby> ノートに ことばを <ruby>書<rt>か</rt></ruby>いて、れんしゅうを しています。",
+      "meaningVi": "Mỗi ngày tôi viết từ vựng vào vở để luyện tập.",
+      "orderIndex": 4
+    },
+    {
+      "id": "88888888-1123-0000-0000-000000022005",
+      "lessonId": "88888888-1123-0000-0000-000000000122",
+      "sentenceNumber": 5,
+      "plainText": "今日、ともだちがうちに来ました。",
+      "romaji": "kyou,tomodachiga uchini kimashita.",
+      "contentHtml": "<ruby>今日<rt>きょう</rt></ruby>、ともだちが うちに <ruby>来<rt>き</rt></ruby>ました。",
+      "meaningVi": "Hôm nay bạn tôi đã đến nhà.",
+      "orderIndex": 5
+    },
+    {
+      "id": "88888888-1123-0000-0000-000000022006",
+      "lessonId": "88888888-1123-0000-0000-000000000122",
+      "sentenceNumber": 6,
+      "plainText": "いっしょにべんきょうして、わからないところをおしえました。",
+      "romaji": "isshoni benkyoushite,wakaranai tokoro wo oshiemashita.",
+      "contentHtml": "いっしょに べんきょうして、わからない ところを おしえました。",
+      "meaningVi": "Chúng tôi cùng học và giải thích những chỗ chưa hiểu.",
+      "orderIndex": 6
+    },
+    {
+      "id": "88888888-1123-0000-0000-000000022007",
+      "lessonId": "88888888-1123-0000-0000-000000000122",
+      "sentenceNumber": 7,
+      "plainText": "とてもたのしかったです。",
+      "romaji": "totemo tanoshikattadesu.",
+      "contentHtml": "とても たのしかったです。",
+      "meaningVi": "Rất vui.",
+      "orderIndex": 7
+    },
+    {
+      "id": "88888888-1123-0000-0000-000000022008",
+      "lessonId": "88888888-1123-0000-0000-000000000122",
+      "sentenceNumber": 8,
+      "plainText": "そのあと、デパートへ行きました。",
+      "romaji": "sono ato,depa-to e ikimashita.",
+      "contentHtml": "その あと、デパートへ <ruby>行<rt>い</rt></ruby>きました。",
+      "meaningVi": "Sau đó chúng tôi đã đi cửa hàng bách hóa.",
+      "orderIndex": 8
+    },
+    {
+      "id": "88888888-1123-0000-0000-000000022009",
+      "lessonId": "88888888-1123-0000-0000-000000000122",
+      "sentenceNumber": 9,
+      "plainText": "シャツを見て、いちまい買いました。",
+      "romaji": "shatsu wo mite,ichimai kaimashita.",
+      "contentHtml": "シャツを <ruby>見<rt>み</rt></ruby>て、いちまい <ruby>買<rt>か</rt></ruby>いました。",
+      "meaningVi": "Tôi xem áo sơ mi và mua một chiếc.",
+      "orderIndex": 9
+    },
+    {
+      "id": "88888888-1123-0000-0000-000000022010",
+      "lessonId": "88888888-1123-0000-0000-000000000122",
+      "sentenceNumber": 10,
+      "plainText": "よるはカラオケでうたって、いいじかんをすごしました。",
+      "romaji": "yoru wa karaokede utatte,ii jikan wo sugoshimashita.",
+      "contentHtml": "よるは カラオケで うたって、いい じかんを すごしました。",
+      "meaningVi": "Buổi tối chúng tôi hát karaoke và trải qua khoảng thời gian rất vui.",
+      "orderIndex": 10
+    }
+  ]
+}

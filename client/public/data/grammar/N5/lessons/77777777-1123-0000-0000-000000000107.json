@@ -1,0 +1,1404 @@
+{
+  "lesson": {
+    "id": "77777777-1123-0000-0000-000000000107",
+    "level": "N5",
+    "courseCode": "jpd123",
+    "lessonNumber": 7,
+    "title": "Sự hiện diện và Đang thực hiện",
+    "description": "Học về sự hiện diện của người/động vật, thể て và thì hiện tại tiếp diễn.",
+    "patternCount": 5,
+    "accessTier": "premium",
+    "isLocked": true,
+    "inStudyCount": 0,
+    "masteredCount": 0,
+    "dueCount": 0
+  },
+  "patterns": [
+    {
+      "id": "77777777-1123-0001-0000-000000007001",
+      "lessonId": "77777777-1123-0000-0000-000000000107",
+      "level": "N5",
+      "courseCode": "jpd123",
+      "pattern": "N1 に N2 (Người/Động vật) が います",
+      "title": "Sự hiện diện (Người/Động vật)",
+      "meaning": "Ở N1 có N2",
+      "structure": "Địa điểm に Người が います",
+      "accessTier": "premium",
+      "isLocked": true,
+      "isInStudy": false,
+      "progress": null,
+      "usageScope": "Diễn tả sự hiện diện của con người hoặc động vật.",
+      "formation": "N địa điểm + に + N người + が + います",
+      "notes": "います dùng cho sinh vật sống tự di chuyển được.",
+      "examples": [
+        {
+          "id": "77777777-1123-0002-0000-000000700001",
+          "japanese": "あそこにパクさんがいます。",
+          "reading": "あそこにパクさんがいます。",
+          "meaning": "Anh Park ở đằng kia.",
+          "orderIndex": 1
+        },
+        {
+          "id": "77777777-1123-0002-0000-000000700002",
+          "japanese": "部屋に猫がいます。",
+          "reading": "へやにねこがいます。",
+          "meaning": "Có con mèo ở trong phòng.",
+          "orderIndex": 2
+        },
+        {
+          "id": "77777777-1123-0002-0000-000000700003",
+          "japanese": "公園に子供がいます。",
+          "reading": "こうえんにこどもがいます。",
+          "meaning": "Trong công viên có trẻ con.",
+          "orderIndex": 3
+        },
+        {
+          "id": "77777777-1123-0002-0000-000000700004",
+          "japanese": "庭に犬が二匹います。",
+          "reading": "にわにいぬがにひきいます。",
+          "meaning": "Trong sân có 2 con chó.",
+          "orderIndex": 4
+        },
+        {
+          "id": "77777777-1123-0002-0000-000000700005",
+          "japanese": "事務所に田中さんがいますか。",
+          "reading": "じむしょにたなかさんがいますか。",
+          "meaning": "Anh Tanaka có ở văn phòng không?",
+          "orderIndex": 5
+        }
+      ],
+      "exercises": [
+        {
+          "id": "77777777-1123-0003-0000-000000710001",
+          "patternId": "77777777-1123-0001-0000-000000007001",
+          "exerciseType": "ja_to_vi",
+          "prompt": "あそこにパクさんがいます。",
+          "promptReading": "あそこにパクさんがいます。",
+          "expectedAnswer": "Anh Park ở đằng kia.",
+          "hint": "N1 に N2 (Người/Động vật) が います",
+          "explanation": "います dùng cho sinh vật sống tự di chuyển được.",
+          "orderIndex": 1
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000720001",
+          "patternId": "77777777-1123-0001-0000-000000007001",
+          "exerciseType": "vi_to_ja",
+          "prompt": "Anh Park ở đằng kia.",
+          "expectedAnswer": "あそこにパクさんがいます。",
+          "acceptableAnswers": [
+            "あそこにパクさんがいます。"
+          ],
+          "hint": "N địa điểm + に + N người + が + います",
+          "explanation": "います dùng cho sinh vật sống tự di chuyển được.",
+          "orderIndex": 2
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000730001",
+          "patternId": "77777777-1123-0001-0000-000000007001",
+          "exerciseType": "arrange",
+          "prompt": "Anh Park ở đằng kia.",
+          "expectedAnswer": "あそこにパクさんがいます",
+          "optionsJson": "[\"が\",\"に\",\"あそこ\",\"います\",\"パクさん\"]",
+          "options": [
+            "が",
+            "に",
+            "あそこ",
+            "います",
+            "パクさん"
+          ],
+          "correctOrderJson": "[\"あそこ\",\"に\",\"パクさん\",\"が\",\"います\"]",
+          "correctOrder": [
+            "あそこ",
+            "に",
+            "パクさん",
+            "が",
+            "います"
+          ],
+          "orderIndex": 3
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000710002",
+          "patternId": "77777777-1123-0001-0000-000000007001",
+          "exerciseType": "ja_to_vi",
+          "prompt": "部屋に猫がいます。",
+          "promptReading": "へやにねこがいます。",
+          "expectedAnswer": "Có con mèo ở trong phòng.",
+          "hint": "N1 に N2 (Người/Động vật) が います",
+          "explanation": "います dùng cho sinh vật sống tự di chuyển được.",
+          "orderIndex": 4
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000720002",
+          "patternId": "77777777-1123-0001-0000-000000007001",
+          "exerciseType": "vi_to_ja",
+          "prompt": "Có con mèo ở trong phòng.",
+          "expectedAnswer": "部屋に猫がいます。",
+          "acceptableAnswers": [
+            "へやにねこがいます。"
+          ],
+          "hint": "N địa điểm + に + N người + が + います",
+          "explanation": "います dùng cho sinh vật sống tự di chuyển được.",
+          "orderIndex": 5
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000730002",
+          "patternId": "77777777-1123-0001-0000-000000007001",
+          "exerciseType": "arrange",
+          "prompt": "Có con mèo ở trong phòng.",
+          "expectedAnswer": "部屋 (へや)に猫 (ねこ)がいます",
+          "optionsJson": "[\"が\",\"に\",\"います\",\"猫 (ねこ)\",\"部屋 (へや)\"]",
+          "options": [
+            "が",
+            "に",
+            "います",
+            "猫 (ねこ)",
+            "部屋 (へや)"
+          ],
+          "correctOrderJson": "[\"部屋 (へや)\",\"に\",\"猫 (ねこ)\",\"が\",\"います\"]",
+          "correctOrder": [
+            "部屋 (へや)",
+            "に",
+            "猫 (ねこ)",
+            "が",
+            "います"
+          ],
+          "orderIndex": 6
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000710003",
+          "patternId": "77777777-1123-0001-0000-000000007001",
+          "exerciseType": "ja_to_vi",
+          "prompt": "公園に子供がいます。",
+          "promptReading": "こうえんにこどもがいます。",
+          "expectedAnswer": "Trong công viên có trẻ con.",
+          "hint": "N1 に N2 (Người/Động vật) が います",
+          "explanation": "います dùng cho sinh vật sống tự di chuyển được.",
+          "orderIndex": 7
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000720003",
+          "patternId": "77777777-1123-0001-0000-000000007001",
+          "exerciseType": "vi_to_ja",
+          "prompt": "Trong công viên có trẻ con.",
+          "expectedAnswer": "公園に子供がいます。",
+          "acceptableAnswers": [
+            "こうえんにこどもがいます。"
+          ],
+          "hint": "N địa điểm + に + N người + が + います",
+          "explanation": "います dùng cho sinh vật sống tự di chuyển được.",
+          "orderIndex": 8
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000730003",
+          "patternId": "77777777-1123-0001-0000-000000007001",
+          "exerciseType": "arrange",
+          "prompt": "Trong công viên có trẻ con.",
+          "expectedAnswer": "公園 (こうえん)に子供 (こども)がいます",
+          "optionsJson": "[\"が\",\"に\",\"います\",\"子供 (こども)\",\"公園 (こうえん)\"]",
+          "options": [
+            "が",
+            "に",
+            "います",
+            "子供 (こども)",
+            "公園 (こうえん)"
+          ],
+          "correctOrderJson": "[\"公園 (こうえん)\",\"に\",\"子供 (こども)\",\"が\",\"います\"]",
+          "correctOrder": [
+            "公園 (こうえん)",
+            "に",
+            "子供 (こども)",
+            "が",
+            "います"
+          ],
+          "orderIndex": 9
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000710004",
+          "patternId": "77777777-1123-0001-0000-000000007001",
+          "exerciseType": "ja_to_vi",
+          "prompt": "庭に犬が二匹います。",
+          "promptReading": "にわにいぬがにひきいます。",
+          "expectedAnswer": "Trong sân có 2 con chó.",
+          "hint": "N1 に N2 (Người/Động vật) が います",
+          "explanation": "います dùng cho sinh vật sống tự di chuyển được.",
+          "orderIndex": 10
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000720004",
+          "patternId": "77777777-1123-0001-0000-000000007001",
+          "exerciseType": "vi_to_ja",
+          "prompt": "Trong sân có 2 con chó.",
+          "expectedAnswer": "庭に犬が二匹います。",
+          "acceptableAnswers": [
+            "にわにいぬがにひきいます。"
+          ],
+          "hint": "N địa điểm + に + N người + が + います",
+          "explanation": "います dùng cho sinh vật sống tự di chuyển được.",
+          "orderIndex": 11
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000730004",
+          "patternId": "77777777-1123-0001-0000-000000007001",
+          "exerciseType": "arrange",
+          "prompt": "Trong sân có 2 con chó.",
+          "expectedAnswer": "庭に犬 (わにいぬ)が二匹います (にひきいます)",
+          "optionsJson": "[\"が\",\"に\",\"庭\",\"犬 (わにいぬ)\",\"二匹います (にひきいます)\"]",
+          "options": [
+            "が",
+            "に",
+            "庭",
+            "犬 (わにいぬ)",
+            "二匹います (にひきいます)"
+          ],
+          "correctOrderJson": "[\"庭\",\"に\",\"犬 (わにいぬ)\",\"が\",\"二匹います (にひきいます)\"]",
+          "correctOrder": [
+            "庭",
+            "に",
+            "犬 (わにいぬ)",
+            "が",
+            "二匹います (にひきいます)"
+          ],
+          "orderIndex": 12
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000710005",
+          "patternId": "77777777-1123-0001-0000-000000007001",
+          "exerciseType": "ja_to_vi",
+          "prompt": "事務所に田中さんがいますか。",
+          "promptReading": "じむしょにたなかさんがいますか。",
+          "expectedAnswer": "Anh Tanaka có ở văn phòng không?",
+          "hint": "N1 に N2 (Người/Động vật) が います",
+          "explanation": "います dùng cho sinh vật sống tự di chuyển được.",
+          "orderIndex": 13
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000720005",
+          "patternId": "77777777-1123-0001-0000-000000007001",
+          "exerciseType": "vi_to_ja",
+          "prompt": "Anh Tanaka có ở văn phòng không?",
+          "expectedAnswer": "事務所に田中さんがいますか。",
+          "acceptableAnswers": [
+            "じむしょにたなかさんがいますか。"
+          ],
+          "hint": "N địa điểm + に + N người + が + います",
+          "explanation": "います dùng cho sinh vật sống tự di chuyển được.",
+          "orderIndex": 14
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000730005",
+          "patternId": "77777777-1123-0001-0000-000000007001",
+          "exerciseType": "arrange",
+          "prompt": "Anh Tanaka có ở văn phòng không?",
+          "expectedAnswer": "事務所 (じむしょ)に田中さん (たなかさん)がいますか",
+          "optionsJson": "[\"が\",\"に\",\"いますか\",\"事務所 (じむしょ)\",\"田中さん (たなかさん)\"]",
+          "options": [
+            "が",
+            "に",
+            "いますか",
+            "事務所 (じむしょ)",
+            "田中さん (たなかさん)"
+          ],
+          "correctOrderJson": "[\"事務所 (じむしょ)\",\"に\",\"田中さん (たなかさん)\",\"が\",\"いますか\"]",
+          "correctOrder": [
+            "事務所 (じむしょ)",
+            "に",
+            "田中さん (たなかさん)",
+            "が",
+            "いますか"
+          ],
+          "orderIndex": 15
+        }
+      ]
+    },
+    {
+      "id": "77777777-1123-0001-0000-000000007002",
+      "lessonId": "77777777-1123-0000-0000-000000000107",
+      "level": "N5",
+      "courseCode": "jpd123",
+      "pattern": "Vて ください",
+      "title": "Sai khiến / Yêu cầu lịch sự",
+      "meaning": "Xin hãy V",
+      "structure": "Vて + ください",
+      "accessTier": "premium",
+      "isLocked": true,
+      "isInStudy": false,
+      "progress": null,
+      "usageScope": "Yêu cầu, nhờ vả hoặc chỉ dẫn đối phương làm gì.",
+      "formation": "Động từ chia thể て + ください",
+      "notes": "Thể て là cơ sở cho nhiều cấu trúc nâng cao.",
+      "examples": [
+        {
+          "id": "77777777-1123-0002-0000-000000701001",
+          "japanese": "私の鞄をとってください。",
+          "reading": "わたしのかばんをとってください。",
+          "meaning": "Xin hãy lấy cặp của tôi.",
+          "orderIndex": 1
+        },
+        {
+          "id": "77777777-1123-0002-0000-000000701002",
+          "japanese": "ここに名前を書いてください。",
+          "reading": "ここになまえをかいてください。",
+          "meaning": "Xin hãy viết tên vào đây.",
+          "orderIndex": 2
+        },
+        {
+          "id": "77777777-1123-0002-0000-000000701003",
+          "japanese": "窓を開けてください。",
+          "reading": "まどをあけてください。",
+          "meaning": "Hãy mở cửa sổ giúp tôi.",
+          "orderIndex": 3
+        },
+        {
+          "id": "77777777-1123-0002-0000-000000701004",
+          "japanese": "少し待ってください。",
+          "reading": "すこしまってください。",
+          "meaning": "Xin hãy đợi một chút.",
+          "orderIndex": 4
+        },
+        {
+          "id": "77777777-1123-0002-0000-000000701005",
+          "japanese": "日本語で話してください。",
+          "reading": "にほんごではなしてください。",
+          "meaning": "Hãy nói bằng tiếng Nhật.",
+          "orderIndex": 5
+        }
+      ],
+      "exercises": [
+        {
+          "id": "77777777-1123-0003-0000-000000711001",
+          "patternId": "77777777-1123-0001-0000-000000007002",
+          "exerciseType": "ja_to_vi",
+          "prompt": "私の鞄をとってください。",
+          "promptReading": "わたしのかばんをとってください。",
+          "expectedAnswer": "Xin hãy lấy cặp của tôi.",
+          "hint": "Vて ください",
+          "explanation": "Thể て là cơ sở cho nhiều cấu trúc nâng cao.",
+          "orderIndex": 1
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000721001",
+          "patternId": "77777777-1123-0001-0000-000000007002",
+          "exerciseType": "vi_to_ja",
+          "prompt": "Xin hãy lấy cặp của tôi.",
+          "expectedAnswer": "私の鞄をとってください。",
+          "acceptableAnswers": [
+            "わたしのかばんをとってください。"
+          ],
+          "hint": "Động từ chia thể て + ください",
+          "explanation": "Thể て là cơ sở cho nhiều cấu trúc nâng cao.",
+          "orderIndex": 2
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000731001",
+          "patternId": "77777777-1123-0001-0000-000000007002",
+          "exerciseType": "arrange",
+          "prompt": "Xin hãy lấy cặp của tôi.",
+          "expectedAnswer": "私 (わたし)の鞄 (かばん)をとってください",
+          "optionsJson": "[\"と\",\"の\",\"を\",\"私 (わたし)\",\"ってください\",\"鞄 (かばん)\"]",
+          "options": [
+            "と",
+            "の",
+            "を",
+            "私 (わたし)",
+            "ってください",
+            "鞄 (かばん)"
+          ],
+          "correctOrderJson": "[\"私 (わたし)\",\"の\",\"鞄 (かばん)\",\"を\",\"と\",\"ってください\"]",
+          "correctOrder": [
+            "私 (わたし)",
+            "の",
+            "鞄 (かばん)",
+            "を",
+            "と",
+            "ってください"
+          ],
+          "orderIndex": 3
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000711002",
+          "patternId": "77777777-1123-0001-0000-000000007002",
+          "exerciseType": "ja_to_vi",
+          "prompt": "ここに名前を書いてください。",
+          "promptReading": "ここになまえをかいてください。",
+          "expectedAnswer": "Xin hãy viết tên vào đây.",
+          "hint": "Vて ください",
+          "explanation": "Thể て là cơ sở cho nhiều cấu trúc nâng cao.",
+          "orderIndex": 4
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000721002",
+          "patternId": "77777777-1123-0001-0000-000000007002",
+          "exerciseType": "vi_to_ja",
+          "prompt": "Xin hãy viết tên vào đây.",
+          "expectedAnswer": "ここに名前を書いてください。",
+          "acceptableAnswers": [
+            "ここになまえをかいてください。"
+          ],
+          "hint": "Động từ chia thể て + ください",
+          "explanation": "Thể て là cơ sở cho nhiều cấu trúc nâng cao.",
+          "orderIndex": 5
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000731002",
+          "patternId": "77777777-1123-0001-0000-000000007002",
+          "exerciseType": "arrange",
+          "prompt": "Xin hãy viết tên vào đây.",
+          "expectedAnswer": "ここに名前 (なまえ)を書いてください (かいてください)",
+          "optionsJson": "[\"に\",\"を\",\"ここ\",\"名前 (なまえ)\",\"書いてください (かいてください)\"]",
+          "options": [
+            "に",
+            "を",
+            "ここ",
+            "名前 (なまえ)",
+            "書いてください (かいてください)"
+          ],
+          "correctOrderJson": "[\"ここ\",\"に\",\"名前 (なまえ)\",\"を\",\"書いてください (かいてください)\"]",
+          "correctOrder": [
+            "ここ",
+            "に",
+            "名前 (なまえ)",
+            "を",
+            "書いてください (かいてください)"
+          ],
+          "orderIndex": 6
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000711003",
+          "patternId": "77777777-1123-0001-0000-000000007002",
+          "exerciseType": "ja_to_vi",
+          "prompt": "窓を開けてください。",
+          "promptReading": "まどをあけてください。",
+          "expectedAnswer": "Hãy mở cửa sổ giúp tôi.",
+          "hint": "Vて ください",
+          "explanation": "Thể て là cơ sở cho nhiều cấu trúc nâng cao.",
+          "orderIndex": 7
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000721003",
+          "patternId": "77777777-1123-0001-0000-000000007002",
+          "exerciseType": "vi_to_ja",
+          "prompt": "Hãy mở cửa sổ giúp tôi.",
+          "expectedAnswer": "窓を開けてください。",
+          "acceptableAnswers": [
+            "まどをあけてください。"
+          ],
+          "hint": "Động từ chia thể て + ください",
+          "explanation": "Thể て là cơ sở cho nhiều cấu trúc nâng cao.",
+          "orderIndex": 8
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000731003",
+          "patternId": "77777777-1123-0001-0000-000000007002",
+          "exerciseType": "arrange",
+          "prompt": "Hãy mở cửa sổ giúp tôi.",
+          "expectedAnswer": "窓 (まど)を開けてください (あけてください)",
+          "optionsJson": "[\"を\",\"窓 (まど)\",\"開けてください (あけてください)\"]",
+          "options": [
+            "を",
+            "窓 (まど)",
+            "開けてください (あけてください)"
+          ],
+          "correctOrderJson": "[\"窓 (まど)\",\"を\",\"開けてください (あけてください)\"]",
+          "correctOrder": [
+            "窓 (まど)",
+            "を",
+            "開けてください (あけてください)"
+          ],
+          "orderIndex": 9
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000711004",
+          "patternId": "77777777-1123-0001-0000-000000007002",
+          "exerciseType": "ja_to_vi",
+          "prompt": "少し待ってください。",
+          "promptReading": "すこしまってください。",
+          "expectedAnswer": "Xin hãy đợi một chút.",
+          "hint": "Vて ください",
+          "explanation": "Thể て là cơ sở cho nhiều cấu trúc nâng cao.",
+          "orderIndex": 10
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000721004",
+          "patternId": "77777777-1123-0001-0000-000000007002",
+          "exerciseType": "vi_to_ja",
+          "prompt": "Xin hãy đợi một chút.",
+          "expectedAnswer": "少し待ってください。",
+          "acceptableAnswers": [
+            "すこしまってください。"
+          ],
+          "hint": "Động từ chia thể て + ください",
+          "explanation": "Thể て là cơ sở cho nhiều cấu trúc nâng cao.",
+          "orderIndex": 11
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000711005",
+          "patternId": "77777777-1123-0001-0000-000000007002",
+          "exerciseType": "ja_to_vi",
+          "prompt": "日本語で話してください。",
+          "promptReading": "にほんごではなしてください。",
+          "expectedAnswer": "Hãy nói bằng tiếng Nhật.",
+          "hint": "Vて ください",
+          "explanation": "Thể て là cơ sở cho nhiều cấu trúc nâng cao.",
+          "orderIndex": 12
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000721005",
+          "patternId": "77777777-1123-0001-0000-000000007002",
+          "exerciseType": "vi_to_ja",
+          "prompt": "Hãy nói bằng tiếng Nhật.",
+          "expectedAnswer": "日本語で話してください。",
+          "acceptableAnswers": [
+            "にほんごではなしてください。"
+          ],
+          "hint": "Động từ chia thể て + ください",
+          "explanation": "Thể て là cơ sở cho nhiều cấu trúc nâng cao.",
+          "orderIndex": 13
+        }
+      ]
+    },
+    {
+      "id": "77777777-1123-0001-0000-000000007003",
+      "lessonId": "77777777-1123-0000-0000-000000000107",
+      "level": "N5",
+      "courseCode": "jpd123",
+      "pattern": "Vて います",
+      "title": "Thì hiện tại tiếp diễn",
+      "meaning": "Đang làm V",
+      "structure": "Vて + います",
+      "accessTier": "premium",
+      "isLocked": true,
+      "isInStudy": false,
+      "progress": null,
+      "usageScope": "Diễn tả hành động đang diễn ra tại thời điểm nói.",
+      "formation": "Động từ chia thể て + います",
+      "notes": "Cũng dùng để diễn tả trạng thái.",
+      "examples": [
+        {
+          "id": "77777777-1123-0002-0000-000000702001",
+          "japanese": "パクさんは電話をかけています。",
+          "reading": "パクさんはでんわをかけています。",
+          "meaning": "Anh Park đang gọi điện thoại.",
+          "orderIndex": 1
+        },
+        {
+          "id": "77777777-1123-0002-0000-000000702002",
+          "japanese": "今、雨が降っています。",
+          "reading": "いま、あめがふっています。",
+          "meaning": "Bây giờ trời đang mưa.",
+          "orderIndex": 2
+        },
+        {
+          "id": "77777777-1123-0002-0000-000000702003",
+          "japanese": "子供たちは公園で遊んでいます。",
+          "reading": "こどもたちはこうえんであそんでいます。",
+          "meaning": "Lũ trẻ đang chơi ở công viên.",
+          "orderIndex": 3
+        },
+        {
+          "id": "77777777-1123-0002-0000-000000702004",
+          "japanese": "私は日本語を勉強しています。",
+          "reading": "わたしはにほんごをべんきょうしています。",
+          "meaning": "Tôi đang học tiếng Nhật.",
+          "orderIndex": 4
+        },
+        {
+          "id": "77777777-1123-0002-0000-000000702005",
+          "japanese": "料理を作っています。",
+          "reading": "りょうりをつくっています。",
+          "meaning": "Tôi đang nấu ăn.",
+          "orderIndex": 5
+        }
+      ],
+      "exercises": [
+        {
+          "id": "77777777-1123-0003-0000-000000712001",
+          "patternId": "77777777-1123-0001-0000-000000007003",
+          "exerciseType": "ja_to_vi",
+          "prompt": "パクさんは電話をかけています。",
+          "promptReading": "パクさんはでんわをかけています。",
+          "expectedAnswer": "Anh Park đang gọi điện thoại.",
+          "hint": "Vて います",
+          "explanation": "Cũng dùng để diễn tả trạng thái.",
+          "orderIndex": 1
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000722001",
+          "patternId": "77777777-1123-0001-0000-000000007003",
+          "exerciseType": "vi_to_ja",
+          "prompt": "Anh Park đang gọi điện thoại.",
+          "expectedAnswer": "パクさんは電話をかけています。",
+          "acceptableAnswers": [
+            "パクさんはでんわをかけています。"
+          ],
+          "hint": "Động từ chia thể て + います",
+          "explanation": "Cũng dùng để diễn tả trạng thái.",
+          "orderIndex": 2
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000732001",
+          "patternId": "77777777-1123-0001-0000-000000007003",
+          "exerciseType": "arrange",
+          "prompt": "Anh Park đang gọi điện thoại.",
+          "expectedAnswer": "パクさんは電話 (でんわ)をかけています",
+          "optionsJson": "[\"は\",\"を\",\"パクさん\",\"かけています\",\"電話 (でんわ)\"]",
+          "options": [
+            "は",
+            "を",
+            "パクさん",
+            "かけています",
+            "電話 (でんわ)"
+          ],
+          "correctOrderJson": "[\"パクさん\",\"は\",\"電話 (でんわ)\",\"を\",\"かけています\"]",
+          "correctOrder": [
+            "パクさん",
+            "は",
+            "電話 (でんわ)",
+            "を",
+            "かけています"
+          ],
+          "orderIndex": 3
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000712002",
+          "patternId": "77777777-1123-0001-0000-000000007003",
+          "exerciseType": "ja_to_vi",
+          "prompt": "今、雨が降っています。",
+          "promptReading": "いま、あめがふっています。",
+          "expectedAnswer": "Bây giờ trời đang mưa.",
+          "hint": "Vて います",
+          "explanation": "Cũng dùng để diễn tả trạng thái.",
+          "orderIndex": 4
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000722002",
+          "patternId": "77777777-1123-0001-0000-000000007003",
+          "exerciseType": "vi_to_ja",
+          "prompt": "Bây giờ trời đang mưa.",
+          "expectedAnswer": "今、雨が降っています。",
+          "acceptableAnswers": [
+            "いま、あめがふっています。"
+          ],
+          "hint": "Động từ chia thể て + います",
+          "explanation": "Cũng dùng để diễn tả trạng thái.",
+          "orderIndex": 5
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000732002",
+          "patternId": "77777777-1123-0001-0000-000000007003",
+          "exerciseType": "arrange",
+          "prompt": "Bây giờ trời đang mưa.",
+          "expectedAnswer": "今、雨 (いま、あめ)が降っています (ふっています)",
+          "optionsJson": "[\"が\",\"今、雨 (いま、あめ)\",\"降っています (ふっています)\"]",
+          "options": [
+            "が",
+            "今、雨 (いま、あめ)",
+            "降っています (ふっています)"
+          ],
+          "correctOrderJson": "[\"今、雨 (いま、あめ)\",\"が\",\"降っています (ふっています)\"]",
+          "correctOrder": [
+            "今、雨 (いま、あめ)",
+            "が",
+            "降っています (ふっています)"
+          ],
+          "orderIndex": 6
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000712003",
+          "patternId": "77777777-1123-0001-0000-000000007003",
+          "exerciseType": "ja_to_vi",
+          "prompt": "子供たちは公園で遊んでいます。",
+          "promptReading": "こどもたちはこうえんであそんでいます。",
+          "expectedAnswer": "Lũ trẻ đang chơi ở công viên.",
+          "hint": "Vて います",
+          "explanation": "Cũng dùng để diễn tả trạng thái.",
+          "orderIndex": 7
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000722003",
+          "patternId": "77777777-1123-0001-0000-000000007003",
+          "exerciseType": "vi_to_ja",
+          "prompt": "Lũ trẻ đang chơi ở công viên.",
+          "expectedAnswer": "子供たちは公園で遊んでいます。",
+          "acceptableAnswers": [
+            "こどもたちはこうえんであそんでいます。"
+          ],
+          "hint": "Động từ chia thể て + います",
+          "explanation": "Cũng dùng để diễn tả trạng thái.",
+          "orderIndex": 8
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000732003",
+          "patternId": "77777777-1123-0001-0000-000000007003",
+          "exerciseType": "arrange",
+          "prompt": "Lũ trẻ đang chơi ở công viên.",
+          "expectedAnswer": "子供たち (こどもたち)は公園で遊んでいます (こうえんであそんでいます)",
+          "optionsJson": "[\"は\",\"子供たち (こどもたち)\",\"公園で遊んでいます (こうえんであそんでいます)\"]",
+          "options": [
+            "は",
+            "子供たち (こどもたち)",
+            "公園で遊んでいます (こうえんであそんでいます)"
+          ],
+          "correctOrderJson": "[\"子供たち (こどもたち)\",\"は\",\"公園で遊んでいます (こうえんであそんでいます)\"]",
+          "correctOrder": [
+            "子供たち (こどもたち)",
+            "は",
+            "公園で遊んでいます (こうえんであそんでいます)"
+          ],
+          "orderIndex": 9
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000712004",
+          "patternId": "77777777-1123-0001-0000-000000007003",
+          "exerciseType": "ja_to_vi",
+          "prompt": "私は日本語を勉強しています。",
+          "promptReading": "わたしはにほんごをべんきょうしています。",
+          "expectedAnswer": "Tôi đang học tiếng Nhật.",
+          "hint": "Vて います",
+          "explanation": "Cũng dùng để diễn tả trạng thái.",
+          "orderIndex": 10
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000722004",
+          "patternId": "77777777-1123-0001-0000-000000007003",
+          "exerciseType": "vi_to_ja",
+          "prompt": "Tôi đang học tiếng Nhật.",
+          "expectedAnswer": "私は日本語を勉強しています。",
+          "acceptableAnswers": [
+            "わたしはにほんごをべんきょうしています。"
+          ],
+          "hint": "Động từ chia thể て + います",
+          "explanation": "Cũng dùng để diễn tả trạng thái.",
+          "orderIndex": 11
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000732004",
+          "patternId": "77777777-1123-0001-0000-000000007003",
+          "exerciseType": "arrange",
+          "prompt": "Tôi đang học tiếng Nhật.",
+          "expectedAnswer": "私 (わたし)は日本語 (にほんご)を勉強しています (べんきょうしています)",
+          "optionsJson": "[\"は\",\"を\",\"私 (わたし)\",\"日本語 (にほんご)\",\"勉強しています (べんきょうしています)\"]",
+          "options": [
+            "は",
+            "を",
+            "私 (わたし)",
+            "日本語 (にほんご)",
+            "勉強しています (べんきょうしています)"
+          ],
+          "correctOrderJson": "[\"私 (わたし)\",\"は\",\"日本語 (にほんご)\",\"を\",\"勉強しています (べんきょうしています)\"]",
+          "correctOrder": [
+            "私 (わたし)",
+            "は",
+            "日本語 (にほんご)",
+            "を",
+            "勉強しています (べんきょうしています)"
+          ],
+          "orderIndex": 12
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000712005",
+          "patternId": "77777777-1123-0001-0000-000000007003",
+          "exerciseType": "ja_to_vi",
+          "prompt": "料理を作っています。",
+          "promptReading": "りょうりをつくっています。",
+          "expectedAnswer": "Tôi đang nấu ăn.",
+          "hint": "Vて います",
+          "explanation": "Cũng dùng để diễn tả trạng thái.",
+          "orderIndex": 13
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000722005",
+          "patternId": "77777777-1123-0001-0000-000000007003",
+          "exerciseType": "vi_to_ja",
+          "prompt": "Tôi đang nấu ăn.",
+          "expectedAnswer": "料理を作っています。",
+          "acceptableAnswers": [
+            "りょうりをつくっています。"
+          ],
+          "hint": "Động từ chia thể て + います",
+          "explanation": "Cũng dùng để diễn tả trạng thái.",
+          "orderIndex": 14
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000732005",
+          "patternId": "77777777-1123-0001-0000-000000007003",
+          "exerciseType": "arrange",
+          "prompt": "Tôi đang nấu ăn.",
+          "expectedAnswer": "料理 (りょうり)を作っています (つくっています)",
+          "optionsJson": "[\"を\",\"料理 (りょうり)\",\"作っています (つくっています)\"]",
+          "options": [
+            "を",
+            "料理 (りょうり)",
+            "作っています (つくっています)"
+          ],
+          "correctOrderJson": "[\"料理 (りょうり)\",\"を\",\"作っています (つくっています)\"]",
+          "correctOrder": [
+            "料理 (りょうり)",
+            "を",
+            "作っています (つくっています)"
+          ],
+          "orderIndex": 15
+        }
+      ]
+    },
+    {
+      "id": "77777777-1123-0001-0000-000000007004",
+      "lessonId": "77777777-1123-0000-0000-000000000107",
+      "level": "N5",
+      "courseCode": "jpd123",
+      "pattern": "V ましょうか",
+      "title": "Đề nghị giúp đỡ",
+      "meaning": "Để tôi làm V nhé?",
+      "structure": "V ましょうか",
+      "accessTier": "premium",
+      "isLocked": true,
+      "isInStudy": false,
+      "progress": null,
+      "usageScope": "Dùng khi muốn đề nghị làm giúp ai đó việc gì.",
+      "formation": "Bỏ ます thêm ましょうか",
+      "notes": "Thường dùng khi thấy đối phương đang gặp khó khăn.",
+      "examples": [
+        {
+          "id": "77777777-1123-0002-0000-000000703001",
+          "japanese": "手伝いましょうか。",
+          "reading": "てつだいましょうか。",
+          "meaning": "Tôi giúp một tay nhé?",
+          "orderIndex": 1
+        },
+        {
+          "id": "77777777-1123-0002-0000-000000703002",
+          "japanese": "窓を閉めましょうか。",
+          "reading": "まどをしめましょうか。",
+          "meaning": "Tôi đóng cửa sổ giúp bạn nhé?",
+          "orderIndex": 2
+        },
+        {
+          "id": "77777777-1123-0002-0000-000000703003",
+          "japanese": "荷物を持ちましょうか。",
+          "reading": "にもつをもちましょうか。",
+          "meaning": "Để tôi bê hành lý giúp bạn nhé?",
+          "orderIndex": 3
+        },
+        {
+          "id": "77777777-1123-0002-0000-000000703004",
+          "japanese": "タクシーを呼びましょうか。",
+          "reading": "タクシーをよびましょうか。",
+          "meaning": "Để tôi gọi taxi giúp bạn nhé?",
+          "orderIndex": 4
+        },
+        {
+          "id": "77777777-1123-0002-0000-000000703005",
+          "japanese": "地図を書きましょうか。",
+          "reading": "ちずをかきましょうか。",
+          "meaning": "Để tôi vẽ bản đồ giúp nhé?",
+          "orderIndex": 5
+        }
+      ],
+      "exercises": [
+        {
+          "id": "77777777-1123-0003-0000-000000713001",
+          "patternId": "77777777-1123-0001-0000-000000007004",
+          "exerciseType": "ja_to_vi",
+          "prompt": "手伝いましょうか。",
+          "promptReading": "てつだいましょうか。",
+          "expectedAnswer": "Tôi giúp một tay nhé?",
+          "hint": "V ましょうか",
+          "explanation": "Thường dùng khi thấy đối phương đang gặp khó khăn.",
+          "orderIndex": 1
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000723001",
+          "patternId": "77777777-1123-0001-0000-000000007004",
+          "exerciseType": "vi_to_ja",
+          "prompt": "Tôi giúp một tay nhé?",
+          "expectedAnswer": "手伝いましょうか。",
+          "acceptableAnswers": [
+            "てつだいましょうか。"
+          ],
+          "hint": "Bỏ ます thêm ましょうか",
+          "explanation": "Thường dùng khi thấy đối phương đang gặp khó khăn.",
+          "orderIndex": 2
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000713002",
+          "patternId": "77777777-1123-0001-0000-000000007004",
+          "exerciseType": "ja_to_vi",
+          "prompt": "窓を閉めましょうか。",
+          "promptReading": "まどをしめましょうか。",
+          "expectedAnswer": "Tôi đóng cửa sổ giúp bạn nhé?",
+          "hint": "V ましょうか",
+          "explanation": "Thường dùng khi thấy đối phương đang gặp khó khăn.",
+          "orderIndex": 3
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000723002",
+          "patternId": "77777777-1123-0001-0000-000000007004",
+          "exerciseType": "vi_to_ja",
+          "prompt": "Tôi đóng cửa sổ giúp bạn nhé?",
+          "expectedAnswer": "窓を閉めましょうか。",
+          "acceptableAnswers": [
+            "まどをしめましょうか。"
+          ],
+          "hint": "Bỏ ます thêm ましょうか",
+          "explanation": "Thường dùng khi thấy đối phương đang gặp khó khăn.",
+          "orderIndex": 4
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000733002",
+          "patternId": "77777777-1123-0001-0000-000000007004",
+          "exerciseType": "arrange",
+          "prompt": "Tôi đóng cửa sổ giúp bạn nhé?",
+          "expectedAnswer": "窓 (まど)を閉めましょうか (しめましょうか)",
+          "optionsJson": "[\"を\",\"窓 (まど)\",\"閉めましょうか (しめましょうか)\"]",
+          "options": [
+            "を",
+            "窓 (まど)",
+            "閉めましょうか (しめましょうか)"
+          ],
+          "correctOrderJson": "[\"窓 (まど)\",\"を\",\"閉めましょうか (しめましょうか)\"]",
+          "correctOrder": [
+            "窓 (まど)",
+            "を",
+            "閉めましょうか (しめましょうか)"
+          ],
+          "orderIndex": 5
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000713003",
+          "patternId": "77777777-1123-0001-0000-000000007004",
+          "exerciseType": "ja_to_vi",
+          "prompt": "荷物を持ちましょうか。",
+          "promptReading": "にもつをもちましょうか。",
+          "expectedAnswer": "Để tôi bê hành lý giúp bạn nhé?",
+          "hint": "V ましょうか",
+          "explanation": "Thường dùng khi thấy đối phương đang gặp khó khăn.",
+          "orderIndex": 6
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000723003",
+          "patternId": "77777777-1123-0001-0000-000000007004",
+          "exerciseType": "vi_to_ja",
+          "prompt": "Để tôi bê hành lý giúp bạn nhé?",
+          "expectedAnswer": "荷物を持ちましょうか。",
+          "acceptableAnswers": [
+            "にもつをもちましょうか。"
+          ],
+          "hint": "Bỏ ます thêm ましょうか",
+          "explanation": "Thường dùng khi thấy đối phương đang gặp khó khăn.",
+          "orderIndex": 7
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000733003",
+          "patternId": "77777777-1123-0001-0000-000000007004",
+          "exerciseType": "arrange",
+          "prompt": "Để tôi bê hành lý giúp bạn nhé?",
+          "expectedAnswer": "荷物 (にもつ)を持ちましょうか (もちましょうか)",
+          "optionsJson": "[\"を\",\"荷物 (にもつ)\",\"持ちましょうか (もちましょうか)\"]",
+          "options": [
+            "を",
+            "荷物 (にもつ)",
+            "持ちましょうか (もちましょうか)"
+          ],
+          "correctOrderJson": "[\"荷物 (にもつ)\",\"を\",\"持ちましょうか (もちましょうか)\"]",
+          "correctOrder": [
+            "荷物 (にもつ)",
+            "を",
+            "持ちましょうか (もちましょうか)"
+          ],
+          "orderIndex": 8
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000713004",
+          "patternId": "77777777-1123-0001-0000-000000007004",
+          "exerciseType": "ja_to_vi",
+          "prompt": "タクシーを呼びましょうか。",
+          "promptReading": "タクシーをよびましょうか。",
+          "expectedAnswer": "Để tôi gọi taxi giúp bạn nhé?",
+          "hint": "V ましょうか",
+          "explanation": "Thường dùng khi thấy đối phương đang gặp khó khăn.",
+          "orderIndex": 9
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000723004",
+          "patternId": "77777777-1123-0001-0000-000000007004",
+          "exerciseType": "vi_to_ja",
+          "prompt": "Để tôi gọi taxi giúp bạn nhé?",
+          "expectedAnswer": "タクシーを呼びましょうか。",
+          "acceptableAnswers": [
+            "タクシーをよびましょうか。"
+          ],
+          "hint": "Bỏ ます thêm ましょうか",
+          "explanation": "Thường dùng khi thấy đối phương đang gặp khó khăn.",
+          "orderIndex": 10
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000733004",
+          "patternId": "77777777-1123-0001-0000-000000007004",
+          "exerciseType": "arrange",
+          "prompt": "Để tôi gọi taxi giúp bạn nhé?",
+          "expectedAnswer": "タクシーを呼びましょうか (よびましょうか)",
+          "optionsJson": "[\"を\",\"タクシー\",\"呼びましょうか (よびましょうか)\"]",
+          "options": [
+            "を",
+            "タクシー",
+            "呼びましょうか (よびましょうか)"
+          ],
+          "correctOrderJson": "[\"タクシー\",\"を\",\"呼びましょうか (よびましょうか)\"]",
+          "correctOrder": [
+            "タクシー",
+            "を",
+            "呼びましょうか (よびましょうか)"
+          ],
+          "orderIndex": 11
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000713005",
+          "patternId": "77777777-1123-0001-0000-000000007004",
+          "exerciseType": "ja_to_vi",
+          "prompt": "地図を書きましょうか。",
+          "promptReading": "ちずをかきましょうか。",
+          "expectedAnswer": "Để tôi vẽ bản đồ giúp nhé?",
+          "hint": "V ましょうか",
+          "explanation": "Thường dùng khi thấy đối phương đang gặp khó khăn.",
+          "orderIndex": 12
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000723005",
+          "patternId": "77777777-1123-0001-0000-000000007004",
+          "exerciseType": "vi_to_ja",
+          "prompt": "Để tôi vẽ bản đồ giúp nhé?",
+          "expectedAnswer": "地図を書きましょうか。",
+          "acceptableAnswers": [
+            "ちずをかきましょうか。"
+          ],
+          "hint": "Bỏ ます thêm ましょうか",
+          "explanation": "Thường dùng khi thấy đối phương đang gặp khó khăn.",
+          "orderIndex": 13
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000733005",
+          "patternId": "77777777-1123-0001-0000-000000007004",
+          "exerciseType": "arrange",
+          "prompt": "Để tôi vẽ bản đồ giúp nhé?",
+          "expectedAnswer": "地図 (ちず)を書きましょうか (かきましょうか)",
+          "optionsJson": "[\"を\",\"地図 (ちず)\",\"書きましょうか (かきましょうか)\"]",
+          "options": [
+            "を",
+            "地図 (ちず)",
+            "書きましょうか (かきましょうか)"
+          ],
+          "correctOrderJson": "[\"地図 (ちず)\",\"を\",\"書きましょうか (かきましょうか)\"]",
+          "correctOrder": [
+            "地図 (ちず)",
+            "を",
+            "書きましょうか (かきましょうか)"
+          ],
+          "orderIndex": 14
+        }
+      ]
+    },
+    {
+      "id": "77777777-1123-0001-0000-000000007005",
+      "lessonId": "77777777-1123-0000-0000-000000000107",
+      "level": "N5",
+      "courseCode": "jpd123",
+      "pattern": "Vます かた",
+      "title": "Cách thức làm gì đó",
+      "meaning": "Cách V",
+      "structure": "V (bỏ ます) + かた",
+      "accessTier": "premium",
+      "isLocked": true,
+      "isInStudy": false,
+      "progress": null,
+      "usageScope": "Diễn tả cách thực hiện một hành động.",
+      "formation": "Động từ bỏ ます thêm かた",
+      "notes": "Biến động từ thành một danh từ.",
+      "examples": [
+        {
+          "id": "77777777-1123-0002-0000-000000704001",
+          "japanese": "料理の作り方を教えてください。",
+          "reading": "りょうりのつくりかたをおしえてください。",
+          "meaning": "Xin hãy chỉ cho tôi cách nấu ăn.",
+          "orderIndex": 1
+        },
+        {
+          "id": "77777777-1123-0002-0000-000000704002",
+          "japanese": "この漢字の読み方を教えてください。",
+          "reading": "このかんじのよみかたをおしえてください。",
+          "meaning": "Xin hãy chỉ cho tôi cách đọc chữ Kanji này.",
+          "orderIndex": 2
+        },
+        {
+          "id": "77777777-1123-0002-0000-000000704003",
+          "japanese": "お箸の使い方を知っていますか。",
+          "reading": "おはしのつかいかたをしっていますか。",
+          "meaning": "Bạn có biết cách dùng đũa không?",
+          "orderIndex": 3
+        },
+        {
+          "id": "77777777-1123-0002-0000-000000704004",
+          "japanese": "パソコンの使い方を習いました。",
+          "reading": "パソコンのつかいかたをならいました。",
+          "meaning": "Tôi đã học cách sử dụng máy tính.",
+          "orderIndex": 4
+        },
+        {
+          "id": "77777777-1123-0002-0000-000000704005",
+          "japanese": "この言葉の意味を教えてください。",
+          "reading": "このことばのいみをおしえてください。",
+          "meaning": "Hãy chỉ cho tôi ý nghĩa của từ này.",
+          "orderIndex": 5
+        }
+      ],
+      "exercises": [
+        {
+          "id": "77777777-1123-0003-0000-000000714001",
+          "patternId": "77777777-1123-0001-0000-000000007005",
+          "exerciseType": "ja_to_vi",
+          "prompt": "料理の作り方を教えてください。",
+          "promptReading": "りょうりのつくりかたをおしえてください。",
+          "expectedAnswer": "Xin hãy chỉ cho tôi cách nấu ăn.",
+          "hint": "Vます かた",
+          "explanation": "Biến động từ thành một danh từ.",
+          "orderIndex": 1
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000724001",
+          "patternId": "77777777-1123-0001-0000-000000007005",
+          "exerciseType": "vi_to_ja",
+          "prompt": "Xin hãy chỉ cho tôi cách nấu ăn.",
+          "expectedAnswer": "料理の作り方を教えてください。",
+          "acceptableAnswers": [
+            "りょうりのつくりかたをおしえてください。"
+          ],
+          "hint": "Động từ bỏ ます thêm かた",
+          "explanation": "Biến động từ thành một danh từ.",
+          "orderIndex": 2
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000734001",
+          "patternId": "77777777-1123-0001-0000-000000007005",
+          "exerciseType": "arrange",
+          "prompt": "Xin hãy chỉ cho tôi cách nấu ăn.",
+          "expectedAnswer": "料理 (りょうり)の作り方 (つくりかた)を教えてください (おしえてください)",
+          "optionsJson": "[\"の\",\"を\",\"料理 (りょうり)\",\"作り方 (つくりかた)\",\"教えてください (おしえてください)\"]",
+          "options": [
+            "の",
+            "を",
+            "料理 (りょうり)",
+            "作り方 (つくりかた)",
+            "教えてください (おしえてください)"
+          ],
+          "correctOrderJson": "[\"料理 (りょうり)\",\"の\",\"作り方 (つくりかた)\",\"を\",\"教えてください (おしえてください)\"]",
+          "correctOrder": [
+            "料理 (りょうり)",
+            "の",
+            "作り方 (つくりかた)",
+            "を",
+            "教えてください (おしえてください)"
+          ],
+          "orderIndex": 3
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000714002",
+          "patternId": "77777777-1123-0001-0000-000000007005",
+          "exerciseType": "ja_to_vi",
+          "prompt": "この漢字の読み方を教えてください。",
+          "promptReading": "このかんじのよみかたをおしえてください。",
+          "expectedAnswer": "Xin hãy chỉ cho tôi cách đọc chữ Kanji này.",
+          "hint": "Vます かた",
+          "explanation": "Biến động từ thành một danh từ.",
+          "orderIndex": 4
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000724002",
+          "patternId": "77777777-1123-0001-0000-000000007005",
+          "exerciseType": "vi_to_ja",
+          "prompt": "Xin hãy chỉ cho tôi cách đọc chữ Kanji này.",
+          "expectedAnswer": "この漢字の読み方を教えてください。",
+          "acceptableAnswers": [
+            "このかんじのよみかたをおしえてください。"
+          ],
+          "hint": "Động từ bỏ ます thêm かた",
+          "explanation": "Biến động từ thành một danh từ.",
+          "orderIndex": 5
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000734002",
+          "patternId": "77777777-1123-0001-0000-000000007005",
+          "exerciseType": "arrange",
+          "prompt": "Xin hãy chỉ cho tôi cách đọc chữ Kanji này.",
+          "expectedAnswer": "この漢字 (かんじ)の読み方 (よみかた)を教えてください (おしえてください)",
+          "optionsJson": "[\"こ\",\"の\",\"の\",\"を\",\"漢字 (かんじ)\",\"読み方 (よみかた)\",\"教えてください (おしえてください)\"]",
+          "options": [
+            "こ",
+            "の",
+            "の",
+            "を",
+            "漢字 (かんじ)",
+            "読み方 (よみかた)",
+            "教えてください (おしえてください)"
+          ],
+          "correctOrderJson": "[\"こ\",\"の\",\"漢字 (かんじ)\",\"の\",\"読み方 (よみかた)\",\"を\",\"教えてください (おしえてください)\"]",
+          "correctOrder": [
+            "こ",
+            "の",
+            "漢字 (かんじ)",
+            "の",
+            "読み方 (よみかた)",
+            "を",
+            "教えてください (おしえてください)"
+          ],
+          "orderIndex": 6
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000714003",
+          "patternId": "77777777-1123-0001-0000-000000007005",
+          "exerciseType": "ja_to_vi",
+          "prompt": "お箸の使い方を知っていますか。",
+          "promptReading": "おはしのつかいかたをしっていますか。",
+          "expectedAnswer": "Bạn có biết cách dùng đũa không?",
+          "hint": "Vます かた",
+          "explanation": "Biến động từ thành một danh từ.",
+          "orderIndex": 7
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000724003",
+          "patternId": "77777777-1123-0001-0000-000000007005",
+          "exerciseType": "vi_to_ja",
+          "prompt": "Bạn có biết cách dùng đũa không?",
+          "expectedAnswer": "お箸の使い方を知っていますか。",
+          "acceptableAnswers": [
+            "おはしのつかいかたをしっていますか。"
+          ],
+          "hint": "Động từ bỏ ます thêm かた",
+          "explanation": "Biến động từ thành một danh từ.",
+          "orderIndex": 8
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000734003",
+          "patternId": "77777777-1123-0001-0000-000000007005",
+          "exerciseType": "arrange",
+          "prompt": "Bạn có biết cách dùng đũa không?",
+          "expectedAnswer": "お箸 (おはし)の使い方 (つかいかた)を知っていますか (しっていますか)",
+          "optionsJson": "[\"の\",\"を\",\"お箸 (おはし)\",\"使い方 (つかいかた)\",\"知っていますか (しっていますか)\"]",
+          "options": [
+            "の",
+            "を",
+            "お箸 (おはし)",
+            "使い方 (つかいかた)",
+            "知っていますか (しっていますか)"
+          ],
+          "correctOrderJson": "[\"お箸 (おはし)\",\"の\",\"使い方 (つかいかた)\",\"を\",\"知っていますか (しっていますか)\"]",
+          "correctOrder": [
+            "お箸 (おはし)",
+            "の",
+            "使い方 (つかいかた)",
+            "を",
+            "知っていますか (しっていますか)"
+          ],
+          "orderIndex": 9
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000714004",
+          "patternId": "77777777-1123-0001-0000-000000007005",
+          "exerciseType": "ja_to_vi",
+          "prompt": "パソコンの使い方を習いました。",
+          "promptReading": "パソコンのつかいかたをならいました。",
+          "expectedAnswer": "Tôi đã học cách sử dụng máy tính.",
+          "hint": "Vます かた",
+          "explanation": "Biến động từ thành một danh từ.",
+          "orderIndex": 10
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000724004",
+          "patternId": "77777777-1123-0001-0000-000000007005",
+          "exerciseType": "vi_to_ja",
+          "prompt": "Tôi đã học cách sử dụng máy tính.",
+          "expectedAnswer": "パソコンの使い方を習いました。",
+          "acceptableAnswers": [
+            "パソコンのつかいかたをならいました。"
+          ],
+          "hint": "Động từ bỏ ます thêm かた",
+          "explanation": "Biến động từ thành một danh từ.",
+          "orderIndex": 11
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000734004",
+          "patternId": "77777777-1123-0001-0000-000000007005",
+          "exerciseType": "arrange",
+          "prompt": "Tôi đã học cách sử dụng máy tính.",
+          "expectedAnswer": "パソコンの使い方 (つかいかた)を習いました (ならいました)",
+          "optionsJson": "[\"の\",\"を\",\"パソコン\",\"使い方 (つかいかた)\",\"習いました (ならいました)\"]",
+          "options": [
+            "の",
+            "を",
+            "パソコン",
+            "使い方 (つかいかた)",
+            "習いました (ならいました)"
+          ],
+          "correctOrderJson": "[\"パソコン\",\"の\",\"使い方 (つかいかた)\",\"を\",\"習いました (ならいました)\"]",
+          "correctOrder": [
+            "パソコン",
+            "の",
+            "使い方 (つかいかた)",
+            "を",
+            "習いました (ならいました)"
+          ],
+          "orderIndex": 12
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000714005",
+          "patternId": "77777777-1123-0001-0000-000000007005",
+          "exerciseType": "ja_to_vi",
+          "prompt": "この言葉の意味を教えてください。",
+          "promptReading": "このことばのいみをおしえてください。",
+          "expectedAnswer": "Hãy chỉ cho tôi ý nghĩa của từ này.",
+          "hint": "Vます かた",
+          "explanation": "Biến động từ thành một danh từ.",
+          "orderIndex": 13
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000724005",
+          "patternId": "77777777-1123-0001-0000-000000007005",
+          "exerciseType": "vi_to_ja",
+          "prompt": "Hãy chỉ cho tôi ý nghĩa của từ này.",
+          "expectedAnswer": "この言葉の意味を教えてください。",
+          "acceptableAnswers": [
+            "このことばのいみをおしえてください。"
+          ],
+          "hint": "Động từ bỏ ます thêm かた",
+          "explanation": "Biến động từ thành một danh từ.",
+          "orderIndex": 14
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000734005",
+          "patternId": "77777777-1123-0001-0000-000000007005",
+          "exerciseType": "arrange",
+          "prompt": "Hãy chỉ cho tôi ý nghĩa của từ này.",
+          "expectedAnswer": "この言葉 (ことば)の意味 (いみ)を教えてください (おしえてください)",
+          "optionsJson": "[\"こ\",\"の\",\"の\",\"を\",\"意味 (いみ)\",\"言葉 (ことば)\",\"教えてください (おしえてください)\"]",
+          "options": [
+            "こ",
+            "の",
+            "の",
+            "を",
+            "意味 (いみ)",
+            "言葉 (ことば)",
+            "教えてください (おしえてください)"
+          ],
+          "correctOrderJson": "[\"こ\",\"の\",\"言葉 (ことば)\",\"の\",\"意味 (いみ)\",\"を\",\"教えてください (おしえてください)\"]",
+          "correctOrder": [
+            "こ",
+            "の",
+            "言葉 (ことば)",
+            "の",
+            "意味 (いみ)",
+            "を",
+            "教えてください (おしえてください)"
+          ],
+          "orderIndex": 15
+        }
+      ]
+    }
+  ]
+}

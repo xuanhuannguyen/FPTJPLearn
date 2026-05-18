@@ -1,0 +1,202 @@
+[
+  {
+    "id": "77777777-1123-0003-0000-000000713001",
+    "patternId": "77777777-1123-0001-0000-000000007004",
+    "exerciseType": "ja_to_vi",
+    "prompt": "手伝いましょうか。",
+    "promptReading": "てつだいましょうか。",
+    "expectedAnswer": "Tôi giúp một tay nhé?",
+    "hint": "V ましょうか",
+    "explanation": "Thường dùng khi thấy đối phương đang gặp khó khăn.",
+    "orderIndex": 1
+  },
+  {
+    "id": "77777777-1123-0003-0000-000000723001",
+    "patternId": "77777777-1123-0001-0000-000000007004",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Tôi giúp một tay nhé?",
+    "expectedAnswer": "手伝いましょうか。",
+    "acceptableAnswers": [
+      "てつだいましょうか。"
+    ],
+    "hint": "Bỏ ます thêm ましょうか",
+    "explanation": "Thường dùng khi thấy đối phương đang gặp khó khăn.",
+    "orderIndex": 2
+  },
+  {
+    "id": "77777777-1123-0003-0000-000000713002",
+    "patternId": "77777777-1123-0001-0000-000000007004",
+    "exerciseType": "ja_to_vi",
+    "prompt": "窓を閉めましょうか。",
+    "promptReading": "まどをしめましょうか。",
+    "expectedAnswer": "Tôi đóng cửa sổ giúp bạn nhé?",
+    "hint": "V ましょうか",
+    "explanation": "Thường dùng khi thấy đối phương đang gặp khó khăn.",
+    "orderIndex": 3
+  },
+  {
+    "id": "77777777-1123-0003-0000-000000723002",
+    "patternId": "77777777-1123-0001-0000-000000007004",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Tôi đóng cửa sổ giúp bạn nhé?",
+    "expectedAnswer": "窓を閉めましょうか。",
+    "acceptableAnswers": [
+      "まどをしめましょうか。"
+    ],
+    "hint": "Bỏ ます thêm ましょうか",
+    "explanation": "Thường dùng khi thấy đối phương đang gặp khó khăn.",
+    "orderIndex": 4
+  },
+  {
+    "id": "77777777-1123-0003-0000-000000733002",
+    "patternId": "77777777-1123-0001-0000-000000007004",
+    "exerciseType": "arrange",
+    "prompt": "Tôi đóng cửa sổ giúp bạn nhé?",
+    "expectedAnswer": "窓 (まど)を閉めましょうか (しめましょうか)",
+    "optionsJson": "[\"を\",\"窓 (まど)\",\"閉めましょうか (しめましょうか)\"]",
+    "options": [
+      "を",
+      "窓 (まど)",
+      "閉めましょうか (しめましょうか)"
+    ],
+    "correctOrderJson": "[\"窓 (まど)\",\"を\",\"閉めましょうか (しめましょうか)\"]",
+    "correctOrder": [
+      "窓 (まど)",
+      "を",
+      "閉めましょうか (しめましょうか)"
+    ],
+    "orderIndex": 5
+  },
+  {
+    "id": "77777777-1123-0003-0000-000000713003",
+    "patternId": "77777777-1123-0001-0000-000000007004",
+    "exerciseType": "ja_to_vi",
+    "prompt": "荷物を持ちましょうか。",
+    "promptReading": "にもつをもちましょうか。",
+    "expectedAnswer": "Để tôi bê hành lý giúp bạn nhé?",
+    "hint": "V ましょうか",
+    "explanation": "Thường dùng khi thấy đối phương đang gặp khó khăn.",
+    "orderIndex": 6
+  },
+  {
+    "id": "77777777-1123-0003-0000-000000723003",
+    "patternId": "77777777-1123-0001-0000-000000007004",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Để tôi bê hành lý giúp bạn nhé?",
+    "expectedAnswer": "荷物を持ちましょうか。",
+    "acceptableAnswers": [
+      "にもつをもちましょうか。"
+    ],
+    "hint": "Bỏ ます thêm ましょうか",
+    "explanation": "Thường dùng khi thấy đối phương đang gặp khó khăn.",
+    "orderIndex": 7
+  },
+  {
+    "id": "77777777-1123-0003-0000-000000733003",
+    "patternId": "77777777-1123-0001-0000-000000007004",
+    "exerciseType": "arrange",
+    "prompt": "Để tôi bê hành lý giúp bạn nhé?",
+    "expectedAnswer": "荷物 (にもつ)を持ちましょうか (もちましょうか)",
+    "optionsJson": "[\"を\",\"荷物 (にもつ)\",\"持ちましょうか (もちましょうか)\"]",
+    "options": [
+      "を",
+      "荷物 (にもつ)",
+      "持ちましょうか (もちましょうか)"
+    ],
+    "correctOrderJson": "[\"荷物 (にもつ)\",\"を\",\"持ちましょうか (もちましょうか)\"]",
+    "correctOrder": [
+      "荷物 (にもつ)",
+      "を",
+      "持ちましょうか (もちましょうか)"
+    ],
+    "orderIndex": 8
+  },
+  {
+    "id": "77777777-1123-0003-0000-000000713004",
+    "patternId": "77777777-1123-0001-0000-000000007004",
+    "exerciseType": "ja_to_vi",
+    "prompt": "タクシーを呼びましょうか。",
+    "promptReading": "タクシーをよびましょうか。",
+    "expectedAnswer": "Để tôi gọi taxi giúp bạn nhé?",
+    "hint": "V ましょうか",
+    "explanation": "Thường dùng khi thấy đối phương đang gặp khó khăn.",
+    "orderIndex": 9
+  },
+  {
+    "id": "77777777-1123-0003-0000-000000723004",
+    "patternId": "77777777-1123-0001-0000-000000007004",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Để tôi gọi taxi giúp bạn nhé?",
+    "expectedAnswer": "タクシーを呼びましょうか。",
+    "acceptableAnswers": [
+      "タクシーをよびましょうか。"
+    ],
+    "hint": "Bỏ ます thêm ましょうか",
+    "explanation": "Thường dùng khi thấy đối phương đang gặp khó khăn.",
+    "orderIndex": 10
+  },
+  {
+    "id": "77777777-1123-0003-0000-000000733004",
+    "patternId": "77777777-1123-0001-0000-000000007004",
+    "exerciseType": "arrange",
+    "prompt": "Để tôi gọi taxi giúp bạn nhé?",
+    "expectedAnswer": "タクシーを呼びましょうか (よびましょうか)",
+    "optionsJson": "[\"を\",\"タクシー\",\"呼びましょうか (よびましょうか)\"]",
+    "options": [
+      "を",
+      "タクシー",
+      "呼びましょうか (よびましょうか)"
+    ],
+    "correctOrderJson": "[\"タクシー\",\"を\",\"呼びましょうか (よびましょうか)\"]",
+    "correctOrder": [
+      "タクシー",
+      "を",
+      "呼びましょうか (よびましょうか)"
+    ],
+    "orderIndex": 11
+  },
+  {
+    "id": "77777777-1123-0003-0000-000000713005",
+    "patternId": "77777777-1123-0001-0000-000000007004",
+    "exerciseType": "ja_to_vi",
+    "prompt": "地図を書きましょうか。",
+    "promptReading": "ちずをかきましょうか。",
+    "expectedAnswer": "Để tôi vẽ bản đồ giúp nhé?",
+    "hint": "V ましょうか",
+    "explanation": "Thường dùng khi thấy đối phương đang gặp khó khăn.",
+    "orderIndex": 12
+  },
+  {
+    "id": "77777777-1123-0003-0000-000000723005",
+    "patternId": "77777777-1123-0001-0000-000000007004",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Để tôi vẽ bản đồ giúp nhé?",
+    "expectedAnswer": "地図を書きましょうか。",
+    "acceptableAnswers": [
+      "ちずをかきましょうか。"
+    ],
+    "hint": "Bỏ ます thêm ましょうか",
+    "explanation": "Thường dùng khi thấy đối phương đang gặp khó khăn.",
+    "orderIndex": 13
+  },
+  {
+    "id": "77777777-1123-0003-0000-000000733005",
+    "patternId": "77777777-1123-0001-0000-000000007004",
+    "exerciseType": "arrange",
+    "prompt": "Để tôi vẽ bản đồ giúp nhé?",
+    "expectedAnswer": "地図 (ちず)を書きましょうか (かきましょうか)",
+    "optionsJson": "[\"を\",\"地図 (ちず)\",\"書きましょうか (かきましょうか)\"]",
+    "options": [
+      "を",
+      "地図 (ちず)",
+      "書きましょうか (かきましょうか)"
+    ],
+    "correctOrderJson": "[\"地図 (ちず)\",\"を\",\"書きましょうか (かきましょうか)\"]",
+    "correctOrder": [
+      "地図 (ちず)",
+      "を",
+      "書きましょうか (かきましょうか)"
+    ],
+    "orderIndex": 14
+  }
+]

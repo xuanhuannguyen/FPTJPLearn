@@ -1,0 +1,85 @@
+{
+  "lesson": {
+    "id": "88888888-1113-0000-0000-000000000103",
+    "courseCode": "jpd113",
+    "lessonNumber": 3,
+    "title": "ワンさん",
+    "description": "Giới thiệu bản thân - Giới thiệu về sinh viên người Trung Quốc.",
+    "accessTier": "premium",
+    "packageCode": "speaking_jpd113",
+    "isLocked": true,
+    "sentenceCount": 7
+  },
+  "sentences": [
+    {
+      "id": "88888888-1113-0000-0000-000000003001",
+      "lessonId": "88888888-1113-0000-0000-000000000103",
+      "sentenceNumber": 1,
+      "plainText": "はじめまして。私はワンです。",
+      "romaji": "hajimemashite.watashi wa wandesu.",
+      "contentHtml": "はじめまして。<ruby>私<rt>わたし</rt></ruby>は ワンです。",
+      "meaningVi": "Rất vui được làm quen. Tôi là Wang.",
+      "orderIndex": 1
+    },
+    {
+      "id": "88888888-1113-0000-0000-000000003002",
+      "lessonId": "88888888-1113-0000-0000-000000000103",
+      "sentenceNumber": 2,
+      "plainText": "ちゅうごく人です。",
+      "romaji": "chuugokujindesu.",
+      "contentHtml": "<ruby>ちゅうごく人<rt>ちゅうごくじん</rt></ruby>です。",
+      "meaningVi": "Tôi là người Trung Quốc.",
+      "orderIndex": 2
+    },
+    {
+      "id": "88888888-1113-0000-0000-000000003003",
+      "lessonId": "88888888-1113-0000-0000-000000000103",
+      "sentenceNumber": 3,
+      "plainText": "私は学生です。",
+      "romaji": "watashi wa gakuseidesu.",
+      "contentHtml": "<ruby>私<rt>わたし</rt></ruby>は <ruby>学生<rt>がくせい</rt></ruby>です。",
+      "meaningVi": "Tôi là sinh viên.",
+      "orderIndex": 3
+    },
+    {
+      "id": "88888888-1113-0000-0000-000000003004",
+      "lessonId": "88888888-1113-0000-0000-000000000103",
+      "sentenceNumber": 4,
+      "plainText": "私は18才です。",
+      "romaji": "watashi wa juuhassaidesu.",
+      "contentHtml": "<ruby>私<rt>わたし</rt></ruby>は <ruby>18才<rt>じゅうはっさい</rt></ruby>です。",
+      "meaningVi": "Tôi 18 tuổi.",
+      "orderIndex": 4
+    },
+    {
+      "id": "88888888-1113-0000-0000-000000003005",
+      "lessonId": "88888888-1113-0000-0000-000000000103",
+      "sentenceNumber": 5,
+      "plainText": "たん生目は4月10日です。",
+      "romaji": "tanjoubi wa shigatsutookadesu.",
+      "contentHtml": "たん<ruby>生目<rt>じょうび</rt></ruby>は <ruby>4月10日<rt>しがつとおか</rt></ruby>です。",
+      "meaningVi": "Sinh nhật của tôi là ngày 10 tháng 4.",
+      "orderIndex": 5
+    },
+    {
+      "id": "88888888-1113-0000-0000-000000003006",
+      "lessonId": "88888888-1113-0000-0000-000000000103",
+      "sentenceNumber": 6,
+      "plainText": "しゅみはジョギングです。",
+      "romaji": "shumi wa jogingudesu.",
+      "contentHtml": "<ruby>しゅみ<rt>しゅみ</rt></ruby>は ジョギングです。",
+      "meaningVi": "Sở thích của tôi là chạy bộ.",
+      "orderIndex": 6
+    },
+    {
+      "id": "88888888-1113-0000-0000-000000003007",
+      "lessonId": "88888888-1113-0000-0000-000000000103",
+      "sentenceNumber": 7,
+      "plainText": "よろしくおねがいします。",
+      "romaji": "yoroshikuonegaishimasu.",
+      "contentHtml": "よろしく<ruby>おねがい<rt>おねがい</rt></ruby>します。",
+      "meaningVi": "Rất mong được giúp đỡ.",
+      "orderIndex": 7
+    }
+  ]
+}

@@ -15,6 +15,11 @@ interface Package {
   discount?: string;
 }
 
+interface Subscription {
+  courseCode: string;
+  isActive: boolean;
+}
+
 const packages: Package[] = [
   { code: 'jpd113', name: 'JPD113', price: 50000, duration: '6 tháng' },
   { code: 'jpd123', name: 'JPD123', price: 50000, duration: '6 tháng' },
@@ -100,9 +105,9 @@ export function PricingPage() {
       try {
         setIsSubsLoading(true);
         const res = await apiClient.get('/orders/subscriptions');
-        const active = res.data
-          .filter((s: any) => s.isActive)
-          .map((s: any) => s.courseCode.toLowerCase());
+        const active = (res.data as Subscription[])
+          .filter((subscription) => subscription.isActive)
+          .map((subscription) => subscription.courseCode.toLowerCase());
         setActiveCourses(active);
       } catch (err) {
         console.error('Fetch subscriptions error:', err);

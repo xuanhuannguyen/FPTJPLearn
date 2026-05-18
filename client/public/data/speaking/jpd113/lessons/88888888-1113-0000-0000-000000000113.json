@@ -1,0 +1,55 @@
+{
+  "lesson": {
+    "id": "88888888-1113-0000-0000-000000000113",
+    "courseCode": "jpd113",
+    "lessonNumber": 13,
+    "title": "こうえんと カフェ",
+    "description": "Sinh hoạt - Đi dạo ở công viên và làm thêm tại quán cà phê.",
+    "accessTier": "premium",
+    "packageCode": "speaking_jpd113",
+    "isLocked": true,
+    "sentenceCount": 4
+  },
+  "sentences": [
+    {
+      "id": "88888888-1113-0000-0000-000000013001",
+      "lessonId": "88888888-1113-0000-0000-000000000113",
+      "sentenceNumber": 1,
+      "plainText": "しゅうまつ、こうえんへ行きます。",
+      "romaji": "shuumatsu,kouen e ikimasu.",
+      "contentHtml": "<ruby>しゅうまつ<rt>しゅうまつ</rt></ruby>、<ruby>こうえん<rt>こうえん</rt></ruby>へ <ruby>行<rt>い</rt></ruby>きます。",
+      "meaningVi": "Cuối tuần tôi đi công viên.",
+      "orderIndex": 1
+    },
+    {
+      "id": "88888888-1113-0000-0000-000000013002",
+      "lessonId": "88888888-1113-0000-0000-000000000113",
+      "sentenceNumber": 2,
+      "plainText": "こうえんでさんぽをします。",
+      "romaji": "kouende sanpo wo shimasu.",
+      "contentHtml": "<ruby>こうえん<rt>こうえん</rt></ruby>で さんぽを します。",
+      "meaningVi": "Tôi đi dạo ở công viên.",
+      "orderIndex": 2
+    },
+    {
+      "id": "88888888-1113-0000-0000-000000013003",
+      "lessonId": "88888888-1113-0000-0000-000000000113",
+      "sentenceNumber": 3,
+      "plainText": "月曜日と木曜日、カフェでアルバイトをします。",
+      "romaji": "getsuyoubito mokuyoubi,kafede arubaito wo shimasu.",
+      "contentHtml": "<ruby>月曜日<rt>げつようび</rt></ruby>と <ruby>木曜日<rt>もくようび</rt></ruby>、カフェで アルバイトを します。",
+      "meaningVi": "Thứ hai và thứ năm tôi làm thêm ở quán cà phê.",
+      "orderIndex": 3
+    },
+    {
+      "id": "88888888-1113-0000-0000-000000013004",
+      "lessonId": "88888888-1113-0000-0000-000000000113",
+      "sentenceNumber": 4,
+      "plainText": "三時から七時まではたらきます。",
+      "romaji": "sanjikara shichijimade hatarakimasu.",
+      "contentHtml": "<ruby>三時<rt>さんじ</rt></ruby>から <ruby>七時<rt>しちじ</rt></ruby>まで <ruby>はたら<rt>はたら</rt></ruby>きます。",
+      "meaningVi": "Tôi làm việc từ 3 giờ đến 7 giờ.",
+      "orderIndex": 4
+    }
+  ]
+}

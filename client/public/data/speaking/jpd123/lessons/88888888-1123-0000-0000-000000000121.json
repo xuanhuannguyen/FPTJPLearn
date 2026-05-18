@@ -1,0 +1,115 @@
+{
+  "lesson": {
+    "id": "88888888-1123-0000-0000-000000000121",
+    "courseCode": "jpd123",
+    "lessonNumber": 21,
+    "title": "しごとの あとの 時間",
+    "description": "Công việc - Một ngày làm việc với combini, sách và nghỉ ngơi buổi tối.",
+    "accessTier": "premium",
+    "packageCode": "speaking_jpd123",
+    "isLocked": true,
+    "sentenceCount": 10
+  },
+  "sentences": [
+    {
+      "id": "88888888-1123-0000-0000-000000021001",
+      "lessonId": "88888888-1123-0000-0000-000000000121",
+      "sentenceNumber": 1,
+      "plainText": "わたしは会社ではたらきます。",
+      "romaji": "watashi wa kaisha de hatarakimasu.",
+      "contentHtml": "わたしは <ruby>会社<rt>かいしゃ</rt></ruby> で はたらきます。",
+      "meaningVi": "Tôi làm việc ở công ty.",
+      "orderIndex": 1
+    },
+    {
+      "id": "88888888-1123-0000-0000-000000021002",
+      "lessonId": "88888888-1123-0000-0000-000000000121",
+      "sentenceNumber": 2,
+      "plainText": "きょう、ともだちと会います。",
+      "romaji": "kyou,tomodachito aimasu.",
+      "contentHtml": "きょう、ともだちと <ruby>会<rt>あ</rt></ruby>います。",
+      "meaningVi": "Hôm nay tôi gặp bạn.",
+      "orderIndex": 2
+    },
+    {
+      "id": "88888888-1123-0000-0000-000000021003",
+      "lessonId": "88888888-1123-0000-0000-000000000121",
+      "sentenceNumber": 3,
+      "plainText": "しごとのあとで、本を読みます。",
+      "romaji": "shigotono atode,hon wo yomimasu.",
+      "contentHtml": "しごとの あとで、<ruby>本<rt>ほん</rt></ruby> を <ruby>読<rt>よ</rt></ruby>みます。",
+      "meaningVi": "Sau giờ làm tôi sẽ đọc sách.",
+      "orderIndex": 3
+    },
+    {
+      "id": "88888888-1123-0000-0000-000000021004",
+      "lessonId": "88888888-1123-0000-0000-000000000121",
+      "sentenceNumber": 4,
+      "plainText": "まだへたですが、毎日れんしゅうしています。",
+      "romaji": "mada hetadesuga,mainichi renshuushiteimasu.",
+      "contentHtml": "まだ へたですが、<ruby>毎日<rt>まいにち</rt></ruby> れんしゅうしています。",
+      "meaningVi": "Tôi vẫn còn chưa giỏi nhưng ngày nào cũng luyện tập.",
+      "orderIndex": 4
+    },
+    {
+      "id": "88888888-1123-0000-0000-000000021005",
+      "lessonId": "88888888-1123-0000-0000-000000000121",
+      "sentenceNumber": 5,
+      "plainText": "ゆうがた、コンビニへ行きました。",
+      "romaji": "yuugata,konbini e ikimashita.",
+      "contentHtml": "ゆうがた、コンビニへ <ruby>行<rt>い</rt></ruby>きました。",
+      "meaningVi": "Chiều tối tôi đã đi combini.",
+      "orderIndex": 5
+    },
+    {
+      "id": "88888888-1123-0000-0000-000000021006",
+      "lessonId": "88888888-1123-0000-0000-000000000121",
+      "sentenceNumber": 6,
+      "plainText": "パンとミルクを買いました。",
+      "romaji": "panto miruku wo kaimashita.",
+      "contentHtml": "パンと ミルクを <ruby>買<rt>か</rt></ruby>いました。",
+      "meaningVi": "Tôi đã mua bánh mì và sữa.",
+      "orderIndex": 6
+    },
+    {
+      "id": "88888888-1123-0000-0000-000000021007",
+      "lessonId": "88888888-1123-0000-0000-000000000121",
+      "sentenceNumber": 7,
+      "plainText": "コンビニはべんりで、よく行きます。",
+      "romaji": "konbini wa benride,yoku ikimasu.",
+      "contentHtml": "コンビニは べんりで、よく <ruby>行<rt>い</rt></ruby>きます。",
+      "meaningVi": "Combini rất tiện nên tôi thường đến đó.",
+      "orderIndex": 7
+    },
+    {
+      "id": "88888888-1123-0000-0000-000000021008",
+      "lessonId": "88888888-1123-0000-0000-000000000121",
+      "sentenceNumber": 8,
+      "plainText": "よる、いえに帰りました。",
+      "romaji": "yoru,ieni kaerimashita.",
+      "contentHtml": "よる、いえに <ruby>帰<rt>かえ</rt></ruby>りました。",
+      "meaningVi": "Buổi tối tôi đã về nhà.",
+      "orderIndex": 8
+    },
+    {
+      "id": "88888888-1123-0000-0000-000000021009",
+      "lessonId": "88888888-1123-0000-0000-000000000121",
+      "sentenceNumber": 9,
+      "plainText": "テレビを見て、すこし休みました。",
+      "romaji": "terebi wo mite,sukoshi yasumimashita.",
+      "contentHtml": "テレビを <ruby>見<rt>み</rt></ruby>て、すこし <ruby>休<rt>やす</rt></ruby>みました。",
+      "meaningVi": "Tôi xem tivi và nghỉ ngơi một chút.",
+      "orderIndex": 9
+    },
+    {
+      "id": "88888888-1123-0000-0000-000000021010",
+      "lessonId": "88888888-1123-0000-0000-000000000121",
+      "sentenceNumber": 10,
+      "plainText": "つかれましたが、いいいちにちでした。",
+      "romaji": "tsukaremashitaga,ii ichinichideshita.",
+      "contentHtml": "つかれましたが、いい いちにちでした。",
+      "meaningVi": "Dù mệt nhưng đó là một ngày tốt đẹp.",
+      "orderIndex": 10
+    }
+  ]
+}

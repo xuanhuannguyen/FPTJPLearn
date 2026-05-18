@@ -1,0 +1,55 @@
+{
+  "lesson": {
+    "id": "88888888-1113-0000-0000-000000000122",
+    "courseCode": "jpd113",
+    "lessonNumber": 22,
+    "title": "たんじょうびの おいわい",
+    "description": "Kỷ niệm - Tổ chức tiệc sinh nhật cùng bạn bè.",
+    "accessTier": "premium",
+    "packageCode": "speaking_jpd113",
+    "isLocked": true,
+    "sentenceCount": 4
+  },
+  "sentences": [
+    {
+      "id": "88888888-1113-0000-0000-000000022001",
+      "lessonId": "88888888-1113-0000-0000-000000000122",
+      "sentenceNumber": 1,
+      "plainText": "わたしのたんじょうびは十月八日です。",
+      "romaji": "watashino tanjoubi wa juugatsuyoukadesu.",
+      "contentHtml": "<ruby>わたし<rt>わたし</rt></ruby>の <ruby>たんじょうび<rt>たんじょうび</rt></ruby>は <ruby>十月八日<rt>じゅうがつようか</rt></ruby>です。",
+      "meaningVi": "Sinh nhật của tôi là ngày 8 tháng 10.",
+      "orderIndex": 1
+    },
+    {
+      "id": "88888888-1113-0000-0000-000000022002",
+      "lessonId": "88888888-1113-0000-0000-000000000122",
+      "sentenceNumber": 2,
+      "plainText": "ことしは日曜日だったので、三人のともだちとおいわいをしました。",
+      "romaji": "kotoshi wa nichiyoubidattanode,sanninno tomodachito oiwai wo shimashita.",
+      "contentHtml": "ことしは <ruby>日曜日<rt>にちようび</rt></ruby>だったので、<ruby>三人<rt>さんにん</rt></ruby>の <ruby>ともだち<rt>ともだち</rt></ruby>と おいわいを しました。",
+      "meaningVi": "Năm nay vì là chủ nhật nên tôi đã tổ chức tiệc cùng 3 người bạn.",
+      "orderIndex": 2
+    },
+    {
+      "id": "88888888-1113-0000-0000-000000022003",
+      "lessonId": "88888888-1113-0000-0000-000000000122",
+      "sentenceNumber": 3,
+      "plainText": "レストランでラーメンをたべました。",
+      "romaji": "resutorande ra-men wo tabemashita.",
+      "contentHtml": "レストランで ラーメンを <ruby>た<rt>た</rt></ruby>べました。",
+      "meaningVi": "Chúng tôi đã ăn Ramen ở nhà hàng.",
+      "orderIndex": 3
+    },
+    {
+      "id": "88888888-1113-0000-0000-000000022004",
+      "lessonId": "88888888-1113-0000-0000-000000000122",
+      "sentenceNumber": 4,
+      "plainText": "それから、スーパーで千円のケーキをかいました。",
+      "romaji": "sorekara,su-pa-de senenno ke-ki wo kaimashita.",
+      "contentHtml": "それから、スーパーで <ruby>千円<rt>せんえん</rt></ruby>の ケーキを <ruby>か<rt>か</rt></ruby>いました。",
+      "meaningVi": "Sau đó, tôi đã mua một chiếc bánh kem 1.000 yên ở siêu thị.",
+      "orderIndex": 4
+    }
+  ]
+}

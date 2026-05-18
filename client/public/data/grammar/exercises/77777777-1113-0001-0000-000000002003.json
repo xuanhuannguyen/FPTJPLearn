@@ -1,0 +1,230 @@
+[
+  {
+    "id": "77777777-1113-0003-0000-000000212001",
+    "patternId": "77777777-1113-0001-0000-000000002003",
+    "exerciseType": "ja_to_vi",
+    "prompt": "そのTシャツをください。",
+    "promptReading": "そのTシャツをください。",
+    "expectedAnswer": "Cho tôi cái áo thun đó.",
+    "hint": "N を ください。",
+    "explanation": "Có thể thêm số lượng vào trước ください.",
+    "orderIndex": 1
+  },
+  {
+    "id": "77777777-1113-0003-0000-000000222001",
+    "patternId": "77777777-1113-0001-0000-000000002003",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Cho tôi cái áo thun đó.",
+    "expectedAnswer": "そのTシャツをください。",
+    "acceptableAnswers": [
+      "そのTシャツをください。"
+    ],
+    "hint": "Danh từ + を + ください",
+    "explanation": "Có thể thêm số lượng vào trước ください.",
+    "orderIndex": 2
+  },
+  {
+    "id": "77777777-1113-0003-0000-000000232001",
+    "patternId": "77777777-1113-0001-0000-000000002003",
+    "exerciseType": "arrange",
+    "prompt": "Cho tôi cái áo thun đó.",
+    "expectedAnswer": "そのTシャツをください",
+    "optionsJson": "[\"そ\",\"の\",\"を\",\"Tシャツ\",\"ください\"]",
+    "options": [
+      "そ",
+      "の",
+      "を",
+      "Tシャツ",
+      "ください"
+    ],
+    "correctOrderJson": "[\"そ\",\"の\",\"Tシャツ\",\"を\",\"ください\"]",
+    "correctOrder": [
+      "そ",
+      "の",
+      "Tシャツ",
+      "を",
+      "ください"
+    ],
+    "orderIndex": 3
+  },
+  {
+    "id": "77777777-1113-0003-0000-000000212002",
+    "patternId": "77777777-1113-0001-0000-000000002003",
+    "exerciseType": "ja_to_vi",
+    "prompt": "りんごを三つください。",
+    "promptReading": "りんごをみっつください。",
+    "expectedAnswer": "Cho tôi 3 quả táo.",
+    "hint": "N を ください。",
+    "explanation": "Có thể thêm số lượng vào trước ください.",
+    "orderIndex": 4
+  },
+  {
+    "id": "77777777-1113-0003-0000-000000222002",
+    "patternId": "77777777-1113-0001-0000-000000002003",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Cho tôi 3 quả táo.",
+    "expectedAnswer": "りんごを三つください。",
+    "acceptableAnswers": [
+      "りんごをみっつください。"
+    ],
+    "hint": "Danh từ + を + ください",
+    "explanation": "Có thể thêm số lượng vào trước ください.",
+    "orderIndex": 5
+  },
+  {
+    "id": "77777777-1113-0003-0000-000000232002",
+    "patternId": "77777777-1113-0001-0000-000000002003",
+    "exerciseType": "arrange",
+    "prompt": "Cho tôi 3 quả táo.",
+    "expectedAnswer": "りんごを三つください (みっつください)",
+    "optionsJson": "[\"を\",\"りんご\",\"三つください (みっつください)\"]",
+    "options": [
+      "を",
+      "りんご",
+      "三つください (みっつください)"
+    ],
+    "correctOrderJson": "[\"りんご\",\"を\",\"三つください (みっつください)\"]",
+    "correctOrder": [
+      "りんご",
+      "を",
+      "三つください (みっつください)"
+    ],
+    "orderIndex": 6
+  },
+  {
+    "id": "77777777-1113-0003-0000-000000212003",
+    "patternId": "77777777-1113-0001-0000-000000002003",
+    "exerciseType": "ja_to_vi",
+    "prompt": "このペンをください。",
+    "promptReading": "このぺんをください。",
+    "expectedAnswer": "Lấy cho tôi cái bút này.",
+    "hint": "N を ください。",
+    "explanation": "Có thể thêm số lượng vào trước ください.",
+    "orderIndex": 7
+  },
+  {
+    "id": "77777777-1113-0003-0000-000000222003",
+    "patternId": "77777777-1113-0001-0000-000000002003",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Lấy cho tôi cái bút này.",
+    "expectedAnswer": "このペンをください。",
+    "acceptableAnswers": [
+      "このぺんをください。"
+    ],
+    "hint": "Danh từ + を + ください",
+    "explanation": "Có thể thêm số lượng vào trước ください.",
+    "orderIndex": 8
+  },
+  {
+    "id": "77777777-1113-0003-0000-000000232003",
+    "patternId": "77777777-1113-0001-0000-000000002003",
+    "exerciseType": "arrange",
+    "prompt": "Lấy cho tôi cái bút này.",
+    "expectedAnswer": "このペンをください",
+    "optionsJson": "[\"こ\",\"の\",\"を\",\"ペン\",\"ください\"]",
+    "options": [
+      "こ",
+      "の",
+      "を",
+      "ペン",
+      "ください"
+    ],
+    "correctOrderJson": "[\"こ\",\"の\",\"ペン\",\"を\",\"ください\"]",
+    "correctOrder": [
+      "こ",
+      "の",
+      "ペン",
+      "を",
+      "ください"
+    ],
+    "orderIndex": 9
+  },
+  {
+    "id": "77777777-1113-0003-0000-000000212004",
+    "patternId": "77777777-1113-0001-0000-000000002003",
+    "exerciseType": "ja_to_vi",
+    "prompt": "コーヒーを二つください。",
+    "promptReading": "コーヒーをふたつください。",
+    "expectedAnswer": "Cho tôi 2 ly cà phê.",
+    "hint": "N を ください。",
+    "explanation": "Có thể thêm số lượng vào trước ください.",
+    "orderIndex": 10
+  },
+  {
+    "id": "77777777-1113-0003-0000-000000222004",
+    "patternId": "77777777-1113-0001-0000-000000002003",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Cho tôi 2 ly cà phê.",
+    "expectedAnswer": "コーヒーを二つください。",
+    "acceptableAnswers": [
+      "コーヒーをふたつください。"
+    ],
+    "hint": "Danh từ + を + ください",
+    "explanation": "Có thể thêm số lượng vào trước ください.",
+    "orderIndex": 11
+  },
+  {
+    "id": "77777777-1113-0003-0000-000000232004",
+    "patternId": "77777777-1113-0001-0000-000000002003",
+    "exerciseType": "arrange",
+    "prompt": "Cho tôi 2 ly cà phê.",
+    "expectedAnswer": "コーヒーを二つください (ふたつください)",
+    "optionsJson": "[\"を\",\"コーヒー\",\"二つください (ふたつください)\"]",
+    "options": [
+      "を",
+      "コーヒー",
+      "二つください (ふたつください)"
+    ],
+    "correctOrderJson": "[\"コーヒー\",\"を\",\"二つください (ふたつください)\"]",
+    "correctOrder": [
+      "コーヒー",
+      "を",
+      "二つください (ふたつください)"
+    ],
+    "orderIndex": 12
+  },
+  {
+    "id": "77777777-1113-0003-0000-000000212005",
+    "patternId": "77777777-1113-0001-0000-000000002003",
+    "exerciseType": "ja_to_vi",
+    "prompt": "水をください。",
+    "promptReading": "みずをください。",
+    "expectedAnswer": "Cho tôi xin nước.",
+    "hint": "N を ください。",
+    "explanation": "Có thể thêm số lượng vào trước ください.",
+    "orderIndex": 13
+  },
+  {
+    "id": "77777777-1113-0003-0000-000000222005",
+    "patternId": "77777777-1113-0001-0000-000000002003",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Cho tôi xin nước.",
+    "expectedAnswer": "水をください。",
+    "acceptableAnswers": [
+      "みずをください。"
+    ],
+    "hint": "Danh từ + を + ください",
+    "explanation": "Có thể thêm số lượng vào trước ください.",
+    "orderIndex": 14
+  },
+  {
+    "id": "77777777-1113-0003-0000-000000232005",
+    "patternId": "77777777-1113-0001-0000-000000002003",
+    "exerciseType": "arrange",
+    "prompt": "Cho tôi xin nước.",
+    "expectedAnswer": "水 (みず)をください",
+    "optionsJson": "[\"を\",\"ください\",\"水 (みず)\"]",
+    "options": [
+      "を",
+      "ください",
+      "水 (みず)"
+    ],
+    "correctOrderJson": "[\"水 (みず)\",\"を\",\"ください\"]",
+    "correctOrder": [
+      "水 (みず)",
+      "を",
+      "ください"
+    ],
+    "orderIndex": 15
+  }
+]

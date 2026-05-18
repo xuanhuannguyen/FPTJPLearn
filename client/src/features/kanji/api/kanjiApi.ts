@@ -1,14 +1,5 @@
-import { apiClient } from '../../../shared/api/axios';
+import { fetchStatic } from '../../../shared/services/staticDataService';
 import type { KanjiComponent, KanjiItem, KanjiLesson, KanjiLevel, KanjiLevelStats, KanjiVocabulary } from '../types/kanji.types';
-
-interface KanjiLevelResponse {
-  level: KanjiLevel;
-  lessonCount: number;
-  kanjiCount: number;
-  vocabularyCount: number;
-  learnedCount: number;
-  practicedCount: number;
-}
 
 interface KanjiLessonDetailResponse {
   lesson: KanjiLessonResponse;
@@ -29,20 +20,9 @@ interface KanjiItemResponse extends Omit<KanjiItem, 'kunReading' | 'onReading' |
   orderIndex?: number;
 }
 
-const lessonDetailCache = new Map<string, Promise<KanjiLessonDetailResponse>>();
-
 const getLessonDetail = (lessonId: string) => {
-  const cached = lessonDetailCache.get(lessonId);
-  if (cached) {
-    return cached;
-  }
-
-  const request = apiClient
-    .get<KanjiLessonDetailResponse>(`/kanji/lessons/${lessonId}`)
-    .then((response) => response.data);
-
-  lessonDetailCache.set(lessonId, request);
-  return request;
+  const courseCode = lessonId.includes('jpd123') ? 'jpd123' : 'jpd113';
+  return fetchStatic<KanjiLessonDetailResponse>(`kanji/${courseCode}/lessons/${lessonId}.json`);
 };
 
 const mapLesson = (lesson: KanjiLessonResponse): KanjiLesson => ({
@@ -91,19 +71,13 @@ const parseComponents = (componentMapJson?: string): KanjiComponent[] => {
 
 export const kanjiApi = {
   getLevelStats: async (): Promise<KanjiLevelStats[]> => {
-    const response = await apiClient.get<KanjiLevelResponse[]>('/kanji/levels');
-    return response.data.map((level) => ({
-      level: level.level,
-      totalLessons: level.lessonCount,
-      totalKanji: level.kanjiCount,
-      totalVocabulary: level.vocabularyCount,
-      progressPercentage: level.kanjiCount === 0 ? 0 : Math.round((level.learnedCount / level.kanjiCount) * 100),
-    }));
+    return fetchStatic<KanjiLevelStats[]>('kanji/levels.json');
   },
 
-  getLessonsByLevel: async (level: KanjiLevel): Promise<KanjiLesson[]> => {
-    const response = await apiClient.get<{ lessons: KanjiLessonResponse[] }>(`/kanji/${level}/lessons`);
-    return response.data.lessons.map(mapLesson);
+  getLessonsByLevel: async (level: KanjiLevel | string): Promise<KanjiLesson[]> => {
+    const key = level.toLowerCase().startsWith('jpd') ? level.toLowerCase() : level;
+    const lessons = await fetchStatic<KanjiLessonResponse[]>(`kanji/${key}/lessons.json`);
+    return lessons.map(mapLesson);
   },
 
   getLessonById: async (lessonId: string): Promise<KanjiLesson> => {

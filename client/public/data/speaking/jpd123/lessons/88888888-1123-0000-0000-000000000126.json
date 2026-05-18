@@ -1,0 +1,85 @@
+{
+  "lesson": {
+    "id": "88888888-1123-0000-0000-000000000126",
+    "courseCode": "jpd123",
+    "lessonNumber": 26,
+    "title": "ベトナムの りょこう",
+    "description": "Du lịch - Đi Đà Nẵng, thăm chùa nổi tiếng và muốn đến Huế lần sau.",
+    "accessTier": "premium",
+    "packageCode": "speaking_jpd123",
+    "isLocked": true,
+    "sentenceCount": 7
+  },
+  "sentences": [
+    {
+      "id": "88888888-1123-0000-0000-000000026001",
+      "lessonId": "88888888-1123-0000-0000-000000000126",
+      "sentenceNumber": 1,
+      "plainText": "わたしは今年の9月にベトナムへ行きました。",
+      "romaji": "watashi wa kotoshi no kugatsu ni betonamu e ikimashita.",
+      "contentHtml": "わたしは <ruby>今年<rt>ことし</rt></ruby> の <ruby>9月<rt>くがつ</rt></ruby> に ベトナムへ <ruby>行<rt>い</rt></ruby>きました。",
+      "meaningVi": "Năm nay vào tháng 9 tôi đã đi Việt Nam.",
+      "orderIndex": 1
+    },
+    {
+      "id": "88888888-1123-0000-0000-000000026002",
+      "lessonId": "88888888-1123-0000-0000-000000000126",
+      "sentenceNumber": 2,
+      "plainText": "ダナンでともだちに会いました。",
+      "romaji": "danande tomodachini aimashita.",
+      "contentHtml": "ダナンで ともだちに <ruby>会<rt>あ</rt></ruby>いました。",
+      "meaningVi": "Tôi đã gặp bạn ở Đà Nẵng.",
+      "orderIndex": 2
+    },
+    {
+      "id": "88888888-1123-0000-0000-000000026003",
+      "lessonId": "88888888-1123-0000-0000-000000000126",
+      "sentenceNumber": 3,
+      "plainText": "それから、いっしょにゆうめいなおてらへ行きました。",
+      "romaji": "sorekara,isshoni yuumeina otera e ikimashita.",
+      "contentHtml": "それから、いっしょに ゆうめいな おてらへ <ruby>行<rt>い</rt></ruby>きました。",
+      "meaningVi": "Sau đó chúng tôi cùng đi đến một ngôi chùa nổi tiếng.",
+      "orderIndex": 3
+    },
+    {
+      "id": "88888888-1123-0000-0000-000000026004",
+      "lessonId": "88888888-1123-0000-0000-000000000126",
+      "sentenceNumber": 4,
+      "plainText": "とてもきれいでした。",
+      "romaji": "totemo kireideshita.",
+      "contentHtml": "とても きれいでした。",
+      "meaningVi": "Nơi đó rất đẹp.",
+      "orderIndex": 4
+    },
+    {
+      "id": "88888888-1123-0000-0000-000000026005",
+      "lessonId": "88888888-1123-0000-0000-000000000126",
+      "sentenceNumber": 5,
+      "plainText": "おいしい食べ物もたくさん食べました。",
+      "romaji": "oishii tabemono mo takusan tabemashita.",
+      "contentHtml": "おいしい <ruby>食<rt>た</rt></ruby>べ<ruby>物<rt>もの</rt></ruby> も たくさん <ruby>食<rt>た</rt></ruby>べました。",
+      "meaningVi": "Tôi cũng đã ăn rất nhiều món ngon.",
+      "orderIndex": 5
+    },
+    {
+      "id": "88888888-1123-0000-0000-000000026006",
+      "lessonId": "88888888-1123-0000-0000-000000000126",
+      "sentenceNumber": 6,
+      "plainText": "時間があまりありませんでしたから、フエへ行きませんでした。",
+      "romaji": "jikan ga amari arimasendeshitakara,fue e ikimasendeshita.",
+      "contentHtml": "<ruby>時間<rt>じかん</rt></ruby> が あまり ありませんでしたから、フエへ <ruby>行<rt>い</rt></ruby>きませんでした。",
+      "meaningVi": "Vì không có nhiều thời gian nên tôi đã không đi Huế.",
+      "orderIndex": 6
+    },
+    {
+      "id": "88888888-1123-0000-0000-000000026007",
+      "lessonId": "88888888-1123-0000-0000-000000000126",
+      "sentenceNumber": 7,
+      "plainText": "こんどフエへ行きたいです。",
+      "romaji": "kondo fue e ikitaidesu.",
+      "contentHtml": "こんど フエへ <ruby>行<rt>い</rt></ruby>きたいです。",
+      "meaningVi": "Lần tới tôi muốn đến Huế.",
+      "orderIndex": 7
+    }
+  ]
+}

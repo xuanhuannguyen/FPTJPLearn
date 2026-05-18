@@ -1,0 +1,65 @@
+{
+  "lesson": {
+    "id": "88888888-1113-0000-0000-000000000127",
+    "courseCode": "jpd113",
+    "lessonNumber": 27,
+    "title": "ホームステイ",
+    "description": "Sinh hoạt - Trải nghiệm homestay tại nhà người Nhật.",
+    "accessTier": "premium",
+    "packageCode": "speaking_jpd113",
+    "isLocked": true,
+    "sentenceCount": 5
+  },
+  "sentences": [
+    {
+      "id": "88888888-1113-0000-0000-000000027001",
+      "lessonId": "88888888-1113-0000-0000-000000000127",
+      "sentenceNumber": 1,
+      "plainText": "私は十月一日からホームステイをします。",
+      "romaji": "watashi wa juugatsutsuitachikara ho-musutei wo shimasu.",
+      "contentHtml": "<ruby>私<rt>わたし</rt></ruby>は <ruby>十月一日<rt>じゅうがつついたち</rt></ruby>から ホームステイを します。",
+      "meaningVi": "Tôi bắt đầu ở homestay từ ngày 1 tháng 10.",
+      "orderIndex": 1
+    },
+    {
+      "id": "88888888-1113-0000-0000-000000027002",
+      "lessonId": "88888888-1113-0000-0000-000000000127",
+      "sentenceNumber": 2,
+      "plainText": "日本人のホストファミリーのいえはえきから十分です。",
+      "romaji": "nihonjinno hosutofamiri-no ie wa ekikara juppundesu.",
+      "contentHtml": "<ruby>日本人<rt>にほんじん</rt></ruby>の ホストファミリーの <ruby>いえ<rt>いえ</rt></ruby>は <ruby>えき<rt>えき</rt></ruby>から <ruby>十分<rt>じゅっぷん</rt></ruby>です。",
+      "meaningVi": "Nhà của gia đình host người Nhật cách nhà ga 10 phút.",
+      "orderIndex": 2
+    },
+    {
+      "id": "88888888-1113-0000-0000-000000027003",
+      "lessonId": "88888888-1113-0000-0000-000000000127",
+      "sentenceNumber": 3,
+      "plainText": "あさ七時にあさごはんをたべます。",
+      "romaji": "asa shichijini asagohan wo tabemasu.",
+      "contentHtml": "<ruby>あさ<rt>あさ</rt></ruby> <ruby>七時<rt>しちじ</rt></ruby>に <ruby>あさごはん<rt>あさごはん</rt></ruby>を <ruby>た<rt>た</rt></ruby>べます。",
+      "meaningVi": "7 giờ sáng ăn bữa sáng.",
+      "orderIndex": 3
+    },
+    {
+      "id": "88888888-1113-0000-0000-000000027004",
+      "lessonId": "88888888-1113-0000-0000-000000000127",
+      "sentenceNumber": 4,
+      "plainText": "よるいっしょにテレビをみます。",
+      "romaji": "yoru isshoni terebi wo mimasu.",
+      "contentHtml": "<ruby>よる<rt>よる</rt></ruby> <ruby>いっしょ<rt>いっしょ</rt></ruby>に テレビを <ruby>み<rt>み</rt></ruby>ます。",
+      "meaningVi": "Buổi tối cùng nhau xem tivi.",
+      "orderIndex": 4
+    },
+    {
+      "id": "88888888-1113-0000-0000-000000027005",
+      "lessonId": "88888888-1113-0000-0000-000000000127",
+      "sentenceNumber": 5,
+      "plainText": "十日にいえへかえります。",
+      "romaji": "tookani ie e kaerimasu.",
+      "contentHtml": "<ruby>十日<rt>とおか</rt></ruby>に <ruby>いえ<rt>いえ</rt></ruby>へ <ruby>かえ<rt>かえ</rt></ruby>ります。",
+      "meaningVi": "Ngày 10 tôi về nhà.",
+      "orderIndex": 5
+    }
+  ]
+}

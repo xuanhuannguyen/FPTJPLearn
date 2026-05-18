@@ -1,0 +1,226 @@
+[
+  {
+    "id": "77777777-1113-0003-0000-000000312001",
+    "patternId": "77777777-1113-0001-0000-000000003003",
+    "exerciseType": "ja_to_vi",
+    "prompt": "私は毎日、コーヒーを飲みます。",
+    "promptReading": "わたしはまいにち、コーヒーをのみます。",
+    "expectedAnswer": "Mỗi ngày tôi đều uống cà phê.",
+    "hint": "N を Vます",
+    "explanation": "Trợ từ を phát âm là 'o'.",
+    "orderIndex": 1
+  },
+  {
+    "id": "77777777-1113-0003-0000-000000322001",
+    "patternId": "77777777-1113-0001-0000-000000003003",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Mỗi ngày tôi đều uống cà phê.",
+    "expectedAnswer": "私は毎日、コーヒーを飲みます。",
+    "acceptableAnswers": [
+      "わたしはまいにち、コーヒーをのみます。"
+    ],
+    "hint": "Danh từ + を + Động từ",
+    "explanation": "Trợ từ を phát âm là 'o'.",
+    "orderIndex": 2
+  },
+  {
+    "id": "77777777-1113-0003-0000-000000332001",
+    "patternId": "77777777-1113-0001-0000-000000003003",
+    "exerciseType": "arrange",
+    "prompt": "Mỗi ngày tôi đều uống cà phê.",
+    "expectedAnswer": "私 (わたし)は毎日、コーヒー (まいにち、コーヒー)を飲みます (のみます)",
+    "optionsJson": "[\"は\",\"を\",\"私 (わたし)\",\"飲みます (のみます)\",\"毎日、コーヒー (まいにち、コーヒー)\"]",
+    "options": [
+      "は",
+      "を",
+      "私 (わたし)",
+      "飲みます (のみます)",
+      "毎日、コーヒー (まいにち、コーヒー)"
+    ],
+    "correctOrderJson": "[\"私 (わたし)\",\"は\",\"毎日、コーヒー (まいにち、コーヒー)\",\"を\",\"飲みます (のみます)\"]",
+    "correctOrder": [
+      "私 (わたし)",
+      "は",
+      "毎日、コーヒー (まいにち、コーヒー)",
+      "を",
+      "飲みます (のみます)"
+    ],
+    "orderIndex": 3
+  },
+  {
+    "id": "77777777-1113-0003-0000-000000312002",
+    "patternId": "77777777-1113-0001-0000-000000003003",
+    "exerciseType": "ja_to_vi",
+    "prompt": "毎晩、テレビを見ます。",
+    "promptReading": "まいばん、テレビをみます。",
+    "expectedAnswer": "Mỗi tối tôi đều xem tivi.",
+    "hint": "N を Vます",
+    "explanation": "Trợ từ を phát âm là 'o'.",
+    "orderIndex": 4
+  },
+  {
+    "id": "77777777-1113-0003-0000-000000322002",
+    "patternId": "77777777-1113-0001-0000-000000003003",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Mỗi tối tôi đều xem tivi.",
+    "expectedAnswer": "毎晩、テレビを見ます。",
+    "acceptableAnswers": [
+      "まいばん、テレビをみます。"
+    ],
+    "hint": "Danh từ + を + Động từ",
+    "explanation": "Trợ từ を phát âm là 'o'.",
+    "orderIndex": 5
+  },
+  {
+    "id": "77777777-1113-0003-0000-000000332002",
+    "patternId": "77777777-1113-0001-0000-000000003003",
+    "exerciseType": "arrange",
+    "prompt": "Mỗi tối tôi đều xem tivi.",
+    "expectedAnswer": "毎晩、テレビ (まいばん、テレビ)を見ます (みます)",
+    "optionsJson": "[\"を\",\"見ます (みます)\",\"毎晩、テレビ (まいばん、テレビ)\"]",
+    "options": [
+      "を",
+      "見ます (みます)",
+      "毎晩、テレビ (まいばん、テレビ)"
+    ],
+    "correctOrderJson": "[\"毎晩、テレビ (まいばん、テレビ)\",\"を\",\"見ます (みます)\"]",
+    "correctOrder": [
+      "毎晩、テレビ (まいばん、テレビ)",
+      "を",
+      "見ます (みます)"
+    ],
+    "orderIndex": 6
+  },
+  {
+    "id": "77777777-1113-0003-0000-000000312003",
+    "patternId": "77777777-1113-0001-0000-000000003003",
+    "exerciseType": "ja_to_vi",
+    "prompt": "リンゴを食べます。",
+    "promptReading": "りんごをたべます。",
+    "expectedAnswer": "Tôi ăn táo.",
+    "hint": "N を Vます",
+    "explanation": "Trợ từ を phát âm là 'o'.",
+    "orderIndex": 7
+  },
+  {
+    "id": "77777777-1113-0003-0000-000000322003",
+    "patternId": "77777777-1113-0001-0000-000000003003",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Tôi ăn táo.",
+    "expectedAnswer": "リンゴを食べます。",
+    "acceptableAnswers": [
+      "りんごをたべます。"
+    ],
+    "hint": "Danh từ + を + Động từ",
+    "explanation": "Trợ từ を phát âm là 'o'.",
+    "orderIndex": 8
+  },
+  {
+    "id": "77777777-1113-0003-0000-000000332003",
+    "patternId": "77777777-1113-0001-0000-000000003003",
+    "exerciseType": "arrange",
+    "prompt": "Tôi ăn táo.",
+    "expectedAnswer": "リンゴを食べます (たべます)",
+    "optionsJson": "[\"を\",\"リンゴ\",\"食べます (たべます)\"]",
+    "options": [
+      "を",
+      "リンゴ",
+      "食べます (たべます)"
+    ],
+    "correctOrderJson": "[\"リンゴ\",\"を\",\"食べます (たべます)\"]",
+    "correctOrder": [
+      "リンゴ",
+      "を",
+      "食べます (たべます)"
+    ],
+    "orderIndex": 9
+  },
+  {
+    "id": "77777777-1113-0003-0000-000000312004",
+    "patternId": "77777777-1113-0001-0000-000000003003",
+    "exerciseType": "ja_to_vi",
+    "prompt": "音楽を聞きます。",
+    "promptReading": "おんがくをききます。",
+    "expectedAnswer": "Tôi nghe nhạc.",
+    "hint": "N を Vます",
+    "explanation": "Trợ từ を phát âm là 'o'.",
+    "orderIndex": 10
+  },
+  {
+    "id": "77777777-1113-0003-0000-000000322004",
+    "patternId": "77777777-1113-0001-0000-000000003003",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Tôi nghe nhạc.",
+    "expectedAnswer": "音楽を聞きます。",
+    "acceptableAnswers": [
+      "おんがくをききます。"
+    ],
+    "hint": "Danh từ + を + Động từ",
+    "explanation": "Trợ từ を phát âm là 'o'.",
+    "orderIndex": 11
+  },
+  {
+    "id": "77777777-1113-0003-0000-000000332004",
+    "patternId": "77777777-1113-0001-0000-000000003003",
+    "exerciseType": "arrange",
+    "prompt": "Tôi nghe nhạc.",
+    "expectedAnswer": "音楽 (おんがく)を聞きます (ききます)",
+    "optionsJson": "[\"を\",\"音楽 (おんがく)\",\"聞きます (ききます)\"]",
+    "options": [
+      "を",
+      "音楽 (おんがく)",
+      "聞きます (ききます)"
+    ],
+    "correctOrderJson": "[\"音楽 (おんがく)\",\"を\",\"聞きます (ききます)\"]",
+    "correctOrder": [
+      "音楽 (おんがく)",
+      "を",
+      "聞きます (ききます)"
+    ],
+    "orderIndex": 12
+  },
+  {
+    "id": "77777777-1113-0003-0000-000000312005",
+    "patternId": "77777777-1113-0001-0000-000000003003",
+    "exerciseType": "ja_to_vi",
+    "prompt": "手紙を書きます。",
+    "promptReading": "てがみをかきます。",
+    "expectedAnswer": "Tôi viết thư.",
+    "hint": "N を Vます",
+    "explanation": "Trợ từ を phát âm là 'o'.",
+    "orderIndex": 13
+  },
+  {
+    "id": "77777777-1113-0003-0000-000000322005",
+    "patternId": "77777777-1113-0001-0000-000000003003",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Tôi viết thư.",
+    "expectedAnswer": "手紙を書きます。",
+    "acceptableAnswers": [
+      "てがみをかきます。"
+    ],
+    "hint": "Danh từ + を + Động từ",
+    "explanation": "Trợ từ を phát âm là 'o'.",
+    "orderIndex": 14
+  },
+  {
+    "id": "77777777-1113-0003-0000-000000332005",
+    "patternId": "77777777-1113-0001-0000-000000003003",
+    "exerciseType": "arrange",
+    "prompt": "Tôi viết thư.",
+    "expectedAnswer": "手紙 (てがみ)を書きます (かきます)",
+    "optionsJson": "[\"を\",\"手紙 (てがみ)\",\"書きます (かきます)\"]",
+    "options": [
+      "を",
+      "手紙 (てがみ)",
+      "書きます (かきます)"
+    ],
+    "correctOrderJson": "[\"手紙 (てがみ)\",\"を\",\"書きます (かきます)\"]",
+    "correctOrder": [
+      "手紙 (てがみ)",
+      "を",
+      "書きます (かきます)"
+    ],
+    "orderIndex": 15
+  }
+]

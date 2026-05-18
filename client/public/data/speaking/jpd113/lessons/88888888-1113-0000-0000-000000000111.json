@@ -1,0 +1,55 @@
+{
+  "lesson": {
+    "id": "88888888-1113-0000-0000-000000000111",
+    "courseCode": "jpd113",
+    "lessonNumber": 11,
+    "title": "しゅうまつの よてい",
+    "description": "Sinh hoạt - Lịch trình cuối tuần và việc làm thêm.",
+    "accessTier": "premium",
+    "packageCode": "speaking_jpd113",
+    "isLocked": true,
+    "sentenceCount": 4
+  },
+  "sentences": [
+    {
+      "id": "88888888-1113-0000-0000-000000011001",
+      "lessonId": "88888888-1113-0000-0000-000000000111",
+      "sentenceNumber": 1,
+      "plainText": "しゅうまつ、としょかんへ行きます。",
+      "romaji": "shuumatsu,toshokan e ikimasu.",
+      "contentHtml": "<ruby>しゅうまつ<rt>しゅうまつ</rt></ruby>、<ruby>としょかん<rt>としょかん</rt></ruby>へ <ruby>行<rt>い</rt></ruby>きます。",
+      "meaningVi": "Cuối tuần tôi đi thư viện.",
+      "orderIndex": 1
+    },
+    {
+      "id": "88888888-1113-0000-0000-000000011002",
+      "lessonId": "88888888-1113-0000-0000-000000000111",
+      "sentenceNumber": 2,
+      "plainText": "としょかんで本をよみます。",
+      "romaji": "toshokande hon wo yomimasu.",
+      "contentHtml": "<ruby>としょかん<rt>としょかん</rt></ruby>で <ruby>本<rt>ほん</rt></ruby>を <ruby>よ<rt>よ</rt></ruby>みます。",
+      "meaningVi": "Tôi đọc sách ở thư viện.",
+      "orderIndex": 2
+    },
+    {
+      "id": "88888888-1113-0000-0000-000000011003",
+      "lessonId": "88888888-1113-0000-0000-000000000111",
+      "sentenceNumber": 3,
+      "plainText": "水曜日と土曜日、コンビニでアルバイトをします。",
+      "romaji": "suiyoubito doyoubi,konbinide arubaito wo shimasu.",
+      "contentHtml": "<ruby>水曜日<rt>すいようび</rt></ruby>と <ruby>土曜日<rt>どようび</rt></ruby>、コンビニで アルバイトを します。",
+      "meaningVi": "Thứ tư và thứ bảy tôi làm thêm ở cửa hàng tiện lợi.",
+      "orderIndex": 3
+    },
+    {
+      "id": "88888888-1113-0000-0000-000000011004",
+      "lessonId": "88888888-1113-0000-0000-000000000111",
+      "sentenceNumber": 4,
+      "plainText": "4じから8じまではたらきます。",
+      "romaji": "yojikara hachijimade hatarakimasu.",
+      "contentHtml": "<ruby>4じ<rt>よじ</rt></ruby>から <ruby>8じ<rt>はちじ</rt></ruby>まで <ruby>はたら<rt>はたら</rt></ruby>きます。",
+      "meaningVi": "Tôi làm việc từ 4 giờ đến 8 giờ.",
+      "orderIndex": 4
+    }
+  ]
+}

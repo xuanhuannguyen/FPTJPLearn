@@ -1,0 +1,192 @@
+[
+  {
+    "id": "77777777-1123-0003-0000-000000711001",
+    "patternId": "77777777-1123-0001-0000-000000007002",
+    "exerciseType": "ja_to_vi",
+    "prompt": "私の鞄をとってください。",
+    "promptReading": "わたしのかばんをとってください。",
+    "expectedAnswer": "Xin hãy lấy cặp của tôi.",
+    "hint": "Vて ください",
+    "explanation": "Thể て là cơ sở cho nhiều cấu trúc nâng cao.",
+    "orderIndex": 1
+  },
+  {
+    "id": "77777777-1123-0003-0000-000000721001",
+    "patternId": "77777777-1123-0001-0000-000000007002",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Xin hãy lấy cặp của tôi.",
+    "expectedAnswer": "私の鞄をとってください。",
+    "acceptableAnswers": [
+      "わたしのかばんをとってください。"
+    ],
+    "hint": "Động từ chia thể て + ください",
+    "explanation": "Thể て là cơ sở cho nhiều cấu trúc nâng cao.",
+    "orderIndex": 2
+  },
+  {
+    "id": "77777777-1123-0003-0000-000000731001",
+    "patternId": "77777777-1123-0001-0000-000000007002",
+    "exerciseType": "arrange",
+    "prompt": "Xin hãy lấy cặp của tôi.",
+    "expectedAnswer": "私 (わたし)の鞄 (かばん)をとってください",
+    "optionsJson": "[\"と\",\"の\",\"を\",\"私 (わたし)\",\"ってください\",\"鞄 (かばん)\"]",
+    "options": [
+      "と",
+      "の",
+      "を",
+      "私 (わたし)",
+      "ってください",
+      "鞄 (かばん)"
+    ],
+    "correctOrderJson": "[\"私 (わたし)\",\"の\",\"鞄 (かばん)\",\"を\",\"と\",\"ってください\"]",
+    "correctOrder": [
+      "私 (わたし)",
+      "の",
+      "鞄 (かばん)",
+      "を",
+      "と",
+      "ってください"
+    ],
+    "orderIndex": 3
+  },
+  {
+    "id": "77777777-1123-0003-0000-000000711002",
+    "patternId": "77777777-1123-0001-0000-000000007002",
+    "exerciseType": "ja_to_vi",
+    "prompt": "ここに名前を書いてください。",
+    "promptReading": "ここになまえをかいてください。",
+    "expectedAnswer": "Xin hãy viết tên vào đây.",
+    "hint": "Vて ください",
+    "explanation": "Thể て là cơ sở cho nhiều cấu trúc nâng cao.",
+    "orderIndex": 4
+  },
+  {
+    "id": "77777777-1123-0003-0000-000000721002",
+    "patternId": "77777777-1123-0001-0000-000000007002",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Xin hãy viết tên vào đây.",
+    "expectedAnswer": "ここに名前を書いてください。",
+    "acceptableAnswers": [
+      "ここになまえをかいてください。"
+    ],
+    "hint": "Động từ chia thể て + ください",
+    "explanation": "Thể て là cơ sở cho nhiều cấu trúc nâng cao.",
+    "orderIndex": 5
+  },
+  {
+    "id": "77777777-1123-0003-0000-000000731002",
+    "patternId": "77777777-1123-0001-0000-000000007002",
+    "exerciseType": "arrange",
+    "prompt": "Xin hãy viết tên vào đây.",
+    "expectedAnswer": "ここに名前 (なまえ)を書いてください (かいてください)",
+    "optionsJson": "[\"に\",\"を\",\"ここ\",\"名前 (なまえ)\",\"書いてください (かいてください)\"]",
+    "options": [
+      "に",
+      "を",
+      "ここ",
+      "名前 (なまえ)",
+      "書いてください (かいてください)"
+    ],
+    "correctOrderJson": "[\"ここ\",\"に\",\"名前 (なまえ)\",\"を\",\"書いてください (かいてください)\"]",
+    "correctOrder": [
+      "ここ",
+      "に",
+      "名前 (なまえ)",
+      "を",
+      "書いてください (かいてください)"
+    ],
+    "orderIndex": 6
+  },
+  {
+    "id": "77777777-1123-0003-0000-000000711003",
+    "patternId": "77777777-1123-0001-0000-000000007002",
+    "exerciseType": "ja_to_vi",
+    "prompt": "窓を開けてください。",
+    "promptReading": "まどをあけてください。",
+    "expectedAnswer": "Hãy mở cửa sổ giúp tôi.",
+    "hint": "Vて ください",
+    "explanation": "Thể て là cơ sở cho nhiều cấu trúc nâng cao.",
+    "orderIndex": 7
+  },
+  {
+    "id": "77777777-1123-0003-0000-000000721003",
+    "patternId": "77777777-1123-0001-0000-000000007002",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Hãy mở cửa sổ giúp tôi.",
+    "expectedAnswer": "窓を開けてください。",
+    "acceptableAnswers": [
+      "まどをあけてください。"
+    ],
+    "hint": "Động từ chia thể て + ください",
+    "explanation": "Thể て là cơ sở cho nhiều cấu trúc nâng cao.",
+    "orderIndex": 8
+  },
+  {
+    "id": "77777777-1123-0003-0000-000000731003",
+    "patternId": "77777777-1123-0001-0000-000000007002",
+    "exerciseType": "arrange",
+    "prompt": "Hãy mở cửa sổ giúp tôi.",
+    "expectedAnswer": "窓 (まど)を開けてください (あけてください)",
+    "optionsJson": "[\"を\",\"窓 (まど)\",\"開けてください (あけてください)\"]",
+    "options": [
+      "を",
+      "窓 (まど)",
+      "開けてください (あけてください)"
+    ],
+    "correctOrderJson": "[\"窓 (まど)\",\"を\",\"開けてください (あけてください)\"]",
+    "correctOrder": [
+      "窓 (まど)",
+      "を",
+      "開けてください (あけてください)"
+    ],
+    "orderIndex": 9
+  },
+  {
+    "id": "77777777-1123-0003-0000-000000711004",
+    "patternId": "77777777-1123-0001-0000-000000007002",
+    "exerciseType": "ja_to_vi",
+    "prompt": "少し待ってください。",
+    "promptReading": "すこしまってください。",
+    "expectedAnswer": "Xin hãy đợi một chút.",
+    "hint": "Vて ください",
+    "explanation": "Thể て là cơ sở cho nhiều cấu trúc nâng cao.",
+    "orderIndex": 10
+  },
+  {
+    "id": "77777777-1123-0003-0000-000000721004",
+    "patternId": "77777777-1123-0001-0000-000000007002",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Xin hãy đợi một chút.",
+    "expectedAnswer": "少し待ってください。",
+    "acceptableAnswers": [
+      "すこしまってください。"
+    ],
+    "hint": "Động từ chia thể て + ください",
+    "explanation": "Thể て là cơ sở cho nhiều cấu trúc nâng cao.",
+    "orderIndex": 11
+  },
+  {
+    "id": "77777777-1123-0003-0000-000000711005",
+    "patternId": "77777777-1123-0001-0000-000000007002",
+    "exerciseType": "ja_to_vi",
+    "prompt": "日本語で話してください。",
+    "promptReading": "にほんごではなしてください。",
+    "expectedAnswer": "Hãy nói bằng tiếng Nhật.",
+    "hint": "Vて ください",
+    "explanation": "Thể て là cơ sở cho nhiều cấu trúc nâng cao.",
+    "orderIndex": 12
+  },
+  {
+    "id": "77777777-1123-0003-0000-000000721005",
+    "patternId": "77777777-1123-0001-0000-000000007002",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Hãy nói bằng tiếng Nhật.",
+    "expectedAnswer": "日本語で話してください。",
+    "acceptableAnswers": [
+      "にほんごではなしてください。"
+    ],
+    "hint": "Động từ chia thể て + ください",
+    "explanation": "Thể て là cơ sở cho nhiều cấu trúc nâng cao.",
+    "orderIndex": 13
+  }
+]

@@ -1,0 +1,65 @@
+{
+  "lesson": {
+    "id": "88888888-1113-0000-0000-000000000105",
+    "courseCode": "jpd113",
+    "lessonNumber": 5,
+    "title": "アイフォーン",
+    "description": "Đồ vật - Giới thiệu về chiếc điện thoại di động.",
+    "accessTier": "premium",
+    "packageCode": "speaking_jpd113",
+    "isLocked": true,
+    "sentenceCount": 5
+  },
+  "sentences": [
+    {
+      "id": "88888888-1113-0000-0000-000000005001",
+      "lessonId": "88888888-1113-0000-0000-000000000105",
+      "sentenceNumber": 1,
+      "plainText": "これは「アイフォーン」です。",
+      "romaji": "kore wa \"aifo-n\"desu.",
+      "contentHtml": "これは 「アイフォーン」です。",
+      "meaningVi": "Đây là iPhone.",
+      "orderIndex": 1
+    },
+    {
+      "id": "88888888-1113-0000-0000-000000005002",
+      "lessonId": "88888888-1113-0000-0000-000000000105",
+      "sentenceNumber": 2,
+      "plainText": "私のけいたいでんわです。",
+      "romaji": "watashino keitaidenwadesu.",
+      "contentHtml": "<ruby>私<rt>わたし</rt></ruby>の <ruby>けいたいでんわ<rt>けいたいでんわ</rt></ruby>です。",
+      "meaningVi": "Đây là điện thoại di động của tôi.",
+      "orderIndex": 2
+    },
+    {
+      "id": "88888888-1113-0000-0000-000000005003",
+      "lessonId": "88888888-1113-0000-0000-000000000105",
+      "sentenceNumber": 3,
+      "plainText": "三千五百円です。",
+      "romaji": "sanzengohyakuendesu.",
+      "contentHtml": "<ruby>三千五百円<rt>さんぜんごひゃくえん</rt></ruby>です。",
+      "meaningVi": "Giá là 3.500 yên.",
+      "orderIndex": 3
+    },
+    {
+      "id": "88888888-1113-0000-0000-000000005004",
+      "lessonId": "88888888-1113-0000-0000-000000000105",
+      "sentenceNumber": 4,
+      "plainText": "アメリカのけいたいでんわです。",
+      "romaji": "amerikano keitaidenwadesu.",
+      "contentHtml": "アメリカの <ruby>けいたいでんわ<rt>けいたいでんわ</rt></ruby>です。",
+      "meaningVi": "Đây là điện thoại di động của Mỹ.",
+      "orderIndex": 4
+    },
+    {
+      "id": "88888888-1113-0000-0000-000000005005",
+      "lessonId": "88888888-1113-0000-0000-000000000105",
+      "sentenceNumber": 5,
+      "plainText": "とてもつかいやすいです。",
+      "romaji": "totemo tsukaiyasuidesu.",
+      "contentHtml": "とても つかいやすいです。",
+      "meaningVi": "Rất dễ sử dụng.",
+      "orderIndex": 5
+    }
+  ]
+}

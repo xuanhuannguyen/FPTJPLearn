@@ -1,0 +1,75 @@
+{
+  "lesson": {
+    "id": "88888888-1123-0000-0000-000000000111",
+    "courseCode": "jpd123",
+    "lessonNumber": 11,
+    "title": "ぎゅうどんが ありませんでした",
+    "description": "Bữa tối - Một bữa tối hụt món yêu thích ở combini.",
+    "accessTier": "premium",
+    "packageCode": "speaking_jpd123",
+    "isLocked": true,
+    "sentenceCount": 6
+  },
+  "sentences": [
+    {
+      "id": "88888888-1123-0000-0000-000000011001",
+      "lessonId": "88888888-1123-0000-0000-000000000111",
+      "sentenceNumber": 1,
+      "plainText": "今日、大学のあとで、コンビニにばんごはんを買いに行きました。",
+      "romaji": "kyou,daigaku no atode,konbinini bangohan wo kaini ikimashita.",
+      "contentHtml": "<ruby>今日<rt>きょう</rt></ruby>、<ruby>大学<rt>だいがく</rt></ruby> の あとで、コンビニに ばんごはんを <ruby>買<rt>か</rt></ruby>いに <ruby>行<rt>い</rt></ruby>きました。",
+      "meaningVi": "Hôm nay sau giờ học đại học, tôi đã đi combini mua bữa tối.",
+      "orderIndex": 1
+    },
+    {
+      "id": "88888888-1123-0000-0000-000000011002",
+      "lessonId": "88888888-1123-0000-0000-000000000111",
+      "sentenceNumber": 2,
+      "plainText": "私はいつもぎゅうどんを買います。",
+      "romaji": "watashi wa itsumo gyuudon wo kaimasu.",
+      "contentHtml": "<ruby>私<rt>わたし</rt></ruby> は いつも ぎゅうどんを <ruby>買<rt>か</rt></ruby>います。",
+      "meaningVi": "Tôi lúc nào cũng mua gyudon.",
+      "orderIndex": 2
+    },
+    {
+      "id": "88888888-1123-0000-0000-000000011003",
+      "lessonId": "88888888-1123-0000-0000-000000000111",
+      "sentenceNumber": 3,
+      "plainText": "ぎゅうどんは牛肉の料理です。",
+      "romaji": "gyuudon wa gyuuniku no ryouri desu.",
+      "contentHtml": "ぎゅうどんは <ruby>牛肉<rt>ぎゅうにく</rt></ruby> の <ruby>料理<rt>りょうり</rt></ruby> です。",
+      "meaningVi": "Gyudon là món ăn làm từ thịt bò.",
+      "orderIndex": 3
+    },
+    {
+      "id": "88888888-1123-0000-0000-000000011004",
+      "lessonId": "88888888-1123-0000-0000-000000000111",
+      "sentenceNumber": 4,
+      "plainText": "でも、今日はぎゅうどんがありませんでした。",
+      "romaji": "demo,kyou wa gyuudonga arimasendeshita.",
+      "contentHtml": "でも、<ruby>今日<rt>きょう</rt></ruby> は ぎゅうどんが ありませんでした。",
+      "meaningVi": "Nhưng hôm nay lại không có gyudon.",
+      "orderIndex": 4
+    },
+    {
+      "id": "88888888-1123-0000-0000-000000011005",
+      "lessonId": "88888888-1123-0000-0000-000000000111",
+      "sentenceNumber": 5,
+      "plainText": "とてもざんねんでした。",
+      "romaji": "totemo zannendeshita.",
+      "contentHtml": "とても ざんねんでした。",
+      "meaningVi": "Tôi rất tiếc.",
+      "orderIndex": 5
+    },
+    {
+      "id": "88888888-1123-0000-0000-000000011006",
+      "lessonId": "88888888-1123-0000-0000-000000000111",
+      "sentenceNumber": 6,
+      "plainText": "だから、おにぎりとミルクを買いました。",
+      "romaji": "dakara,onigirito miruku wo kaimashita.",
+      "contentHtml": "だから、おにぎりと ミルクを <ruby>買<rt>か</rt></ruby>いました。",
+      "meaningVi": "Vì vậy tôi đã mua cơm nắm và sữa.",
+      "orderIndex": 6
+    }
+  ]
+}

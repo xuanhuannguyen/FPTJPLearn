@@ -1,0 +1,65 @@
+{
+  "lesson": {
+    "id": "88888888-1123-0000-0000-000000000108",
+    "courseCode": "jpd123",
+    "lessonNumber": 8,
+    "title": "メイ・スミスです",
+    "description": "Tự giới thiệu - Giới thiệu bản thân, công việc và sở thích.",
+    "accessTier": "premium",
+    "packageCode": "speaking_jpd123",
+    "isLocked": true,
+    "sentenceCount": 5
+  },
+  "sentences": [
+    {
+      "id": "88888888-1123-0000-0000-000000008001",
+      "lessonId": "88888888-1123-0000-0000-000000000108",
+      "sentenceNumber": 1,
+      "plainText": "私はメイ・スミスです。",
+      "romaji": "watashi wa mei sumisu desu.",
+      "contentHtml": "<ruby>私<rt>わたし</rt></ruby> は メイ・スミス です。",
+      "meaningVi": "Tôi là Mei Smith.",
+      "orderIndex": 1
+    },
+    {
+      "id": "88888888-1123-0000-0000-000000008002",
+      "lessonId": "88888888-1123-0000-0000-000000000108",
+      "sentenceNumber": 2,
+      "plainText": "私はカナダ人です。",
+      "romaji": "watashi wa kanadajin desu.",
+      "contentHtml": "<ruby>私<rt>わたし</rt></ruby> は カナダ<ruby>人<rt>じん</rt></ruby> です。",
+      "meaningVi": "Tôi là người Canada.",
+      "orderIndex": 2
+    },
+    {
+      "id": "88888888-1123-0000-0000-000000008003",
+      "lessonId": "88888888-1123-0000-0000-000000000108",
+      "sentenceNumber": 3,
+      "plainText": "いま、日本にすんでいます。",
+      "romaji": "ima,nihon ni sundeimasu.",
+      "contentHtml": "いま、<ruby>日本<rt>にほん</rt></ruby> に すんでいます。",
+      "meaningVi": "Hiện tại tôi đang sống ở Nhật Bản.",
+      "orderIndex": 3
+    },
+    {
+      "id": "88888888-1123-0000-0000-000000008004",
+      "lessonId": "88888888-1123-0000-0000-000000000108",
+      "sentenceNumber": 4,
+      "plainText": "しごとはえい語の先生です。",
+      "romaji": "shigoto wa eigo no sensei desu.",
+      "contentHtml": "しごとは えい<ruby>語<rt>ご</rt></ruby> の <ruby>先生<rt>せんせい</rt></ruby> です。",
+      "meaningVi": "Công việc của tôi là giáo viên tiếng Anh.",
+      "orderIndex": 4
+    },
+    {
+      "id": "88888888-1123-0000-0000-000000008005",
+      "lessonId": "88888888-1123-0000-0000-000000000108",
+      "sentenceNumber": 5,
+      "plainText": "しゅみはりょ行と本を読むことです。",
+      "romaji": "shumi wa ryokou to hon wo yomu kotodesu.",
+      "contentHtml": "しゅみは りょ<ruby>行<rt>こう</rt></ruby> と <ruby>本<rt>ほん</rt></ruby> を <ruby>読<rt>よ</rt></ruby>む ことです。",
+      "meaningVi": "Sở thích của tôi là đi du lịch và đọc sách.",
+      "orderIndex": 5
+    }
+  ]
+}

@@ -1,0 +1,232 @@
+[
+  {
+    "id": "77777777-1113-0003-0000-000000110001",
+    "patternId": "77777777-1113-0001-0000-000000001001",
+    "exerciseType": "ja_to_vi",
+    "prompt": "Aさんは学生です。",
+    "promptReading": "Aさんはがくせいです。",
+    "expectedAnswer": "Bạn A là sinh viên.",
+    "hint": "N1 は N2 です。",
+    "explanation": "Trợ từ は phát âm là 'wa'. です thể hiện sự lịch sự.",
+    "orderIndex": 1
+  },
+  {
+    "id": "77777777-1113-0003-0000-000000120001",
+    "patternId": "77777777-1113-0001-0000-000000001001",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Bạn A là sinh viên.",
+    "expectedAnswer": "Aさんは学生です。",
+    "acceptableAnswers": [
+      "Aさんはがくせいです。"
+    ],
+    "hint": "Danh từ 1 + は + Danh từ 2 + です",
+    "explanation": "Trợ từ は phát âm là 'wa'. です thể hiện sự lịch sự.",
+    "orderIndex": 2
+  },
+  {
+    "id": "77777777-1113-0003-0000-000000130001",
+    "patternId": "77777777-1113-0001-0000-000000001001",
+    "exerciseType": "arrange",
+    "prompt": "Bạn A là sinh viên.",
+    "expectedAnswer": "Aさんは学生 (がくせい)です",
+    "optionsJson": "[\"は\",\"です\",\"Aさん\",\"学生 (がくせい)\"]",
+    "options": [
+      "は",
+      "です",
+      "Aさん",
+      "学生 (がくせい)"
+    ],
+    "correctOrderJson": "[\"Aさん\",\"は\",\"学生 (がくせい)\",\"です\"]",
+    "correctOrder": [
+      "Aさん",
+      "は",
+      "学生 (がくせい)",
+      "です"
+    ],
+    "orderIndex": 3
+  },
+  {
+    "id": "77777777-1113-0003-0000-000000110002",
+    "patternId": "77777777-1113-0001-0000-000000001001",
+    "exerciseType": "ja_to_vi",
+    "prompt": "私は日本人です。",
+    "promptReading": "わたしはにほんじんです。",
+    "expectedAnswer": "Tôi là người Nhật.",
+    "hint": "N1 は N2 です。",
+    "explanation": "Trợ từ は phát âm là 'wa'. です thể hiện sự lịch sự.",
+    "orderIndex": 4
+  },
+  {
+    "id": "77777777-1113-0003-0000-000000120002",
+    "patternId": "77777777-1113-0001-0000-000000001001",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Tôi là người Nhật.",
+    "expectedAnswer": "私は日本人です。",
+    "acceptableAnswers": [
+      "わたしはにほんじんです。"
+    ],
+    "hint": "Danh từ 1 + は + Danh từ 2 + です",
+    "explanation": "Trợ từ は phát âm là 'wa'. です thể hiện sự lịch sự.",
+    "orderIndex": 5
+  },
+  {
+    "id": "77777777-1113-0003-0000-000000130002",
+    "patternId": "77777777-1113-0001-0000-000000001001",
+    "exerciseType": "arrange",
+    "prompt": "Tôi là người Nhật.",
+    "expectedAnswer": "私 (わたし)は日本人 (にほんじん)です",
+    "optionsJson": "[\"は\",\"です\",\"私 (わたし)\",\"日本人 (にほんじん)\"]",
+    "options": [
+      "は",
+      "です",
+      "私 (わたし)",
+      "日本人 (にほんじん)"
+    ],
+    "correctOrderJson": "[\"私 (わたし)\",\"は\",\"日本人 (にほんじん)\",\"です\"]",
+    "correctOrder": [
+      "私 (わたし)",
+      "は",
+      "日本人 (にほんじん)",
+      "です"
+    ],
+    "orderIndex": 6
+  },
+  {
+    "id": "77777777-1113-0003-0000-000000110003",
+    "patternId": "77777777-1113-0001-0000-000000001001",
+    "exerciseType": "ja_to_vi",
+    "prompt": "田中さんは先生です。",
+    "promptReading": "たなかさんはせんせいです。",
+    "expectedAnswer": "Anh Tanaka là giáo viên.",
+    "hint": "N1 は N2 です。",
+    "explanation": "Trợ từ は phát âm là 'wa'. です thể hiện sự lịch sự.",
+    "orderIndex": 7
+  },
+  {
+    "id": "77777777-1113-0003-0000-000000120003",
+    "patternId": "77777777-1113-0001-0000-000000001001",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Anh Tanaka là giáo viên.",
+    "expectedAnswer": "田中さんは先生です。",
+    "acceptableAnswers": [
+      "たなかさんはせんせいです。"
+    ],
+    "hint": "Danh từ 1 + は + Danh từ 2 + です",
+    "explanation": "Trợ từ は phát âm là 'wa'. です thể hiện sự lịch sự.",
+    "orderIndex": 8
+  },
+  {
+    "id": "77777777-1113-0003-0000-000000130003",
+    "patternId": "77777777-1113-0001-0000-000000001001",
+    "exerciseType": "arrange",
+    "prompt": "Anh Tanaka là giáo viên.",
+    "expectedAnswer": "田中さん (たなかさん)は先生 (せんせい)です",
+    "optionsJson": "[\"は\",\"です\",\"先生 (せんせい)\",\"田中さん (たなかさん)\"]",
+    "options": [
+      "は",
+      "です",
+      "先生 (せんせい)",
+      "田中さん (たなかさん)"
+    ],
+    "correctOrderJson": "[\"田中さん (たなかさん)\",\"は\",\"先生 (せんせい)\",\"です\"]",
+    "correctOrder": [
+      "田中さん (たなかさん)",
+      "は",
+      "先生 (せんせい)",
+      "です"
+    ],
+    "orderIndex": 9
+  },
+  {
+    "id": "77777777-1113-0003-0000-000000110004",
+    "patternId": "77777777-1113-0001-0000-000000001001",
+    "exerciseType": "ja_to_vi",
+    "prompt": "私は医者です。",
+    "promptReading": "わたしはいしゃです。",
+    "expectedAnswer": "Tôi là bác sĩ.",
+    "hint": "N1 は N2 です。",
+    "explanation": "Trợ từ は phát âm là 'wa'. です thể hiện sự lịch sự.",
+    "orderIndex": 10
+  },
+  {
+    "id": "77777777-1113-0003-0000-000000120004",
+    "patternId": "77777777-1113-0001-0000-000000001001",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Tôi là bác sĩ.",
+    "expectedAnswer": "私は医者です。",
+    "acceptableAnswers": [
+      "わたしはいしゃです。"
+    ],
+    "hint": "Danh từ 1 + は + Danh từ 2 + です",
+    "explanation": "Trợ từ は phát âm là 'wa'. です thể hiện sự lịch sự.",
+    "orderIndex": 11
+  },
+  {
+    "id": "77777777-1113-0003-0000-000000130004",
+    "patternId": "77777777-1113-0001-0000-000000001001",
+    "exerciseType": "arrange",
+    "prompt": "Tôi là bác sĩ.",
+    "expectedAnswer": "私 (わたし)は医者 (いしゃ)です",
+    "optionsJson": "[\"は\",\"です\",\"私 (わたし)\",\"医者 (いしゃ)\"]",
+    "options": [
+      "は",
+      "です",
+      "私 (わたし)",
+      "医者 (いしゃ)"
+    ],
+    "correctOrderJson": "[\"私 (わたし)\",\"は\",\"医者 (いしゃ)\",\"です\"]",
+    "correctOrder": [
+      "私 (わたし)",
+      "は",
+      "医者 (いしゃ)",
+      "です"
+    ],
+    "orderIndex": 12
+  },
+  {
+    "id": "77777777-1113-0003-0000-000000110005",
+    "patternId": "77777777-1113-0001-0000-000000001001",
+    "exerciseType": "ja_to_vi",
+    "prompt": "マリアさんはブラジル人です。",
+    "promptReading": "マリアさんはブラジルじんです。",
+    "expectedAnswer": "Bạn Maria là người Brazil.",
+    "hint": "N1 は N2 です。",
+    "explanation": "Trợ từ は phát âm là 'wa'. です thể hiện sự lịch sự.",
+    "orderIndex": 13
+  },
+  {
+    "id": "77777777-1113-0003-0000-000000120005",
+    "patternId": "77777777-1113-0001-0000-000000001001",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Bạn Maria là người Brazil.",
+    "expectedAnswer": "マリアさんはブラジル人です。",
+    "acceptableAnswers": [
+      "マリアさんはブラジルじんです。"
+    ],
+    "hint": "Danh từ 1 + は + Danh từ 2 + です",
+    "explanation": "Trợ từ は phát âm là 'wa'. です thể hiện sự lịch sự.",
+    "orderIndex": 14
+  },
+  {
+    "id": "77777777-1113-0003-0000-000000130005",
+    "patternId": "77777777-1113-0001-0000-000000001001",
+    "exerciseType": "arrange",
+    "prompt": "Bạn Maria là người Brazil.",
+    "expectedAnswer": "マリアさんはブラジル人 (ブラジルじん)です",
+    "optionsJson": "[\"は\",\"です\",\"マリアさん\",\"ブラジル人 (ブラジルじん)\"]",
+    "options": [
+      "は",
+      "です",
+      "マリアさん",
+      "ブラジル人 (ブラジルじん)"
+    ],
+    "correctOrderJson": "[\"マリアさん\",\"は\",\"ブラジル人 (ブラジルじん)\",\"です\"]",
+    "correctOrder": [
+      "マリアさん",
+      "は",
+      "ブラジル人 (ブラジルじん)",
+      "です"
+    ],
+    "orderIndex": 15
+  }
+]

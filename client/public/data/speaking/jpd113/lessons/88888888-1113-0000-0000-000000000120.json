@@ -1,0 +1,45 @@
+{
+  "lesson": {
+    "id": "88888888-1113-0000-0000-000000000120",
+    "courseCode": "jpd113",
+    "lessonNumber": 20,
+    "title": "日本へ 行く",
+    "description": "Du lịch - Chuẩn bị cho chuyến đi Nhật Bản.",
+    "accessTier": "premium",
+    "packageCode": "speaking_jpd113",
+    "isLocked": true,
+    "sentenceCount": 3
+  },
+  "sentences": [
+    {
+      "id": "88888888-1113-0000-0000-000000020001",
+      "lessonId": "88888888-1113-0000-0000-000000000120",
+      "sentenceNumber": 1,
+      "plainText": "私は十月二十日から日本へ行きます。",
+      "romaji": "watashi wa juugatsuhatsukakara nihon e ikimasu.",
+      "contentHtml": "<ruby>私<rt>わたし</rt></ruby>は <ruby>十月二十日<rt>じゅうがつはつか</rt></ruby>から <ruby>日本<rt>にほん</rt></ruby>へ <ruby>行<rt>い</rt></ruby>きます。",
+      "meaningVi": "Tôi đi Nhật từ ngày 20 tháng 10.",
+      "orderIndex": 1
+    },
+    {
+      "id": "88888888-1113-0000-0000-000000020002",
+      "lessonId": "88888888-1113-0000-0000-000000000120",
+      "sentenceNumber": 2,
+      "plainText": "学生なので、八千円でちいさいホテルをよやくしました。",
+      "romaji": "gakuseinanode, hassenende chiisai hoteru wo yoyaku shimashita.",
+      "contentHtml": "<ruby>学生<rt>がくせい</rt></ruby>なので、 <ruby>八千円<rt>はっせんえん</rt></ruby>で <ruby>ちい<rt>ちい</rt></ruby>さい ホテルを よやく しました。",
+      "meaningVi": "Vì là sinh viên nên tôi đã đặt một khách sạn nhỏ với giá 8.000 yên.",
+      "orderIndex": 2
+    },
+    {
+      "id": "88888888-1113-0000-0000-000000020003",
+      "lessonId": "88888888-1113-0000-0000-000000000120",
+      "sentenceNumber": 3,
+      "plainText": "日本のデパートでチョコレートをたくさんかいました。",
+      "romaji": "nihonno depa-tode chokore-to wo takusan kaimashita.",
+      "contentHtml": "<ruby>日本<rt>にほん</rt></ruby>の デパートで チョコレートを たくさん <ruby>か<rt>か</rt></ruby>いました。",
+      "meaningVi": "Tôi đã mua rất nhiều sô cô la ở cửa hàng bách hóa Nhật Bản.",
+      "orderIndex": 3
+    }
+  ]
+}

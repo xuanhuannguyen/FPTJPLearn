@@ -1,0 +1,45 @@
+{
+  "lesson": {
+    "id": "88888888-1123-0000-0000-000000000107",
+    "courseCode": "jpd123",
+    "lessonNumber": 7,
+    "title": "ははの プレゼント",
+    "description": "Quà sinh nhật - Tính toán tiền mua ví, hoa và bánh cho mẹ.",
+    "accessTier": "premium",
+    "packageCode": "speaking_jpd123",
+    "isLocked": true,
+    "sentenceCount": 3
+  },
+  "sentences": [
+    {
+      "id": "88888888-1123-0000-0000-000000007001",
+      "lessonId": "88888888-1123-0000-0000-000000000107",
+      "sentenceNumber": 1,
+      "plainText": "三人で一人5000円だして、ははに1万円のさいふとはなを買います。",
+      "romaji": "sannin de hitori gosenen dashite,hahani ichimanen no saifuto hana wo kaimasu.",
+      "contentHtml": "<ruby>三人<rt>さんにん</rt></ruby> で <ruby>一人<rt>ひとり</rt></ruby> <ruby>5000円<rt>ごせんえん</rt></ruby> だして、ははに <ruby>1万円<rt>いちまんえん</rt></ruby> の さいふと はなを <ruby>買<rt>か</rt></ruby>います。",
+      "meaningVi": "Ba người sẽ góp mỗi người 5.000 yên để mua cho mẹ một chiếc ví 10.000 yên và hoa.",
+      "orderIndex": 1
+    },
+    {
+      "id": "88888888-1123-0000-0000-000000007002",
+      "lessonId": "88888888-1123-0000-0000-000000000107",
+      "sentenceNumber": 2,
+      "plainText": "ケーキは一人に一つ買って、ははと食べたいです。",
+      "romaji": "ke-ki wa hitori ni hitotsu katte,hahato tabetaidesu.",
+      "contentHtml": "ケーキは <ruby>一人<rt>ひとり</rt></ruby> に <ruby>一つ<rt>ひとつ</rt></ruby> <ruby>買<rt>か</rt></ruby>って、ははと <ruby>食<rt>た</rt></ruby>べたいです。",
+      "meaningVi": "Mỗi người muốn mua một chiếc bánh để cùng ăn với mẹ.",
+      "orderIndex": 2
+    },
+    {
+      "id": "88888888-1123-0000-0000-000000007003",
+      "lessonId": "88888888-1123-0000-0000-000000000107",
+      "sentenceNumber": 3,
+      "plainText": "1200円いかで、なるべくカロリーがひくい食べ物が食べたいです。",
+      "romaji": "sennihyakuen ikade,narubeku karori-ga hikui tabemono ga tabetaidesu.",
+      "contentHtml": "<ruby>1200円<rt>せんにひゃくえん</rt></ruby> いかで、なるべく カロリーが ひくい <ruby>食<rt>た</rt></ruby>べ<ruby>物<rt>もの</rt></ruby> が <ruby>食<rt>た</rt></ruby>べたいです。",
+      "meaningVi": "Tôi muốn ăn món gì đó giá không quá 1.200 yên và có lượng calo càng thấp càng tốt.",
+      "orderIndex": 3
+    }
+  ]
+}

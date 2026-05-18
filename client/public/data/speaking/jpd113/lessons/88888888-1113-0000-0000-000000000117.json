@@ -1,0 +1,55 @@
+{
+  "lesson": {
+    "id": "88888888-1113-0000-0000-000000000117",
+    "courseCode": "jpd113",
+    "lessonNumber": 17,
+    "title": "マリアさん",
+    "description": "Học tập - Lịch học bơi buổi sáng của Maria.",
+    "accessTier": "premium",
+    "packageCode": "speaking_jpd113",
+    "isLocked": true,
+    "sentenceCount": 4
+  },
+  "sentences": [
+    {
+      "id": "88888888-1113-0000-0000-000000017001",
+      "lessonId": "88888888-1113-0000-0000-000000000117",
+      "sentenceNumber": 1,
+      "plainText": "私はマリアです。",
+      "romaji": "watashi wa mariadesu.",
+      "contentHtml": "<ruby>私<rt>わたし</rt></ruby>は マリアです。",
+      "meaningVi": "Tôi là Maria.",
+      "orderIndex": 1
+    },
+    {
+      "id": "88888888-1113-0000-0000-000000017002",
+      "lessonId": "88888888-1113-0000-0000-000000000117",
+      "sentenceNumber": 2,
+      "plainText": "フランス人です。",
+      "romaji": "furansujindesu.",
+      "contentHtml": "フランス<ruby>人<rt>じん</rt></ruby>です。",
+      "meaningVi": "Tôi là người Pháp.",
+      "orderIndex": 2
+    },
+    {
+      "id": "88888888-1113-0000-0000-000000017003",
+      "lessonId": "88888888-1113-0000-0000-000000000117",
+      "sentenceNumber": 3,
+      "plainText": "火曜日から金曜日まで、スクールへ行きます。",
+      "romaji": "kayoubikara kinyoubimade,suku-ru e ikimasu.",
+      "contentHtml": "<ruby>火曜日<rt>かようび</rt></ruby>から <ruby>金曜日<rt>きんようび</rt></ruby>まで、スクールへ <ruby>行<rt>い</rt></ruby>きます。",
+      "meaningVi": "Tôi đi học từ thứ ba đến thứ sáu.",
+      "orderIndex": 3
+    },
+    {
+      "id": "88888888-1113-0000-0000-000000017004",
+      "lessonId": "88888888-1113-0000-0000-000000000117",
+      "sentenceNumber": 4,
+      "plainText": "四月から九月まで、まいあさ七時にプールですいえいをべんきょうします。",
+      "romaji": "shigatsukara kugatsumade,maiasa shichijini pu-rude suiei wo benkyoushimasu.",
+      "contentHtml": "<ruby>四月<rt>しがつ</rt></ruby>から <ruby>九月<rt>くがつ</rt></ruby>まで、<ruby>まいあさ<rt>まいあさ</rt></ruby> <ruby>七時<rt>しちじ</rt></ruby>に プールで すいえいを <ruby>べんきょう<rt>べんきょう</rt></ruby>します。",
+      "meaningVi": "Từ tháng 4 đến tháng 9, mỗi sáng tôi học bơi ở hồ bơi lúc 7 giờ.",
+      "orderIndex": 4
+    }
+  ]
+}

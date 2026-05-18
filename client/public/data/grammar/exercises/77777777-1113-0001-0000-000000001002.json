@@ -1,0 +1,252 @@
+[
+  {
+    "id": "77777777-1113-0003-0000-000000111001",
+    "patternId": "77777777-1113-0001-0000-000000001002",
+    "exerciseType": "ja_to_vi",
+    "prompt": "やまださんはFPTの社員です。",
+    "promptReading": "やまださんはFPTのしゃいんです。",
+    "expectedAnswer": "Anh Yamada là nhân viên của FPT.",
+    "hint": "N1 は N2 の N3 です。",
+    "explanation": "Trợ từ の nối hai danh từ.",
+    "orderIndex": 1
+  },
+  {
+    "id": "77777777-1113-0003-0000-000000121001",
+    "patternId": "77777777-1113-0001-0000-000000001002",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Anh Yamada là nhân viên của FPT.",
+    "expectedAnswer": "やまださんはFPTの社員です。",
+    "acceptableAnswers": [
+      "やまださんはFPTのしゃいんです。"
+    ],
+    "hint": "N1 + は + N2 (tổ chức/nhóm) + の + N3 (vị trí/nghề nghiệp) + です",
+    "explanation": "Trợ từ の nối hai danh từ.",
+    "orderIndex": 2
+  },
+  {
+    "id": "77777777-1113-0003-0000-000000131001",
+    "patternId": "77777777-1113-0001-0000-000000001002",
+    "exerciseType": "arrange",
+    "prompt": "Anh Yamada là nhân viên của FPT.",
+    "expectedAnswer": "やまださんはFPTの社員 (しゃいん)です",
+    "optionsJson": "[\"FPT\",\"の\",\"は\",\"です\",\"やまださん\",\"社員 (しゃいん)\"]",
+    "options": [
+      "FPT",
+      "の",
+      "は",
+      "です",
+      "やまださん",
+      "社員 (しゃいん)"
+    ],
+    "correctOrderJson": "[\"やまださん\",\"は\",\"FPT\",\"の\",\"社員 (しゃいん)\",\"です\"]",
+    "correctOrder": [
+      "やまださん",
+      "は",
+      "FPT",
+      "の",
+      "社員 (しゃいん)",
+      "です"
+    ],
+    "orderIndex": 3
+  },
+  {
+    "id": "77777777-1113-0003-0000-000000111002",
+    "patternId": "77777777-1113-0001-0000-000000001002",
+    "exerciseType": "ja_to_vi",
+    "prompt": "アンさんは東京大学の学生です。",
+    "promptReading": "アンさんはとうきょうだいがくのがくせいです。",
+    "expectedAnswer": "Bạn An là sinh viên của trường đại học Tokyo.",
+    "hint": "N1 は N2 の N3 です。",
+    "explanation": "Trợ từ の nối hai danh từ.",
+    "orderIndex": 4
+  },
+  {
+    "id": "77777777-1113-0003-0000-000000121002",
+    "patternId": "77777777-1113-0001-0000-000000001002",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Bạn An là sinh viên của trường đại học Tokyo.",
+    "expectedAnswer": "アンさんは東京大学の学生です。",
+    "acceptableAnswers": [
+      "アンさんはとうきょうだいがくのがくせいです。"
+    ],
+    "hint": "N1 + は + N2 (tổ chức/nhóm) + の + N3 (vị trí/nghề nghiệp) + です",
+    "explanation": "Trợ từ の nối hai danh từ.",
+    "orderIndex": 5
+  },
+  {
+    "id": "77777777-1113-0003-0000-000000131002",
+    "patternId": "77777777-1113-0001-0000-000000001002",
+    "exerciseType": "arrange",
+    "prompt": "Bạn An là sinh viên của trường đại học Tokyo.",
+    "expectedAnswer": "アンさんは東京大学 (とうきょうだいがく)の学生 (がくせい)です",
+    "optionsJson": "[\"の\",\"は\",\"です\",\"アンさん\",\"学生 (がくせい)\",\"東京大学 (とうきょうだいがく)\"]",
+    "options": [
+      "の",
+      "は",
+      "です",
+      "アンさん",
+      "学生 (がくせい)",
+      "東京大学 (とうきょうだいがく)"
+    ],
+    "correctOrderJson": "[\"アンさん\",\"は\",\"東京大学 (とうきょうだいがく)\",\"の\",\"学生 (がくせい)\",\"です\"]",
+    "correctOrder": [
+      "アンさん",
+      "は",
+      "東京大学 (とうきょうだいがく)",
+      "の",
+      "学生 (がくせい)",
+      "です"
+    ],
+    "orderIndex": 6
+  },
+  {
+    "id": "77777777-1113-0003-0000-000000111003",
+    "patternId": "77777777-1113-0001-0000-000000001002",
+    "exerciseType": "ja_to_vi",
+    "prompt": "佐藤さんはABCのエンジニアです。",
+    "promptReading": "さとうさんはABCのエンジニアです。",
+    "expectedAnswer": "Anh Sato là kỹ sư của công ty ABC.",
+    "hint": "N1 は N2 の N3 です。",
+    "explanation": "Trợ từ の nối hai danh từ.",
+    "orderIndex": 7
+  },
+  {
+    "id": "77777777-1113-0003-0000-000000121003",
+    "patternId": "77777777-1113-0001-0000-000000001002",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Anh Sato là kỹ sư của công ty ABC.",
+    "expectedAnswer": "佐藤さんはABCのエンジニアです。",
+    "acceptableAnswers": [
+      "さとうさんはABCのエンジニアです。"
+    ],
+    "hint": "N1 + は + N2 (tổ chức/nhóm) + の + N3 (vị trí/nghề nghiệp) + です",
+    "explanation": "Trợ từ の nối hai danh từ.",
+    "orderIndex": 8
+  },
+  {
+    "id": "77777777-1113-0003-0000-000000131003",
+    "patternId": "77777777-1113-0001-0000-000000001002",
+    "exerciseType": "arrange",
+    "prompt": "Anh Sato là kỹ sư của công ty ABC.",
+    "expectedAnswer": "佐藤さん (さとうさん)はABCのエンジニアです",
+    "optionsJson": "[\"ABC\",\"の\",\"は\",\"です\",\"エンジニア\",\"佐藤さん (さとうさん)\"]",
+    "options": [
+      "ABC",
+      "の",
+      "は",
+      "です",
+      "エンジニア",
+      "佐藤さん (さとうさん)"
+    ],
+    "correctOrderJson": "[\"佐藤さん (さとうさん)\",\"は\",\"ABC\",\"の\",\"エンジニア\",\"です\"]",
+    "correctOrder": [
+      "佐藤さん (さとうさん)",
+      "は",
+      "ABC",
+      "の",
+      "エンジニア",
+      "です"
+    ],
+    "orderIndex": 9
+  },
+  {
+    "id": "77777777-1113-0003-0000-000000111004",
+    "patternId": "77777777-1113-0001-0000-000000001002",
+    "exerciseType": "ja_to_vi",
+    "prompt": "ミラーさんはIMCの社員です。",
+    "promptReading": "ミラーさんはIMCのしゃいんです。",
+    "expectedAnswer": "Anh Miller là nhân viên của IMC.",
+    "hint": "N1 は N2 の N3 です。",
+    "explanation": "Trợ từ の nối hai danh từ.",
+    "orderIndex": 10
+  },
+  {
+    "id": "77777777-1113-0003-0000-000000121004",
+    "patternId": "77777777-1113-0001-0000-000000001002",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Anh Miller là nhân viên của IMC.",
+    "expectedAnswer": "ミラーさんはIMCの社員です。",
+    "acceptableAnswers": [
+      "ミラーさんはIMCのしゃいんです。"
+    ],
+    "hint": "N1 + は + N2 (tổ chức/nhóm) + の + N3 (vị trí/nghề nghiệp) + です",
+    "explanation": "Trợ từ の nối hai danh từ.",
+    "orderIndex": 11
+  },
+  {
+    "id": "77777777-1113-0003-0000-000000131004",
+    "patternId": "77777777-1113-0001-0000-000000001002",
+    "exerciseType": "arrange",
+    "prompt": "Anh Miller là nhân viên của IMC.",
+    "expectedAnswer": "ミラーさんはIMCの社員 (しゃいん)です",
+    "optionsJson": "[\"IMC\",\"の\",\"は\",\"です\",\"ミラーさん\",\"社員 (しゃいん)\"]",
+    "options": [
+      "IMC",
+      "の",
+      "は",
+      "です",
+      "ミラーさん",
+      "社員 (しゃいん)"
+    ],
+    "correctOrderJson": "[\"ミラーさん\",\"は\",\"IMC\",\"の\",\"社員 (しゃいん)\",\"です\"]",
+    "correctOrder": [
+      "ミラーさん",
+      "は",
+      "IMC",
+      "の",
+      "社員 (しゃいん)",
+      "です"
+    ],
+    "orderIndex": 12
+  },
+  {
+    "id": "77777777-1113-0003-0000-000000111005",
+    "patternId": "77777777-1113-0001-0000-000000001002",
+    "exerciseType": "ja_to_vi",
+    "prompt": "私は日本語センターの先生です。",
+    "promptReading": "わたしはにほんごセンターのせんせいです。",
+    "expectedAnswer": "Tôi là giáo viên của trung tâm tiếng Nhật.",
+    "hint": "N1 は N2 の N3 です。",
+    "explanation": "Trợ từ の nối hai danh từ.",
+    "orderIndex": 13
+  },
+  {
+    "id": "77777777-1113-0003-0000-000000121005",
+    "patternId": "77777777-1113-0001-0000-000000001002",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Tôi là giáo viên của trung tâm tiếng Nhật.",
+    "expectedAnswer": "私は日本語センターの先生です。",
+    "acceptableAnswers": [
+      "わたしはにほんごセンターのせんせいです。"
+    ],
+    "hint": "N1 + は + N2 (tổ chức/nhóm) + の + N3 (vị trí/nghề nghiệp) + です",
+    "explanation": "Trợ từ の nối hai danh từ.",
+    "orderIndex": 14
+  },
+  {
+    "id": "77777777-1113-0003-0000-000000131005",
+    "patternId": "77777777-1113-0001-0000-000000001002",
+    "exerciseType": "arrange",
+    "prompt": "Tôi là giáo viên của trung tâm tiếng Nhật.",
+    "expectedAnswer": "私 (わたし)は日本語センター (にほんごセンター)の先生 (せんせい)です",
+    "optionsJson": "[\"の\",\"は\",\"です\",\"私 (わたし)\",\"先生 (せんせい)\",\"日本語センター (にほんごセンター)\"]",
+    "options": [
+      "の",
+      "は",
+      "です",
+      "私 (わたし)",
+      "先生 (せんせい)",
+      "日本語センター (にほんごセンター)"
+    ],
+    "correctOrderJson": "[\"私 (わたし)\",\"は\",\"日本語センター (にほんごセンター)\",\"の\",\"先生 (せんせい)\",\"です\"]",
+    "correctOrder": [
+      "私 (わたし)",
+      "は",
+      "日本語センター (にほんごセンター)",
+      "の",
+      "先生 (せんせい)",
+      "です"
+    ],
+    "orderIndex": 15
+  }
+]

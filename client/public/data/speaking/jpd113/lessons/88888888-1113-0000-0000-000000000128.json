@@ -1,0 +1,55 @@
+{
+  "lesson": {
+    "id": "88888888-1113-0000-0000-000000000128",
+    "courseCode": "jpd113",
+    "lessonNumber": 28,
+    "title": "グップタさんの しゅみ",
+    "description": "Sở thích - Sở thích thể thao của anh Gupta.",
+    "accessTier": "premium",
+    "packageCode": "speaking_jpd113",
+    "isLocked": true,
+    "sentenceCount": 4
+  },
+  "sentences": [
+    {
+      "id": "88888888-1113-0000-0000-000000028001",
+      "lessonId": "88888888-1113-0000-0000-000000000128",
+      "sentenceNumber": 1,
+      "plainText": "グップタさんのしゅみはスポーツです。",
+      "romaji": "gupputasanno shumi wa supo-tsudesu.",
+      "contentHtml": "グップタさんの <ruby>しゅみ<rt>しゅみ</rt></ruby>は スポーツです。",
+      "meaningVi": "Sở thích của anh Gupta là thể thao.",
+      "orderIndex": 1
+    },
+    {
+      "id": "88888888-1113-0000-0000-000000028002",
+      "lessonId": "88888888-1113-0000-0000-000000000128",
+      "sentenceNumber": 2,
+      "plainText": "まいにち、大学のたいいくかんでサッカーなどをします。",
+      "romaji": "mainichi, daigakuno taiikukande sakka-nado wo shimasu.",
+      "contentHtml": "<ruby>まいにち<rt>まいにち</rt></ruby>、 <ruby>大学<rt>だいがく</rt></ruby>の <ruby>たいいくかん<rt>たいいくかん</rt></ruby>で サッカーなどを します。",
+      "meaningVi": "Mỗi ngày anh ấy chơi đá bóng ở phòng thể dục của trường.",
+      "orderIndex": 2
+    },
+    {
+      "id": "88888888-1113-0000-0000-000000028003",
+      "lessonId": "88888888-1113-0000-0000-000000000128",
+      "sentenceNumber": 3,
+      "plainText": "土曜日はプールですいえいをします。",
+      "romaji": "doyoubi wa pu-rude suiei wo shimasu.",
+      "contentHtml": "<ruby>土曜日<rt>どようび</rt></ruby>は プールで <ruby>すいえい<rt>すいえい</rt></ruby>を します。",
+      "meaningVi": "Thứ bảy anh ấy đi bơi ở hồ bơi.",
+      "orderIndex": 3
+    },
+    {
+      "id": "88888888-1113-0000-0000-000000028004",
+      "lessonId": "88888888-1113-0000-0000-000000000128",
+      "sentenceNumber": 4,
+      "plainText": "三時間れんしゅうしたあと、三百円のスポーツドリンクをのみます。",
+      "romaji": "sanjikan renshuushita ato,sanbyakuenno supo-tsudorinku wo nomimasu.",
+      "contentHtml": "<ruby>三時間<rt>さんじかん</rt></ruby> <ruby>れんしゅう<rt>れんしゅう</rt></ruby>した <ruby>あと<rt>あと</rt></ruby>、<ruby>三百円<rt>さんびゃくえん</rt></ruby>の スポーツドリンクを <ruby>の<rt>の</rt></ruby>みます。",
+      "meaningVi": "Sau khi luyện tập 3 tiếng, anh ấy uống đồ uống thể thao giá 300 yên.",
+      "orderIndex": 4
+    }
+  ]
+}

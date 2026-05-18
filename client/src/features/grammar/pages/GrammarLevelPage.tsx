@@ -8,6 +8,7 @@ import {
 } from 'lucide-react';
 import { grammarApi } from '../api/grammarApi';
 import type { GrammarLevel, GrammarLesson } from '../types/grammar.types';
+import { useUserAccess } from '../../../shared/hooks/useUserAccess';
 
 export const GrammarLevelPage = () => {
   const { level: paramLevel } = useParams<{ level: string }>();
@@ -21,6 +22,7 @@ export const GrammarLevelPage = () => {
   
   const [lessons, setLessons] = useState<GrammarLesson[]>([]);
   const [isLoading, setIsLoading] = useState(true);
+  const { isContentLocked } = useUserAccess();
 
   useEffect(() => {
     const fetchLessons = async () => {
@@ -65,21 +67,23 @@ export const GrammarLevelPage = () => {
 
       {/* Lessons Grid */}
       <div className="grid grid-cols-1 gap-3 md:grid-cols-2">
-        {lessons.map((lesson) => (
+        {lessons.map((lesson) => {
+          const isLocked = isContentLocked(lesson);
+          return (
           <Link
             key={lesson.id}
-            to={lesson.isLocked ? '/pricing' : `/grammar/${paramLevel}/lessons/${lesson.id}`}
+            to={isLocked ? '/pricing' : `/grammar/${paramLevel}/lessons/${lesson.id}`}
             className={`group relative flex min-h-[58px] items-center gap-3 rounded-xl border bg-white px-4 py-2.5 transition-colors duration-200 cursor-pointer ${
-              lesson.isLocked 
+              isLocked
                 ? 'border-border/5 bg-slate-50/50 opacity-60'
                 : 'border-border/10 bg-white shadow-sm hover:bg-white/90'
             }`}
           >
             {/* Icon */}
             <div className={`flex h-8 w-8 flex-shrink-0 items-center justify-center rounded-lg border ${
-              lesson.isLocked ? 'border-border/5 bg-slate-100 text-slate-400' : 'border-border/10 bg-blue-50 text-accent-primary'
+              isLocked ? 'border-border/5 bg-slate-100 text-slate-400' : 'border-border/10 bg-blue-50 text-accent-primary'
             }`}>
-              {lesson.isLocked ? <Lock size={15} /> : <BookText size={15} />}
+              {isLocked ? <Lock size={15} /> : <BookText size={15} />}
             </div>
 
             {/* Content */}
@@ -90,22 +94,23 @@ export const GrammarLevelPage = () => {
                 </span>
                 <div className="flex items-center gap-0.5 text-text-muted">
                   <span className="text-[11px] font-bold">{lesson.patternCount} mẫu</span>
-                  {!lesson.isLocked && <ChevronRight size={14} className="transition-transform group-hover:translate-x-0.5" />}
+                  {!isLocked && <ChevronRight size={14} className="transition-transform group-hover:translate-x-0.5" />}
                 </div>
               </div>
-              <h3 className={`truncate text-base font-black leading-tight ${lesson.isLocked ? 'text-slate-500' : 'text-text-primary'}`}>
+              <h3 className={`truncate text-base font-black leading-tight ${isLocked ? 'text-slate-500' : 'text-text-primary'}`}>
                 Bài {lesson.lessonNumber}: {lesson.title}
               </h3>
             </div>
 
             {/* Premium Tag if locked */}
-            {lesson.isLocked && (
+            {isLocked && (
               <div className="absolute bottom-0.5 right-1">
                 <span className="text-[7px] font-black uppercase bg-slate-200 text-slate-500 px-1 py-0 rounded-full">Pro</span>
               </div>
             )}
           </Link>
-        ))}
+          );
+        })}
       </div>
     </div>
   );

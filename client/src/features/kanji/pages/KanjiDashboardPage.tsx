@@ -44,18 +44,18 @@ export const KanjiDashboardPage = () => {
       {/* Grid of Levels */}
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4 max-w-3xl">
         {stats
-          .filter(s => s.level === 'N5' || s.level === 'N3')
           .map((levelStat) => {
-            const isN5 = levelStat.level === 'N5';
-            const displayLevel = isN5 ? 'JPD113' : 'JPD123';
-            const description = isN5 ? 'Japanese 1' : 'Japanese 2';
-            const colorTop = isN5 ? 'bg-[#e5e1da]' : 'bg-[#b8d4e3]';
+            const courseCode = levelStat.courseCode ?? (levelStat.level === 'N5' ? 'jpd113' : 'jpd123');
+            const isJpd113 = courseCode === 'jpd113';
+            const displayLevel = courseCode.toUpperCase();
+            const description = isJpd113 ? 'Japanese 1' : 'Japanese 2';
+            const colorTop = isJpd113 ? 'bg-[#e5e1da]' : 'bg-[#b8d4e3]';
             const colorBottom = 'bg-blue-600';
             
             return (
               <Link
-                key={levelStat.level}
-                to={`/kanji/${displayLevel.toLowerCase()}`}
+                key={courseCode}
+                to={`/kanji/${courseCode}`}
                 className="group overflow-hidden rounded-[24px] border-2 border-border/5 shadow-sm transition-all hover:-translate-y-1 hover:shadow-md"
               >
                 {/* Top Section */}
@@ -86,7 +86,7 @@ export const KanjiDashboardPage = () => {
                   </div>
                   
                   <div className="text-[9px] font-bold mt-1 opacity-80 uppercase tracking-widest">
-                    KHÁM PHÁ LỘ TRÌNH HÁN TỰ {levelStat.level}
+                    KHÁM PHÁ LỘ TRÌNH HÁN TỰ {displayLevel}
                   </div>
                 </div>
               </Link>

@@ -1,0 +1,45 @@
+{
+  "lesson": {
+    "id": "88888888-1113-0000-0000-000000000123",
+    "courseCode": "jpd113",
+    "lessonNumber": 23,
+    "title": "おめでとう",
+    "description": "Kỷ niệm - Lời chúc và quà tặng từ bạn bè.",
+    "accessTier": "premium",
+    "packageCode": "speaking_jpd113",
+    "isLocked": true,
+    "sentenceCount": 3
+  },
+  "sentences": [
+    {
+      "id": "88888888-1113-0000-0000-000000023001",
+      "lessonId": "88888888-1113-0000-0000-000000000123",
+      "sentenceNumber": 1,
+      "plainText": "わたしのたんじょうびにともだちは日本語で\"おめでとう\"といってくれました。",
+      "romaji": "watashino tanjoubini tomodachi wa nihongode \"omedetou\"to ittekuremashita.",
+      "contentHtml": "<ruby>わたし<rt>わたし</rt></ruby>の <ruby>たんじょうび<rt>たんじょうび</rt></ruby>に <ruby>ともだち<rt>ともだち</rt></ruby>は <ruby>日本語<rt>にほんご</rt></ruby>で &quot;おめでとう&quot;と <ruby>い<rt>い</rt></ruby>ってくれました。",
+      "meaningVi": "Vào ngày sinh nhật của tôi, bạn bè đã nói \"Chúc mừng\" bằng tiếng Nhật.",
+      "orderIndex": 1
+    },
+    {
+      "id": "88888888-1113-0000-0000-000000023002",
+      "lessonId": "88888888-1113-0000-0000-000000000123",
+      "sentenceNumber": 2,
+      "plainText": "学生じだいのともだちから本やプレゼントなどをもらいました。",
+      "romaji": "gakuseijidaino tomodachikara honya purezentonado wo moraimashita.",
+      "contentHtml": "<ruby>学生<rt>がくせい</rt></ruby>じだいの <ruby>ともだち<rt>ともだち</rt></ruby>から <ruby>本<rt>ほん</rt></ruby>や プレゼントなどを <ruby>もら<rt>もら</rt></ruby>いました。",
+      "meaningVi": "Tôi đã nhận được sách và quà từ những người bạn thời sinh viên.",
+      "orderIndex": 2
+    },
+    {
+      "id": "88888888-1113-0000-0000-000000023003",
+      "lessonId": "88888888-1113-0000-0000-000000000123",
+      "sentenceNumber": 3,
+      "plainText": "たのしい一日でした。",
+      "romaji": "tanoshii ichinichideshita.",
+      "contentHtml": "<ruby>たの<rt>たの</rt></ruby>しい <ruby>一日<rt>いちにち</rt></ruby>でした。",
+      "meaningVi": "Đó là một ngày vui vẻ.",
+      "orderIndex": 3
+    }
+  ]
+}

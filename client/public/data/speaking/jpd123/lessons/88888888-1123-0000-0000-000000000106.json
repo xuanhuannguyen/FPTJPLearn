@@ -1,0 +1,45 @@
+{
+  "lesson": {
+    "id": "88888888-1123-0000-0000-000000000106",
+    "courseCode": "jpd123",
+    "lessonNumber": 6,
+    "title": "いぬと ねこ",
+    "description": "Thú cưng - Số người nuôi mèo ở Nhật đã tăng lên.",
+    "accessTier": "premium",
+    "packageCode": "speaking_jpd123",
+    "isLocked": true,
+    "sentenceCount": 3
+  },
+  "sentences": [
+    {
+      "id": "88888888-1123-0000-0000-000000006001",
+      "lessonId": "88888888-1123-0000-0000-000000000106",
+      "sentenceNumber": 1,
+      "plainText": "日本にはいぬやねこを飼う人がたくさんいます。",
+      "romaji": "nihon ni wa inuya neko wo kau hito ga takusan imasu.",
+      "contentHtml": "<ruby>日本<rt>にほん</rt></ruby> には いぬや ねこを <ruby>飼<rt>か</rt></ruby>う <ruby>人<rt>ひと</rt></ruby> が たくさん います。",
+      "meaningVi": "Ở Nhật có rất nhiều người nuôi chó và mèo.",
+      "orderIndex": 1
+    },
+    {
+      "id": "88888888-1123-0000-0000-000000006002",
+      "lessonId": "88888888-1123-0000-0000-000000000106",
+      "sentenceNumber": 2,
+      "plainText": "さいきんねこを飼う人がふえていました。",
+      "romaji": "saikin neko wo kau hito ga fuete imashita.",
+      "contentHtml": "さいきん ねこを <ruby>飼<rt>か</rt></ruby>う <ruby>人<rt>ひと</rt></ruby> が ふえて いました。",
+      "meaningVi": "Gần đây số người nuôi mèo đã tăng lên.",
+      "orderIndex": 2
+    },
+    {
+      "id": "88888888-1123-0000-0000-000000006003",
+      "lessonId": "88888888-1123-0000-0000-000000000106",
+      "sentenceNumber": 3,
+      "plainText": "2017年にはねこが九百五十三万びき、いぬが八百九十二万びきになって、はじめてねこのほうがおおくなりました。",
+      "romaji": "nisenjuushichinen ni wa nekoga kyuuhyakugojuusanman biki,inuga happyakukyuujuuniman bikini natte,hajimete nekono houga ooku narimashita.",
+      "contentHtml": "<ruby>2017年<rt>にせんじゅうしちねん</rt></ruby> には ねこが <ruby>九百五十三万<rt>きゅうひゃくごじゅうさんまん</rt></ruby> びき、いぬが <ruby>八百九十二万<rt>はっぴゃくきゅうじゅうにまん</rt></ruby> びきに なって、はじめて ねこの ほうが おおく なりました。",
+      "meaningVi": "Đến năm 2017, số mèo là 9,53 triệu con và số chó là 8,92 triệu con, lần đầu tiên mèo nhiều hơn chó.",
+      "orderIndex": 3
+    }
+  ]
+}

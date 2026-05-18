@@ -1,0 +1,423 @@
+{
+  "lesson": {
+    "id": "kanji-jpd123-n5-5",
+    "level": "N5",
+    "lessonNumber": 5,
+    "title": "Hành động và Nghỉ ngơi",
+    "description": "Hành động và Nghỉ ngơi - JPD123 Kanji N5.",
+    "accessTier": "premium",
+    "packageCode": "kanji_jpd123",
+    "orderIndex": 5,
+    "kanjiCount": 12,
+    "vocabularyCount": 31,
+    "isLocked": true
+  },
+  "kanjiItems": [
+    {
+      "id": "f8571dc2-b128-582f-afe8-56183685f8d5",
+      "lessonId": "kanji-jpd123-n5-5",
+      "level": "N5",
+      "character": "先",
+      "hanViet": "TIÊN",
+      "meaning": "Trước, đầu tiên",
+      "strokeCount": 6,
+      "kunReading": "さき",
+      "onReading": "セン",
+      "mnemonic": "Con trâu (⺧) mọc hai đôi chân người (儿) chạy vượt lên trước tiên.",
+      "orderIndex": 1
+    },
+    {
+      "id": "1d97f9ed-5faa-57cf-bf8b-3adb806a8f0b",
+      "lessonId": "kanji-jpd123-n5-5",
+      "level": "N5",
+      "character": "週",
+      "hanViet": "CHU",
+      "meaning": "Tuần lễ",
+      "strokeCount": 11,
+      "kunReading": "",
+      "onReading": "シュウ",
+      "mnemonic": "Bước đi (⻌) trọn vẹn một vòng chu kỳ (周) là kết thúc một tuần lễ.",
+      "orderIndex": 2
+    },
+    {
+      "id": "f719f4c9-db44-595f-8a75-f3530018ae3d",
+      "lessonId": "kanji-jpd123-n5-5",
+      "level": "N5",
+      "character": "毎",
+      "hanViet": "MỖI",
+      "meaning": "Mỗi, mọi",
+      "strokeCount": 7,
+      "kunReading": "ごと",
+      "onReading": "マイ",
+      "mnemonic": "Người (𠂉) mẹ (毋) đội nón làm việc vất vả mỗi ngày.",
+      "orderIndex": 3
+    },
+    {
+      "id": "b1762e10-ea10-50cb-9513-ce389737a925",
+      "lessonId": "kanji-jpd123-n5-5",
+      "level": "N5",
+      "character": "午",
+      "hanViet": "NGỌ",
+      "meaning": "Buổi trưa, giờ Ngọ",
+      "strokeCount": 4,
+      "kunReading": "",
+      "onReading": "ゴ",
+      "mnemonic": "Đúng mười (十) giờ sáng có một tia nắng chói chang (ノ) chiếu xuống báo hiệu sắp đến giờ Ngọ (trưa).",
+      "orderIndex": 4
+    },
+    {
+      "id": "95b380a4-8169-5d38-b87a-bca35a0ac341",
+      "lessonId": "kanji-jpd123-n5-5",
+      "level": "N5",
+      "character": "後",
+      "hanViet": "HẬU",
+      "meaning": "Phía sau, sau này",
+      "strokeCount": 9,
+      "kunReading": "あと、うしろ、のち",
+      "onReading": "ゴ、コウ",
+      "mnemonic": "Bước chân (彳) đi chậm chạp (夂) lùi lại phía sau, nhường đường cho đứa nhỏ (幺).",
+      "orderIndex": 5
+    },
+    {
+      "id": "a7b0cfdd-9764-55e2-a5f5-adf8d3f005f7",
+      "lessonId": "kanji-jpd123-n5-5",
+      "level": "N5",
+      "character": "見",
+      "hanViet": "KIẾN",
+      "meaning": "Nhìn, thấy",
+      "strokeCount": 7,
+      "kunReading": "みる、みえる",
+      "onReading": "ケン",
+      "mnemonic": "Con mắt (目) mọc thêm hai cái chân (儿) chạy lon ton đi nhìn ngắm khắp nơi.",
+      "orderIndex": 6
+    },
+    {
+      "id": "d3679ee3-f082-5ca0-8920-cf1336840317",
+      "lessonId": "kanji-jpd123-n5-5",
+      "level": "N5",
+      "character": "食",
+      "hanViet": "THỰC",
+      "meaning": "Ăn, thức ăn",
+      "strokeCount": 9,
+      "kunReading": "たべる",
+      "onReading": "ショク、ジキ",
+      "mnemonic": "Người (人) được dọn cho đồ ăn ngon (良) sẽ có một bữa thực (ăn) thịnh soạn.",
+      "orderIndex": 7
+    },
+    {
+      "id": "a03537e6-2ed4-5467-b66a-dc384eaa4687",
+      "lessonId": "kanji-jpd123-n5-5",
+      "level": "N5",
+      "character": "飲",
+      "hanViet": "ẨM",
+      "meaning": "Uống",
+      "strokeCount": 12,
+      "kunReading": "のむ",
+      "onReading": "イン",
+      "mnemonic": "Khi cơ thể cảm thấy thiếu (欠) thốn, phải há miệng nạp ngay đồ ăn thức uống (飠).",
+      "orderIndex": 8
+    },
+    {
+      "id": "c57d7cdf-eb30-5672-a5a4-2f911246487d",
+      "lessonId": "kanji-jpd123-n5-5",
+      "level": "N5",
+      "character": "買",
+      "hanViet": "MÃI",
+      "meaning": "Mua",
+      "strokeCount": 12,
+      "kunReading": "かう",
+      "onReading": "バイ",
+      "mnemonic": "Giăng tấm lưới (罒) lớn gom thật nhiều tiền (貝) để đi mua sắm.",
+      "orderIndex": 9
+    },
+    {
+      "id": "befa0080-7734-5a82-831c-7e2a56ef604e",
+      "lessonId": "kanji-jpd123-n5-5",
+      "level": "N5",
+      "character": "物",
+      "hanViet": "VẬT",
+      "meaning": "Đồ vật",
+      "strokeCount": 8,
+      "kunReading": "もの",
+      "onReading": "ブツ、モツ",
+      "mnemonic": "Xin đừng (勿) đối xử với con bò (牛) như một món đồ vật vô tri.",
+      "orderIndex": 10
+    },
+    {
+      "id": "312ced8d-b411-57d0-9d7e-37aeefa5f63c",
+      "lessonId": "kanji-jpd123-n5-5",
+      "level": "N5",
+      "character": "行",
+      "hanViet": "HÀNH",
+      "meaning": "Đi, thực hiện",
+      "strokeCount": 6,
+      "kunReading": "いく、ゆく、おこなう",
+      "onReading": "コウ、ギョウ",
+      "mnemonic": "Bước chân trái (彳) và bước chân phải (亍) cùng phối hợp tiến lên để đi.",
+      "orderIndex": 11
+    },
+    {
+      "id": "f50b90fa-dbd3-5630-9e71-662bc64e0a5d",
+      "lessonId": "kanji-jpd123-n5-5",
+      "level": "N5",
+      "character": "休",
+      "hanViet": "HƯU",
+      "meaning": "Nghỉ ngơi",
+      "strokeCount": 6,
+      "kunReading": "やすむ",
+      "onReading": "キュウ",
+      "mnemonic": "Người (亻) tựa lưng vào gốc cây (木) để nghỉ ngơi.",
+      "orderIndex": 12
+    }
+  ],
+  "vocabularyItems": [
+    {
+      "id": "kanji-jpd123-n5-5-vocab-1",
+      "lessonId": "kanji-jpd123-n5-5",
+      "level": "N5",
+      "word": "先生",
+      "reading": "せんせい",
+      "meaning": "thầy/cô giáo"
+    },
+    {
+      "id": "kanji-jpd123-n5-5-vocab-2",
+      "lessonId": "kanji-jpd123-n5-5",
+      "level": "N5",
+      "word": "先日",
+      "reading": "せんじつ",
+      "meaning": "vài ngày trước"
+    },
+    {
+      "id": "kanji-jpd123-n5-5-vocab-3",
+      "lessonId": "kanji-jpd123-n5-5",
+      "level": "N5",
+      "word": "先月",
+      "reading": "せんげつ",
+      "meaning": "tháng trước"
+    },
+    {
+      "id": "kanji-jpd123-n5-5-vocab-4",
+      "lessonId": "kanji-jpd123-n5-5",
+      "level": "N5",
+      "word": "先週",
+      "reading": "せんしゅう",
+      "meaning": "tuần trước"
+    },
+    {
+      "id": "kanji-jpd123-n5-5-vocab-5",
+      "lessonId": "kanji-jpd123-n5-5",
+      "level": "N5",
+      "word": "一週間",
+      "reading": "いっしゅうかん",
+      "meaning": "1 tuần"
+    },
+    {
+      "id": "kanji-jpd123-n5-5-vocab-6",
+      "lessonId": "kanji-jpd123-n5-5",
+      "level": "N5",
+      "word": "毎日",
+      "reading": "まいにち",
+      "meaning": "mỗi ngày"
+    },
+    {
+      "id": "kanji-jpd123-n5-5-vocab-7",
+      "lessonId": "kanji-jpd123-n5-5",
+      "level": "N5",
+      "word": "毎週",
+      "reading": "まいしゅう",
+      "meaning": "mỗi tuần"
+    },
+    {
+      "id": "kanji-jpd123-n5-5-vocab-8",
+      "lessonId": "kanji-jpd123-n5-5",
+      "level": "N5",
+      "word": "毎年",
+      "reading": "まいとし/まいねん",
+      "meaning": "mỗi năm"
+    },
+    {
+      "id": "kanji-jpd123-n5-5-vocab-9",
+      "lessonId": "kanji-jpd123-n5-5",
+      "level": "N5",
+      "word": "毎月",
+      "reading": "まいつき",
+      "meaning": "mỗi tháng"
+    },
+    {
+      "id": "kanji-jpd123-n5-5-vocab-10",
+      "lessonId": "kanji-jpd123-n5-5",
+      "level": "N5",
+      "word": "後ろ",
+      "reading": "うしろ",
+      "meaning": "phía sau"
+    },
+    {
+      "id": "kanji-jpd123-n5-5-vocab-11",
+      "lessonId": "kanji-jpd123-n5-5",
+      "level": "N5",
+      "word": "後",
+      "reading": "あと",
+      "meaning": "sau đó"
+    },
+    {
+      "id": "kanji-jpd123-n5-5-vocab-12",
+      "lessonId": "kanji-jpd123-n5-5",
+      "level": "N5",
+      "word": "午後",
+      "reading": "ごご",
+      "meaning": "p.m"
+    },
+    {
+      "id": "kanji-jpd123-n5-5-vocab-13",
+      "lessonId": "kanji-jpd123-n5-5",
+      "level": "N5",
+      "word": "前後",
+      "reading": "ぜんご",
+      "meaning": "trước sau"
+    },
+    {
+      "id": "kanji-jpd123-n5-5-vocab-14",
+      "lessonId": "kanji-jpd123-n5-5",
+      "level": "N5",
+      "word": "見ます",
+      "reading": "みます",
+      "meaning": "nhìn"
+    },
+    {
+      "id": "kanji-jpd123-n5-5-vocab-15",
+      "lessonId": "kanji-jpd123-n5-5",
+      "level": "N5",
+      "word": "見学",
+      "reading": "けんがく",
+      "meaning": "tham quan kiến tập"
+    },
+    {
+      "id": "kanji-jpd123-n5-5-vocab-16",
+      "lessonId": "kanji-jpd123-n5-5",
+      "level": "N5",
+      "word": "食べます",
+      "reading": "たべます",
+      "meaning": "ăn"
+    },
+    {
+      "id": "kanji-jpd123-n5-5-vocab-17",
+      "lessonId": "kanji-jpd123-n5-5",
+      "level": "N5",
+      "word": "食事",
+      "reading": "しょくじ",
+      "meaning": "ăn, bữa ăn"
+    },
+    {
+      "id": "kanji-jpd123-n5-5-vocab-18",
+      "lessonId": "kanji-jpd123-n5-5",
+      "level": "N5",
+      "word": "飲みます",
+      "reading": "のみます",
+      "meaning": "uống"
+    },
+    {
+      "id": "kanji-jpd123-n5-5-vocab-19",
+      "lessonId": "kanji-jpd123-n5-5",
+      "level": "N5",
+      "word": "飲食",
+      "reading": "いんしょく",
+      "meaning": "ẩm thực"
+    },
+    {
+      "id": "kanji-jpd123-n5-5-vocab-20",
+      "lessonId": "kanji-jpd123-n5-5",
+      "level": "N5",
+      "word": "飲み水",
+      "reading": "のみみず",
+      "meaning": "nước uống"
+    },
+    {
+      "id": "kanji-jpd123-n5-5-vocab-21",
+      "lessonId": "kanji-jpd123-n5-5",
+      "level": "N5",
+      "word": "休みます",
+      "reading": "やすみます",
+      "meaning": "nghỉ"
+    },
+    {
+      "id": "kanji-jpd123-n5-5-vocab-22",
+      "lessonId": "kanji-jpd123-n5-5",
+      "level": "N5",
+      "word": "休みの日",
+      "reading": "やすみのひ",
+      "meaning": "ngày nghỉ"
+    },
+    {
+      "id": "kanji-jpd123-n5-5-vocab-23",
+      "lessonId": "kanji-jpd123-n5-5",
+      "level": "N5",
+      "word": "休日",
+      "reading": "きゅうじつ",
+      "meaning": "ngày nghỉ"
+    },
+    {
+      "id": "kanji-jpd123-n5-5-vocab-24",
+      "lessonId": "kanji-jpd123-n5-5",
+      "level": "N5",
+      "word": "買います",
+      "reading": "かいます",
+      "meaning": "mua"
+    },
+    {
+      "id": "kanji-jpd123-n5-5-vocab-25",
+      "lessonId": "kanji-jpd123-n5-5",
+      "level": "N5",
+      "word": "物",
+      "reading": "もの",
+      "meaning": "đồ vật"
+    },
+    {
+      "id": "kanji-jpd123-n5-5-vocab-26",
+      "lessonId": "kanji-jpd123-n5-5",
+      "level": "N5",
+      "word": "買い物",
+      "reading": "かいもの",
+      "meaning": "mua sắm"
+    },
+    {
+      "id": "kanji-jpd123-n5-5-vocab-27",
+      "lessonId": "kanji-jpd123-n5-5",
+      "level": "N5",
+      "word": "食べ物",
+      "reading": "たべもの",
+      "meaning": "đồ ăn"
+    },
+    {
+      "id": "kanji-jpd123-n5-5-vocab-28",
+      "lessonId": "kanji-jpd123-n5-5",
+      "level": "N5",
+      "word": "飲み物",
+      "reading": "のみもの",
+      "meaning": "đồ uống"
+    },
+    {
+      "id": "kanji-jpd123-n5-5-vocab-29",
+      "lessonId": "kanji-jpd123-n5-5",
+      "level": "N5",
+      "word": "人物",
+      "reading": "じんぶつ",
+      "meaning": "nhân vật"
+    },
+    {
+      "id": "kanji-jpd123-n5-5-vocab-30",
+      "lessonId": "kanji-jpd123-n5-5",
+      "level": "N5",
+      "word": "見物",
+      "reading": "けんぶつ",
+      "meaning": "tham quan"
+    },
+    {
+      "id": "kanji-jpd123-n5-5-vocab-31",
+      "lessonId": "kanji-jpd123-n5-5",
+      "level": "N5",
+      "word": "行きます",
+      "reading": "いきます",
+      "meaning": "đi"
+    }
+  ]
+}

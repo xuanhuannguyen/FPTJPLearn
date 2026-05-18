@@ -1,0 +1,252 @@
+[
+  {
+    "id": "77777777-1123-0003-0000-000000410001",
+    "patternId": "77777777-1123-0001-0000-000000004001",
+    "exerciseType": "ja_to_vi",
+    "prompt": "この料理は辛いです。",
+    "promptReading": "このりょうりはからいです。",
+    "expectedAnswer": "Món ăn này cay.",
+    "hint": "N は Aい です。",
+    "explanation": "Giữ nguyên い khi đi với です.",
+    "orderIndex": 1
+  },
+  {
+    "id": "77777777-1123-0003-0000-000000420001",
+    "patternId": "77777777-1123-0001-0000-000000004001",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Món ăn này cay.",
+    "expectedAnswer": "この料理は辛いです。",
+    "acceptableAnswers": [
+      "このりょうりはからいです。"
+    ],
+    "hint": "Danh từ + は + Tính từ đuôi い + です",
+    "explanation": "Giữ nguyên い khi đi với です.",
+    "orderIndex": 2
+  },
+  {
+    "id": "77777777-1123-0003-0000-000000430001",
+    "patternId": "77777777-1123-0001-0000-000000004001",
+    "exerciseType": "arrange",
+    "prompt": "Món ăn này cay.",
+    "expectedAnswer": "この料理 (りょうり)は辛い (からい)です",
+    "optionsJson": "[\"こ\",\"の\",\"は\",\"です\",\"辛い (からい)\",\"料理 (りょうり)\"]",
+    "options": [
+      "こ",
+      "の",
+      "は",
+      "です",
+      "辛い (からい)",
+      "料理 (りょうり)"
+    ],
+    "correctOrderJson": "[\"こ\",\"の\",\"料理 (りょうり)\",\"は\",\"辛い (からい)\",\"です\"]",
+    "correctOrder": [
+      "こ",
+      "の",
+      "料理 (りょうり)",
+      "は",
+      "辛い (からい)",
+      "です"
+    ],
+    "orderIndex": 3
+  },
+  {
+    "id": "77777777-1123-0003-0000-000000410002",
+    "patternId": "77777777-1123-0001-0000-000000004001",
+    "exerciseType": "ja_to_vi",
+    "prompt": "この本はおもしろいです。",
+    "promptReading": "このほんはおもしろいです。",
+    "expectedAnswer": "Quyển sách này thú vị.",
+    "hint": "N は Aい です。",
+    "explanation": "Giữ nguyên い khi đi với です.",
+    "orderIndex": 4
+  },
+  {
+    "id": "77777777-1123-0003-0000-000000420002",
+    "patternId": "77777777-1123-0001-0000-000000004001",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Quyển sách này thú vị.",
+    "expectedAnswer": "この本はおもしろいです。",
+    "acceptableAnswers": [
+      "このほんはおもしろいです。"
+    ],
+    "hint": "Danh từ + は + Tính từ đuôi い + です",
+    "explanation": "Giữ nguyên い khi đi với です.",
+    "orderIndex": 5
+  },
+  {
+    "id": "77777777-1123-0003-0000-000000430002",
+    "patternId": "77777777-1123-0001-0000-000000004001",
+    "exerciseType": "arrange",
+    "prompt": "Quyển sách này thú vị.",
+    "expectedAnswer": "この本 (ほん)はおもしろいです",
+    "optionsJson": "[\"お\",\"こ\",\"の\",\"は\",\"も\",\"です\",\"しろい\",\"本 (ほん)\"]",
+    "options": [
+      "お",
+      "こ",
+      "の",
+      "は",
+      "も",
+      "です",
+      "しろい",
+      "本 (ほん)"
+    ],
+    "correctOrderJson": "[\"こ\",\"の\",\"本 (ほん)\",\"は\",\"お\",\"も\",\"しろい\",\"です\"]",
+    "correctOrder": [
+      "こ",
+      "の",
+      "本 (ほん)",
+      "は",
+      "お",
+      "も",
+      "しろい",
+      "です"
+    ],
+    "orderIndex": 6
+  },
+  {
+    "id": "77777777-1123-0003-0000-000000410003",
+    "patternId": "77777777-1123-0001-0000-000000004001",
+    "exerciseType": "ja_to_vi",
+    "prompt": "日本の冬は寒いです。",
+    "promptReading": "にほんのふゆはさむいです。",
+    "expectedAnswer": "Mùa đông ở Nhật Bản lạnh.",
+    "hint": "N は Aい です。",
+    "explanation": "Giữ nguyên い khi đi với です.",
+    "orderIndex": 7
+  },
+  {
+    "id": "77777777-1123-0003-0000-000000420003",
+    "patternId": "77777777-1123-0001-0000-000000004001",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Mùa đông ở Nhật Bản lạnh.",
+    "expectedAnswer": "日本の冬は寒いです。",
+    "acceptableAnswers": [
+      "にほんのふゆはさむいです。"
+    ],
+    "hint": "Danh từ + は + Tính từ đuôi い + です",
+    "explanation": "Giữ nguyên い khi đi với です.",
+    "orderIndex": 8
+  },
+  {
+    "id": "77777777-1123-0003-0000-000000430003",
+    "patternId": "77777777-1123-0001-0000-000000004001",
+    "exerciseType": "arrange",
+    "prompt": "Mùa đông ở Nhật Bản lạnh.",
+    "expectedAnswer": "日本 (にほん)の冬 (ふゆ)は寒い (さむい)です",
+    "optionsJson": "[\"の\",\"は\",\"です\",\"冬 (ふゆ)\",\"寒い (さむい)\",\"日本 (にほん)\"]",
+    "options": [
+      "の",
+      "は",
+      "です",
+      "冬 (ふゆ)",
+      "寒い (さむい)",
+      "日本 (にほん)"
+    ],
+    "correctOrderJson": "[\"日本 (にほん)\",\"の\",\"冬 (ふゆ)\",\"は\",\"寒い (さむい)\",\"です\"]",
+    "correctOrder": [
+      "日本 (にほん)",
+      "の",
+      "冬 (ふゆ)",
+      "は",
+      "寒い (さむい)",
+      "です"
+    ],
+    "orderIndex": 9
+  },
+  {
+    "id": "77777777-1123-0003-0000-000000410004",
+    "patternId": "77777777-1123-0001-0000-000000004001",
+    "exerciseType": "ja_to_vi",
+    "prompt": "富士山は高いです。",
+    "promptReading": "ふじさんはたかいです。",
+    "expectedAnswer": "Núi Phú Sĩ cao.",
+    "hint": "N は Aい です。",
+    "explanation": "Giữ nguyên い khi đi với です.",
+    "orderIndex": 10
+  },
+  {
+    "id": "77777777-1123-0003-0000-000000420004",
+    "patternId": "77777777-1123-0001-0000-000000004001",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Núi Phú Sĩ cao.",
+    "expectedAnswer": "富士山は高いです。",
+    "acceptableAnswers": [
+      "ふじさんはたかいです。"
+    ],
+    "hint": "Danh từ + は + Tính từ đuôi い + です",
+    "explanation": "Giữ nguyên い khi đi với です.",
+    "orderIndex": 11
+  },
+  {
+    "id": "77777777-1123-0003-0000-000000430004",
+    "patternId": "77777777-1123-0001-0000-000000004001",
+    "exerciseType": "arrange",
+    "prompt": "Núi Phú Sĩ cao.",
+    "expectedAnswer": "富士山 (ふじさん)は高い (たかい)です",
+    "optionsJson": "[\"は\",\"です\",\"高い (たかい)\",\"富士山 (ふじさん)\"]",
+    "options": [
+      "は",
+      "です",
+      "高い (たかい)",
+      "富士山 (ふじさん)"
+    ],
+    "correctOrderJson": "[\"富士山 (ふじさん)\",\"は\",\"高い (たかい)\",\"です\"]",
+    "correctOrder": [
+      "富士山 (ふじさん)",
+      "は",
+      "高い (たかい)",
+      "です"
+    ],
+    "orderIndex": 12
+  },
+  {
+    "id": "77777777-1123-0003-0000-000000410005",
+    "patternId": "77777777-1123-0001-0000-000000004001",
+    "exerciseType": "ja_to_vi",
+    "prompt": "この林檎は甘いです。",
+    "promptReading": "このりんごはあまいです。",
+    "expectedAnswer": "Quả táo này ngọt.",
+    "hint": "N は Aい です。",
+    "explanation": "Giữ nguyên い khi đi với です.",
+    "orderIndex": 13
+  },
+  {
+    "id": "77777777-1123-0003-0000-000000420005",
+    "patternId": "77777777-1123-0001-0000-000000004001",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Quả táo này ngọt.",
+    "expectedAnswer": "この林檎は甘いです。",
+    "acceptableAnswers": [
+      "このりんごはあまいです。"
+    ],
+    "hint": "Danh từ + は + Tính từ đuôi い + です",
+    "explanation": "Giữ nguyên い khi đi với です.",
+    "orderIndex": 14
+  },
+  {
+    "id": "77777777-1123-0003-0000-000000430005",
+    "patternId": "77777777-1123-0001-0000-000000004001",
+    "exerciseType": "arrange",
+    "prompt": "Quả táo này ngọt.",
+    "expectedAnswer": "この林檎 (りんご)は甘い (あまい)です",
+    "optionsJson": "[\"こ\",\"の\",\"は\",\"です\",\"甘い (あまい)\",\"林檎 (りんご)\"]",
+    "options": [
+      "こ",
+      "の",
+      "は",
+      "です",
+      "甘い (あまい)",
+      "林檎 (りんご)"
+    ],
+    "correctOrderJson": "[\"こ\",\"の\",\"林檎 (りんご)\",\"は\",\"甘い (あまい)\",\"です\"]",
+    "correctOrder": [
+      "こ",
+      "の",
+      "林檎 (りんご)",
+      "は",
+      "甘い (あまい)",
+      "です"
+    ],
+    "orderIndex": 15
+  }
+]

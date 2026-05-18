@@ -1,0 +1,105 @@
+{
+  "lesson": {
+    "id": "88888888-1123-0000-0000-000000000102",
+    "courseCode": "jpd123",
+    "lessonNumber": 2,
+    "title": "土曜日と日曜日",
+    "description": "Cuối tuần - Lịch cuối tuần với thư viện, sách du lịch và quà sinh nhật.",
+    "accessTier": "premium",
+    "packageCode": "speaking_jpd123",
+    "isLocked": true,
+    "sentenceCount": 9
+  },
+  "sentences": [
+    {
+      "id": "88888888-1123-0000-0000-000000002001",
+      "lessonId": "88888888-1123-0000-0000-000000000102",
+      "sentenceNumber": 1,
+      "plainText": "けさとしょかんへ行きました。",
+      "romaji": "kesa toshokan e ikimashita.",
+      "contentHtml": "けさ としょかんへ <ruby>行<rt>い</rt></ruby>きました。",
+      "meaningVi": "Sáng nay tôi đã đi thư viện.",
+      "orderIndex": 1
+    },
+    {
+      "id": "88888888-1123-0000-0000-000000002002",
+      "lessonId": "88888888-1123-0000-0000-000000000102",
+      "sentenceNumber": 2,
+      "plainText": "としょかんでたろうちゃんに会いました。",
+      "romaji": "toshokande tarouchanni aimashita.",
+      "contentHtml": "としょかんで たろうちゃんに <ruby>会<rt>あ</rt></ruby>いました。",
+      "meaningVi": "Ở thư viện tôi đã gặp Tarou.",
+      "orderIndex": 2
+    },
+    {
+      "id": "88888888-1123-0000-0000-000000002003",
+      "lessonId": "88888888-1123-0000-0000-000000000102",
+      "sentenceNumber": 3,
+      "plainText": "たろうちゃんといっしょにビデオを見ました。",
+      "romaji": "tarouchanto isshoni bideo wo mimashita.",
+      "contentHtml": "たろうちゃんと いっしょに ビデオを <ruby>見<rt>み</rt></ruby>ました。",
+      "meaningVi": "Tôi đã xem video cùng với Tarou.",
+      "orderIndex": 3
+    },
+    {
+      "id": "88888888-1123-0000-0000-000000002004",
+      "lessonId": "88888888-1123-0000-0000-000000000102",
+      "sentenceNumber": 4,
+      "plainText": "私はりょ行の本をかりました。",
+      "romaji": "watashi wa ryokou no hon wo karimashita.",
+      "contentHtml": "<ruby>私<rt>わたし</rt></ruby> は りょ<ruby>行<rt>こう</rt></ruby> の <ruby>本<rt>ほん</rt></ruby> を かりました。",
+      "meaningVi": "Tôi đã mượn một quyển sách du lịch.",
+      "orderIndex": 4
+    },
+    {
+      "id": "88888888-1123-0000-0000-000000002005",
+      "lessonId": "88888888-1123-0000-0000-000000000102",
+      "sentenceNumber": 5,
+      "plainText": "あしたは日曜日です。",
+      "romaji": "ashita wa nichiyoubi desu.",
+      "contentHtml": "あしたは <ruby>日曜日<rt>にちようび</rt></ruby> です。",
+      "meaningVi": "Ngày mai là Chủ nhật.",
+      "orderIndex": 5
+    },
+    {
+      "id": "88888888-1123-0000-0000-000000002006",
+      "lessonId": "88888888-1123-0000-0000-000000000102",
+      "sentenceNumber": 6,
+      "plainText": "あさりょ行の本を読みます。",
+      "romaji": "asa ryokou no hon wo yomimasu.",
+      "contentHtml": "あさ りょ<ruby>行<rt>こう</rt></ruby> の <ruby>本<rt>ほん</rt></ruby> を <ruby>読<rt>よ</rt></ruby>みます。",
+      "meaningVi": "Buổi sáng tôi sẽ đọc sách du lịch.",
+      "orderIndex": 6
+    },
+    {
+      "id": "88888888-1123-0000-0000-000000002007",
+      "lessonId": "88888888-1123-0000-0000-000000000102",
+      "sentenceNumber": 7,
+      "plainText": "午後デパートへ行きます。",
+      "romaji": "gogo depa-to e ikimasu.",
+      "contentHtml": "<ruby>午後<rt>ごご</rt></ruby> デパートへ <ruby>行<rt>い</rt></ruby>きます。",
+      "meaningVi": "Buổi chiều tôi sẽ đi cửa hàng bách hóa.",
+      "orderIndex": 7
+    },
+    {
+      "id": "88888888-1123-0000-0000-000000002008",
+      "lessonId": "88888888-1123-0000-0000-000000000102",
+      "sentenceNumber": 8,
+      "plainText": "はなを買います。",
+      "romaji": "hana wo kaimasu.",
+      "contentHtml": "はなを <ruby>買<rt>か</rt></ruby>います。",
+      "meaningVi": "Tôi sẽ mua hoa.",
+      "orderIndex": 8
+    },
+    {
+      "id": "88888888-1123-0000-0000-000000002009",
+      "lessonId": "88888888-1123-0000-0000-000000000102",
+      "sentenceNumber": 9,
+      "plainText": "ははのたん生日のプレゼントです。",
+      "romaji": "hahano tanjoubi no purezentodesu.",
+      "contentHtml": "ははの たん<ruby>生日<rt>じょうび</rt></ruby> の プレゼントです。",
+      "meaningVi": "Đó là quà sinh nhật của mẹ tôi.",
+      "orderIndex": 9
+    }
+  ]
+}

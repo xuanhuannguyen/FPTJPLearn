@@ -1,0 +1,258 @@
+[
+  {
+    "id": "77777777-1123-0003-0000-000000515001",
+    "patternId": "77777777-1123-0001-0000-000000005006",
+    "exerciseType": "ja_to_vi",
+    "prompt": "新宿へ買い物に行きます。",
+    "promptReading": "しんじゅくへかいものにいきます。",
+    "expectedAnswer": "Tôi đi Shinjuku để mua sắm.",
+    "hint": "N (địa điểm) へ V に行きます",
+    "explanation": "V-masu bỏ masu hoặc N chỉ hành động (như 買い物).",
+    "orderIndex": 1
+  },
+  {
+    "id": "77777777-1123-0003-0000-000000525001",
+    "patternId": "77777777-1123-0001-0000-000000005006",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Tôi đi Shinjuku để mua sắm.",
+    "expectedAnswer": "新宿へ買い物に行きます。",
+    "acceptableAnswers": [
+      "しんじゅくへかいものにいきます。"
+    ],
+    "hint": "N địa điểm + へ + V (bỏ ます) + に + 行きます",
+    "explanation": "V-masu bỏ masu hoặc N chỉ hành động (như 買い物).",
+    "orderIndex": 2
+  },
+  {
+    "id": "77777777-1123-0003-0000-000000535001",
+    "patternId": "77777777-1123-0001-0000-000000005006",
+    "exerciseType": "arrange",
+    "prompt": "Tôi đi Shinjuku để mua sắm.",
+    "expectedAnswer": "新宿 (しんじゅく)へ買い物 (かいもの)に行きます (いきます)",
+    "optionsJson": "[\"に\",\"へ\",\"新宿 (しんじゅく)\",\"行きます (いきます)\",\"買い物 (かいもの)\"]",
+    "options": [
+      "に",
+      "へ",
+      "新宿 (しんじゅく)",
+      "行きます (いきます)",
+      "買い物 (かいもの)"
+    ],
+    "correctOrderJson": "[\"新宿 (しんじゅく)\",\"へ\",\"買い物 (かいもの)\",\"に\",\"行きます (いきます)\"]",
+    "correctOrder": [
+      "新宿 (しんじゅく)",
+      "へ",
+      "買い物 (かいもの)",
+      "に",
+      "行きます (いきます)"
+    ],
+    "orderIndex": 3
+  },
+  {
+    "id": "77777777-1123-0003-0000-000000515002",
+    "patternId": "77777777-1123-0001-0000-000000005006",
+    "exerciseType": "ja_to_vi",
+    "prompt": "公園へ遊びに行きます。",
+    "promptReading": "こうえんへあそびにいきます。",
+    "expectedAnswer": "Tôi đi đến công viên để chơi.",
+    "hint": "N (địa điểm) へ V に行きます",
+    "explanation": "V-masu bỏ masu hoặc N chỉ hành động (như 買い物).",
+    "orderIndex": 4
+  },
+  {
+    "id": "77777777-1123-0003-0000-000000525002",
+    "patternId": "77777777-1123-0001-0000-000000005006",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Tôi đi đến công viên để chơi.",
+    "expectedAnswer": "公園へ遊びに行きます。",
+    "acceptableAnswers": [
+      "こうえんへあそびにいきます。"
+    ],
+    "hint": "N địa điểm + へ + V (bỏ ます) + に + 行きます",
+    "explanation": "V-masu bỏ masu hoặc N chỉ hành động (như 買い物).",
+    "orderIndex": 5
+  },
+  {
+    "id": "77777777-1123-0003-0000-000000535002",
+    "patternId": "77777777-1123-0001-0000-000000005006",
+    "exerciseType": "arrange",
+    "prompt": "Tôi đi đến công viên để chơi.",
+    "expectedAnswer": "公園 (こうえん)へ遊び (あそび)に行きます (いきます)",
+    "optionsJson": "[\"に\",\"へ\",\"遊び (あそび)\",\"公園 (こうえん)\",\"行きます (いきます)\"]",
+    "options": [
+      "に",
+      "へ",
+      "遊び (あそび)",
+      "公園 (こうえん)",
+      "行きます (いきます)"
+    ],
+    "correctOrderJson": "[\"公園 (こうえん)\",\"へ\",\"遊び (あそび)\",\"に\",\"行きます (いきます)\"]",
+    "correctOrder": [
+      "公園 (こうえん)",
+      "へ",
+      "遊び (あそび)",
+      "に",
+      "行きます (いきます)"
+    ],
+    "orderIndex": 6
+  },
+  {
+    "id": "77777777-1123-0003-0000-000000515003",
+    "patternId": "77777777-1123-0001-0000-000000005006",
+    "exerciseType": "ja_to_vi",
+    "prompt": "デパートへ靴を買いに行きます。",
+    "promptReading": "デパートへくつをかいにいきます。",
+    "expectedAnswer": "Tôi đi đến bách hóa để mua giày.",
+    "hint": "N (địa điểm) へ V に行きます",
+    "explanation": "V-masu bỏ masu hoặc N chỉ hành động (như 買い物).",
+    "orderIndex": 7
+  },
+  {
+    "id": "77777777-1123-0003-0000-000000525003",
+    "patternId": "77777777-1123-0001-0000-000000005006",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Tôi đi đến bách hóa để mua giày.",
+    "expectedAnswer": "デパートへ靴を買いに行きます。",
+    "acceptableAnswers": [
+      "デパートへくつをかいにいきます。"
+    ],
+    "hint": "N địa điểm + へ + V (bỏ ます) + に + 行きます",
+    "explanation": "V-masu bỏ masu hoặc N chỉ hành động (như 買い物).",
+    "orderIndex": 8
+  },
+  {
+    "id": "77777777-1123-0003-0000-000000535003",
+    "patternId": "77777777-1123-0001-0000-000000005006",
+    "exerciseType": "arrange",
+    "prompt": "Tôi đi đến bách hóa để mua giày.",
+    "expectedAnswer": "デパートへ靴 (くつ)を買い (かい)に行きます (いきます)",
+    "optionsJson": "[\"に\",\"へ\",\"を\",\"デパート\",\"靴 (くつ)\",\"買い (かい)\",\"行きます (いきます)\"]",
+    "options": [
+      "に",
+      "へ",
+      "を",
+      "デパート",
+      "靴 (くつ)",
+      "買い (かい)",
+      "行きます (いきます)"
+    ],
+    "correctOrderJson": "[\"デパート\",\"へ\",\"靴 (くつ)\",\"を\",\"買い (かい)\",\"に\",\"行きます (いきます)\"]",
+    "correctOrder": [
+      "デパート",
+      "へ",
+      "靴 (くつ)",
+      "を",
+      "買い (かい)",
+      "に",
+      "行きます (いきます)"
+    ],
+    "orderIndex": 9
+  },
+  {
+    "id": "77777777-1123-0003-0000-000000515004",
+    "patternId": "77777777-1123-0001-0000-000000005006",
+    "exerciseType": "ja_to_vi",
+    "prompt": "日本へ日本語を勉強しに来ました。",
+    "promptReading": "にほんへにほんごをべんきょうしにきました。",
+    "expectedAnswer": "Tôi đã đến Nhật để học tiếng Nhật.",
+    "hint": "N (địa điểm) へ V に行きます",
+    "explanation": "V-masu bỏ masu hoặc N chỉ hành động (như 買い物).",
+    "orderIndex": 10
+  },
+  {
+    "id": "77777777-1123-0003-0000-000000525004",
+    "patternId": "77777777-1123-0001-0000-000000005006",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Tôi đã đến Nhật để học tiếng Nhật.",
+    "expectedAnswer": "日本へ日本語を勉強しに来ました。",
+    "acceptableAnswers": [
+      "にほんへにほんごをべんきょうしにきました。"
+    ],
+    "hint": "N địa điểm + へ + V (bỏ ます) + に + 行きます",
+    "explanation": "V-masu bỏ masu hoặc N chỉ hành động (như 買い物).",
+    "orderIndex": 11
+  },
+  {
+    "id": "77777777-1123-0003-0000-000000535004",
+    "patternId": "77777777-1123-0001-0000-000000005006",
+    "exerciseType": "arrange",
+    "prompt": "Tôi đã đến Nhật để học tiếng Nhật.",
+    "expectedAnswer": "日本 (にほん)へ日本語 (にほんご)を勉強し (べんきょうし)に来ました (きました)",
+    "optionsJson": "[\"に\",\"へ\",\"を\",\"日本 (にほん)\",\"来ました (きました)\",\"勉強し (べんきょうし)\",\"日本語 (にほんご)\"]",
+    "options": [
+      "に",
+      "へ",
+      "を",
+      "日本 (にほん)",
+      "来ました (きました)",
+      "勉強し (べんきょうし)",
+      "日本語 (にほんご)"
+    ],
+    "correctOrderJson": "[\"日本 (にほん)\",\"へ\",\"日本語 (にほんご)\",\"を\",\"勉強し (べんきょうし)\",\"に\",\"来ました (きました)\"]",
+    "correctOrder": [
+      "日本 (にほん)",
+      "へ",
+      "日本語 (にほんご)",
+      "を",
+      "勉強し (べんきょうし)",
+      "に",
+      "来ました (きました)"
+    ],
+    "orderIndex": 12
+  },
+  {
+    "id": "77777777-1123-0003-0000-000000515005",
+    "patternId": "77777777-1123-0001-0000-000000005006",
+    "exerciseType": "ja_to_vi",
+    "prompt": "レストランへ昼ごはんを食べに行きます。",
+    "promptReading": "レストランへひるごはんをたべにいきます。",
+    "expectedAnswer": "Tôi đi đến nhà hàng để ăn trưa.",
+    "hint": "N (địa điểm) へ V に行きます",
+    "explanation": "V-masu bỏ masu hoặc N chỉ hành động (như 買い物).",
+    "orderIndex": 13
+  },
+  {
+    "id": "77777777-1123-0003-0000-000000525005",
+    "patternId": "77777777-1123-0001-0000-000000005006",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Tôi đi đến nhà hàng để ăn trưa.",
+    "expectedAnswer": "レストランへ昼ごはんを食べに行きます。",
+    "acceptableAnswers": [
+      "レストランへひるごはんをたべにいきます。"
+    ],
+    "hint": "N địa điểm + へ + V (bỏ ます) + に + 行きます",
+    "explanation": "V-masu bỏ masu hoặc N chỉ hành động (như 買い物).",
+    "orderIndex": 14
+  },
+  {
+    "id": "77777777-1123-0003-0000-000000535005",
+    "patternId": "77777777-1123-0001-0000-000000005006",
+    "exerciseType": "arrange",
+    "prompt": "Tôi đi đến nhà hàng để ăn trưa.",
+    "expectedAnswer": "レストランへ昼ご (ひるご)はんを食べ (たべ)に行きます (いきます)",
+    "optionsJson": "[\"に\",\"は\",\"へ\",\"を\",\"ん\",\"レストラン\",\"昼ご (ひるご)\",\"食べ (たべ)\",\"行きます (いきます)\"]",
+    "options": [
+      "に",
+      "は",
+      "へ",
+      "を",
+      "ん",
+      "レストラン",
+      "昼ご (ひるご)",
+      "食べ (たべ)",
+      "行きます (いきます)"
+    ],
+    "correctOrderJson": "[\"レストラン\",\"へ\",\"昼ご (ひるご)\",\"は\",\"ん\",\"を\",\"食べ (たべ)\",\"に\",\"行きます (いきます)\"]",
+    "correctOrder": [
+      "レストラン",
+      "へ",
+      "昼ご (ひるご)",
+      "は",
+      "ん",
+      "を",
+      "食べ (たべ)",
+      "に",
+      "行きます (いきます)"
+    ],
+    "orderIndex": 15
+  }
+]

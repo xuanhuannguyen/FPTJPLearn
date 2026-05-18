@@ -1,0 +1,45 @@
+{
+  "lesson": {
+    "id": "88888888-1113-0000-0000-000000000109",
+    "courseCode": "jpd113",
+    "lessonNumber": 9,
+    "title": "日本語学校の がくせい",
+    "description": "Học tập - Lịch học tiếng Nhật hàng ngày.",
+    "accessTier": "premium",
+    "packageCode": "speaking_jpd113",
+    "isLocked": true,
+    "sentenceCount": 3
+  },
+  "sentences": [
+    {
+      "id": "88888888-1113-0000-0000-000000009001",
+      "lessonId": "88888888-1113-0000-0000-000000000109",
+      "sentenceNumber": 1,
+      "plainText": "私は日本語学校のがくせいです。",
+      "romaji": "watashi wa nihongogakkouno gakuseidesu.",
+      "contentHtml": "<ruby>私<rt>わたし</rt></ruby>は <ruby>日本語学校<rt>にほんごがっこう</rt></ruby>の <ruby>がくせい<rt>がくせい</rt></ruby>です。",
+      "meaningVi": "Tôi là sinh viên trường tiếng Nhật.",
+      "orderIndex": 1
+    },
+    {
+      "id": "88888888-1113-0000-0000-000000009002",
+      "lessonId": "88888888-1113-0000-0000-000000000109",
+      "sentenceNumber": 2,
+      "plainText": "月曜日から金曜日まで、学校へ行きます。",
+      "romaji": "getsuyoubikara kinyoubimade,gakkou e ikimasu.",
+      "contentHtml": "<ruby>月曜日<rt>げつようび</rt></ruby>から <ruby>金曜日<rt>きんようび</rt></ruby>まで、<ruby>学校<rt>がっこう</rt></ruby>へ <ruby>行<rt>い</rt></ruby>きます。",
+      "meaningVi": "Tôi đi học từ thứ hai đến thứ sáu.",
+      "orderIndex": 2
+    },
+    {
+      "id": "88888888-1113-0000-0000-000000009003",
+      "lessonId": "88888888-1113-0000-0000-000000000109",
+      "sentenceNumber": 3,
+      "plainText": "あさ九時から十二時はんまで学校で日本語をべんきょうします。",
+      "romaji": "asakujikara juunijihanmade gakkoude nihongo wo benkyoushimasu.",
+      "contentHtml": "<ruby>あさ<rt>あさ</rt></ruby><ruby>九時<rt>くじ</rt></ruby>から <ruby>十二時はん<rt>じゅうにじはん</rt></ruby>まで <ruby>学校<rt>がっこう</rt></ruby>で <ruby>日本語<rt>にほんご</rt></ruby>を <ruby>べんきょう<rt>べんきょう</rt></ruby>します。",
+      "meaningVi": "Tôi học tiếng Nhật ở trường từ 9 giờ sáng đến 12 giờ rưỡi.",
+      "orderIndex": 3
+    }
+  ]
+}

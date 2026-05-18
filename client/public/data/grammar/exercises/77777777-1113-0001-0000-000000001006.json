@@ -1,0 +1,266 @@
+[
+  {
+    "id": "77777777-1113-0003-0000-000000115001",
+    "patternId": "77777777-1113-0001-0000-000000001006",
+    "exerciseType": "ja_to_vi",
+    "prompt": "私の趣味は旅行と料理です。",
+    "promptReading": "わたしのしゅみはりょこうとりょうりです。",
+    "expectedAnswer": "Sở thích của tôi là du lịch và nấu ăn.",
+    "hint": "N1 と N2",
+    "explanation": "Chỉ dùng để nối danh từ.",
+    "orderIndex": 1
+  },
+  {
+    "id": "77777777-1113-0003-0000-000000125001",
+    "patternId": "77777777-1113-0001-0000-000000001006",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Sở thích của tôi là du lịch và nấu ăn.",
+    "expectedAnswer": "私の趣味は旅行と料理です。",
+    "acceptableAnswers": [
+      "わたしのしゅみはりょこうとりょうりです。"
+    ],
+    "hint": "Danh từ 1 + と + Danh từ 2",
+    "explanation": "Chỉ dùng để nối danh từ.",
+    "orderIndex": 2
+  },
+  {
+    "id": "77777777-1113-0003-0000-000000135001",
+    "patternId": "77777777-1113-0001-0000-000000001006",
+    "exerciseType": "arrange",
+    "prompt": "Sở thích của tôi là du lịch và nấu ăn.",
+    "expectedAnswer": "私 (わたし)の趣味 (しゅみ)は旅行 (りょこう)と料理 (りょうり)です",
+    "optionsJson": "[\"と\",\"の\",\"は\",\"です\",\"私 (わたし)\",\"趣味 (しゅみ)\",\"料理 (りょうり)\",\"旅行 (りょこう)\"]",
+    "options": [
+      "と",
+      "の",
+      "は",
+      "です",
+      "私 (わたし)",
+      "趣味 (しゅみ)",
+      "料理 (りょうり)",
+      "旅行 (りょこう)"
+    ],
+    "correctOrderJson": "[\"私 (わたし)\",\"の\",\"趣味 (しゅみ)\",\"は\",\"旅行 (りょこう)\",\"と\",\"料理 (りょうり)\",\"です\"]",
+    "correctOrder": [
+      "私 (わたし)",
+      "の",
+      "趣味 (しゅみ)",
+      "は",
+      "旅行 (りょこう)",
+      "と",
+      "料理 (りょうり)",
+      "です"
+    ],
+    "orderIndex": 3
+  },
+  {
+    "id": "77777777-1113-0003-0000-000000115002",
+    "patternId": "77777777-1113-0001-0000-000000001006",
+    "exerciseType": "ja_to_vi",
+    "prompt": "アンさんとワンさんは友達です。",
+    "promptReading": "アンさんとワンさんはともだちです。",
+    "expectedAnswer": "Bạn An và bạn Wan là bạn bè.",
+    "hint": "N1 と N2",
+    "explanation": "Chỉ dùng để nối danh từ.",
+    "orderIndex": 4
+  },
+  {
+    "id": "77777777-1113-0003-0000-000000125002",
+    "patternId": "77777777-1113-0001-0000-000000001006",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Bạn An và bạn Wan là bạn bè.",
+    "expectedAnswer": "アンさんとワンさんは友達です。",
+    "acceptableAnswers": [
+      "アンさんとワンさんはともだちです。"
+    ],
+    "hint": "Danh từ 1 + と + Danh từ 2",
+    "explanation": "Chỉ dùng để nối danh từ.",
+    "orderIndex": 5
+  },
+  {
+    "id": "77777777-1113-0003-0000-000000135002",
+    "patternId": "77777777-1113-0001-0000-000000001006",
+    "exerciseType": "arrange",
+    "prompt": "Bạn An và bạn Wan là bạn bè.",
+    "expectedAnswer": "アンさんとワンさんは友達 (ともだち)です",
+    "optionsJson": "[\"と\",\"は\",\"です\",\"アンさん\",\"ワンさん\",\"友達 (ともだち)\"]",
+    "options": [
+      "と",
+      "は",
+      "です",
+      "アンさん",
+      "ワンさん",
+      "友達 (ともだち)"
+    ],
+    "correctOrderJson": "[\"アンさん\",\"と\",\"ワンさん\",\"は\",\"友達 (ともだち)\",\"です\"]",
+    "correctOrder": [
+      "アンさん",
+      "と",
+      "ワンさん",
+      "は",
+      "友達 (ともだち)",
+      "です"
+    ],
+    "orderIndex": 6
+  },
+  {
+    "id": "77777777-1113-0003-0000-000000115003",
+    "patternId": "77777777-1113-0001-0000-000000001006",
+    "exerciseType": "ja_to_vi",
+    "prompt": "机の上に本と雑誌があります。",
+    "promptReading": "つくえのうえにほんとざっしがあります。",
+    "expectedAnswer": "Trên bàn có sách và tạp chí.",
+    "hint": "N1 と N2",
+    "explanation": "Chỉ dùng để nối danh từ.",
+    "orderIndex": 7
+  },
+  {
+    "id": "77777777-1113-0003-0000-000000125003",
+    "patternId": "77777777-1113-0001-0000-000000001006",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Trên bàn có sách và tạp chí.",
+    "expectedAnswer": "机の上に本と雑誌があります。",
+    "acceptableAnswers": [
+      "つくえのうえにほんとざっしがあります。"
+    ],
+    "hint": "Danh từ 1 + と + Danh từ 2",
+    "explanation": "Chỉ dùng để nối danh từ.",
+    "orderIndex": 8
+  },
+  {
+    "id": "77777777-1113-0003-0000-000000135003",
+    "patternId": "77777777-1113-0001-0000-000000001006",
+    "exerciseType": "arrange",
+    "prompt": "Trên bàn có sách và tạp chí.",
+    "expectedAnswer": "机 (つくえ)の上 (うえ)に本 (ほん)と雑誌 (ざっし)があります",
+    "optionsJson": "[\"が\",\"と\",\"に\",\"の\",\"上 (うえ)\",\"あります\",\"本 (ほん)\",\"机 (つくえ)\",\"雑誌 (ざっし)\"]",
+    "options": [
+      "が",
+      "と",
+      "に",
+      "の",
+      "上 (うえ)",
+      "あります",
+      "本 (ほん)",
+      "机 (つくえ)",
+      "雑誌 (ざっし)"
+    ],
+    "correctOrderJson": "[\"机 (つくえ)\",\"の\",\"上 (うえ)\",\"に\",\"本 (ほん)\",\"と\",\"雑誌 (ざっし)\",\"が\",\"あります\"]",
+    "correctOrder": [
+      "机 (つくえ)",
+      "の",
+      "上 (うえ)",
+      "に",
+      "本 (ほん)",
+      "と",
+      "雑誌 (ざっし)",
+      "が",
+      "あります"
+    ],
+    "orderIndex": 9
+  },
+  {
+    "id": "77777777-1113-0003-0000-000000115004",
+    "patternId": "77777777-1113-0001-0000-000000001006",
+    "exerciseType": "ja_to_vi",
+    "prompt": "朝ごはんはパンと卵です。",
+    "promptReading": "あさごはんはパンとたまごです。",
+    "expectedAnswer": "Bữa sáng là bánh mì và trứng.",
+    "hint": "N1 と N2",
+    "explanation": "Chỉ dùng để nối danh từ.",
+    "orderIndex": 10
+  },
+  {
+    "id": "77777777-1113-0003-0000-000000125004",
+    "patternId": "77777777-1113-0001-0000-000000001006",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Bữa sáng là bánh mì và trứng.",
+    "expectedAnswer": "朝ごはんはパンと卵です。",
+    "acceptableAnswers": [
+      "あさごはんはパンとたまごです。"
+    ],
+    "hint": "Danh từ 1 + と + Danh từ 2",
+    "explanation": "Chỉ dùng để nối danh từ.",
+    "orderIndex": 11
+  },
+  {
+    "id": "77777777-1113-0003-0000-000000135004",
+    "patternId": "77777777-1113-0001-0000-000000001006",
+    "exerciseType": "arrange",
+    "prompt": "Bữa sáng là bánh mì và trứng.",
+    "expectedAnswer": "朝ご (あさご)はんはパンと卵 (たまご)です",
+    "optionsJson": "[\"と\",\"は\",\"は\",\"ん\",\"です\",\"パン\",\"卵 (たまご)\",\"朝ご (あさご)\"]",
+    "options": [
+      "と",
+      "は",
+      "は",
+      "ん",
+      "です",
+      "パン",
+      "卵 (たまご)",
+      "朝ご (あさご)"
+    ],
+    "correctOrderJson": "[\"朝ご (あさご)\",\"は\",\"ん\",\"は\",\"パン\",\"と\",\"卵 (たまご)\",\"です\"]",
+    "correctOrder": [
+      "朝ご (あさご)",
+      "は",
+      "ん",
+      "は",
+      "パン",
+      "と",
+      "卵 (たまご)",
+      "です"
+    ],
+    "orderIndex": 12
+  },
+  {
+    "id": "77777777-1113-0003-0000-000000115005",
+    "patternId": "77777777-1113-0001-0000-000000001006",
+    "exerciseType": "ja_to_vi",
+    "prompt": "お土産は時計とカメラです。",
+    "promptReading": "おみやげはとけいとかめらです。",
+    "expectedAnswer": "Quà lưu niệm là đồng hồ và máy ảnh.",
+    "hint": "N1 と N2",
+    "explanation": "Chỉ dùng để nối danh từ.",
+    "orderIndex": 13
+  },
+  {
+    "id": "77777777-1113-0003-0000-000000125005",
+    "patternId": "77777777-1113-0001-0000-000000001006",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Quà lưu niệm là đồng hồ và máy ảnh.",
+    "expectedAnswer": "お土産は時計とカメラです。",
+    "acceptableAnswers": [
+      "おみやげはとけいとかめらです。"
+    ],
+    "hint": "Danh từ 1 + と + Danh từ 2",
+    "explanation": "Chỉ dùng để nối danh từ.",
+    "orderIndex": 14
+  },
+  {
+    "id": "77777777-1113-0003-0000-000000135005",
+    "patternId": "77777777-1113-0001-0000-000000001006",
+    "exerciseType": "arrange",
+    "prompt": "Quà lưu niệm là đồng hồ và máy ảnh.",
+    "expectedAnswer": "お土産 (おみやげ)は時計とカメラです",
+    "optionsJson": "[\"と\",\"は\",\"です\",\"カメラ\",\"時計\",\"お土産 (おみやげ)\"]",
+    "options": [
+      "と",
+      "は",
+      "です",
+      "カメラ",
+      "時計",
+      "お土産 (おみやげ)"
+    ],
+    "correctOrderJson": "[\"お土産 (おみやげ)\",\"は\",\"時計\",\"と\",\"カメラ\",\"です\"]",
+    "correctOrder": [
+      "お土産 (おみやげ)",
+      "は",
+      "時計",
+      "と",
+      "カメラ",
+      "です"
+    ],
+    "orderIndex": 15
+  }
+]

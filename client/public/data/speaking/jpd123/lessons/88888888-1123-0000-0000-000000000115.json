@@ -1,0 +1,165 @@
+{
+  "lesson": {
+    "id": "88888888-1123-0000-0000-000000000115",
+    "courseCode": "jpd123",
+    "lessonNumber": 15,
+    "title": "いちばん ほしい 物",
+    "description": "Điều ước - Nhiều người chia sẻ điều mình muốn có nhất.",
+    "accessTier": "premium",
+    "packageCode": "speaking_jpd123",
+    "isLocked": true,
+    "sentenceCount": 15
+  },
+  "sentences": [
+    {
+      "id": "88888888-1123-0000-0000-000000015001",
+      "lessonId": "88888888-1123-0000-0000-000000000115",
+      "sentenceNumber": 1,
+      "plainText": "いろいろな人にいちばんほしい物を聞きました。",
+      "romaji": "iroirona hito ni ichiban hoshii mono wo kikimashita.",
+      "contentHtml": "いろいろな <ruby>人<rt>ひと</rt></ruby> に いちばん ほしい <ruby>物<rt>もの</rt></ruby> を <ruby>聞<rt>き</rt></ruby>きました。",
+      "meaningVi": "Tôi đã hỏi nhiều người về món đồ hay điều họ muốn có nhất.",
+      "orderIndex": 1
+    },
+    {
+      "id": "88888888-1123-0000-0000-000000015002",
+      "lessonId": "88888888-1123-0000-0000-000000000115",
+      "sentenceNumber": 2,
+      "plainText": "①「時間」です。",
+      "romaji": "1\"jikan\"desu.",
+      "contentHtml": "①「<ruby>時間<rt>じかん</rt></ruby>」です。",
+      "meaningVi": "1. “Thời gian.”",
+      "orderIndex": 2
+    },
+    {
+      "id": "88888888-1123-0000-0000-000000015003",
+      "lessonId": "88888888-1123-0000-0000-000000000115",
+      "sentenceNumber": 3,
+      "plainText": "会社へ行って、はたらいて、うちへ帰ったら、1日がおわります。",
+      "romaji": "kaisha e itte,hataraite,uchi e kaettara,ichinichi ga owarimasu.",
+      "contentHtml": "<ruby>会社<rt>かいしゃ</rt></ruby> へ <ruby>行<rt>い</rt></ruby>って、はたらいて、うちへ <ruby>帰<rt>かえ</rt></ruby>ったら、<ruby>1日<rt>いちにち</rt></ruby> が おわります。",
+      "meaningVi": "Tôi đi làm ở công ty, làm việc rồi về nhà là một ngày kết thúc.",
+      "orderIndex": 3
+    },
+    {
+      "id": "88888888-1123-0000-0000-000000015004",
+      "lessonId": "88888888-1123-0000-0000-000000000115",
+      "sentenceNumber": 4,
+      "plainText": "1日がみじかいです。",
+      "romaji": "ichinichi ga mijikaidesu.",
+      "contentHtml": "<ruby>1日<rt>いちにち</rt></ruby> が みじかいです。",
+      "meaningVi": "Một ngày quá ngắn.",
+      "orderIndex": 4
+    },
+    {
+      "id": "88888888-1123-0000-0000-000000015005",
+      "lessonId": "88888888-1123-0000-0000-000000000115",
+      "sentenceNumber": 5,
+      "plainText": "1日36時間ぐらいほしいです。",
+      "romaji": "ichinichi sanjuurokujikan gurai hoshiidesu.",
+      "contentHtml": "<ruby>1日<rt>いちにち</rt></ruby> <ruby>36時間<rt>さんじゅうろくじかん</rt></ruby> ぐらい ほしいです。",
+      "meaningVi": "Tôi muốn một ngày dài khoảng 36 tiếng.",
+      "orderIndex": 5
+    },
+    {
+      "id": "88888888-1123-0000-0000-000000015006",
+      "lessonId": "88888888-1123-0000-0000-000000000115",
+      "sentenceNumber": 6,
+      "plainText": "②「ぼくのぎんこう」がほしいです。",
+      "romaji": "2\"bokuno ginkou\"ga hoshiidesu.",
+      "contentHtml": "②「ぼくの ぎんこう」が ほしいです。",
+      "meaningVi": "2. “Tôi muốn có ngân hàng của riêng mình.”",
+      "orderIndex": 6
+    },
+    {
+      "id": "88888888-1123-0000-0000-000000015007",
+      "lessonId": "88888888-1123-0000-0000-000000000115",
+      "sentenceNumber": 7,
+      "plainText": "ぎんこうをもっていたら、すきなとき、お金をおろして、すきな物を買うことができます。",
+      "romaji": "ginkou wo motteitara,sukina toki,okane wo oroshite,sukina mono wo kau kotoga dekimasu.",
+      "contentHtml": "ぎんこうを もっていたら、すきな とき、<ruby>お金<rt>おかね</rt></ruby> を おろして、すきな <ruby>物<rt>もの</rt></ruby> を <ruby>買<rt>か</rt></ruby>う ことが できます。",
+      "meaningVi": "Nếu có ngân hàng riêng thì lúc nào cũng có thể rút tiền và mua thứ mình thích.",
+      "orderIndex": 7
+    },
+    {
+      "id": "88888888-1123-0000-0000-000000015008",
+      "lessonId": "88888888-1123-0000-0000-000000000115",
+      "sentenceNumber": 8,
+      "plainText": "③「わかくなるくすり」です。",
+      "romaji": "3\"wakakunaru kusuri\"desu.",
+      "contentHtml": "③「わかくなる くすり」です。",
+      "meaningVi": "3. “Thuốc giúp trẻ lại.”",
+      "orderIndex": 8
+    },
+    {
+      "id": "88888888-1123-0000-0000-000000015009",
+      "lessonId": "88888888-1123-0000-0000-000000000115",
+      "sentenceNumber": 9,
+      "plainText": "私はわかいとき、あまりべんきょうしませんでした。",
+      "romaji": "watashi wa wakai toki,amari benkyoushimasendeshita.",
+      "contentHtml": "<ruby>私<rt>わたし</rt></ruby> は わかい とき、あまり べんきょうしませんでした。",
+      "meaningVi": "Khi còn trẻ tôi đã không học nhiều.",
+      "orderIndex": 9
+    },
+    {
+      "id": "88888888-1123-0000-0000-000000015010",
+      "lessonId": "88888888-1123-0000-0000-000000000115",
+      "sentenceNumber": 10,
+      "plainText": "もういちどわかくなったら、べんきょうして、いいしごとをしたいです。",
+      "romaji": "mou ichido wakaku nattara,benkyoushite,ii shigoto wo shitaidesu.",
+      "contentHtml": "もう いちど わかく なったら、べんきょうして、いい しごとを したいです。",
+      "meaningVi": "Nếu được trẻ lại một lần nữa, tôi muốn học hành và làm một công việc tốt.",
+      "orderIndex": 10
+    },
+    {
+      "id": "88888888-1123-0000-0000-000000015011",
+      "lessonId": "88888888-1123-0000-0000-000000000115",
+      "sentenceNumber": 11,
+      "plainText": "④「ユーモア」がほしいです。",
+      "romaji": "4\"yu-moa\"ga hoshiidesu.",
+      "contentHtml": "④「ユーモア」が ほしいです。",
+      "meaningVi": "4. “Tôi muốn có khiếu hài hước.”",
+      "orderIndex": 11
+    },
+    {
+      "id": "88888888-1123-0000-0000-000000015012",
+      "lessonId": "88888888-1123-0000-0000-000000000115",
+      "sentenceNumber": 12,
+      "plainText": "私が話をすると、つまはすぐ「あしたもいそがしいでしょう。はやく寝てください。」と言います。",
+      "romaji": "watashi ga hanashi wo suruto,tsuma wa sugu\"ashitamo isogashiideshou. hayaku nete kudasai.\"to iimasu.",
+      "contentHtml": "<ruby>私<rt>わたし</rt></ruby> が <ruby>話<rt>はなし</rt></ruby> を すると、つまは すぐ「あしたも いそがしいでしょう。 はやく <ruby>寝<rt>ね</rt></ruby>て ください。」と <ruby>言<rt>い</rt></ruby>います。",
+      "meaningVi": "Khi tôi nói chuyện, vợ tôi liền bảo: “Ngày mai anh còn bận mà, ngủ sớm đi.”",
+      "orderIndex": 12
+    },
+    {
+      "id": "88888888-1123-0000-0000-000000015013",
+      "lessonId": "88888888-1123-0000-0000-000000000115",
+      "sentenceNumber": 13,
+      "plainText": "子どもは「お父さん、もう3回ぐらい聞いたよ。」と言います。",
+      "romaji": "kodomo wa\"otousan,mou sankai gurai kiitayo.\"to iimasu.",
+      "contentHtml": "<ruby>子<rt>こ</rt></ruby>どもは「お<ruby>父<rt>とう</rt></ruby>さん、もう <ruby>3回<rt>さんかい</rt></ruby> ぐらい <ruby>聞<rt>き</rt></ruby>いたよ。」と <ruby>言<rt>い</rt></ruby>います。",
+      "meaningVi": "Bọn trẻ thì nói: “Bố ơi, chuyện đó con nghe khoảng 3 lần rồi.”",
+      "orderIndex": 13
+    },
+    {
+      "id": "88888888-1123-0000-0000-000000015014",
+      "lessonId": "88888888-1123-0000-0000-000000000115",
+      "sentenceNumber": 14,
+      "plainText": "私はおもしろい人になりたいです。",
+      "romaji": "watashi wa omoshiroi hito ni naritaidesu.",
+      "contentHtml": "<ruby>私<rt>わたし</rt></ruby> は おもしろい <ruby>人<rt>ひと</rt></ruby> に なりたいです。",
+      "meaningVi": "Tôi muốn trở thành một người thú vị.",
+      "orderIndex": 14
+    },
+    {
+      "id": "88888888-1123-0000-0000-000000015015",
+      "lessonId": "88888888-1123-0000-0000-000000000115",
+      "sentenceNumber": 15,
+      "plainText": "(男の人、43才)",
+      "romaji": "(otoko no hito,yonjuusansai)",
+      "contentHtml": "(<ruby>男<rt>おとこ</rt></ruby> の <ruby>人<rt>ひと</rt></ruby>、<ruby>43才<rt>よんじゅうさんさい</rt></ruby>)",
+      "meaningVi": "(Nam, 43 tuổi)",
+      "orderIndex": 15
+    }
+  ]
+}

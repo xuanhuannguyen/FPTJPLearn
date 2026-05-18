@@ -1,0 +1,246 @@
+[
+  {
+    "id": "77777777-1123-0003-0000-000000416001",
+    "patternId": "77777777-1123-0001-0000-000000004007",
+    "exerciseType": "ja_to_vi",
+    "prompt": "ハノイに山がありますか。",
+    "promptReading": "ハノイにやまがありますか。",
+    "expectedAnswer": "Ở Hà Nội có núi không?",
+    "hint": "N1 に N2 が あります。",
+    "explanation": "あります dùng cho vật không tự di chuyển được.",
+    "orderIndex": 1
+  },
+  {
+    "id": "77777777-1123-0003-0000-000000426001",
+    "patternId": "77777777-1123-0001-0000-000000004007",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Ở Hà Nội có núi không?",
+    "expectedAnswer": "ハノイに山がありますか。",
+    "acceptableAnswers": [
+      "ハノイにやまがありますか。"
+    ],
+    "hint": "N địa điểm + に + N vật + が + あります",
+    "explanation": "あります dùng cho vật không tự di chuyển được.",
+    "orderIndex": 2
+  },
+  {
+    "id": "77777777-1123-0003-0000-000000436001",
+    "patternId": "77777777-1123-0001-0000-000000004007",
+    "exerciseType": "arrange",
+    "prompt": "Ở Hà Nội có núi không?",
+    "expectedAnswer": "ハノイに山 (やま)がありますか",
+    "optionsJson": "[\"が\",\"に\",\"ハノイ\",\"山 (やま)\",\"ありますか\"]",
+    "options": [
+      "が",
+      "に",
+      "ハノイ",
+      "山 (やま)",
+      "ありますか"
+    ],
+    "correctOrderJson": "[\"ハノイ\",\"に\",\"山 (やま)\",\"が\",\"ありますか\"]",
+    "correctOrder": [
+      "ハノイ",
+      "に",
+      "山 (やま)",
+      "が",
+      "ありますか"
+    ],
+    "orderIndex": 3
+  },
+  {
+    "id": "77777777-1123-0003-0000-000000416002",
+    "patternId": "77777777-1123-0001-0000-000000004007",
+    "exerciseType": "ja_to_vi",
+    "prompt": "机の上に本があります。",
+    "promptReading": "つくえのうえにほんがあります。",
+    "expectedAnswer": "Có quyển sách ở trên bàn.",
+    "hint": "N1 に N2 が あります。",
+    "explanation": "あります dùng cho vật không tự di chuyển được.",
+    "orderIndex": 4
+  },
+  {
+    "id": "77777777-1123-0003-0000-000000426002",
+    "patternId": "77777777-1123-0001-0000-000000004007",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Có quyển sách ở trên bàn.",
+    "expectedAnswer": "机の上に本があります。",
+    "acceptableAnswers": [
+      "つくえのうえにほんがあります。"
+    ],
+    "hint": "N địa điểm + に + N vật + が + あります",
+    "explanation": "あります dùng cho vật không tự di chuyển được.",
+    "orderIndex": 5
+  },
+  {
+    "id": "77777777-1123-0003-0000-000000436002",
+    "patternId": "77777777-1123-0001-0000-000000004007",
+    "exerciseType": "arrange",
+    "prompt": "Có quyển sách ở trên bàn.",
+    "expectedAnswer": "机 (つくえ)の上 (うえ)に本 (ほん)があります",
+    "optionsJson": "[\"が\",\"に\",\"の\",\"上 (うえ)\",\"あります\",\"本 (ほん)\",\"机 (つくえ)\"]",
+    "options": [
+      "が",
+      "に",
+      "の",
+      "上 (うえ)",
+      "あります",
+      "本 (ほん)",
+      "机 (つくえ)"
+    ],
+    "correctOrderJson": "[\"机 (つくえ)\",\"の\",\"上 (うえ)\",\"に\",\"本 (ほん)\",\"が\",\"あります\"]",
+    "correctOrder": [
+      "机 (つくえ)",
+      "の",
+      "上 (うえ)",
+      "に",
+      "本 (ほん)",
+      "が",
+      "あります"
+    ],
+    "orderIndex": 6
+  },
+  {
+    "id": "77777777-1123-0003-0000-000000416003",
+    "patternId": "77777777-1123-0001-0000-000000004007",
+    "exerciseType": "ja_to_vi",
+    "prompt": "教室にテレビがあります。",
+    "promptReading": "きょうしつにテレビがあります。",
+    "expectedAnswer": "Trong lớp học có tivi.",
+    "hint": "N1 に N2 が あります。",
+    "explanation": "あります dùng cho vật không tự di chuyển được.",
+    "orderIndex": 7
+  },
+  {
+    "id": "77777777-1123-0003-0000-000000426003",
+    "patternId": "77777777-1123-0001-0000-000000004007",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Trong lớp học có tivi.",
+    "expectedAnswer": "教室にテレビがあります。",
+    "acceptableAnswers": [
+      "きょうしつにテレビがあります。"
+    ],
+    "hint": "N địa điểm + に + N vật + が + あります",
+    "explanation": "あります dùng cho vật không tự di chuyển được.",
+    "orderIndex": 8
+  },
+  {
+    "id": "77777777-1123-0003-0000-000000436003",
+    "patternId": "77777777-1123-0001-0000-000000004007",
+    "exerciseType": "arrange",
+    "prompt": "Trong lớp học có tivi.",
+    "expectedAnswer": "教室 (きょうしつ)にテレビがあります",
+    "optionsJson": "[\"が\",\"に\",\"テレビ\",\"あります\",\"教室 (きょうしつ)\"]",
+    "options": [
+      "が",
+      "に",
+      "テレビ",
+      "あります",
+      "教室 (きょうしつ)"
+    ],
+    "correctOrderJson": "[\"教室 (きょうしつ)\",\"に\",\"テレビ\",\"が\",\"あります\"]",
+    "correctOrder": [
+      "教室 (きょうしつ)",
+      "に",
+      "テレビ",
+      "が",
+      "あります"
+    ],
+    "orderIndex": 9
+  },
+  {
+    "id": "77777777-1123-0003-0000-000000416004",
+    "patternId": "77777777-1123-0001-0000-000000004007",
+    "exerciseType": "ja_to_vi",
+    "prompt": "公園に大きな木があります。",
+    "promptReading": "こうえんにおおきなきがあります。",
+    "expectedAnswer": "Trong công viên có cái cây lớn.",
+    "hint": "N1 に N2 が あります。",
+    "explanation": "あります dùng cho vật không tự di chuyển được.",
+    "orderIndex": 10
+  },
+  {
+    "id": "77777777-1123-0003-0000-000000426004",
+    "patternId": "77777777-1123-0001-0000-000000004007",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Trong công viên có cái cây lớn.",
+    "expectedAnswer": "公園に大きな木があります。",
+    "acceptableAnswers": [
+      "こうえんにおおきなきがあります。"
+    ],
+    "hint": "N địa điểm + に + N vật + が + あります",
+    "explanation": "あります dùng cho vật không tự di chuyển được.",
+    "orderIndex": 11
+  },
+  {
+    "id": "77777777-1123-0003-0000-000000436004",
+    "patternId": "77777777-1123-0001-0000-000000004007",
+    "exerciseType": "arrange",
+    "prompt": "Trong công viên có cái cây lớn.",
+    "expectedAnswer": "公園 (こうえん)に大きな木 (おおきなき)があります",
+    "optionsJson": "[\"が\",\"に\",\"あります\",\"公園 (こうえん)\",\"大きな木 (おおきなき)\"]",
+    "options": [
+      "が",
+      "に",
+      "あります",
+      "公園 (こうえん)",
+      "大きな木 (おおきなき)"
+    ],
+    "correctOrderJson": "[\"公園 (こうえん)\",\"に\",\"大きな木 (おおきなき)\",\"が\",\"あります\"]",
+    "correctOrder": [
+      "公園 (こうえん)",
+      "に",
+      "大きな木 (おおきなき)",
+      "が",
+      "あります"
+    ],
+    "orderIndex": 12
+  },
+  {
+    "id": "77777777-1123-0003-0000-000000416005",
+    "patternId": "77777777-1123-0001-0000-000000004007",
+    "exerciseType": "ja_to_vi",
+    "prompt": "地下に駐車場があります。",
+    "promptReading": "ちかにちゅうしゃじょうがあります。",
+    "expectedAnswer": "Dưới hầm có bãi đỗ xe.",
+    "hint": "N1 に N2 が あります。",
+    "explanation": "あります dùng cho vật không tự di chuyển được.",
+    "orderIndex": 13
+  },
+  {
+    "id": "77777777-1123-0003-0000-000000426005",
+    "patternId": "77777777-1123-0001-0000-000000004007",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Dưới hầm có bãi đỗ xe.",
+    "expectedAnswer": "地下に駐車場があります。",
+    "acceptableAnswers": [
+      "ちかにちゅうしゃじょうがあります。"
+    ],
+    "hint": "N địa điểm + に + N vật + が + あります",
+    "explanation": "あります dùng cho vật không tự di chuyển được.",
+    "orderIndex": 14
+  },
+  {
+    "id": "77777777-1123-0003-0000-000000436005",
+    "patternId": "77777777-1123-0001-0000-000000004007",
+    "exerciseType": "arrange",
+    "prompt": "Dưới hầm có bãi đỗ xe.",
+    "expectedAnswer": "地下 (ちか)に駐車場 (ちゅうしゃじょう)があります",
+    "optionsJson": "[\"が\",\"に\",\"あります\",\"地下 (ちか)\",\"駐車場 (ちゅうしゃじょう)\"]",
+    "options": [
+      "が",
+      "に",
+      "あります",
+      "地下 (ちか)",
+      "駐車場 (ちゅうしゃじょう)"
+    ],
+    "correctOrderJson": "[\"地下 (ちか)\",\"に\",\"駐車場 (ちゅうしゃじょう)\",\"が\",\"あります\"]",
+    "correctOrder": [
+      "地下 (ちか)",
+      "に",
+      "駐車場 (ちゅうしゃじょう)",
+      "が",
+      "あります"
+    ],
+    "orderIndex": 15
+  }
+]

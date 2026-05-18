@@ -1,0 +1,240 @@
+[
+  {
+    "id": "77777777-1123-0003-0000-000000412001",
+    "patternId": "77777777-1123-0001-0000-000000004003",
+    "exerciseType": "ja_to_vi",
+    "prompt": "佐藤先生は有名です。",
+    "promptReading": "さとうせんせいはゆうめいです。",
+    "expectedAnswer": "Thầy Sato nổi tiếng.",
+    "hint": "N は Aな です。",
+    "explanation": "Cần lưu ý các từ như きれい, ゆうめい là tính từ đuôi な.",
+    "orderIndex": 1
+  },
+  {
+    "id": "77777777-1123-0003-0000-000000422001",
+    "patternId": "77777777-1123-0001-0000-000000004003",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Thầy Sato nổi tiếng.",
+    "expectedAnswer": "佐藤先生は有名です。",
+    "acceptableAnswers": [
+      "さとうせんせいはゆうめいです。"
+    ],
+    "hint": "Danh từ + は + Tính từ đuôi な (không có な) + です",
+    "explanation": "Cần lưu ý các từ như きれい, ゆうめい là tính từ đuôi な.",
+    "orderIndex": 2
+  },
+  {
+    "id": "77777777-1123-0003-0000-000000432001",
+    "patternId": "77777777-1123-0001-0000-000000004003",
+    "exerciseType": "arrange",
+    "prompt": "Thầy Sato nổi tiếng.",
+    "expectedAnswer": "佐藤先生 (さとうせんせい)は有名 (ゆうめい)です",
+    "optionsJson": "[\"は\",\"です\",\"有名 (ゆうめい)\",\"佐藤先生 (さとうせんせい)\"]",
+    "options": [
+      "は",
+      "です",
+      "有名 (ゆうめい)",
+      "佐藤先生 (さとうせんせい)"
+    ],
+    "correctOrderJson": "[\"佐藤先生 (さとうせんせい)\",\"は\",\"有名 (ゆうめい)\",\"です\"]",
+    "correctOrder": [
+      "佐藤先生 (さとうせんせい)",
+      "は",
+      "有名 (ゆうめい)",
+      "です"
+    ],
+    "orderIndex": 3
+  },
+  {
+    "id": "77777777-1123-0003-0000-000000412002",
+    "patternId": "77777777-1123-0001-0000-000000004003",
+    "exerciseType": "ja_to_vi",
+    "prompt": "この公園は静かです。",
+    "promptReading": "このこうえんはしずかです。",
+    "expectedAnswer": "Công viên này yên tĩnh.",
+    "hint": "N は Aな です。",
+    "explanation": "Cần lưu ý các từ như きれい, ゆうめい là tính từ đuôi な.",
+    "orderIndex": 4
+  },
+  {
+    "id": "77777777-1123-0003-0000-000000422002",
+    "patternId": "77777777-1123-0001-0000-000000004003",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Công viên này yên tĩnh.",
+    "expectedAnswer": "この公園は静かです。",
+    "acceptableAnswers": [
+      "このこうえんはしずかです。"
+    ],
+    "hint": "Danh từ + は + Tính từ đuôi な (không có な) + です",
+    "explanation": "Cần lưu ý các từ như きれい, ゆうめい là tính từ đuôi な.",
+    "orderIndex": 5
+  },
+  {
+    "id": "77777777-1123-0003-0000-000000432002",
+    "patternId": "77777777-1123-0001-0000-000000004003",
+    "exerciseType": "arrange",
+    "prompt": "Công viên này yên tĩnh.",
+    "expectedAnswer": "この公園 (こうえん)は静か (しずか)です",
+    "optionsJson": "[\"こ\",\"の\",\"は\",\"です\",\"静か (しずか)\",\"公園 (こうえん)\"]",
+    "options": [
+      "こ",
+      "の",
+      "は",
+      "です",
+      "静か (しずか)",
+      "公園 (こうえん)"
+    ],
+    "correctOrderJson": "[\"こ\",\"の\",\"公園 (こうえん)\",\"は\",\"静か (しずか)\",\"です\"]",
+    "correctOrder": [
+      "こ",
+      "の",
+      "公園 (こうえん)",
+      "は",
+      "静か (しずか)",
+      "です"
+    ],
+    "orderIndex": 6
+  },
+  {
+    "id": "77777777-1123-0003-0000-000000412003",
+    "patternId": "77777777-1123-0001-0000-000000004003",
+    "exerciseType": "ja_to_vi",
+    "prompt": "この部屋はきれいです。",
+    "promptReading": "このへやはきれいです。",
+    "expectedAnswer": "Căn phòng này sạch đẹp.",
+    "hint": "N は Aな です。",
+    "explanation": "Cần lưu ý các từ như きれい, ゆうめい là tính từ đuôi な.",
+    "orderIndex": 7
+  },
+  {
+    "id": "77777777-1123-0003-0000-000000422003",
+    "patternId": "77777777-1123-0001-0000-000000004003",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Căn phòng này sạch đẹp.",
+    "expectedAnswer": "この部屋はきれいです。",
+    "acceptableAnswers": [
+      "このへやはきれいです。"
+    ],
+    "hint": "Danh từ + は + Tính từ đuôi な (không có な) + です",
+    "explanation": "Cần lưu ý các từ như きれい, ゆうめい là tính từ đuôi な.",
+    "orderIndex": 8
+  },
+  {
+    "id": "77777777-1123-0003-0000-000000432003",
+    "patternId": "77777777-1123-0001-0000-000000004003",
+    "exerciseType": "arrange",
+    "prompt": "Căn phòng này sạch đẹp.",
+    "expectedAnswer": "この部屋 (へや)はきれいです",
+    "optionsJson": "[\"こ\",\"の\",\"は\",\"です\",\"きれい\",\"部屋 (へや)\"]",
+    "options": [
+      "こ",
+      "の",
+      "は",
+      "です",
+      "きれい",
+      "部屋 (へや)"
+    ],
+    "correctOrderJson": "[\"こ\",\"の\",\"部屋 (へや)\",\"は\",\"きれい\",\"です\"]",
+    "correctOrder": [
+      "こ",
+      "の",
+      "部屋 (へや)",
+      "は",
+      "きれい",
+      "です"
+    ],
+    "orderIndex": 9
+  },
+  {
+    "id": "77777777-1123-0003-0000-000000412004",
+    "patternId": "77777777-1123-0001-0000-000000004003",
+    "exerciseType": "ja_to_vi",
+    "prompt": "ハノイは賑やかです。",
+    "promptReading": "ハノイはにぎやかです。",
+    "expectedAnswer": "Hà Nội thì nhộn nhịp.",
+    "hint": "N は Aな です。",
+    "explanation": "Cần lưu ý các từ như きれい, ゆうめい là tính từ đuôi な.",
+    "orderIndex": 10
+  },
+  {
+    "id": "77777777-1123-0003-0000-000000422004",
+    "patternId": "77777777-1123-0001-0000-000000004003",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Hà Nội thì nhộn nhịp.",
+    "expectedAnswer": "ハノイは賑やかです。",
+    "acceptableAnswers": [
+      "ハノイはにぎやかです。"
+    ],
+    "hint": "Danh từ + は + Tính từ đuôi な (không có な) + です",
+    "explanation": "Cần lưu ý các từ như きれい, ゆうめい là tính từ đuôi な.",
+    "orderIndex": 11
+  },
+  {
+    "id": "77777777-1123-0003-0000-000000432004",
+    "patternId": "77777777-1123-0001-0000-000000004003",
+    "exerciseType": "arrange",
+    "prompt": "Hà Nội thì nhộn nhịp.",
+    "expectedAnswer": "ハノイは賑やか (にぎやか)です",
+    "optionsJson": "[\"は\",\"です\",\"ハノイ\",\"賑やか (にぎやか)\"]",
+    "options": [
+      "は",
+      "です",
+      "ハノイ",
+      "賑やか (にぎやか)"
+    ],
+    "correctOrderJson": "[\"ハノイ\",\"は\",\"賑やか (にぎやか)\",\"です\"]",
+    "correctOrder": [
+      "ハノイ",
+      "は",
+      "賑やか (にぎやか)",
+      "です"
+    ],
+    "orderIndex": 12
+  },
+  {
+    "id": "77777777-1123-0003-0000-000000412005",
+    "patternId": "77777777-1123-0001-0000-000000004003",
+    "exerciseType": "ja_to_vi",
+    "prompt": "彼は親切です。",
+    "promptReading": "かれはしんせつです。",
+    "expectedAnswer": "Anh ấy rất tốt bụng.",
+    "hint": "N は Aな です。",
+    "explanation": "Cần lưu ý các từ như きれい, ゆうめい là tính từ đuôi な.",
+    "orderIndex": 13
+  },
+  {
+    "id": "77777777-1123-0003-0000-000000422005",
+    "patternId": "77777777-1123-0001-0000-000000004003",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Anh ấy rất tốt bụng.",
+    "expectedAnswer": "彼は親切です。",
+    "acceptableAnswers": [
+      "かれはしんせつです。"
+    ],
+    "hint": "Danh từ + は + Tính từ đuôi な (không có な) + です",
+    "explanation": "Cần lưu ý các từ như きれい, ゆうめい là tính từ đuôi な.",
+    "orderIndex": 14
+  },
+  {
+    "id": "77777777-1123-0003-0000-000000432005",
+    "patternId": "77777777-1123-0001-0000-000000004003",
+    "exerciseType": "arrange",
+    "prompt": "Anh ấy rất tốt bụng.",
+    "expectedAnswer": "彼 (かれ)は親切 (しんせつ)です",
+    "optionsJson": "[\"は\",\"です\",\"彼 (かれ)\",\"親切 (しんせつ)\"]",
+    "options": [
+      "は",
+      "です",
+      "彼 (かれ)",
+      "親切 (しんせつ)"
+    ],
+    "correctOrderJson": "[\"彼 (かれ)\",\"は\",\"親切 (しんせつ)\",\"です\"]",
+    "correctOrder": [
+      "彼 (かれ)",
+      "は",
+      "親切 (しんせつ)",
+      "です"
+    ],
+    "orderIndex": 15
+  }
+]

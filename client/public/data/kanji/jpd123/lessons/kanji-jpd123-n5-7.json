@@ -1,0 +1,338 @@
+{
+  "lesson": {
+    "id": "kanji-jpd123-n5-7",
+    "level": "N5",
+    "lessonNumber": 7,
+    "title": "Tự nhiên và Cơ bản",
+    "description": "Tự nhiên và Cơ bản - JPD123 Kanji N5.",
+    "accessTier": "premium",
+    "packageCode": "kanji_jpd123",
+    "orderIndex": 7,
+    "kanjiCount": 11,
+    "vocabularyCount": 22,
+    "isLocked": true
+  },
+  "kanjiItems": [
+    {
+      "id": "06718312-d179-57e1-846a-4c94b7492c57",
+      "lessonId": "kanji-jpd123-n5-7",
+      "level": "N5",
+      "character": "寺",
+      "hanViet": "TỰ",
+      "meaning": "Chùa",
+      "strokeCount": 6,
+      "kunReading": "てら",
+      "onReading": "ジ",
+      "mnemonic": "Dùng tay (寸) đắp từng tấc đất (土) để xây dựng ngôi chùa (寺).",
+      "orderIndex": 1
+    },
+    {
+      "id": "647be324-4dfe-51af-994b-df33182c6398",
+      "lessonId": "kanji-jpd123-n5-7",
+      "level": "N5",
+      "character": "言",
+      "hanViet": "NGÔN",
+      "meaning": "Nói, ngôn từ",
+      "strokeCount": 7,
+      "kunReading": "い.う、こと",
+      "onReading": "ゴン、ゲン",
+      "mnemonic": "Kẻ cầm đầu (亠) có đến hai (二) cái miệng (口) để thay đổi ngôn từ lắt léo.",
+      "orderIndex": 2
+    },
+    {
+      "id": "15c53e95-a929-5d5a-beb2-b1332ad72428",
+      "lessonId": "kanji-jpd123-n5-7",
+      "level": "N5",
+      "character": "貝",
+      "hanViet": "BỐI",
+      "meaning": "Vỏ sò, tiền tệ",
+      "strokeCount": 7,
+      "kunReading": "かい",
+      "onReading": "バイ",
+      "mnemonic": "Con sò (貝) mở mắt (目) to và thò hai cái chân (ハ) ra ngoài để đi tìm tiền.",
+      "orderIndex": 3
+    },
+    {
+      "id": "9e44fc27-4fc9-5721-96dd-c202def83d6b",
+      "lessonId": "kanji-jpd123-n5-7",
+      "level": "N5",
+      "character": "田",
+      "hanViet": "ĐIỀN",
+      "meaning": "Ruộng",
+      "strokeCount": 5,
+      "kunReading": "た",
+      "onReading": "デン",
+      "mnemonic": "Khu đất (囗) được chia thành hình chữ thập (十) để làm bờ ruộng (田).",
+      "orderIndex": 4
+    },
+    {
+      "id": "9265dce0-4e5e-5a3c-8441-dfe88d5d9cab",
+      "lessonId": "kanji-jpd123-n5-7",
+      "level": "N5",
+      "character": "力",
+      "hanViet": "LỰC",
+      "meaning": "Sức lực",
+      "strokeCount": 2,
+      "kunReading": "ちから",
+      "onReading": "リョク、リキ",
+      "mnemonic": "Chữ này nhìn giống hệt hình ảnh cánh tay đang gồng lên cuộn bắp chuột để khoe sức lực (力).",
+      "orderIndex": 5
+    },
+    {
+      "id": "c6ebc2d7-7d08-5e65-a953-9924c7161f0c",
+      "lessonId": "kanji-jpd123-n5-7",
+      "level": "N5",
+      "character": "門",
+      "hanViet": "MÔN",
+      "meaning": "Cửa, cổng",
+      "strokeCount": 8,
+      "kunReading": "かど",
+      "onReading": "モン",
+      "mnemonic": "Hình ảnh hai cánh cổng (門) lớn đang được mở tung ra hai bên.",
+      "orderIndex": 6
+    },
+    {
+      "id": "465ad202-c37c-571a-985c-69c96c90a421",
+      "lessonId": "kanji-jpd123-n5-7",
+      "level": "N5",
+      "character": "肉",
+      "hanViet": "NHỤC",
+      "meaning": "Thịt",
+      "strokeCount": 6,
+      "kunReading": "",
+      "onReading": "ニク",
+      "mnemonic": "Hai người (人) lén lút trốn vào trong kho lạnh (冂) để lén ăn thịt (肉).",
+      "orderIndex": 7
+    },
+    {
+      "id": "8dc8753c-940a-55fa-8156-1436615d7e72",
+      "lessonId": "kanji-jpd123-n5-7",
+      "level": "N5",
+      "character": "料",
+      "hanViet": "LIỄU",
+      "meaning": "Nguyên liệu, tài liệu, phí",
+      "strokeCount": 10,
+      "kunReading": "",
+      "onReading": "リョウ",
+      "mnemonic": "Dùng cái đấu (斗) để đong lường gạo (米) làm nguyên liệu (料) nấu ăn.",
+      "orderIndex": 8
+    },
+    {
+      "id": "894bb594-19e0-5f35-8ad3-6b11c0de8351",
+      "lessonId": "kanji-jpd123-n5-7",
+      "level": "N5",
+      "character": "理",
+      "hanViet": "LÝ",
+      "meaning": "Lý lẽ, logic, địa lý",
+      "strokeCount": 11,
+      "kunReading": "",
+      "onReading": "リ",
+      "mnemonic": "Vị Vua (王) cai quản các ngôi làng (里) bằng lý (理) lẽ vô cùng công bằng.",
+      "orderIndex": 9
+    },
+    {
+      "id": "01b783d3-c933-5a04-aba8-e7af559397e1",
+      "lessonId": "kanji-jpd123-n5-7",
+      "level": "N5",
+      "character": "野",
+      "hanViet": "DÃ",
+      "meaning": "Cánh đồng, hoang dã",
+      "strokeCount": 11,
+      "kunReading": "の",
+      "onReading": "ヤ",
+      "mnemonic": "Người trong làng (里) đã dự (予) đoán trước được sẽ có thú hoang dã (野) chạy ra cánh đồng.",
+      "orderIndex": 10
+    },
+    {
+      "id": "35ca0197-448d-5a3f-a88c-fb22be675ebf",
+      "lessonId": "kanji-jpd123-n5-7",
+      "level": "N5",
+      "character": "半",
+      "hanViet": "BÁN",
+      "meaning": "Một nửa",
+      "strokeCount": 5,
+      "kunReading": "なか.ba",
+      "onReading": "ハン",
+      "mnemonic": "Dùng một nhát chém (丨) chia rẽ (丷) mọi thứ ra thành hai (二) phần, tức là chia một nửa (半).",
+      "orderIndex": 11
+    }
+  ],
+  "vocabularyItems": [
+    {
+      "id": "kanji-jpd123-n5-7-vocab-1",
+      "lessonId": "kanji-jpd123-n5-7",
+      "level": "N5",
+      "word": "肉",
+      "reading": "にく",
+      "meaning": "thịt"
+    },
+    {
+      "id": "kanji-jpd123-n5-7-vocab-2",
+      "lessonId": "kanji-jpd123-n5-7",
+      "level": "N5",
+      "word": "牛肉",
+      "reading": "ぎゅうにく",
+      "meaning": "thịt bò"
+    },
+    {
+      "id": "kanji-jpd123-n5-7-vocab-3",
+      "lessonId": "kanji-jpd123-n5-7",
+      "level": "N5",
+      "word": "豚肉",
+      "reading": "ぶたにく",
+      "meaning": "thịt heo"
+    },
+    {
+      "id": "kanji-jpd123-n5-7-vocab-4",
+      "lessonId": "kanji-jpd123-n5-7",
+      "level": "N5",
+      "word": "鶏肉",
+      "reading": "とりにく",
+      "meaning": "thịt gà"
+    },
+    {
+      "id": "kanji-jpd123-n5-7-vocab-5",
+      "lessonId": "kanji-jpd123-n5-7",
+      "level": "N5",
+      "word": "料金",
+      "reading": "りょうきん",
+      "meaning": "tiền phí"
+    },
+    {
+      "id": "kanji-jpd123-n5-7-vocab-6",
+      "lessonId": "kanji-jpd123-n5-7",
+      "level": "N5",
+      "word": "料理",
+      "reading": "りょうり",
+      "meaning": "món ăn"
+    },
+    {
+      "id": "kanji-jpd123-n5-7-vocab-7",
+      "lessonId": "kanji-jpd123-n5-7",
+      "level": "N5",
+      "word": "野菜",
+      "reading": "やさい",
+      "meaning": "rau"
+    },
+    {
+      "id": "kanji-jpd123-n5-7-vocab-8",
+      "lessonId": "kanji-jpd123-n5-7",
+      "level": "N5",
+      "word": "半年",
+      "reading": "はんとし/はんねん",
+      "meaning": "nửa năm"
+    },
+    {
+      "id": "kanji-jpd123-n5-7-vocab-9",
+      "lessonId": "kanji-jpd123-n5-7",
+      "level": "N5",
+      "word": "半分",
+      "reading": "はんぶん",
+      "meaning": "Một nửa"
+    },
+    {
+      "id": "kanji-jpd123-n5-7-vocab-10",
+      "lessonId": "kanji-jpd123-n5-7",
+      "level": "N5",
+      "word": "半日",
+      "reading": "はんじつ/はんにち",
+      "meaning": "Nửa ngày"
+    },
+    {
+      "id": "kanji-jpd123-n5-7-vocab-11",
+      "lessonId": "kanji-jpd123-n5-7",
+      "level": "N5",
+      "word": "半月",
+      "reading": "はんつき",
+      "meaning": "Nửa tháng"
+    },
+    {
+      "id": "kanji-jpd123-n5-7-vocab-12",
+      "lessonId": "kanji-jpd123-n5-7",
+      "level": "N5",
+      "word": "七時半",
+      "reading": "しちじはん",
+      "meaning": "7h30"
+    },
+    {
+      "id": "kanji-jpd123-n5-7-vocab-13",
+      "lessonId": "kanji-jpd123-n5-7",
+      "level": "N5",
+      "word": "大きい",
+      "reading": "おおきい",
+      "meaning": "to"
+    },
+    {
+      "id": "kanji-jpd123-n5-7-vocab-14",
+      "lessonId": "kanji-jpd123-n5-7",
+      "level": "N5",
+      "word": "大学生",
+      "reading": "だいがくせい",
+      "meaning": "Sinh viên đại học"
+    },
+    {
+      "id": "kanji-jpd123-n5-7-vocab-15",
+      "lessonId": "kanji-jpd123-n5-7",
+      "level": "N5",
+      "word": "大人",
+      "reading": "おとな",
+      "meaning": "Người lớn"
+    },
+    {
+      "id": "kanji-jpd123-n5-7-vocab-16",
+      "lessonId": "kanji-jpd123-n5-7",
+      "level": "N5",
+      "word": "大会",
+      "reading": "たいかい",
+      "meaning": "đại hội"
+    },
+    {
+      "id": "kanji-jpd123-n5-7-vocab-17",
+      "lessonId": "kanji-jpd123-n5-7",
+      "level": "N5",
+      "word": "大半",
+      "reading": "たいはん",
+      "meaning": "Phần lớn"
+    },
+    {
+      "id": "kanji-jpd123-n5-7-vocab-18",
+      "lessonId": "kanji-jpd123-n5-7",
+      "level": "N5",
+      "word": "大学",
+      "reading": "だいがく",
+      "meaning": "đại học"
+    },
+    {
+      "id": "kanji-jpd123-n5-7-vocab-19",
+      "lessonId": "kanji-jpd123-n5-7",
+      "level": "N5",
+      "word": "小さい",
+      "reading": "ちいさい",
+      "meaning": "bé, nhỏ"
+    },
+    {
+      "id": "kanji-jpd123-n5-7-vocab-20",
+      "lessonId": "kanji-jpd123-n5-7",
+      "level": "N5",
+      "word": "小学校",
+      "reading": "しょうがっこう",
+      "meaning": "Trường tiểu học"
+    },
+    {
+      "id": "kanji-jpd123-n5-7-vocab-21",
+      "lessonId": "kanji-jpd123-n5-7",
+      "level": "N5",
+      "word": "小学生",
+      "reading": "しょうがくせい",
+      "meaning": "học sinh tiểu học"
+    },
+    {
+      "id": "kanji-jpd123-n5-7-vocab-22",
+      "lessonId": "kanji-jpd123-n5-7",
+      "level": "N5",
+      "word": "小人",
+      "reading": "こびと",
+      "meaning": "đứa trẻ, người tí hon"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "lesson": {
+    "id": "88888888-1113-0000-0000-000000000129",
+    "courseCode": "jpd113",
+    "lessonNumber": 29,
+    "title": "バスケットボール",
+    "description": "Sở thích - Chơi bóng rổ và nghỉ ngơi buổi tối.",
+    "accessTier": "premium",
+    "packageCode": "speaking_jpd113",
+    "isLocked": true,
+    "sentenceCount": 4
+  },
+  "sentences": [
+    {
+      "id": "88888888-1113-0000-0000-000000029001",
+      "lessonId": "88888888-1113-0000-0000-000000000129",
+      "sentenceNumber": 1,
+      "plainText": "木曜日、ともだちと六時までバスケットボールをします。",
+      "romaji": "mokuyoubi,tomodachito rokujimade basukettobo-ru wo shimasu.",
+      "contentHtml": "<ruby>木曜日<rt>もくようび</rt></ruby>、<ruby>ともだち<rt>ともだち</rt></ruby>と <ruby>六時<rt>ろくじ</rt></ruby>まで バスケットボールを します。",
+      "meaningVi": "Thứ năm tôi chơi bóng rổ cùng bạn đến 6 giờ.",
+      "orderIndex": 1
+    },
+    {
+      "id": "88888888-1113-0000-0000-000000029002",
+      "lessonId": "88888888-1113-0000-0000-000000000129",
+      "sentenceNumber": 2,
+      "plainText": "いえへかえって、テレビでスポーツのしあいをみます。",
+      "romaji": "ie e kaette,terebide supo-tsuno shiai wo mimasu.",
+      "contentHtml": "<ruby>いえ<rt>いえ</rt></ruby>へ <ruby>かえ<rt>かえ</rt></ruby>って、テレビで スポーツの <ruby>しあい<rt>しあい</rt></ruby>を <ruby>み<rt>み</rt></ruby>ます。",
+      "meaningVi": "Về nhà tôi xem trận đấu thể thao trên tivi.",
+      "orderIndex": 2
+    },
+    {
+      "id": "88888888-1113-0000-0000-000000029003",
+      "lessonId": "88888888-1113-0000-0000-000000000129",
+      "sentenceNumber": 3,
+      "plainText": "八時におふろにはいります。",
+      "romaji": "hachijini ofuroni hairimasu.",
+      "contentHtml": "<ruby>八時<rt>はちじ</rt></ruby>に <ruby>おふろ<rt>おふろ</rt></ruby>に <ruby>はい<rt>はい</rt></ruby>ります。",
+      "meaningVi": "8 giờ tôi vào bồn tắm.",
+      "orderIndex": 3
+    },
+    {
+      "id": "88888888-1113-0000-0000-000000029004",
+      "lessonId": "88888888-1113-0000-0000-000000000129",
+      "sentenceNumber": 4,
+      "plainText": "九時にばんごはんをたべて、すぐにねます。",
+      "romaji": "kujini bangohan wo tabete,suguni nemasu.",
+      "contentHtml": "<ruby>九時<rt>くじ</rt></ruby>に <ruby>ばんごはん<rt>ばんごはん</rt></ruby>を <ruby>た<rt>た</rt></ruby>べて、すぐに <ruby>ね<rt>ね</rt></ruby>ます。",
+      "meaningVi": "9 giờ ăn tối rồi đi ngủ ngay.",
+      "orderIndex": 4
+    }
+  ]
+}

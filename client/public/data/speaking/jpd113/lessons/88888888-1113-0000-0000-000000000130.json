@@ -1,0 +1,65 @@
+{
+  "lesson": {
+    "id": "88888888-1113-0000-0000-000000000130",
+    "courseCode": "jpd113",
+    "lessonNumber": 30,
+    "title": "ゴールデンウィーク",
+    "description": "Du lịch - Về quê và ngắm pháo hoa ở Đà Nẵng.",
+    "accessTier": "premium",
+    "packageCode": "speaking_jpd113",
+    "isLocked": true,
+    "sentenceCount": 5
+  },
+  "sentences": [
+    {
+      "id": "88888888-1113-0000-0000-000000030001",
+      "lessonId": "88888888-1113-0000-0000-000000000130",
+      "sentenceNumber": 1,
+      "plainText": "ゴールデンウィークは金曜日からです。",
+      "romaji": "go-rudenwi-ku wa kinyoubikaradesu.",
+      "contentHtml": "ゴールデンウィークは <ruby>金曜日<rt>きんようび</rt></ruby>からです。",
+      "meaningVi": "Tuần lễ vàng bắt đầu từ thứ sáu.",
+      "orderIndex": 1
+    },
+    {
+      "id": "88888888-1113-0000-0000-000000030002",
+      "lessonId": "88888888-1113-0000-0000-000000000130",
+      "sentenceNumber": 2,
+      "plainText": "くにへかえります。",
+      "romaji": "kuni e kaerimasu.",
+      "contentHtml": "<ruby>くに<rt>くに</rt></ruby>へ <ruby>かえ<rt>かえ</rt></ruby>ります。",
+      "meaningVi": "Tôi về nước.",
+      "orderIndex": 2
+    },
+    {
+      "id": "88888888-1113-0000-0000-000000030003",
+      "lessonId": "88888888-1113-0000-0000-000000000130",
+      "sentenceNumber": 3,
+      "plainText": "かぞくとだなんへ行きます。",
+      "romaji": "kazokuto danan e ikimasu.",
+      "contentHtml": "<ruby>かぞく<rt>かぞく</rt></ruby>と <ruby>だなん<rt>だなん</rt></ruby>へ <ruby>行<rt>い</rt></ruby>きます。",
+      "meaningVi": "Tôi cùng gia đình đi Đà Nẵng.",
+      "orderIndex": 3
+    },
+    {
+      "id": "88888888-1113-0000-0000-000000030004",
+      "lessonId": "88888888-1113-0000-0000-000000000130",
+      "sentenceNumber": 4,
+      "plainText": "ダナンではなびをみます。",
+      "romaji": "danande hanabi wo mimasu.",
+      "contentHtml": "ダナンで <ruby>はなび<rt>はなび</rt></ruby>を <ruby>み<rt>み</rt></ruby>ます。",
+      "meaningVi": "Tôi ngắm pháo hoa ở Đà Nẵng.",
+      "orderIndex": 4
+    },
+    {
+      "id": "88888888-1113-0000-0000-000000030005",
+      "lessonId": "88888888-1113-0000-0000-000000000130",
+      "sentenceNumber": 5,
+      "plainText": "ダナンのはなびはとてもキレイです。",
+      "romaji": "dananno hanabi wa totemo kireidesu.",
+      "contentHtml": "ダナンの <ruby>はなび<rt>はなび</rt></ruby>は とても キレイです。",
+      "meaningVi": "Pháo hoa ở Đà Nẵng rất đẹp.",
+      "orderIndex": 5
+    }
+  ]
+}

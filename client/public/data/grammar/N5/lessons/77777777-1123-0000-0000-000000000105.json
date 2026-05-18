@@ -1,0 +1,1830 @@
+{
+  "lesson": {
+    "id": "77777777-1123-0000-0000-000000000105",
+    "level": "N5",
+    "courseCode": "jpd123",
+    "lessonNumber": 5,
+    "title": "Quá khứ, Sở thích và Mong muốn",
+    "description": "Học về thì quá khứ của động từ và tính từ, cách diễn tả sở thích và mong muốn.",
+    "patternCount": 6,
+    "accessTier": "premium",
+    "isLocked": true,
+    "inStudyCount": 0,
+    "masteredCount": 0,
+    "dueCount": 0
+  },
+  "patterns": [
+    {
+      "id": "77777777-1123-0001-0000-000000005001",
+      "lessonId": "77777777-1123-0000-0000-000000000105",
+      "level": "N5",
+      "courseCode": "jpd123",
+      "pattern": "Vました / Vませんでした",
+      "title": "Động từ thời quá khứ",
+      "meaning": "Đã làm / Đã không làm",
+      "structure": "V ました / ませんでした",
+      "accessTier": "premium",
+      "isLocked": true,
+      "isInStudy": false,
+      "progress": null,
+      "usageScope": "Diễn tả hành động đã xảy ra trong quá khứ.",
+      "formation": "Thay ます bằng ました (khẳng định) hoặc ませんでした (phủ định)",
+      "notes": "Lưu ý các trạng từ chỉ thời gian như きのう, おととい.",
+      "examples": [
+        {
+          "id": "77777777-1123-0002-0000-000000500001",
+          "japanese": "おととい、新宿へ行きました。",
+          "reading": "おととい、しんじゅくへいきました。",
+          "meaning": "Hôm kia tôi đã đi Shinjuku.",
+          "orderIndex": 1
+        },
+        {
+          "id": "77777777-1123-0002-0000-000000500002",
+          "japanese": "昨日は勉強しませんでした。",
+          "reading": "きのうはべんきょうしませんでした。",
+          "meaning": "Hôm qua tôi đã không học bài.",
+          "orderIndex": 2
+        },
+        {
+          "id": "77777777-1123-0002-0000-000000500003",
+          "japanese": "今朝、コーヒーを飲みました。",
+          "reading": "けさ、コーヒーをのみました。",
+          "meaning": "Sáng nay tôi đã uống cà phê.",
+          "orderIndex": 3
+        },
+        {
+          "id": "77777777-1123-0002-0000-000000500004",
+          "japanese": "土曜日に映画を見ました。",
+          "reading": "どようびにえいがをみました。",
+          "meaning": "Thứ bảy tôi đã xem phim.",
+          "orderIndex": 4
+        },
+        {
+          "id": "77777777-1123-0002-0000-000000500005",
+          "japanese": "昨日の夜は早く寝ました。",
+          "reading": "きのうのよるははやくねました。",
+          "meaning": "Tối qua tôi đã ngủ sớm.",
+          "orderIndex": 5
+        }
+      ],
+      "exercises": [
+        {
+          "id": "77777777-1123-0003-0000-000000510001",
+          "patternId": "77777777-1123-0001-0000-000000005001",
+          "exerciseType": "ja_to_vi",
+          "prompt": "おととい、新宿へ行きました。",
+          "promptReading": "おととい、しんじゅくへいきました。",
+          "expectedAnswer": "Hôm kia tôi đã đi Shinjuku.",
+          "hint": "Vました / Vませんでした",
+          "explanation": "Lưu ý các trạng từ chỉ thời gian như きのう, おととい.",
+          "orderIndex": 1
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000520001",
+          "patternId": "77777777-1123-0001-0000-000000005001",
+          "exerciseType": "vi_to_ja",
+          "prompt": "Hôm kia tôi đã đi Shinjuku.",
+          "expectedAnswer": "おととい、新宿へ行きました。",
+          "acceptableAnswers": [
+            "おととい、しんじゅくへいきました。"
+          ],
+          "hint": "Thay ます bằng ました (khẳng định) hoặc ませんでした (phủ định)",
+          "explanation": "Lưu ý các trạng từ chỉ thời gian như きのう, おととい.",
+          "orderIndex": 2
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000530001",
+          "patternId": "77777777-1123-0001-0000-000000005001",
+          "exerciseType": "arrange",
+          "prompt": "Hôm kia tôi đã đi Shinjuku.",
+          "expectedAnswer": "おととい、新宿 (とい、しんじゅく)へ行きました (いきました)",
+          "optionsJson": "[\"お\",\"と\",\"と\",\"へ\",\"行きました (いきました)\",\"い、新宿 (とい、しんじゅく)\"]",
+          "options": [
+            "お",
+            "と",
+            "と",
+            "へ",
+            "行きました (いきました)",
+            "い、新宿 (とい、しんじゅく)"
+          ],
+          "correctOrderJson": "[\"お\",\"と\",\"と\",\"い、新宿 (とい、しんじゅく)\",\"へ\",\"行きました (いきました)\"]",
+          "correctOrder": [
+            "お",
+            "と",
+            "と",
+            "い、新宿 (とい、しんじゅく)",
+            "へ",
+            "行きました (いきました)"
+          ],
+          "orderIndex": 3
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000510002",
+          "patternId": "77777777-1123-0001-0000-000000005001",
+          "exerciseType": "ja_to_vi",
+          "prompt": "昨日は勉強しませんでした。",
+          "promptReading": "きのうはべんきょうしませんでした。",
+          "expectedAnswer": "Hôm qua tôi đã không học bài.",
+          "hint": "Vました / Vませんでした",
+          "explanation": "Lưu ý các trạng từ chỉ thời gian như きのう, おととい.",
+          "orderIndex": 4
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000520002",
+          "patternId": "77777777-1123-0001-0000-000000005001",
+          "exerciseType": "vi_to_ja",
+          "prompt": "Hôm qua tôi đã không học bài.",
+          "expectedAnswer": "昨日は勉強しませんでした。",
+          "acceptableAnswers": [
+            "きのうはべんきょうしませんでした。"
+          ],
+          "hint": "Thay ます bằng ました (khẳng định) hoặc ませんでした (phủ định)",
+          "explanation": "Lưu ý các trạng từ chỉ thời gian như きのう, おととい.",
+          "orderIndex": 5
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000530002",
+          "patternId": "77777777-1123-0001-0000-000000005001",
+          "exerciseType": "arrange",
+          "prompt": "Hôm qua tôi đã không học bài.",
+          "expectedAnswer": "昨日 (きのう)は勉強しません (べんきょうしません)でした",
+          "optionsJson": "[\"は\",\"でした\",\"昨日 (きのう)\",\"勉強しません (べんきょうしません)\"]",
+          "options": [
+            "は",
+            "でした",
+            "昨日 (きのう)",
+            "勉強しません (べんきょうしません)"
+          ],
+          "correctOrderJson": "[\"昨日 (きのう)\",\"は\",\"勉強しません (べんきょうしません)\",\"でした\"]",
+          "correctOrder": [
+            "昨日 (きのう)",
+            "は",
+            "勉強しません (べんきょうしません)",
+            "でした"
+          ],
+          "orderIndex": 6
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000510003",
+          "patternId": "77777777-1123-0001-0000-000000005001",
+          "exerciseType": "ja_to_vi",
+          "prompt": "今朝、コーヒーを飲みました。",
+          "promptReading": "けさ、コーヒーをのみました。",
+          "expectedAnswer": "Sáng nay tôi đã uống cà phê.",
+          "hint": "Vました / Vませんでした",
+          "explanation": "Lưu ý các trạng từ chỉ thời gian như きのう, おととい.",
+          "orderIndex": 7
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000520003",
+          "patternId": "77777777-1123-0001-0000-000000005001",
+          "exerciseType": "vi_to_ja",
+          "prompt": "Sáng nay tôi đã uống cà phê.",
+          "expectedAnswer": "今朝、コーヒーを飲みました。",
+          "acceptableAnswers": [
+            "けさ、コーヒーをのみました。"
+          ],
+          "hint": "Thay ます bằng ました (khẳng định) hoặc ませんでした (phủ định)",
+          "explanation": "Lưu ý các trạng từ chỉ thời gian như きのう, おととい.",
+          "orderIndex": 8
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000530003",
+          "patternId": "77777777-1123-0001-0000-000000005001",
+          "exerciseType": "arrange",
+          "prompt": "Sáng nay tôi đã uống cà phê.",
+          "expectedAnswer": "今朝、コーヒー (けさ、コーヒー)を飲みました (のみました)",
+          "optionsJson": "[\"を\",\"飲みました (のみました)\",\"今朝、コーヒー (けさ、コーヒー)\"]",
+          "options": [
+            "を",
+            "飲みました (のみました)",
+            "今朝、コーヒー (けさ、コーヒー)"
+          ],
+          "correctOrderJson": "[\"今朝、コーヒー (けさ、コーヒー)\",\"を\",\"飲みました (のみました)\"]",
+          "correctOrder": [
+            "今朝、コーヒー (けさ、コーヒー)",
+            "を",
+            "飲みました (のみました)"
+          ],
+          "orderIndex": 9
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000510004",
+          "patternId": "77777777-1123-0001-0000-000000005001",
+          "exerciseType": "ja_to_vi",
+          "prompt": "土曜日に映画を見ました。",
+          "promptReading": "どようびにえいがをみました。",
+          "expectedAnswer": "Thứ bảy tôi đã xem phim.",
+          "hint": "Vました / Vませんでした",
+          "explanation": "Lưu ý các trạng từ chỉ thời gian như きのう, おととい.",
+          "orderIndex": 10
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000520004",
+          "patternId": "77777777-1123-0001-0000-000000005001",
+          "exerciseType": "vi_to_ja",
+          "prompt": "Thứ bảy tôi đã xem phim.",
+          "expectedAnswer": "土曜日に映画を見ました。",
+          "acceptableAnswers": [
+            "どようびにえいがをみました。"
+          ],
+          "hint": "Thay ます bằng ました (khẳng định) hoặc ませんでした (phủ định)",
+          "explanation": "Lưu ý các trạng từ chỉ thời gian như きのう, おととい.",
+          "orderIndex": 11
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000530004",
+          "patternId": "77777777-1123-0001-0000-000000005001",
+          "exerciseType": "arrange",
+          "prompt": "Thứ bảy tôi đã xem phim.",
+          "expectedAnswer": "土曜日 (どようび)に映画 (えいが)を見ました (みました)",
+          "optionsJson": "[\"に\",\"を\",\"映画 (えいが)\",\"見ました (みました)\",\"土曜日 (どようび)\"]",
+          "options": [
+            "に",
+            "を",
+            "映画 (えいが)",
+            "見ました (みました)",
+            "土曜日 (どようび)"
+          ],
+          "correctOrderJson": "[\"土曜日 (どようび)\",\"に\",\"映画 (えいが)\",\"を\",\"見ました (みました)\"]",
+          "correctOrder": [
+            "土曜日 (どようび)",
+            "に",
+            "映画 (えいが)",
+            "を",
+            "見ました (みました)"
+          ],
+          "orderIndex": 12
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000510005",
+          "patternId": "77777777-1123-0001-0000-000000005001",
+          "exerciseType": "ja_to_vi",
+          "prompt": "昨日の夜は早く寝ました。",
+          "promptReading": "きのうのよるははやくねました。",
+          "expectedAnswer": "Tối qua tôi đã ngủ sớm.",
+          "hint": "Vました / Vませんでした",
+          "explanation": "Lưu ý các trạng từ chỉ thời gian như きのう, おととい.",
+          "orderIndex": 13
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000520005",
+          "patternId": "77777777-1123-0001-0000-000000005001",
+          "exerciseType": "vi_to_ja",
+          "prompt": "Tối qua tôi đã ngủ sớm.",
+          "expectedAnswer": "昨日の夜は早く寝ました。",
+          "acceptableAnswers": [
+            "きのうのよるははやくねました。"
+          ],
+          "hint": "Thay ます bằng ました (khẳng định) hoặc ませんでした (phủ định)",
+          "explanation": "Lưu ý các trạng từ chỉ thời gian như きのう, おととい.",
+          "orderIndex": 14
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000530005",
+          "patternId": "77777777-1123-0001-0000-000000005001",
+          "exerciseType": "arrange",
+          "prompt": "Tối qua tôi đã ngủ sớm.",
+          "expectedAnswer": "昨日 (き)の夜 (うのよる)は早く寝ました (はやくねました)",
+          "optionsJson": "[\"の\",\"は\",\"昨日 (き)\",\"夜 (うのよる)\",\"早く寝ました (はやくねました)\"]",
+          "options": [
+            "の",
+            "は",
+            "昨日 (き)",
+            "夜 (うのよる)",
+            "早く寝ました (はやくねました)"
+          ],
+          "correctOrderJson": "[\"昨日 (き)\",\"の\",\"夜 (うのよる)\",\"は\",\"早く寝ました (はやくねました)\"]",
+          "correctOrder": [
+            "昨日 (き)",
+            "の",
+            "夜 (うのよる)",
+            "は",
+            "早く寝ました (はやくねました)"
+          ],
+          "orderIndex": 15
+        }
+      ]
+    },
+    {
+      "id": "77777777-1123-0001-0000-000000005002",
+      "lessonId": "77777777-1123-0000-0000-000000000105",
+      "level": "N5",
+      "courseCode": "jpd123",
+      "pattern": "A かったです / かったくないです",
+      "title": "Tính từ thời quá khứ",
+      "meaning": "Đã [tính chất] / Đã không [tính chất]",
+      "structure": "Aい: bỏ い thêm かったです; Aな/N: thêm でした",
+      "accessTier": "premium",
+      "isLocked": true,
+      "isInStudy": false,
+      "progress": null,
+      "usageScope": "Diễn tả cảm nghĩ, trạng thái trong quá khứ.",
+      "formation": "i-adj: かったです / くなかったです; na-adj: でした / じゃありませんでした",
+      "notes": "Rất quan trọng với tính từ đuôi い.",
+      "examples": [
+        {
+          "id": "77777777-1123-0002-0000-000000501001",
+          "japanese": "旅行はとても楽しかったです。",
+          "reading": "りょこうはとてもたのしかったです。",
+          "meaning": "Chuyến du lịch đã rất vui.",
+          "orderIndex": 1
+        },
+        {
+          "id": "77777777-1123-0002-0000-000000501002",
+          "japanese": "昨日は寒くなかったです。",
+          "reading": "きのうはさむくなかったです。",
+          "meaning": "Hôm qua đã không lạnh.",
+          "orderIndex": 2
+        },
+        {
+          "id": "77777777-1123-0002-0000-000000501003",
+          "japanese": "試験は少し難しかったです。",
+          "reading": "しけんはすこしむずかしかったです。",
+          "meaning": "Kỳ thi đã hơi khó một chút.",
+          "orderIndex": 3
+        },
+        {
+          "id": "77777777-1123-0002-0000-000000501004",
+          "japanese": "天気はよかったです。",
+          "reading": "てんきはよかったです。",
+          "meaning": "Thời tiết đã rất tốt.",
+          "orderIndex": 4
+        },
+        {
+          "id": "77777777-1123-0002-0000-000000501005",
+          "japanese": "お祭りはとても賑やかでした。",
+          "reading": "おまつりはとてもにぎやかでした。",
+          "meaning": "Lễ hội đã rất nhộn nhịp.",
+          "orderIndex": 5
+        }
+      ],
+      "exercises": [
+        {
+          "id": "77777777-1123-0003-0000-000000511001",
+          "patternId": "77777777-1123-0001-0000-000000005002",
+          "exerciseType": "ja_to_vi",
+          "prompt": "旅行はとても楽しかったです。",
+          "promptReading": "りょこうはとてもたのしかったです。",
+          "expectedAnswer": "Chuyến du lịch đã rất vui.",
+          "hint": "A かったです / かったくないです",
+          "explanation": "Rất quan trọng với tính từ đuôi い.",
+          "orderIndex": 1
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000521001",
+          "patternId": "77777777-1123-0001-0000-000000005002",
+          "exerciseType": "vi_to_ja",
+          "prompt": "Chuyến du lịch đã rất vui.",
+          "expectedAnswer": "旅行はとても楽しかったです。",
+          "acceptableAnswers": [
+            "りょこうはとてもたのしかったです。"
+          ],
+          "hint": "i-adj: かったです / くなかったです; na-adj: でした / じゃありませんでした",
+          "explanation": "Rất quan trọng với tính từ đuôi い.",
+          "orderIndex": 2
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000531001",
+          "patternId": "77777777-1123-0001-0000-000000005002",
+          "exerciseType": "arrange",
+          "prompt": "Chuyến du lịch đã rất vui.",
+          "expectedAnswer": "旅行 (りょこう)はとても楽しかった (たのしかった)です",
+          "optionsJson": "[\"て\",\"と\",\"は\",\"も\",\"です\",\"旅行 (りょこう)\",\"楽しかった (たのしかった)\"]",
+          "options": [
+            "て",
+            "と",
+            "は",
+            "も",
+            "です",
+            "旅行 (りょこう)",
+            "楽しかった (たのしかった)"
+          ],
+          "correctOrderJson": "[\"旅行 (りょこう)\",\"は\",\"と\",\"て\",\"も\",\"楽しかった (たのしかった)\",\"です\"]",
+          "correctOrder": [
+            "旅行 (りょこう)",
+            "は",
+            "と",
+            "て",
+            "も",
+            "楽しかった (たのしかった)",
+            "です"
+          ],
+          "orderIndex": 3
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000511002",
+          "patternId": "77777777-1123-0001-0000-000000005002",
+          "exerciseType": "ja_to_vi",
+          "prompt": "昨日は寒くなかったです。",
+          "promptReading": "きのうはさむくなかったです。",
+          "expectedAnswer": "Hôm qua đã không lạnh.",
+          "hint": "A かったです / かったくないです",
+          "explanation": "Rất quan trọng với tính từ đuôi い.",
+          "orderIndex": 4
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000521002",
+          "patternId": "77777777-1123-0001-0000-000000005002",
+          "exerciseType": "vi_to_ja",
+          "prompt": "Hôm qua đã không lạnh.",
+          "expectedAnswer": "昨日は寒くなかったです。",
+          "acceptableAnswers": [
+            "きのうはさむくなかったです。"
+          ],
+          "hint": "i-adj: かったです / くなかったです; na-adj: でした / じゃありませんでした",
+          "explanation": "Rất quan trọng với tính từ đuôi い.",
+          "orderIndex": 5
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000531002",
+          "patternId": "77777777-1123-0001-0000-000000005002",
+          "exerciseType": "arrange",
+          "prompt": "Hôm qua đã không lạnh.",
+          "expectedAnswer": "昨日 (きのう)は寒くなかった (さむくなかった)です",
+          "optionsJson": "[\"は\",\"です\",\"昨日 (きのう)\",\"寒くなかった (さむくなかった)\"]",
+          "options": [
+            "は",
+            "です",
+            "昨日 (きのう)",
+            "寒くなかった (さむくなかった)"
+          ],
+          "correctOrderJson": "[\"昨日 (きのう)\",\"は\",\"寒くなかった (さむくなかった)\",\"です\"]",
+          "correctOrder": [
+            "昨日 (きのう)",
+            "は",
+            "寒くなかった (さむくなかった)",
+            "です"
+          ],
+          "orderIndex": 6
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000511003",
+          "patternId": "77777777-1123-0001-0000-000000005002",
+          "exerciseType": "ja_to_vi",
+          "prompt": "試験は少し難しかったです。",
+          "promptReading": "しけんはすこしむずかしかったです。",
+          "expectedAnswer": "Kỳ thi đã hơi khó một chút.",
+          "hint": "A かったです / かったくないです",
+          "explanation": "Rất quan trọng với tính từ đuôi い.",
+          "orderIndex": 7
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000521003",
+          "patternId": "77777777-1123-0001-0000-000000005002",
+          "exerciseType": "vi_to_ja",
+          "prompt": "Kỳ thi đã hơi khó một chút.",
+          "expectedAnswer": "試験は少し難しかったです。",
+          "acceptableAnswers": [
+            "しけんはすこしむずかしかったです。"
+          ],
+          "hint": "i-adj: かったです / くなかったです; na-adj: でした / じゃありませんでした",
+          "explanation": "Rất quan trọng với tính từ đuôi い.",
+          "orderIndex": 8
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000531003",
+          "patternId": "77777777-1123-0001-0000-000000005002",
+          "exerciseType": "arrange",
+          "prompt": "Kỳ thi đã hơi khó một chút.",
+          "expectedAnswer": "試験 (しけん)は少し難しかった (すこしむずかしかった)です",
+          "optionsJson": "[\"は\",\"です\",\"試験 (しけん)\",\"少し難しかった (すこしむずかしかった)\"]",
+          "options": [
+            "は",
+            "です",
+            "試験 (しけん)",
+            "少し難しかった (すこしむずかしかった)"
+          ],
+          "correctOrderJson": "[\"試験 (しけん)\",\"は\",\"少し難しかった (すこしむずかしかった)\",\"です\"]",
+          "correctOrder": [
+            "試験 (しけん)",
+            "は",
+            "少し難しかった (すこしむずかしかった)",
+            "です"
+          ],
+          "orderIndex": 9
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000511004",
+          "patternId": "77777777-1123-0001-0000-000000005002",
+          "exerciseType": "ja_to_vi",
+          "prompt": "天気はよかったです。",
+          "promptReading": "てんきはよかったです。",
+          "expectedAnswer": "Thời tiết đã rất tốt.",
+          "hint": "A かったです / かったくないです",
+          "explanation": "Rất quan trọng với tính từ đuôi い.",
+          "orderIndex": 10
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000521004",
+          "patternId": "77777777-1123-0001-0000-000000005002",
+          "exerciseType": "vi_to_ja",
+          "prompt": "Thời tiết đã rất tốt.",
+          "expectedAnswer": "天気はよかったです。",
+          "acceptableAnswers": [
+            "てんきはよかったです。"
+          ],
+          "hint": "i-adj: かったです / くなかったです; na-adj: でした / じゃありませんでした",
+          "explanation": "Rất quan trọng với tính từ đuôi い.",
+          "orderIndex": 11
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000531004",
+          "patternId": "77777777-1123-0001-0000-000000005002",
+          "exerciseType": "arrange",
+          "prompt": "Thời tiết đã rất tốt.",
+          "expectedAnswer": "天気 (てんき)はよかったです",
+          "optionsJson": "[\"は\",\"です\",\"よかった\",\"天気 (てんき)\"]",
+          "options": [
+            "は",
+            "です",
+            "よかった",
+            "天気 (てんき)"
+          ],
+          "correctOrderJson": "[\"天気 (てんき)\",\"は\",\"よかった\",\"です\"]",
+          "correctOrder": [
+            "天気 (てんき)",
+            "は",
+            "よかった",
+            "です"
+          ],
+          "orderIndex": 12
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000511005",
+          "patternId": "77777777-1123-0001-0000-000000005002",
+          "exerciseType": "ja_to_vi",
+          "prompt": "お祭りはとても賑やかでした。",
+          "promptReading": "おまつりはとてもにぎやかでした。",
+          "expectedAnswer": "Lễ hội đã rất nhộn nhịp.",
+          "hint": "A かったです / かったくないです",
+          "explanation": "Rất quan trọng với tính từ đuôi い.",
+          "orderIndex": 13
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000521005",
+          "patternId": "77777777-1123-0001-0000-000000005002",
+          "exerciseType": "vi_to_ja",
+          "prompt": "Lễ hội đã rất nhộn nhịp.",
+          "expectedAnswer": "お祭りはとても賑やかでした。",
+          "acceptableAnswers": [
+            "おまつりはとてもにぎやかでした。"
+          ],
+          "hint": "i-adj: かったです / くなかったです; na-adj: でした / じゃありませんでした",
+          "explanation": "Rất quan trọng với tính từ đuôi い.",
+          "orderIndex": 14
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000531005",
+          "patternId": "77777777-1123-0001-0000-000000005002",
+          "exerciseType": "arrange",
+          "prompt": "Lễ hội đã rất nhộn nhịp.",
+          "expectedAnswer": "お祭り (おまつり)はとても賑やか (にぎやか)でした",
+          "optionsJson": "[\"て\",\"と\",\"は\",\"も\",\"でした\",\"お祭り (おまつり)\",\"賑やか (にぎやか)\"]",
+          "options": [
+            "て",
+            "と",
+            "は",
+            "も",
+            "でした",
+            "お祭り (おまつり)",
+            "賑やか (にぎやか)"
+          ],
+          "correctOrderJson": "[\"お祭り (おまつり)\",\"は\",\"と\",\"て\",\"も\",\"賑やか (にぎやか)\",\"でした\"]",
+          "correctOrder": [
+            "お祭り (おまつり)",
+            "は",
+            "と",
+            "て",
+            "も",
+            "賑やか (にぎやか)",
+            "でした"
+          ],
+          "orderIndex": 15
+        }
+      ]
+    },
+    {
+      "id": "77777777-1123-0001-0000-000000005003",
+      "lessonId": "77777777-1123-0000-0000-000000000105",
+      "level": "N5",
+      "courseCode": "jpd123",
+      "pattern": "N が すきです / きらいです",
+      "title": "Sở thích và sự ghét",
+      "meaning": "Thích N / Ghét N",
+      "structure": "N が 好き/嫌い です",
+      "accessTier": "premium",
+      "isLocked": true,
+      "isInStudy": false,
+      "progress": null,
+      "usageScope": "Bày tỏ cảm xúc yêu ghét đối với một đối tượng.",
+      "formation": "Danh từ + が + すき/きらい + です",
+      "notes": "Trợ từ sử dụng là が, không phải を.",
+      "examples": [
+        {
+          "id": "77777777-1123-0002-0000-000000502001",
+          "japanese": "私は日本のアニメが好きです。",
+          "reading": "わたしはにほんのアニメがすきです。",
+          "meaning": "Tôi thích phim hoạt hình Nhật Bản.",
+          "orderIndex": 1
+        },
+        {
+          "id": "77777777-1123-0002-0000-000000502002",
+          "japanese": "私は納豆が嫌いです。",
+          "reading": "わたしはなっとうがきらいです。",
+          "meaning": "Tôi ghét món Natto.",
+          "orderIndex": 2
+        },
+        {
+          "id": "77777777-1123-0002-0000-000000502003",
+          "japanese": "田中さんはサッカーが好きです。",
+          "reading": "たなかさんはサッカーがすきです。",
+          "meaning": "Anh Tanaka thích bóng đá.",
+          "orderIndex": 3
+        },
+        {
+          "id": "77777777-1123-0002-0000-000000502004",
+          "japanese": "私は甘い料理が嫌いです。",
+          "reading": "わたしはあまいりょうりがきらいです。",
+          "meaning": "Tôi ghét các món ăn ngọt.",
+          "orderIndex": 4
+        },
+        {
+          "id": "77777777-1123-0002-0000-000000502005",
+          "japanese": "どんな音楽が好きですか。",
+          "reading": "どんなおんがくがすきですか。",
+          "meaning": "Bạn thích loại nhạc nào?",
+          "orderIndex": 5
+        }
+      ],
+      "exercises": [
+        {
+          "id": "77777777-1123-0003-0000-000000512001",
+          "patternId": "77777777-1123-0001-0000-000000005003",
+          "exerciseType": "ja_to_vi",
+          "prompt": "私は日本のアニメが好きです。",
+          "promptReading": "わたしはにほんのアニメがすきです。",
+          "expectedAnswer": "Tôi thích phim hoạt hình Nhật Bản.",
+          "hint": "N が すきです / きらいです",
+          "explanation": "Trợ từ sử dụng là が, không phải を.",
+          "orderIndex": 1
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000522001",
+          "patternId": "77777777-1123-0001-0000-000000005003",
+          "exerciseType": "vi_to_ja",
+          "prompt": "Tôi thích phim hoạt hình Nhật Bản.",
+          "expectedAnswer": "私は日本のアニメが好きです。",
+          "acceptableAnswers": [
+            "わたしはにほんのアニメがすきです。"
+          ],
+          "hint": "Danh từ + が + すき/きらい + です",
+          "explanation": "Trợ từ sử dụng là が, không phải を.",
+          "orderIndex": 2
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000532001",
+          "patternId": "77777777-1123-0001-0000-000000005003",
+          "exerciseType": "arrange",
+          "prompt": "Tôi thích phim hoạt hình Nhật Bản.",
+          "expectedAnswer": "私 (わたし)は日本 (にほん)のアニメが好き (すき)です",
+          "optionsJson": "[\"が\",\"の\",\"は\",\"です\",\"アニメ\",\"好き (すき)\",\"私 (わたし)\",\"日本 (にほん)\"]",
+          "options": [
+            "が",
+            "の",
+            "は",
+            "です",
+            "アニメ",
+            "好き (すき)",
+            "私 (わたし)",
+            "日本 (にほん)"
+          ],
+          "correctOrderJson": "[\"私 (わたし)\",\"は\",\"日本 (にほん)\",\"の\",\"アニメ\",\"が\",\"好き (すき)\",\"です\"]",
+          "correctOrder": [
+            "私 (わたし)",
+            "は",
+            "日本 (にほん)",
+            "の",
+            "アニメ",
+            "が",
+            "好き (すき)",
+            "です"
+          ],
+          "orderIndex": 3
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000512002",
+          "patternId": "77777777-1123-0001-0000-000000005003",
+          "exerciseType": "ja_to_vi",
+          "prompt": "私は納豆が嫌いです。",
+          "promptReading": "わたしはなっとうがきらいです。",
+          "expectedAnswer": "Tôi ghét món Natto.",
+          "hint": "N が すきです / きらいです",
+          "explanation": "Trợ từ sử dụng là が, không phải を.",
+          "orderIndex": 4
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000522002",
+          "patternId": "77777777-1123-0001-0000-000000005003",
+          "exerciseType": "vi_to_ja",
+          "prompt": "Tôi ghét món Natto.",
+          "expectedAnswer": "私は納豆が嫌いです。",
+          "acceptableAnswers": [
+            "わたしはなっとうがきらいです。"
+          ],
+          "hint": "Danh từ + が + すき/きらい + です",
+          "explanation": "Trợ từ sử dụng là が, không phải を.",
+          "orderIndex": 5
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000532002",
+          "patternId": "77777777-1123-0001-0000-000000005003",
+          "exerciseType": "arrange",
+          "prompt": "Tôi ghét món Natto.",
+          "expectedAnswer": "私 (わたし)は納豆 (なっとう)が嫌い (きらい)です",
+          "optionsJson": "[\"が\",\"は\",\"です\",\"私 (わたし)\",\"嫌い (きらい)\",\"納豆 (なっとう)\"]",
+          "options": [
+            "が",
+            "は",
+            "です",
+            "私 (わたし)",
+            "嫌い (きらい)",
+            "納豆 (なっとう)"
+          ],
+          "correctOrderJson": "[\"私 (わたし)\",\"は\",\"納豆 (なっとう)\",\"が\",\"嫌い (きらい)\",\"です\"]",
+          "correctOrder": [
+            "私 (わたし)",
+            "は",
+            "納豆 (なっとう)",
+            "が",
+            "嫌い (きらい)",
+            "です"
+          ],
+          "orderIndex": 6
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000512003",
+          "patternId": "77777777-1123-0001-0000-000000005003",
+          "exerciseType": "ja_to_vi",
+          "prompt": "田中さんはサッカーが好きです。",
+          "promptReading": "たなかさんはサッカーがすきです。",
+          "expectedAnswer": "Anh Tanaka thích bóng đá.",
+          "hint": "N が すきです / きらいです",
+          "explanation": "Trợ từ sử dụng là が, không phải を.",
+          "orderIndex": 7
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000522003",
+          "patternId": "77777777-1123-0001-0000-000000005003",
+          "exerciseType": "vi_to_ja",
+          "prompt": "Anh Tanaka thích bóng đá.",
+          "expectedAnswer": "田中さんはサッカーが好きです。",
+          "acceptableAnswers": [
+            "たなかさんはサッカーがすきです。"
+          ],
+          "hint": "Danh từ + が + すき/きらい + です",
+          "explanation": "Trợ từ sử dụng là が, không phải を.",
+          "orderIndex": 8
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000532003",
+          "patternId": "77777777-1123-0001-0000-000000005003",
+          "exerciseType": "arrange",
+          "prompt": "Anh Tanaka thích bóng đá.",
+          "expectedAnswer": "田中さん (たなかさん)はサッカーが好き (すき)です",
+          "optionsJson": "[\"が\",\"は\",\"です\",\"サッカー\",\"好き (すき)\",\"田中さん (たなかさん)\"]",
+          "options": [
+            "が",
+            "は",
+            "です",
+            "サッカー",
+            "好き (すき)",
+            "田中さん (たなかさん)"
+          ],
+          "correctOrderJson": "[\"田中さん (たなかさん)\",\"は\",\"サッカー\",\"が\",\"好き (すき)\",\"です\"]",
+          "correctOrder": [
+            "田中さん (たなかさん)",
+            "は",
+            "サッカー",
+            "が",
+            "好き (すき)",
+            "です"
+          ],
+          "orderIndex": 9
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000512004",
+          "patternId": "77777777-1123-0001-0000-000000005003",
+          "exerciseType": "ja_to_vi",
+          "prompt": "私は甘い料理が嫌いです。",
+          "promptReading": "わたしはあまいりょうりがきらいです。",
+          "expectedAnswer": "Tôi ghét các món ăn ngọt.",
+          "hint": "N が すきです / きらいです",
+          "explanation": "Trợ từ sử dụng là が, không phải を.",
+          "orderIndex": 10
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000522004",
+          "patternId": "77777777-1123-0001-0000-000000005003",
+          "exerciseType": "vi_to_ja",
+          "prompt": "Tôi ghét các món ăn ngọt.",
+          "expectedAnswer": "私は甘い料理が嫌いです。",
+          "acceptableAnswers": [
+            "わたしはあまいりょうりがきらいです。"
+          ],
+          "hint": "Danh từ + が + すき/きらい + です",
+          "explanation": "Trợ từ sử dụng là が, không phải を.",
+          "orderIndex": 11
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000532004",
+          "patternId": "77777777-1123-0001-0000-000000005003",
+          "exerciseType": "arrange",
+          "prompt": "Tôi ghét các món ăn ngọt.",
+          "expectedAnswer": "私 (わたし)は甘い料理 (あまいりょうり)が嫌い (きらい)です",
+          "optionsJson": "[\"が\",\"は\",\"です\",\"私 (わたし)\",\"嫌い (きらい)\",\"甘い料理 (あまいりょうり)\"]",
+          "options": [
+            "が",
+            "は",
+            "です",
+            "私 (わたし)",
+            "嫌い (きらい)",
+            "甘い料理 (あまいりょうり)"
+          ],
+          "correctOrderJson": "[\"私 (わたし)\",\"は\",\"甘い料理 (あまいりょうり)\",\"が\",\"嫌い (きらい)\",\"です\"]",
+          "correctOrder": [
+            "私 (わたし)",
+            "は",
+            "甘い料理 (あまいりょうり)",
+            "が",
+            "嫌い (きらい)",
+            "です"
+          ],
+          "orderIndex": 12
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000512005",
+          "patternId": "77777777-1123-0001-0000-000000005003",
+          "exerciseType": "ja_to_vi",
+          "prompt": "どんな音楽が好きですか。",
+          "promptReading": "どんなおんがくがすきですか。",
+          "expectedAnswer": "Bạn thích loại nhạc nào?",
+          "hint": "N が すきです / きらいです",
+          "explanation": "Trợ từ sử dụng là が, không phải を.",
+          "orderIndex": 13
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000522005",
+          "patternId": "77777777-1123-0001-0000-000000005003",
+          "exerciseType": "vi_to_ja",
+          "prompt": "Bạn thích loại nhạc nào?",
+          "expectedAnswer": "どんな音楽が好きですか。",
+          "acceptableAnswers": [
+            "どんなおんがくがすきですか。"
+          ],
+          "hint": "Danh từ + が + すき/きらい + です",
+          "explanation": "Trợ từ sử dụng là が, không phải を.",
+          "orderIndex": 14
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000532005",
+          "patternId": "77777777-1123-0001-0000-000000005003",
+          "exerciseType": "arrange",
+          "prompt": "Bạn thích loại nhạc nào?",
+          "expectedAnswer": "どんな音楽 (どんなおん)が好き (くがすき)ですか",
+          "optionsJson": "[\"か\",\"が\",\"です\",\"好き (くがすき)\",\"どんな音楽 (どんなおん)\"]",
+          "options": [
+            "か",
+            "が",
+            "です",
+            "好き (くがすき)",
+            "どんな音楽 (どんなおん)"
+          ],
+          "correctOrderJson": "[\"どんな音楽 (どんなおん)\",\"が\",\"好き (くがすき)\",\"です\",\"か\"]",
+          "correctOrder": [
+            "どんな音楽 (どんなおん)",
+            "が",
+            "好き (くがすき)",
+            "です",
+            "か"
+          ],
+          "orderIndex": 15
+        }
+      ]
+    },
+    {
+      "id": "77777777-1123-0001-0000-000000005004",
+      "lessonId": "77777777-1123-0000-0000-000000000105",
+      "level": "N5",
+      "courseCode": "jpd123",
+      "pattern": "N が ほしいです",
+      "title": "Mong muốn có đồ vật",
+      "meaning": "Muốn có N",
+      "structure": "N が ほしいです",
+      "accessTier": "premium",
+      "isLocked": true,
+      "isInStudy": false,
+      "progress": null,
+      "usageScope": "Diễn tả nguyện vọng sở hữu một món đồ.",
+      "formation": "Danh từ + が + ほしい + です",
+      "notes": "ほしい là một tính từ đuôi い.",
+      "examples": [
+        {
+          "id": "77777777-1123-0002-0000-000000503001",
+          "japanese": "私はパソコンがほしいです。",
+          "reading": "わたしはパソコンがほしいです。",
+          "meaning": "Tôi muốn có một cái máy tính.",
+          "orderIndex": 1
+        },
+        {
+          "id": "77777777-1123-0002-0000-000000503002",
+          "japanese": "新しい靴が欲しいです。",
+          "reading": "あたらしいくつがほしいです。",
+          "meaning": "Tôi muốn có đôi giày mới.",
+          "orderIndex": 2
+        },
+        {
+          "id": "77777777-1123-0002-0000-000000503003",
+          "japanese": "誕生日にお金がほしいです。",
+          "reading": "たんじょうびにおかねがほしいです。",
+          "meaning": "Vào ngày sinh nhật tôi muốn có tiền.",
+          "orderIndex": 3
+        },
+        {
+          "id": "77777777-1123-0002-0000-000000503004",
+          "japanese": "私は広い家がほしいです。",
+          "reading": "わたしはひろいうちがほしいです。",
+          "meaning": "Tôi muốn có một ngôi nhà rộng.",
+          "orderIndex": 4
+        },
+        {
+          "id": "77777777-1123-0002-0000-000000503005",
+          "japanese": "今は何も欲しくないです。",
+          "reading": "いまはなにもほしくないです。",
+          "meaning": "Bây giờ tôi không muốn gì cả.",
+          "orderIndex": 5
+        }
+      ],
+      "exercises": [
+        {
+          "id": "77777777-1123-0003-0000-000000513001",
+          "patternId": "77777777-1123-0001-0000-000000005004",
+          "exerciseType": "ja_to_vi",
+          "prompt": "私はパソコンがほしいです。",
+          "promptReading": "わたしはパソコンがほしいです。",
+          "expectedAnswer": "Tôi muốn có một cái máy tính.",
+          "hint": "N が ほしいです",
+          "explanation": "ほしい là một tính từ đuôi い.",
+          "orderIndex": 1
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000523001",
+          "patternId": "77777777-1123-0001-0000-000000005004",
+          "exerciseType": "vi_to_ja",
+          "prompt": "Tôi muốn có một cái máy tính.",
+          "expectedAnswer": "私はパソコンがほしいです。",
+          "acceptableAnswers": [
+            "わたしはパソコンがほしいです。"
+          ],
+          "hint": "Danh từ + が + ほしい + です",
+          "explanation": "ほしい là một tính từ đuôi い.",
+          "orderIndex": 2
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000533001",
+          "patternId": "77777777-1123-0001-0000-000000005004",
+          "exerciseType": "arrange",
+          "prompt": "Tôi muốn có một cái máy tính.",
+          "expectedAnswer": "私 (わたし)はパソコンがほしいです",
+          "optionsJson": "[\"が\",\"は\",\"です\",\"ほしい\",\"パソコン\",\"私 (わたし)\"]",
+          "options": [
+            "が",
+            "は",
+            "です",
+            "ほしい",
+            "パソコン",
+            "私 (わたし)"
+          ],
+          "correctOrderJson": "[\"私 (わたし)\",\"は\",\"パソコン\",\"が\",\"ほしい\",\"です\"]",
+          "correctOrder": [
+            "私 (わたし)",
+            "は",
+            "パソコン",
+            "が",
+            "ほしい",
+            "です"
+          ],
+          "orderIndex": 3
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000513002",
+          "patternId": "77777777-1123-0001-0000-000000005004",
+          "exerciseType": "ja_to_vi",
+          "prompt": "新しい靴が欲しいです。",
+          "promptReading": "あたらしいくつがほしいです。",
+          "expectedAnswer": "Tôi muốn có đôi giày mới.",
+          "hint": "N が ほしいです",
+          "explanation": "ほしい là một tính từ đuôi い.",
+          "orderIndex": 4
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000523002",
+          "patternId": "77777777-1123-0001-0000-000000005004",
+          "exerciseType": "vi_to_ja",
+          "prompt": "Tôi muốn có đôi giày mới.",
+          "expectedAnswer": "新しい靴が欲しいです。",
+          "acceptableAnswers": [
+            "あたらしいくつがほしいです。"
+          ],
+          "hint": "Danh từ + が + ほしい + です",
+          "explanation": "ほしい là một tính từ đuôi い.",
+          "orderIndex": 5
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000533002",
+          "patternId": "77777777-1123-0001-0000-000000005004",
+          "exerciseType": "arrange",
+          "prompt": "Tôi muốn có đôi giày mới.",
+          "expectedAnswer": "新しい靴 (あたらしいくつ)が欲しい (ほしい)です",
+          "optionsJson": "[\"が\",\"です\",\"欲しい (ほしい)\",\"新しい靴 (あたらしいくつ)\"]",
+          "options": [
+            "が",
+            "です",
+            "欲しい (ほしい)",
+            "新しい靴 (あたらしいくつ)"
+          ],
+          "correctOrderJson": "[\"新しい靴 (あたらしいくつ)\",\"が\",\"欲しい (ほしい)\",\"です\"]",
+          "correctOrder": [
+            "新しい靴 (あたらしいくつ)",
+            "が",
+            "欲しい (ほしい)",
+            "です"
+          ],
+          "orderIndex": 6
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000513003",
+          "patternId": "77777777-1123-0001-0000-000000005004",
+          "exerciseType": "ja_to_vi",
+          "prompt": "誕生日にお金がほしいです。",
+          "promptReading": "たんじょうびにおかねがほしいです。",
+          "expectedAnswer": "Vào ngày sinh nhật tôi muốn có tiền.",
+          "hint": "N が ほしいです",
+          "explanation": "ほしい là một tính từ đuôi い.",
+          "orderIndex": 7
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000523003",
+          "patternId": "77777777-1123-0001-0000-000000005004",
+          "exerciseType": "vi_to_ja",
+          "prompt": "Vào ngày sinh nhật tôi muốn có tiền.",
+          "expectedAnswer": "誕生日にお金がほしいです。",
+          "acceptableAnswers": [
+            "たんじょうびにおかねがほしいです。"
+          ],
+          "hint": "Danh từ + が + ほしい + です",
+          "explanation": "ほしい là một tính từ đuôi い.",
+          "orderIndex": 8
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000533003",
+          "patternId": "77777777-1123-0001-0000-000000005004",
+          "exerciseType": "arrange",
+          "prompt": "Vào ngày sinh nhật tôi muốn có tiền.",
+          "expectedAnswer": "誕生日 (たんじょうび)にお金 (おかね)がほしいです",
+          "optionsJson": "[\"が\",\"に\",\"です\",\"ほしい\",\"お金 (おかね)\",\"誕生日 (たんじょうび)\"]",
+          "options": [
+            "が",
+            "に",
+            "です",
+            "ほしい",
+            "お金 (おかね)",
+            "誕生日 (たんじょうび)"
+          ],
+          "correctOrderJson": "[\"誕生日 (たんじょうび)\",\"に\",\"お金 (おかね)\",\"が\",\"ほしい\",\"です\"]",
+          "correctOrder": [
+            "誕生日 (たんじょうび)",
+            "に",
+            "お金 (おかね)",
+            "が",
+            "ほしい",
+            "です"
+          ],
+          "orderIndex": 9
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000513004",
+          "patternId": "77777777-1123-0001-0000-000000005004",
+          "exerciseType": "ja_to_vi",
+          "prompt": "私は広い家がほしいです。",
+          "promptReading": "わたしはひろいうちがほしいです。",
+          "expectedAnswer": "Tôi muốn có một ngôi nhà rộng.",
+          "hint": "N が ほしいです",
+          "explanation": "ほしい là một tính từ đuôi い.",
+          "orderIndex": 10
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000523004",
+          "patternId": "77777777-1123-0001-0000-000000005004",
+          "exerciseType": "vi_to_ja",
+          "prompt": "Tôi muốn có một ngôi nhà rộng.",
+          "expectedAnswer": "私は広い家がほしいです。",
+          "acceptableAnswers": [
+            "わたしはひろいうちがほしいです。"
+          ],
+          "hint": "Danh từ + が + ほしい + です",
+          "explanation": "ほしい là một tính từ đuôi い.",
+          "orderIndex": 11
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000533004",
+          "patternId": "77777777-1123-0001-0000-000000005004",
+          "exerciseType": "arrange",
+          "prompt": "Tôi muốn có một ngôi nhà rộng.",
+          "expectedAnswer": "私 (わたし)は広い家 (ひろいうち)がほしいです",
+          "optionsJson": "[\"が\",\"は\",\"です\",\"ほしい\",\"私 (わたし)\",\"広い家 (ひろいうち)\"]",
+          "options": [
+            "が",
+            "は",
+            "です",
+            "ほしい",
+            "私 (わたし)",
+            "広い家 (ひろいうち)"
+          ],
+          "correctOrderJson": "[\"私 (わたし)\",\"は\",\"広い家 (ひろいうち)\",\"が\",\"ほしい\",\"です\"]",
+          "correctOrder": [
+            "私 (わたし)",
+            "は",
+            "広い家 (ひろいうち)",
+            "が",
+            "ほしい",
+            "です"
+          ],
+          "orderIndex": 12
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000513005",
+          "patternId": "77777777-1123-0001-0000-000000005004",
+          "exerciseType": "ja_to_vi",
+          "prompt": "今は何も欲しくないです。",
+          "promptReading": "いまはなにもほしくないです。",
+          "expectedAnswer": "Bây giờ tôi không muốn gì cả.",
+          "hint": "N が ほしいです",
+          "explanation": "ほしい là một tính từ đuôi い.",
+          "orderIndex": 13
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000523005",
+          "patternId": "77777777-1123-0001-0000-000000005004",
+          "exerciseType": "vi_to_ja",
+          "prompt": "Bây giờ tôi không muốn gì cả.",
+          "expectedAnswer": "今は何も欲しくないです。",
+          "acceptableAnswers": [
+            "いまはなにもほしくないです。"
+          ],
+          "hint": "Danh từ + が + ほしい + です",
+          "explanation": "ほしい là một tính từ đuôi い.",
+          "orderIndex": 14
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000533005",
+          "patternId": "77777777-1123-0001-0000-000000005004",
+          "exerciseType": "arrange",
+          "prompt": "Bây giờ tôi không muốn gì cả.",
+          "expectedAnswer": "今 (いま)は何 (なに)も欲しくない (ほしくない)です",
+          "optionsJson": "[\"は\",\"も\",\"です\",\"今 (いま)\",\"何 (なに)\",\"欲しくない (ほしくない)\"]",
+          "options": [
+            "は",
+            "も",
+            "です",
+            "今 (いま)",
+            "何 (なに)",
+            "欲しくない (ほしくない)"
+          ],
+          "correctOrderJson": "[\"今 (いま)\",\"は\",\"何 (なに)\",\"も\",\"欲しくない (ほしくない)\",\"です\"]",
+          "correctOrder": [
+            "今 (いま)",
+            "は",
+            "何 (なに)",
+            "も",
+            "欲しくない (ほしくない)",
+            "です"
+          ],
+          "orderIndex": 15
+        }
+      ]
+    },
+    {
+      "id": "77777777-1123-0001-0000-000000005005",
+      "lessonId": "77777777-1123-0000-0000-000000000105",
+      "level": "N5",
+      "courseCode": "jpd123",
+      "pattern": "Vたいです",
+      "title": "Mong muốn làm hành động",
+      "meaning": "Muốn làm V",
+      "structure": "V (bỏ ます) + たいです",
+      "accessTier": "premium",
+      "isLocked": true,
+      "isInStudy": false,
+      "progress": null,
+      "usageScope": "Diễn tả nguyện vọng thực hiện một hành động.",
+      "formation": "Bỏ ます thêm たいです",
+      "notes": "Trợ từ を có thể chuyển thành が khi dùng với たい.",
+      "examples": [
+        {
+          "id": "77777777-1123-0002-0000-000000504001",
+          "japanese": "私はコーヒーを（が）飲みたいです。",
+          "reading": "わたしはコーヒーを（が）のみたいです。",
+          "meaning": "Tôi muốn uống cà phê.",
+          "orderIndex": 1
+        },
+        {
+          "id": "77777777-1123-0002-0000-000000504002",
+          "japanese": "日本へ行きたいです。",
+          "reading": "にほんへいきたいです。",
+          "meaning": "Tôi muốn đi Nhật Bản.",
+          "orderIndex": 2
+        },
+        {
+          "id": "77777777-1123-0002-0000-000000504003",
+          "japanese": "おいしい寿司を食べたいです。",
+          "reading": "おいしいすしをたべたいです。",
+          "meaning": "Tôi muốn ăn sushi ngon.",
+          "orderIndex": 3
+        },
+        {
+          "id": "77777777-1123-0002-0000-000000504004",
+          "japanese": "今日はどこへも行きたくないです。",
+          "reading": "きょうはどこへもいきたくないです。",
+          "meaning": "Hôm nay tôi không muốn đi đâu cả.",
+          "orderIndex": 4
+        },
+        {
+          "id": "77777777-1123-0002-0000-000000504005",
+          "japanese": "週末は家でゆっくり休みたいです。",
+          "reading": "しゅうまつはうちでゆっくりやすみたいです。",
+          "meaning": "Cuối tuần tôi muốn ở nhà nghỉ ngơi thong thả.",
+          "orderIndex": 5
+        }
+      ],
+      "exercises": [
+        {
+          "id": "77777777-1123-0003-0000-000000514001",
+          "patternId": "77777777-1123-0001-0000-000000005005",
+          "exerciseType": "ja_to_vi",
+          "prompt": "私はコーヒーを（が）飲みたいです。",
+          "promptReading": "わたしはコーヒーを（が）のみたいです。",
+          "expectedAnswer": "Tôi muốn uống cà phê.",
+          "hint": "Vたいです",
+          "explanation": "Trợ từ を có thể chuyển thành が khi dùng với たい.",
+          "orderIndex": 1
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000524001",
+          "patternId": "77777777-1123-0001-0000-000000005005",
+          "exerciseType": "vi_to_ja",
+          "prompt": "Tôi muốn uống cà phê.",
+          "expectedAnswer": "私はコーヒーを（が）飲みたいです。",
+          "acceptableAnswers": [
+            "わたしはコーヒーを（が）のみたいです。"
+          ],
+          "hint": "Bỏ ます thêm たいです",
+          "explanation": "Trợ từ を có thể chuyển thành が khi dùng với たい.",
+          "orderIndex": 2
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000534001",
+          "patternId": "77777777-1123-0001-0000-000000005005",
+          "exerciseType": "arrange",
+          "prompt": "Tôi muốn uống cà phê.",
+          "expectedAnswer": "私 (わたし)はコーヒーを（が）飲みたい (）のみたい)です",
+          "optionsJson": "[\"が\",\"は\",\"を\",\"です\",\"コーヒー\",\"（\",\"私 (わたし)\",\"）飲みたい (）のみたい)\"]",
+          "options": [
+            "が",
+            "は",
+            "を",
+            "です",
+            "コーヒー",
+            "（",
+            "私 (わたし)",
+            "）飲みたい (）のみたい)"
+          ],
+          "correctOrderJson": "[\"私 (わたし)\",\"は\",\"コーヒー\",\"を\",\"（\",\"が\",\"）飲みたい (）のみたい)\",\"です\"]",
+          "correctOrder": [
+            "私 (わたし)",
+            "は",
+            "コーヒー",
+            "を",
+            "（",
+            "が",
+            "）飲みたい (）のみたい)",
+            "です"
+          ],
+          "orderIndex": 3
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000514002",
+          "patternId": "77777777-1123-0001-0000-000000005005",
+          "exerciseType": "ja_to_vi",
+          "prompt": "日本へ行きたいです。",
+          "promptReading": "にほんへいきたいです。",
+          "expectedAnswer": "Tôi muốn đi Nhật Bản.",
+          "hint": "Vたいです",
+          "explanation": "Trợ từ を có thể chuyển thành が khi dùng với たい.",
+          "orderIndex": 4
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000524002",
+          "patternId": "77777777-1123-0001-0000-000000005005",
+          "exerciseType": "vi_to_ja",
+          "prompt": "Tôi muốn đi Nhật Bản.",
+          "expectedAnswer": "日本へ行きたいです。",
+          "acceptableAnswers": [
+            "にほんへいきたいです。"
+          ],
+          "hint": "Bỏ ます thêm たいです",
+          "explanation": "Trợ từ を có thể chuyển thành が khi dùng với たい.",
+          "orderIndex": 5
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000534002",
+          "patternId": "77777777-1123-0001-0000-000000005005",
+          "exerciseType": "arrange",
+          "prompt": "Tôi muốn đi Nhật Bản.",
+          "expectedAnswer": "日本 (にほん)へ行きたい (いきたい)です",
+          "optionsJson": "[\"へ\",\"です\",\"日本 (にほん)\",\"行きたい (いきたい)\"]",
+          "options": [
+            "へ",
+            "です",
+            "日本 (にほん)",
+            "行きたい (いきたい)"
+          ],
+          "correctOrderJson": "[\"日本 (にほん)\",\"へ\",\"行きたい (いきたい)\",\"です\"]",
+          "correctOrder": [
+            "日本 (にほん)",
+            "へ",
+            "行きたい (いきたい)",
+            "です"
+          ],
+          "orderIndex": 6
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000514003",
+          "patternId": "77777777-1123-0001-0000-000000005005",
+          "exerciseType": "ja_to_vi",
+          "prompt": "おいしい寿司を食べたいです。",
+          "promptReading": "おいしいすしをたべたいです。",
+          "expectedAnswer": "Tôi muốn ăn sushi ngon.",
+          "hint": "Vたいです",
+          "explanation": "Trợ từ を có thể chuyển thành が khi dùng với たい.",
+          "orderIndex": 7
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000524003",
+          "patternId": "77777777-1123-0001-0000-000000005005",
+          "exerciseType": "vi_to_ja",
+          "prompt": "Tôi muốn ăn sushi ngon.",
+          "expectedAnswer": "おいしい寿司を食べたいです。",
+          "acceptableAnswers": [
+            "おいしいすしをたべたいです。"
+          ],
+          "hint": "Bỏ ます thêm たいです",
+          "explanation": "Trợ từ を có thể chuyển thành が khi dùng với たい.",
+          "orderIndex": 8
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000534003",
+          "patternId": "77777777-1123-0001-0000-000000005005",
+          "exerciseType": "arrange",
+          "prompt": "Tôi muốn ăn sushi ngon.",
+          "expectedAnswer": "おいしい寿司 (おいしいすし)を食べたい (たべたい)です",
+          "optionsJson": "[\"を\",\"です\",\"食べたい (たべたい)\",\"おいしい寿司 (おいしいすし)\"]",
+          "options": [
+            "を",
+            "です",
+            "食べたい (たべたい)",
+            "おいしい寿司 (おいしいすし)"
+          ],
+          "correctOrderJson": "[\"おいしい寿司 (おいしいすし)\",\"を\",\"食べたい (たべたい)\",\"です\"]",
+          "correctOrder": [
+            "おいしい寿司 (おいしいすし)",
+            "を",
+            "食べたい (たべたい)",
+            "です"
+          ],
+          "orderIndex": 9
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000514004",
+          "patternId": "77777777-1123-0001-0000-000000005005",
+          "exerciseType": "ja_to_vi",
+          "prompt": "今日はどこへも行きたくないです。",
+          "promptReading": "きょうはどこへもいきたくないです。",
+          "expectedAnswer": "Hôm nay tôi không muốn đi đâu cả.",
+          "hint": "Vたいです",
+          "explanation": "Trợ từ を có thể chuyển thành が khi dùng với たい.",
+          "orderIndex": 10
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000524004",
+          "patternId": "77777777-1123-0001-0000-000000005005",
+          "exerciseType": "vi_to_ja",
+          "prompt": "Hôm nay tôi không muốn đi đâu cả.",
+          "expectedAnswer": "今日はどこへも行きたくないです。",
+          "acceptableAnswers": [
+            "きょうはどこへもいきたくないです。"
+          ],
+          "hint": "Bỏ ます thêm たいです",
+          "explanation": "Trợ từ を có thể chuyển thành が khi dùng với たい.",
+          "orderIndex": 11
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000534004",
+          "patternId": "77777777-1123-0001-0000-000000005005",
+          "exerciseType": "arrange",
+          "prompt": "Hôm nay tôi không muốn đi đâu cả.",
+          "expectedAnswer": "今日 (きょう)はどこへも行きたくない (もいきたくない)です",
+          "optionsJson": "[\"は\",\"へ\",\"も\",\"どこ\",\"です\",\"今日 (きょう)\",\"行きたくない (もいきたくない)\"]",
+          "options": [
+            "は",
+            "へ",
+            "も",
+            "どこ",
+            "です",
+            "今日 (きょう)",
+            "行きたくない (もいきたくない)"
+          ],
+          "correctOrderJson": "[\"今日 (きょう)\",\"は\",\"どこ\",\"へ\",\"も\",\"行きたくない (もいきたくない)\",\"です\"]",
+          "correctOrder": [
+            "今日 (きょう)",
+            "は",
+            "どこ",
+            "へ",
+            "も",
+            "行きたくない (もいきたくない)",
+            "です"
+          ],
+          "orderIndex": 12
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000514005",
+          "patternId": "77777777-1123-0001-0000-000000005005",
+          "exerciseType": "ja_to_vi",
+          "prompt": "週末は家でゆっくり休みたいです。",
+          "promptReading": "しゅうまつはうちでゆっくりやすみたいです。",
+          "expectedAnswer": "Cuối tuần tôi muốn ở nhà nghỉ ngơi thong thả.",
+          "hint": "Vたいです",
+          "explanation": "Trợ từ を có thể chuyển thành が khi dùng với たい.",
+          "orderIndex": 13
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000524005",
+          "patternId": "77777777-1123-0001-0000-000000005005",
+          "exerciseType": "vi_to_ja",
+          "prompt": "Cuối tuần tôi muốn ở nhà nghỉ ngơi thong thả.",
+          "expectedAnswer": "週末は家でゆっくり休みたいです。",
+          "acceptableAnswers": [
+            "しゅうまつはうちでゆっくりやすみたいです。"
+          ],
+          "hint": "Bỏ ます thêm たいです",
+          "explanation": "Trợ từ を có thể chuyển thành が khi dùng với たい.",
+          "orderIndex": 14
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000534005",
+          "patternId": "77777777-1123-0001-0000-000000005005",
+          "exerciseType": "arrange",
+          "prompt": "Cuối tuần tôi muốn ở nhà nghỉ ngơi thong thả.",
+          "expectedAnswer": "週末 (しゅうまつ)は家でゆっくり休みたい (うちでゆっくりやすみたい)です",
+          "optionsJson": "[\"は\",\"です\",\"週末 (しゅうまつ)\",\"家でゆっくり休みたい (うちでゆっくりやすみたい)\"]",
+          "options": [
+            "は",
+            "です",
+            "週末 (しゅうまつ)",
+            "家でゆっくり休みたい (うちでゆっくりやすみたい)"
+          ],
+          "correctOrderJson": "[\"週末 (しゅうまつ)\",\"は\",\"家でゆっくり休みたい (うちでゆっくりやすみたい)\",\"です\"]",
+          "correctOrder": [
+            "週末 (しゅうまつ)",
+            "は",
+            "家でゆっくり休みたい (うちでゆっくりやすみたい)",
+            "です"
+          ],
+          "orderIndex": 15
+        }
+      ]
+    },
+    {
+      "id": "77777777-1123-0001-0000-000000005006",
+      "lessonId": "77777777-1123-0000-0000-000000000105",
+      "level": "N5",
+      "courseCode": "jpd123",
+      "pattern": "N (địa điểm) へ V に行きます",
+      "title": "Mục đích di chuyển",
+      "meaning": "Đi đâu để làm gì",
+      "structure": "N へ [Vます/N] に 行きます",
+      "accessTier": "premium",
+      "isLocked": true,
+      "isInStudy": false,
+      "progress": null,
+      "usageScope": "Diễn tả mục đích của việc đi/đến/về.",
+      "formation": "N địa điểm + へ + V (bỏ ます) + に + 行きます",
+      "notes": "V-masu bỏ masu hoặc N chỉ hành động (như 買い物).",
+      "examples": [
+        {
+          "id": "77777777-1123-0002-0000-000000505001",
+          "japanese": "新宿へ買い物に行きます。",
+          "reading": "しんじゅくへかいものにいきます。",
+          "meaning": "Tôi đi Shinjuku để mua sắm.",
+          "orderIndex": 1
+        },
+        {
+          "id": "77777777-1123-0002-0000-000000505002",
+          "japanese": "公園へ遊びに行きます。",
+          "reading": "こうえんへあそびにいきます。",
+          "meaning": "Tôi đi đến công viên để chơi.",
+          "orderIndex": 2
+        },
+        {
+          "id": "77777777-1123-0002-0000-000000505003",
+          "japanese": "デパートへ靴を買いに行きます。",
+          "reading": "デパートへくつをかいにいきます。",
+          "meaning": "Tôi đi đến bách hóa để mua giày.",
+          "orderIndex": 3
+        },
+        {
+          "id": "77777777-1123-0002-0000-000000505004",
+          "japanese": "日本へ日本語を勉強しに来ました。",
+          "reading": "にほんへにほんごをべんきょうしにきました。",
+          "meaning": "Tôi đã đến Nhật để học tiếng Nhật.",
+          "orderIndex": 4
+        },
+        {
+          "id": "77777777-1123-0002-0000-000000505005",
+          "japanese": "レストランへ昼ごはんを食べに行きます。",
+          "reading": "レストランへひるごはんをたべにいきます。",
+          "meaning": "Tôi đi đến nhà hàng để ăn trưa.",
+          "orderIndex": 5
+        }
+      ],
+      "exercises": [
+        {
+          "id": "77777777-1123-0003-0000-000000515001",
+          "patternId": "77777777-1123-0001-0000-000000005006",
+          "exerciseType": "ja_to_vi",
+          "prompt": "新宿へ買い物に行きます。",
+          "promptReading": "しんじゅくへかいものにいきます。",
+          "expectedAnswer": "Tôi đi Shinjuku để mua sắm.",
+          "hint": "N (địa điểm) へ V に行きます",
+          "explanation": "V-masu bỏ masu hoặc N chỉ hành động (như 買い物).",
+          "orderIndex": 1
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000525001",
+          "patternId": "77777777-1123-0001-0000-000000005006",
+          "exerciseType": "vi_to_ja",
+          "prompt": "Tôi đi Shinjuku để mua sắm.",
+          "expectedAnswer": "新宿へ買い物に行きます。",
+          "acceptableAnswers": [
+            "しんじゅくへかいものにいきます。"
+          ],
+          "hint": "N địa điểm + へ + V (bỏ ます) + に + 行きます",
+          "explanation": "V-masu bỏ masu hoặc N chỉ hành động (như 買い物).",
+          "orderIndex": 2
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000535001",
+          "patternId": "77777777-1123-0001-0000-000000005006",
+          "exerciseType": "arrange",
+          "prompt": "Tôi đi Shinjuku để mua sắm.",
+          "expectedAnswer": "新宿 (しんじゅく)へ買い物 (かいもの)に行きます (いきます)",
+          "optionsJson": "[\"に\",\"へ\",\"新宿 (しんじゅく)\",\"行きます (いきます)\",\"買い物 (かいもの)\"]",
+          "options": [
+            "に",
+            "へ",
+            "新宿 (しんじゅく)",
+            "行きます (いきます)",
+            "買い物 (かいもの)"
+          ],
+          "correctOrderJson": "[\"新宿 (しんじゅく)\",\"へ\",\"買い物 (かいもの)\",\"に\",\"行きます (いきます)\"]",
+          "correctOrder": [
+            "新宿 (しんじゅく)",
+            "へ",
+            "買い物 (かいもの)",
+            "に",
+            "行きます (いきます)"
+          ],
+          "orderIndex": 3
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000515002",
+          "patternId": "77777777-1123-0001-0000-000000005006",
+          "exerciseType": "ja_to_vi",
+          "prompt": "公園へ遊びに行きます。",
+          "promptReading": "こうえんへあそびにいきます。",
+          "expectedAnswer": "Tôi đi đến công viên để chơi.",
+          "hint": "N (địa điểm) へ V に行きます",
+          "explanation": "V-masu bỏ masu hoặc N chỉ hành động (như 買い物).",
+          "orderIndex": 4
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000525002",
+          "patternId": "77777777-1123-0001-0000-000000005006",
+          "exerciseType": "vi_to_ja",
+          "prompt": "Tôi đi đến công viên để chơi.",
+          "expectedAnswer": "公園へ遊びに行きます。",
+          "acceptableAnswers": [
+            "こうえんへあそびにいきます。"
+          ],
+          "hint": "N địa điểm + へ + V (bỏ ます) + に + 行きます",
+          "explanation": "V-masu bỏ masu hoặc N chỉ hành động (như 買い物).",
+          "orderIndex": 5
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000535002",
+          "patternId": "77777777-1123-0001-0000-000000005006",
+          "exerciseType": "arrange",
+          "prompt": "Tôi đi đến công viên để chơi.",
+          "expectedAnswer": "公園 (こうえん)へ遊び (あそび)に行きます (いきます)",
+          "optionsJson": "[\"に\",\"へ\",\"遊び (あそび)\",\"公園 (こうえん)\",\"行きます (いきます)\"]",
+          "options": [
+            "に",
+            "へ",
+            "遊び (あそび)",
+            "公園 (こうえん)",
+            "行きます (いきます)"
+          ],
+          "correctOrderJson": "[\"公園 (こうえん)\",\"へ\",\"遊び (あそび)\",\"に\",\"行きます (いきます)\"]",
+          "correctOrder": [
+            "公園 (こうえん)",
+            "へ",
+            "遊び (あそび)",
+            "に",
+            "行きます (いきます)"
+          ],
+          "orderIndex": 6
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000515003",
+          "patternId": "77777777-1123-0001-0000-000000005006",
+          "exerciseType": "ja_to_vi",
+          "prompt": "デパートへ靴を買いに行きます。",
+          "promptReading": "デパートへくつをかいにいきます。",
+          "expectedAnswer": "Tôi đi đến bách hóa để mua giày.",
+          "hint": "N (địa điểm) へ V に行きます",
+          "explanation": "V-masu bỏ masu hoặc N chỉ hành động (như 買い物).",
+          "orderIndex": 7
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000525003",
+          "patternId": "77777777-1123-0001-0000-000000005006",
+          "exerciseType": "vi_to_ja",
+          "prompt": "Tôi đi đến bách hóa để mua giày.",
+          "expectedAnswer": "デパートへ靴を買いに行きます。",
+          "acceptableAnswers": [
+            "デパートへくつをかいにいきます。"
+          ],
+          "hint": "N địa điểm + へ + V (bỏ ます) + に + 行きます",
+          "explanation": "V-masu bỏ masu hoặc N chỉ hành động (như 買い物).",
+          "orderIndex": 8
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000535003",
+          "patternId": "77777777-1123-0001-0000-000000005006",
+          "exerciseType": "arrange",
+          "prompt": "Tôi đi đến bách hóa để mua giày.",
+          "expectedAnswer": "デパートへ靴 (くつ)を買い (かい)に行きます (いきます)",
+          "optionsJson": "[\"に\",\"へ\",\"を\",\"デパート\",\"靴 (くつ)\",\"買い (かい)\",\"行きます (いきます)\"]",
+          "options": [
+            "に",
+            "へ",
+            "を",
+            "デパート",
+            "靴 (くつ)",
+            "買い (かい)",
+            "行きます (いきます)"
+          ],
+          "correctOrderJson": "[\"デパート\",\"へ\",\"靴 (くつ)\",\"を\",\"買い (かい)\",\"に\",\"行きます (いきます)\"]",
+          "correctOrder": [
+            "デパート",
+            "へ",
+            "靴 (くつ)",
+            "を",
+            "買い (かい)",
+            "に",
+            "行きます (いきます)"
+          ],
+          "orderIndex": 9
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000515004",
+          "patternId": "77777777-1123-0001-0000-000000005006",
+          "exerciseType": "ja_to_vi",
+          "prompt": "日本へ日本語を勉強しに来ました。",
+          "promptReading": "にほんへにほんごをべんきょうしにきました。",
+          "expectedAnswer": "Tôi đã đến Nhật để học tiếng Nhật.",
+          "hint": "N (địa điểm) へ V に行きます",
+          "explanation": "V-masu bỏ masu hoặc N chỉ hành động (như 買い物).",
+          "orderIndex": 10
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000525004",
+          "patternId": "77777777-1123-0001-0000-000000005006",
+          "exerciseType": "vi_to_ja",
+          "prompt": "Tôi đã đến Nhật để học tiếng Nhật.",
+          "expectedAnswer": "日本へ日本語を勉強しに来ました。",
+          "acceptableAnswers": [
+            "にほんへにほんごをべんきょうしにきました。"
+          ],
+          "hint": "N địa điểm + へ + V (bỏ ます) + に + 行きます",
+          "explanation": "V-masu bỏ masu hoặc N chỉ hành động (như 買い物).",
+          "orderIndex": 11
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000535004",
+          "patternId": "77777777-1123-0001-0000-000000005006",
+          "exerciseType": "arrange",
+          "prompt": "Tôi đã đến Nhật để học tiếng Nhật.",
+          "expectedAnswer": "日本 (にほん)へ日本語 (にほんご)を勉強し (べんきょうし)に来ました (きました)",
+          "optionsJson": "[\"に\",\"へ\",\"を\",\"日本 (にほん)\",\"来ました (きました)\",\"勉強し (べんきょうし)\",\"日本語 (にほんご)\"]",
+          "options": [
+            "に",
+            "へ",
+            "を",
+            "日本 (にほん)",
+            "来ました (きました)",
+            "勉強し (べんきょうし)",
+            "日本語 (にほんご)"
+          ],
+          "correctOrderJson": "[\"日本 (にほん)\",\"へ\",\"日本語 (にほんご)\",\"を\",\"勉強し (べんきょうし)\",\"に\",\"来ました (きました)\"]",
+          "correctOrder": [
+            "日本 (にほん)",
+            "へ",
+            "日本語 (にほんご)",
+            "を",
+            "勉強し (べんきょうし)",
+            "に",
+            "来ました (きました)"
+          ],
+          "orderIndex": 12
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000515005",
+          "patternId": "77777777-1123-0001-0000-000000005006",
+          "exerciseType": "ja_to_vi",
+          "prompt": "レストランへ昼ごはんを食べに行きます。",
+          "promptReading": "レストランへひるごはんをたべにいきます。",
+          "expectedAnswer": "Tôi đi đến nhà hàng để ăn trưa.",
+          "hint": "N (địa điểm) へ V に行きます",
+          "explanation": "V-masu bỏ masu hoặc N chỉ hành động (như 買い物).",
+          "orderIndex": 13
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000525005",
+          "patternId": "77777777-1123-0001-0000-000000005006",
+          "exerciseType": "vi_to_ja",
+          "prompt": "Tôi đi đến nhà hàng để ăn trưa.",
+          "expectedAnswer": "レストランへ昼ごはんを食べに行きます。",
+          "acceptableAnswers": [
+            "レストランへひるごはんをたべにいきます。"
+          ],
+          "hint": "N địa điểm + へ + V (bỏ ます) + に + 行きます",
+          "explanation": "V-masu bỏ masu hoặc N chỉ hành động (như 買い物).",
+          "orderIndex": 14
+        },
+        {
+          "id": "77777777-1123-0003-0000-000000535005",
+          "patternId": "77777777-1123-0001-0000-000000005006",
+          "exerciseType": "arrange",
+          "prompt": "Tôi đi đến nhà hàng để ăn trưa.",
+          "expectedAnswer": "レストランへ昼ご (ひるご)はんを食べ (たべ)に行きます (いきます)",
+          "optionsJson": "[\"に\",\"は\",\"へ\",\"を\",\"ん\",\"レストラン\",\"昼ご (ひるご)\",\"食べ (たべ)\",\"行きます (いきます)\"]",
+          "options": [
+            "に",
+            "は",
+            "へ",
+            "を",
+            "ん",
+            "レストラン",
+            "昼ご (ひるご)",
+            "食べ (たべ)",
+            "行きます (いきます)"
+          ],
+          "correctOrderJson": "[\"レストラン\",\"へ\",\"昼ご (ひるご)\",\"は\",\"ん\",\"を\",\"食べ (たべ)\",\"に\",\"行きます (いきます)\"]",
+          "correctOrder": [
+            "レストラン",
+            "へ",
+            "昼ご (ひるご)",
+            "は",
+            "ん",
+            "を",
+            "食べ (たべ)",
+            "に",
+            "行きます (いきます)"
+          ],
+          "orderIndex": 15
+        }
+      ]
+    }
+  ]
+}

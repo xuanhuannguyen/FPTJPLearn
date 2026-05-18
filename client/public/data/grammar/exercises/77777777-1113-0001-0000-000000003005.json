@@ -1,0 +1,230 @@
+[
+  {
+    "id": "77777777-1113-0003-0000-000000314001",
+    "patternId": "77777777-1113-0001-0000-000000003005",
+    "exerciseType": "ja_to_vi",
+    "prompt": "私は北海道でスキーをします。",
+    "promptReading": "わたしはほっかいどうでスキーをします。",
+    "expectedAnswer": "Tôi trượt tuyết ở Hokkaido.",
+    "hint": "N (Địa điểm) で Vます",
+    "explanation": "Phân biệt với trợ từ へ (hướng đến).",
+    "orderIndex": 1
+  },
+  {
+    "id": "77777777-1113-0003-0000-000000324001",
+    "patternId": "77777777-1113-0001-0000-000000003005",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Tôi trượt tuyết ở Hokkaido.",
+    "expectedAnswer": "私は北海道でスキーをします。",
+    "acceptableAnswers": [
+      "わたしはほっかいどうでスキーをします。"
+    ],
+    "hint": "Danh từ địa điểm + で + Động từ",
+    "explanation": "Phân biệt với trợ từ へ (hướng đến).",
+    "orderIndex": 2
+  },
+  {
+    "id": "77777777-1113-0003-0000-000000334001",
+    "patternId": "77777777-1113-0001-0000-000000003005",
+    "exerciseType": "arrange",
+    "prompt": "Tôi trượt tuyết ở Hokkaido.",
+    "expectedAnswer": "私 (わたし)は北海道でスキー (ほっかいどうでスキー)をします",
+    "optionsJson": "[\"は\",\"を\",\"します\",\"私 (わたし)\",\"北海道でスキー (ほっかいどうでスキー)\"]",
+    "options": [
+      "は",
+      "を",
+      "します",
+      "私 (わたし)",
+      "北海道でスキー (ほっかいどうでスキー)"
+    ],
+    "correctOrderJson": "[\"私 (わたし)\",\"は\",\"北海道でスキー (ほっかいどうでスキー)\",\"を\",\"します\"]",
+    "correctOrder": [
+      "私 (わたし)",
+      "は",
+      "北海道でスキー (ほっかいどうでスキー)",
+      "を",
+      "します"
+    ],
+    "orderIndex": 3
+  },
+  {
+    "id": "77777777-1113-0003-0000-000000314002",
+    "patternId": "77777777-1113-0001-0000-000000003005",
+    "exerciseType": "ja_to_vi",
+    "prompt": "学校で日本語を勉強します。",
+    "promptReading": "がっこうでにほんごをべんきょうします。",
+    "expectedAnswer": "Tôi học tiếng Nhật ở trường.",
+    "hint": "N (Địa điểm) で Vます",
+    "explanation": "Phân biệt với trợ từ へ (hướng đến).",
+    "orderIndex": 4
+  },
+  {
+    "id": "77777777-1113-0003-0000-000000324002",
+    "patternId": "77777777-1113-0001-0000-000000003005",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Tôi học tiếng Nhật ở trường.",
+    "expectedAnswer": "学校で日本語を勉強します。",
+    "acceptableAnswers": [
+      "がっこうでにほんごをべんきょうします。"
+    ],
+    "hint": "Danh từ địa điểm + で + Động từ",
+    "explanation": "Phân biệt với trợ từ へ (hướng đến).",
+    "orderIndex": 5
+  },
+  {
+    "id": "77777777-1113-0003-0000-000000334002",
+    "patternId": "77777777-1113-0001-0000-000000003005",
+    "exerciseType": "arrange",
+    "prompt": "Tôi học tiếng Nhật ở trường.",
+    "expectedAnswer": "学校で日本語 (がっこうでにほんご)を勉強します (べんきょうします)",
+    "optionsJson": "[\"を\",\"勉強します (べんきょうします)\",\"学校で日本語 (がっこうでにほんご)\"]",
+    "options": [
+      "を",
+      "勉強します (べんきょうします)",
+      "学校で日本語 (がっこうでにほんご)"
+    ],
+    "correctOrderJson": "[\"学校で日本語 (がっこうでにほんご)\",\"を\",\"勉強します (べんきょうします)\"]",
+    "correctOrder": [
+      "学校で日本語 (がっこうでにほんご)",
+      "を",
+      "勉強します (べんきょうします)"
+    ],
+    "orderIndex": 6
+  },
+  {
+    "id": "77777777-1113-0003-0000-000000314003",
+    "patternId": "77777777-1113-0001-0000-000000003005",
+    "exerciseType": "ja_to_vi",
+    "prompt": "食堂で昼ごはんを食べます。",
+    "promptReading": "しょくどうでひるごはんをたべます。",
+    "expectedAnswer": "Tôi ăn trưa ở nhà ăn.",
+    "hint": "N (Địa điểm) で Vます",
+    "explanation": "Phân biệt với trợ từ へ (hướng đến).",
+    "orderIndex": 7
+  },
+  {
+    "id": "77777777-1113-0003-0000-000000324003",
+    "patternId": "77777777-1113-0001-0000-000000003005",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Tôi ăn trưa ở nhà ăn.",
+    "expectedAnswer": "食堂で昼ごはんを食べます。",
+    "acceptableAnswers": [
+      "しょくどうでひるごはんをたべます。"
+    ],
+    "hint": "Danh từ địa điểm + で + Động từ",
+    "explanation": "Phân biệt với trợ từ へ (hướng đến).",
+    "orderIndex": 8
+  },
+  {
+    "id": "77777777-1113-0003-0000-000000334003",
+    "patternId": "77777777-1113-0001-0000-000000003005",
+    "exerciseType": "arrange",
+    "prompt": "Tôi ăn trưa ở nhà ăn.",
+    "expectedAnswer": "食堂で昼ご (しょくどうでひるご)はんを食べます (たべます)",
+    "optionsJson": "[\"は\",\"を\",\"ん\",\"食べます (たべます)\",\"食堂で昼ご (しょくどうでひるご)\"]",
+    "options": [
+      "は",
+      "を",
+      "ん",
+      "食べます (たべます)",
+      "食堂で昼ご (しょくどうでひるご)"
+    ],
+    "correctOrderJson": "[\"食堂で昼ご (しょくどうでひるご)\",\"は\",\"ん\",\"を\",\"食べます (たべます)\"]",
+    "correctOrder": [
+      "食堂で昼ご (しょくどうでひるご)",
+      "は",
+      "ん",
+      "を",
+      "食べます (たべます)"
+    ],
+    "orderIndex": 9
+  },
+  {
+    "id": "77777777-1113-0003-0000-000000314004",
+    "patternId": "77777777-1113-0001-0000-000000003005",
+    "exerciseType": "ja_to_vi",
+    "prompt": "部屋で本を読みます。",
+    "promptReading": "へやでほんをよみます。",
+    "expectedAnswer": "Tôi đọc sách ở trong phòng.",
+    "hint": "N (Địa điểm) で Vます",
+    "explanation": "Phân biệt với trợ từ へ (hướng đến).",
+    "orderIndex": 10
+  },
+  {
+    "id": "77777777-1113-0003-0000-000000324004",
+    "patternId": "77777777-1113-0001-0000-000000003005",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Tôi đọc sách ở trong phòng.",
+    "expectedAnswer": "部屋で本を読みます。",
+    "acceptableAnswers": [
+      "へやでほんをよみます。"
+    ],
+    "hint": "Danh từ địa điểm + で + Động từ",
+    "explanation": "Phân biệt với trợ từ へ (hướng đến).",
+    "orderIndex": 11
+  },
+  {
+    "id": "77777777-1113-0003-0000-000000334004",
+    "patternId": "77777777-1113-0001-0000-000000003005",
+    "exerciseType": "arrange",
+    "prompt": "Tôi đọc sách ở trong phòng.",
+    "expectedAnswer": "部屋で本 (へやでほん)を読みます (よみます)",
+    "optionsJson": "[\"を\",\"読みます (よみます)\",\"部屋で本 (へやでほん)\"]",
+    "options": [
+      "を",
+      "読みます (よみます)",
+      "部屋で本 (へやでほん)"
+    ],
+    "correctOrderJson": "[\"部屋で本 (へやでほん)\",\"を\",\"読みます (よみます)\"]",
+    "correctOrder": [
+      "部屋で本 (へやでほん)",
+      "を",
+      "読みます (よみます)"
+    ],
+    "orderIndex": 12
+  },
+  {
+    "id": "77777777-1113-0003-0000-000000314005",
+    "patternId": "77777777-1113-0001-0000-000000003005",
+    "exerciseType": "ja_to_vi",
+    "prompt": "駅で新聞を買います。",
+    "promptReading": "えきでしんぶんをかいます。",
+    "expectedAnswer": "Tôi mua báo ở nhà ga.",
+    "hint": "N (Địa điểm) で Vます",
+    "explanation": "Phân biệt với trợ từ へ (hướng đến).",
+    "orderIndex": 13
+  },
+  {
+    "id": "77777777-1113-0003-0000-000000324005",
+    "patternId": "77777777-1113-0001-0000-000000003005",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Tôi mua báo ở nhà ga.",
+    "expectedAnswer": "駅で新聞を買います。",
+    "acceptableAnswers": [
+      "えきでしんぶんをかいます。"
+    ],
+    "hint": "Danh từ địa điểm + で + Động từ",
+    "explanation": "Phân biệt với trợ từ へ (hướng đến).",
+    "orderIndex": 14
+  },
+  {
+    "id": "77777777-1113-0003-0000-000000334005",
+    "patternId": "77777777-1113-0001-0000-000000003005",
+    "exerciseType": "arrange",
+    "prompt": "Tôi mua báo ở nhà ga.",
+    "expectedAnswer": "駅で新聞 (えきでしんぶん)を買います (かいます)",
+    "optionsJson": "[\"を\",\"買います (かいます)\",\"駅で新聞 (えきでしんぶん)\"]",
+    "options": [
+      "を",
+      "買います (かいます)",
+      "駅で新聞 (えきでしんぶん)"
+    ],
+    "correctOrderJson": "[\"駅で新聞 (えきでしんぶん)\",\"を\",\"買います (かいます)\"]",
+    "correctOrder": [
+      "駅で新聞 (えきでしんぶん)",
+      "を",
+      "買います (かいます)"
+    ],
+    "orderIndex": 15
+  }
+]
