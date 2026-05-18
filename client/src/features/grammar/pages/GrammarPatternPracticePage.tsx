@@ -7,6 +7,8 @@ import {
   Puzzle,
   Repeat,
 } from 'lucide-react';
+import { KanaInputToggle } from '../../../shared/components/KanaInputToggle';
+import type { KanaInputMode } from '../../../shared/utils/kanaInput';
 import { grammarApi } from '../api/grammarApi';
 import {
   GrammarPracticeCard,
@@ -57,6 +59,7 @@ export const GrammarPatternPracticePage = () => {
   const [revealingId, setRevealingId] = useState<string | null>(null);
   const [exerciseState, setExerciseState] = useState<Record<string, GrammarExerciseState>>({});
   const [showHint, setShowHint] = useState<Record<string, boolean>>({});
+  const [kanaMode, setKanaMode] = useState<KanaInputMode>('off');
   const [error, setError] = useState('');
 
   useEffect(() => {
@@ -285,6 +288,20 @@ export const GrammarPatternPracticePage = () => {
         </div>
       ) : (
         <div className="space-y-5">
+          {activeTab === 'vi_to_ja' ? (
+            <div className="flex flex-col gap-3 rounded-2xl border border-border/10 bg-white px-5 py-4 shadow-sm sm:flex-row sm:items-center sm:justify-between">
+              <div>
+                <p className="text-[10px] font-black uppercase tracking-[0.22em] text-text-muted/60">
+                  Bộ gõ trong app
+                </p>
+                <p className="mt-1 text-xs font-bold text-text-secondary">
+                  Bật một lần, áp dụng cho toàn bộ câu Việt sang Nhật.
+                </p>
+              </div>
+              <KanaInputToggle mode={kanaMode} onModeChange={setKanaMode} />
+            </div>
+          ) : null}
+
           {filteredExercises.map((exercise, index) => {
             return (
               <GrammarPracticeCard
@@ -295,6 +312,7 @@ export const GrammarPatternPracticePage = () => {
                 hintVisible={Boolean(showHint[exercise.id])}
                 checking={checkingId === exercise.id}
                 revealing={revealingId === exercise.id}
+                kanaMode={kanaMode}
                 onAnswerTextChange={(value) =>
                   updateExerciseState(exercise.id, {
                     answerText: value,

@@ -1,6 +1,4 @@
-import { useState } from 'react';
 import { Check, Eye, Lightbulb, Loader2, RotateCcw, Sparkles, X } from 'lucide-react';
-import { KanaInputToggle } from '../../../shared/components/KanaInputToggle';
 import { convertRomajiToKana, type KanaInputMode } from '../../../shared/utils/kanaInput';
 import type { GrammarExercise } from '../types/grammar.types';
 import type { GrammarExerciseState } from '../utils/grammarExerciseState';
@@ -18,6 +16,7 @@ type GrammarPracticeCardProps = {
   hintVisible: boolean;
   checking: boolean;
   revealing: boolean;
+  kanaMode: KanaInputMode;
   onAnswerTextChange: (value: string) => void;
   onToggleHint: (visible: boolean) => void;
   onToggleOption: (optionIndex: number) => void;
@@ -33,6 +32,7 @@ export const GrammarPracticeCard = ({
   hintVisible,
   checking,
   revealing,
+  kanaMode,
   onAnswerTextChange,
   onToggleHint,
   onToggleOption,
@@ -40,7 +40,6 @@ export const GrammarPracticeCard = ({
   onRevealAnswer,
   onReset,
 }: GrammarPracticeCardProps) => {
-  const [kanaMode, setKanaMode] = useState<KanaInputMode>('off');
   const isArrange = exercise.exerciseType === 'arrange';
   const shouldShowKanaToggle = exercise.exerciseType === 'vi_to_ja';
   const selectedOptionOrder = getSelectedOptionOrder(exercise, state.selectedOptionIndexes);
@@ -141,14 +140,6 @@ export const GrammarPracticeCard = ({
             </div>
           ) : (
             <div className="overflow-hidden rounded-lg border border-border/10 bg-white transition-colors focus-within:border-sky-300">
-              {shouldShowKanaToggle ? (
-                <div className="flex items-center justify-between gap-3 border-b border-slate-100 bg-slate-50/70 px-3 py-2">
-                  <span className="text-[10px] font-black uppercase tracking-wider text-text-muted/50">
-                    Bộ gõ trong app
-                  </span>
-                  <KanaInputToggle mode={kanaMode} onModeChange={setKanaMode} />
-                </div>
-              ) : null}
               <textarea
                 value={state.answerText}
                 onChange={(event) =>

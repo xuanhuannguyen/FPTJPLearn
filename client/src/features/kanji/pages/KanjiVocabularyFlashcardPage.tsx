@@ -450,7 +450,10 @@ const KanjiVocabularyTypingWorkspace = ({
   onRestart,
   onClose,
 }: KanjiVocabularyTypingWorkspaceProps) => {
+  const rootRef = useRef<HTMLElement>(null);
   const inputRef = useRef<HTMLInputElement>(null);
+  const onCloseRef = useRef(onClose);
+  const isExitingRef = useRef(false);
   const [inputState, setInputState] = useState({ itemId: '', value: '' });
   const [kanaMode, setKanaMode] = useState<KanaInputMode>('off');
   const [feedback, setFeedback] = useState<TypingAnswer | null>(null);
@@ -460,6 +463,79 @@ const KanjiVocabularyTypingWorkspace = ({
   const currentVocab = vocabs[currentIndex];
   const value = currentVocab && inputState.itemId === currentVocab.id ? inputState.value : '';
   const timezone = Intl.DateTimeFormat().resolvedOptions().timeZone;
+
+  useEffect(() => {
+    onCloseRef.current = onClose;
+  }, [onClose]);
+
+  const doExit = useCallback(() => {
+    if (isExitingRef.current) return;
+    isExitingRef.current = true;
+    if (document.fullscreenElement) {
+      document.exitFullscreen?.().catch(() => undefined);
+    }
+    onCloseRef.current();
+  }, []);
+
+  useEffect(() => {
+    const root = rootRef.current;
+    if (!root) return;
+
+    root.requestFullscreen?.().catch(() => undefined);
+
+    const handleFullscreenChange = () => {
+      if (document.fullscreenElement !== root && !isExitingRef.current) {
+        doExit();
+      }
+    };
+
+    const handleVisibilityChange = () => {
+      if (document.visibilityState === 'hidden') {
+        doExit();
+      }
+    };
+
+    const handlePageHide = () => {
+      doExit();
+    };
+
+    document.addEventListener('fullscreenchange', handleFullscreenChange);
+    document.addEventListener('visibilitychange', handleVisibilityChange);
+    window.addEventListener('pagehide', handlePageHide);
+    return () => {
+      document.removeEventListener('fullscreenchange', handleFullscreenChange);
+      document.removeEventListener('visibilitychange', handleVisibilityChange);
+      window.removeEventListener('pagehide', handlePageHide);
+    };
+  }, [doExit]);
+
+  useEffect(() => {
+    const blockKeys = (event: KeyboardEvent) => {
+      if (event.key === 'F12') {
+        event.preventDefault();
+        event.stopPropagation();
+        return;
+      }
+      if (event.ctrlKey && event.shiftKey && ['I', 'J', 'C'].includes(event.key.toUpperCase())) {
+        event.preventDefault();
+        event.stopPropagation();
+        return;
+      }
+      if (event.ctrlKey && event.key.toUpperCase() === 'U') {
+        event.preventDefault();
+        event.stopPropagation();
+      }
+    };
+
+    const blockContextMenu = (event: MouseEvent) => event.preventDefault();
+
+    document.addEventListener('keydown', blockKeys, true);
+    document.addEventListener('contextmenu', blockContextMenu, true);
+    return () => {
+      document.removeEventListener('keydown', blockKeys, true);
+      document.removeEventListener('contextmenu', blockContextMenu, true);
+    };
+  }, []);
 
   useEffect(() => {
     inputRef.current?.focus();
@@ -524,7 +600,7 @@ const KanjiVocabularyTypingWorkspace = ({
     ));
     const nextFeedback = {
       itemId: currentVocab.id,
-      prompt: currentVocab.meaning,
+      prompt: currentVocab.word,
       input: typed,
       expected: getTypingAnswer(currentVocab),
       word: currentVocab.word,
@@ -565,7 +641,7 @@ const KanjiVocabularyTypingWorkspace = ({
                 <RotateCcw size={18} />
                 Gõ lại
               </button>
-              <button type="button" onClick={onClose} className="btn-primary">
+              <button type="button" onClick={doExit} className="btn-primary">
                 Quay lại flashcard
               </button>
             </div>
@@ -607,8 +683,11 @@ const KanjiVocabularyTypingWorkspace = ({
   }
 
   return (
-    <main className="mx-auto flex w-full max-w-4xl flex-1 flex-col px-4 py-5 text-slate-950 md:px-8">
-      <section className="flex flex-1 flex-col rounded-[18px] border-2 border-black bg-slate-950 p-5 text-white shadow-[4px_4px_0_#0F172A] md:p-7">
+    <main
+      ref={rootRef}
+      className="fixed inset-0 z-50 flex min-h-screen flex-col overflow-auto bg-slate-950 px-4 py-5 text-white md:px-8"
+    >
+      <section className="mx-auto flex w-full max-w-4xl flex-1 flex-col rounded-[18px] border-2 border-white/20 bg-slate-950 p-5 text-white shadow-[4px_4px_0_rgba(255,255,255,0.1)] md:p-7">
         <header className="flex items-center justify-between gap-4 border-b border-white/10 pb-4">
           <div>
             <p className="text-xs font-black uppercase tracking-[0.22em] text-cyan-300">Kanji → Hiragana</p>
@@ -622,7 +701,7 @@ const KanjiVocabularyTypingWorkspace = ({
           </div>
           <button
             type="button"
-            onClick={onClose}
+            onClick={doExit}
             className="inline-flex h-10 items-center gap-2 rounded-xl border-2 border-white/20 bg-white/10 px-3 text-sm font-black text-white transition-all hover:bg-white/15"
           >
             <X size={16} />
