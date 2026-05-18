@@ -19,7 +19,7 @@ export type TypingCategory = {
 export const getTypingCategories = (script: 'hiragana' | 'katakana'): TypingCategory[] => {
   const isHira = script === 'hiragana';
 
-  return [
+  const categories: TypingCategory[] = [
     {
       title: 'Main Kana',
       allLabel: 'All Main Kana',
@@ -279,15 +279,6 @@ export const getTypingCategories = (script: 'hiragana' | 'katakana'): TypingCate
           ],
         },
         {
-          id: 'dya',
-          label: isHira ? 'ぢゃ/dya' : 'ヂャ/dya',
-          items: [
-            { kana: isHira ? 'ぢゃ' : 'ヂャ', romaji: 'dya' },
-            { kana: isHira ? 'ぢゅ' : 'ヂュ', romaji: 'dyu' },
-            { kana: isHira ? 'ぢょ' : 'ヂョ', romaji: 'dyo' },
-          ],
-        },
-        {
           id: 'bya',
           label: isHira ? 'びゃ/bya' : 'ビャ/bya',
           items: [
@@ -308,4 +299,79 @@ export const getTypingCategories = (script: 'hiragana' | 'katakana'): TypingCate
       ],
     },
   ];
+
+  if (!isHira) {
+    categories.push({
+      title: 'Foreign Sound',
+      allLabel: 'All Foreign Sound',
+      groups: [
+        {
+          id: 'she_che_je',
+          label: 'シェ/she',
+          items: [
+            { kana: 'シェ', romaji: 'she' },
+            { kana: 'チェ', romaji: 'che' },
+            { kana: 'ジェ', romaji: 'je' },
+          ],
+        },
+        {
+          id: 'tsa_tse_tso',
+          label: 'ツァ/tsa',
+          items: [
+            { kana: 'ツァ', romaji: 'tsa' },
+            { kana: 'ツェ', romaji: 'tse' },
+            { kana: 'ツォ', romaji: 'tso' },
+          ],
+        },
+        {
+          id: 'fa_fi_fe_fo',
+          label: 'ファ/fa',
+          items: [
+            { kana: 'ファ', romaji: 'fa' },
+            { kana: 'フィ', romaji: 'fi' },
+            { kana: 'フェ', romaji: 'fe' },
+            { kana: 'フォ', romaji: 'fo' },
+          ],
+        },
+        {
+          id: 'ti_tu',
+          label: 'ティ/ti',
+          items: [
+            { kana: 'ティ', romaji: 'ti' },
+            { kana: 'トゥ', romaji: 'tu' },
+          ],
+        },
+        {
+          id: 'di_du_dyu',
+          label: 'ディ/di',
+          items: [
+            { kana: 'ディ', romaji: 'di' },
+            { kana: 'ドゥ', romaji: 'du' },
+            { kana: 'デュ', romaji: 'dyu' },
+          ],
+        },
+        {
+          id: 'wi_we_wo',
+          label: 'ウィ/wi',
+          items: [
+            { kana: 'ウィ', romaji: 'wi' },
+            { kana: 'ウェ', romaji: 'we' },
+            { kana: 'ウォ', romaji: 'wo' },
+          ],
+        },
+        {
+          id: 'va_vi_ve_vo',
+          label: 'ヴァ/va',
+          items: [
+            { kana: 'ヴァ', romaji: 'va' },
+            { kana: 'ヴィ', romaji: 'vi' },
+            { kana: 'ヴェ', romaji: 've' },
+            { kana: 'ヴォ', romaji: 'vo' },
+          ],
+        },
+      ],
+    });
+  }
+
+  return categories;
 };

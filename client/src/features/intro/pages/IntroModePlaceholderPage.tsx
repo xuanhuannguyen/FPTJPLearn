@@ -47,10 +47,29 @@ type ModeKey = keyof typeof modeLabels;
 const isScriptKey = (value?: string): value is ScriptKey => value === 'hiragana' || value === 'katakana';
 const isModeKey = (value?: string): value is ModeKey => value === 'mnemonic' || value === 'typing';
 
+const calculateScore = (totalChars: number, mistakes: number, elapsedMs: number) => {
+  const accuracy = totalChars + mistakes > 0 ? (totalChars / (totalChars + mistakes)) * 100 : 100;
+  const avgTimePerChar = totalChars > 0 ? (elapsedMs / 1000) / totalChars : 0;
+  const targetTime = 5; // giây
+  const speedBonus = Math.min(100, Math.max(0, (1 - (avgTimePerChar - targetTime) / targetTime)) * 100);
+  const rawScore = accuracy * 0.7 + speedBonus * 0.3;
+
+  let stars = 1;
+  if (rawScore >= 95) stars = 5;
+  else if (rawScore >= 85) stars = 4;
+  else if (rawScore >= 70) stars = 3;
+  else if (rawScore >= 50) stars = 2;
+
+  const starLabels = ['Tập lại nhé!', 'Cần cải thiện', 'Khá tốt!', 'Xuất sắc!', 'Hoàn hảo!'];
+
+  return { accuracy, speedBonus, rawScore, stars, label: starLabels[stars - 1] };
+};
+
 export const IntroModePlaceholderPage = () => {
   const { script, mode } = useParams<{ script: string; mode: string }>();
   const [isPracticing, setIsPracticing] = useState(false);
   const [currentIndex, setCurrentIndex] = useState(0);
+  const [isFlippedAll, setIsFlippedAll] = useState(false);
 
   // Selection / Quiz states for Typing
   const [selectedGroups, setSelectedGroups] = useState<string[]>([]);
@@ -61,6 +80,7 @@ export const IntroModePlaceholderPage = () => {
     isCorrect: boolean;
     isWrong: boolean;
   }[]>([]);
+  const [mistakeCount, setMistakeCount] = useState(0);
 
   // Fullscreen + Timer states
   const quizRootRef = useRef<HTMLDivElement>(null);
@@ -86,6 +106,7 @@ export const IntroModePlaceholderPage = () => {
     setCompletedElapsedMs(null);
     setQuizStartTime(null);
     setQuizEndTime(null);
+    setMistakeCount(0);
     isExitingRef.current = false;
   }, []);
 
@@ -206,6 +227,7 @@ export const IntroModePlaceholderPage = () => {
     setQuizStartTime(new Date().toLocaleTimeString('vi-VN'));
     setQuizEndTime(null);
     setCompletedElapsedMs(null);
+    setMistakeCount(0);
 
     // Autofocus the very first input box
     setTimeout(() => {
@@ -240,6 +262,10 @@ export const IntroModePlaceholderPage = () => {
       };
       return next;
     });
+
+    if (!isCorrect) {
+      setMistakeCount(prev => prev + 1);
+    }
 
     if (isCorrect) {
       // Check if this was the last card to complete the quiz
@@ -359,28 +385,63 @@ export const IntroModePlaceholderPage = () => {
     const displayTime = formatDuration(completedElapsedMs ?? elapsedMs);
 
     if (isQuizFinished) {
+      const { accuracy, rawScore, stars, label } = calculateScore(
+        quizItems.length,
+        mistakeCount,
+        completedElapsedMs ?? elapsedMs
+      );
+
       return (
         <section
           ref={quizRootRef}
           className="fixed inset-0 z-50 flex min-h-screen flex-col overflow-auto bg-slate-950 px-4 py-5 text-white md:px-8 animate-fade-in"
         >
-          <div className="mx-auto flex w-full max-w-2xl flex-1 flex-col items-center justify-center">
-            <div className="mx-auto mb-6 flex h-20 w-20 items-center justify-center rounded-full border-4 border-emerald-400 bg-[#00c853] text-white shadow-[3px_3px_0_rgba(255,255,255,0.15)]">
-              <CheckCircle2 size={40} className="stroke-[2.5]" />
+          <div className="mx-auto flex w-full max-w-2xl flex-1 flex-col items-center justify-center py-8">
+            {/* Animated Stars */}
+            <div className="mb-4 flex items-center justify-center gap-2">
+              {[1, 2, 3, 4, 5].map((starIndex) => {
+                const isFilled = starIndex <= stars;
+                return (
+                  <span
+                    key={starIndex}
+                    style={{ animationDelay: `${starIndex * 150}ms` }}
+                    className={`text-4xl md:text-5xl animate-bounce transition-all ${
+                      isFilled ? 'text-yellow-400 drop-shadow-[0_0_8px_rgba(250,204,21,0.6)] font-black' : 'text-slate-700 font-light'
+                    }`}
+                  >
+                    ★
+                  </span>
+                );
+              })}
             </div>
-            <h2 className="text-4xl font-black">Tuyệt vời! 🎉</h2>
-            <p className="mt-3 text-sm font-bold text-slate-400">
+
+            <h2 className="text-4xl font-black text-center">{label} 🎉</h2>
+            <p className="mt-3 text-sm font-bold text-slate-400 text-center">
               Bạn đã hoàn thành <span className="font-extrabold text-cyan-300">{quizItems.length}</span> âm {scriptLabel.title}!
             </p>
 
-            <div className="mt-6 inline-flex flex-col items-center rounded-2xl border border-white/15 bg-white/10 px-6 py-4 shadow-[0_4px_0_0_rgba(255,255,255,0.08)]">
-              <span className="text-[10px] font-black uppercase tracking-[0.22em] text-slate-400">Tổng thời gian gõ</span>
-              <span className="mt-1 font-mono text-3xl font-black text-white md:text-4xl">{displayTime}</span>
-              <span className="mt-1 text-xs font-bold text-slate-400">Tính từ ký tự đầu tiên đến khi hoàn tất.</span>
+            {/* High fidelity stats grid */}
+            <div className="mt-8 grid grid-cols-2 gap-4 w-full max-w-md">
+              <div className="flex flex-col items-center rounded-2xl border border-white/10 bg-slate-900/60 p-4 text-center">
+                <span className="text-[10px] font-black uppercase tracking-[0.2em] text-slate-400">Độ chính xác</span>
+                <span className="mt-1 text-2xl font-black text-[#C8FF00]">{accuracy.toFixed(1)}%</span>
+              </div>
+              <div className="flex flex-col items-center rounded-2xl border border-white/10 bg-slate-900/60 p-4 text-center">
+                <span className="text-[10px] font-black uppercase tracking-[0.2em] text-slate-400">Số lần gõ sai</span>
+                <span className="mt-1 text-2xl font-black text-rose-500">{mistakeCount}</span>
+              </div>
+              <div className="flex flex-col items-center rounded-2xl border border-white/10 bg-slate-900/60 p-4 text-center">
+                <span className="text-[10px] font-black uppercase tracking-[0.2em] text-slate-400">Tổng thời gian</span>
+                <span className="mt-1 font-mono text-2xl font-black text-cyan-300">{displayTime}</span>
+              </div>
+              <div className="flex flex-col items-center rounded-2xl border border-white/10 bg-slate-900/60 p-4 text-center">
+                <span className="text-[10px] font-black uppercase tracking-[0.2em] text-slate-400">Điểm số</span>
+                <span className="mt-1 text-2xl font-black text-emerald-400">{rawScore.toFixed(1)}</span>
+              </div>
             </div>
 
             {/* Timestamps */}
-            <div className="mt-4 flex gap-6 text-xs font-bold text-slate-500">
+            <div className="mt-6 flex gap-6 text-xs font-bold text-slate-500">
               {quizStartTime && (
                 <span>🕐 Bắt đầu: <span className="text-slate-300">{quizStartTime}</span></span>
               )}
@@ -392,10 +453,9 @@ export const IntroModePlaceholderPage = () => {
             <div className="mt-8 flex gap-3">
               <button
                 onClick={startQuiz}
-                className="flex items-center gap-2 rounded-2xl border-2 border-white/20 bg-white/10 px-6 py-3.5 text-sm font-black uppercase tracking-wider text-white transition-all hover:bg-white/15"
+                className="rounded-2xl border-2 border-emerald-400 bg-emerald-600 px-6 py-3.5 text-sm font-black uppercase tracking-wider text-white shadow-[3px_3px_0_rgba(16,185,129,0.3)] transition-all hover:bg-emerald-500"
               >
-                <RefreshCw size={16} />
-                Luyện tập lại
+                Gõ Lại
               </button>
               <button
                 onClick={doExit}
@@ -423,7 +483,13 @@ export const IntroModePlaceholderPage = () => {
             </h2>
           </div>
 
-          <div className="flex items-center gap-4">
+          <div className="flex items-center gap-6">
+            <div className="text-center">
+              <p className="text-[10px] font-black uppercase tracking-[0.22em] text-slate-500">Sai</p>
+              <p className="mt-1 text-xl font-black text-rose-500">
+                {mistakeCount}
+              </p>
+            </div>
             <div className="text-center">
               <p className="text-[10px] font-black uppercase tracking-[0.22em] text-slate-500">Thời gian</p>
               <p className="mt-1 font-mono text-xl font-black text-white">
@@ -544,13 +610,26 @@ export const IntroModePlaceholderPage = () => {
               </div>
 
               {mode === 'mnemonic' && (
-                <button
-                  onClick={() => setIsPracticing(true)}
-                  className="group sm:ml-auto flex w-fit items-center gap-2 rounded-xl border-2 border-slate-900 bg-[#C8FF00] px-6 py-2.5 text-sm font-black uppercase tracking-wider text-slate-950 shadow-[3px_3px_0_#111827] transition-all hover:-translate-y-1 hover:-translate-x-1 hover:shadow-[6px_6px_0_#FF3366] active:translate-y-0 active:translate-x-0 active:shadow-[0_0_0_#111827]"
-                >
-                  <Play size={16} className="transition-transform group-hover:scale-110" />
-                  Học mẹo
-                </button>
+                <div className="sm:ml-auto flex flex-wrap gap-2">
+                  <button
+                    onClick={() => setIsPracticing(true)}
+                    className="group flex w-fit items-center gap-2 rounded-xl border-2 border-slate-900 bg-[#C8FF00] px-6 py-2.5 text-sm font-black uppercase tracking-wider text-slate-950 shadow-[3px_3px_0_#111827] transition-all hover:-translate-y-1 hover:-translate-x-1 hover:shadow-[6px_6px_0_#FF3366] active:translate-y-0 active:translate-x-0 active:shadow-[0_0_0_#111827]"
+                  >
+                    <Play size={16} className="transition-transform group-hover:scale-110" />
+                    Học mẹo
+                  </button>
+                  <button
+                    onClick={() => setIsFlippedAll(prev => !prev)}
+                    className={`group flex w-fit items-center gap-2 rounded-xl border-2 border-slate-900 px-6 py-2.5 text-sm font-black uppercase tracking-wider shadow-[3px_3px_0_#111827] transition-all hover:-translate-y-1 hover:-translate-x-1 active:translate-y-0 active:translate-x-0 active:shadow-[0_0_0_#111827] ${
+                      isFlippedAll
+                        ? 'bg-slate-950 text-white hover:shadow-[6px_6px_0_#C8FF00]'
+                        : 'bg-white text-slate-950 hover:shadow-[6px_6px_0_#C8FF00]'
+                    }`}
+                  >
+                    <RefreshCw size={16} className={`transition-transform duration-500 ${isFlippedAll ? 'rotate-180' : ''}`} />
+                    Lật mặt sau
+                  </button>
+                </div>
               )}
             </div>
             <p className="mt-2 max-w-xl text-sm font-bold leading-6 text-slate-600">{modeLabel.description}</p>
@@ -569,36 +648,66 @@ export const IntroModePlaceholderPage = () => {
                 </span>
               </div>
               <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5">
-                {row.items.map((item) => (
-                  <article
-                    key={item.romaji}
-                    onClick={() => {
-                      const index = allKanas.findIndex(k => k.romaji === item.romaji);
-                      if (index !== -1) {
-                        setCurrentIndex(index);
-                        setIsPracticing(true);
-                      }
-                    }}
-                    className="group relative flex aspect-square cursor-pointer flex-col items-center justify-center gap-3 overflow-hidden rounded-[20px] border-2 border-slate-900 bg-[#F4F4F5] shadow-[3px_3px_0_#111827] transition-all hover:-translate-y-1.5 hover:-translate-x-1.5 hover:bg-white hover:shadow-[7px_7px_0_#FF3366] active:translate-y-0 active:translate-x-0 active:shadow-[0_0_0_#111827]"
-                  >
-                    <button
-                      onClick={(e) => {
-                        e.stopPropagation();
-                        playPronunciation(item.kana);
-                      }}
-                      className="absolute top-2 right-2 z-10 flex h-7 w-7 items-center justify-center rounded-lg border-2 border-slate-900 bg-white text-slate-900 shadow-[2px_2px_0_#111827] transition-all hover:bg-sky-100 hover:text-blue-700 active:translate-y-0 active:shadow-none"
-                      title={`Nghe phát âm chữ ${item.kana}`}
-                    >
-                      <Volume2 size={13} className="stroke-[2.5]" />
-                    </button>
-                    <span className="font-jp text-7xl font-black text-slate-900 transition-transform duration-300 group-hover:scale-110 group-hover:text-[#FF3366]">
-                      {item.kana}
-                    </span>
-                    <span className="rounded-lg border-2 border-slate-900 bg-white px-3 py-1.5 text-sm font-black uppercase tracking-widest text-slate-900 shadow-[2px_2px_0_#111827] transition-colors group-hover:bg-[#FF3366] group-hover:text-white">
-                      {item.romaji}
-                    </span>
-                  </article>
-                ))}
+                {row.items.map((item) => {
+                  const index = allKanas.findIndex(k => k.romaji === item.romaji);
+                  return (
+                    <div key={item.romaji} className="flex flex-col gap-2">
+                      <article
+                        onClick={() => {
+                          if (index !== -1) {
+                            setCurrentIndex(index);
+                            setIsPracticing(true);
+                          }
+                        }}
+                        className={`group relative flex aspect-square cursor-pointer flex-col items-center justify-center gap-3 overflow-hidden rounded-[20px] border-2 border-slate-900 transition-all hover:-translate-y-1.5 hover:-translate-x-1.5 active:translate-y-0 active:translate-x-0 active:shadow-[0_0_0_#111827] ${
+                          isFlippedAll
+                            ? 'bg-white shadow-[3px_3px_0_#111827] hover:shadow-[7px_7px_0_#C8FF00]'
+                            : 'bg-[#F4F4F5] shadow-[3px_3px_0_#111827] hover:bg-white hover:shadow-[7px_7px_0_#FF3366]'
+                        }`}
+                      >
+                        <button
+                          onClick={(e) => {
+                            e.stopPropagation();
+                            playPronunciation(item.kana);
+                          }}
+                          className="absolute top-2 right-2 z-10 flex h-7 w-7 items-center justify-center rounded-lg border-2 border-slate-900 bg-white text-slate-900 shadow-[2px_2px_0_#111827] transition-all hover:bg-sky-100 hover:text-blue-700 active:translate-y-0 active:shadow-none"
+                          title={`Nghe phát âm chữ ${item.kana}`}
+                        >
+                          <Volume2 size={13} className="stroke-[2.5]" />
+                        </button>
+
+                        {isFlippedAll ? (
+                          <div className="flex h-full w-full items-center justify-center p-3 animate-fade-in">
+                            <img
+                              src={`/materials/${script}/${item.romaji.toLowerCase()}.png`}
+                              alt={`Mnemonic for ${item.kana}`}
+                              className="h-full w-full object-contain"
+                              onError={(e) => {
+                                e.currentTarget.style.display = 'none';
+                                e.currentTarget.parentElement!.innerHTML = `<span class="font-jp text-5xl font-black text-slate-900 transition-transform duration-300 group-hover:scale-110 group-hover:text-[#FF3366]">${item.kana}</span>`;
+                              }}
+                            />
+                          </div>
+                        ) : (
+                          <>
+                            <span className="font-jp text-7xl font-black text-slate-900 transition-transform duration-300 group-hover:scale-110 group-hover:text-[#FF3366]">
+                              {item.kana}
+                            </span>
+                            <span className="rounded-lg border-2 border-slate-900 bg-white px-3 py-1.5 text-sm font-black uppercase tracking-widest text-slate-900 shadow-[2px_2px_0_#111827] transition-colors group-hover:bg-[#FF3366] group-hover:text-white">
+                              {item.romaji}
+                            </span>
+                          </>
+                        )}
+                      </article>
+
+                      {isFlippedAll && (
+                        <div className="flex min-h-[44px] items-center justify-center rounded-xl border-2 border-slate-900 bg-[#C8FF00] px-2 py-1 text-center text-[10px] font-black leading-tight text-slate-950 shadow-[2px_2px_0_#111827] animate-fade-in">
+                          {item.mnemonic}
+                        </div>
+                      )}
+                    </div>
+                  );
+                })}
               </div>
             </div>
           ))}
@@ -619,8 +728,8 @@ export const IntroModePlaceholderPage = () => {
             All Kana
           </button>
 
-          {/* Three column category grid */}
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+          {/* Dynamic category grid */}
+          <div className={`grid grid-cols-1 gap-6 ${typingCategories.length === 4 ? 'xl:grid-cols-4 md:grid-cols-2' : 'md:grid-cols-3'}`}>
             {typingCategories.map((category) => {
               const categoryGroupIds = category.groups.map(g => g.id);
               const isCategoryAllSelected = categoryGroupIds.every(id => selectedGroups.includes(id));

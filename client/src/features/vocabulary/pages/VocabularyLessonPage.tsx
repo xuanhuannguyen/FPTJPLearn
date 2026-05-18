@@ -130,7 +130,15 @@ export const VocabularyLessonPage = () => {
       setCorrectCount(0);
       setTypingAnswers([]);
       const data = await staticVocabularyApi.getPracticeCards(lessonId, mode);
-      setPracticeCards(data.cards);
+      let cards = data.cards;
+      if (mode === 'typing') {
+        cards = [...cards];
+        for (let i = cards.length - 1; i > 0; i--) {
+          const j = Math.floor(Math.random() * (i + 1));
+          [cards[i], cards[j]] = [cards[j], cards[i]];
+        }
+      }
+      setPracticeCards(cards);
     } catch (error) {
       console.error('Failed to load vocabulary practice cards:', error);
       setPracticeError('Không tải được thẻ học từ vựng. Vui lòng thử lại.');
