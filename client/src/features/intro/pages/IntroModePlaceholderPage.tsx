@@ -47,22 +47,26 @@ type ModeKey = keyof typeof modeLabels;
 const isScriptKey = (value?: string): value is ScriptKey => value === 'hiragana' || value === 'katakana';
 const isModeKey = (value?: string): value is ModeKey => value === 'mnemonic' || value === 'typing';
 
-const calculateScore = (totalChars: number, mistakes: number, elapsedMs: number) => {
-  const accuracy = totalChars + mistakes > 0 ? (totalChars / (totalChars + mistakes)) * 100 : 100;
-  const avgTimePerChar = totalChars > 0 ? (elapsedMs / 1000) / totalChars : 0;
+const calculateScore = (totalChars: number, correctCount: number, mistakes: number, elapsedMs: number) => {
+  const completionRate = totalChars > 0 ? (correctCount / totalChars) * 100 : 100;
+  const accuracy = correctCount + mistakes > 0 ? (correctCount / (correctCount + mistakes)) * 100 : 100;
+  const avgTimePerChar = correctCount > 0 ? (elapsedMs / 1000) / correctCount : 0;
+  
   const targetTime = 5; // giây
   const speedBonus = Math.min(100, Math.max(0, (1 - (avgTimePerChar - targetTime) / targetTime)) * 100);
-  const rawScore = accuracy * 0.7 + speedBonus * 0.3;
+  
+  // Điểm tổng hợp: Hoàn thành 50%, Chính xác 30%, Tốc độ 20%
+  const rawScore = completionRate * 0.5 + accuracy * 0.3 + speedBonus * 0.2;
 
   let stars = 1;
   if (rawScore >= 95) stars = 5;
-  else if (rawScore >= 85) stars = 4;
-  else if (rawScore >= 70) stars = 3;
-  else if (rawScore >= 50) stars = 2;
+  else if (rawScore >= 80) stars = 4;
+  else if (rawScore >= 60) stars = 3;
+  else if (rawScore >= 40) stars = 2;
 
   const starLabels = ['Tập lại nhé!', 'Cần cải thiện', 'Khá tốt!', 'Xuất sắc!', 'Hoàn hảo!'];
 
-  return { accuracy, speedBonus, rawScore, stars, label: starLabels[stars - 1] };
+  return { completionRate, accuracy, speedBonus, rawScore, stars, label: starLabels[stars - 1] };
 };
 
 export const IntroModePlaceholderPage = () => {
@@ -79,8 +83,10 @@ export const IntroModePlaceholderPage = () => {
     typed: string;
     isCorrect: boolean;
     isWrong: boolean;
+    placeholder?: string;
   }[]>([]);
   const [mistakeCount, setMistakeCount] = useState(0);
+  const [isEarlyFinished, setIsEarlyFinished] = useState(false);
 
   // Fullscreen + Timer states
   const quizRootRef = useRef<HTMLDivElement>(null);
@@ -107,6 +113,7 @@ export const IntroModePlaceholderPage = () => {
     setQuizStartTime(null);
     setQuizEndTime(null);
     setMistakeCount(0);
+    setIsEarlyFinished(false);
     isExitingRef.current = false;
   }, []);
 
@@ -228,6 +235,7 @@ export const IntroModePlaceholderPage = () => {
     setQuizEndTime(null);
     setCompletedElapsedMs(null);
     setMistakeCount(0);
+    setIsEarlyFinished(false);
 
     // Autofocus the very first input box
     setTimeout(() => {
@@ -248,7 +256,10 @@ export const IntroModePlaceholderPage = () => {
   };
 
   const handleVerify = (index: number) => {
-    const typedClean = quizAnswers[index].typed.trim().toLowerCase();
+    const typedRaw = quizAnswers[index].typed;
+    const typedClean = typedRaw.trim().toLowerCase();
+    if (!typedClean) return;
+
     const item = quizItems[index];
     const isCorrect = typedClean === item.romaji.toLowerCase() || 
                       (item.alternatives && item.alternatives.some(alt => alt.toLowerCase() === typedClean));
@@ -258,8 +269,20 @@ export const IntroModePlaceholderPage = () => {
       next[index] = {
         ...next[index],
         isCorrect,
-        isWrong: !isCorrect
+        isWrong: !isCorrect,
+        typed: isCorrect ? next[index].typed : '', // Xóa text nếu sai để người dùng gõ lại
+        placeholder: !isCorrect ? typedRaw : undefined
       };
+      
+      // Kiểm tra nếu đây là từ cuối cùng
+      const remainingIncorrect = next.filter((ans) => !ans.isCorrect).length;
+      if (remainingIncorrect === 0 && startedAt && completedElapsedMs === null) {
+        const total = new Date().getTime() - startedAt;
+        setCompletedElapsedMs(total);
+        setElapsedMs(total);
+        setQuizEndTime(new Date().toLocaleTimeString('vi-VN'));
+      }
+      
       return next;
     });
 
@@ -267,30 +290,39 @@ export const IntroModePlaceholderPage = () => {
       setMistakeCount(prev => prev + 1);
     }
 
-    if (isCorrect) {
-      // Check if this was the last card to complete the quiz
-      const remainingIncorrect = quizAnswers.filter((ans, idx) => idx !== index && !ans.isCorrect).length;
-      if (remainingIncorrect === 0 && startedAt) {
-        const total = new Date().getTime() - startedAt;
-        setCompletedElapsedMs(total);
-        setElapsedMs(total);
-        setQuizEndTime(new Date().toLocaleTimeString('vi-VN'));
+    // Luôn chuyển focus sang ô tiếp theo chưa hoàn thành (dù đúng hay sai)
+    const targetIndexSearch = () => {
+      for (let i = index + 1; i < quizAnswers.length; i++) {
+        if (!quizAnswers[i].isCorrect && i !== index) return i;
       }
-
-      // Advance focus to the next unfinished card
-      const nextIncomplete = quizAnswers.findIndex((ans, idx) => idx > index && !ans.isCorrect);
-      const targetIndex = nextIncomplete !== -1 ? nextIncomplete : quizAnswers.findIndex((ans) => !ans.isCorrect);
-      
-      if (targetIndex !== -1 && targetIndex !== index) {
-        setTimeout(() => {
-          document.getElementById(`typing-input-${targetIndex}`)?.focus();
-        }, 50);
+      for (let i = 0; i <= index; i++) {
+        if (i === index && isCorrect) continue;
+        if (!quizAnswers[i].isCorrect) return i;
       }
+      return -1;
+    };
+    
+    const targetIndex = targetIndexSearch();
+    
+    if (targetIndex !== -1 && targetIndex !== index) {
+      setTimeout(() => {
+        document.getElementById(`typing-input-${targetIndex}`)?.focus();
+      }, 50);
     }
   };
 
+  const finishEarly = () => {
+    if (startedAt && !completedElapsedMs) {
+      const total = Date.now() - startedAt;
+      setCompletedElapsedMs(total);
+      setElapsedMs(total);
+      setQuizEndTime(new Date().toLocaleTimeString('vi-VN'));
+    }
+    setIsEarlyFinished(true);
+  };
+
   const correctCount = quizAnswers.filter(ans => ans.isCorrect).length;
-  const isQuizFinished = quizItems.length > 0 && correctCount === quizItems.length;
+  const isQuizFinished = (quizItems.length > 0 && correctCount === quizItems.length) || isEarlyFinished;
 
   // Render practice slider if active
   if (isPracticing && currentKana) {
@@ -385,8 +417,9 @@ export const IntroModePlaceholderPage = () => {
     const displayTime = formatDuration(completedElapsedMs ?? elapsedMs);
 
     if (isQuizFinished) {
-      const { accuracy, rawScore, stars, label } = calculateScore(
+      const { completionRate, accuracy, rawScore, stars, label } = calculateScore(
         quizItems.length,
+        correctCount,
         mistakeCount,
         completedElapsedMs ?? elapsedMs
       );
@@ -421,10 +454,22 @@ export const IntroModePlaceholderPage = () => {
             </p>
 
             {/* High fidelity stats grid */}
-            <div className="mt-8 grid grid-cols-2 gap-4 w-full max-w-md">
+            <div className="mt-8 grid grid-cols-2 md:grid-cols-3 gap-4 w-full max-w-lg">
+              <div className="flex flex-col items-center rounded-2xl border border-white/10 bg-slate-900/60 p-4 text-center">
+                <span className="text-[10px] font-black uppercase tracking-[0.2em] text-slate-400">Tiến độ</span>
+                <span className="mt-1 text-2xl font-black text-sky-400">{completionRate.toFixed(1)}%</span>
+              </div>
               <div className="flex flex-col items-center rounded-2xl border border-white/10 bg-slate-900/60 p-4 text-center">
                 <span className="text-[10px] font-black uppercase tracking-[0.2em] text-slate-400">Độ chính xác</span>
                 <span className="mt-1 text-2xl font-black text-[#C8FF00]">{accuracy.toFixed(1)}%</span>
+              </div>
+              <div className="flex flex-col items-center rounded-2xl border border-white/10 bg-slate-900/60 p-4 text-center">
+                <span className="text-[10px] font-black uppercase tracking-[0.2em] text-slate-400">Đúng / Bỏ qua</span>
+                <span className="mt-1 text-2xl font-black text-white">
+                  <span className="text-emerald-400">{correctCount}</span>
+                  <span className="text-slate-500 mx-1">/</span>
+                  <span className="text-amber-500">{quizItems.length - correctCount}</span>
+                </span>
               </div>
               <div className="flex flex-col items-center rounded-2xl border border-white/10 bg-slate-900/60 p-4 text-center">
                 <span className="text-[10px] font-black uppercase tracking-[0.2em] text-slate-400">Số lần gõ sai</span>
@@ -436,7 +481,7 @@ export const IntroModePlaceholderPage = () => {
               </div>
               <div className="flex flex-col items-center rounded-2xl border border-white/10 bg-slate-900/60 p-4 text-center">
                 <span className="text-[10px] font-black uppercase tracking-[0.2em] text-slate-400">Điểm số</span>
-                <span className="mt-1 text-2xl font-black text-emerald-400">{rawScore.toFixed(1)}</span>
+                <span className="mt-1 text-2xl font-black text-[#C8FF00]">{rawScore.toFixed(1)}</span>
               </div>
             </div>
 
@@ -496,13 +541,21 @@ export const IntroModePlaceholderPage = () => {
                 {startedAt ? displayTime : '00:00'}
               </p>
             </div>
-            <button
-              onClick={doExit}
-              className="inline-flex h-10 items-center gap-2 rounded-xl border-2 border-white/20 bg-white/10 px-3 text-sm font-black text-white transition-all hover:bg-white/15"
-            >
-              <X size={16} />
-              Thoát
-            </button>
+            <div className="flex gap-2">
+              <button
+                onClick={finishEarly}
+                className="inline-flex h-10 items-center gap-2 rounded-xl border-2 border-white/20 bg-transparent px-3 text-sm font-black text-white/70 transition-all hover:bg-white/10 hover:text-white"
+              >
+                Finish sớm
+              </button>
+              <button
+                onClick={doExit}
+                className="inline-flex h-10 items-center gap-2 rounded-xl border-2 border-white/20 bg-white/10 px-3 text-sm font-black text-white transition-all hover:bg-white/15"
+              >
+                <X size={16} />
+                Thoát
+              </button>
+            </div>
           </div>
         </div>
 
@@ -562,8 +615,10 @@ export const IntroModePlaceholderPage = () => {
                       autoCorrect="off"
                       autoCapitalize="none"
                       spellCheck="false"
-                      placeholder=""
-                      className="h-8 w-full rounded-lg border-2 border-slate-600 bg-white text-center text-xs font-black uppercase text-slate-950 focus:outline-none focus:ring-2 focus:ring-cyan-400"
+                      placeholder={answer.placeholder ? `Sai: ${answer.placeholder}` : ""}
+                      className={`h-8 w-full rounded-lg border-2 border-slate-600 bg-white text-center text-xs font-black uppercase focus:outline-none focus:ring-2 focus:ring-cyan-400 ${
+                        answer.placeholder && !answer.typed ? 'text-slate-950 placeholder-rose-400' : 'text-slate-950'
+                      }`}
                     />
                   )}
                 </div>

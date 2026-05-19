@@ -1,4 +1,4 @@
-import { useCallback, useState, useEffect, useRef } from 'react';
+﻿import { useCallback, useState, useEffect, useRef, useMemo } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import { ArrowLeft, Brain, CheckCircle2, CreditCard, Keyboard, ListChecks, Loader2, RotateCcw, X } from 'lucide-react';
 import { FlashcardMode } from '../../review/components/FlashcardMode';
@@ -481,7 +481,9 @@ const PracticeWorkspace = ({
   const isCompleted = !isLoading && cards.length > 0 && currentIndex >= cards.length;
   const title = mode === 'flashcard' ? 'Flashcard' : mode === 'typing' ? 'Gõ' : 'Multichoice';
   const reviewCard = currentCard ? toReviewCard(currentCard) : null;
-  const options = currentCard ? buildOptions(currentCard, cards, direction) : [];
+  const options = useMemo(() => {
+    return currentCard ? buildOptions(currentCard, cards, direction) : [];
+  }, [currentCard, cards, direction]);
 
   if (isLoading) {
     return (
