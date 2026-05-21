@@ -67,6 +67,7 @@ public class AdminController : ControllerBase
                 u.AvatarUrl,
                 u.CreatedAt,
                 u.ActiveDeviceToken,
+                u.LastLoginAt,
                 Subscriptions = _db.Subscriptions
                     .Where(s => s.UserId == u.Id)
                     .Select(s => new { s.CourseCode, s.ExpiresAt, IsActive = s.ExpiresAt > DateTime.UtcNow })

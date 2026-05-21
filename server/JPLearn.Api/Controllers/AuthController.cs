@@ -36,7 +36,8 @@ public class AuthController : ApiControllerBase
                     Email = HttpContext.Items["FirebaseEmail"]?.ToString() ?? "",
                     DisplayName = HttpContext.Items["FirebaseName"]?.ToString() ?? request.DisplayName,
                     AvatarUrl = request.AvatarUrl,
-                    ActiveDeviceToken = request.DeviceToken
+                    ActiveDeviceToken = request.DeviceToken,
+                    LastLoginAt = DateTime.UtcNow
                 };
                 _db.Users.Add(user);
             }

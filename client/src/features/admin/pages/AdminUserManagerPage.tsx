@@ -1,6 +1,6 @@
 import { useCallback, useEffect, useState } from 'react';
 import { apiClient } from '../../../shared/api/axios';
-import { Shield, ShieldCheck, User as UserIcon, Calendar, Mail, Smartphone } from 'lucide-react';
+import { Shield, ShieldCheck, User as UserIcon, Calendar, Mail, Smartphone, Users, UserCheck, Activity } from 'lucide-react';
 
 interface UserSubscription {
   courseCode: string;
@@ -15,6 +15,7 @@ interface AdminUser {
   avatarUrl: string;
   createdAt: string;
   activeDeviceToken: string | null;
+  lastLoginAt: string | null;
   subscriptions: UserSubscription[];
 }
 
@@ -79,6 +80,24 @@ export const AdminUserManagerPage = () => {
     }
   };
 
+  const startOfToday = new Date();
+  startOfToday.setHours(0, 0, 0, 0);
+
+  const now = new Date();
+  const activeThreshold = new Date(now.getTime() - 15 * 60 * 1000);
+
+  const todayUsersCount = users.filter(u => {
+    if (!u.lastLoginAt) return false;
+    const loginDate = new Date(u.lastLoginAt);
+    return loginDate >= startOfToday;
+  }).length;
+
+  const currentActiveCount = users.filter(u => {
+    if (!u.lastLoginAt) return false;
+    const loginDate = new Date(u.lastLoginAt);
+    return loginDate >= activeThreshold;
+  }).length;
+
   if (loading) return <div className="p-8">Đang tải danh sách người dùng...</div>;
 
   return (
@@ -87,6 +106,48 @@ export const AdminUserManagerPage = () => {
         <h1 className="font-heading text-3xl font-black text-slate-950">Quản lý người dùng</h1>
         <p className="mt-2 text-sm font-bold text-slate-600">Xem thông tin và cấp quyền Premium thủ công.</p>
       </header>
+
+      {/* Stats Section */}
+      <div className="grid gap-6 sm:grid-cols-3" aria-label="Thống kê người dùng">
+        {/* Total Users Card */}
+        <div className="flex items-center gap-4 rounded-2xl border border-slate-200 bg-white p-6 shadow-sm">
+          <div className="rounded-xl bg-blue-50 p-3 text-blue-600">
+            <Users size={24} />
+          </div>
+          <div>
+            <p className="text-xs font-bold text-slate-500 uppercase tracking-wider">Tổng số người dùng</p>
+            <h3 className="text-2xl font-black text-slate-900 mt-1">{users.length}</h3>
+          </div>
+        </div>
+
+        {/* Logged in Today Card */}
+        <div className="flex items-center gap-4 rounded-2xl border border-slate-200 bg-white p-6 shadow-sm">
+          <div className="rounded-xl bg-emerald-50 p-3 text-emerald-600">
+            <UserCheck size={24} />
+          </div>
+          <div>
+            <p className="text-xs font-bold text-slate-500 uppercase tracking-wider">Truy cập hôm nay</p>
+            <h3 className="text-2xl font-black text-slate-900 mt-1">{todayUsersCount}</h3>
+          </div>
+        </div>
+
+        {/* Current Active Users Card */}
+        <div className="flex items-center gap-4 rounded-2xl border border-slate-200 bg-white p-6 shadow-sm">
+          <div className="rounded-xl bg-orange-50 p-3 text-orange-600 relative">
+            <Activity size={24} />
+            {currentActiveCount > 0 && (
+              <span className="absolute right-2 top-2 flex h-2.5 w-2.5">
+                <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-orange-400 opacity-75"></span>
+                <span className="relative inline-flex rounded-full h-2.5 w-2.5 bg-orange-500"></span>
+              </span>
+            )}
+          </div>
+          <div>
+            <p className="text-xs font-bold text-slate-500 uppercase tracking-wider">Đang hoạt động</p>
+            <h3 className="text-2xl font-black text-slate-900 mt-1">{currentActiveCount}</h3>
+          </div>
+        </div>
+      </div>
 
       <div className="grid gap-4">
         {users.map((user) => {
@@ -108,6 +169,9 @@ export const AdminUserManagerPage = () => {
                   <div className="mt-1 flex flex-wrap gap-x-4 gap-y-1 text-xs font-bold text-slate-500">
                     <span className="flex items-center gap-1.5"><Mail size={14} /> {user.email}</span>
                     <span className="flex items-center gap-1.5"><Calendar size={14} /> Tham gia: {new Date(user.createdAt).toLocaleDateString('vi-VN')}</span>
+                    <span className="flex items-center gap-1.5">
+                      <Activity size={14} /> Hoạt động: {user.lastLoginAt ? new Date(user.lastLoginAt).toLocaleString('vi-VN') : 'Chưa đăng nhập'}
+                    </span>
                   </div>
                 </div>
               </div>
