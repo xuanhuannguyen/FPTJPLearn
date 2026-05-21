@@ -806,6 +806,7 @@ export const ReviewWorkspace = ({
                 onPrev={prevCard}
                 onToggleDirection={() => setSelectedDirection((current) => current === 'jp_to_vi' ? 'vi_to_jp' : 'jp_to_vi')}
                 onToggleShuffle={() => handleShuffleToggle(!isShuffleEnabled)}
+                isProgressTracking={true}
               />
             )}
 
