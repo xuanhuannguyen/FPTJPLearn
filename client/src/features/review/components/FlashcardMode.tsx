@@ -1,5 +1,5 @@
 import { useCallback, useEffect, useState } from 'react';
-import { Check, ChevronLeft, ChevronRight, RotateCcw, Shuffle, Star, X } from 'lucide-react';
+import { Check, ChevronLeft, ChevronRight, Shuffle, Star, Undo, X } from 'lucide-react';
 import type { ReviewCard } from '../types';
 import { VocabularyAudioControl } from './VocabularyAudioControl';
 
@@ -14,8 +14,19 @@ interface FlashcardModeProps {
   onReveal: () => void;
   answered: boolean;
   onNext: () => void;
+  onPrev?: () => void;
   onToggleDirection: () => void;
   onToggleShuffle: () => void;
+
+  // Progress tracking props
+  isProgressTracking: boolean;
+  onToggleProgressTracking: () => void;
+  isRoundFinished?: boolean;
+  unknownCount?: number;
+  onStudyUnknown?: () => void;
+  onResetAll?: () => void;
+  onUndo?: () => void;
+  canUndo?: boolean;
 }
 
 export const FlashcardMode = ({
@@ -29,8 +40,17 @@ export const FlashcardMode = ({
   onReveal,
   answered,
   onNext,
+  onPrev,
   onToggleDirection,
   onToggleShuffle,
+  isProgressTracking,
+  onToggleProgressTracking,
+  isRoundFinished = false,
+  unknownCount = 0,
+  onStudyUnknown,
+  onResetAll,
+  onUndo,
+  canUndo = false,
 }: FlashcardModeProps) => {
   const isJpToVi = direction === 'jp_to_vi';
   const [flipState, setFlipState] = useState({
@@ -114,22 +134,39 @@ export const FlashcardMode = ({
         handleFlip();
       }
 
-      if (answered) {
-        return;
-      }
+      if (!isProgressTracking) {
+        if (event.code === 'ArrowLeft' && onPrev) {
+          event.preventDefault();
+          onPrev();
+        }
 
-      if (event.key.toLowerCase() === 'x') {
-        handleAnswer(1, false, 'Chưa biết - Học lại');
-      }
+        if (event.code === 'ArrowRight') {
+          event.preventDefault();
+          onNext();
+        }
+      } else {
+        if (event.code === 'Backspace' && onUndo && canUndo) {
+          event.preventDefault();
+          onUndo();
+        }
 
-      if (event.key.toLowerCase() === 'z') {
-        handleAnswer(5, true, 'Biết - Tăng level');
+        if (answered) {
+          return;
+        }
+
+        if (event.key.toLowerCase() === 'x') {
+          handleAnswer(1, false, 'Chưa biết - Học lại');
+        }
+
+        if (event.key.toLowerCase() === 'z') {
+          handleAnswer(5, true, 'Biết - Tăng level');
+        }
       }
     };
 
     window.addEventListener('keydown', handleKeyDown);
     return () => window.removeEventListener('keydown', handleKeyDown);
-  }, [answered, handleAnswer, handleFlip]);
+  }, [answered, handleAnswer, handleFlip, onPrev, onNext, isProgressTracking, onUndo, canUndo]);
 
   const promptText = isJpToVi ? card.word : card.meaning;
   const answerText = isJpToVi ? card.meaning : `${card.word} (${card.reading})`;
@@ -142,27 +179,90 @@ export const FlashcardMode = ({
     'exit-wrong': 'translate-x-12 scale-[0.985] opacity-0 -rotate-1',
   }[motionPhase];
 
+  if (isRoundFinished) {
+    return (
+      <div className="mx-auto w-full max-w-4xl transform-gpu transition-all duration-700 ease-[cubic-bezier(0.22,1,0.36,1)]">
+        <div className="overflow-hidden rounded-[18px] bg-[#1b2239] shadow-[0_6px_0_rgba(15,23,42,0.92)]">
+          <div className="relative min-h-[300px] bg-[#303b5d] flex flex-col items-center justify-center p-8 text-center md:min-h-[360px]">
+            {unknownCount > 0 ? (
+              <div className="space-y-6">
+                <div className="space-y-2">
+                  <h2 className="text-3xl font-black text-white">Kết quả vòng học</h2>
+                  <p className="text-lg font-bold text-slate-300">
+                    Bạn còn <span className="text-rose-400 font-extrabold">{unknownCount}</span> từ chưa thuộc.
+                  </p>
+                </div>
+                <div className="flex flex-wrap justify-center gap-4">
+                  {onStudyUnknown && (
+                    <button
+                      onClick={onStudyUnknown}
+                      className="inline-flex h-12 items-center gap-2 rounded-xl border-2 border-slate-800 bg-emerald-600 px-6 text-sm font-black text-white shadow-pop transition-all hover:-translate-y-0.5"
+                    >
+                      Học tiếp {unknownCount} từ chưa thuộc
+                    </button>
+                  )}
+                  {onResetAll && (
+                    <button
+                      onClick={onResetAll}
+                      className="inline-flex h-12 items-center gap-2 rounded-xl border-2 border-slate-800 bg-slate-700 px-6 text-sm font-black text-white shadow-pop transition-all hover:-translate-y-0.5"
+                    >
+                      Học lại toàn bộ từ đầu
+                    </button>
+                  )}
+                </div>
+              </div>
+            ) : (
+              <div className="space-y-6">
+                <div className="space-y-2">
+                  <div className="mx-auto flex h-16 w-16 items-center justify-center rounded-full bg-emerald-500/20 text-emerald-400 animate-bounce">
+                    <Check size={40} strokeWidth={3} />
+                  </div>
+                  <h2 className="text-3xl font-black text-white">Chúc mừng! 🎉</h2>
+                  <p className="text-lg font-bold text-slate-300">
+                    Bạn đã học thuộc toàn bộ từ vựng!
+                  </p>
+                </div>
+                <div className="flex justify-center">
+                  {onResetAll && (
+                    <button
+                      onClick={onResetAll}
+                      className="inline-flex h-12 items-center gap-2 rounded-xl border-2 border-slate-800 bg-emerald-600 px-6 text-sm font-black text-white shadow-pop transition-all hover:-translate-y-0.5"
+                    >
+                      Học lại từ đầu
+                    </button>
+                  )}
+                </div>
+              </div>
+            )}
+          </div>
+          <div className="grid min-h-[76px] grid-cols-[1fr_auto_1fr] items-center gap-4 bg-[#171d33] px-5 py-3 text-white">
+            <div className="flex items-center gap-3">
+              <span className="text-xs font-black tracking-wider text-slate-300">Track progress</span>
+              <button
+                type="button"
+                onClick={onToggleProgressTracking}
+                className="relative inline-flex h-5 w-9 shrink-0 cursor-pointer rounded-full border-2 border-transparent transition-colors duration-200 ease-in-out focus:outline-none bg-blue-600"
+                aria-label="Toggle progress tracking"
+              >
+                <span className="pointer-events-none inline-block h-4 w-4 transform rounded-full bg-white shadow ring-0 transition duration-200 ease-in-out translate-x-4" />
+              </button>
+            </div>
+            <div className="text-center text-slate-400 font-bold text-sm">
+              Hoàn thành vòng
+            </div>
+            <div className="flex items-center justify-end gap-4 text-slate-400">
+              {/* Spacer */}
+            </div>
+          </div>
+        </div>
+      </div>
+    );
+  }
+
   return (
     <div className={`mx-auto w-full max-w-4xl transform-gpu transition-all duration-700 ease-[cubic-bezier(0.22,1,0.36,1)] motion-reduce:transform-none motion-reduce:transition-none ${motionClass}`}>
       <div className="overflow-hidden rounded-[18px] bg-[#1b2239] shadow-[0_6px_0_rgba(15,23,42,0.92)]">
         <div className="relative min-h-[300px] bg-[#303b5d] md:min-h-[360px]">
-          <button
-            type="button"
-            className="absolute left-3 top-1/2 flex h-10 w-10 -translate-y-1/2 items-center justify-center rounded-full bg-white/5 text-white/35 transition-colors hover:bg-white/10 hover:text-white/70"
-            aria-label="Previous card"
-          >
-            <ChevronLeft size={24} />
-          </button>
-
-          <button
-            type="button"
-            onClick={onNext}
-            className="absolute right-3 top-1/2 flex h-10 w-10 -translate-y-1/2 items-center justify-center rounded-full bg-white/10 text-white/55 transition-colors hover:bg-white/15 hover:text-white"
-            aria-label="Next card"
-          >
-            <ChevronRight size={24} />
-          </button>
-
           <button
             type="button"
             className="absolute right-5 top-5 text-white/35 transition-colors hover:text-yellow-200"
@@ -199,74 +299,143 @@ export const FlashcardMode = ({
           </button>
         </div>
 
-        <div className="flex min-h-10 items-center justify-center bg-[#465174] px-4 text-[11px] font-semibold text-slate-300/75">
-          <div className="flex flex-wrap items-center justify-center gap-2">
-            <span>Phím tắt:</span>
-            <kbd className="rounded bg-slate-500/55 px-2 py-0.5 text-[10px] text-white/80">Space</kbd>
-            <span>lật</span>
-            <kbd className="rounded bg-slate-500/55 px-2 py-0.5 text-[10px] text-white/80">Z</kbd>
-            <span>biết</span>
-            <kbd className="rounded bg-slate-500/55 px-2 py-0.5 text-[10px] text-white/80">X</kbd>
-            <span>chưa biết</span>
-          </div>
+        <div className="flex min-h-11 items-center justify-center bg-[#9ea5f4] text-slate-900 px-4 text-xs font-bold gap-2">
+          <span className="inline-flex items-center gap-1.5">
+            <span className="flex h-5 items-center justify-center rounded bg-amber-400 px-1.5 py-0.5 text-[10px] font-extrabold text-slate-900 border border-slate-900/10">
+              ⌨️
+            </span>
+            <span>Shortcut: Press</span>
+            <kbd className="rounded bg-slate-900 text-white px-1.5 py-0.5 text-[10px] font-black font-mono">Space</kbd>
+            <span>or click on the card to flip</span>
+          </span>
+          {isProgressTracking ? (
+            <>
+              <span className="text-slate-950/40">|</span>
+              <span className="inline-flex items-center gap-1">
+                Press <kbd className="rounded bg-slate-900 text-white px-1.5 py-0.5 text-[10px] font-black font-mono">Z</kbd> to know,
+                <kbd className="rounded bg-slate-900 text-white px-1.5 py-0.5 text-[10px] font-black font-mono">X</kbd> to study again,
+                <kbd className="rounded bg-slate-900 text-white px-1.5 py-0.5 text-[10px] font-black font-mono">Backspace</kbd> to go back
+              </span>
+            </>
+          ) : (
+            <>
+              <span className="text-slate-950/40">|</span>
+              <span className="inline-flex items-center gap-1">
+                Press <kbd className="rounded bg-slate-900 text-white px-1.5 py-0.5 text-[10px] font-black font-mono">←</kbd> to prev,
+                <kbd className="rounded bg-slate-900 text-white px-1.5 py-0.5 text-[10px] font-black font-mono">→</kbd> to next
+              </span>
+            </>
+          )}
         </div>
 
         <div className="grid min-h-[76px] grid-cols-[1fr_auto_1fr] items-center gap-4 bg-[#171d33] px-5 py-3 text-white">
+          {/* Left: Track progress Toggle Switch */}
           <div className="flex items-center gap-3">
-            <div className="inline-flex rounded-full bg-white/10 p-0.5">
-              <button className="rounded-full bg-blue-600 px-4 py-1.5 text-xs font-bold text-white shadow-[0_2px_0_rgba(0,0,0,0.35)]">
-                Từ đơn
-              </button>
-              <button className="rounded-full px-4 py-1.5 text-xs font-bold text-slate-300">
-                Ví dụ
-              </button>
-            </div>
-          </div>
-
-          <div className="flex items-center gap-6">
+            <span className="text-xs font-black tracking-wider text-slate-300">Track progress</span>
             <button
-              onClick={() => handleAnswer(1, false, 'Chưa biết - Học lại')}
-              disabled={answered}
-              className="flex h-12 w-12 items-center justify-center rounded-full bg-rose-600/35 text-rose-400 transition-all hover:bg-rose-600/50 disabled:pointer-events-none disabled:opacity-50"
-              aria-label="Chưa biết"
+              type="button"
+              onClick={onToggleProgressTracking}
+              className={`relative inline-flex h-5 w-9 shrink-0 cursor-pointer rounded-full border-2 border-transparent transition-colors duration-200 ease-in-out focus:outline-none ${
+                isProgressTracking ? 'bg-blue-600' : 'bg-slate-700'
+              }`}
+              aria-label="Toggle progress tracking"
             >
-              <X size={24} />
-            </button>
-
-            <div className="min-w-[60px] text-center text-lg font-bold">
-              {currentIndex + 1} / {totalCards}
-            </div>
-
-            <button
-              onClick={() => handleAnswer(5, true, 'Biết - Tăng level')}
-              disabled={answered}
-              className="flex h-12 w-12 items-center justify-center rounded-full bg-emerald-600/35 text-emerald-400 transition-all hover:bg-emerald-600/50 disabled:pointer-events-none disabled:opacity-50"
-              aria-label="Biết"
-            >
-              <Check size={26} />
+              <span
+                className={`pointer-events-none inline-block h-4 w-4 transform rounded-full bg-white shadow ring-0 transition duration-200 ease-in-out ${
+                  isProgressTracking ? 'translate-x-4' : 'translate-x-0'
+                }`}
+              />
             </button>
           </div>
 
-          <div className="flex items-center justify-end gap-4 text-slate-300/75">
+          {/* Center: Navigation or Rating Pill */}
+          <div className="flex items-center justify-center">
+            {isProgressTracking ? (
+              <div className="inline-flex items-center gap-4 rounded-full bg-slate-800/90 p-1 border border-slate-700/50 shadow-inner">
+                <button
+                  type="button"
+                  onClick={() => handleAnswer(1, false, 'Chưa biết - Học lại')}
+                  disabled={answered}
+                  className="flex h-10 w-10 items-center justify-center rounded-full text-rose-500 hover:bg-rose-500/20 disabled:pointer-events-none disabled:opacity-30 transition-all"
+                  aria-label="Chưa biết"
+                >
+                  <X size={20} strokeWidth={3} />
+                </button>
+
+                <div className="min-w-[60px] text-center text-sm font-black tracking-wider text-white">
+                  {currentIndex + 1} / {totalCards}
+                </div>
+
+                <button
+                  type="button"
+                  onClick={() => handleAnswer(5, true, 'Biết - Tăng level')}
+                  disabled={answered}
+                  className="flex h-10 w-10 items-center justify-center rounded-full text-emerald-400 hover:bg-emerald-500/20 disabled:pointer-events-none disabled:opacity-30 transition-all"
+                  aria-label="Biết"
+                >
+                  <Check size={20} strokeWidth={3} />
+                </button>
+              </div>
+            ) : (
+              <div className="inline-flex items-center gap-4 rounded-full bg-slate-800/90 p-1 border border-slate-700/50 shadow-inner">
+                <button
+                  type="button"
+                  onClick={onPrev}
+                  disabled={!onPrev || currentIndex === 0}
+                  className="flex h-10 w-10 items-center justify-center rounded-full text-slate-300 hover:bg-white/10 hover:text-white disabled:pointer-events-none disabled:opacity-20 transition-all"
+                  aria-label="Previous card"
+                >
+                  <ChevronLeft size={20} />
+                </button>
+
+                <div className="min-w-[60px] text-center text-sm font-black tracking-wider text-white">
+                  {currentIndex + 1} / {totalCards}
+                </div>
+
+                <button
+                  type="button"
+                  onClick={onNext}
+                  className="flex h-10 w-10 items-center justify-center rounded-full text-slate-300 hover:bg-white/10 hover:text-white transition-all"
+                  aria-label="Next card"
+                >
+                  <ChevronRight size={20} />
+                </button>
+              </div>
+            )}
+          </div>
+
+          {/* Right: Actions (Direction, Shuffle, Back/Undo) */}
+          <div className="flex items-center justify-end gap-3 text-slate-300">
+            {isProgressTracking && (
+              <button
+                type="button"
+                onClick={onUndo}
+                disabled={!canUndo}
+                className="flex h-10 w-10 items-center justify-center rounded-full bg-slate-800/90 border border-slate-700/50 text-slate-300 hover:bg-white/10 hover:text-white disabled:pointer-events-none disabled:opacity-20 transition-all"
+                title="Quay lại thẻ trước (Backspace)"
+              >
+                <Undo size={18} />
+              </button>
+            )}
+
             <button
-              onClick={onToggleDirection}
-              className="inline-flex items-center rounded-full bg-white/10 px-3 py-1.5 text-xs font-bold transition-colors hover:bg-white/15 hover:text-white"
-            >
-              ↔ {directionLabel}
-            </button>
-            <button
-              onClick={handleFlip}
-              className="transition-colors hover:text-white"
-              aria-label="Flip card"
-            >
-              <RotateCcw size={20} />
-            </button>
-            <button
+              type="button"
               onClick={onToggleShuffle}
-              className={`transition-colors hover:text-white ${isShuffleEnabled ? 'text-accent-primary' : ''}`}
-              aria-label="Toggle shuffle"
+              className={`flex h-10 w-10 items-center justify-center rounded-full bg-slate-800/90 border border-slate-700/50 transition-all hover:bg-white/10 hover:text-white ${
+                isShuffleEnabled ? 'text-blue-400 border-blue-500/50' : 'text-slate-300'
+              }`}
+              title="Trộn thẻ"
             >
-              <Shuffle size={20} />
+              <Shuffle size={18} />
+            </button>
+
+            <button
+              type="button"
+              onClick={onToggleDirection}
+              className="flex h-10 w-10 items-center justify-center rounded-full bg-slate-800/90 border border-slate-700/50 text-slate-300 hover:bg-white/10 hover:text-white transition-all"
+              title={`Đổi chiều: ${directionLabel}`}
+            >
+              <span className="text-[11px] font-extrabold tracking-tight">{isJpToVi ? 'JA' : 'VI'}</span>
             </button>
           </div>
         </div>

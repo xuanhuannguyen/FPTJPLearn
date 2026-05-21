@@ -163,8 +163,6 @@ export const getTypingCategories = (script: 'hiragana' | 'katakana'): TypingCate
           label: isHira ? 'だ/da' : 'ダ/da',
           items: [
             { kana: isHira ? 'だ' : 'ダ', romaji: 'da' },
-            { kana: isHira ? 'ぢ' : 'ヂ', romaji: 'di', alternatives: ['dji', 'ji'] },
-            { kana: isHira ? 'づ' : 'ヅ', romaji: 'du', alternatives: ['dzu', 'zu'] },
             { kana: isHira ? 'で' : 'デ', romaji: 'de' },
             { kana: isHira ? 'ど' : 'ド', romaji: 'do' },
           ],

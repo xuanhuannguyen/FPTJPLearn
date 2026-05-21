@@ -412,6 +412,19 @@ export const ReviewWorkspace = ({
     });
   };
 
+  const prevCard = () => {
+    if (!session || session.currentIndex === 0) return;
+    const prevIndex = session.currentIndex - 1;
+
+    setSession({
+      ...session,
+      currentIndex: prevIndex,
+      answered: false,
+      feedback: undefined,
+      revealBack: false,
+    });
+  };
+
   const exitSessionToModeSelection = async () => {
     setSavedSessionId(null);
     setError('');
@@ -790,6 +803,7 @@ export const ReviewWorkspace = ({
                 onReveal={() => setSession({ ...session, revealBack: true })}
                 answered={session.answered}
                 onNext={nextCard}
+                onPrev={prevCard}
                 onToggleDirection={() => setSelectedDirection((current) => current === 'jp_to_vi' ? 'vi_to_jp' : 'jp_to_vi')}
                 onToggleShuffle={() => handleShuffleToggle(!isShuffleEnabled)}
               />

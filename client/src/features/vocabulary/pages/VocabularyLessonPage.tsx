@@ -1,4 +1,4 @@
-﻿import { useCallback, useState, useEffect, useRef, useMemo } from 'react';
+import { useCallback, useState, useEffect, useRef, useMemo } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import { ArrowLeft, Brain, CheckCircle2, CreditCard, Keyboard, ListChecks, Loader2, RotateCcw, X } from 'lucide-react';
 import { FlashcardMode } from '../../review/components/FlashcardMode';
@@ -44,7 +44,11 @@ export const VocabularyLessonPage = () => {
   const [practiceError, setPracticeError] = useState('');
   const [practiceIndex, setPracticeIndex] = useState(0);
   const [isBackVisible, setIsBackVisible] = useState(false);
+  const [isProgressTracking, setIsProgressTracking] = useState(false);
+  const [unknownCardIds, setUnknownCardIds] = useState<Set<string>>(new Set());
+  const [originalPracticeCards, setOriginalPracticeCards] = useState<VocabularyPracticeCard[]>([]);
   const [practiceDirection, setPracticeDirection] = useState<PracticeDirection>('jp_to_vi');
+  const [roundHistory, setRoundHistory] = useState<Array<{ itemId: string; correct: boolean }>>([]);
   const [isShuffleEnabled, setIsShuffleEnabled] = useState(false);
   const [answerState, setAnswerState] = useState<AnswerState>(null);
   const [correctCount, setCorrectCount] = useState(0);
@@ -142,6 +146,9 @@ export const VocabularyLessonPage = () => {
         }
       }
       setPracticeCards(cards);
+      setOriginalPracticeCards(cards);
+      setUnknownCardIds(new Set());
+      setRoundHistory([]);
     } catch (error) {
       console.error('Failed to load vocabulary practice cards:', error);
       setPracticeError('Không tải được thẻ học từ vựng. Vui lòng thử lại.');
@@ -153,6 +160,9 @@ export const VocabularyLessonPage = () => {
   const closePractice = () => {
     setPracticeMode(null);
     setPracticeCards([]);
+    setOriginalPracticeCards([]);
+    setUnknownCardIds(new Set());
+    setRoundHistory([]);
     setPracticeIndex(0);
     setIsBackVisible(false);
     setPracticeDirection('jp_to_vi');
@@ -209,6 +219,12 @@ export const VocabularyLessonPage = () => {
     setAnswerState(null);
   };
 
+  const goToPrevPracticeCard = () => {
+    setPracticeIndex((prev) => Math.max(0, prev - 1));
+    setIsBackVisible(false);
+    setAnswerState(null);
+  };
+
   const shuffleRemainingCards = () => {
     setIsShuffleEnabled((prev) => !prev);
     setPracticeCards((prev) => {
@@ -230,6 +246,19 @@ export const VocabularyLessonPage = () => {
 
     if (correct) {
       setCorrectCount((prev) => prev + 1);
+    } else if (isProgressTracking) {
+      setUnknownCardIds((prev) => {
+        const next = new Set(prev);
+        next.add(card.itemId);
+        return next;
+      });
+    }
+
+    if (isProgressTracking) {
+      setRoundHistory((prev) => [
+        ...prev,
+        { itemId: card.itemId, correct }
+      ]);
     }
 
     setAnswerState(correct ? 'correct' : 'wrong');
@@ -240,6 +269,43 @@ export const VocabularyLessonPage = () => {
     } catch (error) {
       console.error('Failed to record flashcard practice:', error);
       setPracticeError('Không lưu được lượt học flashcard.');
+    }
+  };
+
+  const handleUndo = () => {
+    if (answerState) {
+      const lastAction = roundHistory[roundHistory.length - 1];
+      if (lastAction && lastAction.itemId === practiceCards[practiceIndex].itemId) {
+        if (lastAction.correct) {
+          setCorrectCount((prev) => Math.max(0, prev - 1));
+        } else {
+          setUnknownCardIds((prev) => {
+            const next = new Set(prev);
+            next.delete(lastAction.itemId);
+            return next;
+          });
+        }
+        setRoundHistory((prev) => prev.slice(0, -1));
+      }
+      setAnswerState(null);
+    } else if (practiceIndex > 0) {
+      const prevIndex = practiceIndex - 1;
+      const prevCard = practiceCards[prevIndex];
+      const lastAction = roundHistory[roundHistory.length - 1];
+      if (lastAction && lastAction.itemId === prevCard.itemId) {
+        if (lastAction.correct) {
+          setCorrectCount((prev) => Math.max(0, prev - 1));
+        } else {
+          setUnknownCardIds((prev) => {
+            const next = new Set(prev);
+            next.delete(lastAction.itemId);
+            return next;
+          });
+        }
+        setRoundHistory((prev) => prev.slice(0, -1));
+      }
+      setPracticeIndex(prevIndex);
+      setAnswerState(null);
     }
   };
 
@@ -260,6 +326,40 @@ export const VocabularyLessonPage = () => {
       console.error('Failed to record multiple choice practice:', error);
       setPracticeError('Không lưu được lượt học multichoice.');
     }
+  };
+
+  const handleStudyUnknown = () => {
+    const cards = originalPracticeCards.filter((card) => unknownCardIds.has(card.itemId));
+    if (isShuffleEnabled) {
+      for (let i = cards.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [cards[i], cards[j]] = [cards[j], cards[i]];
+      }
+    }
+    setPracticeCards(cards);
+    setPracticeIndex(0);
+    setUnknownCardIds(new Set());
+    setRoundHistory([]);
+    setCorrectCount(0);
+    setAnswerState(null);
+    setIsBackVisible(false);
+  };
+
+  const handleResetAll = () => {
+    const cards = [...originalPracticeCards];
+    if (isShuffleEnabled) {
+      for (let i = cards.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [cards[i], cards[j]] = [cards[j], cards[i]];
+      }
+    }
+    setPracticeCards(cards);
+    setPracticeIndex(0);
+    setUnknownCardIds(new Set());
+    setRoundHistory([]);
+    setCorrectCount(0);
+    setAnswerState(null);
+    setIsBackVisible(false);
   };
 
   if (isLoading) {
@@ -351,10 +451,22 @@ export const VocabularyLessonPage = () => {
           onAnswerMultipleChoice={answerMultipleChoice}
           onAnswerTyping={recordTypingAnswer}
           onNext={goToNextPracticeCard}
+          onPrev={goToPrevPracticeCard}
           onRestart={() => startPractice(practiceMode)}
           onClose={closePractice}
           onToggleDirection={() => setPracticeDirection((prev) => prev === 'jp_to_vi' ? 'vi_to_jp' : 'jp_to_vi')}
           onToggleShuffle={shuffleRemainingCards}
+          isProgressTracking={isProgressTracking}
+          onToggleProgressTracking={() => {
+            setIsProgressTracking(!isProgressTracking);
+            setUnknownCardIds(new Set());
+            setRoundHistory([]);
+          }}
+          unknownCardIds={unknownCardIds}
+          onStudyUnknown={handleStudyUnknown}
+          onResetAll={handleResetAll}
+          onUndo={handleUndo}
+          canUndo={isProgressTracking && (answerState !== null || practiceIndex > 0)}
         />
       ) : (
       <div className="mt-8 rounded-[24px] border-2 border-slate-800 bg-white overflow-hidden shadow-[0_4px_0_0_#1e293b] md:shadow-[0_8px_0_0_#1e293b]">
@@ -450,10 +562,20 @@ type PracticeWorkspaceProps = {
   onAnswerMultipleChoice: (correct: boolean) => void;
   onAnswerTyping: (card: VocabularyPracticeCard, input: string, correct: boolean) => void;
   onNext: () => void;
+  onPrev: () => void;
   onRestart: () => void;
   onClose: () => void;
   onToggleDirection: () => void;
   onToggleShuffle: () => void;
+
+  // Progress tracking props
+  isProgressTracking: boolean;
+  onToggleProgressTracking: () => void;
+  unknownCardIds: Set<string>;
+  onStudyUnknown: () => void;
+  onResetAll: () => void;
+  onUndo?: () => void;
+  canUndo?: boolean;
 };
 
 const PracticeWorkspace = ({
@@ -472,15 +594,40 @@ const PracticeWorkspace = ({
   onAnswerMultipleChoice,
   onAnswerTyping,
   onNext,
+  onPrev,
   onRestart,
   onClose,
   onToggleDirection,
   onToggleShuffle,
+  isProgressTracking,
+  onToggleProgressTracking,
+  unknownCardIds,
+  onStudyUnknown,
+  onResetAll,
+  onUndo,
+  canUndo,
 }: PracticeWorkspaceProps) => {
   const currentCard = cards[currentIndex];
   const isCompleted = !isLoading && cards.length > 0 && currentIndex >= cards.length;
   const title = mode === 'flashcard' ? 'Flashcard' : mode === 'typing' ? 'Gõ' : 'Multichoice';
   const reviewCard = currentCard ? toReviewCard(currentCard) : null;
+  const dummyCard: ReviewCard = {
+    id: '',
+    itemId: '',
+    word: '',
+    reading: '',
+    wordType: '',
+    meaning: '',
+    exampleSentence: '',
+    exampleMeaning: '',
+    level: 0,
+    status: 'new',
+    nextReviewAt: new Date().toISOString(),
+    intervalDays: 0,
+    repetitions: 0,
+    lapseCount: 0,
+    learningStepIndex: 0,
+  };
   const options = useMemo(() => {
     return currentCard ? buildOptions(currentCard, cards, direction) : [];
   }, [currentCard, cards, direction]);
@@ -523,7 +670,10 @@ const PracticeWorkspace = ({
     );
   }
 
-  if (isCompleted || !currentCard) {
+  const isProgressTrackingFlashcard = mode === 'flashcard' && isProgressTracking;
+  const showParentCompleted = isCompleted && !isProgressTrackingFlashcard;
+
+  if (showParentCompleted || (!currentCard && !isProgressTrackingFlashcard)) {
     return (
       <div className="rounded-[24px] border-2 border-slate-800 bg-white p-8 text-center shadow-[0_8px_0_0_#1e293b]">
         <CheckCircle2 size={52} className="mx-auto text-accent-success" />
@@ -567,9 +717,9 @@ const PracticeWorkspace = ({
         </div>
       </div>
 
-      {mode === 'flashcard' && reviewCard ? (
+      {mode === 'flashcard' && (reviewCard || isCompleted) ? (
         <FlashcardMode
-          card={reviewCard}
+          card={reviewCard || dummyCard}
           direction={direction}
           currentIndex={currentIndex}
           totalCards={cards.length}
@@ -581,8 +731,19 @@ const PracticeWorkspace = ({
           }}
           onAnswer={(quality, correct) => onAnswerFlashcard(quality, correct)}
           onNext={onNext}
+          onPrev={onPrev}
           onToggleDirection={onToggleDirection}
           onToggleShuffle={onToggleShuffle}
+
+          // Progress tracking props
+          isProgressTracking={isProgressTracking}
+          onToggleProgressTracking={onToggleProgressTracking}
+          isRoundFinished={isCompleted}
+          unknownCount={unknownCardIds.size}
+          onStudyUnknown={onStudyUnknown}
+          onResetAll={onResetAll}
+          onUndo={onUndo}
+          canUndo={canUndo}
         />
       ) : null}
 
@@ -1066,15 +1227,16 @@ const buildOptions = (
     ? card.meaning
     : `${card.word} (${card.reading})`;
 
-  const distractors = cards
+  const candidateDistractors = cards
     .filter((candidate) => candidate.itemId !== card.itemId)
     .map((candidate) => (
       direction === 'jp_to_vi'
         ? candidate.meaning
         : `${candidate.word} (${candidate.reading})`
     ))
-    .filter((label, index, arr) => label && arr.indexOf(label) === index)
-    .slice(0, 3);
+    .filter((label, index, arr) => label && arr.indexOf(label) === index);
+
+  const distractors = shuffleOptions(candidateDistractors).slice(0, 3);
 
   return shuffleOptions([
     { label: correctLabel, isCorrect: true },
