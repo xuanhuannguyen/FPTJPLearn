@@ -7,6 +7,7 @@ using JPLearn.Core.Memory;
 using JPLearn.Core.Payments;
 using JPLearn.Core.Speaking;
 using JPLearn.Core.StaticVocabulary;
+using JPLearn.Core.Settings;
 using JPLearn.Core.Vocabulary;
 using JPLearn.Infrastructure.Data;
 using JPLearn.Infrastructure.Services;
@@ -56,6 +57,7 @@ public static class ServiceCollectionExtensions
         services.AddScoped<IMemoryKanjiService, MemoryKanjiService>();
         services.AddScoped<IMemoryVocabularyService, MemoryVocabularyService>();
         services.AddScoped<IMemorySrsService, MemorySrsService>();
+        services.AddScoped<IAccessSettingsService, AccessSettingsService>();
         services.AddScoped<IPaymentAccessService, PaymentAccessService>();
         services.AddScoped<IExamPracticeService, ExamPracticeService>();
         services.AddScoped<IAdminExamQuestionService, AdminExamQuestionService>();

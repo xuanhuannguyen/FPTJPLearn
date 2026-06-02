@@ -1,0 +1,1943 @@
+{
+  "courseCode": "JPD123",
+  "lessonNumber": 6,
+  "lessonTitle": "Bài 6 - Rủ rê, so sánh và chốt cuộc hẹn",
+  "questionMode": "NO_IMAGE",
+  "dataPurpose": "oral_exam_practice_web",
+  "lessonOverview": {
+    "shortSummary": "Sau Bài 6, sinh viên có thể rủ bạn tham gia hoạt động, nhận lời hoặc từ chối lời mời, hỏi sở thích theo nhóm, so sánh hai đối tượng, hỏi trải nghiệm đã làm hay chưa và chốt thông tin cuộc hẹn.",
+    "studentCanDo": [
+      "Rủ bạn cùng làm một hoạt động bằng mẫu Vませんか。",
+      "Nhận lời bằng はい、しましょう／いいですね。",
+      "Từ chối lịch sự bằng すみません、ちょっと…。／やくそくがあります。",
+      "Hỏi và trả lời so sánh nhất bằng いちばん。",
+      "So sánh hai lựa chọn bằng どちらが／Nのほうが。",
+      "Nói so sánh hơn bằng N1はN2よりAです。",
+      "Hỏi trải nghiệm quá khứ bằng もうVましたか。",
+      "Chốt cuộc hẹn bằng 何時に会いますか／どこで会いますか。"
+    ],
+    "mainGrammarFocus": [
+      "Vませんか。",
+      "Vましょう。",
+      "Nがあります。",
+      "Nで なにが いちばん Aですか。",
+      "N1とN2と どちらが Aですか。",
+      "N1は N2より Aです。",
+      "もう Vましたか。",
+      "なんじに あいますか。",
+      "どこで あいますか。",
+      "Nは どうですか。"
+    ],
+    "examTipSummary": "Khi thi vấn đáp Bài 6, cần nghe từ khóa chính: いっしょに, しませんか, いちばん, どちら, より, もう, 何時, どこで. Nếu là lời mời thì trả lời nhận lời hoặc từ chối lịch sự. Nếu là so sánh thì chọn một đáp án rõ ràng và dùng đúng mẫu."
+  },
+  "grammarBank": [
+    {
+      "grammarId": "g_l6_001",
+      "pattern": "Vませんか。",
+      "meaning": "Cùng làm V nhé? / Bạn có muốn làm V cùng không?",
+      "usage": "Dùng để rủ, mời người khác làm gì đó một cách lịch sự.",
+      "example": {
+        "ja": "いっしょに　サッカーを　しませんか。",
+        "vi": "Cùng chơi bóng đá không?"
+      }
+    },
+    {
+      "grammarId": "g_l6_002",
+      "pattern": "Vましょう。",
+      "meaning": "Cùng làm V nào.",
+      "usage": "Dùng để đề nghị hoặc nhận lời lời mời.",
+      "example": {
+        "ja": "はい、いきましょう。",
+        "vi": "Vâng, cùng đi nào."
+      }
+    },
+    {
+      "grammarId": "g_l6_003",
+      "pattern": "Nがあります。",
+      "meaning": "Có N.",
+      "usage": "Dùng để nói có sự kiện, đồ vật hoặc địa điểm.",
+      "example": {
+        "ja": "よこはまで　はなびが　あります。",
+        "vi": "Ở Yokohama có pháo hoa."
+      }
+    },
+    {
+      "grammarId": "g_l6_004",
+      "pattern": "Nで　なにが　いちばん　Aですか。",
+      "meaning": "Trong nhóm N, cái gì là A nhất?",
+      "usage": "Dùng để hỏi so sánh nhất trong một phạm vi.",
+      "example": {
+        "ja": "にほんの　たべもので　なにが　いちばん　すきですか。",
+        "vi": "Trong đồ ăn Nhật, bạn thích món gì nhất?"
+      }
+    },
+    {
+      "grammarId": "g_l6_005",
+      "pattern": "N1とN2と　どちらが　Aですか。",
+      "meaning": "Giữa N1 và N2, cái nào A hơn?",
+      "usage": "Dùng để hỏi lựa chọn giữa hai đối tượng.",
+      "example": {
+        "ja": "でんしゃと　バスと　どちらが　いいですか。",
+        "vi": "Tàu điện và xe buýt, cái nào tốt hơn?"
+      }
+    },
+    {
+      "grammarId": "g_l6_006",
+      "pattern": "N1は　N2より　Aです。",
+      "meaning": "N1 A hơn N2.",
+      "usage": "Dùng để so sánh hơn giữa hai đối tượng.",
+      "example": {
+        "ja": "ひこうきは　しんかんせんより　はやいです。",
+        "vi": "Máy bay nhanh hơn tàu Shinkansen."
+      }
+    },
+    {
+      "grammarId": "g_l6_007",
+      "pattern": "もう　Vましたか。",
+      "meaning": "Đã V chưa?",
+      "usage": "Dùng để hỏi người nghe đã từng làm việc gì đó chưa.",
+      "example": {
+        "ja": "もう　インドの　カレーを　たべましたか。",
+        "vi": "Bạn đã ăn cà ri Ấn Độ chưa?"
+      }
+    },
+    {
+      "grammarId": "g_l6_008",
+      "pattern": "Nは　どうですか。",
+      "meaning": "N thì thế nào?",
+      "usage": "Dùng để đề xuất thời gian, địa điểm hoặc hỏi ý kiến.",
+      "example": {
+        "ja": "よじは　どうですか。",
+        "vi": "4 giờ thì thế nào?"
+      }
+    },
+    {
+      "grammarId": "g_l6_009",
+      "pattern": "なんじに　あいますか。",
+      "meaning": "Mấy giờ gặp nhau?",
+      "usage": "Dùng để chốt thời gian gặp.",
+      "example": {
+        "ja": "なんじに　あいますか。",
+        "vi": "Mấy giờ gặp nhau?"
+      }
+    },
+    {
+      "grammarId": "g_l6_010",
+      "pattern": "どこで　あいますか。",
+      "meaning": "Gặp ở đâu?",
+      "usage": "Dùng để chốt địa điểm gặp.",
+      "example": {
+        "ja": "メガえいがかんで　あいます。",
+        "vi": "Gặp ở rạp phim Mega."
+      }
+    }
+  ],
+  "sections": [
+    {
+      "sectionId": "jpd123_l6_no_image_part1",
+      "sectionTitle": "Phần 1 - Rủ bạn tham gia hoạt động / nhận lời / từ chối",
+      "sectionViTitle": "Lời mời và phản hồi lời mời",
+      "sectionGoal": "Sinh viên có thể rủ bạn làm gì đó, nhận lời hoặc từ chối lịch sự.",
+      "questionList": [
+        {
+          "questionId": "jpd123_l6_p1_q01",
+          "order": 1,
+          "question": {
+            "ja": "らいしゅうの　にちようび、いっしょに　サッカーを　しませんか。",
+            "vi": "Chủ nhật tuần sau, cùng chơi bóng đá không?"
+          },
+          "answerType": "invitation_accept_or_decline",
+          "sampleAnswers": [
+            {
+              "ja": "はい、しましょう。",
+              "vi": "Vâng, cùng chơi nào."
+            },
+            {
+              "ja": "いいですね。しましょう。",
+              "vi": "Hay đấy. Cùng chơi nào."
+            },
+            {
+              "ja": "すみません、ちょっと…。アルバイトが　あります。",
+              "vi": "Xin lỗi, hơi khó... Tôi có việc làm thêm."
+            }
+          ],
+          "grammarIds": [
+            "g_l6_001",
+            "g_l6_002"
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "らいしゅう",
+              "reading": "らいしゅう",
+              "meaning": "Tuần sau"
+            },
+            {
+              "word": "にちようび",
+              "reading": "にちようび",
+              "meaning": "Chủ nhật"
+            },
+            {
+              "word": "いっしょに",
+              "reading": "いっしょに",
+              "meaning": "Cùng nhau"
+            },
+            {
+              "word": "サッカー",
+              "reading": "サッカー",
+              "meaning": "Bóng đá"
+            },
+            {
+              "word": "します",
+              "reading": "します",
+              "meaning": "Làm, chơi"
+            },
+            {
+              "word": "アルバイト",
+              "reading": "アルバイト",
+              "meaning": "Việc làm thêm"
+            }
+          ],
+          "tips": [
+            "Nghe thấy しませんか thì đây là lời mời.",
+            "Nhận lời nên dùng はい、しましょう。",
+            "Từ chối nên nói すみません、ちょっと… trước để lịch sự."
+          ],
+          "commonMistakes": [
+            "Trả lời はい、します thay vì はい、しましょう.",
+            "Từ chối quá trực tiếp bằng いいえだけ, chưa tự nhiên trong giao tiếp."
+          ]
+        },
+        {
+          "questionId": "jpd123_l6_p1_q02",
+          "order": 2,
+          "question": {
+            "ja": "こんげつの　はつか、いっしょに　コンサートに　いきませんか。",
+            "vi": "Ngày 20 tháng này, cùng đi concert không?"
+          },
+          "answerType": "invitation_accept_or_decline",
+          "sampleAnswers": [
+            {
+              "ja": "はい、いきましょう。",
+              "vi": "Vâng, cùng đi nào."
+            },
+            {
+              "ja": "いいですね。いきましょう。",
+              "vi": "Hay đấy. Cùng đi nào."
+            },
+            {
+              "ja": "すみません、こんげつの　はつかは　ちょっと…。やくそくが　あります。",
+              "vi": "Xin lỗi, ngày 20 tháng này thì hơi khó... Tôi có hẹn."
+            }
+          ],
+          "grammarIds": [
+            "g_l6_001",
+            "g_l6_002"
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "こんげつ",
+              "reading": "こんげつ",
+              "meaning": "Tháng này"
+            },
+            {
+              "word": "はつか",
+              "reading": "はつか",
+              "meaning": "Ngày 20"
+            },
+            {
+              "word": "コンサート",
+              "reading": "コンサート",
+              "meaning": "Buổi hòa nhạc / concert"
+            },
+            {
+              "word": "いきます",
+              "reading": "いきます",
+              "meaning": "Đi"
+            },
+            {
+              "word": "やくそく",
+              "reading": "やくそく",
+              "meaning": "Cuộc hẹn / lời hứa"
+            },
+            {
+              "word": "あります",
+              "reading": "あります",
+              "meaning": "Có"
+            }
+          ],
+          "tips": [
+            "行きませんか là lời mời đi đâu đó.",
+            "Nhận lời đổi 行きませんか thành 行きましょう.",
+            "Khi từ chối có thể thêm lý do: やくそくがあります."
+          ],
+          "commonMistakes": [
+            "Nhầm はつか là ngày 2; はつか là ngày 20.",
+            "Thiếu に sau コンサート trong câu mời vẫn có thể hiểu nhưng nên dùng コンサートに行きます."
+          ]
+        },
+        {
+          "questionId": "jpd123_l6_p1_q03",
+          "order": 3,
+          "question": {
+            "ja": "こんばん、いっしょに　ばんごはんを　たべませんか。",
+            "vi": "Tối nay, cùng ăn cơm tối không?"
+          },
+          "answerType": "invitation_accept_or_decline",
+          "sampleAnswers": [
+            {
+              "ja": "はい、たべましょう。",
+              "vi": "Vâng, cùng ăn nào."
+            },
+            {
+              "ja": "いいですね。いきましょう。",
+              "vi": "Hay đấy. Cùng đi nào."
+            },
+            {
+              "ja": "すみません、じかんが　ありません。",
+              "vi": "Xin lỗi, tôi không có thời gian."
+            }
+          ],
+          "grammarIds": [
+            "g_l6_001",
+            "g_l6_002"
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "こんばん",
+              "reading": "こんばん",
+              "meaning": "Tối nay"
+            },
+            {
+              "word": "いっしょに",
+              "reading": "いっしょに",
+              "meaning": "Cùng nhau"
+            },
+            {
+              "word": "ばんごはん",
+              "reading": "ばんごはん",
+              "meaning": "Cơm tối"
+            },
+            {
+              "word": "たべます",
+              "reading": "たべます",
+              "meaning": "Ăn"
+            },
+            {
+              "word": "じかん",
+              "reading": "じかん",
+              "meaning": "Thời gian"
+            },
+            {
+              "word": "ありません",
+              "reading": "ありません",
+              "meaning": "Không có"
+            }
+          ],
+          "tips": [
+            "食べませんか là lời mời ăn cùng.",
+            "Có thể trả lời 食べましょう hoặc 行きましょう tùy ngữ cảnh.",
+            "じかんがありません là lý do từ chối rất thông dụng."
+          ],
+          "commonMistakes": [
+            "Dùng 食べます thay vì 食べましょう khi nhận lời.",
+            "Quên を trong ばんごはんを食べます."
+          ]
+        },
+        {
+          "questionId": "jpd123_l6_p1_q04",
+          "order": 4,
+          "question": {
+            "ja": "らいしゅうの　にちようび、カラオケへ　いきましょう。",
+            "vi": "Chủ nhật tuần sau cùng đi karaoke nhé."
+          },
+          "answerType": "suggestion_response",
+          "sampleAnswers": [
+            {
+              "ja": "はい、いきましょう。",
+              "vi": "Vâng, cùng đi nào."
+            },
+            {
+              "ja": "いいですね。そうしましょう。",
+              "vi": "Hay đấy. Làm như vậy đi."
+            },
+            {
+              "ja": "すみません、らいしゅうの　にちようびは　ちょっと…。",
+              "vi": "Xin lỗi, chủ nhật tuần sau thì hơi khó..."
+            }
+          ],
+          "grammarIds": [
+            "g_l6_002"
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "カラオケ",
+              "reading": "カラオケ",
+              "meaning": "Karaoke"
+            },
+            {
+              "word": "へ",
+              "reading": "へ",
+              "meaning": "Đến / về phía"
+            },
+            {
+              "word": "いきましょう",
+              "reading": "いきましょう",
+              "meaning": "Cùng đi nào"
+            },
+            {
+              "word": "そうしましょう",
+              "reading": "そうしましょう",
+              "meaning": "Làm như vậy đi"
+            },
+            {
+              "word": "いいですね",
+              "reading": "いいですね",
+              "meaning": "Hay đấy"
+            }
+          ],
+          "tips": [
+            "Câu Vましょう là lời đề nghị mạnh hơn Vませんか.",
+            "Khi đồng ý có thể trả lời lại bằng cùng mẫu Vましょう.",
+            "そうしましょう dùng khi đồng ý với phương án vừa được đề xuất."
+          ],
+          "commonMistakes": [
+            "Nhầm カラオケを行きます; đúng là カラオケへ行きます.",
+            "Chỉ trả lời はい mà không nói tiếp 行きましょう khiến câu hơi cụt."
+          ]
+        },
+        {
+          "questionId": "jpd123_l6_p1_q05",
+          "order": 5,
+          "question": {
+            "ja": "よこはまで　はなびが　ありますか。",
+            "vi": "Ở Yokohama có pháo hoa không?"
+          },
+          "answerType": "yes_no_event",
+          "sampleAnswers": [
+            {
+              "ja": "はい、あります。",
+              "vi": "Vâng, có."
+            },
+            {
+              "ja": "いいえ、ありません。",
+              "vi": "Không, không có."
+            }
+          ],
+          "grammarIds": [
+            "g_l6_003"
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "よこはま",
+              "reading": "よこはま",
+              "meaning": "Yokohama"
+            },
+            {
+              "word": "で",
+              "reading": "で",
+              "meaning": "Ở / tại"
+            },
+            {
+              "word": "はなび",
+              "reading": "はなび",
+              "meaning": "Pháo hoa"
+            },
+            {
+              "word": "あります",
+              "reading": "あります",
+              "meaning": "Có"
+            },
+            {
+              "word": "ありません",
+              "reading": "ありません",
+              "meaning": "Không có"
+            }
+          ],
+          "tips": [
+            "Câu hỏi có ありますか là hỏi có hay không.",
+            "Sự kiện như はなび cũng dùng あります.",
+            "Trả lời ngắn はい、あります là đủ."
+          ],
+          "commonMistakes": [
+            "Dùng います cho sự kiện; nên dùng あります.",
+            "Quên はい／いいえ trong câu hỏi Yes/No."
+          ]
+        },
+        {
+          "questionId": "jpd123_l6_p1_q06",
+          "order": 6,
+          "question": {
+            "ja": "よこはまで　なにが　ありますか。",
+            "vi": "Ở Yokohama có gì?"
+          },
+          "answerType": "wh_event",
+          "sampleAnswers": [
+            {
+              "ja": "はなびが　あります。",
+              "vi": "Có pháo hoa."
+            },
+            {
+              "ja": "おまつりが　あります。",
+              "vi": "Có lễ hội."
+            }
+          ],
+          "grammarIds": [
+            "g_l6_003"
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "なに",
+              "reading": "なに",
+              "meaning": "Cái gì"
+            },
+            {
+              "word": "はなび",
+              "reading": "はなび",
+              "meaning": "Pháo hoa"
+            },
+            {
+              "word": "おまつり",
+              "reading": "おまつり",
+              "meaning": "Lễ hội"
+            },
+            {
+              "word": "イベント",
+              "reading": "イベント",
+              "meaning": "Sự kiện"
+            },
+            {
+              "word": "あります",
+              "reading": "あります",
+              "meaning": "Có"
+            }
+          ],
+          "tips": [
+            "何がありますか hỏi có sự kiện / thứ gì.",
+            "Trả lời bằng Nがあります.",
+            "Không cần thêm よこはまで nếu ngữ cảnh đã rõ."
+          ],
+          "commonMistakes": [
+            "Trả lời chỉ はなび mà thiếu が　あります.",
+            "Nhầm 何が với どこが."
+          ]
+        },
+        {
+          "questionId": "jpd123_l6_p1_q07",
+          "order": 7,
+          "question": {
+            "ja": "よこはまドームで　おまつりが　ありますか。",
+            "vi": "Ở Yokohama Dome có lễ hội không?"
+          },
+          "answerType": "yes_no_event",
+          "sampleAnswers": [
+            {
+              "ja": "はい、おまつりが　あります。",
+              "vi": "Vâng, có lễ hội."
+            },
+            {
+              "ja": "いいえ、おまつりは　ありません。",
+              "vi": "Không, không có lễ hội."
+            }
+          ],
+          "grammarIds": [
+            "g_l6_003"
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "よこはまドーム",
+              "reading": "よこはまドーム",
+              "meaning": "Yokohama Dome"
+            },
+            {
+              "word": "おまつり",
+              "reading": "おまつり",
+              "meaning": "Lễ hội"
+            },
+            {
+              "word": "で",
+              "reading": "で",
+              "meaning": "Ở / tại"
+            },
+            {
+              "word": "ありますか",
+              "reading": "ありますか",
+              "meaning": "Có không?"
+            }
+          ],
+          "tips": [
+            "Địa điểm tổ chức sự kiện dùng trợ từ で.",
+            "Câu hỏi Yes/No nên bắt đầu bằng はい hoặc いいえ.",
+            "Phủ định có thể nói おまつりはありません."
+          ],
+          "commonMistakes": [
+            "Dùng に thay vì で trong câu sự kiện diễn ra tại địa điểm.",
+            "Quên đổi が thành は khi phủ định cũng không quá sai, nhưng は tự nhiên hơn."
+          ]
+        }
+      ]
+    },
+    {
+      "sectionId": "jpd123_l6_no_image_part2",
+      "sectionTitle": "Phần 2 - So sánh nhất / so sánh hơn / trải nghiệm quá khứ",
+      "sectionViTitle": "Hỏi sở thích, lựa chọn và trải nghiệm",
+      "sectionGoal": "Sinh viên có thể hỏi và trả lời về cái thích nhất, lựa chọn giữa hai thứ, so sánh hơn và hỏi đã từng làm gì chưa.",
+      "questionList": [
+        {
+          "questionId": "jpd123_l6_p2_q01",
+          "order": 1,
+          "question": {
+            "ja": "にほんの　たべもので　なにが　いちばん　すきですか。",
+            "vi": "Trong đồ ăn Nhật, bạn thích món gì nhất?"
+          },
+          "answerType": "superlative_preference",
+          "sampleAnswers": [
+            {
+              "ja": "すしが　いちばん　すきです。",
+              "vi": "Tôi thích sushi nhất."
+            },
+            {
+              "ja": "ラーメンが　いちばん　すきです。",
+              "vi": "Tôi thích ramen nhất."
+            }
+          ],
+          "grammarIds": [
+            "g_l6_004"
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "にほん",
+              "reading": "にほん",
+              "meaning": "Nhật Bản"
+            },
+            {
+              "word": "たべもの",
+              "reading": "たべもの",
+              "meaning": "Đồ ăn"
+            },
+            {
+              "word": "なに",
+              "reading": "なに",
+              "meaning": "Cái gì"
+            },
+            {
+              "word": "いちばん",
+              "reading": "いちばん",
+              "meaning": "Nhất"
+            },
+            {
+              "word": "すき",
+              "reading": "すき",
+              "meaning": "Thích"
+            },
+            {
+              "word": "すし",
+              "reading": "すし",
+              "meaning": "Sushi"
+            },
+            {
+              "word": "ラーメン",
+              "reading": "ラーメン",
+              "meaning": "Mì ramen"
+            }
+          ],
+          "tips": [
+            "Mẫu trả lời chuẩn: Nがいちばんすきです。",
+            "で thể hiện phạm vi: trong nhóm đồ ăn Nhật.",
+            "すき là tính từ đuôi な, nhưng trong câu này dùng すきです."
+          ],
+          "commonMistakes": [
+            "Trả lời すしをすきです; đúng là すしがすきです.",
+            "Quên いちばん khi câu hỏi hỏi cái thích nhất."
+          ]
+        },
+        {
+          "questionId": "jpd123_l6_p2_q02",
+          "order": 2,
+          "question": {
+            "ja": "ベトナムで　どこが　いちばん　おもしろいですか。",
+            "vi": "Ở Việt Nam, nơi nào thú vị nhất?"
+          },
+          "answerType": "superlative_place",
+          "sampleAnswers": [
+            {
+              "ja": "ダナンが　いちばん　おもしろいです。",
+              "vi": "Đà Nẵng thú vị nhất."
+            },
+            {
+              "ja": "ハノイが　いちばん　おもしろいです。",
+              "vi": "Hà Nội thú vị nhất."
+            }
+          ],
+          "grammarIds": [
+            "g_l6_004"
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "ベトナム",
+              "reading": "ベトナム",
+              "meaning": "Việt Nam"
+            },
+            {
+              "word": "どこ",
+              "reading": "どこ",
+              "meaning": "Ở đâu / nơi nào"
+            },
+            {
+              "word": "いちばん",
+              "reading": "いちばん",
+              "meaning": "Nhất"
+            },
+            {
+              "word": "おもしろい",
+              "reading": "おもしろい",
+              "meaning": "Thú vị"
+            },
+            {
+              "word": "ダナン",
+              "reading": "ダナン",
+              "meaning": "Đà Nẵng"
+            },
+            {
+              "word": "ハノイ",
+              "reading": "ハノイ",
+              "meaning": "Hà Nội"
+            }
+          ],
+          "tips": [
+            "どこが hỏi địa điểm.",
+            "Trả lời bằng tên địa điểm + がいちばんおもしろいです。",
+            "Có thể thay ダナン bằng nơi sinh viên muốn nói."
+          ],
+          "commonMistakes": [
+            "Dùng 何 thay vì どこ cho địa điểm.",
+            "Thiếu が sau tên địa điểm."
+          ]
+        },
+        {
+          "questionId": "jpd123_l6_p2_q03",
+          "order": 3,
+          "question": {
+            "ja": "かしゅで　だれが　いちばん　すきですか。",
+            "vi": "Trong các ca sĩ, bạn thích ai nhất?"
+          },
+          "answerType": "superlative_person",
+          "sampleAnswers": [
+            {
+              "ja": "ソンさんが　いちばん　すきです。",
+              "vi": "Tôi thích Sơn nhất."
+            },
+            {
+              "ja": "Aさんが　いちばん　すきです。",
+              "vi": "Tôi thích bạn A nhất."
+            }
+          ],
+          "grammarIds": [
+            "g_l6_004"
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "かしゅ",
+              "reading": "かしゅ",
+              "meaning": "Ca sĩ"
+            },
+            {
+              "word": "だれ",
+              "reading": "だれ",
+              "meaning": "Ai"
+            },
+            {
+              "word": "いちばん",
+              "reading": "いちばん",
+              "meaning": "Nhất"
+            },
+            {
+              "word": "すき",
+              "reading": "すき",
+              "meaning": "Thích"
+            },
+            {
+              "word": "Aさん",
+              "reading": "Aさん",
+              "meaning": "Bạn A / anh chị A"
+            }
+          ],
+          "tips": [
+            "だれが dùng để hỏi người.",
+            "Trả lời: tên người + がいちばんすきです。",
+            "Không cần giải thích dài trong vấn đáp."
+          ],
+          "commonMistakes": [
+            "Dùng 何が cho người; hỏi người nên dùng だれが.",
+            "Quên さん khi nói tên người trong ngữ cảnh lịch sự."
+          ]
+        },
+        {
+          "questionId": "jpd123_l6_p2_q04",
+          "order": 4,
+          "question": {
+            "ja": "でんしゃと　バスと　どちらが　いいですか。",
+            "vi": "Tàu điện và xe buýt, cái nào tốt hơn?"
+          },
+          "answerType": "choice_between_two",
+          "sampleAnswers": [
+            {
+              "ja": "でんしゃの　ほうが　いいです。",
+              "vi": "Tàu điện tốt hơn."
+            },
+            {
+              "ja": "バスの　ほうが　いいです。",
+              "vi": "Xe buýt tốt hơn."
+            }
+          ],
+          "grammarIds": [
+            "g_l6_005"
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "でんしゃ",
+              "reading": "でんしゃ",
+              "meaning": "Tàu điện"
+            },
+            {
+              "word": "バス",
+              "reading": "バス",
+              "meaning": "Xe buýt"
+            },
+            {
+              "word": "どちら",
+              "reading": "どちら",
+              "meaning": "Cái nào / bên nào"
+            },
+            {
+              "word": "いい",
+              "reading": "いい",
+              "meaning": "Tốt"
+            },
+            {
+              "word": "ほう",
+              "reading": "ほう",
+              "meaning": "Phía / bên / lựa chọn"
+            }
+          ],
+          "tips": [
+            "Khi hỏi どちらが, câu trả lời tự nhiên là NのほうがAです。",
+            "いい là tính từ đặc biệt, không đọc là よい trong câu thông thường này.",
+            "Có thể trả lời ngắn: でんしゃです, nhưng Nのほうがいいです chuẩn hơn."
+          ],
+          "commonMistakes": [
+            "Trả lời でんしゃがいいです vẫn hiểu, nhưng thiếu のほうが khi luyện so sánh.",
+            "Nhầm どちら với どこ."
+          ]
+        },
+        {
+          "questionId": "jpd123_l6_p2_q05",
+          "order": 5,
+          "question": {
+            "ja": "いちねんで　なんがつが　いちばん　あついですか。",
+            "vi": "Trong một năm, tháng mấy nóng nhất?"
+          },
+          "answerType": "superlative_month",
+          "sampleAnswers": [
+            {
+              "ja": "しちがつが　いちばん　あついです。",
+              "vi": "Tháng 7 nóng nhất."
+            },
+            {
+              "ja": "はちがつが　いちばん　あついです。",
+              "vi": "Tháng 8 nóng nhất."
+            }
+          ],
+          "grammarIds": [
+            "g_l6_004"
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "いちねん",
+              "reading": "いちねん",
+              "meaning": "Một năm"
+            },
+            {
+              "word": "なんがつ",
+              "reading": "なんがつ",
+              "meaning": "Tháng mấy"
+            },
+            {
+              "word": "いちばん",
+              "reading": "いちばん",
+              "meaning": "Nhất"
+            },
+            {
+              "word": "あつい",
+              "reading": "あつい",
+              "meaning": "Nóng"
+            },
+            {
+              "word": "しちがつ",
+              "reading": "しちがつ",
+              "meaning": "Tháng 7"
+            },
+            {
+              "word": "はちがつ",
+              "reading": "はちがつ",
+              "meaning": "Tháng 8"
+            }
+          ],
+          "tips": [
+            "何月 hỏi tháng mấy.",
+            "Câu trả lời cần tháng + がいちばんあついです。",
+            "Tháng 7 đọc là しちがつ, không đọc なながつ."
+          ],
+          "commonMistakes": [
+            "Đọc sai 7月 thành なながつ.",
+            "Quên が sau tháng."
+          ]
+        },
+        {
+          "questionId": "jpd123_l6_p2_q06",
+          "order": 6,
+          "question": {
+            "ja": "スポーツで　なにが　いちばん　すきですか。",
+            "vi": "Trong các môn thể thao, bạn thích môn gì nhất?"
+          },
+          "answerType": "superlative_preference",
+          "sampleAnswers": [
+            {
+              "ja": "サッカーが　いちばん　すきです。",
+              "vi": "Tôi thích bóng đá nhất."
+            },
+            {
+              "ja": "テニスが　いちばん　すきです。",
+              "vi": "Tôi thích tennis nhất."
+            }
+          ],
+          "grammarIds": [
+            "g_l6_004"
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "スポーツ",
+              "reading": "スポーツ",
+              "meaning": "Thể thao"
+            },
+            {
+              "word": "サッカー",
+              "reading": "サッカー",
+              "meaning": "Bóng đá"
+            },
+            {
+              "word": "テニス",
+              "reading": "テニス",
+              "meaning": "Tennis"
+            },
+            {
+              "word": "やきゅう",
+              "reading": "やきゅう",
+              "meaning": "Bóng chày"
+            },
+            {
+              "word": "すき",
+              "reading": "すき",
+              "meaning": "Thích"
+            }
+          ],
+          "tips": [
+            "スポーツで nghĩa là trong nhóm thể thao.",
+            "Thích nhất dùng いちばんすきです.",
+            "Có thể thay bằng môn thể thao cá nhân."
+          ],
+          "commonMistakes": [
+            "Dùng を với すき.",
+            "Trả lời chỉ サッカーです mà thiếu いちばんすきです."
+          ]
+        },
+        {
+          "questionId": "jpd123_l6_p2_q07",
+          "order": 7,
+          "question": {
+            "ja": "にくと　さかなと　どちらが　すきですか。",
+            "vi": "Thịt và cá, bạn thích cái nào hơn?"
+          },
+          "answerType": "choice_between_two",
+          "sampleAnswers": [
+            {
+              "ja": "にくの　ほうが　すきです。",
+              "vi": "Tôi thích thịt hơn."
+            },
+            {
+              "ja": "さかなの　ほうが　すきです。",
+              "vi": "Tôi thích cá hơn."
+            }
+          ],
+          "grammarIds": [
+            "g_l6_005"
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "にく",
+              "reading": "にく",
+              "meaning": "Thịt"
+            },
+            {
+              "word": "さかな",
+              "reading": "さかな",
+              "meaning": "Cá"
+            },
+            {
+              "word": "どちら",
+              "reading": "どちら",
+              "meaning": "Cái nào"
+            },
+            {
+              "word": "すき",
+              "reading": "すき",
+              "meaning": "Thích"
+            },
+            {
+              "word": "ほう",
+              "reading": "ほう",
+              "meaning": "Phía / lựa chọn"
+            }
+          ],
+          "tips": [
+            "So sánh hai món ăn dùng N1とN2とどちらがすきですか.",
+            "Trả lời: Nのほうがすきです.",
+            "さかな có thể viết hiragana để phù hợp trình độ sơ cấp."
+          ],
+          "commonMistakes": [
+            "Nói 肉がほうがすきです; đúng là 肉のほうがすきです.",
+            "Quên と sau danh từ thứ hai trong câu hỏi."
+          ]
+        },
+        {
+          "questionId": "jpd123_l6_p2_q08",
+          "order": 8,
+          "question": {
+            "ja": "タイの　カレーは　にほんの　カレーより　からいですか。",
+            "vi": "Cà ri Thái có cay hơn cà ri Nhật không?"
+          },
+          "answerType": "yes_no_comparative",
+          "sampleAnswers": [
+            {
+              "ja": "はい、タイの　カレーは　にほんの　カレーより　からいです。",
+              "vi": "Vâng, cà ri Thái cay hơn cà ri Nhật."
+            },
+            {
+              "ja": "いいえ、あまり　からくないです。",
+              "vi": "Không, không cay lắm."
+            }
+          ],
+          "grammarIds": [
+            "g_l6_006"
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "タイ",
+              "reading": "タイ",
+              "meaning": "Thái Lan"
+            },
+            {
+              "word": "カレー",
+              "reading": "カレー",
+              "meaning": "Cà ri"
+            },
+            {
+              "word": "にほん",
+              "reading": "にほん",
+              "meaning": "Nhật Bản"
+            },
+            {
+              "word": "より",
+              "reading": "より",
+              "meaning": "Hơn / so với"
+            },
+            {
+              "word": "からい",
+              "reading": "からい",
+              "meaning": "Cay"
+            },
+            {
+              "word": "あまり",
+              "reading": "あまり",
+              "meaning": "Không ~ lắm, dùng với phủ định"
+            }
+          ],
+          "tips": [
+            "N1はN2よりAです nghĩa là N1 A hơn N2.",
+            "からい là tính từ đuôi い.",
+            "あまり phải đi với phủ định: あまりからくないです."
+          ],
+          "commonMistakes": [
+            "Nói からいじゃありません; với tính từ い nên nói からくないです.",
+            "Đặt より sai vị trí."
+          ]
+        },
+        {
+          "questionId": "jpd123_l6_p2_q09",
+          "order": 9,
+          "question": {
+            "ja": "ひこうきと　しんかんせんと　どちらが　はやいですか。",
+            "vi": "Máy bay và Shinkansen, cái nào nhanh hơn?"
+          },
+          "answerType": "choice_between_two",
+          "sampleAnswers": [
+            {
+              "ja": "ひこうきの　ほうが　はやいです。",
+              "vi": "Máy bay nhanh hơn."
+            },
+            {
+              "ja": "しんかんせんの　ほうが　はやいです。",
+              "vi": "Shinkansen nhanh hơn."
+            }
+          ],
+          "grammarIds": [
+            "g_l6_005"
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "ひこうき",
+              "reading": "ひこうき",
+              "meaning": "Máy bay"
+            },
+            {
+              "word": "しんかんせん",
+              "reading": "しんかんせん",
+              "meaning": "Tàu cao tốc Shinkansen"
+            },
+            {
+              "word": "どちら",
+              "reading": "どちら",
+              "meaning": "Cái nào"
+            },
+            {
+              "word": "はやい",
+              "reading": "はやい",
+              "meaning": "Nhanh"
+            },
+            {
+              "word": "ほう",
+              "reading": "ほう",
+              "meaning": "Phía / lựa chọn"
+            }
+          ],
+          "tips": [
+            "Câu hỏi chọn 1 trong 2 đối tượng.",
+            "Dùng Nのほうがはやいです để trả lời rõ ràng.",
+            "はやい là nhanh, khác với はい là vâng."
+          ],
+          "commonMistakes": [
+            "Quên の trong のほうが.",
+            "Nhầm はやい với たかい."
+          ]
+        },
+        {
+          "questionId": "jpd123_l6_p2_q10",
+          "order": 10,
+          "question": {
+            "ja": "もう　インドの　カレーを　たべましたか。",
+            "vi": "Bạn đã ăn cà ri Ấn Độ chưa?"
+          },
+          "answerType": "past_experience_yes_no",
+          "sampleAnswers": [
+            {
+              "ja": "はい、もう　たべました。",
+              "vi": "Vâng, tôi đã ăn rồi."
+            },
+            {
+              "ja": "いいえ、まだ　たべていません。",
+              "vi": "Chưa, tôi vẫn chưa ăn."
+            }
+          ],
+          "grammarIds": [
+            "g_l6_007"
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "もう",
+              "reading": "もう",
+              "meaning": "Đã, rồi"
+            },
+            {
+              "word": "インド",
+              "reading": "インド",
+              "meaning": "Ấn Độ"
+            },
+            {
+              "word": "カレー",
+              "reading": "カレー",
+              "meaning": "Cà ri"
+            },
+            {
+              "word": "たべました",
+              "reading": "たべました",
+              "meaning": "Đã ăn"
+            },
+            {
+              "word": "まだ",
+              "reading": "まだ",
+              "meaning": "Vẫn chưa"
+            },
+            {
+              "word": "たべていません",
+              "reading": "たべていません",
+              "meaning": "Chưa ăn"
+            }
+          ],
+          "tips": [
+            "もうVましたか hỏi đã làm chưa.",
+            "Nếu rồi: はい、もうVました.",
+            "Nếu chưa: いいえ、まだVていません."
+          ],
+          "commonMistakes": [
+            "Trả lời いいえ、食べませんでした cho trải nghiệm chưa làm; nên dùng まだ食べていません.",
+            "Quên もう trong câu trả lời khẳng định."
+          ]
+        },
+        {
+          "questionId": "jpd123_l6_p2_q11",
+          "order": 11,
+          "question": {
+            "ja": "もう　オーストラリアへ　いきましたか。",
+            "vi": "Bạn đã đi Úc chưa?"
+          },
+          "answerType": "past_experience_yes_no",
+          "sampleAnswers": [
+            {
+              "ja": "はい、もう　いきました。",
+              "vi": "Vâng, tôi đã đi rồi."
+            },
+            {
+              "ja": "いいえ、まだ　いっていません。",
+              "vi": "Chưa, tôi vẫn chưa đi."
+            }
+          ],
+          "grammarIds": [
+            "g_l6_007"
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "オーストラリア",
+              "reading": "オーストラリア",
+              "meaning": "Úc"
+            },
+            {
+              "word": "へ",
+              "reading": "へ",
+              "meaning": "Đến / về phía"
+            },
+            {
+              "word": "いきました",
+              "reading": "いきました",
+              "meaning": "Đã đi"
+            },
+            {
+              "word": "いっていません",
+              "reading": "いっていません",
+              "meaning": "Chưa đi"
+            },
+            {
+              "word": "もう",
+              "reading": "もう",
+              "meaning": "Đã, rồi"
+            },
+            {
+              "word": "まだ",
+              "reading": "まだ",
+              "meaning": "Vẫn chưa"
+            }
+          ],
+          "tips": [
+            "Địa điểm đi đến dùng へ.",
+            "行きます khi chuyển sang て form là 行って.",
+            "Câu phủ định trải nghiệm: まだ行っていません."
+          ],
+          "commonMistakes": [
+            "Nói 行きていません; đúng là 行っていません.",
+            "Quên trợ từ へ sau địa điểm."
+          ]
+        },
+        {
+          "questionId": "jpd123_l6_p2_q12",
+          "order": 12,
+          "question": {
+            "ja": "もう　「キングマン」を　みましたか。",
+            "vi": "Bạn đã xem phim Kingman chưa?"
+          },
+          "answerType": "past_experience_yes_no",
+          "sampleAnswers": [
+            {
+              "ja": "はい、もう　みました。",
+              "vi": "Vâng, tôi đã xem rồi."
+            },
+            {
+              "ja": "いいえ、まだ　みていません。",
+              "vi": "Chưa, tôi vẫn chưa xem."
+            }
+          ],
+          "grammarIds": [
+            "g_l6_007"
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "もう",
+              "reading": "もう",
+              "meaning": "Đã, rồi"
+            },
+            {
+              "word": "えいが",
+              "reading": "えいが",
+              "meaning": "Phim"
+            },
+            {
+              "word": "みます",
+              "reading": "みます",
+              "meaning": "Xem"
+            },
+            {
+              "word": "みました",
+              "reading": "みました",
+              "meaning": "Đã xem"
+            },
+            {
+              "word": "みていません",
+              "reading": "みていません",
+              "meaning": "Chưa xem"
+            }
+          ],
+          "tips": [
+            "Phim là tân ngữ nên dùng を.",
+            "見ます chuyển sang quá khứ là 見ました.",
+            "Chưa xem: まだ見ていません."
+          ],
+          "commonMistakes": [
+            "Dùng に thay cho を với phim.",
+            "Trả lời いいえ、見ませんでした trong khi muốn nói chưa từng xem."
+          ]
+        }
+      ]
+    },
+    {
+      "sectionId": "jpd123_l6_no_image_part3",
+      "sectionTitle": "Phần 3 - Chốt cuộc hẹn",
+      "sectionViTitle": "Thống nhất thời gian, địa điểm và nơi đi chơi",
+      "sectionGoal": "Sinh viên có thể hỏi và trả lời để chốt lịch hẹn: mấy giờ gặp, gặp ở đâu, đi đâu chơi và đề xuất địa điểm.",
+      "questionList": [
+        {
+          "questionId": "jpd123_l6_p3_q01",
+          "order": 1,
+          "question": {
+            "ja": "なんじに　あいますか。",
+            "vi": "Mấy giờ gặp nhau?"
+          },
+          "answerType": "meeting_time",
+          "sampleAnswers": [
+            {
+              "ja": "よじに　あいます。",
+              "vi": "Gặp lúc 4 giờ."
+            },
+            {
+              "ja": "ごご　よじに　あいます。",
+              "vi": "Gặp lúc 4 giờ chiều."
+            }
+          ],
+          "grammarIds": [
+            "g_l6_009"
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "なんじ",
+              "reading": "なんじ",
+              "meaning": "Mấy giờ"
+            },
+            {
+              "word": "あいます",
+              "reading": "あいます",
+              "meaning": "Gặp"
+            },
+            {
+              "word": "よじ",
+              "reading": "よじ",
+              "meaning": "4 giờ"
+            },
+            {
+              "word": "ごご",
+              "reading": "ごご",
+              "meaning": "Buổi chiều / PM"
+            },
+            {
+              "word": "に",
+              "reading": "に",
+              "meaning": "Trợ từ chỉ thời điểm"
+            }
+          ],
+          "tips": [
+            "Thời gian cụ thể dùng に.",
+            "4時 đọc là よじ, không đọc よんじ.",
+            "Trả lời ngắn: 4時に会います."
+          ],
+          "commonMistakes": [
+            "Đọc sai 4時 thành よんじ.",
+            "Quên に sau giờ."
+          ]
+        },
+        {
+          "questionId": "jpd123_l6_p3_q02",
+          "order": 2,
+          "question": {
+            "ja": "よじは　どうですか。",
+            "vi": "4 giờ thì thế nào?"
+          },
+          "answerType": "time_suggestion_response",
+          "sampleAnswers": [
+            {
+              "ja": "いいですね。よじに　あいましょう。",
+              "vi": "Được đấy. Gặp nhau lúc 4 giờ nhé."
+            },
+            {
+              "ja": "すみません、よじは　ちょっと…。ごじは　どうですか。",
+              "vi": "Xin lỗi, 4 giờ thì hơi khó... 5 giờ thì sao?"
+            }
+          ],
+          "grammarIds": [
+            "g_l6_008",
+            "g_l6_002"
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "よじ",
+              "reading": "よじ",
+              "meaning": "4 giờ"
+            },
+            {
+              "word": "どうですか",
+              "reading": "どうですか",
+              "meaning": "Thế nào?"
+            },
+            {
+              "word": "いいですね",
+              "reading": "いいですね",
+              "meaning": "Được đấy / hay đấy"
+            },
+            {
+              "word": "ごじ",
+              "reading": "ごじ",
+              "meaning": "5 giờ"
+            },
+            {
+              "word": "あいましょう",
+              "reading": "あいましょう",
+              "meaning": "Cùng gặp nhé"
+            }
+          ],
+          "tips": [
+            "Nはどうですか dùng để đề xuất N.",
+            "Nếu đồng ý, nói いいですね.",
+            "Nếu không tiện, đưa phương án khác: 5時はどうですか."
+          ],
+          "commonMistakes": [
+            "Trả lời chỉ はい mà không xác nhận lại giờ.",
+            "Dùng 4時でどうですか thay vì 4時はどうですか trong mẫu sơ cấp này."
+          ]
+        },
+        {
+          "questionId": "jpd123_l6_p3_q03",
+          "order": 3,
+          "question": {
+            "ja": "どこで　あいますか。",
+            "vi": "Gặp ở đâu?"
+          },
+          "answerType": "meeting_place",
+          "sampleAnswers": [
+            {
+              "ja": "メガえいがかんで　あいます。",
+              "vi": "Gặp ở rạp phim Mega."
+            },
+            {
+              "ja": "えきで　あいます。",
+              "vi": "Gặp ở nhà ga."
+            }
+          ],
+          "grammarIds": [
+            "g_l6_010"
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "どこ",
+              "reading": "どこ",
+              "meaning": "Ở đâu"
+            },
+            {
+              "word": "で",
+              "reading": "で",
+              "meaning": "Tại / ở"
+            },
+            {
+              "word": "あいます",
+              "reading": "あいます",
+              "meaning": "Gặp"
+            },
+            {
+              "word": "メガえいがかん",
+              "reading": "メガえいがかん",
+              "meaning": "Rạp phim Mega"
+            },
+            {
+              "word": "えき",
+              "reading": "えき",
+              "meaning": "Nhà ga"
+            }
+          ],
+          "tips": [
+            "Địa điểm diễn ra hành động gặp dùng で.",
+            "Trả lời bằng địa điểm + で会います.",
+            "Không dùng へ vì đây không nhấn mạnh hướng đi mà là nơi gặp."
+          ],
+          "commonMistakes": [
+            "Nói メガえいがかんへ会います; đúng là メガえいがかんで会います.",
+            "Quên で sau địa điểm."
+          ]
+        },
+        {
+          "questionId": "jpd123_l6_p3_q04",
+          "order": 4,
+          "question": {
+            "ja": "メガえいがかんは　どうですか。",
+            "vi": "Rạp phim Mega thì thế nào?"
+          },
+          "answerType": "place_suggestion_response",
+          "sampleAnswers": [
+            {
+              "ja": "いいですね。メガえいがかんで　あいましょう。",
+              "vi": "Được đấy. Gặp ở rạp phim Mega nhé."
+            },
+            {
+              "ja": "すみません、メガえいがかんは　ちょっと…。えきは　どうですか。",
+              "vi": "Xin lỗi, rạp Mega thì hơi khó... Nhà ga thì sao?"
+            }
+          ],
+          "grammarIds": [
+            "g_l6_008",
+            "g_l6_002",
+            "g_l6_010"
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "メガえいがかん",
+              "reading": "メガえいがかん",
+              "meaning": "Rạp phim Mega"
+            },
+            {
+              "word": "どうですか",
+              "reading": "どうですか",
+              "meaning": "Thế nào?"
+            },
+            {
+              "word": "えき",
+              "reading": "えき",
+              "meaning": "Nhà ga"
+            },
+            {
+              "word": "あいましょう",
+              "reading": "あいましょう",
+              "meaning": "Cùng gặp nhé"
+            },
+            {
+              "word": "ちょっと",
+              "reading": "ちょっと",
+              "meaning": "Hơi khó / một chút"
+            }
+          ],
+          "tips": [
+            "Nはどうですか dùng để đề xuất địa điểm.",
+            "Từ chối mềm: Nはちょっと…。",
+            "Sau đó có thể đề xuất nơi khác."
+          ],
+          "commonMistakes": [
+            "Dịch どうですか thành hỏi cảm nhận đơn thuần, nhưng ở đây là đề xuất.",
+            "Từ chối thiếu lịch sự, không dùng すみません."
+          ]
+        },
+        {
+          "questionId": "jpd123_l6_p3_q05",
+          "order": 5,
+          "question": {
+            "ja": "どこへ　あそびに　いきますか。",
+            "vi": "Đi đâu chơi?"
+          },
+          "answerType": "destination_for_fun",
+          "sampleAnswers": [
+            {
+              "ja": "ディズニーランドへ　あそびに　いきます。",
+              "vi": "Đi Disneyland chơi."
+            },
+            {
+              "ja": "ふじまるランドへ　いきます。",
+              "vi": "Đi Fujimaru Land."
+            }
+          ],
+          "grammarIds": [
+            "g_l6_002"
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "どこ",
+              "reading": "どこ",
+              "meaning": "Ở đâu / đi đâu"
+            },
+            {
+              "word": "へ",
+              "reading": "へ",
+              "meaning": "Đến / về phía"
+            },
+            {
+              "word": "あそびます",
+              "reading": "あそびます",
+              "meaning": "Chơi"
+            },
+            {
+              "word": "あそびにいきます",
+              "reading": "あそびにいきます",
+              "meaning": "Đi chơi"
+            },
+            {
+              "word": "ディズニーランド",
+              "reading": "ディズニーランド",
+              "meaning": "Disneyland"
+            },
+            {
+              "word": "ふじまるランド",
+              "reading": "ふじまるランド",
+              "meaning": "Fujimaru Land"
+            }
+          ],
+          "tips": [
+            "どこへ hỏi điểm đến.",
+            "あそびに行きます nghĩa là đi để chơi.",
+            "Có thể trả lời ngắn: ディズニーランドへ行きます."
+          ],
+          "commonMistakes": [
+            "Dùng どこで thay vì どこへ khi hỏi điểm đến.",
+            "Quên へ sau địa điểm."
+          ]
+        },
+        {
+          "questionId": "jpd123_l6_p3_q06",
+          "order": 6,
+          "question": {
+            "ja": "ディズニーランドは　どうですか。",
+            "vi": "Disneyland thì thế nào?"
+          },
+          "answerType": "destination_suggestion_response",
+          "sampleAnswers": [
+            {
+              "ja": "いいですね。ディズニーランドへ　いきましょう。",
+              "vi": "Hay đấy. Cùng đi Disneyland nhé."
+            },
+            {
+              "ja": "ディズニーランドは　たのしいですよ。",
+              "vi": "Disneyland vui lắm đó."
+            },
+            {
+              "ja": "すみません、ディズニーランドは　ちょっと…。ふじまるランドは　どうですか。",
+              "vi": "Xin lỗi, Disneyland thì hơi khó... Fujimaru Land thì sao?"
+            }
+          ],
+          "grammarIds": [
+            "g_l6_008",
+            "g_l6_002"
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "ディズニーランド",
+              "reading": "ディズニーランド",
+              "meaning": "Disneyland"
+            },
+            {
+              "word": "どうですか",
+              "reading": "どうですか",
+              "meaning": "Thế nào?"
+            },
+            {
+              "word": "たのしい",
+              "reading": "たのしい",
+              "meaning": "Vui"
+            },
+            {
+              "word": "ですよ",
+              "reading": "ですよ",
+              "meaning": "Đấy / đó, dùng để nhấn mạnh thông tin"
+            },
+            {
+              "word": "いきましょう",
+              "reading": "いきましょう",
+              "meaning": "Cùng đi nào"
+            }
+          ],
+          "tips": [
+            "Câu này dùng để đề xuất nơi đi chơi.",
+            "ですよ dùng để giới thiệu/nhấn mạnh thông tin cho người nghe.",
+            "Nhận lời: いいですね。行きましょう。"
+          ],
+          "commonMistakes": [
+            "Nhầm どうですか ở đây với câu hỏi cảm nhận sau khi đã đi.",
+            "Thiếu へ khi nói đi đến Disneyland."
+          ]
+        },
+        {
+          "questionId": "jpd123_l6_p3_q07",
+          "order": 7,
+          "question": {
+            "ja": "わかばこうえんの　さくらは　どうですか。",
+            "vi": "Hoa anh đào ở công viên Wakaba thì thế nào?"
+          },
+          "answerType": "opinion_about_place_feature",
+          "sampleAnswers": [
+            {
+              "ja": "とても　きれいですよ。",
+              "vi": "Rất đẹp đó."
+            },
+            {
+              "ja": "わかばこうえんの　さくらは　きれいですよ。",
+              "vi": "Hoa anh đào ở công viên Wakaba đẹp lắm đó."
+            }
+          ],
+          "grammarIds": [
+            "g_l6_008"
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "わかばこうえん",
+              "reading": "わかばこうえん",
+              "meaning": "Công viên Wakaba"
+            },
+            {
+              "word": "さくら",
+              "reading": "さくら",
+              "meaning": "Hoa anh đào"
+            },
+            {
+              "word": "どうですか",
+              "reading": "どうですか",
+              "meaning": "Thế nào?"
+            },
+            {
+              "word": "きれい",
+              "reading": "きれい",
+              "meaning": "Đẹp, sạch"
+            },
+            {
+              "word": "とても",
+              "reading": "とても",
+              "meaning": "Rất"
+            },
+            {
+              "word": "ですよ",
+              "reading": "ですよ",
+              "meaning": "Đấy / đó"
+            }
+          ],
+          "tips": [
+            "NのN dùng để nói sở hữu/liên kết: hoa anh đào của công viên Wakaba.",
+            "きれい là tính từ đuôi な nhưng cuối câu nói きれいです.",
+            "ですよ làm câu tự nhiên hơn khi giới thiệu địa điểm."
+          ],
+          "commonMistakes": [
+            "Dùng きれいですか trong câu trả lời; câu trả lời nên là きれいです／きれいですよ.",
+            "Quên の giữa địa điểm và sự vật."
+          ]
+        },
+        {
+          "questionId": "jpd123_l6_p3_q08",
+          "order": 8,
+          "question": {
+            "ja": "なんじに　どこで　あいますか。",
+            "vi": "Mấy giờ và gặp ở đâu?"
+          },
+          "answerType": "meeting_time_and_place",
+          "sampleAnswers": [
+            {
+              "ja": "よじに　メガえいがかんで　あいます。",
+              "vi": "Gặp lúc 4 giờ ở rạp phim Mega."
+            },
+            {
+              "ja": "ごご　ごじに　えきで　あいます。",
+              "vi": "Gặp lúc 5 giờ chiều ở nhà ga."
+            }
+          ],
+          "grammarIds": [
+            "g_l6_009",
+            "g_l6_010"
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "なんじ",
+              "reading": "なんじ",
+              "meaning": "Mấy giờ"
+            },
+            {
+              "word": "どこ",
+              "reading": "どこ",
+              "meaning": "Ở đâu"
+            },
+            {
+              "word": "あいます",
+              "reading": "あいます",
+              "meaning": "Gặp"
+            },
+            {
+              "word": "メガえいがかん",
+              "reading": "メガえいがかん",
+              "meaning": "Rạp phim Mega"
+            },
+            {
+              "word": "えき",
+              "reading": "えき",
+              "meaning": "Nhà ga"
+            },
+            {
+              "word": "ごご",
+              "reading": "ごご",
+              "meaning": "Buổi chiều"
+            }
+          ],
+          "tips": [
+            "Câu này yêu cầu trả lời đủ cả thời gian và địa điểm.",
+            "Thời gian dùng に, địa điểm gặp dùng で.",
+            "Mẫu chuẩn: 時間に + 場所で + 会います."
+          ],
+          "commonMistakes": [
+            "Đảo trợ từ: 場所に時間で会います là sai.",
+            "Chỉ trả lời giờ mà quên địa điểm."
+          ]
+        }
+      ]
+    }
+  ],
+  "quickReviewVocabulary": {
+    "invitationAndSchedule": [
+      {
+        "word": "いっしょに",
+        "reading": "いっしょに",
+        "meaning": "Cùng nhau"
+      },
+      {
+        "word": "しませんか",
+        "reading": "しませんか",
+        "meaning": "Cùng làm không?"
+      },
+      {
+        "word": "しましょう",
+        "reading": "しましょう",
+        "meaning": "Cùng làm nào"
+      },
+      {
+        "word": "いきましょう",
+        "reading": "いきましょう",
+        "meaning": "Cùng đi nào"
+      },
+      {
+        "word": "すみません、ちょっと",
+        "reading": "すみません、ちょっと",
+        "meaning": "Xin lỗi, hơi khó..."
+      },
+      {
+        "word": "やくそくがあります",
+        "reading": "やくそくがあります",
+        "meaning": "Có hẹn"
+      },
+      {
+        "word": "じかんがありません",
+        "reading": "じかんがありません",
+        "meaning": "Không có thời gian"
+      }
+    ],
+    "comparison": [
+      {
+        "word": "いちばん",
+        "reading": "いちばん",
+        "meaning": "Nhất"
+      },
+      {
+        "word": "どちら",
+        "reading": "どちら",
+        "meaning": "Cái nào trong hai cái"
+      },
+      {
+        "word": "ほう",
+        "reading": "ほう",
+        "meaning": "Phía / lựa chọn"
+      },
+      {
+        "word": "より",
+        "reading": "より",
+        "meaning": "Hơn / so với"
+      },
+      {
+        "word": "すき",
+        "reading": "すき",
+        "meaning": "Thích"
+      },
+      {
+        "word": "おもしろい",
+        "reading": "おもしろい",
+        "meaning": "Thú vị"
+      },
+      {
+        "word": "はやい",
+        "reading": "はやい",
+        "meaning": "Nhanh"
+      },
+      {
+        "word": "からい",
+        "reading": "からい",
+        "meaning": "Cay"
+      }
+    ],
+    "pastExperienceAndMeeting": [
+      {
+        "word": "もう",
+        "reading": "もう",
+        "meaning": "Đã, rồi"
+      },
+      {
+        "word": "まだ",
+        "reading": "まだ",
+        "meaning": "Vẫn chưa"
+      },
+      {
+        "word": "たべました",
+        "reading": "たべました",
+        "meaning": "Đã ăn"
+      },
+      {
+        "word": "いきました",
+        "reading": "いきました",
+        "meaning": "Đã đi"
+      },
+      {
+        "word": "みました",
+        "reading": "みました",
+        "meaning": "Đã xem"
+      },
+      {
+        "word": "なんじ",
+        "reading": "なんじ",
+        "meaning": "Mấy giờ"
+      },
+      {
+        "word": "あいます",
+        "reading": "あいます",
+        "meaning": "Gặp"
+      },
+      {
+        "word": "どこで",
+        "reading": "どこで",
+        "meaning": "Ở đâu / tại đâu"
+      },
+      {
+        "word": "どうですか",
+        "reading": "どうですか",
+        "meaning": "Thế nào?"
+      }
+    ]
+  }
+}

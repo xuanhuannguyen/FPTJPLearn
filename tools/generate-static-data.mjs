@@ -182,6 +182,7 @@ async function generateSpeaking() {
         packageCode: importFile.packageCode,
         isLocked: accessTier !== 'free',
         sentenceCount: seed.sentences.length,
+        lessonType: seed.lessonType || 'reading',
       };
       const sentences = seed.sentences.map((sentence, index) => ({
         id: guid('88888888', importFile.courseCode, '0000', seed.id * 1000 + index + 1),

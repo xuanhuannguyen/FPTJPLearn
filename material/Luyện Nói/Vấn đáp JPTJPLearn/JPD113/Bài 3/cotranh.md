@@ -1,0 +1,2056 @@
+```json
+{
+  "courseCode": "JPD113",
+  "lessonNumber": 3,
+  "lessonTitle": "Bài 3 - Câu hỏi có tranh",
+  "questionMode": "IMAGE_BASED",
+  "dataPurpose": "oral_exam_practice_web",
+  "lessonOverview": {
+    "shortSummary": "Sau Bài 3 phần có tranh, sinh viên có thể nhìn tranh và trả lời câu hỏi về địa điểm, thời gian mở cửa, ngày nghỉ, hoạt động, đồ ăn/uống và thứ trong tuần.",
+    "studentCanDo": [
+      "Nhìn tranh địa điểm và trả lời được đó là đâu.",
+      "Nhìn bảng giờ mở cửa và trả lời được từ mấy giờ đến mấy giờ.",
+      "Trả lời được ngày nghỉ của địa điểm.",
+      "Nhìn hoạt động trong tranh và nói nhân vật đang/làm gì theo mẫu Vます.",
+      "Trả lời được câu hỏi Yes/No với động từ.",
+      "Nhìn lịch và trả lời được ngày đó là thứ mấy."
+    ],
+    "mainGrammarFocus": [
+      "ここは N です。",
+      "N は なんじからですか。",
+      "N は なんじまでですか。",
+      "N は なんじから なんじまでですか。",
+      "ここで N を Vます。",
+      "Người は N を Vます。",
+      "Người は N を Vますか。",
+      "Người は N を します。",
+      "Ngày は なんようびですか。"
+    ],
+    "examTipSummary": "Khi gặp câu hỏi có tranh Bài 3, trước tiên nhìn loại tranh: nếu là địa điểm thì tìm tên nơi và giờ mở cửa; nếu là nhân vật thì nhìn người đó đang làm gì; nếu là lịch thì tìm ngày và thứ tương ứng."
+  },
+  "grammarBank": [
+    {
+      "grammarId": "g_l3_img_001",
+      "pattern": "ここは N です。",
+      "meaning": "Đây là N / Ở đây là N.",
+      "usage": "Dùng để trả lời địa điểm trong tranh.",
+      "example": {
+        "ja": "ここは　としょかんです。",
+        "vi": "Đây là thư viện."
+      }
+    },
+    {
+      "grammarId": "g_l3_img_002",
+      "pattern": "N は なんじからですか。",
+      "meaning": "N bắt đầu từ mấy giờ?",
+      "usage": "Dùng để hỏi giờ mở cửa hoặc giờ bắt đầu.",
+      "example": {
+        "ja": "としょかんは　なんじからですか。",
+        "vi": "Thư viện mở từ mấy giờ?"
+      }
+    },
+    {
+      "grammarId": "g_l3_img_003",
+      "pattern": "N は なんじまでですか。",
+      "meaning": "N đến mấy giờ?",
+      "usage": "Dùng để hỏi giờ đóng cửa hoặc giờ kết thúc.",
+      "example": {
+        "ja": "パンやは　なんじまでですか。",
+        "vi": "Tiệm bánh đến mấy giờ?"
+      }
+    },
+    {
+      "grammarId": "g_l3_img_004",
+      "pattern": "N は Aから Bまでです。",
+      "meaning": "N từ A đến B.",
+      "usage": "Dùng để nói khoảng thời gian mở cửa hoặc hoạt động.",
+      "example": {
+        "ja": "としょかんは　ごぜん　しちじはんから　よる　くじまでです。",
+        "vi": "Thư viện mở từ 7 giờ rưỡi sáng đến 9 giờ tối."
+      }
+    },
+    {
+      "grammarId": "g_l3_img_005",
+      "pattern": "ここで N を Vます。",
+      "meaning": "Làm V với N ở đây.",
+      "usage": "Dùng để nói hoạt động diễn ra tại địa điểm trong tranh.",
+      "example": {
+        "ja": "ここで　ほんを　よみます。",
+        "vi": "Ở đây đọc sách."
+      }
+    },
+    {
+      "grammarId": "g_l3_img_006",
+      "pattern": "Người は N を Vます。",
+      "meaning": "Người đó làm V với N.",
+      "usage": "Dùng để miêu tả hành động của nhân vật trong tranh.",
+      "example": {
+        "ja": "スミスさんは　さくらを　みます。",
+        "vi": "Bạn Smith ngắm hoa anh đào."
+      }
+    },
+    {
+      "grammarId": "g_l3_img_007",
+      "pattern": "Người は N を Vますか。",
+      "meaning": "Người đó có làm V với N không?",
+      "usage": "Dùng để hỏi Yes/No về hành động của nhân vật.",
+      "example": {
+        "ja": "ワットさんは　ビールを　のみますか。",
+        "vi": "Bạn Watt có uống bia không?"
+      }
+    },
+    {
+      "grammarId": "g_l3_img_008",
+      "pattern": "Ngày は なんようびですか。",
+      "meaning": "Ngày đó là thứ mấy?",
+      "usage": "Dùng để hỏi thứ trong tuần dựa vào lịch.",
+      "example": {
+        "ja": "じゅういちがつ　よっかは　なんようびですか。",
+        "vi": "Ngày 4 tháng 11 là thứ mấy?"
+      }
+    }
+  ],
+  "pictureSets": [
+    {
+      "pictureId": "jpd113_l3_picture_01_library",
+      "pictureTitle": "Tranh 1 - としょかん",
+      "pictureContentForGeneration": {
+        "purpose": "Tạo tranh thư viện để luyện hỏi đáp về địa điểm, giờ mở cửa, ngày nghỉ và hoạt động tại địa điểm.",
+        "sceneDescription": {
+          "mainPlace": "としょかん",
+          "visualStyle": "Minh họa rõ ràng, màu sắc thân thiện, phù hợp web học tiếng Nhật sơ cấp.",
+          "placeDetails": "Một tòa nhà thư viện có bảng chữ 図書館 lớn ở phía trước. Có kệ sách bên trong hoặc hình hai học sinh đang đọc sách trong thư viện.",
+          "timeBoard": {
+            "openTime": "7:30 AM",
+            "closeTime": "9:00 PM",
+            "closedTime": "Monday morning"
+          },
+          "textOnImage": [
+            "図書館",
+            "7:30 AM - 9:00 PM",
+            "Closed: Monday morning"
+          ],
+          "objectsAndActions": [
+            "Sách mở lớn trên mái hoặc phía trên bảng thư viện.",
+            "Hai học sinh cầm sách đọc trong thư viện.",
+            "Kệ sách nhiều màu ở phía sau.",
+            "Bảng giờ mở cửa đặt rõ bên dưới."
+          ]
+        },
+        "japaneseInfoForAnswering": {
+          "place": "としょかん",
+          "openFrom": "ごぜん　しちじはん",
+          "openUntil": "よる　くじ",
+          "closed": "げつようびの　あさ",
+          "activities": ["ほんを　よみます", "べんきょうします"]
+        }
+      },
+      "questions": [
+        {
+          "id": "l3_img_library_q01",
+          "order": 1,
+          "question": {
+            "ja": "ここは　どこですか。",
+            "vi": "Đây là đâu?"
+          },
+          "sampleAnswers": [
+            {
+              "ja": "としょかんです。",
+              "vi": "Là thư viện."
+            }
+          ],
+          "relatedGrammar": [
+            {
+              "pattern": "ここは N です。",
+              "meaning": "Đây là N.",
+              "howToUse": "Dùng để trả lời tên địa điểm trong tranh."
+            }
+          ],
+          "relatedVocabulary": {
+            "topic": "Địa điểm",
+            "items": [
+              {
+                "word": "ここ",
+                "reading": "ここ",
+                "meaning": "Ở đây / chỗ này"
+              },
+              {
+                "word": "どこ",
+                "reading": "どこ",
+                "meaning": "Ở đâu"
+              },
+              {
+                "word": "としょかん",
+                "reading": "としょかん",
+                "meaning": "Thư viện"
+              },
+              {
+                "word": "がっこう",
+                "reading": "がっこう",
+                "meaning": "Trường học"
+              },
+              {
+                "word": "だいがく",
+                "reading": "だいがく",
+                "meaning": "Đại học"
+              },
+              {
+                "word": "パンや",
+                "reading": "パンや",
+                "meaning": "Tiệm bánh mì"
+              }
+            ]
+          },
+          "explanation": "Trong tranh có bảng 図書館 và nhiều sách, nên đây là としょかん.",
+          "tips": [
+            "Câu hỏi ここはどこですか hỏi địa điểm.",
+            "Chỉ cần trả lời tên địa điểm + です。",
+            "Nhìn chữ 図書館 hoặc hình sách để nhận ra thư viện."
+          ],
+          "commonMistakes": [
+            "Trả lời ほんです dù câu hỏi hỏi địa điểm.",
+            "Nhầm としょかん với がっこう.",
+            "Quên です cuối câu."
+          ]
+        },
+        {
+          "id": "l3_img_library_q02",
+          "order": 2,
+          "question": {
+            "ja": "としょかんは　なんじからですか。",
+            "vi": "Thư viện mở từ mấy giờ?"
+          },
+          "sampleAnswers": [
+            {
+              "ja": "ごぜん　しちじはんからです。",
+              "vi": "Từ 7 giờ rưỡi sáng."
+            }
+          ],
+          "relatedGrammar": [
+            {
+              "pattern": "N は なんじからですか。",
+              "meaning": "N bắt đầu từ mấy giờ?",
+              "howToUse": "Dùng để hỏi giờ bắt đầu/mở cửa."
+            },
+            {
+              "pattern": "Aじからです。",
+              "meaning": "Từ A giờ.",
+              "howToUse": "Dùng để trả lời giờ bắt đầu."
+            }
+          ],
+          "relatedVocabulary": {
+            "topic": "Giờ mở cửa",
+            "items": [
+              {
+                "word": "としょかん",
+                "reading": "としょかん",
+                "meaning": "Thư viện"
+              },
+              {
+                "word": "なんじから",
+                "reading": "なんじから",
+                "meaning": "Từ mấy giờ"
+              },
+              {
+                "word": "から",
+                "reading": "から",
+                "meaning": "Từ"
+              },
+              {
+                "word": "ごぜん",
+                "reading": "ごぜん",
+                "meaning": "Buổi sáng / AM"
+              },
+              {
+                "word": "しちじ",
+                "reading": "しちじ",
+                "meaning": "7 giờ"
+              },
+              {
+                "word": "はん",
+                "reading": "はん",
+                "meaning": "Rưỡi"
+              },
+              {
+                "word": "しちじはん",
+                "reading": "しちじはん",
+                "meaning": "7 giờ rưỡi"
+              }
+            ]
+          },
+          "explanation": "Bảng giờ trong tranh ghi 7:30 AM, nên trả lời ごぜん　しちじはんからです。",
+          "tips": [
+            "なんじから hỏi giờ bắt đầu.",
+            "7:30 đọc là しちじはん.",
+            "AM có thể nói ごぜん."
+          ],
+          "commonMistakes": [
+            "Trả lời giờ đóng cửa thay vì giờ mở cửa.",
+            "Quên から.",
+            "Đọc 7 giờ là ななじ thay vì しちじ trong mẫu cơ bản."
+          ]
+        },
+        {
+          "id": "l3_img_library_q03",
+          "order": 3,
+          "question": {
+            "ja": "としょかんは　なんじまでですか。",
+            "vi": "Thư viện mở đến mấy giờ?"
+          },
+          "sampleAnswers": [
+            {
+              "ja": "よる　くじまでです。",
+              "vi": "Đến 9 giờ tối."
+            }
+          ],
+          "relatedGrammar": [
+            {
+              "pattern": "N は なんじまでですか。",
+              "meaning": "N đến mấy giờ?",
+              "howToUse": "Dùng để hỏi giờ kết thúc/đóng cửa."
+            },
+            {
+              "pattern": "Aじまでです。",
+              "meaning": "Đến A giờ.",
+              "howToUse": "Dùng để trả lời giờ kết thúc."
+            }
+          ],
+          "relatedVocabulary": {
+            "topic": "Giờ đóng cửa",
+            "items": [
+              {
+                "word": "なんじまで",
+                "reading": "なんじまで",
+                "meaning": "Đến mấy giờ"
+              },
+              {
+                "word": "まで",
+                "reading": "まで",
+                "meaning": "Đến"
+              },
+              {
+                "word": "よる",
+                "reading": "よる",
+                "meaning": "Buổi tối"
+              },
+              {
+                "word": "くじ",
+                "reading": "くじ",
+                "meaning": "9 giờ"
+              },
+              {
+                "word": "よる　くじ",
+                "reading": "よる　くじ",
+                "meaning": "9 giờ tối"
+              }
+            ]
+          },
+          "explanation": "Bảng giờ trong tranh ghi 9:00 PM, nên trả lời よる　くじまでです。",
+          "tips": [
+            "なんじまで hỏi giờ kết thúc.",
+            "9 giờ đọc là くじ.",
+            "PM buổi tối có thể nói よる."
+          ],
+          "commonMistakes": [
+            "Đọc 9 giờ là きゅうじ.",
+            "Quên まで.",
+            "Trả lời giờ mở cửa thay vì giờ đóng cửa."
+          ]
+        },
+        {
+          "id": "l3_img_library_q04",
+          "order": 4,
+          "question": {
+            "ja": "としょかんは　なんじから　なんじまでですか。",
+            "vi": "Thư viện mở từ mấy giờ đến mấy giờ?"
+          },
+          "sampleAnswers": [
+            {
+              "ja": "ごぜん　しちじはんから　よる　くじまでです。",
+              "vi": "Từ 7 giờ rưỡi sáng đến 9 giờ tối."
+            }
+          ],
+          "relatedGrammar": [
+            {
+              "pattern": "N は Aから Bまでです。",
+              "meaning": "N từ A đến B.",
+              "howToUse": "Dùng để nói khoảng thời gian mở cửa."
+            }
+          ],
+          "relatedVocabulary": {
+            "topic": "Khoảng thời gian",
+            "items": [
+              {
+                "word": "なんじから　なんじまで",
+                "reading": "なんじから　なんじまで",
+                "meaning": "Từ mấy giờ đến mấy giờ"
+              },
+              {
+                "word": "ごぜん",
+                "reading": "ごぜん",
+                "meaning": "Buổi sáng"
+              },
+              {
+                "word": "よる",
+                "reading": "よる",
+                "meaning": "Buổi tối"
+              },
+              {
+                "word": "しちじはん",
+                "reading": "しちじはん",
+                "meaning": "7 giờ rưỡi"
+              },
+              {
+                "word": "くじ",
+                "reading": "くじ",
+                "meaning": "9 giờ"
+              },
+              {
+                "word": "から",
+                "reading": "から",
+                "meaning": "Từ"
+              },
+              {
+                "word": "まで",
+                "reading": "まで",
+                "meaning": "Đến"
+              }
+            ]
+          },
+          "explanation": "Tranh ghi 7:30 AM - 9:00 PM, nên dùng mẫu AからBまでです.",
+          "tips": [
+            "Câu này hỏi cả giờ mở và giờ đóng.",
+            "Phải có cả から và まで.",
+            "Trả lời theo thứ tự: giờ bắt đầu + から + giờ kết thúc + までです."
+          ],
+          "commonMistakes": [
+            "Chỉ trả lời một mốc giờ.",
+            "Đảo まで lên trước から.",
+            "Quên よる khi nói 9 giờ tối."
+          ]
+        },
+        {
+          "id": "l3_img_library_q05",
+          "order": 5,
+          "question": {
+            "ja": "やすみは　いつですか。",
+            "vi": "Ngày nghỉ là khi nào?"
+          },
+          "sampleAnswers": [
+            {
+              "ja": "げつようびの　あさです。",
+              "vi": "Là sáng thứ Hai."
+            }
+          ],
+          "relatedGrammar": [
+            {
+              "pattern": "N は いつですか。",
+              "meaning": "N là khi nào?",
+              "howToUse": "Dùng để hỏi thời gian/ngày nghỉ."
+            },
+            {
+              "pattern": "Ngày + の + thời điểm です。",
+              "meaning": "Là thời điểm của ngày đó.",
+              "howToUse": "Dùng để trả lời như sáng thứ Hai, tối thứ Bảy."
+            }
+          ],
+          "relatedVocabulary": {
+            "topic": "Ngày nghỉ",
+            "items": [
+              {
+                "word": "やすみ",
+                "reading": "やすみ",
+                "meaning": "Ngày nghỉ / nghỉ"
+              },
+              {
+                "word": "いつ",
+                "reading": "いつ",
+                "meaning": "Khi nào"
+              },
+              {
+                "word": "げつようび",
+                "reading": "げつようび",
+                "meaning": "Thứ Hai"
+              },
+              {
+                "word": "あさ",
+                "reading": "あさ",
+                "meaning": "Buổi sáng"
+              },
+              {
+                "word": "げつようびの　あさ",
+                "reading": "げつようびの　あさ",
+                "meaning": "Sáng thứ Hai"
+              }
+            ]
+          },
+          "explanation": "Bảng trong tranh ghi Closed: Monday morning, nên trả lời げつようびの　あさです。",
+          "tips": [
+            "やすみはいつですか hỏi thời gian nghỉ.",
+            "Monday là げつようび.",
+            "Morning là あさ."
+          ],
+          "commonMistakes": [
+            "Trả lời giờ mở cửa thay vì ngày nghỉ.",
+            "Quên の giữa げつようび và あさ.",
+            "Nhầm げつようび với かようび."
+          ]
+        },
+        {
+          "id": "l3_img_library_q06",
+          "order": 6,
+          "question": {
+            "ja": "ここで　なにを　しますか。",
+            "vi": "Ở đây làm gì?"
+          },
+          "sampleAnswers": [
+            {
+              "ja": "ほんを　よみます。",
+              "vi": "Đọc sách."
+            },
+            {
+              "ja": "べんきょうします。",
+              "vi": "Học bài."
+            }
+          ],
+          "relatedGrammar": [
+            {
+              "pattern": "ここで N を Vます。",
+              "meaning": "Ở đây làm V với N.",
+              "howToUse": "Dùng để nói hoạt động tại địa điểm trong tranh."
+            }
+          ],
+          "relatedVocabulary": {
+            "topic": "Hoạt động trong thư viện",
+            "items": [
+              {
+                "word": "ここで",
+                "reading": "ここで",
+                "meaning": "Ở đây"
+              },
+              {
+                "word": "なに",
+                "reading": "なに",
+                "meaning": "Cái gì"
+              },
+              {
+                "word": "します",
+                "reading": "します",
+                "meaning": "Làm"
+              },
+              {
+                "word": "ほん",
+                "reading": "ほん",
+                "meaning": "Sách"
+              },
+              {
+                "word": "よみます",
+                "reading": "よみます",
+                "meaning": "Đọc"
+              },
+              {
+                "word": "ほんを　よみます",
+                "reading": "ほんを　よみます",
+                "meaning": "Đọc sách"
+              },
+              {
+                "word": "べんきょうします",
+                "reading": "べんきょうします",
+                "meaning": "Học bài"
+              }
+            ]
+          },
+          "explanation": "Trong thư viện, học sinh thường đọc sách hoặc học bài. Tranh cũng có học sinh đang cầm sách.",
+          "tips": [
+            "ここで hỏi hoạt động tại địa điểm.",
+            "Nếu dùng danh từ + động từ, nhớ trợ từ を.",
+            "ほんをよみます là câu trả lời rất an toàn."
+          ],
+          "commonMistakes": [
+            "Trả lời としょかんです dù câu hỏi hỏi hoạt động.",
+            "Quên を trong ほんをよみます.",
+            "Dùng へ thay vì で."
+          ]
+        }
+      ]
+    },
+    {
+      "pictureId": "jpd113_l3_picture_02_bakery",
+      "pictureTitle": "Tranh 2 - パンや",
+      "pictureContentForGeneration": {
+        "purpose": "Tạo tranh tiệm bánh để luyện hỏi đáp về địa điểm, giờ mở cửa, ngày nghỉ và hoạt động tại địa điểm.",
+        "sceneDescription": {
+          "mainPlace": "パンや",
+          "visualStyle": "Minh họa đơn giản, rõ ràng, phù hợp cho học sinh sơ cấp nhìn và trả lời.",
+          "placeDetails": "Một tiệm bánh có biển BAKERY lớn phía trên, trong cửa kính có bánh mì. Bên cạnh có nhân viên đang bán bánh, nướng bánh hoặc phục vụ khách.",
+          "timeBoard": {
+            "openTime": "6:00 AM",
+            "closeTime": "7:00 PM",
+            "closedTime": "Monday morning"
+          },
+          "textOnImage": [
+            "BAKERY",
+            "6:00 AM - 7:00 PM",
+            "Closed: Monday's morning"
+          ],
+          "objectsAndActions": [
+            "Tòa nhà tiệm bánh màu vàng/nâu.",
+            "Có hình bánh mì trên biển hiệu.",
+            "Có nhân viên mặc đồng phục đang bán hoặc nướng bánh.",
+            "Bảng giờ mở cửa rõ ràng bên dưới."
+          ]
+        },
+        "japaneseInfoForAnswering": {
+          "place": "パンや",
+          "openFrom": "ごぜん　ろくじ",
+          "openUntil": "よる　しちじ",
+          "closed": "げつようびの　あさ",
+          "activities": ["ぱんを　かいます", "アルバイトを　します"]
+        }
+      },
+      "questions": [
+        {
+          "id": "l3_img_bakery_q01",
+          "order": 1,
+          "question": {
+            "ja": "ここは　どこですか。",
+            "vi": "Đây là đâu?"
+          },
+          "sampleAnswers": [
+            {
+              "ja": "パンやです。",
+              "vi": "Là tiệm bánh mì."
+            }
+          ],
+          "relatedGrammar": [
+            {
+              "pattern": "ここは N です。",
+              "meaning": "Đây là N.",
+              "howToUse": "Dùng để trả lời địa điểm."
+            }
+          ],
+          "relatedVocabulary": {
+            "topic": "Địa điểm",
+            "items": [
+              {
+                "word": "ここ",
+                "reading": "ここ",
+                "meaning": "Ở đây"
+              },
+              {
+                "word": "どこ",
+                "reading": "どこ",
+                "meaning": "Ở đâu"
+              },
+              {
+                "word": "パンや",
+                "reading": "パンや",
+                "meaning": "Tiệm bánh mì"
+              },
+              {
+                "word": "パン",
+                "reading": "パン",
+                "meaning": "Bánh mì"
+              },
+              {
+                "word": "としょかん",
+                "reading": "としょかん",
+                "meaning": "Thư viện"
+              },
+              {
+                "word": "スーパー",
+                "reading": "スーパー",
+                "meaning": "Siêu thị"
+              }
+            ]
+          },
+          "explanation": "Trong tranh có biển BAKERY và hình bánh mì, nên đây là パンや.",
+          "tips": [
+            "ここはどこですか hỏi địa điểm.",
+            "パン là bánh mì, パンや là tiệm bánh mì.",
+            "Trả lời ngắn: パンやです。"
+          ],
+          "commonMistakes": [
+            "Trả lời パンです dù câu hỏi hỏi địa điểm.",
+            "Nhầm パンや với レストラン.",
+            "Quên です."
+          ]
+        },
+        {
+          "id": "l3_img_bakery_q02",
+          "order": 2,
+          "question": {
+            "ja": "パンやは　なんじからですか。",
+            "vi": "Tiệm bánh mở từ mấy giờ?"
+          },
+          "sampleAnswers": [
+            {
+              "ja": "ごぜん　ろくじからです。",
+              "vi": "Từ 6 giờ sáng."
+            }
+          ],
+          "relatedGrammar": [
+            {
+              "pattern": "N は なんじからですか。",
+              "meaning": "N bắt đầu từ mấy giờ?",
+              "howToUse": "Dùng để hỏi giờ mở cửa."
+            }
+          ],
+          "relatedVocabulary": {
+            "topic": "Giờ mở cửa",
+            "items": [
+              {
+                "word": "パンや",
+                "reading": "パンや",
+                "meaning": "Tiệm bánh mì"
+              },
+              {
+                "word": "なんじから",
+                "reading": "なんじから",
+                "meaning": "Từ mấy giờ"
+              },
+              {
+                "word": "ごぜん",
+                "reading": "ごぜん",
+                "meaning": "Buổi sáng / AM"
+              },
+              {
+                "word": "ろくじ",
+                "reading": "ろくじ",
+                "meaning": "6 giờ"
+              },
+              {
+                "word": "から",
+                "reading": "から",
+                "meaning": "Từ"
+              }
+            ]
+          },
+          "explanation": "Bảng giờ trong tranh ghi 6:00 AM, nên trả lời ごぜん　ろくじからです。",
+          "tips": [
+            "なんじから hỏi giờ bắt đầu.",
+            "6:00 AM là ごぜんろくじ.",
+            "Nhớ thêm から sau giờ."
+          ],
+          "commonMistakes": [
+            "Trả lời よるしちじ, đó là giờ đóng cửa.",
+            "Quên から.",
+            "Nhầm ろくじ với しちじ."
+          ]
+        },
+        {
+          "id": "l3_img_bakery_q03",
+          "order": 3,
+          "question": {
+            "ja": "パンやは　なんじまでですか。",
+            "vi": "Tiệm bánh mở đến mấy giờ?"
+          },
+          "sampleAnswers": [
+            {
+              "ja": "よる　しちじまでです。",
+              "vi": "Đến 7 giờ tối."
+            }
+          ],
+          "relatedGrammar": [
+            {
+              "pattern": "N は なんじまでですか。",
+              "meaning": "N đến mấy giờ?",
+              "howToUse": "Dùng để hỏi giờ đóng cửa."
+            }
+          ],
+          "relatedVocabulary": {
+            "topic": "Giờ đóng cửa",
+            "items": [
+              {
+                "word": "なんじまで",
+                "reading": "なんじまで",
+                "meaning": "Đến mấy giờ"
+              },
+              {
+                "word": "よる",
+                "reading": "よる",
+                "meaning": "Buổi tối"
+              },
+              {
+                "word": "しちじ",
+                "reading": "しちじ",
+                "meaning": "7 giờ"
+              },
+              {
+                "word": "まで",
+                "reading": "まで",
+                "meaning": "Đến"
+              }
+            ]
+          },
+          "explanation": "Bảng giờ trong tranh ghi 7:00 PM, nên trả lời よる　しちじまでです。",
+          "tips": [
+            "なんじまで hỏi giờ kết thúc.",
+            "7:00 PM có thể nói よるしちじ.",
+            "Nhớ thêm まで sau giờ."
+          ],
+          "commonMistakes": [
+            "Trả lời giờ mở cửa.",
+            "Quên まで.",
+            "Nhầm しちじ với ななじ."
+          ]
+        },
+        {
+          "id": "l3_img_bakery_q04",
+          "order": 4,
+          "question": {
+            "ja": "パンやは　なんじから　なんじまでですか。",
+            "vi": "Tiệm bánh mở từ mấy giờ đến mấy giờ?"
+          },
+          "sampleAnswers": [
+            {
+              "ja": "ごぜん　ろくじから　よる　しちじまでです。",
+              "vi": "Từ 6 giờ sáng đến 7 giờ tối."
+            }
+          ],
+          "relatedGrammar": [
+            {
+              "pattern": "N は Aから Bまでです。",
+              "meaning": "N từ A đến B.",
+              "howToUse": "Dùng để nói khoảng thời gian mở cửa."
+            }
+          ],
+          "relatedVocabulary": {
+            "topic": "Khoảng thời gian",
+            "items": [
+              {
+                "word": "ごぜん　ろくじ",
+                "reading": "ごぜん　ろくじ",
+                "meaning": "6 giờ sáng"
+              },
+              {
+                "word": "よる　しちじ",
+                "reading": "よる　しちじ",
+                "meaning": "7 giờ tối"
+              },
+              {
+                "word": "から",
+                "reading": "から",
+                "meaning": "Từ"
+              },
+              {
+                "word": "まで",
+                "reading": "まで",
+                "meaning": "Đến"
+              }
+            ]
+          },
+          "explanation": "Tranh ghi 6:00 AM - 7:00 PM, nên trả lời ごぜん　ろくじから　よる　しちじまでです。",
+          "tips": [
+            "Câu hỏi có cả から và まで thì trả lời đủ hai mốc giờ.",
+            "Mốc đầu là 6 giờ sáng.",
+            "Mốc cuối là 7 giờ tối."
+          ],
+          "commonMistakes": [
+            "Chỉ trả lời một mốc giờ.",
+            "Đảo sai giờ mở và giờ đóng.",
+            "Thiếu から hoặc まで."
+          ]
+        },
+        {
+          "id": "l3_img_bakery_q05",
+          "order": 5,
+          "question": {
+            "ja": "やすみは　いつですか。",
+            "vi": "Ngày nghỉ là khi nào?"
+          },
+          "sampleAnswers": [
+            {
+              "ja": "げつようびの　あさです。",
+              "vi": "Là sáng thứ Hai."
+            }
+          ],
+          "relatedGrammar": [
+            {
+              "pattern": "N は いつですか。",
+              "meaning": "N là khi nào?",
+              "howToUse": "Dùng để hỏi thời gian/ngày nghỉ."
+            }
+          ],
+          "relatedVocabulary": {
+            "topic": "Ngày nghỉ",
+            "items": [
+              {
+                "word": "やすみ",
+                "reading": "やすみ",
+                "meaning": "Ngày nghỉ / nghỉ"
+              },
+              {
+                "word": "いつ",
+                "reading": "いつ",
+                "meaning": "Khi nào"
+              },
+              {
+                "word": "げつようび",
+                "reading": "げつようび",
+                "meaning": "Thứ Hai"
+              },
+              {
+                "word": "あさ",
+                "reading": "あさ",
+                "meaning": "Buổi sáng"
+              }
+            ]
+          },
+          "explanation": "Bảng trong tranh ghi Closed: Monday's morning, nên trả lời げつようびの　あさです。",
+          "tips": [
+            "Closed là ngày/giờ nghỉ.",
+            "Monday là げつようび.",
+            "Morning là あさ."
+          ],
+          "commonMistakes": [
+            "Trả lời giờ mở cửa.",
+            "Quên の trong げつようびのあさ.",
+            "Nhầm ngày nghỉ với giờ đóng cửa."
+          ]
+        },
+        {
+          "id": "l3_img_bakery_q06",
+          "order": 6,
+          "question": {
+            "ja": "ここで　なにを　しますか。",
+            "vi": "Ở đây làm gì?"
+          },
+          "sampleAnswers": [
+            {
+              "ja": "ぱんを　かいます。",
+              "vi": "Mua bánh mì."
+            },
+            {
+              "ja": "アルバイトを　します。",
+              "vi": "Làm thêm."
+            }
+          ],
+          "relatedGrammar": [
+            {
+              "pattern": "ここで N を Vます。",
+              "meaning": "Ở đây làm V với N.",
+              "howToUse": "Dùng để nói hoạt động tại địa điểm."
+            },
+            {
+              "pattern": "N を します。",
+              "meaning": "Làm N.",
+              "howToUse": "Dùng với danh từ chỉ hoạt động như アルバイト."
+            }
+          ],
+          "relatedVocabulary": {
+            "topic": "Hoạt động ở tiệm bánh",
+            "items": [
+              {
+                "word": "ここで",
+                "reading": "ここで",
+                "meaning": "Ở đây"
+              },
+              {
+                "word": "なに",
+                "reading": "なに",
+                "meaning": "Cái gì"
+              },
+              {
+                "word": "ぱん",
+                "reading": "ぱん",
+                "meaning": "Bánh mì"
+              },
+              {
+                "word": "かいます",
+                "reading": "かいます",
+                "meaning": "Mua"
+              },
+              {
+                "word": "ぱんを　かいます",
+                "reading": "ぱんを　かいます",
+                "meaning": "Mua bánh mì"
+              },
+              {
+                "word": "アルバイト",
+                "reading": "アルバイト",
+                "meaning": "Việc làm thêm"
+              },
+              {
+                "word": "アルバイトを　します",
+                "reading": "アルバイトを　します",
+                "meaning": "Làm thêm"
+              }
+            ]
+          },
+          "explanation": "Ở tiệm bánh, có thể mua bánh mì hoặc làm thêm. Tranh có nhân viên tiệm bánh nên cả hai đáp án đều phù hợp.",
+          "tips": [
+            "Nếu nói mua bánh mì, dùng ぱんをかいます.",
+            "Nếu nói làm thêm, dùng アルバイトをします.",
+            "Nhớ dùng を trước động từ."
+          ],
+          "commonMistakes": [
+            "Trả lời パンやです dù câu hỏi hỏi hoạt động.",
+            "Quên を.",
+            "Nhầm かいます với たべます."
+          ]
+        }
+      ]
+    },
+    {
+      "pictureId": "jpd113_l3_picture_03_smith_karina",
+      "pictureTitle": "Tranh 3 - スミスさんとカリナさん",
+      "pictureContentForGeneration": {
+        "purpose": "Tạo tranh hai hoạt động khác nhau để luyện mẫu NgườiはNをVます và câu hỏi Yes/No với động từ.",
+        "sceneDescription": {
+          "visualStyle": "Tranh đen trắng hoặc màu đơn giản, chia làm hai khung rõ ràng.",
+          "leftPanel": {
+            "character": "スミスさん",
+            "action": "さくらを　みます",
+            "detail": "Một hoặc hai người đang đứng dưới cây hoa anh đào, nhìn hoa rơi. Có nhãn スミスさん dưới khung."
+          },
+          "rightPanel": {
+            "character": "カリナさん",
+            "action": "バーベキューを　します",
+            "detail": "Một người đang nướng BBQ cùng bạn, có vỉ nướng và đồ ăn. Có nhãn カリナさん dưới khung."
+          },
+          "textOnImage": [
+            "スミスさん",
+            "カリナさん"
+          ]
+        },
+        "japaneseInfoForAnswering": {
+          "smithAction": "さくらを　みます",
+          "karinaAction": "バーベキューを　します"
+        }
+      },
+      "questions": [
+        {
+          "id": "l3_img_smith_karina_q01",
+          "order": 1,
+          "question": {
+            "ja": "スミスさんは　さくらを　みますか。",
+            "vi": "Bạn Smith có ngắm hoa anh đào không?"
+          },
+          "sampleAnswers": [
+            {
+              "ja": "はい、みます。",
+              "vi": "Vâng, có ngắm."
+            },
+            {
+              "ja": "はい、さくらを　みます。",
+              "vi": "Vâng, ngắm hoa anh đào."
+            }
+          ],
+          "relatedGrammar": [
+            {
+              "pattern": "人 は N を Vますか。",
+              "meaning": "Người đó có làm V với N không?",
+              "howToUse": "Dùng để hỏi xác nhận hành động trong tranh."
+            },
+            {
+              "pattern": "はい、Vます。",
+              "meaning": "Vâng, có làm.",
+              "howToUse": "Dùng khi hành động trong câu hỏi đúng."
+            }
+          ],
+          "relatedVocabulary": {
+            "topic": "Ngắm hoa",
+            "items": [
+              {
+                "word": "スミスさん",
+                "reading": "スミスさん",
+                "meaning": "Bạn Smith"
+              },
+              {
+                "word": "さくら",
+                "reading": "さくら",
+                "meaning": "Hoa anh đào"
+              },
+              {
+                "word": "みます",
+                "reading": "みます",
+                "meaning": "Xem / nhìn / ngắm"
+              },
+              {
+                "word": "さくらを　みます",
+                "reading": "さくらを　みます",
+                "meaning": "Ngắm hoa anh đào"
+              },
+              {
+                "word": "はい",
+                "reading": "はい",
+                "meaning": "Vâng"
+              }
+            ]
+          },
+          "explanation": "Trong tranh, スミスさん đang nhìn hoa anh đào, nên trả lời はい、みます。",
+          "tips": [
+            "Câu hỏi có ますか là câu Yes/No.",
+            "Nếu hành động đúng với tranh, trả lời はい.",
+            "さくらをみます nghĩa là ngắm hoa anh đào."
+          ],
+          "commonMistakes": [
+            "Trả lời さくらです.",
+            "Quên を giữa さくら và みます.",
+            "Nhầm スミスさん với カリナさん."
+          ]
+        },
+        {
+          "id": "l3_img_smith_karina_q02",
+          "order": 2,
+          "question": {
+            "ja": "スミスさんは　なにを　しますか。",
+            "vi": "Bạn Smith làm gì?"
+          },
+          "sampleAnswers": [
+            {
+              "ja": "さくらを　みます。",
+              "vi": "Ngắm hoa anh đào."
+            }
+          ],
+          "relatedGrammar": [
+            {
+              "pattern": "人 は なにを しますか。",
+              "meaning": "Người đó làm gì?",
+              "howToUse": "Dùng để hỏi hành động của nhân vật."
+            },
+            {
+              "pattern": "N を Vます。",
+              "meaning": "Làm V với N.",
+              "howToUse": "Dùng để trả lời hành động có tân ngữ."
+            }
+          ],
+          "relatedVocabulary": {
+            "topic": "Hành động",
+            "items": [
+              {
+                "word": "なに",
+                "reading": "なに",
+                "meaning": "Cái gì"
+              },
+              {
+                "word": "します",
+                "reading": "します",
+                "meaning": "Làm"
+              },
+              {
+                "word": "さくら",
+                "reading": "さくら",
+                "meaning": "Hoa anh đào"
+              },
+              {
+                "word": "みます",
+                "reading": "みます",
+                "meaning": "Ngắm / xem"
+              },
+              {
+                "word": "を",
+                "reading": "を",
+                "meaning": "Trợ từ chỉ đối tượng"
+              }
+            ]
+          },
+          "explanation": "スミスさん đang ngắm hoa anh đào, nên trả lời さくらを　みます。",
+          "tips": [
+            "なにをしますか hỏi hành động.",
+            "Không trả lời tên người.",
+            "Cần nói đủ: đối tượng + を + động từ."
+          ],
+          "commonMistakes": [
+            "Trả lời スミスさんです.",
+            "Thiếu を.",
+            "Trả lời バーベキューをします, đó là hành động của カリナさん."
+          ]
+        },
+        {
+          "id": "l3_img_smith_karina_q03",
+          "order": 3,
+          "question": {
+            "ja": "カリナさんは　バーベキューを　しますか。",
+            "vi": "Bạn Karina có làm BBQ không?"
+          },
+          "sampleAnswers": [
+            {
+              "ja": "はい、します。",
+              "vi": "Vâng, có làm."
+            },
+            {
+              "ja": "はい、バーベキューを　します。",
+              "vi": "Vâng, làm BBQ."
+            }
+          ],
+          "relatedGrammar": [
+            {
+              "pattern": "人 は N を しますか。",
+              "meaning": "Người đó có làm N không?",
+              "howToUse": "Dùng để hỏi xác nhận hoạt động."
+            }
+          ],
+          "relatedVocabulary": {
+            "topic": "Hoạt động ngoài trời",
+            "items": [
+              {
+                "word": "カリナさん",
+                "reading": "カリナさん",
+                "meaning": "Bạn Karina"
+              },
+              {
+                "word": "バーベキュー",
+                "reading": "バーベキュー",
+                "meaning": "BBQ / tiệc nướng"
+              },
+              {
+                "word": "します",
+                "reading": "します",
+                "meaning": "Làm"
+              },
+              {
+                "word": "バーベキューを　します",
+                "reading": "バーベキューを　します",
+                "meaning": "Làm BBQ"
+              },
+              {
+                "word": "はい",
+                "reading": "はい",
+                "meaning": "Vâng"
+              }
+            ]
+          },
+          "explanation": "Trong tranh, カリナさん đang làm BBQ, nên trả lời はい、します。",
+          "tips": [
+            "Câu hỏi Yes/No với しますか có thể trả lời はい、します.",
+            "Muốn trả lời đầy đủ hơn: はい、バーベキューをします.",
+            "バーベキュー là danh từ hoạt động, đi với をします."
+          ],
+          "commonMistakes": [
+            "Trả lời はい、みます.",
+            "Quên を.",
+            "Nhầm カリナさん với スミスさん."
+          ]
+        },
+        {
+          "id": "l3_img_smith_karina_q04",
+          "order": 4,
+          "question": {
+            "ja": "カリナさんは　なにを　しますか。",
+            "vi": "Bạn Karina làm gì?"
+          },
+          "sampleAnswers": [
+            {
+              "ja": "バーベキューを　します。",
+              "vi": "Làm BBQ."
+            }
+          ],
+          "relatedGrammar": [
+            {
+              "pattern": "人 は なにを しますか。",
+              "meaning": "Người đó làm gì?",
+              "howToUse": "Dùng để hỏi hoạt động của nhân vật."
+            }
+          ],
+          "relatedVocabulary": {
+            "topic": "Hỏi hoạt động",
+            "items": [
+              {
+                "word": "カリナさん",
+                "reading": "カリナさん",
+                "meaning": "Bạn Karina"
+              },
+              {
+                "word": "なに",
+                "reading": "なに",
+                "meaning": "Cái gì"
+              },
+              {
+                "word": "バーベキュー",
+                "reading": "バーベキュー",
+                "meaning": "BBQ"
+              },
+              {
+                "word": "します",
+                "reading": "します",
+                "meaning": "Làm"
+              },
+              {
+                "word": "を",
+                "reading": "を",
+                "meaning": "Trợ từ chỉ đối tượng"
+              }
+            ]
+          },
+          "explanation": "カリナさん ở khung bên phải đang nướng BBQ, nên trả lời バーベキューを　します。",
+          "tips": [
+            "Nhìn đúng nhân vật trước khi trả lời.",
+            "なにをしますか hỏi hoạt động.",
+            "Câu trả lời an toàn: バーベキューをします。"
+          ],
+          "commonMistakes": [
+            "Trả lời さくらをみます, đó là hành động của スミスさん.",
+            "Thiếu を.",
+            "Trả lời bằng tên địa điểm."
+          ]
+        },
+        {
+          "id": "l3_img_smith_karina_q05",
+          "order": 5,
+          "question": {
+            "ja": "スミスさんは　バーベキューを　しますか。",
+            "vi": "Bạn Smith có làm BBQ không?"
+          },
+          "sampleAnswers": [
+            {
+              "ja": "いいえ、さくらを　みます。",
+              "vi": "Không, bạn ấy ngắm hoa anh đào."
+            },
+            {
+              "ja": "いいえ、バーベキューを　しません。さくらを　みます。",
+              "vi": "Không, không làm BBQ. Bạn ấy ngắm hoa anh đào."
+            }
+          ],
+          "relatedGrammar": [
+            {
+              "pattern": "いいえ、Nを Vません。",
+              "meaning": "Không, không làm V với N.",
+              "howToUse": "Dùng khi hành động trong câu hỏi sai."
+            },
+            {
+              "pattern": "Nを Vます。",
+              "meaning": "Làm V với N.",
+              "howToUse": "Dùng để nói hành động đúng trong tranh."
+            }
+          ],
+          "relatedVocabulary": {
+            "topic": "Phủ định hành động",
+            "items": [
+              {
+                "word": "いいえ",
+                "reading": "いいえ",
+                "meaning": "Không"
+              },
+              {
+                "word": "バーベキュー",
+                "reading": "バーベキュー",
+                "meaning": "BBQ"
+              },
+              {
+                "word": "しません",
+                "reading": "しません",
+                "meaning": "Không làm"
+              },
+              {
+                "word": "さくら",
+                "reading": "さくら",
+                "meaning": "Hoa anh đào"
+              },
+              {
+                "word": "みます",
+                "reading": "みます",
+                "meaning": "Ngắm / xem"
+              }
+            ]
+          },
+          "explanation": "スミスさん không làm BBQ. Trong tranh, bạn ấy đang ngắm hoa anh đào.",
+          "tips": [
+            "Nếu câu hỏi sai với tranh, trả lời いいえ.",
+            "Sau đó nói hành động đúng.",
+            "Câu ngắn theo data: いいえ、さくらをみます。"
+          ],
+          "commonMistakes": [
+            "Trả lời はい vì thấy trong tranh có BBQ nhưng đó là カリナさん.",
+            "Nhầm nhân vật.",
+            "Quên đổi します thành しません nếu trả lời đầy đủ."
+          ]
+        }
+      ]
+    },
+    {
+      "pictureId": "jpd113_l3_picture_04_watt_sompa",
+      "pictureTitle": "Tranh 4 - ワットさんとソンパさん",
+      "pictureContentForGeneration": {
+        "purpose": "Tạo tranh hai hoạt động khác nhau để luyện câu hỏi hành động với のみます và します.",
+        "sceneDescription": {
+          "visualStyle": "Tranh minh họa đơn giản, chia hai khung hoặc hai khu vực rõ ràng.",
+          "leftPanel": {
+            "character": "ワットさん",
+            "action": "ビールを　のみます",
+            "detail": "Một người tên ワットさん đang uống bia tại bàn. Tranh chỉ dùng như dữ liệu từ vựng, không cần tạo bối cảnh hấp dẫn hay khuyến khích sử dụng."
+          },
+          "rightPanel": {
+            "character": "ソンパさん",
+            "action": "アルバイトを　します",
+            "detail": "Một người tên ソンパさん đang làm thêm, ví dụ làm nhân viên bán hàng hoặc phục vụ tại quầy."
+          },
+          "textOnImage": [
+            "ワットさん",
+            "ソンパさん"
+          ]
+        },
+        "japaneseInfoForAnswering": {
+          "wattAction": "ビールを　のみます",
+          "sompaAction": "アルバイトを　します"
+        }
+      },
+      "questions": [
+        {
+          "id": "l3_img_watt_sompa_q01",
+          "order": 1,
+          "question": {
+            "ja": "ワットさんは　ビールを　のみますか。",
+            "vi": "Bạn Watt có uống bia không?"
+          },
+          "sampleAnswers": [
+            {
+              "ja": "はい、のみます。",
+              "vi": "Vâng, có uống."
+            },
+            {
+              "ja": "はい、ビールを　のみます。",
+              "vi": "Vâng, uống bia."
+            }
+          ],
+          "relatedGrammar": [
+            {
+              "pattern": "人 は N を Vますか。",
+              "meaning": "Người đó có làm V với N không?",
+              "howToUse": "Dùng để hỏi xác nhận hành động."
+            }
+          ],
+          "relatedVocabulary": {
+            "topic": "Đồ uống và động từ uống",
+            "items": [
+              {
+                "word": "ワットさん",
+                "reading": "ワットさん",
+                "meaning": "Bạn Watt"
+              },
+              {
+                "word": "ビール",
+                "reading": "ビール",
+                "meaning": "Bia"
+              },
+              {
+                "word": "のみます",
+                "reading": "のみます",
+                "meaning": "Uống"
+              },
+              {
+                "word": "ビールを　のみます",
+                "reading": "ビールを　のみます",
+                "meaning": "Uống bia"
+              },
+              {
+                "word": "みず",
+                "reading": "みず",
+                "meaning": "Nước"
+              },
+              {
+                "word": "おちゃ",
+                "reading": "おちゃ",
+                "meaning": "Trà"
+              },
+              {
+                "word": "コーヒー",
+                "reading": "コーヒー",
+                "meaning": "Cà phê"
+              }
+            ]
+          },
+          "explanation": "Trong tranh, ワットさん đang uống ビール, nên trả lời はい、のみます。",
+          "tips": [
+            "Câu hỏi có のみますか hỏi hành động uống.",
+            "Nếu đúng với tranh, trả lời はい、のみます。",
+            "ビール là từ vựng trong tranh; khi luyện có thể thay bằng みず, おちゃ, コーヒー."
+          ],
+          "commonMistakes": [
+            "Trả lời はい、します thay vì はい、のみます.",
+            "Quên を trong ビールをのみます.",
+            "Nhầm ワットさん với ソンパさん."
+          ]
+        },
+        {
+          "id": "l3_img_watt_sompa_q02",
+          "order": 2,
+          "question": {
+            "ja": "ワットさんは　なにを　のみますか。",
+            "vi": "Bạn Watt uống gì?"
+          },
+          "sampleAnswers": [
+            {
+              "ja": "ビールを　のみます。",
+              "vi": "Uống bia."
+            }
+          ],
+          "relatedGrammar": [
+            {
+              "pattern": "人 は なにを Vますか。",
+              "meaning": "Người đó V cái gì?",
+              "howToUse": "Dùng để hỏi đối tượng của hành động."
+            },
+            {
+              "pattern": "N を Vます。",
+              "meaning": "V N.",
+              "howToUse": "Dùng để trả lời đối tượng được uống/ăn/xem."
+            }
+          ],
+          "relatedVocabulary": {
+            "topic": "Hỏi đồ uống",
+            "items": [
+              {
+                "word": "なに",
+                "reading": "なに",
+                "meaning": "Cái gì"
+              },
+              {
+                "word": "のみます",
+                "reading": "のみます",
+                "meaning": "Uống"
+              },
+              {
+                "word": "ビール",
+                "reading": "ビール",
+                "meaning": "Bia"
+              },
+              {
+                "word": "みず",
+                "reading": "みず",
+                "meaning": "Nước"
+              },
+              {
+                "word": "おちゃ",
+                "reading": "おちゃ",
+                "meaning": "Trà"
+              },
+              {
+                "word": "ジュース",
+                "reading": "ジュース",
+                "meaning": "Nước ép"
+              },
+              {
+                "word": "を",
+                "reading": "を",
+                "meaning": "Trợ từ chỉ tân ngữ"
+              }
+            ]
+          },
+          "explanation": "Câu hỏi hỏi ワットさん uống gì. Trong tranh, đồ uống là ビール.",
+          "tips": [
+            "なにをのみますか hỏi đồ uống.",
+            "Câu trả lời phải là đồ uống + をのみます.",
+            "Không trả lời tên người."
+          ],
+          "commonMistakes": [
+            "Trả lời ワットさんです.",
+            "Thiếu を.",
+            "Trả lời アルバイトをします, đó là hành động của ソンパさん."
+          ]
+        },
+        {
+          "id": "l3_img_watt_sompa_q03",
+          "order": 3,
+          "question": {
+            "ja": "ソンパさんは　アルバイトを　しますか。",
+            "vi": "Bạn Sompa có làm thêm không?"
+          },
+          "sampleAnswers": [
+            {
+              "ja": "はい、します。",
+              "vi": "Vâng, có làm."
+            },
+            {
+              "ja": "はい、アルバイトを　します。",
+              "vi": "Vâng, làm thêm."
+            }
+          ],
+          "relatedGrammar": [
+            {
+              "pattern": "人 は N を しますか。",
+              "meaning": "Người đó có làm N không?",
+              "howToUse": "Dùng để hỏi xác nhận hoạt động."
+            }
+          ],
+          "relatedVocabulary": {
+            "topic": "Làm thêm",
+            "items": [
+              {
+                "word": "ソンパさん",
+                "reading": "ソンパさん",
+                "meaning": "Bạn Sompa"
+              },
+              {
+                "word": "アルバイト",
+                "reading": "アルバイト",
+                "meaning": "Việc làm thêm"
+              },
+              {
+                "word": "アルバイトを　します",
+                "reading": "アルバイトを　します",
+                "meaning": "Làm thêm"
+              },
+              {
+                "word": "します",
+                "reading": "します",
+                "meaning": "Làm"
+              },
+              {
+                "word": "はい",
+                "reading": "はい",
+                "meaning": "Vâng"
+              }
+            ]
+          },
+          "explanation": "Trong tranh, ソンパさん đang làm thêm, nên trả lời はい、します。",
+          "tips": [
+            "アルバイト là danh từ hoạt động.",
+            "Dùng アルバイトをします để nói làm thêm.",
+            "Câu Yes/No có thể trả lời ngắn はい、します。"
+          ],
+          "commonMistakes": [
+            "Trả lời はい、のみます.",
+            "Quên を.",
+            "Nhầm ソンパさん với ワットさん."
+          ]
+        },
+        {
+          "id": "l3_img_watt_sompa_q04",
+          "order": 4,
+          "question": {
+            "ja": "ソンパさんは　なにを　しますか。",
+            "vi": "Bạn Sompa làm gì?"
+          },
+          "sampleAnswers": [
+            {
+              "ja": "アルバイトを　します。",
+              "vi": "Làm thêm."
+            }
+          ],
+          "relatedGrammar": [
+            {
+              "pattern": "人 は なにを しますか。",
+              "meaning": "Người đó làm gì?",
+              "howToUse": "Dùng để hỏi hoạt động của nhân vật."
+            }
+          ],
+          "relatedVocabulary": {
+            "topic": "Hỏi hoạt động",
+            "items": [
+              {
+                "word": "ソンパさん",
+                "reading": "ソンパさん",
+                "meaning": "Bạn Sompa"
+              },
+              {
+                "word": "なに",
+                "reading": "なに",
+                "meaning": "Cái gì"
+              },
+              {
+                "word": "します",
+                "reading": "します",
+                "meaning": "Làm"
+              },
+              {
+                "word": "アルバイト",
+                "reading": "アルバイト",
+                "meaning": "Việc làm thêm"
+              },
+              {
+                "word": "を",
+                "reading": "を",
+                "meaning": "Trợ từ chỉ tân ngữ"
+              }
+            ]
+          },
+          "explanation": "ソンパさん đang làm thêm, nên trả lời アルバイトを　します。",
+          "tips": [
+            "なにをしますか hỏi hoạt động.",
+            "Dùng danh từ hoạt động + をします.",
+            "Không trả lời đồ uống trong câu này."
+          ],
+          "commonMistakes": [
+            "Trả lời ビールをのみます, đó là hành động của ワットさん.",
+            "Thiếu を.",
+            "Trả lời ソンパさんです."
+          ]
+        },
+        {
+          "id": "l3_img_watt_sompa_q05",
+          "order": 5,
+          "question": {
+            "ja": "ワットさんは　アルバイトを　しますか。",
+            "vi": "Bạn Watt có làm thêm không?"
+          },
+          "sampleAnswers": [
+            {
+              "ja": "いいえ、ビールを　のみます。",
+              "vi": "Không, bạn ấy uống bia."
+            },
+            {
+              "ja": "いいえ、アルバイトを　しません。ビールを　のみます。",
+              "vi": "Không, không làm thêm. Bạn ấy uống bia."
+            }
+          ],
+          "relatedGrammar": [
+            {
+              "pattern": "いいえ、Nを Vません。",
+              "meaning": "Không, không làm V với N.",
+              "howToUse": "Dùng khi thông tin trong câu hỏi sai."
+            },
+            {
+              "pattern": "Nを Vます。",
+              "meaning": "Làm V với N.",
+              "howToUse": "Dùng để nói hành động đúng."
+            }
+          ],
+          "relatedVocabulary": {
+            "topic": "Phủ định hành động",
+            "items": [
+              {
+                "word": "いいえ",
+                "reading": "いいえ",
+                "meaning": "Không"
+              },
+              {
+                "word": "アルバイト",
+                "reading": "アルバイト",
+                "meaning": "Việc làm thêm"
+              },
+              {
+                "word": "しません",
+                "reading": "しません",
+                "meaning": "Không làm"
+              },
+              {
+                "word": "ビール",
+                "reading": "ビール",
+                "meaning": "Bia"
+              },
+              {
+                "word": "のみます",
+                "reading": "のみます",
+                "meaning": "Uống"
+              }
+            ]
+          },
+          "explanation": "ワットさん không làm thêm. Trong tranh, ワットさん uống ビール.",
+          "tips": [
+            "Nếu câu hỏi sai với tranh, trả lời いいえ.",
+            "Sau đó nói hành động đúng.",
+            "Câu ngắn theo data: いいえ、ビールをのみます。"
+          ],
+          "commonMistakes": [
+            "Trả lời はい vì thấy có người đang làm thêm nhưng đó là ソンパさん.",
+            "Nhầm nhân vật.",
+            "Quên đổi します thành しません nếu trả lời đầy đủ."
+          ]
+        },
+        {
+          "id": "l3_img_watt_sompa_q06",
+          "order": 6,
+          "question": {
+            "ja": "ソンパさんは　ビールを　のみますか。",
+            "vi": "Bạn Sompa có uống bia không?"
+          },
+          "sampleAnswers": [
+            {
+              "ja": "いいえ、アルバイトを　します。",
+              "vi": "Không, bạn ấy làm thêm."
+            },
+            {
+              "ja": "いいえ、ビールを　のみません。アルバイトを　します。",
+              "vi": "Không, không uống bia. Bạn ấy làm thêm."
+            }
+          ],
+          "relatedGrammar": [
+            {
+              "pattern": "いいえ、Nを Vません。",
+              "meaning": "Không, không làm V với N.",
+              "howToUse": "Dùng khi thông tin trong câu hỏi sai."
+            }
+          ],
+          "relatedVocabulary": {
+            "topic": "Phủ định và sửa thông tin",
+            "items": [
+              {
+                "word": "ソンパさん",
+                "reading": "ソンパさん",
+                "meaning": "Bạn Sompa"
+              },
+              {
+                "word": "ビール",
+                "reading": "ビール",
+                "meaning": "Bia"
+              },
+              {
+                "word": "のみません",
+                "reading": "のみません",
+                "meaning": "Không uống"
+              },
+              {
+                "word": "アルバイト",
+                "reading": "アルバイト",
+                "meaning": "Việc làm thêm"
+              },
+              {
+                "word": "します",
+                "reading": "します",
+                "meaning": "Làm"
+              },
+              {
+                "word": "いいえ",
+                "reading": "いいえ",
+                "meaning": "Không"
+              }
+            ]
+          },
+          "explanation": "ソンパさん không uống ビール. Trong tranh, ソンパさん đang làm thêm.",
+          "tips": [
+            "Nhìn đúng nhân vật trước khi trả lời.",
+            "Nếu câu hỏi sai, dùng いいえ.",
+            "Có thể trả lời ngắn: いいえ、アルバイトをします。"
+          ],
+          "commonMistakes": [
+            "Nhầm hành động của ワットさん sang ソンパさん.",
+            "Quên を.",
+            "Trả lời はい dù tranh không đúng."
+          ]
+        }
+      ]
+    },
+    {
+      "pictureId": "jpd113_l3_picture_05_calendar",
+      "pictureTitle": "Tranh 5 - 11月のカレンダー",
+      "pictureContentForGeneration": {
+        "purpose": "Tạo tranh lịch tháng 11 để luyện hỏi thứ trong tuần bằng mẫu なんようびですか.",
+        "sceneDescription": {
+          "visualStyle": "Lịch tháng 11 rõ ràng, dễ nhìn, số ngày to và thứ trong tuần rõ.",
+          "calendarMonth": "11月",
+          "requiredDateInfo": [
+            {
+              "date": "11月4日",
+              "dayOfWeek": "げつようび"
+            },
+            {
+              "date": "11月12日",
+              "dayOfWeek": "かようび"
+            }
+          ],
+          "visualRequirement": "Ngày 4 nằm ở cột thứ Hai và ngày 12 nằm ở cột thứ Ba. Có thể khoanh tròn hoặc làm nổi bật hai ngày này để học sinh nhìn trả lời."
+        },
+        "japaneseInfoForAnswering": {
+          "novemberFourth": "げつようび",
+          "novemberTwelfth": "かようび"
+        }
+      },
+      "questions": [
+        {
+          "id": "l3_img_calendar_q01",
+          "order": 1,
+          "question": {
+            "ja": "じゅういちがつ　よっかは　なんようびですか。",
+            "vi": "Ngày 4 tháng 11 là thứ mấy?"
+          },
+          "sampleAnswers": [
+            {
+              "ja": "げつようびです。",
+              "vi": "Là thứ Hai."
+            }
+          ],
+          "relatedGrammar": [
+            {
+              "pattern": "Ngày は なんようびですか。",
+              "meaning": "Ngày đó là thứ mấy?",
+              "howToUse": "Dùng để hỏi thứ trong tuần dựa vào lịch."
+            }
+          ],
+          "relatedVocabulary": {
+            "topic": "Ngày tháng và thứ trong tuần",
+            "items": [
+              {
+                "word": "じゅういちがつ",
+                "reading": "じゅういちがつ",
+                "meaning": "Tháng 11"
+              },
+              {
+                "word": "よっか",
+                "reading": "よっか",
+                "meaning": "Ngày 4"
+              },
+              {
+                "word": "なんようび",
+                "reading": "なんようび",
+                "meaning": "Thứ mấy"
+              },
+              {
+                "word": "げつようび",
+                "reading": "げつようび",
+                "meaning": "Thứ Hai"
+              },
+              {
+                "word": "かようび",
+                "reading": "かようび",
+                "meaning": "Thứ Ba"
+              },
+              {
+                "word": "すいようび",
+                "reading": "すいようび",
+                "meaning": "Thứ Tư"
+              }
+            ]
+          },
+          "explanation": "Trong lịch, ngày 4 tháng 11 nằm ở thứ Hai, nên trả lời げつようびです。",
+          "tips": [
+            "なんようび hỏi thứ trong tuần.",
+            "Ngày 4 đọc là よっか.",
+            "Thứ Hai là げつようび."
+          ],
+          "commonMistakes": [
+            "Đọc ngày 4 là よんにち.",
+            "Trả lời tháng thay vì thứ.",
+            "Nhầm げつようび với かようび."
+          ]
+        },
+        {
+          "id": "l3_img_calendar_q02",
+          "order": 2,
+          "question": {
+            "ja": "じゅういちがつ　じゅうににちは　なんようびですか。",
+            "vi": "Ngày 12 tháng 11 là thứ mấy?"
+          },
+          "sampleAnswers": [
+            {
+              "ja": "かようびです。",
+              "vi": "Là thứ Ba."
+            }
+          ],
+          "relatedGrammar": [
+            {
+              "pattern": "Ngày は なんようびですか。",
+              "meaning": "Ngày đó là thứ mấy?",
+              "howToUse": "Dùng để hỏi thứ trong tuần."
+            }
+          ],
+          "relatedVocabulary": {
+            "topic": "Lịch và thứ trong tuần",
+            "items": [
+              {
+                "word": "じゅういちがつ",
+                "reading": "じゅういちがつ",
+                "meaning": "Tháng 11"
+              },
+              {
+                "word": "じゅうににち",
+                "reading": "じゅうににち",
+                "meaning": "Ngày 12"
+              },
+              {
+                "word": "なんようび",
+                "reading": "なんようび",
+                "meaning": "Thứ mấy"
+              },
+              {
+                "word": "かようび",
+                "reading": "かようび",
+                "meaning": "Thứ Ba"
+              },
+              {
+                "word": "げつようび",
+                "reading": "げつようび",
+                "meaning": "Thứ Hai"
+              },
+              {
+                "word": "もくようび",
+                "reading": "もくようび",
+                "meaning": "Thứ Năm"
+              }
+            ]
+          },
+          "explanation": "Trong lịch, ngày 12 tháng 11 nằm ở thứ Ba, nên trả lời かようびです。",
+          "tips": [
+            "Ngày 12 đọc là じゅうににち.",
+            "Thứ Ba là かようび.",
+            "Nhìn đúng dòng/cột trên lịch trước khi trả lời."
+          ],
+          "commonMistakes": [
+            "Nhầm ngày 12 với ngày 4.",
+            "Trả lời じゅうににちです thay vì thứ.",
+            "Nhầm かようび với もくようび."
+          ]
+        }
+      ]
+    }
+  ],
+  "quickReview": {
+    "coreQuestionKeywords": [
+      {
+        "keyword": "ここは　どこですか",
+        "expectedAnswerType": "Tên địa điểm"
+      },
+      {
+        "keyword": "なんじから",
+        "expectedAnswerType": "Giờ bắt đầu"
+      },
+      {
+        "keyword": "なんじまで",
+        "expectedAnswerType": "Giờ kết thúc"
+      },
+      {
+        "keyword": "なんじから　なんじまで",
+        "expectedAnswerType": "Khoảng thời gian"
+      },
+      {
+        "keyword": "やすみは　いつ",
+        "expectedAnswerType": "Ngày/giờ nghỉ"
+      },
+      {
+        "keyword": "ここで　なにを　しますか",
+        "expectedAnswerType": "Hoạt động tại địa điểm"
+      },
+      {
+        "keyword": "人は　なにを　しますか",
+        "expectedAnswerType": "Hành động của nhân vật"
+      },
+      {
+        "keyword": "人は　Nを　Vますか",
+        "expectedAnswerType": "Yes/No về hành động"
+      },
+      {
+        "keyword": "なんようび",
+        "expectedAnswerType": "Thứ trong tuần"
+      }
+    ],
+    "safeStudentAnswerTemplates": [
+      {
+        "type": "place_answer",
+        "template": "としょかんです。",
+        "vi": "Là thư viện."
+      },
+      {
+        "type": "start_time_answer",
+        "template": "ごぜん　しちじはんからです。",
+        "vi": "Từ 7 giờ rưỡi sáng."
+      },
+      {
+        "type": "end_time_answer",
+        "template": "よる　くじまでです。",
+        "vi": "Đến 9 giờ tối."
+      },
+      {
+        "type": "time_range_answer",
+        "template": "ごぜん　ろくじから　よる　しちじまでです。",
+        "vi": "Từ 6 giờ sáng đến 7 giờ tối."
+      },
+      {
+        "type": "activity_answer",
+        "template": "ほんを　よみます。",
+        "vi": "Đọc sách."
+      },
+      {
+        "type": "yes_no_action_answer",
+        "template": "はい、みます。／いいえ、みません。",
+        "vi": "Vâng, có xem. / Không, không xem."
+      },
+      {
+        "type": "weekday_answer",
+        "template": "げつようびです。",
+        "vi": "Là thứ Hai."
+      }
+    ]
+  }
+}
+```

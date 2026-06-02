@@ -19,11 +19,11 @@ const cards = [
     active: true,
   },
   {
-    title: 'Thông tin web',
-    description: 'Banner, thông báo, cấu hình nội dung.',
-    path: `${ADMIN_PATH}/site`,
+    title: 'Bản quyền',
+    description: 'Bật/tắt chế độ khóa nội dung và bán Premium.',
+    path: `${ADMIN_PATH}/access-settings`,
     icon: Settings,
-    active: false,
+    active: true,
   },
 ];
 

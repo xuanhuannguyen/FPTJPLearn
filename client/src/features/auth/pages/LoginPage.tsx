@@ -1,10 +1,19 @@
 import { Navigate } from 'react-router-dom';
+import { useState } from 'react';
 import { useAuthStore } from '../../../shared/stores/authStore';
 import { AppLogo } from '../../../shared/components/AppLogo';
 import './LoginPage.css';
 
 export function LoginPage() {
   const { user, loading, signInWithGoogle } = useAuthStore();
+  const [notice] = useState(() => {
+    const loginNotice = sessionStorage.getItem('jplearn_login_notice');
+    if (loginNotice) {
+      sessionStorage.removeItem('jplearn_login_notice');
+      return loginNotice;
+    }
+    return '';
+  });
 
   if (user) {
     return <Navigate to="/dashboard" replace />;
@@ -25,6 +34,12 @@ export function LoginPage() {
         <div className="login-card">
           <h2 className="login-title">Đăng nhập</h2>
           <p className="login-desc">Sử dụng tài khoản Google FPT để bắt đầu học</p>
+
+          {notice ? (
+            <div className="login-notice" role="alert">
+              {notice}
+            </div>
+          ) : null}
 
           <button
             className="login-google-btn"

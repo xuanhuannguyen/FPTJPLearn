@@ -2,6 +2,7 @@ import { create } from 'zustand';
 import { signInWithPopup, signOut, onAuthStateChanged, type User } from 'firebase/auth';
 import { auth, googleProvider } from '../config/firebase';
 import { apiClient } from '../api/axios';
+import { clearUserAccessCache } from '../hooks/useUserAccess';
 import { v4 as uuidv4 } from 'uuid';
 
 interface AuthState {
@@ -36,6 +37,7 @@ export const useAuthStore = create<AuthState>()((set) => ({
     try {
       const result = await signInWithPopup(auth, googleProvider);
       if (result.user) {
+        clearUserAccessCache();
         // Đồng bộ user với server ngay khi login
         await apiClient.post('/auth/sync', {
           displayName: result.user.displayName,
@@ -53,6 +55,12 @@ export const useAuthStore = create<AuthState>()((set) => ({
   logout: async () => {
     set({ loading: true });
     try {
+      await apiClient.post('/auth/logout', {
+        deviceToken: getDeviceToken()
+      }).catch((error) => {
+        console.error('Server logout failed:', error);
+      });
+      clearUserAccessCache();
       await signOut(auth);
       set({ user: null });
     } catch (error) {
@@ -74,6 +82,7 @@ export function initAuthListener() {
     setInitialized(true);
 
     if (user) {
+      clearUserAccessCache();
       // Sync định kỳ khi refresh trang để đảm bảo Device Token luôn mới nhất
       apiClient.post('/auth/sync', {
         displayName: user.displayName,

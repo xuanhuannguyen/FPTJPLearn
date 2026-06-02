@@ -8,7 +8,8 @@
     "accessTier": "premium",
     "packageCode": "speaking_jpd123",
     "isLocked": true,
-    "sentenceCount": 10
+    "sentenceCount": 10,
+    "lessonType": "reading"
   },
   "sentences": [
     {

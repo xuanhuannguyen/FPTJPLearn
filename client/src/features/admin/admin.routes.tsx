@@ -4,6 +4,7 @@ import { AdminDashboardPage } from './pages/AdminDashboardPage';
 import { AdminExamQuestionsPage } from './pages/AdminExamQuestionsPage';
 import { AdminUserManagerPage } from './pages/AdminUserManagerPage';
 import { AdminOrderManagerPage } from './pages/AdminOrderManagerPage';
+import { AdminAccessSettingsPage } from './pages/AdminAccessSettingsPage';
 
 export const adminRoutes = [
   <Route key="admin" path="/jplearn-manage-xh21" element={<AdminLayout />}>
@@ -11,5 +12,6 @@ export const adminRoutes = [
     <Route path="exam-questions" element={<AdminExamQuestionsPage />} />
     <Route path="users" element={<AdminUserManagerPage />} />
     <Route path="orders" element={<AdminOrderManagerPage />} />
+    <Route path="access-settings" element={<AdminAccessSettingsPage />} />
   </Route>,
 ];

@@ -2,6 +2,7 @@ using JPLearn.Infrastructure.Data;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using JPLearn.Core.Users.Entities;
+using JPLearn.Core.Settings;
 using Microsoft.AspNetCore.RateLimiting;
 
 namespace JPLearn.Api.Controllers;
@@ -14,12 +15,18 @@ public class AdminController : ControllerBase
     private readonly AppDbContext _db;
     private readonly IConfiguration _configuration;
     private readonly ILogger<AdminController> _logger;
+    private readonly IAccessSettingsService _accessSettings;
 
-    public AdminController(AppDbContext db, IConfiguration configuration, ILogger<AdminController> logger)
+    public AdminController(
+        AppDbContext db,
+        IConfiguration configuration,
+        ILogger<AdminController> logger,
+        IAccessSettingsService accessSettings)
     {
         _db = db;
         _configuration = configuration;
         _logger = logger;
+        _accessSettings = accessSettings;
     }
 
     private bool IsAdmin()
@@ -152,6 +159,34 @@ public class AdminController : ControllerBase
         return Ok(new { message = $"Deleted {pendingOrders.Count} pending orders" });
     }
 
+    [HttpGet("access-settings")]
+    public async Task<IActionResult> GetAccessSettings()
+    {
+        if (!IsAdmin()) return Unauthorized();
+
+        var freeExperienceEnabled = await _accessSettings.IsFreeExperienceEnabledAsync();
+        return Ok(new
+        {
+            licensingEnabled = !freeExperienceEnabled,
+            freeExperienceEnabled
+        });
+    }
+
+    [HttpPut("access-settings")]
+    public async Task<IActionResult> UpdateAccessSettings([FromBody] UpdateAccessSettingsRequest request)
+    {
+        if (!IsAdmin()) return Unauthorized();
+
+        var freeExperienceEnabled = !request.LicensingEnabled;
+        await _accessSettings.SetFreeExperienceEnabledAsync(freeExperienceEnabled);
+
+        return Ok(new
+        {
+            licensingEnabled = request.LicensingEnabled,
+            freeExperienceEnabled
+        });
+    }
+
     [HttpPost("users/{userId}/reset-device")]
     public async Task<IActionResult> ResetDevice(Guid userId)
     {
@@ -169,4 +204,9 @@ public class UpdateSubRequest
 {
     public string CourseCode { get; set; } = "";
     public DateTime ExpiresAt { get; set; }
+}
+
+public class UpdateAccessSettingsRequest
+{
+    public bool LicensingEnabled { get; set; }
 }

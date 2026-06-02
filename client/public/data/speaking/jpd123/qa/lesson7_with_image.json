@@ -1,0 +1,1787 @@
+{
+  "courseCode": "JPD123",
+  "lessonNumber": 7,
+  "lessonTitle": "Bài 7 - Câu hỏi có tranh",
+  "questionMode": "IMAGE_BASED",
+  "dataPurpose": "oral_exam_practice_web",
+  "lessonOverview": {
+    "shortSummary": "Sau Bài 7 phần có tranh, sinh viên có thể miêu tả vị trí đồ vật, phương thức hành động và trạng thái đang làm.",
+    "studentCanDo": [
+      "Hỏi và trả lời về vị trí của địa điểm/đồ vật bằng まえ, うしろ, となり, ちかく.",
+      "Hỏi và trả lời về việc làm một hành động bằng phương tiện/dụng cụ gì bằng trợ từ で.",
+      "Hỏi và trả lời về việc di chuyển mang theo vật gì bằng もって行きます và もって来ます.",
+      "Hỏi và trả lời về hành động đang diễn ra tại thời điểm nói bằng thể ています."
+    ],
+    "mainSkills": [
+      "Nghe hiểu các câu hỏi về vị trí, phương thức thực hiện hành động và trạng thái đang diễn ra.",
+      "Trả lời trôi chảy, tự nhiên sử dụng cấu trúc ngữ pháp tương ứng.",
+      "Nhìn tranh và trích xuất đúng thông tin để trả lời câu hỏi vấn đáp."
+    ],
+    "mainGrammarFocus": [],
+    "examTipSummary": "Khi gặp câu hỏi về vị trí (どこにありますか), hãy định vị đúng các địa điểm trên tranh. Khi nghe hỏi về phương thức (なにで...か), hãy trả lời rõ dụng cụ bằng で. Khi nghe hỏi hành động đang diễn ra (していますか), chú ý chia động từ thể ています."
+  },
+  "grammarBank": [],
+  "pictureSets": [
+    {
+      "pictureId": "jpd123_l7_picture_01_koban_hanaya",
+      "pictureTitle": "Tranh 1 - こうばんとはなやのまわり",
+      "imageUrl": "/data/speaking/jpd123/qa/lesson7_tranh1.png",
+      "questions": [
+        {
+          "id": "jpd123_l7_img01_q01",
+          "order": 1,
+          "question": {
+            "ja": "こうばんは　はなやの　まえに　ありますか。",
+            "vi": "Đồn cảnh sát có ở trước tiệm hoa không?"
+          },
+          "sampleAnswers": [
+            {
+              "ja": "はい、はなやの　まえに　あります。",
+              "vi": "Vâng, ở trước tiệm hoa."
+            }
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "こうばん",
+              "reading": "こうばん",
+              "meaning": "đồn cảnh sát"
+            },
+            {
+              "word": "はなや",
+              "reading": "はなや",
+              "meaning": "tiệm hoa"
+            },
+            {
+              "word": "まえ",
+              "reading": "まえ",
+              "meaning": "phía trước"
+            },
+            {
+              "word": "あります",
+              "reading": "あります",
+              "meaning": "có, nằm ở - dùng cho vật/địa điểm"
+            }
+          ],
+          "explanation": "Trong tranh, こうばん nằm phía trước はなや, nên trả lời はい、はなやのまえにあります。",
+          "tips": [
+            "Nghe thấy まえにありますか thì nhìn xem địa điểm có ở phía trước không.",
+            "Địa điểm dùng あります, không dùng います."
+          ],
+          "commonMistakes": []
+        },
+        {
+          "id": "jpd123_l7_img01_q02",
+          "order": 2,
+          "question": {
+            "ja": "はなやは　こうばんの　うしろに　ありますか。",
+            "vi": "Tiệm hoa có ở phía sau đồn cảnh sát không?"
+          },
+          "sampleAnswers": [
+            {
+              "ja": "はい、こうばんの　うしろに　あります。",
+              "vi": "Vâng, ở phía sau đồn cảnh sát."
+            }
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "はなや",
+              "reading": "はなや",
+              "meaning": "tiệm hoa"
+            },
+            {
+              "word": "こうばん",
+              "reading": "こうばん",
+              "meaning": "đồn cảnh sát"
+            },
+            {
+              "word": "うしろ",
+              "reading": "うしろ",
+              "meaning": "phía sau"
+            },
+            {
+              "word": "はい",
+              "reading": "はい",
+              "meaning": "vâng"
+            }
+          ],
+          "explanation": "Vì はなや nằm sau こうばん nên câu trả lời là はい、こうばんのうしろにあります。",
+          "tips": [
+            "まえ là phía trước, うしろ là phía sau.",
+            "Câu hỏi Yes/No nên bắt đầu bằng はい hoặc いいえ."
+          ],
+          "commonMistakes": []
+        },
+        {
+          "id": "jpd123_l7_img01_q03",
+          "order": 3,
+          "question": {
+            "ja": "こうばんは　どこに　ありますか。",
+            "vi": "Đồn cảnh sát ở đâu?"
+          },
+          "sampleAnswers": [
+            {
+              "ja": "はなやの　まえに　あります。",
+              "vi": "Ở trước tiệm hoa."
+            }
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "どこ",
+              "reading": "どこ",
+              "meaning": "ở đâu"
+            },
+            {
+              "word": "こうばん",
+              "reading": "こうばん",
+              "meaning": "đồn cảnh sát"
+            },
+            {
+              "word": "はなや",
+              "reading": "はなや",
+              "meaning": "tiệm hoa"
+            },
+            {
+              "word": "まえ",
+              "reading": "まえ",
+              "meaning": "phía trước"
+            }
+          ],
+          "explanation": "Câu hỏi dùng どこにありますか nên cần trả lời vị trí. Trong tranh, こうばん ở trước はなや.",
+          "tips": [
+            "Không trả lời chỉ こうばんです.",
+            "Mẫu trả lời an toàn: Nのまえにあります。"
+          ],
+          "commonMistakes": []
+        },
+        {
+          "id": "jpd123_l7_img01_q04",
+          "order": 4,
+          "question": {
+            "ja": "こうばんの　となりに　なにが　ありますか。",
+            "vi": "Bên cạnh đồn cảnh sát có gì?"
+          },
+          "sampleAnswers": [
+            {
+              "ja": "ゆうびんきょくが　あります。",
+              "vi": "Có bưu điện."
+            }
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "となり",
+              "reading": "となり",
+              "meaning": "bên cạnh"
+            },
+            {
+              "word": "なに",
+              "reading": "なに",
+              "meaning": "cái gì"
+            },
+            {
+              "word": "ゆうびんきょく",
+              "reading": "ゆうびんきょく",
+              "meaning": "bưu điện"
+            },
+            {
+              "word": "あります",
+              "reading": "あります",
+              "meaning": "có"
+            }
+          ],
+          "explanation": "Bên cạnh こうばん là ゆうびんきょく, nên trả lời ゆうびんきょくがあります。",
+          "tips": [
+            "となりに何がありますか hỏi địa điểm/vật bên cạnh.",
+            "Câu trả lời cần có が あります."
+          ],
+          "commonMistakes": []
+        },
+        {
+          "id": "jpd123_l7_img01_q05",
+          "order": 5,
+          "question": {
+            "ja": "はなやの　となりに　なにが　ありますか。",
+            "vi": "Bên cạnh tiệm hoa có gì?"
+          },
+          "sampleAnswers": [
+            {
+              "ja": "カフェが　あります。",
+              "vi": "Có quán cà phê."
+            }
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "はなや",
+              "reading": "はなや",
+              "meaning": "tiệm hoa"
+            },
+            {
+              "word": "となり",
+              "reading": "となり",
+              "meaning": "bên cạnh"
+            },
+            {
+              "word": "カフェ",
+              "reading": "カフェ",
+              "meaning": "quán cà phê"
+            },
+            {
+              "word": "あります",
+              "reading": "あります",
+              "meaning": "có"
+            }
+          ],
+          "explanation": "Trong tranh, カフェ nằm bên cạnh はなや.",
+          "tips": [
+            "Khi hỏi なにが, hãy trả lời bằng tên địa điểm + が あります.",
+            "Không cần lặp lại はなやのとなりに nếu muốn trả lời ngắn."
+          ],
+          "commonMistakes": []
+        },
+        {
+          "id": "jpd123_l7_img01_q06",
+          "order": 6,
+          "question": {
+            "ja": "ポストは　どこに　ありますか。",
+            "vi": "Thùng thư ở đâu?"
+          },
+          "sampleAnswers": [
+            {
+              "ja": "ゆうびんきょくの　まえに　あります。",
+              "vi": "Ở trước bưu điện."
+            }
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "ポスト",
+              "reading": "ポスト",
+              "meaning": "thùng thư"
+            },
+            {
+              "word": "ゆうびんきょく",
+              "reading": "ゆうびんきょく",
+              "meaning": "bưu điện"
+            },
+            {
+              "word": "まえ",
+              "reading": "まえ",
+              "meaning": "phía trước"
+            },
+            {
+              "word": "どこ",
+              "reading": "どこ",
+              "meaning": "ở đâu"
+            }
+          ],
+          "explanation": "ポスト nằm ở trước ゆうびんきょく, nên dùng ゆうびんきょくのまえにあります。",
+          "tips": [
+            "ポスト là đồ vật nên dùng あります.",
+            "Vị trí: Nのまえにあります."
+          ],
+          "commonMistakes": []
+        }
+      ]
+    },
+    {
+      "pictureId": "jpd123_l7_picture_02_restaurant_bookstore",
+      "pictureTitle": "Tranh 2 - レストランとほんや",
+      "imageUrl": "/data/speaking/jpd123/qa/lesson7_tranh2.png",
+      "questions": [
+        {
+          "id": "jpd123_l7_img02_q01",
+          "order": 1,
+          "question": {
+            "ja": "レストランは　ほんやの　まえに　ありますか。",
+            "vi": "Nhà hàng có ở trước hiệu sách không?"
+          },
+          "sampleAnswers": [
+            {
+              "ja": "はい、ほんやの　まえに　あります。",
+              "vi": "Vâng, ở trước hiệu sách."
+            }
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "レストラン",
+              "reading": "レストラン",
+              "meaning": "nhà hàng"
+            },
+            {
+              "word": "ほんや",
+              "reading": "ほんや",
+              "meaning": "hiệu sách"
+            },
+            {
+              "word": "まえ",
+              "reading": "まえ",
+              "meaning": "phía trước"
+            },
+            {
+              "word": "あります",
+              "reading": "あります",
+              "meaning": "có, nằm ở"
+            }
+          ],
+          "explanation": "Trong tranh, レストラン nằm trước ほんや nên trả lời はい.",
+          "tips": [
+            "Câu hỏi có ありますか thì trả lời はい、あります hoặc いいえ、ありません.",
+            "Nhớ dùng の giữa hai danh từ: ほんやのまえ."
+          ],
+          "commonMistakes": []
+        },
+        {
+          "id": "jpd123_l7_img02_q02",
+          "order": 2,
+          "question": {
+            "ja": "ほんやは　どこに　ありますか。",
+            "vi": "Hiệu sách ở đâu?"
+          },
+          "sampleAnswers": [
+            {
+              "ja": "レストランの　うしろに　あります。",
+              "vi": "Ở phía sau nhà hàng."
+            }
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "ほんや",
+              "reading": "ほんや",
+              "meaning": "hiệu sách"
+            },
+            {
+              "word": "どこ",
+              "reading": "どこ",
+              "meaning": "ở đâu"
+            },
+            {
+              "word": "レストラン",
+              "reading": "レストラン",
+              "meaning": "nhà hàng"
+            },
+            {
+              "word": "うしろ",
+              "reading": "うしろ",
+              "meaning": "phía sau"
+            }
+          ],
+          "explanation": "ほんや nằm phía sau レストラン.",
+          "tips": [
+            "どこにありますか yêu cầu trả lời vị trí.",
+            "Không trả lời ほんやです."
+          ],
+          "commonMistakes": []
+        },
+        {
+          "id": "jpd123_l7_img02_q03",
+          "order": 3,
+          "question": {
+            "ja": "ほんやの　うしろに　なにが　ありますか。",
+            "vi": "Phía sau hiệu sách có gì?"
+          },
+          "sampleAnswers": [
+            {
+              "ja": "こうえんが　あります。",
+              "vi": "Có công viên."
+            }
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "うしろ",
+              "reading": "うしろ",
+              "meaning": "phía sau"
+            },
+            {
+              "word": "なに",
+              "reading": "なに",
+              "meaning": "cái gì"
+            },
+            {
+              "word": "こうえん",
+              "reading": "こうえん",
+              "meaning": "công viên"
+            },
+            {
+              "word": "あります",
+              "reading": "あります",
+              "meaning": "có"
+            }
+          ],
+          "explanation": "Sau ほんや có こうえん.",
+          "tips": [
+            "Khi hỏi なにが, trả lời Nが あります.",
+            "こうえん là địa điểm nên dùng あります."
+          ],
+          "commonMistakes": []
+        },
+        {
+          "id": "jpd123_l7_img02_q04",
+          "order": 4,
+          "question": {
+            "ja": "レストランは　どこに　ありますか。",
+            "vi": "Nhà hàng ở đâu?"
+          },
+          "sampleAnswers": [
+            {
+              "ja": "ほんやの　まえに　あります。",
+              "vi": "Ở trước hiệu sách."
+            }
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "レストラン",
+              "reading": "レストラン",
+              "meaning": "nhà hàng"
+            },
+            {
+              "word": "ほんや",
+              "reading": "ほんや",
+              "meaning": "hiệu sách"
+            },
+            {
+              "word": "まえ",
+              "reading": "まえ",
+              "meaning": "phía trước"
+            },
+            {
+              "word": "どこ",
+              "reading": "どこ",
+              "meaning": "ở đâu"
+            }
+          ],
+          "explanation": "Vị trí của レストラン là trước ほんや.",
+          "tips": [
+            "Có thể trả lời ngắn: ほんやのまえです, nhưng mẫu chuẩn bài 7 là ほんやのまえにあります.",
+            "Địa điểm dùng にあります."
+          ],
+          "commonMistakes": []
+        },
+        {
+          "id": "jpd123_l7_img02_q05",
+          "order": 5,
+          "question": {
+            "ja": "レストランの　まえに　なにが　ありますか。",
+            "vi": "Trước nhà hàng có gì?"
+          },
+          "sampleAnswers": [
+            {
+              "ja": "バスていが　あります。",
+              "vi": "Có trạm xe buýt."
+            }
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "レストラン",
+              "reading": "レストラン",
+              "meaning": "nhà hàng"
+            },
+            {
+              "word": "バスてい",
+              "reading": "バスてい",
+              "meaning": "trạm xe buýt"
+            },
+            {
+              "word": "まえ",
+              "reading": "まえ",
+              "meaning": "phía trước"
+            },
+            {
+              "word": "あります",
+              "reading": "あります",
+              "meaning": "có"
+            }
+          ],
+          "explanation": "Trước レストラン có バスてい.",
+          "tips": [
+            "バスてい là địa điểm/vật nên dùng あります.",
+            "Không dùng います cho バスてい."
+          ],
+          "commonMistakes": []
+        },
+        {
+          "id": "jpd123_l7_img02_q06",
+          "order": 6,
+          "question": {
+            "ja": "レストランの　となりに　なにが　ありますか。",
+            "vi": "Bên cạnh nhà hàng có gì?"
+          },
+          "sampleAnswers": [
+            {
+              "ja": "コンビニが　あります。",
+              "vi": "Có cửa hàng tiện lợi."
+            }
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "となり",
+              "reading": "となり",
+              "meaning": "bên cạnh"
+            },
+            {
+              "word": "コンビニ",
+              "reading": "コンビニ",
+              "meaning": "cửa hàng tiện lợi"
+            },
+            {
+              "word": "レストラン",
+              "reading": "レストラン",
+              "meaning": "nhà hàng"
+            },
+            {
+              "word": "あります",
+              "reading": "あります",
+              "meaning": "có"
+            }
+          ],
+          "explanation": "Bên cạnh nhà hàng là コンビニ.",
+          "tips": [
+            "となり khác với ちかく: となり là sát bên cạnh, ちかく là gần.",
+            "Trả lời: コンビニがあります."
+          ],
+          "commonMistakes": []
+        }
+      ]
+    },
+    {
+      "pictureId": "jpd123_l7_picture_03_super_busstop_post",
+      "pictureTitle": "Tranh 3 - スーパー、バスてい、ポスト",
+      "imageUrl": "/data/speaking/jpd123/qa/lesson7_tranh3.png",
+      "questions": [
+        {
+          "id": "jpd123_l7_img03_q01",
+          "order": 1,
+          "question": {
+            "ja": "バスていは　スーパーの　うしろに　ありますか。",
+            "vi": "Trạm xe buýt có ở phía sau siêu thị không?"
+          },
+          "sampleAnswers": [
+            {
+              "ja": "はい、スーパーの　うしろに　あります。",
+              "vi": "Vâng, ở phía sau siêu thị."
+            }
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "バスてい",
+              "reading": "バスてい",
+              "meaning": "trạm xe buýt"
+            },
+            {
+              "word": "スーパー",
+              "reading": "スーパー",
+              "meaning": "siêu thị"
+            },
+            {
+              "word": "うしろ",
+              "reading": "うしろ",
+              "meaning": "phía sau"
+            },
+            {
+              "word": "あります",
+              "reading": "あります",
+              "meaning": "có, nằm ở"
+            }
+          ],
+          "explanation": "Trong tranh, バスてい nằm phía sau スーパー, nên trả lời はい.",
+          "tips": [
+            "バスてい là địa điểm nên dùng あります.",
+            "うしろにあります = ở phía sau."
+          ],
+          "commonMistakes": []
+        },
+        {
+          "id": "jpd123_l7_img03_q02",
+          "order": 2,
+          "question": {
+            "ja": "スーパーの　まえに　ポストが　ありますか。",
+            "vi": "Trước siêu thị có thùng thư không?"
+          },
+          "sampleAnswers": [
+            {
+              "ja": "はい、ポストが　あります。",
+              "vi": "Vâng, có thùng thư."
+            }
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "スーパー",
+              "reading": "スーパー",
+              "meaning": "siêu thị"
+            },
+            {
+              "word": "まえ",
+              "reading": "まえ",
+              "meaning": "phía trước"
+            },
+            {
+              "word": "ポスト",
+              "reading": "ポスト",
+              "meaning": "thùng thư"
+            },
+            {
+              "word": "ありますか",
+              "reading": "ありますか",
+              "meaning": "có không?"
+            }
+          ],
+          "explanation": "Phía trước siêu thị có ポスト.",
+          "tips": [
+            "Câu hỏi có が ありますか nên trả lời はい、Nがあります.",
+            "Không trả lời はい、ポストです."
+          ],
+          "commonMistakes": []
+        },
+        {
+          "id": "jpd123_l7_img03_q03",
+          "order": 3,
+          "question": {
+            "ja": "バスていは　どこに　ありますか。",
+            "vi": "Trạm xe buýt ở đâu?"
+          },
+          "sampleAnswers": [
+            {
+              "ja": "スーパーの　うしろに　あります。",
+              "vi": "Ở phía sau siêu thị."
+            }
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "バスてい",
+              "reading": "バスてい",
+              "meaning": "trạm xe buýt"
+            },
+            {
+              "word": "どこ",
+              "reading": "どこ",
+              "meaning": "ở đâu"
+            },
+            {
+              "word": "スーパー",
+              "reading": "スーパー",
+              "meaning": "siêu thị"
+            },
+            {
+              "word": "うしろ",
+              "reading": "うしろ",
+              "meaning": "phía sau"
+            }
+          ],
+          "explanation": "Câu này là WH-question, cần trả lời vị trí cụ thể của バスてい.",
+          "tips": [
+            "どこにありますか không trả lời はい／いいえ.",
+            "Trả lời bằng vị trí + にあります."
+          ],
+          "commonMistakes": []
+        },
+        {
+          "id": "jpd123_l7_img03_q04",
+          "order": 4,
+          "question": {
+            "ja": "バスていの　うしろに　なにが　ありますか。",
+            "vi": "Phía sau trạm xe buýt có gì?"
+          },
+          "sampleAnswers": [
+            {
+              "ja": "きが　あります。",
+              "vi": "Có cây."
+            }
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "バスてい",
+              "reading": "バスてい",
+              "meaning": "trạm xe buýt"
+            },
+            {
+              "word": "うしろ",
+              "reading": "うしろ",
+              "meaning": "phía sau"
+            },
+            {
+              "word": "き",
+              "reading": "き",
+              "meaning": "cây"
+            },
+            {
+              "word": "あります",
+              "reading": "あります",
+              "meaning": "có"
+            }
+          ],
+          "explanation": "Trong tranh có cây phía sau trạm xe buýt.",
+          "tips": [
+            "木 là vật/cây nên dùng あります.",
+            "Nếu hỏi なにが, trả lời bằng Nが."
+          ],
+          "commonMistakes": []
+        },
+        {
+          "id": "jpd123_l7_img03_q05",
+          "order": 5,
+          "question": {
+            "ja": "スーパーの　となりに　なにが　ありますか。",
+            "vi": "Bên cạnh siêu thị có gì?"
+          },
+          "sampleAnswers": [
+            {
+              "ja": "じどうはんばいきが　あります。",
+              "vi": "Có máy bán hàng tự động."
+            }
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "となり",
+              "reading": "となり",
+              "meaning": "bên cạnh"
+            },
+            {
+              "word": "じどうはんばいき",
+              "reading": "じどうはんばいき",
+              "meaning": "máy bán hàng tự động"
+            },
+            {
+              "word": "スーパー",
+              "reading": "スーパー",
+              "meaning": "siêu thị"
+            },
+            {
+              "word": "あります",
+              "reading": "あります",
+              "meaning": "có"
+            }
+          ],
+          "explanation": "Máy bán hàng tự động nằm bên cạnh siêu thị.",
+          "tips": [
+            "じどうはんばいき là vật nên dùng あります.",
+            "Nのとなりに = bên cạnh N."
+          ],
+          "commonMistakes": []
+        },
+        {
+          "id": "jpd123_l7_img03_q06",
+          "order": 6,
+          "question": {
+            "ja": "バスていの　ちかくに　だれが　いますか。",
+            "vi": "Gần trạm xe buýt có ai?"
+          },
+          "sampleAnswers": [
+            {
+              "ja": "おとこのひとが　います。",
+              "vi": "Có một người đàn ông."
+            }
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "ちかく",
+              "reading": "ちかく",
+              "meaning": "gần"
+            },
+            {
+              "word": "だれ",
+              "reading": "だれ",
+              "meaning": "ai"
+            },
+            {
+              "word": "おとこのひと",
+              "reading": "おとこのひと",
+              "meaning": "người đàn ông"
+            },
+            {
+              "word": "います",
+              "reading": "います",
+              "meaning": "có, ở - dùng cho người/động vật"
+            }
+          ],
+          "explanation": "Vì hỏi người nên phải dùng います, không dùng あります.",
+          "tips": [
+            "Người/động vật dùng います.",
+            "Đồ vật/địa điểm dùng あります."
+          ],
+          "commonMistakes": []
+        }
+      ]
+    },
+    {
+      "pictureId": "jpd123_l7_picture_04_hospital_man_dog",
+      "pictureTitle": "Tranh 4 - びょういんのまえ",
+      "imageUrl": "/data/speaking/jpd123/qa/lesson7_tranh4.png",
+      "questions": [
+        {
+          "id": "jpd123_l7_img04_q01",
+          "order": 1,
+          "question": {
+            "ja": "おとこのひとは　どこに　いますか。",
+            "vi": "Người đàn ông ở đâu?"
+          },
+          "sampleAnswers": [
+            {
+              "ja": "びょういんの　まえに　います。",
+              "vi": "Ở trước bệnh viện."
+            }
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "おとこのひと",
+              "reading": "おとこのひと",
+              "meaning": "người đàn ông"
+            },
+            {
+              "word": "どこ",
+              "reading": "どこ",
+              "meaning": "ở đâu"
+            },
+            {
+              "word": "びょういん",
+              "reading": "びょういん",
+              "meaning": "bệnh viện"
+            },
+            {
+              "word": "います",
+              "reading": "います",
+              "meaning": "ở, có mặt - dùng cho người/động vật"
+            }
+          ],
+          "explanation": "おとこのひと là người nên dùng います. Người đàn ông đứng trước bệnh viện.",
+          "tips": [
+            "Người dùng います.",
+            "Địa điểm dùng あります."
+          ],
+          "commonMistakes": []
+        },
+        {
+          "id": "jpd123_l7_img04_q02",
+          "order": 2,
+          "question": {
+            "ja": "びょういんの　まえに　だれが　いますか。",
+            "vi": "Trước bệnh viện có ai?"
+          },
+          "sampleAnswers": [
+            {
+              "ja": "おとこのひとが　います。",
+              "vi": "Có một người đàn ông."
+            }
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "だれ",
+              "reading": "だれ",
+              "meaning": "ai"
+            },
+            {
+              "word": "びょういん",
+              "reading": "びょういん",
+              "meaning": "bệnh viện"
+            },
+            {
+              "word": "まえ",
+              "reading": "まえ",
+              "meaning": "phía trước"
+            },
+            {
+              "word": "おとこのひと",
+              "reading": "おとこのひと",
+              "meaning": "người đàn ông"
+            }
+          ],
+          "explanation": "Câu hỏi hỏi だれ nên câu trả lời cần là người + がいます.",
+          "tips": [
+            "だれがいますか = có ai?",
+            "Không trả lời bằng đồ vật."
+          ],
+          "commonMistakes": []
+        },
+        {
+          "id": "jpd123_l7_img04_q03",
+          "order": 3,
+          "question": {
+            "ja": "びょういんは　どこに　ありますか。",
+            "vi": "Bệnh viện ở đâu?"
+          },
+          "sampleAnswers": [
+            {
+              "ja": "こうえんの　となりに　あります。",
+              "vi": "Ở bên cạnh công viên."
+            }
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "びょういん",
+              "reading": "びょういん",
+              "meaning": "bệnh viện"
+            },
+            {
+              "word": "こうえん",
+              "reading": "こうえん",
+              "meaning": "công viên"
+            },
+            {
+              "word": "となり",
+              "reading": "となり",
+              "meaning": "bên cạnh"
+            },
+            {
+              "word": "あります",
+              "reading": "あります",
+              "meaning": "nằm ở"
+            }
+          ],
+          "explanation": "びょういん là địa điểm nên dùng あります. Bệnh viện nằm cạnh công viên.",
+          "tips": [
+            "Câu hỏi về địa điểm: どこにありますか.",
+            "Trả lời: Nのとなりにあります."
+          ],
+          "commonMistakes": []
+        },
+        {
+          "id": "jpd123_l7_img04_q04",
+          "order": 4,
+          "question": {
+            "ja": "おとこのひとの　うしろに　なにが　ありますか。",
+            "vi": "Phía sau người đàn ông có gì?"
+          },
+          "sampleAnswers": [
+            {
+              "ja": "びょういんが　あります。",
+              "vi": "Có bệnh viện."
+            }
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "おとこのひと",
+              "reading": "おとこのひと",
+              "meaning": "người đàn ông"
+            },
+            {
+              "word": "うしろ",
+              "reading": "うしろ",
+              "meaning": "phía sau"
+            },
+            {
+              "word": "なに",
+              "reading": "なに",
+              "meaning": "cái gì"
+            },
+            {
+              "word": "びょういん",
+              "reading": "びょういん",
+              "meaning": "bệnh viện"
+            }
+          ],
+          "explanation": "Sau người đàn ông là bệnh viện.",
+          "tips": [
+            "Dù mốc là người, vật phía sau là びょういん nên dùng あります.",
+            "Nが あります là mẫu trả lời cơ bản."
+          ],
+          "commonMistakes": []
+        },
+        {
+          "id": "jpd123_l7_img04_q05",
+          "order": 5,
+          "question": {
+            "ja": "おとこのひとの　となりに　いぬが　いますか。",
+            "vi": "Bên cạnh người đàn ông có con chó không?"
+          },
+          "sampleAnswers": [
+            {
+              "ja": "はい、いぬが　います。",
+              "vi": "Vâng, có con chó."
+            }
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "となり",
+              "reading": "となり",
+              "meaning": "bên cạnh"
+            },
+            {
+              "word": "いぬ",
+              "reading": "いぬ",
+              "meaning": "con chó"
+            },
+            {
+              "word": "います",
+              "reading": "います",
+              "meaning": "có - dùng cho người/động vật"
+            },
+            {
+              "word": "はい",
+              "reading": "はい",
+              "meaning": "vâng"
+            }
+          ],
+          "explanation": "いぬ là động vật nên dùng います.",
+          "tips": [
+            "Động vật dùng います.",
+            "Không nói いぬがあります."
+          ],
+          "commonMistakes": []
+        },
+        {
+          "id": "jpd123_l7_img04_q06",
+          "order": 6,
+          "question": {
+            "ja": "きゅうきゅうしゃは　どこに　ありますか。",
+            "vi": "Xe cứu thương ở đâu?"
+          },
+          "sampleAnswers": [
+            {
+              "ja": "びょういんの　まえに　あります。",
+              "vi": "Ở trước bệnh viện."
+            }
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "きゅうきゅうしゃ",
+              "reading": "きゅうきゅうしゃ",
+              "meaning": "xe cứu thương"
+            },
+            {
+              "word": "びょういん",
+              "reading": "びょういん",
+              "meaning": "bệnh viện"
+            },
+            {
+              "word": "まえ",
+              "reading": "まえ",
+              "meaning": "phía trước"
+            },
+            {
+              "word": "あります",
+              "reading": "あります",
+              "meaning": "có, nằm ở"
+            }
+          ],
+          "explanation": "Xe cứu thương là vật/xe nên dùng あります.",
+          "tips": [
+            "Xe không dùng います.",
+            "Dùng あります cho vật không sống."
+          ],
+          "commonMistakes": []
+        }
+      ]
+    },
+    {
+      "pictureId": "jpd123_l7_picture_05_party_preparation",
+      "pictureTitle": "Tranh 5 - パーティーのじゅんび",
+      "imageUrl": "/data/speaking/jpd123/qa/lesson7_tranh5.png",
+      "questions": [
+        {
+          "id": "jpd123_l7_img05_q01",
+          "order": 1,
+          "question": {
+            "ja": "なにで　パンを　きりますか。",
+            "vi": "Cắt bánh mì bằng gì?"
+          },
+          "sampleAnswers": [
+            {
+              "ja": "ナイフで　きります。",
+              "vi": "Cắt bằng dao."
+            },
+            {
+              "ja": "ナイフで　パンを　きります。",
+              "vi": "Cắt bánh mì bằng dao."
+            }
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "なにで",
+              "reading": "なにで",
+              "meaning": "bằng cái gì"
+            },
+            {
+              "word": "パン",
+              "reading": "パン",
+              "meaning": "bánh mì"
+            },
+            {
+              "word": "ナイフ",
+              "reading": "ナイフ",
+              "meaning": "dao"
+            },
+            {
+              "word": "きります",
+              "reading": "きります",
+              "meaning": "cắt"
+            }
+          ],
+          "explanation": "Câu hỏi なにで hỏi dụng cụ. Trong tranh có ナイフ cạnh bánh mì, nên trả lời ナイフできります。",
+          "tips": [
+            "Dụng cụ + で.",
+            "Không nói ナイフをきります vì nghĩa là cắt cái dao."
+          ],
+          "commonMistakes": []
+        },
+        {
+          "id": "jpd123_l7_img05_q02",
+          "order": 2,
+          "question": {
+            "ja": "ナイフで　なにを　きりますか。",
+            "vi": "Cắt cái gì bằng dao?"
+          },
+          "sampleAnswers": [
+            {
+              "ja": "パンを　きります。",
+              "vi": "Cắt bánh mì."
+            }
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "ナイフ",
+              "reading": "ナイフ",
+              "meaning": "dao"
+            },
+            {
+              "word": "なに",
+              "reading": "なに",
+              "meaning": "cái gì"
+            },
+            {
+              "word": "パン",
+              "reading": "パン",
+              "meaning": "bánh mì"
+            },
+            {
+              "word": "きります",
+              "reading": "きります",
+              "meaning": "cắt"
+            }
+          ],
+          "explanation": "Câu hỏi hỏi vật bị cắt. Vật đó là パン, nên trả lời パンをきります。",
+          "tips": [
+            "なにをきりますか = cắt cái gì?",
+            "Tân ngữ dùng を."
+          ],
+          "commonMistakes": []
+        },
+        {
+          "id": "jpd123_l7_img05_q03",
+          "order": 3,
+          "question": {
+            "ja": "はさみで　パンを　きりますか。",
+            "vi": "Cắt bánh mì bằng kéo phải không?"
+          },
+          "sampleAnswers": [
+            {
+              "ja": "いいえ、はさみで　きりません。ナイフで　きります。",
+              "vi": "Không, không cắt bằng kéo. Cắt bằng dao."
+            }
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "はさみ",
+              "reading": "はさみ",
+              "meaning": "kéo"
+            },
+            {
+              "word": "パン",
+              "reading": "パン",
+              "meaning": "bánh mì"
+            },
+            {
+              "word": "ナイフ",
+              "reading": "ナイフ",
+              "meaning": "dao"
+            },
+            {
+              "word": "きりません",
+              "reading": "きりません",
+              "meaning": "không cắt"
+            }
+          ],
+          "explanation": "Trong tranh, dụng cụ đúng để cắt bánh mì là ナイフ, không phải はさみ.",
+          "tips": [
+            "Khi thông tin sai, trả lời いいえ rồi sửa lại.",
+            "Mẫu sửa: ナイフできります."
+          ],
+          "commonMistakes": []
+        },
+        {
+          "id": "jpd123_l7_img05_q04",
+          "order": 4,
+          "question": {
+            "ja": "なにで　カレーを　たべますか。",
+            "vi": "Ăn cà ri bằng gì?"
+          },
+          "sampleAnswers": [
+            {
+              "ja": "スプーンで　たべます。",
+              "vi": "Ăn bằng thìa."
+            }
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "カレー",
+              "reading": "カレー",
+              "meaning": "cà ri"
+            },
+            {
+              "word": "スプーン",
+              "reading": "スプーン",
+              "meaning": "thìa"
+            },
+            {
+              "word": "たべます",
+              "reading": "たべます",
+              "meaning": "ăn"
+            },
+            {
+              "word": "なにで",
+              "reading": "なにで",
+              "meaning": "bằng cái gì"
+            }
+          ],
+          "explanation": "Cà ri thường ăn bằng thìa, nên đáp án là スプーンで食べます。",
+          "tips": [
+            "スプーンで = bằng thìa.",
+            "Không dùng を sau スプーン trong mẫu này."
+          ],
+          "commonMistakes": []
+        },
+        {
+          "id": "jpd123_l7_img05_q05",
+          "order": 5,
+          "question": {
+            "ja": "れいぞうこから　なにを　だしてください。",
+            "vi": "Hãy lấy cái gì từ tủ lạnh ra?"
+          },
+          "sampleAnswers": [
+            {
+              "ja": "おちゃを　だしてください。",
+              "vi": "Hãy lấy trà ra."
+            }
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "れいぞうこ",
+              "reading": "れいぞうこ",
+              "meaning": "tủ lạnh"
+            },
+            {
+              "word": "おちゃ",
+              "reading": "おちゃ",
+              "meaning": "trà"
+            },
+            {
+              "word": "だします",
+              "reading": "だします",
+              "meaning": "lấy ra"
+            },
+            {
+              "word": "だしてください",
+              "reading": "だしてください",
+              "meaning": "hãy lấy ra"
+            }
+          ],
+          "explanation": "Trong tủ lạnh có おちゃ, nên yêu cầu là おちゃをだしてください。",
+          "tips": [
+            "Nから = từ N.",
+            "だします → だしてください."
+          ],
+          "commonMistakes": []
+        },
+        {
+          "id": "jpd123_l7_img05_q06",
+          "order": 6,
+          "question": {
+            "ja": "おさらは　どれですか。",
+            "vi": "Cái đĩa là cái nào?"
+          },
+          "sampleAnswers": [
+            {
+              "ja": "その　おさらです。",
+              "vi": "Là cái đĩa đó."
+            },
+            {
+              "ja": "テーブルの　うえの　おさらです。",
+              "vi": "Là cái đĩa ở trên bàn."
+            }
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "おさら",
+              "reading": "おさら",
+              "meaning": "cái đĩa"
+            },
+            {
+              "word": "どれ",
+              "reading": "どれ",
+              "meaning": "cái nào"
+            },
+            {
+              "word": "その",
+              "reading": "その",
+              "meaning": "cái đó"
+            },
+            {
+              "word": "テーブル",
+              "reading": "テーブル",
+              "meaning": "cái bàn"
+            }
+          ],
+          "explanation": "Khi người nghe chưa biết cái đĩa nào, có thể hỏi おさらはどれですか.",
+          "tips": [
+            "どれ dùng để hỏi trong nhiều lựa chọn.",
+            "そのおさらです = cái đĩa đó."
+          ],
+          "commonMistakes": []
+        },
+        {
+          "id": "jpd123_l7_img05_q07",
+          "order": 7,
+          "question": {
+            "ja": "サラダを　つくってください。",
+            "vi": "Hãy làm salad."
+          },
+          "sampleAnswers": [
+            {
+              "ja": "はい、わかりました。",
+              "vi": "Vâng, tôi hiểu rồi."
+            },
+            {
+              "ja": "はい、いいですよ。",
+              "vi": "Vâng, được chứ."
+            }
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "サラダ",
+              "reading": "サラダ",
+              "meaning": "salad"
+            },
+            {
+              "word": "つくります",
+              "reading": "つくります",
+              "meaning": "làm, nấu, tạo ra"
+            },
+            {
+              "word": "つくってください",
+              "reading": "つくってください",
+              "meaning": "hãy làm"
+            },
+            {
+              "word": "わかりました",
+              "reading": "わかりました",
+              "meaning": "tôi hiểu rồi"
+            }
+          ],
+          "explanation": "つくります chuyển sang thể て là つくって, thêm ください thành つくってください.",
+          "tips": [
+            "Khi nhận lời nhờ, trả lời はい、わかりました.",
+            "Không nói つくりますください."
+          ],
+          "commonMistakes": []
+        },
+        {
+          "id": "jpd123_l7_img05_q08",
+          "order": 8,
+          "question": {
+            "ja": "この　テーブルを　もって　いってください。",
+            "vi": "Hãy mang cái bàn này đi."
+          },
+          "sampleAnswers": [
+            {
+              "ja": "はい、わかりました。",
+              "vi": "Vâng, tôi hiểu rồi."
+            },
+            {
+              "ja": "すみません、ちょっと　むりです。",
+              "vi": "Xin lỗi, hơi khó ạ."
+            }
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "この",
+              "reading": "この",
+              "meaning": "này"
+            },
+            {
+              "word": "テーブル",
+              "reading": "テーブル",
+              "meaning": "cái bàn"
+            },
+            {
+              "word": "もっていきます",
+              "reading": "もっていきます",
+              "meaning": "mang đi"
+            },
+            {
+              "word": "むり",
+              "reading": "むり",
+              "meaning": "không thể, quá sức"
+            }
+          ],
+          "explanation": "Câu này là yêu cầu mang bàn đi. Nếu đồng ý, trả lời はい、わかりました。",
+          "tips": [
+            "もって行ってください = hãy mang đi.",
+            "もって来てください = hãy mang đến, khác nghĩa."
+          ],
+          "commonMistakes": []
+        }
+      ]
+    },
+    {
+      "pictureId": "jpd123_l7_picture_06_party_actions",
+      "pictureTitle": "Tranh 6 - パーティーでしていること",
+      "imageUrl": "/data/speaking/jpd123/qa/lesson7_tranh6.png",
+      "questions": [
+        {
+          "id": "jpd123_l7_img06_q01",
+          "order": 1,
+          "question": {
+            "ja": "だれが　うたを　うたっていますか。",
+            "vi": "Ai đang hát?"
+          },
+          "sampleAnswers": [
+            {
+              "ja": "メアリーさんが　うたを　うたっています。",
+              "vi": "Mary đang hát."
+            }
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "だれ",
+              "reading": "だれ",
+              "meaning": "ai"
+            },
+            {
+              "word": "うた",
+              "reading": "うた",
+              "meaning": "bài hát"
+            },
+            {
+              "word": "うたいます",
+              "reading": "うたいます",
+              "meaning": "hát"
+            },
+            {
+              "word": "うたっています",
+              "reading": "うたっています",
+              "meaning": "đang hát"
+            }
+          ],
+          "explanation": "メアリーさん đang cầm micro và hát, nên trả lời メアリーさんがうたをうたっています。",
+          "tips": [
+            "だれが hỏi chủ thể hành động.",
+            "Khi trả lời だれが, dùng tên người + が."
+          ],
+          "commonMistakes": []
+        },
+        {
+          "id": "jpd123_l7_img06_q02",
+          "order": 2,
+          "question": {
+            "ja": "だれが　でんわを　かけていますか。",
+            "vi": "Ai đang gọi điện thoại?"
+          },
+          "sampleAnswers": [
+            {
+              "ja": "パクさんが　でんわを　かけています。",
+              "vi": "Park đang gọi điện thoại."
+            }
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "でんわ",
+              "reading": "でんわ",
+              "meaning": "điện thoại"
+            },
+            {
+              "word": "かけます",
+              "reading": "かけます",
+              "meaning": "gọi điện"
+            },
+            {
+              "word": "かけています",
+              "reading": "かけています",
+              "meaning": "đang gọi điện"
+            },
+            {
+              "word": "パクさん",
+              "reading": "パクさん",
+              "meaning": "bạn Park"
+            }
+          ],
+          "explanation": "パクさん đang cầm điện thoại và gọi điện.",
+          "tips": [
+            "でんわをかけています = đang gọi điện thoại.",
+            "Không chỉ trả lời パクさんです nếu muốn đầy đủ."
+          ],
+          "commonMistakes": []
+        },
+        {
+          "id": "jpd123_l7_img06_q03",
+          "order": 3,
+          "question": {
+            "ja": "だれが　ソフィアさんと　はなしていますか。",
+            "vi": "Ai đang nói chuyện với Sophia?"
+          },
+          "sampleAnswers": [
+            {
+              "ja": "ダニエルさんが　ソフィアさんと　はなしています。",
+              "vi": "Daniel đang nói chuyện với Sophia."
+            }
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "だれ",
+              "reading": "だれ",
+              "meaning": "ai"
+            },
+            {
+              "word": "ソフィアさん",
+              "reading": "ソフィアさん",
+              "meaning": "bạn Sophia"
+            },
+            {
+              "word": "はなします",
+              "reading": "はなします",
+              "meaning": "nói chuyện"
+            },
+            {
+              "word": "はなしています",
+              "reading": "はなしています",
+              "meaning": "đang nói chuyện"
+            }
+          ],
+          "explanation": "ダニエルさん đang nói chuyện với ソフィアさん.",
+          "tips": [
+            "Nと話しています = đang nói chuyện với N.",
+            "だれが hỏi người thực hiện hành động."
+          ],
+          "commonMistakes": []
+        },
+        {
+          "id": "jpd123_l7_img06_q04",
+          "order": 4,
+          "question": {
+            "ja": "うえなかさんは　たべていますか。",
+            "vi": "Uenaka đang ăn phải không?"
+          },
+          "sampleAnswers": [
+            {
+              "ja": "はい、たべています。",
+              "vi": "Vâng, đang ăn."
+            },
+            {
+              "ja": "はい、カレーを　たべています。",
+              "vi": "Vâng, đang ăn cà ri."
+            }
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "たべます",
+              "reading": "たべます",
+              "meaning": "ăn"
+            },
+            {
+              "word": "たべています",
+              "reading": "たべています",
+              "meaning": "đang ăn"
+            },
+            {
+              "word": "カレー",
+              "reading": "カレー",
+              "meaning": "cà ri"
+            },
+            {
+              "word": "はい",
+              "reading": "はい",
+              "meaning": "vâng"
+            }
+          ],
+          "explanation": "うえなかさん đang ăn cà ri, nên trả lời はい、食べています。",
+          "tips": [
+            "Vていますか hỏi hành động đang diễn ra.",
+            "Phủ định là Vていません."
+          ],
+          "commonMistakes": []
+        },
+        {
+          "id": "jpd123_l7_img06_q05",
+          "order": 5,
+          "question": {
+            "ja": "グプタさんは　なにを　していますか。",
+            "vi": "Gupta đang làm gì?"
+          },
+          "sampleAnswers": [
+            {
+              "ja": "りょうりを　しています。",
+              "vi": "Đang nấu ăn."
+            },
+            {
+              "ja": "カレーを　つくっています。",
+              "vi": "Đang làm cà ri."
+            }
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "なに",
+              "reading": "なに",
+              "meaning": "cái gì"
+            },
+            {
+              "word": "りょうり",
+              "reading": "りょうり",
+              "meaning": "nấu ăn / món ăn"
+            },
+            {
+              "word": "しています",
+              "reading": "しています",
+              "meaning": "đang làm"
+            },
+            {
+              "word": "つくっています",
+              "reading": "つくっています",
+              "meaning": "đang làm, đang nấu"
+            }
+          ],
+          "explanation": "グプタさん đang nấu ăn trong tranh.",
+          "tips": [
+            "なにをしていますか = đang làm gì?",
+            "Có thể trả lời ngắn: りょうりをしています."
+          ],
+          "commonMistakes": []
+        },
+        {
+          "id": "jpd123_l7_img06_q06",
+          "order": 6,
+          "question": {
+            "ja": "ジュースは　まだ　ありますか。",
+            "vi": "Nước trái cây vẫn còn không?"
+          },
+          "sampleAnswers": [
+            {
+              "ja": "はい、まだ　すこし　あります。",
+              "vi": "Vâng, vẫn còn một ít."
+            }
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "ジュース",
+              "reading": "ジュース",
+              "meaning": "nước trái cây"
+            },
+            {
+              "word": "まだ",
+              "reading": "まだ",
+              "meaning": "vẫn còn"
+            },
+            {
+              "word": "すこし",
+              "reading": "すこし",
+              "meaning": "một chút"
+            },
+            {
+              "word": "あります",
+              "reading": "あります",
+              "meaning": "có"
+            }
+          ],
+          "explanation": "Trong tranh, bình nước trái cây vẫn còn một ít.",
+          "tips": [
+            "まだ = vẫn còn.",
+            "すこし = một ít."
+          ],
+          "commonMistakes": []
+        },
+        {
+          "id": "jpd123_l7_img06_q07",
+          "order": 7,
+          "question": {
+            "ja": "りんごは　もう　ありませんか。",
+            "vi": "Táo đã hết rồi phải không?"
+          },
+          "sampleAnswers": [
+            {
+              "ja": "いいえ、まだ　あります。",
+              "vi": "Không, vẫn còn."
+            },
+            {
+              "ja": "いいえ、まだ　すこし　あります。",
+              "vi": "Không, vẫn còn một ít."
+            }
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "りんご",
+              "reading": "りんご",
+              "meaning": "quả táo"
+            },
+            {
+              "word": "もう",
+              "reading": "もう",
+              "meaning": "đã, rồi"
+            },
+            {
+              "word": "ありません",
+              "reading": "ありません",
+              "meaning": "không có"
+            },
+            {
+              "word": "まだ",
+              "reading": "まだ",
+              "meaning": "vẫn còn"
+            }
+          ],
+          "explanation": "Trong tranh vẫn còn táo, nên phải phủ định câu hỏi: いいえ、まだあります。",
+          "tips": [
+            "もうありません = đã hết.",
+            "まだあります = vẫn còn.",
+            "Cẩn thận với câu hỏi phủ định: もうありませんか."
+          ],
+          "commonMistakes": []
+        },
+        {
+          "id": "jpd123_l7_img06_q08",
+          "order": 8,
+          "question": {
+            "ja": "りょうりを　とりましょうか。",
+            "vi": "Tôi lấy món ăn giúp nhé?"
+          },
+          "sampleAnswers": [
+            {
+              "ja": "はい、おねがいします。",
+              "vi": "Vâng, nhờ bạn."
+            },
+            {
+              "ja": "いいえ、だいじょうぶです。",
+              "vi": "Không, tôi ổn rồi."
+            }
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "りょうり",
+              "reading": "りょうり",
+              "meaning": "món ăn / nấu ăn"
+            },
+            {
+              "word": "とります",
+              "reading": "とります",
+              "meaning": "lấy"
+            },
+            {
+              "word": "とりましょうか",
+              "reading": "とりましょうか",
+              "meaning": "tôi lấy giúp nhé?"
+            },
+            {
+              "word": "おねがいします",
+              "reading": "おねがいします",
+              "meaning": "nhờ bạn / làm ơn"
+            },
+            {
+              "word": "だいじょうぶです",
+              "reading": "だいじょうぶです",
+              "meaning": "không sao, ổn"
+            }
+          ],
+          "explanation": "Vましょうか là mẫu đề nghị giúp đỡ. Nếu cần giúp, trả lời はい、おねがいします。",
+          "tips": [
+            "Vましょうか khác với Vましょう.",
+            "Vましょうか là đề nghị giúp: Tôi làm nhé?",
+            "Từ chối nhẹ: いいえ、だいじょうぶです."
+          ],
+          "commonMistakes": []
+        }
+      ]
+    }
+  ]
+}

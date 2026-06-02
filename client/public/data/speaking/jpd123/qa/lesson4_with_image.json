@@ -1,0 +1,4820 @@
+{
+  "courseCode": "JPD123",
+  "lessonNumber": 4,
+  "lessonTitle": "Bài 4 - Câu hỏi có tranh",
+  "questionMode": "IMAGE_BASED",
+  "dataPurpose": "oral_exam_practice_web",
+  "lessonOverview": {
+    "shortSummary": "JPD123 Cando 4",
+    "studentCanDo": [
+      "Nói về vị trí quốc gia/thành phố",
+      "Nói về phương tiện và thời gian di chuyển",
+      "Miêu tả thành phố, trường học, phòng/nhà",
+      "Nói một nơi có gì bằng あります",
+      "Hỏi đáp về thời tiết và món ăn bằng どうですか"
+    ],
+    "mainGrammarFocus": [
+      "Aから Bまで どのくらいですか。",
+      "Aから Bまで Nで いきます。",
+      "Nは　どこですか。",
+      "Nは　Aいです。",
+      "Nは　Aくないです。",
+      "Nは　Aな Nです。",
+      "Nに　Nがあります。",
+      "Nに　なにがありますか。",
+      "Nは　どんな Nですか。",
+      "Nは　どうですか。"
+    ],
+    "examTipSummary": "Khi gặp câu hỏi có tranh JPD123 Bài 4, sinh viên cần chú ý đến la bàn chỉ hướng, các ký hiệu phương tiện và mốc thời gian, trạng thái phòng hoặc đặc điểm món ăn để trả lời đúng."
+  },
+  "grammarBank": [
+    {
+      "grammarId": "g_l4_001",
+      "pattern": "Aから Bまで どのくらいですか。",
+      "meaning": "Từ A đến B mất bao lâu?",
+      "example": {
+        "ja": "ハノイから　ホーチミンまで　どのくらいですか。",
+        "vi": "Từ Hà Nội đến Hồ Chí Minh mất bao lâu?"
+      }
+    },
+    {
+      "grammarId": "g_l4_002",
+      "pattern": "Aから Bまで Nで いきます。",
+      "meaning": "Đi từ A đến B bằng N.",
+      "example": {
+        "ja": "ダナンから　ホーチミンまで　ひこうきで　いきます。",
+        "vi": "Đi từ Đà Nẵng đến Hồ Chí Minh bằng máy bay."
+      }
+    },
+    {
+      "grammarId": "g_l4_003",
+      "pattern": "Nは　どこですか。",
+      "meaning": "N ở đâu?",
+      "example": {
+        "ja": "ホーチミンは　ベトナムの　どこですか。",
+        "vi": "Hồ Chí Minh ở đâu của Việt Nam?"
+      }
+    },
+    {
+      "grammarId": "g_l4_004",
+      "pattern": "Nは　Aいです。",
+      "meaning": "N thì có tính chất A.",
+      "example": {
+        "ja": "このまちは　おおきいです。",
+        "vi": "Thành phố này lớn."
+      }
+    },
+    {
+      "grammarId": "g_l4_005",
+      "pattern": "Nは　Aくないです。",
+      "meaning": "N không có tính chất A.",
+      "example": {
+        "ja": "このへやは　ひろくないです。",
+        "vi": "Căn phòng này không rộng."
+      }
+    },
+    {
+      "grammarId": "g_l4_006",
+      "pattern": "Nは　Aな Nです。",
+      "meaning": "N là một danh từ có tính chất A.",
+      "example": {
+        "ja": "ダナンは　きれいな　まちです。",
+        "vi": "Đà Nẵng là một thành phố đẹp."
+      }
+    },
+    {
+      "grammarId": "g_l4_007",
+      "pattern": "Nに　Nがあります。",
+      "meaning": "Ở N có N.",
+      "example": {
+        "ja": "へやに　テレビが　あります。",
+        "vi": "Trong phòng có tivi."
+      }
+    },
+    {
+      "grammarId": "g_l4_008",
+      "pattern": "Nに　なにがありますか。",
+      "meaning": "Ở N có gì?",
+      "example": {
+        "ja": "ダナンしに　なにが　ありますか。",
+        "vi": "Ở thành phố Đà Nẵng có gì?"
+      }
+    },
+    {
+      "grammarId": "g_l4_009",
+      "pattern": "Nは　どんな Nですか。",
+      "meaning": "N là một N như thế nào?",
+      "example": {
+        "ja": "FPTだいがくは　どんな　だいがくですか。",
+        "vi": "Đại học FPT là trường đại học như thế nào?"
+      }
+    },
+    {
+      "grammarId": "g_l4_010",
+      "pattern": "Nは　どうですか。",
+      "meaning": "N như thế nào?",
+      "example": {
+        "ja": "ベトナムの　りょうりは　どうですか。",
+        "vi": "Món ăn Việt Nam như thế nào?"
+      }
+    }
+  ],
+  "pictureSets": [
+    {
+      "pictureId": "jpd123_l4_picture_01_tokyo_seoul_daegu_route",
+      "pictureTitle": "Tranh 1 - Bản đồ Tokyo, Seoul, Daegu",
+      "imageUrl": "/data/speaking/jpd123/qa/lesson4_tranh1.png",
+      "questions": [
+        {
+          "id": "l4_img01_yn_01",
+          "order": 1,
+          "question": {
+            "ja": "とうきょうから　ソウルまで　ひこうきで　いきますか。",
+            "vi": "Từ Tokyo đến Seoul đi bằng máy bay phải không?"
+          },
+          "sampleAnswers": [
+            {
+              "ja": "はい、ひこうきで　いきます。",
+              "vi": "Vâng, đi bằng máy bay."
+            }
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "とうきょう",
+              "reading": "とうきょう",
+              "meaning": "Tokyo"
+            },
+            {
+              "word": "ソウル",
+              "reading": "ソウル",
+              "meaning": "Seoul"
+            },
+            {
+              "word": "デグ",
+              "reading": "デグ",
+              "meaning": "Daegu"
+            },
+            {
+              "word": "ひこうき",
+              "reading": "ひこうき",
+              "meaning": "Máy bay"
+            },
+            {
+              "word": "でんしゃ",
+              "reading": "でんしゃ",
+              "meaning": "Tàu điện"
+            },
+            {
+              "word": "どのくらい",
+              "reading": "どのくらい",
+              "meaning": "Bao lâu"
+            },
+            {
+              "word": "～じかんはん",
+              "reading": "～じかんはん",
+              "meaning": "~ tiếng rưỡi"
+            },
+            {
+              "word": "～くらい",
+              "reading": "～くらい",
+              "meaning": "Khoảng ~"
+            }
+          ],
+          "tips": [
+            "Nghe thấy 何で thì trả lời phương tiện + で行きます。",
+            "Nghe thấy どのくらい thì trả lời thời gian + くらいです。",
+            "Câu khó có そして yêu cầu trả lời 2 thông tin: phương tiện và thời gian."
+          ]
+        },
+        {
+          "id": "l4_img01_yn_02",
+          "order": 2,
+          "question": {
+            "ja": "ソウルから　デグまで　でんしゃで　にじかんはんくらいですか。",
+            "vi": "Từ Seoul đến Daegu đi tàu điện mất khoảng 2 tiếng rưỡi phải không?"
+          },
+          "sampleAnswers": [
+            {
+              "ja": "いいえ、さんじかんはんくらいです。",
+              "vi": "Không, khoảng 3 tiếng rưỡi."
+            }
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "とうきょう",
+              "reading": "とうきょう",
+              "meaning": "Tokyo"
+            },
+            {
+              "word": "ソウル",
+              "reading": "ソウル",
+              "meaning": "Seoul"
+            },
+            {
+              "word": "デグ",
+              "reading": "デグ",
+              "meaning": "Daegu"
+            },
+            {
+              "word": "ひこうき",
+              "reading": "ひこうき",
+              "meaning": "Máy bay"
+            },
+            {
+              "word": "でんしゃ",
+              "reading": "でんしゃ",
+              "meaning": "Tàu điện"
+            },
+            {
+              "word": "どのくらい",
+              "reading": "どのくらい",
+              "meaning": "Bao lâu"
+            },
+            {
+              "word": "～じかんはん",
+              "reading": "～じかんはん",
+              "meaning": "~ tiếng rưỡi"
+            },
+            {
+              "word": "～くらい",
+              "reading": "～くらい",
+              "meaning": "Khoảng ~"
+            }
+          ],
+          "tips": [
+            "Nghe thấy 何で thì trả lời phương tiện + で行きます。",
+            "Nghe thấy どのくらい thì trả lời thời gian + くらいです。",
+            "Câu khó có そして yêu cầu trả lời 2 thông tin: phương tiện và thời gian."
+          ]
+        },
+        {
+          "id": "l4_img01_wh_01",
+          "order": 3,
+          "question": {
+            "ja": "とうきょうから　ソウルまで　なんで　いきますか。",
+            "vi": "Từ Tokyo đến Seoul đi bằng gì?"
+          },
+          "sampleAnswers": [
+            {
+              "ja": "ひこうきで　いきます。",
+              "vi": "Đi bằng máy bay."
+            }
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "とうきょう",
+              "reading": "とうきょう",
+              "meaning": "Tokyo"
+            },
+            {
+              "word": "ソウル",
+              "reading": "ソウル",
+              "meaning": "Seoul"
+            },
+            {
+              "word": "デグ",
+              "reading": "デグ",
+              "meaning": "Daegu"
+            },
+            {
+              "word": "ひこうき",
+              "reading": "ひこうき",
+              "meaning": "Máy bay"
+            },
+            {
+              "word": "でんしゃ",
+              "reading": "でんしゃ",
+              "meaning": "Tàu điện"
+            },
+            {
+              "word": "どのくらい",
+              "reading": "どのくらい",
+              "meaning": "Bao lâu"
+            },
+            {
+              "word": "～じかんはん",
+              "reading": "～じかんはん",
+              "meaning": "~ tiếng rưỡi"
+            },
+            {
+              "word": "～くらい",
+              "reading": "～くらい",
+              "meaning": "Khoảng ~"
+            }
+          ],
+          "tips": [
+            "Nghe thấy 何で thì trả lời phương tiện + で行きます。",
+            "Nghe thấy どのくらい thì trả lời thời gian + くらいです。",
+            "Câu khó có そして yêu cầu trả lời 2 thông tin: phương tiện và thời gian."
+          ]
+        },
+        {
+          "id": "l4_img01_wh_02",
+          "order": 4,
+          "question": {
+            "ja": "とうきょうから　ソウルまで　どのくらいですか。",
+            "vi": "Từ Tokyo đến Seoul mất bao lâu?"
+          },
+          "sampleAnswers": [
+            {
+              "ja": "にじかんはんくらいです。",
+              "vi": "Khoảng 2 tiếng rưỡi."
+            }
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "とうきょう",
+              "reading": "とうきょう",
+              "meaning": "Tokyo"
+            },
+            {
+              "word": "ソウル",
+              "reading": "ソウル",
+              "meaning": "Seoul"
+            },
+            {
+              "word": "デグ",
+              "reading": "デグ",
+              "meaning": "Daegu"
+            },
+            {
+              "word": "ひこうき",
+              "reading": "ひこうき",
+              "meaning": "Máy bay"
+            },
+            {
+              "word": "でんしゃ",
+              "reading": "でんしゃ",
+              "meaning": "Tàu điện"
+            },
+            {
+              "word": "どのくらい",
+              "reading": "どのくらい",
+              "meaning": "Bao lâu"
+            },
+            {
+              "word": "～じかんはん",
+              "reading": "～じかんはん",
+              "meaning": "~ tiếng rưỡi"
+            },
+            {
+              "word": "～くらい",
+              "reading": "～くらい",
+              "meaning": "Khoảng ~"
+            }
+          ],
+          "tips": [
+            "Nghe thấy 何で thì trả lời phương tiện + で行きます。",
+            "Nghe thấy どのくらい thì trả lời thời gian + くらいです。",
+            "Câu khó có そして yêu cầu trả lời 2 thông tin: phương tiện và thời gian."
+          ]
+        },
+        {
+          "id": "l4_img01_wh_03",
+          "order": 5,
+          "question": {
+            "ja": "ソウルから　デグまで　なんで　いきますか。",
+            "vi": "Từ Seoul đến Daegu đi bằng gì?"
+          },
+          "sampleAnswers": [
+            {
+              "ja": "でんしゃで　いきます。",
+              "vi": "Đi bằng tàu điện."
+            }
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "とうきょう",
+              "reading": "とうきょう",
+              "meaning": "Tokyo"
+            },
+            {
+              "word": "ソウル",
+              "reading": "ソウル",
+              "meaning": "Seoul"
+            },
+            {
+              "word": "デグ",
+              "reading": "デグ",
+              "meaning": "Daegu"
+            },
+            {
+              "word": "ひこうき",
+              "reading": "ひこうき",
+              "meaning": "Máy bay"
+            },
+            {
+              "word": "でんしゃ",
+              "reading": "でんしゃ",
+              "meaning": "Tàu điện"
+            },
+            {
+              "word": "どのくらい",
+              "reading": "どのくらい",
+              "meaning": "Bao lâu"
+            },
+            {
+              "word": "～じかんはん",
+              "reading": "～じかんはん",
+              "meaning": "~ tiếng rưỡi"
+            },
+            {
+              "word": "～くらい",
+              "reading": "～くらい",
+              "meaning": "Khoảng ~"
+            }
+          ],
+          "tips": [
+            "Nghe thấy 何で thì trả lời phương tiện + で行きます。",
+            "Nghe thấy どのくらい thì trả lời thời gian + くらいです。",
+            "Câu khó có そして yêu cầu trả lời 2 thông tin: phương tiện và thời gian."
+          ]
+        },
+        {
+          "id": "l4_img01_wh_04",
+          "order": 6,
+          "question": {
+            "ja": "ソウルから　デグまで　でんしゃで　どのくらいですか。",
+            "vi": "Từ Seoul đến Daegu đi tàu điện mất bao lâu?"
+          },
+          "sampleAnswers": [
+            {
+              "ja": "さんじかんはんくらいです。",
+              "vi": "Khoảng 3 tiếng rưỡi."
+            }
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "とうきょう",
+              "reading": "とうきょう",
+              "meaning": "Tokyo"
+            },
+            {
+              "word": "ソウル",
+              "reading": "ソウル",
+              "meaning": "Seoul"
+            },
+            {
+              "word": "デグ",
+              "reading": "デグ",
+              "meaning": "Daegu"
+            },
+            {
+              "word": "ひこうき",
+              "reading": "ひこうき",
+              "meaning": "Máy bay"
+            },
+            {
+              "word": "でんしゃ",
+              "reading": "でんしゃ",
+              "meaning": "Tàu điện"
+            },
+            {
+              "word": "どのくらい",
+              "reading": "どのくらい",
+              "meaning": "Bao lâu"
+            },
+            {
+              "word": "～じかんはん",
+              "reading": "～じかんはん",
+              "meaning": "~ tiếng rưỡi"
+            },
+            {
+              "word": "～くらい",
+              "reading": "～くらい",
+              "meaning": "Khoảng ~"
+            }
+          ],
+          "tips": [
+            "Nghe thấy 何で thì trả lời phương tiện + で行きます。",
+            "Nghe thấy どのくらい thì trả lời thời gian + くらいです。",
+            "Câu khó có そして yêu cầu trả lời 2 thông tin: phương tiện và thời gian."
+          ]
+        },
+        {
+          "id": "l4_img01_wh_05",
+          "order": 7,
+          "question": {
+            "ja": "とうきょうから　ソウルまで　なんで　いきますか。そして、どのくらいですか。",
+            "vi": "Từ Tokyo đến Seoul đi bằng gì? Và mất bao lâu?"
+          },
+          "sampleAnswers": [
+            {
+              "ja": "ひこうきで　いきます。そして、にじかんはんくらいです。",
+              "vi": "Đi bằng máy bay. Và khoảng 2 tiếng rưỡi."
+            }
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "とうきょう",
+              "reading": "とうきょう",
+              "meaning": "Tokyo"
+            },
+            {
+              "word": "ソウル",
+              "reading": "ソウル",
+              "meaning": "Seoul"
+            },
+            {
+              "word": "デグ",
+              "reading": "デグ",
+              "meaning": "Daegu"
+            },
+            {
+              "word": "ひこうき",
+              "reading": "ひこうき",
+              "meaning": "Máy bay"
+            },
+            {
+              "word": "でんしゃ",
+              "reading": "でんしゃ",
+              "meaning": "Tàu điện"
+            },
+            {
+              "word": "どのくらい",
+              "reading": "どのくらい",
+              "meaning": "Bao lâu"
+            },
+            {
+              "word": "～じかんはん",
+              "reading": "～じかんはん",
+              "meaning": "~ tiếng rưỡi"
+            },
+            {
+              "word": "～くらい",
+              "reading": "～くらい",
+              "meaning": "Khoảng ~"
+            }
+          ],
+          "tips": [
+            "Nghe thấy 何で thì trả lời phương tiện + で行きます。",
+            "Nghe thấy どのくらい thì trả lời thời gian + くらいです。",
+            "Câu khó có そして yêu cầu trả lời 2 thông tin: phương tiện và thời gian."
+          ]
+        },
+        {
+          "id": "l4_img01_wh_06",
+          "order": 8,
+          "question": {
+            "ja": "ソウルから　デグまで　なんで　いきますか。そして、どのくらいですか。",
+            "vi": "Từ Seoul đến Daegu đi bằng gì? Và mất bao lâu?"
+          },
+          "sampleAnswers": [
+            {
+              "ja": "でんしゃで　いきます。そして、さんじかんはんくらいです。",
+              "vi": "Đi bằng tàu điện. Và khoảng 3 tiếng rưỡi."
+            }
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "とうきょう",
+              "reading": "とうきょう",
+              "meaning": "Tokyo"
+            },
+            {
+              "word": "ソウル",
+              "reading": "ソウル",
+              "meaning": "Seoul"
+            },
+            {
+              "word": "デグ",
+              "reading": "デグ",
+              "meaning": "Daegu"
+            },
+            {
+              "word": "ひこうき",
+              "reading": "ひこうき",
+              "meaning": "Máy bay"
+            },
+            {
+              "word": "でんしゃ",
+              "reading": "でんしゃ",
+              "meaning": "Tàu điện"
+            },
+            {
+              "word": "どのくらい",
+              "reading": "どのくらい",
+              "meaning": "Bao lâu"
+            },
+            {
+              "word": "～じかんはん",
+              "reading": "～じかんはん",
+              "meaning": "~ tiếng rưỡi"
+            },
+            {
+              "word": "～くらい",
+              "reading": "～くらい",
+              "meaning": "Khoảng ~"
+            }
+          ],
+          "tips": [
+            "Nghe thấy 何で thì trả lời phương tiện + で行きます。",
+            "Nghe thấy どのくらい thì trả lời thời gian + くらいです。",
+            "Câu khó có そして yêu cầu trả lời 2 thông tin: phương tiện và thời gian."
+          ]
+        }
+      ]
+    },
+    {
+      "pictureId": "jpd123_l4_picture_02_danang_hcm_route",
+      "pictureTitle": "Tranh 2 - Đà Nẵng đến Hồ Chí Minh",
+      "imageUrl": "/data/speaking/jpd123/qa/lesson4_tranh2.png",
+      "questions": [
+        {
+          "id": "l4_img02_yn_01",
+          "order": 1,
+          "question": {
+            "ja": "ダナンから　ホーチミンまで　ひこうきで　いきますか。",
+            "vi": "Từ Đà Nẵng đến Hồ Chí Minh đi bằng máy bay phải không?"
+          },
+          "sampleAnswers": [
+            {
+              "ja": "はい、ひこうきで　いきます。",
+              "vi": "Vâng, đi bằng máy bay."
+            }
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "きた",
+              "reading": "きた",
+              "meaning": "Phía bắc"
+            },
+            {
+              "word": "みなみ",
+              "reading": "みなみ",
+              "meaning": "Phía nam"
+            },
+            {
+              "word": "まんなか",
+              "reading": "まんなか",
+              "meaning": "Chính giữa"
+            },
+            {
+              "word": "ひこうき",
+              "reading": "ひこうき",
+              "meaning": "Máy bay"
+            },
+            {
+              "word": "バス",
+              "reading": "バス",
+              "meaning": "Xe buýt"
+            },
+            {
+              "word": "いちじかんはん",
+              "reading": "いちじかんはん",
+              "meaning": "1 tiếng rưỡi"
+            },
+            {
+              "word": "にじゅうじかん",
+              "reading": "にじゅうじかん",
+              "meaning": "20 tiếng"
+            }
+          ],
+          "tips": [
+            "Câu hỏi どこですか trong bài này thường hỏi vị trí: きた, みなみ, まんなか.",
+            "Câu hỏi 何で đi với phương tiện: ひこうきで, バスで.",
+            "Câu hỏi khó có そして yêu cầu trả lời đủ 2 ý."
+          ]
+        },
+        {
+          "id": "l4_img02_yn_02",
+          "order": 2,
+          "question": {
+            "ja": "ダナンから　ホーチミンまで　バスで　じゅうじかんくらいですか。",
+            "vi": "Từ Đà Nẵng đến Hồ Chí Minh đi xe buýt mất khoảng 10 tiếng phải không?"
+          },
+          "sampleAnswers": [
+            {
+              "ja": "いいえ、にじゅうじかんくらいです。",
+              "vi": "Không, khoảng 20 tiếng."
+            }
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "きた",
+              "reading": "きた",
+              "meaning": "Phía bắc"
+            },
+            {
+              "word": "みなみ",
+              "reading": "みなみ",
+              "meaning": "Phía nam"
+            },
+            {
+              "word": "まんなか",
+              "reading": "まんなか",
+              "meaning": "Chính giữa"
+            },
+            {
+              "word": "ひこうき",
+              "reading": "ひこうき",
+              "meaning": "Máy bay"
+            },
+            {
+              "word": "バス",
+              "reading": "バス",
+              "meaning": "Xe buýt"
+            },
+            {
+              "word": "いちじかんはん",
+              "reading": "いちじかんはん",
+              "meaning": "1 tiếng rưỡi"
+            },
+            {
+              "word": "にじゅうじかん",
+              "reading": "にじゅうじかん",
+              "meaning": "20 tiếng"
+            }
+          ],
+          "tips": [
+            "Câu hỏi どこですか trong bài này thường hỏi vị trí: きた, みなみ, まんなか.",
+            "Câu hỏi 何で đi với phương tiện: ひこうきで, バスで.",
+            "Câu hỏi khó có そして yêu cầu trả lời đủ 2 ý."
+          ]
+        },
+        {
+          "id": "l4_img02_yn_03",
+          "order": 3,
+          "question": {
+            "ja": "ホーチミンは　ベトナムの　みなみですか。",
+            "vi": "Hồ Chí Minh ở phía nam Việt Nam phải không?"
+          },
+          "sampleAnswers": [
+            {
+              "ja": "はい、みなみです。",
+              "vi": "Vâng, ở phía nam."
+            }
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "きた",
+              "reading": "きた",
+              "meaning": "Phía bắc"
+            },
+            {
+              "word": "みなみ",
+              "reading": "みなみ",
+              "meaning": "Phía nam"
+            },
+            {
+              "word": "まんなか",
+              "reading": "まんなか",
+              "meaning": "Chính giữa"
+            },
+            {
+              "word": "ひこうき",
+              "reading": "ひこうき",
+              "meaning": "Máy bay"
+            },
+            {
+              "word": "バス",
+              "reading": "バス",
+              "meaning": "Xe buýt"
+            },
+            {
+              "word": "いちじかんはん",
+              "reading": "いちじかんはん",
+              "meaning": "1 tiếng rưỡi"
+            },
+            {
+              "word": "にじゅうじかん",
+              "reading": "にじゅうじかん",
+              "meaning": "20 tiếng"
+            }
+          ],
+          "tips": [
+            "Câu hỏi どこですか trong bài này thường hỏi vị trí: きた, みなみ, まんなか.",
+            "Câu hỏi 何で đi với phương tiện: ひこうきで, バスで.",
+            "Câu hỏi khó có そして yêu cầu trả lời đủ 2 ý."
+          ]
+        },
+        {
+          "id": "l4_img02_wh_01",
+          "order": 4,
+          "question": {
+            "ja": "ホーチミンは　ベトナムの　どこですか。",
+            "vi": "Hồ Chí Minh ở đâu của Việt Nam?"
+          },
+          "sampleAnswers": [
+            {
+              "ja": "みなみです。",
+              "vi": "Ở phía nam."
+            }
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "きた",
+              "reading": "きた",
+              "meaning": "Phía bắc"
+            },
+            {
+              "word": "みなみ",
+              "reading": "みなみ",
+              "meaning": "Phía nam"
+            },
+            {
+              "word": "まんなか",
+              "reading": "まんなか",
+              "meaning": "Chính giữa"
+            },
+            {
+              "word": "ひこうき",
+              "reading": "ひこうき",
+              "meaning": "Máy bay"
+            },
+            {
+              "word": "バス",
+              "reading": "バス",
+              "meaning": "Xe buýt"
+            },
+            {
+              "word": "いちじかんはん",
+              "reading": "いちじかんはん",
+              "meaning": "1 tiếng rưỡi"
+            },
+            {
+              "word": "にじゅうじかん",
+              "reading": "にじゅうじかん",
+              "meaning": "20 tiếng"
+            }
+          ],
+          "tips": [
+            "Câu hỏi どこですか trong bài này thường hỏi vị trí: きた, みなみ, まんなか.",
+            "Câu hỏi 何で đi với phương tiện: ひこうきで, バスで.",
+            "Câu hỏi khó có そして yêu cầu trả lời đủ 2 ý."
+          ]
+        },
+        {
+          "id": "l4_img02_wh_02",
+          "order": 5,
+          "question": {
+            "ja": "ハノイは　ベトナムの　どこですか。",
+            "vi": "Hà Nội ở đâu của Việt Nam?"
+          },
+          "sampleAnswers": [
+            {
+              "ja": "きたです。",
+              "vi": "Ở phía bắc."
+            }
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "きた",
+              "reading": "きた",
+              "meaning": "Phía bắc"
+            },
+            {
+              "word": "みなみ",
+              "reading": "みなみ",
+              "meaning": "Phía nam"
+            },
+            {
+              "word": "まんなか",
+              "reading": "まんなか",
+              "meaning": "Chính giữa"
+            },
+            {
+              "word": "ひこうき",
+              "reading": "ひこうき",
+              "meaning": "Máy bay"
+            },
+            {
+              "word": "バス",
+              "reading": "バス",
+              "meaning": "Xe buýt"
+            },
+            {
+              "word": "いちじかんはん",
+              "reading": "いちじかんはん",
+              "meaning": "1 tiếng rưỡi"
+            },
+            {
+              "word": "にじゅうじかん",
+              "reading": "にじゅうじかん",
+              "meaning": "20 tiếng"
+            }
+          ],
+          "tips": [
+            "Câu hỏi どこですか trong bài này thường hỏi vị trí: きた, みなみ, まんなか.",
+            "Câu hỏi 何で đi với phương tiện: ひこうきで, バスで.",
+            "Câu hỏi khó có そして yêu cầu trả lời đủ 2 ý."
+          ]
+        },
+        {
+          "id": "l4_img02_wh_03",
+          "order": 6,
+          "question": {
+            "ja": "ダナンは　ベトナムの　どこですか。",
+            "vi": "Đà Nẵng ở đâu của Việt Nam?"
+          },
+          "sampleAnswers": [
+            {
+              "ja": "まんなかです。",
+              "vi": "Ở giữa."
+            }
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "きた",
+              "reading": "きた",
+              "meaning": "Phía bắc"
+            },
+            {
+              "word": "みなみ",
+              "reading": "みなみ",
+              "meaning": "Phía nam"
+            },
+            {
+              "word": "まんなか",
+              "reading": "まんなか",
+              "meaning": "Chính giữa"
+            },
+            {
+              "word": "ひこうき",
+              "reading": "ひこうき",
+              "meaning": "Máy bay"
+            },
+            {
+              "word": "バス",
+              "reading": "バス",
+              "meaning": "Xe buýt"
+            },
+            {
+              "word": "いちじかんはん",
+              "reading": "いちじかんはん",
+              "meaning": "1 tiếng rưỡi"
+            },
+            {
+              "word": "にじゅうじかん",
+              "reading": "にじゅうじかん",
+              "meaning": "20 tiếng"
+            }
+          ],
+          "tips": [
+            "Câu hỏi どこですか trong bài này thường hỏi vị trí: きた, みなみ, まんなか.",
+            "Câu hỏi 何で đi với phương tiện: ひこうきで, バスで.",
+            "Câu hỏi khó có そして yêu cầu trả lời đủ 2 ý."
+          ]
+        },
+        {
+          "id": "l4_img02_wh_04",
+          "order": 7,
+          "question": {
+            "ja": "ダナンから　ホーチミンまで　なんで　いきますか。",
+            "vi": "Từ Đà Nẵng đến Hồ Chí Minh đi bằng gì?"
+          },
+          "sampleAnswers": [
+            {
+              "ja": "ひこうきで　いきます。",
+              "vi": "Đi bằng máy bay."
+            },
+            {
+              "ja": "バスで　いきます。",
+              "vi": "Đi bằng xe buýt."
+            }
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "きた",
+              "reading": "きた",
+              "meaning": "Phía bắc"
+            },
+            {
+              "word": "みなみ",
+              "reading": "みなみ",
+              "meaning": "Phía nam"
+            },
+            {
+              "word": "まんなか",
+              "reading": "まんなか",
+              "meaning": "Chính giữa"
+            },
+            {
+              "word": "ひこうき",
+              "reading": "ひこうき",
+              "meaning": "Máy bay"
+            },
+            {
+              "word": "バス",
+              "reading": "バス",
+              "meaning": "Xe buýt"
+            },
+            {
+              "word": "いちじかんはん",
+              "reading": "いちじかんはん",
+              "meaning": "1 tiếng rưỡi"
+            },
+            {
+              "word": "にじゅうじかん",
+              "reading": "にじゅうじかん",
+              "meaning": "20 tiếng"
+            }
+          ],
+          "tips": [
+            "Câu hỏi どこですか trong bài này thường hỏi vị trí: きた, みなみ, まんなか.",
+            "Câu hỏi 何で đi với phương tiện: ひこうきで, バスで.",
+            "Câu hỏi khó có そして yêu cầu trả lời đủ 2 ý."
+          ]
+        },
+        {
+          "id": "l4_img02_wh_05",
+          "order": 8,
+          "question": {
+            "ja": "ダナンから　ホーチミンまで　ひこうきで　どのくらいですか。",
+            "vi": "Từ Đà Nẵng đến Hồ Chí Minh đi máy bay mất bao lâu?"
+          },
+          "sampleAnswers": [
+            {
+              "ja": "いちじかんはんくらいです。",
+              "vi": "Khoảng 1 tiếng rưỡi."
+            }
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "きた",
+              "reading": "きた",
+              "meaning": "Phía bắc"
+            },
+            {
+              "word": "みなみ",
+              "reading": "みなみ",
+              "meaning": "Phía nam"
+            },
+            {
+              "word": "まんなか",
+              "reading": "まんなか",
+              "meaning": "Chính giữa"
+            },
+            {
+              "word": "ひこうき",
+              "reading": "ひこうき",
+              "meaning": "Máy bay"
+            },
+            {
+              "word": "バス",
+              "reading": "バス",
+              "meaning": "Xe buýt"
+            },
+            {
+              "word": "いちじかんはん",
+              "reading": "いちじかんはん",
+              "meaning": "1 tiếng rưỡi"
+            },
+            {
+              "word": "にじゅうじかん",
+              "reading": "にじゅうじかん",
+              "meaning": "20 tiếng"
+            }
+          ],
+          "tips": [
+            "Câu hỏi どこですか trong bài này thường hỏi vị trí: きた, みなみ, まんなか.",
+            "Câu hỏi 何で đi với phương tiện: ひこうきで, バスで.",
+            "Câu hỏi khó có そして yêu cầu trả lời đủ 2 ý."
+          ]
+        },
+        {
+          "id": "l4_img02_wh_06",
+          "order": 9,
+          "question": {
+            "ja": "ダナンから　ホーチミンまで　バスで　どのくらいですか。",
+            "vi": "Từ Đà Nẵng đến Hồ Chí Minh đi xe buýt mất bao lâu?"
+          },
+          "sampleAnswers": [
+            {
+              "ja": "にじゅうじかんくらいです。",
+              "vi": "Khoảng 20 tiếng."
+            }
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "きた",
+              "reading": "きた",
+              "meaning": "Phía bắc"
+            },
+            {
+              "word": "みなみ",
+              "reading": "みなみ",
+              "meaning": "Phía nam"
+            },
+            {
+              "word": "まんなか",
+              "reading": "まんなか",
+              "meaning": "Chính giữa"
+            },
+            {
+              "word": "ひこうき",
+              "reading": "ひこうき",
+              "meaning": "Máy bay"
+            },
+            {
+              "word": "バス",
+              "reading": "バス",
+              "meaning": "Xe buýt"
+            },
+            {
+              "word": "いちじかんはん",
+              "reading": "いちじかんはん",
+              "meaning": "1 tiếng rưỡi"
+            },
+            {
+              "word": "にじゅうじかん",
+              "reading": "にじゅうじかん",
+              "meaning": "20 tiếng"
+            }
+          ],
+          "tips": [
+            "Câu hỏi どこですか trong bài này thường hỏi vị trí: きた, みなみ, まんなか.",
+            "Câu hỏi 何で đi với phương tiện: ひこうきで, バスで.",
+            "Câu hỏi khó có そして yêu cầu trả lời đủ 2 ý."
+          ]
+        },
+        {
+          "id": "l4_img02_wh_07",
+          "order": 10,
+          "question": {
+            "ja": "ダナンから　ホーチミンまで　ひこうきで　いきます。どのくらいですか。",
+            "vi": "Đi từ Đà Nẵng đến Hồ Chí Minh bằng máy bay. Mất bao lâu?"
+          },
+          "sampleAnswers": [
+            {
+              "ja": "いちじかんはんくらいです。",
+              "vi": "Khoảng 1 tiếng rưỡi."
+            }
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "きた",
+              "reading": "きた",
+              "meaning": "Phía bắc"
+            },
+            {
+              "word": "みなみ",
+              "reading": "みなみ",
+              "meaning": "Phía nam"
+            },
+            {
+              "word": "まんなか",
+              "reading": "まんなか",
+              "meaning": "Chính giữa"
+            },
+            {
+              "word": "ひこうき",
+              "reading": "ひこうき",
+              "meaning": "Máy bay"
+            },
+            {
+              "word": "バス",
+              "reading": "バス",
+              "meaning": "Xe buýt"
+            },
+            {
+              "word": "いちじかんはん",
+              "reading": "いちじかんはん",
+              "meaning": "1 tiếng rưỡi"
+            },
+            {
+              "word": "にじゅうじかん",
+              "reading": "にじゅうじかん",
+              "meaning": "20 tiếng"
+            }
+          ],
+          "tips": [
+            "Câu hỏi どこですか trong bài này thường hỏi vị trí: きた, みなみ, まんなか.",
+            "Câu hỏi 何で đi với phương tiện: ひこうきで, バスで.",
+            "Câu hỏi khó có そして yêu cầu trả lời đủ 2 ý."
+          ]
+        },
+        {
+          "id": "l4_img02_wh_08",
+          "order": 11,
+          "question": {
+            "ja": "ダナンから　ホーチミンまで　なんで　いきますか。そして、どのくらいですか。",
+            "vi": "Từ Đà Nẵng đến Hồ Chí Minh đi bằng gì? Và mất bao lâu?"
+          },
+          "sampleAnswers": [
+            {
+              "ja": "ひこうきで　いきます。そして、いちじかんはんくらいです。",
+              "vi": "Đi bằng máy bay. Và khoảng 1 tiếng rưỡi."
+            },
+            {
+              "ja": "バスで　いきます。そして、にじゅうじかんくらいです。",
+              "vi": "Đi bằng xe buýt. Và khoảng 20 tiếng."
+            }
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "きた",
+              "reading": "きた",
+              "meaning": "Phía bắc"
+            },
+            {
+              "word": "みなみ",
+              "reading": "みなみ",
+              "meaning": "Phía nam"
+            },
+            {
+              "word": "まんなか",
+              "reading": "まんなか",
+              "meaning": "Chính giữa"
+            },
+            {
+              "word": "ひこうき",
+              "reading": "ひこうき",
+              "meaning": "Máy bay"
+            },
+            {
+              "word": "バス",
+              "reading": "バス",
+              "meaning": "Xe buýt"
+            },
+            {
+              "word": "いちじかんはん",
+              "reading": "いちじかんはん",
+              "meaning": "1 tiếng rưỡi"
+            },
+            {
+              "word": "にじゅうじかん",
+              "reading": "にじゅうじかん",
+              "meaning": "20 tiếng"
+            }
+          ],
+          "tips": [
+            "Câu hỏi どこですか trong bài này thường hỏi vị trí: きた, みなみ, まんなか.",
+            "Câu hỏi 何で đi với phương tiện: ひこうきで, バスで.",
+            "Câu hỏi khó có そして yêu cầu trả lời đủ 2 ý."
+          ]
+        }
+      ]
+    },
+    {
+      "pictureId": "jpd123_l4_picture_03_student_room",
+      "pictureTitle": "Tranh 3 - Phòng sinh viên",
+      "imageUrl": "/data/speaking/jpd123/qa/lesson4_tranh3.png",
+      "questions": [
+        {
+          "id": "l4_img03_yn_01",
+          "order": 1,
+          "question": {
+            "ja": "へやに　テレビが　ありますか。",
+            "vi": "Trong phòng có tivi không?"
+          },
+          "sampleAnswers": [
+            {
+              "ja": "はい、あります。",
+              "vi": "Có."
+            }
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "へや",
+              "reading": "へや",
+              "meaning": "Phòng"
+            },
+            {
+              "word": "テレビ",
+              "reading": "テレビ",
+              "meaning": "Tivi"
+            },
+            {
+              "word": "コンピューター",
+              "reading": "コンピューター",
+              "meaning": "Máy tính"
+            },
+            {
+              "word": "テーブル",
+              "reading": "テーブル",
+              "meaning": "Bàn"
+            },
+            {
+              "word": "とけい",
+              "reading": "とけい",
+              "meaning": "Đồng hồ"
+            },
+            {
+              "word": "ほん",
+              "reading": "ほん",
+              "meaning": "Sách"
+            },
+            {
+              "word": "きれい",
+              "reading": "きれい",
+              "meaning": "Đẹp, sạch sẽ"
+            },
+            {
+              "word": "ちいさい",
+              "reading": "ちいさい",
+              "meaning": "Nhỏ"
+            }
+          ],
+          "tips": [
+            "Với 何がありますか, trả lời bằng Nがあります.",
+            "Với どんなへやですか, trả lời bằng tính từ + へやです.",
+            "Câu khó có ほかに yêu cầu kể thêm vật khác trong tranh."
+          ]
+        },
+        {
+          "id": "l4_img03_yn_02",
+          "order": 2,
+          "question": {
+            "ja": "へやに　コンピューターが　ありますか。",
+            "vi": "Trong phòng có máy tính không?"
+          },
+          "sampleAnswers": [
+            {
+              "ja": "はい、あります。",
+              "vi": "Có."
+            }
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "へや",
+              "reading": "へや",
+              "meaning": "Phòng"
+            },
+            {
+              "word": "テレビ",
+              "reading": "テレビ",
+              "meaning": "Tivi"
+            },
+            {
+              "word": "コンピューター",
+              "reading": "コンピューター",
+              "meaning": "Máy tính"
+            },
+            {
+              "word": "テーブル",
+              "reading": "テーブル",
+              "meaning": "Bàn"
+            },
+            {
+              "word": "とけい",
+              "reading": "とけい",
+              "meaning": "Đồng hồ"
+            },
+            {
+              "word": "ほん",
+              "reading": "ほん",
+              "meaning": "Sách"
+            },
+            {
+              "word": "きれい",
+              "reading": "きれい",
+              "meaning": "Đẹp, sạch sẽ"
+            },
+            {
+              "word": "ちいさい",
+              "reading": "ちいさい",
+              "meaning": "Nhỏ"
+            }
+          ],
+          "tips": [
+            "Với 何がありますか, trả lời bằng Nがあります.",
+            "Với どんなへやですか, trả lời bằng tính từ + へやです.",
+            "Câu khó có ほかに yêu cầu kể thêm vật khác trong tranh."
+          ]
+        },
+        {
+          "id": "l4_img03_yn_03",
+          "order": 3,
+          "question": {
+            "ja": "へやに　れいぞうこが　ありますか。",
+            "vi": "Trong phòng có tủ lạnh không?"
+          },
+          "sampleAnswers": [
+            {
+              "ja": "いいえ、ありません。",
+              "vi": "Không có."
+            }
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "へや",
+              "reading": "へや",
+              "meaning": "Phòng"
+            },
+            {
+              "word": "テレビ",
+              "reading": "テレビ",
+              "meaning": "Tivi"
+            },
+            {
+              "word": "コンピューター",
+              "reading": "コンピューター",
+              "meaning": "Máy tính"
+            },
+            {
+              "word": "テーブル",
+              "reading": "テーブル",
+              "meaning": "Bàn"
+            },
+            {
+              "word": "とけい",
+              "reading": "とけい",
+              "meaning": "Đồng hồ"
+            },
+            {
+              "word": "ほん",
+              "reading": "ほん",
+              "meaning": "Sách"
+            },
+            {
+              "word": "きれい",
+              "reading": "きれい",
+              "meaning": "Đẹp, sạch sẽ"
+            },
+            {
+              "word": "ちいさい",
+              "reading": "ちいさい",
+              "meaning": "Nhỏ"
+            }
+          ],
+          "tips": [
+            "Với 何がありますか, trả lời bằng Nがあります.",
+            "Với どんなへやですか, trả lời bằng tính từ + へやです.",
+            "Câu khó có ほかに yêu cầu kể thêm vật khác trong tranh."
+          ]
+        },
+        {
+          "id": "l4_img03_yn_04",
+          "order": 4,
+          "question": {
+            "ja": "このへやは　きれいですか。",
+            "vi": "Căn phòng này sạch/đẹp không?"
+          },
+          "sampleAnswers": [
+            {
+              "ja": "はい、きれいです。",
+              "vi": "Vâng, sạch/đẹp."
+            }
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "へや",
+              "reading": "へや",
+              "meaning": "Phòng"
+            },
+            {
+              "word": "テレビ",
+              "reading": "テレビ",
+              "meaning": "Tivi"
+            },
+            {
+              "word": "コンピューター",
+              "reading": "コンピューター",
+              "meaning": "Máy tính"
+            },
+            {
+              "word": "テーブル",
+              "reading": "テーブル",
+              "meaning": "Bàn"
+            },
+            {
+              "word": "とけい",
+              "reading": "とけい",
+              "meaning": "Đồng hồ"
+            },
+            {
+              "word": "ほん",
+              "reading": "ほん",
+              "meaning": "Sách"
+            },
+            {
+              "word": "きれい",
+              "reading": "きれい",
+              "meaning": "Đẹp, sạch sẽ"
+            },
+            {
+              "word": "ちいさい",
+              "reading": "ちいさい",
+              "meaning": "Nhỏ"
+            }
+          ],
+          "tips": [
+            "Với 何がありますか, trả lời bằng Nがあります.",
+            "Với どんなへやですか, trả lời bằng tính từ + へやです.",
+            "Câu khó có ほかに yêu cầu kể thêm vật khác trong tranh."
+          ]
+        },
+        {
+          "id": "l4_img03_yn_05",
+          "order": 5,
+          "question": {
+            "ja": "このへやは　おおきいですか。",
+            "vi": "Căn phòng này lớn không?"
+          },
+          "sampleAnswers": [
+            {
+              "ja": "いいえ、おおきくないです。ちいさいです。",
+              "vi": "Không, không lớn. Nhỏ."
+            }
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "へや",
+              "reading": "へや",
+              "meaning": "Phòng"
+            },
+            {
+              "word": "テレビ",
+              "reading": "テレビ",
+              "meaning": "Tivi"
+            },
+            {
+              "word": "コンピューター",
+              "reading": "コンピューター",
+              "meaning": "Máy tính"
+            },
+            {
+              "word": "テーブル",
+              "reading": "テーブル",
+              "meaning": "Bàn"
+            },
+            {
+              "word": "とけい",
+              "reading": "とけい",
+              "meaning": "Đồng hồ"
+            },
+            {
+              "word": "ほん",
+              "reading": "ほん",
+              "meaning": "Sách"
+            },
+            {
+              "word": "きれい",
+              "reading": "きれい",
+              "meaning": "Đẹp, sạch sẽ"
+            },
+            {
+              "word": "ちいさい",
+              "reading": "ちいさい",
+              "meaning": "Nhỏ"
+            }
+          ],
+          "tips": [
+            "Với 何がありますか, trả lời bằng Nがあります.",
+            "Với どんなへやですか, trả lời bằng tính từ + へやです.",
+            "Câu khó có ほかに yêu cầu kể thêm vật khác trong tranh."
+          ]
+        },
+        {
+          "id": "l4_img03_wh_01",
+          "order": 6,
+          "question": {
+            "ja": "へやに　なにが　ありますか。",
+            "vi": "Trong phòng có gì?"
+          },
+          "sampleAnswers": [
+            {
+              "ja": "テレビと　コンピューターと　テーブルが　あります。",
+              "vi": "Có tivi, máy tính và bàn."
+            }
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "へや",
+              "reading": "へや",
+              "meaning": "Phòng"
+            },
+            {
+              "word": "テレビ",
+              "reading": "テレビ",
+              "meaning": "Tivi"
+            },
+            {
+              "word": "コンピューター",
+              "reading": "コンピューター",
+              "meaning": "Máy tính"
+            },
+            {
+              "word": "テーブル",
+              "reading": "テーブル",
+              "meaning": "Bàn"
+            },
+            {
+              "word": "とけい",
+              "reading": "とけい",
+              "meaning": "Đồng hồ"
+            },
+            {
+              "word": "ほん",
+              "reading": "ほん",
+              "meaning": "Sách"
+            },
+            {
+              "word": "きれい",
+              "reading": "きれい",
+              "meaning": "Đẹp, sạch sẽ"
+            },
+            {
+              "word": "ちいさい",
+              "reading": "ちいさい",
+              "meaning": "Nhỏ"
+            }
+          ],
+          "tips": [
+            "Với 何がありますか, trả lời bằng Nがあります.",
+            "Với どんなへやですか, trả lời bằng tính từ + へやです.",
+            "Câu khó có ほかに yêu cầu kể thêm vật khác trong tranh."
+          ]
+        },
+        {
+          "id": "l4_img03_wh_02",
+          "order": 7,
+          "question": {
+            "ja": "このへやは　どんな　へやですか。",
+            "vi": "Căn phòng này là căn phòng như thế nào?"
+          },
+          "sampleAnswers": [
+            {
+              "ja": "きれいな　へやです。",
+              "vi": "Là căn phòng sạch/đẹp."
+            },
+            {
+              "ja": "ちいさい　へやです。",
+              "vi": "Là căn phòng nhỏ."
+            }
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "へや",
+              "reading": "へや",
+              "meaning": "Phòng"
+            },
+            {
+              "word": "テレビ",
+              "reading": "テレビ",
+              "meaning": "Tivi"
+            },
+            {
+              "word": "コンピューター",
+              "reading": "コンピューター",
+              "meaning": "Máy tính"
+            },
+            {
+              "word": "テーブル",
+              "reading": "テーブル",
+              "meaning": "Bàn"
+            },
+            {
+              "word": "とけい",
+              "reading": "とけい",
+              "meaning": "Đồng hồ"
+            },
+            {
+              "word": "ほん",
+              "reading": "ほん",
+              "meaning": "Sách"
+            },
+            {
+              "word": "きれい",
+              "reading": "きれい",
+              "meaning": "Đẹp, sạch sẽ"
+            },
+            {
+              "word": "ちいさい",
+              "reading": "ちいさい",
+              "meaning": "Nhỏ"
+            }
+          ],
+          "tips": [
+            "Với 何がありますか, trả lời bằng Nがあります.",
+            "Với どんなへやですか, trả lời bằng tính từ + へやです.",
+            "Câu khó có ほかに yêu cầu kể thêm vật khác trong tranh."
+          ]
+        },
+        {
+          "id": "l4_img03_wh_03",
+          "order": 8,
+          "question": {
+            "ja": "テーブルの　うえに　なにが　ありますか。",
+            "vi": "Trên bàn có gì?"
+          },
+          "sampleAnswers": [
+            {
+              "ja": "コンピューターと　ほんが　あります。",
+              "vi": "Có máy tính và sách."
+            }
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "へや",
+              "reading": "へや",
+              "meaning": "Phòng"
+            },
+            {
+              "word": "テレビ",
+              "reading": "テレビ",
+              "meaning": "Tivi"
+            },
+            {
+              "word": "コンピューター",
+              "reading": "コンピューター",
+              "meaning": "Máy tính"
+            },
+            {
+              "word": "テーブル",
+              "reading": "テーブル",
+              "meaning": "Bàn"
+            },
+            {
+              "word": "とけい",
+              "reading": "とけい",
+              "meaning": "Đồng hồ"
+            },
+            {
+              "word": "ほん",
+              "reading": "ほん",
+              "meaning": "Sách"
+            },
+            {
+              "word": "きれい",
+              "reading": "きれい",
+              "meaning": "Đẹp, sạch sẽ"
+            },
+            {
+              "word": "ちいさい",
+              "reading": "ちいさい",
+              "meaning": "Nhỏ"
+            }
+          ],
+          "tips": [
+            "Với 何がありますか, trả lời bằng Nがあります.",
+            "Với どんなへやですか, trả lời bằng tính từ + へやです.",
+            "Câu khó có ほかに yêu cầu kể thêm vật khác trong tranh."
+          ]
+        },
+        {
+          "id": "l4_img03_wh_04",
+          "order": 9,
+          "question": {
+            "ja": "へやに　なにが　ありませんか。",
+            "vi": "Trong phòng không có gì?"
+          },
+          "sampleAnswers": [
+            {
+              "ja": "れいぞうこが　ありません。",
+              "vi": "Không có tủ lạnh."
+            }
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "へや",
+              "reading": "へや",
+              "meaning": "Phòng"
+            },
+            {
+              "word": "テレビ",
+              "reading": "テレビ",
+              "meaning": "Tivi"
+            },
+            {
+              "word": "コンピューター",
+              "reading": "コンピューター",
+              "meaning": "Máy tính"
+            },
+            {
+              "word": "テーブル",
+              "reading": "テーブル",
+              "meaning": "Bàn"
+            },
+            {
+              "word": "とけい",
+              "reading": "とけい",
+              "meaning": "Đồng hồ"
+            },
+            {
+              "word": "ほん",
+              "reading": "ほん",
+              "meaning": "Sách"
+            },
+            {
+              "word": "きれい",
+              "reading": "きれい",
+              "meaning": "Đẹp, sạch sẽ"
+            },
+            {
+              "word": "ちいさい",
+              "reading": "ちいさい",
+              "meaning": "Nhỏ"
+            }
+          ],
+          "tips": [
+            "Với 何がありますか, trả lời bằng Nがあります.",
+            "Với どんなへやですか, trả lời bằng tính từ + へやです.",
+            "Câu khó có ほかに yêu cầu kể thêm vật khác trong tranh."
+          ]
+        },
+        {
+          "id": "l4_img03_wh_05",
+          "order": 10,
+          "question": {
+            "ja": "このへやは　どんな　へやですか。へやに　なにが　ありますか。",
+            "vi": "Căn phòng này như thế nào? Trong phòng có gì?"
+          },
+          "sampleAnswers": [
+            {
+              "ja": "きれいな　へやです。テレビと　コンピューターが　あります。",
+              "vi": "Là căn phòng sạch/đẹp. Có tivi và máy tính."
+            }
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "へや",
+              "reading": "へや",
+              "meaning": "Phòng"
+            },
+            {
+              "word": "テレビ",
+              "reading": "テレビ",
+              "meaning": "Tivi"
+            },
+            {
+              "word": "コンピューター",
+              "reading": "コンピューター",
+              "meaning": "Máy tính"
+            },
+            {
+              "word": "テーブル",
+              "reading": "テーブル",
+              "meaning": "Bàn"
+            },
+            {
+              "word": "とけい",
+              "reading": "とけい",
+              "meaning": "Đồng hồ"
+            },
+            {
+              "word": "ほん",
+              "reading": "ほん",
+              "meaning": "Sách"
+            },
+            {
+              "word": "きれい",
+              "reading": "きれい",
+              "meaning": "Đẹp, sạch sẽ"
+            },
+            {
+              "word": "ちいさい",
+              "reading": "ちいさい",
+              "meaning": "Nhỏ"
+            }
+          ],
+          "tips": [
+            "Với 何がありますか, trả lời bằng Nがあります.",
+            "Với どんなへやですか, trả lời bằng tính từ + へやです.",
+            "Câu khó có ほかに yêu cầu kể thêm vật khác trong tranh."
+          ]
+        },
+        {
+          "id": "l4_img03_wh_06",
+          "order": 11,
+          "question": {
+            "ja": "このへやに　テレビと　コンピューターが　あります。ほかに　なにが　ありますか。",
+            "vi": "Trong phòng này có tivi và máy tính. Ngoài ra còn có gì?"
+          },
+          "sampleAnswers": [
+            {
+              "ja": "テーブルと　とけいと　ほんが　あります。",
+              "vi": "Có bàn, đồng hồ và sách."
+            }
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "へや",
+              "reading": "へや",
+              "meaning": "Phòng"
+            },
+            {
+              "word": "テレビ",
+              "reading": "テレビ",
+              "meaning": "Tivi"
+            },
+            {
+              "word": "コンピューター",
+              "reading": "コンピューター",
+              "meaning": "Máy tính"
+            },
+            {
+              "word": "テーブル",
+              "reading": "テーブル",
+              "meaning": "Bàn"
+            },
+            {
+              "word": "とけい",
+              "reading": "とけい",
+              "meaning": "Đồng hồ"
+            },
+            {
+              "word": "ほん",
+              "reading": "ほん",
+              "meaning": "Sách"
+            },
+            {
+              "word": "きれい",
+              "reading": "きれい",
+              "meaning": "Đẹp, sạch sẽ"
+            },
+            {
+              "word": "ちいさい",
+              "reading": "ちいさい",
+              "meaning": "Nhỏ"
+            }
+          ],
+          "tips": [
+            "Với 何がありますか, trả lời bằng Nがあります.",
+            "Với どんなへやですか, trả lời bằng tính từ + へやです.",
+            "Câu khó có ほかに yêu cầu kể thêm vật khác trong tranh."
+          ]
+        }
+      ]
+    },
+    {
+      "pictureId": "jpd123_l4_picture_04_danang_city",
+      "pictureTitle": "Tranh 4 - ダナン市",
+      "imageUrl": "/data/speaking/jpd123/qa/lesson4_tranh4.png",
+      "questions": [
+        {
+          "id": "l4_img04_yn_01",
+          "order": 1,
+          "question": {
+            "ja": "ダナンしは　きれいですか。",
+            "vi": "Thành phố Đà Nẵng có đẹp/sạch không?"
+          },
+          "sampleAnswers": [
+            {
+              "ja": "はい、きれいです。",
+              "vi": "Vâng, đẹp/sạch."
+            }
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "し",
+              "reading": "し",
+              "meaning": "Thành phố"
+            },
+            {
+              "word": "うみ",
+              "reading": "うみ",
+              "meaning": "Biển"
+            },
+            {
+              "word": "やま",
+              "reading": "やま",
+              "meaning": "Núi"
+            },
+            {
+              "word": "おてら",
+              "reading": "おてら",
+              "meaning": "Chùa"
+            },
+            {
+              "word": "レストラン",
+              "reading": "レストラン",
+              "meaning": "Nhà hàng"
+            },
+            {
+              "word": "みどり",
+              "reading": "みどり",
+              "meaning": "Cây xanh / màu xanh"
+            },
+            {
+              "word": "きれい",
+              "reading": "きれい",
+              "meaning": "Đẹp, sạch"
+            },
+            {
+              "word": "にぎやか",
+              "reading": "にぎやか",
+              "meaning": "Náo nhiệt"
+            },
+            {
+              "word": "ゆうめい",
+              "reading": "ゆうめい",
+              "meaning": "Nổi tiếng"
+            }
+          ],
+          "tips": [
+            "どんな市ですか hỏi đặc điểm của thành phố.",
+            "何がありますか hỏi trong thành phố có gì.",
+            "Câu khó thường bắt sinh viên trả lời cả miêu tả và liệt kê địa điểm."
+          ]
+        },
+        {
+          "id": "l4_img04_yn_02",
+          "order": 2,
+          "question": {
+            "ja": "ダナンしは　にぎやかですか。",
+            "vi": "Thành phố Đà Nẵng có náo nhiệt không?"
+          },
+          "sampleAnswers": [
+            {
+              "ja": "はい、にぎやかです。",
+              "vi": "Vâng, náo nhiệt."
+            }
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "し",
+              "reading": "し",
+              "meaning": "Thành phố"
+            },
+            {
+              "word": "うみ",
+              "reading": "うみ",
+              "meaning": "Biển"
+            },
+            {
+              "word": "やま",
+              "reading": "やま",
+              "meaning": "Núi"
+            },
+            {
+              "word": "おてら",
+              "reading": "おてら",
+              "meaning": "Chùa"
+            },
+            {
+              "word": "レストラン",
+              "reading": "レストラン",
+              "meaning": "Nhà hàng"
+            },
+            {
+              "word": "みどり",
+              "reading": "みどり",
+              "meaning": "Cây xanh / màu xanh"
+            },
+            {
+              "word": "きれい",
+              "reading": "きれい",
+              "meaning": "Đẹp, sạch"
+            },
+            {
+              "word": "にぎやか",
+              "reading": "にぎやか",
+              "meaning": "Náo nhiệt"
+            },
+            {
+              "word": "ゆうめい",
+              "reading": "ゆうめい",
+              "meaning": "Nổi tiếng"
+            }
+          ],
+          "tips": [
+            "どんな市ですか hỏi đặc điểm của thành phố.",
+            "何がありますか hỏi trong thành phố có gì.",
+            "Câu khó thường bắt sinh viên trả lời cả miêu tả và liệt kê địa điểm."
+          ]
+        },
+        {
+          "id": "l4_img04_yn_03",
+          "order": 3,
+          "question": {
+            "ja": "ダナンしは　みどりが　おおいですか。",
+            "vi": "Thành phố Đà Nẵng có nhiều cây xanh không?"
+          },
+          "sampleAnswers": [
+            {
+              "ja": "はい、みどりが　おおいです。",
+              "vi": "Vâng, có nhiều cây xanh."
+            }
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "し",
+              "reading": "し",
+              "meaning": "Thành phố"
+            },
+            {
+              "word": "うみ",
+              "reading": "うみ",
+              "meaning": "Biển"
+            },
+            {
+              "word": "やま",
+              "reading": "やま",
+              "meaning": "Núi"
+            },
+            {
+              "word": "おてら",
+              "reading": "おてら",
+              "meaning": "Chùa"
+            },
+            {
+              "word": "レストラン",
+              "reading": "レストラン",
+              "meaning": "Nhà hàng"
+            },
+            {
+              "word": "みどり",
+              "reading": "みどり",
+              "meaning": "Cây xanh / màu xanh"
+            },
+            {
+              "word": "きれい",
+              "reading": "きれい",
+              "meaning": "Đẹp, sạch"
+            },
+            {
+              "word": "にぎやか",
+              "reading": "にぎやか",
+              "meaning": "Náo nhiệt"
+            },
+            {
+              "word": "ゆうめい",
+              "reading": "ゆうめい",
+              "meaning": "Nổi tiếng"
+            }
+          ],
+          "tips": [
+            "どんな市ですか hỏi đặc điểm của thành phố.",
+            "何がありますか hỏi trong thành phố có gì.",
+            "Câu khó thường bắt sinh viên trả lời cả miêu tả và liệt kê địa điểm."
+          ]
+        },
+        {
+          "id": "l4_img04_yn_04",
+          "order": 4,
+          "question": {
+            "ja": "ダナンしに　おてらが　ありますか。",
+            "vi": "Ở thành phố Đà Nẵng có chùa không?"
+          },
+          "sampleAnswers": [
+            {
+              "ja": "はい、あります。",
+              "vi": "Có."
+            }
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "し",
+              "reading": "し",
+              "meaning": "Thành phố"
+            },
+            {
+              "word": "うみ",
+              "reading": "うみ",
+              "meaning": "Biển"
+            },
+            {
+              "word": "やま",
+              "reading": "やま",
+              "meaning": "Núi"
+            },
+            {
+              "word": "おてら",
+              "reading": "おてら",
+              "meaning": "Chùa"
+            },
+            {
+              "word": "レストラン",
+              "reading": "レストラン",
+              "meaning": "Nhà hàng"
+            },
+            {
+              "word": "みどり",
+              "reading": "みどり",
+              "meaning": "Cây xanh / màu xanh"
+            },
+            {
+              "word": "きれい",
+              "reading": "きれい",
+              "meaning": "Đẹp, sạch"
+            },
+            {
+              "word": "にぎやか",
+              "reading": "にぎやか",
+              "meaning": "Náo nhiệt"
+            },
+            {
+              "word": "ゆうめい",
+              "reading": "ゆうめい",
+              "meaning": "Nổi tiếng"
+            }
+          ],
+          "tips": [
+            "どんな市ですか hỏi đặc điểm của thành phố.",
+            "何がありますか hỏi trong thành phố có gì.",
+            "Câu khó thường bắt sinh viên trả lời cả miêu tả và liệt kê địa điểm."
+          ]
+        },
+        {
+          "id": "l4_img04_wh_01",
+          "order": 5,
+          "question": {
+            "ja": "ここは　どこですか。",
+            "vi": "Đây là đâu?"
+          },
+          "sampleAnswers": [
+            {
+              "ja": "ダナンしです。",
+              "vi": "Là thành phố Đà Nẵng."
+            }
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "し",
+              "reading": "し",
+              "meaning": "Thành phố"
+            },
+            {
+              "word": "うみ",
+              "reading": "うみ",
+              "meaning": "Biển"
+            },
+            {
+              "word": "やま",
+              "reading": "やま",
+              "meaning": "Núi"
+            },
+            {
+              "word": "おてら",
+              "reading": "おてら",
+              "meaning": "Chùa"
+            },
+            {
+              "word": "レストラン",
+              "reading": "レストラン",
+              "meaning": "Nhà hàng"
+            },
+            {
+              "word": "みどり",
+              "reading": "みどり",
+              "meaning": "Cây xanh / màu xanh"
+            },
+            {
+              "word": "きれい",
+              "reading": "きれい",
+              "meaning": "Đẹp, sạch"
+            },
+            {
+              "word": "にぎやか",
+              "reading": "にぎやか",
+              "meaning": "Náo nhiệt"
+            },
+            {
+              "word": "ゆうめい",
+              "reading": "ゆうめい",
+              "meaning": "Nổi tiếng"
+            }
+          ],
+          "tips": [
+            "どんな市ですか hỏi đặc điểm của thành phố.",
+            "何がありますか hỏi trong thành phố có gì.",
+            "Câu khó thường bắt sinh viên trả lời cả miêu tả và liệt kê địa điểm."
+          ]
+        },
+        {
+          "id": "l4_img04_wh_02",
+          "order": 6,
+          "question": {
+            "ja": "ダナンしは　どんな　しですか。",
+            "vi": "Đà Nẵng là thành phố như thế nào?"
+          },
+          "sampleAnswers": [
+            {
+              "ja": "きれいな　しです。",
+              "vi": "Là thành phố đẹp/sạch."
+            },
+            {
+              "ja": "にぎやかな　しです。",
+              "vi": "Là thành phố náo nhiệt."
+            }
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "し",
+              "reading": "し",
+              "meaning": "Thành phố"
+            },
+            {
+              "word": "うみ",
+              "reading": "うみ",
+              "meaning": "Biển"
+            },
+            {
+              "word": "やま",
+              "reading": "やま",
+              "meaning": "Núi"
+            },
+            {
+              "word": "おてら",
+              "reading": "おてら",
+              "meaning": "Chùa"
+            },
+            {
+              "word": "レストラン",
+              "reading": "レストラン",
+              "meaning": "Nhà hàng"
+            },
+            {
+              "word": "みどり",
+              "reading": "みどり",
+              "meaning": "Cây xanh / màu xanh"
+            },
+            {
+              "word": "きれい",
+              "reading": "きれい",
+              "meaning": "Đẹp, sạch"
+            },
+            {
+              "word": "にぎやか",
+              "reading": "にぎやか",
+              "meaning": "Náo nhiệt"
+            },
+            {
+              "word": "ゆうめい",
+              "reading": "ゆうめい",
+              "meaning": "Nổi tiếng"
+            }
+          ],
+          "tips": [
+            "どんな市ですか hỏi đặc điểm của thành phố.",
+            "何がありますか hỏi trong thành phố có gì.",
+            "Câu khó thường bắt sinh viên trả lời cả miêu tả và liệt kê địa điểm."
+          ]
+        },
+        {
+          "id": "l4_img04_wh_03",
+          "order": 7,
+          "question": {
+            "ja": "ダナンしに　なにが　ありますか。",
+            "vi": "Ở thành phố Đà Nẵng có gì?"
+          },
+          "sampleAnswers": [
+            {
+              "ja": "うみと　やまと　おてらが　あります。",
+              "vi": "Có biển, núi và chùa."
+            }
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "し",
+              "reading": "し",
+              "meaning": "Thành phố"
+            },
+            {
+              "word": "うみ",
+              "reading": "うみ",
+              "meaning": "Biển"
+            },
+            {
+              "word": "やま",
+              "reading": "やま",
+              "meaning": "Núi"
+            },
+            {
+              "word": "おてら",
+              "reading": "おてら",
+              "meaning": "Chùa"
+            },
+            {
+              "word": "レストラン",
+              "reading": "レストラン",
+              "meaning": "Nhà hàng"
+            },
+            {
+              "word": "みどり",
+              "reading": "みどり",
+              "meaning": "Cây xanh / màu xanh"
+            },
+            {
+              "word": "きれい",
+              "reading": "きれい",
+              "meaning": "Đẹp, sạch"
+            },
+            {
+              "word": "にぎやか",
+              "reading": "にぎやか",
+              "meaning": "Náo nhiệt"
+            },
+            {
+              "word": "ゆうめい",
+              "reading": "ゆうめい",
+              "meaning": "Nổi tiếng"
+            }
+          ],
+          "tips": [
+            "どんな市ですか hỏi đặc điểm của thành phố.",
+            "何がありますか hỏi trong thành phố có gì.",
+            "Câu khó thường bắt sinh viên trả lời cả miêu tả và liệt kê địa điểm."
+          ]
+        },
+        {
+          "id": "l4_img04_wh_04",
+          "order": 8,
+          "question": {
+            "ja": "ダナンしに　どんな　ところが　ありますか。",
+            "vi": "Ở Đà Nẵng có những nơi như thế nào?"
+          },
+          "sampleAnswers": [
+            {
+              "ja": "きれいな　うみと　ゆうめいな　やまが　あります。",
+              "vi": "Có biển đẹp và núi nổi tiếng."
+            }
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "し",
+              "reading": "し",
+              "meaning": "Thành phố"
+            },
+            {
+              "word": "うみ",
+              "reading": "うみ",
+              "meaning": "Biển"
+            },
+            {
+              "word": "やま",
+              "reading": "やま",
+              "meaning": "Núi"
+            },
+            {
+              "word": "おてら",
+              "reading": "おてら",
+              "meaning": "Chùa"
+            },
+            {
+              "word": "レストラン",
+              "reading": "レストラン",
+              "meaning": "Nhà hàng"
+            },
+            {
+              "word": "みどり",
+              "reading": "みどり",
+              "meaning": "Cây xanh / màu xanh"
+            },
+            {
+              "word": "きれい",
+              "reading": "きれい",
+              "meaning": "Đẹp, sạch"
+            },
+            {
+              "word": "にぎやか",
+              "reading": "にぎやか",
+              "meaning": "Náo nhiệt"
+            },
+            {
+              "word": "ゆうめい",
+              "reading": "ゆうめい",
+              "meaning": "Nổi tiếng"
+            }
+          ],
+          "tips": [
+            "どんな市ですか hỏi đặc điểm của thành phố.",
+            "何がありますか hỏi trong thành phố có gì.",
+            "Câu khó thường bắt sinh viên trả lời cả miêu tả và liệt kê địa điểm."
+          ]
+        },
+        {
+          "id": "l4_img04_wh_05",
+          "order": 9,
+          "question": {
+            "ja": "ダナンしは　どうですか。",
+            "vi": "Thành phố Đà Nẵng như thế nào?"
+          },
+          "sampleAnswers": [
+            {
+              "ja": "きれいです。そして、みどりが　おおいです。",
+              "vi": "Đẹp/sạch. Và có nhiều cây xanh."
+            }
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "し",
+              "reading": "し",
+              "meaning": "Thành phố"
+            },
+            {
+              "word": "うみ",
+              "reading": "うみ",
+              "meaning": "Biển"
+            },
+            {
+              "word": "やま",
+              "reading": "やま",
+              "meaning": "Núi"
+            },
+            {
+              "word": "おてら",
+              "reading": "おてら",
+              "meaning": "Chùa"
+            },
+            {
+              "word": "レストラン",
+              "reading": "レストラン",
+              "meaning": "Nhà hàng"
+            },
+            {
+              "word": "みどり",
+              "reading": "みどり",
+              "meaning": "Cây xanh / màu xanh"
+            },
+            {
+              "word": "きれい",
+              "reading": "きれい",
+              "meaning": "Đẹp, sạch"
+            },
+            {
+              "word": "にぎやか",
+              "reading": "にぎやか",
+              "meaning": "Náo nhiệt"
+            },
+            {
+              "word": "ゆうめい",
+              "reading": "ゆうめい",
+              "meaning": "Nổi tiếng"
+            }
+          ],
+          "tips": [
+            "どんな市ですか hỏi đặc điểm của thành phố.",
+            "何がありますか hỏi trong thành phố có gì.",
+            "Câu khó thường bắt sinh viên trả lời cả miêu tả và liệt kê địa điểm."
+          ]
+        },
+        {
+          "id": "l4_img04_wh_06",
+          "order": 10,
+          "question": {
+            "ja": "ダナンしは　どんな　しですか。そして、しに　なにが　ありますか。",
+            "vi": "Đà Nẵng là thành phố như thế nào? Và trong thành phố có gì?"
+          },
+          "sampleAnswers": [
+            {
+              "ja": "きれいで、にぎやかな　しです。そして、うみと　やまと　レストランが　あります。",
+              "vi": "Là thành phố đẹp và náo nhiệt. Và có biển, núi, nhà hàng."
+            }
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "し",
+              "reading": "し",
+              "meaning": "Thành phố"
+            },
+            {
+              "word": "うみ",
+              "reading": "うみ",
+              "meaning": "Biển"
+            },
+            {
+              "word": "やま",
+              "reading": "やま",
+              "meaning": "Núi"
+            },
+            {
+              "word": "おてら",
+              "reading": "おてら",
+              "meaning": "Chùa"
+            },
+            {
+              "word": "レストラン",
+              "reading": "レストラン",
+              "meaning": "Nhà hàng"
+            },
+            {
+              "word": "みどり",
+              "reading": "みどり",
+              "meaning": "Cây xanh / màu xanh"
+            },
+            {
+              "word": "きれい",
+              "reading": "きれい",
+              "meaning": "Đẹp, sạch"
+            },
+            {
+              "word": "にぎやか",
+              "reading": "にぎやか",
+              "meaning": "Náo nhiệt"
+            },
+            {
+              "word": "ゆうめい",
+              "reading": "ゆうめい",
+              "meaning": "Nổi tiếng"
+            }
+          ],
+          "tips": [
+            "どんな市ですか hỏi đặc điểm của thành phố.",
+            "何がありますか hỏi trong thành phố có gì.",
+            "Câu khó thường bắt sinh viên trả lời cả miêu tả và liệt kê địa điểm."
+          ]
+        },
+        {
+          "id": "l4_img04_wh_07",
+          "order": 11,
+          "question": {
+            "ja": "ダナンしに　うみが　あります。ほかに　なにが　ありますか。",
+            "vi": "Ở Đà Nẵng có biển. Ngoài ra còn có gì?"
+          },
+          "sampleAnswers": [
+            {
+              "ja": "やまと　おてらと　レストランが　あります。",
+              "vi": "Có núi, chùa và nhà hàng."
+            }
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "し",
+              "reading": "し",
+              "meaning": "Thành phố"
+            },
+            {
+              "word": "うみ",
+              "reading": "うみ",
+              "meaning": "Biển"
+            },
+            {
+              "word": "やま",
+              "reading": "やま",
+              "meaning": "Núi"
+            },
+            {
+              "word": "おてら",
+              "reading": "おてら",
+              "meaning": "Chùa"
+            },
+            {
+              "word": "レストラン",
+              "reading": "レストラン",
+              "meaning": "Nhà hàng"
+            },
+            {
+              "word": "みどり",
+              "reading": "みどり",
+              "meaning": "Cây xanh / màu xanh"
+            },
+            {
+              "word": "きれい",
+              "reading": "きれい",
+              "meaning": "Đẹp, sạch"
+            },
+            {
+              "word": "にぎやか",
+              "reading": "にぎやか",
+              "meaning": "Náo nhiệt"
+            },
+            {
+              "word": "ゆうめい",
+              "reading": "ゆうめい",
+              "meaning": "Nổi tiếng"
+            }
+          ],
+          "tips": [
+            "どんな市ですか hỏi đặc điểm của thành phố.",
+            "何がありますか hỏi trong thành phố có gì.",
+            "Câu khó thường bắt sinh viên trả lời cả miêu tả và liệt kê địa điểm."
+          ]
+        }
+      ]
+    },
+    {
+      "pictureId": "jpd123_l4_picture_05_fpt_university",
+      "pictureTitle": "Tranh 5 - FPT大学",
+      "imageUrl": "/data/speaking/jpd123/qa/lesson4_tranh5.png",
+      "questions": [
+        {
+          "id": "l4_img05_yn_01",
+          "order": 1,
+          "question": {
+            "ja": "FPTだいがくは　おおきいですか。",
+            "vi": "Đại học FPT có lớn không?"
+          },
+          "sampleAnswers": [
+            {
+              "ja": "はい、おおきいです。",
+              "vi": "Vâng, lớn."
+            }
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "だいがく",
+              "reading": "だいがく",
+              "meaning": "Đại học"
+            },
+            {
+              "word": "おおきい",
+              "reading": "おおきい",
+              "meaning": "To, lớn"
+            },
+            {
+              "word": "ちいさい",
+              "reading": "ちいさい",
+              "meaning": "Nhỏ"
+            },
+            {
+              "word": "あたらしい",
+              "reading": "あたらしい",
+              "meaning": "Mới"
+            },
+            {
+              "word": "ゆうめい",
+              "reading": "ゆうめい",
+              "meaning": "Nổi tiếng"
+            },
+            {
+              "word": "ちかく",
+              "reading": "ちかく",
+              "meaning": "Gần"
+            },
+            {
+              "word": "としょかん",
+              "reading": "としょかん",
+              "meaning": "Thư viện"
+            },
+            {
+              "word": "カフェ",
+              "reading": "カフェ",
+              "meaning": "Quán cà phê"
+            },
+            {
+              "word": "バスてい",
+              "reading": "バスてい",
+              "meaning": "Trạm xe buýt"
+            }
+          ],
+          "tips": [
+            "FPT大学はどんな大学ですか trả lời bằng tính từ + 大学です.",
+            "近くに何がありますか hỏi các địa điểm xung quanh.",
+            "Câu challenge yêu cầu nối 2 ý bằng そして."
+          ]
+        },
+        {
+          "id": "l4_img05_yn_02",
+          "order": 2,
+          "question": {
+            "ja": "FPTだいがくは　ちいさいですか。",
+            "vi": "Đại học FPT có nhỏ không?"
+          },
+          "sampleAnswers": [
+            {
+              "ja": "いいえ、ちいさくないです。おおきいです。",
+              "vi": "Không, không nhỏ. Lớn."
+            }
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "だいがく",
+              "reading": "だいがく",
+              "meaning": "Đại học"
+            },
+            {
+              "word": "おおきい",
+              "reading": "おおきい",
+              "meaning": "To, lớn"
+            },
+            {
+              "word": "ちいさい",
+              "reading": "ちいさい",
+              "meaning": "Nhỏ"
+            },
+            {
+              "word": "あたらしい",
+              "reading": "あたらしい",
+              "meaning": "Mới"
+            },
+            {
+              "word": "ゆうめい",
+              "reading": "ゆうめい",
+              "meaning": "Nổi tiếng"
+            },
+            {
+              "word": "ちかく",
+              "reading": "ちかく",
+              "meaning": "Gần"
+            },
+            {
+              "word": "としょかん",
+              "reading": "としょかん",
+              "meaning": "Thư viện"
+            },
+            {
+              "word": "カフェ",
+              "reading": "カフェ",
+              "meaning": "Quán cà phê"
+            },
+            {
+              "word": "バスてい",
+              "reading": "バスてい",
+              "meaning": "Trạm xe buýt"
+            }
+          ],
+          "tips": [
+            "FPT大学はどんな大学ですか trả lời bằng tính từ + 大学です.",
+            "近くに何がありますか hỏi các địa điểm xung quanh.",
+            "Câu challenge yêu cầu nối 2 ý bằng そして."
+          ]
+        },
+        {
+          "id": "l4_img05_yn_03",
+          "order": 3,
+          "question": {
+            "ja": "FPTだいがくは　ゆうめいですか。",
+            "vi": "Đại học FPT có nổi tiếng không?"
+          },
+          "sampleAnswers": [
+            {
+              "ja": "はい、ゆうめいです。",
+              "vi": "Vâng, nổi tiếng."
+            }
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "だいがく",
+              "reading": "だいがく",
+              "meaning": "Đại học"
+            },
+            {
+              "word": "おおきい",
+              "reading": "おおきい",
+              "meaning": "To, lớn"
+            },
+            {
+              "word": "ちいさい",
+              "reading": "ちいさい",
+              "meaning": "Nhỏ"
+            },
+            {
+              "word": "あたらしい",
+              "reading": "あたらしい",
+              "meaning": "Mới"
+            },
+            {
+              "word": "ゆうめい",
+              "reading": "ゆうめい",
+              "meaning": "Nổi tiếng"
+            },
+            {
+              "word": "ちかく",
+              "reading": "ちかく",
+              "meaning": "Gần"
+            },
+            {
+              "word": "としょかん",
+              "reading": "としょかん",
+              "meaning": "Thư viện"
+            },
+            {
+              "word": "カフェ",
+              "reading": "カフェ",
+              "meaning": "Quán cà phê"
+            },
+            {
+              "word": "バスてい",
+              "reading": "バスてい",
+              "meaning": "Trạm xe buýt"
+            }
+          ],
+          "tips": [
+            "FPT大学はどんな大学ですか trả lời bằng tính từ + 大学です.",
+            "近くに何がありますか hỏi các địa điểm xung quanh.",
+            "Câu challenge yêu cầu nối 2 ý bằng そして."
+          ]
+        },
+        {
+          "id": "l4_img05_yn_04",
+          "order": 4,
+          "question": {
+            "ja": "FPTだいがくの　ちかくに　カフェが　ありますか。",
+            "vi": "Gần Đại học FPT có quán cà phê không?"
+          },
+          "sampleAnswers": [
+            {
+              "ja": "はい、あります。",
+              "vi": "Có."
+            }
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "だいがく",
+              "reading": "だいがく",
+              "meaning": "Đại học"
+            },
+            {
+              "word": "おおきい",
+              "reading": "おおきい",
+              "meaning": "To, lớn"
+            },
+            {
+              "word": "ちいさい",
+              "reading": "ちいさい",
+              "meaning": "Nhỏ"
+            },
+            {
+              "word": "あたらしい",
+              "reading": "あたらしい",
+              "meaning": "Mới"
+            },
+            {
+              "word": "ゆうめい",
+              "reading": "ゆうめい",
+              "meaning": "Nổi tiếng"
+            },
+            {
+              "word": "ちかく",
+              "reading": "ちかく",
+              "meaning": "Gần"
+            },
+            {
+              "word": "としょかん",
+              "reading": "としょかん",
+              "meaning": "Thư viện"
+            },
+            {
+              "word": "カフェ",
+              "reading": "カフェ",
+              "meaning": "Quán cà phê"
+            },
+            {
+              "word": "バスてい",
+              "reading": "バスてい",
+              "meaning": "Trạm xe buýt"
+            }
+          ],
+          "tips": [
+            "FPT大学はどんな大学ですか trả lời bằng tính từ + 大学です.",
+            "近くに何がありますか hỏi các địa điểm xung quanh.",
+            "Câu challenge yêu cầu nối 2 ý bằng そして."
+          ]
+        },
+        {
+          "id": "l4_img05_wh_01",
+          "order": 5,
+          "question": {
+            "ja": "ここは　どこですか。",
+            "vi": "Đây là đâu?"
+          },
+          "sampleAnswers": [
+            {
+              "ja": "FPTだいがくです。",
+              "vi": "Là Đại học FPT."
+            }
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "だいがく",
+              "reading": "だいがく",
+              "meaning": "Đại học"
+            },
+            {
+              "word": "おおきい",
+              "reading": "おおきい",
+              "meaning": "To, lớn"
+            },
+            {
+              "word": "ちいさい",
+              "reading": "ちいさい",
+              "meaning": "Nhỏ"
+            },
+            {
+              "word": "あたらしい",
+              "reading": "あたらしい",
+              "meaning": "Mới"
+            },
+            {
+              "word": "ゆうめい",
+              "reading": "ゆうめい",
+              "meaning": "Nổi tiếng"
+            },
+            {
+              "word": "ちかく",
+              "reading": "ちかく",
+              "meaning": "Gần"
+            },
+            {
+              "word": "としょかん",
+              "reading": "としょかん",
+              "meaning": "Thư viện"
+            },
+            {
+              "word": "カフェ",
+              "reading": "カフェ",
+              "meaning": "Quán cà phê"
+            },
+            {
+              "word": "バスてい",
+              "reading": "バスてい",
+              "meaning": "Trạm xe buýt"
+            }
+          ],
+          "tips": [
+            "FPT大学はどんな大学ですか trả lời bằng tính từ + 大学です.",
+            "近くに何がありますか hỏi các địa điểm xung quanh.",
+            "Câu challenge yêu cầu nối 2 ý bằng そして."
+          ]
+        },
+        {
+          "id": "l4_img05_wh_02",
+          "order": 6,
+          "question": {
+            "ja": "FPTだいがくは　どんな　だいがくですか。",
+            "vi": "Đại học FPT là trường đại học như thế nào?"
+          },
+          "sampleAnswers": [
+            {
+              "ja": "おおきい　だいがくです。",
+              "vi": "Là trường đại học lớn."
+            },
+            {
+              "ja": "ゆうめいな　だいがくです。",
+              "vi": "Là trường đại học nổi tiếng."
+            }
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "だいがく",
+              "reading": "だいがく",
+              "meaning": "Đại học"
+            },
+            {
+              "word": "おおきい",
+              "reading": "おおきい",
+              "meaning": "To, lớn"
+            },
+            {
+              "word": "ちいさい",
+              "reading": "ちいさい",
+              "meaning": "Nhỏ"
+            },
+            {
+              "word": "あたらしい",
+              "reading": "あたらしい",
+              "meaning": "Mới"
+            },
+            {
+              "word": "ゆうめい",
+              "reading": "ゆうめい",
+              "meaning": "Nổi tiếng"
+            },
+            {
+              "word": "ちかく",
+              "reading": "ちかく",
+              "meaning": "Gần"
+            },
+            {
+              "word": "としょかん",
+              "reading": "としょかん",
+              "meaning": "Thư viện"
+            },
+            {
+              "word": "カフェ",
+              "reading": "カフェ",
+              "meaning": "Quán cà phê"
+            },
+            {
+              "word": "バスてい",
+              "reading": "バスてい",
+              "meaning": "Trạm xe buýt"
+            }
+          ],
+          "tips": [
+            "FPT大学はどんな大学ですか trả lời bằng tính từ + 大学です.",
+            "近くに何がありますか hỏi các địa điểm xung quanh.",
+            "Câu challenge yêu cầu nối 2 ý bằng そして."
+          ]
+        },
+        {
+          "id": "l4_img05_wh_03",
+          "order": 7,
+          "question": {
+            "ja": "FPTだいがくの　ちかくに　なにが　ありますか。",
+            "vi": "Gần Đại học FPT có gì?"
+          },
+          "sampleAnswers": [
+            {
+              "ja": "としょかんと　カフェと　バスていが　あります。",
+              "vi": "Có thư viện, quán cà phê và trạm xe buýt."
+            }
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "だいがく",
+              "reading": "だいがく",
+              "meaning": "Đại học"
+            },
+            {
+              "word": "おおきい",
+              "reading": "おおきい",
+              "meaning": "To, lớn"
+            },
+            {
+              "word": "ちいさい",
+              "reading": "ちいさい",
+              "meaning": "Nhỏ"
+            },
+            {
+              "word": "あたらしい",
+              "reading": "あたらしい",
+              "meaning": "Mới"
+            },
+            {
+              "word": "ゆうめい",
+              "reading": "ゆうめい",
+              "meaning": "Nổi tiếng"
+            },
+            {
+              "word": "ちかく",
+              "reading": "ちかく",
+              "meaning": "Gần"
+            },
+            {
+              "word": "としょかん",
+              "reading": "としょかん",
+              "meaning": "Thư viện"
+            },
+            {
+              "word": "カフェ",
+              "reading": "カフェ",
+              "meaning": "Quán cà phê"
+            },
+            {
+              "word": "バスてい",
+              "reading": "バスてい",
+              "meaning": "Trạm xe buýt"
+            }
+          ],
+          "tips": [
+            "FPT大学はどんな大学ですか trả lời bằng tính từ + 大学です.",
+            "近くに何がありますか hỏi các địa điểm xung quanh.",
+            "Câu challenge yêu cầu nối 2 ý bằng そして."
+          ]
+        },
+        {
+          "id": "l4_img05_wh_04",
+          "order": 8,
+          "question": {
+            "ja": "FPTだいがくは　どうですか。",
+            "vi": "Đại học FPT như thế nào?"
+          },
+          "sampleAnswers": [
+            {
+              "ja": "おおきいです。そして、みどりが　おおいです。",
+              "vi": "Lớn. Và có nhiều cây xanh."
+            }
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "だいがく",
+              "reading": "だいがく",
+              "meaning": "Đại học"
+            },
+            {
+              "word": "おおきい",
+              "reading": "おおきい",
+              "meaning": "To, lớn"
+            },
+            {
+              "word": "ちいさい",
+              "reading": "ちいさい",
+              "meaning": "Nhỏ"
+            },
+            {
+              "word": "あたらしい",
+              "reading": "あたらしい",
+              "meaning": "Mới"
+            },
+            {
+              "word": "ゆうめい",
+              "reading": "ゆうめい",
+              "meaning": "Nổi tiếng"
+            },
+            {
+              "word": "ちかく",
+              "reading": "ちかく",
+              "meaning": "Gần"
+            },
+            {
+              "word": "としょかん",
+              "reading": "としょかん",
+              "meaning": "Thư viện"
+            },
+            {
+              "word": "カフェ",
+              "reading": "カフェ",
+              "meaning": "Quán cà phê"
+            },
+            {
+              "word": "バスてい",
+              "reading": "バスてい",
+              "meaning": "Trạm xe buýt"
+            }
+          ],
+          "tips": [
+            "FPT大学はどんな大学ですか trả lời bằng tính từ + 大学です.",
+            "近くに何がありますか hỏi các địa điểm xung quanh.",
+            "Câu challenge yêu cầu nối 2 ý bằng そして."
+          ]
+        },
+        {
+          "id": "l4_img05_wh_05",
+          "order": 9,
+          "question": {
+            "ja": "FPTだいがくに　なにが　ありますか。",
+            "vi": "Trong Đại học FPT có gì?"
+          },
+          "sampleAnswers": [
+            {
+              "ja": "おおきい　ビルと　としょかんが　あります。",
+              "vi": "Có tòa nhà lớn và thư viện."
+            }
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "だいがく",
+              "reading": "だいがく",
+              "meaning": "Đại học"
+            },
+            {
+              "word": "おおきい",
+              "reading": "おおきい",
+              "meaning": "To, lớn"
+            },
+            {
+              "word": "ちいさい",
+              "reading": "ちいさい",
+              "meaning": "Nhỏ"
+            },
+            {
+              "word": "あたらしい",
+              "reading": "あたらしい",
+              "meaning": "Mới"
+            },
+            {
+              "word": "ゆうめい",
+              "reading": "ゆうめい",
+              "meaning": "Nổi tiếng"
+            },
+            {
+              "word": "ちかく",
+              "reading": "ちかく",
+              "meaning": "Gần"
+            },
+            {
+              "word": "としょかん",
+              "reading": "としょかん",
+              "meaning": "Thư viện"
+            },
+            {
+              "word": "カフェ",
+              "reading": "カフェ",
+              "meaning": "Quán cà phê"
+            },
+            {
+              "word": "バスてい",
+              "reading": "バスてい",
+              "meaning": "Trạm xe buýt"
+            }
+          ],
+          "tips": [
+            "FPT大学はどんな大学ですか trả lời bằng tính từ + 大学です.",
+            "近くに何がありますか hỏi các địa điểm xung quanh.",
+            "Câu challenge yêu cầu nối 2 ý bằng そして."
+          ]
+        },
+        {
+          "id": "l4_img05_wh_06",
+          "order": 10,
+          "question": {
+            "ja": "FPTだいがくは　どんな　だいがくですか。そして、ちかくに　なにが　ありますか。",
+            "vi": "Đại học FPT là trường như thế nào? Và gần đó có gì?"
+          },
+          "sampleAnswers": [
+            {
+              "ja": "おおきくて、ゆうめいな　だいがくです。そして、ちかくに　カフェと　バスていが　あります。",
+              "vi": "Là trường đại học lớn và nổi tiếng. Và gần đó có quán cà phê và trạm xe buýt."
+            }
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "だいがく",
+              "reading": "だいがく",
+              "meaning": "Đại học"
+            },
+            {
+              "word": "おおきい",
+              "reading": "おおきい",
+              "meaning": "To, lớn"
+            },
+            {
+              "word": "ちいさい",
+              "reading": "ちいさい",
+              "meaning": "Nhỏ"
+            },
+            {
+              "word": "あたらしい",
+              "reading": "あたらしい",
+              "meaning": "Mới"
+            },
+            {
+              "word": "ゆうめい",
+              "reading": "ゆうめい",
+              "meaning": "Nổi tiếng"
+            },
+            {
+              "word": "ちかく",
+              "reading": "ちかく",
+              "meaning": "Gần"
+            },
+            {
+              "word": "としょかん",
+              "reading": "としょかん",
+              "meaning": "Thư viện"
+            },
+            {
+              "word": "カフェ",
+              "reading": "カフェ",
+              "meaning": "Quán cà phê"
+            },
+            {
+              "word": "バスてい",
+              "reading": "バスてい",
+              "meaning": "Trạm xe buýt"
+            }
+          ],
+          "tips": [
+            "FPT大学はどんな大学ですか trả lời bằng tính từ + 大学です.",
+            "近くに何がありますか hỏi các địa điểm xung quanh.",
+            "Câu challenge yêu cầu nối 2 ý bằng そして."
+          ]
+        }
+      ]
+    },
+    {
+      "pictureId": "jpd123_l4_picture_06_december_weather",
+      "pictureTitle": "Tranh 6 - Thời tiết tháng 12",
+      "imageUrl": "/data/speaking/jpd123/qa/lesson4_tranh6.png",
+      "questions": [
+        {
+          "id": "l4_img06_yn_01",
+          "order": 1,
+          "question": {
+            "ja": "じゅうにがつの　ベトナムは　あついですか。",
+            "vi": "Việt Nam tháng 12 có nóng không?"
+          },
+          "sampleAnswers": [
+            {
+              "ja": "いいえ、あまり　あつくないです。すずしいです。",
+              "vi": "Không, không nóng lắm. Mát mẻ."
+            }
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "てんき",
+              "reading": "てんき",
+              "meaning": "Thời tiết"
+            },
+            {
+              "word": "じゅうにがつ",
+              "reading": "じゅうにがつ",
+              "meaning": "Tháng 12"
+            },
+            {
+              "word": "あつい",
+              "reading": "あつい",
+              "meaning": "Nóng"
+            },
+            {
+              "word": "さむい",
+              "reading": "さむい",
+              "meaning": "Lạnh"
+            },
+            {
+              "word": "すずしい",
+              "reading": "すずしい",
+              "meaning": "Mát mẻ"
+            },
+            {
+              "word": "すこし",
+              "reading": "すこし",
+              "meaning": "Một chút"
+            },
+            {
+              "word": "あまり",
+              "reading": "あまり",
+              "meaning": "Không ~ lắm, dùng với phủ định"
+            },
+            {
+              "word": "ゆき",
+              "reading": "ゆき",
+              "meaning": "Tuyết"
+            }
+          ],
+          "tips": [
+            "どうですか hỏi cảm nhận/tình trạng chung.",
+            "あまり thường đi với phủ định: あまりあつくないです.",
+            "Câu challenge yêu cầu so sánh thông tin giữa nhiều cột trong tranh."
+          ]
+        },
+        {
+          "id": "l4_img06_yn_02",
+          "order": 2,
+          "question": {
+            "ja": "じゅうにがつの　にほんは　さむいですか。",
+            "vi": "Nhật Bản tháng 12 có lạnh không?"
+          },
+          "sampleAnswers": [
+            {
+              "ja": "はい、さむいです。",
+              "vi": "Vâng, lạnh."
+            }
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "てんき",
+              "reading": "てんき",
+              "meaning": "Thời tiết"
+            },
+            {
+              "word": "じゅうにがつ",
+              "reading": "じゅうにがつ",
+              "meaning": "Tháng 12"
+            },
+            {
+              "word": "あつい",
+              "reading": "あつい",
+              "meaning": "Nóng"
+            },
+            {
+              "word": "さむい",
+              "reading": "さむい",
+              "meaning": "Lạnh"
+            },
+            {
+              "word": "すずしい",
+              "reading": "すずしい",
+              "meaning": "Mát mẻ"
+            },
+            {
+              "word": "すこし",
+              "reading": "すこし",
+              "meaning": "Một chút"
+            },
+            {
+              "word": "あまり",
+              "reading": "あまり",
+              "meaning": "Không ~ lắm, dùng với phủ định"
+            },
+            {
+              "word": "ゆき",
+              "reading": "ゆき",
+              "meaning": "Tuyết"
+            }
+          ],
+          "tips": [
+            "どうですか hỏi cảm nhận/tình trạng chung.",
+            "あまり thường đi với phủ định: あまりあつくないです.",
+            "Câu challenge yêu cầu so sánh thông tin giữa nhiều cột trong tranh."
+          ]
+        },
+        {
+          "id": "l4_img06_yn_03",
+          "order": 3,
+          "question": {
+            "ja": "きょうは　すこし　あついですか。",
+            "vi": "Hôm nay hơi nóng phải không?"
+          },
+          "sampleAnswers": [
+            {
+              "ja": "はい、すこし　あついです。",
+              "vi": "Vâng, hơi nóng."
+            }
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "てんき",
+              "reading": "てんき",
+              "meaning": "Thời tiết"
+            },
+            {
+              "word": "じゅうにがつ",
+              "reading": "じゅうにがつ",
+              "meaning": "Tháng 12"
+            },
+            {
+              "word": "あつい",
+              "reading": "あつい",
+              "meaning": "Nóng"
+            },
+            {
+              "word": "さむい",
+              "reading": "さむい",
+              "meaning": "Lạnh"
+            },
+            {
+              "word": "すずしい",
+              "reading": "すずしい",
+              "meaning": "Mát mẻ"
+            },
+            {
+              "word": "すこし",
+              "reading": "すこし",
+              "meaning": "Một chút"
+            },
+            {
+              "word": "あまり",
+              "reading": "あまり",
+              "meaning": "Không ~ lắm, dùng với phủ định"
+            },
+            {
+              "word": "ゆき",
+              "reading": "ゆき",
+              "meaning": "Tuyết"
+            }
+          ],
+          "tips": [
+            "どうですか hỏi cảm nhận/tình trạng chung.",
+            "あまり thường đi với phủ định: あまりあつくないです.",
+            "Câu challenge yêu cầu so sánh thông tin giữa nhiều cột trong tranh."
+          ]
+        },
+        {
+          "id": "l4_img06_wh_01",
+          "order": 4,
+          "question": {
+            "ja": "じゅうにがつの　ベトナムは　どうですか。",
+            "vi": "Việt Nam tháng 12 như thế nào?"
+          },
+          "sampleAnswers": [
+            {
+              "ja": "すずしいです。",
+              "vi": "Mát mẻ."
+            }
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "てんき",
+              "reading": "てんき",
+              "meaning": "Thời tiết"
+            },
+            {
+              "word": "じゅうにがつ",
+              "reading": "じゅうにがつ",
+              "meaning": "Tháng 12"
+            },
+            {
+              "word": "あつい",
+              "reading": "あつい",
+              "meaning": "Nóng"
+            },
+            {
+              "word": "さむい",
+              "reading": "さむい",
+              "meaning": "Lạnh"
+            },
+            {
+              "word": "すずしい",
+              "reading": "すずしい",
+              "meaning": "Mát mẻ"
+            },
+            {
+              "word": "すこし",
+              "reading": "すこし",
+              "meaning": "Một chút"
+            },
+            {
+              "word": "あまり",
+              "reading": "あまり",
+              "meaning": "Không ~ lắm, dùng với phủ định"
+            },
+            {
+              "word": "ゆき",
+              "reading": "ゆき",
+              "meaning": "Tuyết"
+            }
+          ],
+          "tips": [
+            "どうですか hỏi cảm nhận/tình trạng chung.",
+            "あまり thường đi với phủ định: あまりあつくないです.",
+            "Câu challenge yêu cầu so sánh thông tin giữa nhiều cột trong tranh."
+          ]
+        },
+        {
+          "id": "l4_img06_wh_02",
+          "order": 5,
+          "question": {
+            "ja": "じゅうにがつの　にほんは　どうですか。",
+            "vi": "Nhật Bản tháng 12 như thế nào?"
+          },
+          "sampleAnswers": [
+            {
+              "ja": "さむいです。",
+              "vi": "Lạnh."
+            }
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "てんき",
+              "reading": "てんき",
+              "meaning": "Thời tiết"
+            },
+            {
+              "word": "じゅうにがつ",
+              "reading": "じゅうにがつ",
+              "meaning": "Tháng 12"
+            },
+            {
+              "word": "あつい",
+              "reading": "あつい",
+              "meaning": "Nóng"
+            },
+            {
+              "word": "さむい",
+              "reading": "さむい",
+              "meaning": "Lạnh"
+            },
+            {
+              "word": "すずしい",
+              "reading": "すずしい",
+              "meaning": "Mát mẻ"
+            },
+            {
+              "word": "すこし",
+              "reading": "すこし",
+              "meaning": "Một chút"
+            },
+            {
+              "word": "あまり",
+              "reading": "あまり",
+              "meaning": "Không ~ lắm, dùng với phủ định"
+            },
+            {
+              "word": "ゆき",
+              "reading": "ゆき",
+              "meaning": "Tuyết"
+            }
+          ],
+          "tips": [
+            "どうですか hỏi cảm nhận/tình trạng chung.",
+            "あまり thường đi với phủ định: あまりあつくないです.",
+            "Câu challenge yêu cầu so sánh thông tin giữa nhiều cột trong tranh."
+          ]
+        },
+        {
+          "id": "l4_img06_wh_03",
+          "order": 6,
+          "question": {
+            "ja": "イギリスは　いま　どうですか。",
+            "vi": "Bây giờ ở Anh như thế nào?"
+          },
+          "sampleAnswers": [
+            {
+              "ja": "あついです。",
+              "vi": "Nóng."
+            }
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "てんき",
+              "reading": "てんき",
+              "meaning": "Thời tiết"
+            },
+            {
+              "word": "じゅうにがつ",
+              "reading": "じゅうにがつ",
+              "meaning": "Tháng 12"
+            },
+            {
+              "word": "あつい",
+              "reading": "あつい",
+              "meaning": "Nóng"
+            },
+            {
+              "word": "さむい",
+              "reading": "さむい",
+              "meaning": "Lạnh"
+            },
+            {
+              "word": "すずしい",
+              "reading": "すずしい",
+              "meaning": "Mát mẻ"
+            },
+            {
+              "word": "すこし",
+              "reading": "すこし",
+              "meaning": "Một chút"
+            },
+            {
+              "word": "あまり",
+              "reading": "あまり",
+              "meaning": "Không ~ lắm, dùng với phủ định"
+            },
+            {
+              "word": "ゆき",
+              "reading": "ゆき",
+              "meaning": "Tuyết"
+            }
+          ],
+          "tips": [
+            "どうですか hỏi cảm nhận/tình trạng chung.",
+            "あまり thường đi với phủ định: あまりあつくないです.",
+            "Câu challenge yêu cầu so sánh thông tin giữa nhiều cột trong tranh."
+          ]
+        },
+        {
+          "id": "l4_img06_wh_04",
+          "order": 7,
+          "question": {
+            "ja": "きょうは　どうですか。",
+            "vi": "Hôm nay như thế nào?"
+          },
+          "sampleAnswers": [
+            {
+              "ja": "すこし　あついです。",
+              "vi": "Hơi nóng."
+            }
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "てんき",
+              "reading": "てんき",
+              "meaning": "Thời tiết"
+            },
+            {
+              "word": "じゅうにがつ",
+              "reading": "じゅうにがつ",
+              "meaning": "Tháng 12"
+            },
+            {
+              "word": "あつい",
+              "reading": "あつい",
+              "meaning": "Nóng"
+            },
+            {
+              "word": "さむい",
+              "reading": "さむい",
+              "meaning": "Lạnh"
+            },
+            {
+              "word": "すずしい",
+              "reading": "すずしい",
+              "meaning": "Mát mẻ"
+            },
+            {
+              "word": "すこし",
+              "reading": "すこし",
+              "meaning": "Một chút"
+            },
+            {
+              "word": "あまり",
+              "reading": "あまり",
+              "meaning": "Không ~ lắm, dùng với phủ định"
+            },
+            {
+              "word": "ゆき",
+              "reading": "ゆき",
+              "meaning": "Tuyết"
+            }
+          ],
+          "tips": [
+            "どうですか hỏi cảm nhận/tình trạng chung.",
+            "あまり thường đi với phủ định: あまりあつくないです.",
+            "Câu challenge yêu cầu so sánh thông tin giữa nhiều cột trong tranh."
+          ]
+        },
+        {
+          "id": "l4_img06_wh_05",
+          "order": 8,
+          "question": {
+            "ja": "じゅうにがつの　にほんに　なにが　ありますか。",
+            "vi": "Ở Nhật Bản tháng 12 có gì?"
+          },
+          "sampleAnswers": [
+            {
+              "ja": "ゆきが　あります。",
+              "vi": "Có tuyết."
+            }
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "てんき",
+              "reading": "てんき",
+              "meaning": "Thời tiết"
+            },
+            {
+              "word": "じゅうにがつ",
+              "reading": "じゅうにがつ",
+              "meaning": "Tháng 12"
+            },
+            {
+              "word": "あつい",
+              "reading": "あつい",
+              "meaning": "Nóng"
+            },
+            {
+              "word": "さむい",
+              "reading": "さむい",
+              "meaning": "Lạnh"
+            },
+            {
+              "word": "すずしい",
+              "reading": "すずしい",
+              "meaning": "Mát mẻ"
+            },
+            {
+              "word": "すこし",
+              "reading": "すこし",
+              "meaning": "Một chút"
+            },
+            {
+              "word": "あまり",
+              "reading": "あまり",
+              "meaning": "Không ~ lắm, dùng với phủ định"
+            },
+            {
+              "word": "ゆき",
+              "reading": "ゆき",
+              "meaning": "Tuyết"
+            }
+          ],
+          "tips": [
+            "どうですか hỏi cảm nhận/tình trạng chung.",
+            "あまり thường đi với phủ định: あまりあつくないです.",
+            "Câu challenge yêu cầu so sánh thông tin giữa nhiều cột trong tranh."
+          ]
+        },
+        {
+          "id": "l4_img06_wh_06",
+          "order": 9,
+          "question": {
+            "ja": "じゅうにがつの　ベトナムは　どうですか。そして、じゅうにがつの　にほんは　どうですか。",
+            "vi": "Việt Nam tháng 12 như thế nào? Và Nhật Bản tháng 12 như thế nào?"
+          },
+          "sampleAnswers": [
+            {
+              "ja": "ベトナムは　すずしいです。そして、にほんは　さむいです。",
+              "vi": "Việt Nam mát mẻ. Và Nhật Bản lạnh."
+            }
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "てんき",
+              "reading": "てんき",
+              "meaning": "Thời tiết"
+            },
+            {
+              "word": "じゅうにがつ",
+              "reading": "じゅうにがつ",
+              "meaning": "Tháng 12"
+            },
+            {
+              "word": "あつい",
+              "reading": "あつい",
+              "meaning": "Nóng"
+            },
+            {
+              "word": "さむい",
+              "reading": "さむい",
+              "meaning": "Lạnh"
+            },
+            {
+              "word": "すずしい",
+              "reading": "すずしい",
+              "meaning": "Mát mẻ"
+            },
+            {
+              "word": "すこし",
+              "reading": "すこし",
+              "meaning": "Một chút"
+            },
+            {
+              "word": "あまり",
+              "reading": "あまり",
+              "meaning": "Không ~ lắm, dùng với phủ định"
+            },
+            {
+              "word": "ゆき",
+              "reading": "ゆき",
+              "meaning": "Tuyết"
+            }
+          ],
+          "tips": [
+            "どうですか hỏi cảm nhận/tình trạng chung.",
+            "あまり thường đi với phủ định: あまりあつくないです.",
+            "Câu challenge yêu cầu so sánh thông tin giữa nhiều cột trong tranh."
+          ]
+        },
+        {
+          "id": "l4_img06_wh_07",
+          "order": 10,
+          "question": {
+            "ja": "このえを　みてください。じゅうにがつの　てんきは　どうですか。",
+            "vi": "Hãy nhìn tranh này. Thời tiết tháng 12 như thế nào?"
+          },
+          "sampleAnswers": [
+            {
+              "ja": "ベトナムは　すずしいです。にほんは　さむいです。イギリスは　あついです。",
+              "vi": "Việt Nam mát mẻ. Nhật Bản lạnh. Anh thì nóng."
+            }
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "てんき",
+              "reading": "てんき",
+              "meaning": "Thời tiết"
+            },
+            {
+              "word": "じゅうにがつ",
+              "reading": "じゅうにがつ",
+              "meaning": "Tháng 12"
+            },
+            {
+              "word": "あつい",
+              "reading": "あつい",
+              "meaning": "Nóng"
+            },
+            {
+              "word": "さむい",
+              "reading": "さむい",
+              "meaning": "Lạnh"
+            },
+            {
+              "word": "すずしい",
+              "reading": "すずしい",
+              "meaning": "Mát mẻ"
+            },
+            {
+              "word": "すこし",
+              "reading": "すこし",
+              "meaning": "Một chút"
+            },
+            {
+              "word": "あまり",
+              "reading": "あまり",
+              "meaning": "Không ~ lắm, dùng với phủ định"
+            },
+            {
+              "word": "ゆき",
+              "reading": "ゆき",
+              "meaning": "Tuyết"
+            }
+          ],
+          "tips": [
+            "どうですか hỏi cảm nhận/tình trạng chung.",
+            "あまり thường đi với phủ định: あまりあつくないです.",
+            "Câu challenge yêu cầu so sánh thông tin giữa nhiều cột trong tranh."
+          ]
+        }
+      ]
+    },
+    {
+      "pictureId": "jpd123_l4_picture_07_vietnamese_food_restaurant",
+      "pictureTitle": "Tranh 7 - Nhà hàng món ăn Việt Nam",
+      "imageUrl": "/data/speaking/jpd123/qa/lesson4_tranh7.png",
+      "questions": [
+        {
+          "id": "l4_img07_yn_01",
+          "order": 1,
+          "question": {
+            "ja": "ベトナムの　りょうりは　おいしいですか。",
+            "vi": "Món ăn Việt Nam có ngon không?"
+          },
+          "sampleAnswers": [
+            {
+              "ja": "はい、おいしいです。",
+              "vi": "Vâng, ngon."
+            }
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "りょうり",
+              "reading": "りょうり",
+              "meaning": "Món ăn / nấu ăn"
+            },
+            {
+              "word": "レストラン",
+              "reading": "レストラン",
+              "meaning": "Nhà hàng"
+            },
+            {
+              "word": "フォー",
+              "reading": "フォー",
+              "meaning": "Phở"
+            },
+            {
+              "word": "コーヒー",
+              "reading": "コーヒー",
+              "meaning": "Cà phê"
+            },
+            {
+              "word": "レモンジュース",
+              "reading": "レモンジュース",
+              "meaning": "Nước chanh"
+            },
+            {
+              "word": "おいしい",
+              "reading": "おいしい",
+              "meaning": "Ngon"
+            },
+            {
+              "word": "たかい",
+              "reading": "たかい",
+              "meaning": "Đắt / cao"
+            },
+            {
+              "word": "にがい",
+              "reading": "にがい",
+              "meaning": "Đắng"
+            },
+            {
+              "word": "すっぱい",
+              "reading": "すっぱい",
+              "meaning": "Chua"
+            },
+            {
+              "word": "にぎやか",
+              "reading": "にぎやか",
+              "meaning": "Náo nhiệt"
+            }
+          ],
+          "tips": [
+            "りょうりはどうですか trả lời bằng tính từ vị giác như おいしいです.",
+            "あまり高くないです là mẫu phủ định nhẹ, nghĩa là không đắt lắm.",
+            "Câu hỏi 何時から何時まで yêu cầu nhìn thời gian trong tranh."
+          ]
+        },
+        {
+          "id": "l4_img07_yn_02",
+          "order": 2,
+          "question": {
+            "ja": "ベトナムの　りょうりは　たかいですか。",
+            "vi": "Món ăn Việt Nam có đắt không?"
+          },
+          "sampleAnswers": [
+            {
+              "ja": "いいえ、あまり　たかくないです。",
+              "vi": "Không, không đắt lắm."
+            }
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "りょうり",
+              "reading": "りょうり",
+              "meaning": "Món ăn / nấu ăn"
+            },
+            {
+              "word": "レストラン",
+              "reading": "レストラン",
+              "meaning": "Nhà hàng"
+            },
+            {
+              "word": "フォー",
+              "reading": "フォー",
+              "meaning": "Phở"
+            },
+            {
+              "word": "コーヒー",
+              "reading": "コーヒー",
+              "meaning": "Cà phê"
+            },
+            {
+              "word": "レモンジュース",
+              "reading": "レモンジュース",
+              "meaning": "Nước chanh"
+            },
+            {
+              "word": "おいしい",
+              "reading": "おいしい",
+              "meaning": "Ngon"
+            },
+            {
+              "word": "たかい",
+              "reading": "たかい",
+              "meaning": "Đắt / cao"
+            },
+            {
+              "word": "にがい",
+              "reading": "にがい",
+              "meaning": "Đắng"
+            },
+            {
+              "word": "すっぱい",
+              "reading": "すっぱい",
+              "meaning": "Chua"
+            },
+            {
+              "word": "にぎやか",
+              "reading": "にぎやか",
+              "meaning": "Náo nhiệt"
+            }
+          ],
+          "tips": [
+            "りょうりはどうですか trả lời bằng tính từ vị giác như おいしいです.",
+            "あまり高くないです là mẫu phủ định nhẹ, nghĩa là không đắt lắm.",
+            "Câu hỏi 何時から何時まで yêu cầu nhìn thời gian trong tranh."
+          ]
+        },
+        {
+          "id": "l4_img07_yn_03",
+          "order": 3,
+          "question": {
+            "ja": "このレストランは　じゅうにじから　いちじまで　にぎやかですか。",
+            "vi": "Nhà hàng này từ 12 giờ đến 1 giờ có náo nhiệt không?"
+          },
+          "sampleAnswers": [
+            {
+              "ja": "はい、とても　にぎやかです。",
+              "vi": "Vâng, rất náo nhiệt."
+            }
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "りょうり",
+              "reading": "りょうり",
+              "meaning": "Món ăn / nấu ăn"
+            },
+            {
+              "word": "レストラン",
+              "reading": "レストラン",
+              "meaning": "Nhà hàng"
+            },
+            {
+              "word": "フォー",
+              "reading": "フォー",
+              "meaning": "Phở"
+            },
+            {
+              "word": "コーヒー",
+              "reading": "コーヒー",
+              "meaning": "Cà phê"
+            },
+            {
+              "word": "レモンジュース",
+              "reading": "レモンジュース",
+              "meaning": "Nước chanh"
+            },
+            {
+              "word": "おいしい",
+              "reading": "おいしい",
+              "meaning": "Ngon"
+            },
+            {
+              "word": "たかい",
+              "reading": "たかい",
+              "meaning": "Đắt / cao"
+            },
+            {
+              "word": "にがい",
+              "reading": "にがい",
+              "meaning": "Đắng"
+            },
+            {
+              "word": "すっぱい",
+              "reading": "すっぱい",
+              "meaning": "Chua"
+            },
+            {
+              "word": "にぎやか",
+              "reading": "にぎやか",
+              "meaning": "Náo nhiệt"
+            }
+          ],
+          "tips": [
+            "りょうりはどうですか trả lời bằng tính từ vị giác như おいしいです.",
+            "あまり高くないです là mẫu phủ định nhẹ, nghĩa là không đắt lắm.",
+            "Câu hỏi 何時から何時まで yêu cầu nhìn thời gian trong tranh."
+          ]
+        },
+        {
+          "id": "l4_img07_yn_04",
+          "order": 4,
+          "question": {
+            "ja": "コーヒーは　すこし　にがいですか。",
+            "vi": "Cà phê hơi đắng phải không?"
+          },
+          "sampleAnswers": [
+            {
+              "ja": "はい、すこし　にがいです。",
+              "vi": "Vâng, hơi đắng."
+            }
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "りょうり",
+              "reading": "りょうり",
+              "meaning": "Món ăn / nấu ăn"
+            },
+            {
+              "word": "レストラン",
+              "reading": "レストラン",
+              "meaning": "Nhà hàng"
+            },
+            {
+              "word": "フォー",
+              "reading": "フォー",
+              "meaning": "Phở"
+            },
+            {
+              "word": "コーヒー",
+              "reading": "コーヒー",
+              "meaning": "Cà phê"
+            },
+            {
+              "word": "レモンジュース",
+              "reading": "レモンジュース",
+              "meaning": "Nước chanh"
+            },
+            {
+              "word": "おいしい",
+              "reading": "おいしい",
+              "meaning": "Ngon"
+            },
+            {
+              "word": "たかい",
+              "reading": "たかい",
+              "meaning": "Đắt / cao"
+            },
+            {
+              "word": "にがい",
+              "reading": "にがい",
+              "meaning": "Đắng"
+            },
+            {
+              "word": "すっぱい",
+              "reading": "すっぱい",
+              "meaning": "Chua"
+            },
+            {
+              "word": "にぎやか",
+              "reading": "にぎやか",
+              "meaning": "Náo nhiệt"
+            }
+          ],
+          "tips": [
+            "りょうりはどうですか trả lời bằng tính từ vị giác như おいしいです.",
+            "あまり高くないです là mẫu phủ định nhẹ, nghĩa là không đắt lắm.",
+            "Câu hỏi 何時から何時まで yêu cầu nhìn thời gian trong tranh."
+          ]
+        },
+        {
+          "id": "l4_img07_wh_01",
+          "order": 5,
+          "question": {
+            "ja": "ここは　どこですか。",
+            "vi": "Đây là đâu?"
+          },
+          "sampleAnswers": [
+            {
+              "ja": "ベトナムレストランです。",
+              "vi": "Là nhà hàng Việt Nam."
+            }
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "りょうり",
+              "reading": "りょうり",
+              "meaning": "Món ăn / nấu ăn"
+            },
+            {
+              "word": "レストラン",
+              "reading": "レストラン",
+              "meaning": "Nhà hàng"
+            },
+            {
+              "word": "フォー",
+              "reading": "フォー",
+              "meaning": "Phở"
+            },
+            {
+              "word": "コーヒー",
+              "reading": "コーヒー",
+              "meaning": "Cà phê"
+            },
+            {
+              "word": "レモンジュース",
+              "reading": "レモンジュース",
+              "meaning": "Nước chanh"
+            },
+            {
+              "word": "おいしい",
+              "reading": "おいしい",
+              "meaning": "Ngon"
+            },
+            {
+              "word": "たかい",
+              "reading": "たかい",
+              "meaning": "Đắt / cao"
+            },
+            {
+              "word": "にがい",
+              "reading": "にがい",
+              "meaning": "Đắng"
+            },
+            {
+              "word": "すっぱい",
+              "reading": "すっぱい",
+              "meaning": "Chua"
+            },
+            {
+              "word": "にぎやか",
+              "reading": "にぎやか",
+              "meaning": "Náo nhiệt"
+            }
+          ],
+          "tips": [
+            "りょうりはどうですか trả lời bằng tính từ vị giác như おいしいです.",
+            "あまり高くないです là mẫu phủ định nhẹ, nghĩa là không đắt lắm.",
+            "Câu hỏi 何時から何時まで yêu cầu nhìn thời gian trong tranh."
+          ]
+        },
+        {
+          "id": "l4_img07_wh_02",
+          "order": 6,
+          "question": {
+            "ja": "ベトナムの　りょうりは　どうですか。",
+            "vi": "Món ăn Việt Nam như thế nào?"
+          },
+          "sampleAnswers": [
+            {
+              "ja": "おいしいです。",
+              "vi": "Ngon."
+            },
+            {
+              "ja": "おいしくて、あまり　たかくないです。",
+              "vi": "Ngon và không đắt lắm."
+            }
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "りょうり",
+              "reading": "りょうり",
+              "meaning": "Món ăn / nấu ăn"
+            },
+            {
+              "word": "レストラン",
+              "reading": "レストラン",
+              "meaning": "Nhà hàng"
+            },
+            {
+              "word": "フォー",
+              "reading": "フォー",
+              "meaning": "Phở"
+            },
+            {
+              "word": "コーヒー",
+              "reading": "コーヒー",
+              "meaning": "Cà phê"
+            },
+            {
+              "word": "レモンジュース",
+              "reading": "レモンジュース",
+              "meaning": "Nước chanh"
+            },
+            {
+              "word": "おいしい",
+              "reading": "おいしい",
+              "meaning": "Ngon"
+            },
+            {
+              "word": "たかい",
+              "reading": "たかい",
+              "meaning": "Đắt / cao"
+            },
+            {
+              "word": "にがい",
+              "reading": "にがい",
+              "meaning": "Đắng"
+            },
+            {
+              "word": "すっぱい",
+              "reading": "すっぱい",
+              "meaning": "Chua"
+            },
+            {
+              "word": "にぎやか",
+              "reading": "にぎやか",
+              "meaning": "Náo nhiệt"
+            }
+          ],
+          "tips": [
+            "りょうりはどうですか trả lời bằng tính từ vị giác như おいしいです.",
+            "あまり高くないです là mẫu phủ định nhẹ, nghĩa là không đắt lắm.",
+            "Câu hỏi 何時から何時まで yêu cầu nhìn thời gian trong tranh."
+          ]
+        },
+        {
+          "id": "l4_img07_wh_03",
+          "order": 7,
+          "question": {
+            "ja": "フォーは　どうですか。",
+            "vi": "Phở như thế nào?"
+          },
+          "sampleAnswers": [
+            {
+              "ja": "おいしいです。",
+              "vi": "Ngon."
+            }
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "りょうり",
+              "reading": "りょうり",
+              "meaning": "Món ăn / nấu ăn"
+            },
+            {
+              "word": "レストラン",
+              "reading": "レストラン",
+              "meaning": "Nhà hàng"
+            },
+            {
+              "word": "フォー",
+              "reading": "フォー",
+              "meaning": "Phở"
+            },
+            {
+              "word": "コーヒー",
+              "reading": "コーヒー",
+              "meaning": "Cà phê"
+            },
+            {
+              "word": "レモンジュース",
+              "reading": "レモンジュース",
+              "meaning": "Nước chanh"
+            },
+            {
+              "word": "おいしい",
+              "reading": "おいしい",
+              "meaning": "Ngon"
+            },
+            {
+              "word": "たかい",
+              "reading": "たかい",
+              "meaning": "Đắt / cao"
+            },
+            {
+              "word": "にがい",
+              "reading": "にがい",
+              "meaning": "Đắng"
+            },
+            {
+              "word": "すっぱい",
+              "reading": "すっぱい",
+              "meaning": "Chua"
+            },
+            {
+              "word": "にぎやか",
+              "reading": "にぎやか",
+              "meaning": "Náo nhiệt"
+            }
+          ],
+          "tips": [
+            "りょうりはどうですか trả lời bằng tính từ vị giác như おいしいです.",
+            "あまり高くないです là mẫu phủ định nhẹ, nghĩa là không đắt lắm.",
+            "Câu hỏi 何時から何時まで yêu cầu nhìn thời gian trong tranh."
+          ]
+        },
+        {
+          "id": "l4_img07_wh_04",
+          "order": 8,
+          "question": {
+            "ja": "コーヒーは　どうですか。",
+            "vi": "Cà phê như thế nào?"
+          },
+          "sampleAnswers": [
+            {
+              "ja": "すこし　にがいです。",
+              "vi": "Hơi đắng."
+            }
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "りょうり",
+              "reading": "りょうり",
+              "meaning": "Món ăn / nấu ăn"
+            },
+            {
+              "word": "レストラン",
+              "reading": "レストラン",
+              "meaning": "Nhà hàng"
+            },
+            {
+              "word": "フォー",
+              "reading": "フォー",
+              "meaning": "Phở"
+            },
+            {
+              "word": "コーヒー",
+              "reading": "コーヒー",
+              "meaning": "Cà phê"
+            },
+            {
+              "word": "レモンジュース",
+              "reading": "レモンジュース",
+              "meaning": "Nước chanh"
+            },
+            {
+              "word": "おいしい",
+              "reading": "おいしい",
+              "meaning": "Ngon"
+            },
+            {
+              "word": "たかい",
+              "reading": "たかい",
+              "meaning": "Đắt / cao"
+            },
+            {
+              "word": "にがい",
+              "reading": "にがい",
+              "meaning": "Đắng"
+            },
+            {
+              "word": "すっぱい",
+              "reading": "すっぱい",
+              "meaning": "Chua"
+            },
+            {
+              "word": "にぎやか",
+              "reading": "にぎやか",
+              "meaning": "Náo nhiệt"
+            }
+          ],
+          "tips": [
+            "りょうりはどうですか trả lời bằng tính từ vị giác như おいしいです.",
+            "あまり高くないです là mẫu phủ định nhẹ, nghĩa là không đắt lắm.",
+            "Câu hỏi 何時から何時まで yêu cầu nhìn thời gian trong tranh."
+          ]
+        },
+        {
+          "id": "l4_img07_wh_05",
+          "order": 9,
+          "question": {
+            "ja": "レモンジュースは　どうですか。",
+            "vi": "Nước chanh như thế nào?"
+          },
+          "sampleAnswers": [
+            {
+              "ja": "すっぱいです。",
+              "vi": "Chua."
+            }
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "りょうり",
+              "reading": "りょうり",
+              "meaning": "Món ăn / nấu ăn"
+            },
+            {
+              "word": "レストラン",
+              "reading": "レストラン",
+              "meaning": "Nhà hàng"
+            },
+            {
+              "word": "フォー",
+              "reading": "フォー",
+              "meaning": "Phở"
+            },
+            {
+              "word": "コーヒー",
+              "reading": "コーヒー",
+              "meaning": "Cà phê"
+            },
+            {
+              "word": "レモンジュース",
+              "reading": "レモンジュース",
+              "meaning": "Nước chanh"
+            },
+            {
+              "word": "おいしい",
+              "reading": "おいしい",
+              "meaning": "Ngon"
+            },
+            {
+              "word": "たかい",
+              "reading": "たかい",
+              "meaning": "Đắt / cao"
+            },
+            {
+              "word": "にがい",
+              "reading": "にがい",
+              "meaning": "Đắng"
+            },
+            {
+              "word": "すっぱい",
+              "reading": "すっぱい",
+              "meaning": "Chua"
+            },
+            {
+              "word": "にぎやか",
+              "reading": "にぎやか",
+              "meaning": "Náo nhiệt"
+            }
+          ],
+          "tips": [
+            "りょうりはどうですか trả lời bằng tính từ vị giác như おいしいです.",
+            "あまり高くないです là mẫu phủ định nhẹ, nghĩa là không đắt lắm.",
+            "Câu hỏi 何時から何時まで yêu cầu nhìn thời gian trong tranh."
+          ]
+        },
+        {
+          "id": "l4_img07_wh_06",
+          "order": 10,
+          "question": {
+            "ja": "このレストランは　なんじから　なんじまで　にぎやかですか。",
+            "vi": "Nhà hàng này từ mấy giờ đến mấy giờ thì náo nhiệt?"
+          },
+          "sampleAnswers": [
+            {
+              "ja": "じゅうにじから　いちじまで　にぎやかです。",
+              "vi": "Từ 12 giờ đến 1 giờ thì náo nhiệt."
+            }
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "りょうり",
+              "reading": "りょうり",
+              "meaning": "Món ăn / nấu ăn"
+            },
+            {
+              "word": "レストラン",
+              "reading": "レストラン",
+              "meaning": "Nhà hàng"
+            },
+            {
+              "word": "フォー",
+              "reading": "フォー",
+              "meaning": "Phở"
+            },
+            {
+              "word": "コーヒー",
+              "reading": "コーヒー",
+              "meaning": "Cà phê"
+            },
+            {
+              "word": "レモンジュース",
+              "reading": "レモンジュース",
+              "meaning": "Nước chanh"
+            },
+            {
+              "word": "おいしい",
+              "reading": "おいしい",
+              "meaning": "Ngon"
+            },
+            {
+              "word": "たかい",
+              "reading": "たかい",
+              "meaning": "Đắt / cao"
+            },
+            {
+              "word": "にがい",
+              "reading": "にがい",
+              "meaning": "Đắng"
+            },
+            {
+              "word": "すっぱい",
+              "reading": "すっぱい",
+              "meaning": "Chua"
+            },
+            {
+              "word": "にぎやか",
+              "reading": "にぎやか",
+              "meaning": "Náo nhiệt"
+            }
+          ],
+          "tips": [
+            "りょうりはどうですか trả lời bằng tính từ vị giác như おいしいです.",
+            "あまり高くないです là mẫu phủ định nhẹ, nghĩa là không đắt lắm.",
+            "Câu hỏi 何時から何時まで yêu cầu nhìn thời gian trong tranh."
+          ]
+        },
+        {
+          "id": "l4_img07_wh_07",
+          "order": 11,
+          "question": {
+            "ja": "このレストランは　どうですか。そして、ベトナムの　りょうりは　どうですか。",
+            "vi": "Nhà hàng này như thế nào? Và món ăn Việt Nam như thế nào?"
+          },
+          "sampleAnswers": [
+            {
+              "ja": "このレストランは　にぎやかです。そして、ベトナムの　りょうりは　おいしいです。",
+              "vi": "Nhà hàng này náo nhiệt. Và món ăn Việt Nam ngon."
+            }
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "りょうり",
+              "reading": "りょうり",
+              "meaning": "Món ăn / nấu ăn"
+            },
+            {
+              "word": "レストラン",
+              "reading": "レストラン",
+              "meaning": "Nhà hàng"
+            },
+            {
+              "word": "フォー",
+              "reading": "フォー",
+              "meaning": "Phở"
+            },
+            {
+              "word": "コーヒー",
+              "reading": "コーヒー",
+              "meaning": "Cà phê"
+            },
+            {
+              "word": "レモンジュース",
+              "reading": "レモンジュース",
+              "meaning": "Nước chanh"
+            },
+            {
+              "word": "おいしい",
+              "reading": "おいしい",
+              "meaning": "Ngon"
+            },
+            {
+              "word": "たかい",
+              "reading": "たかい",
+              "meaning": "Đắt / cao"
+            },
+            {
+              "word": "にがい",
+              "reading": "にがい",
+              "meaning": "Đắng"
+            },
+            {
+              "word": "すっぱい",
+              "reading": "すっぱい",
+              "meaning": "Chua"
+            },
+            {
+              "word": "にぎやか",
+              "reading": "にぎやか",
+              "meaning": "Náo nhiệt"
+            }
+          ],
+          "tips": [
+            "りょうりはどうですか trả lời bằng tính từ vị giác như おいしいです.",
+            "あまり高くないです là mẫu phủ định nhẹ, nghĩa là không đắt lắm.",
+            "Câu hỏi 何時から何時まで yêu cầu nhìn thời gian trong tranh."
+          ]
+        },
+        {
+          "id": "l4_img07_wh_08",
+          "order": 12,
+          "question": {
+            "ja": "このえに　なにが　ありますか。りょうりは　どうですか。",
+            "vi": "Trong tranh này có gì? Món ăn như thế nào?"
+          },
+          "sampleAnswers": [
+            {
+              "ja": "フォーと　コーヒーと　レモンジュースが　あります。りょうりは　おいしいです。",
+              "vi": "Có phở, cà phê và nước chanh. Món ăn ngon."
+            }
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "りょうり",
+              "reading": "りょうり",
+              "meaning": "Món ăn / nấu ăn"
+            },
+            {
+              "word": "レストラン",
+              "reading": "レストラン",
+              "meaning": "Nhà hàng"
+            },
+            {
+              "word": "フォー",
+              "reading": "フォー",
+              "meaning": "Phở"
+            },
+            {
+              "word": "コーヒー",
+              "reading": "コーヒー",
+              "meaning": "Cà phê"
+            },
+            {
+              "word": "レモンジュース",
+              "reading": "レモンジュース",
+              "meaning": "Nước chanh"
+            },
+            {
+              "word": "おいしい",
+              "reading": "おいしい",
+              "meaning": "Ngon"
+            },
+            {
+              "word": "たかい",
+              "reading": "たかい",
+              "meaning": "Đắt / cao"
+            },
+            {
+              "word": "にがい",
+              "reading": "にがい",
+              "meaning": "Đắng"
+            },
+            {
+              "word": "すっぱい",
+              "reading": "すっぱい",
+              "meaning": "Chua"
+            },
+            {
+              "word": "にぎやか",
+              "reading": "にぎやか",
+              "meaning": "Náo nhiệt"
+            }
+          ],
+          "tips": [
+            "りょうりはどうですか trả lời bằng tính từ vị giác như おいしいです.",
+            "あまり高くないです là mẫu phủ định nhẹ, nghĩa là không đắt lắm.",
+            "Câu hỏi 何時から何時まで yêu cầu nhìn thời gian trong tranh."
+          ]
+        }
+      ]
+    }
+  ]
+}

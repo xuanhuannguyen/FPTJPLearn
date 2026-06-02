@@ -107,7 +107,8 @@ public class SpeakingService : ISpeakingService
                 userId,
                 ResolveAccessTier(lesson.AccessTier, lesson.CourseCode),
                 ResolvePackageCode(lesson.PackageCode, lesson.CourseCode)),
-            SentenceCount = lesson.Sentences.Count(sentence => sentence.IsActive)
+            SentenceCount = lesson.Sentences.Count(sentence => sentence.IsActive),
+            LessonType = lesson.LessonType
         };
     }
 

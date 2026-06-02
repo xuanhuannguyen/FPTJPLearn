@@ -1,4 +1,5 @@
 import axios from 'axios';
+import { signOut } from 'firebase/auth';
 import { auth } from '../config/firebase';
 
 const getBaseURL = () => {
@@ -41,4 +42,30 @@ apiClient.interceptors.request.use(
 
   },
   (error) => Promise.reject(error)
+);
+
+let isHandlingStaleDevice = false;
+
+apiClient.interceptors.response.use(
+  (response) => response,
+  async (error) => {
+    const status = error.response?.status;
+    const errorCode = error.response?.data?.error;
+
+    if (status === 403 && errorCode === 'ACCOUNT_LOGGED_IN_ELSEWHERE' && !isHandlingStaleDevice) {
+      isHandlingStaleDevice = true;
+      sessionStorage.setItem(
+        'jplearn_login_notice',
+        error.response?.data?.message || 'Tài khoản đã đăng nhập ở thiết bị khác.'
+      );
+
+      try {
+        await signOut(auth);
+      } finally {
+        window.location.assign('/login');
+      }
+    }
+
+    return Promise.reject(error);
+  }
 );

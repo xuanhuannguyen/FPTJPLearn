@@ -1,0 +1,2086 @@
+{
+  "courseCode": "JPD123",
+  "lessonNumber": 4,
+  "lessonTitle": "Bài 4 - Thành phố, phương tiện, thời tiết và món ăn",
+  "questionMode": "NO_IMAGE",
+  "dataPurpose": "oral_exam_practice_web",
+  "lessonOverview": {
+    "shortSummary": "Sau Bài 4, sinh viên có thể hỏi và trả lời về vị trí thành phố/quốc gia, thời gian di chuyển, phương tiện đi lại, miêu tả thành phố hoặc địa điểm, nói nơi đó có gì, nói về thời tiết và cảm nhận món ăn bằng tiếng Nhật sơ cấp.",
+    "studentCanDo": [
+      "Nói được thành phố/quê của mình là ở đâu.",
+      "Nói được một thành phố nằm ở phía bắc, nam, đông, tây hoặc chính giữa của một quốc gia.",
+      "Hỏi và trả lời được từ nơi này đến nơi khác mất bao lâu.",
+      "Hỏi và trả lời được đi bằng phương tiện gì.",
+      "Miêu tả được thành phố, trường học, địa điểm bằng tính từ đuôi い và tính từ đuôi な.",
+      "Nói được ở một thành phố/địa điểm có gì bằng mẫu あります.",
+      "Hỏi và trả lời được thời tiết hoặc cảm nhận về món ăn bằng どうですか."
+    ],
+    "mainSkills": [
+      "Nghe câu hỏi và nhận ra từ khóa chính như どこ, どのくらい, なんで, どんな, ありますか, どうですか.",
+      "Trả lời ngắn, đúng trọng tâm bằng mẫu câu sơ cấp.",
+      "Dùng はい／いいえ cho câu hỏi xác nhận.",
+      "Dùng tính từ đúng dạng khi khẳng định, phủ định và bổ nghĩa cho danh từ.",
+      "Dùng から／まで để nói phạm vi từ đâu đến đâu hoặc từ mấy giờ đến mấy giờ.",
+      "Dùng Nでいきます để nói phương tiện và あるいていきます để nói đi bộ."
+    ],
+    "mainGrammarFocus": [
+      "Nは　Nの　どこですか。",
+      "Nから　Nまで　どのくらいですか。",
+      "Nで　いきます。",
+      "あるいて　いきます。",
+      "Nは　Aいです。／Aくないです。",
+      "Nは　Aです。／Aじゃありません。",
+      "AいN／AなN",
+      "Nに　Nが　あります。",
+      "Nは　どうですか。",
+      "とても／すこし／あまり"
+    ],
+    "examTipSummary": "Khi thi vấn đáp Bài 4, sinh viên cần nghe đúng từ khóa: どこ hỏi vị trí, どのくらい hỏi thời gian, なんで hỏi phương tiện, どんな hỏi đặc điểm, なにがありますか hỏi có gì, どうですか hỏi tình trạng/cảm nhận. Trả lời ngắn bằng mẫu câu + です là đủ."
+  },
+  "grammarBank": [
+    {
+      "grammarId": "g_l4_001",
+      "pattern": "Nは　Nの　どこですか。",
+      "meaning": "N ở đâu/phía nào của N?",
+      "usage": "Dùng để hỏi vị trí của một thành phố hoặc địa điểm trong một phạm vi lớn như quốc gia, vùng miền.",
+      "example": {
+        "ja": "ハノイは　ベトナムの　どこですか。",
+        "vi": "Hà Nội ở đâu của Việt Nam?"
+      }
+    },
+    {
+      "grammarId": "g_l4_002",
+      "pattern": "Nから　Nまで　どのくらいですか。",
+      "meaning": "Từ N đến N mất bao lâu?",
+      "usage": "Dùng để hỏi thời gian di chuyển giữa hai địa điểm.",
+      "example": {
+        "ja": "ハノイから　ホーチミンまで　どのくらいですか。",
+        "vi": "Từ Hà Nội đến Hồ Chí Minh mất bao lâu?"
+      }
+    },
+    {
+      "grammarId": "g_l4_003",
+      "pattern": "Nで　いきます。",
+      "meaning": "Đi bằng N.",
+      "usage": "Dùng với phương tiện giao thông như バス, くるま, でんしゃ, ひこうき.",
+      "example": {
+        "ja": "バスで　いきます。",
+        "vi": "Tôi đi bằng xe buýt."
+      }
+    },
+    {
+      "grammarId": "g_l4_004",
+      "pattern": "あるいて　いきます。",
+      "meaning": "Đi bộ.",
+      "usage": "Dùng khi nói đi bộ đến một nơi nào đó. Không thêm で sau あるいて.",
+      "example": {
+        "ja": "だいがくまで　あるいて　いきます。",
+        "vi": "Tôi đi bộ đến đại học."
+      }
+    },
+    {
+      "grammarId": "g_l4_005",
+      "pattern": "Nは　Aいです。",
+      "meaning": "N thì A.",
+      "usage": "Dùng để miêu tả chủ ngữ bằng tính từ đuôi い.",
+      "example": {
+        "ja": "FPTだいがくは　おおきいです。",
+        "vi": "Đại học FPT lớn."
+      }
+    },
+    {
+      "grammarId": "g_l4_006",
+      "pattern": "Nは　Aくないです。",
+      "meaning": "N không A.",
+      "usage": "Dùng để phủ định tính từ đuôi い. Bỏ い rồi thêm くないです.",
+      "example": {
+        "ja": "FPTだいがくは　おおきくないです。",
+        "vi": "Đại học FPT không lớn."
+      }
+    },
+    {
+      "grammarId": "g_l4_007",
+      "pattern": "Nは　Aです。",
+      "meaning": "N thì A.",
+      "usage": "Dùng để miêu tả chủ ngữ bằng tính từ đuôi な khi tính từ đứng cuối câu. Không thêm な trước です.",
+      "example": {
+        "ja": "まちは　にぎやかです。",
+        "vi": "Thành phố náo nhiệt."
+      }
+    },
+    {
+      "grammarId": "g_l4_008",
+      "pattern": "Nは　Aじゃありません。",
+      "meaning": "N không A.",
+      "usage": "Dùng để phủ định tính từ đuôi な.",
+      "example": {
+        "ja": "まちは　にぎやかじゃありません。",
+        "vi": "Thành phố không náo nhiệt."
+      }
+    },
+    {
+      "grammarId": "g_l4_009",
+      "pattern": "AいN／AなN",
+      "meaning": "Danh từ N có tính chất A.",
+      "usage": "Tính từ い đứng trực tiếp trước danh từ. Tính từ な phải thêm な trước danh từ.",
+      "example": {
+        "ja": "きれいな　まちです。",
+        "vi": "Là một thành phố đẹp/sạch."
+      }
+    },
+    {
+      "grammarId": "g_l4_010",
+      "pattern": "Nに　Nが　あります。",
+      "meaning": "Ở N có N.",
+      "usage": "Dùng để nói một nơi có đồ vật, địa điểm, cây cối hoặc sự vật không sống.",
+      "example": {
+        "ja": "ダナンに　おてらが　あります。",
+        "vi": "Ở Đà Nẵng có chùa."
+      }
+    },
+    {
+      "grammarId": "g_l4_011",
+      "pattern": "Nは　どうですか。",
+      "meaning": "N thế nào?",
+      "usage": "Dùng để hỏi tình trạng, cảm nhận, thời tiết hoặc món ăn.",
+      "example": {
+        "ja": "ベトナムの　りょうりは　どうですか。",
+        "vi": "Món ăn Việt Nam thế nào?"
+      }
+    },
+    {
+      "grammarId": "g_l4_012",
+      "pattern": "とても／すこし + A",
+      "meaning": "Rất / hơi + A.",
+      "usage": "Dùng để tăng hoặc giảm mức độ của tính từ.",
+      "example": {
+        "ja": "とても　あついです。",
+        "vi": "Rất nóng."
+      }
+    },
+    {
+      "grammarId": "g_l4_013",
+      "pattern": "あまり + phủ định",
+      "meaning": "Không ... lắm.",
+      "usage": "あまり thường đi với dạng phủ định như Aくないです hoặc Aじゃありません.",
+      "example": {
+        "ja": "あまり　さむくないです。",
+        "vi": "Không lạnh lắm."
+      }
+    },
+    {
+      "grammarId": "g_l4_014",
+      "pattern": "N1や　N2など",
+      "meaning": "N1, N2, v.v.",
+      "usage": "Dùng để liệt kê không đầy đủ một vài ví dụ tiêu biểu.",
+      "example": {
+        "ja": "やまや　かわなどが　あります。",
+        "vi": "Có núi, sông, v.v."
+      }
+    }
+  ],
+  "vocabularyBank": {
+    "part1_direction_transport_time": [
+      {
+        "word": "きた",
+        "reading": "きた",
+        "wordType": "Danh từ",
+        "meaning": "Phía bắc",
+        "notes": "Dùng để trả lời vị trí địa lý."
+      },
+      {
+        "word": "みなみ",
+        "reading": "みなみ",
+        "wordType": "Danh từ",
+        "meaning": "Phía nam",
+        "notes": "Ví dụ: ホーチミンはベトナムのみなみです。"
+      },
+      {
+        "word": "ひがし",
+        "reading": "ひがし",
+        "wordType": "Danh từ",
+        "meaning": "Phía đông",
+        "notes": "Một hướng địa lý."
+      },
+      {
+        "word": "にし",
+        "reading": "にし",
+        "wordType": "Danh từ",
+        "meaning": "Phía tây",
+        "notes": "Một hướng địa lý."
+      },
+      {
+        "word": "まんなか",
+        "reading": "まんなか",
+        "wordType": "Danh từ",
+        "meaning": "Chính giữa",
+        "notes": "Có thể dùng để nói Đà Nẵng ở miền Trung/chính giữa Việt Nam theo cách đơn giản."
+      },
+      {
+        "word": "まち",
+        "reading": "まち",
+        "wordType": "Danh từ",
+        "meaning": "Thành phố, thị trấn",
+        "notes": "Dùng trong Bさんのまち."
+      },
+      {
+        "word": "えき",
+        "reading": "えき",
+        "wordType": "Danh từ",
+        "meaning": "Nhà ga",
+        "notes": "Địa điểm liên quan đến đi lại."
+      },
+      {
+        "word": "くるま",
+        "reading": "くるま",
+        "wordType": "Danh từ",
+        "meaning": "Ô tô",
+        "notes": "Phương tiện; dùng くるまでいきます."
+      },
+      {
+        "word": "バス",
+        "reading": "バス",
+        "wordType": "Danh từ",
+        "meaning": "Xe buýt",
+        "notes": "Phương tiện; dùng バスでいきます."
+      },
+      {
+        "word": "でんしゃ",
+        "reading": "でんしゃ",
+        "wordType": "Danh từ",
+        "meaning": "Tàu điện",
+        "notes": "Phương tiện; dùng でんしゃでいきます."
+      },
+      {
+        "word": "ひこうき",
+        "reading": "ひこうき",
+        "wordType": "Danh từ",
+        "meaning": "Máy bay",
+        "notes": "Phương tiện; dùng ひこうきでいきます."
+      },
+      {
+        "word": "しんかんせん",
+        "reading": "しんかんせん",
+        "wordType": "Danh từ",
+        "meaning": "Tàu cao tốc Shinkansen",
+        "notes": "Phương tiện phổ biến ở Nhật."
+      },
+      {
+        "word": "あるいて",
+        "reading": "あるいて",
+        "wordType": "Trạng từ",
+        "meaning": "Đi bộ",
+        "notes": "Dùng あるいていきます, không dùng あるいてで."
+      },
+      {
+        "word": "～じかん",
+        "reading": "～じかん",
+        "wordType": "Lượng từ",
+        "meaning": "~ tiếng",
+        "notes": "にじかん = 2 tiếng."
+      },
+      {
+        "word": "～じかんはん",
+        "reading": "～じかんはん",
+        "wordType": "Lượng từ",
+        "meaning": "~ tiếng rưỡi",
+        "notes": "いちじかんはん = 1 tiếng rưỡi."
+      },
+      {
+        "word": "～くらい",
+        "reading": "～くらい",
+        "wordType": "Hậu tố",
+        "meaning": "Khoảng ~",
+        "notes": "Dùng khi nói thời gian ước lượng."
+      },
+      {
+        "word": "どのくらい",
+        "reading": "どのくらい",
+        "wordType": "Từ nghi vấn",
+        "meaning": "Bao lâu",
+        "notes": "Dùng để hỏi thời gian mất bao lâu."
+      },
+      {
+        "word": "なんで",
+        "reading": "なんで",
+        "wordType": "Từ nghi vấn",
+        "meaning": "Bằng gì",
+        "notes": "Trong bài này dùng để hỏi phương tiện."
+      }
+    ],
+    "part2_places_adjectives_existence": [
+      {
+        "word": "おんせん",
+        "reading": "おんせん",
+        "wordType": "Danh từ",
+        "meaning": "Suối nước nóng",
+        "notes": "Địa điểm du lịch."
+      },
+      {
+        "word": "かわ",
+        "reading": "かわ",
+        "wordType": "Danh từ",
+        "meaning": "Sông",
+        "notes": "Dùng với あります."
+      },
+      {
+        "word": "やま",
+        "reading": "やま",
+        "wordType": "Danh từ",
+        "meaning": "Núi",
+        "notes": "Dùng với あります hoặc 高い山."
+      },
+      {
+        "word": "きょうかい",
+        "reading": "きょうかい",
+        "wordType": "Danh từ",
+        "meaning": "Nhà thờ",
+        "notes": "Địa điểm."
+      },
+      {
+        "word": "しろ",
+        "reading": "おしろ",
+        "wordType": "Danh từ",
+        "meaning": "Lâu đài",
+        "notes": "Địa điểm."
+      },
+      {
+        "word": "じんじゃ",
+        "reading": "じんじゃ",
+        "wordType": "Danh từ",
+        "meaning": "Đền",
+        "notes": "Địa điểm tôn giáo ở Nhật."
+      },
+      {
+        "word": "てら",
+        "reading": "おてら",
+        "wordType": "Danh từ",
+        "meaning": "Chùa",
+        "notes": "Dùng おてらが あります."
+      },
+      {
+        "word": "ビル",
+        "reading": "ビル",
+        "wordType": "Danh từ",
+        "meaning": "Tòa nhà",
+        "notes": "Building."
+      },
+      {
+        "word": "ところ",
+        "reading": "ところ",
+        "wordType": "Danh từ",
+        "meaning": "Nơi, chỗ",
+        "notes": "Dùng trong どんなところですか."
+      },
+      {
+        "word": "ひと",
+        "reading": "ひと",
+        "wordType": "Danh từ",
+        "meaning": "Người",
+        "notes": "人が多い = đông người."
+      },
+      {
+        "word": "みどり",
+        "reading": "みどり",
+        "wordType": "Danh từ",
+        "meaning": "Màu xanh; cây xanh",
+        "notes": "みどりが多い = nhiều cây xanh."
+      },
+      {
+        "word": "あります",
+        "reading": "あります",
+        "wordType": "Động từ",
+        "meaning": "Có",
+        "notes": "Dùng cho vật, địa điểm, cây cối."
+      },
+      {
+        "word": "あたらしい",
+        "reading": "あたらしい",
+        "wordType": "Tính từ đuôi い",
+        "meaning": "Mới",
+        "notes": "Phủ định: あたらしくない."
+      },
+      {
+        "word": "ふるい",
+        "reading": "ふるい",
+        "wordType": "Tính từ đuôi い",
+        "meaning": "Cũ",
+        "notes": "Phủ định: ふるくない."
+      },
+      {
+        "word": "いい",
+        "reading": "いい",
+        "wordType": "Tính từ đuôi い",
+        "meaning": "Tốt",
+        "notes": "Phủ định đặc biệt: よくない."
+      },
+      {
+        "word": "おおい",
+        "reading": "おおい",
+        "wordType": "Tính từ đuôi い",
+        "meaning": "Nhiều",
+        "notes": "Phủ định: おおくない."
+      },
+      {
+        "word": "すくない",
+        "reading": "すくない",
+        "wordType": "Tính từ đuôi い",
+        "meaning": "Ít",
+        "notes": "Phủ định: すくなくない."
+      },
+      {
+        "word": "おおきい",
+        "reading": "おおきい",
+        "wordType": "Tính từ đuôi い",
+        "meaning": "To, lớn",
+        "notes": "Phủ định: おおきくない."
+      },
+      {
+        "word": "ちいさい",
+        "reading": "ちいさい",
+        "wordType": "Tính từ đuôi い",
+        "meaning": "Nhỏ",
+        "notes": "Phủ định: ちいさくない."
+      },
+      {
+        "word": "たかい",
+        "reading": "たかい",
+        "wordType": "Tính từ đuôi い",
+        "meaning": "Cao, đắt",
+        "notes": "Dùng cho núi, tòa nhà hoặc giá tiền."
+      },
+      {
+        "word": "ひくい",
+        "reading": "ひくい",
+        "wordType": "Tính từ đuôi い",
+        "meaning": "Thấp",
+        "notes": "Đối lập với 高い."
+      },
+      {
+        "word": "きれい",
+        "reading": "きれい",
+        "wordType": "Tính từ đuôi な",
+        "meaning": "Đẹp, sạch sẽ",
+        "notes": "Trước danh từ: きれいなN."
+      },
+      {
+        "word": "しずか",
+        "reading": "しずか",
+        "wordType": "Tính từ đuôi な",
+        "meaning": "Yên tĩnh",
+        "notes": "Trước danh từ: しずかなN."
+      },
+      {
+        "word": "にぎやか",
+        "reading": "にぎやか",
+        "wordType": "Tính từ đuôi な",
+        "meaning": "Náo nhiệt",
+        "notes": "Trước danh từ: にぎやかなN."
+      },
+      {
+        "word": "ゆうめい",
+        "reading": "ゆうめい",
+        "wordType": "Tính từ đuôi な",
+        "meaning": "Nổi tiếng",
+        "notes": "Trước danh từ: ゆうめいなN."
+      },
+      {
+        "word": "どんな",
+        "reading": "どんな",
+        "wordType": "Từ nghi vấn",
+        "meaning": "Như thế nào",
+        "notes": "Dùng hỏi đặc điểm của người/vật/nơi."
+      },
+      {
+        "word": "そして",
+        "reading": "そして",
+        "wordType": "Liên từ",
+        "meaning": "Và",
+        "notes": "Dùng nối hai câu miêu tả."
+      }
+    ],
+    "part3_weather_food_taste": [
+      {
+        "word": "すこし",
+        "reading": "すこし",
+        "wordType": "Trạng từ",
+        "meaning": "Một chút",
+        "notes": "すこしさむい = hơi lạnh."
+      },
+      {
+        "word": "とても",
+        "reading": "とても",
+        "wordType": "Trạng từ",
+        "meaning": "Rất",
+        "notes": "とてもあつい = rất nóng."
+      },
+      {
+        "word": "どう",
+        "reading": "どう",
+        "wordType": "Từ nghi vấn",
+        "meaning": "Thế nào",
+        "notes": "Dùng trong どうですか."
+      },
+      {
+        "word": "そうですね",
+        "reading": "そうですね",
+        "wordType": "Cụm từ",
+        "meaning": "Đúng vậy nhỉ / để xem nào",
+        "notes": "Dùng khi suy nghĩ hoặc đồng tình nhẹ."
+      },
+      {
+        "word": "あめ",
+        "reading": "あめ",
+        "wordType": "Danh từ",
+        "meaning": "Mưa",
+        "notes": "あめが あります không tự nhiên bằng あめです ở sơ cấp có thể nói trời mưa."
+      },
+      {
+        "word": "ゆき",
+        "reading": "ゆき",
+        "wordType": "Danh từ",
+        "meaning": "Tuyết",
+        "notes": "ゆきが あります = có tuyết."
+      },
+      {
+        "word": "ひ",
+        "reading": "ひ",
+        "wordType": "Danh từ",
+        "meaning": "Ngày / mặt trời",
+        "notes": "Dùng trong 暑い日."
+      },
+      {
+        "word": "あたたかい",
+        "reading": "あたたかい",
+        "wordType": "Tính từ đuôi い",
+        "meaning": "Ấm áp",
+        "notes": "Dùng cho thời tiết."
+      },
+      {
+        "word": "すずしい",
+        "reading": "すずしい",
+        "wordType": "Tính từ đuôi い",
+        "meaning": "Mát mẻ",
+        "notes": "Dùng cho thời tiết."
+      },
+      {
+        "word": "あつい",
+        "reading": "あつい",
+        "wordType": "Tính từ đuôi い",
+        "meaning": "Nóng bức",
+        "notes": "Dùng cho thời tiết."
+      },
+      {
+        "word": "さむい",
+        "reading": "さむい",
+        "wordType": "Tính từ đuôi い",
+        "meaning": "Lạnh",
+        "notes": "Dùng cho thời tiết."
+      },
+      {
+        "word": "てんきがいい",
+        "reading": "てんきがいい",
+        "wordType": "Cụm từ",
+        "meaning": "Thời tiết đẹp",
+        "notes": "Phủ định: てんきがよくない."
+      },
+      {
+        "word": "てんきがわるい",
+        "reading": "てんきがわるい",
+        "wordType": "Cụm từ",
+        "meaning": "Thời tiết xấu",
+        "notes": "Dùng để nhận xét thời tiết."
+      },
+      {
+        "word": "あたたかい",
+        "reading": "あたたかい",
+        "wordType": "Tính từ đuôi い",
+        "meaning": "Ấm",
+        "notes": "Dùng cho đồ ăn, đồ uống hoặc cảm giác."
+      },
+      {
+        "word": "あつい",
+        "reading": "あつい",
+        "wordType": "Tính từ đuôi い",
+        "meaning": "Nóng",
+        "notes": "Dùng cho đồ ăn, đồ uống nóng."
+      },
+      {
+        "word": "つめたい",
+        "reading": "つめたい",
+        "wordType": "Tính từ đuôi い",
+        "meaning": "Lạnh / mát",
+        "notes": "Dùng cho đồ vật, đồ ăn, đồ uống."
+      },
+      {
+        "word": "おいしい",
+        "reading": "おいしい",
+        "wordType": "Tính từ đuôi い",
+        "meaning": "Ngon",
+        "notes": "おいしいりょうり = món ăn ngon."
+      },
+      {
+        "word": "あまい",
+        "reading": "あまい",
+        "wordType": "Tính từ đuôi い",
+        "meaning": "Ngọt",
+        "notes": "Dùng để nói vị ngọt."
+      },
+      {
+        "word": "からい",
+        "reading": "からい",
+        "wordType": "Tính từ đuôi い",
+        "meaning": "Cay",
+        "notes": "Dùng để nói món cay."
+      },
+      {
+        "word": "にがい",
+        "reading": "にがい",
+        "wordType": "Tính từ đuôi い",
+        "meaning": "Đắng",
+        "notes": "Dùng để nói vị đắng."
+      },
+      {
+        "word": "すっぱい",
+        "reading": "すっぱい",
+        "wordType": "Tính từ đuôi い",
+        "meaning": "Chua",
+        "notes": "Dùng để nói vị chua."
+      },
+      {
+        "word": "いちねんじゅう",
+        "reading": "いちねんじゅう",
+        "wordType": "Trạng từ",
+        "meaning": "Suốt một năm",
+        "notes": "いちねんじゅうあつい = nóng quanh năm."
+      },
+      {
+        "word": "あまり",
+        "reading": "あまり",
+        "wordType": "Trạng từ",
+        "meaning": "Không ... lắm",
+        "notes": "Luôn dùng với phủ định trong mẫu bài này."
+      }
+    ]
+  },
+  "sections": [
+    {
+      "sectionId": "jpd123_l4_no_image_part1",
+      "sectionTitle": "Phần 1 - まち／どこ／どのくらい／なんで",
+      "sectionViTitle": "Thành phố / vị trí / thời gian di chuyển / phương tiện",
+      "sectionGoal": "Sinh viên trả lời được thành phố của mình, vị trí thành phố trong Việt Nam, thời gian di chuyển và phương tiện đi lại.",
+      "questionList": [
+        {
+          "questionId": "jpd123_l4_p1_q01",
+          "order": 1,
+          "question": {
+            "ja": "Bさんの　まちは　どちらですか。",
+            "vi": "Thành phố/quê của bạn B là ở đâu?"
+          },
+          "answerType": "city_personal_short",
+          "sampleAnswers": [
+            {
+              "ja": "ダナンです。",
+              "vi": "Là Đà Nẵng."
+            },
+            {
+              "ja": "ハノイです。",
+              "vi": "Là Hà Nội."
+            },
+            {
+              "ja": "ホーチミンです。",
+              "vi": "Là Hồ Chí Minh."
+            }
+          ],
+          "grammarIds": [
+            "g_l4_001"
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "まち",
+              "reading": "まち",
+              "meaning": "Thành phố, thị trấn"
+            },
+            {
+              "word": "どちら",
+              "reading": "どちら",
+              "meaning": "Ở đâu, phía nào, nơi nào"
+            },
+            {
+              "word": "ダナン",
+              "reading": "ダナン",
+              "meaning": "Đà Nẵng"
+            },
+            {
+              "word": "ハノイ",
+              "reading": "ハノイ",
+              "meaning": "Hà Nội"
+            },
+            {
+              "word": "ホーチミン",
+              "reading": "ホーチミン",
+              "meaning": "Hồ Chí Minh"
+            }
+          ],
+          "explanation": "Câu này hỏi thành phố hoặc quê của người học. どちら ở đây hiểu là 'ở đâu/nơi nào'. Khi trả lời, chỉ cần nói tên thành phố + です.",
+          "tips": [
+            "Nghe thấy まち thì nghĩ đến thành phố/quê.",
+            "Trả lời ngắn bằng tên thành phố + です.",
+            "Có thể thay ダナン bằng thành phố thật của sinh viên."
+          ],
+          "commonMistakes": [
+            "Nhầm まち với くに. まち là thành phố, くに là quốc gia.",
+            "Trả lời ベトナムです chưa đúng nếu câu hỏi hỏi まち."
+          ]
+        },
+        {
+          "questionId": "jpd123_l4_p1_q02",
+          "order": 2,
+          "question": {
+            "ja": "ホーチミンは　ベトナムの　どこですか。",
+            "vi": "Hồ Chí Minh ở đâu của Việt Nam?"
+          },
+          "answerType": "location_direction",
+          "sampleAnswers": [
+            {
+              "ja": "みなみです。",
+              "vi": "Ở phía nam."
+            },
+            {
+              "ja": "ベトナムの　みなみです。",
+              "vi": "Ở phía nam của Việt Nam."
+            }
+          ],
+          "grammarIds": [
+            "g_l4_001"
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "ホーチミン",
+              "reading": "ホーチミン",
+              "meaning": "Hồ Chí Minh"
+            },
+            {
+              "word": "ベトナム",
+              "reading": "ベトナム",
+              "meaning": "Việt Nam"
+            },
+            {
+              "word": "どこ",
+              "reading": "どこ",
+              "meaning": "Ở đâu"
+            },
+            {
+              "word": "みなみ",
+              "reading": "みなみ",
+              "meaning": "Phía nam"
+            }
+          ],
+          "explanation": "Mẫu ベトナムのどこ hỏi vị trí trong Việt Nam. ホーチミン nằm ở phía nam nên trả lời みなみです.",
+          "tips": [
+            "どこ trong mẫu này là hỏi 'phía nào'.",
+            "Câu trả lời ngắn みなみです là đủ.",
+            "Câu đầy đủ hơn: ベトナムの　みなみです。"
+          ],
+          "commonMistakes": [
+            "Trả lời ホーチミンです là sai vì câu hỏi đã nói ホーチミン rồi.",
+            "Nhầm みなみ với きた."
+          ]
+        },
+        {
+          "questionId": "jpd123_l4_p1_q03",
+          "order": 3,
+          "question": {
+            "ja": "ハノイは　ベトナムの　どこですか。",
+            "vi": "Hà Nội ở đâu của Việt Nam?"
+          },
+          "answerType": "location_direction",
+          "sampleAnswers": [
+            {
+              "ja": "きたです。",
+              "vi": "Ở phía bắc."
+            },
+            {
+              "ja": "ベトナムの　きたです。",
+              "vi": "Ở phía bắc của Việt Nam."
+            }
+          ],
+          "grammarIds": [
+            "g_l4_001"
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "ハノイ",
+              "reading": "ハノイ",
+              "meaning": "Hà Nội"
+            },
+            {
+              "word": "ベトナム",
+              "reading": "ベトナム",
+              "meaning": "Việt Nam"
+            },
+            {
+              "word": "きた",
+              "reading": "きた",
+              "meaning": "Phía bắc"
+            },
+            {
+              "word": "どこ",
+              "reading": "どこ",
+              "meaning": "Ở đâu"
+            }
+          ],
+          "explanation": "ハノイ nằm ở phía bắc Việt Nam. Vì vậy có thể trả lời ngắn là きたです hoặc đầy đủ hơn là ベトナムのきたです.",
+          "tips": [
+            "ハノイ → きた.",
+            "ホーチミン → みなみ.",
+            "ダナン có thể trả lời まんなかです."
+          ],
+          "commonMistakes": [
+            "Trả lời bằng tên thành phố thay vì phương hướng.",
+            "Dùng に sai trong cụm ベトナムのどこ."
+          ]
+        },
+        {
+          "questionId": "jpd123_l4_p1_q04",
+          "order": 4,
+          "question": {
+            "ja": "ハノイから　ホーチミンまで　どのくらいですか。",
+            "vi": "Từ Hà Nội đến Hồ Chí Minh mất khoảng bao lâu?"
+          },
+          "answerType": "travel_duration",
+          "sampleAnswers": [
+            {
+              "ja": "にじかんくらいです。",
+              "vi": "Khoảng 2 tiếng."
+            },
+            {
+              "ja": "ひこうきで　にじかんくらいです。",
+              "vi": "Đi máy bay khoảng 2 tiếng."
+            },
+            {
+              "ja": "バスで　いちにちくらいです。",
+              "vi": "Đi xe buýt khoảng 1 ngày."
+            }
+          ],
+          "grammarIds": [
+            "g_l4_002",
+            "g_l4_003"
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "から",
+              "reading": "から",
+              "meaning": "Từ"
+            },
+            {
+              "word": "まで",
+              "reading": "まで",
+              "meaning": "Đến"
+            },
+            {
+              "word": "どのくらい",
+              "reading": "どのくらい",
+              "meaning": "Bao lâu"
+            },
+            {
+              "word": "～じかん",
+              "reading": "～じかん",
+              "meaning": "~ tiếng"
+            },
+            {
+              "word": "～くらい",
+              "reading": "～くらい",
+              "meaning": "Khoảng ~"
+            },
+            {
+              "word": "ひこうき",
+              "reading": "ひこうき",
+              "meaning": "Máy bay"
+            }
+          ],
+          "explanation": "から là 'từ', まで là 'đến'. どのくらい hỏi thời lượng. Câu trả lời thường là thời gian + くらいです.",
+          "tips": [
+            "Nghe thấy どのくらい thì trả lời thời gian.",
+            "Có thể thêm phương tiện ở đầu: ひこうきで.",
+            "くらい giúp câu tự nhiên hơn vì chỉ thời gian ước lượng."
+          ],
+          "commonMistakes": [
+            "Chỉ trả lời ひこうきです là thiếu vì câu hỏi hỏi thời gian.",
+            "Quên くらい khi nói khoảng thời gian."
+          ]
+        },
+        {
+          "questionId": "jpd123_l4_p1_q05",
+          "order": 5,
+          "question": {
+            "ja": "うちから　だいがくまで　どのくらいですか。",
+            "vi": "Từ nhà đến đại học mất khoảng bao lâu?"
+          },
+          "answerType": "personal_commute_duration",
+          "sampleAnswers": [
+            {
+              "ja": "さんじゅっぷんくらいです。",
+              "vi": "Khoảng 30 phút."
+            },
+            {
+              "ja": "いちじかんくらいです。",
+              "vi": "Khoảng 1 tiếng."
+            },
+            {
+              "ja": "じゅっぷんくらいです。",
+              "vi": "Khoảng 10 phút."
+            }
+          ],
+          "grammarIds": [
+            "g_l4_002"
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "うち",
+              "reading": "うち",
+              "meaning": "Nhà"
+            },
+            {
+              "word": "だいがく",
+              "reading": "だいがく",
+              "meaning": "Đại học"
+            },
+            {
+              "word": "どのくらい",
+              "reading": "どのくらい",
+              "meaning": "Bao lâu"
+            },
+            {
+              "word": "さんじゅっぷん",
+              "reading": "さんじゅっぷん",
+              "meaning": "30 phút"
+            },
+            {
+              "word": "いちじかん",
+              "reading": "いちじかん",
+              "meaning": "1 tiếng"
+            }
+          ],
+          "explanation": "Câu này hỏi thời gian đi từ nhà đến trường đại học. Sinh viên trả lời theo thông tin cá nhân bằng thời gian + くらいです.",
+          "tips": [
+            "うち = nhà của mình.",
+            "だいがく = đại học.",
+            "Trả lời nhanh: さんじゅっぷんくらいです。"
+          ],
+          "commonMistakes": [
+            "Nhầm なんで với どのくらい.",
+            "Câu hỏi hỏi thời gian nên không trả lời バスでいきます."
+          ]
+        },
+        {
+          "questionId": "jpd123_l4_p1_q06",
+          "order": 6,
+          "question": {
+            "ja": "うちから　だいがくまで　なんで　いきますか。",
+            "vi": "Từ nhà đến đại học bạn đi bằng gì?"
+          },
+          "answerType": "personal_transport",
+          "sampleAnswers": [
+            {
+              "ja": "バスで　いきます。",
+              "vi": "Tôi đi bằng xe buýt."
+            },
+            {
+              "ja": "くるまで　いきます。",
+              "vi": "Tôi đi bằng ô tô."
+            },
+            {
+              "ja": "ひこうきで　いきます。",
+              "vi": "Tôi đi bằng máy bay."
+            },
+            {
+              "ja": "あるいて　いきます。",
+              "vi": "Tôi đi bộ."
+            }
+          ],
+          "grammarIds": [
+            "g_l4_003",
+            "g_l4_004"
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "なんで",
+              "reading": "なんで",
+              "meaning": "Bằng gì"
+            },
+            {
+              "word": "バス",
+              "reading": "バス",
+              "meaning": "Xe buýt"
+            },
+            {
+              "word": "くるま",
+              "reading": "くるま",
+              "meaning": "Ô tô"
+            },
+            {
+              "word": "ひこうき",
+              "reading": "ひこうき",
+              "meaning": "Máy bay"
+            },
+            {
+              "word": "あるいて",
+              "reading": "あるいて",
+              "meaning": "Đi bộ"
+            },
+            {
+              "word": "いきます",
+              "reading": "いきます",
+              "meaning": "Đi"
+            }
+          ],
+          "explanation": "なんで trong bài này dùng để hỏi phương tiện. Với phương tiện dùng Nでいきます. Riêng đi bộ dùng あるいていきます, không nói あるいてでいきます.",
+          "tips": [
+            "なんで = bằng gì.",
+            "Phương tiện + で + いきます.",
+            "Đi bộ là trường hợp đặc biệt: あるいて　いきます."
+          ],
+          "commonMistakes": [
+            "Nói バスをいきます là sai.",
+            "Nói あるいてでいきます là sai."
+          ]
+        }
+      ]
+    },
+    {
+      "sectionId": "jpd123_l4_no_image_part2",
+      "sectionTitle": "Phần 2 - どんなところ／Aです／あります",
+      "sectionViTitle": "Miêu tả thành phố, trường học và nói nơi đó có gì",
+      "sectionGoal": "Sinh viên miêu tả được thành phố/trường học/món ăn bằng tính từ và nói được ở một nơi có gì bằng あります.",
+      "questionList": [
+        {
+          "questionId": "jpd123_l4_p2_q01",
+          "order": 1,
+          "question": {
+            "ja": "FPTだいがくは　おおきいですか。",
+            "vi": "Đại học FPT có lớn không?"
+          },
+          "answerType": "yes_no_i_adjective",
+          "sampleAnswers": [
+            {
+              "ja": "はい、おおきいです。",
+              "vi": "Vâng, lớn."
+            },
+            {
+              "ja": "いいえ、おおきくないです。",
+              "vi": "Không, không lớn."
+            }
+          ],
+          "grammarIds": [
+            "g_l4_005",
+            "g_l4_006"
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "FPTだいがく",
+              "reading": "FPTだいがく",
+              "meaning": "Đại học FPT"
+            },
+            {
+              "word": "おおきい",
+              "reading": "おおきい",
+              "meaning": "To, lớn"
+            },
+            {
+              "word": "おおきくない",
+              "reading": "おおきくない",
+              "meaning": "Không lớn"
+            },
+            {
+              "word": "はい",
+              "reading": "はい",
+              "meaning": "Vâng"
+            },
+            {
+              "word": "いいえ",
+              "reading": "いいえ",
+              "meaning": "Không"
+            }
+          ],
+          "explanation": "おおきい là tính từ đuôi い. Khi phủ định, bỏ い và thêm くない: おおきい → おおきくない.",
+          "tips": [
+            "Câu hỏi Yes/No nên bắt đầu bằng はい hoặc いいえ.",
+            "Không nói おおきいじゃありません vì おおきい là tính từ い.",
+            "Mẫu đúng: おおきくないです。"
+          ],
+          "commonMistakes": [
+            "Dùng sai phủ định: おおきいじゃありません.",
+            "Quên đổi い thành くない."
+          ]
+        },
+        {
+          "questionId": "jpd123_l4_p2_q02",
+          "order": 2,
+          "question": {
+            "ja": "Bさんの　まちは　みどりが　おおいですか。",
+            "vi": "Thành phố của bạn B có nhiều cây xanh không?"
+          },
+          "answerType": "yes_no_i_adjective_with_ga",
+          "sampleAnswers": [
+            {
+              "ja": "はい、みどりが　おおいです。",
+              "vi": "Vâng, có nhiều cây xanh."
+            },
+            {
+              "ja": "いいえ、あまり　おおくないです。",
+              "vi": "Không, không nhiều lắm."
+            }
+          ],
+          "grammarIds": [
+            "g_l4_005",
+            "g_l4_006",
+            "g_l4_013"
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "まち",
+              "reading": "まち",
+              "meaning": "Thành phố, thị trấn"
+            },
+            {
+              "word": "みどり",
+              "reading": "みどり",
+              "meaning": "Cây xanh / màu xanh"
+            },
+            {
+              "word": "おおい",
+              "reading": "おおい",
+              "meaning": "Nhiều"
+            },
+            {
+              "word": "おおくない",
+              "reading": "おおくない",
+              "meaning": "Không nhiều"
+            },
+            {
+              "word": "あまり",
+              "reading": "あまり",
+              "meaning": "Không ... lắm"
+            }
+          ],
+          "explanation": "みどりが おおいです nghĩa là có nhiều cây xanh. Khi muốn nói không nhiều lắm, dùng あまり + phủ định: あまり おおくないです.",
+          "tips": [
+            "みどり ở đây hiểu là cây xanh.",
+            "おおい phủ định là おおくない.",
+            "あまり phải đi với phủ định."
+          ],
+          "commonMistakes": [
+            "Nói あまり おおいです là sai vì あまり cần phủ định.",
+            "Nhầm みどり với màu xanh của đồ vật trong ngữ cảnh này."
+          ]
+        },
+        {
+          "questionId": "jpd123_l4_p2_q03",
+          "order": 3,
+          "question": {
+            "ja": "Bさんの　まちは　にぎやかですか。",
+            "vi": "Thành phố của bạn B có náo nhiệt không?"
+          },
+          "answerType": "yes_no_na_adjective",
+          "sampleAnswers": [
+            {
+              "ja": "はい、にぎやかです。",
+              "vi": "Vâng, náo nhiệt."
+            },
+            {
+              "ja": "いいえ、にぎやかじゃありません。しずかです。",
+              "vi": "Không, không náo nhiệt. Yên tĩnh."
+            }
+          ],
+          "grammarIds": [
+            "g_l4_007",
+            "g_l4_008"
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "まち",
+              "reading": "まち",
+              "meaning": "Thành phố, thị trấn"
+            },
+            {
+              "word": "にぎやか",
+              "reading": "にぎやか",
+              "meaning": "Náo nhiệt"
+            },
+            {
+              "word": "しずか",
+              "reading": "しずか",
+              "meaning": "Yên tĩnh"
+            },
+            {
+              "word": "じゃありません",
+              "reading": "じゃありません",
+              "meaning": "Không phải / không"
+            }
+          ],
+          "explanation": "にぎやか là tính từ đuôi な. Khi đứng cuối câu, không thêm な: にぎやかです. Khi phủ định dùng じゃありません.",
+          "tips": [
+            "にぎやか = náo nhiệt.",
+            "しずか = yên tĩnh.",
+            "Không nói にぎやかなです."
+          ],
+          "commonMistakes": [
+            "Thêm な sai vị trí: にぎやかなです.",
+            "Phủ định sai: にぎやかくないです."
+          ]
+        },
+        {
+          "questionId": "jpd123_l4_p2_q04",
+          "order": 4,
+          "question": {
+            "ja": "Bさんの　まちは　どんなところですか。",
+            "vi": "Thành phố của bạn B là nơi như thế nào?"
+          },
+          "answerType": "describe_place",
+          "sampleAnswers": [
+            {
+              "ja": "きれいな　まちです。",
+              "vi": "Là một thành phố đẹp/sạch."
+            },
+            {
+              "ja": "しずかな　ところです。",
+              "vi": "Là một nơi yên tĩnh."
+            },
+            {
+              "ja": "にぎやかな　まちです。そして、みどりが　おおいです。",
+              "vi": "Là một thành phố náo nhiệt. Và có nhiều cây xanh."
+            }
+          ],
+          "grammarIds": [
+            "g_l4_009",
+            "g_l4_012"
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "どんな",
+              "reading": "どんな",
+              "meaning": "Như thế nào"
+            },
+            {
+              "word": "ところ",
+              "reading": "ところ",
+              "meaning": "Nơi, chỗ"
+            },
+            {
+              "word": "まち",
+              "reading": "まち",
+              "meaning": "Thành phố"
+            },
+            {
+              "word": "きれい",
+              "reading": "きれい",
+              "meaning": "Đẹp, sạch"
+            },
+            {
+              "word": "しずか",
+              "reading": "しずか",
+              "meaning": "Yên tĩnh"
+            },
+            {
+              "word": "にぎやか",
+              "reading": "にぎやか",
+              "meaning": "Náo nhiệt"
+            },
+            {
+              "word": "そして",
+              "reading": "そして",
+              "meaning": "Và"
+            }
+          ],
+          "explanation": "どんなところですか hỏi đặc điểm của nơi đó. Khi dùng tính từ な trước danh từ, phải giữ な: きれいなまち, しずかなところ, にぎやかなまち.",
+          "tips": [
+            "Câu này nên trả lời bằng tính từ + まち/ところです.",
+            "きれい là tính từ な, nên nói きれいなまち.",
+            "Có thể nối thêm câu bằng そして."
+          ],
+          "commonMistakes": [
+            "Nói きれいまちです thiếu な.",
+            "Trả lời chỉ bằng ダナンです không đủ vì câu hỏi hỏi đặc điểm."
+          ]
+        },
+        {
+          "questionId": "jpd123_l4_p2_q05",
+          "order": 5,
+          "question": {
+            "ja": "フォーは　どんな　りょうりですか。",
+            "vi": "Phở là món ăn như thế nào?"
+          },
+          "answerType": "describe_food_type",
+          "sampleAnswers": [
+            {
+              "ja": "おいしい　りょうりです。",
+              "vi": "Là món ăn ngon."
+            },
+            {
+              "ja": "ベトナムの　りょうりです。",
+              "vi": "Là món ăn Việt Nam."
+            },
+            {
+              "ja": "あたたかい　りょうりです。",
+              "vi": "Là món ăn ấm/nóng."
+            }
+          ],
+          "grammarIds": [
+            "g_l4_009",
+            "g_l4_011"
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "フォー",
+              "reading": "フォー",
+              "meaning": "Phở"
+            },
+            {
+              "word": "どんな",
+              "reading": "どんな",
+              "meaning": "Như thế nào"
+            },
+            {
+              "word": "りょうり",
+              "reading": "りょうり",
+              "meaning": "Món ăn / nấu ăn"
+            },
+            {
+              "word": "おいしい",
+              "reading": "おいしい",
+              "meaning": "Ngon"
+            },
+            {
+              "word": "あたたかい",
+              "reading": "あたたかい",
+              "meaning": "Ấm"
+            }
+          ],
+          "explanation": "Câu này hỏi mô tả món ăn. Có thể trả lời bằng tính chất như おいしいりょうりです hoặc nguồn gốc như ベトナムのりょうりです.",
+          "tips": [
+            "フォー = phở.",
+            "りょうり = món ăn / nấu ăn.",
+            "おいしい là tính từ い nên đứng trực tiếp trước りょうり."
+          ],
+          "commonMistakes": [
+            "Nói おいしいなりょうり là sai vì おいしい là tính từ い.",
+            "Trả lời フォーです chưa đủ vì câu hỏi hỏi 'món ăn như thế nào'."
+          ]
+        },
+        {
+          "questionId": "jpd123_l4_p2_q06",
+          "order": 6,
+          "question": {
+            "ja": "FPTは　どんな　だいがくですか。",
+            "vi": "FPT là trường đại học như thế nào?"
+          },
+          "answerType": "describe_university",
+          "sampleAnswers": [
+            {
+              "ja": "ゆうめいな　だいがくです。",
+              "vi": "Là một trường đại học nổi tiếng."
+            },
+            {
+              "ja": "おおきい　だいがくです。",
+              "vi": "Là một trường đại học lớn."
+            },
+            {
+              "ja": "きれいな　だいがくです。",
+              "vi": "Là một trường đại học đẹp/sạch."
+            }
+          ],
+          "grammarIds": [
+            "g_l4_009"
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "FPT",
+              "reading": "FPT",
+              "meaning": "FPT"
+            },
+            {
+              "word": "だいがく",
+              "reading": "だいがく",
+              "meaning": "Đại học"
+            },
+            {
+              "word": "ゆうめい",
+              "reading": "ゆうめい",
+              "meaning": "Nổi tiếng"
+            },
+            {
+              "word": "おおきい",
+              "reading": "おおきい",
+              "meaning": "To, lớn"
+            },
+            {
+              "word": "きれい",
+              "reading": "きれい",
+              "meaning": "Đẹp, sạch"
+            }
+          ],
+          "explanation": "ゆうめい và きれい là tính từ な nên khi đứng trước だいがく phải thêm な: ゆうめいなだいがく, きれいなだいがく.",
+          "tips": [
+            "ゆうめい = nổi tiếng.",
+            "Trả lời an toàn: ゆうめいな　だいがくです.",
+            "おおきい là tính từ い nên không thêm な."
+          ],
+          "commonMistakes": [
+            "Nói ゆうめいだいがくです thiếu な.",
+            "Nói おおきいなだいがくです sai vì おおきい là tính từ い."
+          ]
+        },
+        {
+          "questionId": "jpd123_l4_p2_q07",
+          "order": 7,
+          "question": {
+            "ja": "Bさんの　まちに　なにが　ありますか。",
+            "vi": "Ở thành phố của bạn B có gì?"
+          },
+          "answerType": "existence_wh_question",
+          "sampleAnswers": [
+            {
+              "ja": "レストランが　あります。",
+              "vi": "Có nhà hàng."
+            },
+            {
+              "ja": "おてらが　あります。",
+              "vi": "Có chùa."
+            },
+            {
+              "ja": "やまや　かわなどが　あります。",
+              "vi": "Có núi, sông, v.v."
+            }
+          ],
+          "grammarIds": [
+            "g_l4_010",
+            "g_l4_014"
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "まち",
+              "reading": "まち",
+              "meaning": "Thành phố"
+            },
+            {
+              "word": "なに",
+              "reading": "なに",
+              "meaning": "Cái gì"
+            },
+            {
+              "word": "あります",
+              "reading": "あります",
+              "meaning": "Có"
+            },
+            {
+              "word": "レストラン",
+              "reading": "レストラン",
+              "meaning": "Nhà hàng"
+            },
+            {
+              "word": "てら",
+              "reading": "おてら",
+              "meaning": "Chùa"
+            },
+            {
+              "word": "やま",
+              "reading": "やま",
+              "meaning": "Núi"
+            },
+            {
+              "word": "かわ",
+              "reading": "かわ",
+              "meaning": "Sông"
+            }
+          ],
+          "explanation": "Mẫu NにNがあります dùng để nói ở một nơi có vật/địa điểm nào đó. Câu hỏi なにがありますか yêu cầu liệt kê các thứ có trong thành phố.",
+          "tips": [
+            "Địa điểm + に + vật/địa điểm + が + あります.",
+            "Có thể trả lời một thứ hoặc nhiều thứ.",
+            "Khi liệt kê không đầy đủ, dùng や／など."
+          ],
+          "commonMistakes": [
+            "Nói レストランをあります là sai.",
+            "Quên trợ từ が trước あります."
+          ]
+        },
+        {
+          "questionId": "jpd123_l4_p2_q08",
+          "order": 8,
+          "question": {
+            "ja": "Bさんの　まちに　おてらが　ありますか。",
+            "vi": "Ở thành phố của bạn B có chùa không?"
+          },
+          "answerType": "yes_no_existence",
+          "sampleAnswers": [
+            {
+              "ja": "はい、あります。",
+              "vi": "Vâng, có."
+            },
+            {
+              "ja": "はい、おてらが　あります。",
+              "vi": "Vâng, có chùa."
+            },
+            {
+              "ja": "いいえ、ありません。",
+              "vi": "Không, không có."
+            }
+          ],
+          "grammarIds": [
+            "g_l4_010"
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "まち",
+              "reading": "まち",
+              "meaning": "Thành phố"
+            },
+            {
+              "word": "てら",
+              "reading": "おてら",
+              "meaning": "Chùa"
+            },
+            {
+              "word": "あります",
+              "reading": "あります",
+              "meaning": "Có"
+            },
+            {
+              "word": "ありません",
+              "reading": "ありません",
+              "meaning": "Không có"
+            }
+          ],
+          "explanation": "Đây là câu hỏi Yes/No với あります. Nếu có thì trả lời はい、あります. Nếu không có thì trả lời いいえ、ありません.",
+          "tips": [
+            "あります = có.",
+            "ありません = không có.",
+            "Câu trả lời ngắn はい、あります là đủ."
+          ],
+          "commonMistakes": [
+            "Dùng います cho おてら. おてら là địa điểm/vật nên dùng あります.",
+            "Quên đổi あります thành ありません khi phủ định."
+          ]
+        }
+      ]
+    },
+    {
+      "sectionId": "jpd123_l4_no_image_part3",
+      "sectionTitle": "Phần 3 - てんき／きせつ／りょうり／どうですか",
+      "sectionViTitle": "Thời tiết, mùa, tháng, món ăn và cảm nhận",
+      "sectionGoal": "Sinh viên trả lời được thời tiết của quốc gia/thành phố theo tháng/mùa, mô tả món ăn và nói cảm nhận bằng どうですか.",
+      "questionList": [
+        {
+          "questionId": "jpd123_l4_p3_q01",
+          "order": 1,
+          "question": {
+            "ja": "Bさんの　くには　はちがつ、あついですか。",
+            "vi": "Đất nước của bạn B vào tháng 8 có nóng không?"
+          },
+          "answerType": "yes_no_weather_i_adjective",
+          "sampleAnswers": [
+            {
+              "ja": "はい、あついです。",
+              "vi": "Vâng, nóng."
+            },
+            {
+              "ja": "はい、とても　あついです。",
+              "vi": "Vâng, rất nóng."
+            },
+            {
+              "ja": "いいえ、あまり　あつくないです。",
+              "vi": "Không, không nóng lắm."
+            }
+          ],
+          "grammarIds": [
+            "g_l4_005",
+            "g_l4_006",
+            "g_l4_012",
+            "g_l4_013"
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "くに",
+              "reading": "くに",
+              "meaning": "Quốc gia"
+            },
+            {
+              "word": "はちがつ",
+              "reading": "はちがつ",
+              "meaning": "Tháng 8"
+            },
+            {
+              "word": "あつい",
+              "reading": "あつい",
+              "meaning": "Nóng bức"
+            },
+            {
+              "word": "とても",
+              "reading": "とても",
+              "meaning": "Rất"
+            },
+            {
+              "word": "あまり",
+              "reading": "あまり",
+              "meaning": "Không ... lắm"
+            }
+          ],
+          "explanation": "Câu này hỏi thời tiết ở đất nước của người học vào tháng 8. あつい là tính từ đuôi い, phủ định là あつくないです.",
+          "tips": [
+            "はちがつ = tháng 8.",
+            "あつい dùng cho thời tiết nóng.",
+            "Muốn nói rất nóng: とても　あついです."
+          ],
+          "commonMistakes": [
+            "Nói あついじゃありません là sai.",
+            "Dùng あまり với câu khẳng định như あまりあついです là sai."
+          ]
+        },
+        {
+          "questionId": "jpd123_l4_p3_q02",
+          "order": 2,
+          "question": {
+            "ja": "ベトナムは　じゅうにがつ、どうですか。",
+            "vi": "Việt Nam vào tháng 12 thì thế nào?"
+          },
+          "answerType": "weather_how_question",
+          "sampleAnswers": [
+            {
+              "ja": "すずしいです。",
+              "vi": "Mát mẻ."
+            },
+            {
+              "ja": "あまり　さむくないです。",
+              "vi": "Không lạnh lắm."
+            },
+            {
+              "ja": "すこし　さむいです。",
+              "vi": "Hơi lạnh."
+            }
+          ],
+          "grammarIds": [
+            "g_l4_011",
+            "g_l4_012",
+            "g_l4_013"
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "ベトナム",
+              "reading": "ベトナム",
+              "meaning": "Việt Nam"
+            },
+            {
+              "word": "じゅうにがつ",
+              "reading": "じゅうにがつ",
+              "meaning": "Tháng 12"
+            },
+            {
+              "word": "どう",
+              "reading": "どう",
+              "meaning": "Thế nào"
+            },
+            {
+              "word": "すずしい",
+              "reading": "すずしい",
+              "meaning": "Mát mẻ"
+            },
+            {
+              "word": "さむい",
+              "reading": "さむい",
+              "meaning": "Lạnh"
+            },
+            {
+              "word": "すこし",
+              "reading": "すこし",
+              "meaning": "Một chút"
+            }
+          ],
+          "explanation": "どうですか hỏi tình trạng/cảm nhận. Với thời tiết Việt Nam tháng 12, có thể trả lời すずしいです hoặc あまりさむくないです tùy vùng.",
+          "tips": [
+            "どうですか = thế nào?",
+            "すずしい = mát mẻ.",
+            "あまりさむくないです = không lạnh lắm."
+          ],
+          "commonMistakes": [
+            "Trả lời はい／いいえ cho câu どうですか là chưa đúng.",
+            "Dùng あまり với câu khẳng định."
+          ]
+        },
+        {
+          "questionId": "jpd123_l4_p3_q03",
+          "order": 3,
+          "question": {
+            "ja": "にほんは　ふゆ、どうですか。",
+            "vi": "Nhật Bản vào mùa đông thì thế nào?"
+          },
+          "answerType": "season_weather_how_question",
+          "sampleAnswers": [
+            {
+              "ja": "さむいです。",
+              "vi": "Lạnh."
+            },
+            {
+              "ja": "とても　さむいです。",
+              "vi": "Rất lạnh."
+            },
+            {
+              "ja": "ゆきが　あります。",
+              "vi": "Có tuyết."
+            }
+          ],
+          "grammarIds": [
+            "g_l4_010",
+            "g_l4_011",
+            "g_l4_012"
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "にほん",
+              "reading": "にほん",
+              "meaning": "Nhật Bản"
+            },
+            {
+              "word": "ふゆ",
+              "reading": "ふゆ",
+              "meaning": "Mùa đông"
+            },
+            {
+              "word": "どう",
+              "reading": "どう",
+              "meaning": "Thế nào"
+            },
+            {
+              "word": "さむい",
+              "reading": "さむい",
+              "meaning": "Lạnh"
+            },
+            {
+              "word": "ゆき",
+              "reading": "ゆき",
+              "meaning": "Tuyết"
+            },
+            {
+              "word": "あります",
+              "reading": "あります",
+              "meaning": "Có"
+            }
+          ],
+          "explanation": "Câu này hỏi đặc điểm thời tiết của Nhật vào mùa đông. Trả lời bằng tính từ như さむいです hoặc thêm thông tin ゆきがあります.",
+          "tips": [
+            "ふゆ = mùa đông.",
+            "さむい dùng cho thời tiết lạnh.",
+            "ゆきがあります = có tuyết."
+          ],
+          "commonMistakes": [
+            "Dùng つめたい cho thời tiết. つめたい thường dùng cho đồ vật/cảm giác chạm.",
+            "Quên が trong ゆきが　あります."
+          ]
+        },
+        {
+          "questionId": "jpd123_l4_p3_q04",
+          "order": 4,
+          "question": {
+            "ja": "にほんの　りょうりは　どうですか。",
+            "vi": "Món ăn Nhật thì thế nào?"
+          },
+          "answerType": "food_impression_how_question",
+          "sampleAnswers": [
+            {
+              "ja": "おいしいです。",
+              "vi": "Ngon."
+            },
+            {
+              "ja": "とても　おいしいです。",
+              "vi": "Rất ngon."
+            },
+            {
+              "ja": "おいしいです。でも、すこし　たかいです。",
+              "vi": "Ngon. Nhưng hơi đắt."
+            }
+          ],
+          "grammarIds": [
+            "g_l4_011",
+            "g_l4_012"
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "にほん",
+              "reading": "にほん",
+              "meaning": "Nhật Bản"
+            },
+            {
+              "word": "りょうり",
+              "reading": "りょうり",
+              "meaning": "Món ăn / nấu ăn"
+            },
+            {
+              "word": "どう",
+              "reading": "どう",
+              "meaning": "Thế nào"
+            },
+            {
+              "word": "おいしい",
+              "reading": "おいしい",
+              "meaning": "Ngon"
+            },
+            {
+              "word": "とても",
+              "reading": "とても",
+              "meaning": "Rất"
+            },
+            {
+              "word": "たかい",
+              "reading": "たかい",
+              "meaning": "Đắt / cao"
+            }
+          ],
+          "explanation": "どうですか ở đây hỏi cảm nhận về món ăn. Có thể trả lời ngắn おいしいです hoặc thêm nhận xét khác như すこしたかいです.",
+          "tips": [
+            "りょうり = món ăn.",
+            "おいしい = ngon.",
+            "すこしたかいです = hơi đắt."
+          ],
+          "commonMistakes": [
+            "Trả lời にほんです là sai vì câu hỏi hỏi món ăn Nhật thế nào.",
+            "Dùng おいしいなりょうり sai vì おいしい là tính từ い."
+          ]
+        },
+        {
+          "questionId": "jpd123_l4_p3_q05",
+          "order": 5,
+          "question": {
+            "ja": "このレストランは　じゅうにじから　いちじまで　にぎやかですか。",
+            "vi": "Nhà hàng này từ 12 giờ đến 1 giờ có náo nhiệt/đông vui không?"
+          },
+          "answerType": "yes_no_time_range_na_adjective",
+          "sampleAnswers": [
+            {
+              "ja": "はい、とても　にぎやかです。",
+              "vi": "Vâng, rất náo nhiệt."
+            },
+            {
+              "ja": "はい、にぎやかです。",
+              "vi": "Vâng, náo nhiệt."
+            },
+            {
+              "ja": "いいえ、あまり　にぎやかじゃありません。",
+              "vi": "Không, không náo nhiệt lắm."
+            }
+          ],
+          "grammarIds": [
+            "g_l4_007",
+            "g_l4_008",
+            "g_l4_013"
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "レストラン",
+              "reading": "レストラン",
+              "meaning": "Nhà hàng"
+            },
+            {
+              "word": "じゅうにじ",
+              "reading": "じゅうにじ",
+              "meaning": "12 giờ"
+            },
+            {
+              "word": "いちじ",
+              "reading": "いちじ",
+              "meaning": "1 giờ"
+            },
+            {
+              "word": "から",
+              "reading": "から",
+              "meaning": "Từ"
+            },
+            {
+              "word": "まで",
+              "reading": "まで",
+              "meaning": "Đến"
+            },
+            {
+              "word": "にぎやか",
+              "reading": "にぎやか",
+              "meaning": "Náo nhiệt"
+            },
+            {
+              "word": "とても",
+              "reading": "とても",
+              "meaning": "Rất"
+            },
+            {
+              "word": "あまり",
+              "reading": "あまり",
+              "meaning": "Không ... lắm"
+            }
+          ],
+          "explanation": "にぎやか là tính từ đuôi な. Khi đứng cuối câu dùng にぎやかです. Khi phủ định dùng にぎやかじゃありません. Cụm じゅうにじからいちじまで nghĩa là từ 12 giờ đến 1 giờ.",
+          "tips": [
+            "から = từ.",
+            "まで = đến.",
+            "にぎやか là tính từ な, không dùng にぎやかくない."
+          ],
+          "commonMistakes": [
+            "Nói にぎやかくないです là sai.",
+            "Nhầm câu hỏi thời gian với câu hỏi địa điểm."
+          ]
+        }
+      ]
+    }
+  ],
+  "questionSummaryTable": [
+    {
+      "part": 1,
+      "order": 1,
+      "questionJa": "Bさんの　まちは　どちらですか。",
+      "sampleAnswerJa": "ダナンです。／ハノイです。",
+      "questionVi": "Thành phố/quê của bạn B là ở đâu?",
+      "sampleAnswerVi": "Là Đà Nẵng. / Là Hà Nội."
+    },
+    {
+      "part": 1,
+      "order": 2,
+      "questionJa": "ホーチミンは　ベトナムの　どこですか。",
+      "sampleAnswerJa": "みなみです。／ベトナムの　みなみです。",
+      "questionVi": "Hồ Chí Minh ở đâu của Việt Nam?",
+      "sampleAnswerVi": "Ở phía nam. / Ở phía nam của Việt Nam."
+    },
+    {
+      "part": 1,
+      "order": 3,
+      "questionJa": "ハノイは　ベトナムの　どこですか。",
+      "sampleAnswerJa": "きたです。／ベトナムの　きたです。",
+      "questionVi": "Hà Nội ở đâu của Việt Nam?",
+      "sampleAnswerVi": "Ở phía bắc. / Ở phía bắc của Việt Nam."
+    },
+    {
+      "part": 1,
+      "order": 4,
+      "questionJa": "ハノイから　ホーチミンまで　どのくらいですか。",
+      "sampleAnswerJa": "にじかんくらいです。／ひこうきで　にじかんくらいです。",
+      "questionVi": "Từ Hà Nội đến Hồ Chí Minh mất khoảng bao lâu?",
+      "sampleAnswerVi": "Khoảng 2 tiếng. / Đi máy bay khoảng 2 tiếng."
+    },
+    {
+      "part": 1,
+      "order": 5,
+      "questionJa": "うちから　だいがくまで　どのくらいですか。",
+      "sampleAnswerJa": "さんじゅっぷんくらいです。／いちじかんくらいです。",
+      "questionVi": "Từ nhà đến đại học mất khoảng bao lâu?",
+      "sampleAnswerVi": "Khoảng 30 phút. / Khoảng 1 tiếng."
+    },
+    {
+      "part": 1,
+      "order": 6,
+      "questionJa": "うちから　だいがくまで　なんで　いきますか。",
+      "sampleAnswerJa": "バスで　いきます。／くるまで　いきます。",
+      "questionVi": "Từ nhà đến đại học bạn đi bằng gì?",
+      "sampleAnswerVi": "Tôi đi bằng xe buýt. / Tôi đi bằng ô tô."
+    },
+    {
+      "part": 2,
+      "order": 1,
+      "questionJa": "FPTだいがくは　おおきいですか。",
+      "sampleAnswerJa": "はい、おおきいです。／いいえ、おおきくないです。",
+      "questionVi": "Đại học FPT có lớn không?",
+      "sampleAnswerVi": "Vâng, lớn. / Không, không lớn."
+    },
+    {
+      "part": 2,
+      "order": 2,
+      "questionJa": "Bさんの　まちは　みどりが　おおいですか。",
+      "sampleAnswerJa": "はい、みどりが　おおいです。／いいえ、あまり　おおくないです。",
+      "questionVi": "Thành phố của bạn B có nhiều cây xanh không?",
+      "sampleAnswerVi": "Vâng, có nhiều cây xanh. / Không, không nhiều lắm."
+    },
+    {
+      "part": 2,
+      "order": 3,
+      "questionJa": "Bさんの　まちは　にぎやかですか。",
+      "sampleAnswerJa": "はい、にぎやかです。／いいえ、にぎやかじゃありません。しずかです。",
+      "questionVi": "Thành phố của bạn B có náo nhiệt không?",
+      "sampleAnswerVi": "Vâng, náo nhiệt. / Không, không náo nhiệt. Yên tĩnh."
+    },
+    {
+      "part": 2,
+      "order": 4,
+      "questionJa": "Bさんの　まちは　どんなところですか。",
+      "sampleAnswerJa": "きれいな　まちです。／しずかな　ところです。",
+      "questionVi": "Thành phố của bạn B là nơi như thế nào?",
+      "sampleAnswerVi": "Là một thành phố đẹp/sạch. / Là một nơi yên tĩnh."
+    },
+    {
+      "part": 2,
+      "order": 5,
+      "questionJa": "フォーは　どんな　りょうりですか。",
+      "sampleAnswerJa": "おいしい　りょうりです。／ベトナムの　りょうりです。",
+      "questionVi": "Phở là món ăn như thế nào?",
+      "sampleAnswerVi": "Là món ăn ngon. / Là món ăn Việt Nam."
+    },
+    {
+      "part": 2,
+      "order": 6,
+      "questionJa": "FPTは　どんな　だいがくですか。",
+      "sampleAnswerJa": "ゆうめいな　だいがくです。／おおきい　だいがくです。",
+      "questionVi": "FPT là trường đại học như thế nào?",
+      "sampleAnswerVi": "Là một trường đại học nổi tiếng. / Là một trường đại học lớn."
+    },
+    {
+      "part": 2,
+      "order": 7,
+      "questionJa": "Bさんの　まちに　なにが　ありますか。",
+      "sampleAnswerJa": "レストランが　あります。／おてらが　あります。",
+      "questionVi": "Ở thành phố của bạn B có gì?",
+      "sampleAnswerVi": "Có nhà hàng. / Có chùa."
+    },
+    {
+      "part": 2,
+      "order": 8,
+      "questionJa": "Bさんの　まちに　おてらが　ありますか。",
+      "sampleAnswerJa": "はい、あります。／はい、おてらが　あります。",
+      "questionVi": "Ở thành phố của bạn B có chùa không?",
+      "sampleAnswerVi": "Vâng, có. / Vâng, có chùa."
+    },
+    {
+      "part": 3,
+      "order": 1,
+      "questionJa": "Bさんの　くには　はちがつ、あついですか。",
+      "sampleAnswerJa": "はい、あついです。／はい、とても　あついです。",
+      "questionVi": "Đất nước của bạn B vào tháng 8 có nóng không?",
+      "sampleAnswerVi": "Vâng, nóng. / Vâng, rất nóng."
+    },
+    {
+      "part": 3,
+      "order": 2,
+      "questionJa": "ベトナムは　じゅうにがつ、どうですか。",
+      "sampleAnswerJa": "すずしいです。／あまり　さむくないです。",
+      "questionVi": "Việt Nam vào tháng 12 thì thế nào?",
+      "sampleAnswerVi": "Mát mẻ. / Không lạnh lắm."
+    },
+    {
+      "part": 3,
+      "order": 3,
+      "questionJa": "にほんは　ふゆ、どうですか。",
+      "sampleAnswerJa": "さむいです。／とても　さむいです。",
+      "questionVi": "Nhật Bản vào mùa đông thì thế nào?",
+      "sampleAnswerVi": "Lạnh. / Rất lạnh."
+    },
+    {
+      "part": 3,
+      "order": 4,
+      "questionJa": "にほんの　りょうりは　どうですか。",
+      "sampleAnswerJa": "おいしいです。／とても　おいしいです。",
+      "questionVi": "Món ăn Nhật thì thế nào?",
+      "sampleAnswerVi": "Ngon. / Rất ngon."
+    },
+    {
+      "part": 3,
+      "order": 5,
+      "questionJa": "このレストランは　じゅうにじから　いちじまで　にぎやかですか。",
+      "sampleAnswerJa": "はい、とても　にぎやかです。／はい、にぎやかです。",
+      "questionVi": "Nhà hàng này từ 12 giờ đến 1 giờ có náo nhiệt/đông vui không?",
+      "sampleAnswerVi": "Vâng, rất náo nhiệt. / Vâng, náo nhiệt."
+    }
+  ]
+}

@@ -1,0 +1,1032 @@
+{
+  "courseCode": "jpd113",
+  "lessonNumber": 1,
+  "lessonTitle": "Bài 1 - Câu hỏi có tranh",
+  "questionMode": "WITH_IMAGE",
+  "dataPurpose": "oral_exam_practice_web",
+  "pictureSets": [
+    {
+      "pictureId": "jpd113_l1_picture_01_an",
+      "pictureTitle": "Tranh 1 - アンさん",
+      "imageUrl": "/data/speaking/jpd113/qa/nhanvat1.png",
+      "questions": [
+        {
+          "questionId": "l1_img_an_q01",
+          "order": 1,
+          "question": {
+            "ja": "この人の　おなまえは　なんですか。",
+            "vi": "Tên của người này là gì?"
+          },
+          "answerType": "text",
+          "sampleAnswers": [
+            {
+              "ja": "アンさんです。",
+              "vi": "Là bạn An."
+            },
+            {
+              "ja": "アンです。",
+              "vi": "Là An."
+            }
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "この人",
+              "reading": "このひと",
+              "meaning": "Người này"
+            },
+            {
+              "word": "おなまえ",
+              "reading": "おなまえ",
+              "meaning": "Tên, cách nói lịch sự"
+            },
+            {
+              "word": "なまえ",
+              "reading": "なまえ",
+              "meaning": "Tên"
+            },
+            {
+              "word": "なん",
+              "reading": "なん",
+              "meaning": "Cái gì / là gì"
+            },
+            {
+              "word": "～さん",
+              "reading": "～さん",
+              "meaning": "Anh/chị/bạn ~"
+            }
+          ],
+          "tips": [
+            "Nghe thấy おなまえ thì tìm tên nhân vật.",
+            "Trả lời ngắn: アンさんです。",
+            "Thêm さん sau tên sẽ lịch sự và tự nhiên hơn."
+          ],
+          "explanation": "Câu hỏi có おなまえ nên cần nhìn phần Name trong tranh. Vì nhân vật tên là アン, câu trả lời là アンさんです。",
+          "relatedGrammar": [
+            {
+              "pattern": "この人の N は なんですか。",
+              "meaning": "N của người này là gì?",
+              "howToUse": "Dùng để hỏi thông tin của người trong tranh, ví dụ tên, nghề nghiệp, sở thích."
+            },
+            {
+              "pattern": "Nです。",
+              "meaning": "Là N.",
+              "howToUse": "Dùng để trả lời ngắn bằng tên + です。"
+            }
+          ]
+        },
+        {
+          "questionId": "l1_img_an_q02",
+          "order": 2,
+          "question": {
+            "ja": "この人は　アンさんですか。",
+            "vi": "Người này là bạn An phải không?"
+          },
+          "answerType": "text",
+          "sampleAnswers": [
+            {
+              "ja": "はい、アンさんです。",
+              "vi": "Vâng, là bạn An."
+            },
+            {
+              "ja": "いいえ、アンさんじゃありません。",
+              "vi": "Không, không phải bạn An."
+            }
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "この人",
+              "reading": "このひと",
+              "meaning": "Người này"
+            },
+            {
+              "word": "はい",
+              "reading": "はい",
+              "meaning": "Vâng"
+            },
+            {
+              "word": "いいえ",
+              "reading": "いいえ",
+              "meaning": "Không"
+            },
+            {
+              "word": "じゃありません",
+              "reading": "じゃありません",
+              "meaning": "Không phải"
+            }
+          ],
+          "tips": [
+            "Câu có ですか ở cuối thường là câu hỏi xác nhận.",
+            "Nếu đúng thì dùng はい.",
+            "Nếu sai thì dùng いいえ + じゃありません."
+          ],
+          "explanation": "Đây là câu hỏi Yes/No để xác nhận tên nhân vật. Nếu tranh là アンさん thì trả lời はい、アンさんです。",
+          "relatedGrammar": [
+            {
+              "pattern": "この人は N ですか。",
+              "meaning": "Người này có phải là N không?",
+              "howToUse": "Dùng để xác nhận danh tính người trong tranh."
+            },
+            {
+              "pattern": "はい、Nです。",
+              "meaning": "Vâng, là N.",
+              "howToUse": "Dùng khi thông tin đúng."
+            },
+            {
+              "pattern": "いいえ、Nじゃありません。",
+              "meaning": "Không, không phải N.",
+              "howToUse": "Dùng khi thông tin sai."
+            }
+          ]
+        },
+        {
+          "questionId": "l1_img_an_q03",
+          "order": 3,
+          "question": {
+            "ja": "この人は　ベトナム人ですか。",
+            "vi": "Người này là người Việt Nam phải không?"
+          },
+          "answerType": "text",
+          "sampleAnswers": [
+            {
+              "ja": "はい、ベトナム人です。",
+              "vi": "Vâng, là người Việt Nam."
+            },
+            {
+              "ja": "いいえ、ベトナム人じゃありません。",
+              "vi": "Không, không phải người Việt Nam."
+            }
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "ベトナム",
+              "reading": "ベトナム",
+              "meaning": "Việt Nam"
+            },
+            {
+              "word": "ベトナム人",
+              "reading": "ベトナムじん",
+              "meaning": "Người Việt Nam"
+            },
+            {
+              "word": "～人",
+              "reading": "～じん",
+              "meaning": "Người nước ~"
+            },
+            {
+              "word": "にほん人",
+              "reading": "にほんじん",
+              "meaning": "Người Nhật"
+            },
+            {
+              "word": "アメリカ人",
+              "reading": "アメリカじん",
+              "meaning": "Người Mỹ"
+            },
+            {
+              "word": "ロシア人",
+              "reading": "ロシアじん",
+              "meaning": "Người Nga"
+            },
+            {
+              "word": "ちゅうごく人",
+              "reading": "ちゅうごくじん",
+              "meaning": "Người Trung Quốc"
+            }
+          ],
+          "tips": [
+            "Quốc gia là ベトナム.",
+            "Quốc tịch là ベトナム人.",
+            "Khi nói người nước nào, phải thêm 人."
+          ],
+          "explanation": "Trong tranh, quốc tịch của アンさん là ベトナム人. Vì vậy, câu trả lời đúng là はい、ベトナム人です。",
+          "relatedGrammar": [
+            {
+              "pattern": "この人は N人 ですか。",
+              "meaning": "Người này có phải là người nước N không?",
+              "howToUse": "Dùng để hỏi xác nhận quốc tịch."
+            },
+            {
+              "pattern": "Tên nước + 人",
+              "meaning": "Người nước đó.",
+              "howToUse": "Dùng để nói quốc tịch."
+            }
+          ]
+        },
+        {
+          "questionId": "l1_img_an_q04",
+          "order": 4,
+          "question": {
+            "ja": "この人の　おくには　どちらですか。",
+            "vi": "Đất nước của người này là nước nào?"
+          },
+          "answerType": "text",
+          "sampleAnswers": [
+            {
+              "ja": "ベトナムです。",
+              "vi": "Là Việt Nam."
+            }
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "おくに",
+              "reading": "おくに",
+              "meaning": "Đất nước, cách nói lịch sự"
+            },
+            {
+              "word": "くに",
+              "reading": "くに",
+              "meaning": "Đất nước"
+            },
+            {
+              "word": "どちら",
+              "reading": "どちら",
+              "meaning": "Ở đâu / nước nào"
+            },
+            {
+              "word": "ベトナム",
+              "reading": "ベトナム",
+              "meaning": "Việt Nam"
+            },
+            {
+              "word": "にほん",
+              "reading": "にほん",
+              "meaning": "Nhật Bản"
+            },
+            {
+              "word": "アメリカ",
+              "reading": "アメリカ",
+              "meaning": "Mỹ"
+            },
+            {
+              "word": "ロシア",
+              "reading": "ロシア",
+              "meaning": "Nga"
+            },
+            {
+              "word": "ちゅうごく",
+              "reading": "ちゅうごく",
+              "meaning": "Trung Quốc"
+            }
+          ],
+          "tips": [
+            "おくに hỏi tên nước.",
+            "Không trả lời ベトナム人です trong câu này.",
+            "Câu đúng: ベトナムです。"
+          ],
+          "explanation": "Câu hỏi dùng おくに nên cần trả lời tên nước, không thêm 人. Tranh ghi Country là ベトナム, nên trả lời ベトナムです。",
+          "relatedGrammar": [
+            {
+              "pattern": "この人の N は どちらですか。",
+              "meaning": "N của người này là ở đâu / nước nào?",
+              "howToUse": "Dùng để hỏi đất nước của người trong tranh."
+            },
+            {
+              "pattern": "Nです。",
+              "meaning": "Là N.",
+              "howToUse": "Trả lời bằng tên nước + です。"
+            }
+          ]
+        },
+        {
+          "questionId": "l1_img_an_q05",
+          "order": 5,
+          "question": {
+            "ja": "この人は　なんさいですか。",
+            "vi": "Người này bao nhiêu tuổi?"
+          },
+          "answerType": "text",
+          "sampleAnswers": [
+            {
+              "ja": "じゅうはっさいです。",
+              "vi": "18 tuổi."
+            }
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "なんさい",
+              "reading": "なんさい",
+              "meaning": "Bao nhiêu tuổi"
+            },
+            {
+              "word": "～さい",
+              "reading": "～さい",
+              "meaning": "~ tuổi"
+            },
+            {
+              "word": "じゅうはっさい",
+              "reading": "じゅうはっさい",
+              "meaning": "18 tuổi"
+            },
+            {
+              "word": "じゅうきゅうさい",
+              "reading": "じゅうきゅうさい",
+              "meaning": "19 tuổi"
+            },
+            {
+              "word": "はたち",
+              "reading": "はたち",
+              "meaning": "20 tuổi"
+            },
+            {
+              "word": "にじゅういっさい",
+              "reading": "にじゅういっさい",
+              "meaning": "21 tuổi"
+            },
+            {
+              "word": "にじゅうにさい",
+              "reading": "にじゅうにさい",
+              "meaning": "22 tuổi"
+            }
+          ],
+          "tips": [
+            "Nghe thấy なんさい thì trả lời tuổi.",
+            "18 tuổi đọc là じゅうはっさい.",
+            "Không đọc là じゅうはちさい trong mẫu này."
+          ],
+          "explanation": "Trong tranh ghi Age là 18歳. Tiếng Nhật đọc là じゅうはっさい.",
+          "relatedGrammar": [
+            {
+              "pattern": "Nは なんさいですか。",
+              "meaning": "N bao nhiêu tuổi?",
+              "howToUse": "Dùng để hỏi tuổi."
+            },
+            {
+              "pattern": "Tuổi + です。",
+              "meaning": "Là ... tuổi.",
+              "howToUse": "Dùng để trả lời tuổi."
+            }
+          ]
+        },
+        {
+          "questionId": "l1_img_an_q06",
+          "order": 6,
+          "question": {
+            "ja": "この人の　たんじょうびは　なんがつ　なんにちですか。",
+            "vi": "Sinh nhật của người này là tháng mấy ngày mấy?"
+          },
+          "answerType": "text",
+          "sampleAnswers": [
+            {
+              "ja": "くがつ　むいかです。",
+              "vi": "Là ngày 6 tháng 9."
+            }
+          ],
+          "relatedVocabulary": [],
+          "tips": [
+            "9月 đọc là くがつ.",
+            "Ngày 6 đọc là むいか.",
+            "Không nói ngày trước tháng như tiếng Việt."
+          ],
+          "explanation": "Trong tranh ghi Birthday là 9月6日. Tiếng Nhật nói tháng trước ngày sau: くがつ むいか.",
+          "relatedGrammar": [
+            {
+              "pattern": "Nの たんじょうびは なんがつ なんにちですか。",
+              "meaning": "Sinh nhật của N là tháng mấy ngày mấy?",
+              "howToUse": "Dùng để hỏi ngày sinh cụ thể."
+            },
+            {
+              "pattern": "Tháng + ngày + です。",
+              "meaning": "Là ngày ... tháng ...",
+              "howToUse": "Dùng để trả lời ngày sinh."
+            }
+          ]
+        },
+        {
+          "questionId": "l1_img_an_q07",
+          "order": 7,
+          "question": {
+            "ja": "この人の　おしごとは　なんですか。",
+            "vi": "Nghề nghiệp của người này là gì?"
+          },
+          "answerType": "text",
+          "sampleAnswers": [
+            {
+              "ja": "がくせいです。",
+              "vi": "Là sinh viên."
+            }
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "おしごと",
+              "reading": "おしごと",
+              "meaning": "Công việc / nghề nghiệp"
+            },
+            {
+              "word": "しごと",
+              "reading": "しごと",
+              "meaning": "Công việc"
+            },
+            {
+              "word": "がくせい",
+              "reading": "がくせい",
+              "meaning": "Sinh viên"
+            },
+            {
+              "word": "きょうし",
+              "reading": "きょうし",
+              "meaning": "Giáo viên"
+            },
+            {
+              "word": "せんせい",
+              "reading": "せんせい",
+              "meaning": "Thầy cô / giáo viên"
+            },
+            {
+              "word": "かいしゃいん",
+              "reading": "かいしゃいん",
+              "meaning": "Nhân viên công ty"
+            },
+            {
+              "word": "だいがく",
+              "reading": "だいがく",
+              "meaning": "Đại học"
+            }
+          ],
+          "tips": [
+            "Nghe thấy おしごと thì nhìn phần Job/Occupation.",
+            "学生 đọc là がくせい.",
+            "Trả lời ngắn: がくせいです。"
+          ],
+          "explanation": "Trong tranh ghi Job là 学生. Tiếng Nhật ở dạng hiragana là がくせい.",
+          "relatedGrammar": [
+            {
+              "pattern": "Nの おしごとは なんですか。",
+              "meaning": "Nghề nghiệp của N là gì?",
+              "howToUse": "Dùng để hỏi nghề nghiệp của người trong tranh."
+            },
+            {
+              "pattern": "Nです。",
+              "meaning": "Là N.",
+              "howToUse": "Trả lời bằng nghề nghiệp + です。"
+            }
+          ]
+        },
+        {
+          "questionId": "l1_img_an_q08",
+          "order": 8,
+          "question": {
+            "ja": "この人の　しゅみは　なんですか。",
+            "vi": "Sở thích của người này là gì?"
+          },
+          "answerType": "text",
+          "sampleAnswers": [
+            {
+              "ja": "おんがくです。",
+              "vi": "Là âm nhạc."
+            }
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "しゅみ",
+              "reading": "しゅみ",
+              "meaning": "Sở thích"
+            },
+            {
+              "word": "おんがく",
+              "reading": "おんがく",
+              "meaning": "Âm nhạc"
+            },
+            {
+              "word": "えいが",
+              "reading": "えいが",
+              "meaning": "Phim ảnh"
+            },
+            {
+              "word": "どくしょ",
+              "reading": "どくしょ",
+              "meaning": "Đọc sách"
+            },
+            {
+              "word": "スポーツ",
+              "reading": "スポーツ",
+              "meaning": "Thể thao"
+            },
+            {
+              "word": "テニス",
+              "reading": "テニス",
+              "meaning": "Quần vợt"
+            },
+            {
+              "word": "りょこう",
+              "reading": "りょこう",
+              "meaning": "Du lịch"
+            }
+          ],
+          "tips": [
+            "Nghe thấy しゅみ thì tìm phần Hobby.",
+            "Âm nhạc là おんがく.",
+            "Trả lời ngắn: おんがくです。"
+          ],
+          "explanation": "Trong tranh ghi Hobby là 音楽. Tiếng Nhật đọc là おんがく.",
+          "relatedGrammar": [
+            {
+              "pattern": "Nの しゅみは なんですか。",
+              "meaning": "Sở thích của N là gì?",
+              "howToUse": "Dùng để hỏi sở thích của người trong tranh."
+            },
+            {
+              "pattern": "Nです。",
+              "meaning": "Là N.",
+              "howToUse": "Trả lời bằng sở thích + です。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "pictureId": "jpd113_l1_picture_02_lee",
+      "pictureTitle": "Tranh 2 - リーさん",
+      "imageUrl": "/data/speaking/jpd113/qa/nhanvat2.png",
+      "questions": [
+        {
+          "questionId": "l1_img_lee_q01",
+          "order": 1,
+          "question": {
+            "ja": "この人の　なまえは　なんですか。",
+            "vi": "Tên của người này là gì?"
+          },
+          "answerType": "text",
+          "sampleAnswers": [
+            {
+              "ja": "リーさんです。",
+              "vi": "Là anh Lee."
+            },
+            {
+              "ja": "リーです。",
+              "vi": "Là Lee."
+            }
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "この人",
+              "reading": "このひと",
+              "meaning": "Người này"
+            },
+            {
+              "word": "なまえ",
+              "reading": "なまえ",
+              "meaning": "Tên"
+            },
+            {
+              "word": "おなまえ",
+              "reading": "おなまえ",
+              "meaning": "Tên, cách nói lịch sự"
+            },
+            {
+              "word": "なん",
+              "reading": "なん",
+              "meaning": "Cái gì / là gì"
+            },
+            {
+              "word": "～さん",
+              "reading": "～さん",
+              "meaning": "Anh/chị/bạn ~"
+            }
+          ],
+          "tips": [
+            "Tìm phần Name trên tranh.",
+            "Trả lời tên + さん + です.",
+            "Không cần nói thêm quốc tịch hoặc tuổi."
+          ],
+          "explanation": "Tranh ghi Name là リー. Khi hỏi なまえ, trả lời リーさんです。",
+          "relatedGrammar": [
+            {
+              "pattern": "この人の N は なんですか。",
+              "meaning": "N của người này là gì?",
+              "howToUse": "Dùng để hỏi thông tin của nhân vật trong tranh."
+            },
+            {
+              "pattern": "Nです。",
+              "meaning": "Là N.",
+              "howToUse": "Dùng để trả lời bằng tên + です。"
+            }
+          ]
+        },
+        {
+          "questionId": "l1_img_lee_q02",
+          "order": 2,
+          "question": {
+            "ja": "リーさんの　おくには　どちらですか。",
+            "vi": "Đất nước của anh Lee là nước nào?"
+          },
+          "answerType": "text",
+          "sampleAnswers": [
+            {
+              "ja": "ちゅうごくです。",
+              "vi": "Là Trung Quốc."
+            }
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "おくに",
+              "reading": "おくに",
+              "meaning": "Đất nước, cách nói lịch sự"
+            },
+            {
+              "word": "どちら",
+              "reading": "どちら",
+              "meaning": "Ở đâu / nước nào"
+            },
+            {
+              "word": "ちゅうごく",
+              "reading": "ちゅうごく",
+              "meaning": "Trung Quốc"
+            },
+            {
+              "word": "ベトナム",
+              "reading": "ベトナム",
+              "meaning": "Việt Nam"
+            },
+            {
+              "word": "にほん",
+              "reading": "にほん",
+              "meaning": "Nhật Bản"
+            },
+            {
+              "word": "アメリカ",
+              "reading": "アメリカ",
+              "meaning": "Mỹ"
+            },
+            {
+              "word": "ロシア",
+              "reading": "ロシア",
+              "meaning": "Nga"
+            }
+          ],
+          "tips": [
+            "おくに hỏi quốc gia.",
+            "Không thêm 人 khi câu hỏi hỏi quốc gia.",
+            "Câu đúng: ちゅうごくです。"
+          ],
+          "explanation": "Câu hỏi dùng おくに nên trả lời bằng tên nước. Tranh ghi Country là ちゅうごく.",
+          "relatedGrammar": [
+            {
+              "pattern": "Nさんの おくには どちらですか。",
+              "meaning": "Đất nước của anh/chị N là nước nào?",
+              "howToUse": "Dùng để hỏi quốc gia của người trong tranh."
+            },
+            {
+              "pattern": "Nです。",
+              "meaning": "Là N.",
+              "howToUse": "Trả lời bằng tên nước + です。"
+            }
+          ]
+        },
+        {
+          "questionId": "l1_img_lee_q03",
+          "order": 3,
+          "question": {
+            "ja": "リーさんは　ちゅうごく人ですか。",
+            "vi": "Anh Lee là người Trung Quốc phải không?"
+          },
+          "answerType": "text",
+          "sampleAnswers": [
+            {
+              "ja": "はい、ちゅうごく人です。",
+              "vi": "Vâng, là người Trung Quốc."
+            },
+            {
+              "ja": "いいえ、ちゅうごく人じゃありません。",
+              "vi": "Không, không phải người Trung Quốc."
+            }
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "ちゅうごく",
+              "reading": "ちゅうごく",
+              "meaning": "Trung Quốc"
+            },
+            {
+              "word": "ちゅうごく人",
+              "reading": "ちゅうごくじん",
+              "meaning": "Người Trung Quốc"
+            },
+            {
+              "word": "～人",
+              "reading": "～じん",
+              "meaning": "Người nước ~"
+            },
+            {
+              "word": "ベトナム人",
+              "reading": "ベトナムじん",
+              "meaning": "Người Việt Nam"
+            },
+            {
+              "word": "にほん人",
+              "reading": "にほんじん",
+              "meaning": "Người Nhật"
+            },
+            {
+              "word": "アメリカ人",
+              "reading": "アメリカじん",
+              "meaning": "Người Mỹ"
+            },
+            {
+              "word": "ロシア人",
+              "reading": "ロシアじん",
+              "meaning": "Người Nga"
+            }
+          ],
+          "tips": [
+            "ちゅうごく là Trung Quốc.",
+            "ちゅうごく人 là người Trung Quốc.",
+            "Nhớ thêm 人 khi nói quốc tịch."
+          ],
+          "explanation": "Tranh ghi Nationality là ちゅうごく人. Câu hỏi là Yes/No nên trả lời はい、ちゅうごく人です。",
+          "relatedGrammar": [
+            {
+              "pattern": "Nさんは N人 ですか。",
+              "meaning": "Anh/chị N có phải là người nước N không?",
+              "howToUse": "Dùng để hỏi xác nhận quốc tịch."
+            },
+            {
+              "pattern": "Tên nước + 人",
+              "meaning": "Người nước đó.",
+              "howToUse": "Dùng để nói quốc tịch."
+            }
+          ]
+        },
+        {
+          "questionId": "l1_img_lee_q04",
+          "order": 4,
+          "question": {
+            "ja": "リーさんは　なんさいですか。",
+            "vi": "Anh Lee bao nhiêu tuổi?"
+          },
+          "answerType": "text",
+          "sampleAnswers": [
+            {
+              "ja": "にじゅうにさいです。",
+              "vi": "Anh ấy 22 tuổi."
+            }
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "なんさい",
+              "reading": "なんさい",
+              "meaning": "Bao nhiêu tuổi"
+            },
+            {
+              "word": "～さい",
+              "reading": "～さい",
+              "meaning": "~ tuổi"
+            },
+            {
+              "word": "にじゅうにさい",
+              "reading": "にじゅうにさい",
+              "meaning": "22 tuổi"
+            },
+            {
+              "word": "じゅうはっさい",
+              "reading": "じゅうはっさい",
+              "meaning": "18 tuổi"
+            },
+            {
+              "word": "じゅうきゅうさい",
+              "reading": "じゅうきゅうさい",
+              "meaning": "19 tuổi"
+            },
+            {
+              "word": "はたち",
+              "reading": "はたち",
+              "meaning": "20 tuổi"
+            },
+            {
+              "word": "にじゅういっさい",
+              "reading": "にじゅういっさい",
+              "meaning": "21 tuổi"
+            }
+          ],
+          "tips": [
+            "Nghe thấy なんさい thì trả lời tuổi.",
+            "22 tuổi là にじゅうにさい.",
+            "Không cần lặp lại リーさんは trong câu trả lời."
+          ],
+          "explanation": "Tranh ghi Age là 22歳. Tiếng Nhật là にじゅうにさい.",
+          "relatedGrammar": [
+            {
+              "pattern": "Nさんは なんさいですか。",
+              "meaning": "Anh/chị N bao nhiêu tuổi?",
+              "howToUse": "Dùng để hỏi tuổi của người khác."
+            },
+            {
+              "pattern": "Tuổi + です。",
+              "meaning": "Là ... tuổi.",
+              "howToUse": "Dùng để trả lời tuổi."
+            }
+          ]
+        },
+        {
+          "questionId": "l1_img_lee_q05",
+          "order": 5,
+          "question": {
+            "ja": "リーさんの　たんじょうびは　いつですか。",
+            "vi": "Sinh nhật của anh Lee là khi nào?"
+          },
+          "answerType": "text",
+          "sampleAnswers": [
+            {
+              "ja": "しがつ　よっかです。",
+              "vi": "Là ngày 4 tháng 4."
+            }
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "たんじょうび",
+              "reading": "たんじょうび",
+              "meaning": "Sinh nhật"
+            },
+            {
+              "word": "いつ",
+              "reading": "いつ",
+              "meaning": "Khi nào"
+            },
+            {
+              "word": "しがつ",
+              "reading": "しがつ",
+              "meaning": "Tháng 4"
+            },
+            {
+              "word": "よっか",
+              "reading": "よっか",
+              "meaning": "Ngày 4"
+            },
+            {
+              "word": "なんがつ",
+              "reading": "なんがつ",
+              "meaning": "Tháng mấy"
+            },
+            {
+              "word": "なんにち",
+              "reading": "なんにち",
+              "meaning": "Ngày mấy"
+            }
+          ],
+          "tips": [
+            "4月 đọc là しがつ.",
+            "Ngày 4 đọc là よっか.",
+            "Cả tháng 4 và ngày 4 đều là điểm dễ sai."
+          ],
+          "explanation": "Tranh ghi Birthday là 4月4日. Tiếng Nhật đọc là しがつ よっか.",
+          "relatedGrammar": [
+            {
+              "pattern": "Nさんの たんじょうびは いつですか。",
+              "meaning": "Sinh nhật của anh/chị N là khi nào?",
+              "howToUse": "Dùng để hỏi thời gian sinh nhật."
+            },
+            {
+              "pattern": "Tháng + ngày + です。",
+              "meaning": "Là ngày ... tháng ...",
+              "howToUse": "Dùng để trả lời sinh nhật."
+            }
+          ]
+        },
+        {
+          "questionId": "l1_img_lee_q06",
+          "order": 6,
+          "question": {
+            "ja": "リーさんの　おしごとは　なんですか。",
+            "vi": "Nghề nghiệp của anh Lee là gì?"
+          },
+          "answerType": "text",
+          "sampleAnswers": [
+            {
+              "ja": "かいしゃいんです。",
+              "vi": "Là nhân viên công ty."
+            }
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "おしごと",
+              "reading": "おしごと",
+              "meaning": "Công việc / nghề nghiệp"
+            },
+            {
+              "word": "しごと",
+              "reading": "しごと",
+              "meaning": "Công việc"
+            },
+            {
+              "word": "かいしゃいん",
+              "reading": "かいしゃいん",
+              "meaning": "Nhân viên công ty"
+            },
+            {
+              "word": "しゃいん",
+              "reading": "しゃいん",
+              "meaning": "Nhân viên"
+            },
+            {
+              "word": "がくせい",
+              "reading": "がくせい",
+              "meaning": "Sinh viên"
+            },
+            {
+              "word": "きょうし",
+              "reading": "きょうし",
+              "meaning": "Giáo viên"
+            },
+            {
+              "word": "せんせい",
+              "reading": "せんせい",
+              "meaning": "Thầy cô / giáo viên"
+            }
+          ],
+          "tips": [
+            "Nghe thấy おしごと thì nhìn phần Job.",
+            "会社員 là かいしゃいん.",
+            "Trả lời ngắn: かいしゃいんです。"
+          ],
+          "explanation": "Tranh ghi Job là 会社員. Tiếng Nhật đọc là かいしゃいん.",
+          "relatedGrammar": [
+            {
+              "pattern": "Nさんの おしごとは なんですか。",
+              "meaning": "Nghề nghiệp của anh/chị N là gì?",
+              "howToUse": "Dùng để hỏi nghề nghiệp của người trong tranh."
+            },
+            {
+              "pattern": "Nです。",
+              "meaning": "Là N.",
+              "howToUse": "Trả lời bằng nghề nghiệp + です。"
+            }
+          ]
+        },
+        {
+          "questionId": "l1_img_lee_q07",
+          "order": 7,
+          "question": {
+            "ja": "リーさんの　しゅみは　なんですか。",
+            "vi": "Sở thích của anh Lee là gì?"
+          },
+          "answerType": "text",
+          "sampleAnswers": [
+            {
+              "ja": "えいがです。",
+              "vi": "Là phim ảnh."
+            }
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "しゅみ",
+              "reading": "しゅみ",
+              "meaning": "Sở thích"
+            },
+            {
+              "word": "えいが",
+              "reading": "えいが",
+              "meaning": "Phim ảnh"
+            },
+            {
+              "word": "おんがく",
+              "reading": "おんがく",
+              "meaning": "Âm nhạc"
+            },
+            {
+              "word": "どくしょ",
+              "reading": "どくしょ",
+              "meaning": "Đọc sách"
+            },
+            {
+              "word": "スポーツ",
+              "reading": "スポーツ",
+              "meaning": "Thể thao"
+            },
+            {
+              "word": "サッカー",
+              "reading": "サッカー",
+              "meaning": "Bóng đá"
+            },
+            {
+              "word": "テニス",
+              "reading": "テニス",
+              "meaning": "Quần vợt"
+            },
+            {
+              "word": "りょこう",
+              "reading": "りょこう",
+              "meaning": "Du lịch"
+            }
+          ],
+          "tips": [
+            "Nghe thấy しゅみ thì nhìn phần Hobby.",
+            "映画 là えいが.",
+            "Trả lời: えいがです。"
+          ],
+          "explanation": "Tranh ghi Hobby là 映画. Tiếng Nhật đọc là えいが.",
+          "relatedGrammar": [
+            {
+              "pattern": "Nさんの しゅみは なんですか。",
+              "meaning": "Sở thích của anh/chị N là gì?",
+              "howToUse": "Dùng để hỏi sở thích của người trong tranh."
+            },
+            {
+              "pattern": "Nです。",
+              "meaning": "Là N.",
+              "howToUse": "Trả lời bằng sở thích + です。"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

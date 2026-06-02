@@ -34,6 +34,7 @@ public class SpeakingLessonConfiguration : IEntityTypeConfiguration<SpeakingLess
         builder.Property(x => x.Description).HasMaxLength(1000);
         builder.Property(x => x.AccessTier).IsRequired().HasMaxLength(30).HasDefaultValue(SpeakingAccessTiers.Free);
         builder.Property(x => x.PackageCode).HasMaxLength(100);
+        builder.Property(x => x.LessonType).IsRequired().HasMaxLength(30).HasDefaultValue(SpeakingLessonTypes.Reading);
         builder.Property(x => x.IsActive).HasDefaultValue(true);
 
         builder.HasIndex(x => new { x.CourseCode, x.LessonNumber }).IsUnique();

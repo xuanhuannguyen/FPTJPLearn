@@ -87,7 +87,8 @@ public static partial class SpeakingSeedData
                     $"{seed.Topic} - {seed.Subtitle}",
                     importFile.AccessTier,
                     importFile.PackageCode,
-                    seed.Id)))
+                    seed.Id,
+                    seed.LessonType ?? SpeakingLessonTypes.Reading)))
             .ToList();
         var desiredKeys = lessons
             .Select(lesson => lesson.CourseCode + ":" + lesson.LessonNumber)
@@ -116,6 +117,7 @@ public static partial class SpeakingSeedData
             existing.Description = lesson.Description;
             existing.AccessTier = lesson.AccessTier;
             existing.PackageCode = lesson.PackageCode;
+            existing.LessonType = lesson.LessonType;
             existing.OrderIndex = lesson.OrderIndex;
             existing.IsActive = true;
             existing.UpdatedAt = SeededAt;
@@ -193,7 +195,8 @@ public static partial class SpeakingSeedData
         string description,
         string accessTier,
         string? packageCode,
-        int orderIndex)
+        int orderIndex,
+        string lessonType)
     {
         return new SpeakingLesson
         {
@@ -205,6 +208,7 @@ public static partial class SpeakingSeedData
             Description = description,
             AccessTier = accessTier,
             PackageCode = packageCode,
+            LessonType = lessonType,
             OrderIndex = orderIndex,
             CreatedAt = SeededAt,
             UpdatedAt = SeededAt
@@ -300,6 +304,7 @@ public static partial class SpeakingSeedData
         string Title,
         string Subtitle,
         string Summary,
+        string? LessonType,
         SpeakingSentenceSeed[] Sentences);
 
     private sealed record SpeakingSentenceSeed(string Jp, string Vi, string Romaji);

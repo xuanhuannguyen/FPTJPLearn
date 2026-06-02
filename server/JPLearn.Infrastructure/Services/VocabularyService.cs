@@ -3,20 +3,20 @@ using JPLearn.Core.Vocabulary;
 using JPLearn.Core.Vocabulary.DTOs;
 using JPLearn.Core.Vocabulary.Entities;
 using JPLearn.Core.Review;
+using JPLearn.Core.Settings;
 using JPLearn.Infrastructure.Data;
-using Microsoft.Extensions.Configuration;
 
 namespace JPLearn.Infrastructure.Services;
 
 public class VocabularyService : IVocabularyService
 {
     private readonly AppDbContext _db;
-    private readonly IConfiguration _configuration;
+    private readonly IAccessSettingsService _accessSettings;
 
-    public VocabularyService(AppDbContext db, IConfiguration configuration)
+    public VocabularyService(AppDbContext db, IAccessSettingsService accessSettings)
     {
         _db = db;
-        _configuration = configuration;
+        _accessSettings = accessSettings;
     }
 
     public async Task<Guid> ImportAsync(Guid userId, ImportVocabularyDto dto)
@@ -289,6 +289,6 @@ public class VocabularyService : IVocabularyService
 
     private bool IsFreeExperienceEnabled()
     {
-        return !bool.TryParse(_configuration["Payments:FreeExperienceEnabled"], out var isEnabled) || isEnabled;
+        return _accessSettings.IsFreeExperienceEnabled();
     }
 }

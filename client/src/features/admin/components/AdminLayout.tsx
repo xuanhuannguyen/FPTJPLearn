@@ -10,6 +10,7 @@ const ADMIN_PATH = '/jplearn-manage-xh21';
 
 const navItems = [
   { label: 'Dashboard', path: ADMIN_PATH, icon: Home },
+  { label: 'Bản quyền', path: `${ADMIN_PATH}/access-settings`, icon: Settings },
   { label: 'Đơn hàng', path: `${ADMIN_PATH}/orders`, icon: ShoppingCart },
   { label: 'Câu hỏi luyện thi', path: `${ADMIN_PATH}/exam-questions`, icon: FileQuestion },
   { label: 'Người dùng', path: `${ADMIN_PATH}/users`, icon: Users },

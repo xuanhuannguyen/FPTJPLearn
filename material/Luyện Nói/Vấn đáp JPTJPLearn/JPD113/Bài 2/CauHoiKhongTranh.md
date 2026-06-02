@@ -1,0 +1,2104 @@
+```json
+{
+  "courseCode": "JPD113",
+  "lessonNumber": 2,
+  "lessonTitle": "Bài 2 - Vị trí, giá cả và giải thích đồ vật",
+  "questionMode": "NO_IMAGE",
+  "dataPurpose": "oral_exam_practice_web",
+  "lessonOverview": {
+    "shortSummary": "Sau Bài 2, sinh viên có thể trả lời ngắn gọn các câu hỏi cơ bản về vị trí, tầng, giá tiền, đồ vật, sở hữu, xuất xứ và cách nói một từ bằng ngôn ngữ khác.",
+    "studentCanDo": [
+      "Trả lời được địa điểm hoặc đồ vật ở đâu.",
+      "Trả lời được một địa điểm ở tầng mấy.",
+      "Xác nhận được một địa điểm có ở đúng vị trí được hỏi hay không.",
+      "Hỏi và trả lời được giá tiền bằng ドン, えん, ドル.",
+      "Nói được đồ vật này là gì.",
+      "Trả lời được đồ vật là của ai.",
+      "Trả lời được đồ vật là của nước nào hoặc hãng nào.",
+      "Hỏi và trả lời được một từ trong tiếng Nhật, tiếng Anh hoặc tiếng Việt là gì."
+    ],
+    "mainSkills": [
+      "Nghe câu hỏi ngắn và nhận ra từ khóa chính như どこ, なんかい, いくら, だれの, どこの.",
+      "Trả lời bằng câu ngắn đúng ngữ pháp.",
+      "Dùng はい／いいえ cho câu hỏi xác nhận.",
+      "Dùng ちがいます khi thông tin trong câu hỏi sai.",
+      "Dùng số tiền và đơn vị tiền tệ đúng sau danh từ.",
+      "Thay đổi từ vựng cùng nhóm để tạo nhiều câu trả lời khác nhau."
+    ],
+    "mainGrammarFocus": [
+      "N は どこですか。",
+      "N は なんかいですか。",
+      "N は ここ／そこ／あそこですか。",
+      "N は いくらですか。",
+      "N は 金額 ですか。",
+      "これは／それは／あれは N です。",
+      "N は だれの N ですか。",
+      "N は どこの N ですか。",
+      "「A」は B語で なんですか。"
+    ],
+    "examTipSummary": "Khi thi vấn đáp, sinh viên không cần trả lời dài. Chỉ cần nghe đúng từ khóa như どこ, なんかい, いくら, だれの, どこの và trả lời bằng mẫu ngắn + です. Với câu hỏi Yes/No, nên bắt đầu bằng はい hoặc いいえ."
+  },
+  "grammarBank": [
+    {
+      "grammarId": "g_l2_001",
+      "pattern": "N は どこですか。",
+      "meaning": "N ở đâu?",
+      "usage": "Dùng để hỏi vị trí của địa điểm, đồ vật hoặc người.",
+      "example": {
+        "ja": "トイレは　どこですか。",
+        "vi": "Nhà vệ sinh ở đâu?"
+      }
+    },
+    {
+      "grammarId": "g_l2_002",
+      "pattern": "N は なんかいですか。",
+      "meaning": "N ở tầng mấy?",
+      "usage": "Dùng để hỏi vị trí tầng của một địa điểm trong tòa nhà.",
+      "example": {
+        "ja": "レストランは　なんかいですか。",
+        "vi": "Nhà hàng ở tầng mấy?"
+      }
+    },
+    {
+      "grammarId": "g_l2_003",
+      "pattern": "N は ここ／そこ／あそこですか。",
+      "meaning": "N có ở đây/đó/kia không?",
+      "usage": "Dùng để xác nhận vị trí cụ thể của một địa điểm hoặc đồ vật.",
+      "example": {
+        "ja": "レストランは　ここですか。",
+        "vi": "Nhà hàng ở đây phải không?"
+      }
+    },
+    {
+      "grammarId": "g_l2_004",
+      "pattern": "N は いくらですか。",
+      "meaning": "N bao nhiêu tiền?",
+      "usage": "Dùng để hỏi giá tiền của đồ vật.",
+      "example": {
+        "ja": "Aさんの　ズボンは　いくらですか。",
+        "vi": "Quần của bạn A bao nhiêu tiền?"
+      }
+    },
+    {
+      "grammarId": "g_l2_005",
+      "pattern": "N は 金額 ですか。",
+      "meaning": "N có giá là ... không?",
+      "usage": "Dùng để xác nhận giá tiền đúng hay sai.",
+      "example": {
+        "ja": "Aさんの　とけいは　ごせんえんですか。",
+        "vi": "Đồng hồ của bạn A là 5.000 yên phải không?"
+      }
+    },
+    {
+      "grammarId": "g_l2_006",
+      "pattern": "これは／それは／あれは N です。",
+      "meaning": "Cái này/cái đó/cái kia là N.",
+      "usage": "Dùng để nói tên đồ vật.",
+      "example": {
+        "ja": "これは　かばんです。",
+        "vi": "Đây là cái cặp."
+      }
+    },
+    {
+      "grammarId": "g_l2_007",
+      "pattern": "N は だれの N ですか。",
+      "meaning": "N là N của ai?",
+      "usage": "Dùng để hỏi quyền sở hữu của đồ vật.",
+      "example": {
+        "ja": "これは　だれの　かばんですか。",
+        "vi": "Đây là cặp của ai?"
+      }
+    },
+    {
+      "grammarId": "g_l2_008",
+      "pattern": "N は どこの N ですか。",
+      "meaning": "N là N của nước nào/hãng nào?",
+      "usage": "Dùng để hỏi xuất xứ, quốc gia hoặc hãng sản xuất của đồ vật.",
+      "example": {
+        "ja": "Aさんの　パソコンは　どこの　パソコンですか。",
+        "vi": "Máy tính của bạn A là máy tính của nước nào/hãng nào?"
+      }
+    },
+    {
+      "grammarId": "g_l2_009",
+      "pattern": "「A」は B語で なんですか。",
+      "meaning": "“A” trong tiếng B là gì?",
+      "usage": "Dùng để hỏi cách nói một từ bằng ngôn ngữ khác.",
+      "example": {
+        "ja": "「ほん」は　えい語で　なんですか。",
+        "vi": "“ほん” trong tiếng Anh là gì?"
+      }
+    }
+  ],
+  "sections": [
+    {
+      "sectionId": "jpd113_l2_no_image_part1",
+      "sectionTitle": "Phần 1 - どこ／なんかい",
+      "sectionViTitle": "Vị trí / Tầng / Vị trí cụ thể",
+      "sectionGoal": "Sinh viên trả lời được địa điểm hoặc đồ vật ở đâu, ở tầng mấy, hoặc có đúng ở vị trí được hỏi hay không.",
+      "questionList": [
+        {
+          "questionId": "jpd113_l2_p1_q01",
+          "order": 1,
+          "question": {
+            "ja": "トイレは　いっかいですか。",
+            "vi": "Nhà vệ sinh ở tầng 1 phải không?"
+          },
+          "answerType": "yes_no_floor",
+          "sampleAnswers": [
+            {
+              "ja": "はい、いっかいです。",
+              "vi": "Vâng, ở tầng 1."
+            },
+            {
+              "ja": "いいえ、５かいです。",
+              "vi": "Không, ở tầng 5."
+            },
+            {
+              "ja": "いいえ、ちか　いっかいです。",
+              "vi": "Không, ở tầng hầm 1."
+            }
+          ],
+          "grammarIds": [
+            "g_l2_002",
+            "g_l2_003"
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "トイレ",
+              "reading": "トイレ",
+              "meaning": "Nhà vệ sinh"
+            },
+            {
+              "word": "レストラン",
+              "reading": "レストラン",
+              "meaning": "Nhà hàng"
+            },
+            {
+              "word": "スーパー",
+              "reading": "スーパー",
+              "meaning": "Siêu thị"
+            },
+            {
+              "word": "ATM",
+              "reading": "ATM",
+              "meaning": "Máy ATM"
+            },
+            {
+              "word": "インフォメーション",
+              "reading": "インフォメーション",
+              "meaning": "Quầy thông tin"
+            },
+            {
+              "word": "エレベーター",
+              "reading": "エレベーター",
+              "meaning": "Thang máy"
+            },
+            {
+              "word": "エスカレーター",
+              "reading": "エスカレーター",
+              "meaning": "Thang cuốn"
+            },
+            {
+              "word": "なんかい",
+              "reading": "なんかい",
+              "meaning": "Tầng mấy"
+            },
+            {
+              "word": "ちか",
+              "reading": "ちか",
+              "meaning": "Tầng hầm"
+            },
+            {
+              "word": "ちか　いっかい",
+              "reading": "ちか　いっかい",
+              "meaning": "Tầng hầm 1"
+            },
+            {
+              "word": "いっかい",
+              "reading": "いっかい",
+              "meaning": "Tầng 1"
+            },
+            {
+              "word": "にかい",
+              "reading": "にかい",
+              "meaning": "Tầng 2"
+            },
+            {
+              "word": "さんかい",
+              "reading": "さんかい",
+              "meaning": "Tầng 3"
+            },
+            {
+              "word": "よんかい",
+              "reading": "よんかい",
+              "meaning": "Tầng 4"
+            },
+            {
+              "word": "ごかい",
+              "reading": "ごかい",
+              "meaning": "Tầng 5"
+            },
+            {
+              "word": "ろっかい",
+              "reading": "ろっかい",
+              "meaning": "Tầng 6"
+            },
+            {
+              "word": "じゅっかい",
+              "reading": "じゅっかい",
+              "meaning": "Tầng 10"
+            },
+            {
+              "word": "はい",
+              "reading": "はい",
+              "meaning": "Vâng, đúng"
+            },
+            {
+              "word": "いいえ",
+              "reading": "いいえ",
+              "meaning": "Không"
+            }
+          ],
+          "tips": [
+            "Câu này là câu hỏi xác nhận vị trí tầng.",
+            "Nếu đúng tầng 1, trả lời はい、いっかいです。",
+            "Nếu sai, trả lời いいえ + tầng đúng.",
+            "Có thể thay トイレ bằng レストラン, スーパー, ATM để luyện thêm."
+          ],
+          "commonMistakes": [
+            "Nghe nhầm いっかい thành một địa điểm.",
+            "Quên dùng かい khi nói tầng.",
+            "Trả lời chỉ いいえ mà không nói tầng đúng."
+          ]
+        },
+        {
+          "questionId": "jpd113_l2_p1_q02",
+          "order": 2,
+          "question": {
+            "ja": "レストランは　ここですか。",
+            "vi": "Nhà hàng ở đây phải không?"
+          },
+          "answerType": "yes_no_specific_place",
+          "sampleAnswers": [
+            {
+              "ja": "はい、ここです。",
+              "vi": "Vâng, ở đây."
+            },
+            {
+              "ja": "いいえ、そこです。",
+              "vi": "Không, ở đó."
+            },
+            {
+              "ja": "いいえ、あそこです。",
+              "vi": "Không, ở kia."
+            }
+          ],
+          "grammarIds": [
+            "g_l2_001",
+            "g_l2_003"
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "レストラン",
+              "reading": "レストラン",
+              "meaning": "Nhà hàng"
+            },
+            {
+              "word": "トイレ",
+              "reading": "トイレ",
+              "meaning": "Nhà vệ sinh"
+            },
+            {
+              "word": "スーパー",
+              "reading": "スーパー",
+              "meaning": "Siêu thị"
+            },
+            {
+              "word": "きっさてん",
+              "reading": "きっさてん",
+              "meaning": "Quán cà phê"
+            },
+            {
+              "word": "レジ",
+              "reading": "レジ",
+              "meaning": "Quầy tính tiền"
+            },
+            {
+              "word": "ほんや",
+              "reading": "ほんや",
+              "meaning": "Hiệu sách"
+            },
+            {
+              "word": "ここ",
+              "reading": "ここ",
+              "meaning": "Ở đây"
+            },
+            {
+              "word": "そこ",
+              "reading": "そこ",
+              "meaning": "Ở đó"
+            },
+            {
+              "word": "あそこ",
+              "reading": "あそこ",
+              "meaning": "Ở kia"
+            },
+            {
+              "word": "こちら",
+              "reading": "こちら",
+              "meaning": "Phía này, cách nói lịch sự"
+            },
+            {
+              "word": "そちら",
+              "reading": "そちら",
+              "meaning": "Phía đó, cách nói lịch sự"
+            },
+            {
+              "word": "あちら",
+              "reading": "あちら",
+              "meaning": "Phía kia, cách nói lịch sự"
+            },
+            {
+              "word": "どこ",
+              "reading": "どこ",
+              "meaning": "Ở đâu"
+            },
+            {
+              "word": "どちら",
+              "reading": "どちら",
+              "meaning": "Ở đâu/phía nào, cách nói lịch sự"
+            }
+          ],
+          "tips": [
+            "ここ là vị trí gần người nói.",
+            "そこ là vị trí gần người nghe hoặc vị trí được chỉ đến.",
+            "あそこ là vị trí xa cả người nói và người nghe.",
+            "Câu hỏi có ですか nên trả lời はい hoặc いいえ."
+          ],
+          "commonMistakes": [
+            "Nhầm ここ và そこ.",
+            "Trả lời レストランです thay vì vị trí.",
+            "Quên です ở cuối câu."
+          ]
+        },
+        {
+          "questionId": "jpd113_l2_p1_q03",
+          "order": 3,
+          "question": {
+            "ja": "FPT大学の　トイレは　なんかいですか。",
+            "vi": "Nhà vệ sinh của Đại học FPT ở tầng mấy?"
+          },
+          "answerType": "floor_information",
+          "sampleAnswers": [
+            {
+              "ja": "いっかいです。",
+              "vi": "Ở tầng 1."
+            },
+            {
+              "ja": "にかいです。",
+              "vi": "Ở tầng 2."
+            },
+            {
+              "ja": "ちか　いっかいです。",
+              "vi": "Ở tầng hầm 1."
+            }
+          ],
+          "grammarIds": [
+            "g_l2_002"
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "FPT大学",
+              "reading": "FPTだいがく",
+              "meaning": "Đại học FPT"
+            },
+            {
+              "word": "大学",
+              "reading": "だいがく",
+              "meaning": "Đại học"
+            },
+            {
+              "word": "トイレ",
+              "reading": "トイレ",
+              "meaning": "Nhà vệ sinh"
+            },
+            {
+              "word": "レストラン",
+              "reading": "レストラン",
+              "meaning": "Nhà hàng"
+            },
+            {
+              "word": "きっさてん",
+              "reading": "きっさてん",
+              "meaning": "Quán cà phê"
+            },
+            {
+              "word": "レジ",
+              "reading": "レジ",
+              "meaning": "Quầy tính tiền"
+            },
+            {
+              "word": "インフォメーション",
+              "reading": "インフォメーション",
+              "meaning": "Quầy thông tin"
+            },
+            {
+              "word": "エレベーター",
+              "reading": "エレベーター",
+              "meaning": "Thang máy"
+            },
+            {
+              "word": "なんかい",
+              "reading": "なんかい",
+              "meaning": "Tầng mấy"
+            },
+            {
+              "word": "ちか",
+              "reading": "ちか",
+              "meaning": "Tầng hầm"
+            },
+            {
+              "word": "いっかい",
+              "reading": "いっかい",
+              "meaning": "Tầng 1"
+            },
+            {
+              "word": "にかい",
+              "reading": "にかい",
+              "meaning": "Tầng 2"
+            },
+            {
+              "word": "さんかい",
+              "reading": "さんかい",
+              "meaning": "Tầng 3"
+            },
+            {
+              "word": "よんかい",
+              "reading": "よんかい",
+              "meaning": "Tầng 4"
+            },
+            {
+              "word": "ごかい",
+              "reading": "ごかい",
+              "meaning": "Tầng 5"
+            }
+          ],
+          "tips": [
+            "Nghe thấy なんかい thì cần trả lời bằng tầng.",
+            "Mẫu trả lời ngắn: số tầng + です。",
+            "FPT大学のトイレ nghĩa là nhà vệ sinh của Đại học FPT.",
+            "Có thể thay トイレ bằng レストラン, レジ, エレベーター để luyện thêm."
+          ],
+          "commonMistakes": [
+            "Trả lời ここです thay vì số tầng.",
+            "Nhầm なんかい với いくら.",
+            "Thiếu かい sau số tầng."
+          ]
+        },
+        {
+          "questionId": "jpd113_l2_p1_q04",
+          "order": 4,
+          "question": {
+            "ja": "先生の　パソコンは　どこですか。",
+            "vi": "Máy tính của giáo viên ở đâu?"
+          },
+          "answerType": "object_location",
+          "sampleAnswers": [
+            {
+              "ja": "そこです。",
+              "vi": "Ở đó."
+            },
+            {
+              "ja": "ここです。",
+              "vi": "Ở đây."
+            },
+            {
+              "ja": "かばんです。",
+              "vi": "Ở trong cặp."
+            }
+          ],
+          "grammarIds": [
+            "g_l2_001"
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "先生",
+              "reading": "せんせい",
+              "meaning": "Giáo viên/thầy/cô"
+            },
+            {
+              "word": "先生の",
+              "reading": "せんせいの",
+              "meaning": "Của giáo viên"
+            },
+            {
+              "word": "パソコン",
+              "reading": "パソコン",
+              "meaning": "Máy tính"
+            },
+            {
+              "word": "けいたいでんわ",
+              "reading": "けいたいでんわ",
+              "meaning": "Điện thoại di động"
+            },
+            {
+              "word": "カメラ",
+              "reading": "カメラ",
+              "meaning": "Máy ảnh"
+            },
+            {
+              "word": "でんしじしょ",
+              "reading": "でんしじしょ",
+              "meaning": "Từ điển điện tử"
+            },
+            {
+              "word": "かばん",
+              "reading": "かばん",
+              "meaning": "Cặp/túi"
+            },
+            {
+              "word": "ペン",
+              "reading": "ペン",
+              "meaning": "Bút"
+            },
+            {
+              "word": "本",
+              "reading": "ほん",
+              "meaning": "Sách"
+            },
+            {
+              "word": "どこ",
+              "reading": "どこ",
+              "meaning": "Ở đâu"
+            },
+            {
+              "word": "ここ",
+              "reading": "ここ",
+              "meaning": "Ở đây"
+            },
+            {
+              "word": "そこ",
+              "reading": "そこ",
+              "meaning": "Ở đó"
+            },
+            {
+              "word": "あそこ",
+              "reading": "あそこ",
+              "meaning": "Ở kia"
+            },
+            {
+              "word": "の",
+              "reading": "の",
+              "meaning": "Của/thuộc về"
+            }
+          ],
+          "tips": [
+            "Câu này hỏi vị trí của đồ vật.",
+            "Từ khóa cần nghe là どこ.",
+            "Có thể trả lời bằng ここ, そこ, あそこ hoặc tên nơi để đồ.",
+            "先生のパソコン nghĩa là máy tính của giáo viên."
+          ],
+          "commonMistakes": [
+            "Trả lời パソコンです dù câu hỏi hỏi vị trí.",
+            "Nhầm 先生のパソコン là giáo viên máy tính.",
+            "Quên の biểu thị sở hữu."
+          ]
+        },
+        {
+          "questionId": "jpd113_l2_p1_q05",
+          "order": 5,
+          "question": {
+            "ja": "Aさんの　けいたいでんわは　どこですか。",
+            "vi": "Điện thoại di động của bạn A ở đâu?"
+          },
+          "answerType": "object_location",
+          "sampleAnswers": [
+            {
+              "ja": "かばんです。",
+              "vi": "Ở trong cặp."
+            },
+            {
+              "ja": "ここです。",
+              "vi": "Ở đây."
+            },
+            {
+              "ja": "そこです。",
+              "vi": "Ở đó."
+            }
+          ],
+          "grammarIds": [
+            "g_l2_001"
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "Aさん",
+              "reading": "Aさん",
+              "meaning": "Bạn A"
+            },
+            {
+              "word": "Aさんの",
+              "reading": "Aさんの",
+              "meaning": "Của bạn A"
+            },
+            {
+              "word": "けいたいでんわ",
+              "reading": "けいたいでんわ",
+              "meaning": "Điện thoại di động"
+            },
+            {
+              "word": "パソコン",
+              "reading": "パソコン",
+              "meaning": "Máy tính"
+            },
+            {
+              "word": "カメラ",
+              "reading": "カメラ",
+              "meaning": "Máy ảnh"
+            },
+            {
+              "word": "とけい",
+              "reading": "とけい",
+              "meaning": "Đồng hồ"
+            },
+            {
+              "word": "ペン",
+              "reading": "ペン",
+              "meaning": "Bút"
+            },
+            {
+              "word": "けしゴム",
+              "reading": "けしゴム",
+              "meaning": "Cục tẩy"
+            },
+            {
+              "word": "かばん",
+              "reading": "かばん",
+              "meaning": "Cặp/túi"
+            },
+            {
+              "word": "どこ",
+              "reading": "どこ",
+              "meaning": "Ở đâu"
+            },
+            {
+              "word": "ここ",
+              "reading": "ここ",
+              "meaning": "Ở đây"
+            },
+            {
+              "word": "そこ",
+              "reading": "そこ",
+              "meaning": "Ở đó"
+            },
+            {
+              "word": "あそこ",
+              "reading": "あそこ",
+              "meaning": "Ở kia"
+            },
+            {
+              "word": "の",
+              "reading": "の",
+              "meaning": "Của/thuộc về"
+            }
+          ],
+          "tips": [
+            "Aさんのけいたいでんわ nghĩa là điện thoại của bạn A.",
+            "Câu hỏi どこですか hỏi vị trí.",
+            "Có thể trả lời ngắn: かばんです。 hoặc ここです。",
+            "Có thể thay けいたいでんわ bằng パソコン, カメラ, とけい để luyện thêm."
+          ],
+          "commonMistakes": [
+            "Dịch けいたいでんわ thành máy tính.",
+            "Trả lời giá tiền dù câu hỏi hỏi vị trí.",
+            "Quên の khi hiểu cụm Aさんのけいたいでんわ."
+          ]
+        }
+      ]
+    },
+    {
+      "sectionId": "jpd113_l2_no_image_part2",
+      "sectionTitle": "Phần 2 - いくらですか",
+      "sectionViTitle": "Giá tiền / Đồng / Yên / Đô",
+      "sectionGoal": "Sinh viên hỏi và trả lời được giá tiền của đồ vật bằng các đơn vị ドン, えん, ドル.",
+      "questionList": [
+        {
+          "questionId": "jpd113_l2_p2_q01",
+          "order": 1,
+          "question": {
+            "ja": "Aさんの　ズボンは　にじゅうまんドンですか。",
+            "vi": "Quần của bạn A là 200.000 đồng phải không?"
+          },
+          "answerType": "yes_no_price",
+          "sampleAnswers": [
+            {
+              "ja": "はい、にじゅうまんドンです。",
+              "vi": "Vâng, là 200.000 đồng."
+            },
+            {
+              "ja": "いいえ、ちがいます。",
+              "vi": "Không, không phải."
+            },
+            {
+              "ja": "いいえ、じゅうまんドンです。",
+              "vi": "Không, là 100.000 đồng."
+            }
+          ],
+          "grammarIds": [
+            "g_l2_005"
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "Aさんの",
+              "reading": "Aさんの",
+              "meaning": "Của bạn A"
+            },
+            {
+              "word": "ズボン",
+              "reading": "ズボン",
+              "meaning": "Quần"
+            },
+            {
+              "word": "Tシャツ",
+              "reading": "Tシャツ",
+              "meaning": "Áo thun"
+            },
+            {
+              "word": "くつ",
+              "reading": "くつ",
+              "meaning": "Giày"
+            },
+            {
+              "word": "かばん",
+              "reading": "かばん",
+              "meaning": "Cặp/túi"
+            },
+            {
+              "word": "とけい",
+              "reading": "とけい",
+              "meaning": "Đồng hồ"
+            },
+            {
+              "word": "カメラ",
+              "reading": "カメラ",
+              "meaning": "Máy ảnh"
+            },
+            {
+              "word": "にじゅうまん",
+              "reading": "にじゅうまん",
+              "meaning": "200.000"
+            },
+            {
+              "word": "じゅうまん",
+              "reading": "じゅうまん",
+              "meaning": "100.000"
+            },
+            {
+              "word": "いちまん",
+              "reading": "いちまん",
+              "meaning": "10.000"
+            },
+            {
+              "word": "ドン",
+              "reading": "ドン",
+              "meaning": "Đồng Việt Nam"
+            },
+            {
+              "word": "えん",
+              "reading": "えん",
+              "meaning": "Yên Nhật"
+            },
+            {
+              "word": "ドル",
+              "reading": "ドル",
+              "meaning": "Đô la"
+            },
+            {
+              "word": "はい",
+              "reading": "はい",
+              "meaning": "Vâng, đúng"
+            },
+            {
+              "word": "いいえ",
+              "reading": "いいえ",
+              "meaning": "Không"
+            },
+            {
+              "word": "ちがいます",
+              "reading": "ちがいます",
+              "meaning": "Không đúng/không phải"
+            }
+          ],
+          "tips": [
+            "Câu này dùng để xác nhận giá tiền.",
+            "Nếu giá đúng, trả lời はい + giá tiền + です。",
+            "Nếu không biết giá đúng, có thể trả lời いいえ、ちがいます。",
+            "Có thể thay ズボン bằng Tシャツ, くつ, かばん để luyện thêm."
+          ],
+          "commonMistakes": [
+            "Quên đơn vị ドン.",
+            "Nhầm にじゅうまん với にまん.",
+            "Trả lời chỉ はい mà không nhắc lại giá."
+          ]
+        },
+        {
+          "questionId": "jpd113_l2_p2_q02",
+          "order": 2,
+          "question": {
+            "ja": "Aさんの　ズボンは　いくらですか。",
+            "vi": "Quần của bạn A bao nhiêu tiền?"
+          },
+          "answerType": "price_information",
+          "sampleAnswers": [
+            {
+              "ja": "にじゅうまんドンです。",
+              "vi": "Là 200.000 đồng."
+            },
+            {
+              "ja": "じゅうまんドンです。",
+              "vi": "Là 100.000 đồng."
+            },
+            {
+              "ja": "ごせんえんです。",
+              "vi": "Là 5.000 yên."
+            }
+          ],
+          "grammarIds": [
+            "g_l2_004"
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "ズボン",
+              "reading": "ズボン",
+              "meaning": "Quần"
+            },
+            {
+              "word": "Tシャツ",
+              "reading": "Tシャツ",
+              "meaning": "Áo thun"
+            },
+            {
+              "word": "くつ",
+              "reading": "くつ",
+              "meaning": "Giày"
+            },
+            {
+              "word": "かばん",
+              "reading": "かばん",
+              "meaning": "Cặp/túi"
+            },
+            {
+              "word": "いくら",
+              "reading": "いくら",
+              "meaning": "Bao nhiêu tiền"
+            },
+            {
+              "word": "ひゃく",
+              "reading": "ひゃく",
+              "meaning": "100"
+            },
+            {
+              "word": "さんびゃく",
+              "reading": "さんびゃく",
+              "meaning": "300"
+            },
+            {
+              "word": "ごひゃく",
+              "reading": "ごひゃく",
+              "meaning": "500"
+            },
+            {
+              "word": "せん",
+              "reading": "せん",
+              "meaning": "1.000"
+            },
+            {
+              "word": "さんぜん",
+              "reading": "さんぜん",
+              "meaning": "3.000"
+            },
+            {
+              "word": "ごせん",
+              "reading": "ごせん",
+              "meaning": "5.000"
+            },
+            {
+              "word": "いちまん",
+              "reading": "いちまん",
+              "meaning": "10.000"
+            },
+            {
+              "word": "にまん",
+              "reading": "にまん",
+              "meaning": "20.000"
+            },
+            {
+              "word": "にじゅうまん",
+              "reading": "にじゅうまん",
+              "meaning": "200.000"
+            },
+            {
+              "word": "ドン",
+              "reading": "ドン",
+              "meaning": "Đồng Việt Nam"
+            },
+            {
+              "word": "えん",
+              "reading": "えん",
+              "meaning": "Yên Nhật"
+            },
+            {
+              "word": "ドル",
+              "reading": "ドル",
+              "meaning": "Đô la"
+            }
+          ],
+          "tips": [
+            "Nghe thấy いくら thì cần trả lời giá tiền.",
+            "Cấu trúc trả lời: số tiền + đơn vị tiền + です。",
+            "Không cần trả lời dài.",
+            "Nên học kỹ các số đặc biệt như さんびゃく, ろっぴゃく, はっぴゃく, さんぜん."
+          ],
+          "commonMistakes": [
+            "Trả lời địa điểm thay vì giá tiền.",
+            "Quên đơn vị tiền tệ.",
+            "Đọc sai まん khi nói số lớn."
+          ]
+        },
+        {
+          "questionId": "jpd113_l2_p2_q03",
+          "order": 3,
+          "question": {
+            "ja": "Aさんの　とけいは　ごせんえんですか。",
+            "vi": "Đồng hồ của bạn A là 5.000 yên phải không?"
+          },
+          "answerType": "yes_no_price",
+          "sampleAnswers": [
+            {
+              "ja": "はい、ごせんえんです。",
+              "vi": "Vâng, là 5.000 yên."
+            },
+            {
+              "ja": "いいえ、ちがいます。",
+              "vi": "Không, không phải."
+            },
+            {
+              "ja": "いいえ、さんぜんえんです。",
+              "vi": "Không, là 3.000 yên."
+            }
+          ],
+          "grammarIds": [
+            "g_l2_005"
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "とけい",
+              "reading": "とけい",
+              "meaning": "Đồng hồ"
+            },
+            {
+              "word": "パソコン",
+              "reading": "パソコン",
+              "meaning": "Máy tính"
+            },
+            {
+              "word": "カメラ",
+              "reading": "カメラ",
+              "meaning": "Máy ảnh"
+            },
+            {
+              "word": "けいたいでんわ",
+              "reading": "けいたいでんわ",
+              "meaning": "Điện thoại di động"
+            },
+            {
+              "word": "でんしじしょ",
+              "reading": "でんしじしょ",
+              "meaning": "Từ điển điện tử"
+            },
+            {
+              "word": "ごせん",
+              "reading": "ごせん",
+              "meaning": "5.000"
+            },
+            {
+              "word": "さんぜん",
+              "reading": "さんぜん",
+              "meaning": "3.000"
+            },
+            {
+              "word": "はっせん",
+              "reading": "はっせん",
+              "meaning": "8.000"
+            },
+            {
+              "word": "いちまん",
+              "reading": "いちまん",
+              "meaning": "10.000"
+            },
+            {
+              "word": "にまん",
+              "reading": "にまん",
+              "meaning": "20.000"
+            },
+            {
+              "word": "えん",
+              "reading": "えん",
+              "meaning": "Yên Nhật"
+            },
+            {
+              "word": "ドン",
+              "reading": "ドン",
+              "meaning": "Đồng Việt Nam"
+            },
+            {
+              "word": "ドル",
+              "reading": "ドル",
+              "meaning": "Đô la"
+            },
+            {
+              "word": "はい",
+              "reading": "はい",
+              "meaning": "Vâng, đúng"
+            },
+            {
+              "word": "いいえ",
+              "reading": "いいえ",
+              "meaning": "Không"
+            },
+            {
+              "word": "ちがいます",
+              "reading": "ちがいます",
+              "meaning": "Không đúng/không phải"
+            }
+          ],
+          "tips": [
+            "Câu này hỏi xác nhận giá tiền bằng yên.",
+            "ごせんえん nghĩa là 5.000 yên.",
+            "Nếu sai, trả lời いいえ、ちがいます hoặc nói giá đúng.",
+            "Có thể thay とけい bằng カメラ, パソコン, けいたいでんわ."
+          ],
+          "commonMistakes": [
+            "Nhầm えん với ドン.",
+            "Đọc ごせん thành ごひゃく.",
+            "Quên です ở cuối câu."
+          ]
+        },
+        {
+          "questionId": "jpd113_l2_p2_q04",
+          "order": 4,
+          "question": {
+            "ja": "Aさんの　とけいは　いくらですか。",
+            "vi": "Đồng hồ của bạn A bao nhiêu tiền?"
+          },
+          "answerType": "price_information",
+          "sampleAnswers": [
+            {
+              "ja": "ごせんえんです。",
+              "vi": "Là 5.000 yên."
+            },
+            {
+              "ja": "さんぜんえんです。",
+              "vi": "Là 3.000 yên."
+            },
+            {
+              "ja": "いちまんえんです。",
+              "vi": "Là 10.000 yên."
+            }
+          ],
+          "grammarIds": [
+            "g_l2_004"
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "とけい",
+              "reading": "とけい",
+              "meaning": "Đồng hồ"
+            },
+            {
+              "word": "カメラ",
+              "reading": "カメラ",
+              "meaning": "Máy ảnh"
+            },
+            {
+              "word": "パソコン",
+              "reading": "パソコン",
+              "meaning": "Máy tính"
+            },
+            {
+              "word": "けいたいでんわ",
+              "reading": "けいたいでんわ",
+              "meaning": "Điện thoại di động"
+            },
+            {
+              "word": "いくら",
+              "reading": "いくら",
+              "meaning": "Bao nhiêu tiền"
+            },
+            {
+              "word": "ひゃく",
+              "reading": "ひゃく",
+              "meaning": "100"
+            },
+            {
+              "word": "さんびゃく",
+              "reading": "さんびゃく",
+              "meaning": "300"
+            },
+            {
+              "word": "ごひゃく",
+              "reading": "ごひゃく",
+              "meaning": "500"
+            },
+            {
+              "word": "せん",
+              "reading": "せん",
+              "meaning": "1.000"
+            },
+            {
+              "word": "さんぜん",
+              "reading": "さんぜん",
+              "meaning": "3.000"
+            },
+            {
+              "word": "ごせん",
+              "reading": "ごせん",
+              "meaning": "5.000"
+            },
+            {
+              "word": "はっせん",
+              "reading": "はっせん",
+              "meaning": "8.000"
+            },
+            {
+              "word": "いちまん",
+              "reading": "いちまん",
+              "meaning": "10.000"
+            },
+            {
+              "word": "えん",
+              "reading": "えん",
+              "meaning": "Yên Nhật"
+            },
+            {
+              "word": "ドン",
+              "reading": "ドン",
+              "meaning": "Đồng Việt Nam"
+            },
+            {
+              "word": "ドル",
+              "reading": "ドル",
+              "meaning": "Đô la"
+            }
+          ],
+          "tips": [
+            "いくらですか là câu hỏi giá tiền.",
+            "Trả lời ngắn bằng số tiền + đơn vị + です。",
+            "Không cần thêm わたしは trong câu trả lời.",
+            "Không dùng はい／いいえ vì đây không phải câu hỏi xác nhận."
+          ],
+          "commonMistakes": [
+            "Trả lời はい dù đây không phải câu hỏi Yes/No.",
+            "Quên đơn vị えん.",
+            "Nhầm とけい với としょかん."
+          ]
+        },
+        {
+          "questionId": "jpd113_l2_p2_q05",
+          "order": 5,
+          "question": {
+            "ja": "Aさんの　パソコンは　ひゃくドルですか。",
+            "vi": "Máy tính của bạn A là 100 đô la phải không?"
+          },
+          "answerType": "yes_no_price",
+          "sampleAnswers": [
+            {
+              "ja": "はい、ひゃくドルです。",
+              "vi": "Vâng, là 100 đô la."
+            },
+            {
+              "ja": "いいえ、ちがいます。",
+              "vi": "Không, không phải."
+            },
+            {
+              "ja": "いいえ、ごひゃくドルです。",
+              "vi": "Không, là 500 đô la."
+            }
+          ],
+          "grammarIds": [
+            "g_l2_005"
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "パソコン",
+              "reading": "パソコン",
+              "meaning": "Máy tính"
+            },
+            {
+              "word": "けいたいでんわ",
+              "reading": "けいたいでんわ",
+              "meaning": "Điện thoại di động"
+            },
+            {
+              "word": "カメラ",
+              "reading": "カメラ",
+              "meaning": "Máy ảnh"
+            },
+            {
+              "word": "でんしじしょ",
+              "reading": "でんしじしょ",
+              "meaning": "Từ điển điện tử"
+            },
+            {
+              "word": "ひゃく",
+              "reading": "ひゃく",
+              "meaning": "100"
+            },
+            {
+              "word": "さんびゃく",
+              "reading": "さんびゃく",
+              "meaning": "300"
+            },
+            {
+              "word": "ごひゃく",
+              "reading": "ごひゃく",
+              "meaning": "500"
+            },
+            {
+              "word": "きゅうひゃく",
+              "reading": "きゅうひゃく",
+              "meaning": "900"
+            },
+            {
+              "word": "ドル",
+              "reading": "ドル",
+              "meaning": "Đô la"
+            },
+            {
+              "word": "えん",
+              "reading": "えん",
+              "meaning": "Yên Nhật"
+            },
+            {
+              "word": "ドン",
+              "reading": "ドン",
+              "meaning": "Đồng Việt Nam"
+            },
+            {
+              "word": "はい",
+              "reading": "はい",
+              "meaning": "Vâng, đúng"
+            },
+            {
+              "word": "いいえ",
+              "reading": "いいえ",
+              "meaning": "Không"
+            },
+            {
+              "word": "ちがいます",
+              "reading": "ちがいます",
+              "meaning": "Không đúng/không phải"
+            }
+          ],
+          "tips": [
+            "Câu hỏi này xác nhận giá tiền bằng đô la.",
+            "ひゃくドル nghĩa là 100 đô la.",
+            "Trả lời đúng mẫu: はい、ひゃくドルです。",
+            "Có thể thay パソコン bằng カメラ hoặc けいたいでんわ."
+          ],
+          "commonMistakes": [
+            "Quên ドル khi trả lời.",
+            "Nhầm パソコン với けいたいでんわ.",
+            "Trả lời ひゃくです thiếu đơn vị tiền."
+          ]
+        },
+        {
+          "questionId": "jpd113_l2_p2_q06",
+          "order": 6,
+          "question": {
+            "ja": "Aさんの　パソコンは　いくらですか。",
+            "vi": "Máy tính của bạn A bao nhiêu tiền?"
+          },
+          "answerType": "price_information",
+          "sampleAnswers": [
+            {
+              "ja": "ひゃくドルです。",
+              "vi": "Là 100 đô la."
+            },
+            {
+              "ja": "ごひゃくドルです。",
+              "vi": "Là 500 đô la."
+            },
+            {
+              "ja": "いちまんえんです。",
+              "vi": "Là 10.000 yên."
+            }
+          ],
+          "grammarIds": [
+            "g_l2_004"
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "パソコン",
+              "reading": "パソコン",
+              "meaning": "Máy tính"
+            },
+            {
+              "word": "けいたいでんわ",
+              "reading": "けいたいでんわ",
+              "meaning": "Điện thoại di động"
+            },
+            {
+              "word": "カメラ",
+              "reading": "カメラ",
+              "meaning": "Máy ảnh"
+            },
+            {
+              "word": "でんしじしょ",
+              "reading": "でんしじしょ",
+              "meaning": "Từ điển điện tử"
+            },
+            {
+              "word": "いくら",
+              "reading": "いくら",
+              "meaning": "Bao nhiêu tiền"
+            },
+            {
+              "word": "ひゃく",
+              "reading": "ひゃく",
+              "meaning": "100"
+            },
+            {
+              "word": "さんびゃく",
+              "reading": "さんびゃく",
+              "meaning": "300"
+            },
+            {
+              "word": "ごひゃく",
+              "reading": "ごひゃく",
+              "meaning": "500"
+            },
+            {
+              "word": "せん",
+              "reading": "せん",
+              "meaning": "1.000"
+            },
+            {
+              "word": "ごせん",
+              "reading": "ごせん",
+              "meaning": "5.000"
+            },
+            {
+              "word": "いちまん",
+              "reading": "いちまん",
+              "meaning": "10.000"
+            },
+            {
+              "word": "ドル",
+              "reading": "ドル",
+              "meaning": "Đô la"
+            },
+            {
+              "word": "えん",
+              "reading": "えん",
+              "meaning": "Yên Nhật"
+            },
+            {
+              "word": "ドン",
+              "reading": "ドン",
+              "meaning": "Đồng Việt Nam"
+            }
+          ],
+          "tips": [
+            "Nghe thấy いくら thì trả lời giá tiền.",
+            "Câu trả lời ngắn và đúng: ひゃくドルです。",
+            "Không dùng はい／いいえ vì đây không phải câu hỏi xác nhận.",
+            "Có thể dùng các đơn vị khác nhau: ドル, えん, ドン."
+          ],
+          "commonMistakes": [
+            "Trả lời はい、ひゃくドルです dù câu hỏi hỏi giá trực tiếp.",
+            "Quên đơn vị ドル.",
+            "Nhầm ひゃく với ひゃくまん."
+          ]
+        }
+      ]
+    },
+    {
+      "sectionId": "jpd113_l2_no_image_part3",
+      "sectionTitle": "Phần 3 - もののせつめい",
+      "sectionViTitle": "Đồ vật / Sở hữu / Xuất xứ / Định nghĩa từ",
+      "sectionGoal": "Sinh viên trả lời được đồ vật là của ai, của nước nào/hãng nào và một từ trong ngôn ngữ khác là gì.",
+      "questionList": [
+        {
+          "questionId": "jpd113_l2_p3_q01",
+          "order": 1,
+          "question": {
+            "ja": "これは　Aさんの　かばんですか。",
+            "vi": "Đây là cặp của bạn A phải không?"
+          },
+          "answerType": "yes_no_ownership",
+          "sampleAnswers": [
+            {
+              "ja": "はい、Aさんの　かばんです。",
+              "vi": "Vâng, là cặp của bạn A."
+            },
+            {
+              "ja": "いいえ、わたしの　かばんです。",
+              "vi": "Không, là cặp của tôi."
+            },
+            {
+              "ja": "いいえ、先生の　かばんです。",
+              "vi": "Không, là cặp của giáo viên."
+            }
+          ],
+          "grammarIds": [
+            "g_l2_006",
+            "g_l2_007"
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "これ",
+              "reading": "これ",
+              "meaning": "Cái này"
+            },
+            {
+              "word": "それ",
+              "reading": "それ",
+              "meaning": "Cái đó"
+            },
+            {
+              "word": "あれ",
+              "reading": "あれ",
+              "meaning": "Cái kia"
+            },
+            {
+              "word": "このN",
+              "reading": "このN",
+              "meaning": "Cái N này"
+            },
+            {
+              "word": "そのN",
+              "reading": "そのN",
+              "meaning": "Cái N đó"
+            },
+            {
+              "word": "あのN",
+              "reading": "あのN",
+              "meaning": "Cái N kia"
+            },
+            {
+              "word": "Aさん",
+              "reading": "Aさん",
+              "meaning": "Bạn A"
+            },
+            {
+              "word": "Aさんの",
+              "reading": "Aさんの",
+              "meaning": "Của bạn A"
+            },
+            {
+              "word": "わたし",
+              "reading": "わたし",
+              "meaning": "Tôi"
+            },
+            {
+              "word": "わたしの",
+              "reading": "わたしの",
+              "meaning": "Của tôi"
+            },
+            {
+              "word": "先生の",
+              "reading": "せんせいの",
+              "meaning": "Của giáo viên"
+            },
+            {
+              "word": "かばん",
+              "reading": "かばん",
+              "meaning": "Cặp/túi"
+            },
+            {
+              "word": "パソコン",
+              "reading": "パソコン",
+              "meaning": "Máy tính"
+            },
+            {
+              "word": "とけい",
+              "reading": "とけい",
+              "meaning": "Đồng hồ"
+            },
+            {
+              "word": "けいたいでんわ",
+              "reading": "けいたいでんわ",
+              "meaning": "Điện thoại di động"
+            },
+            {
+              "word": "の",
+              "reading": "の",
+              "meaning": "Của/thuộc về"
+            }
+          ],
+          "tips": [
+            "Câu này hỏi xác nhận quyền sở hữu.",
+            "Aさんのかばん nghĩa là cặp của bạn A.",
+            "Nếu không phải của A, có thể trả lời わたしのかばんです。",
+            "Có thể thay かばん bằng パソコン, とけい, けいたいでんわ."
+          ],
+          "commonMistakes": [
+            "Quên の khi nói sở hữu.",
+            "Trả lời chỉ はい mà không nói rõ là cặp của ai.",
+            "Nhầm これ là người này."
+          ]
+        },
+        {
+          "questionId": "jpd113_l2_p3_q02",
+          "order": 2,
+          "question": {
+            "ja": "Aさんの　パソコンは　どこの　パソコンですか。",
+            "vi": "Máy tính của bạn A là máy tính của nước nào/hãng nào?"
+          },
+          "answerType": "origin_information",
+          "sampleAnswers": [
+            {
+              "ja": "アメリカのです。",
+              "vi": "Là của Mỹ."
+            },
+            {
+              "ja": "アメリカの　パソコンです。",
+              "vi": "Là máy tính của Mỹ."
+            },
+            {
+              "ja": "日本の　パソコンです。",
+              "vi": "Là máy tính của Nhật."
+            }
+          ],
+          "grammarIds": [
+            "g_l2_008"
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "Aさんの",
+              "reading": "Aさんの",
+              "meaning": "Của bạn A"
+            },
+            {
+              "word": "パソコン",
+              "reading": "パソコン",
+              "meaning": "Máy tính"
+            },
+            {
+              "word": "カメラ",
+              "reading": "カメラ",
+              "meaning": "Máy ảnh"
+            },
+            {
+              "word": "けいたいでんわ",
+              "reading": "けいたいでんわ",
+              "meaning": "Điện thoại di động"
+            },
+            {
+              "word": "でんしじしょ",
+              "reading": "でんしじしょ",
+              "meaning": "Từ điển điện tử"
+            },
+            {
+              "word": "どこの",
+              "reading": "どこの",
+              "meaning": "Của nước nào/hãng nào"
+            },
+            {
+              "word": "日本",
+              "reading": "にほん",
+              "meaning": "Nhật Bản"
+            },
+            {
+              "word": "アメリカ",
+              "reading": "アメリカ",
+              "meaning": "Mỹ"
+            },
+            {
+              "word": "ベトナム",
+              "reading": "ベトナム",
+              "meaning": "Việt Nam"
+            },
+            {
+              "word": "かんこく",
+              "reading": "かんこく",
+              "meaning": "Hàn Quốc"
+            },
+            {
+              "word": "ちゅうごく",
+              "reading": "ちゅうごく",
+              "meaning": "Trung Quốc"
+            },
+            {
+              "word": "サムスン",
+              "reading": "サムスン",
+              "meaning": "Samsung"
+            },
+            {
+              "word": "の",
+              "reading": "の",
+              "meaning": "Của/thuộc về"
+            }
+          ],
+          "tips": [
+            "どこの dùng để hỏi xuất xứ hoặc hãng.",
+            "Có thể trả lời rút gọn: アメリカのです。",
+            "Nếu muốn đầy đủ hơn: アメリカのパソコンです。",
+            "Không thêm 人 sau tên nước vì đang nói đồ vật, không nói quốc tịch."
+          ],
+          "commonMistakes": [
+            "Trả lời アメリカ人です, sai vì đang hỏi đồ vật.",
+            "Quên の sau アメリカ.",
+            "Nhầm どこの với どこ."
+          ]
+        },
+        {
+          "questionId": "jpd113_l2_p3_q03",
+          "order": 3,
+          "question": {
+            "ja": "これは　だれの　かばんですか。",
+            "vi": "Đây là cặp của ai?"
+          },
+          "answerType": "ownership_information",
+          "sampleAnswers": [
+            {
+              "ja": "わたしの　かばんです。",
+              "vi": "Là cặp của tôi."
+            },
+            {
+              "ja": "Aさんの　かばんです。",
+              "vi": "Là cặp của bạn A."
+            },
+            {
+              "ja": "先生の　かばんです。",
+              "vi": "Là cặp của giáo viên."
+            }
+          ],
+          "grammarIds": [
+            "g_l2_007"
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "これ",
+              "reading": "これ",
+              "meaning": "Cái này"
+            },
+            {
+              "word": "それ",
+              "reading": "それ",
+              "meaning": "Cái đó"
+            },
+            {
+              "word": "あれ",
+              "reading": "あれ",
+              "meaning": "Cái kia"
+            },
+            {
+              "word": "だれ",
+              "reading": "だれ",
+              "meaning": "Ai"
+            },
+            {
+              "word": "だれの",
+              "reading": "だれの",
+              "meaning": "Của ai"
+            },
+            {
+              "word": "わたし",
+              "reading": "わたし",
+              "meaning": "Tôi"
+            },
+            {
+              "word": "わたしの",
+              "reading": "わたしの",
+              "meaning": "Của tôi"
+            },
+            {
+              "word": "Aさんの",
+              "reading": "Aさんの",
+              "meaning": "Của bạn A"
+            },
+            {
+              "word": "先生の",
+              "reading": "せんせいの",
+              "meaning": "Của giáo viên"
+            },
+            {
+              "word": "かばん",
+              "reading": "かばん",
+              "meaning": "Cặp/túi"
+            },
+            {
+              "word": "ペン",
+              "reading": "ペン",
+              "meaning": "Bút"
+            },
+            {
+              "word": "本",
+              "reading": "ほん",
+              "meaning": "Sách"
+            },
+            {
+              "word": "とけい",
+              "reading": "とけい",
+              "meaning": "Đồng hồ"
+            },
+            {
+              "word": "パソコン",
+              "reading": "パソコン",
+              "meaning": "Máy tính"
+            },
+            {
+              "word": "けいたいでんわ",
+              "reading": "けいたいでんわ",
+              "meaning": "Điện thoại di động"
+            },
+            {
+              "word": "の",
+              "reading": "の",
+              "meaning": "Của/thuộc về"
+            }
+          ],
+          "tips": [
+            "Nghe thấy だれの thì cần trả lời người sở hữu.",
+            "Mẫu trả lời: Người + の + đồ vật + です。",
+            "Có thể nói わたしのかばんです nếu là của mình.",
+            "Có thể thay かばん bằng ペン, 本, とけい, パソコン."
+          ],
+          "commonMistakes": [
+            "Trả lời かばんです dù câu hỏi hỏi của ai.",
+            "Quên の sau người sở hữu.",
+            "Nhầm だれの với どこの."
+          ]
+        },
+        {
+          "questionId": "jpd113_l2_p3_q04",
+          "order": 4,
+          "question": {
+            "ja": "「ほん」は　えい語で　なんですか。",
+            "vi": "“ほん” trong tiếng Anh là gì?"
+          },
+          "answerType": "translation_word",
+          "sampleAnswers": [
+            {
+              "ja": "Bookです。",
+              "vi": "Là “book”."
+            },
+            {
+              "ja": "Bookです。ほんは　Bookです。",
+              "vi": "Là “book”. ほん là book."
+            }
+          ],
+          "grammarIds": [
+            "g_l2_009"
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "ほん",
+              "reading": "ほん",
+              "meaning": "Sách"
+            },
+            {
+              "word": "かばん",
+              "reading": "かばん",
+              "meaning": "Cặp/túi"
+            },
+            {
+              "word": "とけい",
+              "reading": "とけい",
+              "meaning": "Đồng hồ"
+            },
+            {
+              "word": "パソコン",
+              "reading": "パソコン",
+              "meaning": "Máy tính"
+            },
+            {
+              "word": "ペン",
+              "reading": "ペン",
+              "meaning": "Bút"
+            },
+            {
+              "word": "えい語",
+              "reading": "えいご",
+              "meaning": "Tiếng Anh"
+            },
+            {
+              "word": "日本語",
+              "reading": "にほんご",
+              "meaning": "Tiếng Nhật"
+            },
+            {
+              "word": "ベトナム語",
+              "reading": "ベトナムご",
+              "meaning": "Tiếng Việt"
+            },
+            {
+              "word": "なん",
+              "reading": "なん",
+              "meaning": "Cái gì/là gì"
+            },
+            {
+              "word": "Book",
+              "reading": "Book",
+              "meaning": "Sách trong tiếng Anh"
+            },
+            {
+              "word": "bag",
+              "reading": "bag",
+              "meaning": "Cặp/túi trong tiếng Anh"
+            },
+            {
+              "word": "watch",
+              "reading": "watch",
+              "meaning": "Đồng hồ trong tiếng Anh"
+            },
+            {
+              "word": "computer",
+              "reading": "computer",
+              "meaning": "Máy tính trong tiếng Anh"
+            }
+          ],
+          "tips": [
+            "Câu này hỏi cách nói một từ bằng tiếng Anh.",
+            "えい語で nghĩa là bằng tiếng Anh.",
+            "Trả lời ngắn: Bookです。",
+            "Có thể thay ほん bằng かばん, とけい, パソコン để luyện thêm."
+          ],
+          "commonMistakes": [
+            "Dịch ngược sang tiếng Nhật dù câu hỏi hỏi tiếng Anh.",
+            "Nhầm えい語 với 日本語.",
+            "Quên です ở cuối câu."
+          ]
+        },
+        {
+          "questionId": "jpd113_l2_p3_q05",
+          "order": 5,
+          "question": {
+            "ja": "「học sinh」は　日本語で　なんですか。",
+            "vi": "“Học sinh” trong tiếng Nhật là gì?"
+          },
+          "answerType": "translation_word",
+          "sampleAnswers": [
+            {
+              "ja": "がくせいです。",
+              "vi": "Là がくせい."
+            },
+            {
+              "ja": "学生です。",
+              "vi": "Là 学生."
+            }
+          ],
+          "grammarIds": [
+            "g_l2_009"
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "học sinh",
+              "reading": "học sinh",
+              "meaning": "Học sinh/sinh viên"
+            },
+            {
+              "word": "sinh viên",
+              "reading": "sinh viên",
+              "meaning": "Sinh viên"
+            },
+            {
+              "word": "giáo viên",
+              "reading": "giáo viên",
+              "meaning": "Giáo viên"
+            },
+            {
+              "word": "nhân viên công ty",
+              "reading": "nhân viên công ty",
+              "meaning": "Nhân viên công ty"
+            },
+            {
+              "word": "日本語",
+              "reading": "にほんご",
+              "meaning": "Tiếng Nhật"
+            },
+            {
+              "word": "えい語",
+              "reading": "えいご",
+              "meaning": "Tiếng Anh"
+            },
+            {
+              "word": "ベトナム語",
+              "reading": "ベトナムご",
+              "meaning": "Tiếng Việt"
+            },
+            {
+              "word": "がくせい",
+              "reading": "がくせい",
+              "meaning": "Học sinh/sinh viên"
+            },
+            {
+              "word": "学生",
+              "reading": "がくせい",
+              "meaning": "Học sinh/sinh viên"
+            },
+            {
+              "word": "せんせい",
+              "reading": "せんせい",
+              "meaning": "Thầy/cô giáo"
+            },
+            {
+              "word": "きょうし",
+              "reading": "きょうし",
+              "meaning": "Giáo viên, dùng để nói nghề của bản thân"
+            },
+            {
+              "word": "かいしゃいん",
+              "reading": "かいしゃいん",
+              "meaning": "Nhân viên công ty"
+            },
+            {
+              "word": "なん",
+              "reading": "なん",
+              "meaning": "Cái gì/là gì"
+            }
+          ],
+          "tips": [
+            "日本語で nghĩa là bằng tiếng Nhật.",
+            "Câu hỏi yêu cầu đổi từ tiếng Việt sang tiếng Nhật.",
+            "Trả lời: がくせいです。",
+            "Chú ý がくせい là học sinh/sinh viên, せんせい là thầy/cô."
+          ],
+          "commonMistakes": [
+            "Trả lời bằng tiếng Việt thay vì tiếng Nhật.",
+            "Nhầm がくせい với せんせい.",
+            "Quên です."
+          ]
+        },
+        {
+          "questionId": "jpd113_l2_p3_q06",
+          "order": 6,
+          "question": {
+            "ja": "「とけい」は　ベトナム語で　なんですか。",
+            "vi": "“とけい” trong tiếng Việt là gì?"
+          },
+          "answerType": "translation_word",
+          "sampleAnswers": [
+            {
+              "ja": "「đồng hồ」です。",
+              "vi": "Là “đồng hồ”."
+            },
+            {
+              "ja": "đồng hồです。",
+              "vi": "Là đồng hồ."
+            }
+          ],
+          "grammarIds": [
+            "g_l2_009"
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "とけい",
+              "reading": "とけい",
+              "meaning": "Đồng hồ"
+            },
+            {
+              "word": "かばん",
+              "reading": "かばん",
+              "meaning": "Cặp/túi"
+            },
+            {
+              "word": "ズボン",
+              "reading": "ズボン",
+              "meaning": "Quần"
+            },
+            {
+              "word": "Tシャツ",
+              "reading": "Tシャツ",
+              "meaning": "Áo thun"
+            },
+            {
+              "word": "パソコン",
+              "reading": "パソコン",
+              "meaning": "Máy tính"
+            },
+            {
+              "word": "けいたいでんわ",
+              "reading": "けいたいでんわ",
+              "meaning": "Điện thoại di động"
+            },
+            {
+              "word": "カメラ",
+              "reading": "カメラ",
+              "meaning": "Máy ảnh"
+            },
+            {
+              "word": "本",
+              "reading": "ほん",
+              "meaning": "Sách"
+            },
+            {
+              "word": "ペン",
+              "reading": "ペン",
+              "meaning": "Bút"
+            },
+            {
+              "word": "ベトナム語",
+              "reading": "ベトナムご",
+              "meaning": "Tiếng Việt"
+            },
+            {
+              "word": "日本語",
+              "reading": "にほんご",
+              "meaning": "Tiếng Nhật"
+            },
+            {
+              "word": "えい語",
+              "reading": "えいご",
+              "meaning": "Tiếng Anh"
+            },
+            {
+              "word": "đồng hồ",
+              "reading": "đồng hồ",
+              "meaning": "Nghĩa tiếng Việt của とけい"
+            },
+            {
+              "word": "cái cặp",
+              "reading": "cái cặp",
+              "meaning": "Nghĩa tiếng Việt của かばん"
+            },
+            {
+              "word": "máy tính",
+              "reading": "máy tính",
+              "meaning": "Nghĩa tiếng Việt của パソコン"
+            },
+            {
+              "word": "điện thoại",
+              "reading": "điện thoại",
+              "meaning": "Nghĩa tiếng Việt của けいたいでんわ"
+            },
+            {
+              "word": "máy ảnh",
+              "reading": "máy ảnh",
+              "meaning": "Nghĩa tiếng Việt của カメラ"
+            },
+            {
+              "word": "なん",
+              "reading": "なん",
+              "meaning": "Cái gì/là gì"
+            }
+          ],
+          "tips": [
+            "ベトナム語で nghĩa là bằng tiếng Việt.",
+            "Câu hỏi yêu cầu dịch từ tiếng Nhật sang tiếng Việt.",
+            "Có thể trả lời: đồng hồです。",
+            "Có thể thay とけい bằng かばん, パソコン, カメラ để luyện thêm."
+          ],
+          "commonMistakes": [
+            "Trả lời とけいです dù câu hỏi hỏi tiếng Việt.",
+            "Nhầm ベトナム語 với 日本語.",
+            "Quên nghĩa của とけい là đồng hồ."
+          ]
+        }
+      ]
+    }
+  ]
+}
+```

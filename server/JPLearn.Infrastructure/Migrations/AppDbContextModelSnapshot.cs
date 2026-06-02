@@ -1680,6 +1680,40 @@ namespace JPLearn.Infrastructure.Migrations
                     b.ToTable("ReviewSessions");
                 });
 
+            modelBuilder.Entity("JPLearn.Core.Settings.Entities.AppSetting", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uuid");
+
+                    b.Property<DateTime>("CreatedAt")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.Property<string>("Description")
+                        .HasMaxLength(500)
+                        .HasColumnType("character varying(500)");
+
+                    b.Property<string>("Key")
+                        .IsRequired()
+                        .HasMaxLength(120)
+                        .HasColumnType("character varying(120)");
+
+                    b.Property<DateTime>("UpdatedAt")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.Property<string>("Value")
+                        .IsRequired()
+                        .HasMaxLength(500)
+                        .HasColumnType("character varying(500)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("Key")
+                        .IsUnique();
+
+                    b.ToTable("AppSettings", (string)null);
+                });
+
             modelBuilder.Entity("JPLearn.Core.Speaking.Entities.SpeakingCourse", b =>
                 {
                     b.Property<Guid>("Id")
@@ -1770,6 +1804,13 @@ namespace JPLearn.Infrastructure.Migrations
 
                     b.Property<int>("LessonNumber")
                         .HasColumnType("integer");
+
+                    b.Property<string>("LessonType")
+                        .IsRequired()
+                        .ValueGeneratedOnAdd()
+                        .HasMaxLength(30)
+                        .HasColumnType("character varying(30)")
+                        .HasDefaultValue("reading");
 
                     b.Property<int>("OrderIndex")
                         .HasColumnType("integer");

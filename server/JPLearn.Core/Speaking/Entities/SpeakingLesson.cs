@@ -13,6 +13,7 @@ public class SpeakingLesson : BaseEntity
     public string? Description { get; set; }
     public string AccessTier { get; set; } = SpeakingAccessTiers.Free;
     public string? PackageCode { get; set; }
+    public string LessonType { get; set; } = SpeakingLessonTypes.Reading;
     public int OrderIndex { get; set; }
     public bool IsActive { get; set; } = true;
 

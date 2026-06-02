@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { apiClient } from '../../../shared/api/axios';
 import { useAuthStore } from '../../../shared/stores/authStore';
-import { isFreeExperienceEnabled } from '../../../shared/config/features';
+import { useUserAccess } from '../../../shared/hooks/useUserAccess';
 import { Crown, Zap, Star, Check, Loader2 } from 'lucide-react';
 import './PricingPage.css';
 
@@ -21,15 +21,15 @@ interface Subscription {
 }
 
 const packages: Package[] = [
-  { code: 'jpd113', name: 'JPD113', price: 50000, duration: '6 tháng' },
-  { code: 'jpd123', name: 'JPD123', price: 50000, duration: '6 tháng' },
-  { code: 'combo', name: 'Combo', price: 80000, originalPrice: 100000, duration: '6 tháng', discount: 'Tiết kiệm 20%' },
+  { code: 'jpd113', name: 'JPD113', price: 30000, duration: '6 tháng' },
+  { code: 'jpd123', name: 'JPD123', price: 30000, duration: '6 tháng' },
+  { code: 'combo', name: 'Combo', price: 50000, originalPrice: 60000, duration: '6 tháng', discount: 'Tiết kiệm 10,000đ' },
 ];
 
 const features: Record<string, string[]> = {
   jpd113: ['Toàn bộ Kanji JPD113', 'Toàn bộ Từ vựng JPD113', 'Toàn bộ Ngữ pháp JPD113', 'Luyện thi JPD113', 'Luyện nói JPD113', 'Sử dụng 6 tháng'],
   jpd123: ['Toàn bộ Kanji JPD123', 'Toàn bộ Từ vựng JPD123', 'Toàn bộ Ngữ pháp JPD123', 'Luyện thi JPD123', 'Luyện nói JPD123', 'Sử dụng 6 tháng'],
-  combo: ['Tất cả nội dung JPD113', 'Tất cả nội dung JPD123', 'Luyện thi cả 2 khóa', 'Luyện nói cả 2 khóa', 'Tiết kiệm 20,000đ', 'Sử dụng 6 tháng'],
+  combo: ['Tất cả nội dung JPD113', 'Tất cả nội dung JPD123', 'Luyện thi cả 2 khóa', 'Luyện nói cả 2 khóa', 'Tiết kiệm 10,000đ', 'Sử dụng 6 tháng'],
 };
 
 const icons: Record<string, React.ReactNode> = {
@@ -52,6 +52,7 @@ export function PricingPage() {
   const [timeLeft, setTimeLeft] = useState(300); // 5 minutes in seconds
   
   const { user } = useAuthStore();
+  const { freeExperienceEnabled } = useUserAccess();
   const navigate = useNavigate();
 
   // Countdown timer for payment session
@@ -148,7 +149,7 @@ export function PricingPage() {
   };
 
   const handleBuy = async (packageCode: string) => {
-    if (isFreeExperienceEnabled) return;
+    if (freeExperienceEnabled) return;
 
     if (!user) {
       navigate('/login');
@@ -190,10 +191,10 @@ export function PricingPage() {
     <div className="pricing-page">
       <div className="pricing-header">
         <h1 className="pricing-title">
-          {isFreeExperienceEnabled ? 'Toàn bộ nội dung đang mở miễn phí' : 'Mở khóa toàn bộ nội dung'}
+          {freeExperienceEnabled ? 'Toàn bộ nội dung đang mở miễn phí' : 'Mở khóa toàn bộ nội dung'}
         </h1>
         <p className="pricing-subtitle">
-          {isFreeExperienceEnabled
+          {freeExperienceEnabled
             ? 'Tính năng mua Premium đang tạm tắt trong thời gian trải nghiệm.'
             : 'Chọn gói phù hợp với bạn để truy cập đầy đủ bài học'}
         </p>
@@ -232,16 +233,16 @@ export function PricingPage() {
             <button
               className={`pricing-card-btn ${pkg.code === 'combo' ? 'pricing-card-btn--featured' : ''} ${isPackageLocked(pkg.code) ? 'pricing-card-btn--locked' : ''}`}
               onClick={() => handleBuy(pkg.code)}
-              disabled={isFreeExperienceEnabled || loading !== null || isSubsLoading || isPackageLocked(pkg.code)}
+              disabled={freeExperienceEnabled || loading !== null || isSubsLoading || isPackageLocked(pkg.code)}
             >
-              {isFreeExperienceEnabled ? 'Đang mở miễn phí' : getButtonText(pkg)}
+              {freeExperienceEnabled ? 'Đang mở miễn phí' : getButtonText(pkg)}
             </button>
           </div>
         ))}
       </div>
 
       <p className="pricing-note">
-        {isFreeExperienceEnabled
+        {freeExperienceEnabled
           ? 'Bạn có thể học toàn bộ nội dung mà không cần mua gói Premium.'
           : 'Thanh toán qua chuyển khoản ngân hàng • Mở khóa tự động trong vài giây'}
       </p>

@@ -8,7 +8,8 @@
     "accessTier": "premium",
     "packageCode": "speaking_jpd123",
     "isLocked": true,
-    "sentenceCount": 8
+    "sentenceCount": 8,
+    "lessonType": "reading"
   },
   {
     "id": "88888888-1123-0000-0000-000000000102",
@@ -19,7 +20,8 @@
     "accessTier": "premium",
     "packageCode": "speaking_jpd123",
     "isLocked": true,
-    "sentenceCount": 9
+    "sentenceCount": 9,
+    "lessonType": "reading"
   },
   {
     "id": "88888888-1123-0000-0000-000000000103",
@@ -30,7 +32,8 @@
     "accessTier": "premium",
     "packageCode": "speaking_jpd123",
     "isLocked": true,
-    "sentenceCount": 14
+    "sentenceCount": 14,
+    "lessonType": "reading"
   },
   {
     "id": "88888888-1123-0000-0000-000000000104",
@@ -41,7 +44,8 @@
     "accessTier": "premium",
     "packageCode": "speaking_jpd123",
     "isLocked": true,
-    "sentenceCount": 11
+    "sentenceCount": 11,
+    "lessonType": "reading"
   },
   {
     "id": "88888888-1123-0000-0000-000000000105",
@@ -52,7 +56,8 @@
     "accessTier": "premium",
     "packageCode": "speaking_jpd123",
     "isLocked": true,
-    "sentenceCount": 17
+    "sentenceCount": 17,
+    "lessonType": "reading"
   },
   {
     "id": "88888888-1123-0000-0000-000000000106",
@@ -63,7 +68,8 @@
     "accessTier": "premium",
     "packageCode": "speaking_jpd123",
     "isLocked": true,
-    "sentenceCount": 3
+    "sentenceCount": 3,
+    "lessonType": "reading"
   },
   {
     "id": "88888888-1123-0000-0000-000000000107",
@@ -74,7 +80,8 @@
     "accessTier": "premium",
     "packageCode": "speaking_jpd123",
     "isLocked": true,
-    "sentenceCount": 3
+    "sentenceCount": 3,
+    "lessonType": "reading"
   },
   {
     "id": "88888888-1123-0000-0000-000000000108",
@@ -85,7 +92,8 @@
     "accessTier": "premium",
     "packageCode": "speaking_jpd123",
     "isLocked": true,
-    "sentenceCount": 5
+    "sentenceCount": 5,
+    "lessonType": "reading"
   },
   {
     "id": "88888888-1123-0000-0000-000000000109",
@@ -96,7 +104,8 @@
     "accessTier": "premium",
     "packageCode": "speaking_jpd123",
     "isLocked": true,
-    "sentenceCount": 8
+    "sentenceCount": 8,
+    "lessonType": "reading"
   },
   {
     "id": "88888888-1123-0000-0000-000000000110",
@@ -107,7 +116,8 @@
     "accessTier": "premium",
     "packageCode": "speaking_jpd123",
     "isLocked": true,
-    "sentenceCount": 9
+    "sentenceCount": 9,
+    "lessonType": "reading"
   },
   {
     "id": "88888888-1123-0000-0000-000000000111",
@@ -118,7 +128,8 @@
     "accessTier": "premium",
     "packageCode": "speaking_jpd123",
     "isLocked": true,
-    "sentenceCount": 6
+    "sentenceCount": 6,
+    "lessonType": "reading"
   },
   {
     "id": "88888888-1123-0000-0000-000000000112",
@@ -129,7 +140,8 @@
     "accessTier": "premium",
     "packageCode": "speaking_jpd123",
     "isLocked": true,
-    "sentenceCount": 9
+    "sentenceCount": 9,
+    "lessonType": "reading"
   },
   {
     "id": "88888888-1123-0000-0000-000000000113",
@@ -140,7 +152,8 @@
     "accessTier": "premium",
     "packageCode": "speaking_jpd123",
     "isLocked": true,
-    "sentenceCount": 8
+    "sentenceCount": 8,
+    "lessonType": "reading"
   },
   {
     "id": "88888888-1123-0000-0000-000000000114",
@@ -151,7 +164,8 @@
     "accessTier": "premium",
     "packageCode": "speaking_jpd123",
     "isLocked": true,
-    "sentenceCount": 8
+    "sentenceCount": 8,
+    "lessonType": "reading"
   },
   {
     "id": "88888888-1123-0000-0000-000000000115",
@@ -162,7 +176,8 @@
     "accessTier": "premium",
     "packageCode": "speaking_jpd123",
     "isLocked": true,
-    "sentenceCount": 15
+    "sentenceCount": 15,
+    "lessonType": "reading"
   },
   {
     "id": "88888888-1123-0000-0000-000000000116",
@@ -173,7 +188,8 @@
     "accessTier": "premium",
     "packageCode": "speaking_jpd123",
     "isLocked": true,
-    "sentenceCount": 9
+    "sentenceCount": 9,
+    "lessonType": "reading"
   },
   {
     "id": "88888888-1123-0000-0000-000000000117",
@@ -184,7 +200,8 @@
     "accessTier": "premium",
     "packageCode": "speaking_jpd123",
     "isLocked": true,
-    "sentenceCount": 11
+    "sentenceCount": 11,
+    "lessonType": "reading"
   },
   {
     "id": "88888888-1123-0000-0000-000000000118",
@@ -195,7 +212,8 @@
     "accessTier": "premium",
     "packageCode": "speaking_jpd123",
     "isLocked": true,
-    "sentenceCount": 11
+    "sentenceCount": 11,
+    "lessonType": "reading"
   },
   {
     "id": "88888888-1123-0000-0000-000000000119",
@@ -206,7 +224,8 @@
     "accessTier": "premium",
     "packageCode": "speaking_jpd123",
     "isLocked": true,
-    "sentenceCount": 14
+    "sentenceCount": 14,
+    "lessonType": "reading"
   },
   {
     "id": "88888888-1123-0000-0000-000000000120",
@@ -217,7 +236,8 @@
     "accessTier": "premium",
     "packageCode": "speaking_jpd123",
     "isLocked": true,
-    "sentenceCount": 15
+    "sentenceCount": 15,
+    "lessonType": "reading"
   },
   {
     "id": "88888888-1123-0000-0000-000000000121",
@@ -228,7 +248,8 @@
     "accessTier": "premium",
     "packageCode": "speaking_jpd123",
     "isLocked": true,
-    "sentenceCount": 10
+    "sentenceCount": 10,
+    "lessonType": "reading"
   },
   {
     "id": "88888888-1123-0000-0000-000000000122",
@@ -239,7 +260,8 @@
     "accessTier": "premium",
     "packageCode": "speaking_jpd123",
     "isLocked": true,
-    "sentenceCount": 10
+    "sentenceCount": 10,
+    "lessonType": "reading"
   },
   {
     "id": "88888888-1123-0000-0000-000000000123",
@@ -250,7 +272,8 @@
     "accessTier": "premium",
     "packageCode": "speaking_jpd123",
     "isLocked": true,
-    "sentenceCount": 8
+    "sentenceCount": 8,
+    "lessonType": "reading"
   },
   {
     "id": "88888888-1123-0000-0000-000000000124",
@@ -261,7 +284,8 @@
     "accessTier": "premium",
     "packageCode": "speaking_jpd123",
     "isLocked": true,
-    "sentenceCount": 8
+    "sentenceCount": 8,
+    "lessonType": "reading"
   },
   {
     "id": "88888888-1123-0000-0000-000000000125",
@@ -272,7 +296,8 @@
     "accessTier": "premium",
     "packageCode": "speaking_jpd123",
     "isLocked": true,
-    "sentenceCount": 8
+    "sentenceCount": 8,
+    "lessonType": "reading"
   },
   {
     "id": "88888888-1123-0000-0000-000000000126",
@@ -283,7 +308,8 @@
     "accessTier": "premium",
     "packageCode": "speaking_jpd123",
     "isLocked": true,
-    "sentenceCount": 7
+    "sentenceCount": 7,
+    "lessonType": "reading"
   },
   {
     "id": "88888888-1123-0000-0000-000000000127",
@@ -294,7 +320,8 @@
     "accessTier": "premium",
     "packageCode": "speaking_jpd123",
     "isLocked": true,
-    "sentenceCount": 10
+    "sentenceCount": 10,
+    "lessonType": "reading"
   },
   {
     "id": "88888888-1123-0000-0000-000000000128",
@@ -305,6 +332,7 @@
     "accessTier": "premium",
     "packageCode": "speaking_jpd123",
     "isLocked": true,
-    "sentenceCount": 7
+    "sentenceCount": 7,
+    "lessonType": "reading"
   }
 ]

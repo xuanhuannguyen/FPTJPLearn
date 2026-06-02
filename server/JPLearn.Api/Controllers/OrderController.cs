@@ -1,5 +1,6 @@
 using JPLearn.Core.Orders;
 using JPLearn.Core.Orders.Entities;
+using JPLearn.Core.Settings;
 using JPLearn.Infrastructure.Data;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -12,13 +13,13 @@ public class OrderController : ApiControllerBase
 {
     private readonly AppDbContext _db;
     private readonly IEnumerable<IPaymentProvider> _providers;
-    private readonly IConfiguration _configuration;
+    private readonly IAccessSettingsService _accessSettings;
 
-    public OrderController(AppDbContext db, IEnumerable<IPaymentProvider> providers, IConfiguration configuration)
+    public OrderController(AppDbContext db, IEnumerable<IPaymentProvider> providers, IAccessSettingsService accessSettings)
     {
         _db = db;
         _providers = providers;
-        _configuration = configuration;
+        _accessSettings = accessSettings;
     }
 
     /// <summary>Tạo đơn hàng mới + lấy link thanh toán (xoay vòng provider)</summary>
@@ -152,9 +153,9 @@ public class OrderController : ApiControllerBase
     {
         return Ok(new object[]
         {
-            new { code = PackageCodes.JPD113, name = "JPD113", price = 50000, originalPrice = (int?)null, duration = "6 tháng", discount = (string?)null, isSalesEnabled = !IsFreeExperienceEnabled() },
-            new { code = PackageCodes.JPD123, name = "JPD123", price = 50000, originalPrice = (int?)null, duration = "6 tháng", discount = (string?)null, isSalesEnabled = !IsFreeExperienceEnabled() },
-            new { code = PackageCodes.Combo, name = "Combo JPD113 + JPD123", price = 80000, originalPrice = (int?)100000, duration = "6 tháng", discount = (string?)"Giảm 20%", isSalesEnabled = !IsFreeExperienceEnabled() }
+            new { code = PackageCodes.JPD113, name = "JPD113", price = 30000, originalPrice = (int?)null, duration = "6 tháng", discount = (string?)null, isSalesEnabled = !IsFreeExperienceEnabled() },
+            new { code = PackageCodes.JPD123, name = "JPD123", price = 30000, originalPrice = (int?)null, duration = "6 tháng", discount = (string?)null, isSalesEnabled = !IsFreeExperienceEnabled() },
+            new { code = PackageCodes.Combo, name = "Combo JPD113 + JPD123", price = 50000, originalPrice = (int?)60000, duration = "6 tháng", discount = (string?)"Giảm 10,000đ", isSalesEnabled = !IsFreeExperienceEnabled() }
         });
     }
 
@@ -174,7 +175,7 @@ public class OrderController : ApiControllerBase
 
     private bool IsFreeExperienceEnabled()
     {
-        return !bool.TryParse(_configuration["Payments:FreeExperienceEnabled"], out var isEnabled) || isEnabled;
+        return _accessSettings.IsFreeExperienceEnabled();
     }
 
     private static string AppendOrderId(string url, Guid orderId)

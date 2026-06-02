@@ -4,13 +4,14 @@ import { Bell, Search, LogOut, Sparkles } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { useSearchStore } from '../stores/searchStore';
 import { useAuthStore } from '../stores/authStore';
-import { isFreeExperienceEnabled } from '../config/features';
+import { useUserAccess } from '../hooks/useUserAccess';
 
 export const Navbar = () => {
   const location = useLocation();
   const query = useSearchStore((state) => state.query);
   const setQuery = useSearchStore((state) => state.setQuery);
   const { user, logout } = useAuthStore();
+  const { licensingEnabled } = useUserAccess();
   const [showMenu, setShowMenu] = useState(false);
   const menuRef = useRef<HTMLDivElement>(null);
 
@@ -56,7 +57,7 @@ export const Navbar = () => {
       </div>
       
       <div className="ml-4 flex items-center gap-2">
-        {!isFreeExperienceEnabled ? (
+        {licensingEnabled ? (
           <Link
             to="/pricing"
             className="mr-2 flex h-8 items-center gap-2 rounded-lg border-2 border-border bg-gradient-to-r from-blue-500 to-blue-600 px-3 text-white shadow-pop transition-all hover:-translate-y-0.5"

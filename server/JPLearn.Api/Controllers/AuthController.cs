@@ -58,11 +58,36 @@ public class AuthController : ApiControllerBase
         }
     }
 
+    [HttpPost("logout")]
+    public async Task<IActionResult> Logout([FromBody] LogoutRequest request)
+    {
+        var userId = CurrentUserId;
+        if (userId == Guid.Empty) return Unauthorized(new { error = "INVALID_USER_ID" });
+
+        var user = await _db.Users.FirstOrDefaultAsync(u => u.Id == userId);
+        if (user == null) return NotFound(new { error = "USER_NOT_FOUND" });
+
+        if (!string.IsNullOrWhiteSpace(request.DeviceToken) &&
+            user.ActiveDeviceToken == request.DeviceToken)
+        {
+            user.ActiveDeviceToken = null;
+            user.UpdatedAt = DateTime.UtcNow;
+            await _db.SaveChangesAsync();
+        }
+
+        return Ok(new { message = "Logged out" });
+    }
+
 }
 
 public class SyncUserRequest
 {
     public string DisplayName { get; set; } = string.Empty;
     public string? AvatarUrl { get; set; }
+    public string DeviceToken { get; set; } = string.Empty;
+}
+
+public class LogoutRequest
+{
     public string DeviceToken { get; set; } = string.Empty;
 }

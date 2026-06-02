@@ -24,6 +24,7 @@ public class SpeakingLessonDto
     public string? PackageCode { get; set; }
     public bool IsLocked { get; set; }
     public int SentenceCount { get; set; }
+    public string LessonType { get; set; } = string.Empty;
 }
 
 public class SpeakingLessonDetailDto

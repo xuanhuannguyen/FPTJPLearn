@@ -7,6 +7,7 @@ using JPLearn.Core.Speaking.Entities;
 using JPLearn.Core.StaticVocabulary.Entities;
 using JPLearn.Core.Vocabulary.Entities;
 using JPLearn.Core.Review.Entities;
+using JPLearn.Core.Settings.Entities;
 using JPLearn.Core.Users.Entities;
 using JPLearn.Core.Orders.Entities;
 
@@ -52,6 +53,7 @@ public class AppDbContext : DbContext
     public DbSet<SpeakingCourse> SpeakingCourses => Set<SpeakingCourse>();
     public DbSet<SpeakingLesson> SpeakingLessons => Set<SpeakingLesson>();
     public DbSet<SpeakingSentence> SpeakingSentences => Set<SpeakingSentence>();
+    public DbSet<AppSetting> AppSettings => Set<AppSetting>();
     
     // Auth & Payment
     public DbSet<AppUser> Users => Set<AppUser>();

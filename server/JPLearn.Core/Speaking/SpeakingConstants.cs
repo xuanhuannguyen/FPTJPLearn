@@ -24,3 +24,11 @@ public static class SpeakingAccessTiers
     public const string Free = "free";
     public const string Premium = "premium";
 }
+
+public static class SpeakingLessonTypes
+{
+    public const string Reading = "reading";
+    public const string Qa = "qa";
+
+    public static readonly string[] All = [Reading, Qa];
+}

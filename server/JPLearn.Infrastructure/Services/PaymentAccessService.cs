@@ -1,18 +1,18 @@
 using JPLearn.Core.Payments;
+using JPLearn.Core.Settings;
 using JPLearn.Infrastructure.Data;
-using Microsoft.Extensions.Configuration;
 
 namespace JPLearn.Infrastructure.Services;
 
 public class PaymentAccessService : IPaymentAccessService
 {
     private readonly AppDbContext _db;
-    private readonly IConfiguration _configuration;
+    private readonly IAccessSettingsService _accessSettings;
 
-    public PaymentAccessService(AppDbContext db, IConfiguration configuration)
+    public PaymentAccessService(AppDbContext db, IAccessSettingsService accessSettings)
     {
         _db = db;
-        _configuration = configuration;
+        _accessSettings = accessSettings;
     }
 
     public bool HasContentAccess(Guid userId, string? accessTier, string? packageCode)
@@ -60,6 +60,6 @@ public class PaymentAccessService : IPaymentAccessService
 
     private bool IsFreeExperienceEnabled()
     {
-        return !bool.TryParse(_configuration["Payments:FreeExperienceEnabled"], out var isEnabled) || isEnabled;
+        return _accessSettings.IsFreeExperienceEnabled();
     }
 }
