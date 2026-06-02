@@ -119,12 +119,15 @@ export function useUserAccess() {
 
   const isContentLocked = useCallback((content?: AccessControlledContent | null) => {
     if (!content || !accessStatus.licensingEnabled) return false;
-    if (typeof content.isLocked === 'boolean') return content.isLocked;
 
     const accessTier = content.accessTier?.trim().toLowerCase() || 'free';
     if (accessTier === 'free') return false;
 
-    return isPackageLocked(content.packageCode);
+    if (content.packageCode) {
+      return isPackageLocked(content.packageCode);
+    }
+
+    return typeof content.isLocked === 'boolean' ? content.isLocked : true;
   }, [accessStatus, isPackageLocked]);
 
   return {

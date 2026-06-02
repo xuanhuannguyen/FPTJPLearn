@@ -78,7 +78,7 @@ export const ExamDashboardPage = () => {
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4 max-w-3xl">
         {courses.map((course) => {
-          const isLocked = false;
+          const isLocked = course.isLocked;
           const isJpd113 = course.code === 'jpd113';
           const colorTop = isJpd113 ? 'bg-[#e5e1da]' : 'bg-[#b8d4e3]';
           const colorBottom = 'bg-[#2563EB]';

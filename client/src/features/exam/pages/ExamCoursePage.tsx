@@ -47,10 +47,10 @@ export const ExamCoursePage = () => {
 
   const totalQuestions = useMemo(() => topics.reduce((sum, t) => sum + t.questionCount, 0), [topics]);
   const firstTopic = topics.find((t) => t.questionCount > 0)?.topic;
-  const isLocked = false;
+  const isLocked = course?.isLocked ?? true;
 
   const startExam = async () => {
-    if (!courseCode) return;
+    if (!courseCode || isLocked) return;
     try {
       setIsStartingAttempt(true);
       setError('');
