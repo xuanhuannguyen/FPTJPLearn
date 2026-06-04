@@ -298,28 +298,6 @@
           "orderIndex": 26
         },
         {
-          "word": "～ちゃん",
-          "reading": "～ちゃん",
-          "wordType": "Hậu tố",
-          "meaning": "Bé / cách gọi thân mật nữ",
-          "exampleJapanese": "花ちゃん。",
-          "exampleReading": "はなちゃん。",
-          "exampleMeaning": "Bé Hana.",
-          "notes": "",
-          "orderIndex": 27
-        },
-        {
-          "word": "～くん",
-          "reading": "～くん",
-          "wordType": "Hậu tố",
-          "meaning": "Cách gọi thân mật nam",
-          "exampleJapanese": "太郎くん。",
-          "exampleReading": "たろうくん。",
-          "exampleMeaning": "Cậu Taro.",
-          "notes": "",
-          "orderIndex": 28
-        },
-        {
           "word": "～人",
           "reading": "～じん",
           "wordType": "Hậu tố",
@@ -328,7 +306,7 @@
           "exampleReading": "べとなむじん。",
           "exampleMeaning": "Người Việt Nam.",
           "notes": "",
-          "orderIndex": 29
+          "orderIndex": 27
         },
         {
           "word": "どちら",
@@ -339,7 +317,7 @@
           "exampleReading": "おくにわどちらですか。",
           "exampleMeaning": "Đất nước của bạn ở đâu?",
           "notes": "",
-          "orderIndex": 30
+          "orderIndex": 28
         },
         {
           "word": "はじめまして",
@@ -350,7 +328,7 @@
           "exampleReading": "はじめまして。たなかです。",
           "exampleMeaning": "Rất vui được gặp bạn. Tôi là Tanaka.",
           "notes": "",
-          "orderIndex": 31
+          "orderIndex": 29
         },
         {
           "word": "どうぞよろしくおねがいします",
@@ -361,7 +339,7 @@
           "exampleReading": "どうぞよろしくおねがいします。",
           "exampleMeaning": "Rất mong được sự giúp đỡ của bạn.",
           "notes": "",
-          "orderIndex": 32
+          "orderIndex": 30
         },
         {
           "word": "こちらこそ",
@@ -372,7 +350,7 @@
           "exampleReading": "こちらこそ、よろしくおねがいします。",
           "exampleMeaning": "Chính tôi mới là người cần được giúp đỡ.",
           "notes": "",
-          "orderIndex": 33
+          "orderIndex": 31
         },
         {
           "word": "あのう",
@@ -383,7 +361,7 @@
           "exampleReading": "あのう、すみません。",
           "exampleMeaning": "À... xin lỗi.",
           "notes": "",
-          "orderIndex": 34
+          "orderIndex": 32
         },
         {
           "word": "すみません",
@@ -394,7 +372,7 @@
           "exampleReading": "すみません、なんですか。",
           "exampleMeaning": "Xin lỗi, cái gì vậy ạ?",
           "notes": "",
-          "orderIndex": 35
+          "orderIndex": 33
         },
         {
           "word": "そうですか",
@@ -405,7 +383,7 @@
           "exampleReading": "あ、そうですか。",
           "exampleMeaning": "A, vậy à.",
           "notes": "",
-          "orderIndex": 36
+          "orderIndex": 34
         },
         {
           "word": "はい",
@@ -416,7 +394,7 @@
           "exampleReading": "はい、そうです。",
           "exampleMeaning": "Vâng, đúng vậy.",
           "notes": "",
-          "orderIndex": 37
+          "orderIndex": 35
         },
         {
           "word": "いいえ",
@@ -427,7 +405,7 @@
           "exampleReading": "いいえ、ちがいます。",
           "exampleMeaning": "Không, không phải.",
           "notes": "",
-          "orderIndex": 38
+          "orderIndex": 36
         },
         {
           "word": "学校",
@@ -438,28 +416,390 @@
           "exampleReading": "がっこうへいきます。",
           "exampleMeaning": "Đi đến trường.",
           "notes": "",
-          "orderIndex": 39
-        },
-        {
-          "word": "おねがいします",
-          "reading": "おねがいします",
-          "wordType": "Cụm từ",
-          "meaning": "Làm ơn",
-          "exampleJapanese": "よろしくお願いします。",
-          "exampleReading": "よろしくおねがいします。",
-          "exampleMeaning": "Làm ơn giúp đỡ cho.",
-          "notes": "",
-          "orderIndex": 40
+          "orderIndex": 37
         }
       ]
     },
     {
       "id": 2,
-      "title": "1-2: Tuổi, tháng và ngày",
-      "description": "Học cách nói về tuổi tác, ngày tháng và sinh nhật",
+      "title": "1_2(1): Từ vựng đếm tháng - Tuổi",
+      "description": "Học cách đếm tháng và nói tuổi.",
       "accessTier": "free",
       "packageCode": "jpd113",
       "orderIndex": 2,
+      "items": [
+        {
+          "word": "～さい",
+          "reading": "～さい",
+          "wordType": "Lượng từ",
+          "meaning": "~ tuổi",
+          "exampleJapanese": "五歳。",
+          "exampleReading": "ごさい。",
+          "exampleMeaning": "5 tuổi.",
+          "notes": "",
+          "orderIndex": 1
+        },
+        {
+          "word": "～がつ",
+          "reading": "～がつ",
+          "wordType": "Lượng từ",
+          "meaning": "Tháng ~",
+          "exampleJapanese": "一月。",
+          "exampleReading": "いちがつ。",
+          "exampleMeaning": "Tháng 1.",
+          "notes": "",
+          "orderIndex": 2
+        },
+        {
+          "word": "いっさい",
+          "reading": "いっさい",
+          "wordType": "Lượng từ",
+          "meaning": "1 tuổi",
+          "exampleJapanese": "一歳です。",
+          "exampleReading": "いっさいです。",
+          "exampleMeaning": "1 tuổi.",
+          "notes": "",
+          "orderIndex": 3
+        },
+        {
+          "word": "にさい",
+          "reading": "にさい",
+          "wordType": "Lượng từ",
+          "meaning": "2 tuổi",
+          "exampleJapanese": "二歳です。",
+          "exampleReading": "にさいです。",
+          "exampleMeaning": "2 tuổi.",
+          "notes": "",
+          "orderIndex": 4
+        },
+        {
+          "word": "さんさい",
+          "reading": "さんさい",
+          "wordType": "Lượng từ",
+          "meaning": "3 tuổi",
+          "exampleJapanese": "三歳です。",
+          "exampleReading": "さんさいです。",
+          "exampleMeaning": "3 tuổi.",
+          "notes": "",
+          "orderIndex": 5
+        },
+        {
+          "word": "よんさい",
+          "reading": "よんさい",
+          "wordType": "Lượng từ",
+          "meaning": "4 tuổi",
+          "exampleJapanese": "四歳です。",
+          "exampleReading": "よんさいです。",
+          "exampleMeaning": "4 tuổi.",
+          "notes": "",
+          "orderIndex": 6
+        },
+        {
+          "word": "ごさい",
+          "reading": "ごさい",
+          "wordType": "Lượng từ",
+          "meaning": "5 tuổi",
+          "exampleJapanese": "五歳です。",
+          "exampleReading": "ごさいです。",
+          "exampleMeaning": "5 tuổi.",
+          "notes": "",
+          "orderIndex": 7
+        },
+        {
+          "word": "ろくさい",
+          "reading": "ろくさい",
+          "wordType": "Lượng từ",
+          "meaning": "6 tuổi",
+          "exampleJapanese": "六歳です。",
+          "exampleReading": "ろくさいです。",
+          "exampleMeaning": "6 tuổi.",
+          "notes": "",
+          "orderIndex": 8
+        },
+        {
+          "word": "ななさい",
+          "reading": "ななさい",
+          "wordType": "Lượng từ",
+          "meaning": "7 tuổi",
+          "exampleJapanese": "七歳です。",
+          "exampleReading": "ななさいです。",
+          "exampleMeaning": "7 tuổi.",
+          "notes": "",
+          "orderIndex": 9
+        },
+        {
+          "word": "はっさい",
+          "reading": "はっさい",
+          "wordType": "Lượng từ",
+          "meaning": "8 tuổi",
+          "exampleJapanese": "八歳です。",
+          "exampleReading": "はっさいです。",
+          "exampleMeaning": "8 tuổi.",
+          "notes": "",
+          "orderIndex": 10
+        },
+        {
+          "word": "きゅうさい",
+          "reading": "きゅうさい",
+          "wordType": "Lượng từ",
+          "meaning": "9 tuổi",
+          "exampleJapanese": "九歳です。",
+          "exampleReading": "きゅうさいです。",
+          "exampleMeaning": "9 tuổi.",
+          "notes": "",
+          "orderIndex": 11
+        },
+        {
+          "word": "じゅっさい",
+          "reading": "じゅっさい",
+          "wordType": "Lượng từ",
+          "meaning": "10 tuổi",
+          "exampleJapanese": "十歳です。",
+          "exampleReading": "じゅっさいです。",
+          "exampleMeaning": "10 tuổi.",
+          "notes": "",
+          "orderIndex": 12
+        },
+        {
+          "word": "じゅういっさい",
+          "reading": "じゅういっさい",
+          "wordType": "Lượng từ",
+          "meaning": "11 tuổi",
+          "exampleJapanese": "十一歳です。",
+          "exampleReading": "じゅういっさいです。",
+          "exampleMeaning": "11 tuổi.",
+          "notes": "",
+          "orderIndex": 13
+        },
+        {
+          "word": "じゅうごさい",
+          "reading": "じゅうごさい",
+          "wordType": "Lượng từ",
+          "meaning": "15 tuổi",
+          "exampleJapanese": "十五歳です。",
+          "exampleReading": "じゅうごさいです。",
+          "exampleMeaning": "15 tuổi.",
+          "notes": "",
+          "orderIndex": 14
+        },
+        {
+          "word": "はたち",
+          "reading": "はたち",
+          "wordType": "Lượng từ",
+          "meaning": "20 tuổi",
+          "exampleJapanese": "二十歳です。",
+          "exampleReading": "はたちです。",
+          "exampleMeaning": "20 tuổi.",
+          "notes": "",
+          "orderIndex": 15
+        },
+        {
+          "word": "にじゅっさい",
+          "reading": "にじゅっさい",
+          "wordType": "Lượng từ",
+          "meaning": "20 tuổi",
+          "exampleJapanese": "二十歳です。",
+          "exampleReading": "にじゅっさいです。",
+          "exampleMeaning": "20 tuổi.",
+          "notes": "",
+          "orderIndex": 16
+        },
+        {
+          "word": "さんじゅっさい",
+          "reading": "さんじゅっさい",
+          "wordType": "Lượng từ",
+          "meaning": "30 tuổi",
+          "exampleJapanese": "三十歳です。",
+          "exampleReading": "さんじゅっさいです。",
+          "exampleMeaning": "30 tuổi.",
+          "notes": "",
+          "orderIndex": 17
+        },
+        {
+          "word": "さんじゅうはっさい",
+          "reading": "さんじゅうはっさい",
+          "wordType": "Lượng từ",
+          "meaning": "38 tuổi",
+          "exampleJapanese": "三十八歳です。",
+          "exampleReading": "さんじゅうはっさいです。",
+          "exampleMeaning": "38 tuổi.",
+          "notes": "",
+          "orderIndex": 18
+        },
+        {
+          "word": "なんさい",
+          "reading": "なんさい",
+          "wordType": "Từ nghi vấn",
+          "meaning": "Bao nhiêu tuổi",
+          "exampleJapanese": "何歳ですか。",
+          "exampleReading": "なんさいですか。",
+          "exampleMeaning": "Bạn bao nhiêu tuổi?",
+          "notes": "",
+          "orderIndex": 19
+        },
+        {
+          "word": "おいくつ",
+          "reading": "おいくつ",
+          "wordType": "Từ nghi vấn",
+          "meaning": "Mấy tuổi (lịch sự)",
+          "exampleJapanese": "おいくつですか。",
+          "exampleReading": "おいくつですか。",
+          "exampleMeaning": "Bạn bao nhiêu tuổi ạ?",
+          "notes": "",
+          "orderIndex": 20
+        },
+        {
+          "word": "いちがつ",
+          "reading": "いちがつ",
+          "wordType": "Lượng từ",
+          "meaning": "Tháng 1",
+          "exampleJapanese": "一月。",
+          "exampleReading": "いちがつ。",
+          "exampleMeaning": "Tháng 1.",
+          "notes": "",
+          "orderIndex": 21
+        },
+        {
+          "word": "にがつ",
+          "reading": "にがつ",
+          "wordType": "Lượng từ",
+          "meaning": "Tháng 2",
+          "exampleJapanese": "二月。",
+          "exampleReading": "にがつ。",
+          "exampleMeaning": "Tháng 2.",
+          "notes": "",
+          "orderIndex": 22
+        },
+        {
+          "word": "さんがつ",
+          "reading": "さんがつ",
+          "wordType": "Lượng từ",
+          "meaning": "Tháng 3",
+          "exampleJapanese": "三月。",
+          "exampleReading": "さんがつ。",
+          "exampleMeaning": "Tháng 3.",
+          "notes": "",
+          "orderIndex": 23
+        },
+        {
+          "word": "しがつ",
+          "reading": "しがつ",
+          "wordType": "Lượng từ",
+          "meaning": "Tháng 4",
+          "exampleJapanese": "四月。",
+          "exampleReading": "しがつ。",
+          "exampleMeaning": "Tháng 4.",
+          "notes": "",
+          "orderIndex": 24
+        },
+        {
+          "word": "ごがつ",
+          "reading": "ごがつ",
+          "wordType": "Lượng từ",
+          "meaning": "Tháng 5",
+          "exampleJapanese": "五月。",
+          "exampleReading": "ごがつ。",
+          "exampleMeaning": "Tháng 5.",
+          "notes": "",
+          "orderIndex": 25
+        },
+        {
+          "word": "ろくがつ",
+          "reading": "ろくがつ",
+          "wordType": "Lượng từ",
+          "meaning": "Tháng 6",
+          "exampleJapanese": "六月。",
+          "exampleReading": "ろくがつ。",
+          "exampleMeaning": "Tháng 6.",
+          "notes": "",
+          "orderIndex": 26
+        },
+        {
+          "word": "しちがつ",
+          "reading": "しちがつ",
+          "wordType": "Lượng từ",
+          "meaning": "Tháng 7",
+          "exampleJapanese": "七月。",
+          "exampleReading": "しちがつ。",
+          "exampleMeaning": "Tháng 7.",
+          "notes": "",
+          "orderIndex": 27
+        },
+        {
+          "word": "はちがつ",
+          "reading": "はちがつ",
+          "wordType": "Lượng từ",
+          "meaning": "Tháng 8",
+          "exampleJapanese": "八月。",
+          "exampleReading": "はちがつ。",
+          "exampleMeaning": "Tháng 8.",
+          "notes": "",
+          "orderIndex": 28
+        },
+        {
+          "word": "くがつ",
+          "reading": "くがつ",
+          "wordType": "Lượng từ",
+          "meaning": "Tháng 9",
+          "exampleJapanese": "九月。",
+          "exampleReading": "くがつ。",
+          "exampleMeaning": "Tháng 9.",
+          "notes": "",
+          "orderIndex": 29
+        },
+        {
+          "word": "じゅうがつ",
+          "reading": "じゅうがつ",
+          "wordType": "Lượng từ",
+          "meaning": "Tháng 10",
+          "exampleJapanese": "十月。",
+          "exampleReading": "じゅうがつ。",
+          "exampleMeaning": "Tháng 10.",
+          "notes": "",
+          "orderIndex": 30
+        },
+        {
+          "word": "じゅういちがつ",
+          "reading": "じゅういちがつ",
+          "wordType": "Lượng từ",
+          "meaning": "Tháng 11",
+          "exampleJapanese": "十一月。",
+          "exampleReading": "じゅういちがつ。",
+          "exampleMeaning": "Tháng 11.",
+          "notes": "",
+          "orderIndex": 31
+        },
+        {
+          "word": "じゅうにがつ",
+          "reading": "じゅうにがつ",
+          "wordType": "Lượng từ",
+          "meaning": "Tháng 12",
+          "exampleJapanese": "十二月。",
+          "exampleReading": "じゅうにがつ。",
+          "exampleMeaning": "Tháng 12.",
+          "notes": "",
+          "orderIndex": 32
+        },
+        {
+          "word": "なんがつ",
+          "reading": "なんがつ",
+          "wordType": "Từ nghi vấn",
+          "meaning": "Tháng mấy",
+          "exampleJapanese": "何月ですか。",
+          "exampleReading": "なんがつですか。",
+          "exampleMeaning": "Tháng mấy vậy?",
+          "notes": "",
+          "orderIndex": 33
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "title": "1_2(2): Còn lại",
+      "description": "Các từ vựng còn lại của bài 1.2.",
+      "accessTier": "free",
+      "packageCode": "jpd113",
+      "orderIndex": 3,
       "items": [
         {
           "word": "いつ",
@@ -517,369 +857,6 @@
           "orderIndex": 5
         },
         {
-          "word": "～さい",
-          "reading": "～さい",
-          "wordType": "Lượng từ",
-          "meaning": "~ tuổi",
-          "exampleJapanese": "五歳。",
-          "exampleReading": "ごさい。",
-          "exampleMeaning": "5 tuổi.",
-          "notes": "",
-          "orderIndex": 6
-        },
-        {
-          "word": "～がつ",
-          "reading": "～がつ",
-          "wordType": "Lượng từ",
-          "meaning": "Tháng ~",
-          "exampleJapanese": "一月。",
-          "exampleReading": "いちがつ。",
-          "exampleMeaning": "Tháng 1.",
-          "notes": "",
-          "orderIndex": 7
-        },
-        {
-          "word": "いっさい",
-          "reading": "いっさい",
-          "wordType": "Lượng từ",
-          "meaning": "1 tuổi",
-          "exampleJapanese": "一歳です。",
-          "exampleReading": "いっさいです。",
-          "exampleMeaning": "1 tuổi.",
-          "notes": "",
-          "orderIndex": 8
-        },
-        {
-          "word": "にさい",
-          "reading": "にさい",
-          "wordType": "Lượng từ",
-          "meaning": "2 tuổi",
-          "exampleJapanese": "二歳です。",
-          "exampleReading": "にさいです。",
-          "exampleMeaning": "2 tuổi.",
-          "notes": "",
-          "orderIndex": 9
-        },
-        {
-          "word": "さんさい",
-          "reading": "さんさい",
-          "wordType": "Lượng từ",
-          "meaning": "3 tuổi",
-          "exampleJapanese": "三歳です。",
-          "exampleReading": "さんさいです。",
-          "exampleMeaning": "3 tuổi.",
-          "notes": "",
-          "orderIndex": 10
-        },
-        {
-          "word": "よんさい",
-          "reading": "よんさい",
-          "wordType": "Lượng từ",
-          "meaning": "4 tuổi",
-          "exampleJapanese": "四歳です。",
-          "exampleReading": "よんさいです。",
-          "exampleMeaning": "4 tuổi.",
-          "notes": "",
-          "orderIndex": 11
-        },
-        {
-          "word": "ごさい",
-          "reading": "ごさい",
-          "wordType": "Lượng từ",
-          "meaning": "5 tuổi",
-          "exampleJapanese": "五歳です。",
-          "exampleReading": "ごさいです。",
-          "exampleMeaning": "5 tuổi.",
-          "notes": "",
-          "orderIndex": 12
-        },
-        {
-          "word": "ろくさい",
-          "reading": "ろくさい",
-          "wordType": "Lượng từ",
-          "meaning": "6 tuổi",
-          "exampleJapanese": "六歳です。",
-          "exampleReading": "ろくさいです。",
-          "exampleMeaning": "6 tuổi.",
-          "notes": "",
-          "orderIndex": 13
-        },
-        {
-          "word": "ななさい",
-          "reading": "ななさい",
-          "wordType": "Lượng từ",
-          "meaning": "7 tuổi",
-          "exampleJapanese": "七歳です。",
-          "exampleReading": "ななさいです。",
-          "exampleMeaning": "7 tuổi.",
-          "notes": "",
-          "orderIndex": 14
-        },
-        {
-          "word": "はっさい",
-          "reading": "はっさい",
-          "wordType": "Lượng từ",
-          "meaning": "8 tuổi",
-          "exampleJapanese": "八歳です。",
-          "exampleReading": "はっさいです。",
-          "exampleMeaning": "8 tuổi.",
-          "notes": "",
-          "orderIndex": 15
-        },
-        {
-          "word": "きゅうさい",
-          "reading": "きゅうさい",
-          "wordType": "Lượng từ",
-          "meaning": "9 tuổi",
-          "exampleJapanese": "九歳です。",
-          "exampleReading": "きゅうさいです。",
-          "exampleMeaning": "9 tuổi.",
-          "notes": "",
-          "orderIndex": 16
-        },
-        {
-          "word": "じゅっさい",
-          "reading": "じゅっさい",
-          "wordType": "Lượng từ",
-          "meaning": "10 tuổi",
-          "exampleJapanese": "十歳です。",
-          "exampleReading": "じゅっさいです。",
-          "exampleMeaning": "10 tuổi.",
-          "notes": "",
-          "orderIndex": 17
-        },
-        {
-          "word": "じゅういっさい",
-          "reading": "じゅういっさい",
-          "wordType": "Lượng từ",
-          "meaning": "11 tuổi",
-          "exampleJapanese": "十一歳です。",
-          "exampleReading": "じゅういっさいです。",
-          "exampleMeaning": "11 tuổi.",
-          "notes": "",
-          "orderIndex": 18
-        },
-        {
-          "word": "じゅうごさい",
-          "reading": "じゅうごさい",
-          "wordType": "Lượng từ",
-          "meaning": "15 tuổi",
-          "exampleJapanese": "十五歳です。",
-          "exampleReading": "じゅうごさいです。",
-          "exampleMeaning": "15 tuổi.",
-          "notes": "",
-          "orderIndex": 19
-        },
-        {
-          "word": "はたち",
-          "reading": "はたち",
-          "wordType": "Lượng từ",
-          "meaning": "20 tuổi",
-          "exampleJapanese": "二十歳です。",
-          "exampleReading": "はたちです。",
-          "exampleMeaning": "20 tuổi.",
-          "notes": "",
-          "orderIndex": 20
-        },
-        {
-          "word": "にじゅっさい",
-          "reading": "にじゅっさい",
-          "wordType": "Lượng từ",
-          "meaning": "20 tuổi",
-          "exampleJapanese": "二十歳です。",
-          "exampleReading": "にじゅっさいです。",
-          "exampleMeaning": "20 tuổi.",
-          "notes": "",
-          "orderIndex": 21
-        },
-        {
-          "word": "さんじゅっさい",
-          "reading": "さんじゅっさい",
-          "wordType": "Lượng từ",
-          "meaning": "30 tuổi",
-          "exampleJapanese": "三十歳です。",
-          "exampleReading": "さんじゅっさいです。",
-          "exampleMeaning": "30 tuổi.",
-          "notes": "",
-          "orderIndex": 22
-        },
-        {
-          "word": "さんじゅうはっさい",
-          "reading": "さんじゅうはっさい",
-          "wordType": "Lượng từ",
-          "meaning": "38 tuổi",
-          "exampleJapanese": "三十八歳です。",
-          "exampleReading": "さんじゅうはっさいです。",
-          "exampleMeaning": "38 tuổi.",
-          "notes": "",
-          "orderIndex": 23
-        },
-        {
-          "word": "なんさい",
-          "reading": "なんさい",
-          "wordType": "Từ nghi vấn",
-          "meaning": "Bao nhiêu tuổi",
-          "exampleJapanese": "何歳ですか。",
-          "exampleReading": "なんさいですか。",
-          "exampleMeaning": "Bạn bao nhiêu tuổi?",
-          "notes": "",
-          "orderIndex": 24
-        },
-        {
-          "word": "おいくつ",
-          "reading": "おいくつ",
-          "wordType": "Từ nghi vấn",
-          "meaning": "Mấy tuổi (lịch sự)",
-          "exampleJapanese": "おいくつですか。",
-          "exampleReading": "おいくつですか。",
-          "exampleMeaning": "Bạn bao nhiêu tuổi ạ?",
-          "notes": "",
-          "orderIndex": 25
-        },
-        {
-          "word": "いちがつ",
-          "reading": "いちがつ",
-          "wordType": "Lượng từ",
-          "meaning": "Tháng 1",
-          "exampleJapanese": "一月。",
-          "exampleReading": "いちがつ。",
-          "exampleMeaning": "Tháng 1.",
-          "notes": "",
-          "orderIndex": 26
-        },
-        {
-          "word": "にがつ",
-          "reading": "にがつ",
-          "wordType": "Lượng từ",
-          "meaning": "Tháng 2",
-          "exampleJapanese": "二月。",
-          "exampleReading": "にがつ。",
-          "exampleMeaning": "Tháng 2.",
-          "notes": "",
-          "orderIndex": 27
-        },
-        {
-          "word": "さんがつ",
-          "reading": "さんがつ",
-          "wordType": "Lượng từ",
-          "meaning": "Tháng 3",
-          "exampleJapanese": "三月。",
-          "exampleReading": "さんがつ。",
-          "exampleMeaning": "Tháng 3.",
-          "notes": "",
-          "orderIndex": 28
-        },
-        {
-          "word": "しがつ",
-          "reading": "しがつ",
-          "wordType": "Lượng từ",
-          "meaning": "Tháng 4",
-          "exampleJapanese": "四月。",
-          "exampleReading": "しがつ。",
-          "exampleMeaning": "Tháng 4.",
-          "notes": "",
-          "orderIndex": 29
-        },
-        {
-          "word": "ごがつ",
-          "reading": "ごがつ",
-          "wordType": "Lượng từ",
-          "meaning": "Tháng 5",
-          "exampleJapanese": "五月。",
-          "exampleReading": "ごがつ。",
-          "exampleMeaning": "Tháng 5.",
-          "notes": "",
-          "orderIndex": 30
-        },
-        {
-          "word": "ろくがつ",
-          "reading": "ろくがつ",
-          "wordType": "Lượng từ",
-          "meaning": "Tháng 6",
-          "exampleJapanese": "六月。",
-          "exampleReading": "ろくがつ。",
-          "exampleMeaning": "Tháng 6.",
-          "notes": "",
-          "orderIndex": 31
-        },
-        {
-          "word": "しちがつ",
-          "reading": "しちがつ",
-          "wordType": "Lượng từ",
-          "meaning": "Tháng 7",
-          "exampleJapanese": "七月。",
-          "exampleReading": "しちがつ。",
-          "exampleMeaning": "Tháng 7.",
-          "notes": "",
-          "orderIndex": 32
-        },
-        {
-          "word": "はちがつ",
-          "reading": "はちがつ",
-          "wordType": "Lượng từ",
-          "meaning": "Tháng 8",
-          "exampleJapanese": "八月。",
-          "exampleReading": "はちがつ。",
-          "exampleMeaning": "Tháng 8.",
-          "notes": "",
-          "orderIndex": 33
-        },
-        {
-          "word": "くがつ",
-          "reading": "くがつ",
-          "wordType": "Lượng từ",
-          "meaning": "Tháng 9",
-          "exampleJapanese": "九月。",
-          "exampleReading": "くがつ。",
-          "exampleMeaning": "Tháng 9.",
-          "notes": "",
-          "orderIndex": 34
-        },
-        {
-          "word": "じゅうがつ",
-          "reading": "じゅうがつ",
-          "wordType": "Lượng từ",
-          "meaning": "Tháng 10",
-          "exampleJapanese": "十月。",
-          "exampleReading": "じゅうがつ。",
-          "exampleMeaning": "Tháng 10.",
-          "notes": "",
-          "orderIndex": 35
-        },
-        {
-          "word": "じゅういちがつ",
-          "reading": "じゅういちがつ",
-          "wordType": "Lượng từ",
-          "meaning": "Tháng 11",
-          "exampleJapanese": "十一月。",
-          "exampleReading": "じゅういちがつ。",
-          "exampleMeaning": "Tháng 11.",
-          "notes": "",
-          "orderIndex": 36
-        },
-        {
-          "word": "じゅうにがつ",
-          "reading": "じゅうにがつ",
-          "wordType": "Lượng từ",
-          "meaning": "Tháng 12",
-          "exampleJapanese": "十二月。",
-          "exampleReading": "じゅうにがつ。",
-          "exampleMeaning": "Tháng 12.",
-          "notes": "",
-          "orderIndex": 37
-        },
-        {
-          "word": "なんがつ",
-          "reading": "なんがつ",
-          "wordType": "Từ nghi vấn",
-          "meaning": "Tháng mấy",
-          "exampleJapanese": "何月ですか。",
-          "exampleReading": "なんがつですか。",
-          "exampleMeaning": "Tháng mấy vậy?",
-          "notes": "",
-          "orderIndex": 38
-        },
-        {
           "word": "ついたち",
           "reading": "ついたち",
           "wordType": "Danh từ",
@@ -888,7 +865,7 @@
           "exampleReading": "いちがつついたち。",
           "exampleMeaning": "Ngày mồng 1 tháng 1.",
           "notes": "",
-          "orderIndex": 39
+          "orderIndex": 6
         },
         {
           "word": "ふつか",
@@ -899,7 +876,7 @@
           "exampleReading": "ふつか。",
           "exampleMeaning": "Ngày mồng 2.",
           "notes": "",
-          "orderIndex": 40
+          "orderIndex": 7
         },
         {
           "word": "みっか",
@@ -910,7 +887,7 @@
           "exampleReading": "みっか。",
           "exampleMeaning": "Ngày mồng 3.",
           "notes": "",
-          "orderIndex": 41
+          "orderIndex": 8
         },
         {
           "word": "よっか",
@@ -921,7 +898,7 @@
           "exampleReading": "よっか。",
           "exampleMeaning": "Ngày mồng 4.",
           "notes": "",
-          "orderIndex": 42
+          "orderIndex": 9
         },
         {
           "word": "いつか",
@@ -932,7 +909,7 @@
           "exampleReading": "いつか。",
           "exampleMeaning": "Ngày mồng 5.",
           "notes": "",
-          "orderIndex": 43
+          "orderIndex": 10
         },
         {
           "word": "むいか",
@@ -943,7 +920,7 @@
           "exampleReading": "むいか。",
           "exampleMeaning": "Ngày mồng 6.",
           "notes": "",
-          "orderIndex": 44
+          "orderIndex": 11
         },
         {
           "word": "なのか",
@@ -954,7 +931,7 @@
           "exampleReading": "なのか。",
           "exampleMeaning": "Ngày mồng 7.",
           "notes": "",
-          "orderIndex": 45
+          "orderIndex": 12
         },
         {
           "word": "ようか",
@@ -965,7 +942,7 @@
           "exampleReading": "ようか。",
           "exampleMeaning": "Ngày mồng 8.",
           "notes": "",
-          "orderIndex": 46
+          "orderIndex": 13
         },
         {
           "word": "ここのか",
@@ -976,7 +953,7 @@
           "exampleReading": "ここのか。",
           "exampleMeaning": "Ngày mồng 9.",
           "notes": "",
-          "orderIndex": 47
+          "orderIndex": 14
         },
         {
           "word": "とおか",
@@ -987,7 +964,7 @@
           "exampleReading": "とおか。",
           "exampleMeaning": "Ngày mồng 10.",
           "notes": "",
-          "orderIndex": 48
+          "orderIndex": 15
         },
         {
           "word": "じゅういちにち",
@@ -998,7 +975,7 @@
           "exampleReading": "じゅういちにち。",
           "exampleMeaning": "Ngày 11.",
           "notes": "",
-          "orderIndex": 49
+          "orderIndex": 16
         },
         {
           "word": "じゅうににち",
@@ -1009,7 +986,7 @@
           "exampleReading": "じゅうににち。",
           "exampleMeaning": "Ngày 12.",
           "notes": "",
-          "orderIndex": 50
+          "orderIndex": 17
         },
         {
           "word": "じゅうよっか",
@@ -1020,7 +997,7 @@
           "exampleReading": "じゅうよっか。",
           "exampleMeaning": "Ngày 14.",
           "notes": "",
-          "orderIndex": 51
+          "orderIndex": 18
         },
         {
           "word": "じゅうはちにち",
@@ -1031,7 +1008,7 @@
           "exampleReading": "じゅうはちにち。",
           "exampleMeaning": "Ngày 18.",
           "notes": "",
-          "orderIndex": 52
+          "orderIndex": 19
         },
         {
           "word": "じゅうくにち",
@@ -1042,7 +1019,7 @@
           "exampleReading": "じゅうくにち。",
           "exampleMeaning": "Ngày 19.",
           "notes": "",
-          "orderIndex": 53
+          "orderIndex": 20
         },
         {
           "word": "はつか",
@@ -1053,7 +1030,7 @@
           "exampleReading": "はつか。",
           "exampleMeaning": "Ngày 20.",
           "notes": "",
-          "orderIndex": 54
+          "orderIndex": 21
         },
         {
           "word": "にじゅうよっか",
@@ -1064,7 +1041,7 @@
           "exampleReading": "にじゅうよっか。",
           "exampleMeaning": "Ngày 24.",
           "notes": "",
-          "orderIndex": 55
+          "orderIndex": 22
         },
         {
           "word": "にじゅうくにち",
@@ -1075,7 +1052,7 @@
           "exampleReading": "にじゅうくにち。",
           "exampleMeaning": "Ngày 29.",
           "notes": "",
-          "orderIndex": 56
+          "orderIndex": 23
         },
         {
           "word": "さんじゅうにち",
@@ -1086,7 +1063,7 @@
           "exampleReading": "さんじゅうにち。",
           "exampleMeaning": "Ngày 30.",
           "notes": "",
-          "orderIndex": 57
+          "orderIndex": 24
         },
         {
           "word": "なんにち",
@@ -1097,7 +1074,7 @@
           "exampleReading": "きょうわなんにちですか。",
           "exampleMeaning": "Hôm nay ngày mấy?",
           "notes": "",
-          "orderIndex": 58
+          "orderIndex": 25
         }
       ]
     },
@@ -1107,7 +1084,7 @@
       "description": "Học cách nói về sở thích cá nhân",
       "accessTier": "free",
       "packageCode": "jpd113",
-      "orderIndex": 3,
+      "orderIndex": 4,
       "items": [
         {
           "word": "スポーツ",
@@ -1260,7 +1237,7 @@
       "description": "Học về các địa điểm và đồ vật trong trung tâm mua sắm",
       "accessTier": "premium",
       "packageCode": "jpd113",
-      "orderIndex": 4,
+      "orderIndex": 5,
       "items": [
         {
           "word": "ここ",
@@ -1732,7 +1709,7 @@
       "description": "Học về đại từ chỉ vật và số đếm hàng trăm, hàng nghìn",
       "accessTier": "premium",
       "packageCode": "jpd113",
-      "orderIndex": 5,
+      "orderIndex": 6,
       "items": [
         {
           "word": "これ",
@@ -2292,7 +2269,7 @@
       "description": "Học cách gọi món và đếm vật dụng ăn uống",
       "accessTier": "premium",
       "packageCode": "jpd113",
-      "orderIndex": 6,
+      "orderIndex": 7,
       "items": [
         {
           "word": "さかな",
@@ -2775,7 +2752,7 @@
       "description": "Học về giờ giấc và các địa điểm công cộng",
       "accessTier": "premium",
       "packageCode": "jpd113",
-      "orderIndex": 7,
+      "orderIndex": 8,
       "items": [
         {
           "word": "いま",
@@ -3115,7 +3092,7 @@
       "description": "Học về các hoạt động giải trí và bốn mùa trong năm",
       "accessTier": "premium",
       "packageCode": "jpd113",
-      "orderIndex": 8,
+      "orderIndex": 9,
       "items": [
         {
           "word": "スケジュール",
@@ -3466,7 +3443,7 @@
       "description": "Học về các hoạt động thường nhật và vật dụng sinh hoạt",
       "accessTier": "premium",
       "packageCode": "jpd113",
-      "orderIndex": 9,
+      "orderIndex": 10,
       "items": [
         {
           "word": "あさ",

@@ -8,7 +8,7 @@
     "accessTier": "free",
     "packageCode": "jpd113",
     "isLocked": false,
-    "wordCount": 40,
+    "wordCount": 37,
     "learnedCount": 0,
     "practicedCount": 0
   },
@@ -563,48 +563,6 @@
       "id": "66666666-1113-0000-0000-000000001027",
       "lessonId": "66666666-1113-0000-0000-000000000101",
       "courseCode": "jpd113",
-      "word": "～ちゃん",
-      "reading": "～ちゃん",
-      "wordType": "Hậu tố",
-      "meaning": "Bé / cách gọi thân mật nữ",
-      "exampleJapanese": "花ちゃん。",
-      "exampleReading": "はなちゃん。",
-      "exampleMeaning": "Bé Hana.",
-      "notes": "",
-      "accessTier": "free",
-      "packageCode": "jpd113",
-      "isLocked": false,
-      "isLearned": false,
-      "flashcardPracticeCount": 0,
-      "multipleChoicePracticeCount": 0,
-      "typingPracticeCount": 0,
-      "orderIndex": 27
-    },
-    {
-      "id": "66666666-1113-0000-0000-000000001028",
-      "lessonId": "66666666-1113-0000-0000-000000000101",
-      "courseCode": "jpd113",
-      "word": "～くん",
-      "reading": "～くん",
-      "wordType": "Hậu tố",
-      "meaning": "Cách gọi thân mật nam",
-      "exampleJapanese": "太郎くん。",
-      "exampleReading": "たろうくん。",
-      "exampleMeaning": "Cậu Taro.",
-      "notes": "",
-      "accessTier": "free",
-      "packageCode": "jpd113",
-      "isLocked": false,
-      "isLearned": false,
-      "flashcardPracticeCount": 0,
-      "multipleChoicePracticeCount": 0,
-      "typingPracticeCount": 0,
-      "orderIndex": 28
-    },
-    {
-      "id": "66666666-1113-0000-0000-000000001029",
-      "lessonId": "66666666-1113-0000-0000-000000000101",
-      "courseCode": "jpd113",
       "word": "～人",
       "reading": "～じん",
       "wordType": "Hậu tố",
@@ -620,10 +578,10 @@
       "flashcardPracticeCount": 0,
       "multipleChoicePracticeCount": 0,
       "typingPracticeCount": 0,
-      "orderIndex": 29
+      "orderIndex": 27
     },
     {
-      "id": "66666666-1113-0000-0000-000000001030",
+      "id": "66666666-1113-0000-0000-000000001028",
       "lessonId": "66666666-1113-0000-0000-000000000101",
       "courseCode": "jpd113",
       "word": "どちら",
@@ -641,10 +599,10 @@
       "flashcardPracticeCount": 0,
       "multipleChoicePracticeCount": 0,
       "typingPracticeCount": 0,
-      "orderIndex": 30
+      "orderIndex": 28
     },
     {
-      "id": "66666666-1113-0000-0000-000000001031",
+      "id": "66666666-1113-0000-0000-000000001029",
       "lessonId": "66666666-1113-0000-0000-000000000101",
       "courseCode": "jpd113",
       "word": "はじめまして",
@@ -662,10 +620,10 @@
       "flashcardPracticeCount": 0,
       "multipleChoicePracticeCount": 0,
       "typingPracticeCount": 0,
-      "orderIndex": 31
+      "orderIndex": 29
     },
     {
-      "id": "66666666-1113-0000-0000-000000001032",
+      "id": "66666666-1113-0000-0000-000000001030",
       "lessonId": "66666666-1113-0000-0000-000000000101",
       "courseCode": "jpd113",
       "word": "どうぞよろしくおねがいします",
@@ -683,10 +641,10 @@
       "flashcardPracticeCount": 0,
       "multipleChoicePracticeCount": 0,
       "typingPracticeCount": 0,
-      "orderIndex": 32
+      "orderIndex": 30
     },
     {
-      "id": "66666666-1113-0000-0000-000000001033",
+      "id": "66666666-1113-0000-0000-000000001031",
       "lessonId": "66666666-1113-0000-0000-000000000101",
       "courseCode": "jpd113",
       "word": "こちらこそ",
@@ -704,10 +662,10 @@
       "flashcardPracticeCount": 0,
       "multipleChoicePracticeCount": 0,
       "typingPracticeCount": 0,
-      "orderIndex": 33
+      "orderIndex": 31
     },
     {
-      "id": "66666666-1113-0000-0000-000000001034",
+      "id": "66666666-1113-0000-0000-000000001032",
       "lessonId": "66666666-1113-0000-0000-000000000101",
       "courseCode": "jpd113",
       "word": "あのう",
@@ -725,10 +683,10 @@
       "flashcardPracticeCount": 0,
       "multipleChoicePracticeCount": 0,
       "typingPracticeCount": 0,
-      "orderIndex": 34
+      "orderIndex": 32
     },
     {
-      "id": "66666666-1113-0000-0000-000000001035",
+      "id": "66666666-1113-0000-0000-000000001033",
       "lessonId": "66666666-1113-0000-0000-000000000101",
       "courseCode": "jpd113",
       "word": "すみません",
@@ -746,10 +704,10 @@
       "flashcardPracticeCount": 0,
       "multipleChoicePracticeCount": 0,
       "typingPracticeCount": 0,
-      "orderIndex": 35
+      "orderIndex": 33
     },
     {
-      "id": "66666666-1113-0000-0000-000000001036",
+      "id": "66666666-1113-0000-0000-000000001034",
       "lessonId": "66666666-1113-0000-0000-000000000101",
       "courseCode": "jpd113",
       "word": "そうですか",
@@ -767,10 +725,10 @@
       "flashcardPracticeCount": 0,
       "multipleChoicePracticeCount": 0,
       "typingPracticeCount": 0,
-      "orderIndex": 36
+      "orderIndex": 34
     },
     {
-      "id": "66666666-1113-0000-0000-000000001037",
+      "id": "66666666-1113-0000-0000-000000001035",
       "lessonId": "66666666-1113-0000-0000-000000000101",
       "courseCode": "jpd113",
       "word": "はい",
@@ -788,10 +746,10 @@
       "flashcardPracticeCount": 0,
       "multipleChoicePracticeCount": 0,
       "typingPracticeCount": 0,
-      "orderIndex": 37
+      "orderIndex": 35
     },
     {
-      "id": "66666666-1113-0000-0000-000000001038",
+      "id": "66666666-1113-0000-0000-000000001036",
       "lessonId": "66666666-1113-0000-0000-000000000101",
       "courseCode": "jpd113",
       "word": "いいえ",
@@ -809,10 +767,10 @@
       "flashcardPracticeCount": 0,
       "multipleChoicePracticeCount": 0,
       "typingPracticeCount": 0,
-      "orderIndex": 38
+      "orderIndex": 36
     },
     {
-      "id": "66666666-1113-0000-0000-000000001039",
+      "id": "66666666-1113-0000-0000-000000001037",
       "lessonId": "66666666-1113-0000-0000-000000000101",
       "courseCode": "jpd113",
       "word": "学校",
@@ -830,28 +788,7 @@
       "flashcardPracticeCount": 0,
       "multipleChoicePracticeCount": 0,
       "typingPracticeCount": 0,
-      "orderIndex": 39
-    },
-    {
-      "id": "66666666-1113-0000-0000-000000001040",
-      "lessonId": "66666666-1113-0000-0000-000000000101",
-      "courseCode": "jpd113",
-      "word": "おねがいします",
-      "reading": "おねがいします",
-      "wordType": "Cụm từ",
-      "meaning": "Làm ơn",
-      "exampleJapanese": "よろしくお願いします。",
-      "exampleReading": "よろしくおねがいします。",
-      "exampleMeaning": "Làm ơn giúp đỡ cho.",
-      "notes": "",
-      "accessTier": "free",
-      "packageCode": "jpd113",
-      "isLocked": false,
-      "isLearned": false,
-      "flashcardPracticeCount": 0,
-      "multipleChoicePracticeCount": 0,
-      "typingPracticeCount": 0,
-      "orderIndex": 40
+      "orderIndex": 37
     }
   ]
 }

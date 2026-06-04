@@ -58,6 +58,7 @@ export const VocabularyCoursePage = () => {
 
       <div className="grid grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-3">
         {lessons.map((lesson) => {
+          const lessonLabel = lesson.title.split(':')[0]?.trim() || String(lesson.lessonNumber);
           const isLocked = isContentLocked(lesson);
           const progressPercent = lesson.wordCount > 0
             ? Math.round((lesson.learnedCount / lesson.wordCount) * 100)
@@ -82,7 +83,7 @@ export const VocabularyCoursePage = () => {
                 <div className="flex items-start justify-between gap-3">
                   <div className="min-w-0 flex-1">
                     <p className="text-[11px] font-black uppercase tracking-[0.16em] text-text-muted">
-                      Lesson {lesson.lessonNumber}
+                      Lesson {lessonLabel}
                     </p>
                     <div className="mt-0.5 flex items-center gap-2">
                       <h3 className="line-clamp-1 font-heading text-xl font-black leading-none tracking-tight text-text-primary transition-colors group-hover:text-accent-primary">

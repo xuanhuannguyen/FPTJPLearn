@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import { AlertTriangle, Loader2, LockKeyhole, Power, ShieldCheck, Unlock } from 'lucide-react';
 import { apiClient } from '../../../shared/api/axios';
-import { clearUserAccessCache } from '../../../shared/hooks/useUserAccess';
+import { clearUserAccessCache, setUserAccessCache } from '../../../shared/hooks/useUserAccess';
 
 type AccessSettings = {
   licensingEnabled: boolean;
@@ -46,8 +46,17 @@ export const AdminAccessSettingsPage = () => {
       setIsSaving(true);
       setError('');
       const response = await apiClient.put<AccessSettings>('/admin/access-settings', { licensingEnabled });
-      clearUserAccessCache();
       setSettings(response.data);
+      if (response.data.freeExperienceEnabled) {
+        setUserAccessCache({
+          licensingEnabled: response.data.licensingEnabled,
+          freeExperienceEnabled: response.data.freeExperienceEnabled,
+          activeCourseCodes: [],
+          subscriptions: [],
+        });
+      } else {
+        clearUserAccessCache();
+      }
     } catch (err) {
       console.error('Update access settings error:', err);
       setError('Cập nhật cấu hình bản quyền thất bại.');
