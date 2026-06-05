@@ -8,7 +8,7 @@
     {
       "pictureId": "jpd113_l1_picture_01_an",
       "pictureTitle": "Tranh 1 - アンさん",
-      "imageUrl": "/data/speaking/jpd113/qa/nhanvat1.png",
+      "imageUrl": "/data/speaking/jpd113/qa/nhanvat1.webp",
       "questions": [
         {
           "questionId": "l1_img_an_q01",
@@ -536,7 +536,7 @@
     {
       "pictureId": "jpd113_l1_picture_02_lee",
       "pictureTitle": "Tranh 2 - リーさん",
-      "imageUrl": "/data/speaking/jpd113/qa/nhanvat2.png",
+      "imageUrl": "/data/speaking/jpd113/qa/nhanvat2.webp",
       "questions": [
         {
           "questionId": "l1_img_lee_q01",

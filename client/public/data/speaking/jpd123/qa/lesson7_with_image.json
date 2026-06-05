@@ -25,7 +25,7 @@
     {
       "pictureId": "jpd123_l7_picture_01_koban_hanaya",
       "pictureTitle": "Tranh 1 - こうばんとはなやのまわり",
-      "imageUrl": "/data/speaking/jpd123/qa/lesson7_tranh1.png",
+      "imageUrl": "/data/speaking/jpd123/qa/lesson7_tranh1.webp",
       "questions": [
         {
           "id": "jpd123_l7_img01_q01",
@@ -284,7 +284,7 @@
     {
       "pictureId": "jpd123_l7_picture_02_restaurant_bookstore",
       "pictureTitle": "Tranh 2 - レストランとほんや",
-      "imageUrl": "/data/speaking/jpd123/qa/lesson7_tranh2.png",
+      "imageUrl": "/data/speaking/jpd123/qa/lesson7_tranh2.webp",
       "questions": [
         {
           "id": "jpd123_l7_img02_q01",
@@ -543,7 +543,7 @@
     {
       "pictureId": "jpd123_l7_picture_03_super_busstop_post",
       "pictureTitle": "Tranh 3 - スーパー、バスてい、ポスト",
-      "imageUrl": "/data/speaking/jpd123/qa/lesson7_tranh3.png",
+      "imageUrl": "/data/speaking/jpd123/qa/lesson7_tranh3.webp",
       "questions": [
         {
           "id": "jpd123_l7_img03_q01",
@@ -802,7 +802,7 @@
     {
       "pictureId": "jpd123_l7_picture_04_hospital_man_dog",
       "pictureTitle": "Tranh 4 - びょういんのまえ",
-      "imageUrl": "/data/speaking/jpd123/qa/lesson7_tranh4.png",
+      "imageUrl": "/data/speaking/jpd123/qa/lesson7_tranh4.webp",
       "questions": [
         {
           "id": "jpd123_l7_img04_q01",
@@ -1061,7 +1061,7 @@
     {
       "pictureId": "jpd123_l7_picture_05_party_preparation",
       "pictureTitle": "Tranh 5 - パーティーのじゅんび",
-      "imageUrl": "/data/speaking/jpd123/qa/lesson7_tranh5.png",
+      "imageUrl": "/data/speaking/jpd123/qa/lesson7_tranh5.webp",
       "questions": [
         {
           "id": "jpd123_l7_img05_q01",
@@ -1420,7 +1420,7 @@
     {
       "pictureId": "jpd123_l7_picture_06_party_actions",
       "pictureTitle": "Tranh 6 - パーティーでしていること",
-      "imageUrl": "/data/speaking/jpd123/qa/lesson7_tranh6.png",
+      "imageUrl": "/data/speaking/jpd123/qa/lesson7_tranh6.webp",
       "questions": [
         {
           "id": "jpd123_l7_img06_q01",

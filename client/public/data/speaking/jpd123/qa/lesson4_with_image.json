@@ -123,7 +123,7 @@
     {
       "pictureId": "jpd123_l4_picture_01_tokyo_seoul_daegu_route",
       "pictureTitle": "Tranh 1 - Bản đồ Tokyo, Seoul, Daegu",
-      "imageUrl": "/data/speaking/jpd123/qa/lesson4_tranh1.png",
+      "imageUrl": "/data/speaking/jpd123/qa/lesson4_tranh1.webp",
       "questions": [
         {
           "id": "l4_img01_yn_01",
@@ -618,7 +618,7 @@
     {
       "pictureId": "jpd123_l4_picture_02_danang_hcm_route",
       "pictureTitle": "Tranh 2 - Đà Nẵng đến Hồ Chí Minh",
-      "imageUrl": "/data/speaking/jpd123/qa/lesson4_tranh2.png",
+      "imageUrl": "/data/speaking/jpd123/qa/lesson4_tranh2.webp",
       "questions": [
         {
           "id": "l4_img02_yn_01",
@@ -1249,7 +1249,7 @@
     {
       "pictureId": "jpd123_l4_picture_03_student_room",
       "pictureTitle": "Tranh 3 - Phòng sinh viên",
-      "imageUrl": "/data/speaking/jpd123/qa/lesson4_tranh3.png",
+      "imageUrl": "/data/speaking/jpd123/qa/lesson4_tranh3.webp",
       "questions": [
         {
           "id": "l4_img03_yn_01",
@@ -1931,7 +1931,7 @@
     {
       "pictureId": "jpd123_l4_picture_04_danang_city",
       "pictureTitle": "Tranh 4 - ダナン市",
-      "imageUrl": "/data/speaking/jpd123/qa/lesson4_tranh4.png",
+      "imageUrl": "/data/speaking/jpd123/qa/lesson4_tranh4.webp",
       "questions": [
         {
           "id": "l4_img04_yn_01",
@@ -2668,7 +2668,7 @@
     {
       "pictureId": "jpd123_l4_picture_05_fpt_university",
       "pictureTitle": "Tranh 5 - FPT大学",
-      "imageUrl": "/data/speaking/jpd123/qa/lesson4_tranh5.png",
+      "imageUrl": "/data/speaking/jpd123/qa/lesson4_tranh5.webp",
       "questions": [
         {
           "id": "l4_img05_yn_01",
@@ -3339,7 +3339,7 @@
     {
       "pictureId": "jpd123_l4_picture_06_december_weather",
       "pictureTitle": "Tranh 6 - Thời tiết tháng 12",
-      "imageUrl": "/data/speaking/jpd123/qa/lesson4_tranh6.png",
+      "imageUrl": "/data/speaking/jpd123/qa/lesson4_tranh6.webp",
       "questions": [
         {
           "id": "l4_img06_yn_01",
@@ -3956,7 +3956,7 @@
     {
       "pictureId": "jpd123_l4_picture_07_vietnamese_food_restaurant",
       "pictureTitle": "Tranh 7 - Nhà hàng món ăn Việt Nam",
-      "imageUrl": "/data/speaking/jpd123/qa/lesson4_tranh7.png",
+      "imageUrl": "/data/speaking/jpd123/qa/lesson4_tranh7.webp",
       "questions": [
         {
           "id": "l4_img07_yn_01",

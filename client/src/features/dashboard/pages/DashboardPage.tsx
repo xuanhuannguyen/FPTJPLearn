@@ -11,11 +11,11 @@ import {
 } from 'lucide-react';
 
 const IMAGES = [
-  '/scoll_1.jpg',
-  '/scoll_2.jpg',
-  '/scoll_3.jpg',
-  '/scoll_4.jpg',
-  '/scoll_5.jpg',
+  '/scoll_1.webp',
+  '/scoll_2.webp',
+  '/scoll_3.webp',
+  '/scoll_4.webp',
+  '/scoll_5.webp',
 ];
 
 const QUICK_FEATURES = [
@@ -60,20 +60,14 @@ export const DashboardPage = () => {
       {/* Image Carousel Section (Fade Transition - Auto Fit) */}
       <div className="group relative overflow-hidden rounded-[2rem] border-4 border-white bg-white shadow-2xl">
         <div className="relative w-full">
-          {IMAGES.map((src, i) => (
-            <div 
-              key={i} 
-              className={`transition-opacity duration-1000 ease-in-out ${
-                currentIndex === i ? 'opacity-100 z-10' : 'opacity-0 z-0'
-              } ${i === 0 ? 'relative' : 'absolute inset-0'}`}
-            >
-              <img 
-                src={src} 
-                alt={`Feature ${i + 1}`} 
-                className="w-full h-auto object-cover block"
-              />
-            </div>
-          ))}
+          <img
+            key={IMAGES[currentIndex]}
+            src={IMAGES[currentIndex]}
+            alt={`Feature ${currentIndex + 1}`}
+            className="block h-auto w-full object-cover"
+            loading={currentIndex === 0 ? 'eager' : 'lazy'}
+            decoding="async"
+          />
         </div>
 
         {/* Navigation Arrows */}
@@ -123,4 +117,3 @@ export const DashboardPage = () => {
     </div>
   );
 };
-

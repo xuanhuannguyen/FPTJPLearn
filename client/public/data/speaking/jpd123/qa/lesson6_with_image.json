@@ -42,7 +42,7 @@
     {
       "pictureId": "jpd123_l6_picture_01_hakone_fireworks",
       "pictureTitle": "Tranh 1 - 箱根花火",
-      "imageUrl": "/data/speaking/jpd123/qa/lesson6_tranh1.png",
+      "imageUrl": "/data/speaking/jpd123/qa/lesson6_tranh1.webp",
       "questions": [
         {
           "id": "jpd123_l6_img01_q01",
@@ -309,7 +309,7 @@
     {
       "pictureId": "jpd123_l6_picture_02_yokohama_dome_baseball",
       "pictureTitle": "Tranh 2 - 横浜ドームの野球試合",
-      "imageUrl": "/data/speaking/jpd123/qa/lesson6_tranh2.png",
+      "imageUrl": "/data/speaking/jpd123/qa/lesson6_tranh2.webp",
       "questions": [
         {
           "id": "jpd123_l6_img02_q01",
@@ -580,7 +580,7 @@
     {
       "pictureId": "jpd123_l6_picture_03_wang_drinks",
       "pictureTitle": "Tranh 3 - ワンさんの好きな飲み物",
-      "imageUrl": "/data/speaking/jpd123/qa/lesson6_tranh3.png",
+      "imageUrl": "/data/speaking/jpd123/qa/lesson6_tranh3.webp",
       "questions": [
         {
           "id": "jpd123_l6_img03_q01",
@@ -816,7 +816,7 @@
     {
       "pictureId": "jpd123_l6_picture_04_meat_or_fish",
       "pictureTitle": "Tranh 4 - 肉と魚",
-      "imageUrl": "/data/speaking/jpd123/qa/lesson6_tranh4.png",
+      "imageUrl": "/data/speaking/jpd123/qa/lesson6_tranh4.webp",
       "questions": [
         {
           "id": "jpd123_l6_img04_q01",
@@ -1000,7 +1000,7 @@
     {
       "pictureId": "jpd123_l6_picture_05_transport_comparison",
       "pictureTitle": "Tranh 5 - 飛行機と新幹線",
-      "imageUrl": "/data/speaking/jpd123/qa/lesson6_tranh5.png",
+      "imageUrl": "/data/speaking/jpd123/qa/lesson6_tranh5.webp",
       "questions": [
         {
           "id": "jpd123_l6_img05_q01",
@@ -1160,7 +1160,7 @@
     {
       "pictureId": "jpd123_l6_picture_06_meeting_plan",
       "pictureTitle": "Tranh 6 - 待ち合わせの予定",
-      "imageUrl": "/data/speaking/jpd123/qa/lesson6_tranh6.png",
+      "imageUrl": "/data/speaking/jpd123/qa/lesson6_tranh6.webp",
       "questions": [
         {
           "id": "jpd123_l6_img06_q01",

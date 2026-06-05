@@ -10,6 +10,7 @@ server/**/obj/
 *.log
 *.err.log
 *.out.log
+.vendor/
 
 # Local secrets / environment
 .env

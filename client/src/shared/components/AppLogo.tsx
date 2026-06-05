@@ -12,9 +12,10 @@ export const AppLogo = ({
   return (
     <span className={`flex items-center justify-center bg-white overflow-hidden ${className}`}>
       <img
-        src="/logo.png"
+        src="/logo.webp"
         alt={alt}
         className={`h-full w-full object-contain ${imageClassName}`}
+        decoding="async"
         draggable={false}
       />
     </span>

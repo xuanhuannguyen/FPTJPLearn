@@ -714,6 +714,8 @@ export const SpeakingCoursePage = () => {
                             src={picture.imageUrl}
                             alt={picture.pictureTitle}
                             className="w-full h-full object-cover"
+                            loading="lazy"
+                            decoding="async"
                           />
                         </div>
 
@@ -794,6 +796,7 @@ export const SpeakingCoursePage = () => {
                             src={activeImageUrl}
                             alt="Bức tranh luyện tập"
                             className="w-full max-h-[280px] object-contain mx-auto"
+                            decoding="async"
                           />
                         </div>
                       </div>
