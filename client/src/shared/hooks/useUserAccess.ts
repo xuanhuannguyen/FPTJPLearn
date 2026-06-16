@@ -27,7 +27,7 @@ const defaultAccessStatus: AccessStatus = {
   subscriptions: [],
 };
 
-const ACCESS_CACHE_TTL_MS = 30_000;
+const ACCESS_CACHE_TTL_MS = 10 * 60 * 1000;
 const ACCESS_CACHE_STORAGE_KEY = 'jplearn_access_status_cache';
 
 let cachedAccessStatus: AccessStatus | null = null;
@@ -90,6 +90,10 @@ export function setUserAccessCache(status: AccessStatus) {
   writeStoredAccessStatus(status, cachedAccessStatusAt);
 }
 
+export async function refreshUserAccessCache() {
+  return fetchAccessStatus(true);
+}
+
 async function fetchAccessStatus(forceRefresh = false) {
   const isCacheFresh = cachedAccessStatus && Date.now() - cachedAccessStatusAt < ACCESS_CACHE_TTL_MS;
   if (!forceRefresh && isCacheFresh) return cachedAccessStatus;
@@ -142,16 +146,11 @@ export function useUserAccess() {
 
     updateAccessStatus();
 
-    const intervalId = window.setInterval(() => {
-      updateAccessStatus(true);
-    }, ACCESS_CACHE_TTL_MS);
-
-    const handleFocus = () => updateAccessStatus(true);
+    const handleFocus = () => updateAccessStatus();
     window.addEventListener('focus', handleFocus);
 
     return () => {
       isMounted = false;
-      window.clearInterval(intervalId);
       window.removeEventListener('focus', handleFocus);
     };
   }, []);

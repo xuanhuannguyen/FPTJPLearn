@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react';
 import { useNavigate, useSearchParams } from 'react-router-dom';
 import { CheckCircle, Loader2, XCircle } from 'lucide-react';
 import { apiClient } from '../../../shared/api/axios';
+import { refreshUserAccessCache } from '../../../shared/hooks/useUserAccess';
 
 export function PaymentSuccessPage() {
   const navigate = useNavigate();
@@ -24,16 +25,17 @@ export function PaymentSuccessPage() {
         if (cancelled) return;
 
         if (response.data.status === 'paid') {
+          await refreshUserAccessCache();
           setStatus('paid');
           return;
         }
 
-        if (attempts >= 20) {
+        if (attempts >= 12) {
           setStatus('pending');
           return;
         }
 
-        window.setTimeout(checkStatus, 3000);
+        window.setTimeout(checkStatus, 10000);
       } catch (error) {
         console.error('Payment status check failed:', error);
         if (!cancelled) setStatus('error');
@@ -51,7 +53,7 @@ export function PaymentSuccessPage() {
       <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', minHeight: '60vh', gap: '1rem', textAlign: 'center', padding: '2rem' }}>
         <Loader2 size={64} color="#2563eb" className="spin" />
         <h1 style={{ fontSize: '1.5rem', fontWeight: 700, color: '#1e293b', margin: 0 }}>Đang xác nhận thanh toán...</h1>
-        <p style={{ color: '#64748b', maxWidth: '420px' }}>Vui lòng chờ webhook từ cổng thanh toán. Hệ thống sẽ tự kiểm tra trong khoảng 1 phút.</p>
+        <p style={{ color: '#64748b', maxWidth: '420px' }}>Vui lòng chờ webhook từ cổng thanh toán. Hệ thống sẽ tự kiểm tra trong khoảng 2 phút.</p>
       </div>
     );
   }

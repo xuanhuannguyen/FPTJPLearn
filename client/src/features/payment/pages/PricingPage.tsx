@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { apiClient } from '../../../shared/api/axios';
 import { useAuthStore } from '../../../shared/stores/authStore';
-import { useUserAccess } from '../../../shared/hooks/useUserAccess';
+import { refreshUserAccessCache, useUserAccess } from '../../../shared/hooks/useUserAccess';
 import { Crown, Zap, Star, Check, Loader2 } from 'lucide-react';
 import './PricingPage.css';
 
@@ -13,11 +13,6 @@ interface Package {
   originalPrice?: number;
   duration: string;
   discount?: string;
-}
-
-interface Subscription {
-  courseCode: string;
-  isActive: boolean;
 }
 
 const packages: Package[] = [
@@ -47,13 +42,15 @@ export function PricingPage() {
     description: string;
     provider: string;
   } | null>(null);
-  const [activeCourses, setActiveCourses] = useState<string[]>([]);
-  const [isSubsLoading, setIsSubsLoading] = useState(false);
   const [timeLeft, setTimeLeft] = useState(300); // 5 minutes in seconds
   
   const { user } = useAuthStore();
-  const { freeExperienceEnabled } = useUserAccess();
+  const { freeExperienceEnabled, isLoading: isAccessLoading, subscriptions } = useUserAccess();
   const navigate = useNavigate();
+
+  const activeCourses = subscriptions
+    .filter((subscription) => subscription.isActive)
+    .map((subscription) => subscription.courseCode.toLowerCase());
 
   // Countdown timer for payment session
   useEffect(() => {
@@ -87,38 +84,18 @@ export function PricingPage() {
           const res = await apiClient.get(`/orders/${paymentData.orderId}/status`);
           if (res.data.status === 'paid') {
             clearInterval(interval);
-            alert('Thanh toán thành công! Hệ thống sẽ tự động tải lại bài học.');
-            window.location.reload();
+            await refreshUserAccessCache();
+            setPaymentData(null);
+            alert('Thanh toán thành công! Khóa học đã được mở.');
+            navigate('/dashboard');
           }
         } catch (err) {
           console.error('Polling error:', err);
         }
-      }, 3000); // Poll every 3s
+      }, 10000); // Poll every 10s to reduce database wakeups.
     }
     return () => clearInterval(interval);
-  }, [paymentData]);
-
-  // Fetch active subscriptions
-  useEffect(() => {
-    if (!user) return;
-    
-    const fetchSubscriptions = async () => {
-      try {
-        setIsSubsLoading(true);
-        const res = await apiClient.get('/orders/subscriptions');
-        const active = (res.data as Subscription[])
-          .filter((subscription) => subscription.isActive)
-          .map((subscription) => subscription.courseCode.toLowerCase());
-        setActiveCourses(active);
-      } catch (err) {
-        console.error('Fetch subscriptions error:', err);
-      } finally {
-        setIsSubsLoading(false);
-      }
-    };
-
-    fetchSubscriptions();
-  }, [user]);
+  }, [paymentData, navigate]);
 
   const isPackageLocked = (packageCode: string) => {
     const code = packageCode.toLowerCase();
@@ -233,7 +210,7 @@ export function PricingPage() {
             <button
               className={`pricing-card-btn ${pkg.code === 'combo' ? 'pricing-card-btn--featured' : ''} ${isPackageLocked(pkg.code) ? 'pricing-card-btn--locked' : ''}`}
               onClick={() => handleBuy(pkg.code)}
-              disabled={freeExperienceEnabled || loading !== null || isSubsLoading || isPackageLocked(pkg.code)}
+              disabled={freeExperienceEnabled || loading !== null || isAccessLoading || isPackageLocked(pkg.code)}
             >
               {freeExperienceEnabled ? 'Đang mở miễn phí' : getButtonText(pkg)}
             </button>
