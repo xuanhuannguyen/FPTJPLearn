@@ -35,7 +35,7 @@
     "packageCode": "kanji_jpd123",
     "orderIndex": 6,
     "kanjiCount": 9,
-    "vocabularyCount": 42,
+    "vocabularyCount": 31,
     "isLocked": true
   },
   {
@@ -48,7 +48,7 @@
     "packageCode": "kanji_jpd123",
     "orderIndex": 7,
     "kanjiCount": 11,
-    "vocabularyCount": 22,
+    "vocabularyCount": 33,
     "isLocked": true
   }
 ]

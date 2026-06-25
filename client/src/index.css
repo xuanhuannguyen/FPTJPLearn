@@ -149,6 +149,92 @@
     @apply border-2 border-border;
   }
 
+  .jp-course-card {
+    --card-ink: #061452;
+    --card-blue: #064bd8;
+    --card-blue-dark: #0130a8;
+    --card-soft: #fff6ec;
+    --card-line: rgba(6, 20, 82, 0.13);
+    --card-art: rgba(245, 140, 112, 0.25);
+    box-shadow: 0 18px 34px rgba(15, 23, 42, 0.12), 0 2px 7px rgba(15, 23, 42, 0.08);
+    @apply relative overflow-hidden rounded-[28px] border border-white/80 bg-white transition-all duration-300 hover:-translate-y-1 hover:shadow-lift;
+  }
+
+  .jp-course-card--123 {
+    --card-soft: #eaf5ff;
+    --card-line: rgba(30, 96, 190, 0.14);
+    --card-art: rgba(75, 141, 220, 0.22);
+    --card-blue: #0752df;
+    --card-blue-dark: #0334af;
+  }
+
+  .jp-course-card-top {
+    background:
+      radial-gradient(circle at 10% 25%, var(--card-art) 0 3.2rem, transparent 3.25rem),
+      linear-gradient(135deg, transparent 0 68%, rgba(255, 255, 255, 0.46) 68% 72%, transparent 72%),
+      repeating-linear-gradient(135deg, transparent 0 0.55rem, var(--card-line) 0.58rem 0.62rem, transparent 0.65rem 1.1rem),
+      linear-gradient(180deg, var(--card-soft) 0%, #ffffff 100%);
+    @apply relative flex min-h-[190px] flex-col items-center justify-center px-5 py-7 text-center;
+  }
+
+  .jp-course-card-top::before {
+    content: "";
+    position: absolute;
+    inset: auto 0 0 0;
+    height: 5.25rem;
+    opacity: 0.56;
+    background:
+      radial-gradient(ellipse at 14% 100%, rgba(148, 163, 184, 0.28) 0 34%, transparent 35%),
+      radial-gradient(ellipse at 28% 100%, rgba(148, 163, 184, 0.18) 0 28%, transparent 29%),
+      repeating-radial-gradient(ellipse at 85% 100%, transparent 0 0.72rem, rgba(37, 99, 235, 0.13) 0.78rem 0.84rem, transparent 0.9rem 1.45rem);
+    pointer-events: none;
+  }
+
+  .jp-course-card--113 .jp-course-card-top::after {
+    content: "";
+    position: absolute;
+    right: -0.6rem;
+    top: 1.7rem;
+    width: 7.5rem;
+    height: 5rem;
+    opacity: 0.62;
+    background:
+      radial-gradient(circle at 14% 35%, #f7a7a0 0 0.34rem, transparent 0.38rem),
+      radial-gradient(circle at 30% 24%, #ffc7bd 0 0.32rem, transparent 0.36rem),
+      radial-gradient(circle at 45% 48%, #f7a7a0 0 0.34rem, transparent 0.38rem),
+      radial-gradient(circle at 62% 30%, #ffc7bd 0 0.3rem, transparent 0.34rem),
+      linear-gradient(25deg, transparent 0 45%, rgba(94, 49, 35, 0.48) 46% 49%, transparent 50%);
+    pointer-events: none;
+  }
+
+  .jp-course-card--123 .jp-course-card-top::after {
+    content: "";
+    position: absolute;
+    right: 1rem;
+    bottom: 1.2rem;
+    width: 6.4rem;
+    height: 6.2rem;
+    opacity: 0.28;
+    background:
+      linear-gradient(90deg, transparent 44%, #2563eb 45% 55%, transparent 56%),
+      repeating-linear-gradient(0deg, transparent 0 1.1rem, #2563eb 1.16rem 1.34rem),
+      linear-gradient(180deg, transparent 0 68%, #2563eb 69% 78%, transparent 79%);
+    clip-path: polygon(50% 0, 70% 18%, 62% 18%, 78% 34%, 68% 34%, 86% 52%, 74% 52%, 92% 70%, 8% 70%, 26% 52%, 14% 52%, 32% 34%, 22% 34%, 38% 18%, 30% 18%);
+    pointer-events: none;
+  }
+
+  .jp-course-card-title,
+  .jp-course-card-kicker {
+    @apply relative z-[1];
+  }
+
+  .jp-course-card-bottom {
+    background:
+      repeating-radial-gradient(ellipse at 86% 102%, transparent 0 0.68rem, rgba(255, 255, 255, 0.08) 0.74rem 0.8rem, transparent 0.86rem 1.38rem),
+      linear-gradient(135deg, var(--card-blue) 0%, var(--card-blue-dark) 100%);
+    @apply relative px-5 py-4 text-center text-white;
+  }
+
   .shadow-card,
   .shadow-lift,
   .shadow-pop,

@@ -9,7 +9,7 @@
     "packageCode": "kanji_jpd123",
     "orderIndex": 7,
     "kanjiCount": 11,
-    "vocabularyCount": 22,
+    "vocabularyCount": 33,
     "isLocked": true
   },
   "kanjiItems": [
@@ -355,6 +355,94 @@
       "word": "小人",
       "reading": "こびと",
       "meaning": "đứa trẻ, người tí hon"
+    },
+    {
+      "id": "kanji-jpd123-n5-7-vocab-23",
+      "lessonId": "kanji-jpd123-n5-7",
+      "level": "N5",
+      "word": "お寺",
+      "reading": "おてら",
+      "meaning": "chùa"
+    },
+    {
+      "id": "kanji-jpd123-n5-7-vocab-24",
+      "lessonId": "kanji-jpd123-n5-7",
+      "level": "N5",
+      "word": "言います",
+      "reading": "いいます",
+      "meaning": "nói"
+    },
+    {
+      "id": "kanji-jpd123-n5-7-vocab-25",
+      "lessonId": "kanji-jpd123-n5-7",
+      "level": "N5",
+      "word": "言語",
+      "reading": "げんご",
+      "meaning": "ngôn ngữ"
+    },
+    {
+      "id": "kanji-jpd123-n5-7-vocab-26",
+      "lessonId": "kanji-jpd123-n5-7",
+      "level": "N5",
+      "word": "言葉",
+      "reading": "ことば",
+      "meaning": "từ vựng"
+    },
+    {
+      "id": "kanji-jpd123-n5-7-vocab-27",
+      "lessonId": "kanji-jpd123-n5-7",
+      "level": "N5",
+      "word": "貝",
+      "reading": "かい",
+      "meaning": "con sò"
+    },
+    {
+      "id": "kanji-jpd123-n5-7-vocab-28",
+      "lessonId": "kanji-jpd123-n5-7",
+      "level": "N5",
+      "word": "田んぼ",
+      "reading": "たんぼ",
+      "meaning": "cánh đồng"
+    },
+    {
+      "id": "kanji-jpd123-n5-7-vocab-29",
+      "lessonId": "kanji-jpd123-n5-7",
+      "level": "N5",
+      "word": "水田",
+      "reading": "すいでん",
+      "meaning": "cánh đồng lúa nước"
+    },
+    {
+      "id": "kanji-jpd123-n5-7-vocab-30",
+      "lessonId": "kanji-jpd123-n5-7",
+      "level": "N5",
+      "word": "力",
+      "reading": "ちから",
+      "meaning": "sức lực"
+    },
+    {
+      "id": "kanji-jpd123-n5-7-vocab-31",
+      "lessonId": "kanji-jpd123-n5-7",
+      "level": "N5",
+      "word": "水力",
+      "reading": "すいりょく",
+      "meaning": "sức nước"
+    },
+    {
+      "id": "kanji-jpd123-n5-7-vocab-32",
+      "lessonId": "kanji-jpd123-n5-7",
+      "level": "N5",
+      "word": "火力",
+      "reading": "かりょく",
+      "meaning": "công suất nhiệt, hỏa lực"
+    },
+    {
+      "id": "kanji-jpd123-n5-7-vocab-33",
+      "lessonId": "kanji-jpd123-n5-7",
+      "level": "N5",
+      "word": "門",
+      "reading": "もん",
+      "meaning": "cổng, cửa"
     }
   ]
 }

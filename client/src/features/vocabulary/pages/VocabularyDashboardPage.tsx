@@ -47,27 +47,26 @@ export const VocabularyDashboardPage = () => {
           const isJpd113 = course.code.includes('113');
           const displayLevel = course.code;
           const description = course.title;
-          const colorTop = isJpd113 ? 'bg-[#e5e1da]' : 'bg-[#b8d4e3]';
-          const colorBottom = 'bg-blue-600';
+          const cardTone = isJpd113 ? 'jp-course-card--113' : 'jp-course-card--123';
 
           return (
             <Link
               key={course.id}
               to={`/vocabulary/${course.code}`}
-              className="group overflow-hidden rounded-[24px] border-2 border-border/5 shadow-sm transition-all hover:-translate-y-1 hover:shadow-md"
+              className={`jp-course-card group ${cardTone}`}
             >
               {/* Top Section */}
-              <div className={`${colorTop} py-6 px-5 flex flex-col items-center justify-center text-center`}>
-                <span className="text-[10px] font-bold text-text-secondary/70 mb-1 uppercase tracking-widest">
+              <div className="jp-course-card-top">
+                <span className="jp-course-card-kicker mb-1 text-[10px] font-bold uppercase tracking-widest text-text-secondary/70">
                   {description.toUpperCase()}
                 </span>
-                <span className="text-5xl font-black text-[#0f172a] tracking-tighter uppercase">
+                <span className="jp-course-card-title text-5xl font-black uppercase tracking-tighter text-[#061452]">
                   {displayLevel}
                 </span>
               </div>
 
               {/* Bottom Section */}
-              <div className={`${colorBottom} py-4 px-5 text-center text-white`}>
+              <div className="jp-course-card-bottom">
                 <div className="flex justify-center gap-6 mb-2">
                   <div className="flex flex-col">
                     <span className="text-[9px] font-bold opacity-80 uppercase">BÀI HỌC</span>

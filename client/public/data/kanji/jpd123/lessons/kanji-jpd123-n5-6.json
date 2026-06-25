@@ -9,7 +9,7 @@
     "packageCode": "kanji_jpd123",
     "orderIndex": 6,
     "kanjiCount": 9,
-    "vocabularyCount": 42,
+    "vocabularyCount": 31,
     "isLocked": true
   },
   "kanjiItems": [
@@ -397,94 +397,6 @@
       "word": "書き物",
       "reading": "かきもの",
       "meaning": "tài liệu viết"
-    },
-    {
-      "id": "kanji-jpd123-n5-6-vocab-32",
-      "lessonId": "kanji-jpd123-n5-6",
-      "level": "N5",
-      "word": "お寺",
-      "reading": "おてら",
-      "meaning": "chùa"
-    },
-    {
-      "id": "kanji-jpd123-n5-6-vocab-33",
-      "lessonId": "kanji-jpd123-n5-6",
-      "level": "N5",
-      "word": "言います",
-      "reading": "いいます",
-      "meaning": "nói"
-    },
-    {
-      "id": "kanji-jpd123-n5-6-vocab-34",
-      "lessonId": "kanji-jpd123-n5-6",
-      "level": "N5",
-      "word": "言語",
-      "reading": "げんご",
-      "meaning": "ngôn ngữ"
-    },
-    {
-      "id": "kanji-jpd123-n5-6-vocab-35",
-      "lessonId": "kanji-jpd123-n5-6",
-      "level": "N5",
-      "word": "言葉",
-      "reading": "ことば",
-      "meaning": "từ vựng"
-    },
-    {
-      "id": "kanji-jpd123-n5-6-vocab-36",
-      "lessonId": "kanji-jpd123-n5-6",
-      "level": "N5",
-      "word": "貝",
-      "reading": "かい",
-      "meaning": "con sò"
-    },
-    {
-      "id": "kanji-jpd123-n5-6-vocab-37",
-      "lessonId": "kanji-jpd123-n5-6",
-      "level": "N5",
-      "word": "田んぼ",
-      "reading": "たんぼ",
-      "meaning": "cánh đồng"
-    },
-    {
-      "id": "kanji-jpd123-n5-6-vocab-38",
-      "lessonId": "kanji-jpd123-n5-6",
-      "level": "N5",
-      "word": "水田",
-      "reading": "すいでん",
-      "meaning": "cánh đồng lúa nước"
-    },
-    {
-      "id": "kanji-jpd123-n5-6-vocab-39",
-      "lessonId": "kanji-jpd123-n5-6",
-      "level": "N5",
-      "word": "力",
-      "reading": "ちから",
-      "meaning": "sức lực"
-    },
-    {
-      "id": "kanji-jpd123-n5-6-vocab-40",
-      "lessonId": "kanji-jpd123-n5-6",
-      "level": "N5",
-      "word": "水力",
-      "reading": "すいりょく",
-      "meaning": "sức nước"
-    },
-    {
-      "id": "kanji-jpd123-n5-6-vocab-41",
-      "lessonId": "kanji-jpd123-n5-6",
-      "level": "N5",
-      "word": "火力",
-      "reading": "かりょく",
-      "meaning": "công suất nhiệt, hỏa lực"
-    },
-    {
-      "id": "kanji-jpd123-n5-6-vocab-42",
-      "lessonId": "kanji-jpd123-n5-6",
-      "level": "N5",
-      "word": "門",
-      "reading": "もん",
-      "meaning": "cổng, cửa"
     }
   ]
 }

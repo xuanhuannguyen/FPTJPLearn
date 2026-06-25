@@ -3,24 +3,20 @@ import { Link } from 'react-router-dom';
 import { grammarApi } from '../api/grammarApi';
 import type { GrammarLevelSummary, GrammarLevel } from '../types/grammar.types';
 
-const courses: { courseCode: string; level: GrammarLevel; title: string; jpTitle: string; subtitle: string; colorTop: string; colorBottom: string }[] = [
+const courses: { courseCode: string; level: GrammarLevel; title: string; jpTitle: string; subtitle: string }[] = [
   { 
     courseCode: 'jpd113',
     level: 'N5', 
     jpTitle: 'JPD113 - Japanese 1',
     title: 'JPD113', 
-    subtitle: 'Minna no Nihongo Sơ cấp 1 – Ngữ pháp (N5)',
-    colorTop: 'bg-[#e5e1da]',
-    colorBottom: 'bg-[#2d9a56]'
+    subtitle: 'Minna no Nihongo Sơ cấp 1 – Ngữ pháp (N5)'
   },
   { 
     courseCode: 'jpd123',
     level: 'N5', 
     jpTitle: 'JPD123 - Japanese 2',
     title: 'JPD123', 
-    subtitle: 'N5 Nâng cao – Ngữ pháp (N5)',
-    colorTop: 'bg-[#b8d4e3]',
-    colorBottom: 'bg-[#2d9a56]'
+    subtitle: 'N5 Nâng cao – Ngữ pháp (N5)'
   }
 ];
 
@@ -93,26 +89,26 @@ export const GrammarHomePage = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4 max-w-3xl">
         {courses.map((item) => {
           const summary = summaries.find(s => s.courseCode.toLowerCase() === item.courseCode.toLowerCase());
-          const colorBottom = 'bg-blue-600';
+          const cardTone = item.courseCode === 'jpd113' ? 'jp-course-card--113' : 'jp-course-card--123';
 
           return (
             <Link 
               key={item.courseCode}
               to={`/grammar/${item.courseCode}`}
-              className="group overflow-hidden rounded-[24px] border-2 border-border/5 shadow-sm transition-all hover:-translate-y-1 hover:shadow-md"
+              className={`jp-course-card group ${cardTone}`}
             >
               {/* Top Section */}
-              <div className={`${item.colorTop} py-6 px-5 flex flex-col items-center justify-center text-center`}>
-                <span className="text-[10px] font-bold text-text-secondary/70 mb-1 uppercase tracking-widest">
+              <div className="jp-course-card-top">
+                <span className="jp-course-card-kicker mb-1 text-[10px] font-bold uppercase tracking-widest text-text-secondary/70">
                   {item.jpTitle.toUpperCase()}
                 </span>
-                <span className="text-5xl font-black text-[#0f172a] tracking-tighter uppercase">
+                <span className="jp-course-card-title text-5xl font-black uppercase tracking-tighter text-[#061452]">
                   {item.title}
                 </span>
               </div>
 
               {/* Bottom Section */}
-              <div className={`${colorBottom} py-4 px-5 text-center text-white`}>
+              <div className="jp-course-card-bottom">
                 <div className="mb-1 flex justify-center gap-6">
                   <div className="flex flex-col">
                     <span className="text-[9px] font-bold opacity-80 uppercase">BÀI HỌC</span>

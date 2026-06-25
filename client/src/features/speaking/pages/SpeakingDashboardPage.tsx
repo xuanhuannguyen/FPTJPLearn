@@ -79,27 +79,26 @@ export const SpeakingDashboardPage = () => {
           {courses.map((course) => {
             const isLocked = isContentLocked(course);
             const isJpd113 = course.code === 'jpd113';
-            const colorTop = isJpd113 ? 'bg-[#f4e8dc]' : 'bg-[#dbeafe]';
-            const colorBottom = 'bg-blue-600';
+            const cardTone = isJpd113 ? 'jp-course-card--113' : 'jp-course-card--123';
 
             return (
               <div
                 key={course.id}
                 onClick={() => isLocked ? navigate('/pricing') : navigate(`/speaking/${course.code}`)}
-                className={`group relative overflow-hidden rounded-[24px] border-2 border-border/5 shadow-sm transition-all cursor-pointer hover:-translate-y-1 hover:shadow-md ${
+                className={`jp-course-card group cursor-pointer ${cardTone} ${
                   isLocked ? 'grayscale-[0.3]' : ''
                 }`}
               >
-                <div className={`${colorTop} flex flex-col items-center justify-center px-5 py-6 text-center`}>
-                  <span className="mb-1 text-[10px] font-bold uppercase tracking-widest text-text-secondary/70">
+                <div className="jp-course-card-top">
+                  <span className="jp-course-card-kicker mb-1 text-[10px] font-bold uppercase tracking-widest text-text-secondary/70">
                     {course.description}
                   </span>
-                  <span className="text-5xl font-black tracking-tighter text-[#0f172a] uppercase">
+                  <span className="jp-course-card-title text-5xl font-black uppercase tracking-tighter text-[#061452]">
                     {course.title}
                   </span>
                 </div>
 
-                <div className={`${colorBottom} px-5 py-4 text-center text-white`}>
+                <div className="jp-course-card-bottom">
                   <div className="mb-2 flex justify-center gap-6">
                     <div className="flex flex-col">
                       <span className="text-[9px] font-bold uppercase opacity-80">BÀI ĐỌC</span>

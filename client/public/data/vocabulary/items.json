@@ -1081,7 +1081,7 @@
     "exampleJapanese": "二十歳です。",
     "exampleReading": "はたちです。",
     "exampleMeaning": "20 tuổi.",
-    "notes": "",
+    "notes": "Đặc Biệt",
     "accessTier": "free",
     "packageCode": "jpd113",
     "isLocked": false,
@@ -3697,7 +3697,7 @@
   },
   {
     "id": "66666666-1113-0000-0000-000000005027",
-    "lessonId": "66666666-1113-0000-0000-000000000105",
+    "lessonId": "66666666-1113-0000-0000-000000000111",
     "courseCode": "jpd113",
     "word": "ひゃくにじゅう",
     "reading": "ひゃくにじゅう",
@@ -3714,11 +3714,11 @@
     "flashcardPracticeCount": 0,
     "multipleChoicePracticeCount": 0,
     "typingPracticeCount": 0,
-    "orderIndex": 27
+    "orderIndex": 1
   },
   {
     "id": "66666666-1113-0000-0000-000000005028",
-    "lessonId": "66666666-1113-0000-0000-000000000105",
+    "lessonId": "66666666-1113-0000-0000-000000000111",
     "courseCode": "jpd113",
     "word": "ひゃくよんじゅう",
     "reading": "ひゃくよんじゅう",
@@ -3735,11 +3735,11 @@
     "flashcardPracticeCount": 0,
     "multipleChoicePracticeCount": 0,
     "typingPracticeCount": 0,
-    "orderIndex": 28
+    "orderIndex": 2
   },
   {
     "id": "66666666-1113-0000-0000-000000005029",
-    "lessonId": "66666666-1113-0000-0000-000000000105",
+    "lessonId": "66666666-1113-0000-0000-000000000111",
     "courseCode": "jpd113",
     "word": "にひゃくはちじゅう",
     "reading": "にひゃくはちじゅう",
@@ -3756,11 +3756,11 @@
     "flashcardPracticeCount": 0,
     "multipleChoicePracticeCount": 0,
     "typingPracticeCount": 0,
-    "orderIndex": 29
+    "orderIndex": 3
   },
   {
     "id": "66666666-1113-0000-0000-000000005030",
-    "lessonId": "66666666-1113-0000-0000-000000000105",
+    "lessonId": "66666666-1113-0000-0000-000000000111",
     "courseCode": "jpd113",
     "word": "さんびゃくごじゅう",
     "reading": "さんびゃくごじゅう",
@@ -3777,11 +3777,11 @@
     "flashcardPracticeCount": 0,
     "multipleChoicePracticeCount": 0,
     "typingPracticeCount": 0,
-    "orderIndex": 30
+    "orderIndex": 4
   },
   {
     "id": "66666666-1113-0000-0000-000000005031",
-    "lessonId": "66666666-1113-0000-0000-000000000105",
+    "lessonId": "66666666-1113-0000-0000-000000000111",
     "courseCode": "jpd113",
     "word": "よんひゃくきゅう",
     "reading": "よんひゃくきゅう",
@@ -3798,11 +3798,11 @@
     "flashcardPracticeCount": 0,
     "multipleChoicePracticeCount": 0,
     "typingPracticeCount": 0,
-    "orderIndex": 31
+    "orderIndex": 5
   },
   {
     "id": "66666666-1113-0000-0000-000000005032",
-    "lessonId": "66666666-1113-0000-0000-000000000105",
+    "lessonId": "66666666-1113-0000-0000-000000000111",
     "courseCode": "jpd113",
     "word": "ななひゃくきゅう",
     "reading": "ななひゃくきゅう",
@@ -3819,11 +3819,11 @@
     "flashcardPracticeCount": 0,
     "multipleChoicePracticeCount": 0,
     "typingPracticeCount": 0,
-    "orderIndex": 32
+    "orderIndex": 6
   },
   {
     "id": "66666666-1113-0000-0000-000000005033",
-    "lessonId": "66666666-1113-0000-0000-000000000105",
+    "lessonId": "66666666-1113-0000-0000-000000000111",
     "courseCode": "jpd113",
     "word": "はっぴゃくはちじゅう",
     "reading": "はっぴゃくはちじゅう",
@@ -3840,11 +3840,11 @@
     "flashcardPracticeCount": 0,
     "multipleChoicePracticeCount": 0,
     "typingPracticeCount": 0,
-    "orderIndex": 33
+    "orderIndex": 7
   },
   {
     "id": "66666666-1113-0000-0000-000000005034",
-    "lessonId": "66666666-1113-0000-0000-000000000105",
+    "lessonId": "66666666-1113-0000-0000-000000000111",
     "courseCode": "jpd113",
     "word": "はっぴゃくきゅうじゅうきゅう",
     "reading": "はっぴゃくきゅうじゅうきゅう",
@@ -3861,11 +3861,11 @@
     "flashcardPracticeCount": 0,
     "multipleChoicePracticeCount": 0,
     "typingPracticeCount": 0,
-    "orderIndex": 34
+    "orderIndex": 8
   },
   {
     "id": "66666666-1113-0000-0000-000000005035",
-    "lessonId": "66666666-1113-0000-0000-000000000105",
+    "lessonId": "66666666-1113-0000-0000-000000000111",
     "courseCode": "jpd113",
     "word": "きゅうひゃくさんじゅう",
     "reading": "きゅうひゃくさんじゅう",
@@ -3882,11 +3882,11 @@
     "flashcardPracticeCount": 0,
     "multipleChoicePracticeCount": 0,
     "typingPracticeCount": 0,
-    "orderIndex": 35
+    "orderIndex": 9
   },
   {
     "id": "66666666-1113-0000-0000-000000005036",
-    "lessonId": "66666666-1113-0000-0000-000000000105",
+    "lessonId": "66666666-1113-0000-0000-000000000111",
     "courseCode": "jpd113",
     "word": "きゅうひゃくきゅうじゅうきゅう",
     "reading": "きゅうひゃくきゅうじゅうきゅう",
@@ -3903,11 +3903,11 @@
     "flashcardPracticeCount": 0,
     "multipleChoicePracticeCount": 0,
     "typingPracticeCount": 0,
-    "orderIndex": 36
+    "orderIndex": 10
   },
   {
     "id": "66666666-1113-0000-0000-000000005037",
-    "lessonId": "66666666-1113-0000-0000-000000000105",
+    "lessonId": "66666666-1113-0000-0000-000000000111",
     "courseCode": "jpd113",
     "word": "せんひゃく",
     "reading": "せんひゃく",
@@ -3924,11 +3924,11 @@
     "flashcardPracticeCount": 0,
     "multipleChoicePracticeCount": 0,
     "typingPracticeCount": 0,
-    "orderIndex": 37
+    "orderIndex": 11
   },
   {
     "id": "66666666-1113-0000-0000-000000005038",
-    "lessonId": "66666666-1113-0000-0000-000000000105",
+    "lessonId": "66666666-1113-0000-0000-000000000111",
     "courseCode": "jpd113",
     "word": "せんごひゃく",
     "reading": "せんごひゃく",
@@ -3945,11 +3945,11 @@
     "flashcardPracticeCount": 0,
     "multipleChoicePracticeCount": 0,
     "typingPracticeCount": 0,
-    "orderIndex": 38
+    "orderIndex": 12
   },
   {
     "id": "66666666-1113-0000-0000-000000005039",
-    "lessonId": "66666666-1113-0000-0000-000000000105",
+    "lessonId": "66666666-1113-0000-0000-000000000111",
     "courseCode": "jpd113",
     "word": "ななせんろっぴゃく",
     "reading": "ななせんろっぴゃく",
@@ -3966,11 +3966,11 @@
     "flashcardPracticeCount": 0,
     "multipleChoicePracticeCount": 0,
     "typingPracticeCount": 0,
-    "orderIndex": 39
+    "orderIndex": 13
   },
   {
     "id": "66666666-1113-0000-0000-000000005040",
-    "lessonId": "66666666-1113-0000-0000-000000000105",
+    "lessonId": "66666666-1113-0000-0000-000000000111",
     "courseCode": "jpd113",
     "word": "きゅうせんななひゃく",
     "reading": "きゅうせんななひゃく",
@@ -3987,11 +3987,11 @@
     "flashcardPracticeCount": 0,
     "multipleChoicePracticeCount": 0,
     "typingPracticeCount": 0,
-    "orderIndex": 40
+    "orderIndex": 14
   },
   {
     "id": "66666666-1113-0000-0000-000000005041",
-    "lessonId": "66666666-1113-0000-0000-000000000105",
+    "lessonId": "66666666-1113-0000-0000-000000000111",
     "courseCode": "jpd113",
     "word": "いちまんはっせん",
     "reading": "いちまんはっせん",
@@ -4008,11 +4008,11 @@
     "flashcardPracticeCount": 0,
     "multipleChoicePracticeCount": 0,
     "typingPracticeCount": 0,
-    "orderIndex": 41
+    "orderIndex": 15
   },
   {
     "id": "66666666-1113-0000-0000-000000005042",
-    "lessonId": "66666666-1113-0000-0000-000000000105",
+    "lessonId": "66666666-1113-0000-0000-000000000111",
     "courseCode": "jpd113",
     "word": "にまん",
     "reading": "にまん",
@@ -4029,11 +4029,11 @@
     "flashcardPracticeCount": 0,
     "multipleChoicePracticeCount": 0,
     "typingPracticeCount": 0,
-    "orderIndex": 42
+    "orderIndex": 16
   },
   {
     "id": "66666666-1113-0000-0000-000000005043",
-    "lessonId": "66666666-1113-0000-0000-000000000105",
+    "lessonId": "66666666-1113-0000-0000-000000000111",
     "courseCode": "jpd113",
     "word": "にまんさんぜん",
     "reading": "にまんさんぜん",
@@ -4050,11 +4050,11 @@
     "flashcardPracticeCount": 0,
     "multipleChoicePracticeCount": 0,
     "typingPracticeCount": 0,
-    "orderIndex": 43
+    "orderIndex": 17
   },
   {
     "id": "66666666-1113-0000-0000-000000005044",
-    "lessonId": "66666666-1113-0000-0000-000000000105",
+    "lessonId": "66666666-1113-0000-0000-000000000111",
     "courseCode": "jpd113",
     "word": "にまんごせん",
     "reading": "にまんごせん",
@@ -4071,11 +4071,11 @@
     "flashcardPracticeCount": 0,
     "multipleChoicePracticeCount": 0,
     "typingPracticeCount": 0,
-    "orderIndex": 44
+    "orderIndex": 18
   },
   {
     "id": "66666666-1113-0000-0000-000000005045",
-    "lessonId": "66666666-1113-0000-0000-000000000105",
+    "lessonId": "66666666-1113-0000-0000-000000000111",
     "courseCode": "jpd113",
     "word": "はちまんさんぜんよんひゃく",
     "reading": "はちまんさんぜんよんひゃく",
@@ -4092,11 +4092,11 @@
     "flashcardPracticeCount": 0,
     "multipleChoicePracticeCount": 0,
     "typingPracticeCount": 0,
-    "orderIndex": 45
+    "orderIndex": 19
   },
   {
     "id": "66666666-1113-0000-0000-000000005046",
-    "lessonId": "66666666-1113-0000-0000-000000000105",
+    "lessonId": "66666666-1113-0000-0000-000000000111",
     "courseCode": "jpd113",
     "word": "きゅうまんせんごひゃく",
     "reading": "きゅうまんせんごひゃく",
@@ -4113,11 +4113,11 @@
     "flashcardPracticeCount": 0,
     "multipleChoicePracticeCount": 0,
     "typingPracticeCount": 0,
-    "orderIndex": 46
+    "orderIndex": 20
   },
   {
     "id": "66666666-1113-0000-0000-000000005047",
-    "lessonId": "66666666-1113-0000-0000-000000000105",
+    "lessonId": "66666666-1113-0000-0000-000000000111",
     "courseCode": "jpd113",
     "word": "よんじゅうまんせん",
     "reading": "よんじゅうまんせん",
@@ -4134,11 +4134,11 @@
     "flashcardPracticeCount": 0,
     "multipleChoicePracticeCount": 0,
     "typingPracticeCount": 0,
-    "orderIndex": 47
+    "orderIndex": 21
   },
   {
     "id": "66666666-1113-0000-0000-000000005048",
-    "lessonId": "66666666-1113-0000-0000-000000000105",
+    "lessonId": "66666666-1113-0000-0000-000000000111",
     "courseCode": "jpd113",
     "word": "ろくじゅうななまんはっせん",
     "reading": "ろくじゅうななまんはっせん",
@@ -4155,11 +4155,11 @@
     "flashcardPracticeCount": 0,
     "multipleChoicePracticeCount": 0,
     "typingPracticeCount": 0,
-    "orderIndex": 48
+    "orderIndex": 22
   },
   {
     "id": "66666666-1113-0000-0000-000000005049",
-    "lessonId": "66666666-1113-0000-0000-000000000105",
+    "lessonId": "66666666-1113-0000-0000-000000000111",
     "courseCode": "jpd113",
     "word": "さんびゃくろくじゅうはちまん",
     "reading": "さんびゃくろくじゅうはちまん",
@@ -4176,11 +4176,11 @@
     "flashcardPracticeCount": 0,
     "multipleChoicePracticeCount": 0,
     "typingPracticeCount": 0,
-    "orderIndex": 49
+    "orderIndex": 23
   },
   {
     "id": "66666666-1113-0000-0000-000000005050",
-    "lessonId": "66666666-1113-0000-0000-000000000105",
+    "lessonId": "66666666-1113-0000-0000-000000000111",
     "courseCode": "jpd113",
     "word": "はっぴゃくさんじゅうよんまん",
     "reading": "はっぴゃくさんじゅうよんまん",
@@ -4197,7 +4197,7 @@
     "flashcardPracticeCount": 0,
     "multipleChoicePracticeCount": 0,
     "typingPracticeCount": 0,
-    "orderIndex": 50
+    "orderIndex": 24
   },
   {
     "id": "66666666-1113-0000-0000-000000006001",
