@@ -169,13 +169,13 @@
   }
 
   .jp-course-card--113 .jp-course-card-top {
-    background-image: linear-gradient(180deg, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.04)), url("/images/course-cards/jpd113-bg.png");
+    background-image: linear-gradient(180deg, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.04)), url("/images/course-cards/jpd113-bg.webp");
     background-position: center;
     background-size: cover;
   }
 
   .jp-course-card--123 .jp-course-card-top {
-    background-image: linear-gradient(180deg, rgba(255, 255, 255, 0.12), rgba(255, 255, 255, 0.02)), url("/images/course-cards/jpd123-bg.png");
+    background-image: linear-gradient(180deg, rgba(255, 255, 255, 0.12), rgba(255, 255, 255, 0.02)), url("/images/course-cards/jpd123-bg.webp");
     background-position: center;
     background-size: cover;
   }
