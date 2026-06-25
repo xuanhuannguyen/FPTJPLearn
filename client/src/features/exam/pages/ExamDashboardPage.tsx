@@ -76,7 +76,7 @@ export const ExamDashboardPage = () => {
         </div>
       ) : null}
 
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-4 max-w-3xl">
+      <div className="grid max-w-2xl grid-cols-1 gap-3 md:grid-cols-2">
         {courses.map((course) => {
           const isLocked = course.isLocked;
           const isJpd113 = course.code === 'jpd113';
@@ -86,7 +86,7 @@ export const ExamDashboardPage = () => {
             <div
               key={course.code}
               onClick={() => isLocked ? navigate('/pricing') : navigate(`/exam/${course.code}`)}
-              className={`jp-course-card group cursor-pointer ${cardTone} ${
+              className={`jp-course-card jp-course-card--compact group cursor-pointer ${cardTone} ${
                 isLocked ? 'grayscale-[0.3]' : ''
               }`}
             >

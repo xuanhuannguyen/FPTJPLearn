@@ -75,7 +75,7 @@ export const SpeakingDashboardPage = () => {
           <p className="font-bold">Đang tải khóa luyện nói...</p>
         </div>
       ) : (
-        <div className="grid max-w-3xl grid-cols-1 gap-4 md:grid-cols-2">
+        <div className="grid max-w-2xl grid-cols-1 gap-3 md:grid-cols-2">
           {courses.map((course) => {
             const isLocked = isContentLocked(course);
             const isJpd113 = course.code === 'jpd113';
@@ -85,7 +85,7 @@ export const SpeakingDashboardPage = () => {
               <div
                 key={course.id}
                 onClick={() => isLocked ? navigate('/pricing') : navigate(`/speaking/${course.code}`)}
-                className={`jp-course-card group cursor-pointer ${cardTone} ${
+                className={`jp-course-card jp-course-card--compact group cursor-pointer ${cardTone} ${
                   isLocked ? 'grayscale-[0.3]' : ''
                 }`}
               >

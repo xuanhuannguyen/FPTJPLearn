@@ -168,6 +168,37 @@
     --card-blue-dark: #0334af;
   }
 
+  .jp-course-card--113 .jp-course-card-top {
+    background-image: linear-gradient(180deg, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.04)), url("/images/course-cards/jpd113-bg.png");
+    background-position: center;
+    background-size: cover;
+  }
+
+  .jp-course-card--123 .jp-course-card-top {
+    background-image: linear-gradient(180deg, rgba(255, 255, 255, 0.12), rgba(255, 255, 255, 0.02)), url("/images/course-cards/jpd123-bg.png");
+    background-position: center;
+    background-size: cover;
+  }
+
+  .jp-course-card--113 .jp-course-card-top::before,
+  .jp-course-card--113 .jp-course-card-top::after,
+  .jp-course-card--123 .jp-course-card-top::before,
+  .jp-course-card--123 .jp-course-card-top::after {
+    display: none;
+  }
+
+  .jp-course-card--compact .jp-course-card-top {
+    @apply min-h-[150px] py-5;
+  }
+
+  .jp-course-card--compact .jp-course-card-title {
+    @apply text-4xl;
+  }
+
+  .jp-course-card--compact .jp-course-card-bottom {
+    @apply px-4 py-3;
+  }
+
   .jp-course-card-top {
     background:
       radial-gradient(circle at 10% 25%, var(--card-art) 0 3.2rem, transparent 3.25rem),
