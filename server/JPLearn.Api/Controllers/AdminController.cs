@@ -98,6 +98,7 @@ public class AdminController : ControllerBase
                 o.Provider,
                 o.Status,
                 o.CreatedAt,
+                o.PaidAt,
                 UserDisplayName = u.DisplayName,
                 UserEmail = u.Email
             })

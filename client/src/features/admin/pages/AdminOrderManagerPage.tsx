@@ -12,6 +12,8 @@ interface AdminOrder {
   amount: number;
   provider: string;
   status: OrderStatus;
+  createdAt: string;
+  paidAt?: string | null;
 }
 
 export function AdminOrderManagerPage() {
@@ -98,6 +100,8 @@ export function AdminOrderManagerPage() {
               <th className="p-4 text-xs font-black uppercase">Khách hàng</th>
               <th className="p-4 text-xs font-black uppercase">Gói</th>
               <th className="p-4 text-xs font-black uppercase">Số tiền</th>
+              <th className="p-4 text-xs font-black uppercase">Thời gian tạo</th>
+              <th className="p-4 text-xs font-black uppercase">Thanh toán lúc</th>
               <th className="p-4 text-xs font-black uppercase">Provider</th>
               <th className="p-4 text-xs font-black uppercase">Trạng thái</th>
             </tr>
@@ -105,7 +109,7 @@ export function AdminOrderManagerPage() {
           <tbody>
             {isLoading ? (
               <tr>
-                <td className="p-6 text-center text-sm font-bold text-slate-500" colSpan={6}>
+                <td className="p-6 text-center text-sm font-bold text-slate-500" colSpan={8}>
                   <span className="inline-flex items-center gap-2">
                     <Loader2 size={18} className="animate-spin" /> Đang tải đơn hàng...
                   </span>
@@ -114,7 +118,7 @@ export function AdminOrderManagerPage() {
             ) : null}
             {!isLoading && filteredOrders.length === 0 ? (
               <tr>
-                <td className="p-8 text-center text-sm font-bold text-slate-500" colSpan={6}>
+                <td className="p-8 text-center text-sm font-bold text-slate-500" colSpan={8}>
                   Không có đơn hàng nào khớp với bộ lọc.
                 </td>
               </tr>
@@ -135,6 +139,32 @@ export function AdminOrderManagerPage() {
                 </td>
                 <td className="p-4">
                   <div className="text-sm font-black">{new Intl.NumberFormat('vi-VN').format(o.amount)}đ</div>
+                </td>
+                <td className="p-4">
+                  <div className="text-xs text-slate-600 font-medium">
+                    {new Date(o.createdAt).toLocaleString('vi-VN', {
+                      year: 'numeric',
+                      month: '2-digit',
+                      day: '2-digit',
+                      hour: '2-digit',
+                      minute: '2-digit'
+                    })}
+                  </div>
+                </td>
+                <td className="p-4">
+                  <div className="text-xs font-medium text-slate-600">
+                    {o.status === 'paid' && o.paidAt ? (
+                      new Date(o.paidAt).toLocaleString('vi-VN', {
+                        year: 'numeric',
+                        month: '2-digit',
+                        day: '2-digit',
+                        hour: '2-digit',
+                        minute: '2-digit'
+                      })
+                    ) : (
+                      <span className="text-slate-300 font-bold">-</span>
+                    )}
+                  </div>
                 </td>
                 <td className="p-4">
                   <div className="flex items-center gap-1 text-[10px] font-bold uppercase">
