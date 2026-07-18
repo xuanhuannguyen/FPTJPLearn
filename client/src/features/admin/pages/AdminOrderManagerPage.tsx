@@ -17,6 +17,14 @@ interface AdminOrder {
 export function AdminOrderManagerPage() {
   const [orders, setOrders] = useState<AdminOrder[]>([]);
   const [isLoading, setIsLoading] = useState(true);
+  const [statusFilter, setStatusFilter] = useState<'all' | 'paid' | 'pending'>('all');
+
+  const filteredOrders = orders.filter((o) => {
+    if (statusFilter === 'all') return true;
+    if (statusFilter === 'paid') return o.status === 'paid';
+    if (statusFilter === 'pending') return o.status !== 'paid';
+    return true;
+  });
 
   const fetchOrders = useCallback(async () => {
     setIsLoading(true);
@@ -49,6 +57,39 @@ export function AdminOrderManagerPage() {
         </div>
       </div>
 
+      <div className="flex flex-wrap gap-3">
+        <button
+          onClick={() => setStatusFilter('all')}
+          className={`px-4 py-2 text-xs font-black uppercase border-2 border-black shadow-[2px_2px_0px_#000] hover:-translate-y-0.5 active:translate-y-0.5 active:shadow-[1px_1px_0px_#000] transition-all cursor-pointer ${
+            statusFilter === 'all'
+              ? 'bg-slate-950 text-white'
+              : 'bg-white text-slate-900 hover:bg-slate-50'
+          }`}
+        >
+          Tất cả ({orders.length})
+        </button>
+        <button
+          onClick={() => setStatusFilter('paid')}
+          className={`px-4 py-2 text-xs font-black uppercase border-2 border-black shadow-[2px_2px_0px_#000] hover:-translate-y-0.5 active:translate-y-0.5 active:shadow-[1px_1px_0px_#000] transition-all cursor-pointer ${
+            statusFilter === 'paid'
+              ? 'bg-emerald-500 text-white'
+              : 'bg-white text-slate-900 hover:bg-slate-50'
+          }`}
+        >
+          Thành công ({orders.filter((o) => o.status === 'paid').length})
+        </button>
+        <button
+          onClick={() => setStatusFilter('pending')}
+          className={`px-4 py-2 text-xs font-black uppercase border-2 border-black shadow-[2px_2px_0px_#000] hover:-translate-y-0.5 active:translate-y-0.5 active:shadow-[1px_1px_0px_#000] transition-all cursor-pointer ${
+            statusFilter === 'pending'
+              ? 'bg-amber-500 text-white'
+              : 'bg-white text-slate-900 hover:bg-slate-50'
+          }`}
+        >
+          Chờ thanh toán ({orders.filter((o) => o.status !== 'paid').length})
+        </button>
+      </div>
+
       <div className="border border-black bg-white overflow-hidden shadow-[4px_4px_0px_#000]">
         <table className="w-full text-left">
           <thead className="bg-slate-50 border-b border-black">
@@ -71,7 +112,14 @@ export function AdminOrderManagerPage() {
                 </td>
               </tr>
             ) : null}
-            {orders.map(o => (
+            {!isLoading && filteredOrders.length === 0 ? (
+              <tr>
+                <td className="p-8 text-center text-sm font-bold text-slate-500" colSpan={6}>
+                  Không có đơn hàng nào khớp với bộ lọc.
+                </td>
+              </tr>
+            ) : null}
+            {filteredOrders.map(o => (
               <tr key={o.id} className="border-b border-slate-100 last:border-0 hover:bg-slate-50">
                 <td className="p-4">
                   <span className="font-mono text-[10px] text-slate-500">{o.id.slice(0, 8)}</span>
