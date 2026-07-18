@@ -1,24 +1,66 @@
 import { useMemo, useState, useRef, useEffect } from 'react';
-import { useLocation } from 'react-router-dom';
-import { Bell, Search, LogOut, Sparkles } from 'lucide-react';
-import { Link } from 'react-router-dom';
+import { useLocation, Link, useNavigate } from 'react-router-dom';
+import { Bell, Search, LogOut, Sparkles, MessageSquare } from 'lucide-react';
 import { useSearchStore } from '../stores/searchStore';
 import { useAuthStore } from '../stores/authStore';
 import { useUserAccess } from '../hooks/useUserAccess';
 
+const NOTIFICATIONS = [
+  {
+    id: 1,
+    icon: <MessageSquare size={16} className="text-blue-600" />,
+    iconBg: 'bg-blue-50/80',
+    title: 'Hỗ trợ Speaking',
+    message: 'Sắp tới bạn nào yếu phần speaking thì có thể ib zalo facebook mình nhận mentor hỗ trợ',
+    link: 'https://zalo.me/0833283840',
+    isExternal: true,
+    time: 'Mới',
+  },
+  {
+    id: 2,
+    icon: <Sparkles size={16} className="text-amber-600" />,
+    iconBg: 'bg-amber-50/80',
+    title: 'Tài liệu & Khóa học',
+    message: 'Phần khóa học đã bao gồm source của những kỳ gần đây, giải thích chi tiết đừng ngần ngại mua :)',
+    link: '/pricing',
+    isExternal: false,
+    time: 'Mới',
+  }
+];
+
 export const Navbar = () => {
   const location = useLocation();
+  const navigate = useNavigate();
   const query = useSearchStore((state) => state.query);
   const setQuery = useSearchStore((state) => state.setQuery);
   const { user, logout } = useAuthStore();
   const { licensingEnabled } = useUserAccess();
   const [showMenu, setShowMenu] = useState(false);
+  const [showNotifications, setShowNotifications] = useState(false);
+  const [readIds, setReadIds] = useState<number[]>(() => {
+    try {
+      const saved = localStorage.getItem('jplearn_read_notifications');
+      return saved ? JSON.parse(saved) : [];
+    } catch {
+      return [];
+    }
+  });
   const menuRef = useRef<HTMLDivElement>(null);
+  const bellRef = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    localStorage.setItem('jplearn_read_notifications', JSON.stringify(readIds));
+  }, [readIds]);
+
+  const unreadCount = NOTIFICATIONS.filter(n => !readIds.includes(n.id)).length;
 
   useEffect(() => {
     const handleClickOutside = (e: MouseEvent) => {
       if (menuRef.current && !menuRef.current.contains(e.target as Node)) {
         setShowMenu(false);
+      }
+      if (bellRef.current && !bellRef.current.contains(e.target as Node)) {
+        setShowNotifications(false);
       }
     };
     document.addEventListener('mousedown', handleClickOutside);
@@ -67,10 +109,90 @@ export const Navbar = () => {
           </Link>
         ) : null}
 
-        <button className="relative flex h-8 w-8 cursor-pointer items-center justify-center rounded-lg border-2 border-border bg-white/95 text-text-secondary shadow-pop transition-all hover:-translate-y-0.5 hover:text-text-primary">
-          <Bell size={16} />
-          <span className="absolute right-1.5 top-1.5 h-1 w-1 rounded-full bg-accent-danger"></span>
-        </button>
+        <div className="relative" ref={bellRef}>
+          <button
+            onClick={() => {
+              setShowNotifications(!showNotifications);
+            }}
+            className={`relative flex h-8 w-8 cursor-pointer items-center justify-center rounded-lg border-2 border-border bg-white/95 text-text-secondary shadow-pop transition-all hover:-translate-y-0.5 hover:text-text-primary ${
+              showNotifications ? 'bg-slate-50 border-slate-900 text-text-primary' : ''
+            }`}
+          >
+            <Bell size={16} />
+            {unreadCount > 0 && (
+              <span className="absolute -top-0.5 -right-0.5 flex h-2 w-2 rounded-full bg-accent-danger animate-pulse"></span>
+            )}
+          </button>
+
+          {showNotifications && (
+            <div className="absolute right-0 top-full mt-2 w-[320px] sm:w-[380px] rounded-2xl border-2 border-border bg-white shadow-2xl overflow-hidden z-50 animate-fade-in">
+              <div className="flex items-center justify-between border-b border-border px-4 py-3 bg-slate-50/50">
+                <h3 className="font-heading text-sm font-black text-slate-900">Thông báo</h3>
+                {unreadCount > 0 && (
+                  <button
+                    onClick={() => setReadIds(NOTIFICATIONS.map((n) => n.id))}
+                    className="text-[10px] font-black uppercase tracking-wider text-blue-600 hover:underline cursor-pointer"
+                  >
+                    Đánh dấu tất cả đã đọc
+                  </button>
+                )}
+              </div>
+              <div className="max-h-[360px] overflow-y-auto divide-y divide-border scrollbar-hide">
+                {NOTIFICATIONS.map((notif) => {
+                  const isRead = readIds.includes(notif.id);
+                  return (
+                    <a
+                      key={notif.id}
+                      href={notif.link}
+                      target={notif.isExternal ? "_blank" : undefined}
+                      rel={notif.isExternal ? "noopener noreferrer" : undefined}
+                      onClick={(e) => {
+                        if (!notif.isExternal) {
+                          e.preventDefault();
+                          navigate(notif.link);
+                        }
+                        setShowNotifications(false);
+                        if (!isRead) {
+                          setReadIds((prev) => [...prev, notif.id]);
+                        }
+                      }}
+                      className={`flex gap-3 p-4 transition-all hover:bg-slate-50/80 group cursor-pointer ${
+                        isRead ? 'opacity-60 hover:opacity-100' : ''
+                      }`}
+                    >
+                      <div className={`flex h-9 w-9 shrink-0 items-center justify-center rounded-xl ${notif.iconBg} border border-slate-100 group-hover:scale-105 transition-transform`}>
+                        {notif.icon}
+                      </div>
+                      <div className="flex-1 space-y-1">
+                        <div className="flex items-center justify-between">
+                          <h4 className={`text-xs font-black transition-colors ${
+                            isRead ? 'text-slate-700' : 'text-slate-950 group-hover:text-blue-600'
+                          }`}>
+                            {notif.title}
+                          </h4>
+                          {isRead ? (
+                            <span className="text-[9px] font-bold uppercase tracking-wider text-slate-400">
+                              Đã đọc
+                            </span>
+                          ) : (
+                            <span className="text-[9px] font-black uppercase tracking-wider text-blue-600 bg-blue-50 px-1.5 py-0.5 rounded-md animate-pulse">
+                              Mới
+                            </span>
+                          )}
+                        </div>
+                        <p className={`text-xs font-medium leading-relaxed ${
+                          isRead ? 'text-slate-500' : 'text-slate-600'
+                        }`}>
+                          {notif.message}
+                        </p>
+                      </div>
+                    </a>
+                  );
+                })}
+              </div>
+            </div>
+          )}
+        </div>
         
         <div className="relative" ref={menuRef}>
           <button
