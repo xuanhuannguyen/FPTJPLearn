@@ -21,7 +21,7 @@ const NOTIFICATIONS = [
     icon: <Sparkles size={16} className="text-amber-600" />,
     iconBg: 'bg-amber-50/80',
     title: 'Tài liệu & Khóa học',
-    message: 'Phần khóa học đã bao gồm source của những kỳ gần đây, giải thích chi tiết đừng ngần ngại mua :)',
+    message: 'Phần khóa học đã bao gồm source, các bài thi nói, tips luyện nói .... đừng ngần ngại mua :)',
     link: '/pricing',
     isExternal: false,
     time: 'Mới',
@@ -39,8 +39,15 @@ export const Navbar = () => {
   const [showNotifications, setShowNotifications] = useState(false);
   const [readIds, setReadIds] = useState<number[]>(() => {
     try {
-      const saved = localStorage.getItem('jplearn_read_notifications');
-      return saved ? JSON.parse(saved) : [];
+      const savedStr = localStorage.getItem('jplearn_read_notifications');
+      if (savedStr) {
+        const saved = JSON.parse(savedStr);
+        const todayStr = new Date().toDateString();
+        if (saved.date === todayStr) {
+          return saved.readIds || [];
+        }
+      }
+      return [];
     } catch {
       return [];
     }
@@ -49,7 +56,11 @@ export const Navbar = () => {
   const bellRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
-    localStorage.setItem('jplearn_read_notifications', JSON.stringify(readIds));
+    const todayStr = new Date().toDateString();
+    localStorage.setItem(
+      'jplearn_read_notifications',
+      JSON.stringify({ date: todayStr, readIds })
+    );
   }, [readIds]);
 
   const unreadCount = NOTIFICATIONS.filter(n => !readIds.includes(n.id)).length;
@@ -120,7 +131,9 @@ export const Navbar = () => {
           >
             <Bell size={16} />
             {unreadCount > 0 && (
-              <span className="absolute -top-0.5 -right-0.5 flex h-2 w-2 rounded-full bg-accent-danger animate-pulse"></span>
+              <span className="absolute -top-1.5 -right-1.5 flex h-[18px] w-[18px] items-center justify-center rounded-full bg-accent-danger text-[9px] font-black text-white ring-2 ring-white shadow-sm animate-pulse">
+                {unreadCount}
+              </span>
             )}
           </button>
 
