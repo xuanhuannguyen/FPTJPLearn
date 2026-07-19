@@ -4,6 +4,7 @@ import { apiClient } from '../api/axios';
 type AccessControlledContent = {
   accessTier?: string | null;
   packageCode?: string | null;
+  courseCode?: string | null;
   isLocked?: boolean | null;
 };
 
@@ -176,8 +177,9 @@ export function useUserAccess() {
     const accessTier = content.accessTier?.trim().toLowerCase() || 'free';
     if (accessTier === 'free') return false;
 
-    if (content.packageCode) {
-      return isPackageLocked(content.packageCode);
+    const code = content.packageCode || content.courseCode;
+    if (code) {
+      return isPackageLocked(code);
     }
 
     return typeof content.isLocked === 'boolean' ? content.isLocked : true;
