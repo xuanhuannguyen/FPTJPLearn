@@ -7,6 +7,16 @@ import { useUserAccess } from '../hooks/useUserAccess';
 
 const NOTIFICATIONS = [
   {
+    id: 3,
+    icon: <MessageSquare size={16} className="text-emerald-600" />,
+    iconBg: 'bg-emerald-50/80',
+    title: 'Mentor & Mẹo thi SE',
+    message: 'Mentor các môn SE từ kỳ 1 - 4, Mẹo Tips Thi Ib Facebook zalo',
+    link: 'https://zalo.me/0833283840',
+    isExternal: true,
+    time: 'Mới',
+  },
+  {
     id: 1,
     icon: <MessageSquare size={16} className="text-blue-600" />,
     iconBg: 'bg-blue-50/80',
