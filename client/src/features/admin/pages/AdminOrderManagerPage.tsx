@@ -1,6 +1,6 @@
 import { useCallback, useEffect, useState } from 'react';
 import { apiClient } from '../../../shared/api/axios';
-import { CreditCard, CheckCircle, Clock, Loader2 } from 'lucide-react';
+import { CreditCard, CheckCircle, Clock, Loader2, Calendar } from 'lucide-react';
 
 type OrderStatus = 'pending' | 'paid' | 'failed' | 'cancelled' | string;
 
@@ -20,13 +20,37 @@ export function AdminOrderManagerPage() {
   const [orders, setOrders] = useState<AdminOrder[]>([]);
   const [isLoading, setIsLoading] = useState(true);
   const [statusFilter, setStatusFilter] = useState<'all' | 'paid' | 'pending'>('all');
+  const [startDate, setStartDate] = useState<string>('');
+  const [endDate, setEndDate] = useState<string>('');
 
   const filteredOrders = orders.filter((o) => {
-    if (statusFilter === 'all') return true;
-    if (statusFilter === 'paid') return o.status === 'paid';
-    if (statusFilter === 'pending') return o.status !== 'paid';
+    if (statusFilter === 'paid' && o.status !== 'paid') return false;
+    if (statusFilter === 'pending' && o.status === 'paid') return false;
+
+    if (startDate) {
+      const orderDate = new Date(o.createdAt);
+      const start = new Date(startDate);
+      start.setHours(0, 0, 0, 0);
+      if (orderDate < start) return false;
+    }
+
+    if (endDate) {
+      const orderDate = new Date(o.createdAt);
+      const end = new Date(endDate);
+      end.setHours(23, 59, 59, 999);
+      if (orderDate > end) return false;
+    }
+
     return true;
   });
+
+  const totalPaidAll = orders
+    .filter((o) => o.status === 'paid')
+    .reduce((sum, o) => sum + o.amount, 0);
+
+  const totalPaidFiltered = filteredOrders
+    .filter((o) => o.status === 'paid')
+    .reduce((sum, o) => sum + o.amount, 0);
 
   const fetchOrders = useCallback(async () => {
     setIsLoading(true);
@@ -59,37 +83,94 @@ export function AdminOrderManagerPage() {
         </div>
       </div>
 
-      <div className="flex flex-wrap gap-3">
-        <button
-          onClick={() => setStatusFilter('all')}
-          className={`px-4 py-2 text-xs font-black uppercase border-2 border-black shadow-[2px_2px_0px_#000] hover:-translate-y-0.5 active:translate-y-0.5 active:shadow-[1px_1px_0px_#000] transition-all cursor-pointer ${
-            statusFilter === 'all'
-              ? 'bg-slate-950 text-white'
-              : 'bg-white text-slate-900 hover:bg-slate-50'
-          }`}
-        >
-          Tất cả ({orders.length})
-        </button>
-        <button
-          onClick={() => setStatusFilter('paid')}
-          className={`px-4 py-2 text-xs font-black uppercase border-2 border-black shadow-[2px_2px_0px_#000] hover:-translate-y-0.5 active:translate-y-0.5 active:shadow-[1px_1px_0px_#000] transition-all cursor-pointer ${
-            statusFilter === 'paid'
-              ? 'bg-emerald-500 text-white'
-              : 'bg-white text-slate-900 hover:bg-slate-50'
-          }`}
-        >
-          Thành công ({orders.filter((o) => o.status === 'paid').length})
-        </button>
-        <button
-          onClick={() => setStatusFilter('pending')}
-          className={`px-4 py-2 text-xs font-black uppercase border-2 border-black shadow-[2px_2px_0px_#000] hover:-translate-y-0.5 active:translate-y-0.5 active:shadow-[1px_1px_0px_#000] transition-all cursor-pointer ${
-            statusFilter === 'pending'
-              ? 'bg-amber-500 text-white'
-              : 'bg-white text-slate-900 hover:bg-slate-50'
-          }`}
-        >
-          Chờ thanh toán ({orders.filter((o) => o.status !== 'paid').length})
-        </button>
+      {/* Doanh thu stats cards */}
+      <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+        <div className="border-2 border-black p-4 bg-emerald-50 shadow-[4px_4px_0px_#000]">
+          <div className="text-xs font-black uppercase text-emerald-800">Tổng doanh thu (Tất cả)</div>
+          <div className="text-2xl font-black mt-1 text-slate-900">
+            {new Intl.NumberFormat('vi-VN').format(totalPaidAll)}đ
+          </div>
+        </div>
+        <div className="border-2 border-black p-4 bg-blue-50 shadow-[4px_4px_0px_#000]">
+          <div className="text-xs font-black uppercase text-blue-800">Doanh thu bộ lọc</div>
+          <div className="text-2xl font-black mt-1 text-slate-900">
+            {new Intl.NumberFormat('vi-VN').format(totalPaidFiltered)}đ
+          </div>
+        </div>
+      </div>
+
+      {/* Filters bar */}
+      <div className="flex flex-col lg:flex-row lg:items-center justify-between gap-4 bg-white border-2 border-black p-4 shadow-[4px_4px_0px_#000]">
+        {/* Status filters */}
+        <div className="flex flex-wrap gap-2">
+          <button
+            onClick={() => setStatusFilter('all')}
+            className={`px-3 py-1.5 text-xs font-black uppercase border-2 border-black shadow-[2px_2px_0px_#000] hover:-translate-y-0.5 active:translate-y-0.5 active:shadow-[1px_1px_0px_#000] transition-all cursor-pointer ${
+              statusFilter === 'all'
+                ? 'bg-slate-950 text-white'
+                : 'bg-white text-slate-900 hover:bg-slate-50'
+            }`}
+          >
+            Tất cả ({orders.length})
+          </button>
+          <button
+            onClick={() => setStatusFilter('paid')}
+            className={`px-3 py-1.5 text-xs font-black uppercase border-2 border-black shadow-[2px_2px_0px_#000] hover:-translate-y-0.5 active:translate-y-0.5 active:shadow-[1px_1px_0px_#000] transition-all cursor-pointer ${
+              statusFilter === 'paid'
+                ? 'bg-emerald-500 text-white'
+                : 'bg-white text-slate-900 hover:bg-slate-50'
+            }`}
+          >
+            Thành công ({orders.filter((o) => o.status === 'paid').length})
+          </button>
+          <button
+            onClick={() => setStatusFilter('pending')}
+            className={`px-3 py-1.5 text-xs font-black uppercase border-2 border-black shadow-[2px_2px_0px_#000] hover:-translate-y-0.5 active:translate-y-0.5 active:shadow-[1px_1px_0px_#000] transition-all cursor-pointer ${
+              statusFilter === 'pending'
+                ? 'bg-amber-500 text-white'
+                : 'bg-white text-slate-900 hover:bg-slate-50'
+            }`}
+          >
+            Chờ thanh toán ({orders.filter((o) => o.status !== 'paid').length})
+          </button>
+        </div>
+
+        {/* Date filters */}
+        <div className="flex flex-wrap items-center gap-3">
+          <div className="flex items-center gap-2">
+            <span className="text-[10px] font-black uppercase flex items-center gap-1 text-slate-600">
+              <Calendar size={12} /> Từ ngày:
+            </span>
+            <input
+              type="date"
+              value={startDate}
+              onChange={(e) => setStartDate(e.target.value)}
+              className="border-2 border-black px-2 py-1 text-xs font-bold focus:outline-none bg-white"
+            />
+          </div>
+          <div className="flex items-center gap-2">
+            <span className="text-[10px] font-black uppercase flex items-center gap-1 text-slate-600">
+              <Calendar size={12} /> Đến ngày:
+            </span>
+            <input
+              type="date"
+              value={endDate}
+              onChange={(e) => setEndDate(e.target.value)}
+              className="border-2 border-black px-2 py-1 text-xs font-bold focus:outline-none bg-white"
+            />
+          </div>
+          {(startDate || endDate) && (
+            <button
+              onClick={() => {
+                setStartDate('');
+                setEndDate('');
+              }}
+              className="px-3 py-1.5 bg-rose-500 text-white text-[10px] font-black uppercase border-2 border-black shadow-[2px_2px_0px_#000] hover:-translate-y-0.5 active:translate-y-0.5 active:shadow-[1px_1px_0px_#000] transition-all cursor-pointer"
+            >
+              Xóa ngày
+            </button>
+          )}
+        </div>
       </div>
 
       <div className="border border-black bg-white overflow-hidden shadow-[4px_4px_0px_#000]">
