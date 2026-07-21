@@ -4,39 +4,18 @@ import { Bell, Search, LogOut, Sparkles, MessageSquare } from 'lucide-react';
 import { useSearchStore } from '../stores/searchStore';
 import { useAuthStore } from '../stores/authStore';
 import { useUserAccess } from '../hooks/useUserAccess';
+import { useNotificationReads } from '../hooks/useNotificationReads';
+import { FIRST_NOTIFICATION_ID, NOTIFICATIONS, type AppNotification } from '../data/notifications';
 
-const NOTIFICATIONS = [
-  {
-    id: 3,
-    icon: <MessageSquare size={16} className="text-emerald-600" />,
-    iconBg: 'bg-emerald-50/80',
-    title: 'Mentor & Mẹo thi SE',
-    message: 'Mentor các môn SE từ kỳ 1 - 4, Mẹo Tips Thi Ib Facebook zalo',
-    link: 'https://zalo.me/0833283840',
-    isExternal: true,
-    time: 'Mới',
-  },
-  {
-    id: 1,
-    icon: <MessageSquare size={16} className="text-blue-600" />,
-    iconBg: 'bg-blue-50/80',
-    title: 'Hỗ trợ Speaking',
-    message: 'Sắp tới bạn nào yếu phần speaking thì có thể ib zalo facebook mình nhận mentor hỗ trợ',
-    link: 'https://zalo.me/0833283840',
-    isExternal: true,
-    time: 'Mới',
-  },
-  {
-    id: 2,
-    icon: <Sparkles size={16} className="text-amber-600" />,
-    iconBg: 'bg-amber-50/80',
-    title: 'Tài liệu & Khóa học',
-    message: 'Phần khóa học đã bao gồm source, các bài thi nói, tips luyện nói .... đừng ngần ngại mua :)',
-    link: '/pricing',
-    isExternal: false,
-    time: 'Mới',
+const NotificationIcon = ({ notification }: { notification: AppNotification }) => {
+  const className = notification.iconColor;
+
+  if (notification.icon === 'sparkles') {
+    return <Sparkles size={16} className={className} />;
   }
-];
+
+  return <MessageSquare size={16} className={className} />;
+};
 
 export const Navbar = () => {
   const location = useLocation();
@@ -45,35 +24,27 @@ export const Navbar = () => {
   const setQuery = useSearchStore((state) => state.setQuery);
   const { user, logout } = useAuthStore();
   const { licensingEnabled } = useUserAccess();
+  const { readIds, markAsRead, markAllAsRead } = useNotificationReads();
   const [showMenu, setShowMenu] = useState(false);
   const [showNotifications, setShowNotifications] = useState(false);
-  const [readIds, setReadIds] = useState<number[]>(() => {
-    try {
-      const savedStr = localStorage.getItem('jplearn_read_notifications');
-      if (savedStr) {
-        const saved = JSON.parse(savedStr);
-        const todayStr = new Date().toDateString();
-        if (saved.date === todayStr) {
-          return saved.readIds || [];
-        }
-      }
-      return [];
-    } catch {
-      return [];
-    }
-  });
+  const [showLedBanner, setShowLedBanner] = useState(true);
+  const [bannerRunId, setBannerRunId] = useState(0);
   const menuRef = useRef<HTMLDivElement>(null);
   const bellRef = useRef<HTMLDivElement>(null);
 
-  useEffect(() => {
-    const todayStr = new Date().toDateString();
-    localStorage.setItem(
-      'jplearn_read_notifications',
-      JSON.stringify({ date: todayStr, readIds })
-    );
-  }, [readIds]);
-
   const unreadCount = NOTIFICATIONS.filter(n => !readIds.includes(n.id)).length;
+  const ledBannerText = `${NOTIFICATIONS.map((notification) => notification.title).join('   •   ')}   •   Xem chi tiết ở thông báo`;
+
+  useEffect(() => {
+    const runBanner = () => {
+      setBannerRunId((current) => current + 1);
+      setShowLedBanner(true);
+    };
+
+    const intervalId = window.setInterval(runBanner, 120000);
+
+    return () => window.clearInterval(intervalId);
+  }, []);
 
   useEffect(() => {
     const handleClickOutside = (e: MouseEvent) => {
@@ -99,7 +70,7 @@ export const Navbar = () => {
   }, [location.pathname]);
 
   return (
-    <header className="sticky top-0 z-40 flex h-12 flex-shrink-0 items-center justify-between border-b-2 border-border bg-white/70 px-4 backdrop-blur-xl sm:px-6">
+    <header className="sticky top-0 z-50 flex h-14 flex-shrink-0 items-center justify-between border-b-2 border-border bg-white/95 px-4 backdrop-blur-xl sm:px-6">
       <div className="flex-1 max-w-2xl">
         {searchConfig ? (
           <div className="relative">
@@ -119,6 +90,21 @@ export const Navbar = () => {
         ) : null}
       </div>
       
+      {showLedBanner ? (
+        <button
+          key={bannerRunId}
+          type="button"
+          onClick={() => navigate(`/notifications/${FIRST_NOTIFICATION_ID}`)}
+          onAnimationEnd={() => setShowLedBanner(false)}
+          className="absolute left-1/2 top-1/2 hidden h-8 w-[50vw] max-w-[680px] -translate-x-1/2 -translate-y-1/2 overflow-hidden rounded-lg border-2 border-blue-200 bg-blue-50 text-left shadow-[2px_2px_0_#111827] md:block"
+          aria-label="Mở thông báo"
+        >
+          <span className="led-banner-text whitespace-nowrap px-4 text-xs font-black uppercase tracking-wider text-blue-700">
+            {ledBannerText}
+          </span>
+        </button>
+      ) : null}
+
       <div className="ml-4 flex items-center gap-2">
         {licensingEnabled ? (
           <Link
@@ -153,7 +139,7 @@ export const Navbar = () => {
                 <h3 className="font-heading text-sm font-black text-slate-900">Thông báo</h3>
                 {unreadCount > 0 && (
                   <button
-                    onClick={() => setReadIds(NOTIFICATIONS.map((n) => n.id))}
+                    onClick={() => markAllAsRead(NOTIFICATIONS.map((n) => n.id))}
                     className="text-[10px] font-black uppercase tracking-wider text-blue-600 hover:underline cursor-pointer"
                   >
                     Đánh dấu tất cả đã đọc
@@ -164,27 +150,22 @@ export const Navbar = () => {
                 {NOTIFICATIONS.map((notif) => {
                   const isRead = readIds.includes(notif.id);
                   return (
-                    <a
+                    <button
                       key={notif.id}
-                      href={notif.link}
-                      target={notif.isExternal ? "_blank" : undefined}
-                      rel={notif.isExternal ? "noopener noreferrer" : undefined}
-                      onClick={(e) => {
-                        if (!notif.isExternal) {
-                          e.preventDefault();
-                          navigate(notif.link);
-                        }
+                      type="button"
+                      onClick={() => {
+                        navigate(`/notifications/${notif.id}`);
                         setShowNotifications(false);
                         if (!isRead) {
-                          setReadIds((prev) => [...prev, notif.id]);
+                          markAsRead(notif.id);
                         }
                       }}
-                      className={`flex gap-3 p-4 transition-all hover:bg-slate-50/80 group cursor-pointer ${
+                      className={`flex w-full gap-3 p-4 text-left transition-all hover:bg-slate-50/80 group cursor-pointer ${
                         isRead ? 'opacity-60 hover:opacity-100' : ''
                       }`}
                     >
                       <div className={`flex h-9 w-9 shrink-0 items-center justify-center rounded-xl ${notif.iconBg} border border-slate-100 group-hover:scale-105 transition-transform`}>
-                        {notif.icon}
+                        <NotificationIcon notification={notif} />
                       </div>
                       <div className="flex-1 space-y-1">
                         <div className="flex items-center justify-between">
@@ -209,9 +190,22 @@ export const Navbar = () => {
                           {notif.message}
                         </p>
                       </div>
-                    </a>
+                    </button>
                   );
                 })}
+              </div>
+              <div className="border-t border-border bg-white px-4 py-3">
+                <button
+                  type="button"
+                  onClick={() => {
+                    markAllAsRead(NOTIFICATIONS.map((n) => n.id));
+                    setShowNotifications(false);
+                    navigate(`/notifications/${FIRST_NOTIFICATION_ID}`);
+                  }}
+                  className="flex h-9 w-full items-center justify-center rounded-lg border-2 border-border bg-slate-900 text-[11px] font-black uppercase tracking-wider text-white shadow-pop transition-all hover:-translate-y-0.5"
+                >
+                  Xem tất cả thông báo
+                </button>
               </div>
             </div>
           )}
