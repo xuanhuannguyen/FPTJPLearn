@@ -360,9 +360,15 @@ public class KanjiService : IKanjiService
 
     private static string ResolveLessonAccessTier(KanjiLesson lesson)
     {
-        return string.Equals(lesson.PackageCode, "kanji_jpd123", StringComparison.OrdinalIgnoreCase) && lesson.LessonNumber == 4
+        return IsDefaultFreeLesson(lesson)
             ? KanjiAccessTiers.Free
             : lesson.AccessTier;
+    }
+
+    private static bool IsDefaultFreeLesson(KanjiLesson lesson)
+    {
+        return (string.Equals(lesson.PackageCode, "kanji_jpd113", StringComparison.OrdinalIgnoreCase) && lesson.LessonNumber == 1)
+            || (string.Equals(lesson.PackageCode, "kanji_jpd123", StringComparison.OrdinalIgnoreCase) && lesson.LessonNumber == 4);
     }
 
     private static string? ResolvePackageCode(KanjiItem item)

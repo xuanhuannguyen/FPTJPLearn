@@ -5,12 +5,12 @@
     "lessonNumber": 4,
     "title": "Địa điểm và Phương hướng",
     "description": "Địa điểm và Phương hướng - JPD123 Kanji N5.",
-    "accessTier": "premium",
+    "accessTier": "free",
     "packageCode": "kanji_jpd123",
     "orderIndex": 4,
     "kanjiCount": 10,
     "vocabularyCount": 15,
-    "isLocked": true
+    "isLocked": false
   },
   {
     "id": "kanji-jpd123-n5-5",

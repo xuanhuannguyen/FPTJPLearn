@@ -39,7 +39,8 @@ public class SeedController : ControllerBase
         foreach (var lesson in kanjiLessons)
         {
             // Lesson 1 (JPD113) and Lesson 4 (First lesson of JPD123) are free
-            var isFree = lesson.LessonNumber == 1 || lesson.LessonNumber == 4;
+            var isFree = (string.Equals(lesson.PackageCode, "kanji_jpd113", StringComparison.OrdinalIgnoreCase) && lesson.LessonNumber == 1)
+                || (string.Equals(lesson.PackageCode, "kanji_jpd123", StringComparison.OrdinalIgnoreCase) && lesson.LessonNumber == 4);
             var newTier = isFree ? "free" : "premium";
             if (lesson.AccessTier != newTier)
             {
