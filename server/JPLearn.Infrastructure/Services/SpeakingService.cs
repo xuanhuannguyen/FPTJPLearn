@@ -146,18 +146,12 @@ public class SpeakingService : ISpeakingService
 
     private static bool IsHalfLicensingFreeSpeakingLesson(SpeakingLesson lesson)
     {
-        var type = string.IsNullOrWhiteSpace(lesson.LessonType)
-            ? SpeakingLessonTypes.Reading
-            : lesson.LessonType.Trim().ToLowerInvariant();
+        return lesson.LessonNumber <= GetFirstTwoLessonLimit(lesson.CourseCode);
+    }
 
-        if (type == SpeakingLessonTypes.Reading)
-        {
-            return lesson.LessonNumber <= 10;
-        }
-
-        return type == SpeakingLessonTypes.Qa
-            && ((lesson.CourseCode == SpeakingCourseCodes.JPD113 && lesson.LessonNumber == 1)
-                || (lesson.CourseCode == SpeakingCourseCodes.JPD123 && lesson.LessonNumber == 4));
+    private static int GetFirstTwoLessonLimit(string courseCode)
+    {
+        return courseCode == SpeakingCourseCodes.JPD123 ? 5 : 2;
     }
 
     private static string? ResolvePackageCode(string? packageCode, string courseCode)

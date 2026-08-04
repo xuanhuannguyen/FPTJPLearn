@@ -193,7 +193,7 @@ export const SpeakingCoursePage = () => {
   const isQaLessonLocked = useCallback((lessonIndex: number, hasOverview: boolean) => {
     if (!hasOverview) return true;
     if (courseCode && hasCourseAccess(`speaking_${courseCode}`)) return false;
-    return !(isHalfLicensing && lessonIndex === 0);
+    return !(isHalfLicensing && lessonIndex < 2);
   }, [courseCode, hasCourseAccess, isHalfLicensing]);
 
   // Compute original questions for study

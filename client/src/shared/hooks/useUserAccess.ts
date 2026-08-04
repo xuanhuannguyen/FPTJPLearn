@@ -148,9 +148,7 @@ function isHalfLicensingFreeModule(packageCode?: string | null) {
 
   return code.startsWith('vocab_')
     || code.startsWith('grammar_')
-    || code.startsWith('kanji_')
-    || code === 'jpd113'
-    || code === 'jpd123';
+    || code.startsWith('kanji_');
 }
 
 function isHalfLicensingFreeSpeakingContent(content: AccessControlledContent) {
@@ -164,13 +162,10 @@ function isHalfLicensingFreeSpeakingContent(content: AccessControlledContent) {
     return false;
   }
 
-  if (lessonType === 'reading') {
-    return lessonNumber <= 10;
-  }
+  if (lessonType !== 'reading' && lessonType !== 'qa') return false;
 
-  return lessonType === 'qa'
-    && ((code.includes('jpd113') && lessonNumber === 1)
-      || (code.includes('jpd123') && lessonNumber === 4));
+  const firstTwoLessonLimit = code.includes('jpd123') ? 5 : 2;
+  return lessonNumber <= firstTwoLessonLimit;
 }
 
 export function useUserAccess() {

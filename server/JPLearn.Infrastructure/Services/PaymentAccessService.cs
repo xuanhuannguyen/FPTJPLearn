@@ -70,7 +70,6 @@ public class PaymentAccessService : IPaymentAccessService
 
         return code.StartsWith("vocab_")
             || code.StartsWith("grammar_")
-            || code.StartsWith("kanji_")
-            || code is "jpd113" or "jpd123";
+            || code.StartsWith("kanji_");
     }
 }

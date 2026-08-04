@@ -142,9 +142,9 @@ public class OrderController : ApiControllerBase
     {
         return Ok(new object[]
         {
-            new { code = PackageCodes.JPD113, name = "JPD113", price = 30000, originalPrice = (int?)null, duration = "6 tháng", discount = (string?)null, isSalesEnabled = true },
-            new { code = PackageCodes.JPD123, name = "JPD123", price = 30000, originalPrice = (int?)null, duration = "6 tháng", discount = (string?)null, isSalesEnabled = true },
-            new { code = PackageCodes.Combo, name = "Combo JPD113 + JPD123", price = 50000, originalPrice = (int?)60000, duration = "6 tháng", discount = (string?)"Giảm 10,000đ", isSalesEnabled = true }
+            new { code = PackageCodes.JPD113, name = "JPD113", price = 40000, originalPrice = (int?)null, duration = "6 tháng", discount = (string?)null, isSalesEnabled = true },
+            new { code = PackageCodes.JPD123, name = "JPD123", price = 40000, originalPrice = (int?)null, duration = "6 tháng", discount = (string?)null, isSalesEnabled = true },
+            new { code = PackageCodes.Combo, name = "Combo JPD113 + JPD123", price = 70000, originalPrice = (int?)80000, duration = "6 tháng", discount = (string?)"Giảm 10,000đ", isSalesEnabled = true }
         });
     }
 

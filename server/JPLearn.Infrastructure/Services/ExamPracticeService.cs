@@ -2,7 +2,6 @@ using JPLearn.Core.ExamPractice;
 using JPLearn.Core.ExamPractice.DTOs;
 using JPLearn.Core.ExamPractice.Entities;
 using JPLearn.Core.Payments;
-using JPLearn.Core.Settings;
 using JPLearn.Infrastructure.Data;
 using Microsoft.EntityFrameworkCore;
 
@@ -12,13 +11,11 @@ public class ExamPracticeService : IExamPracticeService
 {
     private readonly AppDbContext _db;
     private readonly IPaymentAccessService _paymentAccess;
-    private readonly IAccessSettingsService _accessSettings;
 
-    public ExamPracticeService(AppDbContext db, IPaymentAccessService paymentAccess, IAccessSettingsService accessSettings)
+    public ExamPracticeService(AppDbContext db, IPaymentAccessService paymentAccess)
     {
         _db = db;
         _paymentAccess = paymentAccess;
-        _accessSettings = accessSettings;
     }
 
     public async Task<List<ExamCourseDto>> GetCoursesAsync(Guid userId)
@@ -146,7 +143,7 @@ public class ExamPracticeService : IExamPracticeService
             .Include(item => item.Options.OrderBy(option => option.OrderIndex))
             .FirstOrDefaultAsync(item => item.Id == questionId && item.IsActive);
 
-        return question == null || !await IsQuestionAccessibleAsync(userId, question)
+        return question == null || !IsQuestionAccessible(userId, question)
             ? null
             : MapQuestionDetail(question);
     }
@@ -159,7 +156,7 @@ public class ExamPracticeService : IExamPracticeService
             .FirstOrDefaultAsync(item => item.Id == questionId && item.IsActive);
 
         if (question == null
-            || !await IsQuestionAccessibleAsync(userId, question)
+            || !IsQuestionAccessible(userId, question)
             || question.Options.All(option => option.Id != dto.SelectedOptionId))
         {
             return null;
@@ -367,13 +364,6 @@ public class ExamPracticeService : IExamPracticeService
             .Where(course => course.IsActive)
             .ToListAsync();
 
-        if (_accessSettings.IsHalfLicensingEnabled())
-        {
-            return courses
-                .Select(course => course.Code)
-                .ToHashSet(StringComparer.OrdinalIgnoreCase);
-        }
-
         return courses
             .Where(course => _paymentAccess.HasContentAccess(
                 userId,
@@ -390,11 +380,6 @@ public class ExamPracticeService : IExamPracticeService
             return true;
         }
 
-        if (_accessSettings.IsHalfLicensingEnabled())
-        {
-            return false;
-        }
-
         return _paymentAccess.IsContentLocked(userId, ResolveCourseAccessTier(course), ResolveCoursePackageCode(course));
     }
 
@@ -406,84 +391,15 @@ public class ExamPracticeService : IExamPracticeService
             .ThenBy(question => question.Id)
             .ToListAsync();
 
-        if (!_accessSettings.IsHalfLicensingEnabled())
-        {
-            var accessibleCourseCodes = await GetAccessibleCourseCodesAsync(userId);
-            return questions
-                .Where(question => accessibleCourseCodes.Contains(question.CourseCode))
-                .ToList();
-        }
-
-        var fullAccessCourseCodes = await GetFullAccessCourseCodesAsync(userId);
+        var accessibleCourseCodes = await GetAccessibleCourseCodesAsync(userId);
         return questions
-            .GroupBy(question => new { question.CourseCode, question.Topic })
-            .SelectMany(group =>
-            {
-                var ordered = group
-                    .OrderBy(question => question.OrderIndex)
-                    .ThenBy(question => question.Id)
-                    .ToList();
-
-                return fullAccessCourseCodes.Contains(group.Key.CourseCode)
-                    ? ordered
-                    : ordered.Take(GetHalfFreeQuestionCount(ordered.Count));
-            })
-            .OrderBy(question => question.Topic)
-            .ThenBy(question => question.OrderIndex)
-            .ThenBy(question => question.Id)
+            .Where(question => accessibleCourseCodes.Contains(question.CourseCode))
             .ToList();
     }
 
-    private async Task<bool> IsQuestionAccessibleAsync(Guid userId, ExamQuestion question)
+    private bool IsQuestionAccessible(Guid userId, ExamQuestion question)
     {
-        if (!_accessSettings.IsHalfLicensingEnabled())
-        {
-            return !IsCourseLocked(userId, question.Course);
-        }
-
-        var fullAccessCourseCodes = await GetFullAccessCourseCodesAsync(userId);
-        if (fullAccessCourseCodes.Contains(question.CourseCode))
-        {
-            return true;
-        }
-
-        var topicQuestionIds = await _db.ExamQuestions
-            .Where(item => item.IsActive
-                && item.CourseCode == question.CourseCode
-                && item.Topic == question.Topic
-                && item.Options.Any(option => option.IsCorrect))
-            .OrderBy(item => item.OrderIndex)
-            .ThenBy(item => item.Id)
-            .Select(item => item.Id)
-            .ToListAsync();
-
-        var freeCount = GetHalfFreeQuestionCount(topicQuestionIds.Count);
-        return topicQuestionIds.Take(freeCount).Contains(question.Id);
-    }
-
-    private async Task<HashSet<string>> GetFullAccessCourseCodesAsync(Guid userId)
-    {
-        if (userId == Guid.Empty)
-        {
-            return new HashSet<string>(StringComparer.OrdinalIgnoreCase);
-        }
-
-        var courseCodes = await _db.Subscriptions
-            .Where(subscription => subscription.UserId == userId && subscription.ExpiresAt > DateTime.UtcNow)
-            .Select(subscription => subscription.CourseCode)
-            .ToListAsync();
-
-        return courseCodes.ToHashSet(StringComparer.OrdinalIgnoreCase);
-    }
-
-    private static int GetHalfFreeQuestionCount(int totalCount)
-    {
-        if (totalCount <= 0)
-        {
-            return 0;
-        }
-
-        return Math.Max(1, totalCount / 2);
+        return !IsCourseLocked(userId, question.Course);
     }
 
     private static string ResolveCourseAccessTier(ExamCourse course)
