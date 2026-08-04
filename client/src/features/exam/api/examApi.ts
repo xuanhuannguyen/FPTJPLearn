@@ -3,13 +3,10 @@ import type {
   ExamAnswerResult,
   ExamAttempt,
   ExamAttemptAnswer,
-  ExamAttemptQuestion,
   ExamAttemptReview,
-  ExamAttemptReviewQuestion,
   ExamCourse,
   ExamQuestion,
   ExamQuestionDetail,
-  ExamReviewOption,
   ExamTopic,
   StartExamAttemptRequest,
 } from '../types/exam.types';

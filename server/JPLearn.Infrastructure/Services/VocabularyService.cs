@@ -22,7 +22,7 @@ public class VocabularyService : IVocabularyService
     public async Task<Guid> ImportAsync(Guid userId, ImportVocabularyDto dto)
     {
         // 1. Kiểm tra quyền Premium (bất kỳ khóa nào còn hạn)
-        var isPremium = IsFreeExperienceEnabled() || await _db.Subscriptions.AnyAsync(s => 
+        var isPremium = IsHalfLicensingEnabled() || await _db.Subscriptions.AnyAsync(s =>
             s.UserId == userId && s.ExpiresAt > DateTime.UtcNow);
 
         if (isPremium)
@@ -254,7 +254,7 @@ public class VocabularyService : IVocabularyService
 
     public async Task<VocabularyQuotaDto> GetQuotaAsync(Guid userId)
     {
-        var isPremium = IsFreeExperienceEnabled() || await _db.Subscriptions.AnyAsync(s => 
+        var isPremium = IsHalfLicensingEnabled() || await _db.Subscriptions.AnyAsync(s =>
             s.UserId == userId && s.ExpiresAt > DateTime.UtcNow);
 
         if (isPremium)
@@ -287,8 +287,8 @@ public class VocabularyService : IVocabularyService
         }
     }
 
-    private bool IsFreeExperienceEnabled()
+    private bool IsHalfLicensingEnabled()
     {
-        return _accessSettings.IsFreeExperienceEnabled();
+        return _accessSettings.IsHalfLicensingEnabled();
     }
 }

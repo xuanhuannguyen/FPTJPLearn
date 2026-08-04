@@ -5,7 +5,7 @@
 Prepare JPLearn for paid operation with two production-critical controls:
 
 - One active device per account. A new login invalidates the older device session.
-- Central licensing mode. When licensing is enabled, free users can only access free lessons and paid users can access lessons for their active package.
+- Central licensing mode. The site runs in either half licensing or full licensing. Paid users can access all content for their active package.
 
 ## Current State
 
@@ -13,19 +13,27 @@ Prepare JPLearn for paid operation with two production-critical controls:
 - `AppUser.ActiveDeviceToken` already exists.
 - `/api/auth/sync` already records the active device token.
 - `FirebaseAuthMiddleware` already blocks stale device tokens with `ACCOUNT_LOGGED_IN_ELSEWHERE`.
-- `PaymentAccessService` already supports free-experience mode through `Payments:FreeExperienceEnabled`.
+- `PaymentAccessService` supports runtime access policy through `Access:PolicyMode`.
 - Active vocabulary already uses free/premium quota behavior.
 - Frontend access now reads backend truth through `/api/access/me`.
 
 ## Access Policy
 
-### Licensing Off
+### Half Licensing
 
-- All content is accessible.
-- Orders/pricing can show free-experience messaging.
-- Import quota behaves as premium.
+- Vocabulary, grammar, and kanji are free for JPD113 and JPD123.
+- Speaking:
+  - JPD113 reading lessons 1-10 are free.
+  - JPD113 Q&A lesson 1 is free.
+  - JPD123 reading lessons 1-10 are free.
+  - JPD123 Q&A lesson 4 is free.
+- Exam practice:
+  - Free users can access the first half of questions in each topic, ordered by `OrderIndex`.
+  - Paid users can access all questions for their active package.
+- Active vocabulary import limit behaves as premium: 10 imports per day.
+- Orders/pricing remain enabled so users can buy a package to unlock everything.
 
-### Licensing On
+### Full Licensing
 
 - Free users:
   - JPD113 vocabulary, grammar, kanji: lesson 1 free.
@@ -56,6 +64,7 @@ Prepare JPLearn for paid operation with two production-critical controls:
 
 - Add `GET /api/access/me`.
 - Response shape:
+  - `accessPolicyMode`
   - `licensingEnabled`
   - `freeExperienceEnabled`
   - `activeCourseCodes`
@@ -90,18 +99,18 @@ Prepare JPLearn for paid operation with two production-critical controls:
   - Admin route: `/jplearn-manage-xh21/access-settings`
 - Runtime setting is stored in DB table `AppSettings`.
 - If DB setting is absent, backend falls back to appsettings:
-  - `Payments:FreeExperienceEnabled = false`
+  - `Access:PolicyMode = half`
 - Operating rule:
-  - Licensing on = `freeExperienceEnabled=false`
-  - Licensing off = `freeExperienceEnabled=true`
+  - Half licensing = `accessPolicyMode=half`
+  - Full licensing = `accessPolicyMode=full`
 
 ### Phase 6: Launch Checklist
 
 - Login account A on device 1.
 - Login same account A on device 2.
 - Device 1 receives stale-session logout on next API call.
-- With free experience on, all lessons open.
-- With free experience off, free user only sees configured free lessons.
+- With half licensing on, free user sees the half-access policy.
+- With full licensing on, free user only sees configured free lessons.
 - JPD113 subscriber opens JPD113 premium lessons but not JPD123.
 - JPD123 subscriber opens JPD123 premium lessons but not JPD113.
 - Paid user active vocabulary quota is 10 per day.
@@ -136,6 +145,6 @@ dotnet ef database update --project server/JPLearn.Infrastructure --startup-proj
 ## Operating Notes
 
 - Runtime licensing is controlled from `/jplearn-manage-xh21/access-settings`.
-- Backend setting key is `Payments:FreeExperienceEnabled`.
-- If DB setting is missing, backend falls back to `appsettings`.
+- Backend setting key is `Access:PolicyMode`.
+- If DB setting is missing, backend falls back to `appsettings`; legacy `Payments:FreeExperienceEnabled=true` maps to half licensing and `false` maps to full licensing.
 - Frontend no longer uses `VITE_FREE_EXPERIENCE_ENABLED`; backend/admin setting is the source of truth.

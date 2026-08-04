@@ -27,24 +27,10 @@ export const Navbar = () => {
   const { readIds, markAsRead, markAllAsRead } = useNotificationReads();
   const [showMenu, setShowMenu] = useState(false);
   const [showNotifications, setShowNotifications] = useState(false);
-  const [showLedBanner, setShowLedBanner] = useState(true);
-  const [bannerRunId, setBannerRunId] = useState(0);
   const menuRef = useRef<HTMLDivElement>(null);
   const bellRef = useRef<HTMLDivElement>(null);
 
   const unreadCount = NOTIFICATIONS.filter(n => !readIds.includes(n.id)).length;
-  const ledBannerText = `${NOTIFICATIONS.map((notification) => notification.title).join('   •   ')}   •   Xem chi tiết ở thông báo`;
-
-  useEffect(() => {
-    const runBanner = () => {
-      setBannerRunId((current) => current + 1);
-      setShowLedBanner(true);
-    };
-
-    const intervalId = window.setInterval(runBanner, 120000);
-
-    return () => window.clearInterval(intervalId);
-  }, []);
 
   useEffect(() => {
     const handleClickOutside = (e: MouseEvent) => {
@@ -90,21 +76,6 @@ export const Navbar = () => {
         ) : null}
       </div>
       
-      {showLedBanner ? (
-        <button
-          key={bannerRunId}
-          type="button"
-          onClick={() => navigate(`/notifications/${FIRST_NOTIFICATION_ID}`)}
-          onAnimationEnd={() => setShowLedBanner(false)}
-          className="absolute left-1/2 top-1/2 hidden h-8 w-[50vw] max-w-[680px] -translate-x-1/2 -translate-y-1/2 overflow-hidden rounded-lg border-2 border-blue-200 bg-blue-50 text-left shadow-[2px_2px_0_#111827] md:block"
-          aria-label="Mở thông báo"
-        >
-          <span className="led-banner-text whitespace-nowrap px-4 text-xs font-black uppercase tracking-wider text-blue-700">
-            {ledBannerText}
-          </span>
-        </button>
-      ) : null}
-
       <div className="ml-4 flex items-center gap-2">
         {licensingEnabled ? (
           <Link

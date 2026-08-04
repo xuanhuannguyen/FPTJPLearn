@@ -45,8 +45,9 @@ export function PricingPage() {
   const [timeLeft, setTimeLeft] = useState(300); // 5 minutes in seconds
   
   const { user } = useAuthStore();
-  const { freeExperienceEnabled, isLoading: isAccessLoading, subscriptions } = useUserAccess();
+  const { accessPolicyMode, isLoading: isAccessLoading, subscriptions } = useUserAccess();
   const navigate = useNavigate();
+  const isHalfPolicy = accessPolicyMode === 'half';
 
   const activeCourses = subscriptions
     .filter((subscription) => subscription.isActive)
@@ -126,8 +127,6 @@ export function PricingPage() {
   };
 
   const handleBuy = async (packageCode: string) => {
-    if (freeExperienceEnabled) return;
-
     if (!user) {
       navigate('/login');
       return;
@@ -168,11 +167,11 @@ export function PricingPage() {
     <div className="pricing-page">
       <div className="pricing-header">
         <h1 className="pricing-title">
-          {freeExperienceEnabled ? 'Toàn bộ nội dung đang mở miễn phí' : 'Mở khóa toàn bộ nội dung'}
+          {isHalfPolicy ? 'Mở khóa toàn bộ nội dung' : 'Mở khóa Premium'}
         </h1>
         <p className="pricing-subtitle">
-          {freeExperienceEnabled
-            ? 'Tính năng mua Premium đang tạm tắt trong thời gian trải nghiệm.'
+          {isHalfPolicy
+            ? 'Một phần nội dung đang miễn phí. Mua gói để học trọn bộ luyện nói và luyện thi.'
             : 'Chọn gói phù hợp với bạn để truy cập đầy đủ bài học'}
         </p>
       </div>
@@ -210,18 +209,16 @@ export function PricingPage() {
             <button
               className={`pricing-card-btn ${pkg.code === 'combo' ? 'pricing-card-btn--featured' : ''} ${isPackageLocked(pkg.code) ? 'pricing-card-btn--locked' : ''}`}
               onClick={() => handleBuy(pkg.code)}
-              disabled={freeExperienceEnabled || loading !== null || isAccessLoading || isPackageLocked(pkg.code)}
+              disabled={loading !== null || isAccessLoading || isPackageLocked(pkg.code)}
             >
-              {freeExperienceEnabled ? 'Đang mở miễn phí' : getButtonText(pkg)}
+              {getButtonText(pkg)}
             </button>
           </div>
         ))}
       </div>
 
       <p className="pricing-note">
-        {freeExperienceEnabled
-          ? 'Bạn có thể học toàn bộ nội dung mà không cần mua gói Premium.'
-          : 'Thanh toán qua chuyển khoản ngân hàng • Mở khóa tự động trong vài giây'}
+        Thanh toán qua chuyển khoản ngân hàng • Mở khóa tự động trong vài giây
       </p>
 
       {/* Payment Modal */}

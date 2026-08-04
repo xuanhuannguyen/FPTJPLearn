@@ -2,6 +2,7 @@ using JPLearn.Core.Speaking;
 using JPLearn.Core.Speaking.DTOs;
 using JPLearn.Core.Speaking.Entities;
 using JPLearn.Core.Payments;
+using JPLearn.Core.Settings;
 using JPLearn.Infrastructure.Data;
 using Microsoft.EntityFrameworkCore;
 
@@ -11,11 +12,13 @@ public class SpeakingService : ISpeakingService
 {
     private readonly AppDbContext _db;
     private readonly IPaymentAccessService _paymentAccess;
+    private readonly IAccessSettingsService _accessSettings;
 
-    public SpeakingService(AppDbContext db, IPaymentAccessService paymentAccess)
+    public SpeakingService(AppDbContext db, IPaymentAccessService paymentAccess, IAccessSettingsService accessSettings)
     {
         _db = db;
         _paymentAccess = paymentAccess;
+        _accessSettings = accessSettings;
     }
 
     public async Task<List<SpeakingCourseDto>> GetCoursesAsync(Guid userId)
@@ -33,11 +36,11 @@ public class SpeakingService : ISpeakingService
             Code = course.Code,
             Title = course.Title,
             Description = course.Description,
-            AccessTier = ResolveAccessTier(course.AccessTier, course.Code),
+            AccessTier = ResolveCourseAccessTier(course.AccessTier, course.Code),
             PackageCode = ResolvePackageCode(course.PackageCode, course.Code),
             IsLocked = _paymentAccess.IsContentLocked(
                 userId,
-                ResolveAccessTier(course.AccessTier, course.Code),
+                ResolveCourseAccessTier(course.AccessTier, course.Code),
                 ResolvePackageCode(course.PackageCode, course.Code)),
             LessonCount = course.Lessons.Count,
             SentenceCount = course.Lessons.SelectMany(lesson => lesson.Sentences).Count()
@@ -75,7 +78,7 @@ public class SpeakingService : ISpeakingService
 
         if (_paymentAccess.IsContentLocked(
             userId,
-            ResolveAccessTier(lesson.AccessTier, lesson.CourseCode),
+            ResolveLessonAccessTier(lesson),
             ResolvePackageCode(lesson.PackageCode, lesson.CourseCode)))
         {
             return null;
@@ -101,24 +104,60 @@ public class SpeakingService : ISpeakingService
             LessonNumber = lesson.LessonNumber,
             Title = lesson.Title,
             Description = lesson.Description,
-            AccessTier = ResolveAccessTier(lesson.AccessTier, lesson.CourseCode),
+            AccessTier = ResolveLessonAccessTier(lesson),
             PackageCode = ResolvePackageCode(lesson.PackageCode, lesson.CourseCode),
             IsLocked = _paymentAccess.IsContentLocked(
                 userId,
-                ResolveAccessTier(lesson.AccessTier, lesson.CourseCode),
+                ResolveLessonAccessTier(lesson),
                 ResolvePackageCode(lesson.PackageCode, lesson.CourseCode)),
             SentenceCount = lesson.Sentences.Count(sentence => sentence.IsActive),
             LessonType = lesson.LessonType
         };
     }
 
-    private static string ResolveAccessTier(string? accessTier, string courseCode)
+    private string ResolveCourseAccessTier(string? accessTier, string courseCode)
+    {
+        if (_accessSettings.IsHalfLicensingEnabled() && SpeakingCourseCodes.IsValid(courseCode))
+        {
+            return SpeakingAccessTiers.Free;
+        }
+
+        return ResolveBaseAccessTier(accessTier, courseCode);
+    }
+
+    private string ResolveLessonAccessTier(SpeakingLesson lesson)
+    {
+        if (_accessSettings.IsHalfLicensingEnabled() && IsHalfLicensingFreeSpeakingLesson(lesson))
+        {
+            return SpeakingAccessTiers.Free;
+        }
+
+        return ResolveBaseAccessTier(lesson.AccessTier, lesson.CourseCode);
+    }
+
+    private static string ResolveBaseAccessTier(string? accessTier, string courseCode)
     {
         return SpeakingCourseCodes.IsValid(courseCode)
             ? SpeakingAccessTiers.Premium
             : string.IsNullOrWhiteSpace(accessTier)
                 ? SpeakingAccessTiers.Free
                 : accessTier.Trim().ToLowerInvariant();
+    }
+
+    private static bool IsHalfLicensingFreeSpeakingLesson(SpeakingLesson lesson)
+    {
+        var type = string.IsNullOrWhiteSpace(lesson.LessonType)
+            ? SpeakingLessonTypes.Reading
+            : lesson.LessonType.Trim().ToLowerInvariant();
+
+        if (type == SpeakingLessonTypes.Reading)
+        {
+            return lesson.LessonNumber <= 10;
+        }
+
+        return type == SpeakingLessonTypes.Qa
+            && ((lesson.CourseCode == SpeakingCourseCodes.JPD113 && lesson.LessonNumber == 1)
+                || (lesson.CourseCode == SpeakingCourseCodes.JPD123 && lesson.LessonNumber == 4));
     }
 
     private static string? ResolvePackageCode(string? packageCode, string courseCode)

@@ -17,15 +17,15 @@ public class PaymentAccessService : IPaymentAccessService
 
     public bool HasContentAccess(Guid userId, string? accessTier, string? packageCode)
     {
-        if (IsFreeExperienceEnabled())
-            return true;
-
         var normalizedTier = string.IsNullOrWhiteSpace(accessTier)
             ? PaymentAccessTiers.Free
             : accessTier.Trim().ToLowerInvariant();
 
         // Free content = always accessible
         if (normalizedTier == PaymentAccessTiers.Free)
+            return true;
+
+        if (IsHalfLicensingEnabled() && IsHalfLicensingFreeModule(packageCode))
             return true;
 
         // Guest = no premium
@@ -58,8 +58,19 @@ public class PaymentAccessService : IPaymentAccessService
         return code;
     }
 
-    private bool IsFreeExperienceEnabled()
+    private bool IsHalfLicensingEnabled()
     {
-        return _accessSettings.IsFreeExperienceEnabled();
+        return _accessSettings.IsHalfLicensingEnabled();
+    }
+
+    private static bool IsHalfLicensingFreeModule(string? packageCode)
+    {
+        if (string.IsNullOrWhiteSpace(packageCode)) return false;
+        var code = packageCode.Trim().ToLowerInvariant();
+
+        return code.StartsWith("vocab_")
+            || code.StartsWith("grammar_")
+            || code.StartsWith("kanji_")
+            || code is "jpd113" or "jpd123";
     }
 }

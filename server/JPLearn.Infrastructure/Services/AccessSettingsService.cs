@@ -8,6 +8,7 @@ namespace JPLearn.Infrastructure.Services;
 
 public class AccessSettingsService : IAccessSettingsService
 {
+    public const string AccessPolicyModeKey = "Access:PolicyMode";
     public const string FreeExperienceEnabledKey = "Payments:FreeExperienceEnabled";
 
     private readonly AppDbContext _db;
@@ -19,57 +20,86 @@ public class AccessSettingsService : IAccessSettingsService
         _configuration = configuration;
     }
 
-    public bool IsFreeExperienceEnabled()
+    public string GetAccessPolicyMode()
     {
         var setting = _db.AppSettings
             .AsNoTracking()
-            .FirstOrDefault(s => s.Key == FreeExperienceEnabledKey);
+            .FirstOrDefault(s => s.Key == AccessPolicyModeKey);
 
-        if (setting != null && bool.TryParse(setting.Value, out var dbValue))
+        if (setting != null)
         {
-            return dbValue;
+            return AccessPolicyModes.Normalize(setting.Value);
         }
 
-        return GetConfiguredDefault();
+        return GetConfiguredPolicyModeDefault();
     }
 
-    public async Task<bool> IsFreeExperienceEnabledAsync(CancellationToken cancellationToken = default)
+    public async Task<string> GetAccessPolicyModeAsync(CancellationToken cancellationToken = default)
     {
         var setting = await _db.AppSettings
             .AsNoTracking()
-            .FirstOrDefaultAsync(s => s.Key == FreeExperienceEnabledKey, cancellationToken);
+            .FirstOrDefaultAsync(s => s.Key == AccessPolicyModeKey, cancellationToken);
 
-        if (setting != null && bool.TryParse(setting.Value, out var dbValue))
+        if (setting != null)
         {
-            return dbValue;
+            return AccessPolicyModes.Normalize(setting.Value);
         }
 
-        return GetConfiguredDefault();
+        return GetConfiguredPolicyModeDefault();
     }
 
-    public async Task SetFreeExperienceEnabledAsync(bool isEnabled, CancellationToken cancellationToken = default)
+    public async Task SetAccessPolicyModeAsync(string mode, CancellationToken cancellationToken = default)
     {
+        var normalizedMode = AccessPolicyModes.Normalize(mode);
         var setting = await _db.AppSettings
-            .FirstOrDefaultAsync(s => s.Key == FreeExperienceEnabledKey, cancellationToken);
+            .FirstOrDefaultAsync(s => s.Key == AccessPolicyModeKey, cancellationToken);
 
         if (setting == null)
         {
             setting = new AppSetting
             {
-                Key = FreeExperienceEnabledKey,
-                Description = "When true, all paid content is opened for free experience mode."
+                Key = AccessPolicyModeKey,
+                Description = "Access policy mode: half or full licensing."
             };
             _db.AppSettings.Add(setting);
         }
 
-        setting.Value = isEnabled.ToString().ToLowerInvariant();
+        setting.Value = normalizedMode;
         setting.UpdatedAt = DateTime.UtcNow;
 
         await _db.SaveChangesAsync(cancellationToken);
     }
 
-    private bool GetConfiguredDefault()
+    public bool IsHalfLicensingEnabled()
     {
-        return !bool.TryParse(_configuration[FreeExperienceEnabledKey], out var isEnabled) || isEnabled;
+        return GetAccessPolicyMode() == AccessPolicyModes.Half;
+    }
+
+    public bool IsFreeExperienceEnabled()
+    {
+        return IsHalfLicensingEnabled();
+    }
+
+    public async Task<bool> IsFreeExperienceEnabledAsync(CancellationToken cancellationToken = default)
+    {
+        return await GetAccessPolicyModeAsync(cancellationToken) == AccessPolicyModes.Half;
+    }
+
+    public async Task SetFreeExperienceEnabledAsync(bool isEnabled, CancellationToken cancellationToken = default)
+    {
+        await SetAccessPolicyModeAsync(isEnabled ? AccessPolicyModes.Half : AccessPolicyModes.Full, cancellationToken);
+    }
+
+    private string GetConfiguredPolicyModeDefault()
+    {
+        var configuredMode = _configuration[AccessPolicyModeKey];
+        if (!string.IsNullOrWhiteSpace(configuredMode))
+        {
+            return AccessPolicyModes.Normalize(configuredMode);
+        }
+
+        return bool.TryParse(_configuration[FreeExperienceEnabledKey], out var freeExperienceEnabled) && !freeExperienceEnabled
+            ? AccessPolicyModes.Full
+            : AccessPolicyModes.Half;
     }
 }

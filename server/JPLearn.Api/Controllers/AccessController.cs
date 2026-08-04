@@ -21,7 +21,8 @@ public class AccessController : ApiControllerBase
     [HttpGet("me")]
     public async Task<IActionResult> GetMyAccess()
     {
-        var freeExperienceEnabled = IsFreeExperienceEnabled();
+        var accessPolicyMode = _accessSettings.GetAccessPolicyMode();
+        var isHalfLicensing = accessPolicyMode == AccessPolicyModes.Half;
         var userId = CurrentUserId;
         var now = DateTime.UtcNow;
 
@@ -43,19 +44,16 @@ public class AccessController : ApiControllerBase
             .ToList();
 
         return Ok(new AccessStatusDto(
-            LicensingEnabled: !freeExperienceEnabled,
-            FreeExperienceEnabled: freeExperienceEnabled,
+            AccessPolicyMode: accessPolicyMode,
+            LicensingEnabled: true,
+            FreeExperienceEnabled: isHalfLicensing,
             ActiveCourseCodes: activeCourseCodes,
             Subscriptions: subscriptions));
-    }
-
-    private bool IsFreeExperienceEnabled()
-    {
-        return _accessSettings.IsFreeExperienceEnabled();
     }
 }
 
 public sealed record AccessStatusDto(
+    string AccessPolicyMode,
     bool LicensingEnabled,
     bool FreeExperienceEnabled,
     IReadOnlyList<string> ActiveCourseCodes,

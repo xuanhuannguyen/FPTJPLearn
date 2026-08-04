@@ -165,11 +165,12 @@ public class AdminController : ControllerBase
     {
         if (!IsAdmin()) return Unauthorized();
 
-        var freeExperienceEnabled = await _accessSettings.IsFreeExperienceEnabledAsync();
+        var accessPolicyMode = await _accessSettings.GetAccessPolicyModeAsync();
         return Ok(new
         {
-            licensingEnabled = !freeExperienceEnabled,
-            freeExperienceEnabled
+            accessPolicyMode,
+            licensingEnabled = true,
+            freeExperienceEnabled = accessPolicyMode == AccessPolicyModes.Half
         });
     }
 
@@ -178,13 +179,14 @@ public class AdminController : ControllerBase
     {
         if (!IsAdmin()) return Unauthorized();
 
-        var freeExperienceEnabled = !request.LicensingEnabled;
-        await _accessSettings.SetFreeExperienceEnabledAsync(freeExperienceEnabled);
+        var accessPolicyMode = AccessPolicyModes.Normalize(request.AccessPolicyMode);
+        await _accessSettings.SetAccessPolicyModeAsync(accessPolicyMode);
 
         return Ok(new
         {
-            licensingEnabled = request.LicensingEnabled,
-            freeExperienceEnabled
+            accessPolicyMode,
+            licensingEnabled = true,
+            freeExperienceEnabled = accessPolicyMode == AccessPolicyModes.Half
         });
     }
 
@@ -209,5 +211,5 @@ public class UpdateSubRequest
 
 public class UpdateAccessSettingsRequest
 {
-    public bool LicensingEnabled { get; set; }
+    public string AccessPolicyMode { get; set; } = AccessPolicyModes.Half;
 }

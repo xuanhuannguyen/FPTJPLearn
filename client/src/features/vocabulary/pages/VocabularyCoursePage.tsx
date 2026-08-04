@@ -73,11 +73,13 @@ export const VocabularyCoursePage = () => {
             >
               <div className={`absolute left-0 top-0 h-full w-2 ${isComplete ? 'bg-accent-success' : 'bg-accent-primary'}`} />
 
-              <div className="book-cover relative flex h-24 w-[68px] shrink-0 items-center justify-center rounded-xl">
-                <div className="flex h-10 w-10 items-center justify-center rounded-full bg-white text-center font-heading text-[7px] font-black leading-none text-text-primary">
-                  TỪ<br />VỰNG
-                </div>
-              </div>
+              <img
+                src="/images/vocabulary/vocabulary-card.webp?v=2"
+                alt=""
+                className="h-24 w-[68px] shrink-0 rounded-xl border-2 border-border object-cover shadow-pop"
+                loading="lazy"
+                decoding="async"
+              />
 
               <div className="relative flex min-w-0 flex-1 flex-col justify-center">
                 <div className="flex items-start justify-between gap-3">

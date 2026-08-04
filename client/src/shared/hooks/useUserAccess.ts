@@ -6,6 +6,8 @@ type AccessControlledContent = {
   packageCode?: string | null;
   courseCode?: string | null;
   isLocked?: boolean | null;
+  lessonNumber?: number | null;
+  lessonType?: string | null;
 };
 
 type AccessSubscription = {
@@ -15,6 +17,7 @@ type AccessSubscription = {
 };
 
 type AccessStatus = {
+  accessPolicyMode: 'half' | 'full';
   licensingEnabled: boolean;
   freeExperienceEnabled: boolean;
   activeCourseCodes: string[];
@@ -22,6 +25,7 @@ type AccessStatus = {
 };
 
 const defaultAccessStatus: AccessStatus = {
+  accessPolicyMode: 'full',
   licensingEnabled: true,
   freeExperienceEnabled: false,
   activeCourseCodes: [],
@@ -58,6 +62,14 @@ function writeStoredAccessStatus(status: AccessStatus, cachedAt: number) {
   }
 }
 
+function normalizeAccessStatus(status: AccessStatus): AccessStatus {
+  return {
+    ...status,
+    accessPolicyMode: status.accessPolicyMode || (status.freeExperienceEnabled ? 'half' : 'full'),
+    licensingEnabled: true,
+  };
+}
+
 function removeStoredAccessStatus() {
   try {
     sessionStorage.removeItem(ACCESS_CACHE_STORAGE_KEY);
@@ -70,9 +82,9 @@ function getInitialAccessStatus() {
   const stored = readStoredAccessStatus();
   if (!stored) return null;
 
-  cachedAccessStatus = stored.status;
+  cachedAccessStatus = normalizeAccessStatus(stored.status);
   cachedAccessStatusAt = stored.cachedAt;
-  return stored.status;
+  return cachedAccessStatus;
 }
 
 const initialAccessStatus = getInitialAccessStatus();
@@ -85,10 +97,10 @@ export function clearUserAccessCache() {
 }
 
 export function setUserAccessCache(status: AccessStatus) {
-  cachedAccessStatus = status;
+  cachedAccessStatus = normalizeAccessStatus(status);
   cachedAccessStatusAt = Date.now();
   pendingAccessRequest = null;
-  writeStoredAccessStatus(status, cachedAccessStatusAt);
+  writeStoredAccessStatus(cachedAccessStatus, cachedAccessStatusAt);
 }
 
 export async function refreshUserAccessCache() {
@@ -103,10 +115,10 @@ async function fetchAccessStatus(forceRefresh = false) {
     pendingAccessRequest = apiClient
       .get<AccessStatus>('/access/me')
       .then((response) => {
-        cachedAccessStatus = response.data;
+        cachedAccessStatus = normalizeAccessStatus(response.data);
         cachedAccessStatusAt = Date.now();
-        writeStoredAccessStatus(response.data, cachedAccessStatusAt);
-        return response.data;
+        writeStoredAccessStatus(cachedAccessStatus, cachedAccessStatusAt);
+        return cachedAccessStatus;
       })
       .catch((error) => {
         console.error('Failed to fetch access status:', error);
@@ -128,6 +140,37 @@ function mapPackageToCourseCode(packageCode?: string | null) {
   if (code.includes('jpd123')) return 'jpd123';
 
   return code;
+}
+
+function isHalfLicensingFreeModule(packageCode?: string | null) {
+  if (!packageCode) return false;
+  const code = packageCode.trim().toLowerCase();
+
+  return code.startsWith('vocab_')
+    || code.startsWith('grammar_')
+    || code.startsWith('kanji_')
+    || code === 'jpd113'
+    || code === 'jpd123';
+}
+
+function isHalfLicensingFreeSpeakingContent(content: AccessControlledContent) {
+  const code = (content.packageCode || content.courseCode || '').trim().toLowerCase();
+  if (!code.includes('speaking') && code !== 'jpd113' && code !== 'jpd123') return false;
+
+  const lessonType = content.lessonType?.trim().toLowerCase();
+  const lessonNumber = Number(content.lessonNumber);
+
+  if (!Number.isFinite(lessonNumber)) {
+    return false;
+  }
+
+  if (lessonType === 'reading') {
+    return lessonNumber <= 10;
+  }
+
+  return lessonType === 'qa'
+    && ((code.includes('jpd113') && lessonNumber === 1)
+      || (code.includes('jpd123') && lessonNumber === 4));
 }
 
 export function useUserAccess() {
@@ -159,6 +202,7 @@ export function useUserAccess() {
   const hasCourseAccess = useCallback((packageCode?: string | null) => {
     if (isLoading) return true;
     if (!accessStatus.licensingEnabled) return true;
+    if (accessStatus.accessPolicyMode === 'half' && isHalfLicensingFreeModule(packageCode)) return true;
 
     const courseCode = mapPackageToCourseCode(packageCode);
     if (!courseCode) return false;
@@ -178,6 +222,11 @@ export function useUserAccess() {
     if (accessTier === 'free') return false;
 
     const code = content.packageCode || content.courseCode;
+    if (accessStatus.accessPolicyMode === 'half') {
+      if (isHalfLicensingFreeModule(code)) return false;
+      if (isHalfLicensingFreeSpeakingContent(content)) return false;
+    }
+
     if (code) {
       return isPackageLocked(code);
     }
@@ -188,6 +237,8 @@ export function useUserAccess() {
   return {
     activeCourseCodes: accessStatus.activeCourseCodes,
     subscriptions: accessStatus.subscriptions,
+    accessPolicyMode: accessStatus.accessPolicyMode,
+    isHalfLicensing: accessStatus.accessPolicyMode === 'half',
     licensingEnabled: isLoading ? false : accessStatus.licensingEnabled,
     freeExperienceEnabled: isLoading ? true : accessStatus.freeExperienceEnabled,
     isLoading,

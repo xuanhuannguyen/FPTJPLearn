@@ -30,7 +30,7 @@ export const SpeakingCoursePage = () => {
   const [lessons, setLessons] = useState<SpeakingLesson[]>([]);
   const [isLoading, setIsLoading] = useState(true);
   const [error, setError] = useState('');
-  const { isContentLocked } = useUserAccess();
+  const { hasCourseAccess, isContentLocked, isHalfLicensing } = useUserAccess();
 
   // Navigation states
   const [selectedType, setSelectedType] = useState<'reading' | 'qa' | null>(null);
@@ -190,6 +190,11 @@ export const SpeakingCoursePage = () => {
   const readingLessons = lessons.filter((l) => l.lessonType === 'reading');
   const activeQaLessons = courseCode === 'jpd113' ? jpd113QaLessons : jpd123QaLessons;
   const selectedQaLessonData = activeQaLessons.find((l) => l.id === selectedQaLesson);
+  const isQaLessonLocked = useCallback((lessonIndex: number, hasOverview: boolean) => {
+    if (!hasOverview) return true;
+    if (courseCode && hasCourseAccess(`speaking_${courseCode}`)) return false;
+    return !(isHalfLicensing && lessonIndex === 0);
+  }, [courseCode, hasCourseAccess, isHalfLicensing]);
 
   // Compute original questions for study
   let originalQuestions: QaQuestion[] = [];
@@ -468,8 +473,8 @@ export const SpeakingCoursePage = () => {
           {/* Trạng thái 3: Xem danh sách bài Vấn Đáp (Q&A) */}
           {selectedType === 'qa' && selectedQaLesson === null && (
             <div className="grid grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-3">
-              {activeQaLessons.map((lesson) => {
-                const isLocked = !lesson.overview;
+              {activeQaLessons.map((lesson, index) => {
+                const isLocked = isQaLessonLocked(index, Boolean(lesson.overview));
                 return (
                   <button
                     key={lesson.id}
