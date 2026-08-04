@@ -459,56 +459,56 @@ export const SpeakingCoursePage = () => {
 
           {/* Trạng thái 2: Xem danh sách bài Đọc */}
           {selectedType === 'reading' && (
-            <div className="grid grid-cols-1 gap-5 lg:grid-cols-2">
+            <div className="grid grid-cols-1 gap-4 lg:grid-cols-2 xl:grid-cols-3">
               {readingLessons.map((lesson) => {
                 const isLocked = isContentLocked(lesson);
                 return (
                   <Link
                     key={lesson.id}
                     to={isLocked ? '/pricing' : `/speaking/${courseCode}/lessons/${lesson.id}`}
-                    className={`group relative flex min-h-[132px] cursor-pointer items-center gap-4 overflow-hidden rounded-[24px] border border-orange-100 bg-white p-4 pl-5 shadow-[0_14px_34px_rgba(15,23,42,0.08)] transition-all hover:-translate-y-0.5 hover:border-orange-200 hover:shadow-[0_20px_44px_rgba(234,88,12,0.13)] sm:gap-5 ${
+                    className={`group relative flex min-h-[112px] cursor-pointer items-center gap-3 overflow-hidden rounded-[20px] border border-orange-100 bg-white p-3 pl-4 shadow-[0_12px_28px_rgba(15,23,42,0.08)] transition-all hover:-translate-y-0.5 hover:border-orange-200 hover:shadow-[0_18px_38px_rgba(234,88,12,0.13)] ${
                       isLocked ? 'opacity-70 grayscale-[0.35]' : ''
                     }`}
                   >
-                    <div className="absolute left-0 top-4 h-[calc(100%-32px)] w-2.5 rounded-r-full bg-gradient-to-b from-orange-500 to-orange-700" />
-                    <div className="pointer-events-none absolute bottom-1 left-7 text-3xl text-rose-100">桜</div>
-                    <div className="pointer-events-none absolute bottom-6 left-20 text-lg text-rose-100">花</div>
+                    <div className="absolute left-0 top-3 h-[calc(100%-24px)] w-2 rounded-r-full bg-gradient-to-b from-orange-500 to-orange-700" />
+                    <div className="pointer-events-none absolute bottom-1 left-6 text-2xl text-rose-100">桜</div>
+                    <div className="pointer-events-none absolute bottom-5 left-16 text-base text-rose-100">花</div>
                     <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_18%_38%,rgba(251,146,60,0.10),transparent_30%),radial-gradient(circle_at_88%_50%,rgba(251,146,60,0.08),transparent_24%)]" />
 
-                    <div className="relative flex h-20 w-20 shrink-0 items-center justify-center rounded-[20px] bg-orange-50 shadow-[inset_0_0_0_1px_rgba(251,146,60,0.12)]">
-                      <div className="flex h-14 w-14 items-center justify-center rounded-full border border-orange-100 bg-white text-orange-700 shadow-[0_10px_20px_rgba(234,88,12,0.12)]">
-                        <Volume2 size={26} />
+                    <div className="relative flex h-16 w-16 shrink-0 items-center justify-center rounded-[17px] bg-orange-50 shadow-[inset_0_0_0_1px_rgba(251,146,60,0.12)]">
+                      <div className="flex h-11 w-11 items-center justify-center rounded-full border border-orange-100 bg-white text-orange-700 shadow-[0_8px_16px_rgba(234,88,12,0.12)]">
+                        <Volume2 size={21} />
                       </div>
                     </div>
 
                     <div className="relative min-w-0 flex-1">
-                      <span className="inline-flex h-7 items-center rounded-lg bg-orange-50 px-3 font-heading text-[10px] font-black uppercase tracking-[0.16em] text-orange-700">
+                      <span className="inline-flex h-6 items-center rounded-lg bg-orange-50 px-2.5 font-heading text-[9px] font-black uppercase tracking-[0.14em] text-orange-700">
                         Lesson {lesson.lessonNumber}
                       </span>
-                      <h3 className="mt-2 line-clamp-1 font-jp text-2xl font-black leading-tight text-slate-950 transition-colors group-hover:text-orange-700">
+                      <h3 className="mt-1.5 line-clamp-1 font-jp text-xl font-black leading-tight text-slate-950 transition-colors group-hover:text-orange-700">
                         {lesson.title}
                       </h3>
 
                       {lesson.description ? (
-                        <p className="mt-1.5 line-clamp-2 text-xs font-bold leading-5 text-slate-500">
+                        <p className="mt-1 line-clamp-1 text-[11px] font-bold leading-4 text-slate-500">
                           {lesson.description}
                         </p>
                       ) : null}
 
-                      <div className="mt-2 inline-flex items-center gap-1.5 font-heading text-sm font-black uppercase tracking-wide text-orange-800">
-                        <BookOpen size={18} />
+                      <div className="mt-1.5 inline-flex items-center gap-1.5 font-heading text-xs font-black uppercase tracking-wide text-orange-800">
+                        <BookOpen size={15} />
                         {isLocked ? 'Cần kích hoạt gói Premium' : `${lesson.sentenceCount} câu đọc`}
                       </div>
                     </div>
 
                     <div className="relative flex shrink-0 items-center justify-end">
                       {isLocked ? (
-                        <span className="flex h-11 w-11 items-center justify-center rounded-[14px] bg-slate-100 text-slate-400 shadow-[0_10px_20px_rgba(15,23,42,0.08)]">
-                          <Lock size={20} />
+                        <span className="flex h-9 w-9 items-center justify-center rounded-[12px] bg-slate-100 text-slate-400 shadow-[0_8px_16px_rgba(15,23,42,0.08)]">
+                          <Lock size={17} />
                         </span>
                       ) : (
-                        <span className="flex h-11 w-11 items-center justify-center rounded-[14px] bg-gradient-to-br from-orange-400 to-orange-700 text-white shadow-[0_12px_24px_rgba(234,88,12,0.24)] transition-all group-hover:scale-105">
-                          <Play size={20} className="ml-0.5 fill-current" />
+                        <span className="flex h-9 w-9 items-center justify-center rounded-[12px] bg-gradient-to-br from-orange-400 to-orange-700 text-white shadow-[0_10px_20px_rgba(234,88,12,0.24)] transition-all group-hover:scale-105">
+                          <Play size={17} className="ml-0.5 fill-current" />
                         </span>
                       )}
                     </div>
