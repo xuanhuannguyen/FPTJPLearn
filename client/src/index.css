@@ -138,6 +138,17 @@
     @apply inline box-decoration-clone bg-[#f3d6ff] px-3 py-0.5 leading-[1.15];
   }
 
+  .book-cover {
+    background:
+      radial-gradient(circle, #ffffff 0 34%, transparent 35%),
+      radial-gradient(circle, rgba(255, 255, 255, 0.9) 2px, transparent 2px),
+      linear-gradient(145deg, #2563eb 0%, #38bdf8 48%, #0f172a 100%);
+    background-position: center, 0 0, center;
+    background-size: auto, 10px 10px, auto;
+    box-shadow: var(--shadow-pop);
+    @apply border-2 border-border;
+  }
+
   .jp-course-card {
     --card-ink: #061452;
     --card-blue: #064bd8;
