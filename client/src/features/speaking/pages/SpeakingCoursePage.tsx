@@ -459,54 +459,58 @@ export const SpeakingCoursePage = () => {
 
           {/* Trạng thái 2: Xem danh sách bài Đọc */}
           {selectedType === 'reading' && (
-            <div className="grid grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-3">
+            <div className="mx-auto max-w-6xl space-y-6">
               {readingLessons.map((lesson) => {
                 const isLocked = isContentLocked(lesson);
                 return (
                   <Link
                     key={lesson.id}
                     to={isLocked ? '/pricing' : `/speaking/${courseCode}/lessons/${lesson.id}`}
-                    className={`interactive-surface group relative flex min-h-[118px] cursor-pointer gap-4 overflow-hidden rounded-[18px] p-3.5 ${
-                      isLocked ? 'grayscale-[0.35]' : ''
+                    className={`group relative flex min-h-[220px] cursor-pointer flex-col overflow-hidden rounded-[34px] border border-orange-100 bg-white p-6 shadow-[0_22px_60px_rgba(15,23,42,0.10)] transition-all hover:-translate-y-1 hover:border-orange-200 hover:shadow-[0_30px_70px_rgba(234,88,12,0.16)] sm:flex-row sm:items-center sm:gap-8 md:p-8 ${
+                      isLocked ? 'opacity-70 grayscale-[0.35]' : ''
                     }`}
                   >
-                    <div className="absolute left-0 top-0 h-full w-2 bg-[#8B3A22]" />
+                    <div className="absolute left-0 top-6 hidden h-[calc(100%-48px)] w-5 rounded-r-full bg-gradient-to-b from-orange-500 to-orange-700 sm:block" />
+                    <div className="pointer-events-none absolute bottom-5 left-12 hidden text-6xl text-rose-100 md:block">桜</div>
+                    <div className="pointer-events-none absolute bottom-11 left-28 hidden text-3xl text-rose-100 md:block">花</div>
+                    <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_18%_38%,rgba(251,146,60,0.10),transparent_30%),radial-gradient(circle_at_88%_50%,rgba(251,146,60,0.08),transparent_24%)]" />
 
-                    <div className="relative flex h-24 w-[68px] shrink-0 items-center justify-center rounded-xl border-2 border-slate-900 bg-[#FFF7ED] text-[#8B3A22] shadow-[3px_3px_0_#111827]">
-                      <Volume2 size={28} />
+                    <div className="relative flex h-28 w-28 shrink-0 items-center justify-center rounded-[28px] bg-orange-50 shadow-[inset_0_0_0_1px_rgba(251,146,60,0.12)] sm:h-36 sm:w-36">
+                      <div className="flex h-20 w-20 items-center justify-center rounded-full border border-orange-100 bg-white text-orange-700 shadow-[0_14px_28px_rgba(234,88,12,0.14)] sm:h-28 sm:w-28">
+                        <Volume2 size={46} />
+                      </div>
                     </div>
 
-                    <div className="relative flex min-w-0 flex-1 flex-col justify-center">
-                      <div className="flex items-start justify-between gap-3">
-                        <div className="min-w-0 flex-1">
-                          <p className="text-[11px] font-black uppercase tracking-[0.16em] text-text-muted">
-                            Lesson {lesson.lessonNumber}
-                          </p>
-                          <h3 className="mt-0.5 line-clamp-1 font-heading text-xl font-black leading-none tracking-tight text-text-primary transition-colors group-hover:text-accent-primary">
-                            {lesson.title}
-                          </h3>
+                    <div className="relative mt-6 min-w-0 flex-1 sm:mt-0">
+                      <span className="inline-flex h-12 items-center rounded-xl bg-orange-50 px-5 font-heading text-xl font-black uppercase tracking-[0.18em] text-orange-700">
+                        Lesson {lesson.lessonNumber}
+                      </span>
+                      <h3 className="mt-5 line-clamp-2 font-jp text-4xl font-black leading-tight text-slate-950 transition-colors group-hover:text-orange-700 md:text-5xl">
+                        {lesson.title}
+                      </h3>
 
-                          {lesson.description ? (
-                            <p className="mt-1.5 line-clamp-2 text-xs font-bold leading-5 text-text-secondary">
-                              {lesson.description}
-                            </p>
-                          ) : null}
+                      {lesson.description ? (
+                        <p className="mt-4 max-w-2xl text-xl font-bold leading-9 text-slate-500">
+                          {lesson.description}
+                        </p>
+                      ) : null}
 
-                          <p className="mt-2 text-[11px] font-black uppercase tracking-[0.14em] text-[#8B3A22]">
-                            {isLocked ? 'Cần kích hoạt gói Premium' : `${lesson.sentenceCount} câu đọc`}
-                          </p>
-                        </div>
-
-                        {isLocked ? (
-                          <span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg border-2 border-border bg-bg-tertiary text-text-muted">
-                            <Lock size={16} />
-                          </span>
-                        ) : (
-                          <span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg border-2 border-border bg-accent-cta text-white shadow-pop transition-all group-hover:-translate-y-0.5">
-                            <Play size={16} className="ml-0.5 fill-current" />
-                          </span>
-                        )}
+                      <div className="mt-7 inline-flex items-center gap-3 font-heading text-2xl font-black uppercase tracking-wide text-orange-800">
+                        <BookOpen size={30} />
+                        {isLocked ? 'Cần kích hoạt gói Premium' : `${lesson.sentenceCount} câu đọc`}
                       </div>
+                    </div>
+
+                    <div className="relative mt-6 flex shrink-0 items-center justify-end sm:mt-0 sm:w-36 sm:justify-center">
+                      {isLocked ? (
+                        <span className="flex h-20 w-20 items-center justify-center rounded-[22px] bg-slate-100 text-slate-400 shadow-[0_14px_28px_rgba(15,23,42,0.08)] sm:h-24 sm:w-24">
+                          <Lock size={34} />
+                        </span>
+                      ) : (
+                        <span className="flex h-20 w-20 items-center justify-center rounded-[22px] bg-gradient-to-br from-orange-400 to-orange-700 text-white shadow-[0_18px_36px_rgba(234,88,12,0.32)] transition-all group-hover:scale-105 sm:h-24 sm:w-24">
+                          <Play size={38} className="ml-1 fill-current" />
+                        </span>
+                      )}
                     </div>
                   </Link>
                 );
