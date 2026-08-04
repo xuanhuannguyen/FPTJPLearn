@@ -21,26 +21,31 @@ export const grammarApi = {
 
   getLessonsByLevel: async (level: GrammarLevel, courseCode?: string): Promise<GrammarLesson[]> => {
     const lessons = await fetchStatic<GrammarLesson[]>(`grammar/${level}/lessons.json`);
-    return courseCode ? lessons.filter((lesson) => lesson.courseCode === courseCode) : lessons;
+    const normalizedLessons = lessons.map(normalizeGrammarLessonAccess);
+    return courseCode ? normalizedLessons.filter((lesson) => lesson.courseCode === courseCode) : normalizedLessons;
   },
 
   getLessonById: async (lessonId: string): Promise<{ lesson: GrammarLesson; patterns: GrammarPattern[] }> => {
     const level = await findLessonLevel(lessonId);
-    return fetchStatic<{ lesson: GrammarLesson; patterns: GrammarPattern[] }>(`grammar/${level}/lessons/${lessonId}.json`);
+    const detail = await fetchStatic<{ lesson: GrammarLesson; patterns: GrammarPattern[] }>(`grammar/${level}/lessons/${lessonId}.json`);
+    return {
+      lesson: normalizeGrammarLessonAccess(detail.lesson),
+      patterns: detail.patterns.map(normalizeGrammarPatternAccess),
+    };
   },
 
   getPatternById: async (patternId: string): Promise<GrammarPattern> => {
     const patterns = await fetchStatic<GrammarPattern[]>('grammar/patterns.json');
     const pattern = patterns.find((candidate) => candidate.id === patternId);
     if (!pattern) throw new Error(`Grammar pattern not found: ${patternId}`);
-    return pattern;
+    return normalizeGrammarPatternAccess(pattern);
   },
 
   searchPatterns: async (query: string): Promise<GrammarPattern[]> => {
     const normalizedQuery = query.trim().toLowerCase();
     if (!normalizedQuery) return [];
     const patterns = await fetchStatic<GrammarPattern[]>('grammar/patterns.json');
-    return patterns.filter((pattern) =>
+    return patterns.map(normalizeGrammarPatternAccess).filter((pattern) =>
       [pattern.pattern, pattern.title, pattern.meaning, pattern.structure, pattern.notes]
         .some((value) => value?.toLowerCase().includes(normalizedQuery))
     );
@@ -118,6 +123,25 @@ export const grammarApi = {
     };
   },
 };
+
+function normalizeGrammarLessonAccess(lesson: GrammarLesson): GrammarLesson {
+  return {
+    ...lesson,
+    packageCode: normalizeGrammarPackageCode(lesson.packageCode, lesson.courseCode),
+  };
+}
+
+function normalizeGrammarPatternAccess(pattern: GrammarPattern): GrammarPattern {
+  return {
+    ...pattern,
+    packageCode: normalizeGrammarPackageCode(pattern.packageCode, pattern.courseCode),
+  };
+}
+
+function normalizeGrammarPackageCode(packageCode: string | undefined, courseCode: string): string {
+  const code = (packageCode || courseCode).trim().toLowerCase();
+  return code.startsWith('grammar_') ? code : `grammar_${code}`;
+}
 
 async function findLessonLevel(lessonId: string): Promise<GrammarLevel> {
   const levels = await fetchStatic<GrammarLevelSummary[]>('grammar/levels.json');

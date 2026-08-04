@@ -15,12 +15,17 @@ export const staticVocabularyApi = {
   },
 
   getLessonsByCourse: async (courseCode: string): Promise<StaticVocabularyLesson[]> => {
-    return fetchStatic<StaticVocabularyLesson[]>(`vocabulary/${courseCode}/lessons.json`);
+    const lessons = await fetchStatic<StaticVocabularyLesson[]>(`vocabulary/${courseCode}/lessons.json`);
+    return lessons.map(normalizeVocabularyLessonAccess);
   },
 
   getLessonById: async (lessonId: string): Promise<StaticVocabularyLessonDetail> => {
     const courseCode = lessonId.includes('1113') ? 'jpd113' : 'jpd123';
-    return fetchStatic<StaticVocabularyLessonDetail>(`vocabulary/${courseCode}/lessons/${lessonId}.json`);
+    const detail = await fetchStatic<StaticVocabularyLessonDetail>(`vocabulary/${courseCode}/lessons/${lessonId}.json`);
+    return {
+      lesson: normalizeVocabularyLessonAccess(detail.lesson),
+      items: detail.items.map(normalizeVocabularyItemAccess),
+    };
   },
 
   getPracticeCards: async (lessonId: string, mode: string = 'flashcard'): Promise<{ mode: string; cards: VocabularyPracticeCard[] }> => {
@@ -53,6 +58,7 @@ export const staticVocabularyApi = {
     if (!normalizedQuery) return [];
     const items = await fetchStatic<StaticVocabularyItem[]>('vocabulary/items.json');
     return items
+      .map(normalizeVocabularyItemAccess)
       .filter((item) => !courseCode || item.courseCode === courseCode)
       .filter((item) =>
         [item.word, item.reading, item.meaning, item.wordType]
@@ -90,6 +96,25 @@ export const staticVocabularyApi = {
     return response.data;
   }
 };
+
+function normalizeVocabularyLessonAccess(lesson: StaticVocabularyLesson): StaticVocabularyLesson {
+  return {
+    ...lesson,
+    packageCode: normalizeVocabularyPackageCode(lesson.packageCode, lesson.courseCode),
+  };
+}
+
+function normalizeVocabularyItemAccess(item: StaticVocabularyItem): StaticVocabularyItem {
+  return {
+    ...item,
+    packageCode: normalizeVocabularyPackageCode(item.packageCode, item.courseCode),
+  };
+}
+
+function normalizeVocabularyPackageCode(packageCode: string | undefined, courseCode: string): string {
+  const code = (packageCode || courseCode).trim().toLowerCase();
+  return code.startsWith('vocab_') ? code : `vocab_${code}`;
+}
 
 function buildOptions(items: StaticVocabularyItem[], correctAnswer: string, index: number): string[] {
   const distractors = items
