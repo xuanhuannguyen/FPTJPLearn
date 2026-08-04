@@ -528,28 +528,52 @@ export const SpeakingCoursePage = () => {
                     key={lesson.id}
                     onClick={() => !isLocked && setSelectedQaLesson(lesson.id)}
                     disabled={isLocked}
-                    className={`interactive-surface text-left flex gap-4 overflow-hidden rounded-[18px] p-3.5 border-2 border-slate-900 bg-white shadow-[4px_4px_0_#111827] transition-all ${
-                      isLocked ? 'opacity-60 cursor-not-allowed bg-slate-50' : 'hover:-translate-y-0.5'
+                    className={`group relative flex min-h-[260px] flex-col overflow-hidden rounded-[28px] border border-blue-100 bg-white p-5 text-left shadow-[0_18px_42px_rgba(15,23,42,0.09)] transition-all hover:-translate-y-1 hover:border-blue-200 hover:shadow-[0_24px_52px_rgba(37,99,235,0.14)] ${
+                      isLocked ? 'cursor-not-allowed opacity-65 grayscale-[0.25]' : ''
                     }`}
                   >
-                    <div className="relative flex h-20 w-16 shrink-0 items-center justify-center rounded-xl border-2 border-slate-900 bg-[#E0F2FE] text-blue-600 shadow-[2px_2px_0_#111827]">
-                      <MessageSquare size={24} />
+                    <div className="absolute left-0 top-5 h-[calc(100%-40px)] w-3 rounded-r-full bg-gradient-to-b from-blue-400 to-blue-700" />
+                    <div className="pointer-events-none absolute right-3 top-3 h-28 w-28 rounded-full bg-[radial-gradient(circle,rgba(96,165,250,0.24)_2px,transparent_3px)] bg-[length:14px_14px]" />
+                    <div className="pointer-events-none absolute bottom-5 left-10 text-5xl text-rose-100">桜</div>
+                    <div className="pointer-events-none absolute right-7 top-16 text-3xl text-rose-100">花</div>
+                    <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_18%_38%,rgba(96,165,250,0.12),transparent_30%),radial-gradient(circle_at_88%_50%,rgba(59,130,246,0.08),transparent_24%)]" />
+
+                    <div className="relative flex h-20 w-20 shrink-0 items-center justify-center rounded-[22px] bg-blue-50 shadow-[inset_0_0_0_1px_rgba(96,165,250,0.16)]">
+                      <div className="flex h-14 w-14 items-center justify-center rounded-2xl border border-blue-100 bg-white text-blue-600 shadow-[0_12px_24px_rgba(37,99,235,0.16)]">
+                        <MessageSquare size={30} />
+                      </div>
                     </div>
 
-                    <div className="min-w-0 flex-grow flex flex-col justify-center">
-                      <p className="text-[10px] font-black uppercase tracking-[0.16em] text-slate-400">
+                    <div className="relative mt-5 min-w-0 flex-1">
+                      <span className="inline-flex h-9 items-center gap-2 rounded-xl bg-blue-50 px-4 font-heading text-sm font-black uppercase tracking-[0.16em] text-blue-600">
+                        <Sparkles size={16} className="fill-current" />
                         Lesson {lesson.id}
-                      </p>
-                      <h3 className="mt-0.5 font-heading text-lg font-black leading-tight text-slate-900">
+                      </span>
+                      <h3 className="mt-4 line-clamp-2 font-heading text-2xl font-black leading-tight text-slate-950 transition-colors group-hover:text-blue-700">
                         {lesson.title}
                       </h3>
-                      <p className="mt-1 line-clamp-2 text-xs font-bold leading-relaxed text-slate-500">
+                      <p className="mt-3 line-clamp-2 text-sm font-bold leading-6 text-slate-500">
                         {lesson.description}
                       </p>
-                      <p className="mt-1.5 text-[10px] font-black uppercase tracking-[0.14em] text-blue-600">
+
+                      <div className={`mt-5 inline-flex h-11 items-center gap-2 rounded-full border px-4 font-heading text-sm font-black uppercase tracking-wide ${
+                        isLocked
+                          ? 'border-slate-200 bg-slate-50 text-slate-400'
+                          : 'border-blue-100 bg-blue-50 text-blue-600'
+                      }`}>
+                        {isLocked ? <Lock size={18} /> : <Sparkles size={18} className="fill-current" />}
                         {isLocked ? 'Đang cập nhật' : 'Sẵn sàng học'}
-                      </p>
+                        {!isLocked ? <ChevronRight size={20} className="transition-transform group-hover:translate-x-1" /> : null}
+                      </div>
                     </div>
+
+                    <span className={`relative mt-5 flex h-14 w-14 shrink-0 items-center justify-center self-end rounded-full shadow-[0_12px_24px_rgba(15,23,42,0.08)] transition-all ${
+                      isLocked
+                        ? 'bg-slate-100 text-slate-400'
+                        : 'bg-white text-blue-600 group-hover:bg-blue-600 group-hover:text-white group-hover:translate-x-1'
+                    }`}>
+                      {isLocked ? <Lock size={22} /> : <ChevronRight size={30} />}
+                    </span>
                   </button>
                 );
               })}
