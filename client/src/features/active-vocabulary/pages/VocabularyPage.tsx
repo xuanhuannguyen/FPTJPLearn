@@ -264,7 +264,7 @@ export const VocabularyPage = () => {
           </p>
         </div>
       ) : (
-        <div className="grid grid-cols-1 gap-5 lg:grid-cols-2 xl:grid-cols-3">
+        <div className="grid grid-cols-1 gap-4 md:grid-cols-2 xl:grid-cols-4">
           {filteredLists.map((list) => {
             const progressPercent = list.wordCount > 0 
               ? Math.round((list.masteredCount / list.wordCount) * 100) 
@@ -283,19 +283,19 @@ export const VocabularyPage = () => {
               }}
               role="button"
               tabIndex={0}
-              className="group relative flex min-h-[86px] cursor-pointer gap-3 overflow-hidden rounded-[14px] border-2 border-slate-900 bg-white p-2.5 shadow-[4px_4px_0_#111827] transition-all hover:translate-x-[1px] hover:translate-y-[1px] hover:shadow-[2px_2px_0_#111827]"
+              className="group relative flex min-h-[110px] cursor-pointer gap-3.5 overflow-hidden rounded-[18px] border-2 border-slate-900 bg-white p-3.5 shadow-[4px_4px_0_#111827] transition-all hover:translate-x-[1px] hover:translate-y-[1px] hover:shadow-[2px_2px_0_#111827]"
             >
               <div className={`absolute left-0 top-0 h-full w-1.5 ${isComplete ? 'bg-accent-success' : 'bg-blue-500'}`} />
 
               <img
                 src="/images/vocabulary/vocabulary-card.webp?v=2"
                 alt=""
-                className="h-[66px] w-[48px] shrink-0 rounded-lg border-2 border-slate-900 object-cover shadow-[2px_2px_0_#111827]"
+                className="h-20 w-16 shrink-0 rounded-lg border-2 border-slate-900 object-cover shadow-[2px_2px_0_#111827]"
                 loading="lazy"
                 decoding="async"
               />
 
-              <div className="relative flex min-w-0 flex-1 flex-col justify-between py-0.5">
+              <div className="relative flex min-w-0 flex-1 flex-col justify-between">
                 <div className="flex min-w-0 items-start justify-between gap-2">
                   <div className="min-w-0">
                     <div className="flex items-center gap-1.5">
