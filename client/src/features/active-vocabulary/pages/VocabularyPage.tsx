@@ -264,7 +264,7 @@ export const VocabularyPage = () => {
           </p>
         </div>
       ) : (
-        <div className="grid grid-cols-1 gap-5 lg:grid-cols-2 xl:grid-cols-3">
+        <div className="grid grid-cols-1 gap-4 lg:grid-cols-2 xl:grid-cols-3">
           {filteredLists.map((list) => {
             const progressPercent = list.wordCount > 0 
               ? Math.round((list.masteredCount / list.wordCount) * 100) 
@@ -283,82 +283,80 @@ export const VocabularyPage = () => {
               }}
               role="button"
               tabIndex={0}
-              className="interactive-surface group relative flex cursor-pointer gap-4 overflow-hidden rounded-[18px] p-3.5"
+              className="group relative flex min-h-[150px] cursor-pointer items-center gap-4 overflow-hidden rounded-[20px] border border-sky-100 bg-white p-4 shadow-[0_6px_20px_-10px_rgba(14,165,233,0.25)] transition-all duration-200 hover:-translate-y-0.5 hover:border-sky-200 hover:shadow-[0_14px_32px_-10px_rgba(14,165,233,0.35)]"
             >
-              <div className={`absolute left-0 top-0 h-full w-2 ${isComplete ? 'bg-accent-success' : 'bg-accent-primary'}`} />
-              <div className="book-cover relative flex h-20 w-16 shrink-0 items-center justify-center rounded-lg">
-                <div className="flex h-10 w-10 items-center justify-center rounded-full bg-white text-center font-heading text-[8px] font-black leading-none text-text-primary">
-                  TỪ<br />VỰNG
+              <div className={`absolute left-0 top-0 h-full w-1.5 ${isComplete ? 'bg-emerald-500' : 'bg-sky-500'}`} />
+
+              <img
+                src="/images/vocabulary/active-vocab-card.webp?v=1"
+                alt=""
+                className="h-[92px] w-[92px] shrink-0 rounded-2xl border border-sky-100 object-cover shadow-sm"
+                loading="lazy"
+                decoding="async"
+              />
+
+              <div className="relative flex min-w-0 flex-1 flex-col gap-2">
+                <div className="flex items-center gap-2 pr-1">
+                  <h3 className="line-clamp-1 font-heading text-lg font-black leading-tight tracking-tight text-text-primary transition-colors group-hover:text-accent-primary">
+                    {list.name}
+                  </h3>
+                  {isComplete && (
+                    <CheckCircle className="shrink-0 text-emerald-500" size={16} />
+                  )}
                 </div>
-              </div>
 
-              <div className="relative flex min-w-0 flex-1 flex-col justify-center">
-                <div className="flex items-start justify-between gap-3">
-                  <div className="min-w-0 flex-1">
-                    <div className="flex items-center gap-2">
-                      <h3 className="line-clamp-1 font-heading text-xl font-black leading-none tracking-tight text-text-primary transition-colors group-hover:text-accent-primary">
-                        {list.name}
-                      </h3>
-                      {isComplete && (
-                        <CheckCircle className="text-accent-success shrink-0" size={18} />
-                      )}
-                    </div>
-                    <div className="mt-2 flex items-center gap-2 text-[11px] font-bold">
-                      <div className="flex items-center gap-1.5 rounded-lg border border-border/40 bg-bg-tertiary px-2 py-0.5 text-text-primary">
-                        <BookOpen size={12} className="text-text-muted" />
-                        <span className="font-black leading-none">{list.wordCount}</span>
-                      </div>
-                      <div className="flex items-center gap-1.5 rounded-lg border border-accent-success/20 bg-accent-success/5 px-2 py-0.5 text-accent-success">
-                        <CheckCircle size={12} />
-                        <span className="font-black leading-none">{list.masteredCount}</span>
-                      </div>
-                      {list.dueCount > 0 && (
-                        <div className="flex items-center gap-1.5 rounded-lg border border-accent-warning/20 bg-accent-warning/5 px-2 py-0.5 text-accent-warning">
-                          <Clock size={12} />
-                          <span className="font-black leading-none">{list.dueCount}</span>
-                        </div>
-                      )}
-                    </div>
+                <div className="flex flex-wrap items-center gap-1.5">
+                  <div className="flex items-center gap-1.5 rounded-lg border border-sky-100 bg-sky-50 px-2 py-0.5 text-sky-700">
+                    <BookOpen size={12} />
+                    <span className="font-black leading-none">{list.wordCount}</span>
                   </div>
-
-                  <div className="flex shrink-0 items-center gap-1">
-                    <button
-                      onClick={(e) => {
-                        e.stopPropagation();
-                        setDeleteError('');
-                        setDeleteListConfirm(list.id);
-                      }}
-                      className="rounded-lg p-1.5 text-text-muted opacity-100 transition-colors hover:bg-accent-danger/10 hover:text-accent-danger md:opacity-0 md:group-hover:opacity-100"
-                      title="Delete List"
-                    >
-                      <Trash2 size={16} />
-                    </button>
-                    <button
-                      onClick={(event) => {
-                        event.stopPropagation();
-                        navigate(`/active-vocabulary/${list.id}?study=1`);
-                      }}
-                      className={`flex h-8 w-8 items-center justify-center rounded-lg border-2 border-border transition-all ${
-                        list.dueCount > 0
-                          ? 'bg-accent-cta text-white shadow-pop hover:-translate-y-0.5'
-                          : 'bg-bg-tertiary text-text-secondary hover:text-accent-primary cursor-pointer'
-                      }`}
-                    >
-                      <Play size={14} className={list.dueCount > 0 ? 'ml-0.5' : ''} />
-                    </button>
+                  <div className="flex items-center gap-1.5 rounded-lg border border-emerald-100 bg-emerald-50 px-2 py-0.5 text-emerald-700">
+                    <CheckCircle size={12} />
+                    <span className="font-black leading-none">{list.masteredCount}</span>
+                  </div>
+                  <div className="flex items-center gap-1.5 rounded-lg border border-amber-100 bg-amber-50 px-2 py-0.5 text-amber-700">
+                    <Clock size={12} />
+                    <span className="font-black leading-none">{list.dueCount}</span>
                   </div>
                 </div>
 
-                {/* Progress Bar - Simplified */}
-                <div className="mt-3 flex items-center gap-3">
-                  <div className="h-1.5 flex-1 overflow-hidden rounded-full border border-border bg-bg-tertiary">
+                <div className="mt-auto flex items-center gap-2 pt-1">
+                  <div className="h-1.5 flex-1 overflow-hidden rounded-full bg-slate-100">
                     <div
-                      className={`h-full rounded-full transition-all duration-500 ${isComplete ? 'bg-accent-success' : 'bg-accent-primary'}`}
+                      className={`h-full rounded-full transition-all duration-500 ${isComplete ? 'bg-emerald-500' : 'bg-gradient-to-r from-sky-400 to-blue-500'}`}
                       style={{ width: `${progressPercent}%` }}
                     />
                   </div>
-                  <span className="text-[10px] font-black text-text-primary tabular-nums">{progressPercent}%</span>
+                  <span className="text-[10px] font-black text-slate-500 tabular-nums">{progressPercent}%</span>
                 </div>
+              </div>
+
+              <div className="relative flex shrink-0 flex-col items-center gap-2">
+                <button
+                  onClick={(e) => {
+                    e.stopPropagation();
+                    setDeleteError('');
+                    setDeleteListConfirm(list.id);
+                  }}
+                  className="rounded-lg p-1.5 text-slate-300 transition-colors hover:bg-red-50 hover:text-red-500 md:opacity-0 md:group-hover:opacity-100"
+                  title="Delete List"
+                >
+                  <Trash2 size={16} />
+                </button>
+                <button
+                  onClick={(event) => {
+                    event.stopPropagation();
+                    navigate(`/active-vocabulary/${list.id}?study=1`);
+                  }}
+                  className={`flex h-10 w-10 items-center justify-center rounded-xl shadow-sm transition-all ${
+                    list.dueCount > 0
+                      ? 'bg-gradient-to-br from-sky-500 to-blue-600 text-white shadow-sky-200 hover:-translate-y-0.5 hover:shadow-md'
+                      : 'bg-sky-50 text-sky-600 hover:bg-sky-100'
+                  }`}
+                  title="Ôn tập ngay"
+                >
+                  <Play size={16} className={list.dueCount > 0 ? 'ml-0.5 fill-current' : 'ml-0.5'} />
+                </button>
               </div>
             </div>
           );
