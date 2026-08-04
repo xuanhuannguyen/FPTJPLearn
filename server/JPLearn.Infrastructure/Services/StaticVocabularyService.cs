@@ -77,7 +77,7 @@ public class StaticVocabularyService : IStaticVocabularyService
             return null;
         }
 
-        if (_paymentAccess.IsContentLocked(userId, lesson.AccessTier, lesson.PackageCode))
+        if (_paymentAccess.IsContentLocked(userId, lesson.AccessTier, ResolveLessonPackageCode(lesson)))
         {
             return null;
         }
@@ -154,7 +154,7 @@ public class StaticVocabularyService : IStaticVocabularyService
             return null;
         }
 
-        if (_paymentAccess.IsContentLocked(userId, lesson.AccessTier, lesson.PackageCode))
+        if (_paymentAccess.IsContentLocked(userId, lesson.AccessTier, ResolveLessonPackageCode(lesson)))
         {
             return null;
         }
@@ -259,8 +259,8 @@ public class StaticVocabularyService : IStaticVocabularyService
             Title = lesson.Title,
             Description = lesson.Description,
             AccessTier = lesson.AccessTier,
-            PackageCode = lesson.PackageCode,
-            IsLocked = _paymentAccess.IsContentLocked(userId, lesson.AccessTier, lesson.PackageCode),
+            PackageCode = ResolveLessonPackageCode(lesson),
+            IsLocked = _paymentAccess.IsContentLocked(userId, lesson.AccessTier, ResolveLessonPackageCode(lesson)),
             WordCount = lesson.Items.Count,
             LearnedCount = progress.Count(item => item.IsLearned),
             PracticedCount = progress.Count(IsPracticed)
@@ -365,8 +365,24 @@ public class StaticVocabularyService : IStaticVocabularyService
 
     private static string? ResolvePackageCode(StaticVocabularyItem item)
     {
-        return string.IsNullOrWhiteSpace(item.PackageCodeOverride)
+        var packageCode = string.IsNullOrWhiteSpace(item.PackageCodeOverride)
             ? item.Lesson?.PackageCode
             : item.PackageCodeOverride;
+
+        return NormalizeModulePackageCode(packageCode, item.CourseCode);
+    }
+
+    private static string ResolveLessonPackageCode(VocabularyLesson lesson)
+    {
+        return NormalizeModulePackageCode(lesson.PackageCode, lesson.CourseCode);
+    }
+
+    private static string NormalizeModulePackageCode(string? packageCode, string courseCode)
+    {
+        var code = string.IsNullOrWhiteSpace(packageCode)
+            ? courseCode
+            : packageCode.Trim().ToLowerInvariant();
+
+        return code.StartsWith("vocab_") ? code : $"vocab_{code}";
     }
 }

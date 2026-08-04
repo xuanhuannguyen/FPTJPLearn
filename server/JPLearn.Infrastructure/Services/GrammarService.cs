@@ -185,9 +185,9 @@ public class GrammarService : IGrammarService
             Title = lesson.Title,
             Description = lesson.Description,
             AccessTier = lesson.AccessTier,
-            PackageCode = lesson.PackageCode,
+            PackageCode = ResolveLessonPackageCode(lesson),
             CourseCode = lesson.CourseCode,
-            IsLocked = _paymentAccess.IsContentLocked(userId, lesson.AccessTier, lesson.PackageCode ?? lesson.CourseCode),
+            IsLocked = _paymentAccess.IsContentLocked(userId, lesson.AccessTier, ResolveLessonPackageCode(lesson)),
             PatternCount = lesson.Patterns.Count,
             InStudyCount = progress.Count,
             MasteredCount = progress.Count(item => item.Level >= ReviewLevels.Mastered),
@@ -197,7 +197,7 @@ public class GrammarService : IGrammarService
 
     private bool IsLessonLocked(Guid userId, GrammarLesson lesson)
     {
-        return _paymentAccess.IsContentLocked(userId, lesson.AccessTier, lesson.PackageCode ?? lesson.CourseCode);
+        return _paymentAccess.IsContentLocked(userId, lesson.AccessTier, ResolveLessonPackageCode(lesson));
     }
 
     private bool IsPatternLocked(Guid userId, GrammarPattern pattern)
@@ -205,7 +205,7 @@ public class GrammarService : IGrammarService
         return _paymentAccess.IsContentLocked(
             userId,
             ResolveAccessTier(pattern),
-            ResolvePackageCode(pattern) ?? pattern.Lesson.CourseCode);
+            ResolvePackageCode(pattern));
     }
 
     private GrammarPatternDto MapPattern(GrammarPattern pattern, Guid userId)
@@ -226,7 +226,7 @@ public class GrammarService : IGrammarService
             Structure = pattern.Structure,
             AccessTier = accessTier,
             PackageCode = packageCode,
-            IsLocked = _paymentAccess.IsContentLocked(userId, accessTier, packageCode ?? pattern.Lesson.CourseCode),
+            IsLocked = _paymentAccess.IsContentLocked(userId, accessTier, packageCode),
             IsInStudy = progress?.IsActive == true,
             Progress = progress == null ? null : MapProgress(progress)
         };
@@ -346,9 +346,25 @@ public class GrammarService : IGrammarService
 
     internal static string? ResolvePackageCode(GrammarPattern pattern)
     {
-        return string.IsNullOrWhiteSpace(pattern.PackageCodeOverride)
+        var packageCode = string.IsNullOrWhiteSpace(pattern.PackageCodeOverride)
             ? pattern.Lesson.PackageCode
             : pattern.PackageCodeOverride;
+
+        return NormalizeModulePackageCode(packageCode, pattern.Lesson.CourseCode);
+    }
+
+    private static string ResolveLessonPackageCode(GrammarLesson lesson)
+    {
+        return NormalizeModulePackageCode(lesson.PackageCode, lesson.CourseCode);
+    }
+
+    private static string NormalizeModulePackageCode(string? packageCode, string courseCode)
+    {
+        var code = string.IsNullOrWhiteSpace(packageCode)
+            ? courseCode
+            : packageCode.Trim().ToLowerInvariant();
+
+        return code.StartsWith("grammar_") ? code : $"grammar_{code}";
     }
 
     private static List<string> DeserializeStringList(string? json)
