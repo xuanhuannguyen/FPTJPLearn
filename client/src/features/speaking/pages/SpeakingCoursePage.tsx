@@ -520,7 +520,7 @@ export const SpeakingCoursePage = () => {
 
           {/* Trạng thái 3: Xem danh sách bài Vấn Đáp (Q&A) */}
           {selectedType === 'qa' && selectedQaLesson === null && (
-            <div className="grid grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-3">
+            <div className="grid grid-cols-1 gap-5 lg:grid-cols-2">
               {activeQaLessons.map((lesson, index) => {
                 const isLocked = isQaLessonLocked(index, Boolean(lesson.overview));
                 return (
@@ -528,51 +528,51 @@ export const SpeakingCoursePage = () => {
                     key={lesson.id}
                     onClick={() => !isLocked && setSelectedQaLesson(lesson.id)}
                     disabled={isLocked}
-                    className={`group relative flex min-h-[260px] flex-col overflow-hidden rounded-[28px] border border-blue-100 bg-white p-5 text-left shadow-[0_18px_42px_rgba(15,23,42,0.09)] transition-all hover:-translate-y-1 hover:border-blue-200 hover:shadow-[0_24px_52px_rgba(37,99,235,0.14)] ${
+                    className={`group relative flex min-h-[132px] items-center gap-4 overflow-hidden rounded-[24px] border border-blue-100 bg-white p-4 pl-5 text-left shadow-[0_14px_34px_rgba(15,23,42,0.08)] transition-all hover:-translate-y-0.5 hover:border-blue-200 hover:shadow-[0_20px_44px_rgba(37,99,235,0.13)] sm:gap-5 ${
                       isLocked ? 'cursor-not-allowed opacity-65 grayscale-[0.25]' : ''
                     }`}
                   >
-                    <div className="absolute left-0 top-5 h-[calc(100%-40px)] w-3 rounded-r-full bg-gradient-to-b from-blue-400 to-blue-700" />
-                    <div className="pointer-events-none absolute right-3 top-3 h-28 w-28 rounded-full bg-[radial-gradient(circle,rgba(96,165,250,0.24)_2px,transparent_3px)] bg-[length:14px_14px]" />
-                    <div className="pointer-events-none absolute bottom-5 left-10 text-5xl text-rose-100">桜</div>
-                    <div className="pointer-events-none absolute right-7 top-16 text-3xl text-rose-100">花</div>
+                    <div className="absolute left-0 top-4 h-[calc(100%-32px)] w-2.5 rounded-r-full bg-gradient-to-b from-blue-400 to-blue-700" />
+                    <div className="pointer-events-none absolute right-3 top-2 h-20 w-20 rounded-full bg-[radial-gradient(circle,rgba(96,165,250,0.24)_2px,transparent_3px)] bg-[length:12px_12px]" />
+                    <div className="pointer-events-none absolute bottom-1 left-8 text-3xl text-rose-100">桜</div>
+                    <div className="pointer-events-none absolute right-7 top-12 text-xl text-rose-100">花</div>
                     <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_18%_38%,rgba(96,165,250,0.12),transparent_30%),radial-gradient(circle_at_88%_50%,rgba(59,130,246,0.08),transparent_24%)]" />
 
-                    <div className="relative flex h-20 w-20 shrink-0 items-center justify-center rounded-[22px] bg-blue-50 shadow-[inset_0_0_0_1px_rgba(96,165,250,0.16)]">
-                      <div className="flex h-14 w-14 items-center justify-center rounded-2xl border border-blue-100 bg-white text-blue-600 shadow-[0_12px_24px_rgba(37,99,235,0.16)]">
-                        <MessageSquare size={30} />
+                    <div className="relative flex h-20 w-20 shrink-0 items-center justify-center rounded-[20px] bg-blue-50 shadow-[inset_0_0_0_1px_rgba(96,165,250,0.16)]">
+                      <div className="flex h-14 w-14 items-center justify-center rounded-2xl border border-blue-100 bg-white text-blue-600 shadow-[0_10px_20px_rgba(37,99,235,0.14)]">
+                        <MessageSquare size={26} />
                       </div>
                     </div>
 
-                    <div className="relative mt-5 min-w-0 flex-1">
-                      <span className="inline-flex h-9 items-center gap-2 rounded-xl bg-blue-50 px-4 font-heading text-sm font-black uppercase tracking-[0.16em] text-blue-600">
-                        <Sparkles size={16} className="fill-current" />
+                    <div className="relative min-w-0 flex-1">
+                      <span className="inline-flex h-7 items-center gap-1.5 rounded-lg bg-blue-50 px-3 font-heading text-[10px] font-black uppercase tracking-[0.16em] text-blue-600">
+                        <Sparkles size={13} className="fill-current" />
                         Lesson {lesson.id}
                       </span>
-                      <h3 className="mt-4 line-clamp-2 font-heading text-2xl font-black leading-tight text-slate-950 transition-colors group-hover:text-blue-700">
+                      <h3 className="mt-2 line-clamp-1 font-heading text-2xl font-black leading-tight text-slate-950 transition-colors group-hover:text-blue-700">
                         {lesson.title}
                       </h3>
-                      <p className="mt-3 line-clamp-2 text-sm font-bold leading-6 text-slate-500">
+                      <p className="mt-1.5 line-clamp-2 text-xs font-bold leading-5 text-slate-500">
                         {lesson.description}
                       </p>
 
-                      <div className={`mt-5 inline-flex h-11 items-center gap-2 rounded-full border px-4 font-heading text-sm font-black uppercase tracking-wide ${
+                      <div className={`mt-2 inline-flex h-8 items-center gap-1.5 rounded-full border px-3 font-heading text-xs font-black uppercase tracking-wide ${
                         isLocked
                           ? 'border-slate-200 bg-slate-50 text-slate-400'
                           : 'border-blue-100 bg-blue-50 text-blue-600'
                       }`}>
-                        {isLocked ? <Lock size={18} /> : <Sparkles size={18} className="fill-current" />}
+                        {isLocked ? <Lock size={15} /> : <Sparkles size={15} className="fill-current" />}
                         {isLocked ? 'Đang cập nhật' : 'Sẵn sàng học'}
-                        {!isLocked ? <ChevronRight size={20} className="transition-transform group-hover:translate-x-1" /> : null}
+                        {!isLocked ? <ChevronRight size={17} className="transition-transform group-hover:translate-x-1" /> : null}
                       </div>
                     </div>
 
-                    <span className={`relative mt-5 flex h-14 w-14 shrink-0 items-center justify-center self-end rounded-full shadow-[0_12px_24px_rgba(15,23,42,0.08)] transition-all ${
+                    <span className={`relative flex h-11 w-11 shrink-0 items-center justify-center rounded-full shadow-[0_10px_20px_rgba(15,23,42,0.08)] transition-all ${
                       isLocked
                         ? 'bg-slate-100 text-slate-400'
                         : 'bg-white text-blue-600 group-hover:bg-blue-600 group-hover:text-white group-hover:translate-x-1'
                     }`}>
-                      {isLocked ? <Lock size={22} /> : <ChevronRight size={30} />}
+                      {isLocked ? <Lock size={18} /> : <ChevronRight size={24} />}
                     </span>
                   </button>
                 );
