@@ -370,47 +370,91 @@ export const SpeakingCoursePage = () => {
         <>
           {/* Trạng thái 1: Chưa chọn Phần (Đọc vs Vấn đáp) */}
           {selectedType === null && (
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-4xl mx-auto pt-6">
+            <section className="relative overflow-hidden rounded-[28px] border border-blue-100 bg-gradient-to-b from-white via-white to-blue-50/70 px-4 py-8 shadow-[0_24px_70px_rgba(59,130,246,0.10)] md:px-8 lg:px-10">
+              <div className="pointer-events-none absolute right-10 top-3 hidden text-7xl text-rose-100/80 lg:block">桜</div>
+              <div className="pointer-events-none absolute bottom-0 left-0 h-24 w-full bg-[linear-gradient(172deg,transparent_45%,rgba(219,234,254,0.72)_46%)]" />
+              <div className="pointer-events-none absolute right-24 top-9 hidden text-[120px] font-black leading-none text-blue-50 lg:block">鳥居</div>
+
+              <div className="relative mb-8">
+                <div className="flex items-center gap-4">
+                  <span className="h-9 w-1.5 rounded-full bg-gradient-to-b from-orange-300 to-orange-600 shadow-[0_6px_18px_rgba(249,115,22,0.35)]" />
+                  <h2 className="font-heading text-3xl font-black uppercase tracking-[0.08em] text-slate-950 md:text-4xl">
+                    Để bắt đầu
+                  </h2>
+                </div>
+                <p className="mt-3 max-w-2xl text-sm font-bold leading-6 text-slate-500 md:text-base">
+                  Chọn phần luyện tập phù hợp để bắt đầu hành trình học tiếng Nhật của bạn
+                </p>
+              </div>
+
+              <div className="relative grid grid-cols-1 gap-6 lg:grid-cols-2">
               <button
                 onClick={() => setSelectedType('reading')}
-                className="interactive-surface text-left flex flex-col p-6 rounded-[24px] border-2 border-slate-900 bg-[#FFF7ED] shadow-[6px_6px_0_#111827] hover:-translate-y-1 transition-all"
+                className="group relative flex min-h-[330px] flex-col overflow-hidden rounded-[24px] border border-orange-200 bg-white/90 p-6 text-left shadow-[0_20px_55px_rgba(251,146,60,0.12)] transition-all hover:-translate-y-1 hover:border-orange-300 hover:shadow-[0_28px_65px_rgba(251,146,60,0.18)] md:p-8"
               >
-                <div className="flex h-14 w-14 items-center justify-center rounded-2xl border-2 border-slate-900 bg-[#8B3A22] text-[#FFF7ED] shadow-[3px_3px_0_#111827] mb-6">
-                  <BookOpen size={28} />
+                <div className="pointer-events-none absolute -right-20 top-12 h-64 w-64 rounded-full bg-orange-50" />
+                <div className="pointer-events-none absolute right-4 top-20 hidden text-[60px] font-black text-orange-200/80 md:block">日本語</div>
+                <div className="pointer-events-none absolute bottom-24 right-7 hidden h-20 w-28 rotate-[-6deg] rounded-b-full border-b-[12px] border-x-[10px] border-orange-200/80 md:block" />
+
+                <div className="relative flex h-20 w-20 items-center justify-center rounded-full border border-orange-300 bg-gradient-to-br from-orange-400 to-orange-600 text-white shadow-[0_14px_30px_rgba(234,88,12,0.35)]">
+                  <BookOpen size={36} />
                 </div>
-                <h3 className="font-heading text-2xl font-black text-slate-900">
-                  Phần 1: Luyện Đọc Thành Tiếng
-                </h3>
-                <p className="mt-3 text-sm font-bold text-slate-600 leading-relaxed flex-grow">
-                  Luyện đọc các đoạn văn tiếng Nhật theo từng câu. Tích hợp âm thanh phát âm chuẩn, cách đọc Kanji và dịch nghĩa đầy đủ.
-                </p>
-                <div className="mt-6 inline-flex items-center gap-1.5 text-xs font-black uppercase tracking-wider text-[#8B3A22]">
-                  <span>{readingLessons.length} bài đọc</span>
-                  <span>•</span>
-                  <span>Bắt đầu →</span>
+                <div className="relative mt-8 max-w-[360px]">
+                  <span className="inline-flex h-9 items-center rounded-lg bg-orange-100 px-4 text-sm font-black uppercase tracking-wider text-orange-600">
+                    Phần 1
+                  </span>
+                  <h3 className="mt-5 font-heading text-3xl font-black leading-tight text-slate-950">
+                    Luyện Đọc Thành Tiếng
+                  </h3>
+                  <p className="mt-4 text-sm font-bold leading-7 text-slate-500">
+                    Luyện đọc các đoạn văn tiếng Nhật theo từng chủ đề. Tích hợp âm thanh phát âm chuẩn, cách đọc Kanji và dịch nghĩa đầy đủ.
+                  </p>
+                </div>
+                <div className="relative mt-auto grid h-16 grid-cols-[1fr_auto_1fr_auto] items-center overflow-hidden rounded-xl border border-orange-200 bg-orange-50/60 text-sm font-black uppercase tracking-wider text-orange-600 shadow-sm">
+                  <span className="px-4 text-center">{readingLessons.length} bài đọc</span>
+                  <span className="text-orange-500">•</span>
+                  <span className="px-4 text-center">Bắt đầu</span>
+                  <span className="mr-4 flex h-11 w-11 items-center justify-center rounded-full bg-gradient-to-br from-orange-400 to-orange-600 text-white shadow-[0_8px_18px_rgba(234,88,12,0.28)] transition-transform group-hover:translate-x-1">
+                    <ChevronRight size={24} />
+                  </span>
                 </div>
               </button>
 
               <button
                 onClick={() => setSelectedType('qa')}
-                className="interactive-surface text-left flex flex-col p-6 rounded-[24px] border-2 border-slate-900 bg-[#EFF6FF] shadow-[6px_6px_0_#111827] hover:-translate-y-1 transition-all"
+                className="group relative flex min-h-[330px] flex-col overflow-hidden rounded-[24px] border border-blue-200 bg-white/90 p-6 text-left shadow-[0_20px_55px_rgba(59,130,246,0.12)] transition-all hover:-translate-y-1 hover:border-blue-300 hover:shadow-[0_28px_65px_rgba(59,130,246,0.18)] md:p-8"
               >
-                <div className="flex h-14 w-14 items-center justify-center rounded-2xl border-2 border-slate-900 bg-blue-600 text-white shadow-[3px_3px_0_#111827] mb-6">
-                  <MessageSquare size={28} />
+                <div className="pointer-events-none absolute -right-16 top-16 h-60 w-60 rounded-full bg-blue-50" />
+                <div className="pointer-events-none absolute bottom-24 right-8 hidden h-24 w-32 rounded-t-full bg-gradient-to-b from-blue-200 to-blue-500 opacity-80 md:block" />
+                <div className="pointer-events-none absolute bottom-24 right-16 hidden h-10 w-12 rounded-b-full bg-white md:block" />
+                <div className="pointer-events-none absolute right-20 top-20 hidden rounded-2xl bg-blue-400 px-4 py-3 font-heading text-4xl font-black text-blue-900 shadow-lg md:block">?</div>
+                <div className="pointer-events-none absolute right-7 top-32 hidden rounded-2xl bg-white px-4 py-2 font-heading text-4xl font-black text-blue-600 shadow-lg md:block">!</div>
+
+                <div className="relative flex h-20 w-20 items-center justify-center rounded-full border border-blue-300 bg-gradient-to-br from-blue-400 to-blue-700 text-white shadow-[0_14px_30px_rgba(37,99,235,0.35)]">
+                  <MessageSquare size={36} />
                 </div>
-                <h3 className="font-heading text-2xl font-black text-slate-900">
-                  Phần 2: Luyện Phản Xạ Vấn Đáp (Q&A)
-                </h3>
-                <p className="mt-3 text-sm font-bold text-slate-600 leading-relaxed flex-grow">
-                  Luyện phản xạ nghe câu hỏi ngắn của giám khảo (có/không tranh) và tự đưa ra câu trả lời nhanh chóng dựa trên từ khóa.
-                </p>
-                <div className="mt-6 inline-flex items-center gap-1.5 text-xs font-black uppercase tracking-wider text-blue-600">
-                  <span>{activeQaLessons.length} bài phản xạ</span>
-                  <span>•</span>
-                  <span>Bắt đầu →</span>
+                <div className="relative mt-8 max-w-[390px]">
+                  <span className="inline-flex h-9 items-center rounded-lg bg-blue-100 px-4 text-sm font-black uppercase tracking-wider text-blue-600">
+                    Phần 2
+                  </span>
+                  <h3 className="mt-5 font-heading text-3xl font-black leading-tight text-slate-950">
+                    Luyện Phản Xạ Vấn Đáp (Q&A)
+                  </h3>
+                  <p className="mt-4 text-sm font-bold leading-7 text-slate-500">
+                    Luyện phản xạ nghe câu hỏi ngắn của giám khảo, có hoặc không tranh, rồi tự đưa ra câu trả lời nhanh dựa trên từ khóa.
+                  </p>
+                </div>
+                <div className="relative mt-auto grid h-16 grid-cols-[1fr_auto_1fr_auto] items-center overflow-hidden rounded-xl border border-blue-200 bg-blue-50/70 text-sm font-black uppercase tracking-wider text-blue-600 shadow-sm">
+                  <span className="px-4 text-center">{activeQaLessons.length} bài phản xạ</span>
+                  <span className="text-blue-500">•</span>
+                  <span className="px-4 text-center">Bắt đầu</span>
+                  <span className="mr-4 flex h-11 w-11 items-center justify-center rounded-full bg-gradient-to-br from-blue-400 to-blue-700 text-white shadow-[0_8px_18px_rgba(37,99,235,0.28)] transition-transform group-hover:translate-x-1">
+                    <ChevronRight size={24} />
+                  </span>
                 </div>
               </button>
-            </div>
+              </div>
+            </section>
           )}
 
           {/* Trạng thái 2: Xem danh sách bài Đọc */}
