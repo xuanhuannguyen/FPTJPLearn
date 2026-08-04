@@ -166,7 +166,12 @@ function isHalfLicensingFreeSpeakingContent(content: AccessControlledContent) {
     return false;
   }
 
-  if (lessonType !== 'reading' && lessonType !== 'qa') return false;
+  if (lessonType === 'qa') {
+    const firstQaLessonNumber = code.includes('jpd123') ? 4 : 1;
+    return lessonNumber === firstQaLessonNumber;
+  }
+
+  if (lessonType !== 'reading') return false;
 
   const firstTwoLessonLimit = code.includes('jpd123') ? 5 : 2;
   return lessonNumber <= firstTwoLessonLimit;
