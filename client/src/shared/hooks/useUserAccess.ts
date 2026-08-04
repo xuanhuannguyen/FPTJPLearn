@@ -158,6 +158,10 @@ function isHalfLicensingFreeSpeakingContent(content: AccessControlledContent) {
   const lessonType = content.lessonType?.trim().toLowerCase();
   const lessonNumber = Number(content.lessonNumber);
 
+  if (!content.lessonNumber && !content.lessonType) {
+    return true;
+  }
+
   if (!Number.isFinite(lessonNumber)) {
     return false;
   }
