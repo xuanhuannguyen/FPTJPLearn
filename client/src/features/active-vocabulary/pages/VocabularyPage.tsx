@@ -272,8 +272,8 @@ export const VocabularyPage = () => {
             const isComplete = list.wordCount > 0 && progressPercent === 100;
 
             return (
-            <div 
-              key={list.id} 
+            <div
+              key={list.id}
               onClick={() => navigate(`/active-vocabulary/${list.id}`)}
               onKeyDown={(event) => {
                 if (event.key === 'Enter' || event.key === ' ') {
@@ -283,45 +283,47 @@ export const VocabularyPage = () => {
               }}
               role="button"
               tabIndex={0}
-              className="interactive-surface group relative flex cursor-pointer gap-4 overflow-hidden rounded-[18px] p-3.5"
+              className="group relative flex min-h-[86px] cursor-pointer gap-3 overflow-hidden rounded-[14px] border-2 border-slate-900 bg-white p-2.5 shadow-[4px_4px_0_#111827] transition-all hover:translate-x-[1px] hover:translate-y-[1px] hover:shadow-[2px_2px_0_#111827]"
             >
-              <div className={`absolute left-0 top-0 h-full w-2 ${isComplete ? 'bg-accent-success' : 'bg-accent-primary'}`} />
-              <div className="book-cover relative flex h-20 w-16 shrink-0 items-center justify-center rounded-lg">
-                <div className="flex h-10 w-10 items-center justify-center rounded-full bg-white text-center font-heading text-[8px] font-black leading-none text-text-primary">
-                  TỪ<br />VỰNG
-                </div>
-              </div>
+              <div className={`absolute left-0 top-0 h-full w-1.5 ${isComplete ? 'bg-accent-success' : 'bg-blue-500'}`} />
 
-              <div className="relative flex min-w-0 flex-1 flex-col justify-center">
-                <div className="flex items-start justify-between gap-3">
-                  <div className="min-w-0 flex-1">
-                    <div className="flex items-center gap-2">
-                      <h3 className="line-clamp-1 font-heading text-xl font-black leading-none tracking-tight text-text-primary transition-colors group-hover:text-accent-primary">
+              <img
+                src="/images/vocabulary/vocabulary-card.webp?v=2"
+                alt=""
+                className="h-[66px] w-[48px] shrink-0 rounded-lg border-2 border-slate-900 object-cover shadow-[2px_2px_0_#111827]"
+                loading="lazy"
+                decoding="async"
+              />
+
+              <div className="relative flex min-w-0 flex-1 flex-col justify-between py-0.5">
+                <div className="flex min-w-0 items-start justify-between gap-2">
+                  <div className="min-w-0">
+                    <div className="flex items-center gap-1.5">
+                      <h3 className="line-clamp-1 font-heading text-base font-black leading-tight text-slate-950 transition-colors group-hover:text-blue-600">
                         {list.name}
                       </h3>
                       {isComplete && (
-                        <CheckCircle className="text-accent-success shrink-0" size={18} />
+                        <CheckCircle className="shrink-0 text-accent-success" size={15} />
                       )}
                     </div>
-                    <div className="mt-2 flex items-center gap-2 text-[11px] font-bold">
-                      <div className="flex items-center gap-1.5 rounded-lg border border-border/40 bg-bg-tertiary px-2 py-0.5 text-text-primary">
-                        <BookOpen size={12} className="text-text-muted" />
-                        <span className="font-black leading-none">{list.wordCount}</span>
-                      </div>
-                      <div className="flex items-center gap-1.5 rounded-lg border border-accent-success/20 bg-accent-success/5 px-2 py-0.5 text-accent-success">
-                        <CheckCircle size={12} />
-                        <span className="font-black leading-none">{list.masteredCount}</span>
-                      </div>
-                      {list.dueCount > 0 && (
-                        <div className="flex items-center gap-1.5 rounded-lg border border-accent-warning/20 bg-accent-warning/5 px-2 py-0.5 text-accent-warning">
-                          <Clock size={12} />
-                          <span className="font-black leading-none">{list.dueCount}</span>
-                        </div>
-                      )}
+                    <div className="mt-1.5 flex flex-wrap items-center gap-1.5">
+                      <span className="inline-flex h-5 items-center gap-1 rounded-full border border-slate-200 bg-slate-50 px-2 text-[10px] font-black text-slate-600">
+                        <BookOpen size={11} />
+                        {list.wordCount}
+                      </span>
+                      <span className="inline-flex h-5 items-center gap-1 rounded-full border border-accent-success/20 bg-accent-success/5 px-2 text-[10px] font-black text-accent-success">
+                        <CheckCircle size={11} />
+                        {list.masteredCount}
+                      </span>
+                      <span className="inline-flex h-5 items-center gap-1 rounded-full border border-accent-warning/20 bg-accent-warning/5 px-2 text-[10px] font-black text-accent-warning">
+                        <Clock size={11} />
+                        {list.dueCount}
+                      </span>
                     </div>
                   </div>
+
                   <div className="flex shrink-0 items-center gap-1">
-                    <button 
+                    <button
                       onClick={(e) => {
                         e.stopPropagation();
                         setDeleteError('');
@@ -330,35 +332,32 @@ export const VocabularyPage = () => {
                       className="rounded-lg p-1.5 text-text-muted opacity-100 transition-colors hover:bg-accent-danger/10 hover:text-accent-danger md:opacity-0 md:group-hover:opacity-100"
                       title="Delete List"
                     >
-                      <Trash2 size={16} />
+                      <Trash2 size={14} />
                     </button>
-                    <button 
+                    <button
                       onClick={(event) => {
                         event.stopPropagation();
                         navigate(`/active-vocabulary/${list.id}?study=1`);
                       }}
-                      className={`flex h-8 w-8 items-center justify-center rounded-lg border-2 border-border transition-all ${
-                        list.dueCount > 0 
-                          ? 'bg-accent-cta text-white shadow-pop hover:-translate-y-0.5' 
-                          : 'bg-bg-tertiary text-text-secondary hover:text-accent-primary cursor-pointer'
+                      className={`flex h-8 w-8 items-center justify-center rounded-lg border-2 border-slate-900 transition-all ${
+                        list.dueCount > 0
+                          ? 'bg-orange-600 text-white shadow-[2px_2px_0_#111827] hover:bg-orange-500'
+                          : 'bg-bg-tertiary text-text-secondary hover:text-accent-primary'
                       }`}
                     >
-                      <Play size={14} className={list.dueCount > 0 ? 'ml-0.5' : ''} />
+                      <Play size={14} className={list.dueCount > 0 ? 'ml-0.5 fill-current' : ''} />
                     </button>
                   </div>
                 </div>
 
-
-
-                {/* Progress Bar - Simplified */}
-                <div className="mt-3 flex items-center gap-3">
-                  <div className="h-1.5 flex-1 overflow-hidden rounded-full border border-border bg-bg-tertiary">
-                    <div 
-                      className={`h-full rounded-full transition-all duration-500 ${isComplete ? 'bg-accent-success' : 'bg-accent-primary'}`}
+                <div className="mt-2 flex items-center gap-2">
+                  <div className="h-1.5 flex-1 overflow-hidden rounded-full border border-slate-900 bg-blue-50">
+                    <div
+                      className={`h-full rounded-full transition-all duration-500 ${isComplete ? 'bg-accent-success' : 'bg-blue-600'}`}
                       style={{ width: `${progressPercent}%` }}
                     />
                   </div>
-                  <span className="text-[10px] font-black text-text-primary tabular-nums">{progressPercent}%</span>
+                  <span className="w-7 text-right text-[10px] font-black text-slate-900 tabular-nums">{progressPercent}%</span>
                 </div>
               </div>
             </div>
