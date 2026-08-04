@@ -75,7 +75,7 @@ export const IntroScriptPage = () => {
   const config = scriptConfig[script];
 
   return (
-    <div className="relative mx-auto max-w-6xl space-y-6 px-4 py-3 animate-fade-in sm:px-6 lg:px-8">
+    <div className="relative mx-auto max-w-4xl space-y-4 px-4 py-3 animate-fade-in sm:px-6 lg:px-8">
       <CherryBranch />
 
       <Link
@@ -86,43 +86,43 @@ export const IntroScriptPage = () => {
         Quay lại Nhập Môn
       </Link>
 
-      <section className="relative overflow-hidden rounded-[26px] border border-blue-100 bg-white shadow-[0_22px_60px_rgba(40,88,150,0.16)]">
+      <section className="relative overflow-hidden rounded-[22px] border border-blue-100 bg-white shadow-[0_18px_48px_rgba(40,88,150,0.14)]">
         <MountainArt />
-        <div className="grid min-h-[260px] md:grid-cols-[1fr_0.95fr]">
-          <div className="relative flex min-h-[260px] flex-col justify-center overflow-hidden px-7 py-8 sm:px-12">
-            <p className="text-xs font-black uppercase tracking-[0.24em] text-blue-600">Bảng chữ</p>
-            <h1 className="mt-4 text-4xl font-black uppercase tracking-normal text-[#091643] sm:text-5xl">
+        <div className="grid min-h-[195px] md:grid-cols-[1fr_0.95fr]">
+          <div className="relative flex min-h-[195px] flex-col justify-center overflow-hidden px-5 py-6 sm:px-9">
+            <p className="text-[10px] font-black uppercase tracking-[0.24em] text-blue-600">Bảng chữ</p>
+            <h1 className="mt-3 text-3xl font-black uppercase tracking-normal text-[#091643] sm:text-4xl">
               {config.title}
             </h1>
-            <div className="mt-3 font-jp text-6xl font-black tracking-normal text-[#08164a] drop-shadow-sm sm:text-7xl">
+            <div className="mt-2 font-jp text-5xl font-black tracking-normal text-[#08164a] drop-shadow-sm sm:text-6xl">
               {config.jp}
             </div>
-            <p className="mt-5 max-w-md text-base font-bold leading-8 text-slate-600">
+            <p className="mt-4 max-w-sm text-sm font-bold leading-6 text-slate-600">
               {config.description}
             </p>
           </div>
 
-          <div className="relative flex min-h-[260px] flex-col justify-center overflow-hidden bg-gradient-to-br from-[#2f8bff] via-[#1476f5] to-[#0756d8] px-7 py-8 text-white md:[clip-path:polygon(8%_0,100%_0,100%_100%,0_100%)] md:pl-16">
+          <div className="relative flex min-h-[195px] flex-col justify-center overflow-hidden bg-gradient-to-br from-[#2f8bff] via-[#1476f5] to-[#0756d8] px-5 py-6 text-white md:[clip-path:polygon(8%_0,100%_0,100%_100%,0_100%)] md:pl-12">
             <BluePanelArt />
-            <div className="relative z-[1] flex flex-wrap gap-4">
+            <div className="relative z-[1] flex flex-wrap gap-3">
               {config.sample.map((char) => (
                 <span
                   key={char}
-                  className="flex h-14 w-14 items-center justify-center rounded-full bg-white font-jp text-2xl font-black text-blue-600 shadow-[0_12px_28px_rgba(0,0,0,0.12)]"
+                  className="flex h-11 w-11 items-center justify-center rounded-full bg-white font-jp text-xl font-black text-blue-600 shadow-[0_10px_22px_rgba(0,0,0,0.12)]"
                 >
                   {char}
                 </span>
               ))}
             </div>
-            <div className="relative z-[1] mt-8">
-              <p className="text-xs font-black uppercase tracking-[0.28em] text-white/75">Các hàng chữ</p>
-              <p className="mt-4 text-lg font-black tracking-[0.14em] text-white">{config.rows}</p>
+            <div className="relative z-[1] mt-6">
+              <p className="text-[10px] font-black uppercase tracking-[0.28em] text-white/75">Các hàng chữ</p>
+              <p className="mt-3 text-base font-black tracking-[0.14em] text-white">{config.rows}</p>
             </div>
           </div>
         </div>
       </section>
 
-      <section className="grid grid-cols-1 gap-5 md:grid-cols-2">
+      <section className="grid grid-cols-1 gap-4 md:grid-cols-2">
         <IntroModeCard
           title="Học nhớ mẹo"
           subtitle="Xem từng chữ kèm hình ảnh liên tưởng, mẹo ghi nhớ và âm đọc."
@@ -141,7 +141,7 @@ export const IntroScriptPage = () => {
         />
       </section>
 
-      <section className="grid gap-5 md:grid-cols-3">
+      <section className="grid gap-4 md:grid-cols-3">
         <ShortcutCard
           icon={<Lightbulb size={26} />}
           title="Nhớ bằng hình"
@@ -178,7 +178,7 @@ type IntroModeCardProps = {
 const IntroModeCard = ({ title, subtitle, badge, icon, to, primary = false, kanaPreview }: IntroModeCardProps) => (
   <Link
     to={to}
-    className={`group relative min-h-[230px] overflow-hidden rounded-[24px] border border-blue-100 p-7 shadow-[0_16px_40px_rgba(40,88,150,0.14)] transition-all hover:-translate-y-1 hover:shadow-[0_22px_56px_rgba(40,88,150,0.18)] ${
+    className={`group relative min-h-[172px] overflow-hidden rounded-[20px] border border-blue-100 p-5 shadow-[0_12px_30px_rgba(40,88,150,0.13)] transition-all hover:-translate-y-1 hover:shadow-[0_18px_42px_rgba(40,88,150,0.17)] ${
       primary ? 'bg-[#071746] text-white' : 'bg-white text-[#08164a]'
     }`}
   >
@@ -192,21 +192,21 @@ const IntroModeCard = ({ title, subtitle, badge, icon, to, primary = false, kana
     )}
 
     <div className="relative z-[1] flex items-start justify-between gap-4">
-      <div className={`flex h-14 w-14 items-center justify-center rounded-2xl shadow-[0_10px_24px_rgba(40,88,150,0.14)] ${
+      <div className={`flex h-11 w-11 items-center justify-center rounded-xl shadow-[0_8px_20px_rgba(40,88,150,0.14)] ${
         primary ? 'bg-white text-blue-600' : 'bg-blue-50 text-blue-600'
       }`}>
         {icon}
       </div>
-      <span className={`rounded-full px-4 py-2 text-xs font-black uppercase tracking-[0.16em] ${
+      <span className={`rounded-full px-3 py-1.5 text-[10px] font-black uppercase tracking-[0.16em] ${
         primary ? 'bg-white/12 text-white/75' : 'bg-blue-50 text-blue-700'
       }`}>
         {badge}
       </span>
     </div>
 
-    <div className="relative z-[1] mt-7 max-w-md">
-      <h2 className="text-3xl font-black tracking-normal">{title}</h2>
-      <p className={`mt-4 min-h-[56px] text-base font-bold leading-7 ${
+    <div className="relative z-[1] mt-5 max-w-sm">
+      <h2 className="text-2xl font-black tracking-normal">{title}</h2>
+      <p className={`mt-3 min-h-[44px] text-sm font-bold leading-6 ${
         primary ? 'text-white/80' : 'text-slate-600'
       }`}>
         {subtitle}
@@ -214,16 +214,16 @@ const IntroModeCard = ({ title, subtitle, badge, icon, to, primary = false, kana
     </div>
 
     {kanaPreview && !primary && (
-      <div className="relative z-[1] mt-4 flex items-center gap-3" aria-hidden="true">
-        <div className="flex h-14 w-16 rotate-[-8deg] items-center justify-center rounded-2xl border border-blue-100 bg-blue-50 font-jp text-2xl font-black text-blue-500 shadow-[0_14px_26px_rgba(37,99,235,0.14)]">
+      <div className="relative z-[1] mt-3 flex items-center gap-3" aria-hidden="true">
+        <div className="flex h-11 w-12 rotate-[-8deg] items-center justify-center rounded-xl border border-blue-100 bg-blue-50 font-jp text-xl font-black text-blue-500 shadow-[0_10px_22px_rgba(37,99,235,0.14)]">
           {kanaPreview}
         </div>
-        <span className="h-3 w-3 rounded-full bg-pink-200" />
+        <span className="h-2.5 w-2.5 rounded-full bg-pink-200" />
         <span className="h-2 w-2 rounded-full bg-pink-300" />
       </div>
     )}
 
-    <div className={`relative z-[1] mt-7 inline-flex items-center gap-3 text-sm font-black uppercase tracking-[0.22em] ${
+    <div className={`relative z-[1] mt-5 inline-flex items-center gap-2 text-xs font-black uppercase tracking-[0.22em] ${
       primary ? 'text-blue-300' : 'text-blue-600'
     }`}>
       <span>Bắt đầu</span>
@@ -246,13 +246,13 @@ const shortcutTone = {
 } as const;
 
 const ShortcutCard = ({ icon, title, description, tone }: ShortcutCardProps) => (
-  <div className="group flex items-center gap-5 rounded-[20px] border border-blue-100 bg-white p-5 shadow-[0_14px_34px_rgba(40,88,150,0.12)] transition-all hover:-translate-y-1 hover:shadow-[0_18px_44px_rgba(40,88,150,0.16)]">
-    <div className={`flex h-16 w-16 shrink-0 items-center justify-center rounded-full border shadow-lg ${shortcutTone[tone]}`}>
+  <div className="group flex items-center gap-4 rounded-[16px] border border-blue-100 bg-white p-4 shadow-[0_10px_26px_rgba(40,88,150,0.11)] transition-all hover:-translate-y-1 hover:shadow-[0_15px_34px_rgba(40,88,150,0.15)]">
+    <div className={`flex h-12 w-12 shrink-0 items-center justify-center rounded-full border shadow-md ${shortcutTone[tone]}`}>
       {icon}
     </div>
     <div className="min-w-0 flex-1">
-      <h3 className="text-sm font-black uppercase tracking-[0.08em] text-[#08164a]">{title}</h3>
-      <p className="mt-2 text-sm font-bold leading-6 text-slate-500">{description}</p>
+      <h3 className="text-xs font-black uppercase tracking-[0.08em] text-[#08164a]">{title}</h3>
+      <p className="mt-1.5 text-xs font-bold leading-5 text-slate-500">{description}</p>
     </div>
     <ArrowRight size={20} className="shrink-0 text-blue-400 transition-transform group-hover:translate-x-1" />
   </div>

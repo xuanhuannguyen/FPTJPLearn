@@ -25,14 +25,11 @@ public class ExamPracticeService : IExamPracticeService
             .OrderBy(course => course.OrderIndex)
             .ToListAsync();
 
-        var accessibleQuestions = await ApplyQuestionAccessAsync(
-            userId,
-            _db.ExamQuestions.Where(question => question.IsActive && question.Options.Any(option => option.IsCorrect)));
-
-        var questionCounts = accessibleQuestions
+        var questionCounts = await _db.ExamQuestions
+            .Where(question => question.IsActive && question.Options.Any(option => option.IsCorrect))
             .GroupBy(question => question.CourseCode)
             .Select(group => new { CourseCode = group.Key, Count = group.Count() })
-            .ToList();
+            .ToListAsync();
 
         var passageCounts = await _db.ExamPassages
             .Where(passage => passage.IsActive)

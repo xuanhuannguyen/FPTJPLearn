@@ -91,7 +91,7 @@ public class KanjiService : IKanjiService
             return null;
         }
 
-        if (_paymentAccess.IsContentLocked(userId, lesson.AccessTier, lesson.PackageCode))
+        if (IsLessonLocked(userId, lesson))
         {
             return null;
         }
@@ -241,9 +241,9 @@ public class KanjiService : IKanjiService
             LessonNumber = lesson.LessonNumber,
             Title = lesson.Title,
             Description = lesson.Description,
-            AccessTier = lesson.AccessTier,
+            AccessTier = ResolveLessonAccessTier(lesson),
             PackageCode = lesson.PackageCode,
-            IsLocked = _paymentAccess.IsContentLocked(userId, lesson.AccessTier, lesson.PackageCode),
+            IsLocked = IsLessonLocked(userId, lesson),
             KanjiCount = lesson.KanjiItems.Count,
             VocabularyCount = lesson.VocabularyItems.Count,
             LearnedCount = progress.Count(item => item.IsLearned),
@@ -349,8 +349,20 @@ public class KanjiService : IKanjiService
     private static string ResolveAccessTier(KanjiItem item)
     {
         return string.IsNullOrWhiteSpace(item.AccessTierOverride)
-            ? item.Lesson?.AccessTier ?? KanjiAccessTiers.Free
+            ? item.Lesson == null ? KanjiAccessTiers.Free : ResolveLessonAccessTier(item.Lesson)
             : item.AccessTierOverride;
+    }
+
+    private bool IsLessonLocked(Guid userId, KanjiLesson lesson)
+    {
+        return _paymentAccess.IsContentLocked(userId, ResolveLessonAccessTier(lesson), lesson.PackageCode);
+    }
+
+    private static string ResolveLessonAccessTier(KanjiLesson lesson)
+    {
+        return string.Equals(lesson.PackageCode, "kanji_jpd123", StringComparison.OrdinalIgnoreCase) && lesson.LessonNumber == 4
+            ? KanjiAccessTiers.Free
+            : lesson.AccessTier;
     }
 
     private static string? ResolvePackageCode(KanjiItem item)
