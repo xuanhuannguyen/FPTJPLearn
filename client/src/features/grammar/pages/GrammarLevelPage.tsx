@@ -66,48 +66,66 @@ export const GrammarLevelPage = () => {
       </div>
 
       {/* Lessons Grid */}
-      <div className="grid grid-cols-1 gap-3 md:grid-cols-2">
+      <div className="mx-auto max-w-4xl grid grid-cols-1 gap-4">
         {lessons.map((lesson) => {
           const isLocked = isContentLocked(lesson);
           return (
           <Link
             key={lesson.id}
             to={isLocked ? '/pricing' : `/grammar/${paramLevel}/lessons/${lesson.id}`}
-            className={`group relative flex min-h-[58px] items-center gap-3 rounded-xl border bg-white px-4 py-2.5 transition-colors duration-200 cursor-pointer ${
+            className={`group relative flex min-h-[150px] flex-col gap-4 overflow-hidden rounded-3xl border bg-white/90 p-5 backdrop-blur-sm transition-all duration-200 cursor-pointer sm:flex-row sm:items-center ${
               isLocked
-                ? 'border-border/5 bg-slate-50/50 opacity-60'
-                : 'border-border/10 bg-white shadow-sm hover:bg-white/90'
+                ? 'border-border/5 bg-slate-50/60 opacity-70'
+                : 'border-violet-100 bg-white/90 shadow-[0_8px_24px_-12px_rgba(124,58,237,0.18)] hover:-translate-y-0.5 hover:border-violet-200 hover:shadow-[0_14px_34px_-12px_rgba(124,58,237,0.28)]'
             }`}
           >
-            {/* Icon */}
-            <div className={`flex h-8 w-8 flex-shrink-0 items-center justify-center rounded-lg border ${
-              isLocked ? 'border-border/5 bg-slate-100 text-slate-400' : 'border-border/10 bg-blue-50 text-accent-primary'
+            {/* Decorative wave + sakura */}
+            <span aria-hidden="true" className="grammar-card-wave" />
+            <span aria-hidden="true" className={`grammar-card-sakura top-4 right-10 opacity-60 ${isLocked ? 'hidden' : ''}`} />
+
+            {/* Icon block */}
+            <div className={`relative z-10 flex h-20 w-20 shrink-0 items-center justify-center rounded-2xl transition-transform duration-200 group-hover:scale-105 ${
+              isLocked
+                ? 'bg-slate-200 text-slate-500'
+                : 'bg-gradient-to-br from-violet-500 to-indigo-600 text-white shadow-lg shadow-violet-200'
             }`}>
-              {isLocked ? <Lock size={15} /> : <BookText size={15} />}
+              {isLocked ? <Lock size={28} /> : <BookText size={30} />}
             </div>
 
             {/* Content */}
-            <div className="flex-1 min-w-0">
-              <div className="flex items-center justify-between gap-1">
-                <span className="text-[10px] font-black uppercase tracking-wider text-text-tertiary">
-                  第{lesson.lessonNumber}課
-                </span>
-                <div className="flex items-center gap-0.5 text-text-muted">
-                  <span className="text-[11px] font-bold">{lesson.patternCount} mẫu</span>
-                  {!isLocked && <ChevronRight size={14} className="transition-transform group-hover:translate-x-0.5" />}
-                </div>
-              </div>
-              <h3 className={`truncate text-base font-black leading-tight ${isLocked ? 'text-slate-500' : 'text-text-primary'}`}>
+            <div className="relative z-10 min-w-0 flex-1">
+              <span className={`inline-flex items-center rounded-full px-2.5 py-0.5 text-[9px] font-black uppercase tracking-[0.18em] ${
+                isLocked ? 'bg-slate-200 text-slate-500' : 'bg-violet-100 text-violet-700'
+              }`}>
+                NGỮ PHÁP
+              </span>
+              <h3 className={`mt-2 line-clamp-2 text-lg font-black leading-snug sm:text-xl ${
+                isLocked ? 'text-slate-500' : 'text-text-primary'
+              }`}>
                 Bài {lesson.lessonNumber}: {lesson.title}
               </h3>
             </div>
 
-            {/* Premium Tag if locked */}
-            {isLocked && (
-              <div className="absolute bottom-0.5 right-1">
-                <span className="text-[7px] font-black uppercase bg-slate-200 text-slate-500 px-1 py-0 rounded-full">Pro</span>
+            {/* Right meta */}
+            <div className="relative z-10 flex shrink-0 items-center gap-3">
+              <div className={`flex flex-col items-end rounded-2xl px-4 py-2 ${
+                isLocked ? 'bg-slate-100' : 'border border-violet-100 bg-violet-50'
+              }`}>
+                <span className={`text-lg font-black leading-none ${isLocked ? 'text-slate-500' : 'text-violet-700'}`}>
+                  {lesson.patternCount} mẫu
+                </span>
+                <span className="mt-1 text-[9px] font-bold uppercase tracking-wider text-slate-400">
+                  mẫu ngữ pháp
+                </span>
               </div>
-            )}
+              {isLocked ? (
+                <span className="rounded-full bg-slate-200 px-2 py-0.5 text-[9px] font-black uppercase tracking-wider text-slate-500">
+                  Pro
+                </span>
+              ) : (
+                <ChevronRight size={22} className="text-violet-500 transition-transform group-hover:translate-x-1" />
+              )}
+            </div>
           </Link>
           );
         })}
