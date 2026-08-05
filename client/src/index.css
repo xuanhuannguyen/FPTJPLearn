@@ -38,10 +38,23 @@
 
     /* Fonts */
     --font-japanese: "Noto Sans JP", "Hiragino Kaku Gothic ProN", "Meiryo", sans-serif;
+
+    /* UI scale (desktop/laptop only). Emulates ~75% browser zoom by
+       shrinking the rem unit: 16px * 0.75 = 12px. */
+    --desktop-ui-scale: 0.75;
   }
 
   html {
     background: var(--bg-primary);
+    font-size: 16px;
+  }
+
+  /* Desktop/laptop: scale down rem-based Tailwind sizing so the UI at
+     100% zoom looks close to browser zoom at 75%. */
+  @media (min-width: 768px) {
+    html {
+      font-size: calc(16px * var(--desktop-ui-scale)); /* 12px */
+    }
   }
 
   body {
