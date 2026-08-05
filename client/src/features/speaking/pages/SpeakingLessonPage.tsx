@@ -165,36 +165,28 @@ export const SpeakingLessonPage = () => {
       ) : detail ? (
         <PremiumLock isLocked={isContentLocked(detail.lesson)} packageCode={detail.lesson.packageCode}>
         <section className="space-y-6">
-          {detail.sentences.map((sentence) => (
-            <article
-              key={sentence.id}
-              className="rounded-[16px] border border-[#eadfd6] bg-white/90 p-4 shadow-[0_12px_30px_rgba(139,58,34,0.06)]"
-            >
-              <div className="mb-3 flex items-center justify-between gap-3">
-                <span className="text-xs font-black uppercase tracking-[0.18em] text-[#8B3A22]">
-                  Câu {sentence.sentenceNumber}
-                </span>
-                <SpeakingSentenceAudioButton sentence={sentence} />
+          <div className="speaking-passage">
+            {detail.sentences.map((sentence) => (
+              <div key={sentence.id} className="speaking-passage-sentence">
+                <span className="speaking-sentence-badge">Câu {sentence.sentenceNumber}</span>
+
+                <div
+                  className={`speaking-content ${showReading ? 'speaking-reading-on' : 'speaking-reading-hover'}`}
+                  dangerouslySetInnerHTML={{ __html: sentence.contentHtml }}
+                />
+
+                <SpeakingSentenceAudioButton sentence={sentence} compact />
+
+                {showRomaji && sentence.romaji ? (
+                  <p className="speaking-romaji">{sentence.romaji}</p>
+                ) : null}
+
+                {showMeaning ? (
+                  <p className="speaking-meaning">{sentence.meaningVi}</p>
+                ) : null}
               </div>
-
-              <div
-                className={`speaking-content ${showReading ? 'speaking-reading-on' : 'speaking-reading-hover'}`}
-                dangerouslySetInnerHTML={{ __html: sentence.contentHtml }}
-              />
-
-              {showRomaji && sentence.romaji && (
-                <p className="mt-2 text-sm font-bold tracking-wide text-blue-600/80">
-                  {sentence.romaji}
-                </p>
-              )}
-
-              {showMeaning ? (
-                <p className="mt-3 border-t border-dashed border-[#eadfd6] pt-3 text-base font-bold leading-6 text-[#756a62]">
-                  {sentence.meaningVi}
-                </p>
-              ) : null}
-            </article>
-          ))}
+            ))}
+          </div>
 
           <div className="flex flex-col gap-3 border-t border-[#eadfd6] pt-6 sm:flex-row sm:items-center sm:justify-between">
             <button
@@ -230,11 +222,12 @@ export const SpeakingLessonPage = () => {
 
 type SpeakingSentenceAudioButtonProps = {
   sentence: SpeakingSentence;
+  compact?: boolean;
 };
 
 const canUseSpeech = () => typeof window !== 'undefined' && 'speechSynthesis' in window;
 
-const SpeakingSentenceAudioButton = ({ sentence }: SpeakingSentenceAudioButtonProps) => {
+const SpeakingSentenceAudioButton = ({ sentence, compact = false }: SpeakingSentenceAudioButtonProps) => {
   const [isSpeaking, setIsSpeaking] = useState(false);
   const supported = canUseSpeech();
   const speechText = sentence.plainText.trim();
@@ -279,12 +272,16 @@ const SpeakingSentenceAudioButton = ({ sentence }: SpeakingSentenceAudioButtonPr
       type="button"
       onClick={isSpeaking ? stop : speak}
       disabled={!supported || !speechText}
-      className="inline-flex h-10 shrink-0 items-center justify-center gap-2 rounded-full border-2 border-slate-900 bg-white px-3 text-xs font-black text-[#8B3A22] shadow-[3px_3px_0_#111827] transition-all hover:translate-x-[1px] hover:translate-y-[1px] hover:bg-[#fff7ed] hover:shadow-[2px_2px_0_#111827] disabled:pointer-events-none disabled:opacity-40"
+      className={
+        compact
+          ? 'speaking-inline-audio inline-flex shrink-0 items-center justify-center rounded-full border-2 border-slate-900 bg-white text-[#8B3A22] shadow-[2px_2px_0_#111827] transition-all hover:translate-x-[1px] hover:translate-y-[1px] hover:bg-[#fff7ed] hover:shadow-[1px_1px_0_#111827] disabled:pointer-events-none disabled:opacity-40'
+          : 'inline-flex h-10 shrink-0 items-center justify-center gap-2 rounded-full border-2 border-slate-900 bg-white px-3 text-xs font-black text-[#8B3A22] shadow-[3px_3px_0_#111827] transition-all hover:translate-x-[1px] hover:translate-y-[1px] hover:bg-[#fff7ed] hover:shadow-[2px_2px_0_#111827] disabled:pointer-events-none disabled:opacity-40'
+      }
       aria-label={isSpeaking ? `Dừng đọc câu ${sentence.sentenceNumber}` : `Đọc câu ${sentence.sentenceNumber}`}
       title={supported ? 'Đọc câu tiếng Nhật' : 'Trình duyệt không hỗ trợ đọc tự động'}
     >
-      {isSpeaking ? <VolumeX size={17} /> : <Volume2 size={17} />}
-      <span>{isSpeaking ? 'Dừng' : 'Nghe câu'}</span>
+      {isSpeaking ? <VolumeX size={16} /> : <Volume2 size={16} />}
+      {!compact ? <span>{isSpeaking ? 'Dừng' : 'Nghe câu'}</span> : null}
     </button>
   );
 };

@@ -441,6 +441,90 @@
   opacity: 1;
 }
 
+/* Speaking reading passage (sentences joined into a flowing passage) */
+.speaking-passage {
+  border-radius: 16px;
+  border: 1px solid #eadfd6;
+  background: rgba(255, 255, 255, 0.9);
+  box-shadow: 0 12px 30px rgba(139, 58, 34, 0.06);
+  padding: 1.5rem 1.75rem;
+}
+
+.speaking-passage-sentence {
+  position: relative;
+  padding: 0.9rem 2.75rem 0.9rem 0;
+  border-bottom: 1px dashed #eadfd6;
+}
+
+.speaking-passage-sentence:last-child {
+  border-bottom: none;
+}
+
+.speaking-passage .speaking-content {
+  font-size: clamp(1.15rem, 2.5vw, 1.45rem);
+  line-height: 2;
+  display: inline;
+}
+
+.speaking-sentence-badge {
+  display: inline-block;
+  margin-right: 0.75rem;
+  margin-bottom: 0.35rem;
+  border-radius: 999px;
+  background: #f4e3d8;
+  color: #8B3A22;
+  font-size: 0.62rem;
+  font-weight: 800;
+  letter-spacing: 0.12em;
+  line-height: 1;
+  padding: 0.32rem 0.6rem;
+  text-transform: uppercase;
+}
+
+.speaking-inline-audio {
+  position: absolute;
+  top: 1rem;
+  right: 0;
+  height: 2rem;
+  width: 2rem;
+}
+
+.speaking-romaji {
+  margin-top: 0.2rem;
+  color: rgba(37, 99, 235, 0.85);
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  line-height: 1.5;
+}
+
+.speaking-meaning {
+  margin-top: 0.25rem;
+  color: #756a62;
+  font-size: 0.92rem;
+  font-weight: 600;
+  line-height: 1.6;
+}
+
+@media (max-width: 640px) {
+  .speaking-passage {
+    padding: 1.25rem 1rem;
+  }
+
+  .speaking-passage-sentence {
+    padding-right: 2.75rem;
+  }
+
+  .speaking-passage .speaking-content {
+    font-size: 1.15rem;
+  }
+
+  .speaking-sentence-badge {
+    margin-right: 0.5rem;
+    font-size: 0.55rem;
+  }
+}
+
 /* Grammar lesson card decor */
 .grammar-card-wave {
   position: absolute;
