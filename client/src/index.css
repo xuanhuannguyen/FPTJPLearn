@@ -39,9 +39,9 @@
     /* Fonts */
     --font-japanese: "Noto Sans JP", "Hiragino Kaku Gothic ProN", "Meiryo", sans-serif;
 
-    /* UI scale (desktop/laptop only). Emulates ~75% browser zoom by
-       shrinking the rem unit: 16px * 0.75 = 12px. */
-    --desktop-ui-scale: 0.75;
+    /* UI scale (desktop/laptop only). Starts from 75% zoom feel,
+       then trims another 10% for denser laptop layouts. */
+    --desktop-ui-scale: 0.675;
   }
 
   html {
@@ -53,7 +53,7 @@
      100% zoom looks close to browser zoom at 75%. */
   @media (min-width: 768px) {
     html {
-      font-size: calc(16px * var(--desktop-ui-scale)); /* 12px */
+      font-size: calc(16px * var(--desktop-ui-scale)); /* 10.8px */
     }
   }
 

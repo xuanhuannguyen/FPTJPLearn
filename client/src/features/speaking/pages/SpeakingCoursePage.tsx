@@ -20,7 +20,7 @@ import {
   Sparkles
 } from 'lucide-react';
 import { speakingApi } from '../api/speakingApi';
-import type { SpeakingLesson, QaLessonDetail, QaQuestion } from '../types/speaking.types';
+import type { SpeakingLesson, QaLessonDetail, QaQuestion, PictureSet } from '../types/speaking.types';
 import { useUserAccess } from '../../../shared/hooks/useUserAccess';
 import { jpd113QaLessons, jpd123QaLessons } from '../data/qaData';
 
@@ -320,6 +320,17 @@ export const SpeakingCoursePage = () => {
     if (selectedQaLesson !== null) return 'Quay lại danh sách bài học';
     if (selectedType !== null) return 'Quay lại chọn phần học';
     return 'Back to Speaking';
+  };
+
+  // Short description for each picture card. Falls back to the count of
+  // vấn đáp questions when we can't infer a meaningful caption from the title.
+  const getPictureDescription = (picture: PictureSet): string => {
+    const title = picture.pictureTitle?.toLowerCase() ?? '';
+    const introKeywords = ['tranh 1', 'アンさん', 'リーさん'];
+    if (introKeywords.some((kw) => title.includes(kw))) {
+      return 'Giới thiệu bản thân với tranh mẫu';
+    }
+    return `${picture.questions.length} câu hỏi vấn đáp`;
   };
 
   return (
@@ -759,20 +770,62 @@ export const SpeakingCoursePage = () => {
                 </div>
               )}
 
-              {/* Trạng thái 4.3: VẤN ĐÁP CÓ TRANH - Hiển thị danh sách 2 bức tranh nhân vật */}
+              {/* Trạng thái 4.3: VẤN ĐÁP CÓ TRANH - Màn chọn tranh */}
               {selectedQaMode === 'with_image' && !isLoadingQaDetail && !qaDetailError && !isStudyingQa && qaLessonDetail && (
                 <div className="space-y-6">
-                  <div className="rounded-[20px] border-2 border-slate-900 bg-slate-50/50 p-5 shadow-[4px_4px_0_#111827]">
-                    <h3 className="font-heading text-xl font-black text-slate-900">
-                      Chọn bức tranh để bắt đầu luyện tập
-                    </h3>
-                    <p className="mt-1 text-xs font-bold text-slate-500">
-                      Bản {courseCode?.toUpperCase()} Bài {selectedQaLesson} có {qaLessonDetail.pictureSets?.length || 0} tranh thông tin. Vui lòng bấm chọn bức tranh để luyện phản xạ hỏi - đáp.
-                    </p>
+                  {/* Banner giới thiệu chế độ vấn đáp có tranh */}
+                  <div className="relative overflow-hidden rounded-[24px] border border-blue-100 bg-gradient-to-b from-white via-white to-blue-50/70 p-6 shadow-[0_20px_55px_rgba(59,130,246,0.10)] md:p-8">
+                    {/* Decorative Japanese background */}
+                    <div className="pointer-events-none absolute inset-0 overflow-hidden rounded-[24px]">
+                      <div className="absolute -right-6 -top-10 text-[110px] font-black leading-none text-blue-50 select-none">鳥居</div>
+                      <div className="absolute right-2 top-4 h-9 w-9 rounded-full bg-gradient-to-br from-red-400 to-orange-400 opacity-80 shadow-[0_8px_20px_rgba(234,88,12,0.25)]" />
+                      <div className="absolute left-3 top-4 text-3xl text-rose-200/70 select-none">桜</div>
+                      <div className="absolute left-14 top-8 text-xl text-rose-200/70 select-none">花</div>
+                      <div className="absolute right-20 bottom-2 text-2xl text-rose-200/60 select-none">桜</div>
+                      <div className="absolute right-2 top-14 text-lg text-rose-200/60 select-none">花</div>
+                      <div className="absolute inset-x-0 bottom-0 h-20 bg-[linear-gradient(172deg,transparent_42%,rgba(191,219,254,0.7)_43%,rgba(96,165,250,0.55)_58%,rgba(59,130,246,0.6)_59%)]" />
+                      <div className="absolute bottom-2 left-6 h-9 w-14 rounded-t-[60%] bg-gradient-to-b from-blue-200 to-blue-500 opacity-80 [clip-path:polygon(50%_0,100%_100%,0_100%)]" />
+                      <div className="absolute bottom-4 left-9 h-5 w-8 rounded-t-full bg-white/90" />
+                    </div>
+
+                    <div className="relative">
+                      <div className="flex items-center gap-3">
+                        <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-2xl border border-blue-200 bg-blue-50 text-blue-600 shadow-[0_10px_22px_rgba(37,99,235,0.14)]">
+                          <ImageIcon size={24} />
+                        </div>
+                        <div>
+                          <span className="inline-flex h-6 items-center rounded-lg bg-blue-50 px-2.5 text-[10px] font-black uppercase tracking-[0.16em] text-blue-600">
+                            Vấn đáp có tranh • Bài {selectedQaLesson}
+                          </span>
+                          <h3 className="mt-1 font-heading text-xl font-black leading-tight text-slate-950 md:text-2xl">
+                            {selectedQaLessonData?.title}
+                          </h3>
+                        </div>
+                      </div>
+                      <p className="mt-3 max-w-3xl text-sm font-bold leading-relaxed text-slate-500">
+                        {selectedQaLessonData?.withImageDesc || 'Quan sát hình vẽ và trả lời các câu hỏi vấn đáp xoay quanh thông tin trong tranh.'}
+                      </p>
+                    </div>
                   </div>
 
-                  <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
-                    {qaLessonDetail.pictureSets?.map((picture) => (
+                  {/* Intro panel: hướng dẫn chọn tranh */}
+                  <div className="flex flex-col items-center gap-4 rounded-[24px] border border-blue-100 bg-white p-6 text-center shadow-[0_16px_40px_rgba(59,130,246,0.08)] sm:flex-row sm:items-center sm:gap-5 sm:text-left md:p-7">
+                    <div className="flex h-14 w-14 shrink-0 items-center justify-center rounded-2xl border border-blue-100 bg-gradient-to-br from-blue-50 to-sky-50 text-blue-600 shadow-[inset_0_0_0_1px_rgba(96,165,250,0.14),0_10px_22px_rgba(37,99,235,0.12)]">
+                      <ImageIcon size={26} />
+                    </div>
+                    <div className="min-w-0">
+                      <h2 className="font-heading text-lg font-black leading-tight text-slate-950 md:text-xl">
+                        Chọn bức tranh để bắt đầu luyện tập
+                      </h2>
+                      <p className="mt-1 text-xs font-bold leading-5 text-slate-500">
+                        Bản {courseCode?.toUpperCase()} Bài {selectedQaLesson} có {qaLessonDetail.pictureSets?.length || 0} tranh thông tin. Vui lòng bấm chọn bức tranh để luyện phản xạ hỏi - đáp.
+                      </p>
+                    </div>
+                  </div>
+
+                  {/* Picture grid */}
+                  <div className="grid grid-cols-1 gap-5 md:grid-cols-2 lg:gap-6">
+                    {qaLessonDetail.pictureSets?.map((picture, index) => (
                       <button
                         key={picture.pictureId}
                         onClick={() => {
@@ -783,29 +836,40 @@ export const SpeakingCoursePage = () => {
                           setShowQaGuide(false);
                           setShowQaMeaning(false);
                         }}
-                        className="interactive-surface text-left flex flex-col p-3 rounded-2xl border-2 border-slate-900 bg-white shadow-[3px_3px_0_#111827] hover:-translate-y-1 transition-all"
+                        className="group flex cursor-pointer flex-col overflow-hidden rounded-[24px] border border-blue-100 bg-white text-left shadow-[0_16px_44px_rgba(59,130,246,0.10)] transition-all hover:-translate-y-1 hover:border-blue-200 hover:shadow-[0_24px_58px_rgba(37,99,235,0.16)]"
                       >
-                        {/* Bức tranh thu nhỏ bo góc */}
-                        <div className="relative aspect-[4/3] w-full rounded-lg border border-slate-900 overflow-hidden bg-slate-100 shadow-[1.5px_1.5px_0_#111827] mb-3">
+                        {/* Preview ảnh lớn */}
+                        <div className="relative aspect-[16/9] w-full overflow-hidden bg-gradient-to-br from-sky-50 to-blue-100/60">
                           <img
                             src={picture.imageUrl}
                             alt={picture.pictureTitle}
-                            className="w-full h-full object-cover"
+                            className="h-full w-full object-contain"
                             loading="lazy"
                             decoding="async"
                           />
+                          {/* Badge icon nhỏ ở góc ảnh */}
+                          <div className="absolute right-3 top-3 flex h-9 w-9 items-center justify-center rounded-xl border border-blue-100 bg-white/95 text-blue-600 shadow-[0_8px_18px_rgba(37,99,235,0.18)] backdrop-blur-sm">
+                            <ImageIcon size={17} />
+                          </div>
+                          <div className="absolute left-3 top-3 inline-flex h-6 items-center rounded-full border border-blue-100 bg-white/95 px-2.5 text-[10px] font-black uppercase tracking-wider text-blue-600 shadow-sm backdrop-blur-sm">
+                            Tranh {index + 1}
+                          </div>
                         </div>
 
-                        <h4 className="font-heading text-sm font-black text-slate-900 line-clamp-1">
-                          {picture.pictureTitle}
-                        </h4>
-                        <p className="mt-0.5 text-[11px] font-bold text-slate-500">
-                          Số câu hỏi: {picture.questions.length} câu hỏi vấn đáp
-                        </p>
+                        {/* Nội dung card */}
+                        <div className="flex flex-col gap-2 p-5">
+                          <h4 className="font-heading text-lg font-black leading-tight text-slate-950">
+                            {picture.pictureTitle}
+                          </h4>
+                          <p className="text-xs font-bold leading-5 text-slate-500">
+                            {getPictureDescription(picture)}
+                          </p>
 
-                        <span className="mt-3 w-full text-center py-1.5 rounded-lg border-2 border-slate-900 bg-indigo-600 text-white font-black text-xs shadow-[1.5px_1.5px_0_#111827] transition-all hover:bg-indigo-700">
-                          Luyện tập tranh này
-                        </span>
+                          <span className="mt-3 inline-flex w-full items-center justify-center gap-2 rounded-2xl bg-gradient-to-br from-blue-500 to-blue-700 px-5 py-3 text-sm font-black uppercase tracking-wide text-white shadow-[0_12px_26px_rgba(37,99,235,0.3)] transition-all group-hover:-translate-y-0.5 group-hover:shadow-[0_16px_32px_rgba(37,99,235,0.38)] active:translate-y-0">
+                            <Play size={16} className="fill-current" />
+                            Luyện tập tranh này
+                          </span>
+                        </div>
                       </button>
                     ))}
                   </div>
