@@ -75,7 +75,7 @@ export const SpeakingDashboardPage = () => {
           <p className="font-bold">Đang tải khóa luyện nói...</p>
         </div>
       ) : (
-        <div className="grid max-w-2xl grid-cols-1 gap-3 md:grid-cols-2">
+        <div className="grid max-w-[54.6rem] grid-cols-1 gap-3 md:grid-cols-2">
           {courses.map((course) => {
             const isLocked = isContentLocked(course);
             const isJpd113 = course.code === 'jpd113';

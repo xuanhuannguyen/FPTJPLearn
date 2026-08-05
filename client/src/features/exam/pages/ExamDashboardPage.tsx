@@ -76,7 +76,7 @@ export const ExamDashboardPage = () => {
         </div>
       ) : null}
 
-      <div className="grid max-w-2xl grid-cols-1 gap-3 md:grid-cols-2">
+      <div className="grid max-w-[54.6rem] grid-cols-1 gap-3 md:grid-cols-2">
         {courses.map((course) => {
           const isLocked = course.isLocked;
           const isJpd113 = course.code === 'jpd113';

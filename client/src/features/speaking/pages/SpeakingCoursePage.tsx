@@ -593,7 +593,7 @@ export const SpeakingCoursePage = () => {
 
           {/* Trạng thái 4: Đã chọn bài vấn đáp, hiển thị thông tin bài học và lựa chọn chế độ Có/Không tranh */}
           {selectedType === 'qa' && selectedQaLesson !== null && (
-            <div className="space-y-6 animate-fade-in max-w-5xl">
+            <div className="mx-auto max-w-[90rem] space-y-6 animate-fade-in">
               {/* Trạng thái 4.1: Chưa chọn chế độ vấn đáp */}
               {selectedQaMode === null && (
                 <>
@@ -824,7 +824,7 @@ export const SpeakingCoursePage = () => {
                   </div>
 
                   {/* Picture grid */}
-                  <div className="grid grid-cols-1 gap-5 md:grid-cols-2 lg:gap-6">
+                  <div className="mx-auto grid w-full max-w-[120rem] grid-cols-1 gap-5 md:grid-cols-2 xl:grid-cols-3 lg:gap-6">
                     {qaLessonDetail.pictureSets?.map((picture, index) => (
                       <button
                         key={picture.pictureId}
