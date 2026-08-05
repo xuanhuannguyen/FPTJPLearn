@@ -597,40 +597,47 @@ export const SpeakingCoursePage = () => {
               {/* Trạng thái 4.1: Chưa chọn chế độ vấn đáp */}
               {selectedQaMode === null && (
                 <>
-                  <div className="rounded-[24px] border-2 border-slate-900 bg-white p-6 shadow-[5px_5px_0_#111827]">
-                    <div className="flex items-center gap-3 mb-4">
-                      <span className="rounded-full bg-blue-100 px-3 py-1 text-xs font-black text-blue-700 border-2 border-slate-900">
+                  <div className="relative overflow-hidden rounded-[26px] border border-blue-200 bg-white px-6 py-7 shadow-[0_18px_45px_rgba(37,99,235,0.12)] md:px-9 md:py-8">
+                    <div className="pointer-events-none absolute inset-x-0 bottom-0 h-24 bg-[linear-gradient(172deg,transparent_40%,rgba(219,234,254,0.78)_41%)]" />
+                    <div className="pointer-events-none absolute -right-4 -top-12 h-44 w-44 rounded-full bg-blue-50/70" />
+                    <div className="pointer-events-none absolute right-7 top-5 text-7xl font-black leading-none text-rose-100/80">桜</div>
+                    <div className="relative flex flex-col gap-3 md:flex-row md:items-center md:gap-5">
+                      <span className="inline-flex h-12 shrink-0 items-center gap-2 self-start rounded-full bg-gradient-to-r from-blue-500 to-blue-700 px-5 text-base font-black text-white shadow-[0_10px_22px_rgba(37,99,235,0.24)]">
+                        <MessageSquare size={20} />
                         Vấn đáp - Bài {selectedQaLesson}
                       </span>
-                      <h2 className="font-heading text-2xl font-black text-slate-900">
+                      <h2 className="font-heading text-3xl font-black leading-tight text-[#07155c] md:text-[34px]">
                         {selectedQaLessonData?.title}
                       </h2>
                     </div>
 
                     {selectedQaLessonData?.overview && (
-                      <div className="space-y-5">
-                        <div className="border-l-4 border-blue-600 pl-4 py-1">
-                          <h4 className="text-sm font-black uppercase tracking-wider text-blue-600">Tổng quan bài học</h4>
-                          <p className="mt-1 text-sm font-bold text-slate-700 leading-relaxed">
+                      <div className="relative mt-6 space-y-5">
+                        <div className="border-l-[5px] border-blue-600 py-1 pl-5">
+                          <h4 className="font-heading text-lg font-black uppercase tracking-wide text-blue-600">Tổng quan bài học</h4>
+                          <p className="mt-2 max-w-5xl text-base font-bold leading-7 text-slate-600">
                             {selectedQaLessonData.overview.shortSummary}
                           </p>
                         </div>
 
-                        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 pt-2">
-                          <div className="rounded-xl border border-slate-200 bg-slate-50/50 p-4">
-                            <h5 className="text-xs font-black uppercase tracking-wider text-slate-500 mb-2">Sinh viên có thể</h5>
-                            <ul className="list-disc pl-5 space-y-1">
+                        <div className="grid grid-cols-1 gap-5 pt-1 md:grid-cols-2">
+                          <div className="rounded-[20px] border border-blue-100 bg-blue-50/45 p-5">
+                            <h5 className="font-heading text-lg font-black uppercase tracking-wide text-blue-600">Sinh viên có thể</h5>
+                            <ul className="mt-3 space-y-2">
                               {selectedQaLessonData.overview.studentCanDo.map((item, idx) => (
-                                <li key={idx} className="text-xs font-bold text-slate-600 leading-relaxed">{item}</li>
+                                <li key={idx} className="flex items-start gap-2 text-sm font-bold leading-5 text-slate-600">
+                                  <span className="mt-0.5 flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-blue-600 text-xs font-black text-white">✓</span>
+                                  {item}
+                                </li>
                               ))}
                             </ul>
                           </div>
 
-                          <div className="rounded-xl border border-slate-200 bg-slate-50/50 p-4">
-                            <h5 className="text-xs font-black uppercase tracking-wider text-slate-500 mb-2">Trọng tâm ngữ pháp</h5>
-                            <div className="flex flex-wrap gap-1.5 mt-2">
+                          <div className="rounded-[20px] border border-blue-100 bg-blue-50/45 p-5">
+                            <h5 className="font-heading text-lg font-black uppercase tracking-wide text-blue-600">Trọng tâm ngữ pháp</h5>
+                            <div className="mt-4 flex flex-wrap gap-2.5">
                               {selectedQaLessonData.overview.mainGrammarFocus.map((grammar, idx) => (
-                                <span key={idx} className="rounded-md border border-slate-200 bg-white px-2 py-0.5 text-xs font-bold text-slate-700">
+                                <span key={idx} className="rounded-full border border-blue-200 bg-white px-4 py-2 text-sm font-bold text-slate-700">
                                   {grammar}
                                 </span>
                               ))}
@@ -638,48 +645,48 @@ export const SpeakingCoursePage = () => {
                           </div>
                         </div>
 
-                        <div className="rounded-xl border border-amber-200 bg-amber-50/30 p-4 text-xs font-bold text-amber-900 leading-relaxed">
-                          <span className="text-amber-700 font-black uppercase tracking-wider block mb-1">Mẹo thi vấn đáp:</span>
+                        <div className="rounded-[20px] border border-blue-200 bg-blue-50/35 p-4 text-sm font-bold leading-6 text-slate-700">
+                          <span className="mr-2 font-black uppercase tracking-wide text-blue-600">Mẹo thi vấn đáp:</span>
                           {selectedQaLessonData.overview.examTipSummary}
                         </div>
                       </div>
                     )}
                   </div>
 
-                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mt-6">
+                  <div className="grid grid-cols-1 gap-5 pt-1 sm:grid-cols-2">
                     <button
                       onClick={() => setSelectedQaMode('no_image')}
-                      className="interactive-surface text-left flex flex-col p-5 rounded-[20px] border-2 border-slate-900 bg-white shadow-[4px_4px_0_#111827] hover:-translate-y-0.5 transition-all"
+                      className="group relative flex min-h-[205px] flex-col overflow-hidden rounded-[24px] border border-blue-200 bg-white p-6 text-left shadow-[0_16px_38px_rgba(37,99,235,0.10)] transition-all hover:-translate-y-1 hover:border-blue-300 hover:shadow-[0_22px_45px_rgba(37,99,235,0.16)]"
                     >
-                      <div className="flex h-12 w-12 items-center justify-center rounded-xl border-2 border-slate-900 bg-emerald-100 text-emerald-600 shadow-[2px_2px_0_#111827] mb-4">
+                      <div className="flex h-16 w-16 items-center justify-center rounded-full bg-gradient-to-br from-blue-400 to-blue-700 text-white shadow-[0_12px_24px_rgba(37,99,235,0.25)]">
                         <HelpCircle size={24} />
                       </div>
-                      <h4 className="font-heading text-xl font-black text-slate-900">
+                      <h4 className="mt-4 font-heading text-2xl font-black text-[#07155c]">
                         Chế độ 1: Vấn đáp không tranh
                       </h4>
-                      <p className="mt-2 text-xs font-bold text-slate-500 leading-relaxed flex-grow">
+                      <p className="mt-2 flex-grow text-sm font-bold leading-6 text-slate-500">
                         {selectedQaLessonData?.noImageDesc || "Luyện phản xạ nói trực tiếp thông qua các câu hỏi giao tiếp."}
                       </p>
-                      <span className="mt-4 inline-flex items-center text-xs font-black uppercase tracking-wider text-emerald-600">
-                        {selectedQaLessonData?.noImageQuestionCount || 0} câu hỏi • Bắt đầu →
+                      <span className="mt-4 inline-flex items-center text-sm font-black uppercase tracking-wide text-blue-600">
+                        {selectedQaLessonData?.noImageQuestionCount || 0} câu hỏi <span className="mx-2">•</span> Bắt đầu <ChevronRight size={19} className="ml-1 transition-transform group-hover:translate-x-1" />
                       </span>
                     </button>
 
                     <button
                       onClick={() => setSelectedQaMode('with_image')}
-                      className="interactive-surface text-left flex flex-col p-5 rounded-[20px] border-2 border-slate-900 bg-white shadow-[4px_4px_0_#111827] hover:-translate-y-0.5 transition-all"
+                      className="group relative flex min-h-[205px] flex-col overflow-hidden rounded-[24px] border border-blue-200 bg-white p-6 text-left shadow-[0_16px_38px_rgba(37,99,235,0.10)] transition-all hover:-translate-y-1 hover:border-blue-300 hover:shadow-[0_22px_45px_rgba(37,99,235,0.16)]"
                     >
-                      <div className="flex h-12 w-12 items-center justify-center rounded-xl border-2 border-slate-900 bg-indigo-100 text-indigo-600 shadow-[2px_2px_0_#111827] mb-4">
+                      <div className="flex h-16 w-16 items-center justify-center rounded-full bg-gradient-to-br from-blue-400 to-blue-700 text-white shadow-[0_12px_24px_rgba(37,99,235,0.25)]">
                         <ImageIcon size={24} />
                       </div>
-                      <h4 className="font-heading text-xl font-black text-slate-900">
+                      <h4 className="mt-4 font-heading text-2xl font-black text-[#07155c]">
                         Chế độ 2: Vấn đáp có tranh
                       </h4>
-                      <p className="mt-2 text-xs font-bold text-slate-500 leading-relaxed flex-grow">
+                      <p className="mt-2 flex-grow text-sm font-bold leading-6 text-slate-500">
                         {selectedQaLessonData?.withImageDesc || "Quan sát hình vẽ và trả lời các câu hỏi vấn đáp xoay quanh thông tin trong tranh."}
                       </p>
-                      <span className="mt-4 inline-flex items-center text-xs font-black uppercase tracking-wider text-indigo-600">
-                        {selectedQaLessonData?.withImagePictureCount || 0} bức tranh ({selectedQaLessonData?.withImageQuestionCount || 0} câu) • Bắt đầu →
+                      <span className="mt-4 inline-flex items-center text-sm font-black uppercase tracking-wide text-blue-600">
+                        {selectedQaLessonData?.withImagePictureCount || 0} bức tranh ({selectedQaLessonData?.withImageQuestionCount || 0} câu) <span className="mx-2">•</span> Bắt đầu <ChevronRight size={19} className="ml-1 transition-transform group-hover:translate-x-1" />
                       </span>
                     </button>
                   </div>
