@@ -887,30 +887,30 @@ export const SpeakingCoursePage = () => {
               {selectedQaMode !== null && !isLoadingQaDetail && !qaDetailError && isStudyingQa && currentQuestion && (
                 <div className="space-y-6 animate-fade-in max-w-4xl mx-auto">
                   {/* Progress Bar & Header */}
-                  <div className="space-y-2">
-                    <div className="flex justify-between items-center text-xs font-black uppercase text-slate-500">
-                      <span>Tiến trình phản xạ nói</span>
-                      <span>{currentQuestionIndex + 1} / {allQuestions.length} câu</span>
+                  <div className="space-y-2.5 p-4 rounded-2xl bg-sky-50/70 border border-sky-200 shadow-sm">
+                    <div className="flex justify-between items-center text-xs font-black uppercase tracking-wider text-[#0b2554]">
+                      <span>TIẾN TRÌNH PHẢN XẠ NÓI</span>
+                      <span className="text-[#084298] font-extrabold">{currentQuestionIndex + 1} / {allQuestions.length} CÂU</span>
                     </div>
-                    <div className="w-full h-3.5 bg-white border-2 border-slate-900 rounded-full overflow-hidden shadow-[2px_2px_0_#111827]">
+                    <div className="w-full h-3.5 bg-white border border-sky-200 rounded-full overflow-hidden shadow-inner">
                       <div
-                        className="h-full bg-indigo-600 transition-all duration-300 border-r border-slate-900"
+                        className="h-full bg-gradient-to-r from-blue-600 to-[#1264d8] rounded-full transition-all duration-300"
                         style={{ width: `${((currentQuestionIndex + 1) / allQuestions.length) * 100}%` }}
                       />
                     </div>
                   </div>
 
                   {/* Speech & Tool Selection Settings Panel */}
-                  <div className="flex flex-wrap items-center justify-between gap-3 p-4 rounded-[20px] border-2 border-slate-900 bg-[#F8FAFC] shadow-[3px_3px_0_#111827]">
+                  <div className="flex flex-wrap items-center justify-between gap-3 p-4 rounded-2xl border border-sky-200 bg-white shadow-sm">
                     <div className="flex items-center gap-2">
-                      <span className="text-xs font-black text-slate-700 uppercase">Giọng đọc (TTS):</span>
+                      <span className="text-xs font-black text-[#0b2554] uppercase tracking-wide">Giọng đọc (TTS):</span>
                       <select
                         value={selectedVoiceName}
                         onChange={(e) => {
                           stopSpeaking();
                           setSelectedVoiceName(e.target.value);
                         }}
-                        className="rounded-lg border border-slate-300 bg-white px-2 py-1 text-xs font-extrabold text-slate-700 focus:outline-none focus:ring-1 focus:ring-indigo-500"
+                        className="rounded-xl border border-sky-300 bg-sky-50/50 px-3 py-1.5 text-xs font-extrabold text-[#0b2554] focus:outline-none focus:ring-2 focus:ring-blue-400"
                       >
                         {voices.map((voice) => (
                           <option key={voice.name} value={voice.name}>
@@ -923,10 +923,10 @@ export const SpeakingCoursePage = () => {
 
                     <button
                       onClick={handleToggleShuffle}
-                      className={`inline-flex items-center gap-1.5 h-8 px-3 rounded-lg border-2 text-xs font-black shadow-[2px_2px_0_#111827] transition-all active:translate-y-0.5 active:shadow-[1px_1px_0_#111827] ${
+                      className={`inline-flex items-center gap-1.5 h-9 px-4 rounded-xl border text-xs font-extrabold transition-all active:scale-95 shadow-sm ${
                         isShuffled
-                          ? 'border-slate-900 bg-indigo-50 text-indigo-750'
-                          : 'border-slate-900 bg-white text-slate-700 hover:bg-slate-50'
+                          ? 'border-blue-600 bg-[#1264d8] text-white shadow-blue-200'
+                          : 'border-sky-300 bg-white text-[#0b2554] hover:bg-sky-50'
                       }`}
                     >
                       <Shuffle size={13} />
@@ -935,11 +935,11 @@ export const SpeakingCoursePage = () => {
                   </div>
 
                   {/* THẺ CÂU HỎI CHÍNH (MAIN FLASHCARD) */}
-                  <div className="rounded-[24px] border-2 border-slate-900 bg-white shadow-[6px_6px_0_#111827] overflow-hidden flex flex-col items-center">
+                  <div className="rounded-3xl border border-sky-200 bg-white shadow-md shadow-sky-100/60 overflow-hidden flex flex-col items-center">
                     {/* Bức tranh TO ở phía trên câu hỏi (chỉ khi học vấn đáp có tranh) */}
                     {selectedQaMode === 'with_image' && activeImageUrl && (
-                      <div className="w-full border-b-2 border-slate-900 bg-slate-50/50 p-4 flex justify-center items-center">
-                        <div className="relative max-w-lg w-full rounded-xl border-2 border-slate-900 overflow-hidden bg-white shadow-[4px_4px_0_#111827]">
+                      <div className="w-full border-b border-sky-200 bg-[#eef6ff] p-4 flex justify-center items-center">
+                        <div className="relative max-w-lg w-full rounded-2xl border border-sky-300 overflow-hidden bg-white shadow-sm">
                           <img
                             src={activeImageUrl}
                             alt="Bức tranh luyện tập"
@@ -950,17 +950,17 @@ export const SpeakingCoursePage = () => {
                       </div>
                     )}
 
-                    <div className="p-5 md:p-6 w-full flex flex-col items-center">
+                    <div className="p-5 md:p-7 w-full flex flex-col items-center">
                       {shouldShowQuestionAudio && (
                         <>
                           {shouldShowQuestionText && (
                             <div className="flex items-center justify-between w-full mb-3">
-                              <span className="text-xs font-black uppercase tracking-[0.16em] text-slate-400">
-                                Câu hỏi {currentQuestionIndex + 1}
+                              <span className="text-xs font-black uppercase tracking-[0.16em] text-[#084298]">
+                                CÂU HỎI {currentQuestionIndex + 1}
                               </span>
                               <button
                                 onClick={() => setShowQaMeaning((v) => !v)}
-                                className="text-xs font-black text-blue-600 hover:text-blue-800 transition"
+                                className="text-xs font-black text-[#1264d8] hover:text-[#084298] transition"
                               >
                                 {showQaMeaning ? 'Ẩn nghĩa câu hỏi' : 'Hiện nghĩa câu hỏi'}
                               </button>
@@ -983,8 +983,10 @@ export const SpeakingCoursePage = () => {
                                   );
                                 }
                               }}
-                              className={`flex h-16 w-16 shrink-0 items-center justify-center rounded-full border-2 border-slate-900 shadow-[3px_3px_0_#111827] transition-all hover:-translate-y-0.5 hover:shadow-[4px_4px_0_#111827] active:translate-y-0 active:shadow-[2px_2px_0_#111827] ${
-                                isSpeakingQuestion ? 'bg-rose-50 text-rose-600' : 'bg-blue-50 text-blue-600'
+                              className={`flex h-16 w-16 shrink-0 items-center justify-center rounded-full border-2 transition-all hover:-translate-y-0.5 active:translate-y-0 ${
+                                isSpeakingQuestion
+                                  ? 'bg-rose-500 text-white border-rose-600 shadow-md shadow-rose-200 animate-pulse'
+                                  : 'bg-[#1264d8] text-white border-blue-600 shadow-md shadow-blue-200 hover:bg-[#084298]'
                               }`}
                             >
                               {isSpeakingQuestion ? <VolumeX size={28} /> : <Volume2 size={28} />}
@@ -992,11 +994,11 @@ export const SpeakingCoursePage = () => {
 
                             {shouldShowQuestionText && (
                               <div className="space-y-2">
-                                <h2 className="text-xl md:text-2xl font-black text-slate-900 tracking-wide select-all">
+                                <h2 className="text-xl md:text-2xl font-black text-[#0b2554] tracking-wide select-all">
                                   {currentQuestion.question.ja}
                                 </h2>
                                 {showQaMeaning && (
-                                  <p className="text-sm font-bold text-slate-500 leading-normal">
+                                  <p className="text-sm font-extrabold text-slate-600 leading-normal">
                                     {currentQuestion.question.vi}
                                   </p>
                                 )}
@@ -1007,13 +1009,13 @@ export const SpeakingCoursePage = () => {
                       )}
 
                       {/* Nút Hướng Dẫn/Ẩn Hướng Dẫn - Kích thước nhỏ gọn */}
-                      <div className={`${shouldShowQuestionText ? 'mt-4 border-t border-slate-100 pt-4' : ''} w-full flex justify-center`}>
+                      <div className={`${shouldShowQuestionText ? 'mt-4 border-t border-sky-100 pt-4' : ''} w-full flex justify-center`}>
                         <button
                           onClick={() => setShowQaGuide((g) => !g)}
-                          className={`inline-flex items-center gap-1.5 px-4 py-2 rounded-full border-2 text-xs font-black shadow-[2.5px_2.5px_0_#111827] transition-all active:translate-y-0.5 active:shadow-[1.5px_1.5px_0_#111827] ${
+                          className={`inline-flex items-center gap-1.5 px-5 py-2 rounded-full border-2 text-xs font-black transition-all active:translate-y-0.5 shadow-sm ${
                             showQaGuide
-                              ? 'border-slate-900 bg-[#2b160f] text-white'
-                              : 'border-slate-900 bg-white text-[#2b160f] hover:bg-slate-50'
+                              ? 'border-[#0b2554] bg-[#0b2554] text-white shadow-sky-200'
+                              : 'border-[#0b2554] bg-white text-[#0b2554] hover:bg-sky-50'
                           }`}
                         >
                           <Sparkles size={14} />
@@ -1029,8 +1031,8 @@ export const SpeakingCoursePage = () => {
                       {/* Cột trái: Câu trả lời gợi ý + Mẹo & Lỗi (7/12) */}
                       <div className="lg:col-span-7 space-y-6 flex flex-col justify-between">
                         {/* Thẻ Gợi ý câu trả lời */}
-                        <div className="rounded-[24px] border-2 border-slate-900 bg-emerald-50/20 p-5 shadow-[4px_4px_0_#111827] space-y-4 flex-grow flex flex-col">
-                          <h3 className="font-heading text-lg font-black text-emerald-800 flex items-center gap-2 border-b border-emerald-200 pb-2 shrink-0">
+                        <div className="rounded-3xl border border-teal-200/80 bg-[#eefbfa] p-5 shadow-sm space-y-4 flex-grow flex flex-col">
+                          <h3 className="font-heading text-lg font-black text-emerald-900 flex items-center gap-2 border-b border-teal-200/80 pb-2 shrink-0">
                             Gợi ý câu trả lời
                           </h3>
                           <div className="space-y-3 flex-grow overflow-y-auto">
@@ -1039,11 +1041,11 @@ export const SpeakingCoursePage = () => {
                               return (
                                 <div
                                   key={index}
-                                  className="flex items-start justify-between gap-4 p-3 rounded-xl border border-slate-900 bg-white"
+                                  className="flex items-start justify-between gap-4 p-3.5 rounded-2xl border border-teal-200 bg-white shadow-sm"
                                 >
                                   <div className="min-w-0 flex-1">
-                                    <p className="text-sm font-black text-slate-800 select-all leading-normal">{answer.ja}</p>
-                                    <p className="mt-1 text-xs font-bold text-slate-500 leading-normal">{answer.vi}</p>
+                                    <p className="text-sm font-black text-slate-900 select-all leading-normal">{answer.ja}</p>
+                                    <p className="mt-1 text-xs font-bold text-slate-600 leading-normal">{answer.vi}</p>
                                   </div>
                                   <button
                                     type="button"
@@ -1059,8 +1061,10 @@ export const SpeakingCoursePage = () => {
                                         );
                                       }
                                     }}
-                                    className={`flex h-8 w-8 shrink-0 items-center justify-center rounded-lg border-2 border-slate-900 shadow-[2px_2px_0_#111827] transition-all hover:-translate-y-0.5 hover:shadow-[3px_3px_0_#111827] active:translate-y-0 active:shadow-[1px_1px_0_#111827] ${
-                                      isSpeakingSample ? 'bg-rose-50 text-rose-600' : 'bg-emerald-50 text-emerald-600'
+                                    className={`flex h-8 w-8 shrink-0 items-center justify-center rounded-xl border transition-all shadow-sm ${
+                                      isSpeakingSample
+                                        ? 'bg-rose-500 text-white border-rose-600'
+                                        : 'bg-emerald-600 text-white border-emerald-700 hover:bg-emerald-700'
                                     }`}
                                   >
                                     {isSpeakingSample ? <VolumeX size={14} /> : <Volume2 size={14} />}
@@ -1074,12 +1078,12 @@ export const SpeakingCoursePage = () => {
                         {/* Thẻ mẹo thi & lỗi sai (ghép phía dưới) */}
                         <div className="space-y-4 pt-2 shrink-0">
                           {currentQuestion.tips && currentQuestion.tips.length > 0 && (
-                            <div className="rounded-[24px] border-2 border-slate-900 bg-amber-50/20 p-5 shadow-[4px_4px_0_#111827] space-y-2">
-                              <h3 className="font-heading text-sm font-black text-amber-800 flex items-center gap-1.5 border-b border-amber-200 pb-1.5">
-                                <Lightbulb size={16} />
+                            <div className="rounded-3xl border border-amber-300/80 bg-[#fffbeb] p-5 shadow-sm space-y-2">
+                              <h3 className="font-heading text-sm font-black text-amber-900 flex items-center gap-1.5 border-b border-amber-200 pb-1.5">
+                                <Lightbulb size={16} className="text-amber-700" />
                                 Mẹo làm bài thi
                               </h3>
-                              <ul className="space-y-1">
+                              <ul className="space-y-1.5">
                                 {currentQuestion.tips.map((tip, idx) => (
                                   <li key={idx} className="flex items-start gap-2 text-xs font-bold text-amber-950 leading-relaxed">
                                     <span className="mt-1.5 shrink-0 h-1.5 w-1.5 rounded-full bg-amber-600" />
@@ -1091,14 +1095,14 @@ export const SpeakingCoursePage = () => {
                           )}
 
                           {currentQuestion.commonMistakes && currentQuestion.commonMistakes.length > 0 && (
-                            <div className="rounded-[24px] border-2 border-slate-900 bg-rose-50/20 p-5 shadow-[4px_4px_0_#111827] space-y-2">
-                              <h3 className="font-heading text-sm font-black text-rose-800 flex items-center gap-1.5 border-b border-rose-200 pb-1.5">
-                                <AlertCircle size={16} />
+                            <div className="rounded-3xl border border-rose-200 bg-[#fff1f2] p-5 shadow-sm space-y-2">
+                              <h3 className="font-heading text-sm font-black text-rose-900 flex items-center gap-1.5 border-b border-rose-200 pb-1.5">
+                                <AlertCircle size={16} className="text-rose-700" />
                                 Lỗi thường gặp
                               </h3>
-                              <ul className="space-y-1">
+                              <ul className="space-y-1.5">
                                 {currentQuestion.commonMistakes.map((mistake, idx) => (
-                                  <li key={idx} className="flex items-start gap-2 text-xs font-bold text-rose-955 leading-relaxed">
+                                  <li key={idx} className="flex items-start gap-2 text-xs font-bold text-rose-950 leading-relaxed">
                                     <span className="mt-1.5 shrink-0 h-1.5 w-1.5 rounded-full bg-rose-600" />
                                     <span>{mistake}</span>
                                   </li>
@@ -1111,28 +1115,28 @@ export const SpeakingCoursePage = () => {
 
                       {/* Cột phải: Từ vựng liên quan (5/12) */}
                       <div className="lg:col-span-5 flex flex-col">
-                        <div className="rounded-[24px] border-2 border-slate-900 bg-blue-50/20 p-5 shadow-[4px_4px_0_#111827] space-y-4 flex-grow flex flex-col min-h-[300px]">
-                          <h3 className="font-heading text-lg font-black text-blue-800 flex items-center gap-2 border-b border-blue-200 pb-2 shrink-0">
+                        <div className="rounded-3xl border border-sky-200 bg-[#eef6ff] p-5 shadow-sm space-y-4 flex-grow flex flex-col min-h-[300px]">
+                          <h3 className="font-heading text-lg font-black text-[#0b2554] flex items-center gap-2 border-b border-sky-200 pb-2 shrink-0">
                             Từ vựng liên quan
                           </h3>
 
                           {currentQuestion.relatedVocabulary && currentQuestion.relatedVocabulary.length > 0 ? (
                             /* Grid 2 cột phủ hết chiều ngang box ngoài */
-                            <div className="grid w-full grid-cols-2 content-start gap-2 overflow-y-auto pr-1 flex-grow">
+                            <div className="grid w-full grid-cols-2 content-start gap-2.5 overflow-y-auto pr-1 flex-grow">
                               {currentQuestion.relatedVocabulary.map((vocab, index) => {
                                 const isSpeakingVocab = speakingVocabWord === vocab.word;
                                 return (
                                   <div
                                     key={index}
-                                    className="min-w-0 rounded-xl border border-slate-900 bg-white p-2 shadow-[2px_2px_0_#111827] text-left"
+                                    className="min-w-0 rounded-2xl border border-sky-200 bg-white p-2.5 shadow-sm hover:border-sky-300 transition text-left"
                                   >
-                                    <div className="flex min-w-0 items-start justify-between gap-2">
+                                    <div className="flex min-w-0 items-start justify-between gap-1.5">
                                       <div className="min-w-0">
-                                        <span className="block truncate text-xs font-black text-indigo-600" title={vocab.word}>
+                                        <span className="block truncate text-xs font-black text-[#1264d8]" title={vocab.word}>
                                           {vocab.word}
                                         </span>
                                         {vocab.reading && (
-                                          <span className="block truncate text-[9px] font-bold text-slate-400" title={vocab.reading}>
+                                          <span className="block truncate text-[9px] font-bold text-slate-500" title={vocab.reading}>
                                             [{vocab.reading}]
                                           </span>
                                         )}
@@ -1151,16 +1155,16 @@ export const SpeakingCoursePage = () => {
                                             );
                                           }
                                         }}
-                                        className={`flex h-6 w-6 shrink-0 items-center justify-center rounded-md border border-slate-900 shadow-[1px_1px_0_#111827] transition-all hover:-translate-y-0.5 active:translate-y-0 active:shadow-none ${
+                                        className={`flex h-6 w-6 shrink-0 items-center justify-center rounded-lg border transition-all ${
                                           isSpeakingVocab
-                                            ? 'bg-rose-50 text-rose-600'
-                                            : 'bg-indigo-50 text-indigo-600 hover:bg-indigo-100'
+                                            ? 'bg-rose-500 text-white border-rose-600'
+                                            : 'bg-sky-100 text-sky-700 border-sky-200 hover:bg-sky-200'
                                         }`}
                                       >
                                         {isSpeakingVocab ? <VolumeX size={11} /> : <Volume2 size={11} />}
                                       </button>
                                     </div>
-                                    <span className="mt-1.5 block border-t border-slate-100 pt-1.5 text-[11px] font-bold leading-normal text-slate-600 line-clamp-2" title={vocab.meaning}>
+                                    <span className="mt-1.5 block border-t border-slate-100 pt-1.5 text-[11px] font-extrabold leading-normal text-slate-700 line-clamp-2" title={vocab.meaning}>
                                       {vocab.meaning}
                                     </span>
                                   </div>
@@ -1168,7 +1172,7 @@ export const SpeakingCoursePage = () => {
                               })}
                             </div>
                           ) : (
-                            <div className="flex flex-col items-center justify-center p-8 text-center text-slate-400 flex-grow bg-white border border-slate-200 border-dashed rounded-xl">
+                            <div className="flex flex-col items-center justify-center p-8 text-center text-slate-400 flex-grow bg-white border border-sky-200 border-dashed rounded-2xl">
                               <p className="text-xs font-bold">Không có từ vựng liên quan.</p>
                             </div>
                           )}
@@ -1178,12 +1182,12 @@ export const SpeakingCoursePage = () => {
                   )}
 
                   {/* FOOTER ĐIỀU HƯỚNG CÂU HỎI */}
-                  <div className="flex items-center justify-between border-t border-slate-200 pt-6">
+                  <div className="flex items-center justify-between border-t border-sky-200 pt-6">
                     <button
                       type="button"
                       disabled={currentQuestionIndex === 0}
                       onClick={handlePrevQuestion}
-                      className="inline-flex h-11 items-center justify-center gap-1.5 rounded-full border-2 border-slate-900 bg-white px-4 text-xs font-black text-slate-900 shadow-[3px_3px_0_#111827] transition-all hover:translate-x-[1px] hover:translate-y-[1px] hover:shadow-[1.5px_1.5px_0_#111827] disabled:pointer-events-none disabled:opacity-40"
+                      className="inline-flex h-11 items-center justify-center gap-1.5 rounded-full border-2 border-sky-300 bg-white px-5 text-xs font-black text-[#0b2554] shadow-sm transition-all hover:bg-sky-50 active:scale-95 disabled:pointer-events-none disabled:opacity-40"
                     >
                       <ChevronLeft size={16} />
                       Câu trước
@@ -1192,7 +1196,7 @@ export const SpeakingCoursePage = () => {
                     <button
                       type="button"
                       onClick={handleBack}
-                      className="inline-flex h-11 items-center justify-center gap-1.5 rounded-full border-2 border-slate-900 bg-slate-100 px-4 text-xs font-black text-slate-600 shadow-[3px_3px_0_#111827] transition-all hover:translate-x-[1px] hover:translate-y-[1px] hover:shadow-[1.5px_1.5px_0_#111827]"
+                      className="inline-flex h-11 items-center justify-center gap-1.5 rounded-full border-2 border-slate-300 bg-white px-5 text-xs font-black text-slate-700 shadow-sm transition-all hover:bg-slate-50 active:scale-95"
                     >
                       <Undo2 size={15} />
                       Dừng luyện tập
@@ -1202,7 +1206,7 @@ export const SpeakingCoursePage = () => {
                       type="button"
                       disabled={currentQuestionIndex === allQuestions.length - 1}
                       onClick={handleNextQuestion}
-                      className="inline-flex h-11 items-center justify-center gap-1.5 rounded-full border-2 border-slate-900 bg-[#2b160f] px-4 text-xs font-black text-white shadow-[3px_3px_0_#111827] transition-all hover:translate-x-[1px] hover:translate-y-[1px] hover:shadow-[1.5px_1.5px_0_#111827] disabled:pointer-events-none disabled:opacity-40"
+                      className="inline-flex h-11 items-center justify-center gap-1.5 rounded-full border-2 border-blue-600 bg-gradient-to-r from-blue-600 to-[#1264d8] px-6 text-xs font-black uppercase tracking-wider text-white shadow-md shadow-blue-200 transition-all hover:from-blue-700 hover:to-[#084298] active:scale-95 disabled:pointer-events-none disabled:opacity-40 disabled:shadow-none"
                     >
                       Câu sau
                       <ChevronRight size={16} />
