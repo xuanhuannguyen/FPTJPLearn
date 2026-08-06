@@ -99,11 +99,29 @@ export const KanjiStudyPage = () => {
 
   // Practice Quiz State
   const quizContainerRef = useRef<HTMLDivElement>(null);
+  const quizCanvasFrameRef = useRef<HTMLDivElement>(null);
   const quizWriterRef = useRef<HanziWriterInstance | null>(null);
+  const [quizCanvasSize, setQuizCanvasSize] = useState(260);
   const [quizStrokeNum, setQuizStrokeNum] = useState(1);
   const [isQuizComplete, setIsQuizComplete] = useState(false);
   const [freehandMode, setFreehandMode] = useState(false);
   const [hoveredComponent, setHoveredComponent] = useState<number | null>(null);
+
+  useEffect(() => {
+    const frame = quizCanvasFrameRef.current;
+    if (!frame) return;
+
+    const updateCanvasSize = () => {
+      const rect = frame.getBoundingClientRect();
+      const nextSize = Math.floor(Math.min(rect.width, rect.height));
+      if (nextSize > 0) setQuizCanvasSize(nextSize);
+    };
+
+    updateCanvasSize();
+    const observer = new ResizeObserver(updateCanvasSize);
+    observer.observe(frame);
+    return () => observer.disconnect();
+  }, []);
 
   useEffect(() => {
     const fetchData = async () => {
@@ -245,8 +263,8 @@ export const KanjiStudyPage = () => {
 
       quizContainerRef.current.innerHTML = '';
       quizWriterRef.current = HanziWriterTyped.create(quizContainerRef.current, currentKanji.character, {
-        width: 260,
-        height: 260,
+        width: quizCanvasSize,
+        height: quizCanvasSize,
         padding: 10,
         showCharacter: false,
         strokeColor: '#22c55e', // green-500 for completed strokes
@@ -287,15 +305,15 @@ export const KanjiStudyPage = () => {
       window.clearTimeout(resetTimer);
       window.clearTimeout(timer);
     };
-  }, [currentKanji, currentIndex, freehandMode, kanjis.length]);
+  }, [currentKanji, currentIndex, freehandMode, kanjis.length, quizCanvasSize]);
 
   const startQuiz = () => {
     if (!quizWriterRef.current || !quizContainerRef.current || !currentKanji) return;
     // Rebuild the writer entirely to get a clean state
     quizContainerRef.current.innerHTML = '';
     quizWriterRef.current = HanziWriterTyped.create(quizContainerRef.current, currentKanji.character, {
-      width: 260,
-      height: 260,
+      width: quizCanvasSize,
+      height: quizCanvasSize,
       padding: 10,
       showCharacter: false,
       strokeColor: '#22c55e',
@@ -675,7 +693,7 @@ export const KanjiStudyPage = () => {
                     </button>
                   </div>
                 </div>
-                <div className="flex-1 bg-slate-50 border border-slate-200 relative aspect-square mx-auto w-full max-w-[260px] flex items-center justify-center rounded-lg overflow-hidden">
+                <div ref={quizCanvasFrameRef} className="flex-1 bg-slate-50 border border-slate-200 relative aspect-square mx-auto w-full max-w-[260px] flex items-center justify-center rounded-lg overflow-hidden">
                   {/* Grid background */}
                   <div className="absolute inset-0 grid grid-cols-2 grid-rows-2 pointer-events-none">
                     <div className="border-r border-b border-dashed border-slate-300"></div>
@@ -705,12 +723,13 @@ export const KanjiStudyPage = () => {
                       {!freehandMode && kanjiStrokes.length > 0 && !isQuizComplete && (
                         <svg 
                           className="absolute inset-0 w-full h-full pointer-events-none z-[5]" 
-                          width="260" 
-                          height="260"
+                          width={quizCanvasSize}
+                          height={quizCanvasSize}
+                          viewBox={`0 0 ${quizCanvasSize} ${quizCanvasSize}`}
                         >
                           {/* Match HanziWriter's internal Positioner transform exactly */}
                           {(() => {
-                            const w = 260, h = 260, pad = 10;
+                            const w = quizCanvasSize, h = quizCanvasSize, pad = 10;
                             const VBX = 0, VBY = -124, VBW = 1024, VBH = 1024;
                             const drawW = w - 2 * pad;
                             const drawH = h - 2 * pad;
