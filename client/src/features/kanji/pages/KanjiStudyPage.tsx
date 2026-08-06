@@ -514,9 +514,9 @@ export const KanjiStudyPage = () => {
             </div>
 
             {/* Practice Bento Box */}
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 flex-1">
+            <div className="grid grid-cols-1 items-start gap-3 sm:grid-cols-2">
               {/* Component Graph Box */}
-              <div className="border-2 border-border bg-white p-3 shadow-card flex flex-col min-h-[260px]">
+              <div className="flex aspect-square min-h-0 flex-col overflow-hidden border-2 border-border bg-white p-3 shadow-card">
                 <div className="flex items-center justify-between mb-3 border-b border-border pb-2">
                   <span className="text-xs font-black uppercase tracking-wider">Bộ thủ / Thành phần</span>
                 </div>
@@ -648,7 +648,7 @@ export const KanjiStudyPage = () => {
               </div>
 
               {/* Writing Canvas Box */}
-              <div className="border-2 border-border bg-white p-3 shadow-card flex flex-col min-h-[260px]">
+              <div className="flex aspect-square min-h-0 flex-col overflow-hidden border-2 border-border bg-white p-3 shadow-card">
                 <div className="flex items-center justify-between mb-3 border-b border-border pb-2">
                   <span className="text-xs font-black uppercase tracking-wider">
                     {isQuizComplete ? 'Practice' : freehandMode ? `Tự viết ${Math.min(quizStrokeNum, currentKanji.strokeCount)}/${currentKanji.strokeCount}` : `Nét ${Math.min(quizStrokeNum, currentKanji.strokeCount)}/${currentKanji.strokeCount}`}
