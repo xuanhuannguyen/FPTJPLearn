@@ -178,7 +178,7 @@ type IntroModeCardProps = {
 const IntroModeCard = ({ title, subtitle, badge, icon, to, primary = false, kanaPreview }: IntroModeCardProps) => (
   <Link
     to={to}
-    className={`group relative min-h-[172px] overflow-hidden rounded-[20px] border border-blue-100 p-5 shadow-[0_12px_30px_rgba(40,88,150,0.13)] transition-all hover:-translate-y-1 hover:shadow-[0_18px_42px_rgba(40,88,150,0.17)] ${
+    className={`group relative min-h-[172px] overflow-hidden rounded-[20px] border border-blue-100 p-5 shadow-[0_12px_30px_rgba(40,88,150,0.13)] transition-all hover:-translate-y-0.5 hover:border-border-hover hover:shadow-[0_18px_42px_rgba(40,88,150,0.17)] ${
       primary ? 'bg-[#071746] text-white' : 'bg-white text-[#08164a]'
     }`}
   >
@@ -246,7 +246,7 @@ const shortcutTone = {
 } as const;
 
 const ShortcutCard = ({ icon, title, description, tone }: ShortcutCardProps) => (
-  <div className="group flex items-center gap-4 rounded-[16px] border border-blue-100 bg-white p-4 shadow-[0_10px_26px_rgba(40,88,150,0.11)] transition-all hover:-translate-y-1 hover:shadow-[0_15px_34px_rgba(40,88,150,0.15)]">
+  <div className="group flex items-center gap-4 rounded-[16px] border border-blue-100 bg-white p-4 shadow-[0_10px_26px_rgba(40,88,150,0.11)] transition-all hover:-translate-y-0.5 hover:border-border-hover hover:shadow-[0_15px_34px_rgba(40,88,150,0.15)]">
     <div className={`flex h-12 w-12 shrink-0 items-center justify-center rounded-full border shadow-md ${shortcutTone[tone]}`}>
       {icon}
     </div>

@@ -376,7 +376,7 @@ export const KanjiStudyPage = () => {
   if (isLoading) {
     return (
       <div className="flex h-screen items-center justify-center bg-slate-50">
-        <div className="h-10 w-10 animate-spin border-4 border-black border-t-transparent"></div>
+        <div className="h-10 w-10 animate-spin border-4 border-accent-primary border-t-transparent"></div>
       </div>
     );
   }
@@ -421,11 +421,11 @@ export const KanjiStudyPage = () => {
   return (
     <div className="min-h-screen blue-grid flex flex-col font-sans">
       {/* Top Navbar */}
-      <header className="flex h-14 shrink-0 items-center justify-between border-b-2 border-black bg-white px-4">
+      <header className="flex h-14 shrink-0 items-center justify-between border-b-2 border-border bg-white px-4">
         <div className="flex items-center gap-3">
           <button 
             onClick={() => navigate(`/kanji/${level}/lessons/${lessonId}`)}
-            className="flex h-8 w-8 items-center justify-center border border-black hover:bg-black hover:text-white transition-colors"
+            className="flex h-8 w-8 items-center justify-center border border-border hover:bg-blue-50 hover:text-accent-primary transition-colors"
           >
             <ArrowLeft size={16} />
           </button>
@@ -454,7 +454,7 @@ export const KanjiStudyPage = () => {
           <div className="lg:col-span-8 flex flex-col gap-3">
             
             {/* Main Kanji Display */}
-            <div className="flex flex-col items-center justify-center border-2 border-black bg-white py-3 px-4 shadow-[2px_2px_0px_#0F172A] relative overflow-hidden">
+            <div className="flex flex-col items-center justify-center border-2 border-border bg-white py-3 px-4 shadow-pop relative overflow-hidden">
               <span className="absolute top-2 left-2 text-[10px] font-mono font-bold text-text-tertiary">
                 Stroke: {currentKanji.strokeCount}
               </span>
@@ -463,7 +463,7 @@ export const KanjiStudyPage = () => {
                 className={`absolute top-2 right-2 flex items-center gap-1 px-2 py-1 text-[10px] uppercase font-bold transition-all border ${
                   showStrokeOrder
                     ? 'bg-accent-primary text-white border-accent-primary'
-                    : 'bg-black text-white border-black hover:bg-accent-primary hover:border-accent-primary'
+                    : 'bg-white text-text-secondary border-border hover:bg-blue-50 hover:text-accent-primary hover:border-border-hover'
                 }`}
               >
                 <Eye size={12} />
@@ -516,8 +516,8 @@ export const KanjiStudyPage = () => {
             {/* Practice Bento Box */}
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 flex-1">
               {/* Component Graph Box */}
-              <div className="border-2 border-black bg-white p-3 shadow-[4px_4px_0px_#0F172A] flex flex-col min-h-[260px]">
-                <div className="flex items-center justify-between mb-3 border-b border-black pb-2">
+              <div className="border-2 border-border bg-white p-3 shadow-card flex flex-col min-h-[260px]">
+                <div className="flex items-center justify-between mb-3 border-b border-border pb-2">
                   <span className="text-xs font-black uppercase tracking-wider">Bộ thủ / Thành phần</span>
                 </div>
                 <div className="flex-1 flex items-center justify-center">
@@ -648,8 +648,8 @@ export const KanjiStudyPage = () => {
               </div>
 
               {/* Writing Canvas Box */}
-              <div className="border-2 border-black bg-white p-3 shadow-[4px_4px_0px_#0F172A] flex flex-col min-h-[260px]">
-                <div className="flex items-center justify-between mb-3 border-b border-black pb-2">
+              <div className="border-2 border-border bg-white p-3 shadow-card flex flex-col min-h-[260px]">
+                <div className="flex items-center justify-between mb-3 border-b border-border pb-2">
                   <span className="text-xs font-black uppercase tracking-wider">
                     {isQuizComplete ? 'Practice' : freehandMode ? `Tự viết ${Math.min(quizStrokeNum, currentKanji.strokeCount)}/${currentKanji.strokeCount}` : `Nét ${Math.min(quizStrokeNum, currentKanji.strokeCount)}/${currentKanji.strokeCount}`}
                   </span>
@@ -658,8 +658,8 @@ export const KanjiStudyPage = () => {
                       onClick={toggleFreehand}
                       className={`flex items-center gap-1 border px-2 py-1 text-[10px] uppercase font-bold transition-colors ${
                         freehandMode 
-                          ? 'border-black hover:bg-slate-100' 
-                          : 'bg-black text-white border-black hover:bg-slate-800'
+                          ? 'border-border bg-white text-text-secondary hover:bg-slate-100'
+                          : 'bg-accent-primary text-white border-border-active hover:bg-accent-hover'
                       }`}
                       title={freehandMode ? 'Bật hướng dẫn nét vẽ' : 'Tắt hướng dẫn, tự viết tay'}
                     >
@@ -668,7 +668,7 @@ export const KanjiStudyPage = () => {
                     </button>
                     <button 
                       onClick={startQuiz}
-                      className="flex items-center gap-1 border border-black px-2 py-1 text-[10px] uppercase font-bold hover:bg-slate-100 transition-colors"
+                      className="flex items-center gap-1 border border-border px-2 py-1 text-[10px] uppercase font-bold hover:bg-slate-100 transition-colors"
                     >
                       <RotateCcw size={12} />
                       Clear
@@ -763,7 +763,7 @@ export const KanjiStudyPage = () => {
           {/* Right Pane: Info (4 cols) */}
           <div className="lg:col-span-4 flex flex-col gap-3" style={{ fontFamily: '"Comic Neue", cursive' }}>
             
-            <div className="border-2 border-black bg-white p-5 shadow-[4px_4px_0px_#0F172A] flex-1 flex flex-col rounded-xl">
+            <div className="border-2 border-border bg-white p-5 shadow-card flex-1 flex flex-col rounded-xl">
               <div className="mb-4 text-orange-500 font-bold text-sm tracking-wide">
                 → Quy tắc chuyển âm
               </div>
@@ -818,17 +818,17 @@ export const KanjiStudyPage = () => {
       </main>
 
       {/* Bottom Bar: Controls */}
-      <footer className="shrink-0 border-t-2 border-black bg-white px-4 py-3 sticky bottom-0">
+      <footer className="shrink-0 border-t-2 border-border bg-white px-4 py-3 sticky bottom-0">
         <div className="max-w-5xl mx-auto flex items-center justify-between">
           
           <div className="flex items-center gap-2">
             <button 
               onClick={handlePrev}
               disabled={currentIndex === 0}
-              className={`flex items-center gap-1 border-2 border-black px-3 py-2 text-xs font-black uppercase transition-all ${
+              className={`flex items-center gap-1 border-2 border-border px-3 py-2 text-xs font-black uppercase transition-all ${
                 currentIndex === 0 
                   ? 'opacity-50 cursor-not-allowed bg-slate-100' 
-                  : 'bg-white hover:bg-black hover:text-white shadow-[2px_2px_0px_#0F172A] active:translate-y-0.5 active:shadow-none'
+                  : 'bg-white hover:bg-blue-600 hover:text-white shadow-pop active:translate-y-0.5 active:shadow-none'
               }`}
             >
               <ChevronLeft size={16} />
@@ -837,10 +837,10 @@ export const KanjiStudyPage = () => {
             <button 
               onClick={handleNext}
               disabled={currentIndex === kanjis.length - 1}
-              className={`flex items-center gap-1 border-2 border-black px-3 py-2 text-xs font-black uppercase transition-all ${
+              className={`flex items-center gap-1 border-2 border-border px-3 py-2 text-xs font-black uppercase transition-all ${
                 currentIndex === kanjis.length - 1
                   ? 'opacity-50 cursor-not-allowed bg-slate-100' 
-                  : 'bg-white hover:bg-black hover:text-white shadow-[2px_2px_0px_#0F172A] active:translate-y-0.5 active:shadow-none'
+                  : 'bg-white hover:bg-blue-600 hover:text-white shadow-pop active:translate-y-0.5 active:shadow-none'
               }`}
             >
               Next
@@ -851,10 +851,10 @@ export const KanjiStudyPage = () => {
           <button 
             onClick={toggleMemory}
             disabled={isSavingStudy}
-            className={`flex items-center gap-2 border-2 border-black px-4 py-2 text-xs md:text-sm font-black uppercase transition-all shadow-[2px_2px_0px_#0F172A] active:translate-y-0.5 active:shadow-none ${
+            className={`flex items-center gap-2 border-2 border-border px-4 py-2 text-xs md:text-sm font-black uppercase transition-all shadow-pop active:translate-y-0.5 active:shadow-none ${
               memoryStatus.isInMemory 
                 ? 'bg-emerald-500 text-white hover:bg-emerald-600'
-                : 'bg-accent-primary text-white hover:bg-black'
+                : 'bg-accent-primary text-white hover:bg-blue-600'
             }`}
           >
             {isSavingStudy ? (

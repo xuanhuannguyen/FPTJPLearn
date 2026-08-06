@@ -128,8 +128,8 @@ export const GrammarPracticeCard = ({
                       onClick={() => onToggleOption(optionIndex)}
                       className={`rounded-md border px-3 py-1 font-jp text-xs font-bold transition-all ${
                         isSelected
-                          ? 'border-transparent bg-[#111827] text-white'
-                          : 'border-border/10 bg-white text-text-primary hover:border-border'
+                          ? 'border-transparent bg-blue-600 text-white'
+                          : 'border-border/10 bg-white text-text-primary hover:border-border-hover'
                       }`}
                     >
                       {option}

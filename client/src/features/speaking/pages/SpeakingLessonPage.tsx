@@ -115,9 +115,9 @@ export const SpeakingLessonPage = () => {
           <button
             type="button"
             onClick={() => setShowMeaning((value) => !value)}
-            className={`inline-flex h-11 items-center gap-2 rounded-full border-2 px-4 text-sm font-black shadow-[3px_3px_0_#111827] transition-all ${
+            className={`inline-flex h-11 items-center gap-2 rounded-full border-2 px-4 text-sm font-black shadow-pop transition-all ${
               showMeaning
-                ? 'border-slate-900 bg-white text-slate-900'
+                ? 'border-border-active bg-white text-slate-900'
                 : 'border-slate-300 bg-slate-100 text-slate-500'
             }`}
           >
@@ -127,9 +127,9 @@ export const SpeakingLessonPage = () => {
           <button
             type="button"
             onClick={() => setShowReading((value) => !value)}
-            className={`inline-flex h-11 items-center gap-2 rounded-full border-2 px-4 text-sm font-black shadow-[3px_3px_0_#111827] transition-all ${
+            className={`inline-flex h-11 items-center gap-2 rounded-full border-2 px-4 text-sm font-black shadow-pop transition-all ${
               showReading
-                ? 'border-slate-900 bg-[#2b160f] text-white'
+                ? 'border-border-active bg-[#2b160f] text-white'
                 : 'border-slate-300 bg-slate-100 text-slate-500'
             }`}
           >
@@ -139,9 +139,9 @@ export const SpeakingLessonPage = () => {
           <button
             type="button"
             onClick={() => setShowRomaji((value) => !value)}
-            className={`inline-flex h-11 items-center gap-2 rounded-full border-2 px-4 text-sm font-black shadow-[3px_3px_0_#111827] transition-all ${
+            className={`inline-flex h-11 items-center gap-2 rounded-full border-2 px-4 text-sm font-black shadow-pop transition-all ${
               showRomaji
-                ? 'border-slate-900 bg-blue-600 text-white'
+                ? 'border-border-active bg-blue-600 text-white'
                 : 'border-slate-300 bg-slate-100 text-slate-500'
             }`}
           >
@@ -193,7 +193,7 @@ export const SpeakingLessonPage = () => {
               type="button"
               disabled={!previousLesson}
               onClick={() => goToLesson(previousLesson)}
-              className="inline-flex h-12 items-center justify-center gap-2 rounded-full border-2 border-slate-900 bg-white px-5 text-sm font-black text-slate-900 shadow-[4px_4px_0_#111827] transition-all hover:translate-x-[2px] hover:translate-y-[2px] hover:shadow-[2px_2px_0_#111827] disabled:pointer-events-none disabled:opacity-40"
+              className="inline-flex h-12 items-center justify-center gap-2 rounded-full border-2 border-border bg-white px-5 text-sm font-black text-slate-900 shadow-card transition-all hover:-translate-y-0.5 hover:shadow-lift disabled:pointer-events-none disabled:opacity-40"
             >
               <ChevronLeft size={18} />
               Bài trước
@@ -207,7 +207,7 @@ export const SpeakingLessonPage = () => {
               type="button"
               disabled={!nextLesson}
               onClick={() => goToLesson(nextLesson)}
-              className="inline-flex h-12 items-center justify-center gap-2 rounded-full border-2 border-slate-900 bg-[#2b160f] px-5 text-sm font-black text-white shadow-[4px_4px_0_#111827] transition-all hover:translate-x-[2px] hover:translate-y-[2px] hover:shadow-[2px_2px_0_#111827] disabled:pointer-events-none disabled:opacity-40"
+              className="inline-flex h-12 items-center justify-center gap-2 rounded-full border-2 border-border bg-[#2b160f] px-5 text-sm font-black text-white shadow-card transition-all hover:-translate-y-0.5 hover:shadow-lift disabled:pointer-events-none disabled:opacity-40"
             >
               Bài sau
               <ChevronRight size={18} />
@@ -274,8 +274,8 @@ const SpeakingSentenceAudioButton = ({ sentence, compact = false }: SpeakingSent
       disabled={!supported || !speechText}
       className={
         compact
-          ? 'speaking-inline-audio inline-flex shrink-0 items-center justify-center rounded-full border-2 border-slate-900 bg-white text-[#8B3A22] shadow-[2px_2px_0_#111827] transition-all hover:translate-x-[1px] hover:translate-y-[1px] hover:bg-[#fff7ed] hover:shadow-[1px_1px_0_#111827] disabled:pointer-events-none disabled:opacity-40'
-          : 'inline-flex h-10 shrink-0 items-center justify-center gap-2 rounded-full border-2 border-slate-900 bg-white px-3 text-xs font-black text-[#8B3A22] shadow-[3px_3px_0_#111827] transition-all hover:translate-x-[1px] hover:translate-y-[1px] hover:bg-[#fff7ed] hover:shadow-[2px_2px_0_#111827] disabled:pointer-events-none disabled:opacity-40'
+          ? 'speaking-inline-audio inline-flex shrink-0 items-center justify-center rounded-full border-2 border-border bg-white text-[#8B3A22] shadow-pop transition-all hover:-translate-y-0.5 hover:bg-[#fff7ed] hover:shadow-lift disabled:pointer-events-none disabled:opacity-40'
+          : 'inline-flex h-10 shrink-0 items-center justify-center gap-2 rounded-full border-2 border-border bg-white px-3 text-xs font-black text-[#8B3A22] shadow-pop transition-all hover:-translate-y-0.5 hover:bg-[#fff7ed] hover:shadow-lift disabled:pointer-events-none disabled:opacity-40'
       }
       aria-label={isSpeaking ? `Dừng đọc câu ${sentence.sentenceNumber}` : `Đọc câu ${sentence.sentenceNumber}`}
       title={supported ? 'Đọc câu tiếng Nhật' : 'Trình duyệt không hỗ trợ đọc tự động'}

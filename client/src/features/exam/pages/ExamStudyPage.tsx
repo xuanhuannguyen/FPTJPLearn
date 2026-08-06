@@ -217,8 +217,8 @@ export const ExamStudyPage = () => {
               onClick={() => navigate(`/exam/study/${item.topic}${courseQuery}`)}
               className={`border-2 px-4 py-2 text-xs font-black transition-all hover:-translate-y-0.5 hover:-translate-x-0.5 ${
                 item.topic === topic
-                  ? 'border-slate-900 bg-slate-900 text-white shadow-[2px_2px_0_#111827]'
-                  : 'border-slate-200 bg-white text-slate-500 hover:border-slate-900 hover:text-slate-900 hover:shadow-[2px_2px_0_#111827]'
+                  ? 'border-border-active bg-slate-900 text-white shadow-pop'
+                  : 'border-slate-200 bg-white text-slate-500 hover:border-border-hover hover:text-slate-900 hover:shadow-lift'
               }`}
             >
               {item.label}
@@ -234,12 +234,12 @@ export const ExamStudyPage = () => {
       ) : null}
 
       {isLoading ? (
-        <div className="flex min-h-80 flex-col items-center justify-center border-2 border-slate-900 bg-white shadow-[8px_8px_0_#111827]">
+        <div className="flex min-h-80 flex-col items-center justify-center border-2 border-border bg-white shadow-card">
           <Loader2 size={36} className="mb-4 animate-spin text-accent-primary" />
           <p className="font-black text-slate-600">Đang tải câu hỏi...</p>
         </div>
       ) : isCompleted ? (
-        <div className="border-2 border-slate-900 bg-white p-8 text-center shadow-[8px_8px_0_#111827]">
+        <div className="border-2 border-border bg-white p-8 text-center shadow-card">
           <CheckCircle2 size={56} className="mx-auto text-accent-success" />
           <h2 className="mt-4 text-3xl font-black text-slate-900">Hoàn thành chủ đề</h2>
           <p className="mt-2 font-bold text-slate-500">Bạn đã học hết {questions.length} câu trong chủ đề này.</p>
@@ -250,18 +250,18 @@ export const ExamStudyPage = () => {
               const storageKey = `exam_progress_${courseCode}_${topic}`;
               localStorage.removeItem(storageKey);
             }}
-            className="mt-6 inline-flex h-11 items-center gap-2 border-2 border-slate-900 bg-[#3B82F6] px-5 text-sm font-black text-white shadow-[4px_4px_0_#111827] transition-all hover:translate-x-[2px] hover:translate-y-[2px] hover:shadow-[2px_2px_0_#111827]"
+            className="mt-6 inline-flex h-11 items-center gap-2 border-2 border-border bg-[#3B82F6] px-5 text-sm font-black text-white shadow-card transition-all hover:-translate-y-0.5 hover:shadow-lift"
           >
             Học lại
           </button>
         </div>
       ) : questions.length === 0 ? (
-        <div className="border-2 border-slate-900 bg-white p-8 text-center shadow-[8px_8px_0_#111827]">
+        <div className="border-2 border-border bg-white p-8 text-center shadow-card">
           <h2 className="text-2xl font-black text-slate-900">Chưa có câu hỏi</h2>
           <p className="mt-2 font-bold text-slate-500">Chủ đề này chưa có dữ liệu luyện thi.</p>
         </div>
       ) : (
-        <section className="border-2 border-slate-900 bg-white p-5 shadow-[8px_8px_0_#111827] md:p-8">
+        <section className="border-2 border-border bg-white p-5 shadow-card md:p-8">
           <div className="mb-5 flex flex-wrap items-center justify-between gap-3 border-b-2 border-slate-200 pb-4">
             <div>
               <p className="text-xs font-black uppercase tracking-[0.18em] text-slate-500">Question</p>
@@ -312,7 +312,7 @@ export const ExamStudyPage = () => {
                             ? 'border-accent-danger bg-[#FEF2F2] text-accent-danger shadow-[3px_3px_0_#EF4444]'
                             : isSelected
                               ? 'border-blue-500 bg-[#EFF6FF] text-blue-700 shadow-[3px_3px_0_#3B82F6]'
-                              : 'border-slate-200 text-slate-900 hover:-translate-x-[1px] hover:-translate-y-[1px] hover:border-slate-900 hover:shadow-[3px_3px_0_#111827]'
+                              : 'border-slate-200 text-slate-900 hover:-translate-y-0.5 hover:border-border-hover hover:shadow-lift'
                       } disabled:cursor-default`}
                     >
                       <span className="grid h-7 w-7 shrink-0 place-items-center border-2 border-current text-xs font-black">{option.label}</span>
@@ -341,7 +341,7 @@ export const ExamStudyPage = () => {
                   type="button"
                   disabled={currentIndex === 0 || isQuestionLoading}
                   onClick={goPrevious}
-                  className="inline-flex h-11 items-center gap-2 border-2 border-slate-900 bg-white px-4 text-sm font-black text-slate-900 shadow-[4px_4px_0_#111827] transition-all hover:translate-x-[2px] hover:translate-y-[2px] hover:shadow-[2px_2px_0_#111827] disabled:pointer-events-none disabled:opacity-40"
+                  className="inline-flex h-11 items-center gap-2 border-2 border-border bg-white px-4 text-sm font-black text-slate-900 shadow-card transition-all hover:-translate-y-0.5 hover:shadow-lift disabled:pointer-events-none disabled:opacity-40"
                 >
                   <ChevronLeft size={18} />
                   Câu trước
@@ -350,7 +350,7 @@ export const ExamStudyPage = () => {
                   ← / → chuyển câu
                 </span>
                 {answerResult ? (
-                  <button type="button" onClick={goNext} className="inline-flex h-11 items-center gap-2 border-2 border-slate-900 bg-[#3B82F6] px-5 text-sm font-black text-white shadow-[4px_4px_0_#111827] transition-all hover:translate-x-[2px] hover:translate-y-[2px] hover:shadow-[2px_2px_0_#111827]">
+                  <button type="button" onClick={goNext} className="inline-flex h-11 items-center gap-2 border-2 border-border bg-[#3B82F6] px-5 text-sm font-black text-white shadow-card transition-all hover:-translate-y-0.5 hover:shadow-lift">
                     {currentIndex + 1 >= questions.length ? 'Hoàn thành' : 'Câu tiếp theo'}
                   </button>
                 ) : (
@@ -358,7 +358,7 @@ export const ExamStudyPage = () => {
                     type="button"
                     disabled={currentIndex + 1 >= questions.length || isQuestionLoading}
                     onClick={goNext}
-                    className="inline-flex h-11 items-center gap-2 border-2 border-slate-900 bg-white px-5 text-sm font-black text-slate-900 shadow-[4px_4px_0_#111827] transition-all hover:translate-x-[2px] hover:translate-y-[2px] hover:shadow-[2px_2px_0_#111827] disabled:pointer-events-none disabled:opacity-40"
+                    className="inline-flex h-11 items-center gap-2 border-2 border-border bg-white px-5 text-sm font-black text-slate-900 shadow-card transition-all hover:-translate-y-0.5 hover:shadow-lift disabled:pointer-events-none disabled:opacity-40"
                   >
                     Câu sau
                     <ChevronRight size={18} />

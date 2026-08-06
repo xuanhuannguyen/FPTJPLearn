@@ -40,7 +40,7 @@ export const KanjiLevelPage = () => {
   if (isLoading) {
     return (
       <div className="flex h-64 items-center justify-center">
-        <div className="h-10 w-10 animate-spin border-4 border-black border-t-transparent"></div>
+        <div className="h-10 w-10 animate-spin border-4 border-accent-primary border-t-transparent"></div>
       </div>
     );
   }

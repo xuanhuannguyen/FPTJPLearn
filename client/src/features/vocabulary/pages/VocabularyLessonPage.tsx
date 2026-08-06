@@ -402,7 +402,7 @@ export const VocabularyLessonPage = () => {
             <button
               type="button"
               onClick={() => startPractice('flashcard')}
-              className="inline-flex h-11 items-center gap-2 rounded-xl border-2 border-slate-800 bg-white px-4 text-sm font-black text-slate-900 shadow-pop transition-all hover:-translate-y-0.5"
+              className="inline-flex h-11 items-center gap-2 rounded-xl border-2 border-border bg-white px-4 text-sm font-black text-slate-900 shadow-pop transition-all hover:-translate-y-0.5"
             >
               <CreditCard size={18} />
               Flashcard
@@ -410,7 +410,7 @@ export const VocabularyLessonPage = () => {
             <button
               type="button"
               onClick={() => startPractice('typing')}
-              className="inline-flex h-11 items-center justify-center gap-2 rounded-xl border-2 border-slate-800 bg-slate-900 px-4 text-sm font-black text-white shadow-pop transition-all hover:-translate-y-0.5"
+              className="inline-flex h-11 items-center justify-center gap-2 rounded-xl border-2 border-slate-600 bg-slate-900 px-4 text-sm font-black text-white shadow-pop transition-all hover:-translate-y-0.5"
             >
               <Keyboard size={18} />
               Gõ
@@ -418,7 +418,7 @@ export const VocabularyLessonPage = () => {
             <button
               type="button"
               onClick={() => startPractice('multichoice')}
-              className="inline-flex h-11 items-center justify-center gap-2 rounded-xl border-2 border-slate-800 bg-accent-cta px-4 text-sm font-black text-white shadow-pop transition-all hover:-translate-y-0.5"
+              className="inline-flex h-11 items-center justify-center gap-2 rounded-xl border-2 border-slate-600 bg-accent-cta px-4 text-sm font-black text-white shadow-pop transition-all hover:-translate-y-0.5"
             >
               <ListChecks size={18} />
               Multichoice
@@ -469,9 +469,9 @@ export const VocabularyLessonPage = () => {
           canUndo={isProgressTracking && (answerState !== null || practiceIndex > 0)}
         />
       ) : (
-      <div className="mt-8 rounded-[24px] border-2 border-slate-800 bg-white overflow-hidden shadow-[0_4px_0_0_#1e293b] md:shadow-[0_8px_0_0_#1e293b]">
+      <div className="mt-8 rounded-[24px] border-2 border-border bg-white overflow-hidden shadow-card">
         {/* Header Row */}
-        <div className="flex items-center border-b-2 border-slate-800 px-6 py-4 text-[10px] font-black uppercase tracking-widest text-slate-500">
+        <div className="flex items-center border-b-2 border-border px-6 py-4 text-[10px] font-black uppercase tracking-widest text-slate-500">
           <div className="w-[8%] shrink-0">No.</div>
           <div className="w-[40%] shrink-0">Từ vựng</div>
           <div className="w-[34%] shrink-0">Nghĩa</div>
@@ -487,7 +487,7 @@ export const VocabularyLessonPage = () => {
               <div
                 key={item.id}
                 className={`flex items-start px-6 py-6 transition-colors hover:bg-slate-50 ${
-                  index !== detail.items.length - 1 ? 'border-b border-slate-800' : ''
+                  index !== detail.items.length - 1 ? 'border-b border-border' : ''
                 }`}
               >
               {/* Col 1: Number */}
@@ -522,7 +522,7 @@ export const VocabularyLessonPage = () => {
                   className={`inline-flex h-10 min-w-[112px] items-center justify-center gap-2 rounded-xl border-2 px-3 text-xs font-black transition-all ${
                     isInMemory
                       ? 'border-accent-success/20 bg-accent-success/10 text-accent-success'
-                      : 'border-slate-800 bg-accent-cta text-white shadow-pop hover:-translate-y-0.5 disabled:cursor-wait disabled:opacity-70'
+                      : 'border-slate-600 bg-accent-cta text-white shadow-pop hover:-translate-y-0.5 disabled:cursor-wait disabled:opacity-70'
                   }`}
                 >
                   {addingToMemoryIds.has(item.id) ? (
@@ -634,7 +634,7 @@ const PracticeWorkspace = ({
 
   if (isLoading) {
     return (
-      <div className="flex min-h-[360px] flex-col items-center justify-center rounded-[24px] border-2 border-slate-800 bg-white shadow-[0_8px_0_0_#1e293b]">
+      <div className="flex min-h-[360px] flex-col items-center justify-center rounded-[24px] border-2 border-border bg-white shadow-card">
         <Loader2 size={36} className="mb-4 animate-spin text-accent-primary" />
         <p className="font-black text-text-secondary">Đang tải {title.toLowerCase()}...</p>
       </div>
@@ -643,7 +643,7 @@ const PracticeWorkspace = ({
 
   if (cards.length === 0) {
     return (
-      <div className="rounded-[24px] border-2 border-slate-800 bg-white p-8 text-center shadow-[0_8px_0_0_#1e293b]">
+      <div className="rounded-[24px] border-2 border-border bg-white p-8 text-center shadow-card">
         <h2 className="text-2xl font-black text-text-primary">Chưa có thẻ học</h2>
         <p className="mt-2 font-bold text-text-secondary">Bài này chưa có dữ liệu từ vựng để luyện tập.</p>
         <button type="button" onClick={onClose} className="btn-secondary mt-5">
@@ -675,7 +675,7 @@ const PracticeWorkspace = ({
 
   if (showParentCompleted || (!currentCard && !isProgressTrackingFlashcard)) {
     return (
-      <div className="rounded-[24px] border-2 border-slate-800 bg-white p-8 text-center shadow-[0_8px_0_0_#1e293b]">
+      <div className="rounded-[24px] border-2 border-border bg-white p-8 text-center shadow-card">
         <CheckCircle2 size={52} className="mx-auto text-accent-success" />
         <h2 className="mt-4 text-3xl font-black text-text-primary">Hoàn thành {title}</h2>
         <p className="mt-2 font-bold text-text-secondary">
@@ -697,7 +697,7 @@ const PracticeWorkspace = ({
   }
 
   return (
-    <section className="space-y-4 rounded-[24px] border-2 border-slate-800 bg-white p-4 shadow-[0_8px_0_0_#1e293b] md:p-6">
+    <section className="space-y-4 rounded-[24px] border-2 border-border bg-white p-4 shadow-card md:p-6">
       <div className="flex flex-wrap items-center justify-between gap-3 border-b-2 border-slate-100 pb-4">
         <div>
           <p className="text-xs font-black uppercase tracking-[0.2em] text-text-muted">{title}</p>
@@ -709,7 +709,7 @@ const PracticeWorkspace = ({
           <button
             type="button"
             onClick={onClose}
-            className="inline-flex h-10 items-center gap-2 rounded-xl border-2 border-slate-800 bg-white px-3 text-sm font-black shadow-pop transition-all hover:-translate-y-0.5"
+            className="inline-flex h-10 items-center gap-2 rounded-xl border-2 border-border bg-white px-3 text-sm font-black shadow-pop transition-all hover:-translate-y-0.5"
           >
             <X size={16} />
             Thoát

@@ -83,7 +83,7 @@ export const IntroDashboardPage = () => (
         <Link
           key={script.key}
           to={`/intro/${script.key}`}
-          className="group relative flex flex-col overflow-hidden rounded-[26px] border border-blue-100 bg-white p-6 text-left shadow-[0_16px_44px_rgba(40,88,150,0.11)] transition-all hover:-translate-y-1 hover:border-blue-200 hover:shadow-[0_22px_58px_rgba(40,88,150,0.17)] md:p-7"
+          className="group relative flex flex-col overflow-hidden rounded-[26px] border border-blue-100 bg-white p-6 text-left shadow-[0_16px_44px_rgba(40,88,150,0.11)] transition-all hover:-translate-y-0.5 hover:border-border-hover hover:shadow-[0_22px_58px_rgba(40,88,150,0.17)] md:p-7"
         >
           {/* Viền trái xanh */}
           <div className={`absolute left-0 top-6 h-[calc(100%-3rem)] w-1.5 rounded-r-full bg-gradient-to-b ${script.bar}`} />

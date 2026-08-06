@@ -164,7 +164,7 @@ export const MemoryListPage = () => {
         </div>
       ) : null}
 
-      <section className="rounded-[28px] border-2 border-slate-900 bg-white p-4 shadow-[0_8px_0_#111827] md:p-5">
+      <section className="rounded-[28px] border-2 border-border bg-white p-4 shadow-card md:p-5">
         <div className="mb-4 flex flex-wrap items-center justify-between gap-3 border-b-2 border-slate-100 pb-4">
           <div>
             <p className="text-xs font-black uppercase tracking-[0.18em] text-text-muted">Tổng số item</p>
@@ -191,9 +191,9 @@ export const MemoryListPage = () => {
             {cards.map((card, index) => (
               <article
                 key={card.id}
-                className="grid gap-4 rounded-2xl border-2 border-slate-200 bg-slate-50 p-4 transition hover:border-slate-900 hover:bg-white md:grid-cols-[56px_1fr_auto]"
+                className="grid gap-4 rounded-2xl border-2 border-slate-200 bg-slate-50 p-4 transition hover:border-border-hover hover:bg-white md:grid-cols-[56px_1fr_auto]"
               >
-                <div className="grid h-12 w-12 place-items-center rounded-2xl border-2 border-slate-900 bg-white text-sm font-black text-text-primary shadow-[0_3px_0_#111827]">
+                <div className="grid h-12 w-12 place-items-center rounded-2xl border-2 border-border bg-white text-sm font-black text-text-primary shadow-pop">
                   {index + 1}
                 </div>
 

@@ -67,8 +67,8 @@ export const NotificationsPage = () => {
                   onClick={() => markAsRead(notification.id)}
                   className={`flex gap-3 rounded-[16px] border p-3.5 transition-all ${
                     isActive
-                      ? 'border-blue-700 bg-blue-600 text-white shadow-[3px_3px_0_#111827]'
-                      : 'border-slate-200 bg-white/85 text-slate-600 hover:-translate-y-0.5 hover:border-slate-500 hover:bg-white hover:text-slate-950 hover:shadow-[2px_2px_0_#111827]'
+                      ? 'border-blue-700 bg-blue-600 text-white shadow-card'
+                      : 'border-slate-200 bg-white/85 text-slate-600 hover:-translate-y-0.5 hover:border-border-hover hover:bg-white hover:text-slate-950 hover:shadow-lift'
                   }`}
                 >
                   <div
@@ -114,7 +114,7 @@ export const NotificationsPage = () => {
 
         <article className="min-h-0 overflow-y-auto p-4 md:p-6">
           <div className="flex flex-col gap-5">
-          <div className="overflow-hidden rounded-[18px] border border-blue-200 bg-white text-slate-950 shadow-[3px_3px_0_#111827]">
+          <div className="overflow-hidden rounded-[18px] border border-blue-200 bg-white text-slate-950 shadow-card">
             <div className="bg-[radial-gradient(circle_at_top_left,#dbeafe,transparent_36%),linear-gradient(135deg,#ffffff,#eff6ff_58%,#f8fafc)] p-4 md:p-5">
               <div className="flex items-start gap-4">
                 <div className={`flex h-10 w-10 shrink-0 items-center justify-center rounded-xl ${selectedNotification.iconBg} border border-blue-100`}>
@@ -160,7 +160,7 @@ export const NotificationsPage = () => {
                 return (
                 <div
                   key={item.label}
-                  className={`flex items-center gap-3 rounded-[14px] border px-3.5 py-3 shadow-[2px_2px_0_#111827] ${
+                  className={`flex items-center gap-3 rounded-[14px] border px-3.5 py-3 shadow-pop ${
                     item.tone === 'emerald'
                       ? 'border-emerald-700 bg-emerald-50 text-emerald-950'
                       : 'border-blue-700 bg-blue-50 text-blue-950'
@@ -225,7 +225,7 @@ export const NotificationsPage = () => {
                   </div>
                 ) : null}
               </div>
-              <figure className="mx-auto mt-4 max-w-4xl overflow-hidden rounded-[18px] border border-slate-500 bg-white shadow-[3px_3px_0_#111827]">
+              <figure className="mx-auto mt-4 max-w-4xl overflow-hidden rounded-[18px] border border-slate-500 bg-white shadow-card">
                 <img
                   src={activeGalleryImage.src}
                   alt={activeGalleryImage.alt}
@@ -258,7 +258,7 @@ export const NotificationsPage = () => {
               ) : null}
 
               {selectedNotification.paymentImage ? (
-                <div className="rounded-[18px] border border-blue-200 bg-blue-50 p-3 shadow-[2px_2px_0_#93c5fd]">
+                <div className="rounded-[18px] border border-blue-200 bg-blue-50 p-3 shadow-pop">
                   <img
                     src={selectedNotification.paymentImage}
                     alt="QR chuyển khoản mua source SWT301"

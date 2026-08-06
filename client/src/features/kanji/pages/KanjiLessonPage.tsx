@@ -39,7 +39,7 @@ export const KanjiLessonPage = () => {
   if (isLoading) {
     return (
       <div className="flex h-64 items-center justify-center">
-        <div className="h-10 w-10 animate-spin border-4 border-black border-t-transparent"></div>
+        <div className="h-10 w-10 animate-spin border-4 border-accent-primary border-t-transparent"></div>
       </div>
     );
   }
@@ -52,12 +52,12 @@ export const KanjiLessonPage = () => {
     <div className="max-w-7xl mx-auto px-4 py-4 animate-fade-in space-y-6">
       <PremiumLock isLocked={isContentLocked(lesson)} packageCode={lesson.packageCode}>
         {/* Header Panel */}
-        <div className="flex flex-col md:flex-row md:items-end justify-between border-b-2 border-black pb-4 gap-4">
+        <div className="flex flex-col md:flex-row md:items-end justify-between border-b-2 border-border pb-4 gap-4">
           <div>
             <div className="mb-2 flex items-center gap-2">
               <Link 
                 to={`/kanji/${level}`}
-                className="flex h-7 w-7 items-center justify-center border border-black hover:bg-black hover:text-white transition-colors"
+                className="flex h-7 w-7 items-center justify-center border border-border hover:bg-blue-50 hover:text-accent-primary transition-colors"
               >
                 <ArrowLeft size={14} />
               </Link>
@@ -74,19 +74,19 @@ export const KanjiLessonPage = () => {
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 mt-6">
           {/* Left Column: Kanji Items */}
           <div className="lg:col-span-2 space-y-4">
-            <div className="flex items-center justify-between border border-black bg-slate-50 px-3 py-2">
+            <div className="flex items-center justify-between border border-border bg-slate-50 px-3 py-2">
               <h2 className="text-sm font-black uppercase tracking-wider">Kanji Core ({kanjis.length})</h2>
               <div className="flex gap-2">
                 <Link 
                   to={`/kanji/${level}/lessons/${lessonId}/study`}
-                  className="flex items-center gap-1.5 border border-black bg-accent-primary px-3 py-1.5 text-[11px] font-black uppercase text-white hover:bg-black hover:shadow-[2px_2px_0px_#F97316] transition-all shadow-[1px_1px_0px_#0F172A]"
+                  className="flex items-center gap-1.5 border border-border bg-accent-primary px-3 py-1.5 text-[11px] font-black uppercase text-white hover:bg-blue-600 hover:shadow-lift transition-all shadow-pop"
                 >
                   <Play size={12} fill="currentColor" />
                   Study Mode
                 </Link>
                 <Link 
                   to={`/kanji/${level}/lessons/${lessonId}/flashcards`}
-                  className="flex items-center gap-1.5 border border-black bg-white px-3 py-1.5 text-[11px] font-black uppercase hover:bg-slate-100 transition-all shadow-[1px_1px_0px_#0F172A]"
+                  className="flex items-center gap-1.5 border border-border bg-white px-3 py-1.5 text-[11px] font-black uppercase hover:bg-slate-100 transition-all shadow-pop"
                 >
                   <LayoutGrid size={12} />
                   Flashcard
@@ -99,10 +99,10 @@ export const KanjiLessonPage = () => {
                 <Link
                   key={kanji.id}
                   to={`/kanji/${level}/lessons/${lessonId}/study?index=${index}`}
-                  className="group flex border border-black bg-white p-2 hover:border-accent-primary hover:shadow-[2px_2px_0px_#F97316] transition-all cursor-pointer"
+                  className="group flex border border-border bg-white p-2 hover:border-accent-primary hover:shadow-lift transition-all cursor-pointer"
                 >
                   {/* Large Kanji Display */}
-                  <div className="flex h-20 w-20 shrink-0 items-center justify-center border-r border-black bg-slate-50">
+                  <div className="flex h-20 w-20 shrink-0 items-center justify-center border-r border-border bg-slate-50">
                     <span className="text-5xl font-serif text-text-primary" style={{ fontFamily: '"Noto Serif JP", serif' }}>
                       {kanji.character}
                     </span>
@@ -135,18 +135,18 @@ export const KanjiLessonPage = () => {
 
           {/* Right Column: Vocabulary Items */}
           <div className="space-y-4">
-            <div className="flex items-center justify-between border border-black bg-slate-50 px-3 py-2">
+            <div className="flex items-center justify-between border border-border bg-slate-50 px-3 py-2">
               <h2 className="text-sm font-black uppercase tracking-wider">Vocabulary ({vocabularies.length})</h2>
               <Link 
                 to={`/kanji/${level}/lessons/${lessonId}/vocabulary-flashcards`}
-                className="flex items-center gap-1.5 border border-black bg-white px-3 py-1.5 text-[11px] font-black uppercase hover:bg-slate-100 transition-all shadow-[1px_1px_0px_#0F172A]"
+                className="flex items-center gap-1.5 border border-border bg-white px-3 py-1.5 text-[11px] font-black uppercase hover:bg-slate-100 transition-all shadow-pop"
               >
                 <LayoutGrid size={12} />
                 Flashcard
               </Link>
               <Link
                 to={`/kanji/${level}/lessons/${lessonId}/vocabulary-flashcards?mode=typing`}
-                className="flex items-center gap-1.5 border border-black bg-white px-3 py-1.5 text-[11px] font-black uppercase hover:bg-slate-100 transition-all shadow-[1px_1px_0px_#0F172A]"
+                className="flex items-center gap-1.5 border border-border bg-white px-3 py-1.5 text-[11px] font-black uppercase hover:bg-slate-100 transition-all shadow-pop"
               >
                 <Keyboard size={12} />
                 Gõ
@@ -157,7 +157,7 @@ export const KanjiLessonPage = () => {
               {vocabularies.map((vocab) => (
                 <div 
                   key={vocab.id} 
-                  className="flex items-center justify-between border border-black bg-white p-2"
+                  className="flex items-center justify-between border border-border bg-white p-2"
                 >
                   <div className="flex flex-col">
                     <span className="text-lg font-bold text-text-primary">

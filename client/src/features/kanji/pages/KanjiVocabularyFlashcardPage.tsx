@@ -164,7 +164,7 @@ export const KanjiVocabularyFlashcardPage = () => {
   if (isLoading) {
     return (
       <div className="flex h-screen items-center justify-center blue-grid">
-        <div className="h-10 w-10 animate-spin border-4 border-black border-t-transparent"></div>
+        <div className="h-10 w-10 animate-spin border-4 border-accent-primary border-t-transparent"></div>
       </div>
     );
   }
@@ -178,11 +178,11 @@ export const KanjiVocabularyFlashcardPage = () => {
 
   return (
     <div className="min-h-screen blue-grid flex flex-col font-sans">
-      <header className="flex h-14 shrink-0 items-center justify-between border-b-2 border-black bg-white px-4 shadow-[2px_0_0_0_#000]">
+      <header className="flex h-14 shrink-0 items-center justify-between border-b-2 border-border bg-white px-4 shadow-card">
         <div className="flex items-center gap-3">
           <button
             onClick={() => navigate(`/kanji/${level}/lessons/${lessonId}`)}
-            className="flex h-8 w-8 items-center justify-center border border-black hover:bg-black hover:text-white transition-colors"
+            className="flex h-8 w-8 items-center justify-center border border-border hover:bg-blue-50 hover:text-accent-primary transition-colors"
           >
             <ArrowLeft size={16} />
           </button>
@@ -205,8 +205,8 @@ export const KanjiVocabularyFlashcardPage = () => {
           </div>
           <button
             onClick={handleShuffle}
-            className={`flex h-8 w-8 items-center justify-center border border-black transition-colors ${
-              isShuffleEnabled ? 'bg-black text-white' : 'hover:bg-slate-100'
+            className={`flex h-8 w-8 items-center justify-center border border-border transition-colors ${
+              isShuffleEnabled ? 'bg-accent-primary text-white border-border-active' : 'hover:bg-slate-100'
             }`}
             title="Shuffle"
           >
@@ -215,9 +215,9 @@ export const KanjiVocabularyFlashcardPage = () => {
         </div>
       </header>
 
-      <div className="h-1.5 w-full bg-white border-b-2 border-black overflow-hidden">
+      <div className="h-1.5 w-full bg-white border-b-2 border-border overflow-hidden">
         <div
-          className="h-full bg-accent-primary transition-all duration-500 ease-out border-r-2 border-black"
+          className="h-full bg-accent-primary transition-all duration-500 ease-out border-r-2 border-border"
           style={{ width: `${progress}%` }}
         />
       </div>
@@ -601,8 +601,8 @@ const KanjiVocabularyTypingWorkspace = ({
   if (isCompleted || !currentVocab) {
     return (
       <main className="fixed inset-0 z-50 overflow-y-auto blue-grid px-4 py-8 text-slate-950 md:px-8">
-        <div className="mx-auto w-full max-w-5xl rounded-[18px] border-2 border-black bg-white p-6 shadow-[4px_4px_0_#0F172A] md:p-8">
-          <div className="flex flex-col gap-4 border-b-2 border-black pb-5 md:flex-row md:items-end md:justify-between">
+        <div className="mx-auto w-full max-w-5xl rounded-[18px] border-2 border-border bg-white p-6 shadow-card md:p-8">
+          <div className="flex flex-col gap-4 border-b-2 border-border pb-5 md:flex-row md:items-end md:justify-between">
             <div>
               <p className="text-xs font-black uppercase tracking-[0.22em] text-emerald-600">Kết quả gõ</p>
               <h2 className="mt-2 text-4xl font-black tracking-tight md:text-5xl">

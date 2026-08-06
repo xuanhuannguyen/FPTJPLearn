@@ -110,7 +110,7 @@ export const KanjiFlashcardPage = () => {
   if (isLoading) {
     return (
       <div className="flex h-screen items-center justify-center blue-grid">
-        <div className="h-10 w-10 animate-spin border-4 border-black border-t-transparent"></div>
+        <div className="h-10 w-10 animate-spin border-4 border-accent-primary border-t-transparent"></div>
       </div>
     );
   }
@@ -125,11 +125,11 @@ export const KanjiFlashcardPage = () => {
   return (
     <div className="min-h-screen blue-grid flex flex-col font-sans">
       {/* Top Navbar */}
-      <header className="flex h-14 shrink-0 items-center justify-between border-b-2 border-black bg-white px-4 shadow-[2px_0_0_0_#000]">
+      <header className="flex h-14 shrink-0 items-center justify-between border-b-2 border-border bg-white px-4 shadow-card">
         <div className="flex items-center gap-3">
           <button
             onClick={() => navigate(`/kanji/${level}/lessons/${lessonId}`)}
-            className="flex h-8 w-8 items-center justify-center border border-black hover:bg-black hover:text-white transition-colors"
+            className="flex h-8 w-8 items-center justify-center border border-border hover:bg-blue-50 hover:text-accent-primary transition-colors"
           >
             <ArrowLeft size={16} />
           </button>
@@ -152,7 +152,7 @@ export const KanjiFlashcardPage = () => {
           </div>
           <button
             onClick={handleShuffle}
-            className={`flex h-8 w-8 items-center justify-center border border-black transition-colors ${isShuffleEnabled ? 'bg-black text-white' : 'hover:bg-slate-100'
+            className={`flex h-8 w-8 items-center justify-center border border-border transition-colors ${isShuffleEnabled ? 'bg-accent-primary text-white border-border-active' : 'hover:bg-slate-100'
               }`}
             title="Shuffle"
           >
@@ -162,9 +162,9 @@ export const KanjiFlashcardPage = () => {
       </header>
 
       {/* Progress Bar */}
-      <div className="h-1.5 w-full bg-white border-b-2 border-black overflow-hidden">
+      <div className="h-1.5 w-full bg-white border-b-2 border-border overflow-hidden">
         <div
-          className="h-full bg-accent-primary transition-all duration-500 ease-out border-r-2 border-black"
+          className="h-full bg-accent-primary transition-all duration-500 ease-out border-r-2 border-border"
           style={{ width: `${progress}%` }}
         />
       </div>

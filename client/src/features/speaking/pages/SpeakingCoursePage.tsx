@@ -695,15 +695,15 @@ export const SpeakingCoursePage = () => {
 
               {/* Loader hoặc báo lỗi trong quá trình tải Q&A Detail */}
               {selectedQaMode !== null && isLoadingQaDetail && (
-                <div className="flex h-64 flex-col items-center justify-center text-text-secondary bg-white rounded-[24px] border-2 border-slate-900 shadow-[4px_4px_0_#111827]">
+                <div className="flex h-64 flex-col items-center justify-center text-text-secondary bg-white rounded-[24px] border-2 border-border shadow-card">
                   <Loader2 size={36} className="mb-4 animate-spin text-accent-primary" />
                   <p className="font-bold">Đang tải dữ liệu vấn đáp...</p>
                 </div>
               )}
 
               {selectedQaMode !== null && !isLoadingQaDetail && qaDetailError && (
-                <div className="rounded-[24px] border-2 border-slate-900 bg-white p-8 text-center shadow-[4px_4px_0_#111827]">
-                  <div className="flex h-16 w-16 items-center justify-center rounded-full border-2 border-slate-900 bg-rose-50 text-rose-600 mx-auto mb-4">
+                <div className="rounded-[24px] border-2 border-border bg-white p-8 text-center shadow-card">
+                  <div className="flex h-16 w-16 items-center justify-center rounded-full border-2 border-border bg-rose-50 text-rose-600 mx-auto mb-4">
                     <AlertCircle size={28} />
                   </div>
                   <h3 className="font-heading text-xl font-black text-slate-900">{qaDetailError}</h3>
@@ -712,7 +712,7 @@ export const SpeakingCoursePage = () => {
                       setSelectedQaMode(null);
                       setQaLessonDetail(null);
                     }}
-                    className="mt-6 rounded-xl border-2 border-slate-900 bg-white px-5 py-2 text-xs font-black text-slate-900 shadow-[3px_3px_0_#111827] transition-all hover:-translate-y-0.5"
+                    className="mt-6 rounded-xl border-2 border-border bg-white px-5 py-2 text-xs font-black text-slate-900 shadow-pop transition-all hover:-translate-y-0.5"
                   >
                     Quay lại chọn chế độ
                   </button>
@@ -722,7 +722,7 @@ export const SpeakingCoursePage = () => {
               {/* Trạng thái 4.2: VẤN ĐÁP KHÔNG TRANH - Xem danh sách câu hỏi */}
               {selectedQaMode === 'no_image' && !isLoadingQaDetail && !qaDetailError && !isStudyingQa && qaLessonDetail && (
                 <div className="space-y-6">
-                  <div className="rounded-[24px] border-2 border-slate-900 bg-white p-5 shadow-[4px_4px_0_#111827] flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
+                  <div className="rounded-[24px] border-2 border-border bg-white p-5 shadow-card flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
                     <div>
                       <h3 className="font-heading text-xl font-black text-slate-900">
                         Danh sách câu hỏi phản xạ
@@ -740,7 +740,7 @@ export const SpeakingCoursePage = () => {
                         setShowQaGuide(false);
                         setShowQaMeaning(false);
                       }}
-                      className="inline-flex h-12 items-center justify-center gap-2 rounded-full border-2 border-slate-900 bg-[#2b160f] px-6 text-sm font-black text-white shadow-[3px_3px_0_#111827] transition-all hover:translate-x-[1px] hover:translate-y-[1px] hover:shadow-[2px_2px_0_#111827]"
+                      className="inline-flex h-12 items-center justify-center gap-2 rounded-full border-2 border-border bg-[#2b160f] px-6 text-sm font-black text-white shadow-pop transition-all hover:-translate-y-0.5 hover:shadow-lift"
                     >
                       <Play size={16} className="fill-current" />
                       Luyện phản xạ ngay

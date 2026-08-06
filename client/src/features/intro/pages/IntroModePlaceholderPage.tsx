@@ -347,10 +347,10 @@ export const IntroModePlaceholderPage = () => {
           {/* Left Column: Box 1 */}
           <div className="flex w-full max-w-[260px] shrink-0 flex-col gap-4 md:max-w-[310px]">
             {/* Box 1: Character */}
-            <div className="relative flex aspect-square w-full flex-col items-center justify-center rounded-[24px] border-2 border-slate-900 bg-white shadow-[5px_5px_0_#111827]">
+            <div className="relative flex aspect-square w-full flex-col items-center justify-center rounded-[24px] border-2 border-border bg-white shadow-card">
               <button
                 onClick={() => playPronunciation(currentKana.kana)}
-                className="absolute top-3 right-3 flex h-8 w-8 items-center justify-center rounded-lg border-2 border-slate-900 bg-white text-slate-900 shadow-[2px_2px_0_#111827] transition-all hover:bg-sky-100 hover:text-blue-700 active:translate-y-0 active:shadow-none"
+                className="absolute top-3 right-3 flex h-8 w-8 items-center justify-center rounded-lg border-2 border-border bg-white text-slate-900 shadow-pop transition-all hover:bg-sky-100 hover:text-blue-700 active:translate-y-0 active:shadow-none"
                 title={`Nghe phát âm chữ ${currentKana.kana}`}
               >
                 <Volume2 size={15} className="stroke-[2.5]" />
@@ -358,7 +358,7 @@ export const IntroModePlaceholderPage = () => {
               <span className="font-jp text-[110px] font-bold leading-none text-slate-950 md:text-[145px]">
                 {currentKana.kana}
               </span>
-              <span className="mt-3 rounded-lg border-2 border-slate-900 bg-[#F4F4F5] px-4 py-1 text-lg font-black uppercase tracking-widest text-slate-900">
+              <span className="mt-3 rounded-lg border-2 border-border bg-[#F4F4F5] px-4 py-1 text-lg font-black uppercase tracking-widest text-slate-900">
                 {currentKana.romaji}
               </span>
             </div>
@@ -372,7 +372,7 @@ export const IntroModePlaceholderPage = () => {
 
           {/* Right Column: Box 2 Image + Note */}
           <div className="flex w-full max-w-[240px] shrink-0 flex-col gap-4 md:max-w-[280px]">
-            <div className="flex aspect-square w-full shrink-0 items-center justify-center overflow-hidden rounded-[24px] border-2 border-slate-900 bg-white p-4 shadow-[5px_5px_0_#111827]">
+            <div className="flex aspect-square w-full shrink-0 items-center justify-center overflow-hidden rounded-[24px] border-2 border-border bg-white p-4 shadow-card">
               <img
                 src={`/materials/${script}/${currentKana.romaji.toLowerCase()}.png`}
                 alt={`Mnemonic for ${currentKana.kana}`}
@@ -385,7 +385,7 @@ export const IntroModePlaceholderPage = () => {
             </div>
 
             {/* Note badge */}
-            <div className="w-full whitespace-pre-wrap rounded-[20px] border-2 border-slate-900 bg-[#C8FF00] p-4 text-center text-xs font-black leading-relaxed text-slate-950 shadow-[4px_4px_0_#111827] md:text-sm">
+            <div className="w-full whitespace-pre-wrap rounded-[20px] border-2 border-border bg-[#C8FF00] p-4 text-center text-xs font-black leading-relaxed text-slate-950 shadow-card md:text-sm">
               {currentKana.mnemonic}
             </div>
           </div>
@@ -396,14 +396,14 @@ export const IntroModePlaceholderPage = () => {
           <button
             onClick={() => setCurrentIndex(prev => Math.max(0, prev - 1))}
             disabled={currentIndex === 0}
-            className="rounded-xl border-2 border-slate-900 bg-white p-3 text-slate-900 shadow-[3px_3px_0_#111827] transition-all hover:-translate-y-0.5 hover:shadow-[4px_4px_0_#111827] active:translate-y-0 active:shadow-[0_0_0_#111827] disabled:opacity-50 disabled:hover:translate-y-0 disabled:hover:shadow-[3px_3px_0_#111827]"
+            className="rounded-xl border-2 border-border bg-white p-3 text-slate-900 shadow-pop transition-all hover:-translate-y-0.5 hover:shadow-lift active:translate-y-0 active:shadow-none disabled:opacity-50 disabled:hover:translate-y-0 disabled:hover:shadow-pop"
           >
             <ArrowLeft size={24} />
           </button>
           <button
             onClick={() => setCurrentIndex(prev => Math.min(allKanas.length - 1, prev + 1))}
             disabled={currentIndex === allKanas.length - 1}
-            className="rounded-xl border-2 border-slate-900 bg-[#FF3366] p-3 text-white shadow-[3px_3px_0_#111827] transition-all hover:-translate-y-0.5 hover:shadow-[4px_4px_0_#111827] active:translate-y-0 active:shadow-[0_0_0_#111827] disabled:opacity-50 disabled:hover:translate-y-0 disabled:hover:shadow-[3px_3px_0_#111827]"
+            className="rounded-xl border-2 border-border bg-[#FF3366] p-3 text-white shadow-pop transition-all hover:-translate-y-0.5 hover:shadow-lift active:translate-y-0 active:shadow-none disabled:opacity-50 disabled:hover:translate-y-0 disabled:hover:shadow-pop"
           >
             <ArrowRight size={24} />
           </button>
@@ -664,25 +664,25 @@ export const IntroModePlaceholderPage = () => {
           </div>
         </section>
       ) : (
-        <section className="relative overflow-hidden rounded-[24px] border-2 border-slate-900 bg-white shadow-[6px_6px_0_#111827]">
+        <section className="relative overflow-hidden rounded-[24px] border-2 border-border bg-white shadow-card">
           {/* Decorative corner accent */}
-          <div className="absolute -right-6 -top-6 h-16 w-16 rotate-45 border-b-2 border-l-2 border-slate-900 bg-[#C8FF00]" />
+          <div className="absolute -right-6 -top-6 h-16 w-16 rotate-45 border-b-2 border-l-2 border-border bg-[#C8FF00]" />
 
-          <div className="border-b-2 border-slate-900 bg-[#FF3366] px-5 py-2.5">
+          <div className="border-b-2 border-border bg-[#FF3366] px-5 py-2.5">
             <span className="text-[10px] font-black uppercase tracking-[0.25em] text-white">
               Nhập Môn / {scriptLabel.title}
             </span>
           </div>
 
           <div className="flex flex-col gap-5 p-5 md:flex-row md:items-center">
-            <div className="flex h-28 w-28 shrink-0 items-center justify-center rounded-[16px] border-2 border-slate-900 bg-[#F4F4F5] font-jp text-5xl font-black text-slate-950 shadow-[3px_3px_0_#111827]">
+            <div className="flex h-28 w-28 shrink-0 items-center justify-center rounded-[16px] border-2 border-border bg-[#F4F4F5] font-jp text-5xl font-black text-slate-950 shadow-pop">
               {scriptLabel.jp}
             </div>
 
             <div className="flex-1">
               <div className="flex flex-col gap-4 sm:flex-row sm:items-center">
                 <div className="flex items-center gap-3">
-                  <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-xl border-2 border-slate-900 bg-[#C8FF00] text-slate-950 shadow-[2px_2px_0_#111827]">
+                  <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-xl border-2 border-border bg-[#C8FF00] text-slate-950 shadow-pop">
                     {modeLabel.icon}
                   </div>
                   <h1 className="text-3xl font-black tracking-tight text-slate-950">{modeLabel.title}</h1>
@@ -692,14 +692,14 @@ export const IntroModePlaceholderPage = () => {
                   <div className="sm:ml-auto flex flex-wrap gap-2">
                     <button
                       onClick={() => setIsPracticing(true)}
-                      className="group flex w-fit items-center gap-2 rounded-xl border-2 border-slate-900 bg-[#C8FF00] px-6 py-2.5 text-sm font-black uppercase tracking-wider text-slate-950 shadow-[3px_3px_0_#111827] transition-all hover:-translate-y-1 hover:-translate-x-1 hover:shadow-[6px_6px_0_#FF3366] active:translate-y-0 active:translate-x-0 active:shadow-[0_0_0_#111827]"
+                      className="group flex w-fit items-center gap-2 rounded-xl border-2 border-border bg-[#C8FF00] px-6 py-2.5 text-sm font-black uppercase tracking-wider text-slate-950 shadow-pop transition-all hover:-translate-y-0.5 hover:shadow-lift active:translate-y-0 active:translate-x-0 active:shadow-none"
                     >
                       <Play size={16} className="transition-transform group-hover:scale-110" />
                       Học mẹo
                     </button>
                     <button
                       onClick={() => setIsFlippedAll(prev => !prev)}
-                      className={`group flex w-fit items-center gap-2 rounded-xl border-2 border-slate-900 px-6 py-2.5 text-sm font-black uppercase tracking-wider shadow-[3px_3px_0_#111827] transition-all hover:-translate-y-1 hover:-translate-x-1 active:translate-y-0 active:translate-x-0 active:shadow-[0_0_0_#111827] ${
+                      className={`group flex w-fit items-center gap-2 rounded-xl border-2 border-border px-6 py-2.5 text-sm font-black uppercase tracking-wider shadow-pop transition-all hover:-translate-y-0.5 active:translate-y-0 active:translate-x-0 active:shadow-none ${
                         isFlippedAll
                           ? 'bg-slate-950 text-white hover:shadow-[6px_6px_0_#C8FF00]'
                           : 'bg-white text-slate-950 hover:shadow-[6px_6px_0_#C8FF00]'
@@ -720,10 +720,10 @@ export const IntroModePlaceholderPage = () => {
       {mode === 'mnemonic' ? (
         <section className="space-y-6">
           {rows.map((row) => (
-            <div key={row.label} className="rounded-[24px] border-2 border-slate-900 bg-white p-5 shadow-[4px_4px_0_#111827]">
+            <div key={row.label} className="rounded-[24px] border-2 border-border bg-white p-5 shadow-card">
               <div className="mb-5 flex items-center justify-between gap-3 border-b-2 border-slate-900/10 pb-4">
                 <h2 className="text-xl font-black text-slate-950">{row.label}</h2>
-                <span className="rounded-full border-2 border-slate-900 bg-[#C8FF00] px-3 py-1 text-[11px] font-black uppercase tracking-[0.2em] text-slate-950 shadow-[2px_2px_0_#111827]">
+                <span className="rounded-full border-2 border-border bg-[#C8FF00] px-3 py-1 text-[11px] font-black uppercase tracking-[0.2em] text-slate-950 shadow-pop">
                   {row.items.length} chữ
                 </span>
               </div>
@@ -739,10 +739,10 @@ export const IntroModePlaceholderPage = () => {
                             setIsPracticing(true);
                           }
                         }}
-                        className={`group relative flex aspect-square cursor-pointer flex-col items-center justify-center gap-3 overflow-hidden rounded-[20px] border-2 border-slate-900 transition-all hover:-translate-y-1.5 hover:-translate-x-1.5 active:translate-y-0 active:translate-x-0 active:shadow-[0_0_0_#111827] ${
+                        className={`group relative flex aspect-square cursor-pointer flex-col items-center justify-center gap-3 overflow-hidden rounded-[20px] border-2 border-border transition-all hover:-translate-y-0.5 active:translate-y-0 active:translate-x-0 active:shadow-none ${
                           isFlippedAll
-                            ? 'bg-white shadow-[3px_3px_0_#111827] hover:shadow-[7px_7px_0_#C8FF00]'
-                            : 'bg-[#F4F4F5] shadow-[3px_3px_0_#111827] hover:bg-white hover:shadow-[7px_7px_0_#FF3366]'
+                            ? 'bg-white shadow-pop hover:shadow-[7px_7px_0_#C8FF00]'
+                            : 'bg-[#F4F4F5] shadow-pop hover:bg-white hover:shadow-[7px_7px_0_#FF3366]'
                         }`}
                       >
                         <button
@@ -750,7 +750,7 @@ export const IntroModePlaceholderPage = () => {
                             e.stopPropagation();
                             playPronunciation(item.kana);
                           }}
-                          className="absolute top-2 right-2 z-10 flex h-7 w-7 items-center justify-center rounded-lg border-2 border-slate-900 bg-white text-slate-900 shadow-[2px_2px_0_#111827] transition-all hover:bg-sky-100 hover:text-blue-700 active:translate-y-0 active:shadow-none"
+                          className="absolute top-2 right-2 z-10 flex h-7 w-7 items-center justify-center rounded-lg border-2 border-border bg-white text-slate-900 shadow-pop transition-all hover:bg-sky-100 hover:text-blue-700 active:translate-y-0 active:shadow-none"
                           title={`Nghe phát âm chữ ${item.kana}`}
                         >
                           <Volume2 size={13} className="stroke-[2.5]" />
@@ -773,7 +773,7 @@ export const IntroModePlaceholderPage = () => {
                             <span className="font-jp text-7xl font-black text-slate-900 transition-transform duration-300 group-hover:scale-110 group-hover:text-[#FF3366]">
                               {item.kana}
                             </span>
-                            <span className="rounded-lg border-2 border-slate-900 bg-white px-3 py-1.5 text-sm font-black uppercase tracking-widest text-slate-900 shadow-[2px_2px_0_#111827] transition-colors group-hover:bg-[#FF3366] group-hover:text-white">
+                            <span className="rounded-lg border-2 border-border bg-white px-3 py-1.5 text-sm font-black uppercase tracking-widest text-slate-900 shadow-pop transition-colors group-hover:bg-[#FF3366] group-hover:text-white">
                               {item.romaji}
                             </span>
                           </>
@@ -781,7 +781,7 @@ export const IntroModePlaceholderPage = () => {
                       </article>
 
                       {isFlippedAll && (
-                        <div className="flex min-h-[44px] items-center justify-center rounded-xl border-2 border-slate-900 bg-[#C8FF00] px-2 py-1 text-center text-[10px] font-black leading-tight text-slate-950 shadow-[2px_2px_0_#111827] animate-fade-in">
+                        <div className="flex min-h-[44px] items-center justify-center rounded-xl border-2 border-border bg-[#C8FF00] px-2 py-1 text-center text-[10px] font-black leading-tight text-slate-950 shadow-pop animate-fade-in">
                           {item.mnemonic}
                         </div>
                       )}

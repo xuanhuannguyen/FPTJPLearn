@@ -214,7 +214,7 @@ export const GrammarPatternDetailPage = () => {
 
       {/* Detail Cards Grid */}
       <section className="grid gap-6 md:grid-cols-2">
-        <div className="group relative rounded-[24px] border-4 border-border bg-white p-6 shadow-[2px_2px_0px_0px_rgba(0,0,0,1)] transition-all">
+        <div className="group relative rounded-[24px] border-4 border-border bg-white p-6 shadow-pop transition-all">
           <div className="absolute left-1/2 top-0 h-4 w-16 -translate-x-1/2 -translate-y-1/2 rounded bg-violet-300 border-2 border-border shadow-sm" />
           <div className="mb-4 flex items-center gap-3">
             <Layers3 size={20} className="text-violet-500" />
@@ -228,7 +228,7 @@ export const GrammarPatternDetailPage = () => {
           </div>
         </div>
 
-        <div className="group relative rounded-[24px] border-4 border-border bg-[#1a1a1a] p-6 shadow-[2px_2px_0px_0px_rgba(0,0,0,1)] transition-all">
+        <div className="group relative rounded-[24px] border-4 border-border bg-[#1a1a1a] p-6 shadow-pop transition-all">
           <div className="absolute left-1/2 top-0 h-4 w-16 -translate-x-1/2 -translate-y-1/2 rounded bg-sky-300 border-2 border-border shadow-sm" />
           <div className="mb-4 flex items-center gap-3">
             <MessageCircle size={20} className="text-sky-400" />
@@ -244,7 +244,7 @@ export const GrammarPatternDetailPage = () => {
           </div>
         </div>
 
-        <div className="group relative rounded-[24px] border-4 border-border bg-white p-6 shadow-[2px_2px_0px_0px_rgba(0,0,0,1)] transition-all">
+        <div className="group relative rounded-[24px] border-4 border-border bg-white p-6 shadow-pop transition-all">
           <div className="absolute left-1/2 top-0 h-4 w-16 -translate-x-1/2 -translate-y-1/2 rounded bg-emerald-300 border-2 border-border shadow-sm" />
           <div className="mb-4 flex items-center gap-3">
             <Sparkles size={20} className="text-emerald-500" />
@@ -255,7 +255,7 @@ export const GrammarPatternDetailPage = () => {
           </p>
         </div>
 
-        <div className="group relative rounded-[24px] border-4 border-border bg-white p-6 shadow-[2px_2px_0px_0px_rgba(0,0,0,1)] transition-all">
+        <div className="group relative rounded-[24px] border-4 border-border bg-white p-6 shadow-pop transition-all">
           <div className="absolute left-1/2 top-0 h-4 w-16 -translate-x-1/2 -translate-y-1/2 rounded bg-amber-200 border-2 border-border shadow-sm" />
           <div className="mb-4 flex items-center gap-3">
             <Info size={20} className="text-amber-500" />
@@ -276,7 +276,7 @@ export const GrammarPatternDetailPage = () => {
           {(pattern.examples ?? []).map((example, index) => (
             <div 
               key={index} 
-              className="group relative rounded-[16px] border-4 border-border bg-white p-4 shadow-[2px_2px_0px_0px_rgba(0,0,0,1)] transition-all animate-fade-in"
+              className="group relative rounded-[16px] border-4 border-border bg-white p-4 shadow-pop transition-all animate-fade-in"
               style={{ animationDelay: `${index * 0.1}s` }}
             >
               {/* Tape/Tab */}

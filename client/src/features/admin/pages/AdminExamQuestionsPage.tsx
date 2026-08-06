@@ -184,7 +184,7 @@ export const AdminExamQuestionsPage = () => {
         <button
           type="button"
           onClick={resetForm}
-          className="inline-flex h-12 items-center justify-center gap-2 border-2 border-slate-900 bg-[#2563EB] px-5 text-sm font-black text-white shadow-[4px_4px_0_#111827] transition-all hover:translate-x-[2px] hover:translate-y-[2px] hover:shadow-[2px_2px_0_#111827]"
+          className="inline-flex h-12 items-center justify-center gap-2 border-2 border-border bg-[#2563EB] px-5 text-sm font-black text-white shadow-card transition-all hover:-translate-y-0.5 hover:shadow-lift"
         >
           <Plus size={18} />
           Câu hỏi mới
@@ -254,7 +254,7 @@ export const AdminExamQuestionsPage = () => {
 
       <section className="grid gap-6 xl:grid-cols-[minmax(360px,0.85fr)_minmax(620px,1.15fr)]">
         <div className="space-y-4">
-          <div className="border-2 border-slate-900 bg-white p-4 shadow-[5px_5px_0_#111827]">
+          <div className="border-2 border-border bg-white p-4 shadow-card">
             <div className="grid gap-3 sm:grid-cols-2">
               <label className="space-y-1 text-xs font-black uppercase tracking-[0.12em] text-slate-500">
                 Khóa
@@ -307,11 +307,11 @@ export const AdminExamQuestionsPage = () => {
 
           <div className="max-h-[calc(100vh-260px)] space-y-3 overflow-y-auto pr-1">
             {isLoading ? (
-              <div className="flex h-40 items-center justify-center border-2 border-slate-900 bg-white shadow-[5px_5px_0_#111827]">
+              <div className="flex h-40 items-center justify-center border-2 border-border bg-white shadow-card">
                 <Loader2 className="animate-spin text-blue-600" size={28} />
               </div>
             ) : filteredQuestions.length === 0 ? (
-              <div className="border-2 border-slate-900 bg-white p-5 text-sm font-black text-slate-500 shadow-[5px_5px_0_#111827]">
+              <div className="border-2 border-border bg-white p-5 text-sm font-black text-slate-500 shadow-card">
                 Không có câu hỏi.
               </div>
             ) : filteredQuestions.map((question) => (
@@ -321,14 +321,14 @@ export const AdminExamQuestionsPage = () => {
                 onClick={() => setForm(toQuestionForm(question))}
                 className={`w-full border-2 p-4 text-left transition-all ${
                   form.id === question.id
-                    ? 'border-slate-900 bg-[#DBEAFE] shadow-[5px_5px_0_#111827]'
-                    : 'border-slate-200 bg-white hover:border-slate-900 hover:shadow-[4px_4px_0_#111827]'
+                    ? 'border-border-active bg-[#DBEAFE] shadow-card'
+                    : 'border-slate-200 bg-white hover:border-border-hover hover:shadow-lift'
                 }`}
               >
                 <div className="flex items-start justify-between gap-3">
                   <div className="min-w-0">
                     <div className="flex flex-wrap items-center gap-2">
-                      <span className="border-2 border-slate-900 bg-white px-2 py-0.5 text-xs font-black uppercase text-slate-900">
+                      <span className="border-2 border-border bg-white px-2 py-0.5 text-xs font-black uppercase text-slate-900">
                         {question.courseCode}
                       </span>
                       <span className="rounded-full bg-slate-100 px-2 py-1 text-xs font-black text-slate-600">
@@ -350,7 +350,7 @@ export const AdminExamQuestionsPage = () => {
         </div>
 
         <form
-          className="space-y-5 border-2 border-slate-900 bg-white p-5 shadow-[7px_7px_0_#111827]"
+          className="space-y-5 border-2 border-border bg-white p-5 shadow-card"
           onSubmit={(event) => {
             event.preventDefault();
             void saveQuestion();
@@ -369,7 +369,7 @@ export const AdminExamQuestionsPage = () => {
               <button
                 type="button"
                 onClick={resetForm}
-                className="inline-flex h-10 items-center gap-2 border-2 border-slate-900 bg-white px-4 text-sm font-black text-slate-900 shadow-[3px_3px_0_#111827]"
+                className="inline-flex h-10 items-center gap-2 border-2 border-border bg-white px-4 text-sm font-black text-slate-900 shadow-pop"
               >
                 <RotateCcw size={16} />
                 Reset
@@ -379,7 +379,7 @@ export const AdminExamQuestionsPage = () => {
                   type="button"
                   onClick={deleteQuestion}
                   disabled={isSaving}
-                  className="inline-flex h-10 items-center gap-2 border-2 border-slate-900 bg-red-50 px-4 text-sm font-black text-red-600 shadow-[3px_3px_0_#111827] disabled:opacity-60"
+                  className="inline-flex h-10 items-center gap-2 border-2 border-border bg-red-50 px-4 text-sm font-black text-red-600 shadow-pop disabled:opacity-60"
                 >
                   <Trash2 size={16} />
                   Ẩn
@@ -388,7 +388,7 @@ export const AdminExamQuestionsPage = () => {
               <button
                 type="submit"
                 disabled={isSaving}
-                className="inline-flex h-10 items-center gap-2 border-2 border-slate-900 bg-[#16A34A] px-4 text-sm font-black text-white shadow-[3px_3px_0_#111827] disabled:opacity-60"
+                className="inline-flex h-10 items-center gap-2 border-2 border-border bg-[#16A34A] px-4 text-sm font-black text-white shadow-pop disabled:opacity-60"
               >
                 {isSaving ? <Loader2 size={16} className="animate-spin" /> : <Save size={16} />}
                 Lưu
@@ -507,7 +507,7 @@ export const AdminExamQuestionsPage = () => {
               {form.options.map((option, index) => (
                 <div key={option.label} className="border-2 border-slate-200 bg-slate-50 p-3">
                   <div className="mb-2 flex items-center justify-between gap-2">
-                    <span className="grid h-8 w-8 place-items-center border-2 border-slate-900 bg-white text-sm font-black text-slate-900">
+                    <span className="grid h-8 w-8 place-items-center border-2 border-border bg-white text-sm font-black text-slate-900">
                       {option.label}
                     </span>
                     <label className="flex items-center gap-2 text-sm font-black text-slate-700">

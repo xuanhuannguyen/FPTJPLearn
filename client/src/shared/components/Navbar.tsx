@@ -93,7 +93,7 @@ export const Navbar = () => {
               setShowNotifications(!showNotifications);
             }}
             className={`relative flex h-8 w-8 cursor-pointer items-center justify-center rounded-lg border-2 border-border bg-white/95 text-text-secondary shadow-pop transition-all hover:-translate-y-0.5 hover:text-text-primary ${
-              showNotifications ? 'bg-slate-50 border-slate-900 text-text-primary' : ''
+              showNotifications ? 'bg-blue-50 border-border-active text-text-primary' : ''
             }`}
           >
             <Bell size={16} />

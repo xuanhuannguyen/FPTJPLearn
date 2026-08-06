@@ -27,13 +27,15 @@
     --accent-info: #0284c7;
 
     /* Border */
-    --border-color: #111827;
+    --border-color: #dbeafe;
+    --border-hover: #60a5fa;
+    --border-active: #1d4ed8;
 
     /* Elevation */
-    --shadow-card: 4px 4px 0 rgba(17, 24, 39, 0.94), 0 12px 24px rgba(15, 23, 42, 0.08);
-    --shadow-lift: 6px 6px 0 rgba(17, 24, 39, 0.94), 0 16px 32px rgba(15, 23, 42, 0.12);
-    --shadow-pop: 2px 2px 0 rgba(17, 24, 39, 0.94);
-    --shadow-warm: 6px 6px 0 rgba(17, 24, 39, 0.94), 0 16px 36px rgba(234, 88, 12, 0.18);
+    --shadow-card: 0 8px 20px rgba(37, 99, 235, 0.08);
+    --shadow-lift: 0 12px 28px rgba(37, 99, 235, 0.14);
+    --shadow-pop: 0 4px 12px rgba(37, 99, 235, 0.1);
+    --shadow-warm: 0 12px 28px rgba(37, 99, 235, 0.14);
     --shadow-glow: 0 16px 36px rgba(37, 99, 235, 0.22);
 
     /* Fonts */
@@ -95,7 +97,7 @@
 
   .interactive-surface {
     box-shadow: var(--shadow-card);
-    @apply border-2 border-border bg-bg-secondary transition-all duration-200 hover:-translate-x-0.5 hover:-translate-y-0.5;
+    @apply border-2 border-border bg-bg-secondary transition-all duration-200 hover:-translate-y-0.5 hover:border-border-hover;
   }
 
   .interactive-surface:hover {
@@ -104,7 +106,7 @@
 
   .btn-primary {
     box-shadow: var(--shadow-warm);
-    @apply inline-flex min-h-12 items-center justify-center gap-2 rounded-2xl border-2 border-border bg-accent-cta px-5 py-3 font-extrabold text-white transition-all duration-200 hover:-translate-x-0.5 hover:-translate-y-0.5 hover:bg-orange-600 disabled:pointer-events-none disabled:opacity-60;
+    @apply inline-flex min-h-12 items-center justify-center gap-2 rounded-2xl border-2 border-transparent bg-accent-cta px-5 py-3 font-extrabold text-white transition-all duration-200 hover:-translate-y-0.5 hover:bg-orange-600 disabled:pointer-events-none disabled:opacity-60;
   }
 
   .btn-primary:hover {
@@ -113,16 +115,16 @@
 
   .btn-secondary {
     box-shadow: var(--shadow-pop);
-    @apply inline-flex min-h-11 items-center justify-center gap-2 rounded-2xl border-2 border-border bg-white px-4 py-2.5 font-extrabold text-text-secondary transition-all duration-200 hover:-translate-x-0.5 hover:-translate-y-0.5 hover:bg-bg-tertiary hover:text-text-primary;
+    @apply inline-flex min-h-11 items-center justify-center gap-2 rounded-2xl border-2 border-border bg-white px-4 py-2.5 font-extrabold text-text-secondary transition-all duration-200 hover:-translate-y-0.5 hover:border-border-hover hover:bg-bg-tertiary hover:text-text-primary;
   }
 
   .form-control {
     box-shadow: var(--shadow-pop);
-    @apply w-full rounded-2xl border-2 border-border bg-white/95 px-4 py-3 font-bold text-text-primary outline-none transition-all placeholder:text-text-muted;
+    @apply w-full rounded-2xl border-2 border-border bg-white/95 px-4 py-3 font-bold text-text-primary outline-none transition-all placeholder:text-text-muted focus:border-border-active;
   }
 
   .form-control:focus {
-    box-shadow: var(--shadow-pop), 0 0 0 4px rgba(37, 99, 235, 0.20);
+    box-shadow: var(--shadow-pop), 0 0 0 4px rgba(37, 99, 235, 0.15);
   }
 
   .form-control-with-icon {
@@ -169,8 +171,8 @@
     --card-soft: #fff6ec;
     --card-line: rgba(6, 20, 82, 0.13);
     --card-art: rgba(245, 140, 112, 0.25);
-    box-shadow: 0 18px 34px rgba(15, 23, 42, 0.12), 0 2px 7px rgba(15, 23, 42, 0.08);
-    @apply relative overflow-hidden rounded-[28px] border border-white/80 bg-white transition-all duration-300 hover:-translate-y-1 hover:shadow-lift;
+    box-shadow: 0 18px 34px rgba(37, 99, 235, 0.1), 0 2px 7px rgba(37, 99, 235, 0.06);
+    @apply relative overflow-hidden rounded-[28px] border border-white/80 bg-white transition-all duration-300 hover:-translate-y-0.5 hover:border-border-hover hover:shadow-lift;
   }
 
   .jp-course-card--123 {

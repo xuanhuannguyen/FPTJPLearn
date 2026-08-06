@@ -196,7 +196,7 @@ export const FlashcardMode = ({
                   {onStudyUnknown && (
                     <button
                       onClick={onStudyUnknown}
-                      className="inline-flex h-12 items-center gap-2 rounded-xl border-2 border-slate-800 bg-emerald-600 px-6 text-sm font-black text-white shadow-pop transition-all hover:-translate-y-0.5"
+                      className="inline-flex h-12 items-center gap-2 rounded-xl border-2 border-slate-600 bg-emerald-600 px-6 text-sm font-black text-white shadow-pop transition-all hover:-translate-y-0.5"
                     >
                       Học tiếp {unknownCount} từ chưa thuộc
                     </button>
@@ -204,7 +204,7 @@ export const FlashcardMode = ({
                   {onResetAll && (
                     <button
                       onClick={onResetAll}
-                      className="inline-flex h-12 items-center gap-2 rounded-xl border-2 border-slate-800 bg-slate-700 px-6 text-sm font-black text-white shadow-pop transition-all hover:-translate-y-0.5"
+                      className="inline-flex h-12 items-center gap-2 rounded-xl border-2 border-slate-600 bg-slate-700 px-6 text-sm font-black text-white shadow-pop transition-all hover:-translate-y-0.5"
                     >
                       Học lại toàn bộ từ đầu
                     </button>
@@ -226,7 +226,7 @@ export const FlashcardMode = ({
                   {onResetAll && (
                     <button
                       onClick={onResetAll}
-                      className="inline-flex h-12 items-center gap-2 rounded-xl border-2 border-slate-800 bg-emerald-600 px-6 text-sm font-black text-white shadow-pop transition-all hover:-translate-y-0.5"
+                      className="inline-flex h-12 items-center gap-2 rounded-xl border-2 border-slate-600 bg-emerald-600 px-6 text-sm font-black text-white shadow-pop transition-all hover:-translate-y-0.5"
                     >
                       Học lại từ đầu
                     </button>

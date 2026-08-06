@@ -170,7 +170,7 @@ export const GrammarLessonPage = () => {
                   e.stopPropagation();
                   navigate(`/grammar/patterns/${pattern.id}/practice`);
                 }}
-                className="h-8 w-8 flex-shrink-0 flex items-center justify-center rounded-lg border-2 border-border transition-all active:scale-90 shadow-[2px_2px_0px_0px_rgba(0,0,0,1)] bg-amber-400 text-text-primary hover:brightness-110"
+                className="h-8 w-8 flex-shrink-0 flex items-center justify-center rounded-lg border-2 border-border transition-all active:scale-90 shadow-pop bg-amber-400 text-text-primary hover:brightness-110"
                 title="Làm bài tập"
               >
                 <Pencil size={16} strokeWidth={3} />
@@ -179,7 +179,7 @@ export const GrammarLessonPage = () => {
               <button
                 onClick={(e) => addToMemory(e, pattern.id)}
                 disabled={addingId === pattern.id}
-                className={`h-8 w-8 flex-shrink-0 flex items-center justify-center rounded-lg border-2 border-border transition-all active:scale-90 shadow-[2px_2px_0px_0px_rgba(0,0,0,1)] ${
+                className={`h-8 w-8 flex-shrink-0 flex items-center justify-center rounded-lg border-2 border-border transition-all active:scale-90 shadow-pop ${
                   memoryPatternIds.has(pattern.id) 
                     ? 'bg-emerald-500 text-white border-emerald-700' 
                     : 'bg-accent-primary text-white hover:brightness-110'

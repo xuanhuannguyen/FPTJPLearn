@@ -28,6 +28,8 @@ export default {
           info: 'var(--accent-info)',
         },
         border: 'var(--border-color)',
+        'border-hover': 'var(--border-hover)',
+        'border-active': 'var(--border-active)',
       },
       fontFamily: {
         main: ['"Nunito Sans"', 'sans-serif'],

@@ -85,13 +85,13 @@ export function AdminOrderManagerPage() {
 
       {/* Doanh thu stats cards */}
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-        <div className="border-2 border-black p-4 bg-emerald-50 shadow-[4px_4px_0px_#000]">
+        <div className="border-2 border-border p-4 bg-emerald-50 shadow-card">
           <div className="text-xs font-black uppercase text-emerald-800">Tổng doanh thu (Tất cả)</div>
           <div className="text-2xl font-black mt-1 text-slate-900">
             {new Intl.NumberFormat('vi-VN').format(totalPaidAll)}đ
           </div>
         </div>
-        <div className="border-2 border-black p-4 bg-blue-50 shadow-[4px_4px_0px_#000]">
+        <div className="border-2 border-border p-4 bg-blue-50 shadow-card">
           <div className="text-xs font-black uppercase text-blue-800">Doanh thu bộ lọc</div>
           <div className="text-2xl font-black mt-1 text-slate-900">
             {new Intl.NumberFormat('vi-VN').format(totalPaidFiltered)}đ
@@ -100,12 +100,12 @@ export function AdminOrderManagerPage() {
       </div>
 
       {/* Filters bar */}
-      <div className="flex flex-col lg:flex-row lg:items-center justify-between gap-4 bg-white border-2 border-black p-4 shadow-[4px_4px_0px_#000]">
+      <div className="flex flex-col lg:flex-row lg:items-center justify-between gap-4 bg-white border-2 border-border p-4 shadow-card">
         {/* Status filters */}
         <div className="flex flex-wrap gap-2">
           <button
             onClick={() => setStatusFilter('all')}
-            className={`px-3 py-1.5 text-xs font-black uppercase border-2 border-black shadow-[2px_2px_0px_#000] hover:-translate-y-0.5 active:translate-y-0.5 active:shadow-[1px_1px_0px_#000] transition-all cursor-pointer ${
+            className={`px-3 py-1.5 text-xs font-black uppercase border-2 border-border shadow-pop hover:-translate-y-0.5 active:translate-y-0.5 active:shadow-none transition-all cursor-pointer ${
               statusFilter === 'all'
                 ? 'bg-slate-950 text-white'
                 : 'bg-white text-slate-900 hover:bg-slate-50'
@@ -115,7 +115,7 @@ export function AdminOrderManagerPage() {
           </button>
           <button
             onClick={() => setStatusFilter('paid')}
-            className={`px-3 py-1.5 text-xs font-black uppercase border-2 border-black shadow-[2px_2px_0px_#000] hover:-translate-y-0.5 active:translate-y-0.5 active:shadow-[1px_1px_0px_#000] transition-all cursor-pointer ${
+            className={`px-3 py-1.5 text-xs font-black uppercase border-2 border-border shadow-pop hover:-translate-y-0.5 active:translate-y-0.5 active:shadow-none transition-all cursor-pointer ${
               statusFilter === 'paid'
                 ? 'bg-emerald-500 text-white'
                 : 'bg-white text-slate-900 hover:bg-slate-50'
@@ -125,7 +125,7 @@ export function AdminOrderManagerPage() {
           </button>
           <button
             onClick={() => setStatusFilter('pending')}
-            className={`px-3 py-1.5 text-xs font-black uppercase border-2 border-black shadow-[2px_2px_0px_#000] hover:-translate-y-0.5 active:translate-y-0.5 active:shadow-[1px_1px_0px_#000] transition-all cursor-pointer ${
+            className={`px-3 py-1.5 text-xs font-black uppercase border-2 border-border shadow-pop hover:-translate-y-0.5 active:translate-y-0.5 active:shadow-none transition-all cursor-pointer ${
               statusFilter === 'pending'
                 ? 'bg-amber-500 text-white'
                 : 'bg-white text-slate-900 hover:bg-slate-50'
@@ -145,7 +145,7 @@ export function AdminOrderManagerPage() {
               type="date"
               value={startDate}
               onChange={(e) => setStartDate(e.target.value)}
-              className="border-2 border-black px-2 py-1 text-xs font-bold focus:outline-none bg-white"
+              className="border-2 border-border px-2 py-1 text-xs font-bold focus:outline-none bg-white"
             />
           </div>
           <div className="flex items-center gap-2">
@@ -156,7 +156,7 @@ export function AdminOrderManagerPage() {
               type="date"
               value={endDate}
               onChange={(e) => setEndDate(e.target.value)}
-              className="border-2 border-black px-2 py-1 text-xs font-bold focus:outline-none bg-white"
+              className="border-2 border-border px-2 py-1 text-xs font-bold focus:outline-none bg-white"
             />
           </div>
           {(startDate || endDate) && (
@@ -165,7 +165,7 @@ export function AdminOrderManagerPage() {
                 setStartDate('');
                 setEndDate('');
               }}
-              className="px-3 py-1.5 bg-rose-500 text-white text-[10px] font-black uppercase border-2 border-black shadow-[2px_2px_0px_#000] hover:-translate-y-0.5 active:translate-y-0.5 active:shadow-[1px_1px_0px_#000] transition-all cursor-pointer"
+              className="px-3 py-1.5 bg-rose-500 text-white text-[10px] font-black uppercase border-2 border-border shadow-pop hover:-translate-y-0.5 active:translate-y-0.5 active:shadow-none transition-all cursor-pointer"
             >
               Xóa ngày
             </button>
@@ -173,9 +173,9 @@ export function AdminOrderManagerPage() {
         </div>
       </div>
 
-      <div className="border border-black bg-white overflow-hidden shadow-[4px_4px_0px_#000]">
+      <div className="border border-border bg-white overflow-hidden shadow-card">
         <table className="w-full text-left">
-          <thead className="bg-slate-50 border-b border-black">
+          <thead className="bg-slate-50 border-b border-border">
             <tr>
               <th className="p-4 text-xs font-black uppercase">Đơn hàng</th>
               <th className="p-4 text-xs font-black uppercase">Khách hàng</th>

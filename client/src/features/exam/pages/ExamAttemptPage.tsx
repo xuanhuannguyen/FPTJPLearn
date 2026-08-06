@@ -66,7 +66,7 @@ export const ExamAttemptPage = () => {
       <div className="flex h-screen flex-col items-center justify-center bg-[#F8FAFC]">
         <XCircle size={48} className="text-red-500" />
         <p className="mt-4 font-black text-slate-800">{error}</p>
-        <button onClick={navigateBackToCourse} className="mt-6 border-2 border-slate-900 bg-white px-6 py-2 font-black shadow-[4px_4px_0_#111827]">
+        <button onClick={navigateBackToCourse} className="mt-6 border-2 border-border bg-white px-6 py-2 font-black shadow-card">
           Quay lại
         </button>
       </div>

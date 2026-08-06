@@ -229,7 +229,7 @@ export const VocabularyPage = () => {
         value={searchQuery}
         onChange={(e) => setSearchQuery(e.target.value)}
         placeholder="Tìm kiếm bộ từ hoặc từ vựng..."
-        className="h-11 w-full rounded-xl border-2 border-border bg-white px-12 text-sm font-bold shadow-[2px_2px_0px_0px_rgba(0,0,0,1)] transition-all focus:translate-x-[1px] focus:translate-y-[1px] focus:shadow-[1px_1px_0px_0px_rgba(0,0,0,1)] outline-none"
+        className="h-11 w-full rounded-xl border-2 border-border bg-white px-12 text-sm font-bold shadow-pop transition-all focus:border-border-hover focus:shadow-none outline-none"
       />
     </div>
 
