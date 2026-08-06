@@ -379,7 +379,7 @@ export const VocabularyLessonPage = () => {
   }
 
   return (
-    <div className="mx-auto max-w-[768px] space-y-6 px-4 pb-14 animate-fade-in md:px-6">
+    <div className="mx-auto max-w-[960px] space-y-6 px-4 pb-14 animate-fade-in md:px-6">
       <header className="space-y-4">
         <button
           onClick={() => navigate(`/vocabulary/${courseCode}`)}
@@ -473,8 +473,8 @@ export const VocabularyLessonPage = () => {
         {/* Header Row */}
         <div className="flex items-center border-b-2 border-border px-6 py-4 text-[10px] font-black uppercase tracking-widest text-slate-500">
           <div className="w-[8%] shrink-0">No.</div>
-          <div className="w-[48%] shrink-0">Từ vựng</div>
-          <div className="w-[26%] shrink-0">Nghĩa</div>
+          <div className="w-[44%] shrink-0">Từ vựng</div>
+          <div className="w-[30%] shrink-0">Nghĩa</div>
           <div className="w-[18%] shrink-0 text-right">Memory</div>
         </div>
 
@@ -496,10 +496,10 @@ export const VocabularyLessonPage = () => {
               </div>
 
               {/* Col 2: Word & Reading & Tag */}
-              <div className="w-[48%] shrink-0 pr-3">
-                <div className="flex flex-nowrap items-baseline gap-2 whitespace-nowrap">
-                  <span className="shrink-0 font-jp text-[26px] font-black leading-none text-slate-900">{item.word}</span>
-                  <span className="shrink-0 font-jp text-[13px] font-bold text-slate-600">{item.reading}</span>
+              <div className="w-[44%] shrink-0 pr-4">
+                <div className="flex flex-col items-start gap-1 whitespace-nowrap">
+                  <span className="shrink-0 font-jp text-[30px] font-black leading-none text-slate-900">{item.word}</span>
+                  <span className="shrink-0 font-jp text-[13px] font-bold leading-tight text-slate-600">{item.reading}</span>
                 </div>
                 {item.wordType && (
                   <div className="mt-3 inline-flex items-center rounded-lg bg-[#f0f4f8] px-2.5 py-1 text-[10px] font-bold text-[#475569]">
@@ -509,7 +509,7 @@ export const VocabularyLessonPage = () => {
               </div>
 
               {/* Col 3: Meaning */}
-              <div className="w-[26%] shrink-0 pt-2">
+              <div className="w-[30%] shrink-0 pt-2">
                 <span className="text-[16px] font-bold text-slate-800">{item.meaning}</span>
               </div>
 
