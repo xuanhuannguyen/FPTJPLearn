@@ -1,6 +1,6 @@
 import { useState, useRef, useEffect, useCallback } from 'react';
 import { Link, Navigate, useParams } from 'react-router-dom';
-import { ArrowLeft, ArrowRight, ArrowDown, BookOpenText, Keyboard, Play, Volume2, RefreshCw, X } from 'lucide-react';
+import { ArrowLeft, ArrowRight, ArrowDown, BookOpenText, Keyboard, Play, Volume2, RefreshCw, X, LayoutGrid, Sparkles, Layers, Boxes, Globe, Rocket, CheckSquare, Square } from 'lucide-react';
 import { getKanaRows } from '../data/kana';
 import { getTypingCategories } from '../data/typingData';
 import type { TypingCategory, TypingItem } from '../data/typingData';
@@ -631,66 +631,91 @@ export const IntroModePlaceholderPage = () => {
   }
 
   return (
-    <div className="mx-auto max-w-5xl space-y-6 px-4 py-3 animate-fade-in">
+    <div className="mx-auto max-w-6xl space-y-6 px-4 py-4 animate-fade-in">
       <Link
         to={`/intro/${script}`}
-        className="inline-flex items-center gap-2 text-sm font-black text-blue-700 transition-colors hover:text-blue-900"
+        className="inline-flex items-center gap-2 text-sm font-bold text-sky-700 transition-colors hover:text-sky-900"
       >
         <ArrowLeft size={17} />
         Quay lại {scriptLabel.title}
       </Link>
 
-      <section className="relative overflow-hidden rounded-[24px] border-2 border-slate-900 bg-white shadow-[6px_6px_0_#111827]">
-        {/* Decorative corner accent */}
-        <div className="absolute -right-6 -top-6 h-16 w-16 rotate-45 border-b-2 border-l-2 border-slate-900 bg-[#C8FF00]" />
+      {mode === 'typing' ? (
+        <section className="relative overflow-hidden rounded-3xl border border-sky-200/80 bg-gradient-to-r from-sky-500 via-sky-600 to-blue-600 text-white shadow-md shadow-sky-100/50 p-6 md:p-8">
+          {/* Decorative green corner accent */}
+          <div className="absolute -right-8 -top-8 h-20 w-20 rotate-45 bg-[#C8FF00] shadow-sm pointer-events-none" />
 
-        <div className="border-b-2 border-slate-900 bg-[#FF3366] px-5 py-2.5">
-          <span className="text-[10px] font-black uppercase tracking-[0.25em] text-white">
-            Nhập Môn / {scriptLabel.title}
-          </span>
-        </div>
-
-        <div className="flex flex-col gap-5 p-5 md:flex-row md:items-center">
-          <div className="flex h-28 w-28 shrink-0 items-center justify-center rounded-[16px] border-2 border-slate-900 bg-[#F4F4F5] font-jp text-5xl font-black text-slate-950 shadow-[3px_3px_0_#111827]">
-            {scriptLabel.jp}
-          </div>
-
-          <div className="flex-1">
-            <div className="flex flex-col gap-4 sm:flex-row sm:items-center">
-              <div className="flex items-center gap-3">
-                <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-xl border-2 border-slate-900 bg-[#C8FF00] text-slate-950 shadow-[2px_2px_0_#111827]">
-                  {modeLabel.icon}
-                </div>
-                <h1 className="text-3xl font-black tracking-tight text-slate-950">{modeLabel.title}</h1>
-              </div>
-
-              {mode === 'mnemonic' && (
-                <div className="sm:ml-auto flex flex-wrap gap-2">
-                  <button
-                    onClick={() => setIsPracticing(true)}
-                    className="group flex w-fit items-center gap-2 rounded-xl border-2 border-slate-900 bg-[#C8FF00] px-6 py-2.5 text-sm font-black uppercase tracking-wider text-slate-950 shadow-[3px_3px_0_#111827] transition-all hover:-translate-y-1 hover:-translate-x-1 hover:shadow-[6px_6px_0_#FF3366] active:translate-y-0 active:translate-x-0 active:shadow-[0_0_0_#111827]"
-                  >
-                    <Play size={16} className="transition-transform group-hover:scale-110" />
-                    Học mẹo
-                  </button>
-                  <button
-                    onClick={() => setIsFlippedAll(prev => !prev)}
-                    className={`group flex w-fit items-center gap-2 rounded-xl border-2 border-slate-900 px-6 py-2.5 text-sm font-black uppercase tracking-wider shadow-[3px_3px_0_#111827] transition-all hover:-translate-y-1 hover:-translate-x-1 active:translate-y-0 active:translate-x-0 active:shadow-[0_0_0_#111827] ${
-                      isFlippedAll
-                        ? 'bg-slate-950 text-white hover:shadow-[6px_6px_0_#C8FF00]'
-                        : 'bg-white text-slate-950 hover:shadow-[6px_6px_0_#C8FF00]'
-                    }`}
-                  >
-                    <RefreshCw size={16} className={`transition-transform duration-500 ${isFlippedAll ? 'rotate-180' : ''}`} />
-                    Lật mặt sau
-                  </button>
-                </div>
-              )}
+          <div className="flex flex-col gap-6 md:flex-row md:items-center">
+            <div className="flex h-28 w-28 shrink-0 items-center justify-center rounded-2xl bg-white/95 text-sky-950 font-jp text-5xl font-black shadow-sm border border-sky-100/60">
+              {scriptLabel.jp}
             </div>
-            <p className="mt-2 max-w-xl text-sm font-bold leading-6 text-slate-600">{modeLabel.description}</p>
+
+            <div className="flex-1 space-y-2">
+              <div className="flex items-center gap-3">
+                <div className="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl bg-white/20 text-white backdrop-blur-sm">
+                  <Keyboard size={24} className="stroke-[2.5]" />
+                </div>
+                <h1 className="text-3xl md:text-4xl font-extrabold tracking-tight text-white">{modeLabel.title}</h1>
+              </div>
+              <p className="text-sky-50/90 text-sm md:text-base font-medium leading-relaxed max-w-2xl">
+                {modeLabel.description}
+              </p>
+            </div>
           </div>
-        </div>
-      </section>
+        </section>
+      ) : (
+        <section className="relative overflow-hidden rounded-[24px] border-2 border-slate-900 bg-white shadow-[6px_6px_0_#111827]">
+          {/* Decorative corner accent */}
+          <div className="absolute -right-6 -top-6 h-16 w-16 rotate-45 border-b-2 border-l-2 border-slate-900 bg-[#C8FF00]" />
+
+          <div className="border-b-2 border-slate-900 bg-[#FF3366] px-5 py-2.5">
+            <span className="text-[10px] font-black uppercase tracking-[0.25em] text-white">
+              Nhập Môn / {scriptLabel.title}
+            </span>
+          </div>
+
+          <div className="flex flex-col gap-5 p-5 md:flex-row md:items-center">
+            <div className="flex h-28 w-28 shrink-0 items-center justify-center rounded-[16px] border-2 border-slate-900 bg-[#F4F4F5] font-jp text-5xl font-black text-slate-950 shadow-[3px_3px_0_#111827]">
+              {scriptLabel.jp}
+            </div>
+
+            <div className="flex-1">
+              <div className="flex flex-col gap-4 sm:flex-row sm:items-center">
+                <div className="flex items-center gap-3">
+                  <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-xl border-2 border-slate-900 bg-[#C8FF00] text-slate-950 shadow-[2px_2px_0_#111827]">
+                    {modeLabel.icon}
+                  </div>
+                  <h1 className="text-3xl font-black tracking-tight text-slate-950">{modeLabel.title}</h1>
+                </div>
+
+                {mode === 'mnemonic' && (
+                  <div className="sm:ml-auto flex flex-wrap gap-2">
+                    <button
+                      onClick={() => setIsPracticing(true)}
+                      className="group flex w-fit items-center gap-2 rounded-xl border-2 border-slate-900 bg-[#C8FF00] px-6 py-2.5 text-sm font-black uppercase tracking-wider text-slate-950 shadow-[3px_3px_0_#111827] transition-all hover:-translate-y-1 hover:-translate-x-1 hover:shadow-[6px_6px_0_#FF3366] active:translate-y-0 active:translate-x-0 active:shadow-[0_0_0_#111827]"
+                    >
+                      <Play size={16} className="transition-transform group-hover:scale-110" />
+                      Học mẹo
+                    </button>
+                    <button
+                      onClick={() => setIsFlippedAll(prev => !prev)}
+                      className={`group flex w-fit items-center gap-2 rounded-xl border-2 border-slate-900 px-6 py-2.5 text-sm font-black uppercase tracking-wider shadow-[3px_3px_0_#111827] transition-all hover:-translate-y-1 hover:-translate-x-1 active:translate-y-0 active:translate-x-0 active:shadow-[0_0_0_#111827] ${
+                        isFlippedAll
+                          ? 'bg-slate-950 text-white hover:shadow-[6px_6px_0_#C8FF00]'
+                          : 'bg-white text-slate-950 hover:shadow-[6px_6px_0_#C8FF00]'
+                      }`}
+                    >
+                      <RefreshCw size={16} className={`transition-transform duration-500 ${isFlippedAll ? 'rotate-180' : ''}`} />
+                      Lật mặt sau
+                    </button>
+                  </div>
+                )}
+              </div>
+              <p className="mt-2 max-w-xl text-sm font-bold leading-6 text-slate-600">{modeLabel.description}</p>
+            </div>
+          </div>
+        </section>
+      )}
 
       {mode === 'mnemonic' ? (
         <section className="space-y-6">
@@ -774,45 +799,66 @@ export const IntroModePlaceholderPage = () => {
           {/* All Kana full-width selector */}
           <button
             onClick={toggleAllKana}
-            className={`w-full py-4 rounded-2xl border-4 text-center text-lg font-black uppercase tracking-wider transition-all shadow-[4px_4px_0_#111827] active:translate-y-0 active:shadow-[0_0_0_#111827] ${
+            className={`w-full py-3.5 px-6 rounded-2xl md:rounded-full border-2 transition-all flex items-center justify-center gap-3 font-extrabold text-base md:text-lg tracking-wider uppercase ${
               isAllSelected
-                ? 'bg-sky-500 text-white border-emerald-500 ring-2 ring-emerald-400 ring-offset-2'
-                : 'bg-white text-slate-800 border-slate-900 hover:bg-slate-50'
+                ? 'bg-sky-500 text-white border-sky-500 shadow-md shadow-sky-200 ring-2 ring-sky-400/50 ring-offset-2'
+                : 'bg-white text-slate-700 border-sky-200 hover:bg-sky-50/70 hover:border-sky-300 shadow-sm'
             }`}
           >
-            All Kana
+            <LayoutGrid size={20} className={isAllSelected ? 'text-white' : 'text-sky-600'} />
+            ALL KANA
           </button>
 
           {/* Dynamic category grid */}
-          <div className={`grid grid-cols-1 gap-6 ${typingCategories.length === 4 ? 'xl:grid-cols-4 md:grid-cols-2' : 'md:grid-cols-3'}`}>
+          <div className={`grid grid-cols-1 md:grid-cols-2 gap-6 ${
+            typingCategories.length === 4 ? 'xl:grid-cols-4 lg:grid-cols-3' : 'lg:grid-cols-3'
+          }`}>
             {typingCategories.map((category) => {
               const categoryGroupIds = category.groups.map(g => g.id);
               const isCategoryAllSelected = categoryGroupIds.every(id => selectedGroups.includes(id));
 
+              const getCategoryIcon = (title: string) => {
+                const upper = title.toUpperCase();
+                if (upper.includes('MAIN')) return <Sparkles size={18} className="text-amber-500" />;
+                if (upper.includes('DAKUTEN')) return <Layers size={18} className="text-sky-500" />;
+                if (upper.includes('COMBINATION')) return <Boxes size={18} className="text-emerald-500" />;
+                return <Globe size={18} className="text-violet-500" />;
+              };
+
               return (
                 <div
                   key={category.title}
-                  className="rounded-[28px] border-2 border-slate-900 bg-white p-5 shadow-[5px_5px_0_#111827] flex flex-col"
+                  className="rounded-3xl border border-sky-200/80 bg-white p-5 md:p-6 shadow-sm hover:shadow-md hover:shadow-sky-100/50 transition-all flex flex-col justify-between"
                 >
-                  <h3 className="text-center text-xl font-black text-sky-600 mb-4 uppercase tracking-wider">
-                    {category.title}
-                  </h3>
+                  <div>
+                    <div className="flex items-center justify-center gap-2 mb-4">
+                      {getCategoryIcon(category.title)}
+                      <h3 className="text-center text-lg font-black text-slate-800 uppercase tracking-wide">
+                        {category.title.toUpperCase()}
+                      </h3>
+                    </div>
 
-                  <button
-                    onClick={() => toggleCategory(category)}
-                    className={`w-full py-2.5 rounded-xl border-2 text-center text-sm font-black uppercase tracking-wide transition-all shadow-[3px_3px_0_#111827] active:translate-y-0 active:shadow-[0_0_0_#111827] mb-4 ${
-                      isCategoryAllSelected
-                        ? 'bg-sky-500 text-white border-slate-900 shadow-[3px_3px_0_#111827]'
-                        : 'bg-white text-slate-800 border-slate-900 hover:bg-slate-50'
-                    }`}
-                  >
-                    {category.allLabel}
-                  </button>
+                    <button
+                      onClick={() => toggleCategory(category)}
+                      className={`w-full py-2 px-4 mb-4 rounded-xl border text-center text-xs md:text-sm font-extrabold uppercase tracking-wide transition-all flex items-center justify-center gap-2 active:scale-[0.98] ${
+                        isCategoryAllSelected
+                          ? 'bg-sky-500 text-white border-sky-500 shadow-sm'
+                          : 'bg-white text-sky-700 border-sky-300 hover:bg-sky-50'
+                      }`}
+                    >
+                      {isCategoryAllSelected ? (
+                        <CheckSquare size={16} />
+                      ) : (
+                        <Square size={16} className="text-sky-400" />
+                      )}
+                      {category.allLabel.toUpperCase()}
+                    </button>
+                  </div>
 
                   <div className={
                     category.title === 'Dakuten Kana'
-                      ? 'flex flex-col gap-2 flex-1'
-                      : 'grid grid-cols-2 gap-2 flex-1'
+                      ? 'flex flex-col gap-2.5 flex-1'
+                      : 'grid grid-cols-2 gap-2.5 flex-1'
                   }>
                     {category.groups.map((group) => {
                       const isSelected = selectedGroups.includes(group.id);
@@ -821,10 +867,10 @@ export const IntroModePlaceholderPage = () => {
                         <button
                           key={group.id}
                           onClick={() => toggleGroup(group.id)}
-                          className={`py-2 rounded-lg border-2 text-center text-sm font-bold tracking-wide transition-all shadow-[2px_2px_0_#111827] active:translate-y-0 active:shadow-[0_0_0_#111827] ${
+                          className={`py-2.5 px-3 rounded-xl border text-center text-sm font-bold tracking-wide transition-all focus:outline-none focus:ring-2 focus:ring-sky-400 ${
                             isSelected
-                              ? 'bg-sky-500 text-white border-slate-900 font-extrabold shadow-[2px_2px_0_#111827]'
-                              : 'bg-white text-slate-800 border-slate-900 hover:bg-slate-50'
+                              ? 'bg-sky-500 text-white border-sky-500 font-extrabold shadow-sm shadow-sky-200'
+                              : 'bg-slate-50/70 text-slate-700 border-sky-100 hover:bg-sky-50 hover:border-sky-200 hover:text-sky-800'
                           }`}
                         >
                           {group.label}
@@ -838,13 +884,15 @@ export const IntroModePlaceholderPage = () => {
           </div>
 
           {/* Start Quiz CTA */}
-          <div className="flex justify-center pt-4">
+          <div className="flex justify-center pt-6 pb-4">
             <button
               onClick={startQuiz}
               disabled={selectedGroups.length === 0}
-              className="rounded-2xl border-4 border-slate-900 bg-[#C8FF00] px-12 py-4 text-lg font-black uppercase tracking-widest text-slate-950 shadow-[5px_5px_0_#111827] transition-all hover:-translate-y-1 hover:shadow-[7px_7px_0_#FF3366] active:translate-y-0 active:shadow-[0_0_0_#111827] disabled:opacity-50 disabled:cursor-not-allowed disabled:hover:translate-y-0 disabled:hover:shadow-[5px_5px_0_#111827]"
+              className="group relative inline-flex items-center gap-3 px-10 md:px-14 py-4 md:py-4.5 rounded-full bg-gradient-to-r from-emerald-500 via-teal-500 to-emerald-600 text-white font-black text-lg md:text-xl uppercase tracking-widest shadow-lg shadow-emerald-200/60 hover:shadow-xl hover:shadow-emerald-300/60 hover:-translate-y-0.5 active:translate-y-0 active:shadow-md transition-all disabled:opacity-40 disabled:cursor-not-allowed disabled:hover:translate-y-0 disabled:shadow-none"
             >
-              Start Quiz!
+              <Rocket size={24} className="transition-transform group-hover:scale-110 group-hover:-translate-y-0.5" />
+              <span>START QUIZ!</span>
+              <ArrowRight size={22} className="transition-transform group-hover:translate-x-1" />
             </button>
           </div>
         </section>
