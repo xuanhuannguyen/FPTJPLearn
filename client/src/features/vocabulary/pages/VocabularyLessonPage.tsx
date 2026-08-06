@@ -379,7 +379,7 @@ export const VocabularyLessonPage = () => {
   }
 
   return (
-    <div className="mx-auto max-w-5xl space-y-6 px-4 pb-14 animate-fade-in md:px-6">
+    <div className="mx-auto max-w-[768px] space-y-6 px-4 pb-14 animate-fade-in md:px-6">
       <header className="space-y-4">
         <button
           onClick={() => navigate(`/vocabulary/${courseCode}`)}

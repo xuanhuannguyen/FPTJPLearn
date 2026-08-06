@@ -42,7 +42,7 @@ export const VocabularyDashboardPage = () => {
       </div>
 
       {/* Grid of Courses */}
-      <div className="grid max-w-3xl grid-cols-1 gap-4 md:grid-cols-2">
+      <div className="grid max-w-[62.4rem] grid-cols-1 gap-4 md:grid-cols-2">
         {courses.map((course) => {
           const isJpd113 = course.code.includes('113');
           const displayLevel = course.code;

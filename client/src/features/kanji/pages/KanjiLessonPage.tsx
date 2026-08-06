@@ -49,7 +49,7 @@ export const KanjiLessonPage = () => {
   }
 
   return (
-    <div className="max-w-7xl mx-auto px-4 py-4 animate-fade-in space-y-6">
+    <div className="max-w-[960px] mx-auto px-4 py-4 animate-fade-in space-y-6">
       <PremiumLock isLocked={isContentLocked(lesson)} packageCode={lesson.packageCode}>
         {/* Header Panel */}
         <div className="flex flex-col md:flex-row md:items-end justify-between border-b-2 border-border pb-4 gap-4">

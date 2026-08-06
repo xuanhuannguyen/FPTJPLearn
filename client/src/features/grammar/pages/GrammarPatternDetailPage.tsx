@@ -144,7 +144,7 @@ export const GrammarPatternDetailPage = () => {
   }
 
   return (
-    <div className="mx-auto max-w-7xl space-y-10 pb-20 animate-fade-in px-4 md:px-6">
+    <div className="mx-auto max-w-[960px] space-y-10 pb-20 animate-fade-in px-4 md:px-6">
       {/* Navigation & Header */}
       <div className="mb-12 space-y-4">
         {/* Navigation */}

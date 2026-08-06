@@ -448,7 +448,7 @@ export const KanjiStudyPage = () => {
 
       {/* Main Content: Bento Box / Split Pane */}
       <main className="flex-1 overflow-y-auto p-3 md:p-4 lg:p-6">
-        <div className="max-w-5xl mx-auto grid grid-cols-1 lg:grid-cols-12 gap-4">
+        <div className="max-w-[768px] mx-auto grid grid-cols-1 lg:grid-cols-12 gap-4">
           
           {/* Left Pane: Visual & Practice (8 cols) */}
           <div className="lg:col-span-8 flex flex-col gap-3">
@@ -819,7 +819,7 @@ export const KanjiStudyPage = () => {
 
       {/* Bottom Bar: Controls */}
       <footer className="shrink-0 border-t-2 border-border bg-white px-4 py-3 sticky bottom-0">
-        <div className="max-w-5xl mx-auto flex items-center justify-between">
+        <div className="max-w-[768px] mx-auto flex items-center justify-between">
           
           <div className="flex items-center gap-2">
             <button 

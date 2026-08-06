@@ -110,7 +110,7 @@ export const GrammarLessonPage = () => {
   if (!lesson) return null;
 
   return (
-    <div className="max-w-5xl mx-auto px-4 pt-2 pb-6 animate-fade-in">
+    <div className="max-w-[768px] mx-auto px-4 pt-2 pb-6 animate-fade-in">
       {/* Navigation & Header */}
       <div className="mb-10 space-y-4">
         {/* Navigation */}
