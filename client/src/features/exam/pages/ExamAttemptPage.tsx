@@ -76,35 +76,61 @@ export const ExamAttemptPage = () => {
   // --- CONFIRM ---
   if (phase === 'confirm' && attempt) {
     return (
-      <div ref={containerRef} className="flex min-h-screen flex-col items-center justify-center bg-[#F8FAFC] px-4">
-        <div className="w-full max-w-lg border-2 border-slate-900 bg-white p-8 shadow-[8px_8px_0_#111827]">
-          <div className="mb-6 flex items-center gap-3">
-            <Clock size={32} className="text-[#2563EB]" />
-            <h1 className="text-2xl font-black text-slate-900">Sẵn sàng luyện thi?</h1>
+      <div ref={containerRef} className="flex min-h-screen flex-col items-center justify-center bg-[#F8FAFC] px-4 py-8">
+        <div className="w-full max-w-lg rounded-3xl border border-blue-200/80 bg-white p-7 md:p-8 shadow-[0_12px_36px_rgba(37,99,235,0.10)]">
+          <div className="mb-6 flex items-center gap-3.5">
+            <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-2xl border border-blue-100 bg-blue-50 text-[#2563EB] shadow-sm">
+              <Clock size={26} />
+            </div>
+            <div>
+              <h1 className="text-2xl font-extrabold text-[#0b2554]">Sẵn sàng luyện thi?</h1>
+              <p className="text-xs font-bold text-slate-500 mt-0.5">Kiểm tra thông tin trước khi bắt đầu bài thi</p>
+            </div>
           </div>
 
           <div className="grid grid-cols-2 gap-4">
-            <div className="border-2 border-slate-900 bg-[#EFF6FF] p-4">
-              <p className="text-3xl font-black text-slate-900">{attempt.totalQuestions}</p>
-              <p className="text-xs font-black uppercase tracking-widest text-slate-500">Câu hỏi</p>
+            <div className="rounded-2xl border border-blue-100 bg-[#EFF6FF]/60 p-4 text-center shadow-sm">
+              <p className="text-3xl font-black text-[#0b2554]">{attempt.totalQuestions}</p>
+              <p className="mt-1 text-xs font-black uppercase tracking-wider text-blue-600/80">Câu hỏi</p>
             </div>
-            <div className="border-2 border-slate-900 bg-[#EFF6FF] p-4">
-              <p className="text-3xl font-black text-slate-900">{attempt.durationMinutes}'</p>
-              <p className="text-xs font-black uppercase tracking-widest text-slate-500">Thời gian</p>
+            <div className="rounded-2xl border border-blue-100 bg-[#EFF6FF]/60 p-4 text-center shadow-sm">
+              <p className="text-3xl font-black text-[#0b2554]">{attempt.durationMinutes}'</p>
+              <p className="mt-1 text-xs font-black uppercase tracking-wider text-blue-600/80">Thời gian</p>
             </div>
           </div>
 
-          <ul className="mt-6 space-y-2 text-sm font-bold text-slate-700">
-            <li className="flex items-start gap-2"><AlertTriangle size={16} className="mt-0.5 shrink-0 text-amber-500" /> Chuyển tab sẽ bị ghi nhận cảnh báo</li>
-            <li className="flex items-start gap-2"><Maximize size={16} className="mt-0.5 shrink-0 text-[#2563EB]" /> Bài thi sẽ mở toàn màn hình</li>
-            <li className="flex items-start gap-2"><Clock size={16} className="mt-0.5 shrink-0 text-slate-500" /> Hết giờ sẽ tự động nộp bài</li>
+          <ul className="mt-6 space-y-3 text-sm font-bold text-slate-700">
+            <li className="flex items-center gap-3">
+              <span className="flex h-7 w-7 shrink-0 items-center justify-center rounded-lg border border-amber-200 bg-amber-50 text-amber-600">
+                <AlertTriangle size={15} />
+              </span>
+              <span>Chuyển tab sẽ bị ghi nhận cảnh báo</span>
+            </li>
+            <li className="flex items-center gap-3">
+              <span className="flex h-7 w-7 shrink-0 items-center justify-center rounded-lg border border-blue-200 bg-blue-50 text-[#2563EB]">
+                <Maximize size={15} />
+              </span>
+              <span>Bài thi sẽ mở toàn màn hình</span>
+            </li>
+            <li className="flex items-center gap-3">
+              <span className="flex h-7 w-7 shrink-0 items-center justify-center rounded-lg border border-sky-200 bg-sky-50 text-sky-700">
+                <Clock size={15} />
+              </span>
+              <span>Hết giờ sẽ tự động nộp bài</span>
+            </li>
           </ul>
 
           <div className="mt-8 flex gap-3">
-            <button onClick={navigateBackToCourse} className="flex-1 border-2 border-slate-900 bg-white px-4 py-3 font-black text-slate-900 shadow-[4px_4px_0_#111827] transition-all hover:translate-x-[2px] hover:translate-y-[2px] hover:shadow-[2px_2px_0_#111827]">
+            <button
+              onClick={navigateBackToCourse}
+              className="flex-1 rounded-full border border-sky-300 bg-white px-5 py-3 font-extrabold text-[#0b2554] shadow-sm transition-all hover:bg-sky-50 active:scale-95 text-sm"
+            >
               Hủy
             </button>
-            <button onClick={startExam} className="flex-1 border-2 border-slate-900 bg-[#2563EB] px-4 py-3 font-black text-white shadow-[4px_4px_0_#111827] transition-all hover:translate-x-[2px] hover:translate-y-[2px] hover:shadow-[2px_2px_0_#111827]">
+            <button
+              onClick={startExam}
+              className="flex-1 rounded-full border border-blue-600 bg-gradient-to-r from-blue-600 via-[#2563EB] to-blue-700 px-5 py-3 font-extrabold text-white shadow-md shadow-blue-200 transition-all hover:from-blue-700 hover:to-blue-800 active:scale-95 text-sm uppercase tracking-wider"
+            >
               Bắt đầu thi
             </button>
           </div>
@@ -131,17 +157,22 @@ export const ExamAttemptPage = () => {
     return (
       <div className="flex h-screen flex-col bg-[#F8FAFC]">
         {/* Score bar */}
-        <div className="flex shrink-0 items-center justify-between border-b-2 border-slate-900 bg-white px-4 py-2">
+        <div className="flex shrink-0 items-center justify-between border-b border-sky-200 bg-white px-4 md:px-6 py-3 shadow-sm">
           <div className="flex items-center gap-4">
-            <span className={`text-2xl font-black ${passed ? 'text-emerald-600' : 'text-red-500'}`}>{review.scorePercent}%</span>
-            <span className="text-sm font-black text-slate-500">{review.correctCount}/{review.totalQuestions} đúng</span>
-            {tabWarnings > 0 && <span className="text-xs font-bold text-amber-600">• {tabWarnings} cảnh báo</span>}
+            <span className={`text-2xl font-black ${passed ? 'text-emerald-600' : 'text-rose-600'}`}>{review.scorePercent}%</span>
+            <span className="text-sm font-black text-slate-600">{review.correctCount}/{review.totalQuestions} đúng</span>
+            {tabWarnings > 0 && <span className="text-xs font-extrabold text-amber-600">• {tabWarnings} cảnh báo</span>}
           </div>
           <div className="flex items-center gap-3">
-            <span className={`border-2 px-3 py-1 text-sm font-black ${passed ? 'border-emerald-600 bg-emerald-50 text-emerald-700' : 'border-red-500 bg-red-50 text-red-600'}`}>
+            <span className={`rounded-full border px-4 py-1 text-xs font-black uppercase shadow-xs ${
+              passed ? 'border-emerald-300 bg-emerald-50 text-emerald-700' : 'border-rose-300 bg-rose-50 text-rose-700'
+            }`}>
               {passed ? 'ĐẠT' : 'CHƯA ĐẠT'}
             </span>
-            <button onClick={navigateBackToCourse} className="inline-flex items-center gap-2 border-2 border-slate-900 bg-[#2563EB] px-4 py-1.5 text-sm font-black text-white shadow-[3px_3px_0_#111827] transition-all hover:translate-x-[1px] hover:translate-y-[1px] hover:shadow-[2px_2px_0_#111827]">
+            <button
+              onClick={navigateBackToCourse}
+              className="inline-flex items-center gap-2 rounded-full border border-blue-600 bg-[#2563EB] px-5 py-1.5 text-xs md:text-sm font-extrabold text-white shadow-md shadow-blue-200 hover:bg-blue-700 transition-all active:scale-95"
+            >
               Quay lại
             </button>
           </div>
@@ -190,37 +221,50 @@ export const ExamAttemptPage = () => {
     <div ref={containerRef} className="flex h-screen flex-col bg-[#F8FAFC]">
       {/* Fullscreen enforcement overlay */}
       {showFullscreenOverlay && (
-        <div className="fixed inset-0 z-[9999] flex flex-col items-center justify-center bg-slate-900/95">
-          <AlertTriangle size={56} className="text-amber-400" />
-          <h2 className="mt-4 text-2xl font-black text-white">Bạn đã thoát toàn màn hình!</h2>
-          <p className="mt-2 text-sm font-bold text-slate-300">Bài thi yêu cầu chế độ toàn màn hình. Nhấn nút bên dưới để tiếp tục.</p>
-          <p className="mt-1 text-xs font-bold text-amber-400">⚠ Cảnh báo lần {fullscreenExits}/3 — Lần thứ 3 sẽ kết thúc bài thi</p>
-          <button onClick={reEnterFullscreen} className="mt-6 border-2 border-white bg-[#2563EB] px-8 py-3 text-lg font-black text-white shadow-[4px_4px_0_#fff] transition-all hover:translate-x-[2px] hover:translate-y-[2px] hover:shadow-[2px_2px_0_#fff]">
-            Quay lại toàn màn hình
-          </button>
+        <div className="fixed inset-0 z-[9999] flex flex-col items-center justify-center bg-slate-950/90 backdrop-blur-md p-6">
+          <div className="w-full max-w-md rounded-3xl border border-amber-300/40 bg-slate-900 p-8 text-center shadow-2xl">
+            <AlertTriangle size={56} className="mx-auto text-amber-400" />
+            <h2 className="mt-4 text-2xl font-black text-white">Bạn đã thoát toàn màn hình!</h2>
+            <p className="mt-2 text-sm font-bold text-slate-300">Bài thi yêu cầu chế độ toàn màn hình. Nhấn nút bên dưới để tiếp tục.</p>
+            <p className="mt-3 inline-block rounded-full border border-amber-500/40 bg-amber-500/10 px-4 py-1 text-xs font-black text-amber-400">
+              ⚠ Cảnh báo lần {fullscreenExits}/3 — Lần thứ 3 sẽ kết thúc bài thi
+            </p>
+            <button
+              onClick={reEnterFullscreen}
+              className="mt-6 w-full rounded-full border border-blue-500 bg-[#2563EB] px-8 py-3 text-base font-extrabold text-white shadow-lg shadow-blue-500/30 transition-all hover:bg-blue-600 active:scale-95"
+            >
+              Quay lại toàn màn hình
+            </button>
+          </div>
         </div>
       )}
 
       {/* Warning bar */}
       {tabWarnings > 0 && !showFullscreenOverlay && (
-        <div className="shrink-0 border-b-2 border-amber-600 bg-amber-50 px-4 py-1.5 text-center text-xs font-black text-amber-800">
+        <div className="shrink-0 border-b border-amber-200 bg-amber-50 px-4 py-2 text-center text-xs font-black text-amber-800 shadow-xs">
           ⚠ Cảnh báo: Đã thoát toàn màn hình {fullscreenExits}/3 lần. Lần thứ 3 sẽ kết thúc bài thi.
         </div>
       )}
 
       {/* Top bar */}
-      <div className="flex shrink-0 items-center justify-between border-b-2 border-slate-900 bg-white px-4 py-2">
+      <div className="flex shrink-0 items-center justify-between border-b border-sky-200 bg-white px-4 md:px-6 py-3 shadow-sm">
         <div className="flex items-center gap-4">
-          <span className="text-sm font-black text-slate-500">Câu {currentIndex + 1}/{attempt.questions.length}</span>
-          <span className="text-xs font-bold text-slate-400">Đã trả lời: {answeredCount}/{attempt.questions.length}</span>
+          <span className="text-sm font-black text-[#0b2554]">Câu {currentIndex + 1}/{attempt.questions.length}</span>
+          <span className="text-xs font-bold text-slate-500 hidden sm:inline">Đã trả lời: {answeredCount}/{attempt.questions.length}</span>
         </div>
-        <div className={`flex items-center gap-2 border-2 px-3 py-1 text-lg font-black tabular-nums ${isUrgent ? 'border-red-500 bg-red-50 text-red-600 animate-pulse' : 'border-slate-900 bg-white text-slate-900'}`}>
-          <Clock size={18} />
+
+        <div className={`flex items-center gap-2 px-4 py-1.5 rounded-full font-black text-base md:text-lg tabular-nums transition-all ${
+          isUrgent
+            ? 'border-2 border-rose-500 bg-rose-50 text-rose-600 shadow-sm animate-pulse'
+            : 'border border-sky-200 bg-sky-50/70 text-[#0b2554] shadow-sm'
+        }`}>
+          <Clock size={18} className={isUrgent ? 'text-rose-600' : 'text-[#2563EB]'} />
           {formatTime(timeLeft)}
         </div>
+
         <button
           onClick={() => { if (window.confirm('Bạn có chắc muốn nộp bài?')) handleSubmit(); }}
-          className="inline-flex items-center gap-2 border-2 border-slate-900 bg-[#2563EB] px-4 py-1.5 text-sm font-black text-white shadow-[3px_3px_0_#111827] transition-all hover:translate-x-[1px] hover:translate-y-[1px] hover:shadow-[2px_2px_0_#111827]"
+          className="inline-flex items-center gap-2 rounded-full border border-blue-600 bg-[#2563EB] px-5 py-1.5 text-xs md:text-sm font-extrabold uppercase tracking-wider text-white shadow-md shadow-blue-200 transition-all hover:bg-blue-700 active:scale-95"
         >
           <Send size={14} /> Nộp bài
         </button>

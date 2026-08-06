@@ -6,14 +6,14 @@ interface ExamQuestionGridProps {
 }
 
 const STATUS_STYLES: Record<string, string> = {
-  current_correct: 'border-emerald-700 bg-emerald-600 text-white',
-  current_wrong: 'border-red-700 bg-red-500 text-white',
-  current_answered: 'border-[#2563EB] bg-[#2563EB] text-white',
-  current_unanswered: 'border-[#2563EB] bg-[#2563EB] text-white',
-  correct: 'border-emerald-500 bg-emerald-50 text-emerald-700 hover:bg-emerald-100',
-  wrong: 'border-red-400 bg-red-50 text-red-600 hover:bg-red-100',
-  answered: 'border-emerald-600 bg-emerald-50 text-emerald-700',
-  unanswered: 'border-slate-300 bg-white text-slate-500 hover:border-slate-900',
+  current_correct: 'border-2 border-emerald-600 bg-emerald-600 text-white shadow-sm ring-2 ring-emerald-300 ring-offset-1',
+  current_wrong: 'border-2 border-rose-600 bg-rose-600 text-white shadow-sm ring-2 ring-rose-300 ring-offset-1',
+  current_answered: 'border-2 border-blue-600 bg-[#2563EB] text-white shadow-sm ring-2 ring-blue-300 ring-offset-1 font-extrabold',
+  current_unanswered: 'border-2 border-blue-600 bg-[#2563EB] text-white shadow-sm ring-2 ring-blue-300 ring-offset-1 font-extrabold',
+  correct: 'border border-emerald-400 bg-emerald-50 text-emerald-700 font-extrabold hover:bg-emerald-100 shadow-xs',
+  wrong: 'border border-rose-300 bg-rose-50 text-rose-600 font-extrabold hover:bg-rose-100 shadow-xs',
+  answered: 'border border-blue-300 bg-blue-50/80 text-[#2563EB] font-extrabold hover:bg-blue-100 shadow-xs',
+  unanswered: 'border border-sky-200 bg-white text-slate-600 hover:border-blue-400 hover:bg-sky-50 shadow-xs',
 };
 
 function getStyle(status: string, isCurrent: boolean): string {
@@ -22,7 +22,7 @@ function getStyle(status: string, isCurrent: boolean): string {
 }
 
 export const ExamQuestionGrid = ({ total, currentIndex, onSelect, getStatus }: ExamQuestionGridProps) => (
-  <div className="flex shrink-0 flex-wrap gap-1.5 border-b-2 border-slate-200 bg-white px-4 py-2">
+  <div className="flex shrink-0 flex-wrap gap-2 border-b border-sky-200 bg-white px-4 md:px-6 py-2.5 shadow-sm">
     {Array.from({ length: total }, (_, i) => {
       const status = getStatus(i);
       const isCurrent = i === currentIndex;
@@ -30,7 +30,7 @@ export const ExamQuestionGrid = ({ total, currentIndex, onSelect, getStatus }: E
         <button
           key={i}
           onClick={() => onSelect(i)}
-          className={`grid h-8 w-8 place-items-center border-2 text-xs font-black transition-all ${getStyle(status, isCurrent)}`}
+          className={`grid h-8 w-8 place-items-center rounded-xl text-xs font-black transition-all active:scale-95 ${getStyle(status, isCurrent)}`}
         >
           {i + 1}
         </button>
