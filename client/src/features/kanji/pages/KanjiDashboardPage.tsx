@@ -42,7 +42,7 @@ export const KanjiDashboardPage = () => {
       </div>
 
       {/* Grid of Levels */}
-      <div className="grid max-w-[62.4rem] grid-cols-1 gap-4 md:grid-cols-2">
+      <div className="grid max-w-3xl grid-cols-1 gap-4 md:grid-cols-2">
         {stats
           .map((levelStat) => {
             const courseCode = levelStat.courseCode ?? (levelStat.level === 'N5' ? 'jpd113' : 'jpd123');

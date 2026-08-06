@@ -264,7 +264,7 @@ export const VocabularyPage = () => {
           </p>
         </div>
       ) : (
-        <div className="grid grid-cols-1 gap-3 md:grid-cols-2 xl:grid-cols-4 2xl:grid-cols-5">
+        <div className="grid grid-cols-1 gap-4 lg:grid-cols-2 xl:grid-cols-3">
           {filteredLists.map((list) => {
             const progressPercent = list.wordCount > 0 
               ? Math.round((list.masteredCount / list.wordCount) * 100) 
@@ -283,21 +283,21 @@ export const VocabularyPage = () => {
               }}
               role="button"
               tabIndex={0}
-              className="group relative flex min-h-[105px] cursor-pointer items-center gap-3 overflow-hidden rounded-[16px] border border-sky-100 bg-white p-3 shadow-[0_6px_20px_-10px_rgba(14,165,233,0.25)] transition-all duration-200 hover:-translate-y-0.5 hover:border-sky-200 hover:shadow-[0_14px_32px_-10px_rgba(14,165,233,0.35)]"
+              className="group relative flex min-h-[150px] cursor-pointer items-center gap-4 overflow-hidden rounded-[20px] border border-sky-100 bg-white p-4 shadow-[0_6px_20px_-10px_rgba(14,165,233,0.25)] transition-all duration-200 hover:-translate-y-0.5 hover:border-sky-200 hover:shadow-[0_14px_32px_-10px_rgba(14,165,233,0.35)]"
             >
               <div className={`absolute left-0 top-0 h-full w-1.5 ${isComplete ? 'bg-emerald-500' : 'bg-sky-500'}`} />
 
               <img
                 src="/images/vocabulary/active-vocab-card.webp?v=1"
                 alt=""
-                className="h-16 w-16 shrink-0 rounded-xl border border-sky-100 object-cover shadow-sm"
+                className="h-[92px] w-[92px] shrink-0 rounded-2xl border border-sky-100 object-cover shadow-sm"
                 loading="lazy"
                 decoding="async"
               />
 
-              <div className="relative flex min-w-0 flex-1 flex-col gap-1.5">
+              <div className="relative flex min-w-0 flex-1 flex-col gap-2">
                 <div className="flex items-center gap-2 pr-1">
-                  <h3 className="line-clamp-1 font-heading text-base font-black leading-tight tracking-tight text-text-primary transition-colors group-hover:text-accent-primary">
+                  <h3 className="line-clamp-1 font-heading text-lg font-black leading-tight tracking-tight text-text-primary transition-colors group-hover:text-accent-primary">
                     {list.name}
                   </h3>
                   {isComplete && (
@@ -306,16 +306,16 @@ export const VocabularyPage = () => {
                 </div>
 
                 <div className="flex flex-wrap items-center gap-1.5">
-                  <div className="flex items-center gap-1 rounded-md border border-sky-100 bg-sky-50 px-1.5 py-0.5 text-[11px] text-sky-700">
-                    <BookOpen size={11} />
+                  <div className="flex items-center gap-1.5 rounded-lg border border-sky-100 bg-sky-50 px-2 py-0.5 text-sky-700">
+                    <BookOpen size={12} />
                     <span className="font-black leading-none">{list.wordCount}</span>
                   </div>
-                  <div className="flex items-center gap-1 rounded-md border border-emerald-100 bg-emerald-50 px-1.5 py-0.5 text-[11px] text-emerald-700">
-                    <CheckCircle size={11} />
+                  <div className="flex items-center gap-1.5 rounded-lg border border-emerald-100 bg-emerald-50 px-2 py-0.5 text-emerald-700">
+                    <CheckCircle size={12} />
                     <span className="font-black leading-none">{list.masteredCount}</span>
                   </div>
-                  <div className="flex items-center gap-1 rounded-md border border-amber-100 bg-amber-50 px-1.5 py-0.5 text-[11px] text-amber-700">
-                    <Clock size={11} />
+                  <div className="flex items-center gap-1.5 rounded-lg border border-amber-100 bg-amber-50 px-2 py-0.5 text-amber-700">
+                    <Clock size={12} />
                     <span className="font-black leading-none">{list.dueCount}</span>
                   </div>
                 </div>
@@ -327,7 +327,7 @@ export const VocabularyPage = () => {
                       style={{ width: `${progressPercent}%` }}
                     />
                   </div>
-                  <span className="text-[9px] font-black text-slate-500 tabular-nums">{progressPercent}%</span>
+                  <span className="text-[10px] font-black text-slate-500 tabular-nums">{progressPercent}%</span>
                 </div>
               </div>
 
@@ -338,24 +338,24 @@ export const VocabularyPage = () => {
                     setDeleteError('');
                     setDeleteListConfirm(list.id);
                   }}
-                  className="rounded-md p-1 text-slate-300 transition-colors hover:bg-red-50 hover:text-red-500 md:opacity-0 md:group-hover:opacity-100"
+                  className="rounded-lg p-1.5 text-slate-300 transition-colors hover:bg-red-50 hover:text-red-500 md:opacity-0 md:group-hover:opacity-100"
                   title="Delete List"
                 >
-                  <Trash2 size={14} />
+                  <Trash2 size={16} />
                 </button>
                 <button
                   onClick={(event) => {
                     event.stopPropagation();
                     navigate(`/active-vocabulary/${list.id}?study=1`);
                   }}
-                  className={`flex h-8 w-8 items-center justify-center rounded-lg shadow-sm transition-all ${
+                  className={`flex h-10 w-10 items-center justify-center rounded-xl shadow-sm transition-all ${
                     list.dueCount > 0
                       ? 'bg-gradient-to-br from-sky-500 to-blue-600 text-white shadow-sky-200 hover:-translate-y-0.5 hover:shadow-md'
                       : 'bg-sky-50 text-sky-600 hover:bg-sky-100'
                   }`}
                   title="Ôn tập ngay"
                 >
-                  <Play size={14} className={list.dueCount > 0 ? 'ml-0.5 fill-current' : 'ml-0.5'} />
+                  <Play size={16} className={list.dueCount > 0 ? 'ml-0.5 fill-current' : 'ml-0.5'} />
                 </button>
               </div>
             </div>

@@ -86,7 +86,7 @@ export const GrammarHomePage = () => {
       </section>
 
       {/* Levels Grid */}
-      <div className="grid max-w-[62.4rem] grid-cols-1 gap-4 md:grid-cols-2">
+      <div className="grid max-w-3xl grid-cols-1 gap-4 md:grid-cols-2">
         {courses.map((item) => {
           const summary = summaries.find(s => s.courseCode.toLowerCase() === item.courseCode.toLowerCase());
           const cardTone = item.courseCode === 'jpd113' ? 'jp-course-card--113' : 'jp-course-card--123';
