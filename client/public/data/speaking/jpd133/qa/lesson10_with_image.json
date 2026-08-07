@@ -1,0 +1,1657 @@
+{
+  "courseCode": "jpd133",
+  "lessonNumber": 10,
+  "lessonTitle": "Bài 10 - JPD133 Q&A Có Tranh",
+  "questionMode": "WITH_IMAGE",
+  "dataPurpose": "oral_exam_practice_web",
+  "lessonOverview": {
+    "shortSummary": "Luyện phản xạ nhìn tranh và trả lời câu hỏi JPD133 Bài 10.",
+    "studentCanDo": [
+      "Nhận diện thông tin chính trong tranh.",
+      "Trả lời bằng câu tiếng Nhật ngắn và đúng mẫu."
+    ],
+    "mainSkills": [
+      "Quan sát người, vật, địa điểm và hành động.",
+      "Dùng từ vựng và mẫu câu theo bài."
+    ],
+    "mainGrammarFocus": [
+      "JPD133-L10-G001"
+    ],
+    "examTipSummary": "Quan sát toàn bộ tranh trước khi trả lời; ưu tiên câu ngắn, đủ chủ ngữ và động từ."
+  },
+  "pictureSets": [
+    {
+      "pictureId": "jpd133_l10_p01",
+      "pictureTitle": "Trong thư viện",
+      "imageUrl": "/data/speaking/jpd133/qa/lesson10_tranh1.png",
+      "questions": [
+        {
+          "questionId": "jpd133_l10_p01_q01",
+          "order": 1,
+          "question": {
+            "ja": "ここで本を読んでもいいですか。",
+            "vi": "Có được đọc sách ở đây không?"
+          },
+          "questionReading": "ここでほんをよんでもいいですか。",
+          "answerType": "picture_short_answer",
+          "sampleAnswers": [
+            {
+              "ja": "はい、読んでもいいです。",
+              "vi": "Vâng, được phép đọc sách.",
+              "reading": "はい、よんでもいいです。"
+            }
+          ],
+          "grammarIds": [
+            "JPD133-L10-G001"
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "本",
+              "reading": "ほん",
+              "meaning": "Sách"
+            },
+            {
+              "word": "読みます",
+              "reading": "よみます",
+              "meaning": "Đọc"
+            },
+            {
+              "word": "図書館",
+              "reading": "としょかん",
+              "meaning": "Thư viện"
+            },
+            {
+              "word": "いいです",
+              "reading": "いいです",
+              "meaning": "Được phép"
+            },
+            {
+              "word": "勉強します",
+              "reading": "べんきょうします",
+              "meaning": "Học"
+            }
+          ],
+          "explanation": "Đọc câu hỏi và đối chiếu thông tin trong tranh Bài 10.",
+          "tips": [
+            "Nghe ～てもいいですか → hỏi xin phép.",
+            "Nếu hoạt động được phép trong tranh thì trả lời:"
+          ],
+          "commonMistakes": []
+        },
+        {
+          "questionId": "jpd133_l10_p01_q02",
+          "order": 2,
+          "question": {
+            "ja": "ここでご飯を食べてもいいですか。",
+            "vi": "Có được ăn cơm ở đây không?"
+          },
+          "questionReading": "ここでごはんをたべてもいいですか。",
+          "answerType": "picture_short_answer",
+          "sampleAnswers": [
+            {
+              "ja": "いいえ、食べてはいけません。",
+              "vi": "Không, không được ăn.",
+              "reading": "いいえ、たべてはいけません。"
+            }
+          ],
+          "grammarIds": [
+            "JPD133-L10-G001"
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "ご飯",
+              "reading": "ごはん",
+              "meaning": "Cơm"
+            },
+            {
+              "word": "食べます",
+              "reading": "たべます",
+              "meaning": "Ăn"
+            },
+            {
+              "word": "～てはいけません",
+              "reading": "～てはいけません",
+              "meaning": "Không được"
+            },
+            {
+              "word": "ルール",
+              "reading": "ルール",
+              "meaning": "Nội quy"
+            },
+            {
+              "word": "図書館",
+              "reading": "としょかん",
+              "meaning": "Thư viện"
+            }
+          ],
+          "explanation": "Đọc câu hỏi và đối chiếu thông tin trong tranh Bài 10.",
+          "tips": [
+            "Quan sát biển No Eating.",
+            "Mẫu trả lời:"
+          ],
+          "commonMistakes": []
+        },
+        {
+          "questionId": "jpd133_l10_p01_q03",
+          "order": 3,
+          "question": {
+            "ja": "ここで電話をしてもいいですか。",
+            "vi": "Có được gọi điện ở đây không?"
+          },
+          "questionReading": "ここででんわをしてもいいですか。",
+          "answerType": "picture_short_answer",
+          "sampleAnswers": [
+            {
+              "ja": "いいえ、電話をしてはいけません。",
+              "vi": "Không, không được gọi điện.",
+              "reading": "いいえ、でんわをしてはいけません。"
+            }
+          ],
+          "grammarIds": [
+            "JPD133-L10-G001"
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "電話",
+              "reading": "でんわ",
+              "meaning": "Điện thoại"
+            },
+            {
+              "word": "します",
+              "reading": "します",
+              "meaning": "Làm"
+            },
+            {
+              "word": "静か",
+              "reading": "しずか",
+              "meaning": "Yên tĩnh"
+            },
+            {
+              "word": "図書館",
+              "reading": "としょかん",
+              "meaning": "Thư viện"
+            },
+            {
+              "word": "だめ",
+              "reading": "だめ",
+              "meaning": "Không được"
+            }
+          ],
+          "explanation": "Đọc câu hỏi và đối chiếu thông tin trong tranh Bài 10.",
+          "tips": [
+            "Quan sát biển cấm điện thoại.",
+            "Dùng:"
+          ],
+          "commonMistakes": []
+        },
+        {
+          "questionId": "jpd133_l10_p01_q04",
+          "order": 4,
+          "question": {
+            "ja": "本はどこで借りることができますか。",
+            "vi": "Có thể mượn sách ở đâu?"
+          },
+          "questionReading": "ほんはどこでかりることができますか。",
+          "answerType": "picture_short_answer",
+          "sampleAnswers": [
+            {
+              "ja": "受付で借りることができます。",
+              "vi": "Có thể mượn ở quầy thủ thư.",
+              "reading": "うけつけでかりることができます。"
+            }
+          ],
+          "grammarIds": [
+            "JPD133-L10-G001"
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "借ります",
+              "reading": "かります",
+              "meaning": "Mượn"
+            },
+            {
+              "word": "受付",
+              "reading": "うけつけ",
+              "meaning": "Quầy tiếp nhận"
+            },
+            {
+              "word": "本",
+              "reading": "ほん",
+              "meaning": "Sách"
+            },
+            {
+              "word": "図書館",
+              "reading": "としょかん",
+              "meaning": "Thư viện"
+            },
+            {
+              "word": "できます",
+              "reading": "できます",
+              "meaning": "Có thể"
+            }
+          ],
+          "explanation": "Đọc câu hỏi và đối chiếu thông tin trong tranh Bài 10.",
+          "tips": [
+            "Nghe どこで → xác định địa điểm.",
+            "Quan sát quầy thủ thư."
+          ],
+          "commonMistakes": []
+        },
+        {
+          "questionId": "jpd133_l10_p01_q05",
+          "order": 5,
+          "question": {
+            "ja": "図書館で何をしていますか。",
+            "vi": "Bạn đang làm gì ở thư viện?"
+          },
+          "questionReading": "としょかんでなにをしていますか。",
+          "answerType": "picture_short_answer",
+          "sampleAnswers": [
+            {
+              "ja": "本を読んでいます。",
+              "vi": "Tôi đang đọc sách.",
+              "reading": "ほんをよんでいます。"
+            }
+          ],
+          "grammarIds": [
+            "JPD133-L10-G001"
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "読んでいます",
+              "reading": "よんでいます",
+              "meaning": "Đang đọc"
+            },
+            {
+              "word": "本",
+              "reading": "ほん",
+              "meaning": "Sách"
+            },
+            {
+              "word": "勉強",
+              "reading": "べんきょう",
+              "meaning": "Học"
+            },
+            {
+              "word": "図書館",
+              "reading": "としょかん",
+              "meaning": "Thư viện"
+            },
+            {
+              "word": "静か",
+              "reading": "しずか",
+              "meaning": "Yên tĩnh"
+            }
+          ],
+          "explanation": "Đọc câu hỏi và đối chiếu thông tin trong tranh Bài 10.",
+          "tips": [
+            "Nghe 何をしていますか.",
+            "Trả lời bằng:"
+          ],
+          "commonMistakes": []
+        }
+      ]
+    },
+    {
+      "pictureId": "jpd133_l10_p02",
+      "pictureTitle": "Hiệu sách",
+      "imageUrl": "/data/speaking/jpd133/qa/lesson10_tranh2.png",
+      "questions": [
+        {
+          "questionId": "jpd133_l10_p02_q01",
+          "order": 1,
+          "question": {
+            "ja": "どこで本を買うことができますか。",
+            "vi": "Có thể mua sách ở đâu?"
+          },
+          "questionReading": "どこでほんをかうことができますか。",
+          "answerType": "picture_short_answer",
+          "sampleAnswers": [
+            {
+              "ja": "本屋で買うことができます。",
+              "vi": "Có thể mua ở hiệu sách.",
+              "reading": "ほんやでかうことができます。"
+            }
+          ],
+          "grammarIds": [
+            "JPD133-L10-G001"
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "本屋",
+              "reading": "ほんや",
+              "meaning": "Hiệu sách"
+            },
+            {
+              "word": "買います",
+              "reading": "かいます",
+              "meaning": "Mua"
+            },
+            {
+              "word": "本",
+              "reading": "ほん",
+              "meaning": "Sách"
+            },
+            {
+              "word": "できます",
+              "reading": "できます",
+              "meaning": "Có thể"
+            },
+            {
+              "word": "店",
+              "reading": "みせ",
+              "meaning": "Cửa hàng"
+            }
+          ],
+          "explanation": "Đọc câu hỏi và đối chiếu thông tin trong tranh Bài 10.",
+          "tips": [
+            "Nghe どこで → xác định địa điểm.",
+            "Dùng:"
+          ],
+          "commonMistakes": []
+        },
+        {
+          "questionId": "jpd133_l10_p02_q02",
+          "order": 2,
+          "question": {
+            "ja": "何の本を買っていますか。",
+            "vi": "Bạn đang mua loại sách gì?"
+          },
+          "questionReading": "なんのほんをかっていますか。",
+          "answerType": "picture_short_answer",
+          "sampleAnswers": [
+            {
+              "ja": "日本語の本を買っています。",
+              "vi": "Tôi đang mua sách tiếng Nhật.",
+              "reading": "にほんごのほんをかっています。"
+            }
+          ],
+          "grammarIds": [
+            "JPD133-L10-G001"
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "日本語",
+              "reading": "にほんご",
+              "meaning": "Tiếng Nhật"
+            },
+            {
+              "word": "本",
+              "reading": "ほん",
+              "meaning": "Sách"
+            },
+            {
+              "word": "辞書",
+              "reading": "じしょ",
+              "meaning": "Từ điển"
+            },
+            {
+              "word": "漫画",
+              "reading": "まんが",
+              "meaning": "Truyện tranh"
+            },
+            {
+              "word": "買っています",
+              "reading": "かっています",
+              "meaning": "Đang mua"
+            }
+          ],
+          "explanation": "Đọc câu hỏi và đối chiếu thông tin trong tranh Bài 10.",
+          "tips": [
+            "Quan sát loại sách trên tay.",
+            "Dùng:"
+          ],
+          "commonMistakes": []
+        },
+        {
+          "questionId": "jpd133_l10_p02_q03",
+          "order": 3,
+          "question": {
+            "ja": "本を何冊買いましたか。",
+            "vi": "Bạn đã mua mấy quyển sách?"
+          },
+          "questionReading": "ほんをなんさつかいましたか。",
+          "answerType": "picture_short_answer",
+          "sampleAnswers": [
+            {
+              "ja": "三冊買いました。",
+              "vi": "Tôi đã mua ba quyển.",
+              "reading": "さんさつかいました。"
+            }
+          ],
+          "grammarIds": [
+            "JPD133-L10-G001"
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "一冊",
+              "reading": "いっさつ",
+              "meaning": "Một quyển"
+            },
+            {
+              "word": "二冊",
+              "reading": "にさつ",
+              "meaning": "Hai quyển"
+            },
+            {
+              "word": "三冊",
+              "reading": "さんさつ",
+              "meaning": "Ba quyển"
+            },
+            {
+              "word": "本",
+              "reading": "ほん",
+              "meaning": "Sách"
+            },
+            {
+              "word": "買いました",
+              "reading": "かいました",
+              "meaning": "Đã mua"
+            }
+          ],
+          "explanation": "Đọc câu hỏi và đối chiếu thông tin trong tranh Bài 10.",
+          "tips": [
+            "Nghe 何冊 → đếm số sách.",
+            "Chú ý lượng từ 冊（さつ）."
+          ],
+          "commonMistakes": []
+        },
+        {
+          "questionId": "jpd133_l10_p02_q04",
+          "order": 4,
+          "question": {
+            "ja": "一人で本屋へ来ましたか。",
+            "vi": "Bạn đến hiệu sách một mình phải không?"
+          },
+          "questionReading": "ひとりでほんやへきましたか。",
+          "answerType": "picture_short_answer",
+          "sampleAnswers": [
+            {
+              "ja": "はい、一人で来ました。",
+              "vi": "Vâng, tôi đến một mình.",
+              "reading": "はい、ひとりできました。"
+            }
+          ],
+          "grammarIds": [
+            "JPD133-L10-G001"
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "一人",
+              "reading": "ひとり",
+              "meaning": "Một mình"
+            },
+            {
+              "word": "来ます",
+              "reading": "きます",
+              "meaning": "Đến"
+            },
+            {
+              "word": "本屋",
+              "reading": "ほんや",
+              "meaning": "Hiệu sách"
+            },
+            {
+              "word": "友達",
+              "reading": "ともだち",
+              "meaning": "Bạn bè"
+            },
+            {
+              "word": "家族",
+              "reading": "かぞく",
+              "meaning": "Gia đình"
+            }
+          ],
+          "explanation": "Đọc câu hỏi và đối chiếu thông tin trong tranh Bài 10.",
+          "tips": [
+            "Quan sát có ai đi cùng không.",
+            "Nếu chỉ có một người thì trả lời はい."
+          ],
+          "commonMistakes": []
+        },
+        {
+          "questionId": "jpd133_l10_p02_q05",
+          "order": 5,
+          "question": {
+            "ja": "よく本を買いますか。",
+            "vi": "Bạn có thường mua sách không?"
+          },
+          "questionReading": "よくほんをかいますか。",
+          "answerType": "picture_short_answer",
+          "sampleAnswers": [
+            {
+              "ja": "はい、よく本を買います。",
+              "vi": "Vâng, tôi thường mua sách.",
+              "reading": "はい、よくほんをかいます。"
+            }
+          ],
+          "grammarIds": [
+            "JPD133-L10-G001"
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "よく",
+              "reading": "よく",
+              "meaning": "Thường"
+            },
+            {
+              "word": "本",
+              "reading": "ほん",
+              "meaning": "Sách"
+            },
+            {
+              "word": "買います",
+              "reading": "かいます",
+              "meaning": "Mua"
+            },
+            {
+              "word": "本屋",
+              "reading": "ほんや",
+              "meaning": "Hiệu sách"
+            },
+            {
+              "word": "読みます",
+              "reading": "よみます",
+              "meaning": "Đọc"
+            }
+          ],
+          "explanation": "Đọc câu hỏi và đối chiếu thông tin trong tranh Bài 10.",
+          "tips": [
+            "Nghe よく → hỏi về tần suất.",
+            "Trả lời:"
+          ],
+          "commonMistakes": []
+        }
+      ]
+    },
+    {
+      "pictureId": "jpd133_l10_p03",
+      "pictureTitle": "Nhà ga",
+      "imageUrl": "/data/speaking/jpd133/qa/lesson10_tranh3.png",
+      "questions": [
+        {
+          "questionId": "jpd133_l10_p03_q01",
+          "order": 1,
+          "question": {
+            "ja": "今どこですか。",
+            "vi": "Bây giờ bạn đang ở đâu?"
+          },
+          "questionReading": "いまどこですか。",
+          "answerType": "picture_short_answer",
+          "sampleAnswers": [
+            {
+              "ja": "今、駅にいます。",
+              "vi": "Bây giờ tôi đang ở nhà ga.",
+              "reading": "いま、えきにいます。"
+            }
+          ],
+          "grammarIds": [
+            "JPD133-L10-G001"
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "今",
+              "reading": "いま",
+              "meaning": "Bây giờ"
+            },
+            {
+              "word": "駅",
+              "reading": "えき",
+              "meaning": "Nhà ga"
+            },
+            {
+              "word": "ホーム",
+              "reading": "ホーム",
+              "meaning": "Sân ga"
+            },
+            {
+              "word": "電車",
+              "reading": "でんしゃ",
+              "meaning": "Tàu điện"
+            },
+            {
+              "word": "います",
+              "reading": "います",
+              "meaning": "Đang ở"
+            }
+          ],
+          "explanation": "Đọc câu hỏi và đối chiếu thông tin trong tranh Bài 10.",
+          "tips": [
+            "Nghe 今どこですか → xác định vị trí hiện tại.",
+            "Trả lời:"
+          ],
+          "commonMistakes": []
+        },
+        {
+          "questionId": "jpd133_l10_p03_q02",
+          "order": 2,
+          "question": {
+            "ja": "駅までどうやって行きますか。",
+            "vi": "Bạn đi đến nhà ga bằng cách nào?"
+          },
+          "questionReading": "えきまでどうやっていきますか。",
+          "answerType": "picture_short_answer",
+          "sampleAnswers": [
+            {
+              "ja": "歩いて行きます。",
+              "vi": "Tôi đi bộ.",
+              "reading": "あるいていきます。"
+            }
+          ],
+          "grammarIds": [
+            "JPD133-L10-G001"
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "歩いて",
+              "reading": "あるいて",
+              "meaning": "Đi bộ"
+            },
+            {
+              "word": "バス",
+              "reading": "バス",
+              "meaning": "Xe buýt"
+            },
+            {
+              "word": "自転車",
+              "reading": "じてんしゃ",
+              "meaning": "Xe đạp"
+            },
+            {
+              "word": "駅",
+              "reading": "えき",
+              "meaning": "Nhà ga"
+            },
+            {
+              "word": "行きます",
+              "reading": "いきます",
+              "meaning": "Đi"
+            }
+          ],
+          "explanation": "Đọc câu hỏi và đối chiếu thông tin trong tranh Bài 10.",
+          "tips": [
+            "Nghe どうやって → hỏi phương tiện hoặc cách đi.",
+            "Dùng:"
+          ],
+          "commonMistakes": []
+        },
+        {
+          "questionId": "jpd133_l10_p03_q03",
+          "order": 3,
+          "question": {
+            "ja": "電車で学校へ行きますか。",
+            "vi": "Bạn đi học bằng tàu điện phải không?"
+          },
+          "questionReading": "でんしゃでがっこうへいきますか。",
+          "answerType": "picture_short_answer",
+          "sampleAnswers": [
+            {
+              "ja": "はい、電車で学校へ行きます。",
+              "vi": "Vâng, tôi đi học bằng tàu điện.",
+              "reading": "はい、でんしゃでがっこうへいきます。"
+            }
+          ],
+          "grammarIds": [
+            "JPD133-L10-G001"
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "電車",
+              "reading": "でんしゃ",
+              "meaning": "Tàu điện"
+            },
+            {
+              "word": "学校",
+              "reading": "がっこう",
+              "meaning": "Trường học"
+            },
+            {
+              "word": "行きます",
+              "reading": "いきます",
+              "meaning": "Đi"
+            },
+            {
+              "word": "駅",
+              "reading": "えき",
+              "meaning": "Nhà ga"
+            },
+            {
+              "word": "切符",
+              "reading": "きっぷ",
+              "meaning": "Vé tàu"
+            }
+          ],
+          "explanation": "Đọc câu hỏi và đối chiếu thông tin trong tranh Bài 10.",
+          "tips": [
+            "Nghe ～で → chú ý phương tiện.",
+            "Trả lời:"
+          ],
+          "commonMistakes": []
+        },
+        {
+          "questionId": "jpd133_l10_p03_q04",
+          "order": 4,
+          "question": {
+            "ja": "駅で何を待っていますか。",
+            "vi": "Bạn đang đợi gì ở nhà ga?"
+          },
+          "questionReading": "えきでなにをまっていますか。",
+          "answerType": "picture_short_answer",
+          "sampleAnswers": [
+            {
+              "ja": "電車を待っています。",
+              "vi": "Tôi đang đợi tàu điện.",
+              "reading": "でんしゃをまっています。"
+            }
+          ],
+          "grammarIds": [
+            "JPD133-L10-G001"
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "待っています",
+              "reading": "まっています",
+              "meaning": "Đang chờ"
+            },
+            {
+              "word": "電車",
+              "reading": "でんしゃ",
+              "meaning": "Tàu điện"
+            },
+            {
+              "word": "ホーム",
+              "reading": "ホーム",
+              "meaning": "Sân ga"
+            },
+            {
+              "word": "駅",
+              "reading": "えき",
+              "meaning": "Nhà ga"
+            },
+            {
+              "word": "人",
+              "reading": "ひと",
+              "meaning": "Người"
+            }
+          ],
+          "explanation": "Đọc câu hỏi và đối chiếu thông tin trong tranh Bài 10.",
+          "tips": [
+            "Nghe 何を待っていますか.",
+            "Trả lời bằng:"
+          ],
+          "commonMistakes": []
+        },
+        {
+          "questionId": "jpd133_l10_p03_q05",
+          "order": 5,
+          "question": {
+            "ja": "家から駅まで何分かかりますか。",
+            "vi": "Từ nhà đến ga mất bao nhiêu phút?"
+          },
+          "questionReading": "いえからえきまでなんぷんかかりますか。",
+          "answerType": "picture_short_answer",
+          "sampleAnswers": [
+            {
+              "ja": "十五分かかります。",
+              "vi": "Mất 15 phút.",
+              "reading": "じゅうごふんかかります。"
+            }
+          ],
+          "grammarIds": [
+            "JPD133-L10-G001"
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "家",
+              "reading": "いえ",
+              "meaning": "Nhà"
+            },
+            {
+              "word": "駅",
+              "reading": "えき",
+              "meaning": "Nhà ga"
+            },
+            {
+              "word": "十五分",
+              "reading": "じゅうごふん",
+              "meaning": "15 phút"
+            },
+            {
+              "word": "かかります",
+              "reading": "かかります",
+              "meaning": "Mất (thời gian)"
+            },
+            {
+              "word": "歩いて",
+              "reading": "あるいて",
+              "meaning": "Đi bộ"
+            }
+          ],
+          "explanation": "Đọc câu hỏi và đối chiếu thông tin trong tranh Bài 10.",
+          "tips": [
+            "Nghe 何分かかりますか → trả lời thời gian.",
+            "Dùng:"
+          ],
+          "commonMistakes": []
+        }
+      ]
+    },
+    {
+      "pictureId": "jpd133_l10_p04",
+      "pictureTitle": "Gọi điện thoại",
+      "imageUrl": "/data/speaking/jpd133/qa/lesson10_tranh4.png",
+      "questions": [
+        {
+          "questionId": "jpd133_l10_p04_q01",
+          "order": 1,
+          "question": {
+            "ja": "もしもし、今どこですか。",
+            "vi": "Alo, bây giờ bạn đang ở đâu?"
+          },
+          "questionReading": "もしもし、いまどこですか。",
+          "answerType": "picture_short_answer",
+          "sampleAnswers": [
+            {
+              "ja": "今、駅の前にいます。",
+              "vi": "Bây giờ tôi đang ở trước nhà ga.",
+              "reading": "いま、えきのまえにいます。"
+            }
+          ],
+          "grammarIds": [
+            "JPD133-L10-G001"
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "もしもし",
+              "reading": "もしもし",
+              "meaning": "Alo"
+            },
+            {
+              "word": "今",
+              "reading": "いま",
+              "meaning": "Bây giờ"
+            },
+            {
+              "word": "駅",
+              "reading": "えき",
+              "meaning": "Nhà ga"
+            },
+            {
+              "word": "前",
+              "reading": "まえ",
+              "meaning": "Phía trước"
+            },
+            {
+              "word": "います",
+              "reading": "います",
+              "meaning": "Đang ở"
+            }
+          ],
+          "explanation": "Đọc câu hỏi và đối chiếu thông tin trong tranh Bài 10.",
+          "tips": [
+            "Đây là mẫu hội thoại qua điện thoại.",
+            "Trả lời bằng:"
+          ],
+          "commonMistakes": []
+        },
+        {
+          "questionId": "jpd133_l10_p04_q02",
+          "order": 2,
+          "question": {
+            "ja": "そこから何が見えますか。",
+            "vi": "Từ đó bạn nhìn thấy gì?"
+          },
+          "questionReading": "そこからなにがみえますか。",
+          "answerType": "picture_short_answer",
+          "sampleAnswers": [
+            {
+              "ja": "コンビニが見えます。",
+              "vi": "Tôi nhìn thấy cửa hàng tiện lợi.",
+              "reading": "コンビニがみえます。"
+            }
+          ],
+          "grammarIds": [
+            "JPD133-L10-G001"
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "見えます",
+              "reading": "みえます",
+              "meaning": "Nhìn thấy"
+            },
+            {
+              "word": "コンビニ",
+              "reading": "コンビニ",
+              "meaning": "Cửa hàng tiện lợi"
+            },
+            {
+              "word": "バス停",
+              "reading": "バスてい",
+              "meaning": "Trạm xe buýt"
+            },
+            {
+              "word": "駅",
+              "reading": "えき",
+              "meaning": "Nhà ga"
+            },
+            {
+              "word": "ビル",
+              "reading": "ビル",
+              "meaning": "Tòa nhà"
+            }
+          ],
+          "explanation": "Đọc câu hỏi và đối chiếu thông tin trong tranh Bài 10.",
+          "tips": [
+            "Quan sát các công trình phía sau nhân vật.",
+            "Dùng:"
+          ],
+          "commonMistakes": []
+        },
+        {
+          "questionId": "jpd133_l10_p04_q03",
+          "order": 3,
+          "question": {
+            "ja": "今、誰といますか。",
+            "vi": "Bây giờ bạn đang ở cùng ai?"
+          },
+          "questionReading": "いま、だれといますか。",
+          "answerType": "picture_short_answer",
+          "sampleAnswers": [
+            {
+              "ja": "友達といます。",
+              "vi": "Tôi đang ở cùng bạn.",
+              "reading": "ともだちといます。"
+            }
+          ],
+          "grammarIds": [
+            "JPD133-L10-G001"
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "誰",
+              "reading": "だれ",
+              "meaning": "Ai"
+            },
+            {
+              "word": "友達",
+              "reading": "ともだち",
+              "meaning": "Bạn bè"
+            },
+            {
+              "word": "一緒に",
+              "reading": "いっしょに",
+              "meaning": "Cùng nhau"
+            },
+            {
+              "word": "います",
+              "reading": "います",
+              "meaning": "Ở cùng"
+            },
+            {
+              "word": "学生",
+              "reading": "がくせい",
+              "meaning": "Sinh viên"
+            }
+          ],
+          "explanation": "Đọc câu hỏi và đối chiếu thông tin trong tranh Bài 10.",
+          "tips": [
+            "Nghe 誰と → xác định người đi cùng.",
+            "Dùng:"
+          ],
+          "commonMistakes": []
+        },
+        {
+          "questionId": "jpd133_l10_p04_q04",
+          "order": 4,
+          "question": {
+            "ja": "何をしていますか。",
+            "vi": "Bạn đang làm gì?"
+          },
+          "questionReading": "なにをしていますか。",
+          "answerType": "picture_short_answer",
+          "sampleAnswers": [
+            {
+              "ja": "電話をしています。",
+              "vi": "Tôi đang gọi điện thoại.",
+              "reading": "でんわをしています。"
+            }
+          ],
+          "grammarIds": [
+            "JPD133-L10-G001"
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "電話",
+              "reading": "でんわ",
+              "meaning": "Điện thoại"
+            },
+            {
+              "word": "しています",
+              "reading": "しています",
+              "meaning": "Đang làm"
+            },
+            {
+              "word": "スマートフォン",
+              "reading": "スマートフォン",
+              "meaning": "Điện thoại thông minh"
+            },
+            {
+              "word": "話します",
+              "reading": "はなします",
+              "meaning": "Nói chuyện"
+            },
+            {
+              "word": "待っています",
+              "reading": "まっています",
+              "meaning": "Đang chờ"
+            }
+          ],
+          "explanation": "Đọc câu hỏi và đối chiếu thông tin trong tranh Bài 10.",
+          "tips": [
+            "Trả lời bằng:",
+            "Quan sát hành động chính của nhân vật."
+          ],
+          "commonMistakes": []
+        },
+        {
+          "questionId": "jpd133_l10_p04_q05",
+          "order": 5,
+          "question": {
+            "ja": "いつ学校へ来ますか。",
+            "vi": "Khi nào bạn sẽ đến trường?"
+          },
+          "questionReading": "いつがっこうへきますか。",
+          "answerType": "picture_short_answer",
+          "sampleAnswers": [
+            {
+              "ja": "八時に学校へ来ます。",
+              "vi": "Tôi sẽ đến trường lúc 8 giờ.",
+              "reading": "はちじにがっこうへきます。"
+            }
+          ],
+          "grammarIds": [
+            "JPD133-L10-G001"
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "八時",
+              "reading": "はちじ",
+              "meaning": "8 giờ"
+            },
+            {
+              "word": "学校",
+              "reading": "がっこう",
+              "meaning": "Trường học"
+            },
+            {
+              "word": "来ます",
+              "reading": "きます",
+              "meaning": "Đến"
+            },
+            {
+              "word": "時計",
+              "reading": "とけい",
+              "meaning": "Đồng hồ"
+            },
+            {
+              "word": "朝",
+              "reading": "あさ",
+              "meaning": "Buổi sáng"
+            }
+          ],
+          "explanation": "Đọc câu hỏi và đối chiếu thông tin trong tranh Bài 10.",
+          "tips": [
+            "Nghe いつ → trả lời thời gian.",
+            "Dùng:"
+          ],
+          "commonMistakes": []
+        }
+      ]
+    },
+    {
+      "pictureId": "jpd133_l10_p05",
+      "pictureTitle": "Công viên",
+      "imageUrl": "/data/speaking/jpd133/qa/lesson10_tranh5.png",
+      "questions": [
+        {
+          "questionId": "jpd133_l10_p05_q01",
+          "order": 1,
+          "question": {
+            "ja": "そこから何が見えますか。",
+            "vi": "Từ đó bạn nhìn thấy gì?"
+          },
+          "questionReading": "そこからなにがみえますか。",
+          "answerType": "picture_short_answer",
+          "sampleAnswers": [
+            {
+              "ja": "大きい池と花が見えます。",
+              "vi": "Tôi nhìn thấy một cái hồ lớn và hoa.",
+              "reading": "おおきいいけとはながみえます。"
+            }
+          ],
+          "grammarIds": [
+            "JPD133-L10-G001"
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "見えます",
+              "reading": "みえます",
+              "meaning": "Nhìn thấy"
+            },
+            {
+              "word": "池",
+              "reading": "いけ",
+              "meaning": "Hồ"
+            },
+            {
+              "word": "花",
+              "reading": "はな",
+              "meaning": "Hoa"
+            },
+            {
+              "word": "木",
+              "reading": "き",
+              "meaning": "Cây"
+            },
+            {
+              "word": "公園",
+              "reading": "こうえん",
+              "meaning": "Công viên"
+            }
+          ],
+          "explanation": "Đọc câu hỏi và đối chiếu thông tin trong tranh Bài 10.",
+          "tips": [
+            "Nghe 何が見えますか → nhìn những cảnh vật nổi bật.",
+            "Dùng mẫu:"
+          ],
+          "commonMistakes": []
+        },
+        {
+          "questionId": "jpd133_l10_p05_q02",
+          "order": 2,
+          "question": {
+            "ja": "公園に何がありますか。",
+            "vi": "Trong công viên có gì?"
+          },
+          "questionReading": "こうえんになにがありますか。",
+          "answerType": "picture_short_answer",
+          "sampleAnswers": [
+            {
+              "ja": "公園に遊び場と池があります。",
+              "vi": "Trong công viên có khu vui chơi và hồ.",
+              "reading": "こうえんにあそびばといけがあります。"
+            }
+          ],
+          "grammarIds": [
+            "JPD133-L10-G001"
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "遊び場",
+              "reading": "あそびば",
+              "meaning": "Khu vui chơi"
+            },
+            {
+              "word": "池",
+              "reading": "いけ",
+              "meaning": "Hồ"
+            },
+            {
+              "word": "ベンチ",
+              "reading": "ベンチ",
+              "meaning": "Ghế dài"
+            },
+            {
+              "word": "噴水",
+              "reading": "ふんすい",
+              "meaning": "Đài phun nước"
+            },
+            {
+              "word": "木",
+              "reading": "き",
+              "meaning": "Cây"
+            }
+          ],
+          "explanation": "Đọc câu hỏi và đối chiếu thông tin trong tranh Bài 10.",
+          "tips": [
+            "Nghe 何がありますか → trả lời những đồ vật hoặc địa điểm.",
+            "Dùng:"
+          ],
+          "commonMistakes": []
+        },
+        {
+          "questionId": "jpd133_l10_p05_q03",
+          "order": 3,
+          "question": {
+            "ja": "子どもは何をしていますか。",
+            "vi": "Những đứa trẻ đang làm gì?"
+          },
+          "questionReading": "こどもはなにをしていますか。",
+          "answerType": "picture_short_answer",
+          "sampleAnswers": [
+            {
+              "ja": "遊んでいます。",
+              "vi": "Các em đang chơi.",
+              "reading": "あそんでいます。"
+            }
+          ],
+          "grammarIds": [
+            "JPD133-L10-G001"
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "子ども",
+              "reading": "こども",
+              "meaning": "Trẻ em"
+            },
+            {
+              "word": "遊びます",
+              "reading": "あそびます",
+              "meaning": "Chơi"
+            },
+            {
+              "word": "遊んでいます",
+              "reading": "あそんでいます",
+              "meaning": "Đang chơi"
+            },
+            {
+              "word": "ボール",
+              "reading": "ボール",
+              "meaning": "Quả bóng"
+            },
+            {
+              "word": "ブランコ",
+              "reading": "ブランコ",
+              "meaning": "Xích đu"
+            }
+          ],
+          "explanation": "Đọc câu hỏi và đối chiếu thông tin trong tranh Bài 10.",
+          "tips": [
+            "Nghe 何をしていますか.",
+            "Trả lời bằng:",
+            "Quan sát hành động nổi bật của trẻ em."
+          ],
+          "commonMistakes": []
+        },
+        {
+          "questionId": "jpd133_l10_p05_q04",
+          "order": 4,
+          "question": {
+            "ja": "公園で遊んでもいいですか。",
+            "vi": "Có được chơi trong công viên không?"
+          },
+          "questionReading": "こうえんであそんでもいいですか。",
+          "answerType": "picture_short_answer",
+          "sampleAnswers": [
+            {
+              "ja": "はい、遊んでもいいです。",
+              "vi": "Vâng, được phép chơi.",
+              "reading": "はい、あそんでもいいです。"
+            }
+          ],
+          "grammarIds": [
+            "JPD133-L10-G001"
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "遊びます",
+              "reading": "あそびます",
+              "meaning": "Chơi"
+            },
+            {
+              "word": "公園",
+              "reading": "こうえん",
+              "meaning": "Công viên"
+            },
+            {
+              "word": "子ども",
+              "reading": "こども",
+              "meaning": "Trẻ em"
+            },
+            {
+              "word": "いいです",
+              "reading": "いいです",
+              "meaning": "Được phép"
+            },
+            {
+              "word": "ルール",
+              "reading": "ルール",
+              "meaning": "Nội quy"
+            }
+          ],
+          "explanation": "Đọc câu hỏi và đối chiếu thông tin trong tranh Bài 10.",
+          "tips": [
+            "Nghe ～てもいいですか → hỏi xin phép.",
+            "Nếu công viên là nơi vui chơi thì trả lời:"
+          ],
+          "commonMistakes": []
+        },
+        {
+          "questionId": "jpd133_l10_p05_q05",
+          "order": 5,
+          "question": {
+            "ja": "よくこの公園へ来ますか。",
+            "vi": "Bạn có thường đến công viên này không?"
+          },
+          "questionReading": "よくこのこうえんへきますか。",
+          "answerType": "picture_short_answer",
+          "sampleAnswers": [
+            {
+              "ja": "はい、よく来ます。",
+              "vi": "Vâng, tôi thường đến.",
+              "reading": "はい、よくきます。"
+            }
+          ],
+          "grammarIds": [
+            "JPD133-L10-G001"
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "来ます",
+              "reading": "きます",
+              "meaning": "Đến"
+            },
+            {
+              "word": "よく",
+              "reading": "よく",
+              "meaning": "Thường"
+            },
+            {
+              "word": "公園",
+              "reading": "こうえん",
+              "meaning": "Công viên"
+            },
+            {
+              "word": "散歩",
+              "reading": "さんぽ",
+              "meaning": "Đi dạo"
+            },
+            {
+              "word": "家族",
+              "reading": "かぞく",
+              "meaning": "Gia đình"
+            }
+          ],
+          "explanation": "Đọc câu hỏi và đối chiếu thông tin trong tranh Bài 10.",
+          "tips": [
+            "Nghe よく → hỏi về tần suất.",
+            "Trả lời:"
+          ],
+          "commonMistakes": []
+        }
+      ]
+    },
+    {
+      "pictureId": "jpd133_l10_p06",
+      "pictureTitle": "Bệnh viện",
+      "imageUrl": "/data/speaking/jpd133/qa/lesson10_tranh6.png",
+      "questions": [
+        {
+          "questionId": "jpd133_l10_p06_q01",
+          "order": 1,
+          "question": {
+            "ja": "病院でたばこを吸うことができますか。",
+            "vi": "Có được hút thuốc trong bệnh viện không?"
+          },
+          "questionReading": "びょういんでたばこをすうことができますか。",
+          "answerType": "picture_short_answer",
+          "sampleAnswers": [
+            {
+              "ja": "いいえ、吸うことができません。",
+              "vi": "Không, không được hút thuốc.",
+              "reading": "いいえ、すうことができません。"
+            }
+          ],
+          "grammarIds": [
+            "JPD133-L10-G001"
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "病院",
+              "reading": "びょういん",
+              "meaning": "Bệnh viện"
+            },
+            {
+              "word": "たばこ",
+              "reading": "たばこ",
+              "meaning": "Thuốc lá"
+            },
+            {
+              "word": "吸います",
+              "reading": "すいます",
+              "meaning": "Hút"
+            },
+            {
+              "word": "禁煙",
+              "reading": "きんえん",
+              "meaning": "Cấm hút thuốc"
+            },
+            {
+              "word": "できません",
+              "reading": "できません",
+              "meaning": "Không thể"
+            }
+          ],
+          "explanation": "Đọc câu hỏi và đối chiếu thông tin trong tranh Bài 10.",
+          "tips": [
+            "Quan sát biển No Smoking.",
+            "Dùng:"
+          ],
+          "commonMistakes": []
+        },
+        {
+          "questionId": "jpd133_l10_p06_q02",
+          "order": 2,
+          "question": {
+            "ja": "病院で写真を撮ってもいいですか。",
+            "vi": "Có được chụp ảnh trong bệnh viện không?"
+          },
+          "questionReading": "びょういんでしゃしんをとってもいいですか。",
+          "answerType": "picture_short_answer",
+          "sampleAnswers": [
+            {
+              "ja": "いいえ、撮ってはいけません。",
+              "vi": "Không, không được chụp ảnh.",
+              "reading": "いいえ、とってはいけません。"
+            }
+          ],
+          "grammarIds": [
+            "JPD133-L10-G001"
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "写真",
+              "reading": "しゃしん",
+              "meaning": "Ảnh"
+            },
+            {
+              "word": "撮ります",
+              "reading": "とります",
+              "meaning": "Chụp"
+            },
+            {
+              "word": "病院",
+              "reading": "びょういん",
+              "meaning": "Bệnh viện"
+            },
+            {
+              "word": "だめ",
+              "reading": "だめ",
+              "meaning": "Không được"
+            },
+            {
+              "word": "ルール",
+              "reading": "ルール",
+              "meaning": "Nội quy"
+            }
+          ],
+          "explanation": "Đọc câu hỏi và đối chiếu thông tin trong tranh Bài 10.",
+          "tips": [
+            "Quan sát biển No Photography.",
+            "Trả lời:"
+          ],
+          "commonMistakes": []
+        },
+        {
+          "questionId": "jpd133_l10_p06_q03",
+          "order": 3,
+          "question": {
+            "ja": "病院で何をしていますか。",
+            "vi": "Bạn đang làm gì ở bệnh viện?"
+          },
+          "questionReading": "びょういんでなにをしていますか。",
+          "answerType": "picture_short_answer",
+          "sampleAnswers": [
+            {
+              "ja": "順番を待っています。",
+              "vi": "Tôi đang chờ đến lượt khám.",
+              "reading": "じゅんばんをまっています。"
+            }
+          ],
+          "grammarIds": [
+            "JPD133-L10-G001"
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "順番",
+              "reading": "じゅんばん",
+              "meaning": "Thứ tự, lượt"
+            },
+            {
+              "word": "待っています",
+              "reading": "まっています",
+              "meaning": "Đang chờ"
+            },
+            {
+              "word": "病院",
+              "reading": "びょういん",
+              "meaning": "Bệnh viện"
+            },
+            {
+              "word": "患者",
+              "reading": "かんじゃ",
+              "meaning": "Bệnh nhân"
+            },
+            {
+              "word": "看護師",
+              "reading": "かんごし",
+              "meaning": "Y tá"
+            }
+          ],
+          "explanation": "Đọc câu hỏi và đối chiếu thông tin trong tranh Bài 10.",
+          "tips": [
+            "Quan sát hoạt động chính.",
+            "Dùng:"
+          ],
+          "commonMistakes": []
+        },
+        {
+          "questionId": "jpd133_l10_p06_q04",
+          "order": 4,
+          "question": {
+            "ja": "だれと病院へ来ましたか。",
+            "vi": "Bạn đến bệnh viện cùng ai?"
+          },
+          "questionReading": "だれとびょういんへきましたか。",
+          "answerType": "picture_short_answer",
+          "sampleAnswers": [
+            {
+              "ja": "母と来ました。",
+              "vi": "Tôi đến cùng mẹ.",
+              "reading": "ははときました。"
+            }
+          ],
+          "grammarIds": [
+            "JPD133-L10-G001"
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "母",
+              "reading": "はは",
+              "meaning": "Mẹ"
+            },
+            {
+              "word": "父",
+              "reading": "ちち",
+              "meaning": "Bố"
+            },
+            {
+              "word": "来ました",
+              "reading": "きました",
+              "meaning": "Đã đến"
+            },
+            {
+              "word": "病院",
+              "reading": "びょういん",
+              "meaning": "Bệnh viện"
+            },
+            {
+              "word": "一緒に",
+              "reading": "いっしょに",
+              "meaning": "Cùng nhau"
+            }
+          ],
+          "explanation": "Đọc câu hỏi và đối chiếu thông tin trong tranh Bài 10.",
+          "tips": [
+            "Nghe だれと → xác định người đi cùng.",
+            "Dùng:"
+          ],
+          "commonMistakes": []
+        },
+        {
+          "questionId": "jpd133_l10_p06_q05",
+          "order": 5,
+          "question": {
+            "ja": "病院へよく行きますか。",
+            "vi": "Bạn có thường đến bệnh viện không?"
+          },
+          "questionReading": "びょういんへよくいきますか。",
+          "answerType": "picture_short_answer",
+          "sampleAnswers": [
+            {
+              "ja": "いいえ、あまり行きません。",
+              "vi": "Không, tôi không đến thường xuyên.",
+              "reading": "いいえ、あまりいきません。"
+            }
+          ],
+          "grammarIds": [
+            "JPD133-L10-G001"
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "病院",
+              "reading": "びょういん",
+              "meaning": "Bệnh viện"
+            },
+            {
+              "word": "よく",
+              "reading": "よく",
+              "meaning": "Thường"
+            },
+            {
+              "word": "あまり",
+              "reading": "あまり",
+              "meaning": "Không... lắm"
+            },
+            {
+              "word": "行きます",
+              "reading": "いきます",
+              "meaning": "Đi"
+            },
+            {
+              "word": "元気",
+              "reading": "げんき",
+              "meaning": "Khỏe mạnh"
+            }
+          ],
+          "explanation": "Đọc câu hỏi và đối chiếu thông tin trong tranh Bài 10.",
+          "tips": [
+            "Đây là câu hỏi về tần suất.",
+            "Với bệnh viện, câu trả lời tự nhiên thường là:"
+          ],
+          "commonMistakes": []
+        }
+      ]
+    }
+  ]
+}

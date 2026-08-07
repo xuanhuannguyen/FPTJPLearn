@@ -1,0 +1,517 @@
+{
+  "courseCode": "jpd133",
+  "lessonNumber": 9,
+  "lessonTitle": "Bài 9 - JPD133",
+  "dataPurpose": "oral_exam_practice_web",
+  "questionMode": "NO_IMAGE",
+  "lessonOverview": {
+    "shortSummary": "Bài 9 luyện phản xạ trả lời ngắn theo từ vựng và ngữ pháp JPD133.",
+    "studentCanDo": [
+      "Trả lời câu hỏi chủ đề Bài 9.",
+      "Dùng câu trả lời tiếng Nhật ngắn, đúng mẫu."
+    ],
+    "mainSkills": [
+      "Nghe từ khóa câu hỏi.",
+      "Chọn mẫu câu và từ vựng phù hợp để trả lời."
+    ],
+    "mainGrammarFocus": [
+      "JPD133-L09-G001"
+    ],
+    "examTipSummary": "Nghe từ khóa, trả lời đủ thông tin và ưu tiên mẫu câu đã học."
+  },
+  "sections": [
+    {
+      "sectionId": "jpd133_l9_ni001",
+      "sectionTitle": "Sở thích và kỹ năng",
+      "sectionViTitle": "Sở thích và kỹ năng",
+      "sectionGoal": "Luyện trả lời câu hỏi nói Bài 9: Sở thích và kỹ năng.",
+      "questionList": [
+        {
+          "questionId": "jpd133_l9_ni001_q001",
+          "order": 1,
+          "question": {
+            "ja": "趣味は何ですか。",
+            "vi": "Sở thích của bạn là gì?"
+          },
+          "answerType": "short_answer",
+          "sampleAnswers": [
+            {
+              "ja": "趣味は音楽を聞くことです。",
+              "vi": "Sở thích của tôi là nghe nhạc."
+            }
+          ],
+          "grammarIds": [
+            "JPD133-L09-G001"
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "趣味",
+              "reading": "趣味",
+              "meaning": "趣味"
+            },
+            {
+              "word": "音楽",
+              "reading": "音楽",
+              "meaning": "音楽"
+            }
+          ],
+          "explanation": "Câu hỏi luyện hội thoại theo chủ đề Bài 9.",
+          "tips": [
+            "Trả lời ngắn gọn, đúng mẫu ngữ pháp."
+          ],
+          "commonMistakes": [
+            "Dùng sai trợ từ hoặc sai thì."
+          ]
+        },
+        {
+          "questionId": "jpd133_l9_ni001_q002",
+          "order": 2,
+          "question": {
+            "ja": "どうしてその趣味が好きですか。",
+            "vi": "Vì sao bạn thích?"
+          },
+          "answerType": "short_answer",
+          "sampleAnswers": [
+            {
+              "ja": "楽しいです。",
+              "vi": "Vì vui."
+            }
+          ],
+          "grammarIds": [
+            "JPD133-L09-G001"
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "好き",
+              "reading": "好き",
+              "meaning": "好き"
+            }
+          ],
+          "explanation": "Câu hỏi luyện hội thoại theo chủ đề Bài 9.",
+          "tips": [
+            "Trả lời ngắn gọn, đúng mẫu ngữ pháp."
+          ],
+          "commonMistakes": [
+            "Dùng sai trợ từ hoặc sai thì."
+          ]
+        },
+        {
+          "questionId": "jpd133_l9_ni001_q003",
+          "order": 3,
+          "question": {
+            "ja": "いつ趣味をしますか。",
+            "vi": "Khi nào?"
+          },
+          "answerType": "short_answer",
+          "sampleAnswers": [
+            {
+              "ja": "毎日します。",
+              "vi": "Mỗi ngày."
+            }
+          ],
+          "grammarIds": [
+            "JPD133-L09-G001"
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "毎日",
+              "reading": "毎日",
+              "meaning": "毎日"
+            }
+          ],
+          "explanation": "Câu hỏi luyện hội thoại theo chủ đề Bài 9.",
+          "tips": [
+            "Trả lời ngắn gọn, đúng mẫu ngữ pháp."
+          ],
+          "commonMistakes": [
+            "Dùng sai trợ từ hoặc sai thì."
+          ]
+        },
+        {
+          "questionId": "jpd133_l9_ni001_q004",
+          "order": 4,
+          "question": {
+            "ja": "一週間に何回しますか。",
+            "vi": "Một tuần mấy lần?"
+          },
+          "answerType": "short_answer",
+          "sampleAnswers": [
+            {
+              "ja": "三回します。",
+              "vi": "3 lần."
+            }
+          ],
+          "grammarIds": [
+            "JPD133-L09-G001"
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "回",
+              "reading": "回",
+              "meaning": "回"
+            }
+          ],
+          "explanation": "Câu hỏi luyện hội thoại theo chủ đề Bài 9.",
+          "tips": [
+            "Trả lời ngắn gọn, đúng mẫu ngữ pháp."
+          ],
+          "commonMistakes": [
+            "Dùng sai trợ từ hoặc sai thì."
+          ]
+        },
+        {
+          "questionId": "jpd133_l9_ni001_q005",
+          "order": 5,
+          "question": {
+            "ja": "一人でしますか。友達としますか。",
+            "vi": "Một mình hay với bạn?"
+          },
+          "answerType": "short_answer",
+          "sampleAnswers": [
+            {
+              "ja": "友達とします。",
+              "vi": "Với bạn."
+            }
+          ],
+          "grammarIds": [
+            "JPD133-L09-G001"
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "友達",
+              "reading": "友達",
+              "meaning": "友達"
+            }
+          ],
+          "explanation": "Câu hỏi luyện hội thoại theo chủ đề Bài 9.",
+          "tips": [
+            "Trả lời ngắn gọn, đúng mẫu ngữ pháp."
+          ],
+          "commonMistakes": [
+            "Dùng sai trợ từ hoặc sai thì."
+          ]
+        },
+        {
+          "questionId": "jpd133_l9_ni001_q006",
+          "order": 6,
+          "question": {
+            "ja": "料理を作ることができますか。",
+            "vi": "Có thể nấu ăn?"
+          },
+          "answerType": "short_answer",
+          "sampleAnswers": [
+            {
+              "ja": "はい、できます。",
+              "vi": "Có."
+            }
+          ],
+          "grammarIds": [
+            "JPD133-L09-G001"
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "料理",
+              "reading": "料理",
+              "meaning": "料理"
+            }
+          ],
+          "explanation": "Câu hỏi luyện hội thoại theo chủ đề Bài 9.",
+          "tips": [
+            "Trả lời ngắn gọn, đúng mẫu ngữ pháp."
+          ],
+          "commonMistakes": [
+            "Dùng sai trợ từ hoặc sai thì."
+          ]
+        },
+        {
+          "questionId": "jpd133_l9_ni001_q007",
+          "order": 7,
+          "question": {
+            "ja": "日本料理を作ることができますか。",
+            "vi": "Có nấu món Nhật?"
+          },
+          "answerType": "short_answer",
+          "sampleAnswers": [
+            {
+              "ja": "少しできます。",
+              "vi": "Một chút."
+            }
+          ],
+          "grammarIds": [
+            "JPD133-L09-G001"
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "日本料理",
+              "reading": "日本料理",
+              "meaning": "日本料理"
+            }
+          ],
+          "explanation": "Câu hỏi luyện hội thoại theo chủ đề Bài 9.",
+          "tips": [
+            "Trả lời ngắn gọn, đúng mẫu ngữ pháp."
+          ],
+          "commonMistakes": [
+            "Dùng sai trợ từ hoặc sai thì."
+          ]
+        },
+        {
+          "questionId": "jpd133_l9_ni001_q008",
+          "order": 8,
+          "question": {
+            "ja": "歌を歌うことができますか。",
+            "vi": "Có hát được?"
+          },
+          "answerType": "short_answer",
+          "sampleAnswers": [
+            {
+              "ja": "はい、歌えます。",
+              "vi": "Có."
+            }
+          ],
+          "grammarIds": [
+            "JPD133-L09-G001"
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "歌",
+              "reading": "歌",
+              "meaning": "歌"
+            }
+          ],
+          "explanation": "Câu hỏi luyện hội thoại theo chủ đề Bài 9.",
+          "tips": [
+            "Trả lời ngắn gọn, đúng mẫu ngữ pháp."
+          ],
+          "commonMistakes": [
+            "Dùng sai trợ từ hoặc sai thì."
+          ]
+        },
+        {
+          "questionId": "jpd133_l9_ni001_q009",
+          "order": 9,
+          "question": {
+            "ja": "スポーツをすることができますか。",
+            "vi": "Có chơi thể thao?"
+          },
+          "answerType": "short_answer",
+          "sampleAnswers": [
+            {
+              "ja": "サッカーができます。",
+              "vi": "Đá bóng được."
+            }
+          ],
+          "grammarIds": [
+            "JPD133-L09-G001"
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "スポーツ",
+              "reading": "スポーツ",
+              "meaning": "スポーツ"
+            }
+          ],
+          "explanation": "Câu hỏi luyện hội thoại theo chủ đề Bài 9.",
+          "tips": [
+            "Trả lời ngắn gọn, đúng mẫu ngữ pháp."
+          ],
+          "commonMistakes": [
+            "Dùng sai trợ từ hoặc sai thì."
+          ]
+        },
+        {
+          "questionId": "jpd133_l9_ni001_q010",
+          "order": 10,
+          "question": {
+            "ja": "週末、何をしましたか。",
+            "vi": "Cuối tuần làm gì?"
+          },
+          "answerType": "short_answer",
+          "sampleAnswers": [
+            {
+              "ja": "映画を見ました。",
+              "vi": "Xem phim."
+            }
+          ],
+          "grammarIds": [
+            "JPD133-L09-G001"
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "週末",
+              "reading": "週末",
+              "meaning": "週末"
+            }
+          ],
+          "explanation": "Câu hỏi luyện hội thoại theo chủ đề Bài 9.",
+          "tips": [
+            "Trả lời ngắn gọn, đúng mẫu ngữ pháp."
+          ],
+          "commonMistakes": [
+            "Dùng sai trợ từ hoặc sai thì."
+          ]
+        },
+        {
+          "questionId": "jpd133_l9_ni001_q011",
+          "order": 11,
+          "question": {
+            "ja": "来週の週末、何をしたいですか。",
+            "vi": "Cuối tuần tới muốn làm gì?"
+          },
+          "answerType": "short_answer",
+          "sampleAnswers": [
+            {
+              "ja": "旅行したいです。",
+              "vi": "Muốn du lịch."
+            }
+          ],
+          "grammarIds": [
+            "JPD133-L09-G001"
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "旅行",
+              "reading": "旅行",
+              "meaning": "旅行"
+            }
+          ],
+          "explanation": "Câu hỏi luyện hội thoại theo chủ đề Bài 9.",
+          "tips": [
+            "Trả lời ngắn gọn, đúng mẫu ngữ pháp."
+          ],
+          "commonMistakes": [
+            "Dùng sai trợ từ hoặc sai thì."
+          ]
+        },
+        {
+          "questionId": "jpd133_l9_ni001_q012",
+          "order": 12,
+          "question": {
+            "ja": "よく映画を見ますか。",
+            "vi": "Có hay xem phim?"
+          },
+          "answerType": "short_answer",
+          "sampleAnswers": [
+            {
+              "ja": "はい、見ます。",
+              "vi": "Có."
+            }
+          ],
+          "grammarIds": [
+            "JPD133-L09-G001"
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "映画",
+              "reading": "映画",
+              "meaning": "映画"
+            }
+          ],
+          "explanation": "Câu hỏi luyện hội thoại theo chủ đề Bài 9.",
+          "tips": [
+            "Trả lời ngắn gọn, đúng mẫu ngữ pháp."
+          ],
+          "commonMistakes": [
+            "Dùng sai trợ từ hoặc sai thì."
+          ]
+        },
+        {
+          "questionId": "jpd133_l9_ni001_q013",
+          "order": 13,
+          "question": {
+            "ja": "一週間に何回図書館へ行きますか。",
+            "vi": "Một tuần đi thư viện mấy lần?"
+          },
+          "answerType": "short_answer",
+          "sampleAnswers": [
+            {
+              "ja": "二回行きます。",
+              "vi": "2 lần."
+            }
+          ],
+          "grammarIds": [
+            "JPD133-L09-G001"
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "図書館",
+              "reading": "図書館",
+              "meaning": "図書館"
+            }
+          ],
+          "explanation": "Câu hỏi luyện hội thoại theo chủ đề Bài 9.",
+          "tips": [
+            "Trả lời ngắn gọn, đúng mẫu ngữ pháp."
+          ],
+          "commonMistakes": [
+            "Dùng sai trợ từ hoặc sai thì."
+          ]
+        },
+        {
+          "questionId": "jpd133_l9_ni001_q014",
+          "order": 14,
+          "question": {
+            "ja": "図書館で何をしますか。",
+            "vi": "Làm gì ở thư viện?"
+          },
+          "answerType": "short_answer",
+          "sampleAnswers": [
+            {
+              "ja": "本を読みます。",
+              "vi": "Đọc sách."
+            }
+          ],
+          "grammarIds": [
+            "JPD133-L09-G001"
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "本",
+              "reading": "本",
+              "meaning": "本"
+            }
+          ],
+          "explanation": "Câu hỏi luyện hội thoại theo chủ đề Bài 9.",
+          "tips": [
+            "Trả lời ngắn gọn, đúng mẫu ngữ pháp."
+          ],
+          "commonMistakes": [
+            "Dùng sai trợ từ hoặc sai thì."
+          ]
+        },
+        {
+          "questionId": "jpd133_l9_ni001_q015",
+          "order": 15,
+          "question": {
+            "ja": "図書館カードはどうやって作りますか。",
+            "vi": "Làm thẻ thư viện thế nào?"
+          },
+          "answerType": "short_answer",
+          "sampleAnswers": [
+            {
+              "ja": "申込書を書きます。",
+              "vi": "Điền đơn."
+            }
+          ],
+          "grammarIds": [
+            "JPD133-L09-G001"
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "カード",
+              "reading": "カード",
+              "meaning": "カード"
+            }
+          ],
+          "explanation": "Câu hỏi luyện hội thoại theo chủ đề Bài 9.",
+          "tips": [
+            "Trả lời ngắn gọn, đúng mẫu ngữ pháp."
+          ],
+          "commonMistakes": [
+            "Dùng sai trợ từ hoặc sai thì."
+          ]
+        }
+      ]
+    }
+  ]
+}

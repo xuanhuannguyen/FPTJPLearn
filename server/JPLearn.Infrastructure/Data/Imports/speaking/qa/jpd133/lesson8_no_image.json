@@ -1,0 +1,532 @@
+{
+  "courseCode": "jpd133",
+  "lessonNumber": 8,
+  "lessonTitle": "Bài 8 - JPD133",
+  "dataPurpose": "oral_exam_practice_web",
+  "questionMode": "NO_IMAGE",
+  "lessonOverview": {
+    "shortSummary": "Bài 8 luyện phản xạ trả lời ngắn theo từ vựng và ngữ pháp JPD133.",
+    "studentCanDo": [
+      "Trả lời câu hỏi chủ đề Bài 8.",
+      "Dùng câu trả lời tiếng Nhật ngắn, đúng mẫu."
+    ],
+    "mainSkills": [
+      "Nghe từ khóa câu hỏi.",
+      "Chọn mẫu câu và từ vựng phù hợp để trả lời."
+    ],
+    "mainGrammarFocus": [
+      "JPD133-L08-G001"
+    ],
+    "examTipSummary": "Nghe từ khóa, trả lời đủ thông tin và ưu tiên mẫu câu đã học."
+  },
+  "sections": [
+    {
+      "sectionId": "jpd133_l8_ni001",
+      "sectionTitle": "Gia đình và nơi ở",
+      "sectionViTitle": "Gia đình và nơi ở",
+      "sectionGoal": "Luyện trả lời câu hỏi nói Bài 8: Gia đình và nơi ở.",
+      "questionList": [
+        {
+          "questionId": "jpd133_l8_ni001_q001",
+          "order": 1,
+          "question": {
+            "ja": "今、どこに住んでいますか。",
+            "vi": "Bạn đang sống ở đâu?"
+          },
+          "answerType": "short_answer",
+          "sampleAnswers": [
+            {
+              "ja": "私はダナンに住んでいます。",
+              "vi": "Tôi đang sống ở Đà Nẵng."
+            }
+          ],
+          "grammarIds": [
+            "JPD133-L08-G001"
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "住みます",
+              "reading": "住みます",
+              "meaning": "住みます"
+            },
+            {
+              "word": "家",
+              "reading": "家",
+              "meaning": "家"
+            }
+          ],
+          "explanation": "Hỏi nơi cư trú hiện tại.",
+          "tips": [
+            "Địa điểm + に住んでいます。"
+          ],
+          "commonMistakes": [
+            "Dùng で thay に."
+          ]
+        },
+        {
+          "questionId": "jpd133_l8_ni001_q002",
+          "order": 2,
+          "question": {
+            "ja": "何年ぐらいそこに住んでいますか。",
+            "vi": "Bạn sống ở đó bao lâu rồi?"
+          },
+          "answerType": "short_answer",
+          "sampleAnswers": [
+            {
+              "ja": "三年ぐらい住んでいます。",
+              "vi": "Tôi sống khoảng 3 năm."
+            }
+          ],
+          "grammarIds": [
+            "JPD133-L08-G001"
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "住みます",
+              "reading": "住みます",
+              "meaning": "住みます"
+            }
+          ],
+          "explanation": "Hỏi thời gian cư trú.",
+          "tips": [
+            "Dùng ～年ぐらい."
+          ],
+          "commonMistakes": [
+            "Quên ぐらい."
+          ]
+        },
+        {
+          "questionId": "jpd133_l8_ni001_q003",
+          "order": 3,
+          "question": {
+            "ja": "家は学校から近いですか。",
+            "vi": "Nhà có gần trường không?"
+          },
+          "answerType": "short_answer",
+          "sampleAnswers": [
+            {
+              "ja": "はい、近いです。",
+              "vi": "Có, gần."
+            }
+          ],
+          "grammarIds": [
+            "JPD133-L08-G001"
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "家",
+              "reading": "家",
+              "meaning": "家"
+            },
+            {
+              "word": "学校",
+              "reading": "学校",
+              "meaning": "学校"
+            },
+            {
+              "word": "近い",
+              "reading": "近い",
+              "meaning": "近い"
+            }
+          ],
+          "explanation": "Miêu tả khoảng cách.",
+          "tips": [
+            "Trả lời はい/いいえ."
+          ],
+          "commonMistakes": [
+            "Nhầm 近い/遠い."
+          ]
+        },
+        {
+          "questionId": "jpd133_l8_ni001_q004",
+          "order": 4,
+          "question": {
+            "ja": "家の近くに何がありますか。",
+            "vi": "Gần nhà có gì?"
+          },
+          "answerType": "short_answer",
+          "sampleAnswers": [
+            {
+              "ja": "スーパーがあります。",
+              "vi": "Có siêu thị."
+            }
+          ],
+          "grammarIds": [
+            "JPD133-L08-G001"
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "近く",
+              "reading": "近く",
+              "meaning": "近く"
+            }
+          ],
+          "explanation": "Hỏi địa điểm.",
+          "tips": [
+            "Dùng あります."
+          ],
+          "commonMistakes": [
+            "Dùng います cho đồ vật."
+          ]
+        },
+        {
+          "questionId": "jpd133_l8_ni001_q005",
+          "order": 5,
+          "question": {
+            "ja": "一人で住んでいますか。それとも家族と住んでいますか。",
+            "vi": "Bạn sống một mình hay với gia đình?"
+          },
+          "answerType": "short_answer",
+          "sampleAnswers": [
+            {
+              "ja": "家族と住んでいます。",
+              "vi": "Tôi sống với gia đình."
+            }
+          ],
+          "grammarIds": [
+            "JPD133-L08-G001"
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "家族",
+              "reading": "家族",
+              "meaning": "家族"
+            }
+          ],
+          "explanation": "Hỏi người sống cùng.",
+          "tips": [
+            "Dùng と."
+          ],
+          "commonMistakes": [
+            "Thiếu と."
+          ]
+        },
+        {
+          "questionId": "jpd133_l8_ni001_q006",
+          "order": 6,
+          "question": {
+            "ja": "家族は何人ですか。",
+            "vi": "Gia đình có mấy người?"
+          },
+          "answerType": "short_answer",
+          "sampleAnswers": [
+            {
+              "ja": "四人です。",
+              "vi": "Có 4 người."
+            }
+          ],
+          "grammarIds": [
+            "JPD133-L08-G001"
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "家族",
+              "reading": "家族",
+              "meaning": "家族"
+            },
+            {
+              "word": "～人",
+              "reading": "にん",
+              "meaning": "～ người (đơn vị đếm người)"
+            }
+          ],
+          "explanation": "Hỏi số lượng.",
+          "tips": [
+            "Đọc đúng 一人・二人."
+          ],
+          "commonMistakes": [
+            "Đọc sai số đếm."
+          ]
+        },
+        {
+          "questionId": "jpd133_l8_ni001_q007",
+          "order": 7,
+          "question": {
+            "ja": "兄弟がいますか。",
+            "vi": "Bạn có anh chị em không?"
+          },
+          "answerType": "short_answer",
+          "sampleAnswers": [
+            {
+              "ja": "はい、兄が一人います。",
+              "vi": "Có, tôi có một anh trai."
+            }
+          ],
+          "grammarIds": [
+            "JPD133-L08-G001"
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "兄弟",
+              "reading": "きょうだい",
+              "meaning": "Anh chị"
+            }
+          ],
+          "explanation": "Hỏi anh chị em.",
+          "tips": [
+            "Dùng います."
+          ],
+          "commonMistakes": [
+            "Dùng あります."
+          ]
+        },
+        {
+          "questionId": "jpd133_l8_ni001_q008",
+          "order": 8,
+          "question": {
+            "ja": "ご家族はどんな人ですか。",
+            "vi": "Gia đình bạn thế nào?"
+          },
+          "answerType": "short_answer",
+          "sampleAnswers": [
+            {
+              "ja": "みんな親切です。",
+              "vi": "Mọi người đều tốt bụng."
+            }
+          ],
+          "grammarIds": [
+            "JPD133-L08-G001"
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "親切",
+              "reading": "親切",
+              "meaning": "親切"
+            }
+          ],
+          "explanation": "Miêu tả người.",
+          "tips": [
+            "Dùng tính từ phù hợp."
+          ],
+          "commonMistakes": [
+            "Thiếu です."
+          ]
+        },
+        {
+          "questionId": "jpd133_l8_ni001_q009",
+          "order": 9,
+          "question": {
+            "ja": "お父さんは何の仕事をしていますか。",
+            "vi": "Bố làm nghề gì?"
+          },
+          "answerType": "short_answer",
+          "sampleAnswers": [
+            {
+              "ja": "会社で働いています。",
+              "vi": "Bố làm ở công ty."
+            }
+          ],
+          "grammarIds": [
+            "JPD133-L08-G001"
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "働きます",
+              "reading": "働きます",
+              "meaning": "働きます"
+            }
+          ],
+          "explanation": "Hỏi nghề.",
+          "tips": [
+            "Nơi + で."
+          ],
+          "commonMistakes": [
+            "Dùng に."
+          ]
+        },
+        {
+          "questionId": "jpd133_l8_ni001_q010",
+          "order": 10,
+          "question": {
+            "ja": "お母さんはどこで働いていますか。",
+            "vi": "Mẹ làm ở đâu?"
+          },
+          "answerType": "short_answer",
+          "sampleAnswers": [
+            {
+              "ja": "病院で働いています。",
+              "vi": "Mẹ làm ở bệnh viện."
+            }
+          ],
+          "grammarIds": [
+            "JPD133-L08-G001"
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "病院",
+              "reading": "病院",
+              "meaning": "病院"
+            }
+          ],
+          "explanation": "Hỏi nơi làm việc.",
+          "tips": [
+            "Dùng で."
+          ],
+          "commonMistakes": [
+            "Sai trợ từ."
+          ]
+        },
+        {
+          "questionId": "jpd133_l8_ni001_q011",
+          "order": 11,
+          "question": {
+            "ja": "家族とよく何をしますか。",
+            "vi": "Bạn thường làm gì với gia đình?"
+          },
+          "answerType": "short_answer",
+          "sampleAnswers": [
+            {
+              "ja": "一緒に食事をします。",
+              "vi": "Cùng ăn cơm."
+            }
+          ],
+          "grammarIds": [
+            "JPD133-L08-G001"
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "家族",
+              "reading": "家族",
+              "meaning": "家族"
+            }
+          ],
+          "explanation": "Hoạt động cùng gia đình.",
+          "tips": [
+            "Trả lời bằng Vます."
+          ],
+          "commonMistakes": [
+            "Thiếu động từ."
+          ]
+        },
+        {
+          "questionId": "jpd133_l8_ni001_q012",
+          "order": 12,
+          "question": {
+            "ja": "家族で旅行へ行きますか。",
+            "vi": "Gia đình có đi du lịch không?"
+          },
+          "answerType": "short_answer",
+          "sampleAnswers": [
+            {
+              "ja": "はい、毎年行きます。",
+              "vi": "Có, hằng năm đi."
+            }
+          ],
+          "grammarIds": [
+            "JPD133-L08-G001"
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "旅行",
+              "reading": "旅行",
+              "meaning": "旅行"
+            }
+          ],
+          "explanation": "Hỏi thói quen.",
+          "tips": [
+            "Thêm tần suất."
+          ],
+          "commonMistakes": [
+            "Sai thì."
+          ]
+        },
+        {
+          "questionId": "jpd133_l8_ni001_q013",
+          "order": 13,
+          "question": {
+            "ja": "去年の誕生日に何をもらいましたか。",
+            "vi": "Sinh nhật năm ngoái nhận gì?"
+          },
+          "answerType": "short_answer",
+          "sampleAnswers": [
+            {
+              "ja": "本をもらいました。",
+              "vi": "Tôi nhận sách."
+            }
+          ],
+          "grammarIds": [
+            "JPD133-L08-G001"
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "もらいます",
+              "reading": "もらいます",
+              "meaning": "もらいます"
+            }
+          ],
+          "explanation": "Mẫu もらいます.",
+          "tips": [
+            "N + をもらいました."
+          ],
+          "commonMistakes": [
+            "Nhầm あげます."
+          ]
+        },
+        {
+          "questionId": "jpd133_l8_ni001_q014",
+          "order": 14,
+          "question": {
+            "ja": "友達に何をあげましたか。",
+            "vi": "Bạn tặng bạn gì?"
+          },
+          "answerType": "short_answer",
+          "sampleAnswers": [
+            {
+              "ja": "花をあげました。",
+              "vi": "Tôi tặng hoa."
+            }
+          ],
+          "grammarIds": [
+            "JPD133-L08-G001"
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "あげます",
+              "reading": "あげます",
+              "meaning": "あげます"
+            }
+          ],
+          "explanation": "Mẫu あげます.",
+          "tips": [
+            "Người nhận + に."
+          ],
+          "commonMistakes": [
+            "Thiếu に."
+          ]
+        },
+        {
+          "questionId": "jpd133_l8_ni001_q015",
+          "order": 15,
+          "question": {
+            "ja": "プレゼントをもらってうれしかったですか。",
+            "vi": "Bạn có vui khi nhận quà không?"
+          },
+          "answerType": "short_answer",
+          "sampleAnswers": [
+            {
+              "ja": "はい、とてもうれしかったです。",
+              "vi": "Có, rất vui."
+            }
+          ],
+          "grammarIds": [
+            "JPD133-L08-G001"
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "うれしい",
+              "reading": "うれしい",
+              "meaning": "うれしい"
+            }
+          ],
+          "explanation": "Hỏi cảm xúc.",
+          "tips": [
+            "Dùng quá khứ."
+          ],
+          "commonMistakes": [
+            "Dùng hiện tại."
+          ]
+        }
+      ]
+    }
+  ]
+}

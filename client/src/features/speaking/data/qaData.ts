@@ -308,3 +308,23 @@ export const jpd123QaLessons: QaLesson[] = [
     }
   }
 ];
+
+export const jpd133QaLessons: QaLesson[] = [
+  8, 9, 10, 11,
+].map((lessonNumber) => ({
+  id: lessonNumber,
+  title: `Bài ${lessonNumber} - JPD133`,
+  description: `Bộ câu hỏi tạm thời cho JPD133 Bài ${lessonNumber}.`,
+  noImageDesc: '15 câu hỏi phản xạ không tranh theo nội dung JPD133.',
+  noImageQuestionCount: 15,
+  withImageDesc: 'Một bộ tranh tạm thời dùng ảnh bìa JPD133 để chuẩn bị mở rộng QA có tranh.',
+  withImagePictureCount: 1,
+  withImageQuestionCount: 15,
+  overview: {
+    shortSummary: `Luyện phản xạ nói JPD133 Bài ${lessonNumber} theo từ vựng và ngữ pháp đã học.`,
+    studentCanDo: ['Nghe từ khóa câu hỏi.', 'Trả lời ngắn bằng mẫu câu đúng.'],
+    mainSkills: ['Phản xạ câu hỏi ngắn.', 'Dùng từ vựng theo chủ đề bài học.'],
+    mainGrammarFocus: [`JPD133-L${String(lessonNumber).padStart(2, '0')}-G001`],
+    examTipSummary: 'Nghe từ khóa, trả lời đủ ý và ưu tiên câu ngắn, rõ ràng.',
+  },
+}));

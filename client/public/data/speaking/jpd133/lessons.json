@@ -1,0 +1,50 @@
+[
+  {
+    "id": "88888888-1133-0000-0000-000000000108",
+    "courseCode": "jpd133",
+    "lessonNumber": 8,
+    "title": "家族と友達",
+    "description": "Gia đình - 25 đoạn đọc về gia đình, nơi sống và quà tặng.",
+    "accessTier": "premium",
+    "packageCode": "speaking_jpd133",
+    "isLocked": true,
+    "sentenceCount": 25,
+    "lessonType": "reading"
+  },
+  {
+    "id": "88888888-1133-0000-0000-000000000109",
+    "courseCode": "jpd133",
+    "lessonNumber": 9,
+    "title": "好きなこと",
+    "description": "Sở thích - 25 đoạn đọc về sở thích, tần suất, khả năng và cuối tuần.",
+    "accessTier": "premium",
+    "packageCode": "speaking_jpd133",
+    "isLocked": true,
+    "sentenceCount": 25,
+    "lessonType": "reading"
+  },
+  {
+    "id": "88888888-1133-0000-0000-000000000110",
+    "courseCode": "jpd133",
+    "lessonNumber": 10,
+    "title": "バスツアー",
+    "description": "Địa điểm và đường đi - 25 đoạn đọc về đường đi, địa điểm, xin phép và tình huống.",
+    "accessTier": "premium",
+    "packageCode": "speaking_jpd133",
+    "isLocked": true,
+    "sentenceCount": 25,
+    "lessonType": "reading"
+  },
+  {
+    "id": "88888888-1133-0000-0000-000000000111",
+    "courseCode": "jpd133",
+    "lessonNumber": 11,
+    "title": "私の生活",
+    "description": "Sinh hoạt hằng ngày - 25 đoạn đọc về thói quen, quá khứ và hội thoại thân mật.",
+    "accessTier": "premium",
+    "packageCode": "speaking_jpd133",
+    "isLocked": true,
+    "sentenceCount": 25,
+    "lessonType": "reading"
+  }
+]

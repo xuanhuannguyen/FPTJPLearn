@@ -1,0 +1,266 @@
+{
+  "lesson": {
+    "id": "88888888-1133-0000-0000-000000000111",
+    "courseCode": "jpd133",
+    "lessonNumber": 11,
+    "title": "私の生活",
+    "description": "Sinh hoạt hằng ngày - 25 đoạn đọc về thói quen, quá khứ và hội thoại thân mật.",
+    "accessTier": "premium",
+    "packageCode": "speaking_jpd133",
+    "isLocked": true,
+    "sentenceCount": 25,
+    "lessonType": "reading"
+  },
+  "sentences": [
+    {
+      "id": "88888888-1133-0000-0000-000000011001",
+      "lessonId": "88888888-1133-0000-0000-000000000111",
+      "sentenceNumber": 1,
+      "plainText": "私は毎日、忙しく生活しています。",
+      "romaji": "watashi wa mainichi, isogashiku seikatsu shiteimasu.",
+      "contentHtml": "私は毎日、忙しく生活しています。",
+      "meaningVi": "Mỗi ngày tôi sống bận rộn.",
+      "orderIndex": 1
+    },
+    {
+      "id": "88888888-1133-0000-0000-000000011002",
+      "lessonId": "88888888-1133-0000-0000-000000000111",
+      "sentenceNumber": 2,
+      "plainText": "毎朝、六時に起きます。",
+      "romaji": "mai asa, rokuji ni okimasu.",
+      "contentHtml": "毎朝、六時に起きます。",
+      "meaningVi": "Mỗi sáng tôi thức dậy lúc sáu giờ.",
+      "orderIndex": 2
+    },
+    {
+      "id": "88888888-1133-0000-0000-000000011003",
+      "lessonId": "88888888-1133-0000-0000-000000000111",
+      "sentenceNumber": 3,
+      "plainText": "朝ご飯を食べて、学校へ行きます。",
+      "romaji": "asagohan o tabete, gakkou e ikimasu.",
+      "contentHtml": "朝ご飯を食べて、学校へ行きます。",
+      "meaningVi": "Tôi ăn sáng rồi đi học.",
+      "orderIndex": 3
+    },
+    {
+      "id": "88888888-1133-0000-0000-000000011004",
+      "lessonId": "88888888-1133-0000-0000-000000000111",
+      "sentenceNumber": 4,
+      "plainText": "毎日、電車で学校へ通っています。",
+      "romaji": "mainichi, densha de gakkou e kayotteimasu.",
+      "contentHtml": "毎日、電車で学校へ通っています。",
+      "meaningVi": "Mỗi ngày tôi đi tàu đến trường.",
+      "orderIndex": 4
+    },
+    {
+      "id": "88888888-1133-0000-0000-000000011005",
+      "lessonId": "88888888-1133-0000-0000-000000000111",
+      "sentenceNumber": 5,
+      "plainText": "学校で日本語を勉強しています。",
+      "romaji": "gakkou de nihongo o benkyou shiteimasu.",
+      "contentHtml": "学校で日本語を勉強しています。",
+      "meaningVi": "Tôi đang học tiếng Nhật ở trường.",
+      "orderIndex": 5
+    },
+    {
+      "id": "88888888-1133-0000-0000-000000011006",
+      "lessonId": "88888888-1133-0000-0000-000000000111",
+      "sentenceNumber": 6,
+      "plainText": "休み時間に友達と話します。",
+      "romaji": "yasumi jikan ni tomodachi to hanashimasu.",
+      "contentHtml": "休み時間に友達と話します。",
+      "meaningVi": "Giờ nghỉ tôi nói chuyện với bạn.",
+      "orderIndex": 6
+    },
+    {
+      "id": "88888888-1133-0000-0000-000000011007",
+      "lessonId": "88888888-1133-0000-0000-000000000111",
+      "sentenceNumber": 7,
+      "plainText": "昼ごはんは食堂で食べます。",
+      "romaji": "hirugohan wa shokudou de tabemasu.",
+      "contentHtml": "昼ごはんは食堂で食べます。",
+      "meaningVi": "Tôi ăn trưa ở nhà ăn.",
+      "orderIndex": 7
+    },
+    {
+      "id": "88888888-1133-0000-0000-000000011008",
+      "lessonId": "88888888-1133-0000-0000-000000000111",
+      "sentenceNumber": 8,
+      "plainText": "図書館で本を読んでいます。",
+      "romaji": "toshokan de hon o yondeimasu.",
+      "contentHtml": "図書館で本を読んでいます。",
+      "meaningVi": "Tôi đang đọc sách ở thư viện.",
+      "orderIndex": 8
+    },
+    {
+      "id": "88888888-1133-0000-0000-000000011009",
+      "lessonId": "88888888-1133-0000-0000-000000000111",
+      "sentenceNumber": 9,
+      "plainText": "家で宿題をします。",
+      "romaji": "ie de shukudai o shimasu.",
+      "contentHtml": "家で宿題をします。",
+      "meaningVi": "Tôi làm bài tập ở nhà.",
+      "orderIndex": 9
+    },
+    {
+      "id": "88888888-1133-0000-0000-000000011010",
+      "lessonId": "88888888-1133-0000-0000-000000000111",
+      "sentenceNumber": 10,
+      "plainText": "夕方、アルバイトをしています。",
+      "romaji": "yuugata, arubaito o shiteimasu.",
+      "contentHtml": "夕方、アルバイトをしています。",
+      "meaningVi": "Buổi tối tôi làm thêm.",
+      "orderIndex": 10
+    },
+    {
+      "id": "88888888-1133-0000-0000-000000011011",
+      "lessonId": "88888888-1133-0000-0000-000000000111",
+      "sentenceNumber": 11,
+      "plainText": "学校が終わって、家へ帰ります。",
+      "romaji": "gakkou ga owatte, ie e kaerimasu.",
+      "contentHtml": "学校が終わって、家へ帰ります。",
+      "meaningVi": "Tan học tôi về nhà.",
+      "orderIndex": 11
+    },
+    {
+      "id": "88888888-1133-0000-0000-000000011012",
+      "lessonId": "88888888-1133-0000-0000-000000000111",
+      "sentenceNumber": 12,
+      "plainText": "母と料理を作ります。",
+      "romaji": "haha to ryouri o tsukurimasu.",
+      "contentHtml": "母と料理を作ります。",
+      "meaningVi": "Tôi nấu ăn với mẹ.",
+      "orderIndex": 12
+    },
+    {
+      "id": "88888888-1133-0000-0000-000000011013",
+      "lessonId": "88888888-1133-0000-0000-000000000111",
+      "sentenceNumber": 13,
+      "plainText": "週末、服を洗濯します。",
+      "romaji": "shuumatsu, fuku o sentaku shimasu.",
+      "contentHtml": "週末、服を洗濯します。",
+      "meaningVi": "Cuối tuần tôi giặt quần áo.",
+      "orderIndex": 13
+    },
+    {
+      "id": "88888888-1133-0000-0000-000000011014",
+      "lessonId": "88888888-1133-0000-0000-000000000111",
+      "sentenceNumber": 14,
+      "plainText": "部屋を掃除して、窓を開けます。",
+      "romaji": "heya o souji shite, mado o akemasu.",
+      "contentHtml": "部屋を掃除して、窓を開けます。",
+      "meaningVi": "Tôi dọn phòng rồi mở cửa sổ.",
+      "orderIndex": 14
+    },
+    {
+      "id": "88888888-1133-0000-0000-000000011015",
+      "lessonId": "88888888-1133-0000-0000-000000000111",
+      "sentenceNumber": 15,
+      "plainText": "スーパーで晩ご飯を買います。",
+      "romaji": "suupaa de bangohan o kaimasu.",
+      "contentHtml": "スーパーで晩ご飯を買います。",
+      "meaningVi": "Tôi mua bữa tối ở siêu thị.",
+      "orderIndex": 15
+    },
+    {
+      "id": "88888888-1133-0000-0000-000000011016",
+      "lessonId": "88888888-1133-0000-0000-000000000111",
+      "sentenceNumber": 16,
+      "plainText": "毎週、運動しています。",
+      "romaji": "maishuu, undou shiteimasu.",
+      "contentHtml": "毎週、運動しています。",
+      "meaningVi": "Mỗi tuần tôi tập thể dục.",
+      "orderIndex": 16
+    },
+    {
+      "id": "88888888-1133-0000-0000-000000011017",
+      "lessonId": "88888888-1133-0000-0000-000000000111",
+      "sentenceNumber": 17,
+      "plainText": "朝、公園でジョギングをします。",
+      "romaji": "asa, kouen de jogingu o shimasu.",
+      "contentHtml": "朝、公園でジョギングをします。",
+      "meaningVi": "Buổi sáng tôi chạy bộ ở công viên.",
+      "orderIndex": 17
+    },
+    {
+      "id": "88888888-1133-0000-0000-000000011018",
+      "lessonId": "88888888-1133-0000-0000-000000000111",
+      "sentenceNumber": 18,
+      "plainText": "夜、音楽を聞いています。",
+      "romaji": "yoru, ongaku o kiiteimasu.",
+      "contentHtml": "夜、音楽を聞いています。",
+      "meaningVi": "Buổi tối tôi nghe nhạc.",
+      "orderIndex": 18
+    },
+    {
+      "id": "88888888-1133-0000-0000-000000011019",
+      "lessonId": "88888888-1133-0000-0000-000000000111",
+      "sentenceNumber": 19,
+      "plainText": "晩ご飯のあとでテレビを見ます。",
+      "romaji": "bangohan no ato de terebi o mimasu.",
+      "contentHtml": "晩ご飯のあとでテレビを見ます。",
+      "meaningVi": "Sau bữa tối tôi xem TV.",
+      "orderIndex": 19
+    },
+    {
+      "id": "88888888-1133-0000-0000-000000011020",
+      "lessonId": "88888888-1133-0000-0000-000000000111",
+      "sentenceNumber": 20,
+      "plainText": "夜、シャワーを浴びます。",
+      "romaji": "yoru, shawaa o abimasu.",
+      "contentHtml": "夜、シャワーを浴びます。",
+      "meaningVi": "Buổi tối tôi tắm vòi sen.",
+      "orderIndex": 20
+    },
+    {
+      "id": "88888888-1133-0000-0000-000000011021",
+      "lessonId": "88888888-1133-0000-0000-000000000111",
+      "sentenceNumber": 21,
+      "plainText": "寝るとき、本を読みます。",
+      "romaji": "neru toki, hon o yomimasu.",
+      "contentHtml": "寝るとき、本を読みます。",
+      "meaningVi": "Khi đi ngủ tôi đọc sách.",
+      "orderIndex": 21
+    },
+    {
+      "id": "88888888-1133-0000-0000-000000011022",
+      "lessonId": "88888888-1133-0000-0000-000000000111",
+      "sentenceNumber": 22,
+      "plainText": "毎晩、日本語を勉強しています。",
+      "romaji": "maiban, nihongo o benkyou shiteimasu.",
+      "contentHtml": "毎晩、日本語を勉強しています。",
+      "meaningVi": "Tối nào tôi cũng học tiếng Nhật.",
+      "orderIndex": 22
+    },
+    {
+      "id": "88888888-1133-0000-0000-000000011023",
+      "lessonId": "88888888-1133-0000-0000-000000000111",
+      "sentenceNumber": 23,
+      "plainText": "学校へ行くとき、宿題を準備します。",
+      "romaji": "gakkou e iku toki, shukudai o junbi shimasu.",
+      "contentHtml": "学校へ行くとき、宿題を準備します。",
+      "meaningVi": "Khi đi học tôi chuẩn bị bài tập.",
+      "orderIndex": 23
+    },
+    {
+      "id": "88888888-1133-0000-0000-000000011024",
+      "lessonId": "88888888-1133-0000-0000-000000000111",
+      "sentenceNumber": 24,
+      "plainText": "十一時に寝ます。",
+      "romaji": "juuichi ji ni nemasu.",
+      "contentHtml": "十一時に寝ます。",
+      "meaningVi": "Tôi đi ngủ lúc mười một giờ.",
+      "orderIndex": 24
+    },
+    {
+      "id": "88888888-1133-0000-0000-000000011025",
+      "lessonId": "88888888-1133-0000-0000-000000000111",
+      "sentenceNumber": 25,
+      "plainText": "忙しいですが、毎日楽しいです。",
+      "romaji": "isogashii desu ga, mainichi tanoshii desu.",
+      "contentHtml": "忙しいですが、毎日楽しいです。",
+      "meaningVi": "Tuy bận nhưng mỗi ngày đều vui.",
+      "orderIndex": 25
+    }
+  ]
+}

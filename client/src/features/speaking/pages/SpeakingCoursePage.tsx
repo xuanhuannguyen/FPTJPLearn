@@ -22,7 +22,7 @@ import {
 import { speakingApi } from '../api/speakingApi';
 import type { SpeakingLesson, QaLessonDetail, QaQuestion, PictureSet } from '../types/speaking.types';
 import { useUserAccess } from '../../../shared/hooks/useUserAccess';
-import { jpd113QaLessons, jpd123QaLessons } from '../data/qaData';
+import { jpd113QaLessons, jpd123QaLessons, jpd133QaLessons } from '../data/qaData';
 
 export const SpeakingCoursePage = () => {
   const { courseCode } = useParams<{ courseCode: string }>();
@@ -188,7 +188,9 @@ export const SpeakingCoursePage = () => {
   }, []);
 
   const readingLessons = lessons.filter((l) => l.lessonType === 'reading');
-  const activeQaLessons = courseCode === 'jpd113' ? jpd113QaLessons : jpd123QaLessons;
+  const activeQaLessons = courseCode === 'jpd113'
+    ? jpd113QaLessons
+    : courseCode === 'jpd123' ? jpd123QaLessons : jpd133QaLessons;
   const selectedQaLessonData = activeQaLessons.find((l) => l.id === selectedQaLesson);
   const isQaLessonLocked = useCallback((lessonIndex: number, hasOverview: boolean) => {
     if (!hasOverview) return true;

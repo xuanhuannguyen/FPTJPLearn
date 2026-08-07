@@ -1,4 +1,4 @@
-import { mkdir, readFile, rm, writeFile } from 'node:fs/promises';
+import { mkdir, readFile, writeFile } from 'node:fs/promises';
 import path from 'node:path';
 
 const root = process.cwd();
@@ -172,7 +172,7 @@ async function generateVocabulary() {
 
 async function generateSpeaking() {
   const imports = await Promise.all(
-    ['jpd113', 'jpd123'].map((code) => readJson(`server/JPLearn.Infrastructure/Data/Imports/speaking/${code}.lessons.json`)),
+    ['jpd113', 'jpd123', 'jpd133'].map((code) => readJson(`server/JPLearn.Infrastructure/Data/Imports/speaking/${code}.lessons.json`)),
   );
   const courses = [];
 
@@ -206,7 +206,7 @@ async function generateSpeaking() {
     });
 
     courses.push({
-      id: importFile.courseCode === 'jpd113' ? '88888888-1113-0000-0000-000000000001' : '88888888-1123-0000-0000-000000000001',
+      id: ({ jpd113: '88888888-1113-0000-0000-000000000001', jpd123: '88888888-1123-0000-0000-000000000001', jpd133: '88888888-1133-0000-0000-000000000001' })[importFile.courseCode],
       code: importFile.courseCode,
       title: importFile.courseCode.toUpperCase(),
       description: `Bài đọc luyện nói ${importFile.courseCode.toUpperCase()}.`,
@@ -224,6 +224,28 @@ async function generateSpeaking() {
   }
 
   await writeJson('speaking/courses.json', courses);
+}
+
+async function generateSpeakingQa() {
+  const sourceRoot = path.join(root, 'server', 'JPLearn.Infrastructure', 'Data', 'Imports', 'speaking', 'qa');
+  const courseDirs = ['jpd133'];
+  for (const courseCode of courseDirs) {
+    const files = ['lesson8_no_image.json', 'lesson9_no_image.json', 'lesson10_no_image.json', 'lesson11_no_image.json', 'lesson8_with_image.json', 'lesson9_with_image.json', 'lesson10_with_image.json', 'lesson11_with_image.json'];
+    for (const file of files) {
+      await writeJson(`speaking/${courseCode}/qa/${file}`, JSON.parse(await readFile(path.join(sourceRoot, courseCode, file), 'utf8')));
+    }
+    const imageDir = path.join(sourceRoot, courseCode, 'images');
+    const imageNames = [
+      ...Array.from({ length: 7 }, (_, index) => `lesson8_tranh${index + 1}.png`),
+      ...[9, 10, 11].flatMap((lessonNumber) => Array.from({ length: 6 }, (_, index) => `lesson${lessonNumber}_tranh${index + 1}.png`)),
+    ];
+    for (const imageName of imageNames) {
+      const imagePath = path.join(imageDir, imageName);
+      const outputPath = path.join(outRoot, 'speaking', courseCode, 'qa', imageName);
+      await mkdir(path.dirname(outputPath), { recursive: true });
+      await writeFile(outputPath, await readFile(imagePath));
+    }
+  }
 }
 
 async function generateKanji() {
@@ -577,7 +599,7 @@ function extractCSharpVerbatimString(source, propertyName) {
 
 async function generateExam() {
   const imports = await Promise.all(
-    ['jpd113', 'jpd123'].map((code) => readJson(`server/JPLearn.Infrastructure/Data/Imports/exam/${code}.questions.json`)),
+    ['jpd113', 'jpd123', 'jpd133'].map((code) => readJson(`server/JPLearn.Infrastructure/Data/Imports/exam/${code}.questions.json`)),
   );
   const courses = [];
   const allQuestions = [];
@@ -658,10 +680,10 @@ async function generateExam() {
   await writeJson('exam/questions.json', allQuestions);
 }
 
-await rm(outRoot, { recursive: true, force: true });
 await mkdir(outRoot, { recursive: true });
 await generateVocabulary();
 await generateSpeaking();
+await generateSpeakingQa();
 await generateKanji();
 await generateGrammar();
 await generateExam();

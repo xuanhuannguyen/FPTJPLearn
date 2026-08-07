@@ -1,0 +1,1688 @@
+{
+  "courseCode": "jpd133",
+  "lessonNumber": 9,
+  "lessonTitle": "Bài 9 - JPD133 Q&A Có Tranh",
+  "questionMode": "WITH_IMAGE",
+  "dataPurpose": "oral_exam_practice_web",
+  "lessonOverview": {
+    "shortSummary": "Luyện phản xạ nhìn tranh và trả lời câu hỏi JPD133 Bài 9.",
+    "studentCanDo": [
+      "Nhận diện thông tin chính trong tranh.",
+      "Trả lời bằng câu tiếng Nhật ngắn và đúng mẫu."
+    ],
+    "mainSkills": [
+      "Quan sát người, vật, địa điểm và hành động.",
+      "Dùng từ vựng và mẫu câu theo bài."
+    ],
+    "mainGrammarFocus": [
+      "JPD133-L09-G001"
+    ],
+    "examTipSummary": "Quan sát toàn bộ tranh trước khi trả lời; ưu tiên câu ngắn, đủ chủ ngữ và động từ."
+  },
+  "pictureSets": [
+    {
+      "pictureId": "jpd133_l9_p01",
+      "pictureTitle": "Chơi bóng đá",
+      "imageUrl": "/data/speaking/jpd133/qa/lesson9_tranh1.png",
+      "questions": [
+        {
+          "questionId": "jpd133_l9_p01_q01",
+          "order": 1,
+          "question": {
+            "ja": "趣味は何ですか。",
+            "vi": "Sở thích của bạn là gì?"
+          },
+          "questionReading": "しゅみはなんですか。",
+          "answerType": "picture_short_answer",
+          "sampleAnswers": [
+            {
+              "ja": "趣味はサッカーです。",
+              "vi": "Sở thích của tôi là bóng đá.",
+              "reading": "しゅみはサッカーです。"
+            }
+          ],
+          "grammarIds": [
+            "JPD133-L09-G001"
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "趣味",
+              "reading": "しゅみ",
+              "meaning": "Sở thích"
+            },
+            {
+              "word": "サッカー",
+              "reading": "サッカー",
+              "meaning": "Bóng đá"
+            },
+            {
+              "word": "スポーツ",
+              "reading": "スポーツ",
+              "meaning": "Thể thao"
+            },
+            {
+              "word": "ボール",
+              "reading": "ボール",
+              "meaning": "Quả bóng"
+            },
+            {
+              "word": "好き",
+              "reading": "すき",
+              "meaning": "Thích"
+            }
+          ],
+          "explanation": "Đọc câu hỏi và đối chiếu thông tin trong tranh Bài 9.",
+          "tips": [
+            "Nghe 趣味は何ですか → trả lời bằng:",
+            "Chỉ cần nêu một sở thích chính trong tranh.",
+            "Quan sát hoạt động nổi bật của nhân vật."
+          ],
+          "commonMistakes": []
+        },
+        {
+          "questionId": "jpd133_l9_p01_q02",
+          "order": 2,
+          "question": {
+            "ja": "よくサッカーをしますか。",
+            "vi": "Bạn có thường chơi bóng đá không?"
+          },
+          "questionReading": "よくサッカーをしますか。",
+          "answerType": "picture_short_answer",
+          "sampleAnswers": [
+            {
+              "ja": "はい、よくサッカーをします。",
+              "vi": "Vâng, tôi thường chơi bóng đá.",
+              "reading": "はい、よくサッカーをします。"
+            }
+          ],
+          "grammarIds": [
+            "JPD133-L09-G001"
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "よく",
+              "reading": "よく",
+              "meaning": "Thường"
+            },
+            {
+              "word": "サッカー",
+              "reading": "サッカー",
+              "meaning": "Bóng đá"
+            },
+            {
+              "word": "します",
+              "reading": "します",
+              "meaning": "Chơi, làm"
+            },
+            {
+              "word": "毎週",
+              "reading": "まいしゅう",
+              "meaning": "Mỗi tuần"
+            },
+            {
+              "word": "友達",
+              "reading": "ともだち",
+              "meaning": "Bạn bè"
+            }
+          ],
+          "explanation": "Đọc câu hỏi và đối chiếu thông tin trong tranh Bài 9.",
+          "tips": [
+            "Nghe よく → hỏi về tần suất.",
+            "Trả lời:",
+            "Nếu tranh thể hiện đang chơi thể thao thì thường chọn はい."
+          ],
+          "commonMistakes": []
+        },
+        {
+          "questionId": "jpd133_l9_p01_q03",
+          "order": 3,
+          "question": {
+            "ja": "一週間に何回サッカーをしますか。",
+            "vi": "Một tuần bạn chơi bóng đá mấy lần?"
+          },
+          "questionReading": "いっしゅうかんになんかいサッカーをしますか。",
+          "answerType": "picture_short_answer",
+          "sampleAnswers": [
+            {
+              "ja": "一週間に二回サッカーをします。",
+              "vi": "Tôi chơi bóng đá hai lần một tuần.",
+              "reading": "いっしゅうかんににかいサッカーをします。"
+            }
+          ],
+          "grammarIds": [
+            "JPD133-L09-G001"
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "一週間",
+              "reading": "いっしゅうかん",
+              "meaning": "Một tuần"
+            },
+            {
+              "word": "何回",
+              "reading": "なんかい",
+              "meaning": "Mấy lần"
+            },
+            {
+              "word": "二回",
+              "reading": "にかい",
+              "meaning": "Hai lần"
+            },
+            {
+              "word": "サッカー",
+              "reading": "サッカー",
+              "meaning": "Bóng đá"
+            },
+            {
+              "word": "します",
+              "reading": "します",
+              "meaning": "Chơi"
+            }
+          ],
+          "explanation": "Đọc câu hỏi và đối chiếu thông tin trong tranh Bài 9.",
+          "tips": [
+            "Nghe 何回 → trả lời bằng số lần.",
+            "Dùng mẫu:",
+            "Chú ý trợ từ に khi nói tần suất."
+          ],
+          "commonMistakes": []
+        },
+        {
+          "questionId": "jpd133_l9_p01_q04",
+          "order": 4,
+          "question": {
+            "ja": "だれとサッカーをしますか。",
+            "vi": "Bạn chơi bóng đá với ai?"
+          },
+          "questionReading": "だれとサッカーをしますか。",
+          "answerType": "picture_short_answer",
+          "sampleAnswers": [
+            {
+              "ja": "友達とサッカーをします。",
+              "vi": "Tôi chơi bóng đá với bạn.",
+              "reading": "ともだちとサッカーをします。"
+            }
+          ],
+          "grammarIds": [
+            "JPD133-L09-G001"
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "だれ",
+              "reading": "だれ",
+              "meaning": "Ai"
+            },
+            {
+              "word": "友達",
+              "reading": "ともだち",
+              "meaning": "Bạn bè"
+            },
+            {
+              "word": "一緒に",
+              "reading": "いっしょに",
+              "meaning": "Cùng nhau"
+            },
+            {
+              "word": "サッカー",
+              "reading": "サッカー",
+              "meaning": "Bóng đá"
+            },
+            {
+              "word": "チーム",
+              "reading": "チーム",
+              "meaning": "Đội"
+            }
+          ],
+          "explanation": "Đọc câu hỏi và đối chiếu thông tin trong tranh Bài 9.",
+          "tips": [
+            "Nghe だれと → xác định người cùng thực hiện hoạt động.",
+            "Dùng mẫu:",
+            "Quan sát xem nhân vật đang chơi với ai."
+          ],
+          "commonMistakes": []
+        },
+        {
+          "questionId": "jpd133_l9_p01_q05",
+          "order": 5,
+          "question": {
+            "ja": "サッカーは好きですか。",
+            "vi": "Bạn có thích bóng đá không?"
+          },
+          "questionReading": "サッカーはすきですか。",
+          "answerType": "picture_short_answer",
+          "sampleAnswers": [
+            {
+              "ja": "はい、とても好きです。",
+              "vi": "Vâng, tôi rất thích.",
+              "reading": "はい、とてもすきです。"
+            }
+          ],
+          "grammarIds": [
+            "JPD133-L09-G001"
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "サッカー",
+              "reading": "サッカー",
+              "meaning": "Bóng đá"
+            },
+            {
+              "word": "好き",
+              "reading": "すき",
+              "meaning": "Thích"
+            },
+            {
+              "word": "とても",
+              "reading": "とても",
+              "meaning": "Rất"
+            },
+            {
+              "word": "スポーツ",
+              "reading": "スポーツ",
+              "meaning": "Thể thao"
+            },
+            {
+              "word": "楽しい",
+              "reading": "たのしい",
+              "meaning": "Vui"
+            }
+          ],
+          "explanation": "Đọc câu hỏi và đối chiếu thông tin trong tranh Bài 9.",
+          "tips": [
+            "Đây là câu hỏi về sở thích.",
+            "Trả lời:",
+            "Nếu nhân vật đang vui vẻ chơi bóng thì nên trả lời tích cực."
+          ],
+          "commonMistakes": []
+        }
+      ]
+    },
+    {
+      "pictureId": "jpd133_l9_p02",
+      "pictureTitle": "Đọc sách ở thư viện",
+      "imageUrl": "/data/speaking/jpd133/qa/lesson9_tranh2.png",
+      "questions": [
+        {
+          "questionId": "jpd133_l9_p02_q01",
+          "order": 1,
+          "question": {
+            "ja": "一週間に何回図書館へ行きますか。",
+            "vi": "Một tuần bạn đến thư viện mấy lần?"
+          },
+          "questionReading": "いっしゅうかんになんかいとしょかんへいきますか。",
+          "answerType": "picture_short_answer",
+          "sampleAnswers": [
+            {
+              "ja": "一週間に三回図書館へ行きます。",
+              "vi": "Tôi đến thư viện ba lần một tuần.",
+              "reading": "いっしゅうかんにさんかいとしょかんへいきます。"
+            }
+          ],
+          "grammarIds": [
+            "JPD133-L09-G001"
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "一週間",
+              "reading": "いっしゅうかん",
+              "meaning": "Một tuần"
+            },
+            {
+              "word": "図書館",
+              "reading": "としょかん",
+              "meaning": "Thư viện"
+            },
+            {
+              "word": "何回",
+              "reading": "なんかい",
+              "meaning": "Mấy lần"
+            },
+            {
+              "word": "三回",
+              "reading": "さんかい",
+              "meaning": "Ba lần"
+            },
+            {
+              "word": "行きます",
+              "reading": "いきます",
+              "meaning": "Đi"
+            }
+          ],
+          "explanation": "Đọc câu hỏi và đối chiếu thông tin trong tranh Bài 9.",
+          "tips": [
+            "Nghe 何回 → trả lời bằng số lần.",
+            "Dùng mẫu:",
+            "Có thể thay bằng 一回、二回、四回..."
+          ],
+          "commonMistakes": []
+        },
+        {
+          "questionId": "jpd133_l9_p02_q02",
+          "order": 2,
+          "question": {
+            "ja": "図書館で何をしますか。",
+            "vi": "Bạn làm gì ở thư viện?"
+          },
+          "questionReading": "としょかんでなにをしますか。",
+          "answerType": "picture_short_answer",
+          "sampleAnswers": [
+            {
+              "ja": "本を読みます。",
+              "vi": "Tôi đọc sách.",
+              "reading": "ほんをよみます。"
+            }
+          ],
+          "grammarIds": [
+            "JPD133-L09-G001"
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "本",
+              "reading": "ほん",
+              "meaning": "Sách"
+            },
+            {
+              "word": "読みます",
+              "reading": "よみます",
+              "meaning": "Đọc"
+            },
+            {
+              "word": "勉強します",
+              "reading": "べんきょうします",
+              "meaning": "Học"
+            },
+            {
+              "word": "ノート",
+              "reading": "ノート",
+              "meaning": "Vở ghi"
+            },
+            {
+              "word": "図書館",
+              "reading": "としょかん",
+              "meaning": "Thư viện"
+            }
+          ],
+          "explanation": "Đọc câu hỏi và đối chiếu thông tin trong tranh Bài 9.",
+          "tips": [
+            "Nghe 何をしますか → quan sát hoạt động chính.",
+            "Dùng mẫu:",
+            "Nếu tranh có ghi chép thì vẫn nên ưu tiên trả lời hoạt động nổi bật nhất là đọc sách."
+          ],
+          "commonMistakes": []
+        },
+        {
+          "questionId": "jpd133_l9_p02_q03",
+          "order": 3,
+          "question": {
+            "ja": "どんな本を読みますか。",
+            "vi": "Bạn đọc loại sách nào?"
+          },
+          "questionReading": "どんなほんをよみますか。",
+          "answerType": "picture_short_answer",
+          "sampleAnswers": [
+            {
+              "ja": "小説を読みます。",
+              "vi": "Tôi đọc tiểu thuyết.",
+              "reading": "しょうせつをよみます。"
+            }
+          ],
+          "grammarIds": [
+            "JPD133-L09-G001"
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "小説",
+              "reading": "しょうせつ",
+              "meaning": "Tiểu thuyết"
+            },
+            {
+              "word": "漫画",
+              "reading": "まんが",
+              "meaning": "Truyện tranh"
+            },
+            {
+              "word": "日本語",
+              "reading": "にほんご",
+              "meaning": "Tiếng Nhật"
+            },
+            {
+              "word": "本",
+              "reading": "ほん",
+              "meaning": "Sách"
+            },
+            {
+              "word": "読みます",
+              "reading": "よみます",
+              "meaning": "Đọc"
+            }
+          ],
+          "explanation": "Đọc câu hỏi và đối chiếu thông tin trong tranh Bài 9.",
+          "tips": [
+            "Nghe どんな本 → trả lời loại sách.",
+            "Có thể trả lời:",
+            "Chỉ cần nêu một loại sách."
+          ],
+          "commonMistakes": []
+        },
+        {
+          "questionId": "jpd133_l9_p02_q04",
+          "order": 4,
+          "question": {
+            "ja": "一人で図書館へ行きますか。",
+            "vi": "Bạn có đi thư viện một mình không?"
+          },
+          "questionReading": "ひとりでとしょかんへいきますか。",
+          "answerType": "picture_short_answer",
+          "sampleAnswers": [
+            {
+              "ja": "はい、一人で行きます。",
+              "vi": "Vâng, tôi đi một mình.",
+              "reading": "はい、ひとりでいきます。"
+            }
+          ],
+          "grammarIds": [
+            "JPD133-L09-G001"
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "一人",
+              "reading": "ひとり",
+              "meaning": "Một mình"
+            },
+            {
+              "word": "友達",
+              "reading": "ともだち",
+              "meaning": "Bạn bè"
+            },
+            {
+              "word": "図書館",
+              "reading": "としょかん",
+              "meaning": "Thư viện"
+            },
+            {
+              "word": "行きます",
+              "reading": "いきます",
+              "meaning": "Đi"
+            },
+            {
+              "word": "一緒に",
+              "reading": "いっしょに",
+              "meaning": "Cùng nhau"
+            }
+          ],
+          "explanation": "Đọc câu hỏi và đối chiếu thông tin trong tranh Bài 9.",
+          "tips": [
+            "Quan sát xem trong tranh người học đi một mình hay với bạn.",
+            "Trả lời:"
+          ],
+          "commonMistakes": []
+        },
+        {
+          "questionId": "jpd133_l9_p02_q05",
+          "order": 5,
+          "question": {
+            "ja": "図書館は静かですか。",
+            "vi": "Thư viện có yên tĩnh không?"
+          },
+          "questionReading": "としょかんはしずかですか。",
+          "answerType": "picture_short_answer",
+          "sampleAnswers": [
+            {
+              "ja": "はい、とても静かです。",
+              "vi": "Vâng, rất yên tĩnh.",
+              "reading": "はい、とてもしずかです。"
+            }
+          ],
+          "grammarIds": [
+            "JPD133-L09-G001"
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "図書館",
+              "reading": "としょかん",
+              "meaning": "Thư viện"
+            },
+            {
+              "word": "静か（な）",
+              "reading": "しずか（な）",
+              "meaning": "Yên tĩnh"
+            },
+            {
+              "word": "本",
+              "reading": "ほん",
+              "meaning": "Sách"
+            },
+            {
+              "word": "読みます",
+              "reading": "よみます",
+              "meaning": "Đọc"
+            },
+            {
+              "word": "勉強します",
+              "reading": "べんきょうします",
+              "meaning": "Học"
+            },
+            {
+              "word": "学生",
+              "reading": "がくせい",
+              "meaning": "Sinh viên"
+            }
+          ],
+          "explanation": "Đọc câu hỏi và đối chiếu thông tin trong tranh Bài 9.",
+          "tips": [
+            "Đây là câu hỏi miêu tả địa điểm.",
+            "Quan sát không gian xung quanh.",
+            "Nếu mọi người đang đọc sách và giữ trật tự thì trả lời:"
+          ],
+          "commonMistakes": []
+        }
+      ]
+    },
+    {
+      "pictureId": "jpd133_l9_p03",
+      "pictureTitle": "Nấu ăn",
+      "imageUrl": "/data/speaking/jpd133/qa/lesson9_tranh3.png",
+      "questions": [
+        {
+          "questionId": "jpd133_l9_p03_q01",
+          "order": 1,
+          "question": {
+            "ja": "料理を作ることができますか。",
+            "vi": "Bạn có thể nấu ăn không?"
+          },
+          "questionReading": "りょうりをつくることができますか。",
+          "answerType": "picture_short_answer",
+          "sampleAnswers": [
+            {
+              "ja": "はい、料理を作ることができます。",
+              "vi": "Vâng, tôi có thể nấu ăn.",
+              "reading": "はい、りょうりをつくることができます。"
+            }
+          ],
+          "grammarIds": [
+            "JPD133-L09-G001"
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "料理",
+              "reading": "りょうり",
+              "meaning": "Món ăn, nấu ăn"
+            },
+            {
+              "word": "作ります",
+              "reading": "つくります",
+              "meaning": "Làm, nấu"
+            },
+            {
+              "word": "できます",
+              "reading": "できます",
+              "meaning": "Có thể"
+            },
+            {
+              "word": "台所",
+              "reading": "だいどころ",
+              "meaning": "Nhà bếp"
+            },
+            {
+              "word": "エプロン",
+              "reading": "エプロン",
+              "meaning": "Tạp dề"
+            }
+          ],
+          "explanation": "Đọc câu hỏi và đối chiếu thông tin trong tranh Bài 9.",
+          "tips": [
+            "Nghe ～ことができますか → hỏi về khả năng.",
+            "Trả lời theo mẫu:",
+            "Quan sát xem người trong tranh có đang nấu ăn hay không."
+          ],
+          "commonMistakes": []
+        },
+        {
+          "questionId": "jpd133_l9_p03_q02",
+          "order": 2,
+          "question": {
+            "ja": "日本料理を作ることができますか。",
+            "vi": "Bạn có thể nấu món ăn Nhật không?"
+          },
+          "questionReading": "にほんりょうりをつくることができますか。",
+          "answerType": "picture_short_answer",
+          "sampleAnswers": [
+            {
+              "ja": "はい、日本料理を作ることができます。",
+              "vi": "Vâng, tôi có thể nấu món ăn Nhật.",
+              "reading": "はい、にほんりょうりをつくることができます。"
+            }
+          ],
+          "grammarIds": [
+            "JPD133-L09-G001"
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "日本料理",
+              "reading": "にほんりょうり",
+              "meaning": "Món ăn Nhật"
+            },
+            {
+              "word": "カレーライス",
+              "reading": "カレーライス",
+              "meaning": "Cơm cà ri"
+            },
+            {
+              "word": "ご飯",
+              "reading": "ごはん",
+              "meaning": "Cơm"
+            },
+            {
+              "word": "作ります",
+              "reading": "つくります",
+              "meaning": "Nấu, làm"
+            },
+            {
+              "word": "できます",
+              "reading": "できます",
+              "meaning": "Có thể"
+            }
+          ],
+          "explanation": "Đọc câu hỏi và đối chiếu thông tin trong tranh Bài 9.",
+          "tips": [
+            "Chú ý từ khóa 日本料理.",
+            "Nếu trong tranh có món ăn Nhật thì nên trả lời はい.",
+            "Dùng nguyên mẫu:"
+          ],
+          "commonMistakes": []
+        },
+        {
+          "questionId": "jpd133_l9_p03_q03",
+          "order": 3,
+          "question": {
+            "ja": "何の料理を作ることができますか。",
+            "vi": "Bạn có thể nấu món gì?"
+          },
+          "questionReading": "なんのりょうりをつくることができますか。",
+          "answerType": "picture_short_answer",
+          "sampleAnswers": [
+            {
+              "ja": "カレーライスを作ることができます。",
+              "vi": "Tôi có thể nấu cơm cà ri.",
+              "reading": "カレーライスをつくることができます。"
+            }
+          ],
+          "grammarIds": [
+            "JPD133-L09-G001"
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "カレーライス",
+              "reading": "カレーライス",
+              "meaning": "Cơm cà ri"
+            },
+            {
+              "word": "スープ",
+              "reading": "スープ",
+              "meaning": "Canh"
+            },
+            {
+              "word": "野菜",
+              "reading": "やさい",
+              "meaning": "Rau"
+            },
+            {
+              "word": "肉",
+              "reading": "にく",
+              "meaning": "Thịt"
+            },
+            {
+              "word": "料理",
+              "reading": "りょうり",
+              "meaning": "Món ăn"
+            }
+          ],
+          "explanation": "Đọc câu hỏi và đối chiếu thông tin trong tranh Bài 9.",
+          "tips": [
+            "Nghe 何の料理 → trả lời tên món ăn.",
+            "Chỉ cần nêu một món xuất hiện trong tranh.",
+            "Dùng mẫu:"
+          ],
+          "commonMistakes": []
+        },
+        {
+          "questionId": "jpd133_l9_p03_q04",
+          "order": 4,
+          "question": {
+            "ja": "家でよく料理をしますか。",
+            "vi": "Bạn có thường nấu ăn ở nhà không?"
+          },
+          "questionReading": "いえでよくりょうりをしますか。",
+          "answerType": "picture_short_answer",
+          "sampleAnswers": [
+            {
+              "ja": "はい、よく料理をします。",
+              "vi": "Vâng, tôi thường nấu ăn.",
+              "reading": "はい、よくりょうりをします。"
+            }
+          ],
+          "grammarIds": [
+            "JPD133-L09-G001"
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "家",
+              "reading": "いえ",
+              "meaning": "Nhà"
+            },
+            {
+              "word": "よく",
+              "reading": "よく",
+              "meaning": "Thường"
+            },
+            {
+              "word": "料理します",
+              "reading": "りょうりします",
+              "meaning": "Nấu ăn"
+            },
+            {
+              "word": "台所",
+              "reading": "だいどころ",
+              "meaning": "Nhà bếp"
+            },
+            {
+              "word": "毎日",
+              "reading": "まいにち",
+              "meaning": "Mỗi ngày"
+            }
+          ],
+          "explanation": "Đọc câu hỏi và đối chiếu thông tin trong tranh Bài 9.",
+          "tips": [
+            "Nghe よく → hỏi về tần suất.",
+            "Trả lời:",
+            "Quan sát xem người trong tranh có đang nấu ăn tại nhà không."
+          ],
+          "commonMistakes": []
+        },
+        {
+          "questionId": "jpd133_l9_p03_q05",
+          "order": 5,
+          "question": {
+            "ja": "料理を作ることは好きですか。",
+            "vi": "Bạn có thích nấu ăn không?"
+          },
+          "questionReading": "りょうりをつくることはすきですか。",
+          "answerType": "picture_short_answer",
+          "sampleAnswers": [
+            {
+              "ja": "はい、とても好きです。",
+              "vi": "Vâng, tôi rất thích.",
+              "reading": "はい、とてもすきです。"
+            }
+          ],
+          "grammarIds": [
+            "JPD133-L09-G001"
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "好き",
+              "reading": "すき",
+              "meaning": "Thích"
+            },
+            {
+              "word": "料理",
+              "reading": "りょうり",
+              "meaning": "Nấu ăn"
+            },
+            {
+              "word": "作ります",
+              "reading": "つくります",
+              "meaning": "Nấu, làm"
+            },
+            {
+              "word": "楽しい",
+              "reading": "たのしい",
+              "meaning": "Vui"
+            },
+            {
+              "word": "とても",
+              "reading": "とても",
+              "meaning": "Rất"
+            }
+          ],
+          "explanation": "Đọc câu hỏi và đối chiếu thông tin trong tranh Bài 9.",
+          "tips": [
+            "Đây là câu hỏi về sở thích.",
+            "Trả lời:",
+            "Nếu người trong tranh đang cười và nấu ăn vui vẻ thì nên trả lời tích cực."
+          ],
+          "commonMistakes": []
+        }
+      ]
+    },
+    {
+      "pictureId": "jpd133_l9_p04",
+      "pictureTitle": "Xem phim",
+      "imageUrl": "/data/speaking/jpd133/qa/lesson9_tranh4.png",
+      "questions": [
+        {
+          "questionId": "jpd133_l9_p04_q01",
+          "order": 1,
+          "question": {
+            "ja": "よく映画を見ますか。",
+            "vi": "Bạn có thường xem phim không?"
+          },
+          "questionReading": "よくえいがをみますか。",
+          "answerType": "picture_short_answer",
+          "sampleAnswers": [
+            {
+              "ja": "はい、よく映画を見ます。",
+              "vi": "Vâng, tôi thường xem phim.",
+              "reading": "はい、よくえいがをみます。"
+            }
+          ],
+          "grammarIds": [
+            "JPD133-L09-G001"
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "映画",
+              "reading": "えいが",
+              "meaning": "Phim"
+            },
+            {
+              "word": "見ます",
+              "reading": "みます",
+              "meaning": "Xem"
+            },
+            {
+              "word": "よく",
+              "reading": "よく",
+              "meaning": "Thường"
+            },
+            {
+              "word": "趣味",
+              "reading": "しゅみ",
+              "meaning": "Sở thích"
+            },
+            {
+              "word": "映画館",
+              "reading": "えいがかん",
+              "meaning": "Rạp chiếu phim"
+            }
+          ],
+          "explanation": "Đọc câu hỏi và đối chiếu thông tin trong tranh Bài 9.",
+          "tips": [
+            "Nghe よく → hỏi về tần suất.",
+            "Trả lời theo mẫu:",
+            "Nếu tranh đang xem phim thì nên trả lời はい."
+          ],
+          "commonMistakes": []
+        },
+        {
+          "questionId": "jpd133_l9_p04_q02",
+          "order": 2,
+          "question": {
+            "ja": "どこで映画を見ますか。",
+            "vi": "Bạn xem phim ở đâu?"
+          },
+          "questionReading": "どこでえいがをみますか。",
+          "answerType": "picture_short_answer",
+          "sampleAnswers": [
+            {
+              "ja": "映画館で映画を見ます。",
+              "vi": "Tôi xem phim ở rạp chiếu phim.",
+              "reading": "えいがかんでえいがをみます。"
+            }
+          ],
+          "grammarIds": [
+            "JPD133-L09-G001"
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "映画館",
+              "reading": "えいがかん",
+              "meaning": "Rạp chiếu phim"
+            },
+            {
+              "word": "映画",
+              "reading": "えいが",
+              "meaning": "Phim"
+            },
+            {
+              "word": "見ます",
+              "reading": "みます",
+              "meaning": "Xem"
+            },
+            {
+              "word": "ポップコーン",
+              "reading": "ポップコーン",
+              "meaning": "Bắp rang"
+            },
+            {
+              "word": "ジュース",
+              "reading": "ジュース",
+              "meaning": "Nước ngọt"
+            }
+          ],
+          "explanation": "Đọc câu hỏi và đối chiếu thông tin trong tranh Bài 9.",
+          "tips": [
+            "Nghe どこで → xác định địa điểm.",
+            "Dùng mẫu:",
+            "Trợ từ で dùng để chỉ nơi diễn ra hoạt động."
+          ],
+          "commonMistakes": []
+        },
+        {
+          "questionId": "jpd133_l9_p04_q03",
+          "order": 3,
+          "question": {
+            "ja": "だれと映画を見ますか。",
+            "vi": "Bạn xem phim với ai?"
+          },
+          "questionReading": "だれとえいがをみますか。",
+          "answerType": "picture_short_answer",
+          "sampleAnswers": [
+            {
+              "ja": "友達と映画を見ます。",
+              "vi": "Tôi xem phim cùng bạn.",
+              "reading": "ともだちとえいがをみます。"
+            }
+          ],
+          "grammarIds": [
+            "JPD133-L09-G001"
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "友達",
+              "reading": "ともだち",
+              "meaning": "Bạn bè"
+            },
+            {
+              "word": "一緒に",
+              "reading": "いっしょに",
+              "meaning": "Cùng nhau"
+            },
+            {
+              "word": "映画",
+              "reading": "えいが",
+              "meaning": "Phim"
+            },
+            {
+              "word": "見ます",
+              "reading": "みます",
+              "meaning": "Xem"
+            },
+            {
+              "word": "映画館",
+              "reading": "えいがかん",
+              "meaning": "Rạp chiếu phim"
+            }
+          ],
+          "explanation": "Đọc câu hỏi và đối chiếu thông tin trong tranh Bài 9.",
+          "tips": [
+            "Nghe だれと → xác định người cùng xem phim.",
+            "Dùng mẫu:",
+            "Quan sát những người ngồi cạnh trong tranh."
+          ],
+          "commonMistakes": []
+        },
+        {
+          "questionId": "jpd133_l9_p04_q04",
+          "order": 4,
+          "question": {
+            "ja": "どんな映画が好きですか。",
+            "vi": "Bạn thích thể loại phim nào?"
+          },
+          "questionReading": "どんなえいががすきですか。",
+          "answerType": "picture_short_answer",
+          "sampleAnswers": [
+            {
+              "ja": "コメディー映画が好きです。",
+              "vi": "Tôi thích phim hài.",
+              "reading": "コメディーえいががすきです。"
+            }
+          ],
+          "grammarIds": [
+            "JPD133-L09-G001"
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "コメディー映画",
+              "reading": "コメディーえいが",
+              "meaning": "Phim hài"
+            },
+            {
+              "word": "アニメ映画",
+              "reading": "アニメえいが",
+              "meaning": "Phim hoạt hình"
+            },
+            {
+              "word": "アクション映画",
+              "reading": "アクションえいが",
+              "meaning": "Phim hành động"
+            },
+            {
+              "word": "好き",
+              "reading": "すき",
+              "meaning": "Thích"
+            },
+            {
+              "word": "映画",
+              "reading": "えいが",
+              "meaning": "Phim"
+            }
+          ],
+          "explanation": "Đọc câu hỏi và đối chiếu thông tin trong tranh Bài 9.",
+          "tips": [
+            "Nghe どんな映画 → trả lời thể loại phim.",
+            "Dùng mẫu:",
+            "Có thể thay bằng:"
+          ],
+          "commonMistakes": []
+        },
+        {
+          "questionId": "jpd133_l9_p04_q05",
+          "order": 5,
+          "question": {
+            "ja": "週末、映画を見ましたか。",
+            "vi": "Cuối tuần bạn có xem phim không?"
+          },
+          "questionReading": "しゅうまつ、えいがをみましたか。",
+          "answerType": "picture_short_answer",
+          "sampleAnswers": [
+            {
+              "ja": "はい、友達と映画を見ました。",
+              "vi": "Vâng, cuối tuần tôi đã xem phim cùng bạn.",
+              "reading": "はい、ともだちとえいがをみました。"
+            }
+          ],
+          "grammarIds": [
+            "JPD133-L09-G001"
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "週末",
+              "reading": "しゅうまつ",
+              "meaning": "Cuối tuần"
+            },
+            {
+              "word": "映画",
+              "reading": "えいが",
+              "meaning": "Phim"
+            },
+            {
+              "word": "見ました",
+              "reading": "みました",
+              "meaning": "Đã xem"
+            },
+            {
+              "word": "友達",
+              "reading": "ともだち",
+              "meaning": "Bạn bè"
+            },
+            {
+              "word": "映画館",
+              "reading": "えいがかん",
+              "meaning": "Rạp chiếu phim"
+            }
+          ],
+          "explanation": "Đọc câu hỏi và đối chiếu thông tin trong tranh Bài 9.",
+          "tips": [
+            "Nghe 見ましたか → đây là thì quá khứ.",
+            "Trả lời:",
+            "Có thể bổ sung người đi cùng hoặc địa điểm để câu trả lời tự nhiên hơn.",
+            "Trọng tâm: 旅行",
+            "Ngữ pháp:",
+            "Câu hỏi:",
+            "Trọng tâm: 音楽・歌",
+            "Ngữ pháp:",
+            "Câu hỏi:"
+          ],
+          "commonMistakes": []
+        }
+      ]
+    },
+    {
+      "pictureId": "jpd133_l9_p05",
+      "pictureTitle": "Đi du lịch",
+      "imageUrl": "/data/speaking/jpd133/qa/lesson9_tranh5.png",
+      "questions": [
+        {
+          "questionId": "jpd133_l9_p05_q01",
+          "order": 1,
+          "question": {
+            "ja": "旅行が好きですか。",
+            "vi": "Bạn có thích du lịch không?"
+          },
+          "questionReading": "りょこうがすきですか。",
+          "answerType": "picture_short_answer",
+          "sampleAnswers": [
+            {
+              "ja": "はい、とても好きです。",
+              "vi": "Vâng, tôi rất thích.",
+              "reading": "はい、とてもすきです。"
+            }
+          ],
+          "grammarIds": [
+            "JPD133-L09-G001"
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "旅行",
+              "reading": "りょこう",
+              "meaning": "Du lịch"
+            },
+            {
+              "word": "好き",
+              "reading": "すき",
+              "meaning": "Thích"
+            },
+            {
+              "word": "とても",
+              "reading": "とても",
+              "meaning": "Rất"
+            },
+            {
+              "word": "友達",
+              "reading": "ともだち",
+              "meaning": "Bạn bè"
+            },
+            {
+              "word": "カメラ",
+              "reading": "カメラ",
+              "meaning": "Máy ảnh"
+            }
+          ],
+          "explanation": "Đọc câu hỏi và đối chiếu thông tin trong tranh Bài 9.",
+          "tips": [
+            "Đây là câu hỏi về sở thích.",
+            "Trả lời:",
+            "Quan sát tranh nếu mọi người đang vui vẻ du lịch thì nên trả lời tích cực."
+          ],
+          "commonMistakes": []
+        },
+        {
+          "questionId": "jpd133_l9_p05_q02",
+          "order": 2,
+          "question": {
+            "ja": "去年どこへ旅行しましたか。",
+            "vi": "Năm ngoái bạn đã đi du lịch ở đâu?"
+          },
+          "questionReading": "きょねんどこへりょこうしましたか。",
+          "answerType": "picture_short_answer",
+          "sampleAnswers": [
+            {
+              "ja": "去年、京都へ旅行しました。",
+              "vi": "Năm ngoái tôi đã đi du lịch Kyoto.",
+              "reading": "きょねん、きょうとへりょこうしました。"
+            }
+          ],
+          "grammarIds": [
+            "JPD133-L09-G001"
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "去年",
+              "reading": "きょねん",
+              "meaning": "Năm ngoái"
+            },
+            {
+              "word": "京都",
+              "reading": "きょうと",
+              "meaning": "Kyoto"
+            },
+            {
+              "word": "旅行します",
+              "reading": "りょこうします",
+              "meaning": "Đi du lịch"
+            },
+            {
+              "word": "お寺",
+              "reading": "おてら",
+              "meaning": "Chùa"
+            },
+            {
+              "word": "写真",
+              "reading": "しゃしん",
+              "meaning": "Ảnh"
+            }
+          ],
+          "explanation": "Đọc câu hỏi và đối chiếu thông tin trong tranh Bài 9.",
+          "tips": [
+            "Nghe どこへ → trả lời địa điểm.",
+            "Dùng mẫu:"
+          ],
+          "commonMistakes": []
+        },
+        {
+          "questionId": "jpd133_l9_p05_q03",
+          "order": 3,
+          "question": {
+            "ja": "だれと旅行へ行きましたか。",
+            "vi": "Bạn đã đi du lịch với ai?"
+          },
+          "questionReading": "だれとりょこうへいきましたか。",
+          "answerType": "picture_short_answer",
+          "sampleAnswers": [
+            {
+              "ja": "友達と旅行へ行きました。",
+              "vi": "Tôi đã đi du lịch cùng bạn.",
+              "reading": "ともだちとりょこうへいきました。"
+            }
+          ],
+          "grammarIds": [
+            "JPD133-L09-G001"
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "友達",
+              "reading": "ともだち",
+              "meaning": "Bạn bè"
+            },
+            {
+              "word": "家族",
+              "reading": "かぞく",
+              "meaning": "Gia đình"
+            },
+            {
+              "word": "一緒に",
+              "reading": "いっしょに",
+              "meaning": "Cùng nhau"
+            },
+            {
+              "word": "旅行",
+              "reading": "りょこう",
+              "meaning": "Du lịch"
+            },
+            {
+              "word": "行きました",
+              "reading": "いきました",
+              "meaning": "Đã đi"
+            }
+          ],
+          "explanation": "Đọc câu hỏi và đối chiếu thông tin trong tranh Bài 9.",
+          "tips": [
+            "Nghe だれと → xác định người đi cùng.",
+            "Dùng:"
+          ],
+          "commonMistakes": []
+        },
+        {
+          "questionId": "jpd133_l9_p05_q04",
+          "order": 4,
+          "question": {
+            "ja": "来週どこへ行きたいですか。",
+            "vi": "Tuần sau bạn muốn đi đâu?"
+          },
+          "questionReading": "らいしゅうどこへいきたいですか。",
+          "answerType": "picture_short_answer",
+          "sampleAnswers": [
+            {
+              "ja": "来週、大阪へ行きたいです。",
+              "vi": "Tuần sau tôi muốn đi Osaka.",
+              "reading": "らいしゅう、おおさかへいきたいです。"
+            }
+          ],
+          "grammarIds": [
+            "JPD133-L09-G001"
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "来週",
+              "reading": "らいしゅう",
+              "meaning": "Tuần sau"
+            },
+            {
+              "word": "大阪",
+              "reading": "おおさか",
+              "meaning": "Osaka"
+            },
+            {
+              "word": "行きたい",
+              "reading": "いきたい",
+              "meaning": "Muốn đi"
+            },
+            {
+              "word": "旅行",
+              "reading": "りょこう",
+              "meaning": "Du lịch"
+            },
+            {
+              "word": "電車",
+              "reading": "でんしゃ",
+              "meaning": "Tàu điện"
+            }
+          ],
+          "explanation": "Đọc câu hỏi và đối chiếu thông tin trong tranh Bài 9.",
+          "tips": [
+            "Nghe ～たいです → diễn tả mong muốn.",
+            "Dùng:"
+          ],
+          "commonMistakes": []
+        },
+        {
+          "questionId": "jpd133_l9_p05_q05",
+          "order": 5,
+          "question": {
+            "ja": "旅行で何をしたいですか。",
+            "vi": "Khi đi du lịch bạn muốn làm gì?"
+          },
+          "questionReading": "りょこうでなにをしたいですか。",
+          "answerType": "picture_short_answer",
+          "sampleAnswers": [
+            {
+              "ja": "写真を撮りたいです。",
+              "vi": "Tôi muốn chụp ảnh.",
+              "reading": "しゃしんをとりたいです。"
+            }
+          ],
+          "grammarIds": [
+            "JPD133-L09-G001"
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "写真",
+              "reading": "しゃしん",
+              "meaning": "Ảnh"
+            },
+            {
+              "word": "撮ります",
+              "reading": "とります",
+              "meaning": "Chụp"
+            },
+            {
+              "word": "見ます",
+              "reading": "みます",
+              "meaning": "Xem"
+            },
+            {
+              "word": "お寺",
+              "reading": "おてら",
+              "meaning": "Chùa"
+            },
+            {
+              "word": "行きたい",
+              "reading": "いきたい",
+              "meaning": "Muốn đi"
+            }
+          ],
+          "explanation": "Đọc câu hỏi và đối chiếu thông tin trong tranh Bài 9.",
+          "tips": [
+            "Nghe 何をしたいですか → trả lời hoạt động mong muốn.",
+            "Dùng:",
+            "Quan sát các hoạt động trong tranh như chụp ảnh, tham quan."
+          ],
+          "commonMistakes": []
+        }
+      ]
+    },
+    {
+      "pictureId": "jpd133_l9_p06",
+      "pictureTitle": "Âm nhạc",
+      "imageUrl": "/data/speaking/jpd133/qa/lesson9_tranh6.png",
+      "questions": [
+        {
+          "questionId": "jpd133_l9_p06_q01",
+          "order": 1,
+          "question": {
+            "ja": "音楽が好きですか。",
+            "vi": "Bạn có thích âm nhạc không?"
+          },
+          "questionReading": "おんがくがすきですか。",
+          "answerType": "picture_short_answer",
+          "sampleAnswers": [
+            {
+              "ja": "はい、とても好きです。",
+              "vi": "Vâng, tôi rất thích.",
+              "reading": "はい、とてもすきです。"
+            }
+          ],
+          "grammarIds": [
+            "JPD133-L09-G001"
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "音楽",
+              "reading": "おんがく",
+              "meaning": "Âm nhạc"
+            },
+            {
+              "word": "好き",
+              "reading": "すき",
+              "meaning": "Thích"
+            },
+            {
+              "word": "歌",
+              "reading": "うた",
+              "meaning": "Bài hát"
+            },
+            {
+              "word": "カラオケ",
+              "reading": "カラオケ",
+              "meaning": "Karaoke"
+            },
+            {
+              "word": "マイク",
+              "reading": "マイク",
+              "meaning": "Micro"
+            }
+          ],
+          "explanation": "Đọc câu hỏi và đối chiếu thông tin trong tranh Bài 9.",
+          "tips": [
+            "Đây là câu hỏi về sở thích.",
+            "Dùng:"
+          ],
+          "commonMistakes": []
+        },
+        {
+          "questionId": "jpd133_l9_p06_q02",
+          "order": 2,
+          "question": {
+            "ja": "どんな音楽が好きですか。",
+            "vi": "Bạn thích thể loại nhạc nào?"
+          },
+          "questionReading": "どんなおんがくがすきですか。",
+          "answerType": "picture_short_answer",
+          "sampleAnswers": [
+            {
+              "ja": "ポップスが好きです。",
+              "vi": "Tôi thích nhạc Pop.",
+              "reading": "ポップスがすきです。"
+            }
+          ],
+          "grammarIds": [
+            "JPD133-L09-G001"
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "ポップス",
+              "reading": "ポップス",
+              "meaning": "Nhạc Pop"
+            },
+            {
+              "word": "音楽",
+              "reading": "おんがく",
+              "meaning": "Âm nhạc"
+            },
+            {
+              "word": "歌",
+              "reading": "うた",
+              "meaning": "Bài hát"
+            },
+            {
+              "word": "好き",
+              "reading": "すき",
+              "meaning": "Thích"
+            },
+            {
+              "word": "聞きます",
+              "reading": "ききます",
+              "meaning": "Nghe"
+            }
+          ],
+          "explanation": "Đọc câu hỏi và đối chiếu thông tin trong tranh Bài 9.",
+          "tips": [
+            "Nghe どんな音楽 → trả lời thể loại nhạc.",
+            "Dùng:"
+          ],
+          "commonMistakes": []
+        },
+        {
+          "questionId": "jpd133_l9_p06_q03",
+          "order": 3,
+          "question": {
+            "ja": "歌を歌うことができますか。",
+            "vi": "Bạn có thể hát không?"
+          },
+          "questionReading": "うたをうたうことができますか。",
+          "answerType": "picture_short_answer",
+          "sampleAnswers": [
+            {
+              "ja": "はい、歌うことができます。",
+              "vi": "Vâng, tôi có thể hát.",
+              "reading": "はい、うたうことができます。"
+            }
+          ],
+          "grammarIds": [
+            "JPD133-L09-G001"
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "歌",
+              "reading": "うた",
+              "meaning": "Bài hát"
+            },
+            {
+              "word": "歌います",
+              "reading": "うたいます",
+              "meaning": "Hát"
+            },
+            {
+              "word": "できます",
+              "reading": "できます",
+              "meaning": "Có thể"
+            },
+            {
+              "word": "マイク",
+              "reading": "マイク",
+              "meaning": "Micro"
+            },
+            {
+              "word": "カラオケ",
+              "reading": "カラオケ",
+              "meaning": "Karaoke"
+            }
+          ],
+          "explanation": "Đọc câu hỏi và đối chiếu thông tin trong tranh Bài 9.",
+          "tips": [
+            "Nghe ことができます → hỏi khả năng.",
+            "Trả lời:"
+          ],
+          "commonMistakes": []
+        },
+        {
+          "questionId": "jpd133_l9_p06_q04",
+          "order": 4,
+          "question": {
+            "ja": "よく音楽を聞きますか。",
+            "vi": "Bạn có thường nghe nhạc không?"
+          },
+          "questionReading": "よくおんがくをききますか。",
+          "answerType": "picture_short_answer",
+          "sampleAnswers": [
+            {
+              "ja": "はい、毎日音楽を聞きます。",
+              "vi": "Vâng, tôi nghe nhạc mỗi ngày.",
+              "reading": "はい、まいにちおんがくをききます。"
+            }
+          ],
+          "grammarIds": [
+            "JPD133-L09-G001"
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "音楽",
+              "reading": "おんがく",
+              "meaning": "Âm nhạc"
+            },
+            {
+              "word": "聞きます",
+              "reading": "ききます",
+              "meaning": "Nghe"
+            },
+            {
+              "word": "毎日",
+              "reading": "まいにち",
+              "meaning": "Mỗi ngày"
+            },
+            {
+              "word": "イヤホン",
+              "reading": "イヤホン",
+              "meaning": "Tai nghe"
+            },
+            {
+              "word": "スマートフォン",
+              "reading": "スマートフォン",
+              "meaning": "Điện thoại"
+            }
+          ],
+          "explanation": "Đọc câu hỏi và đối chiếu thông tin trong tranh Bài 9.",
+          "tips": [
+            "Nghe よく → hỏi tần suất.",
+            "Có thể mở rộng bằng 毎日 nếu phù hợp với tranh."
+          ],
+          "commonMistakes": []
+        },
+        {
+          "questionId": "jpd133_l9_p06_q05",
+          "order": 5,
+          "question": {
+            "ja": "だれとカラオケへ行きますか。",
+            "vi": "Bạn đi karaoke với ai?"
+          },
+          "questionReading": "だれとカラオケへいきますか。",
+          "answerType": "picture_short_answer",
+          "sampleAnswers": [
+            {
+              "ja": "友達とカラオケへ行きます。",
+              "vi": "Tôi đi karaoke cùng bạn.",
+              "reading": "ともだちとカラオケへいきます。"
+            }
+          ],
+          "grammarIds": [
+            "JPD133-L09-G001"
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "友達",
+              "reading": "ともだち",
+              "meaning": "Bạn bè"
+            },
+            {
+              "word": "カラオケ",
+              "reading": "カラオケ",
+              "meaning": "Karaoke"
+            },
+            {
+              "word": "行きます",
+              "reading": "いきます",
+              "meaning": "Đi"
+            },
+            {
+              "word": "一緒に",
+              "reading": "いっしょに",
+              "meaning": "Cùng nhau"
+            },
+            {
+              "word": "歌",
+              "reading": "うた",
+              "meaning": "Bài hát"
+            }
+          ],
+          "explanation": "Đọc câu hỏi và đối chiếu thông tin trong tranh Bài 9.",
+          "tips": [
+            "Nghe だれと → xác định người đi cùng.",
+            "Dùng:"
+          ],
+          "commonMistakes": []
+        }
+      ]
+    }
+  ]
+}

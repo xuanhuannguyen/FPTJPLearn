@@ -1,0 +1,512 @@
+{
+  "courseCode": "jpd133",
+  "lessonNumber": 10,
+  "lessonTitle": "Bài 10 - JPD133",
+  "dataPurpose": "oral_exam_practice_web",
+  "questionMode": "NO_IMAGE",
+  "lessonOverview": {
+    "shortSummary": "Bài 10 luyện phản xạ trả lời ngắn theo từ vựng và ngữ pháp JPD133.",
+    "studentCanDo": [
+      "Trả lời câu hỏi chủ đề Bài 10.",
+      "Dùng câu trả lời tiếng Nhật ngắn, đúng mẫu."
+    ],
+    "mainSkills": [
+      "Nghe từ khóa câu hỏi.",
+      "Chọn mẫu câu và từ vựng phù hợp để trả lời."
+    ],
+    "mainGrammarFocus": [
+      "JPD133-L10-G001"
+    ],
+    "examTipSummary": "Nghe từ khóa, trả lời đủ thông tin và ưu tiên mẫu câu đã học."
+  },
+  "sections": [
+    {
+      "sectionId": "jpd133_l10_ni001",
+      "sectionTitle": "Địa điểm và xin phép",
+      "sectionViTitle": "Địa điểm và xin phép",
+      "sectionGoal": "Luyện trả lời câu hỏi nói Bài 10: Địa điểm và xin phép.",
+      "questionList": [
+        {
+          "questionId": "jpd133_l10_ni001_q001",
+          "order": 1,
+          "question": {
+            "ja": "ここに荷物を置いてもいいですか。",
+            "vi": "Để hành lý ở đây được không?"
+          },
+          "answerType": "short_answer",
+          "sampleAnswers": [
+            {
+              "ja": "はい、いいです。",
+              "vi": "Được."
+            }
+          ],
+          "grammarIds": [
+            "JPD133-L10-G001"
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "荷物",
+              "reading": "にもつ",
+              "meaning": "Hành lý / Bưu phẩm"
+            }
+          ],
+          "explanation": "Câu hỏi luyện hội thoại theo chủ đề Bài 10.",
+          "tips": [
+            "Trả lời ngắn gọn, đúng mẫu ngữ pháp."
+          ],
+          "commonMistakes": [
+            "Dùng sai trợ từ hoặc sai thì."
+          ]
+        },
+        {
+          "questionId": "jpd133_l10_ni001_q002",
+          "order": 2,
+          "question": {
+            "ja": "教室で写真を撮ってもいいですか。",
+            "vi": "Chụp ảnh trong lớp?"
+          },
+          "answerType": "short_answer",
+          "sampleAnswers": [
+            {
+              "ja": "はい、いいです。",
+              "vi": "Được."
+            }
+          ],
+          "grammarIds": [
+            "JPD133-L10-G001"
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "写真",
+              "reading": "写真",
+              "meaning": "写真"
+            }
+          ],
+          "explanation": "Câu hỏi luyện hội thoại theo chủ đề Bài 10.",
+          "tips": [
+            "Trả lời ngắn gọn, đúng mẫu ngữ pháp."
+          ],
+          "commonMistakes": [
+            "Dùng sai trợ từ hoặc sai thì."
+          ]
+        },
+        {
+          "questionId": "jpd133_l10_ni001_q003",
+          "order": 3,
+          "question": {
+            "ja": "窓を開けてもいいですか。",
+            "vi": "Mở cửa sổ?"
+          },
+          "answerType": "short_answer",
+          "sampleAnswers": [
+            {
+              "ja": "はい、どうぞ。",
+              "vi": "Được."
+            }
+          ],
+          "grammarIds": [
+            "JPD133-L10-G001"
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "窓",
+              "reading": "窓",
+              "meaning": "窓"
+            }
+          ],
+          "explanation": "Câu hỏi luyện hội thoại theo chủ đề Bài 10.",
+          "tips": [
+            "Trả lời ngắn gọn, đúng mẫu ngữ pháp."
+          ],
+          "commonMistakes": [
+            "Dùng sai trợ từ hoặc sai thì."
+          ]
+        },
+        {
+          "questionId": "jpd133_l10_ni001_q004",
+          "order": 4,
+          "question": {
+            "ja": "ここで電話を使ってもいいですか。",
+            "vi": "Dùng điện thoại ở đây?"
+          },
+          "answerType": "short_answer",
+          "sampleAnswers": [
+            {
+              "ja": "いいえ、だめです。",
+              "vi": "Không."
+            }
+          ],
+          "grammarIds": [
+            "JPD133-L10-G001"
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "電話",
+              "reading": "電話",
+              "meaning": "電話"
+            }
+          ],
+          "explanation": "Câu hỏi luyện hội thoại theo chủ đề Bài 10.",
+          "tips": [
+            "Trả lời ngắn gọn, đúng mẫu ngữ pháp."
+          ],
+          "commonMistakes": [
+            "Dùng sai trợ từ hoặc sai thì."
+          ]
+        },
+        {
+          "questionId": "jpd133_l10_ni001_q005",
+          "order": 5,
+          "question": {
+            "ja": "もう昼ご飯を食べましたか。",
+            "vi": "Ăn trưa chưa?"
+          },
+          "answerType": "short_answer",
+          "sampleAnswers": [
+            {
+              "ja": "はい、食べました。",
+              "vi": "Rồi."
+            }
+          ],
+          "grammarIds": [
+            "JPD133-L10-G001"
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "昼ご飯",
+              "reading": "昼ご飯",
+              "meaning": "昼ご飯"
+            }
+          ],
+          "explanation": "Câu hỏi luyện hội thoại theo chủ đề Bài 10.",
+          "tips": [
+            "Trả lời ngắn gọn, đúng mẫu ngữ pháp."
+          ],
+          "commonMistakes": [
+            "Dùng sai trợ từ hoặc sai thì."
+          ]
+        },
+        {
+          "questionId": "jpd133_l10_ni001_q006",
+          "order": 6,
+          "question": {
+            "ja": "宿題をしましたか。",
+            "vi": "Làm bài tập chưa?"
+          },
+          "answerType": "short_answer",
+          "sampleAnswers": [
+            {
+              "ja": "まだです。",
+              "vi": "Chưa."
+            }
+          ],
+          "grammarIds": [
+            "JPD133-L10-G001"
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "宿題",
+              "reading": "しゅくだい",
+              "meaning": "Bài tập về nhà"
+            }
+          ],
+          "explanation": "Câu hỏi luyện hội thoại theo chủ đề Bài 10.",
+          "tips": [
+            "Trả lời ngắn gọn, đúng mẫu ngữ pháp."
+          ],
+          "commonMistakes": [
+            "Dùng sai trợ từ hoặc sai thì."
+          ]
+        },
+        {
+          "questionId": "jpd133_l10_ni001_q007",
+          "order": 7,
+          "question": {
+            "ja": "日本へ行ったことがありますか。",
+            "vi": "Đã từng đến Nhật?"
+          },
+          "answerType": "short_answer",
+          "sampleAnswers": [
+            {
+              "ja": "ありません。",
+              "vi": "Chưa."
+            }
+          ],
+          "grammarIds": [
+            "JPD133-L10-G001"
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "日本",
+              "reading": "日本",
+              "meaning": "日本"
+            }
+          ],
+          "explanation": "Câu hỏi luyện hội thoại theo chủ đề Bài 10.",
+          "tips": [
+            "Trả lời ngắn gọn, đúng mẫu ngữ pháp."
+          ],
+          "commonMistakes": [
+            "Dùng sai trợ từ hoặc sai thì."
+          ]
+        },
+        {
+          "questionId": "jpd133_l10_ni001_q008",
+          "order": 8,
+          "question": {
+            "ja": "今、どこですか。",
+            "vi": "Bây giờ ở đâu?"
+          },
+          "answerType": "short_answer",
+          "sampleAnswers": [
+            {
+              "ja": "駅です。",
+              "vi": "Ở ga."
+            }
+          ],
+          "grammarIds": [
+            "JPD133-L10-G001"
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "駅",
+              "reading": "駅",
+              "meaning": "駅"
+            }
+          ],
+          "explanation": "Câu hỏi luyện hội thoại theo chủ đề Bài 10.",
+          "tips": [
+            "Trả lời ngắn gọn, đúng mẫu ngữ pháp."
+          ],
+          "commonMistakes": [
+            "Dùng sai trợ từ hoặc sai thì."
+          ]
+        },
+        {
+          "questionId": "jpd133_l10_ni001_q009",
+          "order": 9,
+          "question": {
+            "ja": "そこから何が見えますか。",
+            "vi": "Từ đó nhìn thấy gì?"
+          },
+          "answerType": "short_answer",
+          "sampleAnswers": [
+            {
+              "ja": "山が見えます。",
+              "vi": "Thấy núi."
+            }
+          ],
+          "grammarIds": [
+            "JPD133-L10-G001"
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "見えます",
+              "reading": "見えます",
+              "meaning": "見えます"
+            }
+          ],
+          "explanation": "Câu hỏi luyện hội thoại theo chủ đề Bài 10.",
+          "tips": [
+            "Trả lời ngắn gọn, đúng mẫu ngữ pháp."
+          ],
+          "commonMistakes": [
+            "Dùng sai trợ từ hoặc sai thì."
+          ]
+        },
+        {
+          "questionId": "jpd133_l10_ni001_q010",
+          "order": 10,
+          "question": {
+            "ja": "家の近くに駅がありますか。",
+            "vi": "Gần nhà có ga?"
+          },
+          "answerType": "short_answer",
+          "sampleAnswers": [
+            {
+              "ja": "あります。",
+              "vi": "Có."
+            }
+          ],
+          "grammarIds": [
+            "JPD133-L10-G001"
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "駅",
+              "reading": "駅",
+              "meaning": "駅"
+            }
+          ],
+          "explanation": "Câu hỏi luyện hội thoại theo chủ đề Bài 10.",
+          "tips": [
+            "Trả lời ngắn gọn, đúng mẫu ngữ pháp."
+          ],
+          "commonMistakes": [
+            "Dùng sai trợ từ hoặc sai thì."
+          ]
+        },
+        {
+          "questionId": "jpd133_l10_ni001_q011",
+          "order": 11,
+          "question": {
+            "ja": "どこで本を買うことができますか。",
+            "vi": "Mua sách ở đâu?"
+          },
+          "answerType": "short_answer",
+          "sampleAnswers": [
+            {
+              "ja": "本屋です。",
+              "vi": "Ở hiệu sách."
+            }
+          ],
+          "grammarIds": [
+            "JPD133-L10-G001"
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "本屋",
+              "reading": "本屋",
+              "meaning": "本屋"
+            }
+          ],
+          "explanation": "Câu hỏi luyện hội thoại theo chủ đề Bài 10.",
+          "tips": [
+            "Trả lời ngắn gọn, đúng mẫu ngữ pháp."
+          ],
+          "commonMistakes": [
+            "Dùng sai trợ từ hoặc sai thì."
+          ]
+        },
+        {
+          "questionId": "jpd133_l10_ni001_q012",
+          "order": 12,
+          "question": {
+            "ja": "どこで日本語を勉強できますか。",
+            "vi": "Học tiếng Nhật ở đâu?"
+          },
+          "answerType": "short_answer",
+          "sampleAnswers": [
+            {
+              "ja": "学校です。",
+              "vi": "Ở trường."
+            }
+          ],
+          "grammarIds": [
+            "JPD133-L10-G001"
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "学校",
+              "reading": "学校",
+              "meaning": "学校"
+            }
+          ],
+          "explanation": "Câu hỏi luyện hội thoại theo chủ đề Bài 10.",
+          "tips": [
+            "Trả lời ngắn gọn, đúng mẫu ngữ pháp."
+          ],
+          "commonMistakes": [
+            "Dùng sai trợ từ hoặc sai thì."
+          ]
+        },
+        {
+          "questionId": "jpd133_l10_ni001_q013",
+          "order": 13,
+          "question": {
+            "ja": "病院でたばこを吸うことができますか。",
+            "vi": "Có hút thuốc ở BV?"
+          },
+          "answerType": "short_answer",
+          "sampleAnswers": [
+            {
+              "ja": "できません。",
+              "vi": "Không."
+            }
+          ],
+          "grammarIds": [
+            "JPD133-L10-G001"
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "病院",
+              "reading": "病院",
+              "meaning": "病院"
+            }
+          ],
+          "explanation": "Câu hỏi luyện hội thoại theo chủ đề Bài 10.",
+          "tips": [
+            "Trả lời ngắn gọn, đúng mẫu ngữ pháp."
+          ],
+          "commonMistakes": [
+            "Dùng sai trợ từ hoặc sai thì."
+          ]
+        },
+        {
+          "questionId": "jpd133_l10_ni001_q014",
+          "order": 14,
+          "question": {
+            "ja": "図書館でご飯を食べてもいいですか。",
+            "vi": "Ăn ở thư viện?"
+          },
+          "answerType": "short_answer",
+          "sampleAnswers": [
+            {
+              "ja": "だめです。",
+              "vi": "Không."
+            }
+          ],
+          "grammarIds": [
+            "JPD133-L10-G001"
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "図書館",
+              "reading": "図書館",
+              "meaning": "図書館"
+            }
+          ],
+          "explanation": "Câu hỏi luyện hội thoại theo chủ đề Bài 10.",
+          "tips": [
+            "Trả lời ngắn gọn, đúng mẫu ngữ pháp."
+          ],
+          "commonMistakes": [
+            "Dùng sai trợ từ hoặc sai thì."
+          ]
+        },
+        {
+          "questionId": "jpd133_l10_ni001_q015",
+          "order": 15,
+          "question": {
+            "ja": "駅までどうやって行きますか。",
+            "vi": "Đi ga thế nào?"
+          },
+          "answerType": "short_answer",
+          "sampleAnswers": [
+            {
+              "ja": "バスで行きます。",
+              "vi": "Đi xe buýt."
+            }
+          ],
+          "grammarIds": [
+            "JPD133-L10-G001"
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "駅",
+              "reading": "駅",
+              "meaning": "駅"
+            }
+          ],
+          "explanation": "Câu hỏi luyện hội thoại theo chủ đề Bài 10.",
+          "tips": [
+            "Trả lời ngắn gọn, đúng mẫu ngữ pháp."
+          ],
+          "commonMistakes": [
+            "Dùng sai trợ từ hoặc sai thì."
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1667 @@
+{
+  "courseCode": "jpd133",
+  "lessonNumber": 11,
+  "lessonTitle": "Bài 11 - JPD133 Q&A Có Tranh",
+  "questionMode": "WITH_IMAGE",
+  "dataPurpose": "oral_exam_practice_web",
+  "lessonOverview": {
+    "shortSummary": "Luyện phản xạ nhìn tranh và trả lời câu hỏi JPD133 Bài 11.",
+    "studentCanDo": [
+      "Nhận diện thông tin chính trong tranh.",
+      "Trả lời bằng câu tiếng Nhật ngắn và đúng mẫu."
+    ],
+    "mainSkills": [
+      "Quan sát người, vật, địa điểm và hành động.",
+      "Dùng từ vựng và mẫu câu theo bài."
+    ],
+    "mainGrammarFocus": [
+      "JPD133-L11-G001"
+    ],
+    "examTipSummary": "Quan sát toàn bộ tranh trước khi trả lời; ưu tiên câu ngắn, đủ chủ ngữ và động từ."
+  },
+  "pictureSets": [
+    {
+      "pictureId": "jpd133_l11_p01",
+      "pictureTitle": "Sau giờ học",
+      "imageUrl": "/data/speaking/jpd133/qa/lesson11_tranh1.png",
+      "questions": [
+        {
+          "questionId": "jpd133_l11_p01_q01",
+          "order": 1,
+          "question": {
+            "ja": "学校が終わって、何をしていますか。",
+            "vi": "Sau khi tan học, bạn đang làm gì?"
+          },
+          "questionReading": "がっこうがおわって、なにをしていますか。",
+          "answerType": "picture_short_answer",
+          "sampleAnswers": [
+            {
+              "ja": "友達と帰っています。",
+              "vi": "Tôi đang về nhà cùng bạn.",
+              "reading": "ともだちとかえっています。"
+            }
+          ],
+          "grammarIds": [
+            "JPD133-L11-G001"
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "学校",
+              "reading": "がっこう",
+              "meaning": "Trường học"
+            },
+            {
+              "word": "終わります",
+              "reading": "おわります",
+              "meaning": "Kết thúc"
+            },
+            {
+              "word": "帰ります",
+              "reading": "かえります",
+              "meaning": "Về"
+            },
+            {
+              "word": "友達",
+              "reading": "ともだち",
+              "meaning": "Bạn bè"
+            },
+            {
+              "word": "帰っています",
+              "reading": "かえっています",
+              "meaning": "Đang về"
+            }
+          ],
+          "explanation": "Đọc câu hỏi và đối chiếu thông tin trong tranh Bài 11.",
+          "tips": [
+            "Nghe 何をしていますか → trả lời bằng:",
+            "Quan sát hoạt động ngay sau giờ học."
+          ],
+          "commonMistakes": []
+        },
+        {
+          "questionId": "jpd133_l11_p01_q02",
+          "order": 2,
+          "question": {
+            "ja": "家に帰ってから何をしますか。",
+            "vi": "Sau khi về nhà bạn làm gì?"
+          },
+          "questionReading": "いえにかえってからなにをしますか。",
+          "answerType": "picture_short_answer",
+          "sampleAnswers": [
+            {
+              "ja": "宿題をします。",
+              "vi": "Tôi làm bài tập.",
+              "reading": "しゅくだいをします。"
+            }
+          ],
+          "grammarIds": [
+            "JPD133-L11-G001"
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "家",
+              "reading": "いえ",
+              "meaning": "Nhà"
+            },
+            {
+              "word": "宿題",
+              "reading": "しゅくだい",
+              "meaning": "Bài tập"
+            },
+            {
+              "word": "勉強します",
+              "reading": "べんきょうします",
+              "meaning": "Học"
+            },
+            {
+              "word": "帰ってから",
+              "reading": "かえってから",
+              "meaning": "Sau khi về"
+            },
+            {
+              "word": "ノート",
+              "reading": "ノート",
+              "meaning": "Vở"
+            }
+          ],
+          "explanation": "Đọc câu hỏi và đối chiếu thông tin trong tranh Bài 11.",
+          "tips": [
+            "Chú ý mẫu ngữ pháp:",
+            "Trả lời bằng hoạt động sau khi về nhà."
+          ],
+          "commonMistakes": []
+        },
+        {
+          "questionId": "jpd133_l11_p01_q03",
+          "order": 3,
+          "question": {
+            "ja": "だれと帰りますか。",
+            "vi": "Bạn về cùng ai?"
+          },
+          "questionReading": "だれとかえりますか。",
+          "answerType": "picture_short_answer",
+          "sampleAnswers": [
+            {
+              "ja": "友達と帰ります。",
+              "vi": "Tôi về cùng bạn.",
+              "reading": "ともだちとかえります。"
+            }
+          ],
+          "grammarIds": [
+            "JPD133-L11-G001"
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "友達",
+              "reading": "ともだち",
+              "meaning": "Bạn bè"
+            },
+            {
+              "word": "一緒に",
+              "reading": "いっしょに",
+              "meaning": "Cùng nhau"
+            },
+            {
+              "word": "帰ります",
+              "reading": "かえります",
+              "meaning": "Về"
+            },
+            {
+              "word": "学校",
+              "reading": "がっこう",
+              "meaning": "Trường"
+            },
+            {
+              "word": "家",
+              "reading": "いえ",
+              "meaning": "Nhà"
+            }
+          ],
+          "explanation": "Đọc câu hỏi và đối chiếu thông tin trong tranh Bài 11.",
+          "tips": [
+            "Nghe だれと → xác định người đi cùng.",
+            "Trả lời theo mẫu:"
+          ],
+          "commonMistakes": []
+        },
+        {
+          "questionId": "jpd133_l11_p01_q04",
+          "order": 4,
+          "question": {
+            "ja": "毎日宿題をしますか。",
+            "vi": "Hằng ngày bạn có làm bài tập không?"
+          },
+          "questionReading": "まいにちしゅくだいをしますか。",
+          "answerType": "picture_short_answer",
+          "sampleAnswers": [
+            {
+              "ja": "はい、毎日宿題をします。",
+              "vi": "Vâng, hằng ngày tôi làm bài tập.",
+              "reading": "はい、まいにちしゅくだいをします。"
+            }
+          ],
+          "grammarIds": [
+            "JPD133-L11-G001"
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "毎日",
+              "reading": "まいにち",
+              "meaning": "Mỗi ngày"
+            },
+            {
+              "word": "宿題",
+              "reading": "しゅくだい",
+              "meaning": "Bài tập"
+            },
+            {
+              "word": "勉強",
+              "reading": "べんきょう",
+              "meaning": "Học"
+            },
+            {
+              "word": "ノート",
+              "reading": "ノート",
+              "meaning": "Vở"
+            },
+            {
+              "word": "教科書",
+              "reading": "きょうかしょ",
+              "meaning": "Sách giáo khoa"
+            }
+          ],
+          "explanation": "Đọc câu hỏi và đối chiếu thông tin trong tranh Bài 11.",
+          "tips": [
+            "Nghe 毎日 → hỏi về tần suất.",
+            "Trả lời:"
+          ],
+          "commonMistakes": []
+        },
+        {
+          "questionId": "jpd133_l11_p01_q05",
+          "order": 5,
+          "question": {
+            "ja": "夜、何時に寝ますか。",
+            "vi": "Buổi tối bạn đi ngủ lúc mấy giờ?"
+          },
+          "questionReading": "よる、なんじにねますか。",
+          "answerType": "picture_short_answer",
+          "sampleAnswers": [
+            {
+              "ja": "十時に寝ます。",
+              "vi": "Tôi đi ngủ lúc 10 giờ.",
+              "reading": "じゅうじにねます。"
+            }
+          ],
+          "grammarIds": [
+            "JPD133-L11-G001"
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "夜",
+              "reading": "よる",
+              "meaning": "Buổi tối"
+            },
+            {
+              "word": "十時",
+              "reading": "じゅうじ",
+              "meaning": "10 giờ"
+            },
+            {
+              "word": "寝ます",
+              "reading": "ねます",
+              "meaning": "Ngủ"
+            },
+            {
+              "word": "時計",
+              "reading": "とけい",
+              "meaning": "Đồng hồ"
+            },
+            {
+              "word": "毎日",
+              "reading": "まいにち",
+              "meaning": "Mỗi ngày"
+            }
+          ],
+          "explanation": "Đọc câu hỏi và đối chiếu thông tin trong tranh Bài 11.",
+          "tips": [
+            "Nghe 何時 → trả lời bằng thời gian.",
+            "Dùng:"
+          ],
+          "commonMistakes": []
+        }
+      ]
+    },
+    {
+      "pictureId": "jpd133_l11_p02",
+      "pictureTitle": "Ngày nghỉ ở công viên",
+      "imageUrl": "/data/speaking/jpd133/qa/lesson11_tranh2.png",
+      "questions": [
+        {
+          "questionId": "jpd133_l11_p02_q01",
+          "order": 1,
+          "question": {
+            "ja": "休みの日、よく何をしていますか。",
+            "vi": "Vào ngày nghỉ bạn thường làm gì?"
+          },
+          "questionReading": "やすみのひ、よくなにをしていますか。",
+          "answerType": "picture_short_answer",
+          "sampleAnswers": [
+            {
+              "ja": "家族と公園へ行っています。",
+              "vi": "Tôi thường đi công viên cùng gia đình.",
+              "reading": "かぞくとこうえんへいっています。"
+            }
+          ],
+          "grammarIds": [
+            "JPD133-L11-G001"
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "休みの日",
+              "reading": "やすみのひ",
+              "meaning": "Ngày nghỉ"
+            },
+            {
+              "word": "家族",
+              "reading": "かぞく",
+              "meaning": "Gia đình"
+            },
+            {
+              "word": "公園",
+              "reading": "こうえん",
+              "meaning": "Công viên"
+            },
+            {
+              "word": "行きます",
+              "reading": "いきます",
+              "meaning": "Đi"
+            },
+            {
+              "word": "よく",
+              "reading": "よく",
+              "meaning": "Thường"
+            }
+          ],
+          "explanation": "Đọc câu hỏi và đối chiếu thông tin trong tranh Bài 11.",
+          "tips": [
+            "Nghe 休みの日 và よく → trả lời hoạt động thường làm.",
+            "Dùng:"
+          ],
+          "commonMistakes": []
+        },
+        {
+          "questionId": "jpd133_l11_p02_q02",
+          "order": 2,
+          "question": {
+            "ja": "だれと公園へ来ましたか。",
+            "vi": "Bạn đã đến công viên cùng ai?"
+          },
+          "questionReading": "だれとこうえんへきましたか。",
+          "answerType": "picture_short_answer",
+          "sampleAnswers": [
+            {
+              "ja": "家族と来ました。",
+              "vi": "Tôi đến cùng gia đình.",
+              "reading": "かぞくときました。"
+            }
+          ],
+          "grammarIds": [
+            "JPD133-L11-G001"
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "家族",
+              "reading": "かぞく",
+              "meaning": "Gia đình"
+            },
+            {
+              "word": "父",
+              "reading": "ちち",
+              "meaning": "Bố"
+            },
+            {
+              "word": "母",
+              "reading": "はは",
+              "meaning": "Mẹ"
+            },
+            {
+              "word": "来ました",
+              "reading": "きました",
+              "meaning": "Đã đến"
+            },
+            {
+              "word": "公園",
+              "reading": "こうえん",
+              "meaning": "Công viên"
+            }
+          ],
+          "explanation": "Đọc câu hỏi và đối chiếu thông tin trong tranh Bài 11.",
+          "tips": [
+            "Nghe だれと → xác định người đi cùng.",
+            "Dùng:"
+          ],
+          "commonMistakes": []
+        },
+        {
+          "questionId": "jpd133_l11_p02_q03",
+          "order": 3,
+          "question": {
+            "ja": "公園で何をしていますか。",
+            "vi": "Bạn đang làm gì ở công viên?"
+          },
+          "questionReading": "こうえんでなにをしていますか。",
+          "answerType": "picture_short_answer",
+          "sampleAnswers": [
+            {
+              "ja": "写真を撮っています。",
+              "vi": "Tôi đang chụp ảnh.",
+              "reading": "しゃしんをとっています。"
+            }
+          ],
+          "grammarIds": [
+            "JPD133-L11-G001"
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "写真",
+              "reading": "しゃしん",
+              "meaning": "Ảnh"
+            },
+            {
+              "word": "撮っています",
+              "reading": "とっています",
+              "meaning": "Đang chụp"
+            },
+            {
+              "word": "公園",
+              "reading": "こうえん",
+              "meaning": "Công viên"
+            },
+            {
+              "word": "遊びます",
+              "reading": "あそびます",
+              "meaning": "Chơi"
+            },
+            {
+              "word": "たこ",
+              "reading": "たこ",
+              "meaning": "Diều"
+            }
+          ],
+          "explanation": "Đọc câu hỏi và đối chiếu thông tin trong tranh Bài 11.",
+          "tips": [
+            "Quan sát hành động chính.",
+            "Trả lời bằng:"
+          ],
+          "commonMistakes": []
+        },
+        {
+          "questionId": "jpd133_l11_p02_q04",
+          "order": 4,
+          "question": {
+            "ja": "よく家族と出かけますか。",
+            "vi": "Bạn có thường đi chơi cùng gia đình không?"
+          },
+          "questionReading": "よくかぞくとでかけますか。",
+          "answerType": "picture_short_answer",
+          "sampleAnswers": [
+            {
+              "ja": "はい、よく出かけます。",
+              "vi": "Vâng, tôi thường đi chơi cùng gia đình.",
+              "reading": "はい、よくでかけます。"
+            }
+          ],
+          "grammarIds": [
+            "JPD133-L11-G001"
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "出かけます",
+              "reading": "でかけます",
+              "meaning": "Đi chơi"
+            },
+            {
+              "word": "家族",
+              "reading": "かぞく",
+              "meaning": "Gia đình"
+            },
+            {
+              "word": "よく",
+              "reading": "よく",
+              "meaning": "Thường"
+            },
+            {
+              "word": "公園",
+              "reading": "こうえん",
+              "meaning": "Công viên"
+            },
+            {
+              "word": "一緒に",
+              "reading": "いっしょに",
+              "meaning": "Cùng nhau"
+            }
+          ],
+          "explanation": "Đọc câu hỏi và đối chiếu thông tin trong tranh Bài 11.",
+          "tips": [
+            "Nghe よく → hỏi tần suất.",
+            "Trả lời:"
+          ],
+          "commonMistakes": []
+        },
+        {
+          "questionId": "jpd133_l11_p02_q05",
+          "order": 5,
+          "question": {
+            "ja": "この公園は好きですか。",
+            "vi": "Bạn có thích công viên này không?"
+          },
+          "questionReading": "このこうえんはすきですか。",
+          "answerType": "picture_short_answer",
+          "sampleAnswers": [
+            {
+              "ja": "はい、とても好きです。",
+              "vi": "Vâng, tôi rất thích.",
+              "reading": "はい、とてもすきです。"
+            }
+          ],
+          "grammarIds": [
+            "JPD133-L11-G001"
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "公園",
+              "reading": "こうえん",
+              "meaning": "Công viên"
+            },
+            {
+              "word": "好き",
+              "reading": "すき",
+              "meaning": "Thích"
+            },
+            {
+              "word": "花",
+              "reading": "はな",
+              "meaning": "Hoa"
+            },
+            {
+              "word": "池",
+              "reading": "いけ",
+              "meaning": "Hồ"
+            },
+            {
+              "word": "家族",
+              "reading": "かぞく",
+              "meaning": "Gia đình"
+            }
+          ],
+          "explanation": "Đọc câu hỏi và đối chiếu thông tin trong tranh Bài 11.",
+          "tips": [
+            "Đây là câu hỏi về sở thích.",
+            "Nếu công viên đẹp và mọi người vui vẻ thì nên trả lời tích cực."
+          ],
+          "commonMistakes": []
+        }
+      ]
+    },
+    {
+      "pictureId": "jpd133_l11_p03",
+      "pictureTitle": "Bị cảm ở bệnh viện",
+      "imageUrl": "/data/speaking/jpd133/qa/lesson11_tranh3.png",
+      "questions": [
+        {
+          "questionId": "jpd133_l11_p03_q01",
+          "order": 1,
+          "question": {
+            "ja": "風邪をひいたとき、どうしますか。",
+            "vi": "Khi bị cảm bạn sẽ làm gì?"
+          },
+          "questionReading": "かぜをひいたとき、どうしますか。",
+          "answerType": "picture_short_answer",
+          "sampleAnswers": [
+            {
+              "ja": "病院へ行きます。",
+              "vi": "Tôi đi bệnh viện.",
+              "reading": "びょういんへいきます。"
+            }
+          ],
+          "grammarIds": [
+            "JPD133-L11-G001"
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "風邪",
+              "reading": "かぜ",
+              "meaning": "Cảm cúm"
+            },
+            {
+              "word": "病院",
+              "reading": "びょういん",
+              "meaning": "Bệnh viện"
+            },
+            {
+              "word": "行きます",
+              "reading": "いきます",
+              "meaning": "Đi"
+            },
+            {
+              "word": "医者",
+              "reading": "いしゃ",
+              "meaning": "Bác sĩ"
+            },
+            {
+              "word": "とき",
+              "reading": "とき",
+              "meaning": "Khi"
+            }
+          ],
+          "explanation": "Đọc câu hỏi và đối chiếu thông tin trong tranh Bài 11.",
+          "tips": [
+            "Nghe ～とき → hỏi hành động khi xảy ra một tình huống.",
+            "Trả lời theo mẫu:",
+            "Quan sát bối cảnh trong tranh."
+          ],
+          "commonMistakes": []
+        },
+        {
+          "questionId": "jpd133_l11_p03_q02",
+          "order": 2,
+          "question": {
+            "ja": "病院へ行きますか。",
+            "vi": "Bạn có đi bệnh viện không?"
+          },
+          "questionReading": "びょういんへいきますか。",
+          "answerType": "picture_short_answer",
+          "sampleAnswers": [
+            {
+              "ja": "はい、病院へ行きます。",
+              "vi": "Vâng, tôi đi bệnh viện.",
+              "reading": "はい、びょういんへいきます。"
+            }
+          ],
+          "grammarIds": [
+            "JPD133-L11-G001"
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "病院",
+              "reading": "びょういん",
+              "meaning": "Bệnh viện"
+            },
+            {
+              "word": "行きます",
+              "reading": "いきます",
+              "meaning": "Đi"
+            },
+            {
+              "word": "医者",
+              "reading": "いしゃ",
+              "meaning": "Bác sĩ"
+            },
+            {
+              "word": "看護師",
+              "reading": "かんごし",
+              "meaning": "Y tá"
+            },
+            {
+              "word": "患者",
+              "reading": "かんじゃ",
+              "meaning": "Bệnh nhân"
+            }
+          ],
+          "explanation": "Đọc câu hỏi và đối chiếu thông tin trong tranh Bài 11.",
+          "tips": [
+            "Câu hỏi ～ますか.",
+            "Trả lời:"
+          ],
+          "commonMistakes": []
+        },
+        {
+          "questionId": "jpd133_l11_p03_q03",
+          "order": 3,
+          "question": {
+            "ja": "薬を飲みますか。",
+            "vi": "Bạn có uống thuốc không?"
+          },
+          "questionReading": "くすりをのみますか。",
+          "answerType": "picture_short_answer",
+          "sampleAnswers": [
+            {
+              "ja": "はい、薬を飲みます。",
+              "vi": "Vâng, tôi uống thuốc.",
+              "reading": "はい、くすりをのみます。"
+            }
+          ],
+          "grammarIds": [
+            "JPD133-L11-G001"
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "薬",
+              "reading": "くすり",
+              "meaning": "Thuốc"
+            },
+            {
+              "word": "飲みます",
+              "reading": "のみます",
+              "meaning": "Uống"
+            },
+            {
+              "word": "水",
+              "reading": "みず",
+              "meaning": "Nước"
+            },
+            {
+              "word": "熱",
+              "reading": "ねつ",
+              "meaning": "Sốt"
+            },
+            {
+              "word": "風邪",
+              "reading": "かぜ",
+              "meaning": "Cảm"
+            }
+          ],
+          "explanation": "Đọc câu hỏi và đối chiếu thông tin trong tranh Bài 11.",
+          "tips": [
+            "Quan sát xem nhân vật có thuốc hay không.",
+            "Trả lời:"
+          ],
+          "commonMistakes": []
+        },
+        {
+          "questionId": "jpd133_l11_p03_q04",
+          "order": 4,
+          "question": {
+            "ja": "今日はどうして病院へ来ましたか。",
+            "vi": "Hôm nay vì sao bạn đến bệnh viện?"
+          },
+          "questionReading": "きょうはどうしてびょういんへきましたか。",
+          "answerType": "picture_short_answer",
+          "sampleAnswers": [
+            {
+              "ja": "風邪をひいたからです。",
+              "vi": "Vì tôi bị cảm.",
+              "reading": "かぜをひいたからです。"
+            }
+          ],
+          "grammarIds": [
+            "JPD133-L11-G001"
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "今日",
+              "reading": "きょう",
+              "meaning": "Hôm nay"
+            },
+            {
+              "word": "どうして",
+              "reading": "どうして",
+              "meaning": "Tại sao"
+            },
+            {
+              "word": "風邪",
+              "reading": "かぜ",
+              "meaning": "Cảm"
+            },
+            {
+              "word": "来ました",
+              "reading": "きました",
+              "meaning": "Đã đến"
+            },
+            {
+              "word": "病院",
+              "reading": "びょういん",
+              "meaning": "Bệnh viện"
+            }
+          ],
+          "explanation": "Đọc câu hỏi và đối chiếu thông tin trong tranh Bài 11.",
+          "tips": [
+            "Nghe どうして → trả lời lý do.",
+            "Dùng:"
+          ],
+          "commonMistakes": []
+        },
+        {
+          "questionId": "jpd133_l11_p03_q05",
+          "order": 5,
+          "question": {
+            "ja": "今、具合はどうですか。",
+            "vi": "Bây giờ bạn thấy trong người thế nào?"
+          },
+          "questionReading": "いま、ぐあいはどうですか。",
+          "answerType": "picture_short_answer",
+          "sampleAnswers": [
+            {
+              "ja": "今はだいぶいいです。",
+              "vi": "Bây giờ tôi đỡ nhiều rồi.",
+              "reading": "いまはだいぶいいです。"
+            }
+          ],
+          "grammarIds": [
+            "JPD133-L11-G001"
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "具合",
+              "reading": "ぐあい",
+              "meaning": "Tình trạng sức khỏe"
+            },
+            {
+              "word": "いい",
+              "reading": "いい",
+              "meaning": "Tốt"
+            },
+            {
+              "word": "悪い",
+              "reading": "わるい",
+              "meaning": "Xấu"
+            },
+            {
+              "word": "元気",
+              "reading": "げんき",
+              "meaning": "Khỏe"
+            },
+            {
+              "word": "病院",
+              "reading": "びょういん",
+              "meaning": "Bệnh viện"
+            }
+          ],
+          "explanation": "Đọc câu hỏi và đối chiếu thông tin trong tranh Bài 11.",
+          "tips": [
+            "Đây là câu hỏi về tình trạng sức khỏe.",
+            "Quan sát biểu cảm nhân vật sau khi khám.",
+            "Có thể trả lời:"
+          ],
+          "commonMistakes": []
+        }
+      ]
+    },
+    {
+      "pictureId": "jpd133_l11_p04",
+      "pictureTitle": "Mệt sau khi học",
+      "imageUrl": "/data/speaking/jpd133/qa/lesson11_tranh4.png",
+      "questions": [
+        {
+          "questionId": "jpd133_l11_p04_q01",
+          "order": 1,
+          "question": {
+            "ja": "疲れたとき、どうしますか。",
+            "vi": "Khi mệt bạn sẽ làm gì?"
+          },
+          "questionReading": "つかれたとき、どうしますか。",
+          "answerType": "picture_short_answer",
+          "sampleAnswers": [
+            {
+              "ja": "少し休みます。",
+              "vi": "Tôi nghỉ một chút.",
+              "reading": "すこしやすみます。"
+            }
+          ],
+          "grammarIds": [
+            "JPD133-L11-G001"
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "疲れます",
+              "reading": "つかれます",
+              "meaning": "Mệt"
+            },
+            {
+              "word": "休みます",
+              "reading": "やすみます",
+              "meaning": "Nghỉ ngơi"
+            },
+            {
+              "word": "少し",
+              "reading": "すこし",
+              "meaning": "Một chút"
+            },
+            {
+              "word": "ソファー",
+              "reading": "ソファー",
+              "meaning": "Ghế sofa"
+            },
+            {
+              "word": "とき",
+              "reading": "とき",
+              "meaning": "Khi"
+            }
+          ],
+          "explanation": "Đọc câu hỏi và đối chiếu thông tin trong tranh Bài 11.",
+          "tips": [
+            "Nghe ～とき.",
+            "Trả lời hành động phù hợp trong tranh."
+          ],
+          "commonMistakes": []
+        },
+        {
+          "questionId": "jpd133_l11_p04_q02",
+          "order": 2,
+          "question": {
+            "ja": "よく昼寝をしますか。",
+            "vi": "Bạn có thường ngủ trưa không?"
+          },
+          "questionReading": "よくひるねをしますか。",
+          "answerType": "picture_short_answer",
+          "sampleAnswers": [
+            {
+              "ja": "はい、よく昼寝をします。",
+              "vi": "Vâng, tôi thường ngủ trưa.",
+              "reading": "はい、よくひるねをします。"
+            }
+          ],
+          "grammarIds": [
+            "JPD133-L11-G001"
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "昼寝",
+              "reading": "ひるね",
+              "meaning": "Ngủ trưa"
+            },
+            {
+              "word": "よく",
+              "reading": "よく",
+              "meaning": "Thường"
+            },
+            {
+              "word": "休みます",
+              "reading": "やすみます",
+              "meaning": "Nghỉ"
+            },
+            {
+              "word": "疲れます",
+              "reading": "つかれます",
+              "meaning": "Mệt"
+            },
+            {
+              "word": "ベッド",
+              "reading": "ベッド",
+              "meaning": "Giường"
+            }
+          ],
+          "explanation": "Đọc câu hỏi và đối chiếu thông tin trong tranh Bài 11.",
+          "tips": [
+            "Nghe よく → hỏi về tần suất.",
+            "Trả lời:"
+          ],
+          "commonMistakes": []
+        },
+        {
+          "questionId": "jpd133_l11_p04_q03",
+          "order": 3,
+          "question": {
+            "ja": "音楽を聞きますか。",
+            "vi": "Bạn có nghe nhạc không?"
+          },
+          "questionReading": "おんがくをききますか。",
+          "answerType": "picture_short_answer",
+          "sampleAnswers": [
+            {
+              "ja": "はい、音楽を聞きます。",
+              "vi": "Vâng, tôi nghe nhạc.",
+              "reading": "はい、おんがくをききます。"
+            }
+          ],
+          "grammarIds": [
+            "JPD133-L11-G001"
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "音楽",
+              "reading": "おんがく",
+              "meaning": "Âm nhạc"
+            },
+            {
+              "word": "聞きます",
+              "reading": "ききます",
+              "meaning": "Nghe"
+            },
+            {
+              "word": "イヤホン",
+              "reading": "イヤホン",
+              "meaning": "Tai nghe"
+            },
+            {
+              "word": "スマートフォン",
+              "reading": "スマートフォン",
+              "meaning": "Điện thoại"
+            },
+            {
+              "word": "歌",
+              "reading": "うた",
+              "meaning": "Bài hát"
+            }
+          ],
+          "explanation": "Đọc câu hỏi và đối chiếu thông tin trong tranh Bài 11.",
+          "tips": [
+            "Quan sát tai nghe hoặc điện thoại.",
+            "Trả lời:"
+          ],
+          "commonMistakes": []
+        },
+        {
+          "questionId": "jpd133_l11_p04_q04",
+          "order": 4,
+          "question": {
+            "ja": "今日は疲れていますか。",
+            "vi": "Hôm nay bạn có mệt không?"
+          },
+          "questionReading": "きょうはつかれていますか。",
+          "answerType": "picture_short_answer",
+          "sampleAnswers": [
+            {
+              "ja": "はい、少し疲れています。",
+              "vi": "Vâng, hôm nay tôi hơi mệt.",
+              "reading": "はい、すこしつかれています。"
+            }
+          ],
+          "grammarIds": [
+            "JPD133-L11-G001"
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "今日",
+              "reading": "きょう",
+              "meaning": "Hôm nay"
+            },
+            {
+              "word": "疲れています",
+              "reading": "つかれています",
+              "meaning": "Đang mệt"
+            },
+            {
+              "word": "少し",
+              "reading": "すこし",
+              "meaning": "Một chút"
+            },
+            {
+              "word": "元気",
+              "reading": "げんき",
+              "meaning": "Khỏe"
+            },
+            {
+              "word": "勉強",
+              "reading": "べんきょう",
+              "meaning": "Học"
+            }
+          ],
+          "explanation": "Đọc câu hỏi và đối chiếu thông tin trong tranh Bài 11.",
+          "tips": [
+            "Đây là câu hỏi về trạng thái hiện tại.",
+            "Trả lời bằng:"
+          ],
+          "commonMistakes": []
+        },
+        {
+          "questionId": "jpd133_l11_p04_q05",
+          "order": 5,
+          "question": {
+            "ja": "何時間ぐらい休みますか。",
+            "vi": "Bạn nghỉ khoảng bao lâu?"
+          },
+          "questionReading": "なんじかんぐらいやすみますか。",
+          "answerType": "picture_short_answer",
+          "sampleAnswers": [
+            {
+              "ja": "一時間ぐらい休みます。",
+              "vi": "Tôi nghỉ khoảng một giờ.",
+              "reading": "いちじかんぐらいやすみます。"
+            }
+          ],
+          "grammarIds": [
+            "JPD133-L11-G001"
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "一時間",
+              "reading": "いちじかん",
+              "meaning": "Một giờ"
+            },
+            {
+              "word": "休みます",
+              "reading": "やすみます",
+              "meaning": "Nghỉ"
+            },
+            {
+              "word": "時間",
+              "reading": "じかん",
+              "meaning": "Thời gian"
+            },
+            {
+              "word": "疲れます",
+              "reading": "つかれます",
+              "meaning": "Mệt"
+            },
+            {
+              "word": "ソファー",
+              "reading": "ソファー",
+              "meaning": "Ghế sofa"
+            }
+          ],
+          "explanation": "Đọc câu hỏi và đối chiếu thông tin trong tranh Bài 11.",
+          "tips": [
+            "Nghe 何時間ぐらい → trả lời khoảng thời gian.",
+            "Dùng:"
+          ],
+          "commonMistakes": []
+        }
+      ]
+    },
+    {
+      "pictureId": "jpd133_l11_p05",
+      "pictureTitle": "Học tiếng Nhật",
+      "imageUrl": "/data/speaking/jpd133/qa/lesson11_tranh5.png",
+      "questions": [
+        {
+          "questionId": "jpd133_l11_p05_q01",
+          "order": 1,
+          "question": {
+            "ja": "いつ日本語の勉強を始めましたか。",
+            "vi": "Bạn bắt đầu học tiếng Nhật từ khi nào?"
+          },
+          "questionReading": "いつにほんごのべんきょうをはじめましたか。",
+          "answerType": "picture_short_answer",
+          "sampleAnswers": [
+            {
+              "ja": "二年前に始めました。",
+              "vi": "Tôi bắt đầu từ hai năm trước.",
+              "reading": "にねんまえにはじめました。"
+            }
+          ],
+          "grammarIds": [
+            "JPD133-L11-G001"
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "日本語",
+              "reading": "にほんご",
+              "meaning": "Tiếng Nhật"
+            },
+            {
+              "word": "勉強",
+              "reading": "べんきょう",
+              "meaning": "Học"
+            },
+            {
+              "word": "始めます",
+              "reading": "はじめます",
+              "meaning": "Bắt đầu"
+            },
+            {
+              "word": "二年前",
+              "reading": "にねんまえ",
+              "meaning": "Hai năm trước"
+            },
+            {
+              "word": "教室",
+              "reading": "きょうしつ",
+              "meaning": "Lớp học"
+            }
+          ],
+          "explanation": "Đọc câu hỏi và đối chiếu thông tin trong tranh Bài 11.",
+          "tips": [
+            "Nghe いつ → trả lời mốc thời gian.",
+            "Chú ý động từ 始めました.",
+            "Dùng mẫu:"
+          ],
+          "commonMistakes": []
+        },
+        {
+          "questionId": "jpd133_l11_p05_q02",
+          "order": 2,
+          "question": {
+            "ja": "日本語を勉強して何年ですか。",
+            "vi": "Bạn đã học tiếng Nhật được bao nhiêu năm?"
+          },
+          "questionReading": "にほんごをべんきょうしてなんねんですか。",
+          "answerType": "picture_short_answer",
+          "sampleAnswers": [
+            {
+              "ja": "二年です。",
+              "vi": "Được hai năm.",
+              "reading": "にねんです。"
+            }
+          ],
+          "grammarIds": [
+            "JPD133-L11-G001"
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "一年",
+              "reading": "いちねん",
+              "meaning": "Một năm"
+            },
+            {
+              "word": "二年",
+              "reading": "にねん",
+              "meaning": "Hai năm"
+            },
+            {
+              "word": "三年",
+              "reading": "さんねん",
+              "meaning": "Ba năm"
+            },
+            {
+              "word": "勉強",
+              "reading": "べんきょう",
+              "meaning": "Học"
+            },
+            {
+              "word": "日本語",
+              "reading": "にほんご",
+              "meaning": "Tiếng Nhật"
+            }
+          ],
+          "explanation": "Đọc câu hỏi và đối chiếu thông tin trong tranh Bài 11.",
+          "tips": [
+            "Nghe 何年 → trả lời khoảng thời gian.",
+            "Dùng:"
+          ],
+          "commonMistakes": []
+        },
+        {
+          "questionId": "jpd133_l11_p05_q03",
+          "order": 3,
+          "question": {
+            "ja": "毎日日本語を勉強しますか。",
+            "vi": "Hằng ngày bạn có học tiếng Nhật không?"
+          },
+          "questionReading": "まいにちにほんごをべんきょうしますか。",
+          "answerType": "picture_short_answer",
+          "sampleAnswers": [
+            {
+              "ja": "はい、毎日勉強します。",
+              "vi": "Vâng, hằng ngày tôi học.",
+              "reading": "はい、まいにちべんきょうします。"
+            }
+          ],
+          "grammarIds": [
+            "JPD133-L11-G001"
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "毎日",
+              "reading": "まいにち",
+              "meaning": "Mỗi ngày"
+            },
+            {
+              "word": "日本語",
+              "reading": "にほんご",
+              "meaning": "Tiếng Nhật"
+            },
+            {
+              "word": "勉強します",
+              "reading": "べんきょうします",
+              "meaning": "Học"
+            },
+            {
+              "word": "教科書",
+              "reading": "きょうかしょ",
+              "meaning": "Giáo trình"
+            },
+            {
+              "word": "ノート",
+              "reading": "ノート",
+              "meaning": "Vở"
+            }
+          ],
+          "explanation": "Đọc câu hỏi và đối chiếu thông tin trong tranh Bài 11.",
+          "tips": [
+            "Nghe 毎日 → hỏi về tần suất.",
+            "Trả lời:"
+          ],
+          "commonMistakes": []
+        },
+        {
+          "questionId": "jpd133_l11_p05_q04",
+          "order": 4,
+          "question": {
+            "ja": "日本語の勉強は好きですか。",
+            "vi": "Bạn có thích học tiếng Nhật không?"
+          },
+          "questionReading": "にほんごのべんきょうはすきですか。",
+          "answerType": "picture_short_answer",
+          "sampleAnswers": [
+            {
+              "ja": "はい、とても好きです。",
+              "vi": "Vâng, tôi rất thích.",
+              "reading": "はい、とてもすきです。"
+            }
+          ],
+          "grammarIds": [
+            "JPD133-L11-G001"
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "日本語",
+              "reading": "にほんご",
+              "meaning": "Tiếng Nhật"
+            },
+            {
+              "word": "勉強",
+              "reading": "べんきょう",
+              "meaning": "Học"
+            },
+            {
+              "word": "好き",
+              "reading": "すき",
+              "meaning": "Thích"
+            },
+            {
+              "word": "楽しい",
+              "reading": "たのしい",
+              "meaning": "Thú vị"
+            },
+            {
+              "word": "先生",
+              "reading": "せんせい",
+              "meaning": "Giáo viên"
+            }
+          ],
+          "explanation": "Đọc câu hỏi và đối chiếu thông tin trong tranh Bài 11.",
+          "tips": [
+            "Đây là câu hỏi về sở thích.",
+            "Dùng:"
+          ],
+          "commonMistakes": []
+        },
+        {
+          "questionId": "jpd133_l11_p05_q05",
+          "order": 5,
+          "question": {
+            "ja": "日本語で何をしたいですか。",
+            "vi": "Bạn muốn làm gì bằng tiếng Nhật?"
+          },
+          "questionReading": "にほんごでなにをしたいですか。",
+          "answerType": "picture_short_answer",
+          "sampleAnswers": [
+            {
+              "ja": "日本人と話したいです。",
+              "vi": "Tôi muốn nói chuyện với người Nhật.",
+              "reading": "にほんじんとはなしたいです。"
+            }
+          ],
+          "grammarIds": [
+            "JPD133-L11-G001"
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "日本人",
+              "reading": "にほんじん",
+              "meaning": "Người Nhật"
+            },
+            {
+              "word": "話します",
+              "reading": "はなします",
+              "meaning": "Nói chuyện"
+            },
+            {
+              "word": "読みます",
+              "reading": "よみます",
+              "meaning": "Đọc"
+            },
+            {
+              "word": "日本語",
+              "reading": "にほんご",
+              "meaning": "Tiếng Nhật"
+            },
+            {
+              "word": "勉強",
+              "reading": "べんきょう",
+              "meaning": "Học"
+            }
+          ],
+          "explanation": "Đọc câu hỏi và đối chiếu thông tin trong tranh Bài 11.",
+          "tips": [
+            "Nghe 何をしたいですか.",
+            "Dùng mẫu:",
+            "Trả lời mục tiêu học tiếng Nhật."
+          ],
+          "commonMistakes": []
+        }
+      ]
+    },
+    {
+      "pictureId": "jpd133_l11_p06",
+      "pictureTitle": "Quán cà phê",
+      "imageUrl": "/data/speaking/jpd133/qa/lesson11_tranh6.png",
+      "questions": [
+        {
+          "questionId": "jpd133_l11_p06_q01",
+          "order": 1,
+          "question": {
+            "ja": "カフェで何をしていますか。",
+            "vi": "Bạn đang làm gì ở quán cà phê?"
+          },
+          "questionReading": "カフェでなにをしていますか。",
+          "answerType": "picture_short_answer",
+          "sampleAnswers": [
+            {
+              "ja": "日本語を勉強しています。",
+              "vi": "Tôi đang học tiếng Nhật.",
+              "reading": "にほんごをべんきょうしています。"
+            }
+          ],
+          "grammarIds": [
+            "JPD133-L11-G001"
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "カフェ",
+              "reading": "カフェ",
+              "meaning": "Quán cà phê"
+            },
+            {
+              "word": "勉強しています",
+              "reading": "べんきょうしています",
+              "meaning": "Đang học"
+            },
+            {
+              "word": "コーヒー",
+              "reading": "コーヒー",
+              "meaning": "Cà phê"
+            },
+            {
+              "word": "本",
+              "reading": "ほん",
+              "meaning": "Sách"
+            },
+            {
+              "word": "ノート",
+              "reading": "ノート",
+              "meaning": "Vở"
+            }
+          ],
+          "explanation": "Đọc câu hỏi và đối chiếu thông tin trong tranh Bài 11.",
+          "tips": [
+            "Nghe 何をしていますか.",
+            "Trả lời bằng:"
+          ],
+          "commonMistakes": []
+        },
+        {
+          "questionId": "jpd133_l11_p06_q02",
+          "order": 2,
+          "question": {
+            "ja": "コーヒーを飲みますか。",
+            "vi": "Bạn có uống cà phê không?"
+          },
+          "questionReading": "コーヒーをのみますか。",
+          "answerType": "picture_short_answer",
+          "sampleAnswers": [
+            {
+              "ja": "はい、飲みます。",
+              "vi": "Vâng, tôi uống.",
+              "reading": "はい、のみます。"
+            }
+          ],
+          "grammarIds": [
+            "JPD133-L11-G001"
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "コーヒー",
+              "reading": "コーヒー",
+              "meaning": "Cà phê"
+            },
+            {
+              "word": "飲みます",
+              "reading": "のみます",
+              "meaning": "Uống"
+            },
+            {
+              "word": "お茶",
+              "reading": "おちゃ",
+              "meaning": "Trà"
+            },
+            {
+              "word": "水",
+              "reading": "みず",
+              "meaning": "Nước"
+            },
+            {
+              "word": "カップ",
+              "reading": "カップ",
+              "meaning": "Cốc"
+            }
+          ],
+          "explanation": "Đọc câu hỏi và đối chiếu thông tin trong tranh Bài 11.",
+          "tips": [
+            "Quan sát đồ uống trên bàn.",
+            "Trả lời:"
+          ],
+          "commonMistakes": []
+        },
+        {
+          "questionId": "jpd133_l11_p06_q03",
+          "order": 3,
+          "question": {
+            "ja": "だれとカフェへ来ましたか。",
+            "vi": "Bạn đã đến quán cà phê cùng ai?"
+          },
+          "questionReading": "だれとカフェへきましたか。",
+          "answerType": "picture_short_answer",
+          "sampleAnswers": [
+            {
+              "ja": "友達と来ました。",
+              "vi": "Tôi đến cùng bạn.",
+              "reading": "ともだちときました。"
+            }
+          ],
+          "grammarIds": [
+            "JPD133-L11-G001"
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "友達",
+              "reading": "ともだち",
+              "meaning": "Bạn bè"
+            },
+            {
+              "word": "カフェ",
+              "reading": "カフェ",
+              "meaning": "Quán cà phê"
+            },
+            {
+              "word": "来ました",
+              "reading": "きました",
+              "meaning": "Đã đến"
+            },
+            {
+              "word": "一緒に",
+              "reading": "いっしょに",
+              "meaning": "Cùng nhau"
+            },
+            {
+              "word": "学生",
+              "reading": "がくせい",
+              "meaning": "Sinh viên"
+            }
+          ],
+          "explanation": "Đọc câu hỏi và đối chiếu thông tin trong tranh Bài 11.",
+          "tips": [
+            "Nghe だれと → xác định người đi cùng.",
+            "Dùng:"
+          ],
+          "commonMistakes": []
+        },
+        {
+          "questionId": "jpd133_l11_p06_q04",
+          "order": 4,
+          "question": {
+            "ja": "カフェで勉強しますか。",
+            "vi": "Bạn có học ở quán cà phê không?"
+          },
+          "questionReading": "カフェでべんきょうしますか。",
+          "answerType": "picture_short_answer",
+          "sampleAnswers": [
+            {
+              "ja": "はい、勉強します。",
+              "vi": "Vâng, tôi học ở quán cà phê.",
+              "reading": "はい、べんきょうします。"
+            }
+          ],
+          "grammarIds": [
+            "JPD133-L11-G001"
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "勉強します",
+              "reading": "べんきょうします",
+              "meaning": "Học"
+            },
+            {
+              "word": "カフェ",
+              "reading": "カフェ",
+              "meaning": "Quán cà phê"
+            },
+            {
+              "word": "本",
+              "reading": "ほん",
+              "meaning": "Sách"
+            },
+            {
+              "word": "ノート",
+              "reading": "ノート",
+              "meaning": "Vở"
+            },
+            {
+              "word": "パソコン",
+              "reading": "パソコン",
+              "meaning": "Máy tính"
+            }
+          ],
+          "explanation": "Đọc câu hỏi và đối chiếu thông tin trong tranh Bài 11.",
+          "tips": [
+            "Quan sát sách và laptop trên bàn.",
+            "Trả lời:"
+          ],
+          "commonMistakes": []
+        },
+        {
+          "questionId": "jpd133_l11_p06_q05",
+          "order": 5,
+          "question": {
+            "ja": "このカフェはどうですか。",
+            "vi": "Quán cà phê này thế nào?"
+          },
+          "questionReading": "このカフェはどうですか。",
+          "answerType": "picture_short_answer",
+          "sampleAnswers": [
+            {
+              "ja": "静かで、きれいです。",
+              "vi": "Quán yên tĩnh và đẹp.",
+              "reading": "しずかで、きれいです。"
+            }
+          ],
+          "grammarIds": [
+            "JPD133-L11-G001"
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "静か",
+              "reading": "しずか",
+              "meaning": "Yên tĩnh"
+            },
+            {
+              "word": "きれい",
+              "reading": "きれい",
+              "meaning": "Đẹp, sạch"
+            },
+            {
+              "word": "カフェ",
+              "reading": "カフェ",
+              "meaning": "Quán cà phê"
+            },
+            {
+              "word": "勉強",
+              "reading": "べんきょう",
+              "meaning": "Học"
+            },
+            {
+              "word": "コーヒー",
+              "reading": "コーヒー",
+              "meaning": "Cà phê"
+            }
+          ],
+          "explanation": "Đọc câu hỏi và đối chiếu thông tin trong tranh Bài 11.",
+          "tips": [
+            "Đây là câu hỏi miêu tả địa điểm.",
+            "Có thể dùng hai tính từ:",
+            "Quan sát không gian quán để chọn tính từ phù hợp.",
+            "Không lặp nguyên văn câu hỏi giữa các tranh.",
+            "Mỗi tranh chỉ có một mục tiêu giao tiếp chính.",
+            "Câu hỏi đi từ dễ → khó.",
+            "Chỉ sử dụng từ vựng của bài.",
+            "Chỉ sử dụng ngữ pháp của bài.",
+            "Mỗi tranh có ít nhất 2 loại câu hỏi khác nhau (thông tin trực tiếp, mở rộng, suy luận đơn giản)."
+          ],
+          "commonMistakes": []
+        }
+      ]
+    }
+  ]
+}

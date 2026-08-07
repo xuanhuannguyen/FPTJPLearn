@@ -12,6 +12,7 @@ public static partial class SpeakingSeedData
 
     private static readonly Guid Jpd113CourseId = Guid.Parse("88888888-1113-0000-0000-000000000001");
     private static readonly Guid Jpd123CourseId = Guid.Parse("88888888-1123-0000-0000-000000000001");
+    private static readonly Guid Jpd133CourseId = Guid.Parse("88888888-1133-0000-0000-000000000001");
 
     public static async Task SeedAsync(AppDbContext db)
     {
@@ -49,6 +50,18 @@ public static partial class SpeakingSeedData
                 AccessTier = SpeakingAccessTiers.Premium,
                 PackageCode = "speaking_jpd123",
                 OrderIndex = 2,
+                CreatedAt = SeededAt,
+                UpdatedAt = SeededAt
+            },
+            new SpeakingCourse
+            {
+                Id = Jpd133CourseId,
+                Code = SpeakingCourseCodes.JPD133,
+                Title = "JPD133",
+                Description = "Bài đọc luyện nói tạm thời cho JPD133 Bài 8–11.",
+                AccessTier = SpeakingAccessTiers.Premium,
+                PackageCode = "speaking_jpd133",
+                OrderIndex = 3,
                 CreatedAt = SeededAt,
                 UpdatedAt = SeededAt
             }
@@ -242,18 +255,36 @@ public static partial class SpeakingSeedData
 
     private static Guid CourseId(string courseCode)
     {
-        return courseCode == SpeakingCourseCodes.JPD113 ? Jpd113CourseId : Jpd123CourseId;
+        return courseCode switch
+        {
+            SpeakingCourseCodes.JPD113 => Jpd113CourseId,
+            SpeakingCourseCodes.JPD123 => Jpd123CourseId,
+            SpeakingCourseCodes.JPD133 => Jpd133CourseId,
+            _ => throw new InvalidOperationException($"Unknown speaking course: {courseCode}")
+        };
     }
 
     private static Guid LessonId(string courseCode, int lessonNumber)
     {
-        var courseSegment = courseCode == SpeakingCourseCodes.JPD113 ? "1113" : "1123";
+        var courseSegment = courseCode switch
+        {
+            SpeakingCourseCodes.JPD113 => "1113",
+            SpeakingCourseCodes.JPD123 => "1123",
+            SpeakingCourseCodes.JPD133 => "1133",
+            _ => throw new InvalidOperationException($"Unknown speaking course: {courseCode}")
+        };
         return Guid.Parse($"88888888-{courseSegment}-0000-0000-{lessonNumber + 100:000000000000}");
     }
 
     private static Guid SentenceId(string courseCode, int lessonNumber, int sentenceNumber)
     {
-        var courseSegment = courseCode == SpeakingCourseCodes.JPD113 ? "1113" : "1123";
+        var courseSegment = courseCode switch
+        {
+            SpeakingCourseCodes.JPD113 => "1113",
+            SpeakingCourseCodes.JPD123 => "1123",
+            SpeakingCourseCodes.JPD133 => "1133",
+            _ => throw new InvalidOperationException($"Unknown speaking course: {courseCode}")
+        };
         return Guid.Parse($"88888888-{courseSegment}-0000-0000-{lessonNumber * 1000 + sentenceNumber:000000000000}");
     }
 

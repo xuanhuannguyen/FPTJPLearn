@@ -11,7 +11,7 @@ export const speakingApi = {
   },
 
   getLesson: async (lessonId: string): Promise<SpeakingLessonDetail> => {
-    const courseCode = lessonId.includes('1113') ? 'jpd113' : 'jpd123';
+    const courseCode = lessonId.includes('1113') ? 'jpd113' : lessonId.includes('1123') ? 'jpd123' : 'jpd133';
     return fetchStatic<SpeakingLessonDetail>(`speaking/${courseCode}/lessons/${lessonId}.json`);
   },
 };

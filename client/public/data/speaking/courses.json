@@ -20,5 +20,16 @@
     "isLocked": true,
     "lessonCount": 28,
     "sentenceCount": 261
+  },
+  {
+    "id": "88888888-1133-0000-0000-000000000001",
+    "code": "jpd133",
+    "title": "JPD133",
+    "description": "Bài đọc luyện nói JPD133.",
+    "accessTier": "premium",
+    "packageCode": "speaking_jpd133",
+    "isLocked": true,
+    "lessonCount": 4,
+    "sentenceCount": 100
   }
 ]

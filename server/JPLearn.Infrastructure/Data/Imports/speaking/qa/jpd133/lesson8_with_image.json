@@ -1,0 +1,1988 @@
+{
+  "courseCode": "jpd133",
+  "lessonNumber": 8,
+  "lessonTitle": "Bài 8 - JPD133 Q&A Có Tranh",
+  "questionMode": "WITH_IMAGE",
+  "dataPurpose": "oral_exam_practice_web",
+  "lessonOverview": {
+    "shortSummary": "Luyện phản xạ nhìn tranh và trả lời câu hỏi JPD133 Bài 8.",
+    "studentCanDo": [
+      "Nhận diện thông tin chính trong tranh.",
+      "Trả lời bằng câu tiếng Nhật ngắn và đúng mẫu."
+    ],
+    "mainSkills": [
+      "Quan sát người, vật, địa điểm và hành động.",
+      "Dùng từ vựng và mẫu câu theo bài."
+    ],
+    "mainGrammarFocus": [
+      "JPD133-L08-G001"
+    ],
+    "examTipSummary": "Quan sát toàn bộ tranh trước khi trả lời; ưu tiên câu ngắn, đủ chủ ngữ và động từ."
+  },
+  "pictureSets": [
+    {
+      "pictureId": "jpd133_l8_p01",
+      "pictureTitle": "Gia đình ăn cơm",
+      "imageUrl": "/data/speaking/jpd133/qa/lesson8_tranh1.png",
+      "questions": [
+        {
+          "questionId": "jpd133_l8_p01_q01",
+          "order": 1,
+          "question": {
+            "ja": "家族は何人ですか。",
+            "vi": "Gia đình có mấy người?"
+          },
+          "questionReading": "かぞくはなんにんですか。",
+          "answerType": "picture_short_answer",
+          "sampleAnswers": [
+            {
+              "ja": "家族は四人です。",
+              "vi": "Gia đình có bốn người.",
+              "reading": "かぞくはよにんです。"
+            }
+          ],
+          "grammarIds": [
+            "JPD133-L08-G001"
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "家族",
+              "reading": "かぞく",
+              "meaning": "Gia đình"
+            },
+            {
+              "word": "四人",
+              "reading": "よにん",
+              "meaning": "Bốn người"
+            },
+            {
+              "word": "父",
+              "reading": "ちち",
+              "meaning": "Bố"
+            },
+            {
+              "word": "母",
+              "reading": "はは",
+              "meaning": "Mẹ"
+            },
+            {
+              "word": "息子",
+              "reading": "むすこ",
+              "meaning": "Con trai"
+            },
+            {
+              "word": "娘",
+              "reading": "むすめ",
+              "meaning": "Con gái"
+            }
+          ],
+          "explanation": "Đọc câu hỏi và đối chiếu thông tin trong tranh Bài 8.",
+          "tips": [
+            "Nghe 何人（なんにん） → đếm số người trong tranh.",
+            "Trả lời theo mẫu:",
+            "Chú ý cách đọc đặc biệt:"
+          ],
+          "commonMistakes": []
+        },
+        {
+          "questionId": "jpd133_l8_p01_q02",
+          "order": 2,
+          "question": {
+            "ja": "誰と住んでいますか。",
+            "vi": "Bạn đang sống với ai?"
+          },
+          "questionReading": "だれとすんでいますか。",
+          "answerType": "picture_short_answer",
+          "sampleAnswers": [
+            {
+              "ja": "父と母と妹と住んでいます。",
+              "vi": "Tôi sống cùng bố, mẹ và em gái.",
+              "reading": "ちちとははといもうととすんでいます。"
+            }
+          ],
+          "grammarIds": [
+            "JPD133-L08-G001"
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "誰",
+              "reading": "だれ",
+              "meaning": "Ai"
+            },
+            {
+              "word": "父",
+              "reading": "ちち",
+              "meaning": "Bố"
+            },
+            {
+              "word": "母",
+              "reading": "はは",
+              "meaning": "Mẹ"
+            },
+            {
+              "word": "妹",
+              "reading": "いもうと",
+              "meaning": "Em gái"
+            },
+            {
+              "word": "家族",
+              "reading": "かぞく",
+              "meaning": "Gia đình"
+            },
+            {
+              "word": "住んでいます",
+              "reading": "すんでいます",
+              "meaning": "Đang sống"
+            }
+          ],
+          "explanation": "Đọc câu hỏi và đối chiếu thông tin trong tranh Bài 8.",
+          "tips": [
+            "Nghe 誰と → trả lời bằng:",
+            "Dùng と để nối nhiều người.",
+            "Có thể thay bằng:"
+          ],
+          "commonMistakes": []
+        },
+        {
+          "questionId": "jpd133_l8_p01_q03",
+          "order": 3,
+          "question": {
+            "ja": "毎日家族と食事をしますか。",
+            "vi": "Hằng ngày bạn có ăn cơm cùng gia đình không?"
+          },
+          "questionReading": "まいにちかぞくとしょくじをしますか。",
+          "answerType": "picture_short_answer",
+          "sampleAnswers": [
+            {
+              "ja": "はい、毎日家族と食事をします。",
+              "vi": "Vâng, hằng ngày tôi ăn cơm cùng gia đình.",
+              "reading": "はい、まいにちかぞくとしょくじをします。"
+            }
+          ],
+          "grammarIds": [
+            "JPD133-L08-G001"
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "毎日",
+              "reading": "まいにち",
+              "meaning": "Mỗi ngày"
+            },
+            {
+              "word": "家族",
+              "reading": "かぞく",
+              "meaning": "Gia đình"
+            },
+            {
+              "word": "食事",
+              "reading": "しょくじ",
+              "meaning": "Bữa ăn"
+            },
+            {
+              "word": "食べます",
+              "reading": "たべます",
+              "meaning": "Ăn"
+            },
+            {
+              "word": "一緒に",
+              "reading": "いっしょに",
+              "meaning": "Cùng nhau"
+            }
+          ],
+          "explanation": "Đọc câu hỏi và đối chiếu thông tin trong tranh Bài 8.",
+          "tips": [
+            "Câu hỏi ～ますか thường trả lời:",
+            "Nếu tranh thể hiện cả gia đình đang ăn cùng nhau thì nên trả lời はい."
+          ],
+          "commonMistakes": []
+        },
+        {
+          "questionId": "jpd133_l8_p01_q04",
+          "order": 4,
+          "question": {
+            "ja": "お父さんはどこですか。",
+            "vi": "Bố đang ở đâu?"
+          },
+          "questionReading": "おとうさんはどこですか。",
+          "answerType": "picture_short_answer",
+          "sampleAnswers": [
+            {
+              "ja": "お父さんは食堂にいます。",
+              "vi": "Bố đang ở phòng ăn.",
+              "reading": "おとうさんはしょくどうにいます。"
+            }
+          ],
+          "grammarIds": [
+            "JPD133-L08-G001"
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "お父さん",
+              "reading": "おとうさん",
+              "meaning": "Bố"
+            },
+            {
+              "word": "食堂",
+              "reading": "しょくどう",
+              "meaning": "Phòng ăn"
+            },
+            {
+              "word": "台所",
+              "reading": "だいどころ",
+              "meaning": "Nhà bếp"
+            },
+            {
+              "word": "います",
+              "reading": "います",
+              "meaning": "Có, ở"
+            }
+          ],
+          "explanation": "Đọc câu hỏi và đối chiếu thông tin trong tranh Bài 8.",
+          "tips": [
+            "Nghe どこ → xác định vị trí trong tranh.",
+            "Trả lời bằng:",
+            "Nếu trong tranh ở phòng khách, nhà bếp... thì thay đổi địa điểm cho phù hợp."
+          ],
+          "commonMistakes": []
+        },
+        {
+          "questionId": "jpd133_l8_p01_q05",
+          "order": 5,
+          "question": {
+            "ja": "お母さんは何をしていますか。",
+            "vi": "Mẹ đang làm gì?"
+          },
+          "questionReading": "おかあさんはなにをしていますか。",
+          "answerType": "picture_short_answer",
+          "sampleAnswers": [
+            {
+              "ja": "お母さんはスープを入れています。",
+              "vi": "Mẹ đang múc (rót) canh.",
+              "reading": "おかあさんはスープをいれています。"
+            }
+          ],
+          "grammarIds": [
+            "JPD133-L08-G001"
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "お母さん",
+              "reading": "おかあさん",
+              "meaning": "Mẹ"
+            },
+            {
+              "word": "スープ",
+              "reading": "スープ",
+              "meaning": "Canh"
+            },
+            {
+              "word": "入れます",
+              "reading": "いれます",
+              "meaning": "Múc, rót, cho vào"
+            },
+            {
+              "word": "食べます",
+              "reading": "たべます",
+              "meaning": "Ăn"
+            },
+            {
+              "word": "料理",
+              "reading": "りょうり",
+              "meaning": "Món ăn"
+            },
+            {
+              "word": "～ています",
+              "reading": "～ています",
+              "meaning": "Đang làm"
+            }
+          ],
+          "explanation": "Đọc câu hỏi và đối chiếu thông tin trong tranh Bài 8.",
+          "tips": [
+            "Nghe 何をしていますか → quan sát hành động.",
+            "Luôn trả lời bằng:",
+            "Không trả lời bằng thể từ điển hoặc thể ます."
+          ],
+          "commonMistakes": []
+        }
+      ]
+    },
+    {
+      "pictureId": "jpd133_l8_p02",
+      "pictureTitle": "Nhà mới",
+      "imageUrl": "/data/speaking/jpd133/qa/lesson8_tranh2.png",
+      "questions": [
+        {
+          "questionId": "jpd133_l8_p02_q01",
+          "order": 1,
+          "question": {
+            "ja": "今どこに住んでいますか。",
+            "vi": "Hiện tại bạn đang sống ở đâu?"
+          },
+          "questionReading": "いまどこにすんでいますか。",
+          "answerType": "picture_short_answer",
+          "sampleAnswers": [
+            {
+              "ja": "今、ハノイに住んでいます。",
+              "vi": "Hiện tại tôi đang sống ở Hà Nội.",
+              "reading": "いま、ハノイにすんでいます。"
+            }
+          ],
+          "grammarIds": [
+            "JPD133-L08-G001"
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "今",
+              "reading": "いま",
+              "meaning": "Hiện tại"
+            },
+            {
+              "word": "住んでいます",
+              "reading": "すんでいます",
+              "meaning": "Đang sống"
+            },
+            {
+              "word": "家",
+              "reading": "いえ",
+              "meaning": "Nhà"
+            },
+            {
+              "word": "ハノイ",
+              "reading": "ハノイ",
+              "meaning": "Hà Nội"
+            },
+            {
+              "word": "学校",
+              "reading": "がっこう",
+              "meaning": "Trường học"
+            }
+          ],
+          "explanation": "Đọc câu hỏi và đối chiếu thông tin trong tranh Bài 8.",
+          "tips": [
+            "Nghe どこに住んでいますか → trả lời theo mẫu:",
+            "Chỉ cần nói tên thành phố hoặc nơi đang sống.",
+            "Dùng に với địa điểm."
+          ],
+          "commonMistakes": []
+        },
+        {
+          "questionId": "jpd133_l8_p02_q02",
+          "order": 2,
+          "question": {
+            "ja": "家は学校から近いですか。",
+            "vi": "Nhà bạn có gần trường không?"
+          },
+          "questionReading": "いえはがっこうからちかいですか。",
+          "answerType": "picture_short_answer",
+          "sampleAnswers": [
+            {
+              "ja": "はい、とても近いです。",
+              "vi": "Vâng, rất gần.",
+              "reading": "はい、とてもちかいです。"
+            }
+          ],
+          "grammarIds": [
+            "JPD133-L08-G001"
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "家",
+              "reading": "いえ",
+              "meaning": "Nhà"
+            },
+            {
+              "word": "学校",
+              "reading": "がっこう",
+              "meaning": "Trường học"
+            },
+            {
+              "word": "近い",
+              "reading": "ちかい",
+              "meaning": "Gần"
+            },
+            {
+              "word": "遠い",
+              "reading": "とおい",
+              "meaning": "Xa"
+            },
+            {
+              "word": "から",
+              "reading": "から",
+              "meaning": "Từ"
+            }
+          ],
+          "explanation": "Đọc câu hỏi và đối chiếu thông tin trong tranh Bài 8.",
+          "tips": [
+            "Nghe 近いですか → trả lời:",
+            "Quan sát khoảng cách giữa nhà và trường trong tranh."
+          ],
+          "commonMistakes": []
+        },
+        {
+          "questionId": "jpd133_l8_p02_q03",
+          "order": 3,
+          "question": {
+            "ja": "家の近くに何がありますか。",
+            "vi": "Gần nhà bạn có gì?"
+          },
+          "questionReading": "いえのちかくになにがありますか。",
+          "answerType": "picture_short_answer",
+          "sampleAnswers": [
+            {
+              "ja": "家の近くにコンビニと公園があります。",
+              "vi": "Gần nhà tôi có cửa hàng tiện lợi và công viên.",
+              "reading": "いえのちかくにコンビニとこうえんがあります。"
+            }
+          ],
+          "grammarIds": [
+            "JPD133-L08-G001"
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "近く",
+              "reading": "ちかく",
+              "meaning": "Gần"
+            },
+            {
+              "word": "コンビニ",
+              "reading": "コンビニ",
+              "meaning": "Cửa hàng tiện lợi"
+            },
+            {
+              "word": "公園",
+              "reading": "こうえん",
+              "meaning": "Công viên"
+            },
+            {
+              "word": "バス停",
+              "reading": "バスてい",
+              "meaning": "Trạm xe buýt"
+            },
+            {
+              "word": "あります",
+              "reading": "あります",
+              "meaning": "Có"
+            }
+          ],
+          "explanation": "Đọc câu hỏi và đối chiếu thông tin trong tranh Bài 8.",
+          "tips": [
+            "Nghe 近くに何がありますか → quan sát những địa điểm xung quanh nhà.",
+            "Trả lời theo mẫu:",
+            "Có thể nối nhiều địa điểm bằng と."
+          ],
+          "commonMistakes": []
+        },
+        {
+          "questionId": "jpd133_l8_p02_q04",
+          "order": 4,
+          "question": {
+            "ja": "一人で住んでいますか。",
+            "vi": "Bạn có đang sống một mình không?"
+          },
+          "questionReading": "ひとりですんでいますか。",
+          "answerType": "picture_short_answer",
+          "sampleAnswers": [
+            {
+              "ja": "はい、一人で住んでいます。",
+              "vi": "Vâng, tôi đang sống một mình.",
+              "reading": "はい、ひとりですんでいます。"
+            }
+          ],
+          "grammarIds": [
+            "JPD133-L08-G001"
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "一人",
+              "reading": "ひとり",
+              "meaning": "Một mình"
+            },
+            {
+              "word": "家族",
+              "reading": "かぞく",
+              "meaning": "Gia đình"
+            },
+            {
+              "word": "住んでいます",
+              "reading": "すんでいます",
+              "meaning": "Đang sống"
+            },
+            {
+              "word": "一緒に",
+              "reading": "いっしょに",
+              "meaning": "Cùng nhau"
+            }
+          ],
+          "explanation": "Đọc câu hỏi và đối chiếu thông tin trong tranh Bài 8.",
+          "tips": [
+            "Nghe 一人で → chú ý số người sống cùng.",
+            "Nếu tranh chỉ có một người sống trong nhà → trả lời はい.",
+            "Nếu có gia đình → dùng:"
+          ],
+          "commonMistakes": []
+        },
+        {
+          "questionId": "jpd133_l8_p02_q05",
+          "order": 5,
+          "question": {
+            "ja": "家は好きですか。",
+            "vi": "Bạn có thích ngôi nhà của mình không?"
+          },
+          "questionReading": "いえはすきですか。",
+          "answerType": "picture_short_answer",
+          "sampleAnswers": [
+            {
+              "ja": "はい、とても好きです。",
+              "vi": "Vâng, tôi rất thích.",
+              "reading": "はい、とてもすきです。"
+            }
+          ],
+          "grammarIds": [
+            "JPD133-L08-G001"
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "家",
+              "reading": "いえ",
+              "meaning": "Nhà"
+            },
+            {
+              "word": "好き",
+              "reading": "すき",
+              "meaning": "Thích"
+            },
+            {
+              "word": "とても",
+              "reading": "とても",
+              "meaning": "Rất"
+            },
+            {
+              "word": "きれい",
+              "reading": "きれい",
+              "meaning": "Đẹp, sạch"
+            },
+            {
+              "word": "静か",
+              "reading": "しずか",
+              "meaning": "Yên tĩnh"
+            }
+          ],
+          "explanation": "Đọc câu hỏi và đối chiếu thông tin trong tranh Bài 8.",
+          "tips": [
+            "Đây là câu hỏi về cảm nghĩ.",
+            "Có thể trả lời:",
+            "Nếu ngôi nhà đẹp, sạch sẽ trong tranh thì nên trả lời tích cực."
+          ],
+          "commonMistakes": []
+        }
+      ]
+    },
+    {
+      "pictureId": "jpd133_l8_p03",
+      "pictureTitle": "Bố mẹ đi làm",
+      "imageUrl": "/data/speaking/jpd133/qa/lesson8_tranh3.png",
+      "questions": [
+        {
+          "questionId": "jpd133_l8_p03_q01",
+          "order": 1,
+          "question": {
+            "ja": "お父さんは何の仕事をしていますか。",
+            "vi": "Bố bạn làm nghề gì?"
+          },
+          "questionReading": "おとうさんはなんのしごとをしていますか。",
+          "answerType": "picture_short_answer",
+          "sampleAnswers": [
+            {
+              "ja": "父は会社員の仕事をしています。",
+              "vi": "Bố tôi làm nhân viên công ty.",
+              "reading": "ちちはかいしゃいんのしごとをしています。"
+            }
+          ],
+          "grammarIds": [
+            "JPD133-L08-G001"
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "父",
+              "reading": "ちち",
+              "meaning": "Bố"
+            },
+            {
+              "word": "仕事",
+              "reading": "しごと",
+              "meaning": "Công việc"
+            },
+            {
+              "word": "会社員",
+              "reading": "かいしゃいん",
+              "meaning": "Nhân viên công ty"
+            },
+            {
+              "word": "働いています",
+              "reading": "はたらいています",
+              "meaning": "Đang làm việc"
+            },
+            {
+              "word": "スーツ",
+              "reading": "スーツ",
+              "meaning": "Bộ vest"
+            }
+          ],
+          "explanation": "Đọc câu hỏi và đối chiếu thông tin trong tranh Bài 8.",
+          "tips": [
+            "Nghe 何の仕事 → trả lời tên nghề nghiệp.",
+            "Dùng mẫu:",
+            "Quan sát đồng phục hoặc nơi làm việc trong tranh."
+          ],
+          "commonMistakes": []
+        },
+        {
+          "questionId": "jpd133_l8_p03_q02",
+          "order": 2,
+          "question": {
+            "ja": "お母さんはどこで働いていますか。",
+            "vi": "Mẹ bạn đang làm việc ở đâu?"
+          },
+          "questionReading": "おかあさんはどこではたらいていますか。",
+          "answerType": "picture_short_answer",
+          "sampleAnswers": [
+            {
+              "ja": "母は病院で働いています。",
+              "vi": "Mẹ tôi làm việc ở bệnh viện.",
+              "reading": "はははびょういんではたらいています。"
+            }
+          ],
+          "grammarIds": [
+            "JPD133-L08-G001"
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "母",
+              "reading": "はは",
+              "meaning": "Mẹ"
+            },
+            {
+              "word": "病院",
+              "reading": "びょういん",
+              "meaning": "Bệnh viện"
+            },
+            {
+              "word": "働いています",
+              "reading": "はたらいています",
+              "meaning": "Đang làm việc"
+            },
+            {
+              "word": "看護師",
+              "reading": "かんごし",
+              "meaning": "Y tá"
+            },
+            {
+              "word": "で",
+              "reading": "で",
+              "meaning": "Tại (địa điểm)"
+            }
+          ],
+          "explanation": "Đọc câu hỏi và đối chiếu thông tin trong tranh Bài 8.",
+          "tips": [
+            "Nghe どこで → xác định nơi làm việc.",
+            "Dùng mẫu:",
+            "Trợ từ で dùng để chỉ nơi diễn ra công việc."
+          ],
+          "commonMistakes": []
+        },
+        {
+          "questionId": "jpd133_l8_p03_q03",
+          "order": 3,
+          "question": {
+            "ja": "ご両親は毎日働いていますか。",
+            "vi": "Bố mẹ bạn có làm việc mỗi ngày không?"
+          },
+          "questionReading": "ごりょうしんはまいにはたらいていますか。",
+          "answerType": "picture_short_answer",
+          "sampleAnswers": [
+            {
+              "ja": "はい、毎日働いています。",
+              "vi": "Vâng, bố mẹ tôi làm việc mỗi ngày.",
+              "reading": "はい、まいにはたらいています。"
+            }
+          ],
+          "grammarIds": [
+            "JPD133-L08-G001"
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "ご両親",
+              "reading": "ごりょうしん",
+              "meaning": "Bố mẹ"
+            },
+            {
+              "word": "毎日",
+              "reading": "まいにち",
+              "meaning": "Mỗi ngày"
+            },
+            {
+              "word": "働いています",
+              "reading": "はたらいています",
+              "meaning": "Đang làm việc"
+            },
+            {
+              "word": "はい",
+              "reading": "はい",
+              "meaning": "Vâng"
+            },
+            {
+              "word": "いいえ",
+              "reading": "いいえ",
+              "meaning": "Không"
+            }
+          ],
+          "explanation": "Đọc câu hỏi và đối chiếu thông tin trong tranh Bài 8.",
+          "tips": [
+            "Nghe 毎日 → chú ý tần suất.",
+            "Câu hỏi ～ていますか thường trả lời:"
+          ],
+          "commonMistakes": []
+        },
+        {
+          "questionId": "jpd133_l8_p03_q04",
+          "order": 4,
+          "question": {
+            "ja": "お父さんは何時に家へ帰りますか。",
+            "vi": "Bố bạn mấy giờ về nhà?"
+          },
+          "questionReading": "おとうさんはなんじにいえへかえりますか。",
+          "answerType": "picture_short_answer",
+          "sampleAnswers": [
+            {
+              "ja": "午後六時に家へ帰ります。",
+              "vi": "Bố tôi về nhà lúc 6 giờ chiều.",
+              "reading": "ごごろくじにいえへかえります。"
+            }
+          ],
+          "grammarIds": [
+            "JPD133-L08-G001"
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "何時",
+              "reading": "なんじ",
+              "meaning": "Mấy giờ"
+            },
+            {
+              "word": "六時",
+              "reading": "ろくじ",
+              "meaning": "Sáu giờ"
+            },
+            {
+              "word": "午後",
+              "reading": "ごご",
+              "meaning": "Buổi chiều"
+            },
+            {
+              "word": "家",
+              "reading": "いえ",
+              "meaning": "Nhà"
+            },
+            {
+              "word": "帰ります",
+              "reading": "かえります",
+              "meaning": "Trở về"
+            }
+          ],
+          "explanation": "Đọc câu hỏi và đối chiếu thông tin trong tranh Bài 8.",
+          "tips": [
+            "Nghe 何時 → nhìn đồng hồ trong tranh.",
+            "Trả lời theo mẫu:",
+            "Chú ý trợ từ に dùng với thời gian."
+          ],
+          "commonMistakes": []
+        },
+        {
+          "questionId": "jpd133_l8_p03_q05",
+          "order": 5,
+          "question": {
+            "ja": "ご家族は忙しいですか。",
+            "vi": "Gia đình bạn có bận không?"
+          },
+          "questionReading": "ごかぞくはいそがしいですか。",
+          "answerType": "picture_short_answer",
+          "sampleAnswers": [
+            {
+              "ja": "はい、とても忙しいです。",
+              "vi": "Vâng, gia đình tôi rất bận.",
+              "reading": "はい、とてもいそがしいです。"
+            }
+          ],
+          "grammarIds": [
+            "JPD133-L08-G001"
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "家族",
+              "reading": "かぞく",
+              "meaning": "Gia đình"
+            },
+            {
+              "word": "忙しい",
+              "reading": "いそがしい",
+              "meaning": "Bận rộn"
+            },
+            {
+              "word": "とても",
+              "reading": "とても",
+              "meaning": "Rất"
+            },
+            {
+              "word": "一緒に",
+              "reading": "いっしょに",
+              "meaning": "Cùng nhau"
+            },
+            {
+              "word": "晩ご飯",
+              "reading": "ばんごはん",
+              "meaning": "Bữa tối"
+            }
+          ],
+          "explanation": "Đọc câu hỏi và đối chiếu thông tin trong tranh Bài 8.",
+          "tips": [
+            "Đây là câu hỏi về cảm nhận.",
+            "Quan sát bố mẹ đều đang đi làm thì thường trả lời:",
+            "Nếu muốn mở rộng:"
+          ],
+          "commonMistakes": []
+        }
+      ]
+    },
+    {
+      "pictureId": "jpd133_l8_p04",
+      "pictureTitle": "Sinh nhật",
+      "imageUrl": "/data/speaking/jpd133/qa/lesson8_tranh4.png",
+      "questions": [
+        {
+          "questionId": "jpd133_l8_p04_q01",
+          "order": 1,
+          "question": {
+            "ja": "去年の誕生日に何をもらいましたか。",
+            "vi": "Sinh nhật năm ngoái bạn đã nhận được gì?"
+          },
+          "questionReading": "きょねんのたんじょうびになにをもらいましたか。",
+          "answerType": "picture_short_answer",
+          "sampleAnswers": [
+            {
+              "ja": "去年の誕生日に辞書をもらいました。",
+              "vi": "Sinh nhật năm ngoái tôi đã nhận được một quyển từ điển.",
+              "reading": "きょねんのたんじょうびにじしょをもらいました。"
+            }
+          ],
+          "grammarIds": [
+            "JPD133-L08-G001"
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "去年",
+              "reading": "きょねん",
+              "meaning": "Năm ngoái"
+            },
+            {
+              "word": "誕生日",
+              "reading": "たんじょうび",
+              "meaning": "Sinh nhật"
+            },
+            {
+              "word": "辞書",
+              "reading": "じしょ",
+              "meaning": "Từ điển"
+            },
+            {
+              "word": "時計",
+              "reading": "とけい",
+              "meaning": "Đồng hồ"
+            },
+            {
+              "word": "プレゼント",
+              "reading": "プレゼント",
+              "meaning": "Quà tặng"
+            },
+            {
+              "word": "もらいました",
+              "reading": "もらいました",
+              "meaning": "Đã nhận"
+            }
+          ],
+          "explanation": "Đọc câu hỏi và đối chiếu thông tin trong tranh Bài 8.",
+          "tips": [
+            "Nghe 何をもらいましたか → nhìn món quà trong tranh.",
+            "Trả lời theo mẫu:",
+            "Không cần nói người tặng nếu câu hỏi không hỏi."
+          ],
+          "commonMistakes": []
+        },
+        {
+          "questionId": "jpd133_l8_p04_q02",
+          "order": 2,
+          "question": {
+            "ja": "誰にもらいましたか。",
+            "vi": "Bạn nhận từ ai?"
+          },
+          "questionReading": "だれにもらいましたか。",
+          "answerType": "picture_short_answer",
+          "sampleAnswers": [
+            {
+              "ja": "友達にもらいました。",
+              "vi": "Tôi nhận từ bạn.",
+              "reading": "ともだちにもらいました。"
+            }
+          ],
+          "grammarIds": [
+            "JPD133-L08-G001"
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "誰",
+              "reading": "だれ",
+              "meaning": "Ai"
+            },
+            {
+              "word": "友達",
+              "reading": "ともだち",
+              "meaning": "Bạn bè"
+            },
+            {
+              "word": "母",
+              "reading": "はは",
+              "meaning": "Mẹ"
+            },
+            {
+              "word": "父",
+              "reading": "ちち",
+              "meaning": "Bố"
+            },
+            {
+              "word": "もらいました",
+              "reading": "もらいました",
+              "meaning": "Đã nhận"
+            }
+          ],
+          "explanation": "Đọc câu hỏi và đối chiếu thông tin trong tranh Bài 8.",
+          "tips": [
+            "Nghe 誰に → trả lời tên người tặng.",
+            "Dùng mẫu:",
+            "Quan sát người đang đưa quà trong tranh."
+          ],
+          "commonMistakes": []
+        },
+        {
+          "questionId": "jpd133_l8_p04_q03",
+          "order": 3,
+          "question": {
+            "ja": "友達に何をあげましたか。",
+            "vi": "Bạn đã tặng gì cho bạn của mình?"
+          },
+          "questionReading": "ともだちになにをあげましたか。",
+          "answerType": "picture_short_answer",
+          "sampleAnswers": [
+            {
+              "ja": "友達に花をあげました。",
+              "vi": "Tôi đã tặng bạn một bó hoa.",
+              "reading": "ともだちにはなをあげました。"
+            }
+          ],
+          "grammarIds": [
+            "JPD133-L08-G001"
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "花",
+              "reading": "はな",
+              "meaning": "Hoa"
+            },
+            {
+              "word": "手紙",
+              "reading": "てがみ",
+              "meaning": "Thư"
+            },
+            {
+              "word": "辞書",
+              "reading": "じしょ",
+              "meaning": "Từ điển"
+            },
+            {
+              "word": "プレゼント",
+              "reading": "プレゼント",
+              "meaning": "Quà"
+            },
+            {
+              "word": "あげました",
+              "reading": "あげました",
+              "meaning": "Đã tặng"
+            }
+          ],
+          "explanation": "Đọc câu hỏi và đối chiếu thông tin trong tranh Bài 8.",
+          "tips": [
+            "Nghe あげました → người nói là người tặng.",
+            "Trả lời theo mẫu:",
+            "Chú ý không dùng もらいました."
+          ],
+          "commonMistakes": []
+        },
+        {
+          "questionId": "jpd133_l8_p04_q04",
+          "order": 4,
+          "question": {
+            "ja": "プレゼントをもらってうれしかったですか。",
+            "vi": "Bạn có vui khi nhận được quà không?"
+          },
+          "questionReading": "プレゼントをもらってうれしかったですか。",
+          "answerType": "picture_short_answer",
+          "sampleAnswers": [
+            {
+              "ja": "はい、とてもうれしかったです。",
+              "vi": "Vâng, tôi rất vui.",
+              "reading": "はい、とてもうれしかったです。"
+            }
+          ],
+          "grammarIds": [
+            "JPD133-L08-G001"
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "うれしい",
+              "reading": "うれしい",
+              "meaning": "Vui"
+            },
+            {
+              "word": "うれしかった",
+              "reading": "うれしかった",
+              "meaning": "Đã rất vui"
+            },
+            {
+              "word": "プレゼント",
+              "reading": "プレゼント",
+              "meaning": "Quà"
+            },
+            {
+              "word": "とても",
+              "reading": "とても",
+              "meaning": "Rất"
+            },
+            {
+              "word": "もらいました",
+              "reading": "もらいました",
+              "meaning": "Đã nhận"
+            }
+          ],
+          "explanation": "Đọc câu hỏi và đối chiếu thông tin trong tranh Bài 8.",
+          "tips": [
+            "Đây là câu hỏi về cảm xúc.",
+            "Nếu người trong tranh đang cười và mở quà thì trả lời:",
+            "Chú ý tính từ うれしい ở quá khứ:"
+          ],
+          "commonMistakes": []
+        },
+        {
+          "questionId": "jpd133_l8_p04_q05",
+          "order": 5,
+          "question": {
+            "ja": "来年は何をあげたいですか。",
+            "vi": "Năm sau bạn muốn tặng gì?"
+          },
+          "questionReading": "らいねんはなにをあげたいですか。",
+          "answerType": "picture_short_answer",
+          "sampleAnswers": [
+            {
+              "ja": "来年は友達にかばんをあげたいです。",
+              "vi": "Năm sau tôi muốn tặng bạn một chiếc cặp.",
+              "reading": "らいねんはともだちにかばんをあげたいです。"
+            }
+          ],
+          "grammarIds": [
+            "JPD133-L08-G001"
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "来年",
+              "reading": "らいねん",
+              "meaning": "Năm sau"
+            },
+            {
+              "word": "かばん",
+              "reading": "かばん",
+              "meaning": "Cặp, túi xách"
+            },
+            {
+              "word": "花",
+              "reading": "はな",
+              "meaning": "Hoa"
+            },
+            {
+              "word": "辞書",
+              "reading": "じしょ",
+              "meaning": "Từ điển"
+            },
+            {
+              "word": "あげたい",
+              "reading": "あげたい",
+              "meaning": "Muốn tặng"
+            },
+            {
+              "word": "友達",
+              "reading": "ともだち",
+              "meaning": "Bạn bè"
+            }
+          ],
+          "explanation": "Đọc câu hỏi và đối chiếu thông tin trong tranh Bài 8.",
+          "tips": [
+            "Nghe ～たいです → diễn tả mong muốn.",
+            "Trả lời theo mẫu:",
+            "Có thể chọn bất kỳ món quà xuất hiện trong tranh."
+          ],
+          "commonMistakes": []
+        }
+      ]
+    },
+    {
+      "pictureId": "jpd133_l8_p05",
+      "pictureTitle": "Công viên",
+      "imageUrl": "/data/speaking/jpd133/qa/lesson8_tranh5.png",
+      "questions": [
+        {
+          "questionId": "jpd133_l8_p05_q01",
+          "order": 1,
+          "question": {
+            "ja": "家族とどこへ行きますか。",
+            "vi": "Bạn đi đâu cùng gia đình?"
+          },
+          "questionReading": "かぞくとどこへいきますか。",
+          "answerType": "picture_short_answer",
+          "sampleAnswers": [
+            {
+              "ja": "家族と公園へ行きます。",
+              "vi": "Tôi đi công viên cùng gia đình.",
+              "reading": "かぞくとこうえんへいきます。"
+            }
+          ],
+          "grammarIds": [
+            "JPD133-L08-G001"
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "家族",
+              "reading": "かぞく",
+              "meaning": "Gia đình"
+            },
+            {
+              "word": "公園",
+              "reading": "こうえん",
+              "meaning": "Công viên"
+            },
+            {
+              "word": "行きます",
+              "reading": "いきます",
+              "meaning": "Đi"
+            },
+            {
+              "word": "一緒に",
+              "reading": "いっしょに",
+              "meaning": "Cùng nhau"
+            },
+            {
+              "word": "日曜日",
+              "reading": "にちようび",
+              "meaning": "Chủ nhật"
+            }
+          ],
+          "explanation": "Đọc câu hỏi và đối chiếu thông tin trong tranh Bài 8.",
+          "tips": [
+            "Nghe どこへ行きますか → trả lời địa điểm.",
+            "Dùng mẫu:",
+            "Quan sát địa điểm chính trong tranh."
+          ],
+          "commonMistakes": []
+        },
+        {
+          "questionId": "jpd133_l8_p05_q02",
+          "order": 2,
+          "question": {
+            "ja": "公園で何をしますか。",
+            "vi": "Bạn làm gì ở công viên?"
+          },
+          "questionReading": "こうえんでなにをしますか。",
+          "answerType": "picture_short_answer",
+          "sampleAnswers": [
+            {
+              "ja": "写真を撮ります。",
+              "vi": "Tôi chụp ảnh.",
+              "reading": "しゃしんをとります。"
+            }
+          ],
+          "grammarIds": [
+            "JPD133-L08-G001"
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "写真",
+              "reading": "しゃしん",
+              "meaning": "Ảnh"
+            },
+            {
+              "word": "撮ります",
+              "reading": "とります",
+              "meaning": "Chụp"
+            },
+            {
+              "word": "散歩します",
+              "reading": "さんぽします",
+              "meaning": "Đi dạo"
+            },
+            {
+              "word": "遊びます",
+              "reading": "あそびます",
+              "meaning": "Chơi"
+            },
+            {
+              "word": "公園",
+              "reading": "こうえん",
+              "meaning": "Công viên"
+            }
+          ],
+          "explanation": "Đọc câu hỏi và đối chiếu thông tin trong tranh Bài 8.",
+          "tips": [
+            "Nghe 何をしますか → quan sát hành động trong tranh.",
+            "Dùng mẫu:",
+            "Chỉ trả lời một hoạt động chính là đủ."
+          ],
+          "commonMistakes": []
+        },
+        {
+          "questionId": "jpd133_l8_p05_q03",
+          "order": 3,
+          "question": {
+            "ja": "よく家族と出かけますか。",
+            "vi": "Bạn có thường đi chơi cùng gia đình không?"
+          },
+          "questionReading": "よくかぞくとでかけますか。",
+          "answerType": "picture_short_answer",
+          "sampleAnswers": [
+            {
+              "ja": "はい、よく出かけます。",
+              "vi": "Vâng, tôi thường đi chơi cùng gia đình.",
+              "reading": "はい、よくでかけます。"
+            }
+          ],
+          "grammarIds": [
+            "JPD133-L08-G001"
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "よく",
+              "reading": "よく",
+              "meaning": "Thường"
+            },
+            {
+              "word": "出かけます",
+              "reading": "でかけます",
+              "meaning": "Đi chơi, đi ra ngoài"
+            },
+            {
+              "word": "家族",
+              "reading": "かぞく",
+              "meaning": "Gia đình"
+            },
+            {
+              "word": "はい",
+              "reading": "はい",
+              "meaning": "Vâng"
+            },
+            {
+              "word": "あまり",
+              "reading": "あまり",
+              "meaning": "Không... lắm"
+            }
+          ],
+          "explanation": "Đọc câu hỏi và đối chiếu thông tin trong tranh Bài 8.",
+          "tips": [
+            "Nghe よく → đây là trạng từ chỉ tần suất.",
+            "Trả lời:"
+          ],
+          "commonMistakes": []
+        },
+        {
+          "questionId": "jpd133_l8_p05_q04",
+          "order": 4,
+          "question": {
+            "ja": "誰と写真を撮りますか。",
+            "vi": "Bạn chụp ảnh cùng ai?"
+          },
+          "questionReading": "だれとしゃしんをとりますか。",
+          "answerType": "picture_short_answer",
+          "sampleAnswers": [
+            {
+              "ja": "母と写真を撮ります。",
+              "vi": "Tôi chụp ảnh cùng mẹ.",
+              "reading": "ははとしゃしんをとります。"
+            }
+          ],
+          "grammarIds": [
+            "JPD133-L08-G001"
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "誰",
+              "reading": "だれ",
+              "meaning": "Ai"
+            },
+            {
+              "word": "母",
+              "reading": "はは",
+              "meaning": "Mẹ"
+            },
+            {
+              "word": "父",
+              "reading": "ちち",
+              "meaning": "Bố"
+            },
+            {
+              "word": "写真",
+              "reading": "しゃしん",
+              "meaning": "Ảnh"
+            },
+            {
+              "word": "撮ります",
+              "reading": "とります",
+              "meaning": "Chụp"
+            }
+          ],
+          "explanation": "Đọc câu hỏi và đối chiếu thông tin trong tranh Bài 8.",
+          "tips": [
+            "Nghe 誰と → trả lời tên người trong tranh.",
+            "Dùng mẫu:",
+            "Quan sát ai đang đứng cùng người chụp ảnh."
+          ],
+          "commonMistakes": []
+        },
+        {
+          "questionId": "jpd133_l8_p05_q05",
+          "order": 5,
+          "question": {
+            "ja": "公園は好きですか。",
+            "vi": "Bạn có thích công viên không?"
+          },
+          "questionReading": "こうえんはすきですか。",
+          "answerType": "picture_short_answer",
+          "sampleAnswers": [
+            {
+              "ja": "はい、とても好きです。",
+              "vi": "Vâng, tôi rất thích.",
+              "reading": "はい、とてもすきです。"
+            }
+          ],
+          "grammarIds": [
+            "JPD133-L08-G001"
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "公園",
+              "reading": "こうえん",
+              "meaning": "Công viên"
+            },
+            {
+              "word": "好き",
+              "reading": "すき",
+              "meaning": "Thích"
+            },
+            {
+              "word": "とても",
+              "reading": "とても",
+              "meaning": "Rất"
+            },
+            {
+              "word": "花",
+              "reading": "はな",
+              "meaning": "Hoa"
+            },
+            {
+              "word": "木",
+              "reading": "き",
+              "meaning": "Cây"
+            },
+            {
+              "word": "湖",
+              "reading": "みずうみ",
+              "meaning": "Hồ"
+            }
+          ],
+          "explanation": "Đọc câu hỏi và đối chiếu thông tin trong tranh Bài 8.",
+          "tips": [
+            "Đây là câu hỏi về sở thích.",
+            "Có thể trả lời:",
+            "Nếu công viên đẹp và mọi người đang vui vẻ thì nên trả lời tích cực."
+          ],
+          "commonMistakes": []
+        }
+      ]
+    },
+    {
+      "pictureId": "jpd133_l8_p06",
+      "pictureTitle": "Thú cưng",
+      "imageUrl": "/data/speaking/jpd133/qa/lesson8_tranh6.png",
+      "questions": [
+        {
+          "questionId": "jpd133_l8_p06_q01",
+          "order": 1,
+          "question": {
+            "ja": "犬がいますか。",
+            "vi": "Bạn có chó không?"
+          },
+          "questionReading": "いぬがいますか。",
+          "answerType": "picture_short_answer",
+          "sampleAnswers": [
+            {
+              "ja": "はい、犬が一匹います。",
+              "vi": "Vâng, tôi có một con chó.",
+              "reading": "はい、いぬがいっぴきいます。"
+            }
+          ],
+          "grammarIds": [
+            "JPD133-L08-G001"
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "犬",
+              "reading": "いぬ",
+              "meaning": "Chó"
+            },
+            {
+              "word": "一匹",
+              "reading": "いっぴき",
+              "meaning": "Một con"
+            },
+            {
+              "word": "匹",
+              "reading": "ひき",
+              "meaning": "Con (lượng từ cho động vật nhỏ)"
+            },
+            {
+              "word": "います",
+              "reading": "います",
+              "meaning": "Có"
+            },
+            {
+              "word": "はい",
+              "reading": "はい",
+              "meaning": "Vâng"
+            }
+          ],
+          "explanation": "Đọc câu hỏi và đối chiếu thông tin trong tranh Bài 8.",
+          "tips": [
+            "Nghe 犬がいますか → nhìn xem có chó trong tranh không.",
+            "Trả lời theo mẫu:",
+            "Chú ý dùng います cho động vật."
+          ],
+          "commonMistakes": []
+        },
+        {
+          "questionId": "jpd133_l8_p06_q02",
+          "order": 2,
+          "question": {
+            "ja": "猫がいますか。",
+            "vi": "Bạn có mèo không?"
+          },
+          "questionReading": "ねこがいますか。",
+          "answerType": "picture_short_answer",
+          "sampleAnswers": [
+            {
+              "ja": "はい、猫が一匹います。",
+              "vi": "Vâng, tôi có một con mèo.",
+              "reading": "はい、ねこがいっぴきいます。"
+            }
+          ],
+          "grammarIds": [
+            "JPD133-L08-G001"
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "猫",
+              "reading": "ねこ",
+              "meaning": "Mèo"
+            },
+            {
+              "word": "一匹",
+              "reading": "いっぴき",
+              "meaning": "Một con"
+            },
+            {
+              "word": "動物",
+              "reading": "どうぶつ",
+              "meaning": "Động vật"
+            },
+            {
+              "word": "ペット",
+              "reading": "ペット",
+              "meaning": "Thú cưng"
+            },
+            {
+              "word": "います",
+              "reading": "います",
+              "meaning": "Có"
+            }
+          ],
+          "explanation": "Đọc câu hỏi và đối chiếu thông tin trong tranh Bài 8.",
+          "tips": [
+            "Quan sát xem có mèo trong tranh hay không.",
+            "Dùng mẫu:",
+            "Không dùng あります với động vật."
+          ],
+          "commonMistakes": []
+        },
+        {
+          "questionId": "jpd133_l8_p06_q03",
+          "order": 3,
+          "question": {
+            "ja": "ペットは何匹いますか。",
+            "vi": "Bạn có mấy con thú cưng?"
+          },
+          "questionReading": "ペットはなんびきいますか。",
+          "answerType": "picture_short_answer",
+          "sampleAnswers": [
+            {
+              "ja": "ペットは二匹います。",
+              "vi": "Tôi có hai con thú cưng.",
+              "reading": "ペットはにひきいます。"
+            }
+          ],
+          "grammarIds": [
+            "JPD133-L08-G001"
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "ペット",
+              "reading": "ペット",
+              "meaning": "Thú cưng"
+            },
+            {
+              "word": "何匹",
+              "reading": "なんびき",
+              "meaning": "Mấy con"
+            },
+            {
+              "word": "二匹",
+              "reading": "にひき",
+              "meaning": "Hai con"
+            },
+            {
+              "word": "犬",
+              "reading": "いぬ",
+              "meaning": "Chó"
+            },
+            {
+              "word": "猫",
+              "reading": "ねこ",
+              "meaning": "Mèo"
+            }
+          ],
+          "explanation": "Đọc câu hỏi và đối chiếu thông tin trong tranh Bài 8.",
+          "tips": [
+            "Nghe 何匹 → đếm tổng số thú cưng.",
+            "Trả lời theo mẫu:",
+            "Chú ý cách đọc:"
+          ],
+          "commonMistakes": []
+        },
+        {
+          "questionId": "jpd133_l8_p06_q04",
+          "order": 4,
+          "question": {
+            "ja": "毎日ペットと遊びますか。",
+            "vi": "Hằng ngày bạn có chơi với thú cưng không?"
+          },
+          "questionReading": "まいにちペットとあそびますか。",
+          "answerType": "picture_short_answer",
+          "sampleAnswers": [
+            {
+              "ja": "はい、毎日ペットと遊びます。",
+              "vi": "Vâng, hằng ngày tôi chơi với thú cưng.",
+              "reading": "はい、まいにちペットとあそびます。"
+            }
+          ],
+          "grammarIds": [
+            "JPD133-L08-G001"
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "毎日",
+              "reading": "まいにち",
+              "meaning": "Mỗi ngày"
+            },
+            {
+              "word": "遊びます",
+              "reading": "あそびます",
+              "meaning": "Chơi"
+            },
+            {
+              "word": "ペット",
+              "reading": "ペット",
+              "meaning": "Thú cưng"
+            },
+            {
+              "word": "ボール",
+              "reading": "ボール",
+              "meaning": "Quả bóng"
+            },
+            {
+              "word": "一緒に",
+              "reading": "いっしょに",
+              "meaning": "Cùng nhau"
+            }
+          ],
+          "explanation": "Đọc câu hỏi và đối chiếu thông tin trong tranh Bài 8.",
+          "tips": [
+            "Nghe 毎日 → chú ý tần suất.",
+            "Trả lời:",
+            "Quan sát xem người trong tranh có đang chơi với thú cưng hay không."
+          ],
+          "commonMistakes": []
+        },
+        {
+          "questionId": "jpd133_l8_p06_q05",
+          "order": 5,
+          "question": {
+            "ja": "ペットはかわいいですか。",
+            "vi": "Thú cưng có dễ thương không?"
+          },
+          "questionReading": "ペットはかわいいですか。",
+          "answerType": "picture_short_answer",
+          "sampleAnswers": [
+            {
+              "ja": "はい、とてもかわいいです。",
+              "vi": "Vâng, rất dễ thương.",
+              "reading": "はい、とてもかわいいです。"
+            }
+          ],
+          "grammarIds": [
+            "JPD133-L08-G001"
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "ペット",
+              "reading": "ペット",
+              "meaning": "Thú cưng"
+            },
+            {
+              "word": "かわいい",
+              "reading": "かわいい",
+              "meaning": "Dễ thương"
+            },
+            {
+              "word": "とても",
+              "reading": "とても",
+              "meaning": "Rất"
+            },
+            {
+              "word": "犬",
+              "reading": "いぬ",
+              "meaning": "Chó"
+            },
+            {
+              "word": "猫",
+              "reading": "ねこ",
+              "meaning": "Mèo"
+            },
+            {
+              "word": "好き",
+              "reading": "すき",
+              "meaning": "Thích"
+            }
+          ],
+          "explanation": "Đọc câu hỏi và đối chiếu thông tin trong tranh Bài 8.",
+          "tips": [
+            "Đây là câu hỏi về cảm nhận.",
+            "Có thể trả lời:",
+            "Quan sát biểu cảm và ngoại hình của thú cưng trong tranh."
+          ],
+          "commonMistakes": []
+        }
+      ]
+    },
+    {
+      "pictureId": "jpd133_l8_p07",
+      "pictureTitle": "Ảnh gia đình",
+      "imageUrl": "/data/speaking/jpd133/qa/lesson8_tranh7.png",
+      "questions": [
+        {
+          "questionId": "jpd133_l8_p07_q01",
+          "order": 1,
+          "question": {
+            "ja": "この人はだれですか。",
+            "vi": "Người này là ai?"
+          },
+          "questionReading": "このひとはだれですか。",
+          "answerType": "picture_short_answer",
+          "sampleAnswers": [
+            {
+              "ja": "この人は父です。",
+              "vi": "Người này là bố tôi.",
+              "reading": "このひとはちちです。"
+            }
+          ],
+          "grammarIds": [
+            "JPD133-L08-G001"
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "この人",
+              "reading": "このひと",
+              "meaning": "Người này"
+            },
+            {
+              "word": "父",
+              "reading": "ちち",
+              "meaning": "Bố"
+            },
+            {
+              "word": "母",
+              "reading": "はは",
+              "meaning": "Mẹ"
+            },
+            {
+              "word": "兄",
+              "reading": "あに",
+              "meaning": "Anh trai"
+            },
+            {
+              "word": "妹",
+              "reading": "いもうと",
+              "meaning": "Em gái"
+            },
+            {
+              "word": "家族",
+              "reading": "かぞく",
+              "meaning": "Gia đình"
+            }
+          ],
+          "explanation": "Đọc câu hỏi và đối chiếu thông tin trong tranh Bài 8.",
+          "tips": [
+            "Nghe だれですか → xác định người được chỉ trong tranh.",
+            "Trả lời theo mẫu:",
+            "Quan sát vị trí hoặc người đang được giáo viên chỉ."
+          ],
+          "commonMistakes": []
+        },
+        {
+          "questionId": "jpd133_l8_p07_q02",
+          "order": 2,
+          "question": {
+            "ja": "お父さんはどんな人ですか。",
+            "vi": "Bố bạn là người như thế nào?"
+          },
+          "questionReading": "おとうさんはどんなひとですか。",
+          "answerType": "picture_short_answer",
+          "sampleAnswers": [
+            {
+              "ja": "父は親切で、背が高いです。",
+              "vi": "Bố tôi tốt bụng và cao.",
+              "reading": "ちちはしんせつで、せがたかいです。"
+            }
+          ],
+          "grammarIds": [
+            "JPD133-L08-G001"
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "親切（な）",
+              "reading": "しんせつ",
+              "meaning": "Tốt bụng"
+            },
+            {
+              "word": "背が高い",
+              "reading": "せがたかい",
+              "meaning": "Cao"
+            },
+            {
+              "word": "やさしい",
+              "reading": "やさしい",
+              "meaning": "Hiền, tốt bụng"
+            },
+            {
+              "word": "父",
+              "reading": "ちち",
+              "meaning": "Bố"
+            },
+            {
+              "word": "人",
+              "reading": "ひと",
+              "meaning": "Người"
+            }
+          ],
+          "explanation": "Đọc câu hỏi và đối chiếu thông tin trong tranh Bài 8.",
+          "tips": [
+            "Nghe どんな人 → miêu tả ngoại hình hoặc tính cách.",
+            "Có thể kết hợp:",
+            "Quan sát ngoại hình trong tranh trước khi trả lời."
+          ],
+          "commonMistakes": []
+        },
+        {
+          "questionId": "jpd133_l8_p07_q03",
+          "order": 3,
+          "question": {
+            "ja": "お母さんはどんな人ですか。",
+            "vi": "Mẹ bạn là người như thế nào?"
+          },
+          "questionReading": "おかあさんはどんなひとですか。",
+          "answerType": "picture_short_answer",
+          "sampleAnswers": [
+            {
+              "ja": "母は髪が長くて、やさしいです。",
+              "vi": "Mẹ tôi có tóc dài và hiền.",
+              "reading": "はははかみがながくて、やさしいです。"
+            }
+          ],
+          "grammarIds": [
+            "JPD133-L08-G001"
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "母",
+              "reading": "はは",
+              "meaning": "Mẹ"
+            },
+            {
+              "word": "髪",
+              "reading": "かみ",
+              "meaning": "Tóc"
+            },
+            {
+              "word": "長い",
+              "reading": "ながい",
+              "meaning": "Dài"
+            },
+            {
+              "word": "やさしい",
+              "reading": "やさしい",
+              "meaning": "Hiền"
+            },
+            {
+              "word": "きれい",
+              "reading": "きれい",
+              "meaning": "Đẹp"
+            }
+          ],
+          "explanation": "Đọc câu hỏi và đối chiếu thông tin trong tranh Bài 8.",
+          "tips": [
+            "Quan sát:",
+            "Có thể dùng:",
+            "Dùng くて để nối hai tính từ い."
+          ],
+          "commonMistakes": []
+        },
+        {
+          "questionId": "jpd133_l8_p07_q04",
+          "order": 4,
+          "question": {
+            "ja": "お兄さんは背が高いですか。",
+            "vi": "Anh trai bạn có cao không?"
+          },
+          "questionReading": "おにいさんはせがたかいですか。",
+          "answerType": "picture_short_answer",
+          "sampleAnswers": [
+            {
+              "ja": "はい、とても背が高いです。",
+              "vi": "Vâng, anh ấy rất cao.",
+              "reading": "はい、とてもせがたかいです。"
+            }
+          ],
+          "grammarIds": [
+            "JPD133-L08-G001"
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "兄",
+              "reading": "あに",
+              "meaning": "Anh trai"
+            },
+            {
+              "word": "背",
+              "reading": "せ",
+              "meaning": "Chiều cao"
+            },
+            {
+              "word": "高い",
+              "reading": "たかい",
+              "meaning": "Cao"
+            },
+            {
+              "word": "とても",
+              "reading": "とても",
+              "meaning": "Rất"
+            },
+            {
+              "word": "低い",
+              "reading": "ひくい",
+              "meaning": "Thấp"
+            }
+          ],
+          "explanation": "Đọc câu hỏi và đối chiếu thông tin trong tranh Bài 8.",
+          "tips": [
+            "Nghe 背が高い → so sánh chiều cao của người trong tranh.",
+            "Trả lời:"
+          ],
+          "commonMistakes": []
+        },
+        {
+          "questionId": "jpd133_l8_p07_q05",
+          "order": 5,
+          "question": {
+            "ja": "家族は仲がいいですか。",
+            "vi": "Gia đình bạn có hòa thuận không?"
+          },
+          "questionReading": "かぞくはなかがいいですか。",
+          "answerType": "picture_short_answer",
+          "sampleAnswers": [
+            {
+              "ja": "はい、とても仲がいいです。",
+              "vi": "Vâng, gia đình tôi rất hòa thuận.",
+              "reading": "はい、とてもなかがいいです。"
+            }
+          ],
+          "grammarIds": [
+            "JPD133-L08-G001"
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "家族",
+              "reading": "かぞく",
+              "meaning": "Gia đình"
+            },
+            {
+              "word": "仲がいい",
+              "reading": "なかがいい",
+              "meaning": "Hòa thuận, thân thiết"
+            },
+            {
+              "word": "笑います",
+              "reading": "わらいます",
+              "meaning": "Cười"
+            },
+            {
+              "word": "一緒に",
+              "reading": "いっしょに",
+              "meaning": "Cùng nhau"
+            },
+            {
+              "word": "幸せ",
+              "reading": "しあわせ",
+              "meaning": "Hạnh phúc"
+            }
+          ],
+          "explanation": "Đọc câu hỏi và đối chiếu thông tin trong tranh Bài 8.",
+          "tips": [
+            "Quan sát nét mặt và khoảng cách giữa các thành viên.",
+            "Nếu mọi người cười và đứng gần nhau thì nên trả lời:",
+            "仲がいい là cách diễn đạt quen thuộc để nói mối quan hệ tốt giữa các thành viên."
+          ],
+          "commonMistakes": []
+        }
+      ]
+    }
+  ]
+}

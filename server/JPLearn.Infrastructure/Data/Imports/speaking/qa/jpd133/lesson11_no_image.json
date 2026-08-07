@@ -1,0 +1,512 @@
+{
+  "courseCode": "jpd133",
+  "lessonNumber": 11,
+  "lessonTitle": "Bài 11 - JPD133",
+  "dataPurpose": "oral_exam_practice_web",
+  "questionMode": "NO_IMAGE",
+  "lessonOverview": {
+    "shortSummary": "Bài 11 luyện phản xạ trả lời ngắn theo từ vựng và ngữ pháp JPD133.",
+    "studentCanDo": [
+      "Trả lời câu hỏi chủ đề Bài 11.",
+      "Dùng câu trả lời tiếng Nhật ngắn, đúng mẫu."
+    ],
+    "mainSkills": [
+      "Nghe từ khóa câu hỏi.",
+      "Chọn mẫu câu và từ vựng phù hợp để trả lời."
+    ],
+    "mainGrammarFocus": [
+      "JPD133-L11-G001"
+    ],
+    "examTipSummary": "Nghe từ khóa, trả lời đủ thông tin và ưu tiên mẫu câu đã học."
+  },
+  "sections": [
+    {
+      "sectionId": "jpd133_l11_ni001",
+      "sectionTitle": "Sinh hoạt hằng ngày",
+      "sectionViTitle": "Sinh hoạt hằng ngày",
+      "sectionGoal": "Luyện trả lời câu hỏi nói Bài 11: Sinh hoạt hằng ngày.",
+      "questionList": [
+        {
+          "questionId": "jpd133_l11_ni001_q001",
+          "order": 1,
+          "question": {
+            "ja": "学校が終わって、いつも何をしていますか。",
+            "vi": "Sau giờ học làm gì?"
+          },
+          "answerType": "short_answer",
+          "sampleAnswers": [
+            {
+              "ja": "宿題をします。",
+              "vi": "Làm bài tập."
+            }
+          ],
+          "grammarIds": [
+            "JPD133-L11-G001"
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "宿題",
+              "reading": "しゅくだい",
+              "meaning": "Bài tập về nhà"
+            }
+          ],
+          "explanation": "Câu hỏi luyện hội thoại theo chủ đề Bài 11.",
+          "tips": [
+            "Trả lời ngắn gọn, đúng mẫu ngữ pháp."
+          ],
+          "commonMistakes": [
+            "Dùng sai trợ từ hoặc sai thì."
+          ]
+        },
+        {
+          "questionId": "jpd133_l11_ni001_q002",
+          "order": 2,
+          "question": {
+            "ja": "家に帰ってから何をしますか。",
+            "vi": "Về nhà làm gì?"
+          },
+          "answerType": "short_answer",
+          "sampleAnswers": [
+            {
+              "ja": "晩ご飯を食べます。",
+              "vi": "Ăn tối."
+            }
+          ],
+          "grammarIds": [
+            "JPD133-L11-G001"
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "帰ります",
+              "reading": "帰ります",
+              "meaning": "帰ります"
+            }
+          ],
+          "explanation": "Câu hỏi luyện hội thoại theo chủ đề Bài 11.",
+          "tips": [
+            "Trả lời ngắn gọn, đúng mẫu ngữ pháp."
+          ],
+          "commonMistakes": [
+            "Dùng sai trợ từ hoặc sai thì."
+          ]
+        },
+        {
+          "questionId": "jpd133_l11_ni001_q003",
+          "order": 3,
+          "question": {
+            "ja": "夜、何時に寝ますか。",
+            "vi": "Mấy giờ ngủ?"
+          },
+          "answerType": "short_answer",
+          "sampleAnswers": [
+            {
+              "ja": "十一時に寝ます。",
+              "vi": "11 giờ."
+            }
+          ],
+          "grammarIds": [
+            "JPD133-L11-G001"
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "寝ます",
+              "reading": "寝ます",
+              "meaning": "寝ます"
+            }
+          ],
+          "explanation": "Câu hỏi luyện hội thoại theo chủ đề Bài 11.",
+          "tips": [
+            "Trả lời ngắn gọn, đúng mẫu ngữ pháp."
+          ],
+          "commonMistakes": [
+            "Dùng sai trợ từ hoặc sai thì."
+          ]
+        },
+        {
+          "questionId": "jpd133_l11_ni001_q004",
+          "order": 4,
+          "question": {
+            "ja": "毎日、日本語を勉強しますか。",
+            "vi": "Học tiếng Nhật mỗi ngày?"
+          },
+          "answerType": "short_answer",
+          "sampleAnswers": [
+            {
+              "ja": "はい、します。",
+              "vi": "Có."
+            }
+          ],
+          "grammarIds": [
+            "JPD133-L11-G001"
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "勉強",
+              "reading": "勉強",
+              "meaning": "勉強"
+            }
+          ],
+          "explanation": "Câu hỏi luyện hội thoại theo chủ đề Bài 11.",
+          "tips": [
+            "Trả lời ngắn gọn, đúng mẫu ngữ pháp."
+          ],
+          "commonMistakes": [
+            "Dùng sai trợ từ hoặc sai thì."
+          ]
+        },
+        {
+          "questionId": "jpd133_l11_ni001_q005",
+          "order": 5,
+          "question": {
+            "ja": "休みの日、よく何をしていますか。",
+            "vi": "Ngày nghỉ làm gì?"
+          },
+          "answerType": "short_answer",
+          "sampleAnswers": [
+            {
+              "ja": "映画を見ます。",
+              "vi": "Xem phim."
+            }
+          ],
+          "grammarIds": [
+            "JPD133-L11-G001"
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "休み",
+              "reading": "休み",
+              "meaning": "休み"
+            }
+          ],
+          "explanation": "Câu hỏi luyện hội thoại theo chủ đề Bài 11.",
+          "tips": [
+            "Trả lời ngắn gọn, đúng mẫu ngữ pháp."
+          ],
+          "commonMistakes": [
+            "Dùng sai trợ từ hoặc sai thì."
+          ]
+        },
+        {
+          "questionId": "jpd133_l11_ni001_q006",
+          "order": 6,
+          "question": {
+            "ja": "家族と出かけますか。",
+            "vi": "Đi cùng gia đình?"
+          },
+          "answerType": "short_answer",
+          "sampleAnswers": [
+            {
+              "ja": "はい。",
+              "vi": "Có."
+            }
+          ],
+          "grammarIds": [
+            "JPD133-L11-G001"
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "家族",
+              "reading": "家族",
+              "meaning": "家族"
+            }
+          ],
+          "explanation": "Câu hỏi luyện hội thoại theo chủ đề Bài 11.",
+          "tips": [
+            "Trả lời ngắn gọn, đúng mẫu ngữ pháp."
+          ],
+          "commonMistakes": [
+            "Dùng sai trợ từ hoặc sai thì."
+          ]
+        },
+        {
+          "questionId": "jpd133_l11_ni001_q007",
+          "order": 7,
+          "question": {
+            "ja": "友達と遊びますか。",
+            "vi": "Chơi với bạn?"
+          },
+          "answerType": "short_answer",
+          "sampleAnswers": [
+            {
+              "ja": "はい。",
+              "vi": "Có."
+            }
+          ],
+          "grammarIds": [
+            "JPD133-L11-G001"
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "友達",
+              "reading": "友達",
+              "meaning": "友達"
+            }
+          ],
+          "explanation": "Câu hỏi luyện hội thoại theo chủ đề Bài 11.",
+          "tips": [
+            "Trả lời ngắn gọn, đúng mẫu ngữ pháp."
+          ],
+          "commonMistakes": [
+            "Dùng sai trợ từ hoặc sai thì."
+          ]
+        },
+        {
+          "questionId": "jpd133_l11_ni001_q008",
+          "order": 8,
+          "question": {
+            "ja": "スポーツをしますか。",
+            "vi": "Chơi thể thao?"
+          },
+          "answerType": "short_answer",
+          "sampleAnswers": [
+            {
+              "ja": "サッカーをします。",
+              "vi": "Đá bóng."
+            }
+          ],
+          "grammarIds": [
+            "JPD133-L11-G001"
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "スポーツ",
+              "reading": "スポーツ",
+              "meaning": "スポーツ"
+            }
+          ],
+          "explanation": "Câu hỏi luyện hội thoại theo chủ đề Bài 11.",
+          "tips": [
+            "Trả lời ngắn gọn, đúng mẫu ngữ pháp."
+          ],
+          "commonMistakes": [
+            "Dùng sai trợ từ hoặc sai thì."
+          ]
+        },
+        {
+          "questionId": "jpd133_l11_ni001_q009",
+          "order": 9,
+          "question": {
+            "ja": "疲れたとき、どうしますか。",
+            "vi": "Mệt làm gì?"
+          },
+          "answerType": "short_answer",
+          "sampleAnswers": [
+            {
+              "ja": "休みます。",
+              "vi": "Nghỉ."
+            }
+          ],
+          "grammarIds": [
+            "JPD133-L11-G001"
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "疲れます",
+              "reading": "疲れます",
+              "meaning": "疲れます"
+            }
+          ],
+          "explanation": "Câu hỏi luyện hội thoại theo chủ đề Bài 11.",
+          "tips": [
+            "Trả lời ngắn gọn, đúng mẫu ngữ pháp."
+          ],
+          "commonMistakes": [
+            "Dùng sai trợ từ hoặc sai thì."
+          ]
+        },
+        {
+          "questionId": "jpd133_l11_ni001_q010",
+          "order": 10,
+          "question": {
+            "ja": "風邪をひいたとき、どうしますか。",
+            "vi": "Cảm làm gì?"
+          },
+          "answerType": "short_answer",
+          "sampleAnswers": [
+            {
+              "ja": "薬を飲みます。",
+              "vi": "Uống thuốc."
+            }
+          ],
+          "grammarIds": [
+            "JPD133-L11-G001"
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "薬",
+              "reading": "くすり",
+              "meaning": "Thuốc (uống, bôi…)"
+            }
+          ],
+          "explanation": "Câu hỏi luyện hội thoại theo chủ đề Bài 11.",
+          "tips": [
+            "Trả lời ngắn gọn, đúng mẫu ngữ pháp."
+          ],
+          "commonMistakes": [
+            "Dùng sai trợ từ hoặc sai thì."
+          ]
+        },
+        {
+          "questionId": "jpd133_l11_ni001_q011",
+          "order": 11,
+          "question": {
+            "ja": "病院へ行きますか。",
+            "vi": "Có đi bệnh viện?"
+          },
+          "answerType": "short_answer",
+          "sampleAnswers": [
+            {
+              "ja": "はい、行きます。",
+              "vi": "Có."
+            }
+          ],
+          "grammarIds": [
+            "JPD133-L11-G001"
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "病院",
+              "reading": "病院",
+              "meaning": "病院"
+            }
+          ],
+          "explanation": "Câu hỏi luyện hội thoại theo chủ đề Bài 11.",
+          "tips": [
+            "Trả lời ngắn gọn, đúng mẫu ngữ pháp."
+          ],
+          "commonMistakes": [
+            "Dùng sai trợ từ hoặc sai thì."
+          ]
+        },
+        {
+          "questionId": "jpd133_l11_ni001_q012",
+          "order": 12,
+          "question": {
+            "ja": "薬を飲みますか。",
+            "vi": "Có uống thuốc?"
+          },
+          "answerType": "short_answer",
+          "sampleAnswers": [
+            {
+              "ja": "はい。",
+              "vi": "Có."
+            }
+          ],
+          "grammarIds": [
+            "JPD133-L11-G001"
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "薬",
+              "reading": "くすり",
+              "meaning": "Thuốc (uống, bôi…)"
+            }
+          ],
+          "explanation": "Câu hỏi luyện hội thoại theo chủ đề Bài 11.",
+          "tips": [
+            "Trả lời ngắn gọn, đúng mẫu ngữ pháp."
+          ],
+          "commonMistakes": [
+            "Dùng sai trợ từ hoặc sai thì."
+          ]
+        },
+        {
+          "questionId": "jpd133_l11_ni001_q013",
+          "order": 13,
+          "question": {
+            "ja": "いつ日本語の勉強を始めましたか。",
+            "vi": "Bắt đầu học khi nào?"
+          },
+          "answerType": "short_answer",
+          "sampleAnswers": [
+            {
+              "ja": "去年始めました。",
+              "vi": "Năm ngoái."
+            }
+          ],
+          "grammarIds": [
+            "JPD133-L11-G001"
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "始めます",
+              "reading": "始めます",
+              "meaning": "始めます"
+            }
+          ],
+          "explanation": "Câu hỏi luyện hội thoại theo chủ đề Bài 11.",
+          "tips": [
+            "Trả lời ngắn gọn, đúng mẫu ngữ pháp."
+          ],
+          "commonMistakes": [
+            "Dùng sai trợ từ hoặc sai thì."
+          ]
+        },
+        {
+          "questionId": "jpd133_l11_ni001_q014",
+          "order": 14,
+          "question": {
+            "ja": "日本語を勉強して何年ですか。",
+            "vi": "Học bao nhiêu năm?"
+          },
+          "answerType": "short_answer",
+          "sampleAnswers": [
+            {
+              "ja": "二年です。",
+              "vi": "2 năm."
+            }
+          ],
+          "grammarIds": [
+            "JPD133-L11-G001"
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "年",
+              "reading": "年",
+              "meaning": "年"
+            }
+          ],
+          "explanation": "Câu hỏi luyện hội thoại theo chủ đề Bài 11.",
+          "tips": [
+            "Trả lời ngắn gọn, đúng mẫu ngữ pháp."
+          ],
+          "commonMistakes": [
+            "Dùng sai trợ từ hoặc sai thì."
+          ]
+        },
+        {
+          "questionId": "jpd133_l11_ni001_q015",
+          "order": 15,
+          "question": {
+            "ja": "日本語で何をしたいですか。",
+            "vi": "Muốn làm gì bằng tiếng Nhật?"
+          },
+          "answerType": "short_answer",
+          "sampleAnswers": [
+            {
+              "ja": "日本で働きたいです。",
+              "vi": "Muốn làm việc ở Nhật."
+            }
+          ],
+          "grammarIds": [
+            "JPD133-L11-G001"
+          ],
+          "relatedVocabulary": [
+            {
+              "word": "日本",
+              "reading": "日本",
+              "meaning": "日本"
+            }
+          ],
+          "explanation": "Câu hỏi luyện hội thoại theo chủ đề Bài 11.",
+          "tips": [
+            "Trả lời ngắn gọn, đúng mẫu ngữ pháp."
+          ],
+          "commonMistakes": [
+            "Dùng sai trợ từ hoặc sai thì."
+          ]
+        }
+      ]
+    }
+  ]
+}
