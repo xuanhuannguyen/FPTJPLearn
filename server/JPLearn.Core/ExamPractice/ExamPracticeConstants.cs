@@ -4,8 +4,9 @@ public static class ExamCourseCodes
 {
     public const string JPD113 = "jpd113";
     public const string JPD123 = "jpd123";
+    public const string JPD133 = "jpd133";
 
-    public static readonly string[] All = [JPD113, JPD123];
+    public static readonly string[] All = [JPD113, JPD123, JPD133];
 }
 
 public static class ExamQuestionTypes
@@ -19,6 +20,7 @@ public static class ExamQuestionTopics
     public const string Kanji = "kanji";
     public const string Grammar = "grammar";
     public const string Vocabulary = "vocabulary";
+    public const string Conversation = "conversation";
     public const string OddOneOut = "odd_one_out";
     public const string Reading = "reading";
 
@@ -27,6 +29,7 @@ public static class ExamQuestionTopics
         Kanji,
         Grammar,
         Vocabulary,
+        Conversation,
         OddOneOut,
         Reading
     ];
@@ -38,6 +41,7 @@ public static class ExamQuestionTopics
             Kanji => "Kanji",
             Grammar => "Ngữ pháp",
             Vocabulary => "Từ vựng",
+            Conversation => "Giao tiếp",
             OddOneOut => "Phân biệt từ khác loại",
             Reading => "Đọc hiểu",
             _ => topic
@@ -51,8 +55,9 @@ public static class ExamQuestionTopics
             Kanji => 1,
             Grammar => 2,
             Vocabulary => 3,
-            OddOneOut => 4,
-            Reading => 5,
+            Conversation => 4,
+            OddOneOut => 5,
+            Reading => 6,
             _ => int.MaxValue
         };
     }

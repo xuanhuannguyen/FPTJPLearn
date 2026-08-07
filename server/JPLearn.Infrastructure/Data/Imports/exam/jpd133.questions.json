@@ -1,0 +1,7488 @@
+{
+  "courseCode": "jpd133",
+  "level": "N5",
+  "topics": [
+    {
+      "code": "kanji",
+      "label": "Hán tự",
+      "orderIndex": 1
+    },
+    {
+      "code": "grammar",
+      "label": "Ngữ pháp",
+      "orderIndex": 2
+    },
+    {
+      "code": "vocabulary",
+      "label": "Từ vựng",
+      "orderIndex": 3
+    },
+    {
+      "code": "conversation",
+      "label": "Giao tiếp",
+      "orderIndex": 4
+    },
+    {
+      "code": "odd_one_out",
+      "label": "Khác loại",
+      "orderIndex": 5
+    },
+    {
+      "code": "reading",
+      "label": "Đọc hiểu",
+      "orderIndex": 6
+    }
+  ],
+  "passages": [
+    {
+      "id": 1,
+      "title": "Đoạn văn 1",
+      "content": "大阪、神戸、京都、奈良、大阪は大きい町です。ビルや車や人が（①）にぎやかです。神戸と京都と奈良は大阪から近いです。京都と奈良は古いお寺や神社がたくさんありますから、外国人もたくさん遊びに来ます。神戸は古い物があまりありませんが、町の後ろに山が、前に海があって、すてきな町です。若い人は神戸が好きです。",
+      "topic": "reading",
+      "level": "N5"
+    },
+    {
+      "id": 2,
+      "title": "Đoạn văn 2",
+      "content": "大阪、神戸、京都、奈良、大阪は大きい町です。ビルや車や人が多くて、にぎやかです。神戸と京都と奈良は大阪から近いです。京都と奈良は古いお寺や神社がたくさんありますから、外国人もたくさん遊びに来ます。神戸は古い物があまりありませんが、町の後ろに山が、前に海があって、すてきな町です。若い人は神戸が好きです。",
+      "topic": "reading",
+      "level": "N5"
+    },
+    {
+      "id": 3,
+      "title": "Đoạn văn 3",
+      "content": "ダニエルさんへ。お元気ですか。私は4月からコンビニでアルバイトをしています。朝とても早いですから、いつもねむいです。でも、今は（①）。コンビニの店長は優しい人です。日本語学校は午後5時に終わります。それから、クラスメートと一緒に晩ごはんを食べます。夜はたいてい、うちでテレビを見たり、（②）を読んだりしています。でも、一人暮らしですから、少し寂しいです。今年の6月に学校を（③）して、日本の会社で働きます。ダニエルさんが日本へ来るとき、電話してください。どこか遊びに行きましょう。田中より。",
+      "topic": "reading",
+      "level": "N5"
+    },
+    {
+      "id": 4,
+      "title": "Đoạn văn 4",
+      "content": "ダニエルさんへ。お元気ですか。私は4月からコンビニでアルバイトをしています。朝とても早いですから、いつもねむいです。でも、今はなれました。コンビニの店長は優しい人です。日本語学校は午後5時に終わります。それから、クラスメートと一緒に晩ごはんを食べます。夜はたいてい、うちでテレビを見たり、（②）を読んだりしています。でも、一人暮らしですから、少し寂しいです。今年の6月に学校を（③）して、日本の会社で働きます。ダニエルさんが日本へ来るとき、電話してください。どこか遊びに行きましょう。田中より。",
+      "topic": "reading",
+      "level": "N5"
+    },
+    {
+      "id": 5,
+      "title": "Đoạn văn 5",
+      "content": "ダニエルさんへ。お元気ですか。私は4月からコンビニでアルバイトをしています。朝とても早いですから、いつもねむいです。でも、今はなれました。コンビニの店長は優しい人です。日本語学校は午後5時に終わります。それから、クラスメートと一緒に晩ごはんを食べます。夜はたいてい、うちでテレビを見たり、ざっしを読んだりしています。でも、一人暮らしですから、少し寂しいです。今年の6月に学校を（③）して、日本の会社で働きます。ダニエルさんが日本へ来るとき、電話してください。どこか遊びに行きましょう。田中より。",
+      "topic": "reading",
+      "level": "N5"
+    },
+    {
+      "id": 6,
+      "title": "Đoạn văn 6",
+      "content": "山川さん、お元気ですか。\nもう12月です。寒いですね。町は今（①）にぎやかです。\n（②）きれいです。仕事は忙しいですが、おもしろいです。\nお正月に 私のうちへ 来ませんか。いっしょに 楽しい お正月の パーティーを しましょう。\n\n12月03日、町田太郎",
+      "topic": "reading",
+      "level": "N5"
+    },
+    {
+      "id": 7,
+      "title": "Đoạn văn 7",
+      "content": "僕（ぼく）のおばあちゃんは80歳（①）元気です。一人で住んでいます。天気がいい時、おばあちゃんは病院へ友達に会いに行きます。病院に友達がたくさんいますから。天気が（②）時、足（あし）の調子（ちょうし）がよくないですから、出かけません。",
+      "topic": "reading",
+      "level": "N5"
+    },
+    {
+      "id": 8,
+      "title": "Đoạn văn 8",
+      "content": "私はとても寒いところに住んでいます。私は赤い服が好きです。赤い服は暖かいです。私は1年に1日だけ働きます。それは12月24日です。24日の夜、すてきなプレゼントをいろいろな国の子供にあげます。\n私は独身ですから、子供がいません。でも世界の子供はみんな私を知っています。私はだれですか。",
+      "topic": "reading",
+      "level": "N5"
+    }
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "type": "standalone",
+      "topic": "kanji",
+      "level": "N5",
+      "questionText": "７時ですよ。はやく「おきて」ください。",
+      "explanation": "Đáp án B. 「おきて」trong ngữ cảnh thức dậy được viết là 「起きて」, dạng て của 「起きる」.",
+      "orderIndex": 1,
+      "options": [
+        {
+          "label": "A",
+          "text": "始きて",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "起きて",
+          "isCorrect": true
+        },
+        {
+          "label": "C",
+          "text": "乗きて",
+          "isCorrect": false
+        },
+        {
+          "label": "D",
+          "text": "歩きて",
+          "isCorrect": false
+        }
+      ],
+      "passageId": null
+    },
+    {
+      "id": 2,
+      "type": "standalone",
+      "topic": "kanji",
+      "level": "N5",
+      "questionText": "明日の「朝」、何をしますか。",
+      "explanation": "Đáp án A. 「朝」đọc là 「あさ」, nghĩa là buổi sáng.",
+      "orderIndex": 2,
+      "options": [
+        {
+          "label": "A",
+          "text": "あさ",
+          "isCorrect": true
+        },
+        {
+          "label": "B",
+          "text": "ばん",
+          "isCorrect": false
+        },
+        {
+          "label": "C",
+          "text": "よる",
+          "isCorrect": false
+        },
+        {
+          "label": "D",
+          "text": "ひる",
+          "isCorrect": false
+        }
+      ],
+      "passageId": null
+    },
+    {
+      "id": 3,
+      "type": "standalone",
+      "topic": "kanji",
+      "level": "N5",
+      "questionText": "きれいな「りょかん」ですね。",
+      "explanation": "Đáp án C. 「りょかん」được viết là 「旅館」, nghĩa là nhà trọ kiểu Nhật.",
+      "orderIndex": 3,
+      "options": [
+        {
+          "label": "A",
+          "text": "旅管",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "族管",
+          "isCorrect": false
+        },
+        {
+          "label": "C",
+          "text": "旅館",
+          "isCorrect": true
+        },
+        {
+          "label": "D",
+          "text": "族館",
+          "isCorrect": false
+        }
+      ],
+      "passageId": null
+    },
+    {
+      "id": 4,
+      "type": "standalone",
+      "topic": "kanji",
+      "level": "N5",
+      "questionText": "山田「会長」はだれですか。",
+      "explanation": "Đáp án C. 「会長」đọc là 「かいちょう」, nghĩa là hội trưởng/chủ tịch hội.",
+      "orderIndex": 4,
+      "options": [
+        {
+          "label": "A",
+          "text": "ぞくちょう",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "がくちょう",
+          "isCorrect": false
+        },
+        {
+          "label": "C",
+          "text": "かいちょう",
+          "isCorrect": true
+        },
+        {
+          "label": "D",
+          "text": "こくちょう",
+          "isCorrect": false
+        }
+      ],
+      "passageId": null
+    },
+    {
+      "id": 5,
+      "type": "standalone",
+      "topic": "kanji",
+      "level": "N5",
+      "questionText": "交差点を「みぎ」へ曲がってください。",
+      "explanation": "Đáp án A. 「みぎ」được viết là 「右」, nghĩa là bên phải.",
+      "orderIndex": 5,
+      "options": [
+        {
+          "label": "A",
+          "text": "右",
+          "isCorrect": true
+        },
+        {
+          "label": "B",
+          "text": "佐",
+          "isCorrect": false
+        },
+        {
+          "label": "C",
+          "text": "左",
+          "isCorrect": false
+        },
+        {
+          "label": "D",
+          "text": "石",
+          "isCorrect": false
+        }
+      ],
+      "passageId": null
+    },
+    {
+      "id": 6,
+      "type": "standalone",
+      "topic": "kanji",
+      "level": "N5",
+      "questionText": "私の趣味は「音楽」です。",
+      "explanation": "Đáp án D. 「音楽」đọc là 「おんがく」, nghĩa là âm nhạc.",
+      "orderIndex": 6,
+      "options": [
+        {
+          "label": "A",
+          "text": "りょうり",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "すいえい",
+          "isCorrect": false
+        },
+        {
+          "label": "C",
+          "text": "りょこう",
+          "isCorrect": false
+        },
+        {
+          "label": "D",
+          "text": "おんがく",
+          "isCorrect": true
+        }
+      ],
+      "passageId": null
+    },
+    {
+      "id": 7,
+      "type": "standalone",
+      "topic": "kanji",
+      "level": "N5",
+      "questionText": "「じょうげ」という漢字を書いてください。",
+      "explanation": "Đáp án C. 「じょうげ」được viết là 「上下」, nghĩa là trên dưới.",
+      "orderIndex": 7,
+      "options": [
+        {
+          "label": "A",
+          "text": "乗車",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "下上",
+          "isCorrect": false
+        },
+        {
+          "label": "C",
+          "text": "上下",
+          "isCorrect": true
+        },
+        {
+          "label": "D",
+          "text": "上京",
+          "isCorrect": false
+        }
+      ],
+      "passageId": null
+    },
+    {
+      "id": 8,
+      "type": "standalone",
+      "topic": "kanji",
+      "level": "N5",
+      "questionText": "「ぼこくご」の漢字は何ですか。",
+      "explanation": "Đáp án D. 「ぼこくご」được viết là 「母国語」, nghĩa là tiếng mẹ đẻ.",
+      "orderIndex": 8,
+      "options": [
+        {
+          "label": "A",
+          "text": "帰国後",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "母国後",
+          "isCorrect": false
+        },
+        {
+          "label": "C",
+          "text": "帰国語",
+          "isCorrect": false
+        },
+        {
+          "label": "D",
+          "text": "母国語",
+          "isCorrect": true
+        }
+      ],
+      "passageId": null
+    },
+    {
+      "id": 9,
+      "type": "standalone",
+      "topic": "kanji",
+      "level": "N5",
+      "questionText": "明日、一緒に「映画」を見に行きませんか。",
+      "explanation": "Đáp án B. 「映画」đọc là 「えいが」, nghĩa là phim điện ảnh.",
+      "orderIndex": 9,
+      "options": [
+        {
+          "label": "A",
+          "text": "りょうり",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "えいが",
+          "isCorrect": true
+        },
+        {
+          "label": "C",
+          "text": "かいがい",
+          "isCorrect": false
+        },
+        {
+          "label": "D",
+          "text": "りょこう",
+          "isCorrect": false
+        }
+      ],
+      "passageId": null
+    },
+    {
+      "id": 10,
+      "type": "standalone",
+      "topic": "kanji",
+      "level": "N5",
+      "questionText": "山田さんは「歌う」ことができますか。",
+      "explanation": "Đáp án D. 「歌う」đọc là 「うたう」, nghĩa là hát. 「使う」đọc là 「つかう」, 「もらう」là nhận và 「誘う」đọc là 「さそう」, nên chỉ đáp án D đúng với cách đọc của Kanji 「歌」.",
+      "orderIndex": 10,
+      "options": [
+        {
+          "label": "A",
+          "text": "つかう",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "もらう",
+          "isCorrect": false
+        },
+        {
+          "label": "C",
+          "text": "さそう",
+          "isCorrect": false
+        },
+        {
+          "label": "D",
+          "text": "うたう",
+          "isCorrect": true
+        }
+      ],
+      "passageId": null
+    },
+    {
+      "id": 11,
+      "type": "standalone",
+      "topic": "kanji",
+      "level": "N5",
+      "questionText": "私の「いえ」はあそこです。",
+      "explanation": "Đáp án A. 「いえ」trong nghĩa ngôi nhà được viết là 「家」.",
+      "orderIndex": 11,
+      "options": [
+        {
+          "label": "A",
+          "text": "家",
+          "isCorrect": true
+        },
+        {
+          "label": "B",
+          "text": "傢",
+          "isCorrect": false
+        },
+        {
+          "label": "C",
+          "text": "豚",
+          "isCorrect": false
+        },
+        {
+          "label": "D",
+          "text": "隊",
+          "isCorrect": false
+        }
+      ],
+      "passageId": null
+    },
+    {
+      "id": 12,
+      "type": "standalone",
+      "topic": "kanji",
+      "level": "N5",
+      "questionText": "毎日、学校で「勉強」しています。",
+      "explanation": "Đáp án D. 「勉強」đọc là 「べんきょう」, nghĩa là học tập.",
+      "orderIndex": 12,
+      "options": [
+        {
+          "label": "A",
+          "text": "ちょうしょく",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "じょうしゃ",
+          "isCorrect": false
+        },
+        {
+          "label": "C",
+          "text": "しゅうし",
+          "isCorrect": false
+        },
+        {
+          "label": "D",
+          "text": "べんきょう",
+          "isCorrect": true
+        }
+      ],
+      "passageId": null
+    },
+    {
+      "id": 13,
+      "type": "standalone",
+      "topic": "kanji",
+      "level": "N5",
+      "questionText": "交差点（こうさてん）を「みぎ」に曲（ま）がってください。",
+      "explanation": "Đáp án A. 「みぎ」 được viết bằng Kanji 「右」, nghĩa là bên phải; 「左」 là bên trái, còn 「石」 và 「佐」 không phù hợp với cách đọc này.",
+      "orderIndex": 13,
+      "passageId": null,
+      "options": [
+        {
+          "label": "A",
+          "text": "右",
+          "isCorrect": true
+        },
+        {
+          "label": "B",
+          "text": "左",
+          "isCorrect": false
+        },
+        {
+          "label": "C",
+          "text": "石",
+          "isCorrect": false
+        },
+        {
+          "label": "D",
+          "text": "佐",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "type": "standalone",
+      "topic": "kanji",
+      "level": "N5",
+      "questionText": "「じょうげ」という漢字（かんじ）を書（か）いてください。",
+      "explanation": "Đáp án B. 「じょうげ」 được viết là 「上下」, gồm 「上」 đọc là じょう và 「下」 đọc là げ trong từ này; 「下上」 đảo thứ tự Kanji.",
+      "orderIndex": 14,
+      "passageId": null,
+      "options": [
+        {
+          "label": "A",
+          "text": "下上",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "上下",
+          "isCorrect": true
+        },
+        {
+          "label": "C",
+          "text": "乗車",
+          "isCorrect": false
+        },
+        {
+          "label": "D",
+          "text": "上京",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "type": "standalone",
+      "topic": "kanji",
+      "level": "N5",
+      "questionText": "「ちか」一階（いっかい）はどちらですか。",
+      "explanation": "Đáp án B. 「ちか」 được viết là 「地下」, nghĩa là tầng hầm hoặc dưới mặt đất; 「地図」 là bản đồ, 「土地」 là đất đai và 「地球」 là Trái Đất.",
+      "orderIndex": 15,
+      "passageId": null,
+      "options": [
+        {
+          "label": "A",
+          "text": "地図",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "地下",
+          "isCorrect": true
+        },
+        {
+          "label": "C",
+          "text": "土地",
+          "isCorrect": false
+        },
+        {
+          "label": "D",
+          "text": "地球",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "type": "standalone",
+      "topic": "kanji",
+      "level": "N5",
+      "questionText": "東京大学の「図書館」はあそこです。",
+      "explanation": "Đáp án D. 「図書館」 đọc là 「としょかん」, nghĩa là thư viện; 「びじゅつかん」 là bảo tàng mỹ thuật và 「えいがかん」 là rạp chiếu phim.",
+      "orderIndex": 16,
+      "passageId": null,
+      "options": [
+        {
+          "label": "A",
+          "text": "かいしゃいん",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "びじゅつかん",
+          "isCorrect": false
+        },
+        {
+          "label": "C",
+          "text": "えいがかん",
+          "isCorrect": false
+        },
+        {
+          "label": "D",
+          "text": "としょかん",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "type": "standalone",
+      "topic": "kanji",
+      "level": "N5",
+      "questionText": "毎日、学校まで「あるいて」来（き）ます。",
+      "explanation": "Đáp án B. 「あるいて」 là dạng て của 「歩く」 nên được viết là 「歩いて」; các Kanji 「乗」「起」「始」 có cách đọc và nghĩa khác.",
+      "orderIndex": 17,
+      "passageId": null,
+      "options": [
+        {
+          "label": "A",
+          "text": "乗いて",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "歩いて",
+          "isCorrect": true
+        },
+        {
+          "label": "C",
+          "text": "起いて",
+          "isCorrect": false
+        },
+        {
+          "label": "D",
+          "text": "始いて",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "type": "standalone",
+      "topic": "kanji",
+      "level": "N5",
+      "questionText": "明日（あした）の「朝」、何をしますか。",
+      "explanation": "Đáp án D. 「朝」 có cách đọc là 「あさ」 trong câu này, nghĩa là buổi sáng; 「ばん」 là buổi tối, 「よる」 là ban đêm và 「ひる」 là ban ngày.",
+      "orderIndex": 18,
+      "passageId": null,
+      "options": [
+        {
+          "label": "A",
+          "text": "ばん",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "よる",
+          "isCorrect": false
+        },
+        {
+          "label": "C",
+          "text": "ひる",
+          "isCorrect": false
+        },
+        {
+          "label": "D",
+          "text": "あさ",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "type": "standalone",
+      "topic": "kanji",
+      "level": "N5",
+      "questionText": "7時ですよ。はやく「起きて」ください。",
+      "explanation": "Đáp án C. 「起きて」 đọc là 「おきて」, dạng て của 「起きる」 nghĩa là thức dậy; các lựa chọn còn lại không phải cách đọc của 「起」 trong từ này.",
+      "orderIndex": 19,
+      "passageId": null,
+      "options": [
+        {
+          "label": "A",
+          "text": "ききて",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "かきて",
+          "isCorrect": false
+        },
+        {
+          "label": "C",
+          "text": "おきて",
+          "isCorrect": true
+        },
+        {
+          "label": "D",
+          "text": "いきて",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "type": "standalone",
+      "topic": "kanji",
+      "level": "N5",
+      "questionText": "「ちょうしょく」は何ですか。",
+      "explanation": "Đáp án B. 「ちょうしょく」 được viết là 「朝食」, nghĩa là bữa sáng; 「朝」 là buổi sáng và 「食」 là ăn hoặc thức ăn.",
+      "orderIndex": 20,
+      "passageId": null,
+      "options": [
+        {
+          "label": "A",
+          "text": "湖飲",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "朝食",
+          "isCorrect": true
+        },
+        {
+          "label": "C",
+          "text": "湖食",
+          "isCorrect": false
+        },
+        {
+          "label": "D",
+          "text": "朝飲",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "type": "standalone",
+      "topic": "kanji",
+      "level": "N5",
+      "questionText": "妹は「高校（こうこう）」で勉強（べんきょう）していますか。",
+      "explanation": "Đáp án B. 「高校」 đọc là 「こうこう」, nghĩa là trường trung học phổ thông; các cách đọc còn lại không đúng.",
+      "orderIndex": 21,
+      "passageId": null,
+      "options": [
+        {
+          "label": "A",
+          "text": "ここう",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "こうこう",
+          "isCorrect": true
+        },
+        {
+          "label": "C",
+          "text": "ごうごう",
+          "isCorrect": false
+        },
+        {
+          "label": "D",
+          "text": "ここ",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "type": "standalone",
+      "topic": "kanji",
+      "level": "N5",
+      "questionText": "「おねえさん」は会社員（かいしゃいん）ですか。",
+      "explanation": "Đáp án A. 「おねえさん」 được viết là 「お姉さん」, nghĩa là chị gái; 「お父さん」 là bố và 「お兄さん」 là anh trai.",
+      "orderIndex": 22,
+      "passageId": null,
+      "options": [
+        {
+          "label": "A",
+          "text": "お姉さん",
+          "isCorrect": true
+        },
+        {
+          "label": "B",
+          "text": "お父さん",
+          "isCorrect": false
+        },
+        {
+          "label": "C",
+          "text": "お弟さん",
+          "isCorrect": false
+        },
+        {
+          "label": "D",
+          "text": "お兄さん",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "type": "standalone",
+      "topic": "kanji",
+      "level": "N5",
+      "questionText": "「兄弟（きょうだい）」が何人（なんにん）いますか。",
+      "explanation": "Đáp án A. 「兄弟」 đọc là 「きょうだい」, nghĩa là anh chị em; 「姉妹」 mới đọc là 「しまい」.",
+      "orderIndex": 23,
+      "passageId": null,
+      "options": [
+        {
+          "label": "A",
+          "text": "きょうだい",
+          "isCorrect": true
+        },
+        {
+          "label": "B",
+          "text": "しまい",
+          "isCorrect": false
+        },
+        {
+          "label": "C",
+          "text": "かぞく",
+          "isCorrect": false
+        },
+        {
+          "label": "D",
+          "text": "こうちょう",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "type": "standalone",
+      "topic": "kanji",
+      "level": "N5",
+      "questionText": "「ぼこくご」の漢字（かんじ）は何ですか。",
+      "explanation": "Đáp án C. 「ぼこくご」 được viết là 「母国語」, nghĩa là tiếng mẹ đẻ; 「母国」 là quê hương và 「語」 là ngôn ngữ.",
+      "orderIndex": 24,
+      "passageId": null,
+      "options": [
+        {
+          "label": "A",
+          "text": "帰国語",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "帰国後",
+          "isCorrect": false
+        },
+        {
+          "label": "C",
+          "text": "母国語",
+          "isCorrect": true
+        },
+        {
+          "label": "D",
+          "text": "母国後",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "type": "standalone",
+      "topic": "kanji",
+      "level": "N5",
+      "questionText": "私の趣味（しゅみ）は「音楽」です。",
+      "explanation": "Đáp án C. 「音楽」 đọc là 「おんがく」, nghĩa là âm nhạc; 「旅行」 là du lịch và 「料理」 là nấu ăn.",
+      "orderIndex": 25,
+      "passageId": null,
+      "options": [
+        {
+          "label": "A",
+          "text": "りょこう",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "すいえい",
+          "isCorrect": false
+        },
+        {
+          "label": "C",
+          "text": "おんがく",
+          "isCorrect": true
+        },
+        {
+          "label": "D",
+          "text": "りょうり",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "type": "standalone",
+      "topic": "kanji",
+      "level": "N5",
+      "questionText": "山田（やまだ）さんは「歌う」ことができますか。",
+      "explanation": "Đáp án D. 「歌う」 đọc là 「うたう」, nghĩa là hát; các động từ 「つかう」「もらう」「さそう」 có Kanji và nghĩa khác.",
+      "orderIndex": 26,
+      "passageId": null,
+      "options": [
+        {
+          "label": "A",
+          "text": "つかう",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "もらう",
+          "isCorrect": false
+        },
+        {
+          "label": "C",
+          "text": "さそう",
+          "isCorrect": false
+        },
+        {
+          "label": "D",
+          "text": "うたう",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "type": "standalone",
+      "topic": "kanji",
+      "level": "N5",
+      "questionText": "「たび」の漢字（かんじ）は何ですか。",
+      "explanation": "Đáp án C. 「たび」 được viết là 「旅」, nghĩa là chuyến đi hoặc du lịch; các chữ còn lại đọc và mang nghĩa khác.",
+      "orderIndex": 27,
+      "passageId": null,
+      "options": [
+        {
+          "label": "A",
+          "text": "音",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "族",
+          "isCorrect": false
+        },
+        {
+          "label": "C",
+          "text": "旅",
+          "isCorrect": true
+        },
+        {
+          "label": "D",
+          "text": "車",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "type": "standalone",
+      "topic": "kanji",
+      "level": "N5",
+      "questionText": "先週、きれいな「りょかん」に泊（と）まりました。",
+      "explanation": "Đáp án C. 「りょかん」 được viết là 「旅館」, nghĩa là nhà trọ kiểu Nhật; 「旅」 là chuyến đi và 「館」 là tòa nhà.",
+      "orderIndex": 28,
+      "passageId": null,
+      "options": [
+        {
+          "label": "A",
+          "text": "旅管",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "族管",
+          "isCorrect": false
+        },
+        {
+          "label": "C",
+          "text": "旅館",
+          "isCorrect": true
+        },
+        {
+          "label": "D",
+          "text": "族館",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "type": "standalone",
+      "topic": "kanji",
+      "level": "N5",
+      "questionText": "すみません。一番目（いちばんめ）の交差点（こうさてん）を「ひだり」へ曲（ま）がってください。",
+      "explanation": "Đáp án B. 「ひだり」 được viết là 「左」, nghĩa là bên trái; 「右」 là bên phải.",
+      "orderIndex": 29,
+      "passageId": null,
+      "options": [
+        {
+          "label": "A",
+          "text": "佐",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "左",
+          "isCorrect": true
+        },
+        {
+          "label": "C",
+          "text": "右",
+          "isCorrect": false
+        },
+        {
+          "label": "D",
+          "text": "石",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 30,
+      "type": "standalone",
+      "topic": "kanji",
+      "level": "N5",
+      "questionText": "本屋（ほんや）でアメリカの「地図」を買いました。",
+      "explanation": "Đáp án A. 「地図」 đọc là 「ちず」, nghĩa là bản đồ; 「道」 mới đọc là みち.",
+      "orderIndex": 30,
+      "passageId": null,
+      "options": [
+        {
+          "label": "A",
+          "text": "ちず",
+          "isCorrect": true
+        },
+        {
+          "label": "B",
+          "text": "みち",
+          "isCorrect": false
+        },
+        {
+          "label": "C",
+          "text": "つち",
+          "isCorrect": false
+        },
+        {
+          "label": "D",
+          "text": "ちか",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 31,
+      "type": "standalone",
+      "topic": "kanji",
+      "level": "N5",
+      "questionText": "毎日、「朝」ごはんを食べます。",
+      "explanation": "Đáp án B. 「朝ごはん」 đọc là 「あさごはん」, nghĩa là bữa sáng.",
+      "orderIndex": 31,
+      "passageId": null,
+      "options": [
+        {
+          "label": "A",
+          "text": "ばん",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "あさ",
+          "isCorrect": true
+        },
+        {
+          "label": "C",
+          "text": "ひる",
+          "isCorrect": false
+        },
+        {
+          "label": "D",
+          "text": "よる",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 32,
+      "type": "standalone",
+      "topic": "kanji",
+      "level": "N5",
+      "questionText": "あのスカートは「みじかい」ですから、買いません。",
+      "explanation": "Đáp án B. 「みじかい」 được viết là 「短い」, nghĩa là ngắn; 「長い」 là dài.",
+      "orderIndex": 32,
+      "passageId": null,
+      "options": [
+        {
+          "label": "A",
+          "text": "高い",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "短い",
+          "isCorrect": true
+        },
+        {
+          "label": "C",
+          "text": "長い",
+          "isCorrect": false
+        },
+        {
+          "label": "D",
+          "text": "大い",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 33,
+      "type": "standalone",
+      "topic": "kanji",
+      "level": "N5",
+      "questionText": "あのかどを「ひだり」へ曲がってください。",
+      "explanation": "Đáp án D. 「ひだり」được viết bằng Kanji 「左」, nghĩa là bên trái.",
+      "orderIndex": 33,
+      "passageId": null,
+      "options": [
+        {
+          "label": "A",
+          "text": "右",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "佐",
+          "isCorrect": false
+        },
+        {
+          "label": "C",
+          "text": "石",
+          "isCorrect": false
+        },
+        {
+          "label": "D",
+          "text": "左",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": 34,
+      "type": "standalone",
+      "topic": "kanji",
+      "level": "N5",
+      "questionText": "車の「おと」が聞こえます。",
+      "explanation": "Đáp án A. 「おと」trong 「車のおと」nghĩa là âm thanh và được viết bằng Kanji 「音」.",
+      "orderIndex": 34,
+      "passageId": null,
+      "options": [
+        {
+          "label": "A",
+          "text": "音",
+          "isCorrect": true
+        },
+        {
+          "label": "B",
+          "text": "暗",
+          "isCorrect": false
+        },
+        {
+          "label": "C",
+          "text": "億",
+          "isCorrect": false
+        },
+        {
+          "label": "D",
+          "text": "間",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 35,
+      "type": "standalone",
+      "topic": "kanji",
+      "level": "N5",
+      "questionText": "山田（やまだ）「会長」は だれですか。",
+      "explanation": "Đáp án A. 「会長」được đọc là 「かいちょう」, nghĩa là chủ tịch hoặc người đứng đầu hội/đoàn thể.",
+      "orderIndex": 35,
+      "passageId": null,
+      "options": [
+        {
+          "label": "A",
+          "text": "かいちょう",
+          "isCorrect": true
+        },
+        {
+          "label": "B",
+          "text": "ざちょう",
+          "isCorrect": false
+        },
+        {
+          "label": "C",
+          "text": "ごくちょう",
+          "isCorrect": false
+        },
+        {
+          "label": "D",
+          "text": "がくちょう",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 36,
+      "type": "standalone",
+      "topic": "kanji",
+      "level": "N5",
+      "questionText": "先月、どこへ「旅行」に行きましたか。",
+      "explanation": "Đáp án A. 「旅行」được đọc là 「りょこう」, nghĩa là chuyến du lịch; các lựa chọn còn lại có cách đọc hoặc nghĩa khác.",
+      "orderIndex": 36,
+      "passageId": null,
+      "options": [
+        {
+          "label": "A",
+          "text": "りょこう",
+          "isCorrect": true
+        },
+        {
+          "label": "B",
+          "text": "りょり",
+          "isCorrect": false
+        },
+        {
+          "label": "C",
+          "text": "えいが",
+          "isCorrect": false
+        },
+        {
+          "label": "D",
+          "text": "おんがく",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 37,
+      "type": "standalone",
+      "topic": "kanji",
+      "level": "N5",
+      "questionText": "毎日、学校で「勉強」しています。",
+      "explanation": "Đáp án A. 「勉強」được đọc là 「べんきょう」, nghĩa là học tập.",
+      "orderIndex": 37,
+      "passageId": null,
+      "options": [
+        {
+          "label": "A",
+          "text": "べんきょう",
+          "isCorrect": true
+        },
+        {
+          "label": "B",
+          "text": "じょうや",
+          "isCorrect": false
+        },
+        {
+          "label": "C",
+          "text": "しゅうし",
+          "isCorrect": false
+        },
+        {
+          "label": "D",
+          "text": "ちょうしょく",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 38,
+      "type": "standalone",
+      "topic": "kanji",
+      "level": "N5",
+      "questionText": "「兄弟」が何人（なんにん）いますか。",
+      "explanation": "Đáp án C. 「兄弟」được đọc là 「きょうだい」, nghĩa là anh chị em ruột.",
+      "orderIndex": 38,
+      "passageId": null,
+      "options": [
+        {
+          "label": "A",
+          "text": "かぞく",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "しまい",
+          "isCorrect": false
+        },
+        {
+          "label": "C",
+          "text": "きょうだい",
+          "isCorrect": true
+        },
+        {
+          "label": "D",
+          "text": "こうちょう",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 39,
+      "type": "standalone",
+      "topic": "kanji",
+      "level": "N5",
+      "questionText": "「左右」注意（ちゅうい）してください。",
+      "explanation": "Đáp án A. 「左右」được đọc là 「さゆう」, nghĩa là trái và phải.",
+      "orderIndex": 39,
+      "passageId": null,
+      "options": [
+        {
+          "label": "A",
+          "text": "さゆう",
+          "isCorrect": true
+        },
+        {
+          "label": "B",
+          "text": "みぎ",
+          "isCorrect": false
+        },
+        {
+          "label": "C",
+          "text": "うえ",
+          "isCorrect": false
+        },
+        {
+          "label": "D",
+          "text": "ひだり",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 40,
+      "type": "standalone",
+      "topic": "kanji",
+      "level": "N5",
+      "questionText": "明日（あした）、一緒（いっしょ）に「映画」を見に行きませんか。",
+      "explanation": "Đáp án C. 「映画」được đọc là 「えいが」, nghĩa là phim; 「映画を見に行きませんか」là lời mời đi xem phim.",
+      "orderIndex": 40,
+      "passageId": null,
+      "options": [
+        {
+          "label": "A",
+          "text": "かいがい",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "りょこう",
+          "isCorrect": false
+        },
+        {
+          "label": "C",
+          "text": "えいが",
+          "isCorrect": true
+        },
+        {
+          "label": "D",
+          "text": "りょり",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 41,
+      "type": "standalone",
+      "topic": "kanji",
+      "level": "N5",
+      "questionText": "私の「いえ」は あそこです。",
+      "explanation": "Đáp án D. 「いえ」nghĩa là ngôi nhà và được viết bằng Kanji 「家」.",
+      "orderIndex": 41,
+      "passageId": null,
+      "options": [
+        {
+          "label": "A",
+          "text": "傑",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "隊",
+          "isCorrect": false
+        },
+        {
+          "label": "C",
+          "text": "豚",
+          "isCorrect": false
+        },
+        {
+          "label": "D",
+          "text": "家",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": 42,
+      "type": "standalone",
+      "topic": "kanji",
+      "level": "N5",
+      "questionText": "「たのしい」パーティーを 作（つく）りましょう。",
+      "explanation": "Đáp án C. 「たのしい」được viết là 「楽しい」, nghĩa là vui vẻ.",
+      "orderIndex": 42,
+      "passageId": null,
+      "options": [
+        {
+          "label": "A",
+          "text": "薬しい",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "楽い",
+          "isCorrect": false
+        },
+        {
+          "label": "C",
+          "text": "楽しい",
+          "isCorrect": true
+        },
+        {
+          "label": "D",
+          "text": "樂い",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 43,
+      "type": "standalone",
+      "topic": "kanji",
+      "level": "N5",
+      "questionText": "先月（せんげつ）、どこへ「旅行」に行きましたか。",
+      "explanation": "Đáp án C. 「旅行」được đọc là 「りょこう」, nghĩa là du lịch.",
+      "orderIndex": 43,
+      "passageId": null,
+      "options": [
+        {
+          "label": "A",
+          "text": "りょり",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "えいが",
+          "isCorrect": false
+        },
+        {
+          "label": "C",
+          "text": "りょこう",
+          "isCorrect": true
+        },
+        {
+          "label": "D",
+          "text": "おんがく",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 44,
+      "type": "standalone",
+      "topic": "kanji",
+      "level": "N5",
+      "questionText": "あのかどを「ひだり」へ 曲（ま）がってください。",
+      "explanation": "Đáp án B. 「ひだり」được viết bằng Kanji 「左」, nghĩa là bên trái.",
+      "orderIndex": 44,
+      "passageId": null,
+      "options": [
+        {
+          "label": "A",
+          "text": "右",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "左",
+          "isCorrect": true
+        },
+        {
+          "label": "C",
+          "text": "佐",
+          "isCorrect": false
+        },
+        {
+          "label": "D",
+          "text": "石",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 45,
+      "type": "standalone",
+      "topic": "kanji",
+      "level": "N5",
+      "questionText": "このズボンは「みじかい」ですね。",
+      "explanation": "Đáp án D. 「みじかい」được viết là 「短い」, nghĩa là ngắn; 「長い」là dài.",
+      "orderIndex": 45,
+      "passageId": null,
+      "options": [
+        {
+          "label": "A",
+          "text": "高い",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "長い",
+          "isCorrect": false
+        },
+        {
+          "label": "C",
+          "text": "大い",
+          "isCorrect": false
+        },
+        {
+          "label": "D",
+          "text": "短い",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": 46,
+      "type": "standalone",
+      "topic": "kanji",
+      "level": "N5",
+      "questionText": "昨日（きのう）の「夜」、何をしましたか。",
+      "explanation": "Đáp án C. 「夜」được đọc là 「よる」trong câu này, nghĩa là buổi tối hoặc ban đêm; 「朝」là buổi sáng và 「昼」là ban ngày.",
+      "orderIndex": 46,
+      "passageId": null,
+      "options": [
+        {
+          "label": "A",
+          "text": "あさ",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "ばん",
+          "isCorrect": false
+        },
+        {
+          "label": "C",
+          "text": "よる",
+          "isCorrect": true
+        },
+        {
+          "label": "D",
+          "text": "ひる",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 47,
+      "type": "standalone",
+      "topic": "kanji",
+      "level": "N5",
+      "questionText": "「道」が分からない時、どうしますか。",
+      "explanation": "Đáp án D. 「道」có cách đọc là 「みち」, nghĩa là con đường; các lựa chọn còn lại không phải cách đọc của Kanji này.",
+      "orderIndex": 47,
+      "passageId": null,
+      "options": [
+        {
+          "label": "A",
+          "text": "うえ",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "うち",
+          "isCorrect": false
+        },
+        {
+          "label": "C",
+          "text": "くち",
+          "isCorrect": false
+        },
+        {
+          "label": "D",
+          "text": "みち",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": 48,
+      "type": "standalone",
+      "topic": "kanji",
+      "level": "N5",
+      "questionText": "「夜道」の読み方（よみかた）は何ですか。",
+      "explanation": "Đáp án C. 「夜道」được đọc là 「よみち」, nghĩa là đường đi vào ban đêm; đây là cách đọc ghép tự nhiên của 「夜」trong từ này và 「道」.",
+      "orderIndex": 48,
+      "passageId": null,
+      "options": [
+        {
+          "label": "A",
+          "text": "よるどう",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "よるみち",
+          "isCorrect": false
+        },
+        {
+          "label": "C",
+          "text": "よみち",
+          "isCorrect": true
+        },
+        {
+          "label": "D",
+          "text": "ばんみち",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 49,
+      "type": "standalone",
+      "topic": "kanji",
+      "level": "N5",
+      "questionText": "来週（らいしゅう）、「うみ」へ 行きませんか。",
+      "explanation": "Đáp án C. 「うみ」được viết là 「海」, nghĩa là biển; 「毎」「母」「梅」có cách đọc và nghĩa khác.",
+      "orderIndex": 49,
+      "passageId": null,
+      "options": [
+        {
+          "label": "A",
+          "text": "毎",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "母",
+          "isCorrect": false
+        },
+        {
+          "label": "C",
+          "text": "海",
+          "isCorrect": true
+        },
+        {
+          "label": "D",
+          "text": "梅",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 50,
+      "type": "standalone",
+      "topic": "kanji",
+      "level": "N5",
+      "questionText": "7時ですよ。はやく「おきて」ください。",
+      "explanation": "Đáp án B. 「おきて」trong 「はやくおきてください」được viết là 「起きて」, dạng て của 「起きる」nghĩa là thức dậy.",
+      "orderIndex": 50,
+      "passageId": null,
+      "options": [
+        {
+          "label": "A",
+          "text": "歩（ある）きて",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "起（お）きて",
+          "isCorrect": true
+        },
+        {
+          "label": "C",
+          "text": "始（はじ）きて",
+          "isCorrect": false
+        },
+        {
+          "label": "D",
+          "text": "乗（の）きて",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 51,
+      "type": "standalone",
+      "topic": "kanji",
+      "level": "N5",
+      "questionText": "「おねえさん」は 会社員（かいしゃいん）ですか。",
+      "explanation": "Đáp án C. 「おねえさん」được viết là 「お姉さん」, nghĩa là chị gái; các lựa chọn còn lại chỉ anh trai, bố và em trai.",
+      "orderIndex": 51,
+      "passageId": null,
+      "options": [
+        {
+          "label": "A",
+          "text": "お兄（にい）さん",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "お父（とう）さん",
+          "isCorrect": false
+        },
+        {
+          "label": "C",
+          "text": "お姉（ねえ）さん",
+          "isCorrect": true
+        },
+        {
+          "label": "D",
+          "text": "お弟（とうと）さん",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 52,
+      "type": "standalone",
+      "topic": "kanji",
+      "level": "N5",
+      "questionText": "「おとうさん」は お元気（げんき）ですか。",
+      "explanation": "Đáp án B. 「おとうさん」được viết là 「お父さん」, nghĩa là bố; 「お母さん」là mẹ, 「お姉さん」là chị gái và 「弟さん」là em trai.",
+      "orderIndex": 52,
+      "passageId": null,
+      "options": [
+        {
+          "label": "A",
+          "text": "お弟（とうと）さん",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "お父（とう）さん",
+          "isCorrect": true
+        },
+        {
+          "label": "C",
+          "text": "お母（かあ）さん",
+          "isCorrect": false
+        },
+        {
+          "label": "D",
+          "text": "お姉（ねえ）さん",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 53,
+      "type": "standalone",
+      "topic": "kanji",
+      "level": "N5",
+      "questionText": "明日（あした）は 人（ひと）が 多（おお）いですから「たのしい」と思（おも）います。",
+      "explanation": "Đáp án C. 「たのしい」được viết bằng Kanji hiện dùng là 「楽しい」; 「楽」là dạng chữ Nhật chuẩn trong từ này.",
+      "orderIndex": 53,
+      "passageId": null,
+      "options": [
+        {
+          "label": "A",
+          "text": "楽い",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "樂い",
+          "isCorrect": false
+        },
+        {
+          "label": "C",
+          "text": "楽しい",
+          "isCorrect": true
+        },
+        {
+          "label": "D",
+          "text": "樂しい",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 54,
+      "type": "standalone",
+      "topic": "kanji",
+      "level": "N5",
+      "questionText": "毎週（まいしゅう）の日曜日（にちようび）、11時に「起きました」。",
+      "explanation": "Đáp án D. 「起きました」được đọc là 「おきました」, dạng quá khứ lịch sự của 「起きる」, nghĩa là đã thức dậy.",
+      "orderIndex": 54,
+      "passageId": null,
+      "options": [
+        {
+          "label": "A",
+          "text": "いき",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "きき",
+          "isCorrect": false
+        },
+        {
+          "label": "C",
+          "text": "かき",
+          "isCorrect": false
+        },
+        {
+          "label": "D",
+          "text": "おき",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": 55,
+      "type": "standalone",
+      "topic": "kanji",
+      "level": "N5",
+      "questionText": "来週（らいしゅう）は「海外（かいがい）」旅行（りょこう）ですから、楽しみです。",
+      "explanation": "Đáp án D. 「海外」được đọc là 「かいがい」, nghĩa là nước ngoài; 「外国」mới có cách đọc 「がいこく」.",
+      "orderIndex": 55,
+      "passageId": null,
+      "options": [
+        {
+          "label": "A",
+          "text": "がいせい",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "がいけん",
+          "isCorrect": false
+        },
+        {
+          "label": "C",
+          "text": "がいこく",
+          "isCorrect": false
+        },
+        {
+          "label": "D",
+          "text": "かいがい",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": 56,
+      "type": "standalone",
+      "topic": "kanji",
+      "level": "N5",
+      "questionText": "「たのしい」パーティーを 作（つく）りましょう。",
+      "explanation": "Đáp án A. 「たのしい」được viết là 「楽しい」, nghĩa là vui vẻ; 「樂」là dạng chữ cũ và 「薬」là thuốc, không phù hợp.",
+      "orderIndex": 56,
+      "passageId": null,
+      "options": [
+        {
+          "label": "A",
+          "text": "楽しい",
+          "isCorrect": true
+        },
+        {
+          "label": "B",
+          "text": "樂しい",
+          "isCorrect": false
+        },
+        {
+          "label": "C",
+          "text": "楽い",
+          "isCorrect": false
+        },
+        {
+          "label": "D",
+          "text": "薬い",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 57,
+      "type": "standalone",
+      "topic": "grammar",
+      "level": "N5",
+      "questionText": "１か月に２回、料理教室に（　　　）います。",
+      "explanation": "Đáp án C. 「料理教室に通っています」nghĩa là đang đi học lớp nấu ăn. 「通う」chia dạng て là 「かよって」.",
+      "orderIndex": 57,
+      "options": [
+        {
+          "label": "A",
+          "text": "つくって",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "ひいて",
+          "isCorrect": false
+        },
+        {
+          "label": "C",
+          "text": "かよって",
+          "isCorrect": true
+        },
+        {
+          "label": "D",
+          "text": "さがして",
+          "isCorrect": false
+        }
+      ],
+      "passageId": null
+    },
+    {
+      "id": 58,
+      "type": "standalone",
+      "topic": "grammar",
+      "level": "N5",
+      "questionText": "ここに荷物を（　　　）いいですか。",
+      "explanation": "Đáp án B. 「Vてもいいですか」dùng để xin phép. Động từ 「置く」chia dạng て là 「置いて」, nên đáp án là 「おいても」.",
+      "orderIndex": 58,
+      "options": [
+        {
+          "label": "A",
+          "text": "およいで",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "おいても",
+          "isCorrect": true
+        },
+        {
+          "label": "C",
+          "text": "おきても",
+          "isCorrect": false
+        },
+        {
+          "label": "D",
+          "text": "おきて",
+          "isCorrect": false
+        }
+      ],
+      "passageId": null
+    },
+    {
+      "id": 59,
+      "type": "standalone",
+      "topic": "grammar",
+      "level": "N5",
+      "questionText": "趣味は本を（　　　）です。",
+      "explanation": "Đáp án C. Mẫu 「趣味は Vることです」dùng để nói sở thích là làm gì đó. Vì vậy 「読むこと」là dạng đúng.",
+      "orderIndex": 59,
+      "options": [
+        {
+          "label": "A",
+          "text": "読む",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "読みます",
+          "isCorrect": false
+        },
+        {
+          "label": "C",
+          "text": "読むこと",
+          "isCorrect": true
+        },
+        {
+          "label": "D",
+          "text": "読書",
+          "isCorrect": false
+        }
+      ],
+      "passageId": null
+    },
+    {
+      "id": 60,
+      "type": "standalone",
+      "topic": "grammar",
+      "level": "N5",
+      "questionText": "趣味は（　　　）です。",
+      "explanation": "Đáp án C. Sau 「趣味は」dùng danh từ hóa 「Vること」. 「ゲームをすること」có nghĩa là việc chơi game.",
+      "orderIndex": 60,
+      "options": [
+        {
+          "label": "A",
+          "text": "ゲームをします",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "ゲームをする",
+          "isCorrect": false
+        },
+        {
+          "label": "C",
+          "text": "ゲームをすること",
+          "isCorrect": true
+        },
+        {
+          "label": "D",
+          "text": "ゲームをしますこと",
+          "isCorrect": false
+        }
+      ],
+      "passageId": null
+    },
+    {
+      "id": 61,
+      "type": "standalone",
+      "topic": "grammar",
+      "level": "N5",
+      "questionText": "あそこで買い物が（　　　）。",
+      "explanation": "Đáp án B. 「買い物ができます」nghĩa là có thể mua sắm. 「できる」đi với danh từ hoạt động và trợ từ が.",
+      "orderIndex": 61,
+      "options": [
+        {
+          "label": "A",
+          "text": "払います",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "できます",
+          "isCorrect": true
+        },
+        {
+          "label": "C",
+          "text": "買います",
+          "isCorrect": false
+        },
+        {
+          "label": "D",
+          "text": "借ります",
+          "isCorrect": false
+        }
+      ],
+      "passageId": null
+    },
+    {
+      "id": 62,
+      "type": "standalone",
+      "topic": "grammar",
+      "level": "N5",
+      "questionText": "マルコさんはサッカーがよくて、（　　　）です。",
+      "explanation": "Đáp án A. Tính từ い 「かっこいい」đổi sang dạng て là 「かっこよくて」để nối với 「です」ở vế sau.",
+      "orderIndex": 62,
+      "options": [
+        {
+          "label": "A",
+          "text": "かっこよくて",
+          "isCorrect": true
+        },
+        {
+          "label": "B",
+          "text": "きれい",
+          "isCorrect": false
+        },
+        {
+          "label": "C",
+          "text": "きれくて",
+          "isCorrect": false
+        },
+        {
+          "label": "D",
+          "text": "かっこいい",
+          "isCorrect": false
+        }
+      ],
+      "passageId": null
+    },
+    {
+      "id": 63,
+      "type": "standalone",
+      "topic": "grammar",
+      "level": "N5",
+      "questionText": "子供がいますから、たばこを（　　　）ください。",
+      "explanation": "Đáp án D. 「Vないでください」dùng để yêu cầu không làm gì. 「吸う」đổi thành 「吸わないで」.",
+      "orderIndex": 63,
+      "options": [
+        {
+          "label": "A",
+          "text": "吸って",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "買わないで",
+          "isCorrect": false
+        },
+        {
+          "label": "C",
+          "text": "買って",
+          "isCorrect": false
+        },
+        {
+          "label": "D",
+          "text": "吸わないで",
+          "isCorrect": true
+        }
+      ],
+      "passageId": null
+    },
+    {
+      "id": 64,
+      "type": "standalone",
+      "topic": "grammar",
+      "level": "N5",
+      "questionText": "日曜日、音楽を（　　　）、小説を（　　　）します。",
+      "explanation": "Đáp án B. 「Vたり、Vたりします」liệt kê các hành động tiêu biểu; 「聞く」→「聞いたり」và 「読む」→「読んだり」.",
+      "orderIndex": 64,
+      "options": [
+        {
+          "label": "A",
+          "text": "聞くこと、読むこと",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "聞いたり、読んだり",
+          "isCorrect": true
+        },
+        {
+          "label": "C",
+          "text": "読んだり、聞いたり",
+          "isCorrect": false
+        },
+        {
+          "label": "D",
+          "text": "読むこと、聞くこと",
+          "isCorrect": false
+        }
+      ],
+      "passageId": null
+    },
+    {
+      "id": 65,
+      "type": "standalone",
+      "topic": "grammar",
+      "level": "N5",
+      "questionText": "マルコさんは（　　　）歌を歌うことができません。",
+      "explanation": "Đáp án B. 「上手に歌う」nghĩa là hát giỏi. Trạng từ 「上手に」bổ nghĩa cho động từ 「歌う」.",
+      "orderIndex": 65,
+      "options": [
+        {
+          "label": "A",
+          "text": "すごい",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "上手に",
+          "isCorrect": true
+        },
+        {
+          "label": "C",
+          "text": "いろいろ",
+          "isCorrect": false
+        },
+        {
+          "label": "D",
+          "text": "だけ",
+          "isCorrect": false
+        }
+      ],
+      "passageId": null
+    },
+    {
+      "id": 66,
+      "type": "standalone",
+      "topic": "grammar",
+      "level": "N5",
+      "questionText": "西川さんは（　　　）、イタリア語を勉強しています。",
+      "explanation": "Đáp án C. 「学生で」là dạng て của danh từ 「学生です」, dùng để nối hai mệnh đề: là sinh viên và đang học tiếng Ý.",
+      "orderIndex": 66,
+      "options": [
+        {
+          "label": "A",
+          "text": "先生の",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "学生の",
+          "isCorrect": false
+        },
+        {
+          "label": "C",
+          "text": "学生で",
+          "isCorrect": true
+        },
+        {
+          "label": "D",
+          "text": "先生",
+          "isCorrect": false
+        }
+      ],
+      "passageId": null
+    },
+    {
+      "id": 67,
+      "type": "standalone",
+      "topic": "grammar",
+      "level": "N5",
+      "questionText": "先週、マルコさんが靴下を（　　　）。",
+      "explanation": "Đáp án B. Chủ thể Marco nhận đôi tất nên dùng 「もらいました」. 「くれました」dùng khi người khác cho người nói hoặc người thuộc nhóm người nói.",
+      "orderIndex": 67,
+      "options": [
+        {
+          "label": "A",
+          "text": "くれませんか",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "もらいました",
+          "isCorrect": true
+        },
+        {
+          "label": "C",
+          "text": "もらいませんか",
+          "isCorrect": false
+        },
+        {
+          "label": "D",
+          "text": "くれました",
+          "isCorrect": false
+        }
+      ],
+      "passageId": null
+    },
+    {
+      "id": 68,
+      "type": "standalone",
+      "topic": "grammar",
+      "level": "N5",
+      "questionText": "まだ薬を（　　　）。",
+      "explanation": "Đáp án B. 「まだ～ていません」diễn tả việc đến hiện tại vẫn chưa làm. Vì vậy dùng 「飲んでいません」.",
+      "orderIndex": 68,
+      "options": [
+        {
+          "label": "A",
+          "text": "飲みました",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "飲んでいません",
+          "isCorrect": true
+        },
+        {
+          "label": "C",
+          "text": "飲みます",
+          "isCorrect": false
+        },
+        {
+          "label": "D",
+          "text": "飲む",
+          "isCorrect": false
+        }
+      ],
+      "passageId": null
+    },
+    {
+      "id": 69,
+      "type": "standalone",
+      "topic": "grammar",
+      "level": "N5",
+      "questionText": "いつ大学（　）卒業しますか。",
+      "explanation": "Đáp án B. Động từ 「卒業する」dùng trợ từ 「を」với nơi hoặc trường được tốt nghiệp: 「大学を卒業する」.",
+      "orderIndex": 69,
+      "options": [
+        {
+          "label": "A",
+          "text": "に",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "を",
+          "isCorrect": true
+        },
+        {
+          "label": "C",
+          "text": "と",
+          "isCorrect": false
+        },
+        {
+          "label": "D",
+          "text": "で",
+          "isCorrect": false
+        }
+      ],
+      "passageId": null
+    },
+    {
+      "id": 70,
+      "type": "standalone",
+      "topic": "grammar",
+      "level": "N5",
+      "questionText": "電話（　）バスの外（　）してください。",
+      "explanation": "Đáp án B. Cấu trúc trong đề dùng 「電話を～にしてください」: đánh dấu đối tượng bằng 「を」 và nơi/đích bằng 「に」.",
+      "orderIndex": 70,
+      "options": [
+        {
+          "label": "A",
+          "text": "は・で",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "を・に",
+          "isCorrect": true
+        },
+        {
+          "label": "C",
+          "text": "の・に",
+          "isCorrect": false
+        },
+        {
+          "label": "D",
+          "text": "に・で",
+          "isCorrect": false
+        }
+      ],
+      "passageId": null
+    },
+    {
+      "id": 71,
+      "type": "standalone",
+      "topic": "grammar",
+      "level": "N5",
+      "questionText": "私はあまり料理を（　　　）。",
+      "explanation": "Đáp án D. 「あまり～ません」dùng với thể phủ định để diễn tả không thường/không làm nhiều. Vì vậy dùng 「つくりません」.",
+      "orderIndex": 71,
+      "options": [
+        {
+          "label": "A",
+          "text": "つくっています",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "つくります",
+          "isCorrect": false
+        },
+        {
+          "label": "C",
+          "text": "つくることです",
+          "isCorrect": false
+        },
+        {
+          "label": "D",
+          "text": "つくりません",
+          "isCorrect": true
+        }
+      ],
+      "passageId": null
+    },
+    {
+      "id": 72,
+      "type": "standalone",
+      "topic": "grammar",
+      "level": "N5",
+      "questionText": "（　　　）は簡単でしたが、（　　　）難しくなりました。",
+      "explanation": "Đáp án B. 「はじめは～でしたが、だんだん～」diễn tả ban đầu đơn giản nhưng dần dần trở nên khó.",
+      "orderIndex": 72,
+      "options": [
+        {
+          "label": "A",
+          "text": "平日・週末",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "はじめ・だんだん",
+          "isCorrect": true
+        },
+        {
+          "label": "C",
+          "text": "毎日・毎週",
+          "isCorrect": false
+        },
+        {
+          "label": "D",
+          "text": "はじめ・そろそろ",
+          "isCorrect": false
+        }
+      ],
+      "passageId": null
+    },
+    {
+      "id": 73,
+      "type": "standalone",
+      "topic": "grammar",
+      "level": "N5",
+      "questionText": "昨日、あまり（　　　）ね。",
+      "explanation": "Đáp án A. 「あまり～なかった」diễn tả không quá lạnh trong quá khứ; 「寒い」đổi sang quá khứ phủ định là 「寒くなかった」.",
+      "orderIndex": 73,
+      "options": [
+        {
+          "label": "A",
+          "text": "さむくなかった",
+          "isCorrect": true
+        },
+        {
+          "label": "B",
+          "text": "かんたんだ",
+          "isCorrect": false
+        },
+        {
+          "label": "C",
+          "text": "かんたんだった",
+          "isCorrect": false
+        },
+        {
+          "label": "D",
+          "text": "さむかった",
+          "isCorrect": false
+        }
+      ],
+      "passageId": null
+    },
+    {
+      "id": 74,
+      "type": "standalone",
+      "topic": "grammar",
+      "level": "N5",
+      "questionText": "パクさんはあたまが（　　　）、きれいなひとですね。",
+      "explanation": "Đáp án C. Tính từ 「いい」có dạng て đặc biệt là 「よくて」.",
+      "orderIndex": 74,
+      "options": [
+        {
+          "label": "A",
+          "text": "よいで",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "いくて",
+          "isCorrect": false
+        },
+        {
+          "label": "C",
+          "text": "よくて",
+          "isCorrect": true
+        },
+        {
+          "label": "D",
+          "text": "いいで",
+          "isCorrect": false
+        }
+      ],
+      "passageId": null
+    },
+    {
+      "id": 75,
+      "type": "standalone",
+      "topic": "grammar",
+      "level": "N5",
+      "questionText": "駅から３番（　）バス（　）乗って、美術館前（　）降りてください。",
+      "explanation": "Đáp án B. Dùng 「3番のバス」, 「バスに乗る」và 「場所で降りる」nên bộ trợ từ đúng là 「の・に・で」.",
+      "orderIndex": 75,
+      "options": [
+        {
+          "label": "A",
+          "text": "の・に・を",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "の・に・で",
+          "isCorrect": true
+        },
+        {
+          "label": "C",
+          "text": "X・に・で",
+          "isCorrect": false
+        },
+        {
+          "label": "D",
+          "text": "X・に・を",
+          "isCorrect": false
+        }
+      ],
+      "passageId": null
+    },
+    {
+      "id": 76,
+      "type": "standalone",
+      "topic": "grammar",
+      "level": "N5",
+      "questionText": "先週、マルコさんが靴下（くつした）を（　　）。",
+      "explanation": "Đáp án A. Chủ ngữ マルコさん thực hiện hành động cho người nói nên dùng 「くれました」; 「もらいました」 cần người nhận làm chủ ngữ.",
+      "orderIndex": 76,
+      "passageId": null,
+      "options": [
+        {
+          "label": "A",
+          "text": "くれました",
+          "isCorrect": true
+        },
+        {
+          "label": "B",
+          "text": "くれませんか",
+          "isCorrect": false
+        },
+        {
+          "label": "C",
+          "text": "もらいませんか",
+          "isCorrect": false
+        },
+        {
+          "label": "D",
+          "text": "もらいました",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 77,
+      "type": "standalone",
+      "topic": "grammar",
+      "level": "N5",
+      "questionText": "兄は目（め）が（　　）、髪（かみ）が短（みじか）いです。",
+      "explanation": "Đáp án B. 「大きい」 là tính từ đuôi い và chuyển thành 「大きくて」 để nối với 「髪が短いです」; 「おおきくて」 nghĩa là có đôi mắt to.",
+      "orderIndex": 77,
+      "passageId": null,
+      "options": [
+        {
+          "label": "A",
+          "text": "きれくて",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "おおきくて",
+          "isCorrect": true
+        },
+        {
+          "label": "C",
+          "text": "ひろくて",
+          "isCorrect": false
+        },
+        {
+          "label": "D",
+          "text": "しろくて",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 78,
+      "type": "standalone",
+      "topic": "grammar",
+      "level": "N5",
+      "questionText": "猫（ねこ）が二匹（にひき）（　　）。",
+      "explanation": "Đáp án A. 「います」 dùng cho người và động vật; 「あります」 dùng cho đồ vật, nên với hai con mèo phải dùng 「二匹います」.",
+      "orderIndex": 78,
+      "passageId": null,
+      "options": [
+        {
+          "label": "A",
+          "text": "います",
+          "isCorrect": true
+        },
+        {
+          "label": "B",
+          "text": "あります",
+          "isCorrect": false
+        },
+        {
+          "label": "C",
+          "text": "すんでいます",
+          "isCorrect": false
+        },
+        {
+          "label": "D",
+          "text": "はたらきます",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 79,
+      "type": "standalone",
+      "topic": "grammar",
+      "level": "N5",
+      "questionText": "私は新宿（しんじゅく）に（　　）。",
+      "explanation": "Đáp án C. Động từ 「住む」 ở dạng ている là 「住んでいます」, dùng để nói đang sống ở đâu; trợ từ địa điểm là 「に」.",
+      "orderIndex": 79,
+      "passageId": null,
+      "options": [
+        {
+          "label": "A",
+          "text": "すいています",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "すみています",
+          "isCorrect": false
+        },
+        {
+          "label": "C",
+          "text": "すんでいます",
+          "isCorrect": true
+        },
+        {
+          "label": "D",
+          "text": "すっています",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 80,
+      "type": "standalone",
+      "topic": "grammar",
+      "level": "N5",
+      "questionText": "ハノイは（　　）、きれいな町（まち）です。",
+      "explanation": "Đáp án D. 「にぎやか」 là tính từ な, khi nối hai đặc điểm dùng 「にぎやかで」: Hà Nội nhộn nhịp và là một thành phố đẹp.",
+      "orderIndex": 80,
+      "passageId": null,
+      "options": [
+        {
+          "label": "A",
+          "text": "ゆうめい",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "ゆうめくて",
+          "isCorrect": false
+        },
+        {
+          "label": "C",
+          "text": "にぎやかな",
+          "isCorrect": false
+        },
+        {
+          "label": "D",
+          "text": "にぎやかで",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": 81,
+      "type": "standalone",
+      "topic": "grammar",
+      "level": "N5",
+      "questionText": "マルコさんはサッカーがじょうずで、（　　）です。",
+      "explanation": "Đáp án A. Sau 「で」 cần một vị ngữ kết thúc câu; 「かっこいいです」 là tính từ い hoàn chỉnh, còn 「かっこよくて」 phải dùng để nối tiếp mệnh đề.",
+      "orderIndex": 81,
+      "passageId": null,
+      "options": [
+        {
+          "label": "A",
+          "text": "かっこいい",
+          "isCorrect": true
+        },
+        {
+          "label": "B",
+          "text": "きれい",
+          "isCorrect": false
+        },
+        {
+          "label": "C",
+          "text": "きれくて",
+          "isCorrect": false
+        },
+        {
+          "label": "D",
+          "text": "かっこよくて",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 82,
+      "type": "standalone",
+      "topic": "grammar",
+      "level": "N5",
+      "questionText": "A：Bさんは（　　）住（す）んでいますか。B：私は兄（　　）住んでいます。",
+      "explanation": "Đáp án A. 「だれと住んでいますか」 hỏi sống cùng ai và 「兄と住んでいます」 trả lời sống cùng anh trai, nên cả hai vị trí đều dùng 「と」.",
+      "orderIndex": 82,
+      "passageId": null,
+      "options": [
+        {
+          "label": "A",
+          "text": "だれと・と",
+          "isCorrect": true
+        },
+        {
+          "label": "B",
+          "text": "どこに・に",
+          "isCorrect": false
+        },
+        {
+          "label": "C",
+          "text": "だれと・に",
+          "isCorrect": false
+        },
+        {
+          "label": "D",
+          "text": "どこに・と",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 83,
+      "type": "standalone",
+      "topic": "grammar",
+      "level": "N5",
+      "questionText": "モモは（　　）、白（しろ）いうさぎです。",
+      "explanation": "Đáp án A. 「耳が長くて、白いうさぎ」 nối hai đặc điểm bằng dạng て của tính từ い 「長い」; các lựa chọn khác sai dạng hoặc không hợp nghĩa.",
+      "orderIndex": 83,
+      "passageId": null,
+      "options": [
+        {
+          "label": "A",
+          "text": "耳（みみ）が長（なが）くて",
+          "isCorrect": true
+        },
+        {
+          "label": "B",
+          "text": "まじめな",
+          "isCorrect": false
+        },
+        {
+          "label": "C",
+          "text": "ちゃいろいで",
+          "isCorrect": false
+        },
+        {
+          "label": "D",
+          "text": "きれくて",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 84,
+      "type": "standalone",
+      "topic": "grammar",
+      "level": "N5",
+      "questionText": "私はギターを（　　）ができません。",
+      "explanation": "Đáp án C. Mẫu 「動詞辞書形＋ことができません」 diễn tả không thể làm gì; 「ギターをひくことができません」 là cấu trúc đúng.",
+      "orderIndex": 84,
+      "passageId": null,
+      "options": [
+        {
+          "label": "A",
+          "text": "いいます",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "いうこと",
+          "isCorrect": false
+        },
+        {
+          "label": "C",
+          "text": "ひくこと",
+          "isCorrect": true
+        },
+        {
+          "label": "D",
+          "text": "ひきます",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 85,
+      "type": "standalone",
+      "topic": "grammar",
+      "level": "N5",
+      "questionText": "私は日本語（　）電話（でんわ）（　）かけること（　）できません。",
+      "explanation": "Đáp án A. 「日本語で」 chỉ phương tiện/ngôn ngữ, 「電話をかける」 dùng を với tân ngữ và 「ことができません」 dùng が trước できません.",
+      "orderIndex": 85,
+      "passageId": null,
+      "options": [
+        {
+          "label": "A",
+          "text": "で・を・が",
+          "isCorrect": true
+        },
+        {
+          "label": "B",
+          "text": "の・を・が",
+          "isCorrect": false
+        },
+        {
+          "label": "C",
+          "text": "に・で・を",
+          "isCorrect": false
+        },
+        {
+          "label": "D",
+          "text": "に・と・X",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 86,
+      "type": "standalone",
+      "topic": "grammar",
+      "level": "N5",
+      "questionText": "駅から3番（ばん）（　）バス（　）乗（の）って、美術館前（びじゅつかんまえ）（　）降（お）りてください。",
+      "explanation": "Đáp án A. Dùng 「3番のバス」 để bổ nghĩa danh từ, 「バスに乗る」 với に và 「美術館前で降りる」 với で chỉ nơi xuống xe.",
+      "orderIndex": 86,
+      "passageId": null,
+      "options": [
+        {
+          "label": "A",
+          "text": "の・に・で",
+          "isCorrect": true
+        },
+        {
+          "label": "B",
+          "text": "の・に・を",
+          "isCorrect": false
+        },
+        {
+          "label": "C",
+          "text": "X・に・で",
+          "isCorrect": false
+        },
+        {
+          "label": "D",
+          "text": "X・に・を",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 87,
+      "type": "standalone",
+      "topic": "grammar",
+      "level": "N5",
+      "questionText": "1週間（　）2回（かい）、プール（　）およぎます。",
+      "explanation": "Đáp án D. Tần suất dùng 「1週間に2回」 và địa điểm hoạt động dùng 「プールでおよぎます」, nên đáp án là 「に・で」.",
+      "orderIndex": 87,
+      "passageId": null,
+      "options": [
+        {
+          "label": "A",
+          "text": "X・の",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "X・に",
+          "isCorrect": false
+        },
+        {
+          "label": "C",
+          "text": "に・に",
+          "isCorrect": false
+        },
+        {
+          "label": "D",
+          "text": "に・で",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": 88,
+      "type": "standalone",
+      "topic": "grammar",
+      "level": "N5",
+      "questionText": "あの子（こ）は（　　）なりましたね。",
+      "explanation": "Đáp án C. Tính từ な kết hợp với 「なる」 bằng dạng 「きれいになる」, nên trước 「なりました」 phải dùng 「きれいに」.",
+      "orderIndex": 88,
+      "passageId": null,
+      "options": [
+        {
+          "label": "A",
+          "text": "きれい",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "きれいな",
+          "isCorrect": false
+        },
+        {
+          "label": "C",
+          "text": "きれいに",
+          "isCorrect": true
+        },
+        {
+          "label": "D",
+          "text": "きれくて",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 89,
+      "type": "standalone",
+      "topic": "grammar",
+      "level": "N5",
+      "questionText": "ここに荷物（にもつ）を（　　）いいですか。",
+      "explanation": "Đáp án C. Mẫu xin phép 「Vて＋もいいですか」 cần dạng て của 「置く」 là 「置いて」, nên dùng 「置いてもいいですか」.",
+      "orderIndex": 89,
+      "passageId": null,
+      "options": [
+        {
+          "label": "A",
+          "text": "おきて",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "おきても",
+          "isCorrect": false
+        },
+        {
+          "label": "C",
+          "text": "おいても",
+          "isCorrect": true
+        },
+        {
+          "label": "D",
+          "text": "およいで",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 90,
+      "type": "standalone",
+      "topic": "grammar",
+      "level": "N5",
+      "questionText": "交差点（こうさてん）（　）右（　）曲（ま）がってください。",
+      "explanation": "Đáp án D. Với cách diễn đạt trong đề, 「交差点を」 đánh dấu điểm rẽ và 「右に曲がる」 chỉ hướng rẽ, nên cặp trợ từ đúng là 「を・に」.",
+      "orderIndex": 90,
+      "passageId": null,
+      "options": [
+        {
+          "label": "A",
+          "text": "に・へ",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "に・を",
+          "isCorrect": false
+        },
+        {
+          "label": "C",
+          "text": "へ・に",
+          "isCorrect": false
+        },
+        {
+          "label": "D",
+          "text": "を・に",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": 91,
+      "type": "standalone",
+      "topic": "grammar",
+      "level": "N5",
+      "questionText": "子供（こども）がいますから、たばこを（　　）ください。",
+      "explanation": "Đáp án A. 「Vないでください」 dùng để yêu cầu không làm gì; 「吸わないでください」 nghĩa là xin đừng hút thuốc vì có trẻ em.",
+      "orderIndex": 91,
+      "passageId": null,
+      "options": [
+        {
+          "label": "A",
+          "text": "吸（す）わないで",
+          "isCorrect": true
+        },
+        {
+          "label": "B",
+          "text": "吸（す）って",
+          "isCorrect": false
+        },
+        {
+          "label": "C",
+          "text": "買（か）って",
+          "isCorrect": false
+        },
+        {
+          "label": "D",
+          "text": "とって",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 92,
+      "type": "standalone",
+      "topic": "grammar",
+      "level": "N5",
+      "questionText": "水の音（　　）（　　）。",
+      "explanation": "Đáp án B. 「聞こえます」 diễn tả âm thanh có thể nghe thấy và chủ thể âm thanh đi với が: 「水の音が聞こえます」.",
+      "orderIndex": 92,
+      "passageId": null,
+      "options": [
+        {
+          "label": "A",
+          "text": "を・聞こえます",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "が・聞こえます",
+          "isCorrect": true
+        },
+        {
+          "label": "C",
+          "text": "を・見えます",
+          "isCorrect": false
+        },
+        {
+          "label": "D",
+          "text": "が・見えます",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 93,
+      "type": "standalone",
+      "topic": "grammar",
+      "level": "N5",
+      "questionText": "まだ薬（くすり）を（　　）。",
+      "explanation": "Đáp án C. 「まだ～ていません」 nghĩa là vẫn chưa làm gì; 「まだ薬を飲んでいません」 là chưa uống thuốc.",
+      "orderIndex": 93,
+      "passageId": null,
+      "options": [
+        {
+          "label": "A",
+          "text": "飲みます",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "飲む",
+          "isCorrect": false
+        },
+        {
+          "label": "C",
+          "text": "飲んでいません",
+          "isCorrect": true
+        },
+        {
+          "label": "D",
+          "text": "飲みました",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 94,
+      "type": "standalone",
+      "topic": "grammar",
+      "level": "N5",
+      "questionText": "来年（らいねん）、（　　）なります。",
+      "explanation": "Đáp án D. Mẫu 「Nになります」 diễn tả trở thành nghề hoặc thân phận nào đó; 「教師になります」 nghĩa là trở thành giáo viên.",
+      "orderIndex": 94,
+      "passageId": null,
+      "options": [
+        {
+          "label": "A",
+          "text": "観覧車（かんらんしゃ）に",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "会社（かいしゃ）に",
+          "isCorrect": false
+        },
+        {
+          "label": "C",
+          "text": "銀行（ぎんこう）に",
+          "isCorrect": false
+        },
+        {
+          "label": "D",
+          "text": "教師（きょうし）に",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": 95,
+      "type": "standalone",
+      "topic": "grammar",
+      "level": "N5",
+      "questionText": "いぬ（　）好きです（　）、猫（ねこ）（　）好きじゃありません。",
+      "explanation": "Đáp án C. Chủ đề đối chiếu dùng 「犬は好きですが、猫は好きじゃありません」: は nêu chủ đề và が nối hai mệnh đề.",
+      "orderIndex": 95,
+      "passageId": null,
+      "options": [
+        {
+          "label": "A",
+          "text": "は・から・は",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "が・が・が",
+          "isCorrect": false
+        },
+        {
+          "label": "C",
+          "text": "は・が・は",
+          "isCorrect": true
+        },
+        {
+          "label": "D",
+          "text": "が・から・が",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 96,
+      "type": "standalone",
+      "topic": "grammar",
+      "level": "N5",
+      "questionText": "A：昨日（きのう）、あまり（　　）ね。B：うん。",
+      "explanation": "Đáp án A. 「あまり」 đi với phủ định; tính từ 「寒い」 ở quá khứ phủ định là 「寒くなかった」.",
+      "orderIndex": 96,
+      "passageId": null,
+      "options": [
+        {
+          "label": "A",
+          "text": "さむくなかった",
+          "isCorrect": true
+        },
+        {
+          "label": "B",
+          "text": "さむかった",
+          "isCorrect": false
+        },
+        {
+          "label": "C",
+          "text": "かんたんだ",
+          "isCorrect": false
+        },
+        {
+          "label": "D",
+          "text": "かんたんだった",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 97,
+      "type": "standalone",
+      "topic": "grammar",
+      "level": "N5",
+      "questionText": "いつ大学（　）卒業（そつぎょう）しますか。",
+      "explanation": "Đáp án C. Động từ 「卒業する」 dùng trợ từ を với nơi hoặc trường được tốt nghiệp: 「大学を卒業します」.",
+      "orderIndex": 97,
+      "passageId": null,
+      "options": [
+        {
+          "label": "A",
+          "text": "と",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "に",
+          "isCorrect": false
+        },
+        {
+          "label": "C",
+          "text": "を",
+          "isCorrect": true
+        },
+        {
+          "label": "D",
+          "text": "で",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 98,
+      "type": "standalone",
+      "topic": "grammar",
+      "level": "N5",
+      "questionText": "（　）とき、テニスを始（はじ）めました。",
+      "explanation": "Đáp án B. Danh từ bổ nghĩa cho 「とき」 dùng trợ từ の: 「小学生のとき」 nghĩa là khi còn là học sinh tiểu học.",
+      "orderIndex": 98,
+      "passageId": null,
+      "options": [
+        {
+          "label": "A",
+          "text": "小学生な",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "小学生の",
+          "isCorrect": true
+        },
+        {
+          "label": "C",
+          "text": "小学生",
+          "isCorrect": false
+        },
+        {
+          "label": "D",
+          "text": "小学生で",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 99,
+      "type": "standalone",
+      "topic": "grammar",
+      "level": "N5",
+      "questionText": "私は（　）ができます。",
+      "explanation": "Đáp án A. 「車の運転ができます」 là cụm tự nhiên với 「できます」 để nói có khả năng lái xe; các danh từ còn lại không phù hợp với cách hỏi này.",
+      "orderIndex": 99,
+      "passageId": null,
+      "options": [
+        {
+          "label": "A",
+          "text": "車（くるま）の運転（うんてん）",
+          "isCorrect": true
+        },
+        {
+          "label": "B",
+          "text": "クラブ",
+          "isCorrect": false
+        },
+        {
+          "label": "C",
+          "text": "コンテスト",
+          "isCorrect": false
+        },
+        {
+          "label": "D",
+          "text": "住所（じゅうしょ）",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 100,
+      "type": "standalone",
+      "topic": "grammar",
+      "level": "N5",
+      "questionText": "私の趣味（しゅみ）はテニスです。（　）、最近（さいきん）、しません。",
+      "explanation": "Đáp án D. 「でも」 biểu thị sự đối lập: sở thích là tennis nhưng gần đây không chơi; các liên từ còn lại không diễn tả quan hệ tương phản.",
+      "orderIndex": 100,
+      "passageId": null,
+      "options": [
+        {
+          "label": "A",
+          "text": "とくに",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "そして",
+          "isCorrect": false
+        },
+        {
+          "label": "C",
+          "text": "それから",
+          "isCorrect": false
+        },
+        {
+          "label": "D",
+          "text": "でも",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": 101,
+      "type": "standalone",
+      "topic": "grammar",
+      "level": "N5",
+      "questionText": "（　）テレビを見ません。",
+      "explanation": "Đáp án A. 「ぜんぜん」 đi với động từ phủ định để nói hoàn toàn không xem tivi: 「ぜんぜんテレビを見ません」.",
+      "orderIndex": 101,
+      "passageId": null,
+      "options": [
+        {
+          "label": "A",
+          "text": "ぜんぜん",
+          "isCorrect": true
+        },
+        {
+          "label": "B",
+          "text": "よく",
+          "isCorrect": false
+        },
+        {
+          "label": "C",
+          "text": "ときどき",
+          "isCorrect": false
+        },
+        {
+          "label": "D",
+          "text": "いつも",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 102,
+      "type": "standalone",
+      "topic": "grammar",
+      "level": "N5",
+      "questionText": "西川（にしかわ）さんは（　）、イタリア語を勉強（べんきょう）しています。",
+      "explanation": "Đáp án A. 「学生で」 là dạng nối của danh từ 「学生」 trước mệnh đề sau, tạo nghĩa Nishikawa là sinh viên và đang học tiếng Ý.",
+      "orderIndex": 102,
+      "passageId": null,
+      "options": [
+        {
+          "label": "A",
+          "text": "学生で",
+          "isCorrect": true
+        },
+        {
+          "label": "B",
+          "text": "学生の",
+          "isCorrect": false
+        },
+        {
+          "label": "C",
+          "text": "先生の",
+          "isCorrect": false
+        },
+        {
+          "label": "D",
+          "text": "先生",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 103,
+      "type": "standalone",
+      "topic": "grammar",
+      "level": "N5",
+      "questionText": "ダニエルさんはテニスが（　）かっこいいです。",
+      "explanation": "Đáp án D. 「上手」 là tính từ な, khi nối với 「かっこいいです」 dùng 「上手で」: giỏi tennis và đẹp trai.",
+      "orderIndex": 103,
+      "passageId": null,
+      "options": [
+        {
+          "label": "A",
+          "text": "上手（じょうず）に",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "しろくて",
+          "isCorrect": false
+        },
+        {
+          "label": "C",
+          "text": "高くて",
+          "isCorrect": false
+        },
+        {
+          "label": "D",
+          "text": "上手（じょうず）で",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": 104,
+      "type": "standalone",
+      "topic": "grammar",
+      "level": "N5",
+      "questionText": "先週の日曜日、洗濯（せんたく）を（　）、買い物（　）。",
+      "explanation": "Đáp án C. Hai hành động đã xảy ra vào Chủ nhật tuần trước được nối bằng dạng て và kết thúc ở quá khứ: 「洗濯をして、買い物をしました」.",
+      "orderIndex": 104,
+      "passageId": null,
+      "options": [
+        {
+          "label": "A",
+          "text": "した・しましょう",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "します・します",
+          "isCorrect": false
+        },
+        {
+          "label": "C",
+          "text": "して・しました",
+          "isCorrect": true
+        },
+        {
+          "label": "D",
+          "text": "すること・します",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 105,
+      "type": "standalone",
+      "topic": "grammar",
+      "level": "N5",
+      "questionText": "ダニエルさん、いつ高校（　）卒業（そつぎょう）しますか。",
+      "explanation": "Đáp án A. 「卒業する」 dùng trợ từ を với trường học: 「高校を卒業します」.",
+      "orderIndex": 105,
+      "passageId": null,
+      "options": [
+        {
+          "label": "A",
+          "text": "を",
+          "isCorrect": true
+        },
+        {
+          "label": "B",
+          "text": "に",
+          "isCorrect": false
+        },
+        {
+          "label": "C",
+          "text": "で",
+          "isCorrect": false
+        },
+        {
+          "label": "D",
+          "text": "と",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 106,
+      "type": "standalone",
+      "topic": "grammar",
+      "level": "N5",
+      "questionText": "誕生日（たんじょうび）にパクさんがDVDを（　）。",
+      "explanation": "Đáp án C. パクさん là người tặng DVD cho người nói nên dùng 「くれました」; 「もらいました」 dùng khi chủ ngữ là người nhận.",
+      "orderIndex": 106,
+      "passageId": null,
+      "options": [
+        {
+          "label": "A",
+          "text": "もらいました",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "くれませんか",
+          "isCorrect": false
+        },
+        {
+          "label": "C",
+          "text": "くれました",
+          "isCorrect": true
+        },
+        {
+          "label": "D",
+          "text": "もらいませんか",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 107,
+      "type": "standalone",
+      "topic": "grammar",
+      "level": "N5",
+      "questionText": "木村（きむら）さんは（　）漢字（かんじ）を書くことができません。",
+      "explanation": "Đáp án C. 「上手に漢字を書くことができません」 nghĩa là không thể viết Kanji một cách giỏi; 「上手に」 là trạng từ bổ nghĩa cho 書く.",
+      "orderIndex": 107,
+      "passageId": null,
+      "options": [
+        {
+          "label": "A",
+          "text": "いろいろ",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "だけ",
+          "isCorrect": false
+        },
+        {
+          "label": "C",
+          "text": "上手（じょうず）に",
+          "isCorrect": true
+        },
+        {
+          "label": "D",
+          "text": "すごい",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 108,
+      "type": "standalone",
+      "topic": "grammar",
+      "level": "N5",
+      "questionText": "地下鉄（ちかてつ）の時間（じかん）を（　）きます。",
+      "explanation": "Đáp án A. 「時間を見る」 nghĩa là xem thời gian; dạng nối trước 「きます」 là 「見て」.",
+      "orderIndex": 108,
+      "passageId": null,
+      "options": [
+        {
+          "label": "A",
+          "text": "見て",
+          "isCorrect": true
+        },
+        {
+          "label": "B",
+          "text": "聞こえて",
+          "isCorrect": false
+        },
+        {
+          "label": "C",
+          "text": "見えて",
+          "isCorrect": false
+        },
+        {
+          "label": "D",
+          "text": "曲（ま）がって",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 109,
+      "type": "standalone",
+      "topic": "grammar",
+      "level": "N5",
+      "questionText": "車（くるま）で来ましたから、お酒（さけ）を（　）ください。",
+      "explanation": "Đáp án D. Vì đã đi ô tô nên câu yêu cầu không uống rượu dùng mẫu 「Vないでください」: 「飲まないでください」.",
+      "orderIndex": 109,
+      "passageId": null,
+      "options": [
+        {
+          "label": "A",
+          "text": "飲んで",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "飲んだ",
+          "isCorrect": false
+        },
+        {
+          "label": "C",
+          "text": "飲まない",
+          "isCorrect": false
+        },
+        {
+          "label": "D",
+          "text": "飲まないで",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": 110,
+      "type": "standalone",
+      "topic": "grammar",
+      "level": "N5",
+      "questionText": "弟は中国（　）大学（　）勉強しています。",
+      "explanation": "Đáp án A. 「中国の大学」là trường đại học ở Trung Quốc; 「勉強しています」không cần tân ngữ nên không đặt trợ từ sau 「大学」.",
+      "orderIndex": 110,
+      "passageId": null,
+      "options": [
+        {
+          "label": "A",
+          "text": "の・で",
+          "isCorrect": true
+        },
+        {
+          "label": "B",
+          "text": "で・を",
+          "isCorrect": false
+        },
+        {
+          "label": "C",
+          "text": "で・×",
+          "isCorrect": false
+        },
+        {
+          "label": "D",
+          "text": "の・に",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 111,
+      "type": "standalone",
+      "topic": "grammar",
+      "level": "N5",
+      "questionText": "A: Bさんは（　）住んでいますか。\nB: 私は 京都（　）住んでいます。",
+      "explanation": "Đáp án D. 「どこに住んでいますか」hỏi nơi đang sống và địa điểm được đánh dấu bằng 「に」: 「京都に住んでいます」.",
+      "orderIndex": 111,
+      "passageId": null,
+      "options": [
+        {
+          "label": "A",
+          "text": "だれと・と",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "だれと・に",
+          "isCorrect": false
+        },
+        {
+          "label": "C",
+          "text": "どこに・と",
+          "isCorrect": false
+        },
+        {
+          "label": "D",
+          "text": "どこに・に",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": 112,
+      "type": "standalone",
+      "topic": "grammar",
+      "level": "N5",
+      "questionText": "先生の娘さんは（　）、親切な人です。",
+      "explanation": "Đáp án B. 「きれい」là tính từ な; khi nối với 「親切な人です」phải dùng dạng 「きれいで」. 「かっこいい」nếu nối phải là 「かっこよくて」.",
+      "orderIndex": 112,
+      "passageId": null,
+      "options": [
+        {
+          "label": "A",
+          "text": "ちゃいろくて",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "きれいで",
+          "isCorrect": true
+        },
+        {
+          "label": "C",
+          "text": "かっこいいで",
+          "isCorrect": false
+        },
+        {
+          "label": "D",
+          "text": "かっこよくて",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 113,
+      "type": "standalone",
+      "topic": "grammar",
+      "level": "N5",
+      "questionText": "（　）とき、テニスを始めました。",
+      "explanation": "Đáp án D. Mẫu 「Nのとき」diễn tả thời điểm hoặc giai đoạn; 「小学生のとき」nghĩa là khi còn là học sinh tiểu học.",
+      "orderIndex": 113,
+      "passageId": null,
+      "options": [
+        {
+          "label": "A",
+          "text": "小学生（しょうがくせい）",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "小学生（しょうがくせい）では",
+          "isCorrect": false
+        },
+        {
+          "label": "C",
+          "text": "小学生（しょうがくせい）で",
+          "isCorrect": false
+        },
+        {
+          "label": "D",
+          "text": "小学生（しょうがくせい）の",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": 114,
+      "type": "standalone",
+      "topic": "grammar",
+      "level": "N5",
+      "questionText": "私の趣味（しゅみ）は テニスです。（　）、最近（さいきん）、しません。",
+      "explanation": "Đáp án C. 「そして」nối hai ý cùng mạch: sở thích là tennis, và gần đây không chơi nữa. Các lựa chọn còn lại không nối tự nhiên hai câu độc lập trong ngữ cảnh này.",
+      "orderIndex": 114,
+      "passageId": null,
+      "options": [
+        {
+          "label": "A",
+          "text": "それから",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "ても",
+          "isCorrect": false
+        },
+        {
+          "label": "C",
+          "text": "そして",
+          "isCorrect": true
+        },
+        {
+          "label": "D",
+          "text": "とくに",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 115,
+      "type": "standalone",
+      "topic": "grammar",
+      "level": "N5",
+      "questionText": "私は 姉（　）二人（　）住んでいます。",
+      "explanation": "Đáp án C. 「姉と」chỉ người cùng sống và 「二人で」chỉ số người cùng thực hiện hành động; câu có nghĩa là tôi sống cùng chị gái, hai người.",
+      "orderIndex": 115,
+      "passageId": null,
+      "options": [
+        {
+          "label": "A",
+          "text": "に・と",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "に・で",
+          "isCorrect": false
+        },
+        {
+          "label": "C",
+          "text": "と・で",
+          "isCorrect": true
+        },
+        {
+          "label": "D",
+          "text": "と・×",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 116,
+      "type": "standalone",
+      "topic": "grammar",
+      "level": "N5",
+      "questionText": "マックは（　）、足が短い犬です。",
+      "explanation": "Đáp án D. 「ちゃいろい」là tính từ い; khi nối với mệnh đề sau phải đổi 「い」thành 「くて」: 「ちゃいろくて、足が短い」.",
+      "orderIndex": 116,
+      "passageId": null,
+      "options": [
+        {
+          "label": "A",
+          "text": "おもしろいで",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "まじめな",
+          "isCorrect": false
+        },
+        {
+          "label": "C",
+          "text": "きれいで",
+          "isCorrect": false
+        },
+        {
+          "label": "D",
+          "text": "ちゃいろくて",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": 117,
+      "type": "standalone",
+      "topic": "grammar",
+      "level": "N5",
+      "questionText": "妹（　）二人（　）います。",
+      "explanation": "Đáp án D. 「妹が二人います」dùng 「が」để đánh dấu chủ thể tồn tại và không cần thêm trợ từ sau số lượng 「二人」.",
+      "orderIndex": 117,
+      "passageId": null,
+      "options": [
+        {
+          "label": "A",
+          "text": "が・で",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "に・で",
+          "isCorrect": false
+        },
+        {
+          "label": "C",
+          "text": "に・と",
+          "isCorrect": false
+        },
+        {
+          "label": "D",
+          "text": "が・×",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": 118,
+      "type": "standalone",
+      "topic": "grammar",
+      "level": "N5",
+      "questionText": "（　）の信号（しんごう）を右に曲（ま）がってください。",
+      "explanation": "Đáp án A. 「二つ目」diễn tả thứ tự, nghĩa là thứ hai; 「二つ」chỉ số lượng hai và không phù hợp với 「の信号」trong câu chỉ giao lộ thứ mấy.",
+      "orderIndex": 118,
+      "passageId": null,
+      "options": [
+        {
+          "label": "A",
+          "text": "二つ目（め）",
+          "isCorrect": true
+        },
+        {
+          "label": "B",
+          "text": "二つ",
+          "isCorrect": false
+        },
+        {
+          "label": "C",
+          "text": "一つ",
+          "isCorrect": false
+        },
+        {
+          "label": "D",
+          "text": "二匹（にひき）",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 119,
+      "type": "standalone",
+      "topic": "grammar",
+      "level": "N5",
+      "questionText": "まだ 薬（くすり）を（　）。",
+      "explanation": "Đáp án B. 「まだ～ていません」diễn tả việc đến hiện tại vẫn chưa làm; 「飲む」chia thể て là 「飲んで」.",
+      "orderIndex": 119,
+      "passageId": null,
+      "options": [
+        {
+          "label": "A",
+          "text": "飲（の）みました",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "飲（の）んでいません",
+          "isCorrect": true
+        },
+        {
+          "label": "C",
+          "text": "飲（の）みます",
+          "isCorrect": false
+        },
+        {
+          "label": "D",
+          "text": "飲（の）む",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 120,
+      "type": "standalone",
+      "topic": "grammar",
+      "level": "N5",
+      "questionText": "来年（らいねん）、（　）なります。",
+      "explanation": "Đáp án C. Mẫu 「Nになります」diễn tả trở thành nghề hoặc thân phận; 「教師になります」nghĩa là năm sau sẽ trở thành giáo viên.",
+      "orderIndex": 120,
+      "passageId": null,
+      "options": [
+        {
+          "label": "A",
+          "text": "観覧車（かんらんしゃ）に",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "観覧車（かんらんしゃ）",
+          "isCorrect": false
+        },
+        {
+          "label": "C",
+          "text": "教師（きょうし）に",
+          "isCorrect": true
+        },
+        {
+          "label": "D",
+          "text": "観光車（かんこうしゃ）",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 121,
+      "type": "standalone",
+      "topic": "grammar",
+      "level": "N5",
+      "questionText": "私（　）ワンさん（　）本（　）あげました。",
+      "explanation": "Đáp án C. Người thực hiện là 「私は」, người nhận là 「ワンさんに」 và vật trao tặng là 「本を」: 「私はワンさんに本をあげました」.",
+      "orderIndex": 121,
+      "passageId": null,
+      "options": [
+        {
+          "label": "A",
+          "text": "は・と・と",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "の・は・と",
+          "isCorrect": false
+        },
+        {
+          "label": "C",
+          "text": "は・に・を",
+          "isCorrect": true
+        },
+        {
+          "label": "D",
+          "text": "に・が・を",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 122,
+      "type": "standalone",
+      "topic": "grammar",
+      "level": "N5",
+      "questionText": "先週（せんしゅう）、マルコさんが 靴下（くつした）を（　）。",
+      "explanation": "Đáp án C. Khi người khác làm hành động cho người nói, dùng 「くれました」; 「マルコさんが靴下をくれました」nghĩa là Marco đã tặng tất.",
+      "orderIndex": 122,
+      "passageId": null,
+      "options": [
+        {
+          "label": "A",
+          "text": "もらいませんか",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "もらいました",
+          "isCorrect": false
+        },
+        {
+          "label": "C",
+          "text": "くれました",
+          "isCorrect": true
+        },
+        {
+          "label": "D",
+          "text": "くれませんか",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 123,
+      "type": "standalone",
+      "topic": "grammar",
+      "level": "N5",
+      "questionText": "Đổi câu sau sang thể thường: 今晩（こんばん）、お酒（さけ）を 飲みませんか。",
+      "explanation": "Đáp án C. Dạng thường phủ định hiện tại của 「飲みません」là 「飲まない」; giữ sắc thái câu hỏi bằng 「飲まない？」.",
+      "orderIndex": 123,
+      "passageId": null,
+      "options": [
+        {
+          "label": "A",
+          "text": "今晩、お酒を飲んだ？",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "今晩、お酒を飲む。",
+          "isCorrect": false
+        },
+        {
+          "label": "C",
+          "text": "今晩、お酒を飲まない？",
+          "isCorrect": true
+        },
+        {
+          "label": "D",
+          "text": "今晩、お酒を飲まなかった？",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 124,
+      "type": "standalone",
+      "topic": "grammar",
+      "level": "N5",
+      "questionText": "リンさんの 先輩（せんぱい）（　）サッカー（　）上手（じょうず）（　）、背（せ）が高いです。",
+      "explanation": "Đáp án B. Chủ đề 「先輩は」, năng lực 「サッカーが上手で」; 「上手」là tính từ な nên nối bằng 「で」.",
+      "orderIndex": 124,
+      "passageId": null,
+      "options": [
+        {
+          "label": "A",
+          "text": "の・で・で",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "は・が・で",
+          "isCorrect": true
+        },
+        {
+          "label": "C",
+          "text": "で・が・で",
+          "isCorrect": false
+        },
+        {
+          "label": "D",
+          "text": "の・の・で",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 125,
+      "type": "standalone",
+      "topic": "grammar",
+      "level": "N5",
+      "questionText": "弟は 中国（　）大学（　）勉強（べんきょう）しています。",
+      "explanation": "Đáp án A. 「中国の大学」là trường đại học ở Trung Quốc và 「大学で勉強しています」dùng 「で」cho địa điểm diễn ra hành động.",
+      "orderIndex": 125,
+      "passageId": null,
+      "options": [
+        {
+          "label": "A",
+          "text": "の・で",
+          "isCorrect": true
+        },
+        {
+          "label": "B",
+          "text": "で・を",
+          "isCorrect": false
+        },
+        {
+          "label": "C",
+          "text": "の・に",
+          "isCorrect": false
+        },
+        {
+          "label": "D",
+          "text": "で・×",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 126,
+      "type": "standalone",
+      "topic": "grammar",
+      "level": "N5",
+      "questionText": "母は 医者（いしゃ）で、有名（ゆうめい）（　）病院（びょういん）（　）働（はたら）いています。",
+      "explanation": "Đáp án B. 「有名」là tính từ な nên đứng trước 「病院」dùng 「有名な病院」; địa điểm làm việc dùng 「病院で働いています」.",
+      "orderIndex": 126,
+      "passageId": null,
+      "options": [
+        {
+          "label": "A",
+          "text": "×・の",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "な・で",
+          "isCorrect": true
+        },
+        {
+          "label": "C",
+          "text": "×・に",
+          "isCorrect": false
+        },
+        {
+          "label": "D",
+          "text": "の・で",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 127,
+      "type": "standalone",
+      "topic": "grammar",
+      "level": "N5",
+      "questionText": "1週間（しゅうかん）（　）2回（かい）、プール（　）およぎます。",
+      "explanation": "Đáp án C. Tần suất dùng 「1週間に2回」 và địa điểm hoạt động dùng 「プールで泳ぎます」.",
+      "orderIndex": 127,
+      "passageId": null,
+      "options": [
+        {
+          "label": "A",
+          "text": "×・に",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "×・の",
+          "isCorrect": false
+        },
+        {
+          "label": "C",
+          "text": "に・で",
+          "isCorrect": true
+        },
+        {
+          "label": "D",
+          "text": "に・に",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 128,
+      "type": "standalone",
+      "topic": "grammar",
+      "level": "N5",
+      "questionText": "私は 日本語（　）電話（でんわ）（　）かけること（　）できません。",
+      "explanation": "Đáp án D. 「日本語で」chỉ phương tiện/ngôn ngữ, 「電話をかける」dùng を và 「ことができません」dùng が.",
+      "orderIndex": 128,
+      "passageId": null,
+      "options": [
+        {
+          "label": "A",
+          "text": "の・を・が",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "に・で・を",
+          "isCorrect": false
+        },
+        {
+          "label": "C",
+          "text": "に・と・×",
+          "isCorrect": false
+        },
+        {
+          "label": "D",
+          "text": "で・を・が",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": 129,
+      "type": "standalone",
+      "topic": "grammar",
+      "level": "N5",
+      "questionText": "昨日（きのう）、友達（ともだち）に（　）、買い物（かいもの）（　）、食事（しょくじ）しました。",
+      "explanation": "Đáp án D. Hai hành động nối tiếp ở quá khứ dùng thể て: 「友達に会って、買い物して、食事しました」.",
+      "orderIndex": 129,
+      "passageId": null,
+      "options": [
+        {
+          "label": "A",
+          "text": "会うこと・すること",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "会います・します",
+          "isCorrect": false
+        },
+        {
+          "label": "C",
+          "text": "会いて・して",
+          "isCorrect": false
+        },
+        {
+          "label": "D",
+          "text": "会って・して",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": 130,
+      "type": "standalone",
+      "topic": "grammar",
+      "level": "N5",
+      "questionText": "私は あまり料理（りょうり）を（　）。",
+      "explanation": "Đáp án D. 「あまり」đi với phủ định; 「あまり料理をつくりません」nghĩa là không thường nấu ăn lắm.",
+      "orderIndex": 130,
+      "passageId": null,
+      "options": [
+        {
+          "label": "A",
+          "text": "つくることです",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "つくります",
+          "isCorrect": false
+        },
+        {
+          "label": "C",
+          "text": "つくっています",
+          "isCorrect": false
+        },
+        {
+          "label": "D",
+          "text": "つくりません",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": 131,
+      "type": "standalone",
+      "topic": "grammar",
+      "level": "N5",
+      "questionText": "あそこで 買い物（かいもの）が（　）。",
+      "explanation": "Đáp án C. 「買い物ができます」nghĩa là có thể mua sắm; mẫu 「Nができる」diễn tả khả năng hoặc hoạt động có thể thực hiện.",
+      "orderIndex": 131,
+      "passageId": null,
+      "options": [
+        {
+          "label": "A",
+          "text": "買（か）います",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "借（か）ります",
+          "isCorrect": false
+        },
+        {
+          "label": "C",
+          "text": "できます",
+          "isCorrect": true
+        },
+        {
+          "label": "D",
+          "text": "払（はら）います",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 132,
+      "type": "standalone",
+      "topic": "grammar",
+      "level": "N5",
+      "questionText": "水（みず）の音（おと）（　）（　）。",
+      "explanation": "Đáp án D. Với động từ khả năng cảm nhận 「聞こえます」, âm thanh làm chủ thể nên dùng 「水の音が聞こえます」.",
+      "orderIndex": 132,
+      "passageId": null,
+      "options": [
+        {
+          "label": "A",
+          "text": "を・聞（き）こえます",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "を・見（み）えます",
+          "isCorrect": false
+        },
+        {
+          "label": "C",
+          "text": "が・見（み）えます",
+          "isCorrect": false
+        },
+        {
+          "label": "D",
+          "text": "が・聞（き）こえます",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": 133,
+      "type": "standalone",
+      "topic": "grammar",
+      "level": "N5",
+      "questionText": "（　）とき、テニスを始めました。",
+      "explanation": "Đáp án D. Mẫu 「Nのとき」diễn tả thời điểm; 「小学生のとき」nghĩa là khi còn học tiểu học.",
+      "orderIndex": 133,
+      "passageId": null,
+      "options": [
+        {
+          "label": "A",
+          "text": "小学生",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "小学生な",
+          "isCorrect": false
+        },
+        {
+          "label": "C",
+          "text": "小学生で",
+          "isCorrect": false
+        },
+        {
+          "label": "D",
+          "text": "小学生の",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": 134,
+      "type": "standalone",
+      "topic": "grammar",
+      "level": "N5",
+      "questionText": "（　）とき、本（ほん）を 読みます。",
+      "explanation": "Đáp án A. 「ひま」là tính từ な; trước 「とき」dùng 「ひまなとき」, nghĩa là khi rảnh.",
+      "orderIndex": 134,
+      "passageId": null,
+      "options": [
+        {
+          "label": "A",
+          "text": "ひまな",
+          "isCorrect": true
+        },
+        {
+          "label": "B",
+          "text": "ひまの",
+          "isCorrect": false
+        },
+        {
+          "label": "C",
+          "text": "ひまで",
+          "isCorrect": false
+        },
+        {
+          "label": "D",
+          "text": "ひま",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 135,
+      "type": "standalone",
+      "topic": "grammar",
+      "level": "N5",
+      "questionText": "学校（　）休みたいとき、どうしますか。",
+      "explanation": "Đáp án B. 「学校を休む」là cụm cố định, dùng 「を」để đánh dấu việc nghỉ học; 「学校を休みたいとき」nghĩa là khi muốn nghỉ học.",
+      "orderIndex": 135,
+      "passageId": null,
+      "options": [
+        {
+          "label": "A",
+          "text": "に",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "を",
+          "isCorrect": true
+        },
+        {
+          "label": "C",
+          "text": "へ",
+          "isCorrect": false
+        },
+        {
+          "label": "D",
+          "text": "で",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 136,
+      "type": "standalone",
+      "topic": "grammar",
+      "level": "N5",
+      "questionText": "趣味（しゅみ）は 本（ほん）を（　）です。",
+      "explanation": "Đáp án A. Mẫu 「趣味はVることです」dùng động từ thể từ điển + 「こと」để danh từ hóa hoạt động; 「本を読むこと」là sở thích đọc sách.",
+      "orderIndex": 136,
+      "passageId": null,
+      "options": [
+        {
+          "label": "A",
+          "text": "読むこと",
+          "isCorrect": true
+        },
+        {
+          "label": "B",
+          "text": "読みます",
+          "isCorrect": false
+        },
+        {
+          "label": "C",
+          "text": "読書",
+          "isCorrect": false
+        },
+        {
+          "label": "D",
+          "text": "読む",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 137,
+      "type": "standalone",
+      "topic": "grammar",
+      "level": "N5",
+      "questionText": "音楽（おんがく）が（　）。",
+      "explanation": "Đáp án D. Âm nhạc là âm thanh nên dùng 「聞こえます」; 「音楽が聞こえます」nghĩa là nghe thấy tiếng nhạc.",
+      "orderIndex": 137,
+      "passageId": null,
+      "options": [
+        {
+          "label": "A",
+          "text": "見（み）えます",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "渡（わた）ります",
+          "isCorrect": false
+        },
+        {
+          "label": "C",
+          "text": "曲（ま）がります",
+          "isCorrect": false
+        },
+        {
+          "label": "D",
+          "text": "聞（き）こえます",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": 138,
+      "type": "standalone",
+      "topic": "grammar",
+      "level": "N5",
+      "questionText": "私（　）ワンさん（　）本（　）あげました。",
+      "explanation": "Đáp án D. Câu đúng là 「私はワンさんに本をあげました」: は đánh dấu chủ thể, に người nhận và を vật được tặng.",
+      "orderIndex": 138,
+      "passageId": null,
+      "options": [
+        {
+          "label": "A",
+          "text": "の・は・と",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "は・と・と",
+          "isCorrect": false
+        },
+        {
+          "label": "C",
+          "text": "は・に・が",
+          "isCorrect": false
+        },
+        {
+          "label": "D",
+          "text": "は・に・を",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": 139,
+      "type": "standalone",
+      "topic": "grammar",
+      "level": "N5",
+      "questionText": "ナタポンさんは（　）、しんせつです。",
+      "explanation": "Đáp án A. 「まじめ」là tính từ な; khi nối với 「しんせつです」dùng dạng 「まじめで」.",
+      "orderIndex": 139,
+      "passageId": null,
+      "options": [
+        {
+          "label": "A",
+          "text": "まじめで",
+          "isCorrect": true
+        },
+        {
+          "label": "B",
+          "text": "まじめに",
+          "isCorrect": false
+        },
+        {
+          "label": "C",
+          "text": "まじめ",
+          "isCorrect": false
+        },
+        {
+          "label": "D",
+          "text": "まじめな",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 140,
+      "type": "standalone",
+      "topic": "grammar",
+      "level": "N5",
+      "questionText": "リンさんの 先輩（せんぱい）は（　）サッカー（　）上手（じょうず）（　）、背（せ）が高いです。",
+      "explanation": "Đáp án A. Câu đúng là 「先輩はサッカーが上手で、背が高いです」: は nêu chủ đề, が đánh dấu đối tượng có năng lực, và で nối hai đặc điểm.",
+      "orderIndex": 140,
+      "passageId": null,
+      "options": [
+        {
+          "label": "A",
+          "text": "は・が・で",
+          "isCorrect": true
+        },
+        {
+          "label": "B",
+          "text": "の・で・で",
+          "isCorrect": false
+        },
+        {
+          "label": "C",
+          "text": "で・が・で",
+          "isCorrect": false
+        },
+        {
+          "label": "D",
+          "text": "の・の・で",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 141,
+      "type": "standalone",
+      "topic": "grammar",
+      "level": "N5",
+      "questionText": "（　）とき、テニスを始（はじ）めました。",
+      "explanation": "Đáp án C. Với danh từ 「小学生」trước 「とき」, cần dùng 「の」: 「小学生のとき」nghĩa là khi còn là học sinh tiểu học.",
+      "orderIndex": 141,
+      "passageId": null,
+      "options": [
+        {
+          "label": "A",
+          "text": "小学生（しょうがくせい）で",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "小学生（しょうがくせい）な",
+          "isCorrect": false
+        },
+        {
+          "label": "C",
+          "text": "小学生（しょうがくせい）の",
+          "isCorrect": true
+        },
+        {
+          "label": "D",
+          "text": "小学生（しょうがくせい）",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 142,
+      "type": "standalone",
+      "topic": "grammar",
+      "level": "N5",
+      "questionText": "あそこで 買い物が（　）。",
+      "explanation": "Đáp án B. 「買い物ができます」nghĩa là có thể mua sắm ở đó; mẫu 「Nができます」diễn tả khả năng hoặc việc có thể thực hiện.",
+      "orderIndex": 142,
+      "passageId": null,
+      "options": [
+        {
+          "label": "A",
+          "text": "払（はら）います",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "できます",
+          "isCorrect": true
+        },
+        {
+          "label": "C",
+          "text": "買います",
+          "isCorrect": false
+        },
+        {
+          "label": "D",
+          "text": "借（か）ります",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 143,
+      "type": "standalone",
+      "topic": "grammar",
+      "level": "N5",
+      "questionText": "先週（せんしゅう）、掃除（そうじ）（　）、勉強（べんきょう）（　）。",
+      "explanation": "Đáp án C. 「先週」yêu cầu thì quá khứ; hai hành động được nối bằng 「掃除をして、勉強をしました」, nên dùng dạng て và 「ました」.",
+      "orderIndex": 143,
+      "passageId": null,
+      "options": [
+        {
+          "label": "A",
+          "text": "しって・しましょう",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "しって・します",
+          "isCorrect": false
+        },
+        {
+          "label": "C",
+          "text": "して・しました",
+          "isCorrect": true
+        },
+        {
+          "label": "D",
+          "text": "して・して",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 144,
+      "type": "standalone",
+      "topic": "grammar",
+      "level": "N5",
+      "questionText": "母（はは）は（　）、やさしいひとです。",
+      "explanation": "Đáp án D. 「おもしろい」là tính từ い, chuyển thành 「おもしろくて」để nối với 「やさしいひとです」; câu có nghĩa mẹ là người thú vị và tốt bụng.",
+      "orderIndex": 144,
+      "passageId": null,
+      "options": [
+        {
+          "label": "A",
+          "text": "ちゃいろくて",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "きれくて",
+          "isCorrect": false
+        },
+        {
+          "label": "C",
+          "text": "耳（みみ）が長（なが）くて",
+          "isCorrect": false
+        },
+        {
+          "label": "D",
+          "text": "おもしろくて",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": 145,
+      "type": "standalone",
+      "topic": "grammar",
+      "level": "N5",
+      "questionText": "子供（こども）が いますから、たばこを（　）ください。",
+      "explanation": "Đáp án C. Mẫu 「Vないでください」dùng để yêu cầu không làm gì; 「たばこを吸わないでください」nghĩa là xin đừng hút thuốc vì có trẻ em.",
+      "orderIndex": 145,
+      "passageId": null,
+      "options": [
+        {
+          "label": "A",
+          "text": "買（か）わないで",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "吸（す）って",
+          "isCorrect": false
+        },
+        {
+          "label": "C",
+          "text": "吸（す）わないで",
+          "isCorrect": true
+        },
+        {
+          "label": "D",
+          "text": "買（か）って",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 146,
+      "type": "standalone",
+      "topic": "grammar",
+      "level": "N5",
+      "questionText": "昨日（きのう）、友達（ともだち）に（　）、買（か）い物（もの）（　）、食事（しょくじ）しました。",
+      "explanation": "Đáp án B. Các hành động trong quá khứ được nối bằng dạng て: 「友達に会って、買い物して、食事しました」; 「会う」chia thành 「会って」.",
+      "orderIndex": 146,
+      "passageId": null,
+      "options": [
+        {
+          "label": "A",
+          "text": "会（あ）いて・して",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "会（あ）って・して",
+          "isCorrect": true
+        },
+        {
+          "label": "C",
+          "text": "会うこと・すること",
+          "isCorrect": false
+        },
+        {
+          "label": "D",
+          "text": "会います・します",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 147,
+      "type": "standalone",
+      "topic": "grammar",
+      "level": "N5",
+      "questionText": "兄（あに）は きょうだいで、有名（ゆうめい）な（　）大学（　）勤（つと）めています。",
+      "explanation": "Đáp án C. 「有名な大学に勤めています」dùng X sau 「有名な」vì tính từ な đã đứng trước danh từ, và dùng 「に」với nơi làm việc của 「勤める」.",
+      "orderIndex": 147,
+      "passageId": null,
+      "options": [
+        {
+          "label": "A",
+          "text": "の・で",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "X・の",
+          "isCorrect": false
+        },
+        {
+          "label": "C",
+          "text": "X・に",
+          "isCorrect": true
+        },
+        {
+          "label": "D",
+          "text": "な・で",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 148,
+      "type": "standalone",
+      "topic": "grammar",
+      "level": "N5",
+      "questionText": "あの交差点（こうさてん）を（　）左（ひだり）（　）曲（ま）がってください。",
+      "explanation": "Đáp án D. Câu đúng là 「交差点を左に曲がってください」: を đánh dấu giao lộ đi qua để rẽ, còn に chỉ hướng rẽ sang trái.",
+      "orderIndex": 148,
+      "passageId": null,
+      "options": [
+        {
+          "label": "A",
+          "text": "に・へ",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "に・を",
+          "isCorrect": false
+        },
+        {
+          "label": "C",
+          "text": "へ・に",
+          "isCorrect": false
+        },
+        {
+          "label": "D",
+          "text": "を・に",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": 149,
+      "type": "standalone",
+      "topic": "grammar",
+      "level": "N5",
+      "questionText": "趣味（しゅみ）は 水泳（すいえい）です。（　）、最近（さいきん）、あまり泳（およ）ぎません。",
+      "explanation": "Đáp án C. 「でも」dùng để nối hai ý trái ngược: sở thích là bơi nhưng gần đây không bơi nhiều.",
+      "orderIndex": 149,
+      "passageId": null,
+      "options": [
+        {
+          "label": "A",
+          "text": "ときに",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "ときが",
+          "isCorrect": false
+        },
+        {
+          "label": "C",
+          "text": "でも",
+          "isCorrect": true
+        },
+        {
+          "label": "D",
+          "text": "そして",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 150,
+      "type": "standalone",
+      "topic": "grammar",
+      "level": "N5",
+      "questionText": "1週間（しゅうかん）（　）2回（かい）、ピアノ（　）ひきます。",
+      "explanation": "Đáp án A. Tần suất dùng 「1週間に2回」và nhạc cụ đi với を trong 「ピアノをひきます」, nên chọn 「に・を」.",
+      "orderIndex": 150,
+      "passageId": null,
+      "options": [
+        {
+          "label": "A",
+          "text": "に・を",
+          "isCorrect": true
+        },
+        {
+          "label": "B",
+          "text": "X・に",
+          "isCorrect": false
+        },
+        {
+          "label": "C",
+          "text": "X・の",
+          "isCorrect": false
+        },
+        {
+          "label": "D",
+          "text": "に・に",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 151,
+      "type": "standalone",
+      "topic": "grammar",
+      "level": "N5",
+      "questionText": "私は ギターを（　）が できません。",
+      "explanation": "Đáp án B. Mẫu 「động từ thể từ điển + ことができません」diễn tả không thể làm gì; 「ギターをひくことができません」là câu đúng.",
+      "orderIndex": 151,
+      "passageId": null,
+      "options": [
+        {
+          "label": "A",
+          "text": "ひきます",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "ひくこと",
+          "isCorrect": true
+        },
+        {
+          "label": "C",
+          "text": "ひいた",
+          "isCorrect": false
+        },
+        {
+          "label": "D",
+          "text": "ひく",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 152,
+      "type": "standalone",
+      "topic": "grammar",
+      "level": "N5",
+      "questionText": "となりの 部屋（へや）へ ピアノが（　）。",
+      "explanation": "Đáp án B. Âm thanh piano từ phòng bên cạnh truyền đến nên dùng 「聞こえます」; 「見えます」dùng cho thứ nhìn thấy, không dùng cho âm thanh.",
+      "orderIndex": 152,
+      "passageId": null,
+      "options": [
+        {
+          "label": "A",
+          "text": "渡（わた）ったりします",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "聞（き）こえます",
+          "isCorrect": true
+        },
+        {
+          "label": "C",
+          "text": "見（み）えます",
+          "isCorrect": false
+        },
+        {
+          "label": "D",
+          "text": "曲（ま）がります",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 153,
+      "type": "standalone",
+      "topic": "grammar",
+      "level": "N5",
+      "questionText": "この かばんは 高（たか）い（　）、きれいじゃない。",
+      "explanation": "Đáp án C. Sau tính từ 「高い」để nối với ý đối lập 「きれいじゃない」dùng 「ですが」; câu có nghĩa chiếc túi đắt nhưng không đẹp.",
+      "orderIndex": 153,
+      "passageId": null,
+      "options": [
+        {
+          "label": "A",
+          "text": "（空欄）",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "ですから",
+          "isCorrect": false
+        },
+        {
+          "label": "C",
+          "text": "ですが",
+          "isCorrect": true
+        },
+        {
+          "label": "D",
+          "text": "けど",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 154,
+      "type": "standalone",
+      "topic": "grammar",
+      "level": "N5",
+      "questionText": "電話（でんわ）（　）地下鉄（ちかてつ）の外（そと）（　）使（つか）ってください。",
+      "explanation": "Đáp án A. 「電話は地下鉄の外で使ってください」dùng は để nêu chủ đề điện thoại và で để chỉ địa điểm sử dụng.",
+      "orderIndex": 154,
+      "passageId": null,
+      "options": [
+        {
+          "label": "A",
+          "text": "は・で",
+          "isCorrect": true
+        },
+        {
+          "label": "B",
+          "text": "の・に",
+          "isCorrect": false
+        },
+        {
+          "label": "C",
+          "text": "を・に",
+          "isCorrect": false
+        },
+        {
+          "label": "D",
+          "text": "に・で",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 155,
+      "type": "standalone",
+      "topic": "vocabulary",
+      "level": "N5",
+      "questionText": "明日の（　　　）に参加しませんか。",
+      "explanation": "Đáp án D. 「イベントに参加する」nghĩa là tham gia sự kiện; các danh từ còn lại không phù hợp với 「参加する」trong câu này.",
+      "orderIndex": 155,
+      "options": [
+        {
+          "label": "A",
+          "text": "イギリス",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "インタネット",
+          "isCorrect": false
+        },
+        {
+          "label": "C",
+          "text": "イタリア",
+          "isCorrect": false
+        },
+        {
+          "label": "D",
+          "text": "イベント",
+          "isCorrect": true
+        }
+      ],
+      "passageId": null
+    },
+    {
+      "id": 156,
+      "type": "standalone",
+      "topic": "vocabulary",
+      "level": "N5",
+      "questionText": "（　　　）がにひきいます。",
+      "explanation": "Đáp án B. 「にひき」là cách đếm động vật nhỏ, nên danh từ phù hợp là 「ペット」.",
+      "orderIndex": 156,
+      "options": [
+        {
+          "label": "A",
+          "text": "チョコレート",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "ペット",
+          "isCorrect": true
+        },
+        {
+          "label": "C",
+          "text": "ベッド",
+          "isCorrect": false
+        },
+        {
+          "label": "D",
+          "text": "バレンタインデー",
+          "isCorrect": false
+        }
+      ],
+      "passageId": null
+    },
+    {
+      "id": 157,
+      "type": "standalone",
+      "topic": "vocabulary",
+      "level": "N5",
+      "questionText": "一日にたばこを（　　　）吸います。",
+      "explanation": "Đáp án B. Điếu thuốc là vật dài nên dùng trợ từ đếm 「本」; 「3本」đọc là 「さんぼん」.",
+      "orderIndex": 157,
+      "options": [
+        {
+          "label": "A",
+          "text": "さんばい",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "さんぼん",
+          "isCorrect": true
+        },
+        {
+          "label": "C",
+          "text": "さんぽん",
+          "isCorrect": false
+        },
+        {
+          "label": "D",
+          "text": "さんほん",
+          "isCorrect": false
+        }
+      ],
+      "passageId": null
+    },
+    {
+      "id": 158,
+      "type": "standalone",
+      "topic": "vocabulary",
+      "level": "N5",
+      "questionText": "私は両親に（　　　）します。",
+      "explanation": "Đáp án B. Cụm cố định 「人に電話します」nghĩa là gọi điện cho ai đó.",
+      "orderIndex": 158,
+      "options": [
+        {
+          "label": "A",
+          "text": "クリスマスカード",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "電話",
+          "isCorrect": true
+        },
+        {
+          "label": "C",
+          "text": "会話",
+          "isCorrect": false
+        },
+        {
+          "label": "D",
+          "text": "誕生日カード",
+          "isCorrect": false
+        }
+      ],
+      "passageId": null
+    },
+    {
+      "id": 159,
+      "type": "standalone",
+      "topic": "vocabulary",
+      "level": "N5",
+      "questionText": "マリヤムさんは私の（　　　）です。",
+      "explanation": "Đáp án C. 「後輩」đọc là 「こうはい」, nghĩa là đàn em/người học sau; phù hợp với cấu trúc 「私の～です」.",
+      "orderIndex": 159,
+      "options": [
+        {
+          "label": "A",
+          "text": "じょうず",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "からだ",
+          "isCorrect": false
+        },
+        {
+          "label": "C",
+          "text": "こうはい",
+          "isCorrect": true
+        },
+        {
+          "label": "D",
+          "text": "へた",
+          "isCorrect": false
+        }
+      ],
+      "passageId": null
+    },
+    {
+      "id": 160,
+      "type": "standalone",
+      "topic": "vocabulary",
+      "level": "N5",
+      "questionText": "ダニエルさんは（　　　）で、病院で働いています。",
+      "explanation": "Đáp án D. 「いしゃ」là bác sĩ; người làm việc tại bệnh viện trong câu này là 「医者」.",
+      "orderIndex": 160,
+      "options": [
+        {
+          "label": "A",
+          "text": "大学生",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "高校生",
+          "isCorrect": false
+        },
+        {
+          "label": "C",
+          "text": "学生",
+          "isCorrect": false
+        },
+        {
+          "label": "D",
+          "text": "いしゃ",
+          "isCorrect": true
+        }
+      ],
+      "passageId": null
+    },
+    {
+      "id": 161,
+      "type": "standalone",
+      "topic": "vocabulary",
+      "level": "N5",
+      "questionText": "明日、（　　　）テストがありますから、今晩９時に寝ます。",
+      "explanation": "Đáp án A. 「大切なテスト」nghĩa là bài kiểm tra quan trọng; tính từ な đứng trước danh từ với 「な」.",
+      "orderIndex": 161,
+      "options": [
+        {
+          "label": "A",
+          "text": "たいせつな",
+          "isCorrect": true
+        },
+        {
+          "label": "B",
+          "text": "たいへん",
+          "isCorrect": false
+        },
+        {
+          "label": "C",
+          "text": "あぶない",
+          "isCorrect": false
+        },
+        {
+          "label": "D",
+          "text": "めいわくな",
+          "isCorrect": false
+        }
+      ],
+      "passageId": null
+    },
+    {
+      "id": 162,
+      "type": "standalone",
+      "topic": "vocabulary",
+      "level": "N5",
+      "questionText": "（　　）図書館で勉強しています。",
+      "explanation": "Đáp án B. 「たいてい」nghĩa là thường thường/thông thường, phù hợp với tần suất học ở thư viện.",
+      "orderIndex": 162,
+      "options": [
+        {
+          "label": "A",
+          "text": "だんだん",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "たいてい",
+          "isCorrect": true
+        },
+        {
+          "label": "C",
+          "text": "それから",
+          "isCorrect": false
+        },
+        {
+          "label": "D",
+          "text": "そろそろ",
+          "isCorrect": false
+        }
+      ],
+      "passageId": null
+    },
+    {
+      "id": 163,
+      "type": "standalone",
+      "topic": "vocabulary",
+      "level": "N5",
+      "questionText": "テレビで（　　　）の試合を見ました。",
+      "explanation": "Đáp án C. 「オリンピックの試合」là trận đấu Olympic; các lựa chọn khác không phải sự kiện thi đấu.",
+      "orderIndex": 163,
+      "options": [
+        {
+          "label": "A",
+          "text": "ニュース",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "パンフレット",
+          "isCorrect": false
+        },
+        {
+          "label": "C",
+          "text": "オリンピック",
+          "isCorrect": true
+        },
+        {
+          "label": "D",
+          "text": "エアコン",
+          "isCorrect": false
+        }
+      ],
+      "passageId": null
+    },
+    {
+      "id": 164,
+      "type": "standalone",
+      "topic": "vocabulary",
+      "level": "N5",
+      "questionText": "（　　　）の信号を右に曲がってください。",
+      "explanation": "Đáp án B. 「二つ目の信号」nghĩa là đèn tín hiệu thứ hai; 「目」dùng để đánh số thứ tự.",
+      "orderIndex": 164,
+      "options": [
+        {
+          "label": "A",
+          "text": "二つ",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "二つ目",
+          "isCorrect": true
+        },
+        {
+          "label": "C",
+          "text": "二匹",
+          "isCorrect": false
+        },
+        {
+          "label": "D",
+          "text": "一つ",
+          "isCorrect": false
+        }
+      ],
+      "passageId": null
+    },
+    {
+      "id": 165,
+      "type": "standalone",
+      "topic": "vocabulary",
+      "level": "N5",
+      "questionText": "（　　　）を買ってきます。",
+      "explanation": "Đáp án A. 「おみやげを買ってくる」là mua quà lưu niệm rồi mang về.",
+      "orderIndex": 165,
+      "options": [
+        {
+          "label": "A",
+          "text": "おみやげ",
+          "isCorrect": true
+        },
+        {
+          "label": "B",
+          "text": "ペンギン",
+          "isCorrect": false
+        },
+        {
+          "label": "C",
+          "text": "パンフレット",
+          "isCorrect": false
+        },
+        {
+          "label": "D",
+          "text": "観覧車",
+          "isCorrect": false
+        }
+      ],
+      "passageId": null
+    },
+    {
+      "id": 166,
+      "type": "standalone",
+      "topic": "vocabulary",
+      "level": "N5",
+      "questionText": "私はルームメイトと四人で住（す）んでいます。質問（しつもん）：ルームメイトは何人いますか。",
+      "explanation": "Đáp án B. Người nói sống cùng bạn cùng phòng, tổng cộng có bốn người; vì người nói là một người nên số bạn cùng phòng là ba người, 「三人」.",
+      "orderIndex": 166,
+      "passageId": null,
+      "options": [
+        {
+          "label": "A",
+          "text": "四人",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "三人",
+          "isCorrect": true
+        },
+        {
+          "label": "C",
+          "text": "二人",
+          "isCorrect": false
+        },
+        {
+          "label": "D",
+          "text": "一人",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 167,
+      "type": "standalone",
+      "topic": "vocabulary",
+      "level": "N5",
+      "questionText": "ワンさんは顔（かお）が（　　）です。",
+      "explanation": "Đáp án A. 「顔が小さいです」 nghĩa là khuôn mặt nhỏ; 「高い」 thường mô tả chiều cao hoặc giá, còn 「げんき」「まじめ」 không phù hợp với 顔 trong câu này.",
+      "orderIndex": 167,
+      "passageId": null,
+      "options": [
+        {
+          "label": "A",
+          "text": "小さい",
+          "isCorrect": true
+        },
+        {
+          "label": "B",
+          "text": "高い",
+          "isCorrect": false
+        },
+        {
+          "label": "C",
+          "text": "げんき",
+          "isCorrect": false
+        },
+        {
+          "label": "D",
+          "text": "まじめ",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 168,
+      "type": "standalone",
+      "topic": "vocabulary",
+      "level": "N5",
+      "questionText": "私は両親（りょうしん）に（　　）します。",
+      "explanation": "Đáp án C. Cụm 「両親に電話します」 nghĩa là gọi điện cho bố mẹ; 「電話する」 là cách kết hợp tự nhiên trong câu này.",
+      "orderIndex": 168,
+      "passageId": null,
+      "options": [
+        {
+          "label": "A",
+          "text": "誕生日カード",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "会話",
+          "isCorrect": false
+        },
+        {
+          "label": "C",
+          "text": "電話（でんわ）",
+          "isCorrect": true
+        },
+        {
+          "label": "D",
+          "text": "クリスマスカード",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 169,
+      "type": "standalone",
+      "topic": "vocabulary",
+      "level": "N5",
+      "questionText": "西川（にしかわ）さんは二十二才（にじゅうにさい）です。西川さんの（　　）は高校生（こうこうせい）です。",
+      "explanation": "Đáp án A. Khi nói về em gái của chính 西川さん trong câu trung tính, dùng 「妹」; 「妹さん」 và 「お姉さん」 là cách gọi lịch sự người thân của người khác.",
+      "orderIndex": 169,
+      "passageId": null,
+      "options": [
+        {
+          "label": "A",
+          "text": "妹",
+          "isCorrect": true
+        },
+        {
+          "label": "B",
+          "text": "妹さん",
+          "isCorrect": false
+        },
+        {
+          "label": "C",
+          "text": "姉",
+          "isCorrect": false
+        },
+        {
+          "label": "D",
+          "text": "お姉さん",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 170,
+      "type": "standalone",
+      "topic": "vocabulary",
+      "level": "N5",
+      "questionText": "1か月に2回（かい）、料理教室（りょうりきょうしつ）に（　　）います。",
+      "explanation": "Đáp án B. 「料理教室に通っています」 nghĩa là đi học lớp nấu ăn đều đặn; 「かよって」 là dạng て của 「通う」.",
+      "orderIndex": 170,
+      "passageId": null,
+      "options": [
+        {
+          "label": "A",
+          "text": "つくって",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "かよって",
+          "isCorrect": true
+        },
+        {
+          "label": "C",
+          "text": "さがして",
+          "isCorrect": false
+        },
+        {
+          "label": "D",
+          "text": "ひいて",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 171,
+      "type": "standalone",
+      "topic": "vocabulary",
+      "level": "N5",
+      "questionText": "ダニエルさんは（　）で、病院（びょういん）で働（はたら）いています。",
+      "explanation": "Đáp án A. Người làm việc tại bệnh viện trong ngữ cảnh này là 「いしゃ」 (bác sĩ); các lựa chọn còn lại chỉ người đang đi học.",
+      "orderIndex": 171,
+      "passageId": null,
+      "options": [
+        {
+          "label": "A",
+          "text": "いしゃ",
+          "isCorrect": true
+        },
+        {
+          "label": "B",
+          "text": "学生",
+          "isCorrect": false
+        },
+        {
+          "label": "C",
+          "text": "高校生（こうこうせい）",
+          "isCorrect": false
+        },
+        {
+          "label": "D",
+          "text": "大学生",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 172,
+      "type": "standalone",
+      "topic": "vocabulary",
+      "level": "N5",
+      "questionText": "私は姉に（　）をあげます。",
+      "explanation": "Đáp án A. Trong các lựa chọn, 「バレンタインデー」 là món/quà được nhắc đến phù hợp với việc tặng cho chị gái trong ngữ cảnh bài học.",
+      "orderIndex": 172,
+      "passageId": null,
+      "options": [
+        {
+          "label": "A",
+          "text": "バレンタインデー",
+          "isCorrect": true
+        },
+        {
+          "label": "B",
+          "text": "メール",
+          "isCorrect": false
+        },
+        {
+          "label": "C",
+          "text": "ネックレス",
+          "isCorrect": false
+        },
+        {
+          "label": "D",
+          "text": "クリスマス",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 173,
+      "type": "standalone",
+      "topic": "vocabulary",
+      "level": "N5",
+      "questionText": "一日にコーヒーを（　）飲（の）みます。",
+      "explanation": "Đáp án D. Đồ uống dùng bộ đếm 杯, 「二杯」 đọc là 「にはい」; 「にまい」 dùng cho vật mỏng và 「にさつ」 dùng cho sách.",
+      "orderIndex": 173,
+      "passageId": null,
+      "options": [
+        {
+          "label": "A",
+          "text": "にじかん",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "にまい",
+          "isCorrect": false
+        },
+        {
+          "label": "C",
+          "text": "にさつ",
+          "isCorrect": false
+        },
+        {
+          "label": "D",
+          "text": "にはい",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": 174,
+      "type": "standalone",
+      "topic": "vocabulary",
+      "level": "N5",
+      "questionText": "ときどき、（　）映画を見ます。",
+      "explanation": "Đáp án C. 「アクション映画」 là phim hành động, kết hợp tự nhiên với 「映画を見ます」; 「ポップス」 là nhạc pop và 「コンテスト」 là cuộc thi.",
+      "orderIndex": 174,
+      "passageId": null,
+      "options": [
+        {
+          "label": "A",
+          "text": "ポップス",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "ドラマ",
+          "isCorrect": false
+        },
+        {
+          "label": "C",
+          "text": "アクション",
+          "isCorrect": true
+        },
+        {
+          "label": "D",
+          "text": "コンテスト",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 175,
+      "type": "standalone",
+      "topic": "vocabulary",
+      "level": "N5",
+      "questionText": "一日にたばこを（　）吸（す）います。",
+      "explanation": "Đáp án B. Thuốc lá dùng bộ đếm 本; 「三本」 có biến âm đọc là 「さんぼん」.",
+      "orderIndex": 175,
+      "passageId": null,
+      "options": [
+        {
+          "label": "A",
+          "text": "さんばい",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "さんぼん",
+          "isCorrect": true
+        },
+        {
+          "label": "C",
+          "text": "さんぽん",
+          "isCorrect": false
+        },
+        {
+          "label": "D",
+          "text": "さんほん",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 176,
+      "type": "standalone",
+      "topic": "vocabulary",
+      "level": "N5",
+      "questionText": "おなかが（　）ですから、何も食べたくないです。",
+      "explanation": "Đáp án B. 「おなかがいたい」 nghĩa là đau bụng, phù hợp với việc không muốn ăn gì; các lựa chọn khác không diễn tả triệu chứng này.",
+      "orderIndex": 176,
+      "passageId": null,
+      "options": [
+        {
+          "label": "A",
+          "text": "たいせつ",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "いたい",
+          "isCorrect": true
+        },
+        {
+          "label": "C",
+          "text": "くらい",
+          "isCorrect": false
+        },
+        {
+          "label": "D",
+          "text": "めいわく",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 177,
+      "type": "standalone",
+      "topic": "vocabulary",
+      "level": "N5",
+      "questionText": "道を（　）ください。",
+      "explanation": "Đáp án A. 「道を渡ってください」 nghĩa là hãy băng qua đường; 「聞こえる」「見える」 không đi với 道 theo nghĩa hành động này.",
+      "orderIndex": 177,
+      "passageId": null,
+      "options": [
+        {
+          "label": "A",
+          "text": "渡（わた）って",
+          "isCorrect": true
+        },
+        {
+          "label": "B",
+          "text": "聞こえて",
+          "isCorrect": false
+        },
+        {
+          "label": "C",
+          "text": "見えて",
+          "isCorrect": false
+        },
+        {
+          "label": "D",
+          "text": "曲（ま）がって",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 178,
+      "type": "standalone",
+      "topic": "vocabulary",
+      "level": "N5",
+      "questionText": "のどが（　）ね。じゃあ、あの喫茶店（きっさてん）に入りましょう。",
+      "explanation": "Đáp án B. 「のどがかわきました」 nghĩa là khát nước, vì vậy muốn vào quán giải khát; 「おなかがすきました」 mới là đói.",
+      "orderIndex": 178,
+      "passageId": null,
+      "options": [
+        {
+          "label": "A",
+          "text": "すきました",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "かわきました",
+          "isCorrect": true
+        },
+        {
+          "label": "C",
+          "text": "すいました",
+          "isCorrect": false
+        },
+        {
+          "label": "D",
+          "text": "かわりました",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 179,
+      "type": "standalone",
+      "topic": "vocabulary",
+      "level": "N5",
+      "questionText": "（　）の信号（しんごう）を右に曲（ま）がってください。",
+      "explanation": "Đáp án C. Khi chỉ thứ tự, dùng 「二つ目の信号」 nghĩa là đèn giao thông thứ hai; 「二つ」 chỉ số lượng, không chỉ thứ tự.",
+      "orderIndex": 179,
+      "passageId": null,
+      "options": [
+        {
+          "label": "A",
+          "text": "二匹（にひき）",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "一つ",
+          "isCorrect": false
+        },
+        {
+          "label": "C",
+          "text": "二つ目（ふたつめ）",
+          "isCorrect": true
+        },
+        {
+          "label": "D",
+          "text": "二つ",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 180,
+      "type": "standalone",
+      "topic": "vocabulary",
+      "level": "N5",
+      "questionText": "けしゴムでこの漢字（かんじ）を（　）ください。",
+      "explanation": "Đáp án A. 「消す」 nghĩa là xóa và dạng て là 「消して」; tẩy cao su dùng để xóa chữ Kanji.",
+      "orderIndex": 180,
+      "passageId": null,
+      "options": [
+        {
+          "label": "A",
+          "text": "けして",
+          "isCorrect": true
+        },
+        {
+          "label": "B",
+          "text": "つけて",
+          "isCorrect": false
+        },
+        {
+          "label": "C",
+          "text": "しめて",
+          "isCorrect": false
+        },
+        {
+          "label": "D",
+          "text": "あけて",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 181,
+      "type": "standalone",
+      "topic": "vocabulary",
+      "level": "N5",
+      "questionText": "テレビで（　）の試合（しあい）を見ました。",
+      "explanation": "Đáp án A. 「オリンピックの試合」 là trận thi đấu Olympic được xem trên tivi; 「エアコン」 và 「パンフレット」 không phải sự kiện thể thao.",
+      "orderIndex": 181,
+      "passageId": null,
+      "options": [
+        {
+          "label": "A",
+          "text": "オリンピック",
+          "isCorrect": true
+        },
+        {
+          "label": "B",
+          "text": "ニュース",
+          "isCorrect": false
+        },
+        {
+          "label": "C",
+          "text": "エアコン",
+          "isCorrect": false
+        },
+        {
+          "label": "D",
+          "text": "パンフレット",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 182,
+      "type": "standalone",
+      "topic": "vocabulary",
+      "level": "N5",
+      "questionText": "毎朝、（　）をしています。",
+      "explanation": "Đáp án B. 「ジョギングをしています」 là hoạt động có thể làm mỗi sáng; các lựa chọn khác không kết hợp tự nhiên với をしています trong câu này.",
+      "orderIndex": 182,
+      "passageId": null,
+      "options": [
+        {
+          "label": "A",
+          "text": "クラスメート",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "ジョギング",
+          "isCorrect": true
+        },
+        {
+          "label": "C",
+          "text": "生活（せいかつ）",
+          "isCorrect": false
+        },
+        {
+          "label": "D",
+          "text": "日記（にっき）",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 183,
+      "type": "standalone",
+      "topic": "vocabulary",
+      "level": "N5",
+      "questionText": "（　）の生活（せいかつ）はどうですか。",
+      "explanation": "Đáp án D. 「一人暮らし」 nghĩa là sống một mình và kết hợp tự nhiên với 「生活」; các lựa chọn khác không chỉ một kiểu sinh hoạt.",
+      "orderIndex": 183,
+      "passageId": null,
+      "options": [
+        {
+          "label": "A",
+          "text": "作文（さくぶん）",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "日記（にっき）",
+          "isCorrect": false
+        },
+        {
+          "label": "C",
+          "text": "店長（てんちょう）",
+          "isCorrect": false
+        },
+        {
+          "label": "D",
+          "text": "一人暮（ひとりぐ）らし",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": 184,
+      "type": "standalone",
+      "topic": "vocabulary",
+      "level": "N5",
+      "questionText": "山口（やまぐち）さんの（　）は東京に住（す）んでいます。",
+      "explanation": "Đáp án A. Khi nói về anh trai của chính 山口さん, dùng từ khiêm nhường trong gia đình là 「兄」; 「お兄さん」 dùng khi nói lịch sự về anh của người khác.",
+      "orderIndex": 184,
+      "passageId": null,
+      "options": [
+        {
+          "label": "A",
+          "text": "兄",
+          "isCorrect": true
+        },
+        {
+          "label": "B",
+          "text": "お兄さん",
+          "isCorrect": false
+        },
+        {
+          "label": "C",
+          "text": "姉",
+          "isCorrect": false
+        },
+        {
+          "label": "D",
+          "text": "妹",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 185,
+      "type": "standalone",
+      "topic": "vocabulary",
+      "level": "N5",
+      "questionText": "1週間（しゅうかん）に3回（かい）、韓国語教室（かんこくごきょうしつ）に（　）います。",
+      "explanation": "Đáp án A. 「教室に通っています」 nghĩa là thường xuyên đi học tại lớp; 「通う」 ở dạng ている là 「通っています」.",
+      "orderIndex": 185,
+      "passageId": null,
+      "options": [
+        {
+          "label": "A",
+          "text": "通（かよ）っています",
+          "isCorrect": true
+        },
+        {
+          "label": "B",
+          "text": "弾（ひ）いています",
+          "isCorrect": false
+        },
+        {
+          "label": "C",
+          "text": "探（さが）しています",
+          "isCorrect": false
+        },
+        {
+          "label": "D",
+          "text": "作（つく）っています",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 186,
+      "type": "standalone",
+      "topic": "vocabulary",
+      "level": "N5",
+      "questionText": "マリアさんはお姉さんと二人で住（す）んでいます。質問：マリアさんのお姉さんは何人いますか。",
+      "explanation": "Đáp án C. Maria sống cùng một người chị và tổng cộng hai người, nên số chị gái của Maria là 「一人」.",
+      "orderIndex": 186,
+      "passageId": null,
+      "options": [
+        {
+          "label": "A",
+          "text": "四人",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "三人",
+          "isCorrect": false
+        },
+        {
+          "label": "C",
+          "text": "一人",
+          "isCorrect": true
+        },
+        {
+          "label": "D",
+          "text": "二人",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 187,
+      "type": "standalone",
+      "topic": "vocabulary",
+      "level": "N5",
+      "questionText": "アンナさんは（　）が高いです。",
+      "explanation": "Đáp án C. 「はなが高い」nghĩa là mũi cao; trong câu này 「はな」là từ chỉ bộ phận cơ thể phù hợp với tính từ 「高い」.",
+      "orderIndex": 187,
+      "passageId": null,
+      "options": [
+        {
+          "label": "A",
+          "text": "くち",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "助",
+          "isCorrect": false
+        },
+        {
+          "label": "C",
+          "text": "はな",
+          "isCorrect": true
+        },
+        {
+          "label": "D",
+          "text": "かみ",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 188,
+      "type": "standalone",
+      "topic": "vocabulary",
+      "level": "N5",
+      "questionText": "山田（やまだ）さんは あの（　）人です。",
+      "explanation": "Đáp án D. 「せが高い人」nghĩa là người cao; 「あのせが高い人」là người cao kia.",
+      "orderIndex": 188,
+      "passageId": null,
+      "options": [
+        {
+          "label": "A",
+          "text": "短い",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "しろい",
+          "isCorrect": false
+        },
+        {
+          "label": "C",
+          "text": "くろい",
+          "isCorrect": false
+        },
+        {
+          "label": "D",
+          "text": "せが高い",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": 189,
+      "type": "standalone",
+      "topic": "vocabulary",
+      "level": "N5",
+      "questionText": "私は 両親（りょうしん）に（　）します。",
+      "explanation": "Đáp án B. Cụm 「両親に電話をします」có nghĩa là gọi điện cho bố mẹ; 「電話する」là cách dùng tự nhiên với 「します」.",
+      "orderIndex": 189,
+      "passageId": null,
+      "options": [
+        {
+          "label": "A",
+          "text": "誕生日（たんじょうび）カード",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "電話（でんわ）",
+          "isCorrect": true
+        },
+        {
+          "label": "C",
+          "text": "会話",
+          "isCorrect": false
+        },
+        {
+          "label": "D",
+          "text": "クリスマスカード",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 190,
+      "type": "standalone",
+      "topic": "vocabulary",
+      "level": "N5",
+      "questionText": "1か月に 2回、料理教室（りょうりきょうしつ）に（　）います。",
+      "explanation": "Đáp án B. 「料理教室に通っています」nghĩa là đang đi học thường xuyên tại lớp nấu ăn; 「通う」chia dạng て là 「通って」.",
+      "orderIndex": 190,
+      "passageId": null,
+      "options": [
+        {
+          "label": "A",
+          "text": "つくって",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "かよって",
+          "isCorrect": true
+        },
+        {
+          "label": "C",
+          "text": "さがして",
+          "isCorrect": false
+        },
+        {
+          "label": "D",
+          "text": "ひいて",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 191,
+      "type": "standalone",
+      "topic": "vocabulary",
+      "level": "N5",
+      "questionText": "明日（あした）、（　）テストがありますから、今晩（こんばん）9時に寝（ね）ます。",
+      "explanation": "Đáp án B. 「大切なテスト」nghĩa là bài kiểm tra quan trọng; tính từ な đứng trước danh từ với 「な」.",
+      "orderIndex": 191,
+      "passageId": null,
+      "options": [
+        {
+          "label": "A",
+          "text": "あぶない",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "たいせつな",
+          "isCorrect": true
+        },
+        {
+          "label": "C",
+          "text": "たいへん",
+          "isCorrect": false
+        },
+        {
+          "label": "D",
+          "text": "めいわくな",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 192,
+      "type": "standalone",
+      "topic": "vocabulary",
+      "level": "N5",
+      "questionText": "バスの時間を（　）きます。",
+      "explanation": "Đáp án C. 「見てきます」nghĩa là đi xem/kiểm tra rồi quay lại; 「バスの時間を見てきます」phù hợp với ngữ cảnh.",
+      "orderIndex": 192,
+      "passageId": null,
+      "options": [
+        {
+          "label": "A",
+          "text": "聞（き）こえて",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "曲（ま）がって",
+          "isCorrect": false
+        },
+        {
+          "label": "C",
+          "text": "見（み）て",
+          "isCorrect": true
+        },
+        {
+          "label": "D",
+          "text": "見（み）えて",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 193,
+      "type": "standalone",
+      "topic": "vocabulary",
+      "level": "N5",
+      "questionText": "ランさんは 髪（かみ）が（　）ですね。",
+      "explanation": "Đáp án D. 「髪が長い」nghĩa là tóc dài; 「長い」là tính từ phù hợp để mô tả độ dài của tóc.",
+      "orderIndex": 193,
+      "passageId": null,
+      "options": [
+        {
+          "label": "A",
+          "text": "やさしい",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "かっこいい",
+          "isCorrect": false
+        },
+        {
+          "label": "C",
+          "text": "高い",
+          "isCorrect": false
+        },
+        {
+          "label": "D",
+          "text": "長い",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": 194,
+      "type": "standalone",
+      "topic": "vocabulary",
+      "level": "N5",
+      "questionText": "山田さんは あの（　）人です。",
+      "explanation": "Đáp án C. 「せが高い人」nghĩa là người cao; đây là cụm mô tả phù hợp cho 「あの人」.",
+      "orderIndex": 194,
+      "passageId": null,
+      "options": [
+        {
+          "label": "A",
+          "text": "しろい",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "短い",
+          "isCorrect": false
+        },
+        {
+          "label": "C",
+          "text": "せが高い",
+          "isCorrect": true
+        },
+        {
+          "label": "D",
+          "text": "くろい",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 195,
+      "type": "standalone",
+      "topic": "vocabulary",
+      "level": "N5",
+      "questionText": "趣味（しゅみ）は 切手（きって）を（　）ことです。",
+      "explanation": "Đáp án D. 「切手を集めること」nghĩa là việc sưu tầm tem; mẫu 「趣味はVることです」nói về sở thích.",
+      "orderIndex": 195,
+      "passageId": null,
+      "options": [
+        {
+          "label": "A",
+          "text": "おりる",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "もうしこむ",
+          "isCorrect": false
+        },
+        {
+          "label": "C",
+          "text": "ならう",
+          "isCorrect": false
+        },
+        {
+          "label": "D",
+          "text": "あつめる",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": 196,
+      "type": "standalone",
+      "topic": "vocabulary",
+      "level": "N5",
+      "questionText": "道（みち）を（　）ください。",
+      "explanation": "Đáp án A. 「道を渡ってください」nghĩa là hãy băng qua đường; 「渡る」chia dạng て là 「渡って」.",
+      "orderIndex": 196,
+      "passageId": null,
+      "options": [
+        {
+          "label": "A",
+          "text": "渡（わた）って",
+          "isCorrect": true
+        },
+        {
+          "label": "B",
+          "text": "曲（ま）がって",
+          "isCorrect": false
+        },
+        {
+          "label": "C",
+          "text": "見（み）えて",
+          "isCorrect": false
+        },
+        {
+          "label": "D",
+          "text": "聞（き）こえて",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 197,
+      "type": "standalone",
+      "topic": "vocabulary",
+      "level": "N5",
+      "questionText": "（　）図書館で 勉強（べんきょう）しています。",
+      "explanation": "Đáp án C. 「たいてい」nghĩa là thường thường; 「たいてい図書館で勉強しています」diễn tả thói quen.",
+      "orderIndex": 197,
+      "passageId": null,
+      "options": [
+        {
+          "label": "A",
+          "text": "そろそろ",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "だんだん",
+          "isCorrect": false
+        },
+        {
+          "label": "C",
+          "text": "たいてい",
+          "isCorrect": true
+        },
+        {
+          "label": "D",
+          "text": "それから",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 198,
+      "type": "standalone",
+      "topic": "vocabulary",
+      "level": "N5",
+      "questionText": "（　）は 簡単（かんたん）でしたが、（　）難（むずか）しくなりました。",
+      "explanation": "Đáp án B. 「はじめは」nghĩa là lúc đầu, còn 「だんだん」nghĩa là dần dần; hai từ tạo thành nghĩa tự nhiên của câu.",
+      "orderIndex": 198,
+      "passageId": null,
+      "options": [
+        {
+          "label": "A",
+          "text": "はじめ・そろそろ",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "はじめ・だんだん",
+          "isCorrect": true
+        },
+        {
+          "label": "C",
+          "text": "毎日（まいにち）・毎週（まいしゅう）",
+          "isCorrect": false
+        },
+        {
+          "label": "D",
+          "text": "平日（へいじつ）・週末（しゅうまつ）",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 199,
+      "type": "standalone",
+      "topic": "vocabulary",
+      "level": "N5",
+      "questionText": "パクさんは ワンさんに（　）を あげます。",
+      "explanation": "Đáp án A. 「花をあげます」nghĩa là tặng hoa; 「姉」「母」「兄」là người thân, không phù hợp với vật được tặng trong câu này.",
+      "orderIndex": 199,
+      "passageId": null,
+      "options": [
+        {
+          "label": "A",
+          "text": "花（はな）",
+          "isCorrect": true
+        },
+        {
+          "label": "B",
+          "text": "姉",
+          "isCorrect": false
+        },
+        {
+          "label": "C",
+          "text": "母",
+          "isCorrect": false
+        },
+        {
+          "label": "D",
+          "text": "兄",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 200,
+      "type": "standalone",
+      "topic": "vocabulary",
+      "level": "N5",
+      "questionText": "明日（あした）、一緒（いっしょ）に（　）に行きませんか。",
+      "explanation": "Đáp án B. 「動物園に行きませんか」nghĩa là rủ đi sở thú; các lựa chọn còn lại là tên con vật.",
+      "orderIndex": 200,
+      "passageId": null,
+      "options": [
+        {
+          "label": "A",
+          "text": "ペンギン",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "動物園（どうぶつえん）",
+          "isCorrect": true
+        },
+        {
+          "label": "C",
+          "text": "クマ",
+          "isCorrect": false
+        },
+        {
+          "label": "D",
+          "text": "パンダ",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 201,
+      "type": "standalone",
+      "topic": "vocabulary",
+      "level": "N5",
+      "questionText": "（　）が 二匹（にひき）います。",
+      "explanation": "Đáp án A. 「匹」là bộ đếm động vật; 「ペットが二匹います」nghĩa là có hai con vật nuôi.",
+      "orderIndex": 201,
+      "passageId": null,
+      "options": [
+        {
+          "label": "A",
+          "text": "ペット",
+          "isCorrect": true
+        },
+        {
+          "label": "B",
+          "text": "ベッド",
+          "isCorrect": false
+        },
+        {
+          "label": "C",
+          "text": "バレンタインデー",
+          "isCorrect": false
+        },
+        {
+          "label": "D",
+          "text": "チョコレート",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 202,
+      "type": "standalone",
+      "topic": "vocabulary",
+      "level": "N5",
+      "questionText": "「兄（あに）の こいびとは 日本語（にほんご）が 上手（じょうず）です。」",
+      "explanation": "Đáp án D. 「兄のこいびと」là người yêu của anh trai tôi và 「日本語が上手です」nghĩa là giỏi tiếng Nhật.",
+      "orderIndex": 202,
+      "passageId": null,
+      "options": [
+        {
+          "label": "A",
+          "text": "Anh trai của người yêu tôi giỏi tiếng Nhật.",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "Anh trai của người yêu tôi kém tiếng Nhật.",
+          "isCorrect": false
+        },
+        {
+          "label": "C",
+          "text": "Người yêu của anh trai tôi kém tiếng Nhật.",
+          "isCorrect": false
+        },
+        {
+          "label": "D",
+          "text": "Người yêu của anh trai tôi giỏi tiếng Nhật.",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": 203,
+      "type": "standalone",
+      "topic": "vocabulary",
+      "level": "N5",
+      "questionText": "私は 姉（あね）に（　）を あげます。",
+      "explanation": "Đáp án A. 「姉にネックレスをあげます」nghĩa là tặng chị gái một chiếc vòng cổ; 「ネックレス」là vật có thể làm tân ngữ của 「あげます」.",
+      "orderIndex": 203,
+      "passageId": null,
+      "options": [
+        {
+          "label": "A",
+          "text": "ネックレス",
+          "isCorrect": true
+        },
+        {
+          "label": "B",
+          "text": "バレンタインデー",
+          "isCorrect": false
+        },
+        {
+          "label": "C",
+          "text": "メール",
+          "isCorrect": false
+        },
+        {
+          "label": "D",
+          "text": "クリスマス",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 204,
+      "type": "standalone",
+      "topic": "vocabulary",
+      "level": "N5",
+      "questionText": "一日に コーヒーを（　）飲みます。",
+      "explanation": "Đáp án D. 「杯（はい）」là bộ đếm cho cốc hoặc ly chất lỏng; 「コーヒーを二杯飲みます」đọc là 「にはい」.",
+      "orderIndex": 204,
+      "passageId": null,
+      "options": [
+        {
+          "label": "A",
+          "text": "いっさつ",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "にじかん",
+          "isCorrect": false
+        },
+        {
+          "label": "C",
+          "text": "にまい",
+          "isCorrect": false
+        },
+        {
+          "label": "D",
+          "text": "にはい",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": 205,
+      "type": "standalone",
+      "topic": "vocabulary",
+      "level": "N5",
+      "questionText": "クリスマス、お父（とう）さんに（　）を もらいました。",
+      "explanation": "Đáp án C. 「クリスマスプレゼントをもらいました」nghĩa là đã nhận quà Giáng sinh từ bố; các lựa chọn khác không phải món quà phù hợp trong ngữ cảnh.",
+      "orderIndex": 205,
+      "passageId": null,
+      "options": [
+        {
+          "label": "A",
+          "text": "アルバイト",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "バレンタインデー",
+          "isCorrect": false
+        },
+        {
+          "label": "C",
+          "text": "クリスマスプレゼント",
+          "isCorrect": true
+        },
+        {
+          "label": "D",
+          "text": "ゴールデンウィーク",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 206,
+      "type": "standalone",
+      "topic": "vocabulary",
+      "level": "N5",
+      "questionText": "橋（はし）を（　）ください。",
+      "explanation": "Đáp án B. 「橋を渡ってください」nghĩa là hãy đi qua cầu; động từ 「渡る」chia dạng て là 「渡って」.",
+      "orderIndex": 206,
+      "passageId": null,
+      "options": [
+        {
+          "label": "A",
+          "text": "聞（き）こえて",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "渡（わた）って",
+          "isCorrect": true
+        },
+        {
+          "label": "C",
+          "text": "曲（ま）がって",
+          "isCorrect": false
+        },
+        {
+          "label": "D",
+          "text": "見（み）えて",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 207,
+      "type": "standalone",
+      "topic": "vocabulary",
+      "level": "N5",
+      "questionText": "のどが（　）ですから、何も飲（の）みたくないです。",
+      "explanation": "Đáp án B. 「のどがいたい」nghĩa là đau họng; vì đau họng nên người nói không muốn uống gì, phù hợp với ngữ cảnh câu.",
+      "orderIndex": 207,
+      "passageId": null,
+      "options": [
+        {
+          "label": "A",
+          "text": "くさい",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "いたい",
+          "isCorrect": true
+        },
+        {
+          "label": "C",
+          "text": "ぬれい",
+          "isCorrect": false
+        },
+        {
+          "label": "D",
+          "text": "たいせつ",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 208,
+      "type": "standalone",
+      "topic": "vocabulary",
+      "level": "N5",
+      "questionText": "おとうと、高校（こうこう）の友達（ともだち）に 手紙（てがみ）を（　）。",
+      "explanation": "Đáp án B. 「手紙をおくります」nghĩa là gửi thư; câu dùng hiện tại lịch sự nên chọn 「おくります」, không chọn dạng quá khứ 「おくりました」.",
+      "orderIndex": 208,
+      "passageId": null,
+      "options": [
+        {
+          "label": "A",
+          "text": "でんわします",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "おくります",
+          "isCorrect": true
+        },
+        {
+          "label": "C",
+          "text": "おくりました",
+          "isCorrect": false
+        },
+        {
+          "label": "D",
+          "text": "でんわしました",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 209,
+      "type": "standalone",
+      "topic": "vocabulary",
+      "level": "N5",
+      "questionText": "アナさんは（　）が 高（たか）いです。",
+      "explanation": "Đáp án C. 「鼻が高い」là cách nói mô tả mũi cao; 「目」「耳」「口」là các bộ phận khác trên khuôn mặt.",
+      "orderIndex": 209,
+      "passageId": null,
+      "options": [
+        {
+          "label": "A",
+          "text": "め",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "みみ",
+          "isCorrect": false
+        },
+        {
+          "label": "C",
+          "text": "はな",
+          "isCorrect": true
+        },
+        {
+          "label": "D",
+          "text": "くち",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 210,
+      "type": "standalone",
+      "topic": "conversation",
+      "level": "N5",
+      "questionText": "どうやって飛行機のチケットを予約しますか。",
+      "explanation": "Đáp án A. Hỏi cách đặt vé máy bay nên câu trả lời phù hợp là đặt vé qua Internet; các lựa chọn còn lại không trả lời đúng cách thức đặt vé.",
+      "orderIndex": 210,
+      "options": [
+        {
+          "label": "A",
+          "text": "インターネットで予約します。",
+          "isCorrect": true
+        },
+        {
+          "label": "B",
+          "text": "住所を見せます。",
+          "isCorrect": false
+        },
+        {
+          "label": "C",
+          "text": "電話に参加します。",
+          "isCorrect": false
+        },
+        {
+          "label": "D",
+          "text": "バスを降ります。",
+          "isCorrect": false
+        }
+      ],
+      "passageId": null
+    },
+    {
+      "id": 211,
+      "type": "standalone",
+      "topic": "conversation",
+      "level": "N5",
+      "questionText": "A：ご飯、（　　　）？　B：うん、食べた。",
+      "explanation": "Đáp án A. Câu trả lời 「食べた」cho biết hành động đã ăn, nên câu hỏi tự nhiên là 「ご飯、食べた？」.",
+      "orderIndex": 211,
+      "options": [
+        {
+          "label": "A",
+          "text": "食べた",
+          "isCorrect": true
+        },
+        {
+          "label": "B",
+          "text": "食べる",
+          "isCorrect": false
+        },
+        {
+          "label": "C",
+          "text": "飲む",
+          "isCorrect": false
+        },
+        {
+          "label": "D",
+          "text": "飲んだ",
+          "isCorrect": false
+        }
+      ],
+      "passageId": null
+    },
+    {
+      "id": 212,
+      "type": "standalone",
+      "topic": "conversation",
+      "level": "N5",
+      "questionText": "A：どうやって飛行機（ひこうき）のチケットを予約（よやく）しますか。B：（　　）。",
+      "explanation": "Đáp án B. Câu hỏi 「どうやって」 hỏi phương thức; đặt vé máy bay bằng Internet là 「インターネットで予約します」.",
+      "orderIndex": 212,
+      "passageId": null,
+      "options": [
+        {
+          "label": "A",
+          "text": "電話（でんわ）に参加（さんか）します",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "インターネットで予約（よやく）します",
+          "isCorrect": true
+        },
+        {
+          "label": "C",
+          "text": "住所（じゅうしょ）を見（み）せます",
+          "isCorrect": false
+        },
+        {
+          "label": "D",
+          "text": "バスを降（お）ります",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 213,
+      "type": "standalone",
+      "topic": "conversation",
+      "level": "N5",
+      "questionText": "A：ご飯（はん）、（　　）？ B：うん、食べた。",
+      "explanation": "Đáp án B. Câu trả lời 「うん、食べた」 ở thì quá khứ cho biết đã ăn, nên câu hỏi tương ứng là 「ご飯、食べた？」.",
+      "orderIndex": 213,
+      "passageId": null,
+      "options": [
+        {
+          "label": "A",
+          "text": "食べる",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "食べた",
+          "isCorrect": true
+        },
+        {
+          "label": "C",
+          "text": "飲む",
+          "isCorrect": false
+        },
+        {
+          "label": "D",
+          "text": "飲んだ",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 214,
+      "type": "standalone",
+      "topic": "conversation",
+      "level": "N5",
+      "questionText": "【レストランで】すみません、（　）はどちらですか。",
+      "explanation": "Đáp án C. Trong nhà hàng, hỏi 「入口はどちらですか」 là hỏi lối vào ở đâu; 「どちら」 dùng để hỏi vị trí hoặc phương hướng lịch sự.",
+      "orderIndex": 214,
+      "passageId": null,
+      "options": [
+        {
+          "label": "A",
+          "text": "おなか",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "音",
+          "isCorrect": false
+        },
+        {
+          "label": "C",
+          "text": "入口（いりぐち）",
+          "isCorrect": true
+        },
+        {
+          "label": "D",
+          "text": "声（こえ）",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 215,
+      "type": "standalone",
+      "topic": "conversation",
+      "level": "N5",
+      "questionText": "A：毎日、大変（たいへん）？ B：ううん、あまり（　　）。",
+      "explanation": "Đáp án A. 「あまり」 đi với phủ định; với tính từ な 「大変」, dạng phủ định thân mật là 「大変じゃない」.",
+      "orderIndex": 215,
+      "passageId": null,
+      "options": [
+        {
+          "label": "A",
+          "text": "大変（たいへん）じゃない",
+          "isCorrect": true
+        },
+        {
+          "label": "B",
+          "text": "大変（たいへん）ありません",
+          "isCorrect": false
+        },
+        {
+          "label": "C",
+          "text": "大変（たいへん）だ",
+          "isCorrect": false
+        },
+        {
+          "label": "D",
+          "text": "大変（たいへん）だった",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 216,
+      "type": "standalone",
+      "topic": "conversation",
+      "level": "N5",
+      "questionText": "A：Bさん、どうやってコメディのチケットを予約（よやく）しますか。B：（　）。",
+      "explanation": "Đáp án C. 「どうやって」 hỏi cách thức; đặt vé bằng Internet là 「インターネットで予約します」.",
+      "orderIndex": 216,
+      "passageId": null,
+      "options": [
+        {
+          "label": "A",
+          "text": "パスポートを見（み）せます",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "電車（でんしゃ）に乗（の）ります",
+          "isCorrect": false
+        },
+        {
+          "label": "C",
+          "text": "インターネットで予約します",
+          "isCorrect": true
+        },
+        {
+          "label": "D",
+          "text": "電話（でんわ）に参加（さんか）します",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 217,
+      "type": "standalone",
+      "topic": "conversation",
+      "level": "N5",
+      "questionText": "A：ピアノは どうですか。B：（　）は 簡単（かんたん）でしたが、（　）難（むずか）しくなりました。",
+      "explanation": "Đáp án C. 「はじめは簡単でしたが、だんだん難しくなりました」nghĩa là lúc đầu đơn giản nhưng dần dần trở nên khó; 「だんだん」phù hợp với sự thay đổi theo thời gian.",
+      "orderIndex": 217,
+      "passageId": null,
+      "options": [
+        {
+          "label": "A",
+          "text": "はじめ・そろそろ",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "平日（へいじつ）・週末（しゅうまつ）",
+          "isCorrect": false
+        },
+        {
+          "label": "C",
+          "text": "はじめ・だんだん",
+          "isCorrect": true
+        },
+        {
+          "label": "D",
+          "text": "毎日（まいにち）・毎週（まいしゅう）",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 218,
+      "type": "standalone",
+      "topic": "conversation",
+      "level": "N5",
+      "questionText": "パクさん、もう11時ですよ。（　）帰（かえ）りましょう。",
+      "explanation": "Đáp án D. 「そろそろ帰りましょう」nghĩa là đã đến lúc nên về; từ 「そろそろ」phù hợp với ngữ cảnh đã 11 giờ.",
+      "orderIndex": 218,
+      "passageId": null,
+      "options": [
+        {
+          "label": "A",
+          "text": "ほんとうだ",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "ちょっと",
+          "isCorrect": false
+        },
+        {
+          "label": "C",
+          "text": "それで",
+          "isCorrect": false
+        },
+        {
+          "label": "D",
+          "text": "そろそろ",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": 219,
+      "type": "passage",
+      "topic": "reading",
+      "level": "N5",
+      "questionText": "大阪（おおさか）、神戸（こうべ）、京都（きょうと）、奈良（なら）、大阪は大きい町です。ビルや車や人が（①）にぎやかです。神戸と京都と奈良は大阪から近いです。京都と奈良は古いお寺や神社がたくさんありますから、外国人もたくさん遊びに来ます。神戸は古い物があまりありませんが、町の後ろに山が、前に海があって、すてきな町です。若い人は神戸が好きです。",
+      "explanation": "Đáp án A. 「ビルや車や人が多くて、にぎやかです」 dùng dạng て của tính từ い 「多い」 để nối với 「にぎやかです」; nội dung đoạn văn nói thành phố có nhiều tòa nhà, xe và người.",
+      "orderIndex": 219,
+      "passageId": 1,
+      "options": [
+        {
+          "label": "A",
+          "text": "多（おお）くて",
+          "isCorrect": true
+        },
+        {
+          "label": "B",
+          "text": "多（おお）いで",
+          "isCorrect": false
+        },
+        {
+          "label": "C",
+          "text": "少（すく）なくて",
+          "isCorrect": false
+        },
+        {
+          "label": "D",
+          "text": "少（すく）ないで",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 220,
+      "type": "passage",
+      "topic": "reading",
+      "level": "N5",
+      "questionText": "どうして京都（きょうと）と奈良（なら）は外国人（がいこくじん）がたくさん遊（あそ）びに来ますか。",
+      "explanation": "Đáp án B. Đoạn văn nêu rõ 京都 và 奈良 có nhiều chùa, đền cổ nên người nước ngoài đến tham quan; đây là nguyên nhân được hỏi trong câu.",
+      "orderIndex": 220,
+      "passageId": 2,
+      "options": [
+        {
+          "label": "A",
+          "text": "町の後ろに山が、前に海がありますから",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "古（ふる）いお寺（てら）や神社（じんじゃ）がたくさんありますから",
+          "isCorrect": true
+        },
+        {
+          "label": "C",
+          "text": "ビルや車（くるま）や人がたくさんありますから",
+          "isCorrect": false
+        },
+        {
+          "label": "D",
+          "text": "京都と奈良は大阪から近いですから",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 221,
+      "type": "passage",
+      "topic": "reading",
+      "level": "N5",
+      "questionText": "ダニエルさんへの手紙：今は（①）。",
+      "explanation": "Đáp án A. Sau khi nói buổi sáng rất sớm và luôn buồn ngủ, 「今はなれました」 nghĩa là hiện nay đã quen với lịch sinh hoạt; đoạn sau nói quản lý cửa hàng là người tốt.",
+      "orderIndex": 221,
+      "passageId": 3,
+      "options": [
+        {
+          "label": "A",
+          "text": "なれました",
+          "isCorrect": true
+        },
+        {
+          "label": "B",
+          "text": "なりました",
+          "isCorrect": false
+        },
+        {
+          "label": "C",
+          "text": "別（わか）れました",
+          "isCorrect": false
+        },
+        {
+          "label": "D",
+          "text": "遅（おく）れました",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 222,
+      "type": "passage",
+      "topic": "reading",
+      "level": "N5",
+      "questionText": "若（わか）い人はどこが好きですか。",
+      "explanation": "Đáp án C. Câu cuối của đoạn văn nói trực tiếp 「若い人は神戸が好きです」, vì vậy địa điểm đúng là 神戸.",
+      "orderIndex": 222,
+      "passageId": 2,
+      "options": [
+        {
+          "label": "A",
+          "text": "奈良（なら）",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "大阪（おおさか）",
+          "isCorrect": false
+        },
+        {
+          "label": "C",
+          "text": "神戸（こうべ）",
+          "isCorrect": true
+        },
+        {
+          "label": "D",
+          "text": "京都（きょうと）",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 223,
+      "type": "passage",
+      "topic": "reading",
+      "level": "N5",
+      "questionText": "夜はたいてい、うちでテレビを見たり、（②）を読んだりしています。",
+      "explanation": "Đáp án D. Động từ 「読む」 kết hợp với 「ざっし」 (tạp chí); câu dùng mẫu 「テレビを見たり、ざっしを読んだりします」 để liệt kê hoạt động.",
+      "orderIndex": 223,
+      "passageId": 4,
+      "options": [
+        {
+          "label": "A",
+          "text": "辞書（じしょ）",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "ドラマ",
+          "isCorrect": false
+        },
+        {
+          "label": "C",
+          "text": "テレビ",
+          "isCorrect": false
+        },
+        {
+          "label": "D",
+          "text": "ざっし",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": 224,
+      "type": "passage",
+      "topic": "reading",
+      "level": "N5",
+      "questionText": "今年（ことし）の6月に学校を（③）して、日本の会社で働（はたら）きます。",
+      "explanation": "Đáp án A. 「学校を卒業して、日本の会社で働きます」 diễn tả tốt nghiệp trường rồi làm việc ở công ty Nhật; các lựa chọn khác không phù hợp với ngữ cảnh.",
+      "orderIndex": 224,
+      "passageId": 5,
+      "options": [
+        {
+          "label": "A",
+          "text": "卒業（そつぎょう）",
+          "isCorrect": true
+        },
+        {
+          "label": "B",
+          "text": "入学（にゅうがく）",
+          "isCorrect": false
+        },
+        {
+          "label": "C",
+          "text": "引越（ひっこ）し",
+          "isCorrect": false
+        },
+        {
+          "label": "D",
+          "text": "集合（しゅうごう）",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 225,
+      "type": "passage",
+      "topic": "reading",
+      "level": "N5",
+      "questionText": "町田太郎（まちだたろう）さんは いつ 山川（やまかわ）さんに 手紙（てがみ）を書きましたか。",
+      "explanation": "Đáp án C. Cuối thư ghi ngày 「12月03日」, nên 町田太郎さん viết thư vào tháng 12.",
+      "orderIndex": 225,
+      "passageId": 6,
+      "options": [
+        {
+          "label": "A",
+          "text": "1月",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "3月",
+          "isCorrect": false
+        },
+        {
+          "label": "C",
+          "text": "12月",
+          "isCorrect": true
+        },
+        {
+          "label": "D",
+          "text": "お正月（しょうがつ）",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 226,
+      "type": "passage",
+      "topic": "reading",
+      "level": "N5",
+      "questionText": "文（ぶん）の（②）に何を入れますか。",
+      "explanation": "Đáp án C. 「とてもきれいです」nghĩa là rất đẹp; 「よく」không bổ nghĩa tự nhiên cho tính từ 「きれい」trong câu này, còn 「あまり」thường đi với phủ định.",
+      "orderIndex": 226,
+      "passageId": 6,
+      "options": [
+        {
+          "label": "A",
+          "text": "そして",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "よく",
+          "isCorrect": false
+        },
+        {
+          "label": "C",
+          "text": "とても",
+          "isCorrect": true
+        },
+        {
+          "label": "D",
+          "text": "あまり",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 227,
+      "type": "passage",
+      "topic": "reading",
+      "level": "N5",
+      "questionText": "文（ぶん）の（①）に何を入れますか。",
+      "explanation": "Đáp án B. 「とてもにぎやかです」nghĩa là rất nhộn nhịp; 「とても」được dùng để nhấn mạnh mức độ của tính từ.",
+      "orderIndex": 227,
+      "passageId": 6,
+      "options": [
+        {
+          "label": "A",
+          "text": "よく",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "とても",
+          "isCorrect": true
+        },
+        {
+          "label": "C",
+          "text": "あまり",
+          "isCorrect": false
+        },
+        {
+          "label": "D",
+          "text": "そして",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 228,
+      "type": "passage",
+      "topic": "reading",
+      "level": "N5",
+      "questionText": "どうして この人（ひと）のおばあちゃんは 天気（てんき）がいい時（とき）、病院（びょういん）に行きますか。",
+      "explanation": "Đáp án B. Đoạn văn nói rõ bà đi bệnh viện để gặp bạn bè và 「病院に友達がたくさんいますから」 là lý do.",
+      "orderIndex": 228,
+      "passageId": 7,
+      "options": [
+        {
+          "label": "A",
+          "text": "医者（いしゃ）に会（あ）いたいですから",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "病院に友達（ともだち）がたくさんいますから",
+          "isCorrect": true
+        },
+        {
+          "label": "C",
+          "text": "足の調子がよくないですから",
+          "isCorrect": false
+        },
+        {
+          "label": "D",
+          "text": "病気（びょうき）ですから",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 229,
+      "type": "passage",
+      "topic": "reading",
+      "level": "N5",
+      "questionText": "この人の仕事（しごと）は何ですか。",
+      "explanation": "Đáp án D. Đoạn văn nói rõ người này chỉ làm việc một ngày mỗi năm, đó là đêm 24 tháng 12, và tặng những món quà tuyệt vời cho trẻ em ở nhiều quốc gia; vì vậy lựa chọn D phù hợp với thông tin trong đoạn văn.",
+      "orderIndex": 229,
+      "passageId": 8,
+      "options": [
+        {
+          "label": "A",
+          "text": "夜（よる）、いろいろな国の子供（こども）にすてきなプレゼントをあげます。",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "12月24日の夜、いろいろな国の子供に赤い服をあげます。",
+          "isCorrect": false
+        },
+        {
+          "label": "C",
+          "text": "夜、いろいろな国の子供に赤い服をあげます。",
+          "isCorrect": false
+        },
+        {
+          "label": "D",
+          "text": "12月24日の夜、いろいろな国の子供にすてきなプレゼントをあげます。",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": 230,
+      "type": "passage",
+      "topic": "reading",
+      "level": "N5",
+      "questionText": "この人はだれですか。",
+      "explanation": "Đáp án B. Người sống ở nơi rất lạnh, mặc đồ đỏ, làm việc vào đêm 24 tháng 12 và tặng quà cho trẻ em là Santa Claus, 「サンタクロース」.",
+      "orderIndex": 230,
+      "passageId": 8,
+      "options": [
+        {
+          "label": "A",
+          "text": "子供（こども）の国の両親（りょうしん）",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "サンタクロース",
+          "isCorrect": true
+        },
+        {
+          "label": "C",
+          "text": "独身（どくしん）の人",
+          "isCorrect": false
+        },
+        {
+          "label": "D",
+          "text": "子供",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 231,
+      "type": "passage",
+      "topic": "reading",
+      "level": "N5",
+      "questionText": "この人は結婚（けっこん）していますか。",
+      "explanation": "Đáp án B. Trong đoạn văn có câu 「私は独身ですから、子供がいません」, nghĩa là người này độc thân và không có con; vì vậy câu trả lời là 「いいえ、独身です」.",
+      "orderIndex": 231,
+      "passageId": 8,
+      "options": [
+        {
+          "label": "A",
+          "text": "はい、この人は結婚していますが、子供（こども）がいません。",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "いいえ、この人は独身（どくしん）です。",
+          "isCorrect": true
+        },
+        {
+          "label": "C",
+          "text": "いいえ、この人は独身ですが、子供がいます。",
+          "isCorrect": false
+        },
+        {
+          "label": "D",
+          "text": "はい、この人は結婚しています。",
+          "isCorrect": false
+        }
+      ]
+    }
+  ]
+}

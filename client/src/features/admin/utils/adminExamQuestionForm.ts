@@ -3,12 +3,14 @@ import type { AdminExamQuestion, AdminExamQuestionPayload } from '../types/admin
 export const COURSE_OPTIONS = [
   { value: 'jpd113', label: 'JPD113' },
   { value: 'jpd123', label: 'JPD123' },
+  { value: 'jpd133', label: 'JPD133' },
 ];
 
 export const TOPIC_OPTIONS = [
   { value: 'kanji', label: 'Kanji' },
   { value: 'grammar', label: 'Ngữ pháp' },
   { value: 'vocabulary', label: 'Từ vựng' },
+  { value: 'conversation', label: 'Giao tiếp' },
   { value: 'odd_one_out', label: 'Khác loại' },
   { value: 'reading', label: 'Đọc hiểu' },
 ];

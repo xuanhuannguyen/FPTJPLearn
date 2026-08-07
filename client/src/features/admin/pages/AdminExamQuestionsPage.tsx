@@ -177,7 +177,7 @@ export const AdminExamQuestionsPage = () => {
           <p className="text-xs font-black uppercase tracking-[0.18em] text-text-muted">Admin</p>
           <h1 className="mt-1 text-4xl font-black tracking-normal text-slate-900">Quản lý câu hỏi luyện thi</h1>
           <p className="mt-2 max-w-3xl text-sm font-bold leading-6 text-slate-600">
-            Tạo, chỉnh sửa, ẩn câu hỏi và import nhanh bằng JSON cho từng khóa JPD113 / JPD123.
+            Tạo, chỉnh sửa, ẩn câu hỏi và import nhanh bằng JSON cho từng khóa JPD113 / JPD123 / JPD133.
           </p>
         </div>
 

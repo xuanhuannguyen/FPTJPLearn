@@ -18,6 +18,7 @@ public static class ExamPracticeSeedData
         if (imports.Count == 0) return;
 
         Console.WriteLine($"--> Seeding Exam Data: {imports.Count} files found...");
+        ValidateImports(imports);
 
         // Disable change tracking for performance
         db.ChangeTracker.AutoDetectChangesEnabled = false;
@@ -40,7 +41,13 @@ public static class ExamPracticeSeedData
                 Console.WriteLine($"--> Processing course: {importFile.CourseCode}");
                 
                 // 1. Course
-                var title = importFile.CourseCode == ExamCourseCodes.JPD113 ? "JPD113 - Tiếng Nhật Sơ cấp 1" : "JPD123 - Tiếng Nhật Sơ cấp 2";
+                var title = importFile.CourseCode switch
+                {
+                    ExamCourseCodes.JPD113 => "JPD113 - Tiếng Nhật Sơ cấp 1",
+                    ExamCourseCodes.JPD123 => "JPD123 - Tiếng Nhật Sơ cấp 2",
+                    ExamCourseCodes.JPD133 => "JPD133 - Tiếng Nhật Sơ cấp 3",
+                    _ => throw new InvalidOperationException($"Unsupported exam course: {importFile.CourseCode}")
+                };
                 var desc = $"Ngân hàng câu hỏi luyện thi cho khóa học {importFile.CourseCode}";
                 var course = new ExamCourse
                 {
@@ -48,7 +55,13 @@ public static class ExamPracticeSeedData
                     Code = importFile.CourseCode,
                     Title = title,
                     Description = desc,
-                    OrderIndex = importFile.CourseCode == ExamCourseCodes.JPD113 ? 1 : 2,
+                    OrderIndex = importFile.CourseCode switch
+                    {
+                        ExamCourseCodes.JPD113 => 1,
+                        ExamCourseCodes.JPD123 => 2,
+                        ExamCourseCodes.JPD133 => 3,
+                        _ => 99
+                    },
                     AccessTier = "premium", // Tất cả là premium mặc định
                     PackageCode = importFile.CourseCode, // jpd113 hoặc jpd123
                     IsActive = true,
@@ -209,6 +222,31 @@ public static class ExamPracticeSeedData
         "reading" => ExamQuestionTypes.Passage,
         _ => ExamQuestionTypes.Standalone
     };
+
+    private static void ValidateImports(IEnumerable<ExamImportFile> imports)
+    {
+        foreach (var import in imports)
+        {
+            if (!ExamCourseCodes.All.Contains(import.CourseCode.Trim().ToLowerInvariant()))
+                throw new InvalidOperationException($"Invalid exam course in import: {import.CourseCode}");
+
+            if (import.Questions.Count == 0)
+                throw new InvalidOperationException($"Exam import has no questions: {import.CourseCode}");
+
+            var questionIds = new HashSet<int>();
+            foreach (var question in import.Questions)
+            {
+                if (!questionIds.Add(question.Id))
+                    throw new InvalidOperationException($"Duplicate question id {question.Id} in {import.CourseCode}");
+                if (string.IsNullOrWhiteSpace(question.QuestionText) || string.IsNullOrWhiteSpace(question.Explanation))
+                    throw new InvalidOperationException($"Question {question.Id} in {import.CourseCode} is missing text or explanation");
+                if (!ExamQuestionTopics.All.Contains(NormalizeTopic(question.Topic)))
+                    throw new InvalidOperationException($"Invalid topic {question.Topic} in {import.CourseCode}");
+                if (question.Options.Length < 2 || question.Options.Count(option => option.IsCorrect) != 1)
+                    throw new InvalidOperationException($"Question {question.Id} in {import.CourseCode} must have one correct option");
+            }
+        }
+    }
 
     private static async Task<List<ExamImportFile>> LoadImportFilesAsync()
     {

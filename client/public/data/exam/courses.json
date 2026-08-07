@@ -20,5 +20,16 @@
     "isLocked": false,
     "questionCount": 492,
     "passageCount": 10
+  },
+  {
+    "id": "exam-jpd133",
+    "code": "jpd133",
+    "title": "JPD133",
+    "description": "Ngân hàng câu hỏi luyện thi cho khóa học JPD133",
+    "accessTier": "premium",
+    "packageCode": "jpd133",
+    "isLocked": false,
+    "questionCount": 231,
+    "passageCount": 8
   }
 ]

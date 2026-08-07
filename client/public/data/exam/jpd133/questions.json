@@ -1,0 +1,2081 @@
+[
+  {
+    "id": "exam-jpd133-question-1",
+    "courseCode": "jpd133",
+    "questionType": "standalone",
+    "topic": "kanji",
+    "level": "N5",
+    "questionText": "７時ですよ。はやく「おきて」ください。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd133-question-2",
+    "courseCode": "jpd133",
+    "questionType": "standalone",
+    "topic": "kanji",
+    "level": "N5",
+    "questionText": "明日の「朝」、何をしますか。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd133-question-3",
+    "courseCode": "jpd133",
+    "questionType": "standalone",
+    "topic": "kanji",
+    "level": "N5",
+    "questionText": "きれいな「りょかん」ですね。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd133-question-4",
+    "courseCode": "jpd133",
+    "questionType": "standalone",
+    "topic": "kanji",
+    "level": "N5",
+    "questionText": "山田「会長」はだれですか。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd133-question-5",
+    "courseCode": "jpd133",
+    "questionType": "standalone",
+    "topic": "kanji",
+    "level": "N5",
+    "questionText": "交差点を「みぎ」へ曲がってください。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd133-question-6",
+    "courseCode": "jpd133",
+    "questionType": "standalone",
+    "topic": "kanji",
+    "level": "N5",
+    "questionText": "私の趣味は「音楽」です。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd133-question-7",
+    "courseCode": "jpd133",
+    "questionType": "standalone",
+    "topic": "kanji",
+    "level": "N5",
+    "questionText": "「じょうげ」という漢字を書いてください。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd133-question-8",
+    "courseCode": "jpd133",
+    "questionType": "standalone",
+    "topic": "kanji",
+    "level": "N5",
+    "questionText": "「ぼこくご」の漢字は何ですか。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd133-question-9",
+    "courseCode": "jpd133",
+    "questionType": "standalone",
+    "topic": "kanji",
+    "level": "N5",
+    "questionText": "明日、一緒に「映画」を見に行きませんか。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd133-question-10",
+    "courseCode": "jpd133",
+    "questionType": "standalone",
+    "topic": "kanji",
+    "level": "N5",
+    "questionText": "山田さんは「歌う」ことができますか。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd133-question-11",
+    "courseCode": "jpd133",
+    "questionType": "standalone",
+    "topic": "kanji",
+    "level": "N5",
+    "questionText": "私の「いえ」はあそこです。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd133-question-12",
+    "courseCode": "jpd133",
+    "questionType": "standalone",
+    "topic": "kanji",
+    "level": "N5",
+    "questionText": "毎日、学校で「勉強」しています。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd133-question-13",
+    "courseCode": "jpd133",
+    "questionType": "standalone",
+    "topic": "kanji",
+    "level": "N5",
+    "questionText": "交差点（こうさてん）を「みぎ」に曲（ま）がってください。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd133-question-14",
+    "courseCode": "jpd133",
+    "questionType": "standalone",
+    "topic": "kanji",
+    "level": "N5",
+    "questionText": "「じょうげ」という漢字（かんじ）を書（か）いてください。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd133-question-15",
+    "courseCode": "jpd133",
+    "questionType": "standalone",
+    "topic": "kanji",
+    "level": "N5",
+    "questionText": "「ちか」一階（いっかい）はどちらですか。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd133-question-16",
+    "courseCode": "jpd133",
+    "questionType": "standalone",
+    "topic": "kanji",
+    "level": "N5",
+    "questionText": "東京大学の「図書館」はあそこです。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd133-question-17",
+    "courseCode": "jpd133",
+    "questionType": "standalone",
+    "topic": "kanji",
+    "level": "N5",
+    "questionText": "毎日、学校まで「あるいて」来（き）ます。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd133-question-18",
+    "courseCode": "jpd133",
+    "questionType": "standalone",
+    "topic": "kanji",
+    "level": "N5",
+    "questionText": "明日（あした）の「朝」、何をしますか。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd133-question-19",
+    "courseCode": "jpd133",
+    "questionType": "standalone",
+    "topic": "kanji",
+    "level": "N5",
+    "questionText": "7時ですよ。はやく「起きて」ください。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd133-question-20",
+    "courseCode": "jpd133",
+    "questionType": "standalone",
+    "topic": "kanji",
+    "level": "N5",
+    "questionText": "「ちょうしょく」は何ですか。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd133-question-21",
+    "courseCode": "jpd133",
+    "questionType": "standalone",
+    "topic": "kanji",
+    "level": "N5",
+    "questionText": "妹は「高校（こうこう）」で勉強（べんきょう）していますか。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd133-question-22",
+    "courseCode": "jpd133",
+    "questionType": "standalone",
+    "topic": "kanji",
+    "level": "N5",
+    "questionText": "「おねえさん」は会社員（かいしゃいん）ですか。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd133-question-23",
+    "courseCode": "jpd133",
+    "questionType": "standalone",
+    "topic": "kanji",
+    "level": "N5",
+    "questionText": "「兄弟（きょうだい）」が何人（なんにん）いますか。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd133-question-24",
+    "courseCode": "jpd133",
+    "questionType": "standalone",
+    "topic": "kanji",
+    "level": "N5",
+    "questionText": "「ぼこくご」の漢字（かんじ）は何ですか。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd133-question-25",
+    "courseCode": "jpd133",
+    "questionType": "standalone",
+    "topic": "kanji",
+    "level": "N5",
+    "questionText": "私の趣味（しゅみ）は「音楽」です。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd133-question-26",
+    "courseCode": "jpd133",
+    "questionType": "standalone",
+    "topic": "kanji",
+    "level": "N5",
+    "questionText": "山田（やまだ）さんは「歌う」ことができますか。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd133-question-27",
+    "courseCode": "jpd133",
+    "questionType": "standalone",
+    "topic": "kanji",
+    "level": "N5",
+    "questionText": "「たび」の漢字（かんじ）は何ですか。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd133-question-28",
+    "courseCode": "jpd133",
+    "questionType": "standalone",
+    "topic": "kanji",
+    "level": "N5",
+    "questionText": "先週、きれいな「りょかん」に泊（と）まりました。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd133-question-29",
+    "courseCode": "jpd133",
+    "questionType": "standalone",
+    "topic": "kanji",
+    "level": "N5",
+    "questionText": "すみません。一番目（いちばんめ）の交差点（こうさてん）を「ひだり」へ曲（ま）がってください。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd133-question-30",
+    "courseCode": "jpd133",
+    "questionType": "standalone",
+    "topic": "kanji",
+    "level": "N5",
+    "questionText": "本屋（ほんや）でアメリカの「地図」を買いました。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd133-question-31",
+    "courseCode": "jpd133",
+    "questionType": "standalone",
+    "topic": "kanji",
+    "level": "N5",
+    "questionText": "毎日、「朝」ごはんを食べます。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd133-question-32",
+    "courseCode": "jpd133",
+    "questionType": "standalone",
+    "topic": "kanji",
+    "level": "N5",
+    "questionText": "あのスカートは「みじかい」ですから、買いません。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd133-question-33",
+    "courseCode": "jpd133",
+    "questionType": "standalone",
+    "topic": "kanji",
+    "level": "N5",
+    "questionText": "あのかどを「ひだり」へ曲がってください。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd133-question-34",
+    "courseCode": "jpd133",
+    "questionType": "standalone",
+    "topic": "kanji",
+    "level": "N5",
+    "questionText": "車の「おと」が聞こえます。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd133-question-35",
+    "courseCode": "jpd133",
+    "questionType": "standalone",
+    "topic": "kanji",
+    "level": "N5",
+    "questionText": "山田（やまだ）「会長」は だれですか。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd133-question-36",
+    "courseCode": "jpd133",
+    "questionType": "standalone",
+    "topic": "kanji",
+    "level": "N5",
+    "questionText": "先月、どこへ「旅行」に行きましたか。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd133-question-37",
+    "courseCode": "jpd133",
+    "questionType": "standalone",
+    "topic": "kanji",
+    "level": "N5",
+    "questionText": "毎日、学校で「勉強」しています。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd133-question-38",
+    "courseCode": "jpd133",
+    "questionType": "standalone",
+    "topic": "kanji",
+    "level": "N5",
+    "questionText": "「兄弟」が何人（なんにん）いますか。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd133-question-39",
+    "courseCode": "jpd133",
+    "questionType": "standalone",
+    "topic": "kanji",
+    "level": "N5",
+    "questionText": "「左右」注意（ちゅうい）してください。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd133-question-40",
+    "courseCode": "jpd133",
+    "questionType": "standalone",
+    "topic": "kanji",
+    "level": "N5",
+    "questionText": "明日（あした）、一緒（いっしょ）に「映画」を見に行きませんか。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd133-question-41",
+    "courseCode": "jpd133",
+    "questionType": "standalone",
+    "topic": "kanji",
+    "level": "N5",
+    "questionText": "私の「いえ」は あそこです。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd133-question-42",
+    "courseCode": "jpd133",
+    "questionType": "standalone",
+    "topic": "kanji",
+    "level": "N5",
+    "questionText": "「たのしい」パーティーを 作（つく）りましょう。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd133-question-43",
+    "courseCode": "jpd133",
+    "questionType": "standalone",
+    "topic": "kanji",
+    "level": "N5",
+    "questionText": "先月（せんげつ）、どこへ「旅行」に行きましたか。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd133-question-44",
+    "courseCode": "jpd133",
+    "questionType": "standalone",
+    "topic": "kanji",
+    "level": "N5",
+    "questionText": "あのかどを「ひだり」へ 曲（ま）がってください。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd133-question-45",
+    "courseCode": "jpd133",
+    "questionType": "standalone",
+    "topic": "kanji",
+    "level": "N5",
+    "questionText": "このズボンは「みじかい」ですね。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd133-question-46",
+    "courseCode": "jpd133",
+    "questionType": "standalone",
+    "topic": "kanji",
+    "level": "N5",
+    "questionText": "昨日（きのう）の「夜」、何をしましたか。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd133-question-47",
+    "courseCode": "jpd133",
+    "questionType": "standalone",
+    "topic": "kanji",
+    "level": "N5",
+    "questionText": "「道」が分からない時、どうしますか。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd133-question-48",
+    "courseCode": "jpd133",
+    "questionType": "standalone",
+    "topic": "kanji",
+    "level": "N5",
+    "questionText": "「夜道」の読み方（よみかた）は何ですか。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd133-question-49",
+    "courseCode": "jpd133",
+    "questionType": "standalone",
+    "topic": "kanji",
+    "level": "N5",
+    "questionText": "来週（らいしゅう）、「うみ」へ 行きませんか。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd133-question-50",
+    "courseCode": "jpd133",
+    "questionType": "standalone",
+    "topic": "kanji",
+    "level": "N5",
+    "questionText": "7時ですよ。はやく「おきて」ください。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd133-question-51",
+    "courseCode": "jpd133",
+    "questionType": "standalone",
+    "topic": "kanji",
+    "level": "N5",
+    "questionText": "「おねえさん」は 会社員（かいしゃいん）ですか。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd133-question-52",
+    "courseCode": "jpd133",
+    "questionType": "standalone",
+    "topic": "kanji",
+    "level": "N5",
+    "questionText": "「おとうさん」は お元気（げんき）ですか。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd133-question-53",
+    "courseCode": "jpd133",
+    "questionType": "standalone",
+    "topic": "kanji",
+    "level": "N5",
+    "questionText": "明日（あした）は 人（ひと）が 多（おお）いですから「たのしい」と思（おも）います。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd133-question-54",
+    "courseCode": "jpd133",
+    "questionType": "standalone",
+    "topic": "kanji",
+    "level": "N5",
+    "questionText": "毎週（まいしゅう）の日曜日（にちようび）、11時に「起きました」。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd133-question-55",
+    "courseCode": "jpd133",
+    "questionType": "standalone",
+    "topic": "kanji",
+    "level": "N5",
+    "questionText": "来週（らいしゅう）は「海外（かいがい）」旅行（りょこう）ですから、楽しみです。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd133-question-56",
+    "courseCode": "jpd133",
+    "questionType": "standalone",
+    "topic": "kanji",
+    "level": "N5",
+    "questionText": "「たのしい」パーティーを 作（つく）りましょう。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd133-question-57",
+    "courseCode": "jpd133",
+    "questionType": "standalone",
+    "topic": "grammar",
+    "level": "N5",
+    "questionText": "１か月に２回、料理教室に（　　　）います。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd133-question-58",
+    "courseCode": "jpd133",
+    "questionType": "standalone",
+    "topic": "grammar",
+    "level": "N5",
+    "questionText": "ここに荷物を（　　　）いいですか。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd133-question-59",
+    "courseCode": "jpd133",
+    "questionType": "standalone",
+    "topic": "grammar",
+    "level": "N5",
+    "questionText": "趣味は本を（　　　）です。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd133-question-60",
+    "courseCode": "jpd133",
+    "questionType": "standalone",
+    "topic": "grammar",
+    "level": "N5",
+    "questionText": "趣味は（　　　）です。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd133-question-61",
+    "courseCode": "jpd133",
+    "questionType": "standalone",
+    "topic": "grammar",
+    "level": "N5",
+    "questionText": "あそこで買い物が（　　　）。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd133-question-62",
+    "courseCode": "jpd133",
+    "questionType": "standalone",
+    "topic": "grammar",
+    "level": "N5",
+    "questionText": "マルコさんはサッカーがよくて、（　　　）です。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd133-question-63",
+    "courseCode": "jpd133",
+    "questionType": "standalone",
+    "topic": "grammar",
+    "level": "N5",
+    "questionText": "子供がいますから、たばこを（　　　）ください。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd133-question-64",
+    "courseCode": "jpd133",
+    "questionType": "standalone",
+    "topic": "grammar",
+    "level": "N5",
+    "questionText": "日曜日、音楽を（　　　）、小説を（　　　）します。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd133-question-65",
+    "courseCode": "jpd133",
+    "questionType": "standalone",
+    "topic": "grammar",
+    "level": "N5",
+    "questionText": "マルコさんは（　　　）歌を歌うことができません。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd133-question-66",
+    "courseCode": "jpd133",
+    "questionType": "standalone",
+    "topic": "grammar",
+    "level": "N5",
+    "questionText": "西川さんは（　　　）、イタリア語を勉強しています。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd133-question-67",
+    "courseCode": "jpd133",
+    "questionType": "standalone",
+    "topic": "grammar",
+    "level": "N5",
+    "questionText": "先週、マルコさんが靴下を（　　　）。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd133-question-68",
+    "courseCode": "jpd133",
+    "questionType": "standalone",
+    "topic": "grammar",
+    "level": "N5",
+    "questionText": "まだ薬を（　　　）。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd133-question-69",
+    "courseCode": "jpd133",
+    "questionType": "standalone",
+    "topic": "grammar",
+    "level": "N5",
+    "questionText": "いつ大学（　）卒業しますか。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd133-question-70",
+    "courseCode": "jpd133",
+    "questionType": "standalone",
+    "topic": "grammar",
+    "level": "N5",
+    "questionText": "電話（　）バスの外（　）してください。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd133-question-71",
+    "courseCode": "jpd133",
+    "questionType": "standalone",
+    "topic": "grammar",
+    "level": "N5",
+    "questionText": "私はあまり料理を（　　　）。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd133-question-72",
+    "courseCode": "jpd133",
+    "questionType": "standalone",
+    "topic": "grammar",
+    "level": "N5",
+    "questionText": "（　　　）は簡単でしたが、（　　　）難しくなりました。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd133-question-73",
+    "courseCode": "jpd133",
+    "questionType": "standalone",
+    "topic": "grammar",
+    "level": "N5",
+    "questionText": "昨日、あまり（　　　）ね。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd133-question-74",
+    "courseCode": "jpd133",
+    "questionType": "standalone",
+    "topic": "grammar",
+    "level": "N5",
+    "questionText": "パクさんはあたまが（　　　）、きれいなひとですね。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd133-question-75",
+    "courseCode": "jpd133",
+    "questionType": "standalone",
+    "topic": "grammar",
+    "level": "N5",
+    "questionText": "駅から３番（　）バス（　）乗って、美術館前（　）降りてください。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd133-question-76",
+    "courseCode": "jpd133",
+    "questionType": "standalone",
+    "topic": "grammar",
+    "level": "N5",
+    "questionText": "先週、マルコさんが靴下（くつした）を（　　）。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd133-question-77",
+    "courseCode": "jpd133",
+    "questionType": "standalone",
+    "topic": "grammar",
+    "level": "N5",
+    "questionText": "兄は目（め）が（　　）、髪（かみ）が短（みじか）いです。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd133-question-78",
+    "courseCode": "jpd133",
+    "questionType": "standalone",
+    "topic": "grammar",
+    "level": "N5",
+    "questionText": "猫（ねこ）が二匹（にひき）（　　）。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd133-question-79",
+    "courseCode": "jpd133",
+    "questionType": "standalone",
+    "topic": "grammar",
+    "level": "N5",
+    "questionText": "私は新宿（しんじゅく）に（　　）。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd133-question-80",
+    "courseCode": "jpd133",
+    "questionType": "standalone",
+    "topic": "grammar",
+    "level": "N5",
+    "questionText": "ハノイは（　　）、きれいな町（まち）です。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd133-question-81",
+    "courseCode": "jpd133",
+    "questionType": "standalone",
+    "topic": "grammar",
+    "level": "N5",
+    "questionText": "マルコさんはサッカーがじょうずで、（　　）です。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd133-question-82",
+    "courseCode": "jpd133",
+    "questionType": "standalone",
+    "topic": "grammar",
+    "level": "N5",
+    "questionText": "A：Bさんは（　　）住（す）んでいますか。B：私は兄（　　）住んでいます。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd133-question-83",
+    "courseCode": "jpd133",
+    "questionType": "standalone",
+    "topic": "grammar",
+    "level": "N5",
+    "questionText": "モモは（　　）、白（しろ）いうさぎです。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd133-question-84",
+    "courseCode": "jpd133",
+    "questionType": "standalone",
+    "topic": "grammar",
+    "level": "N5",
+    "questionText": "私はギターを（　　）ができません。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd133-question-85",
+    "courseCode": "jpd133",
+    "questionType": "standalone",
+    "topic": "grammar",
+    "level": "N5",
+    "questionText": "私は日本語（　）電話（でんわ）（　）かけること（　）できません。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd133-question-86",
+    "courseCode": "jpd133",
+    "questionType": "standalone",
+    "topic": "grammar",
+    "level": "N5",
+    "questionText": "駅から3番（ばん）（　）バス（　）乗（の）って、美術館前（びじゅつかんまえ）（　）降（お）りてください。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd133-question-87",
+    "courseCode": "jpd133",
+    "questionType": "standalone",
+    "topic": "grammar",
+    "level": "N5",
+    "questionText": "1週間（　）2回（かい）、プール（　）およぎます。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd133-question-88",
+    "courseCode": "jpd133",
+    "questionType": "standalone",
+    "topic": "grammar",
+    "level": "N5",
+    "questionText": "あの子（こ）は（　　）なりましたね。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd133-question-89",
+    "courseCode": "jpd133",
+    "questionType": "standalone",
+    "topic": "grammar",
+    "level": "N5",
+    "questionText": "ここに荷物（にもつ）を（　　）いいですか。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd133-question-90",
+    "courseCode": "jpd133",
+    "questionType": "standalone",
+    "topic": "grammar",
+    "level": "N5",
+    "questionText": "交差点（こうさてん）（　）右（　）曲（ま）がってください。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd133-question-91",
+    "courseCode": "jpd133",
+    "questionType": "standalone",
+    "topic": "grammar",
+    "level": "N5",
+    "questionText": "子供（こども）がいますから、たばこを（　　）ください。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd133-question-92",
+    "courseCode": "jpd133",
+    "questionType": "standalone",
+    "topic": "grammar",
+    "level": "N5",
+    "questionText": "水の音（　　）（　　）。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd133-question-93",
+    "courseCode": "jpd133",
+    "questionType": "standalone",
+    "topic": "grammar",
+    "level": "N5",
+    "questionText": "まだ薬（くすり）を（　　）。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd133-question-94",
+    "courseCode": "jpd133",
+    "questionType": "standalone",
+    "topic": "grammar",
+    "level": "N5",
+    "questionText": "来年（らいねん）、（　　）なります。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd133-question-95",
+    "courseCode": "jpd133",
+    "questionType": "standalone",
+    "topic": "grammar",
+    "level": "N5",
+    "questionText": "いぬ（　）好きです（　）、猫（ねこ）（　）好きじゃありません。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd133-question-96",
+    "courseCode": "jpd133",
+    "questionType": "standalone",
+    "topic": "grammar",
+    "level": "N5",
+    "questionText": "A：昨日（きのう）、あまり（　　）ね。B：うん。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd133-question-97",
+    "courseCode": "jpd133",
+    "questionType": "standalone",
+    "topic": "grammar",
+    "level": "N5",
+    "questionText": "いつ大学（　）卒業（そつぎょう）しますか。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd133-question-98",
+    "courseCode": "jpd133",
+    "questionType": "standalone",
+    "topic": "grammar",
+    "level": "N5",
+    "questionText": "（　）とき、テニスを始（はじ）めました。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd133-question-99",
+    "courseCode": "jpd133",
+    "questionType": "standalone",
+    "topic": "grammar",
+    "level": "N5",
+    "questionText": "私は（　）ができます。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd133-question-100",
+    "courseCode": "jpd133",
+    "questionType": "standalone",
+    "topic": "grammar",
+    "level": "N5",
+    "questionText": "私の趣味（しゅみ）はテニスです。（　）、最近（さいきん）、しません。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd133-question-101",
+    "courseCode": "jpd133",
+    "questionType": "standalone",
+    "topic": "grammar",
+    "level": "N5",
+    "questionText": "（　）テレビを見ません。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd133-question-102",
+    "courseCode": "jpd133",
+    "questionType": "standalone",
+    "topic": "grammar",
+    "level": "N5",
+    "questionText": "西川（にしかわ）さんは（　）、イタリア語を勉強（べんきょう）しています。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd133-question-103",
+    "courseCode": "jpd133",
+    "questionType": "standalone",
+    "topic": "grammar",
+    "level": "N5",
+    "questionText": "ダニエルさんはテニスが（　）かっこいいです。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd133-question-104",
+    "courseCode": "jpd133",
+    "questionType": "standalone",
+    "topic": "grammar",
+    "level": "N5",
+    "questionText": "先週の日曜日、洗濯（せんたく）を（　）、買い物（　）。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd133-question-105",
+    "courseCode": "jpd133",
+    "questionType": "standalone",
+    "topic": "grammar",
+    "level": "N5",
+    "questionText": "ダニエルさん、いつ高校（　）卒業（そつぎょう）しますか。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd133-question-106",
+    "courseCode": "jpd133",
+    "questionType": "standalone",
+    "topic": "grammar",
+    "level": "N5",
+    "questionText": "誕生日（たんじょうび）にパクさんがDVDを（　）。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd133-question-107",
+    "courseCode": "jpd133",
+    "questionType": "standalone",
+    "topic": "grammar",
+    "level": "N5",
+    "questionText": "木村（きむら）さんは（　）漢字（かんじ）を書くことができません。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd133-question-108",
+    "courseCode": "jpd133",
+    "questionType": "standalone",
+    "topic": "grammar",
+    "level": "N5",
+    "questionText": "地下鉄（ちかてつ）の時間（じかん）を（　）きます。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd133-question-109",
+    "courseCode": "jpd133",
+    "questionType": "standalone",
+    "topic": "grammar",
+    "level": "N5",
+    "questionText": "車（くるま）で来ましたから、お酒（さけ）を（　）ください。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd133-question-110",
+    "courseCode": "jpd133",
+    "questionType": "standalone",
+    "topic": "grammar",
+    "level": "N5",
+    "questionText": "弟は中国（　）大学（　）勉強しています。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd133-question-111",
+    "courseCode": "jpd133",
+    "questionType": "standalone",
+    "topic": "grammar",
+    "level": "N5",
+    "questionText": "A: Bさんは（　）住んでいますか。\nB: 私は 京都（　）住んでいます。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd133-question-112",
+    "courseCode": "jpd133",
+    "questionType": "standalone",
+    "topic": "grammar",
+    "level": "N5",
+    "questionText": "先生の娘さんは（　）、親切な人です。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd133-question-113",
+    "courseCode": "jpd133",
+    "questionType": "standalone",
+    "topic": "grammar",
+    "level": "N5",
+    "questionText": "（　）とき、テニスを始めました。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd133-question-114",
+    "courseCode": "jpd133",
+    "questionType": "standalone",
+    "topic": "grammar",
+    "level": "N5",
+    "questionText": "私の趣味（しゅみ）は テニスです。（　）、最近（さいきん）、しません。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd133-question-115",
+    "courseCode": "jpd133",
+    "questionType": "standalone",
+    "topic": "grammar",
+    "level": "N5",
+    "questionText": "私は 姉（　）二人（　）住んでいます。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd133-question-116",
+    "courseCode": "jpd133",
+    "questionType": "standalone",
+    "topic": "grammar",
+    "level": "N5",
+    "questionText": "マックは（　）、足が短い犬です。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd133-question-117",
+    "courseCode": "jpd133",
+    "questionType": "standalone",
+    "topic": "grammar",
+    "level": "N5",
+    "questionText": "妹（　）二人（　）います。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd133-question-118",
+    "courseCode": "jpd133",
+    "questionType": "standalone",
+    "topic": "grammar",
+    "level": "N5",
+    "questionText": "（　）の信号（しんごう）を右に曲（ま）がってください。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd133-question-119",
+    "courseCode": "jpd133",
+    "questionType": "standalone",
+    "topic": "grammar",
+    "level": "N5",
+    "questionText": "まだ 薬（くすり）を（　）。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd133-question-120",
+    "courseCode": "jpd133",
+    "questionType": "standalone",
+    "topic": "grammar",
+    "level": "N5",
+    "questionText": "来年（らいねん）、（　）なります。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd133-question-121",
+    "courseCode": "jpd133",
+    "questionType": "standalone",
+    "topic": "grammar",
+    "level": "N5",
+    "questionText": "私（　）ワンさん（　）本（　）あげました。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd133-question-122",
+    "courseCode": "jpd133",
+    "questionType": "standalone",
+    "topic": "grammar",
+    "level": "N5",
+    "questionText": "先週（せんしゅう）、マルコさんが 靴下（くつした）を（　）。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd133-question-123",
+    "courseCode": "jpd133",
+    "questionType": "standalone",
+    "topic": "grammar",
+    "level": "N5",
+    "questionText": "Đổi câu sau sang thể thường: 今晩（こんばん）、お酒（さけ）を 飲みませんか。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd133-question-124",
+    "courseCode": "jpd133",
+    "questionType": "standalone",
+    "topic": "grammar",
+    "level": "N5",
+    "questionText": "リンさんの 先輩（せんぱい）（　）サッカー（　）上手（じょうず）（　）、背（せ）が高いです。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd133-question-125",
+    "courseCode": "jpd133",
+    "questionType": "standalone",
+    "topic": "grammar",
+    "level": "N5",
+    "questionText": "弟は 中国（　）大学（　）勉強（べんきょう）しています。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd133-question-126",
+    "courseCode": "jpd133",
+    "questionType": "standalone",
+    "topic": "grammar",
+    "level": "N5",
+    "questionText": "母は 医者（いしゃ）で、有名（ゆうめい）（　）病院（びょういん）（　）働（はたら）いています。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd133-question-127",
+    "courseCode": "jpd133",
+    "questionType": "standalone",
+    "topic": "grammar",
+    "level": "N5",
+    "questionText": "1週間（しゅうかん）（　）2回（かい）、プール（　）およぎます。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd133-question-128",
+    "courseCode": "jpd133",
+    "questionType": "standalone",
+    "topic": "grammar",
+    "level": "N5",
+    "questionText": "私は 日本語（　）電話（でんわ）（　）かけること（　）できません。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd133-question-129",
+    "courseCode": "jpd133",
+    "questionType": "standalone",
+    "topic": "grammar",
+    "level": "N5",
+    "questionText": "昨日（きのう）、友達（ともだち）に（　）、買い物（かいもの）（　）、食事（しょくじ）しました。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd133-question-130",
+    "courseCode": "jpd133",
+    "questionType": "standalone",
+    "topic": "grammar",
+    "level": "N5",
+    "questionText": "私は あまり料理（りょうり）を（　）。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd133-question-131",
+    "courseCode": "jpd133",
+    "questionType": "standalone",
+    "topic": "grammar",
+    "level": "N5",
+    "questionText": "あそこで 買い物（かいもの）が（　）。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd133-question-132",
+    "courseCode": "jpd133",
+    "questionType": "standalone",
+    "topic": "grammar",
+    "level": "N5",
+    "questionText": "水（みず）の音（おと）（　）（　）。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd133-question-133",
+    "courseCode": "jpd133",
+    "questionType": "standalone",
+    "topic": "grammar",
+    "level": "N5",
+    "questionText": "（　）とき、テニスを始めました。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd133-question-134",
+    "courseCode": "jpd133",
+    "questionType": "standalone",
+    "topic": "grammar",
+    "level": "N5",
+    "questionText": "（　）とき、本（ほん）を 読みます。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd133-question-135",
+    "courseCode": "jpd133",
+    "questionType": "standalone",
+    "topic": "grammar",
+    "level": "N5",
+    "questionText": "学校（　）休みたいとき、どうしますか。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd133-question-136",
+    "courseCode": "jpd133",
+    "questionType": "standalone",
+    "topic": "grammar",
+    "level": "N5",
+    "questionText": "趣味（しゅみ）は 本（ほん）を（　）です。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd133-question-137",
+    "courseCode": "jpd133",
+    "questionType": "standalone",
+    "topic": "grammar",
+    "level": "N5",
+    "questionText": "音楽（おんがく）が（　）。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd133-question-138",
+    "courseCode": "jpd133",
+    "questionType": "standalone",
+    "topic": "grammar",
+    "level": "N5",
+    "questionText": "私（　）ワンさん（　）本（　）あげました。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd133-question-139",
+    "courseCode": "jpd133",
+    "questionType": "standalone",
+    "topic": "grammar",
+    "level": "N5",
+    "questionText": "ナタポンさんは（　）、しんせつです。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd133-question-140",
+    "courseCode": "jpd133",
+    "questionType": "standalone",
+    "topic": "grammar",
+    "level": "N5",
+    "questionText": "リンさんの 先輩（せんぱい）は（　）サッカー（　）上手（じょうず）（　）、背（せ）が高いです。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd133-question-141",
+    "courseCode": "jpd133",
+    "questionType": "standalone",
+    "topic": "grammar",
+    "level": "N5",
+    "questionText": "（　）とき、テニスを始（はじ）めました。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd133-question-142",
+    "courseCode": "jpd133",
+    "questionType": "standalone",
+    "topic": "grammar",
+    "level": "N5",
+    "questionText": "あそこで 買い物が（　）。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd133-question-143",
+    "courseCode": "jpd133",
+    "questionType": "standalone",
+    "topic": "grammar",
+    "level": "N5",
+    "questionText": "先週（せんしゅう）、掃除（そうじ）（　）、勉強（べんきょう）（　）。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd133-question-144",
+    "courseCode": "jpd133",
+    "questionType": "standalone",
+    "topic": "grammar",
+    "level": "N5",
+    "questionText": "母（はは）は（　）、やさしいひとです。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd133-question-145",
+    "courseCode": "jpd133",
+    "questionType": "standalone",
+    "topic": "grammar",
+    "level": "N5",
+    "questionText": "子供（こども）が いますから、たばこを（　）ください。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd133-question-146",
+    "courseCode": "jpd133",
+    "questionType": "standalone",
+    "topic": "grammar",
+    "level": "N5",
+    "questionText": "昨日（きのう）、友達（ともだち）に（　）、買（か）い物（もの）（　）、食事（しょくじ）しました。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd133-question-147",
+    "courseCode": "jpd133",
+    "questionType": "standalone",
+    "topic": "grammar",
+    "level": "N5",
+    "questionText": "兄（あに）は きょうだいで、有名（ゆうめい）な（　）大学（　）勤（つと）めています。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd133-question-148",
+    "courseCode": "jpd133",
+    "questionType": "standalone",
+    "topic": "grammar",
+    "level": "N5",
+    "questionText": "あの交差点（こうさてん）を（　）左（ひだり）（　）曲（ま）がってください。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd133-question-149",
+    "courseCode": "jpd133",
+    "questionType": "standalone",
+    "topic": "grammar",
+    "level": "N5",
+    "questionText": "趣味（しゅみ）は 水泳（すいえい）です。（　）、最近（さいきん）、あまり泳（およ）ぎません。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd133-question-150",
+    "courseCode": "jpd133",
+    "questionType": "standalone",
+    "topic": "grammar",
+    "level": "N5",
+    "questionText": "1週間（しゅうかん）（　）2回（かい）、ピアノ（　）ひきます。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd133-question-151",
+    "courseCode": "jpd133",
+    "questionType": "standalone",
+    "topic": "grammar",
+    "level": "N5",
+    "questionText": "私は ギターを（　）が できません。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd133-question-152",
+    "courseCode": "jpd133",
+    "questionType": "standalone",
+    "topic": "grammar",
+    "level": "N5",
+    "questionText": "となりの 部屋（へや）へ ピアノが（　）。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd133-question-153",
+    "courseCode": "jpd133",
+    "questionType": "standalone",
+    "topic": "grammar",
+    "level": "N5",
+    "questionText": "この かばんは 高（たか）い（　）、きれいじゃない。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd133-question-154",
+    "courseCode": "jpd133",
+    "questionType": "standalone",
+    "topic": "grammar",
+    "level": "N5",
+    "questionText": "電話（でんわ）（　）地下鉄（ちかてつ）の外（そと）（　）使（つか）ってください。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd133-question-155",
+    "courseCode": "jpd133",
+    "questionType": "standalone",
+    "topic": "vocabulary",
+    "level": "N5",
+    "questionText": "明日の（　　　）に参加しませんか。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd133-question-156",
+    "courseCode": "jpd133",
+    "questionType": "standalone",
+    "topic": "vocabulary",
+    "level": "N5",
+    "questionText": "（　　　）がにひきいます。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd133-question-157",
+    "courseCode": "jpd133",
+    "questionType": "standalone",
+    "topic": "vocabulary",
+    "level": "N5",
+    "questionText": "一日にたばこを（　　　）吸います。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd133-question-158",
+    "courseCode": "jpd133",
+    "questionType": "standalone",
+    "topic": "vocabulary",
+    "level": "N5",
+    "questionText": "私は両親に（　　　）します。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd133-question-159",
+    "courseCode": "jpd133",
+    "questionType": "standalone",
+    "topic": "vocabulary",
+    "level": "N5",
+    "questionText": "マリヤムさんは私の（　　　）です。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd133-question-160",
+    "courseCode": "jpd133",
+    "questionType": "standalone",
+    "topic": "vocabulary",
+    "level": "N5",
+    "questionText": "ダニエルさんは（　　　）で、病院で働いています。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd133-question-161",
+    "courseCode": "jpd133",
+    "questionType": "standalone",
+    "topic": "vocabulary",
+    "level": "N5",
+    "questionText": "明日、（　　　）テストがありますから、今晩９時に寝ます。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd133-question-162",
+    "courseCode": "jpd133",
+    "questionType": "standalone",
+    "topic": "vocabulary",
+    "level": "N5",
+    "questionText": "（　　）図書館で勉強しています。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd133-question-163",
+    "courseCode": "jpd133",
+    "questionType": "standalone",
+    "topic": "vocabulary",
+    "level": "N5",
+    "questionText": "テレビで（　　　）の試合を見ました。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd133-question-164",
+    "courseCode": "jpd133",
+    "questionType": "standalone",
+    "topic": "vocabulary",
+    "level": "N5",
+    "questionText": "（　　　）の信号を右に曲がってください。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd133-question-165",
+    "courseCode": "jpd133",
+    "questionType": "standalone",
+    "topic": "vocabulary",
+    "level": "N5",
+    "questionText": "（　　　）を買ってきます。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd133-question-166",
+    "courseCode": "jpd133",
+    "questionType": "standalone",
+    "topic": "vocabulary",
+    "level": "N5",
+    "questionText": "私はルームメイトと四人で住（す）んでいます。質問（しつもん）：ルームメイトは何人いますか。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd133-question-167",
+    "courseCode": "jpd133",
+    "questionType": "standalone",
+    "topic": "vocabulary",
+    "level": "N5",
+    "questionText": "ワンさんは顔（かお）が（　　）です。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd133-question-168",
+    "courseCode": "jpd133",
+    "questionType": "standalone",
+    "topic": "vocabulary",
+    "level": "N5",
+    "questionText": "私は両親（りょうしん）に（　　）します。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd133-question-169",
+    "courseCode": "jpd133",
+    "questionType": "standalone",
+    "topic": "vocabulary",
+    "level": "N5",
+    "questionText": "西川（にしかわ）さんは二十二才（にじゅうにさい）です。西川さんの（　　）は高校生（こうこうせい）です。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd133-question-170",
+    "courseCode": "jpd133",
+    "questionType": "standalone",
+    "topic": "vocabulary",
+    "level": "N5",
+    "questionText": "1か月に2回（かい）、料理教室（りょうりきょうしつ）に（　　）います。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd133-question-171",
+    "courseCode": "jpd133",
+    "questionType": "standalone",
+    "topic": "vocabulary",
+    "level": "N5",
+    "questionText": "ダニエルさんは（　）で、病院（びょういん）で働（はたら）いています。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd133-question-172",
+    "courseCode": "jpd133",
+    "questionType": "standalone",
+    "topic": "vocabulary",
+    "level": "N5",
+    "questionText": "私は姉に（　）をあげます。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd133-question-173",
+    "courseCode": "jpd133",
+    "questionType": "standalone",
+    "topic": "vocabulary",
+    "level": "N5",
+    "questionText": "一日にコーヒーを（　）飲（の）みます。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd133-question-174",
+    "courseCode": "jpd133",
+    "questionType": "standalone",
+    "topic": "vocabulary",
+    "level": "N5",
+    "questionText": "ときどき、（　）映画を見ます。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd133-question-175",
+    "courseCode": "jpd133",
+    "questionType": "standalone",
+    "topic": "vocabulary",
+    "level": "N5",
+    "questionText": "一日にたばこを（　）吸（す）います。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd133-question-176",
+    "courseCode": "jpd133",
+    "questionType": "standalone",
+    "topic": "vocabulary",
+    "level": "N5",
+    "questionText": "おなかが（　）ですから、何も食べたくないです。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd133-question-177",
+    "courseCode": "jpd133",
+    "questionType": "standalone",
+    "topic": "vocabulary",
+    "level": "N5",
+    "questionText": "道を（　）ください。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd133-question-178",
+    "courseCode": "jpd133",
+    "questionType": "standalone",
+    "topic": "vocabulary",
+    "level": "N5",
+    "questionText": "のどが（　）ね。じゃあ、あの喫茶店（きっさてん）に入りましょう。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd133-question-179",
+    "courseCode": "jpd133",
+    "questionType": "standalone",
+    "topic": "vocabulary",
+    "level": "N5",
+    "questionText": "（　）の信号（しんごう）を右に曲（ま）がってください。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd133-question-180",
+    "courseCode": "jpd133",
+    "questionType": "standalone",
+    "topic": "vocabulary",
+    "level": "N5",
+    "questionText": "けしゴムでこの漢字（かんじ）を（　）ください。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd133-question-181",
+    "courseCode": "jpd133",
+    "questionType": "standalone",
+    "topic": "vocabulary",
+    "level": "N5",
+    "questionText": "テレビで（　）の試合（しあい）を見ました。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd133-question-182",
+    "courseCode": "jpd133",
+    "questionType": "standalone",
+    "topic": "vocabulary",
+    "level": "N5",
+    "questionText": "毎朝、（　）をしています。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd133-question-183",
+    "courseCode": "jpd133",
+    "questionType": "standalone",
+    "topic": "vocabulary",
+    "level": "N5",
+    "questionText": "（　）の生活（せいかつ）はどうですか。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd133-question-184",
+    "courseCode": "jpd133",
+    "questionType": "standalone",
+    "topic": "vocabulary",
+    "level": "N5",
+    "questionText": "山口（やまぐち）さんの（　）は東京に住（す）んでいます。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd133-question-185",
+    "courseCode": "jpd133",
+    "questionType": "standalone",
+    "topic": "vocabulary",
+    "level": "N5",
+    "questionText": "1週間（しゅうかん）に3回（かい）、韓国語教室（かんこくごきょうしつ）に（　）います。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd133-question-186",
+    "courseCode": "jpd133",
+    "questionType": "standalone",
+    "topic": "vocabulary",
+    "level": "N5",
+    "questionText": "マリアさんはお姉さんと二人で住（す）んでいます。質問：マリアさんのお姉さんは何人いますか。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd133-question-187",
+    "courseCode": "jpd133",
+    "questionType": "standalone",
+    "topic": "vocabulary",
+    "level": "N5",
+    "questionText": "アンナさんは（　）が高いです。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd133-question-188",
+    "courseCode": "jpd133",
+    "questionType": "standalone",
+    "topic": "vocabulary",
+    "level": "N5",
+    "questionText": "山田（やまだ）さんは あの（　）人です。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd133-question-189",
+    "courseCode": "jpd133",
+    "questionType": "standalone",
+    "topic": "vocabulary",
+    "level": "N5",
+    "questionText": "私は 両親（りょうしん）に（　）します。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd133-question-190",
+    "courseCode": "jpd133",
+    "questionType": "standalone",
+    "topic": "vocabulary",
+    "level": "N5",
+    "questionText": "1か月に 2回、料理教室（りょうりきょうしつ）に（　）います。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd133-question-191",
+    "courseCode": "jpd133",
+    "questionType": "standalone",
+    "topic": "vocabulary",
+    "level": "N5",
+    "questionText": "明日（あした）、（　）テストがありますから、今晩（こんばん）9時に寝（ね）ます。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd133-question-192",
+    "courseCode": "jpd133",
+    "questionType": "standalone",
+    "topic": "vocabulary",
+    "level": "N5",
+    "questionText": "バスの時間を（　）きます。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd133-question-193",
+    "courseCode": "jpd133",
+    "questionType": "standalone",
+    "topic": "vocabulary",
+    "level": "N5",
+    "questionText": "ランさんは 髪（かみ）が（　）ですね。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd133-question-194",
+    "courseCode": "jpd133",
+    "questionType": "standalone",
+    "topic": "vocabulary",
+    "level": "N5",
+    "questionText": "山田さんは あの（　）人です。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd133-question-195",
+    "courseCode": "jpd133",
+    "questionType": "standalone",
+    "topic": "vocabulary",
+    "level": "N5",
+    "questionText": "趣味（しゅみ）は 切手（きって）を（　）ことです。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd133-question-196",
+    "courseCode": "jpd133",
+    "questionType": "standalone",
+    "topic": "vocabulary",
+    "level": "N5",
+    "questionText": "道（みち）を（　）ください。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd133-question-197",
+    "courseCode": "jpd133",
+    "questionType": "standalone",
+    "topic": "vocabulary",
+    "level": "N5",
+    "questionText": "（　）図書館で 勉強（べんきょう）しています。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd133-question-198",
+    "courseCode": "jpd133",
+    "questionType": "standalone",
+    "topic": "vocabulary",
+    "level": "N5",
+    "questionText": "（　）は 簡単（かんたん）でしたが、（　）難（むずか）しくなりました。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd133-question-199",
+    "courseCode": "jpd133",
+    "questionType": "standalone",
+    "topic": "vocabulary",
+    "level": "N5",
+    "questionText": "パクさんは ワンさんに（　）を あげます。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd133-question-200",
+    "courseCode": "jpd133",
+    "questionType": "standalone",
+    "topic": "vocabulary",
+    "level": "N5",
+    "questionText": "明日（あした）、一緒（いっしょ）に（　）に行きませんか。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd133-question-201",
+    "courseCode": "jpd133",
+    "questionType": "standalone",
+    "topic": "vocabulary",
+    "level": "N5",
+    "questionText": "（　）が 二匹（にひき）います。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd133-question-202",
+    "courseCode": "jpd133",
+    "questionType": "standalone",
+    "topic": "vocabulary",
+    "level": "N5",
+    "questionText": "「兄（あに）の こいびとは 日本語（にほんご）が 上手（じょうず）です。」",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd133-question-203",
+    "courseCode": "jpd133",
+    "questionType": "standalone",
+    "topic": "vocabulary",
+    "level": "N5",
+    "questionText": "私は 姉（あね）に（　）を あげます。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd133-question-204",
+    "courseCode": "jpd133",
+    "questionType": "standalone",
+    "topic": "vocabulary",
+    "level": "N5",
+    "questionText": "一日に コーヒーを（　）飲みます。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd133-question-205",
+    "courseCode": "jpd133",
+    "questionType": "standalone",
+    "topic": "vocabulary",
+    "level": "N5",
+    "questionText": "クリスマス、お父（とう）さんに（　）を もらいました。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd133-question-206",
+    "courseCode": "jpd133",
+    "questionType": "standalone",
+    "topic": "vocabulary",
+    "level": "N5",
+    "questionText": "橋（はし）を（　）ください。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd133-question-207",
+    "courseCode": "jpd133",
+    "questionType": "standalone",
+    "topic": "vocabulary",
+    "level": "N5",
+    "questionText": "のどが（　）ですから、何も飲（の）みたくないです。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd133-question-208",
+    "courseCode": "jpd133",
+    "questionType": "standalone",
+    "topic": "vocabulary",
+    "level": "N5",
+    "questionText": "おとうと、高校（こうこう）の友達（ともだち）に 手紙（てがみ）を（　）。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd133-question-209",
+    "courseCode": "jpd133",
+    "questionType": "standalone",
+    "topic": "vocabulary",
+    "level": "N5",
+    "questionText": "アナさんは（　）が 高（たか）いです。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd133-question-210",
+    "courseCode": "jpd133",
+    "questionType": "standalone",
+    "topic": "conversation",
+    "level": "N5",
+    "questionText": "どうやって飛行機のチケットを予約しますか。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd133-question-211",
+    "courseCode": "jpd133",
+    "questionType": "standalone",
+    "topic": "conversation",
+    "level": "N5",
+    "questionText": "A：ご飯、（　　　）？　B：うん、食べた。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd133-question-212",
+    "courseCode": "jpd133",
+    "questionType": "standalone",
+    "topic": "conversation",
+    "level": "N5",
+    "questionText": "A：どうやって飛行機（ひこうき）のチケットを予約（よやく）しますか。B：（　　）。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd133-question-213",
+    "courseCode": "jpd133",
+    "questionType": "standalone",
+    "topic": "conversation",
+    "level": "N5",
+    "questionText": "A：ご飯（はん）、（　　）？ B：うん、食べた。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd133-question-214",
+    "courseCode": "jpd133",
+    "questionType": "standalone",
+    "topic": "conversation",
+    "level": "N5",
+    "questionText": "【レストランで】すみません、（　）はどちらですか。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd133-question-215",
+    "courseCode": "jpd133",
+    "questionType": "standalone",
+    "topic": "conversation",
+    "level": "N5",
+    "questionText": "A：毎日、大変（たいへん）？ B：ううん、あまり（　　）。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd133-question-216",
+    "courseCode": "jpd133",
+    "questionType": "standalone",
+    "topic": "conversation",
+    "level": "N5",
+    "questionText": "A：Bさん、どうやってコメディのチケットを予約（よやく）しますか。B：（　）。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd133-question-217",
+    "courseCode": "jpd133",
+    "questionType": "standalone",
+    "topic": "conversation",
+    "level": "N5",
+    "questionText": "A：ピアノは どうですか。B：（　）は 簡単（かんたん）でしたが、（　）難（むずか）しくなりました。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd133-question-218",
+    "courseCode": "jpd133",
+    "questionType": "standalone",
+    "topic": "conversation",
+    "level": "N5",
+    "questionText": "パクさん、もう11時ですよ。（　）帰（かえ）りましょう。",
+    "passageId": null
+  },
+  {
+    "id": "exam-jpd133-question-219",
+    "courseCode": "jpd133",
+    "questionType": "standalone",
+    "topic": "reading",
+    "level": "N5",
+    "questionText": "大阪（おおさか）、神戸（こうべ）、京都（きょうと）、奈良（なら）、大阪は大きい町です。ビルや車や人が（①）にぎやかです。神戸と京都と奈良は大阪から近いです。京都と奈良は古いお寺や神社がたくさんありますから、外国人もたくさん遊びに来ます。神戸は古い物があまりありませんが、町の後ろに山が、前に海があって、すてきな町です。若い人は神戸が好きです。",
+    "passageId": "exam-jpd133-passage-1"
+  },
+  {
+    "id": "exam-jpd133-question-220",
+    "courseCode": "jpd133",
+    "questionType": "standalone",
+    "topic": "reading",
+    "level": "N5",
+    "questionText": "どうして京都（きょうと）と奈良（なら）は外国人（がいこくじん）がたくさん遊（あそ）びに来ますか。",
+    "passageId": "exam-jpd133-passage-2"
+  },
+  {
+    "id": "exam-jpd133-question-221",
+    "courseCode": "jpd133",
+    "questionType": "standalone",
+    "topic": "reading",
+    "level": "N5",
+    "questionText": "ダニエルさんへの手紙：今は（①）。",
+    "passageId": "exam-jpd133-passage-3"
+  },
+  {
+    "id": "exam-jpd133-question-222",
+    "courseCode": "jpd133",
+    "questionType": "standalone",
+    "topic": "reading",
+    "level": "N5",
+    "questionText": "若（わか）い人はどこが好きですか。",
+    "passageId": "exam-jpd133-passage-2"
+  },
+  {
+    "id": "exam-jpd133-question-223",
+    "courseCode": "jpd133",
+    "questionType": "standalone",
+    "topic": "reading",
+    "level": "N5",
+    "questionText": "夜はたいてい、うちでテレビを見たり、（②）を読んだりしています。",
+    "passageId": "exam-jpd133-passage-4"
+  },
+  {
+    "id": "exam-jpd133-question-224",
+    "courseCode": "jpd133",
+    "questionType": "standalone",
+    "topic": "reading",
+    "level": "N5",
+    "questionText": "今年（ことし）の6月に学校を（③）して、日本の会社で働（はたら）きます。",
+    "passageId": "exam-jpd133-passage-5"
+  },
+  {
+    "id": "exam-jpd133-question-225",
+    "courseCode": "jpd133",
+    "questionType": "standalone",
+    "topic": "reading",
+    "level": "N5",
+    "questionText": "町田太郎（まちだたろう）さんは いつ 山川（やまかわ）さんに 手紙（てがみ）を書きましたか。",
+    "passageId": "exam-jpd133-passage-6"
+  },
+  {
+    "id": "exam-jpd133-question-226",
+    "courseCode": "jpd133",
+    "questionType": "standalone",
+    "topic": "reading",
+    "level": "N5",
+    "questionText": "文（ぶん）の（②）に何を入れますか。",
+    "passageId": "exam-jpd133-passage-6"
+  },
+  {
+    "id": "exam-jpd133-question-227",
+    "courseCode": "jpd133",
+    "questionType": "standalone",
+    "topic": "reading",
+    "level": "N5",
+    "questionText": "文（ぶん）の（①）に何を入れますか。",
+    "passageId": "exam-jpd133-passage-6"
+  },
+  {
+    "id": "exam-jpd133-question-228",
+    "courseCode": "jpd133",
+    "questionType": "standalone",
+    "topic": "reading",
+    "level": "N5",
+    "questionText": "どうして この人（ひと）のおばあちゃんは 天気（てんき）がいい時（とき）、病院（びょういん）に行きますか。",
+    "passageId": "exam-jpd133-passage-7"
+  },
+  {
+    "id": "exam-jpd133-question-229",
+    "courseCode": "jpd133",
+    "questionType": "standalone",
+    "topic": "reading",
+    "level": "N5",
+    "questionText": "この人の仕事（しごと）は何ですか。",
+    "passageId": "exam-jpd133-passage-8"
+  },
+  {
+    "id": "exam-jpd133-question-230",
+    "courseCode": "jpd133",
+    "questionType": "standalone",
+    "topic": "reading",
+    "level": "N5",
+    "questionText": "この人はだれですか。",
+    "passageId": "exam-jpd133-passage-8"
+  },
+  {
+    "id": "exam-jpd133-question-231",
+    "courseCode": "jpd133",
+    "questionType": "standalone",
+    "topic": "reading",
+    "level": "N5",
+    "questionText": "この人は結婚（けっこん）していますか。",
+    "passageId": "exam-jpd133-passage-8"
+  }
+]

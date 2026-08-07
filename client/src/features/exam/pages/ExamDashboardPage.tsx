@@ -41,7 +41,7 @@ export const ExamDashboardPage = () => {
           Luyện thi <span className="text-blue-600">試験</span>
         </h1>
         <p className="text-sm font-bold text-text-secondary uppercase tracking-widest mt-1">
-          JPD113 / JPD123 EXAM PRACTICE
+          JPD113 / JPD123 / JPD133 EXAM PRACTICE
         </p>
       </div>
 
@@ -79,8 +79,11 @@ export const ExamDashboardPage = () => {
       <div className="grid max-w-[54.6rem] grid-cols-1 gap-3 md:grid-cols-2">
         {courses.map((course) => {
           const isLocked = course.isLocked;
-          const isJpd113 = course.code === 'jpd113';
-          const cardTone = isJpd113 ? 'jp-course-card--113' : 'jp-course-card--123';
+          const cardTone = course.code === 'jpd113'
+            ? 'jp-course-card--113'
+            : course.code === 'jpd133'
+              ? 'jp-course-card--133'
+              : 'jp-course-card--123';
 
           return (
             <div

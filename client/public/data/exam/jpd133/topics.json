@@ -1,0 +1,32 @@
+[
+  {
+    "topic": "kanji",
+    "label": "Hán tự",
+    "questionCount": 56
+  },
+  {
+    "topic": "grammar",
+    "label": "Ngữ pháp",
+    "questionCount": 98
+  },
+  {
+    "topic": "vocabulary",
+    "label": "Từ vựng",
+    "questionCount": 55
+  },
+  {
+    "topic": "conversation",
+    "label": "Giao tiếp",
+    "questionCount": 9
+  },
+  {
+    "topic": "odd_one_out",
+    "label": "Khác loại",
+    "questionCount": 0
+  },
+  {
+    "topic": "reading",
+    "label": "Đọc hiểu",
+    "questionCount": 13
+  }
+]
