@@ -95,13 +95,58 @@ const readingLessons = lessons.flatMap((lesson) => lesson.texts.map(([jp, vi, ro
   sentences: [{ jp, vi, romaji }, ...supportingSentences[lesson.id].map(([supportingJp, supportingVi, supportingRomaji]) => ({ jp: supportingJp, vi: supportingVi, romaji: supportingRomaji }))],
 })));
 
+const mixedTitles = [
+  'Một ngày của gia đình', 'Nhà và sở thích', 'Cuối tuần cùng bạn', 'Đi học và đi làm', 'Một chuyến đi ngắn',
+  'Món quà và kỷ niệm', 'Âm nhạc trong cuộc sống', 'Đường đến thư viện', 'Gia đình và thú cưng', 'Bữa tối cùng nhau',
+  'Thành phố tôi sống', 'Ngày nghỉ vui vẻ', 'Học tập và công việc', 'Mua sắm cuối tuần', 'Một buổi sáng bận rộn',
+  'Bạn bè và gia đình', 'Đi tàu đến trường', 'Sở thích mới', 'Một ngày ở công viên', 'Nấu ăn cùng mẹ',
+  'Học tiếng Nhật', 'Đi chơi với bạn', 'Ngôi nhà yên tĩnh', 'Kế hoạch ngày mai', 'Cuộc sống hằng ngày',
+];
+const mixedLessons = Array.from({ length: 25 }, (_, index) => {
+  const sourceSentences = lessons.map((lesson) => lesson.texts[index]);
+  const texts = [
+    ...sourceSentences.map((sentences) => sentences[0]),
+    ...sourceSentences.map((sentences) => sentences[1]),
+    sourceSentences[0],
+    sourceSentences[1],
+  ];
+  return {
+    id: 801 + index,
+    orderIndex: index + 1,
+    topic: 'Tổng hợp Bài 8–11',
+    title: `R${String(index + 1).padStart(3, '0')} - ${mixedTitles[index]}`,
+    subtitle: 'Đọc tổng hợp ngữ pháp và từ vựng JPD133 Bài 8–11.',
+    summary: 'Đoạn đọc trộn các mẫu Vています, ことです, できます, てもいい và とき trong sinh hoạt đời sống.',
+    lessonType: 'reading',
+    sentences: texts.map(([jp, vi, romaji]) => ({ jp, vi, romaji })),
+  };
+});
+
 const importFile = {
-  courseCode: 'jpd133', accessTier: 'premium', packageCode: 'speaking_jpd133', lessons: readingLessons,
+  courseCode: 'jpd133', accessTier: 'premium', packageCode: 'speaking_jpd133', lessons: mixedLessons,
 };
 await mkdir(path.join(root, 'server/JPLearn.Infrastructure/Data/Imports/speaking'), { recursive: true });
 await writeFile(path.join(root, 'server/JPLearn.Infrastructure/Data/Imports/speaking/jpd133.lessons.json'), `${JSON.stringify(importFile, null, 2)}\n`, 'utf8');
 await mkdir(path.join(root, 'docs/JPD133/Resource/JPD133_LuyệnDọcĐoạnVawn'), { recursive: true });
-const lessonMarkdown = (lesson) => lesson.texts.map(([jp, vi, romaji], index) => toMarkdown({ ...lesson, titles: [lesson.titles[index]], texts: [[jp, vi, romaji], ...supportingSentences[lesson.id]] })).join('\n');
-for (const lesson of lessons) await writeFile(path.join(root, `docs/JPD133/Resource/JPD133_LuyệnDọcĐoạnVawn/JPD133_Reading_Bai${lesson.id}.md`), lessonMarkdown(lesson), 'utf8');
-await writeFile(path.join(root, 'docs/JPD133/Resource/JPD133_LuyệnDọcĐoạnVawn/JPD133_Reading_Full.md'), lessons.map(lessonMarkdown).join('\n---\n\n'), 'utf8');
-console.log('Generated 100 JPD133 reading passages: 25 per lesson.');
+const mixedMarkdown = mixedLessons.map((lesson) => [
+  `## ${lesson.title}`,
+  '',
+  '### Đoạn văn tiếng Nhật',
+  '```text',
+  lesson.sentences.map((sentence) => sentence.jp).join('\n'),
+  '```',
+  '',
+  '### Romaji',
+  '```text',
+  lesson.sentences.map((sentence) => sentence.romaji).join('\n'),
+  '```',
+  '',
+  '### Dịch tiếng Việt',
+  lesson.sentences.map((sentence) => `- ${sentence.vi}`).join('\n'),
+  '',
+  '### Ghi chú',
+  'Đoạn đọc tổng hợp, kết hợp ngữ pháp và từ vựng Bài 8–11.',
+  '',
+].join('\n')).join('\n---\n\n');
+await writeFile(path.join(root, 'docs/JPD133/Resource/JPD133_LuyệnDọcĐoạnVawn/JPD133_Reading_Mixed.md'), `# JPD133 Reading tổng hợp Bài 8–11\n\n${mixedMarkdown}\n`, 'utf8');
+console.log('Generated 25 mixed JPD133 reading lessons with 10 sentences each.');
