@@ -1,0 +1,124 @@
+[
+  {
+    "id": "77777777-1133-0003-0000-000000814001",
+    "patternId": "77777777-1133-0001-0000-000000008005",
+    "exerciseType": "ja_to_vi",
+    "prompt": "犬が一匹います。",
+    "promptReading": "いぬがいっぴきいます。",
+    "expectedAnswer": "Tôi có một con chó.",
+    "hint": "～が（～匹）います",
+    "explanation": "が: đối tượng tồn tại; います: dùng cho sinh vật N（人）が～人います dùng cho người. Không dùng あります với chó/mèo trong ngữ pháp cơ bản này.",
+    "orderIndex": 1
+  },
+  {
+    "id": "77777777-1133-0003-0000-000000824001",
+    "patternId": "77777777-1133-0001-0000-000000008005",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Tôi có một con chó.",
+    "expectedAnswer": "犬が一匹います。",
+    "acceptableAnswers": [
+      "いぬがいっぴきいます。"
+    ],
+    "hint": "一匹（いっぴき）/ 二匹（にひき）/ 三匹（さんびき）...",
+    "explanation": "が: đối tượng tồn tại; います: dùng cho sinh vật N（人）が～人います dùng cho người. Không dùng あります với chó/mèo trong ngữ pháp cơ bản này.",
+    "orderIndex": 2
+  },
+  {
+    "id": "77777777-1133-0003-0000-000000834001",
+    "patternId": "77777777-1133-0001-0000-000000008005",
+    "exerciseType": "arrange",
+    "prompt": "Tôi có một con chó.",
+    "expectedAnswer": "犬 (いぬ)が一匹います (いっぴきいます)",
+    "optionsJson": "[\"が\",\"犬 (いぬ)\",\"一匹います (いっぴきいます)\"]",
+    "options": [
+      "が",
+      "犬 (いぬ)",
+      "一匹います (いっぴきいます)"
+    ],
+    "correctOrderJson": "[\"犬 (いぬ)\",\"が\",\"一匹います (いっぴきいます)\"]",
+    "correctOrder": [
+      "犬 (いぬ)",
+      "が",
+      "一匹います (いっぴきいます)"
+    ],
+    "orderIndex": 3
+  },
+  {
+    "id": "77777777-1133-0003-0000-000000814002",
+    "patternId": "77777777-1133-0001-0000-000000008005",
+    "exerciseType": "ja_to_vi",
+    "prompt": "猫が二匹います。",
+    "promptReading": "ねこがにひきいます。",
+    "expectedAnswer": "Tôi có hai con mèo.",
+    "hint": "～が（～匹）います",
+    "explanation": "が: đối tượng tồn tại; います: dùng cho sinh vật N（人）が～人います dùng cho người. Không dùng あります với chó/mèo trong ngữ pháp cơ bản này.",
+    "orderIndex": 4
+  },
+  {
+    "id": "77777777-1133-0003-0000-000000824002",
+    "patternId": "77777777-1133-0001-0000-000000008005",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Tôi có hai con mèo.",
+    "expectedAnswer": "猫が二匹います。",
+    "acceptableAnswers": [
+      "ねこがにひきいます。"
+    ],
+    "hint": "一匹（いっぴき）/ 二匹（にひき）/ 三匹（さんびき）...",
+    "explanation": "が: đối tượng tồn tại; います: dùng cho sinh vật N（人）が～人います dùng cho người. Không dùng あります với chó/mèo trong ngữ pháp cơ bản này.",
+    "orderIndex": 5
+  },
+  {
+    "id": "77777777-1133-0003-0000-000000834002",
+    "patternId": "77777777-1133-0001-0000-000000008005",
+    "exerciseType": "arrange",
+    "prompt": "Tôi có hai con mèo.",
+    "expectedAnswer": "猫 (ねこ)が二匹います (にひきいます)",
+    "optionsJson": "[\"が\",\"猫 (ねこ)\",\"二匹います (にひきいます)\"]",
+    "options": [
+      "が",
+      "猫 (ねこ)",
+      "二匹います (にひきいます)"
+    ],
+    "correctOrderJson": "[\"猫 (ねこ)\",\"が\",\"二匹います (にひきいます)\"]",
+    "correctOrder": [
+      "猫 (ねこ)",
+      "が",
+      "二匹います (にひきいます)"
+    ],
+    "orderIndex": 6
+  },
+  {
+    "id": "77777777-1133-0003-0000-000000844001",
+    "patternId": "77777777-1133-0001-0000-000000008005",
+    "exerciseType": "vi_to_ja",
+    "prompt": "犬が（　）います。",
+    "expectedAnswer": "一匹",
+    "acceptableAnswers": [],
+    "acceptableAnswersJson": "[]",
+    "hint": "",
+    "explanation": "Động vật nhỏ như chó, mèo dùng lượng từ 匹; một con là 一匹（いっぴき）.",
+    "options": [
+      "一人",
+      "一冊",
+      "一匹",
+      "一本"
+    ],
+    "optionsJson": "[\"一人\",\"一冊\",\"一匹\",\"一本\"]",
+    "correctOrder": [],
+    "orderIndex": 1
+  },
+  {
+    "id": "77777777-1133-0003-0000-000000844002",
+    "patternId": "77777777-1133-0001-0000-000000008005",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Tôi có hai con mèo.",
+    "expectedAnswer": "猫が二匹います。",
+    "acceptableAnswers": [],
+    "acceptableAnswersJson": "[]",
+    "hint": "",
+    "explanation": "",
+    "options": [],
+    "correctOrder": [],
+    "orderIndex": 2
+  }
+]

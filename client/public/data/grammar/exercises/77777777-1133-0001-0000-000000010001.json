@@ -1,0 +1,364 @@
+[
+  {
+    "id": "77777777-1133-0003-0000-000001010001",
+    "patternId": "77777777-1133-0001-0000-000000010001",
+    "exerciseType": "ja_to_vi",
+    "prompt": "もうあさごはんをたべましたか。",
+    "promptReading": "もうあさごはんをたべましたか。",
+    "expectedAnswer": "Bạn đã ăn sáng chưa?",
+    "hint": "もう Vましたか",
+    "explanation": "Trợ từ phụ thuộc động từ まだVていません diễn tả 'vẫn chưa'; もうVましたか là câu hỏi 'đã... chưa'. Không trả lời 'chưa' bằng まだVません trong mẫu được dạy; dùng まだVていません.",
+    "orderIndex": 1
+  },
+  {
+    "id": "77777777-1133-0003-0000-000001020001",
+    "patternId": "77777777-1133-0001-0000-000000010001",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Bạn đã ăn sáng chưa?",
+    "expectedAnswer": "もうあさごはんをたべましたか。",
+    "acceptableAnswers": [
+      "もうあさごはんをたべましたか。"
+    ],
+    "hint": "もう食べましたか / もう行きましたか",
+    "explanation": "Trợ từ phụ thuộc động từ まだVていません diễn tả 'vẫn chưa'; もうVましたか là câu hỏi 'đã... chưa'. Không trả lời 'chưa' bằng まだVません trong mẫu được dạy; dùng まだVていません.",
+    "orderIndex": 2
+  },
+  {
+    "id": "77777777-1133-0003-0000-000001030001",
+    "patternId": "77777777-1133-0001-0000-000000010001",
+    "exerciseType": "arrange",
+    "prompt": "Bạn đã ăn sáng chưa?",
+    "expectedAnswer": "もうあさごはんをたべましたか",
+    "optionsJson": "[\"は\",\"も\",\"を\",\"ん\",\"うあさご\",\"たべましたか\"]",
+    "options": [
+      "は",
+      "も",
+      "を",
+      "ん",
+      "うあさご",
+      "たべましたか"
+    ],
+    "correctOrderJson": "[\"も\",\"うあさご\",\"は\",\"ん\",\"を\",\"たべましたか\"]",
+    "correctOrder": [
+      "も",
+      "うあさご",
+      "は",
+      "ん",
+      "を",
+      "たべましたか"
+    ],
+    "orderIndex": 3
+  },
+  {
+    "id": "77777777-1133-0003-0000-000001010002",
+    "patternId": "77777777-1133-0001-0000-000000010001",
+    "exerciseType": "ja_to_vi",
+    "prompt": "もう日本へ行きましたか。",
+    "promptReading": "もうにほんへいきましたか。",
+    "expectedAnswer": "Bạn đã đi Nhật chưa?",
+    "hint": "もう Vましたか",
+    "explanation": "Trợ từ phụ thuộc động từ まだVていません diễn tả 'vẫn chưa'; もうVましたか là câu hỏi 'đã... chưa'. Không trả lời 'chưa' bằng まだVません trong mẫu được dạy; dùng まだVていません.",
+    "orderIndex": 4
+  },
+  {
+    "id": "77777777-1133-0003-0000-000001020002",
+    "patternId": "77777777-1133-0001-0000-000000010001",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Bạn đã đi Nhật chưa?",
+    "expectedAnswer": "もう日本へ行きましたか。",
+    "acceptableAnswers": [
+      "もうにほんへいきましたか。"
+    ],
+    "hint": "もう食べましたか / もう行きましたか",
+    "explanation": "Trợ từ phụ thuộc động từ まだVていません diễn tả 'vẫn chưa'; もうVましたか là câu hỏi 'đã... chưa'. Không trả lời 'chưa' bằng まだVません trong mẫu được dạy; dùng まだVていません.",
+    "orderIndex": 5
+  },
+  {
+    "id": "77777777-1133-0003-0000-000001030002",
+    "patternId": "77777777-1133-0001-0000-000000010001",
+    "exerciseType": "arrange",
+    "prompt": "Bạn đã đi Nhật chưa?",
+    "expectedAnswer": "もう日本 (もうにほん)へ行きましたか (いきましたか)",
+    "optionsJson": "[\"へ\",\"も\",\"う日本 (もうにほん)\",\"行きましたか (いきましたか)\"]",
+    "options": [
+      "へ",
+      "も",
+      "う日本 (もうにほん)",
+      "行きましたか (いきましたか)"
+    ],
+    "correctOrderJson": "[\"も\",\"う日本 (もうにほん)\",\"へ\",\"行きましたか (いきましたか)\"]",
+    "correctOrder": [
+      "も",
+      "う日本 (もうにほん)",
+      "へ",
+      "行きましたか (いきましたか)"
+    ],
+    "orderIndex": 6
+  },
+  {
+    "id": "77777777-1133-0003-0000-000001040001",
+    "patternId": "77777777-1133-0001-0000-000000010001",
+    "exerciseType": "vi_to_ja",
+    "prompt": "（　）朝ごはんを食べましたか。",
+    "expectedAnswer": "もう",
+    "acceptableAnswers": [],
+    "acceptableAnswersJson": "[]",
+    "hint": "",
+    "explanation": "もうVましたか hỏi “đã… chưa?”.",
+    "options": [
+      "まだ",
+      "もう",
+      "全然",
+      "よく"
+    ],
+    "optionsJson": "[\"まだ\",\"もう\",\"全然\",\"よく\"]",
+    "correctOrder": [],
+    "orderIndex": 1
+  },
+  {
+    "id": "77777777-1133-0003-0000-000001040002",
+    "patternId": "77777777-1133-0001-0000-000000010001",
+    "exerciseType": "vi_to_ja",
+    "prompt": "この道（　）まっすぐ行ってください。",
+    "expectedAnswer": "を",
+    "acceptableAnswers": [],
+    "acceptableAnswersJson": "[]",
+    "hint": "",
+    "explanation": "Không gian/tuyến đường đi qua dùng を.",
+    "options": [
+      "を",
+      "に",
+      "が",
+      "と"
+    ],
+    "optionsJson": "[\"を\",\"に\",\"が\",\"と\"]",
+    "correctOrder": [],
+    "orderIndex": 2
+  },
+  {
+    "id": "77777777-1133-0003-0000-000001040003",
+    "patternId": "77777777-1133-0001-0000-000000010001",
+    "exerciseType": "arrange",
+    "prompt": "食べましたか / もう / 朝ごはんを",
+    "expectedAnswer": "もう朝ごはんを食べましたか。",
+    "acceptableAnswers": [],
+    "acceptableAnswersJson": "[]",
+    "hint": "",
+    "explanation": "",
+    "options": [
+      "食べましたか",
+      "もう",
+      "朝ごはんを"
+    ],
+    "optionsJson": "[\"食べましたか\",\"もう\",\"朝ごはんを\"]",
+    "correctOrder": [
+      "もう",
+      "朝ごはんを",
+      "食べましたか"
+    ],
+    "correctOrderJson": "[\"もう\",\"朝ごはんを\",\"食べましたか\"]",
+    "orderIndex": 3
+  },
+  {
+    "id": "77777777-1133-0003-0000-000001040004",
+    "patternId": "77777777-1133-0001-0000-000000010001",
+    "exerciseType": "arrange",
+    "prompt": "食べていません / まだ / 昼ごはんを",
+    "expectedAnswer": "まだ昼ごはんを食べていません。",
+    "acceptableAnswers": [],
+    "acceptableAnswersJson": "[]",
+    "hint": "",
+    "explanation": "",
+    "options": [
+      "食べていません",
+      "まだ",
+      "昼ごはんを"
+    ],
+    "optionsJson": "[\"食べていません\",\"まだ\",\"昼ごはんを\"]",
+    "correctOrder": [
+      "まだ",
+      "昼ごはんを",
+      "食べていません"
+    ],
+    "correctOrderJson": "[\"まだ\",\"昼ごはんを\",\"食べていません\"]",
+    "orderIndex": 4
+  },
+  {
+    "id": "77777777-1133-0003-0000-000001040005",
+    "patternId": "77777777-1133-0001-0000-000000010001",
+    "exerciseType": "arrange",
+    "prompt": "座っても / ここに / いいですか",
+    "expectedAnswer": "ここに座ってもいいですか。",
+    "acceptableAnswers": [],
+    "acceptableAnswersJson": "[]",
+    "hint": "",
+    "explanation": "",
+    "options": [
+      "座っても",
+      "ここに",
+      "いいですか"
+    ],
+    "optionsJson": "[\"座っても\",\"ここに\",\"いいですか\"]",
+    "correctOrder": [
+      "ここに",
+      "座っても",
+      "いいですか"
+    ],
+    "correctOrderJson": "[\"ここに\",\"座っても\",\"いいですか\"]",
+    "orderIndex": 5
+  },
+  {
+    "id": "77777777-1133-0003-0000-000001040006",
+    "patternId": "77777777-1133-0001-0000-000000010001",
+    "exerciseType": "arrange",
+    "prompt": "なりました / 寒く",
+    "expectedAnswer": "寒くなりました。",
+    "acceptableAnswers": [],
+    "acceptableAnswersJson": "[]",
+    "hint": "",
+    "explanation": "",
+    "options": [
+      "なりました",
+      "寒く"
+    ],
+    "optionsJson": "[\"なりました\",\"寒く\"]",
+    "correctOrder": [
+      "寒く",
+      "なりました"
+    ],
+    "correctOrderJson": "[\"寒く\",\"なりました\"]",
+    "orderIndex": 6
+  },
+  {
+    "id": "77777777-1133-0003-0000-000001040007",
+    "patternId": "77777777-1133-0001-0000-000000010001",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Bạn đã ăn sáng chưa?",
+    "expectedAnswer": "もう朝ごはんを食べましたか。",
+    "acceptableAnswers": [],
+    "acceptableAnswersJson": "[]",
+    "hint": "",
+    "explanation": "",
+    "options": [],
+    "correctOrder": [],
+    "orderIndex": 7
+  },
+  {
+    "id": "77777777-1133-0003-0000-000001040008",
+    "patternId": "77777777-1133-0001-0000-000000010001",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Tôi vẫn chưa ăn trưa.",
+    "expectedAnswer": "まだ昼ごはんを食べていません。",
+    "acceptableAnswers": [],
+    "acceptableAnswersJson": "[]",
+    "hint": "",
+    "explanation": "",
+    "options": [],
+    "correctOrder": [],
+    "orderIndex": 8
+  },
+  {
+    "id": "77777777-1133-0003-0000-000001040009",
+    "patternId": "77777777-1133-0001-0000-000000010001",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Tôi ngồi ở đây được không?",
+    "expectedAnswer": "ここに座ってもいいですか。",
+    "acceptableAnswers": [],
+    "acceptableAnswersJson": "[]",
+    "hint": "",
+    "explanation": "",
+    "options": [],
+    "correctOrder": [],
+    "orderIndex": 9
+  },
+  {
+    "id": "77777777-1133-0003-0000-000001040010",
+    "patternId": "77777777-1133-0001-0000-000000010001",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Trời đã trở nên lạnh.",
+    "expectedAnswer": "寒くなりました。",
+    "acceptableAnswers": [],
+    "acceptableAnswersJson": "[]",
+    "hint": "",
+    "explanation": "",
+    "options": [],
+    "correctOrder": [],
+    "orderIndex": 10
+  },
+  {
+    "id": "77777777-1133-0003-0000-000001040011",
+    "patternId": "77777777-1133-0001-0000-000000010001",
+    "exerciseType": "vi_to_ja",
+    "prompt": "この道＿＿まっすぐ行ってください。",
+    "expectedAnswer": "を",
+    "acceptableAnswers": [],
+    "acceptableAnswersJson": "[]",
+    "hint": "",
+    "explanation": "Tuyến đường đi qua dùng を.",
+    "options": [
+      "を",
+      "が",
+      "に",
+      "で"
+    ],
+    "optionsJson": "[\"を\",\"が\",\"に\",\"で\"]",
+    "correctOrder": [],
+    "orderIndex": 11
+  },
+  {
+    "id": "77777777-1133-0003-0000-000001040012",
+    "patternId": "77777777-1133-0001-0000-000000010001",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Chuyển 食べます sang まだVていません.",
+    "expectedAnswer": "まだ食べていません。",
+    "acceptableAnswers": [],
+    "acceptableAnswersJson": "[]",
+    "hint": "",
+    "explanation": "食べます → 食べて → 食べていません.",
+    "options": [],
+    "correctOrder": [],
+    "orderIndex": 12
+  },
+  {
+    "id": "77777777-1133-0003-0000-000001040013",
+    "patternId": "77777777-1133-0001-0000-000000010001",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Chuyển 座ります sang câu xin phép.",
+    "expectedAnswer": "座ってもいいですか。",
+    "acceptableAnswers": [],
+    "acceptableAnswersJson": "[]",
+    "hint": "",
+    "explanation": "座ります → 座って + もいいですか.",
+    "options": [],
+    "correctOrder": [],
+    "orderIndex": 13
+  },
+  {
+    "id": "77777777-1133-0003-0000-000001040014",
+    "patternId": "77777777-1133-0001-0000-000000010001",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Chuyển 寒い sang “trở nên lạnh”.",
+    "expectedAnswer": "寒くなります。",
+    "acceptableAnswers": [],
+    "acceptableAnswersJson": "[]",
+    "hint": "",
+    "explanation": "イA: い → く + なります.",
+    "options": [],
+    "correctOrder": [],
+    "orderIndex": 14
+  },
+  {
+    "id": "77777777-1133-0003-0000-000001040015",
+    "patternId": "77777777-1133-0001-0000-000000010001",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Chuyển 静か sang “trở nên yên tĩnh”.",
+    "expectedAnswer": "静かになります。",
+    "acceptableAnswers": [],
+    "acceptableAnswersJson": "[]",
+    "hint": "",
+    "explanation": "ナA: 静か + に + なります.",
+    "options": [],
+    "correctOrder": [],
+    "orderIndex": 15
+  }
+]

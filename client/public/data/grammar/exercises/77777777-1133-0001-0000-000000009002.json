@@ -1,0 +1,134 @@
+[
+  {
+    "id": "77777777-1133-0003-0000-000000911001",
+    "patternId": "77777777-1133-0001-0000-000000009002",
+    "exerciseType": "ja_to_vi",
+    "prompt": "ナタポンさんはよくサッカーをしますか。――いいえ、あまりしません。",
+    "promptReading": "ナタポンさんはよくサッカーをしますか。――いいえ、あまりしません。",
+    "expectedAnswer": "Natapon có thường chơi bóng đá không? — Không, không chơi nhiều lắm.",
+    "hint": "いつも／よく／ときどき／あまり／全然",
+    "explanation": "Trợ từ phụ thuộc vào động từ của câu Không nhầm 全然 trong mẫu cơ bản của bài với cách dùng khẩu ngữ hiện đại khác. Không dùng あまり/全然 với khẳng định khi đang theo đúng phạm vi ngữ pháp của bài.",
+    "orderIndex": 1
+  },
+  {
+    "id": "77777777-1133-0003-0000-000000921001",
+    "patternId": "77777777-1133-0001-0000-000000009002",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Natapon có thường chơi bóng đá không? — Không, không chơi nhiều lắm.",
+    "expectedAnswer": "ナタポンさんはよくサッカーをしますか。――いいえ、あまりしません。",
+    "acceptableAnswers": [
+      "ナタポンさんはよくサッカーをしますか。――いいえ、あまりしません。"
+    ],
+    "hint": "よくします / ときどきします / あまりしません / 全然しません",
+    "explanation": "Trợ từ phụ thuộc vào động từ của câu Không nhầm 全然 trong mẫu cơ bản của bài với cách dùng khẩu ngữ hiện đại khác. Không dùng あまり/全然 với khẳng định khi đang theo đúng phạm vi ngữ pháp của bài.",
+    "orderIndex": 2
+  },
+  {
+    "id": "77777777-1133-0003-0000-000000931001",
+    "patternId": "77777777-1133-0001-0000-000000009002",
+    "exerciseType": "arrange",
+    "prompt": "Natapon có thường chơi bóng đá không? — Không, không chơi nhiều lắm.",
+    "expectedAnswer": "ナタポンさんはよくサッカーをしますか。――いいえ、あまりしません",
+    "optionsJson": "[\"は\",\"を\",\"よくサッカー\",\"ナタポンさん\",\"しますか。――いいえ、あまりしません\"]",
+    "options": [
+      "は",
+      "を",
+      "よくサッカー",
+      "ナタポンさん",
+      "しますか。――いいえ、あまりしません"
+    ],
+    "correctOrderJson": "[\"ナタポンさん\",\"は\",\"よくサッカー\",\"を\",\"しますか。――いいえ、あまりしません\"]",
+    "correctOrder": [
+      "ナタポンさん",
+      "は",
+      "よくサッカー",
+      "を",
+      "しますか。――いいえ、あまりしません"
+    ],
+    "orderIndex": 3
+  },
+  {
+    "id": "77777777-1133-0003-0000-000000911002",
+    "patternId": "77777777-1133-0001-0000-000000009002",
+    "exerciseType": "ja_to_vi",
+    "prompt": "私はときどき映画を見ます。",
+    "promptReading": "わたしはときどきえいがをみます。",
+    "expectedAnswer": "Tôi thỉnh thoảng xem phim.",
+    "hint": "いつも／よく／ときどき／あまり／全然",
+    "explanation": "Trợ từ phụ thuộc vào động từ của câu Không nhầm 全然 trong mẫu cơ bản của bài với cách dùng khẩu ngữ hiện đại khác. Không dùng あまり/全然 với khẳng định khi đang theo đúng phạm vi ngữ pháp của bài.",
+    "orderIndex": 4
+  },
+  {
+    "id": "77777777-1133-0003-0000-000000921002",
+    "patternId": "77777777-1133-0001-0000-000000009002",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Tôi thỉnh thoảng xem phim.",
+    "expectedAnswer": "私はときどき映画を見ます。",
+    "acceptableAnswers": [
+      "わたしはときどきえいがをみます。"
+    ],
+    "hint": "よくします / ときどきします / あまりしません / 全然しません",
+    "explanation": "Trợ từ phụ thuộc vào động từ của câu Không nhầm 全然 trong mẫu cơ bản của bài với cách dùng khẩu ngữ hiện đại khác. Không dùng あまり/全然 với khẳng định khi đang theo đúng phạm vi ngữ pháp của bài.",
+    "orderIndex": 5
+  },
+  {
+    "id": "77777777-1133-0003-0000-000000931002",
+    "patternId": "77777777-1133-0001-0000-000000009002",
+    "exerciseType": "arrange",
+    "prompt": "Tôi thỉnh thoảng xem phim.",
+    "expectedAnswer": "私 (わたし)はときどき映画 (ときどきえいが)を見ます (みます)",
+    "optionsJson": "[\"と\",\"は\",\"を\",\"私 (わたし)\",\"見ます (みます)\",\"きどき映画 (ときどきえいが)\"]",
+    "options": [
+      "と",
+      "は",
+      "を",
+      "私 (わたし)",
+      "見ます (みます)",
+      "きどき映画 (ときどきえいが)"
+    ],
+    "correctOrderJson": "[\"私 (わたし)\",\"は\",\"と\",\"きどき映画 (ときどきえいが)\",\"を\",\"見ます (みます)\"]",
+    "correctOrder": [
+      "私 (わたし)",
+      "は",
+      "と",
+      "きどき映画 (ときどきえいが)",
+      "を",
+      "見ます (みます)"
+    ],
+    "orderIndex": 6
+  },
+  {
+    "id": "77777777-1133-0003-0000-000000941001",
+    "patternId": "77777777-1133-0001-0000-000000009002",
+    "exerciseType": "vi_to_ja",
+    "prompt": "私は（　）映画を見ます。",
+    "expectedAnswer": "ときどき",
+    "acceptableAnswers": [],
+    "acceptableAnswersJson": "[]",
+    "hint": "",
+    "explanation": "ときどき nghĩa là “thỉnh thoảng”.",
+    "options": [
+      "全然",
+      "あまり",
+      "ときどき",
+      "まだ"
+    ],
+    "optionsJson": "[\"全然\",\"あまり\",\"ときどき\",\"まだ\"]",
+    "correctOrder": [],
+    "orderIndex": 1
+  },
+  {
+    "id": "77777777-1133-0003-0000-000000941002",
+    "patternId": "77777777-1133-0001-0000-000000009002",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Tôi thỉnh thoảng xem phim.",
+    "expectedAnswer": "私はときどき映画を見ます。",
+    "acceptableAnswers": [],
+    "acceptableAnswersJson": "[]",
+    "hint": "",
+    "explanation": "",
+    "options": [],
+    "correctOrder": [],
+    "orderIndex": 2
+  }
+]

@@ -1,0 +1,162 @@
+[
+  {
+    "id": "77777777-1133-0003-0000-000001113001",
+    "patternId": "77777777-1133-0001-0000-000000011004",
+    "exerciseType": "ja_to_vi",
+    "prompt": "さびしいとき、国の家族に電話します。",
+    "promptReading": "さびしいとき、くにのかぞくにでんわします。",
+    "expectedAnswer": "Khi cô đơn, tôi gọi điện cho gia đình ở quê nhà.",
+    "hint": "イA + とき、＿＿＿＿",
+    "explanation": "Không thêm な sau イA ナA phải thêm な trước とき. Không viết ×さびしいなとき.",
+    "orderIndex": 1
+  },
+  {
+    "id": "77777777-1133-0003-0000-000001123001",
+    "patternId": "77777777-1133-0001-0000-000000011004",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Khi cô đơn, tôi gọi điện cho gia đình ở quê nhà.",
+    "expectedAnswer": "さびしいとき、国の家族に電話します。",
+    "acceptableAnswers": [
+      "さびしいとき、くにのかぞくにでんわします。"
+    ],
+    "hint": "さびしい + とき / いそがしい + とき",
+    "explanation": "Không thêm な sau イA ナA phải thêm な trước とき. Không viết ×さびしいなとき.",
+    "orderIndex": 2
+  },
+  {
+    "id": "77777777-1133-0003-0000-000001133001",
+    "patternId": "77777777-1133-0001-0000-000000011004",
+    "exerciseType": "arrange",
+    "prompt": "Khi cô đơn, tôi gọi điện cho gia đình ở quê nhà.",
+    "expectedAnswer": "さびしいとき、国 (き、くに)の家族 (かぞく)に電話します (でんわします)",
+    "optionsJson": "[\"と\",\"に\",\"の\",\"さびしい\",\"家族 (かぞく)\",\"き、国 (き、くに)\",\"電話します (でんわします)\"]",
+    "options": [
+      "と",
+      "に",
+      "の",
+      "さびしい",
+      "家族 (かぞく)",
+      "き、国 (き、くに)",
+      "電話します (でんわします)"
+    ],
+    "correctOrderJson": "[\"さびしい\",\"と\",\"き、国 (き、くに)\",\"の\",\"家族 (かぞく)\",\"に\",\"電話します (でんわします)\"]",
+    "correctOrder": [
+      "さびしい",
+      "と",
+      "き、国 (き、くに)",
+      "の",
+      "家族 (かぞく)",
+      "に",
+      "電話します (でんわします)"
+    ],
+    "orderIndex": 3
+  },
+  {
+    "id": "77777777-1133-0003-0000-000001113002",
+    "patternId": "77777777-1133-0001-0000-000000011004",
+    "exerciseType": "ja_to_vi",
+    "prompt": "忙しいとき、コーヒーを飲みます。",
+    "promptReading": "いそがしいとき、コーヒーをのみます。",
+    "expectedAnswer": "Khi bận, tôi uống cà phê.",
+    "hint": "イA + とき、＿＿＿＿",
+    "explanation": "Không thêm な sau イA ナA phải thêm な trước とき. Không viết ×さびしいなとき.",
+    "orderIndex": 4
+  },
+  {
+    "id": "77777777-1133-0003-0000-000001123002",
+    "patternId": "77777777-1133-0001-0000-000000011004",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Khi bận, tôi uống cà phê.",
+    "expectedAnswer": "忙しいとき、コーヒーを飲みます。",
+    "acceptableAnswers": [
+      "いそがしいとき、コーヒーをのみます。"
+    ],
+    "hint": "さびしい + とき / いそがしい + とき",
+    "explanation": "Không thêm な sau イA ナA phải thêm な trước とき. Không viết ×さびしいなとき.",
+    "orderIndex": 5
+  },
+  {
+    "id": "77777777-1133-0003-0000-000001133002",
+    "patternId": "77777777-1133-0001-0000-000000011004",
+    "exerciseType": "arrange",
+    "prompt": "Khi bận, tôi uống cà phê.",
+    "expectedAnswer": "忙しい (いそがしい)とき、コーヒーを飲みます (のみます)",
+    "optionsJson": "[\"と\",\"を\",\"き、コーヒー\",\"忙しい (いそがしい)\",\"飲みます (のみます)\"]",
+    "options": [
+      "と",
+      "を",
+      "き、コーヒー",
+      "忙しい (いそがしい)",
+      "飲みます (のみます)"
+    ],
+    "correctOrderJson": "[\"忙しい (いそがしい)\",\"と\",\"き、コーヒー\",\"を\",\"飲みます (のみます)\"]",
+    "correctOrder": [
+      "忙しい (いそがしい)",
+      "と",
+      "き、コーヒー",
+      "を",
+      "飲みます (のみます)"
+    ],
+    "orderIndex": 6
+  },
+  {
+    "id": "77777777-1133-0003-0000-000001143001",
+    "patternId": "77777777-1133-0001-0000-000000011004",
+    "exerciseType": "vi_to_ja",
+    "prompt": "さびしい（　）、家族に電話します。",
+    "expectedAnswer": "とき",
+    "acceptableAnswers": [],
+    "acceptableAnswersJson": "[]",
+    "hint": "",
+    "explanation": "イA đứng trực tiếp trước とき: さびしいとき.",
+    "options": [
+      "なとき",
+      "のとき",
+      "とき",
+      "でとき"
+    ],
+    "optionsJson": "[\"なとき\",\"のとき\",\"とき\",\"でとき\"]",
+    "correctOrder": [],
+    "orderIndex": 1
+  },
+  {
+    "id": "77777777-1133-0003-0000-000001143002",
+    "patternId": "77777777-1133-0001-0000-000000011004",
+    "exerciseType": "vi_to_ja",
+    "prompt": "さびしいとき、家族＿＿電話します。",
+    "expectedAnswer": "に",
+    "acceptableAnswers": [],
+    "acceptableAnswersJson": "[]",
+    "hint": "",
+    "explanation": "Người nhận cuộc gọi trong 電話します dùng に.",
+    "options": [
+      "を",
+      "が",
+      "に",
+      "で"
+    ],
+    "optionsJson": "[\"を\",\"が\",\"に\",\"で\"]",
+    "correctOrder": [],
+    "orderIndex": 2
+  },
+  {
+    "id": "77777777-1133-0003-0000-000001143003",
+    "patternId": "77777777-1133-0001-0000-000000011004",
+    "exerciseType": "vi_to_ja",
+    "prompt": "父＿＿時計をもらいました。",
+    "expectedAnswer": "に",
+    "acceptableAnswers": [],
+    "acceptableAnswersJson": "[]",
+    "hint": "",
+    "explanation": "Người cho trong mẫu もらいます của bài dùng に.",
+    "options": [
+      "で",
+      "に",
+      "を",
+      "が"
+    ],
+    "optionsJson": "[\"で\",\"に\",\"を\",\"が\"]",
+    "correctOrder": [],
+    "orderIndex": 3
+  }
+]

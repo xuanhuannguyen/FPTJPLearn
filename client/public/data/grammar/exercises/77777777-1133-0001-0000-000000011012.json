@@ -1,0 +1,84 @@
+[
+  {
+    "id": "77777777-1133-0003-0000-000001121001",
+    "patternId": "77777777-1133-0001-0000-000000011012",
+    "exerciseType": "ja_to_vi",
+    "prompt": "昨日、何した？――友達と映画見た。",
+    "promptReading": "きのう、なにした？――ともだちとえいがみた。",
+    "expectedAnswer": "Hôm qua làm gì? — Xem phim với bạn.",
+    "hint": "疑問詞 + 普通形？",
+    "explanation": "Trợ từ を/へ/に có thể lược trong khẩu ngữ tùy ngữ cảnh Câu lịch sự: 何をしましたか / どこへ行きましたか. Không áp dụng lược trợ từ tùy tiện trong văn viết chuẩn.",
+    "orderIndex": 1
+  },
+  {
+    "id": "77777777-1133-0003-0000-000001131001",
+    "patternId": "77777777-1133-0001-0000-000000011012",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Hôm qua làm gì? — Xem phim với bạn.",
+    "expectedAnswer": "昨日、何した？――友達と映画見た。",
+    "acceptableAnswers": [
+      "きのう、なにした？――ともだちとえいがみた。"
+    ],
+    "hint": "何をしましたか → 何した？",
+    "explanation": "Trợ từ を/へ/に có thể lược trong khẩu ngữ tùy ngữ cảnh Câu lịch sự: 何をしましたか / どこへ行きましたか. Không áp dụng lược trợ từ tùy tiện trong văn viết chuẩn.",
+    "orderIndex": 2
+  },
+  {
+    "id": "77777777-1133-0003-0000-000001141001",
+    "patternId": "77777777-1133-0001-0000-000000011012",
+    "exerciseType": "arrange",
+    "prompt": "Hôm qua làm gì? — Xem phim với bạn.",
+    "expectedAnswer": "昨日、何した？――友達 (きのう、なにした？――)と映画見た (もだちとえいがみた)",
+    "optionsJson": "[\"と\",\"映画見た (もだちとえいがみた)\",\"昨日、何した？――友達 (きのう、なにした？――)\"]",
+    "options": [
+      "と",
+      "映画見た (もだちとえいがみた)",
+      "昨日、何した？――友達 (きのう、なにした？――)"
+    ],
+    "correctOrderJson": "[\"昨日、何した？――友達 (きのう、なにした？――)\",\"と\",\"映画見た (もだちとえいがみた)\"]",
+    "correctOrder": [
+      "昨日、何した？――友達 (きのう、なにした？――)",
+      "と",
+      "映画見た (もだちとえいがみた)"
+    ],
+    "orderIndex": 3
+  },
+  {
+    "id": "77777777-1133-0003-0000-000001121002",
+    "patternId": "77777777-1133-0001-0000-000000011012",
+    "exerciseType": "ja_to_vi",
+    "prompt": "昨日どこ行った？",
+    "promptReading": "きのうどこいった？",
+    "expectedAnswer": "Hôm qua đi đâu?",
+    "hint": "疑問詞 + 普通形？",
+    "explanation": "Trợ từ を/へ/に có thể lược trong khẩu ngữ tùy ngữ cảnh Câu lịch sự: 何をしましたか / どこへ行きましたか. Không áp dụng lược trợ từ tùy tiện trong văn viết chuẩn.",
+    "orderIndex": 4
+  },
+  {
+    "id": "77777777-1133-0003-0000-000001131002",
+    "patternId": "77777777-1133-0001-0000-000000011012",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Hôm qua đi đâu?",
+    "expectedAnswer": "昨日どこ行った？",
+    "acceptableAnswers": [
+      "きのうどこいった？"
+    ],
+    "hint": "何をしましたか → 何した？",
+    "explanation": "Trợ từ を/へ/に có thể lược trong khẩu ngữ tùy ngữ cảnh Câu lịch sự: 何をしましたか / どこへ行きましたか. Không áp dụng lược trợ từ tùy tiện trong văn viết chuẩn.",
+    "orderIndex": 5
+  },
+  {
+    "id": "77777777-1133-0003-0000-000001151001",
+    "patternId": "77777777-1133-0001-0000-000000011012",
+    "exerciseType": "vi_to_ja",
+    "prompt": "(Nói với bạn) Hôm qua làm gì?",
+    "expectedAnswer": "昨日、何した？",
+    "acceptableAnswers": [],
+    "acceptableAnswersJson": "[]",
+    "hint": "",
+    "explanation": "",
+    "options": [],
+    "correctOrder": [],
+    "orderIndex": 1
+  }
+]

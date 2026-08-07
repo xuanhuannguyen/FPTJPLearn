@@ -4,8 +4,9 @@ public static class VocabularyCourseCodes
 {
     public const string Jpd113 = "jpd113";
     public const string Jpd123 = "jpd123";
+    public const string Jpd133 = "jpd133";
 
-    public static readonly string[] All = [Jpd113, Jpd123];
+    public static readonly string[] All = [Jpd113, Jpd123, Jpd133];
 
     public static bool IsValid(string? courseCode)
     {

@@ -21,7 +21,7 @@ interface KanjiItemResponse extends Omit<KanjiItem, 'kunReading' | 'onReading' |
 }
 
 const getLessonDetail = (lessonId: string) => {
-  const courseCode = lessonId.includes('jpd123') ? 'jpd123' : 'jpd113';
+  const courseCode = lessonId.includes('jpd133') ? 'jpd133' : lessonId.includes('jpd123') ? 'jpd123' : 'jpd113';
   return fetchStatic<KanjiLessonDetailResponse>(`kanji/${courseCode}/lessons/${lessonId}.json`);
 };
 
@@ -61,6 +61,10 @@ const parseComponents = (componentMapJson?: string): KanjiComponent[] => {
           name: component.name ?? component.meaning ?? character,
           kanjiId: component.kanjiId,
           reading: component.reading,
+          meaning: component.meaning,
+          isRadical: component.isRadical,
+          position: component.position,
+          strokeCount: component.strokeCount,
         };
       })
       .filter((component): component is KanjiComponent => component !== null);

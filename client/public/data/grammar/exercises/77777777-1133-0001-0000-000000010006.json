@@ -1,0 +1,140 @@
+[
+  {
+    "id": "77777777-1133-0003-0000-000001015001",
+    "patternId": "77777777-1133-0001-0000-000000010006",
+    "exerciseType": "ja_to_vi",
+    "prompt": "となりにすわってもいいですか。――はい、どうぞ。／すみません、ちょっと……。",
+    "promptReading": "となりにすわってもいいですか。――はい、どうぞ。／すみません、ちょっと……。",
+    "expectedAnswer": "Tôi ngồi bên cạnh được không? — Vâng, xin mời. / Xin lỗi, hơi…",
+    "hint": "Vて形 + もいいですか",
+    "explanation": "も trong cấu trúc cố định Vてもいい Vないでください là yêu cầu không làm; Vてもいいですか là xin phép làm. Không dùng Vますもいいですか; phải đổi sang thể て.",
+    "orderIndex": 1
+  },
+  {
+    "id": "77777777-1133-0003-0000-000001025001",
+    "patternId": "77777777-1133-0001-0000-000000010006",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Tôi ngồi bên cạnh được không? — Vâng, xin mời. / Xin lỗi, hơi…",
+    "expectedAnswer": "となりにすわってもいいですか。――はい、どうぞ。／すみません、ちょっと……。",
+    "acceptableAnswers": [
+      "となりにすわってもいいですか。――はい、どうぞ。／すみません、ちょっと……。"
+    ],
+    "hint": "座ります → 座ってもいいですか",
+    "explanation": "も trong cấu trúc cố định Vてもいい Vないでください là yêu cầu không làm; Vてもいいですか là xin phép làm. Không dùng Vますもいいですか; phải đổi sang thể て.",
+    "orderIndex": 2
+  },
+  {
+    "id": "77777777-1133-0003-0000-000001035001",
+    "patternId": "77777777-1133-0001-0000-000000010006",
+    "exerciseType": "arrange",
+    "prompt": "Tôi ngồi bên cạnh được không? — Vâng, xin mời. / Xin lỗi, hơi…",
+    "expectedAnswer": "となりにすわってもいいですか。――はい、どうぞ。／すみません、ちょっと……",
+    "optionsJson": "[\"と\",\"と\",\"に\",\"は\",\"も\",\"……\",\"いい\",\"です\",\"なり\",\"か。――\",\"すわって\",\"い、どうぞ。／すみません、ちょっ\"]",
+    "options": [
+      "と",
+      "と",
+      "に",
+      "は",
+      "も",
+      "……",
+      "いい",
+      "です",
+      "なり",
+      "か。――",
+      "すわって",
+      "い、どうぞ。／すみません、ちょっ"
+    ],
+    "correctOrderJson": "[\"と\",\"なり\",\"に\",\"すわって\",\"も\",\"いい\",\"です\",\"か。――\",\"は\",\"い、どうぞ。／すみません、ちょっ\",\"と\",\"……\"]",
+    "correctOrder": [
+      "と",
+      "なり",
+      "に",
+      "すわって",
+      "も",
+      "いい",
+      "です",
+      "か。――",
+      "は",
+      "い、どうぞ。／すみません、ちょっ",
+      "と",
+      "……"
+    ],
+    "orderIndex": 3
+  },
+  {
+    "id": "77777777-1133-0003-0000-000001015002",
+    "patternId": "77777777-1133-0001-0000-000000010006",
+    "exerciseType": "ja_to_vi",
+    "prompt": "ここに荷物を置いてもいいですか。",
+    "promptReading": "ここににもつをおいてもいいですか。",
+    "expectedAnswer": "Tôi để hành lý ở đây được không?",
+    "hint": "Vて形 + もいいですか",
+    "explanation": "も trong cấu trúc cố định Vてもいい Vないでください là yêu cầu không làm; Vてもいいですか là xin phép làm. Không dùng Vますもいいですか; phải đổi sang thể て.",
+    "orderIndex": 4
+  },
+  {
+    "id": "77777777-1133-0003-0000-000001025002",
+    "patternId": "77777777-1133-0001-0000-000000010006",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Tôi để hành lý ở đây được không?",
+    "expectedAnswer": "ここに荷物を置いてもいいですか。",
+    "acceptableAnswers": [
+      "ここににもつをおいてもいいですか。"
+    ],
+    "hint": "座ります → 座ってもいいですか",
+    "explanation": "も trong cấu trúc cố định Vてもいい Vないでください là yêu cầu không làm; Vてもいいですか là xin phép làm. Không dùng Vますもいいですか; phải đổi sang thể て.",
+    "orderIndex": 5
+  },
+  {
+    "id": "77777777-1133-0003-0000-000001035002",
+    "patternId": "77777777-1133-0001-0000-000000010006",
+    "exerciseType": "arrange",
+    "prompt": "Tôi để hành lý ở đây được không?",
+    "expectedAnswer": "ここに荷物 (にもつ)を置いて (おいて)もいいですか",
+    "optionsJson": "[\"か\",\"に\",\"も\",\"を\",\"いい\",\"ここ\",\"です\",\"置いて (おいて)\",\"荷物 (にもつ)\"]",
+    "options": [
+      "か",
+      "に",
+      "も",
+      "を",
+      "いい",
+      "ここ",
+      "です",
+      "置いて (おいて)",
+      "荷物 (にもつ)"
+    ],
+    "correctOrderJson": "[\"ここ\",\"に\",\"荷物 (にもつ)\",\"を\",\"置いて (おいて)\",\"も\",\"いい\",\"です\",\"か\"]",
+    "correctOrder": [
+      "ここ",
+      "に",
+      "荷物 (にもつ)",
+      "を",
+      "置いて (おいて)",
+      "も",
+      "いい",
+      "です",
+      "か"
+    ],
+    "orderIndex": 6
+  },
+  {
+    "id": "77777777-1133-0003-0000-000001045001",
+    "patternId": "77777777-1133-0001-0000-000000010006",
+    "exerciseType": "vi_to_ja",
+    "prompt": "ここに座っ（　）いいですか。",
+    "expectedAnswer": "ても",
+    "acceptableAnswers": [],
+    "acceptableAnswersJson": "[]",
+    "hint": "",
+    "explanation": "Xin phép dùng Vてもいいですか.",
+    "options": [
+      "たり",
+      "ても",
+      "ないで",
+      "ては"
+    ],
+    "optionsJson": "[\"たり\",\"ても\",\"ないで\",\"ては\"]",
+    "correctOrder": [],
+    "orderIndex": 1
+  }
+]

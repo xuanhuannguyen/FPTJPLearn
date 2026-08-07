@@ -19,8 +19,8 @@ export const staticVocabularyApi = {
     return lessons.map(normalizeVocabularyLessonAccess);
   },
 
-  getLessonById: async (lessonId: string): Promise<StaticVocabularyLessonDetail> => {
-    const courseCode = lessonId.includes('1113') ? 'jpd113' : 'jpd123';
+  getLessonById: async (lessonId: string, requestedCourseCode?: string): Promise<StaticVocabularyLessonDetail> => {
+    const courseCode = requestedCourseCode?.trim().toLowerCase() || courseCodeFromLessonId(lessonId);
     const detail = await fetchStatic<StaticVocabularyLessonDetail>(`vocabulary/${courseCode}/lessons/${lessonId}.json`);
     return {
       lesson: normalizeVocabularyLessonAccess(detail.lesson),
@@ -28,8 +28,8 @@ export const staticVocabularyApi = {
     };
   },
 
-  getPracticeCards: async (lessonId: string, mode: string = 'flashcard'): Promise<{ mode: string; cards: VocabularyPracticeCard[] }> => {
-    const detail = await staticVocabularyApi.getLessonById(lessonId);
+  getPracticeCards: async (lessonId: string, mode: string = 'flashcard', courseCode?: string): Promise<{ mode: string; cards: VocabularyPracticeCard[] }> => {
+    const detail = await staticVocabularyApi.getLessonById(lessonId, courseCode);
     const cards = detail.items.map((item, index) => ({
       itemId: item.id,
       mode,
@@ -114,6 +114,13 @@ function normalizeVocabularyItemAccess(item: StaticVocabularyItem): StaticVocabu
 function normalizeVocabularyPackageCode(packageCode: string | undefined, courseCode: string): string {
   const code = (packageCode || courseCode).trim().toLowerCase();
   return code.startsWith('vocab_') ? code : `vocab_${code}`;
+}
+
+function courseCodeFromLessonId(lessonId: string): string {
+  if (lessonId.includes('1113')) return 'jpd113';
+  if (lessonId.includes('1123')) return 'jpd123';
+  if (lessonId.includes('1133')) return 'jpd133';
+  throw new Error(`Unknown vocabulary lesson ID segment: ${lessonId}`);
 }
 
 function buildOptions(items: StaticVocabularyItem[], correctAnswer: string, index: number): string[] {

@@ -1,0 +1,166 @@
+[
+  {
+    "id": "77777777-1133-0003-0000-000000821001",
+    "patternId": "77777777-1133-0001-0000-000000008012",
+    "exerciseType": "ja_to_vi",
+    "prompt": "メアリーさんが私にかばんをくれました。",
+    "promptReading": "メアリーさんがわたしにかばんをくれました。",
+    "expectedAnswer": "Mary đã tặng tôi một cái cặp.",
+    "hint": "N1（人）が 私に N2（物）を くれます",
+    "explanation": "が/は: người cho; に: người nhận phía tôi; を: vật được cho あげます: tôi/phía tôi → người khác; くれます: người khác → tôi/phía tôi. Không dùng くれます khi người nhận hoàn toàn không thuộc phía người nói.",
+    "orderIndex": 1
+  },
+  {
+    "id": "77777777-1133-0003-0000-000000831001",
+    "patternId": "77777777-1133-0001-0000-000000008012",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Mary đã tặng tôi một cái cặp.",
+    "expectedAnswer": "メアリーさんが私にかばんをくれました。",
+    "acceptableAnswers": [
+      "メアリーさんがわたしにかばんをくれました。"
+    ],
+    "hint": "くれます / くれました",
+    "explanation": "が/は: người cho; に: người nhận phía tôi; を: vật được cho あげます: tôi/phía tôi → người khác; くれます: người khác → tôi/phía tôi. Không dùng くれます khi người nhận hoàn toàn không thuộc phía người nói.",
+    "orderIndex": 2
+  },
+  {
+    "id": "77777777-1133-0003-0000-000000841001",
+    "patternId": "77777777-1133-0001-0000-000000008012",
+    "exerciseType": "arrange",
+    "prompt": "Mary đã tặng tôi một cái cặp.",
+    "expectedAnswer": "メアリーさんが私 (わたし)にかばんをくれました",
+    "optionsJson": "[\"が\",\"に\",\"を\",\"かばん\",\"くれました\",\"私 (わたし)\",\"メアリーさん\"]",
+    "options": [
+      "が",
+      "に",
+      "を",
+      "かばん",
+      "くれました",
+      "私 (わたし)",
+      "メアリーさん"
+    ],
+    "correctOrderJson": "[\"メアリーさん\",\"が\",\"私 (わたし)\",\"に\",\"かばん\",\"を\",\"くれました\"]",
+    "correctOrder": [
+      "メアリーさん",
+      "が",
+      "私 (わたし)",
+      "に",
+      "かばん",
+      "を",
+      "くれました"
+    ],
+    "orderIndex": 3
+  },
+  {
+    "id": "77777777-1133-0003-0000-000000821002",
+    "patternId": "77777777-1133-0001-0000-000000008012",
+    "exerciseType": "ja_to_vi",
+    "prompt": "友達が弟にお菓子をくれました。",
+    "promptReading": "ともだちがおとうとにおかしをくれました。",
+    "expectedAnswer": "Bạn tôi đã cho em trai tôi bánh kẹo.",
+    "hint": "N1（人）が 私に N2（物）を くれます",
+    "explanation": "が/は: người cho; に: người nhận phía tôi; を: vật được cho あげます: tôi/phía tôi → người khác; くれます: người khác → tôi/phía tôi. Không dùng くれます khi người nhận hoàn toàn không thuộc phía người nói.",
+    "orderIndex": 4
+  },
+  {
+    "id": "77777777-1133-0003-0000-000000831002",
+    "patternId": "77777777-1133-0001-0000-000000008012",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Bạn tôi đã cho em trai tôi bánh kẹo.",
+    "expectedAnswer": "友達が弟にお菓子をくれました。",
+    "acceptableAnswers": [
+      "ともだちがおとうとにおかしをくれました。"
+    ],
+    "hint": "くれます / くれました",
+    "explanation": "が/は: người cho; に: người nhận phía tôi; を: vật được cho あげます: tôi/phía tôi → người khác; くれます: người khác → tôi/phía tôi. Không dùng くれます khi người nhận hoàn toàn không thuộc phía người nói.",
+    "orderIndex": 5
+  },
+  {
+    "id": "77777777-1133-0003-0000-000000841002",
+    "patternId": "77777777-1133-0001-0000-000000008012",
+    "exerciseType": "arrange",
+    "prompt": "Bạn tôi đã cho em trai tôi bánh kẹo.",
+    "expectedAnswer": "友達 (ともだち)が弟 (おとうと)にお菓子 (おかし)をくれました",
+    "optionsJson": "[\"が\",\"に\",\"を\",\"くれました\",\"弟 (おとうと)\",\"お菓子 (おかし)\",\"友達 (ともだち)\"]",
+    "options": [
+      "が",
+      "に",
+      "を",
+      "くれました",
+      "弟 (おとうと)",
+      "お菓子 (おかし)",
+      "友達 (ともだち)"
+    ],
+    "correctOrderJson": "[\"友達 (ともだち)\",\"が\",\"弟 (おとうと)\",\"に\",\"お菓子 (おかし)\",\"を\",\"くれました\"]",
+    "correctOrder": [
+      "友達 (ともだち)",
+      "が",
+      "弟 (おとうと)",
+      "に",
+      "お菓子 (おかし)",
+      "を",
+      "くれました"
+    ],
+    "orderIndex": 6
+  },
+  {
+    "id": "77777777-1133-0003-0000-000000851001",
+    "patternId": "77777777-1133-0001-0000-000000008012",
+    "exerciseType": "vi_to_ja",
+    "prompt": "友達が私にプレゼントを（　）。",
+    "expectedAnswer": "くれました",
+    "acceptableAnswers": [],
+    "acceptableAnswersJson": "[]",
+    "hint": "",
+    "explanation": "Người khác cho/tặng tôi hoặc người thuộc phía tôi dùng くれます.",
+    "options": [
+      "あげました",
+      "くれました",
+      "もらいました",
+      "いました"
+    ],
+    "optionsJson": "[\"あげました\",\"くれました\",\"もらいました\",\"いました\"]",
+    "correctOrder": [],
+    "orderIndex": 1
+  },
+  {
+    "id": "77777777-1133-0003-0000-000000851002",
+    "patternId": "77777777-1133-0001-0000-000000008012",
+    "exerciseType": "arrange",
+    "prompt": "かばんを / 私に / メアリーさんが / くれました",
+    "expectedAnswer": "メアリーさんが私にかばんをくれました。",
+    "acceptableAnswers": [],
+    "acceptableAnswersJson": "[]",
+    "hint": "",
+    "explanation": "",
+    "options": [
+      "かばんを",
+      "私に",
+      "メアリーさんが",
+      "くれました"
+    ],
+    "optionsJson": "[\"かばんを\",\"私に\",\"メアリーさんが\",\"くれました\"]",
+    "correctOrder": [
+      "メアリーさんが",
+      "私に",
+      "かばんを",
+      "くれました"
+    ],
+    "correctOrderJson": "[\"メアリーさんが\",\"私に\",\"かばんを\",\"くれました\"]",
+    "orderIndex": 2
+  },
+  {
+    "id": "77777777-1133-0003-0000-000000851003",
+    "patternId": "77777777-1133-0001-0000-000000008012",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Mary đã tặng tôi một cái cặp.",
+    "expectedAnswer": "メアリーさんが私にかばんをくれました。",
+    "acceptableAnswers": [],
+    "acceptableAnswersJson": "[]",
+    "hint": "",
+    "explanation": "",
+    "options": [],
+    "correctOrder": [],
+    "orderIndex": 3
+  }
+]

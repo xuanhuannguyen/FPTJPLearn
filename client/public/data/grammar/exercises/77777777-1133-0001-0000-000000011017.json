@@ -1,0 +1,104 @@
+[
+  {
+    "id": "77777777-1133-0003-0000-000001126001",
+    "patternId": "77777777-1133-0001-0000-000000011017",
+    "exerciseType": "ja_to_vi",
+    "prompt": "ありません → ない。ありませんでした → なかった。",
+    "promptReading": "ありません → ない。ありませんでした → なかった。",
+    "expectedAnswer": "Không có. / Đã không có.",
+    "hint": "ありません → ない / ありませんでした → なかった",
+    "explanation": "が/は tùy danh từ được nói đến いません → いない dùng cho người/sinh vật; ありません → ない dùng cho vật/sự việc. Không viết ×あらない.",
+    "orderIndex": 1
+  },
+  {
+    "id": "77777777-1133-0003-0000-000001136001",
+    "patternId": "77777777-1133-0001-0000-000000011017",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Không có. / Đã không có.",
+    "expectedAnswer": "ありません → ない。ありませんでした → なかった。",
+    "acceptableAnswers": [
+      "ありません → ない。ありませんでした → なかった。"
+    ],
+    "hint": "ありません → ない; ありませんでした → なかった",
+    "explanation": "が/は tùy danh từ được nói đến いません → いない dùng cho người/sinh vật; ありません → ない dùng cho vật/sự việc. Không viết ×あらない.",
+    "orderIndex": 2
+  },
+  {
+    "id": "77777777-1133-0003-0000-000001146001",
+    "patternId": "77777777-1133-0001-0000-000000011017",
+    "exerciseType": "arrange",
+    "prompt": "Không có. / Đã không có.",
+    "expectedAnswer": "ありません → ない。ありませんでした → なかった",
+    "optionsJson": "[\"でした\",\" → なかった\",\"ありません → ない。ありません\"]",
+    "options": [
+      "でした",
+      " → なかった",
+      "ありません → ない。ありません"
+    ],
+    "correctOrderJson": "[\"ありません → ない。ありません\",\"でした\",\" → なかった\"]",
+    "correctOrder": [
+      "ありません → ない。ありません",
+      "でした",
+      " → なかった"
+    ],
+    "orderIndex": 3
+  },
+  {
+    "id": "77777777-1133-0003-0000-000001126002",
+    "patternId": "77777777-1133-0001-0000-000000011017",
+    "exerciseType": "ja_to_vi",
+    "prompt": "昨日、宿題あった？――ううん、なかった。",
+    "promptReading": "きのう、しゅくだいあった？――ううん、なかった。",
+    "expectedAnswer": "Hôm qua có bài tập không? — Không, không có.",
+    "hint": "ありません → ない / ありませんでした → なかった",
+    "explanation": "が/は tùy danh từ được nói đến いません → いない dùng cho người/sinh vật; ありません → ない dùng cho vật/sự việc. Không viết ×あらない.",
+    "orderIndex": 4
+  },
+  {
+    "id": "77777777-1133-0003-0000-000001136002",
+    "patternId": "77777777-1133-0001-0000-000000011017",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Hôm qua có bài tập không? — Không, không có.",
+    "expectedAnswer": "昨日、宿題あった？――ううん、なかった。",
+    "acceptableAnswers": [
+      "きのう、しゅくだいあった？――ううん、なかった。"
+    ],
+    "hint": "ありません → ない; ありませんでした → なかった",
+    "explanation": "が/は tùy danh từ được nói đến いません → いない dùng cho người/sinh vật; ありません → ない dùng cho vật/sự việc. Không viết ×あらない.",
+    "orderIndex": 5
+  },
+  {
+    "id": "77777777-1133-0003-0000-000001156001",
+    "patternId": "77777777-1133-0001-0000-000000011017",
+    "exerciseType": "vi_to_ja",
+    "prompt": "昨日、宿題はありませんでした。",
+    "expectedAnswer": "なかった",
+    "acceptableAnswers": [],
+    "acceptableAnswersJson": "[]",
+    "hint": "",
+    "explanation": "ありませんでした → なかった.",
+    "options": [
+      "あらなかった",
+      "ないでした",
+      "なかった",
+      "ありません"
+    ],
+    "optionsJson": "[\"あらなかった\",\"ないでした\",\"なかった\",\"ありません\"]",
+    "correctOrder": [],
+    "orderIndex": 1
+  },
+  {
+    "id": "77777777-1133-0003-0000-000001156002",
+    "patternId": "77777777-1133-0001-0000-000000011017",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Chuyển ありませんでした sang dạng thân mật.",
+    "expectedAnswer": "なかった。",
+    "acceptableAnswers": [],
+    "acceptableAnswersJson": "[]",
+    "hint": "",
+    "explanation": "Quá khứ phủ định thể thường của ある là なかった.",
+    "options": [],
+    "correctOrder": [],
+    "orderIndex": 2
+  }
+]

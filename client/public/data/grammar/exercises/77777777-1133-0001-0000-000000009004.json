@@ -1,0 +1,178 @@
+[
+  {
+    "id": "77777777-1133-0003-0000-000000913001",
+    "patternId": "77777777-1133-0001-0000-000000009004",
+    "exerciseType": "ja_to_vi",
+    "prompt": "1週間に2回、家族に電話します。",
+    "promptReading": "いっしゅうかんににかい、かぞくにでんわします。",
+    "expectedAnswer": "Một tuần tôi gọi điện cho gia đình hai lần.",
+    "hint": "［Lượng thời gian］に［～回・冊・本］",
+    "explanation": "に: mốc/phạm vi tần suất Trạng từ よく chỉ mức độ tần suất chung; ～に～回 cho con số cụ thể. Không dùng で thay に trong cấu trúc tần suất này.",
+    "orderIndex": 1
+  },
+  {
+    "id": "77777777-1133-0003-0000-000000923001",
+    "patternId": "77777777-1133-0001-0000-000000009004",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Một tuần tôi gọi điện cho gia đình hai lần.",
+    "expectedAnswer": "1週間に2回、家族に電話します。",
+    "acceptableAnswers": [
+      "いっしゅうかんににかい、かぞくにでんわします。"
+    ],
+    "hint": "1週間に2回 / 1か月に3冊 ...",
+    "explanation": "に: mốc/phạm vi tần suất Trạng từ よく chỉ mức độ tần suất chung; ～に～回 cho con số cụ thể. Không dùng で thay に trong cấu trúc tần suất này.",
+    "orderIndex": 2
+  },
+  {
+    "id": "77777777-1133-0003-0000-000000933001",
+    "patternId": "77777777-1133-0001-0000-000000009004",
+    "exerciseType": "arrange",
+    "prompt": "Một tuần tôi gọi điện cho gia đình hai lần.",
+    "expectedAnswer": "1週間 (いっしゅうかん)に2回、家族に電話します (かい、かぞくにでんわします)",
+    "optionsJson": "[\"に\",\"に\",\"2回、家族\",\"1週間 (いっしゅうかん)\",\"電話します (かい、かぞくにでんわします)\"]",
+    "options": [
+      "に",
+      "に",
+      "2回、家族",
+      "1週間 (いっしゅうかん)",
+      "電話します (かい、かぞくにでんわします)"
+    ],
+    "correctOrderJson": "[\"1週間 (いっしゅうかん)\",\"に\",\"2回、家族\",\"に\",\"電話します (かい、かぞくにでんわします)\"]",
+    "correctOrder": [
+      "1週間 (いっしゅうかん)",
+      "に",
+      "2回、家族",
+      "に",
+      "電話します (かい、かぞくにでんわします)"
+    ],
+    "orderIndex": 3
+  },
+  {
+    "id": "77777777-1133-0003-0000-000000913002",
+    "patternId": "77777777-1133-0001-0000-000000009004",
+    "exerciseType": "ja_to_vi",
+    "prompt": "1か月に3冊、本を読みます。",
+    "promptReading": "いっかげつにさんさつ、ほんをよみます。",
+    "expectedAnswer": "Mỗi tháng tôi đọc ba quyển sách.",
+    "hint": "［Lượng thời gian］に［～回・冊・本］",
+    "explanation": "に: mốc/phạm vi tần suất Trạng từ よく chỉ mức độ tần suất chung; ～に～回 cho con số cụ thể. Không dùng で thay に trong cấu trúc tần suất này.",
+    "orderIndex": 4
+  },
+  {
+    "id": "77777777-1133-0003-0000-000000923002",
+    "patternId": "77777777-1133-0001-0000-000000009004",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Mỗi tháng tôi đọc ba quyển sách.",
+    "expectedAnswer": "1か月に3冊、本を読みます。",
+    "acceptableAnswers": [
+      "いっかげつにさんさつ、ほんをよみます。"
+    ],
+    "hint": "1週間に2回 / 1か月に3冊 ...",
+    "explanation": "に: mốc/phạm vi tần suất Trạng từ よく chỉ mức độ tần suất chung; ～に～回 cho con số cụ thể. Không dùng で thay に trong cấu trúc tần suất này.",
+    "orderIndex": 5
+  },
+  {
+    "id": "77777777-1133-0003-0000-000000933002",
+    "patternId": "77777777-1133-0001-0000-000000009004",
+    "exerciseType": "arrange",
+    "prompt": "Mỗi tháng tôi đọc ba quyển sách.",
+    "expectedAnswer": "1か月 (いっかげつ)に3冊、本 (さんさつ、ほん)を読みます (よみます)",
+    "optionsJson": "[\"に\",\"を\",\"1か月 (いっかげつ)\",\"読みます (よみます)\",\"3冊、本 (さんさつ、ほん)\"]",
+    "options": [
+      "に",
+      "を",
+      "1か月 (いっかげつ)",
+      "読みます (よみます)",
+      "3冊、本 (さんさつ、ほん)"
+    ],
+    "correctOrderJson": "[\"1か月 (いっかげつ)\",\"に\",\"3冊、本 (さんさつ、ほん)\",\"を\",\"読みます (よみます)\"]",
+    "correctOrder": [
+      "1か月 (いっかげつ)",
+      "に",
+      "3冊、本 (さんさつ、ほん)",
+      "を",
+      "読みます (よみます)"
+    ],
+    "orderIndex": 6
+  },
+  {
+    "id": "77777777-1133-0003-0000-000000943001",
+    "patternId": "77777777-1133-0001-0000-000000009004",
+    "exerciseType": "vi_to_ja",
+    "prompt": "1週間（　）2回、家族に電話します。",
+    "expectedAnswer": "に",
+    "acceptableAnswers": [],
+    "acceptableAnswersJson": "[]",
+    "hint": "",
+    "explanation": "Tần suất theo khoảng thời gian dùng [khoảng thời gian] に [số lần].",
+    "options": [
+      "を",
+      "に",
+      "が",
+      "で"
+    ],
+    "optionsJson": "[\"を\",\"に\",\"が\",\"で\"]",
+    "correctOrder": [],
+    "orderIndex": 1
+  },
+  {
+    "id": "77777777-1133-0003-0000-000000943002",
+    "patternId": "77777777-1133-0001-0000-000000009004",
+    "exerciseType": "arrange",
+    "prompt": "2回 / 1週間に / 電話します / 家族に",
+    "expectedAnswer": "1週間に2回、家族に電話します。",
+    "acceptableAnswers": [],
+    "acceptableAnswersJson": "[]",
+    "hint": "",
+    "explanation": "",
+    "options": [
+      "2回",
+      "1週間に",
+      "電話します",
+      "家族に"
+    ],
+    "optionsJson": "[\"2回\",\"1週間に\",\"電話します\",\"家族に\"]",
+    "correctOrder": [
+      "1週間に",
+      "2回",
+      "家族に",
+      "電話します"
+    ],
+    "correctOrderJson": "[\"1週間に\",\"2回\",\"家族に\",\"電話します\"]",
+    "orderIndex": 2
+  },
+  {
+    "id": "77777777-1133-0003-0000-000000943003",
+    "patternId": "77777777-1133-0001-0000-000000009004",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Một tuần tôi gọi điện cho gia đình hai lần.",
+    "expectedAnswer": "1週間に2回、家族に電話します。",
+    "acceptableAnswers": [],
+    "acceptableAnswersJson": "[]",
+    "hint": "",
+    "explanation": "",
+    "options": [],
+    "correctOrder": [],
+    "orderIndex": 3
+  },
+  {
+    "id": "77777777-1133-0003-0000-000000943004",
+    "patternId": "77777777-1133-0001-0000-000000009004",
+    "exerciseType": "vi_to_ja",
+    "prompt": "1週間＿＿2回、家族に電話します。",
+    "expectedAnswer": "に",
+    "acceptableAnswers": [],
+    "acceptableAnswersJson": "[]",
+    "hint": "",
+    "explanation": "Chu kỳ tần suất dùng に.",
+    "options": [
+      "に",
+      "で",
+      "を",
+      "が"
+    ],
+    "optionsJson": "[\"に\",\"で\",\"を\",\"が\"]",
+    "correctOrder": [],
+    "orderIndex": 4
+  }
+]

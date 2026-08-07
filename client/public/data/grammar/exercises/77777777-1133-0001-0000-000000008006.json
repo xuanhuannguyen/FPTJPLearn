@@ -1,0 +1,126 @@
+[
+  {
+    "id": "77777777-1133-0003-0000-000000815001",
+    "patternId": "77777777-1133-0001-0000-000000008006",
+    "exerciseType": "ja_to_vi",
+    "prompt": "ダニエルさんはせが高いです。",
+    "promptReading": "ダニエルさんはせがたかいです。",
+    "expectedAnswer": "Daniel cao.",
+    "hint": "N1 は N2 が A です",
+    "explanation": "は: chủ đề lớn; が: bộ phận/khía cạnh mang tính chất NはAです miêu tả trực tiếp chủ đề; N1はN2がAです tách chủ đề và bộ phận/khía cạnh. Không thay が bằng は nếu muốn giữ cấu trúc đặc điểm cơ bản.",
+    "orderIndex": 1
+  },
+  {
+    "id": "77777777-1133-0003-0000-000000825001",
+    "patternId": "77777777-1133-0001-0000-000000008006",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Daniel cao.",
+    "expectedAnswer": "ダニエルさんはせが高いです。",
+    "acceptableAnswers": [
+      "ダニエルさんはせがたかいです。"
+    ],
+    "hint": "N1はN2が高いです / 上手です ...",
+    "explanation": "は: chủ đề lớn; が: bộ phận/khía cạnh mang tính chất NはAです miêu tả trực tiếp chủ đề; N1はN2がAです tách chủ đề và bộ phận/khía cạnh. Không thay が bằng は nếu muốn giữ cấu trúc đặc điểm cơ bản.",
+    "orderIndex": 2
+  },
+  {
+    "id": "77777777-1133-0003-0000-000000835001",
+    "patternId": "77777777-1133-0001-0000-000000008006",
+    "exerciseType": "arrange",
+    "prompt": "Daniel cao.",
+    "expectedAnswer": "ダニエルさんはせが高い (たかい)です",
+    "optionsJson": "[\"が\",\"せ\",\"は\",\"です\",\"ダニエルさん\",\"高い (たかい)\"]",
+    "options": [
+      "が",
+      "せ",
+      "は",
+      "です",
+      "ダニエルさん",
+      "高い (たかい)"
+    ],
+    "correctOrderJson": "[\"ダニエルさん\",\"は\",\"せ\",\"が\",\"高い (たかい)\",\"です\"]",
+    "correctOrder": [
+      "ダニエルさん",
+      "は",
+      "せ",
+      "が",
+      "高い (たかい)",
+      "です"
+    ],
+    "orderIndex": 3
+  },
+  {
+    "id": "77777777-1133-0003-0000-000000815002",
+    "patternId": "77777777-1133-0001-0000-000000008006",
+    "exerciseType": "ja_to_vi",
+    "prompt": "母は髪が長いです。",
+    "promptReading": "はははかみがながいです。",
+    "expectedAnswer": "Mẹ tôi có tóc dài.",
+    "hint": "N1 は N2 が A です",
+    "explanation": "は: chủ đề lớn; が: bộ phận/khía cạnh mang tính chất NはAです miêu tả trực tiếp chủ đề; N1はN2がAです tách chủ đề và bộ phận/khía cạnh. Không thay が bằng は nếu muốn giữ cấu trúc đặc điểm cơ bản.",
+    "orderIndex": 4
+  },
+  {
+    "id": "77777777-1133-0003-0000-000000825002",
+    "patternId": "77777777-1133-0001-0000-000000008006",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Mẹ tôi có tóc dài.",
+    "expectedAnswer": "母は髪が長いです。",
+    "acceptableAnswers": [
+      "はははかみがながいです。"
+    ],
+    "hint": "N1はN2が高いです / 上手です ...",
+    "explanation": "は: chủ đề lớn; が: bộ phận/khía cạnh mang tính chất NはAです miêu tả trực tiếp chủ đề; N1はN2がAです tách chủ đề và bộ phận/khía cạnh. Không thay が bằng は nếu muốn giữ cấu trúc đặc điểm cơ bản.",
+    "orderIndex": 5
+  },
+  {
+    "id": "77777777-1133-0003-0000-000000835002",
+    "patternId": "77777777-1133-0001-0000-000000008006",
+    "exerciseType": "arrange",
+    "prompt": "Mẹ tôi có tóc dài.",
+    "expectedAnswer": "母は髪 (ははかみ)が長い (ながい)です",
+    "optionsJson": "[\"が\",\"は\",\"です\",\"母\",\"長い (ながい)\",\"髪 (ははかみ)\"]",
+    "options": [
+      "が",
+      "は",
+      "です",
+      "母",
+      "長い (ながい)",
+      "髪 (ははかみ)"
+    ],
+    "correctOrderJson": "[\"母\",\"は\",\"髪 (ははかみ)\",\"が\",\"長い (ながい)\",\"です\"]",
+    "correctOrder": [
+      "母",
+      "は",
+      "髪 (ははかみ)",
+      "が",
+      "長い (ながい)",
+      "です"
+    ],
+    "orderIndex": 6
+  },
+  {
+    "id": "77777777-1133-0003-0000-000000845001",
+    "patternId": "77777777-1133-0001-0000-000000008006",
+    "exerciseType": "arrange",
+    "prompt": "髪が / 母は / 長いです",
+    "expectedAnswer": "母は髪が長いです。",
+    "acceptableAnswers": [],
+    "acceptableAnswersJson": "[]",
+    "hint": "",
+    "explanation": "",
+    "options": [
+      "髪が",
+      "母は",
+      "長いです"
+    ],
+    "optionsJson": "[\"髪が\",\"母は\",\"長いです\"]",
+    "correctOrder": [
+      "母は",
+      "髪が",
+      "長いです"
+    ],
+    "correctOrderJson": "[\"母は\",\"髪が\",\"長いです\"]",
+    "orderIndex": 1
+  }
+]

@@ -35,16 +35,17 @@ public class OrderController : ApiControllerBase
             await _db.SaveChangesAsync();
         }
 
-        var price = PackageCodes.GetPrice(request.PackageCode);
+        var packageCode = request.PackageCode.Trim().ToLowerInvariant();
+        var price = PackageCodes.GetPrice(packageCode);
         if (price == 0) return BadRequest(new { error = "Gói không hợp lệ" });
 
         var order = new Order
         {
             UserId = CurrentUserId,
             OrderCode = long.Parse(DateTimeOffset.UtcNow.ToString("yyMMddHHmmssff")), // Unique numeric code
-            PackageCode = request.PackageCode,
+            PackageCode = packageCode,
             Amount = price,
-            Description = $"JPLearn {request.PackageCode.ToUpper()}"
+            Description = $"JPLearn {packageCode.ToUpper()}"
         };
 
         // Chọn provider xoay vòng
@@ -144,6 +145,7 @@ public class OrderController : ApiControllerBase
         {
             new { code = PackageCodes.JPD113, name = "JPD113", price = 40000, originalPrice = (int?)null, duration = "6 tháng", discount = (string?)null, isSalesEnabled = true },
             new { code = PackageCodes.JPD123, name = "JPD123", price = 40000, originalPrice = (int?)null, duration = "6 tháng", discount = (string?)null, isSalesEnabled = true },
+            new { code = PackageCodes.JPD133, name = "JPD133", price = 40000, originalPrice = (int?)null, duration = "6 tháng", discount = (string?)null, isSalesEnabled = true },
             new { code = PackageCodes.Combo, name = "Combo JPD113 + JPD123", price = 70000, originalPrice = (int?)80000, duration = "6 tháng", discount = (string?)"Giảm 10,000đ", isSalesEnabled = true }
         });
     }

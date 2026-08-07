@@ -1,0 +1,110 @@
+[
+  {
+    "id": "77777777-1133-0003-0000-000001022001",
+    "patternId": "77777777-1133-0001-0000-000000010013",
+    "exerciseType": "ja_to_vi",
+    "prompt": "もうすぐ12時になります。",
+    "promptReading": "もうすぐじゅうにじになります。",
+    "expectedAnswer": "Sắp 12 giờ rồi.",
+    "hint": "ナA・N に なります",
+    "explanation": "に: kết quả/trạng thái mới イA dùng くなります. Không viết ×静かなります; phải là 静かになります.",
+    "orderIndex": 1
+  },
+  {
+    "id": "77777777-1133-0003-0000-000001032001",
+    "patternId": "77777777-1133-0001-0000-000000010013",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Sắp 12 giờ rồi.",
+    "expectedAnswer": "もうすぐ12時になります。",
+    "acceptableAnswers": [
+      "もうすぐじゅうにじになります。"
+    ],
+    "hint": "元気です → 元気になります / 12時です → 12時になります",
+    "explanation": "に: kết quả/trạng thái mới イA dùng くなります. Không viết ×静かなります; phải là 静かになります.",
+    "orderIndex": 2
+  },
+  {
+    "id": "77777777-1133-0003-0000-000001042001",
+    "patternId": "77777777-1133-0001-0000-000000010013",
+    "exerciseType": "arrange",
+    "prompt": "Sắp 12 giờ rồi.",
+    "expectedAnswer": "もうすぐ12時 (もうすぐじゅう)になります",
+    "optionsJson": "[\"に\",\"も\",\"なります\",\"うすぐ12時 (もうすぐじゅう)\"]",
+    "options": [
+      "に",
+      "も",
+      "なります",
+      "うすぐ12時 (もうすぐじゅう)"
+    ],
+    "correctOrderJson": "[\"も\",\"うすぐ12時 (もうすぐじゅう)\",\"に\",\"なります\"]",
+    "correctOrder": [
+      "も",
+      "うすぐ12時 (もうすぐじゅう)",
+      "に",
+      "なります"
+    ],
+    "orderIndex": 3
+  },
+  {
+    "id": "77777777-1133-0003-0000-000001022002",
+    "patternId": "77777777-1133-0001-0000-000000010013",
+    "exerciseType": "ja_to_vi",
+    "prompt": "町は静かになりました。",
+    "promptReading": "まちはしずかになりました。",
+    "expectedAnswer": "Thị trấn đã trở nên yên tĩnh.",
+    "hint": "ナA・N に なります",
+    "explanation": "に: kết quả/trạng thái mới イA dùng くなります. Không viết ×静かなります; phải là 静かになります.",
+    "orderIndex": 4
+  },
+  {
+    "id": "77777777-1133-0003-0000-000001032002",
+    "patternId": "77777777-1133-0001-0000-000000010013",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Thị trấn đã trở nên yên tĩnh.",
+    "expectedAnswer": "町は静かになりました。",
+    "acceptableAnswers": [
+      "まちはしずかになりました。"
+    ],
+    "hint": "元気です → 元気になります / 12時です → 12時になります",
+    "explanation": "に: kết quả/trạng thái mới イA dùng くなります. Không viết ×静かなります; phải là 静かになります.",
+    "orderIndex": 5
+  },
+  {
+    "id": "77777777-1133-0003-0000-000001042002",
+    "patternId": "77777777-1133-0001-0000-000000010013",
+    "exerciseType": "arrange",
+    "prompt": "Thị trấn đã trở nên yên tĩnh.",
+    "expectedAnswer": "町 (まち)は静か (しずか)になりました",
+    "optionsJson": "[\"に\",\"は\",\"町 (まち)\",\"なりました\",\"静か (しずか)\"]",
+    "options": [
+      "に",
+      "は",
+      "町 (まち)",
+      "なりました",
+      "静か (しずか)"
+    ],
+    "correctOrderJson": "[\"町 (まち)\",\"は\",\"静か (しずか)\",\"に\",\"なりました\"]",
+    "correctOrder": [
+      "町 (まち)",
+      "は",
+      "静か (しずか)",
+      "に",
+      "なりました"
+    ],
+    "orderIndex": 6
+  },
+  {
+    "id": "77777777-1133-0003-0000-000001052001",
+    "patternId": "77777777-1133-0001-0000-000000010013",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Chuyển 12時 sang “trở thành/đến 12 giờ”.",
+    "expectedAnswer": "12時になります。",
+    "acceptableAnswers": [],
+    "acceptableAnswersJson": "[]",
+    "hint": "",
+    "explanation": "N: N + に + なります.",
+    "options": [],
+    "correctOrder": [],
+    "orderIndex": 1
+  }
+]

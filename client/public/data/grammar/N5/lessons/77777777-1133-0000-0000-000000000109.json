@@ -1,0 +1,1701 @@
+{
+  "lesson": {
+    "id": "77777777-1133-0000-0000-000000000109",
+    "level": "N5",
+    "courseCode": "jpd133",
+    "lessonNumber": 9,
+    "title": "JPD133 Bài 9",
+    "description": "JPD133 Bài 9 – ngữ pháp và bài tập.",
+    "patternCount": 8,
+    "accessTier": "premium",
+    "packageCode": "jpd133",
+    "isLocked": true,
+    "inStudyCount": 0,
+    "masteredCount": 0,
+    "dueCount": 0
+  },
+  "patterns": [
+    {
+      "id": "77777777-1133-0001-0000-000000009001",
+      "lessonId": "77777777-1133-0000-0000-000000000109",
+      "level": "N5",
+      "courseCode": "jpd133",
+      "pattern": "V辞書形 + ことです",
+      "title": "Danh từ hóa động từ bằng こと",
+      "meaning": "việc…; sở thích là làm…",
+      "structure": "私の趣味は + V辞書形 + ことです",
+      "accessTier": "premium",
+      "packageCode": "jpd133",
+      "isLocked": true,
+      "isInStudy": false,
+      "progress": null,
+      "usageScope": "Dùng こと để biến hành động thành một danh ngữ; trong bài dùng đặc biệt để nói sở thích.",
+      "formation": "見ます → 見ること / 読みます → 読むこと / します → すること",
+      "notes": "は: chủ đề sở thích; を trong cụm động từ giữ nguyên nếu động từ cần tân ngữ Nができます là khả năng danh từ; Vことができます là khả năng hành động. × 映画を見ますことです; phải dùng 見ることです.",
+      "examples": [
+        {
+          "id": "77777777-1133-0002-0000-000000900001",
+          "japanese": "私の趣味は映画を見ることです。",
+          "reading": "わたしのしゅみはえいがをみることです。",
+          "meaning": "Sở thích của tôi là xem phim.",
+          "orderIndex": 1
+        },
+        {
+          "id": "77777777-1133-0002-0000-000000900002",
+          "japanese": "私の趣味は音楽を聞くことです。",
+          "reading": "わたしのしゅみはおんがくをきくことです。",
+          "meaning": "Sở thích của tôi là nghe nhạc.",
+          "orderIndex": 2
+        }
+      ],
+      "exercises": [
+        {
+          "id": "77777777-1133-0003-0000-000000910001",
+          "patternId": "77777777-1133-0001-0000-000000009001",
+          "exerciseType": "ja_to_vi",
+          "prompt": "私の趣味は映画を見ることです。",
+          "promptReading": "わたしのしゅみはえいがをみることです。",
+          "expectedAnswer": "Sở thích của tôi là xem phim.",
+          "hint": "V辞書形 + ことです",
+          "explanation": "は: chủ đề sở thích; を trong cụm động từ giữ nguyên nếu động từ cần tân ngữ Nができます là khả năng danh từ; Vことができます là khả năng hành động. × 映画を見ますことです; phải dùng 見ることです.",
+          "orderIndex": 1
+        },
+        {
+          "id": "77777777-1133-0003-0000-000000920001",
+          "patternId": "77777777-1133-0001-0000-000000009001",
+          "exerciseType": "vi_to_ja",
+          "prompt": "Sở thích của tôi là xem phim.",
+          "expectedAnswer": "私の趣味は映画を見ることです。",
+          "acceptableAnswers": [
+            "わたしのしゅみはえいがをみることです。"
+          ],
+          "hint": "見ます → 見ること / 読みます → 読むこと / します → すること",
+          "explanation": "は: chủ đề sở thích; を trong cụm động từ giữ nguyên nếu động từ cần tân ngữ Nができます là khả năng danh từ; Vことができます là khả năng hành động. × 映画を見ますことです; phải dùng 見ることです.",
+          "orderIndex": 2
+        },
+        {
+          "id": "77777777-1133-0003-0000-000000930001",
+          "patternId": "77777777-1133-0001-0000-000000009001",
+          "exerciseType": "arrange",
+          "prompt": "Sở thích của tôi là xem phim.",
+          "expectedAnswer": "私 (わたし)の趣味 (しゅみ)は映画 (えいが)を見るこ (みるこ)とです",
+          "optionsJson": "[\"と\",\"の\",\"は\",\"を\",\"です\",\"私 (わたし)\",\"映画 (えいが)\",\"趣味 (しゅみ)\",\"見るこ (みるこ)\"]",
+          "options": [
+            "と",
+            "の",
+            "は",
+            "を",
+            "です",
+            "私 (わたし)",
+            "映画 (えいが)",
+            "趣味 (しゅみ)",
+            "見るこ (みるこ)"
+          ],
+          "correctOrderJson": "[\"私 (わたし)\",\"の\",\"趣味 (しゅみ)\",\"は\",\"映画 (えいが)\",\"を\",\"見るこ (みるこ)\",\"と\",\"です\"]",
+          "correctOrder": [
+            "私 (わたし)",
+            "の",
+            "趣味 (しゅみ)",
+            "は",
+            "映画 (えいが)",
+            "を",
+            "見るこ (みるこ)",
+            "と",
+            "です"
+          ],
+          "orderIndex": 3
+        },
+        {
+          "id": "77777777-1133-0003-0000-000000910002",
+          "patternId": "77777777-1133-0001-0000-000000009001",
+          "exerciseType": "ja_to_vi",
+          "prompt": "私の趣味は音楽を聞くことです。",
+          "promptReading": "わたしのしゅみはおんがくをきくことです。",
+          "expectedAnswer": "Sở thích của tôi là nghe nhạc.",
+          "hint": "V辞書形 + ことです",
+          "explanation": "は: chủ đề sở thích; を trong cụm động từ giữ nguyên nếu động từ cần tân ngữ Nができます là khả năng danh từ; Vことができます là khả năng hành động. × 映画を見ますことです; phải dùng 見ることです.",
+          "orderIndex": 4
+        },
+        {
+          "id": "77777777-1133-0003-0000-000000920002",
+          "patternId": "77777777-1133-0001-0000-000000009001",
+          "exerciseType": "vi_to_ja",
+          "prompt": "Sở thích của tôi là nghe nhạc.",
+          "expectedAnswer": "私の趣味は音楽を聞くことです。",
+          "acceptableAnswers": [
+            "わたしのしゅみはおんがくをきくことです。"
+          ],
+          "hint": "見ます → 見ること / 読みます → 読むこと / します → すること",
+          "explanation": "は: chủ đề sở thích; を trong cụm động từ giữ nguyên nếu động từ cần tân ngữ Nができます là khả năng danh từ; Vことができます là khả năng hành động. × 映画を見ますことです; phải dùng 見ることです.",
+          "orderIndex": 5
+        },
+        {
+          "id": "77777777-1133-0003-0000-000000930002",
+          "patternId": "77777777-1133-0001-0000-000000009001",
+          "exerciseType": "arrange",
+          "prompt": "Sở thích của tôi là nghe nhạc.",
+          "expectedAnswer": "私 (わたし)の趣味 (しゅみ)は音楽 (おんがく)を聞くこ (きくこ)とです",
+          "optionsJson": "[\"と\",\"の\",\"は\",\"を\",\"です\",\"私 (わたし)\",\"聞くこ (きくこ)\",\"趣味 (しゅみ)\",\"音楽 (おんがく)\"]",
+          "options": [
+            "と",
+            "の",
+            "は",
+            "を",
+            "です",
+            "私 (わたし)",
+            "聞くこ (きくこ)",
+            "趣味 (しゅみ)",
+            "音楽 (おんがく)"
+          ],
+          "correctOrderJson": "[\"私 (わたし)\",\"の\",\"趣味 (しゅみ)\",\"は\",\"音楽 (おんがく)\",\"を\",\"聞くこ (きくこ)\",\"と\",\"です\"]",
+          "correctOrder": [
+            "私 (わたし)",
+            "の",
+            "趣味 (しゅみ)",
+            "は",
+            "音楽 (おんがく)",
+            "を",
+            "聞くこ (きくこ)",
+            "と",
+            "です"
+          ],
+          "orderIndex": 6
+        },
+        {
+          "id": "77777777-1133-0003-0000-000000940001",
+          "patternId": "77777777-1133-0001-0000-000000009001",
+          "exerciseType": "vi_to_ja",
+          "prompt": "私の趣味は映画を見る（　）です。",
+          "expectedAnswer": "こと",
+          "acceptableAnswers": [],
+          "acceptableAnswersJson": "[]",
+          "hint": "",
+          "explanation": "V辞書形 + ことです danh từ hóa động từ để nói sở thích.",
+          "options": [
+            "もの",
+            "こと",
+            "とき",
+            "ので"
+          ],
+          "optionsJson": "[\"もの\",\"こと\",\"とき\",\"ので\"]",
+          "correctOrder": [],
+          "orderIndex": 1
+        },
+        {
+          "id": "77777777-1133-0003-0000-000000940002",
+          "patternId": "77777777-1133-0001-0000-000000009001",
+          "exerciseType": "arrange",
+          "prompt": "ことです / 私の趣味は / 音楽を聞く",
+          "expectedAnswer": "私の趣味は音楽を聞くことです。",
+          "acceptableAnswers": [],
+          "acceptableAnswersJson": "[]",
+          "hint": "",
+          "explanation": "",
+          "options": [
+            "ことです",
+            "私の趣味は",
+            "音楽を聞く"
+          ],
+          "optionsJson": "[\"ことです\",\"私の趣味は\",\"音楽を聞く\"]",
+          "correctOrder": [
+            "私の趣味は",
+            "音楽を聞く",
+            "ことです"
+          ],
+          "correctOrderJson": "[\"私の趣味は\",\"音楽を聞く\",\"ことです\"]",
+          "orderIndex": 2
+        },
+        {
+          "id": "77777777-1133-0003-0000-000000940003",
+          "patternId": "77777777-1133-0001-0000-000000009001",
+          "exerciseType": "arrange",
+          "prompt": "映画を見ます / ご飯を食べて / 友達と",
+          "expectedAnswer": "友達とご飯を食べて、映画を見ます。",
+          "acceptableAnswers": [],
+          "acceptableAnswersJson": "[]",
+          "hint": "",
+          "explanation": "",
+          "options": [
+            "映画を見ます",
+            "ご飯を食べて",
+            "友達と"
+          ],
+          "optionsJson": "[\"映画を見ます\",\"ご飯を食べて\",\"友達と\"]",
+          "correctOrder": [
+            "友達と",
+            "ご飯を食べて",
+            "映画を見ます"
+          ],
+          "correctOrderJson": "[\"友達と\",\"ご飯を食べて\",\"映画を見ます\"]",
+          "orderIndex": 3
+        },
+        {
+          "id": "77777777-1133-0003-0000-000000940004",
+          "patternId": "77777777-1133-0001-0000-000000009001",
+          "exerciseType": "vi_to_ja",
+          "prompt": "Sở thích của tôi là xem phim.",
+          "expectedAnswer": "私の趣味は映画を見ることです。",
+          "acceptableAnswers": [],
+          "acceptableAnswersJson": "[]",
+          "hint": "",
+          "explanation": "",
+          "options": [],
+          "correctOrder": [],
+          "orderIndex": 4
+        },
+        {
+          "id": "77777777-1133-0003-0000-000000940005",
+          "patternId": "77777777-1133-0001-0000-000000009001",
+          "exerciseType": "vi_to_ja",
+          "prompt": "Gần đây tôi hoàn toàn không chơi thể thao.",
+          "expectedAnswer": "最近、全然スポーツをしません。",
+          "acceptableAnswers": [],
+          "acceptableAnswersJson": "[]",
+          "hint": "",
+          "explanation": "",
+          "options": [],
+          "correctOrder": [],
+          "orderIndex": 5
+        },
+        {
+          "id": "77777777-1133-0003-0000-000000940006",
+          "patternId": "77777777-1133-0001-0000-000000009001",
+          "exerciseType": "vi_to_ja",
+          "prompt": "私は料理＿＿作ることができます。",
+          "expectedAnswer": "を",
+          "acceptableAnswers": [],
+          "acceptableAnswersJson": "[]",
+          "hint": "",
+          "explanation": "料理を作る: 料理 là tân ngữ của 作る.",
+          "options": [
+            "が",
+            "に",
+            "を",
+            "で"
+          ],
+          "optionsJson": "[\"が\",\"に\",\"を\",\"で\"]",
+          "correctOrder": [],
+          "orderIndex": 6
+        },
+        {
+          "id": "77777777-1133-0003-0000-000000940007",
+          "patternId": "77777777-1133-0001-0000-000000009001",
+          "exerciseType": "vi_to_ja",
+          "prompt": "Chuyển 見ます sang thể từ điển để dùng trước ことです.",
+          "expectedAnswer": "見る",
+          "acceptableAnswers": [],
+          "acceptableAnswersJson": "[]",
+          "hint": "",
+          "explanation": "見ます → 見る.",
+          "options": [],
+          "correctOrder": [],
+          "orderIndex": 7
+        },
+        {
+          "id": "77777777-1133-0003-0000-000000940008",
+          "patternId": "77777777-1133-0001-0000-000000009001",
+          "exerciseType": "vi_to_ja",
+          "prompt": "Chuyển します sang thể て.",
+          "expectedAnswer": "して",
+          "acceptableAnswers": [],
+          "acceptableAnswersJson": "[]",
+          "hint": "",
+          "explanation": "します → して.",
+          "options": [],
+          "correctOrder": [],
+          "orderIndex": 8
+        }
+      ]
+    },
+    {
+      "id": "77777777-1133-0001-0000-000000009002",
+      "lessonId": "77777777-1133-0000-0000-000000000109",
+      "level": "N5",
+      "courseCode": "jpd133",
+      "pattern": "いつも／よく／ときどき／あまり／全然",
+      "title": "Trạng từ tần suất",
+      "meaning": "luôn luôn / thường / đôi khi / không… lắm / hoàn toàn không",
+      "structure": "[trạng từ tần suất] + Vます; あまり／全然 + Vません",
+      "accessTier": "premium",
+      "packageCode": "jpd133",
+      "isLocked": true,
+      "isInStudy": false,
+      "progress": null,
+      "usageScope": "Dùng để biểu thị mức độ thường xuyên của hành động. Theo tài liệu, あまり và 全然 thường đi với phủ định.",
+      "formation": "よくします / ときどきします / あまりしません / 全然しません",
+      "notes": "Trợ từ phụ thuộc vào động từ của câu Không nhầm 全然 trong mẫu cơ bản của bài với cách dùng khẩu ngữ hiện đại khác. Không dùng あまり/全然 với khẳng định khi đang theo đúng phạm vi ngữ pháp của bài.",
+      "examples": [
+        {
+          "id": "77777777-1133-0002-0000-000000901001",
+          "japanese": "ナタポンさんはよくサッカーをしますか。――いいえ、あまりしません。",
+          "reading": "ナタポンさんはよくサッカーをしますか。――いいえ、あまりしません。",
+          "meaning": "Natapon có thường chơi bóng đá không? — Không, không chơi nhiều lắm.",
+          "orderIndex": 1
+        },
+        {
+          "id": "77777777-1133-0002-0000-000000901002",
+          "japanese": "私はときどき映画を見ます。",
+          "reading": "わたしはときどきえいがをみます。",
+          "meaning": "Tôi thỉnh thoảng xem phim.",
+          "orderIndex": 2
+        }
+      ],
+      "exercises": [
+        {
+          "id": "77777777-1133-0003-0000-000000911001",
+          "patternId": "77777777-1133-0001-0000-000000009002",
+          "exerciseType": "ja_to_vi",
+          "prompt": "ナタポンさんはよくサッカーをしますか。――いいえ、あまりしません。",
+          "promptReading": "ナタポンさんはよくサッカーをしますか。――いいえ、あまりしません。",
+          "expectedAnswer": "Natapon có thường chơi bóng đá không? — Không, không chơi nhiều lắm.",
+          "hint": "いつも／よく／ときどき／あまり／全然",
+          "explanation": "Trợ từ phụ thuộc vào động từ của câu Không nhầm 全然 trong mẫu cơ bản của bài với cách dùng khẩu ngữ hiện đại khác. Không dùng あまり/全然 với khẳng định khi đang theo đúng phạm vi ngữ pháp của bài.",
+          "orderIndex": 1
+        },
+        {
+          "id": "77777777-1133-0003-0000-000000921001",
+          "patternId": "77777777-1133-0001-0000-000000009002",
+          "exerciseType": "vi_to_ja",
+          "prompt": "Natapon có thường chơi bóng đá không? — Không, không chơi nhiều lắm.",
+          "expectedAnswer": "ナタポンさんはよくサッカーをしますか。――いいえ、あまりしません。",
+          "acceptableAnswers": [
+            "ナタポンさんはよくサッカーをしますか。――いいえ、あまりしません。"
+          ],
+          "hint": "よくします / ときどきします / あまりしません / 全然しません",
+          "explanation": "Trợ từ phụ thuộc vào động từ của câu Không nhầm 全然 trong mẫu cơ bản của bài với cách dùng khẩu ngữ hiện đại khác. Không dùng あまり/全然 với khẳng định khi đang theo đúng phạm vi ngữ pháp của bài.",
+          "orderIndex": 2
+        },
+        {
+          "id": "77777777-1133-0003-0000-000000931001",
+          "patternId": "77777777-1133-0001-0000-000000009002",
+          "exerciseType": "arrange",
+          "prompt": "Natapon có thường chơi bóng đá không? — Không, không chơi nhiều lắm.",
+          "expectedAnswer": "ナタポンさんはよくサッカーをしますか。――いいえ、あまりしません",
+          "optionsJson": "[\"は\",\"を\",\"よくサッカー\",\"ナタポンさん\",\"しますか。――いいえ、あまりしません\"]",
+          "options": [
+            "は",
+            "を",
+            "よくサッカー",
+            "ナタポンさん",
+            "しますか。――いいえ、あまりしません"
+          ],
+          "correctOrderJson": "[\"ナタポンさん\",\"は\",\"よくサッカー\",\"を\",\"しますか。――いいえ、あまりしません\"]",
+          "correctOrder": [
+            "ナタポンさん",
+            "は",
+            "よくサッカー",
+            "を",
+            "しますか。――いいえ、あまりしません"
+          ],
+          "orderIndex": 3
+        },
+        {
+          "id": "77777777-1133-0003-0000-000000911002",
+          "patternId": "77777777-1133-0001-0000-000000009002",
+          "exerciseType": "ja_to_vi",
+          "prompt": "私はときどき映画を見ます。",
+          "promptReading": "わたしはときどきえいがをみます。",
+          "expectedAnswer": "Tôi thỉnh thoảng xem phim.",
+          "hint": "いつも／よく／ときどき／あまり／全然",
+          "explanation": "Trợ từ phụ thuộc vào động từ của câu Không nhầm 全然 trong mẫu cơ bản của bài với cách dùng khẩu ngữ hiện đại khác. Không dùng あまり/全然 với khẳng định khi đang theo đúng phạm vi ngữ pháp của bài.",
+          "orderIndex": 4
+        },
+        {
+          "id": "77777777-1133-0003-0000-000000921002",
+          "patternId": "77777777-1133-0001-0000-000000009002",
+          "exerciseType": "vi_to_ja",
+          "prompt": "Tôi thỉnh thoảng xem phim.",
+          "expectedAnswer": "私はときどき映画を見ます。",
+          "acceptableAnswers": [
+            "わたしはときどきえいがをみます。"
+          ],
+          "hint": "よくします / ときどきします / あまりしません / 全然しません",
+          "explanation": "Trợ từ phụ thuộc vào động từ của câu Không nhầm 全然 trong mẫu cơ bản của bài với cách dùng khẩu ngữ hiện đại khác. Không dùng あまり/全然 với khẳng định khi đang theo đúng phạm vi ngữ pháp của bài.",
+          "orderIndex": 5
+        },
+        {
+          "id": "77777777-1133-0003-0000-000000931002",
+          "patternId": "77777777-1133-0001-0000-000000009002",
+          "exerciseType": "arrange",
+          "prompt": "Tôi thỉnh thoảng xem phim.",
+          "expectedAnswer": "私 (わたし)はときどき映画 (ときどきえいが)を見ます (みます)",
+          "optionsJson": "[\"と\",\"は\",\"を\",\"私 (わたし)\",\"見ます (みます)\",\"きどき映画 (ときどきえいが)\"]",
+          "options": [
+            "と",
+            "は",
+            "を",
+            "私 (わたし)",
+            "見ます (みます)",
+            "きどき映画 (ときどきえいが)"
+          ],
+          "correctOrderJson": "[\"私 (わたし)\",\"は\",\"と\",\"きどき映画 (ときどきえいが)\",\"を\",\"見ます (みます)\"]",
+          "correctOrder": [
+            "私 (わたし)",
+            "は",
+            "と",
+            "きどき映画 (ときどきえいが)",
+            "を",
+            "見ます (みます)"
+          ],
+          "orderIndex": 6
+        },
+        {
+          "id": "77777777-1133-0003-0000-000000941001",
+          "patternId": "77777777-1133-0001-0000-000000009002",
+          "exerciseType": "vi_to_ja",
+          "prompt": "私は（　）映画を見ます。",
+          "expectedAnswer": "ときどき",
+          "acceptableAnswers": [],
+          "acceptableAnswersJson": "[]",
+          "hint": "",
+          "explanation": "ときどき nghĩa là “thỉnh thoảng”.",
+          "options": [
+            "全然",
+            "あまり",
+            "ときどき",
+            "まだ"
+          ],
+          "optionsJson": "[\"全然\",\"あまり\",\"ときどき\",\"まだ\"]",
+          "correctOrder": [],
+          "orderIndex": 1
+        },
+        {
+          "id": "77777777-1133-0003-0000-000000941002",
+          "patternId": "77777777-1133-0001-0000-000000009002",
+          "exerciseType": "vi_to_ja",
+          "prompt": "Tôi thỉnh thoảng xem phim.",
+          "expectedAnswer": "私はときどき映画を見ます。",
+          "acceptableAnswers": [],
+          "acceptableAnswersJson": "[]",
+          "hint": "",
+          "explanation": "",
+          "options": [],
+          "correctOrder": [],
+          "orderIndex": 2
+        }
+      ]
+    },
+    {
+      "id": "77777777-1133-0001-0000-000000009003",
+      "lessonId": "77777777-1133-0000-0000-000000000109",
+      "level": "N5",
+      "courseCode": "jpd133",
+      "pattern": "でも",
+      "title": "Liên từ đối lập",
+      "meaning": "nhưng",
+      "structure": "Câu 1。+ でも、+ Câu 2。",
+      "accessTier": "premium",
+      "packageCode": "jpd133",
+      "isLocked": true,
+      "isInStudy": false,
+      "progress": null,
+      "usageScope": "Dùng để nối hai câu có nội dung đối lập hoặc tương phản.",
+      "formation": "Đứng đầu câu thứ hai",
+      "notes": "Không phải trợ từ trong mẫu này; là liên từ ～は～が trong bài 11 cũng biểu thị đối lập nhưng cấu trúc khác. Không gắn でも trực tiếp như đuôi biến đổi của tính từ/động từ.",
+      "examples": [
+        {
+          "id": "77777777-1133-0002-0000-000000902001",
+          "japanese": "私の趣味はスポーツです。でも、最近、全然しません。",
+          "reading": "わたしのしゅみはスポーツです。でも、さいきん、ぜんぜんしません。",
+          "meaning": "Sở thích của tôi là thể thao. Nhưng gần đây tôi hoàn toàn không chơi.",
+          "orderIndex": 1
+        },
+        {
+          "id": "77777777-1133-0002-0000-000000902002",
+          "japanese": "旅行が好きです。でも、あまり行きません。",
+          "reading": "りょこうがすきです。でも、あまりいきません。",
+          "meaning": "Tôi thích du lịch. Nhưng tôi không đi nhiều lắm.",
+          "orderIndex": 2
+        }
+      ],
+      "exercises": [
+        {
+          "id": "77777777-1133-0003-0000-000000912001",
+          "patternId": "77777777-1133-0001-0000-000000009003",
+          "exerciseType": "ja_to_vi",
+          "prompt": "私の趣味はスポーツです。でも、最近、全然しません。",
+          "promptReading": "わたしのしゅみはスポーツです。でも、さいきん、ぜんぜんしません。",
+          "expectedAnswer": "Sở thích của tôi là thể thao. Nhưng gần đây tôi hoàn toàn không chơi.",
+          "hint": "でも",
+          "explanation": "Không phải trợ từ trong mẫu này; là liên từ ～は～が trong bài 11 cũng biểu thị đối lập nhưng cấu trúc khác. Không gắn でも trực tiếp như đuôi biến đổi của tính từ/động từ.",
+          "orderIndex": 1
+        },
+        {
+          "id": "77777777-1133-0003-0000-000000922001",
+          "patternId": "77777777-1133-0001-0000-000000009003",
+          "exerciseType": "vi_to_ja",
+          "prompt": "Sở thích của tôi là thể thao. Nhưng gần đây tôi hoàn toàn không chơi.",
+          "expectedAnswer": "私の趣味はスポーツです。でも、最近、全然しません。",
+          "acceptableAnswers": [
+            "わたしのしゅみはスポーツです。でも、さいきん、ぜんぜんしません。"
+          ],
+          "hint": "Đứng đầu câu thứ hai",
+          "explanation": "Không phải trợ từ trong mẫu này; là liên từ ～は～が trong bài 11 cũng biểu thị đối lập nhưng cấu trúc khác. Không gắn でも trực tiếp như đuôi biến đổi của tính từ/động từ.",
+          "orderIndex": 2
+        },
+        {
+          "id": "77777777-1133-0003-0000-000000932001",
+          "patternId": "77777777-1133-0001-0000-000000009003",
+          "exerciseType": "arrange",
+          "prompt": "Sở thích của tôi là thể thao. Nhưng gần đây tôi hoàn toàn không chơi.",
+          "expectedAnswer": "私 (わたし)の趣味 (しゅみ)はスポーツです。でも、最近、全然しません (、さいきん、ぜんぜんしません)",
+          "optionsJson": "[\"の\",\"は\",\"も\",\"。で\",\"です\",\"スポーツ\",\"私 (わたし)\",\"趣味 (しゅみ)\",\"、最近、全然しません (、さいきん、ぜんぜんしません)\"]",
+          "options": [
+            "の",
+            "は",
+            "も",
+            "。で",
+            "です",
+            "スポーツ",
+            "私 (わたし)",
+            "趣味 (しゅみ)",
+            "、最近、全然しません (、さいきん、ぜんぜんしません)"
+          ],
+          "correctOrderJson": "[\"私 (わたし)\",\"の\",\"趣味 (しゅみ)\",\"は\",\"スポーツ\",\"です\",\"。で\",\"も\",\"、最近、全然しません (、さいきん、ぜんぜんしません)\"]",
+          "correctOrder": [
+            "私 (わたし)",
+            "の",
+            "趣味 (しゅみ)",
+            "は",
+            "スポーツ",
+            "です",
+            "。で",
+            "も",
+            "、最近、全然しません (、さいきん、ぜんぜんしません)"
+          ],
+          "orderIndex": 3
+        },
+        {
+          "id": "77777777-1133-0003-0000-000000912002",
+          "patternId": "77777777-1133-0001-0000-000000009003",
+          "exerciseType": "ja_to_vi",
+          "prompt": "旅行が好きです。でも、あまり行きません。",
+          "promptReading": "りょこうがすきです。でも、あまりいきません。",
+          "expectedAnswer": "Tôi thích du lịch. Nhưng tôi không đi nhiều lắm.",
+          "hint": "でも",
+          "explanation": "Không phải trợ từ trong mẫu này; là liên từ ～は～が trong bài 11 cũng biểu thị đối lập nhưng cấu trúc khác. Không gắn でも trực tiếp như đuôi biến đổi của tính từ/động từ.",
+          "orderIndex": 4
+        },
+        {
+          "id": "77777777-1133-0003-0000-000000922002",
+          "patternId": "77777777-1133-0001-0000-000000009003",
+          "exerciseType": "vi_to_ja",
+          "prompt": "Tôi thích du lịch. Nhưng tôi không đi nhiều lắm.",
+          "expectedAnswer": "旅行が好きです。でも、あまり行きません。",
+          "acceptableAnswers": [
+            "りょこうがすきです。でも、あまりいきません。"
+          ],
+          "hint": "Đứng đầu câu thứ hai",
+          "explanation": "Không phải trợ từ trong mẫu này; là liên từ ～は～が trong bài 11 cũng biểu thị đối lập nhưng cấu trúc khác. Không gắn でも trực tiếp như đuôi biến đổi của tính từ/động từ.",
+          "orderIndex": 5
+        },
+        {
+          "id": "77777777-1133-0003-0000-000000932002",
+          "patternId": "77777777-1133-0001-0000-000000009003",
+          "exerciseType": "arrange",
+          "prompt": "Tôi thích du lịch. Nhưng tôi không đi nhiều lắm.",
+          "expectedAnswer": "旅行 (りょこう)が好き (すき)です。でも、あまり行きません (、あまりいきません)",
+          "optionsJson": "[\"が\",\"も\",\"。で\",\"です\",\"好き (すき)\",\"旅行 (りょこう)\",\"、あまり行きません (、あまりいきません)\"]",
+          "options": [
+            "が",
+            "も",
+            "。で",
+            "です",
+            "好き (すき)",
+            "旅行 (りょこう)",
+            "、あまり行きません (、あまりいきません)"
+          ],
+          "correctOrderJson": "[\"旅行 (りょこう)\",\"が\",\"好き (すき)\",\"です\",\"。で\",\"も\",\"、あまり行きません (、あまりいきません)\"]",
+          "correctOrder": [
+            "旅行 (りょこう)",
+            "が",
+            "好き (すき)",
+            "です",
+            "。で",
+            "も",
+            "、あまり行きません (、あまりいきません)"
+          ],
+          "orderIndex": 6
+        },
+        {
+          "id": "77777777-1133-0003-0000-000000942001",
+          "patternId": "77777777-1133-0001-0000-000000009003",
+          "exerciseType": "vi_to_ja",
+          "prompt": "最近、（　）スポーツをしません。",
+          "expectedAnswer": "全然",
+          "acceptableAnswers": [],
+          "acceptableAnswersJson": "[]",
+          "hint": "",
+          "explanation": "Trong phạm vi bài, 全然 thường đi với phủ định: 全然～ません.",
+          "options": [
+            "全然",
+            "いつも",
+            "よく",
+            "もう"
+          ],
+          "optionsJson": "[\"全然\",\"いつも\",\"よく\",\"もう\"]",
+          "correctOrder": [],
+          "orderIndex": 1
+        },
+        {
+          "id": "77777777-1133-0003-0000-000000942002",
+          "patternId": "77777777-1133-0001-0000-000000009003",
+          "exerciseType": "vi_to_ja",
+          "prompt": "私はスキー（　）できます。",
+          "expectedAnswer": "が",
+          "acceptableAnswers": [],
+          "acceptableAnswersJson": "[]",
+          "hint": "",
+          "explanation": "Mẫu khả năng với danh từ là Nができます.",
+          "options": [
+            "を",
+            "で",
+            "が",
+            "に"
+          ],
+          "optionsJson": "[\"を\",\"で\",\"が\",\"に\"]",
+          "correctOrder": [],
+          "orderIndex": 2
+        },
+        {
+          "id": "77777777-1133-0003-0000-000000942003",
+          "patternId": "77777777-1133-0001-0000-000000009003",
+          "exerciseType": "vi_to_ja",
+          "prompt": "私は日本語を話すこと（　）できます。",
+          "expectedAnswer": "が",
+          "acceptableAnswers": [],
+          "acceptableAnswersJson": "[]",
+          "hint": "",
+          "explanation": "Mẫu là V辞書形 + ことができます.",
+          "options": [
+            "が",
+            "を",
+            "に",
+            "は"
+          ],
+          "optionsJson": "[\"が\",\"を\",\"に\",\"は\"]",
+          "correctOrder": [],
+          "orderIndex": 3
+        },
+        {
+          "id": "77777777-1133-0003-0000-000000942004",
+          "patternId": "77777777-1133-0001-0000-000000009003",
+          "exerciseType": "vi_to_ja",
+          "prompt": "私はスキー＿＿できます。",
+          "expectedAnswer": "が",
+          "acceptableAnswers": [],
+          "acceptableAnswersJson": "[]",
+          "hint": "",
+          "explanation": "Khả năng với danh từ dùng Nができます.",
+          "options": [
+            "を",
+            "が",
+            "に",
+            "で"
+          ],
+          "optionsJson": "[\"を\",\"が\",\"に\",\"で\"]",
+          "correctOrder": [],
+          "orderIndex": 4
+        },
+        {
+          "id": "77777777-1133-0003-0000-000000942005",
+          "patternId": "77777777-1133-0001-0000-000000009003",
+          "exerciseType": "vi_to_ja",
+          "prompt": "私は料理を作ること＿＿できません。",
+          "expectedAnswer": "が",
+          "acceptableAnswers": [],
+          "acceptableAnswersJson": "[]",
+          "hint": "",
+          "explanation": "Danh ngữ 料理を作ること đi với ができます／できません.",
+          "options": [
+            "を",
+            "で",
+            "が",
+            "に"
+          ],
+          "optionsJson": "[\"を\",\"で\",\"が\",\"に\"]",
+          "correctOrder": [],
+          "orderIndex": 5
+        }
+      ]
+    },
+    {
+      "id": "77777777-1133-0001-0000-000000009004",
+      "lessonId": "77777777-1133-0000-0000-000000000109",
+      "level": "N5",
+      "courseCode": "jpd133",
+      "pattern": "［Lượng thời gian］に［～回・冊・本］",
+      "title": "Tần suất theo một khoảng thời gian",
+      "meaning": "… lần/cuốn/chai trong mỗi khoảng thời gian",
+      "structure": "[khoảng thời gian] に + [số lượng/lần] + Vます",
+      "accessTier": "premium",
+      "packageCode": "jpd133",
+      "isLocked": true,
+      "isInStudy": false,
+      "progress": null,
+      "usageScope": "Dùng để nói một hành động xảy ra bao nhiêu lần hoặc số lượng bao nhiêu trong một khoảng thời gian nhất định.",
+      "formation": "1週間に2回 / 1か月に3冊 ...",
+      "notes": "に: mốc/phạm vi tần suất Trạng từ よく chỉ mức độ tần suất chung; ～に～回 cho con số cụ thể. Không dùng で thay に trong cấu trúc tần suất này.",
+      "examples": [
+        {
+          "id": "77777777-1133-0002-0000-000000903001",
+          "japanese": "1週間に2回、家族に電話します。",
+          "reading": "いっしゅうかんににかい、かぞくにでんわします。",
+          "meaning": "Một tuần tôi gọi điện cho gia đình hai lần.",
+          "orderIndex": 1
+        },
+        {
+          "id": "77777777-1133-0002-0000-000000903002",
+          "japanese": "1か月に3冊、本を読みます。",
+          "reading": "いっかげつにさんさつ、ほんをよみます。",
+          "meaning": "Mỗi tháng tôi đọc ba quyển sách.",
+          "orderIndex": 2
+        }
+      ],
+      "exercises": [
+        {
+          "id": "77777777-1133-0003-0000-000000913001",
+          "patternId": "77777777-1133-0001-0000-000000009004",
+          "exerciseType": "ja_to_vi",
+          "prompt": "1週間に2回、家族に電話します。",
+          "promptReading": "いっしゅうかんににかい、かぞくにでんわします。",
+          "expectedAnswer": "Một tuần tôi gọi điện cho gia đình hai lần.",
+          "hint": "［Lượng thời gian］に［～回・冊・本］",
+          "explanation": "に: mốc/phạm vi tần suất Trạng từ よく chỉ mức độ tần suất chung; ～に～回 cho con số cụ thể. Không dùng で thay に trong cấu trúc tần suất này.",
+          "orderIndex": 1
+        },
+        {
+          "id": "77777777-1133-0003-0000-000000923001",
+          "patternId": "77777777-1133-0001-0000-000000009004",
+          "exerciseType": "vi_to_ja",
+          "prompt": "Một tuần tôi gọi điện cho gia đình hai lần.",
+          "expectedAnswer": "1週間に2回、家族に電話します。",
+          "acceptableAnswers": [
+            "いっしゅうかんににかい、かぞくにでんわします。"
+          ],
+          "hint": "1週間に2回 / 1か月に3冊 ...",
+          "explanation": "に: mốc/phạm vi tần suất Trạng từ よく chỉ mức độ tần suất chung; ～に～回 cho con số cụ thể. Không dùng で thay に trong cấu trúc tần suất này.",
+          "orderIndex": 2
+        },
+        {
+          "id": "77777777-1133-0003-0000-000000933001",
+          "patternId": "77777777-1133-0001-0000-000000009004",
+          "exerciseType": "arrange",
+          "prompt": "Một tuần tôi gọi điện cho gia đình hai lần.",
+          "expectedAnswer": "1週間 (いっしゅうかん)に2回、家族に電話します (かい、かぞくにでんわします)",
+          "optionsJson": "[\"に\",\"に\",\"2回、家族\",\"1週間 (いっしゅうかん)\",\"電話します (かい、かぞくにでんわします)\"]",
+          "options": [
+            "に",
+            "に",
+            "2回、家族",
+            "1週間 (いっしゅうかん)",
+            "電話します (かい、かぞくにでんわします)"
+          ],
+          "correctOrderJson": "[\"1週間 (いっしゅうかん)\",\"に\",\"2回、家族\",\"に\",\"電話します (かい、かぞくにでんわします)\"]",
+          "correctOrder": [
+            "1週間 (いっしゅうかん)",
+            "に",
+            "2回、家族",
+            "に",
+            "電話します (かい、かぞくにでんわします)"
+          ],
+          "orderIndex": 3
+        },
+        {
+          "id": "77777777-1133-0003-0000-000000913002",
+          "patternId": "77777777-1133-0001-0000-000000009004",
+          "exerciseType": "ja_to_vi",
+          "prompt": "1か月に3冊、本を読みます。",
+          "promptReading": "いっかげつにさんさつ、ほんをよみます。",
+          "expectedAnswer": "Mỗi tháng tôi đọc ba quyển sách.",
+          "hint": "［Lượng thời gian］に［～回・冊・本］",
+          "explanation": "に: mốc/phạm vi tần suất Trạng từ よく chỉ mức độ tần suất chung; ～に～回 cho con số cụ thể. Không dùng で thay に trong cấu trúc tần suất này.",
+          "orderIndex": 4
+        },
+        {
+          "id": "77777777-1133-0003-0000-000000923002",
+          "patternId": "77777777-1133-0001-0000-000000009004",
+          "exerciseType": "vi_to_ja",
+          "prompt": "Mỗi tháng tôi đọc ba quyển sách.",
+          "expectedAnswer": "1か月に3冊、本を読みます。",
+          "acceptableAnswers": [
+            "いっかげつにさんさつ、ほんをよみます。"
+          ],
+          "hint": "1週間に2回 / 1か月に3冊 ...",
+          "explanation": "に: mốc/phạm vi tần suất Trạng từ よく chỉ mức độ tần suất chung; ～に～回 cho con số cụ thể. Không dùng で thay に trong cấu trúc tần suất này.",
+          "orderIndex": 5
+        },
+        {
+          "id": "77777777-1133-0003-0000-000000933002",
+          "patternId": "77777777-1133-0001-0000-000000009004",
+          "exerciseType": "arrange",
+          "prompt": "Mỗi tháng tôi đọc ba quyển sách.",
+          "expectedAnswer": "1か月 (いっかげつ)に3冊、本 (さんさつ、ほん)を読みます (よみます)",
+          "optionsJson": "[\"に\",\"を\",\"1か月 (いっかげつ)\",\"読みます (よみます)\",\"3冊、本 (さんさつ、ほん)\"]",
+          "options": [
+            "に",
+            "を",
+            "1か月 (いっかげつ)",
+            "読みます (よみます)",
+            "3冊、本 (さんさつ、ほん)"
+          ],
+          "correctOrderJson": "[\"1か月 (いっかげつ)\",\"に\",\"3冊、本 (さんさつ、ほん)\",\"を\",\"読みます (よみます)\"]",
+          "correctOrder": [
+            "1か月 (いっかげつ)",
+            "に",
+            "3冊、本 (さんさつ、ほん)",
+            "を",
+            "読みます (よみます)"
+          ],
+          "orderIndex": 6
+        },
+        {
+          "id": "77777777-1133-0003-0000-000000943001",
+          "patternId": "77777777-1133-0001-0000-000000009004",
+          "exerciseType": "vi_to_ja",
+          "prompt": "1週間（　）2回、家族に電話します。",
+          "expectedAnswer": "に",
+          "acceptableAnswers": [],
+          "acceptableAnswersJson": "[]",
+          "hint": "",
+          "explanation": "Tần suất theo khoảng thời gian dùng [khoảng thời gian] に [số lần].",
+          "options": [
+            "を",
+            "に",
+            "が",
+            "で"
+          ],
+          "optionsJson": "[\"を\",\"に\",\"が\",\"で\"]",
+          "correctOrder": [],
+          "orderIndex": 1
+        },
+        {
+          "id": "77777777-1133-0003-0000-000000943002",
+          "patternId": "77777777-1133-0001-0000-000000009004",
+          "exerciseType": "arrange",
+          "prompt": "2回 / 1週間に / 電話します / 家族に",
+          "expectedAnswer": "1週間に2回、家族に電話します。",
+          "acceptableAnswers": [],
+          "acceptableAnswersJson": "[]",
+          "hint": "",
+          "explanation": "",
+          "options": [
+            "2回",
+            "1週間に",
+            "電話します",
+            "家族に"
+          ],
+          "optionsJson": "[\"2回\",\"1週間に\",\"電話します\",\"家族に\"]",
+          "correctOrder": [
+            "1週間に",
+            "2回",
+            "家族に",
+            "電話します"
+          ],
+          "correctOrderJson": "[\"1週間に\",\"2回\",\"家族に\",\"電話します\"]",
+          "orderIndex": 2
+        },
+        {
+          "id": "77777777-1133-0003-0000-000000943003",
+          "patternId": "77777777-1133-0001-0000-000000009004",
+          "exerciseType": "vi_to_ja",
+          "prompt": "Một tuần tôi gọi điện cho gia đình hai lần.",
+          "expectedAnswer": "1週間に2回、家族に電話します。",
+          "acceptableAnswers": [],
+          "acceptableAnswersJson": "[]",
+          "hint": "",
+          "explanation": "",
+          "options": [],
+          "correctOrder": [],
+          "orderIndex": 3
+        },
+        {
+          "id": "77777777-1133-0003-0000-000000943004",
+          "patternId": "77777777-1133-0001-0000-000000009004",
+          "exerciseType": "vi_to_ja",
+          "prompt": "1週間＿＿2回、家族に電話します。",
+          "expectedAnswer": "に",
+          "acceptableAnswers": [],
+          "acceptableAnswersJson": "[]",
+          "hint": "",
+          "explanation": "Chu kỳ tần suất dùng に.",
+          "options": [
+            "に",
+            "で",
+            "を",
+            "が"
+          ],
+          "optionsJson": "[\"に\",\"で\",\"を\",\"が\"]",
+          "correctOrder": [],
+          "orderIndex": 4
+        }
+      ]
+    },
+    {
+      "id": "77777777-1133-0001-0000-000000009005",
+      "lessonId": "77777777-1133-0000-0000-000000000109",
+      "level": "N5",
+      "courseCode": "jpd133",
+      "pattern": "N が できます",
+      "title": "Khả năng với danh từ",
+      "meaning": "có thể / biết / giỏi N",
+      "structure": "N + が + できます",
+      "accessTier": "premium",
+      "packageCode": "jpd133",
+      "isLocked": true,
+      "isInStudy": false,
+      "progress": null,
+      "usageScope": "Dùng để nói có khả năng thực hiện một hoạt động được biểu thị bằng danh từ, hoặc biết một kỹ năng.",
+      "formation": "できます / できません",
+      "notes": "が: đánh dấu nội dung/kỹ năng có thể làm Vことができます: khả năng làm hành động; Nができます: khả năng với danh từ/kỹ năng. Không dùng を trước できます trong mẫu này: ×スキーをできます.",
+      "examples": [
+        {
+          "id": "77777777-1133-0002-0000-000000904001",
+          "japanese": "私はスキーができます。",
+          "reading": "わたしはスキーができます。",
+          "meaning": "Tôi có thể trượt tuyết.",
+          "orderIndex": 1
+        },
+        {
+          "id": "77777777-1133-0002-0000-000000904002",
+          "japanese": "姉はテニスができます。",
+          "reading": "あねはテニスができます。",
+          "meaning": "Chị tôi biết chơi tennis.",
+          "orderIndex": 2
+        }
+      ],
+      "exercises": [
+        {
+          "id": "77777777-1133-0003-0000-000000914001",
+          "patternId": "77777777-1133-0001-0000-000000009005",
+          "exerciseType": "ja_to_vi",
+          "prompt": "私はスキーができます。",
+          "promptReading": "わたしはスキーができます。",
+          "expectedAnswer": "Tôi có thể trượt tuyết.",
+          "hint": "N が できます",
+          "explanation": "が: đánh dấu nội dung/kỹ năng có thể làm Vことができます: khả năng làm hành động; Nができます: khả năng với danh từ/kỹ năng. Không dùng を trước できます trong mẫu này: ×スキーをできます.",
+          "orderIndex": 1
+        },
+        {
+          "id": "77777777-1133-0003-0000-000000924001",
+          "patternId": "77777777-1133-0001-0000-000000009005",
+          "exerciseType": "vi_to_ja",
+          "prompt": "Tôi có thể trượt tuyết.",
+          "expectedAnswer": "私はスキーができます。",
+          "acceptableAnswers": [
+            "わたしはスキーができます。"
+          ],
+          "hint": "できます / できません",
+          "explanation": "が: đánh dấu nội dung/kỹ năng có thể làm Vことができます: khả năng làm hành động; Nができます: khả năng với danh từ/kỹ năng. Không dùng を trước できます trong mẫu này: ×スキーをできます.",
+          "orderIndex": 2
+        },
+        {
+          "id": "77777777-1133-0003-0000-000000934001",
+          "patternId": "77777777-1133-0001-0000-000000009005",
+          "exerciseType": "arrange",
+          "prompt": "Tôi có thể trượt tuyết.",
+          "expectedAnswer": "私 (わたし)はスキーができます",
+          "optionsJson": "[\"が\",\"は\",\"スキー\",\"できます\",\"私 (わたし)\"]",
+          "options": [
+            "が",
+            "は",
+            "スキー",
+            "できます",
+            "私 (わたし)"
+          ],
+          "correctOrderJson": "[\"私 (わたし)\",\"は\",\"スキー\",\"が\",\"できます\"]",
+          "correctOrder": [
+            "私 (わたし)",
+            "は",
+            "スキー",
+            "が",
+            "できます"
+          ],
+          "orderIndex": 3
+        },
+        {
+          "id": "77777777-1133-0003-0000-000000914002",
+          "patternId": "77777777-1133-0001-0000-000000009005",
+          "exerciseType": "ja_to_vi",
+          "prompt": "姉はテニスができます。",
+          "promptReading": "あねはテニスができます。",
+          "expectedAnswer": "Chị tôi biết chơi tennis.",
+          "hint": "N が できます",
+          "explanation": "が: đánh dấu nội dung/kỹ năng có thể làm Vことができます: khả năng làm hành động; Nができます: khả năng với danh từ/kỹ năng. Không dùng を trước できます trong mẫu này: ×スキーをできます.",
+          "orderIndex": 4
+        },
+        {
+          "id": "77777777-1133-0003-0000-000000924002",
+          "patternId": "77777777-1133-0001-0000-000000009005",
+          "exerciseType": "vi_to_ja",
+          "prompt": "Chị tôi biết chơi tennis.",
+          "expectedAnswer": "姉はテニスができます。",
+          "acceptableAnswers": [
+            "あねはテニスができます。"
+          ],
+          "hint": "できます / できません",
+          "explanation": "が: đánh dấu nội dung/kỹ năng có thể làm Vことができます: khả năng làm hành động; Nができます: khả năng với danh từ/kỹ năng. Không dùng を trước できます trong mẫu này: ×スキーをできます.",
+          "orderIndex": 5
+        },
+        {
+          "id": "77777777-1133-0003-0000-000000934002",
+          "patternId": "77777777-1133-0001-0000-000000009005",
+          "exerciseType": "arrange",
+          "prompt": "Chị tôi biết chơi tennis.",
+          "expectedAnswer": "姉 (あね)はテニスができます",
+          "optionsJson": "[\"が\",\"は\",\"テニス\",\"姉 (あね)\",\"できます\"]",
+          "options": [
+            "が",
+            "は",
+            "テニス",
+            "姉 (あね)",
+            "できます"
+          ],
+          "correctOrderJson": "[\"姉 (あね)\",\"は\",\"テニス\",\"が\",\"できます\"]",
+          "correctOrder": [
+            "姉 (あね)",
+            "は",
+            "テニス",
+            "が",
+            "できます"
+          ],
+          "orderIndex": 6
+        },
+        {
+          "id": "77777777-1133-0003-0000-000000944001",
+          "patternId": "77777777-1133-0001-0000-000000009005",
+          "exerciseType": "arrange",
+          "prompt": "できます / 私は / スキーが",
+          "expectedAnswer": "私はスキーができます。",
+          "acceptableAnswers": [],
+          "acceptableAnswersJson": "[]",
+          "hint": "",
+          "explanation": "",
+          "options": [
+            "できます",
+            "私は",
+            "スキーが"
+          ],
+          "optionsJson": "[\"できます\",\"私は\",\"スキーが\"]",
+          "correctOrder": [
+            "私は",
+            "スキーが",
+            "できます"
+          ],
+          "correctOrderJson": "[\"私は\",\"スキーが\",\"できます\"]",
+          "orderIndex": 1
+        },
+        {
+          "id": "77777777-1133-0003-0000-000000944002",
+          "patternId": "77777777-1133-0001-0000-000000009005",
+          "exerciseType": "vi_to_ja",
+          "prompt": "Tôi có thể trượt tuyết.",
+          "expectedAnswer": "私はスキーができます。",
+          "acceptableAnswers": [],
+          "acceptableAnswersJson": "[]",
+          "hint": "",
+          "explanation": "",
+          "options": [],
+          "correctOrder": [],
+          "orderIndex": 2
+        }
+      ]
+    },
+    {
+      "id": "77777777-1133-0001-0000-000000009006",
+      "lessonId": "77777777-1133-0000-0000-000000000109",
+      "level": "N5",
+      "courseCode": "jpd133",
+      "pattern": "V辞書形 + ことが できます",
+      "title": "Khả năng với động từ",
+      "meaning": "có thể làm…",
+      "structure": "V辞書形 + こと + が + できます",
+      "accessTier": "premium",
+      "packageCode": "jpd133",
+      "isLocked": true,
+      "isInStudy": false,
+      "progress": null,
+      "usageScope": "Dùng để diễn tả năng lực hoặc khả năng thực hiện một hành động.",
+      "formation": "作ります → 作ることができます; 話します → 話すことができます",
+      "notes": "が: đánh dấu danh ngữ Vこと là nội dung có thể Nができます dùng khi nội dung là danh từ; Vことができます dùng khi nội dung là hành động. Không dùng Vます + ことができます.",
+      "examples": [
+        {
+          "id": "77777777-1133-0002-0000-000000905001",
+          "japanese": "私は料理を作ることができません。",
+          "reading": "わたしはりょうりをつくることができません。",
+          "meaning": "Tôi không thể nấu ăn.",
+          "orderIndex": 1
+        },
+        {
+          "id": "77777777-1133-0002-0000-000000905002",
+          "japanese": "私は日本語を話すことができます。",
+          "reading": "わたしはにほんごをはなすことができます。",
+          "meaning": "Tôi có thể nói tiếng Nhật.",
+          "orderIndex": 2
+        }
+      ],
+      "exercises": [
+        {
+          "id": "77777777-1133-0003-0000-000000915001",
+          "patternId": "77777777-1133-0001-0000-000000009006",
+          "exerciseType": "ja_to_vi",
+          "prompt": "私は料理を作ることができません。",
+          "promptReading": "わたしはりょうりをつくることができません。",
+          "expectedAnswer": "Tôi không thể nấu ăn.",
+          "hint": "V辞書形 + ことが できます",
+          "explanation": "が: đánh dấu danh ngữ Vこと là nội dung có thể Nができます dùng khi nội dung là danh từ; Vことができます dùng khi nội dung là hành động. Không dùng Vます + ことができます.",
+          "orderIndex": 1
+        },
+        {
+          "id": "77777777-1133-0003-0000-000000925001",
+          "patternId": "77777777-1133-0001-0000-000000009006",
+          "exerciseType": "vi_to_ja",
+          "prompt": "Tôi không thể nấu ăn.",
+          "expectedAnswer": "私は料理を作ることができません。",
+          "acceptableAnswers": [
+            "わたしはりょうりをつくることができません。"
+          ],
+          "hint": "作ります → 作ることができます; 話します → 話すことができます",
+          "explanation": "が: đánh dấu danh ngữ Vこと là nội dung có thể Nができます dùng khi nội dung là danh từ; Vことができます dùng khi nội dung là hành động. Không dùng Vます + ことができます.",
+          "orderIndex": 2
+        },
+        {
+          "id": "77777777-1133-0003-0000-000000935001",
+          "patternId": "77777777-1133-0001-0000-000000009006",
+          "exerciseType": "arrange",
+          "prompt": "Tôi không thể nấu ăn.",
+          "expectedAnswer": "私 (わたし)は料理 (りょうり)を作るこ (つくるこ)とができません",
+          "optionsJson": "[\"が\",\"と\",\"は\",\"を\",\"できません\",\"私 (わたし)\",\"作るこ (つくるこ)\",\"料理 (りょうり)\"]",
+          "options": [
+            "が",
+            "と",
+            "は",
+            "を",
+            "できません",
+            "私 (わたし)",
+            "作るこ (つくるこ)",
+            "料理 (りょうり)"
+          ],
+          "correctOrderJson": "[\"私 (わたし)\",\"は\",\"料理 (りょうり)\",\"を\",\"作るこ (つくるこ)\",\"と\",\"が\",\"できません\"]",
+          "correctOrder": [
+            "私 (わたし)",
+            "は",
+            "料理 (りょうり)",
+            "を",
+            "作るこ (つくるこ)",
+            "と",
+            "が",
+            "できません"
+          ],
+          "orderIndex": 3
+        },
+        {
+          "id": "77777777-1133-0003-0000-000000915002",
+          "patternId": "77777777-1133-0001-0000-000000009006",
+          "exerciseType": "ja_to_vi",
+          "prompt": "私は日本語を話すことができます。",
+          "promptReading": "わたしはにほんごをはなすことができます。",
+          "expectedAnswer": "Tôi có thể nói tiếng Nhật.",
+          "hint": "V辞書形 + ことが できます",
+          "explanation": "が: đánh dấu danh ngữ Vこと là nội dung có thể Nができます dùng khi nội dung là danh từ; Vことができます dùng khi nội dung là hành động. Không dùng Vます + ことができます.",
+          "orderIndex": 4
+        },
+        {
+          "id": "77777777-1133-0003-0000-000000925002",
+          "patternId": "77777777-1133-0001-0000-000000009006",
+          "exerciseType": "vi_to_ja",
+          "prompt": "Tôi có thể nói tiếng Nhật.",
+          "expectedAnswer": "私は日本語を話すことができます。",
+          "acceptableAnswers": [
+            "わたしはにほんごをはなすことができます。"
+          ],
+          "hint": "作ります → 作ることができます; 話します → 話すことができます",
+          "explanation": "が: đánh dấu danh ngữ Vこと là nội dung có thể Nができます dùng khi nội dung là danh từ; Vことができます dùng khi nội dung là hành động. Không dùng Vます + ことができます.",
+          "orderIndex": 5
+        },
+        {
+          "id": "77777777-1133-0003-0000-000000935002",
+          "patternId": "77777777-1133-0001-0000-000000009006",
+          "exerciseType": "arrange",
+          "prompt": "Tôi có thể nói tiếng Nhật.",
+          "expectedAnswer": "私 (わたし)は日本語 (にほんご)を話すこ (はなすこ)とができます",
+          "optionsJson": "[\"が\",\"と\",\"は\",\"を\",\"できます\",\"私 (わたし)\",\"話すこ (はなすこ)\",\"日本語 (にほんご)\"]",
+          "options": [
+            "が",
+            "と",
+            "は",
+            "を",
+            "できます",
+            "私 (わたし)",
+            "話すこ (はなすこ)",
+            "日本語 (にほんご)"
+          ],
+          "correctOrderJson": "[\"私 (わたし)\",\"は\",\"日本語 (にほんご)\",\"を\",\"話すこ (はなすこ)\",\"と\",\"が\",\"できます\"]",
+          "correctOrder": [
+            "私 (わたし)",
+            "は",
+            "日本語 (にほんご)",
+            "を",
+            "話すこ (はなすこ)",
+            "と",
+            "が",
+            "できます"
+          ],
+          "orderIndex": 6
+        },
+        {
+          "id": "77777777-1133-0003-0000-000000945001",
+          "patternId": "77777777-1133-0001-0000-000000009006",
+          "exerciseType": "arrange",
+          "prompt": "ことができます / 日本語を / 私は / 話す",
+          "expectedAnswer": "私は日本語を話すことができます。",
+          "acceptableAnswers": [],
+          "acceptableAnswersJson": "[]",
+          "hint": "",
+          "explanation": "",
+          "options": [
+            "ことができます",
+            "日本語を",
+            "私は",
+            "話す"
+          ],
+          "optionsJson": "[\"ことができます\",\"日本語を\",\"私は\",\"話す\"]",
+          "correctOrder": [
+            "私は",
+            "日本語を",
+            "話す",
+            "ことができます"
+          ],
+          "correctOrderJson": "[\"私は\",\"日本語を\",\"話す\",\"ことができます\"]",
+          "orderIndex": 1
+        },
+        {
+          "id": "77777777-1133-0003-0000-000000945002",
+          "patternId": "77777777-1133-0001-0000-000000009006",
+          "exerciseType": "vi_to_ja",
+          "prompt": "Tôi không thể nấu ăn.",
+          "expectedAnswer": "私は料理を作ることができません。",
+          "acceptableAnswers": [],
+          "acceptableAnswersJson": "[]",
+          "hint": "",
+          "explanation": "",
+          "options": [],
+          "correctOrder": [],
+          "orderIndex": 2
+        },
+        {
+          "id": "77777777-1133-0003-0000-000000945003",
+          "patternId": "77777777-1133-0001-0000-000000009006",
+          "exerciseType": "vi_to_ja",
+          "prompt": "Chuyển 作ります sang thể từ điển trong ことができます.",
+          "expectedAnswer": "作る",
+          "acceptableAnswers": [],
+          "acceptableAnswersJson": "[]",
+          "hint": "",
+          "explanation": "作ります → 作る.",
+          "options": [],
+          "correctOrder": [],
+          "orderIndex": 3
+        },
+        {
+          "id": "77777777-1133-0003-0000-000000945004",
+          "patternId": "77777777-1133-0001-0000-000000009006",
+          "exerciseType": "vi_to_ja",
+          "prompt": "Chuyển できます sang phủ định lịch sự.",
+          "expectedAnswer": "できません。",
+          "acceptableAnswers": [],
+          "acceptableAnswersJson": "[]",
+          "hint": "",
+          "explanation": "ます → ません.",
+          "options": [],
+          "correctOrder": [],
+          "orderIndex": 4
+        }
+      ]
+    },
+    {
+      "id": "77777777-1133-0001-0000-000000009007",
+      "lessonId": "77777777-1133-0000-0000-000000000109",
+      "level": "N5",
+      "courseCode": "jpd133",
+      "pattern": "Vて形、＿＿＿＿",
+      "title": "Nối hành động bằng thể て",
+      "meaning": "rồi / và",
+      "structure": "V1て、V2て、… Vます",
+      "accessTier": "premium",
+      "packageCode": "jpd133",
+      "isLocked": true,
+      "isInStudy": false,
+      "progress": null,
+      "usageScope": "Dùng để nối nhiều hành động theo thứ tự xảy ra trong cùng một chuỗi.",
+      "formation": "食べます → 食べて; 見ます → 見て; します → して",
+      "notes": "Trợ từ của từng động từ được giữ nguyên VたりVたりします liệt kê hành động tiêu biểu, không nhất thiết theo trình tự; Vて nối trình tự rõ hơn. Không chia tất cả động từ ở dạng ます giữa chuỗi: ×食べます、見ます khi muốn dùng mẫu này.",
+      "examples": [
+        {
+          "id": "77777777-1133-0002-0000-000000906001",
+          "japanese": "週末、ともだちとご飯を食べて、映画を見ます。",
+          "reading": "しゅうまつ、ともだちとごはんをたべて、えいがをみます。",
+          "meaning": "Cuối tuần tôi ăn cơm với bạn rồi xem phim.",
+          "orderIndex": 1
+        },
+        {
+          "id": "77777777-1133-0002-0000-000000906002",
+          "japanese": "駅まで歩いて、電車に乗ります。",
+          "reading": "えきまであるいて、でんしゃにのります。",
+          "meaning": "Tôi đi bộ đến ga rồi lên tàu.",
+          "orderIndex": 2
+        }
+      ],
+      "exercises": [
+        {
+          "id": "77777777-1133-0003-0000-000000916001",
+          "patternId": "77777777-1133-0001-0000-000000009007",
+          "exerciseType": "ja_to_vi",
+          "prompt": "週末、ともだちとご飯を食べて、映画を見ます。",
+          "promptReading": "しゅうまつ、ともだちとごはんをたべて、えいがをみます。",
+          "expectedAnswer": "Cuối tuần tôi ăn cơm với bạn rồi xem phim.",
+          "hint": "Vて形、＿＿＿＿",
+          "explanation": "Trợ từ của từng động từ được giữ nguyên VたりVたりします liệt kê hành động tiêu biểu, không nhất thiết theo trình tự; Vて nối trình tự rõ hơn. Không chia tất cả động từ ở dạng ます giữa chuỗi: ×食べます、見ます khi muốn dùng mẫu này.",
+          "orderIndex": 1
+        },
+        {
+          "id": "77777777-1133-0003-0000-000000926001",
+          "patternId": "77777777-1133-0001-0000-000000009007",
+          "exerciseType": "vi_to_ja",
+          "prompt": "Cuối tuần tôi ăn cơm với bạn rồi xem phim.",
+          "expectedAnswer": "週末、ともだちとご飯を食べて、映画を見ます。",
+          "acceptableAnswers": [
+            "しゅうまつ、ともだちとごはんをたべて、えいがをみます。"
+          ],
+          "hint": "食べます → 食べて; 見ます → 見て; します → して",
+          "explanation": "Trợ từ của từng động từ được giữ nguyên VたりVたりします liệt kê hành động tiêu biểu, không nhất thiết theo trình tự; Vて nối trình tự rõ hơn. Không chia tất cả động từ ở dạng ます giữa chuỗi: ×食べます、見ます khi muốn dùng mẫu này.",
+          "orderIndex": 2
+        },
+        {
+          "id": "77777777-1133-0003-0000-000000936001",
+          "patternId": "77777777-1133-0001-0000-000000009007",
+          "exerciseType": "arrange",
+          "prompt": "Cuối tuần tôi ăn cơm với bạn rồi xem phim.",
+          "expectedAnswer": "週末、 (しゅうまつ、)ともだちとご飯 (ごはん)を食べて、映画 (たべて、えいが)を見ます (みます)",
+          "optionsJson": "[\"と\",\"と\",\"も\",\"を\",\"を\",\"だち\",\"ご飯 (ごはん)\",\"見ます (みます)\",\"週末、 (しゅうまつ、)\",\"食べて、映画 (たべて、えいが)\"]",
+          "options": [
+            "と",
+            "と",
+            "も",
+            "を",
+            "を",
+            "だち",
+            "ご飯 (ごはん)",
+            "見ます (みます)",
+            "週末、 (しゅうまつ、)",
+            "食べて、映画 (たべて、えいが)"
+          ],
+          "correctOrderJson": "[\"週末、 (しゅうまつ、)\",\"と\",\"も\",\"だち\",\"と\",\"ご飯 (ごはん)\",\"を\",\"食べて、映画 (たべて、えいが)\",\"を\",\"見ます (みます)\"]",
+          "correctOrder": [
+            "週末、 (しゅうまつ、)",
+            "と",
+            "も",
+            "だち",
+            "と",
+            "ご飯 (ごはん)",
+            "を",
+            "食べて、映画 (たべて、えいが)",
+            "を",
+            "見ます (みます)"
+          ],
+          "orderIndex": 3
+        },
+        {
+          "id": "77777777-1133-0003-0000-000000916002",
+          "patternId": "77777777-1133-0001-0000-000000009007",
+          "exerciseType": "ja_to_vi",
+          "prompt": "駅まで歩いて、電車に乗ります。",
+          "promptReading": "えきまであるいて、でんしゃにのります。",
+          "expectedAnswer": "Tôi đi bộ đến ga rồi lên tàu.",
+          "hint": "Vて形、＿＿＿＿",
+          "explanation": "Trợ từ của từng động từ được giữ nguyên VたりVたりします liệt kê hành động tiêu biểu, không nhất thiết theo trình tự; Vて nối trình tự rõ hơn. Không chia tất cả động từ ở dạng ます giữa chuỗi: ×食べます、見ます khi muốn dùng mẫu này.",
+          "orderIndex": 4
+        },
+        {
+          "id": "77777777-1133-0003-0000-000000926002",
+          "patternId": "77777777-1133-0001-0000-000000009007",
+          "exerciseType": "vi_to_ja",
+          "prompt": "Tôi đi bộ đến ga rồi lên tàu.",
+          "expectedAnswer": "駅まで歩いて、電車に乗ります。",
+          "acceptableAnswers": [
+            "えきまであるいて、でんしゃにのります。"
+          ],
+          "hint": "食べます → 食べて; 見ます → 見て; します → して",
+          "explanation": "Trợ từ của từng động từ được giữ nguyên VたりVたりします liệt kê hành động tiêu biểu, không nhất thiết theo trình tự; Vて nối trình tự rõ hơn. Không chia tất cả động từ ở dạng ます giữa chuỗi: ×食べます、見ます khi muốn dùng mẫu này.",
+          "orderIndex": 5
+        },
+        {
+          "id": "77777777-1133-0003-0000-000000936002",
+          "patternId": "77777777-1133-0001-0000-000000009007",
+          "exerciseType": "arrange",
+          "prompt": "Tôi đi bộ đến ga rồi lên tàu.",
+          "expectedAnswer": "駅 (えき)まで歩いて、電車 (あるいて、でんしゃ)に乗ります (のります)",
+          "optionsJson": "[\"に\",\"まで\",\"駅 (えき)\",\"乗ります (のります)\",\"歩いて、電車 (あるいて、でんしゃ)\"]",
+          "options": [
+            "に",
+            "まで",
+            "駅 (えき)",
+            "乗ります (のります)",
+            "歩いて、電車 (あるいて、でんしゃ)"
+          ],
+          "correctOrderJson": "[\"駅 (えき)\",\"まで\",\"歩いて、電車 (あるいて、でんしゃ)\",\"に\",\"乗ります (のります)\"]",
+          "correctOrder": [
+            "駅 (えき)",
+            "まで",
+            "歩いて、電車 (あるいて、でんしゃ)",
+            "に",
+            "乗ります (のります)"
+          ],
+          "orderIndex": 6
+        },
+        {
+          "id": "77777777-1133-0003-0000-000000946001",
+          "patternId": "77777777-1133-0001-0000-000000009007",
+          "exerciseType": "vi_to_ja",
+          "prompt": "週末、友達とご飯を食べ（　）、映画を見ます。",
+          "expectedAnswer": "て",
+          "acceptableAnswers": [],
+          "acceptableAnswersJson": "[]",
+          "hint": "",
+          "explanation": "Nối hành động theo trình tự bằng Vて形.",
+          "options": [
+            "ます",
+            "たり",
+            "て",
+            "ない"
+          ],
+          "optionsJson": "[\"ます\",\"たり\",\"て\",\"ない\"]",
+          "correctOrder": [],
+          "orderIndex": 1
+        },
+        {
+          "id": "77777777-1133-0003-0000-000000946002",
+          "patternId": "77777777-1133-0001-0000-000000009007",
+          "exerciseType": "vi_to_ja",
+          "prompt": "Tôi đi bộ đến ga rồi lên tàu.",
+          "expectedAnswer": "駅まで歩いて、電車に乗ります。",
+          "acceptableAnswers": [],
+          "acceptableAnswersJson": "[]",
+          "hint": "",
+          "explanation": "",
+          "options": [],
+          "correctOrder": [],
+          "orderIndex": 2
+        },
+        {
+          "id": "77777777-1133-0003-0000-000000946003",
+          "patternId": "77777777-1133-0001-0000-000000009007",
+          "exerciseType": "vi_to_ja",
+          "prompt": "Chuyển 食べます sang thể て để nối hành động.",
+          "expectedAnswer": "食べて",
+          "acceptableAnswers": [],
+          "acceptableAnswersJson": "[]",
+          "hint": "",
+          "explanation": "Động từ nhóm II: bỏ ます, thêm て.",
+          "options": [],
+          "correctOrder": [],
+          "orderIndex": 3
+        }
+      ]
+    },
+    {
+      "id": "77777777-1133-0001-0000-000000009008",
+      "lessonId": "77777777-1133-0000-0000-000000000109",
+      "level": "N5",
+      "courseCode": "jpd133",
+      "pattern": "どうやって",
+      "title": "Hỏi cách thức",
+      "meaning": "bằng cách nào / như thế nào",
+      "structure": "どうやって + [hành động] か",
+      "accessTier": "premium",
+      "packageCode": "jpd133",
+      "isLocked": true,
+      "isInStudy": false,
+      "progress": null,
+      "usageScope": "Dùng để hỏi cách làm, phương tiện, trình tự hoặc phương pháp thực hiện một việc.",
+      "formation": "どうやって行きますか / どうやって作りますか",
+      "notes": "Trợ từ phụ thuộc câu trả lời; thường xuất hiện で, に乗って, で降りて... Không trả lời chỉ bằng はい/いいえ vì đây là câu hỏi cách thức.",
+      "examples": [
+        {
+          "id": "77777777-1133-0002-0000-000000907001",
+          "japanese": "どうやって美術館へ行きますか。――3番のバスに乗って、美術館前で降ります。",
+          "reading": "どうやってびじゅつかんへいきますか。――さんばんのバスにのって、びじゅつかんまえでおります。",
+          "meaning": "Đi đến bảo tàng mỹ thuật bằng cách nào? — Lên xe buýt số 3 và xuống ở trước bảo tàng.",
+          "orderIndex": 1
+        },
+        {
+          "id": "77777777-1133-0002-0000-000000907002",
+          "japanese": "どうやってこの料理を作りますか。",
+          "reading": "どうやってこのりょうりをつくりますか。",
+          "meaning": "Món này làm như thế nào?",
+          "orderIndex": 2
+        }
+      ],
+      "exercises": [
+        {
+          "id": "77777777-1133-0003-0000-000000917001",
+          "patternId": "77777777-1133-0001-0000-000000009008",
+          "exerciseType": "ja_to_vi",
+          "prompt": "どうやって美術館へ行きますか。――3番のバスに乗って、美術館前で降ります。",
+          "promptReading": "どうやってびじゅつかんへいきますか。――さんばんのバスにのって、びじゅつかんまえでおります。",
+          "expectedAnswer": "Đi đến bảo tàng mỹ thuật bằng cách nào? — Lên xe buýt số 3 và xuống ở trước bảo tàng.",
+          "hint": "どうやって",
+          "explanation": "Trợ từ phụ thuộc câu trả lời; thường xuất hiện で, に乗って, で降りて... Không trả lời chỉ bằng はい/いいえ vì đây là câu hỏi cách thức.",
+          "orderIndex": 1
+        },
+        {
+          "id": "77777777-1133-0003-0000-000000927001",
+          "patternId": "77777777-1133-0001-0000-000000009008",
+          "exerciseType": "vi_to_ja",
+          "prompt": "Đi đến bảo tàng mỹ thuật bằng cách nào? — Lên xe buýt số 3 và xuống ở trước bảo tàng.",
+          "expectedAnswer": "どうやって美術館へ行きますか。――3番のバスに乗って、美術館前で降ります。",
+          "acceptableAnswers": [
+            "どうやってびじゅつかんへいきますか。――さんばんのバスにのって、びじゅつかんまえでおります。"
+          ],
+          "hint": "どうやって行きますか / どうやって作りますか",
+          "explanation": "Trợ từ phụ thuộc câu trả lời; thường xuất hiện で, に乗って, で降りて... Không trả lời chỉ bằng はい/いいえ vì đây là câu hỏi cách thức.",
+          "orderIndex": 2
+        },
+        {
+          "id": "77777777-1133-0003-0000-000000937001",
+          "patternId": "77777777-1133-0001-0000-000000009008",
+          "exerciseType": "arrange",
+          "prompt": "Đi đến bảo tàng mỹ thuật bằng cách nào? — Lên xe buýt số 3 và xuống ở trước bảo tàng.",
+          "expectedAnswer": "どうやって美術館 (どうやってびじゅつかん)へ行きますか。――3番 (いきますか。――さんばん)のバスに乗って、美術館前で降ります (のって、びじゅつかんまえでおります)",
+          "optionsJson": "[\"に\",\"の\",\"へ\",\"バス\",\"行きますか。――3番 (いきますか。――さんばん)\",\"どうやって美術館 (どうやってびじゅつかん)\",\"乗って、美術館前で降ります (のって、びじゅつかんまえでおります)\"]",
+          "options": [
+            "に",
+            "の",
+            "へ",
+            "バス",
+            "行きますか。――3番 (いきますか。――さんばん)",
+            "どうやって美術館 (どうやってびじゅつかん)",
+            "乗って、美術館前で降ります (のって、びじゅつかんまえでおります)"
+          ],
+          "correctOrderJson": "[\"どうやって美術館 (どうやってびじゅつかん)\",\"へ\",\"行きますか。――3番 (いきますか。――さんばん)\",\"の\",\"バス\",\"に\",\"乗って、美術館前で降ります (のって、びじゅつかんまえでおります)\"]",
+          "correctOrder": [
+            "どうやって美術館 (どうやってびじゅつかん)",
+            "へ",
+            "行きますか。――3番 (いきますか。――さんばん)",
+            "の",
+            "バス",
+            "に",
+            "乗って、美術館前で降ります (のって、びじゅつかんまえでおります)"
+          ],
+          "orderIndex": 3
+        },
+        {
+          "id": "77777777-1133-0003-0000-000000917002",
+          "patternId": "77777777-1133-0001-0000-000000009008",
+          "exerciseType": "ja_to_vi",
+          "prompt": "どうやってこの料理を作りますか。",
+          "promptReading": "どうやってこのりょうりをつくりますか。",
+          "expectedAnswer": "Món này làm như thế nào?",
+          "hint": "どうやって",
+          "explanation": "Trợ từ phụ thuộc câu trả lời; thường xuất hiện で, に乗って, で降りて... Không trả lời chỉ bằng はい/いいえ vì đây là câu hỏi cách thức.",
+          "orderIndex": 4
+        },
+        {
+          "id": "77777777-1133-0003-0000-000000927002",
+          "patternId": "77777777-1133-0001-0000-000000009008",
+          "exerciseType": "vi_to_ja",
+          "prompt": "Món này làm như thế nào?",
+          "expectedAnswer": "どうやってこの料理を作りますか。",
+          "acceptableAnswers": [
+            "どうやってこのりょうりをつくりますか。"
+          ],
+          "hint": "どうやって行きますか / どうやって作りますか",
+          "explanation": "Trợ từ phụ thuộc câu trả lời; thường xuất hiện で, に乗って, で降りて... Không trả lời chỉ bằng はい/いいえ vì đây là câu hỏi cách thức.",
+          "orderIndex": 5
+        },
+        {
+          "id": "77777777-1133-0003-0000-000000937002",
+          "patternId": "77777777-1133-0001-0000-000000009008",
+          "exerciseType": "arrange",
+          "prompt": "Món này làm như thế nào?",
+          "expectedAnswer": "どうやってこの料理 (りょうり)を作りますか (つくりますか)",
+          "optionsJson": "[\"の\",\"を\",\"どうやってこ\",\"料理 (りょうり)\",\"作りますか (つくりますか)\"]",
+          "options": [
+            "の",
+            "を",
+            "どうやってこ",
+            "料理 (りょうり)",
+            "作りますか (つくりますか)"
+          ],
+          "correctOrderJson": "[\"どうやってこ\",\"の\",\"料理 (りょうり)\",\"を\",\"作りますか (つくりますか)\"]",
+          "correctOrder": [
+            "どうやってこ",
+            "の",
+            "料理 (りょうり)",
+            "を",
+            "作りますか (つくりますか)"
+          ],
+          "orderIndex": 6
+        },
+        {
+          "id": "77777777-1133-0003-0000-000000947001",
+          "patternId": "77777777-1133-0001-0000-000000009008",
+          "exerciseType": "vi_to_ja",
+          "prompt": "（　）美術館へ行きますか。",
+          "expectedAnswer": "どうやって",
+          "acceptableAnswers": [],
+          "acceptableAnswersJson": "[]",
+          "hint": "",
+          "explanation": "どうやって hỏi cách thức/phương pháp.",
+          "options": [
+            "どうやって",
+            "いつも",
+            "まだ",
+            "だれが"
+          ],
+          "optionsJson": "[\"どうやって\",\"いつも\",\"まだ\",\"だれが\"]",
+          "correctOrder": [],
+          "orderIndex": 1
+        },
+        {
+          "id": "77777777-1133-0003-0000-000000947002",
+          "patternId": "77777777-1133-0001-0000-000000009008",
+          "exerciseType": "arrange",
+          "prompt": "美術館へ / どうやって / 行きますか",
+          "expectedAnswer": "どうやって美術館へ行きますか。",
+          "acceptableAnswers": [],
+          "acceptableAnswersJson": "[]",
+          "hint": "",
+          "explanation": "",
+          "options": [
+            "美術館へ",
+            "どうやって",
+            "行きますか"
+          ],
+          "optionsJson": "[\"美術館へ\",\"どうやって\",\"行きますか\"]",
+          "correctOrder": [
+            "どうやって",
+            "美術館へ",
+            "行きますか"
+          ],
+          "correctOrderJson": "[\"どうやって\",\"美術館へ\",\"行きますか\"]",
+          "orderIndex": 2
+        },
+        {
+          "id": "77777777-1133-0003-0000-000000947003",
+          "patternId": "77777777-1133-0001-0000-000000009008",
+          "exerciseType": "vi_to_ja",
+          "prompt": "Đi đến bảo tàng mỹ thuật bằng cách nào?",
+          "expectedAnswer": "どうやって美術館へ行きますか。",
+          "acceptableAnswers": [],
+          "acceptableAnswersJson": "[]",
+          "hint": "",
+          "explanation": "",
+          "options": [],
+          "correctOrder": [],
+          "orderIndex": 3
+        }
+      ]
+    }
+  ]
+}

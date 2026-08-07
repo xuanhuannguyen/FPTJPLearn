@@ -11,6 +11,7 @@ public static class KanjiSeedData
     {
         await ClearExistingDataAsync(db);
         await SeedLessonsAsync(db);
+        await KanjiJpd133SeedData.SeedAsync(db);
         await db.SaveChangesAsync();
     }
 

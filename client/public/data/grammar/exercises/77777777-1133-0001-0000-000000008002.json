@@ -1,0 +1,112 @@
+[
+  {
+    "id": "77777777-1133-0003-0000-000000811001",
+    "patternId": "77777777-1133-0001-0000-000000008002",
+    "exerciseType": "ja_to_vi",
+    "prompt": "ともだちは高校でえい語を教えています。",
+    "promptReading": "ともだちはこうこうでえいごをおしえています。",
+    "expectedAnswer": "Bạn tôi đang dạy tiếng Anh ở trường cấp ba.",
+    "hint": "Vて形 + います",
+    "explanation": "で: nơi diễn ra công việc; を: đối tượng của hành động 住んでいます thiên về trạng thái cư trú; 働いています/教えています thiên về công việc hiện tại. Không đổi nơi làm việc sang trợ từ に trong mẫu hành động này.",
+    "orderIndex": 1
+  },
+  {
+    "id": "77777777-1133-0003-0000-000000821001",
+    "patternId": "77777777-1133-0001-0000-000000008002",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Bạn tôi đang dạy tiếng Anh ở trường cấp ba.",
+    "expectedAnswer": "ともだちは高校でえい語を教えています。",
+    "acceptableAnswers": [
+      "ともだちはこうこうでえいごをおしえています。"
+    ],
+    "hint": "教えます → 教えています / 働きます → 働いています",
+    "explanation": "で: nơi diễn ra công việc; を: đối tượng của hành động 住んでいます thiên về trạng thái cư trú; 働いています/教えています thiên về công việc hiện tại. Không đổi nơi làm việc sang trợ từ に trong mẫu hành động này.",
+    "orderIndex": 2
+  },
+  {
+    "id": "77777777-1133-0003-0000-000000831001",
+    "patternId": "77777777-1133-0001-0000-000000008002",
+    "exerciseType": "arrange",
+    "prompt": "Bạn tôi đang dạy tiếng Anh ở trường cấp ba.",
+    "expectedAnswer": "ともだちは高校でえい語 (こうこうでえいご)を教えています (おしえています)",
+    "optionsJson": "[\"と\",\"は\",\"も\",\"を\",\"だち\",\"教えています (おしえています)\",\"高校でえい語 (こうこうでえいご)\"]",
+    "options": [
+      "と",
+      "は",
+      "も",
+      "を",
+      "だち",
+      "教えています (おしえています)",
+      "高校でえい語 (こうこうでえいご)"
+    ],
+    "correctOrderJson": "[\"と\",\"も\",\"だち\",\"は\",\"高校でえい語 (こうこうでえいご)\",\"を\",\"教えています (おしえています)\"]",
+    "correctOrder": [
+      "と",
+      "も",
+      "だち",
+      "は",
+      "高校でえい語 (こうこうでえいご)",
+      "を",
+      "教えています (おしえています)"
+    ],
+    "orderIndex": 3
+  },
+  {
+    "id": "77777777-1133-0003-0000-000000811002",
+    "patternId": "77777777-1133-0001-0000-000000008002",
+    "exerciseType": "ja_to_vi",
+    "prompt": "母は病院で働いています。",
+    "promptReading": "はははびょういんではたらいています。",
+    "expectedAnswer": "Mẹ tôi làm việc ở bệnh viện.",
+    "hint": "Vて形 + います",
+    "explanation": "で: nơi diễn ra công việc; を: đối tượng của hành động 住んでいます thiên về trạng thái cư trú; 働いています/教えています thiên về công việc hiện tại. Không đổi nơi làm việc sang trợ từ に trong mẫu hành động này.",
+    "orderIndex": 4
+  },
+  {
+    "id": "77777777-1133-0003-0000-000000821002",
+    "patternId": "77777777-1133-0001-0000-000000008002",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Mẹ tôi làm việc ở bệnh viện.",
+    "expectedAnswer": "母は病院で働いています。",
+    "acceptableAnswers": [
+      "はははびょういんではたらいています。"
+    ],
+    "hint": "教えます → 教えています / 働きます → 働いています",
+    "explanation": "で: nơi diễn ra công việc; を: đối tượng của hành động 住んでいます thiên về trạng thái cư trú; 働いています/教えています thiên về công việc hiện tại. Không đổi nơi làm việc sang trợ từ に trong mẫu hành động này.",
+    "orderIndex": 5
+  },
+  {
+    "id": "77777777-1133-0003-0000-000000831002",
+    "patternId": "77777777-1133-0001-0000-000000008002",
+    "exerciseType": "arrange",
+    "prompt": "Mẹ tôi làm việc ở bệnh viện.",
+    "expectedAnswer": "母は病院で働いています (ははびょういんではたらいています)",
+    "optionsJson": "[\"は\",\"母\",\"病院で働いています (ははびょういんではたらいています)\"]",
+    "options": [
+      "は",
+      "母",
+      "病院で働いています (ははびょういんではたらいています)"
+    ],
+    "correctOrderJson": "[\"母\",\"は\",\"病院で働いています (ははびょういんではたらいています)\"]",
+    "correctOrder": [
+      "母",
+      "は",
+      "病院で働いています (ははびょういんではたらいています)"
+    ],
+    "orderIndex": 6
+  },
+  {
+    "id": "77777777-1133-0003-0000-000000841001",
+    "patternId": "77777777-1133-0001-0000-000000008002",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Mẹ tôi làm việc ở bệnh viện.",
+    "expectedAnswer": "母は病院で働いています。",
+    "acceptableAnswers": [],
+    "acceptableAnswersJson": "[]",
+    "hint": "",
+    "explanation": "",
+    "options": [],
+    "correctOrder": [],
+    "orderIndex": 1
+  }
+]

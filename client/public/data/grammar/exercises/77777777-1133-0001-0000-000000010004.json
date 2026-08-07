@@ -1,0 +1,228 @@
+[
+  {
+    "id": "77777777-1133-0003-0000-000001013001",
+    "patternId": "77777777-1133-0001-0000-000000010004",
+    "exerciseType": "ja_to_vi",
+    "prompt": "ここから東京タワーが見えます。とりのこえが聞こえます。",
+    "promptReading": "ここからとうきょうタワーがみえます。とりのこえがきこえます。",
+    "expectedAnswer": "Từ đây có thể nhìn thấy Tokyo Tower. Có thể nghe thấy tiếng chim.",
+    "hint": "N が 見えます／聞こえます",
+    "explanation": "が: đối tượng nhìn thấy/nghe thấy Vことができます nói khả năng thực hiện hành động; 見えます/聞こえます nói khả năng cảm nhận tự nhiên. Không dùng を với 見えます/聞こえます trong mẫu cơ bản.",
+    "orderIndex": 1
+  },
+  {
+    "id": "77777777-1133-0003-0000-000001023001",
+    "patternId": "77777777-1133-0001-0000-000000010004",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Từ đây có thể nhìn thấy Tokyo Tower. Có thể nghe thấy tiếng chim.",
+    "expectedAnswer": "ここから東京タワーが見えます。とりのこえが聞こえます。",
+    "acceptableAnswers": [
+      "ここからとうきょうタワーがみえます。とりのこえがきこえます。"
+    ],
+    "hint": "見えます / 見えません; 聞こえます / 聞こえません",
+    "explanation": "が: đối tượng nhìn thấy/nghe thấy Vことができます nói khả năng thực hiện hành động; 見えます/聞こえます nói khả năng cảm nhận tự nhiên. Không dùng を với 見えます/聞こえます trong mẫu cơ bản.",
+    "orderIndex": 2
+  },
+  {
+    "id": "77777777-1133-0003-0000-000001033001",
+    "patternId": "77777777-1133-0001-0000-000000010004",
+    "exerciseType": "arrange",
+    "prompt": "Từ đây có thể nhìn thấy Tokyo Tower. Có thể nghe thấy tiếng chim.",
+    "expectedAnswer": "ここから東京タワー (とうきょうタワー)が見えます。 (みえます。)とりのこえが聞こえます (きこえます)",
+    "optionsJson": "[\"が\",\"が\",\"と\",\"の\",\"り\",\"こえ\",\"ここ\",\"から\",\"聞こえます (きこえます)\",\"見えます。 (みえます。)\",\"東京タワー (とうきょうタワー)\"]",
+    "options": [
+      "が",
+      "が",
+      "と",
+      "の",
+      "り",
+      "こえ",
+      "ここ",
+      "から",
+      "聞こえます (きこえます)",
+      "見えます。 (みえます。)",
+      "東京タワー (とうきょうタワー)"
+    ],
+    "correctOrderJson": "[\"ここ\",\"から\",\"東京タワー (とうきょうタワー)\",\"が\",\"見えます。 (みえます。)\",\"と\",\"り\",\"の\",\"こえ\",\"が\",\"聞こえます (きこえます)\"]",
+    "correctOrder": [
+      "ここ",
+      "から",
+      "東京タワー (とうきょうタワー)",
+      "が",
+      "見えます。 (みえます。)",
+      "と",
+      "り",
+      "の",
+      "こえ",
+      "が",
+      "聞こえます (きこえます)"
+    ],
+    "orderIndex": 3
+  },
+  {
+    "id": "77777777-1133-0003-0000-000001013002",
+    "patternId": "77777777-1133-0001-0000-000000010004",
+    "exerciseType": "ja_to_vi",
+    "prompt": "窓から海が見えます。",
+    "promptReading": "まどからうみがみえます。",
+    "expectedAnswer": "Từ cửa sổ có thể nhìn thấy biển.",
+    "hint": "N が 見えます／聞こえます",
+    "explanation": "が: đối tượng nhìn thấy/nghe thấy Vことができます nói khả năng thực hiện hành động; 見えます/聞こえます nói khả năng cảm nhận tự nhiên. Không dùng を với 見えます/聞こえます trong mẫu cơ bản.",
+    "orderIndex": 4
+  },
+  {
+    "id": "77777777-1133-0003-0000-000001023002",
+    "patternId": "77777777-1133-0001-0000-000000010004",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Từ cửa sổ có thể nhìn thấy biển.",
+    "expectedAnswer": "窓から海が見えます。",
+    "acceptableAnswers": [
+      "まどからうみがみえます。"
+    ],
+    "hint": "見えます / 見えません; 聞こえます / 聞こえません",
+    "explanation": "が: đối tượng nhìn thấy/nghe thấy Vことができます nói khả năng thực hiện hành động; 見えます/聞こえます nói khả năng cảm nhận tự nhiên. Không dùng を với 見えます/聞こえます trong mẫu cơ bản.",
+    "orderIndex": 5
+  },
+  {
+    "id": "77777777-1133-0003-0000-000001033002",
+    "patternId": "77777777-1133-0001-0000-000000010004",
+    "exerciseType": "arrange",
+    "prompt": "Từ cửa sổ có thể nhìn thấy biển.",
+    "expectedAnswer": "窓 (まど)から海 (うみ)が見えます (みえます)",
+    "optionsJson": "[\"が\",\"から\",\"海 (うみ)\",\"窓 (まど)\",\"見えます (みえます)\"]",
+    "options": [
+      "が",
+      "から",
+      "海 (うみ)",
+      "窓 (まど)",
+      "見えます (みえます)"
+    ],
+    "correctOrderJson": "[\"窓 (まど)\",\"から\",\"海 (うみ)\",\"が\",\"見えます (みえます)\"]",
+    "correctOrder": [
+      "窓 (まど)",
+      "から",
+      "海 (うみ)",
+      "が",
+      "見えます (みえます)"
+    ],
+    "orderIndex": 6
+  },
+  {
+    "id": "77777777-1133-0003-0000-000001043001",
+    "patternId": "77777777-1133-0001-0000-000000010004",
+    "exerciseType": "vi_to_ja",
+    "prompt": "ここから東京タワー（　）見えます。",
+    "expectedAnswer": "が",
+    "acceptableAnswers": [],
+    "acceptableAnswersJson": "[]",
+    "hint": "",
+    "explanation": "Đối tượng nhìn thấy tự nhiên dùng が: Nが見えます.",
+    "options": [
+      "を",
+      "に",
+      "が",
+      "で"
+    ],
+    "optionsJson": "[\"を\",\"に\",\"が\",\"で\"]",
+    "correctOrder": [],
+    "orderIndex": 1
+  },
+  {
+    "id": "77777777-1133-0003-0000-000001043002",
+    "patternId": "77777777-1133-0001-0000-000000010004",
+    "exerciseType": "vi_to_ja",
+    "prompt": "ここで食事（　）できます。",
+    "expectedAnswer": "が",
+    "acceptableAnswers": [],
+    "acceptableAnswersJson": "[]",
+    "hint": "",
+    "explanation": "Hoạt động dạng danh từ đi với Nができます.",
+    "options": [
+      "を",
+      "が",
+      "に",
+      "は"
+    ],
+    "optionsJson": "[\"を\",\"が\",\"に\",\"は\"]",
+    "correctOrder": [],
+    "orderIndex": 2
+  },
+  {
+    "id": "77777777-1133-0003-0000-000001043003",
+    "patternId": "77777777-1133-0001-0000-000000010004",
+    "exerciseType": "arrange",
+    "prompt": "見えます / 海が / 窓から",
+    "expectedAnswer": "窓から海が見えます。",
+    "acceptableAnswers": [],
+    "acceptableAnswersJson": "[]",
+    "hint": "",
+    "explanation": "",
+    "options": [
+      "見えます",
+      "海が",
+      "窓から"
+    ],
+    "optionsJson": "[\"見えます\",\"海が\",\"窓から\"]",
+    "correctOrder": [
+      "窓から",
+      "海が",
+      "見えます"
+    ],
+    "correctOrderJson": "[\"窓から\",\"海が\",\"見えます\"]",
+    "orderIndex": 3
+  },
+  {
+    "id": "77777777-1133-0003-0000-000001043004",
+    "patternId": "77777777-1133-0001-0000-000000010004",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Từ cửa sổ có thể nhìn thấy biển.",
+    "expectedAnswer": "窓から海が見えます。",
+    "acceptableAnswers": [],
+    "acceptableAnswersJson": "[]",
+    "hint": "",
+    "explanation": "",
+    "options": [],
+    "correctOrder": [],
+    "orderIndex": 4
+  },
+  {
+    "id": "77777777-1133-0003-0000-000001043005",
+    "patternId": "77777777-1133-0001-0000-000000010004",
+    "exerciseType": "vi_to_ja",
+    "prompt": "ここから東京タワー＿＿見えます。",
+    "expectedAnswer": "が",
+    "acceptableAnswers": [],
+    "acceptableAnswersJson": "[]",
+    "hint": "",
+    "explanation": "Đối tượng được nhìn thấy tự nhiên dùng が.",
+    "options": [
+      "を",
+      "が",
+      "に",
+      "で"
+    ],
+    "optionsJson": "[\"を\",\"が\",\"に\",\"で\"]",
+    "correctOrder": [],
+    "orderIndex": 5
+  },
+  {
+    "id": "77777777-1133-0003-0000-000001043006",
+    "patternId": "77777777-1133-0001-0000-000000010004",
+    "exerciseType": "vi_to_ja",
+    "prompt": "この公園でサッカーをすること＿＿できます。",
+    "expectedAnswer": "が",
+    "acceptableAnswers": [],
+    "acceptableAnswersJson": "[]",
+    "hint": "",
+    "explanation": "Vことができます.",
+    "options": [
+      "に",
+      "が",
+      "を",
+      "で"
+    ],
+    "optionsJson": "[\"に\",\"が\",\"を\",\"で\"]",
+    "correctOrder": [],
+    "orderIndex": 6
+  }
+]

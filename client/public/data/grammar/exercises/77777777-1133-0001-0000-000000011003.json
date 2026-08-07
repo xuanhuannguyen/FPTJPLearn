@@ -1,0 +1,168 @@
+[
+  {
+    "id": "77777777-1133-0003-0000-000001112001",
+    "patternId": "77777777-1133-0001-0000-000000011003",
+    "exerciseType": "ja_to_vi",
+    "prompt": "休みの日、家で本を読んだり音楽を聞いたりしています。",
+    "promptReading": "やすみのひ、いえでほんをよんだりおんがくをきいたりしています。",
+    "expectedAnswer": "Ngày nghỉ tôi làm những việc như đọc sách ở nhà, nghe nhạc.",
+    "hint": "Vた形 + り、Vた形 + りします",
+    "explanation": "Trợ từ của từng động từ giữ nguyên Vて、Vて nối chuỗi theo thứ tự; VたりVたり liệt kê không đầy đủ. Không quên します/しています ở cuối cấu trúc.",
+    "orderIndex": 1
+  },
+  {
+    "id": "77777777-1133-0003-0000-000001122001",
+    "patternId": "77777777-1133-0001-0000-000000011003",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Ngày nghỉ tôi làm những việc như đọc sách ở nhà, nghe nhạc.",
+    "expectedAnswer": "休みの日、家で本を読んだり音楽を聞いたりしています。",
+    "acceptableAnswers": [
+      "やすみのひ、いえでほんをよんだりおんがくをきいたりしています。"
+    ],
+    "hint": "読みます → 読んだり; 聞きます → 聞いたり; します → したり",
+    "explanation": "Trợ từ của từng động từ giữ nguyên Vて、Vて nối chuỗi theo thứ tự; VたりVたり liệt kê không đầy đủ. Không quên します/しています ở cuối cấu trúc.",
+    "orderIndex": 2
+  },
+  {
+    "id": "77777777-1133-0003-0000-000001132001",
+    "patternId": "77777777-1133-0001-0000-000000011003",
+    "exerciseType": "arrange",
+    "prompt": "Ngày nghỉ tôi làm những việc như đọc sách ở nhà, nghe nhạc.",
+    "expectedAnswer": "休み (やすみ)の日、家で本 (ひ、いえでほん)を読んだり音楽 (よんだりおんがく)を聞いたりしています (きいたりしています)",
+    "optionsJson": "[\"の\",\"を\",\"を\",\"休み (やすみ)\",\"日、家で本 (ひ、いえでほん)\",\"読んだり音楽 (よんだりおんがく)\",\"聞いたりしています (きいたりしています)\"]",
+    "options": [
+      "の",
+      "を",
+      "を",
+      "休み (やすみ)",
+      "日、家で本 (ひ、いえでほん)",
+      "読んだり音楽 (よんだりおんがく)",
+      "聞いたりしています (きいたりしています)"
+    ],
+    "correctOrderJson": "[\"休み (やすみ)\",\"の\",\"日、家で本 (ひ、いえでほん)\",\"を\",\"読んだり音楽 (よんだりおんがく)\",\"を\",\"聞いたりしています (きいたりしています)\"]",
+    "correctOrder": [
+      "休み (やすみ)",
+      "の",
+      "日、家で本 (ひ、いえでほん)",
+      "を",
+      "読んだり音楽 (よんだりおんがく)",
+      "を",
+      "聞いたりしています (きいたりしています)"
+    ],
+    "orderIndex": 3
+  },
+  {
+    "id": "77777777-1133-0003-0000-000001112002",
+    "patternId": "77777777-1133-0001-0000-000000011003",
+    "exerciseType": "ja_to_vi",
+    "prompt": "週末は映画を見たり、買い物をしたりします。",
+    "promptReading": "しゅうまつはえいがをみたり、かいものをしたりします。",
+    "expectedAnswer": "Cuối tuần tôi làm những việc như xem phim, mua sắm.",
+    "hint": "Vた形 + り、Vた形 + りします",
+    "explanation": "Trợ từ của từng động từ giữ nguyên Vて、Vて nối chuỗi theo thứ tự; VたりVたり liệt kê không đầy đủ. Không quên します/しています ở cuối cấu trúc.",
+    "orderIndex": 4
+  },
+  {
+    "id": "77777777-1133-0003-0000-000001122002",
+    "patternId": "77777777-1133-0001-0000-000000011003",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Cuối tuần tôi làm những việc như xem phim, mua sắm.",
+    "expectedAnswer": "週末は映画を見たり、買い物をしたりします。",
+    "acceptableAnswers": [
+      "しゅうまつはえいがをみたり、かいものをしたりします。"
+    ],
+    "hint": "読みます → 読んだり; 聞きます → 聞いたり; します → したり",
+    "explanation": "Trợ từ của từng động từ giữ nguyên Vて、Vて nối chuỗi theo thứ tự; VたりVたり liệt kê không đầy đủ. Không quên します/しています ở cuối cấu trúc.",
+    "orderIndex": 5
+  },
+  {
+    "id": "77777777-1133-0003-0000-000001132002",
+    "patternId": "77777777-1133-0001-0000-000000011003",
+    "exerciseType": "arrange",
+    "prompt": "Cuối tuần tôi làm những việc như xem phim, mua sắm.",
+    "expectedAnswer": "週末 (しゅうまつ)は映画 (えいが)を見たり、買い物 (みたり、かいもの)をしたりします",
+    "optionsJson": "[\"は\",\"を\",\"を\",\"したりします\",\"映画 (えいが)\",\"週末 (しゅうまつ)\",\"見たり、買い物 (みたり、かいもの)\"]",
+    "options": [
+      "は",
+      "を",
+      "を",
+      "したりします",
+      "映画 (えいが)",
+      "週末 (しゅうまつ)",
+      "見たり、買い物 (みたり、かいもの)"
+    ],
+    "correctOrderJson": "[\"週末 (しゅうまつ)\",\"は\",\"映画 (えいが)\",\"を\",\"見たり、買い物 (みたり、かいもの)\",\"を\",\"したりします\"]",
+    "correctOrder": [
+      "週末 (しゅうまつ)",
+      "は",
+      "映画 (えいが)",
+      "を",
+      "見たり、買い物 (みたり、かいもの)",
+      "を",
+      "したりします"
+    ],
+    "orderIndex": 6
+  },
+  {
+    "id": "77777777-1133-0003-0000-000001142001",
+    "patternId": "77777777-1133-0001-0000-000000011003",
+    "exerciseType": "vi_to_ja",
+    "prompt": "休みの日、本を読ん（　）、音楽を聞いたりします。",
+    "expectedAnswer": "だり",
+    "acceptableAnswers": [],
+    "acceptableAnswersJson": "[]",
+    "hint": "",
+    "explanation": "Vたり、Vたりします dùng thể た + り.",
+    "options": [
+      "で",
+      "だり",
+      "でいます",
+      "ない"
+    ],
+    "optionsJson": "[\"で\",\"だり\",\"でいます\",\"ない\"]",
+    "correctOrder": [],
+    "orderIndex": 1
+  },
+  {
+    "id": "77777777-1133-0003-0000-000001142002",
+    "patternId": "77777777-1133-0001-0000-000000011003",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Cuối tuần tôi làm những việc như xem phim và mua sắm.",
+    "expectedAnswer": "週末は映画を見たり、買い物をしたりします。",
+    "acceptableAnswers": [],
+    "acceptableAnswersJson": "[]",
+    "hint": "",
+    "explanation": "",
+    "options": [],
+    "correctOrder": [],
+    "orderIndex": 2
+  },
+  {
+    "id": "77777777-1133-0003-0000-000001142003",
+    "patternId": "77777777-1133-0001-0000-000000011003",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Chuyển 読みます sang dạng Vたり.",
+    "expectedAnswer": "読んだり",
+    "acceptableAnswers": [],
+    "acceptableAnswersJson": "[]",
+    "hint": "",
+    "explanation": "読む → 読んだ → 読んだり.",
+    "options": [],
+    "correctOrder": [],
+    "orderIndex": 3
+  },
+  {
+    "id": "77777777-1133-0003-0000-000001142004",
+    "patternId": "77777777-1133-0001-0000-000000011003",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Chuyển 聞きます sang dạng Vたり.",
+    "expectedAnswer": "聞いたり",
+    "acceptableAnswers": [],
+    "acceptableAnswersJson": "[]",
+    "hint": "",
+    "explanation": "聞く → 聞いた → 聞いたり.",
+    "options": [],
+    "correctOrder": [],
+    "orderIndex": 4
+  }
+]

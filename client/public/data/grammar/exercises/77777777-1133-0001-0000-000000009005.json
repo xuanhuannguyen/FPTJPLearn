@@ -1,0 +1,136 @@
+[
+  {
+    "id": "77777777-1133-0003-0000-000000914001",
+    "patternId": "77777777-1133-0001-0000-000000009005",
+    "exerciseType": "ja_to_vi",
+    "prompt": "私はスキーができます。",
+    "promptReading": "わたしはスキーができます。",
+    "expectedAnswer": "Tôi có thể trượt tuyết.",
+    "hint": "N が できます",
+    "explanation": "が: đánh dấu nội dung/kỹ năng có thể làm Vことができます: khả năng làm hành động; Nができます: khả năng với danh từ/kỹ năng. Không dùng を trước できます trong mẫu này: ×スキーをできます.",
+    "orderIndex": 1
+  },
+  {
+    "id": "77777777-1133-0003-0000-000000924001",
+    "patternId": "77777777-1133-0001-0000-000000009005",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Tôi có thể trượt tuyết.",
+    "expectedAnswer": "私はスキーができます。",
+    "acceptableAnswers": [
+      "わたしはスキーができます。"
+    ],
+    "hint": "できます / できません",
+    "explanation": "が: đánh dấu nội dung/kỹ năng có thể làm Vことができます: khả năng làm hành động; Nができます: khả năng với danh từ/kỹ năng. Không dùng を trước できます trong mẫu này: ×スキーをできます.",
+    "orderIndex": 2
+  },
+  {
+    "id": "77777777-1133-0003-0000-000000934001",
+    "patternId": "77777777-1133-0001-0000-000000009005",
+    "exerciseType": "arrange",
+    "prompt": "Tôi có thể trượt tuyết.",
+    "expectedAnswer": "私 (わたし)はスキーができます",
+    "optionsJson": "[\"が\",\"は\",\"スキー\",\"できます\",\"私 (わたし)\"]",
+    "options": [
+      "が",
+      "は",
+      "スキー",
+      "できます",
+      "私 (わたし)"
+    ],
+    "correctOrderJson": "[\"私 (わたし)\",\"は\",\"スキー\",\"が\",\"できます\"]",
+    "correctOrder": [
+      "私 (わたし)",
+      "は",
+      "スキー",
+      "が",
+      "できます"
+    ],
+    "orderIndex": 3
+  },
+  {
+    "id": "77777777-1133-0003-0000-000000914002",
+    "patternId": "77777777-1133-0001-0000-000000009005",
+    "exerciseType": "ja_to_vi",
+    "prompt": "姉はテニスができます。",
+    "promptReading": "あねはテニスができます。",
+    "expectedAnswer": "Chị tôi biết chơi tennis.",
+    "hint": "N が できます",
+    "explanation": "が: đánh dấu nội dung/kỹ năng có thể làm Vことができます: khả năng làm hành động; Nができます: khả năng với danh từ/kỹ năng. Không dùng を trước できます trong mẫu này: ×スキーをできます.",
+    "orderIndex": 4
+  },
+  {
+    "id": "77777777-1133-0003-0000-000000924002",
+    "patternId": "77777777-1133-0001-0000-000000009005",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Chị tôi biết chơi tennis.",
+    "expectedAnswer": "姉はテニスができます。",
+    "acceptableAnswers": [
+      "あねはテニスができます。"
+    ],
+    "hint": "できます / できません",
+    "explanation": "が: đánh dấu nội dung/kỹ năng có thể làm Vことができます: khả năng làm hành động; Nができます: khả năng với danh từ/kỹ năng. Không dùng を trước できます trong mẫu này: ×スキーをできます.",
+    "orderIndex": 5
+  },
+  {
+    "id": "77777777-1133-0003-0000-000000934002",
+    "patternId": "77777777-1133-0001-0000-000000009005",
+    "exerciseType": "arrange",
+    "prompt": "Chị tôi biết chơi tennis.",
+    "expectedAnswer": "姉 (あね)はテニスができます",
+    "optionsJson": "[\"が\",\"は\",\"テニス\",\"姉 (あね)\",\"できます\"]",
+    "options": [
+      "が",
+      "は",
+      "テニス",
+      "姉 (あね)",
+      "できます"
+    ],
+    "correctOrderJson": "[\"姉 (あね)\",\"は\",\"テニス\",\"が\",\"できます\"]",
+    "correctOrder": [
+      "姉 (あね)",
+      "は",
+      "テニス",
+      "が",
+      "できます"
+    ],
+    "orderIndex": 6
+  },
+  {
+    "id": "77777777-1133-0003-0000-000000944001",
+    "patternId": "77777777-1133-0001-0000-000000009005",
+    "exerciseType": "arrange",
+    "prompt": "できます / 私は / スキーが",
+    "expectedAnswer": "私はスキーができます。",
+    "acceptableAnswers": [],
+    "acceptableAnswersJson": "[]",
+    "hint": "",
+    "explanation": "",
+    "options": [
+      "できます",
+      "私は",
+      "スキーが"
+    ],
+    "optionsJson": "[\"できます\",\"私は\",\"スキーが\"]",
+    "correctOrder": [
+      "私は",
+      "スキーが",
+      "できます"
+    ],
+    "correctOrderJson": "[\"私は\",\"スキーが\",\"できます\"]",
+    "orderIndex": 1
+  },
+  {
+    "id": "77777777-1133-0003-0000-000000944002",
+    "patternId": "77777777-1133-0001-0000-000000009005",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Tôi có thể trượt tuyết.",
+    "expectedAnswer": "私はスキーができます。",
+    "acceptableAnswers": [],
+    "acceptableAnswersJson": "[]",
+    "hint": "",
+    "explanation": "",
+    "options": [],
+    "correctOrder": [],
+    "orderIndex": 2
+  }
+]

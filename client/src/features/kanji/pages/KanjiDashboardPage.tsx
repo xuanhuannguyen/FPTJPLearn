@@ -37,7 +37,7 @@ export const KanjiDashboardPage = () => {
           Hán tự <span className="text-blue-600">漢字</span>
         </h1>
         <p className="text-sm font-bold text-text-secondary uppercase tracking-widest mt-1">
-          JPD113 / JPD123 KANJI MASTERY
+          JPD113 / JPD123 / JPD133 KANJI MASTERY
         </p>
       </div>
 
@@ -47,9 +47,10 @@ export const KanjiDashboardPage = () => {
           .map((levelStat) => {
             const courseCode = levelStat.courseCode ?? (levelStat.level === 'N5' ? 'jpd113' : 'jpd123');
             const isJpd113 = courseCode === 'jpd113';
+            const isJpd123 = courseCode === 'jpd123';
             const displayLevel = courseCode.toUpperCase();
-            const description = isJpd113 ? 'Japanese 1' : 'Japanese 2';
-            const cardTone = isJpd113 ? 'jp-course-card--113' : 'jp-course-card--123';
+            const description = isJpd113 ? 'Japanese 1' : isJpd123 ? 'Japanese 2' : 'Japanese 3';
+            const cardTone = isJpd113 ? 'jp-course-card--113' : isJpd123 ? 'jp-course-card--123' : 'jp-course-card--133';
             
             return (
               <Link

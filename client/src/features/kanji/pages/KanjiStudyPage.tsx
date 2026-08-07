@@ -34,6 +34,26 @@ type HanziWriterModule = {
 
 const HanziWriterTyped = HanziWriter as unknown as HanziWriterModule;
 
+const loadKanjiCharData = async (
+  char: string,
+  onComplete: (data: HanziWriterCharData) => void,
+  onData: (data: HanziWriterCharData) => void,
+) => {
+  const localResponse = await fetch(`/data/kanji/strokes-jp/${encodeURIComponent(char)}.json`);
+  if (localResponse.ok) {
+    const data = await localResponse.json() as HanziWriterCharData;
+    onData(data);
+    onComplete(data);
+    return;
+  }
+
+  const fallbackResponse = await fetch(`https://cdn.jsdelivr.net/npm/hanzi-writer-data@2.0/${encodeURIComponent(char)}.json`);
+  if (!fallbackResponse.ok) throw new Error(`Kanji stroke data unavailable: ${char}`);
+  const data = await fallbackResponse.json() as HanziWriterCharData;
+  onData(data);
+  onComplete(data);
+};
+
 const RADICAL_HANVIET: Record<string, string> = {
   '一': 'Nhất', '二': 'Nhị', '十': 'Thập', '人': 'Nhân', '亻': 'Nhân',
   '日': 'Nhật', '月': 'Nguyệt', '木': 'Mộc', '水': 'Thủy', '氵': 'Thủy',
@@ -207,25 +227,10 @@ export const KanjiStudyPage = () => {
         strokeAnimationSpeed: 1,
         delayBetweenStrokes: 400,
         charDataLoader: (char: string, onComplete: (data: HanziWriterCharData) => void) => {
-          fetch(`https://cdn.jsdelivr.net/npm/hanzi-writer-data-jp@0.1.x/data/${char}.json`)
-            .then((res) => {
-              if (!res.ok) throw new Error();
-              return res.json();
-            })
-            .then((data: HanziWriterCharData) => {
-              setKanjiMedians(data.medians || []);
-              setKanjiStrokes(data.strokes || []);
-              onComplete(data);
-            })
-            .catch(() => {
-              fetch(`https://cdn.jsdelivr.net/npm/hanzi-writer-data@2.0/${char}.json`)
-                .then((res) => res.json())
-                .then((data: HanziWriterCharData) => {
-                  setKanjiMedians(data.medians || []);
-                  setKanjiStrokes(data.strokes || []);
-                  onComplete(data);
-                });
-            });
+          void loadKanjiCharData(char, onComplete, (data) => {
+            setKanjiMedians(data.medians || []);
+            setKanjiStrokes(data.strokes || []);
+          });
         },
       });
       hwRef.current.showCharacter();
@@ -276,25 +281,10 @@ export const KanjiStudyPage = () => {
         highlightOnComplete: false,
         strokeHighlightSpeed: 2,
         charDataLoader: (char: string, onComplete: (data: HanziWriterCharData) => void) => {
-          fetch(`https://cdn.jsdelivr.net/npm/hanzi-writer-data-jp@0.1.x/data/${char}.json`)
-            .then((res) => {
-              if (!res.ok) throw new Error();
-              return res.json();
-            })
-            .then((data: HanziWriterCharData) => {
-              setKanjiMedians(data.medians || []);
-              setKanjiStrokes(data.strokes || []);
-              onComplete(data);
-            })
-            .catch(() => {
-              fetch(`https://cdn.jsdelivr.net/npm/hanzi-writer-data@2.0/${char}.json`)
-                .then((res) => res.json())
-                .then((data: HanziWriterCharData) => {
-                  setKanjiMedians(data.medians || []);
-                  setKanjiStrokes(data.strokes || []);
-                  onComplete(data);
-                });
-            });
+          void loadKanjiCharData(char, onComplete, (data) => {
+            setKanjiMedians(data.medians || []);
+            setKanjiStrokes(data.strokes || []);
+          });
         },
       });
 
@@ -325,25 +315,10 @@ export const KanjiStudyPage = () => {
       highlightOnComplete: false,
       strokeHighlightSpeed: 2,
       charDataLoader: (char: string, onComplete: (data: HanziWriterCharData) => void) => {
-        fetch(`https://cdn.jsdelivr.net/npm/hanzi-writer-data-jp@0.1.x/data/${char}.json`)
-          .then((res) => {
-            if (!res.ok) throw new Error();
-            return res.json();
-          })
-          .then((data: HanziWriterCharData) => {
-            setKanjiMedians(data.medians || []);
-            setKanjiStrokes(data.strokes || []);
-            onComplete(data);
-          })
-          .catch(() => {
-            fetch(`https://cdn.jsdelivr.net/npm/hanzi-writer-data@2.0/${char}.json`)
-              .then((res) => res.json())
-              .then((data: HanziWriterCharData) => {
-                setKanjiMedians(data.medians || []);
-                setKanjiStrokes(data.strokes || []);
-                onComplete(data);
-              });
-          });
+        void loadKanjiCharData(char, onComplete, (data) => {
+          setKanjiMedians(data.medians || []);
+          setKanjiStrokes(data.strokes || []);
+        });
       },
     });
     initQuiz();
@@ -663,6 +638,21 @@ export const KanjiStudyPage = () => {
                     <span className="text-sm text-slate-400 font-mono">Không có dữ liệu bộ thủ</span>
                   )}
                 </div>
+                {currentKanji.components && currentKanji.components.length > 0 && (
+                  <div className="mt-2 grid grid-cols-1 gap-1.5 border-t border-border pt-2 text-[11px]">
+                    {currentKanji.components.map((component) => (
+                      <div key={`${component.character}-${component.position || 'component'}`} className="flex items-center justify-between gap-2 rounded-md bg-slate-50 px-2 py-1">
+                        <span className="flex items-center gap-2">
+                          <span className="font-jp text-lg font-black text-slate-900">{component.character}</span>
+                          <span className="font-bold text-slate-700">{component.name}</span>
+                        </span>
+                        <span className="text-right text-[10px] font-bold uppercase text-slate-500">
+                          {component.isRadical ? 'Bộ thủ' : 'Thành phần'}{component.position ? ` · ${component.position}` : ''}
+                        </span>
+                      </div>
+                    ))}
+                  </div>
+                )}
               </div>
 
               {/* Writing Canvas Box */}

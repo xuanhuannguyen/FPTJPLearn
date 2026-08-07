@@ -33,7 +33,7 @@ public class PaymentAccessService : IPaymentAccessService
 
         // Map lesson packageCode → subscription courseCode
         // Lesson seeds use: kanji_jpd113, vocab_jpd113, grammar_jpd113, etc.
-        // Subscriptions use: jpd113, jpd123
+        // Subscriptions use: jpd113, jpd123, jpd133
         var courseCode = MapToCourseCode(packageCode);
         if (string.IsNullOrEmpty(courseCode)) return false;
 
@@ -54,6 +54,7 @@ public class PaymentAccessService : IPaymentAccessService
 
         if (code.Contains("jpd113")) return "jpd113";
         if (code.Contains("jpd123")) return "jpd123";
+        if (code.Contains("jpd133")) return "jpd133";
 
         return code;
     }

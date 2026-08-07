@@ -1,0 +1,178 @@
+[
+  {
+    "id": "77777777-1133-0003-0000-000000915001",
+    "patternId": "77777777-1133-0001-0000-000000009006",
+    "exerciseType": "ja_to_vi",
+    "prompt": "私は料理を作ることができません。",
+    "promptReading": "わたしはりょうりをつくることができません。",
+    "expectedAnswer": "Tôi không thể nấu ăn.",
+    "hint": "V辞書形 + ことが できます",
+    "explanation": "が: đánh dấu danh ngữ Vこと là nội dung có thể Nができます dùng khi nội dung là danh từ; Vことができます dùng khi nội dung là hành động. Không dùng Vます + ことができます.",
+    "orderIndex": 1
+  },
+  {
+    "id": "77777777-1133-0003-0000-000000925001",
+    "patternId": "77777777-1133-0001-0000-000000009006",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Tôi không thể nấu ăn.",
+    "expectedAnswer": "私は料理を作ることができません。",
+    "acceptableAnswers": [
+      "わたしはりょうりをつくることができません。"
+    ],
+    "hint": "作ります → 作ることができます; 話します → 話すことができます",
+    "explanation": "が: đánh dấu danh ngữ Vこと là nội dung có thể Nができます dùng khi nội dung là danh từ; Vことができます dùng khi nội dung là hành động. Không dùng Vます + ことができます.",
+    "orderIndex": 2
+  },
+  {
+    "id": "77777777-1133-0003-0000-000000935001",
+    "patternId": "77777777-1133-0001-0000-000000009006",
+    "exerciseType": "arrange",
+    "prompt": "Tôi không thể nấu ăn.",
+    "expectedAnswer": "私 (わたし)は料理 (りょうり)を作るこ (つくるこ)とができません",
+    "optionsJson": "[\"が\",\"と\",\"は\",\"を\",\"できません\",\"私 (わたし)\",\"作るこ (つくるこ)\",\"料理 (りょうり)\"]",
+    "options": [
+      "が",
+      "と",
+      "は",
+      "を",
+      "できません",
+      "私 (わたし)",
+      "作るこ (つくるこ)",
+      "料理 (りょうり)"
+    ],
+    "correctOrderJson": "[\"私 (わたし)\",\"は\",\"料理 (りょうり)\",\"を\",\"作るこ (つくるこ)\",\"と\",\"が\",\"できません\"]",
+    "correctOrder": [
+      "私 (わたし)",
+      "は",
+      "料理 (りょうり)",
+      "を",
+      "作るこ (つくるこ)",
+      "と",
+      "が",
+      "できません"
+    ],
+    "orderIndex": 3
+  },
+  {
+    "id": "77777777-1133-0003-0000-000000915002",
+    "patternId": "77777777-1133-0001-0000-000000009006",
+    "exerciseType": "ja_to_vi",
+    "prompt": "私は日本語を話すことができます。",
+    "promptReading": "わたしはにほんごをはなすことができます。",
+    "expectedAnswer": "Tôi có thể nói tiếng Nhật.",
+    "hint": "V辞書形 + ことが できます",
+    "explanation": "が: đánh dấu danh ngữ Vこと là nội dung có thể Nができます dùng khi nội dung là danh từ; Vことができます dùng khi nội dung là hành động. Không dùng Vます + ことができます.",
+    "orderIndex": 4
+  },
+  {
+    "id": "77777777-1133-0003-0000-000000925002",
+    "patternId": "77777777-1133-0001-0000-000000009006",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Tôi có thể nói tiếng Nhật.",
+    "expectedAnswer": "私は日本語を話すことができます。",
+    "acceptableAnswers": [
+      "わたしはにほんごをはなすことができます。"
+    ],
+    "hint": "作ります → 作ることができます; 話します → 話すことができます",
+    "explanation": "が: đánh dấu danh ngữ Vこと là nội dung có thể Nができます dùng khi nội dung là danh từ; Vことができます dùng khi nội dung là hành động. Không dùng Vます + ことができます.",
+    "orderIndex": 5
+  },
+  {
+    "id": "77777777-1133-0003-0000-000000935002",
+    "patternId": "77777777-1133-0001-0000-000000009006",
+    "exerciseType": "arrange",
+    "prompt": "Tôi có thể nói tiếng Nhật.",
+    "expectedAnswer": "私 (わたし)は日本語 (にほんご)を話すこ (はなすこ)とができます",
+    "optionsJson": "[\"が\",\"と\",\"は\",\"を\",\"できます\",\"私 (わたし)\",\"話すこ (はなすこ)\",\"日本語 (にほんご)\"]",
+    "options": [
+      "が",
+      "と",
+      "は",
+      "を",
+      "できます",
+      "私 (わたし)",
+      "話すこ (はなすこ)",
+      "日本語 (にほんご)"
+    ],
+    "correctOrderJson": "[\"私 (わたし)\",\"は\",\"日本語 (にほんご)\",\"を\",\"話すこ (はなすこ)\",\"と\",\"が\",\"できます\"]",
+    "correctOrder": [
+      "私 (わたし)",
+      "は",
+      "日本語 (にほんご)",
+      "を",
+      "話すこ (はなすこ)",
+      "と",
+      "が",
+      "できます"
+    ],
+    "orderIndex": 6
+  },
+  {
+    "id": "77777777-1133-0003-0000-000000945001",
+    "patternId": "77777777-1133-0001-0000-000000009006",
+    "exerciseType": "arrange",
+    "prompt": "ことができます / 日本語を / 私は / 話す",
+    "expectedAnswer": "私は日本語を話すことができます。",
+    "acceptableAnswers": [],
+    "acceptableAnswersJson": "[]",
+    "hint": "",
+    "explanation": "",
+    "options": [
+      "ことができます",
+      "日本語を",
+      "私は",
+      "話す"
+    ],
+    "optionsJson": "[\"ことができます\",\"日本語を\",\"私は\",\"話す\"]",
+    "correctOrder": [
+      "私は",
+      "日本語を",
+      "話す",
+      "ことができます"
+    ],
+    "correctOrderJson": "[\"私は\",\"日本語を\",\"話す\",\"ことができます\"]",
+    "orderIndex": 1
+  },
+  {
+    "id": "77777777-1133-0003-0000-000000945002",
+    "patternId": "77777777-1133-0001-0000-000000009006",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Tôi không thể nấu ăn.",
+    "expectedAnswer": "私は料理を作ることができません。",
+    "acceptableAnswers": [],
+    "acceptableAnswersJson": "[]",
+    "hint": "",
+    "explanation": "",
+    "options": [],
+    "correctOrder": [],
+    "orderIndex": 2
+  },
+  {
+    "id": "77777777-1133-0003-0000-000000945003",
+    "patternId": "77777777-1133-0001-0000-000000009006",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Chuyển 作ります sang thể từ điển trong ことができます.",
+    "expectedAnswer": "作る",
+    "acceptableAnswers": [],
+    "acceptableAnswersJson": "[]",
+    "hint": "",
+    "explanation": "作ります → 作る.",
+    "options": [],
+    "correctOrder": [],
+    "orderIndex": 3
+  },
+  {
+    "id": "77777777-1133-0003-0000-000000945004",
+    "patternId": "77777777-1133-0001-0000-000000009006",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Chuyển できます sang phủ định lịch sự.",
+    "expectedAnswer": "できません。",
+    "acceptableAnswers": [],
+    "acceptableAnswersJson": "[]",
+    "hint": "",
+    "explanation": "ます → ません.",
+    "options": [],
+    "correctOrder": [],
+    "orderIndex": 4
+  }
+]

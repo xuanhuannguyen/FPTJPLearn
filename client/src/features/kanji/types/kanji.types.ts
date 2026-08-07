@@ -19,6 +19,10 @@ export interface KanjiComponent {
   name: string;
   kanjiId?: string;
   reading?: string;
+  meaning?: string;
+  isRadical?: boolean;
+  position?: string;
+  strokeCount?: number;
 }
 
 export interface KanjiItem {
@@ -49,6 +53,9 @@ export interface KanjiVocabulary {
   exampleJapanese?: string;
   exampleReading?: string;
   exampleMeaning?: string;
+  kanjiItemId?: string;
+  kanjiItemIds?: string[];
+  kanjiCharacters?: string[];
 }
 
 export interface KanjiLevelStats {

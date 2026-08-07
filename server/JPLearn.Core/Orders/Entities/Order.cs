@@ -6,7 +6,7 @@ public class Order : BaseEntity
 {
     public Guid UserId { get; set; }
     public long OrderCode { get; set; } // Numeric code for providers like PayOS
-    public string PackageCode { get; set; } = string.Empty; // jpd113, jpd123, combo
+    public string PackageCode { get; set; } = string.Empty; // jpd113, jpd123, jpd133, combo
     public decimal Amount { get; set; }
     public string Status { get; set; } = OrderStatuses.Pending;
     
@@ -31,12 +31,14 @@ public static class PackageCodes
 {
     public const string JPD113 = "jpd113";
     public const string JPD123 = "jpd123";
+    public const string JPD133 = "jpd133";
     public const string Combo = "combo";
 
     public static decimal GetPrice(string code) => code switch
     {
         JPD113 => 40000,
         JPD123 => 40000,
+        JPD133 => 40000,
         Combo => 70000,
         _ => 0
     };

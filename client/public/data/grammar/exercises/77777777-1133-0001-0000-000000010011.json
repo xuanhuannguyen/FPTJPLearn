@@ -1,0 +1,108 @@
+[
+  {
+    "id": "77777777-1133-0003-0000-000001020001",
+    "patternId": "77777777-1133-0001-0000-000000010011",
+    "exerciseType": "ja_to_vi",
+    "prompt": "あそこで きれいな写真をとることができます。",
+    "promptReading": "あそこで きれいなしゃしんをとることができます。",
+    "expectedAnswer": "Ở đằng kia có thể chụp những bức ảnh đẹp.",
+    "hint": "V辞書形 + ことが できます",
+    "explanation": "で: địa điểm; が: danh ngữ Vこと Nができます dùng danh từ hoạt động; Vことができます dùng động từ. Không dùng thể ます trước こと.",
+    "orderIndex": 1
+  },
+  {
+    "id": "77777777-1133-0003-0000-000001030001",
+    "patternId": "77777777-1133-0001-0000-000000010011",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Ở đằng kia có thể chụp những bức ảnh đẹp.",
+    "expectedAnswer": "あそこで きれいな写真をとることができます。",
+    "acceptableAnswers": [
+      "あそこで きれいなしゃしんをとることができます。"
+    ],
+    "hint": "撮ります → 撮ることができます",
+    "explanation": "で: địa điểm; が: danh ngữ Vこと Nができます dùng danh từ hoạt động; Vことができます dùng động từ. Không dùng thể ます trước こと.",
+    "orderIndex": 2
+  },
+  {
+    "id": "77777777-1133-0003-0000-000001040001",
+    "patternId": "77777777-1133-0001-0000-000000010011",
+    "exerciseType": "arrange",
+    "prompt": "Ở đằng kia có thể chụp những bức ảnh đẹp.",
+    "expectedAnswer": "あそこで きれいな写真 (あそこで きれいなしゃしん)をとることができます",
+    "optionsJson": "[\"が\",\"と\",\"と\",\"を\",\"るこ\",\"できます\",\"あそこで きれいな写真 (あそこで きれいなしゃしん)\"]",
+    "options": [
+      "が",
+      "と",
+      "と",
+      "を",
+      "るこ",
+      "できます",
+      "あそこで きれいな写真 (あそこで きれいなしゃしん)"
+    ],
+    "correctOrderJson": "[\"あそこで きれいな写真 (あそこで きれいなしゃしん)\",\"を\",\"と\",\"るこ\",\"と\",\"が\",\"できます\"]",
+    "correctOrder": [
+      "あそこで きれいな写真 (あそこで きれいなしゃしん)",
+      "を",
+      "と",
+      "るこ",
+      "と",
+      "が",
+      "できます"
+    ],
+    "orderIndex": 3
+  },
+  {
+    "id": "77777777-1133-0003-0000-000001020002",
+    "patternId": "77777777-1133-0001-0000-000000010011",
+    "exerciseType": "ja_to_vi",
+    "prompt": "この公園でサッカーをすることができます。",
+    "promptReading": "このこうえんでサッカーをすることができます。",
+    "expectedAnswer": "Có thể chơi bóng đá ở công viên này.",
+    "hint": "V辞書形 + ことが できます",
+    "explanation": "で: địa điểm; が: danh ngữ Vこと Nができます dùng danh từ hoạt động; Vことができます dùng động từ. Không dùng thể ます trước こと.",
+    "orderIndex": 4
+  },
+  {
+    "id": "77777777-1133-0003-0000-000001030002",
+    "patternId": "77777777-1133-0001-0000-000000010011",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Có thể chơi bóng đá ở công viên này.",
+    "expectedAnswer": "この公園でサッカーをすることができます。",
+    "acceptableAnswers": [
+      "このこうえんでサッカーをすることができます。"
+    ],
+    "hint": "撮ります → 撮ることができます",
+    "explanation": "で: địa điểm; が: danh ngữ Vこと Nができます dùng danh từ hoạt động; Vことができます dùng động từ. Không dùng thể ます trước こと.",
+    "orderIndex": 5
+  },
+  {
+    "id": "77777777-1133-0003-0000-000001040002",
+    "patternId": "77777777-1133-0001-0000-000000010011",
+    "exerciseType": "arrange",
+    "prompt": "Có thể chơi bóng đá ở công viên này.",
+    "expectedAnswer": "この公園でサッカー (こうえんでサッカー)をすることができます",
+    "optionsJson": "[\"が\",\"こ\",\"と\",\"の\",\"を\",\"するこ\",\"できます\",\"公園でサッカー (こうえんでサッカー)\"]",
+    "options": [
+      "が",
+      "こ",
+      "と",
+      "の",
+      "を",
+      "するこ",
+      "できます",
+      "公園でサッカー (こうえんでサッカー)"
+    ],
+    "correctOrderJson": "[\"こ\",\"の\",\"公園でサッカー (こうえんでサッカー)\",\"を\",\"するこ\",\"と\",\"が\",\"できます\"]",
+    "correctOrder": [
+      "こ",
+      "の",
+      "公園でサッカー (こうえんでサッカー)",
+      "を",
+      "するこ",
+      "と",
+      "が",
+      "できます"
+    ],
+    "orderIndex": 6
+  }
+]

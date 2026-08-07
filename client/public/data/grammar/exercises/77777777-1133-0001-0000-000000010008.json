@@ -1,0 +1,102 @@
+[
+  {
+    "id": "77777777-1133-0003-0000-000001017001",
+    "patternId": "77777777-1133-0001-0000-000000010008",
+    "exerciseType": "ja_to_vi",
+    "prompt": "ここに荷物はおいてください。",
+    "promptReading": "ここににもつはおいてください。",
+    "expectedAnswer": "Còn hành lý thì hãy để ở đây.",
+    "hint": "N は",
+    "explanation": "は: chủ đề/đối chiếu が đánh dấu chủ thể mới/tiêu điểm; は đưa chủ đề hoặc đối chiếu. Không máy móc dịch は thành một từ tiếng Việt cố định.",
+    "orderIndex": 1
+  },
+  {
+    "id": "77777777-1133-0003-0000-000001027001",
+    "patternId": "77777777-1133-0001-0000-000000010008",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Còn hành lý thì hãy để ở đây.",
+    "expectedAnswer": "ここに荷物はおいてください。",
+    "acceptableAnswers": [
+      "ここににもつはおいてください。"
+    ],
+    "hint": "Nは + Vてください / Aです ...",
+    "explanation": "は: chủ đề/đối chiếu が đánh dấu chủ thể mới/tiêu điểm; は đưa chủ đề hoặc đối chiếu. Không máy móc dịch は thành một từ tiếng Việt cố định.",
+    "orderIndex": 2
+  },
+  {
+    "id": "77777777-1133-0003-0000-000001037001",
+    "patternId": "77777777-1133-0001-0000-000000010008",
+    "exerciseType": "arrange",
+    "prompt": "Còn hành lý thì hãy để ở đây.",
+    "expectedAnswer": "ここに荷物 (にもつ)はおいてください",
+    "optionsJson": "[\"に\",\"は\",\"ここ\",\"おいてください\",\"荷物 (にもつ)\"]",
+    "options": [
+      "に",
+      "は",
+      "ここ",
+      "おいてください",
+      "荷物 (にもつ)"
+    ],
+    "correctOrderJson": "[\"ここ\",\"に\",\"荷物 (にもつ)\",\"は\",\"おいてください\"]",
+    "correctOrder": [
+      "ここ",
+      "に",
+      "荷物 (にもつ)",
+      "は",
+      "おいてください"
+    ],
+    "orderIndex": 3
+  },
+  {
+    "id": "77777777-1133-0003-0000-000001017002",
+    "patternId": "77777777-1133-0001-0000-000000010008",
+    "exerciseType": "ja_to_vi",
+    "prompt": "このかばんはここに置いてください。",
+    "promptReading": "このかばんはここにおいてください。",
+    "expectedAnswer": "Còn chiếc cặp này thì hãy đặt ở đây.",
+    "hint": "N は",
+    "explanation": "は: chủ đề/đối chiếu が đánh dấu chủ thể mới/tiêu điểm; は đưa chủ đề hoặc đối chiếu. Không máy móc dịch は thành một từ tiếng Việt cố định.",
+    "orderIndex": 4
+  },
+  {
+    "id": "77777777-1133-0003-0000-000001027002",
+    "patternId": "77777777-1133-0001-0000-000000010008",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Còn chiếc cặp này thì hãy đặt ở đây.",
+    "expectedAnswer": "このかばんはここに置いてください。",
+    "acceptableAnswers": [
+      "このかばんはここにおいてください。"
+    ],
+    "hint": "Nは + Vてください / Aです ...",
+    "explanation": "は: chủ đề/đối chiếu が đánh dấu chủ thể mới/tiêu điểm; は đưa chủ đề hoặc đối chiếu. Không máy móc dịch は thành một từ tiếng Việt cố định.",
+    "orderIndex": 5
+  },
+  {
+    "id": "77777777-1133-0003-0000-000001037002",
+    "patternId": "77777777-1133-0001-0000-000000010008",
+    "exerciseType": "arrange",
+    "prompt": "Còn chiếc cặp này thì hãy đặt ở đây.",
+    "expectedAnswer": "このかばんはここに置いてください (おいてください)",
+    "optionsJson": "[\"こ\",\"に\",\"の\",\"は\",\"ここ\",\"かばん\",\"置いてください (おいてください)\"]",
+    "options": [
+      "こ",
+      "に",
+      "の",
+      "は",
+      "ここ",
+      "かばん",
+      "置いてください (おいてください)"
+    ],
+    "correctOrderJson": "[\"こ\",\"の\",\"かばん\",\"は\",\"ここ\",\"に\",\"置いてください (おいてください)\"]",
+    "correctOrder": [
+      "こ",
+      "の",
+      "かばん",
+      "は",
+      "ここ",
+      "に",
+      "置いてください (おいてください)"
+    ],
+    "orderIndex": 6
+  }
+]

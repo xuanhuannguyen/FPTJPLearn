@@ -1,0 +1,140 @@
+[
+  {
+    "id": "77777777-1133-0003-0000-000000816001",
+    "patternId": "77777777-1133-0001-0000-000000008007",
+    "exerciseType": "ja_to_vi",
+    "prompt": "メアリーさんは目が大きくて、かみが長いです。",
+    "promptReading": "メアリーさんはめがおおきくて、かみがながいです。",
+    "expectedAnswer": "Mary có mắt to và tóc dài.",
+    "hint": "イA-くて、＿＿＿＿",
+    "explanation": "Không có trợ từ bắt buộc riêng; くて là dạng liên kết của イA ナA nối bằng で, không dùng くて. Không viết 大きいて; phải bỏ い rồi thêm くて.",
+    "orderIndex": 1
+  },
+  {
+    "id": "77777777-1133-0003-0000-000000826001",
+    "patternId": "77777777-1133-0001-0000-000000008007",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Mary có mắt to và tóc dài.",
+    "expectedAnswer": "メアリーさんは目が大きくて、かみが長いです。",
+    "acceptableAnswers": [
+      "メアリーさんはめがおおきくて、かみがながいです。"
+    ],
+    "hint": "大きい → 大きくて; 長い → 長くて; いい → よくて",
+    "explanation": "Không có trợ từ bắt buộc riêng; くて là dạng liên kết của イA ナA nối bằng で, không dùng くて. Không viết 大きいて; phải bỏ い rồi thêm くて.",
+    "orderIndex": 2
+  },
+  {
+    "id": "77777777-1133-0003-0000-000000836001",
+    "patternId": "77777777-1133-0001-0000-000000008007",
+    "exerciseType": "arrange",
+    "prompt": "Mary có mắt to và tóc dài.",
+    "expectedAnswer": "メアリーさんは目 (め)が大きくて、かみ (おおきくて、かみ)が長い (ながい)です",
+    "optionsJson": "[\"が\",\"が\",\"は\",\"です\",\"目 (め)\",\"メアリーさん\",\"長い (ながい)\",\"大きくて、かみ (おおきくて、かみ)\"]",
+    "options": [
+      "が",
+      "が",
+      "は",
+      "です",
+      "目 (め)",
+      "メアリーさん",
+      "長い (ながい)",
+      "大きくて、かみ (おおきくて、かみ)"
+    ],
+    "correctOrderJson": "[\"メアリーさん\",\"は\",\"目 (め)\",\"が\",\"大きくて、かみ (おおきくて、かみ)\",\"が\",\"長い (ながい)\",\"です\"]",
+    "correctOrder": [
+      "メアリーさん",
+      "は",
+      "目 (め)",
+      "が",
+      "大きくて、かみ (おおきくて、かみ)",
+      "が",
+      "長い (ながい)",
+      "です"
+    ],
+    "orderIndex": 3
+  },
+  {
+    "id": "77777777-1133-0003-0000-000000816002",
+    "patternId": "77777777-1133-0001-0000-000000008007",
+    "exerciseType": "ja_to_vi",
+    "prompt": "この犬は小さくて、かわいいです。",
+    "promptReading": "このいぬはちいさくて、かわいいです。",
+    "expectedAnswer": "Con chó này nhỏ và dễ thương.",
+    "hint": "イA-くて、＿＿＿＿",
+    "explanation": "Không có trợ từ bắt buộc riêng; くて là dạng liên kết của イA ナA nối bằng で, không dùng くて. Không viết 大きいて; phải bỏ い rồi thêm くて.",
+    "orderIndex": 4
+  },
+  {
+    "id": "77777777-1133-0003-0000-000000826002",
+    "patternId": "77777777-1133-0001-0000-000000008007",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Con chó này nhỏ và dễ thương.",
+    "expectedAnswer": "この犬は小さくて、かわいいです。",
+    "acceptableAnswers": [
+      "このいぬはちいさくて、かわいいです。"
+    ],
+    "hint": "大きい → 大きくて; 長い → 長くて; いい → よくて",
+    "explanation": "Không có trợ từ bắt buộc riêng; くて là dạng liên kết của イA ナA nối bằng で, không dùng くて. Không viết 大きいて; phải bỏ い rồi thêm くて.",
+    "orderIndex": 5
+  },
+  {
+    "id": "77777777-1133-0003-0000-000000836002",
+    "patternId": "77777777-1133-0001-0000-000000008007",
+    "exerciseType": "arrange",
+    "prompt": "Con chó này nhỏ và dễ thương.",
+    "expectedAnswer": "この犬 (いぬ)は小さくて、かわいい (ちいさくて、かわいい)です",
+    "optionsJson": "[\"こ\",\"の\",\"は\",\"です\",\"犬 (いぬ)\",\"小さくて、かわいい (ちいさくて、かわいい)\"]",
+    "options": [
+      "こ",
+      "の",
+      "は",
+      "です",
+      "犬 (いぬ)",
+      "小さくて、かわいい (ちいさくて、かわいい)"
+    ],
+    "correctOrderJson": "[\"こ\",\"の\",\"犬 (いぬ)\",\"は\",\"小さくて、かわいい (ちいさくて、かわいい)\",\"です\"]",
+    "correctOrder": [
+      "こ",
+      "の",
+      "犬 (いぬ)",
+      "は",
+      "小さくて、かわいい (ちいさくて、かわいい)",
+      "です"
+    ],
+    "orderIndex": 6
+  },
+  {
+    "id": "77777777-1133-0003-0000-000000846001",
+    "patternId": "77777777-1133-0001-0000-000000008007",
+    "exerciseType": "vi_to_ja",
+    "prompt": "メアリーさんは目が大き（　）、髪が長いです。",
+    "expectedAnswer": "くて",
+    "acceptableAnswers": [],
+    "acceptableAnswersJson": "[]",
+    "hint": "",
+    "explanation": "Tính từ đuôi い nối với tính chất tiếp theo bằng い → くて: 大きい → 大きくて.",
+    "options": [
+      "いで",
+      "くて",
+      "なで",
+      "く"
+    ],
+    "optionsJson": "[\"いで\",\"くて\",\"なで\",\"く\"]",
+    "correctOrder": [],
+    "orderIndex": 1
+  },
+  {
+    "id": "77777777-1133-0003-0000-000000846002",
+    "patternId": "77777777-1133-0001-0000-000000008007",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Chuyển 大きい sang dạng nối với tính từ tiếp theo.",
+    "expectedAnswer": "大きくて",
+    "acceptableAnswers": [],
+    "acceptableAnswersJson": "[]",
+    "hint": "",
+    "explanation": "イA: bỏ い rồi thêm くて.",
+    "options": [],
+    "correctOrder": [],
+    "orderIndex": 2
+  }
+]

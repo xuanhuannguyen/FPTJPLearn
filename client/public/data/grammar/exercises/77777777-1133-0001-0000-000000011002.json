@@ -1,0 +1,168 @@
+[
+  {
+    "id": "77777777-1133-0003-0000-000001111001",
+    "patternId": "77777777-1133-0001-0000-000000011002",
+    "exerciseType": "ja_to_vi",
+    "prompt": "毎朝、牛乳を飲んでいます。",
+    "promptReading": "まいあさ、ぎゅうにゅうをのんでいます。",
+    "expectedAnswer": "Mỗi sáng tôi thường uống sữa.",
+    "hint": "Vて形 + います",
+    "explanation": "を: tân ngữ; các trợ từ khác tùy câu Bài 10-3 dùng Vています cho hành động đang xảy ra trước mắt; bài 8 dùng cho trạng thái/nghề nghiệp. Không luôn dịch Vています là 'đang'.",
+    "orderIndex": 1
+  },
+  {
+    "id": "77777777-1133-0003-0000-000001121001",
+    "patternId": "77777777-1133-0001-0000-000000011002",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Mỗi sáng tôi thường uống sữa.",
+    "expectedAnswer": "毎朝、牛乳を飲んでいます。",
+    "acceptableAnswers": [
+      "まいあさ、ぎゅうにゅうをのんでいます。"
+    ],
+    "hint": "飲みます → 飲んでいます",
+    "explanation": "を: tân ngữ; các trợ từ khác tùy câu Bài 10-3 dùng Vています cho hành động đang xảy ra trước mắt; bài 8 dùng cho trạng thái/nghề nghiệp. Không luôn dịch Vています là 'đang'.",
+    "orderIndex": 2
+  },
+  {
+    "id": "77777777-1133-0003-0000-000001131001",
+    "patternId": "77777777-1133-0001-0000-000000011002",
+    "exerciseType": "arrange",
+    "prompt": "Mỗi sáng tôi thường uống sữa.",
+    "expectedAnswer": "毎朝、牛乳 (まいあさ、ぎゅうにゅう)を飲んでいます (のんでいます)",
+    "optionsJson": "[\"を\",\"飲んでいます (のんでいます)\",\"毎朝、牛乳 (まいあさ、ぎゅうにゅう)\"]",
+    "options": [
+      "を",
+      "飲んでいます (のんでいます)",
+      "毎朝、牛乳 (まいあさ、ぎゅうにゅう)"
+    ],
+    "correctOrderJson": "[\"毎朝、牛乳 (まいあさ、ぎゅうにゅう)\",\"を\",\"飲んでいます (のんでいます)\"]",
+    "correctOrder": [
+      "毎朝、牛乳 (まいあさ、ぎゅうにゅう)",
+      "を",
+      "飲んでいます (のんでいます)"
+    ],
+    "orderIndex": 3
+  },
+  {
+    "id": "77777777-1133-0003-0000-000001111002",
+    "patternId": "77777777-1133-0001-0000-000000011002",
+    "exerciseType": "ja_to_vi",
+    "prompt": "毎晩、日本語を勉強しています。",
+    "promptReading": "まいばん、にほんごをべんきょうしています。",
+    "expectedAnswer": "Tối nào tôi cũng học tiếng Nhật.",
+    "hint": "Vて形 + います",
+    "explanation": "を: tân ngữ; các trợ từ khác tùy câu Bài 10-3 dùng Vています cho hành động đang xảy ra trước mắt; bài 8 dùng cho trạng thái/nghề nghiệp. Không luôn dịch Vています là 'đang'.",
+    "orderIndex": 4
+  },
+  {
+    "id": "77777777-1133-0003-0000-000001121002",
+    "patternId": "77777777-1133-0001-0000-000000011002",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Tối nào tôi cũng học tiếng Nhật.",
+    "expectedAnswer": "毎晩、日本語を勉強しています。",
+    "acceptableAnswers": [
+      "まいばん、にほんごをべんきょうしています。"
+    ],
+    "hint": "飲みます → 飲んでいます",
+    "explanation": "を: tân ngữ; các trợ từ khác tùy câu Bài 10-3 dùng Vています cho hành động đang xảy ra trước mắt; bài 8 dùng cho trạng thái/nghề nghiệp. Không luôn dịch Vています là 'đang'.",
+    "orderIndex": 5
+  },
+  {
+    "id": "77777777-1133-0003-0000-000001131002",
+    "patternId": "77777777-1133-0001-0000-000000011002",
+    "exerciseType": "arrange",
+    "prompt": "Tối nào tôi cũng học tiếng Nhật.",
+    "expectedAnswer": "毎晩、日本語 (まいばん、にほんご)を勉強しています (べんきょうしています)",
+    "optionsJson": "[\"を\",\"勉強しています (べんきょうしています)\",\"毎晩、日本語 (まいばん、にほんご)\"]",
+    "options": [
+      "を",
+      "勉強しています (べんきょうしています)",
+      "毎晩、日本語 (まいばん、にほんご)"
+    ],
+    "correctOrderJson": "[\"毎晩、日本語 (まいばん、にほんご)\",\"を\",\"勉強しています (べんきょうしています)\"]",
+    "correctOrder": [
+      "毎晩、日本語 (まいばん、にほんご)",
+      "を",
+      "勉強しています (べんきょうしています)"
+    ],
+    "orderIndex": 6
+  },
+  {
+    "id": "77777777-1133-0003-0000-000001141001",
+    "patternId": "77777777-1133-0001-0000-000000011002",
+    "exerciseType": "vi_to_ja",
+    "prompt": "毎朝、牛乳を飲ん（　）。",
+    "expectedAnswer": "でいます",
+    "acceptableAnswers": [],
+    "acceptableAnswersJson": "[]",
+    "hint": "",
+    "explanation": "Trong bài 11, Vています có thể diễn tả thói quen lặp lại.",
+    "options": [
+      "でいます",
+      "だり",
+      "でください",
+      "だ"
+    ],
+    "optionsJson": "[\"でいます\",\"だり\",\"でください\",\"だ\"]",
+    "correctOrder": [],
+    "orderIndex": 1
+  },
+  {
+    "id": "77777777-1133-0003-0000-000001141002",
+    "patternId": "77777777-1133-0001-0000-000000011002",
+    "exerciseType": "arrange",
+    "prompt": "飲んでいます / 毎朝 / 牛乳を",
+    "expectedAnswer": "毎朝、牛乳を飲んでいます。",
+    "acceptableAnswers": [],
+    "acceptableAnswersJson": "[]",
+    "hint": "",
+    "explanation": "",
+    "options": [
+      "飲んでいます",
+      "毎朝",
+      "牛乳を"
+    ],
+    "optionsJson": "[\"飲んでいます\",\"毎朝\",\"牛乳を\"]",
+    "correctOrder": [
+      "毎朝",
+      "牛乳を",
+      "飲んでいます"
+    ],
+    "correctOrderJson": "[\"毎朝\",\"牛乳を\",\"飲んでいます\"]",
+    "orderIndex": 2
+  },
+  {
+    "id": "77777777-1133-0003-0000-000001141003",
+    "patternId": "77777777-1133-0001-0000-000000011002",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Mỗi sáng tôi thường uống sữa.",
+    "expectedAnswer": "毎朝、牛乳を飲んでいます。",
+    "acceptableAnswers": [],
+    "acceptableAnswersJson": "[]",
+    "hint": "",
+    "explanation": "",
+    "options": [],
+    "correctOrder": [],
+    "orderIndex": 3
+  },
+  {
+    "id": "77777777-1133-0003-0000-000001141004",
+    "patternId": "77777777-1133-0001-0000-000000011002",
+    "exerciseType": "vi_to_ja",
+    "prompt": "毎朝、牛乳＿＿飲んでいます。",
+    "expectedAnswer": "を",
+    "acceptableAnswers": [],
+    "acceptableAnswersJson": "[]",
+    "hint": "",
+    "explanation": "牛乳 là tân ngữ của 飲む nên dùng を.",
+    "options": [
+      "が",
+      "を",
+      "に",
+      "で"
+    ],
+    "optionsJson": "[\"が\",\"を\",\"に\",\"で\"]",
+    "correctOrder": [],
+    "orderIndex": 4
+  }
+]

@@ -1,0 +1,206 @@
+[
+  {
+    "id": "77777777-1133-0003-0000-000001012001",
+    "patternId": "77777777-1133-0001-0000-000000010003",
+    "exerciseType": "ja_to_vi",
+    "prompt": "コンビニでジュースを買ってきます。",
+    "promptReading": "コンビニでジュースをかってきます。",
+    "expectedAnswer": "Tôi đi cửa hàng tiện lợi mua nước rồi quay lại.",
+    "hint": "Vて形 + きます",
+    "explanation": "で có thể đánh dấu nơi làm hành động; を đánh dấu vật Vていきます thường mang hướng đi ra xa; Vてきます trong mẫu này là làm rồi quay lại. Không hiểu きます đơn giản là 'đến' mà bỏ sắc thái quay về trong ngữ cảnh mẫu.",
+    "orderIndex": 1
+  },
+  {
+    "id": "77777777-1133-0003-0000-000001022001",
+    "patternId": "77777777-1133-0001-0000-000000010003",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Tôi đi cửa hàng tiện lợi mua nước rồi quay lại.",
+    "expectedAnswer": "コンビニでジュースを買ってきます。",
+    "acceptableAnswers": [
+      "コンビニでジュースをかってきます。"
+    ],
+    "hint": "買います → 買ってきます",
+    "explanation": "で có thể đánh dấu nơi làm hành động; を đánh dấu vật Vていきます thường mang hướng đi ra xa; Vてきます trong mẫu này là làm rồi quay lại. Không hiểu きます đơn giản là 'đến' mà bỏ sắc thái quay về trong ngữ cảnh mẫu.",
+    "orderIndex": 2
+  },
+  {
+    "id": "77777777-1133-0003-0000-000001032001",
+    "patternId": "77777777-1133-0001-0000-000000010003",
+    "exerciseType": "arrange",
+    "prompt": "Tôi đi cửa hàng tiện lợi mua nước rồi quay lại.",
+    "expectedAnswer": "コンビニでジュースを買ってきます (かってきます)",
+    "optionsJson": "[\"を\",\"コンビニでジュース\",\"買ってきます (かってきます)\"]",
+    "options": [
+      "を",
+      "コンビニでジュース",
+      "買ってきます (かってきます)"
+    ],
+    "correctOrderJson": "[\"コンビニでジュース\",\"を\",\"買ってきます (かってきます)\"]",
+    "correctOrder": [
+      "コンビニでジュース",
+      "を",
+      "買ってきます (かってきます)"
+    ],
+    "orderIndex": 3
+  },
+  {
+    "id": "77777777-1133-0003-0000-000001012002",
+    "patternId": "77777777-1133-0001-0000-000000010003",
+    "exerciseType": "ja_to_vi",
+    "prompt": "ちょっと飲み物を買ってきます。",
+    "promptReading": "ちょっとのみものをかってきます。",
+    "expectedAnswer": "Tôi đi mua đồ uống một lát rồi quay lại.",
+    "hint": "Vて形 + きます",
+    "explanation": "で có thể đánh dấu nơi làm hành động; を đánh dấu vật Vていきます thường mang hướng đi ra xa; Vてきます trong mẫu này là làm rồi quay lại. Không hiểu きます đơn giản là 'đến' mà bỏ sắc thái quay về trong ngữ cảnh mẫu.",
+    "orderIndex": 4
+  },
+  {
+    "id": "77777777-1133-0003-0000-000001022002",
+    "patternId": "77777777-1133-0001-0000-000000010003",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Tôi đi mua đồ uống một lát rồi quay lại.",
+    "expectedAnswer": "ちょっと飲み物を買ってきます。",
+    "acceptableAnswers": [
+      "ちょっとのみものをかってきます。"
+    ],
+    "hint": "買います → 買ってきます",
+    "explanation": "で có thể đánh dấu nơi làm hành động; を đánh dấu vật Vていきます thường mang hướng đi ra xa; Vてきます trong mẫu này là làm rồi quay lại. Không hiểu きます đơn giản là 'đến' mà bỏ sắc thái quay về trong ngữ cảnh mẫu.",
+    "orderIndex": 5
+  },
+  {
+    "id": "77777777-1133-0003-0000-000001032002",
+    "patternId": "77777777-1133-0001-0000-000000010003",
+    "exerciseType": "arrange",
+    "prompt": "Tôi đi mua đồ uống một lát rồi quay lại.",
+    "expectedAnswer": "ちょっと飲み物 (のみもの)を買ってきます (かってきます)",
+    "optionsJson": "[\"と\",\"を\",\"ちょっ\",\"飲み物 (のみもの)\",\"買ってきます (かってきます)\"]",
+    "options": [
+      "と",
+      "を",
+      "ちょっ",
+      "飲み物 (のみもの)",
+      "買ってきます (かってきます)"
+    ],
+    "correctOrderJson": "[\"ちょっ\",\"と\",\"飲み物 (のみもの)\",\"を\",\"買ってきます (かってきます)\"]",
+    "correctOrder": [
+      "ちょっ",
+      "と",
+      "飲み物 (のみもの)",
+      "を",
+      "買ってきます (かってきます)"
+    ],
+    "orderIndex": 6
+  },
+  {
+    "id": "77777777-1133-0003-0000-000001042001",
+    "patternId": "77777777-1133-0001-0000-000000010003",
+    "exerciseType": "vi_to_ja",
+    "prompt": "コンビニでジュースを買って（　）。",
+    "expectedAnswer": "きます",
+    "acceptableAnswers": [],
+    "acceptableAnswersJson": "[]",
+    "hint": "",
+    "explanation": "Vてきます trong bài diễn tả đi làm việc gì rồi quay lại.",
+    "options": [
+      "います",
+      "きます",
+      "なります",
+      "ください"
+    ],
+    "optionsJson": "[\"います\",\"きます\",\"なります\",\"ください\"]",
+    "correctOrder": [],
+    "orderIndex": 1
+  },
+  {
+    "id": "77777777-1133-0003-0000-000001042002",
+    "patternId": "77777777-1133-0001-0000-000000010003",
+    "exerciseType": "arrange",
+    "prompt": "買ってきます / コンビニで / ジュースを",
+    "expectedAnswer": "コンビニでジュースを買ってきます。",
+    "acceptableAnswers": [],
+    "acceptableAnswersJson": "[]",
+    "hint": "",
+    "explanation": "",
+    "options": [
+      "買ってきます",
+      "コンビニで",
+      "ジュースを"
+    ],
+    "optionsJson": "[\"買ってきます\",\"コンビニで\",\"ジュースを\"]",
+    "correctOrder": [
+      "コンビニで",
+      "ジュースを",
+      "買ってきます"
+    ],
+    "correctOrderJson": "[\"コンビニで\",\"ジュースを\",\"買ってきます\"]",
+    "orderIndex": 2
+  },
+  {
+    "id": "77777777-1133-0003-0000-000001042003",
+    "patternId": "77777777-1133-0001-0000-000000010003",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Tôi đi cửa hàng tiện lợi mua nước rồi quay lại.",
+    "expectedAnswer": "コンビニでジュースを買ってきます。",
+    "acceptableAnswers": [],
+    "acceptableAnswersJson": "[]",
+    "hint": "",
+    "explanation": "",
+    "options": [],
+    "correctOrder": [],
+    "orderIndex": 3
+  },
+  {
+    "id": "77777777-1133-0003-0000-000001042004",
+    "patternId": "77777777-1133-0001-0000-000000010003",
+    "exerciseType": "vi_to_ja",
+    "prompt": "ここ＿＿写真を撮らないでください。",
+    "expectedAnswer": "で",
+    "acceptableAnswers": [],
+    "acceptableAnswersJson": "[]",
+    "hint": "",
+    "explanation": "Nơi diễn ra hành động 撮る dùng で.",
+    "options": [
+      "に",
+      "を",
+      "で",
+      "が"
+    ],
+    "optionsJson": "[\"に\",\"を\",\"で\",\"が\"]",
+    "correctOrder": [],
+    "orderIndex": 4
+  },
+  {
+    "id": "77777777-1133-0003-0000-000001042005",
+    "patternId": "77777777-1133-0001-0000-000000010003",
+    "exerciseType": "vi_to_ja",
+    "prompt": "ここ＿＿食事ができます。",
+    "expectedAnswer": "で",
+    "acceptableAnswers": [],
+    "acceptableAnswersJson": "[]",
+    "hint": "",
+    "explanation": "Nơi có thể thực hiện hoạt động dùng で.",
+    "options": [
+      "で",
+      "を",
+      "が",
+      "に"
+    ],
+    "optionsJson": "[\"で\",\"を\",\"が\",\"に\"]",
+    "correctOrder": [],
+    "orderIndex": 5
+  },
+  {
+    "id": "77777777-1133-0003-0000-000001042006",
+    "patternId": "77777777-1133-0001-0000-000000010003",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Chuyển 買います sang Vてきます.",
+    "expectedAnswer": "買ってきます。",
+    "acceptableAnswers": [],
+    "acceptableAnswersJson": "[]",
+    "hint": "",
+    "explanation": "買います → 買って + きます.",
+    "options": [],
+    "correctOrder": [],
+    "orderIndex": 6
+  }
+]

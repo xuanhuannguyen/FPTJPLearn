@@ -1,0 +1,160 @@
+[
+  {
+    "id": "77777777-1133-0003-0000-000000819001",
+    "patternId": "77777777-1133-0001-0000-000000008010",
+    "exerciseType": "ja_to_vi",
+    "prompt": "カルロスさんはパクさんに花をあげました。",
+    "promptReading": "カルロスさんはパクさんにはなをあげました。",
+    "expectedAnswer": "Carlos đã tặng hoa cho Park.",
+    "hint": "N1（人）に N2（物）を あげます",
+    "explanation": "に: người nhận; を: vật được cho もらいます lấy góc nhìn người nhận; くれます dùng khi người khác cho tôi/phía tôi. × 友達は私にプレゼントをあげました nếu muốn nói 'bạn tặng tôi' theo mẫu bài; dùng くれました.",
+    "orderIndex": 1
+  },
+  {
+    "id": "77777777-1133-0003-0000-000000829001",
+    "patternId": "77777777-1133-0001-0000-000000008010",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Carlos đã tặng hoa cho Park.",
+    "expectedAnswer": "カルロスさんはパクさんに花をあげました。",
+    "acceptableAnswers": [
+      "カルロスさんはパクさんにはなをあげました。"
+    ],
+    "hint": "あげます / あげました",
+    "explanation": "に: người nhận; を: vật được cho もらいます lấy góc nhìn người nhận; くれます dùng khi người khác cho tôi/phía tôi. × 友達は私にプレゼントをあげました nếu muốn nói 'bạn tặng tôi' theo mẫu bài; dùng くれました.",
+    "orderIndex": 2
+  },
+  {
+    "id": "77777777-1133-0003-0000-000000839001",
+    "patternId": "77777777-1133-0001-0000-000000008010",
+    "exerciseType": "arrange",
+    "prompt": "Carlos đã tặng hoa cho Park.",
+    "expectedAnswer": "カルロスさんはパクさんに花 (はな)をあげました",
+    "optionsJson": "[\"に\",\"は\",\"を\",\"パクさん\",\"花 (はな)\",\"あげました\",\"カルロスさん\"]",
+    "options": [
+      "に",
+      "は",
+      "を",
+      "パクさん",
+      "花 (はな)",
+      "あげました",
+      "カルロスさん"
+    ],
+    "correctOrderJson": "[\"カルロスさん\",\"は\",\"パクさん\",\"に\",\"花 (はな)\",\"を\",\"あげました\"]",
+    "correctOrder": [
+      "カルロスさん",
+      "は",
+      "パクさん",
+      "に",
+      "花 (はな)",
+      "を",
+      "あげました"
+    ],
+    "orderIndex": 3
+  },
+  {
+    "id": "77777777-1133-0003-0000-000000819002",
+    "patternId": "77777777-1133-0001-0000-000000008010",
+    "exerciseType": "ja_to_vi",
+    "prompt": "私は友達に本をあげました。",
+    "promptReading": "わたしはともだちにほんをあげました。",
+    "expectedAnswer": "Tôi đã tặng bạn một quyển sách.",
+    "hint": "N1（人）に N2（物）を あげます",
+    "explanation": "に: người nhận; を: vật được cho もらいます lấy góc nhìn người nhận; くれます dùng khi người khác cho tôi/phía tôi. × 友達は私にプレゼントをあげました nếu muốn nói 'bạn tặng tôi' theo mẫu bài; dùng くれました.",
+    "orderIndex": 4
+  },
+  {
+    "id": "77777777-1133-0003-0000-000000829002",
+    "patternId": "77777777-1133-0001-0000-000000008010",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Tôi đã tặng bạn một quyển sách.",
+    "expectedAnswer": "私は友達に本をあげました。",
+    "acceptableAnswers": [
+      "わたしはともだちにほんをあげました。"
+    ],
+    "hint": "あげます / あげました",
+    "explanation": "に: người nhận; を: vật được cho もらいます lấy góc nhìn người nhận; くれます dùng khi người khác cho tôi/phía tôi. × 友達は私にプレゼントをあげました nếu muốn nói 'bạn tặng tôi' theo mẫu bài; dùng くれました.",
+    "orderIndex": 5
+  },
+  {
+    "id": "77777777-1133-0003-0000-000000839002",
+    "patternId": "77777777-1133-0001-0000-000000008010",
+    "exerciseType": "arrange",
+    "prompt": "Tôi đã tặng bạn một quyển sách.",
+    "expectedAnswer": "私 (わたし)は友達 (ともだち)に本 (ほん)をあげました",
+    "optionsJson": "[\"に\",\"は\",\"を\",\"本 (ほん)\",\"あげました\",\"私 (わたし)\",\"友達 (ともだち)\"]",
+    "options": [
+      "に",
+      "は",
+      "を",
+      "本 (ほん)",
+      "あげました",
+      "私 (わたし)",
+      "友達 (ともだち)"
+    ],
+    "correctOrderJson": "[\"私 (わたし)\",\"は\",\"友達 (ともだち)\",\"に\",\"本 (ほん)\",\"を\",\"あげました\"]",
+    "correctOrder": [
+      "私 (わたし)",
+      "は",
+      "友達 (ともだち)",
+      "に",
+      "本 (ほん)",
+      "を",
+      "あげました"
+    ],
+    "orderIndex": 6
+  },
+  {
+    "id": "77777777-1133-0003-0000-000000849001",
+    "patternId": "77777777-1133-0001-0000-000000008010",
+    "exerciseType": "arrange",
+    "prompt": "本を / 友達に / あげました / 私は",
+    "expectedAnswer": "私は友達に本をあげました。",
+    "acceptableAnswers": [],
+    "acceptableAnswersJson": "[]",
+    "hint": "",
+    "explanation": "",
+    "options": [
+      "本を",
+      "友達に",
+      "あげました",
+      "私は"
+    ],
+    "optionsJson": "[\"本を\",\"友達に\",\"あげました\",\"私は\"]",
+    "correctOrder": [
+      "私は",
+      "友達に",
+      "本を",
+      "あげました"
+    ],
+    "correctOrderJson": "[\"私は\",\"友達に\",\"本を\",\"あげました\"]",
+    "orderIndex": 1
+  },
+  {
+    "id": "77777777-1133-0003-0000-000000849002",
+    "patternId": "77777777-1133-0001-0000-000000008010",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Tôi đã tặng bạn một quyển sách.",
+    "expectedAnswer": "私は友達に本をあげました。",
+    "acceptableAnswers": [],
+    "acceptableAnswersJson": "[]",
+    "hint": "",
+    "explanation": "",
+    "options": [],
+    "correctOrder": [],
+    "orderIndex": 2
+  },
+  {
+    "id": "77777777-1133-0003-0000-000000849003",
+    "patternId": "77777777-1133-0001-0000-000000008010",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Chuyển あげます sang quá khứ.",
+    "expectedAnswer": "あげました。",
+    "acceptableAnswers": [],
+    "acceptableAnswersJson": "[]",
+    "hint": "",
+    "explanation": "Động từ thể ます: ます → ました.",
+    "options": [],
+    "correctOrder": [],
+    "orderIndex": 3
+  }
+]

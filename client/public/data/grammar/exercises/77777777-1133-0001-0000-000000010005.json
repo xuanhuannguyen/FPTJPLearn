@@ -1,0 +1,164 @@
+[
+  {
+    "id": "77777777-1133-0003-0000-000001014001",
+    "patternId": "77777777-1133-0001-0000-000000010005",
+    "exerciseType": "ja_to_vi",
+    "prompt": "あの橋を渡って、交差点を右に曲がってください。",
+    "promptReading": "あのはしをわたって、こうさてんをみぎにまがってください。",
+    "expectedAnswer": "Hãy qua cây cầu kia rồi rẽ phải ở ngã tư.",
+    "hint": "N（場所）を Vます",
+    "explanation": "を: đánh dấu không gian/tuyến đường được đi qua NでVます: nơi thực hiện hành động; NをVます: đường/không gian đi qua với động từ di chuyển. Không dùng に nếu ý là 'đi qua con đường/cây cầu'.",
+    "orderIndex": 1
+  },
+  {
+    "id": "77777777-1133-0003-0000-000001024001",
+    "patternId": "77777777-1133-0001-0000-000000010005",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Hãy qua cây cầu kia rồi rẽ phải ở ngã tư.",
+    "expectedAnswer": "あの橋を渡って、交差点を右に曲がってください。",
+    "acceptableAnswers": [
+      "あのはしをわたって、こうさてんをみぎにまがってください。"
+    ],
+    "hint": "橋を渡ります / 道を歩きます / 交差点を曲がります",
+    "explanation": "を: đánh dấu không gian/tuyến đường được đi qua NでVます: nơi thực hiện hành động; NをVます: đường/không gian đi qua với động từ di chuyển. Không dùng に nếu ý là 'đi qua con đường/cây cầu'.",
+    "orderIndex": 2
+  },
+  {
+    "id": "77777777-1133-0003-0000-000001034001",
+    "patternId": "77777777-1133-0001-0000-000000010005",
+    "exerciseType": "arrange",
+    "prompt": "Hãy qua cây cầu kia rồi rẽ phải ở ngã tư.",
+    "expectedAnswer": "あの橋 (はし)を渡って、交差点 (わたって、こうさてん)を右 (みぎ)に曲 (ま)がってください",
+    "optionsJson": "[\"あ\",\"が\",\"に\",\"の\",\"を\",\"を\",\"曲 (ま)\",\"右 (みぎ)\",\"橋 (はし)\",\"ってください\",\"渡って、交差点 (わたって、こうさてん)\"]",
+    "options": [
+      "あ",
+      "が",
+      "に",
+      "の",
+      "を",
+      "を",
+      "曲 (ま)",
+      "右 (みぎ)",
+      "橋 (はし)",
+      "ってください",
+      "渡って、交差点 (わたって、こうさてん)"
+    ],
+    "correctOrderJson": "[\"あ\",\"の\",\"橋 (はし)\",\"を\",\"渡って、交差点 (わたって、こうさてん)\",\"を\",\"右 (みぎ)\",\"に\",\"曲 (ま)\",\"が\",\"ってください\"]",
+    "correctOrder": [
+      "あ",
+      "の",
+      "橋 (はし)",
+      "を",
+      "渡って、交差点 (わたって、こうさてん)",
+      "を",
+      "右 (みぎ)",
+      "に",
+      "曲 (ま)",
+      "が",
+      "ってください"
+    ],
+    "orderIndex": 3
+  },
+  {
+    "id": "77777777-1133-0003-0000-000001014002",
+    "patternId": "77777777-1133-0001-0000-000000010005",
+    "exerciseType": "ja_to_vi",
+    "prompt": "この道をまっすぐ行ってください。",
+    "promptReading": "このみちをまっすぐいってください。",
+    "expectedAnswer": "Hãy đi thẳng theo con đường này.",
+    "hint": "N（場所）を Vます",
+    "explanation": "を: đánh dấu không gian/tuyến đường được đi qua NでVます: nơi thực hiện hành động; NをVます: đường/không gian đi qua với động từ di chuyển. Không dùng に nếu ý là 'đi qua con đường/cây cầu'.",
+    "orderIndex": 4
+  },
+  {
+    "id": "77777777-1133-0003-0000-000001024002",
+    "patternId": "77777777-1133-0001-0000-000000010005",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Hãy đi thẳng theo con đường này.",
+    "expectedAnswer": "この道をまっすぐ行ってください。",
+    "acceptableAnswers": [
+      "このみちをまっすぐいってください。"
+    ],
+    "hint": "橋を渡ります / 道を歩きます / 交差点を曲がります",
+    "explanation": "を: đánh dấu không gian/tuyến đường được đi qua NでVます: nơi thực hiện hành động; NをVます: đường/không gian đi qua với động từ di chuyển. Không dùng に nếu ý là 'đi qua con đường/cây cầu'.",
+    "orderIndex": 5
+  },
+  {
+    "id": "77777777-1133-0003-0000-000001034002",
+    "patternId": "77777777-1133-0001-0000-000000010005",
+    "exerciseType": "arrange",
+    "prompt": "Hãy đi thẳng theo con đường này.",
+    "expectedAnswer": "この道 (みち)をまっすぐ行ってください (まっすぐいってください)",
+    "optionsJson": "[\"こ\",\"の\",\"を\",\"道 (みち)\",\"まっすぐ行ってください (まっすぐいってください)\"]",
+    "options": [
+      "こ",
+      "の",
+      "を",
+      "道 (みち)",
+      "まっすぐ行ってください (まっすぐいってください)"
+    ],
+    "correctOrderJson": "[\"こ\",\"の\",\"道 (みち)\",\"を\",\"まっすぐ行ってください (まっすぐいってください)\"]",
+    "correctOrder": [
+      "こ",
+      "の",
+      "道 (みち)",
+      "を",
+      "まっすぐ行ってください (まっすぐいってください)"
+    ],
+    "orderIndex": 6
+  },
+  {
+    "id": "77777777-1133-0003-0000-000001044001",
+    "patternId": "77777777-1133-0001-0000-000000010005",
+    "exerciseType": "vi_to_ja",
+    "prompt": "寒い → 寒（　）なりました。",
+    "expectedAnswer": "く",
+    "acceptableAnswers": [],
+    "acceptableAnswersJson": "[]",
+    "hint": "",
+    "explanation": "イA đổi い → くなります.",
+    "options": [
+      "いに",
+      "く",
+      "な",
+      "で"
+    ],
+    "optionsJson": "[\"いに\",\"く\",\"な\",\"で\"]",
+    "correctOrder": [],
+    "orderIndex": 1
+  },
+  {
+    "id": "77777777-1133-0003-0000-000001044002",
+    "patternId": "77777777-1133-0001-0000-000000010005",
+    "exerciseType": "vi_to_ja",
+    "prompt": "静か → 静か（　）なりました。",
+    "expectedAnswer": "に",
+    "acceptableAnswers": [],
+    "acceptableAnswersJson": "[]",
+    "hint": "",
+    "explanation": "ナA dùng ナA + に + なります.",
+    "options": [
+      "く",
+      "で",
+      "に",
+      "な"
+    ],
+    "optionsJson": "[\"く\",\"で\",\"に\",\"な\"]",
+    "correctOrder": [],
+    "orderIndex": 2
+  },
+  {
+    "id": "77777777-1133-0003-0000-000001044003",
+    "patternId": "77777777-1133-0001-0000-000000010005",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Hãy đi thẳng theo con đường này.",
+    "expectedAnswer": "この道をまっすぐ行ってください。",
+    "acceptableAnswers": [],
+    "acceptableAnswersJson": "[]",
+    "hint": "",
+    "explanation": "",
+    "options": [],
+    "correctOrder": [],
+    "orderIndex": 3
+  }
+]

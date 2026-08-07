@@ -1,0 +1,140 @@
+[
+  {
+    "id": "77777777-1133-0003-0000-000001115001",
+    "patternId": "77777777-1133-0001-0000-000000011006",
+    "exerciseType": "ja_to_vi",
+    "prompt": "料理を作るとき、本を見ます。アルバイトがないとき、ともだちとあそびます。",
+    "promptReading": "りょうりをつくるとき、ほんをみます。アルバイトがないとき、ともだちとあそびます。",
+    "expectedAnswer": "Khi nấu ăn tôi xem sách. Khi không có việc làm thêm, tôi chơi với bạn.",
+    "hint": "V辞書形／Vた形／Vない形 + とき、＿＿＿＿",
+    "explanation": "Trợ từ tùy từng động từ Nのとき và Aとき dùng với danh từ/tính từ; mẫu này dùng động từ dạng thường. Không dùng Vます trước とき trong cấu trúc được dạy.",
+    "orderIndex": 1
+  },
+  {
+    "id": "77777777-1133-0003-0000-000001125001",
+    "patternId": "77777777-1133-0001-0000-000000011006",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Khi nấu ăn tôi xem sách. Khi không có việc làm thêm, tôi chơi với bạn.",
+    "expectedAnswer": "料理を作るとき、本を見ます。アルバイトがないとき、ともだちとあそびます。",
+    "acceptableAnswers": [
+      "りょうりをつくるとき、ほんをみます。アルバイトがないとき、ともだちとあそびます。"
+    ],
+    "hint": "作るとき / 行ったとき / ないとき",
+    "explanation": "Trợ từ tùy từng động từ Nのとき và Aとき dùng với danh từ/tính từ; mẫu này dùng động từ dạng thường. Không dùng Vます trước とき trong cấu trúc được dạy.",
+    "orderIndex": 2
+  },
+  {
+    "id": "77777777-1133-0003-0000-000001135001",
+    "patternId": "77777777-1133-0001-0000-000000011006",
+    "exerciseType": "arrange",
+    "prompt": "Khi nấu ăn tôi xem sách. Khi không có việc làm thêm, tôi chơi với bạn.",
+    "expectedAnswer": "料理 (りょうり)を作る (つくる)とき、本 (き、ほん)を見ます。アルバイト (みます。アルバイト)がないとき、ともだちとあそびます",
+    "optionsJson": "[\"が\",\"と\",\"と\",\"と\",\"と\",\"も\",\"を\",\"を\",\"き、\",\"ない\",\"だち\",\"あそびます\",\"作る (つくる)\",\"き、本 (き、ほん)\",\"料理 (りょうり)\",\"見ます。アルバイト (みます。アルバイト)\"]",
+    "options": [
+      "が",
+      "と",
+      "と",
+      "と",
+      "と",
+      "も",
+      "を",
+      "を",
+      "き、",
+      "ない",
+      "だち",
+      "あそびます",
+      "作る (つくる)",
+      "き、本 (き、ほん)",
+      "料理 (りょうり)",
+      "見ます。アルバイト (みます。アルバイト)"
+    ],
+    "correctOrderJson": "[\"料理 (りょうり)\",\"を\",\"作る (つくる)\",\"と\",\"き、本 (き、ほん)\",\"を\",\"見ます。アルバイト (みます。アルバイト)\",\"が\",\"ない\",\"と\",\"き、\",\"と\",\"も\",\"だち\",\"と\",\"あそびます\"]",
+    "correctOrder": [
+      "料理 (りょうり)",
+      "を",
+      "作る (つくる)",
+      "と",
+      "き、本 (き、ほん)",
+      "を",
+      "見ます。アルバイト (みます。アルバイト)",
+      "が",
+      "ない",
+      "と",
+      "き、",
+      "と",
+      "も",
+      "だち",
+      "と",
+      "あそびます"
+    ],
+    "orderIndex": 3
+  },
+  {
+    "id": "77777777-1133-0003-0000-000001115002",
+    "patternId": "77777777-1133-0001-0000-000000011006",
+    "exerciseType": "ja_to_vi",
+    "prompt": "寝るとき、電気を消します。",
+    "promptReading": "ねるとき、でんきをけします。",
+    "expectedAnswer": "Khi đi ngủ, tôi tắt điện.",
+    "hint": "V辞書形／Vた形／Vない形 + とき、＿＿＿＿",
+    "explanation": "Trợ từ tùy từng động từ Nのとき và Aとき dùng với danh từ/tính từ; mẫu này dùng động từ dạng thường. Không dùng Vます trước とき trong cấu trúc được dạy.",
+    "orderIndex": 4
+  },
+  {
+    "id": "77777777-1133-0003-0000-000001125002",
+    "patternId": "77777777-1133-0001-0000-000000011006",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Khi đi ngủ, tôi tắt điện.",
+    "expectedAnswer": "寝るとき、電気を消します。",
+    "acceptableAnswers": [
+      "ねるとき、でんきをけします。"
+    ],
+    "hint": "作るとき / 行ったとき / ないとき",
+    "explanation": "Trợ từ tùy từng động từ Nのとき và Aとき dùng với danh từ/tính từ; mẫu này dùng động từ dạng thường. Không dùng Vます trước とき trong cấu trúc được dạy.",
+    "orderIndex": 5
+  },
+  {
+    "id": "77777777-1133-0003-0000-000001135002",
+    "patternId": "77777777-1133-0001-0000-000000011006",
+    "exerciseType": "arrange",
+    "prompt": "Khi đi ngủ, tôi tắt điện.",
+    "expectedAnswer": "寝る (ねる)とき、電気 (き、でんき)を消します (けします)",
+    "optionsJson": "[\"と\",\"を\",\"寝る (ねる)\",\"消します (けします)\",\"き、電気 (き、でんき)\"]",
+    "options": [
+      "と",
+      "を",
+      "寝る (ねる)",
+      "消します (けします)",
+      "き、電気 (き、でんき)"
+    ],
+    "correctOrderJson": "[\"寝る (ねる)\",\"と\",\"き、電気 (き、でんき)\",\"を\",\"消します (けします)\"]",
+    "correctOrder": [
+      "寝る (ねる)",
+      "と",
+      "き、電気 (き、でんき)",
+      "を",
+      "消します (けします)"
+    ],
+    "orderIndex": 6
+  },
+  {
+    "id": "77777777-1133-0003-0000-000001145001",
+    "patternId": "77777777-1133-0001-0000-000000011006",
+    "exerciseType": "vi_to_ja",
+    "prompt": "日曜日、ご飯食べ（　）？",
+    "expectedAnswer": "ない",
+    "acceptableAnswers": [],
+    "acceptableAnswersJson": "[]",
+    "hint": "",
+    "explanation": "Rủ rê thân mật dùng Vない？.",
+    "options": [
+      "ません",
+      "ない",
+      "なくて",
+      "ませんか"
+    ],
+    "optionsJson": "[\"ません\",\"ない\",\"なくて\",\"ませんか\"]",
+    "correctOrder": [],
+    "orderIndex": 1
+  }
+]

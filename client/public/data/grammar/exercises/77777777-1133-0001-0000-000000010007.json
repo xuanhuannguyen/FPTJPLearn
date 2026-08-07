@@ -1,0 +1,162 @@
+[
+  {
+    "id": "77777777-1133-0003-0000-000001016001",
+    "patternId": "77777777-1133-0001-0000-000000010007",
+    "exerciseType": "ja_to_vi",
+    "prompt": "そこに入らないでください。",
+    "promptReading": "そこにはいらないでください。",
+    "expectedAnswer": "Xin đừng vào đó.",
+    "hint": "Vない形 + でください",
+    "explanation": "でください là phần cố định sau thể ない Vてください yêu cầu làm; Vないでください yêu cầu không làm. Không dùng ×Vなくてください.",
+    "orderIndex": 1
+  },
+  {
+    "id": "77777777-1133-0003-0000-000001026001",
+    "patternId": "77777777-1133-0001-0000-000000010007",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Xin đừng vào đó.",
+    "expectedAnswer": "そこに入らないでください。",
+    "acceptableAnswers": [
+      "そこにはいらないでください。"
+    ],
+    "hint": "入ります → 入らないでください; 食べます → 食べないでください",
+    "explanation": "でください là phần cố định sau thể ない Vてください yêu cầu làm; Vないでください yêu cầu không làm. Không dùng ×Vなくてください.",
+    "orderIndex": 2
+  },
+  {
+    "id": "77777777-1133-0003-0000-000001036001",
+    "patternId": "77777777-1133-0001-0000-000000010007",
+    "exerciseType": "arrange",
+    "prompt": "Xin đừng vào đó.",
+    "expectedAnswer": "そこに入らないでください (はいらないでください)",
+    "optionsJson": "[\"に\",\"そこ\",\"入らないでください (はいらないでください)\"]",
+    "options": [
+      "に",
+      "そこ",
+      "入らないでください (はいらないでください)"
+    ],
+    "correctOrderJson": "[\"そこ\",\"に\",\"入らないでください (はいらないでください)\"]",
+    "correctOrder": [
+      "そこ",
+      "に",
+      "入らないでください (はいらないでください)"
+    ],
+    "orderIndex": 3
+  },
+  {
+    "id": "77777777-1133-0003-0000-000001016002",
+    "patternId": "77777777-1133-0001-0000-000000010007",
+    "exerciseType": "ja_to_vi",
+    "prompt": "ここで写真を撮らないでください。",
+    "promptReading": "ここでしゃしんをとらないでください。",
+    "expectedAnswer": "Xin đừng chụp ảnh ở đây.",
+    "hint": "Vない形 + でください",
+    "explanation": "でください là phần cố định sau thể ない Vてください yêu cầu làm; Vないでください yêu cầu không làm. Không dùng ×Vなくてください.",
+    "orderIndex": 4
+  },
+  {
+    "id": "77777777-1133-0003-0000-000001026002",
+    "patternId": "77777777-1133-0001-0000-000000010007",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Xin đừng chụp ảnh ở đây.",
+    "expectedAnswer": "ここで写真を撮らないでください。",
+    "acceptableAnswers": [
+      "ここでしゃしんをとらないでください。"
+    ],
+    "hint": "入ります → 入らないでください; 食べます → 食べないでください",
+    "explanation": "でください là phần cố định sau thể ない Vてください yêu cầu làm; Vないでください yêu cầu không làm. Không dùng ×Vなくてください.",
+    "orderIndex": 5
+  },
+  {
+    "id": "77777777-1133-0003-0000-000001036002",
+    "patternId": "77777777-1133-0001-0000-000000010007",
+    "exerciseType": "arrange",
+    "prompt": "Xin đừng chụp ảnh ở đây.",
+    "expectedAnswer": "ここで写真 (ここでしゃしん)を撮らないでください (とらないでください)",
+    "optionsJson": "[\"を\",\"ここで写真 (ここでしゃしん)\",\"撮らないでください (とらないでください)\"]",
+    "options": [
+      "を",
+      "ここで写真 (ここでしゃしん)",
+      "撮らないでください (とらないでください)"
+    ],
+    "correctOrderJson": "[\"ここで写真 (ここでしゃしん)\",\"を\",\"撮らないでください (とらないでください)\"]",
+    "correctOrder": [
+      "ここで写真 (ここでしゃしん)",
+      "を",
+      "撮らないでください (とらないでください)"
+    ],
+    "orderIndex": 6
+  },
+  {
+    "id": "77777777-1133-0003-0000-000001046001",
+    "patternId": "77777777-1133-0001-0000-000000010007",
+    "exerciseType": "vi_to_ja",
+    "prompt": "ここで写真を撮ら（　）ください。",
+    "expectedAnswer": "ないで",
+    "acceptableAnswers": [],
+    "acceptableAnswersJson": "[]",
+    "hint": "",
+    "explanation": "Yêu cầu đừng làm dùng Vない形 + でください.",
+    "options": [
+      "なくて",
+      "ないで",
+      "ない",
+      "なかった"
+    ],
+    "optionsJson": "[\"なくて\",\"ないで\",\"ない\",\"なかった\"]",
+    "correctOrder": [],
+    "orderIndex": 1
+  },
+  {
+    "id": "77777777-1133-0003-0000-000001046002",
+    "patternId": "77777777-1133-0001-0000-000000010007",
+    "exerciseType": "arrange",
+    "prompt": "撮らないでください / ここで / 写真を",
+    "expectedAnswer": "ここで写真を撮らないでください。",
+    "acceptableAnswers": [],
+    "acceptableAnswersJson": "[]",
+    "hint": "",
+    "explanation": "",
+    "options": [
+      "撮らないでください",
+      "ここで",
+      "写真を"
+    ],
+    "optionsJson": "[\"撮らないでください\",\"ここで\",\"写真を\"]",
+    "correctOrder": [
+      "ここで",
+      "写真を",
+      "撮らないでください"
+    ],
+    "correctOrderJson": "[\"ここで\",\"写真を\",\"撮らないでください\"]",
+    "orderIndex": 2
+  },
+  {
+    "id": "77777777-1133-0003-0000-000001046003",
+    "patternId": "77777777-1133-0001-0000-000000010007",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Xin đừng chụp ảnh ở đây.",
+    "expectedAnswer": "ここで写真を撮らないでください。",
+    "acceptableAnswers": [],
+    "acceptableAnswersJson": "[]",
+    "hint": "",
+    "explanation": "",
+    "options": [],
+    "correctOrder": [],
+    "orderIndex": 3
+  },
+  {
+    "id": "77777777-1133-0003-0000-000001046004",
+    "patternId": "77777777-1133-0001-0000-000000010007",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Chuyển 入ります sang “xin đừng vào”.",
+    "expectedAnswer": "入らないでください。",
+    "acceptableAnswers": [],
+    "acceptableAnswersJson": "[]",
+    "hint": "",
+    "explanation": "入る → 入らない + でください.",
+    "options": [],
+    "correctOrder": [],
+    "orderIndex": 4
+  }
+]

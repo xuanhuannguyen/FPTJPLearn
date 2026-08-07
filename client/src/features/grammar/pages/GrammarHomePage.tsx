@@ -17,6 +17,13 @@ const courses: { courseCode: string; level: GrammarLevel; title: string; jpTitle
     jpTitle: 'JPD123 - Japanese 2',
     title: 'JPD123', 
     subtitle: 'N5 Nâng cao – Ngữ pháp (N5)'
+  },
+  {
+    courseCode: 'jpd133',
+    level: 'N5',
+    jpTitle: 'JPD133 - Japanese 3',
+    title: 'JPD133',
+    subtitle: 'Ngữ pháp giao tiếp và hội thoại – N5'
   }
 ];
 
@@ -46,7 +53,7 @@ export const GrammarHomePage = () => {
           Ngữ pháp <span className="text-blue-600">文法</span>
         </h1>
         <p className="text-sm font-bold text-text-secondary uppercase tracking-widest mt-1">
-          JPD113 / JPD123 GRAMMAR MASTERY
+           JPD113 / JPD123 / JPD133 GRAMMAR MASTERY
         </p>
       </div>
 
@@ -89,7 +96,9 @@ export const GrammarHomePage = () => {
       <div className="grid max-w-[62.4rem] grid-cols-1 gap-4 md:grid-cols-2">
         {courses.map((item) => {
           const summary = summaries.find(s => s.courseCode.toLowerCase() === item.courseCode.toLowerCase());
-          const cardTone = item.courseCode === 'jpd113' ? 'jp-course-card--113' : 'jp-course-card--123';
+          const cardTone = item.courseCode === 'jpd113'
+            ? 'jp-course-card--113'
+            : item.courseCode === 'jpd123' ? 'jp-course-card--123' : 'jp-course-card--133';
 
           return (
             <Link 

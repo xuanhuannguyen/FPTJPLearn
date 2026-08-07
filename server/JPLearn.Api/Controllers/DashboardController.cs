@@ -91,6 +91,7 @@ public class DashboardController : ControllerBase
             PackageCodes.Combo => "Combo JPD113 + JPD123",
             PackageCodes.JPD113 => "Gói JPD113",
             PackageCodes.JPD123 => "Gói JPD123",
+            PackageCodes.JPD133 => "Gói JPD133",
             _ => packageCode.ToUpperInvariant()
         };
     }

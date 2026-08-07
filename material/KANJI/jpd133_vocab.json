@@ -1,0 +1,1270 @@
+[
+  {
+    "lessonNumber": 8,
+    "vocabulary": [
+      {
+        "word": "家",
+        "reading": "いえ",
+        "meaning": "nhà",
+        "kanjiCharacters": [
+          "家"
+        ],
+        "exampleJapanese": "家です。",
+        "exampleReading": "いえです。",
+        "exampleMeaning": "nhà。",
+        "orderIndex": 1
+      },
+      {
+        "word": "うち",
+        "reading": "うち",
+        "meaning": "nhà/gia đình",
+        "kanjiCharacters": [
+          "家"
+        ],
+        "exampleJapanese": "うちです。",
+        "exampleReading": "うちです。",
+        "exampleMeaning": "nhà/gia đình。",
+        "orderIndex": 2
+      },
+      {
+        "word": "家族",
+        "reading": "かぞく",
+        "meaning": "gia đình",
+        "kanjiCharacters": [
+          "家",
+          "族"
+        ],
+        "exampleJapanese": "家族です。",
+        "exampleReading": "かぞくです。",
+        "exampleMeaning": "gia đình。",
+        "orderIndex": 3
+      },
+      {
+        "word": "家賃",
+        "reading": "やちん",
+        "meaning": "tiền thuê nhà",
+        "kanjiCharacters": [
+          "家"
+        ],
+        "exampleJapanese": "家賃です。",
+        "exampleReading": "やちんです。",
+        "exampleMeaning": "tiền thuê nhà。",
+        "orderIndex": 4
+      },
+      {
+        "word": "父",
+        "reading": "ちち",
+        "meaning": "bố của mình",
+        "kanjiCharacters": [
+          "父"
+        ],
+        "exampleJapanese": "父です。",
+        "exampleReading": "ちちです。",
+        "exampleMeaning": "bố của mình。",
+        "orderIndex": 5
+      },
+      {
+        "word": "お父さん",
+        "reading": "おとうさん",
+        "meaning": "bố của người khác",
+        "kanjiCharacters": [
+          "父"
+        ],
+        "exampleJapanese": "お父さんです。",
+        "exampleReading": "おとうさんです。",
+        "exampleMeaning": "bố của người khác。",
+        "orderIndex": 6
+      },
+      {
+        "word": "祖父",
+        "reading": "そふ",
+        "meaning": "ông",
+        "kanjiCharacters": [
+          "父"
+        ],
+        "exampleJapanese": "祖父です。",
+        "exampleReading": "そふです。",
+        "exampleMeaning": "ông。",
+        "orderIndex": 7
+      },
+      {
+        "word": "母",
+        "reading": "はは",
+        "meaning": "mẹ của mình",
+        "kanjiCharacters": [
+          "母"
+        ],
+        "exampleJapanese": "母です。",
+        "exampleReading": "ははです。",
+        "exampleMeaning": "mẹ của mình。",
+        "orderIndex": 8
+      },
+      {
+        "word": "お母さん",
+        "reading": "おかあさん",
+        "meaning": "mẹ của người khác",
+        "kanjiCharacters": [
+          "母"
+        ],
+        "exampleJapanese": "お母さんです。",
+        "exampleReading": "おかあさんです。",
+        "exampleMeaning": "mẹ của người khác。",
+        "orderIndex": 9
+      },
+      {
+        "word": "母語",
+        "reading": "ぼご",
+        "meaning": "tiếng mẹ đẻ",
+        "kanjiCharacters": [
+          "母"
+        ],
+        "exampleJapanese": "母語です。",
+        "exampleReading": "ぼごです。",
+        "exampleMeaning": "tiếng mẹ đẻ。",
+        "orderIndex": 10
+      },
+      {
+        "word": "国語",
+        "reading": "こくご",
+        "meaning": "quốc ngữ/tiếng mẹ đẻ",
+        "kanjiCharacters": [
+          "母"
+        ],
+        "exampleJapanese": "国語です。",
+        "exampleReading": "こくごです。",
+        "exampleMeaning": "quốc ngữ/tiếng mẹ đẻ。",
+        "orderIndex": 11
+      },
+      {
+        "word": "兄",
+        "reading": "あに",
+        "meaning": "anh trai của mình",
+        "kanjiCharacters": [
+          "兄"
+        ],
+        "exampleJapanese": "兄です。",
+        "exampleReading": "あにです。",
+        "exampleMeaning": "anh trai của mình。",
+        "orderIndex": 12
+      },
+      {
+        "word": "お兄さん",
+        "reading": "おにいさん",
+        "meaning": "anh trai của người khác",
+        "kanjiCharacters": [
+          "兄"
+        ],
+        "exampleJapanese": "お兄さんです。",
+        "exampleReading": "おにいさんです。",
+        "exampleMeaning": "anh trai của người khác。",
+        "orderIndex": 13
+      },
+      {
+        "word": "兄弟",
+        "reading": "きょうだい",
+        "meaning": "anh em",
+        "kanjiCharacters": [
+          "兄",
+          "弟"
+        ],
+        "exampleJapanese": "兄弟です。",
+        "exampleReading": "きょうだいです。",
+        "exampleMeaning": "anh em。",
+        "orderIndex": 14
+      },
+      {
+        "word": "弟",
+        "reading": "おとうと",
+        "meaning": "em trai của mình",
+        "kanjiCharacters": [
+          "弟"
+        ],
+        "exampleJapanese": "弟です。",
+        "exampleReading": "おとうとです。",
+        "exampleMeaning": "em trai của mình。",
+        "orderIndex": 15
+      },
+      {
+        "word": "弟さん",
+        "reading": "おとうとさん",
+        "meaning": "em trai của người khác",
+        "kanjiCharacters": [
+          "弟"
+        ],
+        "exampleJapanese": "弟さんです。",
+        "exampleReading": "おとうとさんです。",
+        "exampleMeaning": "em trai của người khác。",
+        "orderIndex": 16
+      },
+      {
+        "word": "姉",
+        "reading": "あね",
+        "meaning": "chị gái của mình",
+        "kanjiCharacters": [
+          "姉"
+        ],
+        "exampleJapanese": "姉です。",
+        "exampleReading": "あねです。",
+        "exampleMeaning": "chị gái của mình。",
+        "orderIndex": 17
+      },
+      {
+        "word": "お姉さん",
+        "reading": "おねえさん",
+        "meaning": "chị gái của người khác",
+        "kanjiCharacters": [
+          "姉"
+        ],
+        "exampleJapanese": "お姉さんです。",
+        "exampleReading": "おねえさんです。",
+        "exampleMeaning": "chị gái của người khác。",
+        "orderIndex": 18
+      },
+      {
+        "word": "姉妹",
+        "reading": "しまい",
+        "meaning": "chị em",
+        "kanjiCharacters": [
+          "姉",
+          "妹"
+        ],
+        "exampleJapanese": "姉妹です。",
+        "exampleReading": "しまいです。",
+        "exampleMeaning": "chị em。",
+        "orderIndex": 19
+      },
+      {
+        "word": "妹",
+        "reading": "いもうと",
+        "meaning": "em gái của mình",
+        "kanjiCharacters": [
+          "妹"
+        ],
+        "exampleJapanese": "妹です。",
+        "exampleReading": "いもうとです。",
+        "exampleMeaning": "em gái của mình。",
+        "orderIndex": 20
+      },
+      {
+        "word": "妹さん",
+        "reading": "いもうとさん",
+        "meaning": "em gái của người khác",
+        "kanjiCharacters": [
+          "妹"
+        ],
+        "exampleJapanese": "妹さんです。",
+        "exampleReading": "いもうとさんです。",
+        "exampleMeaning": "em gái của người khác。",
+        "orderIndex": 21
+      },
+      {
+        "word": "犬",
+        "reading": "いぬ",
+        "meaning": "con chó",
+        "kanjiCharacters": [
+          "犬"
+        ],
+        "exampleJapanese": "犬です。",
+        "exampleReading": "いぬです。",
+        "exampleMeaning": "con chó。",
+        "orderIndex": 22
+      },
+      {
+        "word": "高い",
+        "reading": "たかい",
+        "meaning": "cao/đắt",
+        "kanjiCharacters": [
+          "高"
+        ],
+        "exampleJapanese": "高いです。",
+        "exampleReading": "たかいです。",
+        "exampleMeaning": "cao/đắt。",
+        "orderIndex": 23
+      },
+      {
+        "word": "高校",
+        "reading": "こうこう",
+        "meaning": "trường cấp ba",
+        "kanjiCharacters": [
+          "高"
+        ],
+        "exampleJapanese": "高校です。",
+        "exampleReading": "こうこうです。",
+        "exampleMeaning": "trường cấp ba。",
+        "orderIndex": 24
+      },
+      {
+        "word": "高校生",
+        "reading": "こうこうせい",
+        "meaning": "học sinh cấp ba",
+        "kanjiCharacters": [
+          "高"
+        ],
+        "exampleJapanese": "高校生です。",
+        "exampleReading": "こうこうせいです。",
+        "exampleMeaning": "học sinh cấp ba。",
+        "orderIndex": 25
+      },
+      {
+        "word": "長い",
+        "reading": "ながい",
+        "meaning": "dài",
+        "kanjiCharacters": [
+          "長"
+        ],
+        "exampleJapanese": "長いです。",
+        "exampleReading": "ながいです。",
+        "exampleMeaning": "dài。",
+        "orderIndex": 26
+      },
+      {
+        "word": "社長",
+        "reading": "しゃちょう",
+        "meaning": "giám đốc",
+        "kanjiCharacters": [
+          "長"
+        ],
+        "exampleJapanese": "社長です。",
+        "exampleReading": "しゃちょうです。",
+        "exampleMeaning": "giám đốc。",
+        "orderIndex": 27
+      },
+      {
+        "word": "短い",
+        "reading": "みじかい",
+        "meaning": "ngắn",
+        "kanjiCharacters": [
+          "短"
+        ],
+        "exampleJapanese": "短いです。",
+        "exampleReading": "みじかいです。",
+        "exampleMeaning": "ngắn。",
+        "orderIndex": 28
+      }
+    ]
+  },
+  {
+    "lessonNumber": 9,
+    "vocabulary": [
+      {
+        "word": "好き",
+        "reading": "すき",
+        "meaning": "thích",
+        "kanjiCharacters": [
+          "好"
+        ],
+        "exampleJapanese": "好きです。",
+        "exampleReading": "すきです。",
+        "exampleMeaning": "thích。",
+        "orderIndex": 1
+      },
+      {
+        "word": "大好き",
+        "reading": "だいすき",
+        "meaning": "rất thích",
+        "kanjiCharacters": [
+          "好"
+        ],
+        "exampleJapanese": "大好きです。",
+        "exampleReading": "だいすきです。",
+        "exampleMeaning": "rất thích。",
+        "orderIndex": 2
+      },
+      {
+        "word": "大好物",
+        "reading": "だいこうぶつ",
+        "meaning": "món ăn rất yêu thích",
+        "kanjiCharacters": [
+          "好"
+        ],
+        "exampleJapanese": "大好物です。",
+        "exampleReading": "だいこうぶつです。",
+        "exampleMeaning": "món ăn rất yêu thích。",
+        "orderIndex": 3
+      },
+      {
+        "word": "歌",
+        "reading": "うた",
+        "meaning": "bài hát",
+        "kanjiCharacters": [
+          "歌"
+        ],
+        "exampleJapanese": "歌です。",
+        "exampleReading": "うたです。",
+        "exampleMeaning": "bài hát。",
+        "orderIndex": 4
+      },
+      {
+        "word": "歌う",
+        "reading": "うたう",
+        "meaning": "hát",
+        "kanjiCharacters": [
+          "歌"
+        ],
+        "exampleJapanese": "歌うです。",
+        "exampleReading": "うたうです。",
+        "exampleMeaning": "hát。",
+        "orderIndex": 5
+      },
+      {
+        "word": "国歌",
+        "reading": "こっか",
+        "meaning": "quốc ca",
+        "kanjiCharacters": [
+          "歌"
+        ],
+        "exampleJapanese": "国歌です。",
+        "exampleReading": "こっかです。",
+        "exampleMeaning": "quốc ca。",
+        "orderIndex": 6
+      },
+      {
+        "word": "短歌",
+        "reading": "たんか",
+        "meaning": "thơ ngắn",
+        "kanjiCharacters": [
+          "短",
+          "歌"
+        ],
+        "exampleJapanese": "短歌です。",
+        "exampleReading": "たんかです。",
+        "exampleMeaning": "thơ ngắn。",
+        "orderIndex": 7
+      },
+      {
+        "word": "音",
+        "reading": "おと",
+        "meaning": "âm thanh",
+        "kanjiCharacters": [
+          "音"
+        ],
+        "exampleJapanese": "音です。",
+        "exampleReading": "おとです。",
+        "exampleMeaning": "âm thanh。",
+        "orderIndex": 8
+      },
+      {
+        "word": "音読み",
+        "reading": "おんよみ",
+        "meaning": "âm On",
+        "kanjiCharacters": [
+          "音"
+        ],
+        "exampleJapanese": "音読みです。",
+        "exampleReading": "おんよみです。",
+        "exampleMeaning": "âm On。",
+        "orderIndex": 9
+      },
+      {
+        "word": "楽しい",
+        "reading": "たのしい",
+        "meaning": "vui vẻ",
+        "kanjiCharacters": [
+          "楽"
+        ],
+        "exampleJapanese": "楽しいです。",
+        "exampleReading": "たのしいです。",
+        "exampleMeaning": "vui vẻ。",
+        "orderIndex": 10
+      },
+      {
+        "word": "音楽",
+        "reading": "おんがく",
+        "meaning": "âm nhạc",
+        "kanjiCharacters": [
+          "音",
+          "楽"
+        ],
+        "exampleJapanese": "音楽です。",
+        "exampleReading": "おんがくです。",
+        "exampleMeaning": "âm nhạc。",
+        "orderIndex": 11
+      },
+      {
+        "word": "車",
+        "reading": "くるま",
+        "meaning": "xe",
+        "kanjiCharacters": [
+          "車"
+        ],
+        "exampleJapanese": "車です。",
+        "exampleReading": "くるまです。",
+        "exampleMeaning": "xe。",
+        "orderIndex": 12
+      },
+      {
+        "word": "映画",
+        "reading": "えいが",
+        "meaning": "phim",
+        "kanjiCharacters": [
+          "映",
+          "画"
+        ],
+        "exampleJapanese": "映画です。",
+        "exampleReading": "えいがです。",
+        "exampleMeaning": "phim。",
+        "orderIndex": 13
+      },
+      {
+        "word": "計画",
+        "reading": "けいかく",
+        "meaning": "kế hoạch",
+        "kanjiCharacters": [
+          "画"
+        ],
+        "exampleJapanese": "計画です。",
+        "exampleReading": "けいかくです。",
+        "exampleMeaning": "kế hoạch。",
+        "orderIndex": 14
+      },
+      {
+        "word": "旅",
+        "reading": "たび",
+        "meaning": "chuyến đi",
+        "kanjiCharacters": [
+          "旅"
+        ],
+        "exampleJapanese": "旅です。",
+        "exampleReading": "たびです。",
+        "exampleMeaning": "chuyến đi。",
+        "orderIndex": 15
+      },
+      {
+        "word": "旅行",
+        "reading": "りょこう",
+        "meaning": "du lịch",
+        "kanjiCharacters": [
+          "旅"
+        ],
+        "exampleJapanese": "旅行です。",
+        "exampleReading": "りょこうです。",
+        "exampleMeaning": "du lịch。",
+        "orderIndex": 16
+      },
+      {
+        "word": "海",
+        "reading": "うみ",
+        "meaning": "biển",
+        "kanjiCharacters": [
+          "海"
+        ],
+        "exampleJapanese": "海です。",
+        "exampleReading": "うみです。",
+        "exampleMeaning": "biển。",
+        "orderIndex": 17
+      },
+      {
+        "word": "海水",
+        "reading": "かいすい",
+        "meaning": "nước biển",
+        "kanjiCharacters": [
+          "海"
+        ],
+        "exampleJapanese": "海水です。",
+        "exampleReading": "かいすいです。",
+        "exampleMeaning": "nước biển。",
+        "orderIndex": 18
+      },
+      {
+        "word": "外",
+        "reading": "そと",
+        "meaning": "bên ngoài",
+        "kanjiCharacters": [
+          "外"
+        ],
+        "exampleJapanese": "外です。",
+        "exampleReading": "そとです。",
+        "exampleMeaning": "bên ngoài。",
+        "orderIndex": 19
+      },
+      {
+        "word": "家の外",
+        "reading": "いえのそと",
+        "meaning": "bên ngoài nhà",
+        "kanjiCharacters": [
+          "家",
+          "外"
+        ],
+        "exampleJapanese": "家の外です。",
+        "exampleReading": "いえのそとです。",
+        "exampleMeaning": "bên ngoài nhà。",
+        "orderIndex": 20
+      },
+      {
+        "word": "外国",
+        "reading": "がいこく",
+        "meaning": "nước ngoài",
+        "kanjiCharacters": [
+          "外"
+        ],
+        "exampleJapanese": "外国です。",
+        "exampleReading": "がいこくです。",
+        "exampleMeaning": "nước ngoài。",
+        "orderIndex": 21
+      },
+      {
+        "word": "外国語",
+        "reading": "がいこくご",
+        "meaning": "ngoại ngữ",
+        "kanjiCharacters": [
+          "外"
+        ],
+        "exampleJapanese": "外国語です。",
+        "exampleReading": "がいこくごです。",
+        "exampleMeaning": "ngoại ngữ。",
+        "orderIndex": 22
+      },
+      {
+        "word": "外国人",
+        "reading": "がいこくじん",
+        "meaning": "người nước ngoài",
+        "kanjiCharacters": [
+          "外"
+        ],
+        "exampleJapanese": "外国人です。",
+        "exampleReading": "がいこくじんです。",
+        "exampleMeaning": "người nước ngoài。",
+        "orderIndex": 23
+      },
+      {
+        "word": "社外",
+        "reading": "しゃがい",
+        "meaning": "ngoài công ty",
+        "kanjiCharacters": [
+          "外"
+        ],
+        "exampleJapanese": "社外です。",
+        "exampleReading": "しゃがいです。",
+        "exampleMeaning": "ngoài công ty。",
+        "orderIndex": 24
+      },
+      {
+        "word": "海外",
+        "reading": "かいがい",
+        "meaning": "hải ngoại",
+        "kanjiCharacters": [
+          "海",
+          "外"
+        ],
+        "exampleJapanese": "海外です。",
+        "exampleReading": "かいがいです。",
+        "exampleMeaning": "hải ngoại。",
+        "orderIndex": 25
+      }
+    ]
+  },
+  {
+    "lessonNumber": 10,
+    "vocabulary": [
+      {
+        "word": "駅",
+        "reading": "えき",
+        "meaning": "ga",
+        "kanjiCharacters": [
+          "駅"
+        ],
+        "exampleJapanese": "駅です。",
+        "exampleReading": "えきです。",
+        "exampleMeaning": "ga。",
+        "orderIndex": 1
+      },
+      {
+        "word": "駅長",
+        "reading": "えきちょう",
+        "meaning": "trưởng ga",
+        "kanjiCharacters": [
+          "駅",
+          "長"
+        ],
+        "exampleJapanese": "駅長です。",
+        "exampleReading": "えきちょうです。",
+        "exampleMeaning": "trưởng ga。",
+        "orderIndex": 2
+      },
+      {
+        "word": "上",
+        "reading": "うえ",
+        "meaning": "trên",
+        "kanjiCharacters": [
+          "上"
+        ],
+        "exampleJapanese": "上です。",
+        "exampleReading": "うえです。",
+        "exampleMeaning": "trên。",
+        "orderIndex": 3
+      },
+      {
+        "word": "上京",
+        "reading": "じょうきょう",
+        "meaning": "lên Tokyo",
+        "kanjiCharacters": [
+          "上"
+        ],
+        "exampleJapanese": "上京です。",
+        "exampleReading": "じょうきょうです。",
+        "exampleMeaning": "lên Tokyo。",
+        "orderIndex": 4
+      },
+      {
+        "word": "上下",
+        "reading": "じょうげ",
+        "meaning": "trên dưới",
+        "kanjiCharacters": [
+          "上",
+          "下"
+        ],
+        "exampleJapanese": "上下です。",
+        "exampleReading": "じょうげです。",
+        "exampleMeaning": "trên dưới。",
+        "orderIndex": 5
+      },
+      {
+        "word": "下",
+        "reading": "した",
+        "meaning": "dưới",
+        "kanjiCharacters": [
+          "下"
+        ],
+        "exampleJapanese": "下です。",
+        "exampleReading": "したです。",
+        "exampleMeaning": "dưới。",
+        "orderIndex": 6
+      },
+      {
+        "word": "下車",
+        "reading": "げしゃ",
+        "meaning": "xuống xe",
+        "kanjiCharacters": [
+          "下",
+          "車"
+        ],
+        "exampleJapanese": "下車です。",
+        "exampleReading": "げしゃです。",
+        "exampleMeaning": "xuống xe。",
+        "orderIndex": 7
+      },
+      {
+        "word": "地",
+        "reading": "ち",
+        "meaning": "đất",
+        "kanjiCharacters": [
+          "地"
+        ],
+        "exampleJapanese": "地です。",
+        "exampleReading": "ちです。",
+        "exampleMeaning": "đất。",
+        "orderIndex": 8
+      },
+      {
+        "word": "土地",
+        "reading": "とち",
+        "meaning": "đất đai",
+        "kanjiCharacters": [
+          "地"
+        ],
+        "exampleJapanese": "土地です。",
+        "exampleReading": "とちです。",
+        "exampleMeaning": "đất đai。",
+        "orderIndex": 9
+      },
+      {
+        "word": "地図",
+        "reading": "ちず",
+        "meaning": "bản đồ",
+        "kanjiCharacters": [
+          "地",
+          "図"
+        ],
+        "exampleJapanese": "地図です。",
+        "exampleReading": "ちずです。",
+        "exampleMeaning": "bản đồ。",
+        "orderIndex": 10
+      },
+      {
+        "word": "地下",
+        "reading": "ちか",
+        "meaning": "tầng hầm",
+        "kanjiCharacters": [
+          "地",
+          "下"
+        ],
+        "exampleJapanese": "地下です。",
+        "exampleReading": "ちかです。",
+        "exampleMeaning": "tầng hầm。",
+        "orderIndex": 11
+      },
+      {
+        "word": "図",
+        "reading": "ず",
+        "meaning": "hình vẽ",
+        "kanjiCharacters": [
+          "図"
+        ],
+        "exampleJapanese": "図です。",
+        "exampleReading": "ずです。",
+        "exampleMeaning": "hình vẽ。",
+        "orderIndex": 12
+      },
+      {
+        "word": "図書館",
+        "reading": "としょかん",
+        "meaning": "thư viện",
+        "kanjiCharacters": [
+          "図",
+          "館"
+        ],
+        "exampleJapanese": "図書館です。",
+        "exampleReading": "としょかんです。",
+        "exampleMeaning": "thư viện。",
+        "orderIndex": 13
+      },
+      {
+        "word": "旅館",
+        "reading": "りょかん",
+        "meaning": "lữ quán",
+        "kanjiCharacters": [
+          "旅",
+          "館"
+        ],
+        "exampleJapanese": "旅館です。",
+        "exampleReading": "りょかんです。",
+        "exampleMeaning": "lữ quán。",
+        "orderIndex": 14
+      },
+      {
+        "word": "会館",
+        "reading": "かいかん",
+        "meaning": "hội quán",
+        "kanjiCharacters": [
+          "館"
+        ],
+        "exampleJapanese": "会館です。",
+        "exampleReading": "かいかんです。",
+        "exampleMeaning": "hội quán。",
+        "orderIndex": 15
+      },
+      {
+        "word": "映画館",
+        "reading": "えいがかん",
+        "meaning": "rạp chiếu phim",
+        "kanjiCharacters": [
+          "映",
+          "画",
+          "館"
+        ],
+        "exampleJapanese": "映画館です。",
+        "exampleReading": "えいがかんです。",
+        "exampleMeaning": "rạp chiếu phim。",
+        "orderIndex": 16
+      },
+      {
+        "word": "右",
+        "reading": "みぎ",
+        "meaning": "phải",
+        "kanjiCharacters": [
+          "右"
+        ],
+        "exampleJapanese": "右です。",
+        "exampleReading": "みぎです。",
+        "exampleMeaning": "phải。",
+        "orderIndex": 17
+      },
+      {
+        "word": "左右",
+        "reading": "さゆう",
+        "meaning": "trái phải",
+        "kanjiCharacters": [
+          "左",
+          "右"
+        ],
+        "exampleJapanese": "左右です。",
+        "exampleReading": "さゆうです。",
+        "exampleMeaning": "trái phải。",
+        "orderIndex": 18
+      },
+      {
+        "word": "左",
+        "reading": "ひだり",
+        "meaning": "trái",
+        "kanjiCharacters": [
+          "左"
+        ],
+        "exampleJapanese": "左です。",
+        "exampleReading": "ひだりです。",
+        "exampleMeaning": "trái。",
+        "orderIndex": 19
+      },
+      {
+        "word": "道",
+        "reading": "みち",
+        "meaning": "đường",
+        "kanjiCharacters": [
+          "道"
+        ],
+        "exampleJapanese": "道です。",
+        "exampleReading": "みちです。",
+        "exampleMeaning": "đường。",
+        "orderIndex": 20
+      },
+      {
+        "word": "書道",
+        "reading": "しょどう",
+        "meaning": "thư pháp",
+        "kanjiCharacters": [
+          "道"
+        ],
+        "exampleJapanese": "書道です。",
+        "exampleReading": "しょどうです。",
+        "exampleMeaning": "thư pháp。",
+        "orderIndex": 21
+      },
+      {
+        "word": "国道",
+        "reading": "こくどう",
+        "meaning": "quốc lộ",
+        "kanjiCharacters": [
+          "道"
+        ],
+        "exampleJapanese": "国道です。",
+        "exampleReading": "こくどうです。",
+        "exampleMeaning": "quốc lộ。",
+        "orderIndex": 22
+      },
+      {
+        "word": "車道",
+        "reading": "しゃどう",
+        "meaning": "làn đường xe",
+        "kanjiCharacters": [
+          "車",
+          "道"
+        ],
+        "exampleJapanese": "車道です。",
+        "exampleReading": "しゃどうです。",
+        "exampleMeaning": "làn đường xe。",
+        "orderIndex": 23
+      },
+      {
+        "word": "歩道",
+        "reading": "ほどう",
+        "meaning": "vỉa hè",
+        "kanjiCharacters": [
+          "歩",
+          "道"
+        ],
+        "exampleJapanese": "歩道です。",
+        "exampleReading": "ほどうです。",
+        "exampleMeaning": "vỉa hè。",
+        "orderIndex": 24
+      },
+      {
+        "word": "夜道",
+        "reading": "よみち",
+        "meaning": "đường ban đêm",
+        "kanjiCharacters": [
+          "夜",
+          "道"
+        ],
+        "exampleJapanese": "夜道です。",
+        "exampleReading": "よみちです。",
+        "exampleMeaning": "đường ban đêm。",
+        "orderIndex": 25
+      }
+    ]
+  },
+  {
+    "lessonNumber": 11,
+    "vocabulary": [
+      {
+        "word": "起きます",
+        "reading": "おきます",
+        "meaning": "thức dậy",
+        "kanjiCharacters": [
+          "起"
+        ],
+        "exampleJapanese": "起きますです。",
+        "exampleReading": "おきますです。",
+        "exampleMeaning": "thức dậy。",
+        "orderIndex": 1
+      },
+      {
+        "word": "起こす",
+        "reading": "おこす",
+        "meaning": "gây ra/đánh thức",
+        "kanjiCharacters": [
+          "起"
+        ],
+        "exampleJapanese": "起こすです。",
+        "exampleReading": "おこすです。",
+        "exampleMeaning": "gây ra/đánh thức。",
+        "orderIndex": 2
+      },
+      {
+        "word": "一歩",
+        "reading": "いっぽ",
+        "meaning": "một bước",
+        "kanjiCharacters": [
+          "歩"
+        ],
+        "exampleJapanese": "一歩です。",
+        "exampleReading": "いっぽです。",
+        "exampleMeaning": "một bước。",
+        "orderIndex": 3
+      },
+      {
+        "word": "歩く",
+        "reading": "あるく",
+        "meaning": "đi bộ",
+        "kanjiCharacters": [
+          "歩"
+        ],
+        "exampleJapanese": "歩くです。",
+        "exampleReading": "あるくです。",
+        "exampleMeaning": "đi bộ。",
+        "orderIndex": 4
+      },
+      {
+        "word": "歩道",
+        "reading": "ほどう",
+        "meaning": "đường đi bộ",
+        "kanjiCharacters": [
+          "歩",
+          "道"
+        ],
+        "exampleJapanese": "歩道です。",
+        "exampleReading": "ほどうです。",
+        "exampleMeaning": "đường đi bộ。",
+        "orderIndex": 5
+      },
+      {
+        "word": "始まります",
+        "reading": "はじまります",
+        "meaning": "bắt đầu",
+        "kanjiCharacters": [
+          "始"
+        ],
+        "exampleJapanese": "始まりますです。",
+        "exampleReading": "はじまりますです。",
+        "exampleMeaning": "bắt đầu。",
+        "orderIndex": 6
+      },
+      {
+        "word": "始めます",
+        "reading": "はじめます",
+        "meaning": "bắt đầu",
+        "kanjiCharacters": [
+          "始"
+        ],
+        "exampleJapanese": "始めますです。",
+        "exampleReading": "はじめますです。",
+        "exampleMeaning": "bắt đầu。",
+        "orderIndex": 7
+      },
+      {
+        "word": "終わります",
+        "reading": "おわります",
+        "meaning": "kết thúc",
+        "kanjiCharacters": [
+          "終"
+        ],
+        "exampleJapanese": "終わりますです。",
+        "exampleReading": "おわりますです。",
+        "exampleMeaning": "kết thúc。",
+        "orderIndex": 8
+      },
+      {
+        "word": "終わり",
+        "reading": "おわり",
+        "meaning": "phần kết",
+        "kanjiCharacters": [
+          "終"
+        ],
+        "exampleJapanese": "終わりです。",
+        "exampleReading": "おわりです。",
+        "exampleMeaning": "phần kết。",
+        "orderIndex": 9
+      },
+      {
+        "word": "勉学",
+        "reading": "べんがく",
+        "meaning": "học tập chăm chỉ",
+        "kanjiCharacters": [
+          "勉"
+        ],
+        "exampleJapanese": "勉学です。",
+        "exampleReading": "べんがくです。",
+        "exampleMeaning": "học tập chăm chỉ。",
+        "orderIndex": 10
+      },
+      {
+        "word": "勉強",
+        "reading": "べんきょう",
+        "meaning": "học hành",
+        "kanjiCharacters": [
+          "勉",
+          "強"
+        ],
+        "exampleJapanese": "勉強です。",
+        "exampleReading": "べんきょうです。",
+        "exampleMeaning": "học hành。",
+        "orderIndex": 11
+      },
+      {
+        "word": "強い",
+        "reading": "つよい",
+        "meaning": "mạnh",
+        "kanjiCharacters": [
+          "強"
+        ],
+        "exampleJapanese": "強いです。",
+        "exampleReading": "つよいです。",
+        "exampleMeaning": "mạnh。",
+        "orderIndex": 12
+      },
+      {
+        "word": "朝",
+        "reading": "あさ",
+        "meaning": "buổi sáng",
+        "kanjiCharacters": [
+          "朝"
+        ],
+        "exampleJapanese": "朝です。",
+        "exampleReading": "あさです。",
+        "exampleMeaning": "buổi sáng。",
+        "orderIndex": 13
+      },
+      {
+        "word": "今朝",
+        "reading": "けさ",
+        "meaning": "sáng nay",
+        "kanjiCharacters": [
+          "朝"
+        ],
+        "exampleJapanese": "今朝です。",
+        "exampleReading": "けさです。",
+        "exampleMeaning": "sáng nay。",
+        "orderIndex": 14
+      },
+      {
+        "word": "朝食",
+        "reading": "ちょうしょく",
+        "meaning": "bữa sáng",
+        "kanjiCharacters": [
+          "朝"
+        ],
+        "exampleJapanese": "朝食です。",
+        "exampleReading": "ちょうしょくです。",
+        "exampleMeaning": "bữa sáng。",
+        "orderIndex": 15
+      },
+      {
+        "word": "毎朝",
+        "reading": "まいあさ",
+        "meaning": "mỗi sáng",
+        "kanjiCharacters": [
+          "朝"
+        ],
+        "exampleJapanese": "毎朝です。",
+        "exampleReading": "まいあさです。",
+        "exampleMeaning": "mỗi sáng。",
+        "orderIndex": 16
+      },
+      {
+        "word": "昼",
+        "reading": "ひる",
+        "meaning": "buổi trưa",
+        "kanjiCharacters": [
+          "昼"
+        ],
+        "exampleJapanese": "昼です。",
+        "exampleReading": "ひるです。",
+        "exampleMeaning": "buổi trưa。",
+        "orderIndex": 17
+      },
+      {
+        "word": "昼食",
+        "reading": "ちゅうしょく",
+        "meaning": "bữa trưa",
+        "kanjiCharacters": [
+          "昼"
+        ],
+        "exampleJapanese": "昼食です。",
+        "exampleReading": "ちゅうしょくです。",
+        "exampleMeaning": "bữa trưa。",
+        "orderIndex": 18
+      },
+      {
+        "word": "昼間",
+        "reading": "ひるま",
+        "meaning": "ban ngày",
+        "kanjiCharacters": [
+          "昼"
+        ],
+        "exampleJapanese": "昼間です。",
+        "exampleReading": "ひるまです。",
+        "exampleMeaning": "ban ngày。",
+        "orderIndex": 19
+      },
+      {
+        "word": "夜",
+        "reading": "よる",
+        "meaning": "buổi tối",
+        "kanjiCharacters": [
+          "夜"
+        ],
+        "exampleJapanese": "夜です。",
+        "exampleReading": "よるです。",
+        "exampleMeaning": "buổi tối。",
+        "orderIndex": 20
+      },
+      {
+        "word": "今夜",
+        "reading": "こんや",
+        "meaning": "đêm nay",
+        "kanjiCharacters": [
+          "夜"
+        ],
+        "exampleJapanese": "今夜です。",
+        "exampleReading": "こんやです。",
+        "exampleMeaning": "đêm nay。",
+        "orderIndex": 21
+      },
+      {
+        "word": "夜会",
+        "reading": "やかい",
+        "meaning": "tiệc đêm",
+        "kanjiCharacters": [
+          "夜"
+        ],
+        "exampleJapanese": "夜会です。",
+        "exampleReading": "やかいです。",
+        "exampleMeaning": "tiệc đêm。",
+        "orderIndex": 22
+      },
+      {
+        "word": "夜間",
+        "reading": "やかん",
+        "meaning": "ban tối",
+        "kanjiCharacters": [
+          "夜"
+        ],
+        "exampleJapanese": "夜間です。",
+        "exampleReading": "やかんです。",
+        "exampleMeaning": "ban tối。",
+        "orderIndex": 23
+      },
+      {
+        "word": "夜道",
+        "reading": "よみち",
+        "meaning": "đường ban đêm",
+        "kanjiCharacters": [
+          "夜",
+          "道"
+        ],
+        "exampleJapanese": "夜道です。",
+        "exampleReading": "よみちです。",
+        "exampleMeaning": "đường ban đêm。",
+        "orderIndex": 24
+      }
+    ]
+  }
+]

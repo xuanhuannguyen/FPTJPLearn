@@ -1,0 +1,146 @@
+[
+  {
+    "id": "77777777-1133-0003-0000-000001125001",
+    "patternId": "77777777-1133-0001-0000-000000011016",
+    "exerciseType": "ja_to_vi",
+    "prompt": "このCD聞いてもいい？――うん、いいよ。",
+    "promptReading": "このシーディーきいてもいい？――うん、いいよ。",
+    "expectedAnswer": "Mình nghe CD này được không? — Ừ, được.",
+    "hint": "Vて形 + もいい？",
+    "explanation": "も trong cấu trúc Vてもいい Vてもいいですか là lịch sự; Vてもいい？ là thân mật. Không dùng dạng này với người cần kính trọng.",
+    "orderIndex": 1
+  },
+  {
+    "id": "77777777-1133-0003-0000-000001135001",
+    "patternId": "77777777-1133-0001-0000-000000011016",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Mình nghe CD này được không? — Ừ, được.",
+    "expectedAnswer": "このCD聞いてもいい？――うん、いいよ。",
+    "acceptableAnswers": [
+      "このシーディーきいてもいい？――うん、いいよ。"
+    ],
+    "hint": "聞きます → 聞いてもいい？",
+    "explanation": "も trong cấu trúc Vてもいい Vてもいいですか là lịch sự; Vてもいい？ là thân mật. Không dùng dạng này với người cần kính trọng.",
+    "orderIndex": 2
+  },
+  {
+    "id": "77777777-1133-0003-0000-000001145001",
+    "patternId": "77777777-1133-0001-0000-000000011016",
+    "exerciseType": "arrange",
+    "prompt": "Mình nghe CD này được không? — Ừ, được.",
+    "expectedAnswer": "このCD聞いて (シーディーきいて)もいい？――うん、いいよ",
+    "optionsJson": "[\"こ\",\"の\",\"も\",\"CD聞いて (シーディーきいて)\",\"いい？――うん、いいよ\"]",
+    "options": [
+      "こ",
+      "の",
+      "も",
+      "CD聞いて (シーディーきいて)",
+      "いい？――うん、いいよ"
+    ],
+    "correctOrderJson": "[\"こ\",\"の\",\"CD聞いて (シーディーきいて)\",\"も\",\"いい？――うん、いいよ\"]",
+    "correctOrder": [
+      "こ",
+      "の",
+      "CD聞いて (シーディーきいて)",
+      "も",
+      "いい？――うん、いいよ"
+    ],
+    "orderIndex": 3
+  },
+  {
+    "id": "77777777-1133-0003-0000-000001125002",
+    "patternId": "77777777-1133-0001-0000-000000011016",
+    "exerciseType": "ja_to_vi",
+    "prompt": "ここに座ってもいい？",
+    "promptReading": "ここにすわってもいい？",
+    "expectedAnswer": "Mình ngồi đây được không?",
+    "hint": "Vて形 + もいい？",
+    "explanation": "も trong cấu trúc Vてもいい Vてもいいですか là lịch sự; Vてもいい？ là thân mật. Không dùng dạng này với người cần kính trọng.",
+    "orderIndex": 4
+  },
+  {
+    "id": "77777777-1133-0003-0000-000001135002",
+    "patternId": "77777777-1133-0001-0000-000000011016",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Mình ngồi đây được không?",
+    "expectedAnswer": "ここに座ってもいい？",
+    "acceptableAnswers": [
+      "ここにすわってもいい？"
+    ],
+    "hint": "聞きます → 聞いてもいい？",
+    "explanation": "も trong cấu trúc Vてもいい Vてもいいですか là lịch sự; Vてもいい？ là thân mật. Không dùng dạng này với người cần kính trọng.",
+    "orderIndex": 5
+  },
+  {
+    "id": "77777777-1133-0003-0000-000001145002",
+    "patternId": "77777777-1133-0001-0000-000000011016",
+    "exerciseType": "arrange",
+    "prompt": "Mình ngồi đây được không?",
+    "expectedAnswer": "ここに座って (すわって)もいい",
+    "optionsJson": "[\"に\",\"も\",\"いい\",\"ここ\",\"座って (すわって)\"]",
+    "options": [
+      "に",
+      "も",
+      "いい",
+      "ここ",
+      "座って (すわって)"
+    ],
+    "correctOrderJson": "[\"ここ\",\"に\",\"座って (すわって)\",\"も\",\"いい\"]",
+    "correctOrder": [
+      "ここ",
+      "に",
+      "座って (すわって)",
+      "も",
+      "いい"
+    ],
+    "orderIndex": 6
+  },
+  {
+    "id": "77777777-1133-0003-0000-000001155001",
+    "patternId": "77777777-1133-0001-0000-000000011016",
+    "exerciseType": "vi_to_ja",
+    "prompt": "このCD聞い（　）いい？",
+    "expectedAnswer": "ても",
+    "acceptableAnswers": [],
+    "acceptableAnswersJson": "[]",
+    "hint": "",
+    "explanation": "Xin phép thân mật dùng Vてもいい？.",
+    "options": [
+      "たり",
+      "ても",
+      "ないで",
+      "ては"
+    ],
+    "optionsJson": "[\"たり\",\"ても\",\"ないで\",\"ては\"]",
+    "correctOrder": [],
+    "orderIndex": 1
+  },
+  {
+    "id": "77777777-1133-0003-0000-000001155002",
+    "patternId": "77777777-1133-0001-0000-000000011016",
+    "exerciseType": "vi_to_ja",
+    "prompt": "(Xin phép với bạn) Mình ngồi đây được không?",
+    "expectedAnswer": "ここに座ってもいい？",
+    "acceptableAnswers": [],
+    "acceptableAnswersJson": "[]",
+    "hint": "",
+    "explanation": "",
+    "options": [],
+    "correctOrder": [],
+    "orderIndex": 2
+  },
+  {
+    "id": "77777777-1133-0003-0000-000001155003",
+    "patternId": "77777777-1133-0001-0000-000000011016",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Chuyển 聞きます sang câu xin phép thân mật.",
+    "expectedAnswer": "聞いてもいい？",
+    "acceptableAnswers": [],
+    "acceptableAnswersJson": "[]",
+    "hint": "",
+    "explanation": "聞きます → 聞いて + もいい？.",
+    "options": [],
+    "correctOrder": [],
+    "orderIndex": 3
+  }
+]

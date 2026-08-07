@@ -1,0 +1,122 @@
+[
+  {
+    "id": "77777777-1133-0003-0000-000000817001",
+    "patternId": "77777777-1133-0001-0000-000000008008",
+    "exerciseType": "ja_to_vi",
+    "prompt": "ナタポンさんはまじめで、しんせつです。",
+    "promptReading": "ナタポンさんはまじめで、しんせつです。",
+    "expectedAnswer": "Natapon nghiêm túc và tốt bụng.",
+    "hint": "ナA で、＿＿＿＿",
+    "explanation": "で: dạng nối của ナA/です イA dùng くて. Không thêm な trước で: ×まじめなで.",
+    "orderIndex": 1
+  },
+  {
+    "id": "77777777-1133-0003-0000-000000827001",
+    "patternId": "77777777-1133-0001-0000-000000008008",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Natapon nghiêm túc và tốt bụng.",
+    "expectedAnswer": "ナタポンさんはまじめで、しんせつです。",
+    "acceptableAnswers": [
+      "ナタポンさんはまじめで、しんせつです。"
+    ],
+    "hint": "まじめです → まじめで; しんせつです → しんせつで...",
+    "explanation": "で: dạng nối của ナA/です イA dùng くて. Không thêm な trước で: ×まじめなで.",
+    "orderIndex": 2
+  },
+  {
+    "id": "77777777-1133-0003-0000-000000837001",
+    "patternId": "77777777-1133-0001-0000-000000008008",
+    "exerciseType": "arrange",
+    "prompt": "Natapon nghiêm túc và tốt bụng.",
+    "expectedAnswer": "ナタポンさんはまじめで、しんせつです",
+    "optionsJson": "[\"は\",\"です\",\"ナタポンさん\",\"まじめで、しんせつ\"]",
+    "options": [
+      "は",
+      "です",
+      "ナタポンさん",
+      "まじめで、しんせつ"
+    ],
+    "correctOrderJson": "[\"ナタポンさん\",\"は\",\"まじめで、しんせつ\",\"です\"]",
+    "correctOrder": [
+      "ナタポンさん",
+      "は",
+      "まじめで、しんせつ",
+      "です"
+    ],
+    "orderIndex": 3
+  },
+  {
+    "id": "77777777-1133-0003-0000-000000817002",
+    "patternId": "77777777-1133-0001-0000-000000008008",
+    "exerciseType": "ja_to_vi",
+    "prompt": "父は元気で、親切です。",
+    "promptReading": "ちちはげんきで、しんせつです。",
+    "expectedAnswer": "Bố tôi khỏe mạnh và tốt bụng.",
+    "hint": "ナA で、＿＿＿＿",
+    "explanation": "で: dạng nối của ナA/です イA dùng くて. Không thêm な trước で: ×まじめなで.",
+    "orderIndex": 4
+  },
+  {
+    "id": "77777777-1133-0003-0000-000000827002",
+    "patternId": "77777777-1133-0001-0000-000000008008",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Bố tôi khỏe mạnh và tốt bụng.",
+    "expectedAnswer": "父は元気で、親切です。",
+    "acceptableAnswers": [
+      "ちちはげんきで、しんせつです。"
+    ],
+    "hint": "まじめです → まじめで; しんせつです → しんせつで...",
+    "explanation": "で: dạng nối của ナA/です イA dùng くて. Không thêm な trước で: ×まじめなで.",
+    "orderIndex": 5
+  },
+  {
+    "id": "77777777-1133-0003-0000-000000837002",
+    "patternId": "77777777-1133-0001-0000-000000008008",
+    "exerciseType": "arrange",
+    "prompt": "Bố tôi khỏe mạnh và tốt bụng.",
+    "expectedAnswer": "父 (ちち)は元気で、親切 (げんきで、しんせつ)です",
+    "optionsJson": "[\"は\",\"です\",\"父 (ちち)\",\"元気で、親切 (げんきで、しんせつ)\"]",
+    "options": [
+      "は",
+      "です",
+      "父 (ちち)",
+      "元気で、親切 (げんきで、しんせつ)"
+    ],
+    "correctOrderJson": "[\"父 (ちち)\",\"は\",\"元気で、親切 (げんきで、しんせつ)\",\"です\"]",
+    "correctOrder": [
+      "父 (ちち)",
+      "は",
+      "元気で、親切 (げんきで、しんせつ)",
+      "です"
+    ],
+    "orderIndex": 6
+  },
+  {
+    "id": "77777777-1133-0003-0000-000000847001",
+    "patternId": "77777777-1133-0001-0000-000000008008",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Bố tôi khỏe mạnh và tốt bụng.",
+    "expectedAnswer": "父は元気で、親切です。",
+    "acceptableAnswers": [],
+    "acceptableAnswersJson": "[]",
+    "hint": "",
+    "explanation": "",
+    "options": [],
+    "correctOrder": [],
+    "orderIndex": 1
+  },
+  {
+    "id": "77777777-1133-0003-0000-000000847002",
+    "patternId": "77777777-1133-0001-0000-000000008008",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Chuyển まじめです sang dạng nối.",
+    "expectedAnswer": "まじめで",
+    "acceptableAnswers": [],
+    "acceptableAnswersJson": "[]",
+    "hint": "",
+    "explanation": "ナA nối bằng で.",
+    "options": [],
+    "correctOrder": [],
+    "orderIndex": 2
+  }
+]

@@ -1,0 +1,168 @@
+[
+  {
+    "id": "77777777-1133-0003-0000-000001114001",
+    "patternId": "77777777-1133-0001-0000-000000011005",
+    "exerciseType": "ja_to_vi",
+    "prompt": "ひまなとき、テレビを見ます。",
+    "promptReading": "ひまなとき、テレビをみます。",
+    "expectedAnswer": "Khi rảnh, tôi xem tivi.",
+    "hint": "ナA + なとき、＿＿＿＿",
+    "explanation": "な: bắt buộc khi ナA đứng trước とき イA + とき không thêm な. Không bỏ な: ×ひまとき.",
+    "orderIndex": 1
+  },
+  {
+    "id": "77777777-1133-0003-0000-000001124001",
+    "patternId": "77777777-1133-0001-0000-000000011005",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Khi rảnh, tôi xem tivi.",
+    "expectedAnswer": "ひまなとき、テレビを見ます。",
+    "acceptableAnswers": [
+      "ひまなとき、テレビをみます。"
+    ],
+    "hint": "ひま + なとき / 元気 + なとき",
+    "explanation": "な: bắt buộc khi ナA đứng trước とき イA + とき không thêm な. Không bỏ な: ×ひまとき.",
+    "orderIndex": 2
+  },
+  {
+    "id": "77777777-1133-0003-0000-000001134001",
+    "patternId": "77777777-1133-0001-0000-000000011005",
+    "exerciseType": "arrange",
+    "prompt": "Khi rảnh, tôi xem tivi.",
+    "expectedAnswer": "ひまなとき、テレビを見ます (みます)",
+    "optionsJson": "[\"と\",\"を\",\"ひまな\",\"き、テレビ\",\"見ます (みます)\"]",
+    "options": [
+      "と",
+      "を",
+      "ひまな",
+      "き、テレビ",
+      "見ます (みます)"
+    ],
+    "correctOrderJson": "[\"ひまな\",\"と\",\"き、テレビ\",\"を\",\"見ます (みます)\"]",
+    "correctOrder": [
+      "ひまな",
+      "と",
+      "き、テレビ",
+      "を",
+      "見ます (みます)"
+    ],
+    "orderIndex": 3
+  },
+  {
+    "id": "77777777-1133-0003-0000-000001114002",
+    "patternId": "77777777-1133-0001-0000-000000011005",
+    "exerciseType": "ja_to_vi",
+    "prompt": "元気なとき、よく外を歩きます。",
+    "promptReading": "げんきなとき、よくそとをあるきます。",
+    "expectedAnswer": "Khi khỏe, tôi thường đi bộ bên ngoài.",
+    "hint": "ナA + なとき、＿＿＿＿",
+    "explanation": "な: bắt buộc khi ナA đứng trước とき イA + とき không thêm な. Không bỏ な: ×ひまとき.",
+    "orderIndex": 4
+  },
+  {
+    "id": "77777777-1133-0003-0000-000001124002",
+    "patternId": "77777777-1133-0001-0000-000000011005",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Khi khỏe, tôi thường đi bộ bên ngoài.",
+    "expectedAnswer": "元気なとき、よく外を歩きます。",
+    "acceptableAnswers": [
+      "げんきなとき、よくそとをあるきます。"
+    ],
+    "hint": "ひま + なとき / 元気 + なとき",
+    "explanation": "な: bắt buộc khi ナA đứng trước とき イA + とき không thêm な. Không bỏ な: ×ひまとき.",
+    "orderIndex": 5
+  },
+  {
+    "id": "77777777-1133-0003-0000-000001134002",
+    "patternId": "77777777-1133-0001-0000-000000011005",
+    "exerciseType": "arrange",
+    "prompt": "Khi khỏe, tôi thường đi bộ bên ngoài.",
+    "expectedAnswer": "元気な (げんきな)とき、よく外 (き、よくそと)を歩きます (あるきます)",
+    "optionsJson": "[\"と\",\"を\",\"元気な (げんきな)\",\"歩きます (あるきます)\",\"き、よく外 (き、よくそと)\"]",
+    "options": [
+      "と",
+      "を",
+      "元気な (げんきな)",
+      "歩きます (あるきます)",
+      "き、よく外 (き、よくそと)"
+    ],
+    "correctOrderJson": "[\"元気な (げんきな)\",\"と\",\"き、よく外 (き、よくそと)\",\"を\",\"歩きます (あるきます)\"]",
+    "correctOrder": [
+      "元気な (げんきな)",
+      "と",
+      "き、よく外 (き、よくそと)",
+      "を",
+      "歩きます (あるきます)"
+    ],
+    "orderIndex": 6
+  },
+  {
+    "id": "77777777-1133-0003-0000-000001144001",
+    "patternId": "77777777-1133-0001-0000-000000011005",
+    "exerciseType": "vi_to_ja",
+    "prompt": "ひま（　）、テレビを見ます。",
+    "expectedAnswer": "なとき",
+    "acceptableAnswers": [],
+    "acceptableAnswersJson": "[]",
+    "hint": "",
+    "explanation": "ナA phải thêm な trước とき.",
+    "options": [
+      "とき",
+      "なとき",
+      "のとき",
+      "くて"
+    ],
+    "optionsJson": "[\"とき\",\"なとき\",\"のとき\",\"くて\"]",
+    "correctOrder": [],
+    "orderIndex": 1
+  },
+  {
+    "id": "77777777-1133-0003-0000-000001144002",
+    "patternId": "77777777-1133-0001-0000-000000011005",
+    "exerciseType": "arrange",
+    "prompt": "テレビを見ます / ひまなとき",
+    "expectedAnswer": "ひまなとき、テレビを見ます。",
+    "acceptableAnswers": [],
+    "acceptableAnswersJson": "[]",
+    "hint": "",
+    "explanation": "",
+    "options": [
+      "テレビを見ます",
+      "ひまなとき"
+    ],
+    "optionsJson": "[\"テレビを見ます\",\"ひまなとき\"]",
+    "correctOrder": [
+      "ひまなとき",
+      "テレビを見ます"
+    ],
+    "correctOrderJson": "[\"ひまなとき\",\"テレビを見ます\"]",
+    "orderIndex": 2
+  },
+  {
+    "id": "77777777-1133-0003-0000-000001144003",
+    "patternId": "77777777-1133-0001-0000-000000011005",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Khi rảnh, tôi xem tivi.",
+    "expectedAnswer": "ひまなとき、テレビを見ます。",
+    "acceptableAnswers": [],
+    "acceptableAnswersJson": "[]",
+    "hint": "",
+    "explanation": "",
+    "options": [],
+    "correctOrder": [],
+    "orderIndex": 3
+  },
+  {
+    "id": "77777777-1133-0003-0000-000001144004",
+    "patternId": "77777777-1133-0001-0000-000000011005",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Chuyển ひま thành cấu trúc đứng trước とき.",
+    "expectedAnswer": "ひまなとき",
+    "acceptableAnswers": [],
+    "acceptableAnswersJson": "[]",
+    "hint": "",
+    "explanation": "ナA + なとき.",
+    "options": [],
+    "correctOrder": [],
+    "orderIndex": 4
+  }
+]

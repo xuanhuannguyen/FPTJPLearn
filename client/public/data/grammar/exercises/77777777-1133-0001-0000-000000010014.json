@@ -1,0 +1,112 @@
+[
+  {
+    "id": "77777777-1133-0003-0000-000001023001",
+    "patternId": "77777777-1133-0001-0000-000000010014",
+    "exerciseType": "ja_to_vi",
+    "prompt": "週末、ともだちとご飯を食べて、映画を見ます。",
+    "promptReading": "しゅうまつ、ともだちとごはんをたべて、えいがをみます。",
+    "expectedAnswer": "Cuối tuần tôi ăn cơm với bạn rồi xem phim.",
+    "hint": "Vて形、＿＿＿＿",
+    "explanation": "Trợ từ phụ thuộc từng động từ VたりVたりします chỉ liệt kê hành động tiêu biểu, không nhất thiết theo thứ tự. Không biến mọi động từ giữa chuỗi thành ます khi dùng mẫu Vて.",
+    "orderIndex": 1
+  },
+  {
+    "id": "77777777-1133-0003-0000-000001033001",
+    "patternId": "77777777-1133-0001-0000-000000010014",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Cuối tuần tôi ăn cơm với bạn rồi xem phim.",
+    "expectedAnswer": "週末、ともだちとご飯を食べて、映画を見ます。",
+    "acceptableAnswers": [
+      "しゅうまつ、ともだちとごはんをたべて、えいがをみます。"
+    ],
+    "hint": "食べます → 食べて; 見ます → 見て",
+    "explanation": "Trợ từ phụ thuộc từng động từ VたりVたりします chỉ liệt kê hành động tiêu biểu, không nhất thiết theo thứ tự. Không biến mọi động từ giữa chuỗi thành ます khi dùng mẫu Vて.",
+    "orderIndex": 2
+  },
+  {
+    "id": "77777777-1133-0003-0000-000001043001",
+    "patternId": "77777777-1133-0001-0000-000000010014",
+    "exerciseType": "arrange",
+    "prompt": "Cuối tuần tôi ăn cơm với bạn rồi xem phim.",
+    "expectedAnswer": "週末、 (しゅうまつ、)ともだちとご飯 (ごはん)を食べて、映画 (たべて、えいが)を見ます (みます)",
+    "optionsJson": "[\"と\",\"と\",\"も\",\"を\",\"を\",\"だち\",\"ご飯 (ごはん)\",\"見ます (みます)\",\"週末、 (しゅうまつ、)\",\"食べて、映画 (たべて、えいが)\"]",
+    "options": [
+      "と",
+      "と",
+      "も",
+      "を",
+      "を",
+      "だち",
+      "ご飯 (ごはん)",
+      "見ます (みます)",
+      "週末、 (しゅうまつ、)",
+      "食べて、映画 (たべて、えいが)"
+    ],
+    "correctOrderJson": "[\"週末、 (しゅうまつ、)\",\"と\",\"も\",\"だち\",\"と\",\"ご飯 (ごはん)\",\"を\",\"食べて、映画 (たべて、えいが)\",\"を\",\"見ます (みます)\"]",
+    "correctOrder": [
+      "週末、 (しゅうまつ、)",
+      "と",
+      "も",
+      "だち",
+      "と",
+      "ご飯 (ごはん)",
+      "を",
+      "食べて、映画 (たべて、えいが)",
+      "を",
+      "見ます (みます)"
+    ],
+    "orderIndex": 3
+  },
+  {
+    "id": "77777777-1133-0003-0000-000001023002",
+    "patternId": "77777777-1133-0001-0000-000000010014",
+    "exerciseType": "ja_to_vi",
+    "prompt": "ここを右に曲がって、まっすぐ行きます。",
+    "promptReading": "ここをみぎにまがって、まっすぐいきます。",
+    "expectedAnswer": "Rẽ phải ở đây rồi đi thẳng.",
+    "hint": "Vて形、＿＿＿＿",
+    "explanation": "Trợ từ phụ thuộc từng động từ VたりVたりします chỉ liệt kê hành động tiêu biểu, không nhất thiết theo thứ tự. Không biến mọi động từ giữa chuỗi thành ます khi dùng mẫu Vて.",
+    "orderIndex": 4
+  },
+  {
+    "id": "77777777-1133-0003-0000-000001033002",
+    "patternId": "77777777-1133-0001-0000-000000010014",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Rẽ phải ở đây rồi đi thẳng.",
+    "expectedAnswer": "ここを右に曲がって、まっすぐ行きます。",
+    "acceptableAnswers": [
+      "ここをみぎにまがって、まっすぐいきます。"
+    ],
+    "hint": "食べます → 食べて; 見ます → 見て",
+    "explanation": "Trợ từ phụ thuộc từng động từ VたりVたりします chỉ liệt kê hành động tiêu biểu, không nhất thiết theo thứ tự. Không biến mọi động từ giữa chuỗi thành ます khi dùng mẫu Vて.",
+    "orderIndex": 5
+  },
+  {
+    "id": "77777777-1133-0003-0000-000001043002",
+    "patternId": "77777777-1133-0001-0000-000000010014",
+    "exerciseType": "arrange",
+    "prompt": "Rẽ phải ở đây rồi đi thẳng.",
+    "expectedAnswer": "ここを右 (みぎ)に曲 (ま)がって、まっすぐ行きます (って、まっすぐいきます)",
+    "optionsJson": "[\"が\",\"に\",\"を\",\"ここ\",\"曲 (ま)\",\"右 (みぎ)\",\"って、まっすぐ行きます (って、まっすぐいきます)\"]",
+    "options": [
+      "が",
+      "に",
+      "を",
+      "ここ",
+      "曲 (ま)",
+      "右 (みぎ)",
+      "って、まっすぐ行きます (って、まっすぐいきます)"
+    ],
+    "correctOrderJson": "[\"ここ\",\"を\",\"右 (みぎ)\",\"に\",\"曲 (ま)\",\"が\",\"って、まっすぐ行きます (って、まっすぐいきます)\"]",
+    "correctOrder": [
+      "ここ",
+      "を",
+      "右 (みぎ)",
+      "に",
+      "曲 (ま)",
+      "が",
+      "って、まっすぐ行きます (って、まっすぐいきます)"
+    ],
+    "orderIndex": 6
+  }
+]

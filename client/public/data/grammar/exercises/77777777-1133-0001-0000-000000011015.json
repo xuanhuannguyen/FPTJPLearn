@@ -1,0 +1,78 @@
+[
+  {
+    "id": "77777777-1133-0003-0000-000001124001",
+    "patternId": "77777777-1133-0001-0000-000000011015",
+    "exerciseType": "ja_to_vi",
+    "prompt": "日曜日、しんじゅくでご飯食べない？",
+    "promptReading": "にちようび、しんじゅくでごはんたべない？",
+    "expectedAnswer": "Chủ nhật đi ăn ở Shinjuku không?",
+    "hint": "Vない？",
+    "explanation": "Trợ từ tùy động từ, có thể lược trong khẩu ngữ Vませんか là lời mời lịch sự; Vない？ là thân mật. Không dịch máy móc thành 'không ăn à?' khi ngữ cảnh là rủ rê.",
+    "orderIndex": 1
+  },
+  {
+    "id": "77777777-1133-0003-0000-000001134001",
+    "patternId": "77777777-1133-0001-0000-000000011015",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Chủ nhật đi ăn ở Shinjuku không?",
+    "expectedAnswer": "日曜日、しんじゅくでご飯食べない？",
+    "acceptableAnswers": [
+      "にちようび、しんじゅくでごはんたべない？"
+    ],
+    "hint": "食べます → 食べない？; 行きます → 行かない？",
+    "explanation": "Trợ từ tùy động từ, có thể lược trong khẩu ngữ Vませんか là lời mời lịch sự; Vない？ là thân mật. Không dịch máy móc thành 'không ăn à?' khi ngữ cảnh là rủ rê.",
+    "orderIndex": 2
+  },
+  {
+    "id": "77777777-1133-0003-0000-000001124002",
+    "patternId": "77777777-1133-0001-0000-000000011015",
+    "exerciseType": "ja_to_vi",
+    "prompt": "今夜、映画見ない？",
+    "promptReading": "こんや、えいがみない？",
+    "expectedAnswer": "Tối nay xem phim không?",
+    "hint": "Vない？",
+    "explanation": "Trợ từ tùy động từ, có thể lược trong khẩu ngữ Vませんか là lời mời lịch sự; Vない？ là thân mật. Không dịch máy móc thành 'không ăn à?' khi ngữ cảnh là rủ rê.",
+    "orderIndex": 3
+  },
+  {
+    "id": "77777777-1133-0003-0000-000001134002",
+    "patternId": "77777777-1133-0001-0000-000000011015",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Tối nay xem phim không?",
+    "expectedAnswer": "今夜、映画見ない？",
+    "acceptableAnswers": [
+      "こんや、えいがみない？"
+    ],
+    "hint": "食べます → 食べない？; 行きます → 行かない？",
+    "explanation": "Trợ từ tùy động từ, có thể lược trong khẩu ngữ Vませんか là lời mời lịch sự; Vない？ là thân mật. Không dịch máy móc thành 'không ăn à?' khi ngữ cảnh là rủ rê.",
+    "orderIndex": 4
+  },
+  {
+    "id": "77777777-1133-0003-0000-000001154001",
+    "patternId": "77777777-1133-0001-0000-000000011015",
+    "exerciseType": "vi_to_ja",
+    "prompt": "(Rủ bạn) Tối nay xem phim không?",
+    "expectedAnswer": "今夜、映画見ない？",
+    "acceptableAnswers": [],
+    "acceptableAnswersJson": "[]",
+    "hint": "",
+    "explanation": "",
+    "options": [],
+    "correctOrder": [],
+    "orderIndex": 1
+  },
+  {
+    "id": "77777777-1133-0003-0000-000001154002",
+    "patternId": "77777777-1133-0001-0000-000000011015",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Chuyển 食べます sang lời rủ rê thân mật.",
+    "expectedAnswer": "食べない？",
+    "acceptableAnswers": [],
+    "acceptableAnswersJson": "[]",
+    "hint": "",
+    "explanation": "Dùng Vない？ để rủ rê.",
+    "options": [],
+    "correctOrder": [],
+    "orderIndex": 2
+  }
+]

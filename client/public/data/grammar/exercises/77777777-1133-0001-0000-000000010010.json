@@ -1,0 +1,108 @@
+[
+  {
+    "id": "77777777-1133-0003-0000-000001019001",
+    "patternId": "77777777-1133-0001-0000-000000010010",
+    "exerciseType": "ja_to_vi",
+    "prompt": "ここで食事ができます。",
+    "promptReading": "ここでしょくじができます。",
+    "expectedAnswer": "Ở đây có thể ăn/uống bữa.",
+    "hint": "N が できます",
+    "explanation": "で: nơi có thể làm; が: nội dung hoạt động Vことができます dùng khi muốn nói hành động bằng động từ. Không dùng を trước できます.",
+    "orderIndex": 1
+  },
+  {
+    "id": "77777777-1133-0003-0000-000001029001",
+    "patternId": "77777777-1133-0001-0000-000000010010",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Ở đây có thể ăn/uống bữa.",
+    "expectedAnswer": "ここで食事ができます。",
+    "acceptableAnswers": [
+      "ここでしょくじができます。"
+    ],
+    "hint": "食事ができます / 買い物ができます",
+    "explanation": "で: nơi có thể làm; が: nội dung hoạt động Vことができます dùng khi muốn nói hành động bằng động từ. Không dùng を trước できます.",
+    "orderIndex": 2
+  },
+  {
+    "id": "77777777-1133-0003-0000-000001039001",
+    "patternId": "77777777-1133-0001-0000-000000010010",
+    "exerciseType": "arrange",
+    "prompt": "Ở đây có thể ăn/uống bữa.",
+    "expectedAnswer": "ここで食事 (ここでしょくじ)ができます",
+    "optionsJson": "[\"が\",\"できます\",\"ここで食事 (ここでしょくじ)\"]",
+    "options": [
+      "が",
+      "できます",
+      "ここで食事 (ここでしょくじ)"
+    ],
+    "correctOrderJson": "[\"ここで食事 (ここでしょくじ)\",\"が\",\"できます\"]",
+    "correctOrder": [
+      "ここで食事 (ここでしょくじ)",
+      "が",
+      "できます"
+    ],
+    "orderIndex": 3
+  },
+  {
+    "id": "77777777-1133-0003-0000-000001019002",
+    "patternId": "77777777-1133-0001-0000-000000010010",
+    "exerciseType": "ja_to_vi",
+    "prompt": "この店で買い物ができます。",
+    "promptReading": "このみせでかいものができます。",
+    "expectedAnswer": "Có thể mua sắm ở cửa hàng này.",
+    "hint": "N が できます",
+    "explanation": "で: nơi có thể làm; が: nội dung hoạt động Vことができます dùng khi muốn nói hành động bằng động từ. Không dùng を trước できます.",
+    "orderIndex": 4
+  },
+  {
+    "id": "77777777-1133-0003-0000-000001029002",
+    "patternId": "77777777-1133-0001-0000-000000010010",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Có thể mua sắm ở cửa hàng này.",
+    "expectedAnswer": "この店で買い物ができます。",
+    "acceptableAnswers": [
+      "このみせでかいものができます。"
+    ],
+    "hint": "食事ができます / 買い物ができます",
+    "explanation": "で: nơi có thể làm; が: nội dung hoạt động Vことができます dùng khi muốn nói hành động bằng động từ. Không dùng を trước できます.",
+    "orderIndex": 5
+  },
+  {
+    "id": "77777777-1133-0003-0000-000001039002",
+    "patternId": "77777777-1133-0001-0000-000000010010",
+    "exerciseType": "arrange",
+    "prompt": "Có thể mua sắm ở cửa hàng này.",
+    "expectedAnswer": "この店で買い物 (みせでかいもの)ができます",
+    "optionsJson": "[\"が\",\"こ\",\"の\",\"できます\",\"店で買い物 (みせでかいもの)\"]",
+    "options": [
+      "が",
+      "こ",
+      "の",
+      "できます",
+      "店で買い物 (みせでかいもの)"
+    ],
+    "correctOrderJson": "[\"こ\",\"の\",\"店で買い物 (みせでかいもの)\",\"が\",\"できます\"]",
+    "correctOrder": [
+      "こ",
+      "の",
+      "店で買い物 (みせでかいもの)",
+      "が",
+      "できます"
+    ],
+    "orderIndex": 6
+  },
+  {
+    "id": "77777777-1133-0003-0000-000001049001",
+    "patternId": "77777777-1133-0001-0000-000000010010",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Ở đây có thể ăn.",
+    "expectedAnswer": "ここで食事ができます。",
+    "acceptableAnswers": [],
+    "acceptableAnswersJson": "[]",
+    "hint": "",
+    "explanation": "",
+    "options": [],
+    "correctOrder": [],
+    "orderIndex": 1
+  }
+]

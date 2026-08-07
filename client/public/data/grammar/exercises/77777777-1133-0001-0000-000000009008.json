@@ -1,0 +1,160 @@
+[
+  {
+    "id": "77777777-1133-0003-0000-000000917001",
+    "patternId": "77777777-1133-0001-0000-000000009008",
+    "exerciseType": "ja_to_vi",
+    "prompt": "どうやって美術館へ行きますか。――3番のバスに乗って、美術館前で降ります。",
+    "promptReading": "どうやってびじゅつかんへいきますか。――さんばんのバスにのって、びじゅつかんまえでおります。",
+    "expectedAnswer": "Đi đến bảo tàng mỹ thuật bằng cách nào? — Lên xe buýt số 3 và xuống ở trước bảo tàng.",
+    "hint": "どうやって",
+    "explanation": "Trợ từ phụ thuộc câu trả lời; thường xuất hiện で, に乗って, で降りて... Không trả lời chỉ bằng はい/いいえ vì đây là câu hỏi cách thức.",
+    "orderIndex": 1
+  },
+  {
+    "id": "77777777-1133-0003-0000-000000927001",
+    "patternId": "77777777-1133-0001-0000-000000009008",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Đi đến bảo tàng mỹ thuật bằng cách nào? — Lên xe buýt số 3 và xuống ở trước bảo tàng.",
+    "expectedAnswer": "どうやって美術館へ行きますか。――3番のバスに乗って、美術館前で降ります。",
+    "acceptableAnswers": [
+      "どうやってびじゅつかんへいきますか。――さんばんのバスにのって、びじゅつかんまえでおります。"
+    ],
+    "hint": "どうやって行きますか / どうやって作りますか",
+    "explanation": "Trợ từ phụ thuộc câu trả lời; thường xuất hiện で, に乗って, で降りて... Không trả lời chỉ bằng はい/いいえ vì đây là câu hỏi cách thức.",
+    "orderIndex": 2
+  },
+  {
+    "id": "77777777-1133-0003-0000-000000937001",
+    "patternId": "77777777-1133-0001-0000-000000009008",
+    "exerciseType": "arrange",
+    "prompt": "Đi đến bảo tàng mỹ thuật bằng cách nào? — Lên xe buýt số 3 và xuống ở trước bảo tàng.",
+    "expectedAnswer": "どうやって美術館 (どうやってびじゅつかん)へ行きますか。――3番 (いきますか。――さんばん)のバスに乗って、美術館前で降ります (のって、びじゅつかんまえでおります)",
+    "optionsJson": "[\"に\",\"の\",\"へ\",\"バス\",\"行きますか。――3番 (いきますか。――さんばん)\",\"どうやって美術館 (どうやってびじゅつかん)\",\"乗って、美術館前で降ります (のって、びじゅつかんまえでおります)\"]",
+    "options": [
+      "に",
+      "の",
+      "へ",
+      "バス",
+      "行きますか。――3番 (いきますか。――さんばん)",
+      "どうやって美術館 (どうやってびじゅつかん)",
+      "乗って、美術館前で降ります (のって、びじゅつかんまえでおります)"
+    ],
+    "correctOrderJson": "[\"どうやって美術館 (どうやってびじゅつかん)\",\"へ\",\"行きますか。――3番 (いきますか。――さんばん)\",\"の\",\"バス\",\"に\",\"乗って、美術館前で降ります (のって、びじゅつかんまえでおります)\"]",
+    "correctOrder": [
+      "どうやって美術館 (どうやってびじゅつかん)",
+      "へ",
+      "行きますか。――3番 (いきますか。――さんばん)",
+      "の",
+      "バス",
+      "に",
+      "乗って、美術館前で降ります (のって、びじゅつかんまえでおります)"
+    ],
+    "orderIndex": 3
+  },
+  {
+    "id": "77777777-1133-0003-0000-000000917002",
+    "patternId": "77777777-1133-0001-0000-000000009008",
+    "exerciseType": "ja_to_vi",
+    "prompt": "どうやってこの料理を作りますか。",
+    "promptReading": "どうやってこのりょうりをつくりますか。",
+    "expectedAnswer": "Món này làm như thế nào?",
+    "hint": "どうやって",
+    "explanation": "Trợ từ phụ thuộc câu trả lời; thường xuất hiện で, に乗って, で降りて... Không trả lời chỉ bằng はい/いいえ vì đây là câu hỏi cách thức.",
+    "orderIndex": 4
+  },
+  {
+    "id": "77777777-1133-0003-0000-000000927002",
+    "patternId": "77777777-1133-0001-0000-000000009008",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Món này làm như thế nào?",
+    "expectedAnswer": "どうやってこの料理を作りますか。",
+    "acceptableAnswers": [
+      "どうやってこのりょうりをつくりますか。"
+    ],
+    "hint": "どうやって行きますか / どうやって作りますか",
+    "explanation": "Trợ từ phụ thuộc câu trả lời; thường xuất hiện で, に乗って, で降りて... Không trả lời chỉ bằng はい/いいえ vì đây là câu hỏi cách thức.",
+    "orderIndex": 5
+  },
+  {
+    "id": "77777777-1133-0003-0000-000000937002",
+    "patternId": "77777777-1133-0001-0000-000000009008",
+    "exerciseType": "arrange",
+    "prompt": "Món này làm như thế nào?",
+    "expectedAnswer": "どうやってこの料理 (りょうり)を作りますか (つくりますか)",
+    "optionsJson": "[\"の\",\"を\",\"どうやってこ\",\"料理 (りょうり)\",\"作りますか (つくりますか)\"]",
+    "options": [
+      "の",
+      "を",
+      "どうやってこ",
+      "料理 (りょうり)",
+      "作りますか (つくりますか)"
+    ],
+    "correctOrderJson": "[\"どうやってこ\",\"の\",\"料理 (りょうり)\",\"を\",\"作りますか (つくりますか)\"]",
+    "correctOrder": [
+      "どうやってこ",
+      "の",
+      "料理 (りょうり)",
+      "を",
+      "作りますか (つくりますか)"
+    ],
+    "orderIndex": 6
+  },
+  {
+    "id": "77777777-1133-0003-0000-000000947001",
+    "patternId": "77777777-1133-0001-0000-000000009008",
+    "exerciseType": "vi_to_ja",
+    "prompt": "（　）美術館へ行きますか。",
+    "expectedAnswer": "どうやって",
+    "acceptableAnswers": [],
+    "acceptableAnswersJson": "[]",
+    "hint": "",
+    "explanation": "どうやって hỏi cách thức/phương pháp.",
+    "options": [
+      "どうやって",
+      "いつも",
+      "まだ",
+      "だれが"
+    ],
+    "optionsJson": "[\"どうやって\",\"いつも\",\"まだ\",\"だれが\"]",
+    "correctOrder": [],
+    "orderIndex": 1
+  },
+  {
+    "id": "77777777-1133-0003-0000-000000947002",
+    "patternId": "77777777-1133-0001-0000-000000009008",
+    "exerciseType": "arrange",
+    "prompt": "美術館へ / どうやって / 行きますか",
+    "expectedAnswer": "どうやって美術館へ行きますか。",
+    "acceptableAnswers": [],
+    "acceptableAnswersJson": "[]",
+    "hint": "",
+    "explanation": "",
+    "options": [
+      "美術館へ",
+      "どうやって",
+      "行きますか"
+    ],
+    "optionsJson": "[\"美術館へ\",\"どうやって\",\"行きますか\"]",
+    "correctOrder": [
+      "どうやって",
+      "美術館へ",
+      "行きますか"
+    ],
+    "correctOrderJson": "[\"どうやって\",\"美術館へ\",\"行きますか\"]",
+    "orderIndex": 2
+  },
+  {
+    "id": "77777777-1133-0003-0000-000000947003",
+    "patternId": "77777777-1133-0001-0000-000000009008",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Đi đến bảo tàng mỹ thuật bằng cách nào?",
+    "expectedAnswer": "どうやって美術館へ行きますか。",
+    "acceptableAnswers": [],
+    "acceptableAnswersJson": "[]",
+    "hint": "",
+    "explanation": "",
+    "options": [],
+    "correctOrder": [],
+    "orderIndex": 3
+  }
+]

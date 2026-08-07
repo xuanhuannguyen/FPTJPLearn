@@ -13,12 +13,18 @@ const writeJson = async (relativePath, value) => {
   await writeFile(filePath, `${JSON.stringify(value, null, 2)}\n`, 'utf8');
 };
 
-const segment = (courseCode) => (courseCode.toLowerCase().includes('113') ? '1113' : '1123');
+const segment = (courseCode) => {
+  const code = courseCode.toLowerCase();
+  if (code.includes('113')) return '1113';
+  if (code.includes('123')) return '1123';
+  if (code.includes('133')) return '1133';
+  return '0000';
+};
 const guid = (prefix, courseCode, group, number) =>
   `${prefix}-${segment(courseCode)}-${group}-0000-${String(number).padStart(12, '0')}`;
 
 const normalizeTier = (tier) => (tier?.trim().toLowerCase() || 'free');
-const courseOrder = (code) => (code.toLowerCase() === 'jpd113' ? 1 : 2);
+const courseOrder = (code) => ({ jpd113: 1, jpd123: 2, jpd133: 3 }[code.toLowerCase()] ?? 99);
 
 const toPlainText = (text) => text.replace(/\[\[([^|\]]+)\|[^\]]+\]\]/g, '$1').replaceAll(' ', '');
 const escapeHtml = (text) =>
@@ -89,7 +95,7 @@ const smartSplitWithReading = (text, reading) => {
 
 async function generateVocabulary() {
   const imports = await Promise.all(
-    ['jpd113', 'jpd123'].map((code) => readJson(`server/JPLearn.Infrastructure/Data/Imports/vocabulary/${code}.lessons.json`)),
+    ['jpd113', 'jpd123', 'jpd133'].map((code) => readJson(`server/JPLearn.Infrastructure/Data/Imports/vocabulary/${code}.lessons.json`)),
   );
   const allItems = [];
   const courses = [];
@@ -99,7 +105,9 @@ async function generateVocabulary() {
       const lessonId = guid('66666666', importFile.courseCode, '0000', seed.id + 100);
       const items = seed.items.map((item, index) => {
         const accessTier = normalizeTier(item.accessTierOverride || seed.accessTier);
-        const packageCode = item.packageCodeOverride || seed.packageCode;
+         const packageCode = importFile.courseCode === 'jpd133'
+           ? 'vocab_jpd133'
+           : item.packageCodeOverride || seed.packageCode;
         return {
           id: item.id || guid('66666666', importFile.courseCode, '0000', seed.id * 1000 + index + 1),
           lessonId,
@@ -131,7 +139,7 @@ async function generateVocabulary() {
         title: seed.title,
         description: seed.description,
         accessTier: normalizeTier(seed.accessTier),
-        packageCode: seed.packageCode,
+         packageCode: importFile.courseCode === 'jpd133' ? 'vocab_jpd133' : seed.packageCode,
         isLocked: normalizeTier(seed.accessTier) !== 'free',
         wordCount: items.length,
         learnedCount: 0,
@@ -142,7 +150,7 @@ async function generateVocabulary() {
     });
 
     courses.push({
-      id: importFile.courseCode === 'jpd113' ? '66666666-1113-0000-0000-000000000001' : '66666666-1123-0000-0000-000000000001',
+      id: ({ jpd113: '66666666-1113-0000-0000-000000000001', jpd123: '66666666-1123-0000-0000-000000000001', jpd133: '66666666-1133-0000-0000-000000000001' })[importFile.courseCode],
       code: importFile.courseCode,
       title: importFile.title || importFile.courseCode.toUpperCase(),
       description: importFile.description,
@@ -222,7 +230,7 @@ async function generateKanji() {
   const courses = new Map();
   const kanjiSeedIds = await loadKanjiSeedIds();
 
-  for (const courseCode of ['jpd113', 'jpd123']) {
+  for (const courseCode of ['jpd113', 'jpd123', 'jpd133']) {
     const core = await readJson(`material/KANJI/${courseCode}_core.json`);
     const vocab = await readJson(`material/KANJI/${courseCode}_vocab.json`);
     for (const seed of core) {
@@ -242,18 +250,6 @@ async function generateKanji() {
         vocabularyCount: 0,
         isLocked: normalizeTier(accessTier) !== 'free',
       };
-      const vocabularyItems = (vocab.find((item) => item.lessonNumber === seed.lessonNumber)?.vocabulary || []).map((item, index) => ({
-        id: `${lessonId}-vocab-${index + 1}`,
-        lessonId,
-        level,
-        word: item.word,
-        reading: item.reading,
-        meaning: item.meaning,
-        exampleJapanese: item.exampleJapanese,
-        exampleReading: item.exampleReading,
-        exampleMeaning: item.exampleMeaning,
-      }));
-      lesson.vocabularyCount = vocabularyItems.length;
       const kanjiItems = seed.kanjiItems.map((item, index) => {
         const seedId = kanjiSeedIds.get(seed.lessonNumber)?.[index];
         if (seedId && seedId.character !== item.character) {
@@ -261,7 +257,9 @@ async function generateKanji() {
         }
 
         return {
-          id: seedId?.id || `${lessonId}-kanji-${index + 1}`,
+          id: seedId?.id || (courseCode === 'jpd133'
+            ? guid('77777777', courseCode, '0000', seed.lessonNumber * 1000 + index + 1)
+            : `${lessonId}-kanji-${index + 1}`),
           lessonId,
           level,
           character: item.character,
@@ -277,6 +275,42 @@ async function generateKanji() {
           orderIndex: item.orderIndex ?? index + 1,
         };
       });
+
+      if (courseCode === 'jpd133') {
+        for (const item of kanjiItems) {
+          if (!item.strokeDataJson) continue;
+          const strokeData = JSON.parse(item.strokeDataJson);
+          await writeJson(`kanji/strokes-jp/${item.character}.json`, {
+            character: item.character,
+            strokes: strokeData.strokes || [],
+            medians: strokeData.medians || [],
+            strokeCount: (strokeData.strokes || []).length,
+            source: 'hanzi-writer-data-jp@0.0.1',
+          });
+        }
+      }
+
+      const kanjiIdsByCharacter = new Map(kanjiItems.map((item) => [item.character, item.id]));
+      const vocabularyItems = (vocab.find((item) => item.lessonNumber === seed.lessonNumber)?.vocabulary || []).map((item, index) => {
+        const kanjiItemIds = (item.kanjiCharacters || [])
+          .map((character) => kanjiIdsByCharacter.get(character))
+          .filter(Boolean);
+        return {
+          id: `${lessonId}-vocab-${index + 1}`,
+          lessonId,
+          level,
+          word: item.word,
+          reading: item.reading,
+          meaning: item.meaning,
+          exampleJapanese: item.exampleJapanese,
+          exampleReading: item.exampleReading,
+          exampleMeaning: item.exampleMeaning,
+          kanjiItemId: kanjiItemIds[0],
+          kanjiItemIds,
+          kanjiCharacters: item.kanjiCharacters || [],
+        };
+      });
+      lesson.vocabularyCount = vocabularyItems.length;
 
       if (!courses.has(courseCode)) courses.set(courseCode, []);
       courses.get(courseCode).push({ lesson, kanjiItems, vocabularyItems });
@@ -304,7 +338,7 @@ async function generateKanji() {
 
 async function generateGrammar() {
   const imports = await Promise.all(
-    ['jpd113', 'jpd123'].map((code) => readJson(`server/JPLearn.Infrastructure/Data/Imports/grammar_${code}.json`)),
+    ['jpd113', 'jpd123', 'jpd133'].map((code) => readJson(`server/JPLearn.Infrastructure/Data/Imports/grammar_${code}.json`)),
   );
   const byLevel = new Map();
   const allPatterns = [];

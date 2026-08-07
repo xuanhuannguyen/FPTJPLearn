@@ -14,5 +14,13 @@
     "totalKanji": 42,
     "totalVocabulary": 110,
     "progressPercentage": 0
+  },
+  {
+    "level": "N5",
+    "courseCode": "jpd133",
+    "totalLessons": 4,
+    "totalKanji": 40,
+    "totalVocabulary": 102,
+    "progressPercentage": 0
   }
 ]

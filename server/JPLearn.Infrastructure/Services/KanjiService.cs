@@ -368,7 +368,8 @@ public class KanjiService : IKanjiService
     private static bool IsDefaultFreeLesson(KanjiLesson lesson)
     {
         return (string.Equals(lesson.PackageCode, "kanji_jpd113", StringComparison.OrdinalIgnoreCase) && lesson.LessonNumber == 1)
-            || (string.Equals(lesson.PackageCode, "kanji_jpd123", StringComparison.OrdinalIgnoreCase) && lesson.LessonNumber == 4);
+            || (string.Equals(lesson.PackageCode, "kanji_jpd123", StringComparison.OrdinalIgnoreCase) && lesson.LessonNumber == 4)
+            || (string.Equals(lesson.PackageCode, "kanji_jpd133", StringComparison.OrdinalIgnoreCase) && lesson.LessonNumber == 8);
     }
 
     private static string? ResolvePackageCode(KanjiItem item)

@@ -1,0 +1,54 @@
+[
+  {
+    "id": "66666666-1133-0000-0000-000000000108",
+    "courseCode": "jpd133",
+    "lessonNumber": 8,
+    "title": "JPD133 Bài 8",
+    "description": "Gia đình, bạn bè và quà tặng.",
+    "accessTier": "free",
+    "packageCode": "vocab_jpd133",
+    "isLocked": false,
+    "wordCount": 73,
+    "learnedCount": 0,
+    "practicedCount": 0
+  },
+  {
+    "id": "66666666-1133-0000-0000-000000000109",
+    "courseCode": "jpd133",
+    "lessonNumber": 9,
+    "title": "JPD133 Bài 9",
+    "description": "Sở thích, khả năng và cuối tuần.",
+    "accessTier": "premium",
+    "packageCode": "vocab_jpd133",
+    "isLocked": true,
+    "wordCount": 65,
+    "learnedCount": 0,
+    "practicedCount": 0
+  },
+  {
+    "id": "66666666-1133-0000-0000-000000000110",
+    "courseCode": "jpd133",
+    "lessonNumber": 10,
+    "title": "JPD133 Bài 10",
+    "description": "Chỉ đường, lưu ý và động vật trong vườn thú.",
+    "accessTier": "premium",
+    "packageCode": "vocab_jpd133",
+    "isLocked": true,
+    "wordCount": 50,
+    "learnedCount": 0,
+    "practicedCount": 0
+  },
+  {
+    "id": "66666666-1133-0000-0000-000000000111",
+    "courseCode": "jpd133",
+    "lessonNumber": 11,
+    "title": "JPD133 Bài 11",
+    "description": "Cuộc sống hiện tại, quá khứ và hội thoại bạn bè.",
+    "accessTier": "premium",
+    "packageCode": "vocab_jpd133",
+    "isLocked": true,
+    "wordCount": 32,
+    "learnedCount": 0,
+    "practicedCount": 0
+  }
+]

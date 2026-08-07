@@ -1,0 +1,70 @@
+[
+  {
+    "id": "77777777-1133-0003-0000-000001021001",
+    "patternId": "77777777-1133-0001-0000-000000010012",
+    "exerciseType": "ja_to_vi",
+    "prompt": "さむくなりました。",
+    "promptReading": "さむくなりました。",
+    "expectedAnswer": "Trời đã trở nên lạnh.",
+    "hint": "イA-くなります",
+    "explanation": "Không có trợ từ bắt buộc riêng ナA・N dùng になります, không dùng くなります. Không viết ×寒いになります.",
+    "orderIndex": 1
+  },
+  {
+    "id": "77777777-1133-0003-0000-000001031001",
+    "patternId": "77777777-1133-0001-0000-000000010012",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Trời đã trở nên lạnh.",
+    "expectedAnswer": "さむくなりました。",
+    "acceptableAnswers": [
+      "さむくなりました。"
+    ],
+    "hint": "寒い → 寒くなります / 暑い → 暑くなります / いい → よくなります",
+    "explanation": "Không có trợ từ bắt buộc riêng ナA・N dùng になります, không dùng くなります. Không viết ×寒いになります.",
+    "orderIndex": 2
+  },
+  {
+    "id": "77777777-1133-0003-0000-000001021002",
+    "patternId": "77777777-1133-0001-0000-000000010012",
+    "exerciseType": "ja_to_vi",
+    "prompt": "夜は涼しくなります。",
+    "promptReading": "よるはすずしくなります。",
+    "expectedAnswer": "Buổi tối trời trở nên mát.",
+    "hint": "イA-くなります",
+    "explanation": "Không có trợ từ bắt buộc riêng ナA・N dùng になります, không dùng くなります. Không viết ×寒いになります.",
+    "orderIndex": 3
+  },
+  {
+    "id": "77777777-1133-0003-0000-000001031002",
+    "patternId": "77777777-1133-0001-0000-000000010012",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Buổi tối trời trở nên mát.",
+    "expectedAnswer": "夜は涼しくなります。",
+    "acceptableAnswers": [
+      "よるはすずしくなります。"
+    ],
+    "hint": "寒い → 寒くなります / 暑い → 暑くなります / いい → よくなります",
+    "explanation": "Không có trợ từ bắt buộc riêng ナA・N dùng になります, không dùng くなります. Không viết ×寒いになります.",
+    "orderIndex": 4
+  },
+  {
+    "id": "77777777-1133-0003-0000-000001041002",
+    "patternId": "77777777-1133-0001-0000-000000010012",
+    "exerciseType": "arrange",
+    "prompt": "Buổi tối trời trở nên mát.",
+    "expectedAnswer": "夜 (よる)は涼しくなります (すずしくなります)",
+    "optionsJson": "[\"は\",\"夜 (よる)\",\"涼しくなります (すずしくなります)\"]",
+    "options": [
+      "は",
+      "夜 (よる)",
+      "涼しくなります (すずしくなります)"
+    ],
+    "correctOrderJson": "[\"夜 (よる)\",\"は\",\"涼しくなります (すずしくなります)\"]",
+    "correctOrder": [
+      "夜 (よる)",
+      "は",
+      "涼しくなります (すずしくなります)"
+    ],
+    "orderIndex": 5
+  }
+]

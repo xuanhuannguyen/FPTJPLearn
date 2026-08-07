@@ -1,0 +1,124 @@
+[
+  {
+    "id": "77777777-1133-0003-0000-000000820001",
+    "patternId": "77777777-1133-0001-0000-000000008011",
+    "exerciseType": "ja_to_vi",
+    "prompt": "パクさんはカルロスさんに花をもらいました。",
+    "promptReading": "パクさんはカルロスさんにはなをもらいました。",
+    "expectedAnswer": "Park đã nhận hoa từ Carlos.",
+    "hint": "N1（人）に N2（物）を もらいます",
+    "explanation": "に: nguồn/người cho trong mẫu của tài liệu; を: vật nhận あげます/くれます đặt góc nhìn ở người cho; もらいます đặt góc nhìn ở người nhận. Không đảo vai người cho/người nhận khi dịch.",
+    "orderIndex": 1
+  },
+  {
+    "id": "77777777-1133-0003-0000-000000830001",
+    "patternId": "77777777-1133-0001-0000-000000008011",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Park đã nhận hoa từ Carlos.",
+    "expectedAnswer": "パクさんはカルロスさんに花をもらいました。",
+    "acceptableAnswers": [
+      "パクさんはカルロスさんにはなをもらいました。"
+    ],
+    "hint": "もらいます / もらいました",
+    "explanation": "に: nguồn/người cho trong mẫu của tài liệu; を: vật nhận あげます/くれます đặt góc nhìn ở người cho; もらいます đặt góc nhìn ở người nhận. Không đảo vai người cho/người nhận khi dịch.",
+    "orderIndex": 2
+  },
+  {
+    "id": "77777777-1133-0003-0000-000000840001",
+    "patternId": "77777777-1133-0001-0000-000000008011",
+    "exerciseType": "arrange",
+    "prompt": "Park đã nhận hoa từ Carlos.",
+    "expectedAnswer": "パクさんはカルロスさんに花 (はな)をもらいました",
+    "optionsJson": "[\"に\",\"は\",\"も\",\"を\",\"パクさん\",\"花 (はな)\",\"らいました\",\"カルロスさん\"]",
+    "options": [
+      "に",
+      "は",
+      "も",
+      "を",
+      "パクさん",
+      "花 (はな)",
+      "らいました",
+      "カルロスさん"
+    ],
+    "correctOrderJson": "[\"パクさん\",\"は\",\"カルロスさん\",\"に\",\"花 (はな)\",\"を\",\"も\",\"らいました\"]",
+    "correctOrder": [
+      "パクさん",
+      "は",
+      "カルロスさん",
+      "に",
+      "花 (はな)",
+      "を",
+      "も",
+      "らいました"
+    ],
+    "orderIndex": 3
+  },
+  {
+    "id": "77777777-1133-0003-0000-000000820002",
+    "patternId": "77777777-1133-0001-0000-000000008011",
+    "exerciseType": "ja_to_vi",
+    "prompt": "私は母に時計をもらいました。",
+    "promptReading": "わたしはははにとけいをもらいました。",
+    "expectedAnswer": "Tôi đã nhận một chiếc đồng hồ từ mẹ.",
+    "hint": "N1（人）に N2（物）を もらいます",
+    "explanation": "に: nguồn/người cho trong mẫu của tài liệu; を: vật nhận あげます/くれます đặt góc nhìn ở người cho; もらいます đặt góc nhìn ở người nhận. Không đảo vai người cho/người nhận khi dịch.",
+    "orderIndex": 4
+  },
+  {
+    "id": "77777777-1133-0003-0000-000000830002",
+    "patternId": "77777777-1133-0001-0000-000000008011",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Tôi đã nhận một chiếc đồng hồ từ mẹ.",
+    "expectedAnswer": "私は母に時計をもらいました。",
+    "acceptableAnswers": [
+      "わたしはははにとけいをもらいました。"
+    ],
+    "hint": "もらいます / もらいました",
+    "explanation": "に: nguồn/người cho trong mẫu của tài liệu; を: vật nhận あげます/くれます đặt góc nhìn ở người cho; もらいます đặt góc nhìn ở người nhận. Không đảo vai người cho/người nhận khi dịch.",
+    "orderIndex": 5
+  },
+  {
+    "id": "77777777-1133-0003-0000-000000840002",
+    "patternId": "77777777-1133-0001-0000-000000008011",
+    "exerciseType": "arrange",
+    "prompt": "Tôi đã nhận một chiếc đồng hồ từ mẹ.",
+    "expectedAnswer": "私 (わたし)は母 (はは)に時計 (とけい)をもらいました",
+    "optionsJson": "[\"に\",\"は\",\"も\",\"を\",\"母 (はは)\",\"らいました\",\"私 (わたし)\",\"時計 (とけい)\"]",
+    "options": [
+      "に",
+      "は",
+      "も",
+      "を",
+      "母 (はは)",
+      "らいました",
+      "私 (わたし)",
+      "時計 (とけい)"
+    ],
+    "correctOrderJson": "[\"私 (わたし)\",\"は\",\"母 (はは)\",\"に\",\"時計 (とけい)\",\"を\",\"も\",\"らいました\"]",
+    "correctOrder": [
+      "私 (わたし)",
+      "は",
+      "母 (はは)",
+      "に",
+      "時計 (とけい)",
+      "を",
+      "も",
+      "らいました"
+    ],
+    "orderIndex": 6
+  },
+  {
+    "id": "77777777-1133-0003-0000-000000850001",
+    "patternId": "77777777-1133-0001-0000-000000008011",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Tôi đã nhận một chiếc đồng hồ từ mẹ.",
+    "expectedAnswer": "私は母に時計をもらいました。",
+    "acceptableAnswers": [],
+    "acceptableAnswersJson": "[]",
+    "hint": "",
+    "explanation": "",
+    "options": [],
+    "correctOrder": [],
+    "orderIndex": 1
+  }
+]

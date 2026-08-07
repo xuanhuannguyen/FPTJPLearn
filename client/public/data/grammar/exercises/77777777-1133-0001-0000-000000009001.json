@@ -1,0 +1,258 @@
+[
+  {
+    "id": "77777777-1133-0003-0000-000000910001",
+    "patternId": "77777777-1133-0001-0000-000000009001",
+    "exerciseType": "ja_to_vi",
+    "prompt": "私の趣味は映画を見ることです。",
+    "promptReading": "わたしのしゅみはえいがをみることです。",
+    "expectedAnswer": "Sở thích của tôi là xem phim.",
+    "hint": "V辞書形 + ことです",
+    "explanation": "は: chủ đề sở thích; を trong cụm động từ giữ nguyên nếu động từ cần tân ngữ Nができます là khả năng danh từ; Vことができます là khả năng hành động. × 映画を見ますことです; phải dùng 見ることです.",
+    "orderIndex": 1
+  },
+  {
+    "id": "77777777-1133-0003-0000-000000920001",
+    "patternId": "77777777-1133-0001-0000-000000009001",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Sở thích của tôi là xem phim.",
+    "expectedAnswer": "私の趣味は映画を見ることです。",
+    "acceptableAnswers": [
+      "わたしのしゅみはえいがをみることです。"
+    ],
+    "hint": "見ます → 見ること / 読みます → 読むこと / します → すること",
+    "explanation": "は: chủ đề sở thích; を trong cụm động từ giữ nguyên nếu động từ cần tân ngữ Nができます là khả năng danh từ; Vことができます là khả năng hành động. × 映画を見ますことです; phải dùng 見ることです.",
+    "orderIndex": 2
+  },
+  {
+    "id": "77777777-1133-0003-0000-000000930001",
+    "patternId": "77777777-1133-0001-0000-000000009001",
+    "exerciseType": "arrange",
+    "prompt": "Sở thích của tôi là xem phim.",
+    "expectedAnswer": "私 (わたし)の趣味 (しゅみ)は映画 (えいが)を見るこ (みるこ)とです",
+    "optionsJson": "[\"と\",\"の\",\"は\",\"を\",\"です\",\"私 (わたし)\",\"映画 (えいが)\",\"趣味 (しゅみ)\",\"見るこ (みるこ)\"]",
+    "options": [
+      "と",
+      "の",
+      "は",
+      "を",
+      "です",
+      "私 (わたし)",
+      "映画 (えいが)",
+      "趣味 (しゅみ)",
+      "見るこ (みるこ)"
+    ],
+    "correctOrderJson": "[\"私 (わたし)\",\"の\",\"趣味 (しゅみ)\",\"は\",\"映画 (えいが)\",\"を\",\"見るこ (みるこ)\",\"と\",\"です\"]",
+    "correctOrder": [
+      "私 (わたし)",
+      "の",
+      "趣味 (しゅみ)",
+      "は",
+      "映画 (えいが)",
+      "を",
+      "見るこ (みるこ)",
+      "と",
+      "です"
+    ],
+    "orderIndex": 3
+  },
+  {
+    "id": "77777777-1133-0003-0000-000000910002",
+    "patternId": "77777777-1133-0001-0000-000000009001",
+    "exerciseType": "ja_to_vi",
+    "prompt": "私の趣味は音楽を聞くことです。",
+    "promptReading": "わたしのしゅみはおんがくをきくことです。",
+    "expectedAnswer": "Sở thích của tôi là nghe nhạc.",
+    "hint": "V辞書形 + ことです",
+    "explanation": "は: chủ đề sở thích; を trong cụm động từ giữ nguyên nếu động từ cần tân ngữ Nができます là khả năng danh từ; Vことができます là khả năng hành động. × 映画を見ますことです; phải dùng 見ることです.",
+    "orderIndex": 4
+  },
+  {
+    "id": "77777777-1133-0003-0000-000000920002",
+    "patternId": "77777777-1133-0001-0000-000000009001",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Sở thích của tôi là nghe nhạc.",
+    "expectedAnswer": "私の趣味は音楽を聞くことです。",
+    "acceptableAnswers": [
+      "わたしのしゅみはおんがくをきくことです。"
+    ],
+    "hint": "見ます → 見ること / 読みます → 読むこと / します → すること",
+    "explanation": "は: chủ đề sở thích; を trong cụm động từ giữ nguyên nếu động từ cần tân ngữ Nができます là khả năng danh từ; Vことができます là khả năng hành động. × 映画を見ますことです; phải dùng 見ることです.",
+    "orderIndex": 5
+  },
+  {
+    "id": "77777777-1133-0003-0000-000000930002",
+    "patternId": "77777777-1133-0001-0000-000000009001",
+    "exerciseType": "arrange",
+    "prompt": "Sở thích của tôi là nghe nhạc.",
+    "expectedAnswer": "私 (わたし)の趣味 (しゅみ)は音楽 (おんがく)を聞くこ (きくこ)とです",
+    "optionsJson": "[\"と\",\"の\",\"は\",\"を\",\"です\",\"私 (わたし)\",\"聞くこ (きくこ)\",\"趣味 (しゅみ)\",\"音楽 (おんがく)\"]",
+    "options": [
+      "と",
+      "の",
+      "は",
+      "を",
+      "です",
+      "私 (わたし)",
+      "聞くこ (きくこ)",
+      "趣味 (しゅみ)",
+      "音楽 (おんがく)"
+    ],
+    "correctOrderJson": "[\"私 (わたし)\",\"の\",\"趣味 (しゅみ)\",\"は\",\"音楽 (おんがく)\",\"を\",\"聞くこ (きくこ)\",\"と\",\"です\"]",
+    "correctOrder": [
+      "私 (わたし)",
+      "の",
+      "趣味 (しゅみ)",
+      "は",
+      "音楽 (おんがく)",
+      "を",
+      "聞くこ (きくこ)",
+      "と",
+      "です"
+    ],
+    "orderIndex": 6
+  },
+  {
+    "id": "77777777-1133-0003-0000-000000940001",
+    "patternId": "77777777-1133-0001-0000-000000009001",
+    "exerciseType": "vi_to_ja",
+    "prompt": "私の趣味は映画を見る（　）です。",
+    "expectedAnswer": "こと",
+    "acceptableAnswers": [],
+    "acceptableAnswersJson": "[]",
+    "hint": "",
+    "explanation": "V辞書形 + ことです danh từ hóa động từ để nói sở thích.",
+    "options": [
+      "もの",
+      "こと",
+      "とき",
+      "ので"
+    ],
+    "optionsJson": "[\"もの\",\"こと\",\"とき\",\"ので\"]",
+    "correctOrder": [],
+    "orderIndex": 1
+  },
+  {
+    "id": "77777777-1133-0003-0000-000000940002",
+    "patternId": "77777777-1133-0001-0000-000000009001",
+    "exerciseType": "arrange",
+    "prompt": "ことです / 私の趣味は / 音楽を聞く",
+    "expectedAnswer": "私の趣味は音楽を聞くことです。",
+    "acceptableAnswers": [],
+    "acceptableAnswersJson": "[]",
+    "hint": "",
+    "explanation": "",
+    "options": [
+      "ことです",
+      "私の趣味は",
+      "音楽を聞く"
+    ],
+    "optionsJson": "[\"ことです\",\"私の趣味は\",\"音楽を聞く\"]",
+    "correctOrder": [
+      "私の趣味は",
+      "音楽を聞く",
+      "ことです"
+    ],
+    "correctOrderJson": "[\"私の趣味は\",\"音楽を聞く\",\"ことです\"]",
+    "orderIndex": 2
+  },
+  {
+    "id": "77777777-1133-0003-0000-000000940003",
+    "patternId": "77777777-1133-0001-0000-000000009001",
+    "exerciseType": "arrange",
+    "prompt": "映画を見ます / ご飯を食べて / 友達と",
+    "expectedAnswer": "友達とご飯を食べて、映画を見ます。",
+    "acceptableAnswers": [],
+    "acceptableAnswersJson": "[]",
+    "hint": "",
+    "explanation": "",
+    "options": [
+      "映画を見ます",
+      "ご飯を食べて",
+      "友達と"
+    ],
+    "optionsJson": "[\"映画を見ます\",\"ご飯を食べて\",\"友達と\"]",
+    "correctOrder": [
+      "友達と",
+      "ご飯を食べて",
+      "映画を見ます"
+    ],
+    "correctOrderJson": "[\"友達と\",\"ご飯を食べて\",\"映画を見ます\"]",
+    "orderIndex": 3
+  },
+  {
+    "id": "77777777-1133-0003-0000-000000940004",
+    "patternId": "77777777-1133-0001-0000-000000009001",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Sở thích của tôi là xem phim.",
+    "expectedAnswer": "私の趣味は映画を見ることです。",
+    "acceptableAnswers": [],
+    "acceptableAnswersJson": "[]",
+    "hint": "",
+    "explanation": "",
+    "options": [],
+    "correctOrder": [],
+    "orderIndex": 4
+  },
+  {
+    "id": "77777777-1133-0003-0000-000000940005",
+    "patternId": "77777777-1133-0001-0000-000000009001",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Gần đây tôi hoàn toàn không chơi thể thao.",
+    "expectedAnswer": "最近、全然スポーツをしません。",
+    "acceptableAnswers": [],
+    "acceptableAnswersJson": "[]",
+    "hint": "",
+    "explanation": "",
+    "options": [],
+    "correctOrder": [],
+    "orderIndex": 5
+  },
+  {
+    "id": "77777777-1133-0003-0000-000000940006",
+    "patternId": "77777777-1133-0001-0000-000000009001",
+    "exerciseType": "vi_to_ja",
+    "prompt": "私は料理＿＿作ることができます。",
+    "expectedAnswer": "を",
+    "acceptableAnswers": [],
+    "acceptableAnswersJson": "[]",
+    "hint": "",
+    "explanation": "料理を作る: 料理 là tân ngữ của 作る.",
+    "options": [
+      "が",
+      "に",
+      "を",
+      "で"
+    ],
+    "optionsJson": "[\"が\",\"に\",\"を\",\"で\"]",
+    "correctOrder": [],
+    "orderIndex": 6
+  },
+  {
+    "id": "77777777-1133-0003-0000-000000940007",
+    "patternId": "77777777-1133-0001-0000-000000009001",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Chuyển 見ます sang thể từ điển để dùng trước ことです.",
+    "expectedAnswer": "見る",
+    "acceptableAnswers": [],
+    "acceptableAnswersJson": "[]",
+    "hint": "",
+    "explanation": "見ます → 見る.",
+    "options": [],
+    "correctOrder": [],
+    "orderIndex": 7
+  },
+  {
+    "id": "77777777-1133-0003-0000-000000940008",
+    "patternId": "77777777-1133-0001-0000-000000009001",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Chuyển します sang thể て.",
+    "expectedAnswer": "して",
+    "acceptableAnswers": [],
+    "acceptableAnswersJson": "[]",
+    "hint": "",
+    "explanation": "します → して.",
+    "options": [],
+    "correctOrder": [],
+    "orderIndex": 8
+  }
+]

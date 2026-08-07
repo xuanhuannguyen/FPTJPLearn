@@ -1,0 +1,78 @@
+[
+  {
+    "id": "77777777-1133-0003-0000-000001122001",
+    "patternId": "77777777-1133-0001-0000-000000011013",
+    "exerciseType": "ja_to_vi",
+    "prompt": "それ見せて。",
+    "promptReading": "それみせて。",
+    "expectedAnswer": "Cho mình xem cái đó.",
+    "hint": "Vて形。",
+    "explanation": "を: tân ngữ nếu không lược Vてください là yêu cầu lịch sự; Vて là thân mật. Không dùng với người cần kính trọng nếu không có quan hệ cho phép.",
+    "orderIndex": 1
+  },
+  {
+    "id": "77777777-1133-0003-0000-000001132001",
+    "patternId": "77777777-1133-0001-0000-000000011013",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Cho mình xem cái đó.",
+    "expectedAnswer": "それ見せて。",
+    "acceptableAnswers": [
+      "それみせて。"
+    ],
+    "hint": "見せます → 見せて; 貸します → 貸して",
+    "explanation": "を: tân ngữ nếu không lược Vてください là yêu cầu lịch sự; Vて là thân mật. Không dùng với người cần kính trọng nếu không có quan hệ cho phép.",
+    "orderIndex": 2
+  },
+  {
+    "id": "77777777-1133-0003-0000-000001122002",
+    "patternId": "77777777-1133-0001-0000-000000011013",
+    "exerciseType": "ja_to_vi",
+    "prompt": "消しゴム貸して。",
+    "promptReading": "けしゴムかして。",
+    "expectedAnswer": "Cho mình mượn cục tẩy.",
+    "hint": "Vて形。",
+    "explanation": "を: tân ngữ nếu không lược Vてください là yêu cầu lịch sự; Vて là thân mật. Không dùng với người cần kính trọng nếu không có quan hệ cho phép.",
+    "orderIndex": 3
+  },
+  {
+    "id": "77777777-1133-0003-0000-000001132002",
+    "patternId": "77777777-1133-0001-0000-000000011013",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Cho mình mượn cục tẩy.",
+    "expectedAnswer": "消しゴム貸して。",
+    "acceptableAnswers": [
+      "けしゴムかして。"
+    ],
+    "hint": "見せます → 見せて; 貸します → 貸して",
+    "explanation": "を: tân ngữ nếu không lược Vてください là yêu cầu lịch sự; Vて là thân mật. Không dùng với người cần kính trọng nếu không có quan hệ cho phép.",
+    "orderIndex": 4
+  },
+  {
+    "id": "77777777-1133-0003-0000-000001152001",
+    "patternId": "77777777-1133-0001-0000-000000011013",
+    "exerciseType": "vi_to_ja",
+    "prompt": "(Nói với bạn) Cho mình xem cái đó.",
+    "expectedAnswer": "それ見せて。",
+    "acceptableAnswers": [],
+    "acceptableAnswersJson": "[]",
+    "hint": "",
+    "explanation": "",
+    "options": [],
+    "correctOrder": [],
+    "orderIndex": 1
+  },
+  {
+    "id": "77777777-1133-0003-0000-000001152002",
+    "patternId": "77777777-1133-0001-0000-000000011013",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Chuyển 見せます sang lời nhờ vả thân mật.",
+    "expectedAnswer": "見せて。",
+    "acceptableAnswers": [],
+    "acceptableAnswersJson": "[]",
+    "hint": "",
+    "explanation": "Dùng thể て làm lời yêu cầu thân mật.",
+    "options": [],
+    "correctOrder": [],
+    "orderIndex": 2
+  }
+]

@@ -1,0 +1,180 @@
+[
+  {
+    "id": "77777777-1133-0003-0000-000001118001",
+    "patternId": "77777777-1133-0001-0000-000000011009",
+    "exerciseType": "ja_to_vi",
+    "prompt": "イタリアへ行ったとき、このぼうしを買いました。",
+    "promptReading": "イタリアへいったとき、このぼうしをかいました。",
+    "expectedAnswer": "Khi đi Ý, tôi đã mua chiếc mũ này.",
+    "hint": "Vた形 + とき、＿＿＿＿",
+    "explanation": "Trợ từ tùy câu V辞書形＋とき thường diễn tả hành động chính xảy ra trước khi hành động V hoàn tất. Không dùng Vましたとき trong cấu trúc dạng thường của bài.",
+    "orderIndex": 1
+  },
+  {
+    "id": "77777777-1133-0003-0000-000001128001",
+    "patternId": "77777777-1133-0001-0000-000000011009",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Khi đi Ý, tôi đã mua chiếc mũ này.",
+    "expectedAnswer": "イタリアへ行ったとき、このぼうしを買いました。",
+    "acceptableAnswers": [
+      "イタリアへいったとき、このぼうしをかいました。"
+    ],
+    "hint": "行きます → 行ったとき; 来ます → 来たとき",
+    "explanation": "Trợ từ tùy câu V辞書形＋とき thường diễn tả hành động chính xảy ra trước khi hành động V hoàn tất. Không dùng Vましたとき trong cấu trúc dạng thường của bài.",
+    "orderIndex": 2
+  },
+  {
+    "id": "77777777-1133-0003-0000-000001138001",
+    "patternId": "77777777-1133-0001-0000-000000011009",
+    "exerciseType": "arrange",
+    "prompt": "Khi đi Ý, tôi đã mua chiếc mũ này.",
+    "expectedAnswer": "イタリアへ行った (いった)とき、このぼうしを買いました (かいました)",
+    "optionsJson": "[\"と\",\"の\",\"へ\",\"を\",\"き、こ\",\"ぼうし\",\"イタリア\",\"行った (いった)\",\"買いました (かいました)\"]",
+    "options": [
+      "と",
+      "の",
+      "へ",
+      "を",
+      "き、こ",
+      "ぼうし",
+      "イタリア",
+      "行った (いった)",
+      "買いました (かいました)"
+    ],
+    "correctOrderJson": "[\"イタリア\",\"へ\",\"行った (いった)\",\"と\",\"き、こ\",\"の\",\"ぼうし\",\"を\",\"買いました (かいました)\"]",
+    "correctOrder": [
+      "イタリア",
+      "へ",
+      "行った (いった)",
+      "と",
+      "き、こ",
+      "の",
+      "ぼうし",
+      "を",
+      "買いました (かいました)"
+    ],
+    "orderIndex": 3
+  },
+  {
+    "id": "77777777-1133-0003-0000-000001118002",
+    "patternId": "77777777-1133-0001-0000-000000011009",
+    "exerciseType": "ja_to_vi",
+    "prompt": "駅に着いたとき、友達に電話しました。",
+    "promptReading": "えきについたとき、ともだちにでんわしました。",
+    "expectedAnswer": "Khi đã đến ga, tôi gọi cho bạn.",
+    "hint": "Vた形 + とき、＿＿＿＿",
+    "explanation": "Trợ từ tùy câu V辞書形＋とき thường diễn tả hành động chính xảy ra trước khi hành động V hoàn tất. Không dùng Vましたとき trong cấu trúc dạng thường của bài.",
+    "orderIndex": 4
+  },
+  {
+    "id": "77777777-1133-0003-0000-000001128002",
+    "patternId": "77777777-1133-0001-0000-000000011009",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Khi đã đến ga, tôi gọi cho bạn.",
+    "expectedAnswer": "駅に着いたとき、友達に電話しました。",
+    "acceptableAnswers": [
+      "えきについたとき、ともだちにでんわしました。"
+    ],
+    "hint": "行きます → 行ったとき; 来ます → 来たとき",
+    "explanation": "Trợ từ tùy câu V辞書形＋とき thường diễn tả hành động chính xảy ra trước khi hành động V hoàn tất. Không dùng Vましたとき trong cấu trúc dạng thường của bài.",
+    "orderIndex": 5
+  },
+  {
+    "id": "77777777-1133-0003-0000-000001138002",
+    "patternId": "77777777-1133-0001-0000-000000011009",
+    "exerciseType": "arrange",
+    "prompt": "Khi đã đến ga, tôi gọi cho bạn.",
+    "expectedAnswer": "駅 (えき)に着いた (ついた)とき、友達 (き、ともだち)に電話しました (でんわしました)",
+    "optionsJson": "[\"と\",\"に\",\"に\",\"駅 (えき)\",\"着いた (ついた)\",\"き、友達 (き、ともだち)\",\"電話しました (でんわしました)\"]",
+    "options": [
+      "と",
+      "に",
+      "に",
+      "駅 (えき)",
+      "着いた (ついた)",
+      "き、友達 (き、ともだち)",
+      "電話しました (でんわしました)"
+    ],
+    "correctOrderJson": "[\"駅 (えき)\",\"に\",\"着いた (ついた)\",\"と\",\"き、友達 (き、ともだち)\",\"に\",\"電話しました (でんわしました)\"]",
+    "correctOrder": [
+      "駅 (えき)",
+      "に",
+      "着いた (ついた)",
+      "と",
+      "き、友達 (き、ともだち)",
+      "に",
+      "電話しました (でんわしました)"
+    ],
+    "orderIndex": 6
+  },
+  {
+    "id": "77777777-1133-0003-0000-000001148001",
+    "patternId": "77777777-1133-0001-0000-000000011009",
+    "exerciseType": "arrange",
+    "prompt": "このぼうしを買いました / イタリアへ行ったとき",
+    "expectedAnswer": "イタリアへ行ったとき、このぼうしを買いました。",
+    "acceptableAnswers": [],
+    "acceptableAnswersJson": "[]",
+    "hint": "",
+    "explanation": "",
+    "options": [
+      "このぼうしを買いました",
+      "イタリアへ行ったとき"
+    ],
+    "optionsJson": "[\"このぼうしを買いました\",\"イタリアへ行ったとき\"]",
+    "correctOrder": [
+      "イタリアへ行ったとき",
+      "このぼうしを買いました"
+    ],
+    "correctOrderJson": "[\"イタリアへ行ったとき\",\"このぼうしを買いました\"]",
+    "orderIndex": 1
+  },
+  {
+    "id": "77777777-1133-0003-0000-000001148002",
+    "patternId": "77777777-1133-0001-0000-000000011009",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Khi đã đến ga, tôi gọi cho bạn.",
+    "expectedAnswer": "駅に着いたとき、友達に電話しました。",
+    "acceptableAnswers": [],
+    "acceptableAnswersJson": "[]",
+    "hint": "",
+    "explanation": "",
+    "options": [],
+    "correctOrder": [],
+    "orderIndex": 2
+  },
+  {
+    "id": "77777777-1133-0003-0000-000001148003",
+    "patternId": "77777777-1133-0001-0000-000000011009",
+    "exerciseType": "vi_to_ja",
+    "prompt": "イタリア＿＿行ったとき、このぼうしを買いました。",
+    "expectedAnswer": "へ",
+    "acceptableAnswers": [],
+    "acceptableAnswersJson": "[]",
+    "hint": "",
+    "explanation": "Đi đến một nơi có thể dùng へ: イタリアへ行きます.",
+    "options": [
+      "を",
+      "へ",
+      "が",
+      "で"
+    ],
+    "optionsJson": "[\"を\",\"へ\",\"が\",\"で\"]",
+    "correctOrder": [],
+    "orderIndex": 3
+  },
+  {
+    "id": "77777777-1133-0003-0000-000001148004",
+    "patternId": "77777777-1133-0001-0000-000000011009",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Chuyển 行きます sang Vた形 + とき.",
+    "expectedAnswer": "行ったとき",
+    "acceptableAnswers": [],
+    "acceptableAnswersJson": "[]",
+    "hint": "",
+    "explanation": "行く → 行った + とき.",
+    "options": [],
+    "correctOrder": [],
+    "orderIndex": 4
+  }
+]

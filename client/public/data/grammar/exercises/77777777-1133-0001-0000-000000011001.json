@@ -1,0 +1,292 @@
+[
+  {
+    "id": "77777777-1133-0003-0000-000001110001",
+    "patternId": "77777777-1133-0001-0000-000000011001",
+    "exerciseType": "ja_to_vi",
+    "prompt": "犬は好きですが、猫は好きじゃありません。",
+    "promptReading": "いぬはすきですが、ねこはすきじゃありません。",
+    "expectedAnswer": "Tôi thích chó nhưng không thích mèo.",
+    "hint": "～は ～が、～は＿＿＿＿",
+    "explanation": "は: hai chủ đề đối chiếu; が: liên kết tương phản でも nối hai câu riêng; ～が nối trực tiếp hai mệnh đề. Không nhầm が nối tương phản với が đánh dấu chủ ngữ.",
+    "orderIndex": 1
+  },
+  {
+    "id": "77777777-1133-0003-0000-000001120001",
+    "patternId": "77777777-1133-0001-0000-000000011001",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Tôi thích chó nhưng không thích mèo.",
+    "expectedAnswer": "犬は好きですが、猫は好きじゃありません。",
+    "acceptableAnswers": [
+      "いぬはすきですが、ねこはすきじゃありません。"
+    ],
+    "hint": "です → ですが; 好きです → 好きですが",
+    "explanation": "は: hai chủ đề đối chiếu; が: liên kết tương phản でも nối hai câu riêng; ～が nối trực tiếp hai mệnh đề. Không nhầm が nối tương phản với が đánh dấu chủ ngữ.",
+    "orderIndex": 2
+  },
+  {
+    "id": "77777777-1133-0003-0000-000001130001",
+    "patternId": "77777777-1133-0001-0000-000000011001",
+    "exerciseType": "arrange",
+    "prompt": "Tôi thích chó nhưng không thích mèo.",
+    "expectedAnswer": "犬 (いぬ)は好き (すき)ですが、猫 (が、ねこ)は好き (すき)じゃありません",
+    "optionsJson": "[\"が\",\"は\",\"は\",\"です\",\"犬 (いぬ)\",\"好き (すき)\",\"好き (すき)\",\"じゃありません\",\"、猫 (が、ねこ)\"]",
+    "options": [
+      "が",
+      "は",
+      "は",
+      "です",
+      "犬 (いぬ)",
+      "好き (すき)",
+      "好き (すき)",
+      "じゃありません",
+      "、猫 (が、ねこ)"
+    ],
+    "correctOrderJson": "[\"犬 (いぬ)\",\"は\",\"好き (すき)\",\"です\",\"が\",\"、猫 (が、ねこ)\",\"は\",\"好き (すき)\",\"じゃありません\"]",
+    "correctOrder": [
+      "犬 (いぬ)",
+      "は",
+      "好き (すき)",
+      "です",
+      "が",
+      "、猫 (が、ねこ)",
+      "は",
+      "好き (すき)",
+      "じゃありません"
+    ],
+    "orderIndex": 3
+  },
+  {
+    "id": "77777777-1133-0003-0000-000001110002",
+    "patternId": "77777777-1133-0001-0000-000000011001",
+    "exerciseType": "ja_to_vi",
+    "prompt": "日本語は好きですが、漢字はあまり好きじゃありません。",
+    "promptReading": "にほんごはすきですが、かんじはあまりすきじゃありません。",
+    "expectedAnswer": "Tôi thích tiếng Nhật nhưng không thích kanji lắm.",
+    "hint": "～は ～が、～は＿＿＿＿",
+    "explanation": "は: hai chủ đề đối chiếu; が: liên kết tương phản でも nối hai câu riêng; ～が nối trực tiếp hai mệnh đề. Không nhầm が nối tương phản với が đánh dấu chủ ngữ.",
+    "orderIndex": 4
+  },
+  {
+    "id": "77777777-1133-0003-0000-000001120002",
+    "patternId": "77777777-1133-0001-0000-000000011001",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Tôi thích tiếng Nhật nhưng không thích kanji lắm.",
+    "expectedAnswer": "日本語は好きですが、漢字はあまり好きじゃありません。",
+    "acceptableAnswers": [
+      "にほんごはすきですが、かんじはあまりすきじゃありません。"
+    ],
+    "hint": "です → ですが; 好きです → 好きですが",
+    "explanation": "は: hai chủ đề đối chiếu; が: liên kết tương phản でも nối hai câu riêng; ～が nối trực tiếp hai mệnh đề. Không nhầm が nối tương phản với が đánh dấu chủ ngữ.",
+    "orderIndex": 5
+  },
+  {
+    "id": "77777777-1133-0003-0000-000001130002",
+    "patternId": "77777777-1133-0001-0000-000000011001",
+    "exerciseType": "arrange",
+    "prompt": "Tôi thích tiếng Nhật nhưng không thích kanji lắm.",
+    "expectedAnswer": "日本語 (にほんご)は好き (すき)ですが、漢字 (が、かんじ)はあまり好き (あまりすき)じゃありません",
+    "optionsJson": "[\"が\",\"は\",\"は\",\"です\",\"好き (すき)\",\"じゃありません\",\"、漢字 (が、かんじ)\",\"あまり好き (あまりすき)\",\"日本語 (にほんご)\"]",
+    "options": [
+      "が",
+      "は",
+      "は",
+      "です",
+      "好き (すき)",
+      "じゃありません",
+      "、漢字 (が、かんじ)",
+      "あまり好き (あまりすき)",
+      "日本語 (にほんご)"
+    ],
+    "correctOrderJson": "[\"日本語 (にほんご)\",\"は\",\"好き (すき)\",\"です\",\"が\",\"、漢字 (が、かんじ)\",\"は\",\"あまり好き (あまりすき)\",\"じゃありません\"]",
+    "correctOrder": [
+      "日本語 (にほんご)",
+      "は",
+      "好き (すき)",
+      "です",
+      "が",
+      "、漢字 (が、かんじ)",
+      "は",
+      "あまり好き (あまりすき)",
+      "じゃありません"
+    ],
+    "orderIndex": 6
+  },
+  {
+    "id": "77777777-1133-0003-0000-000001140001",
+    "patternId": "77777777-1133-0001-0000-000000011001",
+    "exerciseType": "vi_to_ja",
+    "prompt": "犬は好きです（　）、猫は好きじゃありません。",
+    "expectedAnswer": "が",
+    "acceptableAnswers": [],
+    "acceptableAnswersJson": "[]",
+    "hint": "",
+    "explanation": "～は～が、～は… dùng が để nối hai nội dung đối chiếu.",
+    "options": [
+      "から",
+      "が",
+      "ので",
+      "と"
+    ],
+    "optionsJson": "[\"から\",\"が\",\"ので\",\"と\"]",
+    "correctOrder": [],
+    "orderIndex": 1
+  },
+  {
+    "id": "77777777-1133-0003-0000-000001140002",
+    "patternId": "77777777-1133-0001-0000-000000011001",
+    "exerciseType": "arrange",
+    "prompt": "猫は / 犬は好きですが / 好きじゃありません",
+    "expectedAnswer": "犬は好きですが、猫は好きじゃありません。",
+    "acceptableAnswers": [],
+    "acceptableAnswersJson": "[]",
+    "hint": "",
+    "explanation": "",
+    "options": [
+      "猫は",
+      "犬は好きですが",
+      "好きじゃありません"
+    ],
+    "optionsJson": "[\"猫は\",\"犬は好きですが\",\"好きじゃありません\"]",
+    "correctOrder": [
+      "犬は好きですが",
+      "猫は",
+      "好きじゃありません"
+    ],
+    "correctOrderJson": "[\"犬は好きですが\",\"猫は\",\"好きじゃありません\"]",
+    "orderIndex": 2
+  },
+  {
+    "id": "77777777-1133-0003-0000-000001140003",
+    "patternId": "77777777-1133-0001-0000-000000011001",
+    "exerciseType": "arrange",
+    "prompt": "音楽を聞いたり / 本を読んだり / します",
+    "expectedAnswer": "本を読んだり、音楽を聞いたりします。",
+    "acceptableAnswers": [],
+    "acceptableAnswersJson": "[]",
+    "hint": "",
+    "explanation": "",
+    "options": [
+      "音楽を聞いたり",
+      "本を読んだり",
+      "します"
+    ],
+    "optionsJson": "[\"音楽を聞いたり\",\"本を読んだり\",\"します\"]",
+    "correctOrder": [
+      "本を読んだり",
+      "音楽を聞いたり",
+      "します"
+    ],
+    "correctOrderJson": "[\"本を読んだり\",\"音楽を聞いたり\",\"します\"]",
+    "orderIndex": 3
+  },
+  {
+    "id": "77777777-1133-0003-0000-000001140004",
+    "patternId": "77777777-1133-0001-0000-000000011001",
+    "exerciseType": "arrange",
+    "prompt": "家族に電話します / さびしいとき",
+    "expectedAnswer": "さびしいとき、家族に電話します。",
+    "acceptableAnswers": [],
+    "acceptableAnswersJson": "[]",
+    "hint": "",
+    "explanation": "",
+    "options": [
+      "家族に電話します",
+      "さびしいとき"
+    ],
+    "optionsJson": "[\"家族に電話します\",\"さびしいとき\"]",
+    "correctOrder": [
+      "さびしいとき",
+      "家族に電話します"
+    ],
+    "correctOrderJson": "[\"さびしいとき\",\"家族に電話します\"]",
+    "orderIndex": 4
+  },
+  {
+    "id": "77777777-1133-0003-0000-000001140005",
+    "patternId": "77777777-1133-0001-0000-000000011001",
+    "exerciseType": "arrange",
+    "prompt": "ギターを始めました / 中学生のとき",
+    "expectedAnswer": "中学生のとき、ギターを始めました。",
+    "acceptableAnswers": [],
+    "acceptableAnswersJson": "[]",
+    "hint": "",
+    "explanation": "",
+    "options": [
+      "ギターを始めました",
+      "中学生のとき"
+    ],
+    "optionsJson": "[\"ギターを始めました\",\"中学生のとき\"]",
+    "correctOrder": [
+      "中学生のとき",
+      "ギターを始めました"
+    ],
+    "correctOrderJson": "[\"中学生のとき\",\"ギターを始めました\"]",
+    "orderIndex": 5
+  },
+  {
+    "id": "77777777-1133-0003-0000-000001140006",
+    "patternId": "77777777-1133-0001-0000-000000011001",
+    "exerciseType": "arrange",
+    "prompt": "ご飯 / 日曜日 / 食べない",
+    "expectedAnswer": "日曜日、ご飯食べない？",
+    "acceptableAnswers": [],
+    "acceptableAnswersJson": "[]",
+    "hint": "",
+    "explanation": "",
+    "options": [
+      "ご飯",
+      "日曜日",
+      "食べない"
+    ],
+    "optionsJson": "[\"ご飯\",\"日曜日\",\"食べない\"]",
+    "correctOrder": [
+      "日曜日",
+      "ご飯",
+      "食べない"
+    ],
+    "correctOrderJson": "[\"日曜日\",\"ご飯\",\"食べない\"]",
+    "orderIndex": 6
+  },
+  {
+    "id": "77777777-1133-0003-0000-000001140007",
+    "patternId": "77777777-1133-0001-0000-000000011001",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Tôi thích chó nhưng không thích mèo.",
+    "expectedAnswer": "犬は好きですが、猫は好きじゃありません。",
+    "acceptableAnswers": [],
+    "acceptableAnswersJson": "[]",
+    "hint": "",
+    "explanation": "",
+    "options": [],
+    "correctOrder": [],
+    "orderIndex": 7
+  },
+  {
+    "id": "77777777-1133-0003-0000-000001140008",
+    "patternId": "77777777-1133-0001-0000-000000011001",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Khi cô đơn, tôi gọi điện cho gia đình.",
+    "expectedAnswer": "さびしいとき、家族に電話します。",
+    "acceptableAnswers": [],
+    "acceptableAnswersJson": "[]",
+    "hint": "",
+    "explanation": "",
+    "options": [],
+    "correctOrder": [],
+    "orderIndex": 8
+  },
+  {
+    "id": "77777777-1133-0003-0000-000001140009",
+    "patternId": "77777777-1133-0001-0000-000000011001",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Khi còn là học sinh trung học cơ sở, tôi bắt đầu chơi guitar.",
+    "expectedAnswer": "中学生のとき、ギターを始めました。",
+    "acceptableAnswers": [],
+    "acceptableAnswersJson": "[]",
+    "hint": "",
+    "explanation": "",
+    "options": [],
+    "correctOrder": [],
+    "orderIndex": 9
+  }
+]

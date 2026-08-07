@@ -1,0 +1,108 @@
+[
+  {
+    "id": "77777777-1133-0003-0000-000000818001",
+    "patternId": "77777777-1133-0001-0000-000000008009",
+    "exerciseType": "ja_to_vi",
+    "prompt": "妹は15歳で、中学生です。",
+    "promptReading": "いもうとはじゅうごさいで、ちゅうがくせいです。",
+    "expectedAnswer": "Em gái tôi 15 tuổi và là học sinh trung học cơ sở.",
+    "hint": "N で、＿＿＿＿",
+    "explanation": "で: dạng liên kết của です sau danh từ ナAで cũng nối bằng で; cần phân biệt theo loại từ. Không dùng と để nối hai vị ngữ kiểu này.",
+    "orderIndex": 1
+  },
+  {
+    "id": "77777777-1133-0003-0000-000000828001",
+    "patternId": "77777777-1133-0001-0000-000000008009",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Em gái tôi 15 tuổi và là học sinh trung học cơ sở.",
+    "expectedAnswer": "妹は15歳で、中学生です。",
+    "acceptableAnswers": [
+      "いもうとはじゅうごさいで、ちゅうがくせいです。"
+    ],
+    "hint": "学生です → 学生で; 15歳です → 15歳で",
+    "explanation": "で: dạng liên kết của です sau danh từ ナAで cũng nối bằng で; cần phân biệt theo loại từ. Không dùng と để nối hai vị ngữ kiểu này.",
+    "orderIndex": 2
+  },
+  {
+    "id": "77777777-1133-0003-0000-000000838001",
+    "patternId": "77777777-1133-0001-0000-000000008009",
+    "exerciseType": "arrange",
+    "prompt": "Em gái tôi 15 tuổi và là học sinh trung học cơ sở.",
+    "expectedAnswer": "妹 (いもうと)は15歳で、中学生 (じゅうごさいで、ちゅうがくせい)です",
+    "optionsJson": "[\"は\",\"です\",\"妹 (いもうと)\",\"15歳で、中学生 (じゅうごさいで、ちゅうがくせい)\"]",
+    "options": [
+      "は",
+      "です",
+      "妹 (いもうと)",
+      "15歳で、中学生 (じゅうごさいで、ちゅうがくせい)"
+    ],
+    "correctOrderJson": "[\"妹 (いもうと)\",\"は\",\"15歳で、中学生 (じゅうごさいで、ちゅうがくせい)\",\"です\"]",
+    "correctOrder": [
+      "妹 (いもうと)",
+      "は",
+      "15歳で、中学生 (じゅうごさいで、ちゅうがくせい)",
+      "です"
+    ],
+    "orderIndex": 3
+  },
+  {
+    "id": "77777777-1133-0003-0000-000000818002",
+    "patternId": "77777777-1133-0001-0000-000000008009",
+    "exerciseType": "ja_to_vi",
+    "prompt": "兄は会社員で、25歳です。",
+    "promptReading": "あにはかいしゃいんで、にじゅうごさいです。",
+    "expectedAnswer": "Anh tôi là nhân viên công ty và 25 tuổi.",
+    "hint": "N で、＿＿＿＿",
+    "explanation": "で: dạng liên kết của です sau danh từ ナAで cũng nối bằng で; cần phân biệt theo loại từ. Không dùng と để nối hai vị ngữ kiểu này.",
+    "orderIndex": 4
+  },
+  {
+    "id": "77777777-1133-0003-0000-000000828002",
+    "patternId": "77777777-1133-0001-0000-000000008009",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Anh tôi là nhân viên công ty và 25 tuổi.",
+    "expectedAnswer": "兄は会社員で、25歳です。",
+    "acceptableAnswers": [
+      "あにはかいしゃいんで、にじゅうごさいです。"
+    ],
+    "hint": "学生です → 学生で; 15歳です → 15歳で",
+    "explanation": "で: dạng liên kết của です sau danh từ ナAで cũng nối bằng で; cần phân biệt theo loại từ. Không dùng と để nối hai vị ngữ kiểu này.",
+    "orderIndex": 5
+  },
+  {
+    "id": "77777777-1133-0003-0000-000000838002",
+    "patternId": "77777777-1133-0001-0000-000000008009",
+    "exerciseType": "arrange",
+    "prompt": "Anh tôi là nhân viên công ty và 25 tuổi.",
+    "expectedAnswer": "兄 (あに)は会社員で、25歳 (かいしゃいんで、にじゅうごさい)です",
+    "optionsJson": "[\"は\",\"です\",\"兄 (あに)\",\"会社員で、25歳 (かいしゃいんで、にじゅうごさい)\"]",
+    "options": [
+      "は",
+      "です",
+      "兄 (あに)",
+      "会社員で、25歳 (かいしゃいんで、にじゅうごさい)"
+    ],
+    "correctOrderJson": "[\"兄 (あに)\",\"は\",\"会社員で、25歳 (かいしゃいんで、にじゅうごさい)\",\"です\"]",
+    "correctOrder": [
+      "兄 (あに)",
+      "は",
+      "会社員で、25歳 (かいしゃいんで、にじゅうごさい)",
+      "です"
+    ],
+    "orderIndex": 6
+  },
+  {
+    "id": "77777777-1133-0003-0000-000000848001",
+    "patternId": "77777777-1133-0001-0000-000000008009",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Chuyển 15歳です sang dạng nối.",
+    "expectedAnswer": "15歳で",
+    "acceptableAnswers": [],
+    "acceptableAnswersJson": "[]",
+    "hint": "",
+    "explanation": "Danh từ + です khi nối đổi thành Nで.",
+    "options": [],
+    "correctOrder": [],
+    "orderIndex": 1
+  }
+]

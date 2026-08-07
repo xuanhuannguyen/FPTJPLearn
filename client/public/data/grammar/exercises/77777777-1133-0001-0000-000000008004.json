@@ -1,0 +1,174 @@
+[
+  {
+    "id": "77777777-1133-0003-0000-000000813001",
+    "patternId": "77777777-1133-0001-0000-000000008004",
+    "exerciseType": "ja_to_vi",
+    "prompt": "私は妹が二人います。",
+    "promptReading": "わたしはいもうとがふたりいます。",
+    "expectedAnswer": "Tôi có hai em gái.",
+    "hint": "N（人）が ～人います",
+    "explanation": "が: đánh dấu người tồn tại; います: dùng cho người/động vật sống ～人で diễn tả nhóm cùng làm; Nが～人います diễn tả sự tồn tại/sở hữu theo nghĩa 'có'. Không dùng あります cho người.",
+    "orderIndex": 1
+  },
+  {
+    "id": "77777777-1133-0003-0000-000000823001",
+    "patternId": "77777777-1133-0001-0000-000000008004",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Tôi có hai em gái.",
+    "expectedAnswer": "私は妹が二人います。",
+    "acceptableAnswers": [
+      "わたしはいもうとがふたりいます。"
+    ],
+    "hint": "一人います / 二人います / 三人います ...",
+    "explanation": "が: đánh dấu người tồn tại; います: dùng cho người/động vật sống ～人で diễn tả nhóm cùng làm; Nが～人います diễn tả sự tồn tại/sở hữu theo nghĩa 'có'. Không dùng あります cho người.",
+    "orderIndex": 2
+  },
+  {
+    "id": "77777777-1133-0003-0000-000000833001",
+    "patternId": "77777777-1133-0001-0000-000000008004",
+    "exerciseType": "arrange",
+    "prompt": "Tôi có hai em gái.",
+    "expectedAnswer": "私 (わたし)は妹 (いもうと)が二人います (ふたりいます)",
+    "optionsJson": "[\"が\",\"は\",\"私 (わたし)\",\"妹 (いもうと)\",\"二人います (ふたりいます)\"]",
+    "options": [
+      "が",
+      "は",
+      "私 (わたし)",
+      "妹 (いもうと)",
+      "二人います (ふたりいます)"
+    ],
+    "correctOrderJson": "[\"私 (わたし)\",\"は\",\"妹 (いもうと)\",\"が\",\"二人います (ふたりいます)\"]",
+    "correctOrder": [
+      "私 (わたし)",
+      "は",
+      "妹 (いもうと)",
+      "が",
+      "二人います (ふたりいます)"
+    ],
+    "orderIndex": 3
+  },
+  {
+    "id": "77777777-1133-0003-0000-000000813002",
+    "patternId": "77777777-1133-0001-0000-000000008004",
+    "exerciseType": "ja_to_vi",
+    "prompt": "兄が一人います。",
+    "promptReading": "あにがひとりいます。",
+    "expectedAnswer": "Tôi có một anh trai.",
+    "hint": "N（人）が ～人います",
+    "explanation": "が: đánh dấu người tồn tại; います: dùng cho người/động vật sống ～人で diễn tả nhóm cùng làm; Nが～人います diễn tả sự tồn tại/sở hữu theo nghĩa 'có'. Không dùng あります cho người.",
+    "orderIndex": 4
+  },
+  {
+    "id": "77777777-1133-0003-0000-000000823002",
+    "patternId": "77777777-1133-0001-0000-000000008004",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Tôi có một anh trai.",
+    "expectedAnswer": "兄が一人います。",
+    "acceptableAnswers": [
+      "あにがひとりいます。"
+    ],
+    "hint": "一人います / 二人います / 三人います ...",
+    "explanation": "が: đánh dấu người tồn tại; います: dùng cho người/động vật sống ～人で diễn tả nhóm cùng làm; Nが～人います diễn tả sự tồn tại/sở hữu theo nghĩa 'có'. Không dùng あります cho người.",
+    "orderIndex": 5
+  },
+  {
+    "id": "77777777-1133-0003-0000-000000833002",
+    "patternId": "77777777-1133-0001-0000-000000008004",
+    "exerciseType": "arrange",
+    "prompt": "Tôi có một anh trai.",
+    "expectedAnswer": "兄 (あに)が一人います (ひとりいます)",
+    "optionsJson": "[\"が\",\"兄 (あに)\",\"一人います (ひとりいます)\"]",
+    "options": [
+      "が",
+      "兄 (あに)",
+      "一人います (ひとりいます)"
+    ],
+    "correctOrderJson": "[\"兄 (あに)\",\"が\",\"一人います (ひとりいます)\"]",
+    "correctOrder": [
+      "兄 (あに)",
+      "が",
+      "一人います (ひとりいます)"
+    ],
+    "orderIndex": 6
+  },
+  {
+    "id": "77777777-1133-0003-0000-000000843001",
+    "patternId": "77777777-1133-0001-0000-000000008004",
+    "exerciseType": "vi_to_ja",
+    "prompt": "私は妹が（　）います。",
+    "expectedAnswer": "二人",
+    "acceptableAnswers": [],
+    "acceptableAnswersJson": "[]",
+    "hint": "",
+    "explanation": "Người được đếm bằng 人; hai người đọc là 二人（ふたり）.",
+    "options": [
+      "二人",
+      "二つ",
+      "二匹",
+      "二本"
+    ],
+    "optionsJson": "[\"二人\",\"二つ\",\"二匹\",\"二本\"]",
+    "correctOrder": [],
+    "orderIndex": 1
+  },
+  {
+    "id": "77777777-1133-0003-0000-000000843002",
+    "patternId": "77777777-1133-0001-0000-000000008004",
+    "exerciseType": "arrange",
+    "prompt": "二人 / 私は / 妹が / います",
+    "expectedAnswer": "私は妹が二人います。",
+    "acceptableAnswers": [],
+    "acceptableAnswersJson": "[]",
+    "hint": "",
+    "explanation": "",
+    "options": [
+      "二人",
+      "私は",
+      "妹が",
+      "います"
+    ],
+    "optionsJson": "[\"二人\",\"私は\",\"妹が\",\"います\"]",
+    "correctOrder": [
+      "私は",
+      "妹が",
+      "二人",
+      "います"
+    ],
+    "correctOrderJson": "[\"私は\",\"妹が\",\"二人\",\"います\"]",
+    "orderIndex": 2
+  },
+  {
+    "id": "77777777-1133-0003-0000-000000843003",
+    "patternId": "77777777-1133-0001-0000-000000008004",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Tôi có một anh trai.",
+    "expectedAnswer": "兄が一人います。",
+    "acceptableAnswers": [],
+    "acceptableAnswersJson": "[]",
+    "hint": "",
+    "explanation": "",
+    "options": [],
+    "correctOrder": [],
+    "orderIndex": 3
+  },
+  {
+    "id": "77777777-1133-0003-0000-000000843004",
+    "patternId": "77777777-1133-0001-0000-000000008004",
+    "exerciseType": "vi_to_ja",
+    "prompt": "私は妹＿＿二人います。",
+    "expectedAnswer": "が",
+    "acceptableAnswers": [],
+    "acceptableAnswersJson": "[]",
+    "hint": "",
+    "explanation": "Đối tượng tồn tại trong Nが～人います dùng が.",
+    "options": [
+      "に",
+      "を",
+      "が",
+      "で"
+    ],
+    "optionsJson": "[\"に\",\"を\",\"が\",\"で\"]",
+    "correctOrder": [],
+    "orderIndex": 4
+  }
+]

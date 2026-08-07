@@ -1,0 +1,126 @@
+[
+  {
+    "id": "77777777-1133-0003-0000-000001119001",
+    "patternId": "77777777-1133-0001-0000-000000011010",
+    "exerciseType": "ja_to_vi",
+    "prompt": "日本へ来るとき、父に時計をもらいました。",
+    "promptReading": "にほんへくるとき、ちちにとけいをもらいました。",
+    "expectedAnswer": "Trước khi/ lúc sang Nhật, tôi đã nhận đồng hồ từ bố.",
+    "hint": "V辞書形 + とき、＿＿＿＿",
+    "explanation": "Trợ từ tùy câu Vた形＋とき: hành động V đã hoàn thành trước mệnh đề chính theo cách giải thích của tài liệu. Không dùng Vますとき trong mẫu bài.",
+    "orderIndex": 1
+  },
+  {
+    "id": "77777777-1133-0003-0000-000001129001",
+    "patternId": "77777777-1133-0001-0000-000000011010",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Trước khi/ lúc sang Nhật, tôi đã nhận đồng hồ từ bố.",
+    "expectedAnswer": "日本へ来るとき、父に時計をもらいました。",
+    "acceptableAnswers": [
+      "にほんへくるとき、ちちにとけいをもらいました。"
+    ],
+    "hint": "来ます → 来るとき / 行きます → 行くとき",
+    "explanation": "Trợ từ tùy câu Vた形＋とき: hành động V đã hoàn thành trước mệnh đề chính theo cách giải thích của tài liệu. Không dùng Vますとき trong mẫu bài.",
+    "orderIndex": 2
+  },
+  {
+    "id": "77777777-1133-0003-0000-000001139001",
+    "patternId": "77777777-1133-0001-0000-000000011010",
+    "exerciseType": "arrange",
+    "prompt": "Trước khi/ lúc sang Nhật, tôi đã nhận đồng hồ từ bố.",
+    "expectedAnswer": "日本 (にほん)へ来る (くる)とき、父 (き、ちち)に時計 (とけい)をもらいました",
+    "optionsJson": "[\"と\",\"に\",\"へ\",\"も\",\"を\",\"らいました\",\"来る (くる)\",\"日本 (にほん)\",\"時計 (とけい)\",\"き、父 (き、ちち)\"]",
+    "options": [
+      "と",
+      "に",
+      "へ",
+      "も",
+      "を",
+      "らいました",
+      "来る (くる)",
+      "日本 (にほん)",
+      "時計 (とけい)",
+      "き、父 (き、ちち)"
+    ],
+    "correctOrderJson": "[\"日本 (にほん)\",\"へ\",\"来る (くる)\",\"と\",\"き、父 (き、ちち)\",\"に\",\"時計 (とけい)\",\"を\",\"も\",\"らいました\"]",
+    "correctOrder": [
+      "日本 (にほん)",
+      "へ",
+      "来る (くる)",
+      "と",
+      "き、父 (き、ちち)",
+      "に",
+      "時計 (とけい)",
+      "を",
+      "も",
+      "らいました"
+    ],
+    "orderIndex": 3
+  },
+  {
+    "id": "77777777-1133-0003-0000-000001119002",
+    "patternId": "77777777-1133-0001-0000-000000011010",
+    "exerciseType": "ja_to_vi",
+    "prompt": "旅行に行くとき、カメラを買いました。",
+    "promptReading": "りょこうにいくとき、カメラをかいました。",
+    "expectedAnswer": "Trước khi đi du lịch, tôi đã mua máy ảnh.",
+    "hint": "V辞書形 + とき、＿＿＿＿",
+    "explanation": "Trợ từ tùy câu Vた形＋とき: hành động V đã hoàn thành trước mệnh đề chính theo cách giải thích của tài liệu. Không dùng Vますとき trong mẫu bài.",
+    "orderIndex": 4
+  },
+  {
+    "id": "77777777-1133-0003-0000-000001129002",
+    "patternId": "77777777-1133-0001-0000-000000011010",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Trước khi đi du lịch, tôi đã mua máy ảnh.",
+    "expectedAnswer": "旅行に行くとき、カメラを買いました。",
+    "acceptableAnswers": [
+      "りょこうにいくとき、カメラをかいました。"
+    ],
+    "hint": "来ます → 来るとき / 行きます → 行くとき",
+    "explanation": "Trợ từ tùy câu Vた形＋とき: hành động V đã hoàn thành trước mệnh đề chính theo cách giải thích của tài liệu. Không dùng Vますとき trong mẫu bài.",
+    "orderIndex": 5
+  },
+  {
+    "id": "77777777-1133-0003-0000-000001139002",
+    "patternId": "77777777-1133-0001-0000-000000011010",
+    "exerciseType": "arrange",
+    "prompt": "Trước khi đi du lịch, tôi đã mua máy ảnh.",
+    "expectedAnswer": "旅行 (りょこう)に行く (いく)とき、カメラを買いました (かいました)",
+    "optionsJson": "[\"と\",\"に\",\"を\",\"き、カメラ\",\"行く (いく)\",\"旅行 (りょこう)\",\"買いました (かいました)\"]",
+    "options": [
+      "と",
+      "に",
+      "を",
+      "き、カメラ",
+      "行く (いく)",
+      "旅行 (りょこう)",
+      "買いました (かいました)"
+    ],
+    "correctOrderJson": "[\"旅行 (りょこう)\",\"に\",\"行く (いく)\",\"と\",\"き、カメラ\",\"を\",\"買いました (かいました)\"]",
+    "correctOrder": [
+      "旅行 (りょこう)",
+      "に",
+      "行く (いく)",
+      "と",
+      "き、カメラ",
+      "を",
+      "買いました (かいました)"
+    ],
+    "orderIndex": 6
+  },
+  {
+    "id": "77777777-1133-0003-0000-000001149001",
+    "patternId": "77777777-1133-0001-0000-000000011010",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Chuyển 来ます sang V辞書形 + とき.",
+    "expectedAnswer": "来るとき",
+    "acceptableAnswers": [],
+    "acceptableAnswersJson": "[]",
+    "hint": "",
+    "explanation": "来ます → 来る.",
+    "options": [],
+    "correctOrder": [],
+    "orderIndex": 1
+  }
+]

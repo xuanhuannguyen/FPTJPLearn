@@ -1,0 +1,94 @@
+[
+  {
+    "id": "77777777-1133-0003-0000-000000812001",
+    "patternId": "77777777-1133-0001-0000-000000008003",
+    "exerciseType": "ja_to_vi",
+    "prompt": "私はルームメイトと3人で住んでいます。",
+    "promptReading": "わたしはルームメイトとさんにんですんでいます。",
+    "expectedAnswer": "Tôi sống cùng bạn cùng phòng, tổng cộng ba người.",
+    "hint": "～人で",
+    "explanation": "と: cùng với; で: biểu thị số lượng người tạo thành nhóm N（人）が～人います dùng để nói 'có bao nhiêu người'; ～人で nhấn mạnh quy mô nhóm cùng làm việc gì. Không hiểu ～人で là 'có ... người'.",
+    "orderIndex": 1
+  },
+  {
+    "id": "77777777-1133-0003-0000-000000822001",
+    "patternId": "77777777-1133-0001-0000-000000008003",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Tôi sống cùng bạn cùng phòng, tổng cộng ba người.",
+    "expectedAnswer": "私はルームメイトと3人で住んでいます。",
+    "acceptableAnswers": [
+      "わたしはルームメイトとさんにんですんでいます。"
+    ],
+    "hint": "Số + 人（にん）+ で",
+    "explanation": "と: cùng với; で: biểu thị số lượng người tạo thành nhóm N（人）が～人います dùng để nói 'có bao nhiêu người'; ～人で nhấn mạnh quy mô nhóm cùng làm việc gì. Không hiểu ～人で là 'có ... người'.",
+    "orderIndex": 2
+  },
+  {
+    "id": "77777777-1133-0003-0000-000000832001",
+    "patternId": "77777777-1133-0001-0000-000000008003",
+    "exerciseType": "arrange",
+    "prompt": "Tôi sống cùng bạn cùng phòng, tổng cộng ba người.",
+    "expectedAnswer": "私 (わたし)はルームメイトと3人で住んでいます (さんにんですんでいます)",
+    "optionsJson": "[\"と\",\"は\",\"私 (わたし)\",\"ルームメイト\",\"3人で住んでいます (さんにんですんでいます)\"]",
+    "options": [
+      "と",
+      "は",
+      "私 (わたし)",
+      "ルームメイト",
+      "3人で住んでいます (さんにんですんでいます)"
+    ],
+    "correctOrderJson": "[\"私 (わたし)\",\"は\",\"ルームメイト\",\"と\",\"3人で住んでいます (さんにんですんでいます)\"]",
+    "correctOrder": [
+      "私 (わたし)",
+      "は",
+      "ルームメイト",
+      "と",
+      "3人で住んでいます (さんにんですんでいます)"
+    ],
+    "orderIndex": 3
+  },
+  {
+    "id": "77777777-1133-0003-0000-000000812002",
+    "patternId": "77777777-1133-0001-0000-000000008003",
+    "exerciseType": "ja_to_vi",
+    "prompt": "家族と4人で住んでいます。",
+    "promptReading": "かぞくとよにんですんでいます。",
+    "expectedAnswer": "Tôi sống cùng gia đình, tổng cộng bốn người.",
+    "hint": "～人で",
+    "explanation": "と: cùng với; で: biểu thị số lượng người tạo thành nhóm N（人）が～人います dùng để nói 'có bao nhiêu người'; ～人で nhấn mạnh quy mô nhóm cùng làm việc gì. Không hiểu ～人で là 'có ... người'.",
+    "orderIndex": 4
+  },
+  {
+    "id": "77777777-1133-0003-0000-000000822002",
+    "patternId": "77777777-1133-0001-0000-000000008003",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Tôi sống cùng gia đình, tổng cộng bốn người.",
+    "expectedAnswer": "家族と4人で住んでいます。",
+    "acceptableAnswers": [
+      "かぞくとよにんですんでいます。"
+    ],
+    "hint": "Số + 人（にん）+ で",
+    "explanation": "と: cùng với; で: biểu thị số lượng người tạo thành nhóm N（人）が～人います dùng để nói 'có bao nhiêu người'; ～人で nhấn mạnh quy mô nhóm cùng làm việc gì. Không hiểu ～人で là 'có ... người'.",
+    "orderIndex": 5
+  },
+  {
+    "id": "77777777-1133-0003-0000-000000832002",
+    "patternId": "77777777-1133-0001-0000-000000008003",
+    "exerciseType": "arrange",
+    "prompt": "Tôi sống cùng gia đình, tổng cộng bốn người.",
+    "expectedAnswer": "家族 (かぞく)と4人で住んでいます (よにんですんでいます)",
+    "optionsJson": "[\"と\",\"家族 (かぞく)\",\"4人で住んでいます (よにんですんでいます)\"]",
+    "options": [
+      "と",
+      "家族 (かぞく)",
+      "4人で住んでいます (よにんですんでいます)"
+    ],
+    "correctOrderJson": "[\"家族 (かぞく)\",\"と\",\"4人で住んでいます (よにんですんでいます)\"]",
+    "correctOrder": [
+      "家族 (かぞく)",
+      "と",
+      "4人で住んでいます (よにんですんでいます)"
+    ],
+    "orderIndex": 6
+  }
+]

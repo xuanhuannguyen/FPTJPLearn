@@ -61,7 +61,7 @@ export const VocabularyLessonPage = () => {
       try {
         setIsLoading(true);
         setMemoryError('');
-        const data = await staticVocabularyApi.getLessonById(lessonId);
+        const data = await staticVocabularyApi.getLessonById(lessonId, courseCode);
         const statusResults = await Promise.allSettled(
           data.items.map(async (item) => {
             const status = await staticVocabularyApi.getMemoryStatus(item.id);
@@ -136,7 +136,7 @@ export const VocabularyLessonPage = () => {
       setAnswerState(null);
       setCorrectCount(0);
       setTypingAnswers([]);
-      const data = await staticVocabularyApi.getPracticeCards(lessonId, mode);
+      const data = await staticVocabularyApi.getPracticeCards(lessonId, mode, courseCode);
       let cards = data.cards;
       if (mode === 'typing') {
         cards = [...cards];

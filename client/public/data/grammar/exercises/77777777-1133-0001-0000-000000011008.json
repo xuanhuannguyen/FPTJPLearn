@@ -1,0 +1,136 @@
+[
+  {
+    "id": "77777777-1133-0003-0000-000001117001",
+    "patternId": "77777777-1133-0001-0000-000000011008",
+    "exerciseType": "ja_to_vi",
+    "prompt": "中学生のとき、ギターをはじめました。",
+    "promptReading": "ちゅうがくせいのとき、ギターをはじめました。",
+    "expectedAnswer": "Khi còn là học sinh trung học cơ sở, tôi bắt đầu chơi guitar.",
+    "hint": "N のとき、＿＿＿＿",
+    "explanation": "の: nối danh từ với とき ナAなとき; イAとき; Nのとき. Không viết ×中学生なとき.",
+    "orderIndex": 1
+  },
+  {
+    "id": "77777777-1133-0003-0000-000001127001",
+    "patternId": "77777777-1133-0001-0000-000000011008",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Khi còn là học sinh trung học cơ sở, tôi bắt đầu chơi guitar.",
+    "expectedAnswer": "中学生のとき、ギターをはじめました。",
+    "acceptableAnswers": [
+      "ちゅうがくせいのとき、ギターをはじめました。"
+    ],
+    "hint": "中学生 + のとき / 子ども + のとき",
+    "explanation": "の: nối danh từ với とき ナAなとき; イAとき; Nのとき. Không viết ×中学生なとき.",
+    "orderIndex": 2
+  },
+  {
+    "id": "77777777-1133-0003-0000-000001137001",
+    "patternId": "77777777-1133-0001-0000-000000011008",
+    "exerciseType": "arrange",
+    "prompt": "Khi còn là học sinh trung học cơ sở, tôi bắt đầu chơi guitar.",
+    "expectedAnswer": "中学生 (ちゅうがくせい)のとき、ギターをはじめました",
+    "optionsJson": "[\"と\",\"の\",\"は\",\"を\",\"じめました\",\"き、ギター\",\"中学生 (ちゅうがくせい)\"]",
+    "options": [
+      "と",
+      "の",
+      "は",
+      "を",
+      "じめました",
+      "き、ギター",
+      "中学生 (ちゅうがくせい)"
+    ],
+    "correctOrderJson": "[\"中学生 (ちゅうがくせい)\",\"の\",\"と\",\"き、ギター\",\"を\",\"は\",\"じめました\"]",
+    "correctOrder": [
+      "中学生 (ちゅうがくせい)",
+      "の",
+      "と",
+      "き、ギター",
+      "を",
+      "は",
+      "じめました"
+    ],
+    "orderIndex": 3
+  },
+  {
+    "id": "77777777-1133-0003-0000-000001117002",
+    "patternId": "77777777-1133-0001-0000-000000011008",
+    "exerciseType": "ja_to_vi",
+    "prompt": "子どものとき、よく海で遊びました。",
+    "promptReading": "こどものとき、よくうみであそびました。",
+    "expectedAnswer": "Khi còn nhỏ, tôi thường chơi ở biển.",
+    "hint": "N のとき、＿＿＿＿",
+    "explanation": "の: nối danh từ với とき ナAなとき; イAとき; Nのとき. Không viết ×中学生なとき.",
+    "orderIndex": 4
+  },
+  {
+    "id": "77777777-1133-0003-0000-000001127002",
+    "patternId": "77777777-1133-0001-0000-000000011008",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Khi còn nhỏ, tôi thường chơi ở biển.",
+    "expectedAnswer": "子どものとき、よく海で遊びました。",
+    "acceptableAnswers": [
+      "こどものとき、よくうみであそびました。"
+    ],
+    "hint": "中学生 + のとき / 子ども + のとき",
+    "explanation": "の: nối danh từ với とき ナAなとき; イAとき; Nのとき. Không viết ×中学生なとき.",
+    "orderIndex": 5
+  },
+  {
+    "id": "77777777-1133-0003-0000-000001137002",
+    "patternId": "77777777-1133-0001-0000-000000011008",
+    "exerciseType": "arrange",
+    "prompt": "Khi còn nhỏ, tôi thường chơi ở biển.",
+    "expectedAnswer": "子ど (こど)ものとき、よく海で遊びました (のとき、よくうみであそびました)",
+    "optionsJson": "[\"と\",\"の\",\"も\",\"子ど (こど)\",\"き、よく海で遊びました (のとき、よくうみであそびました)\"]",
+    "options": [
+      "と",
+      "の",
+      "も",
+      "子ど (こど)",
+      "き、よく海で遊びました (のとき、よくうみであそびました)"
+    ],
+    "correctOrderJson": "[\"子ど (こど)\",\"も\",\"の\",\"と\",\"き、よく海で遊びました (のとき、よくうみであそびました)\"]",
+    "correctOrder": [
+      "子ど (こど)",
+      "も",
+      "の",
+      "と",
+      "き、よく海で遊びました (のとき、よくうみであそびました)"
+    ],
+    "orderIndex": 6
+  },
+  {
+    "id": "77777777-1133-0003-0000-000001147001",
+    "patternId": "77777777-1133-0001-0000-000000011008",
+    "exerciseType": "vi_to_ja",
+    "prompt": "中学生（　）、ギターを始めました。",
+    "expectedAnswer": "のとき",
+    "acceptableAnswers": [],
+    "acceptableAnswersJson": "[]",
+    "hint": "",
+    "explanation": "Danh từ đứng trước とき dùng Nのとき.",
+    "options": [
+      "なとき",
+      "とき",
+      "のとき",
+      "でとき"
+    ],
+    "optionsJson": "[\"なとき\",\"とき\",\"のとき\",\"でとき\"]",
+    "correctOrder": [],
+    "orderIndex": 1
+  },
+  {
+    "id": "77777777-1133-0003-0000-000001147002",
+    "patternId": "77777777-1133-0001-0000-000000011008",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Chuyển 中学生 thành cấu trúc đứng trước とき.",
+    "expectedAnswer": "中学生のとき",
+    "acceptableAnswers": [],
+    "acceptableAnswersJson": "[]",
+    "hint": "",
+    "explanation": "N + のとき.",
+    "options": [],
+    "correctOrder": [],
+    "orderIndex": 2
+  }
+]

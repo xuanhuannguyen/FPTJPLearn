@@ -1,0 +1,2217 @@
+{
+  "lesson": {
+    "id": "77777777-1133-0000-0000-000000000108",
+    "level": "N5",
+    "courseCode": "jpd133",
+    "lessonNumber": 8,
+    "title": "JPD133 Bài 8",
+    "description": "JPD133 Bài 8 – ngữ pháp và bài tập.",
+    "patternCount": 12,
+    "accessTier": "free",
+    "packageCode": "jpd133",
+    "isLocked": false,
+    "inStudyCount": 0,
+    "masteredCount": 0,
+    "dueCount": 0
+  },
+  "patterns": [
+    {
+      "id": "77777777-1133-0001-0000-000000008001",
+      "lessonId": "77777777-1133-0000-0000-000000000108",
+      "level": "N5",
+      "courseCode": "jpd133",
+      "pattern": "Vて形 + います",
+      "title": "Trạng thái cư trú với Vて形 + います",
+      "meaning": "đang sống / đang ở",
+      "structure": "N（場所）に + 住んでいます",
+      "accessTier": "free",
+      "packageCode": "jpd133",
+      "isLocked": false,
+      "isInStudy": false,
+      "progress": null,
+      "usageScope": "Dùng với động từ 住みます để diễn tả trạng thái cư trú hiện tại. Đây là kết quả/trạng thái kéo dài, không phải hành động 'đang chuyển nhà'.",
+      "formation": "住みます → 住んでいます",
+      "notes": "に: đánh dấu nơi cư trú Vています cũng có thể diễn tả hành động đang tiếp diễn; với 住む thường hiểu là trạng thái cư trú. Không dùng で cho nơi cư trú trong mẫu 住んでいます.",
+      "examples": [
+        {
+          "id": "77777777-1133-0002-0000-000000800001",
+          "japanese": "私はよこはまに住んでいます。",
+          "reading": "わたしはよこはまにすんでいます。",
+          "meaning": "Tôi đang sống ở Yokohama.",
+          "orderIndex": 1
+        },
+        {
+          "id": "77777777-1133-0002-0000-000000800002",
+          "japanese": "兄は東京に住んでいます。",
+          "reading": "あにはとうきょうにすんでいます。",
+          "meaning": "Anh trai tôi đang sống ở Tokyo.",
+          "orderIndex": 2
+        }
+      ],
+      "exercises": [
+        {
+          "id": "77777777-1133-0003-0000-000000810001",
+          "patternId": "77777777-1133-0001-0000-000000008001",
+          "exerciseType": "ja_to_vi",
+          "prompt": "私はよこはまに住んでいます。",
+          "promptReading": "わたしはよこはまにすんでいます。",
+          "expectedAnswer": "Tôi đang sống ở Yokohama.",
+          "hint": "Vて形 + います",
+          "explanation": "に: đánh dấu nơi cư trú Vています cũng có thể diễn tả hành động đang tiếp diễn; với 住む thường hiểu là trạng thái cư trú. Không dùng で cho nơi cư trú trong mẫu 住んでいます.",
+          "orderIndex": 1
+        },
+        {
+          "id": "77777777-1133-0003-0000-000000820001",
+          "patternId": "77777777-1133-0001-0000-000000008001",
+          "exerciseType": "vi_to_ja",
+          "prompt": "Tôi đang sống ở Yokohama.",
+          "expectedAnswer": "私はよこはまに住んでいます。",
+          "acceptableAnswers": [
+            "わたしはよこはまにすんでいます。"
+          ],
+          "hint": "住みます → 住んでいます",
+          "explanation": "に: đánh dấu nơi cư trú Vています cũng có thể diễn tả hành động đang tiếp diễn; với 住む thường hiểu là trạng thái cư trú. Không dùng で cho nơi cư trú trong mẫu 住んでいます.",
+          "orderIndex": 2
+        },
+        {
+          "id": "77777777-1133-0003-0000-000000830001",
+          "patternId": "77777777-1133-0001-0000-000000008001",
+          "exerciseType": "arrange",
+          "prompt": "Tôi đang sống ở Yokohama.",
+          "expectedAnswer": "私 (わたし)はよこはまに住んでいます (すんでいます)",
+          "optionsJson": "[\"に\",\"は\",\"は\",\"ま\",\"よこ\",\"私 (わたし)\",\"住んでいます (すんでいます)\"]",
+          "options": [
+            "に",
+            "は",
+            "は",
+            "ま",
+            "よこ",
+            "私 (わたし)",
+            "住んでいます (すんでいます)"
+          ],
+          "correctOrderJson": "[\"私 (わたし)\",\"は\",\"よこ\",\"は\",\"ま\",\"に\",\"住んでいます (すんでいます)\"]",
+          "correctOrder": [
+            "私 (わたし)",
+            "は",
+            "よこ",
+            "は",
+            "ま",
+            "に",
+            "住んでいます (すんでいます)"
+          ],
+          "orderIndex": 3
+        },
+        {
+          "id": "77777777-1133-0003-0000-000000810002",
+          "patternId": "77777777-1133-0001-0000-000000008001",
+          "exerciseType": "ja_to_vi",
+          "prompt": "兄は東京に住んでいます。",
+          "promptReading": "あにはとうきょうにすんでいます。",
+          "expectedAnswer": "Anh trai tôi đang sống ở Tokyo.",
+          "hint": "Vて形 + います",
+          "explanation": "に: đánh dấu nơi cư trú Vています cũng có thể diễn tả hành động đang tiếp diễn; với 住む thường hiểu là trạng thái cư trú. Không dùng で cho nơi cư trú trong mẫu 住んでいます.",
+          "orderIndex": 4
+        },
+        {
+          "id": "77777777-1133-0003-0000-000000820002",
+          "patternId": "77777777-1133-0001-0000-000000008001",
+          "exerciseType": "vi_to_ja",
+          "prompt": "Anh trai tôi đang sống ở Tokyo.",
+          "expectedAnswer": "兄は東京に住んでいます。",
+          "acceptableAnswers": [
+            "あにはとうきょうにすんでいます。"
+          ],
+          "hint": "住みます → 住んでいます",
+          "explanation": "に: đánh dấu nơi cư trú Vています cũng có thể diễn tả hành động đang tiếp diễn; với 住む thường hiểu là trạng thái cư trú. Không dùng で cho nơi cư trú trong mẫu 住んでいます.",
+          "orderIndex": 5
+        },
+        {
+          "id": "77777777-1133-0003-0000-000000830002",
+          "patternId": "77777777-1133-0001-0000-000000008001",
+          "exerciseType": "arrange",
+          "prompt": "Anh trai tôi đang sống ở Tokyo.",
+          "expectedAnswer": "兄 (あに)は東京 (とうきょう)に住んでいます (すんでいます)",
+          "optionsJson": "[\"に\",\"は\",\"兄 (あに)\",\"東京 (とうきょう)\",\"住んでいます (すんでいます)\"]",
+          "options": [
+            "に",
+            "は",
+            "兄 (あに)",
+            "東京 (とうきょう)",
+            "住んでいます (すんでいます)"
+          ],
+          "correctOrderJson": "[\"兄 (あに)\",\"は\",\"東京 (とうきょう)\",\"に\",\"住んでいます (すんでいます)\"]",
+          "correctOrder": [
+            "兄 (あに)",
+            "は",
+            "東京 (とうきょう)",
+            "に",
+            "住んでいます (すんでいます)"
+          ],
+          "orderIndex": 6
+        },
+        {
+          "id": "77777777-1133-0003-0000-000000840001",
+          "patternId": "77777777-1133-0001-0000-000000008001",
+          "exerciseType": "vi_to_ja",
+          "prompt": "私はハノイ（　）住んでいます。",
+          "expectedAnswer": "に",
+          "acceptableAnswers": [],
+          "acceptableAnswersJson": "[]",
+          "hint": "",
+          "explanation": "Với 住んでいます, nơi cư trú dùng trợ từ に: ハノイに住んでいます.",
+          "options": [
+            "を",
+            "に",
+            "で",
+            "が"
+          ],
+          "optionsJson": "[\"を\",\"に\",\"で\",\"が\"]",
+          "correctOrder": [],
+          "orderIndex": 1
+        },
+        {
+          "id": "77777777-1133-0003-0000-000000840002",
+          "patternId": "77777777-1133-0001-0000-000000008001",
+          "exerciseType": "vi_to_ja",
+          "prompt": "ナタポンさんはまじめ（　）、しんせつです。",
+          "expectedAnswer": "で",
+          "acceptableAnswers": [],
+          "acceptableAnswersJson": "[]",
+          "hint": "",
+          "explanation": "Tính từ な nối với tính chất sau bằng で: まじめで、しんせつです.",
+          "options": [
+            "くて",
+            "な",
+            "で",
+            "に"
+          ],
+          "optionsJson": "[\"くて\",\"な\",\"で\",\"に\"]",
+          "correctOrder": [],
+          "orderIndex": 2
+        },
+        {
+          "id": "77777777-1133-0003-0000-000000840003",
+          "patternId": "77777777-1133-0001-0000-000000008001",
+          "exerciseType": "vi_to_ja",
+          "prompt": "私は友達（　）本をあげました。",
+          "expectedAnswer": "に",
+          "acceptableAnswers": [],
+          "acceptableAnswersJson": "[]",
+          "hint": "",
+          "explanation": "Trong N1にN2をあげます, に đánh dấu người nhận.",
+          "options": [
+            "が",
+            "に",
+            "で",
+            "と"
+          ],
+          "optionsJson": "[\"が\",\"に\",\"で\",\"と\"]",
+          "correctOrder": [],
+          "orderIndex": 3
+        },
+        {
+          "id": "77777777-1133-0003-0000-000000840004",
+          "patternId": "77777777-1133-0001-0000-000000008001",
+          "exerciseType": "vi_to_ja",
+          "prompt": "私は母（　）時計をもらいました。",
+          "expectedAnswer": "に",
+          "acceptableAnswers": [],
+          "acceptableAnswersJson": "[]",
+          "hint": "",
+          "explanation": "Trong mẫu của bài, người cho trong もらいます dùng に.",
+          "options": [
+            "を",
+            "で",
+            "に",
+            "が"
+          ],
+          "optionsJson": "[\"を\",\"で\",\"に\",\"が\"]",
+          "correctOrder": [],
+          "orderIndex": 4
+        },
+        {
+          "id": "77777777-1133-0003-0000-000000840005",
+          "patternId": "77777777-1133-0001-0000-000000008001",
+          "exerciseType": "arrange",
+          "prompt": "住んでいます / 私は / 東京に",
+          "expectedAnswer": "私は東京に住んでいます。",
+          "acceptableAnswers": [],
+          "acceptableAnswersJson": "[]",
+          "hint": "",
+          "explanation": "",
+          "options": [
+            "住んでいます",
+            "私は",
+            "東京に"
+          ],
+          "optionsJson": "[\"住んでいます\",\"私は\",\"東京に\"]",
+          "correctOrder": [
+            "私は",
+            "東京に",
+            "住んでいます"
+          ],
+          "correctOrderJson": "[\"私は\",\"東京に\",\"住んでいます\"]",
+          "orderIndex": 5
+        },
+        {
+          "id": "77777777-1133-0003-0000-000000840006",
+          "patternId": "77777777-1133-0001-0000-000000008001",
+          "exerciseType": "arrange",
+          "prompt": "家族と / 4人で / 住んでいます / 私は",
+          "expectedAnswer": "私は家族と4人で住んでいます。",
+          "acceptableAnswers": [],
+          "acceptableAnswersJson": "[]",
+          "hint": "",
+          "explanation": "",
+          "options": [
+            "家族と",
+            "4人で",
+            "住んでいます",
+            "私は"
+          ],
+          "optionsJson": "[\"家族と\",\"4人で\",\"住んでいます\",\"私は\"]",
+          "correctOrder": [
+            "私は",
+            "家族と",
+            "4人で",
+            "住んでいます"
+          ],
+          "correctOrderJson": "[\"私は\",\"家族と\",\"4人で\",\"住んでいます\"]",
+          "orderIndex": 6
+        },
+        {
+          "id": "77777777-1133-0003-0000-000000840007",
+          "patternId": "77777777-1133-0001-0000-000000008001",
+          "exerciseType": "vi_to_ja",
+          "prompt": "Tôi đang sống ở Yokohama.",
+          "expectedAnswer": "私はよこはまに住んでいます。",
+          "acceptableAnswers": [],
+          "acceptableAnswersJson": "[]",
+          "hint": "",
+          "explanation": "",
+          "options": [],
+          "correctOrder": [],
+          "orderIndex": 7
+        },
+        {
+          "id": "77777777-1133-0003-0000-000000840008",
+          "patternId": "77777777-1133-0001-0000-000000008001",
+          "exerciseType": "vi_to_ja",
+          "prompt": "私は東京＿＿住んでいます。",
+          "expectedAnswer": "に",
+          "acceptableAnswers": [],
+          "acceptableAnswersJson": "[]",
+          "hint": "",
+          "explanation": "Nơi cư trú của 住んでいます dùng に.",
+          "options": [
+            "を",
+            "に",
+            "で",
+            "が"
+          ],
+          "optionsJson": "[\"を\",\"に\",\"で\",\"が\"]",
+          "correctOrder": [],
+          "orderIndex": 8
+        },
+        {
+          "id": "77777777-1133-0003-0000-000000840009",
+          "patternId": "77777777-1133-0001-0000-000000008001",
+          "exerciseType": "vi_to_ja",
+          "prompt": "母は病院＿＿働いています。",
+          "expectedAnswer": "で",
+          "acceptableAnswers": [],
+          "acceptableAnswersJson": "[]",
+          "hint": "",
+          "explanation": "Nơi diễn ra hành động/công việc dùng で.",
+          "options": [
+            "で",
+            "に",
+            "を",
+            "が"
+          ],
+          "optionsJson": "[\"で\",\"に\",\"を\",\"が\"]",
+          "correctOrder": [],
+          "orderIndex": 9
+        },
+        {
+          "id": "77777777-1133-0003-0000-000000840010",
+          "patternId": "77777777-1133-0001-0000-000000008001",
+          "exerciseType": "vi_to_ja",
+          "prompt": "私は友達＿＿花をあげました。",
+          "expectedAnswer": "に",
+          "acceptableAnswers": [],
+          "acceptableAnswersJson": "[]",
+          "hint": "",
+          "explanation": "Người nhận trong あげます dùng に.",
+          "options": [
+            "に",
+            "が",
+            "で",
+            "は"
+          ],
+          "optionsJson": "[\"に\",\"が\",\"で\",\"は\"]",
+          "correctOrder": [],
+          "orderIndex": 10
+        },
+        {
+          "id": "77777777-1133-0003-0000-000000840011",
+          "patternId": "77777777-1133-0001-0000-000000008001",
+          "exerciseType": "vi_to_ja",
+          "prompt": "パクさんはカルロスさん＿＿花をもらいました。",
+          "expectedAnswer": "に",
+          "acceptableAnswers": [],
+          "acceptableAnswersJson": "[]",
+          "hint": "",
+          "explanation": "Theo mẫu trong tài liệu, người cho trong もらいます dùng に.",
+          "options": [
+            "を",
+            "に",
+            "で",
+            "と"
+          ],
+          "optionsJson": "[\"を\",\"に\",\"で\",\"と\"]",
+          "correctOrder": [],
+          "orderIndex": 11
+        },
+        {
+          "id": "77777777-1133-0003-0000-000000840012",
+          "patternId": "77777777-1133-0001-0000-000000008001",
+          "exerciseType": "vi_to_ja",
+          "prompt": "Chuyển 住みます sang mẫu Vています.",
+          "expectedAnswer": "住んでいます。",
+          "acceptableAnswers": [],
+          "acceptableAnswersJson": "[]",
+          "hint": "",
+          "explanation": "住みます → 住んで → 住んでいます.",
+          "options": [],
+          "correctOrder": [],
+          "orderIndex": 12
+        }
+      ]
+    },
+    {
+      "id": "77777777-1133-0001-0000-000000008002",
+      "lessonId": "77777777-1133-0000-0000-000000000108",
+      "level": "N5",
+      "courseCode": "jpd133",
+      "pattern": "Vて形 + います",
+      "title": "Công việc/nghề nghiệp với Vて形 + います",
+      "meaning": "đang làm / đang dạy",
+      "structure": "N（場所）で + Nを + Vて形 + います",
+      "accessTier": "free",
+      "packageCode": "jpd133",
+      "isLocked": false,
+      "isInStudy": false,
+      "progress": null,
+      "usageScope": "Dùng để diễn tả công việc hoặc nghề nghiệp đang được thực hiện ổn định ở hiện tại.",
+      "formation": "教えます → 教えています / 働きます → 働いています",
+      "notes": "で: nơi diễn ra công việc; を: đối tượng của hành động 住んでいます thiên về trạng thái cư trú; 働いています/教えています thiên về công việc hiện tại. Không đổi nơi làm việc sang trợ từ に trong mẫu hành động này.",
+      "examples": [
+        {
+          "id": "77777777-1133-0002-0000-000000801001",
+          "japanese": "ともだちは高校でえい語を教えています。",
+          "reading": "ともだちはこうこうでえいごをおしえています。",
+          "meaning": "Bạn tôi đang dạy tiếng Anh ở trường cấp ba.",
+          "orderIndex": 1
+        },
+        {
+          "id": "77777777-1133-0002-0000-000000801002",
+          "japanese": "母は病院で働いています。",
+          "reading": "はははびょういんではたらいています。",
+          "meaning": "Mẹ tôi làm việc ở bệnh viện.",
+          "orderIndex": 2
+        }
+      ],
+      "exercises": [
+        {
+          "id": "77777777-1133-0003-0000-000000811001",
+          "patternId": "77777777-1133-0001-0000-000000008002",
+          "exerciseType": "ja_to_vi",
+          "prompt": "ともだちは高校でえい語を教えています。",
+          "promptReading": "ともだちはこうこうでえいごをおしえています。",
+          "expectedAnswer": "Bạn tôi đang dạy tiếng Anh ở trường cấp ba.",
+          "hint": "Vて形 + います",
+          "explanation": "で: nơi diễn ra công việc; を: đối tượng của hành động 住んでいます thiên về trạng thái cư trú; 働いています/教えています thiên về công việc hiện tại. Không đổi nơi làm việc sang trợ từ に trong mẫu hành động này.",
+          "orderIndex": 1
+        },
+        {
+          "id": "77777777-1133-0003-0000-000000821001",
+          "patternId": "77777777-1133-0001-0000-000000008002",
+          "exerciseType": "vi_to_ja",
+          "prompt": "Bạn tôi đang dạy tiếng Anh ở trường cấp ba.",
+          "expectedAnswer": "ともだちは高校でえい語を教えています。",
+          "acceptableAnswers": [
+            "ともだちはこうこうでえいごをおしえています。"
+          ],
+          "hint": "教えます → 教えています / 働きます → 働いています",
+          "explanation": "で: nơi diễn ra công việc; を: đối tượng của hành động 住んでいます thiên về trạng thái cư trú; 働いています/教えています thiên về công việc hiện tại. Không đổi nơi làm việc sang trợ từ に trong mẫu hành động này.",
+          "orderIndex": 2
+        },
+        {
+          "id": "77777777-1133-0003-0000-000000831001",
+          "patternId": "77777777-1133-0001-0000-000000008002",
+          "exerciseType": "arrange",
+          "prompt": "Bạn tôi đang dạy tiếng Anh ở trường cấp ba.",
+          "expectedAnswer": "ともだちは高校でえい語 (こうこうでえいご)を教えています (おしえています)",
+          "optionsJson": "[\"と\",\"は\",\"も\",\"を\",\"だち\",\"教えています (おしえています)\",\"高校でえい語 (こうこうでえいご)\"]",
+          "options": [
+            "と",
+            "は",
+            "も",
+            "を",
+            "だち",
+            "教えています (おしえています)",
+            "高校でえい語 (こうこうでえいご)"
+          ],
+          "correctOrderJson": "[\"と\",\"も\",\"だち\",\"は\",\"高校でえい語 (こうこうでえいご)\",\"を\",\"教えています (おしえています)\"]",
+          "correctOrder": [
+            "と",
+            "も",
+            "だち",
+            "は",
+            "高校でえい語 (こうこうでえいご)",
+            "を",
+            "教えています (おしえています)"
+          ],
+          "orderIndex": 3
+        },
+        {
+          "id": "77777777-1133-0003-0000-000000811002",
+          "patternId": "77777777-1133-0001-0000-000000008002",
+          "exerciseType": "ja_to_vi",
+          "prompt": "母は病院で働いています。",
+          "promptReading": "はははびょういんではたらいています。",
+          "expectedAnswer": "Mẹ tôi làm việc ở bệnh viện.",
+          "hint": "Vて形 + います",
+          "explanation": "で: nơi diễn ra công việc; を: đối tượng của hành động 住んでいます thiên về trạng thái cư trú; 働いています/教えています thiên về công việc hiện tại. Không đổi nơi làm việc sang trợ từ に trong mẫu hành động này.",
+          "orderIndex": 4
+        },
+        {
+          "id": "77777777-1133-0003-0000-000000821002",
+          "patternId": "77777777-1133-0001-0000-000000008002",
+          "exerciseType": "vi_to_ja",
+          "prompt": "Mẹ tôi làm việc ở bệnh viện.",
+          "expectedAnswer": "母は病院で働いています。",
+          "acceptableAnswers": [
+            "はははびょういんではたらいています。"
+          ],
+          "hint": "教えます → 教えています / 働きます → 働いています",
+          "explanation": "で: nơi diễn ra công việc; を: đối tượng của hành động 住んでいます thiên về trạng thái cư trú; 働いています/教えています thiên về công việc hiện tại. Không đổi nơi làm việc sang trợ từ に trong mẫu hành động này.",
+          "orderIndex": 5
+        },
+        {
+          "id": "77777777-1133-0003-0000-000000831002",
+          "patternId": "77777777-1133-0001-0000-000000008002",
+          "exerciseType": "arrange",
+          "prompt": "Mẹ tôi làm việc ở bệnh viện.",
+          "expectedAnswer": "母は病院で働いています (ははびょういんではたらいています)",
+          "optionsJson": "[\"は\",\"母\",\"病院で働いています (ははびょういんではたらいています)\"]",
+          "options": [
+            "は",
+            "母",
+            "病院で働いています (ははびょういんではたらいています)"
+          ],
+          "correctOrderJson": "[\"母\",\"は\",\"病院で働いています (ははびょういんではたらいています)\"]",
+          "correctOrder": [
+            "母",
+            "は",
+            "病院で働いています (ははびょういんではたらいています)"
+          ],
+          "orderIndex": 6
+        },
+        {
+          "id": "77777777-1133-0003-0000-000000841001",
+          "patternId": "77777777-1133-0001-0000-000000008002",
+          "exerciseType": "vi_to_ja",
+          "prompt": "Mẹ tôi làm việc ở bệnh viện.",
+          "expectedAnswer": "母は病院で働いています。",
+          "acceptableAnswers": [],
+          "acceptableAnswersJson": "[]",
+          "hint": "",
+          "explanation": "",
+          "options": [],
+          "correctOrder": [],
+          "orderIndex": 1
+        }
+      ]
+    },
+    {
+      "id": "77777777-1133-0001-0000-000000008003",
+      "lessonId": "77777777-1133-0000-0000-000000000108",
+      "level": "N5",
+      "courseCode": "jpd133",
+      "pattern": "～人で",
+      "title": "Số người cùng sống",
+      "meaning": "với tổng cộng … người",
+      "structure": "[người cùng sống] と + ～人で + 住んでいます",
+      "accessTier": "free",
+      "packageCode": "jpd133",
+      "isLocked": false,
+      "isInStudy": false,
+      "progress": null,
+      "usageScope": "Dùng để nói tổng số người cùng thực hiện/sống chung. Con số trước 人で bao gồm cả người nói nếu câu đang mô tả nhóm có người nói.",
+      "formation": "Số + 人（にん）+ で",
+      "notes": "と: cùng với; で: biểu thị số lượng người tạo thành nhóm N（人）が～人います dùng để nói 'có bao nhiêu người'; ～人で nhấn mạnh quy mô nhóm cùng làm việc gì. Không hiểu ～人で là 'có ... người'.",
+      "examples": [
+        {
+          "id": "77777777-1133-0002-0000-000000802001",
+          "japanese": "私はルームメイトと3人で住んでいます。",
+          "reading": "わたしはルームメイトとさんにんですんでいます。",
+          "meaning": "Tôi sống cùng bạn cùng phòng, tổng cộng ba người.",
+          "orderIndex": 1
+        },
+        {
+          "id": "77777777-1133-0002-0000-000000802002",
+          "japanese": "家族と4人で住んでいます。",
+          "reading": "かぞくとよにんですんでいます。",
+          "meaning": "Tôi sống cùng gia đình, tổng cộng bốn người.",
+          "orderIndex": 2
+        }
+      ],
+      "exercises": [
+        {
+          "id": "77777777-1133-0003-0000-000000812001",
+          "patternId": "77777777-1133-0001-0000-000000008003",
+          "exerciseType": "ja_to_vi",
+          "prompt": "私はルームメイトと3人で住んでいます。",
+          "promptReading": "わたしはルームメイトとさんにんですんでいます。",
+          "expectedAnswer": "Tôi sống cùng bạn cùng phòng, tổng cộng ba người.",
+          "hint": "～人で",
+          "explanation": "と: cùng với; で: biểu thị số lượng người tạo thành nhóm N（人）が～人います dùng để nói 'có bao nhiêu người'; ～人で nhấn mạnh quy mô nhóm cùng làm việc gì. Không hiểu ～人で là 'có ... người'.",
+          "orderIndex": 1
+        },
+        {
+          "id": "77777777-1133-0003-0000-000000822001",
+          "patternId": "77777777-1133-0001-0000-000000008003",
+          "exerciseType": "vi_to_ja",
+          "prompt": "Tôi sống cùng bạn cùng phòng, tổng cộng ba người.",
+          "expectedAnswer": "私はルームメイトと3人で住んでいます。",
+          "acceptableAnswers": [
+            "わたしはルームメイトとさんにんですんでいます。"
+          ],
+          "hint": "Số + 人（にん）+ で",
+          "explanation": "と: cùng với; で: biểu thị số lượng người tạo thành nhóm N（人）が～人います dùng để nói 'có bao nhiêu người'; ～人で nhấn mạnh quy mô nhóm cùng làm việc gì. Không hiểu ～人で là 'có ... người'.",
+          "orderIndex": 2
+        },
+        {
+          "id": "77777777-1133-0003-0000-000000832001",
+          "patternId": "77777777-1133-0001-0000-000000008003",
+          "exerciseType": "arrange",
+          "prompt": "Tôi sống cùng bạn cùng phòng, tổng cộng ba người.",
+          "expectedAnswer": "私 (わたし)はルームメイトと3人で住んでいます (さんにんですんでいます)",
+          "optionsJson": "[\"と\",\"は\",\"私 (わたし)\",\"ルームメイト\",\"3人で住んでいます (さんにんですんでいます)\"]",
+          "options": [
+            "と",
+            "は",
+            "私 (わたし)",
+            "ルームメイト",
+            "3人で住んでいます (さんにんですんでいます)"
+          ],
+          "correctOrderJson": "[\"私 (わたし)\",\"は\",\"ルームメイト\",\"と\",\"3人で住んでいます (さんにんですんでいます)\"]",
+          "correctOrder": [
+            "私 (わたし)",
+            "は",
+            "ルームメイト",
+            "と",
+            "3人で住んでいます (さんにんですんでいます)"
+          ],
+          "orderIndex": 3
+        },
+        {
+          "id": "77777777-1133-0003-0000-000000812002",
+          "patternId": "77777777-1133-0001-0000-000000008003",
+          "exerciseType": "ja_to_vi",
+          "prompt": "家族と4人で住んでいます。",
+          "promptReading": "かぞくとよにんですんでいます。",
+          "expectedAnswer": "Tôi sống cùng gia đình, tổng cộng bốn người.",
+          "hint": "～人で",
+          "explanation": "と: cùng với; で: biểu thị số lượng người tạo thành nhóm N（人）が～人います dùng để nói 'có bao nhiêu người'; ～人で nhấn mạnh quy mô nhóm cùng làm việc gì. Không hiểu ～人で là 'có ... người'.",
+          "orderIndex": 4
+        },
+        {
+          "id": "77777777-1133-0003-0000-000000822002",
+          "patternId": "77777777-1133-0001-0000-000000008003",
+          "exerciseType": "vi_to_ja",
+          "prompt": "Tôi sống cùng gia đình, tổng cộng bốn người.",
+          "expectedAnswer": "家族と4人で住んでいます。",
+          "acceptableAnswers": [
+            "かぞくとよにんですんでいます。"
+          ],
+          "hint": "Số + 人（にん）+ で",
+          "explanation": "と: cùng với; で: biểu thị số lượng người tạo thành nhóm N（人）が～人います dùng để nói 'có bao nhiêu người'; ～人で nhấn mạnh quy mô nhóm cùng làm việc gì. Không hiểu ～人で là 'có ... người'.",
+          "orderIndex": 5
+        },
+        {
+          "id": "77777777-1133-0003-0000-000000832002",
+          "patternId": "77777777-1133-0001-0000-000000008003",
+          "exerciseType": "arrange",
+          "prompt": "Tôi sống cùng gia đình, tổng cộng bốn người.",
+          "expectedAnswer": "家族 (かぞく)と4人で住んでいます (よにんですんでいます)",
+          "optionsJson": "[\"と\",\"家族 (かぞく)\",\"4人で住んでいます (よにんですんでいます)\"]",
+          "options": [
+            "と",
+            "家族 (かぞく)",
+            "4人で住んでいます (よにんですんでいます)"
+          ],
+          "correctOrderJson": "[\"家族 (かぞく)\",\"と\",\"4人で住んでいます (よにんですんでいます)\"]",
+          "correctOrder": [
+            "家族 (かぞく)",
+            "と",
+            "4人で住んでいます (よにんですんでいます)"
+          ],
+          "orderIndex": 6
+        }
+      ]
+    },
+    {
+      "id": "77777777-1133-0001-0000-000000008004",
+      "lessonId": "77777777-1133-0000-0000-000000000108",
+      "level": "N5",
+      "courseCode": "jpd133",
+      "pattern": "N（人）が ～人います",
+      "title": "Có bao nhiêu người",
+      "meaning": "có … người",
+      "structure": "N（人）が + số + 人 + います",
+      "accessTier": "free",
+      "packageCode": "jpd133",
+      "isLocked": false,
+      "isInStudy": false,
+      "progress": null,
+      "usageScope": "Dùng để nói số lượng người tồn tại/có trong gia đình hoặc xung quanh mình.",
+      "formation": "一人います / 二人います / 三人います ...",
+      "notes": "が: đánh dấu người tồn tại; います: dùng cho người/động vật sống ～人で diễn tả nhóm cùng làm; Nが～人います diễn tả sự tồn tại/sở hữu theo nghĩa 'có'. Không dùng あります cho người.",
+      "examples": [
+        {
+          "id": "77777777-1133-0002-0000-000000803001",
+          "japanese": "私は妹が二人います。",
+          "reading": "わたしはいもうとがふたりいます。",
+          "meaning": "Tôi có hai em gái.",
+          "orderIndex": 1
+        },
+        {
+          "id": "77777777-1133-0002-0000-000000803002",
+          "japanese": "兄が一人います。",
+          "reading": "あにがひとりいます。",
+          "meaning": "Tôi có một anh trai.",
+          "orderIndex": 2
+        }
+      ],
+      "exercises": [
+        {
+          "id": "77777777-1133-0003-0000-000000813001",
+          "patternId": "77777777-1133-0001-0000-000000008004",
+          "exerciseType": "ja_to_vi",
+          "prompt": "私は妹が二人います。",
+          "promptReading": "わたしはいもうとがふたりいます。",
+          "expectedAnswer": "Tôi có hai em gái.",
+          "hint": "N（人）が ～人います",
+          "explanation": "が: đánh dấu người tồn tại; います: dùng cho người/động vật sống ～人で diễn tả nhóm cùng làm; Nが～人います diễn tả sự tồn tại/sở hữu theo nghĩa 'có'. Không dùng あります cho người.",
+          "orderIndex": 1
+        },
+        {
+          "id": "77777777-1133-0003-0000-000000823001",
+          "patternId": "77777777-1133-0001-0000-000000008004",
+          "exerciseType": "vi_to_ja",
+          "prompt": "Tôi có hai em gái.",
+          "expectedAnswer": "私は妹が二人います。",
+          "acceptableAnswers": [
+            "わたしはいもうとがふたりいます。"
+          ],
+          "hint": "一人います / 二人います / 三人います ...",
+          "explanation": "が: đánh dấu người tồn tại; います: dùng cho người/động vật sống ～人で diễn tả nhóm cùng làm; Nが～人います diễn tả sự tồn tại/sở hữu theo nghĩa 'có'. Không dùng あります cho người.",
+          "orderIndex": 2
+        },
+        {
+          "id": "77777777-1133-0003-0000-000000833001",
+          "patternId": "77777777-1133-0001-0000-000000008004",
+          "exerciseType": "arrange",
+          "prompt": "Tôi có hai em gái.",
+          "expectedAnswer": "私 (わたし)は妹 (いもうと)が二人います (ふたりいます)",
+          "optionsJson": "[\"が\",\"は\",\"私 (わたし)\",\"妹 (いもうと)\",\"二人います (ふたりいます)\"]",
+          "options": [
+            "が",
+            "は",
+            "私 (わたし)",
+            "妹 (いもうと)",
+            "二人います (ふたりいます)"
+          ],
+          "correctOrderJson": "[\"私 (わたし)\",\"は\",\"妹 (いもうと)\",\"が\",\"二人います (ふたりいます)\"]",
+          "correctOrder": [
+            "私 (わたし)",
+            "は",
+            "妹 (いもうと)",
+            "が",
+            "二人います (ふたりいます)"
+          ],
+          "orderIndex": 3
+        },
+        {
+          "id": "77777777-1133-0003-0000-000000813002",
+          "patternId": "77777777-1133-0001-0000-000000008004",
+          "exerciseType": "ja_to_vi",
+          "prompt": "兄が一人います。",
+          "promptReading": "あにがひとりいます。",
+          "expectedAnswer": "Tôi có một anh trai.",
+          "hint": "N（人）が ～人います",
+          "explanation": "が: đánh dấu người tồn tại; います: dùng cho người/động vật sống ～人で diễn tả nhóm cùng làm; Nが～人います diễn tả sự tồn tại/sở hữu theo nghĩa 'có'. Không dùng あります cho người.",
+          "orderIndex": 4
+        },
+        {
+          "id": "77777777-1133-0003-0000-000000823002",
+          "patternId": "77777777-1133-0001-0000-000000008004",
+          "exerciseType": "vi_to_ja",
+          "prompt": "Tôi có một anh trai.",
+          "expectedAnswer": "兄が一人います。",
+          "acceptableAnswers": [
+            "あにがひとりいます。"
+          ],
+          "hint": "一人います / 二人います / 三人います ...",
+          "explanation": "が: đánh dấu người tồn tại; います: dùng cho người/động vật sống ～人で diễn tả nhóm cùng làm; Nが～人います diễn tả sự tồn tại/sở hữu theo nghĩa 'có'. Không dùng あります cho người.",
+          "orderIndex": 5
+        },
+        {
+          "id": "77777777-1133-0003-0000-000000833002",
+          "patternId": "77777777-1133-0001-0000-000000008004",
+          "exerciseType": "arrange",
+          "prompt": "Tôi có một anh trai.",
+          "expectedAnswer": "兄 (あに)が一人います (ひとりいます)",
+          "optionsJson": "[\"が\",\"兄 (あに)\",\"一人います (ひとりいます)\"]",
+          "options": [
+            "が",
+            "兄 (あに)",
+            "一人います (ひとりいます)"
+          ],
+          "correctOrderJson": "[\"兄 (あに)\",\"が\",\"一人います (ひとりいます)\"]",
+          "correctOrder": [
+            "兄 (あに)",
+            "が",
+            "一人います (ひとりいます)"
+          ],
+          "orderIndex": 6
+        },
+        {
+          "id": "77777777-1133-0003-0000-000000843001",
+          "patternId": "77777777-1133-0001-0000-000000008004",
+          "exerciseType": "vi_to_ja",
+          "prompt": "私は妹が（　）います。",
+          "expectedAnswer": "二人",
+          "acceptableAnswers": [],
+          "acceptableAnswersJson": "[]",
+          "hint": "",
+          "explanation": "Người được đếm bằng 人; hai người đọc là 二人（ふたり）.",
+          "options": [
+            "二人",
+            "二つ",
+            "二匹",
+            "二本"
+          ],
+          "optionsJson": "[\"二人\",\"二つ\",\"二匹\",\"二本\"]",
+          "correctOrder": [],
+          "orderIndex": 1
+        },
+        {
+          "id": "77777777-1133-0003-0000-000000843002",
+          "patternId": "77777777-1133-0001-0000-000000008004",
+          "exerciseType": "arrange",
+          "prompt": "二人 / 私は / 妹が / います",
+          "expectedAnswer": "私は妹が二人います。",
+          "acceptableAnswers": [],
+          "acceptableAnswersJson": "[]",
+          "hint": "",
+          "explanation": "",
+          "options": [
+            "二人",
+            "私は",
+            "妹が",
+            "います"
+          ],
+          "optionsJson": "[\"二人\",\"私は\",\"妹が\",\"います\"]",
+          "correctOrder": [
+            "私は",
+            "妹が",
+            "二人",
+            "います"
+          ],
+          "correctOrderJson": "[\"私は\",\"妹が\",\"二人\",\"います\"]",
+          "orderIndex": 2
+        },
+        {
+          "id": "77777777-1133-0003-0000-000000843003",
+          "patternId": "77777777-1133-0001-0000-000000008004",
+          "exerciseType": "vi_to_ja",
+          "prompt": "Tôi có một anh trai.",
+          "expectedAnswer": "兄が一人います。",
+          "acceptableAnswers": [],
+          "acceptableAnswersJson": "[]",
+          "hint": "",
+          "explanation": "",
+          "options": [],
+          "correctOrder": [],
+          "orderIndex": 3
+        },
+        {
+          "id": "77777777-1133-0003-0000-000000843004",
+          "patternId": "77777777-1133-0001-0000-000000008004",
+          "exerciseType": "vi_to_ja",
+          "prompt": "私は妹＿＿二人います。",
+          "expectedAnswer": "が",
+          "acceptableAnswers": [],
+          "acceptableAnswersJson": "[]",
+          "hint": "",
+          "explanation": "Đối tượng tồn tại trong Nが～人います dùng が.",
+          "options": [
+            "に",
+            "を",
+            "が",
+            "で"
+          ],
+          "optionsJson": "[\"に\",\"を\",\"が\",\"で\"]",
+          "correctOrder": [],
+          "orderIndex": 4
+        }
+      ]
+    },
+    {
+      "id": "77777777-1133-0001-0000-000000008005",
+      "lessonId": "77777777-1133-0000-0000-000000000108",
+      "level": "N5",
+      "courseCode": "jpd133",
+      "pattern": "～が（～匹）います",
+      "title": "Có động vật nhỏ",
+      "meaning": "có … con",
+      "structure": "N（động vật）+ が + số + 匹 + います",
+      "accessTier": "free",
+      "packageCode": "jpd133",
+      "isLocked": false,
+      "isInStudy": false,
+      "progress": null,
+      "usageScope": "Dùng để nói có động vật nhỏ. 匹 là lượng từ thường dùng cho chó, mèo và nhiều động vật nhỏ.",
+      "formation": "一匹（いっぴき）/ 二匹（にひき）/ 三匹（さんびき）...",
+      "notes": "が: đối tượng tồn tại; います: dùng cho sinh vật N（人）が～人います dùng cho người. Không dùng あります với chó/mèo trong ngữ pháp cơ bản này.",
+      "examples": [
+        {
+          "id": "77777777-1133-0002-0000-000000804001",
+          "japanese": "犬が一匹います。",
+          "reading": "いぬがいっぴきいます。",
+          "meaning": "Tôi có một con chó.",
+          "orderIndex": 1
+        },
+        {
+          "id": "77777777-1133-0002-0000-000000804002",
+          "japanese": "猫が二匹います。",
+          "reading": "ねこがにひきいます。",
+          "meaning": "Tôi có hai con mèo.",
+          "orderIndex": 2
+        }
+      ],
+      "exercises": [
+        {
+          "id": "77777777-1133-0003-0000-000000814001",
+          "patternId": "77777777-1133-0001-0000-000000008005",
+          "exerciseType": "ja_to_vi",
+          "prompt": "犬が一匹います。",
+          "promptReading": "いぬがいっぴきいます。",
+          "expectedAnswer": "Tôi có một con chó.",
+          "hint": "～が（～匹）います",
+          "explanation": "が: đối tượng tồn tại; います: dùng cho sinh vật N（人）が～人います dùng cho người. Không dùng あります với chó/mèo trong ngữ pháp cơ bản này.",
+          "orderIndex": 1
+        },
+        {
+          "id": "77777777-1133-0003-0000-000000824001",
+          "patternId": "77777777-1133-0001-0000-000000008005",
+          "exerciseType": "vi_to_ja",
+          "prompt": "Tôi có một con chó.",
+          "expectedAnswer": "犬が一匹います。",
+          "acceptableAnswers": [
+            "いぬがいっぴきいます。"
+          ],
+          "hint": "一匹（いっぴき）/ 二匹（にひき）/ 三匹（さんびき）...",
+          "explanation": "が: đối tượng tồn tại; います: dùng cho sinh vật N（人）が～人います dùng cho người. Không dùng あります với chó/mèo trong ngữ pháp cơ bản này.",
+          "orderIndex": 2
+        },
+        {
+          "id": "77777777-1133-0003-0000-000000834001",
+          "patternId": "77777777-1133-0001-0000-000000008005",
+          "exerciseType": "arrange",
+          "prompt": "Tôi có một con chó.",
+          "expectedAnswer": "犬 (いぬ)が一匹います (いっぴきいます)",
+          "optionsJson": "[\"が\",\"犬 (いぬ)\",\"一匹います (いっぴきいます)\"]",
+          "options": [
+            "が",
+            "犬 (いぬ)",
+            "一匹います (いっぴきいます)"
+          ],
+          "correctOrderJson": "[\"犬 (いぬ)\",\"が\",\"一匹います (いっぴきいます)\"]",
+          "correctOrder": [
+            "犬 (いぬ)",
+            "が",
+            "一匹います (いっぴきいます)"
+          ],
+          "orderIndex": 3
+        },
+        {
+          "id": "77777777-1133-0003-0000-000000814002",
+          "patternId": "77777777-1133-0001-0000-000000008005",
+          "exerciseType": "ja_to_vi",
+          "prompt": "猫が二匹います。",
+          "promptReading": "ねこがにひきいます。",
+          "expectedAnswer": "Tôi có hai con mèo.",
+          "hint": "～が（～匹）います",
+          "explanation": "が: đối tượng tồn tại; います: dùng cho sinh vật N（人）が～人います dùng cho người. Không dùng あります với chó/mèo trong ngữ pháp cơ bản này.",
+          "orderIndex": 4
+        },
+        {
+          "id": "77777777-1133-0003-0000-000000824002",
+          "patternId": "77777777-1133-0001-0000-000000008005",
+          "exerciseType": "vi_to_ja",
+          "prompt": "Tôi có hai con mèo.",
+          "expectedAnswer": "猫が二匹います。",
+          "acceptableAnswers": [
+            "ねこがにひきいます。"
+          ],
+          "hint": "一匹（いっぴき）/ 二匹（にひき）/ 三匹（さんびき）...",
+          "explanation": "が: đối tượng tồn tại; います: dùng cho sinh vật N（人）が～人います dùng cho người. Không dùng あります với chó/mèo trong ngữ pháp cơ bản này.",
+          "orderIndex": 5
+        },
+        {
+          "id": "77777777-1133-0003-0000-000000834002",
+          "patternId": "77777777-1133-0001-0000-000000008005",
+          "exerciseType": "arrange",
+          "prompt": "Tôi có hai con mèo.",
+          "expectedAnswer": "猫 (ねこ)が二匹います (にひきいます)",
+          "optionsJson": "[\"が\",\"猫 (ねこ)\",\"二匹います (にひきいます)\"]",
+          "options": [
+            "が",
+            "猫 (ねこ)",
+            "二匹います (にひきいます)"
+          ],
+          "correctOrderJson": "[\"猫 (ねこ)\",\"が\",\"二匹います (にひきいます)\"]",
+          "correctOrder": [
+            "猫 (ねこ)",
+            "が",
+            "二匹います (にひきいます)"
+          ],
+          "orderIndex": 6
+        },
+        {
+          "id": "77777777-1133-0003-0000-000000844001",
+          "patternId": "77777777-1133-0001-0000-000000008005",
+          "exerciseType": "vi_to_ja",
+          "prompt": "犬が（　）います。",
+          "expectedAnswer": "一匹",
+          "acceptableAnswers": [],
+          "acceptableAnswersJson": "[]",
+          "hint": "",
+          "explanation": "Động vật nhỏ như chó, mèo dùng lượng từ 匹; một con là 一匹（いっぴき）.",
+          "options": [
+            "一人",
+            "一冊",
+            "一匹",
+            "一本"
+          ],
+          "optionsJson": "[\"一人\",\"一冊\",\"一匹\",\"一本\"]",
+          "correctOrder": [],
+          "orderIndex": 1
+        },
+        {
+          "id": "77777777-1133-0003-0000-000000844002",
+          "patternId": "77777777-1133-0001-0000-000000008005",
+          "exerciseType": "vi_to_ja",
+          "prompt": "Tôi có hai con mèo.",
+          "expectedAnswer": "猫が二匹います。",
+          "acceptableAnswers": [],
+          "acceptableAnswersJson": "[]",
+          "hint": "",
+          "explanation": "",
+          "options": [],
+          "correctOrder": [],
+          "orderIndex": 2
+        }
+      ]
+    },
+    {
+      "id": "77777777-1133-0001-0000-000000008006",
+      "lessonId": "77777777-1133-0000-0000-000000000108",
+      "level": "N5",
+      "courseCode": "jpd133",
+      "pattern": "N1 は N2 が A です",
+      "title": "Miêu tả đặc điểm bộ phận/khía cạnh",
+      "meaning": "N1 có N2 mang đặc điểm A",
+      "structure": "N1 は + N2 が + Aです",
+      "accessTier": "free",
+      "packageCode": "jpd133",
+      "isLocked": false,
+      "isInStudy": false,
+      "progress": null,
+      "usageScope": "Dùng để miêu tả ngoại hình, tính cách, sở trường hoặc đặc trưng của người/vật; N2 là bộ phận/khía cạnh được tập trung mô tả.",
+      "formation": "N1はN2が高いです / 上手です ...",
+      "notes": "は: chủ đề lớn; が: bộ phận/khía cạnh mang tính chất NはAです miêu tả trực tiếp chủ đề; N1はN2がAです tách chủ đề và bộ phận/khía cạnh. Không thay が bằng は nếu muốn giữ cấu trúc đặc điểm cơ bản.",
+      "examples": [
+        {
+          "id": "77777777-1133-0002-0000-000000805001",
+          "japanese": "ダニエルさんはせが高いです。",
+          "reading": "ダニエルさんはせがたかいです。",
+          "meaning": "Daniel cao.",
+          "orderIndex": 1
+        },
+        {
+          "id": "77777777-1133-0002-0000-000000805002",
+          "japanese": "母は髪が長いです。",
+          "reading": "はははかみがながいです。",
+          "meaning": "Mẹ tôi có tóc dài.",
+          "orderIndex": 2
+        }
+      ],
+      "exercises": [
+        {
+          "id": "77777777-1133-0003-0000-000000815001",
+          "patternId": "77777777-1133-0001-0000-000000008006",
+          "exerciseType": "ja_to_vi",
+          "prompt": "ダニエルさんはせが高いです。",
+          "promptReading": "ダニエルさんはせがたかいです。",
+          "expectedAnswer": "Daniel cao.",
+          "hint": "N1 は N2 が A です",
+          "explanation": "は: chủ đề lớn; が: bộ phận/khía cạnh mang tính chất NはAです miêu tả trực tiếp chủ đề; N1はN2がAです tách chủ đề và bộ phận/khía cạnh. Không thay が bằng は nếu muốn giữ cấu trúc đặc điểm cơ bản.",
+          "orderIndex": 1
+        },
+        {
+          "id": "77777777-1133-0003-0000-000000825001",
+          "patternId": "77777777-1133-0001-0000-000000008006",
+          "exerciseType": "vi_to_ja",
+          "prompt": "Daniel cao.",
+          "expectedAnswer": "ダニエルさんはせが高いです。",
+          "acceptableAnswers": [
+            "ダニエルさんはせがたかいです。"
+          ],
+          "hint": "N1はN2が高いです / 上手です ...",
+          "explanation": "は: chủ đề lớn; が: bộ phận/khía cạnh mang tính chất NはAです miêu tả trực tiếp chủ đề; N1はN2がAです tách chủ đề và bộ phận/khía cạnh. Không thay が bằng は nếu muốn giữ cấu trúc đặc điểm cơ bản.",
+          "orderIndex": 2
+        },
+        {
+          "id": "77777777-1133-0003-0000-000000835001",
+          "patternId": "77777777-1133-0001-0000-000000008006",
+          "exerciseType": "arrange",
+          "prompt": "Daniel cao.",
+          "expectedAnswer": "ダニエルさんはせが高い (たかい)です",
+          "optionsJson": "[\"が\",\"せ\",\"は\",\"です\",\"ダニエルさん\",\"高い (たかい)\"]",
+          "options": [
+            "が",
+            "せ",
+            "は",
+            "です",
+            "ダニエルさん",
+            "高い (たかい)"
+          ],
+          "correctOrderJson": "[\"ダニエルさん\",\"は\",\"せ\",\"が\",\"高い (たかい)\",\"です\"]",
+          "correctOrder": [
+            "ダニエルさん",
+            "は",
+            "せ",
+            "が",
+            "高い (たかい)",
+            "です"
+          ],
+          "orderIndex": 3
+        },
+        {
+          "id": "77777777-1133-0003-0000-000000815002",
+          "patternId": "77777777-1133-0001-0000-000000008006",
+          "exerciseType": "ja_to_vi",
+          "prompt": "母は髪が長いです。",
+          "promptReading": "はははかみがながいです。",
+          "expectedAnswer": "Mẹ tôi có tóc dài.",
+          "hint": "N1 は N2 が A です",
+          "explanation": "は: chủ đề lớn; が: bộ phận/khía cạnh mang tính chất NはAです miêu tả trực tiếp chủ đề; N1はN2がAです tách chủ đề và bộ phận/khía cạnh. Không thay が bằng は nếu muốn giữ cấu trúc đặc điểm cơ bản.",
+          "orderIndex": 4
+        },
+        {
+          "id": "77777777-1133-0003-0000-000000825002",
+          "patternId": "77777777-1133-0001-0000-000000008006",
+          "exerciseType": "vi_to_ja",
+          "prompt": "Mẹ tôi có tóc dài.",
+          "expectedAnswer": "母は髪が長いです。",
+          "acceptableAnswers": [
+            "はははかみがながいです。"
+          ],
+          "hint": "N1はN2が高いです / 上手です ...",
+          "explanation": "は: chủ đề lớn; が: bộ phận/khía cạnh mang tính chất NはAです miêu tả trực tiếp chủ đề; N1はN2がAです tách chủ đề và bộ phận/khía cạnh. Không thay が bằng は nếu muốn giữ cấu trúc đặc điểm cơ bản.",
+          "orderIndex": 5
+        },
+        {
+          "id": "77777777-1133-0003-0000-000000835002",
+          "patternId": "77777777-1133-0001-0000-000000008006",
+          "exerciseType": "arrange",
+          "prompt": "Mẹ tôi có tóc dài.",
+          "expectedAnswer": "母は髪 (ははかみ)が長い (ながい)です",
+          "optionsJson": "[\"が\",\"は\",\"です\",\"母\",\"長い (ながい)\",\"髪 (ははかみ)\"]",
+          "options": [
+            "が",
+            "は",
+            "です",
+            "母",
+            "長い (ながい)",
+            "髪 (ははかみ)"
+          ],
+          "correctOrderJson": "[\"母\",\"は\",\"髪 (ははかみ)\",\"が\",\"長い (ながい)\",\"です\"]",
+          "correctOrder": [
+            "母",
+            "は",
+            "髪 (ははかみ)",
+            "が",
+            "長い (ながい)",
+            "です"
+          ],
+          "orderIndex": 6
+        },
+        {
+          "id": "77777777-1133-0003-0000-000000845001",
+          "patternId": "77777777-1133-0001-0000-000000008006",
+          "exerciseType": "arrange",
+          "prompt": "髪が / 母は / 長いです",
+          "expectedAnswer": "母は髪が長いです。",
+          "acceptableAnswers": [],
+          "acceptableAnswersJson": "[]",
+          "hint": "",
+          "explanation": "",
+          "options": [
+            "髪が",
+            "母は",
+            "長いです"
+          ],
+          "optionsJson": "[\"髪が\",\"母は\",\"長いです\"]",
+          "correctOrder": [
+            "母は",
+            "髪が",
+            "長いです"
+          ],
+          "correctOrderJson": "[\"母は\",\"髪が\",\"長いです\"]",
+          "orderIndex": 1
+        }
+      ]
+    },
+    {
+      "id": "77777777-1133-0001-0000-000000008007",
+      "lessonId": "77777777-1133-0000-0000-000000000108",
+      "level": "N5",
+      "courseCode": "jpd133",
+      "pattern": "イA-くて、＿＿＿＿",
+      "title": "Nối hai tính từ い",
+      "meaning": "và…, vừa… vừa…",
+      "structure": "イA bỏ い + くて + mệnh đề/tính chất tiếp theo",
+      "accessTier": "free",
+      "packageCode": "jpd133",
+      "isLocked": false,
+      "isInStudy": false,
+      "progress": null,
+      "usageScope": "Dùng để nối hai đặc điểm cùng hướng miêu tả một chủ thể. Với tính từ いい dùng dạng よくて.",
+      "formation": "大きい → 大きくて; 長い → 長くて; いい → よくて",
+      "notes": "Không có trợ từ bắt buộc riêng; くて là dạng liên kết của イA ナA nối bằng で, không dùng くて. Không viết 大きいて; phải bỏ い rồi thêm くて.",
+      "examples": [
+        {
+          "id": "77777777-1133-0002-0000-000000806001",
+          "japanese": "メアリーさんは目が大きくて、かみが長いです。",
+          "reading": "メアリーさんはめがおおきくて、かみがながいです。",
+          "meaning": "Mary có mắt to và tóc dài.",
+          "orderIndex": 1
+        },
+        {
+          "id": "77777777-1133-0002-0000-000000806002",
+          "japanese": "この犬は小さくて、かわいいです。",
+          "reading": "このいぬはちいさくて、かわいいです。",
+          "meaning": "Con chó này nhỏ và dễ thương.",
+          "orderIndex": 2
+        }
+      ],
+      "exercises": [
+        {
+          "id": "77777777-1133-0003-0000-000000816001",
+          "patternId": "77777777-1133-0001-0000-000000008007",
+          "exerciseType": "ja_to_vi",
+          "prompt": "メアリーさんは目が大きくて、かみが長いです。",
+          "promptReading": "メアリーさんはめがおおきくて、かみがながいです。",
+          "expectedAnswer": "Mary có mắt to và tóc dài.",
+          "hint": "イA-くて、＿＿＿＿",
+          "explanation": "Không có trợ từ bắt buộc riêng; くて là dạng liên kết của イA ナA nối bằng で, không dùng くて. Không viết 大きいて; phải bỏ い rồi thêm くて.",
+          "orderIndex": 1
+        },
+        {
+          "id": "77777777-1133-0003-0000-000000826001",
+          "patternId": "77777777-1133-0001-0000-000000008007",
+          "exerciseType": "vi_to_ja",
+          "prompt": "Mary có mắt to và tóc dài.",
+          "expectedAnswer": "メアリーさんは目が大きくて、かみが長いです。",
+          "acceptableAnswers": [
+            "メアリーさんはめがおおきくて、かみがながいです。"
+          ],
+          "hint": "大きい → 大きくて; 長い → 長くて; いい → よくて",
+          "explanation": "Không có trợ từ bắt buộc riêng; くて là dạng liên kết của イA ナA nối bằng で, không dùng くて. Không viết 大きいて; phải bỏ い rồi thêm くて.",
+          "orderIndex": 2
+        },
+        {
+          "id": "77777777-1133-0003-0000-000000836001",
+          "patternId": "77777777-1133-0001-0000-000000008007",
+          "exerciseType": "arrange",
+          "prompt": "Mary có mắt to và tóc dài.",
+          "expectedAnswer": "メアリーさんは目 (め)が大きくて、かみ (おおきくて、かみ)が長い (ながい)です",
+          "optionsJson": "[\"が\",\"が\",\"は\",\"です\",\"目 (め)\",\"メアリーさん\",\"長い (ながい)\",\"大きくて、かみ (おおきくて、かみ)\"]",
+          "options": [
+            "が",
+            "が",
+            "は",
+            "です",
+            "目 (め)",
+            "メアリーさん",
+            "長い (ながい)",
+            "大きくて、かみ (おおきくて、かみ)"
+          ],
+          "correctOrderJson": "[\"メアリーさん\",\"は\",\"目 (め)\",\"が\",\"大きくて、かみ (おおきくて、かみ)\",\"が\",\"長い (ながい)\",\"です\"]",
+          "correctOrder": [
+            "メアリーさん",
+            "は",
+            "目 (め)",
+            "が",
+            "大きくて、かみ (おおきくて、かみ)",
+            "が",
+            "長い (ながい)",
+            "です"
+          ],
+          "orderIndex": 3
+        },
+        {
+          "id": "77777777-1133-0003-0000-000000816002",
+          "patternId": "77777777-1133-0001-0000-000000008007",
+          "exerciseType": "ja_to_vi",
+          "prompt": "この犬は小さくて、かわいいです。",
+          "promptReading": "このいぬはちいさくて、かわいいです。",
+          "expectedAnswer": "Con chó này nhỏ và dễ thương.",
+          "hint": "イA-くて、＿＿＿＿",
+          "explanation": "Không có trợ từ bắt buộc riêng; くて là dạng liên kết của イA ナA nối bằng で, không dùng くて. Không viết 大きいて; phải bỏ い rồi thêm くて.",
+          "orderIndex": 4
+        },
+        {
+          "id": "77777777-1133-0003-0000-000000826002",
+          "patternId": "77777777-1133-0001-0000-000000008007",
+          "exerciseType": "vi_to_ja",
+          "prompt": "Con chó này nhỏ và dễ thương.",
+          "expectedAnswer": "この犬は小さくて、かわいいです。",
+          "acceptableAnswers": [
+            "このいぬはちいさくて、かわいいです。"
+          ],
+          "hint": "大きい → 大きくて; 長い → 長くて; いい → よくて",
+          "explanation": "Không có trợ từ bắt buộc riêng; くて là dạng liên kết của イA ナA nối bằng で, không dùng くて. Không viết 大きいて; phải bỏ い rồi thêm くて.",
+          "orderIndex": 5
+        },
+        {
+          "id": "77777777-1133-0003-0000-000000836002",
+          "patternId": "77777777-1133-0001-0000-000000008007",
+          "exerciseType": "arrange",
+          "prompt": "Con chó này nhỏ và dễ thương.",
+          "expectedAnswer": "この犬 (いぬ)は小さくて、かわいい (ちいさくて、かわいい)です",
+          "optionsJson": "[\"こ\",\"の\",\"は\",\"です\",\"犬 (いぬ)\",\"小さくて、かわいい (ちいさくて、かわいい)\"]",
+          "options": [
+            "こ",
+            "の",
+            "は",
+            "です",
+            "犬 (いぬ)",
+            "小さくて、かわいい (ちいさくて、かわいい)"
+          ],
+          "correctOrderJson": "[\"こ\",\"の\",\"犬 (いぬ)\",\"は\",\"小さくて、かわいい (ちいさくて、かわいい)\",\"です\"]",
+          "correctOrder": [
+            "こ",
+            "の",
+            "犬 (いぬ)",
+            "は",
+            "小さくて、かわいい (ちいさくて、かわいい)",
+            "です"
+          ],
+          "orderIndex": 6
+        },
+        {
+          "id": "77777777-1133-0003-0000-000000846001",
+          "patternId": "77777777-1133-0001-0000-000000008007",
+          "exerciseType": "vi_to_ja",
+          "prompt": "メアリーさんは目が大き（　）、髪が長いです。",
+          "expectedAnswer": "くて",
+          "acceptableAnswers": [],
+          "acceptableAnswersJson": "[]",
+          "hint": "",
+          "explanation": "Tính từ đuôi い nối với tính chất tiếp theo bằng い → くて: 大きい → 大きくて.",
+          "options": [
+            "いで",
+            "くて",
+            "なで",
+            "く"
+          ],
+          "optionsJson": "[\"いで\",\"くて\",\"なで\",\"く\"]",
+          "correctOrder": [],
+          "orderIndex": 1
+        },
+        {
+          "id": "77777777-1133-0003-0000-000000846002",
+          "patternId": "77777777-1133-0001-0000-000000008007",
+          "exerciseType": "vi_to_ja",
+          "prompt": "Chuyển 大きい sang dạng nối với tính từ tiếp theo.",
+          "expectedAnswer": "大きくて",
+          "acceptableAnswers": [],
+          "acceptableAnswersJson": "[]",
+          "hint": "",
+          "explanation": "イA: bỏ い rồi thêm くて.",
+          "options": [],
+          "correctOrder": [],
+          "orderIndex": 2
+        }
+      ]
+    },
+    {
+      "id": "77777777-1133-0001-0000-000000008008",
+      "lessonId": "77777777-1133-0000-0000-000000000108",
+      "level": "N5",
+      "courseCode": "jpd133",
+      "pattern": "ナA で、＿＿＿＿",
+      "title": "Nối tính từ な",
+      "meaning": "và…, vừa… vừa…",
+      "structure": "ナA + で + mệnh đề/tính chất tiếp theo",
+      "accessTier": "free",
+      "packageCode": "jpd133",
+      "isLocked": false,
+      "isInStudy": false,
+      "progress": null,
+      "usageScope": "Dùng để nối các tính từ な khi bổ sung nhiều đặc điểm của cùng chủ thể.",
+      "formation": "まじめです → まじめで; しんせつです → しんせつで...",
+      "notes": "で: dạng nối của ナA/です イA dùng くて. Không thêm な trước で: ×まじめなで.",
+      "examples": [
+        {
+          "id": "77777777-1133-0002-0000-000000807001",
+          "japanese": "ナタポンさんはまじめで、しんせつです。",
+          "reading": "ナタポンさんはまじめで、しんせつです。",
+          "meaning": "Natapon nghiêm túc và tốt bụng.",
+          "orderIndex": 1
+        },
+        {
+          "id": "77777777-1133-0002-0000-000000807002",
+          "japanese": "父は元気で、親切です。",
+          "reading": "ちちはげんきで、しんせつです。",
+          "meaning": "Bố tôi khỏe mạnh và tốt bụng.",
+          "orderIndex": 2
+        }
+      ],
+      "exercises": [
+        {
+          "id": "77777777-1133-0003-0000-000000817001",
+          "patternId": "77777777-1133-0001-0000-000000008008",
+          "exerciseType": "ja_to_vi",
+          "prompt": "ナタポンさんはまじめで、しんせつです。",
+          "promptReading": "ナタポンさんはまじめで、しんせつです。",
+          "expectedAnswer": "Natapon nghiêm túc và tốt bụng.",
+          "hint": "ナA で、＿＿＿＿",
+          "explanation": "で: dạng nối của ナA/です イA dùng くて. Không thêm な trước で: ×まじめなで.",
+          "orderIndex": 1
+        },
+        {
+          "id": "77777777-1133-0003-0000-000000827001",
+          "patternId": "77777777-1133-0001-0000-000000008008",
+          "exerciseType": "vi_to_ja",
+          "prompt": "Natapon nghiêm túc và tốt bụng.",
+          "expectedAnswer": "ナタポンさんはまじめで、しんせつです。",
+          "acceptableAnswers": [
+            "ナタポンさんはまじめで、しんせつです。"
+          ],
+          "hint": "まじめです → まじめで; しんせつです → しんせつで...",
+          "explanation": "で: dạng nối của ナA/です イA dùng くて. Không thêm な trước で: ×まじめなで.",
+          "orderIndex": 2
+        },
+        {
+          "id": "77777777-1133-0003-0000-000000837001",
+          "patternId": "77777777-1133-0001-0000-000000008008",
+          "exerciseType": "arrange",
+          "prompt": "Natapon nghiêm túc và tốt bụng.",
+          "expectedAnswer": "ナタポンさんはまじめで、しんせつです",
+          "optionsJson": "[\"は\",\"です\",\"ナタポンさん\",\"まじめで、しんせつ\"]",
+          "options": [
+            "は",
+            "です",
+            "ナタポンさん",
+            "まじめで、しんせつ"
+          ],
+          "correctOrderJson": "[\"ナタポンさん\",\"は\",\"まじめで、しんせつ\",\"です\"]",
+          "correctOrder": [
+            "ナタポンさん",
+            "は",
+            "まじめで、しんせつ",
+            "です"
+          ],
+          "orderIndex": 3
+        },
+        {
+          "id": "77777777-1133-0003-0000-000000817002",
+          "patternId": "77777777-1133-0001-0000-000000008008",
+          "exerciseType": "ja_to_vi",
+          "prompt": "父は元気で、親切です。",
+          "promptReading": "ちちはげんきで、しんせつです。",
+          "expectedAnswer": "Bố tôi khỏe mạnh và tốt bụng.",
+          "hint": "ナA で、＿＿＿＿",
+          "explanation": "で: dạng nối của ナA/です イA dùng くて. Không thêm な trước で: ×まじめなで.",
+          "orderIndex": 4
+        },
+        {
+          "id": "77777777-1133-0003-0000-000000827002",
+          "patternId": "77777777-1133-0001-0000-000000008008",
+          "exerciseType": "vi_to_ja",
+          "prompt": "Bố tôi khỏe mạnh và tốt bụng.",
+          "expectedAnswer": "父は元気で、親切です。",
+          "acceptableAnswers": [
+            "ちちはげんきで、しんせつです。"
+          ],
+          "hint": "まじめです → まじめで; しんせつです → しんせつで...",
+          "explanation": "で: dạng nối của ナA/です イA dùng くて. Không thêm な trước で: ×まじめなで.",
+          "orderIndex": 5
+        },
+        {
+          "id": "77777777-1133-0003-0000-000000837002",
+          "patternId": "77777777-1133-0001-0000-000000008008",
+          "exerciseType": "arrange",
+          "prompt": "Bố tôi khỏe mạnh và tốt bụng.",
+          "expectedAnswer": "父 (ちち)は元気で、親切 (げんきで、しんせつ)です",
+          "optionsJson": "[\"は\",\"です\",\"父 (ちち)\",\"元気で、親切 (げんきで、しんせつ)\"]",
+          "options": [
+            "は",
+            "です",
+            "父 (ちち)",
+            "元気で、親切 (げんきで、しんせつ)"
+          ],
+          "correctOrderJson": "[\"父 (ちち)\",\"は\",\"元気で、親切 (げんきで、しんせつ)\",\"です\"]",
+          "correctOrder": [
+            "父 (ちち)",
+            "は",
+            "元気で、親切 (げんきで、しんせつ)",
+            "です"
+          ],
+          "orderIndex": 6
+        },
+        {
+          "id": "77777777-1133-0003-0000-000000847001",
+          "patternId": "77777777-1133-0001-0000-000000008008",
+          "exerciseType": "vi_to_ja",
+          "prompt": "Bố tôi khỏe mạnh và tốt bụng.",
+          "expectedAnswer": "父は元気で、親切です。",
+          "acceptableAnswers": [],
+          "acceptableAnswersJson": "[]",
+          "hint": "",
+          "explanation": "",
+          "options": [],
+          "correctOrder": [],
+          "orderIndex": 1
+        },
+        {
+          "id": "77777777-1133-0003-0000-000000847002",
+          "patternId": "77777777-1133-0001-0000-000000008008",
+          "exerciseType": "vi_to_ja",
+          "prompt": "Chuyển まじめです sang dạng nối.",
+          "expectedAnswer": "まじめで",
+          "acceptableAnswers": [],
+          "acceptableAnswersJson": "[]",
+          "hint": "",
+          "explanation": "ナA nối bằng で.",
+          "options": [],
+          "correctOrder": [],
+          "orderIndex": 2
+        }
+      ]
+    },
+    {
+      "id": "77777777-1133-0001-0000-000000008009",
+      "lessonId": "77777777-1133-0000-0000-000000000108",
+      "level": "N5",
+      "courseCode": "jpd133",
+      "pattern": "N で、＿＿＿＿",
+      "title": "Nối danh từ bằng で",
+      "meaning": "và / là…, đồng thời…",
+      "structure": "N1 で、N2です / Nで、mệnh đề tiếp theo",
+      "accessTier": "free",
+      "packageCode": "jpd133",
+      "isLocked": false,
+      "isInStudy": false,
+      "progress": null,
+      "usageScope": "Dùng で là dạng nối của です sau danh từ để bổ sung thông tin tiếp theo.",
+      "formation": "学生です → 学生で; 15歳です → 15歳で",
+      "notes": "で: dạng liên kết của です sau danh từ ナAで cũng nối bằng で; cần phân biệt theo loại từ. Không dùng と để nối hai vị ngữ kiểu này.",
+      "examples": [
+        {
+          "id": "77777777-1133-0002-0000-000000808001",
+          "japanese": "妹は15歳で、中学生です。",
+          "reading": "いもうとはじゅうごさいで、ちゅうがくせいです。",
+          "meaning": "Em gái tôi 15 tuổi và là học sinh trung học cơ sở.",
+          "orderIndex": 1
+        },
+        {
+          "id": "77777777-1133-0002-0000-000000808002",
+          "japanese": "兄は会社員で、25歳です。",
+          "reading": "あにはかいしゃいんで、にじゅうごさいです。",
+          "meaning": "Anh tôi là nhân viên công ty và 25 tuổi.",
+          "orderIndex": 2
+        }
+      ],
+      "exercises": [
+        {
+          "id": "77777777-1133-0003-0000-000000818001",
+          "patternId": "77777777-1133-0001-0000-000000008009",
+          "exerciseType": "ja_to_vi",
+          "prompt": "妹は15歳で、中学生です。",
+          "promptReading": "いもうとはじゅうごさいで、ちゅうがくせいです。",
+          "expectedAnswer": "Em gái tôi 15 tuổi và là học sinh trung học cơ sở.",
+          "hint": "N で、＿＿＿＿",
+          "explanation": "で: dạng liên kết của です sau danh từ ナAで cũng nối bằng で; cần phân biệt theo loại từ. Không dùng と để nối hai vị ngữ kiểu này.",
+          "orderIndex": 1
+        },
+        {
+          "id": "77777777-1133-0003-0000-000000828001",
+          "patternId": "77777777-1133-0001-0000-000000008009",
+          "exerciseType": "vi_to_ja",
+          "prompt": "Em gái tôi 15 tuổi và là học sinh trung học cơ sở.",
+          "expectedAnswer": "妹は15歳で、中学生です。",
+          "acceptableAnswers": [
+            "いもうとはじゅうごさいで、ちゅうがくせいです。"
+          ],
+          "hint": "学生です → 学生で; 15歳です → 15歳で",
+          "explanation": "で: dạng liên kết của です sau danh từ ナAで cũng nối bằng で; cần phân biệt theo loại từ. Không dùng と để nối hai vị ngữ kiểu này.",
+          "orderIndex": 2
+        },
+        {
+          "id": "77777777-1133-0003-0000-000000838001",
+          "patternId": "77777777-1133-0001-0000-000000008009",
+          "exerciseType": "arrange",
+          "prompt": "Em gái tôi 15 tuổi và là học sinh trung học cơ sở.",
+          "expectedAnswer": "妹 (いもうと)は15歳で、中学生 (じゅうごさいで、ちゅうがくせい)です",
+          "optionsJson": "[\"は\",\"です\",\"妹 (いもうと)\",\"15歳で、中学生 (じゅうごさいで、ちゅうがくせい)\"]",
+          "options": [
+            "は",
+            "です",
+            "妹 (いもうと)",
+            "15歳で、中学生 (じゅうごさいで、ちゅうがくせい)"
+          ],
+          "correctOrderJson": "[\"妹 (いもうと)\",\"は\",\"15歳で、中学生 (じゅうごさいで、ちゅうがくせい)\",\"です\"]",
+          "correctOrder": [
+            "妹 (いもうと)",
+            "は",
+            "15歳で、中学生 (じゅうごさいで、ちゅうがくせい)",
+            "です"
+          ],
+          "orderIndex": 3
+        },
+        {
+          "id": "77777777-1133-0003-0000-000000818002",
+          "patternId": "77777777-1133-0001-0000-000000008009",
+          "exerciseType": "ja_to_vi",
+          "prompt": "兄は会社員で、25歳です。",
+          "promptReading": "あにはかいしゃいんで、にじゅうごさいです。",
+          "expectedAnswer": "Anh tôi là nhân viên công ty và 25 tuổi.",
+          "hint": "N で、＿＿＿＿",
+          "explanation": "で: dạng liên kết của です sau danh từ ナAで cũng nối bằng で; cần phân biệt theo loại từ. Không dùng と để nối hai vị ngữ kiểu này.",
+          "orderIndex": 4
+        },
+        {
+          "id": "77777777-1133-0003-0000-000000828002",
+          "patternId": "77777777-1133-0001-0000-000000008009",
+          "exerciseType": "vi_to_ja",
+          "prompt": "Anh tôi là nhân viên công ty và 25 tuổi.",
+          "expectedAnswer": "兄は会社員で、25歳です。",
+          "acceptableAnswers": [
+            "あにはかいしゃいんで、にじゅうごさいです。"
+          ],
+          "hint": "学生です → 学生で; 15歳です → 15歳で",
+          "explanation": "で: dạng liên kết của です sau danh từ ナAで cũng nối bằng で; cần phân biệt theo loại từ. Không dùng と để nối hai vị ngữ kiểu này.",
+          "orderIndex": 5
+        },
+        {
+          "id": "77777777-1133-0003-0000-000000838002",
+          "patternId": "77777777-1133-0001-0000-000000008009",
+          "exerciseType": "arrange",
+          "prompt": "Anh tôi là nhân viên công ty và 25 tuổi.",
+          "expectedAnswer": "兄 (あに)は会社員で、25歳 (かいしゃいんで、にじゅうごさい)です",
+          "optionsJson": "[\"は\",\"です\",\"兄 (あに)\",\"会社員で、25歳 (かいしゃいんで、にじゅうごさい)\"]",
+          "options": [
+            "は",
+            "です",
+            "兄 (あに)",
+            "会社員で、25歳 (かいしゃいんで、にじゅうごさい)"
+          ],
+          "correctOrderJson": "[\"兄 (あに)\",\"は\",\"会社員で、25歳 (かいしゃいんで、にじゅうごさい)\",\"です\"]",
+          "correctOrder": [
+            "兄 (あに)",
+            "は",
+            "会社員で、25歳 (かいしゃいんで、にじゅうごさい)",
+            "です"
+          ],
+          "orderIndex": 6
+        },
+        {
+          "id": "77777777-1133-0003-0000-000000848001",
+          "patternId": "77777777-1133-0001-0000-000000008009",
+          "exerciseType": "vi_to_ja",
+          "prompt": "Chuyển 15歳です sang dạng nối.",
+          "expectedAnswer": "15歳で",
+          "acceptableAnswers": [],
+          "acceptableAnswersJson": "[]",
+          "hint": "",
+          "explanation": "Danh từ + です khi nối đổi thành Nで.",
+          "options": [],
+          "correctOrder": [],
+          "orderIndex": 1
+        }
+      ]
+    },
+    {
+      "id": "77777777-1133-0001-0000-000000008010",
+      "lessonId": "77777777-1133-0000-0000-000000000108",
+      "level": "N5",
+      "courseCode": "jpd133",
+      "pattern": "N1（人）に N2（物）を あげます",
+      "title": "Cho/tặng người khác",
+      "meaning": "A cho/tặng B; tôi cho/tặng B",
+      "structure": "[người nhận] に + [vật] を + あげます",
+      "accessTier": "free",
+      "packageCode": "jpd133",
+      "isLocked": false,
+      "isInStudy": false,
+      "progress": null,
+      "usageScope": "Dùng khi chủ ngữ/người thuộc phía người nói cho đồ cho người khác. Hướng cho: người cho → người nhận.",
+      "formation": "あげます / あげました",
+      "notes": "に: người nhận; を: vật được cho もらいます lấy góc nhìn người nhận; くれます dùng khi người khác cho tôi/phía tôi. × 友達は私にプレゼントをあげました nếu muốn nói 'bạn tặng tôi' theo mẫu bài; dùng くれました.",
+      "examples": [
+        {
+          "id": "77777777-1133-0002-0000-000000809001",
+          "japanese": "カルロスさんはパクさんに花をあげました。",
+          "reading": "カルロスさんはパクさんにはなをあげました。",
+          "meaning": "Carlos đã tặng hoa cho Park.",
+          "orderIndex": 1
+        },
+        {
+          "id": "77777777-1133-0002-0000-000000809002",
+          "japanese": "私は友達に本をあげました。",
+          "reading": "わたしはともだちにほんをあげました。",
+          "meaning": "Tôi đã tặng bạn một quyển sách.",
+          "orderIndex": 2
+        }
+      ],
+      "exercises": [
+        {
+          "id": "77777777-1133-0003-0000-000000819001",
+          "patternId": "77777777-1133-0001-0000-000000008010",
+          "exerciseType": "ja_to_vi",
+          "prompt": "カルロスさんはパクさんに花をあげました。",
+          "promptReading": "カルロスさんはパクさんにはなをあげました。",
+          "expectedAnswer": "Carlos đã tặng hoa cho Park.",
+          "hint": "N1（人）に N2（物）を あげます",
+          "explanation": "に: người nhận; を: vật được cho もらいます lấy góc nhìn người nhận; くれます dùng khi người khác cho tôi/phía tôi. × 友達は私にプレゼントをあげました nếu muốn nói 'bạn tặng tôi' theo mẫu bài; dùng くれました.",
+          "orderIndex": 1
+        },
+        {
+          "id": "77777777-1133-0003-0000-000000829001",
+          "patternId": "77777777-1133-0001-0000-000000008010",
+          "exerciseType": "vi_to_ja",
+          "prompt": "Carlos đã tặng hoa cho Park.",
+          "expectedAnswer": "カルロスさんはパクさんに花をあげました。",
+          "acceptableAnswers": [
+            "カルロスさんはパクさんにはなをあげました。"
+          ],
+          "hint": "あげます / あげました",
+          "explanation": "に: người nhận; を: vật được cho もらいます lấy góc nhìn người nhận; くれます dùng khi người khác cho tôi/phía tôi. × 友達は私にプレゼントをあげました nếu muốn nói 'bạn tặng tôi' theo mẫu bài; dùng くれました.",
+          "orderIndex": 2
+        },
+        {
+          "id": "77777777-1133-0003-0000-000000839001",
+          "patternId": "77777777-1133-0001-0000-000000008010",
+          "exerciseType": "arrange",
+          "prompt": "Carlos đã tặng hoa cho Park.",
+          "expectedAnswer": "カルロスさんはパクさんに花 (はな)をあげました",
+          "optionsJson": "[\"に\",\"は\",\"を\",\"パクさん\",\"花 (はな)\",\"あげました\",\"カルロスさん\"]",
+          "options": [
+            "に",
+            "は",
+            "を",
+            "パクさん",
+            "花 (はな)",
+            "あげました",
+            "カルロスさん"
+          ],
+          "correctOrderJson": "[\"カルロスさん\",\"は\",\"パクさん\",\"に\",\"花 (はな)\",\"を\",\"あげました\"]",
+          "correctOrder": [
+            "カルロスさん",
+            "は",
+            "パクさん",
+            "に",
+            "花 (はな)",
+            "を",
+            "あげました"
+          ],
+          "orderIndex": 3
+        },
+        {
+          "id": "77777777-1133-0003-0000-000000819002",
+          "patternId": "77777777-1133-0001-0000-000000008010",
+          "exerciseType": "ja_to_vi",
+          "prompt": "私は友達に本をあげました。",
+          "promptReading": "わたしはともだちにほんをあげました。",
+          "expectedAnswer": "Tôi đã tặng bạn một quyển sách.",
+          "hint": "N1（人）に N2（物）を あげます",
+          "explanation": "に: người nhận; を: vật được cho もらいます lấy góc nhìn người nhận; くれます dùng khi người khác cho tôi/phía tôi. × 友達は私にプレゼントをあげました nếu muốn nói 'bạn tặng tôi' theo mẫu bài; dùng くれました.",
+          "orderIndex": 4
+        },
+        {
+          "id": "77777777-1133-0003-0000-000000829002",
+          "patternId": "77777777-1133-0001-0000-000000008010",
+          "exerciseType": "vi_to_ja",
+          "prompt": "Tôi đã tặng bạn một quyển sách.",
+          "expectedAnswer": "私は友達に本をあげました。",
+          "acceptableAnswers": [
+            "わたしはともだちにほんをあげました。"
+          ],
+          "hint": "あげます / あげました",
+          "explanation": "に: người nhận; を: vật được cho もらいます lấy góc nhìn người nhận; くれます dùng khi người khác cho tôi/phía tôi. × 友達は私にプレゼントをあげました nếu muốn nói 'bạn tặng tôi' theo mẫu bài; dùng くれました.",
+          "orderIndex": 5
+        },
+        {
+          "id": "77777777-1133-0003-0000-000000839002",
+          "patternId": "77777777-1133-0001-0000-000000008010",
+          "exerciseType": "arrange",
+          "prompt": "Tôi đã tặng bạn một quyển sách.",
+          "expectedAnswer": "私 (わたし)は友達 (ともだち)に本 (ほん)をあげました",
+          "optionsJson": "[\"に\",\"は\",\"を\",\"本 (ほん)\",\"あげました\",\"私 (わたし)\",\"友達 (ともだち)\"]",
+          "options": [
+            "に",
+            "は",
+            "を",
+            "本 (ほん)",
+            "あげました",
+            "私 (わたし)",
+            "友達 (ともだち)"
+          ],
+          "correctOrderJson": "[\"私 (わたし)\",\"は\",\"友達 (ともだち)\",\"に\",\"本 (ほん)\",\"を\",\"あげました\"]",
+          "correctOrder": [
+            "私 (わたし)",
+            "は",
+            "友達 (ともだち)",
+            "に",
+            "本 (ほん)",
+            "を",
+            "あげました"
+          ],
+          "orderIndex": 6
+        },
+        {
+          "id": "77777777-1133-0003-0000-000000849001",
+          "patternId": "77777777-1133-0001-0000-000000008010",
+          "exerciseType": "arrange",
+          "prompt": "本を / 友達に / あげました / 私は",
+          "expectedAnswer": "私は友達に本をあげました。",
+          "acceptableAnswers": [],
+          "acceptableAnswersJson": "[]",
+          "hint": "",
+          "explanation": "",
+          "options": [
+            "本を",
+            "友達に",
+            "あげました",
+            "私は"
+          ],
+          "optionsJson": "[\"本を\",\"友達に\",\"あげました\",\"私は\"]",
+          "correctOrder": [
+            "私は",
+            "友達に",
+            "本を",
+            "あげました"
+          ],
+          "correctOrderJson": "[\"私は\",\"友達に\",\"本を\",\"あげました\"]",
+          "orderIndex": 1
+        },
+        {
+          "id": "77777777-1133-0003-0000-000000849002",
+          "patternId": "77777777-1133-0001-0000-000000008010",
+          "exerciseType": "vi_to_ja",
+          "prompt": "Tôi đã tặng bạn một quyển sách.",
+          "expectedAnswer": "私は友達に本をあげました。",
+          "acceptableAnswers": [],
+          "acceptableAnswersJson": "[]",
+          "hint": "",
+          "explanation": "",
+          "options": [],
+          "correctOrder": [],
+          "orderIndex": 2
+        },
+        {
+          "id": "77777777-1133-0003-0000-000000849003",
+          "patternId": "77777777-1133-0001-0000-000000008010",
+          "exerciseType": "vi_to_ja",
+          "prompt": "Chuyển あげます sang quá khứ.",
+          "expectedAnswer": "あげました。",
+          "acceptableAnswers": [],
+          "acceptableAnswersJson": "[]",
+          "hint": "",
+          "explanation": "Động từ thể ます: ます → ました.",
+          "options": [],
+          "correctOrder": [],
+          "orderIndex": 3
+        }
+      ]
+    },
+    {
+      "id": "77777777-1133-0001-0000-000000008011",
+      "lessonId": "77777777-1133-0000-0000-000000000108",
+      "level": "N5",
+      "courseCode": "jpd133",
+      "pattern": "N1（人）に N2（物）を もらいます",
+      "title": "Nhận từ ai",
+      "meaning": "nhận",
+      "structure": "[người cho] に + [vật] を + もらいます",
+      "accessTier": "free",
+      "packageCode": "jpd133",
+      "isLocked": false,
+      "isInStudy": false,
+      "progress": null,
+      "usageScope": "Dùng khi chủ ngữ là người nhận đồ từ ai đó. Góc nhìn đặt ở người nhận.",
+      "formation": "もらいます / もらいました",
+      "notes": "に: nguồn/người cho trong mẫu của tài liệu; を: vật nhận あげます/くれます đặt góc nhìn ở người cho; もらいます đặt góc nhìn ở người nhận. Không đảo vai người cho/người nhận khi dịch.",
+      "examples": [
+        {
+          "id": "77777777-1133-0002-0000-000000810001",
+          "japanese": "パクさんはカルロスさんに花をもらいました。",
+          "reading": "パクさんはカルロスさんにはなをもらいました。",
+          "meaning": "Park đã nhận hoa từ Carlos.",
+          "orderIndex": 1
+        },
+        {
+          "id": "77777777-1133-0002-0000-000000810002",
+          "japanese": "私は母に時計をもらいました。",
+          "reading": "わたしはははにとけいをもらいました。",
+          "meaning": "Tôi đã nhận một chiếc đồng hồ từ mẹ.",
+          "orderIndex": 2
+        }
+      ],
+      "exercises": [
+        {
+          "id": "77777777-1133-0003-0000-000000820001",
+          "patternId": "77777777-1133-0001-0000-000000008011",
+          "exerciseType": "ja_to_vi",
+          "prompt": "パクさんはカルロスさんに花をもらいました。",
+          "promptReading": "パクさんはカルロスさんにはなをもらいました。",
+          "expectedAnswer": "Park đã nhận hoa từ Carlos.",
+          "hint": "N1（人）に N2（物）を もらいます",
+          "explanation": "に: nguồn/người cho trong mẫu của tài liệu; を: vật nhận あげます/くれます đặt góc nhìn ở người cho; もらいます đặt góc nhìn ở người nhận. Không đảo vai người cho/người nhận khi dịch.",
+          "orderIndex": 1
+        },
+        {
+          "id": "77777777-1133-0003-0000-000000830001",
+          "patternId": "77777777-1133-0001-0000-000000008011",
+          "exerciseType": "vi_to_ja",
+          "prompt": "Park đã nhận hoa từ Carlos.",
+          "expectedAnswer": "パクさんはカルロスさんに花をもらいました。",
+          "acceptableAnswers": [
+            "パクさんはカルロスさんにはなをもらいました。"
+          ],
+          "hint": "もらいます / もらいました",
+          "explanation": "に: nguồn/người cho trong mẫu của tài liệu; を: vật nhận あげます/くれます đặt góc nhìn ở người cho; もらいます đặt góc nhìn ở người nhận. Không đảo vai người cho/người nhận khi dịch.",
+          "orderIndex": 2
+        },
+        {
+          "id": "77777777-1133-0003-0000-000000840001",
+          "patternId": "77777777-1133-0001-0000-000000008011",
+          "exerciseType": "arrange",
+          "prompt": "Park đã nhận hoa từ Carlos.",
+          "expectedAnswer": "パクさんはカルロスさんに花 (はな)をもらいました",
+          "optionsJson": "[\"に\",\"は\",\"も\",\"を\",\"パクさん\",\"花 (はな)\",\"らいました\",\"カルロスさん\"]",
+          "options": [
+            "に",
+            "は",
+            "も",
+            "を",
+            "パクさん",
+            "花 (はな)",
+            "らいました",
+            "カルロスさん"
+          ],
+          "correctOrderJson": "[\"パクさん\",\"は\",\"カルロスさん\",\"に\",\"花 (はな)\",\"を\",\"も\",\"らいました\"]",
+          "correctOrder": [
+            "パクさん",
+            "は",
+            "カルロスさん",
+            "に",
+            "花 (はな)",
+            "を",
+            "も",
+            "らいました"
+          ],
+          "orderIndex": 3
+        },
+        {
+          "id": "77777777-1133-0003-0000-000000820002",
+          "patternId": "77777777-1133-0001-0000-000000008011",
+          "exerciseType": "ja_to_vi",
+          "prompt": "私は母に時計をもらいました。",
+          "promptReading": "わたしはははにとけいをもらいました。",
+          "expectedAnswer": "Tôi đã nhận một chiếc đồng hồ từ mẹ.",
+          "hint": "N1（人）に N2（物）を もらいます",
+          "explanation": "に: nguồn/người cho trong mẫu của tài liệu; を: vật nhận あげます/くれます đặt góc nhìn ở người cho; もらいます đặt góc nhìn ở người nhận. Không đảo vai người cho/người nhận khi dịch.",
+          "orderIndex": 4
+        },
+        {
+          "id": "77777777-1133-0003-0000-000000830002",
+          "patternId": "77777777-1133-0001-0000-000000008011",
+          "exerciseType": "vi_to_ja",
+          "prompt": "Tôi đã nhận một chiếc đồng hồ từ mẹ.",
+          "expectedAnswer": "私は母に時計をもらいました。",
+          "acceptableAnswers": [
+            "わたしはははにとけいをもらいました。"
+          ],
+          "hint": "もらいます / もらいました",
+          "explanation": "に: nguồn/người cho trong mẫu của tài liệu; を: vật nhận あげます/くれます đặt góc nhìn ở người cho; もらいます đặt góc nhìn ở người nhận. Không đảo vai người cho/người nhận khi dịch.",
+          "orderIndex": 5
+        },
+        {
+          "id": "77777777-1133-0003-0000-000000840002",
+          "patternId": "77777777-1133-0001-0000-000000008011",
+          "exerciseType": "arrange",
+          "prompt": "Tôi đã nhận một chiếc đồng hồ từ mẹ.",
+          "expectedAnswer": "私 (わたし)は母 (はは)に時計 (とけい)をもらいました",
+          "optionsJson": "[\"に\",\"は\",\"も\",\"を\",\"母 (はは)\",\"らいました\",\"私 (わたし)\",\"時計 (とけい)\"]",
+          "options": [
+            "に",
+            "は",
+            "も",
+            "を",
+            "母 (はは)",
+            "らいました",
+            "私 (わたし)",
+            "時計 (とけい)"
+          ],
+          "correctOrderJson": "[\"私 (わたし)\",\"は\",\"母 (はは)\",\"に\",\"時計 (とけい)\",\"を\",\"も\",\"らいました\"]",
+          "correctOrder": [
+            "私 (わたし)",
+            "は",
+            "母 (はは)",
+            "に",
+            "時計 (とけい)",
+            "を",
+            "も",
+            "らいました"
+          ],
+          "orderIndex": 6
+        },
+        {
+          "id": "77777777-1133-0003-0000-000000850001",
+          "patternId": "77777777-1133-0001-0000-000000008011",
+          "exerciseType": "vi_to_ja",
+          "prompt": "Tôi đã nhận một chiếc đồng hồ từ mẹ.",
+          "expectedAnswer": "私は母に時計をもらいました。",
+          "acceptableAnswers": [],
+          "acceptableAnswersJson": "[]",
+          "hint": "",
+          "explanation": "",
+          "options": [],
+          "correctOrder": [],
+          "orderIndex": 1
+        }
+      ]
+    },
+    {
+      "id": "77777777-1133-0001-0000-000000008012",
+      "lessonId": "77777777-1133-0000-0000-000000000108",
+      "level": "N5",
+      "courseCode": "jpd133",
+      "pattern": "N1（人）が 私に N2（物）を くれます",
+      "title": "Người khác cho tôi/phía tôi",
+      "meaning": "A cho/tặng tôi hoặc người thuộc phía tôi",
+      "structure": "[người cho] が/は + 私（側）に + [vật] を + くれます",
+      "accessTier": "free",
+      "packageCode": "jpd133",
+      "isLocked": false,
+      "isInStudy": false,
+      "progress": null,
+      "usageScope": "Dùng khi ai đó cho/tặng người nói hoặc người được xem là thuộc phía người nói.",
+      "formation": "くれます / くれました",
+      "notes": "が/は: người cho; に: người nhận phía tôi; を: vật được cho あげます: tôi/phía tôi → người khác; くれます: người khác → tôi/phía tôi. Không dùng くれます khi người nhận hoàn toàn không thuộc phía người nói.",
+      "examples": [
+        {
+          "id": "77777777-1133-0002-0000-000000811001",
+          "japanese": "メアリーさんが私にかばんをくれました。",
+          "reading": "メアリーさんがわたしにかばんをくれました。",
+          "meaning": "Mary đã tặng tôi một cái cặp.",
+          "orderIndex": 1
+        },
+        {
+          "id": "77777777-1133-0002-0000-000000811002",
+          "japanese": "友達が弟にお菓子をくれました。",
+          "reading": "ともだちがおとうとにおかしをくれました。",
+          "meaning": "Bạn tôi đã cho em trai tôi bánh kẹo.",
+          "orderIndex": 2
+        }
+      ],
+      "exercises": [
+        {
+          "id": "77777777-1133-0003-0000-000000821001",
+          "patternId": "77777777-1133-0001-0000-000000008012",
+          "exerciseType": "ja_to_vi",
+          "prompt": "メアリーさんが私にかばんをくれました。",
+          "promptReading": "メアリーさんがわたしにかばんをくれました。",
+          "expectedAnswer": "Mary đã tặng tôi một cái cặp.",
+          "hint": "N1（人）が 私に N2（物）を くれます",
+          "explanation": "が/は: người cho; に: người nhận phía tôi; を: vật được cho あげます: tôi/phía tôi → người khác; くれます: người khác → tôi/phía tôi. Không dùng くれます khi người nhận hoàn toàn không thuộc phía người nói.",
+          "orderIndex": 1
+        },
+        {
+          "id": "77777777-1133-0003-0000-000000831001",
+          "patternId": "77777777-1133-0001-0000-000000008012",
+          "exerciseType": "vi_to_ja",
+          "prompt": "Mary đã tặng tôi một cái cặp.",
+          "expectedAnswer": "メアリーさんが私にかばんをくれました。",
+          "acceptableAnswers": [
+            "メアリーさんがわたしにかばんをくれました。"
+          ],
+          "hint": "くれます / くれました",
+          "explanation": "が/は: người cho; に: người nhận phía tôi; を: vật được cho あげます: tôi/phía tôi → người khác; くれます: người khác → tôi/phía tôi. Không dùng くれます khi người nhận hoàn toàn không thuộc phía người nói.",
+          "orderIndex": 2
+        },
+        {
+          "id": "77777777-1133-0003-0000-000000841001",
+          "patternId": "77777777-1133-0001-0000-000000008012",
+          "exerciseType": "arrange",
+          "prompt": "Mary đã tặng tôi một cái cặp.",
+          "expectedAnswer": "メアリーさんが私 (わたし)にかばんをくれました",
+          "optionsJson": "[\"が\",\"に\",\"を\",\"かばん\",\"くれました\",\"私 (わたし)\",\"メアリーさん\"]",
+          "options": [
+            "が",
+            "に",
+            "を",
+            "かばん",
+            "くれました",
+            "私 (わたし)",
+            "メアリーさん"
+          ],
+          "correctOrderJson": "[\"メアリーさん\",\"が\",\"私 (わたし)\",\"に\",\"かばん\",\"を\",\"くれました\"]",
+          "correctOrder": [
+            "メアリーさん",
+            "が",
+            "私 (わたし)",
+            "に",
+            "かばん",
+            "を",
+            "くれました"
+          ],
+          "orderIndex": 3
+        },
+        {
+          "id": "77777777-1133-0003-0000-000000821002",
+          "patternId": "77777777-1133-0001-0000-000000008012",
+          "exerciseType": "ja_to_vi",
+          "prompt": "友達が弟にお菓子をくれました。",
+          "promptReading": "ともだちがおとうとにおかしをくれました。",
+          "expectedAnswer": "Bạn tôi đã cho em trai tôi bánh kẹo.",
+          "hint": "N1（人）が 私に N2（物）を くれます",
+          "explanation": "が/は: người cho; に: người nhận phía tôi; を: vật được cho あげます: tôi/phía tôi → người khác; くれます: người khác → tôi/phía tôi. Không dùng くれます khi người nhận hoàn toàn không thuộc phía người nói.",
+          "orderIndex": 4
+        },
+        {
+          "id": "77777777-1133-0003-0000-000000831002",
+          "patternId": "77777777-1133-0001-0000-000000008012",
+          "exerciseType": "vi_to_ja",
+          "prompt": "Bạn tôi đã cho em trai tôi bánh kẹo.",
+          "expectedAnswer": "友達が弟にお菓子をくれました。",
+          "acceptableAnswers": [
+            "ともだちがおとうとにおかしをくれました。"
+          ],
+          "hint": "くれます / くれました",
+          "explanation": "が/は: người cho; に: người nhận phía tôi; を: vật được cho あげます: tôi/phía tôi → người khác; くれます: người khác → tôi/phía tôi. Không dùng くれます khi người nhận hoàn toàn không thuộc phía người nói.",
+          "orderIndex": 5
+        },
+        {
+          "id": "77777777-1133-0003-0000-000000841002",
+          "patternId": "77777777-1133-0001-0000-000000008012",
+          "exerciseType": "arrange",
+          "prompt": "Bạn tôi đã cho em trai tôi bánh kẹo.",
+          "expectedAnswer": "友達 (ともだち)が弟 (おとうと)にお菓子 (おかし)をくれました",
+          "optionsJson": "[\"が\",\"に\",\"を\",\"くれました\",\"弟 (おとうと)\",\"お菓子 (おかし)\",\"友達 (ともだち)\"]",
+          "options": [
+            "が",
+            "に",
+            "を",
+            "くれました",
+            "弟 (おとうと)",
+            "お菓子 (おかし)",
+            "友達 (ともだち)"
+          ],
+          "correctOrderJson": "[\"友達 (ともだち)\",\"が\",\"弟 (おとうと)\",\"に\",\"お菓子 (おかし)\",\"を\",\"くれました\"]",
+          "correctOrder": [
+            "友達 (ともだち)",
+            "が",
+            "弟 (おとうと)",
+            "に",
+            "お菓子 (おかし)",
+            "を",
+            "くれました"
+          ],
+          "orderIndex": 6
+        },
+        {
+          "id": "77777777-1133-0003-0000-000000851001",
+          "patternId": "77777777-1133-0001-0000-000000008012",
+          "exerciseType": "vi_to_ja",
+          "prompt": "友達が私にプレゼントを（　）。",
+          "expectedAnswer": "くれました",
+          "acceptableAnswers": [],
+          "acceptableAnswersJson": "[]",
+          "hint": "",
+          "explanation": "Người khác cho/tặng tôi hoặc người thuộc phía tôi dùng くれます.",
+          "options": [
+            "あげました",
+            "くれました",
+            "もらいました",
+            "いました"
+          ],
+          "optionsJson": "[\"あげました\",\"くれました\",\"もらいました\",\"いました\"]",
+          "correctOrder": [],
+          "orderIndex": 1
+        },
+        {
+          "id": "77777777-1133-0003-0000-000000851002",
+          "patternId": "77777777-1133-0001-0000-000000008012",
+          "exerciseType": "arrange",
+          "prompt": "かばんを / 私に / メアリーさんが / くれました",
+          "expectedAnswer": "メアリーさんが私にかばんをくれました。",
+          "acceptableAnswers": [],
+          "acceptableAnswersJson": "[]",
+          "hint": "",
+          "explanation": "",
+          "options": [
+            "かばんを",
+            "私に",
+            "メアリーさんが",
+            "くれました"
+          ],
+          "optionsJson": "[\"かばんを\",\"私に\",\"メアリーさんが\",\"くれました\"]",
+          "correctOrder": [
+            "メアリーさんが",
+            "私に",
+            "かばんを",
+            "くれました"
+          ],
+          "correctOrderJson": "[\"メアリーさんが\",\"私に\",\"かばんを\",\"くれました\"]",
+          "orderIndex": 2
+        },
+        {
+          "id": "77777777-1133-0003-0000-000000851003",
+          "patternId": "77777777-1133-0001-0000-000000008012",
+          "exerciseType": "vi_to_ja",
+          "prompt": "Mary đã tặng tôi một cái cặp.",
+          "expectedAnswer": "メアリーさんが私にかばんをくれました。",
+          "acceptableAnswers": [],
+          "acceptableAnswersJson": "[]",
+          "hint": "",
+          "explanation": "",
+          "options": [],
+          "correctOrder": [],
+          "orderIndex": 3
+        }
+      ]
+    }
+  ]
+}

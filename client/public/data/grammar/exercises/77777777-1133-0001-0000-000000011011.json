@@ -1,0 +1,78 @@
+[
+  {
+    "id": "77777777-1133-0003-0000-000001120001",
+    "patternId": "77777777-1133-0001-0000-000000011011",
+    "exerciseType": "ja_to_vi",
+    "prompt": "海行く？――うん、行く。／ううん、行かない。",
+    "promptReading": "うみいく？――うん、いく。／ううん、いかない。",
+    "expectedAnswer": "Đi biển không? — Ừ, đi. / Không, không đi.",
+    "hint": "普通形？",
+    "explanation": "Trợ từ có thể bị lược trong khẩu ngữ thân mật nhưng không phải lúc nào cũng nên lược ～ますか là lịch sự; 普通形？ là thân mật. Không dùng thể thân mật trong bối cảnh cần lịch sự.",
+    "orderIndex": 1
+  },
+  {
+    "id": "77777777-1133-0003-0000-000001130001",
+    "patternId": "77777777-1133-0001-0000-000000011011",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Đi biển không? — Ừ, đi. / Không, không đi.",
+    "expectedAnswer": "海行く？――うん、行く。／ううん、行かない。",
+    "acceptableAnswers": [
+      "うみいく？――うん、いく。／ううん、いかない。"
+    ],
+    "hint": "行きますか → 行く？; 行きませんか → 行かない？",
+    "explanation": "Trợ từ có thể bị lược trong khẩu ngữ thân mật nhưng không phải lúc nào cũng nên lược ～ますか là lịch sự; 普通形？ là thân mật. Không dùng thể thân mật trong bối cảnh cần lịch sự.",
+    "orderIndex": 2
+  },
+  {
+    "id": "77777777-1133-0003-0000-000001120002",
+    "patternId": "77777777-1133-0001-0000-000000011011",
+    "exerciseType": "ja_to_vi",
+    "prompt": "明日学校行く？",
+    "promptReading": "あしたがっこういく？",
+    "expectedAnswer": "Mai đi học không?",
+    "hint": "普通形？",
+    "explanation": "Trợ từ có thể bị lược trong khẩu ngữ thân mật nhưng không phải lúc nào cũng nên lược ～ますか là lịch sự; 普通形？ là thân mật. Không dùng thể thân mật trong bối cảnh cần lịch sự.",
+    "orderIndex": 3
+  },
+  {
+    "id": "77777777-1133-0003-0000-000001130002",
+    "patternId": "77777777-1133-0001-0000-000000011011",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Mai đi học không?",
+    "expectedAnswer": "明日学校行く？",
+    "acceptableAnswers": [
+      "あしたがっこういく？"
+    ],
+    "hint": "行きますか → 行く？; 行きませんか → 行かない？",
+    "explanation": "Trợ từ có thể bị lược trong khẩu ngữ thân mật nhưng không phải lúc nào cũng nên lược ～ますか là lịch sự; 普通形？ là thân mật. Không dùng thể thân mật trong bối cảnh cần lịch sự.",
+    "orderIndex": 4
+  },
+  {
+    "id": "77777777-1133-0003-0000-000001150001",
+    "patternId": "77777777-1133-0001-0000-000000011011",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Chuyển câu lịch sự 海へ行きますか。 sang câu hỏi thân mật theo mẫu bài.",
+    "expectedAnswer": "海行く？",
+    "acceptableAnswers": [],
+    "acceptableAnswersJson": "[]",
+    "hint": "",
+    "explanation": "Dùng thể thường 行く？; trong hội thoại thân mật có thể lược へ.",
+    "options": [],
+    "correctOrder": [],
+    "orderIndex": 1
+  },
+  {
+    "id": "77777777-1133-0003-0000-000001150002",
+    "patternId": "77777777-1133-0001-0000-000000011011",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Chuyển ありません sang dạng thân mật.",
+    "expectedAnswer": "ない。",
+    "acceptableAnswers": [],
+    "acceptableAnswersJson": "[]",
+    "hint": "",
+    "explanation": "Phủ định thể thường của ある là ない.",
+    "options": [],
+    "correctOrder": [],
+    "orderIndex": 2
+  }
+]

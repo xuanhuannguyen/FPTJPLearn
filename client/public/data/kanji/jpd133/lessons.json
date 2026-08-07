@@ -1,0 +1,54 @@
+[
+  {
+    "id": "kanji-jpd133-n5-8",
+    "level": "N5",
+    "lessonNumber": 8,
+    "title": "Gia đình và đời sống",
+    "description": "Gia đình và đời sống - JPD133 Kanji N5.",
+    "accessTier": "free",
+    "packageCode": "kanji_jpd133",
+    "orderIndex": 8,
+    "kanjiCount": 12,
+    "vocabularyCount": 28,
+    "isLocked": false
+  },
+  {
+    "id": "kanji-jpd133-n5-9",
+    "level": "N5",
+    "lessonNumber": 9,
+    "title": "Sở thích, âm nhạc, du lịch, nước ngoài",
+    "description": "Sở thích, âm nhạc, du lịch, nước ngoài - JPD133 Kanji N5.",
+    "accessTier": "premium",
+    "packageCode": "kanji_jpd133",
+    "orderIndex": 9,
+    "kanjiCount": 10,
+    "vocabularyCount": 25,
+    "isLocked": true
+  },
+  {
+    "id": "kanji-jpd133-n5-10",
+    "level": "N5",
+    "lessonNumber": 10,
+    "title": "Địa điểm, phương hướng, đường đi",
+    "description": "Địa điểm, phương hướng, đường đi - JPD133 Kanji N5.",
+    "accessTier": "premium",
+    "packageCode": "kanji_jpd133",
+    "orderIndex": 10,
+    "kanjiCount": 9,
+    "vocabularyCount": 25,
+    "isLocked": true
+  },
+  {
+    "id": "kanji-jpd133-n5-11",
+    "level": "N5",
+    "lessonNumber": 11,
+    "title": "Sinh hoạt hằng ngày, học tập, thời gian",
+    "description": "Sinh hoạt hằng ngày, học tập, thời gian - JPD133 Kanji N5.",
+    "accessTier": "premium",
+    "packageCode": "kanji_jpd133",
+    "orderIndex": 11,
+    "kanjiCount": 9,
+    "vocabularyCount": 24,
+    "isLocked": true
+  }
+]

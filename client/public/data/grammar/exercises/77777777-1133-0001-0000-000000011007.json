@@ -1,0 +1,118 @@
+[
+  {
+    "id": "77777777-1133-0003-0000-000001116001",
+    "patternId": "77777777-1133-0001-0000-000000011007",
+    "exerciseType": "ja_to_vi",
+    "prompt": "つかれたとき、どうしますか。――あまいものを食べます。",
+    "promptReading": "つかれたとき、どうしますか。――あまいものをたべます。",
+    "expectedAnswer": "Khi mệt, bạn làm gì? — Tôi ăn đồ ngọt.",
+    "hint": "どうしますか",
+    "explanation": "か: đánh dấu câu hỏi どうやって ở bài 9-3 dễ nhầm. Không trả lời chỉ bằng はい/いいえ.",
+    "orderIndex": 1
+  },
+  {
+    "id": "77777777-1133-0003-0000-000001126001",
+    "patternId": "77777777-1133-0001-0000-000000011007",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Khi mệt, bạn làm gì? — Tôi ăn đồ ngọt.",
+    "expectedAnswer": "つかれたとき、どうしますか。――あまいものを食べます。",
+    "acceptableAnswers": [
+      "つかれたとき、どうしますか。――あまいものをたべます。"
+    ],
+    "hint": "どうしますか → câu trả lời bằng hành động",
+    "explanation": "か: đánh dấu câu hỏi どうやって ở bài 9-3 dễ nhầm. Không trả lời chỉ bằng はい/いいえ.",
+    "orderIndex": 2
+  },
+  {
+    "id": "77777777-1133-0003-0000-000001136001",
+    "patternId": "77777777-1133-0001-0000-000000011007",
+    "exerciseType": "arrange",
+    "prompt": "Khi mệt, bạn làm gì? — Tôi ăn đồ ngọt.",
+    "expectedAnswer": "つかれたとき、どうしますか。――あまいものを食べます (のをたべます)",
+    "optionsJson": "[\"と\",\"の\",\"も\",\"を\",\"つかれた\",\"食べます (のをたべます)\",\"き、どうしますか。――あまい\"]",
+    "options": [
+      "と",
+      "の",
+      "も",
+      "を",
+      "つかれた",
+      "食べます (のをたべます)",
+      "き、どうしますか。――あまい"
+    ],
+    "correctOrderJson": "[\"つかれた\",\"と\",\"き、どうしますか。――あまい\",\"も\",\"の\",\"を\",\"食べます (のをたべます)\"]",
+    "correctOrder": [
+      "つかれた",
+      "と",
+      "き、どうしますか。――あまい",
+      "も",
+      "の",
+      "を",
+      "食べます (のをたべます)"
+    ],
+    "orderIndex": 3
+  },
+  {
+    "id": "77777777-1133-0003-0000-000001116002",
+    "patternId": "77777777-1133-0001-0000-000000011007",
+    "exerciseType": "ja_to_vi",
+    "prompt": "ひまなとき、どうしますか。",
+    "promptReading": "ひまなとき、どうしますか。",
+    "expectedAnswer": "Khi rảnh bạn làm gì?",
+    "hint": "どうしますか",
+    "explanation": "か: đánh dấu câu hỏi どうやって ở bài 9-3 dễ nhầm. Không trả lời chỉ bằng はい/いいえ.",
+    "orderIndex": 4
+  },
+  {
+    "id": "77777777-1133-0003-0000-000001126002",
+    "patternId": "77777777-1133-0001-0000-000000011007",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Khi rảnh bạn làm gì?",
+    "expectedAnswer": "ひまなとき、どうしますか。",
+    "acceptableAnswers": [
+      "ひまなとき、どうしますか。"
+    ],
+    "hint": "どうしますか → câu trả lời bằng hành động",
+    "explanation": "か: đánh dấu câu hỏi どうやって ở bài 9-3 dễ nhầm. Không trả lời chỉ bằng はい/いいえ.",
+    "orderIndex": 5
+  },
+  {
+    "id": "77777777-1133-0003-0000-000001136002",
+    "patternId": "77777777-1133-0001-0000-000000011007",
+    "exerciseType": "arrange",
+    "prompt": "Khi rảnh bạn làm gì?",
+    "expectedAnswer": "ひまなとき、どうしますか",
+    "optionsJson": "[\"と\",\"ひまな\",\"き、どうしますか\"]",
+    "options": [
+      "と",
+      "ひまな",
+      "き、どうしますか"
+    ],
+    "correctOrderJson": "[\"ひまな\",\"と\",\"き、どうしますか\"]",
+    "correctOrder": [
+      "ひまな",
+      "と",
+      "き、どうしますか"
+    ],
+    "orderIndex": 6
+  },
+  {
+    "id": "77777777-1133-0003-0000-000001146001",
+    "patternId": "77777777-1133-0001-0000-000000011007",
+    "exerciseType": "vi_to_ja",
+    "prompt": "イタリアへ行っ（　）、このぼうしを買いました。",
+    "expectedAnswer": "たとき",
+    "acceptableAnswers": [],
+    "acceptableAnswersJson": "[]",
+    "hint": "",
+    "explanation": "行ったとき dùng Vた形 + とき.",
+    "options": [
+      "てとき",
+      "たとき",
+      "ないとき",
+      "ますとき"
+    ],
+    "optionsJson": "[\"てとき\",\"たとき\",\"ないとき\",\"ますとき\"]",
+    "correctOrder": [],
+    "orderIndex": 1
+  }
+]

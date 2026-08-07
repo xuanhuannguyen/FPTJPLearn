@@ -1,0 +1,108 @@
+[
+  {
+    "id": "77777777-1133-0003-0000-000001123001",
+    "patternId": "77777777-1133-0001-0000-000000011014",
+    "exerciseType": "ja_to_vi",
+    "prompt": "あの店高いけど、おいしいよ。",
+    "promptReading": "あのみせたかいけど、おいしいよ。",
+    "expectedAnswer": "Quán đó đắt nhưng ngon đấy.",
+    "hint": "普通形 + けど、＿＿＿＿",
+    "explanation": "けど: liên kết tương phản でも là liên từ đứng đầu câu; が/ですが lịch sự hơn; けど thân mật hơn. Không gắn けど sau ます trong mẫu thân mật này nếu mục tiêu là giữ thể thường.",
+    "orderIndex": 1
+  },
+  {
+    "id": "77777777-1133-0003-0000-000001133001",
+    "patternId": "77777777-1133-0001-0000-000000011014",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Quán đó đắt nhưng ngon đấy.",
+    "expectedAnswer": "あの店高いけど、おいしいよ。",
+    "acceptableAnswers": [
+      "あのみせたかいけど、おいしいよ。"
+    ],
+    "hint": "イA + けど; V普通形 + けど; ナA/N thường cần dạng tương ứng với だ trong văn nói",
+    "explanation": "けど: liên kết tương phản でも là liên từ đứng đầu câu; が/ですが lịch sự hơn; けど thân mật hơn. Không gắn けど sau ます trong mẫu thân mật này nếu mục tiêu là giữ thể thường.",
+    "orderIndex": 2
+  },
+  {
+    "id": "77777777-1133-0003-0000-000001143001",
+    "patternId": "77777777-1133-0001-0000-000000011014",
+    "exerciseType": "arrange",
+    "prompt": "Quán đó đắt nhưng ngon đấy.",
+    "expectedAnswer": "あの店高いけど、おいしいよ (みせたかいけど、おいしいよ)",
+    "optionsJson": "[\"あ\",\"の\",\"店高いけど、おいしいよ (みせたかいけど、おいしいよ)\"]",
+    "options": [
+      "あ",
+      "の",
+      "店高いけど、おいしいよ (みせたかいけど、おいしいよ)"
+    ],
+    "correctOrderJson": "[\"あ\",\"の\",\"店高いけど、おいしいよ (みせたかいけど、おいしいよ)\"]",
+    "correctOrder": [
+      "あ",
+      "の",
+      "店高いけど、おいしいよ (みせたかいけど、おいしいよ)"
+    ],
+    "orderIndex": 3
+  },
+  {
+    "id": "77777777-1133-0003-0000-000001123002",
+    "patternId": "77777777-1133-0001-0000-000000011014",
+    "exerciseType": "ja_to_vi",
+    "prompt": "日本語は難しいけど、おもしろい。",
+    "promptReading": "にほんごはむずかしいけど、おもしろい。",
+    "expectedAnswer": "Tiếng Nhật khó nhưng thú vị.",
+    "hint": "普通形 + けど、＿＿＿＿",
+    "explanation": "けど: liên kết tương phản でも là liên từ đứng đầu câu; が/ですが lịch sự hơn; けど thân mật hơn. Không gắn けど sau ます trong mẫu thân mật này nếu mục tiêu là giữ thể thường.",
+    "orderIndex": 4
+  },
+  {
+    "id": "77777777-1133-0003-0000-000001133002",
+    "patternId": "77777777-1133-0001-0000-000000011014",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Tiếng Nhật khó nhưng thú vị.",
+    "expectedAnswer": "日本語は難しいけど、おもしろい。",
+    "acceptableAnswers": [
+      "にほんごはむずかしいけど、おもしろい。"
+    ],
+    "hint": "イA + けど; V普通形 + けど; ナA/N thường cần dạng tương ứng với だ trong văn nói",
+    "explanation": "けど: liên kết tương phản でも là liên từ đứng đầu câu; が/ですが lịch sự hơn; けど thân mật hơn. Không gắn けど sau ます trong mẫu thân mật này nếu mục tiêu là giữ thể thường.",
+    "orderIndex": 5
+  },
+  {
+    "id": "77777777-1133-0003-0000-000001143002",
+    "patternId": "77777777-1133-0001-0000-000000011014",
+    "exerciseType": "arrange",
+    "prompt": "Tiếng Nhật khó nhưng thú vị.",
+    "expectedAnswer": "日本語 (にほんご)は難しいけど、お (むずかしいけど、お)もしろい",
+    "optionsJson": "[\"は\",\"も\",\"しろい\",\"日本語 (にほんご)\",\"難しいけど、お (むずかしいけど、お)\"]",
+    "options": [
+      "は",
+      "も",
+      "しろい",
+      "日本語 (にほんご)",
+      "難しいけど、お (むずかしいけど、お)"
+    ],
+    "correctOrderJson": "[\"日本語 (にほんご)\",\"は\",\"難しいけど、お (むずかしいけど、お)\",\"も\",\"しろい\"]",
+    "correctOrder": [
+      "日本語 (にほんご)",
+      "は",
+      "難しいけど、お (むずかしいけど、お)",
+      "も",
+      "しろい"
+    ],
+    "orderIndex": 6
+  },
+  {
+    "id": "77777777-1133-0003-0000-000001153001",
+    "patternId": "77777777-1133-0001-0000-000000011014",
+    "exerciseType": "vi_to_ja",
+    "prompt": "(Nói với bạn) Tiếng Nhật khó nhưng thú vị.",
+    "expectedAnswer": "日本語は難しいけど、おもしろい。",
+    "acceptableAnswers": [],
+    "acceptableAnswersJson": "[]",
+    "hint": "",
+    "explanation": "",
+    "options": [],
+    "correctOrder": [],
+    "orderIndex": 1
+  }
+]

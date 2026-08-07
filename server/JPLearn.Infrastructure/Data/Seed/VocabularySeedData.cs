@@ -10,6 +10,7 @@ public static class VocabularySeedData
 
     private static readonly Guid Jpd113CourseId = Guid.Parse("66666666-1113-0000-0000-000000000001");
     private static readonly Guid Jpd123CourseId = Guid.Parse("66666666-1123-0000-0000-000000000001");
+    private static readonly Guid Jpd133CourseId = Guid.Parse("66666666-1133-0000-0000-000000000001");
 
     public static async Task SeedAsync(AppDbContext db)
     {
@@ -240,17 +241,35 @@ public static class VocabularySeedData
 
     private static int CourseOrder(string courseCode)
     {
-        return courseCode == VocabularyCourseCodes.Jpd113 ? 1 : 2;
+        return courseCode switch
+        {
+            VocabularyCourseCodes.Jpd113 => 1,
+            VocabularyCourseCodes.Jpd123 => 2,
+            VocabularyCourseCodes.Jpd133 => 3,
+            _ => 99
+        };
     }
 
     private static Guid CourseId(string courseCode)
     {
-        return courseCode == VocabularyCourseCodes.Jpd113 ? Jpd113CourseId : Jpd123CourseId;
+        return courseCode switch
+        {
+            VocabularyCourseCodes.Jpd113 => Jpd113CourseId,
+            VocabularyCourseCodes.Jpd123 => Jpd123CourseId,
+            VocabularyCourseCodes.Jpd133 => Jpd133CourseId,
+            _ => throw new InvalidOperationException($"Unknown vocabulary course: {courseCode}")
+        };
     }
 
     private static Guid LessonId(string courseCode, int lessonNumber)
     {
-        var courseSegment = courseCode == VocabularyCourseCodes.Jpd113 ? "1113" : "1123";
+        var courseSegment = courseCode switch
+        {
+            VocabularyCourseCodes.Jpd113 => "1113",
+            VocabularyCourseCodes.Jpd123 => "1123",
+            VocabularyCourseCodes.Jpd133 => "1133",
+            _ => throw new InvalidOperationException($"Unknown vocabulary course: {courseCode}")
+        };
         return Guid.Parse($"66666666-{courseSegment}-0000-0000-{lessonNumber + 100:000000000000}");
     }
 
@@ -261,7 +280,13 @@ public static class VocabularySeedData
             return Guid.Parse(seed.Id);
         }
 
-        var courseSegment = courseCode == VocabularyCourseCodes.Jpd113 ? "1113" : "1123";
+        var courseSegment = courseCode switch
+        {
+            VocabularyCourseCodes.Jpd113 => "1113",
+            VocabularyCourseCodes.Jpd123 => "1123",
+            VocabularyCourseCodes.Jpd133 => "1133",
+            _ => throw new InvalidOperationException($"Unknown vocabulary course: {courseCode}")
+        };
         return Guid.Parse($"66666666-{courseSegment}-0000-0000-{lessonNumber * 1000 + index + 1:000000000000}");
     }
 

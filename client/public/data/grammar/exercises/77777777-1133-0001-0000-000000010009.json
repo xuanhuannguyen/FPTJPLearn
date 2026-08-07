@@ -1,0 +1,110 @@
+[
+  {
+    "id": "77777777-1133-0003-0000-000001018001",
+    "patternId": "77777777-1133-0001-0000-000000010009",
+    "exerciseType": "ja_to_vi",
+    "prompt": "あっ、サルがバナナを食べています。",
+    "promptReading": "あっ、サルがバナナをたべています。",
+    "expectedAnswer": "A, con khỉ đang ăn chuối.",
+    "hint": "N が Vて形 + います",
+    "explanation": "が: chủ thể đang thực hiện hành động Bài 8 cũng có Vています cho trạng thái/nghề nghiệp; bài 10-3 nhấn mạnh hành động đang xảy ra trước mắt. Không luôn dịch mọi Vています là 'đang' nếu ngữ cảnh là thói quen/trạng thái.",
+    "orderIndex": 1
+  },
+  {
+    "id": "77777777-1133-0003-0000-000001028001",
+    "patternId": "77777777-1133-0001-0000-000000010009",
+    "exerciseType": "vi_to_ja",
+    "prompt": "A, con khỉ đang ăn chuối.",
+    "expectedAnswer": "あっ、サルがバナナを食べています。",
+    "acceptableAnswers": [
+      "あっ、サルがバナナをたべています。"
+    ],
+    "hint": "食べます → 食べています",
+    "explanation": "が: chủ thể đang thực hiện hành động Bài 8 cũng có Vています cho trạng thái/nghề nghiệp; bài 10-3 nhấn mạnh hành động đang xảy ra trước mắt. Không luôn dịch mọi Vています là 'đang' nếu ngữ cảnh là thói quen/trạng thái.",
+    "orderIndex": 2
+  },
+  {
+    "id": "77777777-1133-0003-0000-000001038001",
+    "patternId": "77777777-1133-0001-0000-000000010009",
+    "exerciseType": "arrange",
+    "prompt": "A, con khỉ đang ăn chuối.",
+    "expectedAnswer": "あっ、サルがバナナを食べています (たべています)",
+    "optionsJson": "[\"が\",\"を\",\"バナナ\",\"あっ、サル\",\"食べています (たべています)\"]",
+    "options": [
+      "が",
+      "を",
+      "バナナ",
+      "あっ、サル",
+      "食べています (たべています)"
+    ],
+    "correctOrderJson": "[\"あっ、サル\",\"が\",\"バナナ\",\"を\",\"食べています (たべています)\"]",
+    "correctOrder": [
+      "あっ、サル",
+      "が",
+      "バナナ",
+      "を",
+      "食べています (たべています)"
+    ],
+    "orderIndex": 3
+  },
+  {
+    "id": "77777777-1133-0003-0000-000001018002",
+    "patternId": "77777777-1133-0001-0000-000000010009",
+    "exerciseType": "ja_to_vi",
+    "prompt": "子どもが公園で遊んでいます。",
+    "promptReading": "こどもがこうえんであそんでいます。",
+    "expectedAnswer": "Bọn trẻ đang chơi trong công viên.",
+    "hint": "N が Vて形 + います",
+    "explanation": "が: chủ thể đang thực hiện hành động Bài 8 cũng có Vています cho trạng thái/nghề nghiệp; bài 10-3 nhấn mạnh hành động đang xảy ra trước mắt. Không luôn dịch mọi Vています là 'đang' nếu ngữ cảnh là thói quen/trạng thái.",
+    "orderIndex": 4
+  },
+  {
+    "id": "77777777-1133-0003-0000-000001028002",
+    "patternId": "77777777-1133-0001-0000-000000010009",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Bọn trẻ đang chơi trong công viên.",
+    "expectedAnswer": "子どもが公園で遊んでいます。",
+    "acceptableAnswers": [
+      "こどもがこうえんであそんでいます。"
+    ],
+    "hint": "食べます → 食べています",
+    "explanation": "が: chủ thể đang thực hiện hành động Bài 8 cũng có Vています cho trạng thái/nghề nghiệp; bài 10-3 nhấn mạnh hành động đang xảy ra trước mắt. Không luôn dịch mọi Vています là 'đang' nếu ngữ cảnh là thói quen/trạng thái.",
+    "orderIndex": 5
+  },
+  {
+    "id": "77777777-1133-0003-0000-000001038002",
+    "patternId": "77777777-1133-0001-0000-000000010009",
+    "exerciseType": "arrange",
+    "prompt": "Bọn trẻ đang chơi trong công viên.",
+    "expectedAnswer": "子ど (こど)もが公園で遊んでいます (がこうえんであそんでいます)",
+    "optionsJson": "[\"が\",\"も\",\"子ど (こど)\",\"公園で遊んでいます (がこうえんであそんでいます)\"]",
+    "options": [
+      "が",
+      "も",
+      "子ど (こど)",
+      "公園で遊んでいます (がこうえんであそんでいます)"
+    ],
+    "correctOrderJson": "[\"子ど (こど)\",\"も\",\"が\",\"公園で遊んでいます (がこうえんであそんでいます)\"]",
+    "correctOrder": [
+      "子ど (こど)",
+      "も",
+      "が",
+      "公園で遊んでいます (がこうえんであそんでいます)"
+    ],
+    "orderIndex": 6
+  },
+  {
+    "id": "77777777-1133-0003-0000-000001048001",
+    "patternId": "77777777-1133-0001-0000-000000010009",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Con khỉ đang ăn chuối.",
+    "expectedAnswer": "サルがバナナを食べています。",
+    "acceptableAnswers": [],
+    "acceptableAnswersJson": "[]",
+    "hint": "",
+    "explanation": "",
+    "options": [],
+    "correctOrder": [],
+    "orderIndex": 1
+  }
+]

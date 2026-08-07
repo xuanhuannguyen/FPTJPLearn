@@ -1,0 +1,340 @@
+[
+  {
+    "id": "77777777-1133-0003-0000-000000810001",
+    "patternId": "77777777-1133-0001-0000-000000008001",
+    "exerciseType": "ja_to_vi",
+    "prompt": "私はよこはまに住んでいます。",
+    "promptReading": "わたしはよこはまにすんでいます。",
+    "expectedAnswer": "Tôi đang sống ở Yokohama.",
+    "hint": "Vて形 + います",
+    "explanation": "に: đánh dấu nơi cư trú Vています cũng có thể diễn tả hành động đang tiếp diễn; với 住む thường hiểu là trạng thái cư trú. Không dùng で cho nơi cư trú trong mẫu 住んでいます.",
+    "orderIndex": 1
+  },
+  {
+    "id": "77777777-1133-0003-0000-000000820001",
+    "patternId": "77777777-1133-0001-0000-000000008001",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Tôi đang sống ở Yokohama.",
+    "expectedAnswer": "私はよこはまに住んでいます。",
+    "acceptableAnswers": [
+      "わたしはよこはまにすんでいます。"
+    ],
+    "hint": "住みます → 住んでいます",
+    "explanation": "に: đánh dấu nơi cư trú Vています cũng có thể diễn tả hành động đang tiếp diễn; với 住む thường hiểu là trạng thái cư trú. Không dùng で cho nơi cư trú trong mẫu 住んでいます.",
+    "orderIndex": 2
+  },
+  {
+    "id": "77777777-1133-0003-0000-000000830001",
+    "patternId": "77777777-1133-0001-0000-000000008001",
+    "exerciseType": "arrange",
+    "prompt": "Tôi đang sống ở Yokohama.",
+    "expectedAnswer": "私 (わたし)はよこはまに住んでいます (すんでいます)",
+    "optionsJson": "[\"に\",\"は\",\"は\",\"ま\",\"よこ\",\"私 (わたし)\",\"住んでいます (すんでいます)\"]",
+    "options": [
+      "に",
+      "は",
+      "は",
+      "ま",
+      "よこ",
+      "私 (わたし)",
+      "住んでいます (すんでいます)"
+    ],
+    "correctOrderJson": "[\"私 (わたし)\",\"は\",\"よこ\",\"は\",\"ま\",\"に\",\"住んでいます (すんでいます)\"]",
+    "correctOrder": [
+      "私 (わたし)",
+      "は",
+      "よこ",
+      "は",
+      "ま",
+      "に",
+      "住んでいます (すんでいます)"
+    ],
+    "orderIndex": 3
+  },
+  {
+    "id": "77777777-1133-0003-0000-000000810002",
+    "patternId": "77777777-1133-0001-0000-000000008001",
+    "exerciseType": "ja_to_vi",
+    "prompt": "兄は東京に住んでいます。",
+    "promptReading": "あにはとうきょうにすんでいます。",
+    "expectedAnswer": "Anh trai tôi đang sống ở Tokyo.",
+    "hint": "Vて形 + います",
+    "explanation": "に: đánh dấu nơi cư trú Vています cũng có thể diễn tả hành động đang tiếp diễn; với 住む thường hiểu là trạng thái cư trú. Không dùng で cho nơi cư trú trong mẫu 住んでいます.",
+    "orderIndex": 4
+  },
+  {
+    "id": "77777777-1133-0003-0000-000000820002",
+    "patternId": "77777777-1133-0001-0000-000000008001",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Anh trai tôi đang sống ở Tokyo.",
+    "expectedAnswer": "兄は東京に住んでいます。",
+    "acceptableAnswers": [
+      "あにはとうきょうにすんでいます。"
+    ],
+    "hint": "住みます → 住んでいます",
+    "explanation": "に: đánh dấu nơi cư trú Vています cũng có thể diễn tả hành động đang tiếp diễn; với 住む thường hiểu là trạng thái cư trú. Không dùng で cho nơi cư trú trong mẫu 住んでいます.",
+    "orderIndex": 5
+  },
+  {
+    "id": "77777777-1133-0003-0000-000000830002",
+    "patternId": "77777777-1133-0001-0000-000000008001",
+    "exerciseType": "arrange",
+    "prompt": "Anh trai tôi đang sống ở Tokyo.",
+    "expectedAnswer": "兄 (あに)は東京 (とうきょう)に住んでいます (すんでいます)",
+    "optionsJson": "[\"に\",\"は\",\"兄 (あに)\",\"東京 (とうきょう)\",\"住んでいます (すんでいます)\"]",
+    "options": [
+      "に",
+      "は",
+      "兄 (あに)",
+      "東京 (とうきょう)",
+      "住んでいます (すんでいます)"
+    ],
+    "correctOrderJson": "[\"兄 (あに)\",\"は\",\"東京 (とうきょう)\",\"に\",\"住んでいます (すんでいます)\"]",
+    "correctOrder": [
+      "兄 (あに)",
+      "は",
+      "東京 (とうきょう)",
+      "に",
+      "住んでいます (すんでいます)"
+    ],
+    "orderIndex": 6
+  },
+  {
+    "id": "77777777-1133-0003-0000-000000840001",
+    "patternId": "77777777-1133-0001-0000-000000008001",
+    "exerciseType": "vi_to_ja",
+    "prompt": "私はハノイ（　）住んでいます。",
+    "expectedAnswer": "に",
+    "acceptableAnswers": [],
+    "acceptableAnswersJson": "[]",
+    "hint": "",
+    "explanation": "Với 住んでいます, nơi cư trú dùng trợ từ に: ハノイに住んでいます.",
+    "options": [
+      "を",
+      "に",
+      "で",
+      "が"
+    ],
+    "optionsJson": "[\"を\",\"に\",\"で\",\"が\"]",
+    "correctOrder": [],
+    "orderIndex": 1
+  },
+  {
+    "id": "77777777-1133-0003-0000-000000840002",
+    "patternId": "77777777-1133-0001-0000-000000008001",
+    "exerciseType": "vi_to_ja",
+    "prompt": "ナタポンさんはまじめ（　）、しんせつです。",
+    "expectedAnswer": "で",
+    "acceptableAnswers": [],
+    "acceptableAnswersJson": "[]",
+    "hint": "",
+    "explanation": "Tính từ な nối với tính chất sau bằng で: まじめで、しんせつです.",
+    "options": [
+      "くて",
+      "な",
+      "で",
+      "に"
+    ],
+    "optionsJson": "[\"くて\",\"な\",\"で\",\"に\"]",
+    "correctOrder": [],
+    "orderIndex": 2
+  },
+  {
+    "id": "77777777-1133-0003-0000-000000840003",
+    "patternId": "77777777-1133-0001-0000-000000008001",
+    "exerciseType": "vi_to_ja",
+    "prompt": "私は友達（　）本をあげました。",
+    "expectedAnswer": "に",
+    "acceptableAnswers": [],
+    "acceptableAnswersJson": "[]",
+    "hint": "",
+    "explanation": "Trong N1にN2をあげます, に đánh dấu người nhận.",
+    "options": [
+      "が",
+      "に",
+      "で",
+      "と"
+    ],
+    "optionsJson": "[\"が\",\"に\",\"で\",\"と\"]",
+    "correctOrder": [],
+    "orderIndex": 3
+  },
+  {
+    "id": "77777777-1133-0003-0000-000000840004",
+    "patternId": "77777777-1133-0001-0000-000000008001",
+    "exerciseType": "vi_to_ja",
+    "prompt": "私は母（　）時計をもらいました。",
+    "expectedAnswer": "に",
+    "acceptableAnswers": [],
+    "acceptableAnswersJson": "[]",
+    "hint": "",
+    "explanation": "Trong mẫu của bài, người cho trong もらいます dùng に.",
+    "options": [
+      "を",
+      "で",
+      "に",
+      "が"
+    ],
+    "optionsJson": "[\"を\",\"で\",\"に\",\"が\"]",
+    "correctOrder": [],
+    "orderIndex": 4
+  },
+  {
+    "id": "77777777-1133-0003-0000-000000840005",
+    "patternId": "77777777-1133-0001-0000-000000008001",
+    "exerciseType": "arrange",
+    "prompt": "住んでいます / 私は / 東京に",
+    "expectedAnswer": "私は東京に住んでいます。",
+    "acceptableAnswers": [],
+    "acceptableAnswersJson": "[]",
+    "hint": "",
+    "explanation": "",
+    "options": [
+      "住んでいます",
+      "私は",
+      "東京に"
+    ],
+    "optionsJson": "[\"住んでいます\",\"私は\",\"東京に\"]",
+    "correctOrder": [
+      "私は",
+      "東京に",
+      "住んでいます"
+    ],
+    "correctOrderJson": "[\"私は\",\"東京に\",\"住んでいます\"]",
+    "orderIndex": 5
+  },
+  {
+    "id": "77777777-1133-0003-0000-000000840006",
+    "patternId": "77777777-1133-0001-0000-000000008001",
+    "exerciseType": "arrange",
+    "prompt": "家族と / 4人で / 住んでいます / 私は",
+    "expectedAnswer": "私は家族と4人で住んでいます。",
+    "acceptableAnswers": [],
+    "acceptableAnswersJson": "[]",
+    "hint": "",
+    "explanation": "",
+    "options": [
+      "家族と",
+      "4人で",
+      "住んでいます",
+      "私は"
+    ],
+    "optionsJson": "[\"家族と\",\"4人で\",\"住んでいます\",\"私は\"]",
+    "correctOrder": [
+      "私は",
+      "家族と",
+      "4人で",
+      "住んでいます"
+    ],
+    "correctOrderJson": "[\"私は\",\"家族と\",\"4人で\",\"住んでいます\"]",
+    "orderIndex": 6
+  },
+  {
+    "id": "77777777-1133-0003-0000-000000840007",
+    "patternId": "77777777-1133-0001-0000-000000008001",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Tôi đang sống ở Yokohama.",
+    "expectedAnswer": "私はよこはまに住んでいます。",
+    "acceptableAnswers": [],
+    "acceptableAnswersJson": "[]",
+    "hint": "",
+    "explanation": "",
+    "options": [],
+    "correctOrder": [],
+    "orderIndex": 7
+  },
+  {
+    "id": "77777777-1133-0003-0000-000000840008",
+    "patternId": "77777777-1133-0001-0000-000000008001",
+    "exerciseType": "vi_to_ja",
+    "prompt": "私は東京＿＿住んでいます。",
+    "expectedAnswer": "に",
+    "acceptableAnswers": [],
+    "acceptableAnswersJson": "[]",
+    "hint": "",
+    "explanation": "Nơi cư trú của 住んでいます dùng に.",
+    "options": [
+      "を",
+      "に",
+      "で",
+      "が"
+    ],
+    "optionsJson": "[\"を\",\"に\",\"で\",\"が\"]",
+    "correctOrder": [],
+    "orderIndex": 8
+  },
+  {
+    "id": "77777777-1133-0003-0000-000000840009",
+    "patternId": "77777777-1133-0001-0000-000000008001",
+    "exerciseType": "vi_to_ja",
+    "prompt": "母は病院＿＿働いています。",
+    "expectedAnswer": "で",
+    "acceptableAnswers": [],
+    "acceptableAnswersJson": "[]",
+    "hint": "",
+    "explanation": "Nơi diễn ra hành động/công việc dùng で.",
+    "options": [
+      "で",
+      "に",
+      "を",
+      "が"
+    ],
+    "optionsJson": "[\"で\",\"に\",\"を\",\"が\"]",
+    "correctOrder": [],
+    "orderIndex": 9
+  },
+  {
+    "id": "77777777-1133-0003-0000-000000840010",
+    "patternId": "77777777-1133-0001-0000-000000008001",
+    "exerciseType": "vi_to_ja",
+    "prompt": "私は友達＿＿花をあげました。",
+    "expectedAnswer": "に",
+    "acceptableAnswers": [],
+    "acceptableAnswersJson": "[]",
+    "hint": "",
+    "explanation": "Người nhận trong あげます dùng に.",
+    "options": [
+      "に",
+      "が",
+      "で",
+      "は"
+    ],
+    "optionsJson": "[\"に\",\"が\",\"で\",\"は\"]",
+    "correctOrder": [],
+    "orderIndex": 10
+  },
+  {
+    "id": "77777777-1133-0003-0000-000000840011",
+    "patternId": "77777777-1133-0001-0000-000000008001",
+    "exerciseType": "vi_to_ja",
+    "prompt": "パクさんはカルロスさん＿＿花をもらいました。",
+    "expectedAnswer": "に",
+    "acceptableAnswers": [],
+    "acceptableAnswersJson": "[]",
+    "hint": "",
+    "explanation": "Theo mẫu trong tài liệu, người cho trong もらいます dùng に.",
+    "options": [
+      "を",
+      "に",
+      "で",
+      "と"
+    ],
+    "optionsJson": "[\"を\",\"に\",\"で\",\"と\"]",
+    "correctOrder": [],
+    "orderIndex": 11
+  },
+  {
+    "id": "77777777-1133-0003-0000-000000840012",
+    "patternId": "77777777-1133-0001-0000-000000008001",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Chuyển 住みます sang mẫu Vています.",
+    "expectedAnswer": "住んでいます。",
+    "acceptableAnswers": [],
+    "acceptableAnswersJson": "[]",
+    "hint": "",
+    "explanation": "住みます → 住んで → 住んでいます.",
+    "options": [],
+    "correctOrder": [],
+    "orderIndex": 12
+  }
+]

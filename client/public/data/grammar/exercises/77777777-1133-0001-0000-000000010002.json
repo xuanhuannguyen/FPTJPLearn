@@ -1,0 +1,114 @@
+[
+  {
+    "id": "77777777-1133-0003-0000-000001011001",
+    "patternId": "77777777-1133-0001-0000-000000010002",
+    "exerciseType": "ja_to_vi",
+    "prompt": "まだひるごはんをたべていません。",
+    "promptReading": "まだひるごはんをたべていません。",
+    "expectedAnswer": "Tôi vẫn chưa ăn trưa.",
+    "hint": "まだ Vていません",
+    "explanation": "まだ: vẫn/chưa; các trợ từ khác tùy động từ Vません chỉ phủ định/không làm; まだVていません nhấn mạnh 'cho đến giờ vẫn chưa'. Không bỏ て trong cấu trúc: ×まだ食べいません.",
+    "orderIndex": 1
+  },
+  {
+    "id": "77777777-1133-0003-0000-000001021001",
+    "patternId": "77777777-1133-0001-0000-000000010002",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Tôi vẫn chưa ăn trưa.",
+    "expectedAnswer": "まだひるごはんをたべていません。",
+    "acceptableAnswers": [
+      "まだひるごはんをたべていません。"
+    ],
+    "hint": "食べます → 食べていません",
+    "explanation": "まだ: vẫn/chưa; các trợ từ khác tùy động từ Vません chỉ phủ định/không làm; まだVていません nhấn mạnh 'cho đến giờ vẫn chưa'. Không bỏ て trong cấu trúc: ×まだ食べいません.",
+    "orderIndex": 2
+  },
+  {
+    "id": "77777777-1133-0003-0000-000001031001",
+    "patternId": "77777777-1133-0001-0000-000000010002",
+    "exerciseType": "arrange",
+    "prompt": "Tôi vẫn chưa ăn trưa.",
+    "expectedAnswer": "まだひるごはんをたべていません",
+    "optionsJson": "[\"は\",\"を\",\"ん\",\"まだひるご\",\"たべていません\"]",
+    "options": [
+      "は",
+      "を",
+      "ん",
+      "まだひるご",
+      "たべていません"
+    ],
+    "correctOrderJson": "[\"まだひるご\",\"は\",\"ん\",\"を\",\"たべていません\"]",
+    "correctOrder": [
+      "まだひるご",
+      "は",
+      "ん",
+      "を",
+      "たべていません"
+    ],
+    "orderIndex": 3
+  },
+  {
+    "id": "77777777-1133-0003-0000-000001011002",
+    "patternId": "77777777-1133-0001-0000-000000010002",
+    "exerciseType": "ja_to_vi",
+    "prompt": "まだ宿題をしていません。",
+    "promptReading": "まだしゅくだいをしていません。",
+    "expectedAnswer": "Tôi vẫn chưa làm bài tập.",
+    "hint": "まだ Vていません",
+    "explanation": "まだ: vẫn/chưa; các trợ từ khác tùy động từ Vません chỉ phủ định/không làm; まだVていません nhấn mạnh 'cho đến giờ vẫn chưa'. Không bỏ て trong cấu trúc: ×まだ食べいません.",
+    "orderIndex": 4
+  },
+  {
+    "id": "77777777-1133-0003-0000-000001021002",
+    "patternId": "77777777-1133-0001-0000-000000010002",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Tôi vẫn chưa làm bài tập.",
+    "expectedAnswer": "まだ宿題をしていません。",
+    "acceptableAnswers": [
+      "まだしゅくだいをしていません。"
+    ],
+    "hint": "食べます → 食べていません",
+    "explanation": "まだ: vẫn/chưa; các trợ từ khác tùy động từ Vません chỉ phủ định/không làm; まだVていません nhấn mạnh 'cho đến giờ vẫn chưa'. Không bỏ て trong cấu trúc: ×まだ食べいません.",
+    "orderIndex": 5
+  },
+  {
+    "id": "77777777-1133-0003-0000-000001031002",
+    "patternId": "77777777-1133-0001-0000-000000010002",
+    "exerciseType": "arrange",
+    "prompt": "Tôi vẫn chưa làm bài tập.",
+    "expectedAnswer": "まだ宿題 (まだしゅくだい)をしていません",
+    "optionsJson": "[\"を\",\"していません\",\"まだ宿題 (まだしゅくだい)\"]",
+    "options": [
+      "を",
+      "していません",
+      "まだ宿題 (まだしゅくだい)"
+    ],
+    "correctOrderJson": "[\"まだ宿題 (まだしゅくだい)\",\"を\",\"していません\"]",
+    "correctOrder": [
+      "まだ宿題 (まだしゅくだい)",
+      "を",
+      "していません"
+    ],
+    "orderIndex": 6
+  },
+  {
+    "id": "77777777-1133-0003-0000-000001041001",
+    "patternId": "77777777-1133-0001-0000-000000010002",
+    "exerciseType": "vi_to_ja",
+    "prompt": "いいえ、（　）食べていません。",
+    "expectedAnswer": "まだ",
+    "acceptableAnswers": [],
+    "acceptableAnswersJson": "[]",
+    "hint": "",
+    "explanation": "まだVていません nghĩa là “vẫn chưa…”.",
+    "options": [
+      "もう",
+      "よく",
+      "まだ",
+      "いつも"
+    ],
+    "optionsJson": "[\"もう\",\"よく\",\"まだ\",\"いつも\"]",
+    "correctOrder": [],
+    "orderIndex": 1
+  }
+]

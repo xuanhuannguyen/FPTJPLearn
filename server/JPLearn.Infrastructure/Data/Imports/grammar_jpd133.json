@@ -1,0 +1,3534 @@
+{
+  "courseCode": "jpd133",
+  "level": "N5",
+  "lessons": [
+    {
+      "lessonNumber": 8,
+      "title": "JPD133 Bài 8",
+      "description": "JPD133 Bài 8 – ngữ pháp và bài tập.",
+      "accessTier": "free",
+      "packageCode": "jpd133",
+      "orderIndex": 8,
+      "patterns": [
+        {
+          "pattern": "Vて形 + います",
+          "title": "Trạng thái cư trú với Vて形 + います",
+          "meaning": "đang sống / đang ở",
+          "structure": "N（場所）に + 住んでいます",
+          "usageScope": "Dùng với động từ 住みます để diễn tả trạng thái cư trú hiện tại. Đây là kết quả/trạng thái kéo dài, không phải hành động 'đang chuyển nhà'.",
+          "formation": "住みます → 住んでいます",
+          "notes": "に: đánh dấu nơi cư trú Vています cũng có thể diễn tả hành động đang tiếp diễn; với 住む thường hiểu là trạng thái cư trú. Không dùng で cho nơi cư trú trong mẫu 住んでいます.",
+          "orderIndex": 1,
+          "examples": [
+            {
+              "japanese": "私はよこはまに住んでいます。",
+              "reading": "わたしはよこはまにすんでいます。",
+              "meaning": "Tôi đang sống ở Yokohama.",
+              "orderIndex": 1
+            },
+            {
+              "japanese": "兄は東京に住んでいます。",
+              "reading": "あにはとうきょうにすんでいます。",
+              "meaning": "Anh trai tôi đang sống ở Tokyo.",
+              "orderIndex": 2
+            }
+          ],
+          "exercises": [
+            {
+              "exerciseType": "vi_to_ja",
+              "prompt": "私はハノイ（　）住んでいます。",
+              "expectedAnswer": "に",
+              "acceptableAnswers": [],
+              "hint": "",
+              "explanation": "Với 住んでいます, nơi cư trú dùng trợ từ に: ハノイに住んでいます.",
+              "options": [
+                "を",
+                "に",
+                "で",
+                "が"
+              ],
+              "correctOrder": [],
+              "orderIndex": 1
+            },
+            {
+              "exerciseType": "vi_to_ja",
+              "prompt": "ナタポンさんはまじめ（　）、しんせつです。",
+              "expectedAnswer": "で",
+              "acceptableAnswers": [],
+              "hint": "",
+              "explanation": "Tính từ な nối với tính chất sau bằng で: まじめで、しんせつです.",
+              "options": [
+                "くて",
+                "な",
+                "で",
+                "に"
+              ],
+              "correctOrder": [],
+              "orderIndex": 2
+            },
+            {
+              "exerciseType": "vi_to_ja",
+              "prompt": "私は友達（　）本をあげました。",
+              "expectedAnswer": "に",
+              "acceptableAnswers": [],
+              "hint": "",
+              "explanation": "Trong N1にN2をあげます, に đánh dấu người nhận.",
+              "options": [
+                "が",
+                "に",
+                "で",
+                "と"
+              ],
+              "correctOrder": [],
+              "orderIndex": 3
+            },
+            {
+              "exerciseType": "vi_to_ja",
+              "prompt": "私は母（　）時計をもらいました。",
+              "expectedAnswer": "に",
+              "acceptableAnswers": [],
+              "hint": "",
+              "explanation": "Trong mẫu của bài, người cho trong もらいます dùng に.",
+              "options": [
+                "を",
+                "で",
+                "に",
+                "が"
+              ],
+              "correctOrder": [],
+              "orderIndex": 4
+            },
+            {
+              "exerciseType": "arrange",
+              "prompt": "住んでいます / 私は / 東京に",
+              "expectedAnswer": "私は東京に住んでいます。",
+              "acceptableAnswers": [],
+              "hint": "",
+              "explanation": "",
+              "options": [
+                "住んでいます",
+                "私は",
+                "東京に"
+              ],
+              "correctOrder": [
+                "私は",
+                "東京に",
+                "住んでいます"
+              ],
+              "orderIndex": 5
+            },
+            {
+              "exerciseType": "arrange",
+              "prompt": "家族と / 4人で / 住んでいます / 私は",
+              "expectedAnswer": "私は家族と4人で住んでいます。",
+              "acceptableAnswers": [],
+              "hint": "",
+              "explanation": "",
+              "options": [
+                "家族と",
+                "4人で",
+                "住んでいます",
+                "私は"
+              ],
+              "correctOrder": [
+                "私は",
+                "家族と",
+                "4人で",
+                "住んでいます"
+              ],
+              "orderIndex": 6
+            },
+            {
+              "exerciseType": "vi_to_ja",
+              "prompt": "Tôi đang sống ở Yokohama.",
+              "expectedAnswer": "私はよこはまに住んでいます。",
+              "acceptableAnswers": [],
+              "hint": "",
+              "explanation": "",
+              "options": [],
+              "correctOrder": [],
+              "orderIndex": 7
+            },
+            {
+              "exerciseType": "vi_to_ja",
+              "prompt": "私は東京＿＿住んでいます。",
+              "expectedAnswer": "に",
+              "acceptableAnswers": [],
+              "hint": "",
+              "explanation": "Nơi cư trú của 住んでいます dùng に.",
+              "options": [
+                "を",
+                "に",
+                "で",
+                "が"
+              ],
+              "correctOrder": [],
+              "orderIndex": 8
+            },
+            {
+              "exerciseType": "vi_to_ja",
+              "prompt": "母は病院＿＿働いています。",
+              "expectedAnswer": "で",
+              "acceptableAnswers": [],
+              "hint": "",
+              "explanation": "Nơi diễn ra hành động/công việc dùng で.",
+              "options": [
+                "で",
+                "に",
+                "を",
+                "が"
+              ],
+              "correctOrder": [],
+              "orderIndex": 9
+            },
+            {
+              "exerciseType": "vi_to_ja",
+              "prompt": "私は友達＿＿花をあげました。",
+              "expectedAnswer": "に",
+              "acceptableAnswers": [],
+              "hint": "",
+              "explanation": "Người nhận trong あげます dùng に.",
+              "options": [
+                "に",
+                "が",
+                "で",
+                "は"
+              ],
+              "correctOrder": [],
+              "orderIndex": 10
+            },
+            {
+              "exerciseType": "vi_to_ja",
+              "prompt": "パクさんはカルロスさん＿＿花をもらいました。",
+              "expectedAnswer": "に",
+              "acceptableAnswers": [],
+              "hint": "",
+              "explanation": "Theo mẫu trong tài liệu, người cho trong もらいます dùng に.",
+              "options": [
+                "を",
+                "に",
+                "で",
+                "と"
+              ],
+              "correctOrder": [],
+              "orderIndex": 11
+            },
+            {
+              "exerciseType": "vi_to_ja",
+              "prompt": "Chuyển 住みます sang mẫu Vています.",
+              "expectedAnswer": "住んでいます。",
+              "acceptableAnswers": [],
+              "hint": "",
+              "explanation": "住みます → 住んで → 住んでいます.",
+              "options": [],
+              "correctOrder": [],
+              "orderIndex": 12
+            }
+          ],
+          "sourceCode": "JPD133-L08-G001"
+        },
+        {
+          "pattern": "Vて形 + います",
+          "title": "Công việc/nghề nghiệp với Vて形 + います",
+          "meaning": "đang làm / đang dạy",
+          "structure": "N（場所）で + Nを + Vて形 + います",
+          "usageScope": "Dùng để diễn tả công việc hoặc nghề nghiệp đang được thực hiện ổn định ở hiện tại.",
+          "formation": "教えます → 教えています / 働きます → 働いています",
+          "notes": "で: nơi diễn ra công việc; を: đối tượng của hành động 住んでいます thiên về trạng thái cư trú; 働いています/教えています thiên về công việc hiện tại. Không đổi nơi làm việc sang trợ từ に trong mẫu hành động này.",
+          "orderIndex": 2,
+          "examples": [
+            {
+              "japanese": "ともだちは高校でえい語を教えています。",
+              "reading": "ともだちはこうこうでえいごをおしえています。",
+              "meaning": "Bạn tôi đang dạy tiếng Anh ở trường cấp ba.",
+              "orderIndex": 1
+            },
+            {
+              "japanese": "母は病院で働いています。",
+              "reading": "はははびょういんではたらいています。",
+              "meaning": "Mẹ tôi làm việc ở bệnh viện.",
+              "orderIndex": 2
+            }
+          ],
+          "exercises": [
+            {
+              "exerciseType": "vi_to_ja",
+              "prompt": "Mẹ tôi làm việc ở bệnh viện.",
+              "expectedAnswer": "母は病院で働いています。",
+              "acceptableAnswers": [],
+              "hint": "",
+              "explanation": "",
+              "options": [],
+              "correctOrder": [],
+              "orderIndex": 1
+            }
+          ],
+          "sourceCode": "JPD133-L08-G002"
+        },
+        {
+          "pattern": "～人で",
+          "title": "Số người cùng sống",
+          "meaning": "với tổng cộng … người",
+          "structure": "[người cùng sống] と + ～人で + 住んでいます",
+          "usageScope": "Dùng để nói tổng số người cùng thực hiện/sống chung. Con số trước 人で bao gồm cả người nói nếu câu đang mô tả nhóm có người nói.",
+          "formation": "Số + 人（にん）+ で",
+          "notes": "と: cùng với; で: biểu thị số lượng người tạo thành nhóm N（人）が～人います dùng để nói 'có bao nhiêu người'; ～人で nhấn mạnh quy mô nhóm cùng làm việc gì. Không hiểu ～人で là 'có ... người'.",
+          "orderIndex": 3,
+          "examples": [
+            {
+              "japanese": "私はルームメイトと3人で住んでいます。",
+              "reading": "わたしはルームメイトとさんにんですんでいます。",
+              "meaning": "Tôi sống cùng bạn cùng phòng, tổng cộng ba người.",
+              "orderIndex": 1
+            },
+            {
+              "japanese": "家族と4人で住んでいます。",
+              "reading": "かぞくとよにんですんでいます。",
+              "meaning": "Tôi sống cùng gia đình, tổng cộng bốn người.",
+              "orderIndex": 2
+            }
+          ],
+          "exercises": [],
+          "sourceCode": "JPD133-L08-G003"
+        },
+        {
+          "pattern": "N（人）が ～人います",
+          "title": "Có bao nhiêu người",
+          "meaning": "có … người",
+          "structure": "N（人）が + số + 人 + います",
+          "usageScope": "Dùng để nói số lượng người tồn tại/có trong gia đình hoặc xung quanh mình.",
+          "formation": "一人います / 二人います / 三人います ...",
+          "notes": "が: đánh dấu người tồn tại; います: dùng cho người/động vật sống ～人で diễn tả nhóm cùng làm; Nが～人います diễn tả sự tồn tại/sở hữu theo nghĩa 'có'. Không dùng あります cho người.",
+          "orderIndex": 4,
+          "examples": [
+            {
+              "japanese": "私は妹が二人います。",
+              "reading": "わたしはいもうとがふたりいます。",
+              "meaning": "Tôi có hai em gái.",
+              "orderIndex": 1
+            },
+            {
+              "japanese": "兄が一人います。",
+              "reading": "あにがひとりいます。",
+              "meaning": "Tôi có một anh trai.",
+              "orderIndex": 2
+            }
+          ],
+          "exercises": [
+            {
+              "exerciseType": "vi_to_ja",
+              "prompt": "私は妹が（　）います。",
+              "expectedAnswer": "二人",
+              "acceptableAnswers": [],
+              "hint": "",
+              "explanation": "Người được đếm bằng 人; hai người đọc là 二人（ふたり）.",
+              "options": [
+                "二人",
+                "二つ",
+                "二匹",
+                "二本"
+              ],
+              "correctOrder": [],
+              "orderIndex": 1
+            },
+            {
+              "exerciseType": "arrange",
+              "prompt": "二人 / 私は / 妹が / います",
+              "expectedAnswer": "私は妹が二人います。",
+              "acceptableAnswers": [],
+              "hint": "",
+              "explanation": "",
+              "options": [
+                "二人",
+                "私は",
+                "妹が",
+                "います"
+              ],
+              "correctOrder": [
+                "私は",
+                "妹が",
+                "二人",
+                "います"
+              ],
+              "orderIndex": 2
+            },
+            {
+              "exerciseType": "vi_to_ja",
+              "prompt": "Tôi có một anh trai.",
+              "expectedAnswer": "兄が一人います。",
+              "acceptableAnswers": [],
+              "hint": "",
+              "explanation": "",
+              "options": [],
+              "correctOrder": [],
+              "orderIndex": 3
+            },
+            {
+              "exerciseType": "vi_to_ja",
+              "prompt": "私は妹＿＿二人います。",
+              "expectedAnswer": "が",
+              "acceptableAnswers": [],
+              "hint": "",
+              "explanation": "Đối tượng tồn tại trong Nが～人います dùng が.",
+              "options": [
+                "に",
+                "を",
+                "が",
+                "で"
+              ],
+              "correctOrder": [],
+              "orderIndex": 4
+            }
+          ],
+          "sourceCode": "JPD133-L08-G004"
+        },
+        {
+          "pattern": "～が（～匹）います",
+          "title": "Có động vật nhỏ",
+          "meaning": "có … con",
+          "structure": "N（động vật）+ が + số + 匹 + います",
+          "usageScope": "Dùng để nói có động vật nhỏ. 匹 là lượng từ thường dùng cho chó, mèo và nhiều động vật nhỏ.",
+          "formation": "一匹（いっぴき）/ 二匹（にひき）/ 三匹（さんびき）...",
+          "notes": "が: đối tượng tồn tại; います: dùng cho sinh vật N（人）が～人います dùng cho người. Không dùng あります với chó/mèo trong ngữ pháp cơ bản này.",
+          "orderIndex": 5,
+          "examples": [
+            {
+              "japanese": "犬が一匹います。",
+              "reading": "いぬがいっぴきいます。",
+              "meaning": "Tôi có một con chó.",
+              "orderIndex": 1
+            },
+            {
+              "japanese": "猫が二匹います。",
+              "reading": "ねこがにひきいます。",
+              "meaning": "Tôi có hai con mèo.",
+              "orderIndex": 2
+            }
+          ],
+          "exercises": [
+            {
+              "exerciseType": "vi_to_ja",
+              "prompt": "犬が（　）います。",
+              "expectedAnswer": "一匹",
+              "acceptableAnswers": [],
+              "hint": "",
+              "explanation": "Động vật nhỏ như chó, mèo dùng lượng từ 匹; một con là 一匹（いっぴき）.",
+              "options": [
+                "一人",
+                "一冊",
+                "一匹",
+                "一本"
+              ],
+              "correctOrder": [],
+              "orderIndex": 1
+            },
+            {
+              "exerciseType": "vi_to_ja",
+              "prompt": "Tôi có hai con mèo.",
+              "expectedAnswer": "猫が二匹います。",
+              "acceptableAnswers": [],
+              "hint": "",
+              "explanation": "",
+              "options": [],
+              "correctOrder": [],
+              "orderIndex": 2
+            }
+          ],
+          "sourceCode": "JPD133-L08-G005"
+        },
+        {
+          "pattern": "N1 は N2 が A です",
+          "title": "Miêu tả đặc điểm bộ phận/khía cạnh",
+          "meaning": "N1 có N2 mang đặc điểm A",
+          "structure": "N1 は + N2 が + Aです",
+          "usageScope": "Dùng để miêu tả ngoại hình, tính cách, sở trường hoặc đặc trưng của người/vật; N2 là bộ phận/khía cạnh được tập trung mô tả.",
+          "formation": "N1はN2が高いです / 上手です ...",
+          "notes": "は: chủ đề lớn; が: bộ phận/khía cạnh mang tính chất NはAです miêu tả trực tiếp chủ đề; N1はN2がAです tách chủ đề và bộ phận/khía cạnh. Không thay が bằng は nếu muốn giữ cấu trúc đặc điểm cơ bản.",
+          "orderIndex": 6,
+          "examples": [
+            {
+              "japanese": "ダニエルさんはせが高いです。",
+              "reading": "ダニエルさんはせがたかいです。",
+              "meaning": "Daniel cao.",
+              "orderIndex": 1
+            },
+            {
+              "japanese": "母は髪が長いです。",
+              "reading": "はははかみがながいです。",
+              "meaning": "Mẹ tôi có tóc dài.",
+              "orderIndex": 2
+            }
+          ],
+          "exercises": [
+            {
+              "exerciseType": "arrange",
+              "prompt": "髪が / 母は / 長いです",
+              "expectedAnswer": "母は髪が長いです。",
+              "acceptableAnswers": [],
+              "hint": "",
+              "explanation": "",
+              "options": [
+                "髪が",
+                "母は",
+                "長いです"
+              ],
+              "correctOrder": [
+                "母は",
+                "髪が",
+                "長いです"
+              ],
+              "orderIndex": 1
+            }
+          ],
+          "sourceCode": "JPD133-L08-G006"
+        },
+        {
+          "pattern": "イA-くて、＿＿＿＿",
+          "title": "Nối hai tính từ い",
+          "meaning": "và…, vừa… vừa…",
+          "structure": "イA bỏ い + くて + mệnh đề/tính chất tiếp theo",
+          "usageScope": "Dùng để nối hai đặc điểm cùng hướng miêu tả một chủ thể. Với tính từ いい dùng dạng よくて.",
+          "formation": "大きい → 大きくて; 長い → 長くて; いい → よくて",
+          "notes": "Không có trợ từ bắt buộc riêng; くて là dạng liên kết của イA ナA nối bằng で, không dùng くて. Không viết 大きいて; phải bỏ い rồi thêm くて.",
+          "orderIndex": 7,
+          "examples": [
+            {
+              "japanese": "メアリーさんは目が大きくて、かみが長いです。",
+              "reading": "メアリーさんはめがおおきくて、かみがながいです。",
+              "meaning": "Mary có mắt to và tóc dài.",
+              "orderIndex": 1
+            },
+            {
+              "japanese": "この犬は小さくて、かわいいです。",
+              "reading": "このいぬはちいさくて、かわいいです。",
+              "meaning": "Con chó này nhỏ và dễ thương.",
+              "orderIndex": 2
+            }
+          ],
+          "exercises": [
+            {
+              "exerciseType": "vi_to_ja",
+              "prompt": "メアリーさんは目が大き（　）、髪が長いです。",
+              "expectedAnswer": "くて",
+              "acceptableAnswers": [],
+              "hint": "",
+              "explanation": "Tính từ đuôi い nối với tính chất tiếp theo bằng い → くて: 大きい → 大きくて.",
+              "options": [
+                "いで",
+                "くて",
+                "なで",
+                "く"
+              ],
+              "correctOrder": [],
+              "orderIndex": 1
+            },
+            {
+              "exerciseType": "vi_to_ja",
+              "prompt": "Chuyển 大きい sang dạng nối với tính từ tiếp theo.",
+              "expectedAnswer": "大きくて",
+              "acceptableAnswers": [],
+              "hint": "",
+              "explanation": "イA: bỏ い rồi thêm くて.",
+              "options": [],
+              "correctOrder": [],
+              "orderIndex": 2
+            }
+          ],
+          "sourceCode": "JPD133-L08-G007"
+        },
+        {
+          "pattern": "ナA で、＿＿＿＿",
+          "title": "Nối tính từ な",
+          "meaning": "và…, vừa… vừa…",
+          "structure": "ナA + で + mệnh đề/tính chất tiếp theo",
+          "usageScope": "Dùng để nối các tính từ な khi bổ sung nhiều đặc điểm của cùng chủ thể.",
+          "formation": "まじめです → まじめで; しんせつです → しんせつで...",
+          "notes": "で: dạng nối của ナA/です イA dùng くて. Không thêm な trước で: ×まじめなで.",
+          "orderIndex": 8,
+          "examples": [
+            {
+              "japanese": "ナタポンさんはまじめで、しんせつです。",
+              "reading": "ナタポンさんはまじめで、しんせつです。",
+              "meaning": "Natapon nghiêm túc và tốt bụng.",
+              "orderIndex": 1
+            },
+            {
+              "japanese": "父は元気で、親切です。",
+              "reading": "ちちはげんきで、しんせつです。",
+              "meaning": "Bố tôi khỏe mạnh và tốt bụng.",
+              "orderIndex": 2
+            }
+          ],
+          "exercises": [
+            {
+              "exerciseType": "vi_to_ja",
+              "prompt": "Bố tôi khỏe mạnh và tốt bụng.",
+              "expectedAnswer": "父は元気で、親切です。",
+              "acceptableAnswers": [],
+              "hint": "",
+              "explanation": "",
+              "options": [],
+              "correctOrder": [],
+              "orderIndex": 1
+            },
+            {
+              "exerciseType": "vi_to_ja",
+              "prompt": "Chuyển まじめです sang dạng nối.",
+              "expectedAnswer": "まじめで",
+              "acceptableAnswers": [],
+              "hint": "",
+              "explanation": "ナA nối bằng で.",
+              "options": [],
+              "correctOrder": [],
+              "orderIndex": 2
+            }
+          ],
+          "sourceCode": "JPD133-L08-G008"
+        },
+        {
+          "pattern": "N で、＿＿＿＿",
+          "title": "Nối danh từ bằng で",
+          "meaning": "và / là…, đồng thời…",
+          "structure": "N1 で、N2です / Nで、mệnh đề tiếp theo",
+          "usageScope": "Dùng で là dạng nối của です sau danh từ để bổ sung thông tin tiếp theo.",
+          "formation": "学生です → 学生で; 15歳です → 15歳で",
+          "notes": "で: dạng liên kết của です sau danh từ ナAで cũng nối bằng で; cần phân biệt theo loại từ. Không dùng と để nối hai vị ngữ kiểu này.",
+          "orderIndex": 9,
+          "examples": [
+            {
+              "japanese": "妹は15歳で、中学生です。",
+              "reading": "いもうとはじゅうごさいで、ちゅうがくせいです。",
+              "meaning": "Em gái tôi 15 tuổi và là học sinh trung học cơ sở.",
+              "orderIndex": 1
+            },
+            {
+              "japanese": "兄は会社員で、25歳です。",
+              "reading": "あにはかいしゃいんで、にじゅうごさいです。",
+              "meaning": "Anh tôi là nhân viên công ty và 25 tuổi.",
+              "orderIndex": 2
+            }
+          ],
+          "exercises": [
+            {
+              "exerciseType": "vi_to_ja",
+              "prompt": "Chuyển 15歳です sang dạng nối.",
+              "expectedAnswer": "15歳で",
+              "acceptableAnswers": [],
+              "hint": "",
+              "explanation": "Danh từ + です khi nối đổi thành Nで.",
+              "options": [],
+              "correctOrder": [],
+              "orderIndex": 1
+            }
+          ],
+          "sourceCode": "JPD133-L08-G009"
+        },
+        {
+          "pattern": "N1（人）に N2（物）を あげます",
+          "title": "Cho/tặng người khác",
+          "meaning": "A cho/tặng B; tôi cho/tặng B",
+          "structure": "[người nhận] に + [vật] を + あげます",
+          "usageScope": "Dùng khi chủ ngữ/người thuộc phía người nói cho đồ cho người khác. Hướng cho: người cho → người nhận.",
+          "formation": "あげます / あげました",
+          "notes": "に: người nhận; を: vật được cho もらいます lấy góc nhìn người nhận; くれます dùng khi người khác cho tôi/phía tôi. × 友達は私にプレゼントをあげました nếu muốn nói 'bạn tặng tôi' theo mẫu bài; dùng くれました.",
+          "orderIndex": 10,
+          "examples": [
+            {
+              "japanese": "カルロスさんはパクさんに花をあげました。",
+              "reading": "カルロスさんはパクさんにはなをあげました。",
+              "meaning": "Carlos đã tặng hoa cho Park.",
+              "orderIndex": 1
+            },
+            {
+              "japanese": "私は友達に本をあげました。",
+              "reading": "わたしはともだちにほんをあげました。",
+              "meaning": "Tôi đã tặng bạn một quyển sách.",
+              "orderIndex": 2
+            }
+          ],
+          "exercises": [
+            {
+              "exerciseType": "arrange",
+              "prompt": "本を / 友達に / あげました / 私は",
+              "expectedAnswer": "私は友達に本をあげました。",
+              "acceptableAnswers": [],
+              "hint": "",
+              "explanation": "",
+              "options": [
+                "本を",
+                "友達に",
+                "あげました",
+                "私は"
+              ],
+              "correctOrder": [
+                "私は",
+                "友達に",
+                "本を",
+                "あげました"
+              ],
+              "orderIndex": 1
+            },
+            {
+              "exerciseType": "vi_to_ja",
+              "prompt": "Tôi đã tặng bạn một quyển sách.",
+              "expectedAnswer": "私は友達に本をあげました。",
+              "acceptableAnswers": [],
+              "hint": "",
+              "explanation": "",
+              "options": [],
+              "correctOrder": [],
+              "orderIndex": 2
+            },
+            {
+              "exerciseType": "vi_to_ja",
+              "prompt": "Chuyển あげます sang quá khứ.",
+              "expectedAnswer": "あげました。",
+              "acceptableAnswers": [],
+              "hint": "",
+              "explanation": "Động từ thể ます: ます → ました.",
+              "options": [],
+              "correctOrder": [],
+              "orderIndex": 3
+            }
+          ],
+          "sourceCode": "JPD133-L08-G010"
+        },
+        {
+          "pattern": "N1（人）に N2（物）を もらいます",
+          "title": "Nhận từ ai",
+          "meaning": "nhận",
+          "structure": "[người cho] に + [vật] を + もらいます",
+          "usageScope": "Dùng khi chủ ngữ là người nhận đồ từ ai đó. Góc nhìn đặt ở người nhận.",
+          "formation": "もらいます / もらいました",
+          "notes": "に: nguồn/người cho trong mẫu của tài liệu; を: vật nhận あげます/くれます đặt góc nhìn ở người cho; もらいます đặt góc nhìn ở người nhận. Không đảo vai người cho/người nhận khi dịch.",
+          "orderIndex": 11,
+          "examples": [
+            {
+              "japanese": "パクさんはカルロスさんに花をもらいました。",
+              "reading": "パクさんはカルロスさんにはなをもらいました。",
+              "meaning": "Park đã nhận hoa từ Carlos.",
+              "orderIndex": 1
+            },
+            {
+              "japanese": "私は母に時計をもらいました。",
+              "reading": "わたしはははにとけいをもらいました。",
+              "meaning": "Tôi đã nhận một chiếc đồng hồ từ mẹ.",
+              "orderIndex": 2
+            }
+          ],
+          "exercises": [
+            {
+              "exerciseType": "vi_to_ja",
+              "prompt": "Tôi đã nhận một chiếc đồng hồ từ mẹ.",
+              "expectedAnswer": "私は母に時計をもらいました。",
+              "acceptableAnswers": [],
+              "hint": "",
+              "explanation": "",
+              "options": [],
+              "correctOrder": [],
+              "orderIndex": 1
+            }
+          ],
+          "sourceCode": "JPD133-L08-G011"
+        },
+        {
+          "pattern": "N1（人）が 私に N2（物）を くれます",
+          "title": "Người khác cho tôi/phía tôi",
+          "meaning": "A cho/tặng tôi hoặc người thuộc phía tôi",
+          "structure": "[người cho] が/は + 私（側）に + [vật] を + くれます",
+          "usageScope": "Dùng khi ai đó cho/tặng người nói hoặc người được xem là thuộc phía người nói.",
+          "formation": "くれます / くれました",
+          "notes": "が/は: người cho; に: người nhận phía tôi; を: vật được cho あげます: tôi/phía tôi → người khác; くれます: người khác → tôi/phía tôi. Không dùng くれます khi người nhận hoàn toàn không thuộc phía người nói.",
+          "orderIndex": 12,
+          "examples": [
+            {
+              "japanese": "メアリーさんが私にかばんをくれました。",
+              "reading": "メアリーさんがわたしにかばんをくれました。",
+              "meaning": "Mary đã tặng tôi một cái cặp.",
+              "orderIndex": 1
+            },
+            {
+              "japanese": "友達が弟にお菓子をくれました。",
+              "reading": "ともだちがおとうとにおかしをくれました。",
+              "meaning": "Bạn tôi đã cho em trai tôi bánh kẹo.",
+              "orderIndex": 2
+            }
+          ],
+          "exercises": [
+            {
+              "exerciseType": "vi_to_ja",
+              "prompt": "友達が私にプレゼントを（　）。",
+              "expectedAnswer": "くれました",
+              "acceptableAnswers": [],
+              "hint": "",
+              "explanation": "Người khác cho/tặng tôi hoặc người thuộc phía tôi dùng くれます.",
+              "options": [
+                "あげました",
+                "くれました",
+                "もらいました",
+                "いました"
+              ],
+              "correctOrder": [],
+              "orderIndex": 1
+            },
+            {
+              "exerciseType": "arrange",
+              "prompt": "かばんを / 私に / メアリーさんが / くれました",
+              "expectedAnswer": "メアリーさんが私にかばんをくれました。",
+              "acceptableAnswers": [],
+              "hint": "",
+              "explanation": "",
+              "options": [
+                "かばんを",
+                "私に",
+                "メアリーさんが",
+                "くれました"
+              ],
+              "correctOrder": [
+                "メアリーさんが",
+                "私に",
+                "かばんを",
+                "くれました"
+              ],
+              "orderIndex": 2
+            },
+            {
+              "exerciseType": "vi_to_ja",
+              "prompt": "Mary đã tặng tôi một cái cặp.",
+              "expectedAnswer": "メアリーさんが私にかばんをくれました。",
+              "acceptableAnswers": [],
+              "hint": "",
+              "explanation": "",
+              "options": [],
+              "correctOrder": [],
+              "orderIndex": 3
+            }
+          ],
+          "sourceCode": "JPD133-L08-G012"
+        }
+      ]
+    },
+    {
+      "lessonNumber": 9,
+      "title": "JPD133 Bài 9",
+      "description": "JPD133 Bài 9 – ngữ pháp và bài tập.",
+      "accessTier": "premium",
+      "packageCode": "jpd133",
+      "orderIndex": 9,
+      "patterns": [
+        {
+          "pattern": "V辞書形 + ことです",
+          "title": "Danh từ hóa động từ bằng こと",
+          "meaning": "việc…; sở thích là làm…",
+          "structure": "私の趣味は + V辞書形 + ことです",
+          "usageScope": "Dùng こと để biến hành động thành một danh ngữ; trong bài dùng đặc biệt để nói sở thích.",
+          "formation": "見ます → 見ること / 読みます → 読むこと / します → すること",
+          "notes": "は: chủ đề sở thích; を trong cụm động từ giữ nguyên nếu động từ cần tân ngữ Nができます là khả năng danh từ; Vことができます là khả năng hành động. × 映画を見ますことです; phải dùng 見ることです.",
+          "orderIndex": 1,
+          "examples": [
+            {
+              "japanese": "私の趣味は映画を見ることです。",
+              "reading": "わたしのしゅみはえいがをみることです。",
+              "meaning": "Sở thích của tôi là xem phim.",
+              "orderIndex": 1
+            },
+            {
+              "japanese": "私の趣味は音楽を聞くことです。",
+              "reading": "わたしのしゅみはおんがくをきくことです。",
+              "meaning": "Sở thích của tôi là nghe nhạc.",
+              "orderIndex": 2
+            }
+          ],
+          "exercises": [
+            {
+              "exerciseType": "vi_to_ja",
+              "prompt": "私の趣味は映画を見る（　）です。",
+              "expectedAnswer": "こと",
+              "acceptableAnswers": [],
+              "hint": "",
+              "explanation": "V辞書形 + ことです danh từ hóa động từ để nói sở thích.",
+              "options": [
+                "もの",
+                "こと",
+                "とき",
+                "ので"
+              ],
+              "correctOrder": [],
+              "orderIndex": 1
+            },
+            {
+              "exerciseType": "arrange",
+              "prompt": "ことです / 私の趣味は / 音楽を聞く",
+              "expectedAnswer": "私の趣味は音楽を聞くことです。",
+              "acceptableAnswers": [],
+              "hint": "",
+              "explanation": "",
+              "options": [
+                "ことです",
+                "私の趣味は",
+                "音楽を聞く"
+              ],
+              "correctOrder": [
+                "私の趣味は",
+                "音楽を聞く",
+                "ことです"
+              ],
+              "orderIndex": 2
+            },
+            {
+              "exerciseType": "arrange",
+              "prompt": "映画を見ます / ご飯を食べて / 友達と",
+              "expectedAnswer": "友達とご飯を食べて、映画を見ます。",
+              "acceptableAnswers": [],
+              "hint": "",
+              "explanation": "",
+              "options": [
+                "映画を見ます",
+                "ご飯を食べて",
+                "友達と"
+              ],
+              "correctOrder": [
+                "友達と",
+                "ご飯を食べて",
+                "映画を見ます"
+              ],
+              "orderIndex": 3
+            },
+            {
+              "exerciseType": "vi_to_ja",
+              "prompt": "Sở thích của tôi là xem phim.",
+              "expectedAnswer": "私の趣味は映画を見ることです。",
+              "acceptableAnswers": [],
+              "hint": "",
+              "explanation": "",
+              "options": [],
+              "correctOrder": [],
+              "orderIndex": 4
+            },
+            {
+              "exerciseType": "vi_to_ja",
+              "prompt": "Gần đây tôi hoàn toàn không chơi thể thao.",
+              "expectedAnswer": "最近、全然スポーツをしません。",
+              "acceptableAnswers": [],
+              "hint": "",
+              "explanation": "",
+              "options": [],
+              "correctOrder": [],
+              "orderIndex": 5
+            },
+            {
+              "exerciseType": "vi_to_ja",
+              "prompt": "私は料理＿＿作ることができます。",
+              "expectedAnswer": "を",
+              "acceptableAnswers": [],
+              "hint": "",
+              "explanation": "料理を作る: 料理 là tân ngữ của 作る.",
+              "options": [
+                "が",
+                "に",
+                "を",
+                "で"
+              ],
+              "correctOrder": [],
+              "orderIndex": 6
+            },
+            {
+              "exerciseType": "vi_to_ja",
+              "prompt": "Chuyển 見ます sang thể từ điển để dùng trước ことです.",
+              "expectedAnswer": "見る",
+              "acceptableAnswers": [],
+              "hint": "",
+              "explanation": "見ます → 見る.",
+              "options": [],
+              "correctOrder": [],
+              "orderIndex": 7
+            },
+            {
+              "exerciseType": "vi_to_ja",
+              "prompt": "Chuyển します sang thể て.",
+              "expectedAnswer": "して",
+              "acceptableAnswers": [],
+              "hint": "",
+              "explanation": "します → して.",
+              "options": [],
+              "correctOrder": [],
+              "orderIndex": 8
+            }
+          ],
+          "sourceCode": "JPD133-L09-G001"
+        },
+        {
+          "pattern": "いつも／よく／ときどき／あまり／全然",
+          "title": "Trạng từ tần suất",
+          "meaning": "luôn luôn / thường / đôi khi / không… lắm / hoàn toàn không",
+          "structure": "[trạng từ tần suất] + Vます; あまり／全然 + Vません",
+          "usageScope": "Dùng để biểu thị mức độ thường xuyên của hành động. Theo tài liệu, あまり và 全然 thường đi với phủ định.",
+          "formation": "よくします / ときどきします / あまりしません / 全然しません",
+          "notes": "Trợ từ phụ thuộc vào động từ của câu Không nhầm 全然 trong mẫu cơ bản của bài với cách dùng khẩu ngữ hiện đại khác. Không dùng あまり/全然 với khẳng định khi đang theo đúng phạm vi ngữ pháp của bài.",
+          "orderIndex": 2,
+          "examples": [
+            {
+              "japanese": "ナタポンさんはよくサッカーをしますか。――いいえ、あまりしません。",
+              "reading": "ナタポンさんはよくサッカーをしますか。――いいえ、あまりしません。",
+              "meaning": "Natapon có thường chơi bóng đá không? — Không, không chơi nhiều lắm.",
+              "orderIndex": 1
+            },
+            {
+              "japanese": "私はときどき映画を見ます。",
+              "reading": "わたしはときどきえいがをみます。",
+              "meaning": "Tôi thỉnh thoảng xem phim.",
+              "orderIndex": 2
+            }
+          ],
+          "exercises": [
+            {
+              "exerciseType": "vi_to_ja",
+              "prompt": "私は（　）映画を見ます。",
+              "expectedAnswer": "ときどき",
+              "acceptableAnswers": [],
+              "hint": "",
+              "explanation": "ときどき nghĩa là “thỉnh thoảng”.",
+              "options": [
+                "全然",
+                "あまり",
+                "ときどき",
+                "まだ"
+              ],
+              "correctOrder": [],
+              "orderIndex": 1
+            },
+            {
+              "exerciseType": "vi_to_ja",
+              "prompt": "Tôi thỉnh thoảng xem phim.",
+              "expectedAnswer": "私はときどき映画を見ます。",
+              "acceptableAnswers": [],
+              "hint": "",
+              "explanation": "",
+              "options": [],
+              "correctOrder": [],
+              "orderIndex": 2
+            }
+          ],
+          "sourceCode": "JPD133-L09-G002"
+        },
+        {
+          "pattern": "でも",
+          "title": "Liên từ đối lập",
+          "meaning": "nhưng",
+          "structure": "Câu 1。+ でも、+ Câu 2。",
+          "usageScope": "Dùng để nối hai câu có nội dung đối lập hoặc tương phản.",
+          "formation": "Đứng đầu câu thứ hai",
+          "notes": "Không phải trợ từ trong mẫu này; là liên từ ～は～が trong bài 11 cũng biểu thị đối lập nhưng cấu trúc khác. Không gắn でも trực tiếp như đuôi biến đổi của tính từ/động từ.",
+          "orderIndex": 3,
+          "examples": [
+            {
+              "japanese": "私の趣味はスポーツです。でも、最近、全然しません。",
+              "reading": "わたしのしゅみはスポーツです。でも、さいきん、ぜんぜんしません。",
+              "meaning": "Sở thích của tôi là thể thao. Nhưng gần đây tôi hoàn toàn không chơi.",
+              "orderIndex": 1
+            },
+            {
+              "japanese": "旅行が好きです。でも、あまり行きません。",
+              "reading": "りょこうがすきです。でも、あまりいきません。",
+              "meaning": "Tôi thích du lịch. Nhưng tôi không đi nhiều lắm.",
+              "orderIndex": 2
+            }
+          ],
+          "exercises": [
+            {
+              "exerciseType": "vi_to_ja",
+              "prompt": "最近、（　）スポーツをしません。",
+              "expectedAnswer": "全然",
+              "acceptableAnswers": [],
+              "hint": "",
+              "explanation": "Trong phạm vi bài, 全然 thường đi với phủ định: 全然～ません.",
+              "options": [
+                "全然",
+                "いつも",
+                "よく",
+                "もう"
+              ],
+              "correctOrder": [],
+              "orderIndex": 1
+            },
+            {
+              "exerciseType": "vi_to_ja",
+              "prompt": "私はスキー（　）できます。",
+              "expectedAnswer": "が",
+              "acceptableAnswers": [],
+              "hint": "",
+              "explanation": "Mẫu khả năng với danh từ là Nができます.",
+              "options": [
+                "を",
+                "で",
+                "が",
+                "に"
+              ],
+              "correctOrder": [],
+              "orderIndex": 2
+            },
+            {
+              "exerciseType": "vi_to_ja",
+              "prompt": "私は日本語を話すこと（　）できます。",
+              "expectedAnswer": "が",
+              "acceptableAnswers": [],
+              "hint": "",
+              "explanation": "Mẫu là V辞書形 + ことができます.",
+              "options": [
+                "が",
+                "を",
+                "に",
+                "は"
+              ],
+              "correctOrder": [],
+              "orderIndex": 3
+            },
+            {
+              "exerciseType": "vi_to_ja",
+              "prompt": "私はスキー＿＿できます。",
+              "expectedAnswer": "が",
+              "acceptableAnswers": [],
+              "hint": "",
+              "explanation": "Khả năng với danh từ dùng Nができます.",
+              "options": [
+                "を",
+                "が",
+                "に",
+                "で"
+              ],
+              "correctOrder": [],
+              "orderIndex": 4
+            },
+            {
+              "exerciseType": "vi_to_ja",
+              "prompt": "私は料理を作ること＿＿できません。",
+              "expectedAnswer": "が",
+              "acceptableAnswers": [],
+              "hint": "",
+              "explanation": "Danh ngữ 料理を作ること đi với ができます／できません.",
+              "options": [
+                "を",
+                "で",
+                "が",
+                "に"
+              ],
+              "correctOrder": [],
+              "orderIndex": 5
+            }
+          ],
+          "sourceCode": "JPD133-L09-G003"
+        },
+        {
+          "pattern": "［Lượng thời gian］に［～回・冊・本］",
+          "title": "Tần suất theo một khoảng thời gian",
+          "meaning": "… lần/cuốn/chai trong mỗi khoảng thời gian",
+          "structure": "[khoảng thời gian] に + [số lượng/lần] + Vます",
+          "usageScope": "Dùng để nói một hành động xảy ra bao nhiêu lần hoặc số lượng bao nhiêu trong một khoảng thời gian nhất định.",
+          "formation": "1週間に2回 / 1か月に3冊 ...",
+          "notes": "に: mốc/phạm vi tần suất Trạng từ よく chỉ mức độ tần suất chung; ～に～回 cho con số cụ thể. Không dùng で thay に trong cấu trúc tần suất này.",
+          "orderIndex": 4,
+          "examples": [
+            {
+              "japanese": "1週間に2回、家族に電話します。",
+              "reading": "いっしゅうかんににかい、かぞくにでんわします。",
+              "meaning": "Một tuần tôi gọi điện cho gia đình hai lần.",
+              "orderIndex": 1
+            },
+            {
+              "japanese": "1か月に3冊、本を読みます。",
+              "reading": "いっかげつにさんさつ、ほんをよみます。",
+              "meaning": "Mỗi tháng tôi đọc ba quyển sách.",
+              "orderIndex": 2
+            }
+          ],
+          "exercises": [
+            {
+              "exerciseType": "vi_to_ja",
+              "prompt": "1週間（　）2回、家族に電話します。",
+              "expectedAnswer": "に",
+              "acceptableAnswers": [],
+              "hint": "",
+              "explanation": "Tần suất theo khoảng thời gian dùng [khoảng thời gian] に [số lần].",
+              "options": [
+                "を",
+                "に",
+                "が",
+                "で"
+              ],
+              "correctOrder": [],
+              "orderIndex": 1
+            },
+            {
+              "exerciseType": "arrange",
+              "prompt": "2回 / 1週間に / 電話します / 家族に",
+              "expectedAnswer": "1週間に2回、家族に電話します。",
+              "acceptableAnswers": [],
+              "hint": "",
+              "explanation": "",
+              "options": [
+                "2回",
+                "1週間に",
+                "電話します",
+                "家族に"
+              ],
+              "correctOrder": [
+                "1週間に",
+                "2回",
+                "家族に",
+                "電話します"
+              ],
+              "orderIndex": 2
+            },
+            {
+              "exerciseType": "vi_to_ja",
+              "prompt": "Một tuần tôi gọi điện cho gia đình hai lần.",
+              "expectedAnswer": "1週間に2回、家族に電話します。",
+              "acceptableAnswers": [],
+              "hint": "",
+              "explanation": "",
+              "options": [],
+              "correctOrder": [],
+              "orderIndex": 3
+            },
+            {
+              "exerciseType": "vi_to_ja",
+              "prompt": "1週間＿＿2回、家族に電話します。",
+              "expectedAnswer": "に",
+              "acceptableAnswers": [],
+              "hint": "",
+              "explanation": "Chu kỳ tần suất dùng に.",
+              "options": [
+                "に",
+                "で",
+                "を",
+                "が"
+              ],
+              "correctOrder": [],
+              "orderIndex": 4
+            }
+          ],
+          "sourceCode": "JPD133-L09-G004"
+        },
+        {
+          "pattern": "N が できます",
+          "title": "Khả năng với danh từ",
+          "meaning": "có thể / biết / giỏi N",
+          "structure": "N + が + できます",
+          "usageScope": "Dùng để nói có khả năng thực hiện một hoạt động được biểu thị bằng danh từ, hoặc biết một kỹ năng.",
+          "formation": "できます / できません",
+          "notes": "が: đánh dấu nội dung/kỹ năng có thể làm Vことができます: khả năng làm hành động; Nができます: khả năng với danh từ/kỹ năng. Không dùng を trước できます trong mẫu này: ×スキーをできます.",
+          "orderIndex": 5,
+          "examples": [
+            {
+              "japanese": "私はスキーができます。",
+              "reading": "わたしはスキーができます。",
+              "meaning": "Tôi có thể trượt tuyết.",
+              "orderIndex": 1
+            },
+            {
+              "japanese": "姉はテニスができます。",
+              "reading": "あねはテニスができます。",
+              "meaning": "Chị tôi biết chơi tennis.",
+              "orderIndex": 2
+            }
+          ],
+          "exercises": [
+            {
+              "exerciseType": "arrange",
+              "prompt": "できます / 私は / スキーが",
+              "expectedAnswer": "私はスキーができます。",
+              "acceptableAnswers": [],
+              "hint": "",
+              "explanation": "",
+              "options": [
+                "できます",
+                "私は",
+                "スキーが"
+              ],
+              "correctOrder": [
+                "私は",
+                "スキーが",
+                "できます"
+              ],
+              "orderIndex": 1
+            },
+            {
+              "exerciseType": "vi_to_ja",
+              "prompt": "Tôi có thể trượt tuyết.",
+              "expectedAnswer": "私はスキーができます。",
+              "acceptableAnswers": [],
+              "hint": "",
+              "explanation": "",
+              "options": [],
+              "correctOrder": [],
+              "orderIndex": 2
+            }
+          ],
+          "sourceCode": "JPD133-L09-G005"
+        },
+        {
+          "pattern": "V辞書形 + ことが できます",
+          "title": "Khả năng với động từ",
+          "meaning": "có thể làm…",
+          "structure": "V辞書形 + こと + が + できます",
+          "usageScope": "Dùng để diễn tả năng lực hoặc khả năng thực hiện một hành động.",
+          "formation": "作ります → 作ることができます; 話します → 話すことができます",
+          "notes": "が: đánh dấu danh ngữ Vこと là nội dung có thể Nができます dùng khi nội dung là danh từ; Vことができます dùng khi nội dung là hành động. Không dùng Vます + ことができます.",
+          "orderIndex": 6,
+          "examples": [
+            {
+              "japanese": "私は料理を作ることができません。",
+              "reading": "わたしはりょうりをつくることができません。",
+              "meaning": "Tôi không thể nấu ăn.",
+              "orderIndex": 1
+            },
+            {
+              "japanese": "私は日本語を話すことができます。",
+              "reading": "わたしはにほんごをはなすことができます。",
+              "meaning": "Tôi có thể nói tiếng Nhật.",
+              "orderIndex": 2
+            }
+          ],
+          "exercises": [
+            {
+              "exerciseType": "arrange",
+              "prompt": "ことができます / 日本語を / 私は / 話す",
+              "expectedAnswer": "私は日本語を話すことができます。",
+              "acceptableAnswers": [],
+              "hint": "",
+              "explanation": "",
+              "options": [
+                "ことができます",
+                "日本語を",
+                "私は",
+                "話す"
+              ],
+              "correctOrder": [
+                "私は",
+                "日本語を",
+                "話す",
+                "ことができます"
+              ],
+              "orderIndex": 1
+            },
+            {
+              "exerciseType": "vi_to_ja",
+              "prompt": "Tôi không thể nấu ăn.",
+              "expectedAnswer": "私は料理を作ることができません。",
+              "acceptableAnswers": [],
+              "hint": "",
+              "explanation": "",
+              "options": [],
+              "correctOrder": [],
+              "orderIndex": 2
+            },
+            {
+              "exerciseType": "vi_to_ja",
+              "prompt": "Chuyển 作ります sang thể từ điển trong ことができます.",
+              "expectedAnswer": "作る",
+              "acceptableAnswers": [],
+              "hint": "",
+              "explanation": "作ります → 作る.",
+              "options": [],
+              "correctOrder": [],
+              "orderIndex": 3
+            },
+            {
+              "exerciseType": "vi_to_ja",
+              "prompt": "Chuyển できます sang phủ định lịch sự.",
+              "expectedAnswer": "できません。",
+              "acceptableAnswers": [],
+              "hint": "",
+              "explanation": "ます → ません.",
+              "options": [],
+              "correctOrder": [],
+              "orderIndex": 4
+            }
+          ],
+          "sourceCode": "JPD133-L09-G006"
+        },
+        {
+          "pattern": "Vて形、＿＿＿＿",
+          "title": "Nối hành động bằng thể て",
+          "meaning": "rồi / và",
+          "structure": "V1て、V2て、… Vます",
+          "usageScope": "Dùng để nối nhiều hành động theo thứ tự xảy ra trong cùng một chuỗi.",
+          "formation": "食べます → 食べて; 見ます → 見て; します → して",
+          "notes": "Trợ từ của từng động từ được giữ nguyên VたりVたりします liệt kê hành động tiêu biểu, không nhất thiết theo trình tự; Vて nối trình tự rõ hơn. Không chia tất cả động từ ở dạng ます giữa chuỗi: ×食べます、見ます khi muốn dùng mẫu này.",
+          "orderIndex": 7,
+          "examples": [
+            {
+              "japanese": "週末、ともだちとご飯を食べて、映画を見ます。",
+              "reading": "しゅうまつ、ともだちとごはんをたべて、えいがをみます。",
+              "meaning": "Cuối tuần tôi ăn cơm với bạn rồi xem phim.",
+              "orderIndex": 1
+            },
+            {
+              "japanese": "駅まで歩いて、電車に乗ります。",
+              "reading": "えきまであるいて、でんしゃにのります。",
+              "meaning": "Tôi đi bộ đến ga rồi lên tàu.",
+              "orderIndex": 2
+            }
+          ],
+          "exercises": [
+            {
+              "exerciseType": "vi_to_ja",
+              "prompt": "週末、友達とご飯を食べ（　）、映画を見ます。",
+              "expectedAnswer": "て",
+              "acceptableAnswers": [],
+              "hint": "",
+              "explanation": "Nối hành động theo trình tự bằng Vて形.",
+              "options": [
+                "ます",
+                "たり",
+                "て",
+                "ない"
+              ],
+              "correctOrder": [],
+              "orderIndex": 1
+            },
+            {
+              "exerciseType": "vi_to_ja",
+              "prompt": "Tôi đi bộ đến ga rồi lên tàu.",
+              "expectedAnswer": "駅まで歩いて、電車に乗ります。",
+              "acceptableAnswers": [],
+              "hint": "",
+              "explanation": "",
+              "options": [],
+              "correctOrder": [],
+              "orderIndex": 2
+            },
+            {
+              "exerciseType": "vi_to_ja",
+              "prompt": "Chuyển 食べます sang thể て để nối hành động.",
+              "expectedAnswer": "食べて",
+              "acceptableAnswers": [],
+              "hint": "",
+              "explanation": "Động từ nhóm II: bỏ ます, thêm て.",
+              "options": [],
+              "correctOrder": [],
+              "orderIndex": 3
+            }
+          ],
+          "sourceCode": "JPD133-L09-G007"
+        },
+        {
+          "pattern": "どうやって",
+          "title": "Hỏi cách thức",
+          "meaning": "bằng cách nào / như thế nào",
+          "structure": "どうやって + [hành động] か",
+          "usageScope": "Dùng để hỏi cách làm, phương tiện, trình tự hoặc phương pháp thực hiện một việc.",
+          "formation": "どうやって行きますか / どうやって作りますか",
+          "notes": "Trợ từ phụ thuộc câu trả lời; thường xuất hiện で, に乗って, で降りて... Không trả lời chỉ bằng はい/いいえ vì đây là câu hỏi cách thức.",
+          "orderIndex": 8,
+          "examples": [
+            {
+              "japanese": "どうやって美術館へ行きますか。――3番のバスに乗って、美術館前で降ります。",
+              "reading": "どうやってびじゅつかんへいきますか。――さんばんのバスにのって、びじゅつかんまえでおります。",
+              "meaning": "Đi đến bảo tàng mỹ thuật bằng cách nào? — Lên xe buýt số 3 và xuống ở trước bảo tàng.",
+              "orderIndex": 1
+            },
+            {
+              "japanese": "どうやってこの料理を作りますか。",
+              "reading": "どうやってこのりょうりをつくりますか。",
+              "meaning": "Món này làm như thế nào?",
+              "orderIndex": 2
+            }
+          ],
+          "exercises": [
+            {
+              "exerciseType": "vi_to_ja",
+              "prompt": "（　）美術館へ行きますか。",
+              "expectedAnswer": "どうやって",
+              "acceptableAnswers": [],
+              "hint": "",
+              "explanation": "どうやって hỏi cách thức/phương pháp.",
+              "options": [
+                "どうやって",
+                "いつも",
+                "まだ",
+                "だれが"
+              ],
+              "correctOrder": [],
+              "orderIndex": 1
+            },
+            {
+              "exerciseType": "arrange",
+              "prompt": "美術館へ / どうやって / 行きますか",
+              "expectedAnswer": "どうやって美術館へ行きますか。",
+              "acceptableAnswers": [],
+              "hint": "",
+              "explanation": "",
+              "options": [
+                "美術館へ",
+                "どうやって",
+                "行きますか"
+              ],
+              "correctOrder": [
+                "どうやって",
+                "美術館へ",
+                "行きますか"
+              ],
+              "orderIndex": 2
+            },
+            {
+              "exerciseType": "vi_to_ja",
+              "prompt": "Đi đến bảo tàng mỹ thuật bằng cách nào?",
+              "expectedAnswer": "どうやって美術館へ行きますか。",
+              "acceptableAnswers": [],
+              "hint": "",
+              "explanation": "",
+              "options": [],
+              "correctOrder": [],
+              "orderIndex": 3
+            }
+          ],
+          "sourceCode": "JPD133-L09-G008"
+        }
+      ]
+    },
+    {
+      "lessonNumber": 10,
+      "title": "JPD133 Bài 10",
+      "description": "JPD133 Bài 10 – ngữ pháp và bài tập.",
+      "accessTier": "premium",
+      "packageCode": "jpd133",
+      "orderIndex": 10,
+      "patterns": [
+        {
+          "pattern": "もう Vましたか",
+          "title": "Hỏi đã làm xong chưa",
+          "meaning": "đã… chưa",
+          "structure": "もう + Vましたか",
+          "usageScope": "Dùng để hỏi hành động đã hoàn thành trước thời điểm hiện tại hay chưa.",
+          "formation": "もう食べましたか / もう行きましたか",
+          "notes": "Trợ từ phụ thuộc động từ まだVていません diễn tả 'vẫn chưa'; もうVましたか là câu hỏi 'đã... chưa'. Không trả lời 'chưa' bằng まだVません trong mẫu được dạy; dùng まだVていません.",
+          "orderIndex": 1,
+          "examples": [
+            {
+              "japanese": "もうあさごはんをたべましたか。",
+              "reading": "もうあさごはんをたべましたか。",
+              "meaning": "Bạn đã ăn sáng chưa?",
+              "orderIndex": 1
+            },
+            {
+              "japanese": "もう日本へ行きましたか。",
+              "reading": "もうにほんへいきましたか。",
+              "meaning": "Bạn đã đi Nhật chưa?",
+              "orderIndex": 2
+            }
+          ],
+          "exercises": [
+            {
+              "exerciseType": "vi_to_ja",
+              "prompt": "（　）朝ごはんを食べましたか。",
+              "expectedAnswer": "もう",
+              "acceptableAnswers": [],
+              "hint": "",
+              "explanation": "もうVましたか hỏi “đã… chưa?”.",
+              "options": [
+                "まだ",
+                "もう",
+                "全然",
+                "よく"
+              ],
+              "correctOrder": [],
+              "orderIndex": 1
+            },
+            {
+              "exerciseType": "vi_to_ja",
+              "prompt": "この道（　）まっすぐ行ってください。",
+              "expectedAnswer": "を",
+              "acceptableAnswers": [],
+              "hint": "",
+              "explanation": "Không gian/tuyến đường đi qua dùng を.",
+              "options": [
+                "を",
+                "に",
+                "が",
+                "と"
+              ],
+              "correctOrder": [],
+              "orderIndex": 2
+            },
+            {
+              "exerciseType": "arrange",
+              "prompt": "食べましたか / もう / 朝ごはんを",
+              "expectedAnswer": "もう朝ごはんを食べましたか。",
+              "acceptableAnswers": [],
+              "hint": "",
+              "explanation": "",
+              "options": [
+                "食べましたか",
+                "もう",
+                "朝ごはんを"
+              ],
+              "correctOrder": [
+                "もう",
+                "朝ごはんを",
+                "食べましたか"
+              ],
+              "orderIndex": 3
+            },
+            {
+              "exerciseType": "arrange",
+              "prompt": "食べていません / まだ / 昼ごはんを",
+              "expectedAnswer": "まだ昼ごはんを食べていません。",
+              "acceptableAnswers": [],
+              "hint": "",
+              "explanation": "",
+              "options": [
+                "食べていません",
+                "まだ",
+                "昼ごはんを"
+              ],
+              "correctOrder": [
+                "まだ",
+                "昼ごはんを",
+                "食べていません"
+              ],
+              "orderIndex": 4
+            },
+            {
+              "exerciseType": "arrange",
+              "prompt": "座っても / ここに / いいですか",
+              "expectedAnswer": "ここに座ってもいいですか。",
+              "acceptableAnswers": [],
+              "hint": "",
+              "explanation": "",
+              "options": [
+                "座っても",
+                "ここに",
+                "いいですか"
+              ],
+              "correctOrder": [
+                "ここに",
+                "座っても",
+                "いいですか"
+              ],
+              "orderIndex": 5
+            },
+            {
+              "exerciseType": "arrange",
+              "prompt": "なりました / 寒く",
+              "expectedAnswer": "寒くなりました。",
+              "acceptableAnswers": [],
+              "hint": "",
+              "explanation": "",
+              "options": [
+                "なりました",
+                "寒く"
+              ],
+              "correctOrder": [
+                "寒く",
+                "なりました"
+              ],
+              "orderIndex": 6
+            },
+            {
+              "exerciseType": "vi_to_ja",
+              "prompt": "Bạn đã ăn sáng chưa?",
+              "expectedAnswer": "もう朝ごはんを食べましたか。",
+              "acceptableAnswers": [],
+              "hint": "",
+              "explanation": "",
+              "options": [],
+              "correctOrder": [],
+              "orderIndex": 7
+            },
+            {
+              "exerciseType": "vi_to_ja",
+              "prompt": "Tôi vẫn chưa ăn trưa.",
+              "expectedAnswer": "まだ昼ごはんを食べていません。",
+              "acceptableAnswers": [],
+              "hint": "",
+              "explanation": "",
+              "options": [],
+              "correctOrder": [],
+              "orderIndex": 8
+            },
+            {
+              "exerciseType": "vi_to_ja",
+              "prompt": "Tôi ngồi ở đây được không?",
+              "expectedAnswer": "ここに座ってもいいですか。",
+              "acceptableAnswers": [],
+              "hint": "",
+              "explanation": "",
+              "options": [],
+              "correctOrder": [],
+              "orderIndex": 9
+            },
+            {
+              "exerciseType": "vi_to_ja",
+              "prompt": "Trời đã trở nên lạnh.",
+              "expectedAnswer": "寒くなりました。",
+              "acceptableAnswers": [],
+              "hint": "",
+              "explanation": "",
+              "options": [],
+              "correctOrder": [],
+              "orderIndex": 10
+            },
+            {
+              "exerciseType": "vi_to_ja",
+              "prompt": "この道＿＿まっすぐ行ってください。",
+              "expectedAnswer": "を",
+              "acceptableAnswers": [],
+              "hint": "",
+              "explanation": "Tuyến đường đi qua dùng を.",
+              "options": [
+                "を",
+                "が",
+                "に",
+                "で"
+              ],
+              "correctOrder": [],
+              "orderIndex": 11
+            },
+            {
+              "exerciseType": "vi_to_ja",
+              "prompt": "Chuyển 食べます sang まだVていません.",
+              "expectedAnswer": "まだ食べていません。",
+              "acceptableAnswers": [],
+              "hint": "",
+              "explanation": "食べます → 食べて → 食べていません.",
+              "options": [],
+              "correctOrder": [],
+              "orderIndex": 12
+            },
+            {
+              "exerciseType": "vi_to_ja",
+              "prompt": "Chuyển 座ります sang câu xin phép.",
+              "expectedAnswer": "座ってもいいですか。",
+              "acceptableAnswers": [],
+              "hint": "",
+              "explanation": "座ります → 座って + もいいですか.",
+              "options": [],
+              "correctOrder": [],
+              "orderIndex": 13
+            },
+            {
+              "exerciseType": "vi_to_ja",
+              "prompt": "Chuyển 寒い sang “trở nên lạnh”.",
+              "expectedAnswer": "寒くなります。",
+              "acceptableAnswers": [],
+              "hint": "",
+              "explanation": "イA: い → く + なります.",
+              "options": [],
+              "correctOrder": [],
+              "orderIndex": 14
+            },
+            {
+              "exerciseType": "vi_to_ja",
+              "prompt": "Chuyển 静か sang “trở nên yên tĩnh”.",
+              "expectedAnswer": "静かになります。",
+              "acceptableAnswers": [],
+              "hint": "",
+              "explanation": "ナA: 静か + に + なります.",
+              "options": [],
+              "correctOrder": [],
+              "orderIndex": 15
+            }
+          ],
+          "sourceCode": "JPD133-L10-G001"
+        },
+        {
+          "pattern": "まだ Vていません",
+          "title": "Vẫn chưa làm",
+          "meaning": "vẫn chưa…",
+          "structure": "まだ + Vて形 + いません",
+          "usageScope": "Dùng để diễn tả đến hiện tại hành động vẫn chưa được thực hiện/hoàn thành.",
+          "formation": "食べます → 食べていません",
+          "notes": "まだ: vẫn/chưa; các trợ từ khác tùy động từ Vません chỉ phủ định/không làm; まだVていません nhấn mạnh 'cho đến giờ vẫn chưa'. Không bỏ て trong cấu trúc: ×まだ食べいません.",
+          "orderIndex": 2,
+          "examples": [
+            {
+              "japanese": "まだひるごはんをたべていません。",
+              "reading": "まだひるごはんをたべていません。",
+              "meaning": "Tôi vẫn chưa ăn trưa.",
+              "orderIndex": 1
+            },
+            {
+              "japanese": "まだ宿題をしていません。",
+              "reading": "まだしゅくだいをしていません。",
+              "meaning": "Tôi vẫn chưa làm bài tập.",
+              "orderIndex": 2
+            }
+          ],
+          "exercises": [
+            {
+              "exerciseType": "vi_to_ja",
+              "prompt": "いいえ、（　）食べていません。",
+              "expectedAnswer": "まだ",
+              "acceptableAnswers": [],
+              "hint": "",
+              "explanation": "まだVていません nghĩa là “vẫn chưa…”.",
+              "options": [
+                "もう",
+                "よく",
+                "まだ",
+                "いつも"
+              ],
+              "correctOrder": [],
+              "orderIndex": 1
+            }
+          ],
+          "sourceCode": "JPD133-L10-G002"
+        },
+        {
+          "pattern": "Vて形 + きます",
+          "title": "Đi làm gì rồi quay lại",
+          "meaning": "đi làm… rồi quay lại",
+          "structure": "[đi ra làm hành động] Vて + きます",
+          "usageScope": "Dùng khi người nói rời vị trí hiện tại, thực hiện hành động ở nơi khác, rồi quay lại điểm xuất phát.",
+          "formation": "買います → 買ってきます",
+          "notes": "で có thể đánh dấu nơi làm hành động; を đánh dấu vật Vていきます thường mang hướng đi ra xa; Vてきます trong mẫu này là làm rồi quay lại. Không hiểu きます đơn giản là 'đến' mà bỏ sắc thái quay về trong ngữ cảnh mẫu.",
+          "orderIndex": 3,
+          "examples": [
+            {
+              "japanese": "コンビニでジュースを買ってきます。",
+              "reading": "コンビニでジュースをかってきます。",
+              "meaning": "Tôi đi cửa hàng tiện lợi mua nước rồi quay lại.",
+              "orderIndex": 1
+            },
+            {
+              "japanese": "ちょっと飲み物を買ってきます。",
+              "reading": "ちょっとのみものをかってきます。",
+              "meaning": "Tôi đi mua đồ uống một lát rồi quay lại.",
+              "orderIndex": 2
+            }
+          ],
+          "exercises": [
+            {
+              "exerciseType": "vi_to_ja",
+              "prompt": "コンビニでジュースを買って（　）。",
+              "expectedAnswer": "きます",
+              "acceptableAnswers": [],
+              "hint": "",
+              "explanation": "Vてきます trong bài diễn tả đi làm việc gì rồi quay lại.",
+              "options": [
+                "います",
+                "きます",
+                "なります",
+                "ください"
+              ],
+              "correctOrder": [],
+              "orderIndex": 1
+            },
+            {
+              "exerciseType": "arrange",
+              "prompt": "買ってきます / コンビニで / ジュースを",
+              "expectedAnswer": "コンビニでジュースを買ってきます。",
+              "acceptableAnswers": [],
+              "hint": "",
+              "explanation": "",
+              "options": [
+                "買ってきます",
+                "コンビニで",
+                "ジュースを"
+              ],
+              "correctOrder": [
+                "コンビニで",
+                "ジュースを",
+                "買ってきます"
+              ],
+              "orderIndex": 2
+            },
+            {
+              "exerciseType": "vi_to_ja",
+              "prompt": "Tôi đi cửa hàng tiện lợi mua nước rồi quay lại.",
+              "expectedAnswer": "コンビニでジュースを買ってきます。",
+              "acceptableAnswers": [],
+              "hint": "",
+              "explanation": "",
+              "options": [],
+              "correctOrder": [],
+              "orderIndex": 3
+            },
+            {
+              "exerciseType": "vi_to_ja",
+              "prompt": "ここ＿＿写真を撮らないでください。",
+              "expectedAnswer": "で",
+              "acceptableAnswers": [],
+              "hint": "",
+              "explanation": "Nơi diễn ra hành động 撮る dùng で.",
+              "options": [
+                "に",
+                "を",
+                "で",
+                "が"
+              ],
+              "correctOrder": [],
+              "orderIndex": 4
+            },
+            {
+              "exerciseType": "vi_to_ja",
+              "prompt": "ここ＿＿食事ができます。",
+              "expectedAnswer": "で",
+              "acceptableAnswers": [],
+              "hint": "",
+              "explanation": "Nơi có thể thực hiện hoạt động dùng で.",
+              "options": [
+                "で",
+                "を",
+                "が",
+                "に"
+              ],
+              "correctOrder": [],
+              "orderIndex": 5
+            },
+            {
+              "exerciseType": "vi_to_ja",
+              "prompt": "Chuyển 買います sang Vてきます.",
+              "expectedAnswer": "買ってきます。",
+              "acceptableAnswers": [],
+              "hint": "",
+              "explanation": "買います → 買って + きます.",
+              "options": [],
+              "correctOrder": [],
+              "orderIndex": 6
+            }
+          ],
+          "sourceCode": "JPD133-L10-G003"
+        },
+        {
+          "pattern": "N が 見えます／聞こえます",
+          "title": "Nhìn thấy / nghe thấy tự nhiên",
+          "meaning": "có thể nhìn thấy / có thể nghe thấy",
+          "structure": "N + が + 見えます／聞こえます",
+          "usageScope": "Dùng để nói sự vật/âm thanh tự nhiên lọt vào tầm mắt/tai, không nhấn mạnh nỗ lực chủ động.",
+          "formation": "見えます / 見えません; 聞こえます / 聞こえません",
+          "notes": "が: đối tượng nhìn thấy/nghe thấy Vことができます nói khả năng thực hiện hành động; 見えます/聞こえます nói khả năng cảm nhận tự nhiên. Không dùng を với 見えます/聞こえます trong mẫu cơ bản.",
+          "orderIndex": 4,
+          "examples": [
+            {
+              "japanese": "ここから東京タワーが見えます。とりのこえが聞こえます。",
+              "reading": "ここからとうきょうタワーがみえます。とりのこえがきこえます。",
+              "meaning": "Từ đây có thể nhìn thấy Tokyo Tower. Có thể nghe thấy tiếng chim.",
+              "orderIndex": 1
+            },
+            {
+              "japanese": "窓から海が見えます。",
+              "reading": "まどからうみがみえます。",
+              "meaning": "Từ cửa sổ có thể nhìn thấy biển.",
+              "orderIndex": 2
+            }
+          ],
+          "exercises": [
+            {
+              "exerciseType": "vi_to_ja",
+              "prompt": "ここから東京タワー（　）見えます。",
+              "expectedAnswer": "が",
+              "acceptableAnswers": [],
+              "hint": "",
+              "explanation": "Đối tượng nhìn thấy tự nhiên dùng が: Nが見えます.",
+              "options": [
+                "を",
+                "に",
+                "が",
+                "で"
+              ],
+              "correctOrder": [],
+              "orderIndex": 1
+            },
+            {
+              "exerciseType": "vi_to_ja",
+              "prompt": "ここで食事（　）できます。",
+              "expectedAnswer": "が",
+              "acceptableAnswers": [],
+              "hint": "",
+              "explanation": "Hoạt động dạng danh từ đi với Nができます.",
+              "options": [
+                "を",
+                "が",
+                "に",
+                "は"
+              ],
+              "correctOrder": [],
+              "orderIndex": 2
+            },
+            {
+              "exerciseType": "arrange",
+              "prompt": "見えます / 海が / 窓から",
+              "expectedAnswer": "窓から海が見えます。",
+              "acceptableAnswers": [],
+              "hint": "",
+              "explanation": "",
+              "options": [
+                "見えます",
+                "海が",
+                "窓から"
+              ],
+              "correctOrder": [
+                "窓から",
+                "海が",
+                "見えます"
+              ],
+              "orderIndex": 3
+            },
+            {
+              "exerciseType": "vi_to_ja",
+              "prompt": "Từ cửa sổ có thể nhìn thấy biển.",
+              "expectedAnswer": "窓から海が見えます。",
+              "acceptableAnswers": [],
+              "hint": "",
+              "explanation": "",
+              "options": [],
+              "correctOrder": [],
+              "orderIndex": 4
+            },
+            {
+              "exerciseType": "vi_to_ja",
+              "prompt": "ここから東京タワー＿＿見えます。",
+              "expectedAnswer": "が",
+              "acceptableAnswers": [],
+              "hint": "",
+              "explanation": "Đối tượng được nhìn thấy tự nhiên dùng が.",
+              "options": [
+                "を",
+                "が",
+                "に",
+                "で"
+              ],
+              "correctOrder": [],
+              "orderIndex": 5
+            },
+            {
+              "exerciseType": "vi_to_ja",
+              "prompt": "この公園でサッカーをすること＿＿できます。",
+              "expectedAnswer": "が",
+              "acceptableAnswers": [],
+              "hint": "",
+              "explanation": "Vことができます.",
+              "options": [
+                "に",
+                "が",
+                "を",
+                "で"
+              ],
+              "correctOrder": [],
+              "orderIndex": 6
+            }
+          ],
+          "sourceCode": "JPD133-L10-G004"
+        },
+        {
+          "pattern": "N（場所）を Vます",
+          "title": "Địa điểm là tuyến đường đi qua",
+          "meaning": "đi qua / rời khỏi / di chuyển qua địa điểm N",
+          "structure": "N（場所）+ を + động từ di chuyển",
+          "usageScope": "Trợ từ を dùng với địa điểm mà người/vật đi qua, băng qua hoặc rời khỏi trong các động từ chuyển động phù hợp.",
+          "formation": "橋を渡ります / 道を歩きます / 交差点を曲がります",
+          "notes": "を: đánh dấu không gian/tuyến đường được đi qua NでVます: nơi thực hiện hành động; NをVます: đường/không gian đi qua với động từ di chuyển. Không dùng に nếu ý là 'đi qua con đường/cây cầu'.",
+          "orderIndex": 5,
+          "examples": [
+            {
+              "japanese": "あの橋を渡って、交差点を右に曲がってください。",
+              "reading": "あのはしをわたって、こうさてんをみぎにまがってください。",
+              "meaning": "Hãy qua cây cầu kia rồi rẽ phải ở ngã tư.",
+              "orderIndex": 1
+            },
+            {
+              "japanese": "この道をまっすぐ行ってください。",
+              "reading": "このみちをまっすぐいってください。",
+              "meaning": "Hãy đi thẳng theo con đường này.",
+              "orderIndex": 2
+            }
+          ],
+          "exercises": [
+            {
+              "exerciseType": "vi_to_ja",
+              "prompt": "寒い → 寒（　）なりました。",
+              "expectedAnswer": "く",
+              "acceptableAnswers": [],
+              "hint": "",
+              "explanation": "イA đổi い → くなります.",
+              "options": [
+                "いに",
+                "く",
+                "な",
+                "で"
+              ],
+              "correctOrder": [],
+              "orderIndex": 1
+            },
+            {
+              "exerciseType": "vi_to_ja",
+              "prompt": "静か → 静か（　）なりました。",
+              "expectedAnswer": "に",
+              "acceptableAnswers": [],
+              "hint": "",
+              "explanation": "ナA dùng ナA + に + なります.",
+              "options": [
+                "く",
+                "で",
+                "に",
+                "な"
+              ],
+              "correctOrder": [],
+              "orderIndex": 2
+            },
+            {
+              "exerciseType": "vi_to_ja",
+              "prompt": "Hãy đi thẳng theo con đường này.",
+              "expectedAnswer": "この道をまっすぐ行ってください。",
+              "acceptableAnswers": [],
+              "hint": "",
+              "explanation": "",
+              "options": [],
+              "correctOrder": [],
+              "orderIndex": 3
+            }
+          ],
+          "sourceCode": "JPD133-L10-G005"
+        },
+        {
+          "pattern": "Vて形 + もいいですか",
+          "title": "Xin phép",
+          "meaning": "có được phép… không?",
+          "structure": "Vて形 + も + いいですか",
+          "usageScope": "Dùng để xin phép thực hiện hành động. Tài liệu đưa câu đáp cho phép 「はい、どうぞ」 và cách từ chối mềm 「すみません、ちょっと……」.",
+          "formation": "座ります → 座ってもいいですか",
+          "notes": "も trong cấu trúc cố định Vてもいい Vないでください là yêu cầu không làm; Vてもいいですか là xin phép làm. Không dùng Vますもいいですか; phải đổi sang thể て.",
+          "orderIndex": 6,
+          "examples": [
+            {
+              "japanese": "となりにすわってもいいですか。――はい、どうぞ。／すみません、ちょっと……。",
+              "reading": "となりにすわってもいいですか。――はい、どうぞ。／すみません、ちょっと……。",
+              "meaning": "Tôi ngồi bên cạnh được không? — Vâng, xin mời. / Xin lỗi, hơi…",
+              "orderIndex": 1
+            },
+            {
+              "japanese": "ここに荷物を置いてもいいですか。",
+              "reading": "ここににもつをおいてもいいですか。",
+              "meaning": "Tôi để hành lý ở đây được không?",
+              "orderIndex": 2
+            }
+          ],
+          "exercises": [
+            {
+              "exerciseType": "vi_to_ja",
+              "prompt": "ここに座っ（　）いいですか。",
+              "expectedAnswer": "ても",
+              "acceptableAnswers": [],
+              "hint": "",
+              "explanation": "Xin phép dùng Vてもいいですか.",
+              "options": [
+                "たり",
+                "ても",
+                "ないで",
+                "ては"
+              ],
+              "correctOrder": [],
+              "orderIndex": 1
+            }
+          ],
+          "sourceCode": "JPD133-L10-G006"
+        },
+        {
+          "pattern": "Vない形 + でください",
+          "title": "Yêu cầu đừng làm",
+          "meaning": "xin đừng…",
+          "structure": "Vない形 + で + ください",
+          "usageScope": "Dùng để yêu cầu, nhắc nhở hoặc đề nghị người khác không thực hiện hành động.",
+          "formation": "入ります → 入らないでください; 食べます → 食べないでください",
+          "notes": "でください là phần cố định sau thể ない Vてください yêu cầu làm; Vないでください yêu cầu không làm. Không dùng ×Vなくてください.",
+          "orderIndex": 7,
+          "examples": [
+            {
+              "japanese": "そこに入らないでください。",
+              "reading": "そこにはいらないでください。",
+              "meaning": "Xin đừng vào đó.",
+              "orderIndex": 1
+            },
+            {
+              "japanese": "ここで写真を撮らないでください。",
+              "reading": "ここでしゃしんをとらないでください。",
+              "meaning": "Xin đừng chụp ảnh ở đây.",
+              "orderIndex": 2
+            }
+          ],
+          "exercises": [
+            {
+              "exerciseType": "vi_to_ja",
+              "prompt": "ここで写真を撮ら（　）ください。",
+              "expectedAnswer": "ないで",
+              "acceptableAnswers": [],
+              "hint": "",
+              "explanation": "Yêu cầu đừng làm dùng Vない形 + でください.",
+              "options": [
+                "なくて",
+                "ないで",
+                "ない",
+                "なかった"
+              ],
+              "correctOrder": [],
+              "orderIndex": 1
+            },
+            {
+              "exerciseType": "arrange",
+              "prompt": "撮らないでください / ここで / 写真を",
+              "expectedAnswer": "ここで写真を撮らないでください。",
+              "acceptableAnswers": [],
+              "hint": "",
+              "explanation": "",
+              "options": [
+                "撮らないでください",
+                "ここで",
+                "写真を"
+              ],
+              "correctOrder": [
+                "ここで",
+                "写真を",
+                "撮らないでください"
+              ],
+              "orderIndex": 2
+            },
+            {
+              "exerciseType": "vi_to_ja",
+              "prompt": "Xin đừng chụp ảnh ở đây.",
+              "expectedAnswer": "ここで写真を撮らないでください。",
+              "acceptableAnswers": [],
+              "hint": "",
+              "explanation": "",
+              "options": [],
+              "correctOrder": [],
+              "orderIndex": 3
+            },
+            {
+              "exerciseType": "vi_to_ja",
+              "prompt": "Chuyển 入ります sang “xin đừng vào”.",
+              "expectedAnswer": "入らないでください。",
+              "acceptableAnswers": [],
+              "hint": "",
+              "explanation": "入る → 入らない + でください.",
+              "options": [],
+              "correctOrder": [],
+              "orderIndex": 4
+            }
+          ],
+          "sourceCode": "JPD133-L10-G007"
+        },
+        {
+          "pattern": "N は",
+          "title": "Đối chiếu/chủ đề bằng は",
+          "meaning": "thì / còn…",
+          "structure": "N + は + mệnh đề",
+          "usageScope": "Trong mục này, は dùng để nhấn mạnh hoặc phân biệt chủ đề cần nói tới, thường tạo sắc thái 'còn N thì…'.",
+          "formation": "Nは + Vてください / Aです ...",
+          "notes": "は: chủ đề/đối chiếu が đánh dấu chủ thể mới/tiêu điểm; は đưa chủ đề hoặc đối chiếu. Không máy móc dịch は thành một từ tiếng Việt cố định.",
+          "orderIndex": 8,
+          "examples": [
+            {
+              "japanese": "ここに荷物はおいてください。",
+              "reading": "ここににもつはおいてください。",
+              "meaning": "Còn hành lý thì hãy để ở đây.",
+              "orderIndex": 1
+            },
+            {
+              "japanese": "このかばんはここに置いてください。",
+              "reading": "このかばんはここにおいてください。",
+              "meaning": "Còn chiếc cặp này thì hãy đặt ở đây.",
+              "orderIndex": 2
+            }
+          ],
+          "exercises": [],
+          "sourceCode": "JPD133-L10-G008"
+        },
+        {
+          "pattern": "N が Vて形 + います",
+          "title": "Hành động đang diễn ra trước mắt",
+          "meaning": "N đang…",
+          "structure": "N + が + Vて形 + います",
+          "usageScope": "Dùng để diễn tả hành động đang xảy ra trước mắt tại thời điểm quan sát.",
+          "formation": "食べます → 食べています",
+          "notes": "が: chủ thể đang thực hiện hành động Bài 8 cũng có Vています cho trạng thái/nghề nghiệp; bài 10-3 nhấn mạnh hành động đang xảy ra trước mắt. Không luôn dịch mọi Vています là 'đang' nếu ngữ cảnh là thói quen/trạng thái.",
+          "orderIndex": 9,
+          "examples": [
+            {
+              "japanese": "あっ、サルがバナナを食べています。",
+              "reading": "あっ、サルがバナナをたべています。",
+              "meaning": "A, con khỉ đang ăn chuối.",
+              "orderIndex": 1
+            },
+            {
+              "japanese": "子どもが公園で遊んでいます。",
+              "reading": "こどもがこうえんであそんでいます。",
+              "meaning": "Bọn trẻ đang chơi trong công viên.",
+              "orderIndex": 2
+            }
+          ],
+          "exercises": [
+            {
+              "exerciseType": "vi_to_ja",
+              "prompt": "Con khỉ đang ăn chuối.",
+              "expectedAnswer": "サルがバナナを食べています。",
+              "acceptableAnswers": [],
+              "hint": "",
+              "explanation": "",
+              "options": [],
+              "correctOrder": [],
+              "orderIndex": 1
+            }
+          ],
+          "sourceCode": "JPD133-L10-G009"
+        },
+        {
+          "pattern": "N が できます",
+          "title": "Có thể làm N tại địa điểm",
+          "meaning": "có thể… / có dịch vụ, hoạt động N",
+          "structure": "[địa điểm] で + N が + できます",
+          "usageScope": "Dùng để nói tại một địa điểm hoặc tình huống có thể thực hiện một hoạt động được biểu thị bằng danh từ.",
+          "formation": "食事ができます / 買い物ができます",
+          "notes": "で: nơi có thể làm; が: nội dung hoạt động Vことができます dùng khi muốn nói hành động bằng động từ. Không dùng を trước できます.",
+          "orderIndex": 10,
+          "examples": [
+            {
+              "japanese": "ここで食事ができます。",
+              "reading": "ここでしょくじができます。",
+              "meaning": "Ở đây có thể ăn/uống bữa.",
+              "orderIndex": 1
+            },
+            {
+              "japanese": "この店で買い物ができます。",
+              "reading": "このみせでかいものができます。",
+              "meaning": "Có thể mua sắm ở cửa hàng này.",
+              "orderIndex": 2
+            }
+          ],
+          "exercises": [
+            {
+              "exerciseType": "vi_to_ja",
+              "prompt": "Ở đây có thể ăn.",
+              "expectedAnswer": "ここで食事ができます。",
+              "acceptableAnswers": [],
+              "hint": "",
+              "explanation": "",
+              "options": [],
+              "correctOrder": [],
+              "orderIndex": 1
+            }
+          ],
+          "sourceCode": "JPD133-L10-G010"
+        },
+        {
+          "pattern": "V辞書形 + ことが できます",
+          "title": "Có thể thực hiện hành động",
+          "meaning": "có thể làm…",
+          "structure": "[địa điểm] で + V辞書形 + ことが + できます",
+          "usageScope": "Dùng để diễn tả hành động cụ thể có thể thực hiện trong tình huống/địa điểm.",
+          "formation": "撮ります → 撮ることができます",
+          "notes": "で: địa điểm; が: danh ngữ Vこと Nができます dùng danh từ hoạt động; Vことができます dùng động từ. Không dùng thể ます trước こと.",
+          "orderIndex": 11,
+          "examples": [
+            {
+              "japanese": "あそこで きれいな写真をとることができます。",
+              "reading": "あそこで きれいなしゃしんをとることができます。",
+              "meaning": "Ở đằng kia có thể chụp những bức ảnh đẹp.",
+              "orderIndex": 1
+            },
+            {
+              "japanese": "この公園でサッカーをすることができます。",
+              "reading": "このこうえんでサッカーをすることができます。",
+              "meaning": "Có thể chơi bóng đá ở công viên này.",
+              "orderIndex": 2
+            }
+          ],
+          "exercises": [],
+          "sourceCode": "JPD133-L10-G011"
+        },
+        {
+          "pattern": "イA-くなります",
+          "title": "Tính từ い trở nên…",
+          "meaning": "trở nên…",
+          "structure": "イA bỏ い + く + なります",
+          "usageScope": "Dùng để diễn tả sự thay đổi trạng thái của tính từ đuôi い.",
+          "formation": "寒い → 寒くなります / 暑い → 暑くなります / いい → よくなります",
+          "notes": "Không có trợ từ bắt buộc riêng ナA・N dùng になります, không dùng くなります. Không viết ×寒いになります.",
+          "orderIndex": 12,
+          "examples": [
+            {
+              "japanese": "さむくなりました。",
+              "reading": "さむくなりました。",
+              "meaning": "Trời đã trở nên lạnh.",
+              "orderIndex": 1
+            },
+            {
+              "japanese": "夜は涼しくなります。",
+              "reading": "よるはすずしくなります。",
+              "meaning": "Buổi tối trời trở nên mát.",
+              "orderIndex": 2
+            }
+          ],
+          "exercises": [],
+          "sourceCode": "JPD133-L10-G012"
+        },
+        {
+          "pattern": "ナA・N に なります",
+          "title": "Tính từ な / danh từ trở thành…",
+          "meaning": "trở nên / trở thành…",
+          "structure": "ナA + に + なります / N + に + なります",
+          "usageScope": "Dùng để diễn tả sự thay đổi của tính từ な hoặc danh từ.",
+          "formation": "元気です → 元気になります / 12時です → 12時になります",
+          "notes": "に: kết quả/trạng thái mới イA dùng くなります. Không viết ×静かなります; phải là 静かになります.",
+          "orderIndex": 13,
+          "examples": [
+            {
+              "japanese": "もうすぐ12時になります。",
+              "reading": "もうすぐじゅうにじになります。",
+              "meaning": "Sắp 12 giờ rồi.",
+              "orderIndex": 1
+            },
+            {
+              "japanese": "町は静かになりました。",
+              "reading": "まちはしずかになりました。",
+              "meaning": "Thị trấn đã trở nên yên tĩnh.",
+              "orderIndex": 2
+            }
+          ],
+          "exercises": [
+            {
+              "exerciseType": "vi_to_ja",
+              "prompt": "Chuyển 12時 sang “trở thành/đến 12 giờ”.",
+              "expectedAnswer": "12時になります。",
+              "acceptableAnswers": [],
+              "hint": "",
+              "explanation": "N: N + に + なります.",
+              "options": [],
+              "correctOrder": [],
+              "orderIndex": 1
+            }
+          ],
+          "sourceCode": "JPD133-L10-G013"
+        },
+        {
+          "pattern": "Vて形、＿＿＿＿",
+          "title": "Nối hành động bằng thể て",
+          "meaning": "rồi / và",
+          "structure": "V1て、V2て、… Vます",
+          "usageScope": "Dùng để nối nhiều hành động theo thứ tự xảy ra. Mẫu được lặp lại từ bài 9 để dùng trong ngữ cảnh đề xuất/hành động theo tình huống.",
+          "formation": "食べます → 食べて; 見ます → 見て",
+          "notes": "Trợ từ phụ thuộc từng động từ VたりVたりします chỉ liệt kê hành động tiêu biểu, không nhất thiết theo thứ tự. Không biến mọi động từ giữa chuỗi thành ます khi dùng mẫu Vて.",
+          "orderIndex": 14,
+          "examples": [
+            {
+              "japanese": "週末、ともだちとご飯を食べて、映画を見ます。",
+              "reading": "しゅうまつ、ともだちとごはんをたべて、えいがをみます。",
+              "meaning": "Cuối tuần tôi ăn cơm với bạn rồi xem phim.",
+              "orderIndex": 1
+            },
+            {
+              "japanese": "ここを右に曲がって、まっすぐ行きます。",
+              "reading": "ここをみぎにまがって、まっすぐいきます。",
+              "meaning": "Rẽ phải ở đây rồi đi thẳng.",
+              "orderIndex": 2
+            }
+          ],
+          "exercises": [],
+          "sourceCode": "JPD133-L10-G014"
+        }
+      ]
+    },
+    {
+      "lessonNumber": 11,
+      "title": "JPD133 Bài 11",
+      "description": "JPD133 Bài 11 – ngữ pháp và bài tập.",
+      "accessTier": "premium",
+      "packageCode": "jpd133",
+      "orderIndex": 11,
+      "patterns": [
+        {
+          "pattern": "～は ～が、～は＿＿＿＿",
+          "title": "Đối chiếu hai chủ đề",
+          "meaning": "… thì…, nhưng/còn … thì…",
+          "structure": "N1 は P1 が、N2 は P2",
+          "usageScope": "Dùng để đối chiếu/so sánh hai nội dung khác nhau trong cùng câu; が ở đây nối hai vế với sắc thái 'nhưng'.",
+          "formation": "です → ですが; 好きです → 好きですが",
+          "notes": "は: hai chủ đề đối chiếu; が: liên kết tương phản でも nối hai câu riêng; ～が nối trực tiếp hai mệnh đề. Không nhầm が nối tương phản với が đánh dấu chủ ngữ.",
+          "orderIndex": 1,
+          "examples": [
+            {
+              "japanese": "犬は好きですが、猫は好きじゃありません。",
+              "reading": "いぬはすきですが、ねこはすきじゃありません。",
+              "meaning": "Tôi thích chó nhưng không thích mèo.",
+              "orderIndex": 1
+            },
+            {
+              "japanese": "日本語は好きですが、漢字はあまり好きじゃありません。",
+              "reading": "にほんごはすきですが、かんじはあまりすきじゃありません。",
+              "meaning": "Tôi thích tiếng Nhật nhưng không thích kanji lắm.",
+              "orderIndex": 2
+            }
+          ],
+          "exercises": [
+            {
+              "exerciseType": "vi_to_ja",
+              "prompt": "犬は好きです（　）、猫は好きじゃありません。",
+              "expectedAnswer": "が",
+              "acceptableAnswers": [],
+              "hint": "",
+              "explanation": "～は～が、～は… dùng が để nối hai nội dung đối chiếu.",
+              "options": [
+                "から",
+                "が",
+                "ので",
+                "と"
+              ],
+              "correctOrder": [],
+              "orderIndex": 1
+            },
+            {
+              "exerciseType": "arrange",
+              "prompt": "猫は / 犬は好きですが / 好きじゃありません",
+              "expectedAnswer": "犬は好きですが、猫は好きじゃありません。",
+              "acceptableAnswers": [],
+              "hint": "",
+              "explanation": "",
+              "options": [
+                "猫は",
+                "犬は好きですが",
+                "好きじゃありません"
+              ],
+              "correctOrder": [
+                "犬は好きですが",
+                "猫は",
+                "好きじゃありません"
+              ],
+              "orderIndex": 2
+            },
+            {
+              "exerciseType": "arrange",
+              "prompt": "音楽を聞いたり / 本を読んだり / します",
+              "expectedAnswer": "本を読んだり、音楽を聞いたりします。",
+              "acceptableAnswers": [],
+              "hint": "",
+              "explanation": "",
+              "options": [
+                "音楽を聞いたり",
+                "本を読んだり",
+                "します"
+              ],
+              "correctOrder": [
+                "本を読んだり",
+                "音楽を聞いたり",
+                "します"
+              ],
+              "orderIndex": 3
+            },
+            {
+              "exerciseType": "arrange",
+              "prompt": "家族に電話します / さびしいとき",
+              "expectedAnswer": "さびしいとき、家族に電話します。",
+              "acceptableAnswers": [],
+              "hint": "",
+              "explanation": "",
+              "options": [
+                "家族に電話します",
+                "さびしいとき"
+              ],
+              "correctOrder": [
+                "さびしいとき",
+                "家族に電話します"
+              ],
+              "orderIndex": 4
+            },
+            {
+              "exerciseType": "arrange",
+              "prompt": "ギターを始めました / 中学生のとき",
+              "expectedAnswer": "中学生のとき、ギターを始めました。",
+              "acceptableAnswers": [],
+              "hint": "",
+              "explanation": "",
+              "options": [
+                "ギターを始めました",
+                "中学生のとき"
+              ],
+              "correctOrder": [
+                "中学生のとき",
+                "ギターを始めました"
+              ],
+              "orderIndex": 5
+            },
+            {
+              "exerciseType": "arrange",
+              "prompt": "ご飯 / 日曜日 / 食べない",
+              "expectedAnswer": "日曜日、ご飯食べない？",
+              "acceptableAnswers": [],
+              "hint": "",
+              "explanation": "",
+              "options": [
+                "ご飯",
+                "日曜日",
+                "食べない"
+              ],
+              "correctOrder": [
+                "日曜日",
+                "ご飯",
+                "食べない"
+              ],
+              "orderIndex": 6
+            },
+            {
+              "exerciseType": "vi_to_ja",
+              "prompt": "Tôi thích chó nhưng không thích mèo.",
+              "expectedAnswer": "犬は好きですが、猫は好きじゃありません。",
+              "acceptableAnswers": [],
+              "hint": "",
+              "explanation": "",
+              "options": [],
+              "correctOrder": [],
+              "orderIndex": 7
+            },
+            {
+              "exerciseType": "vi_to_ja",
+              "prompt": "Khi cô đơn, tôi gọi điện cho gia đình.",
+              "expectedAnswer": "さびしいとき、家族に電話します。",
+              "acceptableAnswers": [],
+              "hint": "",
+              "explanation": "",
+              "options": [],
+              "correctOrder": [],
+              "orderIndex": 8
+            },
+            {
+              "exerciseType": "vi_to_ja",
+              "prompt": "Khi còn là học sinh trung học cơ sở, tôi bắt đầu chơi guitar.",
+              "expectedAnswer": "中学生のとき、ギターを始めました。",
+              "acceptableAnswers": [],
+              "hint": "",
+              "explanation": "",
+              "options": [],
+              "correctOrder": [],
+              "orderIndex": 9
+            }
+          ],
+          "sourceCode": "JPD133-L11-G001"
+        },
+        {
+          "pattern": "Vて形 + います",
+          "title": "Thói quen với Vています",
+          "meaning": "đang / thường xuyên",
+          "structure": "[từ chỉ tần suất/thời gian] + Vて形 + います",
+          "usageScope": "Trong mục này dùng để diễn tả thói quen hoặc hành động lặp lại thường xuyên, không nhất thiết đang xảy ra đúng lúc nói.",
+          "formation": "飲みます → 飲んでいます",
+          "notes": "を: tân ngữ; các trợ từ khác tùy câu Bài 10-3 dùng Vています cho hành động đang xảy ra trước mắt; bài 8 dùng cho trạng thái/nghề nghiệp. Không luôn dịch Vています là 'đang'.",
+          "orderIndex": 2,
+          "examples": [
+            {
+              "japanese": "毎朝、牛乳を飲んでいます。",
+              "reading": "まいあさ、ぎゅうにゅうをのんでいます。",
+              "meaning": "Mỗi sáng tôi thường uống sữa.",
+              "orderIndex": 1
+            },
+            {
+              "japanese": "毎晩、日本語を勉強しています。",
+              "reading": "まいばん、にほんごをべんきょうしています。",
+              "meaning": "Tối nào tôi cũng học tiếng Nhật.",
+              "orderIndex": 2
+            }
+          ],
+          "exercises": [
+            {
+              "exerciseType": "vi_to_ja",
+              "prompt": "毎朝、牛乳を飲ん（　）。",
+              "expectedAnswer": "でいます",
+              "acceptableAnswers": [],
+              "hint": "",
+              "explanation": "Trong bài 11, Vています có thể diễn tả thói quen lặp lại.",
+              "options": [
+                "でいます",
+                "だり",
+                "でください",
+                "だ"
+              ],
+              "correctOrder": [],
+              "orderIndex": 1
+            },
+            {
+              "exerciseType": "arrange",
+              "prompt": "飲んでいます / 毎朝 / 牛乳を",
+              "expectedAnswer": "毎朝、牛乳を飲んでいます。",
+              "acceptableAnswers": [],
+              "hint": "",
+              "explanation": "",
+              "options": [
+                "飲んでいます",
+                "毎朝",
+                "牛乳を"
+              ],
+              "correctOrder": [
+                "毎朝",
+                "牛乳を",
+                "飲んでいます"
+              ],
+              "orderIndex": 2
+            },
+            {
+              "exerciseType": "vi_to_ja",
+              "prompt": "Mỗi sáng tôi thường uống sữa.",
+              "expectedAnswer": "毎朝、牛乳を飲んでいます。",
+              "acceptableAnswers": [],
+              "hint": "",
+              "explanation": "",
+              "options": [],
+              "correctOrder": [],
+              "orderIndex": 3
+            },
+            {
+              "exerciseType": "vi_to_ja",
+              "prompt": "毎朝、牛乳＿＿飲んでいます。",
+              "expectedAnswer": "を",
+              "acceptableAnswers": [],
+              "hint": "",
+              "explanation": "牛乳 là tân ngữ của 飲む nên dùng を.",
+              "options": [
+                "が",
+                "を",
+                "に",
+                "で"
+              ],
+              "correctOrder": [],
+              "orderIndex": 4
+            }
+          ],
+          "sourceCode": "JPD133-L11-G002"
+        },
+        {
+          "pattern": "Vた形 + り、Vた形 + りします",
+          "title": "Liệt kê hành động tiêu biểu",
+          "meaning": "nào là… nào là… / lúc thì… lúc thì…",
+          "structure": "V1た + り、V2た + り + します",
+          "usageScope": "Dùng để liệt kê một vài hành động tiêu biểu, không cần kể đầy đủ và không bắt buộc theo trình tự.",
+          "formation": "読みます → 読んだり; 聞きます → 聞いたり; します → したり",
+          "notes": "Trợ từ của từng động từ giữ nguyên Vて、Vて nối chuỗi theo thứ tự; VたりVたり liệt kê không đầy đủ. Không quên します/しています ở cuối cấu trúc.",
+          "orderIndex": 3,
+          "examples": [
+            {
+              "japanese": "休みの日、家で本を読んだり音楽を聞いたりしています。",
+              "reading": "やすみのひ、いえでほんをよんだりおんがくをきいたりしています。",
+              "meaning": "Ngày nghỉ tôi làm những việc như đọc sách ở nhà, nghe nhạc.",
+              "orderIndex": 1
+            },
+            {
+              "japanese": "週末は映画を見たり、買い物をしたりします。",
+              "reading": "しゅうまつはえいがをみたり、かいものをしたりします。",
+              "meaning": "Cuối tuần tôi làm những việc như xem phim, mua sắm.",
+              "orderIndex": 2
+            }
+          ],
+          "exercises": [
+            {
+              "exerciseType": "vi_to_ja",
+              "prompt": "休みの日、本を読ん（　）、音楽を聞いたりします。",
+              "expectedAnswer": "だり",
+              "acceptableAnswers": [],
+              "hint": "",
+              "explanation": "Vたり、Vたりします dùng thể た + り.",
+              "options": [
+                "で",
+                "だり",
+                "でいます",
+                "ない"
+              ],
+              "correctOrder": [],
+              "orderIndex": 1
+            },
+            {
+              "exerciseType": "vi_to_ja",
+              "prompt": "Cuối tuần tôi làm những việc như xem phim và mua sắm.",
+              "expectedAnswer": "週末は映画を見たり、買い物をしたりします。",
+              "acceptableAnswers": [],
+              "hint": "",
+              "explanation": "",
+              "options": [],
+              "correctOrder": [],
+              "orderIndex": 2
+            },
+            {
+              "exerciseType": "vi_to_ja",
+              "prompt": "Chuyển 読みます sang dạng Vたり.",
+              "expectedAnswer": "読んだり",
+              "acceptableAnswers": [],
+              "hint": "",
+              "explanation": "読む → 読んだ → 読んだり.",
+              "options": [],
+              "correctOrder": [],
+              "orderIndex": 3
+            },
+            {
+              "exerciseType": "vi_to_ja",
+              "prompt": "Chuyển 聞きます sang dạng Vたり.",
+              "expectedAnswer": "聞いたり",
+              "acceptableAnswers": [],
+              "hint": "",
+              "explanation": "聞く → 聞いた → 聞いたり.",
+              "options": [],
+              "correctOrder": [],
+              "orderIndex": 4
+            }
+          ],
+          "sourceCode": "JPD133-L11-G003"
+        },
+        {
+          "pattern": "イA + とき、＿＿＿＿",
+          "title": "Khi ở trạng thái tính từ い",
+          "meaning": "khi…",
+          "structure": "イA dạng thường + とき + mệnh đề",
+          "usageScope": "Dùng để diễn tả hành động xảy ra khi chủ thể ở một trạng thái được biểu thị bằng tính từ い.",
+          "formation": "さびしい + とき / いそがしい + とき",
+          "notes": "Không thêm な sau イA ナA phải thêm な trước とき. Không viết ×さびしいなとき.",
+          "orderIndex": 4,
+          "examples": [
+            {
+              "japanese": "さびしいとき、国の家族に電話します。",
+              "reading": "さびしいとき、くにのかぞくにでんわします。",
+              "meaning": "Khi cô đơn, tôi gọi điện cho gia đình ở quê nhà.",
+              "orderIndex": 1
+            },
+            {
+              "japanese": "忙しいとき、コーヒーを飲みます。",
+              "reading": "いそがしいとき、コーヒーをのみます。",
+              "meaning": "Khi bận, tôi uống cà phê.",
+              "orderIndex": 2
+            }
+          ],
+          "exercises": [
+            {
+              "exerciseType": "vi_to_ja",
+              "prompt": "さびしい（　）、家族に電話します。",
+              "expectedAnswer": "とき",
+              "acceptableAnswers": [],
+              "hint": "",
+              "explanation": "イA đứng trực tiếp trước とき: さびしいとき.",
+              "options": [
+                "なとき",
+                "のとき",
+                "とき",
+                "でとき"
+              ],
+              "correctOrder": [],
+              "orderIndex": 1
+            },
+            {
+              "exerciseType": "vi_to_ja",
+              "prompt": "さびしいとき、家族＿＿電話します。",
+              "expectedAnswer": "に",
+              "acceptableAnswers": [],
+              "hint": "",
+              "explanation": "Người nhận cuộc gọi trong 電話します dùng に.",
+              "options": [
+                "を",
+                "が",
+                "に",
+                "で"
+              ],
+              "correctOrder": [],
+              "orderIndex": 2
+            },
+            {
+              "exerciseType": "vi_to_ja",
+              "prompt": "父＿＿時計をもらいました。",
+              "expectedAnswer": "に",
+              "acceptableAnswers": [],
+              "hint": "",
+              "explanation": "Người cho trong mẫu もらいます của bài dùng に.",
+              "options": [
+                "で",
+                "に",
+                "を",
+                "が"
+              ],
+              "correctOrder": [],
+              "orderIndex": 3
+            }
+          ],
+          "sourceCode": "JPD133-L11-G004"
+        },
+        {
+          "pattern": "ナA + なとき、＿＿＿＿",
+          "title": "Khi ở trạng thái tính từ な",
+          "meaning": "khi…",
+          "structure": "ナA + な + とき + mệnh đề",
+          "usageScope": "Dùng để diễn tả hành động xảy ra khi chủ thể ở trạng thái được biểu thị bằng tính từ な.",
+          "formation": "ひま + なとき / 元気 + なとき",
+          "notes": "な: bắt buộc khi ナA đứng trước とき イA + とき không thêm な. Không bỏ な: ×ひまとき.",
+          "orderIndex": 5,
+          "examples": [
+            {
+              "japanese": "ひまなとき、テレビを見ます。",
+              "reading": "ひまなとき、テレビをみます。",
+              "meaning": "Khi rảnh, tôi xem tivi.",
+              "orderIndex": 1
+            },
+            {
+              "japanese": "元気なとき、よく外を歩きます。",
+              "reading": "げんきなとき、よくそとをあるきます。",
+              "meaning": "Khi khỏe, tôi thường đi bộ bên ngoài.",
+              "orderIndex": 2
+            }
+          ],
+          "exercises": [
+            {
+              "exerciseType": "vi_to_ja",
+              "prompt": "ひま（　）、テレビを見ます。",
+              "expectedAnswer": "なとき",
+              "acceptableAnswers": [],
+              "hint": "",
+              "explanation": "ナA phải thêm な trước とき.",
+              "options": [
+                "とき",
+                "なとき",
+                "のとき",
+                "くて"
+              ],
+              "correctOrder": [],
+              "orderIndex": 1
+            },
+            {
+              "exerciseType": "arrange",
+              "prompt": "テレビを見ます / ひまなとき",
+              "expectedAnswer": "ひまなとき、テレビを見ます。",
+              "acceptableAnswers": [],
+              "hint": "",
+              "explanation": "",
+              "options": [
+                "テレビを見ます",
+                "ひまなとき"
+              ],
+              "correctOrder": [
+                "ひまなとき",
+                "テレビを見ます"
+              ],
+              "orderIndex": 2
+            },
+            {
+              "exerciseType": "vi_to_ja",
+              "prompt": "Khi rảnh, tôi xem tivi.",
+              "expectedAnswer": "ひまなとき、テレビを見ます。",
+              "acceptableAnswers": [],
+              "hint": "",
+              "explanation": "",
+              "options": [],
+              "correctOrder": [],
+              "orderIndex": 3
+            },
+            {
+              "exerciseType": "vi_to_ja",
+              "prompt": "Chuyển ひま thành cấu trúc đứng trước とき.",
+              "expectedAnswer": "ひまなとき",
+              "acceptableAnswers": [],
+              "hint": "",
+              "explanation": "ナA + なとき.",
+              "options": [],
+              "correctOrder": [],
+              "orderIndex": 4
+            }
+          ],
+          "sourceCode": "JPD133-L11-G005"
+        },
+        {
+          "pattern": "V辞書形／Vた形／Vない形 + とき、＿＿＿＿",
+          "title": "Khi làm/đã làm/không làm với động từ",
+          "meaning": "khi / trước khi / sau khi / khi không…",
+          "structure": "V dạng thường + とき + mệnh đề",
+          "usageScope": "Dùng để nói thời điểm hoặc tình huống diễn ra hành động. Tài liệu ghi: V辞書形 thiên về trước khi hành động hoàn tất; Vた形 thiên về sau khi đã làm; Vない形 là khi không làm/không có hành động.",
+          "formation": "作るとき / 行ったとき / ないとき",
+          "notes": "Trợ từ tùy từng động từ Nのとき và Aとき dùng với danh từ/tính từ; mẫu này dùng động từ dạng thường. Không dùng Vます trước とき trong cấu trúc được dạy.",
+          "orderIndex": 6,
+          "examples": [
+            {
+              "japanese": "料理を作るとき、本を見ます。アルバイトがないとき、ともだちとあそびます。",
+              "reading": "りょうりをつくるとき、ほんをみます。アルバイトがないとき、ともだちとあそびます。",
+              "meaning": "Khi nấu ăn tôi xem sách. Khi không có việc làm thêm, tôi chơi với bạn.",
+              "orderIndex": 1
+            },
+            {
+              "japanese": "寝るとき、電気を消します。",
+              "reading": "ねるとき、でんきをけします。",
+              "meaning": "Khi đi ngủ, tôi tắt điện.",
+              "orderIndex": 2
+            }
+          ],
+          "exercises": [
+            {
+              "exerciseType": "vi_to_ja",
+              "prompt": "日曜日、ご飯食べ（　）？",
+              "expectedAnswer": "ない",
+              "acceptableAnswers": [],
+              "hint": "",
+              "explanation": "Rủ rê thân mật dùng Vない？.",
+              "options": [
+                "ません",
+                "ない",
+                "なくて",
+                "ませんか"
+              ],
+              "correctOrder": [],
+              "orderIndex": 1
+            }
+          ],
+          "sourceCode": "JPD133-L11-G006"
+        },
+        {
+          "pattern": "どうしますか",
+          "title": "Hỏi cách xử lý trong tình huống",
+          "meaning": "làm thế nào / làm gì?",
+          "structure": "[tình huống] とき、どうしますか",
+          "usageScope": "Dùng để hỏi người nghe sẽ làm gì/cách xử lý thế nào trong một tình huống.",
+          "formation": "どうしますか → câu trả lời bằng hành động",
+          "notes": "か: đánh dấu câu hỏi どうやって ở bài 9-3 dễ nhầm. Không trả lời chỉ bằng はい/いいえ.",
+          "orderIndex": 7,
+          "examples": [
+            {
+              "japanese": "つかれたとき、どうしますか。――あまいものを食べます。",
+              "reading": "つかれたとき、どうしますか。――あまいものをたべます。",
+              "meaning": "Khi mệt, bạn làm gì? — Tôi ăn đồ ngọt.",
+              "orderIndex": 1
+            },
+            {
+              "japanese": "ひまなとき、どうしますか。",
+              "reading": "ひまなとき、どうしますか。",
+              "meaning": "Khi rảnh bạn làm gì?",
+              "orderIndex": 2
+            }
+          ],
+          "exercises": [
+            {
+              "exerciseType": "vi_to_ja",
+              "prompt": "イタリアへ行っ（　）、このぼうしを買いました。",
+              "expectedAnswer": "たとき",
+              "acceptableAnswers": [],
+              "hint": "",
+              "explanation": "行ったとき dùng Vた形 + とき.",
+              "options": [
+                "てとき",
+                "たとき",
+                "ないとき",
+                "ますとき"
+              ],
+              "correctOrder": [],
+              "orderIndex": 1
+            }
+          ],
+          "sourceCode": "JPD133-L11-G007"
+        },
+        {
+          "pattern": "N のとき、＿＿＿＿",
+          "title": "Khi còn ở giai đoạn N",
+          "meaning": "khi còn… / khi là…",
+          "structure": "N + の + とき + mệnh đề",
+          "usageScope": "Dùng để nói về một khoảng thời gian, vai trò hoặc giai đoạn trong quá khứ/hiện tại được biểu thị bằng danh từ.",
+          "formation": "中学生 + のとき / 子ども + のとき",
+          "notes": "の: nối danh từ với とき ナAなとき; イAとき; Nのとき. Không viết ×中学生なとき.",
+          "orderIndex": 8,
+          "examples": [
+            {
+              "japanese": "中学生のとき、ギターをはじめました。",
+              "reading": "ちゅうがくせいのとき、ギターをはじめました。",
+              "meaning": "Khi còn là học sinh trung học cơ sở, tôi bắt đầu chơi guitar.",
+              "orderIndex": 1
+            },
+            {
+              "japanese": "子どものとき、よく海で遊びました。",
+              "reading": "こどものとき、よくうみであそびました。",
+              "meaning": "Khi còn nhỏ, tôi thường chơi ở biển.",
+              "orderIndex": 2
+            }
+          ],
+          "exercises": [
+            {
+              "exerciseType": "vi_to_ja",
+              "prompt": "中学生（　）、ギターを始めました。",
+              "expectedAnswer": "のとき",
+              "acceptableAnswers": [],
+              "hint": "",
+              "explanation": "Danh từ đứng trước とき dùng Nのとき.",
+              "options": [
+                "なとき",
+                "とき",
+                "のとき",
+                "でとき"
+              ],
+              "correctOrder": [],
+              "orderIndex": 1
+            },
+            {
+              "exerciseType": "vi_to_ja",
+              "prompt": "Chuyển 中学生 thành cấu trúc đứng trước とき.",
+              "expectedAnswer": "中学生のとき",
+              "acceptableAnswers": [],
+              "hint": "",
+              "explanation": "N + のとき.",
+              "options": [],
+              "correctOrder": [],
+              "orderIndex": 2
+            }
+          ],
+          "sourceCode": "JPD133-L11-G008"
+        },
+        {
+          "pattern": "Vた形 + とき、＿＿＿＿",
+          "title": "Hành động xảy ra khi/sau khi đã làm",
+          "meaning": "khi đã… / khi…",
+          "structure": "Vた形 + とき + mệnh đề",
+          "usageScope": "Theo tài liệu, dùng khi hành động ở mệnh đề chính xảy ra sau khi hành động trước とき đã hoàn thành.",
+          "formation": "行きます → 行ったとき; 来ます → 来たとき",
+          "notes": "Trợ từ tùy câu V辞書形＋とき thường diễn tả hành động chính xảy ra trước khi hành động V hoàn tất. Không dùng Vましたとき trong cấu trúc dạng thường của bài.",
+          "orderIndex": 9,
+          "examples": [
+            {
+              "japanese": "イタリアへ行ったとき、このぼうしを買いました。",
+              "reading": "イタリアへいったとき、このぼうしをかいました。",
+              "meaning": "Khi đi Ý, tôi đã mua chiếc mũ này.",
+              "orderIndex": 1
+            },
+            {
+              "japanese": "駅に着いたとき、友達に電話しました。",
+              "reading": "えきについたとき、ともだちにでんわしました。",
+              "meaning": "Khi đã đến ga, tôi gọi cho bạn.",
+              "orderIndex": 2
+            }
+          ],
+          "exercises": [
+            {
+              "exerciseType": "arrange",
+              "prompt": "このぼうしを買いました / イタリアへ行ったとき",
+              "expectedAnswer": "イタリアへ行ったとき、このぼうしを買いました。",
+              "acceptableAnswers": [],
+              "hint": "",
+              "explanation": "",
+              "options": [
+                "このぼうしを買いました",
+                "イタリアへ行ったとき"
+              ],
+              "correctOrder": [
+                "イタリアへ行ったとき",
+                "このぼうしを買いました"
+              ],
+              "orderIndex": 1
+            },
+            {
+              "exerciseType": "vi_to_ja",
+              "prompt": "Khi đã đến ga, tôi gọi cho bạn.",
+              "expectedAnswer": "駅に着いたとき、友達に電話しました。",
+              "acceptableAnswers": [],
+              "hint": "",
+              "explanation": "",
+              "options": [],
+              "correctOrder": [],
+              "orderIndex": 2
+            },
+            {
+              "exerciseType": "vi_to_ja",
+              "prompt": "イタリア＿＿行ったとき、このぼうしを買いました。",
+              "expectedAnswer": "へ",
+              "acceptableAnswers": [],
+              "hint": "",
+              "explanation": "Đi đến một nơi có thể dùng へ: イタリアへ行きます.",
+              "options": [
+                "を",
+                "へ",
+                "が",
+                "で"
+              ],
+              "correctOrder": [],
+              "orderIndex": 3
+            },
+            {
+              "exerciseType": "vi_to_ja",
+              "prompt": "Chuyển 行きます sang Vた形 + とき.",
+              "expectedAnswer": "行ったとき",
+              "acceptableAnswers": [],
+              "hint": "",
+              "explanation": "行く → 行った + とき.",
+              "options": [],
+              "correctOrder": [],
+              "orderIndex": 4
+            }
+          ],
+          "sourceCode": "JPD133-L11-G009"
+        },
+        {
+          "pattern": "V辞書形 + とき、＿＿＿＿",
+          "title": "Hành động xảy ra trước khi làm V",
+          "meaning": "khi sắp / trước khi…",
+          "structure": "V辞書形 + とき + mệnh đề",
+          "usageScope": "Theo tài liệu, dùng khi hành động ở mệnh đề chính xảy ra trước khi hành động V bắt đầu/hoàn thành.",
+          "formation": "来ます → 来るとき / 行きます → 行くとき",
+          "notes": "Trợ từ tùy câu Vた形＋とき: hành động V đã hoàn thành trước mệnh đề chính theo cách giải thích của tài liệu. Không dùng Vますとき trong mẫu bài.",
+          "orderIndex": 10,
+          "examples": [
+            {
+              "japanese": "日本へ来るとき、父に時計をもらいました。",
+              "reading": "にほんへくるとき、ちちにとけいをもらいました。",
+              "meaning": "Trước khi/ lúc sang Nhật, tôi đã nhận đồng hồ từ bố.",
+              "orderIndex": 1
+            },
+            {
+              "japanese": "旅行に行くとき、カメラを買いました。",
+              "reading": "りょこうにいくとき、カメラをかいました。",
+              "meaning": "Trước khi đi du lịch, tôi đã mua máy ảnh.",
+              "orderIndex": 2
+            }
+          ],
+          "exercises": [
+            {
+              "exerciseType": "vi_to_ja",
+              "prompt": "Chuyển 来ます sang V辞書形 + とき.",
+              "expectedAnswer": "来るとき",
+              "acceptableAnswers": [],
+              "hint": "",
+              "explanation": "来ます → 来る.",
+              "options": [],
+              "correctOrder": [],
+              "orderIndex": 1
+            }
+          ],
+          "sourceCode": "JPD133-L11-G010"
+        },
+        {
+          "pattern": "普通形？",
+          "title": "Câu hỏi Yes/No thân mật",
+          "meaning": "~ không?",
+          "structure": "V普通形？ / A普通形？ / N普通形？",
+          "usageScope": "Dùng giữa bạn bè/người thân trong hội thoại thân mật. Câu hỏi thường chỉ dùng ngữ điệu lên giọng, có thể lược trợ từ nếu ngữ cảnh rõ.",
+          "formation": "行きますか → 行く？; 行きませんか → 行かない？",
+          "notes": "Trợ từ có thể bị lược trong khẩu ngữ thân mật nhưng không phải lúc nào cũng nên lược ～ますか là lịch sự; 普通形？ là thân mật. Không dùng thể thân mật trong bối cảnh cần lịch sự.",
+          "orderIndex": 11,
+          "examples": [
+            {
+              "japanese": "海行く？――うん、行く。／ううん、行かない。",
+              "reading": "うみいく？――うん、いく。／ううん、いかない。",
+              "meaning": "Đi biển không? — Ừ, đi. / Không, không đi.",
+              "orderIndex": 1
+            },
+            {
+              "japanese": "明日学校行く？",
+              "reading": "あしたがっこういく？",
+              "meaning": "Mai đi học không?",
+              "orderIndex": 2
+            }
+          ],
+          "exercises": [
+            {
+              "exerciseType": "vi_to_ja",
+              "prompt": "Chuyển câu lịch sự 海へ行きますか。 sang câu hỏi thân mật theo mẫu bài.",
+              "expectedAnswer": "海行く？",
+              "acceptableAnswers": [],
+              "hint": "",
+              "explanation": "Dùng thể thường 行く？; trong hội thoại thân mật có thể lược へ.",
+              "options": [],
+              "correctOrder": [],
+              "orderIndex": 1
+            },
+            {
+              "exerciseType": "vi_to_ja",
+              "prompt": "Chuyển ありません sang dạng thân mật.",
+              "expectedAnswer": "ない。",
+              "acceptableAnswers": [],
+              "hint": "",
+              "explanation": "Phủ định thể thường của ある là ない.",
+              "options": [],
+              "correctOrder": [],
+              "orderIndex": 2
+            }
+          ],
+          "sourceCode": "JPD133-L11-G011"
+        },
+        {
+          "pattern": "疑問詞 + 普通形？",
+          "title": "Câu hỏi có từ để hỏi thân mật",
+          "meaning": "… gì/đâu/khi nào?",
+          "structure": "疑問詞 + [câu thể thường]？",
+          "usageScope": "Dùng từ để hỏi với thể thường trong hội thoại bạn bè; trợ từ thường có thể được lược nếu ngữ cảnh rõ.",
+          "formation": "何をしましたか → 何した？",
+          "notes": "Trợ từ を/へ/に có thể lược trong khẩu ngữ tùy ngữ cảnh Câu lịch sự: 何をしましたか / どこへ行きましたか. Không áp dụng lược trợ từ tùy tiện trong văn viết chuẩn.",
+          "orderIndex": 12,
+          "examples": [
+            {
+              "japanese": "昨日、何した？――友達と映画見た。",
+              "reading": "きのう、なにした？――ともだちとえいがみた。",
+              "meaning": "Hôm qua làm gì? — Xem phim với bạn.",
+              "orderIndex": 1
+            },
+            {
+              "japanese": "昨日どこ行った？",
+              "reading": "きのうどこいった？",
+              "meaning": "Hôm qua đi đâu?",
+              "orderIndex": 2
+            }
+          ],
+          "exercises": [
+            {
+              "exerciseType": "vi_to_ja",
+              "prompt": "(Nói với bạn) Hôm qua làm gì?",
+              "expectedAnswer": "昨日、何した？",
+              "acceptableAnswers": [],
+              "hint": "",
+              "explanation": "",
+              "options": [],
+              "correctOrder": [],
+              "orderIndex": 1
+            }
+          ],
+          "sourceCode": "JPD133-L11-G012"
+        },
+        {
+          "pattern": "Vて形。",
+          "title": "Nhờ vả thân mật bằng Vて",
+          "meaning": "Hãy… / làm … cho mình",
+          "structure": "Vて形（よ）",
+          "usageScope": "Cách nhờ vả/yêu cầu thân mật giữa bạn bè. Sắc thái phụ thuộc ngữ điệu và quan hệ.",
+          "formation": "見せます → 見せて; 貸します → 貸して",
+          "notes": "を: tân ngữ nếu không lược Vてください là yêu cầu lịch sự; Vて là thân mật. Không dùng với người cần kính trọng nếu không có quan hệ cho phép.",
+          "orderIndex": 13,
+          "examples": [
+            {
+              "japanese": "それ見せて。",
+              "reading": "それみせて。",
+              "meaning": "Cho mình xem cái đó.",
+              "orderIndex": 1
+            },
+            {
+              "japanese": "消しゴム貸して。",
+              "reading": "けしゴムかして。",
+              "meaning": "Cho mình mượn cục tẩy.",
+              "orderIndex": 2
+            }
+          ],
+          "exercises": [
+            {
+              "exerciseType": "vi_to_ja",
+              "prompt": "(Nói với bạn) Cho mình xem cái đó.",
+              "expectedAnswer": "それ見せて。",
+              "acceptableAnswers": [],
+              "hint": "",
+              "explanation": "",
+              "options": [],
+              "correctOrder": [],
+              "orderIndex": 1
+            },
+            {
+              "exerciseType": "vi_to_ja",
+              "prompt": "Chuyển 見せます sang lời nhờ vả thân mật.",
+              "expectedAnswer": "見せて。",
+              "acceptableAnswers": [],
+              "hint": "",
+              "explanation": "Dùng thể て làm lời yêu cầu thân mật.",
+              "options": [],
+              "correctOrder": [],
+              "orderIndex": 2
+            }
+          ],
+          "sourceCode": "JPD133-L11-G013"
+        },
+        {
+          "pattern": "普通形 + けど、＿＿＿＿",
+          "title": "Nối đối lập thân mật bằng けど",
+          "meaning": "nhưng…",
+          "structure": "[thể thường] + けど + mệnh đề",
+          "usageScope": "Dùng tự nhiên trong hội thoại thân mật để nối hai nội dung đối lập; けど mềm và hội thoại hơn ですが.",
+          "formation": "イA + けど; V普通形 + けど; ナA/N thường cần dạng tương ứng với だ trong văn nói",
+          "notes": "けど: liên kết tương phản でも là liên từ đứng đầu câu; が/ですが lịch sự hơn; けど thân mật hơn. Không gắn けど sau ます trong mẫu thân mật này nếu mục tiêu là giữ thể thường.",
+          "orderIndex": 14,
+          "examples": [
+            {
+              "japanese": "あの店高いけど、おいしいよ。",
+              "reading": "あのみせたかいけど、おいしいよ。",
+              "meaning": "Quán đó đắt nhưng ngon đấy.",
+              "orderIndex": 1
+            },
+            {
+              "japanese": "日本語は難しいけど、おもしろい。",
+              "reading": "にほんごはむずかしいけど、おもしろい。",
+              "meaning": "Tiếng Nhật khó nhưng thú vị.",
+              "orderIndex": 2
+            }
+          ],
+          "exercises": [
+            {
+              "exerciseType": "vi_to_ja",
+              "prompt": "(Nói với bạn) Tiếng Nhật khó nhưng thú vị.",
+              "expectedAnswer": "日本語は難しいけど、おもしろい。",
+              "acceptableAnswers": [],
+              "hint": "",
+              "explanation": "",
+              "options": [],
+              "correctOrder": [],
+              "orderIndex": 1
+            }
+          ],
+          "sourceCode": "JPD133-L11-G014"
+        },
+        {
+          "pattern": "Vない？",
+          "title": "Rủ rê thân mật bằng phủ định",
+          "meaning": "Cùng làm… không?",
+          "structure": "Vない形？",
+          "usageScope": "Dùng để rủ rê/đề nghị thân mật giữa bạn bè. Hình thức là phủ định nhưng chức năng giao tiếp là lời mời.",
+          "formation": "食べます → 食べない？; 行きます → 行かない？",
+          "notes": "Trợ từ tùy động từ, có thể lược trong khẩu ngữ Vませんか là lời mời lịch sự; Vない？ là thân mật. Không dịch máy móc thành 'không ăn à?' khi ngữ cảnh là rủ rê.",
+          "orderIndex": 15,
+          "examples": [
+            {
+              "japanese": "日曜日、しんじゅくでご飯食べない？",
+              "reading": "にちようび、しんじゅくでごはんたべない？",
+              "meaning": "Chủ nhật đi ăn ở Shinjuku không?",
+              "orderIndex": 1
+            },
+            {
+              "japanese": "今夜、映画見ない？",
+              "reading": "こんや、えいがみない？",
+              "meaning": "Tối nay xem phim không?",
+              "orderIndex": 2
+            }
+          ],
+          "exercises": [
+            {
+              "exerciseType": "vi_to_ja",
+              "prompt": "(Rủ bạn) Tối nay xem phim không?",
+              "expectedAnswer": "今夜、映画見ない？",
+              "acceptableAnswers": [],
+              "hint": "",
+              "explanation": "",
+              "options": [],
+              "correctOrder": [],
+              "orderIndex": 1
+            },
+            {
+              "exerciseType": "vi_to_ja",
+              "prompt": "Chuyển 食べます sang lời rủ rê thân mật.",
+              "expectedAnswer": "食べない？",
+              "acceptableAnswers": [],
+              "hint": "",
+              "explanation": "Dùng Vない？ để rủ rê.",
+              "options": [],
+              "correctOrder": [],
+              "orderIndex": 2
+            }
+          ],
+          "sourceCode": "JPD133-L11-G015"
+        },
+        {
+          "pattern": "Vて形 + もいい？",
+          "title": "Xin phép thân mật",
+          "meaning": "được không?",
+          "structure": "Vて形 + もいい？",
+          "usageScope": "Cách xin phép thân mật, tương ứng với Vてもいいですか ở bài 10.",
+          "formation": "聞きます → 聞いてもいい？",
+          "notes": "も trong cấu trúc Vてもいい Vてもいいですか là lịch sự; Vてもいい？ là thân mật. Không dùng dạng này với người cần kính trọng.",
+          "orderIndex": 16,
+          "examples": [
+            {
+              "japanese": "このCD聞いてもいい？――うん、いいよ。",
+              "reading": "このシーディーきいてもいい？――うん、いいよ。",
+              "meaning": "Mình nghe CD này được không? — Ừ, được.",
+              "orderIndex": 1
+            },
+            {
+              "japanese": "ここに座ってもいい？",
+              "reading": "ここにすわってもいい？",
+              "meaning": "Mình ngồi đây được không?",
+              "orderIndex": 2
+            }
+          ],
+          "exercises": [
+            {
+              "exerciseType": "vi_to_ja",
+              "prompt": "このCD聞い（　）いい？",
+              "expectedAnswer": "ても",
+              "acceptableAnswers": [],
+              "hint": "",
+              "explanation": "Xin phép thân mật dùng Vてもいい？.",
+              "options": [
+                "たり",
+                "ても",
+                "ないで",
+                "ては"
+              ],
+              "correctOrder": [],
+              "orderIndex": 1
+            },
+            {
+              "exerciseType": "vi_to_ja",
+              "prompt": "(Xin phép với bạn) Mình ngồi đây được không?",
+              "expectedAnswer": "ここに座ってもいい？",
+              "acceptableAnswers": [],
+              "hint": "",
+              "explanation": "",
+              "options": [],
+              "correctOrder": [],
+              "orderIndex": 2
+            },
+            {
+              "exerciseType": "vi_to_ja",
+              "prompt": "Chuyển 聞きます sang câu xin phép thân mật.",
+              "expectedAnswer": "聞いてもいい？",
+              "acceptableAnswers": [],
+              "hint": "",
+              "explanation": "聞きます → 聞いて + もいい？.",
+              "options": [],
+              "correctOrder": [],
+              "orderIndex": 3
+            }
+          ],
+          "sourceCode": "JPD133-L11-G016"
+        },
+        {
+          "pattern": "ありません → ない / ありませんでした → なかった",
+          "title": "Phủ định thân mật của あります",
+          "meaning": "không có / đã không có",
+          "structure": "あります → ない; ありました → あった; ありませんでした → なかった",
+          "usageScope": "Trong hội thoại thân mật, ある có phủ định đặc biệt là ない, quá khứ phủ định là なかった.",
+          "formation": "ありません → ない; ありませんでした → なかった",
+          "notes": "が/は tùy danh từ được nói đến いません → いない dùng cho người/sinh vật; ありません → ない dùng cho vật/sự việc. Không viết ×あらない.",
+          "orderIndex": 17,
+          "examples": [
+            {
+              "japanese": "ありません → ない。ありませんでした → なかった。",
+              "reading": "ありません → ない。ありませんでした → なかった。",
+              "meaning": "Không có. / Đã không có.",
+              "orderIndex": 1
+            },
+            {
+              "japanese": "昨日、宿題あった？――ううん、なかった。",
+              "reading": "きのう、しゅくだいあった？――ううん、なかった。",
+              "meaning": "Hôm qua có bài tập không? — Không, không có.",
+              "orderIndex": 2
+            }
+          ],
+          "exercises": [
+            {
+              "exerciseType": "vi_to_ja",
+              "prompt": "昨日、宿題はありませんでした。",
+              "expectedAnswer": "なかった",
+              "acceptableAnswers": [],
+              "hint": "",
+              "explanation": "ありませんでした → なかった.",
+              "options": [
+                "あらなかった",
+                "ないでした",
+                "なかった",
+                "ありません"
+              ],
+              "correctOrder": [],
+              "orderIndex": 1
+            },
+            {
+              "exerciseType": "vi_to_ja",
+              "prompt": "Chuyển ありませんでした sang dạng thân mật.",
+              "expectedAnswer": "なかった。",
+              "acceptableAnswers": [],
+              "hint": "",
+              "explanation": "Quá khứ phủ định thể thường của ある là なかった.",
+              "options": [],
+              "correctOrder": [],
+              "orderIndex": 2
+            }
+          ],
+          "sourceCode": "JPD133-L11-G017"
+        }
+      ]
+    }
+  ]
+}

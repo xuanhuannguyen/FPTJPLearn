@@ -1,0 +1,210 @@
+[
+  {
+    "id": "77777777-1133-0003-0000-000000912001",
+    "patternId": "77777777-1133-0001-0000-000000009003",
+    "exerciseType": "ja_to_vi",
+    "prompt": "私の趣味はスポーツです。でも、最近、全然しません。",
+    "promptReading": "わたしのしゅみはスポーツです。でも、さいきん、ぜんぜんしません。",
+    "expectedAnswer": "Sở thích của tôi là thể thao. Nhưng gần đây tôi hoàn toàn không chơi.",
+    "hint": "でも",
+    "explanation": "Không phải trợ từ trong mẫu này; là liên từ ～は～が trong bài 11 cũng biểu thị đối lập nhưng cấu trúc khác. Không gắn でも trực tiếp như đuôi biến đổi của tính từ/động từ.",
+    "orderIndex": 1
+  },
+  {
+    "id": "77777777-1133-0003-0000-000000922001",
+    "patternId": "77777777-1133-0001-0000-000000009003",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Sở thích của tôi là thể thao. Nhưng gần đây tôi hoàn toàn không chơi.",
+    "expectedAnswer": "私の趣味はスポーツです。でも、最近、全然しません。",
+    "acceptableAnswers": [
+      "わたしのしゅみはスポーツです。でも、さいきん、ぜんぜんしません。"
+    ],
+    "hint": "Đứng đầu câu thứ hai",
+    "explanation": "Không phải trợ từ trong mẫu này; là liên từ ～は～が trong bài 11 cũng biểu thị đối lập nhưng cấu trúc khác. Không gắn でも trực tiếp như đuôi biến đổi của tính từ/động từ.",
+    "orderIndex": 2
+  },
+  {
+    "id": "77777777-1133-0003-0000-000000932001",
+    "patternId": "77777777-1133-0001-0000-000000009003",
+    "exerciseType": "arrange",
+    "prompt": "Sở thích của tôi là thể thao. Nhưng gần đây tôi hoàn toàn không chơi.",
+    "expectedAnswer": "私 (わたし)の趣味 (しゅみ)はスポーツです。でも、最近、全然しません (、さいきん、ぜんぜんしません)",
+    "optionsJson": "[\"の\",\"は\",\"も\",\"。で\",\"です\",\"スポーツ\",\"私 (わたし)\",\"趣味 (しゅみ)\",\"、最近、全然しません (、さいきん、ぜんぜんしません)\"]",
+    "options": [
+      "の",
+      "は",
+      "も",
+      "。で",
+      "です",
+      "スポーツ",
+      "私 (わたし)",
+      "趣味 (しゅみ)",
+      "、最近、全然しません (、さいきん、ぜんぜんしません)"
+    ],
+    "correctOrderJson": "[\"私 (わたし)\",\"の\",\"趣味 (しゅみ)\",\"は\",\"スポーツ\",\"です\",\"。で\",\"も\",\"、最近、全然しません (、さいきん、ぜんぜんしません)\"]",
+    "correctOrder": [
+      "私 (わたし)",
+      "の",
+      "趣味 (しゅみ)",
+      "は",
+      "スポーツ",
+      "です",
+      "。で",
+      "も",
+      "、最近、全然しません (、さいきん、ぜんぜんしません)"
+    ],
+    "orderIndex": 3
+  },
+  {
+    "id": "77777777-1133-0003-0000-000000912002",
+    "patternId": "77777777-1133-0001-0000-000000009003",
+    "exerciseType": "ja_to_vi",
+    "prompt": "旅行が好きです。でも、あまり行きません。",
+    "promptReading": "りょこうがすきです。でも、あまりいきません。",
+    "expectedAnswer": "Tôi thích du lịch. Nhưng tôi không đi nhiều lắm.",
+    "hint": "でも",
+    "explanation": "Không phải trợ từ trong mẫu này; là liên từ ～は～が trong bài 11 cũng biểu thị đối lập nhưng cấu trúc khác. Không gắn でも trực tiếp như đuôi biến đổi của tính từ/động từ.",
+    "orderIndex": 4
+  },
+  {
+    "id": "77777777-1133-0003-0000-000000922002",
+    "patternId": "77777777-1133-0001-0000-000000009003",
+    "exerciseType": "vi_to_ja",
+    "prompt": "Tôi thích du lịch. Nhưng tôi không đi nhiều lắm.",
+    "expectedAnswer": "旅行が好きです。でも、あまり行きません。",
+    "acceptableAnswers": [
+      "りょこうがすきです。でも、あまりいきません。"
+    ],
+    "hint": "Đứng đầu câu thứ hai",
+    "explanation": "Không phải trợ từ trong mẫu này; là liên từ ～は～が trong bài 11 cũng biểu thị đối lập nhưng cấu trúc khác. Không gắn でも trực tiếp như đuôi biến đổi của tính từ/động từ.",
+    "orderIndex": 5
+  },
+  {
+    "id": "77777777-1133-0003-0000-000000932002",
+    "patternId": "77777777-1133-0001-0000-000000009003",
+    "exerciseType": "arrange",
+    "prompt": "Tôi thích du lịch. Nhưng tôi không đi nhiều lắm.",
+    "expectedAnswer": "旅行 (りょこう)が好き (すき)です。でも、あまり行きません (、あまりいきません)",
+    "optionsJson": "[\"が\",\"も\",\"。で\",\"です\",\"好き (すき)\",\"旅行 (りょこう)\",\"、あまり行きません (、あまりいきません)\"]",
+    "options": [
+      "が",
+      "も",
+      "。で",
+      "です",
+      "好き (すき)",
+      "旅行 (りょこう)",
+      "、あまり行きません (、あまりいきません)"
+    ],
+    "correctOrderJson": "[\"旅行 (りょこう)\",\"が\",\"好き (すき)\",\"です\",\"。で\",\"も\",\"、あまり行きません (、あまりいきません)\"]",
+    "correctOrder": [
+      "旅行 (りょこう)",
+      "が",
+      "好き (すき)",
+      "です",
+      "。で",
+      "も",
+      "、あまり行きません (、あまりいきません)"
+    ],
+    "orderIndex": 6
+  },
+  {
+    "id": "77777777-1133-0003-0000-000000942001",
+    "patternId": "77777777-1133-0001-0000-000000009003",
+    "exerciseType": "vi_to_ja",
+    "prompt": "最近、（　）スポーツをしません。",
+    "expectedAnswer": "全然",
+    "acceptableAnswers": [],
+    "acceptableAnswersJson": "[]",
+    "hint": "",
+    "explanation": "Trong phạm vi bài, 全然 thường đi với phủ định: 全然～ません.",
+    "options": [
+      "全然",
+      "いつも",
+      "よく",
+      "もう"
+    ],
+    "optionsJson": "[\"全然\",\"いつも\",\"よく\",\"もう\"]",
+    "correctOrder": [],
+    "orderIndex": 1
+  },
+  {
+    "id": "77777777-1133-0003-0000-000000942002",
+    "patternId": "77777777-1133-0001-0000-000000009003",
+    "exerciseType": "vi_to_ja",
+    "prompt": "私はスキー（　）できます。",
+    "expectedAnswer": "が",
+    "acceptableAnswers": [],
+    "acceptableAnswersJson": "[]",
+    "hint": "",
+    "explanation": "Mẫu khả năng với danh từ là Nができます.",
+    "options": [
+      "を",
+      "で",
+      "が",
+      "に"
+    ],
+    "optionsJson": "[\"を\",\"で\",\"が\",\"に\"]",
+    "correctOrder": [],
+    "orderIndex": 2
+  },
+  {
+    "id": "77777777-1133-0003-0000-000000942003",
+    "patternId": "77777777-1133-0001-0000-000000009003",
+    "exerciseType": "vi_to_ja",
+    "prompt": "私は日本語を話すこと（　）できます。",
+    "expectedAnswer": "が",
+    "acceptableAnswers": [],
+    "acceptableAnswersJson": "[]",
+    "hint": "",
+    "explanation": "Mẫu là V辞書形 + ことができます.",
+    "options": [
+      "が",
+      "を",
+      "に",
+      "は"
+    ],
+    "optionsJson": "[\"が\",\"を\",\"に\",\"は\"]",
+    "correctOrder": [],
+    "orderIndex": 3
+  },
+  {
+    "id": "77777777-1133-0003-0000-000000942004",
+    "patternId": "77777777-1133-0001-0000-000000009003",
+    "exerciseType": "vi_to_ja",
+    "prompt": "私はスキー＿＿できます。",
+    "expectedAnswer": "が",
+    "acceptableAnswers": [],
+    "acceptableAnswersJson": "[]",
+    "hint": "",
+    "explanation": "Khả năng với danh từ dùng Nができます.",
+    "options": [
+      "を",
+      "が",
+      "に",
+      "で"
+    ],
+    "optionsJson": "[\"を\",\"が\",\"に\",\"で\"]",
+    "correctOrder": [],
+    "orderIndex": 4
+  },
+  {
+    "id": "77777777-1133-0003-0000-000000942005",
+    "patternId": "77777777-1133-0001-0000-000000009003",
+    "exerciseType": "vi_to_ja",
+    "prompt": "私は料理を作ること＿＿できません。",
+    "expectedAnswer": "が",
+    "acceptableAnswers": [],
+    "acceptableAnswersJson": "[]",
+    "hint": "",
+    "explanation": "Danh ngữ 料理を作ること đi với ができます／できません.",
+    "options": [
+      "を",
+      "で",
+      "が",
+      "に"
+    ],
+    "optionsJson": "[\"を\",\"で\",\"が\",\"に\"]",
+    "correctOrder": [],
+    "orderIndex": 5
+  }
+]

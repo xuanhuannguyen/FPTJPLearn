@@ -37,17 +37,18 @@ export const VocabularyDashboardPage = () => {
           Từ vựng <span className="text-blue-600">語彙</span>
         </h1>
         <p className="text-sm font-bold text-text-secondary uppercase tracking-widest mt-1">
-          JPD113 / JPD123 VOCABULARY PRACTICE
+           JPD113 / JPD123 / JPD133 VOCABULARY PRACTICE
         </p>
       </div>
 
       {/* Grid of Courses */}
       <div className="grid max-w-[62.4rem] grid-cols-1 gap-4 md:grid-cols-2">
         {courses.map((course) => {
-          const isJpd113 = course.code.includes('113');
+          const isJpd113 = course.code === 'jpd113';
+          const isJpd123 = course.code === 'jpd123';
           const displayLevel = course.code;
           const description = course.title;
-          const cardTone = isJpd113 ? 'jp-course-card--113' : 'jp-course-card--123';
+          const cardTone = isJpd113 ? 'jp-course-card--113' : isJpd123 ? 'jp-course-card--123' : 'jp-course-card--133';
 
           return (
             <Link

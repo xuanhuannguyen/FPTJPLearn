@@ -20,5 +20,16 @@
     "inStudyCount": 0,
     "masteredCount": 0,
     "dueCount": 0
+  },
+  {
+    "level": "N5",
+    "courseCode": "jpd133",
+    "lessonCount": 4,
+    "patternCount": 51,
+    "freeCount": 12,
+    "premiumCount": 39,
+    "inStudyCount": 0,
+    "masteredCount": 0,
+    "dueCount": 0
   }
 ]
