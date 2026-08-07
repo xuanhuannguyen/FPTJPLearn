@@ -3,7 +3,7 @@ import { useNavigate } from 'react-router-dom';
 import { apiClient } from '../../../shared/api/axios';
 import { useAuthStore } from '../../../shared/stores/authStore';
 import { refreshUserAccessCache, useUserAccess } from '../../../shared/hooks/useUserAccess';
-import { Crown, Zap, Star, Check, Loader2 } from 'lucide-react';
+import { Crown, Zap, Star, BookOpen, Check, Loader2 } from 'lucide-react';
 import './PricingPage.css';
 
 interface Package {
@@ -19,18 +19,21 @@ const packages: Package[] = [
   { code: 'jpd113', name: 'JPD113', price: 40000, duration: '6 tháng' },
   { code: 'jpd123', name: 'JPD123', price: 40000, duration: '6 tháng' },
   { code: 'combo', name: 'Combo', price: 70000, originalPrice: 80000, duration: '6 tháng', discount: 'Tiết kiệm 10,000đ' },
+  { code: 'jpd133', name: 'JPD133', price: 40000, duration: '6 tháng' },
 ];
 
 const features: Record<string, string[]> = {
   jpd113: ['Toàn bộ Kanji JPD113', 'Toàn bộ Từ vựng JPD113', 'Toàn bộ Ngữ pháp JPD113', 'Luyện thi JPD113', 'Luyện nói JPD113', 'Sử dụng 6 tháng'],
   jpd123: ['Toàn bộ Kanji JPD123', 'Toàn bộ Từ vựng JPD123', 'Toàn bộ Ngữ pháp JPD123', 'Luyện thi JPD123', 'Luyện nói JPD123', 'Sử dụng 6 tháng'],
   combo: ['Tất cả nội dung JPD113', 'Tất cả nội dung JPD123', 'Luyện thi cả 2 khóa', 'Luyện nói cả 2 khóa', 'Tiết kiệm 10,000đ', 'Sử dụng 6 tháng'],
+  jpd133: ['Toàn bộ Kanji JPD133', 'Toàn bộ Từ vựng JPD133', 'Toàn bộ Ngữ pháp JPD133', 'Sử dụng 6 tháng'],
 };
 
 const icons: Record<string, React.ReactNode> = {
   jpd113: <Zap size={28} />,
   jpd123: <Star size={28} />,
   combo: <Crown size={28} />,
+  jpd133: <BookOpen size={28} />,
 };
 
 export function PricingPage() {
@@ -102,9 +105,11 @@ export function PricingPage() {
     const code = packageCode.toLowerCase();
     const has113 = activeCourses.includes('jpd113');
     const has123 = activeCourses.includes('jpd123');
+    const has133 = activeCourses.includes('jpd133');
 
     if (code === 'jpd113') return has113;
     if (code === 'jpd123') return has123;
+    if (code === 'jpd133') return has133;
     if (code === 'combo') return has113 || has123;
     
     return false;

@@ -79,7 +79,7 @@ export const AdminAccessSettingsPage = () => {
             <p className="text-xs font-black uppercase tracking-[0.18em] text-blue-600">Access control</p>
             <h1 className="mt-2 font-heading text-4xl font-black text-slate-950">Bản quyền & khóa nội dung</h1>
             <p className="mt-3 max-w-3xl text-sm font-bold leading-6 text-slate-600">
-              Điều khiển mức khóa nội dung của JPLearn. Người dùng vẫn có thể mua JPD113/JPD123 để mở toàn bộ nội dung premium.
+              Điều khiển mức khóa nội dung của JPLearn. Người dùng vẫn có thể mua JPD113/JPD123/JPD133 để mở toàn bộ nội dung premium.
             </p>
           </div>
 

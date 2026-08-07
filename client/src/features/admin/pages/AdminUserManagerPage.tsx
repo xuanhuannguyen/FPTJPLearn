@@ -154,6 +154,7 @@ export const AdminUserManagerPage = () => {
         {users.map((user) => {
           const hasJPD113 = user.subscriptions.some(s => s.courseCode === 'jpd113' && s.isActive);
           const hasJPD123 = user.subscriptions.some(s => s.courseCode === 'jpd123' && s.isActive);
+          const hasJPD133 = user.subscriptions.some(s => s.courseCode === 'jpd133' && s.isActive);
 
           return (
             <div key={user.id} className="flex flex-col gap-6 rounded-2xl border border-slate-200 bg-white p-6 shadow-sm md:flex-row md:items-center">
@@ -202,6 +203,19 @@ export const AdminUserManagerPage = () => {
                 >
                   {hasJPD123 ? <ShieldCheck size={16} /> : <Shield size={16} />}
                   JPD123
+                </button>
+
+                {/* JPD133 */}
+                <button
+                  onClick={() => toggleSubscription(user.id, 'jpd133', hasJPD133)}
+                  className={`flex h-10 items-center gap-2 rounded-xl border px-4 text-xs font-black transition-all ${
+                    hasJPD133
+                      ? 'border-green-200 bg-green-50 text-green-700'
+                      : 'border-slate-200 bg-white text-slate-600 hover:border-slate-300'
+                  }`}
+                >
+                  {hasJPD133 ? <ShieldCheck size={16} /> : <Shield size={16} />}
+                  JPD133
                 </button>
 
                 {/* Reset Device */}

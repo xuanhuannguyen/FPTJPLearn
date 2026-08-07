@@ -5,7 +5,7 @@ namespace JPLearn.Core.Users.Entities;
 public class UserSubscription : BaseEntity
 {
     public Guid UserId { get; set; }
-    public string CourseCode { get; set; } = string.Empty; // jpd113, jpd123
+    public string CourseCode { get; set; } = string.Empty; // jpd113, jpd123, jpd133
     public DateTime ExpiresAt { get; set; }
     public bool IsActive => ExpiresAt > DateTime.UtcNow;
 

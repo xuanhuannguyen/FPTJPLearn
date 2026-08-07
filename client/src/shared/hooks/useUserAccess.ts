@@ -138,6 +138,7 @@ function mapPackageToCourseCode(packageCode?: string | null) {
 
   if (code.includes('jpd113')) return 'jpd113';
   if (code.includes('jpd123')) return 'jpd123';
+  if (code.includes('jpd133')) return 'jpd133';
 
   return code;
 }
