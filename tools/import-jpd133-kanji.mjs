@@ -5,6 +5,7 @@ const root = process.cwd();
 const resourcePath = path.join(root, 'docs', 'jpd133', 'resource', 'JPD133_Kanji_Bai_8_11_chi_tiet.md');
 const corePath = path.join(root, 'material', 'KANJI', 'jpd133_core.json');
 const vocabPath = path.join(root, 'material', 'KANJI', 'jpd133_vocab.json');
+const mnemonicPath = path.join(root, 'material', 'KANJI', 'jpd133_mnemonics.json');
 const serverImportPath = path.join(root, 'server', 'JPLearn.Infrastructure', 'Data', 'Imports', 'kanji', 'jpd133.json');
 const strokesDir = path.join(root, 'client', 'public', 'data', 'kanji', 'strokes-jp');
 
@@ -170,7 +171,9 @@ const fetchStrokeData = async (character) => {
 const main = async () => {
   await mkdir(strokesDir, { recursive: true });
   const markdown = await readFile(resourcePath, 'utf8');
+  const mnemonics = JSON.parse(await readFile(mnemonicPath, 'utf8'));
   const core = parseCore(markdown);
+  for (const item of core) item.mnemonic = mnemonics[item.character] || item.mnemonic;
   const vocabulary = parseVocabulary(core, markdown);
   const strokeData = new Map();
   for (const item of core) strokeData.set(item.character, await fetchStrokeData(item.character));

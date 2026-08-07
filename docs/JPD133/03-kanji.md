@@ -70,6 +70,19 @@ Các trường được hệ thống sử dụng để tạo dữ liệu client:
 
 **Mẹo nhớ:** Giữ bó lúa (禾) cho riêng mình (厶) tạo thành chữ tôi (私).
 
+### Tiêu chuẩn mẹo nhớ JPD133
+
+Mẹo nhớ không được chỉ ghi tên thành phần theo dạng `A + B`. Mỗi Kanji cần có:
+
+1. Bộ thủ/thành phần chính và vai trò gợi nghĩa.
+2. Hình ảnh hoặc hành động nối các thành phần.
+3. Từ khóa nghĩa tiếng Việt của Kanji.
+4. Một câu chuyện ngắn có thể nhắc lại khi học và khi ôn trên web.
+
+Ví dụ `好 = 女 + 子`: hình ảnh mẹ (`女`) và đứa trẻ (`子`) thương nhau tạo thành `好`, nghĩa là thích/tốt. Câu chuyện phải giúp người học nhớ cả cấu tạo lẫn nghĩa, không chỉ nhớ cách đọc.
+
+Ngân hàng mnemonic riêng của JPD133 nằm ở `material/KANJI/jpd133_mnemonics.json`; importer phải đọc ngân hàng này để không ghi đè mẹo nhớ giàu ngữ cảnh bằng mẫu mặc định.
+
 **Câu ví dụ:** `私は学生です。`  
 `わたしはがくせいです。` – Tôi là học sinh.
 
