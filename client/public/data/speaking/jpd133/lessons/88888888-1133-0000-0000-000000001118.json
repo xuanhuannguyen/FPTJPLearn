@@ -1,0 +1,116 @@
+{
+  "lesson": {
+    "id": "88888888-1133-0000-0000-000000001118",
+    "courseCode": "jpd133",
+    "lessonNumber": 1018,
+    "title": "R018 - Đi bộ",
+    "description": "Địa điểm và đường đi - Địa điểm và đường đi: Đi bộ",
+    "accessTier": "premium",
+    "packageCode": "speaking_jpd133",
+    "isLocked": true,
+    "sentenceCount": 10,
+    "lessonType": "reading"
+  },
+  "sentences": [
+    {
+      "id": "88888888-1133-0000-0000-000001018001",
+      "lessonId": "88888888-1133-0000-0000-000000001118",
+      "sentenceNumber": 1,
+      "plainText": "駅まで歩いて行きます。",
+      "romaji": "eki made aruite ikimasu.",
+      "contentHtml": "駅まで歩いて行きます。",
+      "meaningVi": "Tôi đi bộ đến ga.",
+      "orderIndex": 1
+    },
+    {
+      "id": "88888888-1133-0000-0000-000001018002",
+      "lessonId": "88888888-1133-0000-0000-000000001118",
+      "sentenceNumber": 2,
+      "plainText": "駅までバスで行きます。",
+      "romaji": "eki made basu de ikimasu.",
+      "contentHtml": "駅までバスで行きます。",
+      "meaningVi": "Tôi đi xe buýt đến ga.",
+      "orderIndex": 2
+    },
+    {
+      "id": "88888888-1133-0000-0000-000001018003",
+      "lessonId": "88888888-1133-0000-0000-000000001118",
+      "sentenceNumber": 3,
+      "plainText": "道をまっすぐ行ってください。",
+      "romaji": "michi o massugu itte kudasai.",
+      "contentHtml": "道をまっすぐ行ってください。",
+      "meaningVi": "Hãy đi thẳng theo đường.",
+      "orderIndex": 3
+    },
+    {
+      "id": "88888888-1133-0000-0000-000001018004",
+      "lessonId": "88888888-1133-0000-0000-000000001118",
+      "sentenceNumber": 4,
+      "plainText": "交差点を右に曲がります。",
+      "romaji": "kousaten o migi ni magarimasu.",
+      "contentHtml": "交差点を右に曲がります。",
+      "meaningVi": "Tôi rẽ phải ở ngã tư.",
+      "orderIndex": 4
+    },
+    {
+      "id": "88888888-1133-0000-0000-000001018005",
+      "lessonId": "88888888-1133-0000-0000-000000001118",
+      "sentenceNumber": 5,
+      "plainText": "ここから山が見えます。",
+      "romaji": "koko kara yama ga miemasu.",
+      "contentHtml": "ここから山が見えます。",
+      "meaningVi": "Từ đây có thể nhìn thấy núi.",
+      "orderIndex": 5
+    },
+    {
+      "id": "88888888-1133-0000-0000-000001018006",
+      "lessonId": "88888888-1133-0000-0000-000000001118",
+      "sentenceNumber": 6,
+      "plainText": "鳥の声が聞こえます。",
+      "romaji": "tori no koe ga kikoemasu.",
+      "contentHtml": "鳥の声が聞こえます。",
+      "meaningVi": "Có thể nghe tiếng chim.",
+      "orderIndex": 6
+    },
+    {
+      "id": "88888888-1133-0000-0000-000001018007",
+      "lessonId": "88888888-1133-0000-0000-000000001118",
+      "sentenceNumber": 7,
+      "plainText": "ここで写真を撮ってもいいですか。",
+      "romaji": "koko de shashin o totte mo ii desu ka.",
+      "contentHtml": "ここで写真を撮ってもいいですか。",
+      "meaningVi": "Tôi chụp ảnh ở đây được không?",
+      "orderIndex": 7
+    },
+    {
+      "id": "88888888-1133-0000-0000-000001018008",
+      "lessonId": "88888888-1133-0000-0000-000000001118",
+      "sentenceNumber": 8,
+      "plainText": "そこに入らないでください。",
+      "romaji": "soko ni hairanaide kudasai.",
+      "contentHtml": "そこに入らないでください。",
+      "meaningVi": "Xin đừng vào đó.",
+      "orderIndex": 8
+    },
+    {
+      "id": "88888888-1133-0000-0000-000001018009",
+      "lessonId": "88888888-1133-0000-0000-000000001118",
+      "sentenceNumber": 9,
+      "plainText": "もう昼ご飯を食べました。",
+      "romaji": "mou hirugohan o tabemashita.",
+      "contentHtml": "もう昼ご飯を食べました。",
+      "meaningVi": "Tôi đã ăn trưa rồi.",
+      "orderIndex": 9
+    },
+    {
+      "id": "88888888-1133-0000-0000-000001018010",
+      "lessonId": "88888888-1133-0000-0000-000000001118",
+      "sentenceNumber": 10,
+      "plainText": "まだ宿題をしていません。",
+      "romaji": "mada shukudai o shiteimasen.",
+      "contentHtml": "まだ宿題をしていません。",
+      "meaningVi": "Tôi vẫn chưa làm bài tập.",
+      "orderIndex": 10
+    }
+  ]
+}

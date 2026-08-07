@@ -1,0 +1,116 @@
+{
+  "lesson": {
+    "id": "88888888-1133-0000-0000-000000000922",
+    "courseCode": "jpd133",
+    "lessonNumber": 822,
+    "title": "R022 - Mẹ nấu ăn",
+    "description": "Gia đình - Gia đình: Mẹ nấu ăn",
+    "accessTier": "premium",
+    "packageCode": "speaking_jpd133",
+    "isLocked": true,
+    "sentenceCount": 10,
+    "lessonType": "reading"
+  },
+  "sentences": [
+    {
+      "id": "88888888-1133-0000-0000-000000822001",
+      "lessonId": "88888888-1133-0000-0000-000000000922",
+      "sentenceNumber": 1,
+      "plainText": "母は台所で料理を作っています。",
+      "romaji": "haha wa daidokoro de ryouri o tsukutteimasu.",
+      "contentHtml": "母は台所で料理を作っています。",
+      "meaningVi": "Mẹ đang nấu ăn trong bếp.",
+      "orderIndex": 1
+    },
+    {
+      "id": "88888888-1133-0000-0000-000000822002",
+      "lessonId": "88888888-1133-0000-0000-000000000922",
+      "sentenceNumber": 2,
+      "plainText": "家の近くに公園があります。",
+      "romaji": "ie no chikaku ni kouen ga arimasu.",
+      "contentHtml": "家の近くに公園があります。",
+      "meaningVi": "Gần nhà có công viên.",
+      "orderIndex": 2
+    },
+    {
+      "id": "88888888-1133-0000-0000-000000822003",
+      "lessonId": "88888888-1133-0000-0000-000000000922",
+      "sentenceNumber": 3,
+      "plainText": "家族はみんな元気です。",
+      "romaji": "kazoku wa minna genki desu.",
+      "contentHtml": "家族はみんな元気です。",
+      "meaningVi": "Mọi người trong gia đình đều khỏe.",
+      "orderIndex": 3
+    },
+    {
+      "id": "88888888-1133-0000-0000-000000822004",
+      "lessonId": "88888888-1133-0000-0000-000000000922",
+      "sentenceNumber": 4,
+      "plainText": "父は会社で働いています。",
+      "romaji": "chichi wa kaisha de hataraiteimasu.",
+      "contentHtml": "父は会社で働いています。",
+      "meaningVi": "Bố làm việc ở công ty.",
+      "orderIndex": 4
+    },
+    {
+      "id": "88888888-1133-0000-0000-000000822005",
+      "lessonId": "88888888-1133-0000-0000-000000000922",
+      "sentenceNumber": 5,
+      "plainText": "母は料理が上手です。",
+      "romaji": "haha wa ryouri ga jouzu desu.",
+      "contentHtml": "母は料理が上手です。",
+      "meaningVi": "Mẹ nấu ăn giỏi.",
+      "orderIndex": 5
+    },
+    {
+      "id": "88888888-1133-0000-0000-000000822006",
+      "lessonId": "88888888-1133-0000-0000-000000000922",
+      "sentenceNumber": 6,
+      "plainText": "私は家族と一緒に晩ご飯を食べます。",
+      "romaji": "watashi wa kazoku to issho ni bangohan o tabemasu.",
+      "contentHtml": "私は家族と一緒に晩ご飯を食べます。",
+      "meaningVi": "Tôi ăn tối cùng gia đình.",
+      "orderIndex": 6
+    },
+    {
+      "id": "88888888-1133-0000-0000-000000822007",
+      "lessonId": "88888888-1133-0000-0000-000000000922",
+      "sentenceNumber": 7,
+      "plainText": "休みの日は家でゆっくりします。",
+      "romaji": "yasumi no hi wa ie de yukkuri shimasu.",
+      "contentHtml": "休みの日は家でゆっくりします。",
+      "meaningVi": "Ngày nghỉ tôi nghỉ ngơi ở nhà.",
+      "orderIndex": 7
+    },
+    {
+      "id": "88888888-1133-0000-0000-000000822008",
+      "lessonId": "88888888-1133-0000-0000-000000000922",
+      "sentenceNumber": 8,
+      "plainText": "友達からメールをもらいました。",
+      "romaji": "tomodachi kara meeru o moraimashita.",
+      "contentHtml": "友達からメールをもらいました。",
+      "meaningVi": "Tôi nhận được email từ bạn.",
+      "orderIndex": 8
+    },
+    {
+      "id": "88888888-1133-0000-0000-000000822009",
+      "lessonId": "88888888-1133-0000-0000-000000000922",
+      "sentenceNumber": 9,
+      "plainText": "私は大切な人にプレゼントをあげます。",
+      "romaji": "watashi wa taisetsu na hito ni purezento o agemasu.",
+      "contentHtml": "私は大切な人にプレゼントをあげます。",
+      "meaningVi": "Tôi tặng quà cho người quan trọng.",
+      "orderIndex": 9
+    },
+    {
+      "id": "88888888-1133-0000-0000-000000822010",
+      "lessonId": "88888888-1133-0000-0000-000000000922",
+      "sentenceNumber": 10,
+      "plainText": "家族と住んでいるので、毎日楽しいです。",
+      "romaji": "kazoku to sundeiru node, mainichi tanoshii desu.",
+      "contentHtml": "家族と住んでいるので、毎日楽しいです。",
+      "meaningVi": "Vì sống cùng gia đình nên mỗi ngày đều vui.",
+      "orderIndex": 10
+    }
+  ]
+}

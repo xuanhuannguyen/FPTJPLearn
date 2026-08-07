@@ -32,18 +32,76 @@ const lessons = [
 const toMarkdown = (lesson) => {
   const out = [`# JPD133 Reading Bài ${lesson.id} – ${lesson.title}`, '', `> Chủ đề: ${lesson.topic}`, `> Mục tiêu: ${lesson.subtitle}`, `> Từ vựng bắt buộc: ${lesson.vocab}`, `> Kanji bắt buộc: ${lesson.kanji}`, `> Ngữ pháp bắt buộc: ${lesson.grammar}`, ''];
   lesson.texts.forEach(([jp, vi, romaji], index) => {
-    out.push(`## R${String(index + 1).padStart(3, '0')} – ${lesson.titles[index]}`, '', '### Đoạn văn tiếng Nhật', '```text', jp, '```', '', '### Romaji', '```text', romaji, '```', '', '### Dịch tiếng Việt', vi, '', '### Tóm tắt và ghi chú luyện tập', `Luyện đọc đoạn ${index + 1} theo chủ đề ${lesson.topic}; chú ý mẫu ${lesson.grammar}.`, '');
+    out.push(`## R${String(index + 1).padStart(3, '0')} – ${lesson.titles[index] ?? lesson.titles[0]}`, '', '### Đoạn văn tiếng Nhật', '```text', jp, '```', '', '### Romaji', '```text', romaji, '```', '', '### Dịch tiếng Việt', vi, '', '### Tóm tắt và ghi chú luyện tập', `Luyện đọc đoạn ${index + 1} theo chủ đề ${lesson.topic}; chú ý mẫu ${lesson.grammar}.`, '');
   });
   return `${out.join('\n')}\n`;
 };
 
+const supportingSentences = {
+  8: [
+    ['家の近くに公園があります。', 'Gần nhà có công viên.', 'ie no chikaku ni kouen ga arimasu.'],
+    ['家族はみんな元気です。', 'Mọi người trong gia đình đều khỏe.', 'kazoku wa minna genki desu.'],
+    ['父は会社で働いています。', 'Bố làm việc ở công ty.', 'chichi wa kaisha de hataraiteimasu.'],
+    ['母は料理が上手です。', 'Mẹ nấu ăn giỏi.', 'haha wa ryouri ga jouzu desu.'],
+    ['私は家族と一緒に晩ご飯を食べます。', 'Tôi ăn tối cùng gia đình.', 'watashi wa kazoku to issho ni bangohan o tabemasu.'],
+    ['休みの日は家でゆっくりします。', 'Ngày nghỉ tôi nghỉ ngơi ở nhà.', 'yasumi no hi wa ie de yukkuri shimasu.'],
+    ['友達からメールをもらいました。', 'Tôi nhận được email từ bạn.', 'tomodachi kara meeru o moraimashita.'],
+    ['私は大切な人にプレゼントをあげます。', 'Tôi tặng quà cho người quan trọng.', 'watashi wa taisetsu na hito ni purezento o agemasu.'],
+    ['家族と住んでいるので、毎日楽しいです。', 'Vì sống cùng gia đình nên mỗi ngày đều vui.', 'kazoku to sundeiru node, mainichi tanoshii desu.'],
+  ],
+  9: [
+    ['私はよく音楽を聞きます。', 'Tôi thường nghe nhạc.', 'watashi wa yoku ongaku o kikimasu.'],
+    ['ときどき友達と映画を見ます。', 'Thỉnh thoảng tôi xem phim với bạn.', 'tokidoki tomodachi to eiga o mimasu.'],
+    ['一週間に二回、図書館へ行きます。', 'Một tuần tôi đi thư viện hai lần.', 'isshuukan ni nikai, toshokan e ikimasu.'],
+    ['本を読むことが好きです。', 'Tôi thích đọc sách.', 'hon o yomu koto ga suki desu.'],
+    ['料理を作ることができます。', 'Tôi có thể nấu ăn.', 'ryouri o tsukuru koto ga dekimasu.'],
+    ['全然スポーツをしない日もあります。', 'Cũng có những ngày tôi hoàn toàn không chơi thể thao.', 'zenzen supootsu o shinai hi mo arimasu.'],
+    ['でも、週末は外へ出かけます。', 'Nhưng cuối tuần tôi đi ra ngoài.', 'demo, shuumatsu wa soto e dekakemasu.'],
+    ['友達と話して、写真を撮ります。', 'Tôi nói chuyện và chụp ảnh với bạn.', 'tomodachi to hanashite, shashin o torimasu.'],
+    ['好きなことをすると、楽しいです。', 'Làm điều mình thích thì rất vui.', 'suki na koto o suru to, tanoshii desu.'],
+  ],
+  10: [
+    ['駅までバスで行きます。', 'Tôi đi xe buýt đến ga.', 'eki made basu de ikimasu.'],
+    ['道をまっすぐ行ってください。', 'Hãy đi thẳng theo đường.', 'michi o massugu itte kudasai.'],
+    ['交差点を右に曲がります。', 'Tôi rẽ phải ở ngã tư.', 'kousaten o migi ni magarimasu.'],
+    ['ここから山が見えます。', 'Từ đây có thể nhìn thấy núi.', 'koko kara yama ga miemasu.'],
+    ['鳥の声が聞こえます。', 'Có thể nghe tiếng chim.', 'tori no koe ga kikoemasu.'],
+    ['ここで写真を撮ってもいいですか。', 'Tôi chụp ảnh ở đây được không?', 'koko de shashin o totte mo ii desu ka.'],
+    ['そこに入らないでください。', 'Xin đừng vào đó.', 'soko ni hairanaide kudasai.'],
+    ['もう昼ご飯を食べました。', 'Tôi đã ăn trưa rồi.', 'mou hirugohan o tabemashita.'],
+    ['まだ宿題をしていません。', 'Tôi vẫn chưa làm bài tập.', 'mada shukudai o shiteimasen.'],
+  ],
+  11: [
+    ['毎朝、七時に起きます。', 'Mỗi sáng tôi thức dậy lúc bảy giờ.', 'mai asa, shichiji ni okimasu.'],
+    ['朝ご飯を食べて、学校へ行きます。', 'Tôi ăn sáng rồi đi học.', 'asagohan o tabete, gakkou e ikimasu.'],
+    ['学校で日本語を勉強しています。', 'Tôi đang học tiếng Nhật ở trường.', 'gakkou de nihongo o benkyou shiteimasu.'],
+    ['休み時間に友達と話します。', 'Giờ nghỉ tôi nói chuyện với bạn.', 'yasumi jikan ni tomodachi to hanashimasu.'],
+    ['家に帰ってから、晩ご飯を食べます。', 'Sau khi về nhà, tôi ăn tối.', 'ie ni kaette kara, bangohan o tabemasu.'],
+    ['休みの日は本を読んだり、音楽を聞いたりします。', 'Ngày nghỉ tôi đọc sách và nghe nhạc.', 'yasumi no hi wa hon o yondari, ongaku o kiitari shimasu.'],
+    ['疲れたとき、少し休みます。', 'Khi mệt, tôi nghỉ một chút.', 'tsukareta toki, sukoshi yasumimasu.'],
+    ['子どものとき、よく公園で遊びました。', 'Khi còn nhỏ, tôi thường chơi ở công viên.', 'kodomo no toki, yoku kouen de asobimashita.'],
+    ['友達と「映画を見ない？」と話します。', 'Tôi nói với bạn: “Xem phim không?”.', 'tomodachi to eiga o minai to hanashimasu.'],
+  ],
+};
+
+const readingLessons = lessons.flatMap((lesson) => lesson.texts.map(([jp, vi, romaji], index) => ({
+  id: lesson.id * 100 + index + 1,
+  orderIndex: index + 1,
+  topic: lesson.topic,
+  title: `R${String(index + 1).padStart(3, '0')} - ${lesson.titles[index]}`,
+  subtitle: `${lesson.topic}: ${lesson.titles[index]}`,
+  summary: lesson.summary,
+  lessonType: 'reading',
+  sentences: [{ jp, vi, romaji }, ...supportingSentences[lesson.id].map(([supportingJp, supportingVi, supportingRomaji]) => ({ jp: supportingJp, vi: supportingVi, romaji: supportingRomaji }))],
+})));
+
 const importFile = {
-  courseCode: 'jpd133', accessTier: 'premium', packageCode: 'speaking_jpd133',
-  lessons: lessons.map((lesson) => ({ id: lesson.id, topic: lesson.topic, title: lesson.title, subtitle: lesson.subtitle, summary: lesson.summary, lessonType: 'reading', sentences: lesson.texts.map(([jp, vi, romaji]) => ({ jp, vi, romaji })) })),
+  courseCode: 'jpd133', accessTier: 'premium', packageCode: 'speaking_jpd133', lessons: readingLessons,
 };
 await mkdir(path.join(root, 'server/JPLearn.Infrastructure/Data/Imports/speaking'), { recursive: true });
 await writeFile(path.join(root, 'server/JPLearn.Infrastructure/Data/Imports/speaking/jpd133.lessons.json'), `${JSON.stringify(importFile, null, 2)}\n`, 'utf8');
 await mkdir(path.join(root, 'docs/JPD133/Resource/JPD133_LuyệnDọcĐoạnVawn'), { recursive: true });
-for (const lesson of lessons) await writeFile(path.join(root, `docs/JPD133/Resource/JPD133_LuyệnDọcĐoạnVawn/JPD133_Reading_Bai${lesson.id}.md`), toMarkdown(lesson), 'utf8');
-await writeFile(path.join(root, 'docs/JPD133/Resource/JPD133_LuyệnDọcĐoạnVawn/JPD133_Reading_Full.md'), lessons.map(toMarkdown).join('\n---\n\n'), 'utf8');
+const lessonMarkdown = (lesson) => lesson.texts.map(([jp, vi, romaji], index) => toMarkdown({ ...lesson, titles: [lesson.titles[index]], texts: [[jp, vi, romaji], ...supportingSentences[lesson.id]] })).join('\n');
+for (const lesson of lessons) await writeFile(path.join(root, `docs/JPD133/Resource/JPD133_LuyệnDọcĐoạnVawn/JPD133_Reading_Bai${lesson.id}.md`), lessonMarkdown(lesson), 'utf8');
+await writeFile(path.join(root, 'docs/JPD133/Resource/JPD133_LuyệnDọcĐoạnVawn/JPD133_Reading_Full.md'), lessons.map(lessonMarkdown).join('\n---\n\n'), 'utf8');
 console.log('Generated 100 JPD133 reading passages: 25 per lesson.');

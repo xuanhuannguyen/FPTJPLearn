@@ -24,7 +24,178 @@ Tôi sống cùng gia đình, tổng cộng bốn người.
 ### Tóm tắt và ghi chú luyện tập
 Luyện đọc đoạn 1 theo chủ đề Gia đình; chú ý mẫu JPD133-L08-G001 đến G012.
 
-## R002 – Nhà mới
+## R002 – Gia đình tôi
+
+### Đoạn văn tiếng Nhật
+```text
+家の近くに公園があります。
+```
+
+### Romaji
+```text
+ie no chikaku ni kouen ga arimasu.
+```
+
+### Dịch tiếng Việt
+Gần nhà có công viên.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 2 theo chủ đề Gia đình; chú ý mẫu JPD133-L08-G001 đến G012.
+
+## R003 – Gia đình tôi
+
+### Đoạn văn tiếng Nhật
+```text
+家族はみんな元気です。
+```
+
+### Romaji
+```text
+kazoku wa minna genki desu.
+```
+
+### Dịch tiếng Việt
+Mọi người trong gia đình đều khỏe.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 3 theo chủ đề Gia đình; chú ý mẫu JPD133-L08-G001 đến G012.
+
+## R004 – Gia đình tôi
+
+### Đoạn văn tiếng Nhật
+```text
+父は会社で働いています。
+```
+
+### Romaji
+```text
+chichi wa kaisha de hataraiteimasu.
+```
+
+### Dịch tiếng Việt
+Bố làm việc ở công ty.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 4 theo chủ đề Gia đình; chú ý mẫu JPD133-L08-G001 đến G012.
+
+## R005 – Gia đình tôi
+
+### Đoạn văn tiếng Nhật
+```text
+母は料理が上手です。
+```
+
+### Romaji
+```text
+haha wa ryouri ga jouzu desu.
+```
+
+### Dịch tiếng Việt
+Mẹ nấu ăn giỏi.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 5 theo chủ đề Gia đình; chú ý mẫu JPD133-L08-G001 đến G012.
+
+## R006 – Gia đình tôi
+
+### Đoạn văn tiếng Nhật
+```text
+私は家族と一緒に晩ご飯を食べます。
+```
+
+### Romaji
+```text
+watashi wa kazoku to issho ni bangohan o tabemasu.
+```
+
+### Dịch tiếng Việt
+Tôi ăn tối cùng gia đình.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 6 theo chủ đề Gia đình; chú ý mẫu JPD133-L08-G001 đến G012.
+
+## R007 – Gia đình tôi
+
+### Đoạn văn tiếng Nhật
+```text
+休みの日は家でゆっくりします。
+```
+
+### Romaji
+```text
+yasumi no hi wa ie de yukkuri shimasu.
+```
+
+### Dịch tiếng Việt
+Ngày nghỉ tôi nghỉ ngơi ở nhà.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 7 theo chủ đề Gia đình; chú ý mẫu JPD133-L08-G001 đến G012.
+
+## R008 – Gia đình tôi
+
+### Đoạn văn tiếng Nhật
+```text
+友達からメールをもらいました。
+```
+
+### Romaji
+```text
+tomodachi kara meeru o moraimashita.
+```
+
+### Dịch tiếng Việt
+Tôi nhận được email từ bạn.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 8 theo chủ đề Gia đình; chú ý mẫu JPD133-L08-G001 đến G012.
+
+## R009 – Gia đình tôi
+
+### Đoạn văn tiếng Nhật
+```text
+私は大切な人にプレゼントをあげます。
+```
+
+### Romaji
+```text
+watashi wa taisetsu na hito ni purezento o agemasu.
+```
+
+### Dịch tiếng Việt
+Tôi tặng quà cho người quan trọng.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 9 theo chủ đề Gia đình; chú ý mẫu JPD133-L08-G001 đến G012.
+
+## R010 – Gia đình tôi
+
+### Đoạn văn tiếng Nhật
+```text
+家族と住んでいるので、毎日楽しいです。
+```
+
+### Romaji
+```text
+kazoku to sundeiru node, mainichi tanoshii desu.
+```
+
+### Dịch tiếng Việt
+Vì sống cùng gia đình nên mỗi ngày đều vui.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 10 theo chủ đề Gia đình; chú ý mẫu JPD133-L08-G001 đến G012.
+
+
+# JPD133 Reading Bài 8 – 家族と友達
+
+> Chủ đề: Gia đình
+> Mục tiêu: 25 đoạn đọc về gia đình, nơi sống và quà tặng.
+> Từ vựng bắt buộc: Gia đình, người thân, nơi sống, います, 住みます, あげます, もらいます, くれます
+> Kanji bắt buộc: 家族, 父, 母, 兄, 姉, 弟, 妹, 住
+> Ngữ pháp bắt buộc: JPD133-L08-G001 đến G012
+
+## R001 – Nhà mới
 
 ### Đoạn văn tiếng Nhật
 ```text
@@ -40,9 +211,180 @@ atarashii ie wa gakkou no chikaku ni arimasu.
 Ngôi nhà mới ở gần trường.
 
 ### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 1 theo chủ đề Gia đình; chú ý mẫu JPD133-L08-G001 đến G012.
+
+## R002 – Nhà mới
+
+### Đoạn văn tiếng Nhật
+```text
+家の近くに公園があります。
+```
+
+### Romaji
+```text
+ie no chikaku ni kouen ga arimasu.
+```
+
+### Dịch tiếng Việt
+Gần nhà có công viên.
+
+### Tóm tắt và ghi chú luyện tập
 Luyện đọc đoạn 2 theo chủ đề Gia đình; chú ý mẫu JPD133-L08-G001 đến G012.
 
-## R003 – Sống cùng bố mẹ
+## R003 – Nhà mới
+
+### Đoạn văn tiếng Nhật
+```text
+家族はみんな元気です。
+```
+
+### Romaji
+```text
+kazoku wa minna genki desu.
+```
+
+### Dịch tiếng Việt
+Mọi người trong gia đình đều khỏe.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 3 theo chủ đề Gia đình; chú ý mẫu JPD133-L08-G001 đến G012.
+
+## R004 – Nhà mới
+
+### Đoạn văn tiếng Nhật
+```text
+父は会社で働いています。
+```
+
+### Romaji
+```text
+chichi wa kaisha de hataraiteimasu.
+```
+
+### Dịch tiếng Việt
+Bố làm việc ở công ty.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 4 theo chủ đề Gia đình; chú ý mẫu JPD133-L08-G001 đến G012.
+
+## R005 – Nhà mới
+
+### Đoạn văn tiếng Nhật
+```text
+母は料理が上手です。
+```
+
+### Romaji
+```text
+haha wa ryouri ga jouzu desu.
+```
+
+### Dịch tiếng Việt
+Mẹ nấu ăn giỏi.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 5 theo chủ đề Gia đình; chú ý mẫu JPD133-L08-G001 đến G012.
+
+## R006 – Nhà mới
+
+### Đoạn văn tiếng Nhật
+```text
+私は家族と一緒に晩ご飯を食べます。
+```
+
+### Romaji
+```text
+watashi wa kazoku to issho ni bangohan o tabemasu.
+```
+
+### Dịch tiếng Việt
+Tôi ăn tối cùng gia đình.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 6 theo chủ đề Gia đình; chú ý mẫu JPD133-L08-G001 đến G012.
+
+## R007 – Nhà mới
+
+### Đoạn văn tiếng Nhật
+```text
+休みの日は家でゆっくりします。
+```
+
+### Romaji
+```text
+yasumi no hi wa ie de yukkuri shimasu.
+```
+
+### Dịch tiếng Việt
+Ngày nghỉ tôi nghỉ ngơi ở nhà.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 7 theo chủ đề Gia đình; chú ý mẫu JPD133-L08-G001 đến G012.
+
+## R008 – Nhà mới
+
+### Đoạn văn tiếng Nhật
+```text
+友達からメールをもらいました。
+```
+
+### Romaji
+```text
+tomodachi kara meeru o moraimashita.
+```
+
+### Dịch tiếng Việt
+Tôi nhận được email từ bạn.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 8 theo chủ đề Gia đình; chú ý mẫu JPD133-L08-G001 đến G012.
+
+## R009 – Nhà mới
+
+### Đoạn văn tiếng Nhật
+```text
+私は大切な人にプレゼントをあげます。
+```
+
+### Romaji
+```text
+watashi wa taisetsu na hito ni purezento o agemasu.
+```
+
+### Dịch tiếng Việt
+Tôi tặng quà cho người quan trọng.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 9 theo chủ đề Gia đình; chú ý mẫu JPD133-L08-G001 đến G012.
+
+## R010 – Nhà mới
+
+### Đoạn văn tiếng Nhật
+```text
+家族と住んでいるので、毎日楽しいです。
+```
+
+### Romaji
+```text
+kazoku to sundeiru node, mainichi tanoshii desu.
+```
+
+### Dịch tiếng Việt
+Vì sống cùng gia đình nên mỗi ngày đều vui.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 10 theo chủ đề Gia đình; chú ý mẫu JPD133-L08-G001 đến G012.
+
+
+# JPD133 Reading Bài 8 – 家族と友達
+
+> Chủ đề: Gia đình
+> Mục tiêu: 25 đoạn đọc về gia đình, nơi sống và quà tặng.
+> Từ vựng bắt buộc: Gia đình, người thân, nơi sống, います, 住みます, あげます, もらいます, くれます
+> Kanji bắt buộc: 家族, 父, 母, 兄, 姉, 弟, 妹, 住
+> Ngữ pháp bắt buộc: JPD133-L08-G001 đến G012
+
+## R001 – Sống cùng bố mẹ
 
 ### Đoạn văn tiếng Nhật
 ```text
@@ -58,9 +400,180 @@ watashi wa ryoushin to sundeimasu.
 Tôi sống cùng bố mẹ.
 
 ### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 1 theo chủ đề Gia đình; chú ý mẫu JPD133-L08-G001 đến G012.
+
+## R002 – Sống cùng bố mẹ
+
+### Đoạn văn tiếng Nhật
+```text
+家の近くに公園があります。
+```
+
+### Romaji
+```text
+ie no chikaku ni kouen ga arimasu.
+```
+
+### Dịch tiếng Việt
+Gần nhà có công viên.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 2 theo chủ đề Gia đình; chú ý mẫu JPD133-L08-G001 đến G012.
+
+## R003 – Sống cùng bố mẹ
+
+### Đoạn văn tiếng Nhật
+```text
+家族はみんな元気です。
+```
+
+### Romaji
+```text
+kazoku wa minna genki desu.
+```
+
+### Dịch tiếng Việt
+Mọi người trong gia đình đều khỏe.
+
+### Tóm tắt và ghi chú luyện tập
 Luyện đọc đoạn 3 theo chủ đề Gia đình; chú ý mẫu JPD133-L08-G001 đến G012.
 
-## R004 – Anh trai
+## R004 – Sống cùng bố mẹ
+
+### Đoạn văn tiếng Nhật
+```text
+父は会社で働いています。
+```
+
+### Romaji
+```text
+chichi wa kaisha de hataraiteimasu.
+```
+
+### Dịch tiếng Việt
+Bố làm việc ở công ty.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 4 theo chủ đề Gia đình; chú ý mẫu JPD133-L08-G001 đến G012.
+
+## R005 – Sống cùng bố mẹ
+
+### Đoạn văn tiếng Nhật
+```text
+母は料理が上手です。
+```
+
+### Romaji
+```text
+haha wa ryouri ga jouzu desu.
+```
+
+### Dịch tiếng Việt
+Mẹ nấu ăn giỏi.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 5 theo chủ đề Gia đình; chú ý mẫu JPD133-L08-G001 đến G012.
+
+## R006 – Sống cùng bố mẹ
+
+### Đoạn văn tiếng Nhật
+```text
+私は家族と一緒に晩ご飯を食べます。
+```
+
+### Romaji
+```text
+watashi wa kazoku to issho ni bangohan o tabemasu.
+```
+
+### Dịch tiếng Việt
+Tôi ăn tối cùng gia đình.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 6 theo chủ đề Gia đình; chú ý mẫu JPD133-L08-G001 đến G012.
+
+## R007 – Sống cùng bố mẹ
+
+### Đoạn văn tiếng Nhật
+```text
+休みの日は家でゆっくりします。
+```
+
+### Romaji
+```text
+yasumi no hi wa ie de yukkuri shimasu.
+```
+
+### Dịch tiếng Việt
+Ngày nghỉ tôi nghỉ ngơi ở nhà.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 7 theo chủ đề Gia đình; chú ý mẫu JPD133-L08-G001 đến G012.
+
+## R008 – Sống cùng bố mẹ
+
+### Đoạn văn tiếng Nhật
+```text
+友達からメールをもらいました。
+```
+
+### Romaji
+```text
+tomodachi kara meeru o moraimashita.
+```
+
+### Dịch tiếng Việt
+Tôi nhận được email từ bạn.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 8 theo chủ đề Gia đình; chú ý mẫu JPD133-L08-G001 đến G012.
+
+## R009 – Sống cùng bố mẹ
+
+### Đoạn văn tiếng Nhật
+```text
+私は大切な人にプレゼントをあげます。
+```
+
+### Romaji
+```text
+watashi wa taisetsu na hito ni purezento o agemasu.
+```
+
+### Dịch tiếng Việt
+Tôi tặng quà cho người quan trọng.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 9 theo chủ đề Gia đình; chú ý mẫu JPD133-L08-G001 đến G012.
+
+## R010 – Sống cùng bố mẹ
+
+### Đoạn văn tiếng Nhật
+```text
+家族と住んでいるので、毎日楽しいです。
+```
+
+### Romaji
+```text
+kazoku to sundeiru node, mainichi tanoshii desu.
+```
+
+### Dịch tiếng Việt
+Vì sống cùng gia đình nên mỗi ngày đều vui.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 10 theo chủ đề Gia đình; chú ý mẫu JPD133-L08-G001 đến G012.
+
+
+# JPD133 Reading Bài 8 – 家族と友達
+
+> Chủ đề: Gia đình
+> Mục tiêu: 25 đoạn đọc về gia đình, nơi sống và quà tặng.
+> Từ vựng bắt buộc: Gia đình, người thân, nơi sống, います, 住みます, あげます, もらいます, くれます
+> Kanji bắt buộc: 家族, 父, 母, 兄, 姉, 弟, 妹, 住
+> Ngữ pháp bắt buộc: JPD133-L08-G001 đến G012
+
+## R001 – Anh trai
 
 ### Đoạn văn tiếng Nhật
 ```text
@@ -76,9 +589,180 @@ ani wa toukyou ni sundeimasu.
 Anh trai tôi sống ở Tokyo.
 
 ### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 1 theo chủ đề Gia đình; chú ý mẫu JPD133-L08-G001 đến G012.
+
+## R002 – Anh trai
+
+### Đoạn văn tiếng Nhật
+```text
+家の近くに公園があります。
+```
+
+### Romaji
+```text
+ie no chikaku ni kouen ga arimasu.
+```
+
+### Dịch tiếng Việt
+Gần nhà có công viên.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 2 theo chủ đề Gia đình; chú ý mẫu JPD133-L08-G001 đến G012.
+
+## R003 – Anh trai
+
+### Đoạn văn tiếng Nhật
+```text
+家族はみんな元気です。
+```
+
+### Romaji
+```text
+kazoku wa minna genki desu.
+```
+
+### Dịch tiếng Việt
+Mọi người trong gia đình đều khỏe.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 3 theo chủ đề Gia đình; chú ý mẫu JPD133-L08-G001 đến G012.
+
+## R004 – Anh trai
+
+### Đoạn văn tiếng Nhật
+```text
+父は会社で働いています。
+```
+
+### Romaji
+```text
+chichi wa kaisha de hataraiteimasu.
+```
+
+### Dịch tiếng Việt
+Bố làm việc ở công ty.
+
+### Tóm tắt và ghi chú luyện tập
 Luyện đọc đoạn 4 theo chủ đề Gia đình; chú ý mẫu JPD133-L08-G001 đến G012.
 
-## R005 – Chị gái
+## R005 – Anh trai
+
+### Đoạn văn tiếng Nhật
+```text
+母は料理が上手です。
+```
+
+### Romaji
+```text
+haha wa ryouri ga jouzu desu.
+```
+
+### Dịch tiếng Việt
+Mẹ nấu ăn giỏi.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 5 theo chủ đề Gia đình; chú ý mẫu JPD133-L08-G001 đến G012.
+
+## R006 – Anh trai
+
+### Đoạn văn tiếng Nhật
+```text
+私は家族と一緒に晩ご飯を食べます。
+```
+
+### Romaji
+```text
+watashi wa kazoku to issho ni bangohan o tabemasu.
+```
+
+### Dịch tiếng Việt
+Tôi ăn tối cùng gia đình.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 6 theo chủ đề Gia đình; chú ý mẫu JPD133-L08-G001 đến G012.
+
+## R007 – Anh trai
+
+### Đoạn văn tiếng Nhật
+```text
+休みの日は家でゆっくりします。
+```
+
+### Romaji
+```text
+yasumi no hi wa ie de yukkuri shimasu.
+```
+
+### Dịch tiếng Việt
+Ngày nghỉ tôi nghỉ ngơi ở nhà.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 7 theo chủ đề Gia đình; chú ý mẫu JPD133-L08-G001 đến G012.
+
+## R008 – Anh trai
+
+### Đoạn văn tiếng Nhật
+```text
+友達からメールをもらいました。
+```
+
+### Romaji
+```text
+tomodachi kara meeru o moraimashita.
+```
+
+### Dịch tiếng Việt
+Tôi nhận được email từ bạn.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 8 theo chủ đề Gia đình; chú ý mẫu JPD133-L08-G001 đến G012.
+
+## R009 – Anh trai
+
+### Đoạn văn tiếng Nhật
+```text
+私は大切な人にプレゼントをあげます。
+```
+
+### Romaji
+```text
+watashi wa taisetsu na hito ni purezento o agemasu.
+```
+
+### Dịch tiếng Việt
+Tôi tặng quà cho người quan trọng.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 9 theo chủ đề Gia đình; chú ý mẫu JPD133-L08-G001 đến G012.
+
+## R010 – Anh trai
+
+### Đoạn văn tiếng Nhật
+```text
+家族と住んでいるので、毎日楽しいです。
+```
+
+### Romaji
+```text
+kazoku to sundeiru node, mainichi tanoshii desu.
+```
+
+### Dịch tiếng Việt
+Vì sống cùng gia đình nên mỗi ngày đều vui.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 10 theo chủ đề Gia đình; chú ý mẫu JPD133-L08-G001 đến G012.
+
+
+# JPD133 Reading Bài 8 – 家族と友達
+
+> Chủ đề: Gia đình
+> Mục tiêu: 25 đoạn đọc về gia đình, nơi sống và quà tặng.
+> Từ vựng bắt buộc: Gia đình, người thân, nơi sống, います, 住みます, あげます, もらいます, くれます
+> Kanji bắt buộc: 家族, 父, 母, 兄, 姉, 弟, 妹, 住
+> Ngữ pháp bắt buộc: JPD133-L08-G001 đến G012
+
+## R001 – Chị gái
 
 ### Đoạn văn tiếng Nhật
 ```text
@@ -94,9 +778,180 @@ ane wa byouin de hataraiteimasu.
 Chị gái tôi làm việc ở bệnh viện.
 
 ### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 1 theo chủ đề Gia đình; chú ý mẫu JPD133-L08-G001 đến G012.
+
+## R002 – Chị gái
+
+### Đoạn văn tiếng Nhật
+```text
+家の近くに公園があります。
+```
+
+### Romaji
+```text
+ie no chikaku ni kouen ga arimasu.
+```
+
+### Dịch tiếng Việt
+Gần nhà có công viên.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 2 theo chủ đề Gia đình; chú ý mẫu JPD133-L08-G001 đến G012.
+
+## R003 – Chị gái
+
+### Đoạn văn tiếng Nhật
+```text
+家族はみんな元気です。
+```
+
+### Romaji
+```text
+kazoku wa minna genki desu.
+```
+
+### Dịch tiếng Việt
+Mọi người trong gia đình đều khỏe.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 3 theo chủ đề Gia đình; chú ý mẫu JPD133-L08-G001 đến G012.
+
+## R004 – Chị gái
+
+### Đoạn văn tiếng Nhật
+```text
+父は会社で働いています。
+```
+
+### Romaji
+```text
+chichi wa kaisha de hataraiteimasu.
+```
+
+### Dịch tiếng Việt
+Bố làm việc ở công ty.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 4 theo chủ đề Gia đình; chú ý mẫu JPD133-L08-G001 đến G012.
+
+## R005 – Chị gái
+
+### Đoạn văn tiếng Nhật
+```text
+母は料理が上手です。
+```
+
+### Romaji
+```text
+haha wa ryouri ga jouzu desu.
+```
+
+### Dịch tiếng Việt
+Mẹ nấu ăn giỏi.
+
+### Tóm tắt và ghi chú luyện tập
 Luyện đọc đoạn 5 theo chủ đề Gia đình; chú ý mẫu JPD133-L08-G001 đến G012.
 
-## R006 – Em gái
+## R006 – Chị gái
+
+### Đoạn văn tiếng Nhật
+```text
+私は家族と一緒に晩ご飯を食べます。
+```
+
+### Romaji
+```text
+watashi wa kazoku to issho ni bangohan o tabemasu.
+```
+
+### Dịch tiếng Việt
+Tôi ăn tối cùng gia đình.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 6 theo chủ đề Gia đình; chú ý mẫu JPD133-L08-G001 đến G012.
+
+## R007 – Chị gái
+
+### Đoạn văn tiếng Nhật
+```text
+休みの日は家でゆっくりします。
+```
+
+### Romaji
+```text
+yasumi no hi wa ie de yukkuri shimasu.
+```
+
+### Dịch tiếng Việt
+Ngày nghỉ tôi nghỉ ngơi ở nhà.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 7 theo chủ đề Gia đình; chú ý mẫu JPD133-L08-G001 đến G012.
+
+## R008 – Chị gái
+
+### Đoạn văn tiếng Nhật
+```text
+友達からメールをもらいました。
+```
+
+### Romaji
+```text
+tomodachi kara meeru o moraimashita.
+```
+
+### Dịch tiếng Việt
+Tôi nhận được email từ bạn.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 8 theo chủ đề Gia đình; chú ý mẫu JPD133-L08-G001 đến G012.
+
+## R009 – Chị gái
+
+### Đoạn văn tiếng Nhật
+```text
+私は大切な人にプレゼントをあげます。
+```
+
+### Romaji
+```text
+watashi wa taisetsu na hito ni purezento o agemasu.
+```
+
+### Dịch tiếng Việt
+Tôi tặng quà cho người quan trọng.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 9 theo chủ đề Gia đình; chú ý mẫu JPD133-L08-G001 đến G012.
+
+## R010 – Chị gái
+
+### Đoạn văn tiếng Nhật
+```text
+家族と住んでいるので、毎日楽しいです。
+```
+
+### Romaji
+```text
+kazoku to sundeiru node, mainichi tanoshii desu.
+```
+
+### Dịch tiếng Việt
+Vì sống cùng gia đình nên mỗi ngày đều vui.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 10 theo chủ đề Gia đình; chú ý mẫu JPD133-L08-G001 đến G012.
+
+
+# JPD133 Reading Bài 8 – 家族と友達
+
+> Chủ đề: Gia đình
+> Mục tiêu: 25 đoạn đọc về gia đình, nơi sống và quà tặng.
+> Từ vựng bắt buộc: Gia đình, người thân, nơi sống, います, 住みます, あげます, もらいます, くれます
+> Kanji bắt buộc: 家族, 父, 母, 兄, 姉, 弟, 妹, 住
+> Ngữ pháp bắt buộc: JPD133-L08-G001 đến G012
+
+## R001 – Em gái
 
 ### Đoạn văn tiếng Nhật
 ```text
@@ -112,9 +967,180 @@ imouto wa daigakusei de shinsetsu desu.
 Em gái tôi là sinh viên đại học và tốt bụng.
 
 ### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 1 theo chủ đề Gia đình; chú ý mẫu JPD133-L08-G001 đến G012.
+
+## R002 – Em gái
+
+### Đoạn văn tiếng Nhật
+```text
+家の近くに公園があります。
+```
+
+### Romaji
+```text
+ie no chikaku ni kouen ga arimasu.
+```
+
+### Dịch tiếng Việt
+Gần nhà có công viên.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 2 theo chủ đề Gia đình; chú ý mẫu JPD133-L08-G001 đến G012.
+
+## R003 – Em gái
+
+### Đoạn văn tiếng Nhật
+```text
+家族はみんな元気です。
+```
+
+### Romaji
+```text
+kazoku wa minna genki desu.
+```
+
+### Dịch tiếng Việt
+Mọi người trong gia đình đều khỏe.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 3 theo chủ đề Gia đình; chú ý mẫu JPD133-L08-G001 đến G012.
+
+## R004 – Em gái
+
+### Đoạn văn tiếng Nhật
+```text
+父は会社で働いています。
+```
+
+### Romaji
+```text
+chichi wa kaisha de hataraiteimasu.
+```
+
+### Dịch tiếng Việt
+Bố làm việc ở công ty.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 4 theo chủ đề Gia đình; chú ý mẫu JPD133-L08-G001 đến G012.
+
+## R005 – Em gái
+
+### Đoạn văn tiếng Nhật
+```text
+母は料理が上手です。
+```
+
+### Romaji
+```text
+haha wa ryouri ga jouzu desu.
+```
+
+### Dịch tiếng Việt
+Mẹ nấu ăn giỏi.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 5 theo chủ đề Gia đình; chú ý mẫu JPD133-L08-G001 đến G012.
+
+## R006 – Em gái
+
+### Đoạn văn tiếng Nhật
+```text
+私は家族と一緒に晩ご飯を食べます。
+```
+
+### Romaji
+```text
+watashi wa kazoku to issho ni bangohan o tabemasu.
+```
+
+### Dịch tiếng Việt
+Tôi ăn tối cùng gia đình.
+
+### Tóm tắt và ghi chú luyện tập
 Luyện đọc đoạn 6 theo chủ đề Gia đình; chú ý mẫu JPD133-L08-G001 đến G012.
 
-## R007 – Con chó của tôi
+## R007 – Em gái
+
+### Đoạn văn tiếng Nhật
+```text
+休みの日は家でゆっくりします。
+```
+
+### Romaji
+```text
+yasumi no hi wa ie de yukkuri shimasu.
+```
+
+### Dịch tiếng Việt
+Ngày nghỉ tôi nghỉ ngơi ở nhà.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 7 theo chủ đề Gia đình; chú ý mẫu JPD133-L08-G001 đến G012.
+
+## R008 – Em gái
+
+### Đoạn văn tiếng Nhật
+```text
+友達からメールをもらいました。
+```
+
+### Romaji
+```text
+tomodachi kara meeru o moraimashita.
+```
+
+### Dịch tiếng Việt
+Tôi nhận được email từ bạn.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 8 theo chủ đề Gia đình; chú ý mẫu JPD133-L08-G001 đến G012.
+
+## R009 – Em gái
+
+### Đoạn văn tiếng Nhật
+```text
+私は大切な人にプレゼントをあげます。
+```
+
+### Romaji
+```text
+watashi wa taisetsu na hito ni purezento o agemasu.
+```
+
+### Dịch tiếng Việt
+Tôi tặng quà cho người quan trọng.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 9 theo chủ đề Gia đình; chú ý mẫu JPD133-L08-G001 đến G012.
+
+## R010 – Em gái
+
+### Đoạn văn tiếng Nhật
+```text
+家族と住んでいるので、毎日楽しいです。
+```
+
+### Romaji
+```text
+kazoku to sundeiru node, mainichi tanoshii desu.
+```
+
+### Dịch tiếng Việt
+Vì sống cùng gia đình nên mỗi ngày đều vui.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 10 theo chủ đề Gia đình; chú ý mẫu JPD133-L08-G001 đến G012.
+
+
+# JPD133 Reading Bài 8 – 家族と友達
+
+> Chủ đề: Gia đình
+> Mục tiêu: 25 đoạn đọc về gia đình, nơi sống và quà tặng.
+> Từ vựng bắt buộc: Gia đình, người thân, nơi sống, います, 住みます, あげます, もらいます, くれます
+> Kanji bắt buộc: 家族, 父, 母, 兄, 姉, 弟, 妹, 住
+> Ngữ pháp bắt buộc: JPD133-L08-G001 đến G012
+
+## R001 – Con chó của tôi
 
 ### Đoạn văn tiếng Nhật
 ```text
@@ -130,9 +1156,180 @@ inu ga ippiki imasu.
 Tôi có một con chó.
 
 ### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 1 theo chủ đề Gia đình; chú ý mẫu JPD133-L08-G001 đến G012.
+
+## R002 – Con chó của tôi
+
+### Đoạn văn tiếng Nhật
+```text
+家の近くに公園があります。
+```
+
+### Romaji
+```text
+ie no chikaku ni kouen ga arimasu.
+```
+
+### Dịch tiếng Việt
+Gần nhà có công viên.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 2 theo chủ đề Gia đình; chú ý mẫu JPD133-L08-G001 đến G012.
+
+## R003 – Con chó của tôi
+
+### Đoạn văn tiếng Nhật
+```text
+家族はみんな元気です。
+```
+
+### Romaji
+```text
+kazoku wa minna genki desu.
+```
+
+### Dịch tiếng Việt
+Mọi người trong gia đình đều khỏe.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 3 theo chủ đề Gia đình; chú ý mẫu JPD133-L08-G001 đến G012.
+
+## R004 – Con chó của tôi
+
+### Đoạn văn tiếng Nhật
+```text
+父は会社で働いています。
+```
+
+### Romaji
+```text
+chichi wa kaisha de hataraiteimasu.
+```
+
+### Dịch tiếng Việt
+Bố làm việc ở công ty.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 4 theo chủ đề Gia đình; chú ý mẫu JPD133-L08-G001 đến G012.
+
+## R005 – Con chó của tôi
+
+### Đoạn văn tiếng Nhật
+```text
+母は料理が上手です。
+```
+
+### Romaji
+```text
+haha wa ryouri ga jouzu desu.
+```
+
+### Dịch tiếng Việt
+Mẹ nấu ăn giỏi.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 5 theo chủ đề Gia đình; chú ý mẫu JPD133-L08-G001 đến G012.
+
+## R006 – Con chó của tôi
+
+### Đoạn văn tiếng Nhật
+```text
+私は家族と一緒に晩ご飯を食べます。
+```
+
+### Romaji
+```text
+watashi wa kazoku to issho ni bangohan o tabemasu.
+```
+
+### Dịch tiếng Việt
+Tôi ăn tối cùng gia đình.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 6 theo chủ đề Gia đình; chú ý mẫu JPD133-L08-G001 đến G012.
+
+## R007 – Con chó của tôi
+
+### Đoạn văn tiếng Nhật
+```text
+休みの日は家でゆっくりします。
+```
+
+### Romaji
+```text
+yasumi no hi wa ie de yukkuri shimasu.
+```
+
+### Dịch tiếng Việt
+Ngày nghỉ tôi nghỉ ngơi ở nhà.
+
+### Tóm tắt và ghi chú luyện tập
 Luyện đọc đoạn 7 theo chủ đề Gia đình; chú ý mẫu JPD133-L08-G001 đến G012.
 
-## R008 – Bạn cùng phòng
+## R008 – Con chó của tôi
+
+### Đoạn văn tiếng Nhật
+```text
+友達からメールをもらいました。
+```
+
+### Romaji
+```text
+tomodachi kara meeru o moraimashita.
+```
+
+### Dịch tiếng Việt
+Tôi nhận được email từ bạn.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 8 theo chủ đề Gia đình; chú ý mẫu JPD133-L08-G001 đến G012.
+
+## R009 – Con chó của tôi
+
+### Đoạn văn tiếng Nhật
+```text
+私は大切な人にプレゼントをあげます。
+```
+
+### Romaji
+```text
+watashi wa taisetsu na hito ni purezento o agemasu.
+```
+
+### Dịch tiếng Việt
+Tôi tặng quà cho người quan trọng.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 9 theo chủ đề Gia đình; chú ý mẫu JPD133-L08-G001 đến G012.
+
+## R010 – Con chó của tôi
+
+### Đoạn văn tiếng Nhật
+```text
+家族と住んでいるので、毎日楽しいです。
+```
+
+### Romaji
+```text
+kazoku to sundeiru node, mainichi tanoshii desu.
+```
+
+### Dịch tiếng Việt
+Vì sống cùng gia đình nên mỗi ngày đều vui.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 10 theo chủ đề Gia đình; chú ý mẫu JPD133-L08-G001 đến G012.
+
+
+# JPD133 Reading Bài 8 – 家族と友達
+
+> Chủ đề: Gia đình
+> Mục tiêu: 25 đoạn đọc về gia đình, nơi sống và quà tặng.
+> Từ vựng bắt buộc: Gia đình, người thân, nơi sống, います, 住みます, あげます, もらいます, くれます
+> Kanji bắt buộc: 家族, 父, 母, 兄, 姉, 弟, 妹, 住
+> Ngữ pháp bắt buộc: JPD133-L08-G001 đến G012
+
+## R001 – Bạn cùng phòng
 
 ### Đoạn văn tiếng Nhật
 ```text
@@ -148,9 +1345,180 @@ ruumumeito to sannin de sundeimasu.
 Tôi sống cùng bạn cùng phòng, tổng cộng ba người.
 
 ### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 1 theo chủ đề Gia đình; chú ý mẫu JPD133-L08-G001 đến G012.
+
+## R002 – Bạn cùng phòng
+
+### Đoạn văn tiếng Nhật
+```text
+家の近くに公園があります。
+```
+
+### Romaji
+```text
+ie no chikaku ni kouen ga arimasu.
+```
+
+### Dịch tiếng Việt
+Gần nhà có công viên.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 2 theo chủ đề Gia đình; chú ý mẫu JPD133-L08-G001 đến G012.
+
+## R003 – Bạn cùng phòng
+
+### Đoạn văn tiếng Nhật
+```text
+家族はみんな元気です。
+```
+
+### Romaji
+```text
+kazoku wa minna genki desu.
+```
+
+### Dịch tiếng Việt
+Mọi người trong gia đình đều khỏe.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 3 theo chủ đề Gia đình; chú ý mẫu JPD133-L08-G001 đến G012.
+
+## R004 – Bạn cùng phòng
+
+### Đoạn văn tiếng Nhật
+```text
+父は会社で働いています。
+```
+
+### Romaji
+```text
+chichi wa kaisha de hataraiteimasu.
+```
+
+### Dịch tiếng Việt
+Bố làm việc ở công ty.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 4 theo chủ đề Gia đình; chú ý mẫu JPD133-L08-G001 đến G012.
+
+## R005 – Bạn cùng phòng
+
+### Đoạn văn tiếng Nhật
+```text
+母は料理が上手です。
+```
+
+### Romaji
+```text
+haha wa ryouri ga jouzu desu.
+```
+
+### Dịch tiếng Việt
+Mẹ nấu ăn giỏi.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 5 theo chủ đề Gia đình; chú ý mẫu JPD133-L08-G001 đến G012.
+
+## R006 – Bạn cùng phòng
+
+### Đoạn văn tiếng Nhật
+```text
+私は家族と一緒に晩ご飯を食べます。
+```
+
+### Romaji
+```text
+watashi wa kazoku to issho ni bangohan o tabemasu.
+```
+
+### Dịch tiếng Việt
+Tôi ăn tối cùng gia đình.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 6 theo chủ đề Gia đình; chú ý mẫu JPD133-L08-G001 đến G012.
+
+## R007 – Bạn cùng phòng
+
+### Đoạn văn tiếng Nhật
+```text
+休みの日は家でゆっくりします。
+```
+
+### Romaji
+```text
+yasumi no hi wa ie de yukkuri shimasu.
+```
+
+### Dịch tiếng Việt
+Ngày nghỉ tôi nghỉ ngơi ở nhà.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 7 theo chủ đề Gia đình; chú ý mẫu JPD133-L08-G001 đến G012.
+
+## R008 – Bạn cùng phòng
+
+### Đoạn văn tiếng Nhật
+```text
+友達からメールをもらいました。
+```
+
+### Romaji
+```text
+tomodachi kara meeru o moraimashita.
+```
+
+### Dịch tiếng Việt
+Tôi nhận được email từ bạn.
+
+### Tóm tắt và ghi chú luyện tập
 Luyện đọc đoạn 8 theo chủ đề Gia đình; chú ý mẫu JPD133-L08-G001 đến G012.
 
-## R009 – Bố tôi
+## R009 – Bạn cùng phòng
+
+### Đoạn văn tiếng Nhật
+```text
+私は大切な人にプレゼントをあげます。
+```
+
+### Romaji
+```text
+watashi wa taisetsu na hito ni purezento o agemasu.
+```
+
+### Dịch tiếng Việt
+Tôi tặng quà cho người quan trọng.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 9 theo chủ đề Gia đình; chú ý mẫu JPD133-L08-G001 đến G012.
+
+## R010 – Bạn cùng phòng
+
+### Đoạn văn tiếng Nhật
+```text
+家族と住んでいるので、毎日楽しいです。
+```
+
+### Romaji
+```text
+kazoku to sundeiru node, mainichi tanoshii desu.
+```
+
+### Dịch tiếng Việt
+Vì sống cùng gia đình nên mỗi ngày đều vui.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 10 theo chủ đề Gia đình; chú ý mẫu JPD133-L08-G001 đến G012.
+
+
+# JPD133 Reading Bài 8 – 家族と友達
+
+> Chủ đề: Gia đình
+> Mục tiêu: 25 đoạn đọc về gia đình, nơi sống và quà tặng.
+> Từ vựng bắt buộc: Gia đình, người thân, nơi sống, います, 住みます, あげます, もらいます, くれます
+> Kanji bắt buộc: 家族, 父, 母, 兄, 姉, 弟, 妹, 住
+> Ngữ pháp bắt buộc: JPD133-L08-G001 đến G012
+
+## R001 – Bố tôi
 
 ### Đoạn văn tiếng Nhật
 ```text
@@ -166,9 +1534,180 @@ chichi wa kaisha de hataraiteimasu.
 Bố tôi làm việc ở công ty.
 
 ### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 1 theo chủ đề Gia đình; chú ý mẫu JPD133-L08-G001 đến G012.
+
+## R002 – Bố tôi
+
+### Đoạn văn tiếng Nhật
+```text
+家の近くに公園があります。
+```
+
+### Romaji
+```text
+ie no chikaku ni kouen ga arimasu.
+```
+
+### Dịch tiếng Việt
+Gần nhà có công viên.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 2 theo chủ đề Gia đình; chú ý mẫu JPD133-L08-G001 đến G012.
+
+## R003 – Bố tôi
+
+### Đoạn văn tiếng Nhật
+```text
+家族はみんな元気です。
+```
+
+### Romaji
+```text
+kazoku wa minna genki desu.
+```
+
+### Dịch tiếng Việt
+Mọi người trong gia đình đều khỏe.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 3 theo chủ đề Gia đình; chú ý mẫu JPD133-L08-G001 đến G012.
+
+## R004 – Bố tôi
+
+### Đoạn văn tiếng Nhật
+```text
+父は会社で働いています。
+```
+
+### Romaji
+```text
+chichi wa kaisha de hataraiteimasu.
+```
+
+### Dịch tiếng Việt
+Bố làm việc ở công ty.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 4 theo chủ đề Gia đình; chú ý mẫu JPD133-L08-G001 đến G012.
+
+## R005 – Bố tôi
+
+### Đoạn văn tiếng Nhật
+```text
+母は料理が上手です。
+```
+
+### Romaji
+```text
+haha wa ryouri ga jouzu desu.
+```
+
+### Dịch tiếng Việt
+Mẹ nấu ăn giỏi.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 5 theo chủ đề Gia đình; chú ý mẫu JPD133-L08-G001 đến G012.
+
+## R006 – Bố tôi
+
+### Đoạn văn tiếng Nhật
+```text
+私は家族と一緒に晩ご飯を食べます。
+```
+
+### Romaji
+```text
+watashi wa kazoku to issho ni bangohan o tabemasu.
+```
+
+### Dịch tiếng Việt
+Tôi ăn tối cùng gia đình.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 6 theo chủ đề Gia đình; chú ý mẫu JPD133-L08-G001 đến G012.
+
+## R007 – Bố tôi
+
+### Đoạn văn tiếng Nhật
+```text
+休みの日は家でゆっくりします。
+```
+
+### Romaji
+```text
+yasumi no hi wa ie de yukkuri shimasu.
+```
+
+### Dịch tiếng Việt
+Ngày nghỉ tôi nghỉ ngơi ở nhà.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 7 theo chủ đề Gia đình; chú ý mẫu JPD133-L08-G001 đến G012.
+
+## R008 – Bố tôi
+
+### Đoạn văn tiếng Nhật
+```text
+友達からメールをもらいました。
+```
+
+### Romaji
+```text
+tomodachi kara meeru o moraimashita.
+```
+
+### Dịch tiếng Việt
+Tôi nhận được email từ bạn.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 8 theo chủ đề Gia đình; chú ý mẫu JPD133-L08-G001 đến G012.
+
+## R009 – Bố tôi
+
+### Đoạn văn tiếng Nhật
+```text
+私は大切な人にプレゼントをあげます。
+```
+
+### Romaji
+```text
+watashi wa taisetsu na hito ni purezento o agemasu.
+```
+
+### Dịch tiếng Việt
+Tôi tặng quà cho người quan trọng.
+
+### Tóm tắt và ghi chú luyện tập
 Luyện đọc đoạn 9 theo chủ đề Gia đình; chú ý mẫu JPD133-L08-G001 đến G012.
 
-## R010 – Mẹ tôi
+## R010 – Bố tôi
+
+### Đoạn văn tiếng Nhật
+```text
+家族と住んでいるので、毎日楽しいです。
+```
+
+### Romaji
+```text
+kazoku to sundeiru node, mainichi tanoshii desu.
+```
+
+### Dịch tiếng Việt
+Vì sống cùng gia đình nên mỗi ngày đều vui.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 10 theo chủ đề Gia đình; chú ý mẫu JPD133-L08-G001 đến G012.
+
+
+# JPD133 Reading Bài 8 – 家族と友達
+
+> Chủ đề: Gia đình
+> Mục tiêu: 25 đoạn đọc về gia đình, nơi sống và quà tặng.
+> Từ vựng bắt buộc: Gia đình, người thân, nơi sống, います, 住みます, あげます, もらいます, くれます
+> Kanji bắt buộc: 家族, 父, 母, 兄, 姉, 弟, 妹, 住
+> Ngữ pháp bắt buộc: JPD133-L08-G001 đến G012
+
+## R001 – Mẹ tôi
 
 ### Đoạn văn tiếng Nhật
 ```text
@@ -184,9 +1723,180 @@ haha wa ryouri o tsukutteimasu.
 Mẹ tôi đang nấu ăn.
 
 ### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 1 theo chủ đề Gia đình; chú ý mẫu JPD133-L08-G001 đến G012.
+
+## R002 – Mẹ tôi
+
+### Đoạn văn tiếng Nhật
+```text
+家の近くに公園があります。
+```
+
+### Romaji
+```text
+ie no chikaku ni kouen ga arimasu.
+```
+
+### Dịch tiếng Việt
+Gần nhà có công viên.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 2 theo chủ đề Gia đình; chú ý mẫu JPD133-L08-G001 đến G012.
+
+## R003 – Mẹ tôi
+
+### Đoạn văn tiếng Nhật
+```text
+家族はみんな元気です。
+```
+
+### Romaji
+```text
+kazoku wa minna genki desu.
+```
+
+### Dịch tiếng Việt
+Mọi người trong gia đình đều khỏe.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 3 theo chủ đề Gia đình; chú ý mẫu JPD133-L08-G001 đến G012.
+
+## R004 – Mẹ tôi
+
+### Đoạn văn tiếng Nhật
+```text
+父は会社で働いています。
+```
+
+### Romaji
+```text
+chichi wa kaisha de hataraiteimasu.
+```
+
+### Dịch tiếng Việt
+Bố làm việc ở công ty.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 4 theo chủ đề Gia đình; chú ý mẫu JPD133-L08-G001 đến G012.
+
+## R005 – Mẹ tôi
+
+### Đoạn văn tiếng Nhật
+```text
+母は料理が上手です。
+```
+
+### Romaji
+```text
+haha wa ryouri ga jouzu desu.
+```
+
+### Dịch tiếng Việt
+Mẹ nấu ăn giỏi.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 5 theo chủ đề Gia đình; chú ý mẫu JPD133-L08-G001 đến G012.
+
+## R006 – Mẹ tôi
+
+### Đoạn văn tiếng Nhật
+```text
+私は家族と一緒に晩ご飯を食べます。
+```
+
+### Romaji
+```text
+watashi wa kazoku to issho ni bangohan o tabemasu.
+```
+
+### Dịch tiếng Việt
+Tôi ăn tối cùng gia đình.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 6 theo chủ đề Gia đình; chú ý mẫu JPD133-L08-G001 đến G012.
+
+## R007 – Mẹ tôi
+
+### Đoạn văn tiếng Nhật
+```text
+休みの日は家でゆっくりします。
+```
+
+### Romaji
+```text
+yasumi no hi wa ie de yukkuri shimasu.
+```
+
+### Dịch tiếng Việt
+Ngày nghỉ tôi nghỉ ngơi ở nhà.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 7 theo chủ đề Gia đình; chú ý mẫu JPD133-L08-G001 đến G012.
+
+## R008 – Mẹ tôi
+
+### Đoạn văn tiếng Nhật
+```text
+友達からメールをもらいました。
+```
+
+### Romaji
+```text
+tomodachi kara meeru o moraimashita.
+```
+
+### Dịch tiếng Việt
+Tôi nhận được email từ bạn.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 8 theo chủ đề Gia đình; chú ý mẫu JPD133-L08-G001 đến G012.
+
+## R009 – Mẹ tôi
+
+### Đoạn văn tiếng Nhật
+```text
+私は大切な人にプレゼントをあげます。
+```
+
+### Romaji
+```text
+watashi wa taisetsu na hito ni purezento o agemasu.
+```
+
+### Dịch tiếng Việt
+Tôi tặng quà cho người quan trọng.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 9 theo chủ đề Gia đình; chú ý mẫu JPD133-L08-G001 đến G012.
+
+## R010 – Mẹ tôi
+
+### Đoạn văn tiếng Nhật
+```text
+家族と住んでいるので、毎日楽しいです。
+```
+
+### Romaji
+```text
+kazoku to sundeiru node, mainichi tanoshii desu.
+```
+
+### Dịch tiếng Việt
+Vì sống cùng gia đình nên mỗi ngày đều vui.
+
+### Tóm tắt và ghi chú luyện tập
 Luyện đọc đoạn 10 theo chủ đề Gia đình; chú ý mẫu JPD133-L08-G001 đến G012.
 
-## R011 – Ông bà
+
+# JPD133 Reading Bài 8 – 家族と友達
+
+> Chủ đề: Gia đình
+> Mục tiêu: 25 đoạn đọc về gia đình, nơi sống và quà tặng.
+> Từ vựng bắt buộc: Gia đình, người thân, nơi sống, います, 住みます, あげます, もらいます, くれます
+> Kanji bắt buộc: 家族, 父, 母, 兄, 姉, 弟, 妹, 住
+> Ngữ pháp bắt buộc: JPD133-L08-G001 đến G012
+
+## R001 – Ông bà
 
 ### Đoạn văn tiếng Nhật
 ```text
@@ -202,9 +1912,180 @@ sofubo wa inaka ni sundeimasu.
 Ông bà tôi sống ở quê.
 
 ### Tóm tắt và ghi chú luyện tập
-Luyện đọc đoạn 11 theo chủ đề Gia đình; chú ý mẫu JPD133-L08-G001 đến G012.
+Luyện đọc đoạn 1 theo chủ đề Gia đình; chú ý mẫu JPD133-L08-G001 đến G012.
 
-## R012 – Gia đình cuối tuần
+## R002 – Ông bà
+
+### Đoạn văn tiếng Nhật
+```text
+家の近くに公園があります。
+```
+
+### Romaji
+```text
+ie no chikaku ni kouen ga arimasu.
+```
+
+### Dịch tiếng Việt
+Gần nhà có công viên.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 2 theo chủ đề Gia đình; chú ý mẫu JPD133-L08-G001 đến G012.
+
+## R003 – Ông bà
+
+### Đoạn văn tiếng Nhật
+```text
+家族はみんな元気です。
+```
+
+### Romaji
+```text
+kazoku wa minna genki desu.
+```
+
+### Dịch tiếng Việt
+Mọi người trong gia đình đều khỏe.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 3 theo chủ đề Gia đình; chú ý mẫu JPD133-L08-G001 đến G012.
+
+## R004 – Ông bà
+
+### Đoạn văn tiếng Nhật
+```text
+父は会社で働いています。
+```
+
+### Romaji
+```text
+chichi wa kaisha de hataraiteimasu.
+```
+
+### Dịch tiếng Việt
+Bố làm việc ở công ty.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 4 theo chủ đề Gia đình; chú ý mẫu JPD133-L08-G001 đến G012.
+
+## R005 – Ông bà
+
+### Đoạn văn tiếng Nhật
+```text
+母は料理が上手です。
+```
+
+### Romaji
+```text
+haha wa ryouri ga jouzu desu.
+```
+
+### Dịch tiếng Việt
+Mẹ nấu ăn giỏi.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 5 theo chủ đề Gia đình; chú ý mẫu JPD133-L08-G001 đến G012.
+
+## R006 – Ông bà
+
+### Đoạn văn tiếng Nhật
+```text
+私は家族と一緒に晩ご飯を食べます。
+```
+
+### Romaji
+```text
+watashi wa kazoku to issho ni bangohan o tabemasu.
+```
+
+### Dịch tiếng Việt
+Tôi ăn tối cùng gia đình.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 6 theo chủ đề Gia đình; chú ý mẫu JPD133-L08-G001 đến G012.
+
+## R007 – Ông bà
+
+### Đoạn văn tiếng Nhật
+```text
+休みの日は家でゆっくりします。
+```
+
+### Romaji
+```text
+yasumi no hi wa ie de yukkuri shimasu.
+```
+
+### Dịch tiếng Việt
+Ngày nghỉ tôi nghỉ ngơi ở nhà.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 7 theo chủ đề Gia đình; chú ý mẫu JPD133-L08-G001 đến G012.
+
+## R008 – Ông bà
+
+### Đoạn văn tiếng Nhật
+```text
+友達からメールをもらいました。
+```
+
+### Romaji
+```text
+tomodachi kara meeru o moraimashita.
+```
+
+### Dịch tiếng Việt
+Tôi nhận được email từ bạn.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 8 theo chủ đề Gia đình; chú ý mẫu JPD133-L08-G001 đến G012.
+
+## R009 – Ông bà
+
+### Đoạn văn tiếng Nhật
+```text
+私は大切な人にプレゼントをあげます。
+```
+
+### Romaji
+```text
+watashi wa taisetsu na hito ni purezento o agemasu.
+```
+
+### Dịch tiếng Việt
+Tôi tặng quà cho người quan trọng.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 9 theo chủ đề Gia đình; chú ý mẫu JPD133-L08-G001 đến G012.
+
+## R010 – Ông bà
+
+### Đoạn văn tiếng Nhật
+```text
+家族と住んでいるので、毎日楽しいです。
+```
+
+### Romaji
+```text
+kazoku to sundeiru node, mainichi tanoshii desu.
+```
+
+### Dịch tiếng Việt
+Vì sống cùng gia đình nên mỗi ngày đều vui.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 10 theo chủ đề Gia đình; chú ý mẫu JPD133-L08-G001 đến G012.
+
+
+# JPD133 Reading Bài 8 – 家族と友達
+
+> Chủ đề: Gia đình
+> Mục tiêu: 25 đoạn đọc về gia đình, nơi sống và quà tặng.
+> Từ vựng bắt buộc: Gia đình, người thân, nơi sống, います, 住みます, あげます, もらいます, くれます
+> Kanji bắt buộc: 家族, 父, 母, 兄, 姉, 弟, 妹, 住
+> Ngữ pháp bắt buộc: JPD133-L08-G001 đến G012
+
+## R001 – Gia đình cuối tuần
 
 ### Đoạn văn tiếng Nhật
 ```text
@@ -220,9 +2101,180 @@ shuumatsu, kazoku to kouen e ikimasu.
 Cuối tuần tôi đi công viên với gia đình.
 
 ### Tóm tắt và ghi chú luyện tập
-Luyện đọc đoạn 12 theo chủ đề Gia đình; chú ý mẫu JPD133-L08-G001 đến G012.
+Luyện đọc đoạn 1 theo chủ đề Gia đình; chú ý mẫu JPD133-L08-G001 đến G012.
 
-## R013 – Bữa tối gia đình
+## R002 – Gia đình cuối tuần
+
+### Đoạn văn tiếng Nhật
+```text
+家の近くに公園があります。
+```
+
+### Romaji
+```text
+ie no chikaku ni kouen ga arimasu.
+```
+
+### Dịch tiếng Việt
+Gần nhà có công viên.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 2 theo chủ đề Gia đình; chú ý mẫu JPD133-L08-G001 đến G012.
+
+## R003 – Gia đình cuối tuần
+
+### Đoạn văn tiếng Nhật
+```text
+家族はみんな元気です。
+```
+
+### Romaji
+```text
+kazoku wa minna genki desu.
+```
+
+### Dịch tiếng Việt
+Mọi người trong gia đình đều khỏe.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 3 theo chủ đề Gia đình; chú ý mẫu JPD133-L08-G001 đến G012.
+
+## R004 – Gia đình cuối tuần
+
+### Đoạn văn tiếng Nhật
+```text
+父は会社で働いています。
+```
+
+### Romaji
+```text
+chichi wa kaisha de hataraiteimasu.
+```
+
+### Dịch tiếng Việt
+Bố làm việc ở công ty.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 4 theo chủ đề Gia đình; chú ý mẫu JPD133-L08-G001 đến G012.
+
+## R005 – Gia đình cuối tuần
+
+### Đoạn văn tiếng Nhật
+```text
+母は料理が上手です。
+```
+
+### Romaji
+```text
+haha wa ryouri ga jouzu desu.
+```
+
+### Dịch tiếng Việt
+Mẹ nấu ăn giỏi.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 5 theo chủ đề Gia đình; chú ý mẫu JPD133-L08-G001 đến G012.
+
+## R006 – Gia đình cuối tuần
+
+### Đoạn văn tiếng Nhật
+```text
+私は家族と一緒に晩ご飯を食べます。
+```
+
+### Romaji
+```text
+watashi wa kazoku to issho ni bangohan o tabemasu.
+```
+
+### Dịch tiếng Việt
+Tôi ăn tối cùng gia đình.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 6 theo chủ đề Gia đình; chú ý mẫu JPD133-L08-G001 đến G012.
+
+## R007 – Gia đình cuối tuần
+
+### Đoạn văn tiếng Nhật
+```text
+休みの日は家でゆっくりします。
+```
+
+### Romaji
+```text
+yasumi no hi wa ie de yukkuri shimasu.
+```
+
+### Dịch tiếng Việt
+Ngày nghỉ tôi nghỉ ngơi ở nhà.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 7 theo chủ đề Gia đình; chú ý mẫu JPD133-L08-G001 đến G012.
+
+## R008 – Gia đình cuối tuần
+
+### Đoạn văn tiếng Nhật
+```text
+友達からメールをもらいました。
+```
+
+### Romaji
+```text
+tomodachi kara meeru o moraimashita.
+```
+
+### Dịch tiếng Việt
+Tôi nhận được email từ bạn.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 8 theo chủ đề Gia đình; chú ý mẫu JPD133-L08-G001 đến G012.
+
+## R009 – Gia đình cuối tuần
+
+### Đoạn văn tiếng Nhật
+```text
+私は大切な人にプレゼントをあげます。
+```
+
+### Romaji
+```text
+watashi wa taisetsu na hito ni purezento o agemasu.
+```
+
+### Dịch tiếng Việt
+Tôi tặng quà cho người quan trọng.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 9 theo chủ đề Gia đình; chú ý mẫu JPD133-L08-G001 đến G012.
+
+## R010 – Gia đình cuối tuần
+
+### Đoạn văn tiếng Nhật
+```text
+家族と住んでいるので、毎日楽しいです。
+```
+
+### Romaji
+```text
+kazoku to sundeiru node, mainichi tanoshii desu.
+```
+
+### Dịch tiếng Việt
+Vì sống cùng gia đình nên mỗi ngày đều vui.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 10 theo chủ đề Gia đình; chú ý mẫu JPD133-L08-G001 đến G012.
+
+
+# JPD133 Reading Bài 8 – 家族と友達
+
+> Chủ đề: Gia đình
+> Mục tiêu: 25 đoạn đọc về gia đình, nơi sống và quà tặng.
+> Từ vựng bắt buộc: Gia đình, người thân, nơi sống, います, 住みます, あげます, もらいます, くれます
+> Kanji bắt buộc: 家族, 父, 母, 兄, 姉, 弟, 妹, 住
+> Ngữ pháp bắt buộc: JPD133-L08-G001 đến G012
+
+## R001 – Bữa tối gia đình
 
 ### Đoạn văn tiếng Nhật
 ```text
@@ -238,9 +2290,180 @@ bangohan wa kazoku to issho ni tabemasu.
 Tôi ăn tối cùng gia đình.
 
 ### Tóm tắt và ghi chú luyện tập
-Luyện đọc đoạn 13 theo chủ đề Gia đình; chú ý mẫu JPD133-L08-G001 đến G012.
+Luyện đọc đoạn 1 theo chủ đề Gia đình; chú ý mẫu JPD133-L08-G001 đến G012.
 
-## R014 – Sinh nhật
+## R002 – Bữa tối gia đình
+
+### Đoạn văn tiếng Nhật
+```text
+家の近くに公園があります。
+```
+
+### Romaji
+```text
+ie no chikaku ni kouen ga arimasu.
+```
+
+### Dịch tiếng Việt
+Gần nhà có công viên.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 2 theo chủ đề Gia đình; chú ý mẫu JPD133-L08-G001 đến G012.
+
+## R003 – Bữa tối gia đình
+
+### Đoạn văn tiếng Nhật
+```text
+家族はみんな元気です。
+```
+
+### Romaji
+```text
+kazoku wa minna genki desu.
+```
+
+### Dịch tiếng Việt
+Mọi người trong gia đình đều khỏe.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 3 theo chủ đề Gia đình; chú ý mẫu JPD133-L08-G001 đến G012.
+
+## R004 – Bữa tối gia đình
+
+### Đoạn văn tiếng Nhật
+```text
+父は会社で働いています。
+```
+
+### Romaji
+```text
+chichi wa kaisha de hataraiteimasu.
+```
+
+### Dịch tiếng Việt
+Bố làm việc ở công ty.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 4 theo chủ đề Gia đình; chú ý mẫu JPD133-L08-G001 đến G012.
+
+## R005 – Bữa tối gia đình
+
+### Đoạn văn tiếng Nhật
+```text
+母は料理が上手です。
+```
+
+### Romaji
+```text
+haha wa ryouri ga jouzu desu.
+```
+
+### Dịch tiếng Việt
+Mẹ nấu ăn giỏi.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 5 theo chủ đề Gia đình; chú ý mẫu JPD133-L08-G001 đến G012.
+
+## R006 – Bữa tối gia đình
+
+### Đoạn văn tiếng Nhật
+```text
+私は家族と一緒に晩ご飯を食べます。
+```
+
+### Romaji
+```text
+watashi wa kazoku to issho ni bangohan o tabemasu.
+```
+
+### Dịch tiếng Việt
+Tôi ăn tối cùng gia đình.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 6 theo chủ đề Gia đình; chú ý mẫu JPD133-L08-G001 đến G012.
+
+## R007 – Bữa tối gia đình
+
+### Đoạn văn tiếng Nhật
+```text
+休みの日は家でゆっくりします。
+```
+
+### Romaji
+```text
+yasumi no hi wa ie de yukkuri shimasu.
+```
+
+### Dịch tiếng Việt
+Ngày nghỉ tôi nghỉ ngơi ở nhà.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 7 theo chủ đề Gia đình; chú ý mẫu JPD133-L08-G001 đến G012.
+
+## R008 – Bữa tối gia đình
+
+### Đoạn văn tiếng Nhật
+```text
+友達からメールをもらいました。
+```
+
+### Romaji
+```text
+tomodachi kara meeru o moraimashita.
+```
+
+### Dịch tiếng Việt
+Tôi nhận được email từ bạn.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 8 theo chủ đề Gia đình; chú ý mẫu JPD133-L08-G001 đến G012.
+
+## R009 – Bữa tối gia đình
+
+### Đoạn văn tiếng Nhật
+```text
+私は大切な人にプレゼントをあげます。
+```
+
+### Romaji
+```text
+watashi wa taisetsu na hito ni purezento o agemasu.
+```
+
+### Dịch tiếng Việt
+Tôi tặng quà cho người quan trọng.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 9 theo chủ đề Gia đình; chú ý mẫu JPD133-L08-G001 đến G012.
+
+## R010 – Bữa tối gia đình
+
+### Đoạn văn tiếng Nhật
+```text
+家族と住んでいるので、毎日楽しいです。
+```
+
+### Romaji
+```text
+kazoku to sundeiru node, mainichi tanoshii desu.
+```
+
+### Dịch tiếng Việt
+Vì sống cùng gia đình nên mỗi ngày đều vui.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 10 theo chủ đề Gia đình; chú ý mẫu JPD133-L08-G001 đến G012.
+
+
+# JPD133 Reading Bài 8 – 家族と友達
+
+> Chủ đề: Gia đình
+> Mục tiêu: 25 đoạn đọc về gia đình, nơi sống và quà tặng.
+> Từ vựng bắt buộc: Gia đình, người thân, nơi sống, います, 住みます, あげます, もらいます, くれます
+> Kanji bắt buộc: 家族, 父, 母, 兄, 姉, 弟, 妹, 住
+> Ngữ pháp bắt buộc: JPD133-L08-G001 đến G012
+
+## R001 – Sinh nhật
 
 ### Đoạn văn tiếng Nhật
 ```text
@@ -256,9 +2479,180 @@ tanjoubi ni tomodachi ga kaado o kuremashita.
 Sinh nhật, bạn đã tặng tôi một tấm thiệp.
 
 ### Tóm tắt và ghi chú luyện tập
-Luyện đọc đoạn 14 theo chủ đề Gia đình; chú ý mẫu JPD133-L08-G001 đến G012.
+Luyện đọc đoạn 1 theo chủ đề Gia đình; chú ý mẫu JPD133-L08-G001 đến G012.
 
-## R015 – Quà sinh nhật
+## R002 – Sinh nhật
+
+### Đoạn văn tiếng Nhật
+```text
+家の近くに公園があります。
+```
+
+### Romaji
+```text
+ie no chikaku ni kouen ga arimasu.
+```
+
+### Dịch tiếng Việt
+Gần nhà có công viên.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 2 theo chủ đề Gia đình; chú ý mẫu JPD133-L08-G001 đến G012.
+
+## R003 – Sinh nhật
+
+### Đoạn văn tiếng Nhật
+```text
+家族はみんな元気です。
+```
+
+### Romaji
+```text
+kazoku wa minna genki desu.
+```
+
+### Dịch tiếng Việt
+Mọi người trong gia đình đều khỏe.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 3 theo chủ đề Gia đình; chú ý mẫu JPD133-L08-G001 đến G012.
+
+## R004 – Sinh nhật
+
+### Đoạn văn tiếng Nhật
+```text
+父は会社で働いています。
+```
+
+### Romaji
+```text
+chichi wa kaisha de hataraiteimasu.
+```
+
+### Dịch tiếng Việt
+Bố làm việc ở công ty.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 4 theo chủ đề Gia đình; chú ý mẫu JPD133-L08-G001 đến G012.
+
+## R005 – Sinh nhật
+
+### Đoạn văn tiếng Nhật
+```text
+母は料理が上手です。
+```
+
+### Romaji
+```text
+haha wa ryouri ga jouzu desu.
+```
+
+### Dịch tiếng Việt
+Mẹ nấu ăn giỏi.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 5 theo chủ đề Gia đình; chú ý mẫu JPD133-L08-G001 đến G012.
+
+## R006 – Sinh nhật
+
+### Đoạn văn tiếng Nhật
+```text
+私は家族と一緒に晩ご飯を食べます。
+```
+
+### Romaji
+```text
+watashi wa kazoku to issho ni bangohan o tabemasu.
+```
+
+### Dịch tiếng Việt
+Tôi ăn tối cùng gia đình.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 6 theo chủ đề Gia đình; chú ý mẫu JPD133-L08-G001 đến G012.
+
+## R007 – Sinh nhật
+
+### Đoạn văn tiếng Nhật
+```text
+休みの日は家でゆっくりします。
+```
+
+### Romaji
+```text
+yasumi no hi wa ie de yukkuri shimasu.
+```
+
+### Dịch tiếng Việt
+Ngày nghỉ tôi nghỉ ngơi ở nhà.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 7 theo chủ đề Gia đình; chú ý mẫu JPD133-L08-G001 đến G012.
+
+## R008 – Sinh nhật
+
+### Đoạn văn tiếng Nhật
+```text
+友達からメールをもらいました。
+```
+
+### Romaji
+```text
+tomodachi kara meeru o moraimashita.
+```
+
+### Dịch tiếng Việt
+Tôi nhận được email từ bạn.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 8 theo chủ đề Gia đình; chú ý mẫu JPD133-L08-G001 đến G012.
+
+## R009 – Sinh nhật
+
+### Đoạn văn tiếng Nhật
+```text
+私は大切な人にプレゼントをあげます。
+```
+
+### Romaji
+```text
+watashi wa taisetsu na hito ni purezento o agemasu.
+```
+
+### Dịch tiếng Việt
+Tôi tặng quà cho người quan trọng.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 9 theo chủ đề Gia đình; chú ý mẫu JPD133-L08-G001 đến G012.
+
+## R010 – Sinh nhật
+
+### Đoạn văn tiếng Nhật
+```text
+家族と住んでいるので、毎日楽しいです。
+```
+
+### Romaji
+```text
+kazoku to sundeiru node, mainichi tanoshii desu.
+```
+
+### Dịch tiếng Việt
+Vì sống cùng gia đình nên mỗi ngày đều vui.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 10 theo chủ đề Gia đình; chú ý mẫu JPD133-L08-G001 đến G012.
+
+
+# JPD133 Reading Bài 8 – 家族と友達
+
+> Chủ đề: Gia đình
+> Mục tiêu: 25 đoạn đọc về gia đình, nơi sống và quà tặng.
+> Từ vựng bắt buộc: Gia đình, người thân, nơi sống, います, 住みます, あげます, もらいます, くれます
+> Kanji bắt buộc: 家族, 父, 母, 兄, 姉, 弟, 妹, 住
+> Ngữ pháp bắt buộc: JPD133-L08-G001 đến G012
+
+## R001 – Quà sinh nhật
 
 ### Đoạn văn tiếng Nhật
 ```text
@@ -274,9 +2668,180 @@ watashi wa haha ni hana o agemashita.
 Tôi đã tặng hoa cho mẹ.
 
 ### Tóm tắt và ghi chú luyện tập
-Luyện đọc đoạn 15 theo chủ đề Gia đình; chú ý mẫu JPD133-L08-G001 đến G012.
+Luyện đọc đoạn 1 theo chủ đề Gia đình; chú ý mẫu JPD133-L08-G001 đến G012.
 
-## R016 – Bạn thân
+## R002 – Quà sinh nhật
+
+### Đoạn văn tiếng Nhật
+```text
+家の近くに公園があります。
+```
+
+### Romaji
+```text
+ie no chikaku ni kouen ga arimasu.
+```
+
+### Dịch tiếng Việt
+Gần nhà có công viên.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 2 theo chủ đề Gia đình; chú ý mẫu JPD133-L08-G001 đến G012.
+
+## R003 – Quà sinh nhật
+
+### Đoạn văn tiếng Nhật
+```text
+家族はみんな元気です。
+```
+
+### Romaji
+```text
+kazoku wa minna genki desu.
+```
+
+### Dịch tiếng Việt
+Mọi người trong gia đình đều khỏe.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 3 theo chủ đề Gia đình; chú ý mẫu JPD133-L08-G001 đến G012.
+
+## R004 – Quà sinh nhật
+
+### Đoạn văn tiếng Nhật
+```text
+父は会社で働いています。
+```
+
+### Romaji
+```text
+chichi wa kaisha de hataraiteimasu.
+```
+
+### Dịch tiếng Việt
+Bố làm việc ở công ty.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 4 theo chủ đề Gia đình; chú ý mẫu JPD133-L08-G001 đến G012.
+
+## R005 – Quà sinh nhật
+
+### Đoạn văn tiếng Nhật
+```text
+母は料理が上手です。
+```
+
+### Romaji
+```text
+haha wa ryouri ga jouzu desu.
+```
+
+### Dịch tiếng Việt
+Mẹ nấu ăn giỏi.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 5 theo chủ đề Gia đình; chú ý mẫu JPD133-L08-G001 đến G012.
+
+## R006 – Quà sinh nhật
+
+### Đoạn văn tiếng Nhật
+```text
+私は家族と一緒に晩ご飯を食べます。
+```
+
+### Romaji
+```text
+watashi wa kazoku to issho ni bangohan o tabemasu.
+```
+
+### Dịch tiếng Việt
+Tôi ăn tối cùng gia đình.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 6 theo chủ đề Gia đình; chú ý mẫu JPD133-L08-G001 đến G012.
+
+## R007 – Quà sinh nhật
+
+### Đoạn văn tiếng Nhật
+```text
+休みの日は家でゆっくりします。
+```
+
+### Romaji
+```text
+yasumi no hi wa ie de yukkuri shimasu.
+```
+
+### Dịch tiếng Việt
+Ngày nghỉ tôi nghỉ ngơi ở nhà.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 7 theo chủ đề Gia đình; chú ý mẫu JPD133-L08-G001 đến G012.
+
+## R008 – Quà sinh nhật
+
+### Đoạn văn tiếng Nhật
+```text
+友達からメールをもらいました。
+```
+
+### Romaji
+```text
+tomodachi kara meeru o moraimashita.
+```
+
+### Dịch tiếng Việt
+Tôi nhận được email từ bạn.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 8 theo chủ đề Gia đình; chú ý mẫu JPD133-L08-G001 đến G012.
+
+## R009 – Quà sinh nhật
+
+### Đoạn văn tiếng Nhật
+```text
+私は大切な人にプレゼントをあげます。
+```
+
+### Romaji
+```text
+watashi wa taisetsu na hito ni purezento o agemasu.
+```
+
+### Dịch tiếng Việt
+Tôi tặng quà cho người quan trọng.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 9 theo chủ đề Gia đình; chú ý mẫu JPD133-L08-G001 đến G012.
+
+## R010 – Quà sinh nhật
+
+### Đoạn văn tiếng Nhật
+```text
+家族と住んでいるので、毎日楽しいです。
+```
+
+### Romaji
+```text
+kazoku to sundeiru node, mainichi tanoshii desu.
+```
+
+### Dịch tiếng Việt
+Vì sống cùng gia đình nên mỗi ngày đều vui.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 10 theo chủ đề Gia đình; chú ý mẫu JPD133-L08-G001 đến G012.
+
+
+# JPD133 Reading Bài 8 – 家族と友達
+
+> Chủ đề: Gia đình
+> Mục tiêu: 25 đoạn đọc về gia đình, nơi sống và quà tặng.
+> Từ vựng bắt buộc: Gia đình, người thân, nơi sống, います, 住みます, あげます, もらいます, くれます
+> Kanji bắt buộc: 家族, 父, 母, 兄, 姉, 弟, 妹, 住
+> Ngữ pháp bắt buộc: JPD133-L08-G001 đến G012
+
+## R001 – Bạn thân
 
 ### Đoạn văn tiếng Nhật
 ```text
@@ -292,9 +2857,180 @@ shinyuu wa akarukute, yasashii hito desu.
 Bạn thân của tôi vui vẻ và hiền.
 
 ### Tóm tắt và ghi chú luyện tập
-Luyện đọc đoạn 16 theo chủ đề Gia đình; chú ý mẫu JPD133-L08-G001 đến G012.
+Luyện đọc đoạn 1 theo chủ đề Gia đình; chú ý mẫu JPD133-L08-G001 đến G012.
 
-## R017 – Gia đình ở quê
+## R002 – Bạn thân
+
+### Đoạn văn tiếng Nhật
+```text
+家の近くに公園があります。
+```
+
+### Romaji
+```text
+ie no chikaku ni kouen ga arimasu.
+```
+
+### Dịch tiếng Việt
+Gần nhà có công viên.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 2 theo chủ đề Gia đình; chú ý mẫu JPD133-L08-G001 đến G012.
+
+## R003 – Bạn thân
+
+### Đoạn văn tiếng Nhật
+```text
+家族はみんな元気です。
+```
+
+### Romaji
+```text
+kazoku wa minna genki desu.
+```
+
+### Dịch tiếng Việt
+Mọi người trong gia đình đều khỏe.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 3 theo chủ đề Gia đình; chú ý mẫu JPD133-L08-G001 đến G012.
+
+## R004 – Bạn thân
+
+### Đoạn văn tiếng Nhật
+```text
+父は会社で働いています。
+```
+
+### Romaji
+```text
+chichi wa kaisha de hataraiteimasu.
+```
+
+### Dịch tiếng Việt
+Bố làm việc ở công ty.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 4 theo chủ đề Gia đình; chú ý mẫu JPD133-L08-G001 đến G012.
+
+## R005 – Bạn thân
+
+### Đoạn văn tiếng Nhật
+```text
+母は料理が上手です。
+```
+
+### Romaji
+```text
+haha wa ryouri ga jouzu desu.
+```
+
+### Dịch tiếng Việt
+Mẹ nấu ăn giỏi.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 5 theo chủ đề Gia đình; chú ý mẫu JPD133-L08-G001 đến G012.
+
+## R006 – Bạn thân
+
+### Đoạn văn tiếng Nhật
+```text
+私は家族と一緒に晩ご飯を食べます。
+```
+
+### Romaji
+```text
+watashi wa kazoku to issho ni bangohan o tabemasu.
+```
+
+### Dịch tiếng Việt
+Tôi ăn tối cùng gia đình.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 6 theo chủ đề Gia đình; chú ý mẫu JPD133-L08-G001 đến G012.
+
+## R007 – Bạn thân
+
+### Đoạn văn tiếng Nhật
+```text
+休みの日は家でゆっくりします。
+```
+
+### Romaji
+```text
+yasumi no hi wa ie de yukkuri shimasu.
+```
+
+### Dịch tiếng Việt
+Ngày nghỉ tôi nghỉ ngơi ở nhà.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 7 theo chủ đề Gia đình; chú ý mẫu JPD133-L08-G001 đến G012.
+
+## R008 – Bạn thân
+
+### Đoạn văn tiếng Nhật
+```text
+友達からメールをもらいました。
+```
+
+### Romaji
+```text
+tomodachi kara meeru o moraimashita.
+```
+
+### Dịch tiếng Việt
+Tôi nhận được email từ bạn.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 8 theo chủ đề Gia đình; chú ý mẫu JPD133-L08-G001 đến G012.
+
+## R009 – Bạn thân
+
+### Đoạn văn tiếng Nhật
+```text
+私は大切な人にプレゼントをあげます。
+```
+
+### Romaji
+```text
+watashi wa taisetsu na hito ni purezento o agemasu.
+```
+
+### Dịch tiếng Việt
+Tôi tặng quà cho người quan trọng.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 9 theo chủ đề Gia đình; chú ý mẫu JPD133-L08-G001 đến G012.
+
+## R010 – Bạn thân
+
+### Đoạn văn tiếng Nhật
+```text
+家族と住んでいるので、毎日楽しいです。
+```
+
+### Romaji
+```text
+kazoku to sundeiru node, mainichi tanoshii desu.
+```
+
+### Dịch tiếng Việt
+Vì sống cùng gia đình nên mỗi ngày đều vui.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 10 theo chủ đề Gia đình; chú ý mẫu JPD133-L08-G001 đến G012.
+
+
+# JPD133 Reading Bài 8 – 家族と友達
+
+> Chủ đề: Gia đình
+> Mục tiêu: 25 đoạn đọc về gia đình, nơi sống và quà tặng.
+> Từ vựng bắt buộc: Gia đình, người thân, nơi sống, います, 住みます, あげます, もらいます, くれます
+> Kanji bắt buộc: 家族, 父, 母, 兄, 姉, 弟, 妹, 住
+> Ngữ pháp bắt buộc: JPD133-L08-G001 đến G012
+
+## R001 – Gia đình ở quê
 
 ### Đoạn văn tiếng Nhật
 ```text
@@ -310,9 +3046,180 @@ inaka no kazoku wa genki desu.
 Gia đình ở quê khỏe mạnh.
 
 ### Tóm tắt và ghi chú luyện tập
-Luyện đọc đoạn 17 theo chủ đề Gia đình; chú ý mẫu JPD133-L08-G001 đến G012.
+Luyện đọc đoạn 1 theo chủ đề Gia đình; chú ý mẫu JPD133-L08-G001 đến G012.
 
-## R018 – Gia đình ở thành phố
+## R002 – Gia đình ở quê
+
+### Đoạn văn tiếng Nhật
+```text
+家の近くに公園があります。
+```
+
+### Romaji
+```text
+ie no chikaku ni kouen ga arimasu.
+```
+
+### Dịch tiếng Việt
+Gần nhà có công viên.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 2 theo chủ đề Gia đình; chú ý mẫu JPD133-L08-G001 đến G012.
+
+## R003 – Gia đình ở quê
+
+### Đoạn văn tiếng Nhật
+```text
+家族はみんな元気です。
+```
+
+### Romaji
+```text
+kazoku wa minna genki desu.
+```
+
+### Dịch tiếng Việt
+Mọi người trong gia đình đều khỏe.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 3 theo chủ đề Gia đình; chú ý mẫu JPD133-L08-G001 đến G012.
+
+## R004 – Gia đình ở quê
+
+### Đoạn văn tiếng Nhật
+```text
+父は会社で働いています。
+```
+
+### Romaji
+```text
+chichi wa kaisha de hataraiteimasu.
+```
+
+### Dịch tiếng Việt
+Bố làm việc ở công ty.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 4 theo chủ đề Gia đình; chú ý mẫu JPD133-L08-G001 đến G012.
+
+## R005 – Gia đình ở quê
+
+### Đoạn văn tiếng Nhật
+```text
+母は料理が上手です。
+```
+
+### Romaji
+```text
+haha wa ryouri ga jouzu desu.
+```
+
+### Dịch tiếng Việt
+Mẹ nấu ăn giỏi.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 5 theo chủ đề Gia đình; chú ý mẫu JPD133-L08-G001 đến G012.
+
+## R006 – Gia đình ở quê
+
+### Đoạn văn tiếng Nhật
+```text
+私は家族と一緒に晩ご飯を食べます。
+```
+
+### Romaji
+```text
+watashi wa kazoku to issho ni bangohan o tabemasu.
+```
+
+### Dịch tiếng Việt
+Tôi ăn tối cùng gia đình.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 6 theo chủ đề Gia đình; chú ý mẫu JPD133-L08-G001 đến G012.
+
+## R007 – Gia đình ở quê
+
+### Đoạn văn tiếng Nhật
+```text
+休みの日は家でゆっくりします。
+```
+
+### Romaji
+```text
+yasumi no hi wa ie de yukkuri shimasu.
+```
+
+### Dịch tiếng Việt
+Ngày nghỉ tôi nghỉ ngơi ở nhà.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 7 theo chủ đề Gia đình; chú ý mẫu JPD133-L08-G001 đến G012.
+
+## R008 – Gia đình ở quê
+
+### Đoạn văn tiếng Nhật
+```text
+友達からメールをもらいました。
+```
+
+### Romaji
+```text
+tomodachi kara meeru o moraimashita.
+```
+
+### Dịch tiếng Việt
+Tôi nhận được email từ bạn.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 8 theo chủ đề Gia đình; chú ý mẫu JPD133-L08-G001 đến G012.
+
+## R009 – Gia đình ở quê
+
+### Đoạn văn tiếng Nhật
+```text
+私は大切な人にプレゼントをあげます。
+```
+
+### Romaji
+```text
+watashi wa taisetsu na hito ni purezento o agemasu.
+```
+
+### Dịch tiếng Việt
+Tôi tặng quà cho người quan trọng.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 9 theo chủ đề Gia đình; chú ý mẫu JPD133-L08-G001 đến G012.
+
+## R010 – Gia đình ở quê
+
+### Đoạn văn tiếng Nhật
+```text
+家族と住んでいるので、毎日楽しいです。
+```
+
+### Romaji
+```text
+kazoku to sundeiru node, mainichi tanoshii desu.
+```
+
+### Dịch tiếng Việt
+Vì sống cùng gia đình nên mỗi ngày đều vui.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 10 theo chủ đề Gia đình; chú ý mẫu JPD133-L08-G001 đến G012.
+
+
+# JPD133 Reading Bài 8 – 家族と友達
+
+> Chủ đề: Gia đình
+> Mục tiêu: 25 đoạn đọc về gia đình, nơi sống và quà tặng.
+> Từ vựng bắt buộc: Gia đình, người thân, nơi sống, います, 住みます, あげます, もらいます, くれます
+> Kanji bắt buộc: 家族, 父, 母, 兄, 姉, 弟, 妹, 住
+> Ngữ pháp bắt buộc: JPD133-L08-G001 đến G012
+
+## R001 – Gia đình ở thành phố
 
 ### Đoạn văn tiếng Nhật
 ```text
@@ -328,9 +3235,180 @@ machi no ie wa benri de, shizuka desu.
 Ngôi nhà trong thành phố tiện lợi và yên tĩnh.
 
 ### Tóm tắt và ghi chú luyện tập
-Luyện đọc đoạn 18 theo chủ đề Gia đình; chú ý mẫu JPD133-L08-G001 đến G012.
+Luyện đọc đoạn 1 theo chủ đề Gia đình; chú ý mẫu JPD133-L08-G001 đến G012.
 
-## R019 – Một ngày nghỉ
+## R002 – Gia đình ở thành phố
+
+### Đoạn văn tiếng Nhật
+```text
+家の近くに公園があります。
+```
+
+### Romaji
+```text
+ie no chikaku ni kouen ga arimasu.
+```
+
+### Dịch tiếng Việt
+Gần nhà có công viên.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 2 theo chủ đề Gia đình; chú ý mẫu JPD133-L08-G001 đến G012.
+
+## R003 – Gia đình ở thành phố
+
+### Đoạn văn tiếng Nhật
+```text
+家族はみんな元気です。
+```
+
+### Romaji
+```text
+kazoku wa minna genki desu.
+```
+
+### Dịch tiếng Việt
+Mọi người trong gia đình đều khỏe.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 3 theo chủ đề Gia đình; chú ý mẫu JPD133-L08-G001 đến G012.
+
+## R004 – Gia đình ở thành phố
+
+### Đoạn văn tiếng Nhật
+```text
+父は会社で働いています。
+```
+
+### Romaji
+```text
+chichi wa kaisha de hataraiteimasu.
+```
+
+### Dịch tiếng Việt
+Bố làm việc ở công ty.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 4 theo chủ đề Gia đình; chú ý mẫu JPD133-L08-G001 đến G012.
+
+## R005 – Gia đình ở thành phố
+
+### Đoạn văn tiếng Nhật
+```text
+母は料理が上手です。
+```
+
+### Romaji
+```text
+haha wa ryouri ga jouzu desu.
+```
+
+### Dịch tiếng Việt
+Mẹ nấu ăn giỏi.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 5 theo chủ đề Gia đình; chú ý mẫu JPD133-L08-G001 đến G012.
+
+## R006 – Gia đình ở thành phố
+
+### Đoạn văn tiếng Nhật
+```text
+私は家族と一緒に晩ご飯を食べます。
+```
+
+### Romaji
+```text
+watashi wa kazoku to issho ni bangohan o tabemasu.
+```
+
+### Dịch tiếng Việt
+Tôi ăn tối cùng gia đình.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 6 theo chủ đề Gia đình; chú ý mẫu JPD133-L08-G001 đến G012.
+
+## R007 – Gia đình ở thành phố
+
+### Đoạn văn tiếng Nhật
+```text
+休みの日は家でゆっくりします。
+```
+
+### Romaji
+```text
+yasumi no hi wa ie de yukkuri shimasu.
+```
+
+### Dịch tiếng Việt
+Ngày nghỉ tôi nghỉ ngơi ở nhà.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 7 theo chủ đề Gia đình; chú ý mẫu JPD133-L08-G001 đến G012.
+
+## R008 – Gia đình ở thành phố
+
+### Đoạn văn tiếng Nhật
+```text
+友達からメールをもらいました。
+```
+
+### Romaji
+```text
+tomodachi kara meeru o moraimashita.
+```
+
+### Dịch tiếng Việt
+Tôi nhận được email từ bạn.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 8 theo chủ đề Gia đình; chú ý mẫu JPD133-L08-G001 đến G012.
+
+## R009 – Gia đình ở thành phố
+
+### Đoạn văn tiếng Nhật
+```text
+私は大切な人にプレゼントをあげます。
+```
+
+### Romaji
+```text
+watashi wa taisetsu na hito ni purezento o agemasu.
+```
+
+### Dịch tiếng Việt
+Tôi tặng quà cho người quan trọng.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 9 theo chủ đề Gia đình; chú ý mẫu JPD133-L08-G001 đến G012.
+
+## R010 – Gia đình ở thành phố
+
+### Đoạn văn tiếng Nhật
+```text
+家族と住んでいるので、毎日楽しいです。
+```
+
+### Romaji
+```text
+kazoku to sundeiru node, mainichi tanoshii desu.
+```
+
+### Dịch tiếng Việt
+Vì sống cùng gia đình nên mỗi ngày đều vui.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 10 theo chủ đề Gia đình; chú ý mẫu JPD133-L08-G001 đến G012.
+
+
+# JPD133 Reading Bài 8 – 家族と友達
+
+> Chủ đề: Gia đình
+> Mục tiêu: 25 đoạn đọc về gia đình, nơi sống và quà tặng.
+> Từ vựng bắt buộc: Gia đình, người thân, nơi sống, います, 住みます, あげます, もらいます, くれます
+> Kanji bắt buộc: 家族, 父, 母, 兄, 姉, 弟, 妹, 住
+> Ngữ pháp bắt buộc: JPD133-L08-G001 đến G012
+
+## R001 – Một ngày nghỉ
 
 ### Đoạn văn tiếng Nhật
 ```text
@@ -346,9 +3424,180 @@ yasumi no hi, ie de hon o yomimasu.
 Ngày nghỉ tôi đọc sách ở nhà.
 
 ### Tóm tắt và ghi chú luyện tập
-Luyện đọc đoạn 19 theo chủ đề Gia đình; chú ý mẫu JPD133-L08-G001 đến G012.
+Luyện đọc đoạn 1 theo chủ đề Gia đình; chú ý mẫu JPD133-L08-G001 đến G012.
 
-## R020 – Đi thăm ông bà
+## R002 – Một ngày nghỉ
+
+### Đoạn văn tiếng Nhật
+```text
+家の近くに公園があります。
+```
+
+### Romaji
+```text
+ie no chikaku ni kouen ga arimasu.
+```
+
+### Dịch tiếng Việt
+Gần nhà có công viên.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 2 theo chủ đề Gia đình; chú ý mẫu JPD133-L08-G001 đến G012.
+
+## R003 – Một ngày nghỉ
+
+### Đoạn văn tiếng Nhật
+```text
+家族はみんな元気です。
+```
+
+### Romaji
+```text
+kazoku wa minna genki desu.
+```
+
+### Dịch tiếng Việt
+Mọi người trong gia đình đều khỏe.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 3 theo chủ đề Gia đình; chú ý mẫu JPD133-L08-G001 đến G012.
+
+## R004 – Một ngày nghỉ
+
+### Đoạn văn tiếng Nhật
+```text
+父は会社で働いています。
+```
+
+### Romaji
+```text
+chichi wa kaisha de hataraiteimasu.
+```
+
+### Dịch tiếng Việt
+Bố làm việc ở công ty.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 4 theo chủ đề Gia đình; chú ý mẫu JPD133-L08-G001 đến G012.
+
+## R005 – Một ngày nghỉ
+
+### Đoạn văn tiếng Nhật
+```text
+母は料理が上手です。
+```
+
+### Romaji
+```text
+haha wa ryouri ga jouzu desu.
+```
+
+### Dịch tiếng Việt
+Mẹ nấu ăn giỏi.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 5 theo chủ đề Gia đình; chú ý mẫu JPD133-L08-G001 đến G012.
+
+## R006 – Một ngày nghỉ
+
+### Đoạn văn tiếng Nhật
+```text
+私は家族と一緒に晩ご飯を食べます。
+```
+
+### Romaji
+```text
+watashi wa kazoku to issho ni bangohan o tabemasu.
+```
+
+### Dịch tiếng Việt
+Tôi ăn tối cùng gia đình.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 6 theo chủ đề Gia đình; chú ý mẫu JPD133-L08-G001 đến G012.
+
+## R007 – Một ngày nghỉ
+
+### Đoạn văn tiếng Nhật
+```text
+休みの日は家でゆっくりします。
+```
+
+### Romaji
+```text
+yasumi no hi wa ie de yukkuri shimasu.
+```
+
+### Dịch tiếng Việt
+Ngày nghỉ tôi nghỉ ngơi ở nhà.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 7 theo chủ đề Gia đình; chú ý mẫu JPD133-L08-G001 đến G012.
+
+## R008 – Một ngày nghỉ
+
+### Đoạn văn tiếng Nhật
+```text
+友達からメールをもらいました。
+```
+
+### Romaji
+```text
+tomodachi kara meeru o moraimashita.
+```
+
+### Dịch tiếng Việt
+Tôi nhận được email từ bạn.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 8 theo chủ đề Gia đình; chú ý mẫu JPD133-L08-G001 đến G012.
+
+## R009 – Một ngày nghỉ
+
+### Đoạn văn tiếng Nhật
+```text
+私は大切な人にプレゼントをあげます。
+```
+
+### Romaji
+```text
+watashi wa taisetsu na hito ni purezento o agemasu.
+```
+
+### Dịch tiếng Việt
+Tôi tặng quà cho người quan trọng.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 9 theo chủ đề Gia đình; chú ý mẫu JPD133-L08-G001 đến G012.
+
+## R010 – Một ngày nghỉ
+
+### Đoạn văn tiếng Nhật
+```text
+家族と住んでいるので、毎日楽しいです。
+```
+
+### Romaji
+```text
+kazoku to sundeiru node, mainichi tanoshii desu.
+```
+
+### Dịch tiếng Việt
+Vì sống cùng gia đình nên mỗi ngày đều vui.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 10 theo chủ đề Gia đình; chú ý mẫu JPD133-L08-G001 đến G012.
+
+
+# JPD133 Reading Bài 8 – 家族と友達
+
+> Chủ đề: Gia đình
+> Mục tiêu: 25 đoạn đọc về gia đình, nơi sống và quà tặng.
+> Từ vựng bắt buộc: Gia đình, người thân, nơi sống, います, 住みます, あげます, もらいます, くれます
+> Kanji bắt buộc: 家族, 父, 母, 兄, 姉, 弟, 妹, 住
+> Ngữ pháp bắt buộc: JPD133-L08-G001 đến G012
+
+## R001 – Đi thăm ông bà
 
 ### Đoạn văn tiếng Nhật
 ```text
@@ -364,9 +3613,180 @@ nichiyoubi, sofubo no ie e ikimasu.
 Chủ nhật tôi đi đến nhà ông bà.
 
 ### Tóm tắt và ghi chú luyện tập
-Luyện đọc đoạn 20 theo chủ đề Gia đình; chú ý mẫu JPD133-L08-G001 đến G012.
+Luyện đọc đoạn 1 theo chủ đề Gia đình; chú ý mẫu JPD133-L08-G001 đến G012.
 
-## R021 – Gia đình hạnh phúc
+## R002 – Đi thăm ông bà
+
+### Đoạn văn tiếng Nhật
+```text
+家の近くに公園があります。
+```
+
+### Romaji
+```text
+ie no chikaku ni kouen ga arimasu.
+```
+
+### Dịch tiếng Việt
+Gần nhà có công viên.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 2 theo chủ đề Gia đình; chú ý mẫu JPD133-L08-G001 đến G012.
+
+## R003 – Đi thăm ông bà
+
+### Đoạn văn tiếng Nhật
+```text
+家族はみんな元気です。
+```
+
+### Romaji
+```text
+kazoku wa minna genki desu.
+```
+
+### Dịch tiếng Việt
+Mọi người trong gia đình đều khỏe.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 3 theo chủ đề Gia đình; chú ý mẫu JPD133-L08-G001 đến G012.
+
+## R004 – Đi thăm ông bà
+
+### Đoạn văn tiếng Nhật
+```text
+父は会社で働いています。
+```
+
+### Romaji
+```text
+chichi wa kaisha de hataraiteimasu.
+```
+
+### Dịch tiếng Việt
+Bố làm việc ở công ty.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 4 theo chủ đề Gia đình; chú ý mẫu JPD133-L08-G001 đến G012.
+
+## R005 – Đi thăm ông bà
+
+### Đoạn văn tiếng Nhật
+```text
+母は料理が上手です。
+```
+
+### Romaji
+```text
+haha wa ryouri ga jouzu desu.
+```
+
+### Dịch tiếng Việt
+Mẹ nấu ăn giỏi.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 5 theo chủ đề Gia đình; chú ý mẫu JPD133-L08-G001 đến G012.
+
+## R006 – Đi thăm ông bà
+
+### Đoạn văn tiếng Nhật
+```text
+私は家族と一緒に晩ご飯を食べます。
+```
+
+### Romaji
+```text
+watashi wa kazoku to issho ni bangohan o tabemasu.
+```
+
+### Dịch tiếng Việt
+Tôi ăn tối cùng gia đình.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 6 theo chủ đề Gia đình; chú ý mẫu JPD133-L08-G001 đến G012.
+
+## R007 – Đi thăm ông bà
+
+### Đoạn văn tiếng Nhật
+```text
+休みの日は家でゆっくりします。
+```
+
+### Romaji
+```text
+yasumi no hi wa ie de yukkuri shimasu.
+```
+
+### Dịch tiếng Việt
+Ngày nghỉ tôi nghỉ ngơi ở nhà.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 7 theo chủ đề Gia đình; chú ý mẫu JPD133-L08-G001 đến G012.
+
+## R008 – Đi thăm ông bà
+
+### Đoạn văn tiếng Nhật
+```text
+友達からメールをもらいました。
+```
+
+### Romaji
+```text
+tomodachi kara meeru o moraimashita.
+```
+
+### Dịch tiếng Việt
+Tôi nhận được email từ bạn.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 8 theo chủ đề Gia đình; chú ý mẫu JPD133-L08-G001 đến G012.
+
+## R009 – Đi thăm ông bà
+
+### Đoạn văn tiếng Nhật
+```text
+私は大切な人にプレゼントをあげます。
+```
+
+### Romaji
+```text
+watashi wa taisetsu na hito ni purezento o agemasu.
+```
+
+### Dịch tiếng Việt
+Tôi tặng quà cho người quan trọng.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 9 theo chủ đề Gia đình; chú ý mẫu JPD133-L08-G001 đến G012.
+
+## R010 – Đi thăm ông bà
+
+### Đoạn văn tiếng Nhật
+```text
+家族と住んでいるので、毎日楽しいです。
+```
+
+### Romaji
+```text
+kazoku to sundeiru node, mainichi tanoshii desu.
+```
+
+### Dịch tiếng Việt
+Vì sống cùng gia đình nên mỗi ngày đều vui.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 10 theo chủ đề Gia đình; chú ý mẫu JPD133-L08-G001 đến G012.
+
+
+# JPD133 Reading Bài 8 – 家族と友達
+
+> Chủ đề: Gia đình
+> Mục tiêu: 25 đoạn đọc về gia đình, nơi sống và quà tặng.
+> Từ vựng bắt buộc: Gia đình, người thân, nơi sống, います, 住みます, あげます, もらいます, くれます
+> Kanji bắt buộc: 家族, 父, 母, 兄, 姉, 弟, 妹, 住
+> Ngữ pháp bắt buộc: JPD133-L08-G001 đến G012
+
+## R001 – Gia đình hạnh phúc
 
 ### Đoạn văn tiếng Nhật
 ```text
@@ -382,9 +3802,180 @@ watashi no kazoku wa naka ga ii desu.
 Gia đình tôi hòa thuận.
 
 ### Tóm tắt và ghi chú luyện tập
-Luyện đọc đoạn 21 theo chủ đề Gia đình; chú ý mẫu JPD133-L08-G001 đến G012.
+Luyện đọc đoạn 1 theo chủ đề Gia đình; chú ý mẫu JPD133-L08-G001 đến G012.
 
-## R022 – Mẹ nấu ăn
+## R002 – Gia đình hạnh phúc
+
+### Đoạn văn tiếng Nhật
+```text
+家の近くに公園があります。
+```
+
+### Romaji
+```text
+ie no chikaku ni kouen ga arimasu.
+```
+
+### Dịch tiếng Việt
+Gần nhà có công viên.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 2 theo chủ đề Gia đình; chú ý mẫu JPD133-L08-G001 đến G012.
+
+## R003 – Gia đình hạnh phúc
+
+### Đoạn văn tiếng Nhật
+```text
+家族はみんな元気です。
+```
+
+### Romaji
+```text
+kazoku wa minna genki desu.
+```
+
+### Dịch tiếng Việt
+Mọi người trong gia đình đều khỏe.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 3 theo chủ đề Gia đình; chú ý mẫu JPD133-L08-G001 đến G012.
+
+## R004 – Gia đình hạnh phúc
+
+### Đoạn văn tiếng Nhật
+```text
+父は会社で働いています。
+```
+
+### Romaji
+```text
+chichi wa kaisha de hataraiteimasu.
+```
+
+### Dịch tiếng Việt
+Bố làm việc ở công ty.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 4 theo chủ đề Gia đình; chú ý mẫu JPD133-L08-G001 đến G012.
+
+## R005 – Gia đình hạnh phúc
+
+### Đoạn văn tiếng Nhật
+```text
+母は料理が上手です。
+```
+
+### Romaji
+```text
+haha wa ryouri ga jouzu desu.
+```
+
+### Dịch tiếng Việt
+Mẹ nấu ăn giỏi.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 5 theo chủ đề Gia đình; chú ý mẫu JPD133-L08-G001 đến G012.
+
+## R006 – Gia đình hạnh phúc
+
+### Đoạn văn tiếng Nhật
+```text
+私は家族と一緒に晩ご飯を食べます。
+```
+
+### Romaji
+```text
+watashi wa kazoku to issho ni bangohan o tabemasu.
+```
+
+### Dịch tiếng Việt
+Tôi ăn tối cùng gia đình.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 6 theo chủ đề Gia đình; chú ý mẫu JPD133-L08-G001 đến G012.
+
+## R007 – Gia đình hạnh phúc
+
+### Đoạn văn tiếng Nhật
+```text
+休みの日は家でゆっくりします。
+```
+
+### Romaji
+```text
+yasumi no hi wa ie de yukkuri shimasu.
+```
+
+### Dịch tiếng Việt
+Ngày nghỉ tôi nghỉ ngơi ở nhà.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 7 theo chủ đề Gia đình; chú ý mẫu JPD133-L08-G001 đến G012.
+
+## R008 – Gia đình hạnh phúc
+
+### Đoạn văn tiếng Nhật
+```text
+友達からメールをもらいました。
+```
+
+### Romaji
+```text
+tomodachi kara meeru o moraimashita.
+```
+
+### Dịch tiếng Việt
+Tôi nhận được email từ bạn.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 8 theo chủ đề Gia đình; chú ý mẫu JPD133-L08-G001 đến G012.
+
+## R009 – Gia đình hạnh phúc
+
+### Đoạn văn tiếng Nhật
+```text
+私は大切な人にプレゼントをあげます。
+```
+
+### Romaji
+```text
+watashi wa taisetsu na hito ni purezento o agemasu.
+```
+
+### Dịch tiếng Việt
+Tôi tặng quà cho người quan trọng.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 9 theo chủ đề Gia đình; chú ý mẫu JPD133-L08-G001 đến G012.
+
+## R010 – Gia đình hạnh phúc
+
+### Đoạn văn tiếng Nhật
+```text
+家族と住んでいるので、毎日楽しいです。
+```
+
+### Romaji
+```text
+kazoku to sundeiru node, mainichi tanoshii desu.
+```
+
+### Dịch tiếng Việt
+Vì sống cùng gia đình nên mỗi ngày đều vui.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 10 theo chủ đề Gia đình; chú ý mẫu JPD133-L08-G001 đến G012.
+
+
+# JPD133 Reading Bài 8 – 家族と友達
+
+> Chủ đề: Gia đình
+> Mục tiêu: 25 đoạn đọc về gia đình, nơi sống và quà tặng.
+> Từ vựng bắt buộc: Gia đình, người thân, nơi sống, います, 住みます, あげます, もらいます, くれます
+> Kanji bắt buộc: 家族, 父, 母, 兄, 姉, 弟, 妹, 住
+> Ngữ pháp bắt buộc: JPD133-L08-G001 đến G012
+
+## R001 – Mẹ nấu ăn
 
 ### Đoạn văn tiếng Nhật
 ```text
@@ -400,9 +3991,180 @@ haha wa daidokoro de ryouri o tsukutteimasu.
 Mẹ đang nấu ăn trong bếp.
 
 ### Tóm tắt và ghi chú luyện tập
-Luyện đọc đoạn 22 theo chủ đề Gia đình; chú ý mẫu JPD133-L08-G001 đến G012.
+Luyện đọc đoạn 1 theo chủ đề Gia đình; chú ý mẫu JPD133-L08-G001 đến G012.
 
-## R023 – Con mèo
+## R002 – Mẹ nấu ăn
+
+### Đoạn văn tiếng Nhật
+```text
+家の近くに公園があります。
+```
+
+### Romaji
+```text
+ie no chikaku ni kouen ga arimasu.
+```
+
+### Dịch tiếng Việt
+Gần nhà có công viên.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 2 theo chủ đề Gia đình; chú ý mẫu JPD133-L08-G001 đến G012.
+
+## R003 – Mẹ nấu ăn
+
+### Đoạn văn tiếng Nhật
+```text
+家族はみんな元気です。
+```
+
+### Romaji
+```text
+kazoku wa minna genki desu.
+```
+
+### Dịch tiếng Việt
+Mọi người trong gia đình đều khỏe.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 3 theo chủ đề Gia đình; chú ý mẫu JPD133-L08-G001 đến G012.
+
+## R004 – Mẹ nấu ăn
+
+### Đoạn văn tiếng Nhật
+```text
+父は会社で働いています。
+```
+
+### Romaji
+```text
+chichi wa kaisha de hataraiteimasu.
+```
+
+### Dịch tiếng Việt
+Bố làm việc ở công ty.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 4 theo chủ đề Gia đình; chú ý mẫu JPD133-L08-G001 đến G012.
+
+## R005 – Mẹ nấu ăn
+
+### Đoạn văn tiếng Nhật
+```text
+母は料理が上手です。
+```
+
+### Romaji
+```text
+haha wa ryouri ga jouzu desu.
+```
+
+### Dịch tiếng Việt
+Mẹ nấu ăn giỏi.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 5 theo chủ đề Gia đình; chú ý mẫu JPD133-L08-G001 đến G012.
+
+## R006 – Mẹ nấu ăn
+
+### Đoạn văn tiếng Nhật
+```text
+私は家族と一緒に晩ご飯を食べます。
+```
+
+### Romaji
+```text
+watashi wa kazoku to issho ni bangohan o tabemasu.
+```
+
+### Dịch tiếng Việt
+Tôi ăn tối cùng gia đình.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 6 theo chủ đề Gia đình; chú ý mẫu JPD133-L08-G001 đến G012.
+
+## R007 – Mẹ nấu ăn
+
+### Đoạn văn tiếng Nhật
+```text
+休みの日は家でゆっくりします。
+```
+
+### Romaji
+```text
+yasumi no hi wa ie de yukkuri shimasu.
+```
+
+### Dịch tiếng Việt
+Ngày nghỉ tôi nghỉ ngơi ở nhà.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 7 theo chủ đề Gia đình; chú ý mẫu JPD133-L08-G001 đến G012.
+
+## R008 – Mẹ nấu ăn
+
+### Đoạn văn tiếng Nhật
+```text
+友達からメールをもらいました。
+```
+
+### Romaji
+```text
+tomodachi kara meeru o moraimashita.
+```
+
+### Dịch tiếng Việt
+Tôi nhận được email từ bạn.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 8 theo chủ đề Gia đình; chú ý mẫu JPD133-L08-G001 đến G012.
+
+## R009 – Mẹ nấu ăn
+
+### Đoạn văn tiếng Nhật
+```text
+私は大切な人にプレゼントをあげます。
+```
+
+### Romaji
+```text
+watashi wa taisetsu na hito ni purezento o agemasu.
+```
+
+### Dịch tiếng Việt
+Tôi tặng quà cho người quan trọng.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 9 theo chủ đề Gia đình; chú ý mẫu JPD133-L08-G001 đến G012.
+
+## R010 – Mẹ nấu ăn
+
+### Đoạn văn tiếng Nhật
+```text
+家族と住んでいるので、毎日楽しいです。
+```
+
+### Romaji
+```text
+kazoku to sundeiru node, mainichi tanoshii desu.
+```
+
+### Dịch tiếng Việt
+Vì sống cùng gia đình nên mỗi ngày đều vui.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 10 theo chủ đề Gia đình; chú ý mẫu JPD133-L08-G001 đến G012.
+
+
+# JPD133 Reading Bài 8 – 家族と友達
+
+> Chủ đề: Gia đình
+> Mục tiêu: 25 đoạn đọc về gia đình, nơi sống và quà tặng.
+> Từ vựng bắt buộc: Gia đình, người thân, nơi sống, います, 住みます, あげます, もらいます, くれます
+> Kanji bắt buộc: 家族, 父, 母, 兄, 姉, 弟, 妹, 住
+> Ngữ pháp bắt buộc: JPD133-L08-G001 đến G012
+
+## R001 – Con mèo
 
 ### Đoạn văn tiếng Nhật
 ```text
@@ -418,9 +4180,180 @@ neko ga nihiki imasu.
 Tôi có hai con mèo.
 
 ### Tóm tắt và ghi chú luyện tập
-Luyện đọc đoạn 23 theo chủ đề Gia đình; chú ý mẫu JPD133-L08-G001 đến G012.
+Luyện đọc đoạn 1 theo chủ đề Gia đình; chú ý mẫu JPD133-L08-G001 đến G012.
 
-## R024 – Người hàng xóm
+## R002 – Con mèo
+
+### Đoạn văn tiếng Nhật
+```text
+家の近くに公園があります。
+```
+
+### Romaji
+```text
+ie no chikaku ni kouen ga arimasu.
+```
+
+### Dịch tiếng Việt
+Gần nhà có công viên.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 2 theo chủ đề Gia đình; chú ý mẫu JPD133-L08-G001 đến G012.
+
+## R003 – Con mèo
+
+### Đoạn văn tiếng Nhật
+```text
+家族はみんな元気です。
+```
+
+### Romaji
+```text
+kazoku wa minna genki desu.
+```
+
+### Dịch tiếng Việt
+Mọi người trong gia đình đều khỏe.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 3 theo chủ đề Gia đình; chú ý mẫu JPD133-L08-G001 đến G012.
+
+## R004 – Con mèo
+
+### Đoạn văn tiếng Nhật
+```text
+父は会社で働いています。
+```
+
+### Romaji
+```text
+chichi wa kaisha de hataraiteimasu.
+```
+
+### Dịch tiếng Việt
+Bố làm việc ở công ty.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 4 theo chủ đề Gia đình; chú ý mẫu JPD133-L08-G001 đến G012.
+
+## R005 – Con mèo
+
+### Đoạn văn tiếng Nhật
+```text
+母は料理が上手です。
+```
+
+### Romaji
+```text
+haha wa ryouri ga jouzu desu.
+```
+
+### Dịch tiếng Việt
+Mẹ nấu ăn giỏi.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 5 theo chủ đề Gia đình; chú ý mẫu JPD133-L08-G001 đến G012.
+
+## R006 – Con mèo
+
+### Đoạn văn tiếng Nhật
+```text
+私は家族と一緒に晩ご飯を食べます。
+```
+
+### Romaji
+```text
+watashi wa kazoku to issho ni bangohan o tabemasu.
+```
+
+### Dịch tiếng Việt
+Tôi ăn tối cùng gia đình.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 6 theo chủ đề Gia đình; chú ý mẫu JPD133-L08-G001 đến G012.
+
+## R007 – Con mèo
+
+### Đoạn văn tiếng Nhật
+```text
+休みの日は家でゆっくりします。
+```
+
+### Romaji
+```text
+yasumi no hi wa ie de yukkuri shimasu.
+```
+
+### Dịch tiếng Việt
+Ngày nghỉ tôi nghỉ ngơi ở nhà.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 7 theo chủ đề Gia đình; chú ý mẫu JPD133-L08-G001 đến G012.
+
+## R008 – Con mèo
+
+### Đoạn văn tiếng Nhật
+```text
+友達からメールをもらいました。
+```
+
+### Romaji
+```text
+tomodachi kara meeru o moraimashita.
+```
+
+### Dịch tiếng Việt
+Tôi nhận được email từ bạn.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 8 theo chủ đề Gia đình; chú ý mẫu JPD133-L08-G001 đến G012.
+
+## R009 – Con mèo
+
+### Đoạn văn tiếng Nhật
+```text
+私は大切な人にプレゼントをあげます。
+```
+
+### Romaji
+```text
+watashi wa taisetsu na hito ni purezento o agemasu.
+```
+
+### Dịch tiếng Việt
+Tôi tặng quà cho người quan trọng.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 9 theo chủ đề Gia đình; chú ý mẫu JPD133-L08-G001 đến G012.
+
+## R010 – Con mèo
+
+### Đoạn văn tiếng Nhật
+```text
+家族と住んでいるので、毎日楽しいです。
+```
+
+### Romaji
+```text
+kazoku to sundeiru node, mainichi tanoshii desu.
+```
+
+### Dịch tiếng Việt
+Vì sống cùng gia đình nên mỗi ngày đều vui.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 10 theo chủ đề Gia đình; chú ý mẫu JPD133-L08-G001 đến G012.
+
+
+# JPD133 Reading Bài 8 – 家族と友達
+
+> Chủ đề: Gia đình
+> Mục tiêu: 25 đoạn đọc về gia đình, nơi sống và quà tặng.
+> Từ vựng bắt buộc: Gia đình, người thân, nơi sống, います, 住みます, あげます, もらいます, くれます
+> Kanji bắt buộc: 家族, 父, 母, 兄, 姉, 弟, 妹, 住
+> Ngữ pháp bắt buộc: JPD133-L08-G001 đến G012
+
+## R001 – Người hàng xóm
 
 ### Đoạn văn tiếng Nhật
 ```text
@@ -436,9 +4369,180 @@ tonari no hito wa shinsetsu desu.
 Người hàng xóm tốt bụng.
 
 ### Tóm tắt và ghi chú luyện tập
-Luyện đọc đoạn 24 theo chủ đề Gia đình; chú ý mẫu JPD133-L08-G001 đến G012.
+Luyện đọc đoạn 1 theo chủ đề Gia đình; chú ý mẫu JPD133-L08-G001 đến G012.
 
-## R025 – Người quan trọng nhất
+## R002 – Người hàng xóm
+
+### Đoạn văn tiếng Nhật
+```text
+家の近くに公園があります。
+```
+
+### Romaji
+```text
+ie no chikaku ni kouen ga arimasu.
+```
+
+### Dịch tiếng Việt
+Gần nhà có công viên.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 2 theo chủ đề Gia đình; chú ý mẫu JPD133-L08-G001 đến G012.
+
+## R003 – Người hàng xóm
+
+### Đoạn văn tiếng Nhật
+```text
+家族はみんな元気です。
+```
+
+### Romaji
+```text
+kazoku wa minna genki desu.
+```
+
+### Dịch tiếng Việt
+Mọi người trong gia đình đều khỏe.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 3 theo chủ đề Gia đình; chú ý mẫu JPD133-L08-G001 đến G012.
+
+## R004 – Người hàng xóm
+
+### Đoạn văn tiếng Nhật
+```text
+父は会社で働いています。
+```
+
+### Romaji
+```text
+chichi wa kaisha de hataraiteimasu.
+```
+
+### Dịch tiếng Việt
+Bố làm việc ở công ty.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 4 theo chủ đề Gia đình; chú ý mẫu JPD133-L08-G001 đến G012.
+
+## R005 – Người hàng xóm
+
+### Đoạn văn tiếng Nhật
+```text
+母は料理が上手です。
+```
+
+### Romaji
+```text
+haha wa ryouri ga jouzu desu.
+```
+
+### Dịch tiếng Việt
+Mẹ nấu ăn giỏi.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 5 theo chủ đề Gia đình; chú ý mẫu JPD133-L08-G001 đến G012.
+
+## R006 – Người hàng xóm
+
+### Đoạn văn tiếng Nhật
+```text
+私は家族と一緒に晩ご飯を食べます。
+```
+
+### Romaji
+```text
+watashi wa kazoku to issho ni bangohan o tabemasu.
+```
+
+### Dịch tiếng Việt
+Tôi ăn tối cùng gia đình.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 6 theo chủ đề Gia đình; chú ý mẫu JPD133-L08-G001 đến G012.
+
+## R007 – Người hàng xóm
+
+### Đoạn văn tiếng Nhật
+```text
+休みの日は家でゆっくりします。
+```
+
+### Romaji
+```text
+yasumi no hi wa ie de yukkuri shimasu.
+```
+
+### Dịch tiếng Việt
+Ngày nghỉ tôi nghỉ ngơi ở nhà.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 7 theo chủ đề Gia đình; chú ý mẫu JPD133-L08-G001 đến G012.
+
+## R008 – Người hàng xóm
+
+### Đoạn văn tiếng Nhật
+```text
+友達からメールをもらいました。
+```
+
+### Romaji
+```text
+tomodachi kara meeru o moraimashita.
+```
+
+### Dịch tiếng Việt
+Tôi nhận được email từ bạn.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 8 theo chủ đề Gia đình; chú ý mẫu JPD133-L08-G001 đến G012.
+
+## R009 – Người hàng xóm
+
+### Đoạn văn tiếng Nhật
+```text
+私は大切な人にプレゼントをあげます。
+```
+
+### Romaji
+```text
+watashi wa taisetsu na hito ni purezento o agemasu.
+```
+
+### Dịch tiếng Việt
+Tôi tặng quà cho người quan trọng.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 9 theo chủ đề Gia đình; chú ý mẫu JPD133-L08-G001 đến G012.
+
+## R010 – Người hàng xóm
+
+### Đoạn văn tiếng Nhật
+```text
+家族と住んでいるので、毎日楽しいです。
+```
+
+### Romaji
+```text
+kazoku to sundeiru node, mainichi tanoshii desu.
+```
+
+### Dịch tiếng Việt
+Vì sống cùng gia đình nên mỗi ngày đều vui.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 10 theo chủ đề Gia đình; chú ý mẫu JPD133-L08-G001 đến G012.
+
+
+# JPD133 Reading Bài 8 – 家族と友達
+
+> Chủ đề: Gia đình
+> Mục tiêu: 25 đoạn đọc về gia đình, nơi sống và quà tặng.
+> Từ vựng bắt buộc: Gia đình, người thân, nơi sống, います, 住みます, あげます, もらいます, くれます
+> Kanji bắt buộc: 家族, 父, 母, 兄, 姉, 弟, 妹, 住
+> Ngữ pháp bắt buộc: JPD133-L08-G001 đến G012
+
+## R001 – Người quan trọng nhất
 
 ### Đoạn văn tiếng Nhật
 ```text
@@ -454,7 +4558,169 @@ kazoku wa watashi ni totte taisetsu na hito desu.
 Gia đình là những người quan trọng đối với tôi.
 
 ### Tóm tắt và ghi chú luyện tập
-Luyện đọc đoạn 25 theo chủ đề Gia đình; chú ý mẫu JPD133-L08-G001 đến G012.
+Luyện đọc đoạn 1 theo chủ đề Gia đình; chú ý mẫu JPD133-L08-G001 đến G012.
+
+## R002 – Người quan trọng nhất
+
+### Đoạn văn tiếng Nhật
+```text
+家の近くに公園があります。
+```
+
+### Romaji
+```text
+ie no chikaku ni kouen ga arimasu.
+```
+
+### Dịch tiếng Việt
+Gần nhà có công viên.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 2 theo chủ đề Gia đình; chú ý mẫu JPD133-L08-G001 đến G012.
+
+## R003 – Người quan trọng nhất
+
+### Đoạn văn tiếng Nhật
+```text
+家族はみんな元気です。
+```
+
+### Romaji
+```text
+kazoku wa minna genki desu.
+```
+
+### Dịch tiếng Việt
+Mọi người trong gia đình đều khỏe.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 3 theo chủ đề Gia đình; chú ý mẫu JPD133-L08-G001 đến G012.
+
+## R004 – Người quan trọng nhất
+
+### Đoạn văn tiếng Nhật
+```text
+父は会社で働いています。
+```
+
+### Romaji
+```text
+chichi wa kaisha de hataraiteimasu.
+```
+
+### Dịch tiếng Việt
+Bố làm việc ở công ty.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 4 theo chủ đề Gia đình; chú ý mẫu JPD133-L08-G001 đến G012.
+
+## R005 – Người quan trọng nhất
+
+### Đoạn văn tiếng Nhật
+```text
+母は料理が上手です。
+```
+
+### Romaji
+```text
+haha wa ryouri ga jouzu desu.
+```
+
+### Dịch tiếng Việt
+Mẹ nấu ăn giỏi.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 5 theo chủ đề Gia đình; chú ý mẫu JPD133-L08-G001 đến G012.
+
+## R006 – Người quan trọng nhất
+
+### Đoạn văn tiếng Nhật
+```text
+私は家族と一緒に晩ご飯を食べます。
+```
+
+### Romaji
+```text
+watashi wa kazoku to issho ni bangohan o tabemasu.
+```
+
+### Dịch tiếng Việt
+Tôi ăn tối cùng gia đình.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 6 theo chủ đề Gia đình; chú ý mẫu JPD133-L08-G001 đến G012.
+
+## R007 – Người quan trọng nhất
+
+### Đoạn văn tiếng Nhật
+```text
+休みの日は家でゆっくりします。
+```
+
+### Romaji
+```text
+yasumi no hi wa ie de yukkuri shimasu.
+```
+
+### Dịch tiếng Việt
+Ngày nghỉ tôi nghỉ ngơi ở nhà.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 7 theo chủ đề Gia đình; chú ý mẫu JPD133-L08-G001 đến G012.
+
+## R008 – Người quan trọng nhất
+
+### Đoạn văn tiếng Nhật
+```text
+友達からメールをもらいました。
+```
+
+### Romaji
+```text
+tomodachi kara meeru o moraimashita.
+```
+
+### Dịch tiếng Việt
+Tôi nhận được email từ bạn.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 8 theo chủ đề Gia đình; chú ý mẫu JPD133-L08-G001 đến G012.
+
+## R009 – Người quan trọng nhất
+
+### Đoạn văn tiếng Nhật
+```text
+私は大切な人にプレゼントをあげます。
+```
+
+### Romaji
+```text
+watashi wa taisetsu na hito ni purezento o agemasu.
+```
+
+### Dịch tiếng Việt
+Tôi tặng quà cho người quan trọng.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 9 theo chủ đề Gia đình; chú ý mẫu JPD133-L08-G001 đến G012.
+
+## R010 – Người quan trọng nhất
+
+### Đoạn văn tiếng Nhật
+```text
+家族と住んでいるので、毎日楽しいです。
+```
+
+### Romaji
+```text
+kazoku to sundeiru node, mainichi tanoshii desu.
+```
+
+### Dịch tiếng Việt
+Vì sống cùng gia đình nên mỗi ngày đều vui.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 10 theo chủ đề Gia đình; chú ý mẫu JPD133-L08-G001 đến G012.
 
 
 ---
@@ -485,7 +4751,178 @@ Sở thích của tôi là nghe nhạc.
 ### Tóm tắt và ghi chú luyện tập
 Luyện đọc đoạn 1 theo chủ đề Sở thích; chú ý mẫu JPD133-L09-G001 đến G008.
 
-## R002 – Tôi thích hát
+## R002 – Tôi thích âm nhạc
+
+### Đoạn văn tiếng Nhật
+```text
+私はよく音楽を聞きます。
+```
+
+### Romaji
+```text
+watashi wa yoku ongaku o kikimasu.
+```
+
+### Dịch tiếng Việt
+Tôi thường nghe nhạc.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 2 theo chủ đề Sở thích; chú ý mẫu JPD133-L09-G001 đến G008.
+
+## R003 – Tôi thích âm nhạc
+
+### Đoạn văn tiếng Nhật
+```text
+ときどき友達と映画を見ます。
+```
+
+### Romaji
+```text
+tokidoki tomodachi to eiga o mimasu.
+```
+
+### Dịch tiếng Việt
+Thỉnh thoảng tôi xem phim với bạn.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 3 theo chủ đề Sở thích; chú ý mẫu JPD133-L09-G001 đến G008.
+
+## R004 – Tôi thích âm nhạc
+
+### Đoạn văn tiếng Nhật
+```text
+一週間に二回、図書館へ行きます。
+```
+
+### Romaji
+```text
+isshuukan ni nikai, toshokan e ikimasu.
+```
+
+### Dịch tiếng Việt
+Một tuần tôi đi thư viện hai lần.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 4 theo chủ đề Sở thích; chú ý mẫu JPD133-L09-G001 đến G008.
+
+## R005 – Tôi thích âm nhạc
+
+### Đoạn văn tiếng Nhật
+```text
+本を読むことが好きです。
+```
+
+### Romaji
+```text
+hon o yomu koto ga suki desu.
+```
+
+### Dịch tiếng Việt
+Tôi thích đọc sách.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 5 theo chủ đề Sở thích; chú ý mẫu JPD133-L09-G001 đến G008.
+
+## R006 – Tôi thích âm nhạc
+
+### Đoạn văn tiếng Nhật
+```text
+料理を作ることができます。
+```
+
+### Romaji
+```text
+ryouri o tsukuru koto ga dekimasu.
+```
+
+### Dịch tiếng Việt
+Tôi có thể nấu ăn.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 6 theo chủ đề Sở thích; chú ý mẫu JPD133-L09-G001 đến G008.
+
+## R007 – Tôi thích âm nhạc
+
+### Đoạn văn tiếng Nhật
+```text
+全然スポーツをしない日もあります。
+```
+
+### Romaji
+```text
+zenzen supootsu o shinai hi mo arimasu.
+```
+
+### Dịch tiếng Việt
+Cũng có những ngày tôi hoàn toàn không chơi thể thao.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 7 theo chủ đề Sở thích; chú ý mẫu JPD133-L09-G001 đến G008.
+
+## R008 – Tôi thích âm nhạc
+
+### Đoạn văn tiếng Nhật
+```text
+でも、週末は外へ出かけます。
+```
+
+### Romaji
+```text
+demo, shuumatsu wa soto e dekakemasu.
+```
+
+### Dịch tiếng Việt
+Nhưng cuối tuần tôi đi ra ngoài.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 8 theo chủ đề Sở thích; chú ý mẫu JPD133-L09-G001 đến G008.
+
+## R009 – Tôi thích âm nhạc
+
+### Đoạn văn tiếng Nhật
+```text
+友達と話して、写真を撮ります。
+```
+
+### Romaji
+```text
+tomodachi to hanashite, shashin o torimasu.
+```
+
+### Dịch tiếng Việt
+Tôi nói chuyện và chụp ảnh với bạn.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 9 theo chủ đề Sở thích; chú ý mẫu JPD133-L09-G001 đến G008.
+
+## R010 – Tôi thích âm nhạc
+
+### Đoạn văn tiếng Nhật
+```text
+好きなことをすると、楽しいです。
+```
+
+### Romaji
+```text
+suki na koto o suru to, tanoshii desu.
+```
+
+### Dịch tiếng Việt
+Làm điều mình thích thì rất vui.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 10 theo chủ đề Sở thích; chú ý mẫu JPD133-L09-G001 đến G008.
+
+
+# JPD133 Reading Bài 9 – 好きなこと
+
+> Chủ đề: Sở thích
+> Mục tiêu: 25 đoạn đọc về sở thích, tần suất, khả năng và cuối tuần.
+> Từ vựng bắt buộc: 趣味, 音楽, 読書, 旅行, スポーツ, いつも, よく, ときどき, できます, どうやって
+> Kanji bắt buộc: 趣味, 音楽, 旅行, 読, 作
+> Ngữ pháp bắt buộc: JPD133-L09-G001 đến G008
+
+## R001 – Tôi thích hát
 
 ### Đoạn văn tiếng Nhật
 ```text
@@ -501,9 +4938,180 @@ watashi wa uta o utau koto ga dekimasu.
 Tôi có thể hát.
 
 ### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 1 theo chủ đề Sở thích; chú ý mẫu JPD133-L09-G001 đến G008.
+
+## R002 – Tôi thích hát
+
+### Đoạn văn tiếng Nhật
+```text
+私はよく音楽を聞きます。
+```
+
+### Romaji
+```text
+watashi wa yoku ongaku o kikimasu.
+```
+
+### Dịch tiếng Việt
+Tôi thường nghe nhạc.
+
+### Tóm tắt và ghi chú luyện tập
 Luyện đọc đoạn 2 theo chủ đề Sở thích; chú ý mẫu JPD133-L09-G001 đến G008.
 
-## R003 – Cuối tuần
+## R003 – Tôi thích hát
+
+### Đoạn văn tiếng Nhật
+```text
+ときどき友達と映画を見ます。
+```
+
+### Romaji
+```text
+tokidoki tomodachi to eiga o mimasu.
+```
+
+### Dịch tiếng Việt
+Thỉnh thoảng tôi xem phim với bạn.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 3 theo chủ đề Sở thích; chú ý mẫu JPD133-L09-G001 đến G008.
+
+## R004 – Tôi thích hát
+
+### Đoạn văn tiếng Nhật
+```text
+一週間に二回、図書館へ行きます。
+```
+
+### Romaji
+```text
+isshuukan ni nikai, toshokan e ikimasu.
+```
+
+### Dịch tiếng Việt
+Một tuần tôi đi thư viện hai lần.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 4 theo chủ đề Sở thích; chú ý mẫu JPD133-L09-G001 đến G008.
+
+## R005 – Tôi thích hát
+
+### Đoạn văn tiếng Nhật
+```text
+本を読むことが好きです。
+```
+
+### Romaji
+```text
+hon o yomu koto ga suki desu.
+```
+
+### Dịch tiếng Việt
+Tôi thích đọc sách.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 5 theo chủ đề Sở thích; chú ý mẫu JPD133-L09-G001 đến G008.
+
+## R006 – Tôi thích hát
+
+### Đoạn văn tiếng Nhật
+```text
+料理を作ることができます。
+```
+
+### Romaji
+```text
+ryouri o tsukuru koto ga dekimasu.
+```
+
+### Dịch tiếng Việt
+Tôi có thể nấu ăn.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 6 theo chủ đề Sở thích; chú ý mẫu JPD133-L09-G001 đến G008.
+
+## R007 – Tôi thích hát
+
+### Đoạn văn tiếng Nhật
+```text
+全然スポーツをしない日もあります。
+```
+
+### Romaji
+```text
+zenzen supootsu o shinai hi mo arimasu.
+```
+
+### Dịch tiếng Việt
+Cũng có những ngày tôi hoàn toàn không chơi thể thao.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 7 theo chủ đề Sở thích; chú ý mẫu JPD133-L09-G001 đến G008.
+
+## R008 – Tôi thích hát
+
+### Đoạn văn tiếng Nhật
+```text
+でも、週末は外へ出かけます。
+```
+
+### Romaji
+```text
+demo, shuumatsu wa soto e dekakemasu.
+```
+
+### Dịch tiếng Việt
+Nhưng cuối tuần tôi đi ra ngoài.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 8 theo chủ đề Sở thích; chú ý mẫu JPD133-L09-G001 đến G008.
+
+## R009 – Tôi thích hát
+
+### Đoạn văn tiếng Nhật
+```text
+友達と話して、写真を撮ります。
+```
+
+### Romaji
+```text
+tomodachi to hanashite, shashin o torimasu.
+```
+
+### Dịch tiếng Việt
+Tôi nói chuyện và chụp ảnh với bạn.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 9 theo chủ đề Sở thích; chú ý mẫu JPD133-L09-G001 đến G008.
+
+## R010 – Tôi thích hát
+
+### Đoạn văn tiếng Nhật
+```text
+好きなことをすると、楽しいです。
+```
+
+### Romaji
+```text
+suki na koto o suru to, tanoshii desu.
+```
+
+### Dịch tiếng Việt
+Làm điều mình thích thì rất vui.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 10 theo chủ đề Sở thích; chú ý mẫu JPD133-L09-G001 đến G008.
+
+
+# JPD133 Reading Bài 9 – 好きなこと
+
+> Chủ đề: Sở thích
+> Mục tiêu: 25 đoạn đọc về sở thích, tần suất, khả năng và cuối tuần.
+> Từ vựng bắt buộc: 趣味, 音楽, 読書, 旅行, スポーツ, いつも, よく, ときどき, できます, どうやって
+> Kanji bắt buộc: 趣味, 音楽, 旅行, 読, 作
+> Ngữ pháp bắt buộc: JPD133-L09-G001 đến G008
+
+## R001 – Cuối tuần
 
 ### Đoạn văn tiếng Nhật
 ```text
@@ -519,9 +5127,180 @@ shuumatsu, tomodachi to eiga o mimasu.
 Cuối tuần tôi xem phim với bạn.
 
 ### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 1 theo chủ đề Sở thích; chú ý mẫu JPD133-L09-G001 đến G008.
+
+## R002 – Cuối tuần
+
+### Đoạn văn tiếng Nhật
+```text
+私はよく音楽を聞きます。
+```
+
+### Romaji
+```text
+watashi wa yoku ongaku o kikimasu.
+```
+
+### Dịch tiếng Việt
+Tôi thường nghe nhạc.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 2 theo chủ đề Sở thích; chú ý mẫu JPD133-L09-G001 đến G008.
+
+## R003 – Cuối tuần
+
+### Đoạn văn tiếng Nhật
+```text
+ときどき友達と映画を見ます。
+```
+
+### Romaji
+```text
+tokidoki tomodachi to eiga o mimasu.
+```
+
+### Dịch tiếng Việt
+Thỉnh thoảng tôi xem phim với bạn.
+
+### Tóm tắt và ghi chú luyện tập
 Luyện đọc đoạn 3 theo chủ đề Sở thích; chú ý mẫu JPD133-L09-G001 đến G008.
 
-## R004 – Xem phim
+## R004 – Cuối tuần
+
+### Đoạn văn tiếng Nhật
+```text
+一週間に二回、図書館へ行きます。
+```
+
+### Romaji
+```text
+isshuukan ni nikai, toshokan e ikimasu.
+```
+
+### Dịch tiếng Việt
+Một tuần tôi đi thư viện hai lần.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 4 theo chủ đề Sở thích; chú ý mẫu JPD133-L09-G001 đến G008.
+
+## R005 – Cuối tuần
+
+### Đoạn văn tiếng Nhật
+```text
+本を読むことが好きです。
+```
+
+### Romaji
+```text
+hon o yomu koto ga suki desu.
+```
+
+### Dịch tiếng Việt
+Tôi thích đọc sách.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 5 theo chủ đề Sở thích; chú ý mẫu JPD133-L09-G001 đến G008.
+
+## R006 – Cuối tuần
+
+### Đoạn văn tiếng Nhật
+```text
+料理を作ることができます。
+```
+
+### Romaji
+```text
+ryouri o tsukuru koto ga dekimasu.
+```
+
+### Dịch tiếng Việt
+Tôi có thể nấu ăn.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 6 theo chủ đề Sở thích; chú ý mẫu JPD133-L09-G001 đến G008.
+
+## R007 – Cuối tuần
+
+### Đoạn văn tiếng Nhật
+```text
+全然スポーツをしない日もあります。
+```
+
+### Romaji
+```text
+zenzen supootsu o shinai hi mo arimasu.
+```
+
+### Dịch tiếng Việt
+Cũng có những ngày tôi hoàn toàn không chơi thể thao.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 7 theo chủ đề Sở thích; chú ý mẫu JPD133-L09-G001 đến G008.
+
+## R008 – Cuối tuần
+
+### Đoạn văn tiếng Nhật
+```text
+でも、週末は外へ出かけます。
+```
+
+### Romaji
+```text
+demo, shuumatsu wa soto e dekakemasu.
+```
+
+### Dịch tiếng Việt
+Nhưng cuối tuần tôi đi ra ngoài.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 8 theo chủ đề Sở thích; chú ý mẫu JPD133-L09-G001 đến G008.
+
+## R009 – Cuối tuần
+
+### Đoạn văn tiếng Nhật
+```text
+友達と話して、写真を撮ります。
+```
+
+### Romaji
+```text
+tomodachi to hanashite, shashin o torimasu.
+```
+
+### Dịch tiếng Việt
+Tôi nói chuyện và chụp ảnh với bạn.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 9 theo chủ đề Sở thích; chú ý mẫu JPD133-L09-G001 đến G008.
+
+## R010 – Cuối tuần
+
+### Đoạn văn tiếng Nhật
+```text
+好きなことをすると、楽しいです。
+```
+
+### Romaji
+```text
+suki na koto o suru to, tanoshii desu.
+```
+
+### Dịch tiếng Việt
+Làm điều mình thích thì rất vui.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 10 theo chủ đề Sở thích; chú ý mẫu JPD133-L09-G001 đến G008.
+
+
+# JPD133 Reading Bài 9 – 好きなこと
+
+> Chủ đề: Sở thích
+> Mục tiêu: 25 đoạn đọc về sở thích, tần suất, khả năng và cuối tuần.
+> Từ vựng bắt buộc: 趣味, 音楽, 読書, 旅行, スポーツ, いつも, よく, ときどき, できます, どうやって
+> Kanji bắt buộc: 趣味, 音楽, 旅行, 読, 作
+> Ngữ pháp bắt buộc: JPD133-L09-G001 đến G008
+
+## R001 – Xem phim
 
 ### Đoạn văn tiếng Nhật
 ```text
@@ -537,9 +5316,180 @@ watashi wa yoku eiga o mimasu.
 Tôi thường xem phim.
 
 ### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 1 theo chủ đề Sở thích; chú ý mẫu JPD133-L09-G001 đến G008.
+
+## R002 – Xem phim
+
+### Đoạn văn tiếng Nhật
+```text
+私はよく音楽を聞きます。
+```
+
+### Romaji
+```text
+watashi wa yoku ongaku o kikimasu.
+```
+
+### Dịch tiếng Việt
+Tôi thường nghe nhạc.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 2 theo chủ đề Sở thích; chú ý mẫu JPD133-L09-G001 đến G008.
+
+## R003 – Xem phim
+
+### Đoạn văn tiếng Nhật
+```text
+ときどき友達と映画を見ます。
+```
+
+### Romaji
+```text
+tokidoki tomodachi to eiga o mimasu.
+```
+
+### Dịch tiếng Việt
+Thỉnh thoảng tôi xem phim với bạn.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 3 theo chủ đề Sở thích; chú ý mẫu JPD133-L09-G001 đến G008.
+
+## R004 – Xem phim
+
+### Đoạn văn tiếng Nhật
+```text
+一週間に二回、図書館へ行きます。
+```
+
+### Romaji
+```text
+isshuukan ni nikai, toshokan e ikimasu.
+```
+
+### Dịch tiếng Việt
+Một tuần tôi đi thư viện hai lần.
+
+### Tóm tắt và ghi chú luyện tập
 Luyện đọc đoạn 4 theo chủ đề Sở thích; chú ý mẫu JPD133-L09-G001 đến G008.
 
-## R005 – Đi biển
+## R005 – Xem phim
+
+### Đoạn văn tiếng Nhật
+```text
+本を読むことが好きです。
+```
+
+### Romaji
+```text
+hon o yomu koto ga suki desu.
+```
+
+### Dịch tiếng Việt
+Tôi thích đọc sách.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 5 theo chủ đề Sở thích; chú ý mẫu JPD133-L09-G001 đến G008.
+
+## R006 – Xem phim
+
+### Đoạn văn tiếng Nhật
+```text
+料理を作ることができます。
+```
+
+### Romaji
+```text
+ryouri o tsukuru koto ga dekimasu.
+```
+
+### Dịch tiếng Việt
+Tôi có thể nấu ăn.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 6 theo chủ đề Sở thích; chú ý mẫu JPD133-L09-G001 đến G008.
+
+## R007 – Xem phim
+
+### Đoạn văn tiếng Nhật
+```text
+全然スポーツをしない日もあります。
+```
+
+### Romaji
+```text
+zenzen supootsu o shinai hi mo arimasu.
+```
+
+### Dịch tiếng Việt
+Cũng có những ngày tôi hoàn toàn không chơi thể thao.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 7 theo chủ đề Sở thích; chú ý mẫu JPD133-L09-G001 đến G008.
+
+## R008 – Xem phim
+
+### Đoạn văn tiếng Nhật
+```text
+でも、週末は外へ出かけます。
+```
+
+### Romaji
+```text
+demo, shuumatsu wa soto e dekakemasu.
+```
+
+### Dịch tiếng Việt
+Nhưng cuối tuần tôi đi ra ngoài.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 8 theo chủ đề Sở thích; chú ý mẫu JPD133-L09-G001 đến G008.
+
+## R009 – Xem phim
+
+### Đoạn văn tiếng Nhật
+```text
+友達と話して、写真を撮ります。
+```
+
+### Romaji
+```text
+tomodachi to hanashite, shashin o torimasu.
+```
+
+### Dịch tiếng Việt
+Tôi nói chuyện và chụp ảnh với bạn.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 9 theo chủ đề Sở thích; chú ý mẫu JPD133-L09-G001 đến G008.
+
+## R010 – Xem phim
+
+### Đoạn văn tiếng Nhật
+```text
+好きなことをすると、楽しいです。
+```
+
+### Romaji
+```text
+suki na koto o suru to, tanoshii desu.
+```
+
+### Dịch tiếng Việt
+Làm điều mình thích thì rất vui.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 10 theo chủ đề Sở thích; chú ý mẫu JPD133-L09-G001 đến G008.
+
+
+# JPD133 Reading Bài 9 – 好きなこと
+
+> Chủ đề: Sở thích
+> Mục tiêu: 25 đoạn đọc về sở thích, tần suất, khả năng và cuối tuần.
+> Từ vựng bắt buộc: 趣味, 音楽, 読書, 旅行, スポーツ, いつも, よく, ときどき, できます, どうやって
+> Kanji bắt buộc: 趣味, 音楽, 旅行, 読, 作
+> Ngữ pháp bắt buộc: JPD133-L09-G001 đến G008
+
+## R001 – Đi biển
 
 ### Đoạn văn tiếng Nhật
 ```text
@@ -555,9 +5505,180 @@ natsu, umi e ikimasu.
 Mùa hè tôi đi biển.
 
 ### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 1 theo chủ đề Sở thích; chú ý mẫu JPD133-L09-G001 đến G008.
+
+## R002 – Đi biển
+
+### Đoạn văn tiếng Nhật
+```text
+私はよく音楽を聞きます。
+```
+
+### Romaji
+```text
+watashi wa yoku ongaku o kikimasu.
+```
+
+### Dịch tiếng Việt
+Tôi thường nghe nhạc.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 2 theo chủ đề Sở thích; chú ý mẫu JPD133-L09-G001 đến G008.
+
+## R003 – Đi biển
+
+### Đoạn văn tiếng Nhật
+```text
+ときどき友達と映画を見ます。
+```
+
+### Romaji
+```text
+tokidoki tomodachi to eiga o mimasu.
+```
+
+### Dịch tiếng Việt
+Thỉnh thoảng tôi xem phim với bạn.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 3 theo chủ đề Sở thích; chú ý mẫu JPD133-L09-G001 đến G008.
+
+## R004 – Đi biển
+
+### Đoạn văn tiếng Nhật
+```text
+一週間に二回、図書館へ行きます。
+```
+
+### Romaji
+```text
+isshuukan ni nikai, toshokan e ikimasu.
+```
+
+### Dịch tiếng Việt
+Một tuần tôi đi thư viện hai lần.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 4 theo chủ đề Sở thích; chú ý mẫu JPD133-L09-G001 đến G008.
+
+## R005 – Đi biển
+
+### Đoạn văn tiếng Nhật
+```text
+本を読むことが好きです。
+```
+
+### Romaji
+```text
+hon o yomu koto ga suki desu.
+```
+
+### Dịch tiếng Việt
+Tôi thích đọc sách.
+
+### Tóm tắt và ghi chú luyện tập
 Luyện đọc đoạn 5 theo chủ đề Sở thích; chú ý mẫu JPD133-L09-G001 đến G008.
 
-## R006 – Chuyến du lịch
+## R006 – Đi biển
+
+### Đoạn văn tiếng Nhật
+```text
+料理を作ることができます。
+```
+
+### Romaji
+```text
+ryouri o tsukuru koto ga dekimasu.
+```
+
+### Dịch tiếng Việt
+Tôi có thể nấu ăn.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 6 theo chủ đề Sở thích; chú ý mẫu JPD133-L09-G001 đến G008.
+
+## R007 – Đi biển
+
+### Đoạn văn tiếng Nhật
+```text
+全然スポーツをしない日もあります。
+```
+
+### Romaji
+```text
+zenzen supootsu o shinai hi mo arimasu.
+```
+
+### Dịch tiếng Việt
+Cũng có những ngày tôi hoàn toàn không chơi thể thao.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 7 theo chủ đề Sở thích; chú ý mẫu JPD133-L09-G001 đến G008.
+
+## R008 – Đi biển
+
+### Đoạn văn tiếng Nhật
+```text
+でも、週末は外へ出かけます。
+```
+
+### Romaji
+```text
+demo, shuumatsu wa soto e dekakemasu.
+```
+
+### Dịch tiếng Việt
+Nhưng cuối tuần tôi đi ra ngoài.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 8 theo chủ đề Sở thích; chú ý mẫu JPD133-L09-G001 đến G008.
+
+## R009 – Đi biển
+
+### Đoạn văn tiếng Nhật
+```text
+友達と話して、写真を撮ります。
+```
+
+### Romaji
+```text
+tomodachi to hanashite, shashin o torimasu.
+```
+
+### Dịch tiếng Việt
+Tôi nói chuyện và chụp ảnh với bạn.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 9 theo chủ đề Sở thích; chú ý mẫu JPD133-L09-G001 đến G008.
+
+## R010 – Đi biển
+
+### Đoạn văn tiếng Nhật
+```text
+好きなことをすると、楽しいです。
+```
+
+### Romaji
+```text
+suki na koto o suru to, tanoshii desu.
+```
+
+### Dịch tiếng Việt
+Làm điều mình thích thì rất vui.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 10 theo chủ đề Sở thích; chú ý mẫu JPD133-L09-G001 đến G008.
+
+
+# JPD133 Reading Bài 9 – 好きなこと
+
+> Chủ đề: Sở thích
+> Mục tiêu: 25 đoạn đọc về sở thích, tần suất, khả năng và cuối tuần.
+> Từ vựng bắt buộc: 趣味, 音楽, 読書, 旅行, スポーツ, いつも, よく, ときどき, できます, どうやって
+> Kanji bắt buộc: 趣味, 音楽, 旅行, 読, 作
+> Ngữ pháp bắt buộc: JPD133-L09-G001 đến G008
+
+## R001 – Chuyến du lịch
 
 ### Đoạn văn tiếng Nhật
 ```text
@@ -573,9 +5694,180 @@ ryokou ga suki desu.
 Tôi thích du lịch.
 
 ### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 1 theo chủ đề Sở thích; chú ý mẫu JPD133-L09-G001 đến G008.
+
+## R002 – Chuyến du lịch
+
+### Đoạn văn tiếng Nhật
+```text
+私はよく音楽を聞きます。
+```
+
+### Romaji
+```text
+watashi wa yoku ongaku o kikimasu.
+```
+
+### Dịch tiếng Việt
+Tôi thường nghe nhạc.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 2 theo chủ đề Sở thích; chú ý mẫu JPD133-L09-G001 đến G008.
+
+## R003 – Chuyến du lịch
+
+### Đoạn văn tiếng Nhật
+```text
+ときどき友達と映画を見ます。
+```
+
+### Romaji
+```text
+tokidoki tomodachi to eiga o mimasu.
+```
+
+### Dịch tiếng Việt
+Thỉnh thoảng tôi xem phim với bạn.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 3 theo chủ đề Sở thích; chú ý mẫu JPD133-L09-G001 đến G008.
+
+## R004 – Chuyến du lịch
+
+### Đoạn văn tiếng Nhật
+```text
+一週間に二回、図書館へ行きます。
+```
+
+### Romaji
+```text
+isshuukan ni nikai, toshokan e ikimasu.
+```
+
+### Dịch tiếng Việt
+Một tuần tôi đi thư viện hai lần.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 4 theo chủ đề Sở thích; chú ý mẫu JPD133-L09-G001 đến G008.
+
+## R005 – Chuyến du lịch
+
+### Đoạn văn tiếng Nhật
+```text
+本を読むことが好きです。
+```
+
+### Romaji
+```text
+hon o yomu koto ga suki desu.
+```
+
+### Dịch tiếng Việt
+Tôi thích đọc sách.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 5 theo chủ đề Sở thích; chú ý mẫu JPD133-L09-G001 đến G008.
+
+## R006 – Chuyến du lịch
+
+### Đoạn văn tiếng Nhật
+```text
+料理を作ることができます。
+```
+
+### Romaji
+```text
+ryouri o tsukuru koto ga dekimasu.
+```
+
+### Dịch tiếng Việt
+Tôi có thể nấu ăn.
+
+### Tóm tắt và ghi chú luyện tập
 Luyện đọc đoạn 6 theo chủ đề Sở thích; chú ý mẫu JPD133-L09-G001 đến G008.
 
-## R007 – Bạn nước ngoài
+## R007 – Chuyến du lịch
+
+### Đoạn văn tiếng Nhật
+```text
+全然スポーツをしない日もあります。
+```
+
+### Romaji
+```text
+zenzen supootsu o shinai hi mo arimasu.
+```
+
+### Dịch tiếng Việt
+Cũng có những ngày tôi hoàn toàn không chơi thể thao.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 7 theo chủ đề Sở thích; chú ý mẫu JPD133-L09-G001 đến G008.
+
+## R008 – Chuyến du lịch
+
+### Đoạn văn tiếng Nhật
+```text
+でも、週末は外へ出かけます。
+```
+
+### Romaji
+```text
+demo, shuumatsu wa soto e dekakemasu.
+```
+
+### Dịch tiếng Việt
+Nhưng cuối tuần tôi đi ra ngoài.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 8 theo chủ đề Sở thích; chú ý mẫu JPD133-L09-G001 đến G008.
+
+## R009 – Chuyến du lịch
+
+### Đoạn văn tiếng Nhật
+```text
+友達と話して、写真を撮ります。
+```
+
+### Romaji
+```text
+tomodachi to hanashite, shashin o torimasu.
+```
+
+### Dịch tiếng Việt
+Tôi nói chuyện và chụp ảnh với bạn.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 9 theo chủ đề Sở thích; chú ý mẫu JPD133-L09-G001 đến G008.
+
+## R010 – Chuyến du lịch
+
+### Đoạn văn tiếng Nhật
+```text
+好きなことをすると、楽しいです。
+```
+
+### Romaji
+```text
+suki na koto o suru to, tanoshii desu.
+```
+
+### Dịch tiếng Việt
+Làm điều mình thích thì rất vui.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 10 theo chủ đề Sở thích; chú ý mẫu JPD133-L09-G001 đến G008.
+
+
+# JPD133 Reading Bài 9 – 好きなこと
+
+> Chủ đề: Sở thích
+> Mục tiêu: 25 đoạn đọc về sở thích, tần suất, khả năng và cuối tuần.
+> Từ vựng bắt buộc: 趣味, 音楽, 読書, 旅行, スポーツ, いつも, よく, ときどき, できます, どうやって
+> Kanji bắt buộc: 趣味, 音楽, 旅行, 読, 作
+> Ngữ pháp bắt buộc: JPD133-L09-G001 đến G008
+
+## R001 – Bạn nước ngoài
 
 ### Đoạn văn tiếng Nhật
 ```text
@@ -591,9 +5883,180 @@ gaikokujin no tomodachi to nihongo o hanashimasu.
 Tôi nói tiếng Nhật với bạn nước ngoài.
 
 ### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 1 theo chủ đề Sở thích; chú ý mẫu JPD133-L09-G001 đến G008.
+
+## R002 – Bạn nước ngoài
+
+### Đoạn văn tiếng Nhật
+```text
+私はよく音楽を聞きます。
+```
+
+### Romaji
+```text
+watashi wa yoku ongaku o kikimasu.
+```
+
+### Dịch tiếng Việt
+Tôi thường nghe nhạc.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 2 theo chủ đề Sở thích; chú ý mẫu JPD133-L09-G001 đến G008.
+
+## R003 – Bạn nước ngoài
+
+### Đoạn văn tiếng Nhật
+```text
+ときどき友達と映画を見ます。
+```
+
+### Romaji
+```text
+tokidoki tomodachi to eiga o mimasu.
+```
+
+### Dịch tiếng Việt
+Thỉnh thoảng tôi xem phim với bạn.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 3 theo chủ đề Sở thích; chú ý mẫu JPD133-L09-G001 đến G008.
+
+## R004 – Bạn nước ngoài
+
+### Đoạn văn tiếng Nhật
+```text
+一週間に二回、図書館へ行きます。
+```
+
+### Romaji
+```text
+isshuukan ni nikai, toshokan e ikimasu.
+```
+
+### Dịch tiếng Việt
+Một tuần tôi đi thư viện hai lần.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 4 theo chủ đề Sở thích; chú ý mẫu JPD133-L09-G001 đến G008.
+
+## R005 – Bạn nước ngoài
+
+### Đoạn văn tiếng Nhật
+```text
+本を読むことが好きです。
+```
+
+### Romaji
+```text
+hon o yomu koto ga suki desu.
+```
+
+### Dịch tiếng Việt
+Tôi thích đọc sách.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 5 theo chủ đề Sở thích; chú ý mẫu JPD133-L09-G001 đến G008.
+
+## R006 – Bạn nước ngoài
+
+### Đoạn văn tiếng Nhật
+```text
+料理を作ることができます。
+```
+
+### Romaji
+```text
+ryouri o tsukuru koto ga dekimasu.
+```
+
+### Dịch tiếng Việt
+Tôi có thể nấu ăn.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 6 theo chủ đề Sở thích; chú ý mẫu JPD133-L09-G001 đến G008.
+
+## R007 – Bạn nước ngoài
+
+### Đoạn văn tiếng Nhật
+```text
+全然スポーツをしない日もあります。
+```
+
+### Romaji
+```text
+zenzen supootsu o shinai hi mo arimasu.
+```
+
+### Dịch tiếng Việt
+Cũng có những ngày tôi hoàn toàn không chơi thể thao.
+
+### Tóm tắt và ghi chú luyện tập
 Luyện đọc đoạn 7 theo chủ đề Sở thích; chú ý mẫu JPD133-L09-G001 đến G008.
 
-## R008 – Học ngoại ngữ
+## R008 – Bạn nước ngoài
+
+### Đoạn văn tiếng Nhật
+```text
+でも、週末は外へ出かけます。
+```
+
+### Romaji
+```text
+demo, shuumatsu wa soto e dekakemasu.
+```
+
+### Dịch tiếng Việt
+Nhưng cuối tuần tôi đi ra ngoài.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 8 theo chủ đề Sở thích; chú ý mẫu JPD133-L09-G001 đến G008.
+
+## R009 – Bạn nước ngoài
+
+### Đoạn văn tiếng Nhật
+```text
+友達と話して、写真を撮ります。
+```
+
+### Romaji
+```text
+tomodachi to hanashite, shashin o torimasu.
+```
+
+### Dịch tiếng Việt
+Tôi nói chuyện và chụp ảnh với bạn.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 9 theo chủ đề Sở thích; chú ý mẫu JPD133-L09-G001 đến G008.
+
+## R010 – Bạn nước ngoài
+
+### Đoạn văn tiếng Nhật
+```text
+好きなことをすると、楽しいです。
+```
+
+### Romaji
+```text
+suki na koto o suru to, tanoshii desu.
+```
+
+### Dịch tiếng Việt
+Làm điều mình thích thì rất vui.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 10 theo chủ đề Sở thích; chú ý mẫu JPD133-L09-G001 đến G008.
+
+
+# JPD133 Reading Bài 9 – 好きなこと
+
+> Chủ đề: Sở thích
+> Mục tiêu: 25 đoạn đọc về sở thích, tần suất, khả năng và cuối tuần.
+> Từ vựng bắt buộc: 趣味, 音楽, 読書, 旅行, スポーツ, いつも, よく, ときどき, できます, どうやって
+> Kanji bắt buộc: 趣味, 音楽, 旅行, 読, 作
+> Ngữ pháp bắt buộc: JPD133-L09-G001 đến G008
+
+## R001 – Học ngoại ngữ
 
 ### Đoạn văn tiếng Nhật
 ```text
@@ -609,9 +6072,180 @@ mainichi, nihongo o benkyou shimasu.
 Mỗi ngày tôi học tiếng Nhật.
 
 ### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 1 theo chủ đề Sở thích; chú ý mẫu JPD133-L09-G001 đến G008.
+
+## R002 – Học ngoại ngữ
+
+### Đoạn văn tiếng Nhật
+```text
+私はよく音楽を聞きます。
+```
+
+### Romaji
+```text
+watashi wa yoku ongaku o kikimasu.
+```
+
+### Dịch tiếng Việt
+Tôi thường nghe nhạc.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 2 theo chủ đề Sở thích; chú ý mẫu JPD133-L09-G001 đến G008.
+
+## R003 – Học ngoại ngữ
+
+### Đoạn văn tiếng Nhật
+```text
+ときどき友達と映画を見ます。
+```
+
+### Romaji
+```text
+tokidoki tomodachi to eiga o mimasu.
+```
+
+### Dịch tiếng Việt
+Thỉnh thoảng tôi xem phim với bạn.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 3 theo chủ đề Sở thích; chú ý mẫu JPD133-L09-G001 đến G008.
+
+## R004 – Học ngoại ngữ
+
+### Đoạn văn tiếng Nhật
+```text
+一週間に二回、図書館へ行きます。
+```
+
+### Romaji
+```text
+isshuukan ni nikai, toshokan e ikimasu.
+```
+
+### Dịch tiếng Việt
+Một tuần tôi đi thư viện hai lần.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 4 theo chủ đề Sở thích; chú ý mẫu JPD133-L09-G001 đến G008.
+
+## R005 – Học ngoại ngữ
+
+### Đoạn văn tiếng Nhật
+```text
+本を読むことが好きです。
+```
+
+### Romaji
+```text
+hon o yomu koto ga suki desu.
+```
+
+### Dịch tiếng Việt
+Tôi thích đọc sách.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 5 theo chủ đề Sở thích; chú ý mẫu JPD133-L09-G001 đến G008.
+
+## R006 – Học ngoại ngữ
+
+### Đoạn văn tiếng Nhật
+```text
+料理を作ることができます。
+```
+
+### Romaji
+```text
+ryouri o tsukuru koto ga dekimasu.
+```
+
+### Dịch tiếng Việt
+Tôi có thể nấu ăn.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 6 theo chủ đề Sở thích; chú ý mẫu JPD133-L09-G001 đến G008.
+
+## R007 – Học ngoại ngữ
+
+### Đoạn văn tiếng Nhật
+```text
+全然スポーツをしない日もあります。
+```
+
+### Romaji
+```text
+zenzen supootsu o shinai hi mo arimasu.
+```
+
+### Dịch tiếng Việt
+Cũng có những ngày tôi hoàn toàn không chơi thể thao.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 7 theo chủ đề Sở thích; chú ý mẫu JPD133-L09-G001 đến G008.
+
+## R008 – Học ngoại ngữ
+
+### Đoạn văn tiếng Nhật
+```text
+でも、週末は外へ出かけます。
+```
+
+### Romaji
+```text
+demo, shuumatsu wa soto e dekakemasu.
+```
+
+### Dịch tiếng Việt
+Nhưng cuối tuần tôi đi ra ngoài.
+
+### Tóm tắt và ghi chú luyện tập
 Luyện đọc đoạn 8 theo chủ đề Sở thích; chú ý mẫu JPD133-L09-G001 đến G008.
 
-## R009 – Thư viện
+## R009 – Học ngoại ngữ
+
+### Đoạn văn tiếng Nhật
+```text
+友達と話して、写真を撮ります。
+```
+
+### Romaji
+```text
+tomodachi to hanashite, shashin o torimasu.
+```
+
+### Dịch tiếng Việt
+Tôi nói chuyện và chụp ảnh với bạn.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 9 theo chủ đề Sở thích; chú ý mẫu JPD133-L09-G001 đến G008.
+
+## R010 – Học ngoại ngữ
+
+### Đoạn văn tiếng Nhật
+```text
+好きなことをすると、楽しいです。
+```
+
+### Romaji
+```text
+suki na koto o suru to, tanoshii desu.
+```
+
+### Dịch tiếng Việt
+Làm điều mình thích thì rất vui.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 10 theo chủ đề Sở thích; chú ý mẫu JPD133-L09-G001 đến G008.
+
+
+# JPD133 Reading Bài 9 – 好きなこと
+
+> Chủ đề: Sở thích
+> Mục tiêu: 25 đoạn đọc về sở thích, tần suất, khả năng và cuối tuần.
+> Từ vựng bắt buộc: 趣味, 音楽, 読書, 旅行, スポーツ, いつも, よく, ときどき, できます, どうやって
+> Kanji bắt buộc: 趣味, 音楽, 旅行, 読, 作
+> Ngữ pháp bắt buộc: JPD133-L09-G001 đến G008
+
+## R001 – Thư viện
 
 ### Đoạn văn tiếng Nhật
 ```text
@@ -627,9 +6261,180 @@ toshokan de hon o yomimasu.
 Tôi đọc sách ở thư viện.
 
 ### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 1 theo chủ đề Sở thích; chú ý mẫu JPD133-L09-G001 đến G008.
+
+## R002 – Thư viện
+
+### Đoạn văn tiếng Nhật
+```text
+私はよく音楽を聞きます。
+```
+
+### Romaji
+```text
+watashi wa yoku ongaku o kikimasu.
+```
+
+### Dịch tiếng Việt
+Tôi thường nghe nhạc.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 2 theo chủ đề Sở thích; chú ý mẫu JPD133-L09-G001 đến G008.
+
+## R003 – Thư viện
+
+### Đoạn văn tiếng Nhật
+```text
+ときどき友達と映画を見ます。
+```
+
+### Romaji
+```text
+tokidoki tomodachi to eiga o mimasu.
+```
+
+### Dịch tiếng Việt
+Thỉnh thoảng tôi xem phim với bạn.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 3 theo chủ đề Sở thích; chú ý mẫu JPD133-L09-G001 đến G008.
+
+## R004 – Thư viện
+
+### Đoạn văn tiếng Nhật
+```text
+一週間に二回、図書館へ行きます。
+```
+
+### Romaji
+```text
+isshuukan ni nikai, toshokan e ikimasu.
+```
+
+### Dịch tiếng Việt
+Một tuần tôi đi thư viện hai lần.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 4 theo chủ đề Sở thích; chú ý mẫu JPD133-L09-G001 đến G008.
+
+## R005 – Thư viện
+
+### Đoạn văn tiếng Nhật
+```text
+本を読むことが好きです。
+```
+
+### Romaji
+```text
+hon o yomu koto ga suki desu.
+```
+
+### Dịch tiếng Việt
+Tôi thích đọc sách.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 5 theo chủ đề Sở thích; chú ý mẫu JPD133-L09-G001 đến G008.
+
+## R006 – Thư viện
+
+### Đoạn văn tiếng Nhật
+```text
+料理を作ることができます。
+```
+
+### Romaji
+```text
+ryouri o tsukuru koto ga dekimasu.
+```
+
+### Dịch tiếng Việt
+Tôi có thể nấu ăn.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 6 theo chủ đề Sở thích; chú ý mẫu JPD133-L09-G001 đến G008.
+
+## R007 – Thư viện
+
+### Đoạn văn tiếng Nhật
+```text
+全然スポーツをしない日もあります。
+```
+
+### Romaji
+```text
+zenzen supootsu o shinai hi mo arimasu.
+```
+
+### Dịch tiếng Việt
+Cũng có những ngày tôi hoàn toàn không chơi thể thao.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 7 theo chủ đề Sở thích; chú ý mẫu JPD133-L09-G001 đến G008.
+
+## R008 – Thư viện
+
+### Đoạn văn tiếng Nhật
+```text
+でも、週末は外へ出かけます。
+```
+
+### Romaji
+```text
+demo, shuumatsu wa soto e dekakemasu.
+```
+
+### Dịch tiếng Việt
+Nhưng cuối tuần tôi đi ra ngoài.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 8 theo chủ đề Sở thích; chú ý mẫu JPD133-L09-G001 đến G008.
+
+## R009 – Thư viện
+
+### Đoạn văn tiếng Nhật
+```text
+友達と話して、写真を撮ります。
+```
+
+### Romaji
+```text
+tomodachi to hanashite, shashin o torimasu.
+```
+
+### Dịch tiếng Việt
+Tôi nói chuyện và chụp ảnh với bạn.
+
+### Tóm tắt và ghi chú luyện tập
 Luyện đọc đoạn 9 theo chủ đề Sở thích; chú ý mẫu JPD133-L09-G001 đến G008.
 
-## R010 – Đọc sách
+## R010 – Thư viện
+
+### Đoạn văn tiếng Nhật
+```text
+好きなことをすると、楽しいです。
+```
+
+### Romaji
+```text
+suki na koto o suru to, tanoshii desu.
+```
+
+### Dịch tiếng Việt
+Làm điều mình thích thì rất vui.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 10 theo chủ đề Sở thích; chú ý mẫu JPD133-L09-G001 đến G008.
+
+
+# JPD133 Reading Bài 9 – 好きなこと
+
+> Chủ đề: Sở thích
+> Mục tiêu: 25 đoạn đọc về sở thích, tần suất, khả năng và cuối tuần.
+> Từ vựng bắt buộc: 趣味, 音楽, 読書, 旅行, スポーツ, いつも, よく, ときどき, できます, どうやって
+> Kanji bắt buộc: 趣味, 音楽, 旅行, 読, 作
+> Ngữ pháp bắt buộc: JPD133-L09-G001 đến G008
+
+## R001 – Đọc sách
 
 ### Đoạn văn tiếng Nhật
 ```text
@@ -645,9 +6450,180 @@ shousetsu o yomu koto ga suki desu.
 Tôi thích đọc tiểu thuyết.
 
 ### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 1 theo chủ đề Sở thích; chú ý mẫu JPD133-L09-G001 đến G008.
+
+## R002 – Đọc sách
+
+### Đoạn văn tiếng Nhật
+```text
+私はよく音楽を聞きます。
+```
+
+### Romaji
+```text
+watashi wa yoku ongaku o kikimasu.
+```
+
+### Dịch tiếng Việt
+Tôi thường nghe nhạc.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 2 theo chủ đề Sở thích; chú ý mẫu JPD133-L09-G001 đến G008.
+
+## R003 – Đọc sách
+
+### Đoạn văn tiếng Nhật
+```text
+ときどき友達と映画を見ます。
+```
+
+### Romaji
+```text
+tokidoki tomodachi to eiga o mimasu.
+```
+
+### Dịch tiếng Việt
+Thỉnh thoảng tôi xem phim với bạn.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 3 theo chủ đề Sở thích; chú ý mẫu JPD133-L09-G001 đến G008.
+
+## R004 – Đọc sách
+
+### Đoạn văn tiếng Nhật
+```text
+一週間に二回、図書館へ行きます。
+```
+
+### Romaji
+```text
+isshuukan ni nikai, toshokan e ikimasu.
+```
+
+### Dịch tiếng Việt
+Một tuần tôi đi thư viện hai lần.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 4 theo chủ đề Sở thích; chú ý mẫu JPD133-L09-G001 đến G008.
+
+## R005 – Đọc sách
+
+### Đoạn văn tiếng Nhật
+```text
+本を読むことが好きです。
+```
+
+### Romaji
+```text
+hon o yomu koto ga suki desu.
+```
+
+### Dịch tiếng Việt
+Tôi thích đọc sách.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 5 theo chủ đề Sở thích; chú ý mẫu JPD133-L09-G001 đến G008.
+
+## R006 – Đọc sách
+
+### Đoạn văn tiếng Nhật
+```text
+料理を作ることができます。
+```
+
+### Romaji
+```text
+ryouri o tsukuru koto ga dekimasu.
+```
+
+### Dịch tiếng Việt
+Tôi có thể nấu ăn.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 6 theo chủ đề Sở thích; chú ý mẫu JPD133-L09-G001 đến G008.
+
+## R007 – Đọc sách
+
+### Đoạn văn tiếng Nhật
+```text
+全然スポーツをしない日もあります。
+```
+
+### Romaji
+```text
+zenzen supootsu o shinai hi mo arimasu.
+```
+
+### Dịch tiếng Việt
+Cũng có những ngày tôi hoàn toàn không chơi thể thao.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 7 theo chủ đề Sở thích; chú ý mẫu JPD133-L09-G001 đến G008.
+
+## R008 – Đọc sách
+
+### Đoạn văn tiếng Nhật
+```text
+でも、週末は外へ出かけます。
+```
+
+### Romaji
+```text
+demo, shuumatsu wa soto e dekakemasu.
+```
+
+### Dịch tiếng Việt
+Nhưng cuối tuần tôi đi ra ngoài.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 8 theo chủ đề Sở thích; chú ý mẫu JPD133-L09-G001 đến G008.
+
+## R009 – Đọc sách
+
+### Đoạn văn tiếng Nhật
+```text
+友達と話して、写真を撮ります。
+```
+
+### Romaji
+```text
+tomodachi to hanashite, shashin o torimasu.
+```
+
+### Dịch tiếng Việt
+Tôi nói chuyện và chụp ảnh với bạn.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 9 theo chủ đề Sở thích; chú ý mẫu JPD133-L09-G001 đến G008.
+
+## R010 – Đọc sách
+
+### Đoạn văn tiếng Nhật
+```text
+好きなことをすると、楽しいです。
+```
+
+### Romaji
+```text
+suki na koto o suru to, tanoshii desu.
+```
+
+### Dịch tiếng Việt
+Làm điều mình thích thì rất vui.
+
+### Tóm tắt và ghi chú luyện tập
 Luyện đọc đoạn 10 theo chủ đề Sở thích; chú ý mẫu JPD133-L09-G001 đến G008.
 
-## R011 – Chơi bóng đá
+
+# JPD133 Reading Bài 9 – 好きなこと
+
+> Chủ đề: Sở thích
+> Mục tiêu: 25 đoạn đọc về sở thích, tần suất, khả năng và cuối tuần.
+> Từ vựng bắt buộc: 趣味, 音楽, 読書, 旅行, スポーツ, いつも, よく, ときどき, できます, どうやって
+> Kanji bắt buộc: 趣味, 音楽, 旅行, 読, 作
+> Ngữ pháp bắt buộc: JPD133-L09-G001 đến G008
+
+## R001 – Chơi bóng đá
 
 ### Đoạn văn tiếng Nhật
 ```text
@@ -663,9 +6639,180 @@ watashi wa sakkaa ga dekimasu.
 Tôi biết chơi bóng đá.
 
 ### Tóm tắt và ghi chú luyện tập
-Luyện đọc đoạn 11 theo chủ đề Sở thích; chú ý mẫu JPD133-L09-G001 đến G008.
+Luyện đọc đoạn 1 theo chủ đề Sở thích; chú ý mẫu JPD133-L09-G001 đến G008.
 
-## R012 – Chơi bóng chuyền
+## R002 – Chơi bóng đá
+
+### Đoạn văn tiếng Nhật
+```text
+私はよく音楽を聞きます。
+```
+
+### Romaji
+```text
+watashi wa yoku ongaku o kikimasu.
+```
+
+### Dịch tiếng Việt
+Tôi thường nghe nhạc.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 2 theo chủ đề Sở thích; chú ý mẫu JPD133-L09-G001 đến G008.
+
+## R003 – Chơi bóng đá
+
+### Đoạn văn tiếng Nhật
+```text
+ときどき友達と映画を見ます。
+```
+
+### Romaji
+```text
+tokidoki tomodachi to eiga o mimasu.
+```
+
+### Dịch tiếng Việt
+Thỉnh thoảng tôi xem phim với bạn.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 3 theo chủ đề Sở thích; chú ý mẫu JPD133-L09-G001 đến G008.
+
+## R004 – Chơi bóng đá
+
+### Đoạn văn tiếng Nhật
+```text
+一週間に二回、図書館へ行きます。
+```
+
+### Romaji
+```text
+isshuukan ni nikai, toshokan e ikimasu.
+```
+
+### Dịch tiếng Việt
+Một tuần tôi đi thư viện hai lần.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 4 theo chủ đề Sở thích; chú ý mẫu JPD133-L09-G001 đến G008.
+
+## R005 – Chơi bóng đá
+
+### Đoạn văn tiếng Nhật
+```text
+本を読むことが好きです。
+```
+
+### Romaji
+```text
+hon o yomu koto ga suki desu.
+```
+
+### Dịch tiếng Việt
+Tôi thích đọc sách.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 5 theo chủ đề Sở thích; chú ý mẫu JPD133-L09-G001 đến G008.
+
+## R006 – Chơi bóng đá
+
+### Đoạn văn tiếng Nhật
+```text
+料理を作ることができます。
+```
+
+### Romaji
+```text
+ryouri o tsukuru koto ga dekimasu.
+```
+
+### Dịch tiếng Việt
+Tôi có thể nấu ăn.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 6 theo chủ đề Sở thích; chú ý mẫu JPD133-L09-G001 đến G008.
+
+## R007 – Chơi bóng đá
+
+### Đoạn văn tiếng Nhật
+```text
+全然スポーツをしない日もあります。
+```
+
+### Romaji
+```text
+zenzen supootsu o shinai hi mo arimasu.
+```
+
+### Dịch tiếng Việt
+Cũng có những ngày tôi hoàn toàn không chơi thể thao.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 7 theo chủ đề Sở thích; chú ý mẫu JPD133-L09-G001 đến G008.
+
+## R008 – Chơi bóng đá
+
+### Đoạn văn tiếng Nhật
+```text
+でも、週末は外へ出かけます。
+```
+
+### Romaji
+```text
+demo, shuumatsu wa soto e dekakemasu.
+```
+
+### Dịch tiếng Việt
+Nhưng cuối tuần tôi đi ra ngoài.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 8 theo chủ đề Sở thích; chú ý mẫu JPD133-L09-G001 đến G008.
+
+## R009 – Chơi bóng đá
+
+### Đoạn văn tiếng Nhật
+```text
+友達と話して、写真を撮ります。
+```
+
+### Romaji
+```text
+tomodachi to hanashite, shashin o torimasu.
+```
+
+### Dịch tiếng Việt
+Tôi nói chuyện và chụp ảnh với bạn.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 9 theo chủ đề Sở thích; chú ý mẫu JPD133-L09-G001 đến G008.
+
+## R010 – Chơi bóng đá
+
+### Đoạn văn tiếng Nhật
+```text
+好きなことをすると、楽しいです。
+```
+
+### Romaji
+```text
+suki na koto o suru to, tanoshii desu.
+```
+
+### Dịch tiếng Việt
+Làm điều mình thích thì rất vui.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 10 theo chủ đề Sở thích; chú ý mẫu JPD133-L09-G001 đến G008.
+
+
+# JPD133 Reading Bài 9 – 好きなこと
+
+> Chủ đề: Sở thích
+> Mục tiêu: 25 đoạn đọc về sở thích, tần suất, khả năng và cuối tuần.
+> Từ vựng bắt buộc: 趣味, 音楽, 読書, 旅行, スポーツ, いつも, よく, ときどき, できます, どうやって
+> Kanji bắt buộc: 趣味, 音楽, 旅行, 読, 作
+> Ngữ pháp bắt buộc: JPD133-L09-G001 đến G008
+
+## R001 – Chơi bóng chuyền
 
 ### Đoạn văn tiếng Nhật
 ```text
@@ -681,9 +6828,180 @@ tomodachi to tenisu o shimasu.
 Tôi chơi tennis với bạn.
 
 ### Tóm tắt và ghi chú luyện tập
-Luyện đọc đoạn 12 theo chủ đề Sở thích; chú ý mẫu JPD133-L09-G001 đến G008.
+Luyện đọc đoạn 1 theo chủ đề Sở thích; chú ý mẫu JPD133-L09-G001 đến G008.
 
-## R013 – Lái xe
+## R002 – Chơi bóng chuyền
+
+### Đoạn văn tiếng Nhật
+```text
+私はよく音楽を聞きます。
+```
+
+### Romaji
+```text
+watashi wa yoku ongaku o kikimasu.
+```
+
+### Dịch tiếng Việt
+Tôi thường nghe nhạc.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 2 theo chủ đề Sở thích; chú ý mẫu JPD133-L09-G001 đến G008.
+
+## R003 – Chơi bóng chuyền
+
+### Đoạn văn tiếng Nhật
+```text
+ときどき友達と映画を見ます。
+```
+
+### Romaji
+```text
+tokidoki tomodachi to eiga o mimasu.
+```
+
+### Dịch tiếng Việt
+Thỉnh thoảng tôi xem phim với bạn.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 3 theo chủ đề Sở thích; chú ý mẫu JPD133-L09-G001 đến G008.
+
+## R004 – Chơi bóng chuyền
+
+### Đoạn văn tiếng Nhật
+```text
+一週間に二回、図書館へ行きます。
+```
+
+### Romaji
+```text
+isshuukan ni nikai, toshokan e ikimasu.
+```
+
+### Dịch tiếng Việt
+Một tuần tôi đi thư viện hai lần.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 4 theo chủ đề Sở thích; chú ý mẫu JPD133-L09-G001 đến G008.
+
+## R005 – Chơi bóng chuyền
+
+### Đoạn văn tiếng Nhật
+```text
+本を読むことが好きです。
+```
+
+### Romaji
+```text
+hon o yomu koto ga suki desu.
+```
+
+### Dịch tiếng Việt
+Tôi thích đọc sách.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 5 theo chủ đề Sở thích; chú ý mẫu JPD133-L09-G001 đến G008.
+
+## R006 – Chơi bóng chuyền
+
+### Đoạn văn tiếng Nhật
+```text
+料理を作ることができます。
+```
+
+### Romaji
+```text
+ryouri o tsukuru koto ga dekimasu.
+```
+
+### Dịch tiếng Việt
+Tôi có thể nấu ăn.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 6 theo chủ đề Sở thích; chú ý mẫu JPD133-L09-G001 đến G008.
+
+## R007 – Chơi bóng chuyền
+
+### Đoạn văn tiếng Nhật
+```text
+全然スポーツをしない日もあります。
+```
+
+### Romaji
+```text
+zenzen supootsu o shinai hi mo arimasu.
+```
+
+### Dịch tiếng Việt
+Cũng có những ngày tôi hoàn toàn không chơi thể thao.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 7 theo chủ đề Sở thích; chú ý mẫu JPD133-L09-G001 đến G008.
+
+## R008 – Chơi bóng chuyền
+
+### Đoạn văn tiếng Nhật
+```text
+でも、週末は外へ出かけます。
+```
+
+### Romaji
+```text
+demo, shuumatsu wa soto e dekakemasu.
+```
+
+### Dịch tiếng Việt
+Nhưng cuối tuần tôi đi ra ngoài.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 8 theo chủ đề Sở thích; chú ý mẫu JPD133-L09-G001 đến G008.
+
+## R009 – Chơi bóng chuyền
+
+### Đoạn văn tiếng Nhật
+```text
+友達と話して、写真を撮ります。
+```
+
+### Romaji
+```text
+tomodachi to hanashite, shashin o torimasu.
+```
+
+### Dịch tiếng Việt
+Tôi nói chuyện và chụp ảnh với bạn.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 9 theo chủ đề Sở thích; chú ý mẫu JPD133-L09-G001 đến G008.
+
+## R010 – Chơi bóng chuyền
+
+### Đoạn văn tiếng Nhật
+```text
+好きなことをすると、楽しいです。
+```
+
+### Romaji
+```text
+suki na koto o suru to, tanoshii desu.
+```
+
+### Dịch tiếng Việt
+Làm điều mình thích thì rất vui.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 10 theo chủ đề Sở thích; chú ý mẫu JPD133-L09-G001 đến G008.
+
+
+# JPD133 Reading Bài 9 – 好きなこと
+
+> Chủ đề: Sở thích
+> Mục tiêu: 25 đoạn đọc về sở thích, tần suất, khả năng và cuối tuần.
+> Từ vựng bắt buộc: 趣味, 音楽, 読書, 旅行, スポーツ, いつも, よく, ときどき, できます, どうやって
+> Kanji bắt buộc: 趣味, 音楽, 旅行, 読, 作
+> Ngữ pháp bắt buộc: JPD133-L09-G001 đến G008
+
+## R001 – Lái xe
 
 ### Đoạn văn tiếng Nhật
 ```text
@@ -699,9 +7017,180 @@ chichi wa kuruma o unten suru koto ga dekimasu.
 Bố tôi có thể lái xe.
 
 ### Tóm tắt và ghi chú luyện tập
-Luyện đọc đoạn 13 theo chủ đề Sở thích; chú ý mẫu JPD133-L09-G001 đến G008.
+Luyện đọc đoạn 1 theo chủ đề Sở thích; chú ý mẫu JPD133-L09-G001 đến G008.
 
-## R014 – Gia đình đi du lịch
+## R002 – Lái xe
+
+### Đoạn văn tiếng Nhật
+```text
+私はよく音楽を聞きます。
+```
+
+### Romaji
+```text
+watashi wa yoku ongaku o kikimasu.
+```
+
+### Dịch tiếng Việt
+Tôi thường nghe nhạc.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 2 theo chủ đề Sở thích; chú ý mẫu JPD133-L09-G001 đến G008.
+
+## R003 – Lái xe
+
+### Đoạn văn tiếng Nhật
+```text
+ときどき友達と映画を見ます。
+```
+
+### Romaji
+```text
+tokidoki tomodachi to eiga o mimasu.
+```
+
+### Dịch tiếng Việt
+Thỉnh thoảng tôi xem phim với bạn.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 3 theo chủ đề Sở thích; chú ý mẫu JPD133-L09-G001 đến G008.
+
+## R004 – Lái xe
+
+### Đoạn văn tiếng Nhật
+```text
+一週間に二回、図書館へ行きます。
+```
+
+### Romaji
+```text
+isshuukan ni nikai, toshokan e ikimasu.
+```
+
+### Dịch tiếng Việt
+Một tuần tôi đi thư viện hai lần.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 4 theo chủ đề Sở thích; chú ý mẫu JPD133-L09-G001 đến G008.
+
+## R005 – Lái xe
+
+### Đoạn văn tiếng Nhật
+```text
+本を読むことが好きです。
+```
+
+### Romaji
+```text
+hon o yomu koto ga suki desu.
+```
+
+### Dịch tiếng Việt
+Tôi thích đọc sách.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 5 theo chủ đề Sở thích; chú ý mẫu JPD133-L09-G001 đến G008.
+
+## R006 – Lái xe
+
+### Đoạn văn tiếng Nhật
+```text
+料理を作ることができます。
+```
+
+### Romaji
+```text
+ryouri o tsukuru koto ga dekimasu.
+```
+
+### Dịch tiếng Việt
+Tôi có thể nấu ăn.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 6 theo chủ đề Sở thích; chú ý mẫu JPD133-L09-G001 đến G008.
+
+## R007 – Lái xe
+
+### Đoạn văn tiếng Nhật
+```text
+全然スポーツをしない日もあります。
+```
+
+### Romaji
+```text
+zenzen supootsu o shinai hi mo arimasu.
+```
+
+### Dịch tiếng Việt
+Cũng có những ngày tôi hoàn toàn không chơi thể thao.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 7 theo chủ đề Sở thích; chú ý mẫu JPD133-L09-G001 đến G008.
+
+## R008 – Lái xe
+
+### Đoạn văn tiếng Nhật
+```text
+でも、週末は外へ出かけます。
+```
+
+### Romaji
+```text
+demo, shuumatsu wa soto e dekakemasu.
+```
+
+### Dịch tiếng Việt
+Nhưng cuối tuần tôi đi ra ngoài.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 8 theo chủ đề Sở thích; chú ý mẫu JPD133-L09-G001 đến G008.
+
+## R009 – Lái xe
+
+### Đoạn văn tiếng Nhật
+```text
+友達と話して、写真を撮ります。
+```
+
+### Romaji
+```text
+tomodachi to hanashite, shashin o torimasu.
+```
+
+### Dịch tiếng Việt
+Tôi nói chuyện và chụp ảnh với bạn.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 9 theo chủ đề Sở thích; chú ý mẫu JPD133-L09-G001 đến G008.
+
+## R010 – Lái xe
+
+### Đoạn văn tiếng Nhật
+```text
+好きなことをすると、楽しいです。
+```
+
+### Romaji
+```text
+suki na koto o suru to, tanoshii desu.
+```
+
+### Dịch tiếng Việt
+Làm điều mình thích thì rất vui.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 10 theo chủ đề Sở thích; chú ý mẫu JPD133-L09-G001 đến G008.
+
+
+# JPD133 Reading Bài 9 – 好きなこと
+
+> Chủ đề: Sở thích
+> Mục tiêu: 25 đoạn đọc về sở thích, tần suất, khả năng và cuối tuần.
+> Từ vựng bắt buộc: 趣味, 音楽, 読書, 旅行, スポーツ, いつも, よく, ときどき, できます, どうやって
+> Kanji bắt buộc: 趣味, 音楽, 旅行, 読, 作
+> Ngữ pháp bắt buộc: JPD133-L09-G001 đến G008
+
+## R001 – Gia đình đi du lịch
 
 ### Đoạn văn tiếng Nhật
 ```text
@@ -717,9 +7206,180 @@ kazoku de ryokou e ikimasu.
 Gia đình tôi đi du lịch.
 
 ### Tóm tắt và ghi chú luyện tập
-Luyện đọc đoạn 14 theo chủ đề Sở thích; chú ý mẫu JPD133-L09-G001 đến G008.
+Luyện đọc đoạn 1 theo chủ đề Sở thích; chú ý mẫu JPD133-L09-G001 đến G008.
 
-## R015 – Nhật Bản
+## R002 – Gia đình đi du lịch
+
+### Đoạn văn tiếng Nhật
+```text
+私はよく音楽を聞きます。
+```
+
+### Romaji
+```text
+watashi wa yoku ongaku o kikimasu.
+```
+
+### Dịch tiếng Việt
+Tôi thường nghe nhạc.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 2 theo chủ đề Sở thích; chú ý mẫu JPD133-L09-G001 đến G008.
+
+## R003 – Gia đình đi du lịch
+
+### Đoạn văn tiếng Nhật
+```text
+ときどき友達と映画を見ます。
+```
+
+### Romaji
+```text
+tokidoki tomodachi to eiga o mimasu.
+```
+
+### Dịch tiếng Việt
+Thỉnh thoảng tôi xem phim với bạn.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 3 theo chủ đề Sở thích; chú ý mẫu JPD133-L09-G001 đến G008.
+
+## R004 – Gia đình đi du lịch
+
+### Đoạn văn tiếng Nhật
+```text
+一週間に二回、図書館へ行きます。
+```
+
+### Romaji
+```text
+isshuukan ni nikai, toshokan e ikimasu.
+```
+
+### Dịch tiếng Việt
+Một tuần tôi đi thư viện hai lần.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 4 theo chủ đề Sở thích; chú ý mẫu JPD133-L09-G001 đến G008.
+
+## R005 – Gia đình đi du lịch
+
+### Đoạn văn tiếng Nhật
+```text
+本を読むことが好きです。
+```
+
+### Romaji
+```text
+hon o yomu koto ga suki desu.
+```
+
+### Dịch tiếng Việt
+Tôi thích đọc sách.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 5 theo chủ đề Sở thích; chú ý mẫu JPD133-L09-G001 đến G008.
+
+## R006 – Gia đình đi du lịch
+
+### Đoạn văn tiếng Nhật
+```text
+料理を作ることができます。
+```
+
+### Romaji
+```text
+ryouri o tsukuru koto ga dekimasu.
+```
+
+### Dịch tiếng Việt
+Tôi có thể nấu ăn.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 6 theo chủ đề Sở thích; chú ý mẫu JPD133-L09-G001 đến G008.
+
+## R007 – Gia đình đi du lịch
+
+### Đoạn văn tiếng Nhật
+```text
+全然スポーツをしない日もあります。
+```
+
+### Romaji
+```text
+zenzen supootsu o shinai hi mo arimasu.
+```
+
+### Dịch tiếng Việt
+Cũng có những ngày tôi hoàn toàn không chơi thể thao.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 7 theo chủ đề Sở thích; chú ý mẫu JPD133-L09-G001 đến G008.
+
+## R008 – Gia đình đi du lịch
+
+### Đoạn văn tiếng Nhật
+```text
+でも、週末は外へ出かけます。
+```
+
+### Romaji
+```text
+demo, shuumatsu wa soto e dekakemasu.
+```
+
+### Dịch tiếng Việt
+Nhưng cuối tuần tôi đi ra ngoài.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 8 theo chủ đề Sở thích; chú ý mẫu JPD133-L09-G001 đến G008.
+
+## R009 – Gia đình đi du lịch
+
+### Đoạn văn tiếng Nhật
+```text
+友達と話して、写真を撮ります。
+```
+
+### Romaji
+```text
+tomodachi to hanashite, shashin o torimasu.
+```
+
+### Dịch tiếng Việt
+Tôi nói chuyện và chụp ảnh với bạn.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 9 theo chủ đề Sở thích; chú ý mẫu JPD133-L09-G001 đến G008.
+
+## R010 – Gia đình đi du lịch
+
+### Đoạn văn tiếng Nhật
+```text
+好きなことをすると、楽しいです。
+```
+
+### Romaji
+```text
+suki na koto o suru to, tanoshii desu.
+```
+
+### Dịch tiếng Việt
+Làm điều mình thích thì rất vui.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 10 theo chủ đề Sở thích; chú ý mẫu JPD133-L09-G001 đến G008.
+
+
+# JPD133 Reading Bài 9 – 好きなこと
+
+> Chủ đề: Sở thích
+> Mục tiêu: 25 đoạn đọc về sở thích, tần suất, khả năng và cuối tuần.
+> Từ vựng bắt buộc: 趣味, 音楽, 読書, 旅行, スポーツ, いつも, よく, ときどき, できます, どうやって
+> Kanji bắt buộc: 趣味, 音楽, 旅行, 読, 作
+> Ngữ pháp bắt buộc: JPD133-L09-G001 đến G008
+
+## R001 – Nhật Bản
 
 ### Đoạn văn tiếng Nhật
 ```text
@@ -735,9 +7395,180 @@ nihon ryouri o tabete, nihongo o benkyou shimasu.
 Tôi ăn món Nhật rồi học tiếng Nhật.
 
 ### Tóm tắt và ghi chú luyện tập
-Luyện đọc đoạn 15 theo chủ đề Sở thích; chú ý mẫu JPD133-L09-G001 đến G008.
+Luyện đọc đoạn 1 theo chủ đề Sở thích; chú ý mẫu JPD133-L09-G001 đến G008.
 
-## R016 – Việt Nam
+## R002 – Nhật Bản
+
+### Đoạn văn tiếng Nhật
+```text
+私はよく音楽を聞きます。
+```
+
+### Romaji
+```text
+watashi wa yoku ongaku o kikimasu.
+```
+
+### Dịch tiếng Việt
+Tôi thường nghe nhạc.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 2 theo chủ đề Sở thích; chú ý mẫu JPD133-L09-G001 đến G008.
+
+## R003 – Nhật Bản
+
+### Đoạn văn tiếng Nhật
+```text
+ときどき友達と映画を見ます。
+```
+
+### Romaji
+```text
+tokidoki tomodachi to eiga o mimasu.
+```
+
+### Dịch tiếng Việt
+Thỉnh thoảng tôi xem phim với bạn.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 3 theo chủ đề Sở thích; chú ý mẫu JPD133-L09-G001 đến G008.
+
+## R004 – Nhật Bản
+
+### Đoạn văn tiếng Nhật
+```text
+一週間に二回、図書館へ行きます。
+```
+
+### Romaji
+```text
+isshuukan ni nikai, toshokan e ikimasu.
+```
+
+### Dịch tiếng Việt
+Một tuần tôi đi thư viện hai lần.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 4 theo chủ đề Sở thích; chú ý mẫu JPD133-L09-G001 đến G008.
+
+## R005 – Nhật Bản
+
+### Đoạn văn tiếng Nhật
+```text
+本を読むことが好きです。
+```
+
+### Romaji
+```text
+hon o yomu koto ga suki desu.
+```
+
+### Dịch tiếng Việt
+Tôi thích đọc sách.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 5 theo chủ đề Sở thích; chú ý mẫu JPD133-L09-G001 đến G008.
+
+## R006 – Nhật Bản
+
+### Đoạn văn tiếng Nhật
+```text
+料理を作ることができます。
+```
+
+### Romaji
+```text
+ryouri o tsukuru koto ga dekimasu.
+```
+
+### Dịch tiếng Việt
+Tôi có thể nấu ăn.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 6 theo chủ đề Sở thích; chú ý mẫu JPD133-L09-G001 đến G008.
+
+## R007 – Nhật Bản
+
+### Đoạn văn tiếng Nhật
+```text
+全然スポーツをしない日もあります。
+```
+
+### Romaji
+```text
+zenzen supootsu o shinai hi mo arimasu.
+```
+
+### Dịch tiếng Việt
+Cũng có những ngày tôi hoàn toàn không chơi thể thao.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 7 theo chủ đề Sở thích; chú ý mẫu JPD133-L09-G001 đến G008.
+
+## R008 – Nhật Bản
+
+### Đoạn văn tiếng Nhật
+```text
+でも、週末は外へ出かけます。
+```
+
+### Romaji
+```text
+demo, shuumatsu wa soto e dekakemasu.
+```
+
+### Dịch tiếng Việt
+Nhưng cuối tuần tôi đi ra ngoài.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 8 theo chủ đề Sở thích; chú ý mẫu JPD133-L09-G001 đến G008.
+
+## R009 – Nhật Bản
+
+### Đoạn văn tiếng Nhật
+```text
+友達と話して、写真を撮ります。
+```
+
+### Romaji
+```text
+tomodachi to hanashite, shashin o torimasu.
+```
+
+### Dịch tiếng Việt
+Tôi nói chuyện và chụp ảnh với bạn.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 9 theo chủ đề Sở thích; chú ý mẫu JPD133-L09-G001 đến G008.
+
+## R010 – Nhật Bản
+
+### Đoạn văn tiếng Nhật
+```text
+好きなことをすると、楽しいです。
+```
+
+### Romaji
+```text
+suki na koto o suru to, tanoshii desu.
+```
+
+### Dịch tiếng Việt
+Làm điều mình thích thì rất vui.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 10 theo chủ đề Sở thích; chú ý mẫu JPD133-L09-G001 đến G008.
+
+
+# JPD133 Reading Bài 9 – 好きなこと
+
+> Chủ đề: Sở thích
+> Mục tiêu: 25 đoạn đọc về sở thích, tần suất, khả năng và cuối tuần.
+> Từ vựng bắt buộc: 趣味, 音楽, 読書, 旅行, スポーツ, いつも, よく, ときどき, できます, どうやって
+> Kanji bắt buộc: 趣味, 音楽, 旅行, 読, 作
+> Ngữ pháp bắt buộc: JPD133-L09-G001 đến G008
+
+## R001 – Việt Nam
 
 ### Đoạn văn tiếng Nhật
 ```text
@@ -753,9 +7584,180 @@ betonamu no ryouri ga suki desu.
 Tôi thích món ăn Việt Nam.
 
 ### Tóm tắt và ghi chú luyện tập
-Luyện đọc đoạn 16 theo chủ đề Sở thích; chú ý mẫu JPD133-L09-G001 đến G008.
+Luyện đọc đoạn 1 theo chủ đề Sở thích; chú ý mẫu JPD133-L09-G001 đến G008.
 
-## R017 – Điều tôi thích
+## R002 – Việt Nam
+
+### Đoạn văn tiếng Nhật
+```text
+私はよく音楽を聞きます。
+```
+
+### Romaji
+```text
+watashi wa yoku ongaku o kikimasu.
+```
+
+### Dịch tiếng Việt
+Tôi thường nghe nhạc.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 2 theo chủ đề Sở thích; chú ý mẫu JPD133-L09-G001 đến G008.
+
+## R003 – Việt Nam
+
+### Đoạn văn tiếng Nhật
+```text
+ときどき友達と映画を見ます。
+```
+
+### Romaji
+```text
+tokidoki tomodachi to eiga o mimasu.
+```
+
+### Dịch tiếng Việt
+Thỉnh thoảng tôi xem phim với bạn.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 3 theo chủ đề Sở thích; chú ý mẫu JPD133-L09-G001 đến G008.
+
+## R004 – Việt Nam
+
+### Đoạn văn tiếng Nhật
+```text
+一週間に二回、図書館へ行きます。
+```
+
+### Romaji
+```text
+isshuukan ni nikai, toshokan e ikimasu.
+```
+
+### Dịch tiếng Việt
+Một tuần tôi đi thư viện hai lần.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 4 theo chủ đề Sở thích; chú ý mẫu JPD133-L09-G001 đến G008.
+
+## R005 – Việt Nam
+
+### Đoạn văn tiếng Nhật
+```text
+本を読むことが好きです。
+```
+
+### Romaji
+```text
+hon o yomu koto ga suki desu.
+```
+
+### Dịch tiếng Việt
+Tôi thích đọc sách.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 5 theo chủ đề Sở thích; chú ý mẫu JPD133-L09-G001 đến G008.
+
+## R006 – Việt Nam
+
+### Đoạn văn tiếng Nhật
+```text
+料理を作ることができます。
+```
+
+### Romaji
+```text
+ryouri o tsukuru koto ga dekimasu.
+```
+
+### Dịch tiếng Việt
+Tôi có thể nấu ăn.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 6 theo chủ đề Sở thích; chú ý mẫu JPD133-L09-G001 đến G008.
+
+## R007 – Việt Nam
+
+### Đoạn văn tiếng Nhật
+```text
+全然スポーツをしない日もあります。
+```
+
+### Romaji
+```text
+zenzen supootsu o shinai hi mo arimasu.
+```
+
+### Dịch tiếng Việt
+Cũng có những ngày tôi hoàn toàn không chơi thể thao.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 7 theo chủ đề Sở thích; chú ý mẫu JPD133-L09-G001 đến G008.
+
+## R008 – Việt Nam
+
+### Đoạn văn tiếng Nhật
+```text
+でも、週末は外へ出かけます。
+```
+
+### Romaji
+```text
+demo, shuumatsu wa soto e dekakemasu.
+```
+
+### Dịch tiếng Việt
+Nhưng cuối tuần tôi đi ra ngoài.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 8 theo chủ đề Sở thích; chú ý mẫu JPD133-L09-G001 đến G008.
+
+## R009 – Việt Nam
+
+### Đoạn văn tiếng Nhật
+```text
+友達と話して、写真を撮ります。
+```
+
+### Romaji
+```text
+tomodachi to hanashite, shashin o torimasu.
+```
+
+### Dịch tiếng Việt
+Tôi nói chuyện và chụp ảnh với bạn.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 9 theo chủ đề Sở thích; chú ý mẫu JPD133-L09-G001 đến G008.
+
+## R010 – Việt Nam
+
+### Đoạn văn tiếng Nhật
+```text
+好きなことをすると、楽しいです。
+```
+
+### Romaji
+```text
+suki na koto o suru to, tanoshii desu.
+```
+
+### Dịch tiếng Việt
+Làm điều mình thích thì rất vui.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 10 theo chủ đề Sở thích; chú ý mẫu JPD133-L09-G001 đến G008.
+
+
+# JPD133 Reading Bài 9 – 好きなこと
+
+> Chủ đề: Sở thích
+> Mục tiêu: 25 đoạn đọc về sở thích, tần suất, khả năng và cuối tuần.
+> Từ vựng bắt buộc: 趣味, 音楽, 読書, 旅行, スポーツ, いつも, よく, ときどき, できます, どうやって
+> Kanji bắt buộc: 趣味, 音楽, 旅行, 読, 作
+> Ngữ pháp bắt buộc: JPD133-L09-G001 đến G008
+
+## R001 – Điều tôi thích
 
 ### Đoạn văn tiếng Nhật
 ```text
@@ -771,9 +7773,180 @@ watashi wa toku ni dokusho ga suki desu.
 Tôi đặc biệt thích đọc sách.
 
 ### Tóm tắt và ghi chú luyện tập
-Luyện đọc đoạn 17 theo chủ đề Sở thích; chú ý mẫu JPD133-L09-G001 đến G008.
+Luyện đọc đoạn 1 theo chủ đề Sở thích; chú ý mẫu JPD133-L09-G001 đến G008.
 
-## R018 – Ca sĩ yêu thích
+## R002 – Điều tôi thích
+
+### Đoạn văn tiếng Nhật
+```text
+私はよく音楽を聞きます。
+```
+
+### Romaji
+```text
+watashi wa yoku ongaku o kikimasu.
+```
+
+### Dịch tiếng Việt
+Tôi thường nghe nhạc.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 2 theo chủ đề Sở thích; chú ý mẫu JPD133-L09-G001 đến G008.
+
+## R003 – Điều tôi thích
+
+### Đoạn văn tiếng Nhật
+```text
+ときどき友達と映画を見ます。
+```
+
+### Romaji
+```text
+tokidoki tomodachi to eiga o mimasu.
+```
+
+### Dịch tiếng Việt
+Thỉnh thoảng tôi xem phim với bạn.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 3 theo chủ đề Sở thích; chú ý mẫu JPD133-L09-G001 đến G008.
+
+## R004 – Điều tôi thích
+
+### Đoạn văn tiếng Nhật
+```text
+一週間に二回、図書館へ行きます。
+```
+
+### Romaji
+```text
+isshuukan ni nikai, toshokan e ikimasu.
+```
+
+### Dịch tiếng Việt
+Một tuần tôi đi thư viện hai lần.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 4 theo chủ đề Sở thích; chú ý mẫu JPD133-L09-G001 đến G008.
+
+## R005 – Điều tôi thích
+
+### Đoạn văn tiếng Nhật
+```text
+本を読むことが好きです。
+```
+
+### Romaji
+```text
+hon o yomu koto ga suki desu.
+```
+
+### Dịch tiếng Việt
+Tôi thích đọc sách.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 5 theo chủ đề Sở thích; chú ý mẫu JPD133-L09-G001 đến G008.
+
+## R006 – Điều tôi thích
+
+### Đoạn văn tiếng Nhật
+```text
+料理を作ることができます。
+```
+
+### Romaji
+```text
+ryouri o tsukuru koto ga dekimasu.
+```
+
+### Dịch tiếng Việt
+Tôi có thể nấu ăn.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 6 theo chủ đề Sở thích; chú ý mẫu JPD133-L09-G001 đến G008.
+
+## R007 – Điều tôi thích
+
+### Đoạn văn tiếng Nhật
+```text
+全然スポーツをしない日もあります。
+```
+
+### Romaji
+```text
+zenzen supootsu o shinai hi mo arimasu.
+```
+
+### Dịch tiếng Việt
+Cũng có những ngày tôi hoàn toàn không chơi thể thao.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 7 theo chủ đề Sở thích; chú ý mẫu JPD133-L09-G001 đến G008.
+
+## R008 – Điều tôi thích
+
+### Đoạn văn tiếng Nhật
+```text
+でも、週末は外へ出かけます。
+```
+
+### Romaji
+```text
+demo, shuumatsu wa soto e dekakemasu.
+```
+
+### Dịch tiếng Việt
+Nhưng cuối tuần tôi đi ra ngoài.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 8 theo chủ đề Sở thích; chú ý mẫu JPD133-L09-G001 đến G008.
+
+## R009 – Điều tôi thích
+
+### Đoạn văn tiếng Nhật
+```text
+友達と話して、写真を撮ります。
+```
+
+### Romaji
+```text
+tomodachi to hanashite, shashin o torimasu.
+```
+
+### Dịch tiếng Việt
+Tôi nói chuyện và chụp ảnh với bạn.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 9 theo chủ đề Sở thích; chú ý mẫu JPD133-L09-G001 đến G008.
+
+## R010 – Điều tôi thích
+
+### Đoạn văn tiếng Nhật
+```text
+好きなことをすると、楽しいです。
+```
+
+### Romaji
+```text
+suki na koto o suru to, tanoshii desu.
+```
+
+### Dịch tiếng Việt
+Làm điều mình thích thì rất vui.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 10 theo chủ đề Sở thích; chú ý mẫu JPD133-L09-G001 đến G008.
+
+
+# JPD133 Reading Bài 9 – 好きなこと
+
+> Chủ đề: Sở thích
+> Mục tiêu: 25 đoạn đọc về sở thích, tần suất, khả năng và cuối tuần.
+> Từ vựng bắt buộc: 趣味, 音楽, 読書, 旅行, スポーツ, いつも, よく, ときどき, できます, どうやって
+> Kanji bắt buộc: 趣味, 音楽, 旅行, 読, 作
+> Ngữ pháp bắt buộc: JPD133-L09-G001 đến G008
+
+## R001 – Ca sĩ yêu thích
 
 ### Đoạn văn tiếng Nhật
 ```text
@@ -789,9 +7962,180 @@ suki na kashu no uta o kikimasu.
 Tôi nghe bài hát của ca sĩ yêu thích.
 
 ### Tóm tắt và ghi chú luyện tập
-Luyện đọc đoạn 18 theo chủ đề Sở thích; chú ý mẫu JPD133-L09-G001 đến G008.
+Luyện đọc đoạn 1 theo chủ đề Sở thích; chú ý mẫu JPD133-L09-G001 đến G008.
 
-## R019 – Mùa hè
+## R002 – Ca sĩ yêu thích
+
+### Đoạn văn tiếng Nhật
+```text
+私はよく音楽を聞きます。
+```
+
+### Romaji
+```text
+watashi wa yoku ongaku o kikimasu.
+```
+
+### Dịch tiếng Việt
+Tôi thường nghe nhạc.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 2 theo chủ đề Sở thích; chú ý mẫu JPD133-L09-G001 đến G008.
+
+## R003 – Ca sĩ yêu thích
+
+### Đoạn văn tiếng Nhật
+```text
+ときどき友達と映画を見ます。
+```
+
+### Romaji
+```text
+tokidoki tomodachi to eiga o mimasu.
+```
+
+### Dịch tiếng Việt
+Thỉnh thoảng tôi xem phim với bạn.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 3 theo chủ đề Sở thích; chú ý mẫu JPD133-L09-G001 đến G008.
+
+## R004 – Ca sĩ yêu thích
+
+### Đoạn văn tiếng Nhật
+```text
+一週間に二回、図書館へ行きます。
+```
+
+### Romaji
+```text
+isshuukan ni nikai, toshokan e ikimasu.
+```
+
+### Dịch tiếng Việt
+Một tuần tôi đi thư viện hai lần.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 4 theo chủ đề Sở thích; chú ý mẫu JPD133-L09-G001 đến G008.
+
+## R005 – Ca sĩ yêu thích
+
+### Đoạn văn tiếng Nhật
+```text
+本を読むことが好きです。
+```
+
+### Romaji
+```text
+hon o yomu koto ga suki desu.
+```
+
+### Dịch tiếng Việt
+Tôi thích đọc sách.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 5 theo chủ đề Sở thích; chú ý mẫu JPD133-L09-G001 đến G008.
+
+## R006 – Ca sĩ yêu thích
+
+### Đoạn văn tiếng Nhật
+```text
+料理を作ることができます。
+```
+
+### Romaji
+```text
+ryouri o tsukuru koto ga dekimasu.
+```
+
+### Dịch tiếng Việt
+Tôi có thể nấu ăn.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 6 theo chủ đề Sở thích; chú ý mẫu JPD133-L09-G001 đến G008.
+
+## R007 – Ca sĩ yêu thích
+
+### Đoạn văn tiếng Nhật
+```text
+全然スポーツをしない日もあります。
+```
+
+### Romaji
+```text
+zenzen supootsu o shinai hi mo arimasu.
+```
+
+### Dịch tiếng Việt
+Cũng có những ngày tôi hoàn toàn không chơi thể thao.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 7 theo chủ đề Sở thích; chú ý mẫu JPD133-L09-G001 đến G008.
+
+## R008 – Ca sĩ yêu thích
+
+### Đoạn văn tiếng Nhật
+```text
+でも、週末は外へ出かけます。
+```
+
+### Romaji
+```text
+demo, shuumatsu wa soto e dekakemasu.
+```
+
+### Dịch tiếng Việt
+Nhưng cuối tuần tôi đi ra ngoài.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 8 theo chủ đề Sở thích; chú ý mẫu JPD133-L09-G001 đến G008.
+
+## R009 – Ca sĩ yêu thích
+
+### Đoạn văn tiếng Nhật
+```text
+友達と話して、写真を撮ります。
+```
+
+### Romaji
+```text
+tomodachi to hanashite, shashin o torimasu.
+```
+
+### Dịch tiếng Việt
+Tôi nói chuyện và chụp ảnh với bạn.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 9 theo chủ đề Sở thích; chú ý mẫu JPD133-L09-G001 đến G008.
+
+## R010 – Ca sĩ yêu thích
+
+### Đoạn văn tiếng Nhật
+```text
+好きなことをすると、楽しいです。
+```
+
+### Romaji
+```text
+suki na koto o suru to, tanoshii desu.
+```
+
+### Dịch tiếng Việt
+Làm điều mình thích thì rất vui.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 10 theo chủ đề Sở thích; chú ý mẫu JPD133-L09-G001 đến G008.
+
+
+# JPD133 Reading Bài 9 – 好きなこと
+
+> Chủ đề: Sở thích
+> Mục tiêu: 25 đoạn đọc về sở thích, tần suất, khả năng và cuối tuần.
+> Từ vựng bắt buộc: 趣味, 音楽, 読書, 旅行, スポーツ, いつも, よく, ときどき, できます, どうやって
+> Kanji bắt buộc: 趣味, 音楽, 旅行, 読, 作
+> Ngữ pháp bắt buộc: JPD133-L09-G001 đến G008
+
+## R001 – Mùa hè
 
 ### Đoạn văn tiếng Nhật
 ```text
@@ -807,9 +8151,180 @@ natsu wa suiei o shimasu.
 Mùa hè tôi bơi.
 
 ### Tóm tắt và ghi chú luyện tập
-Luyện đọc đoạn 19 theo chủ đề Sở thích; chú ý mẫu JPD133-L09-G001 đến G008.
+Luyện đọc đoạn 1 theo chủ đề Sở thích; chú ý mẫu JPD133-L09-G001 đến G008.
 
-## R020 – Mùa đông
+## R002 – Mùa hè
+
+### Đoạn văn tiếng Nhật
+```text
+私はよく音楽を聞きます。
+```
+
+### Romaji
+```text
+watashi wa yoku ongaku o kikimasu.
+```
+
+### Dịch tiếng Việt
+Tôi thường nghe nhạc.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 2 theo chủ đề Sở thích; chú ý mẫu JPD133-L09-G001 đến G008.
+
+## R003 – Mùa hè
+
+### Đoạn văn tiếng Nhật
+```text
+ときどき友達と映画を見ます。
+```
+
+### Romaji
+```text
+tokidoki tomodachi to eiga o mimasu.
+```
+
+### Dịch tiếng Việt
+Thỉnh thoảng tôi xem phim với bạn.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 3 theo chủ đề Sở thích; chú ý mẫu JPD133-L09-G001 đến G008.
+
+## R004 – Mùa hè
+
+### Đoạn văn tiếng Nhật
+```text
+一週間に二回、図書館へ行きます。
+```
+
+### Romaji
+```text
+isshuukan ni nikai, toshokan e ikimasu.
+```
+
+### Dịch tiếng Việt
+Một tuần tôi đi thư viện hai lần.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 4 theo chủ đề Sở thích; chú ý mẫu JPD133-L09-G001 đến G008.
+
+## R005 – Mùa hè
+
+### Đoạn văn tiếng Nhật
+```text
+本を読むことが好きです。
+```
+
+### Romaji
+```text
+hon o yomu koto ga suki desu.
+```
+
+### Dịch tiếng Việt
+Tôi thích đọc sách.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 5 theo chủ đề Sở thích; chú ý mẫu JPD133-L09-G001 đến G008.
+
+## R006 – Mùa hè
+
+### Đoạn văn tiếng Nhật
+```text
+料理を作ることができます。
+```
+
+### Romaji
+```text
+ryouri o tsukuru koto ga dekimasu.
+```
+
+### Dịch tiếng Việt
+Tôi có thể nấu ăn.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 6 theo chủ đề Sở thích; chú ý mẫu JPD133-L09-G001 đến G008.
+
+## R007 – Mùa hè
+
+### Đoạn văn tiếng Nhật
+```text
+全然スポーツをしない日もあります。
+```
+
+### Romaji
+```text
+zenzen supootsu o shinai hi mo arimasu.
+```
+
+### Dịch tiếng Việt
+Cũng có những ngày tôi hoàn toàn không chơi thể thao.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 7 theo chủ đề Sở thích; chú ý mẫu JPD133-L09-G001 đến G008.
+
+## R008 – Mùa hè
+
+### Đoạn văn tiếng Nhật
+```text
+でも、週末は外へ出かけます。
+```
+
+### Romaji
+```text
+demo, shuumatsu wa soto e dekakemasu.
+```
+
+### Dịch tiếng Việt
+Nhưng cuối tuần tôi đi ra ngoài.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 8 theo chủ đề Sở thích; chú ý mẫu JPD133-L09-G001 đến G008.
+
+## R009 – Mùa hè
+
+### Đoạn văn tiếng Nhật
+```text
+友達と話して、写真を撮ります。
+```
+
+### Romaji
+```text
+tomodachi to hanashite, shashin o torimasu.
+```
+
+### Dịch tiếng Việt
+Tôi nói chuyện và chụp ảnh với bạn.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 9 theo chủ đề Sở thích; chú ý mẫu JPD133-L09-G001 đến G008.
+
+## R010 – Mùa hè
+
+### Đoạn văn tiếng Nhật
+```text
+好きなことをすると、楽しいです。
+```
+
+### Romaji
+```text
+suki na koto o suru to, tanoshii desu.
+```
+
+### Dịch tiếng Việt
+Làm điều mình thích thì rất vui.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 10 theo chủ đề Sở thích; chú ý mẫu JPD133-L09-G001 đến G008.
+
+
+# JPD133 Reading Bài 9 – 好きなこと
+
+> Chủ đề: Sở thích
+> Mục tiêu: 25 đoạn đọc về sở thích, tần suất, khả năng và cuối tuần.
+> Từ vựng bắt buộc: 趣味, 音楽, 読書, 旅行, スポーツ, いつも, よく, ときどき, できます, どうやって
+> Kanji bắt buộc: 趣味, 音楽, 旅行, 読, 作
+> Ngữ pháp bắt buộc: JPD133-L09-G001 đến G008
+
+## R001 – Mùa đông
 
 ### Đoạn văn tiếng Nhật
 ```text
@@ -825,9 +8340,180 @@ fuyu wa sukii ga dekimasu.
 Mùa đông tôi có thể trượt tuyết.
 
 ### Tóm tắt và ghi chú luyện tập
-Luyện đọc đoạn 20 theo chủ đề Sở thích; chú ý mẫu JPD133-L09-G001 đến G008.
+Luyện đọc đoạn 1 theo chủ đề Sở thích; chú ý mẫu JPD133-L09-G001 đến G008.
 
-## R021 – Bài hát
+## R002 – Mùa đông
+
+### Đoạn văn tiếng Nhật
+```text
+私はよく音楽を聞きます。
+```
+
+### Romaji
+```text
+watashi wa yoku ongaku o kikimasu.
+```
+
+### Dịch tiếng Việt
+Tôi thường nghe nhạc.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 2 theo chủ đề Sở thích; chú ý mẫu JPD133-L09-G001 đến G008.
+
+## R003 – Mùa đông
+
+### Đoạn văn tiếng Nhật
+```text
+ときどき友達と映画を見ます。
+```
+
+### Romaji
+```text
+tokidoki tomodachi to eiga o mimasu.
+```
+
+### Dịch tiếng Việt
+Thỉnh thoảng tôi xem phim với bạn.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 3 theo chủ đề Sở thích; chú ý mẫu JPD133-L09-G001 đến G008.
+
+## R004 – Mùa đông
+
+### Đoạn văn tiếng Nhật
+```text
+一週間に二回、図書館へ行きます。
+```
+
+### Romaji
+```text
+isshuukan ni nikai, toshokan e ikimasu.
+```
+
+### Dịch tiếng Việt
+Một tuần tôi đi thư viện hai lần.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 4 theo chủ đề Sở thích; chú ý mẫu JPD133-L09-G001 đến G008.
+
+## R005 – Mùa đông
+
+### Đoạn văn tiếng Nhật
+```text
+本を読むことが好きです。
+```
+
+### Romaji
+```text
+hon o yomu koto ga suki desu.
+```
+
+### Dịch tiếng Việt
+Tôi thích đọc sách.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 5 theo chủ đề Sở thích; chú ý mẫu JPD133-L09-G001 đến G008.
+
+## R006 – Mùa đông
+
+### Đoạn văn tiếng Nhật
+```text
+料理を作ることができます。
+```
+
+### Romaji
+```text
+ryouri o tsukuru koto ga dekimasu.
+```
+
+### Dịch tiếng Việt
+Tôi có thể nấu ăn.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 6 theo chủ đề Sở thích; chú ý mẫu JPD133-L09-G001 đến G008.
+
+## R007 – Mùa đông
+
+### Đoạn văn tiếng Nhật
+```text
+全然スポーツをしない日もあります。
+```
+
+### Romaji
+```text
+zenzen supootsu o shinai hi mo arimasu.
+```
+
+### Dịch tiếng Việt
+Cũng có những ngày tôi hoàn toàn không chơi thể thao.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 7 theo chủ đề Sở thích; chú ý mẫu JPD133-L09-G001 đến G008.
+
+## R008 – Mùa đông
+
+### Đoạn văn tiếng Nhật
+```text
+でも、週末は外へ出かけます。
+```
+
+### Romaji
+```text
+demo, shuumatsu wa soto e dekakemasu.
+```
+
+### Dịch tiếng Việt
+Nhưng cuối tuần tôi đi ra ngoài.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 8 theo chủ đề Sở thích; chú ý mẫu JPD133-L09-G001 đến G008.
+
+## R009 – Mùa đông
+
+### Đoạn văn tiếng Nhật
+```text
+友達と話して、写真を撮ります。
+```
+
+### Romaji
+```text
+tomodachi to hanashite, shashin o torimasu.
+```
+
+### Dịch tiếng Việt
+Tôi nói chuyện và chụp ảnh với bạn.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 9 theo chủ đề Sở thích; chú ý mẫu JPD133-L09-G001 đến G008.
+
+## R010 – Mùa đông
+
+### Đoạn văn tiếng Nhật
+```text
+好きなことをすると、楽しいです。
+```
+
+### Romaji
+```text
+suki na koto o suru to, tanoshii desu.
+```
+
+### Dịch tiếng Việt
+Làm điều mình thích thì rất vui.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 10 theo chủ đề Sở thích; chú ý mẫu JPD133-L09-G001 đến G008.
+
+
+# JPD133 Reading Bài 9 – 好きなこと
+
+> Chủ đề: Sở thích
+> Mục tiêu: 25 đoạn đọc về sở thích, tần suất, khả năng và cuối tuần.
+> Từ vựng bắt buộc: 趣味, 音楽, 読書, 旅行, スポーツ, いつも, よく, ときどき, できます, どうやって
+> Kanji bắt buộc: 趣味, 音楽, 旅行, 読, 作
+> Ngữ pháp bắt buộc: JPD133-L09-G001 đến G008
+
+## R001 – Bài hát
 
 ### Đoạn văn tiếng Nhật
 ```text
@@ -843,9 +8529,180 @@ kono uta wa totemo omoshiroi desu.
 Bài hát này rất thú vị.
 
 ### Tóm tắt và ghi chú luyện tập
-Luyện đọc đoạn 21 theo chủ đề Sở thích; chú ý mẫu JPD133-L09-G001 đến G008.
+Luyện đọc đoạn 1 theo chủ đề Sở thích; chú ý mẫu JPD133-L09-G001 đến G008.
 
-## R022 – Chuyến đi đầu tiên
+## R002 – Bài hát
+
+### Đoạn văn tiếng Nhật
+```text
+私はよく音楽を聞きます。
+```
+
+### Romaji
+```text
+watashi wa yoku ongaku o kikimasu.
+```
+
+### Dịch tiếng Việt
+Tôi thường nghe nhạc.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 2 theo chủ đề Sở thích; chú ý mẫu JPD133-L09-G001 đến G008.
+
+## R003 – Bài hát
+
+### Đoạn văn tiếng Nhật
+```text
+ときどき友達と映画を見ます。
+```
+
+### Romaji
+```text
+tokidoki tomodachi to eiga o mimasu.
+```
+
+### Dịch tiếng Việt
+Thỉnh thoảng tôi xem phim với bạn.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 3 theo chủ đề Sở thích; chú ý mẫu JPD133-L09-G001 đến G008.
+
+## R004 – Bài hát
+
+### Đoạn văn tiếng Nhật
+```text
+一週間に二回、図書館へ行きます。
+```
+
+### Romaji
+```text
+isshuukan ni nikai, toshokan e ikimasu.
+```
+
+### Dịch tiếng Việt
+Một tuần tôi đi thư viện hai lần.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 4 theo chủ đề Sở thích; chú ý mẫu JPD133-L09-G001 đến G008.
+
+## R005 – Bài hát
+
+### Đoạn văn tiếng Nhật
+```text
+本を読むことが好きです。
+```
+
+### Romaji
+```text
+hon o yomu koto ga suki desu.
+```
+
+### Dịch tiếng Việt
+Tôi thích đọc sách.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 5 theo chủ đề Sở thích; chú ý mẫu JPD133-L09-G001 đến G008.
+
+## R006 – Bài hát
+
+### Đoạn văn tiếng Nhật
+```text
+料理を作ることができます。
+```
+
+### Romaji
+```text
+ryouri o tsukuru koto ga dekimasu.
+```
+
+### Dịch tiếng Việt
+Tôi có thể nấu ăn.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 6 theo chủ đề Sở thích; chú ý mẫu JPD133-L09-G001 đến G008.
+
+## R007 – Bài hát
+
+### Đoạn văn tiếng Nhật
+```text
+全然スポーツをしない日もあります。
+```
+
+### Romaji
+```text
+zenzen supootsu o shinai hi mo arimasu.
+```
+
+### Dịch tiếng Việt
+Cũng có những ngày tôi hoàn toàn không chơi thể thao.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 7 theo chủ đề Sở thích; chú ý mẫu JPD133-L09-G001 đến G008.
+
+## R008 – Bài hát
+
+### Đoạn văn tiếng Nhật
+```text
+でも、週末は外へ出かけます。
+```
+
+### Romaji
+```text
+demo, shuumatsu wa soto e dekakemasu.
+```
+
+### Dịch tiếng Việt
+Nhưng cuối tuần tôi đi ra ngoài.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 8 theo chủ đề Sở thích; chú ý mẫu JPD133-L09-G001 đến G008.
+
+## R009 – Bài hát
+
+### Đoạn văn tiếng Nhật
+```text
+友達と話して、写真を撮ります。
+```
+
+### Romaji
+```text
+tomodachi to hanashite, shashin o torimasu.
+```
+
+### Dịch tiếng Việt
+Tôi nói chuyện và chụp ảnh với bạn.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 9 theo chủ đề Sở thích; chú ý mẫu JPD133-L09-G001 đến G008.
+
+## R010 – Bài hát
+
+### Đoạn văn tiếng Nhật
+```text
+好きなことをすると、楽しいです。
+```
+
+### Romaji
+```text
+suki na koto o suru to, tanoshii desu.
+```
+
+### Dịch tiếng Việt
+Làm điều mình thích thì rất vui.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 10 theo chủ đề Sở thích; chú ý mẫu JPD133-L09-G001 đến G008.
+
+
+# JPD133 Reading Bài 9 – 好きなこと
+
+> Chủ đề: Sở thích
+> Mục tiêu: 25 đoạn đọc về sở thích, tần suất, khả năng và cuối tuần.
+> Từ vựng bắt buộc: 趣味, 音楽, 読書, 旅行, スポーツ, いつも, よく, ときどき, できます, どうやって
+> Kanji bắt buộc: 趣味, 音楽, 旅行, 読, 作
+> Ngữ pháp bắt buộc: JPD133-L09-G001 đến G008
+
+## R001 – Chuyến đi đầu tiên
 
 ### Đoạn văn tiếng Nhật
 ```text
@@ -861,9 +8718,180 @@ hajimete nihon e ryokou shimashita.
 Lần đầu tôi đã đi du lịch Nhật.
 
 ### Tóm tắt và ghi chú luyện tập
-Luyện đọc đoạn 22 theo chủ đề Sở thích; chú ý mẫu JPD133-L09-G001 đến G008.
+Luyện đọc đoạn 1 theo chủ đề Sở thích; chú ý mẫu JPD133-L09-G001 đến G008.
 
-## R023 – Ngày nghỉ
+## R002 – Chuyến đi đầu tiên
+
+### Đoạn văn tiếng Nhật
+```text
+私はよく音楽を聞きます。
+```
+
+### Romaji
+```text
+watashi wa yoku ongaku o kikimasu.
+```
+
+### Dịch tiếng Việt
+Tôi thường nghe nhạc.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 2 theo chủ đề Sở thích; chú ý mẫu JPD133-L09-G001 đến G008.
+
+## R003 – Chuyến đi đầu tiên
+
+### Đoạn văn tiếng Nhật
+```text
+ときどき友達と映画を見ます。
+```
+
+### Romaji
+```text
+tokidoki tomodachi to eiga o mimasu.
+```
+
+### Dịch tiếng Việt
+Thỉnh thoảng tôi xem phim với bạn.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 3 theo chủ đề Sở thích; chú ý mẫu JPD133-L09-G001 đến G008.
+
+## R004 – Chuyến đi đầu tiên
+
+### Đoạn văn tiếng Nhật
+```text
+一週間に二回、図書館へ行きます。
+```
+
+### Romaji
+```text
+isshuukan ni nikai, toshokan e ikimasu.
+```
+
+### Dịch tiếng Việt
+Một tuần tôi đi thư viện hai lần.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 4 theo chủ đề Sở thích; chú ý mẫu JPD133-L09-G001 đến G008.
+
+## R005 – Chuyến đi đầu tiên
+
+### Đoạn văn tiếng Nhật
+```text
+本を読むことが好きです。
+```
+
+### Romaji
+```text
+hon o yomu koto ga suki desu.
+```
+
+### Dịch tiếng Việt
+Tôi thích đọc sách.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 5 theo chủ đề Sở thích; chú ý mẫu JPD133-L09-G001 đến G008.
+
+## R006 – Chuyến đi đầu tiên
+
+### Đoạn văn tiếng Nhật
+```text
+料理を作ることができます。
+```
+
+### Romaji
+```text
+ryouri o tsukuru koto ga dekimasu.
+```
+
+### Dịch tiếng Việt
+Tôi có thể nấu ăn.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 6 theo chủ đề Sở thích; chú ý mẫu JPD133-L09-G001 đến G008.
+
+## R007 – Chuyến đi đầu tiên
+
+### Đoạn văn tiếng Nhật
+```text
+全然スポーツをしない日もあります。
+```
+
+### Romaji
+```text
+zenzen supootsu o shinai hi mo arimasu.
+```
+
+### Dịch tiếng Việt
+Cũng có những ngày tôi hoàn toàn không chơi thể thao.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 7 theo chủ đề Sở thích; chú ý mẫu JPD133-L09-G001 đến G008.
+
+## R008 – Chuyến đi đầu tiên
+
+### Đoạn văn tiếng Nhật
+```text
+でも、週末は外へ出かけます。
+```
+
+### Romaji
+```text
+demo, shuumatsu wa soto e dekakemasu.
+```
+
+### Dịch tiếng Việt
+Nhưng cuối tuần tôi đi ra ngoài.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 8 theo chủ đề Sở thích; chú ý mẫu JPD133-L09-G001 đến G008.
+
+## R009 – Chuyến đi đầu tiên
+
+### Đoạn văn tiếng Nhật
+```text
+友達と話して、写真を撮ります。
+```
+
+### Romaji
+```text
+tomodachi to hanashite, shashin o torimasu.
+```
+
+### Dịch tiếng Việt
+Tôi nói chuyện và chụp ảnh với bạn.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 9 theo chủ đề Sở thích; chú ý mẫu JPD133-L09-G001 đến G008.
+
+## R010 – Chuyến đi đầu tiên
+
+### Đoạn văn tiếng Nhật
+```text
+好きなことをすると、楽しいです。
+```
+
+### Romaji
+```text
+suki na koto o suru to, tanoshii desu.
+```
+
+### Dịch tiếng Việt
+Làm điều mình thích thì rất vui.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 10 theo chủ đề Sở thích; chú ý mẫu JPD133-L09-G001 đến G008.
+
+
+# JPD133 Reading Bài 9 – 好きなこと
+
+> Chủ đề: Sở thích
+> Mục tiêu: 25 đoạn đọc về sở thích, tần suất, khả năng và cuối tuần.
+> Từ vựng bắt buộc: 趣味, 音楽, 読書, 旅行, スポーツ, いつも, よく, ときどき, できます, どうやって
+> Kanji bắt buộc: 趣味, 音楽, 旅行, 読, 作
+> Ngữ pháp bắt buộc: JPD133-L09-G001 đến G008
+
+## R001 – Ngày nghỉ
 
 ### Đoạn văn tiếng Nhật
 ```text
@@ -879,9 +8907,180 @@ yasumi no hi, ryouri o shitari hon o yondari shimasu.
 Ngày nghỉ tôi nấu ăn và đọc sách.
 
 ### Tóm tắt và ghi chú luyện tập
-Luyện đọc đoạn 23 theo chủ đề Sở thích; chú ý mẫu JPD133-L09-G001 đến G008.
+Luyện đọc đoạn 1 theo chủ đề Sở thích; chú ý mẫu JPD133-L09-G001 đến G008.
 
-## R024 – Đi chơi cùng bạn
+## R002 – Ngày nghỉ
+
+### Đoạn văn tiếng Nhật
+```text
+私はよく音楽を聞きます。
+```
+
+### Romaji
+```text
+watashi wa yoku ongaku o kikimasu.
+```
+
+### Dịch tiếng Việt
+Tôi thường nghe nhạc.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 2 theo chủ đề Sở thích; chú ý mẫu JPD133-L09-G001 đến G008.
+
+## R003 – Ngày nghỉ
+
+### Đoạn văn tiếng Nhật
+```text
+ときどき友達と映画を見ます。
+```
+
+### Romaji
+```text
+tokidoki tomodachi to eiga o mimasu.
+```
+
+### Dịch tiếng Việt
+Thỉnh thoảng tôi xem phim với bạn.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 3 theo chủ đề Sở thích; chú ý mẫu JPD133-L09-G001 đến G008.
+
+## R004 – Ngày nghỉ
+
+### Đoạn văn tiếng Nhật
+```text
+一週間に二回、図書館へ行きます。
+```
+
+### Romaji
+```text
+isshuukan ni nikai, toshokan e ikimasu.
+```
+
+### Dịch tiếng Việt
+Một tuần tôi đi thư viện hai lần.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 4 theo chủ đề Sở thích; chú ý mẫu JPD133-L09-G001 đến G008.
+
+## R005 – Ngày nghỉ
+
+### Đoạn văn tiếng Nhật
+```text
+本を読むことが好きです。
+```
+
+### Romaji
+```text
+hon o yomu koto ga suki desu.
+```
+
+### Dịch tiếng Việt
+Tôi thích đọc sách.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 5 theo chủ đề Sở thích; chú ý mẫu JPD133-L09-G001 đến G008.
+
+## R006 – Ngày nghỉ
+
+### Đoạn văn tiếng Nhật
+```text
+料理を作ることができます。
+```
+
+### Romaji
+```text
+ryouri o tsukuru koto ga dekimasu.
+```
+
+### Dịch tiếng Việt
+Tôi có thể nấu ăn.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 6 theo chủ đề Sở thích; chú ý mẫu JPD133-L09-G001 đến G008.
+
+## R007 – Ngày nghỉ
+
+### Đoạn văn tiếng Nhật
+```text
+全然スポーツをしない日もあります。
+```
+
+### Romaji
+```text
+zenzen supootsu o shinai hi mo arimasu.
+```
+
+### Dịch tiếng Việt
+Cũng có những ngày tôi hoàn toàn không chơi thể thao.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 7 theo chủ đề Sở thích; chú ý mẫu JPD133-L09-G001 đến G008.
+
+## R008 – Ngày nghỉ
+
+### Đoạn văn tiếng Nhật
+```text
+でも、週末は外へ出かけます。
+```
+
+### Romaji
+```text
+demo, shuumatsu wa soto e dekakemasu.
+```
+
+### Dịch tiếng Việt
+Nhưng cuối tuần tôi đi ra ngoài.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 8 theo chủ đề Sở thích; chú ý mẫu JPD133-L09-G001 đến G008.
+
+## R009 – Ngày nghỉ
+
+### Đoạn văn tiếng Nhật
+```text
+友達と話して、写真を撮ります。
+```
+
+### Romaji
+```text
+tomodachi to hanashite, shashin o torimasu.
+```
+
+### Dịch tiếng Việt
+Tôi nói chuyện và chụp ảnh với bạn.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 9 theo chủ đề Sở thích; chú ý mẫu JPD133-L09-G001 đến G008.
+
+## R010 – Ngày nghỉ
+
+### Đoạn văn tiếng Nhật
+```text
+好きなことをすると、楽しいです。
+```
+
+### Romaji
+```text
+suki na koto o suru to, tanoshii desu.
+```
+
+### Dịch tiếng Việt
+Làm điều mình thích thì rất vui.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 10 theo chủ đề Sở thích; chú ý mẫu JPD133-L09-G001 đến G008.
+
+
+# JPD133 Reading Bài 9 – 好きなこと
+
+> Chủ đề: Sở thích
+> Mục tiêu: 25 đoạn đọc về sở thích, tần suất, khả năng và cuối tuần.
+> Từ vựng bắt buộc: 趣味, 音楽, 読書, 旅行, スポーツ, いつも, よく, ときどき, できます, どうやって
+> Kanji bắt buộc: 趣味, 音楽, 旅行, 読, 作
+> Ngữ pháp bắt buộc: JPD133-L09-G001 đến G008
+
+## R001 – Đi chơi cùng bạn
 
 ### Đoạn văn tiếng Nhật
 ```text
@@ -897,9 +9096,180 @@ tomodachi to kouen e itte, hanashimasu.
 Tôi đi công viên và nói chuyện với bạn.
 
 ### Tóm tắt và ghi chú luyện tập
-Luyện đọc đoạn 24 theo chủ đề Sở thích; chú ý mẫu JPD133-L09-G001 đến G008.
+Luyện đọc đoạn 1 theo chủ đề Sở thích; chú ý mẫu JPD133-L09-G001 đến G008.
 
-## R025 – Sở thích của tôi
+## R002 – Đi chơi cùng bạn
+
+### Đoạn văn tiếng Nhật
+```text
+私はよく音楽を聞きます。
+```
+
+### Romaji
+```text
+watashi wa yoku ongaku o kikimasu.
+```
+
+### Dịch tiếng Việt
+Tôi thường nghe nhạc.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 2 theo chủ đề Sở thích; chú ý mẫu JPD133-L09-G001 đến G008.
+
+## R003 – Đi chơi cùng bạn
+
+### Đoạn văn tiếng Nhật
+```text
+ときどき友達と映画を見ます。
+```
+
+### Romaji
+```text
+tokidoki tomodachi to eiga o mimasu.
+```
+
+### Dịch tiếng Việt
+Thỉnh thoảng tôi xem phim với bạn.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 3 theo chủ đề Sở thích; chú ý mẫu JPD133-L09-G001 đến G008.
+
+## R004 – Đi chơi cùng bạn
+
+### Đoạn văn tiếng Nhật
+```text
+一週間に二回、図書館へ行きます。
+```
+
+### Romaji
+```text
+isshuukan ni nikai, toshokan e ikimasu.
+```
+
+### Dịch tiếng Việt
+Một tuần tôi đi thư viện hai lần.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 4 theo chủ đề Sở thích; chú ý mẫu JPD133-L09-G001 đến G008.
+
+## R005 – Đi chơi cùng bạn
+
+### Đoạn văn tiếng Nhật
+```text
+本を読むことが好きです。
+```
+
+### Romaji
+```text
+hon o yomu koto ga suki desu.
+```
+
+### Dịch tiếng Việt
+Tôi thích đọc sách.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 5 theo chủ đề Sở thích; chú ý mẫu JPD133-L09-G001 đến G008.
+
+## R006 – Đi chơi cùng bạn
+
+### Đoạn văn tiếng Nhật
+```text
+料理を作ることができます。
+```
+
+### Romaji
+```text
+ryouri o tsukuru koto ga dekimasu.
+```
+
+### Dịch tiếng Việt
+Tôi có thể nấu ăn.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 6 theo chủ đề Sở thích; chú ý mẫu JPD133-L09-G001 đến G008.
+
+## R007 – Đi chơi cùng bạn
+
+### Đoạn văn tiếng Nhật
+```text
+全然スポーツをしない日もあります。
+```
+
+### Romaji
+```text
+zenzen supootsu o shinai hi mo arimasu.
+```
+
+### Dịch tiếng Việt
+Cũng có những ngày tôi hoàn toàn không chơi thể thao.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 7 theo chủ đề Sở thích; chú ý mẫu JPD133-L09-G001 đến G008.
+
+## R008 – Đi chơi cùng bạn
+
+### Đoạn văn tiếng Nhật
+```text
+でも、週末は外へ出かけます。
+```
+
+### Romaji
+```text
+demo, shuumatsu wa soto e dekakemasu.
+```
+
+### Dịch tiếng Việt
+Nhưng cuối tuần tôi đi ra ngoài.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 8 theo chủ đề Sở thích; chú ý mẫu JPD133-L09-G001 đến G008.
+
+## R009 – Đi chơi cùng bạn
+
+### Đoạn văn tiếng Nhật
+```text
+友達と話して、写真を撮ります。
+```
+
+### Romaji
+```text
+tomodachi to hanashite, shashin o torimasu.
+```
+
+### Dịch tiếng Việt
+Tôi nói chuyện và chụp ảnh với bạn.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 9 theo chủ đề Sở thích; chú ý mẫu JPD133-L09-G001 đến G008.
+
+## R010 – Đi chơi cùng bạn
+
+### Đoạn văn tiếng Nhật
+```text
+好きなことをすると、楽しいです。
+```
+
+### Romaji
+```text
+suki na koto o suru to, tanoshii desu.
+```
+
+### Dịch tiếng Việt
+Làm điều mình thích thì rất vui.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 10 theo chủ đề Sở thích; chú ý mẫu JPD133-L09-G001 đến G008.
+
+
+# JPD133 Reading Bài 9 – 好きなこと
+
+> Chủ đề: Sở thích
+> Mục tiêu: 25 đoạn đọc về sở thích, tần suất, khả năng và cuối tuần.
+> Từ vựng bắt buộc: 趣味, 音楽, 読書, 旅行, スポーツ, いつも, よく, ときどき, できます, どうやって
+> Kanji bắt buộc: 趣味, 音楽, 旅行, 読, 作
+> Ngữ pháp bắt buộc: JPD133-L09-G001 đến G008
+
+## R001 – Sở thích của tôi
 
 ### Đoạn văn tiếng Nhật
 ```text
@@ -915,7 +9285,169 @@ watashi no shumi wa shashin o toru koto desu.
 Sở thích của tôi là chụp ảnh.
 
 ### Tóm tắt và ghi chú luyện tập
-Luyện đọc đoạn 25 theo chủ đề Sở thích; chú ý mẫu JPD133-L09-G001 đến G008.
+Luyện đọc đoạn 1 theo chủ đề Sở thích; chú ý mẫu JPD133-L09-G001 đến G008.
+
+## R002 – Sở thích của tôi
+
+### Đoạn văn tiếng Nhật
+```text
+私はよく音楽を聞きます。
+```
+
+### Romaji
+```text
+watashi wa yoku ongaku o kikimasu.
+```
+
+### Dịch tiếng Việt
+Tôi thường nghe nhạc.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 2 theo chủ đề Sở thích; chú ý mẫu JPD133-L09-G001 đến G008.
+
+## R003 – Sở thích của tôi
+
+### Đoạn văn tiếng Nhật
+```text
+ときどき友達と映画を見ます。
+```
+
+### Romaji
+```text
+tokidoki tomodachi to eiga o mimasu.
+```
+
+### Dịch tiếng Việt
+Thỉnh thoảng tôi xem phim với bạn.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 3 theo chủ đề Sở thích; chú ý mẫu JPD133-L09-G001 đến G008.
+
+## R004 – Sở thích của tôi
+
+### Đoạn văn tiếng Nhật
+```text
+一週間に二回、図書館へ行きます。
+```
+
+### Romaji
+```text
+isshuukan ni nikai, toshokan e ikimasu.
+```
+
+### Dịch tiếng Việt
+Một tuần tôi đi thư viện hai lần.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 4 theo chủ đề Sở thích; chú ý mẫu JPD133-L09-G001 đến G008.
+
+## R005 – Sở thích của tôi
+
+### Đoạn văn tiếng Nhật
+```text
+本を読むことが好きです。
+```
+
+### Romaji
+```text
+hon o yomu koto ga suki desu.
+```
+
+### Dịch tiếng Việt
+Tôi thích đọc sách.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 5 theo chủ đề Sở thích; chú ý mẫu JPD133-L09-G001 đến G008.
+
+## R006 – Sở thích của tôi
+
+### Đoạn văn tiếng Nhật
+```text
+料理を作ることができます。
+```
+
+### Romaji
+```text
+ryouri o tsukuru koto ga dekimasu.
+```
+
+### Dịch tiếng Việt
+Tôi có thể nấu ăn.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 6 theo chủ đề Sở thích; chú ý mẫu JPD133-L09-G001 đến G008.
+
+## R007 – Sở thích của tôi
+
+### Đoạn văn tiếng Nhật
+```text
+全然スポーツをしない日もあります。
+```
+
+### Romaji
+```text
+zenzen supootsu o shinai hi mo arimasu.
+```
+
+### Dịch tiếng Việt
+Cũng có những ngày tôi hoàn toàn không chơi thể thao.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 7 theo chủ đề Sở thích; chú ý mẫu JPD133-L09-G001 đến G008.
+
+## R008 – Sở thích của tôi
+
+### Đoạn văn tiếng Nhật
+```text
+でも、週末は外へ出かけます。
+```
+
+### Romaji
+```text
+demo, shuumatsu wa soto e dekakemasu.
+```
+
+### Dịch tiếng Việt
+Nhưng cuối tuần tôi đi ra ngoài.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 8 theo chủ đề Sở thích; chú ý mẫu JPD133-L09-G001 đến G008.
+
+## R009 – Sở thích của tôi
+
+### Đoạn văn tiếng Nhật
+```text
+友達と話して、写真を撮ります。
+```
+
+### Romaji
+```text
+tomodachi to hanashite, shashin o torimasu.
+```
+
+### Dịch tiếng Việt
+Tôi nói chuyện và chụp ảnh với bạn.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 9 theo chủ đề Sở thích; chú ý mẫu JPD133-L09-G001 đến G008.
+
+## R010 – Sở thích của tôi
+
+### Đoạn văn tiếng Nhật
+```text
+好きなことをすると、楽しいです。
+```
+
+### Romaji
+```text
+suki na koto o suru to, tanoshii desu.
+```
+
+### Dịch tiếng Việt
+Làm điều mình thích thì rất vui.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 10 theo chủ đề Sở thích; chú ý mẫu JPD133-L09-G001 đến G008.
 
 
 ---
@@ -946,7 +9478,385 @@ Nhà ga ở đâu?
 ### Tóm tắt và ghi chú luyện tập
 Luyện đọc đoạn 1 theo chủ đề Địa điểm và đường đi; chú ý mẫu JPD133-L10-G001 đến G014.
 
+## R002 – Nhà ga
+
+### Đoạn văn tiếng Nhật
+```text
+駅までバスで行きます。
+```
+
+### Romaji
+```text
+eki made basu de ikimasu.
+```
+
+### Dịch tiếng Việt
+Tôi đi xe buýt đến ga.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 2 theo chủ đề Địa điểm và đường đi; chú ý mẫu JPD133-L10-G001 đến G014.
+
+## R003 – Nhà ga
+
+### Đoạn văn tiếng Nhật
+```text
+道をまっすぐ行ってください。
+```
+
+### Romaji
+```text
+michi o massugu itte kudasai.
+```
+
+### Dịch tiếng Việt
+Hãy đi thẳng theo đường.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 3 theo chủ đề Địa điểm và đường đi; chú ý mẫu JPD133-L10-G001 đến G014.
+
+## R004 – Nhà ga
+
+### Đoạn văn tiếng Nhật
+```text
+交差点を右に曲がります。
+```
+
+### Romaji
+```text
+kousaten o migi ni magarimasu.
+```
+
+### Dịch tiếng Việt
+Tôi rẽ phải ở ngã tư.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 4 theo chủ đề Địa điểm và đường đi; chú ý mẫu JPD133-L10-G001 đến G014.
+
+## R005 – Nhà ga
+
+### Đoạn văn tiếng Nhật
+```text
+ここから山が見えます。
+```
+
+### Romaji
+```text
+koko kara yama ga miemasu.
+```
+
+### Dịch tiếng Việt
+Từ đây có thể nhìn thấy núi.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 5 theo chủ đề Địa điểm và đường đi; chú ý mẫu JPD133-L10-G001 đến G014.
+
+## R006 – Nhà ga
+
+### Đoạn văn tiếng Nhật
+```text
+鳥の声が聞こえます。
+```
+
+### Romaji
+```text
+tori no koe ga kikoemasu.
+```
+
+### Dịch tiếng Việt
+Có thể nghe tiếng chim.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 6 theo chủ đề Địa điểm và đường đi; chú ý mẫu JPD133-L10-G001 đến G014.
+
+## R007 – Nhà ga
+
+### Đoạn văn tiếng Nhật
+```text
+ここで写真を撮ってもいいですか。
+```
+
+### Romaji
+```text
+koko de shashin o totte mo ii desu ka.
+```
+
+### Dịch tiếng Việt
+Tôi chụp ảnh ở đây được không?
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 7 theo chủ đề Địa điểm và đường đi; chú ý mẫu JPD133-L10-G001 đến G014.
+
+## R008 – Nhà ga
+
+### Đoạn văn tiếng Nhật
+```text
+そこに入らないでください。
+```
+
+### Romaji
+```text
+soko ni hairanaide kudasai.
+```
+
+### Dịch tiếng Việt
+Xin đừng vào đó.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 8 theo chủ đề Địa điểm và đường đi; chú ý mẫu JPD133-L10-G001 đến G014.
+
+## R009 – Nhà ga
+
+### Đoạn văn tiếng Nhật
+```text
+もう昼ご飯を食べました。
+```
+
+### Romaji
+```text
+mou hirugohan o tabemashita.
+```
+
+### Dịch tiếng Việt
+Tôi đã ăn trưa rồi.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 9 theo chủ đề Địa điểm và đường đi; chú ý mẫu JPD133-L10-G001 đến G014.
+
+## R010 – Nhà ga
+
+### Đoạn văn tiếng Nhật
+```text
+まだ宿題をしていません。
+```
+
+### Romaji
+```text
+mada shukudai o shiteimasen.
+```
+
+### Dịch tiếng Việt
+Tôi vẫn chưa làm bài tập.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 10 theo chủ đề Địa điểm và đường đi; chú ý mẫu JPD133-L10-G001 đến G014.
+
+
+# JPD133 Reading Bài 10 – バスツアー
+
+> Chủ đề: Địa điểm và đường đi
+> Mục tiêu: 25 đoạn đọc về đường đi, địa điểm, xin phép và tình huống.
+> Từ vựng bắt buộc: 駅, バス, 道, 交差点, 橋, 見えます, 聞こえます, てもいいですか, ないでください
+> Kanji bắt buộc: 駅, 道, 橋, 右, 左, 見
+> Ngữ pháp bắt buộc: JPD133-L10-G001 đến G014
+
+## R001 – Xe buýt
+
+### Đoạn văn tiếng Nhật
+```text
+駅までバスで行きます。
+```
+
+### Romaji
+```text
+eki made basu de ikimasu.
+```
+
+### Dịch tiếng Việt
+Tôi đi xe buýt đến ga.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 1 theo chủ đề Địa điểm và đường đi; chú ý mẫu JPD133-L10-G001 đến G014.
+
 ## R002 – Xe buýt
+
+### Đoạn văn tiếng Nhật
+```text
+駅までバスで行きます。
+```
+
+### Romaji
+```text
+eki made basu de ikimasu.
+```
+
+### Dịch tiếng Việt
+Tôi đi xe buýt đến ga.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 2 theo chủ đề Địa điểm và đường đi; chú ý mẫu JPD133-L10-G001 đến G014.
+
+## R003 – Xe buýt
+
+### Đoạn văn tiếng Nhật
+```text
+道をまっすぐ行ってください。
+```
+
+### Romaji
+```text
+michi o massugu itte kudasai.
+```
+
+### Dịch tiếng Việt
+Hãy đi thẳng theo đường.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 3 theo chủ đề Địa điểm và đường đi; chú ý mẫu JPD133-L10-G001 đến G014.
+
+## R004 – Xe buýt
+
+### Đoạn văn tiếng Nhật
+```text
+交差点を右に曲がります。
+```
+
+### Romaji
+```text
+kousaten o migi ni magarimasu.
+```
+
+### Dịch tiếng Việt
+Tôi rẽ phải ở ngã tư.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 4 theo chủ đề Địa điểm và đường đi; chú ý mẫu JPD133-L10-G001 đến G014.
+
+## R005 – Xe buýt
+
+### Đoạn văn tiếng Nhật
+```text
+ここから山が見えます。
+```
+
+### Romaji
+```text
+koko kara yama ga miemasu.
+```
+
+### Dịch tiếng Việt
+Từ đây có thể nhìn thấy núi.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 5 theo chủ đề Địa điểm và đường đi; chú ý mẫu JPD133-L10-G001 đến G014.
+
+## R006 – Xe buýt
+
+### Đoạn văn tiếng Nhật
+```text
+鳥の声が聞こえます。
+```
+
+### Romaji
+```text
+tori no koe ga kikoemasu.
+```
+
+### Dịch tiếng Việt
+Có thể nghe tiếng chim.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 6 theo chủ đề Địa điểm và đường đi; chú ý mẫu JPD133-L10-G001 đến G014.
+
+## R007 – Xe buýt
+
+### Đoạn văn tiếng Nhật
+```text
+ここで写真を撮ってもいいですか。
+```
+
+### Romaji
+```text
+koko de shashin o totte mo ii desu ka.
+```
+
+### Dịch tiếng Việt
+Tôi chụp ảnh ở đây được không?
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 7 theo chủ đề Địa điểm và đường đi; chú ý mẫu JPD133-L10-G001 đến G014.
+
+## R008 – Xe buýt
+
+### Đoạn văn tiếng Nhật
+```text
+そこに入らないでください。
+```
+
+### Romaji
+```text
+soko ni hairanaide kudasai.
+```
+
+### Dịch tiếng Việt
+Xin đừng vào đó.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 8 theo chủ đề Địa điểm và đường đi; chú ý mẫu JPD133-L10-G001 đến G014.
+
+## R009 – Xe buýt
+
+### Đoạn văn tiếng Nhật
+```text
+もう昼ご飯を食べました。
+```
+
+### Romaji
+```text
+mou hirugohan o tabemashita.
+```
+
+### Dịch tiếng Việt
+Tôi đã ăn trưa rồi.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 9 theo chủ đề Địa điểm và đường đi; chú ý mẫu JPD133-L10-G001 đến G014.
+
+## R010 – Xe buýt
+
+### Đoạn văn tiếng Nhật
+```text
+まだ宿題をしていません。
+```
+
+### Romaji
+```text
+mada shukudai o shiteimasen.
+```
+
+### Dịch tiếng Việt
+Tôi vẫn chưa làm bài tập.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 10 theo chủ đề Địa điểm và đường đi; chú ý mẫu JPD133-L10-G001 đến G014.
+
+
+# JPD133 Reading Bài 10 – バスツアー
+
+> Chủ đề: Địa điểm và đường đi
+> Mục tiêu: 25 đoạn đọc về đường đi, địa điểm, xin phép và tình huống.
+> Từ vựng bắt buộc: 駅, バス, 道, 交差点, 橋, 見えます, 聞こえます, てもいいですか, ないでください
+> Kanji bắt buộc: 駅, 道, 橋, 右, 左, 見
+> Ngữ pháp bắt buộc: JPD133-L10-G001 đến G014
+
+## R001 – Taxi
+
+### Đoạn văn tiếng Nhật
+```text
+タクシーでホテルへ行きます。
+```
+
+### Romaji
+```text
+takushii de hoteru e ikimasu.
+```
+
+### Dịch tiếng Việt
+Tôi đi taxi đến khách sạn.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 1 theo chủ đề Địa điểm và đường đi; chú ý mẫu JPD133-L10-G001 đến G014.
+
+## R002 – Taxi
 
 ### Đoạn văn tiếng Nhật
 ```text
@@ -968,21 +9878,156 @@ Luyện đọc đoạn 2 theo chủ đề Địa điểm và đường đi; chú
 
 ### Đoạn văn tiếng Nhật
 ```text
-タクシーでホテルへ行きます。
+道をまっすぐ行ってください。
 ```
 
 ### Romaji
 ```text
-takushii de hoteru e ikimasu.
+michi o massugu itte kudasai.
 ```
 
 ### Dịch tiếng Việt
-Tôi đi taxi đến khách sạn.
+Hãy đi thẳng theo đường.
 
 ### Tóm tắt và ghi chú luyện tập
 Luyện đọc đoạn 3 theo chủ đề Địa điểm và đường đi; chú ý mẫu JPD133-L10-G001 đến G014.
 
-## R004 – Hỏi đường
+## R004 – Taxi
+
+### Đoạn văn tiếng Nhật
+```text
+交差点を右に曲がります。
+```
+
+### Romaji
+```text
+kousaten o migi ni magarimasu.
+```
+
+### Dịch tiếng Việt
+Tôi rẽ phải ở ngã tư.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 4 theo chủ đề Địa điểm và đường đi; chú ý mẫu JPD133-L10-G001 đến G014.
+
+## R005 – Taxi
+
+### Đoạn văn tiếng Nhật
+```text
+ここから山が見えます。
+```
+
+### Romaji
+```text
+koko kara yama ga miemasu.
+```
+
+### Dịch tiếng Việt
+Từ đây có thể nhìn thấy núi.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 5 theo chủ đề Địa điểm và đường đi; chú ý mẫu JPD133-L10-G001 đến G014.
+
+## R006 – Taxi
+
+### Đoạn văn tiếng Nhật
+```text
+鳥の声が聞こえます。
+```
+
+### Romaji
+```text
+tori no koe ga kikoemasu.
+```
+
+### Dịch tiếng Việt
+Có thể nghe tiếng chim.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 6 theo chủ đề Địa điểm và đường đi; chú ý mẫu JPD133-L10-G001 đến G014.
+
+## R007 – Taxi
+
+### Đoạn văn tiếng Nhật
+```text
+ここで写真を撮ってもいいですか。
+```
+
+### Romaji
+```text
+koko de shashin o totte mo ii desu ka.
+```
+
+### Dịch tiếng Việt
+Tôi chụp ảnh ở đây được không?
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 7 theo chủ đề Địa điểm và đường đi; chú ý mẫu JPD133-L10-G001 đến G014.
+
+## R008 – Taxi
+
+### Đoạn văn tiếng Nhật
+```text
+そこに入らないでください。
+```
+
+### Romaji
+```text
+soko ni hairanaide kudasai.
+```
+
+### Dịch tiếng Việt
+Xin đừng vào đó.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 8 theo chủ đề Địa điểm và đường đi; chú ý mẫu JPD133-L10-G001 đến G014.
+
+## R009 – Taxi
+
+### Đoạn văn tiếng Nhật
+```text
+もう昼ご飯を食べました。
+```
+
+### Romaji
+```text
+mou hirugohan o tabemashita.
+```
+
+### Dịch tiếng Việt
+Tôi đã ăn trưa rồi.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 9 theo chủ đề Địa điểm và đường đi; chú ý mẫu JPD133-L10-G001 đến G014.
+
+## R010 – Taxi
+
+### Đoạn văn tiếng Nhật
+```text
+まだ宿題をしていません。
+```
+
+### Romaji
+```text
+mada shukudai o shiteimasen.
+```
+
+### Dịch tiếng Việt
+Tôi vẫn chưa làm bài tập.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 10 theo chủ đề Địa điểm và đường đi; chú ý mẫu JPD133-L10-G001 đến G014.
+
+
+# JPD133 Reading Bài 10 – バスツアー
+
+> Chủ đề: Địa điểm và đường đi
+> Mục tiêu: 25 đoạn đọc về đường đi, địa điểm, xin phép và tình huống.
+> Từ vựng bắt buộc: 駅, バス, 道, 交差点, 橋, 見えます, 聞こえます, てもいいですか, ないでください
+> Kanji bắt buộc: 駅, 道, 橋, 右, 左, 見
+> Ngữ pháp bắt buộc: JPD133-L10-G001 đến G014
+
+## R001 – Hỏi đường
 
 ### Đoạn văn tiếng Nhật
 ```text
@@ -998,9 +10043,180 @@ michi o kiite, eki e ikimasu.
 Tôi hỏi đường rồi đi đến ga.
 
 ### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 1 theo chủ đề Địa điểm và đường đi; chú ý mẫu JPD133-L10-G001 đến G014.
+
+## R002 – Hỏi đường
+
+### Đoạn văn tiếng Nhật
+```text
+駅までバスで行きます。
+```
+
+### Romaji
+```text
+eki made basu de ikimasu.
+```
+
+### Dịch tiếng Việt
+Tôi đi xe buýt đến ga.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 2 theo chủ đề Địa điểm và đường đi; chú ý mẫu JPD133-L10-G001 đến G014.
+
+## R003 – Hỏi đường
+
+### Đoạn văn tiếng Nhật
+```text
+道をまっすぐ行ってください。
+```
+
+### Romaji
+```text
+michi o massugu itte kudasai.
+```
+
+### Dịch tiếng Việt
+Hãy đi thẳng theo đường.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 3 theo chủ đề Địa điểm và đường đi; chú ý mẫu JPD133-L10-G001 đến G014.
+
+## R004 – Hỏi đường
+
+### Đoạn văn tiếng Nhật
+```text
+交差点を右に曲がります。
+```
+
+### Romaji
+```text
+kousaten o migi ni magarimasu.
+```
+
+### Dịch tiếng Việt
+Tôi rẽ phải ở ngã tư.
+
+### Tóm tắt và ghi chú luyện tập
 Luyện đọc đoạn 4 theo chủ đề Địa điểm và đường đi; chú ý mẫu JPD133-L10-G001 đến G014.
 
-## R005 – Bản đồ
+## R005 – Hỏi đường
+
+### Đoạn văn tiếng Nhật
+```text
+ここから山が見えます。
+```
+
+### Romaji
+```text
+koko kara yama ga miemasu.
+```
+
+### Dịch tiếng Việt
+Từ đây có thể nhìn thấy núi.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 5 theo chủ đề Địa điểm và đường đi; chú ý mẫu JPD133-L10-G001 đến G014.
+
+## R006 – Hỏi đường
+
+### Đoạn văn tiếng Nhật
+```text
+鳥の声が聞こえます。
+```
+
+### Romaji
+```text
+tori no koe ga kikoemasu.
+```
+
+### Dịch tiếng Việt
+Có thể nghe tiếng chim.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 6 theo chủ đề Địa điểm và đường đi; chú ý mẫu JPD133-L10-G001 đến G014.
+
+## R007 – Hỏi đường
+
+### Đoạn văn tiếng Nhật
+```text
+ここで写真を撮ってもいいですか。
+```
+
+### Romaji
+```text
+koko de shashin o totte mo ii desu ka.
+```
+
+### Dịch tiếng Việt
+Tôi chụp ảnh ở đây được không?
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 7 theo chủ đề Địa điểm và đường đi; chú ý mẫu JPD133-L10-G001 đến G014.
+
+## R008 – Hỏi đường
+
+### Đoạn văn tiếng Nhật
+```text
+そこに入らないでください。
+```
+
+### Romaji
+```text
+soko ni hairanaide kudasai.
+```
+
+### Dịch tiếng Việt
+Xin đừng vào đó.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 8 theo chủ đề Địa điểm và đường đi; chú ý mẫu JPD133-L10-G001 đến G014.
+
+## R009 – Hỏi đường
+
+### Đoạn văn tiếng Nhật
+```text
+もう昼ご飯を食べました。
+```
+
+### Romaji
+```text
+mou hirugohan o tabemashita.
+```
+
+### Dịch tiếng Việt
+Tôi đã ăn trưa rồi.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 9 theo chủ đề Địa điểm và đường đi; chú ý mẫu JPD133-L10-G001 đến G014.
+
+## R010 – Hỏi đường
+
+### Đoạn văn tiếng Nhật
+```text
+まだ宿題をしていません。
+```
+
+### Romaji
+```text
+mada shukudai o shiteimasen.
+```
+
+### Dịch tiếng Việt
+Tôi vẫn chưa làm bài tập.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 10 theo chủ đề Địa điểm và đường đi; chú ý mẫu JPD133-L10-G001 đến G014.
+
+
+# JPD133 Reading Bài 10 – バスツアー
+
+> Chủ đề: Địa điểm và đường đi
+> Mục tiêu: 25 đoạn đọc về đường đi, địa điểm, xin phép và tình huống.
+> Từ vựng bắt buộc: 駅, バス, 道, 交差点, 橋, 見えます, 聞こえます, てもいいですか, ないでください
+> Kanji bắt buộc: 駅, 道, 橋, 右, 左, 見
+> Ngữ pháp bắt buộc: JPD133-L10-G001 đến G014
+
+## R001 – Bản đồ
 
 ### Đoạn văn tiếng Nhật
 ```text
@@ -1016,9 +10232,180 @@ chizu o mite, michi o sagashimasu.
 Tôi xem bản đồ và tìm đường.
 
 ### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 1 theo chủ đề Địa điểm và đường đi; chú ý mẫu JPD133-L10-G001 đến G014.
+
+## R002 – Bản đồ
+
+### Đoạn văn tiếng Nhật
+```text
+駅までバスで行きます。
+```
+
+### Romaji
+```text
+eki made basu de ikimasu.
+```
+
+### Dịch tiếng Việt
+Tôi đi xe buýt đến ga.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 2 theo chủ đề Địa điểm và đường đi; chú ý mẫu JPD133-L10-G001 đến G014.
+
+## R003 – Bản đồ
+
+### Đoạn văn tiếng Nhật
+```text
+道をまっすぐ行ってください。
+```
+
+### Romaji
+```text
+michi o massugu itte kudasai.
+```
+
+### Dịch tiếng Việt
+Hãy đi thẳng theo đường.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 3 theo chủ đề Địa điểm và đường đi; chú ý mẫu JPD133-L10-G001 đến G014.
+
+## R004 – Bản đồ
+
+### Đoạn văn tiếng Nhật
+```text
+交差点を右に曲がります。
+```
+
+### Romaji
+```text
+kousaten o migi ni magarimasu.
+```
+
+### Dịch tiếng Việt
+Tôi rẽ phải ở ngã tư.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 4 theo chủ đề Địa điểm và đường đi; chú ý mẫu JPD133-L10-G001 đến G014.
+
+## R005 – Bản đồ
+
+### Đoạn văn tiếng Nhật
+```text
+ここから山が見えます。
+```
+
+### Romaji
+```text
+koko kara yama ga miemasu.
+```
+
+### Dịch tiếng Việt
+Từ đây có thể nhìn thấy núi.
+
+### Tóm tắt và ghi chú luyện tập
 Luyện đọc đoạn 5 theo chủ đề Địa điểm và đường đi; chú ý mẫu JPD133-L10-G001 đến G014.
 
-## R006 – Thư viện
+## R006 – Bản đồ
+
+### Đoạn văn tiếng Nhật
+```text
+鳥の声が聞こえます。
+```
+
+### Romaji
+```text
+tori no koe ga kikoemasu.
+```
+
+### Dịch tiếng Việt
+Có thể nghe tiếng chim.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 6 theo chủ đề Địa điểm và đường đi; chú ý mẫu JPD133-L10-G001 đến G014.
+
+## R007 – Bản đồ
+
+### Đoạn văn tiếng Nhật
+```text
+ここで写真を撮ってもいいですか。
+```
+
+### Romaji
+```text
+koko de shashin o totte mo ii desu ka.
+```
+
+### Dịch tiếng Việt
+Tôi chụp ảnh ở đây được không?
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 7 theo chủ đề Địa điểm và đường đi; chú ý mẫu JPD133-L10-G001 đến G014.
+
+## R008 – Bản đồ
+
+### Đoạn văn tiếng Nhật
+```text
+そこに入らないでください。
+```
+
+### Romaji
+```text
+soko ni hairanaide kudasai.
+```
+
+### Dịch tiếng Việt
+Xin đừng vào đó.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 8 theo chủ đề Địa điểm và đường đi; chú ý mẫu JPD133-L10-G001 đến G014.
+
+## R009 – Bản đồ
+
+### Đoạn văn tiếng Nhật
+```text
+もう昼ご飯を食べました。
+```
+
+### Romaji
+```text
+mou hirugohan o tabemashita.
+```
+
+### Dịch tiếng Việt
+Tôi đã ăn trưa rồi.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 9 theo chủ đề Địa điểm và đường đi; chú ý mẫu JPD133-L10-G001 đến G014.
+
+## R010 – Bản đồ
+
+### Đoạn văn tiếng Nhật
+```text
+まだ宿題をしていません。
+```
+
+### Romaji
+```text
+mada shukudai o shiteimasen.
+```
+
+### Dịch tiếng Việt
+Tôi vẫn chưa làm bài tập.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 10 theo chủ đề Địa điểm và đường đi; chú ý mẫu JPD133-L10-G001 đến G014.
+
+
+# JPD133 Reading Bài 10 – バスツアー
+
+> Chủ đề: Địa điểm và đường đi
+> Mục tiêu: 25 đoạn đọc về đường đi, địa điểm, xin phép và tình huống.
+> Từ vựng bắt buộc: 駅, バス, 道, 交差点, 橋, 見えます, 聞こえます, てもいいですか, ないでください
+> Kanji bắt buộc: 駅, 道, 橋, 右, 左, 見
+> Ngữ pháp bắt buộc: JPD133-L10-G001 đến G014
+
+## R001 – Thư viện
 
 ### Đoạn văn tiếng Nhật
 ```text
@@ -1034,9 +10421,180 @@ toshokan de hon o yomu koto ga dekimasu.
 Có thể đọc sách ở thư viện.
 
 ### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 1 theo chủ đề Địa điểm và đường đi; chú ý mẫu JPD133-L10-G001 đến G014.
+
+## R002 – Thư viện
+
+### Đoạn văn tiếng Nhật
+```text
+駅までバスで行きます。
+```
+
+### Romaji
+```text
+eki made basu de ikimasu.
+```
+
+### Dịch tiếng Việt
+Tôi đi xe buýt đến ga.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 2 theo chủ đề Địa điểm và đường đi; chú ý mẫu JPD133-L10-G001 đến G014.
+
+## R003 – Thư viện
+
+### Đoạn văn tiếng Nhật
+```text
+道をまっすぐ行ってください。
+```
+
+### Romaji
+```text
+michi o massugu itte kudasai.
+```
+
+### Dịch tiếng Việt
+Hãy đi thẳng theo đường.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 3 theo chủ đề Địa điểm và đường đi; chú ý mẫu JPD133-L10-G001 đến G014.
+
+## R004 – Thư viện
+
+### Đoạn văn tiếng Nhật
+```text
+交差点を右に曲がります。
+```
+
+### Romaji
+```text
+kousaten o migi ni magarimasu.
+```
+
+### Dịch tiếng Việt
+Tôi rẽ phải ở ngã tư.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 4 theo chủ đề Địa điểm và đường đi; chú ý mẫu JPD133-L10-G001 đến G014.
+
+## R005 – Thư viện
+
+### Đoạn văn tiếng Nhật
+```text
+ここから山が見えます。
+```
+
+### Romaji
+```text
+koko kara yama ga miemasu.
+```
+
+### Dịch tiếng Việt
+Từ đây có thể nhìn thấy núi.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 5 theo chủ đề Địa điểm và đường đi; chú ý mẫu JPD133-L10-G001 đến G014.
+
+## R006 – Thư viện
+
+### Đoạn văn tiếng Nhật
+```text
+鳥の声が聞こえます。
+```
+
+### Romaji
+```text
+tori no koe ga kikoemasu.
+```
+
+### Dịch tiếng Việt
+Có thể nghe tiếng chim.
+
+### Tóm tắt và ghi chú luyện tập
 Luyện đọc đoạn 6 theo chủ đề Địa điểm và đường đi; chú ý mẫu JPD133-L10-G001 đến G014.
 
-## R007 – Công viên
+## R007 – Thư viện
+
+### Đoạn văn tiếng Nhật
+```text
+ここで写真を撮ってもいいですか。
+```
+
+### Romaji
+```text
+koko de shashin o totte mo ii desu ka.
+```
+
+### Dịch tiếng Việt
+Tôi chụp ảnh ở đây được không?
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 7 theo chủ đề Địa điểm và đường đi; chú ý mẫu JPD133-L10-G001 đến G014.
+
+## R008 – Thư viện
+
+### Đoạn văn tiếng Nhật
+```text
+そこに入らないでください。
+```
+
+### Romaji
+```text
+soko ni hairanaide kudasai.
+```
+
+### Dịch tiếng Việt
+Xin đừng vào đó.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 8 theo chủ đề Địa điểm và đường đi; chú ý mẫu JPD133-L10-G001 đến G014.
+
+## R009 – Thư viện
+
+### Đoạn văn tiếng Nhật
+```text
+もう昼ご飯を食べました。
+```
+
+### Romaji
+```text
+mou hirugohan o tabemashita.
+```
+
+### Dịch tiếng Việt
+Tôi đã ăn trưa rồi.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 9 theo chủ đề Địa điểm và đường đi; chú ý mẫu JPD133-L10-G001 đến G014.
+
+## R010 – Thư viện
+
+### Đoạn văn tiếng Nhật
+```text
+まだ宿題をしていません。
+```
+
+### Romaji
+```text
+mada shukudai o shiteimasen.
+```
+
+### Dịch tiếng Việt
+Tôi vẫn chưa làm bài tập.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 10 theo chủ đề Địa điểm và đường đi; chú ý mẫu JPD133-L10-G001 đến G014.
+
+
+# JPD133 Reading Bài 10 – バスツアー
+
+> Chủ đề: Địa điểm và đường đi
+> Mục tiêu: 25 đoạn đọc về đường đi, địa điểm, xin phép và tình huống.
+> Từ vựng bắt buộc: 駅, バス, 道, 交差点, 橋, 見えます, 聞こえます, てもいいですか, ないでください
+> Kanji bắt buộc: 駅, 道, 橋, 右, 左, 見
+> Ngữ pháp bắt buộc: JPD133-L10-G001 đến G014
+
+## R001 – Công viên
 
 ### Đoạn văn tiếng Nhật
 ```text
@@ -1052,9 +10610,180 @@ kouen de kodomo ga asondeimasu.
 Trẻ em đang chơi ở công viên.
 
 ### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 1 theo chủ đề Địa điểm và đường đi; chú ý mẫu JPD133-L10-G001 đến G014.
+
+## R002 – Công viên
+
+### Đoạn văn tiếng Nhật
+```text
+駅までバスで行きます。
+```
+
+### Romaji
+```text
+eki made basu de ikimasu.
+```
+
+### Dịch tiếng Việt
+Tôi đi xe buýt đến ga.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 2 theo chủ đề Địa điểm và đường đi; chú ý mẫu JPD133-L10-G001 đến G014.
+
+## R003 – Công viên
+
+### Đoạn văn tiếng Nhật
+```text
+道をまっすぐ行ってください。
+```
+
+### Romaji
+```text
+michi o massugu itte kudasai.
+```
+
+### Dịch tiếng Việt
+Hãy đi thẳng theo đường.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 3 theo chủ đề Địa điểm và đường đi; chú ý mẫu JPD133-L10-G001 đến G014.
+
+## R004 – Công viên
+
+### Đoạn văn tiếng Nhật
+```text
+交差点を右に曲がります。
+```
+
+### Romaji
+```text
+kousaten o migi ni magarimasu.
+```
+
+### Dịch tiếng Việt
+Tôi rẽ phải ở ngã tư.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 4 theo chủ đề Địa điểm và đường đi; chú ý mẫu JPD133-L10-G001 đến G014.
+
+## R005 – Công viên
+
+### Đoạn văn tiếng Nhật
+```text
+ここから山が見えます。
+```
+
+### Romaji
+```text
+koko kara yama ga miemasu.
+```
+
+### Dịch tiếng Việt
+Từ đây có thể nhìn thấy núi.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 5 theo chủ đề Địa điểm và đường đi; chú ý mẫu JPD133-L10-G001 đến G014.
+
+## R006 – Công viên
+
+### Đoạn văn tiếng Nhật
+```text
+鳥の声が聞こえます。
+```
+
+### Romaji
+```text
+tori no koe ga kikoemasu.
+```
+
+### Dịch tiếng Việt
+Có thể nghe tiếng chim.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 6 theo chủ đề Địa điểm và đường đi; chú ý mẫu JPD133-L10-G001 đến G014.
+
+## R007 – Công viên
+
+### Đoạn văn tiếng Nhật
+```text
+ここで写真を撮ってもいいですか。
+```
+
+### Romaji
+```text
+koko de shashin o totte mo ii desu ka.
+```
+
+### Dịch tiếng Việt
+Tôi chụp ảnh ở đây được không?
+
+### Tóm tắt và ghi chú luyện tập
 Luyện đọc đoạn 7 theo chủ đề Địa điểm và đường đi; chú ý mẫu JPD133-L10-G001 đến G014.
 
-## R008 – Rạp phim
+## R008 – Công viên
+
+### Đoạn văn tiếng Nhật
+```text
+そこに入らないでください。
+```
+
+### Romaji
+```text
+soko ni hairanaide kudasai.
+```
+
+### Dịch tiếng Việt
+Xin đừng vào đó.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 8 theo chủ đề Địa điểm và đường đi; chú ý mẫu JPD133-L10-G001 đến G014.
+
+## R009 – Công viên
+
+### Đoạn văn tiếng Nhật
+```text
+もう昼ご飯を食べました。
+```
+
+### Romaji
+```text
+mou hirugohan o tabemashita.
+```
+
+### Dịch tiếng Việt
+Tôi đã ăn trưa rồi.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 9 theo chủ đề Địa điểm và đường đi; chú ý mẫu JPD133-L10-G001 đến G014.
+
+## R010 – Công viên
+
+### Đoạn văn tiếng Nhật
+```text
+まだ宿題をしていません。
+```
+
+### Romaji
+```text
+mada shukudai o shiteimasen.
+```
+
+### Dịch tiếng Việt
+Tôi vẫn chưa làm bài tập.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 10 theo chủ đề Địa điểm và đường đi; chú ý mẫu JPD133-L10-G001 đến G014.
+
+
+# JPD133 Reading Bài 10 – バスツアー
+
+> Chủ đề: Địa điểm và đường đi
+> Mục tiêu: 25 đoạn đọc về đường đi, địa điểm, xin phép và tình huống.
+> Từ vựng bắt buộc: 駅, バス, 道, 交差点, 橋, 見えます, 聞こえます, てもいいですか, ないでください
+> Kanji bắt buộc: 駅, 道, 橋, 右, 左, 見
+> Ngữ pháp bắt buộc: JPD133-L10-G001 đến G014
+
+## R001 – Rạp phim
 
 ### Đoạn văn tiếng Nhật
 ```text
@@ -1070,9 +10799,180 @@ eigakan de eiga o mimasu.
 Tôi xem phim ở rạp.
 
 ### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 1 theo chủ đề Địa điểm và đường đi; chú ý mẫu JPD133-L10-G001 đến G014.
+
+## R002 – Rạp phim
+
+### Đoạn văn tiếng Nhật
+```text
+駅までバスで行きます。
+```
+
+### Romaji
+```text
+eki made basu de ikimasu.
+```
+
+### Dịch tiếng Việt
+Tôi đi xe buýt đến ga.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 2 theo chủ đề Địa điểm và đường đi; chú ý mẫu JPD133-L10-G001 đến G014.
+
+## R003 – Rạp phim
+
+### Đoạn văn tiếng Nhật
+```text
+道をまっすぐ行ってください。
+```
+
+### Romaji
+```text
+michi o massugu itte kudasai.
+```
+
+### Dịch tiếng Việt
+Hãy đi thẳng theo đường.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 3 theo chủ đề Địa điểm và đường đi; chú ý mẫu JPD133-L10-G001 đến G014.
+
+## R004 – Rạp phim
+
+### Đoạn văn tiếng Nhật
+```text
+交差点を右に曲がります。
+```
+
+### Romaji
+```text
+kousaten o migi ni magarimasu.
+```
+
+### Dịch tiếng Việt
+Tôi rẽ phải ở ngã tư.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 4 theo chủ đề Địa điểm và đường đi; chú ý mẫu JPD133-L10-G001 đến G014.
+
+## R005 – Rạp phim
+
+### Đoạn văn tiếng Nhật
+```text
+ここから山が見えます。
+```
+
+### Romaji
+```text
+koko kara yama ga miemasu.
+```
+
+### Dịch tiếng Việt
+Từ đây có thể nhìn thấy núi.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 5 theo chủ đề Địa điểm và đường đi; chú ý mẫu JPD133-L10-G001 đến G014.
+
+## R006 – Rạp phim
+
+### Đoạn văn tiếng Nhật
+```text
+鳥の声が聞こえます。
+```
+
+### Romaji
+```text
+tori no koe ga kikoemasu.
+```
+
+### Dịch tiếng Việt
+Có thể nghe tiếng chim.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 6 theo chủ đề Địa điểm và đường đi; chú ý mẫu JPD133-L10-G001 đến G014.
+
+## R007 – Rạp phim
+
+### Đoạn văn tiếng Nhật
+```text
+ここで写真を撮ってもいいですか。
+```
+
+### Romaji
+```text
+koko de shashin o totte mo ii desu ka.
+```
+
+### Dịch tiếng Việt
+Tôi chụp ảnh ở đây được không?
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 7 theo chủ đề Địa điểm và đường đi; chú ý mẫu JPD133-L10-G001 đến G014.
+
+## R008 – Rạp phim
+
+### Đoạn văn tiếng Nhật
+```text
+そこに入らないでください。
+```
+
+### Romaji
+```text
+soko ni hairanaide kudasai.
+```
+
+### Dịch tiếng Việt
+Xin đừng vào đó.
+
+### Tóm tắt và ghi chú luyện tập
 Luyện đọc đoạn 8 theo chủ đề Địa điểm và đường đi; chú ý mẫu JPD133-L10-G001 đến G014.
 
-## R009 – Thành phố
+## R009 – Rạp phim
+
+### Đoạn văn tiếng Nhật
+```text
+もう昼ご飯を食べました。
+```
+
+### Romaji
+```text
+mou hirugohan o tabemashita.
+```
+
+### Dịch tiếng Việt
+Tôi đã ăn trưa rồi.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 9 theo chủ đề Địa điểm và đường đi; chú ý mẫu JPD133-L10-G001 đến G014.
+
+## R010 – Rạp phim
+
+### Đoạn văn tiếng Nhật
+```text
+まだ宿題をしていません。
+```
+
+### Romaji
+```text
+mada shukudai o shiteimasen.
+```
+
+### Dịch tiếng Việt
+Tôi vẫn chưa làm bài tập.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 10 theo chủ đề Địa điểm và đường đi; chú ý mẫu JPD133-L10-G001 đến G014.
+
+
+# JPD133 Reading Bài 10 – バスツアー
+
+> Chủ đề: Địa điểm và đường đi
+> Mục tiêu: 25 đoạn đọc về đường đi, địa điểm, xin phép và tình huống.
+> Từ vựng bắt buộc: 駅, バス, 道, 交差点, 橋, 見えます, 聞こえます, てもいいですか, ないでください
+> Kanji bắt buộc: 駅, 道, 橋, 右, 左, 見
+> Ngữ pháp bắt buộc: JPD133-L10-G001 đến G014
+
+## R001 – Thành phố
 
 ### Đoạn văn tiếng Nhật
 ```text
@@ -1088,9 +10988,180 @@ machi wa ookikute, nigiyaka desu.
 Thành phố lớn và nhộn nhịp.
 
 ### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 1 theo chủ đề Địa điểm và đường đi; chú ý mẫu JPD133-L10-G001 đến G014.
+
+## R002 – Thành phố
+
+### Đoạn văn tiếng Nhật
+```text
+駅までバスで行きます。
+```
+
+### Romaji
+```text
+eki made basu de ikimasu.
+```
+
+### Dịch tiếng Việt
+Tôi đi xe buýt đến ga.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 2 theo chủ đề Địa điểm và đường đi; chú ý mẫu JPD133-L10-G001 đến G014.
+
+## R003 – Thành phố
+
+### Đoạn văn tiếng Nhật
+```text
+道をまっすぐ行ってください。
+```
+
+### Romaji
+```text
+michi o massugu itte kudasai.
+```
+
+### Dịch tiếng Việt
+Hãy đi thẳng theo đường.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 3 theo chủ đề Địa điểm và đường đi; chú ý mẫu JPD133-L10-G001 đến G014.
+
+## R004 – Thành phố
+
+### Đoạn văn tiếng Nhật
+```text
+交差点を右に曲がります。
+```
+
+### Romaji
+```text
+kousaten o migi ni magarimasu.
+```
+
+### Dịch tiếng Việt
+Tôi rẽ phải ở ngã tư.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 4 theo chủ đề Địa điểm và đường đi; chú ý mẫu JPD133-L10-G001 đến G014.
+
+## R005 – Thành phố
+
+### Đoạn văn tiếng Nhật
+```text
+ここから山が見えます。
+```
+
+### Romaji
+```text
+koko kara yama ga miemasu.
+```
+
+### Dịch tiếng Việt
+Từ đây có thể nhìn thấy núi.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 5 theo chủ đề Địa điểm và đường đi; chú ý mẫu JPD133-L10-G001 đến G014.
+
+## R006 – Thành phố
+
+### Đoạn văn tiếng Nhật
+```text
+鳥の声が聞こえます。
+```
+
+### Romaji
+```text
+tori no koe ga kikoemasu.
+```
+
+### Dịch tiếng Việt
+Có thể nghe tiếng chim.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 6 theo chủ đề Địa điểm và đường đi; chú ý mẫu JPD133-L10-G001 đến G014.
+
+## R007 – Thành phố
+
+### Đoạn văn tiếng Nhật
+```text
+ここで写真を撮ってもいいですか。
+```
+
+### Romaji
+```text
+koko de shashin o totte mo ii desu ka.
+```
+
+### Dịch tiếng Việt
+Tôi chụp ảnh ở đây được không?
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 7 theo chủ đề Địa điểm và đường đi; chú ý mẫu JPD133-L10-G001 đến G014.
+
+## R008 – Thành phố
+
+### Đoạn văn tiếng Nhật
+```text
+そこに入らないでください。
+```
+
+### Romaji
+```text
+soko ni hairanaide kudasai.
+```
+
+### Dịch tiếng Việt
+Xin đừng vào đó.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 8 theo chủ đề Địa điểm và đường đi; chú ý mẫu JPD133-L10-G001 đến G014.
+
+## R009 – Thành phố
+
+### Đoạn văn tiếng Nhật
+```text
+もう昼ご飯を食べました。
+```
+
+### Romaji
+```text
+mou hirugohan o tabemashita.
+```
+
+### Dịch tiếng Việt
+Tôi đã ăn trưa rồi.
+
+### Tóm tắt và ghi chú luyện tập
 Luyện đọc đoạn 9 theo chủ đề Địa điểm và đường đi; chú ý mẫu JPD133-L10-G001 đến G014.
 
-## R010 – Siêu thị
+## R010 – Thành phố
+
+### Đoạn văn tiếng Nhật
+```text
+まだ宿題をしていません。
+```
+
+### Romaji
+```text
+mada shukudai o shiteimasen.
+```
+
+### Dịch tiếng Việt
+Tôi vẫn chưa làm bài tập.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 10 theo chủ đề Địa điểm và đường đi; chú ý mẫu JPD133-L10-G001 đến G014.
+
+
+# JPD133 Reading Bài 10 – バスツアー
+
+> Chủ đề: Địa điểm và đường đi
+> Mục tiêu: 25 đoạn đọc về đường đi, địa điểm, xin phép và tình huống.
+> Từ vựng bắt buộc: 駅, バス, 道, 交差点, 橋, 見えます, 聞こえます, てもいいですか, ないでください
+> Kanji bắt buộc: 駅, 道, 橋, 右, 左, 見
+> Ngữ pháp bắt buộc: JPD133-L10-G001 đến G014
+
+## R001 – Siêu thị
 
 ### Đoạn văn tiếng Nhật
 ```text
@@ -1106,9 +11177,180 @@ suupaa de kaimono ga dekimasu.
 Có thể mua sắm ở siêu thị.
 
 ### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 1 theo chủ đề Địa điểm và đường đi; chú ý mẫu JPD133-L10-G001 đến G014.
+
+## R002 – Siêu thị
+
+### Đoạn văn tiếng Nhật
+```text
+駅までバスで行きます。
+```
+
+### Romaji
+```text
+eki made basu de ikimasu.
+```
+
+### Dịch tiếng Việt
+Tôi đi xe buýt đến ga.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 2 theo chủ đề Địa điểm và đường đi; chú ý mẫu JPD133-L10-G001 đến G014.
+
+## R003 – Siêu thị
+
+### Đoạn văn tiếng Nhật
+```text
+道をまっすぐ行ってください。
+```
+
+### Romaji
+```text
+michi o massugu itte kudasai.
+```
+
+### Dịch tiếng Việt
+Hãy đi thẳng theo đường.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 3 theo chủ đề Địa điểm và đường đi; chú ý mẫu JPD133-L10-G001 đến G014.
+
+## R004 – Siêu thị
+
+### Đoạn văn tiếng Nhật
+```text
+交差点を右に曲がります。
+```
+
+### Romaji
+```text
+kousaten o migi ni magarimasu.
+```
+
+### Dịch tiếng Việt
+Tôi rẽ phải ở ngã tư.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 4 theo chủ đề Địa điểm và đường đi; chú ý mẫu JPD133-L10-G001 đến G014.
+
+## R005 – Siêu thị
+
+### Đoạn văn tiếng Nhật
+```text
+ここから山が見えます。
+```
+
+### Romaji
+```text
+koko kara yama ga miemasu.
+```
+
+### Dịch tiếng Việt
+Từ đây có thể nhìn thấy núi.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 5 theo chủ đề Địa điểm và đường đi; chú ý mẫu JPD133-L10-G001 đến G014.
+
+## R006 – Siêu thị
+
+### Đoạn văn tiếng Nhật
+```text
+鳥の声が聞こえます。
+```
+
+### Romaji
+```text
+tori no koe ga kikoemasu.
+```
+
+### Dịch tiếng Việt
+Có thể nghe tiếng chim.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 6 theo chủ đề Địa điểm và đường đi; chú ý mẫu JPD133-L10-G001 đến G014.
+
+## R007 – Siêu thị
+
+### Đoạn văn tiếng Nhật
+```text
+ここで写真を撮ってもいいですか。
+```
+
+### Romaji
+```text
+koko de shashin o totte mo ii desu ka.
+```
+
+### Dịch tiếng Việt
+Tôi chụp ảnh ở đây được không?
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 7 theo chủ đề Địa điểm và đường đi; chú ý mẫu JPD133-L10-G001 đến G014.
+
+## R008 – Siêu thị
+
+### Đoạn văn tiếng Nhật
+```text
+そこに入らないでください。
+```
+
+### Romaji
+```text
+soko ni hairanaide kudasai.
+```
+
+### Dịch tiếng Việt
+Xin đừng vào đó.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 8 theo chủ đề Địa điểm và đường đi; chú ý mẫu JPD133-L10-G001 đến G014.
+
+## R009 – Siêu thị
+
+### Đoạn văn tiếng Nhật
+```text
+もう昼ご飯を食べました。
+```
+
+### Romaji
+```text
+mou hirugohan o tabemashita.
+```
+
+### Dịch tiếng Việt
+Tôi đã ăn trưa rồi.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 9 theo chủ đề Địa điểm và đường đi; chú ý mẫu JPD133-L10-G001 đến G014.
+
+## R010 – Siêu thị
+
+### Đoạn văn tiếng Nhật
+```text
+まだ宿題をしていません。
+```
+
+### Romaji
+```text
+mada shukudai o shiteimasen.
+```
+
+### Dịch tiếng Việt
+Tôi vẫn chưa làm bài tập.
+
+### Tóm tắt và ghi chú luyện tập
 Luyện đọc đoạn 10 theo chủ đề Địa điểm và đường đi; chú ý mẫu JPD133-L10-G001 đến G014.
 
-## R011 – Nhà hàng
+
+# JPD133 Reading Bài 10 – バスツアー
+
+> Chủ đề: Địa điểm và đường đi
+> Mục tiêu: 25 đoạn đọc về đường đi, địa điểm, xin phép và tình huống.
+> Từ vựng bắt buộc: 駅, バス, 道, 交差点, 橋, 見えます, 聞こえます, てもいいですか, ないでください
+> Kanji bắt buộc: 駅, 道, 橋, 右, 左, 見
+> Ngữ pháp bắt buộc: JPD133-L10-G001 đến G014
+
+## R001 – Nhà hàng
 
 ### Đoạn văn tiếng Nhật
 ```text
@@ -1124,9 +11366,180 @@ resutoran de shokuji o shimasu.
 Tôi dùng bữa ở nhà hàng.
 
 ### Tóm tắt và ghi chú luyện tập
-Luyện đọc đoạn 11 theo chủ đề Địa điểm và đường đi; chú ý mẫu JPD133-L10-G001 đến G014.
+Luyện đọc đoạn 1 theo chủ đề Địa điểm và đường đi; chú ý mẫu JPD133-L10-G001 đến G014.
 
-## R012 – Khách sạn
+## R002 – Nhà hàng
+
+### Đoạn văn tiếng Nhật
+```text
+駅までバスで行きます。
+```
+
+### Romaji
+```text
+eki made basu de ikimasu.
+```
+
+### Dịch tiếng Việt
+Tôi đi xe buýt đến ga.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 2 theo chủ đề Địa điểm và đường đi; chú ý mẫu JPD133-L10-G001 đến G014.
+
+## R003 – Nhà hàng
+
+### Đoạn văn tiếng Nhật
+```text
+道をまっすぐ行ってください。
+```
+
+### Romaji
+```text
+michi o massugu itte kudasai.
+```
+
+### Dịch tiếng Việt
+Hãy đi thẳng theo đường.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 3 theo chủ đề Địa điểm và đường đi; chú ý mẫu JPD133-L10-G001 đến G014.
+
+## R004 – Nhà hàng
+
+### Đoạn văn tiếng Nhật
+```text
+交差点を右に曲がります。
+```
+
+### Romaji
+```text
+kousaten o migi ni magarimasu.
+```
+
+### Dịch tiếng Việt
+Tôi rẽ phải ở ngã tư.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 4 theo chủ đề Địa điểm và đường đi; chú ý mẫu JPD133-L10-G001 đến G014.
+
+## R005 – Nhà hàng
+
+### Đoạn văn tiếng Nhật
+```text
+ここから山が見えます。
+```
+
+### Romaji
+```text
+koko kara yama ga miemasu.
+```
+
+### Dịch tiếng Việt
+Từ đây có thể nhìn thấy núi.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 5 theo chủ đề Địa điểm và đường đi; chú ý mẫu JPD133-L10-G001 đến G014.
+
+## R006 – Nhà hàng
+
+### Đoạn văn tiếng Nhật
+```text
+鳥の声が聞こえます。
+```
+
+### Romaji
+```text
+tori no koe ga kikoemasu.
+```
+
+### Dịch tiếng Việt
+Có thể nghe tiếng chim.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 6 theo chủ đề Địa điểm và đường đi; chú ý mẫu JPD133-L10-G001 đến G014.
+
+## R007 – Nhà hàng
+
+### Đoạn văn tiếng Nhật
+```text
+ここで写真を撮ってもいいですか。
+```
+
+### Romaji
+```text
+koko de shashin o totte mo ii desu ka.
+```
+
+### Dịch tiếng Việt
+Tôi chụp ảnh ở đây được không?
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 7 theo chủ đề Địa điểm và đường đi; chú ý mẫu JPD133-L10-G001 đến G014.
+
+## R008 – Nhà hàng
+
+### Đoạn văn tiếng Nhật
+```text
+そこに入らないでください。
+```
+
+### Romaji
+```text
+soko ni hairanaide kudasai.
+```
+
+### Dịch tiếng Việt
+Xin đừng vào đó.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 8 theo chủ đề Địa điểm và đường đi; chú ý mẫu JPD133-L10-G001 đến G014.
+
+## R009 – Nhà hàng
+
+### Đoạn văn tiếng Nhật
+```text
+もう昼ご飯を食べました。
+```
+
+### Romaji
+```text
+mou hirugohan o tabemashita.
+```
+
+### Dịch tiếng Việt
+Tôi đã ăn trưa rồi.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 9 theo chủ đề Địa điểm và đường đi; chú ý mẫu JPD133-L10-G001 đến G014.
+
+## R010 – Nhà hàng
+
+### Đoạn văn tiếng Nhật
+```text
+まだ宿題をしていません。
+```
+
+### Romaji
+```text
+mada shukudai o shiteimasen.
+```
+
+### Dịch tiếng Việt
+Tôi vẫn chưa làm bài tập.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 10 theo chủ đề Địa điểm và đường đi; chú ý mẫu JPD133-L10-G001 đến G014.
+
+
+# JPD133 Reading Bài 10 – バスツアー
+
+> Chủ đề: Địa điểm và đường đi
+> Mục tiêu: 25 đoạn đọc về đường đi, địa điểm, xin phép và tình huống.
+> Từ vựng bắt buộc: 駅, バス, 道, 交差点, 橋, 見えます, 聞こえます, てもいいですか, ないでください
+> Kanji bắt buộc: 駅, 道, 橋, 右, 左, 見
+> Ngữ pháp bắt buộc: JPD133-L10-G001 đến G014
+
+## R001 – Khách sạn
 
 ### Đoạn văn tiếng Nhật
 ```text
@@ -1142,9 +11555,180 @@ hoteru ni tomarimasu.
 Tôi ở khách sạn.
 
 ### Tóm tắt và ghi chú luyện tập
-Luyện đọc đoạn 12 theo chủ đề Địa điểm và đường đi; chú ý mẫu JPD133-L10-G001 đến G014.
+Luyện đọc đoạn 1 theo chủ đề Địa điểm và đường đi; chú ý mẫu JPD133-L10-G001 đến G014.
 
-## R013 – Bưu điện
+## R002 – Khách sạn
+
+### Đoạn văn tiếng Nhật
+```text
+駅までバスで行きます。
+```
+
+### Romaji
+```text
+eki made basu de ikimasu.
+```
+
+### Dịch tiếng Việt
+Tôi đi xe buýt đến ga.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 2 theo chủ đề Địa điểm và đường đi; chú ý mẫu JPD133-L10-G001 đến G014.
+
+## R003 – Khách sạn
+
+### Đoạn văn tiếng Nhật
+```text
+道をまっすぐ行ってください。
+```
+
+### Romaji
+```text
+michi o massugu itte kudasai.
+```
+
+### Dịch tiếng Việt
+Hãy đi thẳng theo đường.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 3 theo chủ đề Địa điểm và đường đi; chú ý mẫu JPD133-L10-G001 đến G014.
+
+## R004 – Khách sạn
+
+### Đoạn văn tiếng Nhật
+```text
+交差点を右に曲がります。
+```
+
+### Romaji
+```text
+kousaten o migi ni magarimasu.
+```
+
+### Dịch tiếng Việt
+Tôi rẽ phải ở ngã tư.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 4 theo chủ đề Địa điểm và đường đi; chú ý mẫu JPD133-L10-G001 đến G014.
+
+## R005 – Khách sạn
+
+### Đoạn văn tiếng Nhật
+```text
+ここから山が見えます。
+```
+
+### Romaji
+```text
+koko kara yama ga miemasu.
+```
+
+### Dịch tiếng Việt
+Từ đây có thể nhìn thấy núi.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 5 theo chủ đề Địa điểm và đường đi; chú ý mẫu JPD133-L10-G001 đến G014.
+
+## R006 – Khách sạn
+
+### Đoạn văn tiếng Nhật
+```text
+鳥の声が聞こえます。
+```
+
+### Romaji
+```text
+tori no koe ga kikoemasu.
+```
+
+### Dịch tiếng Việt
+Có thể nghe tiếng chim.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 6 theo chủ đề Địa điểm và đường đi; chú ý mẫu JPD133-L10-G001 đến G014.
+
+## R007 – Khách sạn
+
+### Đoạn văn tiếng Nhật
+```text
+ここで写真を撮ってもいいですか。
+```
+
+### Romaji
+```text
+koko de shashin o totte mo ii desu ka.
+```
+
+### Dịch tiếng Việt
+Tôi chụp ảnh ở đây được không?
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 7 theo chủ đề Địa điểm và đường đi; chú ý mẫu JPD133-L10-G001 đến G014.
+
+## R008 – Khách sạn
+
+### Đoạn văn tiếng Nhật
+```text
+そこに入らないでください。
+```
+
+### Romaji
+```text
+soko ni hairanaide kudasai.
+```
+
+### Dịch tiếng Việt
+Xin đừng vào đó.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 8 theo chủ đề Địa điểm và đường đi; chú ý mẫu JPD133-L10-G001 đến G014.
+
+## R009 – Khách sạn
+
+### Đoạn văn tiếng Nhật
+```text
+もう昼ご飯を食べました。
+```
+
+### Romaji
+```text
+mou hirugohan o tabemashita.
+```
+
+### Dịch tiếng Việt
+Tôi đã ăn trưa rồi.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 9 theo chủ đề Địa điểm và đường đi; chú ý mẫu JPD133-L10-G001 đến G014.
+
+## R010 – Khách sạn
+
+### Đoạn văn tiếng Nhật
+```text
+まだ宿題をしていません。
+```
+
+### Romaji
+```text
+mada shukudai o shiteimasen.
+```
+
+### Dịch tiếng Việt
+Tôi vẫn chưa làm bài tập.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 10 theo chủ đề Địa điểm và đường đi; chú ý mẫu JPD133-L10-G001 đến G014.
+
+
+# JPD133 Reading Bài 10 – バスツアー
+
+> Chủ đề: Địa điểm và đường đi
+> Mục tiêu: 25 đoạn đọc về đường đi, địa điểm, xin phép và tình huống.
+> Từ vựng bắt buộc: 駅, バス, 道, 交差点, 橋, 見えます, 聞こえます, てもいいですか, ないでください
+> Kanji bắt buộc: 駅, 道, 橋, 右, 左, 見
+> Ngữ pháp bắt buộc: JPD133-L10-G001 đến G014
+
+## R001 – Bưu điện
 
 ### Đoạn văn tiếng Nhật
 ```text
@@ -1160,9 +11744,180 @@ yuubinkyoku de tegami o okurimasu.
 Tôi gửi thư ở bưu điện.
 
 ### Tóm tắt và ghi chú luyện tập
-Luyện đọc đoạn 13 theo chủ đề Địa điểm và đường đi; chú ý mẫu JPD133-L10-G001 đến G014.
+Luyện đọc đoạn 1 theo chủ đề Địa điểm và đường đi; chú ý mẫu JPD133-L10-G001 đến G014.
 
-## R014 – Bệnh viện
+## R002 – Bưu điện
+
+### Đoạn văn tiếng Nhật
+```text
+駅までバスで行きます。
+```
+
+### Romaji
+```text
+eki made basu de ikimasu.
+```
+
+### Dịch tiếng Việt
+Tôi đi xe buýt đến ga.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 2 theo chủ đề Địa điểm và đường đi; chú ý mẫu JPD133-L10-G001 đến G014.
+
+## R003 – Bưu điện
+
+### Đoạn văn tiếng Nhật
+```text
+道をまっすぐ行ってください。
+```
+
+### Romaji
+```text
+michi o massugu itte kudasai.
+```
+
+### Dịch tiếng Việt
+Hãy đi thẳng theo đường.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 3 theo chủ đề Địa điểm và đường đi; chú ý mẫu JPD133-L10-G001 đến G014.
+
+## R004 – Bưu điện
+
+### Đoạn văn tiếng Nhật
+```text
+交差点を右に曲がります。
+```
+
+### Romaji
+```text
+kousaten o migi ni magarimasu.
+```
+
+### Dịch tiếng Việt
+Tôi rẽ phải ở ngã tư.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 4 theo chủ đề Địa điểm và đường đi; chú ý mẫu JPD133-L10-G001 đến G014.
+
+## R005 – Bưu điện
+
+### Đoạn văn tiếng Nhật
+```text
+ここから山が見えます。
+```
+
+### Romaji
+```text
+koko kara yama ga miemasu.
+```
+
+### Dịch tiếng Việt
+Từ đây có thể nhìn thấy núi.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 5 theo chủ đề Địa điểm và đường đi; chú ý mẫu JPD133-L10-G001 đến G014.
+
+## R006 – Bưu điện
+
+### Đoạn văn tiếng Nhật
+```text
+鳥の声が聞こえます。
+```
+
+### Romaji
+```text
+tori no koe ga kikoemasu.
+```
+
+### Dịch tiếng Việt
+Có thể nghe tiếng chim.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 6 theo chủ đề Địa điểm và đường đi; chú ý mẫu JPD133-L10-G001 đến G014.
+
+## R007 – Bưu điện
+
+### Đoạn văn tiếng Nhật
+```text
+ここで写真を撮ってもいいですか。
+```
+
+### Romaji
+```text
+koko de shashin o totte mo ii desu ka.
+```
+
+### Dịch tiếng Việt
+Tôi chụp ảnh ở đây được không?
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 7 theo chủ đề Địa điểm và đường đi; chú ý mẫu JPD133-L10-G001 đến G014.
+
+## R008 – Bưu điện
+
+### Đoạn văn tiếng Nhật
+```text
+そこに入らないでください。
+```
+
+### Romaji
+```text
+soko ni hairanaide kudasai.
+```
+
+### Dịch tiếng Việt
+Xin đừng vào đó.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 8 theo chủ đề Địa điểm và đường đi; chú ý mẫu JPD133-L10-G001 đến G014.
+
+## R009 – Bưu điện
+
+### Đoạn văn tiếng Nhật
+```text
+もう昼ご飯を食べました。
+```
+
+### Romaji
+```text
+mou hirugohan o tabemashita.
+```
+
+### Dịch tiếng Việt
+Tôi đã ăn trưa rồi.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 9 theo chủ đề Địa điểm và đường đi; chú ý mẫu JPD133-L10-G001 đến G014.
+
+## R010 – Bưu điện
+
+### Đoạn văn tiếng Nhật
+```text
+まだ宿題をしていません。
+```
+
+### Romaji
+```text
+mada shukudai o shiteimasen.
+```
+
+### Dịch tiếng Việt
+Tôi vẫn chưa làm bài tập.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 10 theo chủ đề Địa điểm và đường đi; chú ý mẫu JPD133-L10-G001 đến G014.
+
+
+# JPD133 Reading Bài 10 – バスツアー
+
+> Chủ đề: Địa điểm và đường đi
+> Mục tiêu: 25 đoạn đọc về đường đi, địa điểm, xin phép và tình huống.
+> Từ vựng bắt buộc: 駅, バス, 道, 交差点, 橋, 見えます, 聞こえます, てもいいですか, ないでください
+> Kanji bắt buộc: 駅, 道, 橋, 右, 左, 見
+> Ngữ pháp bắt buộc: JPD133-L10-G001 đến G014
+
+## R001 – Bệnh viện
 
 ### Đoạn văn tiếng Nhật
 ```text
@@ -1178,9 +11933,180 @@ byouin de kusuri o moraimasu.
 Tôi nhận thuốc ở bệnh viện.
 
 ### Tóm tắt và ghi chú luyện tập
-Luyện đọc đoạn 14 theo chủ đề Địa điểm và đường đi; chú ý mẫu JPD133-L10-G001 đến G014.
+Luyện đọc đoạn 1 theo chủ đề Địa điểm và đường đi; chú ý mẫu JPD133-L10-G001 đến G014.
 
-## R015 – Nhà sách
+## R002 – Bệnh viện
+
+### Đoạn văn tiếng Nhật
+```text
+駅までバスで行きます。
+```
+
+### Romaji
+```text
+eki made basu de ikimasu.
+```
+
+### Dịch tiếng Việt
+Tôi đi xe buýt đến ga.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 2 theo chủ đề Địa điểm và đường đi; chú ý mẫu JPD133-L10-G001 đến G014.
+
+## R003 – Bệnh viện
+
+### Đoạn văn tiếng Nhật
+```text
+道をまっすぐ行ってください。
+```
+
+### Romaji
+```text
+michi o massugu itte kudasai.
+```
+
+### Dịch tiếng Việt
+Hãy đi thẳng theo đường.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 3 theo chủ đề Địa điểm và đường đi; chú ý mẫu JPD133-L10-G001 đến G014.
+
+## R004 – Bệnh viện
+
+### Đoạn văn tiếng Nhật
+```text
+交差点を右に曲がります。
+```
+
+### Romaji
+```text
+kousaten o migi ni magarimasu.
+```
+
+### Dịch tiếng Việt
+Tôi rẽ phải ở ngã tư.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 4 theo chủ đề Địa điểm và đường đi; chú ý mẫu JPD133-L10-G001 đến G014.
+
+## R005 – Bệnh viện
+
+### Đoạn văn tiếng Nhật
+```text
+ここから山が見えます。
+```
+
+### Romaji
+```text
+koko kara yama ga miemasu.
+```
+
+### Dịch tiếng Việt
+Từ đây có thể nhìn thấy núi.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 5 theo chủ đề Địa điểm và đường đi; chú ý mẫu JPD133-L10-G001 đến G014.
+
+## R006 – Bệnh viện
+
+### Đoạn văn tiếng Nhật
+```text
+鳥の声が聞こえます。
+```
+
+### Romaji
+```text
+tori no koe ga kikoemasu.
+```
+
+### Dịch tiếng Việt
+Có thể nghe tiếng chim.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 6 theo chủ đề Địa điểm và đường đi; chú ý mẫu JPD133-L10-G001 đến G014.
+
+## R007 – Bệnh viện
+
+### Đoạn văn tiếng Nhật
+```text
+ここで写真を撮ってもいいですか。
+```
+
+### Romaji
+```text
+koko de shashin o totte mo ii desu ka.
+```
+
+### Dịch tiếng Việt
+Tôi chụp ảnh ở đây được không?
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 7 theo chủ đề Địa điểm và đường đi; chú ý mẫu JPD133-L10-G001 đến G014.
+
+## R008 – Bệnh viện
+
+### Đoạn văn tiếng Nhật
+```text
+そこに入らないでください。
+```
+
+### Romaji
+```text
+soko ni hairanaide kudasai.
+```
+
+### Dịch tiếng Việt
+Xin đừng vào đó.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 8 theo chủ đề Địa điểm và đường đi; chú ý mẫu JPD133-L10-G001 đến G014.
+
+## R009 – Bệnh viện
+
+### Đoạn văn tiếng Nhật
+```text
+もう昼ご飯を食べました。
+```
+
+### Romaji
+```text
+mou hirugohan o tabemashita.
+```
+
+### Dịch tiếng Việt
+Tôi đã ăn trưa rồi.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 9 theo chủ đề Địa điểm và đường đi; chú ý mẫu JPD133-L10-G001 đến G014.
+
+## R010 – Bệnh viện
+
+### Đoạn văn tiếng Nhật
+```text
+まだ宿題をしていません。
+```
+
+### Romaji
+```text
+mada shukudai o shiteimasen.
+```
+
+### Dịch tiếng Việt
+Tôi vẫn chưa làm bài tập.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 10 theo chủ đề Địa điểm và đường đi; chú ý mẫu JPD133-L10-G001 đến G014.
+
+
+# JPD133 Reading Bài 10 – バスツアー
+
+> Chủ đề: Địa điểm và đường đi
+> Mục tiêu: 25 đoạn đọc về đường đi, địa điểm, xin phép và tình huống.
+> Từ vựng bắt buộc: 駅, バス, 道, 交差点, 橋, 見えます, 聞こえます, てもいいですか, ないでください
+> Kanji bắt buộc: 駅, 道, 橋, 右, 左, 見
+> Ngữ pháp bắt buộc: JPD133-L10-G001 đến G014
+
+## R001 – Nhà sách
 
 ### Đoạn văn tiếng Nhật
 ```text
@@ -1196,9 +12122,180 @@ honya de jisho o kaimasu.
 Tôi mua từ điển ở hiệu sách.
 
 ### Tóm tắt và ghi chú luyện tập
-Luyện đọc đoạn 15 theo chủ đề Địa điểm và đường đi; chú ý mẫu JPD133-L10-G001 đến G014.
+Luyện đọc đoạn 1 theo chủ đề Địa điểm và đường đi; chú ý mẫu JPD133-L10-G001 đến G014.
 
-## R016 – Trường học
+## R002 – Nhà sách
+
+### Đoạn văn tiếng Nhật
+```text
+駅までバスで行きます。
+```
+
+### Romaji
+```text
+eki made basu de ikimasu.
+```
+
+### Dịch tiếng Việt
+Tôi đi xe buýt đến ga.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 2 theo chủ đề Địa điểm và đường đi; chú ý mẫu JPD133-L10-G001 đến G014.
+
+## R003 – Nhà sách
+
+### Đoạn văn tiếng Nhật
+```text
+道をまっすぐ行ってください。
+```
+
+### Romaji
+```text
+michi o massugu itte kudasai.
+```
+
+### Dịch tiếng Việt
+Hãy đi thẳng theo đường.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 3 theo chủ đề Địa điểm và đường đi; chú ý mẫu JPD133-L10-G001 đến G014.
+
+## R004 – Nhà sách
+
+### Đoạn văn tiếng Nhật
+```text
+交差点を右に曲がります。
+```
+
+### Romaji
+```text
+kousaten o migi ni magarimasu.
+```
+
+### Dịch tiếng Việt
+Tôi rẽ phải ở ngã tư.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 4 theo chủ đề Địa điểm và đường đi; chú ý mẫu JPD133-L10-G001 đến G014.
+
+## R005 – Nhà sách
+
+### Đoạn văn tiếng Nhật
+```text
+ここから山が見えます。
+```
+
+### Romaji
+```text
+koko kara yama ga miemasu.
+```
+
+### Dịch tiếng Việt
+Từ đây có thể nhìn thấy núi.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 5 theo chủ đề Địa điểm và đường đi; chú ý mẫu JPD133-L10-G001 đến G014.
+
+## R006 – Nhà sách
+
+### Đoạn văn tiếng Nhật
+```text
+鳥の声が聞こえます。
+```
+
+### Romaji
+```text
+tori no koe ga kikoemasu.
+```
+
+### Dịch tiếng Việt
+Có thể nghe tiếng chim.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 6 theo chủ đề Địa điểm và đường đi; chú ý mẫu JPD133-L10-G001 đến G014.
+
+## R007 – Nhà sách
+
+### Đoạn văn tiếng Nhật
+```text
+ここで写真を撮ってもいいですか。
+```
+
+### Romaji
+```text
+koko de shashin o totte mo ii desu ka.
+```
+
+### Dịch tiếng Việt
+Tôi chụp ảnh ở đây được không?
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 7 theo chủ đề Địa điểm và đường đi; chú ý mẫu JPD133-L10-G001 đến G014.
+
+## R008 – Nhà sách
+
+### Đoạn văn tiếng Nhật
+```text
+そこに入らないでください。
+```
+
+### Romaji
+```text
+soko ni hairanaide kudasai.
+```
+
+### Dịch tiếng Việt
+Xin đừng vào đó.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 8 theo chủ đề Địa điểm và đường đi; chú ý mẫu JPD133-L10-G001 đến G014.
+
+## R009 – Nhà sách
+
+### Đoạn văn tiếng Nhật
+```text
+もう昼ご飯を食べました。
+```
+
+### Romaji
+```text
+mou hirugohan o tabemashita.
+```
+
+### Dịch tiếng Việt
+Tôi đã ăn trưa rồi.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 9 theo chủ đề Địa điểm và đường đi; chú ý mẫu JPD133-L10-G001 đến G014.
+
+## R010 – Nhà sách
+
+### Đoạn văn tiếng Nhật
+```text
+まだ宿題をしていません。
+```
+
+### Romaji
+```text
+mada shukudai o shiteimasen.
+```
+
+### Dịch tiếng Việt
+Tôi vẫn chưa làm bài tập.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 10 theo chủ đề Địa điểm và đường đi; chú ý mẫu JPD133-L10-G001 đến G014.
+
+
+# JPD133 Reading Bài 10 – バスツアー
+
+> Chủ đề: Địa điểm và đường đi
+> Mục tiêu: 25 đoạn đọc về đường đi, địa điểm, xin phép và tình huống.
+> Từ vựng bắt buộc: 駅, バス, 道, 交差点, 橋, 見えます, 聞こえます, てもいいですか, ないでください
+> Kanji bắt buộc: 駅, 道, 橋, 右, 左, 見
+> Ngữ pháp bắt buộc: JPD133-L10-G001 đến G014
+
+## R001 – Trường học
 
 ### Đoạn văn tiếng Nhật
 ```text
@@ -1214,9 +12311,180 @@ gakkou e aruite ikimasu.
 Tôi đi bộ đến trường.
 
 ### Tóm tắt và ghi chú luyện tập
-Luyện đọc đoạn 16 theo chủ đề Địa điểm và đường đi; chú ý mẫu JPD133-L10-G001 đến G014.
+Luyện đọc đoạn 1 theo chủ đề Địa điểm và đường đi; chú ý mẫu JPD133-L10-G001 đến G014.
 
-## R017 – Bus Tour
+## R002 – Trường học
+
+### Đoạn văn tiếng Nhật
+```text
+駅までバスで行きます。
+```
+
+### Romaji
+```text
+eki made basu de ikimasu.
+```
+
+### Dịch tiếng Việt
+Tôi đi xe buýt đến ga.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 2 theo chủ đề Địa điểm và đường đi; chú ý mẫu JPD133-L10-G001 đến G014.
+
+## R003 – Trường học
+
+### Đoạn văn tiếng Nhật
+```text
+道をまっすぐ行ってください。
+```
+
+### Romaji
+```text
+michi o massugu itte kudasai.
+```
+
+### Dịch tiếng Việt
+Hãy đi thẳng theo đường.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 3 theo chủ đề Địa điểm và đường đi; chú ý mẫu JPD133-L10-G001 đến G014.
+
+## R004 – Trường học
+
+### Đoạn văn tiếng Nhật
+```text
+交差点を右に曲がります。
+```
+
+### Romaji
+```text
+kousaten o migi ni magarimasu.
+```
+
+### Dịch tiếng Việt
+Tôi rẽ phải ở ngã tư.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 4 theo chủ đề Địa điểm và đường đi; chú ý mẫu JPD133-L10-G001 đến G014.
+
+## R005 – Trường học
+
+### Đoạn văn tiếng Nhật
+```text
+ここから山が見えます。
+```
+
+### Romaji
+```text
+koko kara yama ga miemasu.
+```
+
+### Dịch tiếng Việt
+Từ đây có thể nhìn thấy núi.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 5 theo chủ đề Địa điểm và đường đi; chú ý mẫu JPD133-L10-G001 đến G014.
+
+## R006 – Trường học
+
+### Đoạn văn tiếng Nhật
+```text
+鳥の声が聞こえます。
+```
+
+### Romaji
+```text
+tori no koe ga kikoemasu.
+```
+
+### Dịch tiếng Việt
+Có thể nghe tiếng chim.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 6 theo chủ đề Địa điểm và đường đi; chú ý mẫu JPD133-L10-G001 đến G014.
+
+## R007 – Trường học
+
+### Đoạn văn tiếng Nhật
+```text
+ここで写真を撮ってもいいですか。
+```
+
+### Romaji
+```text
+koko de shashin o totte mo ii desu ka.
+```
+
+### Dịch tiếng Việt
+Tôi chụp ảnh ở đây được không?
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 7 theo chủ đề Địa điểm và đường đi; chú ý mẫu JPD133-L10-G001 đến G014.
+
+## R008 – Trường học
+
+### Đoạn văn tiếng Nhật
+```text
+そこに入らないでください。
+```
+
+### Romaji
+```text
+soko ni hairanaide kudasai.
+```
+
+### Dịch tiếng Việt
+Xin đừng vào đó.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 8 theo chủ đề Địa điểm và đường đi; chú ý mẫu JPD133-L10-G001 đến G014.
+
+## R009 – Trường học
+
+### Đoạn văn tiếng Nhật
+```text
+もう昼ご飯を食べました。
+```
+
+### Romaji
+```text
+mou hirugohan o tabemashita.
+```
+
+### Dịch tiếng Việt
+Tôi đã ăn trưa rồi.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 9 theo chủ đề Địa điểm và đường đi; chú ý mẫu JPD133-L10-G001 đến G014.
+
+## R010 – Trường học
+
+### Đoạn văn tiếng Nhật
+```text
+まだ宿題をしていません。
+```
+
+### Romaji
+```text
+mada shukudai o shiteimasen.
+```
+
+### Dịch tiếng Việt
+Tôi vẫn chưa làm bài tập.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 10 theo chủ đề Địa điểm và đường đi; chú ý mẫu JPD133-L10-G001 đến G014.
+
+
+# JPD133 Reading Bài 10 – バスツアー
+
+> Chủ đề: Địa điểm và đường đi
+> Mục tiêu: 25 đoạn đọc về đường đi, địa điểm, xin phép và tình huống.
+> Từ vựng bắt buộc: 駅, バス, 道, 交差点, 橋, 見えます, 聞こえます, てもいいですか, ないでください
+> Kanji bắt buộc: 駅, 道, 橋, 右, 左, 見
+> Ngữ pháp bắt buộc: JPD133-L10-G001 đến G014
+
+## R001 – Bus Tour
 
 ### Đoạn văn tiếng Nhật
 ```text
@@ -1232,9 +12500,180 @@ basu tsuaa de iroiro na machi e ikimasu.
 Tôi đi nhiều thành phố bằng tour xe buýt.
 
 ### Tóm tắt và ghi chú luyện tập
-Luyện đọc đoạn 17 theo chủ đề Địa điểm và đường đi; chú ý mẫu JPD133-L10-G001 đến G014.
+Luyện đọc đoạn 1 theo chủ đề Địa điểm và đường đi; chú ý mẫu JPD133-L10-G001 đến G014.
 
-## R018 – Đi bộ
+## R002 – Bus Tour
+
+### Đoạn văn tiếng Nhật
+```text
+駅までバスで行きます。
+```
+
+### Romaji
+```text
+eki made basu de ikimasu.
+```
+
+### Dịch tiếng Việt
+Tôi đi xe buýt đến ga.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 2 theo chủ đề Địa điểm và đường đi; chú ý mẫu JPD133-L10-G001 đến G014.
+
+## R003 – Bus Tour
+
+### Đoạn văn tiếng Nhật
+```text
+道をまっすぐ行ってください。
+```
+
+### Romaji
+```text
+michi o massugu itte kudasai.
+```
+
+### Dịch tiếng Việt
+Hãy đi thẳng theo đường.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 3 theo chủ đề Địa điểm và đường đi; chú ý mẫu JPD133-L10-G001 đến G014.
+
+## R004 – Bus Tour
+
+### Đoạn văn tiếng Nhật
+```text
+交差点を右に曲がります。
+```
+
+### Romaji
+```text
+kousaten o migi ni magarimasu.
+```
+
+### Dịch tiếng Việt
+Tôi rẽ phải ở ngã tư.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 4 theo chủ đề Địa điểm và đường đi; chú ý mẫu JPD133-L10-G001 đến G014.
+
+## R005 – Bus Tour
+
+### Đoạn văn tiếng Nhật
+```text
+ここから山が見えます。
+```
+
+### Romaji
+```text
+koko kara yama ga miemasu.
+```
+
+### Dịch tiếng Việt
+Từ đây có thể nhìn thấy núi.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 5 theo chủ đề Địa điểm và đường đi; chú ý mẫu JPD133-L10-G001 đến G014.
+
+## R006 – Bus Tour
+
+### Đoạn văn tiếng Nhật
+```text
+鳥の声が聞こえます。
+```
+
+### Romaji
+```text
+tori no koe ga kikoemasu.
+```
+
+### Dịch tiếng Việt
+Có thể nghe tiếng chim.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 6 theo chủ đề Địa điểm và đường đi; chú ý mẫu JPD133-L10-G001 đến G014.
+
+## R007 – Bus Tour
+
+### Đoạn văn tiếng Nhật
+```text
+ここで写真を撮ってもいいですか。
+```
+
+### Romaji
+```text
+koko de shashin o totte mo ii desu ka.
+```
+
+### Dịch tiếng Việt
+Tôi chụp ảnh ở đây được không?
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 7 theo chủ đề Địa điểm và đường đi; chú ý mẫu JPD133-L10-G001 đến G014.
+
+## R008 – Bus Tour
+
+### Đoạn văn tiếng Nhật
+```text
+そこに入らないでください。
+```
+
+### Romaji
+```text
+soko ni hairanaide kudasai.
+```
+
+### Dịch tiếng Việt
+Xin đừng vào đó.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 8 theo chủ đề Địa điểm và đường đi; chú ý mẫu JPD133-L10-G001 đến G014.
+
+## R009 – Bus Tour
+
+### Đoạn văn tiếng Nhật
+```text
+もう昼ご飯を食べました。
+```
+
+### Romaji
+```text
+mou hirugohan o tabemashita.
+```
+
+### Dịch tiếng Việt
+Tôi đã ăn trưa rồi.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 9 theo chủ đề Địa điểm và đường đi; chú ý mẫu JPD133-L10-G001 đến G014.
+
+## R010 – Bus Tour
+
+### Đoạn văn tiếng Nhật
+```text
+まだ宿題をしていません。
+```
+
+### Romaji
+```text
+mada shukudai o shiteimasen.
+```
+
+### Dịch tiếng Việt
+Tôi vẫn chưa làm bài tập.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 10 theo chủ đề Địa điểm và đường đi; chú ý mẫu JPD133-L10-G001 đến G014.
+
+
+# JPD133 Reading Bài 10 – バスツアー
+
+> Chủ đề: Địa điểm và đường đi
+> Mục tiêu: 25 đoạn đọc về đường đi, địa điểm, xin phép và tình huống.
+> Từ vựng bắt buộc: 駅, バス, 道, 交差点, 橋, 見えます, 聞こえます, てもいいですか, ないでください
+> Kanji bắt buộc: 駅, 道, 橋, 右, 左, 見
+> Ngữ pháp bắt buộc: JPD133-L10-G001 đến G014
+
+## R001 – Đi bộ
 
 ### Đoạn văn tiếng Nhật
 ```text
@@ -1250,9 +12689,180 @@ eki made aruite ikimasu.
 Tôi đi bộ đến ga.
 
 ### Tóm tắt và ghi chú luyện tập
-Luyện đọc đoạn 18 theo chủ đề Địa điểm và đường đi; chú ý mẫu JPD133-L10-G001 đến G014.
+Luyện đọc đoạn 1 theo chủ đề Địa điểm và đường đi; chú ý mẫu JPD133-L10-G001 đến G014.
 
-## R019 – Xe đạp
+## R002 – Đi bộ
+
+### Đoạn văn tiếng Nhật
+```text
+駅までバスで行きます。
+```
+
+### Romaji
+```text
+eki made basu de ikimasu.
+```
+
+### Dịch tiếng Việt
+Tôi đi xe buýt đến ga.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 2 theo chủ đề Địa điểm và đường đi; chú ý mẫu JPD133-L10-G001 đến G014.
+
+## R003 – Đi bộ
+
+### Đoạn văn tiếng Nhật
+```text
+道をまっすぐ行ってください。
+```
+
+### Romaji
+```text
+michi o massugu itte kudasai.
+```
+
+### Dịch tiếng Việt
+Hãy đi thẳng theo đường.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 3 theo chủ đề Địa điểm và đường đi; chú ý mẫu JPD133-L10-G001 đến G014.
+
+## R004 – Đi bộ
+
+### Đoạn văn tiếng Nhật
+```text
+交差点を右に曲がります。
+```
+
+### Romaji
+```text
+kousaten o migi ni magarimasu.
+```
+
+### Dịch tiếng Việt
+Tôi rẽ phải ở ngã tư.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 4 theo chủ đề Địa điểm và đường đi; chú ý mẫu JPD133-L10-G001 đến G014.
+
+## R005 – Đi bộ
+
+### Đoạn văn tiếng Nhật
+```text
+ここから山が見えます。
+```
+
+### Romaji
+```text
+koko kara yama ga miemasu.
+```
+
+### Dịch tiếng Việt
+Từ đây có thể nhìn thấy núi.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 5 theo chủ đề Địa điểm và đường đi; chú ý mẫu JPD133-L10-G001 đến G014.
+
+## R006 – Đi bộ
+
+### Đoạn văn tiếng Nhật
+```text
+鳥の声が聞こえます。
+```
+
+### Romaji
+```text
+tori no koe ga kikoemasu.
+```
+
+### Dịch tiếng Việt
+Có thể nghe tiếng chim.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 6 theo chủ đề Địa điểm và đường đi; chú ý mẫu JPD133-L10-G001 đến G014.
+
+## R007 – Đi bộ
+
+### Đoạn văn tiếng Nhật
+```text
+ここで写真を撮ってもいいですか。
+```
+
+### Romaji
+```text
+koko de shashin o totte mo ii desu ka.
+```
+
+### Dịch tiếng Việt
+Tôi chụp ảnh ở đây được không?
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 7 theo chủ đề Địa điểm và đường đi; chú ý mẫu JPD133-L10-G001 đến G014.
+
+## R008 – Đi bộ
+
+### Đoạn văn tiếng Nhật
+```text
+そこに入らないでください。
+```
+
+### Romaji
+```text
+soko ni hairanaide kudasai.
+```
+
+### Dịch tiếng Việt
+Xin đừng vào đó.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 8 theo chủ đề Địa điểm và đường đi; chú ý mẫu JPD133-L10-G001 đến G014.
+
+## R009 – Đi bộ
+
+### Đoạn văn tiếng Nhật
+```text
+もう昼ご飯を食べました。
+```
+
+### Romaji
+```text
+mou hirugohan o tabemashita.
+```
+
+### Dịch tiếng Việt
+Tôi đã ăn trưa rồi.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 9 theo chủ đề Địa điểm và đường đi; chú ý mẫu JPD133-L10-G001 đến G014.
+
+## R010 – Đi bộ
+
+### Đoạn văn tiếng Nhật
+```text
+まだ宿題をしていません。
+```
+
+### Romaji
+```text
+mada shukudai o shiteimasen.
+```
+
+### Dịch tiếng Việt
+Tôi vẫn chưa làm bài tập.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 10 theo chủ đề Địa điểm và đường đi; chú ý mẫu JPD133-L10-G001 đến G014.
+
+
+# JPD133 Reading Bài 10 – バスツアー
+
+> Chủ đề: Địa điểm và đường đi
+> Mục tiêu: 25 đoạn đọc về đường đi, địa điểm, xin phép và tình huống.
+> Từ vựng bắt buộc: 駅, バス, 道, 交差点, 橋, 見えます, 聞こえます, てもいいですか, ないでください
+> Kanji bắt buộc: 駅, 道, 橋, 右, 左, 見
+> Ngữ pháp bắt buộc: JPD133-L10-G001 đến G014
+
+## R001 – Xe đạp
 
 ### Đoạn văn tiếng Nhật
 ```text
@@ -1268,9 +12878,180 @@ jitensha de kouen e ikimasu.
 Tôi đi xe đạp đến công viên.
 
 ### Tóm tắt và ghi chú luyện tập
-Luyện đọc đoạn 19 theo chủ đề Địa điểm và đường đi; chú ý mẫu JPD133-L10-G001 đến G014.
+Luyện đọc đoạn 1 theo chủ đề Địa điểm và đường đi; chú ý mẫu JPD133-L10-G001 đến G014.
 
-## R020 – Đi mua sắm
+## R002 – Xe đạp
+
+### Đoạn văn tiếng Nhật
+```text
+駅までバスで行きます。
+```
+
+### Romaji
+```text
+eki made basu de ikimasu.
+```
+
+### Dịch tiếng Việt
+Tôi đi xe buýt đến ga.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 2 theo chủ đề Địa điểm và đường đi; chú ý mẫu JPD133-L10-G001 đến G014.
+
+## R003 – Xe đạp
+
+### Đoạn văn tiếng Nhật
+```text
+道をまっすぐ行ってください。
+```
+
+### Romaji
+```text
+michi o massugu itte kudasai.
+```
+
+### Dịch tiếng Việt
+Hãy đi thẳng theo đường.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 3 theo chủ đề Địa điểm và đường đi; chú ý mẫu JPD133-L10-G001 đến G014.
+
+## R004 – Xe đạp
+
+### Đoạn văn tiếng Nhật
+```text
+交差点を右に曲がります。
+```
+
+### Romaji
+```text
+kousaten o migi ni magarimasu.
+```
+
+### Dịch tiếng Việt
+Tôi rẽ phải ở ngã tư.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 4 theo chủ đề Địa điểm và đường đi; chú ý mẫu JPD133-L10-G001 đến G014.
+
+## R005 – Xe đạp
+
+### Đoạn văn tiếng Nhật
+```text
+ここから山が見えます。
+```
+
+### Romaji
+```text
+koko kara yama ga miemasu.
+```
+
+### Dịch tiếng Việt
+Từ đây có thể nhìn thấy núi.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 5 theo chủ đề Địa điểm và đường đi; chú ý mẫu JPD133-L10-G001 đến G014.
+
+## R006 – Xe đạp
+
+### Đoạn văn tiếng Nhật
+```text
+鳥の声が聞こえます。
+```
+
+### Romaji
+```text
+tori no koe ga kikoemasu.
+```
+
+### Dịch tiếng Việt
+Có thể nghe tiếng chim.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 6 theo chủ đề Địa điểm và đường đi; chú ý mẫu JPD133-L10-G001 đến G014.
+
+## R007 – Xe đạp
+
+### Đoạn văn tiếng Nhật
+```text
+ここで写真を撮ってもいいですか。
+```
+
+### Romaji
+```text
+koko de shashin o totte mo ii desu ka.
+```
+
+### Dịch tiếng Việt
+Tôi chụp ảnh ở đây được không?
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 7 theo chủ đề Địa điểm và đường đi; chú ý mẫu JPD133-L10-G001 đến G014.
+
+## R008 – Xe đạp
+
+### Đoạn văn tiếng Nhật
+```text
+そこに入らないでください。
+```
+
+### Romaji
+```text
+soko ni hairanaide kudasai.
+```
+
+### Dịch tiếng Việt
+Xin đừng vào đó.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 8 theo chủ đề Địa điểm và đường đi; chú ý mẫu JPD133-L10-G001 đến G014.
+
+## R009 – Xe đạp
+
+### Đoạn văn tiếng Nhật
+```text
+もう昼ご飯を食べました。
+```
+
+### Romaji
+```text
+mou hirugohan o tabemashita.
+```
+
+### Dịch tiếng Việt
+Tôi đã ăn trưa rồi.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 9 theo chủ đề Địa điểm và đường đi; chú ý mẫu JPD133-L10-G001 đến G014.
+
+## R010 – Xe đạp
+
+### Đoạn văn tiếng Nhật
+```text
+まだ宿題をしていません。
+```
+
+### Romaji
+```text
+mada shukudai o shiteimasen.
+```
+
+### Dịch tiếng Việt
+Tôi vẫn chưa làm bài tập.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 10 theo chủ đề Địa điểm và đường đi; chú ý mẫu JPD133-L10-G001 đến G014.
+
+
+# JPD133 Reading Bài 10 – バスツアー
+
+> Chủ đề: Địa điểm và đường đi
+> Mục tiêu: 25 đoạn đọc về đường đi, địa điểm, xin phép và tình huống.
+> Từ vựng bắt buộc: 駅, バス, 道, 交差点, 橋, 見えます, 聞こえます, てもいいですか, ないでください
+> Kanji bắt buộc: 駅, 道, 橋, 右, 左, 見
+> Ngữ pháp bắt buộc: JPD133-L10-G001 đến G014
+
+## R001 – Đi mua sắm
 
 ### Đoạn văn tiếng Nhật
 ```text
@@ -1286,9 +13067,180 @@ depaato de kaimono o shimasu.
 Tôi mua sắm ở trung tâm thương mại.
 
 ### Tóm tắt và ghi chú luyện tập
-Luyện đọc đoạn 20 theo chủ đề Địa điểm và đường đi; chú ý mẫu JPD133-L10-G001 đến G014.
+Luyện đọc đoạn 1 theo chủ đề Địa điểm và đường đi; chú ý mẫu JPD133-L10-G001 đến G014.
 
-## R021 – Đường về nhà
+## R002 – Đi mua sắm
+
+### Đoạn văn tiếng Nhật
+```text
+駅までバスで行きます。
+```
+
+### Romaji
+```text
+eki made basu de ikimasu.
+```
+
+### Dịch tiếng Việt
+Tôi đi xe buýt đến ga.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 2 theo chủ đề Địa điểm và đường đi; chú ý mẫu JPD133-L10-G001 đến G014.
+
+## R003 – Đi mua sắm
+
+### Đoạn văn tiếng Nhật
+```text
+道をまっすぐ行ってください。
+```
+
+### Romaji
+```text
+michi o massugu itte kudasai.
+```
+
+### Dịch tiếng Việt
+Hãy đi thẳng theo đường.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 3 theo chủ đề Địa điểm và đường đi; chú ý mẫu JPD133-L10-G001 đến G014.
+
+## R004 – Đi mua sắm
+
+### Đoạn văn tiếng Nhật
+```text
+交差点を右に曲がります。
+```
+
+### Romaji
+```text
+kousaten o migi ni magarimasu.
+```
+
+### Dịch tiếng Việt
+Tôi rẽ phải ở ngã tư.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 4 theo chủ đề Địa điểm và đường đi; chú ý mẫu JPD133-L10-G001 đến G014.
+
+## R005 – Đi mua sắm
+
+### Đoạn văn tiếng Nhật
+```text
+ここから山が見えます。
+```
+
+### Romaji
+```text
+koko kara yama ga miemasu.
+```
+
+### Dịch tiếng Việt
+Từ đây có thể nhìn thấy núi.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 5 theo chủ đề Địa điểm và đường đi; chú ý mẫu JPD133-L10-G001 đến G014.
+
+## R006 – Đi mua sắm
+
+### Đoạn văn tiếng Nhật
+```text
+鳥の声が聞こえます。
+```
+
+### Romaji
+```text
+tori no koe ga kikoemasu.
+```
+
+### Dịch tiếng Việt
+Có thể nghe tiếng chim.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 6 theo chủ đề Địa điểm và đường đi; chú ý mẫu JPD133-L10-G001 đến G014.
+
+## R007 – Đi mua sắm
+
+### Đoạn văn tiếng Nhật
+```text
+ここで写真を撮ってもいいですか。
+```
+
+### Romaji
+```text
+koko de shashin o totte mo ii desu ka.
+```
+
+### Dịch tiếng Việt
+Tôi chụp ảnh ở đây được không?
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 7 theo chủ đề Địa điểm và đường đi; chú ý mẫu JPD133-L10-G001 đến G014.
+
+## R008 – Đi mua sắm
+
+### Đoạn văn tiếng Nhật
+```text
+そこに入らないでください。
+```
+
+### Romaji
+```text
+soko ni hairanaide kudasai.
+```
+
+### Dịch tiếng Việt
+Xin đừng vào đó.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 8 theo chủ đề Địa điểm và đường đi; chú ý mẫu JPD133-L10-G001 đến G014.
+
+## R009 – Đi mua sắm
+
+### Đoạn văn tiếng Nhật
+```text
+もう昼ご飯を食べました。
+```
+
+### Romaji
+```text
+mou hirugohan o tabemashita.
+```
+
+### Dịch tiếng Việt
+Tôi đã ăn trưa rồi.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 9 theo chủ đề Địa điểm và đường đi; chú ý mẫu JPD133-L10-G001 đến G014.
+
+## R010 – Đi mua sắm
+
+### Đoạn văn tiếng Nhật
+```text
+まだ宿題をしていません。
+```
+
+### Romaji
+```text
+mada shukudai o shiteimasen.
+```
+
+### Dịch tiếng Việt
+Tôi vẫn chưa làm bài tập.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 10 theo chủ đề Địa điểm và đường đi; chú ý mẫu JPD133-L10-G001 đến G014.
+
+
+# JPD133 Reading Bài 10 – バスツアー
+
+> Chủ đề: Địa điểm và đường đi
+> Mục tiêu: 25 đoạn đọc về đường đi, địa điểm, xin phép và tình huống.
+> Từ vựng bắt buộc: 駅, バス, 道, 交差点, 橋, 見えます, 聞こえます, てもいいですか, ないでください
+> Kanji bắt buộc: 駅, 道, 橋, 右, 左, 見
+> Ngữ pháp bắt buộc: JPD133-L10-G001 đến G014
+
+## R001 – Đường về nhà
 
 ### Đoạn văn tiếng Nhật
 ```text
@@ -1304,9 +13256,180 @@ ie e kaeru michi wa shizuka desu.
 Con đường về nhà yên tĩnh.
 
 ### Tóm tắt và ghi chú luyện tập
-Luyện đọc đoạn 21 theo chủ đề Địa điểm và đường đi; chú ý mẫu JPD133-L10-G001 đến G014.
+Luyện đọc đoạn 1 theo chủ đề Địa điểm và đường đi; chú ý mẫu JPD133-L10-G001 đến G014.
 
-## R022 – Tham quan
+## R002 – Đường về nhà
+
+### Đoạn văn tiếng Nhật
+```text
+駅までバスで行きます。
+```
+
+### Romaji
+```text
+eki made basu de ikimasu.
+```
+
+### Dịch tiếng Việt
+Tôi đi xe buýt đến ga.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 2 theo chủ đề Địa điểm và đường đi; chú ý mẫu JPD133-L10-G001 đến G014.
+
+## R003 – Đường về nhà
+
+### Đoạn văn tiếng Nhật
+```text
+道をまっすぐ行ってください。
+```
+
+### Romaji
+```text
+michi o massugu itte kudasai.
+```
+
+### Dịch tiếng Việt
+Hãy đi thẳng theo đường.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 3 theo chủ đề Địa điểm và đường đi; chú ý mẫu JPD133-L10-G001 đến G014.
+
+## R004 – Đường về nhà
+
+### Đoạn văn tiếng Nhật
+```text
+交差点を右に曲がります。
+```
+
+### Romaji
+```text
+kousaten o migi ni magarimasu.
+```
+
+### Dịch tiếng Việt
+Tôi rẽ phải ở ngã tư.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 4 theo chủ đề Địa điểm và đường đi; chú ý mẫu JPD133-L10-G001 đến G014.
+
+## R005 – Đường về nhà
+
+### Đoạn văn tiếng Nhật
+```text
+ここから山が見えます。
+```
+
+### Romaji
+```text
+koko kara yama ga miemasu.
+```
+
+### Dịch tiếng Việt
+Từ đây có thể nhìn thấy núi.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 5 theo chủ đề Địa điểm và đường đi; chú ý mẫu JPD133-L10-G001 đến G014.
+
+## R006 – Đường về nhà
+
+### Đoạn văn tiếng Nhật
+```text
+鳥の声が聞こえます。
+```
+
+### Romaji
+```text
+tori no koe ga kikoemasu.
+```
+
+### Dịch tiếng Việt
+Có thể nghe tiếng chim.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 6 theo chủ đề Địa điểm và đường đi; chú ý mẫu JPD133-L10-G001 đến G014.
+
+## R007 – Đường về nhà
+
+### Đoạn văn tiếng Nhật
+```text
+ここで写真を撮ってもいいですか。
+```
+
+### Romaji
+```text
+koko de shashin o totte mo ii desu ka.
+```
+
+### Dịch tiếng Việt
+Tôi chụp ảnh ở đây được không?
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 7 theo chủ đề Địa điểm và đường đi; chú ý mẫu JPD133-L10-G001 đến G014.
+
+## R008 – Đường về nhà
+
+### Đoạn văn tiếng Nhật
+```text
+そこに入らないでください。
+```
+
+### Romaji
+```text
+soko ni hairanaide kudasai.
+```
+
+### Dịch tiếng Việt
+Xin đừng vào đó.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 8 theo chủ đề Địa điểm và đường đi; chú ý mẫu JPD133-L10-G001 đến G014.
+
+## R009 – Đường về nhà
+
+### Đoạn văn tiếng Nhật
+```text
+もう昼ご飯を食べました。
+```
+
+### Romaji
+```text
+mou hirugohan o tabemashita.
+```
+
+### Dịch tiếng Việt
+Tôi đã ăn trưa rồi.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 9 theo chủ đề Địa điểm và đường đi; chú ý mẫu JPD133-L10-G001 đến G014.
+
+## R010 – Đường về nhà
+
+### Đoạn văn tiếng Nhật
+```text
+まだ宿題をしていません。
+```
+
+### Romaji
+```text
+mada shukudai o shiteimasen.
+```
+
+### Dịch tiếng Việt
+Tôi vẫn chưa làm bài tập.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 10 theo chủ đề Địa điểm và đường đi; chú ý mẫu JPD133-L10-G001 đến G014.
+
+
+# JPD133 Reading Bài 10 – バスツアー
+
+> Chủ đề: Địa điểm và đường đi
+> Mục tiêu: 25 đoạn đọc về đường đi, địa điểm, xin phép và tình huống.
+> Từ vựng bắt buộc: 駅, バス, 道, 交差点, 橋, 見えます, 聞こえます, てもいいですか, ないでください
+> Kanji bắt buộc: 駅, 道, 橋, 右, 左, 見
+> Ngữ pháp bắt buộc: JPD133-L10-G001 đến G014
+
+## R001 – Tham quan
 
 ### Đoạn văn tiếng Nhật
 ```text
@@ -1322,9 +13445,180 @@ toukyou tawaa ga miemasu.
 Có thể nhìn thấy Tháp Tokyo.
 
 ### Tóm tắt và ghi chú luyện tập
-Luyện đọc đoạn 22 theo chủ đề Địa điểm và đường đi; chú ý mẫu JPD133-L10-G001 đến G014.
+Luyện đọc đoạn 1 theo chủ đề Địa điểm và đường đi; chú ý mẫu JPD133-L10-G001 đến G014.
 
-## R023 – Một ngày ở Tokyo
+## R002 – Tham quan
+
+### Đoạn văn tiếng Nhật
+```text
+駅までバスで行きます。
+```
+
+### Romaji
+```text
+eki made basu de ikimasu.
+```
+
+### Dịch tiếng Việt
+Tôi đi xe buýt đến ga.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 2 theo chủ đề Địa điểm và đường đi; chú ý mẫu JPD133-L10-G001 đến G014.
+
+## R003 – Tham quan
+
+### Đoạn văn tiếng Nhật
+```text
+道をまっすぐ行ってください。
+```
+
+### Romaji
+```text
+michi o massugu itte kudasai.
+```
+
+### Dịch tiếng Việt
+Hãy đi thẳng theo đường.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 3 theo chủ đề Địa điểm và đường đi; chú ý mẫu JPD133-L10-G001 đến G014.
+
+## R004 – Tham quan
+
+### Đoạn văn tiếng Nhật
+```text
+交差点を右に曲がります。
+```
+
+### Romaji
+```text
+kousaten o migi ni magarimasu.
+```
+
+### Dịch tiếng Việt
+Tôi rẽ phải ở ngã tư.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 4 theo chủ đề Địa điểm và đường đi; chú ý mẫu JPD133-L10-G001 đến G014.
+
+## R005 – Tham quan
+
+### Đoạn văn tiếng Nhật
+```text
+ここから山が見えます。
+```
+
+### Romaji
+```text
+koko kara yama ga miemasu.
+```
+
+### Dịch tiếng Việt
+Từ đây có thể nhìn thấy núi.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 5 theo chủ đề Địa điểm và đường đi; chú ý mẫu JPD133-L10-G001 đến G014.
+
+## R006 – Tham quan
+
+### Đoạn văn tiếng Nhật
+```text
+鳥の声が聞こえます。
+```
+
+### Romaji
+```text
+tori no koe ga kikoemasu.
+```
+
+### Dịch tiếng Việt
+Có thể nghe tiếng chim.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 6 theo chủ đề Địa điểm và đường đi; chú ý mẫu JPD133-L10-G001 đến G014.
+
+## R007 – Tham quan
+
+### Đoạn văn tiếng Nhật
+```text
+ここで写真を撮ってもいいですか。
+```
+
+### Romaji
+```text
+koko de shashin o totte mo ii desu ka.
+```
+
+### Dịch tiếng Việt
+Tôi chụp ảnh ở đây được không?
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 7 theo chủ đề Địa điểm và đường đi; chú ý mẫu JPD133-L10-G001 đến G014.
+
+## R008 – Tham quan
+
+### Đoạn văn tiếng Nhật
+```text
+そこに入らないでください。
+```
+
+### Romaji
+```text
+soko ni hairanaide kudasai.
+```
+
+### Dịch tiếng Việt
+Xin đừng vào đó.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 8 theo chủ đề Địa điểm và đường đi; chú ý mẫu JPD133-L10-G001 đến G014.
+
+## R009 – Tham quan
+
+### Đoạn văn tiếng Nhật
+```text
+もう昼ご飯を食べました。
+```
+
+### Romaji
+```text
+mou hirugohan o tabemashita.
+```
+
+### Dịch tiếng Việt
+Tôi đã ăn trưa rồi.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 9 theo chủ đề Địa điểm và đường đi; chú ý mẫu JPD133-L10-G001 đến G014.
+
+## R010 – Tham quan
+
+### Đoạn văn tiếng Nhật
+```text
+まだ宿題をしていません。
+```
+
+### Romaji
+```text
+mada shukudai o shiteimasen.
+```
+
+### Dịch tiếng Việt
+Tôi vẫn chưa làm bài tập.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 10 theo chủ đề Địa điểm và đường đi; chú ý mẫu JPD133-L10-G001 đến G014.
+
+
+# JPD133 Reading Bài 10 – バスツアー
+
+> Chủ đề: Địa điểm và đường đi
+> Mục tiêu: 25 đoạn đọc về đường đi, địa điểm, xin phép và tình huống.
+> Từ vựng bắt buộc: 駅, バス, 道, 交差点, 橋, 見えます, 聞こえます, てもいいですか, ないでください
+> Kanji bắt buộc: 駅, 道, 橋, 右, 左, 見
+> Ngữ pháp bắt buộc: JPD133-L10-G001 đến G014
+
+## R001 – Một ngày ở Tokyo
 
 ### Đoạn văn tiếng Nhật
 ```text
@@ -1340,9 +13634,180 @@ toukyou de ichinichi kankou o shimasu.
 Tôi tham quan Tokyo một ngày.
 
 ### Tóm tắt và ghi chú luyện tập
-Luyện đọc đoạn 23 theo chủ đề Địa điểm và đường đi; chú ý mẫu JPD133-L10-G001 đến G014.
+Luyện đọc đoạn 1 theo chủ đề Địa điểm và đường đi; chú ý mẫu JPD133-L10-G001 đến G014.
 
-## R024 – Chuyến xe
+## R002 – Một ngày ở Tokyo
+
+### Đoạn văn tiếng Nhật
+```text
+駅までバスで行きます。
+```
+
+### Romaji
+```text
+eki made basu de ikimasu.
+```
+
+### Dịch tiếng Việt
+Tôi đi xe buýt đến ga.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 2 theo chủ đề Địa điểm và đường đi; chú ý mẫu JPD133-L10-G001 đến G014.
+
+## R003 – Một ngày ở Tokyo
+
+### Đoạn văn tiếng Nhật
+```text
+道をまっすぐ行ってください。
+```
+
+### Romaji
+```text
+michi o massugu itte kudasai.
+```
+
+### Dịch tiếng Việt
+Hãy đi thẳng theo đường.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 3 theo chủ đề Địa điểm và đường đi; chú ý mẫu JPD133-L10-G001 đến G014.
+
+## R004 – Một ngày ở Tokyo
+
+### Đoạn văn tiếng Nhật
+```text
+交差点を右に曲がります。
+```
+
+### Romaji
+```text
+kousaten o migi ni magarimasu.
+```
+
+### Dịch tiếng Việt
+Tôi rẽ phải ở ngã tư.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 4 theo chủ đề Địa điểm và đường đi; chú ý mẫu JPD133-L10-G001 đến G014.
+
+## R005 – Một ngày ở Tokyo
+
+### Đoạn văn tiếng Nhật
+```text
+ここから山が見えます。
+```
+
+### Romaji
+```text
+koko kara yama ga miemasu.
+```
+
+### Dịch tiếng Việt
+Từ đây có thể nhìn thấy núi.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 5 theo chủ đề Địa điểm và đường đi; chú ý mẫu JPD133-L10-G001 đến G014.
+
+## R006 – Một ngày ở Tokyo
+
+### Đoạn văn tiếng Nhật
+```text
+鳥の声が聞こえます。
+```
+
+### Romaji
+```text
+tori no koe ga kikoemasu.
+```
+
+### Dịch tiếng Việt
+Có thể nghe tiếng chim.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 6 theo chủ đề Địa điểm và đường đi; chú ý mẫu JPD133-L10-G001 đến G014.
+
+## R007 – Một ngày ở Tokyo
+
+### Đoạn văn tiếng Nhật
+```text
+ここで写真を撮ってもいいですか。
+```
+
+### Romaji
+```text
+koko de shashin o totte mo ii desu ka.
+```
+
+### Dịch tiếng Việt
+Tôi chụp ảnh ở đây được không?
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 7 theo chủ đề Địa điểm và đường đi; chú ý mẫu JPD133-L10-G001 đến G014.
+
+## R008 – Một ngày ở Tokyo
+
+### Đoạn văn tiếng Nhật
+```text
+そこに入らないでください。
+```
+
+### Romaji
+```text
+soko ni hairanaide kudasai.
+```
+
+### Dịch tiếng Việt
+Xin đừng vào đó.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 8 theo chủ đề Địa điểm và đường đi; chú ý mẫu JPD133-L10-G001 đến G014.
+
+## R009 – Một ngày ở Tokyo
+
+### Đoạn văn tiếng Nhật
+```text
+もう昼ご飯を食べました。
+```
+
+### Romaji
+```text
+mou hirugohan o tabemashita.
+```
+
+### Dịch tiếng Việt
+Tôi đã ăn trưa rồi.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 9 theo chủ đề Địa điểm và đường đi; chú ý mẫu JPD133-L10-G001 đến G014.
+
+## R010 – Một ngày ở Tokyo
+
+### Đoạn văn tiếng Nhật
+```text
+まだ宿題をしていません。
+```
+
+### Romaji
+```text
+mada shukudai o shiteimasen.
+```
+
+### Dịch tiếng Việt
+Tôi vẫn chưa làm bài tập.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 10 theo chủ đề Địa điểm và đường đi; chú ý mẫu JPD133-L10-G001 đến G014.
+
+
+# JPD133 Reading Bài 10 – バスツアー
+
+> Chủ đề: Địa điểm và đường đi
+> Mục tiêu: 25 đoạn đọc về đường đi, địa điểm, xin phép và tình huống.
+> Từ vựng bắt buộc: 駅, バス, 道, 交差点, 橋, 見えます, 聞こえます, てもいいですか, ないでください
+> Kanji bắt buộc: 駅, 道, 橋, 右, 左, 見
+> Ngữ pháp bắt buộc: JPD133-L10-G001 đến G014
+
+## R001 – Chuyến xe
 
 ### Đoạn văn tiếng Nhật
 ```text
@@ -1358,9 +13823,180 @@ mou basu ga kimashita.
 Xe buýt đã đến rồi.
 
 ### Tóm tắt và ghi chú luyện tập
-Luyện đọc đoạn 24 theo chủ đề Địa điểm và đường đi; chú ý mẫu JPD133-L10-G001 đến G014.
+Luyện đọc đoạn 1 theo chủ đề Địa điểm và đường đi; chú ý mẫu JPD133-L10-G001 đến G014.
 
-## R025 – Đường đi đến trường
+## R002 – Chuyến xe
+
+### Đoạn văn tiếng Nhật
+```text
+駅までバスで行きます。
+```
+
+### Romaji
+```text
+eki made basu de ikimasu.
+```
+
+### Dịch tiếng Việt
+Tôi đi xe buýt đến ga.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 2 theo chủ đề Địa điểm và đường đi; chú ý mẫu JPD133-L10-G001 đến G014.
+
+## R003 – Chuyến xe
+
+### Đoạn văn tiếng Nhật
+```text
+道をまっすぐ行ってください。
+```
+
+### Romaji
+```text
+michi o massugu itte kudasai.
+```
+
+### Dịch tiếng Việt
+Hãy đi thẳng theo đường.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 3 theo chủ đề Địa điểm và đường đi; chú ý mẫu JPD133-L10-G001 đến G014.
+
+## R004 – Chuyến xe
+
+### Đoạn văn tiếng Nhật
+```text
+交差点を右に曲がります。
+```
+
+### Romaji
+```text
+kousaten o migi ni magarimasu.
+```
+
+### Dịch tiếng Việt
+Tôi rẽ phải ở ngã tư.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 4 theo chủ đề Địa điểm và đường đi; chú ý mẫu JPD133-L10-G001 đến G014.
+
+## R005 – Chuyến xe
+
+### Đoạn văn tiếng Nhật
+```text
+ここから山が見えます。
+```
+
+### Romaji
+```text
+koko kara yama ga miemasu.
+```
+
+### Dịch tiếng Việt
+Từ đây có thể nhìn thấy núi.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 5 theo chủ đề Địa điểm và đường đi; chú ý mẫu JPD133-L10-G001 đến G014.
+
+## R006 – Chuyến xe
+
+### Đoạn văn tiếng Nhật
+```text
+鳥の声が聞こえます。
+```
+
+### Romaji
+```text
+tori no koe ga kikoemasu.
+```
+
+### Dịch tiếng Việt
+Có thể nghe tiếng chim.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 6 theo chủ đề Địa điểm và đường đi; chú ý mẫu JPD133-L10-G001 đến G014.
+
+## R007 – Chuyến xe
+
+### Đoạn văn tiếng Nhật
+```text
+ここで写真を撮ってもいいですか。
+```
+
+### Romaji
+```text
+koko de shashin o totte mo ii desu ka.
+```
+
+### Dịch tiếng Việt
+Tôi chụp ảnh ở đây được không?
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 7 theo chủ đề Địa điểm và đường đi; chú ý mẫu JPD133-L10-G001 đến G014.
+
+## R008 – Chuyến xe
+
+### Đoạn văn tiếng Nhật
+```text
+そこに入らないでください。
+```
+
+### Romaji
+```text
+soko ni hairanaide kudasai.
+```
+
+### Dịch tiếng Việt
+Xin đừng vào đó.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 8 theo chủ đề Địa điểm và đường đi; chú ý mẫu JPD133-L10-G001 đến G014.
+
+## R009 – Chuyến xe
+
+### Đoạn văn tiếng Nhật
+```text
+もう昼ご飯を食べました。
+```
+
+### Romaji
+```text
+mou hirugohan o tabemashita.
+```
+
+### Dịch tiếng Việt
+Tôi đã ăn trưa rồi.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 9 theo chủ đề Địa điểm và đường đi; chú ý mẫu JPD133-L10-G001 đến G014.
+
+## R010 – Chuyến xe
+
+### Đoạn văn tiếng Nhật
+```text
+まだ宿題をしていません。
+```
+
+### Romaji
+```text
+mada shukudai o shiteimasen.
+```
+
+### Dịch tiếng Việt
+Tôi vẫn chưa làm bài tập.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 10 theo chủ đề Địa điểm và đường đi; chú ý mẫu JPD133-L10-G001 đến G014.
+
+
+# JPD133 Reading Bài 10 – バスツアー
+
+> Chủ đề: Địa điểm và đường đi
+> Mục tiêu: 25 đoạn đọc về đường đi, địa điểm, xin phép và tình huống.
+> Từ vựng bắt buộc: 駅, バス, 道, 交差点, 橋, 見えます, 聞こえます, てもいいですか, ないでください
+> Kanji bắt buộc: 駅, 道, 橋, 右, 左, 見
+> Ngữ pháp bắt buộc: JPD133-L10-G001 đến G014
+
+## R001 – Đường đi đến trường
 
 ### Đoạn văn tiếng Nhật
 ```text
@@ -1376,7 +14012,169 @@ koko ni nimotsu o oite mo ii desu ka.
 Tôi để hành lý ở đây được không?
 
 ### Tóm tắt và ghi chú luyện tập
-Luyện đọc đoạn 25 theo chủ đề Địa điểm và đường đi; chú ý mẫu JPD133-L10-G001 đến G014.
+Luyện đọc đoạn 1 theo chủ đề Địa điểm và đường đi; chú ý mẫu JPD133-L10-G001 đến G014.
+
+## R002 – Đường đi đến trường
+
+### Đoạn văn tiếng Nhật
+```text
+駅までバスで行きます。
+```
+
+### Romaji
+```text
+eki made basu de ikimasu.
+```
+
+### Dịch tiếng Việt
+Tôi đi xe buýt đến ga.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 2 theo chủ đề Địa điểm và đường đi; chú ý mẫu JPD133-L10-G001 đến G014.
+
+## R003 – Đường đi đến trường
+
+### Đoạn văn tiếng Nhật
+```text
+道をまっすぐ行ってください。
+```
+
+### Romaji
+```text
+michi o massugu itte kudasai.
+```
+
+### Dịch tiếng Việt
+Hãy đi thẳng theo đường.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 3 theo chủ đề Địa điểm và đường đi; chú ý mẫu JPD133-L10-G001 đến G014.
+
+## R004 – Đường đi đến trường
+
+### Đoạn văn tiếng Nhật
+```text
+交差点を右に曲がります。
+```
+
+### Romaji
+```text
+kousaten o migi ni magarimasu.
+```
+
+### Dịch tiếng Việt
+Tôi rẽ phải ở ngã tư.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 4 theo chủ đề Địa điểm và đường đi; chú ý mẫu JPD133-L10-G001 đến G014.
+
+## R005 – Đường đi đến trường
+
+### Đoạn văn tiếng Nhật
+```text
+ここから山が見えます。
+```
+
+### Romaji
+```text
+koko kara yama ga miemasu.
+```
+
+### Dịch tiếng Việt
+Từ đây có thể nhìn thấy núi.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 5 theo chủ đề Địa điểm và đường đi; chú ý mẫu JPD133-L10-G001 đến G014.
+
+## R006 – Đường đi đến trường
+
+### Đoạn văn tiếng Nhật
+```text
+鳥の声が聞こえます。
+```
+
+### Romaji
+```text
+tori no koe ga kikoemasu.
+```
+
+### Dịch tiếng Việt
+Có thể nghe tiếng chim.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 6 theo chủ đề Địa điểm và đường đi; chú ý mẫu JPD133-L10-G001 đến G014.
+
+## R007 – Đường đi đến trường
+
+### Đoạn văn tiếng Nhật
+```text
+ここで写真を撮ってもいいですか。
+```
+
+### Romaji
+```text
+koko de shashin o totte mo ii desu ka.
+```
+
+### Dịch tiếng Việt
+Tôi chụp ảnh ở đây được không?
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 7 theo chủ đề Địa điểm và đường đi; chú ý mẫu JPD133-L10-G001 đến G014.
+
+## R008 – Đường đi đến trường
+
+### Đoạn văn tiếng Nhật
+```text
+そこに入らないでください。
+```
+
+### Romaji
+```text
+soko ni hairanaide kudasai.
+```
+
+### Dịch tiếng Việt
+Xin đừng vào đó.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 8 theo chủ đề Địa điểm và đường đi; chú ý mẫu JPD133-L10-G001 đến G014.
+
+## R009 – Đường đi đến trường
+
+### Đoạn văn tiếng Nhật
+```text
+もう昼ご飯を食べました。
+```
+
+### Romaji
+```text
+mou hirugohan o tabemashita.
+```
+
+### Dịch tiếng Việt
+Tôi đã ăn trưa rồi.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 9 theo chủ đề Địa điểm và đường đi; chú ý mẫu JPD133-L10-G001 đến G014.
+
+## R010 – Đường đi đến trường
+
+### Đoạn văn tiếng Nhật
+```text
+まだ宿題をしていません。
+```
+
+### Romaji
+```text
+mada shukudai o shiteimasen.
+```
+
+### Dịch tiếng Việt
+Tôi vẫn chưa làm bài tập.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 10 theo chủ đề Địa điểm và đường đi; chú ý mẫu JPD133-L10-G001 đến G014.
 
 
 ---
@@ -1407,7 +14205,178 @@ Mỗi ngày tôi sống bận rộn.
 ### Tóm tắt và ghi chú luyện tập
 Luyện đọc đoạn 1 theo chủ đề Sinh hoạt hằng ngày; chú ý mẫu JPD133-L11-G001 đến G017.
 
-## R002 – Buổi sáng
+## R002 – Một ngày của tôi
+
+### Đoạn văn tiếng Nhật
+```text
+毎朝、七時に起きます。
+```
+
+### Romaji
+```text
+mai asa, shichiji ni okimasu.
+```
+
+### Dịch tiếng Việt
+Mỗi sáng tôi thức dậy lúc bảy giờ.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 2 theo chủ đề Sinh hoạt hằng ngày; chú ý mẫu JPD133-L11-G001 đến G017.
+
+## R003 – Một ngày của tôi
+
+### Đoạn văn tiếng Nhật
+```text
+朝ご飯を食べて、学校へ行きます。
+```
+
+### Romaji
+```text
+asagohan o tabete, gakkou e ikimasu.
+```
+
+### Dịch tiếng Việt
+Tôi ăn sáng rồi đi học.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 3 theo chủ đề Sinh hoạt hằng ngày; chú ý mẫu JPD133-L11-G001 đến G017.
+
+## R004 – Một ngày của tôi
+
+### Đoạn văn tiếng Nhật
+```text
+学校で日本語を勉強しています。
+```
+
+### Romaji
+```text
+gakkou de nihongo o benkyou shiteimasu.
+```
+
+### Dịch tiếng Việt
+Tôi đang học tiếng Nhật ở trường.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 4 theo chủ đề Sinh hoạt hằng ngày; chú ý mẫu JPD133-L11-G001 đến G017.
+
+## R005 – Một ngày của tôi
+
+### Đoạn văn tiếng Nhật
+```text
+休み時間に友達と話します。
+```
+
+### Romaji
+```text
+yasumi jikan ni tomodachi to hanashimasu.
+```
+
+### Dịch tiếng Việt
+Giờ nghỉ tôi nói chuyện với bạn.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 5 theo chủ đề Sinh hoạt hằng ngày; chú ý mẫu JPD133-L11-G001 đến G017.
+
+## R006 – Một ngày của tôi
+
+### Đoạn văn tiếng Nhật
+```text
+家に帰ってから、晩ご飯を食べます。
+```
+
+### Romaji
+```text
+ie ni kaette kara, bangohan o tabemasu.
+```
+
+### Dịch tiếng Việt
+Sau khi về nhà, tôi ăn tối.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 6 theo chủ đề Sinh hoạt hằng ngày; chú ý mẫu JPD133-L11-G001 đến G017.
+
+## R007 – Một ngày của tôi
+
+### Đoạn văn tiếng Nhật
+```text
+休みの日は本を読んだり、音楽を聞いたりします。
+```
+
+### Romaji
+```text
+yasumi no hi wa hon o yondari, ongaku o kiitari shimasu.
+```
+
+### Dịch tiếng Việt
+Ngày nghỉ tôi đọc sách và nghe nhạc.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 7 theo chủ đề Sinh hoạt hằng ngày; chú ý mẫu JPD133-L11-G001 đến G017.
+
+## R008 – Một ngày của tôi
+
+### Đoạn văn tiếng Nhật
+```text
+疲れたとき、少し休みます。
+```
+
+### Romaji
+```text
+tsukareta toki, sukoshi yasumimasu.
+```
+
+### Dịch tiếng Việt
+Khi mệt, tôi nghỉ một chút.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 8 theo chủ đề Sinh hoạt hằng ngày; chú ý mẫu JPD133-L11-G001 đến G017.
+
+## R009 – Một ngày của tôi
+
+### Đoạn văn tiếng Nhật
+```text
+子どものとき、よく公園で遊びました。
+```
+
+### Romaji
+```text
+kodomo no toki, yoku kouen de asobimashita.
+```
+
+### Dịch tiếng Việt
+Khi còn nhỏ, tôi thường chơi ở công viên.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 9 theo chủ đề Sinh hoạt hằng ngày; chú ý mẫu JPD133-L11-G001 đến G017.
+
+## R010 – Một ngày của tôi
+
+### Đoạn văn tiếng Nhật
+```text
+友達と「映画を見ない？」と話します。
+```
+
+### Romaji
+```text
+tomodachi to eiga o minai to hanashimasu.
+```
+
+### Dịch tiếng Việt
+Tôi nói với bạn: “Xem phim không?”.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 10 theo chủ đề Sinh hoạt hằng ngày; chú ý mẫu JPD133-L11-G001 đến G017.
+
+
+# JPD133 Reading Bài 11 – 私の生活
+
+> Chủ đề: Sinh hoạt hằng ngày
+> Mục tiêu: 25 đoạn đọc về thói quen, quá khứ và hội thoại thân mật.
+> Từ vựng bắt buộc: 毎日, 毎朝, 生活, 学校, 宿題, 休みます, 読みます, 勉強します, とき
+> Kanji bắt buộc: 生, 活, 毎, 日, 学, 校, 休, 読
+> Ngữ pháp bắt buộc: JPD133-L11-G001 đến G017
+
+## R001 – Buổi sáng
 
 ### Đoạn văn tiếng Nhật
 ```text
@@ -1421,6 +14390,213 @@ mai asa, rokuji ni okimasu.
 
 ### Dịch tiếng Việt
 Mỗi sáng tôi thức dậy lúc sáu giờ.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 1 theo chủ đề Sinh hoạt hằng ngày; chú ý mẫu JPD133-L11-G001 đến G017.
+
+## R002 – Buổi sáng
+
+### Đoạn văn tiếng Nhật
+```text
+毎朝、七時に起きます。
+```
+
+### Romaji
+```text
+mai asa, shichiji ni okimasu.
+```
+
+### Dịch tiếng Việt
+Mỗi sáng tôi thức dậy lúc bảy giờ.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 2 theo chủ đề Sinh hoạt hằng ngày; chú ý mẫu JPD133-L11-G001 đến G017.
+
+## R003 – Buổi sáng
+
+### Đoạn văn tiếng Nhật
+```text
+朝ご飯を食べて、学校へ行きます。
+```
+
+### Romaji
+```text
+asagohan o tabete, gakkou e ikimasu.
+```
+
+### Dịch tiếng Việt
+Tôi ăn sáng rồi đi học.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 3 theo chủ đề Sinh hoạt hằng ngày; chú ý mẫu JPD133-L11-G001 đến G017.
+
+## R004 – Buổi sáng
+
+### Đoạn văn tiếng Nhật
+```text
+学校で日本語を勉強しています。
+```
+
+### Romaji
+```text
+gakkou de nihongo o benkyou shiteimasu.
+```
+
+### Dịch tiếng Việt
+Tôi đang học tiếng Nhật ở trường.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 4 theo chủ đề Sinh hoạt hằng ngày; chú ý mẫu JPD133-L11-G001 đến G017.
+
+## R005 – Buổi sáng
+
+### Đoạn văn tiếng Nhật
+```text
+休み時間に友達と話します。
+```
+
+### Romaji
+```text
+yasumi jikan ni tomodachi to hanashimasu.
+```
+
+### Dịch tiếng Việt
+Giờ nghỉ tôi nói chuyện với bạn.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 5 theo chủ đề Sinh hoạt hằng ngày; chú ý mẫu JPD133-L11-G001 đến G017.
+
+## R006 – Buổi sáng
+
+### Đoạn văn tiếng Nhật
+```text
+家に帰ってから、晩ご飯を食べます。
+```
+
+### Romaji
+```text
+ie ni kaette kara, bangohan o tabemasu.
+```
+
+### Dịch tiếng Việt
+Sau khi về nhà, tôi ăn tối.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 6 theo chủ đề Sinh hoạt hằng ngày; chú ý mẫu JPD133-L11-G001 đến G017.
+
+## R007 – Buổi sáng
+
+### Đoạn văn tiếng Nhật
+```text
+休みの日は本を読んだり、音楽を聞いたりします。
+```
+
+### Romaji
+```text
+yasumi no hi wa hon o yondari, ongaku o kiitari shimasu.
+```
+
+### Dịch tiếng Việt
+Ngày nghỉ tôi đọc sách và nghe nhạc.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 7 theo chủ đề Sinh hoạt hằng ngày; chú ý mẫu JPD133-L11-G001 đến G017.
+
+## R008 – Buổi sáng
+
+### Đoạn văn tiếng Nhật
+```text
+疲れたとき、少し休みます。
+```
+
+### Romaji
+```text
+tsukareta toki, sukoshi yasumimasu.
+```
+
+### Dịch tiếng Việt
+Khi mệt, tôi nghỉ một chút.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 8 theo chủ đề Sinh hoạt hằng ngày; chú ý mẫu JPD133-L11-G001 đến G017.
+
+## R009 – Buổi sáng
+
+### Đoạn văn tiếng Nhật
+```text
+子どものとき、よく公園で遊びました。
+```
+
+### Romaji
+```text
+kodomo no toki, yoku kouen de asobimashita.
+```
+
+### Dịch tiếng Việt
+Khi còn nhỏ, tôi thường chơi ở công viên.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 9 theo chủ đề Sinh hoạt hằng ngày; chú ý mẫu JPD133-L11-G001 đến G017.
+
+## R010 – Buổi sáng
+
+### Đoạn văn tiếng Nhật
+```text
+友達と「映画を見ない？」と話します。
+```
+
+### Romaji
+```text
+tomodachi to eiga o minai to hanashimasu.
+```
+
+### Dịch tiếng Việt
+Tôi nói với bạn: “Xem phim không?”.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 10 theo chủ đề Sinh hoạt hằng ngày; chú ý mẫu JPD133-L11-G001 đến G017.
+
+
+# JPD133 Reading Bài 11 – 私の生活
+
+> Chủ đề: Sinh hoạt hằng ngày
+> Mục tiêu: 25 đoạn đọc về thói quen, quá khứ và hội thoại thân mật.
+> Từ vựng bắt buộc: 毎日, 毎朝, 生活, 学校, 宿題, 休みます, 読みます, 勉強します, とき
+> Kanji bắt buộc: 生, 活, 毎, 日, 学, 校, 休, 読
+> Ngữ pháp bắt buộc: JPD133-L11-G001 đến G017
+
+## R001 – Ăn sáng
+
+### Đoạn văn tiếng Nhật
+```text
+朝ご飯を食べて、学校へ行きます。
+```
+
+### Romaji
+```text
+asagohan o tabete, gakkou e ikimasu.
+```
+
+### Dịch tiếng Việt
+Tôi ăn sáng rồi đi học.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 1 theo chủ đề Sinh hoạt hằng ngày; chú ý mẫu JPD133-L11-G001 đến G017.
+
+## R002 – Ăn sáng
+
+### Đoạn văn tiếng Nhật
+```text
+毎朝、七時に起きます。
+```
+
+### Romaji
+```text
+mai asa, shichiji ni okimasu.
+```
+
+### Dịch tiếng Việt
+Mỗi sáng tôi thức dậy lúc bảy giờ.
 
 ### Tóm tắt và ghi chú luyện tập
 Luyện đọc đoạn 2 theo chủ đề Sinh hoạt hằng ngày; chú ý mẫu JPD133-L11-G001 đến G017.
@@ -1443,25 +14619,7 @@ Tôi ăn sáng rồi đi học.
 ### Tóm tắt và ghi chú luyện tập
 Luyện đọc đoạn 3 theo chủ đề Sinh hoạt hằng ngày; chú ý mẫu JPD133-L11-G001 đến G017.
 
-## R004 – Đến trường
-
-### Đoạn văn tiếng Nhật
-```text
-毎日、電車で学校へ通っています。
-```
-
-### Romaji
-```text
-mainichi, densha de gakkou e kayotteimasu.
-```
-
-### Dịch tiếng Việt
-Mỗi ngày tôi đi tàu đến trường.
-
-### Tóm tắt và ghi chú luyện tập
-Luyện đọc đoạn 4 theo chủ đề Sinh hoạt hằng ngày; chú ý mẫu JPD133-L11-G001 đến G017.
-
-## R005 – Giờ học
+## R004 – Ăn sáng
 
 ### Đoạn văn tiếng Nhật
 ```text
@@ -1477,9 +14635,9 @@ gakkou de nihongo o benkyou shiteimasu.
 Tôi đang học tiếng Nhật ở trường.
 
 ### Tóm tắt và ghi chú luyện tập
-Luyện đọc đoạn 5 theo chủ đề Sinh hoạt hằng ngày; chú ý mẫu JPD133-L11-G001 đến G017.
+Luyện đọc đoạn 4 theo chủ đề Sinh hoạt hằng ngày; chú ý mẫu JPD133-L11-G001 đến G017.
 
-## R006 – Giờ nghỉ
+## R005 – Ăn sáng
 
 ### Đoạn văn tiếng Nhật
 ```text
@@ -1495,9 +14653,675 @@ yasumi jikan ni tomodachi to hanashimasu.
 Giờ nghỉ tôi nói chuyện với bạn.
 
 ### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 5 theo chủ đề Sinh hoạt hằng ngày; chú ý mẫu JPD133-L11-G001 đến G017.
+
+## R006 – Ăn sáng
+
+### Đoạn văn tiếng Nhật
+```text
+家に帰ってから、晩ご飯を食べます。
+```
+
+### Romaji
+```text
+ie ni kaette kara, bangohan o tabemasu.
+```
+
+### Dịch tiếng Việt
+Sau khi về nhà, tôi ăn tối.
+
+### Tóm tắt và ghi chú luyện tập
 Luyện đọc đoạn 6 theo chủ đề Sinh hoạt hằng ngày; chú ý mẫu JPD133-L11-G001 đến G017.
 
-## R007 – Ăn trưa
+## R007 – Ăn sáng
+
+### Đoạn văn tiếng Nhật
+```text
+休みの日は本を読んだり、音楽を聞いたりします。
+```
+
+### Romaji
+```text
+yasumi no hi wa hon o yondari, ongaku o kiitari shimasu.
+```
+
+### Dịch tiếng Việt
+Ngày nghỉ tôi đọc sách và nghe nhạc.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 7 theo chủ đề Sinh hoạt hằng ngày; chú ý mẫu JPD133-L11-G001 đến G017.
+
+## R008 – Ăn sáng
+
+### Đoạn văn tiếng Nhật
+```text
+疲れたとき、少し休みます。
+```
+
+### Romaji
+```text
+tsukareta toki, sukoshi yasumimasu.
+```
+
+### Dịch tiếng Việt
+Khi mệt, tôi nghỉ một chút.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 8 theo chủ đề Sinh hoạt hằng ngày; chú ý mẫu JPD133-L11-G001 đến G017.
+
+## R009 – Ăn sáng
+
+### Đoạn văn tiếng Nhật
+```text
+子どものとき、よく公園で遊びました。
+```
+
+### Romaji
+```text
+kodomo no toki, yoku kouen de asobimashita.
+```
+
+### Dịch tiếng Việt
+Khi còn nhỏ, tôi thường chơi ở công viên.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 9 theo chủ đề Sinh hoạt hằng ngày; chú ý mẫu JPD133-L11-G001 đến G017.
+
+## R010 – Ăn sáng
+
+### Đoạn văn tiếng Nhật
+```text
+友達と「映画を見ない？」と話します。
+```
+
+### Romaji
+```text
+tomodachi to eiga o minai to hanashimasu.
+```
+
+### Dịch tiếng Việt
+Tôi nói với bạn: “Xem phim không?”.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 10 theo chủ đề Sinh hoạt hằng ngày; chú ý mẫu JPD133-L11-G001 đến G017.
+
+
+# JPD133 Reading Bài 11 – 私の生活
+
+> Chủ đề: Sinh hoạt hằng ngày
+> Mục tiêu: 25 đoạn đọc về thói quen, quá khứ và hội thoại thân mật.
+> Từ vựng bắt buộc: 毎日, 毎朝, 生活, 学校, 宿題, 休みます, 読みます, 勉強します, とき
+> Kanji bắt buộc: 生, 活, 毎, 日, 学, 校, 休, 読
+> Ngữ pháp bắt buộc: JPD133-L11-G001 đến G017
+
+## R001 – Đến trường
+
+### Đoạn văn tiếng Nhật
+```text
+毎日、電車で学校へ通っています。
+```
+
+### Romaji
+```text
+mainichi, densha de gakkou e kayotteimasu.
+```
+
+### Dịch tiếng Việt
+Mỗi ngày tôi đi tàu đến trường.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 1 theo chủ đề Sinh hoạt hằng ngày; chú ý mẫu JPD133-L11-G001 đến G017.
+
+## R002 – Đến trường
+
+### Đoạn văn tiếng Nhật
+```text
+毎朝、七時に起きます。
+```
+
+### Romaji
+```text
+mai asa, shichiji ni okimasu.
+```
+
+### Dịch tiếng Việt
+Mỗi sáng tôi thức dậy lúc bảy giờ.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 2 theo chủ đề Sinh hoạt hằng ngày; chú ý mẫu JPD133-L11-G001 đến G017.
+
+## R003 – Đến trường
+
+### Đoạn văn tiếng Nhật
+```text
+朝ご飯を食べて、学校へ行きます。
+```
+
+### Romaji
+```text
+asagohan o tabete, gakkou e ikimasu.
+```
+
+### Dịch tiếng Việt
+Tôi ăn sáng rồi đi học.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 3 theo chủ đề Sinh hoạt hằng ngày; chú ý mẫu JPD133-L11-G001 đến G017.
+
+## R004 – Đến trường
+
+### Đoạn văn tiếng Nhật
+```text
+学校で日本語を勉強しています。
+```
+
+### Romaji
+```text
+gakkou de nihongo o benkyou shiteimasu.
+```
+
+### Dịch tiếng Việt
+Tôi đang học tiếng Nhật ở trường.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 4 theo chủ đề Sinh hoạt hằng ngày; chú ý mẫu JPD133-L11-G001 đến G017.
+
+## R005 – Đến trường
+
+### Đoạn văn tiếng Nhật
+```text
+休み時間に友達と話します。
+```
+
+### Romaji
+```text
+yasumi jikan ni tomodachi to hanashimasu.
+```
+
+### Dịch tiếng Việt
+Giờ nghỉ tôi nói chuyện với bạn.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 5 theo chủ đề Sinh hoạt hằng ngày; chú ý mẫu JPD133-L11-G001 đến G017.
+
+## R006 – Đến trường
+
+### Đoạn văn tiếng Nhật
+```text
+家に帰ってから、晩ご飯を食べます。
+```
+
+### Romaji
+```text
+ie ni kaette kara, bangohan o tabemasu.
+```
+
+### Dịch tiếng Việt
+Sau khi về nhà, tôi ăn tối.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 6 theo chủ đề Sinh hoạt hằng ngày; chú ý mẫu JPD133-L11-G001 đến G017.
+
+## R007 – Đến trường
+
+### Đoạn văn tiếng Nhật
+```text
+休みの日は本を読んだり、音楽を聞いたりします。
+```
+
+### Romaji
+```text
+yasumi no hi wa hon o yondari, ongaku o kiitari shimasu.
+```
+
+### Dịch tiếng Việt
+Ngày nghỉ tôi đọc sách và nghe nhạc.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 7 theo chủ đề Sinh hoạt hằng ngày; chú ý mẫu JPD133-L11-G001 đến G017.
+
+## R008 – Đến trường
+
+### Đoạn văn tiếng Nhật
+```text
+疲れたとき、少し休みます。
+```
+
+### Romaji
+```text
+tsukareta toki, sukoshi yasumimasu.
+```
+
+### Dịch tiếng Việt
+Khi mệt, tôi nghỉ một chút.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 8 theo chủ đề Sinh hoạt hằng ngày; chú ý mẫu JPD133-L11-G001 đến G017.
+
+## R009 – Đến trường
+
+### Đoạn văn tiếng Nhật
+```text
+子どものとき、よく公園で遊びました。
+```
+
+### Romaji
+```text
+kodomo no toki, yoku kouen de asobimashita.
+```
+
+### Dịch tiếng Việt
+Khi còn nhỏ, tôi thường chơi ở công viên.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 9 theo chủ đề Sinh hoạt hằng ngày; chú ý mẫu JPD133-L11-G001 đến G017.
+
+## R010 – Đến trường
+
+### Đoạn văn tiếng Nhật
+```text
+友達と「映画を見ない？」と話します。
+```
+
+### Romaji
+```text
+tomodachi to eiga o minai to hanashimasu.
+```
+
+### Dịch tiếng Việt
+Tôi nói với bạn: “Xem phim không?”.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 10 theo chủ đề Sinh hoạt hằng ngày; chú ý mẫu JPD133-L11-G001 đến G017.
+
+
+# JPD133 Reading Bài 11 – 私の生活
+
+> Chủ đề: Sinh hoạt hằng ngày
+> Mục tiêu: 25 đoạn đọc về thói quen, quá khứ và hội thoại thân mật.
+> Từ vựng bắt buộc: 毎日, 毎朝, 生活, 学校, 宿題, 休みます, 読みます, 勉強します, とき
+> Kanji bắt buộc: 生, 活, 毎, 日, 学, 校, 休, 読
+> Ngữ pháp bắt buộc: JPD133-L11-G001 đến G017
+
+## R001 – Giờ học
+
+### Đoạn văn tiếng Nhật
+```text
+学校で日本語を勉強しています。
+```
+
+### Romaji
+```text
+gakkou de nihongo o benkyou shiteimasu.
+```
+
+### Dịch tiếng Việt
+Tôi đang học tiếng Nhật ở trường.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 1 theo chủ đề Sinh hoạt hằng ngày; chú ý mẫu JPD133-L11-G001 đến G017.
+
+## R002 – Giờ học
+
+### Đoạn văn tiếng Nhật
+```text
+毎朝、七時に起きます。
+```
+
+### Romaji
+```text
+mai asa, shichiji ni okimasu.
+```
+
+### Dịch tiếng Việt
+Mỗi sáng tôi thức dậy lúc bảy giờ.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 2 theo chủ đề Sinh hoạt hằng ngày; chú ý mẫu JPD133-L11-G001 đến G017.
+
+## R003 – Giờ học
+
+### Đoạn văn tiếng Nhật
+```text
+朝ご飯を食べて、学校へ行きます。
+```
+
+### Romaji
+```text
+asagohan o tabete, gakkou e ikimasu.
+```
+
+### Dịch tiếng Việt
+Tôi ăn sáng rồi đi học.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 3 theo chủ đề Sinh hoạt hằng ngày; chú ý mẫu JPD133-L11-G001 đến G017.
+
+## R004 – Giờ học
+
+### Đoạn văn tiếng Nhật
+```text
+学校で日本語を勉強しています。
+```
+
+### Romaji
+```text
+gakkou de nihongo o benkyou shiteimasu.
+```
+
+### Dịch tiếng Việt
+Tôi đang học tiếng Nhật ở trường.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 4 theo chủ đề Sinh hoạt hằng ngày; chú ý mẫu JPD133-L11-G001 đến G017.
+
+## R005 – Giờ học
+
+### Đoạn văn tiếng Nhật
+```text
+休み時間に友達と話します。
+```
+
+### Romaji
+```text
+yasumi jikan ni tomodachi to hanashimasu.
+```
+
+### Dịch tiếng Việt
+Giờ nghỉ tôi nói chuyện với bạn.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 5 theo chủ đề Sinh hoạt hằng ngày; chú ý mẫu JPD133-L11-G001 đến G017.
+
+## R006 – Giờ học
+
+### Đoạn văn tiếng Nhật
+```text
+家に帰ってから、晩ご飯を食べます。
+```
+
+### Romaji
+```text
+ie ni kaette kara, bangohan o tabemasu.
+```
+
+### Dịch tiếng Việt
+Sau khi về nhà, tôi ăn tối.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 6 theo chủ đề Sinh hoạt hằng ngày; chú ý mẫu JPD133-L11-G001 đến G017.
+
+## R007 – Giờ học
+
+### Đoạn văn tiếng Nhật
+```text
+休みの日は本を読んだり、音楽を聞いたりします。
+```
+
+### Romaji
+```text
+yasumi no hi wa hon o yondari, ongaku o kiitari shimasu.
+```
+
+### Dịch tiếng Việt
+Ngày nghỉ tôi đọc sách và nghe nhạc.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 7 theo chủ đề Sinh hoạt hằng ngày; chú ý mẫu JPD133-L11-G001 đến G017.
+
+## R008 – Giờ học
+
+### Đoạn văn tiếng Nhật
+```text
+疲れたとき、少し休みます。
+```
+
+### Romaji
+```text
+tsukareta toki, sukoshi yasumimasu.
+```
+
+### Dịch tiếng Việt
+Khi mệt, tôi nghỉ một chút.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 8 theo chủ đề Sinh hoạt hằng ngày; chú ý mẫu JPD133-L11-G001 đến G017.
+
+## R009 – Giờ học
+
+### Đoạn văn tiếng Nhật
+```text
+子どものとき、よく公園で遊びました。
+```
+
+### Romaji
+```text
+kodomo no toki, yoku kouen de asobimashita.
+```
+
+### Dịch tiếng Việt
+Khi còn nhỏ, tôi thường chơi ở công viên.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 9 theo chủ đề Sinh hoạt hằng ngày; chú ý mẫu JPD133-L11-G001 đến G017.
+
+## R010 – Giờ học
+
+### Đoạn văn tiếng Nhật
+```text
+友達と「映画を見ない？」と話します。
+```
+
+### Romaji
+```text
+tomodachi to eiga o minai to hanashimasu.
+```
+
+### Dịch tiếng Việt
+Tôi nói với bạn: “Xem phim không?”.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 10 theo chủ đề Sinh hoạt hằng ngày; chú ý mẫu JPD133-L11-G001 đến G017.
+
+
+# JPD133 Reading Bài 11 – 私の生活
+
+> Chủ đề: Sinh hoạt hằng ngày
+> Mục tiêu: 25 đoạn đọc về thói quen, quá khứ và hội thoại thân mật.
+> Từ vựng bắt buộc: 毎日, 毎朝, 生活, 学校, 宿題, 休みます, 読みます, 勉強します, とき
+> Kanji bắt buộc: 生, 活, 毎, 日, 学, 校, 休, 読
+> Ngữ pháp bắt buộc: JPD133-L11-G001 đến G017
+
+## R001 – Giờ nghỉ
+
+### Đoạn văn tiếng Nhật
+```text
+休み時間に友達と話します。
+```
+
+### Romaji
+```text
+yasumi jikan ni tomodachi to hanashimasu.
+```
+
+### Dịch tiếng Việt
+Giờ nghỉ tôi nói chuyện với bạn.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 1 theo chủ đề Sinh hoạt hằng ngày; chú ý mẫu JPD133-L11-G001 đến G017.
+
+## R002 – Giờ nghỉ
+
+### Đoạn văn tiếng Nhật
+```text
+毎朝、七時に起きます。
+```
+
+### Romaji
+```text
+mai asa, shichiji ni okimasu.
+```
+
+### Dịch tiếng Việt
+Mỗi sáng tôi thức dậy lúc bảy giờ.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 2 theo chủ đề Sinh hoạt hằng ngày; chú ý mẫu JPD133-L11-G001 đến G017.
+
+## R003 – Giờ nghỉ
+
+### Đoạn văn tiếng Nhật
+```text
+朝ご飯を食べて、学校へ行きます。
+```
+
+### Romaji
+```text
+asagohan o tabete, gakkou e ikimasu.
+```
+
+### Dịch tiếng Việt
+Tôi ăn sáng rồi đi học.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 3 theo chủ đề Sinh hoạt hằng ngày; chú ý mẫu JPD133-L11-G001 đến G017.
+
+## R004 – Giờ nghỉ
+
+### Đoạn văn tiếng Nhật
+```text
+学校で日本語を勉強しています。
+```
+
+### Romaji
+```text
+gakkou de nihongo o benkyou shiteimasu.
+```
+
+### Dịch tiếng Việt
+Tôi đang học tiếng Nhật ở trường.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 4 theo chủ đề Sinh hoạt hằng ngày; chú ý mẫu JPD133-L11-G001 đến G017.
+
+## R005 – Giờ nghỉ
+
+### Đoạn văn tiếng Nhật
+```text
+休み時間に友達と話します。
+```
+
+### Romaji
+```text
+yasumi jikan ni tomodachi to hanashimasu.
+```
+
+### Dịch tiếng Việt
+Giờ nghỉ tôi nói chuyện với bạn.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 5 theo chủ đề Sinh hoạt hằng ngày; chú ý mẫu JPD133-L11-G001 đến G017.
+
+## R006 – Giờ nghỉ
+
+### Đoạn văn tiếng Nhật
+```text
+家に帰ってから、晩ご飯を食べます。
+```
+
+### Romaji
+```text
+ie ni kaette kara, bangohan o tabemasu.
+```
+
+### Dịch tiếng Việt
+Sau khi về nhà, tôi ăn tối.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 6 theo chủ đề Sinh hoạt hằng ngày; chú ý mẫu JPD133-L11-G001 đến G017.
+
+## R007 – Giờ nghỉ
+
+### Đoạn văn tiếng Nhật
+```text
+休みの日は本を読んだり、音楽を聞いたりします。
+```
+
+### Romaji
+```text
+yasumi no hi wa hon o yondari, ongaku o kiitari shimasu.
+```
+
+### Dịch tiếng Việt
+Ngày nghỉ tôi đọc sách và nghe nhạc.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 7 theo chủ đề Sinh hoạt hằng ngày; chú ý mẫu JPD133-L11-G001 đến G017.
+
+## R008 – Giờ nghỉ
+
+### Đoạn văn tiếng Nhật
+```text
+疲れたとき、少し休みます。
+```
+
+### Romaji
+```text
+tsukareta toki, sukoshi yasumimasu.
+```
+
+### Dịch tiếng Việt
+Khi mệt, tôi nghỉ một chút.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 8 theo chủ đề Sinh hoạt hằng ngày; chú ý mẫu JPD133-L11-G001 đến G017.
+
+## R009 – Giờ nghỉ
+
+### Đoạn văn tiếng Nhật
+```text
+子どものとき、よく公園で遊びました。
+```
+
+### Romaji
+```text
+kodomo no toki, yoku kouen de asobimashita.
+```
+
+### Dịch tiếng Việt
+Khi còn nhỏ, tôi thường chơi ở công viên.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 9 theo chủ đề Sinh hoạt hằng ngày; chú ý mẫu JPD133-L11-G001 đến G017.
+
+## R010 – Giờ nghỉ
+
+### Đoạn văn tiếng Nhật
+```text
+友達と「映画を見ない？」と話します。
+```
+
+### Romaji
+```text
+tomodachi to eiga o minai to hanashimasu.
+```
+
+### Dịch tiếng Việt
+Tôi nói với bạn: “Xem phim không?”.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 10 theo chủ đề Sinh hoạt hằng ngày; chú ý mẫu JPD133-L11-G001 đến G017.
+
+
+# JPD133 Reading Bài 11 – 私の生活
+
+> Chủ đề: Sinh hoạt hằng ngày
+> Mục tiêu: 25 đoạn đọc về thói quen, quá khứ và hội thoại thân mật.
+> Từ vựng bắt buộc: 毎日, 毎朝, 生活, 学校, 宿題, 休みます, 読みます, 勉強します, とき
+> Kanji bắt buộc: 生, 活, 毎, 日, 学, 校, 休, 読
+> Ngữ pháp bắt buộc: JPD133-L11-G001 đến G017
+
+## R001 – Ăn trưa
 
 ### Đoạn văn tiếng Nhật
 ```text
@@ -1513,9 +15337,180 @@ hirugohan wa shokudou de tabemasu.
 Tôi ăn trưa ở nhà ăn.
 
 ### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 1 theo chủ đề Sinh hoạt hằng ngày; chú ý mẫu JPD133-L11-G001 đến G017.
+
+## R002 – Ăn trưa
+
+### Đoạn văn tiếng Nhật
+```text
+毎朝、七時に起きます。
+```
+
+### Romaji
+```text
+mai asa, shichiji ni okimasu.
+```
+
+### Dịch tiếng Việt
+Mỗi sáng tôi thức dậy lúc bảy giờ.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 2 theo chủ đề Sinh hoạt hằng ngày; chú ý mẫu JPD133-L11-G001 đến G017.
+
+## R003 – Ăn trưa
+
+### Đoạn văn tiếng Nhật
+```text
+朝ご飯を食べて、学校へ行きます。
+```
+
+### Romaji
+```text
+asagohan o tabete, gakkou e ikimasu.
+```
+
+### Dịch tiếng Việt
+Tôi ăn sáng rồi đi học.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 3 theo chủ đề Sinh hoạt hằng ngày; chú ý mẫu JPD133-L11-G001 đến G017.
+
+## R004 – Ăn trưa
+
+### Đoạn văn tiếng Nhật
+```text
+学校で日本語を勉強しています。
+```
+
+### Romaji
+```text
+gakkou de nihongo o benkyou shiteimasu.
+```
+
+### Dịch tiếng Việt
+Tôi đang học tiếng Nhật ở trường.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 4 theo chủ đề Sinh hoạt hằng ngày; chú ý mẫu JPD133-L11-G001 đến G017.
+
+## R005 – Ăn trưa
+
+### Đoạn văn tiếng Nhật
+```text
+休み時間に友達と話します。
+```
+
+### Romaji
+```text
+yasumi jikan ni tomodachi to hanashimasu.
+```
+
+### Dịch tiếng Việt
+Giờ nghỉ tôi nói chuyện với bạn.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 5 theo chủ đề Sinh hoạt hằng ngày; chú ý mẫu JPD133-L11-G001 đến G017.
+
+## R006 – Ăn trưa
+
+### Đoạn văn tiếng Nhật
+```text
+家に帰ってから、晩ご飯を食べます。
+```
+
+### Romaji
+```text
+ie ni kaette kara, bangohan o tabemasu.
+```
+
+### Dịch tiếng Việt
+Sau khi về nhà, tôi ăn tối.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 6 theo chủ đề Sinh hoạt hằng ngày; chú ý mẫu JPD133-L11-G001 đến G017.
+
+## R007 – Ăn trưa
+
+### Đoạn văn tiếng Nhật
+```text
+休みの日は本を読んだり、音楽を聞いたりします。
+```
+
+### Romaji
+```text
+yasumi no hi wa hon o yondari, ongaku o kiitari shimasu.
+```
+
+### Dịch tiếng Việt
+Ngày nghỉ tôi đọc sách và nghe nhạc.
+
+### Tóm tắt và ghi chú luyện tập
 Luyện đọc đoạn 7 theo chủ đề Sinh hoạt hằng ngày; chú ý mẫu JPD133-L11-G001 đến G017.
 
-## R008 – Học ở thư viện
+## R008 – Ăn trưa
+
+### Đoạn văn tiếng Nhật
+```text
+疲れたとき、少し休みます。
+```
+
+### Romaji
+```text
+tsukareta toki, sukoshi yasumimasu.
+```
+
+### Dịch tiếng Việt
+Khi mệt, tôi nghỉ một chút.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 8 theo chủ đề Sinh hoạt hằng ngày; chú ý mẫu JPD133-L11-G001 đến G017.
+
+## R009 – Ăn trưa
+
+### Đoạn văn tiếng Nhật
+```text
+子どものとき、よく公園で遊びました。
+```
+
+### Romaji
+```text
+kodomo no toki, yoku kouen de asobimashita.
+```
+
+### Dịch tiếng Việt
+Khi còn nhỏ, tôi thường chơi ở công viên.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 9 theo chủ đề Sinh hoạt hằng ngày; chú ý mẫu JPD133-L11-G001 đến G017.
+
+## R010 – Ăn trưa
+
+### Đoạn văn tiếng Nhật
+```text
+友達と「映画を見ない？」と話します。
+```
+
+### Romaji
+```text
+tomodachi to eiga o minai to hanashimasu.
+```
+
+### Dịch tiếng Việt
+Tôi nói với bạn: “Xem phim không?”.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 10 theo chủ đề Sinh hoạt hằng ngày; chú ý mẫu JPD133-L11-G001 đến G017.
+
+
+# JPD133 Reading Bài 11 – 私の生活
+
+> Chủ đề: Sinh hoạt hằng ngày
+> Mục tiêu: 25 đoạn đọc về thói quen, quá khứ và hội thoại thân mật.
+> Từ vựng bắt buộc: 毎日, 毎朝, 生活, 学校, 宿題, 休みます, 読みます, 勉強します, とき
+> Kanji bắt buộc: 生, 活, 毎, 日, 学, 校, 休, 読
+> Ngữ pháp bắt buộc: JPD133-L11-G001 đến G017
+
+## R001 – Học ở thư viện
 
 ### Đoạn văn tiếng Nhật
 ```text
@@ -1531,9 +15526,180 @@ toshokan de hon o yondeimasu.
 Tôi đang đọc sách ở thư viện.
 
 ### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 1 theo chủ đề Sinh hoạt hằng ngày; chú ý mẫu JPD133-L11-G001 đến G017.
+
+## R002 – Học ở thư viện
+
+### Đoạn văn tiếng Nhật
+```text
+毎朝、七時に起きます。
+```
+
+### Romaji
+```text
+mai asa, shichiji ni okimasu.
+```
+
+### Dịch tiếng Việt
+Mỗi sáng tôi thức dậy lúc bảy giờ.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 2 theo chủ đề Sinh hoạt hằng ngày; chú ý mẫu JPD133-L11-G001 đến G017.
+
+## R003 – Học ở thư viện
+
+### Đoạn văn tiếng Nhật
+```text
+朝ご飯を食べて、学校へ行きます。
+```
+
+### Romaji
+```text
+asagohan o tabete, gakkou e ikimasu.
+```
+
+### Dịch tiếng Việt
+Tôi ăn sáng rồi đi học.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 3 theo chủ đề Sinh hoạt hằng ngày; chú ý mẫu JPD133-L11-G001 đến G017.
+
+## R004 – Học ở thư viện
+
+### Đoạn văn tiếng Nhật
+```text
+学校で日本語を勉強しています。
+```
+
+### Romaji
+```text
+gakkou de nihongo o benkyou shiteimasu.
+```
+
+### Dịch tiếng Việt
+Tôi đang học tiếng Nhật ở trường.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 4 theo chủ đề Sinh hoạt hằng ngày; chú ý mẫu JPD133-L11-G001 đến G017.
+
+## R005 – Học ở thư viện
+
+### Đoạn văn tiếng Nhật
+```text
+休み時間に友達と話します。
+```
+
+### Romaji
+```text
+yasumi jikan ni tomodachi to hanashimasu.
+```
+
+### Dịch tiếng Việt
+Giờ nghỉ tôi nói chuyện với bạn.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 5 theo chủ đề Sinh hoạt hằng ngày; chú ý mẫu JPD133-L11-G001 đến G017.
+
+## R006 – Học ở thư viện
+
+### Đoạn văn tiếng Nhật
+```text
+家に帰ってから、晩ご飯を食べます。
+```
+
+### Romaji
+```text
+ie ni kaette kara, bangohan o tabemasu.
+```
+
+### Dịch tiếng Việt
+Sau khi về nhà, tôi ăn tối.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 6 theo chủ đề Sinh hoạt hằng ngày; chú ý mẫu JPD133-L11-G001 đến G017.
+
+## R007 – Học ở thư viện
+
+### Đoạn văn tiếng Nhật
+```text
+休みの日は本を読んだり、音楽を聞いたりします。
+```
+
+### Romaji
+```text
+yasumi no hi wa hon o yondari, ongaku o kiitari shimasu.
+```
+
+### Dịch tiếng Việt
+Ngày nghỉ tôi đọc sách và nghe nhạc.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 7 theo chủ đề Sinh hoạt hằng ngày; chú ý mẫu JPD133-L11-G001 đến G017.
+
+## R008 – Học ở thư viện
+
+### Đoạn văn tiếng Nhật
+```text
+疲れたとき、少し休みます。
+```
+
+### Romaji
+```text
+tsukareta toki, sukoshi yasumimasu.
+```
+
+### Dịch tiếng Việt
+Khi mệt, tôi nghỉ một chút.
+
+### Tóm tắt và ghi chú luyện tập
 Luyện đọc đoạn 8 theo chủ đề Sinh hoạt hằng ngày; chú ý mẫu JPD133-L11-G001 đến G017.
 
-## R009 – Làm bài tập
+## R009 – Học ở thư viện
+
+### Đoạn văn tiếng Nhật
+```text
+子どものとき、よく公園で遊びました。
+```
+
+### Romaji
+```text
+kodomo no toki, yoku kouen de asobimashita.
+```
+
+### Dịch tiếng Việt
+Khi còn nhỏ, tôi thường chơi ở công viên.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 9 theo chủ đề Sinh hoạt hằng ngày; chú ý mẫu JPD133-L11-G001 đến G017.
+
+## R010 – Học ở thư viện
+
+### Đoạn văn tiếng Nhật
+```text
+友達と「映画を見ない？」と話します。
+```
+
+### Romaji
+```text
+tomodachi to eiga o minai to hanashimasu.
+```
+
+### Dịch tiếng Việt
+Tôi nói với bạn: “Xem phim không?”.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 10 theo chủ đề Sinh hoạt hằng ngày; chú ý mẫu JPD133-L11-G001 đến G017.
+
+
+# JPD133 Reading Bài 11 – 私の生活
+
+> Chủ đề: Sinh hoạt hằng ngày
+> Mục tiêu: 25 đoạn đọc về thói quen, quá khứ và hội thoại thân mật.
+> Từ vựng bắt buộc: 毎日, 毎朝, 生活, 学校, 宿題, 休みます, 読みます, 勉強します, とき
+> Kanji bắt buộc: 生, 活, 毎, 日, 学, 校, 休, 読
+> Ngữ pháp bắt buộc: JPD133-L11-G001 đến G017
+
+## R001 – Làm bài tập
 
 ### Đoạn văn tiếng Nhật
 ```text
@@ -1549,9 +15715,180 @@ ie de shukudai o shimasu.
 Tôi làm bài tập ở nhà.
 
 ### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 1 theo chủ đề Sinh hoạt hằng ngày; chú ý mẫu JPD133-L11-G001 đến G017.
+
+## R002 – Làm bài tập
+
+### Đoạn văn tiếng Nhật
+```text
+毎朝、七時に起きます。
+```
+
+### Romaji
+```text
+mai asa, shichiji ni okimasu.
+```
+
+### Dịch tiếng Việt
+Mỗi sáng tôi thức dậy lúc bảy giờ.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 2 theo chủ đề Sinh hoạt hằng ngày; chú ý mẫu JPD133-L11-G001 đến G017.
+
+## R003 – Làm bài tập
+
+### Đoạn văn tiếng Nhật
+```text
+朝ご飯を食べて、学校へ行きます。
+```
+
+### Romaji
+```text
+asagohan o tabete, gakkou e ikimasu.
+```
+
+### Dịch tiếng Việt
+Tôi ăn sáng rồi đi học.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 3 theo chủ đề Sinh hoạt hằng ngày; chú ý mẫu JPD133-L11-G001 đến G017.
+
+## R004 – Làm bài tập
+
+### Đoạn văn tiếng Nhật
+```text
+学校で日本語を勉強しています。
+```
+
+### Romaji
+```text
+gakkou de nihongo o benkyou shiteimasu.
+```
+
+### Dịch tiếng Việt
+Tôi đang học tiếng Nhật ở trường.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 4 theo chủ đề Sinh hoạt hằng ngày; chú ý mẫu JPD133-L11-G001 đến G017.
+
+## R005 – Làm bài tập
+
+### Đoạn văn tiếng Nhật
+```text
+休み時間に友達と話します。
+```
+
+### Romaji
+```text
+yasumi jikan ni tomodachi to hanashimasu.
+```
+
+### Dịch tiếng Việt
+Giờ nghỉ tôi nói chuyện với bạn.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 5 theo chủ đề Sinh hoạt hằng ngày; chú ý mẫu JPD133-L11-G001 đến G017.
+
+## R006 – Làm bài tập
+
+### Đoạn văn tiếng Nhật
+```text
+家に帰ってから、晩ご飯を食べます。
+```
+
+### Romaji
+```text
+ie ni kaette kara, bangohan o tabemasu.
+```
+
+### Dịch tiếng Việt
+Sau khi về nhà, tôi ăn tối.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 6 theo chủ đề Sinh hoạt hằng ngày; chú ý mẫu JPD133-L11-G001 đến G017.
+
+## R007 – Làm bài tập
+
+### Đoạn văn tiếng Nhật
+```text
+休みの日は本を読んだり、音楽を聞いたりします。
+```
+
+### Romaji
+```text
+yasumi no hi wa hon o yondari, ongaku o kiitari shimasu.
+```
+
+### Dịch tiếng Việt
+Ngày nghỉ tôi đọc sách và nghe nhạc.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 7 theo chủ đề Sinh hoạt hằng ngày; chú ý mẫu JPD133-L11-G001 đến G017.
+
+## R008 – Làm bài tập
+
+### Đoạn văn tiếng Nhật
+```text
+疲れたとき、少し休みます。
+```
+
+### Romaji
+```text
+tsukareta toki, sukoshi yasumimasu.
+```
+
+### Dịch tiếng Việt
+Khi mệt, tôi nghỉ một chút.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 8 theo chủ đề Sinh hoạt hằng ngày; chú ý mẫu JPD133-L11-G001 đến G017.
+
+## R009 – Làm bài tập
+
+### Đoạn văn tiếng Nhật
+```text
+子どものとき、よく公園で遊びました。
+```
+
+### Romaji
+```text
+kodomo no toki, yoku kouen de asobimashita.
+```
+
+### Dịch tiếng Việt
+Khi còn nhỏ, tôi thường chơi ở công viên.
+
+### Tóm tắt và ghi chú luyện tập
 Luyện đọc đoạn 9 theo chủ đề Sinh hoạt hằng ngày; chú ý mẫu JPD133-L11-G001 đến G017.
 
-## R010 – Làm thêm
+## R010 – Làm bài tập
+
+### Đoạn văn tiếng Nhật
+```text
+友達と「映画を見ない？」と話します。
+```
+
+### Romaji
+```text
+tomodachi to eiga o minai to hanashimasu.
+```
+
+### Dịch tiếng Việt
+Tôi nói với bạn: “Xem phim không?”.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 10 theo chủ đề Sinh hoạt hằng ngày; chú ý mẫu JPD133-L11-G001 đến G017.
+
+
+# JPD133 Reading Bài 11 – 私の生活
+
+> Chủ đề: Sinh hoạt hằng ngày
+> Mục tiêu: 25 đoạn đọc về thói quen, quá khứ và hội thoại thân mật.
+> Từ vựng bắt buộc: 毎日, 毎朝, 生活, 学校, 宿題, 休みます, 読みます, 勉強します, とき
+> Kanji bắt buộc: 生, 活, 毎, 日, 学, 校, 休, 読
+> Ngữ pháp bắt buộc: JPD133-L11-G001 đến G017
+
+## R001 – Làm thêm
 
 ### Đoạn văn tiếng Nhật
 ```text
@@ -1567,9 +15904,180 @@ yuugata, arubaito o shiteimasu.
 Buổi tối tôi làm thêm.
 
 ### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 1 theo chủ đề Sinh hoạt hằng ngày; chú ý mẫu JPD133-L11-G001 đến G017.
+
+## R002 – Làm thêm
+
+### Đoạn văn tiếng Nhật
+```text
+毎朝、七時に起きます。
+```
+
+### Romaji
+```text
+mai asa, shichiji ni okimasu.
+```
+
+### Dịch tiếng Việt
+Mỗi sáng tôi thức dậy lúc bảy giờ.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 2 theo chủ đề Sinh hoạt hằng ngày; chú ý mẫu JPD133-L11-G001 đến G017.
+
+## R003 – Làm thêm
+
+### Đoạn văn tiếng Nhật
+```text
+朝ご飯を食べて、学校へ行きます。
+```
+
+### Romaji
+```text
+asagohan o tabete, gakkou e ikimasu.
+```
+
+### Dịch tiếng Việt
+Tôi ăn sáng rồi đi học.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 3 theo chủ đề Sinh hoạt hằng ngày; chú ý mẫu JPD133-L11-G001 đến G017.
+
+## R004 – Làm thêm
+
+### Đoạn văn tiếng Nhật
+```text
+学校で日本語を勉強しています。
+```
+
+### Romaji
+```text
+gakkou de nihongo o benkyou shiteimasu.
+```
+
+### Dịch tiếng Việt
+Tôi đang học tiếng Nhật ở trường.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 4 theo chủ đề Sinh hoạt hằng ngày; chú ý mẫu JPD133-L11-G001 đến G017.
+
+## R005 – Làm thêm
+
+### Đoạn văn tiếng Nhật
+```text
+休み時間に友達と話します。
+```
+
+### Romaji
+```text
+yasumi jikan ni tomodachi to hanashimasu.
+```
+
+### Dịch tiếng Việt
+Giờ nghỉ tôi nói chuyện với bạn.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 5 theo chủ đề Sinh hoạt hằng ngày; chú ý mẫu JPD133-L11-G001 đến G017.
+
+## R006 – Làm thêm
+
+### Đoạn văn tiếng Nhật
+```text
+家に帰ってから、晩ご飯を食べます。
+```
+
+### Romaji
+```text
+ie ni kaette kara, bangohan o tabemasu.
+```
+
+### Dịch tiếng Việt
+Sau khi về nhà, tôi ăn tối.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 6 theo chủ đề Sinh hoạt hằng ngày; chú ý mẫu JPD133-L11-G001 đến G017.
+
+## R007 – Làm thêm
+
+### Đoạn văn tiếng Nhật
+```text
+休みの日は本を読んだり、音楽を聞いたりします。
+```
+
+### Romaji
+```text
+yasumi no hi wa hon o yondari, ongaku o kiitari shimasu.
+```
+
+### Dịch tiếng Việt
+Ngày nghỉ tôi đọc sách và nghe nhạc.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 7 theo chủ đề Sinh hoạt hằng ngày; chú ý mẫu JPD133-L11-G001 đến G017.
+
+## R008 – Làm thêm
+
+### Đoạn văn tiếng Nhật
+```text
+疲れたとき、少し休みます。
+```
+
+### Romaji
+```text
+tsukareta toki, sukoshi yasumimasu.
+```
+
+### Dịch tiếng Việt
+Khi mệt, tôi nghỉ một chút.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 8 theo chủ đề Sinh hoạt hằng ngày; chú ý mẫu JPD133-L11-G001 đến G017.
+
+## R009 – Làm thêm
+
+### Đoạn văn tiếng Nhật
+```text
+子どものとき、よく公園で遊びました。
+```
+
+### Romaji
+```text
+kodomo no toki, yoku kouen de asobimashita.
+```
+
+### Dịch tiếng Việt
+Khi còn nhỏ, tôi thường chơi ở công viên.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 9 theo chủ đề Sinh hoạt hằng ngày; chú ý mẫu JPD133-L11-G001 đến G017.
+
+## R010 – Làm thêm
+
+### Đoạn văn tiếng Nhật
+```text
+友達と「映画を見ない？」と話します。
+```
+
+### Romaji
+```text
+tomodachi to eiga o minai to hanashimasu.
+```
+
+### Dịch tiếng Việt
+Tôi nói với bạn: “Xem phim không?”.
+
+### Tóm tắt và ghi chú luyện tập
 Luyện đọc đoạn 10 theo chủ đề Sinh hoạt hằng ngày; chú ý mẫu JPD133-L11-G001 đến G017.
 
-## R011 – Về nhà
+
+# JPD133 Reading Bài 11 – 私の生活
+
+> Chủ đề: Sinh hoạt hằng ngày
+> Mục tiêu: 25 đoạn đọc về thói quen, quá khứ và hội thoại thân mật.
+> Từ vựng bắt buộc: 毎日, 毎朝, 生活, 学校, 宿題, 休みます, 読みます, 勉強します, とき
+> Kanji bắt buộc: 生, 活, 毎, 日, 学, 校, 休, 読
+> Ngữ pháp bắt buộc: JPD133-L11-G001 đến G017
+
+## R001 – Về nhà
 
 ### Đoạn văn tiếng Nhật
 ```text
@@ -1585,9 +16093,180 @@ gakkou ga owatte, ie e kaerimasu.
 Tan học tôi về nhà.
 
 ### Tóm tắt và ghi chú luyện tập
-Luyện đọc đoạn 11 theo chủ đề Sinh hoạt hằng ngày; chú ý mẫu JPD133-L11-G001 đến G017.
+Luyện đọc đoạn 1 theo chủ đề Sinh hoạt hằng ngày; chú ý mẫu JPD133-L11-G001 đến G017.
 
-## R012 – Nấu ăn
+## R002 – Về nhà
+
+### Đoạn văn tiếng Nhật
+```text
+毎朝、七時に起きます。
+```
+
+### Romaji
+```text
+mai asa, shichiji ni okimasu.
+```
+
+### Dịch tiếng Việt
+Mỗi sáng tôi thức dậy lúc bảy giờ.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 2 theo chủ đề Sinh hoạt hằng ngày; chú ý mẫu JPD133-L11-G001 đến G017.
+
+## R003 – Về nhà
+
+### Đoạn văn tiếng Nhật
+```text
+朝ご飯を食べて、学校へ行きます。
+```
+
+### Romaji
+```text
+asagohan o tabete, gakkou e ikimasu.
+```
+
+### Dịch tiếng Việt
+Tôi ăn sáng rồi đi học.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 3 theo chủ đề Sinh hoạt hằng ngày; chú ý mẫu JPD133-L11-G001 đến G017.
+
+## R004 – Về nhà
+
+### Đoạn văn tiếng Nhật
+```text
+学校で日本語を勉強しています。
+```
+
+### Romaji
+```text
+gakkou de nihongo o benkyou shiteimasu.
+```
+
+### Dịch tiếng Việt
+Tôi đang học tiếng Nhật ở trường.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 4 theo chủ đề Sinh hoạt hằng ngày; chú ý mẫu JPD133-L11-G001 đến G017.
+
+## R005 – Về nhà
+
+### Đoạn văn tiếng Nhật
+```text
+休み時間に友達と話します。
+```
+
+### Romaji
+```text
+yasumi jikan ni tomodachi to hanashimasu.
+```
+
+### Dịch tiếng Việt
+Giờ nghỉ tôi nói chuyện với bạn.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 5 theo chủ đề Sinh hoạt hằng ngày; chú ý mẫu JPD133-L11-G001 đến G017.
+
+## R006 – Về nhà
+
+### Đoạn văn tiếng Nhật
+```text
+家に帰ってから、晩ご飯を食べます。
+```
+
+### Romaji
+```text
+ie ni kaette kara, bangohan o tabemasu.
+```
+
+### Dịch tiếng Việt
+Sau khi về nhà, tôi ăn tối.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 6 theo chủ đề Sinh hoạt hằng ngày; chú ý mẫu JPD133-L11-G001 đến G017.
+
+## R007 – Về nhà
+
+### Đoạn văn tiếng Nhật
+```text
+休みの日は本を読んだり、音楽を聞いたりします。
+```
+
+### Romaji
+```text
+yasumi no hi wa hon o yondari, ongaku o kiitari shimasu.
+```
+
+### Dịch tiếng Việt
+Ngày nghỉ tôi đọc sách và nghe nhạc.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 7 theo chủ đề Sinh hoạt hằng ngày; chú ý mẫu JPD133-L11-G001 đến G017.
+
+## R008 – Về nhà
+
+### Đoạn văn tiếng Nhật
+```text
+疲れたとき、少し休みます。
+```
+
+### Romaji
+```text
+tsukareta toki, sukoshi yasumimasu.
+```
+
+### Dịch tiếng Việt
+Khi mệt, tôi nghỉ một chút.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 8 theo chủ đề Sinh hoạt hằng ngày; chú ý mẫu JPD133-L11-G001 đến G017.
+
+## R009 – Về nhà
+
+### Đoạn văn tiếng Nhật
+```text
+子どものとき、よく公園で遊びました。
+```
+
+### Romaji
+```text
+kodomo no toki, yoku kouen de asobimashita.
+```
+
+### Dịch tiếng Việt
+Khi còn nhỏ, tôi thường chơi ở công viên.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 9 theo chủ đề Sinh hoạt hằng ngày; chú ý mẫu JPD133-L11-G001 đến G017.
+
+## R010 – Về nhà
+
+### Đoạn văn tiếng Nhật
+```text
+友達と「映画を見ない？」と話します。
+```
+
+### Romaji
+```text
+tomodachi to eiga o minai to hanashimasu.
+```
+
+### Dịch tiếng Việt
+Tôi nói với bạn: “Xem phim không?”.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 10 theo chủ đề Sinh hoạt hằng ngày; chú ý mẫu JPD133-L11-G001 đến G017.
+
+
+# JPD133 Reading Bài 11 – 私の生活
+
+> Chủ đề: Sinh hoạt hằng ngày
+> Mục tiêu: 25 đoạn đọc về thói quen, quá khứ và hội thoại thân mật.
+> Từ vựng bắt buộc: 毎日, 毎朝, 生活, 学校, 宿題, 休みます, 読みます, 勉強します, とき
+> Kanji bắt buộc: 生, 活, 毎, 日, 学, 校, 休, 読
+> Ngữ pháp bắt buộc: JPD133-L11-G001 đến G017
+
+## R001 – Nấu ăn
 
 ### Đoạn văn tiếng Nhật
 ```text
@@ -1603,9 +16282,180 @@ haha to ryouri o tsukurimasu.
 Tôi nấu ăn với mẹ.
 
 ### Tóm tắt và ghi chú luyện tập
-Luyện đọc đoạn 12 theo chủ đề Sinh hoạt hằng ngày; chú ý mẫu JPD133-L11-G001 đến G017.
+Luyện đọc đoạn 1 theo chủ đề Sinh hoạt hằng ngày; chú ý mẫu JPD133-L11-G001 đến G017.
 
-## R013 – Giặt quần áo
+## R002 – Nấu ăn
+
+### Đoạn văn tiếng Nhật
+```text
+毎朝、七時に起きます。
+```
+
+### Romaji
+```text
+mai asa, shichiji ni okimasu.
+```
+
+### Dịch tiếng Việt
+Mỗi sáng tôi thức dậy lúc bảy giờ.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 2 theo chủ đề Sinh hoạt hằng ngày; chú ý mẫu JPD133-L11-G001 đến G017.
+
+## R003 – Nấu ăn
+
+### Đoạn văn tiếng Nhật
+```text
+朝ご飯を食べて、学校へ行きます。
+```
+
+### Romaji
+```text
+asagohan o tabete, gakkou e ikimasu.
+```
+
+### Dịch tiếng Việt
+Tôi ăn sáng rồi đi học.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 3 theo chủ đề Sinh hoạt hằng ngày; chú ý mẫu JPD133-L11-G001 đến G017.
+
+## R004 – Nấu ăn
+
+### Đoạn văn tiếng Nhật
+```text
+学校で日本語を勉強しています。
+```
+
+### Romaji
+```text
+gakkou de nihongo o benkyou shiteimasu.
+```
+
+### Dịch tiếng Việt
+Tôi đang học tiếng Nhật ở trường.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 4 theo chủ đề Sinh hoạt hằng ngày; chú ý mẫu JPD133-L11-G001 đến G017.
+
+## R005 – Nấu ăn
+
+### Đoạn văn tiếng Nhật
+```text
+休み時間に友達と話します。
+```
+
+### Romaji
+```text
+yasumi jikan ni tomodachi to hanashimasu.
+```
+
+### Dịch tiếng Việt
+Giờ nghỉ tôi nói chuyện với bạn.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 5 theo chủ đề Sinh hoạt hằng ngày; chú ý mẫu JPD133-L11-G001 đến G017.
+
+## R006 – Nấu ăn
+
+### Đoạn văn tiếng Nhật
+```text
+家に帰ってから、晩ご飯を食べます。
+```
+
+### Romaji
+```text
+ie ni kaette kara, bangohan o tabemasu.
+```
+
+### Dịch tiếng Việt
+Sau khi về nhà, tôi ăn tối.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 6 theo chủ đề Sinh hoạt hằng ngày; chú ý mẫu JPD133-L11-G001 đến G017.
+
+## R007 – Nấu ăn
+
+### Đoạn văn tiếng Nhật
+```text
+休みの日は本を読んだり、音楽を聞いたりします。
+```
+
+### Romaji
+```text
+yasumi no hi wa hon o yondari, ongaku o kiitari shimasu.
+```
+
+### Dịch tiếng Việt
+Ngày nghỉ tôi đọc sách và nghe nhạc.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 7 theo chủ đề Sinh hoạt hằng ngày; chú ý mẫu JPD133-L11-G001 đến G017.
+
+## R008 – Nấu ăn
+
+### Đoạn văn tiếng Nhật
+```text
+疲れたとき、少し休みます。
+```
+
+### Romaji
+```text
+tsukareta toki, sukoshi yasumimasu.
+```
+
+### Dịch tiếng Việt
+Khi mệt, tôi nghỉ một chút.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 8 theo chủ đề Sinh hoạt hằng ngày; chú ý mẫu JPD133-L11-G001 đến G017.
+
+## R009 – Nấu ăn
+
+### Đoạn văn tiếng Nhật
+```text
+子どものとき、よく公園で遊びました。
+```
+
+### Romaji
+```text
+kodomo no toki, yoku kouen de asobimashita.
+```
+
+### Dịch tiếng Việt
+Khi còn nhỏ, tôi thường chơi ở công viên.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 9 theo chủ đề Sinh hoạt hằng ngày; chú ý mẫu JPD133-L11-G001 đến G017.
+
+## R010 – Nấu ăn
+
+### Đoạn văn tiếng Nhật
+```text
+友達と「映画を見ない？」と話します。
+```
+
+### Romaji
+```text
+tomodachi to eiga o minai to hanashimasu.
+```
+
+### Dịch tiếng Việt
+Tôi nói với bạn: “Xem phim không?”.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 10 theo chủ đề Sinh hoạt hằng ngày; chú ý mẫu JPD133-L11-G001 đến G017.
+
+
+# JPD133 Reading Bài 11 – 私の生活
+
+> Chủ đề: Sinh hoạt hằng ngày
+> Mục tiêu: 25 đoạn đọc về thói quen, quá khứ và hội thoại thân mật.
+> Từ vựng bắt buộc: 毎日, 毎朝, 生活, 学校, 宿題, 休みます, 読みます, 勉強します, とき
+> Kanji bắt buộc: 生, 活, 毎, 日, 学, 校, 休, 読
+> Ngữ pháp bắt buộc: JPD133-L11-G001 đến G017
+
+## R001 – Giặt quần áo
 
 ### Đoạn văn tiếng Nhật
 ```text
@@ -1621,9 +16471,180 @@ shuumatsu, fuku o sentaku shimasu.
 Cuối tuần tôi giặt quần áo.
 
 ### Tóm tắt và ghi chú luyện tập
-Luyện đọc đoạn 13 theo chủ đề Sinh hoạt hằng ngày; chú ý mẫu JPD133-L11-G001 đến G017.
+Luyện đọc đoạn 1 theo chủ đề Sinh hoạt hằng ngày; chú ý mẫu JPD133-L11-G001 đến G017.
 
-## R014 – Dọn phòng
+## R002 – Giặt quần áo
+
+### Đoạn văn tiếng Nhật
+```text
+毎朝、七時に起きます。
+```
+
+### Romaji
+```text
+mai asa, shichiji ni okimasu.
+```
+
+### Dịch tiếng Việt
+Mỗi sáng tôi thức dậy lúc bảy giờ.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 2 theo chủ đề Sinh hoạt hằng ngày; chú ý mẫu JPD133-L11-G001 đến G017.
+
+## R003 – Giặt quần áo
+
+### Đoạn văn tiếng Nhật
+```text
+朝ご飯を食べて、学校へ行きます。
+```
+
+### Romaji
+```text
+asagohan o tabete, gakkou e ikimasu.
+```
+
+### Dịch tiếng Việt
+Tôi ăn sáng rồi đi học.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 3 theo chủ đề Sinh hoạt hằng ngày; chú ý mẫu JPD133-L11-G001 đến G017.
+
+## R004 – Giặt quần áo
+
+### Đoạn văn tiếng Nhật
+```text
+学校で日本語を勉強しています。
+```
+
+### Romaji
+```text
+gakkou de nihongo o benkyou shiteimasu.
+```
+
+### Dịch tiếng Việt
+Tôi đang học tiếng Nhật ở trường.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 4 theo chủ đề Sinh hoạt hằng ngày; chú ý mẫu JPD133-L11-G001 đến G017.
+
+## R005 – Giặt quần áo
+
+### Đoạn văn tiếng Nhật
+```text
+休み時間に友達と話します。
+```
+
+### Romaji
+```text
+yasumi jikan ni tomodachi to hanashimasu.
+```
+
+### Dịch tiếng Việt
+Giờ nghỉ tôi nói chuyện với bạn.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 5 theo chủ đề Sinh hoạt hằng ngày; chú ý mẫu JPD133-L11-G001 đến G017.
+
+## R006 – Giặt quần áo
+
+### Đoạn văn tiếng Nhật
+```text
+家に帰ってから、晩ご飯を食べます。
+```
+
+### Romaji
+```text
+ie ni kaette kara, bangohan o tabemasu.
+```
+
+### Dịch tiếng Việt
+Sau khi về nhà, tôi ăn tối.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 6 theo chủ đề Sinh hoạt hằng ngày; chú ý mẫu JPD133-L11-G001 đến G017.
+
+## R007 – Giặt quần áo
+
+### Đoạn văn tiếng Nhật
+```text
+休みの日は本を読んだり、音楽を聞いたりします。
+```
+
+### Romaji
+```text
+yasumi no hi wa hon o yondari, ongaku o kiitari shimasu.
+```
+
+### Dịch tiếng Việt
+Ngày nghỉ tôi đọc sách và nghe nhạc.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 7 theo chủ đề Sinh hoạt hằng ngày; chú ý mẫu JPD133-L11-G001 đến G017.
+
+## R008 – Giặt quần áo
+
+### Đoạn văn tiếng Nhật
+```text
+疲れたとき、少し休みます。
+```
+
+### Romaji
+```text
+tsukareta toki, sukoshi yasumimasu.
+```
+
+### Dịch tiếng Việt
+Khi mệt, tôi nghỉ một chút.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 8 theo chủ đề Sinh hoạt hằng ngày; chú ý mẫu JPD133-L11-G001 đến G017.
+
+## R009 – Giặt quần áo
+
+### Đoạn văn tiếng Nhật
+```text
+子どものとき、よく公園で遊びました。
+```
+
+### Romaji
+```text
+kodomo no toki, yoku kouen de asobimashita.
+```
+
+### Dịch tiếng Việt
+Khi còn nhỏ, tôi thường chơi ở công viên.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 9 theo chủ đề Sinh hoạt hằng ngày; chú ý mẫu JPD133-L11-G001 đến G017.
+
+## R010 – Giặt quần áo
+
+### Đoạn văn tiếng Nhật
+```text
+友達と「映画を見ない？」と話します。
+```
+
+### Romaji
+```text
+tomodachi to eiga o minai to hanashimasu.
+```
+
+### Dịch tiếng Việt
+Tôi nói với bạn: “Xem phim không?”.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 10 theo chủ đề Sinh hoạt hằng ngày; chú ý mẫu JPD133-L11-G001 đến G017.
+
+
+# JPD133 Reading Bài 11 – 私の生活
+
+> Chủ đề: Sinh hoạt hằng ngày
+> Mục tiêu: 25 đoạn đọc về thói quen, quá khứ và hội thoại thân mật.
+> Từ vựng bắt buộc: 毎日, 毎朝, 生活, 学校, 宿題, 休みます, 読みます, 勉強します, とき
+> Kanji bắt buộc: 生, 活, 毎, 日, 学, 校, 休, 読
+> Ngữ pháp bắt buộc: JPD133-L11-G001 đến G017
+
+## R001 – Dọn phòng
 
 ### Đoạn văn tiếng Nhật
 ```text
@@ -1639,9 +16660,180 @@ heya o souji shite, mado o akemasu.
 Tôi dọn phòng rồi mở cửa sổ.
 
 ### Tóm tắt và ghi chú luyện tập
-Luyện đọc đoạn 14 theo chủ đề Sinh hoạt hằng ngày; chú ý mẫu JPD133-L11-G001 đến G017.
+Luyện đọc đoạn 1 theo chủ đề Sinh hoạt hằng ngày; chú ý mẫu JPD133-L11-G001 đến G017.
 
-## R015 – Đi siêu thị
+## R002 – Dọn phòng
+
+### Đoạn văn tiếng Nhật
+```text
+毎朝、七時に起きます。
+```
+
+### Romaji
+```text
+mai asa, shichiji ni okimasu.
+```
+
+### Dịch tiếng Việt
+Mỗi sáng tôi thức dậy lúc bảy giờ.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 2 theo chủ đề Sinh hoạt hằng ngày; chú ý mẫu JPD133-L11-G001 đến G017.
+
+## R003 – Dọn phòng
+
+### Đoạn văn tiếng Nhật
+```text
+朝ご飯を食べて、学校へ行きます。
+```
+
+### Romaji
+```text
+asagohan o tabete, gakkou e ikimasu.
+```
+
+### Dịch tiếng Việt
+Tôi ăn sáng rồi đi học.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 3 theo chủ đề Sinh hoạt hằng ngày; chú ý mẫu JPD133-L11-G001 đến G017.
+
+## R004 – Dọn phòng
+
+### Đoạn văn tiếng Nhật
+```text
+学校で日本語を勉強しています。
+```
+
+### Romaji
+```text
+gakkou de nihongo o benkyou shiteimasu.
+```
+
+### Dịch tiếng Việt
+Tôi đang học tiếng Nhật ở trường.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 4 theo chủ đề Sinh hoạt hằng ngày; chú ý mẫu JPD133-L11-G001 đến G017.
+
+## R005 – Dọn phòng
+
+### Đoạn văn tiếng Nhật
+```text
+休み時間に友達と話します。
+```
+
+### Romaji
+```text
+yasumi jikan ni tomodachi to hanashimasu.
+```
+
+### Dịch tiếng Việt
+Giờ nghỉ tôi nói chuyện với bạn.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 5 theo chủ đề Sinh hoạt hằng ngày; chú ý mẫu JPD133-L11-G001 đến G017.
+
+## R006 – Dọn phòng
+
+### Đoạn văn tiếng Nhật
+```text
+家に帰ってから、晩ご飯を食べます。
+```
+
+### Romaji
+```text
+ie ni kaette kara, bangohan o tabemasu.
+```
+
+### Dịch tiếng Việt
+Sau khi về nhà, tôi ăn tối.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 6 theo chủ đề Sinh hoạt hằng ngày; chú ý mẫu JPD133-L11-G001 đến G017.
+
+## R007 – Dọn phòng
+
+### Đoạn văn tiếng Nhật
+```text
+休みの日は本を読んだり、音楽を聞いたりします。
+```
+
+### Romaji
+```text
+yasumi no hi wa hon o yondari, ongaku o kiitari shimasu.
+```
+
+### Dịch tiếng Việt
+Ngày nghỉ tôi đọc sách và nghe nhạc.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 7 theo chủ đề Sinh hoạt hằng ngày; chú ý mẫu JPD133-L11-G001 đến G017.
+
+## R008 – Dọn phòng
+
+### Đoạn văn tiếng Nhật
+```text
+疲れたとき、少し休みます。
+```
+
+### Romaji
+```text
+tsukareta toki, sukoshi yasumimasu.
+```
+
+### Dịch tiếng Việt
+Khi mệt, tôi nghỉ một chút.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 8 theo chủ đề Sinh hoạt hằng ngày; chú ý mẫu JPD133-L11-G001 đến G017.
+
+## R009 – Dọn phòng
+
+### Đoạn văn tiếng Nhật
+```text
+子どものとき、よく公園で遊びました。
+```
+
+### Romaji
+```text
+kodomo no toki, yoku kouen de asobimashita.
+```
+
+### Dịch tiếng Việt
+Khi còn nhỏ, tôi thường chơi ở công viên.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 9 theo chủ đề Sinh hoạt hằng ngày; chú ý mẫu JPD133-L11-G001 đến G017.
+
+## R010 – Dọn phòng
+
+### Đoạn văn tiếng Nhật
+```text
+友達と「映画を見ない？」と話します。
+```
+
+### Romaji
+```text
+tomodachi to eiga o minai to hanashimasu.
+```
+
+### Dịch tiếng Việt
+Tôi nói với bạn: “Xem phim không?”.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 10 theo chủ đề Sinh hoạt hằng ngày; chú ý mẫu JPD133-L11-G001 đến G017.
+
+
+# JPD133 Reading Bài 11 – 私の生活
+
+> Chủ đề: Sinh hoạt hằng ngày
+> Mục tiêu: 25 đoạn đọc về thói quen, quá khứ và hội thoại thân mật.
+> Từ vựng bắt buộc: 毎日, 毎朝, 生活, 学校, 宿題, 休みます, 読みます, 勉強します, とき
+> Kanji bắt buộc: 生, 活, 毎, 日, 学, 校, 休, 読
+> Ngữ pháp bắt buộc: JPD133-L11-G001 đến G017
+
+## R001 – Đi siêu thị
 
 ### Đoạn văn tiếng Nhật
 ```text
@@ -1657,9 +16849,180 @@ suupaa de bangohan o kaimasu.
 Tôi mua bữa tối ở siêu thị.
 
 ### Tóm tắt và ghi chú luyện tập
-Luyện đọc đoạn 15 theo chủ đề Sinh hoạt hằng ngày; chú ý mẫu JPD133-L11-G001 đến G017.
+Luyện đọc đoạn 1 theo chủ đề Sinh hoạt hằng ngày; chú ý mẫu JPD133-L11-G001 đến G017.
 
-## R016 – Tập thể dục
+## R002 – Đi siêu thị
+
+### Đoạn văn tiếng Nhật
+```text
+毎朝、七時に起きます。
+```
+
+### Romaji
+```text
+mai asa, shichiji ni okimasu.
+```
+
+### Dịch tiếng Việt
+Mỗi sáng tôi thức dậy lúc bảy giờ.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 2 theo chủ đề Sinh hoạt hằng ngày; chú ý mẫu JPD133-L11-G001 đến G017.
+
+## R003 – Đi siêu thị
+
+### Đoạn văn tiếng Nhật
+```text
+朝ご飯を食べて、学校へ行きます。
+```
+
+### Romaji
+```text
+asagohan o tabete, gakkou e ikimasu.
+```
+
+### Dịch tiếng Việt
+Tôi ăn sáng rồi đi học.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 3 theo chủ đề Sinh hoạt hằng ngày; chú ý mẫu JPD133-L11-G001 đến G017.
+
+## R004 – Đi siêu thị
+
+### Đoạn văn tiếng Nhật
+```text
+学校で日本語を勉強しています。
+```
+
+### Romaji
+```text
+gakkou de nihongo o benkyou shiteimasu.
+```
+
+### Dịch tiếng Việt
+Tôi đang học tiếng Nhật ở trường.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 4 theo chủ đề Sinh hoạt hằng ngày; chú ý mẫu JPD133-L11-G001 đến G017.
+
+## R005 – Đi siêu thị
+
+### Đoạn văn tiếng Nhật
+```text
+休み時間に友達と話します。
+```
+
+### Romaji
+```text
+yasumi jikan ni tomodachi to hanashimasu.
+```
+
+### Dịch tiếng Việt
+Giờ nghỉ tôi nói chuyện với bạn.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 5 theo chủ đề Sinh hoạt hằng ngày; chú ý mẫu JPD133-L11-G001 đến G017.
+
+## R006 – Đi siêu thị
+
+### Đoạn văn tiếng Nhật
+```text
+家に帰ってから、晩ご飯を食べます。
+```
+
+### Romaji
+```text
+ie ni kaette kara, bangohan o tabemasu.
+```
+
+### Dịch tiếng Việt
+Sau khi về nhà, tôi ăn tối.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 6 theo chủ đề Sinh hoạt hằng ngày; chú ý mẫu JPD133-L11-G001 đến G017.
+
+## R007 – Đi siêu thị
+
+### Đoạn văn tiếng Nhật
+```text
+休みの日は本を読んだり、音楽を聞いたりします。
+```
+
+### Romaji
+```text
+yasumi no hi wa hon o yondari, ongaku o kiitari shimasu.
+```
+
+### Dịch tiếng Việt
+Ngày nghỉ tôi đọc sách và nghe nhạc.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 7 theo chủ đề Sinh hoạt hằng ngày; chú ý mẫu JPD133-L11-G001 đến G017.
+
+## R008 – Đi siêu thị
+
+### Đoạn văn tiếng Nhật
+```text
+疲れたとき、少し休みます。
+```
+
+### Romaji
+```text
+tsukareta toki, sukoshi yasumimasu.
+```
+
+### Dịch tiếng Việt
+Khi mệt, tôi nghỉ một chút.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 8 theo chủ đề Sinh hoạt hằng ngày; chú ý mẫu JPD133-L11-G001 đến G017.
+
+## R009 – Đi siêu thị
+
+### Đoạn văn tiếng Nhật
+```text
+子どものとき、よく公園で遊びました。
+```
+
+### Romaji
+```text
+kodomo no toki, yoku kouen de asobimashita.
+```
+
+### Dịch tiếng Việt
+Khi còn nhỏ, tôi thường chơi ở công viên.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 9 theo chủ đề Sinh hoạt hằng ngày; chú ý mẫu JPD133-L11-G001 đến G017.
+
+## R010 – Đi siêu thị
+
+### Đoạn văn tiếng Nhật
+```text
+友達と「映画を見ない？」と話します。
+```
+
+### Romaji
+```text
+tomodachi to eiga o minai to hanashimasu.
+```
+
+### Dịch tiếng Việt
+Tôi nói với bạn: “Xem phim không?”.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 10 theo chủ đề Sinh hoạt hằng ngày; chú ý mẫu JPD133-L11-G001 đến G017.
+
+
+# JPD133 Reading Bài 11 – 私の生活
+
+> Chủ đề: Sinh hoạt hằng ngày
+> Mục tiêu: 25 đoạn đọc về thói quen, quá khứ và hội thoại thân mật.
+> Từ vựng bắt buộc: 毎日, 毎朝, 生活, 学校, 宿題, 休みます, 読みます, 勉強します, とき
+> Kanji bắt buộc: 生, 活, 毎, 日, 学, 校, 休, 読
+> Ngữ pháp bắt buộc: JPD133-L11-G001 đến G017
+
+## R001 – Tập thể dục
 
 ### Đoạn văn tiếng Nhật
 ```text
@@ -1675,9 +17038,180 @@ maishuu, undou shiteimasu.
 Mỗi tuần tôi tập thể dục.
 
 ### Tóm tắt và ghi chú luyện tập
-Luyện đọc đoạn 16 theo chủ đề Sinh hoạt hằng ngày; chú ý mẫu JPD133-L11-G001 đến G017.
+Luyện đọc đoạn 1 theo chủ đề Sinh hoạt hằng ngày; chú ý mẫu JPD133-L11-G001 đến G017.
 
-## R017 – Chạy bộ
+## R002 – Tập thể dục
+
+### Đoạn văn tiếng Nhật
+```text
+毎朝、七時に起きます。
+```
+
+### Romaji
+```text
+mai asa, shichiji ni okimasu.
+```
+
+### Dịch tiếng Việt
+Mỗi sáng tôi thức dậy lúc bảy giờ.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 2 theo chủ đề Sinh hoạt hằng ngày; chú ý mẫu JPD133-L11-G001 đến G017.
+
+## R003 – Tập thể dục
+
+### Đoạn văn tiếng Nhật
+```text
+朝ご飯を食べて、学校へ行きます。
+```
+
+### Romaji
+```text
+asagohan o tabete, gakkou e ikimasu.
+```
+
+### Dịch tiếng Việt
+Tôi ăn sáng rồi đi học.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 3 theo chủ đề Sinh hoạt hằng ngày; chú ý mẫu JPD133-L11-G001 đến G017.
+
+## R004 – Tập thể dục
+
+### Đoạn văn tiếng Nhật
+```text
+学校で日本語を勉強しています。
+```
+
+### Romaji
+```text
+gakkou de nihongo o benkyou shiteimasu.
+```
+
+### Dịch tiếng Việt
+Tôi đang học tiếng Nhật ở trường.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 4 theo chủ đề Sinh hoạt hằng ngày; chú ý mẫu JPD133-L11-G001 đến G017.
+
+## R005 – Tập thể dục
+
+### Đoạn văn tiếng Nhật
+```text
+休み時間に友達と話します。
+```
+
+### Romaji
+```text
+yasumi jikan ni tomodachi to hanashimasu.
+```
+
+### Dịch tiếng Việt
+Giờ nghỉ tôi nói chuyện với bạn.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 5 theo chủ đề Sinh hoạt hằng ngày; chú ý mẫu JPD133-L11-G001 đến G017.
+
+## R006 – Tập thể dục
+
+### Đoạn văn tiếng Nhật
+```text
+家に帰ってから、晩ご飯を食べます。
+```
+
+### Romaji
+```text
+ie ni kaette kara, bangohan o tabemasu.
+```
+
+### Dịch tiếng Việt
+Sau khi về nhà, tôi ăn tối.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 6 theo chủ đề Sinh hoạt hằng ngày; chú ý mẫu JPD133-L11-G001 đến G017.
+
+## R007 – Tập thể dục
+
+### Đoạn văn tiếng Nhật
+```text
+休みの日は本を読んだり、音楽を聞いたりします。
+```
+
+### Romaji
+```text
+yasumi no hi wa hon o yondari, ongaku o kiitari shimasu.
+```
+
+### Dịch tiếng Việt
+Ngày nghỉ tôi đọc sách và nghe nhạc.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 7 theo chủ đề Sinh hoạt hằng ngày; chú ý mẫu JPD133-L11-G001 đến G017.
+
+## R008 – Tập thể dục
+
+### Đoạn văn tiếng Nhật
+```text
+疲れたとき、少し休みます。
+```
+
+### Romaji
+```text
+tsukareta toki, sukoshi yasumimasu.
+```
+
+### Dịch tiếng Việt
+Khi mệt, tôi nghỉ một chút.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 8 theo chủ đề Sinh hoạt hằng ngày; chú ý mẫu JPD133-L11-G001 đến G017.
+
+## R009 – Tập thể dục
+
+### Đoạn văn tiếng Nhật
+```text
+子どものとき、よく公園で遊びました。
+```
+
+### Romaji
+```text
+kodomo no toki, yoku kouen de asobimashita.
+```
+
+### Dịch tiếng Việt
+Khi còn nhỏ, tôi thường chơi ở công viên.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 9 theo chủ đề Sinh hoạt hằng ngày; chú ý mẫu JPD133-L11-G001 đến G017.
+
+## R010 – Tập thể dục
+
+### Đoạn văn tiếng Nhật
+```text
+友達と「映画を見ない？」と話します。
+```
+
+### Romaji
+```text
+tomodachi to eiga o minai to hanashimasu.
+```
+
+### Dịch tiếng Việt
+Tôi nói với bạn: “Xem phim không?”.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 10 theo chủ đề Sinh hoạt hằng ngày; chú ý mẫu JPD133-L11-G001 đến G017.
+
+
+# JPD133 Reading Bài 11 – 私の生活
+
+> Chủ đề: Sinh hoạt hằng ngày
+> Mục tiêu: 25 đoạn đọc về thói quen, quá khứ và hội thoại thân mật.
+> Từ vựng bắt buộc: 毎日, 毎朝, 生活, 学校, 宿題, 休みます, 読みます, 勉強します, とき
+> Kanji bắt buộc: 生, 活, 毎, 日, 学, 校, 休, 読
+> Ngữ pháp bắt buộc: JPD133-L11-G001 đến G017
+
+## R001 – Chạy bộ
 
 ### Đoạn văn tiếng Nhật
 ```text
@@ -1693,9 +17227,180 @@ asa, kouen de jogingu o shimasu.
 Buổi sáng tôi chạy bộ ở công viên.
 
 ### Tóm tắt và ghi chú luyện tập
-Luyện đọc đoạn 17 theo chủ đề Sinh hoạt hằng ngày; chú ý mẫu JPD133-L11-G001 đến G017.
+Luyện đọc đoạn 1 theo chủ đề Sinh hoạt hằng ngày; chú ý mẫu JPD133-L11-G001 đến G017.
 
-## R018 – Nghe nhạc
+## R002 – Chạy bộ
+
+### Đoạn văn tiếng Nhật
+```text
+毎朝、七時に起きます。
+```
+
+### Romaji
+```text
+mai asa, shichiji ni okimasu.
+```
+
+### Dịch tiếng Việt
+Mỗi sáng tôi thức dậy lúc bảy giờ.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 2 theo chủ đề Sinh hoạt hằng ngày; chú ý mẫu JPD133-L11-G001 đến G017.
+
+## R003 – Chạy bộ
+
+### Đoạn văn tiếng Nhật
+```text
+朝ご飯を食べて、学校へ行きます。
+```
+
+### Romaji
+```text
+asagohan o tabete, gakkou e ikimasu.
+```
+
+### Dịch tiếng Việt
+Tôi ăn sáng rồi đi học.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 3 theo chủ đề Sinh hoạt hằng ngày; chú ý mẫu JPD133-L11-G001 đến G017.
+
+## R004 – Chạy bộ
+
+### Đoạn văn tiếng Nhật
+```text
+学校で日本語を勉強しています。
+```
+
+### Romaji
+```text
+gakkou de nihongo o benkyou shiteimasu.
+```
+
+### Dịch tiếng Việt
+Tôi đang học tiếng Nhật ở trường.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 4 theo chủ đề Sinh hoạt hằng ngày; chú ý mẫu JPD133-L11-G001 đến G017.
+
+## R005 – Chạy bộ
+
+### Đoạn văn tiếng Nhật
+```text
+休み時間に友達と話します。
+```
+
+### Romaji
+```text
+yasumi jikan ni tomodachi to hanashimasu.
+```
+
+### Dịch tiếng Việt
+Giờ nghỉ tôi nói chuyện với bạn.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 5 theo chủ đề Sinh hoạt hằng ngày; chú ý mẫu JPD133-L11-G001 đến G017.
+
+## R006 – Chạy bộ
+
+### Đoạn văn tiếng Nhật
+```text
+家に帰ってから、晩ご飯を食べます。
+```
+
+### Romaji
+```text
+ie ni kaette kara, bangohan o tabemasu.
+```
+
+### Dịch tiếng Việt
+Sau khi về nhà, tôi ăn tối.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 6 theo chủ đề Sinh hoạt hằng ngày; chú ý mẫu JPD133-L11-G001 đến G017.
+
+## R007 – Chạy bộ
+
+### Đoạn văn tiếng Nhật
+```text
+休みの日は本を読んだり、音楽を聞いたりします。
+```
+
+### Romaji
+```text
+yasumi no hi wa hon o yondari, ongaku o kiitari shimasu.
+```
+
+### Dịch tiếng Việt
+Ngày nghỉ tôi đọc sách và nghe nhạc.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 7 theo chủ đề Sinh hoạt hằng ngày; chú ý mẫu JPD133-L11-G001 đến G017.
+
+## R008 – Chạy bộ
+
+### Đoạn văn tiếng Nhật
+```text
+疲れたとき、少し休みます。
+```
+
+### Romaji
+```text
+tsukareta toki, sukoshi yasumimasu.
+```
+
+### Dịch tiếng Việt
+Khi mệt, tôi nghỉ một chút.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 8 theo chủ đề Sinh hoạt hằng ngày; chú ý mẫu JPD133-L11-G001 đến G017.
+
+## R009 – Chạy bộ
+
+### Đoạn văn tiếng Nhật
+```text
+子どものとき、よく公園で遊びました。
+```
+
+### Romaji
+```text
+kodomo no toki, yoku kouen de asobimashita.
+```
+
+### Dịch tiếng Việt
+Khi còn nhỏ, tôi thường chơi ở công viên.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 9 theo chủ đề Sinh hoạt hằng ngày; chú ý mẫu JPD133-L11-G001 đến G017.
+
+## R010 – Chạy bộ
+
+### Đoạn văn tiếng Nhật
+```text
+友達と「映画を見ない？」と話します。
+```
+
+### Romaji
+```text
+tomodachi to eiga o minai to hanashimasu.
+```
+
+### Dịch tiếng Việt
+Tôi nói với bạn: “Xem phim không?”.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 10 theo chủ đề Sinh hoạt hằng ngày; chú ý mẫu JPD133-L11-G001 đến G017.
+
+
+# JPD133 Reading Bài 11 – 私の生活
+
+> Chủ đề: Sinh hoạt hằng ngày
+> Mục tiêu: 25 đoạn đọc về thói quen, quá khứ và hội thoại thân mật.
+> Từ vựng bắt buộc: 毎日, 毎朝, 生活, 学校, 宿題, 休みます, 読みます, 勉強します, とき
+> Kanji bắt buộc: 生, 活, 毎, 日, 学, 校, 休, 読
+> Ngữ pháp bắt buộc: JPD133-L11-G001 đến G017
+
+## R001 – Nghe nhạc
 
 ### Đoạn văn tiếng Nhật
 ```text
@@ -1711,9 +17416,180 @@ yoru, ongaku o kiiteimasu.
 Buổi tối tôi nghe nhạc.
 
 ### Tóm tắt và ghi chú luyện tập
-Luyện đọc đoạn 18 theo chủ đề Sinh hoạt hằng ngày; chú ý mẫu JPD133-L11-G001 đến G017.
+Luyện đọc đoạn 1 theo chủ đề Sinh hoạt hằng ngày; chú ý mẫu JPD133-L11-G001 đến G017.
 
-## R019 – Xem TV
+## R002 – Nghe nhạc
+
+### Đoạn văn tiếng Nhật
+```text
+毎朝、七時に起きます。
+```
+
+### Romaji
+```text
+mai asa, shichiji ni okimasu.
+```
+
+### Dịch tiếng Việt
+Mỗi sáng tôi thức dậy lúc bảy giờ.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 2 theo chủ đề Sinh hoạt hằng ngày; chú ý mẫu JPD133-L11-G001 đến G017.
+
+## R003 – Nghe nhạc
+
+### Đoạn văn tiếng Nhật
+```text
+朝ご飯を食べて、学校へ行きます。
+```
+
+### Romaji
+```text
+asagohan o tabete, gakkou e ikimasu.
+```
+
+### Dịch tiếng Việt
+Tôi ăn sáng rồi đi học.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 3 theo chủ đề Sinh hoạt hằng ngày; chú ý mẫu JPD133-L11-G001 đến G017.
+
+## R004 – Nghe nhạc
+
+### Đoạn văn tiếng Nhật
+```text
+学校で日本語を勉強しています。
+```
+
+### Romaji
+```text
+gakkou de nihongo o benkyou shiteimasu.
+```
+
+### Dịch tiếng Việt
+Tôi đang học tiếng Nhật ở trường.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 4 theo chủ đề Sinh hoạt hằng ngày; chú ý mẫu JPD133-L11-G001 đến G017.
+
+## R005 – Nghe nhạc
+
+### Đoạn văn tiếng Nhật
+```text
+休み時間に友達と話します。
+```
+
+### Romaji
+```text
+yasumi jikan ni tomodachi to hanashimasu.
+```
+
+### Dịch tiếng Việt
+Giờ nghỉ tôi nói chuyện với bạn.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 5 theo chủ đề Sinh hoạt hằng ngày; chú ý mẫu JPD133-L11-G001 đến G017.
+
+## R006 – Nghe nhạc
+
+### Đoạn văn tiếng Nhật
+```text
+家に帰ってから、晩ご飯を食べます。
+```
+
+### Romaji
+```text
+ie ni kaette kara, bangohan o tabemasu.
+```
+
+### Dịch tiếng Việt
+Sau khi về nhà, tôi ăn tối.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 6 theo chủ đề Sinh hoạt hằng ngày; chú ý mẫu JPD133-L11-G001 đến G017.
+
+## R007 – Nghe nhạc
+
+### Đoạn văn tiếng Nhật
+```text
+休みの日は本を読んだり、音楽を聞いたりします。
+```
+
+### Romaji
+```text
+yasumi no hi wa hon o yondari, ongaku o kiitari shimasu.
+```
+
+### Dịch tiếng Việt
+Ngày nghỉ tôi đọc sách và nghe nhạc.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 7 theo chủ đề Sinh hoạt hằng ngày; chú ý mẫu JPD133-L11-G001 đến G017.
+
+## R008 – Nghe nhạc
+
+### Đoạn văn tiếng Nhật
+```text
+疲れたとき、少し休みます。
+```
+
+### Romaji
+```text
+tsukareta toki, sukoshi yasumimasu.
+```
+
+### Dịch tiếng Việt
+Khi mệt, tôi nghỉ một chút.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 8 theo chủ đề Sinh hoạt hằng ngày; chú ý mẫu JPD133-L11-G001 đến G017.
+
+## R009 – Nghe nhạc
+
+### Đoạn văn tiếng Nhật
+```text
+子どものとき、よく公園で遊びました。
+```
+
+### Romaji
+```text
+kodomo no toki, yoku kouen de asobimashita.
+```
+
+### Dịch tiếng Việt
+Khi còn nhỏ, tôi thường chơi ở công viên.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 9 theo chủ đề Sinh hoạt hằng ngày; chú ý mẫu JPD133-L11-G001 đến G017.
+
+## R010 – Nghe nhạc
+
+### Đoạn văn tiếng Nhật
+```text
+友達と「映画を見ない？」と話します。
+```
+
+### Romaji
+```text
+tomodachi to eiga o minai to hanashimasu.
+```
+
+### Dịch tiếng Việt
+Tôi nói với bạn: “Xem phim không?”.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 10 theo chủ đề Sinh hoạt hằng ngày; chú ý mẫu JPD133-L11-G001 đến G017.
+
+
+# JPD133 Reading Bài 11 – 私の生活
+
+> Chủ đề: Sinh hoạt hằng ngày
+> Mục tiêu: 25 đoạn đọc về thói quen, quá khứ và hội thoại thân mật.
+> Từ vựng bắt buộc: 毎日, 毎朝, 生活, 学校, 宿題, 休みます, 読みます, 勉強します, とき
+> Kanji bắt buộc: 生, 活, 毎, 日, 学, 校, 休, 読
+> Ngữ pháp bắt buộc: JPD133-L11-G001 đến G017
+
+## R001 – Xem TV
 
 ### Đoạn văn tiếng Nhật
 ```text
@@ -1729,9 +17605,180 @@ bangohan no ato de terebi o mimasu.
 Sau bữa tối tôi xem TV.
 
 ### Tóm tắt và ghi chú luyện tập
-Luyện đọc đoạn 19 theo chủ đề Sinh hoạt hằng ngày; chú ý mẫu JPD133-L11-G001 đến G017.
+Luyện đọc đoạn 1 theo chủ đề Sinh hoạt hằng ngày; chú ý mẫu JPD133-L11-G001 đến G017.
 
-## R020 – Tắm
+## R002 – Xem TV
+
+### Đoạn văn tiếng Nhật
+```text
+毎朝、七時に起きます。
+```
+
+### Romaji
+```text
+mai asa, shichiji ni okimasu.
+```
+
+### Dịch tiếng Việt
+Mỗi sáng tôi thức dậy lúc bảy giờ.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 2 theo chủ đề Sinh hoạt hằng ngày; chú ý mẫu JPD133-L11-G001 đến G017.
+
+## R003 – Xem TV
+
+### Đoạn văn tiếng Nhật
+```text
+朝ご飯を食べて、学校へ行きます。
+```
+
+### Romaji
+```text
+asagohan o tabete, gakkou e ikimasu.
+```
+
+### Dịch tiếng Việt
+Tôi ăn sáng rồi đi học.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 3 theo chủ đề Sinh hoạt hằng ngày; chú ý mẫu JPD133-L11-G001 đến G017.
+
+## R004 – Xem TV
+
+### Đoạn văn tiếng Nhật
+```text
+学校で日本語を勉強しています。
+```
+
+### Romaji
+```text
+gakkou de nihongo o benkyou shiteimasu.
+```
+
+### Dịch tiếng Việt
+Tôi đang học tiếng Nhật ở trường.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 4 theo chủ đề Sinh hoạt hằng ngày; chú ý mẫu JPD133-L11-G001 đến G017.
+
+## R005 – Xem TV
+
+### Đoạn văn tiếng Nhật
+```text
+休み時間に友達と話します。
+```
+
+### Romaji
+```text
+yasumi jikan ni tomodachi to hanashimasu.
+```
+
+### Dịch tiếng Việt
+Giờ nghỉ tôi nói chuyện với bạn.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 5 theo chủ đề Sinh hoạt hằng ngày; chú ý mẫu JPD133-L11-G001 đến G017.
+
+## R006 – Xem TV
+
+### Đoạn văn tiếng Nhật
+```text
+家に帰ってから、晩ご飯を食べます。
+```
+
+### Romaji
+```text
+ie ni kaette kara, bangohan o tabemasu.
+```
+
+### Dịch tiếng Việt
+Sau khi về nhà, tôi ăn tối.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 6 theo chủ đề Sinh hoạt hằng ngày; chú ý mẫu JPD133-L11-G001 đến G017.
+
+## R007 – Xem TV
+
+### Đoạn văn tiếng Nhật
+```text
+休みの日は本を読んだり、音楽を聞いたりします。
+```
+
+### Romaji
+```text
+yasumi no hi wa hon o yondari, ongaku o kiitari shimasu.
+```
+
+### Dịch tiếng Việt
+Ngày nghỉ tôi đọc sách và nghe nhạc.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 7 theo chủ đề Sinh hoạt hằng ngày; chú ý mẫu JPD133-L11-G001 đến G017.
+
+## R008 – Xem TV
+
+### Đoạn văn tiếng Nhật
+```text
+疲れたとき、少し休みます。
+```
+
+### Romaji
+```text
+tsukareta toki, sukoshi yasumimasu.
+```
+
+### Dịch tiếng Việt
+Khi mệt, tôi nghỉ một chút.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 8 theo chủ đề Sinh hoạt hằng ngày; chú ý mẫu JPD133-L11-G001 đến G017.
+
+## R009 – Xem TV
+
+### Đoạn văn tiếng Nhật
+```text
+子どものとき、よく公園で遊びました。
+```
+
+### Romaji
+```text
+kodomo no toki, yoku kouen de asobimashita.
+```
+
+### Dịch tiếng Việt
+Khi còn nhỏ, tôi thường chơi ở công viên.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 9 theo chủ đề Sinh hoạt hằng ngày; chú ý mẫu JPD133-L11-G001 đến G017.
+
+## R010 – Xem TV
+
+### Đoạn văn tiếng Nhật
+```text
+友達と「映画を見ない？」と話します。
+```
+
+### Romaji
+```text
+tomodachi to eiga o minai to hanashimasu.
+```
+
+### Dịch tiếng Việt
+Tôi nói với bạn: “Xem phim không?”.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 10 theo chủ đề Sinh hoạt hằng ngày; chú ý mẫu JPD133-L11-G001 đến G017.
+
+
+# JPD133 Reading Bài 11 – 私の生活
+
+> Chủ đề: Sinh hoạt hằng ngày
+> Mục tiêu: 25 đoạn đọc về thói quen, quá khứ và hội thoại thân mật.
+> Từ vựng bắt buộc: 毎日, 毎朝, 生活, 学校, 宿題, 休みます, 読みます, 勉強します, とき
+> Kanji bắt buộc: 生, 活, 毎, 日, 学, 校, 休, 読
+> Ngữ pháp bắt buộc: JPD133-L11-G001 đến G017
+
+## R001 – Tắm
 
 ### Đoạn văn tiếng Nhật
 ```text
@@ -1747,9 +17794,180 @@ yoru, shawaa o abimasu.
 Buổi tối tôi tắm vòi sen.
 
 ### Tóm tắt và ghi chú luyện tập
-Luyện đọc đoạn 20 theo chủ đề Sinh hoạt hằng ngày; chú ý mẫu JPD133-L11-G001 đến G017.
+Luyện đọc đoạn 1 theo chủ đề Sinh hoạt hằng ngày; chú ý mẫu JPD133-L11-G001 đến G017.
 
-## R021 – Đọc sách
+## R002 – Tắm
+
+### Đoạn văn tiếng Nhật
+```text
+毎朝、七時に起きます。
+```
+
+### Romaji
+```text
+mai asa, shichiji ni okimasu.
+```
+
+### Dịch tiếng Việt
+Mỗi sáng tôi thức dậy lúc bảy giờ.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 2 theo chủ đề Sinh hoạt hằng ngày; chú ý mẫu JPD133-L11-G001 đến G017.
+
+## R003 – Tắm
+
+### Đoạn văn tiếng Nhật
+```text
+朝ご飯を食べて、学校へ行きます。
+```
+
+### Romaji
+```text
+asagohan o tabete, gakkou e ikimasu.
+```
+
+### Dịch tiếng Việt
+Tôi ăn sáng rồi đi học.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 3 theo chủ đề Sinh hoạt hằng ngày; chú ý mẫu JPD133-L11-G001 đến G017.
+
+## R004 – Tắm
+
+### Đoạn văn tiếng Nhật
+```text
+学校で日本語を勉強しています。
+```
+
+### Romaji
+```text
+gakkou de nihongo o benkyou shiteimasu.
+```
+
+### Dịch tiếng Việt
+Tôi đang học tiếng Nhật ở trường.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 4 theo chủ đề Sinh hoạt hằng ngày; chú ý mẫu JPD133-L11-G001 đến G017.
+
+## R005 – Tắm
+
+### Đoạn văn tiếng Nhật
+```text
+休み時間に友達と話します。
+```
+
+### Romaji
+```text
+yasumi jikan ni tomodachi to hanashimasu.
+```
+
+### Dịch tiếng Việt
+Giờ nghỉ tôi nói chuyện với bạn.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 5 theo chủ đề Sinh hoạt hằng ngày; chú ý mẫu JPD133-L11-G001 đến G017.
+
+## R006 – Tắm
+
+### Đoạn văn tiếng Nhật
+```text
+家に帰ってから、晩ご飯を食べます。
+```
+
+### Romaji
+```text
+ie ni kaette kara, bangohan o tabemasu.
+```
+
+### Dịch tiếng Việt
+Sau khi về nhà, tôi ăn tối.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 6 theo chủ đề Sinh hoạt hằng ngày; chú ý mẫu JPD133-L11-G001 đến G017.
+
+## R007 – Tắm
+
+### Đoạn văn tiếng Nhật
+```text
+休みの日は本を読んだり、音楽を聞いたりします。
+```
+
+### Romaji
+```text
+yasumi no hi wa hon o yondari, ongaku o kiitari shimasu.
+```
+
+### Dịch tiếng Việt
+Ngày nghỉ tôi đọc sách và nghe nhạc.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 7 theo chủ đề Sinh hoạt hằng ngày; chú ý mẫu JPD133-L11-G001 đến G017.
+
+## R008 – Tắm
+
+### Đoạn văn tiếng Nhật
+```text
+疲れたとき、少し休みます。
+```
+
+### Romaji
+```text
+tsukareta toki, sukoshi yasumimasu.
+```
+
+### Dịch tiếng Việt
+Khi mệt, tôi nghỉ một chút.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 8 theo chủ đề Sinh hoạt hằng ngày; chú ý mẫu JPD133-L11-G001 đến G017.
+
+## R009 – Tắm
+
+### Đoạn văn tiếng Nhật
+```text
+子どものとき、よく公園で遊びました。
+```
+
+### Romaji
+```text
+kodomo no toki, yoku kouen de asobimashita.
+```
+
+### Dịch tiếng Việt
+Khi còn nhỏ, tôi thường chơi ở công viên.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 9 theo chủ đề Sinh hoạt hằng ngày; chú ý mẫu JPD133-L11-G001 đến G017.
+
+## R010 – Tắm
+
+### Đoạn văn tiếng Nhật
+```text
+友達と「映画を見ない？」と話します。
+```
+
+### Romaji
+```text
+tomodachi to eiga o minai to hanashimasu.
+```
+
+### Dịch tiếng Việt
+Tôi nói với bạn: “Xem phim không?”.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 10 theo chủ đề Sinh hoạt hằng ngày; chú ý mẫu JPD133-L11-G001 đến G017.
+
+
+# JPD133 Reading Bài 11 – 私の生活
+
+> Chủ đề: Sinh hoạt hằng ngày
+> Mục tiêu: 25 đoạn đọc về thói quen, quá khứ và hội thoại thân mật.
+> Từ vựng bắt buộc: 毎日, 毎朝, 生活, 学校, 宿題, 休みます, 読みます, 勉強します, とき
+> Kanji bắt buộc: 生, 活, 毎, 日, 学, 校, 休, 読
+> Ngữ pháp bắt buộc: JPD133-L11-G001 đến G017
+
+## R001 – Đọc sách
 
 ### Đoạn văn tiếng Nhật
 ```text
@@ -1765,9 +17983,180 @@ neru toki, hon o yomimasu.
 Khi đi ngủ tôi đọc sách.
 
 ### Tóm tắt và ghi chú luyện tập
-Luyện đọc đoạn 21 theo chủ đề Sinh hoạt hằng ngày; chú ý mẫu JPD133-L11-G001 đến G017.
+Luyện đọc đoạn 1 theo chủ đề Sinh hoạt hằng ngày; chú ý mẫu JPD133-L11-G001 đến G017.
 
-## R022 – Học tiếng Nhật
+## R002 – Đọc sách
+
+### Đoạn văn tiếng Nhật
+```text
+毎朝、七時に起きます。
+```
+
+### Romaji
+```text
+mai asa, shichiji ni okimasu.
+```
+
+### Dịch tiếng Việt
+Mỗi sáng tôi thức dậy lúc bảy giờ.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 2 theo chủ đề Sinh hoạt hằng ngày; chú ý mẫu JPD133-L11-G001 đến G017.
+
+## R003 – Đọc sách
+
+### Đoạn văn tiếng Nhật
+```text
+朝ご飯を食べて、学校へ行きます。
+```
+
+### Romaji
+```text
+asagohan o tabete, gakkou e ikimasu.
+```
+
+### Dịch tiếng Việt
+Tôi ăn sáng rồi đi học.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 3 theo chủ đề Sinh hoạt hằng ngày; chú ý mẫu JPD133-L11-G001 đến G017.
+
+## R004 – Đọc sách
+
+### Đoạn văn tiếng Nhật
+```text
+学校で日本語を勉強しています。
+```
+
+### Romaji
+```text
+gakkou de nihongo o benkyou shiteimasu.
+```
+
+### Dịch tiếng Việt
+Tôi đang học tiếng Nhật ở trường.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 4 theo chủ đề Sinh hoạt hằng ngày; chú ý mẫu JPD133-L11-G001 đến G017.
+
+## R005 – Đọc sách
+
+### Đoạn văn tiếng Nhật
+```text
+休み時間に友達と話します。
+```
+
+### Romaji
+```text
+yasumi jikan ni tomodachi to hanashimasu.
+```
+
+### Dịch tiếng Việt
+Giờ nghỉ tôi nói chuyện với bạn.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 5 theo chủ đề Sinh hoạt hằng ngày; chú ý mẫu JPD133-L11-G001 đến G017.
+
+## R006 – Đọc sách
+
+### Đoạn văn tiếng Nhật
+```text
+家に帰ってから、晩ご飯を食べます。
+```
+
+### Romaji
+```text
+ie ni kaette kara, bangohan o tabemasu.
+```
+
+### Dịch tiếng Việt
+Sau khi về nhà, tôi ăn tối.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 6 theo chủ đề Sinh hoạt hằng ngày; chú ý mẫu JPD133-L11-G001 đến G017.
+
+## R007 – Đọc sách
+
+### Đoạn văn tiếng Nhật
+```text
+休みの日は本を読んだり、音楽を聞いたりします。
+```
+
+### Romaji
+```text
+yasumi no hi wa hon o yondari, ongaku o kiitari shimasu.
+```
+
+### Dịch tiếng Việt
+Ngày nghỉ tôi đọc sách và nghe nhạc.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 7 theo chủ đề Sinh hoạt hằng ngày; chú ý mẫu JPD133-L11-G001 đến G017.
+
+## R008 – Đọc sách
+
+### Đoạn văn tiếng Nhật
+```text
+疲れたとき、少し休みます。
+```
+
+### Romaji
+```text
+tsukareta toki, sukoshi yasumimasu.
+```
+
+### Dịch tiếng Việt
+Khi mệt, tôi nghỉ một chút.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 8 theo chủ đề Sinh hoạt hằng ngày; chú ý mẫu JPD133-L11-G001 đến G017.
+
+## R009 – Đọc sách
+
+### Đoạn văn tiếng Nhật
+```text
+子どものとき、よく公園で遊びました。
+```
+
+### Romaji
+```text
+kodomo no toki, yoku kouen de asobimashita.
+```
+
+### Dịch tiếng Việt
+Khi còn nhỏ, tôi thường chơi ở công viên.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 9 theo chủ đề Sinh hoạt hằng ngày; chú ý mẫu JPD133-L11-G001 đến G017.
+
+## R010 – Đọc sách
+
+### Đoạn văn tiếng Nhật
+```text
+友達と「映画を見ない？」と話します。
+```
+
+### Romaji
+```text
+tomodachi to eiga o minai to hanashimasu.
+```
+
+### Dịch tiếng Việt
+Tôi nói với bạn: “Xem phim không?”.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 10 theo chủ đề Sinh hoạt hằng ngày; chú ý mẫu JPD133-L11-G001 đến G017.
+
+
+# JPD133 Reading Bài 11 – 私の生活
+
+> Chủ đề: Sinh hoạt hằng ngày
+> Mục tiêu: 25 đoạn đọc về thói quen, quá khứ và hội thoại thân mật.
+> Từ vựng bắt buộc: 毎日, 毎朝, 生活, 学校, 宿題, 休みます, 読みます, 勉強します, とき
+> Kanji bắt buộc: 生, 活, 毎, 日, 学, 校, 休, 読
+> Ngữ pháp bắt buộc: JPD133-L11-G001 đến G017
+
+## R001 – Học tiếng Nhật
 
 ### Đoạn văn tiếng Nhật
 ```text
@@ -1783,9 +18172,180 @@ maiban, nihongo o benkyou shiteimasu.
 Tối nào tôi cũng học tiếng Nhật.
 
 ### Tóm tắt và ghi chú luyện tập
-Luyện đọc đoạn 22 theo chủ đề Sinh hoạt hằng ngày; chú ý mẫu JPD133-L11-G001 đến G017.
+Luyện đọc đoạn 1 theo chủ đề Sinh hoạt hằng ngày; chú ý mẫu JPD133-L11-G001 đến G017.
 
-## R023 – Chuẩn bị bài
+## R002 – Học tiếng Nhật
+
+### Đoạn văn tiếng Nhật
+```text
+毎朝、七時に起きます。
+```
+
+### Romaji
+```text
+mai asa, shichiji ni okimasu.
+```
+
+### Dịch tiếng Việt
+Mỗi sáng tôi thức dậy lúc bảy giờ.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 2 theo chủ đề Sinh hoạt hằng ngày; chú ý mẫu JPD133-L11-G001 đến G017.
+
+## R003 – Học tiếng Nhật
+
+### Đoạn văn tiếng Nhật
+```text
+朝ご飯を食べて、学校へ行きます。
+```
+
+### Romaji
+```text
+asagohan o tabete, gakkou e ikimasu.
+```
+
+### Dịch tiếng Việt
+Tôi ăn sáng rồi đi học.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 3 theo chủ đề Sinh hoạt hằng ngày; chú ý mẫu JPD133-L11-G001 đến G017.
+
+## R004 – Học tiếng Nhật
+
+### Đoạn văn tiếng Nhật
+```text
+学校で日本語を勉強しています。
+```
+
+### Romaji
+```text
+gakkou de nihongo o benkyou shiteimasu.
+```
+
+### Dịch tiếng Việt
+Tôi đang học tiếng Nhật ở trường.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 4 theo chủ đề Sinh hoạt hằng ngày; chú ý mẫu JPD133-L11-G001 đến G017.
+
+## R005 – Học tiếng Nhật
+
+### Đoạn văn tiếng Nhật
+```text
+休み時間に友達と話します。
+```
+
+### Romaji
+```text
+yasumi jikan ni tomodachi to hanashimasu.
+```
+
+### Dịch tiếng Việt
+Giờ nghỉ tôi nói chuyện với bạn.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 5 theo chủ đề Sinh hoạt hằng ngày; chú ý mẫu JPD133-L11-G001 đến G017.
+
+## R006 – Học tiếng Nhật
+
+### Đoạn văn tiếng Nhật
+```text
+家に帰ってから、晩ご飯を食べます。
+```
+
+### Romaji
+```text
+ie ni kaette kara, bangohan o tabemasu.
+```
+
+### Dịch tiếng Việt
+Sau khi về nhà, tôi ăn tối.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 6 theo chủ đề Sinh hoạt hằng ngày; chú ý mẫu JPD133-L11-G001 đến G017.
+
+## R007 – Học tiếng Nhật
+
+### Đoạn văn tiếng Nhật
+```text
+休みの日は本を読んだり、音楽を聞いたりします。
+```
+
+### Romaji
+```text
+yasumi no hi wa hon o yondari, ongaku o kiitari shimasu.
+```
+
+### Dịch tiếng Việt
+Ngày nghỉ tôi đọc sách và nghe nhạc.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 7 theo chủ đề Sinh hoạt hằng ngày; chú ý mẫu JPD133-L11-G001 đến G017.
+
+## R008 – Học tiếng Nhật
+
+### Đoạn văn tiếng Nhật
+```text
+疲れたとき、少し休みます。
+```
+
+### Romaji
+```text
+tsukareta toki, sukoshi yasumimasu.
+```
+
+### Dịch tiếng Việt
+Khi mệt, tôi nghỉ một chút.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 8 theo chủ đề Sinh hoạt hằng ngày; chú ý mẫu JPD133-L11-G001 đến G017.
+
+## R009 – Học tiếng Nhật
+
+### Đoạn văn tiếng Nhật
+```text
+子どものとき、よく公園で遊びました。
+```
+
+### Romaji
+```text
+kodomo no toki, yoku kouen de asobimashita.
+```
+
+### Dịch tiếng Việt
+Khi còn nhỏ, tôi thường chơi ở công viên.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 9 theo chủ đề Sinh hoạt hằng ngày; chú ý mẫu JPD133-L11-G001 đến G017.
+
+## R010 – Học tiếng Nhật
+
+### Đoạn văn tiếng Nhật
+```text
+友達と「映画を見ない？」と話します。
+```
+
+### Romaji
+```text
+tomodachi to eiga o minai to hanashimasu.
+```
+
+### Dịch tiếng Việt
+Tôi nói với bạn: “Xem phim không?”.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 10 theo chủ đề Sinh hoạt hằng ngày; chú ý mẫu JPD133-L11-G001 đến G017.
+
+
+# JPD133 Reading Bài 11 – 私の生活
+
+> Chủ đề: Sinh hoạt hằng ngày
+> Mục tiêu: 25 đoạn đọc về thói quen, quá khứ và hội thoại thân mật.
+> Từ vựng bắt buộc: 毎日, 毎朝, 生活, 学校, 宿題, 休みます, 読みます, 勉強します, とき
+> Kanji bắt buộc: 生, 活, 毎, 日, 学, 校, 休, 読
+> Ngữ pháp bắt buộc: JPD133-L11-G001 đến G017
+
+## R001 – Chuẩn bị bài
 
 ### Đoạn văn tiếng Nhật
 ```text
@@ -1801,9 +18361,180 @@ gakkou e iku toki, shukudai o junbi shimasu.
 Khi đi học tôi chuẩn bị bài tập.
 
 ### Tóm tắt và ghi chú luyện tập
-Luyện đọc đoạn 23 theo chủ đề Sinh hoạt hằng ngày; chú ý mẫu JPD133-L11-G001 đến G017.
+Luyện đọc đoạn 1 theo chủ đề Sinh hoạt hằng ngày; chú ý mẫu JPD133-L11-G001 đến G017.
 
-## R024 – Đi ngủ
+## R002 – Chuẩn bị bài
+
+### Đoạn văn tiếng Nhật
+```text
+毎朝、七時に起きます。
+```
+
+### Romaji
+```text
+mai asa, shichiji ni okimasu.
+```
+
+### Dịch tiếng Việt
+Mỗi sáng tôi thức dậy lúc bảy giờ.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 2 theo chủ đề Sinh hoạt hằng ngày; chú ý mẫu JPD133-L11-G001 đến G017.
+
+## R003 – Chuẩn bị bài
+
+### Đoạn văn tiếng Nhật
+```text
+朝ご飯を食べて、学校へ行きます。
+```
+
+### Romaji
+```text
+asagohan o tabete, gakkou e ikimasu.
+```
+
+### Dịch tiếng Việt
+Tôi ăn sáng rồi đi học.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 3 theo chủ đề Sinh hoạt hằng ngày; chú ý mẫu JPD133-L11-G001 đến G017.
+
+## R004 – Chuẩn bị bài
+
+### Đoạn văn tiếng Nhật
+```text
+学校で日本語を勉強しています。
+```
+
+### Romaji
+```text
+gakkou de nihongo o benkyou shiteimasu.
+```
+
+### Dịch tiếng Việt
+Tôi đang học tiếng Nhật ở trường.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 4 theo chủ đề Sinh hoạt hằng ngày; chú ý mẫu JPD133-L11-G001 đến G017.
+
+## R005 – Chuẩn bị bài
+
+### Đoạn văn tiếng Nhật
+```text
+休み時間に友達と話します。
+```
+
+### Romaji
+```text
+yasumi jikan ni tomodachi to hanashimasu.
+```
+
+### Dịch tiếng Việt
+Giờ nghỉ tôi nói chuyện với bạn.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 5 theo chủ đề Sinh hoạt hằng ngày; chú ý mẫu JPD133-L11-G001 đến G017.
+
+## R006 – Chuẩn bị bài
+
+### Đoạn văn tiếng Nhật
+```text
+家に帰ってから、晩ご飯を食べます。
+```
+
+### Romaji
+```text
+ie ni kaette kara, bangohan o tabemasu.
+```
+
+### Dịch tiếng Việt
+Sau khi về nhà, tôi ăn tối.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 6 theo chủ đề Sinh hoạt hằng ngày; chú ý mẫu JPD133-L11-G001 đến G017.
+
+## R007 – Chuẩn bị bài
+
+### Đoạn văn tiếng Nhật
+```text
+休みの日は本を読んだり、音楽を聞いたりします。
+```
+
+### Romaji
+```text
+yasumi no hi wa hon o yondari, ongaku o kiitari shimasu.
+```
+
+### Dịch tiếng Việt
+Ngày nghỉ tôi đọc sách và nghe nhạc.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 7 theo chủ đề Sinh hoạt hằng ngày; chú ý mẫu JPD133-L11-G001 đến G017.
+
+## R008 – Chuẩn bị bài
+
+### Đoạn văn tiếng Nhật
+```text
+疲れたとき、少し休みます。
+```
+
+### Romaji
+```text
+tsukareta toki, sukoshi yasumimasu.
+```
+
+### Dịch tiếng Việt
+Khi mệt, tôi nghỉ một chút.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 8 theo chủ đề Sinh hoạt hằng ngày; chú ý mẫu JPD133-L11-G001 đến G017.
+
+## R009 – Chuẩn bị bài
+
+### Đoạn văn tiếng Nhật
+```text
+子どものとき、よく公園で遊びました。
+```
+
+### Romaji
+```text
+kodomo no toki, yoku kouen de asobimashita.
+```
+
+### Dịch tiếng Việt
+Khi còn nhỏ, tôi thường chơi ở công viên.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 9 theo chủ đề Sinh hoạt hằng ngày; chú ý mẫu JPD133-L11-G001 đến G017.
+
+## R010 – Chuẩn bị bài
+
+### Đoạn văn tiếng Nhật
+```text
+友達と「映画を見ない？」と話します。
+```
+
+### Romaji
+```text
+tomodachi to eiga o minai to hanashimasu.
+```
+
+### Dịch tiếng Việt
+Tôi nói với bạn: “Xem phim không?”.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 10 theo chủ đề Sinh hoạt hằng ngày; chú ý mẫu JPD133-L11-G001 đến G017.
+
+
+# JPD133 Reading Bài 11 – 私の生活
+
+> Chủ đề: Sinh hoạt hằng ngày
+> Mục tiêu: 25 đoạn đọc về thói quen, quá khứ và hội thoại thân mật.
+> Từ vựng bắt buộc: 毎日, 毎朝, 生活, 学校, 宿題, 休みます, 読みます, 勉強します, とき
+> Kanji bắt buộc: 生, 活, 毎, 日, 学, 校, 休, 読
+> Ngữ pháp bắt buộc: JPD133-L11-G001 đến G017
+
+## R001 – Đi ngủ
 
 ### Đoạn văn tiếng Nhật
 ```text
@@ -1819,9 +18550,180 @@ juuichi ji ni nemasu.
 Tôi đi ngủ lúc mười một giờ.
 
 ### Tóm tắt và ghi chú luyện tập
-Luyện đọc đoạn 24 theo chủ đề Sinh hoạt hằng ngày; chú ý mẫu JPD133-L11-G001 đến G017.
+Luyện đọc đoạn 1 theo chủ đề Sinh hoạt hằng ngày; chú ý mẫu JPD133-L11-G001 đến G017.
 
-## R025 – Một ngày bận rộn
+## R002 – Đi ngủ
+
+### Đoạn văn tiếng Nhật
+```text
+毎朝、七時に起きます。
+```
+
+### Romaji
+```text
+mai asa, shichiji ni okimasu.
+```
+
+### Dịch tiếng Việt
+Mỗi sáng tôi thức dậy lúc bảy giờ.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 2 theo chủ đề Sinh hoạt hằng ngày; chú ý mẫu JPD133-L11-G001 đến G017.
+
+## R003 – Đi ngủ
+
+### Đoạn văn tiếng Nhật
+```text
+朝ご飯を食べて、学校へ行きます。
+```
+
+### Romaji
+```text
+asagohan o tabete, gakkou e ikimasu.
+```
+
+### Dịch tiếng Việt
+Tôi ăn sáng rồi đi học.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 3 theo chủ đề Sinh hoạt hằng ngày; chú ý mẫu JPD133-L11-G001 đến G017.
+
+## R004 – Đi ngủ
+
+### Đoạn văn tiếng Nhật
+```text
+学校で日本語を勉強しています。
+```
+
+### Romaji
+```text
+gakkou de nihongo o benkyou shiteimasu.
+```
+
+### Dịch tiếng Việt
+Tôi đang học tiếng Nhật ở trường.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 4 theo chủ đề Sinh hoạt hằng ngày; chú ý mẫu JPD133-L11-G001 đến G017.
+
+## R005 – Đi ngủ
+
+### Đoạn văn tiếng Nhật
+```text
+休み時間に友達と話します。
+```
+
+### Romaji
+```text
+yasumi jikan ni tomodachi to hanashimasu.
+```
+
+### Dịch tiếng Việt
+Giờ nghỉ tôi nói chuyện với bạn.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 5 theo chủ đề Sinh hoạt hằng ngày; chú ý mẫu JPD133-L11-G001 đến G017.
+
+## R006 – Đi ngủ
+
+### Đoạn văn tiếng Nhật
+```text
+家に帰ってから、晩ご飯を食べます。
+```
+
+### Romaji
+```text
+ie ni kaette kara, bangohan o tabemasu.
+```
+
+### Dịch tiếng Việt
+Sau khi về nhà, tôi ăn tối.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 6 theo chủ đề Sinh hoạt hằng ngày; chú ý mẫu JPD133-L11-G001 đến G017.
+
+## R007 – Đi ngủ
+
+### Đoạn văn tiếng Nhật
+```text
+休みの日は本を読んだり、音楽を聞いたりします。
+```
+
+### Romaji
+```text
+yasumi no hi wa hon o yondari, ongaku o kiitari shimasu.
+```
+
+### Dịch tiếng Việt
+Ngày nghỉ tôi đọc sách và nghe nhạc.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 7 theo chủ đề Sinh hoạt hằng ngày; chú ý mẫu JPD133-L11-G001 đến G017.
+
+## R008 – Đi ngủ
+
+### Đoạn văn tiếng Nhật
+```text
+疲れたとき、少し休みます。
+```
+
+### Romaji
+```text
+tsukareta toki, sukoshi yasumimasu.
+```
+
+### Dịch tiếng Việt
+Khi mệt, tôi nghỉ một chút.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 8 theo chủ đề Sinh hoạt hằng ngày; chú ý mẫu JPD133-L11-G001 đến G017.
+
+## R009 – Đi ngủ
+
+### Đoạn văn tiếng Nhật
+```text
+子どものとき、よく公園で遊びました。
+```
+
+### Romaji
+```text
+kodomo no toki, yoku kouen de asobimashita.
+```
+
+### Dịch tiếng Việt
+Khi còn nhỏ, tôi thường chơi ở công viên.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 9 theo chủ đề Sinh hoạt hằng ngày; chú ý mẫu JPD133-L11-G001 đến G017.
+
+## R010 – Đi ngủ
+
+### Đoạn văn tiếng Nhật
+```text
+友達と「映画を見ない？」と話します。
+```
+
+### Romaji
+```text
+tomodachi to eiga o minai to hanashimasu.
+```
+
+### Dịch tiếng Việt
+Tôi nói với bạn: “Xem phim không?”.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 10 theo chủ đề Sinh hoạt hằng ngày; chú ý mẫu JPD133-L11-G001 đến G017.
+
+
+# JPD133 Reading Bài 11 – 私の生活
+
+> Chủ đề: Sinh hoạt hằng ngày
+> Mục tiêu: 25 đoạn đọc về thói quen, quá khứ và hội thoại thân mật.
+> Từ vựng bắt buộc: 毎日, 毎朝, 生活, 学校, 宿題, 休みます, 読みます, 勉強します, とき
+> Kanji bắt buộc: 生, 活, 毎, 日, 学, 校, 休, 読
+> Ngữ pháp bắt buộc: JPD133-L11-G001 đến G017
+
+## R001 – Một ngày bận rộn
 
 ### Đoạn văn tiếng Nhật
 ```text
@@ -1837,5 +18739,167 @@ isogashii desu ga, mainichi tanoshii desu.
 Tuy bận nhưng mỗi ngày đều vui.
 
 ### Tóm tắt và ghi chú luyện tập
-Luyện đọc đoạn 25 theo chủ đề Sinh hoạt hằng ngày; chú ý mẫu JPD133-L11-G001 đến G017.
+Luyện đọc đoạn 1 theo chủ đề Sinh hoạt hằng ngày; chú ý mẫu JPD133-L11-G001 đến G017.
+
+## R002 – Một ngày bận rộn
+
+### Đoạn văn tiếng Nhật
+```text
+毎朝、七時に起きます。
+```
+
+### Romaji
+```text
+mai asa, shichiji ni okimasu.
+```
+
+### Dịch tiếng Việt
+Mỗi sáng tôi thức dậy lúc bảy giờ.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 2 theo chủ đề Sinh hoạt hằng ngày; chú ý mẫu JPD133-L11-G001 đến G017.
+
+## R003 – Một ngày bận rộn
+
+### Đoạn văn tiếng Nhật
+```text
+朝ご飯を食べて、学校へ行きます。
+```
+
+### Romaji
+```text
+asagohan o tabete, gakkou e ikimasu.
+```
+
+### Dịch tiếng Việt
+Tôi ăn sáng rồi đi học.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 3 theo chủ đề Sinh hoạt hằng ngày; chú ý mẫu JPD133-L11-G001 đến G017.
+
+## R004 – Một ngày bận rộn
+
+### Đoạn văn tiếng Nhật
+```text
+学校で日本語を勉強しています。
+```
+
+### Romaji
+```text
+gakkou de nihongo o benkyou shiteimasu.
+```
+
+### Dịch tiếng Việt
+Tôi đang học tiếng Nhật ở trường.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 4 theo chủ đề Sinh hoạt hằng ngày; chú ý mẫu JPD133-L11-G001 đến G017.
+
+## R005 – Một ngày bận rộn
+
+### Đoạn văn tiếng Nhật
+```text
+休み時間に友達と話します。
+```
+
+### Romaji
+```text
+yasumi jikan ni tomodachi to hanashimasu.
+```
+
+### Dịch tiếng Việt
+Giờ nghỉ tôi nói chuyện với bạn.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 5 theo chủ đề Sinh hoạt hằng ngày; chú ý mẫu JPD133-L11-G001 đến G017.
+
+## R006 – Một ngày bận rộn
+
+### Đoạn văn tiếng Nhật
+```text
+家に帰ってから、晩ご飯を食べます。
+```
+
+### Romaji
+```text
+ie ni kaette kara, bangohan o tabemasu.
+```
+
+### Dịch tiếng Việt
+Sau khi về nhà, tôi ăn tối.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 6 theo chủ đề Sinh hoạt hằng ngày; chú ý mẫu JPD133-L11-G001 đến G017.
+
+## R007 – Một ngày bận rộn
+
+### Đoạn văn tiếng Nhật
+```text
+休みの日は本を読んだり、音楽を聞いたりします。
+```
+
+### Romaji
+```text
+yasumi no hi wa hon o yondari, ongaku o kiitari shimasu.
+```
+
+### Dịch tiếng Việt
+Ngày nghỉ tôi đọc sách và nghe nhạc.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 7 theo chủ đề Sinh hoạt hằng ngày; chú ý mẫu JPD133-L11-G001 đến G017.
+
+## R008 – Một ngày bận rộn
+
+### Đoạn văn tiếng Nhật
+```text
+疲れたとき、少し休みます。
+```
+
+### Romaji
+```text
+tsukareta toki, sukoshi yasumimasu.
+```
+
+### Dịch tiếng Việt
+Khi mệt, tôi nghỉ một chút.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 8 theo chủ đề Sinh hoạt hằng ngày; chú ý mẫu JPD133-L11-G001 đến G017.
+
+## R009 – Một ngày bận rộn
+
+### Đoạn văn tiếng Nhật
+```text
+子どものとき、よく公園で遊びました。
+```
+
+### Romaji
+```text
+kodomo no toki, yoku kouen de asobimashita.
+```
+
+### Dịch tiếng Việt
+Khi còn nhỏ, tôi thường chơi ở công viên.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 9 theo chủ đề Sinh hoạt hằng ngày; chú ý mẫu JPD133-L11-G001 đến G017.
+
+## R010 – Một ngày bận rộn
+
+### Đoạn văn tiếng Nhật
+```text
+友達と「映画を見ない？」と話します。
+```
+
+### Romaji
+```text
+tomodachi to eiga o minai to hanashimasu.
+```
+
+### Dịch tiếng Việt
+Tôi nói với bạn: “Xem phim không?”.
+
+### Tóm tắt và ghi chú luyện tập
+Luyện đọc đoạn 10 theo chủ đề Sinh hoạt hằng ngày; chú ý mẫu JPD133-L11-G001 đến G017.
 

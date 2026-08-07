@@ -1,0 +1,116 @@
+{
+  "lesson": {
+    "id": "88888888-1133-0000-0000-000000001214",
+    "courseCode": "jpd133",
+    "lessonNumber": 1114,
+    "title": "R014 - Dọn phòng",
+    "description": "Sinh hoạt hằng ngày - Sinh hoạt hằng ngày: Dọn phòng",
+    "accessTier": "premium",
+    "packageCode": "speaking_jpd133",
+    "isLocked": true,
+    "sentenceCount": 10,
+    "lessonType": "reading"
+  },
+  "sentences": [
+    {
+      "id": "88888888-1133-0000-0000-000001114001",
+      "lessonId": "88888888-1133-0000-0000-000000001214",
+      "sentenceNumber": 1,
+      "plainText": "部屋を掃除して、窓を開けます。",
+      "romaji": "heya o souji shite, mado o akemasu.",
+      "contentHtml": "部屋を掃除して、窓を開けます。",
+      "meaningVi": "Tôi dọn phòng rồi mở cửa sổ.",
+      "orderIndex": 1
+    },
+    {
+      "id": "88888888-1133-0000-0000-000001114002",
+      "lessonId": "88888888-1133-0000-0000-000000001214",
+      "sentenceNumber": 2,
+      "plainText": "毎朝、七時に起きます。",
+      "romaji": "mai asa, shichiji ni okimasu.",
+      "contentHtml": "毎朝、七時に起きます。",
+      "meaningVi": "Mỗi sáng tôi thức dậy lúc bảy giờ.",
+      "orderIndex": 2
+    },
+    {
+      "id": "88888888-1133-0000-0000-000001114003",
+      "lessonId": "88888888-1133-0000-0000-000000001214",
+      "sentenceNumber": 3,
+      "plainText": "朝ご飯を食べて、学校へ行きます。",
+      "romaji": "asagohan o tabete, gakkou e ikimasu.",
+      "contentHtml": "朝ご飯を食べて、学校へ行きます。",
+      "meaningVi": "Tôi ăn sáng rồi đi học.",
+      "orderIndex": 3
+    },
+    {
+      "id": "88888888-1133-0000-0000-000001114004",
+      "lessonId": "88888888-1133-0000-0000-000000001214",
+      "sentenceNumber": 4,
+      "plainText": "学校で日本語を勉強しています。",
+      "romaji": "gakkou de nihongo o benkyou shiteimasu.",
+      "contentHtml": "学校で日本語を勉強しています。",
+      "meaningVi": "Tôi đang học tiếng Nhật ở trường.",
+      "orderIndex": 4
+    },
+    {
+      "id": "88888888-1133-0000-0000-000001114005",
+      "lessonId": "88888888-1133-0000-0000-000000001214",
+      "sentenceNumber": 5,
+      "plainText": "休み時間に友達と話します。",
+      "romaji": "yasumi jikan ni tomodachi to hanashimasu.",
+      "contentHtml": "休み時間に友達と話します。",
+      "meaningVi": "Giờ nghỉ tôi nói chuyện với bạn.",
+      "orderIndex": 5
+    },
+    {
+      "id": "88888888-1133-0000-0000-000001114006",
+      "lessonId": "88888888-1133-0000-0000-000000001214",
+      "sentenceNumber": 6,
+      "plainText": "家に帰ってから、晩ご飯を食べます。",
+      "romaji": "ie ni kaette kara, bangohan o tabemasu.",
+      "contentHtml": "家に帰ってから、晩ご飯を食べます。",
+      "meaningVi": "Sau khi về nhà, tôi ăn tối.",
+      "orderIndex": 6
+    },
+    {
+      "id": "88888888-1133-0000-0000-000001114007",
+      "lessonId": "88888888-1133-0000-0000-000000001214",
+      "sentenceNumber": 7,
+      "plainText": "休みの日は本を読んだり、音楽を聞いたりします。",
+      "romaji": "yasumi no hi wa hon o yondari, ongaku o kiitari shimasu.",
+      "contentHtml": "休みの日は本を読んだり、音楽を聞いたりします。",
+      "meaningVi": "Ngày nghỉ tôi đọc sách và nghe nhạc.",
+      "orderIndex": 7
+    },
+    {
+      "id": "88888888-1133-0000-0000-000001114008",
+      "lessonId": "88888888-1133-0000-0000-000000001214",
+      "sentenceNumber": 8,
+      "plainText": "疲れたとき、少し休みます。",
+      "romaji": "tsukareta toki, sukoshi yasumimasu.",
+      "contentHtml": "疲れたとき、少し休みます。",
+      "meaningVi": "Khi mệt, tôi nghỉ một chút.",
+      "orderIndex": 8
+    },
+    {
+      "id": "88888888-1133-0000-0000-000001114009",
+      "lessonId": "88888888-1133-0000-0000-000000001214",
+      "sentenceNumber": 9,
+      "plainText": "子どものとき、よく公園で遊びました。",
+      "romaji": "kodomo no toki, yoku kouen de asobimashita.",
+      "contentHtml": "子どものとき、よく公園で遊びました。",
+      "meaningVi": "Khi còn nhỏ, tôi thường chơi ở công viên.",
+      "orderIndex": 9
+    },
+    {
+      "id": "88888888-1133-0000-0000-000001114010",
+      "lessonId": "88888888-1133-0000-0000-000000001214",
+      "sentenceNumber": 10,
+      "plainText": "友達と「映画を見ない？」と話します。",
+      "romaji": "tomodachi to eiga o minai to hanashimasu.",
+      "contentHtml": "友達と「映画を見ない？」と話します。",
+      "meaningVi": "Tôi nói với bạn: “Xem phim không?”.",
+      "orderIndex": 10
+    }
+  ]
+}

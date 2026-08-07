@@ -24,6 +24,15 @@ Không tạo `reading/*.json` riêng khi chưa bổ sung module mới. Với JPD
 | `lessonType` | `reading` cho bài đọc; `qa` cho bài vấn đáp |
 | `level` | `N5` nếu dữ liệu được đưa vào Exam Practice |
 
+Reading Speaking JPD133 được tổ chức thành **100 lesson đọc độc lập**:
+
+- Bài 8: `R001`–`R025`, lesson number `801`–`825`.
+- Bài 9: `R001`–`R025`, lesson number `901`–`925`.
+- Bài 10: `R001`–`R025`, lesson number `1001`–`1025`.
+- Bài 11: `R001`–`R025`, lesson number `1101`–`1125`.
+
+Mỗi lesson đọc là một chủ đề đời sống và có **10–15 câu** trong `sentences[]`. Không gộp 25 chủ đề thành một lesson lớn.
+
 Mã nội dung khuyến nghị:
 
 - Bài đọc: `JPD133-L08-R001`.

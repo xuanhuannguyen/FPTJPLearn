@@ -1,0 +1,116 @@
+{
+  "lesson": {
+    "id": "88888888-1133-0000-0000-000000000907",
+    "courseCode": "jpd133",
+    "lessonNumber": 807,
+    "title": "R007 - Con chó của tôi",
+    "description": "Gia đình - Gia đình: Con chó của tôi",
+    "accessTier": "premium",
+    "packageCode": "speaking_jpd133",
+    "isLocked": true,
+    "sentenceCount": 10,
+    "lessonType": "reading"
+  },
+  "sentences": [
+    {
+      "id": "88888888-1133-0000-0000-000000807001",
+      "lessonId": "88888888-1133-0000-0000-000000000907",
+      "sentenceNumber": 1,
+      "plainText": "犬が一匹います。",
+      "romaji": "inu ga ippiki imasu.",
+      "contentHtml": "犬が一匹います。",
+      "meaningVi": "Tôi có một con chó.",
+      "orderIndex": 1
+    },
+    {
+      "id": "88888888-1133-0000-0000-000000807002",
+      "lessonId": "88888888-1133-0000-0000-000000000907",
+      "sentenceNumber": 2,
+      "plainText": "家の近くに公園があります。",
+      "romaji": "ie no chikaku ni kouen ga arimasu.",
+      "contentHtml": "家の近くに公園があります。",
+      "meaningVi": "Gần nhà có công viên.",
+      "orderIndex": 2
+    },
+    {
+      "id": "88888888-1133-0000-0000-000000807003",
+      "lessonId": "88888888-1133-0000-0000-000000000907",
+      "sentenceNumber": 3,
+      "plainText": "家族はみんな元気です。",
+      "romaji": "kazoku wa minna genki desu.",
+      "contentHtml": "家族はみんな元気です。",
+      "meaningVi": "Mọi người trong gia đình đều khỏe.",
+      "orderIndex": 3
+    },
+    {
+      "id": "88888888-1133-0000-0000-000000807004",
+      "lessonId": "88888888-1133-0000-0000-000000000907",
+      "sentenceNumber": 4,
+      "plainText": "父は会社で働いています。",
+      "romaji": "chichi wa kaisha de hataraiteimasu.",
+      "contentHtml": "父は会社で働いています。",
+      "meaningVi": "Bố làm việc ở công ty.",
+      "orderIndex": 4
+    },
+    {
+      "id": "88888888-1133-0000-0000-000000807005",
+      "lessonId": "88888888-1133-0000-0000-000000000907",
+      "sentenceNumber": 5,
+      "plainText": "母は料理が上手です。",
+      "romaji": "haha wa ryouri ga jouzu desu.",
+      "contentHtml": "母は料理が上手です。",
+      "meaningVi": "Mẹ nấu ăn giỏi.",
+      "orderIndex": 5
+    },
+    {
+      "id": "88888888-1133-0000-0000-000000807006",
+      "lessonId": "88888888-1133-0000-0000-000000000907",
+      "sentenceNumber": 6,
+      "plainText": "私は家族と一緒に晩ご飯を食べます。",
+      "romaji": "watashi wa kazoku to issho ni bangohan o tabemasu.",
+      "contentHtml": "私は家族と一緒に晩ご飯を食べます。",
+      "meaningVi": "Tôi ăn tối cùng gia đình.",
+      "orderIndex": 6
+    },
+    {
+      "id": "88888888-1133-0000-0000-000000807007",
+      "lessonId": "88888888-1133-0000-0000-000000000907",
+      "sentenceNumber": 7,
+      "plainText": "休みの日は家でゆっくりします。",
+      "romaji": "yasumi no hi wa ie de yukkuri shimasu.",
+      "contentHtml": "休みの日は家でゆっくりします。",
+      "meaningVi": "Ngày nghỉ tôi nghỉ ngơi ở nhà.",
+      "orderIndex": 7
+    },
+    {
+      "id": "88888888-1133-0000-0000-000000807008",
+      "lessonId": "88888888-1133-0000-0000-000000000907",
+      "sentenceNumber": 8,
+      "plainText": "友達からメールをもらいました。",
+      "romaji": "tomodachi kara meeru o moraimashita.",
+      "contentHtml": "友達からメールをもらいました。",
+      "meaningVi": "Tôi nhận được email từ bạn.",
+      "orderIndex": 8
+    },
+    {
+      "id": "88888888-1133-0000-0000-000000807009",
+      "lessonId": "88888888-1133-0000-0000-000000000907",
+      "sentenceNumber": 9,
+      "plainText": "私は大切な人にプレゼントをあげます。",
+      "romaji": "watashi wa taisetsu na hito ni purezento o agemasu.",
+      "contentHtml": "私は大切な人にプレゼントをあげます。",
+      "meaningVi": "Tôi tặng quà cho người quan trọng.",
+      "orderIndex": 9
+    },
+    {
+      "id": "88888888-1133-0000-0000-000000807010",
+      "lessonId": "88888888-1133-0000-0000-000000000907",
+      "sentenceNumber": 10,
+      "plainText": "家族と住んでいるので、毎日楽しいです。",
+      "romaji": "kazoku to sundeiru node, mainichi tanoshii desu.",
+      "contentHtml": "家族と住んでいるので、毎日楽しいです。",
+      "meaningVi": "Vì sống cùng gia đình nên mỗi ngày đều vui.",
+      "orderIndex": 10
+    }
+  ]
+}

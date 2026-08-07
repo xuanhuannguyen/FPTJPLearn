@@ -1,0 +1,116 @@
+{
+  "lesson": {
+    "id": "88888888-1133-0000-0000-000000001024",
+    "courseCode": "jpd133",
+    "lessonNumber": 924,
+    "title": "R024 - Đi chơi cùng bạn",
+    "description": "Sở thích - Sở thích: Đi chơi cùng bạn",
+    "accessTier": "premium",
+    "packageCode": "speaking_jpd133",
+    "isLocked": true,
+    "sentenceCount": 10,
+    "lessonType": "reading"
+  },
+  "sentences": [
+    {
+      "id": "88888888-1133-0000-0000-000000924001",
+      "lessonId": "88888888-1133-0000-0000-000000001024",
+      "sentenceNumber": 1,
+      "plainText": "友達と公園へ行って、話します。",
+      "romaji": "tomodachi to kouen e itte, hanashimasu.",
+      "contentHtml": "友達と公園へ行って、話します。",
+      "meaningVi": "Tôi đi công viên và nói chuyện với bạn.",
+      "orderIndex": 1
+    },
+    {
+      "id": "88888888-1133-0000-0000-000000924002",
+      "lessonId": "88888888-1133-0000-0000-000000001024",
+      "sentenceNumber": 2,
+      "plainText": "私はよく音楽を聞きます。",
+      "romaji": "watashi wa yoku ongaku o kikimasu.",
+      "contentHtml": "私はよく音楽を聞きます。",
+      "meaningVi": "Tôi thường nghe nhạc.",
+      "orderIndex": 2
+    },
+    {
+      "id": "88888888-1133-0000-0000-000000924003",
+      "lessonId": "88888888-1133-0000-0000-000000001024",
+      "sentenceNumber": 3,
+      "plainText": "ときどき友達と映画を見ます。",
+      "romaji": "tokidoki tomodachi to eiga o mimasu.",
+      "contentHtml": "ときどき友達と映画を見ます。",
+      "meaningVi": "Thỉnh thoảng tôi xem phim với bạn.",
+      "orderIndex": 3
+    },
+    {
+      "id": "88888888-1133-0000-0000-000000924004",
+      "lessonId": "88888888-1133-0000-0000-000000001024",
+      "sentenceNumber": 4,
+      "plainText": "一週間に二回、図書館へ行きます。",
+      "romaji": "isshuukan ni nikai, toshokan e ikimasu.",
+      "contentHtml": "一週間に二回、図書館へ行きます。",
+      "meaningVi": "Một tuần tôi đi thư viện hai lần.",
+      "orderIndex": 4
+    },
+    {
+      "id": "88888888-1133-0000-0000-000000924005",
+      "lessonId": "88888888-1133-0000-0000-000000001024",
+      "sentenceNumber": 5,
+      "plainText": "本を読むことが好きです。",
+      "romaji": "hon o yomu koto ga suki desu.",
+      "contentHtml": "本を読むことが好きです。",
+      "meaningVi": "Tôi thích đọc sách.",
+      "orderIndex": 5
+    },
+    {
+      "id": "88888888-1133-0000-0000-000000924006",
+      "lessonId": "88888888-1133-0000-0000-000000001024",
+      "sentenceNumber": 6,
+      "plainText": "料理を作ることができます。",
+      "romaji": "ryouri o tsukuru koto ga dekimasu.",
+      "contentHtml": "料理を作ることができます。",
+      "meaningVi": "Tôi có thể nấu ăn.",
+      "orderIndex": 6
+    },
+    {
+      "id": "88888888-1133-0000-0000-000000924007",
+      "lessonId": "88888888-1133-0000-0000-000000001024",
+      "sentenceNumber": 7,
+      "plainText": "全然スポーツをしない日もあります。",
+      "romaji": "zenzen supootsu o shinai hi mo arimasu.",
+      "contentHtml": "全然スポーツをしない日もあります。",
+      "meaningVi": "Cũng có những ngày tôi hoàn toàn không chơi thể thao.",
+      "orderIndex": 7
+    },
+    {
+      "id": "88888888-1133-0000-0000-000000924008",
+      "lessonId": "88888888-1133-0000-0000-000000001024",
+      "sentenceNumber": 8,
+      "plainText": "でも、週末は外へ出かけます。",
+      "romaji": "demo, shuumatsu wa soto e dekakemasu.",
+      "contentHtml": "でも、週末は外へ出かけます。",
+      "meaningVi": "Nhưng cuối tuần tôi đi ra ngoài.",
+      "orderIndex": 8
+    },
+    {
+      "id": "88888888-1133-0000-0000-000000924009",
+      "lessonId": "88888888-1133-0000-0000-000000001024",
+      "sentenceNumber": 9,
+      "plainText": "友達と話して、写真を撮ります。",
+      "romaji": "tomodachi to hanashite, shashin o torimasu.",
+      "contentHtml": "友達と話して、写真を撮ります。",
+      "meaningVi": "Tôi nói chuyện và chụp ảnh với bạn.",
+      "orderIndex": 9
+    },
+    {
+      "id": "88888888-1133-0000-0000-000000924010",
+      "lessonId": "88888888-1133-0000-0000-000000001024",
+      "sentenceNumber": 10,
+      "plainText": "好きなことをすると、楽しいです。",
+      "romaji": "suki na koto o suru to, tanoshii desu.",
+      "contentHtml": "好きなことをすると、楽しいです。",
+      "meaningVi": "Làm điều mình thích thì rất vui.",
+      "orderIndex": 10
+    }
+  ]
+}
