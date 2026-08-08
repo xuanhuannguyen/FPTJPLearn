@@ -30,13 +30,13 @@ export const ExamQuestionView = ({
       {passage && (
         <div className="rounded-2xl border border-sky-200 bg-sky-50/40 p-5 md:p-6 shadow-sm">
           <p className="mb-2 text-xs font-black uppercase tracking-widest text-[#2563EB]">{passage.title}</p>
-          <p className="whitespace-pre-wrap font-jp text-base font-bold leading-8 text-[#0b2554]">{passage.content}</p>
+          <p className="whitespace-pre-wrap font-jp text-base font-medium leading-8 tracking-[0.01em] text-[#0b2554]">{passage.content}</p>
         </div>
       )}
 
       <div>
         <p className="text-xs font-black uppercase tracking-widest text-[#2563EB]">Câu {index + 1}</p>
-        <h2 className="mt-1 text-xl md:text-2xl font-black leading-snug text-[#0b2554]">{questionText}</h2>
+        <h2 className="mt-1 font-jp text-xl font-bold leading-[1.75] tracking-[0.01em] text-[#0b2554] md:text-2xl">{questionText}</h2>
       </div>
 
       <div className="grid gap-3">
@@ -60,7 +60,7 @@ export const ExamQuestionView = ({
             return (
               <div key={option.id} className={`flex min-h-[52px] items-center gap-3.5 rounded-2xl border px-4 py-3 text-sm md:text-base ${cardStyle}`}>
                 <span className={`grid h-8 w-8 shrink-0 place-items-center rounded-xl border text-xs font-black ${badgeStyle}`}>{option.label}</span>
-                <span className="flex-1 font-bold">{option.text}</span>
+                <span className="flex-1 font-jp font-semibold leading-relaxed tracking-[0.01em]">{option.text}</span>
                 {optionIsCorrect && <CheckCircle2 size={20} className="shrink-0 text-emerald-600" />}
                 {isWrongChoice && <XCircle size={20} className="shrink-0 text-rose-500" />}
               </div>
@@ -82,7 +82,7 @@ export const ExamQuestionView = ({
               <span className={`grid h-8 w-8 shrink-0 place-items-center rounded-xl border text-xs font-black transition-colors ${
                 isSelected ? 'border-[#2563EB] bg-[#2563EB] text-white' : 'border-sky-200 bg-sky-50 text-slate-700'
               }`}>{option.label}</span>
-              <span className="font-bold">{option.text}</span>
+              <span className="font-jp font-semibold leading-relaxed tracking-[0.01em]">{option.text}</span>
             </button>
           );
         })}

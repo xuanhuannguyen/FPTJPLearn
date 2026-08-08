@@ -284,13 +284,13 @@ export const ExamStudyPage = () => {
               {currentQuestion.passage ? (
                 <div className="border-2 border-slate-200 bg-[#F8FAFC] p-5">
                   <p className="mb-2 text-xs font-black uppercase tracking-[0.16em] text-slate-500">{currentQuestion.passage.title}</p>
-                  <p className="whitespace-pre-wrap font-jp text-lg font-bold leading-9 text-slate-900">{currentQuestion.passage.content}</p>
+                  <p className="whitespace-pre-wrap font-jp text-lg font-medium leading-9 tracking-[0.01em] text-slate-900">{currentQuestion.passage.content}</p>
                 </div>
               ) : null}
 
               <div>
                 <p className="text-xs font-black uppercase tracking-[0.18em] text-text-muted">Câu hỏi</p>
-                <h2 className="mt-2 text-2xl font-black leading-snug text-text-primary">{currentQuestion.questionText}</h2>
+                <h2 className="mt-2 font-jp text-2xl font-bold leading-[1.75] tracking-[0.01em] text-text-primary">{currentQuestion.questionText}</h2>
               </div>
 
               <div className="grid gap-2">
@@ -316,7 +316,7 @@ export const ExamStudyPage = () => {
                       } disabled:cursor-default`}
                     >
                       <span className="grid h-7 w-7 shrink-0 place-items-center border-2 border-current text-xs font-black">{option.label}</span>
-                      <span className="font-bold text-base">{option.text}</span>
+                      <span className="font-jp text-base font-semibold leading-relaxed tracking-[0.01em]">{option.text}</span>
                     </button>
                   );
                 })}
