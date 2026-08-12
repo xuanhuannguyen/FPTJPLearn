@@ -63,15 +63,16 @@ export const GrammarLessonPage = () => {
     e.preventDefault();
     e.stopPropagation();
 
-    if (memoryPatternIds.has(patternId)) {
-      navigate('/memory/grammar/review');
-      return;
-    }
-
     try {
       setAddingId(patternId);
-      await memoryApi.addGrammarFromPattern(patternId);
-      setMemoryPatternIds((prev) => new Set(prev).add(patternId));
+      const status = await memoryApi.getGrammarPatternStatus(patternId);
+      if (status.isInMemory && status.memoryItemId) {
+        await memoryApi.removeGrammarItem(status.memoryItemId);
+        setMemoryPatternIds((prev) => { const next = new Set(prev); next.delete(patternId); return next; });
+      } else {
+        await memoryApi.addGrammarFromPattern(patternId);
+        setMemoryPatternIds((prev) => new Set(prev).add(patternId));
+      }
     } finally {
       setAddingId(null);
     }

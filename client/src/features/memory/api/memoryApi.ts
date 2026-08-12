@@ -2,6 +2,7 @@ import { apiClient } from '../../../shared/api/axios';
 import type {
   AddGrammarToMemoryResult,
   AddKanjiToMemoryResult,
+  AddVocabularyToMemoryResult,
   MemoryAnswerResult,
   MemoryCardsResponse,
   MemoryGrammarStatus,
@@ -45,6 +46,20 @@ export const memoryApi = {
 
   addKanjiFromItem: async (kanjiId: string): Promise<AddKanjiToMemoryResult> => {
     const response = await apiClient.post<AddKanjiToMemoryResult>(`/memory/kanji/from-item/${kanjiId}`);
+    return response.data;
+  },
+
+  addItem: async (type: MemoryItemType, itemId: string) => {
+    if (type === 'grammar') return memoryApi.addGrammarFromPattern(itemId);
+    if (type === 'kanji') return memoryApi.addKanjiFromItem(itemId);
+    const response = await apiClient.post<AddVocabularyToMemoryResult>(`/memory/vocabulary/from-item/${itemId}`);
+    return response.data;
+  },
+
+  getItemStatus: async (type: MemoryItemType, itemId: string): Promise<MemoryGrammarStatus> => {
+    if (type === 'grammar') return memoryApi.getGrammarPatternStatus(itemId);
+    if (type === 'kanji') return memoryApi.getKanjiItemStatus(itemId);
+    const response = await apiClient.get<MemoryGrammarStatus>(`/memory/vocabulary/from-item/${itemId}/status`);
     return response.data;
   },
 

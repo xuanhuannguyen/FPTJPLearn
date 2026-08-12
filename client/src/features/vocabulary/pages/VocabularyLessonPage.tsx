@@ -58,6 +58,11 @@ export const VocabularyLessonPage = () => {
   useEffect(() => {
     const fetchLessonDetail = async () => {
       if (!lessonId) return;
+      const replacementLessonId = legacyLessonReplacement[lessonId];
+      if (replacementLessonId) {
+        navigate(`/vocabulary/${courseCode}/lessons/${replacementLessonId}`, { replace: true });
+        return;
+      }
       try {
         setIsLoading(true);
         setMemoryError('');
@@ -85,28 +90,33 @@ export const VocabularyLessonPage = () => {
       }
     };
     fetchLessonDetail();
-  }, [lessonId]);
+  }, [courseCode, lessonId, navigate]);
 
-  const addToMemory = async (itemId: string) => {
+  const toggleMemory = async (itemId: string) => {
     try {
       setMemoryError('');
       setAddingToMemoryIds((prev) => new Set(prev).add(itemId));
-      await staticVocabularyApi.addToMemory(itemId);
       const wasInMemory = memoryStatusByItemId[itemId] === true;
-      setMemoryStatusByItemId((prev) => ({ ...prev, [itemId]: true }));
+      const status = await staticVocabularyApi.getMemoryStatus(itemId);
+      if (wasInMemory && status.memoryItemId) {
+        await staticVocabularyApi.removeFromMemory(status.memoryItemId);
+      } else {
+        await staticVocabularyApi.addToMemory(itemId);
+      }
+      setMemoryStatusByItemId((prev) => ({ ...prev, [itemId]: !wasInMemory }));
       setDetail((prev) => {
         if (!prev) return prev;
 
         return {
           ...prev,
           items: prev.items.map((item) => (
-            item.id === itemId ? { ...item, isLearned: true } : item
+            item.id === itemId ? { ...item, isLearned: !wasInMemory } : item
           )),
           lesson: {
             ...prev.lesson,
-            learnedCount: wasInMemory
-              ? prev.lesson.learnedCount
-              : Math.min(prev.lesson.wordCount, prev.lesson.learnedCount + 1),
+            learnedCount: !wasInMemory
+              ? Math.min(prev.lesson.wordCount, prev.lesson.learnedCount + 1)
+              : Math.max(0, prev.lesson.learnedCount - 1),
           },
         };
       });
@@ -517,8 +527,8 @@ export const VocabularyLessonPage = () => {
               <div className="flex w-[18%] shrink-0 justify-end pt-1">
                 <button
                   type="button"
-                  onClick={() => addToMemory(item.id)}
-                  disabled={isInMemory || addingToMemoryIds.has(item.id)}
+                  onClick={() => toggleMemory(item.id)}
+                  disabled={addingToMemoryIds.has(item.id)}
                   className={`inline-flex h-10 min-w-[112px] items-center justify-center gap-2 rounded-xl border-2 px-3 text-xs font-black transition-all ${
                     isInMemory
                       ? 'border-accent-success/20 bg-accent-success/10 text-accent-success'
@@ -1252,4 +1262,11 @@ const shuffleOptions = <T,>(items: T[]) => {
   }
 
   return next;
+};
+
+const legacyLessonReplacement: Record<string, string> = {
+  '66666666-1133-0000-0000-000000000108': '66666666-1133-0000-0000-000000000181',
+  '66666666-1133-0000-0000-000000000109': '66666666-1133-0000-0000-000000000191',
+  '66666666-1133-0000-0000-000000000110': '66666666-1133-0000-0000-000000000201',
+  '66666666-1133-0000-0000-000000000111': '66666666-1133-0000-0000-000000000211',
 };

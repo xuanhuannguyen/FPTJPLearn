@@ -91,6 +91,11 @@ export const staticVocabularyApi = {
     return response.data;
   },
 
+  removeFromMemory: async (memoryItemId: string) => {
+    const response = await apiClient.delete(`/memory/vocabulary/${memoryItemId}`);
+    return response.data;
+  },
+
   getMemoryStatus: async (itemId: string): Promise<VocabularyMemoryStatus> => {
     const response = await apiClient.get<VocabularyMemoryStatus>(`/memory/vocabulary/from-item/${itemId}/status`);
     return response.data;

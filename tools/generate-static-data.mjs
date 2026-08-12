@@ -135,7 +135,7 @@ async function generateVocabulary() {
       const lesson = {
         id: lessonId,
         courseCode: importFile.courseCode,
-        lessonNumber: seed.id,
+         lessonNumber: seed.id >= 80 && seed.id < 120 ? Math.floor(seed.id / 10) : seed.id,
         title: seed.title,
         description: seed.description,
         accessTier: normalizeTier(seed.accessTier),

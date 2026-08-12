@@ -5,6 +5,7 @@ import { kanjiApi } from '../api/kanjiApi';
 import type { KanjiLesson, KanjiItem, KanjiVocabulary } from '../types/kanji.types';
 import { PremiumLock } from '../../../shared/components/PremiumLock';
 import { useUserAccess } from '../../../shared/hooks/useUserAccess';
+import { MemoryToggleButton } from '../../memory/components/MemoryToggleButton';
 
 
 export const KanjiLessonPage = () => {
@@ -108,14 +109,14 @@ export const KanjiLessonPage = () => {
                     </span>
                   </div>
                   
-                  {/* Details */}
-                  <div className="flex flex-col justify-center px-3 flex-1 min-w-0">
+                   {/* Details */}
+                   <div className="flex min-w-0 flex-1 flex-col justify-center px-3">
                     <div className="flex items-baseline gap-2 mb-1">
                       <span className="text-xs font-black text-text-primary uppercase">{kanji.hanViet}</span>
                       <span className="text-[10px] text-text-secondary truncate">{kanji.meaning}</span>
                     </div>
                     
-                    <div className="flex flex-wrap gap-1 mt-1">
+                     <div className="mt-1 flex flex-wrap gap-1">
                       {kanji.kunReading && (
                         <span className="bg-slate-100 border border-border/50 px-1.5 py-0.5 text-[10px] font-mono text-text-secondary">
                           {kanji.kunReading}
@@ -125,9 +126,10 @@ export const KanjiLessonPage = () => {
                         <span className="bg-blue-50 border border-blue-200 px-1.5 py-0.5 text-[10px] font-mono text-accent-primary">
                           {kanji.onReading}
                         </span>
-                      )}
-                    </div>
-                  </div>
+                       )}
+                     </div>
+                     <MemoryToggleButton type="kanji" itemId={kanji.id} className="mt-2" />
+                   </div>
                 </Link>
               ))}
             </div>

@@ -1,4 +1,4 @@
-import { readFile, writeFile } from 'node:fs/promises';
+import { mkdir, readFile, writeFile } from 'node:fs/promises';
 
 const sourcePath = 'docs/JPD133/Resource/JPD133_Tu_vung_Bai_8_11_chi_tiet.md';
 const targetPath = 'server/JPLearn.Infrastructure/Data/Imports/vocabulary/jpd133.lessons.json';
@@ -20,6 +20,19 @@ const sectionRegex = /^## (8_[1-3]|9_[1-3]|10_[1-3]|11_[1-3]) – ([^/]+) \/ ([^
 const sections = [...markdown.matchAll(sectionRegex)];
 const report = { sectionCount: sections.length, lessonCounts: {}, missingReading: [], duplicateItems: [], missingExamples: [], placeholders: [], removedItems: [] };
 if (sections.length !== 12) throw new Error(`Expected 12 vocabulary sections, found ${sections.length}`);
+
+const resourceDir = 'docs/JPD133/Resource/vocabulary';
+await mkdir(resourceDir, { recursive: true });
+const resourceLinks = [];
+for (let index = 0; index < sections.length; index += 1) {
+  const section = sections[index];
+  const end = sections[index + 1]?.index ?? markdown.length;
+  const body = markdown.slice(section.index, end).trim();
+  const fileName = `JPD133_Tu_vung_Bai_${section[1]}.md`;
+  await writeFile(`${resourceDir}/${fileName}`, `# JPD133 – Từ vựng ${section[1]}\n\n${body}\n`, 'utf8');
+  resourceLinks.push(`- [${section[1]} – ${section[2]} / ${section[3]}](./vocabulary/${fileName})`);
+}
+await writeFile(`${resourceDir}/INDEX.md`, `# JPD133 – Từ vựng Bài 8–11\n\n${resourceLinks.join('\n')}\n\nBản tổng hợp tham chiếu: [JPD133_Tu_vung_Bai_8_11_chi_tiet.md](../JPD133_Tu_vung_Bai_8_11_chi_tiet.md)\n`, 'utf8');
 
 const sectionItems = new Map();
 for (let index = 0; index < sections.length; index += 1) {
@@ -46,33 +59,29 @@ for (let index = 0; index < sections.length; index += 1) {
   sectionItems.set(sectionCode, { japaneseTitle: clean(japaneseTitle), vietnameseTitle: clean(vietnameseTitle), items });
 }
 
-const lessons = [8, 9, 10, 11].map((lessonNumber) => {
-  const lessonSections = [1, 2, 3].map((part) => `${lessonNumber}_${part}`);
+const lessons = [8, 9, 10, 11].flatMap((lessonNumber) => [1, 2, 3].map((part) => {
+  const sectionCode = `${lessonNumber}_${part}`;
   const seen = new Map();
-  const items = [];
-  for (const sectionCode of lessonSections) {
-    for (const item of sectionItems.get(sectionCode).items) {
-      const key = `${item.word}\u0000${item.reading}\u0000${item.meaning}`;
-      if (seen.has(key)) {
-        report.duplicateItems.push(`${sectionCode}: ${item.word}`);
-        seen.get(key).notes += `; ${item.notes}`;
-        continue;
-      }
-      seen.set(key, item);
-      items.push({ ...item, orderIndex: items.length + 1 });
+  const sectionOffset = [1, 2, 3].slice(0, part - 1).reduce((sum, previousPart) => sum + sectionItems.get(`${lessonNumber}_${previousPart}`).items.length, 0);
+  const items = sectionItems.get(sectionCode).items.map((item, index) => {
+    const key = `${item.word}\u0000${item.reading}\u0000${item.meaning}`;
+    if (seen.has(key)) {
+      report.duplicateItems.push(`${sectionCode}: ${item.word}`);
     }
-  }
-  report.lessonCounts[lessonNumber] = items.length;
+    seen.set(key, item);
+    return { ...item, id: `66666666-1133-0000-0000-${String(lessonNumber * 1000 + sectionOffset + index + 1).padStart(12, '0')}`, orderIndex: seen.size };
+  });
+  report.lessonCounts[sectionCode] = items.length;
   return {
-    id: lessonNumber,
-    title: `JPD133 Bài ${lessonNumber}`,
+    id: lessonNumber * 10 + part,
+    title: `JPD133 Bài ${lessonNumber}.${part}`,
     description: lessonNumber === 8 ? 'Gia đình, bạn bè và quà tặng.' : lessonNumber === 9 ? 'Sở thích, khả năng và cuối tuần.' : lessonNumber === 10 ? 'Chỉ đường, lưu ý và động vật trong vườn thú.' : 'Cuộc sống hiện tại, quá khứ và hội thoại bạn bè.',
     accessTier: lessonNumber === 8 ? 'free' : 'premium',
     packageCode: 'jpd133',
     orderIndex: lessonNumber,
     items,
   };
-});
+}));
 
 const output = { courseCode: 'jpd133', title: 'Tiếng Nhật Sơ Cấp 3', description: 'Từ vựng JPD133 Bài 8–11', lessons };
 console.log(JSON.stringify(report, null, 2));
