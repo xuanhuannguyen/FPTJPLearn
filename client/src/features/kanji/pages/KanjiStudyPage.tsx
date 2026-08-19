@@ -39,19 +39,37 @@ const loadKanjiCharData = async (
   onComplete: (data: HanziWriterCharData) => void,
   onData: (data: HanziWriterCharData) => void,
 ) => {
-  const localResponse = await fetch(`/data/kanji/strokes-jp/${encodeURIComponent(char)}.json`);
-  if (localResponse.ok) {
-    const data = await localResponse.json() as HanziWriterCharData;
-    onData(data);
-    onComplete(data);
-    return;
+  try {
+    const localResponse = await fetch(`/data/kanji/strokes-jp/${encodeURIComponent(char)}.json`);
+    if (localResponse.ok) {
+      const data = await localResponse.json() as HanziWriterCharData;
+      onData(data);
+      onComplete(data);
+      return;
+    }
+  } catch (err) {
+    console.warn(`Local stroke data fetch failed for ${char}:`, err);
   }
 
-  const fallbackResponse = await fetch(`https://cdn.jsdelivr.net/npm/hanzi-writer-data@2.0/${encodeURIComponent(char)}.json`);
-  if (!fallbackResponse.ok) throw new Error(`Kanji stroke data unavailable: ${char}`);
-  const data = await fallbackResponse.json() as HanziWriterCharData;
-  onData(data);
-  onComplete(data);
+  try {
+    const fallbackJp = await fetch(`https://cdn.jsdelivr.net/npm/hanzi-writer-data-jp@0/${encodeURIComponent(char)}.json`);
+    if (fallbackJp.ok) {
+      const data = await fallbackJp.json() as HanziWriterCharData;
+      onData(data);
+      onComplete(data);
+      return;
+    }
+  } catch {}
+
+  try {
+    const fallbackResponse = await fetch(`https://cdn.jsdelivr.net/npm/hanzi-writer-data@2.0/${encodeURIComponent(char)}.json`);
+    if (fallbackResponse.ok) {
+      const data = await fallbackResponse.json() as HanziWriterCharData;
+      onData(data);
+      onComplete(data);
+      return;
+    }
+  } catch {}
 };
 
 const RADICAL_HANVIET: Record<string, string> = {
