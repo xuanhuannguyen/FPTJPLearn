@@ -54,7 +54,7 @@ public static class GrammarSeedData
                         Title = lessonSeed.Title,
                         Description = lessonSeed.Description,
                         AccessTier = NormalizeAccessTier(lessonSeed.AccessTier),
-                        PackageCode = lessonSeed.PackageCode,
+                        PackageCode = NormalizePackageCode(lessonSeed.PackageCode, import.CourseCode),
                         CourseCode = import.CourseCode,
                         OrderIndex = lessonSeed.OrderIndex ?? lessonOrderBase,
                         CreatedAt = SeededAt,
@@ -381,8 +381,19 @@ public static class GrammarSeedData
         return Guid.Parse($"77777777-{seg}-0003-0000-{n:000000000000}");
     }
 
-    private static string CourseSegment(string courseCode) =>
-        courseCode.ToLowerInvariant().Contains("113") ? "1113" : "1123";
+    private static string CourseSegment(string courseCode)
+    {
+        var code = courseCode.ToLowerInvariant();
+        if (code.Contains("133")) return "1133";
+        if (code.Contains("123")) return "1123";
+        return "1113";
+    }
+
+    private static string NormalizePackageCode(string? packageCode, string courseCode)
+    {
+        var code = (string.IsNullOrWhiteSpace(packageCode) ? courseCode : packageCode).Trim().ToLowerInvariant();
+        return code.StartsWith("grammar_") ? code : $"grammar_{code}";
+    }
 
     // Import models
     private sealed record GrammarImportFile(

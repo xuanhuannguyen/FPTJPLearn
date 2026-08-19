@@ -38,9 +38,10 @@ public class SeedController : ControllerBase
         var kanjiLessons = await _db.KanjiLessons.ToListAsync();
         foreach (var lesson in kanjiLessons)
         {
-            // Lesson 1 (JPD113) and Lesson 4 (First lesson of JPD123) are free
+            // Lesson 1 (JPD113), Lesson 4 (JPD123), and Lesson 8 (JPD133) are free
             var isFree = (string.Equals(lesson.PackageCode, "kanji_jpd113", StringComparison.OrdinalIgnoreCase) && lesson.LessonNumber == 1)
-                || (string.Equals(lesson.PackageCode, "kanji_jpd123", StringComparison.OrdinalIgnoreCase) && lesson.LessonNumber == 4);
+                || (string.Equals(lesson.PackageCode, "kanji_jpd123", StringComparison.OrdinalIgnoreCase) && lesson.LessonNumber == 4)
+                || (string.Equals(lesson.PackageCode, "kanji_jpd133", StringComparison.OrdinalIgnoreCase) && lesson.LessonNumber == 8);
             var newTier = isFree ? "free" : "premium";
             if (lesson.AccessTier != newTier)
             {
@@ -53,8 +54,10 @@ public class SeedController : ControllerBase
         var vocabLessons = await _db.StaticVocabularyLessons.ToListAsync();
         foreach (var lesson in vocabLessons)
         {
-            // First 3 sub-lessons (1-1, 1-2, 1-3 for JPD113 or 4-1, 4-2, 4-3 for JPD123) are free
-            var isFree = lesson.LessonNumber <= 3;
+            // First 3 sub-lessons (1-1, 1-2, 1-3 for JPD113, 4-1, 4-2, 4-3 for JPD123, 8-1, 8-2, 8-3 for JPD133) are free
+            var isFree = lesson.LessonNumber <= 3 
+                || (string.Equals(lesson.CourseCode, "jpd123", StringComparison.OrdinalIgnoreCase) && lesson.LessonNumber == 4)
+                || (string.Equals(lesson.CourseCode, "jpd133", StringComparison.OrdinalIgnoreCase) && lesson.LessonNumber == 8);
             var newTier = isFree ? "free" : "premium";
             if (lesson.AccessTier != newTier)
             {
@@ -67,8 +70,8 @@ public class SeedController : ControllerBase
         var grammarLessons = await _db.GrammarLessons.ToListAsync();
         foreach (var lesson in grammarLessons)
         {
-            // First lesson of JPD113 (No. 1) and JPD123 (No. 4) are free
-            var isFree = lesson.LessonNumber == 1 || lesson.LessonNumber == 4;
+            // First lesson of JPD113 (No. 1), JPD123 (No. 4), and JPD133 (No. 8) are free
+            var isFree = lesson.LessonNumber == 1 || lesson.LessonNumber == 4 || lesson.LessonNumber == 8;
             var newTier = isFree ? "free" : "premium";
             if (lesson.AccessTier != newTier)
             {

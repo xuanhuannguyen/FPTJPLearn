@@ -941,6 +941,10 @@ const TypingPracticeWorkspace = ({
 
     setFeedback(null);
     setInputState({ cardId: '', value: '' });
+    if (inputRef.current) {
+      inputRef.current.value = '';
+      inputRef.current.focus();
+    }
     onNext();
   };
 

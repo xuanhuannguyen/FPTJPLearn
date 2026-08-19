@@ -65,6 +65,14 @@ export const KanjiVocabularyFlashcardPage = () => {
     fetchData();
   }, [lessonId]);
 
+  useEffect(() => {
+    setCurrentIndex(0);
+    setIsFlipped(false);
+    setCompleted(false);
+    setStats({ known: 0, unknown: 0 });
+    setTypingAnswers([]);
+  }, [mode, lessonId]);
+
   const resetSession = useCallback(() => {
     setCurrentIndex(0);
     setIsFlipped(false);
@@ -522,7 +530,11 @@ const KanjiVocabularyTypingWorkspace = ({
     // eslint-disable-next-line react-hooks/set-state-in-effect
     setFeedback(null);
     setInputState({ itemId: '', value: '' });
-  }, [currentVocab?.id]);
+    if (inputRef.current) {
+      inputRef.current.value = '';
+      inputRef.current.focus();
+    }
+  }, [currentIndex, currentVocab?.id]);
 
   useEffect(() => {
     // eslint-disable-next-line react-hooks/set-state-in-effect
@@ -531,6 +543,9 @@ const KanjiVocabularyTypingWorkspace = ({
     setCompletedElapsedMs(null);
     setFeedback(null);
     setInputState({ itemId: '', value: '' });
+    if (inputRef.current) {
+      inputRef.current.value = '';
+    }
   }, [vocabs]);
 
   useEffect(() => {
@@ -558,6 +573,10 @@ const KanjiVocabularyTypingWorkspace = ({
     if (!feedback) return;
     setFeedback(null);
     setInputState({ itemId: '', value: '' });
+    if (inputRef.current) {
+      inputRef.current.value = '';
+      inputRef.current.focus();
+    }
     onNext();
   };
 
@@ -596,6 +615,19 @@ const KanjiVocabularyTypingWorkspace = ({
     onAnswer(currentVocab, typed, correct);
   };
 
+  const handleRestart = () => {
+    setFeedback(null);
+    setInputState({ itemId: '', value: '' });
+    setStartedAt(null);
+    setElapsedMs(0);
+    setCompletedElapsedMs(null);
+    if (inputRef.current) {
+      inputRef.current.value = '';
+      inputRef.current.focus();
+    }
+    onRestart();
+  };
+
   const answerRows = useMemo(() => answers, [answers]);
 
   if (isCompleted || !currentVocab) {
@@ -614,7 +646,7 @@ const KanjiVocabularyTypingWorkspace = ({
               </div>
             </div>
             <div className="flex flex-wrap gap-2">
-              <button type="button" onClick={onRestart} className="btn-secondary">
+              <button type="button" onClick={handleRestart} className="btn-secondary">
                 <RotateCcw size={18} />
                 Gõ lại
               </button>
