@@ -30,6 +30,15 @@ type TypingAnswer = {
 
 const getInitialMode = (value: string | null): PracticeMode => (value === 'typing' ? 'typing' : 'flashcard');
 
+const shuffleArray = <T,>(array: T[]): T[] => {
+  const cloned = [...array];
+  for (let i = cloned.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [cloned[i], cloned[j]] = [cloned[j], cloned[i]];
+  }
+  return cloned;
+};
+
 export const KanjiVocabularyFlashcardPage = () => {
   const { level, lessonId } = useParams<{ level: string; lessonId: string }>();
   const navigate = useNavigate();
@@ -55,7 +64,7 @@ export const KanjiVocabularyFlashcardPage = () => {
           kanjiApi.getVocabularyByLesson(lessonId),
         ]);
         setLesson(lessonData);
-        setVocabs(vocabData);
+        setVocabs(mode === 'typing' ? shuffleArray(vocabData) : vocabData);
       } catch (error) {
         console.error('Failed to fetch data:', error);
       } finally {
@@ -63,7 +72,7 @@ export const KanjiVocabularyFlashcardPage = () => {
       }
     };
     fetchData();
-  }, [lessonId]);
+  }, [lessonId, mode]);
 
   useEffect(() => {
     setCurrentIndex(0);
@@ -71,6 +80,9 @@ export const KanjiVocabularyFlashcardPage = () => {
     setCompleted(false);
     setStats({ known: 0, unknown: 0 });
     setTypingAnswers([]);
+    if (mode === 'typing') {
+      setVocabs((prev) => (prev.length > 0 ? shuffleArray(prev) : prev));
+    }
   }, [mode, lessonId]);
 
   const resetSession = useCallback(() => {
@@ -79,7 +91,10 @@ export const KanjiVocabularyFlashcardPage = () => {
     setCompleted(false);
     setStats({ known: 0, unknown: 0 });
     setTypingAnswers([]);
-  }, []);
+    if (mode === 'typing') {
+      setVocabs((prev) => (prev.length > 0 ? shuffleArray(prev) : prev));
+    }
+  }, [mode]);
 
   const speak = useCallback((vocab: KanjiVocabulary) => {
     if (typeof window === 'undefined' || !('speechSynthesis' in window)) {
