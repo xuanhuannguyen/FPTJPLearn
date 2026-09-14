@@ -741,13 +741,27 @@ export const KanjiStudyPage = () => {
                   <div ref={quizContainerRef} className="absolute inset-0 w-full h-full cursor-crosshair touch-none flex items-center justify-center"></div>
                   
                   {isQuizComplete && (
-                    <div className="absolute inset-0 flex flex-col items-center justify-center animate-fade-in space-y-3 bg-[#f0fdf4] w-full h-full border-2 border-green-500 rounded-lg z-20">
-                      <div className="w-16 h-16 rounded-full bg-green-100 flex items-center justify-center text-green-500 shadow-sm border border-green-200">
-                        <svg className="w-10 h-10" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="3" d="M5 13l4 4L19 7"></path></svg>
+                    <div className="absolute inset-0 flex flex-col items-center justify-center animate-fade-in p-5 bg-gradient-to-b from-white/95 via-emerald-50/95 to-teal-50/95 backdrop-blur-md w-full h-full border-2 border-emerald-300/80 rounded-xl z-20 shadow-[0_12px_36px_-6px_rgba(16,185,129,0.22)]">
+                      {/* Celebration Halo Glow */}
+                      <div className="relative mb-2.5 flex items-center justify-center">
+                        <div className="absolute inset-0 rounded-full bg-emerald-400/25 blur-md animate-pulse"></div>
+                        <div className="relative w-14 h-14 rounded-full bg-gradient-to-tr from-emerald-500 to-teal-500 flex items-center justify-center text-white shadow-lg shadow-emerald-500/30 ring-4 ring-emerald-100">
+                          <svg className="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="3" d="M5 13l4 4L19 7" />
+                          </svg>
+                        </div>
                       </div>
-                      <div className="text-center">
-                        <h3 className="font-bold text-green-600 text-lg">Đỉnh nha</h3>
-                        <p className="text-slate-500 text-xs mt-1">Có năng khiếu đấy :))</p>
+                      
+                      <div className="text-center space-y-1">
+                        <span className="inline-block px-2.5 py-0.5 rounded-full bg-emerald-100/90 text-emerald-800 text-[10px] font-black uppercase tracking-wider">
+                          Hoàn thành nét viết
+                        </span>
+                        <h3 className="font-black text-emerald-950 text-xl tracking-tight">
+                          Đỉnh nha 🎉
+                        </h3>
+                        <p className="text-slate-600 text-xs font-semibold">
+                          Có năng khiếu đấy :))
+                        </p>
                       </div>
                     </div>
                   )}

@@ -11,6 +11,8 @@ export type MemoryTypeConfig = {
   icon: LucideIcon;
   canResetProgress: boolean;
   accentClassName: string;
+  tabActiveClassName: string;
+  btnTextClassName: string;
 };
 
 export const memoryTypeConfigs: Record<MemoryItemType, MemoryTypeConfig> = {
@@ -23,7 +25,9 @@ export const memoryTypeConfigs: Record<MemoryItemType, MemoryTypeConfig> = {
     listPath: '/memory/kanji/list',
     icon: Castle,
     canResetProgress: true,
-    accentClassName: 'bg-blue-500',
+    accentClassName: 'bg-gradient-to-br from-emerald-600 via-teal-600 to-emerald-700',
+    tabActiveClassName: 'bg-gradient-to-r from-emerald-600 to-teal-600 text-white shadow-md shadow-emerald-600/25',
+    btnTextClassName: 'text-emerald-800 hover:text-emerald-900',
   },
   vocabulary: {
     type: 'vocabulary',
@@ -34,7 +38,9 @@ export const memoryTypeConfigs: Record<MemoryItemType, MemoryTypeConfig> = {
     listPath: '/memory/vocabulary/list',
     icon: Crown,
     canResetProgress: true,
-    accentClassName: 'bg-emerald-500',
+    accentClassName: 'bg-gradient-to-br from-amber-500 via-orange-500 to-amber-600',
+    tabActiveClassName: 'bg-gradient-to-r from-amber-500 to-orange-500 text-white shadow-md shadow-amber-500/25',
+    btnTextClassName: 'text-amber-800 hover:text-amber-900',
   },
   grammar: {
     type: 'grammar',
@@ -45,7 +51,9 @@ export const memoryTypeConfigs: Record<MemoryItemType, MemoryTypeConfig> = {
     listPath: '/memory/grammar/list',
     icon: BrainCircuit,
     canResetProgress: true,
-    accentClassName: 'bg-violet-500',
+    accentClassName: 'bg-gradient-to-br from-teal-700 via-cyan-800 to-slate-800',
+    tabActiveClassName: 'bg-gradient-to-r from-teal-700 to-cyan-700 text-white shadow-md shadow-teal-700/25',
+    btnTextClassName: 'text-teal-900 hover:text-teal-950',
   },
 };
 

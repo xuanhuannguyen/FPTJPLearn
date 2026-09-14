@@ -161,9 +161,9 @@ export const MemoryDashboardPage = () => {
       </header>
 
       {/* Marketing Hook */}
-      <div className="mb-6 max-w-3xl overflow-hidden rounded-2xl border border-violet-100 bg-gradient-to-br from-violet-50/50 to-white p-5 shadow-sm">
+      <div className="mb-6 max-w-3xl overflow-hidden rounded-2xl border border-teal-200/70 bg-gradient-to-br from-teal-50/70 via-white to-emerald-50/40 p-5 shadow-sm">
         <div className="flex items-start gap-4">
-          <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-2xl bg-violet-600 text-white shadow-lg shadow-violet-200">
+          <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-2xl bg-gradient-to-br from-teal-600 to-emerald-600 text-white shadow-md shadow-teal-600/20">
             <Sparkles size={24} />
           </div>
           <div>
@@ -171,14 +171,14 @@ export const MemoryDashboardPage = () => {
               Cơ chế học tập thông minh (Spaced Repetition)
             </h3>
             <p className="mt-1 text-sm font-bold leading-relaxed text-slate-600">
-              Khi học Kanji, Từ vựng, Ngữ pháp các bạn có thể <span className="text-violet-600">Add to Memory</span>. Hệ thống sẽ tự động tính toán thời gian bạn sẽ quên theo các mức độ để nhắc nhở bạn luyện tập đúng lúc, giúp ghi nhớ vĩnh viễn.
+              Khi học Kanji, Từ vựng, Ngữ pháp các bạn có thể <span className="text-teal-700 font-extrabold bg-teal-50/90 border border-teal-200/80 px-2 py-0.5 rounded-md">Add to Memory</span>. Hệ thống sẽ tự động tính toán thời gian bạn sẽ quên theo các mức độ để nhắc nhở bạn luyện tập đúng lúc, giúp ghi nhớ vĩnh viễn.
             </p>
           </div>
         </div>
       </div>
 
       {/* Tabs - Centered */}
-      <section className="flex gap-2 rounded-xl border border-slate-200 bg-white p-1 shadow-sm max-w-2xl mx-auto">
+      <section className="flex gap-2 rounded-2xl border border-slate-200/90 bg-slate-100/80 p-1.5 shadow-sm max-w-2xl mx-auto backdrop-blur-sm">
         {memoryTypeOrder.map((type) => {
           const config = memoryTypeConfigs[type];
           const Icon = config.icon;
@@ -189,15 +189,18 @@ export const MemoryDashboardPage = () => {
               key={type}
               type="button"
               onClick={() => setActiveType(type)}
-              className={`flex flex-1 min-h-[44px] items-center justify-center gap-2 rounded-lg px-4 text-xs font-black transition-all ${isActive
-                  ? 'bg-violet-600 text-white shadow-md'
-                  : 'text-text-muted hover:bg-slate-50'
-                }`}
+              className={`flex flex-1 min-h-[44px] items-center justify-center gap-2 rounded-xl px-4 text-xs font-black transition-all duration-200 ${
+                isActive
+                  ? config.tabActiveClassName
+                  : 'text-slate-600 hover:text-slate-900 hover:bg-white/80'
+              }`}
             >
-              <Icon size={16} />
+              <Icon size={16} strokeWidth={isActive ? 2.5 : 2} />
               <span>{config.label}</span>
               {due > 0 ? (
-                <span className={`ml-1 rounded-full px-1.5 py-0.5 text-[9px] font-black ${isActive ? 'bg-white/20 text-white' : 'bg-orange-100 text-orange-500'}`}>
+                <span className={`ml-1 rounded-full px-2 py-0.5 text-[10px] font-black ${
+                  isActive ? 'bg-white/25 text-white' : 'bg-orange-100 text-orange-600 border border-orange-200'
+                }`}>
                   {due}
                 </span>
               ) : null}
@@ -212,62 +215,92 @@ export const MemoryDashboardPage = () => {
       {/* Summary Panels - Reduced size by 20% and centered */}
       <div className="max-w-5xl mx-auto">
         <section className="grid gap-4 lg:grid-cols-2">
-          <div className={`relative rounded-[28px] border-2 border-white/50 ${activeConfig.accentClassName} p-5 text-white shadow-lg overflow-hidden`}>
-            {/* Header row */}
-            <div className="flex items-center justify-between mb-4">
-               <p className="text-[11px] font-black uppercase tracking-wider opacity-90">{activeConfig.summaryLabel} cần ôn hôm nay</p>
-               <div className="flex flex-wrap justify-end gap-2">
-                 <button
-                   type="button"
-                   onClick={() => navigate(activeConfig.listPath)}
-                   className="inline-flex items-center gap-1.5 rounded-full border border-white/30 bg-white/20 px-2.5 py-1 text-[10px] font-black text-white backdrop-blur-md transition-all hover:bg-white/30"
-                 >
-                   <ListChecks size={10} strokeWidth={3} />
-                   Xem danh sách
-                 </button>
-                 {activeConfig.canResetProgress ? (
-                    <button
-                      type="button"
-                      disabled={isResettingGrammar}
-                      onClick={() => {
-                        setResetError('');
-                        setIsResetModalOpen(true);
-                      }}
-                      className="inline-flex items-center gap-1.5 rounded-full bg-white/20 backdrop-blur-md px-2.5 py-1 text-[10px] font-black text-white border border-white/30 transition-all hover:bg-white/30 disabled:pointer-events-none disabled:opacity-60"
-                    >
-                      {isResettingGrammar ? <Loader2 size={10} className="animate-spin" /> : <RotateCcw size={10} strokeWidth={3} />}
-                      {isResettingGrammar ? 'Đang reset' : 'Học lại từ đầu'}
-                    </button>
-                 ) : null}
-               </div>
-            </div>
+          <div className={`relative rounded-[28px] border-2 border-white/40 ${activeConfig.accentClassName} p-6 text-white shadow-xl overflow-hidden flex flex-col justify-between`}>
+            {/* Subtle decorative glow watermark */}
+            <div className="absolute -top-16 -right-16 w-48 h-48 rounded-full bg-white/10 blur-2xl pointer-events-none"></div>
 
-            <p className="text-6xl font-black drop-shadow-md">{activeSummary.due}</p>
+            <div>
+              {/* Header row */}
+              <div className="flex items-center justify-between mb-4">
+                 <p className="text-[11px] font-black uppercase tracking-wider opacity-90">{activeConfig.summaryLabel} cần ôn hôm nay</p>
+                 <div className="flex flex-wrap justify-end gap-2">
+                   <button
+                     type="button"
+                     onClick={() => navigate(activeConfig.listPath)}
+                     className="inline-flex items-center gap-1.5 rounded-full border border-white/30 bg-white/20 px-3 py-1 text-[11px] font-black text-white backdrop-blur-md transition-all hover:bg-white/30"
+                   >
+                     <ListChecks size={12} strokeWidth={2.5} />
+                     Xem danh sách
+                   </button>
+                   {activeConfig.canResetProgress ? (
+                      <button
+                        type="button"
+                        disabled={isResettingGrammar}
+                        onClick={() => {
+                          setResetError('');
+                          setIsResetModalOpen(true);
+                        }}
+                        className="inline-flex items-center gap-1.5 rounded-full bg-white/20 backdrop-blur-md px-3 py-1 text-[11px] font-black text-white border border-white/30 transition-all hover:bg-white/30 disabled:pointer-events-none disabled:opacity-60"
+                      >
+                        {isResettingGrammar ? <Loader2 size={12} className="animate-spin" /> : <RotateCcw size={12} strokeWidth={2.5} />}
+                        {isResettingGrammar ? 'Đang reset' : 'Học lại từ đầu'}
+                      </button>
+                   ) : null}
+                 </div>
+              </div>
+
+              <p className="text-6xl font-black drop-shadow-md tracking-tight">{activeSummary.due}</p>
+            </div>
 
             <div className="mt-6">
               {activeSummary.due > 0 ? (
                 <button
                   type="button"
                   onClick={() => navigate(activeConfig.reviewPath)}
-                  className="rounded-xl bg-white px-6 py-2 text-sm font-black text-violet-600 shadow-md transition-all hover:scale-105 active:scale-95"
+                  className={`rounded-xl bg-white px-7 py-2.5 text-sm font-black ${activeConfig.btnTextClassName} shadow-lg shadow-black/10 transition-all hover:scale-105 active:scale-95`}
                 >
                   Ôn tập ngay
                 </button>
               ) : (
-                <p className="max-w-md rounded-xl bg-white/10 backdrop-blur-sm border border-white/20 p-4 text-xs font-bold text-white/90">{activeConfig.emptyText}</p>
+                <p className="max-w-md rounded-xl bg-white/15 backdrop-blur-sm border border-white/20 p-3.5 text-xs font-bold text-white/95">{activeConfig.emptyText}</p>
               )}
             </div>
           </div>
 
-          <div className="rounded-[28px] border-2 border-white/50 bg-blue-500 p-5 text-white shadow-lg">
-            <div className="flex items-center gap-2 mb-4">
-               <Sparkles size={16} className="text-yellow-200" />
-              <p className="text-[11px] font-black uppercase tracking-wider opacity-90">Lượt ôn tập tiếp theo</p>
+          <div className="relative rounded-[28px] border-2 border-slate-800/80 bg-gradient-to-br from-slate-900 via-slate-850 to-slate-900 p-6 text-white shadow-xl overflow-hidden flex flex-col justify-between">
+            {/* Ambient glowing radial highlights */}
+            <div className="absolute -top-16 -right-16 w-48 h-48 rounded-full bg-amber-500/10 blur-2xl pointer-events-none"></div>
+            <div className="absolute -bottom-16 -left-16 w-48 h-48 rounded-full bg-teal-500/10 blur-2xl pointer-events-none"></div>
+
+            <div>
+              <div className="flex items-center justify-between mb-4">
+                <div className="flex items-center gap-2">
+                  <div className="p-1.5 rounded-lg bg-amber-400/20 text-amber-300 border border-amber-400/30">
+                    <Sparkles size={14} className="text-amber-300" />
+                  </div>
+                  <p className="text-[11px] font-black uppercase tracking-wider text-slate-300">Lượt ôn tập tiếp theo</p>
+                </div>
+                <span className="inline-flex items-center gap-1 px-2.5 py-0.5 rounded-full bg-slate-800 border border-slate-700 text-[10px] font-bold text-amber-300">
+                  <span className="w-1.5 h-1.5 rounded-full bg-amber-400 animate-pulse"></span>
+                  Hẹn giờ SRS
+                </span>
+              </div>
+              <p className="text-4xl font-black tracking-tight mt-5 text-white drop-shadow-sm flex items-center gap-2">
+                {nextReviewText}
+              </p>
             </div>
-            <p className="text-4xl font-black tracking-tight mt-6 drop-shadow-md">{nextReviewText}</p>
-            {nextReviewTimeText && activeSummary.due === 0 ? (
-              <p className="mt-3 inline-block rounded-lg bg-black/10 px-2 py-1 text-[10px] font-black text-white/80">{nextReviewTimeText}</p>
-            ) : null}
+
+            <div className="mt-6">
+              {nextReviewTimeText && activeSummary.due === 0 ? (
+                <p className="inline-flex items-center gap-1.5 rounded-xl bg-white/10 backdrop-blur-md border border-white/10 px-3 py-1.5 text-xs font-bold text-slate-200">
+                  <span className="opacity-70">Lịch dự kiến:</span> {nextReviewTimeText}
+                </p>
+              ) : (
+                <p className="text-xs text-slate-400 font-medium">
+                  Hệ thống tự động đồng bộ theo thuật toán giãn cách thời gian (Spaced Repetition).
+                </p>
+              )}
+            </div>
           </div>
         </section>
       </div>

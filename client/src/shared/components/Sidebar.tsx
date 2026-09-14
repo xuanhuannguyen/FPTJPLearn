@@ -116,7 +116,7 @@ export const Sidebar = () => {
                 <div
                   className={`sidebar-nav-icon transition-all duration-200 ${
                     isActive
-                      ? `bg-gradient-to-br ${item.activeGrad} text-white border-transparent shadow-md shadow-slate-300`
+                      ? `bg-gradient-to-br ${item.activeGrad} text-white border-transparent shadow-md shadow-slate-300 ring-2 ring-teal-100/90`
                       : `${item.bgLight} ${item.iconColor} ${item.borderLight} group-hover:scale-110 group-hover:shadow-sm`
                   }`}
                 >
