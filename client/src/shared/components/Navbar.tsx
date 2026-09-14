@@ -56,7 +56,7 @@ export const Navbar = () => {
   }, [location.pathname]);
 
   return (
-    <header className="sticky top-0 z-50 flex h-14 flex-shrink-0 items-center justify-between border-b-2 border-border bg-white/95 px-4 backdrop-blur-xl sm:px-6">
+    <header className="app-topbar sticky top-0 z-50 flex h-14 flex-shrink-0 items-center justify-between border-b-2 border-border px-4 backdrop-blur-xl sm:px-6">
       <div className="flex-1 max-w-2xl">
         {searchConfig ? (
           <div className="relative">
