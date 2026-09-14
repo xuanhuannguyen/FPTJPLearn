@@ -5,7 +5,6 @@ import { kanjiApi } from '../api/kanjiApi';
 import { memoryApi } from '../../memory/api/memoryApi';
 import type { KanjiLesson, KanjiItem } from '../types/kanji.types';
 import type { MemoryGrammarStatus } from '../../memory/types/memory.types';
-// @ts-expect-error -- this project doesn't include hanzi-writer types
 import HanziWriter from 'hanzi-writer';
 
 type HanziWriterCharData = {
@@ -374,6 +373,10 @@ export const KanjiStudyPage = () => {
       if (!hwRef.current) break; // if modal closed
       setStrokeAnimIndex(i);
       await new Promise(resolve => {
+        if (!hwRef.current) {
+          resolve(undefined);
+          return;
+        }
         hwRef.current.animateStroke(i, {
           onComplete: () => setTimeout(resolve, 400)
         });
@@ -527,20 +530,32 @@ export const KanjiStudyPage = () => {
             {/* Practice Bento Box */}
             <div className="grid flex-1 grid-cols-1 gap-3 sm:grid-cols-2">
               {/* Component Graph Box */}
-              <div className="flex min-h-[260px] flex-col border-2 border-border bg-white p-3 shadow-card">
+              <div className="flex min-h-[260px] flex-col border-2 border-border bg-white p-3 shadow-card rounded-xl">
                 <div className="flex items-center justify-between mb-3 border-b border-border pb-2">
-                  <span className="text-xs font-black uppercase tracking-wider">Bộ thủ / Thành phần</span>
+                  <span className="text-xs font-black uppercase tracking-wider text-text-primary">Bộ thủ / Thành phần</span>
                 </div>
                 <div className="flex-1 flex items-center justify-center">
                   {currentKanji.components && currentKanji.components.length > 0 ? (
                     <svg width="100%" height="200" viewBox="0 0 280 200" className="overflow-visible">
                       <defs>
                         <marker id="arrowhead" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
-                          <polygon points="0 0, 8 3, 0 6" fill="#94a3b8" />
+                          <polygon points="0 0, 8 3, 0 6" fill="#0f766e" />
                         </marker>
                         <filter id="nodeShadow" x="-20%" y="-20%" width="140%" height="140%">
-                          <feDropShadow dx="1" dy="2" stdDeviation="2" floodOpacity="0.15" />
+                          <feDropShadow dx="0" dy="3" stdDeviation="3" floodColor="#0f172a" floodOpacity="0.16" />
                         </filter>
+                        <linearGradient id="centerKanjiGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                          <stop offset="0%" stopColor="#14b8a6" />
+                          <stop offset="100%" stopColor="#0f766e" />
+                        </linearGradient>
+                        <linearGradient id="radicalNodeGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                          <stop offset="0%" stopColor="#f59e0b" />
+                          <stop offset="100%" stopColor="#d97706" />
+                        </linearGradient>
+                        <linearGradient id="componentNodeGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                          <stop offset="0%" stopColor="#fb923c" />
+                          <stop offset="100%" stopColor="#ea580c" />
+                        </linearGradient>
                       </defs>
 
                       {/* Dynamically compute component positions around the center */}
@@ -575,7 +590,7 @@ export const KanjiStudyPage = () => {
                                 <g key={`arrow-${i}`}>
                                   <line
                                     x1={startX} y1={startY} x2={endX} y2={endY}
-                                    stroke="#94a3b8" strokeWidth="1.5" markerEnd="url(#arrowhead)"
+                                    stroke="#cbd5e1" strokeWidth="1.5" markerEnd="url(#arrowhead)"
                                   />
                                   {components[i].reading && (
                                     <text
@@ -591,15 +606,16 @@ export const KanjiStudyPage = () => {
                               );
                             })}
 
-                            {/* Component nodes (Orange) - clickable */}
+                            {/* Component nodes (Amber / Terracotta) - clickable */}
                             {components.map((comp, i) => {
                               const hanVietLabel = RADICAL_HANVIET[comp.character] || comp.name.split(' ')[0];
                               const labelWidth = hanVietLabel.length * 8 + 16;
+                              const isRadical = comp.isRadical;
                               return (
                               <g
                                 key={`comp-${i}`}
                                 filter="url(#nodeShadow)"
-                                className="cursor-pointer transition-transform hover:scale-[1.03]"
+                                className="cursor-pointer transition-transform hover:scale-[1.05]"
                                 style={{ transformOrigin: `${positions[i].x}px ${positions[i].y}px` }}
                                 onClick={() => {
                                   if (comp.kanjiId) {
@@ -609,7 +625,14 @@ export const KanjiStudyPage = () => {
                                 onMouseEnter={() => setHoveredComponent(i)}
                                 onMouseLeave={() => setHoveredComponent(null)}
                               >
-                                <circle cx={positions[i].x} cy={positions[i].y} r="24" fill="#F97316" stroke="#C2410C" strokeWidth="2.5" />
+                                <circle
+                                  cx={positions[i].x}
+                                  cy={positions[i].y}
+                                  r="24"
+                                  fill={isRadical ? "url(#radicalNodeGrad)" : "url(#componentNodeGrad)"}
+                                  stroke={isRadical ? "#b45309" : "#c2410c"}
+                                  strokeWidth="2"
+                                />
                                 <text x={positions[i].x} y={positions[i].y + 6} textAnchor="middle" fill="#fff" fontSize="18" fontWeight="bold" style={{ fontFamily: '"Noto Serif JP", serif' }}>
                                   {comp.character}
                                 </text>
@@ -622,14 +645,14 @@ export const KanjiStudyPage = () => {
                                       width={labelWidth} 
                                       height="24" 
                                       rx="6" 
-                                      fill="#1E293B" 
+                                      fill="#0f172a" 
                                       opacity="0.95" 
                                     />
                                     <text 
                                       x={positions[i].x} 
                                       y={positions[i].y + 48} 
                                       textAnchor="middle" 
-                                      fill="#F8FAFC" 
+                                      fill="#f8fafc" 
                                       fontSize="12" 
                                       fontWeight="bold" 
                                       fontFamily="'Comic Neue', cursive"
@@ -641,9 +664,9 @@ export const KanjiStudyPage = () => {
                               </g>
                             )})}
 
-                            {/* Main Kanji node (center, Blue) */}
+                            {/* Main Kanji node (center, Deep Teal Emerald) */}
                             <g filter="url(#nodeShadow)">
-                              <circle cx={centerX} cy={centerY} r="28" fill="#3B82F6" stroke="#1D4ED8" strokeWidth="2.5" />
+                              <circle cx={centerX} cy={centerY} r="28" fill="url(#centerKanjiGrad)" stroke="#0f766e" strokeWidth="2.5" />
                               <text x={centerX} y={centerY + 8} textAnchor="middle" fill="#fff" fontSize="22" fontWeight="bold" style={{ fontFamily: '"Noto Serif JP", serif' }}>
                                 {currentKanji.character}
                               </text>
@@ -659,12 +682,16 @@ export const KanjiStudyPage = () => {
                 {currentKanji.components && currentKanji.components.length > 0 && (
                   <div className="mt-2 grid grid-cols-1 gap-1.5 border-t border-border pt-2 text-[11px]">
                     {currentKanji.components.map((component) => (
-                      <div key={`${component.character}-${component.position || 'component'}`} className="flex items-center justify-between gap-2 rounded-md bg-slate-50 px-2 py-1">
+                      <div key={`${component.character}-${component.position || 'component'}`} className="flex items-center justify-between gap-2 rounded-lg border border-border/80 bg-bg-primary/50 px-2.5 py-1.5 transition-colors hover:bg-bg-primary">
                         <span className="flex items-center gap-2">
-                          <span className="font-jp text-lg font-black text-slate-900">{component.character}</span>
-                          <span className="font-bold text-slate-700">{component.name}</span>
+                          <span className="font-jp text-lg font-black text-text-primary">{component.character}</span>
+                          <span className="font-bold text-text-secondary">{component.name}</span>
                         </span>
-                        <span className="text-right text-[10px] font-bold uppercase text-slate-500">
+                        <span className={`text-right text-[10px] font-bold uppercase px-2 py-0.5 rounded-full border ${
+                          component.isRadical 
+                            ? 'bg-amber-50 text-amber-800 border-amber-200/80' 
+                            : 'bg-teal-50 text-teal-800 border-teal-200/80'
+                        }`}>
                           {component.isRadical ? 'Bộ thủ' : 'Thành phần'}{component.position ? ` · ${component.position}` : ''}
                         </span>
                       </div>
@@ -791,50 +818,53 @@ export const KanjiStudyPage = () => {
           <div className="lg:col-span-4 flex flex-col gap-3" style={{ fontFamily: '"Comic Neue", cursive' }}>
             
             <div className="border-2 border-border bg-white p-5 shadow-card flex-1 flex flex-col rounded-xl">
-              <div className="mb-4 text-orange-500 font-bold text-sm tracking-wide">
-                → Quy tắc chuyển âm
+              <div className="mb-4 text-accent-cta font-bold text-sm tracking-wide flex items-center gap-1.5">
+                <span>→</span>
+                <span>Quy tắc chuyển âm</span>
               </div>
 
-              <div className="space-y-3 text-[17px] text-slate-800 flex-1">
-                <div className="flex gap-1">
-                  <span className="font-bold min-w-[110px]">Hán Việt:</span>
-                  <span className="text-[#F05152] font-bold uppercase">{currentKanji.hanViet}</span>
+              <div className="space-y-3 text-[16px] text-text-primary flex-1">
+                <div className="flex gap-1 items-baseline">
+                  <span className="font-bold min-w-[110px] text-text-secondary">Hán Việt:</span>
+                  <span className="text-accent-cta font-black uppercase text-xl tracking-wide">{currentKanji.hanViet}</span>
                 </div>
                 
-                <div className="flex gap-1">
-                  <span className="font-bold min-w-[110px]">Ý nghĩa:</span>
-                  <span className="text-[#F05152] font-bold">{currentKanji.meaning}</span>
+                <div className="flex gap-1 items-baseline">
+                  <span className="font-bold min-w-[110px] text-text-secondary">Ý nghĩa:</span>
+                  <span className="text-text-primary font-bold">{currentKanji.meaning}</span>
                 </div>
 
-                <div className="flex gap-1">
-                  <span className="font-bold min-w-[110px]">Trình độ JLPT:</span>
-                  <span className="text-[#F05152] font-bold">{level?.toUpperCase() || 'N5'}</span>
+                <div className="flex gap-1 items-center">
+                  <span className="font-bold min-w-[110px] text-text-secondary">Trình độ JLPT:</span>
+                  <span className="inline-flex items-center rounded-md bg-teal-50 px-2 py-0.5 text-xs font-bold text-accent-primary border border-teal-200/60">
+                    {level?.toUpperCase() || 'N5'}
+                  </span>
                 </div>
 
-                <div className="flex gap-1">
-                  <span className="font-bold min-w-[110px]">Số nét:</span>
-                  <span className="text-[#F05152] font-bold">{currentKanji.strokeCount}</span>
+                <div className="flex gap-1 items-baseline">
+                  <span className="font-bold min-w-[110px] text-text-secondary">Số nét:</span>
+                  <span className="text-text-primary font-bold">{currentKanji.strokeCount}</span>
                 </div>
 
-                <div className="flex gap-1">
-                  <span className="font-bold min-w-[110px]">Âm Kun:</span>
-                  <span className="text-[#F05152] font-bold tracking-wide">
+                <div className="flex gap-1 items-baseline">
+                  <span className="font-bold min-w-[110px] text-text-secondary">Âm Kun:</span>
+                  <span className="text-accent-primary font-bold tracking-wide">
                     {currentKanji.kunReading || "-"}
                   </span>
                 </div>
 
-                <div className="flex gap-1">
-                  <span className="font-bold min-w-[110px]">Âm On:</span>
-                  <span className="text-[#F05152] font-bold tracking-wide">
+                <div className="flex gap-1 items-baseline">
+                  <span className="font-bold min-w-[110px] text-text-secondary">Âm On:</span>
+                  <span className="text-accent-cta font-bold tracking-wide">
                     {currentKanji.onReading || "-"}
                   </span>
                 </div>
 
-                <div className="flex gap-1 mt-3">
-                  <span className="font-bold min-w-[110px]">Gợi ý cách nhớ:</span>
-                  <span className="text-[#F05152] font-bold flex-1">
+                <div className="flex flex-col gap-1 mt-3 rounded-lg border border-amber-200/70 bg-amber-50/60 p-3">
+                  <span className="font-bold text-xs uppercase tracking-wider text-amber-800">Gợi ý cách nhớ:</span>
+                  <p className="text-sm font-medium text-amber-950 leading-relaxed">
                     {currentKanji.mnemonic || "Chưa có gợi ý cách nhớ cho từ này."}
-                  </span>
+                  </p>
                 </div>
               </div>
 
@@ -847,7 +877,6 @@ export const KanjiStudyPage = () => {
       {/* Bottom Bar: Controls */}
       <footer className="shrink-0 border-t-2 border-border bg-white px-4 py-3 sticky bottom-0">
         <div className="max-w-[768px] mx-auto flex items-center justify-between">
-          
           <div className="flex items-center gap-2">
             <button 
               onClick={handlePrev}

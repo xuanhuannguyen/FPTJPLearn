@@ -6,20 +6,20 @@
 
 @layer base {
   :root {
-    /* Japanese Zen Waves & Ceramic Stone Surface */
-    --bg-primary: #f7f5f0;
+    /* Luminous Japanese Art Canvas */
+    --bg-primary: #f8fafc;
     --bg-secondary: #ffffff;
-    --bg-tertiary: #f0ece1;
+    --bg-tertiary: #f1f5f9;
 
     /* Text */
-    --text-primary: #1e293b;
-    --text-secondary: #475569;
+    --text-primary: #0f172a;
+    --text-secondary: #334155;
     --text-muted: #64748b;
     --text-tertiary: #94a3b8;
 
     /* Accent */
-    --accent-primary: #0f766e;
-    --accent-hover: #115e59;
+    --accent-primary: #0d9488;
+    --accent-hover: #0f766e;
     --accent-success: #059669;
     --accent-danger: #e11d48;
     --accent-warning: #d97706;
@@ -27,16 +27,16 @@
     --accent-info: #0284c7;
 
     /* Border */
-    --border-color: #e6dfd1;
-    --border-hover: #d5cbba;
-    --border-active: #0f766e;
+    --border-color: #e2e8f0;
+    --border-hover: #cbd5e1;
+    --border-active: #0d9488;
 
     /* Elevation */
-    --shadow-card: 0 4px 20px -2px rgba(30, 41, 59, 0.05), 0 2px 6px -1px rgba(30, 41, 59, 0.03);
-    --shadow-lift: 0 12px 28px -4px rgba(30, 41, 59, 0.09), 0 4px 10px -2px rgba(30, 41, 59, 0.04);
-    --shadow-pop: 0 2px 8px rgba(30, 41, 59, 0.06);
+    --shadow-card: 0 4px 20px -2px rgba(15, 23, 42, 0.05), 0 2px 6px -1px rgba(15, 23, 42, 0.03);
+    --shadow-lift: 0 12px 28px -4px rgba(15, 23, 42, 0.09), 0 4px 10px -2px rgba(15, 23, 42, 0.04);
+    --shadow-pop: 0 2px 8px rgba(15, 23, 42, 0.06);
     --shadow-warm: 0 10px 25px -3px rgba(234, 88, 12, 0.2);
-    --shadow-glow: 0 0 24px rgba(15, 118, 110, 0.2);
+    --shadow-glow: 0 0 24px rgba(13, 148, 136, 0.2);
 
     /* Fonts */
     --font-japanese: "Noto Sans JP", "Hiragino Kaku Gothic ProN", "Meiryo", sans-serif;
@@ -63,11 +63,12 @@
     @apply bg-bg-primary text-text-primary antialiased selection:bg-accent-primary selection:text-white;
     font-family: "Nunito Sans", var(--font-japanese);
     min-width: 320px;
-    background-color: #f7f5f0;
+    background-color: #f8fafc;
     background-image:
-      radial-gradient(ellipse at 92% 8%, rgba(15, 118, 110, 0.05), transparent 32rem),
-      radial-gradient(ellipse at 8% 92%, rgba(217, 119, 6, 0.04), transparent 30rem),
-      linear-gradient(135deg, #fbf9f5 0%, #f7f5f0 50%, #f4f1ea 100%);
+      radial-gradient(circle at 15% 10%, rgba(14, 165, 233, 0.06), transparent 30rem),
+      radial-gradient(circle at 85% 15%, rgba(245, 158, 11, 0.06), transparent 30rem),
+      radial-gradient(circle at 50% 90%, rgba(16, 185, 129, 0.05), transparent 35rem),
+      linear-gradient(135deg, #ffffff 0%, #f8fafc 50%, #f1f5f9 100%);
   }
 
   h1,
@@ -424,40 +425,43 @@
   animation: float 3s ease-in-out infinite;
 }
 
-/* Japanese Zen Waves & Ceramic Surface - distinctive, calm, artistic */
+/* Luminous Japanese Spring Zen Canvas - Bright, Rich, Artistic */
 .blue-grid {
-  background-color: #f7f5f0;
+  background-color: #f8fafc;
   background-image:
-    /* Zen flowing stream waves (Ryusui) at bottom-right */
-    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='700' height='450' viewBox='0 0 700 450' fill='none'%3E%3Cpath d='M700 80 C520 110 440 250 250 280 C130 300 50 380 0 450' stroke='%230f766e' stroke-width='1.4' stroke-opacity='0.09'/%3E%3Cpath d='M700 125 C535 150 460 280 280 310 C160 330 80 400 30 450' stroke='%230f766e' stroke-width='1.3' stroke-opacity='0.08'/%3E%3Cpath d='M700 170 C550 190 480 310 310 340 C190 360 110 415 60 450' stroke='%230f766e' stroke-width='1.2' stroke-opacity='0.07' stroke-dasharray='5 7'/%3E%3Cpath d='M700 215 C565 230 500 340 340 370 C220 390 140 430 90 450' stroke='%23c27803' stroke-width='1.3' stroke-opacity='0.07'/%3E%3Cpath d='M700 260 C580 270 520 370 370 400 C250 415 170 440 120 450' stroke='%23c27803' stroke-width='1.2' stroke-opacity='0.06'/%3E%3Cpath d='M700 35 C505 70 420 220 220 250 C100 270 25 360 0 420' stroke='%230f766e' stroke-width='1.2' stroke-opacity='0.05'/%3E%3C/svg%3E"),
-    /* Zen ripple arches (Karesansui) at top-right */
-    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='560' height='400' viewBox='0 0 560 400' fill='none'%3E%3Cpath d='M560 40 C430 45 340 130 330 260 C325 320 350 370 370 400' stroke='%230f766e' stroke-width='1.2' stroke-opacity='0.08' stroke-dasharray='6 6'/%3E%3Cpath d='M560 90 C450 95 375 165 365 275 C360 325 385 370 400 400' stroke='%230f766e' stroke-width='1.2' stroke-opacity='0.07'/%3E%3Cpath d='M560 140 C470 145 410 200 400 290 C395 330 415 370 430 400' stroke='%230f766e' stroke-width='1.2' stroke-opacity='0.06' stroke-dasharray='4 8'/%3E%3Cpath d='M560 190 C490 195 445 235 435 305 C430 340 445 375 460 400' stroke='%23c27803' stroke-width='1.2' stroke-opacity='0.06'/%3E%3Cpath d='M560 240 C510 245 480 270 470 320 C465 350 475 380 490 400' stroke='%23c27803' stroke-width='1.2' stroke-opacity='0.05'/%3E%3C/svg%3E"),
-    /* Zen soft arc at bottom-left */
-    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='450' height='350' viewBox='0 0 450 350' fill='none'%3E%3Cpath d='M0 100 C120 120 220 190 280 350' stroke='%230f766e' stroke-width='1.2' stroke-opacity='0.06'/%3E%3Cpath d='M0 150 C100 170 180 230 230 350' stroke='%230f766e' stroke-width='1.2' stroke-opacity='0.05' stroke-dasharray='6 6'/%3E%3Cpath d='M0 200 C80 220 140 270 180 350' stroke='%23c27803' stroke-width='1.2' stroke-opacity='0.05'/%3E%3C/svg%3E"),
-    /* Ambient diffuse light */
-    radial-gradient(ellipse at 95% 5%, rgba(15, 118, 110, 0.05) 0%, transparent 40rem),
-    radial-gradient(ellipse at 5% 95%, rgba(194, 120, 3, 0.04) 0%, transparent 35rem),
-    linear-gradient(135deg, #fbf9f5 0%, #f7f5f0 50%, #f4f1ea 100%);
-  background-position: right bottom, right top, left bottom, top right, bottom left, center;
+    /* Flowing Japanese Stream Waves with Sakura Accents at bottom-right */
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='800' height='550' viewBox='0 0 800 550' fill='none'%3E%3Cpath d='M800 100 C620 130 520 280 320 320 C180 345 80 440 0 530' stroke='%230d9488' stroke-width='2' stroke-opacity='0.16'/%3E%3Cpath d='M800 150 C635 175 545 315 350 350 C215 375 110 465 40 535' stroke='%230284c7' stroke-width='1.8' stroke-opacity='0.15'/%3E%3Cpath d='M800 200 C650 220 570 350 380 380 C250 405 145 485 80 540' stroke='%23d97706' stroke-width='1.8' stroke-opacity='0.14' stroke-dasharray='7 7'/%3E%3Cpath d='M800 250 C665 260 595 385 415 415 C285 435 180 505 120 545' stroke='%23ea580c' stroke-width='1.6' stroke-opacity='0.13'/%3E%3Cpath d='M800 50 C590 85 490 240 280 280 C140 310 40 410 0 495' stroke='%23059669' stroke-width='1.8' stroke-opacity='0.12'/%3E%3Cpath d='M680 180 C675 165 690 155 700 165 C710 175 700 195 685 190 Z' fill='%23fb7185' fill-opacity='0.22'/%3E%3Cpath d='M580 290 C572 278 585 268 595 276 C603 284 595 300 583 297 Z' fill='%23fb7185' fill-opacity='0.2' transform='rotate(25 580 290)'/%3E%3Cpath d='M460 380 C452 370 465 360 474 367 C482 374 475 390 463 387 Z' fill='%23f43f5e' fill-opacity='0.18' transform='rotate(-35 460 380)'/%3E%3Cpath d='M340 450 C334 442 344 434 351 439 C357 444 352 457 342 455 Z' fill='%23fda4af' fill-opacity='0.2'/%3E%3C/svg%3E"),
+    /* Radiant Zen Ripple Crests at top-right */
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='600' height='450' viewBox='0 0 600 450' fill='none'%3E%3Cellipse cx='600' cy='0' rx='180' ry='180' stroke='%230d9488' stroke-width='1.8' stroke-opacity='0.15'/%3E%3Cellipse cx='600' cy='0' rx='250' ry='250' stroke='%23d97706' stroke-width='1.6' stroke-opacity='0.14' stroke-dasharray='8 8'/%3E%3Cellipse cx='600' cy='0' rx='320' ry='320' stroke='%230284c7' stroke-width='1.6' stroke-opacity='0.13'/%3E%3Cellipse cx='600' cy='0' rx='390' ry='390' stroke='%23ea580c' stroke-width='1.5' stroke-opacity='0.12' stroke-dasharray='5 7'/%3E%3Cpath d='M420 80 C412 70 425 60 434 67 C442 74 435 90 423 87 Z' fill='%23fb7185' fill-opacity='0.2' transform='rotate(15 420 80)'/%3E%3Cpath d='M490 160 C484 152 494 144 501 149 C507 154 502 167 492 165 Z' fill='%23fda4af' fill-opacity='0.22'/%3E%3C/svg%3E"),
+    /* Subtle Zen Curve at bottom-left */
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='450' height='380' viewBox='0 0 450 380' fill='none'%3E%3Cpath d='M0 120 C140 140 240 220 300 380' stroke='%230d9488' stroke-width='1.8' stroke-opacity='0.14'/%3E%3Cpath d='M0 180 C110 200 200 270 250 380' stroke='%230284c7' stroke-width='1.6' stroke-opacity='0.13' stroke-dasharray='6 6'/%3E%3Cpath d='M0 240 C90 260 160 310 200 380' stroke='%23d97706' stroke-width='1.5' stroke-opacity='0.12'/%3E%3Cpath d='M180 250 C172 240 185 230 194 237 C202 244 195 260 183 257 Z' fill='%23fb7185' fill-opacity='0.18' transform='rotate(-20 180 250)'/%3E%3C/svg%3E"),
+    /* Luminous Ambient Diffuse Radiance */
+    radial-gradient(ellipse at 92% 8%, rgba(245, 158, 11, 0.08) 0%, transparent 42rem),
+    radial-gradient(ellipse at 12% 15%, rgba(14, 165, 233, 0.08) 0%, transparent 40rem),
+    radial-gradient(ellipse at 8% 88%, rgba(13, 148, 136, 0.07) 0%, transparent 40rem),
+    linear-gradient(135deg, #ffffff 0%, #f8fafc 50%, #f1f5f9 100%);
+  background-position: right bottom, right top, left bottom, top right, top left, bottom left, center;
   background-repeat: no-repeat;
-  background-size: min(700px, 50vw) auto, min(560px, 40vw) auto, min(450px, 30vw) auto, 100% 100%, 100% 100%, 100% 100%;
-  background-attachment: fixed, fixed, fixed, scroll, scroll, scroll;
+  background-size: min(800px, 55vw) auto, min(600px, 42vw) auto, min(450px, 32vw) auto, 100% 100%, 100% 100%, 100% 100%, 100% 100%;
+  background-attachment: fixed, fixed, fixed, scroll, scroll, scroll, scroll;
 }
 
 .app-topbar {
-  background: rgba(247, 245, 240, 0.88);
-  border-bottom: 1px solid #e6dfd1;
-  box-shadow: 0 1px 3px 0 rgba(30, 41, 59, 0.03), 0 10px 20px -5px rgba(30, 41, 59, 0.02);
+  background: rgba(255, 255, 255, 0.9);
+  backdrop-filter: blur(16px);
+  border-bottom: 1px solid rgba(226, 232, 240, 0.9);
+  box-shadow: 0 1px 3px 0 rgba(15, 23, 42, 0.03), 0 10px 24px -6px rgba(15, 23, 42, 0.03);
 }
 
-/* Sidebar: Architectural Deep Command Rail */
+/* Sidebar: Luminous Frosted Pearl Rail */
 .sidebar-shell {
   position: relative;
   isolation: isolate;
-  color: #94a3b8;
-  border-right: 1px solid rgba(255, 255, 255, 0.08);
-  background: #0b111e;
-  box-shadow: 4px 0 24px -2px rgba(11, 17, 30, 0.12);
+  color: #475569;
+  border-right: 1px solid rgba(226, 232, 240, 0.95);
+  background: rgba(255, 255, 255, 0.92);
+  backdrop-filter: blur(20px);
+  box-shadow: 4px 0 24px -2px rgba(15, 23, 42, 0.04);
 }
 
 .sidebar-shell::before {
@@ -467,22 +471,22 @@
   content: '';
   pointer-events: none;
   background:
-    radial-gradient(ellipse at 50% 0%, rgba(13, 148, 136, 0.12), transparent 70%),
-    radial-gradient(ellipse at 50% 100%, rgba(217, 119, 6, 0.08), transparent 60%);
+    radial-gradient(ellipse at 50% 0%, rgba(14, 165, 233, 0.08), transparent 70%),
+    radial-gradient(ellipse at 50% 100%, rgba(245, 158, 11, 0.08), transparent 60%);
 }
 
 .sidebar-brand {
-  border-bottom: 1px solid rgba(255, 255, 255, 0.07);
-  background: rgba(255, 255, 255, 0.02);
+  border-bottom: 1px solid rgba(226, 232, 240, 0.85);
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.98), rgba(248, 250, 252, 0.85));
 }
 
 .sidebar-logo {
   display: grid;
   place-items: center;
-  border: 1px solid rgba(255, 255, 255, 0.14);
-  border-radius: 14px;
-  background: #0f172a;
-  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.35);
+  border: 1.5px solid rgba(226, 232, 240, 0.9);
+  border-radius: 16px;
+  background: #ffffff;
+  box-shadow: 0 4px 16px -2px rgba(15, 23, 42, 0.08), 0 2px 4px -1px rgba(15, 23, 42, 0.04);
 }
 
 .sidebar-nav-link {
@@ -491,43 +495,47 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 5px;
-  width: 66px;
-  height: 64px;
+  gap: 4px;
+  width: 68px;
+  height: 66px;
   border-radius: 16px;
-  border: 1px solid transparent;
-  color: #94a3b8;
-  transition: all 200ms cubic-bezier(0.16, 1, 0.3, 1);
+  border: 1px solid rgba(226, 232, 240, 0.7);
+  background: rgba(255, 255, 255, 0.8);
+  color: #64748b;
+  box-shadow: 0 2px 5px rgba(15, 23, 42, 0.03);
+  transition: all 220ms cubic-bezier(0.16, 1, 0.3, 1);
 }
 
 .sidebar-nav-link::before {
   position: absolute;
   top: 50%;
-  left: -8px;
-  width: 3.5px;
-  height: 22px;
+  left: -9px;
+  width: 4px;
+  height: 24px;
   border-radius: 0 4px 4px 0;
   content: '';
   transform: translateY(-50%) scaleY(0);
   transform-origin: center;
-  background: linear-gradient(180deg, #2dd4bf 0%, #0d9488 100%);
-  box-shadow: 0 0 10px rgba(45, 212, 191, 0.6);
+  background: linear-gradient(180deg, #0d9488 0%, #059669 100%);
+  box-shadow: 0 0 12px rgba(13, 148, 136, 0.6);
   opacity: 0;
-  transition: transform 200ms ease, opacity 200ms ease;
+  transition: transform 220ms ease, opacity 220ms ease;
 }
 
 .sidebar-nav-link:hover {
-  color: #f8fafc;
-  border-color: rgba(255, 255, 255, 0.1);
-  background: rgba(255, 255, 255, 0.05);
-  transform: translateY(-1px);
+  color: #0f172a;
+  border-color: rgba(203, 213, 225, 0.95);
+  background: #ffffff;
+  box-shadow: 0 6px 18px -2px rgba(15, 23, 42, 0.08);
+  transform: translateY(-2px);
 }
 
 .sidebar-nav-link--active {
-  color: #ffffff;
-  border-color: rgba(45, 212, 191, 0.35);
-  background: rgba(13, 148, 136, 0.14);
-  box-shadow: 0 4px 16px rgba(13, 148, 136, 0.2), inset 0 1px 0 rgba(255, 255, 255, 0.15);
+  color: #0f172a;
+  border-color: rgba(13, 148, 136, 0.4);
+  background: #ffffff;
+  box-shadow: 0 8px 22px -3px rgba(13, 148, 136, 0.18), 0 2px 6px -1px rgba(13, 148, 136, 0.08);
+  transform: translateY(-1px);
 }
 
 .sidebar-nav-link--active::before {
@@ -540,35 +548,29 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 32px;
-  height: 32px;
-  border-radius: 10px;
-  border: 1px solid rgba(255, 255, 255, 0.08);
-  background: rgba(255, 255, 255, 0.04);
-  color: #94a3b8;
-  transition: all 200ms cubic-bezier(0.16, 1, 0.3, 1);
+  width: 34px;
+  height: 34px;
+  border-radius: 11px;
+  border: 1px solid rgba(226, 232, 240, 0.8);
+  background: #f8fafc;
+  transition: all 220ms cubic-bezier(0.16, 1, 0.3, 1);
 }
 
 .sidebar-nav-link:hover .sidebar-nav-icon {
-  border-color: rgba(255, 255, 255, 0.2);
-  background: rgba(255, 255, 255, 0.1);
-  color: #f1f5f9;
-  transform: scale(1.05);
+  transform: scale(1.06);
+  border-color: rgba(203, 213, 225, 1);
+  box-shadow: 0 2px 8px rgba(15, 23, 42, 0.06);
 }
 
 .sidebar-nav-link--active .sidebar-nav-icon {
-  border-color: rgba(45, 212, 191, 0.5);
-  background: linear-gradient(135deg, rgba(20, 184, 166, 0.3), rgba(13, 148, 136, 0.15));
-  color: #2dd4bf;
-  box-shadow: 0 0 14px rgba(45, 212, 191, 0.3);
-  transform: scale(1.05);
+  transform: scale(1.06);
 }
 
 .sidebar-nav-label {
   font-size: 10px;
-  font-weight: 700;
+  font-weight: 800;
   line-height: 1.15;
-  letter-spacing: 0.02em;
+  letter-spacing: 0.015em;
   transition: color 200ms ease;
 }
 

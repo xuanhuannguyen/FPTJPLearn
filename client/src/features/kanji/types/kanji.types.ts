@@ -53,7 +53,6 @@ export interface KanjiVocabulary {
   exampleJapanese?: string;
   exampleReading?: string;
   exampleMeaning?: string;
-  kanjiItemId?: string;
   kanjiItemIds?: string[];
   kanjiCharacters?: string[];
 }
