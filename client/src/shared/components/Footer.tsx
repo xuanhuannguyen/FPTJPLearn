@@ -7,7 +7,7 @@ interface FooterProps {
 
 export const Footer = ({ showCommunityCard = true }: FooterProps) => {
   return (
-    <footer className="mt-auto border-t border-slate-100 bg-white/80 py-2 backdrop-blur-sm">
+    <footer className="app-footer mt-auto py-2 backdrop-blur-sm">
       <div className="w-full px-4 lg:px-8">
         <div className={showCommunityCard ? 'grid gap-2 lg:grid-cols-[minmax(0,1fr)_auto_minmax(0,1fr)] lg:items-center' : 'flex flex-col gap-2 md:flex-row md:items-center md:justify-center'}>
           {showCommunityCard ? (

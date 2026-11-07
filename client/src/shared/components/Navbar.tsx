@@ -1,6 +1,6 @@
 import { useMemo, useState, useRef, useEffect } from 'react';
 import { useLocation, Link, useNavigate } from 'react-router-dom';
-import { Bell, Search, LogOut, Sparkles, MessageSquare } from 'lucide-react';
+import { Bell, Search, LogOut, Sparkles, MessageSquare, Menu } from 'lucide-react';
 import { useSearchStore } from '../stores/searchStore';
 import { useAuthStore } from '../stores/authStore';
 import { useUserAccess } from '../hooks/useUserAccess';
@@ -17,7 +17,19 @@ const NotificationIcon = ({ notification }: { notification: AppNotification }) =
   return <MessageSquare size={16} className={className} />;
 };
 
-export const Navbar = () => {
+const PAGE_SECTIONS = [
+  ['/dashboard', 'Tổng quan'],
+  ['/intro', 'Nhập môn'],
+  ['/kanji', 'Hán tự'],
+  ['/vocabulary', 'Từ vựng'],
+  ['/grammar', 'Ngữ pháp'],
+  ['/memory', 'Ghi nhớ'],
+  ['/active-vocabulary', 'Từ vựng chủ động'],
+  ['/speaking', 'Luyện nói'],
+  ['/exam', 'Luyện thi'],
+] as const;
+
+export const Navbar = ({ onMenuClick, mobileNavOpen }: { onMenuClick: () => void; mobileNavOpen: boolean }) => {
   const location = useLocation();
   const navigate = useNavigate();
   const query = useSearchStore((state) => state.query);
@@ -31,6 +43,9 @@ export const Navbar = () => {
   const bellRef = useRef<HTMLDivElement>(null);
 
   const unreadCount = NOTIFICATIONS.filter(n => !readIds.includes(n.id)).length;
+  const pageTitle = PAGE_SECTIONS.find(([path]) => (
+    location.pathname === path || location.pathname.startsWith(`${path}/`)
+  ))?.[1] ?? (location.pathname.startsWith('/pricing') ? 'Nâng cấp' : location.pathname.startsWith('/notifications') ? 'Thông báo' : 'Không gian học tập');
 
   useEffect(() => {
     const handleClickOutside = (e: MouseEvent) => {
@@ -56,10 +71,23 @@ export const Navbar = () => {
   }, [location.pathname]);
 
   return (
-    <header className="app-topbar sticky top-0 z-50 flex h-14 flex-shrink-0 items-center justify-between border-b-2 border-border px-4 backdrop-blur-xl sm:px-6">
-      <div className="flex-1 max-w-2xl">
+    <header className="app-topbar sticky top-0 z-50 flex h-[62px] flex-shrink-0 items-center justify-between px-4 sm:px-6">
+      <div className="flex min-w-0 flex-1 items-center gap-3">
+        <button
+          type="button"
+          onClick={onMenuClick}
+          className="topbar-icon-button md:hidden"
+          aria-label="Mở menu điều hướng"
+          aria-expanded={mobileNavOpen}
+        >
+          <Menu size={19} />
+        </button>
+        <div className="topbar-page-title min-w-0">
+          <span>JPLEARN / KHÔNG GIAN HỌC TẬP</span>
+          <strong>{pageTitle}</strong>
+        </div>
         {searchConfig ? (
-          <div className="relative">
+          <div className="relative ml-4 w-full max-w-sm">
             <label htmlFor="global-search" className="sr-only">
               Global search
             </label>
@@ -76,11 +104,11 @@ export const Navbar = () => {
         ) : null}
       </div>
       
-      <div className="ml-4 flex items-center gap-2">
+      <div className="ml-3 flex items-center gap-2">
         {licensingEnabled ? (
           <Link
             to="/pricing"
-            className="mr-2 flex h-8 items-center gap-2 rounded-lg border-2 border-border bg-gradient-to-r from-blue-500 to-blue-600 px-3 text-white shadow-pop transition-all hover:-translate-y-0.5"
+            className="topbar-upgrade mr-1 flex h-9 items-center gap-2 rounded-xl px-3 text-white transition-all hover:-translate-y-0.5"
           >
             <Sparkles size={14} className="fill-current" />
             <span className="text-[10px] font-black uppercase tracking-wider">Nâng cấp</span>
@@ -89,17 +117,20 @@ export const Navbar = () => {
 
         <div className="relative" ref={bellRef}>
           <button
+            type="button"
             onClick={() => {
               setShowNotifications(!showNotifications);
             }}
-            className={`relative flex h-8 w-8 cursor-pointer items-center justify-center rounded-lg border-2 border-border bg-white/95 text-text-secondary shadow-pop transition-all hover:-translate-y-0.5 hover:text-text-primary ${
-              showNotifications ? 'bg-blue-50 border-border-active text-text-primary' : ''
+            aria-label={`Thông báo${unreadCount ? `, ${unreadCount} chưa đọc` : ''}`}
+            aria-expanded={showNotifications}
+            className={`topbar-icon-button relative ${
+              showNotifications ? 'topbar-icon-button--active' : ''
             }`}
           >
             <Bell size={16} />
             {unreadCount > 0 && (
               <span className="absolute -top-1.5 -right-1.5 flex h-[18px] w-[18px] items-center justify-center rounded-full bg-accent-danger text-[9px] font-black text-white ring-2 ring-white shadow-sm animate-pulse">
-                {unreadCount}
+                {unreadCount > 9 ? '9+' : unreadCount}
               </span>
             )}
           </button>
@@ -184,8 +215,11 @@ export const Navbar = () => {
         
         <div className="relative" ref={menuRef}>
           <button
+            type="button"
             onClick={() => setShowMenu(!showMenu)}
-            className="flex h-8 w-8 cursor-pointer items-center justify-center rounded-lg border-2 border-border overflow-hidden shadow-pop transition-all hover:-translate-y-0.5"
+            aria-label="Mở menu tài khoản"
+            aria-expanded={showMenu}
+            className="topbar-avatar flex cursor-pointer items-center justify-center overflow-hidden transition-all hover:-translate-y-0.5"
           >
             {user?.photoURL ? (
               <img src={user.photoURL} alt="" className="h-full w-full object-cover" referrerPolicy="no-referrer" />
