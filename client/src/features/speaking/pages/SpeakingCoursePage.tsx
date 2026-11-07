@@ -1123,8 +1123,7 @@ export const SpeakingCoursePage = () => {
                           </h3>
 
                           {currentQuestion.relatedVocabulary && currentQuestion.relatedVocabulary.length > 0 ? (
-                            /* Grid 2 cột phủ hết chiều ngang box ngoài */
-                            <div className="grid w-full grid-cols-2 content-start gap-2 overflow-y-auto pr-1 flex-grow">
+                            <div className="grid min-h-0 w-full grid-cols-1 content-start gap-2 overflow-y-auto pr-1 flex-grow">
                               {currentQuestion.relatedVocabulary.map((vocab, index) => {
                                 const isSpeakingVocab = speakingVocabWord === vocab.word;
                                 return (
@@ -1132,13 +1131,13 @@ export const SpeakingCoursePage = () => {
                                     key={index}
                                     className="min-w-0 rounded-2xl border border-sky-200 bg-white p-2.5 text-left shadow-sm transition hover:border-sky-300"
                                   >
-                                    <div className="flex min-w-0 items-start justify-between gap-1.5">
-                                      <div className="min-w-0">
-                                        <span className="block truncate font-jp text-[16px] font-black text-[#1264d8]" title={vocab.word}>
+                                    <div className="flex min-w-0 items-start justify-between gap-2">
+                                      <div className="min-w-0 flex-1">
+                                        <span className="block whitespace-normal break-words font-jp text-[16px] font-black text-[#1264d8]" title={vocab.word}>
                                           {vocab.word}
                                         </span>
                                         {vocab.reading && (
-                                          <span className="block truncate font-jp text-[13px] font-semibold text-slate-500" title={vocab.reading}>
+                                          <span className="block whitespace-normal break-words font-jp text-[13px] font-semibold text-slate-500" title={vocab.reading}>
                                             [{vocab.reading}]
                                           </span>
                                         )}
@@ -1166,7 +1165,7 @@ export const SpeakingCoursePage = () => {
                                         {isSpeakingVocab ? <VolumeX size={14} /> : <Volume2 size={14} />}
                                       </button>
                                     </div>
-                                    <span className="mt-1.5 block border-t border-slate-100 pt-1.5 text-[15px] font-semibold leading-relaxed text-slate-700 line-clamp-2" title={vocab.meaning}>
+                                    <span className="mt-1.5 block whitespace-normal break-words border-t border-slate-100 pt-1.5 text-[15px] font-semibold leading-relaxed text-slate-700" title={vocab.meaning}>
                                       {vocab.meaning}
                                     </span>
                                   </div>
