@@ -18,7 +18,7 @@
       "sentenceNumber": 1,
       "plainText": "先月、家族で新しい家に引っ越しました。",
       "romaji": "sengetsu, kazoku de atarashii ie ni hikkoshi shimashita.",
-      "contentHtml": "先月、家族で新しい家に引っ越しました。",
+      "contentHtml": "<ruby>先月<rt>せんげつ</rt></ruby>、<ruby>家族<rt>かぞく</rt></ruby>で<ruby>新<rt>あたら</rt></ruby>しい<ruby>家<rt>いえ</rt></ruby>に<ruby>引<rt>ひ</rt></ruby>っ<ruby>越<rt>こし</rt></ruby>しました。",
       "meaningVi": "Tháng trước, gia đình tôi chuyển đến nhà mới.",
       "orderIndex": 1
     },
@@ -28,7 +28,7 @@
       "sentenceNumber": 2,
       "plainText": "新しい家は駅の近くにあります。",
       "romaji": "atarashii ie wa eki no chikaku ni arimasu.",
-      "contentHtml": "新しい家は駅の近くにあります。",
+      "contentHtml": "<ruby>新<rt>あたら</rt></ruby>しい<ruby>家<rt>いえ</rt></ruby>は<ruby>駅<rt>えき</rt></ruby>の<ruby>近<rt>ちか</rt></ruby>くにあります。",
       "meaningVi": "Nhà mới nằm gần nhà ga.",
       "orderIndex": 2
     },
@@ -38,7 +38,7 @@
       "sentenceNumber": 3,
       "plainText": "家は明るくて、静かです。",
       "romaji": "ie wa akarukute, shizuka desu.",
-      "contentHtml": "家は明るくて、静かです。",
+      "contentHtml": "<ruby>家<rt>いえ</rt></ruby>は<ruby>明<rt>あか</rt></ruby>るくて、<ruby>静<rt>しず</rt></ruby>かです。",
       "meaningVi": "Căn nhà sáng sủa và yên tĩnh.",
       "orderIndex": 3
     },
@@ -48,7 +48,7 @@
       "sentenceNumber": 4,
       "plainText": "私は両親と三人でここに住んでいます。",
       "romaji": "watashi wa ryoushin to sannin de koko ni sundeimasu.",
-      "contentHtml": "私は両親と三人でここに住んでいます。",
+      "contentHtml": "<ruby>私<rt>わたし</rt></ruby>は<ruby>両親<rt>りょうしん</rt></ruby>と<ruby>三人<rt>さんにん</rt></ruby>でここに<ruby>住<rt>す</rt></ruby>んでいます。",
       "meaningVi": "Tôi sống ở đây cùng bố mẹ, tổng cộng ba người.",
       "orderIndex": 4
     },
@@ -58,7 +58,7 @@
       "sentenceNumber": 5,
       "plainText": "父は駅の近くの会社で働いています。",
       "romaji": "chichi wa eki no chikaku no kaisha de hataraiteimasu.",
-      "contentHtml": "父は駅の近くの会社で働いています。",
+      "contentHtml": "<ruby>父<rt>ちち</rt></ruby>は<ruby>駅<rt>えき</rt></ruby>の<ruby>近<rt>ちか</rt></ruby>くの<ruby>会社<rt>かいしゃ</rt></ruby>で<ruby>働<rt>はたら</rt></ruby>いています。",
       "meaningVi": "Bố làm việc ở công ty gần nhà ga.",
       "orderIndex": 5
     },
@@ -68,7 +68,7 @@
       "sentenceNumber": 6,
       "plainText": "母は毎晩、家で料理を作ります。",
       "romaji": "haha wa maiban, ie de ryouri o tsukurimasu.",
-      "contentHtml": "母は毎晩、家で料理を作ります。",
+      "contentHtml": "<ruby>母<rt>はは</rt></ruby>は<ruby>毎晩<rt>まいばん</rt></ruby>、<ruby>家<rt>いえ</rt></ruby>で<ruby>料理<rt>りょうり</rt></ruby>を<ruby>作<rt>つく</rt></ruby>ります。",
       "meaningVi": "Mỗi tối mẹ nấu ăn ở nhà.",
       "orderIndex": 6
     },
@@ -78,7 +78,7 @@
       "sentenceNumber": 7,
       "plainText": "まだ部屋に箱がたくさんあります。",
       "romaji": "mada heya ni hako ga takusan arimasu.",
-      "contentHtml": "まだ部屋に箱がたくさんあります。",
+      "contentHtml": "まだ<ruby>部屋<rt>へや</rt></ruby>に<ruby>箱<rt>はこ</rt></ruby>がたくさんあります。",
       "meaningVi": "Trong phòng vẫn còn nhiều thùng đồ.",
       "orderIndex": 7
     },
@@ -88,7 +88,7 @@
       "sentenceNumber": 8,
       "plainText": "昨日、姉が本を持って来ました。",
       "romaji": "kinou, ane ga hon o motte kimashita.",
-      "contentHtml": "昨日、姉が本を持って来ました。",
+      "contentHtml": "<ruby>昨日<rt>きのう</rt></ruby>、<ruby>姉<rt>あね</rt></ruby>が<ruby>本<rt>ほん</rt></ruby>を<ruby>持<rt>も</rt></ruby>って<ruby>来<rt>き</rt></ruby>ました。",
       "meaningVi": "Hôm qua, chị gái mang sách đến.",
       "orderIndex": 8
     },
@@ -98,7 +98,7 @@
       "sentenceNumber": 9,
       "plainText": "姉は私に日本語の辞書をくれました。",
       "romaji": "ane wa watashi ni nihongo no jisho o kuremashita.",
-      "contentHtml": "姉は私に日本語の辞書をくれました。",
+      "contentHtml": "<ruby>姉<rt>あね</rt></ruby>は<ruby>私<rt>わたし</rt></ruby>に<ruby>日本語<rt>にほんご</rt></ruby>の<ruby>辞書<rt>じしょ</rt></ruby>をくれました。",
       "meaningVi": "Chị gái tặng tôi một quyển từ điển tiếng Nhật.",
       "orderIndex": 9
     },
@@ -108,7 +108,7 @@
       "sentenceNumber": 10,
       "plainText": "新しい家で、その辞書を使って勉強しています。",
       "romaji": "atarashii ie de, sono jisho o tsukatte benkyou shiteimasu.",
-      "contentHtml": "新しい家で、その辞書を使って勉強しています。",
+      "contentHtml": "<ruby>新<rt>あたら</rt></ruby>しい<ruby>家<rt>いえ</rt></ruby>で、その<ruby>辞書<rt>じしょ</rt></ruby>を<ruby>使<rt>つか</rt></ruby>って<ruby>勉強<rt>べんきょう</rt></ruby>しています。",
       "meaningVi": "Ở nhà mới, tôi dùng từ điển ấy để học.",
       "orderIndex": 10
     }

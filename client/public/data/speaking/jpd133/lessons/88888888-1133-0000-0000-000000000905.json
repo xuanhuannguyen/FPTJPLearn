@@ -18,7 +18,7 @@
       "sentenceNumber": 1,
       "plainText": "来週は友達の誕生日です。",
       "romaji": "raishuu wa tomodachi no tanjoubi desu.",
-      "contentHtml": "来週は友達の誕生日です。",
+      "contentHtml": "<ruby>来週<rt>らいしゅう</rt></ruby>は<ruby>友達<rt>ともだち</rt></ruby>の<ruby>誕生日<rt>たんじょうび</rt></ruby>です。",
       "meaningVi": "Tuần sau là sinh nhật của bạn tôi.",
       "orderIndex": 1
     },
@@ -28,7 +28,7 @@
       "sentenceNumber": 2,
       "plainText": "友達は小説を読むことが好きです。",
       "romaji": "tomodachi wa shousetsu o yomu koto ga suki desu.",
-      "contentHtml": "友達は小説を読むことが好きです。",
+      "contentHtml": "<ruby>友達<rt>ともだち</rt></ruby>は<ruby>小説<rt>しょうせつ</rt></ruby>を<ruby>読<rt>よ</rt></ruby>むことが<ruby>好<rt>す</rt></ruby>きです。",
       "meaningVi": "Bạn tôi thích đọc tiểu thuyết.",
       "orderIndex": 2
     },
@@ -38,7 +38,7 @@
       "sentenceNumber": 3,
       "plainText": "私は本屋で小説を一冊買いました。",
       "romaji": "watashi wa honya de shousetsu o issatsu kaimashita.",
-      "contentHtml": "私は本屋で小説を一冊買いました。",
+      "contentHtml": "<ruby>私<rt>わたし</rt></ruby>は<ruby>本屋<rt>ほんや</rt></ruby>で<ruby>小説<rt>しょうせつ</rt></ruby>を<ruby>一冊買<rt>いっさつか</rt></ruby>いました。",
       "meaningVi": "Tôi mua một quyển tiểu thuyết ở hiệu sách.",
       "orderIndex": 3
     },
@@ -48,7 +48,7 @@
       "sentenceNumber": 4,
       "plainText": "誕生日の日、友達の家へ行きました。",
       "romaji": "tanjoubi no hi, tomodachi no ie e ikimashita.",
-      "contentHtml": "誕生日の日、友達の家へ行きました。",
+      "contentHtml": "<ruby>誕生日<rt>たんじょうび</rt></ruby>の<ruby>日<rt>ひ</rt></ruby>、<ruby>友達<rt>ともだち</rt></ruby>の<ruby>家<rt>い</rt></ruby>へ<ruby>行<rt>えい</rt></ruby>きました。",
       "meaningVi": "Đến ngày sinh nhật, tôi đến nhà bạn.",
       "orderIndex": 4
     },
@@ -58,7 +58,7 @@
       "sentenceNumber": 5,
       "plainText": "友達は家族と三人で住んでいます。",
       "romaji": "tomodachi wa kazoku to sannin de sundeimasu.",
-      "contentHtml": "友達は家族と三人で住んでいます。",
+      "contentHtml": "<ruby>友達<rt>ともだち</rt></ruby>は<ruby>家族<rt>かぞく</rt></ruby>と<ruby>三人<rt>さんにん</rt></ruby>で<ruby>住<rt>す</rt></ruby>んでいます。",
       "meaningVi": "Bạn sống cùng gia đình, tổng cộng ba người.",
       "orderIndex": 5
     },
@@ -68,7 +68,7 @@
       "sentenceNumber": 6,
       "plainText": "友達のお母さんは親切で、お茶を出してくれました。",
       "romaji": "tomodachi no okaasan wa shinsetsu de, ocha o dashite kuremashita.",
-      "contentHtml": "友達のお母さんは親切で、お茶を出してくれました。",
+      "contentHtml": "<ruby>友達<rt>ともだち</rt></ruby>のお<ruby>母<rt>かあ</rt></ruby>さんは<ruby>親切<rt>しんせつ</rt></ruby>で、お<ruby>茶<rt>ちゃ</rt></ruby>を<ruby>出<rt>だ</rt></ruby>してくれました。",
       "meaningVi": "Mẹ bạn tốt bụng và mời tôi uống trà.",
       "orderIndex": 6
     },
@@ -78,7 +78,7 @@
       "sentenceNumber": 7,
       "plainText": "私は友達に小説をあげました。",
       "romaji": "watashi wa tomodachi ni shousetsu o agemashita.",
-      "contentHtml": "私は友達に小説をあげました。",
+      "contentHtml": "<ruby>私<rt>わたし</rt></ruby>は<ruby>友達<rt>ともだち</rt></ruby>に<ruby>小説<rt>しょうせつ</rt></ruby>をあげました。",
       "meaningVi": "Tôi tặng bạn quyển tiểu thuyết.",
       "orderIndex": 7
     },
@@ -88,7 +88,7 @@
       "sentenceNumber": 8,
       "plainText": "友達はとても喜んで、すぐ本を開きました。",
       "romaji": "tomodachi wa totemo yorokonde, sugu hon o hirakimashita.",
-      "contentHtml": "友達はとても喜んで、すぐ本を開きました。",
+      "contentHtml": "<ruby>友達<rt>ともだち</rt></ruby>はとても<ruby>喜<rt>よろこ</rt></ruby>んで、すぐ<ruby>本<rt>ほん</rt></ruby>を<ruby>開<rt>ひら</rt></ruby>きました。",
       "meaningVi": "Bạn rất vui và mở sách ra ngay.",
       "orderIndex": 8
     },
@@ -98,7 +98,7 @@
       "sentenceNumber": 9,
       "plainText": "その小説について、一緒に話しました。",
       "romaji": "sono shousetsu ni tsuite, issho ni hanashimashita.",
-      "contentHtml": "その小説について、一緒に話しました。",
+      "contentHtml": "その<ruby>小説<rt>しょうせつ</rt></ruby>について、<ruby>一緒<rt>いっしょ</rt></ruby>に<ruby>話<rt>はな</rt></ruby>しました。",
       "meaningVi": "Chúng tôi cùng trò chuyện về quyển tiểu thuyết ấy.",
       "orderIndex": 9
     },
@@ -108,7 +108,7 @@
       "sentenceNumber": 10,
       "plainText": "帰りに友達から手紙をもらいました。",
       "romaji": "kaeri ni tomodachi kara tegami o moraimashita.",
-      "contentHtml": "帰りに友達から手紙をもらいました。",
+      "contentHtml": "<ruby>帰<rt>かえ</rt></ruby>りに<ruby>友達<rt>ともだち</rt></ruby>から<ruby>手紙<rt>てがみ</rt></ruby>をもらいました。",
       "meaningVi": "Lúc về, tôi nhận được thư từ bạn.",
       "orderIndex": 10
     }

@@ -18,7 +18,7 @@
       "sentenceNumber": 1,
       "plainText": "最近、小説を読むことが好きになりました。",
       "romaji": "saikin, shousetsu o yomu koto ga suki ni narimashita.",
-      "contentHtml": "最近、小説を読むことが好きになりました。",
+      "contentHtml": "<ruby>最近<rt>さいきん</rt></ruby>、<ruby>小説<rt>しょうせつ</rt></ruby>を<ruby>読<rt>よ</rt></ruby>むことが<ruby>好<rt>す</rt></ruby>きになりました。",
       "meaningVi": "Gần đây, tôi bắt đầu thích đọc tiểu thuyết.",
       "orderIndex": 1
     },
@@ -28,7 +28,7 @@
       "sentenceNumber": 2,
       "plainText": "毎晩、寝る前に小説を読んでいます。",
       "romaji": "maiban, neru mae ni shousetsu o yondeimasu.",
-      "contentHtml": "毎晩、寝る前に小説を読んでいます。",
+      "contentHtml": "<ruby>毎晩<rt>まいばん</rt></ruby>、<ruby>寝<rt>ね</rt></ruby>る<ruby>前<rt>まえ</rt></ruby>に<ruby>小説<rt>しょうせつ</rt></ruby>を<ruby>読<rt>よ</rt></ruby>んでいます。",
       "meaningVi": "Tối nào tôi cũng đọc tiểu thuyết trước khi ngủ.",
       "orderIndex": 2
     },
@@ -38,7 +38,7 @@
       "sentenceNumber": 3,
       "plainText": "一週間に二回、学校の図書館へ行きます。",
       "romaji": "isshuukan ni nikai, gakkou no toshokan e ikimasu.",
-      "contentHtml": "一週間に二回、学校の図書館へ行きます。",
+      "contentHtml": "<ruby>一週間<rt>いっしゅうかん</rt></ruby>に<ruby>二回<rt>にかい</rt></ruby>、<ruby>学校<rt>がっこう</rt></ruby>の<ruby>図書館<rt>としょかん</rt></ruby>へ<ruby>行<rt>い</rt></ruby>きます。",
       "meaningVi": "Mỗi tuần tôi đến thư viện trường hai lần.",
       "orderIndex": 3
     },
@@ -48,7 +48,7 @@
       "sentenceNumber": 4,
       "plainText": "図書館で新しい小説を二冊借ります。",
       "romaji": "toshokan de atarashii shousetsu o nisatsu karimasu.",
-      "contentHtml": "図書館で新しい小説を二冊借ります。",
+      "contentHtml": "<ruby>図書館<rt>としょかん</rt></ruby>で<ruby>新<rt>あたら</rt></ruby>しい<ruby>小説<rt>しょうせつ</rt></ruby>を<ruby>二冊借<rt>にさつか</rt></ruby>ります。",
       "meaningVi": "Tôi mượn hai quyển tiểu thuyết mới ở thư viện.",
       "orderIndex": 4
     },
@@ -58,7 +58,7 @@
       "sentenceNumber": 5,
       "plainText": "その小説は話がおもしろくて、読みやすいです。",
       "romaji": "sono shousetsu wa hanashi ga omoshirokute, yomiyasui desu.",
-      "contentHtml": "その小説は話がおもしろくて、読みやすいです。",
+      "contentHtml": "その<ruby>小説<rt>しょうせつ</rt></ruby>は<ruby>話<rt>はなし</rt></ruby>がおもしろくて、<ruby>読<rt>よ</rt></ruby>みやすいです。",
       "meaningVi": "Tiểu thuyết ấy có cốt truyện thú vị và dễ đọc.",
       "orderIndex": 5
     },
@@ -68,7 +68,7 @@
       "sentenceNumber": 6,
       "plainText": "友達も本を読むことが好きです。",
       "romaji": "tomodachi mo hon o yomu koto ga suki desu.",
-      "contentHtml": "友達も本を読むことが好きです。",
+      "contentHtml": "<ruby>友達<rt>ともだち</rt></ruby>も<ruby>本<rt>ほん</rt></ruby>を<ruby>読<rt>よ</rt></ruby>むことが<ruby>好<rt>す</rt></ruby>きです。",
       "meaningVi": "Bạn tôi cũng thích đọc sách.",
       "orderIndex": 6
     },
@@ -78,7 +78,7 @@
       "sentenceNumber": 7,
       "plainText": "休み時間に、友達と本の話をします。",
       "romaji": "yasumi jikan ni, tomodachi to hon no hanashi o shimasu.",
-      "contentHtml": "休み時間に、友達と本の話をします。",
+      "contentHtml": "<ruby>休<rt>やす</rt></ruby>み<ruby>時間<rt>じかん</rt></ruby>に、<ruby>友達<rt>ともだち</rt></ruby>と<ruby>本<rt>ほん</rt></ruby>の<ruby>話<rt>はなし</rt></ruby>をします。",
       "meaningVi": "Giờ nghỉ, tôi trò chuyện với bạn về sách.",
       "orderIndex": 7
     },
@@ -88,7 +88,7 @@
       "sentenceNumber": 8,
       "plainText": "昨日、私は図書館で新しい本を見つけました。",
       "romaji": "kinou, watashi wa toshokan de atarashii hon o mitsukemashita.",
-      "contentHtml": "昨日、私は図書館で新しい本を見つけました。",
+      "contentHtml": "<ruby>昨日<rt>きのう</rt></ruby>、<ruby>私<rt>わたし</rt></ruby>は<ruby>図書館<rt>としょかん</rt></ruby>で<ruby>新<rt>あたら</rt></ruby>しい<ruby>本<rt>ほん</rt></ruby>を<ruby>見<rt>み</rt></ruby>つけました。",
       "meaningVi": "Hôm qua, tôi tìm thấy một quyển sách mới ở thư viện.",
       "orderIndex": 8
     },
@@ -98,7 +98,7 @@
       "sentenceNumber": 9,
       "plainText": "その本を友達に見せて、一緒に読みました。",
       "romaji": "sono hon o tomodachi ni misete, issho ni yomimashita.",
-      "contentHtml": "その本を友達に見せて、一緒に読みました。",
+      "contentHtml": "その<ruby>本<rt>ほん</rt></ruby>を<ruby>友達<rt>ともだち</rt></ruby>に<ruby>見<rt>み</rt></ruby>せて、<ruby>一緒<rt>いっしょ</rt></ruby>に<ruby>読<rt>よ</rt></ruby>みました。",
       "meaningVi": "Tôi cho bạn xem quyển sách ấy rồi cùng đọc.",
       "orderIndex": 9
     },
@@ -108,7 +108,7 @@
       "sentenceNumber": 10,
       "plainText": "今週末、二人で続きを読むつもりです。",
       "romaji": "konshuumatsu, futari de tsuzuki o yomu tsumori desu.",
-      "contentHtml": "今週末、二人で続きを読むつもりです。",
+      "contentHtml": "<ruby>今週末<rt>こんしゅうまつ</rt></ruby>、<ruby>二人<rt>ふたり</rt></ruby>で<ruby>続<rt>つず</rt></ruby>きを<ruby>読<rt>よ</rt></ruby>むつもりです。",
       "meaningVi": "Cuối tuần này, hai chúng tôi định đọc tiếp.",
       "orderIndex": 10
     }

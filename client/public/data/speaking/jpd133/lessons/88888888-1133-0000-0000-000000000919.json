@@ -18,7 +18,7 @@
       "sentenceNumber": 1,
       "plainText": "私は毎日、電車で学校へ通っています。",
       "romaji": "watashi wa mainichi, densha de gakkou e kayotteimasu.",
-      "contentHtml": "私は毎日、電車で学校へ通っています。",
+      "contentHtml": "<ruby>私<rt>わたし</rt></ruby>は<ruby>毎日<rt>まいにち</rt></ruby>、<ruby>電車<rt>でんしゃ</rt></ruby>で<ruby>学校<rt>がっこう</rt></ruby>へ<ruby>通<rt>かよ</rt></ruby>っています。",
       "meaningVi": "Ngày nào tôi cũng đi tàu đến trường.",
       "orderIndex": 1
     },
@@ -28,7 +28,7 @@
       "sentenceNumber": 2,
       "plainText": "朝、駅で友達に会います。",
       "romaji": "asa, eki de tomodachi ni aimasu.",
-      "contentHtml": "朝、駅で友達に会います。",
+      "contentHtml": "<ruby>朝<rt>あさ</rt></ruby>、<ruby>駅<rt>えき</rt></ruby>で<ruby>友達<rt>ともだち</rt></ruby>に<ruby>会<rt>あ</rt></ruby>います。",
       "meaningVi": "Buổi sáng, tôi gặp bạn ở nhà ga.",
       "orderIndex": 2
     },
@@ -38,7 +38,7 @@
       "sentenceNumber": 3,
       "plainText": "授業で日本語を勉強しています。",
       "romaji": "jugyou de nihongo o benkyou shiteimasu.",
-      "contentHtml": "授業で日本語を勉強しています。",
+      "contentHtml": "<ruby>授業<rt>じゅぎょう</rt></ruby>で<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>勉強<rt>べんきょう</rt></ruby>しています。",
       "meaningVi": "Tôi đang học tiếng Nhật trong giờ học.",
       "orderIndex": 3
     },
@@ -48,7 +48,7 @@
       "sentenceNumber": 4,
       "plainText": "先生は新しい会話を教えています。",
       "romaji": "sensei wa atarashii kaiwa o oshieteimasu.",
-      "contentHtml": "先生は新しい会話を教えています。",
+      "contentHtml": "<ruby>先生<rt>せんせい</rt></ruby>は<ruby>新<rt>あたら</rt></ruby>しい<ruby>会話<rt>かいわ</rt></ruby>を<ruby>教<rt>おし</rt></ruby>えています。",
       "meaningVi": "Thầy cô đang dạy một đoạn hội thoại mới.",
       "orderIndex": 4
     },
@@ -58,7 +58,7 @@
       "sentenceNumber": 5,
       "plainText": "昼休み、食堂で昼ご飯を食べます。",
       "romaji": "hiruyasumi, shokudou de hirugohan o tabemasu.",
-      "contentHtml": "昼休み、食堂で昼ご飯を食べます。",
+      "contentHtml": "<ruby>昼休<rt>ひるやす</rt></ruby>み、<ruby>食堂<rt>しょくどう</rt></ruby>で<ruby>昼<rt>ひる</rt></ruby>ご<ruby>飯<rt>はん</rt></ruby>を<ruby>食<rt>た</rt></ruby>べます。",
       "meaningVi": "Giờ nghỉ trưa, tôi ăn ở nhà ăn.",
       "orderIndex": 5
     },
@@ -68,7 +68,7 @@
       "sentenceNumber": 6,
       "plainText": "午後は図書館で宿題をします。",
       "romaji": "gogo wa toshokan de shukudai o shimasu.",
-      "contentHtml": "午後は図書館で宿題をします。",
+      "contentHtml": "<ruby>午後<rt>ごご</rt></ruby>は<ruby>図書館<rt>としょかん</rt></ruby>で<ruby>宿題<rt>しゅくだい</rt></ruby>をします。",
       "meaningVi": "Buổi chiều, tôi làm bài tập ở thư viện.",
       "orderIndex": 6
     },
@@ -78,7 +78,7 @@
       "sentenceNumber": 7,
       "plainText": "宿題が終わったとき、友達と少し話します。",
       "romaji": "shukudai ga owatta toki, tomodachi to sukoshi hanashimasu.",
-      "contentHtml": "宿題が終わったとき、友達と少し話します。",
+      "contentHtml": "<ruby>宿題<rt>しゅくだい</rt></ruby>が<ruby>終<rt>お</rt></ruby>わったとき、<ruby>友達<rt>ともだち</rt></ruby>と<ruby>少<rt>すこ</rt></ruby>し<ruby>話<rt>はな</rt></ruby>します。",
       "meaningVi": "Khi làm xong bài tập, tôi trò chuyện một lát với bạn.",
       "orderIndex": 7
     },
@@ -88,7 +88,7 @@
       "sentenceNumber": 8,
       "plainText": "夕方、駅の近くの店でアルバイトをします。",
       "romaji": "yuugata, eki no chikaku no mise de arubaito o shimasu.",
-      "contentHtml": "夕方、駅の近くの店でアルバイトをします。",
+      "contentHtml": "<ruby>夕方<rt>ゆうがた</rt></ruby>、<ruby>駅<rt>えき</rt></ruby>の<ruby>近<rt>ちか</rt></ruby>くの<ruby>店<rt>みせ</rt></ruby>でアルバイトをします。",
       "meaningVi": "Buổi tối, tôi làm thêm ở cửa hàng gần nhà ga.",
       "orderIndex": 8
     },
@@ -98,7 +98,7 @@
       "sentenceNumber": 9,
       "plainText": "仕事が終わってから、電車で家へ帰ります。",
       "romaji": "shigoto ga owatte kara, densha de ie e kaerimasu.",
-      "contentHtml": "仕事が終わってから、電車で家へ帰ります。",
+      "contentHtml": "<ruby>仕事<rt>しごと</rt></ruby>が<ruby>終<rt>お</rt></ruby>わってから、<ruby>電車<rt>でんしゃ</rt></ruby>で<ruby>家<rt>いえ</rt></ruby>へ<ruby>帰<rt>かえ</rt></ruby>ります。",
       "meaningVi": "Sau khi tan làm, tôi đi tàu về nhà.",
       "orderIndex": 9
     },
@@ -107,9 +107,9 @@
       "lessonId": "88888888-1133-0000-0000-000000000919",
       "sentenceNumber": 10,
       "plainText": "忙しいですが、毎日楽しいです。",
-      "romaji": "isogashii desu ga, mainichi juujitsu shiteimasu.",
-      "contentHtml": "忙しいですが、毎日楽しいです。",
-      "meaningVi": "Tuy bận nhưng ngày nào tôi cũng thấy vui và ý nghĩa.",
+      "romaji": "isogashii desu ga, mainichi tanoshii desu.",
+      "contentHtml": "<ruby>忙<rt>いそが</rt></ruby>しいですが、<ruby>毎日楽<rt>まいにちたの</rt></ruby>しいです。",
+      "meaningVi": "Tuy bận nhưng ngày nào tôi cũng thấy vui.",
       "orderIndex": 10
     }
   ]

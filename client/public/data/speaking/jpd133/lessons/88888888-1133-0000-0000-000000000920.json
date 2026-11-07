@@ -18,7 +18,7 @@
       "sentenceNumber": 1,
       "plainText": "今年、大学の近くに引っ越しました。",
       "romaji": "kotoshi, daigaku no chikaku ni hikkoshi shimashita.",
-      "contentHtml": "今年、大学の近くに引っ越しました。",
+      "contentHtml": "<ruby>今年<rt>ことし</rt></ruby>、<ruby>大学<rt>だいがく</rt></ruby>の<ruby>近<rt>ちか</rt></ruby>くに<ruby>引<rt>ひ</rt></ruby>っ<ruby>越<rt>こし</rt></ruby>しました。",
       "meaningVi": "Năm nay, tôi chuyển đến gần trường đại học.",
       "orderIndex": 1
     },
@@ -28,7 +28,7 @@
       "sentenceNumber": 2,
       "plainText": "初めて一人暮らしをしています。",
       "romaji": "hajimete hitorigurashi o shiteimasu.",
-      "contentHtml": "初めて一人暮らしをしています。",
+      "contentHtml": "<ruby>初<rt>はじ</rt></ruby>めて<ruby>一人暮<rt>ひとりぐ</rt></ruby>らしをしています。",
       "meaningVi": "Lần đầu tiên tôi sống một mình.",
       "orderIndex": 2
     },
@@ -38,7 +38,7 @@
       "sentenceNumber": 3,
       "plainText": "家族は遠くの町に住んでいます。",
       "romaji": "kazoku wa tooku no machi ni sundeimasu.",
-      "contentHtml": "家族は遠くの町に住んでいます。",
+      "contentHtml": "<ruby>家族<rt>かぞく</rt></ruby>は<ruby>遠<rt>とお</rt></ruby>くの<ruby>町<rt>まち</rt></ruby>に<ruby>住<rt>す</rt></ruby>んでいます。",
       "meaningVi": "Gia đình tôi sống ở một thành phố xa.",
       "orderIndex": 3
     },
@@ -48,7 +48,7 @@
       "sentenceNumber": 4,
       "plainText": "母は私に料理の本をくれました。",
       "romaji": "haha wa watashi ni ryouri no hon o kuremashita.",
-      "contentHtml": "母は私に料理の本をくれました。",
+      "contentHtml": "<ruby>母<rt>はは</rt></ruby>は<ruby>私<rt>わたし</rt></ruby>に<ruby>料理<rt>りょうり</rt></ruby>の<ruby>本<rt>ほん</rt></ruby>をくれました。",
       "meaningVi": "Mẹ tặng tôi một quyển sách nấu ăn.",
       "orderIndex": 4
     },
@@ -58,7 +58,7 @@
       "sentenceNumber": 5,
       "plainText": "その本を見て、晩ご飯を作っています。",
       "romaji": "sono hon o mite, bangohan o tsukutteimasu.",
-      "contentHtml": "その本を見て、晩ご飯を作っています。",
+      "contentHtml": "その<ruby>本<rt>ほん</rt></ruby>を<ruby>見<rt>み</rt></ruby>て、<ruby>晩<rt>ばん</rt></ruby>ご<ruby>飯<rt>はん</rt></ruby>を<ruby>作<rt>つく</rt></ruby>っています。",
       "meaningVi": "Tôi xem sách ấy và đang nấu bữa tối.",
       "orderIndex": 5
     },
@@ -68,7 +68,7 @@
       "sentenceNumber": 6,
       "plainText": "料理はまだ上手ではありません。",
       "romaji": "ryouri wa mada jouzu de wa arimasen.",
-      "contentHtml": "料理はまだ上手ではありません。",
+      "contentHtml": "<ruby>料理<rt>りょうり</rt></ruby>はまだ<ruby>上手<rt>じょうず</rt></ruby>ではありません。",
       "meaningVi": "Tôi vẫn chưa nấu ăn giỏi.",
       "orderIndex": 6
     },
@@ -78,7 +78,7 @@
       "sentenceNumber": 7,
       "plainText": "作り方を忘れたとき、母に電話します。",
       "romaji": "tsukurikata o wasureta toki, haha ni denwa shimasu.",
-      "contentHtml": "作り方を忘れたとき、母に電話します。",
+      "contentHtml": "<ruby>作<rt>つく</rt></ruby>り<ruby>方<rt>かた</rt></ruby>を<ruby>忘<rt>わす</rt></ruby>れたとき、<ruby>母<rt>はは</rt></ruby>に<ruby>電話<rt>でんわ</rt></ruby>します。",
       "meaningVi": "Khi quên cách nấu, tôi gọi điện cho mẹ.",
       "orderIndex": 7
     },
@@ -88,7 +88,7 @@
       "sentenceNumber": 8,
       "plainText": "母は電話でゆっくり説明してくれます。",
       "romaji": "haha wa denwa de yukkuri setsumei shite kuremasu.",
-      "contentHtml": "母は電話でゆっくり説明してくれます。",
+      "contentHtml": "<ruby>母<rt>はは</rt></ruby>は<ruby>電話<rt>でんわ</rt></ruby>でゆっくり<ruby>説明<rt>せつめい</rt></ruby>してくれます。",
       "meaningVi": "Mẹ từ từ giải thích cho tôi qua điện thoại.",
       "orderIndex": 8
     },
@@ -98,7 +98,7 @@
       "sentenceNumber": 9,
       "plainText": "週末、両親が新しい家に来ました。",
       "romaji": "shuumatsu, ryoushin ga atarashii ie ni kimashita.",
-      "contentHtml": "週末、両親が新しい家に来ました。",
+      "contentHtml": "<ruby>週末<rt>しゅうまつ</rt></ruby>、<ruby>両親<rt>りょうしん</rt></ruby>が<ruby>新<rt>あたら</rt></ruby>しい<ruby>家<rt>いえ</rt></ruby>に<ruby>来<rt>き</rt></ruby>ました。",
       "meaningVi": "Cuối tuần, bố mẹ đến nhà mới của tôi.",
       "orderIndex": 9
     },
@@ -108,7 +108,7 @@
       "sentenceNumber": 10,
       "plainText": "一緒に食事をして、新しい生活にも少し慣れました。",
       "romaji": "issho ni shokuji o shite, atarashii seikatsu ni mo sukoshi naremashita.",
-      "contentHtml": "一緒に食事をして、新しい生活にも少し慣れました。",
+      "contentHtml": "<ruby>一緒<rt>いっしょ</rt></ruby>に<ruby>食事<rt>しょくじ</rt></ruby>をして、<ruby>新<rt>あたら</rt></ruby>しい<ruby>生活<rt>せいかつ</rt></ruby>にも<ruby>少<rt>すこ</rt></ruby>し<ruby>慣<rt>な</rt></ruby>れました。",
       "meaningVi": "Chúng tôi ăn cùng nhau và tôi cũng dần quen cuộc sống mới.",
       "orderIndex": 10
     }

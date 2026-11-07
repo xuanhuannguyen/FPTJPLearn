@@ -708,11 +708,11 @@ watashi wa orei o itte, ie e kaerimashita.
 ### Romaji
 nichiyoubi, kazoku de yuuenchi e ikimashita.
 iri guchi de chizu o moratte, naka ni hairimashita.
-ookina kanransha ga sora no chikaku made miemashita.
+ookina kanransha ga yoku miemashita.
 watashi wa chichi ni kanransha ni notte mo ii desu ka to kikimashita.
 chichi wa ii yo to iimashita.
 kanransha kara machi to kawa ga yoku miemashita.
-imouto wa sukoshi kowakute, watashi no te o motteimashita.
+imouto wa sukoshi kowakute, watashi no te o nigirimashita.
 orite kara, minna de okashi o tabemashita.
 yuugata, sora ga kuraku natte kimashita.
 deguchi no chikaku de shashin o totte, ie e kaerimashita.
@@ -720,7 +720,7 @@ deguchi no chikaku de shashin o totte, ie e kaerimashita.
 ### Tiếng Việt
 - Chủ nhật, gia đình tôi đi công viên giải trí.
 - Chúng tôi nhận bản đồ ở cổng rồi đi vào.
-- Vòng quay lớn trông như chạm gần đến bầu trời.
+- Tôi nhìn thấy rõ vòng quay lớn.
 - Tôi hỏi bố: “Con đi vòng quay được không ạ?”.
 - Bố nói: “Được chứ”.
 - Từ vòng quay, chúng tôi nhìn rõ thành phố và dòng sông.
@@ -801,7 +801,7 @@ gogo wa toshokan de shukudai o shimasu.
 shukudai ga owatta toki, tomodachi to sukoshi hanashimasu.
 yuugata, eki no chikaku no mise de arubaito o shimasu.
 shigoto ga owatte kara, densha de ie e kaerimasu.
-isogashii desu ga, mainichi juujitsu shiteimasu.
+isogashii desu ga, mainichi tanoshii desu.
 
 ### Tiếng Việt
 - Ngày nào tôi cũng đi tàu đến trường.
@@ -813,7 +813,7 @@ isogashii desu ga, mainichi juujitsu shiteimasu.
 - Khi làm xong bài tập, tôi trò chuyện một lát với bạn.
 - Buổi tối, tôi làm thêm ở cửa hàng gần nhà ga.
 - Sau khi tan làm, tôi đi tàu về nhà.
-- Tuy bận nhưng ngày nào tôi cũng thấy vui và ý nghĩa.
+- Tuy bận nhưng ngày nào tôi cũng thấy vui.
 
 ---
 
@@ -879,7 +879,7 @@ issho ni shokuji o shite, atarashii seikatsu ni mo sukoshi naremashita.
 
 ### Romaji
 heijitsu wa gakkou to arubaito de isogashii desu.
-shigoto wa mainichi rokuji ni owarimasu.
+arubaito wa mainichi rokuji ni owarimasu.
 ie ni kaetta toki, sukoshi tsukareteimasu.
 tsukareta toki, ongaku o kiite yasumimasu.
 sono ato de, bangohan o tabemasu.
@@ -887,7 +887,7 @@ bangohan no ato, nihongo no shukudai o shimasu.
 nemui toki wa, sukoshi yasunde kara benkyou shimasu.
 neru mae ni, sono hi no koto o nikki ni kakimasu.
 kinou wa tomodachi to hanashita koto o kakimashita.
-nikki o yomu to, ichinichi o omoidasu.
+nikki o yomu to, ichinichi o omoidashimasu.
 
 ### Tiếng Việt
 - Ngày thường, tôi bận học và làm thêm.
@@ -926,10 +926,10 @@ tenchou wa kibishii desu ga, totemo shinsetsu desu.
 hirugoro, okyakusan ga mise ni takusan kimasu.
 watashi wa okyakusan ni shouhin o misemasu.
 isogashii toki, tenchou mo issho ni hataraiteimasu.
-hiruyasumi wa mijikai desu ga, douryou to hanashimasu.
+hiruyasumi wa mijikai desu ga, mise no hito to hanashimasu.
 shigoto ga owatta toki, tenchou ga raishuu no yotei o hanashimashita.
 watashi wa yotei o nooto ni kaite, mise o demashita.
-eki made aruku to, sukoshi tsukare ga toremashita.
+mise o deru to, soto wa mou kuraku natte imashita.
 ie ni kaette, nikki ni kyou no shigoto o kakimashita.
 
 ### Tiếng Việt
@@ -938,10 +938,10 @@ ie ni kaette, nikki ni kyou no shigoto o kakimashita.
 - Khoảng trưa, nhiều khách đến cửa hàng.
 - Tôi giới thiệu hàng cho khách xem.
 - Khi đông khách, quản lý cũng làm cùng mọi người.
-- Giờ nghỉ trưa tuy ngắn nhưng tôi trò chuyện với đồng nghiệp.
+- Giờ nghỉ trưa tuy ngắn nhưng tôi trò chuyện với mọi người ở cửa hàng.
 - Khi tan làm, quản lý nói về lịch tuần sau.
 - Tôi ghi lịch vào sổ rồi rời cửa hàng.
-- Đi bộ đến ga giúp tôi đỡ mệt một chút.
+- Khi rời cửa hàng, bên ngoài đã tối rồi.
 - Về nhà, tôi ghi công việc hôm nay vào nhật ký.
 
 ---
@@ -968,7 +968,7 @@ kinou, tomodachi kara denwa ga arimashita.
 tomodachi wa doyoubi, hima? to kikimashita.
 watashi wa hima da yo to kotaemashita.
 tomodachi wa issho ni eiga o minai? to iimashita.
-watashi wa ii ne, eiga no ato gohan o tabeyou to iimashita.
+watashi wa ii ne. eiga no ato, gohan o tabeyou to iimashita.
 tomodachi wa eki de atte mo ii? to kikimashita.
 watashi wa un, eki de aou to kotaemashita.
 doyoubi, eki de atte kara eigakan e ikimashita.
@@ -1016,7 +1016,7 @@ watashi wa sofu ni gakkou no hanashi o shimashita.
 yasumi no hi wa, tomodachi to kawa e ittari, hon o yondari shimashita.
 yuugata ni naru to, sofu ga mukae ni kimashita.
 watashi wa mada asobitai kedo, kaeru ne to iimashita.
-ima mo sono koro no koto o yoku omoidasu.
+ima mo sono koro no koto o yoku omoidashimasu.
 
 ### Tiếng Việt
 - Khi còn học tiểu học, tôi sống ở quê.
@@ -1054,7 +1054,7 @@ ashita wa tomodachi to machi e ikimasu.
 tomodachi ni doko e iku? to kikimashita.
 tomodachi wa toshokan e itte, hon o kariru to iimashita.
 sorekara shokudou de hirugohan o tabeyou to tomodachi ga iimashita.
-watashi wa ii ne, nanji ni eki de au? to kikimashita.
+watashi wa ii ne. nanji ni eki de au? to kikimashita.
 tomodachi wa juuji ni aou to kotaemashita.
 kaeru mae ni honya e itte mo ii? to watashi wa kikimashita.
 tomodachi wa un, ii yo to iimashita.

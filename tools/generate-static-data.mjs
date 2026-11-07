@@ -170,9 +170,10 @@ async function generateVocabulary() {
   await writeJson('vocabulary/items.json', allItems);
 }
 
-async function generateSpeaking() {
+async function generateSpeaking(onlyCourse = null) {
+  const courseCodes = onlyCourse ? [onlyCourse] : ['jpd113', 'jpd123', 'jpd133'];
   const imports = await Promise.all(
-    ['jpd113', 'jpd123', 'jpd133'].map((code) => readJson(`server/JPLearn.Infrastructure/Data/Imports/speaking/${code}.lessons.json`)),
+    courseCodes.map((code) => readJson(`server/JPLearn.Infrastructure/Data/Imports/speaking/${code}.lessons.json`)),
   );
   const courses = [];
 
@@ -223,7 +224,7 @@ async function generateSpeaking() {
     }
   }
 
-  await writeJson('speaking/courses.json', courses);
+  if (!onlyCourse) await writeJson('speaking/courses.json', courses);
 }
 
 async function generateSpeakingQa() {
@@ -681,6 +682,15 @@ async function generateExam() {
 }
 
 await mkdir(outRoot, { recursive: true });
+const speakingCourseArg = process.argv.find((arg) => arg.startsWith('--speaking-course='));
+if (speakingCourseArg) {
+  const courseCode = speakingCourseArg.split('=')[1]?.toLowerCase();
+  if (!['jpd113', 'jpd123', 'jpd133'].includes(courseCode)) {
+    throw new Error(`Unsupported speaking course: ${courseCode}`);
+  }
+  await generateSpeaking(courseCode);
+  process.exit(0);
+}
 if (process.argv.includes('--speaking-only')) {
   await generateSpeaking();
   process.exit(0);

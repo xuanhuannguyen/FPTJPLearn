@@ -18,7 +18,7 @@
       "sentenceNumber": 1,
       "plainText": "学校にダンスクラブがあります。",
       "romaji": "gakkou ni dansu kurabu ga arimasu.",
-      "contentHtml": "学校にダンスクラブがあります。",
+      "contentHtml": "<ruby>学校<rt>がっこう</rt></ruby>にダンスクラブがあります。",
       "meaningVi": "Ở trường có câu lạc bộ khiêu vũ.",
       "orderIndex": 1
     },
@@ -28,7 +28,7 @@
       "sentenceNumber": 2,
       "plainText": "私は音楽に合わせて踊ることが好きです。",
       "romaji": "watashi wa ongaku ni awasete odoru koto ga suki desu.",
-      "contentHtml": "私は音楽に合わせて踊ることが好きです。",
+      "contentHtml": "<ruby>私<rt>わたし</rt></ruby>は<ruby>音楽<rt>おんがく</rt></ruby>に<ruby>合<rt>あ</rt></ruby>わせて<ruby>踊<rt>おど</rt></ruby>ることが<ruby>好<rt>す</rt></ruby>きです。",
       "meaningVi": "Tôi thích nhảy theo nhạc.",
       "orderIndex": 2
     },
@@ -38,7 +38,7 @@
       "sentenceNumber": 3,
       "plainText": "友達はそのクラブでダンスを習っています。",
       "romaji": "tomodachi wa sono kurabu de dansu o naratteimasu.",
-      "contentHtml": "友達はそのクラブでダンスを習っています。",
+      "contentHtml": "<ruby>友達<rt>ともだち</rt></ruby>はそのクラブでダンスを<ruby>習<rt>なら</rt></ruby>っています。",
       "meaningVi": "Bạn tôi đang học khiêu vũ ở câu lạc bộ ấy.",
       "orderIndex": 3
     },
@@ -48,7 +48,7 @@
       "sentenceNumber": 4,
       "plainText": "先週、友達に「どうやって申し込みますか」と聞きました。",
       "romaji": "senshuu, tomodachi ni douyatte moushikomimasu ka to kikimashita.",
-      "contentHtml": "先週、友達に「どうやって申し込みますか」と聞きました。",
+      "contentHtml": "<ruby>先週<rt>せんしゅう</rt></ruby>、<ruby>友達<rt>ともだち</rt></ruby>に「どうやって<ruby>申<rt>もう</rt></ruby>し<ruby>込<rt>こ</rt></ruby>みますか」と<ruby>聞<rt>き</rt></ruby>きました。",
       "meaningVi": "Tuần trước, tôi hỏi bạn: “Đăng ký bằng cách nào?”.",
       "orderIndex": 4
     },
@@ -58,7 +58,7 @@
       "sentenceNumber": 5,
       "plainText": "受付で名前を言って、申し込みました。",
       "romaji": "uketsuke de namae o itte, moushikomimashita.",
-      "contentHtml": "受付で名前を言って、申し込みました。",
+      "contentHtml": "<ruby>受付<rt>うけつけ</rt></ruby>で<ruby>名前<rt>なまえ</rt></ruby>を<ruby>言<rt>い</rt></ruby>って、<ruby>申<rt>もう</rt></ruby>し<ruby>込<rt>こ</rt></ruby>みました。",
       "meaningVi": "Tôi nói tên ở quầy lễ tân rồi đăng ký.",
       "orderIndex": 5
     },
@@ -68,7 +68,7 @@
       "sentenceNumber": 6,
       "plainText": "毎週一回、クラブに参加します。",
       "romaji": "maishuu ikkai, kurabu ni sanka shimasu.",
-      "contentHtml": "毎週一回、クラブに参加します。",
+      "contentHtml": "<ruby>毎週一回<rt>まいしゅういっかい</rt></ruby>、クラブに<ruby>参加<rt>さんか</rt></ruby>します。",
       "meaningVi": "Mỗi tuần tôi tham gia câu lạc bộ một lần.",
       "orderIndex": 6
     },
@@ -78,7 +78,7 @@
       "sentenceNumber": 7,
       "plainText": "先生は親切で、ゆっくり教えてくれます。",
       "romaji": "sensei wa shinsetsu de, yukkuri oshiete kuremasu.",
-      "contentHtml": "先生は親切で、ゆっくり教えてくれます。",
+      "contentHtml": "<ruby>先生<rt>せんせい</rt></ruby>は<ruby>親切<rt>しんせつ</rt></ruby>で、ゆっくり<ruby>教<rt>おし</rt></ruby>えてくれます。",
       "meaningVi": "Thầy cô tốt bụng và dạy chúng tôi từ từ.",
       "orderIndex": 7
     },
@@ -88,7 +88,7 @@
       "sentenceNumber": 8,
       "plainText": "みんなで音楽を聞いて、踊りを練習します。",
       "romaji": "minna de ongaku o kiite, odori o renshuu shimasu.",
-      "contentHtml": "みんなで音楽を聞いて、踊りを練習します。",
+      "contentHtml": "みんなで<ruby>音楽<rt>おんがく</rt></ruby>を<ruby>聞<rt>き</rt></ruby>いて、<ruby>踊<rt>おど</rt></ruby>りを<ruby>練習<rt>れんしゅう</rt></ruby>します。",
       "meaningVi": "Mọi người cùng nghe nhạc và luyện nhảy.",
       "orderIndex": 8
     },
@@ -98,7 +98,7 @@
       "sentenceNumber": 9,
       "plainText": "私はまだ上手ではありませんが、練習しています。",
       "romaji": "watashi wa mada jouzu de wa arimasen ga, renshuu shiteimasu.",
-      "contentHtml": "私はまだ上手ではありませんが、練習しています。",
+      "contentHtml": "<ruby>私<rt>わたし</rt></ruby>はまだ<ruby>上手<rt>じょうず</rt></ruby>ではありませんが、<ruby>練習<rt>れんしゅう</rt></ruby>しています。",
       "meaningVi": "Tôi vẫn chưa giỏi nhưng đang luyện tập.",
       "orderIndex": 9
     },
@@ -108,7 +108,7 @@
       "sentenceNumber": 10,
       "plainText": "今は簡単な踊りなら一人で踊ることができます。",
       "romaji": "ima wa kantan na odori nara hitori de odoru koto ga dekimasu.",
-      "contentHtml": "今は簡単な踊りなら一人で踊ることができます。",
+      "contentHtml": "<ruby>今<rt>いま</rt></ruby>は<ruby>簡単<rt>かんたん</rt></ruby>な<ruby>踊<rt>おど</rt></ruby>りなら<ruby>一人<rt>ひとり</rt></ruby>で<ruby>踊<rt>おど</rt></ruby>ることができます。",
       "meaningVi": "Bây giờ tôi có thể tự nhảy những điệu đơn giản.",
       "orderIndex": 10
     }

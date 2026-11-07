@@ -18,7 +18,7 @@
       "sentenceNumber": 1,
       "plainText": "平日は学校とアルバイトで忙しいです。",
       "romaji": "heijitsu wa gakkou to arubaito de isogashii desu.",
-      "contentHtml": "平日は学校とアルバイトで忙しいです。",
+      "contentHtml": "<ruby>平日<rt>へいじつ</rt></ruby>は<ruby>学校<rt>がっこう</rt></ruby>とアルバイトで<ruby>忙<rt>いそが</rt></ruby>しいです。",
       "meaningVi": "Ngày thường, tôi bận học và làm thêm.",
       "orderIndex": 1
     },
@@ -27,8 +27,8 @@
       "lessonId": "88888888-1133-0000-0000-000000000921",
       "sentenceNumber": 2,
       "plainText": "アルバイトは毎日六時に終わります。",
-      "romaji": "shigoto wa mainichi rokuji ni owarimasu.",
-      "contentHtml": "アルバイトは毎日六時に終わります。",
+      "romaji": "arubaito wa mainichi rokuji ni owarimasu.",
+      "contentHtml": "アルバイトは<ruby>毎日六時<rt>まいにちろくじ</rt></ruby>に<ruby>終<rt>お</rt></ruby>わります。",
       "meaningVi": "Ngày nào công việc cũng kết thúc lúc sáu giờ.",
       "orderIndex": 2
     },
@@ -38,7 +38,7 @@
       "sentenceNumber": 3,
       "plainText": "家に帰ったとき、少し疲れています。",
       "romaji": "ie ni kaetta toki, sukoshi tsukareteimasu.",
-      "contentHtml": "家に帰ったとき、少し疲れています。",
+      "contentHtml": "<ruby>家<rt>いえ</rt></ruby>に<ruby>帰<rt>かえ</rt></ruby>ったとき、<ruby>少<rt>すこ</rt></ruby>し<ruby>疲<rt>つか</rt></ruby>れています。",
       "meaningVi": "Khi về đến nhà, tôi hơi mệt.",
       "orderIndex": 3
     },
@@ -48,7 +48,7 @@
       "sentenceNumber": 4,
       "plainText": "疲れたとき、音楽を聞いて休みます。",
       "romaji": "tsukareta toki, ongaku o kiite yasumimasu.",
-      "contentHtml": "疲れたとき、音楽を聞いて休みます。",
+      "contentHtml": "<ruby>疲<rt>つか</rt></ruby>れたとき、<ruby>音楽<rt>おんがく</rt></ruby>を<ruby>聞<rt>き</rt></ruby>いて<ruby>休<rt>やす</rt></ruby>みます。",
       "meaningVi": "Khi mệt, tôi nghe nhạc và nghỉ ngơi.",
       "orderIndex": 4
     },
@@ -58,7 +58,7 @@
       "sentenceNumber": 5,
       "plainText": "そのあとで、晩ご飯を食べます。",
       "romaji": "sono ato de, bangohan o tabemasu.",
-      "contentHtml": "そのあとで、晩ご飯を食べます。",
+      "contentHtml": "そのあとで、<ruby>晩<rt>ばん</rt></ruby>ご<ruby>飯<rt>はん</rt></ruby>を<ruby>食<rt>た</rt></ruby>べます。",
       "meaningVi": "Sau đó, tôi ăn tối.",
       "orderIndex": 5
     },
@@ -68,7 +68,7 @@
       "sentenceNumber": 6,
       "plainText": "晩ご飯のあと、日本語の宿題をします。",
       "romaji": "bangohan no ato, nihongo no shukudai o shimasu.",
-      "contentHtml": "晩ご飯のあと、日本語の宿題をします。",
+      "contentHtml": "<ruby>晩<rt>ばん</rt></ruby>ご<ruby>飯<rt>はん</rt></ruby>のあと、<ruby>日本語<rt>にほんご</rt></ruby>の<ruby>宿題<rt>しゅくだい</rt></ruby>をします。",
       "meaningVi": "Sau bữa tối, tôi làm bài tập tiếng Nhật.",
       "orderIndex": 6
     },
@@ -78,7 +78,7 @@
       "sentenceNumber": 7,
       "plainText": "眠いときは、少し休んでから勉強します。",
       "romaji": "nemui toki wa, sukoshi yasunde kara benkyou shimasu.",
-      "contentHtml": "眠いときは、少し休んでから勉強します。",
+      "contentHtml": "<ruby>眠<rt>ねむ</rt></ruby>いときは、<ruby>少<rt>すこ</rt></ruby>し<ruby>休<rt>やす</rt></ruby>んでから<ruby>勉強<rt>べんきょう</rt></ruby>します。",
       "meaningVi": "Khi buồn ngủ, tôi nghỉ một chút rồi mới học.",
       "orderIndex": 7
     },
@@ -88,7 +88,7 @@
       "sentenceNumber": 8,
       "plainText": "寝る前に、その日のことを日記に書きます。",
       "romaji": "neru mae ni, sono hi no koto o nikki ni kakimasu.",
-      "contentHtml": "寝る前に、その日のことを日記に書きます。",
+      "contentHtml": "<ruby>寝<rt>ね</rt></ruby>る<ruby>前<rt>まえ</rt></ruby>に、その<ruby>日<rt>ひ</rt></ruby>のことを<ruby>日記<rt>にっき</rt></ruby>に<ruby>書<rt>か</rt></ruby>きます。",
       "meaningVi": "Trước khi ngủ, tôi viết chuyện trong ngày vào nhật ký.",
       "orderIndex": 8
     },
@@ -98,7 +98,7 @@
       "sentenceNumber": 9,
       "plainText": "昨日は友達と話したことを書きました。",
       "romaji": "kinou wa tomodachi to hanashita koto o kakimashita.",
-      "contentHtml": "昨日は友達と話したことを書きました。",
+      "contentHtml": "<ruby>昨日<rt>きのう</rt></ruby>は<ruby>友達<rt>ともだち</rt></ruby>と<ruby>話<rt>はな</rt></ruby>したことを<ruby>書<rt>か</rt></ruby>きました。",
       "meaningVi": "Hôm qua, tôi viết về chuyện đã trò chuyện với bạn.",
       "orderIndex": 9
     },
@@ -107,8 +107,8 @@
       "lessonId": "88888888-1133-0000-0000-000000000921",
       "sentenceNumber": 10,
       "plainText": "日記を読むと、一日を思い出します。",
-      "romaji": "nikki o yomu to, ichinichi o omoidasu.",
-      "contentHtml": "日記を読むと、一日を思い出します。",
+      "romaji": "nikki o yomu to, ichinichi o omoidashimasu.",
+      "contentHtml": "<ruby>日記<rt>にっき</rt></ruby>を<ruby>読<rt>よ</rt></ruby>むと、<ruby>一日<rt>いちにち</rt></ruby>を<ruby>思<rt>おも</rt></ruby>い<ruby>出<rt>だ</rt></ruby>します。",
       "meaningVi": "Khi đọc nhật ký, tôi nhớ lại một ngày của mình.",
       "orderIndex": 10
     }

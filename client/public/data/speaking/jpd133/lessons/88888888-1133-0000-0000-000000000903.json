@@ -18,7 +18,7 @@
       "sentenceNumber": 1,
       "plainText": "私の兄は東京に住んでいます。",
       "romaji": "watashi no ani wa toukyou ni sundeimasu.",
-      "contentHtml": "私の兄は東京に住んでいます。",
+      "contentHtml": "<ruby>私<rt>わたし</rt></ruby>の<ruby>兄<rt>あに</rt></ruby>は<ruby>東京<rt>とうきょう</rt></ruby>に<ruby>住<rt>す</rt></ruby>んでいます。",
       "meaningVi": "Anh trai tôi sống ở Tokyo.",
       "orderIndex": 1
     },
@@ -28,7 +28,7 @@
       "sentenceNumber": 2,
       "plainText": "兄は病院で働いています。",
       "romaji": "ani wa byouin de hataraiteimasu.",
-      "contentHtml": "兄は病院で働いています。",
+      "contentHtml": "<ruby>兄<rt>あに</rt></ruby>は<ruby>病院<rt>びょういん</rt></ruby>で<ruby>働<rt>はたら</rt></ruby>いています。",
       "meaningVi": "Anh làm việc ở bệnh viện.",
       "orderIndex": 2
     },
@@ -38,7 +38,7 @@
       "sentenceNumber": 3,
       "plainText": "兄はまじめで、親切な医者です。",
       "romaji": "ani wa majime de, shinsetsu na isha desu.",
-      "contentHtml": "兄はまじめで、親切な医者です。",
+      "contentHtml": "<ruby>兄<rt>あに</rt></ruby>はまじめで、<ruby>親切<rt>しんせつ</rt></ruby>な<ruby>医者<rt>いしゃ</rt></ruby>です。",
       "meaningVi": "Anh là bác sĩ chăm chỉ và tốt bụng.",
       "orderIndex": 3
     },
@@ -48,7 +48,7 @@
       "sentenceNumber": 4,
       "plainText": "毎週日曜日、兄は私に電話をくれます。",
       "romaji": "maishuu nichiyoubi, ani wa watashi ni denwa o kuremasu.",
-      "contentHtml": "毎週日曜日、兄は私に電話をくれます。",
+      "contentHtml": "<ruby>毎週日曜日<rt>まいしゅうにちようび</rt></ruby>、<ruby>兄<rt>あに</rt></ruby>は<ruby>私<rt>わたし</rt></ruby>に<ruby>電話<rt>でんわ</rt></ruby>をくれます。",
       "meaningVi": "Mỗi Chủ nhật, anh gọi điện cho tôi.",
       "orderIndex": 4
     },
@@ -58,7 +58,7 @@
       "sentenceNumber": 5,
       "plainText": "先週、兄は久しぶりに家へ帰りました。",
       "romaji": "senshuu, ani wa hisashiburi ni ie e kaerimashita.",
-      "contentHtml": "先週、兄は久しぶりに家へ帰りました。",
+      "contentHtml": "<ruby>先週<rt>せんしゅう</rt></ruby>、<ruby>兄<rt>あに</rt></ruby>は<ruby>久<rt>ひさ</rt></ruby>しぶりに<ruby>家<rt>いえ</rt></ruby>へ<ruby>帰<rt>かえ</rt></ruby>りました。",
       "meaningVi": "Tuần trước, lâu rồi anh mới về nhà.",
       "orderIndex": 5
     },
@@ -68,7 +68,7 @@
       "sentenceNumber": 6,
       "plainText": "父も母も兄に会って、とても喜びました。",
       "romaji": "chichi mo haha mo ani ni atte, totemo yorokobimashita.",
-      "contentHtml": "父も母も兄に会って、とても喜びました。",
+      "contentHtml": "<ruby>父<rt>ちち</rt></ruby>も<ruby>母<rt>はは</rt></ruby>も<ruby>兄<rt>あ</rt></ruby>に<ruby>会<rt>にあ</rt></ruby>って、とても<ruby>喜<rt>よろこ</rt></ruby>びました。",
       "meaningVi": "Bố mẹ gặp anh và vui lắm.",
       "orderIndex": 6
     },
@@ -78,7 +78,7 @@
       "sentenceNumber": 7,
       "plainText": "兄は東京のお菓子を家族にくれました。",
       "romaji": "ani wa toukyou no okashi o kazoku ni kuremashita.",
-      "contentHtml": "兄は東京のお菓子を家族にくれました。",
+      "contentHtml": "<ruby>兄<rt>あに</rt></ruby>は<ruby>東京<rt>とうきょう</rt></ruby>のお<ruby>菓子<rt>かし</rt></ruby>を<ruby>家族<rt>かぞく</rt></ruby>にくれました。",
       "meaningVi": "Anh tặng cả nhà bánh kẹo từ Tokyo.",
       "orderIndex": 7
     },
@@ -88,7 +88,7 @@
       "sentenceNumber": 8,
       "plainText": "私は兄に大学の写真を見せました。",
       "romaji": "watashi wa ani ni daigaku no shashin o misemashita.",
-      "contentHtml": "私は兄に大学の写真を見せました。",
+      "contentHtml": "<ruby>私<rt>わたし</rt></ruby>は<ruby>兄<rt>あに</rt></ruby>に<ruby>大学<rt>だいがく</rt></ruby>の<ruby>写真<rt>しゃしん</rt></ruby>を<ruby>見<rt>み</rt></ruby>せました。",
       "meaningVi": "Tôi cho anh xem ảnh trường đại học.",
       "orderIndex": 8
     },
@@ -98,7 +98,7 @@
       "sentenceNumber": 9,
       "plainText": "夜、兄は家族と一緒に晩ご飯を食べました。",
       "romaji": "yoru, ani wa kazoku to issho ni bangohan o tabemashita.",
-      "contentHtml": "夜、兄は家族と一緒に晩ご飯を食べました。",
+      "contentHtml": "<ruby>夜<rt>よる</rt></ruby>、<ruby>兄<rt>あに</rt></ruby>は<ruby>家族<rt>かぞく</rt></ruby>と<ruby>一緒<rt>いっしょ</rt></ruby>に<ruby>晩<rt>ばん</rt></ruby>ご<ruby>飯<rt>はん</rt></ruby>を<ruby>食<rt>た</rt></ruby>べました。",
       "meaningVi": "Buổi tối, anh ăn cơm cùng gia đình.",
       "orderIndex": 9
     },
@@ -108,7 +108,7 @@
       "sentenceNumber": 10,
       "plainText": "次の日、兄は東京へ帰り、また電話すると言いました。",
       "romaji": "tsugi no hi, ani wa toukyou e kaeri, mata denwa suru to iimashita.",
-      "contentHtml": "次の日、兄は東京へ帰り、また電話すると言いました。",
+      "contentHtml": "<ruby>次<rt>つぎ</rt></ruby>の<ruby>日<rt>ひ</rt></ruby>、<ruby>兄<rt>あに</rt></ruby>は<ruby>東京<rt>とうきょう</rt></ruby>へ<ruby>帰<rt>かえ</rt></ruby>り、また<ruby>電話<rt>でんわ</rt></ruby>すると<ruby>言<rt>い</rt></ruby>いました。",
       "meaningVi": "Hôm sau anh về Tokyo và nói sẽ gọi lại.",
       "orderIndex": 10
     }

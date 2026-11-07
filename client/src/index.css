@@ -647,9 +647,15 @@
 }
 
 .speaking-passage .speaking-content {
-  font-size: clamp(1.15rem, 2.5vw, 1.45rem);
+  font-size: clamp(1.25rem, 2vw, 1.65rem);
   line-height: 2;
   display: inline;
+}
+
+.speaking-passage .speaking-content rt {
+  font-size: 0.48em;
+  line-height: 1.25;
+  padding: 0.08rem 0.35rem;
 }
 
 .speaking-sentence-badge {
@@ -702,7 +708,7 @@
   }
 
   .speaking-passage .speaking-content {
-    font-size: 1.15rem;
+    font-size: 1.2rem;
   }
 
   .speaking-sentence-badge {

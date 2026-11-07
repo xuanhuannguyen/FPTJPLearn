@@ -18,7 +18,7 @@
       "sentenceNumber": 1,
       "plainText": "土曜日、母と美術館へ行きました。",
       "romaji": "doyoubi, haha to bijutsukan e ikimashita.",
-      "contentHtml": "土曜日、母と美術館へ行きました。",
+      "contentHtml": "<ruby>土曜日<rt>どようび</rt></ruby>、<ruby>母<rt>はは</rt></ruby>と<ruby>美術館<rt>びじゅつかん</rt></ruby>へ<ruby>行<rt>い</rt></ruby>きました。",
       "meaningVi": "Thứ Bảy, tôi đi bảo tàng mỹ thuật với mẹ.",
       "orderIndex": 1
     },
@@ -28,7 +28,7 @@
       "sentenceNumber": 2,
       "plainText": "入り口で案内をもらって、展示室に入りました。",
       "romaji": "iri guchi de annai o moratte, tenjishitsu ni hairimashita.",
-      "contentHtml": "入り口で案内をもらって、展示室に入りました。",
+      "contentHtml": "<ruby>入<rt>い</rt></ruby>り<ruby>口<rt>ぐち</rt></ruby>で<ruby>案内<rt>あんない</rt></ruby>をもらって、<ruby>展示室<rt>てんじしつ</rt></ruby>に<ruby>入<rt>はい</rt></ruby>りました。",
       "meaningVi": "Chúng tôi nhận tờ hướng dẫn ở cổng rồi vào phòng triển lãm.",
       "orderIndex": 2
     },
@@ -38,7 +38,7 @@
       "sentenceNumber": 3,
       "plainText": "部屋には古い町の写真がたくさんありました。",
       "romaji": "heya ni wa furui machi no shashin ga takusan arimashita.",
-      "contentHtml": "部屋には古い町の写真がたくさんありました。",
+      "contentHtml": "<ruby>部屋<rt>へや</rt></ruby>には<ruby>古<rt>ふる</rt></ruby>い<ruby>町<rt>まち</rt></ruby>の<ruby>写真<rt>しゃしん</rt></ruby>がたくさんありました。",
       "meaningVi": "Trong phòng có nhiều ảnh về thành phố xưa.",
       "orderIndex": 3
     },
@@ -48,7 +48,7 @@
       "sentenceNumber": 4,
       "plainText": "母は一枚ずつ写真を見ています。",
       "romaji": "haha wa ichimai zutsu shashin o miteimasu.",
-      "contentHtml": "母は一枚ずつ写真を見ています。",
+      "contentHtml": "<ruby>母<rt>はは</rt></ruby>は<ruby>一枚<rt>いちまい</rt></ruby>ずつ<ruby>写真<rt>しゃしん</rt></ruby>を<ruby>見<rt>み</rt></ruby>ています。",
       "meaningVi": "Mẹ đang xem từng tấm ảnh.",
       "orderIndex": 4
     },
@@ -58,7 +58,7 @@
       "sentenceNumber": 5,
       "plainText": "私は係の人に「ここで写真を撮ってもいいですか」と聞きました。",
       "romaji": "watashi wa kakari no hito ni koko de shashin o totte mo ii desu ka to kikimashita.",
-      "contentHtml": "私は係の人に「ここで写真を撮ってもいいですか」と聞きました。",
+      "contentHtml": "<ruby>私<rt>わたし</rt></ruby>は<ruby>係<rt>かかり</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>に「ここで<ruby>写真<rt>しゃしん</rt></ruby>を<ruby>撮<rt>と</rt></ruby>ってもいいですか」と<ruby>聞<rt>き</rt></ruby>きました。",
       "meaningVi": "Tôi hỏi nhân viên: “Chụp ảnh ở đây được không ạ?”.",
       "orderIndex": 5
     },
@@ -68,7 +68,7 @@
       "sentenceNumber": 6,
       "plainText": "係の人は「写真を撮らないでください」と言いました。",
       "romaji": "kakari no hito wa shashin o toranaide kudasai to iimashita.",
-      "contentHtml": "係の人は「写真を撮らないでください」と言いました。",
+      "contentHtml": "<ruby>係<rt>かかり</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>は「<ruby>写真<rt>しゃしん</rt></ruby>を<ruby>撮<rt>と</rt></ruby>らないでください」と<ruby>言<rt>い</rt></ruby>いました。",
       "meaningVi": "Nhân viên nói: “Xin đừng chụp ảnh”.",
       "orderIndex": 6
     },
@@ -78,7 +78,7 @@
       "sentenceNumber": 7,
       "plainText": "私たちはカメラをしまって、展示を見ました。",
       "romaji": "watashitachi wa kamera o shimatte, tenji o mimashita.",
-      "contentHtml": "私たちはカメラをしまって、展示を見ました。",
+      "contentHtml": "<ruby>私<rt>わたし</rt></ruby>たちはカメラをしまって、<ruby>展示<rt>てんじ</rt></ruby>を<ruby>見<rt>み</rt></ruby>ました。",
       "meaningVi": "Chúng tôi cất máy ảnh và tiếp tục xem triển lãm.",
       "orderIndex": 7
     },
@@ -88,7 +88,7 @@
       "sentenceNumber": 8,
       "plainText": "母は昔の町について私に話しました。",
       "romaji": "haha wa mukashi no machi ni tsuite watashi ni hanashimashita.",
-      "contentHtml": "母は昔の町について私に話しました。",
+      "contentHtml": "<ruby>母<rt>はは</rt></ruby>は<ruby>昔<rt>むかし</rt></ruby>の<ruby>町<rt>まち</rt></ruby>について<ruby>私<rt>わたし</rt></ruby>に<ruby>話<rt>はな</rt></ruby>しました。",
       "meaningVi": "Mẹ kể cho tôi nghe về thành phố ngày xưa.",
       "orderIndex": 8
     },
@@ -98,7 +98,7 @@
       "sentenceNumber": 9,
       "plainText": "出口の近くで小さな絵を買いました。",
       "romaji": "deguchi no chikaku de chiisana e o kaimashita.",
-      "contentHtml": "出口の近くで小さな絵を買いました。",
+      "contentHtml": "<ruby>出口<rt>でぐち</rt></ruby>の<ruby>近<rt>ちか</rt></ruby>くで<ruby>小<rt>ちい</rt></ruby>さな<ruby>絵<rt>え</rt></ruby>を<ruby>買<rt>か</rt></ruby>いました。",
       "meaningVi": "Chúng tôi mua một bức tranh nhỏ gần cổng ra.",
       "orderIndex": 9
     },
@@ -108,7 +108,7 @@
       "sentenceNumber": 10,
       "plainText": "家に帰って、その絵を部屋に飾りました。",
       "romaji": "ie ni kaette, sono e o heya ni kazarimashita.",
-      "contentHtml": "家に帰って、その絵を部屋に飾りました。",
+      "contentHtml": "<ruby>家<rt>いえ</rt></ruby>に<ruby>帰<rt>かえ</rt></ruby>って、その<ruby>絵<rt>え</rt></ruby>を<ruby>部屋<rt>へや</rt></ruby>に<ruby>飾<rt>かざ</rt></ruby>りました。",
       "meaningVi": "Về đến nhà, tôi treo bức tranh trong phòng.",
       "orderIndex": 10
     }

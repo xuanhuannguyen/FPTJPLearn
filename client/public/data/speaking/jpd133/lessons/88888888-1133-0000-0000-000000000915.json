@@ -18,7 +18,7 @@
       "sentenceNumber": 1,
       "plainText": "午後、友達と公園へ行きました。",
       "romaji": "gogo, tomodachi to kouen e ikimashita.",
-      "contentHtml": "午後、友達と公園へ行きました。",
+      "contentHtml": "<ruby>午後<rt>ごご</rt></ruby>、<ruby>友達<rt>ともだち</rt></ruby>と<ruby>公園<rt>こうえん</rt></ruby>へ<ruby>行<rt>い</rt></ruby>きました。",
       "meaningVi": "Buổi chiều, tôi đi công viên với bạn.",
       "orderIndex": 1
     },
@@ -28,7 +28,7 @@
       "sentenceNumber": 2,
       "plainText": "公園では子どもたちが遊んでいます。",
       "romaji": "kouen de wa kodomotachi ga asondeimasu.",
-      "contentHtml": "公園では子どもたちが遊んでいます。",
+      "contentHtml": "<ruby>公園<rt>こうえん</rt></ruby>では<ruby>子<rt>こ</rt></ruby>どもたちが<ruby>遊<rt>あそ</rt></ruby>んでいます。",
       "meaningVi": "Trong công viên, các em nhỏ đang chơi.",
       "orderIndex": 2
     },
@@ -38,7 +38,7 @@
       "sentenceNumber": 3,
       "plainText": "大きな木の上に鳥がいます。",
       "romaji": "ookina ki no ue ni tori ga imasu.",
-      "contentHtml": "大きな木の上に鳥がいます。",
+      "contentHtml": "<ruby>大<rt>おお</rt></ruby>きな<ruby>木<rt>き</rt></ruby>の<ruby>上<rt>うえ</rt></ruby>に<ruby>鳥<rt>とり</rt></ruby>がいます。",
       "meaningVi": "Trên cây lớn có chim.",
       "orderIndex": 3
     },
@@ -48,7 +48,7 @@
       "sentenceNumber": 4,
       "plainText": "鳥の声がよく聞こえました。",
       "romaji": "tori no koe ga yoku kikoemashita.",
-      "contentHtml": "鳥の声がよく聞こえました。",
+      "contentHtml": "<ruby>鳥<rt>とり</rt></ruby>の<ruby>声<rt>こえ</rt></ruby>がよく<ruby>聞<rt>き</rt></ruby>こえました。",
       "meaningVi": "Chúng tôi nghe rõ tiếng chim.",
       "orderIndex": 4
     },
@@ -58,7 +58,7 @@
       "sentenceNumber": 5,
       "plainText": "向こうには大きな観覧車が見えます。",
       "romaji": "mukou ni wa ookina kanransha ga miemasu.",
-      "contentHtml": "向こうには大きな観覧車が見えます。",
+      "contentHtml": "<ruby>向<rt>む</rt></ruby>こうには<ruby>大<rt>おお</rt></ruby>きな<ruby>観覧車<rt>かんらんしゃ</rt></ruby>が<ruby>見<rt>み</rt></ruby>えます。",
       "meaningVi": "Đằng kia có thể nhìn thấy vòng quay lớn.",
       "orderIndex": 5
     },
@@ -68,7 +68,7 @@
       "sentenceNumber": 6,
       "plainText": "友達は観覧車に乗りたいと言いました。",
       "romaji": "tomodachi wa kanransha ni noritai to iimashita.",
-      "contentHtml": "友達は観覧車に乗りたいと言いました。",
+      "contentHtml": "<ruby>友達<rt>ともだち</rt></ruby>は<ruby>観覧車<rt>かんらんしゃ</rt></ruby>に<ruby>乗<rt>の</rt></ruby>りたいと<ruby>言<rt>い</rt></ruby>いました。",
       "meaningVi": "Bạn nói muốn đi vòng quay.",
       "orderIndex": 6
     },
@@ -78,7 +78,7 @@
       "sentenceNumber": 7,
       "plainText": "でも、空がだんだん暗くなってきました。",
       "romaji": "demo, sora ga dandan kuraku natte kimashita.",
-      "contentHtml": "でも、空がだんだん暗くなってきました。",
+      "contentHtml": "でも、<ruby>空<rt>そら</rt></ruby>がだんだん<ruby>暗<rt>くら</rt></ruby>くなってきました。",
       "meaningVi": "Nhưng bầu trời dần tối lại.",
       "orderIndex": 7
     },
@@ -88,7 +88,7 @@
       "sentenceNumber": 8,
       "plainText": "私たちはベンチに座って、少し休みました。",
       "romaji": "watashitachi wa benchi ni suwatte, sukoshi yasumimashita.",
-      "contentHtml": "私たちはベンチに座って、少し休みました。",
+      "contentHtml": "<ruby>私<rt>わたし</rt></ruby>たちはベンチに<ruby>座<rt>すわ</rt></ruby>って、<ruby>少<rt>すこ</rt></ruby>し<ruby>休<rt>やす</rt></ruby>みました。",
       "meaningVi": "Chúng tôi ngồi xuống ghế băng và nghỉ một lát.",
       "orderIndex": 8
     },
@@ -98,7 +98,7 @@
       "sentenceNumber": 9,
       "plainText": "子どもたちは家族と一緒に帰っていきました。",
       "romaji": "kodomotachi wa kazoku to issho ni kaette ikimashita.",
-      "contentHtml": "子どもたちは家族と一緒に帰っていきました。",
+      "contentHtml": "<ruby>子<rt>こ</rt></ruby>どもたちは<ruby>家族<rt>かぞく</rt></ruby>と<ruby>一緒<rt>いっしょ</rt></ruby>に<ruby>帰<rt>かえ</rt></ruby>っていきました。",
       "meaningVi": "Các em nhỏ cùng gia đình ra về.",
       "orderIndex": 9
     },
@@ -108,7 +108,7 @@
       "sentenceNumber": 10,
       "plainText": "私たちも暗くなる前に公園を出ました。",
       "romaji": "watashitachi mo kuraku naru mae ni kouen o demashita.",
-      "contentHtml": "私たちも暗くなる前に公園を出ました。",
+      "contentHtml": "<ruby>私<rt>わたし</rt></ruby>たちも<ruby>暗<rt>くら</rt></ruby>くなる<ruby>前<rt>まえ</rt></ruby>に<ruby>公園<rt>こうえん</rt></ruby>を<ruby>出<rt>で</rt></ruby>ました。",
       "meaningVi": "Chúng tôi cũng rời công viên trước khi trời tối.",
       "orderIndex": 10
     }

@@ -18,7 +18,7 @@
       "sentenceNumber": 1,
       "plainText": "小学生のとき、私は田舎に住んでいました。",
       "romaji": "shougakusei no toki, watashi wa inaka ni sundeimashita.",
-      "contentHtml": "小学生のとき、私は田舎に住んでいました。",
+      "contentHtml": "<ruby>小学生<rt>しょうがくせい</rt></ruby>のとき、<ruby>私<rt>わたし</rt></ruby>は<ruby>田舎<rt>いなか</rt></ruby>に<ruby>住<rt>す</rt></ruby>んでいました。",
       "meaningVi": "Khi còn học tiểu học, tôi sống ở quê.",
       "orderIndex": 1
     },
@@ -28,7 +28,7 @@
       "sentenceNumber": 2,
       "plainText": "毎朝、祖父と学校へ歩いて行きました。",
       "romaji": "maiasa, sofu to gakkou e aruite ikimashita.",
-      "contentHtml": "毎朝、祖父と学校へ歩いて行きました。",
+      "contentHtml": "<ruby>毎朝<rt>まいあさ</rt></ruby>、<ruby>祖父<rt>そふ</rt></ruby>と<ruby>学校<rt>がっこう</rt></ruby>へ<ruby>歩<rt>ある</rt></ruby>いて<ruby>行<rt>い</rt></ruby>きました。",
       "meaningVi": "Mỗi sáng, tôi đi bộ đến trường cùng ông.",
       "orderIndex": 2
     },
@@ -38,7 +38,7 @@
       "sentenceNumber": 3,
       "plainText": "学校から帰ったとき、友達と公園で遊びました。",
       "romaji": "gakkou kara kaetta toki, tomodachi to kouen de asobimashita.",
-      "contentHtml": "学校から帰ったとき、友達と公園で遊びました。",
+      "contentHtml": "<ruby>学校<rt>がっこう</rt></ruby>から<ruby>帰<rt>かえ</rt></ruby>ったとき、<ruby>友達<rt>ともだち</rt></ruby>と<ruby>公園<rt>こうえん</rt></ruby>で<ruby>遊<rt>あそ</rt></ruby>びました。",
       "meaningVi": "Khi tan học về, tôi chơi với bạn ở công viên.",
       "orderIndex": 3
     },
@@ -48,7 +48,7 @@
       "sentenceNumber": 4,
       "plainText": "公園には大きな木があって、鳥がたくさんいました。",
       "romaji": "kouen ni wa ookina ki ga atte, tori ga takusan imashita.",
-      "contentHtml": "公園には大きな木があって、鳥がたくさんいました。",
+      "contentHtml": "<ruby>公園<rt>こうえん</rt></ruby>には<ruby>大<rt>おお</rt></ruby>きな<ruby>木<rt>き</rt></ruby>があって、<ruby>鳥<rt>とり</rt></ruby>がたくさんいました。",
       "meaningVi": "Trong công viên có cây lớn và nhiều chim.",
       "orderIndex": 4
     },
@@ -58,7 +58,7 @@
       "sentenceNumber": 5,
       "plainText": "祖父はよく私にお菓子をくれました。",
       "romaji": "sofu wa yoku watashi ni okashi o kuremashita.",
-      "contentHtml": "祖父はよく私にお菓子をくれました。",
+      "contentHtml": "<ruby>祖父<rt>そふ</rt></ruby>はよく<ruby>私<rt>わたし</rt></ruby>にお<ruby>菓子<rt>かし</rt></ruby>をくれました。",
       "meaningVi": "Ông thường cho tôi bánh kẹo.",
       "orderIndex": 5
     },
@@ -68,7 +68,7 @@
       "sentenceNumber": 6,
       "plainText": "私は祖父に学校の話をしました。",
       "romaji": "watashi wa sofu ni gakkou no hanashi o shimashita.",
-      "contentHtml": "私は祖父に学校の話をしました。",
+      "contentHtml": "<ruby>私<rt>わたし</rt></ruby>は<ruby>祖父<rt>そふ</rt></ruby>に<ruby>学校<rt>がっこう</rt></ruby>の<ruby>話<rt>はなし</rt></ruby>をしました。",
       "meaningVi": "Tôi kể cho ông nghe chuyện ở trường.",
       "orderIndex": 6
     },
@@ -78,7 +78,7 @@
       "sentenceNumber": 7,
       "plainText": "休みの日は、友達と川へ行ったり、本を読んだりしました。",
       "romaji": "yasumi no hi wa, tomodachi to kawa e ittari, hon o yondari shimashita.",
-      "contentHtml": "休みの日は、友達と川へ行ったり、本を読んだりしました。",
+      "contentHtml": "<ruby>休<rt>やす</rt></ruby>みの<ruby>日<rt>ひ</rt></ruby>は、<ruby>友達<rt>ともだち</rt></ruby>と<ruby>川<rt>かわ</rt></ruby>へ<ruby>行<rt>い</rt></ruby>ったり、<ruby>本<rt>ほん</rt></ruby>を<ruby>読<rt>よ</rt></ruby>んだりしました。",
       "meaningVi": "Ngày nghỉ, tôi đi sông hoặc đọc sách cùng bạn.",
       "orderIndex": 7
     },
@@ -88,7 +88,7 @@
       "sentenceNumber": 8,
       "plainText": "夕方になると、祖父が迎えに来ました。",
       "romaji": "yuugata ni naru to, sofu ga mukae ni kimashita.",
-      "contentHtml": "夕方になると、祖父が迎えに来ました。",
+      "contentHtml": "<ruby>夕方<rt>ゆうがた</rt></ruby>になると、<ruby>祖父<rt>そふ</rt></ruby>が<ruby>迎<rt>むか</rt></ruby>えに<ruby>来<rt>き</rt></ruby>ました。",
       "meaningVi": "Đến chiều, ông đến đón tôi.",
       "orderIndex": 8
     },
@@ -98,7 +98,7 @@
       "sentenceNumber": 9,
       "plainText": "私は「まだ遊びたいけど、帰るね」と言いました。",
       "romaji": "watashi wa mada asobitai kedo, kaeru ne to iimashita.",
-      "contentHtml": "私は「まだ遊びたいけど、帰るね」と言いました。",
+      "contentHtml": "<ruby>私<rt>わたし</rt></ruby>は「まだ<ruby>遊<rt>あそ</rt></ruby>びたいけど、<ruby>帰<rt>かえ</rt></ruby>るね」と<ruby>言<rt>い</rt></ruby>いました。",
       "meaningVi": "Tôi nói: “Cháu vẫn muốn chơi nhưng cháu về đây ạ”.",
       "orderIndex": 9
     },
@@ -107,8 +107,8 @@
       "lessonId": "88888888-1133-0000-0000-000000000924",
       "sentenceNumber": 10,
       "plainText": "今もそのころのことをよく思い出します。",
-      "romaji": "ima mo sono koro no koto o yoku omoidasu.",
-      "contentHtml": "今もそのころのことをよく思い出します。",
+      "romaji": "ima mo sono koro no koto o yoku omoidashimasu.",
+      "contentHtml": "<ruby>今<rt>いま</rt></ruby>もそのころのことをよく<ruby>思<rt>おも</rt></ruby>い<ruby>出<rt>だ</rt></ruby>します。",
       "meaningVi": "Bây giờ tôi vẫn thường nhớ về khoảng thời gian ấy.",
       "orderIndex": 10
     }

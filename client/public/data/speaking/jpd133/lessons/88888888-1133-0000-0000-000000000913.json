@@ -18,7 +18,7 @@
       "sentenceNumber": 1,
       "plainText": "日曜日、友達とバスツアーに参加しました。",
       "romaji": "nichiyoubi, tomodachi to basu tsuaa ni sanka shimashita.",
-      "contentHtml": "日曜日、友達とバスツアーに参加しました。",
+      "contentHtml": "<ruby>日曜日<rt>にちようび</rt></ruby>、<ruby>友達<rt>ともだち</rt></ruby>とバスツアーに<ruby>参加<rt>さんか</rt></ruby>しました。",
       "meaningVi": "Chủ nhật, tôi tham gia tour xe buýt với bạn.",
       "orderIndex": 1
     },
@@ -28,7 +28,7 @@
       "sentenceNumber": 2,
       "plainText": "朝、駅に着くと、バスはもう来ていました。",
       "romaji": "asa, eki ni tsuku to, basu wa mou kiteimashita.",
-      "contentHtml": "朝、駅に着くと、バスはもう来ていました。",
+      "contentHtml": "<ruby>朝<rt>あさ</rt></ruby>、<ruby>駅<rt>えき</rt></ruby>に<ruby>着<rt>つ</rt></ruby>くと、バスはもう<ruby>来<rt>き</rt></ruby>ていました。",
       "meaningVi": "Buổi sáng khi đến ga, xe buýt đã tới rồi.",
       "orderIndex": 2
     },
@@ -38,7 +38,7 @@
       "sentenceNumber": 3,
       "plainText": "私たちはバスに乗って、町を回りました。",
       "romaji": "watashitachi wa basu ni notte, machi o mawarimashita.",
-      "contentHtml": "私たちはバスに乗って、町を回りました。",
+      "contentHtml": "<ruby>私<rt>わたし</rt></ruby>たちはバスに<ruby>乗<rt>の</rt></ruby>って、<ruby>町<rt>まち</rt></ruby>を<ruby>回<rt>まわ</rt></ruby>りました。",
       "meaningVi": "Chúng tôi lên xe buýt và đi quanh thành phố.",
       "orderIndex": 3
     },
@@ -48,7 +48,7 @@
       "sentenceNumber": 4,
       "plainText": "窓から東京タワーがよく見えました。",
       "romaji": "mado kara toukyou tawaa ga yoku miemashita.",
-      "contentHtml": "窓から東京タワーがよく見えました。",
+      "contentHtml": "<ruby>窓<rt>まど</rt></ruby>から<ruby>東京<rt>とうきょう</rt></ruby>タワーがよく<ruby>見<rt>み</rt></ruby>えました。",
       "meaningVi": "Từ cửa sổ, chúng tôi nhìn thấy rõ Tháp Tokyo.",
       "orderIndex": 4
     },
@@ -58,7 +58,7 @@
       "sentenceNumber": 5,
       "plainText": "公園では鳥の声が聞こえました。",
       "romaji": "kouen de wa tori no koe ga kikoemashita.",
-      "contentHtml": "公園では鳥の声が聞こえました。",
+      "contentHtml": "<ruby>公園<rt>こうえん</rt></ruby>では<ruby>鳥<rt>とり</rt></ruby>の<ruby>声<rt>こえ</rt></ruby>が<ruby>聞<rt>き</rt></ruby>こえました。",
       "meaningVi": "Trong công viên, chúng tôi nghe thấy tiếng chim.",
       "orderIndex": 5
     },
@@ -68,7 +68,7 @@
       "sentenceNumber": 6,
       "plainText": "友達はガイドに「ここで写真を撮ってもいいですか」と聞きました。",
       "romaji": "tomodachi wa gaido ni koko de shashin o totte mo ii desu ka to kikimashita.",
-      "contentHtml": "友達はガイドに「ここで写真を撮ってもいいですか」と聞きました。",
+      "contentHtml": "<ruby>友達<rt>ともだち</rt></ruby>はガイドに「ここで<ruby>写真<rt>しゃしん</rt></ruby>を<ruby>撮<rt>と</rt></ruby>ってもいいですか」と<ruby>聞<rt>き</rt></ruby>きました。",
       "meaningVi": "Bạn hỏi hướng dẫn viên: “Chụp ảnh ở đây được không ạ?”.",
       "orderIndex": 6
     },
@@ -78,7 +78,7 @@
       "sentenceNumber": 7,
       "plainText": "ガイドは「はい、いいですよ」と答えました。",
       "romaji": "gaido wa hai, ii desu yo to kotaemashita.",
-      "contentHtml": "ガイドは「はい、いいですよ」と答えました。",
+      "contentHtml": "ガイドは「はい、いいですよ」と<ruby>答<rt>こた</rt></ruby>えました。",
       "meaningVi": "Hướng dẫn viên trả lời: “Được, không sao”.",
       "orderIndex": 7
     },
@@ -88,7 +88,7 @@
       "sentenceNumber": 8,
       "plainText": "私たちは景色の写真をたくさん撮りました。",
       "romaji": "watashitachi wa keshiki no shashin o takusan torimashita.",
-      "contentHtml": "私たちは景色の写真をたくさん撮りました。",
+      "contentHtml": "<ruby>私<rt>わたし</rt></ruby>たちは<ruby>景色<rt>けしき</rt></ruby>の<ruby>写真<rt>しゃしん</rt></ruby>をたくさん<ruby>撮<rt>と</rt></ruby>りました。",
       "meaningVi": "Chúng tôi chụp nhiều ảnh phong cảnh.",
       "orderIndex": 8
     },
@@ -98,7 +98,7 @@
       "sentenceNumber": 9,
       "plainText": "町のお店で家族のお土産を買いました。",
       "romaji": "machi no omise de kazoku no omiyage o kaimashita.",
-      "contentHtml": "町のお店で家族のお土産を買いました。",
+      "contentHtml": "<ruby>町<rt>まち</rt></ruby>のお<ruby>店<rt>みせ</rt></ruby>で<ruby>家族<rt>かぞく</rt></ruby>のお<ruby>土産<rt>みやげ</rt></ruby>を<ruby>買<rt>か</rt></ruby>いました。",
       "meaningVi": "Chúng tôi mua quà cho gia đình ở cửa hàng trong phố.",
       "orderIndex": 9
     },
@@ -108,7 +108,7 @@
       "sentenceNumber": 10,
       "plainText": "夜、家に帰って、写真を家族に見せました。",
       "romaji": "yoru, ie ni kaette, shashin o kazoku ni misemashita.",
-      "contentHtml": "夜、家に帰って、写真を家族に見せました。",
+      "contentHtml": "<ruby>夜<rt>よる</rt></ruby>、<ruby>家<rt>いえ</rt></ruby>に<ruby>帰<rt>かえ</rt></ruby>って、<ruby>写真<rt>しゃしん</rt></ruby>を<ruby>家族<rt>かぞく</rt></ruby>に<ruby>見<rt>み</rt></ruby>せました。",
       "meaningVi": "Buổi tối về nhà, tôi cho gia đình xem ảnh.",
       "orderIndex": 10
     }

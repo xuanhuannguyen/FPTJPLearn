@@ -18,7 +18,7 @@
       "sentenceNumber": 1,
       "plainText": "日曜日、家族で遊園地へ行きました。",
       "romaji": "nichiyoubi, kazoku de yuuenchi e ikimashita.",
-      "contentHtml": "日曜日、家族で遊園地へ行きました。",
+      "contentHtml": "<ruby>日曜日<rt>にちようび</rt></ruby>、<ruby>家族<rt>かぞく</rt></ruby>で<ruby>遊園地<rt>ゆうえんち</rt></ruby>へ<ruby>行<rt>い</rt></ruby>きました。",
       "meaningVi": "Chủ nhật, gia đình tôi đi công viên giải trí.",
       "orderIndex": 1
     },
@@ -28,7 +28,7 @@
       "sentenceNumber": 2,
       "plainText": "入り口で地図をもらって、中に入りました。",
       "romaji": "iri guchi de chizu o moratte, naka ni hairimashita.",
-      "contentHtml": "入り口で地図をもらって、中に入りました。",
+      "contentHtml": "<ruby>入<rt>い</rt></ruby>り<ruby>口<rt>ぐち</rt></ruby>で<ruby>地図<rt>ちず</rt></ruby>をもらって、<ruby>中<rt>なか</rt></ruby>に<ruby>入<rt>はい</rt></ruby>りました。",
       "meaningVi": "Chúng tôi nhận bản đồ ở cổng rồi đi vào.",
       "orderIndex": 2
     },
@@ -37,9 +37,9 @@
       "lessonId": "88888888-1133-0000-0000-000000000917",
       "sentenceNumber": 3,
       "plainText": "大きな観覧車がよく見えました。",
-      "romaji": "ookina kanransha ga sora no chikaku made miemashita.",
-      "contentHtml": "大きな観覧車がよく見えました。",
-      "meaningVi": "Vòng quay lớn trông như chạm gần đến bầu trời.",
+      "romaji": "ookina kanransha ga yoku miemashita.",
+      "contentHtml": "<ruby>大<rt>おお</rt></ruby>きな<ruby>観覧車<rt>かんらんしゃ</rt></ruby>がよく<ruby>見<rt>み</rt></ruby>えました。",
+      "meaningVi": "Tôi nhìn thấy rõ vòng quay lớn.",
       "orderIndex": 3
     },
     {
@@ -48,7 +48,7 @@
       "sentenceNumber": 4,
       "plainText": "私は父に「観覧車に乗ってもいいですか」と聞きました。",
       "romaji": "watashi wa chichi ni kanransha ni notte mo ii desu ka to kikimashita.",
-      "contentHtml": "私は父に「観覧車に乗ってもいいですか」と聞きました。",
+      "contentHtml": "<ruby>私<rt>わたし</rt></ruby>は<ruby>父<rt>ちち</rt></ruby>に「<ruby>観覧車<rt>かんらんしゃ</rt></ruby>に<ruby>乗<rt>の</rt></ruby>ってもいいですか」と<ruby>聞<rt>き</rt></ruby>きました。",
       "meaningVi": "Tôi hỏi bố: “Con đi vòng quay được không ạ?”.",
       "orderIndex": 4
     },
@@ -58,7 +58,7 @@
       "sentenceNumber": 5,
       "plainText": "父は「いいよ」と言いました。",
       "romaji": "chichi wa ii yo to iimashita.",
-      "contentHtml": "父は「いいよ」と言いました。",
+      "contentHtml": "<ruby>父<rt>ちち</rt></ruby>は「いいよ」と<ruby>言<rt>い</rt></ruby>いました。",
       "meaningVi": "Bố nói: “Được chứ”.",
       "orderIndex": 5
     },
@@ -68,7 +68,7 @@
       "sentenceNumber": 6,
       "plainText": "観覧車から町と川がよく見えました。",
       "romaji": "kanransha kara machi to kawa ga yoku miemashita.",
-      "contentHtml": "観覧車から町と川がよく見えました。",
+      "contentHtml": "<ruby>観覧車<rt>かんらんしゃ</rt></ruby>から<ruby>町<rt>まち</rt></ruby>と<ruby>川<rt>かわ</rt></ruby>がよく<ruby>見<rt>み</rt></ruby>えました。",
       "meaningVi": "Từ vòng quay, chúng tôi nhìn rõ thành phố và dòng sông.",
       "orderIndex": 6
     },
@@ -77,8 +77,8 @@
       "lessonId": "88888888-1133-0000-0000-000000000917",
       "sentenceNumber": 7,
       "plainText": "妹は少し怖くて、私の手を握りました。",
-      "romaji": "imouto wa sukoshi kowakute, watashi no te o motteimashita.",
-      "contentHtml": "妹は少し怖くて、私の手を握りました。",
+      "romaji": "imouto wa sukoshi kowakute, watashi no te o nigirimashita.",
+      "contentHtml": "<ruby>妹<rt>いもうと</rt></ruby>は<ruby>少<rt>すこ</rt></ruby>し<ruby>怖<rt>こわ</rt></ruby>くて、<ruby>私<rt>わたし</rt></ruby>の<ruby>手<rt>て</rt></ruby>を<ruby>握<rt>にぎ</rt></ruby>りました。",
       "meaningVi": "Em gái hơi sợ và nắm tay tôi.",
       "orderIndex": 7
     },
@@ -88,7 +88,7 @@
       "sentenceNumber": 8,
       "plainText": "降りてから、みんなでお菓子を食べました。",
       "romaji": "orite kara, minna de okashi o tabemashita.",
-      "contentHtml": "降りてから、みんなでお菓子を食べました。",
+      "contentHtml": "<ruby>降<rt>お</rt></ruby>りてから、みんなでお<ruby>菓子<rt>かし</rt></ruby>を<ruby>食<rt>た</rt></ruby>べました。",
       "meaningVi": "Xuống khỏi vòng quay, mọi người cùng ăn bánh kẹo.",
       "orderIndex": 8
     },
@@ -98,7 +98,7 @@
       "sentenceNumber": 9,
       "plainText": "夕方、空が暗くなってきました。",
       "romaji": "yuugata, sora ga kuraku natte kimashita.",
-      "contentHtml": "夕方、空が暗くなってきました。",
+      "contentHtml": "<ruby>夕方<rt>ゆうがた</rt></ruby>、<ruby>空<rt>そら</rt></ruby>が<ruby>暗<rt>くら</rt></ruby>くなってきました。",
       "meaningVi": "Buổi chiều, trời bắt đầu tối.",
       "orderIndex": 9
     },
@@ -108,7 +108,7 @@
       "sentenceNumber": 10,
       "plainText": "出口の近くで写真を撮って、家へ帰りました。",
       "romaji": "deguchi no chikaku de shashin o totte, ie e kaerimashita.",
-      "contentHtml": "出口の近くで写真を撮って、家へ帰りました。",
+      "contentHtml": "<ruby>出口<rt>でぐち</rt></ruby>の<ruby>近<rt>ちか</rt></ruby>くで<ruby>写真<rt>しゃしん</rt></ruby>を<ruby>撮<rt>と</rt></ruby>って、<ruby>家<rt>いえ</rt></ruby>へ<ruby>帰<rt>かえ</rt></ruby>りました。",
       "meaningVi": "Chúng tôi chụp ảnh gần cổng ra rồi về nhà.",
       "orderIndex": 10
     }

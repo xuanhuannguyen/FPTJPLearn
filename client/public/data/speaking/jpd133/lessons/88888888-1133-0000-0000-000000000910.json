@@ -18,7 +18,7 @@
       "sentenceNumber": 1,
       "plainText": "私の祖父は釣りが好きです。",
       "romaji": "watashi no sofu wa tsuri ga suki desu.",
-      "contentHtml": "私の祖父は釣りが好きです。",
+      "contentHtml": "<ruby>私<rt>わたし</rt></ruby>の<ruby>祖父<rt>そふ</rt></ruby>は<ruby>釣<rt>つ</rt></ruby>りが<ruby>好<rt>す</rt></ruby>きです。",
       "meaningVi": "Ông tôi thích câu cá.",
       "orderIndex": 1
     },
@@ -28,7 +28,7 @@
       "sentenceNumber": 2,
       "plainText": "日曜日、祖父と川へ行きました。",
       "romaji": "nichiyoubi, sofu to kawa e ikimashita.",
-      "contentHtml": "日曜日、祖父と川へ行きました。",
+      "contentHtml": "<ruby>日曜日<rt>にちようび</rt></ruby>、<ruby>祖父<rt>そふ</rt></ruby>と<ruby>川<rt>かわ</rt></ruby>へ<ruby>行<rt>い</rt></ruby>きました。",
       "meaningVi": "Chủ nhật, tôi đi đến con sông cùng ông.",
       "orderIndex": 2
     },
@@ -38,7 +38,7 @@
       "sentenceNumber": 3,
       "plainText": "川は静かで、水がきれいでした。",
       "romaji": "kawa wa shizuka de, mizu ga kirei deshita.",
-      "contentHtml": "川は静かで、水がきれいでした。",
+      "contentHtml": "<ruby>川<rt>かわ</rt></ruby>は<ruby>静<rt>しず</rt></ruby>かで、<ruby>水<rt>みず</rt></ruby>がきれいでした。",
       "meaningVi": "Con sông yên tĩnh và nước trong.",
       "orderIndex": 3
     },
@@ -48,7 +48,7 @@
       "sentenceNumber": 4,
       "plainText": "祖父は釣りがとても上手です。",
       "romaji": "sofu wa tsuri ga totemo jouzu desu.",
-      "contentHtml": "祖父は釣りがとても上手です。",
+      "contentHtml": "<ruby>祖父<rt>そふ</rt></ruby>は<ruby>釣<rt>つ</rt></ruby>りがとても<ruby>上手<rt>じょうず</rt></ruby>です。",
       "meaningVi": "Ông câu cá rất giỏi.",
       "orderIndex": 4
     },
@@ -58,7 +58,7 @@
       "sentenceNumber": 5,
       "plainText": "私は「どうやって魚を釣りますか」と聞きました。",
       "romaji": "watashi wa douyatte sakana o tsurimasu ka to kikimashita.",
-      "contentHtml": "私は「どうやって魚を釣りますか」と聞きました。",
+      "contentHtml": "<ruby>私<rt>わたし</rt></ruby>は「どうやって<ruby>魚<rt>さかな</rt></ruby>を<ruby>釣<rt>つ</rt></ruby>りますか」と<ruby>聞<rt>き</rt></ruby>きました。",
       "meaningVi": "Tôi hỏi: “Câu cá bằng cách nào ạ?”.",
       "orderIndex": 5
     },
@@ -68,7 +68,7 @@
       "sentenceNumber": 6,
       "plainText": "祖父は道具の使い方を教えてくれました。",
       "romaji": "sofu wa dougu no tsukaikata o oshiete kuremashita.",
-      "contentHtml": "祖父は道具の使い方を教えてくれました。",
+      "contentHtml": "<ruby>祖父<rt>そふ</rt></ruby>は<ruby>道具<rt>どうぐ</rt></ruby>の<ruby>使<rt>つか</rt></ruby>い<ruby>方<rt>かた</rt></ruby>を<ruby>教<rt>おし</rt></ruby>えてくれました。",
       "meaningVi": "Ông chỉ tôi cách dùng dụng cụ.",
       "orderIndex": 6
     },
@@ -78,7 +78,7 @@
       "sentenceNumber": 7,
       "plainText": "一緒に竿を持って、魚を待ちました。",
       "romaji": "issho ni sao o motte, sakana o machimashita.",
-      "contentHtml": "一緒に竿を持って、魚を待ちました。",
+      "contentHtml": "<ruby>一緒<rt>いっしょ</rt></ruby>に<ruby>竿<rt>さ</rt></ruby>を<ruby>持<rt>おも</rt></ruby>って、<ruby>魚<rt>さかな</rt></ruby>を<ruby>待<rt>ま</rt></ruby>ちました。",
       "meaningVi": "Chúng tôi cùng cầm cần câu và đợi cá.",
       "orderIndex": 7
     },
@@ -88,7 +88,7 @@
       "sentenceNumber": 8,
       "plainText": "しばらくして、小さい魚が一匹釣れました。",
       "romaji": "shibaraku shite, chiisai sakana ga ippiki tsuremashita.",
-      "contentHtml": "しばらくして、小さい魚が一匹釣れました。",
+      "contentHtml": "しばらくして、<ruby>小<rt>ちい</rt></ruby>さい<ruby>魚<rt>さかな</rt></ruby>が<ruby>一匹釣<rt>いっぴきつ</rt></ruby>れました。",
       "meaningVi": "Một lúc sau, chúng tôi câu được một con cá nhỏ.",
       "orderIndex": 8
     },
@@ -98,7 +98,7 @@
       "sentenceNumber": 9,
       "plainText": "祖父は魚を見せて、川へ返しました。",
       "romaji": "sofu wa sakana o misete, kawa e kaeshimashita.",
-      "contentHtml": "祖父は魚を見せて、川へ返しました。",
+      "contentHtml": "<ruby>祖父<rt>そふ</rt></ruby>は<ruby>魚<rt>さかな</rt></ruby>を<ruby>見<rt>み</rt></ruby>せて、<ruby>川<rt>かわ</rt></ruby>へ<ruby>返<rt>かえ</rt></ruby>しました。",
       "meaningVi": "Ông cho tôi xem con cá rồi thả nó về sông.",
       "orderIndex": 9
     },
@@ -108,7 +108,7 @@
       "sentenceNumber": 10,
       "plainText": "帰り道、私はまた祖父と釣りに来たいと思いました。",
       "romaji": "kaerimichi, watashi wa mata sofu to tsuri ni kitai to omoimashita.",
-      "contentHtml": "帰り道、私はまた祖父と釣りに来たいと思いました。",
+      "contentHtml": "<ruby>帰<rt>かえ</rt></ruby>り<ruby>道<rt>みち</rt></ruby>、<ruby>私<rt>わたし</rt></ruby>はまた<ruby>祖父<rt>そふ</rt></ruby>と<ruby>釣<rt>つ</rt></ruby>りに<ruby>来<rt>き</rt></ruby>たいと<ruby>思<rt>おも</rt></ruby>いました。",
       "meaningVi": "Trên đường về, tôi nghĩ muốn đi câu với ông lần nữa.",
       "orderIndex": 10
     }

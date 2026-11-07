@@ -18,7 +18,7 @@
       "sentenceNumber": 1,
       "plainText": "祖母は田舎に住んでいます。",
       "romaji": "sobo wa inaka ni sundeimasu.",
-      "contentHtml": "祖母は田舎に住んでいます。",
+      "contentHtml": "<ruby>祖母<rt>そぼ</rt></ruby>は<ruby>田舎<rt>いなか</rt></ruby>に<ruby>住<rt>す</rt></ruby>んでいます。",
       "meaningVi": "Bà tôi sống ở quê.",
       "orderIndex": 1
     },
@@ -28,7 +28,7 @@
       "sentenceNumber": 2,
       "plainText": "日曜日は祖母の誕生日でした。",
       "romaji": "nichiyoubi wa sobo no tanjoubi deshita.",
-      "contentHtml": "日曜日は祖母の誕生日でした。",
+      "contentHtml": "<ruby>日曜日<rt>にちようび</rt></ruby>は<ruby>祖母<rt>そぼ</rt></ruby>の<ruby>誕生日<rt>たんじょうび</rt></ruby>でした。",
       "meaningVi": "Chủ nhật là sinh nhật của bà.",
       "orderIndex": 2
     },
@@ -38,7 +38,7 @@
       "sentenceNumber": 3,
       "plainText": "家族で祖母の家へ行きました。",
       "romaji": "kazoku de sobo no ie e ikimashita.",
-      "contentHtml": "家族で祖母の家へ行きました。",
+      "contentHtml": "<ruby>家族<rt>かぞく</rt></ruby>で<ruby>祖母<rt>そぼ</rt></ruby>の<ruby>家<rt>い</rt></ruby>へ<ruby>行<rt>えい</rt></ruby>きました。",
       "meaningVi": "Cả nhà tôi đến nhà bà.",
       "orderIndex": 3
     },
@@ -48,7 +48,7 @@
       "sentenceNumber": 4,
       "plainText": "祖母は元気で、料理が上手です。",
       "romaji": "sobo wa genki de, ryouri ga jouzu desu.",
-      "contentHtml": "祖母は元気で、料理が上手です。",
+      "contentHtml": "<ruby>祖母<rt>そぼ</rt></ruby>は<ruby>元気<rt>げんき</rt></ruby>で、<ruby>料理<rt>りょうり</rt></ruby>が<ruby>上手<rt>じょうず</rt></ruby>です。",
       "meaningVi": "Bà khỏe mạnh và nấu ăn giỏi.",
       "orderIndex": 4
     },
@@ -58,7 +58,7 @@
       "sentenceNumber": 5,
       "plainText": "父は祖母に花をあげました。",
       "romaji": "chichi wa sobo ni hana o agemashita.",
-      "contentHtml": "父は祖母に花をあげました。",
+      "contentHtml": "<ruby>父<rt>ちち</rt></ruby>は<ruby>祖母<rt>そぼ</rt></ruby>に<ruby>花<rt>はな</rt></ruby>をあげました。",
       "meaningVi": "Bố tặng bà hoa.",
       "orderIndex": 5
     },
@@ -68,7 +68,7 @@
       "sentenceNumber": 6,
       "plainText": "私は祖母に手紙を渡しました。",
       "romaji": "watashi wa sobo ni tegami o watashimashita.",
-      "contentHtml": "私は祖母に手紙を渡しました。",
+      "contentHtml": "<ruby>私<rt>わたし</rt></ruby>は<ruby>祖母<rt>そぼ</rt></ruby>に<ruby>手紙<rt>てがみ</rt></ruby>を<ruby>渡<rt>わた</rt></ruby>しました。",
       "meaningVi": "Tôi đưa bà một lá thư.",
       "orderIndex": 6
     },
@@ -78,7 +78,7 @@
       "sentenceNumber": 7,
       "plainText": "祖母は私に古い写真を見せました。",
       "romaji": "sobo wa watashi ni furui shashin o misemashita.",
-      "contentHtml": "祖母は私に古い写真を見せました。",
+      "contentHtml": "<ruby>祖母<rt>そぼわ</rt></ruby>は<ruby>私<rt>たし</rt></ruby>に<ruby>古<rt>ふる</rt></ruby>い<ruby>写真<rt>しゃしん</rt></ruby>を<ruby>見<rt>み</rt></ruby>せました。",
       "meaningVi": "Bà cho tôi xem những tấm ảnh cũ.",
       "orderIndex": 7
     },
@@ -88,7 +88,7 @@
       "sentenceNumber": 8,
       "plainText": "写真には若い祖母と家族が写っていました。",
       "romaji": "shashin ni wa wakai sobo to kazoku ga utteimashita.",
-      "contentHtml": "写真には若い祖母と家族が写っていました。",
+      "contentHtml": "<ruby>写真<rt>しゃしん</rt></ruby>には<ruby>若<rt>わか</rt></ruby>い<ruby>祖母<rt>そぼ</rt></ruby>と<ruby>家族<rt>かぞく</rt></ruby>が<ruby>写<rt>う</rt></ruby>っていました。",
       "meaningVi": "Trong ảnh có bà lúc trẻ và gia đình.",
       "orderIndex": 8
     },
@@ -98,7 +98,7 @@
       "sentenceNumber": 9,
       "plainText": "みんなで写真を見ながら、昔の話をしました。",
       "romaji": "minna de shashin o minagara, mukashi no hanashi o shimashita.",
-      "contentHtml": "みんなで写真を見ながら、昔の話をしました。",
+      "contentHtml": "みんなで<ruby>写真<rt>しゃしん</rt></ruby>を<ruby>見<rt>み</rt></ruby>ながら、<ruby>昔<rt>むかし</rt></ruby>の<ruby>話<rt>はなし</rt></ruby>をしました。",
       "meaningVi": "Mọi người vừa xem ảnh vừa kể chuyện ngày xưa.",
       "orderIndex": 9
     },
@@ -108,7 +108,7 @@
       "sentenceNumber": 10,
       "plainText": "帰るとき、祖母は私にお菓子をくれました。",
       "romaji": "kaeru toki, sobo wa watashi ni okashi o kuremashita.",
-      "contentHtml": "帰るとき、祖母は私にお菓子をくれました。",
+      "contentHtml": "<ruby>帰<rt>かえ</rt></ruby>るとき、<ruby>祖母<rt>そぼわ</rt></ruby>は<ruby>私<rt>たし</rt></ruby>にお<ruby>菓子<rt>かし</rt></ruby>をくれました。",
       "meaningVi": "Lúc về, bà tặng tôi bánh kẹo.",
       "orderIndex": 10
     }

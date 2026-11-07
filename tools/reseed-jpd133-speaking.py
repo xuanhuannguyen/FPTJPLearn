@@ -18,6 +18,25 @@ import psycopg
 ROOT = Path(__file__).resolve().parents[1]
 IMPORT = ROOT / "server/JPLearn.Infrastructure/Data/Imports/speaking/jpd133.lessons.json"
 COURSE_ID = uuid.UUID("88888888-1133-0000-0000-000000000001")
+RUBY_PATTERN = re.compile(r"\[\[([^|\]]+)\|([^\]]+)\]\]")
+KANJI_PATTERN = re.compile(r"[\u3400-\u4dbf\u4e00-\u9fff\uf900-\ufaff々]")
+
+
+def to_plain_text(japanese):
+    return RUBY_PATTERN.sub(lambda match: match.group(1), japanese).replace(" ", "")
+
+
+def to_ruby_html(japanese):
+    parts = []
+    offset = 0
+    for match in RUBY_PATTERN.finditer(japanese):
+        parts.append(html.escape(japanese[offset:match.start()], quote=True))
+        base = html.escape(match.group(1), quote=True)
+        reading = html.escape(match.group(2), quote=True)
+        parts.append(f"<ruby>{base}<rt>{reading}</rt></ruby>")
+        offset = match.end()
+    parts.append(html.escape(japanese[offset:], quote=True))
+    return "".join(parts)
 
 
 def lesson_id(number):
@@ -41,9 +60,15 @@ def load_and_validate():
             jp, vi, romaji = (sentence[key].strip() for key in ("jp", "vi", "romaji"))
             if not re.search(r"[。！？]$", jp) or len(vi) < 10 or not re.match(r"[A-Za-z]", romaji):
                 raise ValueError(f"Incomplete sentence in lesson {lesson['id']}")
-            if jp in japanese:
+            unannotated_text = RUBY_PATTERN.sub("", jp)
+            if KANJI_PATTERN.search(unannotated_text):
+                raise ValueError(f"Kanji is missing furigana in lesson {lesson['id']}: {jp}")
+            if any(not match.group(2).strip() for match in RUBY_PATTERN.finditer(jp)):
+                raise ValueError(f"Empty furigana in lesson {lesson['id']}: {jp}")
+            plain_text = to_plain_text(jp)
+            if plain_text in japanese:
                 raise ValueError(f"Duplicate sentence in lesson {lesson['id']}")
-            japanese.add(jp)
+            japanese.add(plain_text)
     return data
 
 
@@ -105,7 +130,7 @@ def reseed(connection, data):
                          "UpdatedAt" = EXCLUDED."UpdatedAt"''',
                     (
                         sentence_id(number, sentence_number), db_lesson_id, sentence_number,
-                        jp.replace(" ", ""), html.escape(jp, quote=True), sentence["vi"],
+                        to_plain_text(jp), to_ruby_html(jp), sentence["vi"],
                         sentence["romaji"], sentence_number, now, now,
                     ),
                 )

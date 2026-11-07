@@ -18,7 +18,7 @@
       "sentenceNumber": 1,
       "plainText": "私は映画を見ることが好きです。",
       "romaji": "watashi wa eiga o miru koto ga suki desu.",
-      "contentHtml": "私は映画を見ることが好きです。",
+      "contentHtml": "<ruby>私<rt>わたし</rt></ruby>は<ruby>映画<rt>えいが</rt></ruby>を<ruby>見<rt>み</rt></ruby>ることが<ruby>好<rt>す</rt></ruby>きです。",
       "meaningVi": "Tôi thích xem phim.",
       "orderIndex": 1
     },
@@ -28,7 +28,7 @@
       "sentenceNumber": 2,
       "plainText": "月に二回、友達と映画館へ行きます。",
       "romaji": "tsuki ni nikai, tomodachi to eigakan e ikimasu.",
-      "contentHtml": "月に二回、友達と映画館へ行きます。",
+      "contentHtml": "<ruby>月<rt>つき</rt></ruby>に<ruby>二回<rt>にかい</rt></ruby>、<ruby>友達<rt>ともだち</rt></ruby>と<ruby>映画館<rt>えいがかん</rt></ruby>へ<ruby>行<rt>い</rt></ruby>きます。",
       "meaningVi": "Mỗi tháng, tôi đi rạp phim với bạn hai lần.",
       "orderIndex": 2
     },
@@ -38,7 +38,7 @@
       "sentenceNumber": 3,
       "plainText": "先週、友達に電話しました。",
       "romaji": "senshuu, tomodachi ni denwa shimashita.",
-      "contentHtml": "先週、友達に電話しました。",
+      "contentHtml": "<ruby>先週<rt>せんしゅう</rt></ruby>、<ruby>友達<rt>ともだち</rt></ruby>に<ruby>電話<rt>でんわ</rt></ruby>しました。",
       "meaningVi": "Tuần trước, tôi gọi điện cho bạn.",
       "orderIndex": 3
     },
@@ -48,7 +48,7 @@
       "sentenceNumber": 4,
       "plainText": "友達は新しい映画の話をしました。",
       "romaji": "tomodachi wa atarashii eiga no hanashi o shimashita.",
-      "contentHtml": "友達は新しい映画の話をしました。",
+      "contentHtml": "<ruby>友達<rt>ともだち</rt></ruby>は<ruby>新<rt>あたら</rt></ruby>しい<ruby>映画<rt>えいが</rt></ruby>の<ruby>話<rt>はなし</rt></ruby>をしました。",
       "meaningVi": "Bạn kể về một bộ phim mới.",
       "orderIndex": 4
     },
@@ -58,7 +58,7 @@
       "sentenceNumber": 5,
       "plainText": "私はその映画を見たいと思いました。",
       "romaji": "watashi wa sono eiga o mitai to omoimashita.",
-      "contentHtml": "私はその映画を見たいと思いました。",
+      "contentHtml": "<ruby>私<rt>わたし</rt></ruby>はその<ruby>映画<rt>えいが</rt></ruby>を<ruby>見<rt>み</rt></ruby>たいと<ruby>思<rt>おも</rt></ruby>いました。",
       "meaningVi": "Tôi nghĩ mình muốn xem bộ phim ấy.",
       "orderIndex": 5
     },
@@ -68,7 +68,7 @@
       "sentenceNumber": 6,
       "plainText": "土曜日、駅で会うことにしました。",
       "romaji": "doyoubi, eki de au koto ni shimashita.",
-      "contentHtml": "土曜日、駅で会うことにしました。",
+      "contentHtml": "<ruby>土曜日<rt>どようび</rt></ruby>、<ruby>駅<rt>えき</rt></ruby>で<ruby>会<rt>あ</rt></ruby>うことにしました。",
       "meaningVi": "Chúng tôi quyết định gặp nhau ở nhà ga vào thứ Bảy.",
       "orderIndex": 6
     },
@@ -78,7 +78,7 @@
       "sentenceNumber": 7,
       "plainText": "友達は電車で来て、駅で私を待っていました。",
       "romaji": "tomodachi wa densha de kite, eki de watashi o matteimashita.",
-      "contentHtml": "友達は電車で来て、駅で私を待っていました。",
+      "contentHtml": "<ruby>友達<rt>ともだち</rt></ruby>は<ruby>電車<rt>でんしゃ</rt></ruby>で<ruby>来<rt>き</rt></ruby>て、<ruby>駅<rt>えき</rt></ruby>で<ruby>私<rt>わたし</rt></ruby>を<ruby>待<rt>ま</rt></ruby>っていました。",
       "meaningVi": "Bạn đi tàu đến và đợi tôi ở ga.",
       "orderIndex": 7
     },
@@ -88,7 +88,7 @@
       "sentenceNumber": 8,
       "plainText": "映画を見て、それから食堂で晩ご飯を食べました。",
       "romaji": "eiga o mite, sorekara shokudou de bangohan o tabemashita.",
-      "contentHtml": "映画を見て、それから食堂で晩ご飯を食べました。",
+      "contentHtml": "<ruby>映画<rt>えいが</rt></ruby>を<ruby>見<rt>み</rt></ruby>て、それから<ruby>食堂<rt>しょくどう</rt></ruby>で<ruby>晩<rt>ばん</rt></ruby>ご<ruby>飯<rt>はん</rt></ruby>を<ruby>食<rt>た</rt></ruby>べました。",
       "meaningVi": "Chúng tôi xem phim rồi ăn tối ở nhà ăn.",
       "orderIndex": 8
     },
@@ -98,7 +98,7 @@
       "sentenceNumber": 9,
       "plainText": "映画は少し長かったですが、とてもおもしろかったです。",
       "romaji": "eiga wa sukoshi nagakatta desu ga, totemo omoshirokatta desu.",
-      "contentHtml": "映画は少し長かったですが、とてもおもしろかったです。",
+      "contentHtml": "<ruby>映画<rt>えいが</rt></ruby>は<ruby>少<rt>すこ</rt></ruby>し<ruby>長<rt>なが</rt></ruby>かったですが、とてもおもしろかったです。",
       "meaningVi": "Phim hơi dài nhưng rất thú vị.",
       "orderIndex": 9
     },
@@ -108,7 +108,7 @@
       "sentenceNumber": 10,
       "plainText": "帰り道、次に見る映画も一緒に決めました。",
       "romaji": "kaerimichi, tsugi ni miru eiga mo issho ni kimemashita.",
-      "contentHtml": "帰り道、次に見る映画も一緒に決めました。",
+      "contentHtml": "<ruby>帰<rt>かえ</rt></ruby>り<ruby>道<rt>みち</rt></ruby>、<ruby>次<rt>つぎ</rt></ruby>に<ruby>見<rt>み</rt></ruby>る<ruby>映画<rt>えいが</rt></ruby>も<ruby>一緒<rt>いっしょ</rt></ruby>に<ruby>決<rt>き</rt></ruby>めました。",
       "meaningVi": "Trên đường về, chúng tôi cùng chọn bộ phim tiếp theo.",
       "orderIndex": 10
     }

@@ -18,7 +18,7 @@
       "sentenceNumber": 1,
       "plainText": "町に日本語クラブがあります。",
       "romaji": "machi ni nihongo kurabu ga arimasu.",
-      "contentHtml": "町に日本語クラブがあります。",
+      "contentHtml": "<ruby>町<rt>まち</rt></ruby>に<ruby>日本語<rt>にほんご</rt></ruby>クラブがあります。",
       "meaningVi": "Trong thị trấn có câu lạc bộ tiếng Nhật.",
       "orderIndex": 1
     },
@@ -28,7 +28,7 @@
       "sentenceNumber": 2,
       "plainText": "外国人の学生もたくさん参加しています。",
       "romaji": "gaikokujin no gakusei mo takusan sanka shiteimasu.",
-      "contentHtml": "外国人の学生もたくさん参加しています。",
+      "contentHtml": "<ruby>外国人<rt>がいこくじん</rt></ruby>の<ruby>学生<rt>がくせい</rt></ruby>もたくさん<ruby>参加<rt>さんか</rt></ruby>しています。",
       "meaningVi": "Nhiều học viên nước ngoài cũng tham gia.",
       "orderIndex": 2
     },
@@ -38,7 +38,7 @@
       "sentenceNumber": 3,
       "plainText": "私は受付で名前と住所を言いました。",
       "romaji": "watashi wa uketsuke de namae to juusho o iimashita.",
-      "contentHtml": "私は受付で名前と住所を言いました。",
+      "contentHtml": "<ruby>私<rt>わたし</rt></ruby>は<ruby>受付<rt>うけつけ</rt></ruby>で<ruby>名前<rt>なまえ</rt></ruby>と<ruby>住所<rt>じゅうしょ</rt></ruby>を<ruby>言<rt>い</rt></ruby>いました。",
       "meaningVi": "Tôi nói tên và địa chỉ ở quầy lễ tân.",
       "orderIndex": 3
     },
@@ -48,7 +48,7 @@
       "sentenceNumber": 4,
       "plainText": "電話番号を書いて、クラブに申し込みました。",
       "romaji": "denwa bangou o kaite, kurabu ni moushikomimashita.",
-      "contentHtml": "電話番号を書いて、クラブに申し込みました。",
+      "contentHtml": "<ruby>電話番号<rt>でんわばんごう</rt></ruby>を<ruby>書<rt>か</rt></ruby>いて、クラブに<ruby>申<rt>もう</rt></ruby>し<ruby>込<rt>こ</rt></ruby>みました。",
       "meaningVi": "Tôi ghi số điện thoại rồi đăng ký câu lạc bộ.",
       "orderIndex": 4
     },
@@ -58,7 +58,7 @@
       "sentenceNumber": 5,
       "plainText": "毎週水曜日に、みんなで日本語を勉強します。",
       "romaji": "maishuu suiyoubi ni, minna de nihongo o benkyou shimasu.",
-      "contentHtml": "毎週水曜日に、みんなで日本語を勉強します。",
+      "contentHtml": "<ruby>毎週水曜日<rt>まいしゅうすいようび</rt></ruby>に、みんなで<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>勉強<rt>べんきょう</rt></ruby>します。",
       "meaningVi": "Mỗi thứ Tư, mọi người cùng học tiếng Nhật.",
       "orderIndex": 5
     },
@@ -68,7 +68,7 @@
       "sentenceNumber": 6,
       "plainText": "先生はゆっくり話して、言葉の意味を説明します。",
       "romaji": "sensei wa yukkuri hanashite, kotoba no imi o setsumei shimasu.",
-      "contentHtml": "先生はゆっくり話して、言葉の意味を説明します。",
+      "contentHtml": "<ruby>先生<rt>せんせい</rt></ruby>はゆっくり<ruby>話<rt>はな</rt></ruby>して、<ruby>言葉<rt>ことば</rt></ruby>の<ruby>意味<rt>いみ</rt></ruby>を<ruby>説明<rt>せつめい</rt></ruby>します。",
       "meaningVi": "Thầy cô nói chậm và giải thích nghĩa của từ.",
       "orderIndex": 6
     },
@@ -78,7 +78,7 @@
       "sentenceNumber": 7,
       "plainText": "私は友達の話を聞いて、新しい言葉を覚えます。",
       "romaji": "watashi wa tomodachi no hanashi o kiite, atarashii kotoba o oboemasu.",
-      "contentHtml": "私は友達の話を聞いて、新しい言葉を覚えます。",
+      "contentHtml": "<ruby>私<rt>わたし</rt></ruby>は<ruby>友達<rt>ともだち</rt></ruby>の<ruby>話<rt>はなし</rt></ruby>を<ruby>聞<rt>き</rt></ruby>いて、<ruby>新<rt>あたら</rt></ruby>しい<ruby>言葉<rt>ことば</rt></ruby>を<ruby>覚<rt>おぼ</rt></ruby>えます。",
       "meaningVi": "Tôi nghe bạn nói và ghi nhớ từ mới.",
       "orderIndex": 7
     },
@@ -88,7 +88,7 @@
       "sentenceNumber": 8,
       "plainText": "休み時間に、二人で会話を練習します。",
       "romaji": "yasumi jikan ni, futari de kaiwa o renshuu shimasu.",
-      "contentHtml": "休み時間に、二人で会話を練習します。",
+      "contentHtml": "<ruby>休<rt>やす</rt></ruby>み<ruby>時間<rt>じかん</rt></ruby>に、<ruby>二人<rt>ふたり</rt></ruby>で<ruby>会話<rt>かいわ</rt></ruby>を<ruby>練習<rt>れんしゅう</rt></ruby>します。",
       "meaningVi": "Giờ nghỉ, hai chúng tôi luyện hội thoại.",
       "orderIndex": 8
     },
@@ -98,7 +98,7 @@
       "sentenceNumber": 9,
       "plainText": "前より日本語を話すことができます。",
       "romaji": "mae yori nihongo o hanasu koto ga dekimasu.",
-      "contentHtml": "前より日本語を話すことができます。",
+      "contentHtml": "<ruby>前<rt>まえ</rt></ruby>より<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>話<rt>はな</rt></ruby>すことができます。",
       "meaningVi": "Tôi có thể nói tiếng Nhật tốt hơn trước.",
       "orderIndex": 9
     },
@@ -108,7 +108,7 @@
       "sentenceNumber": 10,
       "plainText": "来週も友達とクラブに参加します。",
       "romaji": "raishuu mo tomodachi to kurabu ni sanka shimasu.",
-      "contentHtml": "来週も友達とクラブに参加します。",
+      "contentHtml": "<ruby>来週<rt>らいしゅう</rt></ruby>も<ruby>友達<rt>ともだち</rt></ruby>とクラブに<ruby>参加<rt>さんか</rt></ruby>します。",
       "meaningVi": "Tuần sau tôi cũng sẽ tham gia câu lạc bộ với bạn.",
       "orderIndex": 10
     }

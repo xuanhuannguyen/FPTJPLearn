@@ -18,7 +18,7 @@
       "sentenceNumber": 1,
       "plainText": "友達の家には猫が二匹います。",
       "romaji": "tomodachi no ie ni wa neko ga nihiki imasu.",
-      "contentHtml": "友達の家には猫が二匹います。",
+      "contentHtml": "<ruby>友達<rt>ともだち</rt></ruby>の<ruby>家<rt>いえ</rt></ruby>には<ruby>猫<rt>ねこ</rt></ruby>が<ruby>二匹<rt>にひき</rt></ruby>います。",
       "meaningVi": "Ở nhà bạn tôi có hai con mèo.",
       "orderIndex": 1
     },
@@ -28,7 +28,7 @@
       "sentenceNumber": 2,
       "plainText": "一匹は白くて、もう一匹は黒いです。",
       "romaji": "ippiki wa shirokute, mou ippiki wa kuroi desu.",
-      "contentHtml": "一匹は白くて、もう一匹は黒いです。",
+      "contentHtml": "<ruby>一匹<rt>いっぴき</rt></ruby>は<ruby>白<rt>しろ</rt></ruby>くて、もう<ruby>一匹<rt>いっぴき</rt></ruby>は<ruby>黒<rt>くろ</rt></ruby>いです。",
       "meaningVi": "Một con màu trắng, con còn lại màu đen.",
       "orderIndex": 2
     },
@@ -38,7 +38,7 @@
       "sentenceNumber": 3,
       "plainText": "白い猫は目が大きいです。",
       "romaji": "shiroi neko wa me ga ookii desu.",
-      "contentHtml": "白い猫は目が大きいです。",
+      "contentHtml": "<ruby>白<rt>しろ</rt></ruby>い<ruby>猫<rt>ねこ</rt></ruby>は<ruby>目<rt>め</rt></ruby>が<ruby>大<rt>おお</rt></ruby>きいです。",
       "meaningVi": "Con mèo trắng có đôi mắt to.",
       "orderIndex": 3
     },
@@ -48,7 +48,7 @@
       "sentenceNumber": 4,
       "plainText": "黒い猫は元気で、よく走ります。",
       "romaji": "kuroi neko wa genki de, yoku hashirimasu.",
-      "contentHtml": "黒い猫は元気で、よく走ります。",
+      "contentHtml": "<ruby>黒<rt>くろ</rt></ruby>い<ruby>猫<rt>ねこ</rt></ruby>は<ruby>元気<rt>げんき</rt></ruby>で、よく<ruby>走<rt>はし</rt></ruby>ります。",
       "meaningVi": "Con mèo đen hiếu động và hay chạy.",
       "orderIndex": 4
     },
@@ -58,7 +58,7 @@
       "sentenceNumber": 5,
       "plainText": "日曜日、私は友達の家へ行きました。",
       "romaji": "nichiyoubi, watashi wa tomodachi no ie e ikimashita.",
-      "contentHtml": "日曜日、私は友達の家へ行きました。",
+      "contentHtml": "<ruby>日曜日<rt>にちようび</rt></ruby>、<ruby>私<rt>わたし</rt></ruby>は<ruby>友達<rt>ともだち</rt></ruby>の<ruby>家<rt>い</rt></ruby>へ<ruby>行<rt>えい</rt></ruby>きました。",
       "meaningVi": "Chủ nhật, tôi đến nhà bạn.",
       "orderIndex": 5
     },
@@ -68,7 +68,7 @@
       "sentenceNumber": 6,
       "plainText": "友達は毎日、猫にご飯をあげています。",
       "romaji": "tomodachi wa mainichi, neko ni gohan o ageteimasu.",
-      "contentHtml": "友達は毎日、猫にご飯をあげています。",
+      "contentHtml": "<ruby>友達<rt>ともだち</rt></ruby>は<ruby>毎日<rt>まいにち</rt></ruby>、<ruby>猫<rt>ねこ</rt></ruby>にご<ruby>飯<rt>はん</rt></ruby>をあげています。",
       "meaningVi": "Ngày nào bạn tôi cũng cho mèo ăn.",
       "orderIndex": 6
     },
@@ -78,7 +78,7 @@
       "sentenceNumber": 7,
       "plainText": "私は猫と遊んで、写真を撮りました。",
       "romaji": "watashi wa neko to asonde, shashin o torimashita.",
-      "contentHtml": "私は猫と遊んで、写真を撮りました。",
+      "contentHtml": "<ruby>私<rt>わたし</rt></ruby>は<ruby>猫<rt>ねこ</rt></ruby>と<ruby>遊<rt>あそ</rt></ruby>んで、<ruby>写真<rt>しゃしん</rt></ruby>を<ruby>撮<rt>と</rt></ruby>りました。",
       "meaningVi": "Tôi chơi với mèo rồi chụp ảnh.",
       "orderIndex": 7
     },
@@ -88,7 +88,7 @@
       "sentenceNumber": 8,
       "plainText": "友達は猫の写真を私に見せました。",
       "romaji": "tomodachi wa neko no shashin o watashi ni misemashita.",
-      "contentHtml": "友達は猫の写真を私に見せました。",
+      "contentHtml": "<ruby>友達<rt>ともだち</rt></ruby>は<ruby>猫<rt>ねこ</rt></ruby>の<ruby>写真<rt>しゃしん</rt></ruby>を<ruby>私<rt>わたし</rt></ruby>に<ruby>見<rt>み</rt></ruby>せました。",
       "meaningVi": "Bạn cho tôi xem ảnh của những con mèo.",
       "orderIndex": 8
     },
@@ -98,7 +98,7 @@
       "sentenceNumber": 9,
       "plainText": "帰るとき、黒い猫が玄関まで来ました。",
       "romaji": "kaeru toki, kuroi neko ga genkan made kimashita.",
-      "contentHtml": "帰るとき、黒い猫が玄関まで来ました。",
+      "contentHtml": "<ruby>帰<rt>かえ</rt></ruby>るとき、<ruby>黒<rt>くろ</rt></ruby>い<ruby>猫<rt>ねこ</rt></ruby>が<ruby>玄関<rt>げんかん</rt></ruby>まで<ruby>来<rt>き</rt></ruby>ました。",
       "meaningVi": "Lúc tôi về, con mèo đen đi ra tận cửa.",
       "orderIndex": 9
     },
@@ -108,7 +108,7 @@
       "sentenceNumber": 10,
       "plainText": "私はまた二匹に会いに行きたいです。",
       "romaji": "watashi wa mata nihiki ni ai ni ikitai desu.",
-      "contentHtml": "私はまた二匹に会いに行きたいです。",
+      "contentHtml": "<ruby>私<rt>わたし</rt></ruby>はまた<ruby>二匹<rt>にひき</rt></ruby>に<ruby>会<rt>あ</rt></ruby>いに<ruby>行<rt>い</rt></ruby>きたいです。",
       "meaningVi": "Tôi muốn đến thăm hai con mèo lần nữa.",
       "orderIndex": 10
     }

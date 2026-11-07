@@ -18,7 +18,7 @@
       "sentenceNumber": 1,
       "plainText": "私は両親と姉と四人で住んでいます。",
       "romaji": "watashi wa ryoushin to ane to yonin de sundeimasu.",
-      "contentHtml": "私は両親と姉と四人で住んでいます。",
+      "contentHtml": "<ruby>私<rt>わたし</rt></ruby>は<ruby>両親<rt>りょうしん</rt></ruby>と<ruby>姉<rt>あね</rt></ruby>と<ruby>四人<rt>よにん</rt></ruby>で<ruby>住<rt>す</rt></ruby>んでいます。",
       "meaningVi": "Tôi sống cùng bố mẹ và chị gái, gia đình có bốn người.",
       "orderIndex": 1
     },
@@ -28,7 +28,7 @@
       "sentenceNumber": 2,
       "plainText": "父は会社で働いていて、毎日忙しいです。",
       "romaji": "chichi wa kaisha de hataraite ite, mainichi isogashii desu.",
-      "contentHtml": "父は会社で働いていて、毎日忙しいです。",
+      "contentHtml": "<ruby>父<rt>ちち</rt></ruby>は<ruby>会社<rt>かいしゃ</rt></ruby>で<ruby>働<rt>はたら</rt></ruby>いていて、<ruby>毎日忙<rt>まいにちいそが</rt></ruby>しいです。",
       "meaningVi": "Bố làm việc ở công ty và ngày nào cũng bận.",
       "orderIndex": 2
     },
@@ -38,7 +38,7 @@
       "sentenceNumber": 3,
       "plainText": "母は家で料理を作っています。",
       "romaji": "haha wa ie de ryouri o tsukutteimasu.",
-      "contentHtml": "母は家で料理を作っています。",
+      "contentHtml": "<ruby>母<rt>はは</rt></ruby>は<ruby>家<rt>いえ</rt></ruby>で<ruby>料理<rt>りょうり</rt></ruby>を<ruby>作<rt>つく</rt></ruby>っています。",
       "meaningVi": "Mẹ đang nấu ăn ở nhà.",
       "orderIndex": 3
     },
@@ -48,7 +48,7 @@
       "sentenceNumber": 4,
       "plainText": "姉は大学生で、親切です。",
       "romaji": "ane wa daigakusei de, shinsetsu desu.",
-      "contentHtml": "姉は大学生で、親切です。",
+      "contentHtml": "<ruby>姉<rt>あね</rt></ruby>は<ruby>大学生<rt>だいがくせい</rt></ruby>で、<ruby>親切<rt>しんせつ</rt></ruby>です。",
       "meaningVi": "Chị gái là sinh viên đại học và tốt bụng.",
       "orderIndex": 4
     },
@@ -58,7 +58,7 @@
       "sentenceNumber": 5,
       "plainText": "家には白い猫が一匹います。",
       "romaji": "ie ni wa shiroi neko ga ippiki imasu.",
-      "contentHtml": "家には白い猫が一匹います。",
+      "contentHtml": "<ruby>家<rt>いえ</rt></ruby>には<ruby>白<rt>しろ</rt></ruby>い<ruby>猫<rt>ねこ</rt></ruby>が<ruby>一匹<rt>いっぴき</rt></ruby>います。",
       "meaningVi": "Ở nhà có một con mèo trắng.",
       "orderIndex": 5
     },
@@ -68,7 +68,7 @@
       "sentenceNumber": 6,
       "plainText": "土曜日、母の友達が家に来ました。",
       "romaji": "doyoubi, haha no tomodachi ga ie ni kimashita.",
-      "contentHtml": "土曜日、母の友達が家に来ました。",
+      "contentHtml": "<ruby>土曜日<rt>どようび</rt></ruby>、<ruby>母<rt>はは</rt></ruby>の<ruby>友達<rt>ともだち</rt></ruby>が<ruby>家<rt>いえ</rt></ruby>に<ruby>来<rt>き</rt></ruby>ました。",
       "meaningVi": "Thứ Bảy, bạn của mẹ đến nhà chơi.",
       "orderIndex": 6
     },
@@ -78,7 +78,7 @@
       "sentenceNumber": 7,
       "plainText": "友達は私にお菓子をくれました。",
       "romaji": "tomodachi wa watashi ni okashi o kuremashita.",
-      "contentHtml": "友達は私にお菓子をくれました。",
+      "contentHtml": "<ruby>友達<rt>ともだち</rt></ruby>は<ruby>私<rt>わたし</rt></ruby>にお<ruby>菓子<rt>かし</rt></ruby>をくれました。",
       "meaningVi": "Người bạn tặng tôi bánh kẹo.",
       "orderIndex": 7
     },
@@ -88,7 +88,7 @@
       "sentenceNumber": 8,
       "plainText": "私は友達にお茶をあげました。",
       "romaji": "watashi wa tomodachi ni ocha o agemashita.",
-      "contentHtml": "私は友達にお茶をあげました。",
+      "contentHtml": "<ruby>私<rt>わたし</rt></ruby>は<ruby>友達<rt>ともだち</rt></ruby>にお<ruby>茶<rt>ちゃ</rt></ruby>をあげました。",
       "meaningVi": "Tôi mời bạn uống trà.",
       "orderIndex": 8
     },
@@ -98,7 +98,7 @@
       "sentenceNumber": 9,
       "plainText": "姉は友達に大学の写真を見せました。",
       "romaji": "ane wa tomodachi ni daigaku no shashin o misemashita.",
-      "contentHtml": "姉は友達に大学の写真を見せました。",
+      "contentHtml": "<ruby>姉<rt>あね</rt></ruby>は<ruby>友達<rt>ともだち</rt></ruby>に<ruby>大学<rt>だいがく</rt></ruby>の<ruby>写真<rt>しゃしん</rt></ruby>を<ruby>見<rt>み</rt></ruby>せました。",
       "meaningVi": "Chị gái cho người bạn xem ảnh trường đại học.",
       "orderIndex": 9
     },
@@ -108,7 +108,7 @@
       "sentenceNumber": 10,
       "plainText": "みんなで晩ご飯を食べて、楽しい夜になりました。",
       "romaji": "minna de bangohan o tabete, tanoshii yoru ni narimashita.",
-      "contentHtml": "みんなで晩ご飯を食べて、楽しい夜になりました。",
+      "contentHtml": "みんなで<ruby>晩<rt>ばん</rt></ruby>ご<ruby>飯<rt>はん</rt></ruby>を<ruby>食<rt>た</rt></ruby>べて、<ruby>楽<rt>たの</rt></ruby>しい<ruby>夜<rt>よる</rt></ruby>になりました。",
       "meaningVi": "Mọi người cùng ăn tối và có một buổi tối vui vẻ.",
       "orderIndex": 10
     }

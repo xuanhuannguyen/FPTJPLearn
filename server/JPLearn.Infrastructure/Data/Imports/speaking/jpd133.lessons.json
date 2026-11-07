@@ -13,52 +13,52 @@
       "lessonType": "reading",
       "sentences": [
         {
-          "jp": "私は両親と姉と四人で住んでいます。",
+          "jp": "[[私|わたし]]は[[両親|りょうしん]]と[[姉|あね]]と[[四人|よにん]]で[[住|す]]んでいます。",
           "vi": "Tôi sống cùng bố mẹ và chị gái, gia đình có bốn người.",
           "romaji": "watashi wa ryoushin to ane to yonin de sundeimasu."
         },
         {
-          "jp": "父は会社で働いていて、毎日忙しいです。",
+          "jp": "[[父|ちち]]は[[会社|かいしゃ]]で[[働|はたら]]いていて、[[毎日忙|まいにちいそが]]しいです。",
           "vi": "Bố làm việc ở công ty và ngày nào cũng bận.",
           "romaji": "chichi wa kaisha de hataraite ite, mainichi isogashii desu."
         },
         {
-          "jp": "母は家で料理を作っています。",
+          "jp": "[[母|はは]]は[[家|いえ]]で[[料理|りょうり]]を[[作|つく]]っています。",
           "vi": "Mẹ đang nấu ăn ở nhà.",
           "romaji": "haha wa ie de ryouri o tsukutteimasu."
         },
         {
-          "jp": "姉は大学生で、親切です。",
+          "jp": "[[姉|あね]]は[[大学生|だいがくせい]]で、[[親切|しんせつ]]です。",
           "vi": "Chị gái là sinh viên đại học và tốt bụng.",
           "romaji": "ane wa daigakusei de, shinsetsu desu."
         },
         {
-          "jp": "家には白い猫が一匹います。",
+          "jp": "[[家|いえ]]には[[白|しろ]]い[[猫|ねこ]]が[[一匹|いっぴき]]います。",
           "vi": "Ở nhà có một con mèo trắng.",
           "romaji": "ie ni wa shiroi neko ga ippiki imasu."
         },
         {
-          "jp": "土曜日、母の友達が家に来ました。",
+          "jp": "[[土曜日|どようび]]、[[母|はは]]の[[友達|ともだち]]が[[家|いえ]]に[[来|き]]ました。",
           "vi": "Thứ Bảy, bạn của mẹ đến nhà chơi.",
           "romaji": "doyoubi, haha no tomodachi ga ie ni kimashita."
         },
         {
-          "jp": "友達は私にお菓子をくれました。",
+          "jp": "[[友達|ともだち]]は[[私|わたし]]にお[[菓子|かし]]をくれました。",
           "vi": "Người bạn tặng tôi bánh kẹo.",
           "romaji": "tomodachi wa watashi ni okashi o kuremashita."
         },
         {
-          "jp": "私は友達にお茶をあげました。",
+          "jp": "[[私|わたし]]は[[友達|ともだち]]にお[[茶|ちゃ]]をあげました。",
           "vi": "Tôi mời bạn uống trà.",
           "romaji": "watashi wa tomodachi ni ocha o agemashita."
         },
         {
-          "jp": "姉は友達に大学の写真を見せました。",
+          "jp": "[[姉|あね]]は[[友達|ともだち]]に[[大学|だいがく]]の[[写真|しゃしん]]を[[見|み]]せました。",
           "vi": "Chị gái cho người bạn xem ảnh trường đại học.",
           "romaji": "ane wa tomodachi ni daigaku no shashin o misemashita."
         },
         {
-          "jp": "みんなで晩ご飯を食べて、楽しい夜になりました。",
+          "jp": "みんなで[[晩|ばん]]ご[[飯|はん]]を[[食|た]]べて、[[楽|たの]]しい[[夜|よる]]になりました。",
           "vi": "Mọi người cùng ăn tối và có một buổi tối vui vẻ.",
           "romaji": "minna de bangohan o tabete, tanoshii yoru ni narimashita."
         }
@@ -74,52 +74,52 @@
       "lessonType": "reading",
       "sentences": [
         {
-          "jp": "先月、家族で新しい家に引っ越しました。",
+          "jp": "[[先月|せんげつ]]、[[家族|かぞく]]で[[新|あたら]]しい[[家|いえ]]に[[引|ひ]]っ[[越|こし]]しました。",
           "vi": "Tháng trước, gia đình tôi chuyển đến nhà mới.",
           "romaji": "sengetsu, kazoku de atarashii ie ni hikkoshi shimashita."
         },
         {
-          "jp": "新しい家は駅の近くにあります。",
+          "jp": "[[新|あたら]]しい[[家|いえ]]は[[駅|えき]]の[[近|ちか]]くにあります。",
           "vi": "Nhà mới nằm gần nhà ga.",
           "romaji": "atarashii ie wa eki no chikaku ni arimasu."
         },
         {
-          "jp": "家は明るくて、静かです。",
+          "jp": "[[家|いえ]]は[[明|あか]]るくて、[[静|しず]]かです。",
           "vi": "Căn nhà sáng sủa và yên tĩnh.",
           "romaji": "ie wa akarukute, shizuka desu."
         },
         {
-          "jp": "私は両親と三人でここに住んでいます。",
+          "jp": "[[私|わたし]]は[[両親|りょうしん]]と[[三人|さんにん]]でここに[[住|す]]んでいます。",
           "vi": "Tôi sống ở đây cùng bố mẹ, tổng cộng ba người.",
           "romaji": "watashi wa ryoushin to sannin de koko ni sundeimasu."
         },
         {
-          "jp": "父は駅の近くの会社で働いています。",
+          "jp": "[[父|ちち]]は[[駅|えき]]の[[近|ちか]]くの[[会社|かいしゃ]]で[[働|はたら]]いています。",
           "vi": "Bố làm việc ở công ty gần nhà ga.",
           "romaji": "chichi wa eki no chikaku no kaisha de hataraiteimasu."
         },
         {
-          "jp": "母は毎晩、家で料理を作ります。",
+          "jp": "[[母|はは]]は[[毎晩|まいばん]]、[[家|いえ]]で[[料理|りょうり]]を[[作|つく]]ります。",
           "vi": "Mỗi tối mẹ nấu ăn ở nhà.",
           "romaji": "haha wa maiban, ie de ryouri o tsukurimasu."
         },
         {
-          "jp": "まだ部屋に箱がたくさんあります。",
+          "jp": "まだ[[部屋|へや]]に[[箱|はこ]]がたくさんあります。",
           "vi": "Trong phòng vẫn còn nhiều thùng đồ.",
           "romaji": "mada heya ni hako ga takusan arimasu."
         },
         {
-          "jp": "昨日、姉が本を持って来ました。",
+          "jp": "[[昨日|きのう]]、[[姉|あね]]が[[本|ほん]]を[[持|も]]って[[来|き]]ました。",
           "vi": "Hôm qua, chị gái mang sách đến.",
           "romaji": "kinou, ane ga hon o motte kimashita."
         },
         {
-          "jp": "姉は私に日本語の辞書をくれました。",
+          "jp": "[[姉|あね]]は[[私|わたし]]に[[日本語|にほんご]]の[[辞書|じしょ]]をくれました。",
           "vi": "Chị gái tặng tôi một quyển từ điển tiếng Nhật.",
           "romaji": "ane wa watashi ni nihongo no jisho o kuremashita."
         },
         {
-          "jp": "新しい家で、その辞書を使って勉強しています。",
+          "jp": "[[新|あたら]]しい[[家|いえ]]で、その[[辞書|じしょ]]を[[使|つか]]って[[勉強|べんきょう]]しています。",
           "vi": "Ở nhà mới, tôi dùng từ điển ấy để học.",
           "romaji": "atarashii ie de, sono jisho o tsukatte benkyou shiteimasu."
         }
@@ -135,52 +135,52 @@
       "lessonType": "reading",
       "sentences": [
         {
-          "jp": "私の兄は東京に住んでいます。",
+          "jp": "[[私|わたし]]の[[兄|あに]]は[[東京|とうきょう]]に[[住|す]]んでいます。",
           "vi": "Anh trai tôi sống ở Tokyo.",
           "romaji": "watashi no ani wa toukyou ni sundeimasu."
         },
         {
-          "jp": "兄は病院で働いています。",
+          "jp": "[[兄|あに]]は[[病院|びょういん]]で[[働|はたら]]いています。",
           "vi": "Anh làm việc ở bệnh viện.",
           "romaji": "ani wa byouin de hataraiteimasu."
         },
         {
-          "jp": "兄はまじめで、親切な医者です。",
+          "jp": "[[兄|あに]]はまじめで、[[親切|しんせつ]]な[[医者|いしゃ]]です。",
           "vi": "Anh là bác sĩ chăm chỉ và tốt bụng.",
           "romaji": "ani wa majime de, shinsetsu na isha desu."
         },
         {
-          "jp": "毎週日曜日、兄は私に電話をくれます。",
+          "jp": "[[毎週日曜日|まいしゅうにちようび]]、[[兄|あに]]は[[私|わたし]]に[[電話|でんわ]]をくれます。",
           "vi": "Mỗi Chủ nhật, anh gọi điện cho tôi.",
           "romaji": "maishuu nichiyoubi, ani wa watashi ni denwa o kuremasu."
         },
         {
-          "jp": "先週、兄は久しぶりに家へ帰りました。",
+          "jp": "[[先週|せんしゅう]]、[[兄|あに]]は[[久|ひさ]]しぶりに[[家|いえ]]へ[[帰|かえ]]りました。",
           "vi": "Tuần trước, lâu rồi anh mới về nhà.",
           "romaji": "senshuu, ani wa hisashiburi ni ie e kaerimashita."
         },
         {
-          "jp": "父も母も兄に会って、とても喜びました。",
+          "jp": "[[父|ちち]]も[[母|はは]]も[[兄|あ]]に[[会|にあ]]って、とても[[喜|よろこ]]びました。",
           "vi": "Bố mẹ gặp anh và vui lắm.",
           "romaji": "chichi mo haha mo ani ni atte, totemo yorokobimashita."
         },
         {
-          "jp": "兄は東京のお菓子を家族にくれました。",
+          "jp": "[[兄|あに]]は[[東京|とうきょう]]のお[[菓子|かし]]を[[家族|かぞく]]にくれました。",
           "vi": "Anh tặng cả nhà bánh kẹo từ Tokyo.",
           "romaji": "ani wa toukyou no okashi o kazoku ni kuremashita."
         },
         {
-          "jp": "私は兄に大学の写真を見せました。",
+          "jp": "[[私|わたし]]は[[兄|あに]]に[[大学|だいがく]]の[[写真|しゃしん]]を[[見|み]]せました。",
           "vi": "Tôi cho anh xem ảnh trường đại học.",
           "romaji": "watashi wa ani ni daigaku no shashin o misemashita."
         },
         {
-          "jp": "夜、兄は家族と一緒に晩ご飯を食べました。",
+          "jp": "[[夜|よる]]、[[兄|あに]]は[[家族|かぞく]]と[[一緒|いっしょ]]に[[晩|ばん]]ご[[飯|はん]]を[[食|た]]べました。",
           "vi": "Buổi tối, anh ăn cơm cùng gia đình.",
           "romaji": "yoru, ani wa kazoku to issho ni bangohan o tabemashita."
         },
         {
-          "jp": "次の日、兄は東京へ帰り、また電話すると言いました。",
+          "jp": "[[次|つぎ]]の[[日|ひ]]、[[兄|あに]]は[[東京|とうきょう]]へ[[帰|かえ]]り、また[[電話|でんわ]]すると[[言|い]]いました。",
           "vi": "Hôm sau anh về Tokyo và nói sẽ gọi lại.",
           "romaji": "tsugi no hi, ani wa toukyou e kaeri, mata denwa suru to iimashita."
         }
@@ -196,52 +196,52 @@
       "lessonType": "reading",
       "sentences": [
         {
-          "jp": "祖母は田舎に住んでいます。",
+          "jp": "[[祖母|そぼ]]は[[田舎|いなか]]に[[住|す]]んでいます。",
           "vi": "Bà tôi sống ở quê.",
           "romaji": "sobo wa inaka ni sundeimasu."
         },
         {
-          "jp": "日曜日は祖母の誕生日でした。",
+          "jp": "[[日曜日|にちようび]]は[[祖母|そぼ]]の[[誕生日|たんじょうび]]でした。",
           "vi": "Chủ nhật là sinh nhật của bà.",
           "romaji": "nichiyoubi wa sobo no tanjoubi deshita."
         },
         {
-          "jp": "家族で祖母の家へ行きました。",
+          "jp": "[[家族|かぞく]]で[[祖母|そぼ]]の[[家|い]]へ[[行|えい]]きました。",
           "vi": "Cả nhà tôi đến nhà bà.",
           "romaji": "kazoku de sobo no ie e ikimashita."
         },
         {
-          "jp": "祖母は元気で、料理が上手です。",
+          "jp": "[[祖母|そぼ]]は[[元気|げんき]]で、[[料理|りょうり]]が[[上手|じょうず]]です。",
           "vi": "Bà khỏe mạnh và nấu ăn giỏi.",
           "romaji": "sobo wa genki de, ryouri ga jouzu desu."
         },
         {
-          "jp": "父は祖母に花をあげました。",
+          "jp": "[[父|ちち]]は[[祖母|そぼ]]に[[花|はな]]をあげました。",
           "vi": "Bố tặng bà hoa.",
           "romaji": "chichi wa sobo ni hana o agemashita."
         },
         {
-          "jp": "私は祖母に手紙を渡しました。",
+          "jp": "[[私|わたし]]は[[祖母|そぼ]]に[[手紙|てがみ]]を[[渡|わた]]しました。",
           "vi": "Tôi đưa bà một lá thư.",
           "romaji": "watashi wa sobo ni tegami o watashimashita."
         },
         {
-          "jp": "祖母は私に古い写真を見せました。",
+          "jp": "[[祖母|そぼわ]]は[[私|たし]]に[[古|ふる]]い[[写真|しゃしん]]を[[見|み]]せました。",
           "vi": "Bà cho tôi xem những tấm ảnh cũ.",
           "romaji": "sobo wa watashi ni furui shashin o misemashita."
         },
         {
-          "jp": "写真には若い祖母と家族が写っていました。",
+          "jp": "[[写真|しゃしん]]には[[若|わか]]い[[祖母|そぼ]]と[[家族|かぞく]]が[[写|う]]っていました。",
           "vi": "Trong ảnh có bà lúc trẻ và gia đình.",
           "romaji": "shashin ni wa wakai sobo to kazoku ga utteimashita."
         },
         {
-          "jp": "みんなで写真を見ながら、昔の話をしました。",
+          "jp": "みんなで[[写真|しゃしん]]を[[見|み]]ながら、[[昔|むかし]]の[[話|はなし]]をしました。",
           "vi": "Mọi người vừa xem ảnh vừa kể chuyện ngày xưa.",
           "romaji": "minna de shashin o minagara, mukashi no hanashi o shimashita."
         },
         {
-          "jp": "帰るとき、祖母は私にお菓子をくれました。",
+          "jp": "[[帰|かえ]]るとき、[[祖母|そぼわ]]は[[私|たし]]にお[[菓子|かし]]をくれました。",
           "vi": "Lúc về, bà tặng tôi bánh kẹo.",
           "romaji": "kaeru toki, sobo wa watashi ni okashi o kuremashita."
         }
@@ -257,52 +257,52 @@
       "lessonType": "reading",
       "sentences": [
         {
-          "jp": "来週は友達の誕生日です。",
+          "jp": "[[来週|らいしゅう]]は[[友達|ともだち]]の[[誕生日|たんじょうび]]です。",
           "vi": "Tuần sau là sinh nhật của bạn tôi.",
           "romaji": "raishuu wa tomodachi no tanjoubi desu."
         },
         {
-          "jp": "友達は小説を読むことが好きです。",
+          "jp": "[[友達|ともだち]]は[[小説|しょうせつ]]を[[読|よ]]むことが[[好|す]]きです。",
           "vi": "Bạn tôi thích đọc tiểu thuyết.",
           "romaji": "tomodachi wa shousetsu o yomu koto ga suki desu."
         },
         {
-          "jp": "私は本屋で小説を一冊買いました。",
+          "jp": "[[私|わたし]]は[[本屋|ほんや]]で[[小説|しょうせつ]]を[[一冊買|いっさつか]]いました。",
           "vi": "Tôi mua một quyển tiểu thuyết ở hiệu sách.",
           "romaji": "watashi wa honya de shousetsu o issatsu kaimashita."
         },
         {
-          "jp": "誕生日の日、友達の家へ行きました。",
+          "jp": "[[誕生日|たんじょうび]]の[[日|ひ]]、[[友達|ともだち]]の[[家|い]]へ[[行|えい]]きました。",
           "vi": "Đến ngày sinh nhật, tôi đến nhà bạn.",
           "romaji": "tanjoubi no hi, tomodachi no ie e ikimashita."
         },
         {
-          "jp": "友達は家族と三人で住んでいます。",
+          "jp": "[[友達|ともだち]]は[[家族|かぞく]]と[[三人|さんにん]]で[[住|す]]んでいます。",
           "vi": "Bạn sống cùng gia đình, tổng cộng ba người.",
           "romaji": "tomodachi wa kazoku to sannin de sundeimasu."
         },
         {
-          "jp": "友達のお母さんは親切で、お茶を出してくれました。",
+          "jp": "[[友達|ともだち]]のお[[母|かあ]]さんは[[親切|しんせつ]]で、お[[茶|ちゃ]]を[[出|だ]]してくれました。",
           "vi": "Mẹ bạn tốt bụng và mời tôi uống trà.",
           "romaji": "tomodachi no okaasan wa shinsetsu de, ocha o dashite kuremashita."
         },
         {
-          "jp": "私は友達に小説をあげました。",
+          "jp": "[[私|わたし]]は[[友達|ともだち]]に[[小説|しょうせつ]]をあげました。",
           "vi": "Tôi tặng bạn quyển tiểu thuyết.",
           "romaji": "watashi wa tomodachi ni shousetsu o agemashita."
         },
         {
-          "jp": "友達はとても喜んで、すぐ本を開きました。",
+          "jp": "[[友達|ともだち]]はとても[[喜|よろこ]]んで、すぐ[[本|ほん]]を[[開|ひら]]きました。",
           "vi": "Bạn rất vui và mở sách ra ngay.",
           "romaji": "tomodachi wa totemo yorokonde, sugu hon o hirakimashita."
         },
         {
-          "jp": "その小説について、一緒に話しました。",
+          "jp": "その[[小説|しょうせつ]]について、[[一緒|いっしょ]]に[[話|はな]]しました。",
           "vi": "Chúng tôi cùng trò chuyện về quyển tiểu thuyết ấy.",
           "romaji": "sono shousetsu ni tsuite, issho ni hanashimashita."
         },
         {
-          "jp": "帰りに友達から手紙をもらいました。",
+          "jp": "[[帰|かえ]]りに[[友達|ともだち]]から[[手紙|てがみ]]をもらいました。",
           "vi": "Lúc về, tôi nhận được thư từ bạn.",
           "romaji": "kaeri ni tomodachi kara tegami o moraimashita."
         }
@@ -318,52 +318,52 @@
       "lessonType": "reading",
       "sentences": [
         {
-          "jp": "友達の家には猫が二匹います。",
+          "jp": "[[友達|ともだち]]の[[家|いえ]]には[[猫|ねこ]]が[[二匹|にひき]]います。",
           "vi": "Ở nhà bạn tôi có hai con mèo.",
           "romaji": "tomodachi no ie ni wa neko ga nihiki imasu."
         },
         {
-          "jp": "一匹は白くて、もう一匹は黒いです。",
+          "jp": "[[一匹|いっぴき]]は[[白|しろ]]くて、もう[[一匹|いっぴき]]は[[黒|くろ]]いです。",
           "vi": "Một con màu trắng, con còn lại màu đen.",
           "romaji": "ippiki wa shirokute, mou ippiki wa kuroi desu."
         },
         {
-          "jp": "白い猫は目が大きいです。",
+          "jp": "[[白|しろ]]い[[猫|ねこ]]は[[目|め]]が[[大|おお]]きいです。",
           "vi": "Con mèo trắng có đôi mắt to.",
           "romaji": "shiroi neko wa me ga ookii desu."
         },
         {
-          "jp": "黒い猫は元気で、よく走ります。",
+          "jp": "[[黒|くろ]]い[[猫|ねこ]]は[[元気|げんき]]で、よく[[走|はし]]ります。",
           "vi": "Con mèo đen hiếu động và hay chạy.",
           "romaji": "kuroi neko wa genki de, yoku hashirimasu."
         },
         {
-          "jp": "日曜日、私は友達の家へ行きました。",
+          "jp": "[[日曜日|にちようび]]、[[私|わたし]]は[[友達|ともだち]]の[[家|い]]へ[[行|えい]]きました。",
           "vi": "Chủ nhật, tôi đến nhà bạn.",
           "romaji": "nichiyoubi, watashi wa tomodachi no ie e ikimashita."
         },
         {
-          "jp": "友達は毎日、猫にご飯をあげています。",
+          "jp": "[[友達|ともだち]]は[[毎日|まいにち]]、[[猫|ねこ]]にご[[飯|はん]]をあげています。",
           "vi": "Ngày nào bạn tôi cũng cho mèo ăn.",
           "romaji": "tomodachi wa mainichi, neko ni gohan o ageteimasu."
         },
         {
-          "jp": "私は猫と遊んで、写真を撮りました。",
+          "jp": "[[私|わたし]]は[[猫|ねこ]]と[[遊|あそ]]んで、[[写真|しゃしん]]を[[撮|と]]りました。",
           "vi": "Tôi chơi với mèo rồi chụp ảnh.",
           "romaji": "watashi wa neko to asonde, shashin o torimashita."
         },
         {
-          "jp": "友達は猫の写真を私に見せました。",
+          "jp": "[[友達|ともだち]]は[[猫|ねこ]]の[[写真|しゃしん]]を[[私|わたし]]に[[見|み]]せました。",
           "vi": "Bạn cho tôi xem ảnh của những con mèo.",
           "romaji": "tomodachi wa neko no shashin o watashi ni misemashita."
         },
         {
-          "jp": "帰るとき、黒い猫が玄関まで来ました。",
+          "jp": "[[帰|かえ]]るとき、[[黒|くろ]]い[[猫|ねこ]]が[[玄関|げんかん]]まで[[来|き]]ました。",
           "vi": "Lúc tôi về, con mèo đen đi ra tận cửa.",
           "romaji": "kaeru toki, kuroi neko ga genkan made kimashita."
         },
         {
-          "jp": "私はまた二匹に会いに行きたいです。",
+          "jp": "[[私|わたし]]はまた[[二匹|にひき]]に[[会|あ]]いに[[行|い]]きたいです。",
           "vi": "Tôi muốn đến thăm hai con mèo lần nữa.",
           "romaji": "watashi wa mata nihiki ni ai ni ikitai desu."
         }
@@ -379,52 +379,52 @@
       "lessonType": "reading",
       "sentences": [
         {
-          "jp": "最近、小説を読むことが好きになりました。",
+          "jp": "[[最近|さいきん]]、[[小説|しょうせつ]]を[[読|よ]]むことが[[好|す]]きになりました。",
           "vi": "Gần đây, tôi bắt đầu thích đọc tiểu thuyết.",
           "romaji": "saikin, shousetsu o yomu koto ga suki ni narimashita."
         },
         {
-          "jp": "毎晩、寝る前に小説を読んでいます。",
+          "jp": "[[毎晩|まいばん]]、[[寝|ね]]る[[前|まえ]]に[[小説|しょうせつ]]を[[読|よ]]んでいます。",
           "vi": "Tối nào tôi cũng đọc tiểu thuyết trước khi ngủ.",
           "romaji": "maiban, neru mae ni shousetsu o yondeimasu."
         },
         {
-          "jp": "一週間に二回、学校の図書館へ行きます。",
+          "jp": "[[一週間|いっしゅうかん]]に[[二回|にかい]]、[[学校|がっこう]]の[[図書館|としょかん]]へ[[行|い]]きます。",
           "vi": "Mỗi tuần tôi đến thư viện trường hai lần.",
           "romaji": "isshuukan ni nikai, gakkou no toshokan e ikimasu."
         },
         {
-          "jp": "図書館で新しい小説を二冊借ります。",
+          "jp": "[[図書館|としょかん]]で[[新|あたら]]しい[[小説|しょうせつ]]を[[二冊借|にさつか]]ります。",
           "vi": "Tôi mượn hai quyển tiểu thuyết mới ở thư viện.",
           "romaji": "toshokan de atarashii shousetsu o nisatsu karimasu."
         },
         {
-          "jp": "その小説は話がおもしろくて、読みやすいです。",
+          "jp": "その[[小説|しょうせつ]]は[[話|はなし]]がおもしろくて、[[読|よ]]みやすいです。",
           "vi": "Tiểu thuyết ấy có cốt truyện thú vị và dễ đọc.",
           "romaji": "sono shousetsu wa hanashi ga omoshirokute, yomiyasui desu."
         },
         {
-          "jp": "友達も本を読むことが好きです。",
+          "jp": "[[友達|ともだち]]も[[本|ほん]]を[[読|よ]]むことが[[好|す]]きです。",
           "vi": "Bạn tôi cũng thích đọc sách.",
           "romaji": "tomodachi mo hon o yomu koto ga suki desu."
         },
         {
-          "jp": "休み時間に、友達と本の話をします。",
+          "jp": "[[休|やす]]み[[時間|じかん]]に、[[友達|ともだち]]と[[本|ほん]]の[[話|はなし]]をします。",
           "vi": "Giờ nghỉ, tôi trò chuyện với bạn về sách.",
           "romaji": "yasumi jikan ni, tomodachi to hon no hanashi o shimasu."
         },
         {
-          "jp": "昨日、私は図書館で新しい本を見つけました。",
+          "jp": "[[昨日|きのう]]、[[私|わたし]]は[[図書館|としょかん]]で[[新|あたら]]しい[[本|ほん]]を[[見|み]]つけました。",
           "vi": "Hôm qua, tôi tìm thấy một quyển sách mới ở thư viện.",
           "romaji": "kinou, watashi wa toshokan de atarashii hon o mitsukemashita."
         },
         {
-          "jp": "その本を友達に見せて、一緒に読みました。",
+          "jp": "その[[本|ほん]]を[[友達|ともだち]]に[[見|み]]せて、[[一緒|いっしょ]]に[[読|よ]]みました。",
           "vi": "Tôi cho bạn xem quyển sách ấy rồi cùng đọc.",
           "romaji": "sono hon o tomodachi ni misete, issho ni yomimashita."
         },
         {
-          "jp": "今週末、二人で続きを読むつもりです。",
+          "jp": "[[今週末|こんしゅうまつ]]、[[二人|ふたり]]で[[続|つず]]きを[[読|よ]]むつもりです。",
           "vi": "Cuối tuần này, hai chúng tôi định đọc tiếp.",
           "romaji": "konshuumatsu, futari de tsuzuki o yomu tsumori desu."
         }
@@ -440,52 +440,52 @@
       "lessonType": "reading",
       "sentences": [
         {
-          "jp": "学校にダンスクラブがあります。",
+          "jp": "[[学校|がっこう]]にダンスクラブがあります。",
           "vi": "Ở trường có câu lạc bộ khiêu vũ.",
           "romaji": "gakkou ni dansu kurabu ga arimasu."
         },
         {
-          "jp": "私は音楽に合わせて踊ることが好きです。",
+          "jp": "[[私|わたし]]は[[音楽|おんがく]]に[[合|あ]]わせて[[踊|おど]]ることが[[好|す]]きです。",
           "vi": "Tôi thích nhảy theo nhạc.",
           "romaji": "watashi wa ongaku ni awasete odoru koto ga suki desu."
         },
         {
-          "jp": "友達はそのクラブでダンスを習っています。",
+          "jp": "[[友達|ともだち]]はそのクラブでダンスを[[習|なら]]っています。",
           "vi": "Bạn tôi đang học khiêu vũ ở câu lạc bộ ấy.",
           "romaji": "tomodachi wa sono kurabu de dansu o naratteimasu."
         },
         {
-          "jp": "先週、友達に「どうやって申し込みますか」と聞きました。",
+          "jp": "[[先週|せんしゅう]]、[[友達|ともだち]]に「どうやって[[申|もう]]し[[込|こ]]みますか」と[[聞|き]]きました。",
           "vi": "Tuần trước, tôi hỏi bạn: “Đăng ký bằng cách nào?”.",
           "romaji": "senshuu, tomodachi ni douyatte moushikomimasu ka to kikimashita."
         },
         {
-          "jp": "受付で名前を言って、申し込みました。",
+          "jp": "[[受付|うけつけ]]で[[名前|なまえ]]を[[言|い]]って、[[申|もう]]し[[込|こ]]みました。",
           "vi": "Tôi nói tên ở quầy lễ tân rồi đăng ký.",
           "romaji": "uketsuke de namae o itte, moushikomimashita."
         },
         {
-          "jp": "毎週一回、クラブに参加します。",
+          "jp": "[[毎週一回|まいしゅういっかい]]、クラブに[[参加|さんか]]します。",
           "vi": "Mỗi tuần tôi tham gia câu lạc bộ một lần.",
           "romaji": "maishuu ikkai, kurabu ni sanka shimasu."
         },
         {
-          "jp": "先生は親切で、ゆっくり教えてくれます。",
+          "jp": "[[先生|せんせい]]は[[親切|しんせつ]]で、ゆっくり[[教|おし]]えてくれます。",
           "vi": "Thầy cô tốt bụng và dạy chúng tôi từ từ.",
           "romaji": "sensei wa shinsetsu de, yukkuri oshiete kuremasu."
         },
         {
-          "jp": "みんなで音楽を聞いて、踊りを練習します。",
+          "jp": "みんなで[[音楽|おんがく]]を[[聞|き]]いて、[[踊|おど]]りを[[練習|れんしゅう]]します。",
           "vi": "Mọi người cùng nghe nhạc và luyện nhảy.",
           "romaji": "minna de ongaku o kiite, odori o renshuu shimasu."
         },
         {
-          "jp": "私はまだ上手ではありませんが、練習しています。",
+          "jp": "[[私|わたし]]はまだ[[上手|じょうず]]ではありませんが、[[練習|れんしゅう]]しています。",
           "vi": "Tôi vẫn chưa giỏi nhưng đang luyện tập.",
           "romaji": "watashi wa mada jouzu de wa arimasen ga, renshuu shiteimasu."
         },
         {
-          "jp": "今は簡単な踊りなら一人で踊ることができます。",
+          "jp": "[[今|いま]]は[[簡単|かんたん]]な[[踊|おど]]りなら[[一人|ひとり]]で[[踊|おど]]ることができます。",
           "vi": "Bây giờ tôi có thể tự nhảy những điệu đơn giản.",
           "romaji": "ima wa kantan na odori nara hitori de odoru koto ga dekimasu."
         }
@@ -501,52 +501,52 @@
       "lessonType": "reading",
       "sentences": [
         {
-          "jp": "土曜日の午後、友達と図書館へ行きました。",
+          "jp": "[[土曜日|どようび]]の[[午後|ごご]]、[[友達|ともだち]]と[[図書館|としょかん]]へ[[行|い]]きました。",
           "vi": "Chiều thứ Bảy, tôi đi thư viện với bạn.",
           "romaji": "doyoubi no gogo, tomodachi to toshokan e ikimashita."
         },
         {
-          "jp": "受付で学生証を見せて、中に入りました。",
+          "jp": "[[受付|うけつけ]]で[[学生証|がくせいしょう]]を[[見|み]]せて、[[中|なか]]に[[入|はい]]りました。",
           "vi": "Tôi đưa thẻ học sinh ở quầy lễ tân rồi vào trong.",
           "romaji": "uketsuke de gakuseishou o misete, naka ni hairimashita."
         },
         {
-          "jp": "図書館には小説や漫画がたくさんあります。",
+          "jp": "[[図書館|としょかん]]には[[小説|しょうせつ]]や[[漫画|まんが]]がたくさんあります。",
           "vi": "Trong thư viện có nhiều tiểu thuyết và truyện tranh.",
           "romaji": "toshokan ni wa shousetsu ya manga ga takusan arimasu."
         },
         {
-          "jp": "私は漫画を三冊選びました。",
+          "jp": "[[私|わたし]]は[[漫画|まんが]]を[[三冊選|さんさつえら]]びました。",
           "vi": "Tôi chọn ba quyển truyện tranh.",
           "romaji": "watashi wa manga o sansatsu erabimashita."
         },
         {
-          "jp": "友達は小説を一冊借りました。",
+          "jp": "[[友達|ともだち]]は[[小説|しょうせつ]]を[[一冊借|いっさつか]]りました。",
           "vi": "Bạn tôi mượn một quyển tiểu thuyết.",
           "romaji": "tomodachi wa shousetsu o issatsu karimashita."
         },
         {
-          "jp": "私たちは静かな席に座って、本を読みました。",
+          "jp": "[[私|わたし]]たちは[[静|しず]]かな[[席|せき]]に[[座|すわ]]って、[[本|ほん]]を[[読|よ]]みました。",
           "vi": "Chúng tôi ngồi vào chỗ yên tĩnh và đọc sách.",
           "romaji": "watashitachi wa shizuka na seki ni suwatte, hon o yomimashita."
         },
         {
-          "jp": "その漫画はおもしろくて、すぐ読み終わりました。",
+          "jp": "その[[漫画|まんが]]はおもしろくて、すぐ[[読|よ]]み[[終|お]]わりました。",
           "vi": "Truyện tranh ấy thú vị nên tôi đọc xong ngay.",
           "romaji": "sono manga wa omoshirokute, sugu yomiowarimashita."
         },
         {
-          "jp": "帰る前に、本を返す日を確認しました。",
+          "jp": "[[帰|かえ]]る[[前|まえ]]に、[[本|ほん]]を[[返|かえ]]す[[日|ひ]]を[[確認|かくにん]]しました。",
           "vi": "Trước khi về, tôi kiểm tra ngày phải trả sách.",
           "romaji": "kaeru mae ni, hon o kaesu hi o kakunin shimashita."
         },
         {
-          "jp": "私は一週間に二回、図書館へ来ています。",
+          "jp": "[[私|わたし]]は[[一週間|いっしゅうかん]]に[[二回|にかい]]、[[図書館|としょかん]]へ[[来|き]]ています。",
           "vi": "Tôi vẫn đến thư viện hai lần mỗi tuần.",
           "romaji": "watashi wa isshuukan ni nikai, toshokan e kiteimasu."
         },
         {
-          "jp": "来週も友達とここで本を読むことにしました。",
+          "jp": "[[来週|らいしゅう]]も[[友達|ともだち]]とここで[[本|ほん]]を[[読|よ]]むことにしました。",
           "vi": "Tuần sau, chúng tôi cũng hẹn đọc sách ở đây.",
           "romaji": "raishuu mo tomodachi to koko de hon o yomu koto ni shimashita."
         }
@@ -562,52 +562,52 @@
       "lessonType": "reading",
       "sentences": [
         {
-          "jp": "私の祖父は釣りが好きです。",
+          "jp": "[[私|わたし]]の[[祖父|そふ]]は[[釣|つ]]りが[[好|す]]きです。",
           "vi": "Ông tôi thích câu cá.",
           "romaji": "watashi no sofu wa tsuri ga suki desu."
         },
         {
-          "jp": "日曜日、祖父と川へ行きました。",
+          "jp": "[[日曜日|にちようび]]、[[祖父|そふ]]と[[川|かわ]]へ[[行|い]]きました。",
           "vi": "Chủ nhật, tôi đi đến con sông cùng ông.",
           "romaji": "nichiyoubi, sofu to kawa e ikimashita."
         },
         {
-          "jp": "川は静かで、水がきれいでした。",
+          "jp": "[[川|かわ]]は[[静|しず]]かで、[[水|みず]]がきれいでした。",
           "vi": "Con sông yên tĩnh và nước trong.",
           "romaji": "kawa wa shizuka de, mizu ga kirei deshita."
         },
         {
-          "jp": "祖父は釣りがとても上手です。",
+          "jp": "[[祖父|そふ]]は[[釣|つ]]りがとても[[上手|じょうず]]です。",
           "vi": "Ông câu cá rất giỏi.",
           "romaji": "sofu wa tsuri ga totemo jouzu desu."
         },
         {
-          "jp": "私は「どうやって魚を釣りますか」と聞きました。",
+          "jp": "[[私|わたし]]は「どうやって[[魚|さかな]]を[[釣|つ]]りますか」と[[聞|き]]きました。",
           "vi": "Tôi hỏi: “Câu cá bằng cách nào ạ?”.",
           "romaji": "watashi wa douyatte sakana o tsurimasu ka to kikimashita."
         },
         {
-          "jp": "祖父は道具の使い方を教えてくれました。",
+          "jp": "[[祖父|そふ]]は[[道具|どうぐ]]の[[使|つか]]い[[方|かた]]を[[教|おし]]えてくれました。",
           "vi": "Ông chỉ tôi cách dùng dụng cụ.",
           "romaji": "sofu wa dougu no tsukaikata o oshiete kuremashita."
         },
         {
-          "jp": "一緒に竿を持って、魚を待ちました。",
+          "jp": "[[一緒|いっしょ]]に[[竿|さ]]を[[持|おも]]って、[[魚|さかな]]を[[待|ま]]ちました。",
           "vi": "Chúng tôi cùng cầm cần câu và đợi cá.",
           "romaji": "issho ni sao o motte, sakana o machimashita."
         },
         {
-          "jp": "しばらくして、小さい魚が一匹釣れました。",
+          "jp": "しばらくして、[[小|ちい]]さい[[魚|さかな]]が[[一匹釣|いっぴきつ]]れました。",
           "vi": "Một lúc sau, chúng tôi câu được một con cá nhỏ.",
           "romaji": "shibaraku shite, chiisai sakana ga ippiki tsuremashita."
         },
         {
-          "jp": "祖父は魚を見せて、川へ返しました。",
+          "jp": "[[祖父|そふ]]は[[魚|さかな]]を[[見|み]]せて、[[川|かわ]]へ[[返|かえ]]しました。",
           "vi": "Ông cho tôi xem con cá rồi thả nó về sông.",
           "romaji": "sofu wa sakana o misete, kawa e kaeshimashita."
         },
         {
-          "jp": "帰り道、私はまた祖父と釣りに来たいと思いました。",
+          "jp": "[[帰|かえ]]り[[道|みち]]、[[私|わたし]]はまた[[祖父|そふ]]と[[釣|つ]]りに[[来|き]]たいと[[思|おも]]いました。",
           "vi": "Trên đường về, tôi nghĩ muốn đi câu với ông lần nữa.",
           "romaji": "kaerimichi, watashi wa mata sofu to tsuri ni kitai to omoimashita."
         }
@@ -623,52 +623,52 @@
       "lessonType": "reading",
       "sentences": [
         {
-          "jp": "町に日本語クラブがあります。",
+          "jp": "[[町|まち]]に[[日本語|にほんご]]クラブがあります。",
           "vi": "Trong thị trấn có câu lạc bộ tiếng Nhật.",
           "romaji": "machi ni nihongo kurabu ga arimasu."
         },
         {
-          "jp": "外国人の学生もたくさん参加しています。",
+          "jp": "[[外国人|がいこくじん]]の[[学生|がくせい]]もたくさん[[参加|さんか]]しています。",
           "vi": "Nhiều học viên nước ngoài cũng tham gia.",
           "romaji": "gaikokujin no gakusei mo takusan sanka shiteimasu."
         },
         {
-          "jp": "私は受付で名前と住所を言いました。",
+          "jp": "[[私|わたし]]は[[受付|うけつけ]]で[[名前|なまえ]]と[[住所|じゅうしょ]]を[[言|い]]いました。",
           "vi": "Tôi nói tên và địa chỉ ở quầy lễ tân.",
           "romaji": "watashi wa uketsuke de namae to juusho o iimashita."
         },
         {
-          "jp": "電話番号を書いて、クラブに申し込みました。",
+          "jp": "[[電話番号|でんわばんごう]]を[[書|か]]いて、クラブに[[申|もう]]し[[込|こ]]みました。",
           "vi": "Tôi ghi số điện thoại rồi đăng ký câu lạc bộ.",
           "romaji": "denwa bangou o kaite, kurabu ni moushikomimashita."
         },
         {
-          "jp": "毎週水曜日に、みんなで日本語を勉強します。",
+          "jp": "[[毎週水曜日|まいしゅうすいようび]]に、みんなで[[日本語|にほんご]]を[[勉強|べんきょう]]します。",
           "vi": "Mỗi thứ Tư, mọi người cùng học tiếng Nhật.",
           "romaji": "maishuu suiyoubi ni, minna de nihongo o benkyou shimasu."
         },
         {
-          "jp": "先生はゆっくり話して、言葉の意味を説明します。",
+          "jp": "[[先生|せんせい]]はゆっくり[[話|はな]]して、[[言葉|ことば]]の[[意味|いみ]]を[[説明|せつめい]]します。",
           "vi": "Thầy cô nói chậm và giải thích nghĩa của từ.",
           "romaji": "sensei wa yukkuri hanashite, kotoba no imi o setsumei shimasu."
         },
         {
-          "jp": "私は友達の話を聞いて、新しい言葉を覚えます。",
+          "jp": "[[私|わたし]]は[[友達|ともだち]]の[[話|はなし]]を[[聞|き]]いて、[[新|あたら]]しい[[言葉|ことば]]を[[覚|おぼ]]えます。",
           "vi": "Tôi nghe bạn nói và ghi nhớ từ mới.",
           "romaji": "watashi wa tomodachi no hanashi o kiite, atarashii kotoba o oboemasu."
         },
         {
-          "jp": "休み時間に、二人で会話を練習します。",
+          "jp": "[[休|やす]]み[[時間|じかん]]に、[[二人|ふたり]]で[[会話|かいわ]]を[[練習|れんしゅう]]します。",
           "vi": "Giờ nghỉ, hai chúng tôi luyện hội thoại.",
           "romaji": "yasumi jikan ni, futari de kaiwa o renshuu shimasu."
         },
         {
-          "jp": "前より日本語を話すことができます。",
+          "jp": "[[前|まえ]]より[[日本語|にほんご]]を[[話|はな]]すことができます。",
           "vi": "Tôi có thể nói tiếng Nhật tốt hơn trước.",
           "romaji": "mae yori nihongo o hanasu koto ga dekimasu."
         },
         {
-          "jp": "来週も友達とクラブに参加します。",
+          "jp": "[[来週|らいしゅう]]も[[友達|ともだち]]とクラブに[[参加|さんか]]します。",
           "vi": "Tuần sau tôi cũng sẽ tham gia câu lạc bộ với bạn.",
           "romaji": "raishuu mo tomodachi to kurabu ni sanka shimasu."
         }
@@ -684,52 +684,52 @@
       "lessonType": "reading",
       "sentences": [
         {
-          "jp": "私は映画を見ることが好きです。",
+          "jp": "[[私|わたし]]は[[映画|えいが]]を[[見|み]]ることが[[好|す]]きです。",
           "vi": "Tôi thích xem phim.",
           "romaji": "watashi wa eiga o miru koto ga suki desu."
         },
         {
-          "jp": "月に二回、友達と映画館へ行きます。",
+          "jp": "[[月|つき]]に[[二回|にかい]]、[[友達|ともだち]]と[[映画館|えいがかん]]へ[[行|い]]きます。",
           "vi": "Mỗi tháng, tôi đi rạp phim với bạn hai lần.",
           "romaji": "tsuki ni nikai, tomodachi to eigakan e ikimasu."
         },
         {
-          "jp": "先週、友達に電話しました。",
+          "jp": "[[先週|せんしゅう]]、[[友達|ともだち]]に[[電話|でんわ]]しました。",
           "vi": "Tuần trước, tôi gọi điện cho bạn.",
           "romaji": "senshuu, tomodachi ni denwa shimashita."
         },
         {
-          "jp": "友達は新しい映画の話をしました。",
+          "jp": "[[友達|ともだち]]は[[新|あたら]]しい[[映画|えいが]]の[[話|はなし]]をしました。",
           "vi": "Bạn kể về một bộ phim mới.",
           "romaji": "tomodachi wa atarashii eiga no hanashi o shimashita."
         },
         {
-          "jp": "私はその映画を見たいと思いました。",
+          "jp": "[[私|わたし]]はその[[映画|えいが]]を[[見|み]]たいと[[思|おも]]いました。",
           "vi": "Tôi nghĩ mình muốn xem bộ phim ấy.",
           "romaji": "watashi wa sono eiga o mitai to omoimashita."
         },
         {
-          "jp": "土曜日、駅で会うことにしました。",
+          "jp": "[[土曜日|どようび]]、[[駅|えき]]で[[会|あ]]うことにしました。",
           "vi": "Chúng tôi quyết định gặp nhau ở nhà ga vào thứ Bảy.",
           "romaji": "doyoubi, eki de au koto ni shimashita."
         },
         {
-          "jp": "友達は電車で来て、駅で私を待っていました。",
+          "jp": "[[友達|ともだち]]は[[電車|でんしゃ]]で[[来|き]]て、[[駅|えき]]で[[私|わたし]]を[[待|ま]]っていました。",
           "vi": "Bạn đi tàu đến và đợi tôi ở ga.",
           "romaji": "tomodachi wa densha de kite, eki de watashi o matteimashita."
         },
         {
-          "jp": "映画を見て、それから食堂で晩ご飯を食べました。",
+          "jp": "[[映画|えいが]]を[[見|み]]て、それから[[食堂|しょくどう]]で[[晩|ばん]]ご[[飯|はん]]を[[食|た]]べました。",
           "vi": "Chúng tôi xem phim rồi ăn tối ở nhà ăn.",
           "romaji": "eiga o mite, sorekara shokudou de bangohan o tabemashita."
         },
         {
-          "jp": "映画は少し長かったですが、とてもおもしろかったです。",
+          "jp": "[[映画|えいが]]は[[少|すこ]]し[[長|なが]]かったですが、とてもおもしろかったです。",
           "vi": "Phim hơi dài nhưng rất thú vị.",
           "romaji": "eiga wa sukoshi nagakatta desu ga, totemo omoshirokatta desu."
         },
         {
-          "jp": "帰り道、次に見る映画も一緒に決めました。",
+          "jp": "[[帰|かえ]]り[[道|みち]]、[[次|つぎ]]に[[見|み]]る[[映画|えいが]]も[[一緒|いっしょ]]に[[決|き]]めました。",
           "vi": "Trên đường về, chúng tôi cùng chọn bộ phim tiếp theo.",
           "romaji": "kaerimichi, tsugi ni miru eiga mo issho ni kimemashita."
         }
@@ -745,52 +745,52 @@
       "lessonType": "reading",
       "sentences": [
         {
-          "jp": "日曜日、友達とバスツアーに参加しました。",
+          "jp": "[[日曜日|にちようび]]、[[友達|ともだち]]とバスツアーに[[参加|さんか]]しました。",
           "vi": "Chủ nhật, tôi tham gia tour xe buýt với bạn.",
           "romaji": "nichiyoubi, tomodachi to basu tsuaa ni sanka shimashita."
         },
         {
-          "jp": "朝、駅に着くと、バスはもう来ていました。",
+          "jp": "[[朝|あさ]]、[[駅|えき]]に[[着|つ]]くと、バスはもう[[来|き]]ていました。",
           "vi": "Buổi sáng khi đến ga, xe buýt đã tới rồi.",
           "romaji": "asa, eki ni tsuku to, basu wa mou kiteimashita."
         },
         {
-          "jp": "私たちはバスに乗って、町を回りました。",
+          "jp": "[[私|わたし]]たちはバスに[[乗|の]]って、[[町|まち]]を[[回|まわ]]りました。",
           "vi": "Chúng tôi lên xe buýt và đi quanh thành phố.",
           "romaji": "watashitachi wa basu ni notte, machi o mawarimashita."
         },
         {
-          "jp": "窓から東京タワーがよく見えました。",
+          "jp": "[[窓|まど]]から[[東京|とうきょう]]タワーがよく[[見|み]]えました。",
           "vi": "Từ cửa sổ, chúng tôi nhìn thấy rõ Tháp Tokyo.",
           "romaji": "mado kara toukyou tawaa ga yoku miemashita."
         },
         {
-          "jp": "公園では鳥の声が聞こえました。",
+          "jp": "[[公園|こうえん]]では[[鳥|とり]]の[[声|こえ]]が[[聞|き]]こえました。",
           "vi": "Trong công viên, chúng tôi nghe thấy tiếng chim.",
           "romaji": "kouen de wa tori no koe ga kikoemashita."
         },
         {
-          "jp": "友達はガイドに「ここで写真を撮ってもいいですか」と聞きました。",
+          "jp": "[[友達|ともだち]]はガイドに「ここで[[写真|しゃしん]]を[[撮|と]]ってもいいですか」と[[聞|き]]きました。",
           "vi": "Bạn hỏi hướng dẫn viên: “Chụp ảnh ở đây được không ạ?”.",
           "romaji": "tomodachi wa gaido ni koko de shashin o totte mo ii desu ka to kikimashita."
         },
         {
-          "jp": "ガイドは「はい、いいですよ」と答えました。",
+          "jp": "ガイドは「はい、いいですよ」と[[答|こた]]えました。",
           "vi": "Hướng dẫn viên trả lời: “Được, không sao”.",
           "romaji": "gaido wa hai, ii desu yo to kotaemashita."
         },
         {
-          "jp": "私たちは景色の写真をたくさん撮りました。",
+          "jp": "[[私|わたし]]たちは[[景色|けしき]]の[[写真|しゃしん]]をたくさん[[撮|と]]りました。",
           "vi": "Chúng tôi chụp nhiều ảnh phong cảnh.",
           "romaji": "watashitachi wa keshiki no shashin o takusan torimashita."
         },
         {
-          "jp": "町のお店で家族のお土産を買いました。",
+          "jp": "[[町|まち]]のお[[店|みせ]]で[[家族|かぞく]]のお[[土産|みやげ]]を[[買|か]]いました。",
           "vi": "Chúng tôi mua quà cho gia đình ở cửa hàng trong phố.",
           "romaji": "machi no omise de kazoku no omiyage o kaimashita."
         },
         {
-          "jp": "夜、家に帰って、写真を家族に見せました。",
+          "jp": "[[夜|よる]]、[[家|いえ]]に[[帰|かえ]]って、[[写真|しゃしん]]を[[家族|かぞく]]に[[見|み]]せました。",
           "vi": "Buổi tối về nhà, tôi cho gia đình xem ảnh.",
           "romaji": "yoru, ie ni kaette, shashin o kazoku ni misemashita."
         }
@@ -806,52 +806,52 @@
       "lessonType": "reading",
       "sentences": [
         {
-          "jp": "昨日、学校の図書館へ行きました。",
+          "jp": "[[昨日|きのう]]、[[学校|がっこう]]の[[図書館|としょかん]]へ[[行|い]]きました。",
           "vi": "Hôm qua, tôi đến thư viện của trường.",
           "romaji": "kinou, gakkou no toshokan e ikimashita."
         },
         {
-          "jp": "駅前で友達に会いました。",
+          "jp": "[[駅前|えきまえ]]で[[友達|ともだち]]に[[会|あ]]いました。",
           "vi": "Tôi gặp bạn ở trước nhà ga.",
           "romaji": "ekimae de tomodachi ni aimashita."
         },
         {
-          "jp": "私は道がわからなくて、友達に聞きました。",
+          "jp": "[[私|わたし]]は[[道|みち]]がわからなくて、[[友達|ともだち]]に[[聞|き]]きました。",
           "vi": "Tôi không biết đường nên hỏi bạn.",
           "romaji": "watashi wa michi ga wakaranakute, tomodachi ni kikimashita."
         },
         {
-          "jp": "友達は「信号を渡って、右に曲がってください」と言いました。",
+          "jp": "[[友達|ともだち]]は「[[信号|しんごう]]を[[渡|わた]]って、[[右|みぎ]]に[[曲|ま]]がってください」と[[言|い]]いました。",
           "vi": "Bạn nói: “Hãy băng qua đèn giao thông rồi rẽ phải”.",
           "romaji": "tomodachi wa shingou o watatte, migi ni magatte kudasai to iimashita."
         },
         {
-          "jp": "二つ目の角を左に曲がりました。",
+          "jp": "[[二|ふた]]つ[[目|め]]の[[角|かど]]を[[左|ひだり]]に[[曲|ま]]がりました。",
           "vi": "Tôi rẽ trái ở góc đường thứ hai.",
           "romaji": "futatsume no kado o hidari ni magarimashita."
         },
         {
-          "jp": "その道は大きな橋の下を通ります。",
+          "jp": "その[[道|みち]]は[[大|おお]]きな[[橋|はし]]の[[下|した]]を[[通|とお]]ります。",
           "vi": "Con đường ấy đi qua dưới cây cầu lớn.",
           "romaji": "sono michi wa ookina hashi no shita o toorimasu."
         },
         {
-          "jp": "橋の向こうに図書館が見えました。",
+          "jp": "[[橋|はし]]の[[向|む]]こうに[[図書館|としょかん]]が[[見|み]]えました。",
           "vi": "Phía bên kia cầu, tôi nhìn thấy thư viện.",
           "romaji": "hashi no mukou ni toshokan ga miemashita."
         },
         {
-          "jp": "途中で小さな公園もありました。",
+          "jp": "[[途中|とちゅう]]で[[小|ちい]]さな[[公園|こうえん]]もありました。",
           "vi": "Trên đường đi cũng có một công viên nhỏ.",
           "romaji": "tochuu de chiisana kouen mo arimashita."
         },
         {
-          "jp": "図書館に着いてから、宿題をしました。",
+          "jp": "[[図書館|としょかん]]に[[着|つ]]いてから、[[宿題|しゅくだい]]をしました。",
           "vi": "Đến thư viện rồi, tôi làm bài tập.",
           "romaji": "toshokan ni tsuite kara, shukudai o shimashita."
         },
         {
-          "jp": "帰るとき、友達と一緒に駅まで歩きました。",
+          "jp": "[[帰|かえ]]るとき、[[友達|ともだち]]と[[一緒|いっしょ]]に[[駅|えき]]まで[[歩|ある]]きました。",
           "vi": "Lúc về, tôi đi bộ đến ga cùng bạn.",
           "romaji": "kaeru toki, tomodachi to issho ni eki made arukimashita."
         }
@@ -867,52 +867,52 @@
       "lessonType": "reading",
       "sentences": [
         {
-          "jp": "午後、友達と公園へ行きました。",
+          "jp": "[[午後|ごご]]、[[友達|ともだち]]と[[公園|こうえん]]へ[[行|い]]きました。",
           "vi": "Buổi chiều, tôi đi công viên với bạn.",
           "romaji": "gogo, tomodachi to kouen e ikimashita."
         },
         {
-          "jp": "公園では子どもたちが遊んでいます。",
+          "jp": "[[公園|こうえん]]では[[子|こ]]どもたちが[[遊|あそ]]んでいます。",
           "vi": "Trong công viên, các em nhỏ đang chơi.",
           "romaji": "kouen de wa kodomotachi ga asondeimasu."
         },
         {
-          "jp": "大きな木の上に鳥がいます。",
+          "jp": "[[大|おお]]きな[[木|き]]の[[上|うえ]]に[[鳥|とり]]がいます。",
           "vi": "Trên cây lớn có chim.",
           "romaji": "ookina ki no ue ni tori ga imasu."
         },
         {
-          "jp": "鳥の声がよく聞こえました。",
+          "jp": "[[鳥|とり]]の[[声|こえ]]がよく[[聞|き]]こえました。",
           "vi": "Chúng tôi nghe rõ tiếng chim.",
           "romaji": "tori no koe ga yoku kikoemashita."
         },
         {
-          "jp": "向こうには大きな観覧車が見えます。",
+          "jp": "[[向|む]]こうには[[大|おお]]きな[[観覧車|かんらんしゃ]]が[[見|み]]えます。",
           "vi": "Đằng kia có thể nhìn thấy vòng quay lớn.",
           "romaji": "mukou ni wa ookina kanransha ga miemasu."
         },
         {
-          "jp": "友達は観覧車に乗りたいと言いました。",
+          "jp": "[[友達|ともだち]]は[[観覧車|かんらんしゃ]]に[[乗|の]]りたいと[[言|い]]いました。",
           "vi": "Bạn nói muốn đi vòng quay.",
           "romaji": "tomodachi wa kanransha ni noritai to iimashita."
         },
         {
-          "jp": "でも、空がだんだん暗くなってきました。",
+          "jp": "でも、[[空|そら]]がだんだん[[暗|くら]]くなってきました。",
           "vi": "Nhưng bầu trời dần tối lại.",
           "romaji": "demo, sora ga dandan kuraku natte kimashita."
         },
         {
-          "jp": "私たちはベンチに座って、少し休みました。",
+          "jp": "[[私|わたし]]たちはベンチに[[座|すわ]]って、[[少|すこ]]し[[休|やす]]みました。",
           "vi": "Chúng tôi ngồi xuống ghế băng và nghỉ một lát.",
           "romaji": "watashitachi wa benchi ni suwatte, sukoshi yasumimashita."
         },
         {
-          "jp": "子どもたちは家族と一緒に帰っていきました。",
+          "jp": "[[子|こ]]どもたちは[[家族|かぞく]]と[[一緒|いっしょ]]に[[帰|かえ]]っていきました。",
           "vi": "Các em nhỏ cùng gia đình ra về.",
           "romaji": "kodomotachi wa kazoku to issho ni kaette ikimashita."
         },
         {
-          "jp": "私たちも暗くなる前に公園を出ました。",
+          "jp": "[[私|わたし]]たちも[[暗|くら]]くなる[[前|まえ]]に[[公園|こうえん]]を[[出|で]]ました。",
           "vi": "Chúng tôi cũng rời công viên trước khi trời tối.",
           "romaji": "watashitachi mo kuraku naru mae ni kouen o demashita."
         }
@@ -928,52 +928,52 @@
       "lessonType": "reading",
       "sentences": [
         {
-          "jp": "電車を降りたとき、かばんがありませんでした。",
+          "jp": "[[電車|でんしゃ]]を[[降|お]]りたとき、かばんがありませんでした。",
           "vi": "Khi xuống tàu, tôi không thấy cặp của mình.",
           "romaji": "densha o orita toki, kaban ga arimasen deshita."
         },
         {
-          "jp": "私は駅の受付へ行きました。",
+          "jp": "[[私|わたし]]は[[駅|えき]]の[[受付|うけつけ]]へ[[行|い]]きました。",
           "vi": "Tôi đến quầy lễ tân ở nhà ga.",
           "romaji": "watashi wa eki no uketsuke e ikimashita."
         },
         {
-          "jp": "受付の人は「かばんはどんな色ですか」と聞きました。",
+          "jp": "[[受付|うけつけ]]の[[人|ひと]]は「かばんはどんな[[色|いろ]]ですか」と[[聞|き]]きました。",
           "vi": "Nhân viên hỏi: “Cặp của bạn màu gì?”.",
           "romaji": "uketsuke no hito wa kaban wa donna iro desu ka to kikimashita."
         },
         {
-          "jp": "「黒くて、小さいかばんです」と答えました。",
+          "jp": "「[[黒|くろ]]くて、[[小|ちい]]さいかばんです」と[[答|こた]]えました。",
           "vi": "Tôi trả lời: “Là chiếc cặp nhỏ màu đen”.",
           "romaji": "kurokute, chiisai kaban desu to kotaemashita."
         },
         {
-          "jp": "中には辞書と宿題が入っています。",
+          "jp": "[[中|なか]]には[[辞書|じしょ]]と[[宿題|しゅくだい]]が[[入|はい]]っています。",
           "vi": "Bên trong có từ điển và bài tập.",
           "romaji": "naka ni wa jisho to shukudai ga haitteimasu."
         },
         {
-          "jp": "受付の人は「まだ見つかっていません」と言いました。",
+          "jp": "[[受付|うけつけ]]の[[人|ひと]]は「まだ[[見|み]]つかっていません」と[[言|い]]いました。",
           "vi": "Nhân viên nói: “Vẫn chưa tìm thấy”.",
           "romaji": "uketsuke no hito wa mada mitsukatte imasen to iimashita."
         },
         {
-          "jp": "私は椅子に座って、しばらく待ちました。",
+          "jp": "[[私|わたし]]は[[椅子|いす]]に[[座|すわ]]って、しばらく[[待|ま]]ちました。",
           "vi": "Tôi ngồi xuống ghế và đợi một lúc.",
           "romaji": "watashi wa isu ni suwatte, shibaraku machimashita."
         },
         {
-          "jp": "そのあと、駅員さんがかばんを持ってきました。",
+          "jp": "そのあと、[[駅員|えきいん]]さんがかばんを[[持|も]]ってきました。",
           "vi": "Sau đó, nhân viên nhà ga mang cặp đến.",
           "romaji": "sono ato, ekiin san ga kaban o motte kimashita."
         },
         {
-          "jp": "中を確認すると、辞書も宿題もありました。",
+          "jp": "[[中|なか]]を[[確認|かくにん]]すると、[[辞書|じしょ]]も[[宿題|しゅくだい]]もありました。",
           "vi": "Kiểm tra bên trong thì từ điển và bài tập đều còn đó.",
           "romaji": "naka o kakunin suru to, jisho mo shukudai mo arimashita."
         },
         {
-          "jp": "私はお礼を言って、家へ帰りました。",
+          "jp": "[[私|わたし]]はお[[礼|れい]]を[[言|い]]って、[[家|いえ]]へ[[帰|かえ]]りました。",
           "vi": "Tôi cảm ơn rồi về nhà.",
           "romaji": "watashi wa orei o itte, ie e kaerimashita."
         }
@@ -989,52 +989,52 @@
       "lessonType": "reading",
       "sentences": [
         {
-          "jp": "日曜日、家族で遊園地へ行きました。",
+          "jp": "[[日曜日|にちようび]]、[[家族|かぞく]]で[[遊園地|ゆうえんち]]へ[[行|い]]きました。",
           "vi": "Chủ nhật, gia đình tôi đi công viên giải trí.",
           "romaji": "nichiyoubi, kazoku de yuuenchi e ikimashita."
         },
         {
-          "jp": "入り口で地図をもらって、中に入りました。",
+          "jp": "[[入|い]]り[[口|ぐち]]で[[地図|ちず]]をもらって、[[中|なか]]に[[入|はい]]りました。",
           "vi": "Chúng tôi nhận bản đồ ở cổng rồi đi vào.",
           "romaji": "iri guchi de chizu o moratte, naka ni hairimashita."
         },
         {
-          "jp": "大きな観覧車がよく見えました。",
-          "vi": "Vòng quay lớn trông như chạm gần đến bầu trời.",
-          "romaji": "ookina kanransha ga sora no chikaku made miemashita."
+          "jp": "[[大|おお]]きな[[観覧車|かんらんしゃ]]がよく[[見|み]]えました。",
+          "vi": "Tôi nhìn thấy rõ vòng quay lớn.",
+          "romaji": "ookina kanransha ga yoku miemashita."
         },
         {
-          "jp": "私は父に「観覧車に乗ってもいいですか」と聞きました。",
+          "jp": "[[私|わたし]]は[[父|ちち]]に「[[観覧車|かんらんしゃ]]に[[乗|の]]ってもいいですか」と[[聞|き]]きました。",
           "vi": "Tôi hỏi bố: “Con đi vòng quay được không ạ?”.",
           "romaji": "watashi wa chichi ni kanransha ni notte mo ii desu ka to kikimashita."
         },
         {
-          "jp": "父は「いいよ」と言いました。",
+          "jp": "[[父|ちち]]は「いいよ」と[[言|い]]いました。",
           "vi": "Bố nói: “Được chứ”.",
           "romaji": "chichi wa ii yo to iimashita."
         },
         {
-          "jp": "観覧車から町と川がよく見えました。",
+          "jp": "[[観覧車|かんらんしゃ]]から[[町|まち]]と[[川|かわ]]がよく[[見|み]]えました。",
           "vi": "Từ vòng quay, chúng tôi nhìn rõ thành phố và dòng sông.",
           "romaji": "kanransha kara machi to kawa ga yoku miemashita."
         },
         {
-          "jp": "妹は少し怖くて、私の手を握りました。",
+          "jp": "[[妹|いもうと]]は[[少|すこ]]し[[怖|こわ]]くて、[[私|わたし]]の[[手|て]]を[[握|にぎ]]りました。",
           "vi": "Em gái hơi sợ và nắm tay tôi.",
-          "romaji": "imouto wa sukoshi kowakute, watashi no te o motteimashita."
+          "romaji": "imouto wa sukoshi kowakute, watashi no te o nigirimashita."
         },
         {
-          "jp": "降りてから、みんなでお菓子を食べました。",
+          "jp": "[[降|お]]りてから、みんなでお[[菓子|かし]]を[[食|た]]べました。",
           "vi": "Xuống khỏi vòng quay, mọi người cùng ăn bánh kẹo.",
           "romaji": "orite kara, minna de okashi o tabemashita."
         },
         {
-          "jp": "夕方、空が暗くなってきました。",
+          "jp": "[[夕方|ゆうがた]]、[[空|そら]]が[[暗|くら]]くなってきました。",
           "vi": "Buổi chiều, trời bắt đầu tối.",
           "romaji": "yuugata, sora ga kuraku natte kimashita."
         },
         {
-          "jp": "出口の近くで写真を撮って、家へ帰りました。",
+          "jp": "[[出口|でぐち]]の[[近|ちか]]くで[[写真|しゃしん]]を[[撮|と]]って、[[家|いえ]]へ[[帰|かえ]]りました。",
           "vi": "Chúng tôi chụp ảnh gần cổng ra rồi về nhà.",
           "romaji": "deguchi no chikaku de shashin o totte, ie e kaerimashita."
         }
@@ -1050,52 +1050,52 @@
       "lessonType": "reading",
       "sentences": [
         {
-          "jp": "土曜日、母と美術館へ行きました。",
+          "jp": "[[土曜日|どようび]]、[[母|はは]]と[[美術館|びじゅつかん]]へ[[行|い]]きました。",
           "vi": "Thứ Bảy, tôi đi bảo tàng mỹ thuật với mẹ.",
           "romaji": "doyoubi, haha to bijutsukan e ikimashita."
         },
         {
-          "jp": "入り口で案内をもらって、展示室に入りました。",
+          "jp": "[[入|い]]り[[口|ぐち]]で[[案内|あんない]]をもらって、[[展示室|てんじしつ]]に[[入|はい]]りました。",
           "vi": "Chúng tôi nhận tờ hướng dẫn ở cổng rồi vào phòng triển lãm.",
           "romaji": "iri guchi de annai o moratte, tenjishitsu ni hairimashita."
         },
         {
-          "jp": "部屋には古い町の写真がたくさんありました。",
+          "jp": "[[部屋|へや]]には[[古|ふる]]い[[町|まち]]の[[写真|しゃしん]]がたくさんありました。",
           "vi": "Trong phòng có nhiều ảnh về thành phố xưa.",
           "romaji": "heya ni wa furui machi no shashin ga takusan arimashita."
         },
         {
-          "jp": "母は一枚ずつ写真を見ています。",
+          "jp": "[[母|はは]]は[[一枚|いちまい]]ずつ[[写真|しゃしん]]を[[見|み]]ています。",
           "vi": "Mẹ đang xem từng tấm ảnh.",
           "romaji": "haha wa ichimai zutsu shashin o miteimasu."
         },
         {
-          "jp": "私は係の人に「ここで写真を撮ってもいいですか」と聞きました。",
+          "jp": "[[私|わたし]]は[[係|かかり]]の[[人|ひと]]に「ここで[[写真|しゃしん]]を[[撮|と]]ってもいいですか」と[[聞|き]]きました。",
           "vi": "Tôi hỏi nhân viên: “Chụp ảnh ở đây được không ạ?”.",
           "romaji": "watashi wa kakari no hito ni koko de shashin o totte mo ii desu ka to kikimashita."
         },
         {
-          "jp": "係の人は「写真を撮らないでください」と言いました。",
+          "jp": "[[係|かかり]]の[[人|ひと]]は「[[写真|しゃしん]]を[[撮|と]]らないでください」と[[言|い]]いました。",
           "vi": "Nhân viên nói: “Xin đừng chụp ảnh”.",
           "romaji": "kakari no hito wa shashin o toranaide kudasai to iimashita."
         },
         {
-          "jp": "私たちはカメラをしまって、展示を見ました。",
+          "jp": "[[私|わたし]]たちはカメラをしまって、[[展示|てんじ]]を[[見|み]]ました。",
           "vi": "Chúng tôi cất máy ảnh và tiếp tục xem triển lãm.",
           "romaji": "watashitachi wa kamera o shimatte, tenji o mimashita."
         },
         {
-          "jp": "母は昔の町について私に話しました。",
+          "jp": "[[母|はは]]は[[昔|むかし]]の[[町|まち]]について[[私|わたし]]に[[話|はな]]しました。",
           "vi": "Mẹ kể cho tôi nghe về thành phố ngày xưa.",
           "romaji": "haha wa mukashi no machi ni tsuite watashi ni hanashimashita."
         },
         {
-          "jp": "出口の近くで小さな絵を買いました。",
+          "jp": "[[出口|でぐち]]の[[近|ちか]]くで[[小|ちい]]さな[[絵|え]]を[[買|か]]いました。",
           "vi": "Chúng tôi mua một bức tranh nhỏ gần cổng ra.",
           "romaji": "deguchi no chikaku de chiisana e o kaimashita."
         },
         {
-          "jp": "家に帰って、その絵を部屋に飾りました。",
+          "jp": "[[家|いえ]]に[[帰|かえ]]って、その[[絵|え]]を[[部屋|へや]]に[[飾|かざ]]りました。",
           "vi": "Về đến nhà, tôi treo bức tranh trong phòng.",
           "romaji": "ie ni kaette, sono e o heya ni kazarimashita."
         }
@@ -1111,54 +1111,54 @@
       "lessonType": "reading",
       "sentences": [
         {
-          "jp": "私は毎日、電車で学校へ通っています。",
+          "jp": "[[私|わたし]]は[[毎日|まいにち]]、[[電車|でんしゃ]]で[[学校|がっこう]]へ[[通|かよ]]っています。",
           "vi": "Ngày nào tôi cũng đi tàu đến trường.",
           "romaji": "watashi wa mainichi, densha de gakkou e kayotteimasu."
         },
         {
-          "jp": "朝、駅で友達に会います。",
+          "jp": "[[朝|あさ]]、[[駅|えき]]で[[友達|ともだち]]に[[会|あ]]います。",
           "vi": "Buổi sáng, tôi gặp bạn ở nhà ga.",
           "romaji": "asa, eki de tomodachi ni aimasu."
         },
         {
-          "jp": "授業で日本語を勉強しています。",
+          "jp": "[[授業|じゅぎょう]]で[[日本語|にほんご]]を[[勉強|べんきょう]]しています。",
           "vi": "Tôi đang học tiếng Nhật trong giờ học.",
           "romaji": "jugyou de nihongo o benkyou shiteimasu."
         },
         {
-          "jp": "先生は新しい会話を教えています。",
+          "jp": "[[先生|せんせい]]は[[新|あたら]]しい[[会話|かいわ]]を[[教|おし]]えています。",
           "vi": "Thầy cô đang dạy một đoạn hội thoại mới.",
           "romaji": "sensei wa atarashii kaiwa o oshieteimasu."
         },
         {
-          "jp": "昼休み、食堂で昼ご飯を食べます。",
+          "jp": "[[昼休|ひるやす]]み、[[食堂|しょくどう]]で[[昼|ひる]]ご[[飯|はん]]を[[食|た]]べます。",
           "vi": "Giờ nghỉ trưa, tôi ăn ở nhà ăn.",
           "romaji": "hiruyasumi, shokudou de hirugohan o tabemasu."
         },
         {
-          "jp": "午後は図書館で宿題をします。",
+          "jp": "[[午後|ごご]]は[[図書館|としょかん]]で[[宿題|しゅくだい]]をします。",
           "vi": "Buổi chiều, tôi làm bài tập ở thư viện.",
           "romaji": "gogo wa toshokan de shukudai o shimasu."
         },
         {
-          "jp": "宿題が終わったとき、友達と少し話します。",
+          "jp": "[[宿題|しゅくだい]]が[[終|お]]わったとき、[[友達|ともだち]]と[[少|すこ]]し[[話|はな]]します。",
           "vi": "Khi làm xong bài tập, tôi trò chuyện một lát với bạn.",
           "romaji": "shukudai ga owatta toki, tomodachi to sukoshi hanashimasu."
         },
         {
-          "jp": "夕方、駅の近くの店でアルバイトをします。",
+          "jp": "[[夕方|ゆうがた]]、[[駅|えき]]の[[近|ちか]]くの[[店|みせ]]でアルバイトをします。",
           "vi": "Buổi tối, tôi làm thêm ở cửa hàng gần nhà ga.",
           "romaji": "yuugata, eki no chikaku no mise de arubaito o shimasu."
         },
         {
-          "jp": "仕事が終わってから、電車で家へ帰ります。",
+          "jp": "[[仕事|しごと]]が[[終|お]]わってから、[[電車|でんしゃ]]で[[家|いえ]]へ[[帰|かえ]]ります。",
           "vi": "Sau khi tan làm, tôi đi tàu về nhà.",
           "romaji": "shigoto ga owatte kara, densha de ie e kaerimasu."
         },
         {
-          "jp": "忙しいですが、毎日楽しいです。",
-          "vi": "Tuy bận nhưng ngày nào tôi cũng thấy vui và ý nghĩa.",
-          "romaji": "isogashii desu ga, mainichi juujitsu shiteimasu."
+          "jp": "[[忙|いそが]]しいですが、[[毎日楽|まいにちたの]]しいです。",
+          "vi": "Tuy bận nhưng ngày nào tôi cũng thấy vui.",
+          "romaji": "isogashii desu ga, mainichi tanoshii desu."
         }
       ]
     },
@@ -1172,52 +1172,52 @@
       "lessonType": "reading",
       "sentences": [
         {
-          "jp": "今年、大学の近くに引っ越しました。",
+          "jp": "[[今年|ことし]]、[[大学|だいがく]]の[[近|ちか]]くに[[引|ひ]]っ[[越|こし]]しました。",
           "vi": "Năm nay, tôi chuyển đến gần trường đại học.",
           "romaji": "kotoshi, daigaku no chikaku ni hikkoshi shimashita."
         },
         {
-          "jp": "初めて一人暮らしをしています。",
+          "jp": "[[初|はじ]]めて[[一人暮|ひとりぐ]]らしをしています。",
           "vi": "Lần đầu tiên tôi sống một mình.",
           "romaji": "hajimete hitorigurashi o shiteimasu."
         },
         {
-          "jp": "家族は遠くの町に住んでいます。",
+          "jp": "[[家族|かぞく]]は[[遠|とお]]くの[[町|まち]]に[[住|す]]んでいます。",
           "vi": "Gia đình tôi sống ở một thành phố xa.",
           "romaji": "kazoku wa tooku no machi ni sundeimasu."
         },
         {
-          "jp": "母は私に料理の本をくれました。",
+          "jp": "[[母|はは]]は[[私|わたし]]に[[料理|りょうり]]の[[本|ほん]]をくれました。",
           "vi": "Mẹ tặng tôi một quyển sách nấu ăn.",
           "romaji": "haha wa watashi ni ryouri no hon o kuremashita."
         },
         {
-          "jp": "その本を見て、晩ご飯を作っています。",
+          "jp": "その[[本|ほん]]を[[見|み]]て、[[晩|ばん]]ご[[飯|はん]]を[[作|つく]]っています。",
           "vi": "Tôi xem sách ấy và đang nấu bữa tối.",
           "romaji": "sono hon o mite, bangohan o tsukutteimasu."
         },
         {
-          "jp": "料理はまだ上手ではありません。",
+          "jp": "[[料理|りょうり]]はまだ[[上手|じょうず]]ではありません。",
           "vi": "Tôi vẫn chưa nấu ăn giỏi.",
           "romaji": "ryouri wa mada jouzu de wa arimasen."
         },
         {
-          "jp": "作り方を忘れたとき、母に電話します。",
+          "jp": "[[作|つく]]り[[方|かた]]を[[忘|わす]]れたとき、[[母|はは]]に[[電話|でんわ]]します。",
           "vi": "Khi quên cách nấu, tôi gọi điện cho mẹ.",
           "romaji": "tsukurikata o wasureta toki, haha ni denwa shimasu."
         },
         {
-          "jp": "母は電話でゆっくり説明してくれます。",
+          "jp": "[[母|はは]]は[[電話|でんわ]]でゆっくり[[説明|せつめい]]してくれます。",
           "vi": "Mẹ từ từ giải thích cho tôi qua điện thoại.",
           "romaji": "haha wa denwa de yukkuri setsumei shite kuremasu."
         },
         {
-          "jp": "週末、両親が新しい家に来ました。",
+          "jp": "[[週末|しゅうまつ]]、[[両親|りょうしん]]が[[新|あたら]]しい[[家|いえ]]に[[来|き]]ました。",
           "vi": "Cuối tuần, bố mẹ đến nhà mới của tôi.",
           "romaji": "shuumatsu, ryoushin ga atarashii ie ni kimashita."
         },
         {
-          "jp": "一緒に食事をして、新しい生活にも少し慣れました。",
+          "jp": "[[一緒|いっしょ]]に[[食事|しょくじ]]をして、[[新|あたら]]しい[[生活|せいかつ]]にも[[少|すこ]]し[[慣|な]]れました。",
           "vi": "Chúng tôi ăn cùng nhau và tôi cũng dần quen cuộc sống mới.",
           "romaji": "issho ni shokuji o shite, atarashii seikatsu ni mo sukoshi naremashita."
         }
@@ -1233,54 +1233,54 @@
       "lessonType": "reading",
       "sentences": [
         {
-          "jp": "平日は学校とアルバイトで忙しいです。",
+          "jp": "[[平日|へいじつ]]は[[学校|がっこう]]とアルバイトで[[忙|いそが]]しいです。",
           "vi": "Ngày thường, tôi bận học và làm thêm.",
           "romaji": "heijitsu wa gakkou to arubaito de isogashii desu."
         },
         {
-          "jp": "アルバイトは毎日六時に終わります。",
+          "jp": "アルバイトは[[毎日六時|まいにちろくじ]]に[[終|お]]わります。",
           "vi": "Ngày nào công việc cũng kết thúc lúc sáu giờ.",
-          "romaji": "shigoto wa mainichi rokuji ni owarimasu."
+          "romaji": "arubaito wa mainichi rokuji ni owarimasu."
         },
         {
-          "jp": "家に帰ったとき、少し疲れています。",
+          "jp": "[[家|いえ]]に[[帰|かえ]]ったとき、[[少|すこ]]し[[疲|つか]]れています。",
           "vi": "Khi về đến nhà, tôi hơi mệt.",
           "romaji": "ie ni kaetta toki, sukoshi tsukareteimasu."
         },
         {
-          "jp": "疲れたとき、音楽を聞いて休みます。",
+          "jp": "[[疲|つか]]れたとき、[[音楽|おんがく]]を[[聞|き]]いて[[休|やす]]みます。",
           "vi": "Khi mệt, tôi nghe nhạc và nghỉ ngơi.",
           "romaji": "tsukareta toki, ongaku o kiite yasumimasu."
         },
         {
-          "jp": "そのあとで、晩ご飯を食べます。",
+          "jp": "そのあとで、[[晩|ばん]]ご[[飯|はん]]を[[食|た]]べます。",
           "vi": "Sau đó, tôi ăn tối.",
           "romaji": "sono ato de, bangohan o tabemasu."
         },
         {
-          "jp": "晩ご飯のあと、日本語の宿題をします。",
+          "jp": "[[晩|ばん]]ご[[飯|はん]]のあと、[[日本語|にほんご]]の[[宿題|しゅくだい]]をします。",
           "vi": "Sau bữa tối, tôi làm bài tập tiếng Nhật.",
           "romaji": "bangohan no ato, nihongo no shukudai o shimasu."
         },
         {
-          "jp": "眠いときは、少し休んでから勉強します。",
+          "jp": "[[眠|ねむ]]いときは、[[少|すこ]]し[[休|やす]]んでから[[勉強|べんきょう]]します。",
           "vi": "Khi buồn ngủ, tôi nghỉ một chút rồi mới học.",
           "romaji": "nemui toki wa, sukoshi yasunde kara benkyou shimasu."
         },
         {
-          "jp": "寝る前に、その日のことを日記に書きます。",
+          "jp": "[[寝|ね]]る[[前|まえ]]に、その[[日|ひ]]のことを[[日記|にっき]]に[[書|か]]きます。",
           "vi": "Trước khi ngủ, tôi viết chuyện trong ngày vào nhật ký.",
           "romaji": "neru mae ni, sono hi no koto o nikki ni kakimasu."
         },
         {
-          "jp": "昨日は友達と話したことを書きました。",
+          "jp": "[[昨日|きのう]]は[[友達|ともだち]]と[[話|はな]]したことを[[書|か]]きました。",
           "vi": "Hôm qua, tôi viết về chuyện đã trò chuyện với bạn.",
           "romaji": "kinou wa tomodachi to hanashita koto o kakimashita."
         },
         {
-          "jp": "日記を読むと、一日を思い出します。",
+          "jp": "[[日記|にっき]]を[[読|よ]]むと、[[一日|いちにち]]を[[思|おも]]い[[出|だ]]します。",
           "vi": "Khi đọc nhật ký, tôi nhớ lại một ngày của mình.",
-          "romaji": "nikki o yomu to, ichinichi o omoidasu."
+          "romaji": "nikki o yomu to, ichinichi o omoidashimasu."
         }
       ]
     },
@@ -1294,52 +1294,52 @@
       "lessonType": "reading",
       "sentences": [
         {
-          "jp": "私は平日に店でアルバイトをしています。",
+          "jp": "[[私|わたし]]は[[平日|へいじつ]]に[[店|みせ]]でアルバイトをしています。",
           "vi": "Ngày thường, tôi làm thêm ở cửa hàng.",
           "romaji": "watashi wa heijitsu ni mise de arubaito o shiteimasu."
         },
         {
-          "jp": "店長は厳しいですが、とても親切です。",
+          "jp": "[[店長|てんちょう]]は[[厳|きび]]しいですが、とても[[親切|しんせつ]]です。",
           "vi": "Quản lý nghiêm khắc nhưng rất tốt bụng.",
           "romaji": "tenchou wa kibishii desu ga, totemo shinsetsu desu."
         },
         {
-          "jp": "昼ごろ、お客さんが店にたくさん来ます。",
+          "jp": "[[昼|ひる]]ごろ、お[[客|きゃく]]さんが[[店|みせ]]にたくさん[[来|き]]ます。",
           "vi": "Khoảng trưa, nhiều khách đến cửa hàng.",
           "romaji": "hirugoro, okyakusan ga mise ni takusan kimasu."
         },
         {
-          "jp": "私はお客さんに服を見せます。",
+          "jp": "[[私|わたし]]はお[[客|きゃく]]さんに[[服|しょうひん]]を[[見|み]]せます。",
           "vi": "Tôi giới thiệu hàng cho khách xem.",
           "romaji": "watashi wa okyakusan ni shouhin o misemasu."
         },
         {
-          "jp": "忙しいとき、店長も一緒に働いています。",
+          "jp": "[[忙|いそが]]しいとき、[[店長|てんちょう]]も[[一緒|いっしょ]]に[[働|はたら]]いています。",
           "vi": "Khi đông khách, quản lý cũng làm cùng mọi người.",
           "romaji": "isogashii toki, tenchou mo issho ni hataraiteimasu."
         },
         {
-          "jp": "昼休みは短いですが、店の人と話します。",
-          "vi": "Giờ nghỉ trưa tuy ngắn nhưng tôi trò chuyện với đồng nghiệp.",
-          "romaji": "hiruyasumi wa mijikai desu ga, douryou to hanashimasu."
+          "jp": "[[昼休|ひるやす]]みは[[短|みじか]]いですが、[[店|みせ]]の[[人|ひと]]と[[話|はな]]します。",
+          "vi": "Giờ nghỉ trưa tuy ngắn nhưng tôi trò chuyện với mọi người ở cửa hàng.",
+          "romaji": "hiruyasumi wa mijikai desu ga, mise no hito to hanashimasu."
         },
         {
-          "jp": "仕事が終わったとき、店長が来週の予定を話しました。",
+          "jp": "[[仕事|しごと]]が[[終|お]]わったとき、[[店長|てんちょう]]が[[来週|らいしゅう]]の[[予定|よてい]]を[[話|はな]]しました。",
           "vi": "Khi tan làm, quản lý nói về lịch tuần sau.",
           "romaji": "shigoto ga owatta toki, tenchou ga raishuu no yotei o hanashimashita."
         },
         {
-          "jp": "私は予定をノートに書いて、店を出ました。",
+          "jp": "[[私|わたし]]は[[予定|よてい]]をノートに[[書|か]]いて、[[店|みせ]]を[[出|で]]ました。",
           "vi": "Tôi ghi lịch vào sổ rồi rời cửa hàng.",
           "romaji": "watashi wa yotei o nooto ni kaite, mise o demashita."
         },
         {
-          "jp": "店を出ると、外はもう暗くなっていました。",
-          "vi": "Đi bộ đến ga giúp tôi đỡ mệt một chút.",
-          "romaji": "eki made aruku to, sukoshi tsukare ga toremashita."
+          "jp": "[[店|みせ]]を[[出|で]]ると、[[外|そと]]はもう[[暗|くら]]くなっていました。",
+          "vi": "Khi rời cửa hàng, bên ngoài đã tối rồi.",
+          "romaji": "mise o deru to, soto wa mou kuraku natte imashita."
         },
         {
-          "jp": "家に帰って、日記に今日の仕事を書きました。",
+          "jp": "[[家|いえ]]に[[帰|かえ]]って、[[日記|にっき]]に[[今日|きょう]]の[[仕事|しごと]]を[[書|か]]きました。",
           "vi": "Về nhà, tôi ghi công việc hôm nay vào nhật ký.",
           "romaji": "ie ni kaette, nikki ni kyou no shigoto o kakimashita."
         }
@@ -1355,52 +1355,52 @@
       "lessonType": "reading",
       "sentences": [
         {
-          "jp": "昨日、友達から電話がありました。",
+          "jp": "[[昨日|きのう]]、[[友達|ともだち]]から[[電話|でんわ]]がありました。",
           "vi": "Hôm qua, bạn gọi điện cho tôi.",
           "romaji": "kinou, tomodachi kara denwa ga arimashita."
         },
         {
-          "jp": "友達は「土曜日、ひま？」と聞きました。",
+          "jp": "[[友達|ともだち]]は「[[土曜日|どようび]]、ひま？」と[[聞|き]]きました。",
           "vi": "Bạn hỏi: “Thứ Bảy cậu rảnh không?”.",
           "romaji": "tomodachi wa doyoubi, hima? to kikimashita."
         },
         {
-          "jp": "私は「ひまだよ」と答えました。",
+          "jp": "[[私|わたし]]は「ひまだよ」と[[答|こた]]えました。",
           "vi": "Tôi trả lời: “Tớ rảnh”.",
           "romaji": "watashi wa hima da yo to kotaemashita."
         },
         {
-          "jp": "友達は「一緒に映画を見ない？」と言いました。",
+          "jp": "[[友達|ともだち]]は「[[一緒|いっしょ]]に[[映画|えいが]]を[[見|み]]ない？」と[[言|い]]いました。",
           "vi": "Bạn rủ: “Đi xem phim cùng nhau không?”.",
           "romaji": "tomodachi wa issho ni eiga o minai? to iimashita."
         },
         {
-          "jp": "私は「いいね。映画のあと、ご飯を食べよう」と言いました。",
+          "jp": "[[私|わたし]]は「いいね。[[映画|えいが]]のあと、ご[[飯|はん]]を[[食|た]]べよう」と[[言|い]]いました。",
           "vi": "Tôi nói: “Được đấy. Xem phim xong đi ăn nhé”.",
-          "romaji": "watashi wa ii ne, eiga no ato gohan o tabeyou to iimashita."
+          "romaji": "watashi wa ii ne. eiga no ato, gohan o tabeyou to iimashita."
         },
         {
-          "jp": "友達は「駅で会ってもいい？」と聞きました。",
+          "jp": "[[友達|ともだち]]は「[[駅|えき]]で[[会|あ]]ってもいい？」と[[聞|き]]きました。",
           "vi": "Bạn hỏi: “Gặp nhau ở nhà ga được không?”.",
           "romaji": "tomodachi wa eki de atte mo ii? to kikimashita."
         },
         {
-          "jp": "私は「うん、駅で会おう」と答えました。",
+          "jp": "[[私|わたし]]は「うん、[[駅|えき]]で[[会|あ]]おう」と[[答|こた]]えました。",
           "vi": "Tôi đáp: “Ừ, gặp ở ga nhé”.",
           "romaji": "watashi wa un, eki de aou to kotaemashita."
         },
         {
-          "jp": "土曜日、駅で会ってから映画館へ行きました。",
+          "jp": "[[土曜日|どようび]]、[[駅|えき]]で[[会|あ]]ってから[[映画館|えいがかん]]へ[[行|い]]きました。",
           "vi": "Thứ Bảy, chúng tôi gặp nhau ở ga rồi đến rạp phim.",
           "romaji": "doyoubi, eki de atte kara eigakan e ikimashita."
         },
         {
-          "jp": "映画は少し長かったけど、おもしろかったです。",
+          "jp": "[[映画|えいが]]は[[少|すこ]]し[[長|なが]]かったけど、おもしろかったです。",
           "vi": "Phim hơi dài nhưng thú vị.",
           "romaji": "eiga wa sukoshi nagakatta kedo, omoshirokatta desu."
         },
         {
-          "jp": "食堂で晩ご飯を食べて、次の約束もしました。",
+          "jp": "[[食堂|しょくどう]]で[[晩|ばん]]ご[[飯|はん]]を[[食|た]]べて、[[次|つぎ]]の[[約束|やくそく]]もしました。",
           "vi": "Chúng tôi ăn tối ở nhà ăn và hẹn lần sau.",
           "romaji": "shokudou de bangohan o tabete, tsugi no yakusoku mo shimashita."
         }
@@ -1416,54 +1416,54 @@
       "lessonType": "reading",
       "sentences": [
         {
-          "jp": "小学生のとき、私は田舎に住んでいました。",
+          "jp": "[[小学生|しょうがくせい]]のとき、[[私|わたし]]は[[田舎|いなか]]に[[住|す]]んでいました。",
           "vi": "Khi còn học tiểu học, tôi sống ở quê.",
           "romaji": "shougakusei no toki, watashi wa inaka ni sundeimashita."
         },
         {
-          "jp": "毎朝、祖父と学校へ歩いて行きました。",
+          "jp": "[[毎朝|まいあさ]]、[[祖父|そふ]]と[[学校|がっこう]]へ[[歩|ある]]いて[[行|い]]きました。",
           "vi": "Mỗi sáng, tôi đi bộ đến trường cùng ông.",
           "romaji": "maiasa, sofu to gakkou e aruite ikimashita."
         },
         {
-          "jp": "学校から帰ったとき、友達と公園で遊びました。",
+          "jp": "[[学校|がっこう]]から[[帰|かえ]]ったとき、[[友達|ともだち]]と[[公園|こうえん]]で[[遊|あそ]]びました。",
           "vi": "Khi tan học về, tôi chơi với bạn ở công viên.",
           "romaji": "gakkou kara kaetta toki, tomodachi to kouen de asobimashita."
         },
         {
-          "jp": "公園には大きな木があって、鳥がたくさんいました。",
+          "jp": "[[公園|こうえん]]には[[大|おお]]きな[[木|き]]があって、[[鳥|とり]]がたくさんいました。",
           "vi": "Trong công viên có cây lớn và nhiều chim.",
           "romaji": "kouen ni wa ookina ki ga atte, tori ga takusan imashita."
         },
         {
-          "jp": "祖父はよく私にお菓子をくれました。",
+          "jp": "[[祖父|そふ]]はよく[[私|わたし]]にお[[菓子|かし]]をくれました。",
           "vi": "Ông thường cho tôi bánh kẹo.",
           "romaji": "sofu wa yoku watashi ni okashi o kuremashita."
         },
         {
-          "jp": "私は祖父に学校の話をしました。",
+          "jp": "[[私|わたし]]は[[祖父|そふ]]に[[学校|がっこう]]の[[話|はなし]]をしました。",
           "vi": "Tôi kể cho ông nghe chuyện ở trường.",
           "romaji": "watashi wa sofu ni gakkou no hanashi o shimashita."
         },
         {
-          "jp": "休みの日は、友達と川へ行ったり、本を読んだりしました。",
+          "jp": "[[休|やす]]みの[[日|ひ]]は、[[友達|ともだち]]と[[川|かわ]]へ[[行|い]]ったり、[[本|ほん]]を[[読|よ]]んだりしました。",
           "vi": "Ngày nghỉ, tôi đi sông hoặc đọc sách cùng bạn.",
           "romaji": "yasumi no hi wa, tomodachi to kawa e ittari, hon o yondari shimashita."
         },
         {
-          "jp": "夕方になると、祖父が迎えに来ました。",
+          "jp": "[[夕方|ゆうがた]]になると、[[祖父|そふ]]が[[迎|むか]]えに[[来|き]]ました。",
           "vi": "Đến chiều, ông đến đón tôi.",
           "romaji": "yuugata ni naru to, sofu ga mukae ni kimashita."
         },
         {
-          "jp": "私は「まだ遊びたいけど、帰るね」と言いました。",
+          "jp": "[[私|わたし]]は「まだ[[遊|あそ]]びたいけど、[[帰|かえ]]るね」と[[言|い]]いました。",
           "vi": "Tôi nói: “Cháu vẫn muốn chơi nhưng cháu về đây ạ”.",
           "romaji": "watashi wa mada asobitai kedo, kaeru ne to iimashita."
         },
         {
-          "jp": "今もそのころのことをよく思い出します。",
+          "jp": "[[今|いま]]もそのころのことをよく[[思|おも]]い[[出|だ]]します。",
           "vi": "Bây giờ tôi vẫn thường nhớ về khoảng thời gian ấy.",
-          "romaji": "ima mo sono koro no koto o yoku omoidasu."
+          "romaji": "ima mo sono koro no koto o yoku omoidashimasu."
         }
       ]
     },
@@ -1477,52 +1477,52 @@
       "lessonType": "reading",
       "sentences": [
         {
-          "jp": "明日は友達と町へ行きます。",
+          "jp": "[[明日|あした]]は[[友達|ともだち]]と[[町|まち]]へ[[行|い]]きます。",
           "vi": "Ngày mai, tôi sẽ đi vào trung tâm cùng bạn.",
           "romaji": "ashita wa tomodachi to machi e ikimasu."
         },
         {
-          "jp": "友達に「どこへ行く？」と聞きました。",
+          "jp": "[[友達|ともだち]]に「どこへ[[行|い]]く？」と[[聞|き]]きました。",
           "vi": "Tôi hỏi bạn: “Cậu định đi đâu?”.",
           "romaji": "tomodachi ni doko e iku? to kikimashita."
         },
         {
-          "jp": "友達は「図書館へ行って、本を借りる」と言いました。",
+          "jp": "[[友達|ともだち]]は「[[図書館|としょかん]]へ[[行|い]]って、[[本|ほん]]を[[借|か]]りる」と[[言|い]]いました。",
           "vi": "Bạn nói: “Đến thư viện mượn sách”.",
           "romaji": "tomodachi wa toshokan e itte, hon o kariru to iimashita."
         },
         {
-          "jp": "「それから食堂で昼ご飯を食べよう」と友達が言いました。",
+          "jp": "「それから[[食堂|しょくどう]]で[[昼|ひる]]ご[[飯|はん]]を[[食|た]]べよう」と[[友達|ともだち]]が[[言|い]]いました。",
           "vi": "Bạn nói: “Sau đó ăn trưa ở nhà ăn nhé”.",
           "romaji": "sorekara shokudou de hirugohan o tabeyou to tomodachi ga iimashita."
         },
         {
-          "jp": "私は「いいね。何時に駅で会う？」と聞きました。",
+          "jp": "[[私|わたし]]は「いいね。[[何時|なんじ]]に[[駅|えき]]で[[会|あ]]う？」と[[聞|き]]きました。",
           "vi": "Tôi hỏi: “Được đấy. Mấy giờ gặp ở ga?”.",
-          "romaji": "watashi wa ii ne, nanji ni eki de au? to kikimashita."
+          "romaji": "watashi wa ii ne. nanji ni eki de au? to kikimashita."
         },
         {
-          "jp": "友達は「十時に会おう」と答えました。",
+          "jp": "[[友達|ともだち]]は「[[十時|じゅうじ]]に[[会|あ]]おう」と[[答|こた]]えました。",
           "vi": "Bạn trả lời: “Mười giờ gặp nhé”.",
           "romaji": "tomodachi wa juuji ni aou to kotaemashita."
         },
         {
-          "jp": "「帰る前に本屋へ行ってもいい？」と私は聞きました。",
+          "jp": "「[[帰|かえ]]る[[前|まえ]]に[[本屋|ほんや]]へ[[行|い]]ってもいい？」と[[私|わたし]]は[[聞|き]]きました。",
           "vi": "Tôi hỏi: “Trước khi về, ghé hiệu sách được không?”.",
           "romaji": "kaeru mae ni honya e itte mo ii? to watashi wa kikimashita."
         },
         {
-          "jp": "友達は「うん、いいよ」と言いました。",
+          "jp": "[[友達|ともだち]]は「うん、いいよ」と[[言|い]]いました。",
           "vi": "Bạn nói: “Ừ, được chứ”.",
           "romaji": "tomodachi wa un, ii yo to iimashita."
         },
         {
-          "jp": "夜、私は宿題をして、かばんに辞書を入れました。",
+          "jp": "[[夜|よる]]、[[私|わたし]]は[[宿題|しゅくだい]]をして、かばんに[[辞書|じしょ]]を[[入|い]]れました。",
           "vi": "Buổi tối, tôi làm bài tập rồi bỏ từ điển vào cặp.",
           "romaji": "yoru, watashi wa shukudai o shite, kaban ni jisho o iremashita."
         },
         {
-          "jp": "約束を決めたので、明日が楽しみです。",
+          "jp": "[[約束|やくそく]]を[[決|き]]めたので、[[明日|あした]]が[[楽|たの]]しみです。",
           "vi": "Đã hẹn xong nên tôi mong đến ngày mai.",
           "romaji": "yakusoku o kimeta node, ashita ga tanoshimi desu."
         }
