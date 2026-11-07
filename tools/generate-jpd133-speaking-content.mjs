@@ -88,33 +88,6 @@ for (let index = 0; index < lessonBlocks.length; index += 1) {
   });
 }
 
-const readingLessons = [
-  { id: 8, topic: 'Gia đình và bạn bè', title: '家族と友達', subtitle: 'Nói về gia đình, nơi sống và quà tặng.', summary: 'Bài đọc tạm thời dùng mẫu Vています, số người và cho nhận.', sentences: [
-    ['私は家族と三人で住んでいます。', 'Tôi sống cùng gia đình, tổng cộng ba người.', 'watashi wa kazoku to sannin de sundeimasu.'],
-    ['兄は東京に住んでいます。', 'Anh trai tôi sống ở Tokyo.', 'ani wa toukyou ni sundeimasu.'],
-    ['私は友達に本をあげました。', 'Tôi đã tặng bạn một quyển sách.', 'watashi wa tomodachi ni hon o agemashita.'],
-  ] },
-  { id: 9, topic: 'Sở thích', title: '好きなこと', subtitle: 'Nói về sở thích, tần suất và khả năng.', summary: 'Bài đọc tạm thời dùng ことです, tần suất và できます.', sentences: [
-    ['私の趣味は音楽を聞くことです。', 'Sở thích của tôi là nghe nhạc.', 'watashi no shumi wa ongaku o kiku koto desu.'],
-    ['私は一週間に二回、映画を見ます。', 'Một tuần tôi xem phim hai lần.', 'watashi wa isshuukan ni nikai, eiga o mimasu.'],
-    ['私は日本語を話すことができます。', 'Tôi có thể nói tiếng Nhật.', 'watashi wa nihongo o hanasu koto ga dekimasu.'],
-  ] },
-  { id: 10, topic: 'Xe buýt và địa điểm', title: 'バスツアー', subtitle: 'Hỏi đường, xin phép và mô tả tình huống.', summary: 'Bài đọc tạm thời dùng もう, まだ, てもいい và 見えます.', sentences: [
-    ['もう昼ご飯を食べましたか。', 'Bạn đã ăn trưa chưa?', 'mou hirugohan o tabemashita ka.'],
-    ['ここから東京タワーが見えます。', 'Từ đây có thể nhìn thấy Tháp Tokyo.', 'koko kara toukyou tawaa ga miemasu.'],
-    ['ここに荷物を置いてもいいですか。', 'Tôi để hành lý ở đây được không?', 'koko ni nimotsu o oite mo ii desu ka.'],
-  ] },
-  { id: 11, topic: 'Cuộc sống', title: '私の生活', subtitle: 'Nói về thói quen và cuộc sống hiện tại.', summary: 'Bài đọc tạm thời dùng Vています, とき và hội thoại thân mật.', sentences: [
-    ['毎朝、牛乳を飲んでいます。', 'Mỗi sáng tôi thường uống sữa.', 'mai asa, gyuunyuu o nondeimasu.'],
-    ['休みの日、家で本を読んだり音楽を聞いたりします。', 'Ngày nghỉ tôi đọc sách và nghe nhạc ở nhà.', 'yasumi no hi, ie de hon o yondari ongaku o kiitari shimasu.'],
-    ['疲れたとき、少し休みます。', 'Khi mệt, tôi nghỉ một chút.', 'tsukareta toki, sukoshi yasumimasu.'],
-  ] },
-].map((lesson) => ({
-  ...lesson,
-  lessonType: 'reading',
-  sentences: lesson.sentences.map(([jp, vi, romaji]) => ({ jp, vi, romaji })),
-}));
-
 const writeQa = async (lessons, suffix) => {
   for (const lesson of lessons) {
     const sourceDir = path.join(root, 'server/JPLearn.Infrastructure/Data/Imports/speaking/qa/jpd133');
@@ -123,6 +96,4 @@ const writeQa = async (lessons, suffix) => {
   }
 };
 await writeQa(noImageLessons, 'no_image');
-await mkdir(path.join(root, 'server/JPLearn.Infrastructure/Data/Imports/speaking'), { recursive: true });
-await writeFile(path.join(root, 'server/JPLearn.Infrastructure/Data/Imports/speaking/jpd133.lessons.json'), `${JSON.stringify({ courseCode: 'jpd133', accessTier: 'premium', packageCode: 'speaking_jpd133', lessons: readingLessons }, null, 2)}\n`, 'utf8');
-console.log(`Generated ${noImageLessons.length} no-image QA lessons and ${readingLessons.length} reading lessons.`);
+console.log(`Generated ${noImageLessons.length} no-image QA lessons.`);

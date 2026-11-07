@@ -681,6 +681,10 @@ async function generateExam() {
 }
 
 await mkdir(outRoot, { recursive: true });
+if (process.argv.includes('--speaking-only')) {
+  await generateSpeaking();
+  process.exit(0);
+}
 await generateVocabulary();
 await generateSpeaking();
 await generateSpeakingQa();

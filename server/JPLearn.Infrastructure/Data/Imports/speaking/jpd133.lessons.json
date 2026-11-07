@@ -13,46 +13,6 @@
       "lessonType": "reading",
       "sentences": [
         {
-          "jp": "私",
-          "vi": "は",
-          "romaji": "家"
-        },
-        {
-          "jp": "私",
-          "vi": "の",
-          "romaji": "趣"
-        },
-        {
-          "jp": "駅",
-          "vi": "は",
-          "romaji": "ど"
-        },
-        {
-          "jp": "私",
-          "vi": "は",
-          "romaji": "毎"
-        },
-        {
-          "jp": "T",
-          "vi": "ô",
-          "romaji": "i"
-        },
-        {
-          "jp": "S",
-          "vi": "ở",
-          "romaji": " "
-        },
-        {
-          "jp": "N",
-          "vi": "h",
-          "romaji": "à"
-        },
-        {
-          "jp": "M",
-          "vi": "ỗ",
-          "romaji": "i"
-        },
-        {
           "jp": "私は家族と四人で住んでいます。",
           "vi": "Tôi sống cùng gia đình, tổng cộng bốn người.",
           "romaji": "watashi wa kazoku to yonin de sundeimasu."
@@ -61,6 +21,46 @@
           "jp": "私の趣味は音楽を聞くことです。",
           "vi": "Sở thích của tôi là nghe nhạc.",
           "romaji": "watashi no shumi wa ongaku o kiku koto desu."
+        },
+        {
+          "jp": "駅はどこですか。",
+          "vi": "Nhà ga ở đâu?",
+          "romaji": "eki wa doko desu ka."
+        },
+        {
+          "jp": "私は毎日、忙しく生活しています。",
+          "vi": "Mỗi ngày tôi sống bận rộn.",
+          "romaji": "watashi wa mainichi, isogashiku seikatsu shiteimasu."
+        },
+        {
+          "jp": "家の近くに公園があります。",
+          "vi": "Gần nhà có công viên.",
+          "romaji": "ie no chikaku ni kouen ga arimasu."
+        },
+        {
+          "jp": "私はよく音楽を聞きます。",
+          "vi": "Tôi thường nghe nhạc.",
+          "romaji": "watashi wa yoku ongaku o kikimasu."
+        },
+        {
+          "jp": "駅までバスで行きます。",
+          "vi": "Tôi đi xe buýt đến ga.",
+          "romaji": "eki made basu de ikimasu."
+        },
+        {
+          "jp": "毎朝、七時に起きます。",
+          "vi": "Mỗi sáng tôi thức dậy lúc bảy giờ.",
+          "romaji": "mai asa, shichiji ni okimasu."
+        },
+        {
+          "jp": "家族はみんな元気です。",
+          "vi": "Mọi người trong gia đình đều khỏe.",
+          "romaji": "kazoku wa minna genki desu."
+        },
+        {
+          "jp": "ときどき友達と映画を見ます。",
+          "vi": "Thỉnh thoảng tôi xem phim với bạn.",
+          "romaji": "tokidoki tomodachi to eiga o mimasu."
         }
       ]
     },
@@ -74,46 +74,6 @@
       "lessonType": "reading",
       "sentences": [
         {
-          "jp": "新",
-          "vi": "し",
-          "romaji": "い"
-        },
-        {
-          "jp": "私",
-          "vi": "は",
-          "romaji": "歌"
-        },
-        {
-          "jp": "駅",
-          "vi": "ま",
-          "romaji": "で"
-        },
-        {
-          "jp": "毎",
-          "vi": "朝",
-          "romaji": "、"
-        },
-        {
-          "jp": "N",
-          "vi": "g",
-          "romaji": "ô"
-        },
-        {
-          "jp": "T",
-          "vi": "ô",
-          "romaji": "i"
-        },
-        {
-          "jp": "T",
-          "vi": "ô",
-          "romaji": "i"
-        },
-        {
-          "jp": "M",
-          "vi": "ỗ",
-          "romaji": "i"
-        },
-        {
           "jp": "新しい家は学校の近くにあります。",
           "vi": "Ngôi nhà mới ở gần trường.",
           "romaji": "atarashii ie wa gakkou no chikaku ni arimasu."
@@ -122,6 +82,46 @@
           "jp": "私は歌を歌うことができます。",
           "vi": "Tôi có thể hát.",
           "romaji": "watashi wa uta o utau koto ga dekimasu."
+        },
+        {
+          "jp": "駅までバスで行きます。",
+          "vi": "Tôi đi xe buýt đến ga.",
+          "romaji": "eki made basu de ikimasu."
+        },
+        {
+          "jp": "毎朝、六時に起きます。",
+          "vi": "Mỗi sáng tôi thức dậy lúc sáu giờ.",
+          "romaji": "mai asa, rokuji ni okimasu."
+        },
+        {
+          "jp": "家族はみんな元気です。",
+          "vi": "Mọi người trong gia đình đều khỏe.",
+          "romaji": "kazoku wa minna genki desu."
+        },
+        {
+          "jp": "ときどき友達と映画を見ます。",
+          "vi": "Thỉnh thoảng tôi xem phim với bạn.",
+          "romaji": "tokidoki tomodachi to eiga o mimasu."
+        },
+        {
+          "jp": "道をまっすぐ行ってください。",
+          "vi": "Hãy đi thẳng theo đường.",
+          "romaji": "michi o massugu itte kudasai."
+        },
+        {
+          "jp": "朝ご飯を食べて、学校へ行きます。",
+          "vi": "Tôi ăn sáng rồi đi học.",
+          "romaji": "asagohan o tabete, gakkou e ikimasu."
+        },
+        {
+          "jp": "父は会社で働いています。",
+          "vi": "Bố làm việc ở công ty.",
+          "romaji": "chichi wa kaisha de hataraiteimasu."
+        },
+        {
+          "jp": "一週間に二回、図書館へ行きます。",
+          "vi": "Một tuần tôi đi thư viện hai lần.",
+          "romaji": "isshuukan ni nikai, toshokan e ikimasu."
         }
       ]
     },
@@ -135,46 +135,6 @@
       "lessonType": "reading",
       "sentences": [
         {
-          "jp": "私",
-          "vi": "は",
-          "romaji": "両"
-        },
-        {
-          "jp": "週",
-          "vi": "末",
-          "romaji": "、"
-        },
-        {
-          "jp": "タ",
-          "vi": "ク",
-          "romaji": "シ"
-        },
-        {
-          "jp": "朝",
-          "vi": "ご",
-          "romaji": "飯"
-        },
-        {
-          "jp": "T",
-          "vi": "ô",
-          "romaji": "i"
-        },
-        {
-          "jp": "C",
-          "vi": "u",
-          "romaji": "ố"
-        },
-        {
-          "jp": "T",
-          "vi": "ô",
-          "romaji": "i"
-        },
-        {
-          "jp": "T",
-          "vi": "ô",
-          "romaji": "i"
-        },
-        {
           "jp": "私は両親と住んでいます。",
           "vi": "Tôi sống cùng bố mẹ.",
           "romaji": "watashi wa ryoushin to sundeimasu."
@@ -183,6 +143,46 @@
           "jp": "週末、友達と映画を見ます。",
           "vi": "Cuối tuần tôi xem phim với bạn.",
           "romaji": "shuumatsu, tomodachi to eiga o mimasu."
+        },
+        {
+          "jp": "タクシーでホテルへ行きます。",
+          "vi": "Tôi đi taxi đến khách sạn.",
+          "romaji": "takushii de hoteru e ikimasu."
+        },
+        {
+          "jp": "朝ご飯を食べて、学校へ行きます。",
+          "vi": "Tôi ăn sáng rồi đi học.",
+          "romaji": "asagohan o tabete, gakkou e ikimasu."
+        },
+        {
+          "jp": "父は会社で働いています。",
+          "vi": "Bố làm việc ở công ty.",
+          "romaji": "chichi wa kaisha de hataraiteimasu."
+        },
+        {
+          "jp": "一週間に二回、図書館へ行きます。",
+          "vi": "Một tuần tôi đi thư viện hai lần.",
+          "romaji": "isshuukan ni nikai, toshokan e ikimasu."
+        },
+        {
+          "jp": "交差点を右に曲がります。",
+          "vi": "Tôi rẽ phải ở ngã tư.",
+          "romaji": "kousaten o migi ni magarimasu."
+        },
+        {
+          "jp": "学校で日本語を勉強しています。",
+          "vi": "Tôi đang học tiếng Nhật ở trường.",
+          "romaji": "gakkou de nihongo o benkyou shiteimasu."
+        },
+        {
+          "jp": "母は料理が上手です。",
+          "vi": "Mẹ nấu ăn giỏi.",
+          "romaji": "haha wa ryouri ga jouzu desu."
+        },
+        {
+          "jp": "本を読むことが好きです。",
+          "vi": "Tôi thích đọc sách.",
+          "romaji": "hon o yomu koto ga suki desu."
         }
       ]
     },
@@ -196,46 +196,6 @@
       "lessonType": "reading",
       "sentences": [
         {
-          "jp": "兄",
-          "vi": "は",
-          "romaji": "東"
-        },
-        {
-          "jp": "私",
-          "vi": "は",
-          "romaji": "よ"
-        },
-        {
-          "jp": "道",
-          "vi": "を",
-          "romaji": "聞"
-        },
-        {
-          "jp": "毎",
-          "vi": "日",
-          "romaji": "、"
-        },
-        {
-          "jp": "A",
-          "vi": "n",
-          "romaji": "h"
-        },
-        {
-          "jp": "T",
-          "vi": "ô",
-          "romaji": "i"
-        },
-        {
-          "jp": "T",
-          "vi": "ô",
-          "romaji": "i"
-        },
-        {
-          "jp": "M",
-          "vi": "ỗ",
-          "romaji": "i"
-        },
-        {
           "jp": "兄は東京に住んでいます。",
           "vi": "Anh trai tôi sống ở Tokyo.",
           "romaji": "ani wa toukyou ni sundeimasu."
@@ -244,6 +204,46 @@
           "jp": "私はよく映画を見ます。",
           "vi": "Tôi thường xem phim.",
           "romaji": "watashi wa yoku eiga o mimasu."
+        },
+        {
+          "jp": "道を聞いて、駅へ行きます。",
+          "vi": "Tôi hỏi đường rồi đi đến ga.",
+          "romaji": "michi o kiite, eki e ikimasu."
+        },
+        {
+          "jp": "毎日、電車で学校へ通っています。",
+          "vi": "Mỗi ngày tôi đi tàu đến trường.",
+          "romaji": "mainichi, densha de gakkou e kayotteimasu."
+        },
+        {
+          "jp": "母は料理が上手です。",
+          "vi": "Mẹ nấu ăn giỏi.",
+          "romaji": "haha wa ryouri ga jouzu desu."
+        },
+        {
+          "jp": "本を読むことが好きです。",
+          "vi": "Tôi thích đọc sách.",
+          "romaji": "hon o yomu koto ga suki desu."
+        },
+        {
+          "jp": "ここから山が見えます。",
+          "vi": "Từ đây có thể nhìn thấy núi.",
+          "romaji": "koko kara yama ga miemasu."
+        },
+        {
+          "jp": "休み時間に友達と話します。",
+          "vi": "Giờ nghỉ tôi nói chuyện với bạn.",
+          "romaji": "yasumi jikan ni tomodachi to hanashimasu."
+        },
+        {
+          "jp": "私は家族と一緒に晩ご飯を食べます。",
+          "vi": "Tôi ăn tối cùng gia đình.",
+          "romaji": "watashi wa kazoku to issho ni bangohan o tabemasu."
+        },
+        {
+          "jp": "料理を作ることができます。",
+          "vi": "Tôi có thể nấu ăn.",
+          "romaji": "ryouri o tsukuru koto ga dekimasu."
         }
       ]
     },
@@ -257,46 +257,6 @@
       "lessonType": "reading",
       "sentences": [
         {
-          "jp": "姉",
-          "vi": "は",
-          "romaji": "病"
-        },
-        {
-          "jp": "夏",
-          "vi": "、",
-          "romaji": "海"
-        },
-        {
-          "jp": "地",
-          "vi": "図",
-          "romaji": "を"
-        },
-        {
-          "jp": "学",
-          "vi": "校",
-          "romaji": "で"
-        },
-        {
-          "jp": "C",
-          "vi": "h",
-          "romaji": "ị"
-        },
-        {
-          "jp": "M",
-          "vi": "ù",
-          "romaji": "a"
-        },
-        {
-          "jp": "T",
-          "vi": "ô",
-          "romaji": "i"
-        },
-        {
-          "jp": "T",
-          "vi": "ô",
-          "romaji": "i"
-        },
-        {
           "jp": "姉は病院で働いています。",
           "vi": "Chị gái tôi làm việc ở bệnh viện.",
           "romaji": "ane wa byouin de hataraiteimasu."
@@ -305,6 +265,46 @@
           "jp": "夏、海へ行きます。",
           "vi": "Mùa hè tôi đi biển.",
           "romaji": "natsu, umi e ikimasu."
+        },
+        {
+          "jp": "地図を見て、道を探します。",
+          "vi": "Tôi xem bản đồ và tìm đường.",
+          "romaji": "chizu o mite, michi o sagashimasu."
+        },
+        {
+          "jp": "学校で日本語を勉強しています。",
+          "vi": "Tôi đang học tiếng Nhật ở trường.",
+          "romaji": "gakkou de nihongo o benkyou shiteimasu."
+        },
+        {
+          "jp": "私は家族と一緒に晩ご飯を食べます。",
+          "vi": "Tôi ăn tối cùng gia đình.",
+          "romaji": "watashi wa kazoku to issho ni bangohan o tabemasu."
+        },
+        {
+          "jp": "料理を作ることができます。",
+          "vi": "Tôi có thể nấu ăn.",
+          "romaji": "ryouri o tsukuru koto ga dekimasu."
+        },
+        {
+          "jp": "鳥の声が聞こえます。",
+          "vi": "Có thể nghe tiếng chim.",
+          "romaji": "tori no koe ga kikoemasu."
+        },
+        {
+          "jp": "家に帰ってから、晩ご飯を食べます。",
+          "vi": "Sau khi về nhà, tôi ăn tối.",
+          "romaji": "ie ni kaette kara, bangohan o tabemasu."
+        },
+        {
+          "jp": "休みの日は家でゆっくりします。",
+          "vi": "Ngày nghỉ tôi nghỉ ngơi ở nhà.",
+          "romaji": "yasumi no hi wa ie de yukkuri shimasu."
+        },
+        {
+          "jp": "全然スポーツをしない日もあります。",
+          "vi": "Cũng có những ngày tôi hoàn toàn không chơi thể thao.",
+          "romaji": "zenzen supootsu o shinai hi mo arimasu."
         }
       ]
     },
@@ -318,46 +318,6 @@
       "lessonType": "reading",
       "sentences": [
         {
-          "jp": "妹",
-          "vi": "は",
-          "romaji": "大"
-        },
-        {
-          "jp": "旅",
-          "vi": "行",
-          "romaji": "が"
-        },
-        {
-          "jp": "図",
-          "vi": "書",
-          "romaji": "館"
-        },
-        {
-          "jp": "休",
-          "vi": "み",
-          "romaji": "時"
-        },
-        {
-          "jp": "E",
-          "vi": "m",
-          "romaji": " "
-        },
-        {
-          "jp": "T",
-          "vi": "ô",
-          "romaji": "i"
-        },
-        {
-          "jp": "C",
-          "vi": "ó",
-          "romaji": " "
-        },
-        {
-          "jp": "G",
-          "vi": "i",
-          "romaji": "ờ"
-        },
-        {
           "jp": "妹は大学生で、親切です。",
           "vi": "Em gái tôi là sinh viên đại học và tốt bụng.",
           "romaji": "imouto wa daigakusei de shinsetsu desu."
@@ -366,6 +326,46 @@
           "jp": "旅行が好きです。",
           "vi": "Tôi thích du lịch.",
           "romaji": "ryokou ga suki desu."
+        },
+        {
+          "jp": "図書館で本を読むことができます。",
+          "vi": "Có thể đọc sách ở thư viện.",
+          "romaji": "toshokan de hon o yomu koto ga dekimasu."
+        },
+        {
+          "jp": "休み時間に友達と話します。",
+          "vi": "Giờ nghỉ tôi nói chuyện với bạn.",
+          "romaji": "yasumi jikan ni tomodachi to hanashimasu."
+        },
+        {
+          "jp": "休みの日は家でゆっくりします。",
+          "vi": "Ngày nghỉ tôi nghỉ ngơi ở nhà.",
+          "romaji": "yasumi no hi wa ie de yukkuri shimasu."
+        },
+        {
+          "jp": "全然スポーツをしない日もあります。",
+          "vi": "Cũng có những ngày tôi hoàn toàn không chơi thể thao.",
+          "romaji": "zenzen supootsu o shinai hi mo arimasu."
+        },
+        {
+          "jp": "ここで写真を撮ってもいいですか。",
+          "vi": "Tôi chụp ảnh ở đây được không?",
+          "romaji": "koko de shashin o totte mo ii desu ka."
+        },
+        {
+          "jp": "休みの日は本を読んだり、音楽を聞いたりします。",
+          "vi": "Ngày nghỉ tôi đọc sách và nghe nhạc.",
+          "romaji": "yasumi no hi wa hon o yondari, ongaku o kiitari shimasu."
+        },
+        {
+          "jp": "友達からメールをもらいました。",
+          "vi": "Tôi nhận được email từ bạn.",
+          "romaji": "tomodachi kara meeru o moraimashita."
+        },
+        {
+          "jp": "でも、週末は外へ出かけます。",
+          "vi": "Nhưng cuối tuần tôi đi ra ngoài.",
+          "romaji": "demo, shuumatsu wa soto e dekakemasu."
         }
       ]
     },
@@ -379,46 +379,6 @@
       "lessonType": "reading",
       "sentences": [
         {
-          "jp": "犬",
-          "vi": "が",
-          "romaji": "一"
-        },
-        {
-          "jp": "外",
-          "vi": "国",
-          "romaji": "人"
-        },
-        {
-          "jp": "公",
-          "vi": "園",
-          "romaji": "で"
-        },
-        {
-          "jp": "昼",
-          "vi": "ご",
-          "romaji": "は"
-        },
-        {
-          "jp": "T",
-          "vi": "ô",
-          "romaji": "i"
-        },
-        {
-          "jp": "T",
-          "vi": "ô",
-          "romaji": "i"
-        },
-        {
-          "jp": "T",
-          "vi": "r",
-          "romaji": "ẻ"
-        },
-        {
-          "jp": "T",
-          "vi": "ô",
-          "romaji": "i"
-        },
-        {
           "jp": "犬が一匹います。",
           "vi": "Tôi có một con chó.",
           "romaji": "inu ga ippiki imasu."
@@ -427,6 +387,46 @@
           "jp": "外国人の友達と日本語を話します。",
           "vi": "Tôi nói tiếng Nhật với bạn nước ngoài.",
           "romaji": "gaikokujin no tomodachi to nihongo o hanashimasu."
+        },
+        {
+          "jp": "公園で子どもが遊んでいます。",
+          "vi": "Trẻ em đang chơi ở công viên.",
+          "romaji": "kouen de kodomo ga asondeimasu."
+        },
+        {
+          "jp": "昼ごはんは食堂で食べます。",
+          "vi": "Tôi ăn trưa ở nhà ăn.",
+          "romaji": "hirugohan wa shokudou de tabemasu."
+        },
+        {
+          "jp": "友達からメールをもらいました。",
+          "vi": "Tôi nhận được email từ bạn.",
+          "romaji": "tomodachi kara meeru o moraimashita."
+        },
+        {
+          "jp": "でも、週末は外へ出かけます。",
+          "vi": "Nhưng cuối tuần tôi đi ra ngoài.",
+          "romaji": "demo, shuumatsu wa soto e dekakemasu."
+        },
+        {
+          "jp": "そこに入らないでください。",
+          "vi": "Xin đừng vào đó.",
+          "romaji": "soko ni hairanaide kudasai."
+        },
+        {
+          "jp": "疲れたとき、少し休みます。",
+          "vi": "Khi mệt, tôi nghỉ một chút.",
+          "romaji": "tsukareta toki, sukoshi yasumimasu."
+        },
+        {
+          "jp": "私は大切な人にプレゼントをあげます。",
+          "vi": "Tôi tặng quà cho người quan trọng.",
+          "romaji": "watashi wa taisetsu na hito ni purezento o agemasu."
+        },
+        {
+          "jp": "友達と話して、写真を撮ります。",
+          "vi": "Tôi nói chuyện và chụp ảnh với bạn.",
+          "romaji": "tomodachi to hanashite, shashin o torimasu."
         }
       ]
     },
@@ -440,46 +440,6 @@
       "lessonType": "reading",
       "sentences": [
         {
-          "jp": "ル",
-          "vi": "ー",
-          "romaji": "ム"
-        },
-        {
-          "jp": "毎",
-          "vi": "日",
-          "romaji": "、"
-        },
-        {
-          "jp": "映",
-          "vi": "画",
-          "romaji": "館"
-        },
-        {
-          "jp": "図",
-          "vi": "書",
-          "romaji": "館"
-        },
-        {
-          "jp": "T",
-          "vi": "ô",
-          "romaji": "i"
-        },
-        {
-          "jp": "M",
-          "vi": "ỗ",
-          "romaji": "i"
-        },
-        {
-          "jp": "T",
-          "vi": "ô",
-          "romaji": "i"
-        },
-        {
-          "jp": "T",
-          "vi": "ô",
-          "romaji": "i"
-        },
-        {
           "jp": "ルームメイトと三人で住んでいます。",
           "vi": "Tôi sống cùng bạn cùng phòng, tổng cộng ba người.",
           "romaji": "ruumumeito to sannin de sundeimasu."
@@ -488,6 +448,46 @@
           "jp": "毎日、日本語を勉強します。",
           "vi": "Mỗi ngày tôi học tiếng Nhật.",
           "romaji": "mainichi, nihongo o benkyou shimasu."
+        },
+        {
+          "jp": "映画館で映画を見ます。",
+          "vi": "Tôi xem phim ở rạp.",
+          "romaji": "eigakan de eiga o mimasu."
+        },
+        {
+          "jp": "図書館で本を読んでいます。",
+          "vi": "Tôi đang đọc sách ở thư viện.",
+          "romaji": "toshokan de hon o yondeimasu."
+        },
+        {
+          "jp": "私は大切な人にプレゼントをあげます。",
+          "vi": "Tôi tặng quà cho người quan trọng.",
+          "romaji": "watashi wa taisetsu na hito ni purezento o agemasu."
+        },
+        {
+          "jp": "友達と話して、写真を撮ります。",
+          "vi": "Tôi nói chuyện và chụp ảnh với bạn.",
+          "romaji": "tomodachi to hanashite, shashin o torimasu."
+        },
+        {
+          "jp": "もう昼ご飯を食べました。",
+          "vi": "Tôi đã ăn trưa rồi.",
+          "romaji": "mou hirugohan o tabemashita."
+        },
+        {
+          "jp": "子どものとき、よく公園で遊びました。",
+          "vi": "Khi còn nhỏ, tôi thường chơi ở công viên.",
+          "romaji": "kodomo no toki, yoku kouen de asobimashita."
+        },
+        {
+          "jp": "家族と住んでいるので、毎日楽しいです。",
+          "vi": "Vì sống cùng gia đình nên mỗi ngày đều vui.",
+          "romaji": "kazoku to sundeiru node, mainichi tanoshii desu."
+        },
+        {
+          "jp": "好きなことをすると、楽しいです。",
+          "vi": "Làm điều mình thích thì rất vui.",
+          "romaji": "suki na koto o suru to, tanoshii desu."
         }
       ]
     },
@@ -501,46 +501,6 @@
       "lessonType": "reading",
       "sentences": [
         {
-          "jp": "父",
-          "vi": "は",
-          "romaji": "会"
-        },
-        {
-          "jp": "図",
-          "vi": "書",
-          "romaji": "館"
-        },
-        {
-          "jp": "町",
-          "vi": "は",
-          "romaji": "大"
-        },
-        {
-          "jp": "家",
-          "vi": "で",
-          "romaji": "宿"
-        },
-        {
-          "jp": "B",
-          "vi": "ố",
-          "romaji": " "
-        },
-        {
-          "jp": "T",
-          "vi": "ô",
-          "romaji": "i"
-        },
-        {
-          "jp": "T",
-          "vi": "h",
-          "romaji": "à"
-        },
-        {
-          "jp": "T",
-          "vi": "ô",
-          "romaji": "i"
-        },
-        {
           "jp": "父は会社で働いています。",
           "vi": "Bố tôi làm việc ở công ty.",
           "romaji": "chichi wa kaisha de hataraiteimasu."
@@ -549,6 +509,46 @@
           "jp": "図書館で本を読みます。",
           "vi": "Tôi đọc sách ở thư viện.",
           "romaji": "toshokan de hon o yomimasu."
+        },
+        {
+          "jp": "町は大きくて、にぎやかです。",
+          "vi": "Thành phố lớn và nhộn nhịp.",
+          "romaji": "machi wa ookikute, nigiyaka desu."
+        },
+        {
+          "jp": "家で宿題をします。",
+          "vi": "Tôi làm bài tập ở nhà.",
+          "romaji": "ie de shukudai o shimasu."
+        },
+        {
+          "jp": "家族と住んでいるので、毎日楽しいです。",
+          "vi": "Vì sống cùng gia đình nên mỗi ngày đều vui.",
+          "romaji": "kazoku to sundeiru node, mainichi tanoshii desu."
+        },
+        {
+          "jp": "好きなことをすると、楽しいです。",
+          "vi": "Làm điều mình thích thì rất vui.",
+          "romaji": "suki na koto o suru to, tanoshii desu."
+        },
+        {
+          "jp": "まだ宿題をしていません。",
+          "vi": "Tôi vẫn chưa làm bài tập.",
+          "romaji": "mada shukudai o shiteimasen."
+        },
+        {
+          "jp": "友達と「映画を見ない？」と話します。",
+          "vi": "Tôi nói với bạn: “Xem phim không?”.",
+          "romaji": "tomodachi to eiga o minai to hanashimasu."
+        },
+        {
+          "jp": "家の近くに公園があります。",
+          "vi": "Gần nhà có công viên.",
+          "romaji": "ie no chikaku ni kouen ga arimasu."
+        },
+        {
+          "jp": "私はよく音楽を聞きます。",
+          "vi": "Tôi thường nghe nhạc.",
+          "romaji": "watashi wa yoku ongaku o kikimasu."
         }
       ]
     },
@@ -562,46 +562,6 @@
       "lessonType": "reading",
       "sentences": [
         {
-          "jp": "母",
-          "vi": "は",
-          "romaji": "料"
-        },
-        {
-          "jp": "小",
-          "vi": "説",
-          "romaji": "を"
-        },
-        {
-          "jp": "ス",
-          "vi": "ー",
-          "romaji": "パ"
-        },
-        {
-          "jp": "夕",
-          "vi": "方",
-          "romaji": "、"
-        },
-        {
-          "jp": "M",
-          "vi": "ẹ",
-          "romaji": " "
-        },
-        {
-          "jp": "T",
-          "vi": "ô",
-          "romaji": "i"
-        },
-        {
-          "jp": "C",
-          "vi": "ó",
-          "romaji": " "
-        },
-        {
-          "jp": "B",
-          "vi": "u",
-          "romaji": "ổ"
-        },
-        {
           "jp": "母は料理を作っています。",
           "vi": "Mẹ tôi đang nấu ăn.",
           "romaji": "haha wa ryouri o tsukutteimasu."
@@ -610,6 +570,46 @@
           "jp": "小説を読むことが好きです。",
           "vi": "Tôi thích đọc tiểu thuyết.",
           "romaji": "shousetsu o yomu koto ga suki desu."
+        },
+        {
+          "jp": "スーパーで買い物ができます。",
+          "vi": "Có thể mua sắm ở siêu thị.",
+          "romaji": "suupaa de kaimono ga dekimasu."
+        },
+        {
+          "jp": "夕方、アルバイトをしています。",
+          "vi": "Buổi tối tôi làm thêm.",
+          "romaji": "yuugata, arubaito o shiteimasu."
+        },
+        {
+          "jp": "家の近くに公園があります。",
+          "vi": "Gần nhà có công viên.",
+          "romaji": "ie no chikaku ni kouen ga arimasu."
+        },
+        {
+          "jp": "私はよく音楽を聞きます。",
+          "vi": "Tôi thường nghe nhạc.",
+          "romaji": "watashi wa yoku ongaku o kikimasu."
+        },
+        {
+          "jp": "駅までバスで行きます。",
+          "vi": "Tôi đi xe buýt đến ga.",
+          "romaji": "eki made basu de ikimasu."
+        },
+        {
+          "jp": "毎朝、七時に起きます。",
+          "vi": "Mỗi sáng tôi thức dậy lúc bảy giờ.",
+          "romaji": "mai asa, shichiji ni okimasu."
+        },
+        {
+          "jp": "家族はみんな元気です。",
+          "vi": "Mọi người trong gia đình đều khỏe.",
+          "romaji": "kazoku wa minna genki desu."
+        },
+        {
+          "jp": "ときどき友達と映画を見ます。",
+          "vi": "Thỉnh thoảng tôi xem phim với bạn.",
+          "romaji": "tokidoki tomodachi to eiga o mimasu."
         }
       ]
     },
@@ -623,46 +623,6 @@
       "lessonType": "reading",
       "sentences": [
         {
-          "jp": "祖",
-          "vi": "父",
-          "romaji": "母"
-        },
-        {
-          "jp": "私",
-          "vi": "は",
-          "romaji": "サ"
-        },
-        {
-          "jp": "レ",
-          "vi": "ス",
-          "romaji": "ト"
-        },
-        {
-          "jp": "学",
-          "vi": "校",
-          "romaji": "が"
-        },
-        {
-          "jp": "Ô",
-          "vi": "n",
-          "romaji": "g"
-        },
-        {
-          "jp": "T",
-          "vi": "ô",
-          "romaji": "i"
-        },
-        {
-          "jp": "T",
-          "vi": "ô",
-          "romaji": "i"
-        },
-        {
-          "jp": "T",
-          "vi": "a",
-          "romaji": "n"
-        },
-        {
           "jp": "祖父母は田舎に住んでいます。",
           "vi": "Ông bà tôi sống ở quê.",
           "romaji": "sofubo wa inaka ni sundeimasu."
@@ -671,6 +631,46 @@
           "jp": "私はサッカーができます。",
           "vi": "Tôi biết chơi bóng đá.",
           "romaji": "watashi wa sakkaa ga dekimasu."
+        },
+        {
+          "jp": "レストランで食事をします。",
+          "vi": "Tôi dùng bữa ở nhà hàng.",
+          "romaji": "resutoran de shokuji o shimasu."
+        },
+        {
+          "jp": "学校が終わって、家へ帰ります。",
+          "vi": "Tan học tôi về nhà.",
+          "romaji": "gakkou ga owatte, ie e kaerimasu."
+        },
+        {
+          "jp": "家族はみんな元気です。",
+          "vi": "Mọi người trong gia đình đều khỏe.",
+          "romaji": "kazoku wa minna genki desu."
+        },
+        {
+          "jp": "ときどき友達と映画を見ます。",
+          "vi": "Thỉnh thoảng tôi xem phim với bạn.",
+          "romaji": "tokidoki tomodachi to eiga o mimasu."
+        },
+        {
+          "jp": "道をまっすぐ行ってください。",
+          "vi": "Hãy đi thẳng theo đường.",
+          "romaji": "michi o massugu itte kudasai."
+        },
+        {
+          "jp": "朝ご飯を食べて、学校へ行きます。",
+          "vi": "Tôi ăn sáng rồi đi học.",
+          "romaji": "asagohan o tabete, gakkou e ikimasu."
+        },
+        {
+          "jp": "父は会社で働いています。",
+          "vi": "Bố làm việc ở công ty.",
+          "romaji": "chichi wa kaisha de hataraiteimasu."
+        },
+        {
+          "jp": "一週間に二回、図書館へ行きます。",
+          "vi": "Một tuần tôi đi thư viện hai lần.",
+          "romaji": "isshuukan ni nikai, toshokan e ikimasu."
         }
       ]
     },
@@ -684,46 +684,6 @@
       "lessonType": "reading",
       "sentences": [
         {
-          "jp": "週",
-          "vi": "末",
-          "romaji": "、"
-        },
-        {
-          "jp": "友",
-          "vi": "達",
-          "romaji": "と"
-        },
-        {
-          "jp": "ホ",
-          "vi": "テ",
-          "romaji": "ル"
-        },
-        {
-          "jp": "母",
-          "vi": "と",
-          "romaji": "料"
-        },
-        {
-          "jp": "C",
-          "vi": "u",
-          "romaji": "ố"
-        },
-        {
-          "jp": "T",
-          "vi": "ô",
-          "romaji": "i"
-        },
-        {
-          "jp": "T",
-          "vi": "ô",
-          "romaji": "i"
-        },
-        {
-          "jp": "T",
-          "vi": "ô",
-          "romaji": "i"
-        },
-        {
           "jp": "週末、家族と公園へ行きます。",
           "vi": "Cuối tuần tôi đi công viên với gia đình.",
           "romaji": "shuumatsu, kazoku to kouen e ikimasu."
@@ -732,6 +692,46 @@
           "jp": "友達とテニスをします。",
           "vi": "Tôi chơi tennis với bạn.",
           "romaji": "tomodachi to tenisu o shimasu."
+        },
+        {
+          "jp": "ホテルに泊まります。",
+          "vi": "Tôi ở khách sạn.",
+          "romaji": "hoteru ni tomarimasu."
+        },
+        {
+          "jp": "母と料理を作ります。",
+          "vi": "Tôi nấu ăn với mẹ.",
+          "romaji": "haha to ryouri o tsukurimasu."
+        },
+        {
+          "jp": "父は会社で働いています。",
+          "vi": "Bố làm việc ở công ty.",
+          "romaji": "chichi wa kaisha de hataraiteimasu."
+        },
+        {
+          "jp": "一週間に二回、図書館へ行きます。",
+          "vi": "Một tuần tôi đi thư viện hai lần.",
+          "romaji": "isshuukan ni nikai, toshokan e ikimasu."
+        },
+        {
+          "jp": "交差点を右に曲がります。",
+          "vi": "Tôi rẽ phải ở ngã tư.",
+          "romaji": "kousaten o migi ni magarimasu."
+        },
+        {
+          "jp": "学校で日本語を勉強しています。",
+          "vi": "Tôi đang học tiếng Nhật ở trường.",
+          "romaji": "gakkou de nihongo o benkyou shiteimasu."
+        },
+        {
+          "jp": "母は料理が上手です。",
+          "vi": "Mẹ nấu ăn giỏi.",
+          "romaji": "haha wa ryouri ga jouzu desu."
+        },
+        {
+          "jp": "本を読むことが好きです。",
+          "vi": "Tôi thích đọc sách.",
+          "romaji": "hon o yomu koto ga suki desu."
         }
       ]
     },
@@ -745,46 +745,6 @@
       "lessonType": "reading",
       "sentences": [
         {
-          "jp": "晩",
-          "vi": "ご",
-          "romaji": "飯"
-        },
-        {
-          "jp": "父",
-          "vi": "は",
-          "romaji": "車"
-        },
-        {
-          "jp": "郵",
-          "vi": "便",
-          "romaji": "局"
-        },
-        {
-          "jp": "週",
-          "vi": "末",
-          "romaji": "、"
-        },
-        {
-          "jp": "T",
-          "vi": "ô",
-          "romaji": "i"
-        },
-        {
-          "jp": "B",
-          "vi": "ố",
-          "romaji": " "
-        },
-        {
-          "jp": "T",
-          "vi": "ô",
-          "romaji": "i"
-        },
-        {
-          "jp": "C",
-          "vi": "u",
-          "romaji": "ố"
-        },
-        {
           "jp": "晩ご飯は家族と一緒に食べます。",
           "vi": "Tôi ăn tối cùng gia đình.",
           "romaji": "bangohan wa kazoku to issho ni tabemasu."
@@ -793,6 +753,46 @@
           "jp": "父は車を運転することができます。",
           "vi": "Bố tôi có thể lái xe.",
           "romaji": "chichi wa kuruma o unten suru koto ga dekimasu."
+        },
+        {
+          "jp": "郵便局で手紙を送ります。",
+          "vi": "Tôi gửi thư ở bưu điện.",
+          "romaji": "yuubinkyoku de tegami o okurimasu."
+        },
+        {
+          "jp": "週末、服を洗濯します。",
+          "vi": "Cuối tuần tôi giặt quần áo.",
+          "romaji": "shuumatsu, fuku o sentaku shimasu."
+        },
+        {
+          "jp": "母は料理が上手です。",
+          "vi": "Mẹ nấu ăn giỏi.",
+          "romaji": "haha wa ryouri ga jouzu desu."
+        },
+        {
+          "jp": "本を読むことが好きです。",
+          "vi": "Tôi thích đọc sách.",
+          "romaji": "hon o yomu koto ga suki desu."
+        },
+        {
+          "jp": "ここから山が見えます。",
+          "vi": "Từ đây có thể nhìn thấy núi.",
+          "romaji": "koko kara yama ga miemasu."
+        },
+        {
+          "jp": "休み時間に友達と話します。",
+          "vi": "Giờ nghỉ tôi nói chuyện với bạn.",
+          "romaji": "yasumi jikan ni tomodachi to hanashimasu."
+        },
+        {
+          "jp": "私は家族と一緒に晩ご飯を食べます。",
+          "vi": "Tôi ăn tối cùng gia đình.",
+          "romaji": "watashi wa kazoku to issho ni bangohan o tabemasu."
+        },
+        {
+          "jp": "料理を作ることができます。",
+          "vi": "Tôi có thể nấu ăn.",
+          "romaji": "ryouri o tsukuru koto ga dekimasu."
         }
       ]
     },
@@ -806,46 +806,6 @@
       "lessonType": "reading",
       "sentences": [
         {
-          "jp": "誕",
-          "vi": "生",
-          "romaji": "日"
-        },
-        {
-          "jp": "家",
-          "vi": "族",
-          "romaji": "で"
-        },
-        {
-          "jp": "病",
-          "vi": "院",
-          "romaji": "で"
-        },
-        {
-          "jp": "部",
-          "vi": "屋",
-          "romaji": "を"
-        },
-        {
-          "jp": "S",
-          "vi": "i",
-          "romaji": "n"
-        },
-        {
-          "jp": "G",
-          "vi": "i",
-          "romaji": "a"
-        },
-        {
-          "jp": "T",
-          "vi": "ô",
-          "romaji": "i"
-        },
-        {
-          "jp": "T",
-          "vi": "ô",
-          "romaji": "i"
-        },
-        {
           "jp": "誕生日に友達がカードをくれました。",
           "vi": "Sinh nhật, bạn đã tặng tôi một tấm thiệp.",
           "romaji": "tanjoubi ni tomodachi ga kaado o kuremashita."
@@ -854,6 +814,46 @@
           "jp": "家族で旅行へ行きます。",
           "vi": "Gia đình tôi đi du lịch.",
           "romaji": "kazoku de ryokou e ikimasu."
+        },
+        {
+          "jp": "病院で薬をもらいます。",
+          "vi": "Tôi nhận thuốc ở bệnh viện.",
+          "romaji": "byouin de kusuri o moraimasu."
+        },
+        {
+          "jp": "部屋を掃除して、窓を開けます。",
+          "vi": "Tôi dọn phòng rồi mở cửa sổ.",
+          "romaji": "heya o souji shite, mado o akemasu."
+        },
+        {
+          "jp": "私は家族と一緒に晩ご飯を食べます。",
+          "vi": "Tôi ăn tối cùng gia đình.",
+          "romaji": "watashi wa kazoku to issho ni bangohan o tabemasu."
+        },
+        {
+          "jp": "料理を作ることができます。",
+          "vi": "Tôi có thể nấu ăn.",
+          "romaji": "ryouri o tsukuru koto ga dekimasu."
+        },
+        {
+          "jp": "鳥の声が聞こえます。",
+          "vi": "Có thể nghe tiếng chim.",
+          "romaji": "tori no koe ga kikoemasu."
+        },
+        {
+          "jp": "家に帰ってから、晩ご飯を食べます。",
+          "vi": "Sau khi về nhà, tôi ăn tối.",
+          "romaji": "ie ni kaette kara, bangohan o tabemasu."
+        },
+        {
+          "jp": "休みの日は家でゆっくりします。",
+          "vi": "Ngày nghỉ tôi nghỉ ngơi ở nhà.",
+          "romaji": "yasumi no hi wa ie de yukkuri shimasu."
+        },
+        {
+          "jp": "全然スポーツをしない日もあります。",
+          "vi": "Cũng có những ngày tôi hoàn toàn không chơi thể thao.",
+          "romaji": "zenzen supootsu o shinai hi mo arimasu."
         }
       ]
     },
@@ -867,46 +867,6 @@
       "lessonType": "reading",
       "sentences": [
         {
-          "jp": "私",
-          "vi": "は",
-          "romaji": "母"
-        },
-        {
-          "jp": "日",
-          "vi": "本",
-          "romaji": "料"
-        },
-        {
-          "jp": "本",
-          "vi": "屋",
-          "romaji": "で"
-        },
-        {
-          "jp": "ス",
-          "vi": "ー",
-          "romaji": "パ"
-        },
-        {
-          "jp": "T",
-          "vi": "ô",
-          "romaji": "i"
-        },
-        {
-          "jp": "T",
-          "vi": "ô",
-          "romaji": "i"
-        },
-        {
-          "jp": "T",
-          "vi": "ô",
-          "romaji": "i"
-        },
-        {
-          "jp": "T",
-          "vi": "ô",
-          "romaji": "i"
-        },
-        {
           "jp": "私は母に花をあげました。",
           "vi": "Tôi đã tặng hoa cho mẹ.",
           "romaji": "watashi wa haha ni hana o agemashita."
@@ -915,6 +875,46 @@
           "jp": "日本料理を食べて、日本語を勉強します。",
           "vi": "Tôi ăn món Nhật rồi học tiếng Nhật.",
           "romaji": "nihon ryouri o tabete, nihongo o benkyou shimasu."
+        },
+        {
+          "jp": "本屋で辞書を買います。",
+          "vi": "Tôi mua từ điển ở hiệu sách.",
+          "romaji": "honya de jisho o kaimasu."
+        },
+        {
+          "jp": "スーパーで晩ご飯を買います。",
+          "vi": "Tôi mua bữa tối ở siêu thị.",
+          "romaji": "suupaa de bangohan o kaimasu."
+        },
+        {
+          "jp": "休みの日は家でゆっくりします。",
+          "vi": "Ngày nghỉ tôi nghỉ ngơi ở nhà.",
+          "romaji": "yasumi no hi wa ie de yukkuri shimasu."
+        },
+        {
+          "jp": "全然スポーツをしない日もあります。",
+          "vi": "Cũng có những ngày tôi hoàn toàn không chơi thể thao.",
+          "romaji": "zenzen supootsu o shinai hi mo arimasu."
+        },
+        {
+          "jp": "ここで写真を撮ってもいいですか。",
+          "vi": "Tôi chụp ảnh ở đây được không?",
+          "romaji": "koko de shashin o totte mo ii desu ka."
+        },
+        {
+          "jp": "休みの日は本を読んだり、音楽を聞いたりします。",
+          "vi": "Ngày nghỉ tôi đọc sách và nghe nhạc.",
+          "romaji": "yasumi no hi wa hon o yondari, ongaku o kiitari shimasu."
+        },
+        {
+          "jp": "友達からメールをもらいました。",
+          "vi": "Tôi nhận được email từ bạn.",
+          "romaji": "tomodachi kara meeru o moraimashita."
+        },
+        {
+          "jp": "でも、週末は外へ出かけます。",
+          "vi": "Nhưng cuối tuần tôi đi ra ngoài.",
+          "romaji": "demo, shuumatsu wa soto e dekakemasu."
         }
       ]
     },
@@ -928,46 +928,6 @@
       "lessonType": "reading",
       "sentences": [
         {
-          "jp": "親",
-          "vi": "友",
-          "romaji": "は"
-        },
-        {
-          "jp": "ベ",
-          "vi": "ト",
-          "romaji": "ナ"
-        },
-        {
-          "jp": "学",
-          "vi": "校",
-          "romaji": "へ"
-        },
-        {
-          "jp": "毎",
-          "vi": "週",
-          "romaji": "、"
-        },
-        {
-          "jp": "B",
-          "vi": "ạ",
-          "romaji": "n"
-        },
-        {
-          "jp": "T",
-          "vi": "ô",
-          "romaji": "i"
-        },
-        {
-          "jp": "T",
-          "vi": "ô",
-          "romaji": "i"
-        },
-        {
-          "jp": "M",
-          "vi": "ỗ",
-          "romaji": "i"
-        },
-        {
           "jp": "親友は明るくて、やさしい人です。",
           "vi": "Bạn thân của tôi vui vẻ và hiền.",
           "romaji": "shinyuu wa akarukute, yasashii hito desu."
@@ -976,6 +936,46 @@
           "jp": "ベトナムの料理が好きです。",
           "vi": "Tôi thích món ăn Việt Nam.",
           "romaji": "betonamu no ryouri ga suki desu."
+        },
+        {
+          "jp": "学校へ歩いて行きます。",
+          "vi": "Tôi đi bộ đến trường.",
+          "romaji": "gakkou e aruite ikimasu."
+        },
+        {
+          "jp": "毎週、運動しています。",
+          "vi": "Mỗi tuần tôi tập thể dục.",
+          "romaji": "maishuu, undou shiteimasu."
+        },
+        {
+          "jp": "友達からメールをもらいました。",
+          "vi": "Tôi nhận được email từ bạn.",
+          "romaji": "tomodachi kara meeru o moraimashita."
+        },
+        {
+          "jp": "でも、週末は外へ出かけます。",
+          "vi": "Nhưng cuối tuần tôi đi ra ngoài.",
+          "romaji": "demo, shuumatsu wa soto e dekakemasu."
+        },
+        {
+          "jp": "そこに入らないでください。",
+          "vi": "Xin đừng vào đó.",
+          "romaji": "soko ni hairanaide kudasai."
+        },
+        {
+          "jp": "疲れたとき、少し休みます。",
+          "vi": "Khi mệt, tôi nghỉ một chút.",
+          "romaji": "tsukareta toki, sukoshi yasumimasu."
+        },
+        {
+          "jp": "私は大切な人にプレゼントをあげます。",
+          "vi": "Tôi tặng quà cho người quan trọng.",
+          "romaji": "watashi wa taisetsu na hito ni purezento o agemasu."
+        },
+        {
+          "jp": "友達と話して、写真を撮ります。",
+          "vi": "Tôi nói chuyện và chụp ảnh với bạn.",
+          "romaji": "tomodachi to hanashite, shashin o torimasu."
         }
       ]
     },
@@ -989,46 +989,6 @@
       "lessonType": "reading",
       "sentences": [
         {
-          "jp": "田",
-          "vi": "舎",
-          "romaji": "の"
-        },
-        {
-          "jp": "私",
-          "vi": "は",
-          "romaji": "特"
-        },
-        {
-          "jp": "バ",
-          "vi": "ス",
-          "romaji": "ツ"
-        },
-        {
-          "jp": "朝",
-          "vi": "、",
-          "romaji": "公"
-        },
-        {
-          "jp": "G",
-          "vi": "i",
-          "romaji": "a"
-        },
-        {
-          "jp": "T",
-          "vi": "ô",
-          "romaji": "i"
-        },
-        {
-          "jp": "T",
-          "vi": "ô",
-          "romaji": "i"
-        },
-        {
-          "jp": "B",
-          "vi": "u",
-          "romaji": "ổ"
-        },
-        {
           "jp": "田舎の家族は元気です。",
           "vi": "Gia đình ở quê khỏe mạnh.",
           "romaji": "inaka no kazoku wa genki desu."
@@ -1037,6 +997,46 @@
           "jp": "私は特に読書が好きです。",
           "vi": "Tôi đặc biệt thích đọc sách.",
           "romaji": "watashi wa toku ni dokusho ga suki desu."
+        },
+        {
+          "jp": "バスツアーでいろいろな町へ行きます。",
+          "vi": "Tôi đi nhiều thành phố bằng tour xe buýt.",
+          "romaji": "basu tsuaa de iroiro na machi e ikimasu."
+        },
+        {
+          "jp": "朝、公園でジョギングをします。",
+          "vi": "Buổi sáng tôi chạy bộ ở công viên.",
+          "romaji": "asa, kouen de jogingu o shimasu."
+        },
+        {
+          "jp": "私は大切な人にプレゼントをあげます。",
+          "vi": "Tôi tặng quà cho người quan trọng.",
+          "romaji": "watashi wa taisetsu na hito ni purezento o agemasu."
+        },
+        {
+          "jp": "友達と話して、写真を撮ります。",
+          "vi": "Tôi nói chuyện và chụp ảnh với bạn.",
+          "romaji": "tomodachi to hanashite, shashin o torimasu."
+        },
+        {
+          "jp": "もう昼ご飯を食べました。",
+          "vi": "Tôi đã ăn trưa rồi.",
+          "romaji": "mou hirugohan o tabemashita."
+        },
+        {
+          "jp": "子どものとき、よく公園で遊びました。",
+          "vi": "Khi còn nhỏ, tôi thường chơi ở công viên.",
+          "romaji": "kodomo no toki, yoku kouen de asobimashita."
+        },
+        {
+          "jp": "家族と住んでいるので、毎日楽しいです。",
+          "vi": "Vì sống cùng gia đình nên mỗi ngày đều vui.",
+          "romaji": "kazoku to sundeiru node, mainichi tanoshii desu."
+        },
+        {
+          "jp": "好きなことをすると、楽しいです。",
+          "vi": "Làm điều mình thích thì rất vui.",
+          "romaji": "suki na koto o suru to, tanoshii desu."
         }
       ]
     },
@@ -1050,46 +1050,6 @@
       "lessonType": "reading",
       "sentences": [
         {
-          "jp": "町",
-          "vi": "の",
-          "romaji": "家"
-        },
-        {
-          "jp": "好",
-          "vi": "き",
-          "romaji": "な"
-        },
-        {
-          "jp": "駅",
-          "vi": "ま",
-          "romaji": "で"
-        },
-        {
-          "jp": "夜",
-          "vi": "、",
-          "romaji": "音"
-        },
-        {
-          "jp": "N",
-          "vi": "g",
-          "romaji": "ô"
-        },
-        {
-          "jp": "T",
-          "vi": "ô",
-          "romaji": "i"
-        },
-        {
-          "jp": "T",
-          "vi": "ô",
-          "romaji": "i"
-        },
-        {
-          "jp": "B",
-          "vi": "u",
-          "romaji": "ổ"
-        },
-        {
           "jp": "町の家は便利で、静かです。",
           "vi": "Ngôi nhà trong thành phố tiện lợi và yên tĩnh.",
           "romaji": "machi no ie wa benri de, shizuka desu."
@@ -1098,6 +1058,46 @@
           "jp": "好きな歌手の歌を聞きます。",
           "vi": "Tôi nghe bài hát của ca sĩ yêu thích.",
           "romaji": "suki na kashu no uta o kikimasu."
+        },
+        {
+          "jp": "駅まで歩いて行きます。",
+          "vi": "Tôi đi bộ đến ga.",
+          "romaji": "eki made aruite ikimasu."
+        },
+        {
+          "jp": "夜、音楽を聞いています。",
+          "vi": "Buổi tối tôi nghe nhạc.",
+          "romaji": "yoru, ongaku o kiiteimasu."
+        },
+        {
+          "jp": "家族と住んでいるので、毎日楽しいです。",
+          "vi": "Vì sống cùng gia đình nên mỗi ngày đều vui.",
+          "romaji": "kazoku to sundeiru node, mainichi tanoshii desu."
+        },
+        {
+          "jp": "好きなことをすると、楽しいです。",
+          "vi": "Làm điều mình thích thì rất vui.",
+          "romaji": "suki na koto o suru to, tanoshii desu."
+        },
+        {
+          "jp": "まだ宿題をしていません。",
+          "vi": "Tôi vẫn chưa làm bài tập.",
+          "romaji": "mada shukudai o shiteimasen."
+        },
+        {
+          "jp": "友達と「映画を見ない？」と話します。",
+          "vi": "Tôi nói với bạn: “Xem phim không?”.",
+          "romaji": "tomodachi to eiga o minai to hanashimasu."
+        },
+        {
+          "jp": "家の近くに公園があります。",
+          "vi": "Gần nhà có công viên.",
+          "romaji": "ie no chikaku ni kouen ga arimasu."
+        },
+        {
+          "jp": "私はよく音楽を聞きます。",
+          "vi": "Tôi thường nghe nhạc.",
+          "romaji": "watashi wa yoku ongaku o kikimasu."
         }
       ]
     },
@@ -1111,46 +1111,6 @@
       "lessonType": "reading",
       "sentences": [
         {
-          "jp": "休",
-          "vi": "み",
-          "romaji": "の"
-        },
-        {
-          "jp": "夏",
-          "vi": "は",
-          "romaji": "水"
-        },
-        {
-          "jp": "自",
-          "vi": "転",
-          "romaji": "車"
-        },
-        {
-          "jp": "晩",
-          "vi": "ご",
-          "romaji": "飯"
-        },
-        {
-          "jp": "N",
-          "vi": "g",
-          "romaji": "à"
-        },
-        {
-          "jp": "M",
-          "vi": "ù",
-          "romaji": "a"
-        },
-        {
-          "jp": "T",
-          "vi": "ô",
-          "romaji": "i"
-        },
-        {
-          "jp": "S",
-          "vi": "a",
-          "romaji": "u"
-        },
-        {
           "jp": "休みの日、家で本を読みます。",
           "vi": "Ngày nghỉ tôi đọc sách ở nhà.",
           "romaji": "yasumi no hi, ie de hon o yomimasu."
@@ -1159,6 +1119,46 @@
           "jp": "夏は水泳をします。",
           "vi": "Mùa hè tôi bơi.",
           "romaji": "natsu wa suiei o shimasu."
+        },
+        {
+          "jp": "自転車で公園へ行きます。",
+          "vi": "Tôi đi xe đạp đến công viên.",
+          "romaji": "jitensha de kouen e ikimasu."
+        },
+        {
+          "jp": "晩ご飯のあとでテレビを見ます。",
+          "vi": "Sau bữa tối tôi xem TV.",
+          "romaji": "bangohan no ato de terebi o mimasu."
+        },
+        {
+          "jp": "家の近くに公園があります。",
+          "vi": "Gần nhà có công viên.",
+          "romaji": "ie no chikaku ni kouen ga arimasu."
+        },
+        {
+          "jp": "私はよく音楽を聞きます。",
+          "vi": "Tôi thường nghe nhạc.",
+          "romaji": "watashi wa yoku ongaku o kikimasu."
+        },
+        {
+          "jp": "駅までバスで行きます。",
+          "vi": "Tôi đi xe buýt đến ga.",
+          "romaji": "eki made basu de ikimasu."
+        },
+        {
+          "jp": "毎朝、七時に起きます。",
+          "vi": "Mỗi sáng tôi thức dậy lúc bảy giờ.",
+          "romaji": "mai asa, shichiji ni okimasu."
+        },
+        {
+          "jp": "家族はみんな元気です。",
+          "vi": "Mọi người trong gia đình đều khỏe.",
+          "romaji": "kazoku wa minna genki desu."
+        },
+        {
+          "jp": "ときどき友達と映画を見ます。",
+          "vi": "Thỉnh thoảng tôi xem phim với bạn.",
+          "romaji": "tokidoki tomodachi to eiga o mimasu."
         }
       ]
     },
@@ -1172,46 +1172,6 @@
       "lessonType": "reading",
       "sentences": [
         {
-          "jp": "日",
-          "vi": "曜",
-          "romaji": "日"
-        },
-        {
-          "jp": "冬",
-          "vi": "は",
-          "romaji": "ス"
-        },
-        {
-          "jp": "デ",
-          "vi": "パ",
-          "romaji": "ー"
-        },
-        {
-          "jp": "夜",
-          "vi": "、",
-          "romaji": "シ"
-        },
-        {
-          "jp": "C",
-          "vi": "h",
-          "romaji": "ủ"
-        },
-        {
-          "jp": "M",
-          "vi": "ù",
-          "romaji": "a"
-        },
-        {
-          "jp": "T",
-          "vi": "ô",
-          "romaji": "i"
-        },
-        {
-          "jp": "B",
-          "vi": "u",
-          "romaji": "ổ"
-        },
-        {
           "jp": "日曜日、祖父母の家へ行きます。",
           "vi": "Chủ nhật tôi đi đến nhà ông bà.",
           "romaji": "nichiyoubi, sofubo no ie e ikimasu."
@@ -1220,6 +1180,46 @@
           "jp": "冬はスキーができます。",
           "vi": "Mùa đông tôi có thể trượt tuyết.",
           "romaji": "fuyu wa sukii ga dekimasu."
+        },
+        {
+          "jp": "デパートで買い物をします。",
+          "vi": "Tôi mua sắm ở trung tâm thương mại.",
+          "romaji": "depaato de kaimono o shimasu."
+        },
+        {
+          "jp": "夜、シャワーを浴びます。",
+          "vi": "Buổi tối tôi tắm vòi sen.",
+          "romaji": "yoru, shawaa o abimasu."
+        },
+        {
+          "jp": "家族はみんな元気です。",
+          "vi": "Mọi người trong gia đình đều khỏe.",
+          "romaji": "kazoku wa minna genki desu."
+        },
+        {
+          "jp": "ときどき友達と映画を見ます。",
+          "vi": "Thỉnh thoảng tôi xem phim với bạn.",
+          "romaji": "tokidoki tomodachi to eiga o mimasu."
+        },
+        {
+          "jp": "道をまっすぐ行ってください。",
+          "vi": "Hãy đi thẳng theo đường.",
+          "romaji": "michi o massugu itte kudasai."
+        },
+        {
+          "jp": "朝ご飯を食べて、学校へ行きます。",
+          "vi": "Tôi ăn sáng rồi đi học.",
+          "romaji": "asagohan o tabete, gakkou e ikimasu."
+        },
+        {
+          "jp": "父は会社で働いています。",
+          "vi": "Bố làm việc ở công ty.",
+          "romaji": "chichi wa kaisha de hataraiteimasu."
+        },
+        {
+          "jp": "一週間に二回、図書館へ行きます。",
+          "vi": "Một tuần tôi đi thư viện hai lần.",
+          "romaji": "isshuukan ni nikai, toshokan e ikimasu."
         }
       ]
     },
@@ -1233,46 +1233,6 @@
       "lessonType": "reading",
       "sentences": [
         {
-          "jp": "私",
-          "vi": "の",
-          "romaji": "家"
-        },
-        {
-          "jp": "こ",
-          "vi": "の",
-          "romaji": "歌"
-        },
-        {
-          "jp": "家",
-          "vi": "へ",
-          "romaji": "帰"
-        },
-        {
-          "jp": "寝",
-          "vi": "る",
-          "romaji": "と"
-        },
-        {
-          "jp": "G",
-          "vi": "i",
-          "romaji": "a"
-        },
-        {
-          "jp": "B",
-          "vi": "à",
-          "romaji": "i"
-        },
-        {
-          "jp": "C",
-          "vi": "o",
-          "romaji": "n"
-        },
-        {
-          "jp": "K",
-          "vi": "h",
-          "romaji": "i"
-        },
-        {
           "jp": "私の家族は仲がいいです。",
           "vi": "Gia đình tôi hòa thuận.",
           "romaji": "watashi no kazoku wa naka ga ii desu."
@@ -1281,6 +1241,46 @@
           "jp": "この歌はとてもおもしろいです。",
           "vi": "Bài hát này rất thú vị.",
           "romaji": "kono uta wa totemo omoshiroi desu."
+        },
+        {
+          "jp": "家へ帰る道は静かです。",
+          "vi": "Con đường về nhà yên tĩnh.",
+          "romaji": "ie e kaeru michi wa shizuka desu."
+        },
+        {
+          "jp": "寝るとき、本を読みます。",
+          "vi": "Khi đi ngủ tôi đọc sách.",
+          "romaji": "neru toki, hon o yomimasu."
+        },
+        {
+          "jp": "父は会社で働いています。",
+          "vi": "Bố làm việc ở công ty.",
+          "romaji": "chichi wa kaisha de hataraiteimasu."
+        },
+        {
+          "jp": "一週間に二回、図書館へ行きます。",
+          "vi": "Một tuần tôi đi thư viện hai lần.",
+          "romaji": "isshuukan ni nikai, toshokan e ikimasu."
+        },
+        {
+          "jp": "交差点を右に曲がります。",
+          "vi": "Tôi rẽ phải ở ngã tư.",
+          "romaji": "kousaten o migi ni magarimasu."
+        },
+        {
+          "jp": "学校で日本語を勉強しています。",
+          "vi": "Tôi đang học tiếng Nhật ở trường.",
+          "romaji": "gakkou de nihongo o benkyou shiteimasu."
+        },
+        {
+          "jp": "母は料理が上手です。",
+          "vi": "Mẹ nấu ăn giỏi.",
+          "romaji": "haha wa ryouri ga jouzu desu."
+        },
+        {
+          "jp": "本を読むことが好きです。",
+          "vi": "Tôi thích đọc sách.",
+          "romaji": "hon o yomu koto ga suki desu."
         }
       ]
     },
@@ -1294,46 +1294,6 @@
       "lessonType": "reading",
       "sentences": [
         {
-          "jp": "母",
-          "vi": "は",
-          "romaji": "台"
-        },
-        {
-          "jp": "初",
-          "vi": "め",
-          "romaji": "て"
-        },
-        {
-          "jp": "東",
-          "vi": "京",
-          "romaji": "タ"
-        },
-        {
-          "jp": "毎",
-          "vi": "晩",
-          "romaji": "、"
-        },
-        {
-          "jp": "M",
-          "vi": "ẹ",
-          "romaji": " "
-        },
-        {
-          "jp": "L",
-          "vi": "ầ",
-          "romaji": "n"
-        },
-        {
-          "jp": "C",
-          "vi": "ó",
-          "romaji": " "
-        },
-        {
-          "jp": "T",
-          "vi": "ố",
-          "romaji": "i"
-        },
-        {
           "jp": "母は台所で料理を作っています。",
           "vi": "Mẹ đang nấu ăn trong bếp.",
           "romaji": "haha wa daidokoro de ryouri o tsukutteimasu."
@@ -1342,6 +1302,46 @@
           "jp": "初めて日本へ旅行しました。",
           "vi": "Lần đầu tôi đã đi du lịch Nhật.",
           "romaji": "hajimete nihon e ryokou shimashita."
+        },
+        {
+          "jp": "東京タワーが見えます。",
+          "vi": "Có thể nhìn thấy Tháp Tokyo.",
+          "romaji": "toukyou tawaa ga miemasu."
+        },
+        {
+          "jp": "毎晩、日本語を勉強しています。",
+          "vi": "Tối nào tôi cũng học tiếng Nhật.",
+          "romaji": "maiban, nihongo o benkyou shiteimasu."
+        },
+        {
+          "jp": "母は料理が上手です。",
+          "vi": "Mẹ nấu ăn giỏi.",
+          "romaji": "haha wa ryouri ga jouzu desu."
+        },
+        {
+          "jp": "本を読むことが好きです。",
+          "vi": "Tôi thích đọc sách.",
+          "romaji": "hon o yomu koto ga suki desu."
+        },
+        {
+          "jp": "ここから山が見えます。",
+          "vi": "Từ đây có thể nhìn thấy núi.",
+          "romaji": "koko kara yama ga miemasu."
+        },
+        {
+          "jp": "休み時間に友達と話します。",
+          "vi": "Giờ nghỉ tôi nói chuyện với bạn.",
+          "romaji": "yasumi jikan ni tomodachi to hanashimasu."
+        },
+        {
+          "jp": "私は家族と一緒に晩ご飯を食べます。",
+          "vi": "Tôi ăn tối cùng gia đình.",
+          "romaji": "watashi wa kazoku to issho ni bangohan o tabemasu."
+        },
+        {
+          "jp": "料理を作ることができます。",
+          "vi": "Tôi có thể nấu ăn.",
+          "romaji": "ryouri o tsukuru koto ga dekimasu."
         }
       ]
     },
@@ -1355,46 +1355,6 @@
       "lessonType": "reading",
       "sentences": [
         {
-          "jp": "猫",
-          "vi": "が",
-          "romaji": "二"
-        },
-        {
-          "jp": "休",
-          "vi": "み",
-          "romaji": "の"
-        },
-        {
-          "jp": "東",
-          "vi": "京",
-          "romaji": "で"
-        },
-        {
-          "jp": "学",
-          "vi": "校",
-          "romaji": "へ"
-        },
-        {
-          "jp": "T",
-          "vi": "ô",
-          "romaji": "i"
-        },
-        {
-          "jp": "N",
-          "vi": "g",
-          "romaji": "à"
-        },
-        {
-          "jp": "T",
-          "vi": "ô",
-          "romaji": "i"
-        },
-        {
-          "jp": "K",
-          "vi": "h",
-          "romaji": "i"
-        },
-        {
           "jp": "猫が二匹います。",
           "vi": "Tôi có hai con mèo.",
           "romaji": "neko ga nihiki imasu."
@@ -1403,6 +1363,46 @@
           "jp": "休みの日、料理をしたり本を読んだりします。",
           "vi": "Ngày nghỉ tôi nấu ăn và đọc sách.",
           "romaji": "yasumi no hi, ryouri o shitari hon o yondari shimasu."
+        },
+        {
+          "jp": "東京で一日観光をします。",
+          "vi": "Tôi tham quan Tokyo một ngày.",
+          "romaji": "toukyou de ichinichi kankou o shimasu."
+        },
+        {
+          "jp": "学校へ行くとき、宿題を準備します。",
+          "vi": "Khi đi học tôi chuẩn bị bài tập.",
+          "romaji": "gakkou e iku toki, shukudai o junbi shimasu."
+        },
+        {
+          "jp": "私は家族と一緒に晩ご飯を食べます。",
+          "vi": "Tôi ăn tối cùng gia đình.",
+          "romaji": "watashi wa kazoku to issho ni bangohan o tabemasu."
+        },
+        {
+          "jp": "料理を作ることができます。",
+          "vi": "Tôi có thể nấu ăn.",
+          "romaji": "ryouri o tsukuru koto ga dekimasu."
+        },
+        {
+          "jp": "鳥の声が聞こえます。",
+          "vi": "Có thể nghe tiếng chim.",
+          "romaji": "tori no koe ga kikoemasu."
+        },
+        {
+          "jp": "家に帰ってから、晩ご飯を食べます。",
+          "vi": "Sau khi về nhà, tôi ăn tối.",
+          "romaji": "ie ni kaette kara, bangohan o tabemasu."
+        },
+        {
+          "jp": "休みの日は家でゆっくりします。",
+          "vi": "Ngày nghỉ tôi nghỉ ngơi ở nhà.",
+          "romaji": "yasumi no hi wa ie de yukkuri shimasu."
+        },
+        {
+          "jp": "全然スポーツをしない日もあります。",
+          "vi": "Cũng có những ngày tôi hoàn toàn không chơi thể thao.",
+          "romaji": "zenzen supootsu o shinai hi mo arimasu."
         }
       ]
     },
@@ -1416,46 +1416,6 @@
       "lessonType": "reading",
       "sentences": [
         {
-          "jp": "隣",
-          "vi": "の",
-          "romaji": "人"
-        },
-        {
-          "jp": "友",
-          "vi": "達",
-          "romaji": "と"
-        },
-        {
-          "jp": "も",
-          "vi": "う",
-          "romaji": "バ"
-        },
-        {
-          "jp": "十",
-          "vi": "一",
-          "romaji": "時"
-        },
-        {
-          "jp": "N",
-          "vi": "g",
-          "romaji": "ư"
-        },
-        {
-          "jp": "T",
-          "vi": "ô",
-          "romaji": "i"
-        },
-        {
-          "jp": "X",
-          "vi": "e",
-          "romaji": " "
-        },
-        {
-          "jp": "T",
-          "vi": "ô",
-          "romaji": "i"
-        },
-        {
           "jp": "隣の人は親切です。",
           "vi": "Người hàng xóm tốt bụng.",
           "romaji": "tonari no hito wa shinsetsu desu."
@@ -1464,6 +1424,46 @@
           "jp": "友達と公園へ行って、話します。",
           "vi": "Tôi đi công viên và nói chuyện với bạn.",
           "romaji": "tomodachi to kouen e itte, hanashimasu."
+        },
+        {
+          "jp": "もうバスが来ました。",
+          "vi": "Xe buýt đã đến rồi.",
+          "romaji": "mou basu ga kimashita."
+        },
+        {
+          "jp": "十一時に寝ます。",
+          "vi": "Tôi đi ngủ lúc mười một giờ.",
+          "romaji": "juuichi ji ni nemasu."
+        },
+        {
+          "jp": "休みの日は家でゆっくりします。",
+          "vi": "Ngày nghỉ tôi nghỉ ngơi ở nhà.",
+          "romaji": "yasumi no hi wa ie de yukkuri shimasu."
+        },
+        {
+          "jp": "全然スポーツをしない日もあります。",
+          "vi": "Cũng có những ngày tôi hoàn toàn không chơi thể thao.",
+          "romaji": "zenzen supootsu o shinai hi mo arimasu."
+        },
+        {
+          "jp": "ここで写真を撮ってもいいですか。",
+          "vi": "Tôi chụp ảnh ở đây được không?",
+          "romaji": "koko de shashin o totte mo ii desu ka."
+        },
+        {
+          "jp": "休みの日は本を読んだり、音楽を聞いたりします。",
+          "vi": "Ngày nghỉ tôi đọc sách và nghe nhạc.",
+          "romaji": "yasumi no hi wa hon o yondari, ongaku o kiitari shimasu."
+        },
+        {
+          "jp": "友達からメールをもらいました。",
+          "vi": "Tôi nhận được email từ bạn.",
+          "romaji": "tomodachi kara meeru o moraimashita."
+        },
+        {
+          "jp": "でも、週末は外へ出かけます。",
+          "vi": "Nhưng cuối tuần tôi đi ra ngoài.",
+          "romaji": "demo, shuumatsu wa soto e dekakemasu."
         }
       ]
     },
@@ -1477,46 +1477,6 @@
       "lessonType": "reading",
       "sentences": [
         {
-          "jp": "家",
-          "vi": "族",
-          "romaji": "は"
-        },
-        {
-          "jp": "私",
-          "vi": "の",
-          "romaji": "趣"
-        },
-        {
-          "jp": "こ",
-          "vi": "こ",
-          "romaji": "に"
-        },
-        {
-          "jp": "忙",
-          "vi": "し",
-          "romaji": "い"
-        },
-        {
-          "jp": "G",
-          "vi": "i",
-          "romaji": "a"
-        },
-        {
-          "jp": "S",
-          "vi": "ở",
-          "romaji": " "
-        },
-        {
-          "jp": "T",
-          "vi": "ô",
-          "romaji": "i"
-        },
-        {
-          "jp": "T",
-          "vi": "u",
-          "romaji": "y"
-        },
-        {
           "jp": "家族は私にとって大切な人です。",
           "vi": "Gia đình là những người quan trọng đối với tôi.",
           "romaji": "kazoku wa watashi ni totte taisetsu na hito desu."
@@ -1525,6 +1485,46 @@
           "jp": "私の趣味は写真を撮ることです。",
           "vi": "Sở thích của tôi là chụp ảnh.",
           "romaji": "watashi no shumi wa shashin o toru koto desu."
+        },
+        {
+          "jp": "ここに荷物を置いてもいいですか。",
+          "vi": "Tôi để hành lý ở đây được không?",
+          "romaji": "koko ni nimotsu o oite mo ii desu ka."
+        },
+        {
+          "jp": "忙しいですが、毎日楽しいです。",
+          "vi": "Tuy bận nhưng mỗi ngày đều vui.",
+          "romaji": "isogashii desu ga, mainichi tanoshii desu."
+        },
+        {
+          "jp": "友達からメールをもらいました。",
+          "vi": "Tôi nhận được email từ bạn.",
+          "romaji": "tomodachi kara meeru o moraimashita."
+        },
+        {
+          "jp": "でも、週末は外へ出かけます。",
+          "vi": "Nhưng cuối tuần tôi đi ra ngoài.",
+          "romaji": "demo, shuumatsu wa soto e dekakemasu."
+        },
+        {
+          "jp": "そこに入らないでください。",
+          "vi": "Xin đừng vào đó.",
+          "romaji": "soko ni hairanaide kudasai."
+        },
+        {
+          "jp": "疲れたとき、少し休みます。",
+          "vi": "Khi mệt, tôi nghỉ một chút.",
+          "romaji": "tsukareta toki, sukoshi yasumimasu."
+        },
+        {
+          "jp": "私は大切な人にプレゼントをあげます。",
+          "vi": "Tôi tặng quà cho người quan trọng.",
+          "romaji": "watashi wa taisetsu na hito ni purezento o agemasu."
+        },
+        {
+          "jp": "友達と話して、写真を撮ります。",
+          "vi": "Tôi nói chuyện và chụp ảnh với bạn.",
+          "romaji": "tomodachi to hanashite, shashin o torimasu."
         }
       ]
     }

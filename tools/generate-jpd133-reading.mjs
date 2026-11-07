@@ -84,17 +84,6 @@ const supportingSentences = {
   ],
 };
 
-const readingLessons = lessons.flatMap((lesson) => lesson.texts.map(([jp, vi, romaji], index) => ({
-  id: lesson.id * 100 + index + 1,
-  orderIndex: index + 1,
-  topic: lesson.topic,
-  title: `R${String(index + 1).padStart(3, '0')} - ${lesson.titles[index]}`,
-  subtitle: `${lesson.topic}: ${lesson.titles[index]}`,
-  summary: lesson.summary,
-  lessonType: 'reading',
-  sentences: [{ jp, vi, romaji }, ...supportingSentences[lesson.id].map(([supportingJp, supportingVi, supportingRomaji]) => ({ jp: supportingJp, vi: supportingVi, romaji: supportingRomaji }))],
-})));
-
 const mixedTitles = [
   'Một ngày của gia đình', 'Nhà và sở thích', 'Cuối tuần cùng bạn', 'Đi học và đi làm', 'Một chuyến đi ngắn',
   'Món quà và kỷ niệm', 'Âm nhạc trong cuộc sống', 'Đường đến thư viện', 'Gia đình và thú cưng', 'Bữa tối cùng nhau',
@@ -104,12 +93,19 @@ const mixedTitles = [
 ];
 const mixedLessons = Array.from({ length: 25 }, (_, index) => {
   const sourceSentences = lessons.map((lesson) => lesson.texts[index]);
-  const texts = [
-    ...sourceSentences.map((sentences) => sentences[0]),
-    ...sourceSentences.map((sentences) => sentences[1]),
-    sourceSentences[0],
-    sourceSentences[1],
-  ];
+  const texts = [...sourceSentences];
+  const usedJapanese = new Set(texts.map(([jp]) => jp));
+  for (let offset = 0; offset < 9 && texts.length < 10; offset += 1) {
+    for (const lesson of lessons) {
+      const pool = supportingSentences[lesson.id];
+      const candidate = pool[(index + offset) % pool.length];
+      if (!usedJapanese.has(candidate[0])) {
+        texts.push(candidate);
+        usedJapanese.add(candidate[0]);
+      }
+      if (texts.length === 10) break;
+    }
+  }
   return {
     id: 801 + index,
     orderIndex: index + 1,
@@ -121,6 +117,17 @@ const mixedLessons = Array.from({ length: 25 }, (_, index) => {
     sentences: texts.map(([jp, vi, romaji]) => ({ jp, vi, romaji })),
   };
 });
+
+if (mixedLessons.length !== 25 || mixedLessons.some((lesson) => lesson.sentences.length !== 10)) {
+  throw new Error('Expected 25 JPD133 reading lessons with 10 sentences each.');
+}
+for (const lesson of mixedLessons) {
+  for (const sentence of lesson.sentences) {
+    if (!/[。！？]$/u.test(sentence.jp) || sentence.vi.length < 10 || !/^[a-z]/iu.test(sentence.romaji)) {
+      throw new Error(`Incomplete sentence in JPD133 reading lesson ${lesson.id}`);
+    }
+  }
+}
 
 const importFile = {
   courseCode: 'jpd133', accessTier: 'premium', packageCode: 'speaking_jpd133', lessons: mixedLessons,
