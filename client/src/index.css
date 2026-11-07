@@ -221,15 +221,15 @@
   }
 
   .jp-course-card--compact .jp-course-card-top {
-    @apply min-h-[150px] py-5;
+    @apply min-h-[120px] py-4;
   }
 
   .jp-course-card--compact .jp-course-card-title {
-    @apply text-4xl;
+    @apply text-3xl;
   }
 
   .jp-course-card--compact .jp-course-card-bottom {
-    @apply px-4 py-3;
+    @apply px-4 py-2.5;
   }
 
   .jp-course-card-top {

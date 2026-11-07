@@ -336,7 +336,7 @@ export const SpeakingCoursePage = () => {
   };
 
   return (
-    <div className="mx-auto max-w-[1295px] space-y-6 px-4 pb-14 animate-fade-in md:px-6">
+    <div className="mx-auto max-w-[1120px] space-y-5 px-4 pb-10 animate-fade-in md:px-6">
       <header className="space-y-4">
         <button
           onClick={handleBack}
@@ -403,27 +403,27 @@ export const SpeakingCoursePage = () => {
               <div className="relative grid grid-cols-1 gap-5 lg:grid-cols-2">
               <button
                 onClick={() => setSelectedType('reading')}
-                className="group relative flex min-h-[275px] flex-col overflow-hidden rounded-[22px] border border-orange-200 bg-white/90 p-5 text-left shadow-[0_16px_44px_rgba(251,146,60,0.12)] transition-all hover:-translate-y-1 hover:border-orange-300 hover:shadow-[0_24px_58px_rgba(251,146,60,0.18)] md:p-6"
+                className="group relative flex min-h-[230px] flex-col overflow-hidden rounded-[22px] border border-orange-200 bg-white/90 p-4 text-left shadow-[0_16px_44px_rgba(251,146,60,0.12)] transition-all hover:-translate-y-1 hover:border-orange-300 hover:shadow-[0_24px_58px_rgba(251,146,60,0.18)] md:p-5"
               >
                 <div className="pointer-events-none absolute -right-16 top-10 h-56 w-56 rounded-full bg-orange-50" />
                 <div className="pointer-events-none absolute right-4 top-16 hidden text-[52px] font-black text-orange-200/80 md:block">日本語</div>
                 <div className="pointer-events-none absolute bottom-20 right-7 hidden h-16 w-24 rotate-[-6deg] rounded-b-full border-b-[10px] border-x-[8px] border-orange-200/80 md:block" />
 
-                <div className="relative flex h-16 w-16 items-center justify-center rounded-full border border-orange-300 bg-gradient-to-br from-orange-400 to-orange-600 text-white shadow-[0_12px_24px_rgba(234,88,12,0.32)]">
-                  <BookOpen size={30} />
+                <div className="relative flex h-14 w-14 items-center justify-center rounded-full border border-orange-300 bg-gradient-to-br from-orange-400 to-orange-600 text-white shadow-[0_12px_24px_rgba(234,88,12,0.32)]">
+                  <BookOpen size={26} />
                 </div>
-                <div className="relative mt-5 max-w-[360px]">
-                  <span className="inline-flex h-8 items-center rounded-lg bg-orange-100 px-3.5 text-xs font-black uppercase tracking-wider text-orange-600">
+                <div className="relative mt-3 max-w-[360px]">
+                  <span className="inline-flex h-7 items-center rounded-lg bg-orange-100 px-3 text-[11px] font-black uppercase tracking-wider text-orange-600">
                     Phần 1
                   </span>
-                  <h3 className="mt-4 font-heading text-2xl font-black leading-tight text-slate-950 md:text-[28px]">
+                  <h3 className="mt-2 font-heading text-[22px] font-black leading-tight text-slate-950 md:text-[24px]">
                     Luyện Đọc Thành Tiếng
                   </h3>
-                  <p className="mt-3 text-sm font-bold leading-6 text-slate-500">
+                  <p className="mt-2 text-[13px] font-bold leading-5 text-slate-500">
                     Luyện đọc các đoạn văn tiếng Nhật theo từng chủ đề. Tích hợp âm thanh phát âm chuẩn, cách đọc Kanji và dịch nghĩa đầy đủ.
                   </p>
                 </div>
-                <div className="relative mt-auto grid h-[52px] grid-cols-[1fr_auto_1fr_auto] items-center overflow-hidden rounded-xl border border-orange-200 bg-orange-50/60 text-xs font-black uppercase tracking-wider text-orange-600 shadow-sm">
+                <div className="relative mt-auto grid h-[44px] grid-cols-[1fr_auto_1fr_auto] items-center overflow-hidden rounded-xl border border-orange-200 bg-orange-50/60 text-[11px] font-black uppercase tracking-wider text-orange-600 shadow-sm">
                   <span className="px-4 text-center">{readingLessons.length} bài đọc</span>
                   <span className="text-orange-500">•</span>
                   <span className="px-4 text-center">Bắt đầu</span>
@@ -435,7 +435,7 @@ export const SpeakingCoursePage = () => {
 
               <button
                 onClick={() => setSelectedType('qa')}
-                className="group relative flex min-h-[275px] flex-col overflow-hidden rounded-[22px] border border-blue-200 bg-white/90 p-5 text-left shadow-[0_16px_44px_rgba(59,130,246,0.12)] transition-all hover:-translate-y-1 hover:border-blue-300 hover:shadow-[0_24px_58px_rgba(59,130,246,0.18)] md:p-6"
+                className="group relative flex min-h-[230px] flex-col overflow-hidden rounded-[22px] border border-blue-200 bg-white/90 p-4 text-left shadow-[0_16px_44px_rgba(59,130,246,0.12)] transition-all hover:-translate-y-1 hover:border-blue-300 hover:shadow-[0_24px_58px_rgba(59,130,246,0.18)] md:p-5"
               >
                 <div className="pointer-events-none absolute -right-14 top-14 h-52 w-52 rounded-full bg-blue-50" />
                 <div className="pointer-events-none absolute bottom-20 right-8 hidden h-20 w-28 rounded-t-full bg-gradient-to-b from-blue-200 to-blue-500 opacity-80 md:block" />
@@ -443,21 +443,21 @@ export const SpeakingCoursePage = () => {
                 <div className="pointer-events-none absolute right-20 top-16 hidden rounded-2xl bg-blue-400 px-3.5 py-2 font-heading text-3xl font-black text-blue-900 shadow-lg md:block">?</div>
                 <div className="pointer-events-none absolute right-8 top-28 hidden rounded-2xl bg-white px-3.5 py-1.5 font-heading text-3xl font-black text-blue-600 shadow-lg md:block">!</div>
 
-                <div className="relative flex h-16 w-16 items-center justify-center rounded-full border border-blue-300 bg-gradient-to-br from-blue-400 to-blue-700 text-white shadow-[0_12px_24px_rgba(37,99,235,0.32)]">
-                  <MessageSquare size={30} />
+                <div className="relative flex h-14 w-14 items-center justify-center rounded-full border border-blue-300 bg-gradient-to-br from-blue-400 to-blue-700 text-white shadow-[0_12px_24px_rgba(37,99,235,0.32)]">
+                  <MessageSquare size={26} />
                 </div>
-                <div className="relative mt-5 max-w-[390px]">
-                  <span className="inline-flex h-8 items-center rounded-lg bg-blue-100 px-3.5 text-xs font-black uppercase tracking-wider text-blue-600">
+                <div className="relative mt-3 max-w-[390px]">
+                  <span className="inline-flex h-7 items-center rounded-lg bg-blue-100 px-3 text-[11px] font-black uppercase tracking-wider text-blue-600">
                     Phần 2
                   </span>
-                  <h3 className="mt-4 font-heading text-2xl font-black leading-tight text-slate-950 md:text-[28px]">
+                  <h3 className="mt-2 font-heading text-[22px] font-black leading-tight text-slate-950 md:text-[24px]">
                     Luyện Phản Xạ Vấn Đáp (Q&A)
                   </h3>
-                  <p className="mt-3 text-sm font-bold leading-6 text-slate-500">
+                  <p className="mt-2 text-[13px] font-bold leading-5 text-slate-500">
                     Luyện phản xạ nghe câu hỏi ngắn của giám khảo, có hoặc không tranh, rồi tự đưa ra câu trả lời nhanh dựa trên từ khóa.
                   </p>
                 </div>
-                <div className="relative mt-auto grid h-[52px] grid-cols-[1fr_auto_1fr_auto] items-center overflow-hidden rounded-xl border border-blue-200 bg-blue-50/70 text-xs font-black uppercase tracking-wider text-blue-600 shadow-sm">
+                <div className="relative mt-auto grid h-[44px] grid-cols-[1fr_auto_1fr_auto] items-center overflow-hidden rounded-xl border border-blue-200 bg-blue-50/70 text-[11px] font-black uppercase tracking-wider text-blue-600 shadow-sm">
                   <span className="px-4 text-center">{activeQaLessons.length} bài phản xạ</span>
                   <span className="text-blue-500">•</span>
                   <span className="px-4 text-center">Bắt đầu</span>
@@ -658,12 +658,12 @@ export const SpeakingCoursePage = () => {
                   <div className="grid grid-cols-1 gap-5 pt-1 sm:grid-cols-2">
                     <button
                       onClick={() => setSelectedQaMode('no_image')}
-                      className="group relative flex min-h-[205px] flex-col overflow-hidden rounded-[24px] border border-blue-200 bg-white p-6 text-left shadow-[0_16px_38px_rgba(37,99,235,0.10)] transition-all hover:-translate-y-1 hover:border-blue-300 hover:shadow-[0_22px_45px_rgba(37,99,235,0.16)]"
+                      className="group relative flex min-h-[180px] flex-col overflow-hidden rounded-[22px] border border-blue-200 bg-white p-5 text-left shadow-[0_16px_38px_rgba(37,99,235,0.10)] transition-all hover:-translate-y-1 hover:border-blue-300 hover:shadow-[0_22px_45px_rgba(37,99,235,0.16)]"
                     >
-                      <div className="flex h-16 w-16 items-center justify-center rounded-full bg-gradient-to-br from-blue-400 to-blue-700 text-white shadow-[0_12px_24px_rgba(37,99,235,0.25)]">
+                      <div className="flex h-14 w-14 items-center justify-center rounded-full bg-gradient-to-br from-blue-400 to-blue-700 text-white shadow-[0_12px_24px_rgba(37,99,235,0.25)]">
                         <HelpCircle size={24} />
                       </div>
-                      <h4 className="mt-4 font-heading text-2xl font-black text-[#07155c]">
+                      <h4 className="mt-3 font-heading text-xl font-black text-[#07155c]">
                         Chế độ 1: Vấn đáp không tranh
                       </h4>
                       <p className="mt-2 flex-grow text-sm font-bold leading-6 text-slate-500">
@@ -676,12 +676,12 @@ export const SpeakingCoursePage = () => {
 
                     <button
                       onClick={() => setSelectedQaMode('with_image')}
-                      className="group relative flex min-h-[205px] flex-col overflow-hidden rounded-[24px] border border-blue-200 bg-white p-6 text-left shadow-[0_16px_38px_rgba(37,99,235,0.10)] transition-all hover:-translate-y-1 hover:border-blue-300 hover:shadow-[0_22px_45px_rgba(37,99,235,0.16)]"
+                      className="group relative flex min-h-[180px] flex-col overflow-hidden rounded-[22px] border border-blue-200 bg-white p-5 text-left shadow-[0_16px_38px_rgba(37,99,235,0.10)] transition-all hover:-translate-y-1 hover:border-blue-300 hover:shadow-[0_22px_45px_rgba(37,99,235,0.16)]"
                     >
-                      <div className="flex h-16 w-16 items-center justify-center rounded-full bg-gradient-to-br from-blue-400 to-blue-700 text-white shadow-[0_12px_24px_rgba(37,99,235,0.25)]">
+                      <div className="flex h-14 w-14 items-center justify-center rounded-full bg-gradient-to-br from-blue-400 to-blue-700 text-white shadow-[0_12px_24px_rgba(37,99,235,0.25)]">
                         <ImageIcon size={24} />
                       </div>
-                      <h4 className="mt-4 font-heading text-2xl font-black text-[#07155c]">
+                      <h4 className="mt-3 font-heading text-xl font-black text-[#07155c]">
                         Chế độ 2: Vấn đáp có tranh
                       </h4>
                       <p className="mt-2 flex-grow text-sm font-bold leading-6 text-slate-500">
