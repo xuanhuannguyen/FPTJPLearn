@@ -191,20 +191,20 @@ export const ExamStudyPage = () => {
   }, [questions.length]);
 
   return (
-    <div className="mx-auto max-w-5xl space-y-5 px-4 pb-20 pt-4 animate-fade-in">
+    <div className="mx-auto w-full max-w-[1000px] space-y-[24px] px-4 pb-20 pt-4 animate-fade-in">
       <header className="flex flex-col gap-4 md:flex-row md:items-end md:justify-between">
         <div>
           <button
             type="button"
             onClick={() => navigate(`/exam/${courseCode}`)}
-            className="inline-flex items-center gap-2 text-sm font-extrabold text-text-muted transition hover:text-text-primary"
+            className="inline-flex items-center gap-2 text-[15px] font-extrabold text-text-muted transition hover:text-text-primary"
           >
             <ArrowLeft size={18} />
             Quay lại {courseCode.toUpperCase()}
           </button>
-          <p className="mt-4 text-xs font-black uppercase tracking-[0.18em] text-text-muted">Chế độ học</p>
-          <h1 className="text-3xl font-black text-text-primary">{activeTopic?.label ?? 'Luyện câu hỏi'}</h1>
-          <p className="mt-1 text-xs font-bold text-text-muted">
+          <p className="mt-4 text-[13px] font-black uppercase tracking-[0.16em] text-slate-500">Chế độ học</p>
+          <h1 className="mt-1 text-[34px] font-black tracking-tight text-text-primary">{activeTopic?.label ?? 'Luyện câu hỏi'}</h1>
+          <p className="mt-1 text-[14px] font-semibold text-slate-500">
             Có thể dùng phím ← / → để chuyển câu nhanh.
           </p>
         </div>
@@ -215,9 +215,10 @@ export const ExamStudyPage = () => {
               key={item.topic}
               type="button"
               onClick={() => navigate(`/exam/study/${item.topic}${courseQuery}`)}
-              className={`border-2 px-4 py-2 text-xs font-black transition-all hover:-translate-y-0.5 hover:-translate-x-0.5 ${
+              aria-pressed={item.topic === topic}
+              className={`min-h-[42px] rounded-xl border-2 px-[16px] py-[8px] text-[14px] font-black transition-all hover:-translate-y-0.5 hover:-translate-x-0.5 focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-blue-100 ${
                 item.topic === topic
-                  ? 'border-border-active bg-slate-900 text-white shadow-pop'
+                  ? 'border-blue-600 bg-blue-600 text-white shadow-md shadow-blue-200'
                   : 'border-slate-200 bg-white text-slate-500 hover:border-border-hover hover:text-slate-900 hover:shadow-lift'
               }`}
             >
@@ -228,7 +229,7 @@ export const ExamStudyPage = () => {
       </header>
 
       {error ? (
-        <div className="border-2 border-accent-danger bg-accent-danger/10 p-4 text-sm font-bold text-accent-danger">
+        <div className="rounded-2xl border-2 border-accent-danger bg-accent-danger/10 p-4 text-[15px] font-bold text-accent-danger">
           {error}
         </div>
       ) : null}
@@ -236,13 +237,13 @@ export const ExamStudyPage = () => {
       {isLoading ? (
         <div className="flex min-h-80 flex-col items-center justify-center border-2 border-border bg-white shadow-card">
           <Loader2 size={36} className="mb-4 animate-spin text-accent-primary" />
-          <p className="font-black text-slate-600">Đang tải câu hỏi...</p>
+          <p className="text-[16px] font-black text-slate-600">Đang tải câu hỏi...</p>
         </div>
       ) : isCompleted ? (
-        <div className="border-2 border-border bg-white p-8 text-center shadow-card">
+        <div className="rounded-3xl border border-slate-200 bg-white p-8 text-center shadow-card">
           <CheckCircle2 size={56} className="mx-auto text-accent-success" />
-          <h2 className="mt-4 text-3xl font-black text-slate-900">Hoàn thành chủ đề</h2>
-          <p className="mt-2 font-bold text-slate-500">Bạn đã học hết {questions.length} câu trong chủ đề này.</p>
+          <h2 className="mt-4 text-[32px] font-black text-slate-900">Hoàn thành chủ đề</h2>
+          <p className="mt-2 text-[16px] font-semibold text-slate-600">Bạn đã học hết {questions.length} câu trong chủ đề này.</p>
           <button
             type="button"
             onClick={() => {
@@ -250,26 +251,26 @@ export const ExamStudyPage = () => {
               const storageKey = `exam_progress_${courseCode}_${topic}`;
               localStorage.removeItem(storageKey);
             }}
-            className="mt-6 inline-flex h-11 items-center gap-2 border-2 border-border bg-[#3B82F6] px-5 text-sm font-black text-white shadow-card transition-all hover:-translate-y-0.5 hover:shadow-lift"
+            className="mt-6 inline-flex h-[48px] items-center gap-2 rounded-xl border-2 border-border bg-[#3B82F6] px-5 text-[15px] font-black text-white shadow-card transition-all hover:-translate-y-0.5 hover:shadow-lift"
           >
             Học lại
           </button>
         </div>
       ) : questions.length === 0 ? (
-        <div className="border-2 border-border bg-white p-8 text-center shadow-card">
-          <h2 className="text-2xl font-black text-slate-900">Chưa có câu hỏi</h2>
-          <p className="mt-2 font-bold text-slate-500">Chủ đề này chưa có dữ liệu luyện thi.</p>
+        <div className="rounded-3xl border border-slate-200 bg-white p-8 text-center shadow-card">
+          <h2 className="text-[28px] font-black text-slate-900">Chưa có câu hỏi</h2>
+          <p className="mt-2 text-[16px] font-semibold text-slate-600">Chủ đề này chưa có dữ liệu luyện thi.</p>
         </div>
       ) : (
-        <section className="border-2 border-border bg-white p-5 shadow-card md:p-8">
-          <div className="mb-5 flex flex-wrap items-center justify-between gap-3 border-b-2 border-slate-200 pb-4">
+        <section className="rounded-[28px] border border-slate-200 bg-white p-[22px] shadow-[0_12px_36px_rgba(15,23,42,0.07)] md:p-[32px]">
+          <div className="mb-6 flex flex-wrap items-center justify-between gap-3 border-b border-slate-200 pb-5">
             <div>
-              <p className="text-xs font-black uppercase tracking-[0.18em] text-slate-500">Question</p>
-              <h2 className="text-2xl font-black text-slate-900">
+              <p className="text-[13px] font-black uppercase tracking-[0.16em] text-slate-500">Câu hỏi</p>
+              <h2 className="mt-1 text-[28px] font-black leading-tight text-slate-900">
                 {Math.min(currentIndex + 1, questions.length)} / {questions.length}
               </h2>
             </div>
-            <span className="bg-slate-100 px-3 py-1 text-xs font-black uppercase text-slate-600">
+            <span className="rounded-lg bg-slate-100 px-3 py-2 text-[13px] font-black uppercase text-slate-600">
               {currentQuestion?.level ?? 'n5'}
             </span>
           </div>
@@ -282,18 +283,18 @@ export const ExamStudyPage = () => {
           ) : (
             <div className="space-y-6">
               {currentQuestion.passage ? (
-                <div className="border-2 border-slate-200 bg-[#F8FAFC] p-5">
-                  <p className="mb-2 text-xs font-black uppercase tracking-[0.16em] text-slate-500">{currentQuestion.passage.title}</p>
-                  <p className="whitespace-pre-wrap font-jp text-lg font-medium leading-9 tracking-[0.01em] text-slate-900">{currentQuestion.passage.content}</p>
+                <div className="rounded-2xl border border-slate-200 bg-[#F8FAFC] p-[18px] md:p-[24px]">
+                  <p className="mb-3 text-[14px] font-black uppercase tracking-[0.14em] text-slate-500">{currentQuestion.passage.title}</p>
+                  <p className="whitespace-pre-wrap font-jp text-[20px] font-medium leading-[1.9] tracking-[0.01em] text-slate-900 md:text-[22px]">{currentQuestion.passage.content}</p>
                 </div>
               ) : null}
 
               <div>
-                <p className="text-xs font-black uppercase tracking-[0.18em] text-text-muted">Câu hỏi</p>
-                <h2 className="mt-2 font-jp text-2xl font-bold leading-[1.75] tracking-[0.01em] text-text-primary">{currentQuestion.questionText}</h2>
+                <p className="text-[14px] font-black uppercase tracking-[0.14em] text-blue-600">Câu hỏi</p>
+                <h2 className="mt-2 font-jp text-[25px] font-bold leading-[1.8] tracking-[0.01em] text-slate-900 md:text-[30px]">{currentQuestion.questionText}</h2>
               </div>
 
-              <div className="grid gap-2">
+              <div className="grid gap-3">
                 {currentQuestion.options.map((option) => {
                   const isSelected = selectedOptionId === option.id;
                   const isCorrect = answerResult?.correctOptionId === option.id;
@@ -305,7 +306,7 @@ export const ExamStudyPage = () => {
                       type="button"
                       disabled={Boolean(answerResult) || isAnswering}
                       onClick={() => answerQuestion(option.id)}
-                      className={`flex min-h-[52px] items-center gap-3 border-2 bg-white px-4 py-2.5 text-left transition-all ${
+                      className={`flex min-h-[68px] items-center gap-4 rounded-2xl border-2 bg-white px-[20px] py-[16px] text-left transition-all focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-blue-100 ${
                         isCorrect
                           ? 'border-accent-success bg-[#ECFDF5] text-accent-success shadow-[3px_3px_0_#10B981]'
                           : isWrongSelection
@@ -315,42 +316,42 @@ export const ExamStudyPage = () => {
                               : 'border-slate-200 text-slate-900 hover:-translate-y-0.5 hover:border-border-hover hover:shadow-lift'
                       } disabled:cursor-default`}
                     >
-                      <span className="grid h-7 w-7 shrink-0 place-items-center border-2 border-current text-xs font-black">{option.label}</span>
-                      <span className="font-jp text-base font-semibold leading-relaxed tracking-[0.01em]">{option.text}</span>
+                      <span className="grid h-[36px] w-[36px] shrink-0 place-items-center rounded-xl border-2 border-current text-[14px] font-black">{option.label}</span>
+                      <span className="font-jp text-[20px] font-semibold leading-relaxed tracking-[0.01em]">{option.text}</span>
                     </button>
                   );
                 })}
               </div>
 
               {answerResult ? (
-                <div className={`mt-4 border-2 p-5 shadow-[4px_4px_0_currentColor] ${
+                <div className={`mt-4 rounded-2xl border-2 p-5 shadow-sm md:p-6 ${
                   answerResult.isCorrect
                     ? 'border-accent-success bg-[#ECFDF5] text-accent-success'
                     : 'border-accent-danger bg-[#FEF2F2] text-accent-danger'
                 }`}>
-                  <div className="flex items-center gap-2 font-black text-lg">
+                  <div className="flex items-center gap-2 font-black text-[20px]">
                     {answerResult.isCorrect ? <CheckCircle2 size={24} /> : <XCircle size={24} />}
                     {answerResult.isCorrect ? 'Chính xác' : 'Chưa đúng'}
                   </div>
-                  <p className="mt-3 text-[15px] font-bold leading-relaxed text-slate-800">{answerResult.explanation}</p>
+                  <p className="mt-3 text-[17px] font-semibold leading-relaxed text-slate-800">{answerResult.explanation}</p>
                 </div>
               ) : null}
 
-              <div className="flex flex-wrap justify-end gap-3 pt-4">
+              <div className="flex flex-wrap justify-end gap-3 border-t border-slate-100 pt-5">
                 <button
                   type="button"
                   disabled={currentIndex === 0 || isQuestionLoading}
                   onClick={goPrevious}
-                  className="inline-flex h-11 items-center gap-2 border-2 border-border bg-white px-4 text-sm font-black text-slate-900 shadow-card transition-all hover:-translate-y-0.5 hover:shadow-lift disabled:pointer-events-none disabled:opacity-40"
+                  className="inline-flex h-[48px] items-center gap-2 rounded-xl border-2 border-border bg-white px-5 text-[15px] font-black text-slate-900 shadow-card transition-all hover:-translate-y-0.5 hover:shadow-lift disabled:pointer-events-none disabled:opacity-40"
                 >
                   <ChevronLeft size={18} />
                   Câu trước
                 </button>
-                <span className="hidden items-center bg-slate-100 px-3 text-xs font-black text-slate-500 border-2 border-slate-200 md:inline-flex">
+                <span className="hidden items-center rounded-xl border border-slate-200 bg-slate-50 px-3 text-[13px] font-black text-slate-500 md:inline-flex">
                   ← / → chuyển câu
                 </span>
                 {answerResult ? (
-                  <button type="button" onClick={goNext} className="inline-flex h-11 items-center gap-2 border-2 border-border bg-[#3B82F6] px-5 text-sm font-black text-white shadow-card transition-all hover:-translate-y-0.5 hover:shadow-lift">
+                  <button type="button" onClick={goNext} className="inline-flex h-[48px] items-center gap-2 rounded-xl border-2 border-border bg-[#3B82F6] px-5 text-[15px] font-black text-white shadow-card transition-all hover:-translate-y-0.5 hover:shadow-lift">
                     {currentIndex + 1 >= questions.length ? 'Hoàn thành' : 'Câu tiếp theo'}
                   </button>
                 ) : (
@@ -358,7 +359,7 @@ export const ExamStudyPage = () => {
                     type="button"
                     disabled={currentIndex + 1 >= questions.length || isQuestionLoading}
                     onClick={goNext}
-                    className="inline-flex h-11 items-center gap-2 border-2 border-border bg-white px-5 text-sm font-black text-slate-900 shadow-card transition-all hover:-translate-y-0.5 hover:shadow-lift disabled:pointer-events-none disabled:opacity-40"
+                    className="inline-flex h-[48px] items-center gap-2 rounded-xl border-2 border-border bg-white px-5 text-[15px] font-black text-slate-900 shadow-card transition-all hover:-translate-y-0.5 hover:shadow-lift disabled:pointer-events-none disabled:opacity-40"
                   >
                     Câu sau
                     <ChevronRight size={18} />

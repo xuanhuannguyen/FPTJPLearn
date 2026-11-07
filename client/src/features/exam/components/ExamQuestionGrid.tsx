@@ -22,7 +22,7 @@ function getStyle(status: string, isCurrent: boolean): string {
 }
 
 export const ExamQuestionGrid = ({ total, currentIndex, onSelect, getStatus }: ExamQuestionGridProps) => (
-  <div className="flex shrink-0 flex-wrap gap-2 border-b border-sky-200 bg-white px-4 md:px-6 py-2.5 shadow-sm">
+  <div className="flex shrink-0 flex-wrap gap-2 border-b border-sky-200 bg-white px-4 py-3 shadow-sm md:px-6">
     {Array.from({ length: total }, (_, i) => {
       const status = getStatus(i);
       const isCurrent = i === currentIndex;
@@ -30,7 +30,7 @@ export const ExamQuestionGrid = ({ total, currentIndex, onSelect, getStatus }: E
         <button
           key={i}
           onClick={() => onSelect(i)}
-          className={`grid h-8 w-8 place-items-center rounded-xl text-xs font-black transition-all active:scale-95 ${getStyle(status, isCurrent)}`}
+          className={`grid h-[36px] w-[36px] place-items-center rounded-xl text-[14px] font-black transition-all active:scale-95 ${getStyle(status, isCurrent)}`}
         >
           {i + 1}
         </button>
