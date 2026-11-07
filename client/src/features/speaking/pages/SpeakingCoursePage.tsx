@@ -723,13 +723,13 @@ export const SpeakingCoursePage = () => {
 
               {/* Trạng thái 4.2: VẤN ĐÁP KHÔNG TRANH - Xem danh sách câu hỏi */}
               {selectedQaMode === 'no_image' && !isLoadingQaDetail && !qaDetailError && !isStudyingQa && qaLessonDetail && (
-                <div className="space-y-6">
-                  <div className="rounded-[24px] border-2 border-border bg-white p-5 shadow-card flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
+                <div className="space-y-5">
+                  <div className="rounded-[24px] border-2 border-border bg-white p-4 shadow-card flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
                     <div>
-                      <h3 className="font-heading text-xl font-black text-slate-900">
+                      <h3 className="font-heading text-[23px] font-black text-slate-900">
                         Danh sách câu hỏi phản xạ
                       </h3>
-                      <p className="mt-1 text-xs font-bold text-slate-500">
+                      <p className="mt-1 text-[15px] font-semibold text-slate-500">
                         Bài học có tổng cộng {originalQuestions.length} câu hỏi vấn đáp không tranh.
                       </p>
                     </div>
@@ -742,7 +742,7 @@ export const SpeakingCoursePage = () => {
                         setShowQaGuide(false);
                         setShowQaMeaning(false);
                       }}
-                      className="inline-flex h-12 items-center justify-center gap-2 rounded-full border-2 border-border bg-[#2b160f] px-6 text-sm font-black text-white shadow-pop transition-all hover:-translate-y-0.5 hover:shadow-lift"
+                      className="inline-flex min-h-[44px] items-center justify-center gap-2 rounded-full border-2 border-border bg-[#2b160f] px-6 text-[15px] font-black text-white shadow-pop transition-all hover:-translate-y-0.5 hover:shadow-lift"
                     >
                       <Play size={16} className="fill-current" />
                       Luyện phản xạ ngay
@@ -752,24 +752,24 @@ export const SpeakingCoursePage = () => {
                   {qaLessonDetail.sections?.map((section) => (
                     <div key={section.sectionId} className="space-y-3">
                       <div className="border-b border-slate-200 pb-1">
-                        <h4 className="font-heading text-lg font-black text-slate-800">
+                        <h4 className="font-heading text-[19px] font-black text-slate-800">
                           {section.sectionTitle} - {section.sectionViTitle}
                         </h4>
-                        <p className="text-[11px] font-bold text-slate-400">Mục tiêu: {section.sectionGoal}</p>
+                        <p className="mt-1 text-[14px] font-semibold text-slate-500">Mục tiêu: {section.sectionGoal}</p>
                       </div>
 
-                      <div className="space-y-3">
+                      <div className="space-y-2">
                         {section.questionList.map((question) => (
                           <div
                             key={question.questionId}
-                            className="flex items-start gap-4 p-4 rounded-xl border border-slate-200 bg-white shadow-sm"
+                            className="flex items-start gap-3 rounded-xl border border-slate-200 bg-white p-3 shadow-sm"
                           >
-                            <span className="flex h-7 w-7 shrink-0 items-center justify-center rounded-full border border-slate-300 bg-slate-50 text-xs font-black text-slate-500">
+                            <span className="flex h-[32px] w-[32px] shrink-0 items-center justify-center rounded-full border border-slate-300 bg-slate-50 text-[14px] font-black text-slate-500">
                               {question.order}
                             </span>
                             <div className="min-w-0 flex-1">
-                              <p className="text-sm font-extrabold text-slate-900 leading-normal">{question.question.ja}</p>
-                              <p className="mt-1 text-xs font-bold text-slate-500">{question.question.vi}</p>
+                              <p className="font-jp text-[19px] font-bold leading-[1.6] text-slate-900">{question.question.ja}</p>
+                              <p className="mt-1 text-[15px] font-semibold leading-relaxed text-slate-600">{question.question.vi}</p>
                             </div>
                           </div>
                         ))}
@@ -887,10 +887,10 @@ export const SpeakingCoursePage = () => {
 
               {/* Trạng thái 4.4: ĐANG HỌC VẤN ĐÁP TƯƠNG TÁC (Study Flow) */}
               {selectedQaMode !== null && !isLoadingQaDetail && !qaDetailError && isStudyingQa && currentQuestion && (
-                <div className="space-y-6 animate-fade-in max-w-4xl mx-auto">
+                <div className="mx-auto max-w-4xl animate-fade-in space-y-5">
                   {/* Progress Bar & Header */}
-                  <div className="space-y-2.5 p-4 rounded-2xl bg-sky-50/70 border border-sky-200 shadow-sm">
-                    <div className="flex justify-between items-center text-xs font-black uppercase tracking-wider text-[#0b2554]">
+                  <div className="space-y-2.5 rounded-2xl border border-sky-200 bg-sky-50/70 p-4 text-[14px] shadow-sm">
+                    <div className="flex items-center justify-between text-[14px] font-black uppercase tracking-wide text-[#0b2554]">
                       <span>TIẾN TRÌNH PHẢN XẠ NÓI</span>
                       <span className="text-[#084298] font-extrabold">{currentQuestionIndex + 1} / {allQuestions.length} CÂU</span>
                     </div>
@@ -905,14 +905,14 @@ export const SpeakingCoursePage = () => {
                   {/* Speech & Tool Selection Settings Panel */}
                   <div className="flex flex-wrap items-center justify-between gap-3 p-4 rounded-2xl border border-sky-200 bg-white shadow-sm">
                     <div className="flex items-center gap-2">
-                      <span className="text-xs font-black text-[#0b2554] uppercase tracking-wide">Giọng đọc (TTS):</span>
+                      <span className="text-[14px] font-black uppercase tracking-wide text-[#0b2554]">Giọng đọc (TTS):</span>
                       <select
                         value={selectedVoiceName}
                         onChange={(e) => {
                           stopSpeaking();
                           setSelectedVoiceName(e.target.value);
                         }}
-                        className="rounded-xl border border-sky-300 bg-sky-50/50 px-3 py-1.5 text-xs font-extrabold text-[#0b2554] focus:outline-none focus:ring-2 focus:ring-blue-400"
+                        className="min-h-[40px] rounded-xl border border-sky-300 bg-sky-50/50 px-3 py-1.5 text-[14px] font-extrabold text-[#0b2554] focus:outline-none focus:ring-2 focus:ring-blue-400"
                       >
                         {voices.map((voice) => (
                           <option key={voice.name} value={voice.name}>
@@ -925,13 +925,13 @@ export const SpeakingCoursePage = () => {
 
                     <button
                       onClick={handleToggleShuffle}
-                      className={`inline-flex items-center gap-1.5 h-9 px-4 rounded-xl border text-xs font-extrabold transition-all active:scale-95 shadow-sm ${
+                      className={`inline-flex min-h-[40px] items-center gap-1.5 rounded-xl border px-4 text-[14px] font-extrabold shadow-sm transition-all active:scale-95 ${
                         isShuffled
                           ? 'border-blue-600 bg-[#1264d8] text-white shadow-blue-200'
                           : 'border-sky-300 bg-white text-[#0b2554] hover:bg-sky-50'
                       }`}
                     >
-                      <Shuffle size={13} />
+                      <Shuffle size={16} />
                       {isShuffled ? 'Bỏ trộn câu' : 'Trộn câu hỏi'}
                     </button>
                   </div>
@@ -952,17 +952,17 @@ export const SpeakingCoursePage = () => {
                       </div>
                     )}
 
-                    <div className="p-5 md:p-7 w-full flex flex-col items-center">
+                    <div className="flex w-full flex-col items-center p-4 md:p-5">
                       {shouldShowQuestionAudio && (
                         <>
                           {shouldShowQuestionText && (
                             <div className="flex items-center justify-between w-full mb-3">
-                              <span className="text-xs font-black uppercase tracking-[0.16em] text-[#084298]">
+                              <span className="text-[14px] font-black uppercase tracking-[0.14em] text-[#084298]">
                                 CÂU HỎI {currentQuestionIndex + 1}
                               </span>
                               <button
                                 onClick={() => setShowQaMeaning((v) => !v)}
-                                className="text-xs font-black text-[#1264d8] hover:text-[#084298] transition"
+                                className="text-[14px] font-black text-[#1264d8] transition hover:text-[#084298]"
                               >
                                 {showQaMeaning ? 'Ẩn nghĩa câu hỏi' : 'Hiện nghĩa câu hỏi'}
                               </button>
@@ -996,11 +996,11 @@ export const SpeakingCoursePage = () => {
 
                             {shouldShowQuestionText && (
                               <div className="space-y-2">
-                                <h2 className="text-xl md:text-2xl font-black text-[#0b2554] tracking-wide select-all">
+                                <h2 className="font-jp text-[26px] font-black tracking-wide text-[#0b2554] select-all md:text-[30px]">
                                   {currentQuestion.question.ja}
                                 </h2>
                                 {showQaMeaning && (
-                                  <p className="text-sm font-extrabold text-slate-600 leading-normal">
+                                  <p className="mt-1 text-[17px] font-bold leading-relaxed text-slate-600">
                                     {currentQuestion.question.vi}
                                   </p>
                                 )}
@@ -1014,13 +1014,13 @@ export const SpeakingCoursePage = () => {
                       <div className={`${shouldShowQuestionText ? 'mt-4 border-t border-sky-100 pt-4' : ''} w-full flex justify-center`}>
                         <button
                           onClick={() => setShowQaGuide((g) => !g)}
-                          className={`inline-flex items-center gap-1.5 px-5 py-2 rounded-full border-2 text-xs font-black transition-all active:translate-y-0.5 shadow-sm ${
+                          className={`inline-flex min-h-[42px] items-center gap-2 rounded-full border-2 px-5 py-2 text-[15px] font-black shadow-sm transition-all active:translate-y-0.5 ${
                             showQaGuide
                               ? 'border-[#0b2554] bg-[#0b2554] text-white shadow-sky-200'
                               : 'border-[#0b2554] bg-white text-[#0b2554] hover:bg-sky-50'
                           }`}
                         >
-                          <Sparkles size={14} />
+                          <Sparkles size={16} />
                           {showQaGuide ? 'Ẩn Hướng Dẫn' : 'Hiện Hướng Dẫn'}
                         </button>
                       </div>
@@ -1029,25 +1029,25 @@ export const SpeakingCoursePage = () => {
 
                   {/* KHU VỰC HƯỚNG DẪN HỌC (CHỈ HIỂN THỊ KHI BẬT) */}
                   {showQaGuide && (
-                    <div className="grid grid-cols-1 lg:grid-cols-12 gap-6 items-stretch animate-fade-in">
+                    <div className="grid grid-cols-1 items-stretch gap-4 animate-fade-in lg:grid-cols-12">
                       {/* Cột trái: Câu trả lời gợi ý + Mẹo & Lỗi (7/12) */}
-                      <div className="lg:col-span-7 space-y-6 flex flex-col justify-between">
+                      <div className="flex flex-col justify-between space-y-4 lg:col-span-7">
                         {/* Thẻ Gợi ý câu trả lời */}
-                        <div className="rounded-3xl border border-teal-200/80 bg-[#eefbfa] p-5 shadow-sm space-y-4 flex-grow flex flex-col">
-                          <h3 className="font-heading text-lg font-black text-emerald-900 flex items-center gap-2 border-b border-teal-200/80 pb-2 shrink-0">
+                        <div className="rounded-3xl border border-teal-200/80 bg-[#eefbfa] p-4 shadow-sm space-y-3 flex-grow flex flex-col">
+                          <h3 className="flex shrink-0 items-center gap-2 border-b border-teal-200/80 pb-2 font-heading text-[19px] font-black text-emerald-900">
                             Gợi ý câu trả lời
                           </h3>
-                          <div className="space-y-3 flex-grow overflow-y-auto">
+                          <div className="space-y-2.5 flex-grow overflow-y-auto">
                             {currentQuestion.sampleAnswers.map((answer, index) => {
                               const isSpeakingSample = speakingSampleId === `sample_${index}`;
                               return (
                                 <div
                                   key={index}
-                                  className="flex items-start justify-between gap-4 p-3.5 rounded-2xl border border-teal-200 bg-white shadow-sm"
+                                  className="flex items-start justify-between gap-3 rounded-2xl border border-teal-200 bg-white p-3 shadow-sm"
                                 >
                                   <div className="min-w-0 flex-1">
-                                    <p className="text-sm font-black text-slate-900 select-all leading-normal">{answer.ja}</p>
-                                    <p className="mt-1 text-xs font-bold text-slate-600 leading-normal">{answer.vi}</p>
+                                    <p className="font-jp text-[18px] font-bold leading-relaxed text-slate-900 select-all">{answer.ja}</p>
+                                    <p className="mt-1 text-[15px] font-semibold leading-relaxed text-slate-600">{answer.vi}</p>
                                   </div>
                                   <button
                                     type="button"
@@ -1080,14 +1080,14 @@ export const SpeakingCoursePage = () => {
                         {/* Thẻ mẹo thi & lỗi sai (ghép phía dưới) */}
                         <div className="space-y-4 pt-2 shrink-0">
                           {currentQuestion.tips && currentQuestion.tips.length > 0 && (
-                            <div className="rounded-3xl border border-amber-300/80 bg-[#fffbeb] p-5 shadow-sm space-y-2">
-                              <h3 className="font-heading text-sm font-black text-amber-900 flex items-center gap-1.5 border-b border-amber-200 pb-1.5">
+                            <div className="rounded-3xl border border-amber-300/80 bg-[#fffbeb] p-4 shadow-sm space-y-2">
+                              <h3 className="flex items-center gap-2 border-b border-amber-200 pb-1.5 font-heading text-[17px] font-black text-amber-900">
                                 <Lightbulb size={16} className="text-amber-700" />
                                 Mẹo làm bài thi
                               </h3>
                               <ul className="space-y-1.5">
                                 {currentQuestion.tips.map((tip, idx) => (
-                                  <li key={idx} className="flex items-start gap-2 text-xs font-bold text-amber-950 leading-relaxed">
+                                  <li key={idx} className="flex items-start gap-2 text-[15px] font-semibold leading-relaxed text-amber-950">
                                     <span className="mt-1.5 shrink-0 h-1.5 w-1.5 rounded-full bg-amber-600" />
                                     <span>{tip}</span>
                                   </li>
@@ -1097,14 +1097,14 @@ export const SpeakingCoursePage = () => {
                           )}
 
                           {currentQuestion.commonMistakes && currentQuestion.commonMistakes.length > 0 && (
-                            <div className="rounded-3xl border border-rose-200 bg-[#fff1f2] p-5 shadow-sm space-y-2">
-                              <h3 className="font-heading text-sm font-black text-rose-900 flex items-center gap-1.5 border-b border-rose-200 pb-1.5">
+                            <div className="rounded-3xl border border-rose-200 bg-[#fff1f2] p-4 shadow-sm space-y-2">
+                              <h3 className="flex items-center gap-2 border-b border-rose-200 pb-1.5 font-heading text-[17px] font-black text-rose-900">
                                 <AlertCircle size={16} className="text-rose-700" />
                                 Lỗi thường gặp
                               </h3>
                               <ul className="space-y-1.5">
                                 {currentQuestion.commonMistakes.map((mistake, idx) => (
-                                  <li key={idx} className="flex items-start gap-2 text-xs font-bold text-rose-950 leading-relaxed">
+                                  <li key={idx} className="flex items-start gap-2 text-[15px] font-semibold leading-relaxed text-rose-950">
                                     <span className="mt-1.5 shrink-0 h-1.5 w-1.5 rounded-full bg-rose-600" />
                                     <span>{mistake}</span>
                                   </li>
@@ -1117,28 +1117,28 @@ export const SpeakingCoursePage = () => {
 
                       {/* Cột phải: Từ vựng liên quan (5/12) */}
                       <div className="lg:col-span-5 flex flex-col">
-                        <div className="rounded-3xl border border-sky-200 bg-[#eef6ff] p-5 shadow-sm space-y-4 flex-grow flex flex-col min-h-[300px]">
-                          <h3 className="font-heading text-lg font-black text-[#0b2554] flex items-center gap-2 border-b border-sky-200 pb-2 shrink-0">
+                        <div className="rounded-3xl border border-sky-200 bg-[#eef6ff] p-4 shadow-sm space-y-3 flex-grow flex flex-col min-h-[300px]">
+                          <h3 className="flex shrink-0 items-center gap-2 border-b border-sky-200 pb-2 font-heading text-[19px] font-black text-[#0b2554]">
                             Từ vựng liên quan
                           </h3>
 
                           {currentQuestion.relatedVocabulary && currentQuestion.relatedVocabulary.length > 0 ? (
                             /* Grid 2 cột phủ hết chiều ngang box ngoài */
-                            <div className="grid w-full grid-cols-2 content-start gap-2.5 overflow-y-auto pr-1 flex-grow">
+                            <div className="grid w-full grid-cols-2 content-start gap-2 overflow-y-auto pr-1 flex-grow">
                               {currentQuestion.relatedVocabulary.map((vocab, index) => {
                                 const isSpeakingVocab = speakingVocabWord === vocab.word;
                                 return (
                                   <div
                                     key={index}
-                                    className="min-w-0 rounded-2xl border border-sky-200 bg-white p-2.5 shadow-sm hover:border-sky-300 transition text-left"
+                                    className="min-w-0 rounded-2xl border border-sky-200 bg-white p-2.5 text-left shadow-sm transition hover:border-sky-300"
                                   >
                                     <div className="flex min-w-0 items-start justify-between gap-1.5">
                                       <div className="min-w-0">
-                                        <span className="block truncate text-xs font-black text-[#1264d8]" title={vocab.word}>
+                                        <span className="block truncate font-jp text-[16px] font-black text-[#1264d8]" title={vocab.word}>
                                           {vocab.word}
                                         </span>
                                         {vocab.reading && (
-                                          <span className="block truncate text-[9px] font-bold text-slate-500" title={vocab.reading}>
+                                          <span className="block truncate font-jp text-[13px] font-semibold text-slate-500" title={vocab.reading}>
                                             [{vocab.reading}]
                                           </span>
                                         )}
@@ -1157,16 +1157,16 @@ export const SpeakingCoursePage = () => {
                                             );
                                           }
                                         }}
-                                        className={`flex h-6 w-6 shrink-0 items-center justify-center rounded-lg border transition-all ${
+                                        className={`flex h-[30px] w-[30px] shrink-0 items-center justify-center rounded-lg border transition-all ${
                                           isSpeakingVocab
                                             ? 'bg-rose-500 text-white border-rose-600'
                                             : 'bg-sky-100 text-sky-700 border-sky-200 hover:bg-sky-200'
                                         }`}
                                       >
-                                        {isSpeakingVocab ? <VolumeX size={11} /> : <Volume2 size={11} />}
+                                        {isSpeakingVocab ? <VolumeX size={14} /> : <Volume2 size={14} />}
                                       </button>
                                     </div>
-                                    <span className="mt-1.5 block border-t border-slate-100 pt-1.5 text-[11px] font-extrabold leading-normal text-slate-700 line-clamp-2" title={vocab.meaning}>
+                                    <span className="mt-1.5 block border-t border-slate-100 pt-1.5 text-[15px] font-semibold leading-relaxed text-slate-700 line-clamp-2" title={vocab.meaning}>
                                       {vocab.meaning}
                                     </span>
                                   </div>
@@ -1175,7 +1175,7 @@ export const SpeakingCoursePage = () => {
                             </div>
                           ) : (
                             <div className="flex flex-col items-center justify-center p-8 text-center text-slate-400 flex-grow bg-white border border-sky-200 border-dashed rounded-2xl">
-                              <p className="text-xs font-bold">Không có từ vựng liên quan.</p>
+                              <p className="text-[14px] font-semibold">Không có từ vựng liên quan.</p>
                             </div>
                           )}
                         </div>
@@ -1189,18 +1189,18 @@ export const SpeakingCoursePage = () => {
                       type="button"
                       disabled={currentQuestionIndex === 0}
                       onClick={handlePrevQuestion}
-                      className="inline-flex h-11 items-center justify-center gap-1.5 rounded-full border-2 border-sky-300 bg-white px-5 text-xs font-black text-[#0b2554] shadow-sm transition-all hover:bg-sky-50 active:scale-95 disabled:pointer-events-none disabled:opacity-40"
+                      className="inline-flex min-h-[44px] items-center justify-center gap-1.5 rounded-full border-2 border-sky-300 bg-white px-5 text-[14px] font-black text-[#0b2554] shadow-sm transition-all hover:bg-sky-50 active:scale-95 disabled:pointer-events-none disabled:opacity-40"
                     >
-                      <ChevronLeft size={16} />
+                      <ChevronLeft size={18} />
                       Câu trước
                     </button>
 
                     <button
                       type="button"
                       onClick={handleBack}
-                      className="inline-flex h-11 items-center justify-center gap-1.5 rounded-full border-2 border-slate-300 bg-white px-5 text-xs font-black text-slate-700 shadow-sm transition-all hover:bg-slate-50 active:scale-95"
+                      className="inline-flex min-h-[44px] items-center justify-center gap-1.5 rounded-full border-2 border-slate-300 bg-white px-5 text-[14px] font-black text-slate-700 shadow-sm transition-all hover:bg-slate-50 active:scale-95"
                     >
-                      <Undo2 size={15} />
+                      <Undo2 size={17} />
                       Dừng luyện tập
                     </button>
 
@@ -1208,10 +1208,10 @@ export const SpeakingCoursePage = () => {
                       type="button"
                       disabled={currentQuestionIndex === allQuestions.length - 1}
                       onClick={handleNextQuestion}
-                      className="inline-flex h-11 items-center justify-center gap-1.5 rounded-full border-2 border-blue-600 bg-gradient-to-r from-blue-600 to-[#1264d8] px-6 text-xs font-black uppercase tracking-wider text-white shadow-md shadow-blue-200 transition-all hover:from-blue-700 hover:to-[#084298] active:scale-95 disabled:pointer-events-none disabled:opacity-40 disabled:shadow-none"
+                      className="inline-flex min-h-[44px] items-center justify-center gap-1.5 rounded-full border-2 border-blue-600 bg-gradient-to-r from-blue-600 to-[#1264d8] px-6 text-[14px] font-black uppercase tracking-wide text-white shadow-md shadow-blue-200 transition-all hover:from-blue-700 hover:to-[#084298] active:scale-95 disabled:pointer-events-none disabled:opacity-40 disabled:shadow-none"
                     >
                       Câu sau
-                      <ChevronRight size={16} />
+                      <ChevronRight size={18} />
                     </button>
                   </div>
                 </div>

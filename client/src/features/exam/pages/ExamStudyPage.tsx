@@ -262,8 +262,8 @@ export const ExamStudyPage = () => {
           <p className="mt-2 text-[16px] font-semibold text-slate-600">Chủ đề này chưa có dữ liệu luyện thi.</p>
         </div>
       ) : (
-        <section className="rounded-[28px] border border-slate-200 bg-white p-[22px] shadow-[0_12px_36px_rgba(15,23,42,0.07)] md:p-[32px]">
-          <div className="mb-6 flex flex-wrap items-center justify-between gap-3 border-b border-slate-200 pb-5">
+        <section className="rounded-[28px] border border-slate-200 bg-white p-5 shadow-[0_12px_36px_rgba(15,23,42,0.07)] md:p-6">
+          <div className="mb-4 flex flex-wrap items-center justify-between gap-3 border-b border-slate-200 pb-4">
             <div>
               <p className="text-[13px] font-black uppercase tracking-[0.16em] text-slate-500">Câu hỏi</p>
               <h2 className="mt-1 text-[28px] font-black leading-tight text-slate-900">
@@ -281,9 +281,9 @@ export const ExamStudyPage = () => {
               <p className="font-bold text-slate-500">Đang tải câu hỏi...</p>
             </div>
           ) : (
-            <div className="space-y-6">
+            <div className="space-y-4">
               {currentQuestion.passage ? (
-                <div className="rounded-2xl border border-slate-200 bg-[#F8FAFC] p-[18px] md:p-[24px]">
+                <div className="rounded-2xl border border-slate-200 bg-[#F8FAFC] p-4 md:p-5">
                   <p className="mb-3 text-[14px] font-black uppercase tracking-[0.14em] text-slate-500">{currentQuestion.passage.title}</p>
                   <p className="whitespace-pre-wrap font-jp text-[20px] font-medium leading-[1.9] tracking-[0.01em] text-slate-900 md:text-[22px]">{currentQuestion.passage.content}</p>
                 </div>
@@ -291,10 +291,10 @@ export const ExamStudyPage = () => {
 
               <div>
                 <p className="text-[14px] font-black uppercase tracking-[0.14em] text-blue-600">Câu hỏi</p>
-                <h2 className="mt-2 font-jp text-[25px] font-bold leading-[1.8] tracking-[0.01em] text-slate-900 md:text-[30px]">{currentQuestion.questionText}</h2>
+                <h2 className="mt-1 font-jp text-[25px] font-bold leading-[1.8] tracking-[0.01em] text-slate-900 md:text-[30px]">{currentQuestion.questionText}</h2>
               </div>
 
-              <div className="grid gap-3">
+              <div className="grid gap-2.5">
                 {currentQuestion.options.map((option) => {
                   const isSelected = selectedOptionId === option.id;
                   const isCorrect = answerResult?.correctOptionId === option.id;
@@ -306,7 +306,7 @@ export const ExamStudyPage = () => {
                       type="button"
                       disabled={Boolean(answerResult) || isAnswering}
                       onClick={() => answerQuestion(option.id)}
-                      className={`flex min-h-[68px] items-center gap-4 rounded-2xl border-2 bg-white px-[20px] py-[16px] text-left transition-all focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-blue-100 ${
+                      className={`flex min-h-[60px] items-center gap-3 rounded-2xl border-2 bg-white px-4 py-3 text-left transition-all focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-blue-100 ${
                         isCorrect
                           ? 'border-accent-success bg-[#ECFDF5] text-accent-success shadow-[3px_3px_0_#10B981]'
                           : isWrongSelection
@@ -316,7 +316,7 @@ export const ExamStudyPage = () => {
                               : 'border-slate-200 text-slate-900 hover:-translate-y-0.5 hover:border-border-hover hover:shadow-lift'
                       } disabled:cursor-default`}
                     >
-                      <span className="grid h-[36px] w-[36px] shrink-0 place-items-center rounded-xl border-2 border-current text-[14px] font-black">{option.label}</span>
+                      <span className="grid h-8 w-8 shrink-0 place-items-center rounded-xl border-2 border-current text-[14px] font-black">{option.label}</span>
                       <span className="font-jp text-[20px] font-semibold leading-relaxed tracking-[0.01em]">{option.text}</span>
                     </button>
                   );
@@ -337,12 +337,12 @@ export const ExamStudyPage = () => {
                 </div>
               ) : null}
 
-              <div className="flex flex-wrap justify-end gap-3 border-t border-slate-100 pt-5">
+              <div className="flex flex-wrap justify-end gap-2.5 border-t border-slate-100 pt-4">
                 <button
                   type="button"
                   disabled={currentIndex === 0 || isQuestionLoading}
                   onClick={goPrevious}
-                  className="inline-flex h-[48px] items-center gap-2 rounded-xl border-2 border-border bg-white px-5 text-[15px] font-black text-slate-900 shadow-card transition-all hover:-translate-y-0.5 hover:shadow-lift disabled:pointer-events-none disabled:opacity-40"
+                  className="inline-flex h-11 items-center gap-2 rounded-xl border-2 border-border bg-white px-4 text-[15px] font-black text-slate-900 shadow-card transition-all hover:-translate-y-0.5 hover:shadow-lift disabled:pointer-events-none disabled:opacity-40"
                 >
                   <ChevronLeft size={18} />
                   Câu trước
@@ -351,7 +351,7 @@ export const ExamStudyPage = () => {
                   ← / → chuyển câu
                 </span>
                 {answerResult ? (
-                  <button type="button" onClick={goNext} className="inline-flex h-[48px] items-center gap-2 rounded-xl border-2 border-border bg-[#3B82F6] px-5 text-[15px] font-black text-white shadow-card transition-all hover:-translate-y-0.5 hover:shadow-lift">
+                  <button type="button" onClick={goNext} className="inline-flex h-11 items-center gap-2 rounded-xl border-2 border-border bg-[#3B82F6] px-4 text-[15px] font-black text-white shadow-card transition-all hover:-translate-y-0.5 hover:shadow-lift">
                     {currentIndex + 1 >= questions.length ? 'Hoàn thành' : 'Câu tiếp theo'}
                   </button>
                 ) : (
@@ -359,7 +359,7 @@ export const ExamStudyPage = () => {
                     type="button"
                     disabled={currentIndex + 1 >= questions.length || isQuestionLoading}
                     onClick={goNext}
-                    className="inline-flex h-[48px] items-center gap-2 rounded-xl border-2 border-border bg-white px-5 text-[15px] font-black text-slate-900 shadow-card transition-all hover:-translate-y-0.5 hover:shadow-lift disabled:pointer-events-none disabled:opacity-40"
+                    className="inline-flex h-11 items-center gap-2 rounded-xl border-2 border-border bg-white px-4 text-[15px] font-black text-slate-900 shadow-card transition-all hover:-translate-y-0.5 hover:shadow-lift disabled:pointer-events-none disabled:opacity-40"
                   >
                     Câu sau
                     <ChevronRight size={18} />
